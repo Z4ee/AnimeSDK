@@ -5,9 +5,9 @@
 namespace HoudiniEngineUnity { class HEU_HoudiniAsset; }
 namespace UnityEngine { class GameObject; }
 
-#define HEU_SCRIPTPARAMETEREXAMPLE__CTOR_OFFSET UNITYSDK_OFFSET(0x17EA2EA0)
+#define HEU_SCRIPTPARAMETEREXAMPLE__CTOR_OFFSET UNITYSDK_OFFSET(0x150085E0)
 
-inline static constexpr unsigned int HEU_ScriptParameterExample_TypeDefinitionIndex = 37389;
+inline static constexpr unsigned int HEU_ScriptParameterExample_TypeDefinitionIndex = 38197;
 
 class HEU_ScriptParameterExample : public ::UnityEngine::MonoBehaviour
 {

@@ -5,7 +5,7 @@
 
 namespace UnityEngine::Timeline
 {
-	inline static constexpr unsigned int AnimationOutputWeightProcessor_WeightInfo_TypeDefinitionIndex = 35831;
+	inline static constexpr unsigned int AnimationOutputWeightProcessor_WeightInfo_TypeDefinitionIndex = 36613;
 
 	struct alignas(8) AnimationOutputWeightProcessor_WeightInfo
 	{

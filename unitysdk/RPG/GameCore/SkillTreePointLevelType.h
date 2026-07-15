@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SkillTreePointLevelType_TypeDefinitionIndex = 17244;
+	inline static constexpr unsigned int SkillTreePointLevelType_TypeDefinitionIndex = 17406;
 
 	enum class SkillTreePointLevelType : ::System::Int32
 	{

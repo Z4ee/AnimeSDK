@@ -11,13 +11,13 @@ namespace UnityEngine::Events { class UnityAction; }
 namespace UnityEngine::UI { class GridLayoutGroup; }
 namespace UnityEngine::UI { class ScrollRect; }
 
-#define RPG_CLIENT_MONOSCROLLVIEW_BINDVIEW_OFFSET UNITYSDK_OFFSET(0xC145600)
-#define RPG_CLIENT_MONOSCROLLVIEW_ONENDDRAG_OFFSET UNITYSDK_OFFSET(0xC1457F0)
-#define RPG_CLIENT_MONOSCROLLVIEW__CTOR_OFFSET UNITYSDK_OFFSET(0xC145860)
+#define RPG_CLIENT_MONOSCROLLVIEW_BINDVIEW_OFFSET UNITYSDK_OFFSET(0x1A34B660)
+#define RPG_CLIENT_MONOSCROLLVIEW_ONENDDRAG_OFFSET UNITYSDK_OFFSET(0x1A34B850)
+#define RPG_CLIENT_MONOSCROLLVIEW__CTOR_OFFSET UNITYSDK_OFFSET(0x1A34B8C0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MonoScrollView_TypeDefinitionIndex = 67837;
+	inline static constexpr unsigned int MonoScrollView_TypeDefinitionIndex = 69321;
 
 	class MonoScrollView : public ::UnityEngine::MonoBehaviour
 	{

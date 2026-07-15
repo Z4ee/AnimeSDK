@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class RelateTimeRewindTargetMaterial; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_E300F2405D890CC4_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xAA4D090)
-#define CLASS_3_E300F2405D890CC4__CTOR_OFFSET UNITYSDK_OFFSET(0xAA4D060)
+#define CLASS_3_E300F2405D890CC4_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1658EC70)
+#define CLASS_3_E300F2405D890CC4__CTOR_OFFSET UNITYSDK_OFFSET(0x1658EC40)
 
-inline static constexpr unsigned int Class_3_E300F2405D890CC4_TypeDefinitionIndex = 49880;
+inline static constexpr unsigned int Class_3_E300F2405D890CC4_TypeDefinitionIndex = 50957;
 
 class Class_3_E300F2405D890CC4 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::RelateTimeRewindTargetMaterial*>
 {

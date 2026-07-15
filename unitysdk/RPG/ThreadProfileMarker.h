@@ -6,22 +6,22 @@ namespace RPG { class ThreadStatProfiler; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_THREADPROFILEMARKER_BEGIN_OFFSET UNITYSDK_OFFSET(0x1ABB58F0)
-#define RPG_THREADPROFILEMARKER_END_OFFSET UNITYSDK_OFFSET(0x1ABB5E30)
-#define RPG_THREADPROFILEMARKER_GET_NAME_OFFSET UNITYSDK_OFFSET(0x1ABB6000)
-#define RPG_THREADPROFILEMARKER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1ABB6010)
-#define RPG_THREADPROFILEMARKER__CTOR_OFFSET UNITYSDK_OFFSET(0x1ABB58E0)
+#define RPG_THREADPROFILEMARKER_BEGIN_OFFSET UNITYSDK_OFFSET(0x1D2A5A60)
+#define RPG_THREADPROFILEMARKER_END_OFFSET UNITYSDK_OFFSET(0x1D2A5FA0)
+#define RPG_THREADPROFILEMARKER_GET_NAME_OFFSET UNITYSDK_OFFSET(0x1D2A6170)
+#define RPG_THREADPROFILEMARKER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1D2A6180)
+#define RPG_THREADPROFILEMARKER__CTOR_OFFSET UNITYSDK_OFFSET(0x1D2A5A50)
 
 namespace RPG
 {
-	inline static constexpr unsigned int ThreadProfileMarker_TypeDefinitionIndex = 33358;
+	inline static constexpr unsigned int ThreadProfileMarker_TypeDefinitionIndex = 33728;
 
 	class ThreadProfileMarker : public ::System::Object
 	{
 	public:
 		static ::System::Collections::Generic::List_1<::RPG::ThreadProfileMarker*>** StaticGet_AllMarkers()
 		{
-			return (::System::Collections::Generic::List_1<::RPG::ThreadProfileMarker*>**)Il2CppClass::FromTypeDefinitionIndex(ThreadProfileMarker_TypeDefinitionIndex)->GetStaticField(0xCC0);
+			return (::System::Collections::Generic::List_1<::RPG::ThreadProfileMarker*>**)Il2CppClass::FromTypeDefinitionIndex(ThreadProfileMarker_TypeDefinitionIndex)->GetStaticField(0x9F0);
 		}
 		static ::RPG::ThreadStatProfiler** StaticGet_ThreadStat()
 		{

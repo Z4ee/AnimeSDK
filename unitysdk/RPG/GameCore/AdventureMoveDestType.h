@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AdventureMoveDestType_TypeDefinitionIndex = 53279;
+	inline static constexpr unsigned int AdventureMoveDestType_TypeDefinitionIndex = 54494;
 
 	enum class AdventureMoveDestType : ::System::Int32
 	{

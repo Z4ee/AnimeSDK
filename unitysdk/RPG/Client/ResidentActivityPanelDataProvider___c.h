@@ -6,29 +6,29 @@ namespace RPG::Client { class ActivityPanelData; }
 namespace RPG::Client { class ActivityPanelDataResidentAdaptor; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define RPG_CLIENT_RESIDENTACTIVITYPANELDATAPROVIDER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xC71AAB0)
-#define RPG_CLIENT_RESIDENTACTIVITYPANELDATAPROVIDER___C__CTOR_OFFSET UNITYSDK_OFFSET(0xC71AAE0)
-#define RPG_CLIENT_RESIDENTACTIVITYPANELDATAPROVIDER___C__GETDISPLAYRESIDENTACTIVITIES_B__0_0_OFFSET UNITYSDK_OFFSET(0xC71AAF0)
-#define RPG_CLIENT_RESIDENTACTIVITYPANELDATAPROVIDER___C__GETDISPLAYRESIDENTACTIVITIES_B__0_1_OFFSET UNITYSDK_OFFSET(0xC71AB30)
+#define RPG_CLIENT_RESIDENTACTIVITYPANELDATAPROVIDER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x173A0680)
+#define RPG_CLIENT_RESIDENTACTIVITYPANELDATAPROVIDER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x173A06B0)
+#define RPG_CLIENT_RESIDENTACTIVITYPANELDATAPROVIDER___C__GETDISPLAYRESIDENTACTIVITIES_B__0_0_OFFSET UNITYSDK_OFFSET(0x173A06C0)
+#define RPG_CLIENT_RESIDENTACTIVITYPANELDATAPROVIDER___C__GETDISPLAYRESIDENTACTIVITIES_B__0_1_OFFSET UNITYSDK_OFFSET(0x173A0760)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ResidentActivityPanelDataProvider___c_TypeDefinitionIndex = 57762;
+	inline static constexpr unsigned int ResidentActivityPanelDataProvider___c_TypeDefinitionIndex = 59028;
 
 	class ResidentActivityPanelDataProvider___c : public ::System::Object
 	{
 	public:
+		static ::System::Func_2<::RPG::Client::ActivityPanelData*, ::System::Boolean>** StaticGet___9__0_0()
+		{
+			return (::System::Func_2<::RPG::Client::ActivityPanelData*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(ResidentActivityPanelDataProvider___c_TypeDefinitionIndex)->GetStaticField(0x21B30);
+		}
 		static ::RPG::Client::ResidentActivityPanelDataProvider___c** StaticGet___9()
 		{
-			return (::RPG::Client::ResidentActivityPanelDataProvider___c**)Il2CppClass::FromTypeDefinitionIndex(ResidentActivityPanelDataProvider___c_TypeDefinitionIndex)->GetStaticField(0x2C790);
+			return (::RPG::Client::ResidentActivityPanelDataProvider___c**)Il2CppClass::FromTypeDefinitionIndex(ResidentActivityPanelDataProvider___c_TypeDefinitionIndex)->GetStaticField(0x21B38);
 		}
 		static ::System::Func_2<::RPG::Client::ActivityPanelData*, ::RPG::Client::ActivityPanelDataResidentAdaptor*>** StaticGet___9__0_1()
 		{
-			return (::System::Func_2<::RPG::Client::ActivityPanelData*, ::RPG::Client::ActivityPanelDataResidentAdaptor*>**)Il2CppClass::FromTypeDefinitionIndex(ResidentActivityPanelDataProvider___c_TypeDefinitionIndex)->GetStaticField(0x2C798);
-		}
-		static ::System::Func_2<::RPG::Client::ActivityPanelData*, ::System::Boolean>** StaticGet___9__0_0()
-		{
-			return (::System::Func_2<::RPG::Client::ActivityPanelData*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(ResidentActivityPanelDataProvider___c_TypeDefinitionIndex)->GetStaticField(0x2C7A0);
+			return (::System::Func_2<::RPG::Client::ActivityPanelData*, ::RPG::Client::ActivityPanelDataResidentAdaptor*>**)Il2CppClass::FromTypeDefinitionIndex(ResidentActivityPanelDataProvider___c_TypeDefinitionIndex)->GetStaticField(0x21B40);
 		}
 
 		static ::System::Void _cctor()

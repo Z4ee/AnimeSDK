@@ -3,7 +3,7 @@
 
 namespace RPG::Client::OpenWorld
 {
-	inline static constexpr unsigned int BlockVisibleReason_TypeDefinitionIndex = 68992;
+	inline static constexpr unsigned int BlockVisibleReason_TypeDefinitionIndex = 70510;
 
 	enum class BlockVisibleReason : ::System::Int32
 	{

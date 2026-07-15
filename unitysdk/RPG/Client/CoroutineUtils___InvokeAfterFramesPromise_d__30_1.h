@@ -6,7 +6,7 @@ namespace System { template <typename T> class Action_1; }
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int CoroutineUtils___InvokeAfterFramesPromise_d__30_1_TypeDefinitionIndex = 33429;
+	inline static constexpr unsigned int CoroutineUtils___InvokeAfterFramesPromise_d__30_1_TypeDefinitionIndex = 33799;
 
 	template <typename TReturn>
 	class CoroutineUtils___InvokeAfterFramesPromise_d__30_1 : public ::System::Object

@@ -6,13 +6,13 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_ST_SIDE_HIPPLEN_LOOKAT_METHOD_4_5E46A316C91915C1_OFFSET UNITYSDK_OFFSET(0x19C1A430)
-#define RPG_GAMECORE_ST_SIDE_HIPPLEN_LOOKAT_METHOD_4_C49E77C19E8C1B86_OFFSET UNITYSDK_OFFSET(0x19C09DD0)
-#define RPG_GAMECORE_ST_SIDE_HIPPLEN_LOOKAT__CTOR_OFFSET UNITYSDK_OFFSET(0x19C09D70)
+#define RPG_GAMECORE_ST_SIDE_HIPPLEN_LOOKAT_METHOD_4_B47524ECA659C43F_OFFSET UNITYSDK_OFFSET(0x1B7896F0)
+#define RPG_GAMECORE_ST_SIDE_HIPPLEN_LOOKAT_METHOD_4_C49E77C19E8C1B86_OFFSET UNITYSDK_OFFSET(0x1B789750)
+#define RPG_GAMECORE_ST_SIDE_HIPPLEN_LOOKAT__CTOR_OFFSET UNITYSDK_OFFSET(0x1B789730)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ST_Side_Hipplen_LookAt_TypeDefinitionIndex = 20135;
+	inline static constexpr unsigned int ST_Side_Hipplen_LookAt_TypeDefinitionIndex = 20507;
 
 	class ST_Side_Hipplen_LookAt : public ::RPG::GameCore::STTaskConfig
 	{
@@ -31,9 +31,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ST_SIDE_HIPPLEN_LOOKAT__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_4_5E46A316C91915C1(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ST_Side_Hipplen_LookAt*& a2)
+		static ::System::Void Method_4_B47524ECA659C43F(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ST_Side_Hipplen_LookAt*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ST_Side_Hipplen_LookAt*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ST_SIDE_HIPPLEN_LOOKAT_METHOD_4_5E46A316C91915C1_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ST_Side_Hipplen_LookAt*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ST_SIDE_HIPPLEN_LOOKAT_METHOD_4_B47524ECA659C43F_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_4_C49E77C19E8C1B86(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ST_Side_Hipplen_LookAt* a2)

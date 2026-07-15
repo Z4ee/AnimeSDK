@@ -5,12 +5,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_LEVELNPCMODELPRESETCONFIG_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1987D0F0)
-#define RPG_GAMECORE_LEVELNPCMODELPRESETCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1987D8E0)
+#define RPG_GAMECORE_LEVELNPCMODELPRESETCONFIG_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B076600)
+#define RPG_GAMECORE_LEVELNPCMODELPRESETCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1B076E40)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LevelNPCModelPresetConfig_TypeDefinitionIndex = 16426;
+	inline static constexpr unsigned int LevelNPCModelPresetConfig_TypeDefinitionIndex = 16588;
 
 	class LevelNPCModelPresetConfig : public ::RPG::GameCore::JsonConfig
 	{

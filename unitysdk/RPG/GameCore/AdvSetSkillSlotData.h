@@ -6,13 +6,13 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class AdvSetSkillSlotDataItem; }
 namespace RPG::GameCore { class TargetEvaluator; }
 
-#define RPG_GAMECORE_ADVSETSKILLSLOTDATA_METHOD_3_5C9A2E60612CC682_OFFSET UNITYSDK_OFFSET(0x19438450)
-#define RPG_GAMECORE_ADVSETSKILLSLOTDATA_METHOD_3_B6EA4DCEE4C9C329_OFFSET UNITYSDK_OFFSET(0x19438380)
-#define RPG_GAMECORE_ADVSETSKILLSLOTDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x19438400)
+#define RPG_GAMECORE_ADVSETSKILLSLOTDATA_METHOD_3_5C9A2E60612CC682_OFFSET UNITYSDK_OFFSET(0x1BE2E6C0)
+#define RPG_GAMECORE_ADVSETSKILLSLOTDATA_METHOD_3_8DBEFE5F51BEE360_OFFSET UNITYSDK_OFFSET(0x1BE2E620)
+#define RPG_GAMECORE_ADVSETSKILLSLOTDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1BE2E680)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AdvSetSkillSlotData_TypeDefinitionIndex = 19067;
+	inline static constexpr unsigned int AdvSetSkillSlotData_TypeDefinitionIndex = 19422;
 
 	class AdvSetSkillSlotData : public ::RPG::GameCore::TaskConfig
 	{
@@ -25,9 +25,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVSETSKILLSLOTDATA__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_B6EA4DCEE4C9C329(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AdvSetSkillSlotData*& a2)
+		static ::System::Void Method_3_8DBEFE5F51BEE360(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AdvSetSkillSlotData*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::AdvSetSkillSlotData*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVSETSKILLSLOTDATA_METHOD_3_B6EA4DCEE4C9C329_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::AdvSetSkillSlotData*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVSETSKILLSLOTDATA_METHOD_3_8DBEFE5F51BEE360_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_5C9A2E60612CC682(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AdvSetSkillSlotData* a2)

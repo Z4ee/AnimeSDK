@@ -3,7 +3,7 @@
 
 namespace MiHoYo::SDK::PluginUI
 {
-	inline static constexpr unsigned int HoYoSDKWebView_WebViewAdapterMsgID_TypeDefinitionIndex = 44131;
+	inline static constexpr unsigned int HoYoSDKWebView_WebViewAdapterMsgID_TypeDefinitionIndex = 45001;
 
 	enum class HoYoSDKWebView_WebViewAdapterMsgID : ::System::Int32
 	{

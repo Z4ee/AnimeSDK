@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LevelDimensionCategory_TypeDefinitionIndex = 16342;
+	inline static constexpr unsigned int LevelDimensionCategory_TypeDefinitionIndex = 16504;
 
 	enum class LevelDimensionCategory : ::System::Int32
 	{

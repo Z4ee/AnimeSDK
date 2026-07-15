@@ -4,20 +4,20 @@
 
 namespace System { class Uri; }
 
-#define SYSTEM_NET_SERVICEPOINTMANAGER_SPKEY_EQUALS_OFFSET UNITYSDK_OFFSET(0x1AFA6E70)
-#define SYSTEM_NET_SERVICEPOINTMANAGER_SPKEY_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x1AFA6DF0)
-#define SYSTEM_NET_SERVICEPOINTMANAGER_SPKEY_GET_USESPROXY_OFFSET UNITYSDK_OFFSET(0x1AFA6DC0)
-#define SYSTEM_NET_SERVICEPOINTMANAGER_SPKEY__CTOR_OFFSET UNITYSDK_OFFSET(0x1AFA6920)
+#define SYSTEM_NET_SERVICEPOINTMANAGER_SPKEY_EQUALS_OFFSET UNITYSDK_OFFSET(0x19EE1800)
+#define SYSTEM_NET_SERVICEPOINTMANAGER_SPKEY_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x19EE1780)
+#define SYSTEM_NET_SERVICEPOINTMANAGER_SPKEY_GET_USESPROXY_OFFSET UNITYSDK_OFFSET(0x19EE1750)
+#define SYSTEM_NET_SERVICEPOINTMANAGER_SPKEY__CTOR_OFFSET UNITYSDK_OFFSET(0x19EE1120)
 
 namespace System::Net
 {
-	inline static constexpr unsigned int ServicePointManager_SPKey_TypeDefinitionIndex = 2864;
+	inline static constexpr unsigned int ServicePointManager_SPKey_TypeDefinitionIndex = 2868;
 
 	class ServicePointManager_SPKey : public ::System::Object
 	{
 	public:
-		::System::Uri* proxy; // 0x10
-		::System::Uri* uri; // 0x18
+		::System::Uri* uri; // 0x10
+		::System::Uri* proxy; // 0x18
 		::System::Boolean use_connect; // 0x20
 
 		::System::Void _ctor(::System::Uri* a1, ::System::Uri* a2, ::System::Boolean a3)

@@ -4,13 +4,13 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_CONFIRMCHECKPOINTRECOVER_METHOD_3_301468328E22D0DD_OFFSET UNITYSDK_OFFSET(0x196746B0)
-#define RPG_GAMECORE_CONFIRMCHECKPOINTRECOVER_METHOD_3_D469DF410E1C764C_OFFSET UNITYSDK_OFFSET(0x19674730)
-#define RPG_GAMECORE_CONFIRMCHECKPOINTRECOVER__CTOR_OFFSET UNITYSDK_OFFSET(0x19674700)
+#define RPG_GAMECORE_CONFIRMCHECKPOINTRECOVER_METHOD_3_BDC49DAD26330707_OFFSET UNITYSDK_OFFSET(0x1BC2CE80)
+#define RPG_GAMECORE_CONFIRMCHECKPOINTRECOVER_METHOD_3_D469DF410E1C764C_OFFSET UNITYSDK_OFFSET(0x1BC2CEC0)
+#define RPG_GAMECORE_CONFIRMCHECKPOINTRECOVER__CTOR_OFFSET UNITYSDK_OFFSET(0x1BC2CEB0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ConfirmCheckpointRecover_TypeDefinitionIndex = 20384;
+	inline static constexpr unsigned int ConfirmCheckpointRecover_TypeDefinitionIndex = 20799;
 
 	class ConfirmCheckpointRecover : public ::RPG::GameCore::TaskConfig
 	{
@@ -22,9 +22,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CONFIRMCHECKPOINTRECOVER__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_301468328E22D0DD(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ConfirmCheckpointRecover*& a2)
+		static ::System::Void Method_3_BDC49DAD26330707(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ConfirmCheckpointRecover*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ConfirmCheckpointRecover*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CONFIRMCHECKPOINTRECOVER_METHOD_3_301468328E22D0DD_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ConfirmCheckpointRecover*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CONFIRMCHECKPOINTRECOVER_METHOD_3_BDC49DAD26330707_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_D469DF410E1C764C(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ConfirmCheckpointRecover* a2)

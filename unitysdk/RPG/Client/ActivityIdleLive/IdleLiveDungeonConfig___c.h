@@ -6,29 +6,29 @@
 namespace RPG::Client::ActivityIdleLive { class IdleLiveAvatarTagConfig; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEDUNGEONCONFIG___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xB12AB90)
-#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEDUNGEONCONFIG___C__CREATE_B__0_0_OFFSET UNITYSDK_OFFSET(0xB12ABD0)
-#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEDUNGEONCONFIG___C__CREATE_B__0_1_OFFSET UNITYSDK_OFFSET(0xB12ABE0)
-#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEDUNGEONCONFIG___C__CTOR_OFFSET UNITYSDK_OFFSET(0xB12ABC0)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEDUNGEONCONFIG___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1A64BBF0)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEDUNGEONCONFIG___C__CREATE_B__0_0_OFFSET UNITYSDK_OFFSET(0x1A64BC30)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEDUNGEONCONFIG___C__CREATE_B__0_1_OFFSET UNITYSDK_OFFSET(0x1A64BC40)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEDUNGEONCONFIG___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1A64BC20)
 
 namespace RPG::Client::ActivityIdleLive
 {
-	inline static constexpr unsigned int IdleLiveDungeonConfig___c_TypeDefinitionIndex = 70069;
+	inline static constexpr unsigned int IdleLiveDungeonConfig___c_TypeDefinitionIndex = 71592;
 
 	class IdleLiveDungeonConfig___c : public ::System::Object
 	{
 	public:
-		static ::System::Func_2<::RPG::GameCore::ILBattleAvatarTag, ::RPG::Client::ActivityIdleLive::IdleLiveAvatarTagConfig*>** StaticGet___9__0_0()
-		{
-			return (::System::Func_2<::RPG::GameCore::ILBattleAvatarTag, ::RPG::Client::ActivityIdleLive::IdleLiveAvatarTagConfig*>**)Il2CppClass::FromTypeDefinitionIndex(IdleLiveDungeonConfig___c_TypeDefinitionIndex)->GetStaticField(0x51890);
-		}
 		static ::System::Func_2<::RPG::Client::ActivityIdleLive::IdleLiveAvatarTagConfig*, ::System::Boolean>** StaticGet___9__0_1()
 		{
-			return (::System::Func_2<::RPG::Client::ActivityIdleLive::IdleLiveAvatarTagConfig*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(IdleLiveDungeonConfig___c_TypeDefinitionIndex)->GetStaticField(0x51898);
+			return (::System::Func_2<::RPG::Client::ActivityIdleLive::IdleLiveAvatarTagConfig*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(IdleLiveDungeonConfig___c_TypeDefinitionIndex)->GetStaticField(0x3E520);
 		}
 		static ::RPG::Client::ActivityIdleLive::IdleLiveDungeonConfig___c** StaticGet___9()
 		{
-			return (::RPG::Client::ActivityIdleLive::IdleLiveDungeonConfig___c**)Il2CppClass::FromTypeDefinitionIndex(IdleLiveDungeonConfig___c_TypeDefinitionIndex)->GetStaticField(0x518A0);
+			return (::RPG::Client::ActivityIdleLive::IdleLiveDungeonConfig___c**)Il2CppClass::FromTypeDefinitionIndex(IdleLiveDungeonConfig___c_TypeDefinitionIndex)->GetStaticField(0x3E528);
+		}
+		static ::System::Func_2<::RPG::GameCore::ILBattleAvatarTag, ::RPG::Client::ActivityIdleLive::IdleLiveAvatarTagConfig*>** StaticGet___9__0_0()
+		{
+			return (::System::Func_2<::RPG::GameCore::ILBattleAvatarTag, ::RPG::Client::ActivityIdleLive::IdleLiveAvatarTagConfig*>**)Il2CppClass::FromTypeDefinitionIndex(IdleLiveDungeonConfig___c_TypeDefinitionIndex)->GetStaticField(0x3E530);
 		}
 
 		static ::System::Void _cctor()

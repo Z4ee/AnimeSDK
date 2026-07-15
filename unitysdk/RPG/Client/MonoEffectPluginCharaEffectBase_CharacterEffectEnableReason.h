@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MonoEffectPluginCharaEffectBase_CharacterEffectEnableReason_TypeDefinitionIndex = 65394;
+	inline static constexpr unsigned int MonoEffectPluginCharaEffectBase_CharacterEffectEnableReason_TypeDefinitionIndex = 66807;
 
 	enum class MonoEffectPluginCharaEffectBase_CharacterEffectEnableReason : ::System::Int32
 	{

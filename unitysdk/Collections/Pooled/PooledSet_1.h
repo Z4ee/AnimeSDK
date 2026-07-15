@@ -22,7 +22,7 @@ namespace System::Runtime::Serialization { class SerializationInfo; }
 
 namespace Collections::Pooled
 {
-	inline static constexpr unsigned int PooledSet_1_TypeDefinitionIndex = 5099;
+	inline static constexpr unsigned int PooledSet_1_TypeDefinitionIndex = 5104;
 
 	template <typename T>
 	class PooledSet_1 : public ::System::Object

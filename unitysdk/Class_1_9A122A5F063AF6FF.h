@@ -5,9 +5,9 @@
 
 namespace System { class Action; }
 
-#define CLASS_1_9A122A5F063AF6FF__CTOR_OFFSET UNITYSDK_OFFSET(0xABB4150)
+#define CLASS_1_9A122A5F063AF6FF__CTOR_OFFSET UNITYSDK_OFFSET(0x164335B0)
 
-inline static constexpr unsigned int Class_1_9A122A5F063AF6FF_TypeDefinitionIndex = 66811;
+inline static constexpr unsigned int Class_1_9A122A5F063AF6FF_TypeDefinitionIndex = 68252;
 
 class Class_1_9A122A5F063AF6FF : public ::System::Object
 {

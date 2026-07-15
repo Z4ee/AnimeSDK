@@ -6,13 +6,12 @@
 
 namespace RPG::GameCore { class TriggerEffectOnAnchor; }
 
-#define RPGTOOLS_TIMELINE_TRIGGEREFFECTONANCHORBEHAVIOUR_ONBEHAVIOURPLAY_OFFSET UNITYSDK_OFFSET(0xD0661A0)
-#define RPGTOOLS_TIMELINE_TRIGGEREFFECTONANCHORBEHAVIOUR__CTOR_OFFSET UNITYSDK_OFFSET(0xD066510)
-#define RPGTOOLS_TIMELINE_TRIGGEREFFECTONANCHORBEHAVIOUR___IFIXBASEPROXY_ONBEHAVIOURPLAY_OFFSET UNITYSDK_OFFSET(0xD066520)
+#define RPGTOOLS_TIMELINE_TRIGGEREFFECTONANCHORBEHAVIOUR_ONBEHAVIOURPLAY_OFFSET UNITYSDK_OFFSET(0x19F56A00)
+#define RPGTOOLS_TIMELINE_TRIGGEREFFECTONANCHORBEHAVIOUR__CTOR_OFFSET UNITYSDK_OFFSET(0x19F56D60)
 
 namespace RPGTools::Timeline
 {
-	inline static constexpr unsigned int TriggerEffectOnAnchorBehaviour_TypeDefinitionIndex = 45617;
+	inline static constexpr unsigned int TriggerEffectOnAnchorBehaviour_TypeDefinitionIndex = 46551;
 
 	class TriggerEffectOnAnchorBehaviour : public ::UnityEngine::Playables::PlayableBehaviour
 	{
@@ -27,11 +26,6 @@ namespace RPGTools::Timeline
 		::System::Void OnBehaviourPlay(::UnityEngine::Playables::Playable a1, ::UnityEngine::Playables::FrameData a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::UnityEngine::Playables::Playable, ::UnityEngine::Playables::FrameData))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_TRIGGEREFFECTONANCHORBEHAVIOUR_ONBEHAVIOURPLAY_OFFSET))(this, a1, a2);
-		}
-
-		::System::Void __iFixBaseProxy_OnBehaviourPlay(::UnityEngine::Playables::Playable a1, ::UnityEngine::Playables::FrameData a2)
-		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Playables::Playable, ::UnityEngine::Playables::FrameData))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_TRIGGEREFFECTONANCHORBEHAVIOUR___IFIXBASEPROXY_ONBEHAVIOURPLAY_OFFSET))(this, a1, a2);
 		}
 	};
 }

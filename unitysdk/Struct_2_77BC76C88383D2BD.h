@@ -3,7 +3,7 @@
 #include "unitysdk/RPG/GameCore/CharacterMotionFlag.h"
 #include "unitysdk/System/ValueType.h"
 
-inline static constexpr unsigned int Struct_2_77BC76C88383D2BD_TypeDefinitionIndex = 49015;
+inline static constexpr unsigned int Struct_2_77BC76C88383D2BD_TypeDefinitionIndex = 50028;
 
 struct alignas(4) Struct_2_77BC76C88383D2BD
 {

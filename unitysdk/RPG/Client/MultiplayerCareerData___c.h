@@ -5,24 +5,24 @@
 namespace RPG::Client { class FriendRankingInfo; }
 namespace System { template <typename T> class Comparison_1; }
 
-#define RPG_CLIENT_MULTIPLAYERCAREERDATA___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xC1BF870)
-#define RPG_CLIENT_MULTIPLAYERCAREERDATA___C__CTOR_OFFSET UNITYSDK_OFFSET(0xC1BF8B0)
-#define RPG_CLIENT_MULTIPLAYERCAREERDATA___C___SORTANDSETRANKS_B__16_0_OFFSET UNITYSDK_OFFSET(0xC1BF8C0)
+#define RPG_CLIENT_MULTIPLAYERCAREERDATA___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1908D820)
+#define RPG_CLIENT_MULTIPLAYERCAREERDATA___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1908D860)
+#define RPG_CLIENT_MULTIPLAYERCAREERDATA___C___SORTANDSETRANKS_B__16_0_OFFSET UNITYSDK_OFFSET(0x1908D870)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MultiplayerCareerData___c_TypeDefinitionIndex = 61997;
+	inline static constexpr unsigned int MultiplayerCareerData___c_TypeDefinitionIndex = 63362;
 
 	class MultiplayerCareerData___c : public ::System::Object
 	{
 	public:
-		static ::RPG::Client::MultiplayerCareerData___c** StaticGet___9()
-		{
-			return (::RPG::Client::MultiplayerCareerData___c**)Il2CppClass::FromTypeDefinitionIndex(MultiplayerCareerData___c_TypeDefinitionIndex)->GetStaticField(0x65B10);
-		}
 		static ::System::Comparison_1<::RPG::Client::FriendRankingInfo*>** StaticGet___9__16_0()
 		{
-			return (::System::Comparison_1<::RPG::Client::FriendRankingInfo*>**)Il2CppClass::FromTypeDefinitionIndex(MultiplayerCareerData___c_TypeDefinitionIndex)->GetStaticField(0x65B18);
+			return (::System::Comparison_1<::RPG::Client::FriendRankingInfo*>**)Il2CppClass::FromTypeDefinitionIndex(MultiplayerCareerData___c_TypeDefinitionIndex)->GetStaticField(0x5DDE0);
+		}
+		static ::RPG::Client::MultiplayerCareerData___c** StaticGet___9()
+		{
+			return (::RPG::Client::MultiplayerCareerData___c**)Il2CppClass::FromTypeDefinitionIndex(MultiplayerCareerData___c_TypeDefinitionIndex)->GetStaticField(0x5DDE8);
 		}
 
 		static ::System::Void _cctor()

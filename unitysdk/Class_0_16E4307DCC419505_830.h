@@ -1,10 +1,9 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-namespace RPG::Client { class ChessRogueDiceSurfaceDisplayData; }
-namespace System::Collections::Generic { template <typename T> class List_1; }
+namespace RPG::Client { class GridFightEquipComponent; }
 
-inline static constexpr unsigned int Class_0_16E4307DCC419505_830_TypeDefinitionIndex = 62582;
+inline static constexpr unsigned int Class_0_16E4307DCC419505_830_TypeDefinitionIndex = 62500;
 
 class Class_0_16E4307DCC419505_830
 {

@@ -6,20 +6,20 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_PAMMOODROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x199E2930)
-#define RPG_GAMECORE_PAMMOODROW__CTOR_OFFSET UNITYSDK_OFFSET(0x199E2B50)
+#define RPG_GAMECORE_PAMMOODROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1BB0C010)
+#define RPG_GAMECORE_PAMMOODROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1BB0C230)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PamMoodRow_TypeDefinitionIndex = 13636;
+	inline static constexpr unsigned int PamMoodRow_TypeDefinitionIndex = 13784;
 
 	class PamMoodRow : public ::System::Object
 	{
 	public:
 		::System::String* EmotionClipPath; // 0x10
 		::System::UInt32 PerformanceID; // 0x18
-		::System::Int32 MinMoodPoint; // 0x1C
-		::RPG::GameCore::PamMoodType PamMood; // 0x20
+		::RPG::GameCore::PamMoodType PamMood; // 0x1C
+		::System::Int32 MinMoodPoint; // 0x20
 		::System::Int32 MaxMoodPoint; // 0x24
 
 		::System::Void _ctor()

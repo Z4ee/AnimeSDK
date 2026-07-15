@@ -4,13 +4,13 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_POINTGENERATORCONFIG_METHOD_2_70F563C723732728_OFFSET UNITYSDK_OFFSET(0x19A44510)
-#define RPG_GAMECORE_POINTGENERATORCONFIG_METHOD_2_E1940CD1E943E023_OFFSET UNITYSDK_OFFSET(0x19A44240)
-#define RPG_GAMECORE_POINTGENERATORCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x19A44500)
+#define RPG_GAMECORE_POINTGENERATORCONFIG_METHOD_2_59FD0CF28B7492D4_OFFSET UNITYSDK_OFFSET(0x1BA13630)
+#define RPG_GAMECORE_POINTGENERATORCONFIG_METHOD_2_70F563C723732728_OFFSET UNITYSDK_OFFSET(0x1BA138A0)
+#define RPG_GAMECORE_POINTGENERATORCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1BA13890)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PointGeneratorConfig_TypeDefinitionIndex = 14854;
+	inline static constexpr unsigned int PointGeneratorConfig_TypeDefinitionIndex = 15016;
 
 	class PointGeneratorConfig : public ::RPG::GameCore::JsonConfig
 	{
@@ -20,9 +20,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_POINTGENERATORCONFIG__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_E1940CD1E943E023(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::PointGeneratorConfig*& a2)
+		static ::System::Void Method_2_59FD0CF28B7492D4(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::PointGeneratorConfig*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::PointGeneratorConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_POINTGENERATORCONFIG_METHOD_2_E1940CD1E943E023_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::PointGeneratorConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_POINTGENERATORCONFIG_METHOD_2_59FD0CF28B7492D4_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_2_70F563C723732728(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::PointGeneratorConfig* a2)

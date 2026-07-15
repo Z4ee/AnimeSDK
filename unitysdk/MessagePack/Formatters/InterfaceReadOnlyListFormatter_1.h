@@ -7,7 +7,7 @@ namespace System::Collections::Generic { template <typename T> class IReadOnlyLi
 
 namespace MessagePack::Formatters
 {
-	inline static constexpr unsigned int InterfaceReadOnlyListFormatter_1_TypeDefinitionIndex = 7362;
+	inline static constexpr unsigned int InterfaceReadOnlyListFormatter_1_TypeDefinitionIndex = 7368;
 
 	template <typename T>
 	class InterfaceReadOnlyListFormatter_1 : public ::MessagePack::Formatters::CollectionFormatterBase_3<T, ::Il2CppArray<T>*, ::System::Collections::Generic::IReadOnlyList_1<T>*>

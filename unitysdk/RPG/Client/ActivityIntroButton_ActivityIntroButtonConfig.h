@@ -4,7 +4,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ActivityIntroButton_ActivityIntroButtonConfig_TypeDefinitionIndex = 67739;
+	inline static constexpr unsigned int ActivityIntroButton_ActivityIntroButtonConfig_TypeDefinitionIndex = 69223;
 
 	struct alignas(4) ActivityIntroButton_ActivityIntroButtonConfig
 	{

@@ -8,10 +8,10 @@ namespace System::Threading { class ManualResetEvent; }
 namespace System::Threading { class WaitHandle; }
 namespace System::Threading { class WaitOrTimerCallback; }
 
-#define SYSTEM_THREADING_REGISTEREDWAITHANDLE_DOCALLBACK_OFFSET UNITYSDK_OFFSET(0x1861E860)
-#define SYSTEM_THREADING_REGISTEREDWAITHANDLE_UNREGISTER_OFFSET UNITYSDK_OFFSET(0x1861E9F0)
-#define SYSTEM_THREADING_REGISTEREDWAITHANDLE_WAIT_OFFSET UNITYSDK_OFFSET(0x1861DE90)
-#define SYSTEM_THREADING_REGISTEREDWAITHANDLE__CTOR_OFFSET UNITYSDK_OFFSET(0x1861DE20)
+#define SYSTEM_THREADING_REGISTEREDWAITHANDLE_DOCALLBACK_OFFSET UNITYSDK_OFFSET(0x19986470)
+#define SYSTEM_THREADING_REGISTEREDWAITHANDLE_UNREGISTER_OFFSET UNITYSDK_OFFSET(0x19986600)
+#define SYSTEM_THREADING_REGISTEREDWAITHANDLE_WAIT_OFFSET UNITYSDK_OFFSET(0x19985AA0)
+#define SYSTEM_THREADING_REGISTEREDWAITHANDLE__CTOR_OFFSET UNITYSDK_OFFSET(0x19985A30)
 
 namespace System::Threading
 {
@@ -20,11 +20,11 @@ namespace System::Threading
 	class RegisteredWaitHandle : public ::System::MarshalByRefObject
 	{
 	public:
-		::System::Threading::WaitOrTimerCallback* _callback; // 0x18
-		::System::Threading::WaitHandle* _finalEvent; // 0x20
+		::System::Threading::ManualResetEvent* _cancelEvent; // 0x18
+		::System::Object* _state; // 0x20
 		::System::Threading::WaitHandle* _waitObject; // 0x28
-		::System::Object* _state; // 0x30
-		::System::Threading::ManualResetEvent* _cancelEvent; // 0x38
+		::System::Threading::WaitOrTimerCallback* _callback; // 0x30
+		::System::Threading::WaitHandle* _finalEvent; // 0x38
 		::System::Boolean _unregistered; // 0x40
 		::System::Boolean _executeOnlyOnce; // 0x41
 		::System::Int32 _callsInProcess; // 0x44

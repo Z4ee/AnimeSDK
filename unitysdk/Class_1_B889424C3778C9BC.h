@@ -2,25 +2,25 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_2_898DC1EA1181F3B8;
+class Class_2_4C3F9D9CF221EFEC;
 namespace RPG::Client { class CameraDataAndFlags; }
 namespace RPG::Client { class CameraFightStateCommonConfig; }
 
-#define CLASS_1_B889424C3778C9BC_GETFIGHTSTATECONFIG_OFFSET UNITYSDK_OFFSET(0xAEDBB70)
-#define CLASS_1_B889424C3778C9BC_INIT_OFFSET UNITYSDK_OFFSET(0xAEDBBB0)
-#define CLASS_1_B889424C3778C9BC_METHOD_1_D0BD1377F2594D33_OFFSET UNITYSDK_OFFSET(0xAEDBD00)
-#define CLASS_1_B889424C3778C9BC_REFRESH_OFFSET UNITYSDK_OFFSET(0xAEDBC20)
-#define CLASS_1_B889424C3778C9BC_RESET_OFFSET UNITYSDK_OFFSET(0xAEDBC60)
-#define CLASS_1_B889424C3778C9BC__CTOR_OFFSET UNITYSDK_OFFSET(0xAEDBFE0)
+#define CLASS_1_B889424C3778C9BC_GETFIGHTSTATECONFIG_OFFSET UNITYSDK_OFFSET(0x14D7C480)
+#define CLASS_1_B889424C3778C9BC_INIT_OFFSET UNITYSDK_OFFSET(0x14D7C4C0)
+#define CLASS_1_B889424C3778C9BC_METHOD_1_D0BD1377F2594D33_OFFSET UNITYSDK_OFFSET(0x14D7C610)
+#define CLASS_1_B889424C3778C9BC_REFRESH_OFFSET UNITYSDK_OFFSET(0x14D7C530)
+#define CLASS_1_B889424C3778C9BC_RESET_OFFSET UNITYSDK_OFFSET(0x14D7C570)
+#define CLASS_1_B889424C3778C9BC__CTOR_OFFSET UNITYSDK_OFFSET(0x14D7C8F0)
 
-inline static constexpr unsigned int Class_1_B889424C3778C9BC_TypeDefinitionIndex = 65056;
+inline static constexpr unsigned int Class_1_B889424C3778C9BC_TypeDefinitionIndex = 66461;
 
 class Class_1_B889424C3778C9BC : public ::System::Object
 {
 public:
-	::Class_2_898DC1EA1181F3B8* Field_1_0; // 0x10
-	::RPG::Client::CameraDataAndFlags* Field_1_1; // 0x18
-	::RPG::Client::CameraFightStateCommonConfig* Field_1_2; // 0x20
+	::RPG::Client::CameraDataAndFlags* Field_1_0; // 0x10
+	::RPG::Client::CameraFightStateCommonConfig* Field_1_1; // 0x18
+	::Class_2_4C3F9D9CF221EFEC* Field_1_2; // 0x20
 
 	::System::Void _ctor()
 	{
@@ -32,9 +32,9 @@ public:
 		return ((::RPG::Client::CameraFightStateCommonConfig*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_B889424C3778C9BC_GETFIGHTSTATECONFIG_OFFSET))(this);
 	}
 
-	::System::Void Init(::Class_2_898DC1EA1181F3B8* a1, ::RPG::Client::CameraDataAndFlags* a2, ::RPG::Client::CameraFightStateCommonConfig* a3)
+	::System::Void Init(::Class_2_4C3F9D9CF221EFEC* a1, ::RPG::Client::CameraDataAndFlags* a2, ::RPG::Client::CameraFightStateCommonConfig* a3)
 	{
-		return ((::System::Void(*)(::PVOID, ::Class_2_898DC1EA1181F3B8*, ::RPG::Client::CameraDataAndFlags*, ::RPG::Client::CameraFightStateCommonConfig*))((::PBYTE)hIl2Cpp + CLASS_1_B889424C3778C9BC_INIT_OFFSET))(this, a1, a2, a3);
+		return ((::System::Void(*)(::PVOID, ::Class_2_4C3F9D9CF221EFEC*, ::RPG::Client::CameraDataAndFlags*, ::RPG::Client::CameraFightStateCommonConfig*))((::PBYTE)hIl2Cpp + CLASS_1_B889424C3778C9BC_INIT_OFFSET))(this, a1, a2, a3);
 	}
 
 	::System::Void Refresh()

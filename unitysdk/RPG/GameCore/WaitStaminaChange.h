@@ -4,13 +4,13 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_WAITSTAMINACHANGE_METHOD_3_702C6D87D788BEC4_OFFSET UNITYSDK_OFFSET(0x19E61A80)
-#define RPG_GAMECORE_WAITSTAMINACHANGE_METHOD_3_8DCB64DC79BA7B5D_OFFSET UNITYSDK_OFFSET(0x19E61B00)
-#define RPG_GAMECORE_WAITSTAMINACHANGE__CTOR_OFFSET UNITYSDK_OFFSET(0x19E61AD0)
+#define RPG_GAMECORE_WAITSTAMINACHANGE_METHOD_3_8DCB64DC79BA7B5D_OFFSET UNITYSDK_OFFSET(0x1D1BCEC0)
+#define RPG_GAMECORE_WAITSTAMINACHANGE_METHOD_3_D525F8452E1B5978_OFFSET UNITYSDK_OFFSET(0x1D1BCE70)
+#define RPG_GAMECORE_WAITSTAMINACHANGE__CTOR_OFFSET UNITYSDK_OFFSET(0x1D1BCEB0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int WaitStaminaChange_TypeDefinitionIndex = 19353;
+	inline static constexpr unsigned int WaitStaminaChange_TypeDefinitionIndex = 19709;
 
 	class WaitStaminaChange : public ::RPG::GameCore::TaskConfig
 	{
@@ -23,9 +23,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_WAITSTAMINACHANGE__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_702C6D87D788BEC4(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::WaitStaminaChange*& a2)
+		static ::System::Void Method_3_D525F8452E1B5978(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::WaitStaminaChange*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::WaitStaminaChange*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_WAITSTAMINACHANGE_METHOD_3_702C6D87D788BEC4_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::WaitStaminaChange*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_WAITSTAMINACHANGE_METHOD_3_D525F8452E1B5978_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_8DCB64DC79BA7B5D(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::WaitStaminaChange* a2)

@@ -9,7 +9,7 @@ namespace ZLinq::Linq { template <typename T1, typename T2> class Grouping_2; }
 
 namespace ZLinq::Linq
 {
-	inline static constexpr unsigned int GroupBy_3_TypeDefinitionIndex = 6361;
+	inline static constexpr unsigned int GroupBy_3_TypeDefinitionIndex = 6366;
 
 	template <typename TEnumerator, typename TSource, typename TKey>
 	struct GroupBy_3

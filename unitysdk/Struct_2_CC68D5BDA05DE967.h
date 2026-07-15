@@ -11,7 +11,7 @@ class Class_1_E754E66360B8422F;
 namespace RPG::GameCore { class GameEntity; }
 namespace RPG::GameCore { class JsonEnum; }
 
-inline static constexpr unsigned int Struct_2_CC68D5BDA05DE967_TypeDefinitionIndex = 50720;
+inline static constexpr unsigned int Struct_2_CC68D5BDA05DE967_TypeDefinitionIndex = 51802;
 
 struct alignas(8) Struct_2_CC68D5BDA05DE967
 {

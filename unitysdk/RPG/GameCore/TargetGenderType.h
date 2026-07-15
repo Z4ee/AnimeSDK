@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TargetGenderType_TypeDefinitionIndex = 13777;
+	inline static constexpr unsigned int TargetGenderType_TypeDefinitionIndex = 13925;
 
 	enum class TargetGenderType : ::System::Int32
 	{

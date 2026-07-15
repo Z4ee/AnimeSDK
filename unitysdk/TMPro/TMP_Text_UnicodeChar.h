@@ -4,7 +4,7 @@
 
 namespace TMPro
 {
-	inline static constexpr unsigned int TMP_Text_UnicodeChar_TypeDefinitionIndex = 41040;
+	inline static constexpr unsigned int TMP_Text_UnicodeChar_TypeDefinitionIndex = 41855;
 
 	struct alignas(4) TMP_Text_UnicodeChar
 	{

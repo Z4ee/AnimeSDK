@@ -10,20 +10,20 @@ namespace System::Linq::Expressions::Interpreter { class InterpretedFrame; }
 namespace System::Linq::Expressions::Interpreter { class LocalVariables; }
 namespace System::Reflection { class MethodInfo; }
 
-#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_INDEXMETHODBYREFUPDATER_UNDEFINETEMPS_OFFSET UNITYSDK_OFFSET(0x1AD7E080)
-#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_INDEXMETHODBYREFUPDATER_UPDATE_OFFSET UNITYSDK_OFFSET(0x1AD7DDA0)
-#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_INDEXMETHODBYREFUPDATER__CTOR_OFFSET UNITYSDK_OFFSET(0x1AD7DD80)
+#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_INDEXMETHODBYREFUPDATER_UNDEFINETEMPS_OFFSET UNITYSDK_OFFSET(0x19575EE0)
+#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_INDEXMETHODBYREFUPDATER_UPDATE_OFFSET UNITYSDK_OFFSET(0x19575BA0)
+#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_INDEXMETHODBYREFUPDATER__CTOR_OFFSET UNITYSDK_OFFSET(0x19575B80)
 
 namespace System::Linq::Expressions::Interpreter
 {
-	inline static constexpr unsigned int IndexMethodByRefUpdater_TypeDefinitionIndex = 3480;
+	inline static constexpr unsigned int IndexMethodByRefUpdater_TypeDefinitionIndex = 3484;
 
 	class IndexMethodByRefUpdater : public ::System::Linq::Expressions::Interpreter::ByRefUpdater
 	{
 	public:
-		::Il2CppArray<::System::Linq::Expressions::Interpreter::LocalDefinition>* _args; // 0x18
-		::System::Reflection::MethodInfo* _indexer; // 0x20
-		::System::Nullable_1<::System::Linq::Expressions::Interpreter::LocalDefinition> _obj; // 0x28
+		::System::Nullable_1<::System::Linq::Expressions::Interpreter::LocalDefinition> _obj; // 0x18
+		::System::Reflection::MethodInfo* _indexer; // 0x30
+		::Il2CppArray<::System::Linq::Expressions::Interpreter::LocalDefinition>* _args; // 0x38
 
 		::System::Void _ctor(::System::Nullable_1<::System::Linq::Expressions::Interpreter::LocalDefinition> a1, ::Il2CppArray<::System::Linq::Expressions::Interpreter::LocalDefinition>* a2, ::System::Reflection::MethodInfo* a3, ::System::Int32 a4)
 		{

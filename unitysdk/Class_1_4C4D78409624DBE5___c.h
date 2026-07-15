@@ -6,7 +6,7 @@ namespace System { class Exception; }
 namespace System { template <typename T> class Action_1; }
 template <typename T> class Class_1_4C4D78409624DBE5___c;
 
-inline static constexpr unsigned int Class_1_4C4D78409624DBE5___c_TypeDefinitionIndex = 46421;
+inline static constexpr unsigned int Class_1_4C4D78409624DBE5___c_TypeDefinitionIndex = 47386;
 
 template <typename T>
 class Class_1_4C4D78409624DBE5___c : public ::System::Object

@@ -4,24 +4,24 @@
 
 namespace System { class Action; }
 
-#define MIHOYO_SDK_POPUPDIALOG___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x183FB470)
-#define MIHOYO_SDK_POPUPDIALOG___C__CTOR_OFFSET UNITYSDK_OFFSET(0x183FB4B0)
-#define MIHOYO_SDK_POPUPDIALOG___C__SHOW_B__25_1_OFFSET UNITYSDK_OFFSET(0x183FB4C0)
+#define MIHOYO_SDK_POPUPDIALOG___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x170F8790)
+#define MIHOYO_SDK_POPUPDIALOG___C__CTOR_OFFSET UNITYSDK_OFFSET(0x170F87D0)
+#define MIHOYO_SDK_POPUPDIALOG___C__SHOW_B__25_1_OFFSET UNITYSDK_OFFSET(0x170F87E0)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int PopupDialog___c_TypeDefinitionIndex = 7955;
+	inline static constexpr unsigned int PopupDialog___c_TypeDefinitionIndex = 7965;
 
 	class PopupDialog___c : public ::System::Object
 	{
 	public:
-		static ::MiHoYo::SDK::PopupDialog___c** StaticGet___9()
-		{
-			return (::MiHoYo::SDK::PopupDialog___c**)Il2CppClass::FromTypeDefinitionIndex(PopupDialog___c_TypeDefinitionIndex)->GetStaticField(0x1A4D0);
-		}
 		static ::System::Action** StaticGet___9__25_1()
 		{
-			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(PopupDialog___c_TypeDefinitionIndex)->GetStaticField(0x1A4D8);
+			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(PopupDialog___c_TypeDefinitionIndex)->GetStaticField(0x25E70);
+		}
+		static ::MiHoYo::SDK::PopupDialog___c** StaticGet___9()
+		{
+			return (::MiHoYo::SDK::PopupDialog___c**)Il2CppClass::FromTypeDefinitionIndex(PopupDialog___c_TypeDefinitionIndex)->GetStaticField(0x25E78);
 		}
 
 		static ::System::Void _cctor()

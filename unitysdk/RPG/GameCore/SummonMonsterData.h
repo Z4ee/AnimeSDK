@@ -9,12 +9,12 @@ namespace RPG::GameCore { class DynamicFloat; }
 namespace RPG::GameCore { class TargetEvaluator; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_SUMMONMONSTERDATA_METHOD_2_886FBAA8BB9B68B5_OFFSET UNITYSDK_OFFSET(0x19CD2120)
-#define RPG_GAMECORE_SUMMONMONSTERDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x19CD2E00)
+#define RPG_GAMECORE_SUMMONMONSTERDATA_METHOD_2_886FBAA8BB9B68B5_OFFSET UNITYSDK_OFFSET(0x1B42DD20)
+#define RPG_GAMECORE_SUMMONMONSTERDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1B42EA20)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SummonMonsterData_TypeDefinitionIndex = 21419;
+	inline static constexpr unsigned int SummonMonsterData_TypeDefinitionIndex = 21838;
 
 	class SummonMonsterData : public ::RPG::GameCore::JsonConfig
 	{
@@ -30,6 +30,7 @@ namespace RPG::GameCore
 		::RPG::GameCore::TargetEvaluator* GroupLeader; // 0x50
 		::System::Int32 TeamLocationOffset; // 0x58
 		::System::Single SkillFormationVirtualOffset; // 0x5C
+		::RPG::GameCore::TargetEvaluator* OverrideLocationCaster; // 0x60
 
 		::System::Void _ctor()
 		{

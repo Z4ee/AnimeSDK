@@ -8,15 +8,15 @@ namespace RPG::GameCore { class DynamicFloat; }
 namespace SimpleJSON { class JSONNode; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_BYCOMPAREGRAPHDYNAMICFLOAT_METHOD_4_086F9DBA54861C6D_OFFSET UNITYSDK_OFFSET(0x19514F50)
-#define RPG_GAMECORE_BYCOMPAREGRAPHDYNAMICFLOAT_METHOD_4_945C4ACD5F31DCE0_OFFSET UNITYSDK_OFFSET(0x19515180)
-#define RPG_GAMECORE_BYCOMPAREGRAPHDYNAMICFLOAT_METHOD_4_E906790AFC469F99_OFFSET UNITYSDK_OFFSET(0x19514E70)
-#define RPG_GAMECORE_BYCOMPAREGRAPHDYNAMICFLOAT_METHOD_4_EFEBE879ED0B91D1_OFFSET UNITYSDK_OFFSET(0x19515200)
-#define RPG_GAMECORE_BYCOMPAREGRAPHDYNAMICFLOAT__CTOR_OFFSET UNITYSDK_OFFSET(0x19514EF0)
+#define RPG_GAMECORE_BYCOMPAREGRAPHDYNAMICFLOAT_METHOD_4_086F9DBA54861C6D_OFFSET UNITYSDK_OFFSET(0x19CE6C50)
+#define RPG_GAMECORE_BYCOMPAREGRAPHDYNAMICFLOAT_METHOD_4_3EA7D02B99CB7366_OFFSET UNITYSDK_OFFSET(0x19CE6EC0)
+#define RPG_GAMECORE_BYCOMPAREGRAPHDYNAMICFLOAT_METHOD_4_7C5D8814FF50A270_OFFSET UNITYSDK_OFFSET(0x19CE6C00)
+#define RPG_GAMECORE_BYCOMPAREGRAPHDYNAMICFLOAT_METHOD_4_83E2F2CE8E1F8AC9_OFFSET UNITYSDK_OFFSET(0x19CE6E80)
+#define RPG_GAMECORE_BYCOMPAREGRAPHDYNAMICFLOAT__CTOR_OFFSET UNITYSDK_OFFSET(0x19CE6C40)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ByCompareGraphDynamicFloat_TypeDefinitionIndex = 19568;
+	inline static constexpr unsigned int ByCompareGraphDynamicFloat_TypeDefinitionIndex = 19927;
 
 	class ByCompareGraphDynamicFloat : public ::RPG::GameCore::PredicateConfig
 	{
@@ -30,9 +30,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYCOMPAREGRAPHDYNAMICFLOAT__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_4_E906790AFC469F99(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ByCompareGraphDynamicFloat*& a2)
+		static ::System::Void Method_4_7C5D8814FF50A270(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ByCompareGraphDynamicFloat*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ByCompareGraphDynamicFloat*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYCOMPAREGRAPHDYNAMICFLOAT_METHOD_4_E906790AFC469F99_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ByCompareGraphDynamicFloat*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYCOMPAREGRAPHDYNAMICFLOAT_METHOD_4_7C5D8814FF50A270_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_4_086F9DBA54861C6D(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ByCompareGraphDynamicFloat* a2)
@@ -40,14 +40,14 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ByCompareGraphDynamicFloat*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYCOMPAREGRAPHDYNAMICFLOAT_METHOD_4_086F9DBA54861C6D_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_4_945C4ACD5F31DCE0(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::ByCompareGraphDynamicFloat*& a2)
+		static ::System::Void Method_4_83E2F2CE8E1F8AC9(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::ByCompareGraphDynamicFloat*& a2)
 		{
-			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::ByCompareGraphDynamicFloat*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYCOMPAREGRAPHDYNAMICFLOAT_METHOD_4_945C4ACD5F31DCE0_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::ByCompareGraphDynamicFloat*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYCOMPAREGRAPHDYNAMICFLOAT_METHOD_4_83E2F2CE8E1F8AC9_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_4_EFEBE879ED0B91D1(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::ByCompareGraphDynamicFloat* a2)
+		static ::System::Void Method_4_3EA7D02B99CB7366(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::ByCompareGraphDynamicFloat* a2)
 		{
-			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::ByCompareGraphDynamicFloat*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYCOMPAREGRAPHDYNAMICFLOAT_METHOD_4_EFEBE879ED0B91D1_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::ByCompareGraphDynamicFloat*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYCOMPAREGRAPHDYNAMICFLOAT_METHOD_4_3EA7D02B99CB7366_OFFSET))(a1, a2);
 		}
 	};
 }

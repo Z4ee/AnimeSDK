@@ -5,10 +5,10 @@
 #include "unitysdk/UnityEngine/Rendering/BlendOp.h"
 #include "unitysdk/UnityEngine/Rendering/ColorWriteMask.h"
 
-#define SERIALIZEDRENDERTARGETBLENDSTATE_METHOD_2_51B4561CCE5A1A4D_OFFSET UNITYSDK_OFFSET(0x14AD50)
-#define SERIALIZEDRENDERTARGETBLENDSTATE_METHOD_2_B08EF8FE94449D01_OFFSET UNITYSDK_OFFSET(0x14AE10)
+#define SERIALIZEDRENDERTARGETBLENDSTATE_METHOD_2_51B4561CCE5A1A4D_OFFSET UNITYSDK_OFFSET(0x39E9C30)
+#define SERIALIZEDRENDERTARGETBLENDSTATE_METHOD_2_B08EF8FE94449D01_OFFSET UNITYSDK_OFFSET(0x39E9CF0)
 
-inline static constexpr unsigned int SerializedRenderTargetBlendState_TypeDefinitionIndex = 44708;
+inline static constexpr unsigned int SerializedRenderTargetBlendState_TypeDefinitionIndex = 45623;
 
 struct alignas(4) SerializedRenderTargetBlendState
 {

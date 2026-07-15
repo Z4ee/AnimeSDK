@@ -3,7 +3,7 @@
 
 namespace Google::Protobuf::WellKnownTypes
 {
-	inline static constexpr unsigned int Syntax_TypeDefinitionIndex = 5441;
+	inline static constexpr unsigned int Syntax_TypeDefinitionIndex = 5446;
 
 	enum class Syntax : ::System::Int32
 	{

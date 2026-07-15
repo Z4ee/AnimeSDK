@@ -7,13 +7,13 @@ namespace RPG::GameCore { class MissionCustomValue; }
 namespace RPG::GameCore { class PredicateConfig; }
 namespace RPG::GameCore { class TaskConfig; }
 
-#define RPG_GAMECORE_WAITMISSIONCUSTOMVALUECHANGE_METHOD_4_DEFD785650EBACAE_OFFSET UNITYSDK_OFFSET(0x19E5A660)
-#define RPG_GAMECORE_WAITMISSIONCUSTOMVALUECHANGE_METHOD_4_E8A69351AEC64D9F_OFFSET UNITYSDK_OFFSET(0x19E5A740)
-#define RPG_GAMECORE_WAITMISSIONCUSTOMVALUECHANGE__CTOR_OFFSET UNITYSDK_OFFSET(0x19E5A6E0)
+#define RPG_GAMECORE_WAITMISSIONCUSTOMVALUECHANGE_METHOD_4_682DE5059FE3BF4A_OFFSET UNITYSDK_OFFSET(0x1B8A8550)
+#define RPG_GAMECORE_WAITMISSIONCUSTOMVALUECHANGE_METHOD_4_E8A69351AEC64D9F_OFFSET UNITYSDK_OFFSET(0x1B8A85A0)
+#define RPG_GAMECORE_WAITMISSIONCUSTOMVALUECHANGE__CTOR_OFFSET UNITYSDK_OFFSET(0x1B8A8590)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int WaitMissionCustomValueChange_TypeDefinitionIndex = 20464;
+	inline static constexpr unsigned int WaitMissionCustomValueChange_TypeDefinitionIndex = 20879;
 
 	class WaitMissionCustomValueChange : public ::RPG::GameCore::AdvWaitingEventBase
 	{
@@ -28,9 +28,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_WAITMISSIONCUSTOMVALUECHANGE__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_4_DEFD785650EBACAE(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::WaitMissionCustomValueChange*& a2)
+		static ::System::Void Method_4_682DE5059FE3BF4A(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::WaitMissionCustomValueChange*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::WaitMissionCustomValueChange*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_WAITMISSIONCUSTOMVALUECHANGE_METHOD_4_DEFD785650EBACAE_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::WaitMissionCustomValueChange*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_WAITMISSIONCUSTOMVALUECHANGE_METHOD_4_682DE5059FE3BF4A_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_4_E8A69351AEC64D9F(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::WaitMissionCustomValueChange* a2)

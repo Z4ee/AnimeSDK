@@ -8,22 +8,22 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 namespace UnityEngine { class Object; }
 namespace UnityEngine::Playables { class PlayableDirector; }
 
-#define RPG_CLIENT_PLAYABLEBINDINGCONTROL_BINDOBJECT_OFFSET UNITYSDK_OFFSET(0xC492140)
-#define RPG_CLIENT_PLAYABLEBINDINGCONTROL_CLEAR_OFFSET UNITYSDK_OFFSET(0xC491A50)
-#define RPG_CLIENT_PLAYABLEBINDINGCONTROL_DISPOSE_OFFSET UNITYSDK_OFFSET(0xC491B30)
-#define RPG_CLIENT_PLAYABLEBINDINGCONTROL_INITBIND_OFFSET UNITYSDK_OFFSET(0xC491BE0)
-#define RPG_CLIENT_PLAYABLEBINDINGCONTROL_INIT_OFFSET UNITYSDK_OFFSET(0xC491AF0)
-#define RPG_CLIENT_PLAYABLEBINDINGCONTROL__CTOR_OFFSET UNITYSDK_OFFSET(0xC4919D0)
+#define RPG_CLIENT_PLAYABLEBINDINGCONTROL_BINDOBJECT_OFFSET UNITYSDK_OFFSET(0x1A1E7570)
+#define RPG_CLIENT_PLAYABLEBINDINGCONTROL_CLEAR_OFFSET UNITYSDK_OFFSET(0x1A1E6C30)
+#define RPG_CLIENT_PLAYABLEBINDINGCONTROL_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1A1E6D10)
+#define RPG_CLIENT_PLAYABLEBINDINGCONTROL_INITBIND_OFFSET UNITYSDK_OFFSET(0x1A1E6DC0)
+#define RPG_CLIENT_PLAYABLEBINDINGCONTROL_INIT_OFFSET UNITYSDK_OFFSET(0x1A1E6CD0)
+#define RPG_CLIENT_PLAYABLEBINDINGCONTROL__CTOR_OFFSET UNITYSDK_OFFSET(0x1A1E6BB0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int PlayableBindingControl_TypeDefinitionIndex = 65202;
+	inline static constexpr unsigned int PlayableBindingControl_TypeDefinitionIndex = 66612;
 
 	class PlayableBindingControl : public ::System::Object
 	{
 	public:
-		::System::Collections::Generic::Dictionary_2<::System::String*, ::UnityEngine::Playables::PlayableBinding>* _BindingDict; // 0x10
-		::UnityEngine::Playables::PlayableDirector* _PlayableDirector; // 0x18
+		::UnityEngine::Playables::PlayableDirector* _PlayableDirector; // 0x10
+		::System::Collections::Generic::Dictionary_2<::System::String*, ::UnityEngine::Playables::PlayableBinding>* _BindingDict; // 0x18
 
 		::System::Void _ctor()
 		{

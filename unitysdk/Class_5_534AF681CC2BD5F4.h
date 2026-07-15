@@ -11,7 +11,7 @@ namespace System::Collections::Generic { template <typename T> class IEnumerable
 template <typename T> class Class_4_534AF681CC2BD5FD;
 template <typename T> class Class_5_534AF681CC2BD5F4;
 
-inline static constexpr unsigned int Class_5_534AF681CC2BD5F4_TypeDefinitionIndex = 40672;
+inline static constexpr unsigned int Class_5_534AF681CC2BD5F4_TypeDefinitionIndex = 41487;
 
 template <typename TContract>
 class Class_5_534AF681CC2BD5F4 : public ::Class_4_534AF681CC2BD5FD<TContract>

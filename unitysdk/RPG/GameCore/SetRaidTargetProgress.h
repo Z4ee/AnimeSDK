@@ -6,13 +6,13 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class DynamicFloat; }
 
-#define RPG_GAMECORE_SETRAIDTARGETPROGRESS_METHOD_3_141FD328E2EB0384_OFFSET UNITYSDK_OFFSET(0x19C5C8D0)
-#define RPG_GAMECORE_SETRAIDTARGETPROGRESS_METHOD_3_C5E406D3A022C9B5_OFFSET UNITYSDK_OFFSET(0x19C5C960)
-#define RPG_GAMECORE_SETRAIDTARGETPROGRESS__CTOR_OFFSET UNITYSDK_OFFSET(0x19C5C930)
+#define RPG_GAMECORE_SETRAIDTARGETPROGRESS_METHOD_3_C5E406D3A022C9B5_OFFSET UNITYSDK_OFFSET(0x1C606620)
+#define RPG_GAMECORE_SETRAIDTARGETPROGRESS_METHOD_3_E55AA99159641310_OFFSET UNITYSDK_OFFSET(0x1C6065D0)
+#define RPG_GAMECORE_SETRAIDTARGETPROGRESS__CTOR_OFFSET UNITYSDK_OFFSET(0x1C606610)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SetRaidTargetProgress_TypeDefinitionIndex = 22368;
+	inline static constexpr unsigned int SetRaidTargetProgress_TypeDefinitionIndex = 22810;
 
 	class SetRaidTargetProgress : public ::RPG::GameCore::TaskConfig
 	{
@@ -26,9 +26,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETRAIDTARGETPROGRESS__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_141FD328E2EB0384(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SetRaidTargetProgress*& a2)
+		static ::System::Void Method_3_E55AA99159641310(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SetRaidTargetProgress*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SetRaidTargetProgress*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETRAIDTARGETPROGRESS_METHOD_3_141FD328E2EB0384_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SetRaidTargetProgress*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETRAIDTARGETPROGRESS_METHOD_3_E55AA99159641310_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_C5E406D3A022C9B5(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SetRaidTargetProgress* a2)

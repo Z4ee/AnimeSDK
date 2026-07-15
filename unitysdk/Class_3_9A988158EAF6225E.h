@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class QueryHoyoTag; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_9A988158EAF6225E_EVALUATE_OFFSET UNITYSDK_OFFSET(0x13B7D200)
-#define CLASS_3_9A988158EAF6225E__CTOR_OFFSET UNITYSDK_OFFSET(0x13B7D1D0)
+#define CLASS_3_9A988158EAF6225E_EVALUATE_OFFSET UNITYSDK_OFFSET(0x16232440)
+#define CLASS_3_9A988158EAF6225E__CTOR_OFFSET UNITYSDK_OFFSET(0x16232410)
 
-inline static constexpr unsigned int Class_3_9A988158EAF6225E_TypeDefinitionIndex = 52643;
+inline static constexpr unsigned int Class_3_9A988158EAF6225E_TypeDefinitionIndex = 53847;
 
 class Class_3_9A988158EAF6225E : public ::RPG::GameCore::PredicateTaskBase_1<::RPG::GameCore::QueryHoyoTag*>
 {

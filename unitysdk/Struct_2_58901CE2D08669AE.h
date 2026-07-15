@@ -3,7 +3,7 @@
 #include "unitysdk/RPG/CustomRP/CustomLightQualityFilter.h"
 #include "unitysdk/System/ValueType.h"
 
-inline static constexpr unsigned int Struct_2_58901CE2D08669AE_TypeDefinitionIndex = 46703;
+inline static constexpr unsigned int Struct_2_58901CE2D08669AE_TypeDefinitionIndex = 47668;
 
 template <typename T>
 struct Struct_2_58901CE2D08669AE

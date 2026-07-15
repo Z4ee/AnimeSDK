@@ -7,12 +7,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_CHENLINGFESDIALOGCONFIG_METHOD_2_84D5EF0C94C88A96_OFFSET UNITYSDK_OFFSET(0x196298D0)
-#define RPG_GAMECORE_CHENLINGFESDIALOGCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x19629AE0)
+#define RPG_GAMECORE_CHENLINGFESDIALOGCONFIG_METHOD_2_84D5EF0C94C88A96_OFFSET UNITYSDK_OFFSET(0x1C383CF0)
+#define RPG_GAMECORE_CHENLINGFESDIALOGCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1C383F00)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ChenLingFesDialogConfig_TypeDefinitionIndex = 17548;
+	inline static constexpr unsigned int ChenLingFesDialogConfig_TypeDefinitionIndex = 17721;
 
 	class ChenLingFesDialogConfig : public ::RPG::GameCore::JsonConfig
 	{

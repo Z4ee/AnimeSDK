@@ -10,20 +10,20 @@ namespace System::Collections::Generic { template <typename T> class HashSet_1; 
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine { class Transform; }
 
-#define CLASS_1_1EDFFB645AFD9A3E_METHOD_1_A8B5DD81FACB4C81_OFFSET UNITYSDK_OFFSET(0x141A3EB0)
-#define CLASS_1_1EDFFB645AFD9A3E_METHOD_1_ADF45F4E823CC047_OFFSET UNITYSDK_OFFSET(0x141A41C0)
-#define CLASS_1_1EDFFB645AFD9A3E_ONPLUGININIT_OFFSET UNITYSDK_OFFSET(0x141A3C60)
-#define CLASS_1_1EDFFB645AFD9A3E_ONPLUGINUNINIT_OFFSET UNITYSDK_OFFSET(0x141A3CF0)
-#define CLASS_1_1EDFFB645AFD9A3E__CTOR_OFFSET UNITYSDK_OFFSET(0x141A42A0)
+#define CLASS_1_1EDFFB645AFD9A3E_METHOD_1_A8B5DD81FACB4C81_OFFSET UNITYSDK_OFFSET(0x18B1B7F0)
+#define CLASS_1_1EDFFB645AFD9A3E_METHOD_1_ADF45F4E823CC047_OFFSET UNITYSDK_OFFSET(0x18B1BB00)
+#define CLASS_1_1EDFFB645AFD9A3E_ONPLUGININIT_OFFSET UNITYSDK_OFFSET(0x18B1B590)
+#define CLASS_1_1EDFFB645AFD9A3E_ONPLUGINUNINIT_OFFSET UNITYSDK_OFFSET(0x18B1B620)
+#define CLASS_1_1EDFFB645AFD9A3E__CTOR_OFFSET UNITYSDK_OFFSET(0x18B1BBE0)
 
-inline static constexpr unsigned int Class_1_1EDFFB645AFD9A3E_TypeDefinitionIndex = 67324;
+inline static constexpr unsigned int Class_1_1EDFFB645AFD9A3E_TypeDefinitionIndex = 68793;
 
 class Class_1_1EDFFB645AFD9A3E : public ::System::Object
 {
 public:
-	::RPG::GameCore::LevelUIComponent* Field_1_0; // 0x10
-	::RPG::GameCore::BattleInstance* Field_1_1; // 0x18
-	::System::Collections::Generic::HashSet_1<::System::String*>* Field_1_2; // 0x20
+	::RPG::GameCore::BattleInstance* Field_1_0; // 0x10
+	::System::Collections::Generic::HashSet_1<::System::String*>* Field_1_1; // 0x18
+	::RPG::GameCore::LevelUIComponent* Field_1_2; // 0x20
 
 	::System::Void _ctor()
 	{

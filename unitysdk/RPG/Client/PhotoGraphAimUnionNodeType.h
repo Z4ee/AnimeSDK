@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int PhotoGraphAimUnionNodeType_TypeDefinitionIndex = 64900;
+	inline static constexpr unsigned int PhotoGraphAimUnionNodeType_TypeDefinitionIndex = 66302;
 
 	enum class PhotoGraphAimUnionNodeType : ::System::Int32
 	{

@@ -4,12 +4,12 @@
 
 namespace System::Net::NetworkInformation { class NetworkInterface; }
 
-#define SYSTEM_NET_NETWORKINFORMATION_NETWORKINTERFACEFACTORY_MACOSNETWORKINTERFACEAPI_GETALLNETWORKINTERFACES_OFFSET UNITYSDK_OFFSET(0x1AF9C4A0)
-#define SYSTEM_NET_NETWORKINFORMATION_NETWORKINTERFACEFACTORY_MACOSNETWORKINTERFACEAPI__CTOR_OFFSET UNITYSDK_OFFSET(0x1AF9B320)
+#define SYSTEM_NET_NETWORKINFORMATION_NETWORKINTERFACEFACTORY_MACOSNETWORKINTERFACEAPI_GETALLNETWORKINTERFACES_OFFSET UNITYSDK_OFFSET(0x19618D20)
+#define SYSTEM_NET_NETWORKINFORMATION_NETWORKINTERFACEFACTORY_MACOSNETWORKINTERFACEAPI__CTOR_OFFSET UNITYSDK_OFFSET(0x19617C20)
 
 namespace System::Net::NetworkInformation
 {
-	inline static constexpr unsigned int NetworkInterfaceFactory_MacOsNetworkInterfaceAPI_TypeDefinitionIndex = 2945;
+	inline static constexpr unsigned int NetworkInterfaceFactory_MacOsNetworkInterfaceAPI_TypeDefinitionIndex = 2949;
 
 	class NetworkInterfaceFactory_MacOsNetworkInterfaceAPI : public ::System::Net::NetworkInformation::NetworkInterfaceFactory_UnixNetworkInterfaceAPI
 	{

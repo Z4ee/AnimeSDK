@@ -3,15 +3,15 @@
 #include "unitysdk/RPG/Client/TAMonoPlugin_1.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-class Class_3_8FE15D155B05EF4E_1;
+class Class_3_8FE15D155B05EF4E_2;
 
-#define RPG_CLIENT_BOUNDSCOPYTOOLMONOPLUGIN__CTOR_OFFSET UNITYSDK_OFFSET(0xB441B90)
+#define RPG_CLIENT_BOUNDSCOPYTOOLMONOPLUGIN__CTOR_OFFSET UNITYSDK_OFFSET(0x18CA70A0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int BoundsCopyToolMonoPlugin_TypeDefinitionIndex = 66396;
+	inline static constexpr unsigned int BoundsCopyToolMonoPlugin_TypeDefinitionIndex = 67832;
 
-	class BoundsCopyToolMonoPlugin : public ::RPG::Client::TAMonoPlugin_1<::Class_3_8FE15D155B05EF4E_1*>
+	class BoundsCopyToolMonoPlugin : public ::RPG::Client::TAMonoPlugin_1<::Class_3_8FE15D155B05EF4E_2*>
 	{
 	public:
 		::UnityEngine::Vector3 boxCenter; // 0x30

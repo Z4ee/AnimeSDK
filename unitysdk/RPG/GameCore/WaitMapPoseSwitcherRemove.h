@@ -6,13 +6,13 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class DynamicStringList; }
 namespace RPG::GameCore { class TaskConfig; }
 
-#define RPG_GAMECORE_WAITMAPPOSESWITCHERREMOVE_METHOD_4_26B6D3C242A20877_OFFSET UNITYSDK_OFFSET(0x19E59C60)
-#define RPG_GAMECORE_WAITMAPPOSESWITCHERREMOVE_METHOD_4_682C968F0C19F1B5_OFFSET UNITYSDK_OFFSET(0x19E59B80)
-#define RPG_GAMECORE_WAITMAPPOSESWITCHERREMOVE__CTOR_OFFSET UNITYSDK_OFFSET(0x19E59C00)
+#define RPG_GAMECORE_WAITMAPPOSESWITCHERREMOVE_METHOD_4_181ECC86248BEF6A_OFFSET UNITYSDK_OFFSET(0x1B8A7C50)
+#define RPG_GAMECORE_WAITMAPPOSESWITCHERREMOVE_METHOD_4_26B6D3C242A20877_OFFSET UNITYSDK_OFFSET(0x1B8A7CA0)
+#define RPG_GAMECORE_WAITMAPPOSESWITCHERREMOVE__CTOR_OFFSET UNITYSDK_OFFSET(0x1B8A7C90)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int WaitMapPoseSwitcherRemove_TypeDefinitionIndex = 20094;
+	inline static constexpr unsigned int WaitMapPoseSwitcherRemove_TypeDefinitionIndex = 20466;
 
 	class WaitMapPoseSwitcherRemove : public ::RPG::GameCore::AdvWaitingEventBase
 	{
@@ -25,9 +25,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_WAITMAPPOSESWITCHERREMOVE__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_4_682C968F0C19F1B5(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::WaitMapPoseSwitcherRemove*& a2)
+		static ::System::Void Method_4_181ECC86248BEF6A(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::WaitMapPoseSwitcherRemove*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::WaitMapPoseSwitcherRemove*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_WAITMAPPOSESWITCHERREMOVE_METHOD_4_682C968F0C19F1B5_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::WaitMapPoseSwitcherRemove*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_WAITMAPPOSESWITCHERREMOVE_METHOD_4_181ECC86248BEF6A_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_4_26B6D3C242A20877(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::WaitMapPoseSwitcherRemove* a2)

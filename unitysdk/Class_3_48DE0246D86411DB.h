@@ -6,21 +6,20 @@ class Class_2_5436AF4270279182;
 class Class_4_48419B731F2612DE;
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_48DE0246D86411DB_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xA93D300)
-#define CLASS_3_48DE0246D86411DB_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xA93D4D0)
-#define CLASS_3_48DE0246D86411DB_TICK_OFFSET UNITYSDK_OFFSET(0xA93D520)
-#define CLASS_3_48DE0246D86411DB__CCTOR_OFFSET UNITYSDK_OFFSET(0xA93D580)
-#define CLASS_3_48DE0246D86411DB__CTOR_OFFSET UNITYSDK_OFFSET(0xA93D2D0)
-#define CLASS_3_48DE0246D86411DB___IFIXBASEPROXY_TICK_OFFSET UNITYSDK_OFFSET(0xA93D5C0)
+#define CLASS_3_48DE0246D86411DB_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x13A4B3F0)
+#define CLASS_3_48DE0246D86411DB_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x13A4B5C0)
+#define CLASS_3_48DE0246D86411DB_TICK_OFFSET UNITYSDK_OFFSET(0x13A4B610)
+#define CLASS_3_48DE0246D86411DB__CCTOR_OFFSET UNITYSDK_OFFSET(0x13A4B670)
+#define CLASS_3_48DE0246D86411DB__CTOR_OFFSET UNITYSDK_OFFSET(0x13A4B3C0)
 
-inline static constexpr unsigned int Class_3_48DE0246D86411DB_TypeDefinitionIndex = 48757;
+inline static constexpr unsigned int Class_3_48DE0246D86411DB_TypeDefinitionIndex = 49770;
 
 class Class_3_48DE0246D86411DB : public ::RPG::GameCore::ST_Task_1<::Class_4_48419B731F2612DE*>
 {
 public:
 	static ::System::Int32* StaticGet_Field_3_0()
 	{
-		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Class_3_48DE0246D86411DB_TypeDefinitionIndex)->GetStaticField(0x13FF0);
+		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Class_3_48DE0246D86411DB_TypeDefinitionIndex)->GetStaticField(0x12C10);
 	}
 	::Class_2_5436AF4270279182* Field_3_1; // 0x28
 
@@ -47,10 +46,5 @@ public:
 	::System::Void Tick(::System::Single a1)
 	{
 		return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + CLASS_3_48DE0246D86411DB_TICK_OFFSET))(this, a1);
-	}
-
-	::System::Void __iFixBaseProxy_Tick(::System::Single a1)
-	{
-		return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + CLASS_3_48DE0246D86411DB___IFIXBASEPROXY_TICK_OFFSET))(this, a1);
 	}
 };

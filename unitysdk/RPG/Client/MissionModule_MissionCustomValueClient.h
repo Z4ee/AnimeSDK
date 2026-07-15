@@ -4,11 +4,11 @@
 
 class Class_1_F91AD0C5A85E4AFA_17;
 
-#define RPG_CLIENT_MISSIONMODULE_MISSIONCUSTOMVALUECLIENT__CTOR_OFFSET UNITYSDK_OFFSET(0xC00E210)
+#define RPG_CLIENT_MISSIONMODULE_MISSIONCUSTOMVALUECLIENT__CTOR_OFFSET UNITYSDK_OFFSET(0x1804F640)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MissionModule_MissionCustomValueClient_TypeDefinitionIndex = 61842;
+	inline static constexpr unsigned int MissionModule_MissionCustomValueClient_TypeDefinitionIndex = 63204;
 
 	class MissionModule_MissionCustomValueClient : public ::System::Object
 	{

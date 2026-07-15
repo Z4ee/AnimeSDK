@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int PlayerSettingType_TypeDefinitionIndex = 62377;
+	inline static constexpr unsigned int PlayerSettingType_TypeDefinitionIndex = 63743;
 
 	enum class PlayerSettingType : ::System::Int32
 	{

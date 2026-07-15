@@ -4,51 +4,51 @@
 
 namespace System { class String; }
 
-#define UNITYENGINE_DEFAULTCONSOLECONFIGREADER_INTERNALSECTIONNAME_ISBUILDIN_OFFSET UNITYSDK_OFFSET(0x1B28E880)
-#define UNITYENGINE_DEFAULTCONSOLECONFIGREADER_INTERNALSECTIONNAME__CCTOR_OFFSET UNITYSDK_OFFSET(0x1B291190)
+#define UNITYENGINE_DEFAULTCONSOLECONFIGREADER_INTERNALSECTIONNAME_ISBUILDIN_OFFSET UNITYSDK_OFFSET(0x1C1725A0)
+#define UNITYENGINE_DEFAULTCONSOLECONFIGREADER_INTERNALSECTIONNAME__CCTOR_OFFSET UNITYSDK_OFFSET(0x1C174F50)
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int DefaultConsoleConfigReader_InternalSectionName_TypeDefinitionIndex = 4050;
+	inline static constexpr unsigned int DefaultConsoleConfigReader_InternalSectionName_TypeDefinitionIndex = 4055;
 
 	class DefaultConsoleConfigReader_InternalSectionName : public ::System::Object
 	{
 	public:
-		static ::System::String** StaticGet_Import()
+		static ::Il2CppArray<::System::String*>** StaticGet_buildInSectionNames()
 		{
-			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(DefaultConsoleConfigReader_InternalSectionName_TypeDefinitionIndex)->GetStaticField(0x2EC90);
-		}
-		static ::System::String** StaticGet_IsCloudPlatform()
-		{
-			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(DefaultConsoleConfigReader_InternalSectionName_TypeDefinitionIndex)->GetStaticField(0x2EC98);
-		}
-		static ::System::String** StaticGet_AsComponent()
-		{
-			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(DefaultConsoleConfigReader_InternalSectionName_TypeDefinitionIndex)->GetStaticField(0x2ECA0);
-		}
-		static ::System::String** StaticGet_ModelNameRegEx()
-		{
-			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(DefaultConsoleConfigReader_InternalSectionName_TypeDefinitionIndex)->GetStaticField(0x2ECA8);
-		}
-		static ::System::String** StaticGet_IsEditor()
-		{
-			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(DefaultConsoleConfigReader_InternalSectionName_TypeDefinitionIndex)->GetStaticField(0x2ECB0);
-		}
-		static ::System::String** StaticGet_CVar()
-		{
-			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(DefaultConsoleConfigReader_InternalSectionName_TypeDefinitionIndex)->GetStaticField(0x2ECB8);
-		}
-		static ::System::String** StaticGet_Condition()
-		{
-			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(DefaultConsoleConfigReader_InternalSectionName_TypeDefinitionIndex)->GetStaticField(0x2ECC0);
+			return (::Il2CppArray<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(DefaultConsoleConfigReader_InternalSectionName_TypeDefinitionIndex)->GetStaticField(0x37780);
 		}
 		static ::System::String** StaticGet_Platform()
 		{
-			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(DefaultConsoleConfigReader_InternalSectionName_TypeDefinitionIndex)->GetStaticField(0x2ECC8);
+			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(DefaultConsoleConfigReader_InternalSectionName_TypeDefinitionIndex)->GetStaticField(0x37788);
 		}
-		static ::Il2CppArray<::System::String*>** StaticGet_buildInSectionNames()
+		static ::System::String** StaticGet_Condition()
 		{
-			return (::Il2CppArray<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(DefaultConsoleConfigReader_InternalSectionName_TypeDefinitionIndex)->GetStaticField(0x2ECD0);
+			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(DefaultConsoleConfigReader_InternalSectionName_TypeDefinitionIndex)->GetStaticField(0x37790);
+		}
+		static ::System::String** StaticGet_AsComponent()
+		{
+			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(DefaultConsoleConfigReader_InternalSectionName_TypeDefinitionIndex)->GetStaticField(0x37798);
+		}
+		static ::System::String** StaticGet_ModelNameRegEx()
+		{
+			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(DefaultConsoleConfigReader_InternalSectionName_TypeDefinitionIndex)->GetStaticField(0x377A0);
+		}
+		static ::System::String** StaticGet_Import()
+		{
+			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(DefaultConsoleConfigReader_InternalSectionName_TypeDefinitionIndex)->GetStaticField(0x377A8);
+		}
+		static ::System::String** StaticGet_IsEditor()
+		{
+			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(DefaultConsoleConfigReader_InternalSectionName_TypeDefinitionIndex)->GetStaticField(0x377B0);
+		}
+		static ::System::String** StaticGet_IsCloudPlatform()
+		{
+			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(DefaultConsoleConfigReader_InternalSectionName_TypeDefinitionIndex)->GetStaticField(0x377B8);
+		}
+		static ::System::String** StaticGet_CVar()
+		{
+			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(DefaultConsoleConfigReader_InternalSectionName_TypeDefinitionIndex)->GetStaticField(0x377C0);
 		}
 
 		static ::System::Void _cctor()

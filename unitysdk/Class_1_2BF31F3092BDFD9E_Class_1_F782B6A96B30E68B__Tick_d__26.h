@@ -1,0 +1,58 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/RPG/Client/WolfBroGunPlayRoadMapConfig_PlayTarget.h"
+#include "unitysdk/System/Object.h"
+
+class Class_1_2BF31F3092BDFD9E_Class_1_F782B6A96B30E68B;
+
+#define CLASS_1_2BF31F3092BDFD9E_CLASS_1_F782B6A96B30E68B__TICK_D__26_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x16EF0550)
+#define CLASS_1_2BF31F3092BDFD9E_CLASS_1_F782B6A96B30E68B__TICK_D__26_SYSTEM_COLLECTIONS_GENERIC_IENUMERATOR_RPG_CLIENT_WOLFBROGUNPLAYROADMAPCONFIG_PLAYTARGET__GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x16EF08E0)
+#define CLASS_1_2BF31F3092BDFD9E_CLASS_1_F782B6A96B30E68B__TICK_D__26_SYSTEM_COLLECTIONS_IENUMERATOR_GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x16EF0950)
+#define CLASS_1_2BF31F3092BDFD9E_CLASS_1_F782B6A96B30E68B__TICK_D__26_SYSTEM_COLLECTIONS_IENUMERATOR_RESET_OFFSET UNITYSDK_OFFSET(0x16EF0900)
+#define CLASS_1_2BF31F3092BDFD9E_CLASS_1_F782B6A96B30E68B__TICK_D__26_SYSTEM_IDISPOSABLE_DISPOSE_OFFSET UNITYSDK_OFFSET(0x16EF0540)
+#define CLASS_1_2BF31F3092BDFD9E_CLASS_1_F782B6A96B30E68B__TICK_D__26__CTOR_OFFSET UNITYSDK_OFFSET(0x16EF0360)
+
+inline static constexpr unsigned int Class_1_2BF31F3092BDFD9E_Class_1_F782B6A96B30E68B__Tick_d__26_TypeDefinitionIndex = 65682;
+
+class Class_1_2BF31F3092BDFD9E_Class_1_F782B6A96B30E68B__Tick_d__26 : public ::System::Object
+{
+public:
+	::Class_1_2BF31F3092BDFD9E_Class_1_F782B6A96B30E68B* __4__this; // 0x10
+	::RPG::Client::WolfBroGunPlayRoadMapConfig_PlayTarget __2__current; // 0x18
+	::System::Int32 __1__state; // 0x38
+	::System::Int32 _i_5__3; // 0x3C
+	::System::Int32 _completeCount_5__2; // 0x40
+	::System::Single fElapsedTimeInSec; // 0x44
+	::System::Int32 _index_5__4; // 0x48
+	::System::Single fRealTime; // 0x4C
+
+	::System::Void _ctor(::System::Int32 a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + CLASS_1_2BF31F3092BDFD9E_CLASS_1_F782B6A96B30E68B__TICK_D__26__CTOR_OFFSET))(this, a1);
+	}
+
+	::System::Void System_IDisposable_Dispose()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_2BF31F3092BDFD9E_CLASS_1_F782B6A96B30E68B__TICK_D__26_SYSTEM_IDISPOSABLE_DISPOSE_OFFSET))(this);
+	}
+
+	::System::Boolean MoveNext()
+	{
+		return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_2BF31F3092BDFD9E_CLASS_1_F782B6A96B30E68B__TICK_D__26_MOVENEXT_OFFSET))(this);
+	}
+
+	::RPG::Client::WolfBroGunPlayRoadMapConfig_PlayTarget System_Collections_Generic_IEnumerator_RPG_Client_WolfBroGunPlayRoadMapConfig_PlayTarget__get_Current()
+	{
+		return ((::RPG::Client::WolfBroGunPlayRoadMapConfig_PlayTarget(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_2BF31F3092BDFD9E_CLASS_1_F782B6A96B30E68B__TICK_D__26_SYSTEM_COLLECTIONS_GENERIC_IENUMERATOR_RPG_CLIENT_WOLFBROGUNPLAYROADMAPCONFIG_PLAYTARGET__GET_CURRENT_OFFSET))(this);
+	}
+
+	::System::Void System_Collections_IEnumerator_Reset()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_2BF31F3092BDFD9E_CLASS_1_F782B6A96B30E68B__TICK_D__26_SYSTEM_COLLECTIONS_IENUMERATOR_RESET_OFFSET))(this);
+	}
+
+	::System::Object* System_Collections_IEnumerator_get_Current()
+	{
+		return ((::System::Object*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_2BF31F3092BDFD9E_CLASS_1_F782B6A96B30E68B__TICK_D__26_SYSTEM_COLLECTIONS_IENUMERATOR_GET_CURRENT_OFFSET))(this);
+	}
+};

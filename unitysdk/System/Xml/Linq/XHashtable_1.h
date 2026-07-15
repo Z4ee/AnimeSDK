@@ -8,7 +8,7 @@ namespace System::Xml::Linq { template <typename T> class XHashtable_1_XHashtabl
 
 namespace System::Xml::Linq
 {
-	inline static constexpr unsigned int XHashtable_1_TypeDefinitionIndex = 3865;
+	inline static constexpr unsigned int XHashtable_1_TypeDefinitionIndex = 3869;
 
 	template <typename TValue>
 	class XHashtable_1 : public ::System::Object

@@ -6,24 +6,24 @@ namespace System { class String; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 namespace UnityEngine { class GUIContent; }
 
-#define UNITYENGINE_RENDERING_DEBUGUI_BITFIELD___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1B176150)
-#define UNITYENGINE_RENDERING_DEBUGUI_BITFIELD___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1B176190)
-#define UNITYENGINE_RENDERING_DEBUGUI_BITFIELD___C__SET_ENUMTYPE_B__10_0_OFFSET UNITYSDK_OFFSET(0x1B1761A0)
+#define UNITYENGINE_RENDERING_DEBUGUI_BITFIELD___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1B0EC760)
+#define UNITYENGINE_RENDERING_DEBUGUI_BITFIELD___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1B0EC7A0)
+#define UNITYENGINE_RENDERING_DEBUGUI_BITFIELD___C__SET_ENUMTYPE_B__10_0_OFFSET UNITYSDK_OFFSET(0x1B0EC7B0)
 
 namespace UnityEngine::Rendering
 {
-	inline static constexpr unsigned int DebugUI_BitField___c_TypeDefinitionIndex = 33731;
+	inline static constexpr unsigned int DebugUI_BitField___c_TypeDefinitionIndex = 34102;
 
 	class DebugUI_BitField___c : public ::System::Object
 	{
 	public:
 		static ::System::Func_2<::System::String*, ::UnityEngine::GUIContent*>** StaticGet___9__10_0()
 		{
-			return (::System::Func_2<::System::String*, ::UnityEngine::GUIContent*>**)Il2CppClass::FromTypeDefinitionIndex(DebugUI_BitField___c_TypeDefinitionIndex)->GetStaticField(0x49D50);
+			return (::System::Func_2<::System::String*, ::UnityEngine::GUIContent*>**)Il2CppClass::FromTypeDefinitionIndex(DebugUI_BitField___c_TypeDefinitionIndex)->GetStaticField(0x45F60);
 		}
 		static ::UnityEngine::Rendering::DebugUI_BitField___c** StaticGet___9()
 		{
-			return (::UnityEngine::Rendering::DebugUI_BitField___c**)Il2CppClass::FromTypeDefinitionIndex(DebugUI_BitField___c_TypeDefinitionIndex)->GetStaticField(0x49D58);
+			return (::UnityEngine::Rendering::DebugUI_BitField___c**)Il2CppClass::FromTypeDefinitionIndex(DebugUI_BitField___c_TypeDefinitionIndex)->GetStaticField(0x45F68);
 		}
 
 		static ::System::Void _cctor()

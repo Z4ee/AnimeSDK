@@ -4,21 +4,21 @@
 #include "unitysdk/UnityEngine/Vector2.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-#define CLASS_1_7AC21DDFE833A149_METHOD_1_29ACE24A70CE0A56_OFFSET UNITYSDK_OFFSET(0xC72AEA0)
-#define CLASS_1_7AC21DDFE833A149__CTOR_OFFSET UNITYSDK_OFFSET(0xC72AE40)
+#define CLASS_1_7AC21DDFE833A149_METHOD_1_29ACE24A70CE0A56_OFFSET UNITYSDK_OFFSET(0x184651E0)
+#define CLASS_1_7AC21DDFE833A149__CTOR_OFFSET UNITYSDK_OFFSET(0x18465180)
 
-inline static constexpr unsigned int Class_1_7AC21DDFE833A149_TypeDefinitionIndex = 64459;
+inline static constexpr unsigned int Class_1_7AC21DDFE833A149_TypeDefinitionIndex = 65830;
 
 class Class_1_7AC21DDFE833A149 : public ::System::Object
 {
 public:
 	::System::Single Field_1_0; // 0x10
 	::System::Single Field_1_1; // 0x14
-	::System::Single Field_1_2; // 0x18
-	::System::Single Field_1_3; // 0x1C
-	::System::Single Field_1_4; // 0x20
-	::System::Single Field_1_5; // 0x24
-	::UnityEngine::Vector2 Field_1_6; // 0x28
+	::UnityEngine::Vector2 Field_1_2; // 0x18
+	::System::Single Field_1_3; // 0x20
+	::System::Single Field_1_4; // 0x24
+	::System::Single Field_1_5; // 0x28
+	::System::Single Field_1_6; // 0x2C
 	::System::Single Field_1_7; // 0x30
 
 	::System::Void _ctor(::UnityEngine::Vector3 a1, ::System::Single a2, ::System::Single a3)

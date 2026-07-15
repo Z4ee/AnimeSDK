@@ -3,7 +3,7 @@
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int MaterialGlobalIlluminationFlags_TypeDefinitionIndex = 4164;
+	inline static constexpr unsigned int MaterialGlobalIlluminationFlags_TypeDefinitionIndex = 4169;
 
 	enum class MaterialGlobalIlluminationFlags : ::System::Int32
 	{

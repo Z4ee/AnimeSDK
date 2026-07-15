@@ -6,7 +6,7 @@ namespace System { class String; }
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int MHYSDKC_PushInfo_TypeDefinitionIndex = 43604;
+	inline static constexpr unsigned int MHYSDKC_PushInfo_TypeDefinitionIndex = 44465;
 
 	class MHYSDKC_PushInfo : public ::System::Object
 	{

@@ -3,11 +3,11 @@
 #include "unitysdk/System/ValueType.h"
 #include "unitysdk/UnityEngine/Vector2.h"
 
-#define RPG_CLIENT_LITTLEGAME_FIVEDIM_FIVEDIMDYNAMICJOYSTICK_DRAGINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x13CB60)
+#define RPG_CLIENT_LITTLEGAME_FIVEDIM_FIVEDIMDYNAMICJOYSTICK_DRAGINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x39AD610)
 
 namespace RPG::Client::LittleGame::FiveDim
 {
-	inline static constexpr unsigned int FiveDimDynamicJoyStick_DragInfo_TypeDefinitionIndex = 71745;
+	inline static constexpr unsigned int FiveDimDynamicJoyStick_DragInfo_TypeDefinitionIndex = 73270;
 
 	struct alignas(4) FiveDimDynamicJoyStick_DragInfo
 	{

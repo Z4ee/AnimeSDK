@@ -7,19 +7,19 @@
 namespace RPG::GameCore { class GameEntity; }
 namespace RPG::GameCore { class TurnBasedModifierInstance; }
 
-#define CLASS_2_5365AB71460CDC53_GETEVENTTYPE_OFFSET UNITYSDK_OFFSET(0xABAB960)
-#define CLASS_2_5365AB71460CDC53_GETSOURCERUNTIMEID_OFFSET UNITYSDK_OFFSET(0xABAB910)
-#define CLASS_2_5365AB71460CDC53_METHOD_2_B5728DBC6FF4A218_OFFSET UNITYSDK_OFFSET(0xABAB8A0)
-#define CLASS_2_5365AB71460CDC53__CTOR_OFFSET UNITYSDK_OFFSET(0xABAB9B0)
+#define CLASS_2_5365AB71460CDC53_GETEVENTTYPE_OFFSET UNITYSDK_OFFSET(0x1642A6D0)
+#define CLASS_2_5365AB71460CDC53_GETSOURCERUNTIMEID_OFFSET UNITYSDK_OFFSET(0x1642A680)
+#define CLASS_2_5365AB71460CDC53_METHOD_2_B5728DBC6FF4A218_OFFSET UNITYSDK_OFFSET(0x1642A610)
+#define CLASS_2_5365AB71460CDC53__CTOR_OFFSET UNITYSDK_OFFSET(0x1642A720)
 
-inline static constexpr unsigned int Class_2_5365AB71460CDC53_TypeDefinitionIndex = 52846;
+inline static constexpr unsigned int Class_2_5365AB71460CDC53_TypeDefinitionIndex = 54058;
 
 class Class_2_5365AB71460CDC53 : public ::Class_1_BF7A075734D15E98
 {
 public:
-	::RPG::GameCore::TurnBasedModifierInstance* Field_2_0; // 0x18
+	::Il2CppArray<::RPG::GameCore::ModifierBehaviorFlag>* Field_2_0; // 0x18
 	::RPG::GameCore::GameEntity* Field_2_1; // 0x20
-	::Il2CppArray<::RPG::GameCore::ModifierBehaviorFlag>* Field_2_2; // 0x28
+	::RPG::GameCore::TurnBasedModifierInstance* Field_2_2; // 0x28
 
 	::System::Void _ctor()
 	{

@@ -4,7 +4,7 @@
 
 namespace UnityEngine::PlayerLoop
 {
-	inline static constexpr unsigned int PreLateUpdate_UpdateMasterServerInterface_TypeDefinitionIndex = 4602;
+	inline static constexpr unsigned int PreLateUpdate_UpdateMasterServerInterface_TypeDefinitionIndex = 4607;
 
 	struct alignas(1) PreLateUpdate_UpdateMasterServerInterface
 	{

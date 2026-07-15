@@ -7,12 +7,11 @@ class Class_1_5F51D4049EA87B7B;
 namespace RPG::GameCore { class SetDynamicValueByCharacterCount; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_02ECE597CF180D14_DISPOSE_OFFSET UNITYSDK_OFFSET(0x136B5980)
-#define CLASS_3_02ECE597CF180D14_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x136B5550)
-#define CLASS_3_02ECE597CF180D14__CTOR_OFFSET UNITYSDK_OFFSET(0x136B53E0)
-#define CLASS_3_02ECE597CF180D14___IFIXBASEPROXY_DISPOSE_OFFSET UNITYSDK_OFFSET(0x136B59F0)
+#define CLASS_3_02ECE597CF180D14_DISPOSE_OFFSET UNITYSDK_OFFSET(0x17023B90)
+#define CLASS_3_02ECE597CF180D14_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x17023760)
+#define CLASS_3_02ECE597CF180D14__CTOR_OFFSET UNITYSDK_OFFSET(0x170235F0)
 
-inline static constexpr unsigned int Class_3_02ECE597CF180D14_TypeDefinitionIndex = 51763;
+inline static constexpr unsigned int Class_3_02ECE597CF180D14_TypeDefinitionIndex = 52909;
 
 class Class_3_02ECE597CF180D14 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::SetDynamicValueByCharacterCount*>
 {
@@ -33,10 +32,5 @@ public:
 	::System::Void Dispose()
 	{
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_3_02ECE597CF180D14_DISPOSE_OFFSET))(this);
-	}
-
-	::System::Void __iFixBaseProxy_Dispose()
-	{
-		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_3_02ECE597CF180D14___IFIXBASEPROXY_DISPOSE_OFFSET))(this);
 	}
 };

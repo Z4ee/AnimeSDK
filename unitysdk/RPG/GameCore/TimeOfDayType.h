@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TimeOfDayType_TypeDefinitionIndex = 13378;
+	inline static constexpr unsigned int TimeOfDayType_TypeDefinitionIndex = 13526;
 
 	enum class TimeOfDayType : ::System::Int32
 	{

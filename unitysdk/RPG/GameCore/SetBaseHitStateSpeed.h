@@ -5,13 +5,13 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class TargetEvaluator; }
 
-#define RPG_GAMECORE_SETBASEHITSTATESPEED_METHOD_3_8FFD749348EBC8F8_OFFSET UNITYSDK_OFFSET(0x19C2A480)
-#define RPG_GAMECORE_SETBASEHITSTATESPEED_METHOD_3_96D6B8887BB74BEE_OFFSET UNITYSDK_OFFSET(0x19C2A400)
-#define RPG_GAMECORE_SETBASEHITSTATESPEED__CTOR_OFFSET UNITYSDK_OFFSET(0x19C2A450)
+#define RPG_GAMECORE_SETBASEHITSTATESPEED_METHOD_3_8FFD749348EBC8F8_OFFSET UNITYSDK_OFFSET(0x1C2D3BC0)
+#define RPG_GAMECORE_SETBASEHITSTATESPEED_METHOD_3_F23DB501403A2FE7_OFFSET UNITYSDK_OFFSET(0x1C2D3B80)
+#define RPG_GAMECORE_SETBASEHITSTATESPEED__CTOR_OFFSET UNITYSDK_OFFSET(0x1C2D3BB0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SetBaseHitStateSpeed_TypeDefinitionIndex = 21190;
+	inline static constexpr unsigned int SetBaseHitStateSpeed_TypeDefinitionIndex = 21605;
 
 	class SetBaseHitStateSpeed : public ::RPG::GameCore::TaskConfig
 	{
@@ -24,9 +24,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETBASEHITSTATESPEED__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_96D6B8887BB74BEE(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SetBaseHitStateSpeed*& a2)
+		static ::System::Void Method_3_F23DB501403A2FE7(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SetBaseHitStateSpeed*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SetBaseHitStateSpeed*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETBASEHITSTATESPEED_METHOD_3_96D6B8887BB74BEE_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SetBaseHitStateSpeed*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETBASEHITSTATESPEED_METHOD_3_F23DB501403A2FE7_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_8FFD749348EBC8F8(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SetBaseHitStateSpeed* a2)

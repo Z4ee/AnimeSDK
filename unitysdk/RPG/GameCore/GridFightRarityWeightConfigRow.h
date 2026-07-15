@@ -4,21 +4,21 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_GRIDFIGHTRARITYWEIGHTCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x19804780)
-#define RPG_GAMECORE_GRIDFIGHTRARITYWEIGHTCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x198049A0)
+#define RPG_GAMECORE_GRIDFIGHTRARITYWEIGHTCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D071570)
+#define RPG_GAMECORE_GRIDFIGHTRARITYWEIGHTCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D071790)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int GridFightRarityWeightConfigRow_TypeDefinitionIndex = 12950;
+	inline static constexpr unsigned int GridFightRarityWeightConfigRow_TypeDefinitionIndex = 13098;
 
 	class GridFightRarityWeightConfigRow : public ::System::Object
 	{
 	public:
-		::System::UInt32 Rarity4Weight; // 0x10
-		::System::UInt32 Rarity3Weight; // 0x14
-		::System::UInt32 PlayerLevel; // 0x18
-		::System::UInt32 Rarity2Weight; // 0x1C
-		::System::UInt32 Rarity1Weight; // 0x20
+		::System::UInt32 PlayerLevel; // 0x10
+		::System::UInt32 Rarity2Weight; // 0x14
+		::System::UInt32 Rarity1Weight; // 0x18
+		::System::UInt32 Rarity3Weight; // 0x1C
+		::System::UInt32 Rarity4Weight; // 0x20
 		::System::UInt32 Rarity5Weight; // 0x24
 
 		::System::Void _ctor()

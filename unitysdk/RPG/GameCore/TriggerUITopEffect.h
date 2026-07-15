@@ -7,13 +7,13 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class TargetEvaluator; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_TRIGGERUITOPEFFECT_METHOD_3_206557BA4B24B5C0_OFFSET UNITYSDK_OFFSET(0x19E1FB60)
-#define RPG_GAMECORE_TRIGGERUITOPEFFECT_METHOD_3_64ECB840827D45EC_OFFSET UNITYSDK_OFFSET(0x19E1FC30)
-#define RPG_GAMECORE_TRIGGERUITOPEFFECT__CTOR_OFFSET UNITYSDK_OFFSET(0x19E1FBE0)
+#define RPG_GAMECORE_TRIGGERUITOPEFFECT_METHOD_3_26BC6F85AF08CD9B_OFFSET UNITYSDK_OFFSET(0x1B0617C0)
+#define RPG_GAMECORE_TRIGGERUITOPEFFECT_METHOD_3_64ECB840827D45EC_OFFSET UNITYSDK_OFFSET(0x1B061860)
+#define RPG_GAMECORE_TRIGGERUITOPEFFECT__CTOR_OFFSET UNITYSDK_OFFSET(0x1B061820)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TriggerUITopEffect_TypeDefinitionIndex = 21897;
+	inline static constexpr unsigned int TriggerUITopEffect_TypeDefinitionIndex = 22324;
 
 	class TriggerUITopEffect : public ::RPG::GameCore::TaskConfig
 	{
@@ -27,9 +27,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TRIGGERUITOPEFFECT__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_206557BA4B24B5C0(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::TriggerUITopEffect*& a2)
+		static ::System::Void Method_3_26BC6F85AF08CD9B(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::TriggerUITopEffect*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::TriggerUITopEffect*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TRIGGERUITOPEFFECT_METHOD_3_206557BA4B24B5C0_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::TriggerUITopEffect*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TRIGGERUITOPEFFECT_METHOD_3_26BC6F85AF08CD9B_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_64ECB840827D45EC(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::TriggerUITopEffect* a2)

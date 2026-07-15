@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define RPG_CUSTOMRP_CRPGRAPHICSSETTINGSDATA_GRASSSETTINGCOLLECTION__CTOR_OFFSET UNITYSDK_OFFSET(0x18EB6DE0)
+#define RPG_CUSTOMRP_CRPGRAPHICSSETTINGSDATA_GRASSSETTINGCOLLECTION__CTOR_OFFSET UNITYSDK_OFFSET(0x1780F3D0)
 
 namespace RPG::CustomRP
 {
-	inline static constexpr unsigned int CRPGraphicsSettingsData_GrassSettingCollection_TypeDefinitionIndex = 35347;
+	inline static constexpr unsigned int CRPGraphicsSettingsData_GrassSettingCollection_TypeDefinitionIndex = 36128;
 
 	class CRPGraphicsSettingsData_GrassSettingCollection : public ::System::Object
 	{

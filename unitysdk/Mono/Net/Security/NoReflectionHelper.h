@@ -2,12 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define MONO_NET_SECURITY_NOREFLECTIONHELPER_GETINTERNALVALIDATOR_OFFSET UNITYSDK_OFFSET(0x1AF14760)
-#define MONO_NET_SECURITY_NOREFLECTIONHELPER_GETPROVIDER_OFFSET UNITYSDK_OFFSET(0x1AF14830)
+#define MONO_NET_SECURITY_NOREFLECTIONHELPER_GETINTERNALVALIDATOR_OFFSET UNITYSDK_OFFSET(0x1A84D8E0)
+#define MONO_NET_SECURITY_NOREFLECTIONHELPER_GETPROVIDER_OFFSET UNITYSDK_OFFSET(0x1A84D9B0)
 
 namespace Mono::Net::Security
 {
-	inline static constexpr unsigned int NoReflectionHelper_TypeDefinitionIndex = 2435;
+	inline static constexpr unsigned int NoReflectionHelper_TypeDefinitionIndex = 2439;
 
 	class NoReflectionHelper : public ::System::Object
 	{

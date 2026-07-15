@@ -4,12 +4,12 @@
 
 namespace RPG::Client { class SwordTrainingPowerRankData; }
 
-#define RPG_CLIENT_SWORDTRAININGPOWERRANKINFO___C__DISPLAYCLASS6_0__CTOR_OFFSET UNITYSDK_OFFSET(0xC9A5EA0)
-#define RPG_CLIENT_SWORDTRAININGPOWERRANKINFO___C__DISPLAYCLASS6_0__GETPOWERRANKBYRANKID_B__0_OFFSET UNITYSDK_OFFSET(0xC9A6C00)
+#define RPG_CLIENT_SWORDTRAININGPOWERRANKINFO___C__DISPLAYCLASS6_0__CTOR_OFFSET UNITYSDK_OFFSET(0x19C74070)
+#define RPG_CLIENT_SWORDTRAININGPOWERRANKINFO___C__DISPLAYCLASS6_0__GETPOWERRANKBYRANKID_B__0_OFFSET UNITYSDK_OFFSET(0x19C74A20)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int SwordTrainingPowerRankInfo___c__DisplayClass6_0_TypeDefinitionIndex = 57950;
+	inline static constexpr unsigned int SwordTrainingPowerRankInfo___c__DisplayClass6_0_TypeDefinitionIndex = 59216;
 
 	class SwordTrainingPowerRankInfo___c__DisplayClass6_0 : public ::System::Object
 	{

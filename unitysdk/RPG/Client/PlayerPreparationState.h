@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int PlayerPreparationState_TypeDefinitionIndex = 60842;
+	inline static constexpr unsigned int PlayerPreparationState_TypeDefinitionIndex = 62142;
 
 	enum class PlayerPreparationState : ::System::Int32
 	{

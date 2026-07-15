@@ -2,49 +2,49 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/Sofa/BaseViewModel.h"
 
-class Class_1_2FDE33CCAE591AA8;
 class Class_1_5F4D64A4B97E38F9;
+namespace Sofa::Core { class SimpleCommand; }
 
-#define RPG_CLIENT_CATGOD_CATGODVIEWMODEL_GET_ONBTNGO_OFFSET UNITYSDK_OFFSET(0xB4BF230)
-#define RPG_CLIENT_CATGOD_CATGODVIEWMODEL_GET_ONBTNSTAY_OFFSET UNITYSDK_OFFSET(0xB4BF210)
-#define RPG_CLIENT_CATGOD_CATGODVIEWMODEL_SET_ONBTNGO_OFFSET UNITYSDK_OFFSET(0xB4BF240)
-#define RPG_CLIENT_CATGOD_CATGODVIEWMODEL_SET_ONBTNSTAY_OFFSET UNITYSDK_OFFSET(0xB4BF220)
-#define RPG_CLIENT_CATGOD_CATGODVIEWMODEL__CTOR_OFFSET UNITYSDK_OFFSET(0xB4BF080)
+#define RPG_CLIENT_CATGOD_CATGODVIEWMODEL_GET_ONBTNGO_OFFSET UNITYSDK_OFFSET(0x1AC5EBF0)
+#define RPG_CLIENT_CATGOD_CATGODVIEWMODEL_GET_ONBTNSTAY_OFFSET UNITYSDK_OFFSET(0x1AC5EBD0)
+#define RPG_CLIENT_CATGOD_CATGODVIEWMODEL_SET_ONBTNGO_OFFSET UNITYSDK_OFFSET(0x1AC5EC00)
+#define RPG_CLIENT_CATGOD_CATGODVIEWMODEL_SET_ONBTNSTAY_OFFSET UNITYSDK_OFFSET(0x1AC5EBE0)
+#define RPG_CLIENT_CATGOD_CATGODVIEWMODEL__CTOR_OFFSET UNITYSDK_OFFSET(0x1AC5EA40)
 
 namespace RPG::Client::CatGod
 {
-	inline static constexpr unsigned int CatGodViewModel_TypeDefinitionIndex = 74306;
+	inline static constexpr unsigned int CatGodViewModel_TypeDefinitionIndex = 76690;
 
 	class CatGodViewModel : public ::Sofa::BaseViewModel
 	{
 	public:
-		::Class_1_2FDE33CCAE591AA8* _OnBtnStay_k__BackingField; // 0x20
-		::Class_1_2FDE33CCAE591AA8* _OnBtnGo_k__BackingField; // 0x28
-		::Class_1_5F4D64A4B97E38F9* _Messenger; // 0x30
+		::Sofa::Core::SimpleCommand* _OnBtnGo_k__BackingField; // 0x20
+		::Class_1_5F4D64A4B97E38F9* _Messenger; // 0x28
+		::Sofa::Core::SimpleCommand* _OnBtnStay_k__BackingField; // 0x30
 
 		::System::Void _ctor(::Class_1_5F4D64A4B97E38F9* a1)
 		{
 			return ((::System::Void(*)(::PVOID, ::Class_1_5F4D64A4B97E38F9*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CATGOD_CATGODVIEWMODEL__CTOR_OFFSET))(this, a1);
 		}
 
-		::Class_1_2FDE33CCAE591AA8* get_OnBtnStay()
+		::Sofa::Core::SimpleCommand* get_OnBtnStay()
 		{
-			return ((::Class_1_2FDE33CCAE591AA8*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CATGOD_CATGODVIEWMODEL_GET_ONBTNSTAY_OFFSET))(this);
+			return ((::Sofa::Core::SimpleCommand*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CATGOD_CATGODVIEWMODEL_GET_ONBTNSTAY_OFFSET))(this);
 		}
 
-		::System::Void set_OnBtnStay(::Class_1_2FDE33CCAE591AA8* a1)
+		::System::Void set_OnBtnStay(::Sofa::Core::SimpleCommand* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Class_1_2FDE33CCAE591AA8*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CATGOD_CATGODVIEWMODEL_SET_ONBTNSTAY_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::Sofa::Core::SimpleCommand*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CATGOD_CATGODVIEWMODEL_SET_ONBTNSTAY_OFFSET))(this, a1);
 		}
 
-		::Class_1_2FDE33CCAE591AA8* get_OnBtnGo()
+		::Sofa::Core::SimpleCommand* get_OnBtnGo()
 		{
-			return ((::Class_1_2FDE33CCAE591AA8*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CATGOD_CATGODVIEWMODEL_GET_ONBTNGO_OFFSET))(this);
+			return ((::Sofa::Core::SimpleCommand*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CATGOD_CATGODVIEWMODEL_GET_ONBTNGO_OFFSET))(this);
 		}
 
-		::System::Void set_OnBtnGo(::Class_1_2FDE33CCAE591AA8* a1)
+		::System::Void set_OnBtnGo(::Sofa::Core::SimpleCommand* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Class_1_2FDE33CCAE591AA8*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CATGOD_CATGODVIEWMODEL_SET_ONBTNGO_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::Sofa::Core::SimpleCommand*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CATGOD_CATGODVIEWMODEL_SET_ONBTNGO_OFFSET))(this, a1);
 		}
 	};
 }

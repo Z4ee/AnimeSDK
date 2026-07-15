@@ -3,7 +3,7 @@
 
 namespace RPG::Client::LittleGame
 {
-	inline static constexpr unsigned int LittleGameAbilityAttributeModifierType_TypeDefinitionIndex = 38734;
+	inline static constexpr unsigned int LittleGameAbilityAttributeModifierType_TypeDefinitionIndex = 39542;
 
 	enum class LittleGameAbilityAttributeModifierType : ::System::Int32
 	{

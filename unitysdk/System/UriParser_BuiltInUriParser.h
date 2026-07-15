@@ -5,11 +5,11 @@
 
 namespace System { class String; }
 
-#define SYSTEM_URIPARSER_BUILTINURIPARSER__CTOR_OFFSET UNITYSDK_OFFSET(0x1B016940)
+#define SYSTEM_URIPARSER_BUILTINURIPARSER__CTOR_OFFSET UNITYSDK_OFFSET(0x16805CB0)
 
 namespace System
 {
-	inline static constexpr unsigned int UriParser_BuiltInUriParser_TypeDefinitionIndex = 2468;
+	inline static constexpr unsigned int UriParser_BuiltInUriParser_TypeDefinitionIndex = 2472;
 
 	class UriParser_BuiltInUriParser : public ::System::UriParser
 	{

@@ -7,12 +7,12 @@ namespace RPG::GameCore { class FloorCustomValueConfig; }
 namespace RPG::GameCore { class HoyoTagContainer; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_LEVELDIMENSIONCROSSMAPBRIEFINFO_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x19870D30)
-#define RPG_GAMECORE_LEVELDIMENSIONCROSSMAPBRIEFINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x19870F90)
+#define RPG_GAMECORE_LEVELDIMENSIONCROSSMAPBRIEFINFO_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B030E70)
+#define RPG_GAMECORE_LEVELDIMENSIONCROSSMAPBRIEFINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x1B0310D0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LevelDimensionCrossMapBriefInfo_TypeDefinitionIndex = 16313;
+	inline static constexpr unsigned int LevelDimensionCrossMapBriefInfo_TypeDefinitionIndex = 16475;
 
 	class LevelDimensionCrossMapBriefInfo : public ::RPG::GameCore::JsonConfig
 	{

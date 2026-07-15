@@ -5,12 +5,12 @@
 namespace MiHoYo::SDK::UI { class AccountBinding; }
 namespace System { class String; }
 
-#define MIHOYO_SDK_UI_ACCOUNTBINDING___C__DISPLAYCLASS81_0__CTOR_OFFSET UNITYSDK_OFFSET(0x184322A0)
-#define MIHOYO_SDK_UI_ACCOUNTBINDING___C__DISPLAYCLASS81_0__SHOW_B__0_OFFSET UNITYSDK_OFFSET(0x18435F60)
+#define MIHOYO_SDK_UI_ACCOUNTBINDING___C__DISPLAYCLASS81_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1B69B170)
+#define MIHOYO_SDK_UI_ACCOUNTBINDING___C__DISPLAYCLASS81_0__SHOW_B__0_OFFSET UNITYSDK_OFFSET(0x1B69F4D0)
 
 namespace MiHoYo::SDK::UI
 {
-	inline static constexpr unsigned int AccountBinding___c__DisplayClass81_0_TypeDefinitionIndex = 8302;
+	inline static constexpr unsigned int AccountBinding___c__DisplayClass81_0_TypeDefinitionIndex = 8314;
 
 	class AccountBinding___c__DisplayClass81_0 : public ::System::Object
 	{

@@ -4,16 +4,16 @@
 #include "unitysdk/UnityEngine/Color.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-#define CLASS_1_8595EBB95116F4B2_METHOD_1_F10A0D072D26C4BF_OFFSET UNITYSDK_OFFSET(0xAA70340)
-#define CLASS_1_8595EBB95116F4B2__CTOR_OFFSET UNITYSDK_OFFSET(0xAA70230)
+#define CLASS_1_8595EBB95116F4B2_METHOD_1_F10A0D072D26C4BF_OFFSET UNITYSDK_OFFSET(0x165B4D50)
+#define CLASS_1_8595EBB95116F4B2__CTOR_OFFSET UNITYSDK_OFFSET(0x165B4C40)
 
-inline static constexpr unsigned int Class_1_8595EBB95116F4B2_TypeDefinitionIndex = 45071;
+inline static constexpr unsigned int Class_1_8595EBB95116F4B2_TypeDefinitionIndex = 45989;
 
 class Class_1_8595EBB95116F4B2 : public ::System::Object
 {
 public:
-	::UnityEngine::Vector3 Field_1_0; // 0x10
-	::System::Single Field_1_1; // 0x1C
+	::System::Single Field_1_0; // 0x10
+	::UnityEngine::Vector3 Field_1_1; // 0x14
 	::UnityEngine::Vector3 Field_1_2; // 0x20
 	::System::Single Field_1_3; // 0x2C
 

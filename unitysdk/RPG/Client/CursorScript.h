@@ -9,13 +9,13 @@ namespace UnityEngine { class RectTransform; }
 namespace UnityEngine::EventSystems { class VirtualCursorInputModule; }
 namespace UnityEngine::UI { class Image; }
 
-#define RPG_CLIENT_CURSORSCRIPT_START_OFFSET UNITYSDK_OFFSET(0xB721E60)
-#define RPG_CLIENT_CURSORSCRIPT_UPDATE_OFFSET UNITYSDK_OFFSET(0xB722090)
-#define RPG_CLIENT_CURSORSCRIPT__CTOR_OFFSET UNITYSDK_OFFSET(0xB722C20)
+#define RPG_CLIENT_CURSORSCRIPT_START_OFFSET UNITYSDK_OFFSET(0x1803A060)
+#define RPG_CLIENT_CURSORSCRIPT_UPDATE_OFFSET UNITYSDK_OFFSET(0x1803A290)
+#define RPG_CLIENT_CURSORSCRIPT__CTOR_OFFSET UNITYSDK_OFFSET(0x1803AE10)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int CursorScript_TypeDefinitionIndex = 68378;
+	inline static constexpr unsigned int CursorScript_TypeDefinitionIndex = 69872;
 
 	class CursorScript : public ::UnityEngine::MonoBehaviour
 	{

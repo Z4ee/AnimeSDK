@@ -5,13 +5,13 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class TargetEvaluator; }
 
-#define RPG_GAMECORE_ADVMONSTERFORBIDSELECT_METHOD_3_2826DDAAFAC35CCD_OFFSET UNITYSDK_OFFSET(0x19429940)
-#define RPG_GAMECORE_ADVMONSTERFORBIDSELECT_METHOD_3_8F7844DD5FBF4FE1_OFFSET UNITYSDK_OFFSET(0x194299C0)
-#define RPG_GAMECORE_ADVMONSTERFORBIDSELECT__CTOR_OFFSET UNITYSDK_OFFSET(0x19429990)
+#define RPG_GAMECORE_ADVMONSTERFORBIDSELECT_METHOD_3_8F7844DD5FBF4FE1_OFFSET UNITYSDK_OFFSET(0x1BE21550)
+#define RPG_GAMECORE_ADVMONSTERFORBIDSELECT_METHOD_3_D21357FADC0A555E_OFFSET UNITYSDK_OFFSET(0x1BE21500)
+#define RPG_GAMECORE_ADVMONSTERFORBIDSELECT__CTOR_OFFSET UNITYSDK_OFFSET(0x1BE21540)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AdvMonsterForbidSelect_TypeDefinitionIndex = 20588;
+	inline static constexpr unsigned int AdvMonsterForbidSelect_TypeDefinitionIndex = 21003;
 
 	class AdvMonsterForbidSelect : public ::RPG::GameCore::TaskConfig
 	{
@@ -24,9 +24,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVMONSTERFORBIDSELECT__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_2826DDAAFAC35CCD(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AdvMonsterForbidSelect*& a2)
+		static ::System::Void Method_3_D21357FADC0A555E(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AdvMonsterForbidSelect*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::AdvMonsterForbidSelect*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVMONSTERFORBIDSELECT_METHOD_3_2826DDAAFAC35CCD_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::AdvMonsterForbidSelect*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVMONSTERFORBIDSELECT_METHOD_3_D21357FADC0A555E_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_8F7844DD5FBF4FE1(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AdvMonsterForbidSelect* a2)

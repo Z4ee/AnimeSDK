@@ -6,19 +6,19 @@ namespace MiHoYo::SDK { class SecurityTunnel_FileHeader; }
 namespace MiHoYo::SDK { class SecurityTunnel_FilePart; }
 namespace MiHoYo::SDK { class SecurityTunnel_Packet; }
 
-#define MIHOYO_SDK_SECURITYTUNNEL_FILETASK__CTOR_1_OFFSET UNITYSDK_OFFSET(0xA2141F0)
-#define MIHOYO_SDK_SECURITYTUNNEL_FILETASK__CTOR_2_OFFSET UNITYSDK_OFFSET(0xA206D30)
-#define MIHOYO_SDK_SECURITYTUNNEL_FILETASK__CTOR_OFFSET UNITYSDK_OFFSET(0xA209710)
+#define MIHOYO_SDK_SECURITYTUNNEL_FILETASK__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1ABBF370)
+#define MIHOYO_SDK_SECURITYTUNNEL_FILETASK__CTOR_2_OFFSET UNITYSDK_OFFSET(0x1ABB1090)
+#define MIHOYO_SDK_SECURITYTUNNEL_FILETASK__CTOR_OFFSET UNITYSDK_OFFSET(0x1ABB3D50)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int SecurityTunnel_FileTask_TypeDefinitionIndex = 43786;
+	inline static constexpr unsigned int SecurityTunnel_FileTask_TypeDefinitionIndex = 44648;
 
 	class SecurityTunnel_FileTask : public ::System::Object
 	{
 	public:
-		::MiHoYo::SDK::SecurityTunnel_FileHeader* Header; // 0x10
-		::MiHoYo::SDK::SecurityTunnel_FilePart* Part; // 0x18
+		::MiHoYo::SDK::SecurityTunnel_FilePart* Part; // 0x10
+		::MiHoYo::SDK::SecurityTunnel_FileHeader* Header; // 0x18
 
 		::System::Void _ctor(::MiHoYo::SDK::SecurityTunnel_FileHeader* a1)
 		{

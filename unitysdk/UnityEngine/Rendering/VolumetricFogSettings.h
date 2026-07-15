@@ -5,7 +5,7 @@
 
 namespace UnityEngine::Rendering
 {
-	inline static constexpr unsigned int VolumetricFogSettings_TypeDefinitionIndex = 4832;
+	inline static constexpr unsigned int VolumetricFogSettings_TypeDefinitionIndex = 4837;
 
 	struct alignas(4) VolumetricFogSettings
 	{

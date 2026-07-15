@@ -7,18 +7,18 @@ namespace RPG::GameCore { class GameEntity; }
 namespace RPG::GameCore { class StoryCharacterRow; }
 namespace System { class Action; }
 
-#define CLASS_1_525CE8923EADB3E0___C__DISPLAYCLASS4_0__CTOR_OFFSET UNITYSDK_OFFSET(0x13A4A7B0)
-#define CLASS_1_525CE8923EADB3E0___C__DISPLAYCLASS4_0___CREATESTORYPLAYER_B__0_OFFSET UNITYSDK_OFFSET(0x13A4B000)
-#define CLASS_1_525CE8923EADB3E0___C__DISPLAYCLASS4_0___CREATESTORYPLAYER_B__2_OFFSET UNITYSDK_OFFSET(0x13A4B050)
+#define CLASS_1_525CE8923EADB3E0___C__DISPLAYCLASS4_0__CTOR_OFFSET UNITYSDK_OFFSET(0x16532600)
+#define CLASS_1_525CE8923EADB3E0___C__DISPLAYCLASS4_0___CREATESTORYPLAYER_B__0_OFFSET UNITYSDK_OFFSET(0x16532E60)
+#define CLASS_1_525CE8923EADB3E0___C__DISPLAYCLASS4_0___CREATESTORYPLAYER_B__2_OFFSET UNITYSDK_OFFSET(0x16532EB0)
 
-inline static constexpr unsigned int Class_1_525CE8923EADB3E0___c__DisplayClass4_0_TypeDefinitionIndex = 56785;
+inline static constexpr unsigned int Class_1_525CE8923EADB3E0___c__DisplayClass4_0_TypeDefinitionIndex = 58032;
 
 class Class_1_525CE8923EADB3E0___c__DisplayClass4_0 : public ::System::Object
 {
 public:
-	::Class_1_525CE8923EADB3E0* __4__this; // 0x10
+	::RPG::GameCore::StoryCharacterRow* playerRow; // 0x10
 	::System::Action* onSwitchFinish; // 0x18
-	::RPG::GameCore::StoryCharacterRow* playerRow; // 0x20
+	::Class_1_525CE8923EADB3E0* __4__this; // 0x20
 
 	::System::Void _ctor()
 	{

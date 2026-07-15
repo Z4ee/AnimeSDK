@@ -3,12 +3,12 @@
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/Hash128.h"
 
-#define UNITYENGINE_HASHUNSAFEUTILITIES_COMPUTEHASH128_1_OFFSET UNITYSDK_OFFSET(0x1B29C8A0)
-#define UNITYENGINE_HASHUNSAFEUTILITIES_COMPUTEHASH128_OFFSET UNITYSDK_OFFSET(0x1B29C830)
+#define UNITYENGINE_HASHUNSAFEUTILITIES_COMPUTEHASH128_1_OFFSET UNITYSDK_OFFSET(0x1CCC5950)
+#define UNITYENGINE_HASHUNSAFEUTILITIES_COMPUTEHASH128_OFFSET UNITYSDK_OFFSET(0x1CCC58E0)
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int HashUnsafeUtilities_TypeDefinitionIndex = 4190;
+	inline static constexpr unsigned int HashUnsafeUtilities_TypeDefinitionIndex = 4195;
 
 	class HashUnsafeUtilities : public ::System::Object
 	{

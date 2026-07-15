@@ -13,7 +13,7 @@ namespace System::Collections::Generic { template <typename T> class IEnumerable
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int IResidentActivityPanelData_TypeDefinitionIndex = 57760;
+	inline static constexpr unsigned int IResidentActivityPanelData_TypeDefinitionIndex = 59026;
 
 	class IResidentActivityPanelData
 	{

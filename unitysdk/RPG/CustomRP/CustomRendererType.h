@@ -3,7 +3,7 @@
 
 namespace RPG::CustomRP
 {
-	inline static constexpr unsigned int CustomRendererType_TypeDefinitionIndex = 35212;
+	inline static constexpr unsigned int CustomRendererType_TypeDefinitionIndex = 35994;
 
 	enum class CustomRendererType : ::System::Int32
 	{

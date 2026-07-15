@@ -8,7 +8,7 @@ namespace System { class Object; }
 
 namespace XLua
 {
-	inline static constexpr unsigned int ObjectTranslator_GetFunc_1_TypeDefinitionIndex = 46898;
+	inline static constexpr unsigned int ObjectTranslator_GetFunc_1_TypeDefinitionIndex = 47863;
 
 	template <typename T>
 	class ObjectTranslator_GetFunc_1 : public ::System::MulticastDelegate

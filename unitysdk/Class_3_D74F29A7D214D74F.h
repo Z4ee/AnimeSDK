@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class AdvNpcResetEyeTransforms; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_D74F29A7D214D74F_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x112A7980)
-#define CLASS_3_D74F29A7D214D74F__CTOR_OFFSET UNITYSDK_OFFSET(0x112A7950)
+#define CLASS_3_D74F29A7D214D74F_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x18F8B3F0)
+#define CLASS_3_D74F29A7D214D74F__CTOR_OFFSET UNITYSDK_OFFSET(0x18F8B3C0)
 
-inline static constexpr unsigned int Class_3_D74F29A7D214D74F_TypeDefinitionIndex = 49057;
+inline static constexpr unsigned int Class_3_D74F29A7D214D74F_TypeDefinitionIndex = 50070;
 
 class Class_3_D74F29A7D214D74F : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::AdvNpcResetEyeTransforms*>
 {

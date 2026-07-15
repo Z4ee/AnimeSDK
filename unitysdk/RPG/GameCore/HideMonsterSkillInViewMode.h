@@ -5,13 +5,13 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class TargetEvaluator; }
 
-#define RPG_GAMECORE_HIDEMONSTERSKILLINVIEWMODE_METHOD_3_4A7F28E96BA1AC16_OFFSET UNITYSDK_OFFSET(0x19831A40)
-#define RPG_GAMECORE_HIDEMONSTERSKILLINVIEWMODE_METHOD_3_AF40FAAC350034FA_OFFSET UNITYSDK_OFFSET(0x19831960)
-#define RPG_GAMECORE_HIDEMONSTERSKILLINVIEWMODE__CTOR_OFFSET UNITYSDK_OFFSET(0x198319E0)
+#define RPG_GAMECORE_HIDEMONSTERSKILLINVIEWMODE_METHOD_3_2F60DCFB4D816AD9_OFFSET UNITYSDK_OFFSET(0x1B684450)
+#define RPG_GAMECORE_HIDEMONSTERSKILLINVIEWMODE_METHOD_3_4A7F28E96BA1AC16_OFFSET UNITYSDK_OFFSET(0x1B684510)
+#define RPG_GAMECORE_HIDEMONSTERSKILLINVIEWMODE__CTOR_OFFSET UNITYSDK_OFFSET(0x1B6844C0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int HideMonsterSkillInViewMode_TypeDefinitionIndex = 21931;
+	inline static constexpr unsigned int HideMonsterSkillInViewMode_TypeDefinitionIndex = 22360;
 
 	class HideMonsterSkillInViewMode : public ::RPG::GameCore::TaskConfig
 	{
@@ -26,9 +26,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_HIDEMONSTERSKILLINVIEWMODE__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_AF40FAAC350034FA(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::HideMonsterSkillInViewMode*& a2)
+		static ::System::Void Method_3_2F60DCFB4D816AD9(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::HideMonsterSkillInViewMode*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::HideMonsterSkillInViewMode*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_HIDEMONSTERSKILLINVIEWMODE_METHOD_3_AF40FAAC350034FA_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::HideMonsterSkillInViewMode*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_HIDEMONSTERSKILLINVIEWMODE_METHOD_3_2F60DCFB4D816AD9_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_4A7F28E96BA1AC16(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::HideMonsterSkillInViewMode* a2)

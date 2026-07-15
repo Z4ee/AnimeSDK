@@ -4,11 +4,11 @@
 
 namespace RPG::Client { class ChenLingFesGameInstance; }
 
-#define RPG_CLIENT_DEBUGCHENLINGFESRUNTIME__CTOR_OFFSET UNITYSDK_OFFSET(0xB735310)
+#define RPG_CLIENT_DEBUGCHENLINGFESRUNTIME__CTOR_OFFSET UNITYSDK_OFFSET(0x1808F520)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int DebugChenLingFesRuntime_TypeDefinitionIndex = 56370;
+	inline static constexpr unsigned int DebugChenLingFesRuntime_TypeDefinitionIndex = 57609;
 
 	class DebugChenLingFesRuntime : public ::UnityEngine::MonoBehaviour
 	{

@@ -6,21 +6,21 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_MECHANISMBARCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1990B580)
-#define RPG_GAMECORE_MECHANISMBARCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1990B7E0)
+#define RPG_GAMECORE_MECHANISMBARCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1AF555E0)
+#define RPG_GAMECORE_MECHANISMBARCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1AF55840)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MechanismBarConfigRow_TypeDefinitionIndex = 13449;
+	inline static constexpr unsigned int MechanismBarConfigRow_TypeDefinitionIndex = 13597;
 
 	class MechanismBarConfigRow : public ::System::Object
 	{
 	public:
-		::System::String* IconPath; // 0x10
-		::Il2CppArray<::System::UInt32>* FloorIDList; // 0x18
-		::RPG::Client::TextID Name; // 0x20
-		::System::UInt32 MaxValue; // 0x30
-		::System::UInt32 ID; // 0x34
+		::Il2CppArray<::System::UInt32>* FloorIDList; // 0x10
+		::System::String* IconPath; // 0x18
+		::System::UInt32 ID; // 0x20
+		::System::UInt32 MaxValue; // 0x24
+		::RPG::Client::TextID Name; // 0x28
 
 		::System::Void _ctor()
 		{

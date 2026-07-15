@@ -4,7 +4,7 @@
 
 namespace Google::Protobuf::Reflection
 {
-	inline static constexpr unsigned int GeneratedCodeInfo_Types_TypeDefinitionIndex = 5521;
+	inline static constexpr unsigned int GeneratedCodeInfo_Types_TypeDefinitionIndex = 5526;
 
 	class GeneratedCodeInfo_Types : public ::System::Object
 	{

@@ -2,12 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/InControl/InputDeviceProfile.h"
 
-#define INCONTROL_NATIVEDEVICEPROFILES_GAMECUBEWINDOWSNATIVEPROFILE_DEFINE_OFFSET UNITYSDK_OFFSET(0x17FD8050)
-#define INCONTROL_NATIVEDEVICEPROFILES_GAMECUBEWINDOWSNATIVEPROFILE__CTOR_OFFSET UNITYSDK_OFFSET(0x17FD8E80)
+#define INCONTROL_NATIVEDEVICEPROFILES_GAMECUBEWINDOWSNATIVEPROFILE_DEFINE_OFFSET UNITYSDK_OFFSET(0x1735EF50)
+#define INCONTROL_NATIVEDEVICEPROFILES_GAMECUBEWINDOWSNATIVEPROFILE__CTOR_OFFSET UNITYSDK_OFFSET(0x1735FD20)
 
 namespace InControl::NativeDeviceProfiles
 {
-	inline static constexpr unsigned int GameCubeWindowsNativeProfile_TypeDefinitionIndex = 38340;
+	inline static constexpr unsigned int GameCubeWindowsNativeProfile_TypeDefinitionIndex = 39148;
 
 	class GameCubeWindowsNativeProfile : public ::InControl::InputDeviceProfile
 	{

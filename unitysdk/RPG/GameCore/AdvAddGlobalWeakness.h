@@ -5,13 +5,13 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_ADVADDGLOBALWEAKNESS_METHOD_3_C3225BCEF018DCCA_OFFSET UNITYSDK_OFFSET(0x19414F10)
-#define RPG_GAMECORE_ADVADDGLOBALWEAKNESS_METHOD_3_FF5353DD98909ABB_OFFSET UNITYSDK_OFFSET(0x19414F90)
-#define RPG_GAMECORE_ADVADDGLOBALWEAKNESS__CTOR_OFFSET UNITYSDK_OFFSET(0x19414F60)
+#define RPG_GAMECORE_ADVADDGLOBALWEAKNESS_METHOD_3_E64C8BFA101C0EC6_OFFSET UNITYSDK_OFFSET(0x1BE0C880)
+#define RPG_GAMECORE_ADVADDGLOBALWEAKNESS_METHOD_3_FF5353DD98909ABB_OFFSET UNITYSDK_OFFSET(0x1BE0C8C0)
+#define RPG_GAMECORE_ADVADDGLOBALWEAKNESS__CTOR_OFFSET UNITYSDK_OFFSET(0x1BE0C8B0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AdvAddGlobalWeakness_TypeDefinitionIndex = 20590;
+	inline static constexpr unsigned int AdvAddGlobalWeakness_TypeDefinitionIndex = 21005;
 
 	class AdvAddGlobalWeakness : public ::RPG::GameCore::TaskConfig
 	{
@@ -24,9 +24,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVADDGLOBALWEAKNESS__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_C3225BCEF018DCCA(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AdvAddGlobalWeakness*& a2)
+		static ::System::Void Method_3_E64C8BFA101C0EC6(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AdvAddGlobalWeakness*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::AdvAddGlobalWeakness*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVADDGLOBALWEAKNESS_METHOD_3_C3225BCEF018DCCA_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::AdvAddGlobalWeakness*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVADDGLOBALWEAKNESS_METHOD_3_E64C8BFA101C0EC6_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_FF5353DD98909ABB(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AdvAddGlobalWeakness* a2)

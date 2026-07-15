@@ -5,13 +5,13 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class DynamicString; }
 
-#define RPG_GAMECORE_SETDRONEFUNCBTN_METHOD_3_4B442DD64E95471D_OFFSET UNITYSDK_OFFSET(0x19C33D60)
-#define RPG_GAMECORE_SETDRONEFUNCBTN_METHOD_3_77C9A7193987753B_OFFSET UNITYSDK_OFFSET(0x19C33CE0)
-#define RPG_GAMECORE_SETDRONEFUNCBTN__CTOR_OFFSET UNITYSDK_OFFSET(0x19C33D30)
+#define RPG_GAMECORE_SETDRONEFUNCBTN_METHOD_3_4B442DD64E95471D_OFFSET UNITYSDK_OFFSET(0x1C2DC670)
+#define RPG_GAMECORE_SETDRONEFUNCBTN_METHOD_3_6E2B8C54F14FC53E_OFFSET UNITYSDK_OFFSET(0x1C2DC630)
+#define RPG_GAMECORE_SETDRONEFUNCBTN__CTOR_OFFSET UNITYSDK_OFFSET(0x1C2DC660)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SetDroneFuncBtn_TypeDefinitionIndex = 20911;
+	inline static constexpr unsigned int SetDroneFuncBtn_TypeDefinitionIndex = 21326;
 
 	class SetDroneFuncBtn : public ::RPG::GameCore::TaskConfig
 	{
@@ -24,9 +24,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETDRONEFUNCBTN__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_77C9A7193987753B(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SetDroneFuncBtn*& a2)
+		static ::System::Void Method_3_6E2B8C54F14FC53E(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SetDroneFuncBtn*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SetDroneFuncBtn*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETDRONEFUNCBTN_METHOD_3_77C9A7193987753B_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SetDroneFuncBtn*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETDRONEFUNCBTN_METHOD_3_6E2B8C54F14FC53E_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_4B442DD64E95471D(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SetDroneFuncBtn* a2)

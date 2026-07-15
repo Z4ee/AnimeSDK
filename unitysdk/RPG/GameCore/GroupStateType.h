@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int GroupStateType_TypeDefinitionIndex = 53308;
+	inline static constexpr unsigned int GroupStateType_TypeDefinitionIndex = 54523;
 
 	enum class GroupStateType : ::System::Int32
 	{

@@ -6,13 +6,13 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class ClockParkStoryAnimState; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_CLOCKPARKSTORYCHARACTERTRIGGERANIMSTATE_METHOD_3_5FF0111E1C51CE68_OFFSET UNITYSDK_OFFSET(0x196604D0)
-#define RPG_GAMECORE_CLOCKPARKSTORYCHARACTERTRIGGERANIMSTATE_METHOD_3_7725889BB4B82295_OFFSET UNITYSDK_OFFSET(0x19660550)
-#define RPG_GAMECORE_CLOCKPARKSTORYCHARACTERTRIGGERANIMSTATE__CTOR_OFFSET UNITYSDK_OFFSET(0x19660520)
+#define RPG_GAMECORE_CLOCKPARKSTORYCHARACTERTRIGGERANIMSTATE_METHOD_3_7725889BB4B82295_OFFSET UNITYSDK_OFFSET(0x1C260DF0)
+#define RPG_GAMECORE_CLOCKPARKSTORYCHARACTERTRIGGERANIMSTATE_METHOD_3_B0BBD43E753A2518_OFFSET UNITYSDK_OFFSET(0x1C260DB0)
+#define RPG_GAMECORE_CLOCKPARKSTORYCHARACTERTRIGGERANIMSTATE__CTOR_OFFSET UNITYSDK_OFFSET(0x1C260DE0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ClockParkStoryCharacterTriggerAnimState_TypeDefinitionIndex = 19796;
+	inline static constexpr unsigned int ClockParkStoryCharacterTriggerAnimState_TypeDefinitionIndex = 20156;
 
 	class ClockParkStoryCharacterTriggerAnimState : public ::RPG::GameCore::TaskConfig
 	{
@@ -28,9 +28,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CLOCKPARKSTORYCHARACTERTRIGGERANIMSTATE__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_5FF0111E1C51CE68(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ClockParkStoryCharacterTriggerAnimState*& a2)
+		static ::System::Void Method_3_B0BBD43E753A2518(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ClockParkStoryCharacterTriggerAnimState*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ClockParkStoryCharacterTriggerAnimState*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CLOCKPARKSTORYCHARACTERTRIGGERANIMSTATE_METHOD_3_5FF0111E1C51CE68_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ClockParkStoryCharacterTriggerAnimState*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CLOCKPARKSTORYCHARACTERTRIGGERANIMSTATE_METHOD_3_B0BBD43E753A2518_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_7725889BB4B82295(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ClockParkStoryCharacterTriggerAnimState* a2)

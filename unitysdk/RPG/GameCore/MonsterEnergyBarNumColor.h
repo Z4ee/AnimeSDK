@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MonsterEnergyBarNumColor_TypeDefinitionIndex = 23412;
+	inline static constexpr unsigned int MonsterEnergyBarNumColor_TypeDefinitionIndex = 23900;
 
 	enum class MonsterEnergyBarNumColor : ::System::Int32
 	{

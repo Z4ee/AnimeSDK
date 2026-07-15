@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/StateMachineBehaviour.h"
 
-#define RPG_CLIENT_TIMELINECONTROLTARGETSTATEMARK__CTOR_OFFSET UNITYSDK_OFFSET(0xCA742D0)
+#define RPG_CLIENT_TIMELINECONTROLTARGETSTATEMARK__CTOR_OFFSET UNITYSDK_OFFSET(0x178A5060)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int TimelineControlTargetStateMark_TypeDefinitionIndex = 56876;
+	inline static constexpr unsigned int TimelineControlTargetStateMark_TypeDefinitionIndex = 58123;
 
 	class TimelineControlTargetStateMark : public ::UnityEngine::StateMachineBehaviour
 	{

@@ -4,11 +4,11 @@
 
 namespace System::Linq::Expressions { class Expression; }
 
-#define SYSTEM_LINQ_EXPRESSIONS_MEMBERASSIGNMENT_GET_EXPRESSION_OFFSET UNITYSDK_OFFSET(0x1ADB49F0)
+#define SYSTEM_LINQ_EXPRESSIONS_MEMBERASSIGNMENT_GET_EXPRESSION_OFFSET UNITYSDK_OFFSET(0x1C1C75E0)
 
 namespace System::Linq::Expressions
 {
-	inline static constexpr unsigned int MemberAssignment_TypeDefinitionIndex = 3228;
+	inline static constexpr unsigned int MemberAssignment_TypeDefinitionIndex = 3232;
 
 	class MemberAssignment : public ::System::Linq::Expressions::MemberBinding
 	{

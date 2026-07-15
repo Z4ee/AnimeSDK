@@ -8,25 +8,24 @@ namespace RPG::GameCore { class GameEntity; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_GAMECORE_LEVELINSERTABILITYFINISH_CLEAR_OFFSET UNITYSDK_OFFSET(0xCE4B0F0)
-#define RPG_GAMECORE_LEVELINSERTABILITYFINISH_GETEVENTTYPE_OFFSET UNITYSDK_OFFSET(0xCE4B1C0)
-#define RPG_GAMECORE_LEVELINSERTABILITYFINISH_GETSOURCERUNTIMEID_OFFSET UNITYSDK_OFFSET(0xCE4B170)
-#define RPG_GAMECORE_LEVELINSERTABILITYFINISH_INIT_OFFSET UNITYSDK_OFFSET(0xCE4AFF0)
-#define RPG_GAMECORE_LEVELINSERTABILITYFINISH__CTOR_OFFSET UNITYSDK_OFFSET(0xCE4B210)
-#define RPG_GAMECORE_LEVELINSERTABILITYFINISH___IFIXBASEPROXY_CLEAR_OFFSET UNITYSDK_OFFSET(0xCE4B250)
+#define RPG_GAMECORE_LEVELINSERTABILITYFINISH_CLEAR_OFFSET UNITYSDK_OFFSET(0x1BE01080)
+#define RPG_GAMECORE_LEVELINSERTABILITYFINISH_GETEVENTTYPE_OFFSET UNITYSDK_OFFSET(0x1BE01150)
+#define RPG_GAMECORE_LEVELINSERTABILITYFINISH_GETSOURCERUNTIMEID_OFFSET UNITYSDK_OFFSET(0x1BE01100)
+#define RPG_GAMECORE_LEVELINSERTABILITYFINISH_INIT_OFFSET UNITYSDK_OFFSET(0x1BE00F80)
+#define RPG_GAMECORE_LEVELINSERTABILITYFINISH__CTOR_OFFSET UNITYSDK_OFFSET(0x1BE011A0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LevelInsertAbilityFinish_TypeDefinitionIndex = 53078;
+	inline static constexpr unsigned int LevelInsertAbilityFinish_TypeDefinitionIndex = 54292;
 
 	class LevelInsertAbilityFinish : public ::Class_1_BF7A075734D15E98
 	{
 	public:
-		::RPG::GameCore::GameEntity* CasterEntity; // 0x18
-		::System::String* InsertAbilityName; // 0x20
-		::System::Collections::Generic::List_1<::RPG::GameCore::GameEntity*>* TargetList; // 0x28
-		::System::Boolean Silence; // 0x30
-		::System::Boolean ShowInActionBar; // 0x31
+		::System::Collections::Generic::List_1<::RPG::GameCore::GameEntity*>* TargetList; // 0x18
+		::RPG::GameCore::GameEntity* CasterEntity; // 0x20
+		::System::String* InsertAbilityName; // 0x28
+		::System::Boolean ShowInActionBar; // 0x30
+		::System::Boolean Silence; // 0x31
 
 		::System::Void _ctor()
 		{
@@ -51,11 +50,6 @@ namespace RPG::GameCore
 		::RPG::GameCore::EventType GetEventType()
 		{
 			return ((::RPG::GameCore::EventType(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELINSERTABILITYFINISH_GETEVENTTYPE_OFFSET))(this);
-		}
-
-		::System::Void __iFixBaseProxy_Clear()
-		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELINSERTABILITYFINISH___IFIXBASEPROXY_CLEAR_OFFSET))(this);
 		}
 	};
 }

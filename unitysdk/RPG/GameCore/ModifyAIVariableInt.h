@@ -6,13 +6,13 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_MODIFYAIVARIABLEINT_METHOD_3_A7E21FFBAB61401C_OFFSET UNITYSDK_OFFSET(0x1994E130)
-#define RPG_GAMECORE_MODIFYAIVARIABLEINT_METHOD_3_E3041E04EFFAEA61_OFFSET UNITYSDK_OFFSET(0x1994E0B0)
-#define RPG_GAMECORE_MODIFYAIVARIABLEINT__CTOR_OFFSET UNITYSDK_OFFSET(0x1994E100)
+#define RPG_GAMECORE_MODIFYAIVARIABLEINT_METHOD_3_8AC62E127C49795D_OFFSET UNITYSDK_OFFSET(0x1AF72FD0)
+#define RPG_GAMECORE_MODIFYAIVARIABLEINT_METHOD_3_A7E21FFBAB61401C_OFFSET UNITYSDK_OFFSET(0x1AF73010)
+#define RPG_GAMECORE_MODIFYAIVARIABLEINT__CTOR_OFFSET UNITYSDK_OFFSET(0x1AF73000)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ModifyAIVariableInt_TypeDefinitionIndex = 18898;
+	inline static constexpr unsigned int ModifyAIVariableInt_TypeDefinitionIndex = 19248;
 
 	class ModifyAIVariableInt : public ::RPG::GameCore::TaskConfig
 	{
@@ -26,9 +26,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MODIFYAIVARIABLEINT__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_E3041E04EFFAEA61(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ModifyAIVariableInt*& a2)
+		static ::System::Void Method_3_8AC62E127C49795D(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ModifyAIVariableInt*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ModifyAIVariableInt*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MODIFYAIVARIABLEINT_METHOD_3_E3041E04EFFAEA61_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ModifyAIVariableInt*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MODIFYAIVARIABLEINT_METHOD_3_8AC62E127C49795D_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_A7E21FFBAB61401C(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ModifyAIVariableInt* a2)

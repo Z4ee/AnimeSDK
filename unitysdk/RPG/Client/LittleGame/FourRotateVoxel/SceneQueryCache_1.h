@@ -8,7 +8,7 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client::LittleGame::FourRotateVoxel
 {
-	inline static constexpr unsigned int SceneQueryCache_1_TypeDefinitionIndex = 39792;
+	inline static constexpr unsigned int SceneQueryCache_1_TypeDefinitionIndex = 40601;
 
 	template <typename T>
 	class SceneQueryCache_1 : public ::System::Object

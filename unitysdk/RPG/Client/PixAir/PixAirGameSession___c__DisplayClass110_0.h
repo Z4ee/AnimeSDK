@@ -4,12 +4,12 @@
 
 namespace RPG::Client::PixAir { class PixAirEquipInstance; }
 
-#define RPG_CLIENT_PIXAIR_PIXAIRGAMESESSION___C__DISPLAYCLASS110_0__CHECKEQUIPCANLEVELUP_G__LEVELUPPREDICATE_0_OFFSET UNITYSDK_OFFSET(0xC3D37B0)
-#define RPG_CLIENT_PIXAIR_PIXAIRGAMESESSION___C__DISPLAYCLASS110_0__CTOR_OFFSET UNITYSDK_OFFSET(0xC3D1EB0)
+#define RPG_CLIENT_PIXAIR_PIXAIRGAMESESSION___C__DISPLAYCLASS110_0__CHECKEQUIPCANLEVELUP_G__LEVELUPPREDICATE_0_OFFSET UNITYSDK_OFFSET(0x1A0C8CD0)
+#define RPG_CLIENT_PIXAIR_PIXAIRGAMESESSION___C__DISPLAYCLASS110_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1A0C6A80)
 
 namespace RPG::Client::PixAir
 {
-	inline static constexpr unsigned int PixAirGameSession___c__DisplayClass110_0_TypeDefinitionIndex = 73677;
+	inline static constexpr unsigned int PixAirGameSession___c__DisplayClass110_0_TypeDefinitionIndex = 75326;
 
 	class PixAirGameSession___c__DisplayClass110_0 : public ::System::Object
 	{

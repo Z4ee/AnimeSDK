@@ -8,13 +8,13 @@ namespace RPG::GameCore { class PredicateConfig; }
 namespace RPG::GameCore { class TargetEvaluator; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_GLOBALVISIBILITYCONTROL_METHOD_3_1E05B85221E37E39_OFFSET UNITYSDK_OFFSET(0x197D1910)
-#define RPG_GAMECORE_GLOBALVISIBILITYCONTROL_METHOD_3_93104BD81682B8D7_OFFSET UNITYSDK_OFFSET(0x197D19B0)
-#define RPG_GAMECORE_GLOBALVISIBILITYCONTROL__CTOR_OFFSET UNITYSDK_OFFSET(0x197D1970)
+#define RPG_GAMECORE_GLOBALVISIBILITYCONTROL_METHOD_3_8F919A33E7132401_OFFSET UNITYSDK_OFFSET(0x1C5BD6D0)
+#define RPG_GAMECORE_GLOBALVISIBILITYCONTROL_METHOD_3_93104BD81682B8D7_OFFSET UNITYSDK_OFFSET(0x1C5BD730)
+#define RPG_GAMECORE_GLOBALVISIBILITYCONTROL__CTOR_OFFSET UNITYSDK_OFFSET(0x1C5BD710)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int GlobalVisibilityControl_TypeDefinitionIndex = 19135;
+	inline static constexpr unsigned int GlobalVisibilityControl_TypeDefinitionIndex = 19491;
 
 	class GlobalVisibilityControl : public ::RPG::GameCore::TaskConfig
 	{
@@ -34,9 +34,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GLOBALVISIBILITYCONTROL__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_1E05B85221E37E39(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::GlobalVisibilityControl*& a2)
+		static ::System::Void Method_3_8F919A33E7132401(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::GlobalVisibilityControl*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::GlobalVisibilityControl*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GLOBALVISIBILITYCONTROL_METHOD_3_1E05B85221E37E39_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::GlobalVisibilityControl*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GLOBALVISIBILITYCONTROL_METHOD_3_8F919A33E7132401_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_93104BD81682B8D7(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::GlobalVisibilityControl* a2)

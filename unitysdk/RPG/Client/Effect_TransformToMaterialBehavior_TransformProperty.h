@@ -6,12 +6,12 @@
 namespace UnityEngine { class Material; }
 namespace UnityEngine { class Transform; }
 
-#define RPG_CLIENT_EFFECT_TRANSFORMTOMATERIALBEHAVIOR_TRANSFORMPROPERTY_METHOD_2_4F515A5348AB9F15_OFFSET UNITYSDK_OFFSET(0xB894B80)
-#define RPG_CLIENT_EFFECT_TRANSFORMTOMATERIALBEHAVIOR_TRANSFORMPROPERTY__CTOR_OFFSET UNITYSDK_OFFSET(0xB894C10)
+#define RPG_CLIENT_EFFECT_TRANSFORMTOMATERIALBEHAVIOR_TRANSFORMPROPERTY_METHOD_2_289133ED16ED02FB_OFFSET UNITYSDK_OFFSET(0x151341A0)
+#define RPG_CLIENT_EFFECT_TRANSFORMTOMATERIALBEHAVIOR_TRANSFORMPROPERTY__CTOR_OFFSET UNITYSDK_OFFSET(0x15134290)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int Effect_TransformToMaterialBehavior_TransformProperty_TypeDefinitionIndex = 65990;
+	inline static constexpr unsigned int Effect_TransformToMaterialBehavior_TransformProperty_TypeDefinitionIndex = 67415;
 
 	class Effect_TransformToMaterialBehavior_TransformProperty : public ::RPG::Client::TAUtils::MaterialPropertiesCollection_Property
 	{
@@ -24,9 +24,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_EFFECT_TRANSFORMTOMATERIALBEHAVIOR_TRANSFORMPROPERTY__CTOR_OFFSET))(this);
 		}
 
-		::System::Void Method_2_4F515A5348AB9F15(::UnityEngine::Material* a1)
+		::System::Void Method_2_289133ED16ED02FB(::UnityEngine::Material* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Material*))((::PBYTE)hIl2Cpp + RPG_CLIENT_EFFECT_TRANSFORMTOMATERIALBEHAVIOR_TRANSFORMPROPERTY_METHOD_2_4F515A5348AB9F15_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Material*))((::PBYTE)hIl2Cpp + RPG_CLIENT_EFFECT_TRANSFORMTOMATERIALBEHAVIOR_TRANSFORMPROPERTY_METHOD_2_289133ED16ED02FB_OFFSET))(this, a1);
 		}
 	};
 }

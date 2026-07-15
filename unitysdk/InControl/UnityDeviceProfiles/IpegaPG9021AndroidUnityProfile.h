@@ -2,12 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/InControl/InputDeviceProfile.h"
 
-#define INCONTROL_UNITYDEVICEPROFILES_IPEGAPG9021ANDROIDUNITYPROFILE_DEFINE_OFFSET UNITYSDK_OFFSET(0x180882D0)
-#define INCONTROL_UNITYDEVICEPROFILES_IPEGAPG9021ANDROIDUNITYPROFILE__CTOR_OFFSET UNITYSDK_OFFSET(0x18089580)
+#define INCONTROL_UNITYDEVICEPROFILES_IPEGAPG9021ANDROIDUNITYPROFILE_DEFINE_OFFSET UNITYSDK_OFFSET(0xB4CD420)
+#define INCONTROL_UNITYDEVICEPROFILES_IPEGAPG9021ANDROIDUNITYPROFILE__CTOR_OFFSET UNITYSDK_OFFSET(0xB4CE680)
 
 namespace InControl::UnityDeviceProfiles
 {
-	inline static constexpr unsigned int IpegaPG9021AndroidUnityProfile_TypeDefinitionIndex = 37998;
+	inline static constexpr unsigned int IpegaPG9021AndroidUnityProfile_TypeDefinitionIndex = 38806;
 
 	class IpegaPG9021AndroidUnityProfile : public ::InControl::InputDeviceProfile
 	{

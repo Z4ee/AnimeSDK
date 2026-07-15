@@ -5,13 +5,12 @@
 #include "unitysdk/UnityEngine/Playables/Playable.h"
 #include "unitysdk/UnityEngine/Playables/PlayableBehaviour.h"
 
-#define RPGTOOLS_TIMELINE_CRPCAMERASMALLWINDOWBACKGROUNDBEHAVIOUR_ONBEHAVIOURPLAY_OFFSET UNITYSDK_OFFSET(0xCFE3FD0)
-#define RPGTOOLS_TIMELINE_CRPCAMERASMALLWINDOWBACKGROUNDBEHAVIOUR__CTOR_OFFSET UNITYSDK_OFFSET(0xCFE4160)
-#define RPGTOOLS_TIMELINE_CRPCAMERASMALLWINDOWBACKGROUNDBEHAVIOUR___IFIXBASEPROXY_ONBEHAVIOURPLAY_OFFSET UNITYSDK_OFFSET(0xCFE4260)
+#define RPGTOOLS_TIMELINE_CRPCAMERASMALLWINDOWBACKGROUNDBEHAVIOUR_ONBEHAVIOURPLAY_OFFSET UNITYSDK_OFFSET(0x1B34CD40)
+#define RPGTOOLS_TIMELINE_CRPCAMERASMALLWINDOWBACKGROUNDBEHAVIOUR__CTOR_OFFSET UNITYSDK_OFFSET(0x1B34CED0)
 
 namespace RPGTools::Timeline
 {
-	inline static constexpr unsigned int CRPCameraSmallWindowBackgroundBehaviour_TypeDefinitionIndex = 45194;
+	inline static constexpr unsigned int CRPCameraSmallWindowBackgroundBehaviour_TypeDefinitionIndex = 46118;
 
 	class CRPCameraSmallWindowBackgroundBehaviour : public ::UnityEngine::Playables::PlayableBehaviour
 	{
@@ -26,11 +25,6 @@ namespace RPGTools::Timeline
 		::System::Void OnBehaviourPlay(::UnityEngine::Playables::Playable a1, ::UnityEngine::Playables::FrameData a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::UnityEngine::Playables::Playable, ::UnityEngine::Playables::FrameData))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_CRPCAMERASMALLWINDOWBACKGROUNDBEHAVIOUR_ONBEHAVIOURPLAY_OFFSET))(this, a1, a2);
-		}
-
-		::System::Void __iFixBaseProxy_OnBehaviourPlay(::UnityEngine::Playables::Playable a1, ::UnityEngine::Playables::FrameData a2)
-		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Playables::Playable, ::UnityEngine::Playables::FrameData))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_CRPCAMERASMALLWINDOWBACKGROUNDBEHAVIOUR___IFIXBASEPROXY_ONBEHAVIOURPLAY_OFFSET))(this, a1, a2);
 		}
 	};
 }

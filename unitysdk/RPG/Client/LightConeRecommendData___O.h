@@ -7,14 +7,14 @@ namespace System { template <typename T> class Comparison_1; }
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int LightConeRecommendData___O_TypeDefinitionIndex = 62454;
+	inline static constexpr unsigned int LightConeRecommendData___O_TypeDefinitionIndex = 63820;
 
 	class LightConeRecommendData___O : public ::System::Object
 	{
 	public:
 		static ::System::Comparison_1<::Class_1_AE0CA897D782D638*>** StaticGet__0____SortLightConeByUsageRate()
 		{
-			return (::System::Comparison_1<::Class_1_AE0CA897D782D638*>**)Il2CppClass::FromTypeDefinitionIndex(LightConeRecommendData___O_TypeDefinitionIndex)->GetStaticField(0x465B0);
+			return (::System::Comparison_1<::Class_1_AE0CA897D782D638*>**)Il2CppClass::FromTypeDefinitionIndex(LightConeRecommendData___O_TypeDefinitionIndex)->GetStaticField(0x35270);
 		}
 	};
 }

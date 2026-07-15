@@ -3,7 +3,7 @@
 
 namespace MiHoYo::SDK::PluginUI
 {
-	inline static constexpr unsigned int HoYoSDKQRLogin_QRLoginDialogMsgID_TypeDefinitionIndex = 44125;
+	inline static constexpr unsigned int HoYoSDKQRLogin_QRLoginDialogMsgID_TypeDefinitionIndex = 44995;
 
 	enum class HoYoSDKQRLogin_QRLoginDialogMsgID : ::System::Int32
 	{

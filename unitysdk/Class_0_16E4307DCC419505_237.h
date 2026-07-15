@@ -1,10 +1,11 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/RPG/Client/LittleGame/FiveDim/PhantomPlayerAssetLoadState.h"
+#include "unitysdk/System/ValueTuple_2.h"
 
-namespace RPG::Client::LittleGame::FiveDim { class PhantomPlayerFrameAsset; }
+namespace Google::Protobuf { class IMessage; }
+namespace System::Collections::Generic { template <typename T> class IList_1; }
 
-inline static constexpr unsigned int Class_0_16E4307DCC419505_237_TypeDefinitionIndex = 40005;
+inline static constexpr unsigned int Class_0_16E4307DCC419505_237_TypeDefinitionIndex = 40250;
 
 class Class_0_16E4307DCC419505_237
 {

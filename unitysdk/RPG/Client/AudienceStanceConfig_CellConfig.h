@@ -6,7 +6,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int AudienceStanceConfig_CellConfig_TypeDefinitionIndex = 64682;
+	inline static constexpr unsigned int AudienceStanceConfig_CellConfig_TypeDefinitionIndex = 66083;
 
 	struct alignas(8) AudienceStanceConfig_CellConfig
 	{

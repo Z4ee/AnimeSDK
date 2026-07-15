@@ -9,13 +9,13 @@ namespace RPG::GameCore { class DynamicFloat; }
 namespace RPG::GameCore { class TargetEvaluator; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_SETENERGYBARSTATE_METHOD_3_5C4F75B132516E64_OFFSET UNITYSDK_OFFSET(0x19C4A890)
-#define RPG_GAMECORE_SETENERGYBARSTATE_METHOD_3_9F74823ECA5FCF0D_OFFSET UNITYSDK_OFFSET(0x19C4AA30)
-#define RPG_GAMECORE_SETENERGYBARSTATE__CTOR_OFFSET UNITYSDK_OFFSET(0x19C4A8D0)
+#define RPG_GAMECORE_SETENERGYBARSTATE_METHOD_3_5C4F75B132516E64_OFFSET UNITYSDK_OFFSET(0x1C5F60C0)
+#define RPG_GAMECORE_SETENERGYBARSTATE_METHOD_3_9F74823ECA5FCF0D_OFFSET UNITYSDK_OFFSET(0x1C5F6250)
+#define RPG_GAMECORE_SETENERGYBARSTATE__CTOR_OFFSET UNITYSDK_OFFSET(0x1C5F6100)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SetEnergyBarState_TypeDefinitionIndex = 21497;
+	inline static constexpr unsigned int SetEnergyBarState_TypeDefinitionIndex = 21918;
 
 	class SetEnergyBarState : public ::RPG::GameCore::TaskConfig
 	{
@@ -32,6 +32,7 @@ namespace RPG::GameCore
 		::System::String* PrefabPath; // 0x58
 		::Il2CppArray<::System::String*>* EnergyDotPrefabPaths; // 0x60
 		::System::Boolean SkipInCharmAction; // 0x68
+		::RPG::GameCore::BoolEx ShowEnhancedTextColor; // 0x6C
 
 		::System::Void _ctor()
 		{

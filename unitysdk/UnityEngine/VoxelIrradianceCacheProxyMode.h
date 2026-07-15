@@ -3,7 +3,7 @@
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int VoxelIrradianceCacheProxyMode_TypeDefinitionIndex = 4252;
+	inline static constexpr unsigned int VoxelIrradianceCacheProxyMode_TypeDefinitionIndex = 4257;
 
 	enum class VoxelIrradianceCacheProxyMode : ::System::Int32
 	{

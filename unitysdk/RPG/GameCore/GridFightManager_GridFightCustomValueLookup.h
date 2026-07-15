@@ -9,21 +9,21 @@ namespace System { class String; }
 namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_GRIDFIGHTMANAGER_GRIDFIGHTCUSTOMVALUELOOKUP_ADDEMPTY_OFFSET UNITYSDK_OFFSET(0xCE27BF0)
-#define RPG_GAMECORE_GRIDFIGHTMANAGER_GRIDFIGHTCUSTOMVALUELOOKUP_GETCUSTOMVALUE_1_OFFSET UNITYSDK_OFFSET(0xCE2D970)
-#define RPG_GAMECORE_GRIDFIGHTMANAGER_GRIDFIGHTCUSTOMVALUELOOKUP_GETCUSTOMVALUE_OFFSET UNITYSDK_OFFSET(0xCE23AC0)
-#define RPG_GAMECORE_GRIDFIGHTMANAGER_GRIDFIGHTCUSTOMVALUELOOKUP_SETCUSTOMVALUE_OFFSET UNITYSDK_OFFSET(0xCE23C90)
-#define RPG_GAMECORE_GRIDFIGHTMANAGER_GRIDFIGHTCUSTOMVALUELOOKUP__CTOR_OFFSET UNITYSDK_OFFSET(0xCE2D6D0)
+#define RPG_GAMECORE_GRIDFIGHTMANAGER_GRIDFIGHTCUSTOMVALUELOOKUP_ADDEMPTY_OFFSET UNITYSDK_OFFSET(0x15519C70)
+#define RPG_GAMECORE_GRIDFIGHTMANAGER_GRIDFIGHTCUSTOMVALUELOOKUP_GETCUSTOMVALUE_1_OFFSET UNITYSDK_OFFSET(0x1551F8D0)
+#define RPG_GAMECORE_GRIDFIGHTMANAGER_GRIDFIGHTCUSTOMVALUELOOKUP_GETCUSTOMVALUE_OFFSET UNITYSDK_OFFSET(0x15515C70)
+#define RPG_GAMECORE_GRIDFIGHTMANAGER_GRIDFIGHTCUSTOMVALUELOOKUP_SETCUSTOMVALUE_OFFSET UNITYSDK_OFFSET(0x15515E40)
+#define RPG_GAMECORE_GRIDFIGHTMANAGER_GRIDFIGHTCUSTOMVALUELOOKUP__CTOR_OFFSET UNITYSDK_OFFSET(0x1551F830)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int GridFightManager_GridFightCustomValueLookup_TypeDefinitionIndex = 52444;
+	inline static constexpr unsigned int GridFightManager_GridFightCustomValueLookup_TypeDefinitionIndex = 53648;
 
 	class GridFightManager_GridFightCustomValueLookup : public ::System::Object
 	{
 	public:
-		::System::Collections::Generic::Dictionary_2<::RPG::GameCore::StringHash, ::RPG::GameCore::GridFightManager_GridFightCustomValue*>* _CustomValue; // 0x10
-		::System::Action_1<::RPG::GameCore::GridFightManager_GridFightCustomValue*>* OnChangedDefault; // 0x18
+		::System::Action_1<::RPG::GameCore::GridFightManager_GridFightCustomValue*>* OnChangedDefault; // 0x10
+		::System::Collections::Generic::Dictionary_2<::RPG::GameCore::StringHash, ::RPG::GameCore::GridFightManager_GridFightCustomValue*>* _CustomValue; // 0x18
 
 		::System::Void _ctor()
 		{

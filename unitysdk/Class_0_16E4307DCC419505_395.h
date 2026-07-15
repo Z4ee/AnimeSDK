@@ -1,14 +1,10 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/RPG/GameCore/AvatarSkillTreeAnchorType.h"
-#include "unitysdk/RPG/GameCore/FixPoint.h"
-#include "unitysdk/Struct_2_BAC064D277DD99F1.h"
+#include "unitysdk/Struct_2_D645B4E0B73852B6_2.h"
 
-class Class_0_16E4307DCC419505_387;
-namespace RPG::AvatarSystem::Property { template <typename T> class IPropertyModifierProvider_1; }
-namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
+class Class_1_71EAE0D13B3DF503;
 
-inline static constexpr unsigned int Class_0_16E4307DCC419505_395_TypeDefinitionIndex = 48576;
+inline static constexpr unsigned int Class_0_16E4307DCC419505_395_TypeDefinitionIndex = 49547;
 
 class Class_0_16E4307DCC419505_395
 {

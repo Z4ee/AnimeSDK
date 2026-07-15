@@ -3,7 +3,7 @@
 
 namespace RPG::Client::ActivityHipplen
 {
-	inline static constexpr unsigned int ActivityHipplenEffectSource_TypeDefinitionIndex = 70361;
+	inline static constexpr unsigned int ActivityHipplenEffectSource_TypeDefinitionIndex = 71884;
 
 	enum class ActivityHipplenEffectSource : ::System::Int32
 	{

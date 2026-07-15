@@ -7,7 +7,7 @@ namespace RPG::AvatarSystem::Property { template <typename T> class IPropertyMod
 
 namespace RPG::AvatarSystem::Property
 {
-	inline static constexpr unsigned int EmptyModifier_1_TypeDefinitionIndex = 48619;
+	inline static constexpr unsigned int EmptyModifier_1_TypeDefinitionIndex = 49632;
 
 	template <typename TValue>
 	class EmptyModifier_1 : public ::System::Object

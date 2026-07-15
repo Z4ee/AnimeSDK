@@ -3,7 +3,7 @@
 
 namespace RPGTools::Timeline
 {
-	inline static constexpr unsigned int HeightLimitedTarget_TypeDefinitionIndex = 45698;
+	inline static constexpr unsigned int HeightLimitedTarget_TypeDefinitionIndex = 46637;
 
 	enum class HeightLimitedTarget : ::System::Int32
 	{

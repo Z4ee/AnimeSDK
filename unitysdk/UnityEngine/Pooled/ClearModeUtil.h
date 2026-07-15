@@ -5,7 +5,7 @@
 
 namespace UnityEngine::Pooled
 {
-	inline static constexpr unsigned int ClearModeUtil_TypeDefinitionIndex = 4505;
+	inline static constexpr unsigned int ClearModeUtil_TypeDefinitionIndex = 4510;
 
 	class ClearModeUtil : public ::System::Object
 	{

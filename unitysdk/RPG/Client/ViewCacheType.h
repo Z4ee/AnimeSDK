@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ViewCacheType_TypeDefinitionIndex = 68349;
+	inline static constexpr unsigned int ViewCacheType_TypeDefinitionIndex = 69838;
 
 	enum class ViewCacheType : ::System::Int32
 	{

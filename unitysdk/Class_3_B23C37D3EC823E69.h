@@ -5,10 +5,10 @@
 class Class_1_D8BECDCE48063EC7;
 namespace RPG::GameCore { class DiceCombatPredicateConfig_IsBoss; }
 
-#define CLASS_3_B23C37D3EC823E69_METHOD_3_79B136329E63E31A_OFFSET UNITYSDK_OFFSET(0x189DD670)
-#define CLASS_3_B23C37D3EC823E69__CTOR_OFFSET UNITYSDK_OFFSET(0x189DD650)
+#define CLASS_3_B23C37D3EC823E69_METHOD_3_5829557A8D4350F5_OFFSET UNITYSDK_OFFSET(0x18D3C9E0)
+#define CLASS_3_B23C37D3EC823E69__CTOR_OFFSET UNITYSDK_OFFSET(0x18D23140)
 
-inline static constexpr unsigned int Class_3_B23C37D3EC823E69_TypeDefinitionIndex = 34419;
+inline static constexpr unsigned int Class_3_B23C37D3EC823E69_TypeDefinitionIndex = 34801;
 
 class Class_3_B23C37D3EC823E69 : public ::Class_2_98A798C0C96648F9
 {
@@ -20,8 +20,8 @@ public:
 		return ((::System::Void(*)(::PVOID, ::RPG::GameCore::DiceCombatPredicateConfig_IsBoss*, ::Class_1_D8BECDCE48063EC7*))((::PBYTE)hIl2Cpp + CLASS_3_B23C37D3EC823E69__CTOR_OFFSET))(this, a1, a2);
 	}
 
-	::System::Boolean Method_3_79B136329E63E31A()
+	::System::Boolean Method_3_5829557A8D4350F5()
 	{
-		return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_3_B23C37D3EC823E69_METHOD_3_79B136329E63E31A_OFFSET))(this);
+		return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_3_B23C37D3EC823E69_METHOD_3_5829557A8D4350F5_OFFSET))(this);
 	}
 };

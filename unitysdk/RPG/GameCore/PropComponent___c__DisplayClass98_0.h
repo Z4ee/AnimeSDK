@@ -2,21 +2,21 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_1_0245247C127EF1B6_1;
+class Class_1_C821CB457FB5EBC6_5;
 namespace RPG::GameCore { class PropComponent; }
 
-#define RPG_GAMECORE_PROPCOMPONENT___C__DISPLAYCLASS98_0__CTOR_OFFSET UNITYSDK_OFFSET(0xCE7C190)
-#define RPG_GAMECORE_PROPCOMPONENT___C__DISPLAYCLASS98_0___ONDOGACHAINROLLSHOPSCRSP_B__0_OFFSET UNITYSDK_OFFSET(0xCE87B30)
+#define RPG_GAMECORE_PROPCOMPONENT___C__DISPLAYCLASS98_0__CTOR_OFFSET UNITYSDK_OFFSET(0x127C1780)
+#define RPG_GAMECORE_PROPCOMPONENT___C__DISPLAYCLASS98_0___ONDOGACHAINROLLSHOPSCRSP_B__0_OFFSET UNITYSDK_OFFSET(0x127C1790)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PropComponent___c__DisplayClass98_0_TypeDefinitionIndex = 53586;
+	inline static constexpr unsigned int PropComponent___c__DisplayClass98_0_TypeDefinitionIndex = 54805;
 
 	class PropComponent___c__DisplayClass98_0 : public ::System::Object
 	{
 	public:
-		::RPG::GameCore::PropComponent* __4__this; // 0x10
-		::Class_1_0245247C127EF1B6_1* rsp; // 0x18
+		::Class_1_C821CB457FB5EBC6_5* rsp; // 0x10
+		::RPG::GameCore::PropComponent* __4__this; // 0x18
 
 		::System::Void _ctor()
 		{

@@ -5,19 +5,19 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_ROGUETURNTABLECONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x19BD2310)
-#define RPG_GAMECORE_ROGUETURNTABLECONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x19BD2990)
+#define RPG_GAMECORE_ROGUETURNTABLECONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1BB801B0)
+#define RPG_GAMECORE_ROGUETURNTABLECONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1BB80820)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RogueTurntableConfigRow_TypeDefinitionIndex = 13937;
+	inline static constexpr unsigned int RogueTurntableConfigRow_TypeDefinitionIndex = 14085;
 
 	class RogueTurntableConfigRow : public ::System::Object
 	{
 	public:
 		::System::UInt32 PrepareTime; // 0x10
-		::RPG::GameCore::RogueTurntableRewardLevel RewardLevel; // 0x14
-		::System::UInt32 ParamGroupID; // 0x18
+		::System::UInt32 ParamGroupID; // 0x14
+		::RPG::GameCore::RogueTurntableRewardLevel RewardLevel; // 0x18
 
 		::System::Void _ctor()
 		{

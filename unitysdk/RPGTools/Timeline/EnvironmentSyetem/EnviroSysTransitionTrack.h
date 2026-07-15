@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/Timeline/TrackAsset.h"
 
-#define RPGTOOLS_TIMELINE_ENVIRONMENTSYETEM_ENVIROSYSTRANSITIONTRACK__CTOR_OFFSET UNITYSDK_OFFSET(0xD01E000)
+#define RPGTOOLS_TIMELINE_ENVIRONMENTSYETEM_ENVIROSYSTRANSITIONTRACK__CTOR_OFFSET UNITYSDK_OFFSET(0x19A57F60)
 
 namespace RPGTools::Timeline::EnvironmentSyetem
 {
-	inline static constexpr unsigned int EnviroSysTransitionTrack_TypeDefinitionIndex = 45915;
+	inline static constexpr unsigned int EnviroSysTransitionTrack_TypeDefinitionIndex = 46854;
 
 	class EnviroSysTransitionTrack : public ::UnityEngine::Timeline::TrackAsset
 	{

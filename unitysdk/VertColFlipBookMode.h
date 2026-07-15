@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int VertColFlipBookMode_TypeDefinitionIndex = 44464;
+inline static constexpr unsigned int VertColFlipBookMode_TypeDefinitionIndex = 45336;
 
 enum class VertColFlipBookMode : ::System::Int32
 {

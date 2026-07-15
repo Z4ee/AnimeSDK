@@ -5,11 +5,11 @@
 namespace RPG::Client { class PlanetFesReward; }
 namespace UnityEngine { class Transform; }
 
-#define RPG_CLIENT_PLANETFESAVATARLEVELREWARDTOAST__CTOR_OFFSET UNITYSDK_OFFSET(0xC3FF560)
+#define RPG_CLIENT_PLANETFESAVATARLEVELREWARDTOAST__CTOR_OFFSET UNITYSDK_OFFSET(0x1A95AFC0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int PlanetFesAvatarLevelRewardToast_TypeDefinitionIndex = 62303;
+	inline static constexpr unsigned int PlanetFesAvatarLevelRewardToast_TypeDefinitionIndex = 63669;
 
 	class PlanetFesAvatarLevelRewardToast : public ::System::Object
 	{

@@ -5,7 +5,7 @@ namespace System::Collections::Specialized { class NotifyCollectionChangedEventH
 
 namespace System::Collections::Specialized
 {
-	inline static constexpr unsigned int INotifyCollectionChanged_TypeDefinitionIndex = 2977;
+	inline static constexpr unsigned int INotifyCollectionChanged_TypeDefinitionIndex = 2981;
 
 	class INotifyCollectionChanged
 	{

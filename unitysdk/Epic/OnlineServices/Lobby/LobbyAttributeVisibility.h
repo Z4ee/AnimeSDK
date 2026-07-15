@@ -3,7 +3,7 @@
 
 namespace Epic::OnlineServices::Lobby
 {
-	inline static constexpr unsigned int LobbyAttributeVisibility_TypeDefinitionIndex = 42672;
+	inline static constexpr unsigned int LobbyAttributeVisibility_TypeDefinitionIndex = 43533;
 
 	enum class LobbyAttributeVisibility : ::System::Int32
 	{

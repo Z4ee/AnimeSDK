@@ -8,31 +8,31 @@ namespace System { class String; }
 namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MIHOYO_SDK_DEVICEFPMANAGER_CHECKINVALIDDEVICEFPVALUE_OFFSET UNITYSDK_OFFSET(0xA1523D0)
-#define MIHOYO_SDK_DEVICEFPMANAGER_GETDEVICEFP_OFFSET UNITYSDK_OFFSET(0xA151DC0)
-#define MIHOYO_SDK_DEVICEFPMANAGER_GETFPKEY_OFFSET UNITYSDK_OFFSET(0xA152320)
-#define MIHOYO_SDK_DEVICEFPMANAGER_GETRANDOMHEXNUMBER_OFFSET UNITYSDK_OFFSET(0xA152580)
-#define MIHOYO_SDK_DEVICEFPMANAGER_REFRESH_OFFSET UNITYSDK_OFFSET(0xA152710)
-#define MIHOYO_SDK_DEVICEFPMANAGER_REQUESTDEVICEFP_OFFSET UNITYSDK_OFFSET(0xA1529A0)
-#define MIHOYO_SDK_DEVICEFPMANAGER_REQUESTEXTLIST_OFFSET UNITYSDK_OFFSET(0xA1527D0)
-#define MIHOYO_SDK_DEVICEFPMANAGER_SETFPKEY_OFFSET UNITYSDK_OFFSET(0xA152630)
-#define MIHOYO_SDK_DEVICEFPMANAGER__CCTOR_OFFSET UNITYSDK_OFFSET(0xA1559C0)
-#define MIHOYO_SDK_DEVICEFPMANAGER__CTOR_OFFSET UNITYSDK_OFFSET(0xA151DB0)
+#define MIHOYO_SDK_DEVICEFPMANAGER_CHECKINVALIDDEVICEFPVALUE_OFFSET UNITYSDK_OFFSET(0x1537C950)
+#define MIHOYO_SDK_DEVICEFPMANAGER_GETDEVICEFP_OFFSET UNITYSDK_OFFSET(0x1537C3D0)
+#define MIHOYO_SDK_DEVICEFPMANAGER_GETFPKEY_OFFSET UNITYSDK_OFFSET(0x1537C8A0)
+#define MIHOYO_SDK_DEVICEFPMANAGER_GETRANDOMHEXNUMBER_OFFSET UNITYSDK_OFFSET(0x1537CB00)
+#define MIHOYO_SDK_DEVICEFPMANAGER_REFRESH_OFFSET UNITYSDK_OFFSET(0x1537CD00)
+#define MIHOYO_SDK_DEVICEFPMANAGER_REQUESTDEVICEFP_OFFSET UNITYSDK_OFFSET(0x1537CFC0)
+#define MIHOYO_SDK_DEVICEFPMANAGER_REQUESTEXTLIST_OFFSET UNITYSDK_OFFSET(0x1537CDF0)
+#define MIHOYO_SDK_DEVICEFPMANAGER_SETFPKEY_OFFSET UNITYSDK_OFFSET(0x1537CC20)
+#define MIHOYO_SDK_DEVICEFPMANAGER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1537F740)
+#define MIHOYO_SDK_DEVICEFPMANAGER__CTOR_OFFSET UNITYSDK_OFFSET(0x1537C3C0)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int DeviceFPManager_TypeDefinitionIndex = 43686;
+	inline static constexpr unsigned int DeviceFPManager_TypeDefinitionIndex = 44548;
 
 	class DeviceFPManager : public ::System::Object
 	{
 	public:
-		static ::System::Random** StaticGet_random()
-		{
-			return (::System::Random**)Il2CppClass::FromTypeDefinitionIndex(DeviceFPManager_TypeDefinitionIndex)->GetStaticField(0xB8B0);
-		}
 		static ::MiHoYo::SDK::DeviceFPManager** StaticGet_Instance()
 		{
-			return (::MiHoYo::SDK::DeviceFPManager**)Il2CppClass::FromTypeDefinitionIndex(DeviceFPManager_TypeDefinitionIndex)->GetStaticField(0xB8B8);
+			return (::MiHoYo::SDK::DeviceFPManager**)Il2CppClass::FromTypeDefinitionIndex(DeviceFPManager_TypeDefinitionIndex)->GetStaticField(0xBC20);
+		}
+		static ::System::Random** StaticGet_random()
+		{
+			return (::System::Random**)Il2CppClass::FromTypeDefinitionIndex(DeviceFPManager_TypeDefinitionIndex)->GetStaticField(0xBC28);
 		}
 		// static const ::System::String* DEVICE_ID; // 0x0
 		// static const ::System::String* DEVICE_FP; // 0x0
@@ -46,9 +46,9 @@ namespace MiHoYo::SDK
 		// static const ::System::Int32 deviceFPFailCountt = 0xB; // 0x0
 		// static const ::System::Int32 deviceIdCount = 0x10; // 0x0
 		::System::String* deviceUID; // 0x10
-		::System::String* gpuName; // 0x18
-		::System::String* seedId; // 0x20
-		::System::String* deviceFP; // 0x28
+		::System::String* seedId; // 0x18
+		::System::String* deviceFP; // 0x20
+		::System::String* gpuName; // 0x28
 		::System::String* seedTime; // 0x30
 
 		::System::Void _ctor()

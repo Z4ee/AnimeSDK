@@ -6,13 +6,13 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_WAITTUTORIAL_METHOD_3_66EC11E14CA110CD_OFFSET UNITYSDK_OFFSET(0x19E63D20)
-#define RPG_GAMECORE_WAITTUTORIAL_METHOD_3_836B11416FD26BA2_OFFSET UNITYSDK_OFFSET(0x19E63DA0)
-#define RPG_GAMECORE_WAITTUTORIAL__CTOR_OFFSET UNITYSDK_OFFSET(0x19E63D70)
+#define RPG_GAMECORE_WAITTUTORIAL_METHOD_3_13F7640F0FE4C664_OFFSET UNITYSDK_OFFSET(0x1D1BECD0)
+#define RPG_GAMECORE_WAITTUTORIAL_METHOD_3_836B11416FD26BA2_OFFSET UNITYSDK_OFFSET(0x1D1BED20)
+#define RPG_GAMECORE_WAITTUTORIAL__CTOR_OFFSET UNITYSDK_OFFSET(0x1D1BED10)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int WaitTutorial_TypeDefinitionIndex = 22995;
+	inline static constexpr unsigned int WaitTutorial_TypeDefinitionIndex = 23462;
 
 	class WaitTutorial : public ::RPG::GameCore::TaskConfig
 	{
@@ -29,9 +29,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_WAITTUTORIAL__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_66EC11E14CA110CD(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::WaitTutorial*& a2)
+		static ::System::Void Method_3_13F7640F0FE4C664(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::WaitTutorial*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::WaitTutorial*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_WAITTUTORIAL_METHOD_3_66EC11E14CA110CD_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::WaitTutorial*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_WAITTUTORIAL_METHOD_3_13F7640F0FE4C664_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_836B11416FD26BA2(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::WaitTutorial* a2)

@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int RefGPUParticleSystem_GPUParticleSystemState_TypeDefinitionIndex = 40538;
+inline static constexpr unsigned int RefGPUParticleSystem_GPUParticleSystemState_TypeDefinitionIndex = 41353;
 
 enum class RefGPUParticleSystem_GPUParticleSystemState : ::System::Int32
 {

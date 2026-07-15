@@ -6,13 +6,13 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_SHOWBATTLESCREENEFFECT_METHOD_3_2093EEECD5D7D591_OFFSET UNITYSDK_OFFSET(0x19C75A30)
-#define RPG_GAMECORE_SHOWBATTLESCREENEFFECT_METHOD_3_A4682E5CB6B62EE7_OFFSET UNITYSDK_OFFSET(0x19C759B0)
-#define RPG_GAMECORE_SHOWBATTLESCREENEFFECT__CTOR_OFFSET UNITYSDK_OFFSET(0x19C75A00)
+#define RPG_GAMECORE_SHOWBATTLESCREENEFFECT_METHOD_3_2093EEECD5D7D591_OFFSET UNITYSDK_OFFSET(0x1BE3AAD0)
+#define RPG_GAMECORE_SHOWBATTLESCREENEFFECT_METHOD_3_EA785034FACB0F08_OFFSET UNITYSDK_OFFSET(0x1BE3AA90)
+#define RPG_GAMECORE_SHOWBATTLESCREENEFFECT__CTOR_OFFSET UNITYSDK_OFFSET(0x1BE3AAC0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ShowBattleScreenEffect_TypeDefinitionIndex = 21982;
+	inline static constexpr unsigned int ShowBattleScreenEffect_TypeDefinitionIndex = 22416;
 
 	class ShowBattleScreenEffect : public ::RPG::GameCore::TaskConfig
 	{
@@ -28,9 +28,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SHOWBATTLESCREENEFFECT__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_A4682E5CB6B62EE7(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ShowBattleScreenEffect*& a2)
+		static ::System::Void Method_3_EA785034FACB0F08(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ShowBattleScreenEffect*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ShowBattleScreenEffect*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SHOWBATTLESCREENEFFECT_METHOD_3_A4682E5CB6B62EE7_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ShowBattleScreenEffect*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SHOWBATTLESCREENEFFECT_METHOD_3_EA785034FACB0F08_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_2093EEECD5D7D591(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ShowBattleScreenEffect* a2)

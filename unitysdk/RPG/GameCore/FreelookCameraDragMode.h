@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FreelookCameraDragMode_TypeDefinitionIndex = 23192;
+	inline static constexpr unsigned int FreelookCameraDragMode_TypeDefinitionIndex = 23672;
 
 	enum class FreelookCameraDragMode : ::System::Int32
 	{

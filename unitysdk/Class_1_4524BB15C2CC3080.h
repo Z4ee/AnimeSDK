@@ -5,9 +5,9 @@
 
 namespace RPG { template <typename T> class PoolList_1; }
 
-#define CLASS_1_4524BB15C2CC3080__CTOR_OFFSET UNITYSDK_OFFSET(0x18C13D80)
+#define CLASS_1_4524BB15C2CC3080__CTOR_OFFSET UNITYSDK_OFFSET(0x180DC4A0)
 
-inline static constexpr unsigned int Class_1_4524BB15C2CC3080_TypeDefinitionIndex = 39283;
+inline static constexpr unsigned int Class_1_4524BB15C2CC3080_TypeDefinitionIndex = 40092;
 
 class Class_1_4524BB15C2CC3080 : public ::System::Object
 {

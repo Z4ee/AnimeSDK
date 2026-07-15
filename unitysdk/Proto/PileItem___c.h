@@ -4,20 +4,20 @@
 
 namespace Proto { class PileItem; }
 
-#define PROTO_PILEITEM___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1A11F270)
-#define PROTO_PILEITEM___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1A11F2A0)
-#define PROTO_PILEITEM___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1A11F2B0)
+#define PROTO_PILEITEM___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1BEE7C40)
+#define PROTO_PILEITEM___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1BEE7C70)
+#define PROTO_PILEITEM___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1BEE7C80)
 
 namespace Proto
 {
-	inline static constexpr unsigned int PileItem___c_TypeDefinitionIndex = 26141;
+	inline static constexpr unsigned int PileItem___c_TypeDefinitionIndex = 26610;
 
 	class PileItem___c : public ::System::Object
 	{
 	public:
 		static ::Proto::PileItem___c** StaticGet___9()
 		{
-			return (::Proto::PileItem___c**)Il2CppClass::FromTypeDefinitionIndex(PileItem___c_TypeDefinitionIndex)->GetStaticField(0x451C0);
+			return (::Proto::PileItem___c**)Il2CppClass::FromTypeDefinitionIndex(PileItem___c_TypeDefinitionIndex)->GetStaticField(0x3F4E0);
 		}
 
 		static ::System::Void _cctor()

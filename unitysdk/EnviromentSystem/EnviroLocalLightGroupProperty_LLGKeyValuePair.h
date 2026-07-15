@@ -4,11 +4,11 @@
 
 namespace System { class String; }
 
-#define ENVIROMENTSYSTEM_ENVIROLOCALLIGHTGROUPPROPERTY_LLGKEYVALUEPAIR__CTOR_OFFSET UNITYSDK_OFFSET(0x135A7DE0)
+#define ENVIROMENTSYSTEM_ENVIROLOCALLIGHTGROUPPROPERTY_LLGKEYVALUEPAIR__CTOR_OFFSET UNITYSDK_OFFSET(0xF1B7230)
 
 namespace EnviromentSystem
 {
-	inline static constexpr unsigned int EnviroLocalLightGroupProperty_LLGKeyValuePair_TypeDefinitionIndex = 46785;
+	inline static constexpr unsigned int EnviroLocalLightGroupProperty_LLGKeyValuePair_TypeDefinitionIndex = 47750;
 
 	class EnviroLocalLightGroupProperty_LLGKeyValuePair : public ::System::Object
 	{

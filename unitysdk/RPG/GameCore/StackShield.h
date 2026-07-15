@@ -8,13 +8,13 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class DamageDisplayData; }
 namespace RPG::GameCore { class DynamicFloat; }
 
-#define RPG_GAMECORE_STACKSHIELD_METHOD_3_6BE654FC0932F7EE_OFFSET UNITYSDK_OFFSET(0x19CA2B30)
-#define RPG_GAMECORE_STACKSHIELD_METHOD_3_8AF309B97CB53886_OFFSET UNITYSDK_OFFSET(0x19CA2BF0)
-#define RPG_GAMECORE_STACKSHIELD__CTOR_OFFSET UNITYSDK_OFFSET(0x19CA2BA0)
+#define RPG_GAMECORE_STACKSHIELD_METHOD_3_32B0A7027549305D_OFFSET UNITYSDK_OFFSET(0x1B0A66A0)
+#define RPG_GAMECORE_STACKSHIELD_METHOD_3_8AF309B97CB53886_OFFSET UNITYSDK_OFFSET(0x1B0A6710)
+#define RPG_GAMECORE_STACKSHIELD__CTOR_OFFSET UNITYSDK_OFFSET(0x1B0A66F0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int StackShield_TypeDefinitionIndex = 22316;
+	inline static constexpr unsigned int StackShield_TypeDefinitionIndex = 22757;
 
 	class StackShield : public ::RPG::GameCore::TaskConfig
 	{
@@ -32,9 +32,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_STACKSHIELD__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_6BE654FC0932F7EE(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::StackShield*& a2)
+		static ::System::Void Method_3_32B0A7027549305D(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::StackShield*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::StackShield*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_STACKSHIELD_METHOD_3_6BE654FC0932F7EE_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::StackShield*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_STACKSHIELD_METHOD_3_32B0A7027549305D_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_8AF309B97CB53886(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::StackShield* a2)

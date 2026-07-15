@@ -8,7 +8,7 @@ namespace System { class Object; }
 
 namespace UnityEngine::Rendering
 {
-	inline static constexpr unsigned int DestroyObj_1_TypeDefinitionIndex = 33694;
+	inline static constexpr unsigned int DestroyObj_1_TypeDefinitionIndex = 34065;
 
 	template <typename T>
 	class DestroyObj_1 : public ::System::MulticastDelegate

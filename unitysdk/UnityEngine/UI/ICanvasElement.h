@@ -6,7 +6,7 @@ namespace UnityEngine { class Transform; }
 
 namespace UnityEngine::UI
 {
-	inline static constexpr unsigned int ICanvasElement_TypeDefinitionIndex = 5851;
+	inline static constexpr unsigned int ICanvasElement_TypeDefinitionIndex = 5856;
 
 	class ICanvasElement
 	{

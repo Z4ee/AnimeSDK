@@ -8,7 +8,7 @@
 
 namespace CriWare
 {
-	inline static constexpr unsigned int CriAtomExCategory_ReactDuckerParameter_TypeDefinitionIndex = 37033;
+	inline static constexpr unsigned int CriAtomExCategory_ReactDuckerParameter_TypeDefinitionIndex = 37832;
 
 	struct alignas(4) CriAtomExCategory_ReactDuckerParameter
 	{

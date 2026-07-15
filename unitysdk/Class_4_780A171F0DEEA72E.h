@@ -5,11 +5,10 @@
 namespace RPG::GameCore { class ChangeMonsterUIDisplay; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_4_780A171F0DEEA72E_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x13D1E230)
-#define CLASS_4_780A171F0DEEA72E__CTOR_OFFSET UNITYSDK_OFFSET(0x13D1E200)
-#define CLASS_4_780A171F0DEEA72E___IFIXBASEPROXY_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x13D1E470)
+#define CLASS_4_780A171F0DEEA72E_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x186C1DD0)
+#define CLASS_4_780A171F0DEEA72E__CTOR_OFFSET UNITYSDK_OFFSET(0x186C1DA0)
 
-inline static constexpr unsigned int Class_4_780A171F0DEEA72E_TypeDefinitionIndex = 51332;
+inline static constexpr unsigned int Class_4_780A171F0DEEA72E_TypeDefinitionIndex = 52439;
 
 class Class_4_780A171F0DEEA72E : public ::Class_3_4A000A8A4722E95D
 {
@@ -22,10 +21,5 @@ public:
 	::System::Void OnTaskBegin()
 	{
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_4_780A171F0DEEA72E_ONTASKBEGIN_OFFSET))(this);
-	}
-
-	::System::Void __iFixBaseProxy_OnTaskBegin()
-	{
-		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_4_780A171F0DEEA72E___IFIXBASEPROXY_ONTASKBEGIN_OFFSET))(this);
 	}
 };

@@ -4,13 +4,13 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_SKILLEXECUTIONSTART_METHOD_3_5D9702C451300878_OFFSET UNITYSDK_OFFSET(0x19C8E130)
-#define RPG_GAMECORE_SKILLEXECUTIONSTART_METHOD_3_EA412C0BCB9298A4_OFFSET UNITYSDK_OFFSET(0x19C8E240)
-#define RPG_GAMECORE_SKILLEXECUTIONSTART__CTOR_OFFSET UNITYSDK_OFFSET(0x19C8E210)
+#define RPG_GAMECORE_SKILLEXECUTIONSTART_METHOD_3_8B09A44FC36E8221_OFFSET UNITYSDK_OFFSET(0x1BE51560)
+#define RPG_GAMECORE_SKILLEXECUTIONSTART_METHOD_3_EA412C0BCB9298A4_OFFSET UNITYSDK_OFFSET(0x1BE51630)
+#define RPG_GAMECORE_SKILLEXECUTIONSTART__CTOR_OFFSET UNITYSDK_OFFSET(0x1BE51620)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SkillExecutionStart_TypeDefinitionIndex = 21480;
+	inline static constexpr unsigned int SkillExecutionStart_TypeDefinitionIndex = 21900;
 
 	class SkillExecutionStart : public ::RPG::GameCore::TaskConfig
 	{
@@ -20,9 +20,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SKILLEXECUTIONSTART__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_5D9702C451300878(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SkillExecutionStart*& a2)
+		static ::System::Void Method_3_8B09A44FC36E8221(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SkillExecutionStart*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SkillExecutionStart*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SKILLEXECUTIONSTART_METHOD_3_5D9702C451300878_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SkillExecutionStart*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SKILLEXECUTIONSTART_METHOD_3_8B09A44FC36E8221_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_EA412C0BCB9298A4(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SkillExecutionStart* a2)

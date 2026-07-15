@@ -4,12 +4,12 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_LEVELPEDESTRIANV2ROADINVISIBLESEGMENTINFO_METHOD_2_800E07D3EBAA2F0A_OFFSET UNITYSDK_OFFSET(0x19885D00)
-#define RPG_GAMECORE_LEVELPEDESTRIANV2ROADINVISIBLESEGMENTINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x19885DF0)
+#define RPG_GAMECORE_LEVELPEDESTRIANV2ROADINVISIBLESEGMENTINFO_METHOD_2_7A594E70237976E9_OFFSET UNITYSDK_OFFSET(0x1B085930)
+#define RPG_GAMECORE_LEVELPEDESTRIANV2ROADINVISIBLESEGMENTINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x1B085A50)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LevelPedestrianV2RoadInvisibleSegmentInfo_TypeDefinitionIndex = 16441;
+	inline static constexpr unsigned int LevelPedestrianV2RoadInvisibleSegmentInfo_TypeDefinitionIndex = 16603;
 
 	class LevelPedestrianV2RoadInvisibleSegmentInfo : public ::RPG::GameCore::JsonConfig
 	{
@@ -22,9 +22,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELPEDESTRIANV2ROADINVISIBLESEGMENTINFO__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_800E07D3EBAA2F0A(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::LevelPedestrianV2RoadInvisibleSegmentInfo*& a2)
+		static ::System::Void Method_2_7A594E70237976E9(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::LevelPedestrianV2RoadInvisibleSegmentInfo*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::LevelPedestrianV2RoadInvisibleSegmentInfo*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELPEDESTRIANV2ROADINVISIBLESEGMENTINFO_METHOD_2_800E07D3EBAA2F0A_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::LevelPedestrianV2RoadInvisibleSegmentInfo*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELPEDESTRIANV2ROADINVISIBLESEGMENTINFO_METHOD_2_7A594E70237976E9_OFFSET))(a1, a2);
 		}
 	};
 }

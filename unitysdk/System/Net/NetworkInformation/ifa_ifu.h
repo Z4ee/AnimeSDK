@@ -4,7 +4,7 @@
 
 namespace System::Net::NetworkInformation
 {
-	inline static constexpr unsigned int ifa_ifu_TypeDefinitionIndex = 2934;
+	inline static constexpr unsigned int ifa_ifu_TypeDefinitionIndex = 2938;
 
 	struct alignas(8) ifa_ifu
 	{

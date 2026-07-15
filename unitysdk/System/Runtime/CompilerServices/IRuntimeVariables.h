@@ -3,7 +3,7 @@
 
 namespace System::Runtime::CompilerServices
 {
-	inline static constexpr unsigned int IRuntimeVariables_TypeDefinitionIndex = 3656;
+	inline static constexpr unsigned int IRuntimeVariables_TypeDefinitionIndex = 3660;
 
 	class IRuntimeVariables
 	{

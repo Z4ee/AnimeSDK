@@ -8,7 +8,7 @@ namespace System { template <typename T> class Comparison_1; }
 
 namespace InControl
 {
-	inline static constexpr unsigned int SingletonMonoBehavior_1___c_TypeDefinitionIndex = 37951;
+	inline static constexpr unsigned int SingletonMonoBehavior_1___c_TypeDefinitionIndex = 38759;
 
 	template <typename TComponent>
 	class SingletonMonoBehavior_1___c : public ::System::Object

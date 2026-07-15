@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class ClearPropagateBeingAttackInTeam; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_E947A0E84E64D581_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xA4B8840)
-#define CLASS_3_E947A0E84E64D581__CTOR_OFFSET UNITYSDK_OFFSET(0xA4B8810)
+#define CLASS_3_E947A0E84E64D581_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x18AFA1B0)
+#define CLASS_3_E947A0E84E64D581__CTOR_OFFSET UNITYSDK_OFFSET(0x18AFA180)
 
-inline static constexpr unsigned int Class_3_E947A0E84E64D581_TypeDefinitionIndex = 51626;
+inline static constexpr unsigned int Class_3_E947A0E84E64D581_TypeDefinitionIndex = 52769;
 
 class Class_3_E947A0E84E64D581 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::ClearPropagateBeingAttackInTeam*>
 {

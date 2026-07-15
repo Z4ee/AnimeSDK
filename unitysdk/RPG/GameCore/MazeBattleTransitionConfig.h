@@ -6,12 +6,12 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class PostureTypeTasksConfig; }
 namespace RPG::GameCore { class TaskConfig; }
 
-#define RPG_GAMECORE_MAZEBATTLETRANSITIONCONFIG_METHOD_2_D5A3E2AC543008E0_OFFSET UNITYSDK_OFFSET(0x198F9770)
-#define RPG_GAMECORE_MAZEBATTLETRANSITIONCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x198F9D60)
+#define RPG_GAMECORE_MAZEBATTLETRANSITIONCONFIG_METHOD_2_D5A3E2AC543008E0_OFFSET UNITYSDK_OFFSET(0x1AF43610)
+#define RPG_GAMECORE_MAZEBATTLETRANSITIONCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1AF43CC0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MazeBattleTransitionConfig_TypeDefinitionIndex = 16744;
+	inline static constexpr unsigned int MazeBattleTransitionConfig_TypeDefinitionIndex = 16906;
 
 	class MazeBattleTransitionConfig : public ::RPG::GameCore::JsonConfig
 	{
@@ -26,12 +26,14 @@ namespace RPG::GameCore
 		::Il2CppArray<::RPG::GameCore::TaskConfig*>* OnAfterCocoonTriggerBattle; // 0x48
 		::Il2CppArray<::RPG::GameCore::TaskConfig*>* OnBeforeStoryTriggerBattle; // 0x50
 		::Il2CppArray<::RPG::GameCore::TaskConfig*>* OnAfterStoryTriggerBattle; // 0x58
-		::Il2CppArray<::RPG::GameCore::TaskConfig*>* OnBattleFinish; // 0x60
-		::Il2CppArray<::RPG::GameCore::TaskConfig*>* OnBeforeEnterRogueMap; // 0x68
-		::Il2CppArray<::RPG::GameCore::TaskConfig*>* OnAfterEnterRogueMap; // 0x70
-		::Il2CppArray<::RPG::GameCore::TaskConfig*>* OnBeforeExitRogueMap; // 0x78
-		::Il2CppArray<::RPG::GameCore::TaskConfig*>* OnAfterExitRogueMap; // 0x80
-		::Il2CppArray<::RPG::GameCore::PostureTypeTasksConfig*>* OnBeforeTriggerBattleForAD; // 0x88
+		::Il2CppArray<::RPG::GameCore::TaskConfig*>* OnBeforeScreenFadeTriggerBattle; // 0x60
+		::Il2CppArray<::RPG::GameCore::TaskConfig*>* OnAfterScreenFadeTriggerBattle; // 0x68
+		::Il2CppArray<::RPG::GameCore::TaskConfig*>* OnBattleFinish; // 0x70
+		::Il2CppArray<::RPG::GameCore::TaskConfig*>* OnBeforeEnterRogueMap; // 0x78
+		::Il2CppArray<::RPG::GameCore::TaskConfig*>* OnAfterEnterRogueMap; // 0x80
+		::Il2CppArray<::RPG::GameCore::TaskConfig*>* OnBeforeExitRogueMap; // 0x88
+		::Il2CppArray<::RPG::GameCore::TaskConfig*>* OnAfterExitRogueMap; // 0x90
+		::Il2CppArray<::RPG::GameCore::PostureTypeTasksConfig*>* OnBeforeTriggerBattleForAD; // 0x98
 
 		::System::Void _ctor()
 		{

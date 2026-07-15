@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FiveDimSurfaceConnectDirection_TypeDefinitionIndex = 17920;
+	inline static constexpr unsigned int FiveDimSurfaceConnectDirection_TypeDefinitionIndex = 18099;
 
 	enum class FiveDimSurfaceConnectDirection : ::System::Int32
 	{

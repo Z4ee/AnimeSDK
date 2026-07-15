@@ -6,9 +6,9 @@
 class HipplenBuilderStatusAsset_StatConfig;
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define HIPPLENBUILDERSTATUSASSET__CTOR_OFFSET UNITYSDK_OFFSET(0x13C6E180)
+#define HIPPLENBUILDERSTATUSASSET__CTOR_OFFSET UNITYSDK_OFFSET(0x17A6A7A0)
 
-inline static constexpr unsigned int HipplenBuilderStatusAsset_TypeDefinitionIndex = 44567;
+inline static constexpr unsigned int HipplenBuilderStatusAsset_TypeDefinitionIndex = 45439;
 
 class HipplenBuilderStatusAsset : public ::UnityEngine::ScriptableObject
 {

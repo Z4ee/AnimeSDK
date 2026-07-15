@@ -5,13 +5,13 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class TargetEvaluator; }
 
-#define RPG_GAMECORE_PROPSWITCHSHOWINFO_METHOD_3_8C2125DA46A8A7C6_OFFSET UNITYSDK_OFFSET(0x19A9D290)
-#define RPG_GAMECORE_PROPSWITCHSHOWINFO_METHOD_3_F7A1D6FB32875961_OFFSET UNITYSDK_OFFSET(0x19A9D1F0)
-#define RPG_GAMECORE_PROPSWITCHSHOWINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x19A9D250)
+#define RPG_GAMECORE_PROPSWITCHSHOWINFO_METHOD_3_0AFEBB23048C9096_OFFSET UNITYSDK_OFFSET(0x1B9A4C60)
+#define RPG_GAMECORE_PROPSWITCHSHOWINFO_METHOD_3_8C2125DA46A8A7C6_OFFSET UNITYSDK_OFFSET(0x1B9A4CD0)
+#define RPG_GAMECORE_PROPSWITCHSHOWINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x1B9A4CB0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PropSwitchShowInfo_TypeDefinitionIndex = 19295;
+	inline static constexpr unsigned int PropSwitchShowInfo_TypeDefinitionIndex = 19651;
 
 	class PropSwitchShowInfo : public ::RPG::GameCore::TaskConfig
 	{
@@ -31,9 +31,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PROPSWITCHSHOWINFO__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_F7A1D6FB32875961(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::PropSwitchShowInfo*& a2)
+		static ::System::Void Method_3_0AFEBB23048C9096(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::PropSwitchShowInfo*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::PropSwitchShowInfo*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PROPSWITCHSHOWINFO_METHOD_3_F7A1D6FB32875961_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::PropSwitchShowInfo*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PROPSWITCHSHOWINFO_METHOD_3_0AFEBB23048C9096_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_8C2125DA46A8A7C6(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::PropSwitchShowInfo* a2)

@@ -6,18 +6,18 @@ namespace MiHoYo::SDK::PC::OS { class HoYoChannelAuthTokenResult; }
 namespace System { class String; }
 namespace System { template <typename T> class Action_1; }
 
-#define MIHOYO_SDK_HOYOCHANNELINTERFACE___C__DISPLAYCLASS39_0__CTOR_OFFSET UNITYSDK_OFFSET(0xA166870)
-#define MIHOYO_SDK_HOYOCHANNELINTERFACE___C__DISPLAYCLASS39_0__ONAUTHTOKENCALLBACK_B__0_OFFSET UNITYSDK_OFFSET(0xA16A2D0)
+#define MIHOYO_SDK_HOYOCHANNELINTERFACE___C__DISPLAYCLASS39_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1538FFE0)
+#define MIHOYO_SDK_HOYOCHANNELINTERFACE___C__DISPLAYCLASS39_0__ONAUTHTOKENCALLBACK_B__0_OFFSET UNITYSDK_OFFSET(0x15394360)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int HoYoChannelInterface___c__DisplayClass39_0_TypeDefinitionIndex = 43924;
+	inline static constexpr unsigned int HoYoChannelInterface___c__DisplayClass39_0_TypeDefinitionIndex = 44786;
 
 	class HoYoChannelInterface___c__DisplayClass39_0 : public ::System::Object
 	{
 	public:
-		::System::Action_1<::MiHoYo::SDK::PC::OS::HoYoChannelAuthTokenResult*>* callback; // 0x10
-		::System::String* jsonResponse; // 0x18
+		::System::String* jsonResponse; // 0x10
+		::System::Action_1<::MiHoYo::SDK::PC::OS::HoYoChannelAuthTokenResult*>* callback; // 0x18
 		::System::Int32 resultCode; // 0x20
 
 		::System::Void _ctor()

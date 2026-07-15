@@ -7,13 +7,13 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class TargetEvaluator; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_REMOVEBEHAVIORFLAGFORMODIFIER_METHOD_3_0CEEF1553335EA29_OFFSET UNITYSDK_OFFSET(0x19AC77D0)
-#define RPG_GAMECORE_REMOVEBEHAVIORFLAGFORMODIFIER_METHOD_3_B569BC6A4B4B30B8_OFFSET UNITYSDK_OFFSET(0x19AC7750)
-#define RPG_GAMECORE_REMOVEBEHAVIORFLAGFORMODIFIER__CTOR_OFFSET UNITYSDK_OFFSET(0x19AC77A0)
+#define RPG_GAMECORE_REMOVEBEHAVIORFLAGFORMODIFIER_METHOD_3_0CEEF1553335EA29_OFFSET UNITYSDK_OFFSET(0x1B9CE700)
+#define RPG_GAMECORE_REMOVEBEHAVIORFLAGFORMODIFIER_METHOD_3_10393DECB3570820_OFFSET UNITYSDK_OFFSET(0x1B9CE6C0)
+#define RPG_GAMECORE_REMOVEBEHAVIORFLAGFORMODIFIER__CTOR_OFFSET UNITYSDK_OFFSET(0x1B9CE6F0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RemoveBehaviorFlagForModifier_TypeDefinitionIndex = 21865;
+	inline static constexpr unsigned int RemoveBehaviorFlagForModifier_TypeDefinitionIndex = 22292;
 
 	class RemoveBehaviorFlagForModifier : public ::RPG::GameCore::TaskConfig
 	{
@@ -28,9 +28,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_REMOVEBEHAVIORFLAGFORMODIFIER__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_B569BC6A4B4B30B8(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::RemoveBehaviorFlagForModifier*& a2)
+		static ::System::Void Method_3_10393DECB3570820(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::RemoveBehaviorFlagForModifier*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::RemoveBehaviorFlagForModifier*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_REMOVEBEHAVIORFLAGFORMODIFIER_METHOD_3_B569BC6A4B4B30B8_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::RemoveBehaviorFlagForModifier*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_REMOVEBEHAVIORFLAGFORMODIFIER_METHOD_3_10393DECB3570820_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_0CEEF1553335EA29(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::RemoveBehaviorFlagForModifier* a2)

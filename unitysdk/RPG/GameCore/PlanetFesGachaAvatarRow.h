@@ -4,12 +4,12 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_PLANETFESGACHAAVATARROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x19A1CE30)
-#define RPG_GAMECORE_PLANETFESGACHAAVATARROW__CTOR_OFFSET UNITYSDK_OFFSET(0x19A1CEF0)
+#define RPG_GAMECORE_PLANETFESGACHAAVATARROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B4D6ED0)
+#define RPG_GAMECORE_PLANETFESGACHAAVATARROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1B4D6F90)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PlanetFesGachaAvatarRow_TypeDefinitionIndex = 11646;
+	inline static constexpr unsigned int PlanetFesGachaAvatarRow_TypeDefinitionIndex = 11746;
 
 	class PlanetFesGachaAvatarRow : public ::System::Object
 	{

@@ -1,0 +1,65 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+#include "unitysdk/UnityEngine/Vector2Int.h"
+
+class Class_0_16E4307DCC419505_697;
+class Class_1_0BCDBB6467B5097D;
+namespace System::Collections::Generic { template <typename T> class IList_1; }
+
+#define CLASS_1_43B8FA036588C402_METHOD_1_21CDF8CB708F194D_OFFSET UNITYSDK_OFFSET(0x164724A0)
+#define CLASS_1_43B8FA036588C402_METHOD_1_250203490119AF47_OFFSET UNITYSDK_OFFSET(0x16472210)
+#define CLASS_1_43B8FA036588C402_METHOD_1_9D6550E82E2CC48A_1_OFFSET UNITYSDK_OFFSET(0x164723D0)
+#define CLASS_1_43B8FA036588C402_METHOD_1_9D6550E82E2CC48A_OFFSET UNITYSDK_OFFSET(0x164722F0)
+#define CLASS_1_43B8FA036588C402_METHOD_1_A4CD58DA1A409835_OFFSET UNITYSDK_OFFSET(0x16472380)
+#define CLASS_1_43B8FA036588C402_METHOD_1_C50B93169B85DAEA_OFFSET UNITYSDK_OFFSET(0x164722A0)
+#define CLASS_1_43B8FA036588C402_METHOD_1_CA373AA1C7054598_OFFSET UNITYSDK_OFFSET(0x16472460)
+#define CLASS_1_43B8FA036588C402__CTOR_OFFSET UNITYSDK_OFFSET(0x16472290)
+
+inline static constexpr unsigned int Class_1_43B8FA036588C402_TypeDefinitionIndex = 59623;
+
+class Class_1_43B8FA036588C402 : public ::System::Object
+{
+public:
+	::Class_1_0BCDBB6467B5097D* Field_1_0; // 0x10
+
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_43B8FA036588C402__CTOR_OFFSET))(this);
+	}
+
+	static ::Class_1_43B8FA036588C402* Method_1_250203490119AF47(::Class_1_0BCDBB6467B5097D* a1)
+	{
+		return ((::Class_1_43B8FA036588C402*(*)(::Class_1_0BCDBB6467B5097D*))((::PBYTE)hIl2Cpp + CLASS_1_43B8FA036588C402_METHOD_1_250203490119AF47_OFFSET))(a1);
+	}
+
+	::System::Void Method_1_C50B93169B85DAEA(::Class_0_16E4307DCC419505_697* a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::Class_0_16E4307DCC419505_697*))((::PBYTE)hIl2Cpp + CLASS_1_43B8FA036588C402_METHOD_1_C50B93169B85DAEA_OFFSET))(this, a1);
+	}
+
+	::System::Void Method_1_9D6550E82E2CC48A(::Class_0_16E4307DCC419505_697* a1, ::System::Collections::Generic::IList_1<::UnityEngine::Vector2Int>* a2)
+	{
+		return ((::System::Void(*)(::PVOID, ::Class_0_16E4307DCC419505_697*, ::System::Collections::Generic::IList_1<::UnityEngine::Vector2Int>*))((::PBYTE)hIl2Cpp + CLASS_1_43B8FA036588C402_METHOD_1_9D6550E82E2CC48A_OFFSET))(this, a1, a2);
+	}
+
+	::System::Void Method_1_9D6550E82E2CC48A_1(::Class_0_16E4307DCC419505_697* a1, ::System::Collections::Generic::IList_1<::UnityEngine::Vector2Int>* a2)
+	{
+		return ((::System::Void(*)(::PVOID, ::Class_0_16E4307DCC419505_697*, ::System::Collections::Generic::IList_1<::UnityEngine::Vector2Int>*))((::PBYTE)hIl2Cpp + CLASS_1_43B8FA036588C402_METHOD_1_9D6550E82E2CC48A_1_OFFSET))(this, a1, a2);
+	}
+
+	::System::Void Method_1_CA373AA1C7054598()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_43B8FA036588C402_METHOD_1_CA373AA1C7054598_OFFSET))(this);
+	}
+
+	::System::Void Method_1_A4CD58DA1A409835(::Class_0_16E4307DCC419505_697* a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::Class_0_16E4307DCC419505_697*))((::PBYTE)hIl2Cpp + CLASS_1_43B8FA036588C402_METHOD_1_A4CD58DA1A409835_OFFSET))(this, a1);
+	}
+
+	::System::Void Method_1_21CDF8CB708F194D(::Class_0_16E4307DCC419505_697* a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::Class_0_16E4307DCC419505_697*))((::PBYTE)hIl2Cpp + CLASS_1_43B8FA036588C402_METHOD_1_21CDF8CB708F194D_OFFSET))(this, a1);
+	}
+};

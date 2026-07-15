@@ -11,25 +11,24 @@ namespace RPG::GameCore { class ChenLingBattleAnimEventConfig; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_2_03116A69433FA129_METHOD_2_18982EFD3B740683_OFFSET UNITYSDK_OFFSET(0x145597E0)
-#define CLASS_2_03116A69433FA129_METHOD_2_19FB5FBEA9EA66CD_OFFSET UNITYSDK_OFFSET(0x14559310)
-#define CLASS_2_03116A69433FA129_METHOD_2_332E8DA02BCCBD12_OFFSET UNITYSDK_OFFSET(0x14558970)
-#define CLASS_2_03116A69433FA129_METHOD_2_5790A55946AA509D_OFFSET UNITYSDK_OFFSET(0x14559960)
-#define CLASS_2_03116A69433FA129_METHOD_2_A3B36CD562D22DD5_OFFSET UNITYSDK_OFFSET(0x145583A0)
-#define CLASS_2_03116A69433FA129_METHOD_2_C638E91FC0D3A13A_OFFSET UNITYSDK_OFFSET(0x145596B0)
-#define CLASS_2_03116A69433FA129__CTOR_OFFSET UNITYSDK_OFFSET(0x145581F0)
+#define CLASS_2_03116A69433FA129_METHOD_2_106289055FB804CE_OFFSET UNITYSDK_OFFSET(0x15FCBB40)
+#define CLASS_2_03116A69433FA129_METHOD_2_18982EFD3B740683_OFFSET UNITYSDK_OFFSET(0x15FCCF60)
+#define CLASS_2_03116A69433FA129_METHOD_2_19FB5FBEA9EA66CD_OFFSET UNITYSDK_OFFSET(0x15FCCA90)
+#define CLASS_2_03116A69433FA129_METHOD_2_332E8DA02BCCBD12_OFFSET UNITYSDK_OFFSET(0x15FCC170)
+#define CLASS_2_03116A69433FA129_METHOD_2_C638E91FC0D3A13A_OFFSET UNITYSDK_OFFSET(0x15FCCE30)
+#define CLASS_2_03116A69433FA129__CTOR_OFFSET UNITYSDK_OFFSET(0x15FCB990)
 
-inline static constexpr unsigned int Class_2_03116A69433FA129_TypeDefinitionIndex = 72430;
+inline static constexpr unsigned int Class_2_03116A69433FA129_TypeDefinitionIndex = 73955;
 
 class Class_2_03116A69433FA129 : public ::Class_1_F65B6F8790DF074B
 {
 public:
 	::System::Collections::Generic::Dictionary_2<::Class_2_6B60059019300BAD*, ::UnityEngine::Quaternion>* Field_2_0; // 0x28
-	::System::Collections::Generic::List_1<::RPG::GameCore::ChenLingBattleAnimEventConfig*>* Field_2_1; // 0x30
-	::System::Collections::Generic::Dictionary_2<::Class_2_6B60059019300BAD*, ::System::Single>* Field_2_2; // 0x38
+	::RPG::GameCore::ChenLingBattleAbility_Rotation* Field_2_1; // 0x30
+	::System::Collections::Generic::List_1<::Class_2_6B60059019300BAD*>* Field_2_2; // 0x38
 	::System::Collections::Generic::List_1<::Class_2_6B60059019300BAD*>* Field_2_3; // 0x40
-	::System::Collections::Generic::List_1<::Class_2_6B60059019300BAD*>* Field_2_4; // 0x48
-	::RPG::GameCore::ChenLingBattleAbility_Rotation* Field_2_5; // 0x50
+	::System::Collections::Generic::List_1<::RPG::GameCore::ChenLingBattleAnimEventConfig*>* Field_2_4; // 0x48
+	::System::Collections::Generic::Dictionary_2<::Class_2_6B60059019300BAD*, ::System::Single>* Field_2_5; // 0x50
 	::System::Single Field_2_6; // 0x58
 	::System::Single Field_2_7; // 0x5C
 	::System::Single Field_2_8; // 0x60
@@ -39,9 +38,9 @@ public:
 		return ((::System::Void(*)(::PVOID, ::RPG::GameCore::BaseChenLingBattleAbilityNodeConfig*, ::Class_1_B8FF829EFDD29B81*))((::PBYTE)hIl2Cpp + CLASS_2_03116A69433FA129__CTOR_OFFSET))(this, a1, a2);
 	}
 
-	::System::Void Method_2_A3B36CD562D22DD5()
+	::System::Void Method_2_106289055FB804CE()
 	{
-		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_03116A69433FA129_METHOD_2_A3B36CD562D22DD5_OFFSET))(this);
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_03116A69433FA129_METHOD_2_106289055FB804CE_OFFSET))(this);
 	}
 
 	::System::Void Method_2_332E8DA02BCCBD12(::System::Single a1)
@@ -62,10 +61,5 @@ public:
 	::System::Void Method_2_18982EFD3B740683()
 	{
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_03116A69433FA129_METHOD_2_18982EFD3B740683_OFFSET))(this);
-	}
-
-	::System::Void Method_2_5790A55946AA509D()
-	{
-		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_03116A69433FA129_METHOD_2_5790A55946AA509D_OFFSET))(this);
 	}
 };

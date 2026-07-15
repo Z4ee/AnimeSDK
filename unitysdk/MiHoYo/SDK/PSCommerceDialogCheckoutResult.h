@@ -3,7 +3,7 @@
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int PSCommerceDialogCheckoutResult_TypeDefinitionIndex = 8055;
+	inline static constexpr unsigned int PSCommerceDialogCheckoutResult_TypeDefinitionIndex = 8065;
 
 	enum class PSCommerceDialogCheckoutResult : ::System::Int32
 	{

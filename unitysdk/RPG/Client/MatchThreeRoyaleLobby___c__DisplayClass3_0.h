@@ -4,12 +4,12 @@
 
 namespace RPG::Client { class MatchThreeOpponentData; }
 
-#define RPG_CLIENT_MATCHTHREEROYALELOBBY___C__DISPLAYCLASS3_0__CTOR_OFFSET UNITYSDK_OFFSET(0xBF91280)
-#define RPG_CLIENT_MATCHTHREEROYALELOBBY___C__DISPLAYCLASS3_0__GETOPPONENTDATABYUID_B__0_OFFSET UNITYSDK_OFFSET(0xBF91F20)
+#define RPG_CLIENT_MATCHTHREEROYALELOBBY___C__DISPLAYCLASS3_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1AB76EC0)
+#define RPG_CLIENT_MATCHTHREEROYALELOBBY___C__DISPLAYCLASS3_0__GETOPPONENTDATABYUID_B__0_OFFSET UNITYSDK_OFFSET(0x1AB77BB0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MatchThreeRoyaleLobby___c__DisplayClass3_0_TypeDefinitionIndex = 61767;
+	inline static constexpr unsigned int MatchThreeRoyaleLobby___c__DisplayClass3_0_TypeDefinitionIndex = 63129;
 
 	class MatchThreeRoyaleLobby___c__DisplayClass3_0 : public ::System::Object
 	{

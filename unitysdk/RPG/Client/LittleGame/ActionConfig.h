@@ -4,11 +4,11 @@
 #include "unitysdk/RPG/Client/LittleGame/BossPhase.h"
 #include "unitysdk/System/Object.h"
 
-#define RPG_CLIENT_LITTLEGAME_ACTIONCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x18CCCDA0)
+#define RPG_CLIENT_LITTLEGAME_ACTIONCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1C583D30)
 
 namespace RPG::Client::LittleGame
 {
-	inline static constexpr unsigned int ActionConfig_TypeDefinitionIndex = 39355;
+	inline static constexpr unsigned int ActionConfig_TypeDefinitionIndex = 40164;
 
 	class ActionConfig : public ::System::Object
 	{

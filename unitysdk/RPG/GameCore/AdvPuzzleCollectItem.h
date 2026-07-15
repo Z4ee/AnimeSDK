@@ -4,13 +4,13 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_ADVPUZZLECOLLECTITEM_METHOD_3_15E344992C5651E9_OFFSET UNITYSDK_OFFSET(0x19432890)
-#define RPG_GAMECORE_ADVPUZZLECOLLECTITEM_METHOD_3_960826E85A1C9C2F_OFFSET UNITYSDK_OFFSET(0x19432910)
-#define RPG_GAMECORE_ADVPUZZLECOLLECTITEM__CTOR_OFFSET UNITYSDK_OFFSET(0x194328E0)
+#define RPG_GAMECORE_ADVPUZZLECOLLECTITEM_METHOD_3_960826E85A1C9C2F_OFFSET UNITYSDK_OFFSET(0x1BE29620)
+#define RPG_GAMECORE_ADVPUZZLECOLLECTITEM_METHOD_3_BB8E72746FAAB932_OFFSET UNITYSDK_OFFSET(0x1BE295E0)
+#define RPG_GAMECORE_ADVPUZZLECOLLECTITEM__CTOR_OFFSET UNITYSDK_OFFSET(0x1BE29610)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AdvPuzzleCollectItem_TypeDefinitionIndex = 20918;
+	inline static constexpr unsigned int AdvPuzzleCollectItem_TypeDefinitionIndex = 21333;
 
 	class AdvPuzzleCollectItem : public ::RPG::GameCore::TaskConfig
 	{
@@ -27,9 +27,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVPUZZLECOLLECTITEM__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_15E344992C5651E9(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AdvPuzzleCollectItem*& a2)
+		static ::System::Void Method_3_BB8E72746FAAB932(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AdvPuzzleCollectItem*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::AdvPuzzleCollectItem*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVPUZZLECOLLECTITEM_METHOD_3_15E344992C5651E9_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::AdvPuzzleCollectItem*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVPUZZLECOLLECTITEM_METHOD_3_BB8E72746FAAB932_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_960826E85A1C9C2F(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AdvPuzzleCollectItem* a2)

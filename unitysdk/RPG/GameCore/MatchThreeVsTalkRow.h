@@ -5,12 +5,12 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_MATCHTHREEVSTALKROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x198F7C20)
-#define RPG_GAMECORE_MATCHTHREEVSTALKROW__CTOR_OFFSET UNITYSDK_OFFSET(0x198F7E30)
+#define RPG_GAMECORE_MATCHTHREEVSTALKROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1AF41A70)
+#define RPG_GAMECORE_MATCHTHREEVSTALKROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1AF41C80)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MatchThreeVsTalkRow_TypeDefinitionIndex = 11411;
+	inline static constexpr unsigned int MatchThreeVsTalkRow_TypeDefinitionIndex = 11511;
 
 	class MatchThreeVsTalkRow : public ::System::Object
 	{

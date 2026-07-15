@@ -4,11 +4,11 @@
 
 namespace System { class Object; }
 
-#define SYSTEM_XML_SCHEMA_UPAEXCEPTION__CTOR_OFFSET UNITYSDK_OFFSET(0x1AE45C10)
+#define SYSTEM_XML_SCHEMA_UPAEXCEPTION__CTOR_OFFSET UNITYSDK_OFFSET(0x1965AAB0)
 
 namespace System::Xml::Schema
 {
-	inline static constexpr unsigned int UpaException_TypeDefinitionIndex = 2053;
+	inline static constexpr unsigned int UpaException_TypeDefinitionIndex = 2057;
 
 	class UpaException : public ::System::Exception
 	{

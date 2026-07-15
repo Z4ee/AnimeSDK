@@ -4,18 +4,18 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_GRIDFIGHTSEASONCRAFTCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x198088D0)
-#define RPG_GAMECORE_GRIDFIGHTSEASONCRAFTCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x198089F0)
+#define RPG_GAMECORE_GRIDFIGHTSEASONCRAFTCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D075A10)
+#define RPG_GAMECORE_GRIDFIGHTSEASONCRAFTCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D075B30)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int GridFightSeasonCraftConfigRow_TypeDefinitionIndex = 12827;
+	inline static constexpr unsigned int GridFightSeasonCraftConfigRow_TypeDefinitionIndex = 12963;
 
 	class GridFightSeasonCraftConfigRow : public ::System::Object
 	{
 	public:
-		::System::UInt32 SeasonID; // 0x10
-		::System::UInt32 CraftID; // 0x14
+		::System::UInt32 CraftID; // 0x10
+		::System::UInt32 SeasonID; // 0x14
 
 		::System::Void _ctor()
 		{

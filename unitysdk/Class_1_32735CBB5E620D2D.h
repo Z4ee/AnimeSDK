@@ -5,9 +5,9 @@
 namespace RPG::GameCore { class PingPongEnemyGroupEventBase; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_1_32735CBB5E620D2D__CTOR_OFFSET UNITYSDK_OFFSET(0x18C77E00)
+#define CLASS_1_32735CBB5E620D2D__CTOR_OFFSET UNITYSDK_OFFSET(0x17571CF0)
 
-inline static constexpr unsigned int Class_1_32735CBB5E620D2D_TypeDefinitionIndex = 39606;
+inline static constexpr unsigned int Class_1_32735CBB5E620D2D_TypeDefinitionIndex = 40415;
 
 class Class_1_32735CBB5E620D2D : public ::System::Object
 {

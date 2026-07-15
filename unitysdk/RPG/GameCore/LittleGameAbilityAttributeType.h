@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LittleGameAbilityAttributeType_TypeDefinitionIndex = 23215;
+	inline static constexpr unsigned int LittleGameAbilityAttributeType_TypeDefinitionIndex = 23697;
 
 	enum class LittleGameAbilityAttributeType : ::System::Int32
 	{

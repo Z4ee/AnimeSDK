@@ -1,0 +1,45 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/Class_3_7BCB0B878B94D77E.h"
+
+class Class_1_A043D803AC652E6E;
+namespace UnityEngine { class Component; }
+
+#define CLASS_4_A511497DC4CC95E6_CLONE_OFFSET UNITYSDK_OFFSET(0x149E67A0)
+#define CLASS_4_A511497DC4CC95E6_METHOD_4_8FAD57395F26ACC4_OFFSET UNITYSDK_OFFSET(0x149E6860)
+#define CLASS_4_A511497DC4CC95E6_METHOD_4_A9591A7BC8774F34_OFFSET UNITYSDK_OFFSET(0x149E6640)
+#define CLASS_4_A511497DC4CC95E6_REVERSE_OFFSET UNITYSDK_OFFSET(0x149E66E0)
+#define CLASS_4_A511497DC4CC95E6__CTOR_OFFSET UNITYSDK_OFFSET(0x149E66C0)
+
+inline static constexpr unsigned int Class_4_A511497DC4CC95E6_TypeDefinitionIndex = 70096;
+
+class Class_4_A511497DC4CC95E6 : public ::Class_3_7BCB0B878B94D77E
+{
+public:
+	::UnityEngine::Component* Field_4_0; // 0x38
+
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_4_A511497DC4CC95E6__CTOR_OFFSET))(this);
+	}
+
+	static ::Class_4_A511497DC4CC95E6* Method_4_A9591A7BC8774F34()
+	{
+		return ((::Class_4_A511497DC4CC95E6*(*)())((::PBYTE)hIl2Cpp + CLASS_4_A511497DC4CC95E6_METHOD_4_A9591A7BC8774F34_OFFSET))();
+	}
+
+	::Class_1_A043D803AC652E6E* Reverse()
+	{
+		return ((::Class_1_A043D803AC652E6E*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_4_A511497DC4CC95E6_REVERSE_OFFSET))(this);
+	}
+
+	::Class_1_A043D803AC652E6E* Clone()
+	{
+		return ((::Class_1_A043D803AC652E6E*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_4_A511497DC4CC95E6_CLONE_OFFSET))(this);
+	}
+
+	::System::Void Method_4_8FAD57395F26ACC4(::System::Single a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + CLASS_4_A511497DC4CC95E6_METHOD_4_8FAD57395F26ACC4_OFFSET))(this, a1);
+	}
+};

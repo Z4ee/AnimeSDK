@@ -5,13 +5,13 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_ST_SIDE_HIPPLEN_SETEMOTION_METHOD_4_92E5F86395E0D76E_OFFSET UNITYSDK_OFFSET(0x19C0A7F0)
-#define RPG_GAMECORE_ST_SIDE_HIPPLEN_SETEMOTION_METHOD_4_E794791DDAA61341_OFFSET UNITYSDK_OFFSET(0x19C1A5B0)
-#define RPG_GAMECORE_ST_SIDE_HIPPLEN_SETEMOTION__CTOR_OFFSET UNITYSDK_OFFSET(0x19C0A770)
+#define RPG_GAMECORE_ST_SIDE_HIPPLEN_SETEMOTION_METHOD_4_92E5F86395E0D76E_OFFSET UNITYSDK_OFFSET(0x1B789FE0)
+#define RPG_GAMECORE_ST_SIDE_HIPPLEN_SETEMOTION_METHOD_4_C4534179AB2279B3_OFFSET UNITYSDK_OFFSET(0x1B789F40)
+#define RPG_GAMECORE_ST_SIDE_HIPPLEN_SETEMOTION__CTOR_OFFSET UNITYSDK_OFFSET(0x1B789FA0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ST_Side_Hipplen_SetEmotion_TypeDefinitionIndex = 20139;
+	inline static constexpr unsigned int ST_Side_Hipplen_SetEmotion_TypeDefinitionIndex = 20511;
 
 	class ST_Side_Hipplen_SetEmotion : public ::RPG::GameCore::STTaskConfig
 	{
@@ -24,9 +24,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ST_SIDE_HIPPLEN_SETEMOTION__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_4_E794791DDAA61341(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ST_Side_Hipplen_SetEmotion*& a2)
+		static ::System::Void Method_4_C4534179AB2279B3(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ST_Side_Hipplen_SetEmotion*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ST_Side_Hipplen_SetEmotion*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ST_SIDE_HIPPLEN_SETEMOTION_METHOD_4_E794791DDAA61341_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ST_Side_Hipplen_SetEmotion*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ST_SIDE_HIPPLEN_SETEMOTION_METHOD_4_C4534179AB2279B3_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_4_92E5F86395E0D76E(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ST_Side_Hipplen_SetEmotion* a2)

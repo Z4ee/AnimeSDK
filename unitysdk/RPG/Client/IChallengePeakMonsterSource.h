@@ -5,7 +5,7 @@ namespace RPG::Client { class MonsterData; }
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int IChallengePeakMonsterSource_TypeDefinitionIndex = 59147;
+	inline static constexpr unsigned int IChallengePeakMonsterSource_TypeDefinitionIndex = 60418;
 
 	class IChallengePeakMonsterSource
 	{

@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Security/Cryptography/AsymmetricSignatureDeformatter.h"
 
-#define SYSTEM_SECURITY_CRYPTOGRAPHY_RSAPKCS1SIGNATUREDEFORMATTER__CTOR_OFFSET UNITYSDK_OFFSET(0x185BB3E0)
+#define SYSTEM_SECURITY_CRYPTOGRAPHY_RSAPKCS1SIGNATUREDEFORMATTER__CTOR_OFFSET UNITYSDK_OFFSET(0x1509F320)
 
 namespace System::Security::Cryptography
 {
-	inline static constexpr unsigned int RSAPKCS1SignatureDeformatter_TypeDefinitionIndex = 1071;
+	inline static constexpr unsigned int RSAPKCS1SignatureDeformatter_TypeDefinitionIndex = 1073;
 
 	class RSAPKCS1SignatureDeformatter : public ::System::Security::Cryptography::AsymmetricSignatureDeformatter
 	{

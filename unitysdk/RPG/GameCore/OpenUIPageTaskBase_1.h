@@ -11,7 +11,7 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int OpenUIPageTaskBase_1_TypeDefinitionIndex = 54439;
+	inline static constexpr unsigned int OpenUIPageTaskBase_1_TypeDefinitionIndex = 55662;
 
 	template <typename TConfig>
 	class OpenUIPageTaskBase_1 : public ::Class_1_5F51D4049EA87B7B

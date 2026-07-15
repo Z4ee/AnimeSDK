@@ -5,15 +5,15 @@
 namespace RPG::Client::LittleGame { class MovieBossConfig; }
 namespace RPG::Client::LittleGame { class MovieGameLevelConfig; }
 
-#define CLASS_1_F5E46610D107584E__CTOR_OFFSET UNITYSDK_OFFSET(0x18D8BA40)
+#define CLASS_1_F5E46610D107584E__CTOR_OFFSET UNITYSDK_OFFSET(0x1B10B400)
 
-inline static constexpr unsigned int Class_1_F5E46610D107584E_TypeDefinitionIndex = 39357;
+inline static constexpr unsigned int Class_1_F5E46610D107584E_TypeDefinitionIndex = 40166;
 
 class Class_1_F5E46610D107584E : public ::System::Object
 {
 public:
-	::RPG::Client::LittleGame::MovieBossConfig* Field_1_0; // 0x10
-	::RPG::Client::LittleGame::MovieGameLevelConfig* Field_1_1; // 0x18
+	::RPG::Client::LittleGame::MovieGameLevelConfig* Field_1_0; // 0x10
+	::RPG::Client::LittleGame::MovieBossConfig* Field_1_1; // 0x18
 	::System::Single Field_1_2; // 0x20
 	::System::Single Field_1_3; // 0x24
 	::System::Single Field_1_4; // 0x28

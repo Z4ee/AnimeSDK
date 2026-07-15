@@ -13,7 +13,7 @@ namespace System::Linq { template <typename T1, typename T2> class Lookup_2_Grou
 
 namespace System::Linq
 {
-	inline static constexpr unsigned int Enumerable__JoinIterator_d__38_4_TypeDefinitionIndex = 3137;
+	inline static constexpr unsigned int Enumerable__JoinIterator_d__38_4_TypeDefinitionIndex = 3141;
 
 	template <typename TOuter, typename TInner, typename TKey, typename TResult>
 	class Enumerable__JoinIterator_d__38_4 : public ::System::Object

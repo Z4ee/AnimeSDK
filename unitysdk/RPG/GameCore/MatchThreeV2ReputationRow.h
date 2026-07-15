@@ -6,23 +6,23 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_MATCHTHREEV2REPUTATIONROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x198F7090)
-#define RPG_GAMECORE_MATCHTHREEV2REPUTATIONROW__CTOR_OFFSET UNITYSDK_OFFSET(0x198F7430)
+#define RPG_GAMECORE_MATCHTHREEV2REPUTATIONROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1AF40EE0)
+#define RPG_GAMECORE_MATCHTHREEV2REPUTATIONROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1AF41280)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MatchThreeV2ReputationRow_TypeDefinitionIndex = 11428;
+	inline static constexpr unsigned int MatchThreeV2ReputationRow_TypeDefinitionIndex = 11528;
 
 	class MatchThreeV2ReputationRow : public ::System::Object
 	{
 	public:
-		::System::String* ImagePath; // 0x10
-		::System::String* BgPath; // 0x18
-		::Il2CppArray<::System::UInt32>* ChallengerList; // 0x20
+		::Il2CppArray<::System::UInt32>* ChallengerList; // 0x10
+		::System::String* ImagePath; // 0x18
+		::System::String* BgPath; // 0x20
 		::RPG::Client::TextID LevelUpDesc; // 0x28
-		::System::UInt32 Reputation; // 0x38
-		::System::UInt32 LevelUpReward; // 0x3C
-		::RPG::Client::TextID TabName; // 0x40
+		::RPG::Client::TextID TabName; // 0x38
+		::System::UInt32 LevelUpReward; // 0x48
+		::System::UInt32 Reputation; // 0x4C
 		::RPG::Client::TextID Title; // 0x50
 
 		::System::Void _ctor()

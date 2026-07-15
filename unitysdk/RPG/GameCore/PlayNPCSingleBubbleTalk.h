@@ -6,13 +6,13 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class DynamicFloat; }
 namespace RPG::GameCore { class TargetEvaluator; }
 
-#define RPG_GAMECORE_PLAYNPCSINGLEBUBBLETALK_METHOD_3_9902D67DA8CAACEE_OFFSET UNITYSDK_OFFSET(0x19A26470)
-#define RPG_GAMECORE_PLAYNPCSINGLEBUBBLETALK_METHOD_3_FF3195682057F645_OFFSET UNITYSDK_OFFSET(0x19A26650)
-#define RPG_GAMECORE_PLAYNPCSINGLEBUBBLETALK__CTOR_OFFSET UNITYSDK_OFFSET(0x19A26570)
+#define RPG_GAMECORE_PLAYNPCSINGLEBUBBLETALK_METHOD_3_C60EFD1E9410B8FA_OFFSET UNITYSDK_OFFSET(0x1BA050D0)
+#define RPG_GAMECORE_PLAYNPCSINGLEBUBBLETALK_METHOD_3_FF3195682057F645_OFFSET UNITYSDK_OFFSET(0x1BA051F0)
+#define RPG_GAMECORE_PLAYNPCSINGLEBUBBLETALK__CTOR_OFFSET UNITYSDK_OFFSET(0x1BA05170)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PlayNPCSingleBubbleTalk_TypeDefinitionIndex = 20380;
+	inline static constexpr unsigned int PlayNPCSingleBubbleTalk_TypeDefinitionIndex = 20795;
 
 	class PlayNPCSingleBubbleTalk : public ::RPG::GameCore::TaskConfig
 	{
@@ -30,9 +30,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PLAYNPCSINGLEBUBBLETALK__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_9902D67DA8CAACEE(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::PlayNPCSingleBubbleTalk*& a2)
+		static ::System::Void Method_3_C60EFD1E9410B8FA(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::PlayNPCSingleBubbleTalk*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::PlayNPCSingleBubbleTalk*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PLAYNPCSINGLEBUBBLETALK_METHOD_3_9902D67DA8CAACEE_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::PlayNPCSingleBubbleTalk*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PLAYNPCSINGLEBUBBLETALK_METHOD_3_C60EFD1E9410B8FA_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_FF3195682057F645(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::PlayNPCSingleBubbleTalk* a2)

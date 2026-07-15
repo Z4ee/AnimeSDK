@@ -4,50 +4,50 @@
 
 namespace System { class String; }
 
-#define UNITYENGINE_RENDERING_FREECAMERA_ONENABLE_OFFSET UNITYSDK_OFFSET(0x1B179E00)
-#define UNITYENGINE_RENDERING_FREECAMERA_REGISTERINPUTS_OFFSET UNITYSDK_OFFSET(0x1B179E10)
-#define UNITYENGINE_RENDERING_FREECAMERA_UPDATE_OFFSET UNITYSDK_OFFSET(0x1B179E20)
-#define UNITYENGINE_RENDERING_FREECAMERA__CCTOR_OFFSET UNITYSDK_OFFSET(0x1B17A880)
-#define UNITYENGINE_RENDERING_FREECAMERA__CTOR_OFFSET UNITYSDK_OFFSET(0x1B17A860)
+#define UNITYENGINE_RENDERING_FREECAMERA_ONENABLE_OFFSET UNITYSDK_OFFSET(0x1B0F1020)
+#define UNITYENGINE_RENDERING_FREECAMERA_REGISTERINPUTS_OFFSET UNITYSDK_OFFSET(0x1B0F1030)
+#define UNITYENGINE_RENDERING_FREECAMERA_UPDATE_OFFSET UNITYSDK_OFFSET(0x1B0F1040)
+#define UNITYENGINE_RENDERING_FREECAMERA__CCTOR_OFFSET UNITYSDK_OFFSET(0x1B0F1AA0)
+#define UNITYENGINE_RENDERING_FREECAMERA__CTOR_OFFSET UNITYSDK_OFFSET(0x1B0F1A80)
 
 namespace UnityEngine::Rendering
 {
-	inline static constexpr unsigned int FreeCamera_TypeDefinitionIndex = 33662;
+	inline static constexpr unsigned int FreeCamera_TypeDefinitionIndex = 34033;
 
 	class FreeCamera : public ::UnityEngine::MonoBehaviour
 	{
 	public:
-		static ::System::String** StaticGet_kHorizontal()
-		{
-			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(FreeCamera_TypeDefinitionIndex)->GetStaticField(0x4A240);
-		}
-		static ::System::String** StaticGet_kRightStickX()
-		{
-			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(FreeCamera_TypeDefinitionIndex)->GetStaticField(0x4A248);
-		}
 		static ::System::String** StaticGet_kVertical()
 		{
-			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(FreeCamera_TypeDefinitionIndex)->GetStaticField(0x4A250);
-		}
-		static ::System::String** StaticGet_kRightStickY()
-		{
-			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(FreeCamera_TypeDefinitionIndex)->GetStaticField(0x4A258);
-		}
-		static ::System::String** StaticGet_kYAxis()
-		{
-			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(FreeCamera_TypeDefinitionIndex)->GetStaticField(0x4A260);
-		}
-		static ::System::String** StaticGet_kSpeedAxis()
-		{
-			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(FreeCamera_TypeDefinitionIndex)->GetStaticField(0x4A268);
+			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(FreeCamera_TypeDefinitionIndex)->GetStaticField(0x46370);
 		}
 		static ::System::String** StaticGet_kMouseX()
 		{
-			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(FreeCamera_TypeDefinitionIndex)->GetStaticField(0x4A270);
+			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(FreeCamera_TypeDefinitionIndex)->GetStaticField(0x46378);
+		}
+		static ::System::String** StaticGet_kHorizontal()
+		{
+			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(FreeCamera_TypeDefinitionIndex)->GetStaticField(0x46380);
+		}
+		static ::System::String** StaticGet_kRightStickY()
+		{
+			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(FreeCamera_TypeDefinitionIndex)->GetStaticField(0x46388);
+		}
+		static ::System::String** StaticGet_kRightStickX()
+		{
+			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(FreeCamera_TypeDefinitionIndex)->GetStaticField(0x46390);
+		}
+		static ::System::String** StaticGet_kSpeedAxis()
+		{
+			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(FreeCamera_TypeDefinitionIndex)->GetStaticField(0x46398);
+		}
+		static ::System::String** StaticGet_kYAxis()
+		{
+			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(FreeCamera_TypeDefinitionIndex)->GetStaticField(0x463A0);
 		}
 		static ::System::String** StaticGet_kMouseY()
 		{
-			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(FreeCamera_TypeDefinitionIndex)->GetStaticField(0x4A278);
+			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(FreeCamera_TypeDefinitionIndex)->GetStaticField(0x463A8);
 		}
 		::System::Single m_LookSpeedController; // 0x18
 		::System::Single m_LookSpeedMouse; // 0x1C

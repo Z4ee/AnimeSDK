@@ -4,19 +4,19 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_MARBLEROUNDCUSTOMBUFFROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x198D8030)
-#define RPG_GAMECORE_MARBLEROUNDCUSTOMBUFFROW__CTOR_OFFSET UNITYSDK_OFFSET(0x198D81F0)
+#define RPG_GAMECORE_MARBLEROUNDCUSTOMBUFFROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1BD203E0)
+#define RPG_GAMECORE_MARBLEROUNDCUSTOMBUFFROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1BD205A0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MarbleRoundCustomBuffRow_TypeDefinitionIndex = 11378;
+	inline static constexpr unsigned int MarbleRoundCustomBuffRow_TypeDefinitionIndex = 11478;
 
 	class MarbleRoundCustomBuffRow : public ::System::Object
 	{
 	public:
 		::Il2CppArray<::System::UInt32>* BuffList; // 0x10
-		::System::UInt32 ID; // 0x18
-		::System::UInt32 EnemySelectBuff; // 0x1C
+		::System::UInt32 EnemySelectBuff; // 0x18
+		::System::UInt32 ID; // 0x1C
 		::System::UInt32 Round; // 0x20
 
 		::System::Void _ctor()

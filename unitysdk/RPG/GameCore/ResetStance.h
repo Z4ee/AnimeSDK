@@ -7,13 +7,13 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class DynamicFloat; }
 namespace RPG::GameCore { class TargetEvaluator; }
 
-#define RPG_GAMECORE_RESETSTANCE_METHOD_3_3676355E2D7504C2_OFFSET UNITYSDK_OFFSET(0x19ACFCD0)
-#define RPG_GAMECORE_RESETSTANCE_METHOD_3_91A5C9F302607878_OFFSET UNITYSDK_OFFSET(0x19ACFC30)
-#define RPG_GAMECORE_RESETSTANCE__CTOR_OFFSET UNITYSDK_OFFSET(0x19ACFC90)
+#define RPG_GAMECORE_RESETSTANCE_METHOD_3_3676355E2D7504C2_OFFSET UNITYSDK_OFFSET(0x1D01C4C0)
+#define RPG_GAMECORE_RESETSTANCE_METHOD_3_AEA63ADE13BC995A_OFFSET UNITYSDK_OFFSET(0x1D01C470)
+#define RPG_GAMECORE_RESETSTANCE__CTOR_OFFSET UNITYSDK_OFFSET(0x1D01C4B0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ResetStance_TypeDefinitionIndex = 21393;
+	inline static constexpr unsigned int ResetStance_TypeDefinitionIndex = 21811;
 
 	class ResetStance : public ::RPG::GameCore::TaskConfig
 	{
@@ -30,9 +30,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_RESETSTANCE__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_91A5C9F302607878(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ResetStance*& a2)
+		static ::System::Void Method_3_AEA63ADE13BC995A(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ResetStance*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ResetStance*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_RESETSTANCE_METHOD_3_91A5C9F302607878_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ResetStance*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_RESETSTANCE_METHOD_3_AEA63ADE13BC995A_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_3676355E2D7504C2(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ResetStance* a2)

@@ -3,7 +3,7 @@
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int CNPayDialogType_TypeDefinitionIndex = 8046;
+	inline static constexpr unsigned int CNPayDialogType_TypeDefinitionIndex = 8056;
 
 	enum class CNPayDialogType : ::System::Int32
 	{

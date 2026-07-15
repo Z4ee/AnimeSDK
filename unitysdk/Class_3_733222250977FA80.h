@@ -7,13 +7,12 @@ namespace RPG::Client { class MonoEffect; }
 namespace RPG::GameCore { class TaskContext; }
 namespace RPG::GameCore { class TriggerMiniEmoEffect; }
 
-#define CLASS_3_733222250977FA80_DISPOSE_OFFSET UNITYSDK_OFFSET(0x142C08F0)
-#define CLASS_3_733222250977FA80_METHOD_3_C29730D1A8FE68AA_OFFSET UNITYSDK_OFFSET(0x142C0EB0)
-#define CLASS_3_733222250977FA80_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x142C0930)
-#define CLASS_3_733222250977FA80__CTOR_OFFSET UNITYSDK_OFFSET(0x142C08C0)
-#define CLASS_3_733222250977FA80___IFIXBASEPROXY_DISPOSE_OFFSET UNITYSDK_OFFSET(0x142C1080)
+#define CLASS_3_733222250977FA80_DISPOSE_OFFSET UNITYSDK_OFFSET(0x146FE590)
+#define CLASS_3_733222250977FA80_METHOD_3_A0950880B19D72C8_OFFSET UNITYSDK_OFFSET(0x146FEBD0)
+#define CLASS_3_733222250977FA80_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x146FE5D0)
+#define CLASS_3_733222250977FA80__CTOR_OFFSET UNITYSDK_OFFSET(0x146FE560)
 
-inline static constexpr unsigned int Class_3_733222250977FA80_TypeDefinitionIndex = 52061;
+inline static constexpr unsigned int Class_3_733222250977FA80_TypeDefinitionIndex = 53218;
 
 class Class_3_733222250977FA80 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::TriggerMiniEmoEffect*>
 {
@@ -33,13 +32,8 @@ public:
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_3_733222250977FA80_ONTASKBEGIN_OFFSET))(this);
 	}
 
-	::System::Void Method_3_C29730D1A8FE68AA(::RPG::Client::MonoEffect* a1, ::RPG::Client::TriggerEffectCallbackParams a2)
+	::System::Void Method_3_A0950880B19D72C8(::RPG::Client::MonoEffect* a1, ::RPG::Client::TriggerEffectCallbackParams a2)
 	{
-		return ((::System::Void(*)(::PVOID, ::RPG::Client::MonoEffect*, ::RPG::Client::TriggerEffectCallbackParams))((::PBYTE)hIl2Cpp + CLASS_3_733222250977FA80_METHOD_3_C29730D1A8FE68AA_OFFSET))(this, a1, a2);
-	}
-
-	::System::Void __iFixBaseProxy_Dispose()
-	{
-		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_3_733222250977FA80___IFIXBASEPROXY_DISPOSE_OFFSET))(this);
+		return ((::System::Void(*)(::PVOID, ::RPG::Client::MonoEffect*, ::RPG::Client::TriggerEffectCallbackParams))((::PBYTE)hIl2Cpp + CLASS_3_733222250977FA80_METHOD_3_A0950880B19D72C8_OFFSET))(this, a1, a2);
 	}
 };

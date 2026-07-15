@@ -3,7 +3,7 @@
 
 namespace System::Xml
 {
-	inline static constexpr unsigned int XmlWellFormedWriter_State_TypeDefinitionIndex = 1861;
+	inline static constexpr unsigned int XmlWellFormedWriter_State_TypeDefinitionIndex = 1865;
 
 	enum class XmlWellFormedWriter_State : ::System::Int32
 	{

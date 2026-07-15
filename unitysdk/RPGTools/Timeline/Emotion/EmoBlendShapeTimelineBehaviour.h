@@ -10,12 +10,12 @@ namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPGTOOLS_TIMELINE_EMOTION_EMOBLENDSHAPETIMELINEBEHAVIOUR_METHOD_2_C1B36272B6475D02_OFFSET UNITYSDK_OFFSET(0xD0119C0)
-#define RPGTOOLS_TIMELINE_EMOTION_EMOBLENDSHAPETIMELINEBEHAVIOUR__CTOR_OFFSET UNITYSDK_OFFSET(0xD011C60)
+#define RPGTOOLS_TIMELINE_EMOTION_EMOBLENDSHAPETIMELINEBEHAVIOUR_METHOD_2_C1B36272B6475D02_OFFSET UNITYSDK_OFFSET(0x19A49C20)
+#define RPGTOOLS_TIMELINE_EMOTION_EMOBLENDSHAPETIMELINEBEHAVIOUR__CTOR_OFFSET UNITYSDK_OFFSET(0x19A49EC0)
 
 namespace RPGTools::Timeline::Emotion
 {
-	inline static constexpr unsigned int EmoBlendShapeTimelineBehaviour_TypeDefinitionIndex = 46004;
+	inline static constexpr unsigned int EmoBlendShapeTimelineBehaviour_TypeDefinitionIndex = 46943;
 
 	class EmoBlendShapeTimelineBehaviour : public ::UnityEngine::Playables::PlayableBehaviour
 	{

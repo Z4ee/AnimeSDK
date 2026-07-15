@@ -5,33 +5,33 @@
 namespace System { class String; }
 namespace ZXing::Datamatrix::Encoder { class SymbolInfo; }
 
-#define ZXING_DATAMATRIX_ENCODER_ERRORCORRECTION_CREATEECCBLOCK_1_OFFSET UNITYSDK_OFFSET(0x1B54BCC0)
-#define ZXING_DATAMATRIX_ENCODER_ERRORCORRECTION_CREATEECCBLOCK_OFFSET UNITYSDK_OFFSET(0x1B54BC50)
-#define ZXING_DATAMATRIX_ENCODER_ERRORCORRECTION_ENCODEECC200_OFFSET UNITYSDK_OFFSET(0x1B543630)
-#define ZXING_DATAMATRIX_ENCODER_ERRORCORRECTION__CCTOR_OFFSET UNITYSDK_OFFSET(0x1B54B0A0)
+#define ZXING_DATAMATRIX_ENCODER_ERRORCORRECTION_CREATEECCBLOCK_1_OFFSET UNITYSDK_OFFSET(0x155442A0)
+#define ZXING_DATAMATRIX_ENCODER_ERRORCORRECTION_CREATEECCBLOCK_OFFSET UNITYSDK_OFFSET(0x15544230)
+#define ZXING_DATAMATRIX_ENCODER_ERRORCORRECTION_ENCODEECC200_OFFSET UNITYSDK_OFFSET(0x1553B9B0)
+#define ZXING_DATAMATRIX_ENCODER_ERRORCORRECTION__CCTOR_OFFSET UNITYSDK_OFFSET(0x15543680)
 
 namespace ZXing::Datamatrix::Encoder
 {
-	inline static constexpr unsigned int ErrorCorrection_TypeDefinitionIndex = 6492;
+	inline static constexpr unsigned int ErrorCorrection_TypeDefinitionIndex = 6497;
 
 	class ErrorCorrection : public ::System::Object
 	{
 	public:
-		static ::Il2CppArray<::System::Int32>** StaticGet_FACTOR_SETS()
+		static ::Il2CppArray<::System::Int32>** StaticGet_LOG()
 		{
-			return (::Il2CppArray<::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(ErrorCorrection_TypeDefinitionIndex)->GetStaticField(0x3720);
+			return (::Il2CppArray<::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(ErrorCorrection_TypeDefinitionIndex)->GetStaticField(0x1E50);
 		}
 		static ::Il2CppArray<::Il2CppArray<::System::Int32>*>** StaticGet_FACTORS()
 		{
-			return (::Il2CppArray<::Il2CppArray<::System::Int32>*>**)Il2CppClass::FromTypeDefinitionIndex(ErrorCorrection_TypeDefinitionIndex)->GetStaticField(0x3728);
-		}
-		static ::Il2CppArray<::System::Int32>** StaticGet_LOG()
-		{
-			return (::Il2CppArray<::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(ErrorCorrection_TypeDefinitionIndex)->GetStaticField(0x3730);
+			return (::Il2CppArray<::Il2CppArray<::System::Int32>*>**)Il2CppClass::FromTypeDefinitionIndex(ErrorCorrection_TypeDefinitionIndex)->GetStaticField(0x1E58);
 		}
 		static ::Il2CppArray<::System::Int32>** StaticGet_ALOG()
 		{
-			return (::Il2CppArray<::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(ErrorCorrection_TypeDefinitionIndex)->GetStaticField(0x3738);
+			return (::Il2CppArray<::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(ErrorCorrection_TypeDefinitionIndex)->GetStaticField(0x1E60);
+		}
+		static ::Il2CppArray<::System::Int32>** StaticGet_FACTOR_SETS()
+		{
+			return (::Il2CppArray<::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(ErrorCorrection_TypeDefinitionIndex)->GetStaticField(0x1E68);
 		}
 
 		static ::System::Void _cctor()

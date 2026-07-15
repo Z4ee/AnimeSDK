@@ -7,18 +7,19 @@
 
 namespace System { class String; }
 
-#define RPGTOOLS_TIMELINE_VFX_VOLUMELIGHTBLOOMCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0xD06FAD0)
+#define RPGTOOLS_TIMELINE_VFX_VOLUMELIGHTBLOOMCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x19F60B70)
 
 namespace RPGTools::Timeline::VFX
 {
-	inline static constexpr unsigned int VolumeLightBloomConfig_TypeDefinitionIndex = 45961;
+	inline static constexpr unsigned int VolumeLightBloomConfig_TypeDefinitionIndex = 46900;
 
 	class VolumeLightBloomConfig : public ::System::Object
 	{
 	public:
 		::RPGTools::Timeline::VFX::LightPositionMode PositionMode; // 0x10
-		::UnityEngine::Vector3 Position; // 0x14
-		::RPGTools::Timeline::VFX::LightTargetType TargetType; // 0x20
+		::System::Boolean DestroyOnClipEnd; // 0x14
+		::UnityEngine::Vector3 Position; // 0x18
+		::RPGTools::Timeline::VFX::LightTargetType TargetType; // 0x24
 		::System::String* CharacterUniqueName; // 0x28
 		::System::String* AttachPoint; // 0x30
 		::UnityEngine::Vector3 Offset; // 0x38

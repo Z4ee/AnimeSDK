@@ -6,7 +6,7 @@ namespace UnityEngine::VFX { class VisualEffectAsset; }
 
 namespace UnityEngine::VFX
 {
-	inline static constexpr unsigned int VFXEventAttribute_TypeDefinitionIndex = 6278;
+	inline static constexpr unsigned int VFXEventAttribute_TypeDefinitionIndex = 6283;
 
 	class VFXEventAttribute : public ::System::Object
 	{

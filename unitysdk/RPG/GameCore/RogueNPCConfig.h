@@ -6,12 +6,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class RogueNPCDialogueConfig; }
 
-#define RPG_GAMECORE_ROGUENPCCONFIG_METHOD_2_71C0FA310DF1A962_OFFSET UNITYSDK_OFFSET(0x19B9F570)
-#define RPG_GAMECORE_ROGUENPCCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x19B9F690)
+#define RPG_GAMECORE_ROGUENPCCONFIG_METHOD_2_71C0FA310DF1A962_OFFSET UNITYSDK_OFFSET(0x1D168750)
+#define RPG_GAMECORE_ROGUENPCCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1D168870)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RogueNPCConfig_TypeDefinitionIndex = 17111;
+	inline static constexpr unsigned int RogueNPCConfig_TypeDefinitionIndex = 17273;
 
 	class RogueNPCConfig : public ::RPG::GameCore::JsonConfig
 	{

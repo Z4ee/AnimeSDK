@@ -5,12 +5,12 @@
 namespace UnityEngine { class Material; }
 namespace UnityEngine { class Mesh; }
 
-#define RPG_CLIENT_EFFECT_FALLINGANIMATOR_PARTICLEDATA_METHOD_1_A3FAE12D7B6ACD62_OFFSET UNITYSDK_OFFSET(0xB84FD20)
-#define RPG_CLIENT_EFFECT_FALLINGANIMATOR_PARTICLEDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xB84FC20)
+#define RPG_CLIENT_EFFECT_FALLINGANIMATOR_PARTICLEDATA_METHOD_1_A3FAE12D7B6ACD62_OFFSET UNITYSDK_OFFSET(0x150EA410)
+#define RPG_CLIENT_EFFECT_FALLINGANIMATOR_PARTICLEDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x150EA310)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int Effect_FallingAnimator_ParticleData_TypeDefinitionIndex = 65893;
+	inline static constexpr unsigned int Effect_FallingAnimator_ParticleData_TypeDefinitionIndex = 67310;
 
 	class Effect_FallingAnimator_ParticleData : public ::System::Object
 	{

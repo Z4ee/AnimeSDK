@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TimeRewindPauseReason_TypeDefinitionIndex = 23181;
+	inline static constexpr unsigned int TimeRewindPauseReason_TypeDefinitionIndex = 23661;
 
 	enum class TimeRewindPauseReason : ::System::Int32
 	{

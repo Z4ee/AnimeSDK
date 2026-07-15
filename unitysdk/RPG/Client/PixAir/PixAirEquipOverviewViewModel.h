@@ -8,23 +8,23 @@ namespace RPG::Client::PixAir { class PixAirEquipmentGhost; }
 namespace System::Collections::Generic { template <typename T> class IReadOnlyList_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_PIXAIR_PIXAIREQUIPOVERVIEWVIEWMODEL_CREATE_OFFSET UNITYSDK_OFFSET(0xC3B5D20)
-#define RPG_CLIENT_PIXAIR_PIXAIREQUIPOVERVIEWVIEWMODEL_GET_EQUIPVIEWMODELS_OFFSET UNITYSDK_OFFSET(0xC3C5F70)
-#define RPG_CLIENT_PIXAIR_PIXAIREQUIPOVERVIEWVIEWMODEL_SET_EQUIPVIEWMODELS_OFFSET UNITYSDK_OFFSET(0xC3C5F80)
-#define RPG_CLIENT_PIXAIR_PIXAIREQUIPOVERVIEWVIEWMODEL__CREATEEQUIPVIEWMODELS_OFFSET UNITYSDK_OFFSET(0xC3C5B10)
-#define RPG_CLIENT_PIXAIR_PIXAIREQUIPOVERVIEWVIEWMODEL__CTOR_OFFSET UNITYSDK_OFFSET(0xC3C5A60)
-#define RPG_CLIENT_PIXAIR_PIXAIREQUIPOVERVIEWVIEWMODEL__INIT_OFFSET UNITYSDK_OFFSET(0xC3C5A80)
+#define RPG_CLIENT_PIXAIR_PIXAIREQUIPOVERVIEWVIEWMODEL_CREATE_OFFSET UNITYSDK_OFFSET(0x19EC4730)
+#define RPG_CLIENT_PIXAIR_PIXAIREQUIPOVERVIEWVIEWMODEL_GET_EQUIPVIEWMODELS_OFFSET UNITYSDK_OFFSET(0x19ED47E0)
+#define RPG_CLIENT_PIXAIR_PIXAIREQUIPOVERVIEWVIEWMODEL_SET_EQUIPVIEWMODELS_OFFSET UNITYSDK_OFFSET(0x19ED47F0)
+#define RPG_CLIENT_PIXAIR_PIXAIREQUIPOVERVIEWVIEWMODEL__CREATEEQUIPVIEWMODELS_OFFSET UNITYSDK_OFFSET(0x19ED41F0)
+#define RPG_CLIENT_PIXAIR_PIXAIREQUIPOVERVIEWVIEWMODEL__CTOR_OFFSET UNITYSDK_OFFSET(0x19ED4140)
+#define RPG_CLIENT_PIXAIR_PIXAIREQUIPOVERVIEWVIEWMODEL__INIT_OFFSET UNITYSDK_OFFSET(0x19ED4160)
 
 namespace RPG::Client::PixAir
 {
-	inline static constexpr unsigned int PixAirEquipOverviewViewModel_TypeDefinitionIndex = 73587;
+	inline static constexpr unsigned int PixAirEquipOverviewViewModel_TypeDefinitionIndex = 75236;
 
 	class PixAirEquipOverviewViewModel : public ::Sofa::BaseViewModel
 	{
 	public:
 		::Class_1_5F4D64A4B97E38F9* _UIMessenger; // 0x20
-		::System::Collections::Generic::List_1<::RPG::Client::PixAir::PixAirEquipViewModel*>* _EquipViewModels_k__BackingField; // 0x28
-		::System::Collections::Generic::IReadOnlyList_1<::RPG::Client::PixAir::PixAirEquipmentGhost*>* _EquipmentGhosts; // 0x30
+		::System::Collections::Generic::IReadOnlyList_1<::RPG::Client::PixAir::PixAirEquipmentGhost*>* _EquipmentGhosts; // 0x28
+		::System::Collections::Generic::List_1<::RPG::Client::PixAir::PixAirEquipViewModel*>* _EquipViewModels_k__BackingField; // 0x30
 
 		::System::Void _ctor()
 		{

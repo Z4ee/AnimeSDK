@@ -10,23 +10,23 @@ namespace UnityEngine::ProBuilder { class Face; }
 namespace UnityEngine::ProBuilder { class ProBuilderMesh; }
 namespace UnityEngine::ProBuilder { class Vertex; }
 
-#define UNITYENGINE_PROBUILDER_FACEREBUILDDATA_APPLY_1_OFFSET UNITYSDK_OFFSET(0x1B0A15E0)
-#define UNITYENGINE_PROBUILDER_FACEREBUILDDATA_APPLY_OFFSET UNITYSDK_OFFSET(0x1B0A0860)
-#define UNITYENGINE_PROBUILDER_FACEREBUILDDATA_OFFSET_OFFSET UNITYSDK_OFFSET(0x1B0A07B0)
-#define UNITYENGINE_PROBUILDER_FACEREBUILDDATA_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1B0A07C0)
-#define UNITYENGINE_PROBUILDER_FACEREBUILDDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1B0A2A60)
+#define UNITYENGINE_PROBUILDER_FACEREBUILDDATA_APPLY_1_OFFSET UNITYSDK_OFFSET(0xC087CE0)
+#define UNITYENGINE_PROBUILDER_FACEREBUILDDATA_APPLY_OFFSET UNITYSDK_OFFSET(0xC086EC0)
+#define UNITYENGINE_PROBUILDER_FACEREBUILDDATA_OFFSET_OFFSET UNITYSDK_OFFSET(0xC086E10)
+#define UNITYENGINE_PROBUILDER_FACEREBUILDDATA_TOSTRING_OFFSET UNITYSDK_OFFSET(0xC086E20)
+#define UNITYENGINE_PROBUILDER_FACEREBUILDDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xC0892F0)
 
 namespace UnityEngine::ProBuilder
 {
-	inline static constexpr unsigned int FaceRebuildData_TypeDefinitionIndex = 40741;
+	inline static constexpr unsigned int FaceRebuildData_TypeDefinitionIndex = 41556;
 
 	class FaceRebuildData : public ::System::Object
 	{
 	public:
-		::System::Collections::Generic::List_1<::System::Int32>* sharedIndexesUV; // 0x10
-		::System::Collections::Generic::List_1<::System::Int32>* sharedIndexes; // 0x18
-		::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Vertex*>* vertices; // 0x20
-		::UnityEngine::ProBuilder::Face* face; // 0x28
+		::System::Collections::Generic::List_1<::System::Int32>* sharedIndexes; // 0x10
+		::UnityEngine::ProBuilder::Face* face; // 0x18
+		::System::Collections::Generic::List_1<::System::Int32>* sharedIndexesUV; // 0x20
+		::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Vertex*>* vertices; // 0x28
 		::System::Int32 _appliedOffset; // 0x30
 
 		::System::Void _ctor()

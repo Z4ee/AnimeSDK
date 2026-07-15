@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int TimeRewindUIControlMode_TypeDefinitionIndex = 56853;
+	inline static constexpr unsigned int TimeRewindUIControlMode_TypeDefinitionIndex = 58100;
 
 	enum class TimeRewindUIControlMode : ::System::Int32
 	{

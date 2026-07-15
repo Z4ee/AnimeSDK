@@ -4,12 +4,12 @@
 
 namespace System::Configuration { class ConfigurationPropertyCollection; }
 
-#define SYSTEM_NET_CONFIGURATION_WEBPROXYSCRIPTELEMENT_GET_PROPERTIES_OFFSET UNITYSDK_OFFSET(0x1AF59000)
-#define SYSTEM_NET_CONFIGURATION_WEBPROXYSCRIPTELEMENT__CTOR_OFFSET UNITYSDK_OFFSET(0x1AF58FC0)
+#define SYSTEM_NET_CONFIGURATION_WEBPROXYSCRIPTELEMENT_GET_PROPERTIES_OFFSET UNITYSDK_OFFSET(0x19183D00)
+#define SYSTEM_NET_CONFIGURATION_WEBPROXYSCRIPTELEMENT__CTOR_OFFSET UNITYSDK_OFFSET(0x19183CC0)
 
 namespace System::Net::Configuration
 {
-	inline static constexpr unsigned int WebProxyScriptElement_TypeDefinitionIndex = 3075;
+	inline static constexpr unsigned int WebProxyScriptElement_TypeDefinitionIndex = 3079;
 
 	class WebProxyScriptElement : public ::System::Configuration::ConfigurationElement
 	{

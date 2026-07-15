@@ -5,12 +5,12 @@
 namespace RPG::Client::ActivityIdleLive { class IdleLiveGiftDanmu; }
 namespace RPG::Client::ActivityIdleLive { class IdleLiveLikeEffect; }
 
-#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEGIFTDANMU___C__DISPLAYCLASS42_0__CTOR_OFFSET UNITYSDK_OFFSET(0xB14B0E0)
-#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEGIFTDANMU___C__DISPLAYCLASS42_0___PLAYLIKEEFFECT_B__0_OFFSET UNITYSDK_OFFSET(0xB14CDB0)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEGIFTDANMU___C__DISPLAYCLASS42_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1A66DCE0)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEGIFTDANMU___C__DISPLAYCLASS42_0___PLAYLIKEEFFECT_B__0_OFFSET UNITYSDK_OFFSET(0x1A66F870)
 
 namespace RPG::Client::ActivityIdleLive
 {
-	inline static constexpr unsigned int IdleLiveGiftDanmu___c__DisplayClass42_0_TypeDefinitionIndex = 70050;
+	inline static constexpr unsigned int IdleLiveGiftDanmu___c__DisplayClass42_0_TypeDefinitionIndex = 71573;
 
 	class IdleLiveGiftDanmu___c__DisplayClass42_0 : public ::System::Object
 	{

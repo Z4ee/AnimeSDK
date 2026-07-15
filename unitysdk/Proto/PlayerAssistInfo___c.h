@@ -4,20 +4,20 @@
 
 namespace Proto { class PlayerAssistInfo; }
 
-#define PROTO_PLAYERASSISTINFO___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1A1204D0)
-#define PROTO_PLAYERASSISTINFO___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1A120500)
-#define PROTO_PLAYERASSISTINFO___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1A120510)
+#define PROTO_PLAYERASSISTINFO___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1BEE90F0)
+#define PROTO_PLAYERASSISTINFO___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1BEE9120)
+#define PROTO_PLAYERASSISTINFO___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1BEE9130)
 
 namespace Proto
 {
-	inline static constexpr unsigned int PlayerAssistInfo___c_TypeDefinitionIndex = 27164;
+	inline static constexpr unsigned int PlayerAssistInfo___c_TypeDefinitionIndex = 27668;
 
 	class PlayerAssistInfo___c : public ::System::Object
 	{
 	public:
 		static ::Proto::PlayerAssistInfo___c** StaticGet___9()
 		{
-			return (::Proto::PlayerAssistInfo___c**)Il2CppClass::FromTypeDefinitionIndex(PlayerAssistInfo___c_TypeDefinitionIndex)->GetStaticField(0x45290);
+			return (::Proto::PlayerAssistInfo___c**)Il2CppClass::FromTypeDefinitionIndex(PlayerAssistInfo___c_TypeDefinitionIndex)->GetStaticField(0x3F590);
 		}
 
 		static ::System::Void _cctor()

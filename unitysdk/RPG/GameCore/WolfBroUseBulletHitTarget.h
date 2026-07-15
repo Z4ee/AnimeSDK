@@ -7,13 +7,13 @@ namespace RPG::GameCore { class AdventureAttackDetectShapeConfig; }
 namespace RPG::GameCore { class AdventureHitConfig; }
 namespace RPG::GameCore { class TargetEvaluator; }
 
-#define RPG_GAMECORE_WOLFBROUSEBULLETHITTARGET_METHOD_3_6F8A5DCCD8F3DC3C_OFFSET UNITYSDK_OFFSET(0x19E69A50)
-#define RPG_GAMECORE_WOLFBROUSEBULLETHITTARGET_METHOD_3_95FB28297BFF4898_OFFSET UNITYSDK_OFFSET(0x19E69950)
-#define RPG_GAMECORE_WOLFBROUSEBULLETHITTARGET__CTOR_OFFSET UNITYSDK_OFFSET(0x19E699E0)
+#define RPG_GAMECORE_WOLFBROUSEBULLETHITTARGET_METHOD_3_4B9E14B987C3949B_OFFSET UNITYSDK_OFFSET(0x1D1C4220)
+#define RPG_GAMECORE_WOLFBROUSEBULLETHITTARGET_METHOD_3_6F8A5DCCD8F3DC3C_OFFSET UNITYSDK_OFFSET(0x1D1C42E0)
+#define RPG_GAMECORE_WOLFBROUSEBULLETHITTARGET__CTOR_OFFSET UNITYSDK_OFFSET(0x1D1C4290)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int WolfBroUseBulletHitTarget_TypeDefinitionIndex = 19040;
+	inline static constexpr unsigned int WolfBroUseBulletHitTarget_TypeDefinitionIndex = 19393;
 
 	class WolfBroUseBulletHitTarget : public ::RPG::GameCore::TaskConfig
 	{
@@ -29,9 +29,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_WOLFBROUSEBULLETHITTARGET__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_95FB28297BFF4898(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::WolfBroUseBulletHitTarget*& a2)
+		static ::System::Void Method_3_4B9E14B987C3949B(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::WolfBroUseBulletHitTarget*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::WolfBroUseBulletHitTarget*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_WOLFBROUSEBULLETHITTARGET_METHOD_3_95FB28297BFF4898_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::WolfBroUseBulletHitTarget*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_WOLFBROUSEBULLETHITTARGET_METHOD_3_4B9E14B987C3949B_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_6F8A5DCCD8F3DC3C(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::WolfBroUseBulletHitTarget* a2)

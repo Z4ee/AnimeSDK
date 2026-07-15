@@ -6,15 +6,14 @@
 
 namespace RPGTools::Timeline { class EnableStandByBreakClip; }
 
-#define RPGTOOLS_TIMELINE_ENABLESTANDBYBREAKBEHAVIOUR_GET_CLIP_OFFSET UNITYSDK_OFFSET(0xD0184B0)
-#define RPGTOOLS_TIMELINE_ENABLESTANDBYBREAKBEHAVIOUR_ONBEHAVIOURPLAY_OFFSET UNITYSDK_OFFSET(0xD0184D0)
-#define RPGTOOLS_TIMELINE_ENABLESTANDBYBREAKBEHAVIOUR_SET_CLIP_OFFSET UNITYSDK_OFFSET(0xD0184C0)
-#define RPGTOOLS_TIMELINE_ENABLESTANDBYBREAKBEHAVIOUR__CTOR_OFFSET UNITYSDK_OFFSET(0xD018600)
-#define RPGTOOLS_TIMELINE_ENABLESTANDBYBREAKBEHAVIOUR___IFIXBASEPROXY_ONBEHAVIOURPLAY_OFFSET UNITYSDK_OFFSET(0xD018610)
+#define RPGTOOLS_TIMELINE_ENABLESTANDBYBREAKBEHAVIOUR_GET_CLIP_OFFSET UNITYSDK_OFFSET(0x19A4FA10)
+#define RPGTOOLS_TIMELINE_ENABLESTANDBYBREAKBEHAVIOUR_ONBEHAVIOURPLAY_OFFSET UNITYSDK_OFFSET(0x19A4FA30)
+#define RPGTOOLS_TIMELINE_ENABLESTANDBYBREAKBEHAVIOUR_SET_CLIP_OFFSET UNITYSDK_OFFSET(0x19A4FA20)
+#define RPGTOOLS_TIMELINE_ENABLESTANDBYBREAKBEHAVIOUR__CTOR_OFFSET UNITYSDK_OFFSET(0x19A4FB60)
 
 namespace RPGTools::Timeline
 {
-	inline static constexpr unsigned int EnableStandByBreakBehaviour_TypeDefinitionIndex = 45399;
+	inline static constexpr unsigned int EnableStandByBreakBehaviour_TypeDefinitionIndex = 46328;
 
 	class EnableStandByBreakBehaviour : public ::UnityEngine::Playables::PlayableBehaviour
 	{
@@ -39,11 +38,6 @@ namespace RPGTools::Timeline
 		::System::Void OnBehaviourPlay(::UnityEngine::Playables::Playable a1, ::UnityEngine::Playables::FrameData a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::UnityEngine::Playables::Playable, ::UnityEngine::Playables::FrameData))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_ENABLESTANDBYBREAKBEHAVIOUR_ONBEHAVIOURPLAY_OFFSET))(this, a1, a2);
-		}
-
-		::System::Void __iFixBaseProxy_OnBehaviourPlay(::UnityEngine::Playables::Playable a1, ::UnityEngine::Playables::FrameData a2)
-		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Playables::Playable, ::UnityEngine::Playables::FrameData))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_ENABLESTANDBYBREAKBEHAVIOUR___IFIXBASEPROXY_ONBEHAVIOURPLAY_OFFSET))(this, a1, a2);
 		}
 	};
 }

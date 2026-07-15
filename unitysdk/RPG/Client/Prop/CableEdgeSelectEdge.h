@@ -3,7 +3,7 @@
 
 namespace RPG::Client::Prop
 {
-	inline static constexpr unsigned int CableEdgeSelectEdge_TypeDefinitionIndex = 73124;
+	inline static constexpr unsigned int CableEdgeSelectEdge_TypeDefinitionIndex = 74649;
 
 	enum class CableEdgeSelectEdge : ::System::Int32
 	{

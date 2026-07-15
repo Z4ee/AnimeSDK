@@ -5,22 +5,22 @@
 namespace RPG::Client { class RogueMagicScepterDataItem; }
 namespace System { template <typename T> class Comparison_1; }
 
-#define CLASS_2_CA1217CF6D6791F0___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xA7A6AE0)
-#define CLASS_2_CA1217CF6D6791F0___C__CTOR_OFFSET UNITYSDK_OFFSET(0xA7A6B20)
-#define CLASS_2_CA1217CF6D6791F0___C___SETUPVIEW_B__11_0_OFFSET UNITYSDK_OFFSET(0xA7A6B30)
+#define CLASS_2_CA1217CF6D6791F0___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x16E52190)
+#define CLASS_2_CA1217CF6D6791F0___C__CTOR_OFFSET UNITYSDK_OFFSET(0x16E521D0)
+#define CLASS_2_CA1217CF6D6791F0___C___SETUPVIEW_B__11_0_OFFSET UNITYSDK_OFFSET(0x16E521E0)
 
-inline static constexpr unsigned int Class_2_CA1217CF6D6791F0___c_TypeDefinitionIndex = 67560;
+inline static constexpr unsigned int Class_2_CA1217CF6D6791F0___c_TypeDefinitionIndex = 69042;
 
 class Class_2_CA1217CF6D6791F0___c : public ::System::Object
 {
 public:
 	static ::System::Comparison_1<::RPG::Client::RogueMagicScepterDataItem*>** StaticGet___9__11_0()
 	{
-		return (::System::Comparison_1<::RPG::Client::RogueMagicScepterDataItem*>**)Il2CppClass::FromTypeDefinitionIndex(Class_2_CA1217CF6D6791F0___c_TypeDefinitionIndex)->GetStaticField(0x61BE0);
+		return (::System::Comparison_1<::RPG::Client::RogueMagicScepterDataItem*>**)Il2CppClass::FromTypeDefinitionIndex(Class_2_CA1217CF6D6791F0___c_TypeDefinitionIndex)->GetStaticField(0x67410);
 	}
 	static ::Class_2_CA1217CF6D6791F0___c** StaticGet___9()
 	{
-		return (::Class_2_CA1217CF6D6791F0___c**)Il2CppClass::FromTypeDefinitionIndex(Class_2_CA1217CF6D6791F0___c_TypeDefinitionIndex)->GetStaticField(0x61BE8);
+		return (::Class_2_CA1217CF6D6791F0___c**)Il2CppClass::FromTypeDefinitionIndex(Class_2_CA1217CF6D6791F0___c_TypeDefinitionIndex)->GetStaticField(0x67418);
 	}
 
 	static ::System::Void _cctor()

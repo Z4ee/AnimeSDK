@@ -10,12 +10,12 @@ class CarFlowIntersectionRule;
 class CarFlowRoad;
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define LANE_METHOD_1_090347D9D98AA598_OFFSET UNITYSDK_OFFSET(0xA657A30)
-#define LANE_METHOD_1_245DAC87743A0F36_OFFSET UNITYSDK_OFFSET(0xA657490)
-#define LANE_METHOD_1_92DEBBA487CC3465_OFFSET UNITYSDK_OFFSET(0xA6576F0)
-#define LANE__CTOR_OFFSET UNITYSDK_OFFSET(0xA657D30)
+#define LANE_METHOD_1_38E9BC70BF28BB8A_OFFSET UNITYSDK_OFFSET(0x18DA6AE0)
+#define LANE_METHOD_1_512591BDB7CEBE60_OFFSET UNITYSDK_OFFSET(0x18DA6CB0)
+#define LANE_METHOD_1_760A499C0F97691D_OFFSET UNITYSDK_OFFSET(0x18DA6F60)
+#define LANE__CTOR_OFFSET UNITYSDK_OFFSET(0x18DA71E0)
 
-inline static constexpr unsigned int Lane_TypeDefinitionIndex = 44432;
+inline static constexpr unsigned int Lane_TypeDefinitionIndex = 45302;
 
 class Lane : public ::System::Object
 {
@@ -35,18 +35,18 @@ public:
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + LANE__CTOR_OFFSET))(this);
 	}
 
-	::UnityEngine::Vector3 Method_1_245DAC87743A0F36(::System::Single a1)
+	::UnityEngine::Vector3 Method_1_38E9BC70BF28BB8A(::System::Single a1)
 	{
-		return ((::UnityEngine::Vector3(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + LANE_METHOD_1_245DAC87743A0F36_OFFSET))(this, a1);
+		return ((::UnityEngine::Vector3(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + LANE_METHOD_1_38E9BC70BF28BB8A_OFFSET))(this, a1);
 	}
 
-	::System::ValueTuple_2<::UnityEngine::Vector3, ::UnityEngine::Quaternion> Method_1_92DEBBA487CC3465(::System::Single a1)
+	::System::ValueTuple_2<::UnityEngine::Vector3, ::UnityEngine::Quaternion> Method_1_512591BDB7CEBE60(::System::Single a1)
 	{
-		return ((::System::ValueTuple_2<::UnityEngine::Vector3, ::UnityEngine::Quaternion>(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + LANE_METHOD_1_92DEBBA487CC3465_OFFSET))(this, a1);
+		return ((::System::ValueTuple_2<::UnityEngine::Vector3, ::UnityEngine::Quaternion>(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + LANE_METHOD_1_512591BDB7CEBE60_OFFSET))(this, a1);
 	}
 
-	::System::Int32 Method_1_090347D9D98AA598()
+	::System::Int32 Method_1_760A499C0F97691D()
 	{
-		return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + LANE_METHOD_1_090347D9D98AA598_OFFSET))(this);
+		return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + LANE_METHOD_1_760A499C0F97691D_OFFSET))(this);
 	}
 };

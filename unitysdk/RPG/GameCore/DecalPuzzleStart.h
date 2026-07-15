@@ -6,13 +6,13 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class TargetEvaluator; }
 
-#define RPG_GAMECORE_DECALPUZZLESTART_METHOD_3_783283AF5AC490ED_OFFSET UNITYSDK_OFFSET(0x19696690)
-#define RPG_GAMECORE_DECALPUZZLESTART_METHOD_3_B6DCE8CFECA1742E_OFFSET UNITYSDK_OFFSET(0x196965F0)
-#define RPG_GAMECORE_DECALPUZZLESTART__CTOR_OFFSET UNITYSDK_OFFSET(0x19696650)
+#define RPG_GAMECORE_DECALPUZZLESTART_METHOD_3_783283AF5AC490ED_OFFSET UNITYSDK_OFFSET(0x1C100150)
+#define RPG_GAMECORE_DECALPUZZLESTART_METHOD_3_8A8B227A369CB83A_OFFSET UNITYSDK_OFFSET(0x1C1000E0)
+#define RPG_GAMECORE_DECALPUZZLESTART__CTOR_OFFSET UNITYSDK_OFFSET(0x1C100130)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int DecalPuzzleStart_TypeDefinitionIndex = 20038;
+	inline static constexpr unsigned int DecalPuzzleStart_TypeDefinitionIndex = 20410;
 
 	class DecalPuzzleStart : public ::RPG::GameCore::TaskConfig
 	{
@@ -29,9 +29,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_DECALPUZZLESTART__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_B6DCE8CFECA1742E(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::DecalPuzzleStart*& a2)
+		static ::System::Void Method_3_8A8B227A369CB83A(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::DecalPuzzleStart*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::DecalPuzzleStart*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_DECALPUZZLESTART_METHOD_3_B6DCE8CFECA1742E_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::DecalPuzzleStart*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_DECALPUZZLESTART_METHOD_3_8A8B227A369CB83A_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_783283AF5AC490ED(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::DecalPuzzleStart* a2)

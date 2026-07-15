@@ -5,12 +5,12 @@
 namespace RPG::Client::TrainParty { class TrainPartyBuildDIYItem; }
 namespace RPG::Client::TrainParty { class TrainPartyBuildSlotInfo; }
 
-#define RPG_CLIENT_TRAINPARTY_TRAINPARTYBUILDDISPLAYWALLCONTEXT_BASECOMPARER_COMPARE_OFFSET UNITYSDK_OFFSET(0xCA975F0)
-#define RPG_CLIENT_TRAINPARTY_TRAINPARTYBUILDDISPLAYWALLCONTEXT_BASECOMPARER__CTOR_OFFSET UNITYSDK_OFFSET(0xCA969F0)
+#define RPG_CLIENT_TRAINPARTY_TRAINPARTYBUILDDISPLAYWALLCONTEXT_BASECOMPARER_COMPARE_OFFSET UNITYSDK_OFFSET(0x1A2A9F50)
+#define RPG_CLIENT_TRAINPARTY_TRAINPARTYBUILDDISPLAYWALLCONTEXT_BASECOMPARER__CTOR_OFFSET UNITYSDK_OFFSET(0x1A2A9350)
 
 namespace RPG::Client::TrainParty
 {
-	inline static constexpr unsigned int TrainPartyBuildDisplayWallContext_BaseComparer_TypeDefinitionIndex = 69373;
+	inline static constexpr unsigned int TrainPartyBuildDisplayWallContext_BaseComparer_TypeDefinitionIndex = 70894;
 
 	class TrainPartyBuildDisplayWallContext_BaseComparer : public ::System::Object
 	{

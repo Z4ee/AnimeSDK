@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ParamExprType_TypeDefinitionIndex = 16214;
+	inline static constexpr unsigned int ParamExprType_TypeDefinitionIndex = 16398;
 
 	enum class ParamExprType : ::System::Int32
 	{

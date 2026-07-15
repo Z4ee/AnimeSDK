@@ -2,10 +2,10 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/AkTriggerBase.h"
 
-#define AKTRIGGERDISABLE_ONDISABLE_OFFSET UNITYSDK_OFFSET(0x1B4B7860)
-#define AKTRIGGERDISABLE__CTOR_OFFSET UNITYSDK_OFFSET(0x1B4B78C0)
+#define AKTRIGGERDISABLE_ONDISABLE_OFFSET UNITYSDK_OFFSET(0x1B6E4C10)
+#define AKTRIGGERDISABLE__CTOR_OFFSET UNITYSDK_OFFSET(0x1B6E4C70)
 
-inline static constexpr unsigned int AkTriggerDisable_TypeDefinitionIndex = 41345;
+inline static constexpr unsigned int AkTriggerDisable_TypeDefinitionIndex = 42160;
 
 class AkTriggerDisable : public ::AkTriggerBase
 {

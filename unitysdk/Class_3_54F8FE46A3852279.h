@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class ByCompareNPCMonsterCheckState; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_54F8FE46A3852279_EVALUATE_OFFSET UNITYSDK_OFFSET(0x139D1E90)
-#define CLASS_3_54F8FE46A3852279__CTOR_OFFSET UNITYSDK_OFFSET(0x139D1E60)
+#define CLASS_3_54F8FE46A3852279_EVALUATE_OFFSET UNITYSDK_OFFSET(0x14ACE030)
+#define CLASS_3_54F8FE46A3852279__CTOR_OFFSET UNITYSDK_OFFSET(0x14ACE000)
 
-inline static constexpr unsigned int Class_3_54F8FE46A3852279_TypeDefinitionIndex = 49176;
+inline static constexpr unsigned int Class_3_54F8FE46A3852279_TypeDefinitionIndex = 50191;
 
 class Class_3_54F8FE46A3852279 : public ::RPG::GameCore::PredicateTaskBase_1<::RPG::GameCore::ByCompareNPCMonsterCheckState*>
 {

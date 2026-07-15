@@ -7,11 +7,11 @@
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class ParticleSystem; }
 
-#define UNITYENGINE_PARTICLEPHYSICSEXTENSIONS_GETTRIGGERPARTICLES_OFFSET UNITYSDK_OFFSET(0x1B3171A0)
+#define UNITYENGINE_PARTICLEPHYSICSEXTENSIONS_GETTRIGGERPARTICLES_OFFSET UNITYSDK_OFFSET(0x1D12BA00)
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int ParticlePhysicsExtensions_TypeDefinitionIndex = 5753;
+	inline static constexpr unsigned int ParticlePhysicsExtensions_TypeDefinitionIndex = 5758;
 
 	class ParticlePhysicsExtensions : public ::System::Object
 	{

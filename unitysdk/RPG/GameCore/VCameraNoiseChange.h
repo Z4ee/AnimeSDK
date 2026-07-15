@@ -5,13 +5,13 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_VCAMERANOISECHANGE_METHOD_3_E814C3E1C32FD187_OFFSET UNITYSDK_OFFSET(0x19E3EB10)
-#define RPG_GAMECORE_VCAMERANOISECHANGE_METHOD_3_F3BC34BA4AEF9B32_OFFSET UNITYSDK_OFFSET(0x19E3D950)
-#define RPG_GAMECORE_VCAMERANOISECHANGE__CTOR_OFFSET UNITYSDK_OFFSET(0x19E3EAE0)
+#define RPG_GAMECORE_VCAMERANOISECHANGE_METHOD_3_E814C3E1C32FD187_OFFSET UNITYSDK_OFFSET(0x1B88BA80)
+#define RPG_GAMECORE_VCAMERANOISECHANGE_METHOD_3_F8AF5BF58C03A2A8_OFFSET UNITYSDK_OFFSET(0x1B88A580)
+#define RPG_GAMECORE_VCAMERANOISECHANGE__CTOR_OFFSET UNITYSDK_OFFSET(0x1B88BA70)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int VCameraNoiseChange_TypeDefinitionIndex = 22424;
+	inline static constexpr unsigned int VCameraNoiseChange_TypeDefinitionIndex = 22873;
 
 	class VCameraNoiseChange : public ::RPG::GameCore::TaskConfig
 	{
@@ -28,9 +28,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_VCAMERANOISECHANGE__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_F3BC34BA4AEF9B32(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::VCameraNoiseChange*& a2)
+		static ::System::Void Method_3_F8AF5BF58C03A2A8(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::VCameraNoiseChange*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::VCameraNoiseChange*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_VCAMERANOISECHANGE_METHOD_3_F3BC34BA4AEF9B32_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::VCameraNoiseChange*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_VCAMERANOISECHANGE_METHOD_3_F8AF5BF58C03A2A8_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_E814C3E1C32FD187(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::VCameraNoiseChange* a2)

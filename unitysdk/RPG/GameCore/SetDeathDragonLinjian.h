@@ -5,13 +5,13 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class DynamicFloat; }
 
-#define RPG_GAMECORE_SETDEATHDRAGONLINJIAN_METHOD_3_72AFD09EE3D819BD_OFFSET UNITYSDK_OFFSET(0x19C33320)
-#define RPG_GAMECORE_SETDEATHDRAGONLINJIAN_METHOD_3_912E10BFC86D4376_OFFSET UNITYSDK_OFFSET(0x19C333A0)
-#define RPG_GAMECORE_SETDEATHDRAGONLINJIAN__CTOR_OFFSET UNITYSDK_OFFSET(0x19C33370)
+#define RPG_GAMECORE_SETDEATHDRAGONLINJIAN_METHOD_3_5616081D6F3EB05B_OFFSET UNITYSDK_OFFSET(0x1C2DBD50)
+#define RPG_GAMECORE_SETDEATHDRAGONLINJIAN_METHOD_3_912E10BFC86D4376_OFFSET UNITYSDK_OFFSET(0x1C2DBDA0)
+#define RPG_GAMECORE_SETDEATHDRAGONLINJIAN__CTOR_OFFSET UNITYSDK_OFFSET(0x1C2DBD90)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SetDeathDragonLinjian_TypeDefinitionIndex = 21606;
+	inline static constexpr unsigned int SetDeathDragonLinjian_TypeDefinitionIndex = 22028;
 
 	class SetDeathDragonLinjian : public ::RPG::GameCore::TaskConfig
 	{
@@ -25,9 +25,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETDEATHDRAGONLINJIAN__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_72AFD09EE3D819BD(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SetDeathDragonLinjian*& a2)
+		static ::System::Void Method_3_5616081D6F3EB05B(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SetDeathDragonLinjian*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SetDeathDragonLinjian*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETDEATHDRAGONLINJIAN_METHOD_3_72AFD09EE3D819BD_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SetDeathDragonLinjian*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETDEATHDRAGONLINJIAN_METHOD_3_5616081D6F3EB05B_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_912E10BFC86D4376(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SetDeathDragonLinjian* a2)

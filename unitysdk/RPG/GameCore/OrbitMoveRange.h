@@ -6,12 +6,12 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class DynamicFloat; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_ORBITMOVERANGE_METHOD_2_731DF61DB81F7654_OFFSET UNITYSDK_OFFSET(0x199DC8A0)
-#define RPG_GAMECORE_ORBITMOVERANGE__CTOR_OFFSET UNITYSDK_OFFSET(0x199DCAE0)
+#define RPG_GAMECORE_ORBITMOVERANGE_METHOD_2_F107058FBF2A185D_OFFSET UNITYSDK_OFFSET(0x1BB06370)
+#define RPG_GAMECORE_ORBITMOVERANGE__CTOR_OFFSET UNITYSDK_OFFSET(0x1BB06590)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int OrbitMoveRange_TypeDefinitionIndex = 21616;
+	inline static constexpr unsigned int OrbitMoveRange_TypeDefinitionIndex = 22038;
 
 	class OrbitMoveRange : public ::RPG::GameCore::JsonConfig
 	{
@@ -26,9 +26,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ORBITMOVERANGE__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_731DF61DB81F7654(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::OrbitMoveRange*& a2)
+		static ::System::Void Method_2_F107058FBF2A185D(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::OrbitMoveRange*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::OrbitMoveRange*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ORBITMOVERANGE_METHOD_2_731DF61DB81F7654_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::OrbitMoveRange*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ORBITMOVERANGE_METHOD_2_F107058FBF2A185D_OFFSET))(a1, a2);
 		}
 	};
 }

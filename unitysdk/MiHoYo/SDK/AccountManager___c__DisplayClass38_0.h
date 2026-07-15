@@ -8,19 +8,19 @@ namespace MiHoYo::SDK { class NetworkResponseModel; }
 namespace MiHoYo::SDK { template <typename T> class CallbackModel_1; }
 namespace System { template <typename T> class Action_1; }
 
-#define MIHOYO_SDK_ACCOUNTMANAGER___C__DISPLAYCLASS38_0__CTOR_OFFSET UNITYSDK_OFFSET(0x181DC500)
-#define MIHOYO_SDK_ACCOUNTMANAGER___C__DISPLAYCLASS38_0__REACTIVATEACCOUNT_B__0_OFFSET UNITYSDK_OFFSET(0x181DDE50)
-#define MIHOYO_SDK_ACCOUNTMANAGER___C__DISPLAYCLASS38_0__REACTIVATEACCOUNT_B__1_OFFSET UNITYSDK_OFFSET(0x181DE070)
+#define MIHOYO_SDK_ACCOUNTMANAGER___C__DISPLAYCLASS38_0__CTOR_OFFSET UNITYSDK_OFFSET(0x188593E0)
+#define MIHOYO_SDK_ACCOUNTMANAGER___C__DISPLAYCLASS38_0__REACTIVATEACCOUNT_B__0_OFFSET UNITYSDK_OFFSET(0x1885AE60)
+#define MIHOYO_SDK_ACCOUNTMANAGER___C__DISPLAYCLASS38_0__REACTIVATEACCOUNT_B__1_OFFSET UNITYSDK_OFFSET(0x1885B080)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int AccountManager___c__DisplayClass38_0_TypeDefinitionIndex = 7898;
+	inline static constexpr unsigned int AccountManager___c__DisplayClass38_0_TypeDefinitionIndex = 7904;
 
 	class AccountManager___c__DisplayClass38_0 : public ::System::Object
 	{
 	public:
-		::System::Action_1<::MiHoYo::SDK::CallbackModel_1<::MiHoYo::SDK::LoginDataModel*>*>* callback; // 0x10
-		::MiHoYo::SDK::AccountManager* __4__this; // 0x18
+		::MiHoYo::SDK::AccountManager* __4__this; // 0x10
+		::System::Action_1<::MiHoYo::SDK::CallbackModel_1<::MiHoYo::SDK::LoginDataModel*>*>* callback; // 0x18
 
 		::System::Void _ctor()
 		{

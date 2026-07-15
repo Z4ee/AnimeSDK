@@ -4,10 +4,10 @@
 
 namespace RPG::GameCore { class GameEntity; }
 
-#define CLASS_2_31616C8D89AF6421___C__DISPLAYCLASS3_0__CTOR_OFFSET UNITYSDK_OFFSET(0xA85E380)
-#define CLASS_2_31616C8D89AF6421___C__DISPLAYCLASS3_0__ONTASKBEGIN_B__0_OFFSET UNITYSDK_OFFSET(0xA85EF30)
+#define CLASS_2_31616C8D89AF6421___C__DISPLAYCLASS3_0__CTOR_OFFSET UNITYSDK_OFFSET(0x18705CC0)
+#define CLASS_2_31616C8D89AF6421___C__DISPLAYCLASS3_0__ONTASKBEGIN_B__0_OFFSET UNITYSDK_OFFSET(0x18706880)
 
-inline static constexpr unsigned int Class_2_31616C8D89AF6421___c__DisplayClass3_0_TypeDefinitionIndex = 48963;
+inline static constexpr unsigned int Class_2_31616C8D89AF6421___c__DisplayClass3_0_TypeDefinitionIndex = 49976;
 
 class Class_2_31616C8D89AF6421___c__DisplayClass3_0 : public ::System::Object
 {

@@ -7,21 +7,21 @@ namespace MiHoYo::SDK { class SecurityTunnel_File; }
 namespace System { class String; }
 namespace System { template <typename T> class Predicate_1; }
 
-#define MIHOYO_SDK_SECURITYTUNNEL___C__DISPLAYCLASS38_0__CTOR_OFFSET UNITYSDK_OFFSET(0xA2089B0)
-#define MIHOYO_SDK_SECURITYTUNNEL___C__DISPLAYCLASS38_0__FILEPARTRECEIVED_B__0_OFFSET UNITYSDK_OFFSET(0xA212240)
-#define MIHOYO_SDK_SECURITYTUNNEL___C__DISPLAYCLASS38_0__FILEPARTRECEIVED_B__1_OFFSET UNITYSDK_OFFSET(0xA212270)
-#define MIHOYO_SDK_SECURITYTUNNEL___C__DISPLAYCLASS38_0__FILEPARTRECEIVED_B__2_OFFSET UNITYSDK_OFFSET(0xA212390)
+#define MIHOYO_SDK_SECURITYTUNNEL___C__DISPLAYCLASS38_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1ABB2E30)
+#define MIHOYO_SDK_SECURITYTUNNEL___C__DISPLAYCLASS38_0__FILEPARTRECEIVED_B__0_OFFSET UNITYSDK_OFFSET(0x1ABBD0F0)
+#define MIHOYO_SDK_SECURITYTUNNEL___C__DISPLAYCLASS38_0__FILEPARTRECEIVED_B__1_OFFSET UNITYSDK_OFFSET(0x1ABBD120)
+#define MIHOYO_SDK_SECURITYTUNNEL___C__DISPLAYCLASS38_0__FILEPARTRECEIVED_B__2_OFFSET UNITYSDK_OFFSET(0x1ABBD240)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int SecurityTunnel___c__DisplayClass38_0_TypeDefinitionIndex = 43832;
+	inline static constexpr unsigned int SecurityTunnel___c__DisplayClass38_0_TypeDefinitionIndex = 44694;
 
 	class SecurityTunnel___c__DisplayClass38_0 : public ::System::Object
 	{
 	public:
-		::MiHoYo::SDK::SecurityTunnel_File* file; // 0x10
+		::System::Predicate_1<::MiHoYo::SDK::SecurityTunnel_File*>* __9__2; // 0x10
 		::MiHoYo::SDK::SecurityTunnel* __4__this; // 0x18
-		::System::Predicate_1<::MiHoYo::SDK::SecurityTunnel_File*>* __9__2; // 0x20
+		::MiHoYo::SDK::SecurityTunnel_File* file; // 0x20
 		::System::UInt64 id; // 0x28
 
 		::System::Void _ctor()

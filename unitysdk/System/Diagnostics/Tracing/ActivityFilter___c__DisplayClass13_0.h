@@ -4,12 +4,12 @@
 #include "unitysdk/System/Guid.h"
 #include "unitysdk/System/Object.h"
 
-#define SYSTEM_DIAGNOSTICS_TRACING_ACTIVITYFILTER___C__DISPLAYCLASS13_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1869A460)
-#define SYSTEM_DIAGNOSTICS_TRACING_ACTIVITYFILTER___C__DISPLAYCLASS13_0__TRIMACTIVEACTIVITYSTORE_B__0_OFFSET UNITYSDK_OFFSET(0x1869A5C0)
+#define SYSTEM_DIAGNOSTICS_TRACING_ACTIVITYFILTER___C__DISPLAYCLASS13_0__CTOR_OFFSET UNITYSDK_OFFSET(0x19196A50)
+#define SYSTEM_DIAGNOSTICS_TRACING_ACTIVITYFILTER___C__DISPLAYCLASS13_0__TRIMACTIVEACTIVITYSTORE_B__0_OFFSET UNITYSDK_OFFSET(0x19196BB0)
 
 namespace System::Diagnostics::Tracing
 {
-	inline static constexpr unsigned int ActivityFilter___c__DisplayClass13_0_TypeDefinitionIndex = 1688;
+	inline static constexpr unsigned int ActivityFilter___c__DisplayClass13_0_TypeDefinitionIndex = 1692;
 
 	class ActivityFilter___c__DisplayClass13_0 : public ::System::Object
 	{

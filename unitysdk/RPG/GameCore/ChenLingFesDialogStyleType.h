@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ChenLingFesDialogStyleType_TypeDefinitionIndex = 17528;
+	inline static constexpr unsigned int ChenLingFesDialogStyleType_TypeDefinitionIndex = 17701;
 
 	enum class ChenLingFesDialogStyleType : ::System::Int32
 	{

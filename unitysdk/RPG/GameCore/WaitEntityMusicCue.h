@@ -5,13 +5,13 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class DynamicString; }
 
-#define RPG_GAMECORE_WAITENTITYMUSICCUE_METHOD_3_2B4F9404A8F4069C_OFFSET UNITYSDK_OFFSET(0x19E54D10)
-#define RPG_GAMECORE_WAITENTITYMUSICCUE_METHOD_3_D0D3F013B6D64E4D_OFFSET UNITYSDK_OFFSET(0x19E54D90)
-#define RPG_GAMECORE_WAITENTITYMUSICCUE__CTOR_OFFSET UNITYSDK_OFFSET(0x19E54D60)
+#define RPG_GAMECORE_WAITENTITYMUSICCUE_METHOD_3_D0D3F013B6D64E4D_OFFSET UNITYSDK_OFFSET(0x1B8A3AD0)
+#define RPG_GAMECORE_WAITENTITYMUSICCUE_METHOD_3_EBDDB3BB325F1ED4_OFFSET UNITYSDK_OFFSET(0x1B8A3A80)
+#define RPG_GAMECORE_WAITENTITYMUSICCUE__CTOR_OFFSET UNITYSDK_OFFSET(0x1B8A3AC0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int WaitEntityMusicCue_TypeDefinitionIndex = 19476;
+	inline static constexpr unsigned int WaitEntityMusicCue_TypeDefinitionIndex = 19834;
 
 	class WaitEntityMusicCue : public ::RPG::GameCore::TaskConfig
 	{
@@ -25,9 +25,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_WAITENTITYMUSICCUE__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_2B4F9404A8F4069C(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::WaitEntityMusicCue*& a2)
+		static ::System::Void Method_3_EBDDB3BB325F1ED4(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::WaitEntityMusicCue*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::WaitEntityMusicCue*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_WAITENTITYMUSICCUE_METHOD_3_2B4F9404A8F4069C_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::WaitEntityMusicCue*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_WAITENTITYMUSICCUE_METHOD_3_EBDDB3BB325F1ED4_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_D0D3F013B6D64E4D(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::WaitEntityMusicCue* a2)

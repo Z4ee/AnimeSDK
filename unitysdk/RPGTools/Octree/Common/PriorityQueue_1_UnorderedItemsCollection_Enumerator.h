@@ -7,7 +7,7 @@ namespace System { class Object; }
 
 namespace RPGTools::Octree::Common
 {
-	inline static constexpr unsigned int PriorityQueue_1_UnorderedItemsCollection_Enumerator_TypeDefinitionIndex = 46146;
+	inline static constexpr unsigned int PriorityQueue_1_UnorderedItemsCollection_Enumerator_TypeDefinitionIndex = 47085;
 
 	template <typename TElement>
 	struct PriorityQueue_1_UnorderedItemsCollection_Enumerator

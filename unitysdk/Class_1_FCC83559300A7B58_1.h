@@ -3,9 +3,9 @@
 #include "unitysdk/RPG/Client/LittleGame/ChenLing/ChenLingSoldierTeamType.h"
 #include "unitysdk/System/Object.h"
 
-#define CLASS_1_FCC83559300A7B58_1__CTOR_OFFSET UNITYSDK_OFFSET(0x18D303D0)
+#define CLASS_1_FCC83559300A7B58_1__CTOR_OFFSET UNITYSDK_OFFSET(0x1BF408F0)
 
-inline static constexpr unsigned int Class_1_FCC83559300A7B58_1_TypeDefinitionIndex = 40351;
+inline static constexpr unsigned int Class_1_FCC83559300A7B58_1_TypeDefinitionIndex = 41166;
 
 class Class_1_FCC83559300A7B58_1 : public ::System::Object
 {

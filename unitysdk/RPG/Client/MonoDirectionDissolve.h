@@ -10,51 +10,51 @@ namespace UnityEngine { class Material; }
 namespace UnityEngine { class Renderer; }
 namespace UnityEngine { class Transform; }
 
-#define RPG_CLIENT_MONODIRECTIONDISSOLVE_ONDISABLE_OFFSET UNITYSDK_OFFSET(0xC078AD0)
-#define RPG_CLIENT_MONODIRECTIONDISSOLVE_ONENABLE_OFFSET UNITYSDK_OFFSET(0xC077060)
-#define RPG_CLIENT_MONODIRECTIONDISSOLVE_UPDATEMATERIAL_OFFSET UNITYSDK_OFFSET(0xC078410)
-#define RPG_CLIENT_MONODIRECTIONDISSOLVE_UPDATE_OFFSET UNITYSDK_OFFSET(0xC077A60)
-#define RPG_CLIENT_MONODIRECTIONDISSOLVE__CCTOR_OFFSET UNITYSDK_OFFSET(0xC078CF0)
-#define RPG_CLIENT_MONODIRECTIONDISSOLVE__CHECKTICK_OFFSET UNITYSDK_OFFSET(0xC078120)
-#define RPG_CLIENT_MONODIRECTIONDISSOLVE__CLOSEDISSOLVE_OFFSET UNITYSDK_OFFSET(0xC077E40)
-#define RPG_CLIENT_MONODIRECTIONDISSOLVE__CTOR_OFFSET UNITYSDK_OFFSET(0xC078CE0)
-#define RPG_CLIENT_MONODIRECTIONDISSOLVE__INCAMERA_OFFSET UNITYSDK_OFFSET(0xC0780B0)
-#define RPG_CLIENT_MONODIRECTIONDISSOLVE__OPENDISSOLVE_OFFSET UNITYSDK_OFFSET(0xC077AF0)
+#define RPG_CLIENT_MONODIRECTIONDISSOLVE_ONDISABLE_OFFSET UNITYSDK_OFFSET(0x10CD0FD0)
+#define RPG_CLIENT_MONODIRECTIONDISSOLVE_ONENABLE_OFFSET UNITYSDK_OFFSET(0x10CCF560)
+#define RPG_CLIENT_MONODIRECTIONDISSOLVE_UPDATEMATERIAL_OFFSET UNITYSDK_OFFSET(0x10CD0910)
+#define RPG_CLIENT_MONODIRECTIONDISSOLVE_UPDATE_OFFSET UNITYSDK_OFFSET(0x10CCFF60)
+#define RPG_CLIENT_MONODIRECTIONDISSOLVE__CCTOR_OFFSET UNITYSDK_OFFSET(0x10CD11F0)
+#define RPG_CLIENT_MONODIRECTIONDISSOLVE__CHECKTICK_OFFSET UNITYSDK_OFFSET(0x10CD0620)
+#define RPG_CLIENT_MONODIRECTIONDISSOLVE__CLOSEDISSOLVE_OFFSET UNITYSDK_OFFSET(0x10CD0340)
+#define RPG_CLIENT_MONODIRECTIONDISSOLVE__CTOR_OFFSET UNITYSDK_OFFSET(0x10CD11E0)
+#define RPG_CLIENT_MONODIRECTIONDISSOLVE__INCAMERA_OFFSET UNITYSDK_OFFSET(0x10CD05B0)
+#define RPG_CLIENT_MONODIRECTIONDISSOLVE__OPENDISSOLVE_OFFSET UNITYSDK_OFFSET(0x10CCFFF0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MonoDirectionDissolve_TypeDefinitionIndex = 65302;
+	inline static constexpr unsigned int MonoDirectionDissolve_TypeDefinitionIndex = 66712;
 
 	class MonoDirectionDissolve : public ::UnityEngine::MonoBehaviour
 	{
 	public:
 		static ::System::Int32* StaticGet__DirectionDissolveParamsShaderProperty()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(MonoDirectionDissolve_TypeDefinitionIndex)->GetStaticField(0x124B0);
-		}
-		static ::System::Int32* StaticGet__UseDirectionDissolveShaderProperty()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(MonoDirectionDissolve_TypeDefinitionIndex)->GetStaticField(0x124B4);
-		}
-		static ::System::Int32* StaticGet__DissolveOnShaderProperty()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(MonoDirectionDissolve_TypeDefinitionIndex)->GetStaticField(0x124B8);
-		}
-		static ::System::Int32* StaticGet__DirectionDissolveCenterShaderProperty()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(MonoDirectionDissolve_TypeDefinitionIndex)->GetStaticField(0x124BC);
-		}
-		static ::System::Int32* StaticGet__DirectionDissolveDirectionShaderProperty()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(MonoDirectionDissolve_TypeDefinitionIndex)->GetStaticField(0x124C0);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(MonoDirectionDissolve_TypeDefinitionIndex)->GetStaticField(0xE590);
 		}
 		static ::System::Int32* StaticGet__SimpEmissionOnShaderProperty()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(MonoDirectionDissolve_TypeDefinitionIndex)->GetStaticField(0x124C4);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(MonoDirectionDissolve_TypeDefinitionIndex)->GetStaticField(0xE594);
+		}
+		static ::System::Int32* StaticGet__DissolveOnShaderProperty()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(MonoDirectionDissolve_TypeDefinitionIndex)->GetStaticField(0xE598);
+		}
+		static ::System::Int32* StaticGet__DirectionDissolveCenterShaderProperty()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(MonoDirectionDissolve_TypeDefinitionIndex)->GetStaticField(0xE59C);
 		}
 		static ::System::Int32* StaticGet__DissoveOnShaderProperty()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(MonoDirectionDissolve_TypeDefinitionIndex)->GetStaticField(0x124C8);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(MonoDirectionDissolve_TypeDefinitionIndex)->GetStaticField(0xE5A0);
+		}
+		static ::System::Int32* StaticGet__UseDirectionDissolveShaderProperty()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(MonoDirectionDissolve_TypeDefinitionIndex)->GetStaticField(0xE5A4);
+		}
+		static ::System::Int32* StaticGet__DirectionDissolveDirectionShaderProperty()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(MonoDirectionDissolve_TypeDefinitionIndex)->GetStaticField(0xE5A8);
 		}
 		::System::Single _TickCount; // 0x18
 		::System::Boolean EnableDissolve; // 0x1C

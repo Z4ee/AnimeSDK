@@ -2,29 +2,29 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_0_16E4307DCC419505_360;
+class Class_0_16E4307DCC419505_384;
 class Class_1_071D0EF220D742B6;
-class Class_1_090AB0EAA610410E;
-class Class_1_D17272E82AE804C2_6;
+class Class_1_D17272E82AE804C2_7;
+class Class_1_EFF03B82D1C2B1F6;
 namespace RPG::AvatarSystem { class IAvatar; }
 
-#define CLASS_1_C896D41C7D9C1ABB_METHOD_1_2C24C6601F0A7D41_OFFSET UNITYSDK_OFFSET(0xCEC4B30)
-#define CLASS_1_C896D41C7D9C1ABB__CTOR_OFFSET UNITYSDK_OFFSET(0xCEC4AB0)
+#define CLASS_1_C896D41C7D9C1ABB_METHOD_1_2C24C6601F0A7D41_OFFSET UNITYSDK_OFFSET(0x16D8FC10)
+#define CLASS_1_C896D41C7D9C1ABB__CTOR_OFFSET UNITYSDK_OFFSET(0x16D8FB90)
 
-inline static constexpr unsigned int Class_1_C896D41C7D9C1ABB_TypeDefinitionIndex = 58509;
+inline static constexpr unsigned int Class_1_C896D41C7D9C1ABB_TypeDefinitionIndex = 59780;
 
 class Class_1_C896D41C7D9C1ABB : public ::System::Object
 {
 public:
-	::Class_0_16E4307DCC419505_360* Field_1_0; // 0x10
+	::Class_0_16E4307DCC419505_384* Field_1_0; // 0x10
 
-	::System::Void _ctor(::Class_0_16E4307DCC419505_360* a1)
+	::System::Void _ctor(::Class_0_16E4307DCC419505_384* a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::Class_0_16E4307DCC419505_360*))((::PBYTE)hIl2Cpp + CLASS_1_C896D41C7D9C1ABB__CTOR_OFFSET))(this, a1);
+		return ((::System::Void(*)(::PVOID, ::Class_0_16E4307DCC419505_384*))((::PBYTE)hIl2Cpp + CLASS_1_C896D41C7D9C1ABB__CTOR_OFFSET))(this, a1);
 	}
 
-	::Class_1_090AB0EAA610410E* Method_1_2C24C6601F0A7D41(::RPG::AvatarSystem::IAvatar* a1, ::Class_1_D17272E82AE804C2_6* a2, ::Class_1_071D0EF220D742B6* a3)
+	::Class_1_EFF03B82D1C2B1F6* Method_1_2C24C6601F0A7D41(::RPG::AvatarSystem::IAvatar* a1, ::Class_1_D17272E82AE804C2_7* a2, ::Class_1_071D0EF220D742B6* a3)
 	{
-		return ((::Class_1_090AB0EAA610410E*(*)(::PVOID, ::RPG::AvatarSystem::IAvatar*, ::Class_1_D17272E82AE804C2_6*, ::Class_1_071D0EF220D742B6*))((::PBYTE)hIl2Cpp + CLASS_1_C896D41C7D9C1ABB_METHOD_1_2C24C6601F0A7D41_OFFSET))(this, a1, a2, a3);
+		return ((::Class_1_EFF03B82D1C2B1F6*(*)(::PVOID, ::RPG::AvatarSystem::IAvatar*, ::Class_1_D17272E82AE804C2_7*, ::Class_1_071D0EF220D742B6*))((::PBYTE)hIl2Cpp + CLASS_1_C896D41C7D9C1ABB_METHOD_1_2C24C6601F0A7D41_OFFSET))(this, a1, a2, a3);
 	}
 };

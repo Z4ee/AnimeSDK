@@ -6,13 +6,13 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class DynamicString; }
 namespace RPG::GameCore { class TargetEvaluator; }
 
-#define RPG_GAMECORE_DRONESSWITCHDYNAMICCOLLIDER_METHOD_3_6B3DA8DB782A49F6_OFFSET UNITYSDK_OFFSET(0x196CCB50)
-#define RPG_GAMECORE_DRONESSWITCHDYNAMICCOLLIDER_METHOD_3_F0478BEDD5661BAC_OFFSET UNITYSDK_OFFSET(0x196CCAD0)
-#define RPG_GAMECORE_DRONESSWITCHDYNAMICCOLLIDER__CTOR_OFFSET UNITYSDK_OFFSET(0x196CCB20)
+#define RPG_GAMECORE_DRONESSWITCHDYNAMICCOLLIDER_METHOD_3_6B3DA8DB782A49F6_OFFSET UNITYSDK_OFFSET(0x1BB28820)
+#define RPG_GAMECORE_DRONESSWITCHDYNAMICCOLLIDER_METHOD_3_90057D349D35BFE1_OFFSET UNITYSDK_OFFSET(0x1BB287E0)
+#define RPG_GAMECORE_DRONESSWITCHDYNAMICCOLLIDER__CTOR_OFFSET UNITYSDK_OFFSET(0x1BB28810)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int DronesSwitchDynamicCollider_TypeDefinitionIndex = 19234;
+	inline static constexpr unsigned int DronesSwitchDynamicCollider_TypeDefinitionIndex = 19590;
 
 	class DronesSwitchDynamicCollider : public ::RPG::GameCore::TaskConfig
 	{
@@ -25,9 +25,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_DRONESSWITCHDYNAMICCOLLIDER__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_F0478BEDD5661BAC(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::DronesSwitchDynamicCollider*& a2)
+		static ::System::Void Method_3_90057D349D35BFE1(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::DronesSwitchDynamicCollider*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::DronesSwitchDynamicCollider*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_DRONESSWITCHDYNAMICCOLLIDER_METHOD_3_F0478BEDD5661BAC_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::DronesSwitchDynamicCollider*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_DRONESSWITCHDYNAMICCOLLIDER_METHOD_3_90057D349D35BFE1_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_6B3DA8DB782A49F6(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::DronesSwitchDynamicCollider* a2)

@@ -4,20 +4,20 @@
 
 namespace Proto { class Goods; }
 
-#define PROTO_GOODS___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1A0F4AB0)
-#define PROTO_GOODS___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1A0F4AE0)
-#define PROTO_GOODS___C___CCTOR_B__43_0_OFFSET UNITYSDK_OFFSET(0x1A0F4AF0)
+#define PROTO_GOODS___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1BF88340)
+#define PROTO_GOODS___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1BF88370)
+#define PROTO_GOODS___C___CCTOR_B__43_0_OFFSET UNITYSDK_OFFSET(0x1BF88380)
 
 namespace Proto
 {
-	inline static constexpr unsigned int Goods___c_TypeDefinitionIndex = 32391;
+	inline static constexpr unsigned int Goods___c_TypeDefinitionIndex = 32767;
 
 	class Goods___c : public ::System::Object
 	{
 	public:
 		static ::Proto::Goods___c** StaticGet___9()
 		{
-			return (::Proto::Goods___c**)Il2CppClass::FromTypeDefinitionIndex(Goods___c_TypeDefinitionIndex)->GetStaticField(0x43AD0);
+			return (::Proto::Goods___c**)Il2CppClass::FromTypeDefinitionIndex(Goods___c_TypeDefinitionIndex)->GetStaticField(0x3CE00);
 		}
 
 		static ::System::Void _cctor()

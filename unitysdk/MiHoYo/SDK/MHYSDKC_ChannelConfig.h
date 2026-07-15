@@ -6,7 +6,7 @@ namespace System { class String; }
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int MHYSDKC_ChannelConfig_TypeDefinitionIndex = 43596;
+	inline static constexpr unsigned int MHYSDKC_ChannelConfig_TypeDefinitionIndex = 44457;
 
 	class MHYSDKC_ChannelConfig : public ::System::Object
 	{

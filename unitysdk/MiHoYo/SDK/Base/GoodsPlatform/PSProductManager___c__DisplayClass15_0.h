@@ -6,18 +6,18 @@
 namespace MiHoYo::SDK::Base::GoodsPlatform { class PSProductManager; }
 namespace System { template <typename T1, typename T2, typename T3, typename T4> class Action_4; }
 
-#define MIHOYO_SDK_BASE_GOODSPLATFORM_PSPRODUCTMANAGER___C__DISPLAYCLASS15_0__CTOR_OFFSET UNITYSDK_OFFSET(0x181EA8D0)
-#define MIHOYO_SDK_BASE_GOODSPLATFORM_PSPRODUCTMANAGER___C__DISPLAYCLASS15_0__REQUESTPSPRODUCTSFROMSTORE_B__0_OFFSET UNITYSDK_OFFSET(0x181EB440)
+#define MIHOYO_SDK_BASE_GOODSPLATFORM_PSPRODUCTMANAGER___C__DISPLAYCLASS15_0__CTOR_OFFSET UNITYSDK_OFFSET(0x18868E80)
+#define MIHOYO_SDK_BASE_GOODSPLATFORM_PSPRODUCTMANAGER___C__DISPLAYCLASS15_0__REQUESTPSPRODUCTSFROMSTORE_B__0_OFFSET UNITYSDK_OFFSET(0x18869900)
 
 namespace MiHoYo::SDK::Base::GoodsPlatform
 {
-	inline static constexpr unsigned int PSProductManager___c__DisplayClass15_0_TypeDefinitionIndex = 8509;
+	inline static constexpr unsigned int PSProductManager___c__DisplayClass15_0_TypeDefinitionIndex = 8521;
 
 	class PSProductManager___c__DisplayClass15_0 : public ::System::Object
 	{
 	public:
-		::System::Action_4<::Il2CppArray<::MiHoYo::SDK::Console::ConsoleProduct>*, ::System::Boolean, ::System::Int32, ::System::Int64>* callback; // 0x10
-		::MiHoYo::SDK::Base::GoodsPlatform::PSProductManager* __4__this; // 0x18
+		::MiHoYo::SDK::Base::GoodsPlatform::PSProductManager* __4__this; // 0x10
+		::System::Action_4<::Il2CppArray<::MiHoYo::SDK::Console::ConsoleProduct>*, ::System::Boolean, ::System::Int32, ::System::Int64>* callback; // 0x18
 
 		::System::Void _ctor()
 		{

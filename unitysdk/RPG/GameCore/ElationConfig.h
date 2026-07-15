@@ -8,12 +8,12 @@ namespace RPG::GameCore { class ElationUIConfig; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_ELATIONCONFIG_METHOD_2_C843BFB2FC9891A4_OFFSET UNITYSDK_OFFSET(0x196D6AA0)
-#define RPG_GAMECORE_ELATIONCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x196D6D90)
+#define RPG_GAMECORE_ELATIONCONFIG_METHOD_2_C843BFB2FC9891A4_OFFSET UNITYSDK_OFFSET(0x1BB33240)
+#define RPG_GAMECORE_ELATIONCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1BB33530)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ElationConfig_TypeDefinitionIndex = 15719;
+	inline static constexpr unsigned int ElationConfig_TypeDefinitionIndex = 15893;
 
 	class ElationConfig : public ::RPG::GameCore::JsonConfig
 	{

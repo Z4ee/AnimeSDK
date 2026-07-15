@@ -10,7 +10,7 @@ namespace System::Collections::Generic { template <typename T> class IList_1; }
 
 namespace SRDebugger::Services
 {
-	inline static constexpr unsigned int ISystemInformationService_TypeDefinitionIndex = 35737;
+	inline static constexpr unsigned int ISystemInformationService_TypeDefinitionIndex = 36519;
 
 	class ISystemInformationService
 	{

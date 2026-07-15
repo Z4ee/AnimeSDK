@@ -6,7 +6,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ParticleInitialData_TypeDefinitionIndex = 66008;
+	inline static constexpr unsigned int ParticleInitialData_TypeDefinitionIndex = 67433;
 
 	struct alignas(4) ParticleInitialData
 	{

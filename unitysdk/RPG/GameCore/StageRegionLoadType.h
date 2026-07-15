@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int StageRegionLoadType_TypeDefinitionIndex = 23109;
+	inline static constexpr unsigned int StageRegionLoadType_TypeDefinitionIndex = 23578;
 
 	enum class StageRegionLoadType : ::System::Int32
 	{

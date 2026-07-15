@@ -18,7 +18,7 @@ namespace System::Collections::ObjectModel { template <typename T> class ReadOnl
 
 namespace System::Collections::Concurrent
 {
-	inline static constexpr unsigned int ConcurrentDictionary_2_TypeDefinitionIndex = 1503;
+	inline static constexpr unsigned int ConcurrentDictionary_2_TypeDefinitionIndex = 1507;
 
 	template <typename TKey, typename TValue>
 	class ConcurrentDictionary_2 : public ::System::Object

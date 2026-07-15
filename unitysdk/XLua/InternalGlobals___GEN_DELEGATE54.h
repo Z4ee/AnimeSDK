@@ -2,20 +2,20 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/MulticastDelegate.h"
 
-class Class_0_16E4307DCC419505_358;
-namespace RPG::Client { class IAvatarSkinData; }
+namespace RPG::GameCore { class GameEntity; }
 namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
+namespace System::Collections::Generic { template <typename T> class IReadOnlyList_1; }
 
-#define XLUA_INTERNALGLOBALS___GEN_DELEGATE54_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x12E8A730)
-#define XLUA_INTERNALGLOBALS___GEN_DELEGATE54_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x12E8A760)
-#define XLUA_INTERNALGLOBALS___GEN_DELEGATE54_INVOKE_OFFSET UNITYSDK_OFFSET(0x12E8A720)
-#define XLUA_INTERNALGLOBALS___GEN_DELEGATE54__CTOR_OFFSET UNITYSDK_OFFSET(0x12E8A630)
+#define XLUA_INTERNALGLOBALS___GEN_DELEGATE54_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x10BDE290)
+#define XLUA_INTERNALGLOBALS___GEN_DELEGATE54_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x10BDE2F0)
+#define XLUA_INTERNALGLOBALS___GEN_DELEGATE54_INVOKE_OFFSET UNITYSDK_OFFSET(0x10BDE280)
+#define XLUA_INTERNALGLOBALS___GEN_DELEGATE54__CTOR_OFFSET UNITYSDK_OFFSET(0x10BDE190)
 
 namespace XLua
 {
-	inline static constexpr unsigned int InternalGlobals___GEN_DELEGATE54_TypeDefinitionIndex = 46970;
+	inline static constexpr unsigned int InternalGlobals___GEN_DELEGATE54_TypeDefinitionIndex = 47935;
 
 	class InternalGlobals___GEN_DELEGATE54 : public ::System::MulticastDelegate
 	{
@@ -25,19 +25,19 @@ namespace XLua
 			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + XLUA_INTERNALGLOBALS___GEN_DELEGATE54__CTOR_OFFSET))(this, a1, a2);
 		}
 
-		::RPG::Client::IAvatarSkinData* Invoke(::Class_0_16E4307DCC419505_358* a1)
+		::RPG::GameCore::GameEntity* Invoke(::System::Collections::Generic::IReadOnlyList_1<::RPG::GameCore::GameEntity*>* a1, ::System::UInt32 a2)
 		{
-			return ((::RPG::Client::IAvatarSkinData*(*)(::PVOID, ::Class_0_16E4307DCC419505_358*))((::PBYTE)hIl2Cpp + XLUA_INTERNALGLOBALS___GEN_DELEGATE54_INVOKE_OFFSET))(this, a1);
+			return ((::RPG::GameCore::GameEntity*(*)(::PVOID, ::System::Collections::Generic::IReadOnlyList_1<::RPG::GameCore::GameEntity*>*, ::System::UInt32))((::PBYTE)hIl2Cpp + XLUA_INTERNALGLOBALS___GEN_DELEGATE54_INVOKE_OFFSET))(this, a1, a2);
 		}
 
-		::System::IAsyncResult* BeginInvoke(::Class_0_16E4307DCC419505_358* a1, ::System::AsyncCallback* a2, ::System::Object* a3)
+		::System::IAsyncResult* BeginInvoke(::System::Collections::Generic::IReadOnlyList_1<::RPG::GameCore::GameEntity*>* a1, ::System::UInt32 a2, ::System::AsyncCallback* a3, ::System::Object* a4)
 		{
-			return ((::System::IAsyncResult*(*)(::PVOID, ::Class_0_16E4307DCC419505_358*, ::System::AsyncCallback*, ::System::Object*))((::PBYTE)hIl2Cpp + XLUA_INTERNALGLOBALS___GEN_DELEGATE54_BEGININVOKE_OFFSET))(this, a1, a2, a3);
+			return ((::System::IAsyncResult*(*)(::PVOID, ::System::Collections::Generic::IReadOnlyList_1<::RPG::GameCore::GameEntity*>*, ::System::UInt32, ::System::AsyncCallback*, ::System::Object*))((::PBYTE)hIl2Cpp + XLUA_INTERNALGLOBALS___GEN_DELEGATE54_BEGININVOKE_OFFSET))(this, a1, a2, a3, a4);
 		}
 
-		::RPG::Client::IAvatarSkinData* EndInvoke(::System::IAsyncResult* a1)
+		::RPG::GameCore::GameEntity* EndInvoke(::System::IAsyncResult* a1)
 		{
-			return ((::RPG::Client::IAvatarSkinData*(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + XLUA_INTERNALGLOBALS___GEN_DELEGATE54_ENDINVOKE_OFFSET))(this, a1);
+			return ((::RPG::GameCore::GameEntity*(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + XLUA_INTERNALGLOBALS___GEN_DELEGATE54_ENDINVOKE_OFFSET))(this, a1);
 		}
 	};
 }

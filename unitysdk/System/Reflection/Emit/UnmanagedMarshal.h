@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define SYSTEM_REFLECTION_EMIT_UNMANAGEDMARSHAL__CTOR_OFFSET UNITYSDK_OFFSET(0x187530F0)
+#define SYSTEM_REFLECTION_EMIT_UNMANAGEDMARSHAL__CTOR_OFFSET UNITYSDK_OFFSET(0x1AFCEAF0)
 
 namespace System::Reflection::Emit
 {
-	inline static constexpr unsigned int UnmanagedMarshal_TypeDefinitionIndex = 1757;
+	inline static constexpr unsigned int UnmanagedMarshal_TypeDefinitionIndex = 1761;
 
 	class UnmanagedMarshal : public ::System::Object
 	{

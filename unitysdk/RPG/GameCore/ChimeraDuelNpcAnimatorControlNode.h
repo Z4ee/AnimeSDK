@@ -6,13 +6,13 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class ChimeraDuelNpcSelectorConfig; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_CHIMERADUELNPCANIMATORCONTROLNODE_METHOD_3_D3C6374A21A777EC_OFFSET UNITYSDK_OFFSET(0x19642660)
-#define RPG_GAMECORE_CHIMERADUELNPCANIMATORCONTROLNODE_METHOD_3_F56F987565D262E3_OFFSET UNITYSDK_OFFSET(0x19642580)
-#define RPG_GAMECORE_CHIMERADUELNPCANIMATORCONTROLNODE__CTOR_OFFSET UNITYSDK_OFFSET(0x19642610)
+#define RPG_GAMECORE_CHIMERADUELNPCANIMATORCONTROLNODE_METHOD_3_5B8368D4861F21E6_OFFSET UNITYSDK_OFFSET(0x1C243DE0)
+#define RPG_GAMECORE_CHIMERADUELNPCANIMATORCONTROLNODE_METHOD_3_D3C6374A21A777EC_OFFSET UNITYSDK_OFFSET(0x1C243E40)
+#define RPG_GAMECORE_CHIMERADUELNPCANIMATORCONTROLNODE__CTOR_OFFSET UNITYSDK_OFFSET(0x1C243E30)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ChimeraDuelNpcAnimatorControlNode_TypeDefinitionIndex = 15175;
+	inline static constexpr unsigned int ChimeraDuelNpcAnimatorControlNode_TypeDefinitionIndex = 15339;
 
 	class ChimeraDuelNpcAnimatorControlNode : public ::RPG::GameCore::BaseChimeraDuelNode
 	{
@@ -25,9 +25,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHIMERADUELNPCANIMATORCONTROLNODE__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_F56F987565D262E3(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ChimeraDuelNpcAnimatorControlNode*& a2)
+		static ::System::Void Method_3_5B8368D4861F21E6(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ChimeraDuelNpcAnimatorControlNode*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ChimeraDuelNpcAnimatorControlNode*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHIMERADUELNPCANIMATORCONTROLNODE_METHOD_3_F56F987565D262E3_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ChimeraDuelNpcAnimatorControlNode*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHIMERADUELNPCANIMATORCONTROLNODE_METHOD_3_5B8368D4861F21E6_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_D3C6374A21A777EC(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ChimeraDuelNpcAnimatorControlNode* a2)

@@ -6,7 +6,7 @@ namespace RPG::GameCore { template <typename T> class LockableList_1; }
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LockableList_1__GetEnumerator_d__15_TypeDefinitionIndex = 50154;
+	inline static constexpr unsigned int LockableList_1__GetEnumerator_d__15_TypeDefinitionIndex = 51236;
 
 	template <typename T>
 	class LockableList_1__GetEnumerator_d__15 : public ::System::Object

@@ -12,30 +12,30 @@ namespace UnityEngine { class ComputeShader; }
 namespace UnityEngine { class Texture2D; }
 namespace UnityEngine::Rendering { class CommandBuffer; }
 
-#define RPG_CUSTOMRP_CAPSULEAOPASS_BUFFERDISPOSE_OFFSET UNITYSDK_OFFSET(0x18EAD9B0)
-#define RPG_CUSTOMRP_CAPSULEAOPASS_COMPUTEHIZLEVEL_OFFSET UNITYSDK_OFFSET(0x18EC03B0)
-#define RPG_CUSTOMRP_CAPSULEAOPASS_CREATERES_OFFSET UNITYSDK_OFFSET(0x18EB3FF0)
-#define RPG_CUSTOMRP_CAPSULEAOPASS_FRAMECLEANUP_OFFSET UNITYSDK_OFFSET(0x18EB4AB0)
-#define RPG_CUSTOMRP_CAPSULEAOPASS_GETHIZTEXSIZE_OFFSET UNITYSDK_OFFSET(0x18EC01B0)
-#define RPG_CUSTOMRP_CAPSULEAOPASS_INNEREXCUTE_OFFSET UNITYSDK_OFFSET(0x18EB40E0)
-#define RPG_CUSTOMRP_CAPSULEAOPASS__CCTOR_OFFSET UNITYSDK_OFFSET(0x18EC03E0)
-#define RPG_CUSTOMRP_CAPSULEAOPASS__CTOR_OFFSET UNITYSDK_OFFSET(0x18EA85C0)
+#define RPG_CUSTOMRP_CAPSULEAOPASS_BUFFERDISPOSE_OFFSET UNITYSDK_OFFSET(0x17805AD0)
+#define RPG_CUSTOMRP_CAPSULEAOPASS_COMPUTEHIZLEVEL_OFFSET UNITYSDK_OFFSET(0x17819480)
+#define RPG_CUSTOMRP_CAPSULEAOPASS_CREATERES_OFFSET UNITYSDK_OFFSET(0x1780CA60)
+#define RPG_CUSTOMRP_CAPSULEAOPASS_FRAMECLEANUP_OFFSET UNITYSDK_OFFSET(0x1780D550)
+#define RPG_CUSTOMRP_CAPSULEAOPASS_GETHIZTEXSIZE_OFFSET UNITYSDK_OFFSET(0x17819280)
+#define RPG_CUSTOMRP_CAPSULEAOPASS_INNEREXCUTE_OFFSET UNITYSDK_OFFSET(0x1780CB50)
+#define RPG_CUSTOMRP_CAPSULEAOPASS__CCTOR_OFFSET UNITYSDK_OFFSET(0x178194B0)
+#define RPG_CUSTOMRP_CAPSULEAOPASS__CTOR_OFFSET UNITYSDK_OFFSET(0x178005D0)
 
 namespace RPG::CustomRP
 {
-	inline static constexpr unsigned int CapsuleAOPass_TypeDefinitionIndex = 35221;
+	inline static constexpr unsigned int CapsuleAOPass_TypeDefinitionIndex = 36003;
 
 	class CapsuleAOPass : public ::System::Object
 	{
 	public:
 		static ::System::Int32* StaticGet__CapsuleMainCount()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(CapsuleAOPass_TypeDefinitionIndex)->GetStaticField(0x12D40);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(CapsuleAOPass_TypeDefinitionIndex)->GetStaticField(0x101C0);
 		}
 		// static const ::System::String* _Tag; // 0x0
 		::UnityEngine::ComputeShader* cs_CapsuleAO; // 0x10
-		::UnityEngine::Texture2D* capsuleBakeTex; // 0x18
-		::UnityEngine::ComputeBuffer* _OccluderListBufferRW; // 0x20
+		::UnityEngine::ComputeBuffer* _OccluderListBufferRW; // 0x18
+		::UnityEngine::Texture2D* capsuleBakeTex; // 0x20
 		::UnityEngine::ComputeBuffer* _DynamicOccluderBuffer; // 0x28
 		::System::Int32 _OccluderListLookupTextureRW; // 0x30
 		::UnityEngine::RenderTextureDescriptor _CapsuleCoutDesc; // 0x34

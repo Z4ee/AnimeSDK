@@ -10,7 +10,7 @@ namespace System::Linq { template <typename T> class Set_1; }
 
 namespace System::Linq
 {
-	inline static constexpr unsigned int Enumerable__IntersectIterator_d__74_1_TypeDefinitionIndex = 3143;
+	inline static constexpr unsigned int Enumerable__IntersectIterator_d__74_1_TypeDefinitionIndex = 3147;
 
 	template <typename TSource>
 	class Enumerable__IntersectIterator_d__74_1 : public ::System::Object

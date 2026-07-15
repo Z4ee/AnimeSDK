@@ -6,12 +6,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_HIPPLENMINIGAMELOADCHARACTER_METHOD_2_1B80257597606598_OFFSET UNITYSDK_OFFSET(0x19836DB0)
-#define RPG_GAMECORE_HIPPLENMINIGAMELOADCHARACTER__CTOR_OFFSET UNITYSDK_OFFSET(0x19836FC0)
+#define RPG_GAMECORE_HIPPLENMINIGAMELOADCHARACTER_METHOD_2_1B80257597606598_OFFSET UNITYSDK_OFFSET(0x1B6895D0)
+#define RPG_GAMECORE_HIPPLENMINIGAMELOADCHARACTER__CTOR_OFFSET UNITYSDK_OFFSET(0x1B6897E0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int HipplenMiniGameLoadCharacter_TypeDefinitionIndex = 15949;
+	inline static constexpr unsigned int HipplenMiniGameLoadCharacter_TypeDefinitionIndex = 16131;
 
 	class HipplenMiniGameLoadCharacter : public ::RPG::GameCore::JsonConfig
 	{

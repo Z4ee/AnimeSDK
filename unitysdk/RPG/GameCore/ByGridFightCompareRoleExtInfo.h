@@ -8,15 +8,15 @@ namespace RPG::GameCore { class DynamicFloat; }
 namespace RPG::GameCore { class TargetEvaluator; }
 namespace SimpleJSON { class JSONNode; }
 
-#define RPG_GAMECORE_BYGRIDFIGHTCOMPAREROLEEXTINFO_METHOD_4_67EB5D3EC0CEDE57_OFFSET UNITYSDK_OFFSET(0x1954A970)
-#define RPG_GAMECORE_BYGRIDFIGHTCOMPAREROLEEXTINFO_METHOD_4_901E3C31BC156035_OFFSET UNITYSDK_OFFSET(0x1954AA40)
-#define RPG_GAMECORE_BYGRIDFIGHTCOMPAREROLEEXTINFO_METHOD_4_A3FB00F18CB901B1_OFFSET UNITYSDK_OFFSET(0x1954AD20)
-#define RPG_GAMECORE_BYGRIDFIGHTCOMPAREROLEEXTINFO_METHOD_4_E022FA9E78CB1653_OFFSET UNITYSDK_OFFSET(0x1954ACA0)
-#define RPG_GAMECORE_BYGRIDFIGHTCOMPAREROLEEXTINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x1954A9F0)
+#define RPG_GAMECORE_BYGRIDFIGHTCOMPAREROLEEXTINFO_METHOD_4_815FAC75A8919B3C_OFFSET UNITYSDK_OFFSET(0x1A8C2E10)
+#define RPG_GAMECORE_BYGRIDFIGHTCOMPAREROLEEXTINFO_METHOD_4_8433A06A19E3D670_OFFSET UNITYSDK_OFFSET(0x1A8C30E0)
+#define RPG_GAMECORE_BYGRIDFIGHTCOMPAREROLEEXTINFO_METHOD_4_901E3C31BC156035_OFFSET UNITYSDK_OFFSET(0x1A8C2E50)
+#define RPG_GAMECORE_BYGRIDFIGHTCOMPAREROLEEXTINFO_METHOD_4_F47A5D197237CDE7_OFFSET UNITYSDK_OFFSET(0x1A8C30B0)
+#define RPG_GAMECORE_BYGRIDFIGHTCOMPAREROLEEXTINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x1A8C2E40)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ByGridFightCompareRoleExtInfo_TypeDefinitionIndex = 21295;
+	inline static constexpr unsigned int ByGridFightCompareRoleExtInfo_TypeDefinitionIndex = 21710;
 
 	class ByGridFightCompareRoleExtInfo : public ::RPG::GameCore::PredicateConfig
 	{
@@ -30,9 +30,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYGRIDFIGHTCOMPAREROLEEXTINFO__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_4_67EB5D3EC0CEDE57(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ByGridFightCompareRoleExtInfo*& a2)
+		static ::System::Void Method_4_815FAC75A8919B3C(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ByGridFightCompareRoleExtInfo*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ByGridFightCompareRoleExtInfo*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYGRIDFIGHTCOMPAREROLEEXTINFO_METHOD_4_67EB5D3EC0CEDE57_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ByGridFightCompareRoleExtInfo*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYGRIDFIGHTCOMPAREROLEEXTINFO_METHOD_4_815FAC75A8919B3C_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_4_901E3C31BC156035(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ByGridFightCompareRoleExtInfo* a2)
@@ -40,14 +40,14 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ByGridFightCompareRoleExtInfo*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYGRIDFIGHTCOMPAREROLEEXTINFO_METHOD_4_901E3C31BC156035_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_4_E022FA9E78CB1653(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::ByGridFightCompareRoleExtInfo*& a2)
+		static ::System::Void Method_4_F47A5D197237CDE7(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::ByGridFightCompareRoleExtInfo*& a2)
 		{
-			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::ByGridFightCompareRoleExtInfo*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYGRIDFIGHTCOMPAREROLEEXTINFO_METHOD_4_E022FA9E78CB1653_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::ByGridFightCompareRoleExtInfo*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYGRIDFIGHTCOMPAREROLEEXTINFO_METHOD_4_F47A5D197237CDE7_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_4_A3FB00F18CB901B1(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::ByGridFightCompareRoleExtInfo* a2)
+		static ::System::Void Method_4_8433A06A19E3D670(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::ByGridFightCompareRoleExtInfo* a2)
 		{
-			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::ByGridFightCompareRoleExtInfo*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYGRIDFIGHTCOMPAREROLEEXTINFO_METHOD_4_A3FB00F18CB901B1_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::ByGridFightCompareRoleExtInfo*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYGRIDFIGHTCOMPAREROLEEXTINFO_METHOD_4_8433A06A19E3D670_OFFSET))(a1, a2);
 		}
 	};
 }

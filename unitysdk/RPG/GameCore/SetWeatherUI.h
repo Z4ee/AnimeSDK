@@ -6,13 +6,13 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class WeatherUIBaseConfig; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_SETWEATHERUI_METHOD_3_621AC65B8FB2852B_OFFSET UNITYSDK_OFFSET(0x19C67540)
-#define RPG_GAMECORE_SETWEATHERUI_METHOD_3_938A4FFA2B5465F2_OFFSET UNITYSDK_OFFSET(0x19C67590)
-#define RPG_GAMECORE_SETWEATHERUI__CTOR_OFFSET UNITYSDK_OFFSET(0x19C676C0)
+#define RPG_GAMECORE_SETWEATHERUI_METHOD_3_938A4FFA2B5465F2_OFFSET UNITYSDK_OFFSET(0x1C610460)
+#define RPG_GAMECORE_SETWEATHERUI_METHOD_3_C4300B59F12ECFC1_OFFSET UNITYSDK_OFFSET(0x1C610420)
+#define RPG_GAMECORE_SETWEATHERUI__CTOR_OFFSET UNITYSDK_OFFSET(0x1C610450)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SetWeatherUI_TypeDefinitionIndex = 21545;
+	inline static constexpr unsigned int SetWeatherUI_TypeDefinitionIndex = 21967;
 
 	class SetWeatherUI : public ::RPG::GameCore::TaskConfig
 	{
@@ -25,9 +25,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETWEATHERUI__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_621AC65B8FB2852B(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SetWeatherUI*& a2)
+		static ::System::Void Method_3_C4300B59F12ECFC1(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SetWeatherUI*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SetWeatherUI*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETWEATHERUI_METHOD_3_621AC65B8FB2852B_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SetWeatherUI*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETWEATHERUI_METHOD_3_C4300B59F12ECFC1_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_938A4FFA2B5465F2(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SetWeatherUI* a2)

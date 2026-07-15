@@ -1,22 +1,19 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Class_1_A696AB4980B3D7B5.h"
+#include "unitysdk/Class_1_29B23DDF98AF43AC.h"
 #include "unitysdk/RPG/GameCore/TriggerExitReason.h"
 
 class Class_1_D50913C0AC7A262A;
 namespace RPG::GameCore { class GameEntity; }
 
-#define CLASS_2_6C1010345A89A766_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1360B3A0)
-#define CLASS_2_6C1010345A89A766_DOONENTER_OFFSET UNITYSDK_OFFSET(0x1360B440)
-#define CLASS_2_6C1010345A89A766_DOONEXIT_OFFSET UNITYSDK_OFFSET(0x1360B4A0)
-#define CLASS_2_6C1010345A89A766__CTOR_OFFSET UNITYSDK_OFFSET(0x1360B350)
-#define CLASS_2_6C1010345A89A766___IFIXBASEPROXY_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1360B510)
-#define CLASS_2_6C1010345A89A766___IFIXBASEPROXY_DOONENTER_OFFSET UNITYSDK_OFFSET(0x1360B520)
-#define CLASS_2_6C1010345A89A766___IFIXBASEPROXY_DOONEXIT_OFFSET UNITYSDK_OFFSET(0x1360B530)
+#define CLASS_2_6C1010345A89A766_DISPOSE_OFFSET UNITYSDK_OFFSET(0x17C574B0)
+#define CLASS_2_6C1010345A89A766_DOONENTER_OFFSET UNITYSDK_OFFSET(0x17C57550)
+#define CLASS_2_6C1010345A89A766_DOONEXIT_OFFSET UNITYSDK_OFFSET(0x17C575B0)
+#define CLASS_2_6C1010345A89A766__CTOR_OFFSET UNITYSDK_OFFSET(0x17C57460)
 
-inline static constexpr unsigned int Class_2_6C1010345A89A766_TypeDefinitionIndex = 64923;
+inline static constexpr unsigned int Class_2_6C1010345A89A766_TypeDefinitionIndex = 66325;
 
-class Class_2_6C1010345A89A766 : public ::Class_1_A696AB4980B3D7B5
+class Class_2_6C1010345A89A766 : public ::Class_1_29B23DDF98AF43AC
 {
 public:
 	::Class_1_D50913C0AC7A262A* Field_2_0; // 0x98
@@ -40,20 +37,5 @@ public:
 	::System::Void DoOnExit(::RPG::GameCore::GameEntity* a1, ::RPG::GameCore::TriggerExitReason a2)
 	{
 		return ((::System::Void(*)(::PVOID, ::RPG::GameCore::GameEntity*, ::RPG::GameCore::TriggerExitReason))((::PBYTE)hIl2Cpp + CLASS_2_6C1010345A89A766_DOONEXIT_OFFSET))(this, a1, a2);
-	}
-
-	::System::Void __iFixBaseProxy_Dispose()
-	{
-		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_6C1010345A89A766___IFIXBASEPROXY_DISPOSE_OFFSET))(this);
-	}
-
-	::System::Void __iFixBaseProxy_DoOnEnter(::RPG::GameCore::GameEntity* a1)
-	{
-		return ((::System::Void(*)(::PVOID, ::RPG::GameCore::GameEntity*))((::PBYTE)hIl2Cpp + CLASS_2_6C1010345A89A766___IFIXBASEPROXY_DOONENTER_OFFSET))(this, a1);
-	}
-
-	::System::Void __iFixBaseProxy_DoOnExit(::RPG::GameCore::GameEntity* a1, ::RPG::GameCore::TriggerExitReason a2)
-	{
-		return ((::System::Void(*)(::PVOID, ::RPG::GameCore::GameEntity*, ::RPG::GameCore::TriggerExitReason))((::PBYTE)hIl2Cpp + CLASS_2_6C1010345A89A766___IFIXBASEPROXY_DOONEXIT_OFFSET))(this, a1, a2);
 	}
 };

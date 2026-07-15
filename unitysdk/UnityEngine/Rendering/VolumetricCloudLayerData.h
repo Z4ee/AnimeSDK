@@ -7,7 +7,7 @@ namespace UnityEngine { class Material; }
 
 namespace UnityEngine::Rendering
 {
-	inline static constexpr unsigned int VolumetricCloudLayerData_TypeDefinitionIndex = 4836;
+	inline static constexpr unsigned int VolumetricCloudLayerData_TypeDefinitionIndex = 4841;
 
 	struct alignas(8) VolumetricCloudLayerData
 	{

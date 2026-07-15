@@ -8,14 +8,13 @@ namespace System { class String; }
 namespace UnityEngine { class Transform; }
 namespace UnityEngine::Rendering { class CRPVirtualCamera; }
 
-#define RPG_CLIENT_VIRTUALCAMERAFOLLOWMONOPLUGIN_CLEAR_OFFSET UNITYSDK_OFFSET(0xCC210B0)
-#define RPG_CLIENT_VIRTUALCAMERAFOLLOWMONOPLUGIN_GETTICKLODTEMPLATENAME_OFFSET UNITYSDK_OFFSET(0xCC21110)
-#define RPG_CLIENT_VIRTUALCAMERAFOLLOWMONOPLUGIN__CTOR_OFFSET UNITYSDK_OFFSET(0xCC21160)
-#define RPG_CLIENT_VIRTUALCAMERAFOLLOWMONOPLUGIN___IFIXBASEPROXY_GETTICKLODTEMPLATENAME_OFFSET UNITYSDK_OFFSET(0xCC21180)
+#define RPG_CLIENT_VIRTUALCAMERAFOLLOWMONOPLUGIN_CLEAR_OFFSET UNITYSDK_OFFSET(0x1740B110)
+#define RPG_CLIENT_VIRTUALCAMERAFOLLOWMONOPLUGIN_GETTICKLODTEMPLATENAME_OFFSET UNITYSDK_OFFSET(0x1740B170)
+#define RPG_CLIENT_VIRTUALCAMERAFOLLOWMONOPLUGIN__CTOR_OFFSET UNITYSDK_OFFSET(0x1740B1C0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int VirtualCameraFollowMonoPlugin_TypeDefinitionIndex = 65777;
+	inline static constexpr unsigned int VirtualCameraFollowMonoPlugin_TypeDefinitionIndex = 67194;
 
 	class VirtualCameraFollowMonoPlugin : public ::RPG::Client::TAMonoPlugin_1<::RPG::Client::VirtualCameraFollowBehavior*>
 	{
@@ -53,11 +52,6 @@ namespace RPG::Client
 		::System::String* GetTickLodTemplateName()
 		{
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_VIRTUALCAMERAFOLLOWMONOPLUGIN_GETTICKLODTEMPLATENAME_OFFSET))(this);
-		}
-
-		::System::String* __iFixBaseProxy_GetTickLodTemplateName()
-		{
-			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_VIRTUALCAMERAFOLLOWMONOPLUGIN___IFIXBASEPROXY_GETTICKLODTEMPLATENAME_OFFSET))(this);
 		}
 	};
 }

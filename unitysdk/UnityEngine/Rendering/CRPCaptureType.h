@@ -3,7 +3,7 @@
 
 namespace UnityEngine::Rendering
 {
-	inline static constexpr unsigned int CRPCaptureType_TypeDefinitionIndex = 35196;
+	inline static constexpr unsigned int CRPCaptureType_TypeDefinitionIndex = 35978;
 
 	enum class CRPCaptureType : ::System::Int32
 	{

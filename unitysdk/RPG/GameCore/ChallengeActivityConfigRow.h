@@ -4,19 +4,19 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_CHALLENGEACTIVITYCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x195F6510)
-#define RPG_GAMECORE_CHALLENGEACTIVITYCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x195F6700)
+#define RPG_GAMECORE_CHALLENGEACTIVITYCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B70C670)
+#define RPG_GAMECORE_CHALLENGEACTIVITYCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1B70C860)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ChallengeActivityConfigRow_TypeDefinitionIndex = 12315;
+	inline static constexpr unsigned int ChallengeActivityConfigRow_TypeDefinitionIndex = 12449;
 
 	class ChallengeActivityConfigRow : public ::System::Object
 	{
 	public:
-		::Il2CppArray<::System::UInt32>* MarkScoreList; // 0x10
-		::Il2CppArray<::System::UInt32>* ActivityRewardList; // 0x18
-		::Il2CppArray<::System::UInt32>* ChallengeList; // 0x20
+		::Il2CppArray<::System::UInt32>* ChallengeList; // 0x10
+		::Il2CppArray<::System::UInt32>* MarkScoreList; // 0x18
+		::Il2CppArray<::System::UInt32>* ActivityRewardList; // 0x20
 		::System::UInt32 ActivityID; // 0x28
 
 		::System::Void _ctor()

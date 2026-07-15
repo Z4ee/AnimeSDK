@@ -5,13 +5,13 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_ST_MAIN_PLAYINTERACT_METHOD_4_A3474BC459BCCFDA_OFFSET UNITYSDK_OFFSET(0x19C055F0)
-#define RPG_GAMECORE_ST_MAIN_PLAYINTERACT_METHOD_4_D7868C88FE1C1BA8_OFFSET UNITYSDK_OFFSET(0x19C193E0)
-#define RPG_GAMECORE_ST_MAIN_PLAYINTERACT__CTOR_OFFSET UNITYSDK_OFFSET(0x19C055A0)
+#define RPG_GAMECORE_ST_MAIN_PLAYINTERACT_METHOD_4_A3474BC459BCCFDA_OFFSET UNITYSDK_OFFSET(0x1B786550)
+#define RPG_GAMECORE_ST_MAIN_PLAYINTERACT_METHOD_4_CC45DECAD2ACE8D7_OFFSET UNITYSDK_OFFSET(0x1B786510)
+#define RPG_GAMECORE_ST_MAIN_PLAYINTERACT__CTOR_OFFSET UNITYSDK_OFFSET(0x1B786540)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ST_Main_PlayInteract_TypeDefinitionIndex = 19015;
+	inline static constexpr unsigned int ST_Main_PlayInteract_TypeDefinitionIndex = 19366;
 
 	class ST_Main_PlayInteract : public ::RPG::GameCore::STTaskConfig
 	{
@@ -27,9 +27,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ST_MAIN_PLAYINTERACT__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_4_D7868C88FE1C1BA8(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ST_Main_PlayInteract*& a2)
+		static ::System::Void Method_4_CC45DECAD2ACE8D7(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ST_Main_PlayInteract*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ST_Main_PlayInteract*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ST_MAIN_PLAYINTERACT_METHOD_4_D7868C88FE1C1BA8_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ST_Main_PlayInteract*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ST_MAIN_PLAYINTERACT_METHOD_4_CC45DECAD2ACE8D7_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_4_A3474BC459BCCFDA(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ST_Main_PlayInteract* a2)

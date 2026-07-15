@@ -6,13 +6,13 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class DynamicFloat; }
 namespace SimpleJSON { class JSONNode; }
 
-#define RPG_GAMECORE_FETCHADVMONSTERDATA_METHOD_2_48130E94A178F99C_OFFSET UNITYSDK_OFFSET(0x197180C0)
-#define RPG_GAMECORE_FETCHADVMONSTERDATA_METHOD_2_880E0F7030892A29_OFFSET UNITYSDK_OFFSET(0x19717E60)
-#define RPG_GAMECORE_FETCHADVMONSTERDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x19718050)
+#define RPG_GAMECORE_FETCHADVMONSTERDATA_METHOD_2_880E0F7030892A29_OFFSET UNITYSDK_OFFSET(0x1BA77D80)
+#define RPG_GAMECORE_FETCHADVMONSTERDATA_METHOD_2_B4515B1F66F7981E_OFFSET UNITYSDK_OFFSET(0x1BA77FE0)
+#define RPG_GAMECORE_FETCHADVMONSTERDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1BA77F70)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FetchAdvMonsterData_TypeDefinitionIndex = 22552;
+	inline static constexpr unsigned int FetchAdvMonsterData_TypeDefinitionIndex = 23015;
 
 	class FetchAdvMonsterData : public ::RPG::GameCore::JsonConfig
 	{
@@ -30,9 +30,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::FetchAdvMonsterData*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FETCHADVMONSTERDATA_METHOD_2_880E0F7030892A29_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_2_48130E94A178F99C(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::FetchAdvMonsterData*& a2)
+		static ::System::Void Method_2_B4515B1F66F7981E(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::FetchAdvMonsterData*& a2)
 		{
-			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::FetchAdvMonsterData*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FETCHADVMONSTERDATA_METHOD_2_48130E94A178F99C_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::FetchAdvMonsterData*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FETCHADVMONSTERDATA_METHOD_2_B4515B1F66F7981E_OFFSET))(a1, a2);
 		}
 	};
 }

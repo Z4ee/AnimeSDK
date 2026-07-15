@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RtBattleSelectTargetStrategy_TypeDefinitionIndex = 23441;
+	inline static constexpr unsigned int RtBattleSelectTargetStrategy_TypeDefinitionIndex = 23930;
 
 	enum class RtBattleSelectTargetStrategy : ::System::Int32
 	{

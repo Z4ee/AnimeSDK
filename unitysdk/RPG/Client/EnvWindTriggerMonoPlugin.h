@@ -6,11 +6,11 @@
 
 namespace RPG::Client { class EnvWindTriggerBehavior; }
 
-#define RPG_CLIENT_ENVWINDTRIGGERMONOPLUGIN__CTOR_OFFSET UNITYSDK_OFFSET(0xB9190D0)
+#define RPG_CLIENT_ENVWINDTRIGGERMONOPLUGIN__CTOR_OFFSET UNITYSDK_OFFSET(0x18D9A790)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int EnvWindTriggerMonoPlugin_TypeDefinitionIndex = 66428;
+	inline static constexpr unsigned int EnvWindTriggerMonoPlugin_TypeDefinitionIndex = 67864;
 
 	class EnvWindTriggerMonoPlugin : public ::RPG::Client::TAMonoPlugin_1<::RPG::Client::EnvWindTriggerBehavior*>
 	{

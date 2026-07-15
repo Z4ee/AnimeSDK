@@ -6,13 +6,13 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class DynamicFloat; }
 namespace RPG::GameCore { class DynamicString; }
 
-#define RPG_GAMECORE_TRAVELSHIPPOWERSPRINT_METHOD_3_009CE9131FFEE4C7_OFFSET UNITYSDK_OFFSET(0x19E00FA0)
-#define RPG_GAMECORE_TRAVELSHIPPOWERSPRINT_METHOD_3_421E8F23A1484350_OFFSET UNITYSDK_OFFSET(0x19E00F20)
-#define RPG_GAMECORE_TRAVELSHIPPOWERSPRINT__CTOR_OFFSET UNITYSDK_OFFSET(0x19E00F70)
+#define RPG_GAMECORE_TRAVELSHIPPOWERSPRINT_METHOD_3_009CE9131FFEE4C7_OFFSET UNITYSDK_OFFSET(0x1B03EF60)
+#define RPG_GAMECORE_TRAVELSHIPPOWERSPRINT_METHOD_3_0FACFCF294F7C9A6_OFFSET UNITYSDK_OFFSET(0x1B03EF20)
+#define RPG_GAMECORE_TRAVELSHIPPOWERSPRINT__CTOR_OFFSET UNITYSDK_OFFSET(0x1B03EF50)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TravelShipPowerSprint_TypeDefinitionIndex = 19824;
+	inline static constexpr unsigned int TravelShipPowerSprint_TypeDefinitionIndex = 20184;
 
 	class TravelShipPowerSprint : public ::RPG::GameCore::TaskConfig
 	{
@@ -25,9 +25,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TRAVELSHIPPOWERSPRINT__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_421E8F23A1484350(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::TravelShipPowerSprint*& a2)
+		static ::System::Void Method_3_0FACFCF294F7C9A6(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::TravelShipPowerSprint*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::TravelShipPowerSprint*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TRAVELSHIPPOWERSPRINT_METHOD_3_421E8F23A1484350_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::TravelShipPowerSprint*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TRAVELSHIPPOWERSPRINT_METHOD_3_0FACFCF294F7C9A6_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_009CE9131FFEE4C7(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::TravelShipPowerSprint* a2)

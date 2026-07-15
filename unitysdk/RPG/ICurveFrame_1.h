@@ -3,7 +3,7 @@
 
 namespace RPG
 {
-	inline static constexpr unsigned int ICurveFrame_1_TypeDefinitionIndex = 6711;
+	inline static constexpr unsigned int ICurveFrame_1_TypeDefinitionIndex = 6716;
 
 	template <typename T>
 	class ICurveFrame_1

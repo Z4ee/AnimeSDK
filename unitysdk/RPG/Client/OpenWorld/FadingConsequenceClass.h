@@ -3,7 +3,7 @@
 
 namespace RPG::Client::OpenWorld
 {
-	inline static constexpr unsigned int FadingConsequenceClass_TypeDefinitionIndex = 69026;
+	inline static constexpr unsigned int FadingConsequenceClass_TypeDefinitionIndex = 70544;
 
 	enum class FadingConsequenceClass : ::System::Int32
 	{

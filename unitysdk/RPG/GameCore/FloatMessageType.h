@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FloatMessageType_TypeDefinitionIndex = 23273;
+	inline static constexpr unsigned int FloatMessageType_TypeDefinitionIndex = 23758;
 
 	enum class FloatMessageType : ::System::Int32
 	{

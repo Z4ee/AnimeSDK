@@ -5,13 +5,13 @@
 
 namespace UnityEngine { class Sprite; }
 
-#define SRF_UI_STYLE_COPYFROM_OFFSET UNITYSDK_OFFSET(0x1AD27580)
-#define SRF_UI_STYLE_COPY_OFFSET UNITYSDK_OFFSET(0x1AD274C0)
-#define SRF_UI_STYLE__CTOR_OFFSET UNITYSDK_OFFSET(0x1AD27560)
+#define SRF_UI_STYLE_COPYFROM_OFFSET UNITYSDK_OFFSET(0x1CEDE040)
+#define SRF_UI_STYLE_COPY_OFFSET UNITYSDK_OFFSET(0x1CEDDF80)
+#define SRF_UI_STYLE__CTOR_OFFSET UNITYSDK_OFFSET(0x1CEDE020)
 
 namespace SRF::UI
 {
-	inline static constexpr unsigned int Style_TypeDefinitionIndex = 33592;
+	inline static constexpr unsigned int Style_TypeDefinitionIndex = 33963;
 
 	class Style : public ::System::Object
 	{

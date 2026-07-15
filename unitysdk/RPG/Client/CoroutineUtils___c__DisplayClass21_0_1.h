@@ -8,7 +8,7 @@ namespace System { template <typename T> class Action_1; }
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int CoroutineUtils___c__DisplayClass21_0_1_TypeDefinitionIndex = 33425;
+	inline static constexpr unsigned int CoroutineUtils___c__DisplayClass21_0_1_TypeDefinitionIndex = 33795;
 
 	template <typename TReturn>
 	class CoroutineUtils___c__DisplayClass21_0_1 : public ::System::Object

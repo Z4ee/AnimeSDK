@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LevelNPCUseAnimationType_TypeDefinitionIndex = 16332;
+	inline static constexpr unsigned int LevelNPCUseAnimationType_TypeDefinitionIndex = 16494;
 
 	enum class LevelNPCUseAnimationType : ::System::Int32
 	{

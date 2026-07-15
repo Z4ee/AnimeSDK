@@ -4,22 +4,22 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_GRIDFIGHTSEASONEXPSCOREROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x19808A00)
-#define RPG_GAMECORE_GRIDFIGHTSEASONEXPSCOREROW__CTOR_OFFSET UNITYSDK_OFFSET(0x19808C20)
+#define RPG_GAMECORE_GRIDFIGHTSEASONEXPSCOREROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D075B40)
+#define RPG_GAMECORE_GRIDFIGHTSEASONEXPSCOREROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D075D60)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int GridFightSeasonExpScoreRow_TypeDefinitionIndex = 12931;
+	inline static constexpr unsigned int GridFightSeasonExpScoreRow_TypeDefinitionIndex = 13079;
 
 	class GridFightSeasonExpScoreRow : public ::System::Object
 	{
 	public:
-		::System::UInt32 SectionID; // 0x10
-		::System::UInt32 DivisionID; // 0x14
-		::System::UInt32 Exp; // 0x18
+		::System::UInt32 ChapterID; // 0x10
+		::System::UInt32 SectionID; // 0x14
+		::System::UInt32 WeeklyScore; // 0x18
 		::System::UInt32 ScoreRuleID; // 0x1C
-		::System::UInt32 WeeklyScore; // 0x20
-		::System::UInt32 ChapterID; // 0x24
+		::System::UInt32 DivisionID; // 0x20
+		::System::UInt32 Exp; // 0x24
 
 		::System::Void _ctor()
 		{

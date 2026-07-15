@@ -5,12 +5,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class EntityLodLoadingArtData; }
 
-#define RPG_GAMECORE_ENTITYRUNTIMEREPLACEARTPREFAB_METHOD_2_1024B385EFC812FA_OFFSET UNITYSDK_OFFSET(0x196EDAD0)
-#define RPG_GAMECORE_ENTITYRUNTIMEREPLACEARTPREFAB__CTOR_OFFSET UNITYSDK_OFFSET(0x196EDB60)
+#define RPG_GAMECORE_ENTITYRUNTIMEREPLACEARTPREFAB_METHOD_2_1024B385EFC812FA_OFFSET UNITYSDK_OFFSET(0x1C056800)
+#define RPG_GAMECORE_ENTITYRUNTIMEREPLACEARTPREFAB__CTOR_OFFSET UNITYSDK_OFFSET(0x1C056890)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int EntityRuntimeReplaceArtPrefab_TypeDefinitionIndex = 18118;
+	inline static constexpr unsigned int EntityRuntimeReplaceArtPrefab_TypeDefinitionIndex = 18352;
 
 	class EntityRuntimeReplaceArtPrefab : public ::RPG::GameCore::JsonConfig
 	{

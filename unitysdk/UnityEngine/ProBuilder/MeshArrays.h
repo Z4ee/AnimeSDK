@@ -3,7 +3,7 @@
 
 namespace UnityEngine::ProBuilder
 {
-	inline static constexpr unsigned int MeshArrays_TypeDefinitionIndex = 40782;
+	inline static constexpr unsigned int MeshArrays_TypeDefinitionIndex = 41597;
 
 	enum class MeshArrays : ::System::Int32
 	{

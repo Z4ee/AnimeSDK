@@ -9,7 +9,7 @@ namespace UnityEngine::ProBuilder::KdTree { template <typename T1, typename T2> 
 
 namespace UnityEngine::ProBuilder::KdTree
 {
-	inline static constexpr unsigned int KdTree_2__GetEnumerator_d__33_TypeDefinitionIndex = 35786;
+	inline static constexpr unsigned int KdTree_2__GetEnumerator_d__33_TypeDefinitionIndex = 36568;
 
 	template <typename TKey, typename TValue>
 	class KdTree_2__GetEnumerator_d__33 : public ::System::Object

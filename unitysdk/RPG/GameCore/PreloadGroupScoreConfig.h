@@ -7,12 +7,12 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class PreloadItemScoreConfig; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_PRELOADGROUPSCORECONFIG_METHOD_2_6250FF2B6678082F_OFFSET UNITYSDK_OFFSET(0x19A81AF0)
-#define RPG_GAMECORE_PRELOADGROUPSCORECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x19A81C20)
+#define RPG_GAMECORE_PRELOADGROUPSCORECONFIG_METHOD_2_6250FF2B6678082F_OFFSET UNITYSDK_OFFSET(0x1BA15820)
+#define RPG_GAMECORE_PRELOADGROUPSCORECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1BA15950)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PreloadGroupScoreConfig_TypeDefinitionIndex = 15551;
+	inline static constexpr unsigned int PreloadGroupScoreConfig_TypeDefinitionIndex = 15722;
 
 	class PreloadGroupScoreConfig : public ::RPG::GameCore::JsonConfig
 	{

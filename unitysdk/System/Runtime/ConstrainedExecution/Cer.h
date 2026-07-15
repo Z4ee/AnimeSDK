@@ -3,7 +3,7 @@
 
 namespace System::Runtime::ConstrainedExecution
 {
-	inline static constexpr unsigned int Cer_TypeDefinitionIndex = 1334;
+	inline static constexpr unsigned int Cer_TypeDefinitionIndex = 1336;
 
 	enum class Cer : ::System::Int32
 	{

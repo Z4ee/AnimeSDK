@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class ActiveFarmElement; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_9D133FC98A5A5AB4_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x14359B30)
-#define CLASS_3_9D133FC98A5A5AB4__CTOR_OFFSET UNITYSDK_OFFSET(0x14359B00)
+#define CLASS_3_9D133FC98A5A5AB4_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x181A7460)
+#define CLASS_3_9D133FC98A5A5AB4__CTOR_OFFSET UNITYSDK_OFFSET(0x181A7430)
 
-inline static constexpr unsigned int Class_3_9D133FC98A5A5AB4_TypeDefinitionIndex = 52191;
+inline static constexpr unsigned int Class_3_9D133FC98A5A5AB4_TypeDefinitionIndex = 53343;
 
 class Class_3_9D133FC98A5A5AB4 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::ActiveFarmElement*>
 {

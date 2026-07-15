@@ -3,21 +3,21 @@
 #include "unitysdk/RPG/GameCore/TargetEvaluatorImpl_1.h"
 
 namespace RPG::GameCore { class GameEntity; }
-namespace RPG::GameCore { class TargetFetchTaskActionTarget; }
+namespace RPG::GameCore { class TargetFetchModifierOwner; }
 namespace RPG::GameCore { class TaskContext; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_3_DAECD3DACE9BC013_3_EVALUATE_OFFSET UNITYSDK_OFFSET(0xA8F0610)
-#define CLASS_3_DAECD3DACE9BC013_3__CTOR_OFFSET UNITYSDK_OFFSET(0xA8F05C0)
+#define CLASS_3_DAECD3DACE9BC013_3_EVALUATE_OFFSET UNITYSDK_OFFSET(0x18192CD0)
+#define CLASS_3_DAECD3DACE9BC013_3__CTOR_OFFSET UNITYSDK_OFFSET(0x18192C80)
 
-inline static constexpr unsigned int Class_3_DAECD3DACE9BC013_3_TypeDefinitionIndex = 55352;
+inline static constexpr unsigned int Class_3_DAECD3DACE9BC013_3_TypeDefinitionIndex = 56571;
 
-class Class_3_DAECD3DACE9BC013_3 : public ::RPG::GameCore::TargetEvaluatorImpl_1<::RPG::GameCore::TargetFetchTaskActionTarget*>
+class Class_3_DAECD3DACE9BC013_3 : public ::RPG::GameCore::TargetEvaluatorImpl_1<::RPG::GameCore::TargetFetchModifierOwner*>
 {
 public:
-	::System::Void _ctor(::RPG::GameCore::TargetFetchTaskActionTarget* a1)
+	::System::Void _ctor(::RPG::GameCore::TargetFetchModifierOwner* a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TargetFetchTaskActionTarget*))((::PBYTE)hIl2Cpp + CLASS_3_DAECD3DACE9BC013_3__CTOR_OFFSET))(this, a1);
+		return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TargetFetchModifierOwner*))((::PBYTE)hIl2Cpp + CLASS_3_DAECD3DACE9BC013_3__CTOR_OFFSET))(this, a1);
 	}
 
 	::System::Void Evaluate(::RPG::GameCore::TaskContext* a1, ::System::Collections::Generic::List_1<::RPG::GameCore::GameEntity*>* a2)

@@ -6,14 +6,14 @@ namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 
-#define XLUA_OBJECTCHECK_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x12EA33D0)
-#define XLUA_OBJECTCHECK_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x12EA3440)
-#define XLUA_OBJECTCHECK_INVOKE_OFFSET UNITYSDK_OFFSET(0x12EA33C0)
-#define XLUA_OBJECTCHECK__CTOR_OFFSET UNITYSDK_OFFSET(0x12EA3350)
+#define XLUA_OBJECTCHECK_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x10BF8E20)
+#define XLUA_OBJECTCHECK_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x10BF8E90)
+#define XLUA_OBJECTCHECK_INVOKE_OFFSET UNITYSDK_OFFSET(0x10BF8E10)
+#define XLUA_OBJECTCHECK__CTOR_OFFSET UNITYSDK_OFFSET(0x10BF8DA0)
 
 namespace XLua
 {
-	inline static constexpr unsigned int ObjectCheck_TypeDefinitionIndex = 47012;
+	inline static constexpr unsigned int ObjectCheck_TypeDefinitionIndex = 47978;
 
 	class ObjectCheck : public ::System::MulticastDelegate
 	{

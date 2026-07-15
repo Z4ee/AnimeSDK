@@ -1,11 +1,12 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/RPG/GameCore/TeamType.h"
 
-class Class_1_CA217ABF4E3B4F3F;
-namespace RPG::GameCore { class GameEntity; }
+namespace RPG::Client { class CameraDataAndFlags; }
+namespace RPG::Client { class CameraModuleConfigCollection; }
+namespace RPG::Client { class PipelineCameraEngine; }
+namespace RPG::Client { class PipelineCameraGlobalConfig; }
 
-inline static constexpr unsigned int Class_0_16E4307DCC419505_996_TypeDefinitionIndex = 66888;
+inline static constexpr unsigned int Class_0_16E4307DCC419505_996_TypeDefinitionIndex = 66443;
 
 class Class_0_16E4307DCC419505_996
 {

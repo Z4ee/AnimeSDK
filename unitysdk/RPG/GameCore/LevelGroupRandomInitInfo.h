@@ -5,12 +5,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class LevelGroupRandomInitControl; }
 
-#define RPG_GAMECORE_LEVELGROUPRANDOMINITINFO_METHOD_2_06612C58E56A5225_OFFSET UNITYSDK_OFFSET(0x19877E40)
-#define RPG_GAMECORE_LEVELGROUPRANDOMINITINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x19878930)
+#define RPG_GAMECORE_LEVELGROUPRANDOMINITINFO_METHOD_2_06612C58E56A5225_OFFSET UNITYSDK_OFFSET(0x1B070BB0)
+#define RPG_GAMECORE_LEVELGROUPRANDOMINITINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x1B070C70)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LevelGroupRandomInitInfo_TypeDefinitionIndex = 16471;
+	inline static constexpr unsigned int LevelGroupRandomInitInfo_TypeDefinitionIndex = 16633;
 
 	class LevelGroupRandomInitInfo : public ::RPG::GameCore::JsonConfig
 	{

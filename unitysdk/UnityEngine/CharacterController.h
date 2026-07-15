@@ -4,12 +4,12 @@
 #include "unitysdk/UnityEngine/CollisionFlags.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-#define UNITYENGINE_CHARACTERCONTROLLER_MOVE_INJECTED_OFFSET UNITYSDK_OFFSET(0x1B326CA0)
-#define UNITYENGINE_CHARACTERCONTROLLER_MOVE_OFFSET UNITYSDK_OFFSET(0x1B326C90)
+#define UNITYENGINE_CHARACTERCONTROLLER_MOVE_INJECTED_OFFSET UNITYSDK_OFFSET(0x1CB42800)
+#define UNITYENGINE_CHARACTERCONTROLLER_MOVE_OFFSET UNITYSDK_OFFSET(0x1CB427F0)
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int CharacterController_TypeDefinitionIndex = 5303;
+	inline static constexpr unsigned int CharacterController_TypeDefinitionIndex = 5308;
 
 	class CharacterController : public ::UnityEngine::Collider
 	{

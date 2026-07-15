@@ -4,13 +4,13 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_PARAMETERBACKUP1CONFIG_METHOD_4_B53CAD97E8970DAA_OFFSET UNITYSDK_OFFSET(0x199E6130)
-#define RPG_GAMECORE_PARAMETERBACKUP1CONFIG_METHOD_4_DB5B476663425C18_OFFSET UNITYSDK_OFFSET(0x199E6260)
-#define RPG_GAMECORE_PARAMETERBACKUP1CONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x199E61E0)
+#define RPG_GAMECORE_PARAMETERBACKUP1CONFIG_METHOD_4_5EF6ED989B030EDC_OFFSET UNITYSDK_OFFSET(0x1BB0E490)
+#define RPG_GAMECORE_PARAMETERBACKUP1CONFIG_METHOD_4_DB5B476663425C18_OFFSET UNITYSDK_OFFSET(0x1BB0E4E0)
+#define RPG_GAMECORE_PARAMETERBACKUP1CONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1BB0E4D0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ParameterBackup1Config_TypeDefinitionIndex = 16199;
+	inline static constexpr unsigned int ParameterBackup1Config_TypeDefinitionIndex = 16383;
 
 	class ParameterBackup1Config : public ::RPG::GameCore::MiParameterConfigBase
 	{
@@ -20,9 +20,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PARAMETERBACKUP1CONFIG__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_4_B53CAD97E8970DAA(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ParameterBackup1Config*& a2)
+		static ::System::Void Method_4_5EF6ED989B030EDC(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ParameterBackup1Config*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ParameterBackup1Config*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PARAMETERBACKUP1CONFIG_METHOD_4_B53CAD97E8970DAA_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ParameterBackup1Config*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PARAMETERBACKUP1CONFIG_METHOD_4_5EF6ED989B030EDC_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_4_DB5B476663425C18(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ParameterBackup1Config* a2)

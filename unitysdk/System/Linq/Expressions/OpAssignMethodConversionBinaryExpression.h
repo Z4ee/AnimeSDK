@@ -8,12 +8,12 @@ namespace System::Linq::Expressions { class Expression; }
 namespace System::Linq::Expressions { class LambdaExpression; }
 namespace System::Reflection { class MethodInfo; }
 
-#define SYSTEM_LINQ_EXPRESSIONS_OPASSIGNMETHODCONVERSIONBINARYEXPRESSION_GETCONVERSION_OFFSET UNITYSDK_OFFSET(0x1ADB6EF0)
-#define SYSTEM_LINQ_EXPRESSIONS_OPASSIGNMETHODCONVERSIONBINARYEXPRESSION__CTOR_OFFSET UNITYSDK_OFFSET(0x1ADB6E60)
+#define SYSTEM_LINQ_EXPRESSIONS_OPASSIGNMETHODCONVERSIONBINARYEXPRESSION_GETCONVERSION_OFFSET UNITYSDK_OFFSET(0x1C1CA640)
+#define SYSTEM_LINQ_EXPRESSIONS_OPASSIGNMETHODCONVERSIONBINARYEXPRESSION__CTOR_OFFSET UNITYSDK_OFFSET(0x1C1CA5B0)
 
 namespace System::Linq::Expressions
 {
-	inline static constexpr unsigned int OpAssignMethodConversionBinaryExpression_TypeDefinitionIndex = 3175;
+	inline static constexpr unsigned int OpAssignMethodConversionBinaryExpression_TypeDefinitionIndex = 3179;
 
 	class OpAssignMethodConversionBinaryExpression : public ::System::Linq::Expressions::MethodBinaryExpression
 	{

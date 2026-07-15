@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int FMChannelSourceRequestPriority_TypeDefinitionIndex = 56924;
+	inline static constexpr unsigned int FMChannelSourceRequestPriority_TypeDefinitionIndex = 58171;
 
 	enum class FMChannelSourceRequestPriority : ::System::Int32
 	{

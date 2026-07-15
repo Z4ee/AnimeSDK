@@ -5,12 +5,12 @@
 namespace RPG::GameCore { class RemoveEffectOnCharacter; }
 namespace System { class String; }
 
-#define RPGTOOLS_TIMELINE_REMOVEEFFECTONCHARACTERDATA_METHOD_1_57D6EA0329F3B309_OFFSET UNITYSDK_OFFSET(0xD04ED70)
-#define RPGTOOLS_TIMELINE_REMOVEEFFECTONCHARACTERDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xD04EE50)
+#define RPGTOOLS_TIMELINE_REMOVEEFFECTONCHARACTERDATA_METHOD_1_4BAF22BA105C0015_OFFSET UNITYSDK_OFFSET(0x199AF3F0)
+#define RPGTOOLS_TIMELINE_REMOVEEFFECTONCHARACTERDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x199AF4B0)
 
 namespace RPGTools::Timeline
 {
-	inline static constexpr unsigned int RemoveEffectOnCharacterData_TypeDefinitionIndex = 45612;
+	inline static constexpr unsigned int RemoveEffectOnCharacterData_TypeDefinitionIndex = 46546;
 
 	class RemoveEffectOnCharacterData : public ::System::Object
 	{
@@ -23,9 +23,9 @@ namespace RPGTools::Timeline
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_REMOVEEFFECTONCHARACTERDATA__CTOR_OFFSET))(this);
 		}
 
-		::RPG::GameCore::RemoveEffectOnCharacter* Method_1_57D6EA0329F3B309()
+		::RPG::GameCore::RemoveEffectOnCharacter* Method_1_4BAF22BA105C0015()
 		{
-			return ((::RPG::GameCore::RemoveEffectOnCharacter*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_REMOVEEFFECTONCHARACTERDATA_METHOD_1_57D6EA0329F3B309_OFFSET))(this);
+			return ((::RPG::GameCore::RemoveEffectOnCharacter*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_REMOVEEFFECTONCHARACTERDATA_METHOD_1_4BAF22BA105C0015_OFFSET))(this);
 		}
 	};
 }

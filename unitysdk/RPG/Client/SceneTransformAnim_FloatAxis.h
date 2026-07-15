@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int SceneTransformAnim_FloatAxis_TypeDefinitionIndex = 66324;
+	inline static constexpr unsigned int SceneTransformAnim_FloatAxis_TypeDefinitionIndex = 67749;
 
 	enum class SceneTransformAnim_FloatAxis : ::System::Int32
 	{

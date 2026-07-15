@@ -3,21 +3,21 @@
 #include "unitysdk/RPG/Client/LittleGame/Match3/ChessBoardState.h"
 #include "unitysdk/System/Object.h"
 
-class Class_1_07A210D994F284D8_1;
+class Class_1_07A210D994F284D8_2;
 
-#define CLASS_1_1F84CFE380A91B33__CTOR_OFFSET UNITYSDK_OFFSET(0x18E504D0)
+#define CLASS_1_1F84CFE380A91B33__CTOR_OFFSET UNITYSDK_OFFSET(0x1B254EC0)
 
-inline static constexpr unsigned int Class_1_1F84CFE380A91B33_TypeDefinitionIndex = 39257;
+inline static constexpr unsigned int Class_1_1F84CFE380A91B33_TypeDefinitionIndex = 40066;
 
 class Class_1_1F84CFE380A91B33 : public ::System::Object
 {
 public:
-	::Il2CppArray<::Il2CppArray<::Class_1_07A210D994F284D8_1*>*>* Field_1_0; // 0x10
-	::System::UInt32 Field_1_1; // 0x18
-	::RPG::Client::LittleGame::Match3::ChessBoardState Field_1_2; // 0x1C
+	::Il2CppArray<::Il2CppArray<::Class_1_07A210D994F284D8_2*>*>* Field_1_0; // 0x10
+	::RPG::Client::LittleGame::Match3::ChessBoardState Field_1_1; // 0x18
+	::System::UInt32 Field_1_2; // 0x1C
 	::System::UInt32 Field_1_3; // 0x20
-	::System::UInt32 Field_1_4; // 0x24
-	::System::Boolean Field_1_5; // 0x28
+	::System::Boolean Field_1_4; // 0x24
+	::System::UInt32 Field_1_5; // 0x28
 	::System::UInt32 Field_1_6; // 0x2C
 	::System::UInt32 Field_1_7; // 0x30
 

@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RogueDLCBlockType_TypeDefinitionIndex = 10209;
+	inline static constexpr unsigned int RogueDLCBlockType_TypeDefinitionIndex = 10230;
 
 	enum class RogueDLCBlockType : ::System::Int32
 	{

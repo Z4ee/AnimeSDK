@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RogueNousSurfaceTag_TypeDefinitionIndex = 14165;
+	inline static constexpr unsigned int RogueNousSurfaceTag_TypeDefinitionIndex = 14313;
 
 	enum class RogueNousSurfaceTag : ::System::Int32
 	{

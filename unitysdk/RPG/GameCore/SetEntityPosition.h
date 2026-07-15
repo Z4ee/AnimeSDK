@@ -8,13 +8,13 @@ namespace RPG::GameCore { class EntityPosAdaptionConfig; }
 namespace RPG::GameCore { class TargetEvaluator; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_SETENTITYPOSITION_METHOD_3_3351536FCE1C3E11_OFFSET UNITYSDK_OFFSET(0x19C4C090)
-#define RPG_GAMECORE_SETENTITYPOSITION_METHOD_3_3D44CB3BB23C6241_OFFSET UNITYSDK_OFFSET(0x19C4C170)
-#define RPG_GAMECORE_SETENTITYPOSITION__CTOR_OFFSET UNITYSDK_OFFSET(0x19C4C110)
+#define RPG_GAMECORE_SETENTITYPOSITION_METHOD_3_3D44CB3BB23C6241_OFFSET UNITYSDK_OFFSET(0x1C5F78F0)
+#define RPG_GAMECORE_SETENTITYPOSITION_METHOD_3_B11FC59FC2746F71_OFFSET UNITYSDK_OFFSET(0x1C5F7850)
+#define RPG_GAMECORE_SETENTITYPOSITION__CTOR_OFFSET UNITYSDK_OFFSET(0x1C5F78B0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SetEntityPosition_TypeDefinitionIndex = 22451;
+	inline static constexpr unsigned int SetEntityPosition_TypeDefinitionIndex = 22901;
 
 	class SetEntityPosition : public ::RPG::GameCore::TaskConfig
 	{
@@ -26,7 +26,8 @@ namespace RPG::GameCore
 		::RPG::GameCore::DynamicFloat* OffsetY; // 0x38
 		::RPG::GameCore::DynamicFloat* OffsetZ; // 0x40
 		::RPG::GameCore::EntityPosAdaptionConfig* PosAdaption; // 0x48
-		::System::Boolean SetRotation; // 0x50
+		::System::Boolean UpdateRootOffset; // 0x50
+		::System::Boolean SetRotation; // 0x51
 		::RPG::GameCore::DynamicFloat* YawAngle; // 0x58
 
 		::System::Void _ctor()
@@ -34,9 +35,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETENTITYPOSITION__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_3351536FCE1C3E11(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SetEntityPosition*& a2)
+		static ::System::Void Method_3_B11FC59FC2746F71(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SetEntityPosition*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SetEntityPosition*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETENTITYPOSITION_METHOD_3_3351536FCE1C3E11_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SetEntityPosition*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETENTITYPOSITION_METHOD_3_B11FC59FC2746F71_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_3D44CB3BB23C6241(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SetEntityPosition* a2)

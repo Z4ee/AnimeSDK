@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int CameraLerpBackType_TypeDefinitionIndex = 65103;
+	inline static constexpr unsigned int CameraLerpBackType_TypeDefinitionIndex = 66508;
 
 	enum class CameraLerpBackType : ::System::Int32
 	{

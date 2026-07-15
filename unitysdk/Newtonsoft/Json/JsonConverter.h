@@ -7,13 +7,13 @@ namespace Newtonsoft::Json { class JsonSerializer; }
 namespace Newtonsoft::Json { class JsonWriter; }
 namespace System { class Type; }
 
-#define NEWTONSOFT_JSON_JSONCONVERTER_GET_CANREAD_OFFSET UNITYSDK_OFFSET(0x1881AA90)
-#define NEWTONSOFT_JSON_JSONCONVERTER_GET_CANWRITE_OFFSET UNITYSDK_OFFSET(0x1881AAA0)
-#define NEWTONSOFT_JSON_JSONCONVERTER__CTOR_OFFSET UNITYSDK_OFFSET(0x18807940)
+#define NEWTONSOFT_JSON_JSONCONVERTER_GET_CANREAD_OFFSET UNITYSDK_OFFSET(0x165EACE0)
+#define NEWTONSOFT_JSON_JSONCONVERTER_GET_CANWRITE_OFFSET UNITYSDK_OFFSET(0x165EACF0)
+#define NEWTONSOFT_JSON_JSONCONVERTER__CTOR_OFFSET UNITYSDK_OFFSET(0x165CDBB0)
 
 namespace Newtonsoft::Json
 {
-	inline static constexpr unsigned int JsonConverter_TypeDefinitionIndex = 9265;
+	inline static constexpr unsigned int JsonConverter_TypeDefinitionIndex = 9277;
 
 	class JsonConverter : public ::System::Object
 	{

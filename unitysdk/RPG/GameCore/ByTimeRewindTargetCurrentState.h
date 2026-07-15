@@ -7,15 +7,15 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class TargetEvaluator; }
 namespace SimpleJSON { class JSONNode; }
 
-#define RPG_GAMECORE_BYTIMEREWINDTARGETCURRENTSTATE_METHOD_4_259673E560D87CE1_OFFSET UNITYSDK_OFFSET(0x195DE8D0)
-#define RPG_GAMECORE_BYTIMEREWINDTARGETCURRENTSTATE_METHOD_4_36EBB91C5C4D78BB_OFFSET UNITYSDK_OFFSET(0x195DEB50)
-#define RPG_GAMECORE_BYTIMEREWINDTARGETCURRENTSTATE_METHOD_4_6838E4E338A01EA4_OFFSET UNITYSDK_OFFSET(0x195DEAD0)
-#define RPG_GAMECORE_BYTIMEREWINDTARGETCURRENTSTATE_METHOD_4_B72B7CE29FB8A4AD_OFFSET UNITYSDK_OFFSET(0x195DE800)
-#define RPG_GAMECORE_BYTIMEREWINDTARGETCURRENTSTATE__CTOR_OFFSET UNITYSDK_OFFSET(0x195DE880)
+#define RPG_GAMECORE_BYTIMEREWINDTARGETCURRENTSTATE_METHOD_4_259673E560D87CE1_OFFSET UNITYSDK_OFFSET(0x1B2C3700)
+#define RPG_GAMECORE_BYTIMEREWINDTARGETCURRENTSTATE_METHOD_4_77B9EB333AE85F5A_OFFSET UNITYSDK_OFFSET(0x1B2C3930)
+#define RPG_GAMECORE_BYTIMEREWINDTARGETCURRENTSTATE_METHOD_4_8B83FA00468ADE50_OFFSET UNITYSDK_OFFSET(0x1B2C36C0)
+#define RPG_GAMECORE_BYTIMEREWINDTARGETCURRENTSTATE_METHOD_4_F750F2EFA9842DCC_OFFSET UNITYSDK_OFFSET(0x1B2C3900)
+#define RPG_GAMECORE_BYTIMEREWINDTARGETCURRENTSTATE__CTOR_OFFSET UNITYSDK_OFFSET(0x1B2C36F0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ByTimeRewindTargetCurrentState_TypeDefinitionIndex = 19528;
+	inline static constexpr unsigned int ByTimeRewindTargetCurrentState_TypeDefinitionIndex = 19886;
 
 	class ByTimeRewindTargetCurrentState : public ::RPG::GameCore::PredicateConfig
 	{
@@ -28,9 +28,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYTIMEREWINDTARGETCURRENTSTATE__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_4_B72B7CE29FB8A4AD(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ByTimeRewindTargetCurrentState*& a2)
+		static ::System::Void Method_4_8B83FA00468ADE50(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ByTimeRewindTargetCurrentState*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ByTimeRewindTargetCurrentState*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYTIMEREWINDTARGETCURRENTSTATE_METHOD_4_B72B7CE29FB8A4AD_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ByTimeRewindTargetCurrentState*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYTIMEREWINDTARGETCURRENTSTATE_METHOD_4_8B83FA00468ADE50_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_4_259673E560D87CE1(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ByTimeRewindTargetCurrentState* a2)
@@ -38,14 +38,14 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ByTimeRewindTargetCurrentState*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYTIMEREWINDTARGETCURRENTSTATE_METHOD_4_259673E560D87CE1_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_4_6838E4E338A01EA4(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::ByTimeRewindTargetCurrentState*& a2)
+		static ::System::Void Method_4_F750F2EFA9842DCC(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::ByTimeRewindTargetCurrentState*& a2)
 		{
-			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::ByTimeRewindTargetCurrentState*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYTIMEREWINDTARGETCURRENTSTATE_METHOD_4_6838E4E338A01EA4_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::ByTimeRewindTargetCurrentState*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYTIMEREWINDTARGETCURRENTSTATE_METHOD_4_F750F2EFA9842DCC_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_4_36EBB91C5C4D78BB(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::ByTimeRewindTargetCurrentState* a2)
+		static ::System::Void Method_4_77B9EB333AE85F5A(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::ByTimeRewindTargetCurrentState* a2)
 		{
-			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::ByTimeRewindTargetCurrentState*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYTIMEREWINDTARGETCURRENTSTATE_METHOD_4_36EBB91C5C4D78BB_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::ByTimeRewindTargetCurrentState*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYTIMEREWINDTARGETCURRENTSTATE_METHOD_4_77B9EB333AE85F5A_OFFSET))(a1, a2);
 		}
 	};
 }

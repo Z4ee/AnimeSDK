@@ -3,7 +3,7 @@
 
 namespace UnityEngine::Bindings
 {
-	inline static constexpr unsigned int TargetType_TypeDefinitionIndex = 3712;
+	inline static constexpr unsigned int TargetType_TypeDefinitionIndex = 3716;
 
 	enum class TargetType : ::System::Int32
 	{

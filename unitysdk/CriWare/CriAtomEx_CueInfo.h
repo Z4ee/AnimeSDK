@@ -4,15 +4,16 @@
 #include "unitysdk/CriWare/CriAtomEx_CueType.h"
 #include "unitysdk/CriWare/CriAtomEx_GameVariableInfo.h"
 #include "unitysdk/CriWare/CriAtomEx_PanType.h"
+#include "unitysdk/CriWare/CriAtomEx_SilentMode.h"
 #include "unitysdk/System/ValueType.h"
 
 namespace System { class String; }
 
-#define CRIWARE_CRIATOMEX_CUEINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x2BD22E0)
+#define CRIWARE_CRIATOMEX_CUEINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x3A15990)
 
 namespace CriWare
 {
-	inline static constexpr unsigned int CriAtomEx_CueInfo_TypeDefinitionIndex = 37019;
+	inline static constexpr unsigned int CriAtomEx_CueInfo_TypeDefinitionIndex = 37818;
 
 	struct alignas(8) CriAtomEx_CueInfo
 	{
@@ -33,6 +34,10 @@ namespace CriWare
 		::CriWare::CriAtomEx_PanType panType; // 0x44
 		::CriWare::CriAtomEx_CuePos3dInfo pos3dInfo; // 0x48
 		::CriWare::CriAtomEx_GameVariableInfo gameVariableInfo; // 0x90
+		::System::Single volume; // 0xA0
+		::CriWare::CriAtomEx_SilentMode silentMode; // 0xA4
+		::System::Single pitch; // 0xA8
+		::System::UInt16 selectorIndex; // 0xAC
 
 		::System::Void _ctor(::Il2CppArray<::System::Byte>* a1, ::System::Int32 a2)
 		{

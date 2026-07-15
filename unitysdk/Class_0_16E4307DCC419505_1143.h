@@ -1,11 +1,11 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/RPG/Client/ActivityIdleLive/IdleLiveDecimal.h"
+#include "unitysdk/RPG/GameCore/AvatarPropertyType.h"
 
-class Class_1_FD33BD99AA9127F3;
-namespace RPG::Client::Promises { class IPromise; }
+class Class_1_CDFB27773AA3AA22;
+namespace RPG::Client { class RelicItemData; }
 
-inline static constexpr unsigned int Class_0_16E4307DCC419505_1143_TypeDefinitionIndex = 70097;
+inline static constexpr unsigned int Class_0_16E4307DCC419505_1143_TypeDefinitionIndex = 71026;
 
 class Class_0_16E4307DCC419505_1143
 {

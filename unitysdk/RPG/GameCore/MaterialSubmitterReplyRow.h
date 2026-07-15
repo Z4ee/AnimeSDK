@@ -6,21 +6,21 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_MATERIALSUBMITTERREPLYROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x198F8B20)
-#define RPG_GAMECORE_MATERIALSUBMITTERREPLYROW__CTOR_OFFSET UNITYSDK_OFFSET(0x198F9280)
+#define RPG_GAMECORE_MATERIALSUBMITTERREPLYROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1AF429C0)
+#define RPG_GAMECORE_MATERIALSUBMITTERREPLYROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1AF43120)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MaterialSubmitterReplyRow_TypeDefinitionIndex = 11451;
+	inline static constexpr unsigned int MaterialSubmitterReplyRow_TypeDefinitionIndex = 11551;
 
 	class MaterialSubmitterReplyRow : public ::System::Object
 	{
 	public:
 		::System::String* HeadIconPath; // 0x10
-		::RPG::Client::TextID PersonName; // 0x18
-		::System::UInt32 ID; // 0x28
-		::System::UInt32 Tag; // 0x2C
-		::RPG::Client::TextID Content; // 0x30
+		::RPG::Client::TextID Content; // 0x18
+		::RPG::Client::TextID PersonName; // 0x28
+		::System::UInt32 ID; // 0x38
+		::System::UInt32 Tag; // 0x3C
 
 		::System::Void _ctor()
 		{

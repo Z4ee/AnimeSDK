@@ -3,12 +3,11 @@
 #include "unitysdk/DemodulatorOutPutType.h"
 #include "unitysdk/System/Object.h"
 
-class StageHarmonyLightModLinkSlot;
 namespace System { class String; }
 
-#define STAGEHARMONYDEMODULATORUSRINFO__CTOR_OFFSET UNITYSDK_OFFSET(0xD096690)
+#define STAGEHARMONYDEMODULATORUSRINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x14EC7FA0)
 
-inline static constexpr unsigned int StageHarmonyDemodulatorUsrInfo_TypeDefinitionIndex = 44812;
+inline static constexpr unsigned int StageHarmonyDemodulatorUsrInfo_TypeDefinitionIndex = 45729;
 
 class StageHarmonyDemodulatorUsrInfo : public ::System::Object
 {
@@ -16,7 +15,6 @@ public:
 	::System::Int32 usrInfo; // 0x10
 	::System::String* hostType; // 0x18
 	::DemodulatorOutPutType valType; // 0x20
-	::StageHarmonyLightModLinkSlot* inst; // 0x28
 
 	::System::Void _ctor()
 	{

@@ -9,18 +9,18 @@ namespace System { template <typename T1, typename T2> class Action_2; }
 namespace System { template <typename T> class Action_1; }
 namespace System::Reflection { class PropertyInfo; }
 
-#define MIHOYO_SDK_PROTOBUF_REFLECTION_SINGLEFIELDACCESSOR_SETVALUE_OFFSET UNITYSDK_OFFSET(0x181C6670)
-#define MIHOYO_SDK_PROTOBUF_REFLECTION_SINGLEFIELDACCESSOR__CTOR_OFFSET UNITYSDK_OFFSET(0x181B33E0)
+#define MIHOYO_SDK_PROTOBUF_REFLECTION_SINGLEFIELDACCESSOR_SETVALUE_OFFSET UNITYSDK_OFFSET(0x196C7400)
+#define MIHOYO_SDK_PROTOBUF_REFLECTION_SINGLEFIELDACCESSOR__CTOR_OFFSET UNITYSDK_OFFSET(0x196B2720)
 
 namespace MiHoYo::SDK::Protobuf::Reflection
 {
-	inline static constexpr unsigned int SingleFieldAccessor_TypeDefinitionIndex = 34048;
+	inline static constexpr unsigned int SingleFieldAccessor_TypeDefinitionIndex = 34419;
 
 	class SingleFieldAccessor : public ::MiHoYo::SDK::Protobuf::Reflection::FieldAccessorBase
 	{
 	public:
-		::System::Action_2<::MiHoYo::SDK::Protobuf::IMessage*, ::System::Object*>* setValueDelegate; // 0x20
-		::System::Action_1<::MiHoYo::SDK::Protobuf::IMessage*>* clearDelegate; // 0x28
+		::System::Action_1<::MiHoYo::SDK::Protobuf::IMessage*>* clearDelegate; // 0x20
+		::System::Action_2<::MiHoYo::SDK::Protobuf::IMessage*, ::System::Object*>* setValueDelegate; // 0x28
 
 		::System::Void _ctor(::System::Reflection::PropertyInfo* a1, ::MiHoYo::SDK::Protobuf::Reflection::FieldDescriptor* a2)
 		{

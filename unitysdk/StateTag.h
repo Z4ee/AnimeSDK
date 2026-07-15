@@ -4,9 +4,9 @@
 
 namespace System { class String; }
 
-#define STATETAG__CTOR_OFFSET UNITYSDK_OFFSET(0xD09B700)
+#define STATETAG__CTOR_OFFSET UNITYSDK_OFFSET(0x14ED3460)
 
-inline static constexpr unsigned int StateTag_TypeDefinitionIndex = 44865;
+inline static constexpr unsigned int StateTag_TypeDefinitionIndex = 45782;
 
 class StateTag : public ::System::Object
 {

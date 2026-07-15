@@ -7,10 +7,10 @@
 #include "unitysdk/RPG/Client/TextID.h"
 #include "unitysdk/System/Object.h"
 
-class Class_0_16E4307DCC419505_579;
-class Class_0_16E4307DCC419505_580;
-class Class_0_16E4307DCC419505_581;
-class Class_1_275454CE65A12492;
+class Class_0_16E4307DCC419505_614;
+class Class_0_16E4307DCC419505_615;
+class Class_0_16E4307DCC419505_616;
+class Class_1_630CB84C93B59414;
 class Class_1_C6B3B57B6E91674E;
 class Class_2_570AC78C01FF8379;
 class Class_2_BF47C01E9CFEA39C;
@@ -26,7 +26,7 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int AsyncActionProgress_1_TypeDefinitionIndex = 55662;
+	inline static constexpr unsigned int AsyncActionProgress_1_TypeDefinitionIndex = 56899;
 
 	template <typename T>
 	class AsyncActionProgress_1 : public ::System::Object
@@ -34,7 +34,7 @@ namespace RPG::Client
 	public:
 		::System::Collections::Generic::List_1<::RPG::Client::AsyncActionProgress_1_BatchItem<T>*>* _BatchItems; // 0x0
 		::RPG::Client::ProgressID _ID_k__BackingField; // 0x0
-		::Class_1_275454CE65A12492* _Board; // 0x0
+		::Class_1_630CB84C93B59414* _Board; // 0x0
 		::System::Int32 _ThreadCount; // 0x0
 		::Class_1_C6B3B57B6E91674E* _Queue; // 0x0
 		::RPG::Client::TextID ProgressDescTextID; // 0x0
@@ -45,17 +45,17 @@ namespace RPG::Client
 		::RPG::Client::NotifyType EndNotifyType; // 0x0
 		::RPG::Client::FailedType FailedType; // 0x0
 		::Class_2_570AC78C01FF8379* _ActionSystem; // 0x0
-		::System::Action_2<::Class_0_16E4307DCC419505_581*, T>* _ActionThread; // 0x0
+		::System::Action_2<::Class_0_16E4307DCC419505_616*, T>* _ActionThread; // 0x0
 		::System::Int32 _TotalCount_k__BackingField; // 0x0
 		::System::Int32 _SuccessCount_k__BackingField; // 0x0
 		::System::Int32 _FailureCount_k__BackingField; // 0x0
 		::System::Int32 _FinishCount_k__BackingField; // 0x0
-		::RPG::Client::ActionEvent_1<::Class_0_16E4307DCC419505_579*>* _OnStarting_k__BackingField; // 0x0
-		::RPG::Client::ActionEvent_1<::Class_0_16E4307DCC419505_579*>* _OnSucceed_k__BackingField; // 0x0
+		::RPG::Client::ActionEvent_1<::Class_0_16E4307DCC419505_614*>* _OnStarting_k__BackingField; // 0x0
+		::RPG::Client::ActionEvent_1<::Class_0_16E4307DCC419505_614*>* _OnSucceed_k__BackingField; // 0x0
 		::RPG::Client::ActionEvent_1<::Class_2_BF47C01E9CFEA39C*>* _OnFailed_k__BackingField; // 0x0
-		::RPG::Client::ActionEvent_4<::Class_0_16E4307DCC419505_579*, ::Class_0_16E4307DCC419505_581*, ::System::Object*, ::RPG::Client::ExeCode>* _OnFinish_k__BackingField; // 0x0
-		::RPG::Client::ActionEvent_3<::Class_0_16E4307DCC419505_579*, ::Class_0_16E4307DCC419505_581*, ::System::Object*>* _OnItemStarting_k__BackingField; // 0x0
-		::RPG::Client::ActionEvent_3<::Class_0_16E4307DCC419505_579*, ::Class_0_16E4307DCC419505_581*, ::System::Object*>* _OnItemSucceed_k__BackingField; // 0x0
+		::RPG::Client::ActionEvent_4<::Class_0_16E4307DCC419505_614*, ::Class_0_16E4307DCC419505_616*, ::System::Object*, ::RPG::Client::ExeCode>* _OnFinish_k__BackingField; // 0x0
+		::RPG::Client::ActionEvent_3<::Class_0_16E4307DCC419505_614*, ::Class_0_16E4307DCC419505_616*, ::System::Object*>* _OnItemStarting_k__BackingField; // 0x0
+		::RPG::Client::ActionEvent_3<::Class_0_16E4307DCC419505_614*, ::Class_0_16E4307DCC419505_616*, ::System::Object*>* _OnItemSucceed_k__BackingField; // 0x0
 		::RPG::Client::ActionEvent_1<::Class_2_BF47C01E9CFEA39C*>* _OnItemFailed_k__BackingField; // 0x0
 	};
 }

@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/ValueType.h"
 
-#define CINEMACHINE_CINEMACHINEFREELOOK_ORBIT__CTOR_OFFSET UNITYSDK_OFFSET(0x2CFA0)
+#define CINEMACHINE_CINEMACHINEFREELOOK_ORBIT__CTOR_OFFSET UNITYSDK_OFFSET(0x6E8510)
 
 namespace Cinemachine
 {
-	inline static constexpr unsigned int CinemachineFreeLook_Orbit_TypeDefinitionIndex = 36801;
+	inline static constexpr unsigned int CinemachineFreeLook_Orbit_TypeDefinitionIndex = 37583;
 
 	struct alignas(4) CinemachineFreeLook_Orbit
 	{

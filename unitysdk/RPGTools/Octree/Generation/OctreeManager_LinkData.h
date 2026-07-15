@@ -7,7 +7,7 @@ namespace UnityEngine { class Transform; }
 
 namespace RPGTools::Octree::Generation
 {
-	inline static constexpr unsigned int OctreeManager_LinkData_TypeDefinitionIndex = 46133;
+	inline static constexpr unsigned int OctreeManager_LinkData_TypeDefinitionIndex = 47072;
 
 	struct alignas(8) OctreeManager_LinkData
 	{

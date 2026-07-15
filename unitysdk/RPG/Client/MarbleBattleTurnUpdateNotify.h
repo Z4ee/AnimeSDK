@@ -4,11 +4,11 @@
 
 namespace System { class Action; }
 
-#define RPG_CLIENT_MARBLEBATTLETURNUPDATENOTIFY__CTOR_OFFSET UNITYSDK_OFFSET(0xBEFB640)
+#define RPG_CLIENT_MARBLEBATTLETURNUPDATENOTIFY__CTOR_OFFSET UNITYSDK_OFFSET(0x1A87E380)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MarbleBattleTurnUpdateNotify_TypeDefinitionIndex = 61531;
+	inline static constexpr unsigned int MarbleBattleTurnUpdateNotify_TypeDefinitionIndex = 62893;
 
 	class MarbleBattleTurnUpdateNotify : public ::System::Object
 	{

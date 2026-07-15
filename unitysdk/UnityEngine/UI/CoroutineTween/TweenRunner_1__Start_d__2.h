@@ -4,7 +4,7 @@
 
 namespace UnityEngine::UI::CoroutineTween
 {
-	inline static constexpr unsigned int TweenRunner_1__Start_d__2_TypeDefinitionIndex = 6058;
+	inline static constexpr unsigned int TweenRunner_1__Start_d__2_TypeDefinitionIndex = 6063;
 
 	template <typename T>
 	class TweenRunner_1__Start_d__2 : public ::System::Object

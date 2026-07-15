@@ -1,0 +1,116 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/RPG/Client/FateRin/BaseViewModel.h"
+#include "unitysdk/RPG/Client/TextID.h"
+
+class Class_0_16E4307DCC419505_1290;
+class Class_0_16E4307DCC419505_1304;
+class Class_1_4557C77922A20D8C;
+class Class_1_B1620F6A6D11B9D0;
+class Class_1_B6441625E3D7D3E0;
+class Class_1_F15DE20134ACD401;
+namespace RPG::Client::FateRin::Card { class IFateRinCardDeckSectionViewModel; }
+namespace System { class String; }
+
+#define RPG_CLIENT_FATERIN_CARD_FATERINCARDDECKVIEWMODEL_GETLISTTRANSFEROBJECT_OFFSET UNITYSDK_OFFSET(0x1B49E6C0)
+#define RPG_CLIENT_FATERIN_CARD_FATERINCARDDECKVIEWMODEL_GETMAXSIZE_OFFSET UNITYSDK_OFFSET(0x1B49E0D0)
+#define RPG_CLIENT_FATERIN_CARD_FATERINCARDDECKVIEWMODEL_GETTYPETRANSFEROBJECT_OFFSET UNITYSDK_OFFSET(0x1B49E500)
+#define RPG_CLIENT_FATERIN_CARD_FATERINCARDDECKVIEWMODEL_GET_DESC_OFFSET UNITYSDK_OFFSET(0x1B49EAB0)
+#define RPG_CLIENT_FATERIN_CARD_FATERINCARDDECKVIEWMODEL_GET_FULLDESC_OFFSET UNITYSDK_OFFSET(0x1B49EAE0)
+#define RPG_CLIENT_FATERIN_CARD_FATERINCARDDECKVIEWMODEL_GET_ID_OFFSET UNITYSDK_OFFSET(0x1B49EAA0)
+#define RPG_CLIENT_FATERIN_CARD_FATERINCARDDECKVIEWMODEL_GET_MASTERSECTION_OFFSET UNITYSDK_OFFSET(0x1B49EAF0)
+#define RPG_CLIENT_FATERIN_CARD_FATERINCARDDECKVIEWMODEL_GET_MIDDLEDESC_OFFSET UNITYSDK_OFFSET(0x1B49EAD0)
+#define RPG_CLIENT_FATERIN_CARD_FATERINCARDDECKVIEWMODEL_GET_NEUTRALSECTION_OFFSET UNITYSDK_OFFSET(0x1B49EB10)
+#define RPG_CLIENT_FATERIN_CARD_FATERINCARDDECKVIEWMODEL_GET_OWNERSNAME_OFFSET UNITYSDK_OFFSET(0x1B49EAC0)
+#define RPG_CLIENT_FATERIN_CARD_FATERINCARDDECKVIEWMODEL_GET_SERVANTSECTION_OFFSET UNITYSDK_OFFSET(0x1B49EB00)
+#define RPG_CLIENT_FATERIN_CARD_FATERINCARDDECKVIEWMODEL_TRYREMOVECARD_OFFSET UNITYSDK_OFFSET(0x1B49E460)
+#define RPG_CLIENT_FATERIN_CARD_FATERINCARDDECKVIEWMODEL__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1B49DD60)
+#define RPG_CLIENT_FATERIN_CARD_FATERINCARDDECKVIEWMODEL__CTOR_OFFSET UNITYSDK_OFFSET(0x1B49DD00)
+
+namespace RPG::Client::FateRin::Card
+{
+	inline static constexpr unsigned int FateRinCardDeckViewModel_TypeDefinitionIndex = 76175;
+
+	class FateRinCardDeckViewModel : public ::RPG::Client::FateRin::BaseViewModel
+	{
+	public:
+		::System::String* _FullDesc_k__BackingField; // 0x20
+		::RPG::Client::FateRin::Card::IFateRinCardDeckSectionViewModel* _NeutralSection_k__BackingField; // 0x28
+		::RPG::Client::FateRin::Card::IFateRinCardDeckSectionViewModel* _MasterSection_k__BackingField; // 0x30
+		::RPG::Client::FateRin::Card::IFateRinCardDeckSectionViewModel* _ServantSection_k__BackingField; // 0x38
+		::RPG::Client::TextID _MiddleDesc_k__BackingField; // 0x40
+		::System::UInt32 _ID_k__BackingField; // 0x50
+		::RPG::Client::TextID _OwnersName_k__BackingField; // 0x58
+		::RPG::Client::TextID _Desc_k__BackingField; // 0x68
+
+		::System::Void _ctor(::Class_1_B6441625E3D7D3E0* a1, ::Class_1_4557C77922A20D8C* a2, ::Class_0_16E4307DCC419505_1304* a3, ::Class_0_16E4307DCC419505_1290* a4)
+		{
+			return ((::System::Void(*)(::PVOID, ::Class_1_B6441625E3D7D3E0*, ::Class_1_4557C77922A20D8C*, ::Class_0_16E4307DCC419505_1304*, ::Class_0_16E4307DCC419505_1290*))((::PBYTE)hIl2Cpp + RPG_CLIENT_FATERIN_CARD_FATERINCARDDECKVIEWMODEL__CTOR_OFFSET))(this, a1, a2, a3, a4);
+		}
+
+		::System::Void _ctor_1(::Class_1_B1620F6A6D11B9D0* a1, ::Class_1_F15DE20134ACD401* a2, ::Class_1_4557C77922A20D8C* a3, ::Class_0_16E4307DCC419505_1304* a4, ::Class_0_16E4307DCC419505_1290* a5)
+		{
+			return ((::System::Void(*)(::PVOID, ::Class_1_B1620F6A6D11B9D0*, ::Class_1_F15DE20134ACD401*, ::Class_1_4557C77922A20D8C*, ::Class_0_16E4307DCC419505_1304*, ::Class_0_16E4307DCC419505_1290*))((::PBYTE)hIl2Cpp + RPG_CLIENT_FATERIN_CARD_FATERINCARDDECKVIEWMODEL__CTOR_1_OFFSET))(this, a1, a2, a3, a4, a5);
+		}
+
+		::System::UInt32 GetMaxSize()
+		{
+			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_FATERIN_CARD_FATERINCARDDECKVIEWMODEL_GETMAXSIZE_OFFSET))(this);
+		}
+
+		::System::Boolean TryRemoveCard(::System::UInt32 a1)
+		{
+			return ((::System::Boolean(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_FATERIN_CARD_FATERINCARDDECKVIEWMODEL_TRYREMOVECARD_OFFSET))(this, a1);
+		}
+
+		::Class_1_B1620F6A6D11B9D0* GetTypeTransferObject()
+		{
+			return ((::Class_1_B1620F6A6D11B9D0*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_FATERIN_CARD_FATERINCARDDECKVIEWMODEL_GETTYPETRANSFEROBJECT_OFFSET))(this);
+		}
+
+		::Class_1_F15DE20134ACD401* GetListTransferObject()
+		{
+			return ((::Class_1_F15DE20134ACD401*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_FATERIN_CARD_FATERINCARDDECKVIEWMODEL_GETLISTTRANSFEROBJECT_OFFSET))(this);
+		}
+
+		::System::UInt32 get_ID()
+		{
+			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_FATERIN_CARD_FATERINCARDDECKVIEWMODEL_GET_ID_OFFSET))(this);
+		}
+
+		::RPG::Client::TextID get_Desc()
+		{
+			return ((::RPG::Client::TextID(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_FATERIN_CARD_FATERINCARDDECKVIEWMODEL_GET_DESC_OFFSET))(this);
+		}
+
+		::RPG::Client::TextID get_OwnersName()
+		{
+			return ((::RPG::Client::TextID(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_FATERIN_CARD_FATERINCARDDECKVIEWMODEL_GET_OWNERSNAME_OFFSET))(this);
+		}
+
+		::RPG::Client::TextID get_MiddleDesc()
+		{
+			return ((::RPG::Client::TextID(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_FATERIN_CARD_FATERINCARDDECKVIEWMODEL_GET_MIDDLEDESC_OFFSET))(this);
+		}
+
+		::System::String* get_FullDesc()
+		{
+			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_FATERIN_CARD_FATERINCARDDECKVIEWMODEL_GET_FULLDESC_OFFSET))(this);
+		}
+
+		::RPG::Client::FateRin::Card::IFateRinCardDeckSectionViewModel* get_MasterSection()
+		{
+			return ((::RPG::Client::FateRin::Card::IFateRinCardDeckSectionViewModel*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_FATERIN_CARD_FATERINCARDDECKVIEWMODEL_GET_MASTERSECTION_OFFSET))(this);
+		}
+
+		::RPG::Client::FateRin::Card::IFateRinCardDeckSectionViewModel* get_ServantSection()
+		{
+			return ((::RPG::Client::FateRin::Card::IFateRinCardDeckSectionViewModel*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_FATERIN_CARD_FATERINCARDDECKVIEWMODEL_GET_SERVANTSECTION_OFFSET))(this);
+		}
+
+		::RPG::Client::FateRin::Card::IFateRinCardDeckSectionViewModel* get_NeutralSection()
+		{
+			return ((::RPG::Client::FateRin::Card::IFateRinCardDeckSectionViewModel*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_FATERIN_CARD_FATERINCARDDECKVIEWMODEL_GET_NEUTRALSECTION_OFFSET))(this);
+		}
+	};
+}

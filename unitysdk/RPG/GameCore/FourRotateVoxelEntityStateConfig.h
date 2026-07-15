@@ -7,13 +7,13 @@ namespace RPG::GameCore { class FourRotateVoxelEntityStateActionConfig; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_FOURROTATEVOXELENTITYSTATECONFIG_METHOD_3_2D7F45CD66CF8A38_OFFSET UNITYSDK_OFFSET(0x19768980)
-#define RPG_GAMECORE_FOURROTATEVOXELENTITYSTATECONFIG_METHOD_3_38127E644AB1C265_OFFSET UNITYSDK_OFFSET(0x19768910)
-#define RPG_GAMECORE_FOURROTATEVOXELENTITYSTATECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x19768960)
+#define RPG_GAMECORE_FOURROTATEVOXELENTITYSTATECONFIG_METHOD_3_2D7F45CD66CF8A38_OFFSET UNITYSDK_OFFSET(0x1B97A1C0)
+#define RPG_GAMECORE_FOURROTATEVOXELENTITYSTATECONFIG_METHOD_3_3968494757DCECF9_OFFSET UNITYSDK_OFFSET(0x1B97A180)
+#define RPG_GAMECORE_FOURROTATEVOXELENTITYSTATECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1B97A1B0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FourRotateVoxelEntityStateConfig_TypeDefinitionIndex = 15937;
+	inline static constexpr unsigned int FourRotateVoxelEntityStateConfig_TypeDefinitionIndex = 16116;
 
 	class FourRotateVoxelEntityStateConfig : public ::RPG::GameCore::LittleGameComponentConfig
 	{
@@ -27,9 +27,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FOURROTATEVOXELENTITYSTATECONFIG__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_38127E644AB1C265(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::FourRotateVoxelEntityStateConfig*& a2)
+		static ::System::Void Method_3_3968494757DCECF9(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::FourRotateVoxelEntityStateConfig*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::FourRotateVoxelEntityStateConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FOURROTATEVOXELENTITYSTATECONFIG_METHOD_3_38127E644AB1C265_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::FourRotateVoxelEntityStateConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FOURROTATEVOXELENTITYSTATECONFIG_METHOD_3_3968494757DCECF9_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_2D7F45CD66CF8A38(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::FourRotateVoxelEntityStateConfig* a2)

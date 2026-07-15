@@ -3,7 +3,7 @@
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int AnimationCullingType_TypeDefinitionIndex = 5161;
+	inline static constexpr unsigned int AnimationCullingType_TypeDefinitionIndex = 5166;
 
 	enum class AnimationCullingType : ::System::Int32
 	{

@@ -6,12 +6,12 @@ namespace System { class Action; }
 namespace ZenFulcrum::EmbeddedBrowser { class Browser; }
 namespace ZenFulcrum::EmbeddedBrowser { class BrowserNative_ReadyFunc; }
 
-#define ZENFULCRUM_EMBEDDEDBROWSER_BROWSER___C__DISPLAYCLASS162_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1B4DAF80)
-#define ZENFULCRUM_EMBEDDEDBROWSER_BROWSER___C__DISPLAYCLASS162_0__WHENREADY_B__0_OFFSET UNITYSDK_OFFSET(0x1B4E57E0)
+#define ZENFULCRUM_EMBEDDEDBROWSER_BROWSER___C__DISPLAYCLASS162_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1AB38E70)
+#define ZENFULCRUM_EMBEDDEDBROWSER_BROWSER___C__DISPLAYCLASS162_0__WHENREADY_B__0_OFFSET UNITYSDK_OFFSET(0x1AB43D00)
 
 namespace ZenFulcrum::EmbeddedBrowser
 {
-	inline static constexpr unsigned int Browser___c__DisplayClass162_0_TypeDefinitionIndex = 36402;
+	inline static constexpr unsigned int Browser___c__DisplayClass162_0_TypeDefinitionIndex = 37184;
 
 	class Browser___c__DisplayClass162_0 : public ::System::Object
 	{

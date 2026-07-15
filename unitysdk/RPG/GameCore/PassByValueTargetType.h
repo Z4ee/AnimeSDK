@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PassByValueTargetType_TypeDefinitionIndex = 23167;
+	inline static constexpr unsigned int PassByValueTargetType_TypeDefinitionIndex = 23647;
 
 	enum class PassByValueTargetType : ::System::Int32
 	{

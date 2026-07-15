@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define MIHOYO_SDK_QRENABLEDAPPS__CTOR_OFFSET UNITYSDK_OFFSET(0x1840E980)
+#define MIHOYO_SDK_QRENABLEDAPPS__CTOR_OFFSET UNITYSDK_OFFSET(0x1710CFE0)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int QREnabledApps_TypeDefinitionIndex = 7857;
+	inline static constexpr unsigned int QREnabledApps_TypeDefinitionIndex = 7863;
 
 	class QREnabledApps : public ::System::Object
 	{

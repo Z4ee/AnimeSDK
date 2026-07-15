@@ -4,20 +4,20 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_ACTIVITYQUESTREWARDCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x193F8E60)
-#define RPG_GAMECORE_ACTIVITYQUESTREWARDCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x193F9470)
+#define RPG_GAMECORE_ACTIVITYQUESTREWARDCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1AB01950)
+#define RPG_GAMECORE_ACTIVITYQUESTREWARDCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1AB01F60)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ActivityQuestRewardConfigRow_TypeDefinitionIndex = 11733;
+	inline static constexpr unsigned int ActivityQuestRewardConfigRow_TypeDefinitionIndex = 11833;
 
 	class ActivityQuestRewardConfigRow : public ::System::Object
 	{
 	public:
 		::Il2CppArray<::System::UInt32>* QuestTabGroupList; // 0x10
-		::System::UInt32 FinalRewardQuest; // 0x18
-		::System::UInt32 ActivityRewardID; // 0x1C
-		::System::UInt32 ActivityModule; // 0x20
+		::System::UInt32 ActivityRewardID; // 0x18
+		::System::UInt32 ActivityModule; // 0x1C
+		::System::UInt32 FinalRewardQuest; // 0x20
 
 		::System::Void _ctor()
 		{

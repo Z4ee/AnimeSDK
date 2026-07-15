@@ -8,7 +8,7 @@
 namespace RPG { template <typename T> class PoolList_1; }
 namespace System { class String; }
 
-inline static constexpr unsigned int Struct_2_AE183AB1ABCC95C3_TypeDefinitionIndex = 40049;
+inline static constexpr unsigned int Struct_2_AE183AB1ABCC95C3_TypeDefinitionIndex = 40862;
 
 struct alignas(8) Struct_2_AE183AB1ABCC95C3
 {

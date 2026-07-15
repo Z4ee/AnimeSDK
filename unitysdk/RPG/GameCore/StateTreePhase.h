@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int StateTreePhase_TypeDefinitionIndex = 50081;
+	inline static constexpr unsigned int StateTreePhase_TypeDefinitionIndex = 51163;
 
 	enum class StateTreePhase : ::System::Int32
 	{

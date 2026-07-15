@@ -7,13 +7,13 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class DebateTestimonySetting; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_DEBATEINITIALIZE_METHOD_3_67E9AE06E084C096_OFFSET UNITYSDK_OFFSET(0x19692B40)
-#define RPG_GAMECORE_DEBATEINITIALIZE_METHOD_3_9A357FFC632B8C30_OFFSET UNITYSDK_OFFSET(0x19692AA0)
-#define RPG_GAMECORE_DEBATEINITIALIZE__CTOR_OFFSET UNITYSDK_OFFSET(0x19692B00)
+#define RPG_GAMECORE_DEBATEINITIALIZE_METHOD_3_67E9AE06E084C096_OFFSET UNITYSDK_OFFSET(0x1C0FC500)
+#define RPG_GAMECORE_DEBATEINITIALIZE_METHOD_3_DF1CE82327C7B358_OFFSET UNITYSDK_OFFSET(0x1C0FC4B0)
+#define RPG_GAMECORE_DEBATEINITIALIZE__CTOR_OFFSET UNITYSDK_OFFSET(0x1C0FC4F0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int DebateInitialize_TypeDefinitionIndex = 20709;
+	inline static constexpr unsigned int DebateInitialize_TypeDefinitionIndex = 21124;
 
 	class DebateInitialize : public ::RPG::GameCore::TaskConfig
 	{
@@ -31,9 +31,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_DEBATEINITIALIZE__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_9A357FFC632B8C30(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::DebateInitialize*& a2)
+		static ::System::Void Method_3_DF1CE82327C7B358(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::DebateInitialize*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::DebateInitialize*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_DEBATEINITIALIZE_METHOD_3_9A357FFC632B8C30_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::DebateInitialize*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_DEBATEINITIALIZE_METHOD_3_DF1CE82327C7B358_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_67E9AE06E084C096(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::DebateInitialize* a2)

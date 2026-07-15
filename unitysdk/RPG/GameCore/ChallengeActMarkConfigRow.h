@@ -5,12 +5,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_CHALLENGEACTMARKCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x195F63D0)
-#define RPG_GAMECORE_CHALLENGEACTMARKCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x195F6500)
+#define RPG_GAMECORE_CHALLENGEACTMARKCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B70C530)
+#define RPG_GAMECORE_CHALLENGEACTMARKCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1B70C660)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ChallengeActMarkConfigRow_TypeDefinitionIndex = 12321;
+	inline static constexpr unsigned int ChallengeActMarkConfigRow_TypeDefinitionIndex = 12455;
 
 	class ChallengeActMarkConfigRow : public ::System::Object
 	{

@@ -8,7 +8,7 @@ namespace System { template <typename T1, typename T2> class Func_2; }
 
 namespace Epic::OnlineServices
 {
-	inline static constexpr unsigned int Helper___c__97_1_TypeDefinitionIndex = 41873;
+	inline static constexpr unsigned int Helper___c__97_1_TypeDefinitionIndex = 42734;
 
 	template <typename TCallback>
 	class Helper___c__97_1 : public ::System::Object

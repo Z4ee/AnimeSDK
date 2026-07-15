@@ -7,7 +7,7 @@ namespace System::Reflection { class AssemblyName; }
 
 namespace MessagePack
 {
-	inline static constexpr unsigned int SkipClrVisibilityChecks___c__DisplayClass9_0_TypeDefinitionIndex = 7193;
+	inline static constexpr unsigned int SkipClrVisibilityChecks___c__DisplayClass9_0_TypeDefinitionIndex = 7199;
 
 	struct alignas(8) SkipClrVisibilityChecks___c__DisplayClass9_0
 	{

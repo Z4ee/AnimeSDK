@@ -5,13 +5,13 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_ROTATELASERPUZZLERING_METHOD_3_7A80BBC3D61D4FB8_OFFSET UNITYSDK_OFFSET(0x19BD57C0)
-#define RPG_GAMECORE_ROTATELASERPUZZLERING_METHOD_3_C5DFAD580894F6A9_OFFSET UNITYSDK_OFFSET(0x19BD5840)
-#define RPG_GAMECORE_ROTATELASERPUZZLERING__CTOR_OFFSET UNITYSDK_OFFSET(0x19BD5810)
+#define RPG_GAMECORE_ROTATELASERPUZZLERING_METHOD_3_C5DFAD580894F6A9_OFFSET UNITYSDK_OFFSET(0x1BB83590)
+#define RPG_GAMECORE_ROTATELASERPUZZLERING_METHOD_3_E48A1B7F47877FB0_OFFSET UNITYSDK_OFFSET(0x1BB83550)
+#define RPG_GAMECORE_ROTATELASERPUZZLERING__CTOR_OFFSET UNITYSDK_OFFSET(0x1BB83580)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RotateLaserPuzzleRing_TypeDefinitionIndex = 20922;
+	inline static constexpr unsigned int RotateLaserPuzzleRing_TypeDefinitionIndex = 21337;
 
 	class RotateLaserPuzzleRing : public ::RPG::GameCore::TaskConfig
 	{
@@ -26,9 +26,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROTATELASERPUZZLERING__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_7A80BBC3D61D4FB8(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::RotateLaserPuzzleRing*& a2)
+		static ::System::Void Method_3_E48A1B7F47877FB0(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::RotateLaserPuzzleRing*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::RotateLaserPuzzleRing*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROTATELASERPUZZLERING_METHOD_3_7A80BBC3D61D4FB8_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::RotateLaserPuzzleRing*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROTATELASERPUZZLERING_METHOD_3_E48A1B7F47877FB0_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_C5DFAD580894F6A9(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::RotateLaserPuzzleRing* a2)

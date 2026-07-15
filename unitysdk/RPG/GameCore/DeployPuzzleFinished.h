@@ -5,13 +5,13 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class TargetEvaluator; }
 
-#define RPG_GAMECORE_DEPLOYPUZZLEFINISHED_METHOD_3_0D0F76003D3EF667_OFFSET UNITYSDK_OFFSET(0x19699C30)
-#define RPG_GAMECORE_DEPLOYPUZZLEFINISHED_METHOD_3_7990282402B8ED61_OFFSET UNITYSDK_OFFSET(0x19699AE0)
-#define RPG_GAMECORE_DEPLOYPUZZLEFINISHED__CTOR_OFFSET UNITYSDK_OFFSET(0x19699BA0)
+#define RPG_GAMECORE_DEPLOYPUZZLEFINISHED_METHOD_3_0D0F76003D3EF667_OFFSET UNITYSDK_OFFSET(0x1C103080)
+#define RPG_GAMECORE_DEPLOYPUZZLEFINISHED_METHOD_3_6BBF26340C6C5E9F_OFFSET UNITYSDK_OFFSET(0x1C103000)
+#define RPG_GAMECORE_DEPLOYPUZZLEFINISHED__CTOR_OFFSET UNITYSDK_OFFSET(0x1C103050)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int DeployPuzzleFinished_TypeDefinitionIndex = 19224;
+	inline static constexpr unsigned int DeployPuzzleFinished_TypeDefinitionIndex = 19580;
 
 	class DeployPuzzleFinished : public ::RPG::GameCore::TaskConfig
 	{
@@ -23,9 +23,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_DEPLOYPUZZLEFINISHED__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_7990282402B8ED61(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::DeployPuzzleFinished*& a2)
+		static ::System::Void Method_3_6BBF26340C6C5E9F(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::DeployPuzzleFinished*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::DeployPuzzleFinished*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_DEPLOYPUZZLEFINISHED_METHOD_3_7990282402B8ED61_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::DeployPuzzleFinished*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_DEPLOYPUZZLEFINISHED_METHOD_3_6BBF26340C6C5E9F_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_0D0F76003D3EF667(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::DeployPuzzleFinished* a2)

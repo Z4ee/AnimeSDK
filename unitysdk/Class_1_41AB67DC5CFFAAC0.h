@@ -10,19 +10,19 @@ namespace RPG::GameCore { class JsonOfflineCullingCellSerializeData; }
 namespace RPG::GameCore { class JsonOfflineCullingCellSubData; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_1_41AB67DC5CFFAAC0_METHOD_1_546CA607D5903CEA_OFFSET UNITYSDK_OFFSET(0xA7314A0)
-#define CLASS_1_41AB67DC5CFFAAC0_METHOD_1_A5C7E69C25838CE3_OFFSET UNITYSDK_OFFSET(0xA730530)
-#define CLASS_1_41AB67DC5CFFAAC0_METHOD_1_BD7A77CAEACCF11A_OFFSET UNITYSDK_OFFSET(0xA7318D0)
-#define CLASS_1_41AB67DC5CFFAAC0_METHOD_1_BE28C74765DA9397_OFFSET UNITYSDK_OFFSET(0xA731AD0)
+#define CLASS_1_41AB67DC5CFFAAC0_METHOD_1_546CA607D5903CEA_OFFSET UNITYSDK_OFFSET(0x15229070)
+#define CLASS_1_41AB67DC5CFFAAC0_METHOD_1_BD7A77CAEACCF11A_OFFSET UNITYSDK_OFFSET(0x152294A0)
+#define CLASS_1_41AB67DC5CFFAAC0_METHOD_1_BE28C74765DA9397_OFFSET UNITYSDK_OFFSET(0x152296A0)
+#define CLASS_1_41AB67DC5CFFAAC0_METHOD_1_FC0D600065D95320_OFFSET UNITYSDK_OFFSET(0x15228A50)
 
-inline static constexpr unsigned int Class_1_41AB67DC5CFFAAC0_TypeDefinitionIndex = 68850;
+inline static constexpr unsigned int Class_1_41AB67DC5CFFAAC0_TypeDefinitionIndex = 70351;
 
 class Class_1_41AB67DC5CFFAAC0 : public ::System::Object
 {
 public:
-	static ::RPG::GameCore::JsonOfflineCullingCellData* Method_1_A5C7E69C25838CE3(::RPG::Client::OpenWorld::OfflineCullingCellData* a1)
+	static ::RPG::GameCore::JsonOfflineCullingCellData* Method_1_FC0D600065D95320(::RPG::Client::OpenWorld::OfflineCullingCellData* a1)
 	{
-		return ((::RPG::GameCore::JsonOfflineCullingCellData*(*)(::RPG::Client::OpenWorld::OfflineCullingCellData*))((::PBYTE)hIl2Cpp + CLASS_1_41AB67DC5CFFAAC0_METHOD_1_A5C7E69C25838CE3_OFFSET))(a1);
+		return ((::RPG::GameCore::JsonOfflineCullingCellData*(*)(::RPG::Client::OpenWorld::OfflineCullingCellData*))((::PBYTE)hIl2Cpp + CLASS_1_41AB67DC5CFFAAC0_METHOD_1_FC0D600065D95320_OFFSET))(a1);
 	}
 
 	static ::RPG::GameCore::JsonOfflineCullingCellSubData* Method_1_546CA607D5903CEA(::RPG::Client::OpenWorld::OfflineCullingCellSubData* a1)

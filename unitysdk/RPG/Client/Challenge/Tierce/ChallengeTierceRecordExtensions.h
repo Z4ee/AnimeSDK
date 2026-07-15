@@ -7,13 +7,13 @@ namespace RPG::Client::Challenge::Tierce { class ChallengeTierceRecordOfBoss; }
 namespace RPG::Client::Challenge::Tierce { class ChallengeTierceRecordOfMemory; }
 namespace RPG::Client::Challenge::Tierce { class ChallengeTierceRecordOfStory; }
 
-#define RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCERECORDEXTENSIONS_OFBOSS_OFFSET UNITYSDK_OFFSET(0xB4CF210)
-#define RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCERECORDEXTENSIONS_OFMEMORY_OFFSET UNITYSDK_OFFSET(0xB4CF170)
-#define RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCERECORDEXTENSIONS_OFSTORY_OFFSET UNITYSDK_OFFSET(0xB4CB5F0)
+#define RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCERECORDEXTENSIONS_OFBOSS_OFFSET UNITYSDK_OFFSET(0x1875F990)
+#define RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCERECORDEXTENSIONS_OFMEMORY_OFFSET UNITYSDK_OFFSET(0x1875F850)
+#define RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCERECORDEXTENSIONS_OFSTORY_OFFSET UNITYSDK_OFFSET(0x1875F8F0)
 
 namespace RPG::Client::Challenge::Tierce
 {
-	inline static constexpr unsigned int ChallengeTierceRecordExtensions_TypeDefinitionIndex = 74121;
+	inline static constexpr unsigned int ChallengeTierceRecordExtensions_TypeDefinitionIndex = 76505;
 
 	class ChallengeTierceRecordExtensions : public ::System::Object
 	{

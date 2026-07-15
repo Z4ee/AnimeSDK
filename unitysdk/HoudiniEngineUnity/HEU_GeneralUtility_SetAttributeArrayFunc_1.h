@@ -10,7 +10,7 @@ namespace System { class String; }
 
 namespace HoudiniEngineUnity
 {
-	inline static constexpr unsigned int HEU_GeneralUtility_SetAttributeArrayFunc_1_TypeDefinitionIndex = 37668;
+	inline static constexpr unsigned int HEU_GeneralUtility_SetAttributeArrayFunc_1_TypeDefinitionIndex = 38476;
 
 	template <typename T>
 	class HEU_GeneralUtility_SetAttributeArrayFunc_1 : public ::System::MulticastDelegate

@@ -7,13 +7,12 @@ namespace RPG::Client { class UIAutoFlipBehavior; }
 namespace RPG::Client { class UIPageTurnMonoPlugin; }
 namespace System { class String; }
 
-#define RPG_CLIENT_UIAUTOFLIPMONOPLUGIN_GETTICKLODTEMPLATENAME_OFFSET UNITYSDK_OFFSET(0xCB31410)
-#define RPG_CLIENT_UIAUTOFLIPMONOPLUGIN__CTOR_OFFSET UNITYSDK_OFFSET(0xCB31460)
-#define RPG_CLIENT_UIAUTOFLIPMONOPLUGIN___IFIXBASEPROXY_GETTICKLODTEMPLATENAME_OFFSET UNITYSDK_OFFSET(0xCB31490)
+#define RPG_CLIENT_UIAUTOFLIPMONOPLUGIN_GETTICKLODTEMPLATENAME_OFFSET UNITYSDK_OFFSET(0x172179B0)
+#define RPG_CLIENT_UIAUTOFLIPMONOPLUGIN__CTOR_OFFSET UNITYSDK_OFFSET(0x17217A00)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int UIAutoFlipMonoPlugin_TypeDefinitionIndex = 66414;
+	inline static constexpr unsigned int UIAutoFlipMonoPlugin_TypeDefinitionIndex = 67850;
 
 	class UIAutoFlipMonoPlugin : public ::RPG::Client::TAMonoPlugin_1<::RPG::Client::UIAutoFlipBehavior*>
 	{
@@ -34,11 +33,6 @@ namespace RPG::Client
 		::System::String* GetTickLodTemplateName()
 		{
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_UIAUTOFLIPMONOPLUGIN_GETTICKLODTEMPLATENAME_OFFSET))(this);
-		}
-
-		::System::String* __iFixBaseProxy_GetTickLodTemplateName()
-		{
-			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_UIAUTOFLIPMONOPLUGIN___IFIXBASEPROXY_GETTICKLODTEMPLATENAME_OFFSET))(this);
 		}
 	};
 }

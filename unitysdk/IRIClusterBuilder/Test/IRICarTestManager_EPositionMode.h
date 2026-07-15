@@ -3,7 +3,7 @@
 
 namespace IRIClusterBuilder::Test
 {
-	inline static constexpr unsigned int IRICarTestManager_EPositionMode_TypeDefinitionIndex = 45079;
+	inline static constexpr unsigned int IRICarTestManager_EPositionMode_TypeDefinitionIndex = 45997;
 
 	enum class IRICarTestManager_EPositionMode : ::System::Int32
 	{

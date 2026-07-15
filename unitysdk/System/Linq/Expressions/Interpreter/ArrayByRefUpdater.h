@@ -8,13 +8,13 @@ namespace System::Linq::Expressions::Interpreter { class InstructionList; }
 namespace System::Linq::Expressions::Interpreter { class InterpretedFrame; }
 namespace System::Linq::Expressions::Interpreter { class LocalVariables; }
 
-#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_ARRAYBYREFUPDATER_UNDEFINETEMPS_OFFSET UNITYSDK_OFFSET(0x1AD6D370)
-#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_ARRAYBYREFUPDATER_UPDATE_OFFSET UNITYSDK_OFFSET(0x1AD6D230)
-#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_ARRAYBYREFUPDATER__CTOR_OFFSET UNITYSDK_OFFSET(0x1AD6D210)
+#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_ARRAYBYREFUPDATER_UNDEFINETEMPS_OFFSET UNITYSDK_OFFSET(0x17E697E0)
+#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_ARRAYBYREFUPDATER_UPDATE_OFFSET UNITYSDK_OFFSET(0x17E696A0)
+#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_ARRAYBYREFUPDATER__CTOR_OFFSET UNITYSDK_OFFSET(0x17E69680)
 
 namespace System::Linq::Expressions::Interpreter
 {
-	inline static constexpr unsigned int ArrayByRefUpdater_TypeDefinitionIndex = 3477;
+	inline static constexpr unsigned int ArrayByRefUpdater_TypeDefinitionIndex = 3481;
 
 	class ArrayByRefUpdater : public ::System::Linq::Expressions::Interpreter::ByRefUpdater
 	{

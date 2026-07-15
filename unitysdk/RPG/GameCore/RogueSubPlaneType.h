@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RogueSubPlaneType_TypeDefinitionIndex = 13370;
+	inline static constexpr unsigned int RogueSubPlaneType_TypeDefinitionIndex = 13518;
 
 	enum class RogueSubPlaneType : ::System::Int32
 	{

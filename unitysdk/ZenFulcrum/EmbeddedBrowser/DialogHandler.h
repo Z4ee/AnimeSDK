@@ -8,23 +8,23 @@ namespace ZenFulcrum::EmbeddedBrowser { class Browser; }
 namespace ZenFulcrum::EmbeddedBrowser { class DialogHandler_DialogCallback; }
 namespace ZenFulcrum::EmbeddedBrowser { class DialogHandler_MenuCallback; }
 
-#define ZENFULCRUM_EMBEDDEDBROWSER_DIALOGHANDLER_CREATE_OFFSET UNITYSDK_OFFSET(0x1B4DD8A0)
-#define ZENFULCRUM_EMBEDDEDBROWSER_DIALOGHANDLER_HANDLECONTEXTMENU_OFFSET UNITYSDK_OFFSET(0x1B4E6E70)
-#define ZENFULCRUM_EMBEDDEDBROWSER_DIALOGHANDLER_HANDLEDIALOG_OFFSET UNITYSDK_OFFSET(0x1B4E6660)
-#define ZENFULCRUM_EMBEDDEDBROWSER_DIALOGHANDLER_HIDE_OFFSET UNITYSDK_OFFSET(0x1B4F5A10)
-#define ZENFULCRUM_EMBEDDEDBROWSER_DIALOGHANDLER_SHOW_OFFSET UNITYSDK_OFFSET(0x1B4F5B70)
-#define ZENFULCRUM_EMBEDDEDBROWSER_DIALOGHANDLER__CTOR_OFFSET UNITYSDK_OFFSET(0x1B4F5BD0)
+#define ZENFULCRUM_EMBEDDEDBROWSER_DIALOGHANDLER_CREATE_OFFSET UNITYSDK_OFFSET(0x1AB3B9D0)
+#define ZENFULCRUM_EMBEDDEDBROWSER_DIALOGHANDLER_HANDLECONTEXTMENU_OFFSET UNITYSDK_OFFSET(0x1AB453C0)
+#define ZENFULCRUM_EMBEDDEDBROWSER_DIALOGHANDLER_HANDLEDIALOG_OFFSET UNITYSDK_OFFSET(0x1AB44BB0)
+#define ZENFULCRUM_EMBEDDEDBROWSER_DIALOGHANDLER_HIDE_OFFSET UNITYSDK_OFFSET(0x1AB555F0)
+#define ZENFULCRUM_EMBEDDEDBROWSER_DIALOGHANDLER_SHOW_OFFSET UNITYSDK_OFFSET(0x1AB55750)
+#define ZENFULCRUM_EMBEDDEDBROWSER_DIALOGHANDLER__CTOR_OFFSET UNITYSDK_OFFSET(0x1AB557B0)
 
 namespace ZenFulcrum::EmbeddedBrowser
 {
-	inline static constexpr unsigned int DialogHandler_TypeDefinitionIndex = 36555;
+	inline static constexpr unsigned int DialogHandler_TypeDefinitionIndex = 37337;
 
 	class DialogHandler : public ::UnityEngine::MonoBehaviour
 	{
 	public:
 		static ::System::String** StaticGet_dialogPage()
 		{
-			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(DialogHandler_TypeDefinitionIndex)->GetStaticField(0x655B0);
+			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(DialogHandler_TypeDefinitionIndex)->GetStaticField(0x65110);
 		}
 		::ZenFulcrum::EmbeddedBrowser::Browser* parentBrowser; // 0x18
 		::ZenFulcrum::EmbeddedBrowser::Browser* dialogBrowser; // 0x20

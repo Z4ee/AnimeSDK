@@ -1,7 +1,9 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int Class_0_16E4307DCC419505_1180_TypeDefinitionIndex = 72108;
+namespace RPG::Client { class SwordTrainingGameInstance; }
+
+inline static constexpr unsigned int Class_0_16E4307DCC419505_1180_TypeDefinitionIndex = 71403;
 
 class Class_0_16E4307DCC419505_1180
 {

@@ -4,19 +4,19 @@
 
 namespace MessagePack::Formatters { template <typename T> class IMessagePackFormatter_1; }
 
-#define MESSAGEPACK_RESOLVERS_DYNAMICGENERICRESOLVER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1818CD60)
-#define MESSAGEPACK_RESOLVERS_DYNAMICGENERICRESOLVER__CTOR_OFFSET UNITYSDK_OFFSET(0x1818CD50)
+#define MESSAGEPACK_RESOLVERS_DYNAMICGENERICRESOLVER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1B93BCF0)
+#define MESSAGEPACK_RESOLVERS_DYNAMICGENERICRESOLVER__CTOR_OFFSET UNITYSDK_OFFSET(0x1B93BCE0)
 
 namespace MessagePack::Resolvers
 {
-	inline static constexpr unsigned int DynamicGenericResolver_TypeDefinitionIndex = 7210;
+	inline static constexpr unsigned int DynamicGenericResolver_TypeDefinitionIndex = 7216;
 
 	class DynamicGenericResolver : public ::System::Object
 	{
 	public:
 		static ::MessagePack::Resolvers::DynamicGenericResolver** StaticGet_Instance()
 		{
-			return (::MessagePack::Resolvers::DynamicGenericResolver**)Il2CppClass::FromTypeDefinitionIndex(DynamicGenericResolver_TypeDefinitionIndex)->GetStaticField(0x9990);
+			return (::MessagePack::Resolvers::DynamicGenericResolver**)Il2CppClass::FromTypeDefinitionIndex(DynamicGenericResolver_TypeDefinitionIndex)->GetStaticField(0xA810);
 		}
 
 		::System::Void _ctor()

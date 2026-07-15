@@ -4,11 +4,10 @@
 
 namespace System { class String; }
 
-#define STRUCT_2_FD0368737CBF6F9B_7_TOSTRING_OFFSET UNITYSDK_OFFSET(0x83250)
-#define STRUCT_2_FD0368737CBF6F9B_7__CTOR_OFFSET UNITYSDK_OFFSET(0x2C4C0)
-#define STRUCT_2_FD0368737CBF6F9B_7___IFIXBASEPROXY_TOSTRING_OFFSET UNITYSDK_OFFSET(0x832B0)
+#define STRUCT_2_FD0368737CBF6F9B_7_TOSTRING_OFFSET UNITYSDK_OFFSET(0x38D3BA0)
+#define STRUCT_2_FD0368737CBF6F9B_7__CTOR_OFFSET UNITYSDK_OFFSET(0x167520)
 
-inline static constexpr unsigned int Struct_2_FD0368737CBF6F9B_7_TypeDefinitionIndex = 63363;
+inline static constexpr unsigned int Struct_2_FD0368737CBF6F9B_7_TypeDefinitionIndex = 64730;
 
 struct alignas(4) Struct_2_FD0368737CBF6F9B_7
 {
@@ -22,10 +21,5 @@ struct alignas(4) Struct_2_FD0368737CBF6F9B_7
 	::System::String* ToString()
 	{
 		return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + STRUCT_2_FD0368737CBF6F9B_7_TOSTRING_OFFSET))(this);
-	}
-
-	::System::String* __iFixBaseProxy_ToString()
-	{
-		return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + STRUCT_2_FD0368737CBF6F9B_7___IFIXBASEPROXY_TOSTRING_OFFSET))(this);
 	}
 };

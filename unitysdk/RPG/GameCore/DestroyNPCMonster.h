@@ -5,13 +5,13 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_DESTROYNPCMONSTER_METHOD_3_7CF4554916DBD9A0_OFFSET UNITYSDK_OFFSET(0x1969AB20)
-#define RPG_GAMECORE_DESTROYNPCMONSTER_METHOD_3_B9AC47DB2CB63831_OFFSET UNITYSDK_OFFSET(0x1969AAA0)
-#define RPG_GAMECORE_DESTROYNPCMONSTER__CTOR_OFFSET UNITYSDK_OFFSET(0x1969AAF0)
+#define RPG_GAMECORE_DESTROYNPCMONSTER_METHOD_3_70393269B284653D_OFFSET UNITYSDK_OFFSET(0x1C103CF0)
+#define RPG_GAMECORE_DESTROYNPCMONSTER_METHOD_3_7CF4554916DBD9A0_OFFSET UNITYSDK_OFFSET(0x1C103D30)
+#define RPG_GAMECORE_DESTROYNPCMONSTER__CTOR_OFFSET UNITYSDK_OFFSET(0x1C103D20)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int DestroyNPCMonster_TypeDefinitionIndex = 20728;
+	inline static constexpr unsigned int DestroyNPCMonster_TypeDefinitionIndex = 21143;
 
 	class DestroyNPCMonster : public ::RPG::GameCore::TaskConfig
 	{
@@ -25,9 +25,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_DESTROYNPCMONSTER__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_B9AC47DB2CB63831(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::DestroyNPCMonster*& a2)
+		static ::System::Void Method_3_70393269B284653D(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::DestroyNPCMonster*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::DestroyNPCMonster*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_DESTROYNPCMONSTER_METHOD_3_B9AC47DB2CB63831_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::DestroyNPCMonster*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_DESTROYNPCMONSTER_METHOD_3_70393269B284653D_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_7CF4554916DBD9A0(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::DestroyNPCMonster* a2)

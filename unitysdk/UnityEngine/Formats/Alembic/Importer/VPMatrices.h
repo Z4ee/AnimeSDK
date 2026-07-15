@@ -6,29 +6,29 @@
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace UnityEngine { class Camera; }
 
-#define UNITYENGINE_FORMATS_ALEMBIC_IMPORTER_VPMATRICES_GETPREVIOUS_OFFSET UNITYSDK_OFFSET(0x1B0388E0)
-#define UNITYENGINE_FORMATS_ALEMBIC_IMPORTER_VPMATRICES_GET_OFFSET UNITYSDK_OFFSET(0x1B038BB0)
-#define UNITYENGINE_FORMATS_ALEMBIC_IMPORTER_VPMATRICES_SWAPMATRIXMAP_OFFSET UNITYSDK_OFFSET(0x1B0414F0)
-#define UNITYENGINE_FORMATS_ALEMBIC_IMPORTER_VPMATRICES__CCTOR_OFFSET UNITYSDK_OFFSET(0x1B0415E0)
+#define UNITYENGINE_FORMATS_ALEMBIC_IMPORTER_VPMATRICES_GETPREVIOUS_OFFSET UNITYSDK_OFFSET(0x1B18EC80)
+#define UNITYENGINE_FORMATS_ALEMBIC_IMPORTER_VPMATRICES_GET_OFFSET UNITYSDK_OFFSET(0x1B18EF50)
+#define UNITYENGINE_FORMATS_ALEMBIC_IMPORTER_VPMATRICES_SWAPMATRIXMAP_OFFSET UNITYSDK_OFFSET(0x1B1985E0)
+#define UNITYENGINE_FORMATS_ALEMBIC_IMPORTER_VPMATRICES__CCTOR_OFFSET UNITYSDK_OFFSET(0x1B1986D0)
 
 namespace UnityEngine::Formats::Alembic::Importer
 {
-	inline static constexpr unsigned int VPMatrices_TypeDefinitionIndex = 41702;
+	inline static constexpr unsigned int VPMatrices_TypeDefinitionIndex = 42562;
 
 	class VPMatrices : public ::System::Object
 	{
 	public:
 		static ::System::Collections::Generic::Dictionary_2<::UnityEngine::Camera*, ::UnityEngine::Matrix4x4>** StaticGet_s_previousVPMatrix()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::UnityEngine::Camera*, ::UnityEngine::Matrix4x4>**)Il2CppClass::FromTypeDefinitionIndex(VPMatrices_TypeDefinitionIndex)->GetStaticField(0x62C30);
+			return (::System::Collections::Generic::Dictionary_2<::UnityEngine::Camera*, ::UnityEngine::Matrix4x4>**)Il2CppClass::FromTypeDefinitionIndex(VPMatrices_TypeDefinitionIndex)->GetStaticField(0x60D00);
 		}
 		static ::System::Collections::Generic::Dictionary_2<::UnityEngine::Camera*, ::UnityEngine::Matrix4x4>** StaticGet_s_currentVPMatrix()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::UnityEngine::Camera*, ::UnityEngine::Matrix4x4>**)Il2CppClass::FromTypeDefinitionIndex(VPMatrices_TypeDefinitionIndex)->GetStaticField(0x62C38);
+			return (::System::Collections::Generic::Dictionary_2<::UnityEngine::Camera*, ::UnityEngine::Matrix4x4>**)Il2CppClass::FromTypeDefinitionIndex(VPMatrices_TypeDefinitionIndex)->GetStaticField(0x60D08);
 		}
 		static ::System::Int32* StaticGet_s_frameCount()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(VPMatrices_TypeDefinitionIndex)->GetStaticField(0x13690);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(VPMatrices_TypeDefinitionIndex)->GetStaticField(0x12A30);
 		}
 
 		static ::System::Void _cctor()

@@ -4,10 +4,10 @@
 
 namespace RPG::GameCore { class FiveDimAnimatorStateListenerConfig; }
 
-#define CLASS_1_A8E456A0646E3188_CLEAR_OFFSET UNITYSDK_OFFSET(0x18CF9720)
-#define CLASS_1_A8E456A0646E3188__CTOR_OFFSET UNITYSDK_OFFSET(0x18CF9770)
+#define CLASS_1_A8E456A0646E3188_CLEAR_OFFSET UNITYSDK_OFFSET(0x1A900400)
+#define CLASS_1_A8E456A0646E3188__CTOR_OFFSET UNITYSDK_OFFSET(0x1A900450)
 
-inline static constexpr unsigned int Class_1_A8E456A0646E3188_TypeDefinitionIndex = 39886;
+inline static constexpr unsigned int Class_1_A8E456A0646E3188_TypeDefinitionIndex = 40698;
 
 class Class_1_A8E456A0646E3188 : public ::System::Object
 {

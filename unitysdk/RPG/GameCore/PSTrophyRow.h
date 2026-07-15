@@ -5,12 +5,12 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_PSTROPHYROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x199E10F0)
-#define RPG_GAMECORE_PSTROPHYROW__CTOR_OFFSET UNITYSDK_OFFSET(0x199E1300)
+#define RPG_GAMECORE_PSTROPHYROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1BB0A7D0)
+#define RPG_GAMECORE_PSTROPHYROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1BB0A9E0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PSTrophyRow_TypeDefinitionIndex = 12451;
+	inline static constexpr unsigned int PSTrophyRow_TypeDefinitionIndex = 12588;
 
 	class PSTrophyRow : public ::System::Object
 	{

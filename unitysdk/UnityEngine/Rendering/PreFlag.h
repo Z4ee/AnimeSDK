@@ -3,7 +3,7 @@
 
 namespace UnityEngine::Rendering
 {
-	inline static constexpr unsigned int PreFlag_TypeDefinitionIndex = 35188;
+	inline static constexpr unsigned int PreFlag_TypeDefinitionIndex = 35970;
 
 	enum class PreFlag : ::System::Int32
 	{

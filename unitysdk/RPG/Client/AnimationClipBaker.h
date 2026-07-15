@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 
-#define RPG_CLIENT_ANIMATIONCLIPBAKER__CTOR_OFFSET UNITYSDK_OFFSET(0xB30F890)
+#define RPG_CLIENT_ANIMATIONCLIPBAKER__CTOR_OFFSET UNITYSDK_OFFSET(0x19B13030)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int AnimationClipBaker_TypeDefinitionIndex = 63938;
+	inline static constexpr unsigned int AnimationClipBaker_TypeDefinitionIndex = 65309;
 
 	class AnimationClipBaker : public ::UnityEngine::MonoBehaviour
 	{

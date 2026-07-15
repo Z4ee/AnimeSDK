@@ -5,7 +5,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int DebugGUIManager_Struct_2_0090549FE42EDE8E_TypeDefinitionIndex = 63921;
+	inline static constexpr unsigned int DebugGUIManager_Struct_2_0090549FE42EDE8E_TypeDefinitionIndex = 65292;
 
 	struct alignas(4) DebugGUIManager_Struct_2_0090549FE42EDE8E
 	{

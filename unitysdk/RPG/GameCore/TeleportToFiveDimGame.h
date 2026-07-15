@@ -6,13 +6,13 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class DynamicString; }
 
-#define RPG_GAMECORE_TELEPORTTOFIVEDIMGAME_METHOD_3_490CBFC1FC1D19EF_OFFSET UNITYSDK_OFFSET(0x19DDE5B0)
-#define RPG_GAMECORE_TELEPORTTOFIVEDIMGAME_METHOD_3_80CCEC55F21CD419_OFFSET UNITYSDK_OFFSET(0x19DDE630)
-#define RPG_GAMECORE_TELEPORTTOFIVEDIMGAME__CTOR_OFFSET UNITYSDK_OFFSET(0x19DDE600)
+#define RPG_GAMECORE_TELEPORTTOFIVEDIMGAME_METHOD_3_1E4F0CED2294B250_OFFSET UNITYSDK_OFFSET(0x1C14AAD0)
+#define RPG_GAMECORE_TELEPORTTOFIVEDIMGAME_METHOD_3_80CCEC55F21CD419_OFFSET UNITYSDK_OFFSET(0x1C14AB10)
+#define RPG_GAMECORE_TELEPORTTOFIVEDIMGAME__CTOR_OFFSET UNITYSDK_OFFSET(0x1C14AB00)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TeleportToFiveDimGame_TypeDefinitionIndex = 20112;
+	inline static constexpr unsigned int TeleportToFiveDimGame_TypeDefinitionIndex = 20484;
 
 	class TeleportToFiveDimGame : public ::RPG::GameCore::TaskConfig
 	{
@@ -28,9 +28,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TELEPORTTOFIVEDIMGAME__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_490CBFC1FC1D19EF(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::TeleportToFiveDimGame*& a2)
+		static ::System::Void Method_3_1E4F0CED2294B250(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::TeleportToFiveDimGame*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::TeleportToFiveDimGame*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TELEPORTTOFIVEDIMGAME_METHOD_3_490CBFC1FC1D19EF_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::TeleportToFiveDimGame*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TELEPORTTOFIVEDIMGAME_METHOD_3_1E4F0CED2294B250_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_80CCEC55F21CD419(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::TeleportToFiveDimGame* a2)

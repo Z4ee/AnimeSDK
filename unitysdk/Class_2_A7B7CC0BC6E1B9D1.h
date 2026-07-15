@@ -1,6 +1,6 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Class_1_76ED9B246ED58A54.h"
+#include "unitysdk/Class_1_CD4EC20BEBA8A2DA.h"
 
 class Class_1_0E117AC86D8E5BCA;
 class Class_1_D8BECDCE48063EC7;
@@ -8,12 +8,12 @@ class Class_2_AEE59ED8DADEC1A1;
 namespace RPG::GameCore { class DiceCombatDiceSelectorConfig_SpecialEffect; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_2_A7B7CC0BC6E1B9D1_METHOD_2_855D3BCDF72A33C6_OFFSET UNITYSDK_OFFSET(0x18B31DE0)
-#define CLASS_2_A7B7CC0BC6E1B9D1__CTOR_OFFSET UNITYSDK_OFFSET(0x18B31DD0)
+#define CLASS_2_A7B7CC0BC6E1B9D1_METHOD_2_855D3BCDF72A33C6_OFFSET UNITYSDK_OFFSET(0x13ED0F50)
+#define CLASS_2_A7B7CC0BC6E1B9D1__CTOR_OFFSET UNITYSDK_OFFSET(0x13ED0F40)
 
-inline static constexpr unsigned int Class_2_A7B7CC0BC6E1B9D1_TypeDefinitionIndex = 34452;
+inline static constexpr unsigned int Class_2_A7B7CC0BC6E1B9D1_TypeDefinitionIndex = 34834;
 
-class Class_2_A7B7CC0BC6E1B9D1 : public ::Class_1_76ED9B246ED58A54
+class Class_2_A7B7CC0BC6E1B9D1 : public ::Class_1_CD4EC20BEBA8A2DA
 {
 public:
 	::RPG::GameCore::DiceCombatDiceSelectorConfig_SpecialEffect* Field_2_0; // 0x18

@@ -6,13 +6,13 @@ namespace HoudiniEngineUnity { class Test_TerrainLayer; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class TerrainLayer; }
 
-#define HOUDINIENGINEUNITY_TEST_TERRAINLAYER_EXTENSIONS_TOTESTOBJECT_1_OFFSET UNITYSDK_OFFSET(0x17F840D0)
-#define HOUDINIENGINEUNITY_TEST_TERRAINLAYER_EXTENSIONS_TOTESTOBJECT_2_OFFSET UNITYSDK_OFFSET(0x17F84CC0)
-#define HOUDINIENGINEUNITY_TEST_TERRAINLAYER_EXTENSIONS_TOTESTOBJECT_OFFSET UNITYSDK_OFFSET(0x17F84C80)
+#define HOUDINIENGINEUNITY_TEST_TERRAINLAYER_EXTENSIONS_TOTESTOBJECT_1_OFFSET UNITYSDK_OFFSET(0x1D2103B0)
+#define HOUDINIENGINEUNITY_TEST_TERRAINLAYER_EXTENSIONS_TOTESTOBJECT_2_OFFSET UNITYSDK_OFFSET(0x1D210FA0)
+#define HOUDINIENGINEUNITY_TEST_TERRAINLAYER_EXTENSIONS_TOTESTOBJECT_OFFSET UNITYSDK_OFFSET(0x1D210F60)
 
 namespace HoudiniEngineUnity
 {
-	inline static constexpr unsigned int Test_TerrainLayer_Extensions_TypeDefinitionIndex = 37788;
+	inline static constexpr unsigned int Test_TerrainLayer_Extensions_TypeDefinitionIndex = 38596;
 
 	class Test_TerrainLayer_Extensions : public ::System::Object
 	{

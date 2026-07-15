@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class AdvNpcHeadLookAtPlayer; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_7EED2C66E446A37D_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xAA067F0)
-#define CLASS_3_7EED2C66E446A37D__CTOR_OFFSET UNITYSDK_OFFSET(0xAA067C0)
+#define CLASS_3_7EED2C66E446A37D_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x182222B0)
+#define CLASS_3_7EED2C66E446A37D__CTOR_OFFSET UNITYSDK_OFFSET(0x18222280)
 
-inline static constexpr unsigned int Class_3_7EED2C66E446A37D_TypeDefinitionIndex = 49051;
+inline static constexpr unsigned int Class_3_7EED2C66E446A37D_TypeDefinitionIndex = 50064;
 
 class Class_3_7EED2C66E446A37D : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::AdvNpcHeadLookAtPlayer*>
 {

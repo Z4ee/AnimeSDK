@@ -3,7 +3,7 @@
 
 namespace Entitas
 {
-	inline static constexpr unsigned int GroupEvent_TypeDefinitionIndex = 9677;
+	inline static constexpr unsigned int GroupEvent_TypeDefinitionIndex = 9691;
 
 	enum class GroupEvent : ::System::Byte
 	{

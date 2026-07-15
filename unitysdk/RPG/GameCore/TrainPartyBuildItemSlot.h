@@ -6,12 +6,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class TrainPartyBuildItemSlotExt; }
 
-#define RPG_GAMECORE_TRAINPARTYBUILDITEMSLOT_METHOD_2_CF02F6DFF149B51C_OFFSET UNITYSDK_OFFSET(0x19DF2850)
-#define RPG_GAMECORE_TRAINPARTYBUILDITEMSLOT__CTOR_OFFSET UNITYSDK_OFFSET(0x19DF2A40)
+#define RPG_GAMECORE_TRAINPARTYBUILDITEMSLOT_METHOD_2_4FCEDC98F37A22E5_OFFSET UNITYSDK_OFFSET(0x1C15E1E0)
+#define RPG_GAMECORE_TRAINPARTYBUILDITEMSLOT__CTOR_OFFSET UNITYSDK_OFFSET(0x1C15E3F0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TrainPartyBuildItemSlot_TypeDefinitionIndex = 15452;
+	inline static constexpr unsigned int TrainPartyBuildItemSlot_TypeDefinitionIndex = 15623;
 
 	class TrainPartyBuildItemSlot : public ::RPG::GameCore::JsonConfig
 	{
@@ -27,9 +27,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TRAINPARTYBUILDITEMSLOT__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_CF02F6DFF149B51C(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::TrainPartyBuildItemSlot*& a2)
+		static ::System::Void Method_2_4FCEDC98F37A22E5(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::TrainPartyBuildItemSlot*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::TrainPartyBuildItemSlot*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TRAINPARTYBUILDITEMSLOT_METHOD_2_CF02F6DFF149B51C_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::TrainPartyBuildItemSlot*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TRAINPARTYBUILDITEMSLOT_METHOD_2_4FCEDC98F37A22E5_OFFSET))(a1, a2);
 		}
 	};
 }

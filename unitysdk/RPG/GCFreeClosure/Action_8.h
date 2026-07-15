@@ -8,7 +8,7 @@ namespace System { class Object; }
 
 namespace RPG::GCFreeClosure
 {
-	inline static constexpr unsigned int Action_8_TypeDefinitionIndex = 6881;
+	inline static constexpr unsigned int Action_8_TypeDefinitionIndex = 6886;
 
 	template <typename T1, typename T2, typename T3, typename T4, typename T5, typename T6, typename T7, typename T8>
 	class Action_8 : public ::System::MulticastDelegate

@@ -8,7 +8,7 @@ namespace System::Collections::Immutable { template <typename T> class Immutable
 
 namespace MessagePack::ImmutableCollection
 {
-	inline static constexpr unsigned int InterfaceImmutableListFormatter_1_TypeDefinitionIndex = 7316;
+	inline static constexpr unsigned int InterfaceImmutableListFormatter_1_TypeDefinitionIndex = 7322;
 
 	template <typename T>
 	class InterfaceImmutableListFormatter_1 : public ::MessagePack::Formatters::CollectionFormatterBase_3<T, ::System::Collections::Immutable::ImmutableList_1_Builder<T>*, ::System::Collections::Immutable::IImmutableList_1<T>*>

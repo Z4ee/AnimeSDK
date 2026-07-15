@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class ClearHPSharedGroup; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_7E22523C5ED234DB_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x13AA2C30)
-#define CLASS_3_7E22523C5ED234DB__CTOR_OFFSET UNITYSDK_OFFSET(0x13AA2C00)
+#define CLASS_3_7E22523C5ED234DB_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x193627C0)
+#define CLASS_3_7E22523C5ED234DB__CTOR_OFFSET UNITYSDK_OFFSET(0x19362790)
 
-inline static constexpr unsigned int Class_3_7E22523C5ED234DB_TypeDefinitionIndex = 51453;
+inline static constexpr unsigned int Class_3_7E22523C5ED234DB_TypeDefinitionIndex = 52595;
 
 class Class_3_7E22523C5ED234DB : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::ClearHPSharedGroup*>
 {

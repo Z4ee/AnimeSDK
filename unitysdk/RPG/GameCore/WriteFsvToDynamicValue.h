@@ -5,13 +5,13 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class DynamicString; }
 
-#define RPG_GAMECORE_WRITEFSVTODYNAMICVALUE_METHOD_3_9E46DA249B8C8BF9_OFFSET UNITYSDK_OFFSET(0x19E6D4C0)
-#define RPG_GAMECORE_WRITEFSVTODYNAMICVALUE_METHOD_3_F1A3199CDCA92670_OFFSET UNITYSDK_OFFSET(0x19E6D440)
-#define RPG_GAMECORE_WRITEFSVTODYNAMICVALUE__CTOR_OFFSET UNITYSDK_OFFSET(0x19E6D490)
+#define RPG_GAMECORE_WRITEFSVTODYNAMICVALUE_METHOD_3_9E46DA249B8C8BF9_OFFSET UNITYSDK_OFFSET(0x1D1C7C90)
+#define RPG_GAMECORE_WRITEFSVTODYNAMICVALUE_METHOD_3_AE26D26B49E8EB3A_OFFSET UNITYSDK_OFFSET(0x1D1C7C50)
+#define RPG_GAMECORE_WRITEFSVTODYNAMICVALUE__CTOR_OFFSET UNITYSDK_OFFSET(0x1D1C7C80)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int WriteFsvToDynamicValue_TypeDefinitionIndex = 20813;
+	inline static constexpr unsigned int WriteFsvToDynamicValue_TypeDefinitionIndex = 21228;
 
 	class WriteFsvToDynamicValue : public ::RPG::GameCore::TaskConfig
 	{
@@ -24,9 +24,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_WRITEFSVTODYNAMICVALUE__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_F1A3199CDCA92670(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::WriteFsvToDynamicValue*& a2)
+		static ::System::Void Method_3_AE26D26B49E8EB3A(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::WriteFsvToDynamicValue*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::WriteFsvToDynamicValue*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_WRITEFSVTODYNAMICVALUE_METHOD_3_F1A3199CDCA92670_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::WriteFsvToDynamicValue*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_WRITEFSVTODYNAMICVALUE_METHOD_3_AE26D26B49E8EB3A_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_9E46DA249B8C8BF9(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::WriteFsvToDynamicValue* a2)

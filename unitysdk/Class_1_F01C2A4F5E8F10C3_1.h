@@ -6,15 +6,15 @@ namespace RPG::GameCore { class GameEntity; }
 namespace RPG::GameCore { class TaskConfig; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_1_F01C2A4F5E8F10C3_1__CTOR_OFFSET UNITYSDK_OFFSET(0xAFAC6F0)
+#define CLASS_1_F01C2A4F5E8F10C3_1__CTOR_OFFSET UNITYSDK_OFFSET(0x14276230)
 
-inline static constexpr unsigned int Class_1_F01C2A4F5E8F10C3_1_TypeDefinitionIndex = 50681;
+inline static constexpr unsigned int Class_1_F01C2A4F5E8F10C3_1_TypeDefinitionIndex = 51763;
 
 class Class_1_F01C2A4F5E8F10C3_1 : public ::System::Object
 {
 public:
-	::System::Collections::Generic::List_1<::RPG::GameCore::GameEntity*>* Field_1_0; // 0x10
-	::Il2CppArray<::RPG::GameCore::TaskConfig*>* Field_1_1; // 0x18
+	::Il2CppArray<::RPG::GameCore::TaskConfig*>* Field_1_0; // 0x10
+	::System::Collections::Generic::List_1<::RPG::GameCore::GameEntity*>* Field_1_1; // 0x18
 
 	::System::Void _ctor()
 	{

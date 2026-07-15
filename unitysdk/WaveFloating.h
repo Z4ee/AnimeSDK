@@ -10,11 +10,10 @@ namespace UnityEngine { class Material; }
 namespace UnityEngine { class Mesh; }
 namespace UnityEngine { class MeshRenderer; }
 
-#define WAVEFLOATING_GETTICKLODTEMPLATENAME_OFFSET UNITYSDK_OFFSET(0xD0F9A50)
-#define WAVEFLOATING__CTOR_OFFSET UNITYSDK_OFFSET(0xD0F9AA0)
-#define WAVEFLOATING___IFIXBASEPROXY_GETTICKLODTEMPLATENAME_OFFSET UNITYSDK_OFFSET(0xD0F9B50)
+#define WAVEFLOATING_GETTICKLODTEMPLATENAME_OFFSET UNITYSDK_OFFSET(0x1053C950)
+#define WAVEFLOATING__CTOR_OFFSET UNITYSDK_OFFSET(0x1053C9A0)
 
-inline static constexpr unsigned int WaveFloating_TypeDefinitionIndex = 44779;
+inline static constexpr unsigned int WaveFloating_TypeDefinitionIndex = 45696;
 
 class WaveFloating : public ::RPG::Client::TAMonoPlugin_1<::Class_3_927C86CDC6E097B0*>
 {
@@ -33,10 +32,5 @@ public:
 	::System::String* GetTickLodTemplateName()
 	{
 		return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + WAVEFLOATING_GETTICKLODTEMPLATENAME_OFFSET))(this);
-	}
-
-	::System::String* __iFixBaseProxy_GetTickLodTemplateName()
-	{
-		return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + WAVEFLOATING___IFIXBASEPROXY_GETTICKLODTEMPLATENAME_OFFSET))(this);
 	}
 };

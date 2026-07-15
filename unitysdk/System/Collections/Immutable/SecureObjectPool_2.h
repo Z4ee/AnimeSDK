@@ -6,7 +6,7 @@ namespace System::Collections::Immutable { template <typename T> class SecurePoo
 
 namespace System::Collections::Immutable
 {
-	inline static constexpr unsigned int SecureObjectPool_2_TypeDefinitionIndex = 7038;
+	inline static constexpr unsigned int SecureObjectPool_2_TypeDefinitionIndex = 7044;
 
 	template <typename T, typename TCaller>
 	class SecureObjectPool_2 : public ::System::Object

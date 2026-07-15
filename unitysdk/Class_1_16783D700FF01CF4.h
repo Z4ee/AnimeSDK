@@ -5,9 +5,9 @@
 
 namespace RPG::GameCore { class LevelNavNodeConditionInfos; }
 
-#define CLASS_1_16783D700FF01CF4__CTOR_OFFSET UNITYSDK_OFFSET(0x14435DB0)
+#define CLASS_1_16783D700FF01CF4__CTOR_OFFSET UNITYSDK_OFFSET(0x1921DF00)
 
-inline static constexpr unsigned int Class_1_16783D700FF01CF4_TypeDefinitionIndex = 60016;
+inline static constexpr unsigned int Class_1_16783D700FF01CF4_TypeDefinitionIndex = 61301;
 
 class Class_1_16783D700FF01CF4 : public ::System::Object
 {
@@ -19,8 +19,8 @@ public:
 	::System::UInt32 Field_1_4; // 0x24
 	::System::UInt32 Field_1_5; // 0x28
 	::System::UInt32 Field_1_6; // 0x2C
-	::System::UInt32 Field_1_7; // 0x30
-	::RPG::Client::FiveDimNavTransitType Field_1_8; // 0x34
+	::RPG::Client::FiveDimNavTransitType Field_1_7; // 0x30
+	::System::UInt32 Field_1_8; // 0x34
 
 	::System::Void _ctor()
 	{

@@ -1,18 +1,18 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Class_1_89D8044AB73F8F6D.h"
+#include "unitysdk/Class_1_A167209E71412818.h"
 
 namespace System { class String; }
 namespace UnityEngine { class Transform; }
 namespace UnityEngine::UI { class Button; }
 
-#define CLASS_2_43FD6E21AEF38B88_METHOD_2_4343F372F34C05BF_OFFSET UNITYSDK_OFFSET(0xB2BD860)
-#define CLASS_2_43FD6E21AEF38B88_METHOD_2_88B60F3B95FAA4F1_OFFSET UNITYSDK_OFFSET(0xB2BD7F0)
-#define CLASS_2_43FD6E21AEF38B88__CTOR_OFFSET UNITYSDK_OFFSET(0xB2BD950)
+#define CLASS_2_43FD6E21AEF38B88_METHOD_2_4343F372F34C05BF_OFFSET UNITYSDK_OFFSET(0x14FD62A0)
+#define CLASS_2_43FD6E21AEF38B88_METHOD_2_88B60F3B95FAA4F1_OFFSET UNITYSDK_OFFSET(0x14FD6230)
+#define CLASS_2_43FD6E21AEF38B88__CTOR_OFFSET UNITYSDK_OFFSET(0x14FD6390)
 
-inline static constexpr unsigned int Class_2_43FD6E21AEF38B88_TypeDefinitionIndex = 68064;
+inline static constexpr unsigned int Class_2_43FD6E21AEF38B88_TypeDefinitionIndex = 69550;
 
-class Class_2_43FD6E21AEF38B88 : public ::Class_1_89D8044AB73F8F6D
+class Class_2_43FD6E21AEF38B88 : public ::Class_1_A167209E71412818
 {
 public:
 	::UnityEngine::UI::Button* Field_2_0; // 0x18

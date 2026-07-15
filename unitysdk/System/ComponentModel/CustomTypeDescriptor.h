@@ -6,13 +6,13 @@ namespace System::ComponentModel { class AttributeCollection; }
 namespace System::ComponentModel { class ICustomTypeDescriptor; }
 namespace System::ComponentModel { class TypeConverter; }
 
-#define SYSTEM_COMPONENTMODEL_CUSTOMTYPEDESCRIPTOR_GETATTRIBUTES_OFFSET UNITYSDK_OFFSET(0x1AF27A00)
-#define SYSTEM_COMPONENTMODEL_CUSTOMTYPEDESCRIPTOR_GETCONVERTER_OFFSET UNITYSDK_OFFSET(0x1AF27AD0)
-#define SYSTEM_COMPONENTMODEL_CUSTOMTYPEDESCRIPTOR__CTOR_OFFSET UNITYSDK_OFFSET(0x1AF279F0)
+#define SYSTEM_COMPONENTMODEL_CUSTOMTYPEDESCRIPTOR_GETATTRIBUTES_OFFSET UNITYSDK_OFFSET(0x1A8651D0)
+#define SYSTEM_COMPONENTMODEL_CUSTOMTYPEDESCRIPTOR_GETCONVERTER_OFFSET UNITYSDK_OFFSET(0x1A8652E0)
+#define SYSTEM_COMPONENTMODEL_CUSTOMTYPEDESCRIPTOR__CTOR_OFFSET UNITYSDK_OFFSET(0x1A8651C0)
 
 namespace System::ComponentModel
 {
-	inline static constexpr unsigned int CustomTypeDescriptor_TypeDefinitionIndex = 2562;
+	inline static constexpr unsigned int CustomTypeDescriptor_TypeDefinitionIndex = 2566;
 
 	class CustomTypeDescriptor : public ::System::Object
 	{

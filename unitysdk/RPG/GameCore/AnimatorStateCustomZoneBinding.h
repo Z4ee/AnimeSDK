@@ -6,12 +6,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_ANIMATORSTATECUSTOMZONEBINDING_METHOD_2_1A8FE7D7B8314345_OFFSET UNITYSDK_OFFSET(0x1947B1C0)
-#define RPG_GAMECORE_ANIMATORSTATECUSTOMZONEBINDING__CTOR_OFFSET UNITYSDK_OFFSET(0x1947B2D0)
+#define RPG_GAMECORE_ANIMATORSTATECUSTOMZONEBINDING_METHOD_2_1313132CA92D192A_OFFSET UNITYSDK_OFFSET(0x1A058360)
+#define RPG_GAMECORE_ANIMATORSTATECUSTOMZONEBINDING__CTOR_OFFSET UNITYSDK_OFFSET(0x1A0584A0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AnimatorStateCustomZoneBinding_TypeDefinitionIndex = 15520;
+	inline static constexpr unsigned int AnimatorStateCustomZoneBinding_TypeDefinitionIndex = 15691;
 
 	class AnimatorStateCustomZoneBinding : public ::RPG::GameCore::JsonConfig
 	{
@@ -24,9 +24,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ANIMATORSTATECUSTOMZONEBINDING__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_1A8FE7D7B8314345(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AnimatorStateCustomZoneBinding*& a2)
+		static ::System::Void Method_2_1313132CA92D192A(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AnimatorStateCustomZoneBinding*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::AnimatorStateCustomZoneBinding*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ANIMATORSTATECUSTOMZONEBINDING_METHOD_2_1A8FE7D7B8314345_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::AnimatorStateCustomZoneBinding*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ANIMATORSTATECUSTOMZONEBINDING_METHOD_2_1313132CA92D192A_OFFSET))(a1, a2);
 		}
 	};
 }

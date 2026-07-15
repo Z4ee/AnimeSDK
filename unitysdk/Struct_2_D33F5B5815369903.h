@@ -5,7 +5,7 @@
 
 namespace System { class Object; }
 
-inline static constexpr unsigned int Struct_2_D33F5B5815369903_TypeDefinitionIndex = 50564;
+inline static constexpr unsigned int Struct_2_D33F5B5815369903_TypeDefinitionIndex = 51646;
 
 struct alignas(8) Struct_2_D33F5B5815369903
 {

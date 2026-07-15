@@ -3,12 +3,12 @@
 #include "unitysdk/System/ValueType.h"
 #include "unitysdk/UnityEngine/Playables/PlayableHandle.h"
 
-#define UNITYENGINE_EXPERIMENTAL_PLAYABLES_CAMERAPLAYABLE_EQUALS_OFFSET UNITYSDK_OFFSET(0x387C440)
-#define UNITYENGINE_EXPERIMENTAL_PLAYABLES_CAMERAPLAYABLE_GETHANDLE_OFFSET UNITYSDK_OFFSET(0x2BC6740)
+#define UNITYENGINE_EXPERIMENTAL_PLAYABLES_CAMERAPLAYABLE_EQUALS_OFFSET UNITYSDK_OFFSET(0x3A8C7F0)
+#define UNITYENGINE_EXPERIMENTAL_PLAYABLES_CAMERAPLAYABLE_GETHANDLE_OFFSET UNITYSDK_OFFSET(0x165450)
 
 namespace UnityEngine::Experimental::Playables
 {
-	inline static constexpr unsigned int CameraPlayable_TypeDefinitionIndex = 4909;
+	inline static constexpr unsigned int CameraPlayable_TypeDefinitionIndex = 4914;
 
 	struct alignas(8) CameraPlayable
 	{

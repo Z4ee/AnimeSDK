@@ -11,13 +11,13 @@ namespace RPG::GameCore { class PredicateConfig; }
 namespace RPG::GameCore { class TargetEvaluator; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_DISPELSTATUS_METHOD_3_B47905F01C207A7F_OFFSET UNITYSDK_OFFSET(0x196BD3F0)
-#define RPG_GAMECORE_DISPELSTATUS_METHOD_3_E657D7E59E6A73F9_OFFSET UNITYSDK_OFFSET(0x196BD350)
-#define RPG_GAMECORE_DISPELSTATUS__CTOR_OFFSET UNITYSDK_OFFSET(0x196BD3B0)
+#define RPG_GAMECORE_DISPELSTATUS_METHOD_3_2DCC7B3C23D5E758_OFFSET UNITYSDK_OFFSET(0x1BB19200)
+#define RPG_GAMECORE_DISPELSTATUS_METHOD_3_B47905F01C207A7F_OFFSET UNITYSDK_OFFSET(0x1BB19260)
+#define RPG_GAMECORE_DISPELSTATUS__CTOR_OFFSET UNITYSDK_OFFSET(0x1BB19240)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int DispelStatus_TypeDefinitionIndex = 21445;
+	inline static constexpr unsigned int DispelStatus_TypeDefinitionIndex = 21865;
 
 	class DispelStatus : public ::RPG::GameCore::TaskConfig
 	{
@@ -39,9 +39,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_DISPELSTATUS__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_E657D7E59E6A73F9(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::DispelStatus*& a2)
+		static ::System::Void Method_3_2DCC7B3C23D5E758(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::DispelStatus*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::DispelStatus*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_DISPELSTATUS_METHOD_3_E657D7E59E6A73F9_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::DispelStatus*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_DISPELSTATUS_METHOD_3_2DCC7B3C23D5E758_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_B47905F01C207A7F(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::DispelStatus* a2)

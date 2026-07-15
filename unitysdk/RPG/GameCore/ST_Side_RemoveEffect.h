@@ -5,13 +5,13 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_ST_SIDE_REMOVEEFFECT_METHOD_4_AE7F32E01E3A637B_OFFSET UNITYSDK_OFFSET(0x19C0D050)
-#define RPG_GAMECORE_ST_SIDE_REMOVEEFFECT_METHOD_4_E42ECF352795BECD_OFFSET UNITYSDK_OFFSET(0x19C1AFD0)
-#define RPG_GAMECORE_ST_SIDE_REMOVEEFFECT__CTOR_OFFSET UNITYSDK_OFFSET(0x19C0CFF0)
+#define RPG_GAMECORE_ST_SIDE_REMOVEEFFECT_METHOD_4_AE7F32E01E3A637B_OFFSET UNITYSDK_OFFSET(0x1C2C4D10)
+#define RPG_GAMECORE_ST_SIDE_REMOVEEFFECT_METHOD_4_FDACF8AC30ED28DA_OFFSET UNITYSDK_OFFSET(0x1C2C4CC0)
+#define RPG_GAMECORE_ST_SIDE_REMOVEEFFECT__CTOR_OFFSET UNITYSDK_OFFSET(0x1C2C4D00)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ST_Side_RemoveEffect_TypeDefinitionIndex = 19019;
+	inline static constexpr unsigned int ST_Side_RemoveEffect_TypeDefinitionIndex = 19370;
 
 	class ST_Side_RemoveEffect : public ::RPG::GameCore::STTaskConfig
 	{
@@ -25,9 +25,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ST_SIDE_REMOVEEFFECT__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_4_E42ECF352795BECD(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ST_Side_RemoveEffect*& a2)
+		static ::System::Void Method_4_FDACF8AC30ED28DA(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ST_Side_RemoveEffect*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ST_Side_RemoveEffect*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ST_SIDE_REMOVEEFFECT_METHOD_4_E42ECF352795BECD_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ST_Side_RemoveEffect*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ST_SIDE_REMOVEEFFECT_METHOD_4_FDACF8AC30ED28DA_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_4_AE7F32E01E3A637B(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ST_Side_RemoveEffect* a2)

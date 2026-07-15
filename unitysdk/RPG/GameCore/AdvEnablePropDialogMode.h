@@ -5,13 +5,13 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class TargetEvaluator; }
 
-#define RPG_GAMECORE_ADVENABLEPROPDIALOGMODE_METHOD_3_4E199948EE87BCA7_OFFSET UNITYSDK_OFFSET(0x19421C20)
-#define RPG_GAMECORE_ADVENABLEPROPDIALOGMODE_METHOD_3_C5C9008075A158C2_OFFSET UNITYSDK_OFFSET(0x19421AB0)
-#define RPG_GAMECORE_ADVENABLEPROPDIALOGMODE__CTOR_OFFSET UNITYSDK_OFFSET(0x19421B80)
+#define RPG_GAMECORE_ADVENABLEPROPDIALOGMODE_METHOD_3_4E199948EE87BCA7_OFFSET UNITYSDK_OFFSET(0x1BE1A5B0)
+#define RPG_GAMECORE_ADVENABLEPROPDIALOGMODE_METHOD_3_876EB066C91DD853_OFFSET UNITYSDK_OFFSET(0x1BE1A510)
+#define RPG_GAMECORE_ADVENABLEPROPDIALOGMODE__CTOR_OFFSET UNITYSDK_OFFSET(0x1BE1A570)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AdvEnablePropDialogMode_TypeDefinitionIndex = 19200;
+	inline static constexpr unsigned int AdvEnablePropDialogMode_TypeDefinitionIndex = 19556;
 
 	class AdvEnablePropDialogMode : public ::RPG::GameCore::TaskConfig
 	{
@@ -30,9 +30,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVENABLEPROPDIALOGMODE__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_C5C9008075A158C2(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AdvEnablePropDialogMode*& a2)
+		static ::System::Void Method_3_876EB066C91DD853(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AdvEnablePropDialogMode*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::AdvEnablePropDialogMode*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVENABLEPROPDIALOGMODE_METHOD_3_C5C9008075A158C2_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::AdvEnablePropDialogMode*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVENABLEPROPDIALOGMODE_METHOD_3_876EB066C91DD853_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_4E199948EE87BCA7(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AdvEnablePropDialogMode* a2)

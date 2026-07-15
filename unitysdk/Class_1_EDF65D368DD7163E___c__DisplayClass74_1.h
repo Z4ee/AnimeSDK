@@ -7,17 +7,17 @@ namespace RPG::GameCore { class GameEntity; }
 namespace RPG::GameCore { class ModifierAffectedPreshowConfig; }
 namespace RPG::GameCore { class TurnBasedModifierInstance; }
 
-#define CLASS_1_EDF65D368DD7163E___C__DISPLAYCLASS74_1__CTOR_OFFSET UNITYSDK_OFFSET(0x145A55E0)
-#define CLASS_1_EDF65D368DD7163E___C__DISPLAYCLASS74_1__ONCASTERMODIFIERPREVIEWAFFECTTARGETS_B__1_OFFSET UNITYSDK_OFFSET(0x145A55F0)
+#define CLASS_1_EDF65D368DD7163E___C__DISPLAYCLASS74_1__CTOR_OFFSET UNITYSDK_OFFSET(0x1630C1E0)
+#define CLASS_1_EDF65D368DD7163E___C__DISPLAYCLASS74_1__ONCASTERMODIFIERPREVIEWAFFECTTARGETS_B__1_OFFSET UNITYSDK_OFFSET(0x1630C1F0)
 
-inline static constexpr unsigned int Class_1_EDF65D368DD7163E___c__DisplayClass74_1_TypeDefinitionIndex = 66656;
+inline static constexpr unsigned int Class_1_EDF65D368DD7163E___c__DisplayClass74_1_TypeDefinitionIndex = 68092;
 
 class Class_1_EDF65D368DD7163E___c__DisplayClass74_1 : public ::System::Object
 {
 public:
-	::Class_1_EDF65D368DD7163E___c__DisplayClass74_0* CS___8__locals1; // 0x10
-	::RPG::GameCore::TurnBasedModifierInstance* modifier; // 0x18
-	::RPG::GameCore::ModifierAffectedPreshowConfig* pPreshowConfig; // 0x20
+	::RPG::GameCore::TurnBasedModifierInstance* modifier; // 0x10
+	::RPG::GameCore::ModifierAffectedPreshowConfig* pPreshowConfig; // 0x18
+	::Class_1_EDF65D368DD7163E___c__DisplayClass74_0* CS___8__locals1; // 0x20
 
 	::System::Void _ctor()
 	{

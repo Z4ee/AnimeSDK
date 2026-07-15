@@ -8,7 +8,7 @@
 
 namespace UnityEngine::Rendering
 {
-	inline static constexpr unsigned int SSGISettings_TypeDefinitionIndex = 4829;
+	inline static constexpr unsigned int SSGISettings_TypeDefinitionIndex = 4834;
 
 	struct alignas(4) SSGISettings
 	{

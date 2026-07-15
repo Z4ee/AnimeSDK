@@ -5,13 +5,13 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class TargetEvaluator; }
 
-#define RPG_GAMECORE_VERIFYINTERACTINGENTITY_METHOD_3_BD178069C3DAAAC0_OFFSET UNITYSDK_OFFSET(0x19E4ACD0)
-#define RPG_GAMECORE_VERIFYINTERACTINGENTITY_METHOD_3_CB95EE76AADE8C18_OFFSET UNITYSDK_OFFSET(0x19E4AC50)
-#define RPG_GAMECORE_VERIFYINTERACTINGENTITY__CTOR_OFFSET UNITYSDK_OFFSET(0x19E4ACA0)
+#define RPG_GAMECORE_VERIFYINTERACTINGENTITY_METHOD_3_BD178069C3DAAAC0_OFFSET UNITYSDK_OFFSET(0x1B89A240)
+#define RPG_GAMECORE_VERIFYINTERACTINGENTITY_METHOD_3_D2D32DB3E3878CA5_OFFSET UNITYSDK_OFFSET(0x1B89A200)
+#define RPG_GAMECORE_VERIFYINTERACTINGENTITY__CTOR_OFFSET UNITYSDK_OFFSET(0x1B89A230)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int VerifyInteractingEntity_TypeDefinitionIndex = 19709;
+	inline static constexpr unsigned int VerifyInteractingEntity_TypeDefinitionIndex = 20068;
 
 	class VerifyInteractingEntity : public ::RPG::GameCore::TaskConfig
 	{
@@ -27,9 +27,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_VERIFYINTERACTINGENTITY__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_CB95EE76AADE8C18(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::VerifyInteractingEntity*& a2)
+		static ::System::Void Method_3_D2D32DB3E3878CA5(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::VerifyInteractingEntity*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::VerifyInteractingEntity*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_VERIFYINTERACTINGENTITY_METHOD_3_CB95EE76AADE8C18_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::VerifyInteractingEntity*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_VERIFYINTERACTINGENTITY_METHOD_3_D2D32DB3E3878CA5_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_BD178069C3DAAAC0(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::VerifyInteractingEntity* a2)

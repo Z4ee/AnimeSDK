@@ -6,13 +6,13 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class DynamicFloat; }
 namespace RPG::GameCore { class DynamicStringList; }
 
-#define RPG_GAMECORE_INITFLIPPERLIGHTDEVICE_METHOD_3_6BA956175BD6AFE2_OFFSET UNITYSDK_OFFSET(0x19850070)
-#define RPG_GAMECORE_INITFLIPPERLIGHTDEVICE_METHOD_3_EF6037CA8CAAB551_OFFSET UNITYSDK_OFFSET(0x1984FFF0)
-#define RPG_GAMECORE_INITFLIPPERLIGHTDEVICE__CTOR_OFFSET UNITYSDK_OFFSET(0x19850040)
+#define RPG_GAMECORE_INITFLIPPERLIGHTDEVICE_METHOD_3_2F02B865DE09D6AC_OFFSET UNITYSDK_OFFSET(0x1B010180)
+#define RPG_GAMECORE_INITFLIPPERLIGHTDEVICE_METHOD_3_6BA956175BD6AFE2_OFFSET UNITYSDK_OFFSET(0x1B0101D0)
+#define RPG_GAMECORE_INITFLIPPERLIGHTDEVICE__CTOR_OFFSET UNITYSDK_OFFSET(0x1B0101C0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int InitFlipperLightDevice_TypeDefinitionIndex = 21112;
+	inline static constexpr unsigned int InitFlipperLightDevice_TypeDefinitionIndex = 21527;
 
 	class InitFlipperLightDevice : public ::RPG::GameCore::TaskConfig
 	{
@@ -30,9 +30,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_INITFLIPPERLIGHTDEVICE__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_EF6037CA8CAAB551(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::InitFlipperLightDevice*& a2)
+		static ::System::Void Method_3_2F02B865DE09D6AC(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::InitFlipperLightDevice*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::InitFlipperLightDevice*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_INITFLIPPERLIGHTDEVICE_METHOD_3_EF6037CA8CAAB551_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::InitFlipperLightDevice*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_INITFLIPPERLIGHTDEVICE_METHOD_3_2F02B865DE09D6AC_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_6BA956175BD6AFE2(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::InitFlipperLightDevice* a2)

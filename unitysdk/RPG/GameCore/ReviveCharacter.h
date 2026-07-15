@@ -7,13 +7,13 @@ namespace RPG::GameCore { class DynamicFloat; }
 namespace RPG::GameCore { class TargetEvaluator; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_REVIVECHARACTER_METHOD_3_0A109FFE2C251108_OFFSET UNITYSDK_OFFSET(0x19ADDD80)
-#define RPG_GAMECORE_REVIVECHARACTER_METHOD_3_B4EAF08CE95CEB6A_OFFSET UNITYSDK_OFFSET(0x19ADDFF0)
-#define RPG_GAMECORE_REVIVECHARACTER__CTOR_OFFSET UNITYSDK_OFFSET(0x19ADDED0)
+#define RPG_GAMECORE_REVIVECHARACTER_METHOD_3_0A109FFE2C251108_OFFSET UNITYSDK_OFFSET(0x1D02A020)
+#define RPG_GAMECORE_REVIVECHARACTER_METHOD_3_B4EAF08CE95CEB6A_OFFSET UNITYSDK_OFFSET(0x1D02A250)
+#define RPG_GAMECORE_REVIVECHARACTER__CTOR_OFFSET UNITYSDK_OFFSET(0x1D02A150)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ReviveCharacter_TypeDefinitionIndex = 21479;
+	inline static constexpr unsigned int ReviveCharacter_TypeDefinitionIndex = 21899;
 
 	class ReviveCharacter : public ::RPG::GameCore::TaskConfig
 	{

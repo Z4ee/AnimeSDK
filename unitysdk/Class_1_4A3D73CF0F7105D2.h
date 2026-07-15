@@ -7,19 +7,19 @@ namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class IReadOnlyList_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_1_4A3D73CF0F7105D2_METHOD_1_0264846CD9FCD385_OFFSET UNITYSDK_OFFSET(0xA7C5D80)
-#define CLASS_1_4A3D73CF0F7105D2_METHOD_1_185D0CAE46707310_OFFSET UNITYSDK_OFFSET(0xA7C58F0)
-#define CLASS_1_4A3D73CF0F7105D2_METHOD_1_2A148DA74006E2C6_OFFSET UNITYSDK_OFFSET(0xA7975F0)
-#define CLASS_1_4A3D73CF0F7105D2_METHOD_1_8DDC802F41655B29_OFFSET UNITYSDK_OFFSET(0xA7C5D30)
+#define CLASS_1_4A3D73CF0F7105D2_METHOD_1_0264846CD9FCD385_OFFSET UNITYSDK_OFFSET(0x16A54AF0)
+#define CLASS_1_4A3D73CF0F7105D2_METHOD_1_2A148DA74006E2C6_OFFSET UNITYSDK_OFFSET(0x16A54500)
+#define CLASS_1_4A3D73CF0F7105D2_METHOD_1_526882B12123A99B_OFFSET UNITYSDK_OFFSET(0x16A53F30)
+#define CLASS_1_4A3D73CF0F7105D2_METHOD_1_8DDC802F41655B29_OFFSET UNITYSDK_OFFSET(0x16A54AA0)
 
-inline static constexpr unsigned int Class_1_4A3D73CF0F7105D2_TypeDefinitionIndex = 58368;
+inline static constexpr unsigned int Class_1_4A3D73CF0F7105D2_TypeDefinitionIndex = 59630;
 
 class Class_1_4A3D73CF0F7105D2 : public ::System::Object
 {
 public:
-	static ::System::String* Method_1_185D0CAE46707310(::System::Collections::Generic::IReadOnlyList_1<::UnityEngine::Vector2Int>* a1)
+	static ::System::String* Method_1_526882B12123A99B(::System::Collections::Generic::IReadOnlyList_1<::UnityEngine::Vector2Int>* a1)
 	{
-		return ((::System::String*(*)(::System::Collections::Generic::IReadOnlyList_1<::UnityEngine::Vector2Int>*))((::PBYTE)hIl2Cpp + CLASS_1_4A3D73CF0F7105D2_METHOD_1_185D0CAE46707310_OFFSET))(a1);
+		return ((::System::String*(*)(::System::Collections::Generic::IReadOnlyList_1<::UnityEngine::Vector2Int>*))((::PBYTE)hIl2Cpp + CLASS_1_4A3D73CF0F7105D2_METHOD_1_526882B12123A99B_OFFSET))(a1);
 	}
 
 	static ::System::Void Method_1_2A148DA74006E2C6(::UnityEngine::Vector2Int a1, ::UnityEngine::Vector2Int a2, ::System::Collections::Generic::List_1<::UnityEngine::Vector2Int>* a3, ::System::Boolean a4)

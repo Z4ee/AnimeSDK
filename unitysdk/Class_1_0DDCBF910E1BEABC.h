@@ -9,19 +9,19 @@ namespace RPG::GameCore { class RtBattleCharacterCameraConfig; }
 namespace RPG::GameCore { class TaskContext; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_1_0DDCBF910E1BEABC_CLEAR_OFFSET UNITYSDK_OFFSET(0x1443CDB0)
-#define CLASS_1_0DDCBF910E1BEABC_METHOD_1_8377BC0DCBA8CDB6_OFFSET UNITYSDK_OFFSET(0x1443CAA0)
-#define CLASS_1_0DDCBF910E1BEABC_METHOD_1_A5C0A53CF4FA2766_OFFSET UNITYSDK_OFFSET(0x1443CE50)
-#define CLASS_1_0DDCBF910E1BEABC_METHOD_1_B7A8627FBC70C11A_OFFSET UNITYSDK_OFFSET(0x1443CAB0)
-#define CLASS_1_0DDCBF910E1BEABC__CTOR_OFFSET UNITYSDK_OFFSET(0x1443D000)
+#define CLASS_1_0DDCBF910E1BEABC_CLEAR_OFFSET UNITYSDK_OFFSET(0x192250F0)
+#define CLASS_1_0DDCBF910E1BEABC_METHOD_1_8377BC0DCBA8CDB6_OFFSET UNITYSDK_OFFSET(0x19224D10)
+#define CLASS_1_0DDCBF910E1BEABC_METHOD_1_A5C0A53CF4FA2766_OFFSET UNITYSDK_OFFSET(0x192251F0)
+#define CLASS_1_0DDCBF910E1BEABC_METHOD_1_B7A8627FBC70C11A_OFFSET UNITYSDK_OFFSET(0x19224D20)
+#define CLASS_1_0DDCBF910E1BEABC__CTOR_OFFSET UNITYSDK_OFFSET(0x192253A0)
 
-inline static constexpr unsigned int Class_1_0DDCBF910E1BEABC_TypeDefinitionIndex = 50772;
+inline static constexpr unsigned int Class_1_0DDCBF910E1BEABC_TypeDefinitionIndex = 51854;
 
 class Class_1_0DDCBF910E1BEABC : public ::System::Object
 {
 public:
-	::Il2CppArray<::RPG::GameCore::RtBattleCharacterCameraConfig*>* Field_1_0; // 0x10
-	::RPG::GameCore::TaskContext* Field_1_1; // 0x18
+	::RPG::GameCore::TaskContext* Field_1_0; // 0x10
+	::Il2CppArray<::RPG::GameCore::RtBattleCharacterCameraConfig*>* Field_1_1; // 0x18
 	::System::Collections::Generic::List_1<::Class_1_5F51D4049EA87B7B*>* Field_1_2; // 0x20
 
 	::System::Void _ctor()

@@ -2,7 +2,7 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/ValueType.h"
 
-inline static constexpr unsigned int Class_1_534AF681CC2BD5FD_1_Struct_2_6C06A48A92747526_TypeDefinitionIndex = 6701;
+inline static constexpr unsigned int Class_1_534AF681CC2BD5FD_1_Struct_2_6C06A48A92747526_TypeDefinitionIndex = 6706;
 
 template <typename TKey, typename TValue>
 struct Class_1_534AF681CC2BD5FD_1_Struct_2_6C06A48A92747526

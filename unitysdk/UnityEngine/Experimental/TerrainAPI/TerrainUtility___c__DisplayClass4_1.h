@@ -5,12 +5,12 @@
 namespace UnityEngine { class Terrain; }
 namespace UnityEngine::Experimental::TerrainAPI { class TerrainUtility___c__DisplayClass4_0; }
 
-#define UNITYENGINE_EXPERIMENTAL_TERRAINAPI_TERRAINUTILITY___C__DISPLAYCLASS4_1__COLLECTTERRAINS_B__0_OFFSET UNITYSDK_OFFSET(0x1B3431D0)
-#define UNITYENGINE_EXPERIMENTAL_TERRAINAPI_TERRAINUTILITY___C__DISPLAYCLASS4_1__CTOR_OFFSET UNITYSDK_OFFSET(0x1B342780)
+#define UNITYENGINE_EXPERIMENTAL_TERRAINAPI_TERRAINUTILITY___C__DISPLAYCLASS4_1__COLLECTTERRAINS_B__0_OFFSET UNITYSDK_OFFSET(0x1D2B71E0)
+#define UNITYENGINE_EXPERIMENTAL_TERRAINAPI_TERRAINUTILITY___C__DISPLAYCLASS4_1__CTOR_OFFSET UNITYSDK_OFFSET(0x1D2B6790)
 
 namespace UnityEngine::Experimental::TerrainAPI
 {
-	inline static constexpr unsigned int TerrainUtility___c__DisplayClass4_1_TypeDefinitionIndex = 5336;
+	inline static constexpr unsigned int TerrainUtility___c__DisplayClass4_1_TypeDefinitionIndex = 5341;
 
 	class TerrainUtility___c__DisplayClass4_1 : public ::System::Object
 	{

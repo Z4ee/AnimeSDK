@@ -7,7 +7,7 @@ namespace System { class String; }
 
 namespace System::Security::Cryptography::X509Certificates
 {
-	inline static constexpr unsigned int X509ChainStatus_TypeDefinitionIndex = 2694;
+	inline static constexpr unsigned int X509ChainStatus_TypeDefinitionIndex = 2698;
 
 	struct alignas(8) X509ChainStatus
 	{

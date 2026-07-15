@@ -4,21 +4,21 @@
 
 namespace System { class String; }
 
-#define SRDEBUGGER_DROPSELECTATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1ACE2210)
+#define SRDEBUGGER_DROPSELECTATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1A1EE7F0)
 
 namespace SRDebugger
 {
-	inline static constexpr unsigned int DropSelectAttribute_TypeDefinitionIndex = 35623;
+	inline static constexpr unsigned int DropSelectAttribute_TypeDefinitionIndex = 36405;
 
 	class DropSelectAttribute : public ::System::Attribute
 	{
 	public:
-		::System::String* SelectorName; // 0x10
-		::System::String* SelectorEvent; // 0x18
-		::System::Single TextHeight; // 0x20
+		::System::String* SelectorEvent; // 0x10
+		::System::String* SelectorName; // 0x18
+		::System::Boolean RefreshCategoryOnSelectorChanged; // 0x20
+		::System::Boolean AutoScroll; // 0x21
 		::System::Single TextWidth; // 0x24
-		::System::Boolean AutoScroll; // 0x28
-		::System::Boolean RefreshCategoryOnSelectorChanged; // 0x29
+		::System::Single TextHeight; // 0x28
 
 		::System::Void _ctor(::System::String* a1, ::System::Single a2, ::System::Single a3, ::System::String* a4, ::System::Boolean a5, ::System::Boolean a6)
 		{

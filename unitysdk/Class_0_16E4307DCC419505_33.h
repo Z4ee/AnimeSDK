@@ -1,10 +1,9 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-class Class_1_8278C4CB5E7C57A4;
-class Class_1_829CFD6018DBC4E4;
+namespace System::IO { class Stream; }
 
-inline static constexpr unsigned int Class_0_16E4307DCC419505_33_TypeDefinitionIndex = 34711;
+inline static constexpr unsigned int Class_0_16E4307DCC419505_33_TypeDefinitionIndex = 35337;
 
 class Class_0_16E4307DCC419505_33
 {

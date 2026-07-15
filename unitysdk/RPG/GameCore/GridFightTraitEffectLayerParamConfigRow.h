@@ -6,20 +6,20 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_GRIDFIGHTTRAITEFFECTLAYERPARAMCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1980FB20)
-#define RPG_GAMECORE_GRIDFIGHTTRAITEFFECTLAYERPARAMCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1980FD90)
+#define RPG_GAMECORE_GRIDFIGHTTRAITEFFECTLAYERPARAMCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D07C810)
+#define RPG_GAMECORE_GRIDFIGHTTRAITEFFECTLAYERPARAMCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D07CA80)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int GridFightTraitEffectLayerParamConfigRow_TypeDefinitionIndex = 13030;
+	inline static constexpr unsigned int GridFightTraitEffectLayerParamConfigRow_TypeDefinitionIndex = 13178;
 
 	class GridFightTraitEffectLayerParamConfigRow : public ::System::Object
 	{
 	public:
 		::Il2CppArray<::RPG::GameCore::FixPoint>* EffectParamList; // 0x10
 		::Il2CppArray<::System::Double>* DescParamList; // 0x18
-		::System::UInt32 ID; // 0x20
-		::System::UInt32 Layer; // 0x24
+		::System::UInt32 Layer; // 0x20
+		::System::UInt32 ID; // 0x24
 		::RPG::Client::TextID TraitEffectDesc; // 0x28
 
 		::System::Void _ctor()

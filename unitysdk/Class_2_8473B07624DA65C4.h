@@ -1,17 +1,17 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Class_1_26684305CEECE64E.h"
+#include "unitysdk/Class_1_E559374AC4E5AD13.h"
 
 class Class_2_21AD365C113DC484;
 class Class_2_F3C45F1FC7349B6E;
 namespace RPG::GameCore { class CakeRaceActionRemoveBuff; }
 
-#define CLASS_2_8473B07624DA65C4_METHOD_2_99C60268198B41B0_OFFSET UNITYSDK_OFFSET(0x18B665F0)
-#define CLASS_2_8473B07624DA65C4__CTOR_OFFSET UNITYSDK_OFFSET(0x18B665E0)
+#define CLASS_2_8473B07624DA65C4_METHOD_2_99C60268198B41B0_OFFSET UNITYSDK_OFFSET(0x1815FDB0)
+#define CLASS_2_8473B07624DA65C4__CTOR_OFFSET UNITYSDK_OFFSET(0x1815FDA0)
 
-inline static constexpr unsigned int Class_2_8473B07624DA65C4_TypeDefinitionIndex = 35062;
+inline static constexpr unsigned int Class_2_8473B07624DA65C4_TypeDefinitionIndex = 35844;
 
-class Class_2_8473B07624DA65C4 : public ::Class_1_26684305CEECE64E
+class Class_2_8473B07624DA65C4 : public ::Class_1_E559374AC4E5AD13
 {
 public:
 	::RPG::GameCore::CakeRaceActionRemoveBuff* Field_2_0; // 0x10

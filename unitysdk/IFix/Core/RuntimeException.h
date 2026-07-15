@@ -2,13 +2,13 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Exception.h"
 
-#define IFIX_CORE_RUNTIMEEXCEPTION_GET_REAL_OFFSET UNITYSDK_OFFSET(0x17F980C0)
-#define IFIX_CORE_RUNTIMEEXCEPTION_SET_REAL_OFFSET UNITYSDK_OFFSET(0x17F980D0)
-#define IFIX_CORE_RUNTIMEEXCEPTION__CTOR_OFFSET UNITYSDK_OFFSET(0x17F98060)
+#define IFIX_CORE_RUNTIMEEXCEPTION_GET_REAL_OFFSET UNITYSDK_OFFSET(0x1B54AEE0)
+#define IFIX_CORE_RUNTIMEEXCEPTION_SET_REAL_OFFSET UNITYSDK_OFFSET(0x1B54AEF0)
+#define IFIX_CORE_RUNTIMEEXCEPTION__CTOR_OFFSET UNITYSDK_OFFSET(0x1B54AE80)
 
 namespace IFix::Core
 {
-	inline static constexpr unsigned int RuntimeException_TypeDefinitionIndex = 9776;
+	inline static constexpr unsigned int RuntimeException_TypeDefinitionIndex = 9791;
 
 	class RuntimeException : public ::System::Exception
 	{

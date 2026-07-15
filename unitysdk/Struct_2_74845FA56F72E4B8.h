@@ -4,7 +4,7 @@
 
 namespace RPG::GameCore { class LevelGraphConfig; }
 
-inline static constexpr unsigned int Struct_2_74845FA56F72E4B8_TypeDefinitionIndex = 56897;
+inline static constexpr unsigned int Struct_2_74845FA56F72E4B8_TypeDefinitionIndex = 58144;
 
 struct alignas(8) Struct_2_74845FA56F72E4B8
 {

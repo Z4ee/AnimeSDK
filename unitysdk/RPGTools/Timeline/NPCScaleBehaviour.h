@@ -6,15 +6,14 @@
 
 namespace RPGTools::Timeline { class NPCScaleClip; }
 
-#define RPGTOOLS_TIMELINE_NPCSCALEBEHAVIOUR_GET_CLIP_OFFSET UNITYSDK_OFFSET(0xD0316D0)
-#define RPGTOOLS_TIMELINE_NPCSCALEBEHAVIOUR_ONBEHAVIOURPLAY_OFFSET UNITYSDK_OFFSET(0xD0316F0)
-#define RPGTOOLS_TIMELINE_NPCSCALEBEHAVIOUR_SET_CLIP_OFFSET UNITYSDK_OFFSET(0xD0316E0)
-#define RPGTOOLS_TIMELINE_NPCSCALEBEHAVIOUR__CTOR_OFFSET UNITYSDK_OFFSET(0xD031850)
-#define RPGTOOLS_TIMELINE_NPCSCALEBEHAVIOUR___IFIXBASEPROXY_ONBEHAVIOURPLAY_OFFSET UNITYSDK_OFFSET(0xD031860)
+#define RPGTOOLS_TIMELINE_NPCSCALEBEHAVIOUR_GET_CLIP_OFFSET UNITYSDK_OFFSET(0x1998D7C0)
+#define RPGTOOLS_TIMELINE_NPCSCALEBEHAVIOUR_ONBEHAVIOURPLAY_OFFSET UNITYSDK_OFFSET(0x1998D7E0)
+#define RPGTOOLS_TIMELINE_NPCSCALEBEHAVIOUR_SET_CLIP_OFFSET UNITYSDK_OFFSET(0x1998D7D0)
+#define RPGTOOLS_TIMELINE_NPCSCALEBEHAVIOUR__CTOR_OFFSET UNITYSDK_OFFSET(0x1998D940)
 
 namespace RPGTools::Timeline
 {
-	inline static constexpr unsigned int NPCScaleBehaviour_TypeDefinitionIndex = 45499;
+	inline static constexpr unsigned int NPCScaleBehaviour_TypeDefinitionIndex = 46433;
 
 	class NPCScaleBehaviour : public ::UnityEngine::Playables::PlayableBehaviour
 	{
@@ -39,11 +38,6 @@ namespace RPGTools::Timeline
 		::System::Void OnBehaviourPlay(::UnityEngine::Playables::Playable a1, ::UnityEngine::Playables::FrameData a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::UnityEngine::Playables::Playable, ::UnityEngine::Playables::FrameData))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_NPCSCALEBEHAVIOUR_ONBEHAVIOURPLAY_OFFSET))(this, a1, a2);
-		}
-
-		::System::Void __iFixBaseProxy_OnBehaviourPlay(::UnityEngine::Playables::Playable a1, ::UnityEngine::Playables::FrameData a2)
-		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Playables::Playable, ::UnityEngine::Playables::FrameData))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_NPCSCALEBEHAVIOUR___IFIXBASEPROXY_ONBEHAVIOURPLAY_OFFSET))(this, a1, a2);
 		}
 	};
 }

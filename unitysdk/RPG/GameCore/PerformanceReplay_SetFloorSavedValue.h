@@ -5,13 +5,13 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class DynamicString; }
 
-#define RPG_GAMECORE_PERFORMANCEREPLAY_SETFLOORSAVEDVALUE_METHOD_3_6BE9B54F3E26CA82_OFFSET UNITYSDK_OFFSET(0x199F9FF0)
-#define RPG_GAMECORE_PERFORMANCEREPLAY_SETFLOORSAVEDVALUE_METHOD_3_F7B69C6EBC081D73_OFFSET UNITYSDK_OFFSET(0x199FA070)
-#define RPG_GAMECORE_PERFORMANCEREPLAY_SETFLOORSAVEDVALUE__CTOR_OFFSET UNITYSDK_OFFSET(0x199FA040)
+#define RPG_GAMECORE_PERFORMANCEREPLAY_SETFLOORSAVEDVALUE_METHOD_3_A2D4CC48B92516FA_OFFSET UNITYSDK_OFFSET(0x1B4B4460)
+#define RPG_GAMECORE_PERFORMANCEREPLAY_SETFLOORSAVEDVALUE_METHOD_3_F7B69C6EBC081D73_OFFSET UNITYSDK_OFFSET(0x1B4B44A0)
+#define RPG_GAMECORE_PERFORMANCEREPLAY_SETFLOORSAVEDVALUE__CTOR_OFFSET UNITYSDK_OFFSET(0x1B4B4490)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PerformanceReplay_SetFloorSavedValue_TypeDefinitionIndex = 20630;
+	inline static constexpr unsigned int PerformanceReplay_SetFloorSavedValue_TypeDefinitionIndex = 21045;
 
 	class PerformanceReplay_SetFloorSavedValue : public ::RPG::GameCore::TaskConfig
 	{
@@ -24,9 +24,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PERFORMANCEREPLAY_SETFLOORSAVEDVALUE__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_6BE9B54F3E26CA82(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::PerformanceReplay_SetFloorSavedValue*& a2)
+		static ::System::Void Method_3_A2D4CC48B92516FA(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::PerformanceReplay_SetFloorSavedValue*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::PerformanceReplay_SetFloorSavedValue*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PERFORMANCEREPLAY_SETFLOORSAVEDVALUE_METHOD_3_6BE9B54F3E26CA82_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::PerformanceReplay_SetFloorSavedValue*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PERFORMANCEREPLAY_SETFLOORSAVEDVALUE_METHOD_3_A2D4CC48B92516FA_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_F7B69C6EBC081D73(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::PerformanceReplay_SetFloorSavedValue* a2)

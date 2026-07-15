@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Attribute.h"
 
-#define UNITYENGINE_SHAREDBETWEENANIMATORSATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1B26B680)
+#define UNITYENGINE_SHAREDBETWEENANIMATORSATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1D1B6FA0)
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int SharedBetweenAnimatorsAttribute_TypeDefinitionIndex = 5115;
+	inline static constexpr unsigned int SharedBetweenAnimatorsAttribute_TypeDefinitionIndex = 5120;
 
 	class SharedBetweenAnimatorsAttribute : public ::System::Attribute
 	{

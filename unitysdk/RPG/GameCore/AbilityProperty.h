@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AbilityProperty_TypeDefinitionIndex = 10113;
+	inline static constexpr unsigned int AbilityProperty_TypeDefinitionIndex = 10128;
 
 	enum class AbilityProperty : ::System::Int32
 	{
@@ -214,23 +214,24 @@ namespace RPG::GameCore
 		ExtraInsertDamageAddedRatio1 = 204,
 		ExtraDOTDamageAddedRatio1 = 205,
 		ExtraElementDamageAddedRatio1 = 206,
-		ExtraHealBase = 207,
-		ExtraShieldBase = 208,
-		ExtraTotalShieldPower = 209,
-		ExtraTotalHealPower = 210,
-		ExtraTotalSpeedAddedRatio = 211,
-		ExtraInitSP = 212,
-		ExtraTotalLuckDamage = 213,
-		ExtraTotalLuckChance = 214,
-		ExtraBackPowerConvert = 215,
-		ExtraFrontPowerConvert = 216,
-		ExtraLuckDamageConvert = 217,
-		ExtraLuckChanceConvert = 218,
-		ExtraHealConvert = 219,
-		ExtraShieldConvert = 220,
-		ExtraAllDamageReduceConvert = 221,
-		ExtraQuantumResonance = 222,
-		ExtraTotalAllDamageReduce = 223,
-		Count = 224,
+		ExtraElationDamageAddedRatio1 = 207,
+		ExtraHealBase = 208,
+		ExtraShieldBase = 209,
+		ExtraTotalShieldPower = 210,
+		ExtraTotalHealPower = 211,
+		ExtraTotalSpeedAddedRatio = 212,
+		ExtraInitSP = 213,
+		ExtraTotalLuckDamage = 214,
+		ExtraTotalLuckChance = 215,
+		ExtraBackPowerConvert = 216,
+		ExtraFrontPowerConvert = 217,
+		ExtraLuckDamageConvert = 218,
+		ExtraLuckChanceConvert = 219,
+		ExtraHealConvert = 220,
+		ExtraShieldConvert = 221,
+		ExtraAllDamageReduceConvert = 222,
+		ExtraQuantumResonance = 223,
+		ExtraTotalAllDamageReduce = 224,
+		Count = 225,
 	};
 }

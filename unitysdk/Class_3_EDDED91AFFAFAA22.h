@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class EndReShaSceneSelection; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_EDDED91AFFAFAA22_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x14566090)
-#define CLASS_3_EDDED91AFFAFAA22__CTOR_OFFSET UNITYSDK_OFFSET(0x14566060)
+#define CLASS_3_EDDED91AFFAFAA22_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x15FD9AF0)
+#define CLASS_3_EDDED91AFFAFAA22__CTOR_OFFSET UNITYSDK_OFFSET(0x15FD9AC0)
 
-inline static constexpr unsigned int Class_3_EDDED91AFFAFAA22_TypeDefinitionIndex = 49345;
+inline static constexpr unsigned int Class_3_EDDED91AFFAFAA22_TypeDefinitionIndex = 50360;
 
 class Class_3_EDDED91AFFAFAA22 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::EndReShaSceneSelection*>
 {

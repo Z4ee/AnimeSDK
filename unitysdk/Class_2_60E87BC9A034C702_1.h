@@ -4,11 +4,10 @@
 
 namespace System { class String; }
 
-#define CLASS_2_60E87BC9A034C702_1_GET_MESSAGE_OFFSET UNITYSDK_OFFSET(0x13C8D450)
-#define CLASS_2_60E87BC9A034C702_1__CTOR_OFFSET UNITYSDK_OFFSET(0x13C8D3E0)
-#define CLASS_2_60E87BC9A034C702_1___IFIXBASEPROXY_GET_MESSAGE_OFFSET UNITYSDK_OFFSET(0x13C8D520)
+#define CLASS_2_60E87BC9A034C702_1_GET_MESSAGE_OFFSET UNITYSDK_OFFSET(0x16247A30)
+#define CLASS_2_60E87BC9A034C702_1__CTOR_OFFSET UNITYSDK_OFFSET(0x162479C0)
 
-inline static constexpr unsigned int Class_2_60E87BC9A034C702_1_TypeDefinitionIndex = 46867;
+inline static constexpr unsigned int Class_2_60E87BC9A034C702_1_TypeDefinitionIndex = 47832;
 
 class Class_2_60E87BC9A034C702_1 : public ::System::Exception
 {
@@ -23,10 +22,5 @@ public:
 	::System::String* get_Message()
 	{
 		return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_60E87BC9A034C702_1_GET_MESSAGE_OFFSET))(this);
-	}
-
-	::System::String* __iFixBaseProxy_get_Message()
-	{
-		return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_60E87BC9A034C702_1___IFIXBASEPROXY_GET_MESSAGE_OFFSET))(this);
 	}
 };

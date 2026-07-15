@@ -13,19 +13,15 @@ namespace RPG::GameCore { class SimpleTalkStyle; }
 namespace System { class String; }
 namespace UnityEngine::Playables { class PlayableDirector; }
 
-#define RPGTOOLS_TIMELINE_PLAYSIMPLETALKBEHAVIOUR_ONBEHAVIOURPAUSE_OFFSET UNITYSDK_OFFSET(0xD037600)
-#define RPGTOOLS_TIMELINE_PLAYSIMPLETALKBEHAVIOUR_ONBEHAVIOURPLAY_OFFSET UNITYSDK_OFFSET(0xD036D80)
-#define RPGTOOLS_TIMELINE_PLAYSIMPLETALKBEHAVIOUR_ONGRAPHSTOP_OFFSET UNITYSDK_OFFSET(0xD037790)
-#define RPGTOOLS_TIMELINE_PLAYSIMPLETALKBEHAVIOUR_ONPLAYABLECREATE_OFFSET UNITYSDK_OFFSET(0xD036CA0)
-#define RPGTOOLS_TIMELINE_PLAYSIMPLETALKBEHAVIOUR__CTOR_OFFSET UNITYSDK_OFFSET(0xD037910)
-#define RPGTOOLS_TIMELINE_PLAYSIMPLETALKBEHAVIOUR___IFIXBASEPROXY_ONBEHAVIOURPAUSE_OFFSET UNITYSDK_OFFSET(0xD037940)
-#define RPGTOOLS_TIMELINE_PLAYSIMPLETALKBEHAVIOUR___IFIXBASEPROXY_ONBEHAVIOURPLAY_OFFSET UNITYSDK_OFFSET(0xD037930)
-#define RPGTOOLS_TIMELINE_PLAYSIMPLETALKBEHAVIOUR___IFIXBASEPROXY_ONGRAPHSTOP_OFFSET UNITYSDK_OFFSET(0xD037950)
-#define RPGTOOLS_TIMELINE_PLAYSIMPLETALKBEHAVIOUR___IFIXBASEPROXY_ONPLAYABLECREATE_OFFSET UNITYSDK_OFFSET(0xD037920)
+#define RPGTOOLS_TIMELINE_PLAYSIMPLETALKBEHAVIOUR_ONBEHAVIOURPAUSE_OFFSET UNITYSDK_OFFSET(0x19993580)
+#define RPGTOOLS_TIMELINE_PLAYSIMPLETALKBEHAVIOUR_ONBEHAVIOURPLAY_OFFSET UNITYSDK_OFFSET(0x19992D20)
+#define RPGTOOLS_TIMELINE_PLAYSIMPLETALKBEHAVIOUR_ONGRAPHSTOP_OFFSET UNITYSDK_OFFSET(0x19993710)
+#define RPGTOOLS_TIMELINE_PLAYSIMPLETALKBEHAVIOUR_ONPLAYABLECREATE_OFFSET UNITYSDK_OFFSET(0x19992C40)
+#define RPGTOOLS_TIMELINE_PLAYSIMPLETALKBEHAVIOUR__CTOR_OFFSET UNITYSDK_OFFSET(0x19993890)
 
 namespace RPGTools::Timeline
 {
-	inline static constexpr unsigned int PlaySimpleTalkBehaviour_TypeDefinitionIndex = 45513;
+	inline static constexpr unsigned int PlaySimpleTalkBehaviour_TypeDefinitionIndex = 46447;
 
 	class PlaySimpleTalkBehaviour : public ::UnityEngine::Playables::PlayableBehaviour
 	{
@@ -72,26 +68,6 @@ namespace RPGTools::Timeline
 		::System::Void OnGraphStop(::UnityEngine::Playables::Playable a1)
 		{
 			return ((::System::Void(*)(::PVOID, ::UnityEngine::Playables::Playable))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_PLAYSIMPLETALKBEHAVIOUR_ONGRAPHSTOP_OFFSET))(this, a1);
-		}
-
-		::System::Void __iFixBaseProxy_OnPlayableCreate(::UnityEngine::Playables::Playable a1)
-		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Playables::Playable))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_PLAYSIMPLETALKBEHAVIOUR___IFIXBASEPROXY_ONPLAYABLECREATE_OFFSET))(this, a1);
-		}
-
-		::System::Void __iFixBaseProxy_OnBehaviourPlay(::UnityEngine::Playables::Playable a1, ::UnityEngine::Playables::FrameData a2)
-		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Playables::Playable, ::UnityEngine::Playables::FrameData))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_PLAYSIMPLETALKBEHAVIOUR___IFIXBASEPROXY_ONBEHAVIOURPLAY_OFFSET))(this, a1, a2);
-		}
-
-		::System::Void __iFixBaseProxy_OnBehaviourPause(::UnityEngine::Playables::Playable a1, ::UnityEngine::Playables::FrameData a2)
-		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Playables::Playable, ::UnityEngine::Playables::FrameData))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_PLAYSIMPLETALKBEHAVIOUR___IFIXBASEPROXY_ONBEHAVIOURPAUSE_OFFSET))(this, a1, a2);
-		}
-
-		::System::Void __iFixBaseProxy_OnGraphStop(::UnityEngine::Playables::Playable a1)
-		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Playables::Playable))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_PLAYSIMPLETALKBEHAVIOUR___IFIXBASEPROXY_ONGRAPHSTOP_OFFSET))(this, a1);
 		}
 	};
 }

@@ -6,7 +6,7 @@
 
 namespace UnityChan { class SpringManager; }
 
-inline static constexpr unsigned int Struct_2_F15D3B4A9D0D9701_TypeDefinitionIndex = 64048;
+inline static constexpr unsigned int Struct_2_F15D3B4A9D0D9701_TypeDefinitionIndex = 65419;
 
 struct alignas(8) Struct_2_F15D3B4A9D0D9701
 {

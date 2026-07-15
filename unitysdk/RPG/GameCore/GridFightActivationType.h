@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int GridFightActivationType_TypeDefinitionIndex = 13009;
+	inline static constexpr unsigned int GridFightActivationType_TypeDefinitionIndex = 13157;
 
 	enum class GridFightActivationType : ::System::Int32
 	{

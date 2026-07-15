@@ -3,12 +3,12 @@
 #include "unitysdk/SWRT/BVH2_AABBWrap.h"
 #include "unitysdk/System/Object.h"
 
-#define SWRT_BVH2_AABBCOMPARER_COMPARE_OFFSET UNITYSDK_OFFSET(0x18F2E4D0)
-#define SWRT_BVH2_AABBCOMPARER__CTOR_OFFSET UNITYSDK_OFFSET(0x18F2E4C0)
+#define SWRT_BVH2_AABBCOMPARER_COMPARE_OFFSET UNITYSDK_OFFSET(0x1D13DE80)
+#define SWRT_BVH2_AABBCOMPARER__CTOR_OFFSET UNITYSDK_OFFSET(0x1D13DE70)
 
 namespace SWRT
 {
-	inline static constexpr unsigned int BVH2_AABBComparer_TypeDefinitionIndex = 35167;
+	inline static constexpr unsigned int BVH2_AABBComparer_TypeDefinitionIndex = 35949;
 
 	class BVH2_AABBComparer : public ::System::Object
 	{

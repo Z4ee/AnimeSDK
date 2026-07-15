@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class SwitchPropSceneObjClickHintAttachPoint; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_A861D89AB9C90B1C_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xA6AAF90)
-#define CLASS_3_A861D89AB9C90B1C__CTOR_OFFSET UNITYSDK_OFFSET(0xA6AAF60)
+#define CLASS_3_A861D89AB9C90B1C_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x17F84ED0)
+#define CLASS_3_A861D89AB9C90B1C__CTOR_OFFSET UNITYSDK_OFFSET(0x17F84EA0)
 
-inline static constexpr unsigned int Class_3_A861D89AB9C90B1C_TypeDefinitionIndex = 49842;
+inline static constexpr unsigned int Class_3_A861D89AB9C90B1C_TypeDefinitionIndex = 50897;
 
 class Class_3_A861D89AB9C90B1C : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::SwitchPropSceneObjClickHintAttachPoint*>
 {

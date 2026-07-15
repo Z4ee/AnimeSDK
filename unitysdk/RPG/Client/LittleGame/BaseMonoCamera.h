@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/Client/LittleGame/BaseMonoGenericView.h"
 
-#define RPG_CLIENT_LITTLEGAME_BASEMONOCAMERA__CTOR_OFFSET UNITYSDK_OFFSET(0xBDBF900)
+#define RPG_CLIENT_LITTLEGAME_BASEMONOCAMERA__CTOR_OFFSET UNITYSDK_OFFSET(0x19B7D290)
 
 namespace RPG::Client::LittleGame
 {
-	inline static constexpr unsigned int BaseMonoCamera_TypeDefinitionIndex = 71081;
+	inline static constexpr unsigned int BaseMonoCamera_TypeDefinitionIndex = 72594;
 
 	class BaseMonoCamera : public ::RPG::Client::LittleGame::BaseMonoGenericView
 	{

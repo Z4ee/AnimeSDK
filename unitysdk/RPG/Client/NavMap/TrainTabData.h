@@ -6,13 +6,12 @@ namespace RPG::Client::NavMap { class SubTabData; }
 namespace RPG::Client::NavMap { class WorldData; }
 namespace RPG::GameCore { class NavMapTabRow; }
 
-#define RPG_CLIENT_NAVMAP_TRAINTABDATA_GETDEFAULTSUBTABANDLAYER_OFFSET UNITYSDK_OFFSET(0xC281870)
-#define RPG_CLIENT_NAVMAP_TRAINTABDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xC281820)
-#define RPG_CLIENT_NAVMAP_TRAINTABDATA___IFIXBASEPROXY_GETDEFAULTSUBTABANDLAYER_OFFSET UNITYSDK_OFFSET(0xC281C20)
+#define RPG_CLIENT_NAVMAP_TRAINTABDATA_GETDEFAULTSUBTABANDLAYER_OFFSET UNITYSDK_OFFSET(0x166D50A0)
+#define RPG_CLIENT_NAVMAP_TRAINTABDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x166D5050)
 
 namespace RPG::Client::NavMap
 {
-	inline static constexpr unsigned int TrainTabData_TypeDefinitionIndex = 69585;
+	inline static constexpr unsigned int TrainTabData_TypeDefinitionIndex = 71108;
 
 	class TrainTabData : public ::RPG::Client::NavMap::ComposedTabData
 	{
@@ -25,11 +24,6 @@ namespace RPG::Client::NavMap
 		::RPG::Client::NavMap::SubTabData* GetDefaultSubTabAndLayer(::System::Int32& a1)
 		{
 			return ((::RPG::Client::NavMap::SubTabData*(*)(::PVOID, ::System::Int32&))((::PBYTE)hIl2Cpp + RPG_CLIENT_NAVMAP_TRAINTABDATA_GETDEFAULTSUBTABANDLAYER_OFFSET))(this, a1);
-		}
-
-		::RPG::Client::NavMap::SubTabData* __iFixBaseProxy_GetDefaultSubTabAndLayer(::System::Int32& a1)
-		{
-			return ((::RPG::Client::NavMap::SubTabData*(*)(::PVOID, ::System::Int32&))((::PBYTE)hIl2Cpp + RPG_CLIENT_NAVMAP_TRAINTABDATA___IFIXBASEPROXY_GETDEFAULTSUBTABANDLAYER_OFFSET))(this, a1);
 		}
 	};
 }

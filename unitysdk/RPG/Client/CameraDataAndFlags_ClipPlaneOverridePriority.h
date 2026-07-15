@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int CameraDataAndFlags_ClipPlaneOverridePriority_TypeDefinitionIndex = 65020;
+	inline static constexpr unsigned int CameraDataAndFlags_ClipPlaneOverridePriority_TypeDefinitionIndex = 66425;
 
 	enum class CameraDataAndFlags_ClipPlaneOverridePriority : ::System::Int32
 	{

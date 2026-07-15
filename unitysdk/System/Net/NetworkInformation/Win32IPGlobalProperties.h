@@ -4,12 +4,12 @@
 
 namespace System { class String; }
 
-#define SYSTEM_NET_NETWORKINFORMATION_WIN32IPGLOBALPROPERTIES_GET_DOMAINNAME_OFFSET UNITYSDK_OFFSET(0x1AF9E680)
-#define SYSTEM_NET_NETWORKINFORMATION_WIN32IPGLOBALPROPERTIES__CTOR_OFFSET UNITYSDK_OFFSET(0x1AF9A4E0)
+#define SYSTEM_NET_NETWORKINFORMATION_WIN32IPGLOBALPROPERTIES_GET_DOMAINNAME_OFFSET UNITYSDK_OFFSET(0x1961AEA0)
+#define SYSTEM_NET_NETWORKINFORMATION_WIN32IPGLOBALPROPERTIES__CTOR_OFFSET UNITYSDK_OFFSET(0x19616D10)
 
 namespace System::Net::NetworkInformation
 {
-	inline static constexpr unsigned int Win32IPGlobalProperties_TypeDefinitionIndex = 2931;
+	inline static constexpr unsigned int Win32IPGlobalProperties_TypeDefinitionIndex = 2935;
 
 	class Win32IPGlobalProperties : public ::System::Net::NetworkInformation::IPGlobalProperties
 	{

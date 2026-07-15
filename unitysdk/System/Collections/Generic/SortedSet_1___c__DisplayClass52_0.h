@@ -6,7 +6,7 @@ namespace System::Collections::Generic { template <typename T> class SortedSet_1
 
 namespace System::Collections::Generic
 {
-	inline static constexpr unsigned int SortedSet_1___c__DisplayClass52_0_TypeDefinitionIndex = 3035;
+	inline static constexpr unsigned int SortedSet_1___c__DisplayClass52_0_TypeDefinitionIndex = 3039;
 
 	template <typename T>
 	class SortedSet_1___c__DisplayClass52_0 : public ::System::Object

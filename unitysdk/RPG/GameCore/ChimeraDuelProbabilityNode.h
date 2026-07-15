@@ -6,13 +6,13 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class ChimeraDuelPredicateBase; }
 namespace RPG::GameCore { class ChimeraDuelProbilityComparePredicate; }
 
-#define RPG_GAMECORE_CHIMERADUELPROBABILITYNODE_METHOD_3_1BFF0BD08D7CB90C_OFFSET UNITYSDK_OFFSET(0x19643FF0)
-#define RPG_GAMECORE_CHIMERADUELPROBABILITYNODE_METHOD_3_8AEE2A2393443581_OFFSET UNITYSDK_OFFSET(0x19643F10)
-#define RPG_GAMECORE_CHIMERADUELPROBABILITYNODE__CTOR_OFFSET UNITYSDK_OFFSET(0x19643FA0)
+#define RPG_GAMECORE_CHIMERADUELPROBABILITYNODE_METHOD_3_1BFF0BD08D7CB90C_OFFSET UNITYSDK_OFFSET(0x1C245440)
+#define RPG_GAMECORE_CHIMERADUELPROBABILITYNODE_METHOD_3_3567DAED0032F9B2_OFFSET UNITYSDK_OFFSET(0x1C2453E0)
+#define RPG_GAMECORE_CHIMERADUELPROBABILITYNODE__CTOR_OFFSET UNITYSDK_OFFSET(0x1C245430)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ChimeraDuelProbabilityNode_TypeDefinitionIndex = 15206;
+	inline static constexpr unsigned int ChimeraDuelProbabilityNode_TypeDefinitionIndex = 15370;
 
 	class ChimeraDuelProbabilityNode : public ::RPG::GameCore::BaseChimeraDuelNode
 	{
@@ -28,9 +28,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHIMERADUELPROBABILITYNODE__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_8AEE2A2393443581(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ChimeraDuelProbabilityNode*& a2)
+		static ::System::Void Method_3_3567DAED0032F9B2(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ChimeraDuelProbabilityNode*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ChimeraDuelProbabilityNode*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHIMERADUELPROBABILITYNODE_METHOD_3_8AEE2A2393443581_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ChimeraDuelProbabilityNode*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHIMERADUELPROBABILITYNODE_METHOD_3_3567DAED0032F9B2_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_1BFF0BD08D7CB90C(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ChimeraDuelProbabilityNode* a2)

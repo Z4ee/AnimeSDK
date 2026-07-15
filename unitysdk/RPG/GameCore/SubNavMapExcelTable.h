@@ -11,45 +11,45 @@ namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Concurrent { template <typename T1, typename T2> class ConcurrentDictionary_2; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_SUBNAVMAPEXCELTABLE_GETDATA_OFFSET UNITYSDK_OFFSET(0x19CD0BD0)
-#define RPG_GAMECORE_SUBNAVMAPEXCELTABLE_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x19CD0AA0)
-#define RPG_GAMECORE_SUBNAVMAPEXCELTABLE_GET_DATADICT_OFFSET UNITYSDK_OFFSET(0x19CD0790)
-#define RPG_GAMECORE_SUBNAVMAPEXCELTABLE_ISDATAEMPTY_OFFSET UNITYSDK_OFFSET(0x19CD0A40)
-#define RPG_GAMECORE_SUBNAVMAPEXCELTABLE_ISDATALOADED_OFFSET UNITYSDK_OFFSET(0x19CD0D60)
-#define RPG_GAMECORE_SUBNAVMAPEXCELTABLE_LOADDATA_OFFSET UNITYSDK_OFFSET(0x19CD0810)
-#define RPG_GAMECORE_SUBNAVMAPEXCELTABLE_UNLOADDATA_OFFSET UNITYSDK_OFFSET(0x19CD0DA0)
-#define RPG_GAMECORE_SUBNAVMAPEXCELTABLE__ADDITEMFROMBINARY_OFFSET UNITYSDK_OFFSET(0x19CD0F70)
-#define RPG_GAMECORE_SUBNAVMAPEXCELTABLE__ADDITEM_OFFSET UNITYSDK_OFFSET(0x19CD1230)
-#define RPG_GAMECORE_SUBNAVMAPEXCELTABLE__CCTOR_OFFSET UNITYSDK_OFFSET(0x19CD1550)
-#define RPG_GAMECORE_SUBNAVMAPEXCELTABLE__LOADDATAINCREMENTIAL_OFFSET UNITYSDK_OFFSET(0x19CD0ED0)
-#define RPG_GAMECORE_SUBNAVMAPEXCELTABLE__LOADDATA_OFFSET UNITYSDK_OFFSET(0x19CD0E30)
+#define RPG_GAMECORE_SUBNAVMAPEXCELTABLE_GETDATA_OFFSET UNITYSDK_OFFSET(0x1B42C780)
+#define RPG_GAMECORE_SUBNAVMAPEXCELTABLE_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x1B42C650)
+#define RPG_GAMECORE_SUBNAVMAPEXCELTABLE_GET_DATADICT_OFFSET UNITYSDK_OFFSET(0x1B42C340)
+#define RPG_GAMECORE_SUBNAVMAPEXCELTABLE_ISDATAEMPTY_OFFSET UNITYSDK_OFFSET(0x1B42C5F0)
+#define RPG_GAMECORE_SUBNAVMAPEXCELTABLE_ISDATALOADED_OFFSET UNITYSDK_OFFSET(0x1B42C910)
+#define RPG_GAMECORE_SUBNAVMAPEXCELTABLE_LOADDATA_OFFSET UNITYSDK_OFFSET(0x1B42C3C0)
+#define RPG_GAMECORE_SUBNAVMAPEXCELTABLE_UNLOADDATA_OFFSET UNITYSDK_OFFSET(0x1B42C950)
+#define RPG_GAMECORE_SUBNAVMAPEXCELTABLE__ADDITEMFROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B42CB20)
+#define RPG_GAMECORE_SUBNAVMAPEXCELTABLE__ADDITEM_OFFSET UNITYSDK_OFFSET(0x1B42CDE0)
+#define RPG_GAMECORE_SUBNAVMAPEXCELTABLE__CCTOR_OFFSET UNITYSDK_OFFSET(0x1B42D100)
+#define RPG_GAMECORE_SUBNAVMAPEXCELTABLE__LOADDATAINCREMENTIAL_OFFSET UNITYSDK_OFFSET(0x1B42CA80)
+#define RPG_GAMECORE_SUBNAVMAPEXCELTABLE__LOADDATA_OFFSET UNITYSDK_OFFSET(0x1B42C9E0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SubNavMapExcelTable_TypeDefinitionIndex = 13345;
+	inline static constexpr unsigned int SubNavMapExcelTable_TypeDefinitionIndex = 13493;
 
 	class SubNavMapExcelTable : public ::System::Object
 	{
 	public:
+		static ::System::Action_1<::Class_1_7A22A3DBEEDD1F80*>** StaticGet__AddItemFromBinary_ActionInst()
+		{
+			return (::System::Action_1<::Class_1_7A22A3DBEEDD1F80*>**)Il2CppClass::FromTypeDefinitionIndex(SubNavMapExcelTable_TypeDefinitionIndex)->GetStaticField(0x5580);
+		}
 		static ::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::SubNavMapRow*>** StaticGet_dataDict_()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::SubNavMapRow*>**)Il2CppClass::FromTypeDefinitionIndex(SubNavMapExcelTable_TypeDefinitionIndex)->GetStaticField(0x493D0);
+			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::SubNavMapRow*>**)Il2CppClass::FromTypeDefinitionIndex(SubNavMapExcelTable_TypeDefinitionIndex)->GetStaticField(0x5588);
 		}
 		static ::Il2CppArray<::System::String*>** StaticGet_s_PathList()
 		{
-			return (::Il2CppArray<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(SubNavMapExcelTable_TypeDefinitionIndex)->GetStaticField(0x493D8);
-		}
-		static ::System::Action_1<::Class_1_7A22A3DBEEDD1F80*>** StaticGet__AddItemFromBinary_ActionInst()
-		{
-			return (::System::Action_1<::Class_1_7A22A3DBEEDD1F80*>**)Il2CppClass::FromTypeDefinitionIndex(SubNavMapExcelTable_TypeDefinitionIndex)->GetStaticField(0x493E0);
-		}
-		static ::System::Boolean* StaticGet_isDataLoaded()
-		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(SubNavMapExcelTable_TypeDefinitionIndex)->GetStaticField(0xD830);
+			return (::Il2CppArray<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(SubNavMapExcelTable_TypeDefinitionIndex)->GetStaticField(0x5590);
 		}
 		static ::System::Byte* StaticGet_HashIndex()
 		{
-			return (::System::Byte*)Il2CppClass::FromTypeDefinitionIndex(SubNavMapExcelTable_TypeDefinitionIndex)->GetStaticField(0xD831);
+			return (::System::Byte*)Il2CppClass::FromTypeDefinitionIndex(SubNavMapExcelTable_TypeDefinitionIndex)->GetStaticField(0x3180);
+		}
+		static ::System::Boolean* StaticGet_isDataLoaded()
+		{
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(SubNavMapExcelTable_TypeDefinitionIndex)->GetStaticField(0x3181);
 		}
 
 		static ::System::Void _cctor()

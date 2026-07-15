@@ -6,6 +6,7 @@
 
 namespace System { class Array; }
 namespace System { class String; }
+namespace System { template <typename T> class Comparison_1; }
 namespace System::Collections { class IEnumerator; }
 namespace System::Collections::Generic { template <typename T> class CacheLinkedList_1; }
 namespace System::Collections::Generic { template <typename T> class CacheLinkedList_1_Class_1_8BE47F377EDA9B57; }
@@ -16,7 +17,7 @@ namespace System::Runtime::Serialization { class SerializationInfo; }
 
 namespace System::Collections::Generic
 {
-	inline static constexpr unsigned int CacheLinkedList_1_TypeDefinitionIndex = 6681;
+	inline static constexpr unsigned int CacheLinkedList_1_TypeDefinitionIndex = 6686;
 
 	template <typename T>
 	class CacheLinkedList_1 : public ::System::Object

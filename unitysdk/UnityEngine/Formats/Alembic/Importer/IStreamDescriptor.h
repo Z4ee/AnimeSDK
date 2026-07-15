@@ -6,7 +6,7 @@ namespace UnityEngine::Formats::Alembic::Importer { class AlembicStreamSettings;
 
 namespace UnityEngine::Formats::Alembic::Importer
 {
-	inline static constexpr unsigned int IStreamDescriptor_TypeDefinitionIndex = 41706;
+	inline static constexpr unsigned int IStreamDescriptor_TypeDefinitionIndex = 42566;
 
 	class IStreamDescriptor
 	{

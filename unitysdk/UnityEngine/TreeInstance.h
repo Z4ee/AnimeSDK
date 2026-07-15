@@ -6,7 +6,7 @@
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int TreeInstance_TypeDefinitionIndex = 5320;
+	inline static constexpr unsigned int TreeInstance_TypeDefinitionIndex = 5325;
 
 	struct alignas(4) TreeInstance
 	{

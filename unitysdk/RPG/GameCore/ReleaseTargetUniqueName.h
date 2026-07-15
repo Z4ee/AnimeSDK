@@ -5,13 +5,13 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_RELEASETARGETUNIQUENAME_METHOD_3_DAE2183EFD7871BB_OFFSET UNITYSDK_OFFSET(0x19ABB430)
-#define RPG_GAMECORE_RELEASETARGETUNIQUENAME_METHOD_3_F929DC2AEC6E6412_OFFSET UNITYSDK_OFFSET(0x19ABB4B0)
-#define RPG_GAMECORE_RELEASETARGETUNIQUENAME__CTOR_OFFSET UNITYSDK_OFFSET(0x19ABB480)
+#define RPG_GAMECORE_RELEASETARGETUNIQUENAME_METHOD_3_A86429CFB2AA1F89_OFFSET UNITYSDK_OFFSET(0x1B9C2590)
+#define RPG_GAMECORE_RELEASETARGETUNIQUENAME_METHOD_3_F929DC2AEC6E6412_OFFSET UNITYSDK_OFFSET(0x1B9C25D0)
+#define RPG_GAMECORE_RELEASETARGETUNIQUENAME__CTOR_OFFSET UNITYSDK_OFFSET(0x1B9C25C0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ReleaseTargetUniqueName_TypeDefinitionIndex = 21927;
+	inline static constexpr unsigned int ReleaseTargetUniqueName_TypeDefinitionIndex = 22356;
 
 	class ReleaseTargetUniqueName : public ::RPG::GameCore::TaskConfig
 	{
@@ -23,9 +23,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_RELEASETARGETUNIQUENAME__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_DAE2183EFD7871BB(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ReleaseTargetUniqueName*& a2)
+		static ::System::Void Method_3_A86429CFB2AA1F89(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ReleaseTargetUniqueName*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ReleaseTargetUniqueName*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_RELEASETARGETUNIQUENAME_METHOD_3_DAE2183EFD7871BB_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ReleaseTargetUniqueName*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_RELEASETARGETUNIQUENAME_METHOD_3_A86429CFB2AA1F89_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_F929DC2AEC6E6412(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ReleaseTargetUniqueName* a2)

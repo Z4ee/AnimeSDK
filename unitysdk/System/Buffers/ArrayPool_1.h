@@ -6,7 +6,7 @@ namespace System::Buffers { template <typename T> class ArrayPool_1; }
 
 namespace System::Buffers
 {
-	inline static constexpr unsigned int ArrayPool_1_TypeDefinitionIndex = 3735;
+	inline static constexpr unsigned int ArrayPool_1_TypeDefinitionIndex = 3739;
 
 	template <typename T>
 	class ArrayPool_1 : public ::System::Object

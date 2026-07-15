@@ -7,12 +7,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_ROGUEMAGICGAMBLEGROUPROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x19B44ED0)
-#define RPG_GAMECORE_ROGUEMAGICGAMBLEGROUPROW__CTOR_OFFSET UNITYSDK_OFFSET(0x19B450A0)
+#define RPG_GAMECORE_ROGUEMAGICGAMBLEGROUPROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1CFB6110)
+#define RPG_GAMECORE_ROGUEMAGICGAMBLEGROUPROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1CFB62E0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RogueMagicGambleGroupRow_TypeDefinitionIndex = 14155;
+	inline static constexpr unsigned int RogueMagicGambleGroupRow_TypeDefinitionIndex = 14303;
 
 	class RogueMagicGambleGroupRow : public ::System::Object
 	{

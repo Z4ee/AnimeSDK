@@ -6,14 +6,13 @@
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class Material; }
 
-#define RPG_CLIENT_MONOEFFECTPLUGINCHARAPROPSPECULARLIGHTING_ISNEEDLUTPROPERTY_OFFSET UNITYSDK_OFFSET(0xC0CE250)
-#define RPG_CLIENT_MONOEFFECTPLUGINCHARAPROPSPECULARLIGHTING_UPDATEPROPERTY_OFFSET UNITYSDK_OFFSET(0xC0CE290)
-#define RPG_CLIENT_MONOEFFECTPLUGINCHARAPROPSPECULARLIGHTING__CTOR_OFFSET UNITYSDK_OFFSET(0xC0CF1F0)
-#define RPG_CLIENT_MONOEFFECTPLUGINCHARAPROPSPECULARLIGHTING___IFIXBASEPROXY_ISNEEDLUTPROPERTY_OFFSET UNITYSDK_OFFSET(0xC0CF210)
+#define RPG_CLIENT_MONOEFFECTPLUGINCHARAPROPSPECULARLIGHTING_ISNEEDLUTPROPERTY_OFFSET UNITYSDK_OFFSET(0x1911CA30)
+#define RPG_CLIENT_MONOEFFECTPLUGINCHARAPROPSPECULARLIGHTING_UPDATEPROPERTY_OFFSET UNITYSDK_OFFSET(0x1911CA70)
+#define RPG_CLIENT_MONOEFFECTPLUGINCHARAPROPSPECULARLIGHTING__CTOR_OFFSET UNITYSDK_OFFSET(0x1911D9D0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MonoEffectPluginCharaPropSpecularLighting_TypeDefinitionIndex = 65430;
+	inline static constexpr unsigned int MonoEffectPluginCharaPropSpecularLighting_TypeDefinitionIndex = 66843;
 
 	class MonoEffectPluginCharaPropSpecularLighting : public ::RPG::Client::MonoEffectPluginCharaPropBase
 	{
@@ -52,11 +51,6 @@ namespace RPG::Client
 		::System::Void UpdateProperty(::System::Collections::Generic::List_1<::UnityEngine::Material*>* a1, ::System::Boolean a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::UnityEngine::Material*>*, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOEFFECTPLUGINCHARAPROPSPECULARLIGHTING_UPDATEPROPERTY_OFFSET))(this, a1, a2);
-		}
-
-		::System::Boolean __iFixBaseProxy_IsNeedLUTProperty()
-		{
-			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOEFFECTPLUGINCHARAPROPSPECULARLIGHTING___IFIXBASEPROXY_ISNEEDLUTPROPERTY_OFFSET))(this);
 		}
 	};
 }

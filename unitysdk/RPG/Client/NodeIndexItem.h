@@ -4,11 +4,11 @@
 
 namespace UnityEngine { class Component; }
 
-#define RPG_CLIENT_NODEINDEXITEM__CTOR_OFFSET UNITYSDK_OFFSET(0xC2E4530)
+#define RPG_CLIENT_NODEINDEXITEM__CTOR_OFFSET UNITYSDK_OFFSET(0x18265810)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int NodeIndexItem_TypeDefinitionIndex = 67748;
+	inline static constexpr unsigned int NodeIndexItem_TypeDefinitionIndex = 69232;
 
 	class NodeIndexItem : public ::System::Object
 	{

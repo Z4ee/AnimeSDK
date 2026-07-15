@@ -6,13 +6,13 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class TargetEvaluator; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_SETOVERRIDECOLLIDERCAMERA_METHOD_3_45F4D090EE628019_OFFSET UNITYSDK_OFFSET(0x19C5AE20)
-#define RPG_GAMECORE_SETOVERRIDECOLLIDERCAMERA_METHOD_3_981C138AE75FC365_OFFSET UNITYSDK_OFFSET(0x19C5ADA0)
-#define RPG_GAMECORE_SETOVERRIDECOLLIDERCAMERA__CTOR_OFFSET UNITYSDK_OFFSET(0x19C5ADF0)
+#define RPG_GAMECORE_SETOVERRIDECOLLIDERCAMERA_METHOD_3_45F4D090EE628019_OFFSET UNITYSDK_OFFSET(0x1C604E40)
+#define RPG_GAMECORE_SETOVERRIDECOLLIDERCAMERA_METHOD_3_D0FFD3727CAD9856_OFFSET UNITYSDK_OFFSET(0x1C604E00)
+#define RPG_GAMECORE_SETOVERRIDECOLLIDERCAMERA__CTOR_OFFSET UNITYSDK_OFFSET(0x1C604E30)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SetOverrideColliderCamera_TypeDefinitionIndex = 21169;
+	inline static constexpr unsigned int SetOverrideColliderCamera_TypeDefinitionIndex = 21584;
 
 	class SetOverrideColliderCamera : public ::RPG::GameCore::TaskConfig
 	{
@@ -25,9 +25,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETOVERRIDECOLLIDERCAMERA__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_981C138AE75FC365(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SetOverrideColliderCamera*& a2)
+		static ::System::Void Method_3_D0FFD3727CAD9856(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SetOverrideColliderCamera*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SetOverrideColliderCamera*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETOVERRIDECOLLIDERCAMERA_METHOD_3_981C138AE75FC365_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SetOverrideColliderCamera*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETOVERRIDECOLLIDERCAMERA_METHOD_3_D0FFD3727CAD9856_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_45F4D090EE628019(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SetOverrideColliderCamera* a2)

@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class RtByIsMoving; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_BAB1320665BABF8C_EVALUATE_OFFSET UNITYSDK_OFFSET(0x1415DFE0)
-#define CLASS_3_BAB1320665BABF8C__CTOR_OFFSET UNITYSDK_OFFSET(0x1415DFB0)
+#define CLASS_3_BAB1320665BABF8C_EVALUATE_OFFSET UNITYSDK_OFFSET(0x16C81890)
+#define CLASS_3_BAB1320665BABF8C__CTOR_OFFSET UNITYSDK_OFFSET(0x16C81860)
 
-inline static constexpr unsigned int Class_3_BAB1320665BABF8C_TypeDefinitionIndex = 50623;
+inline static constexpr unsigned int Class_3_BAB1320665BABF8C_TypeDefinitionIndex = 51705;
 
 class Class_3_BAB1320665BABF8C : public ::RPG::GameCore::PredicateTaskBase_1<::RPG::GameCore::RtByIsMoving*>
 {

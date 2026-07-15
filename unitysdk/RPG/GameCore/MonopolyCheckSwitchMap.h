@@ -4,13 +4,13 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_MONOPOLYCHECKSWITCHMAP_METHOD_3_35D5CDD35B031039_OFFSET UNITYSDK_OFFSET(0x1995BFE0)
-#define RPG_GAMECORE_MONOPOLYCHECKSWITCHMAP_METHOD_3_D18BD6CC7EEA9BAE_OFFSET UNITYSDK_OFFSET(0x1995BF60)
-#define RPG_GAMECORE_MONOPOLYCHECKSWITCHMAP__CTOR_OFFSET UNITYSDK_OFFSET(0x1995BFB0)
+#define RPG_GAMECORE_MONOPOLYCHECKSWITCHMAP_METHOD_3_35D5CDD35B031039_OFFSET UNITYSDK_OFFSET(0x1B1B0AF0)
+#define RPG_GAMECORE_MONOPOLYCHECKSWITCHMAP_METHOD_3_39AB1F8678500EF0_OFFSET UNITYSDK_OFFSET(0x1B1B0AB0)
+#define RPG_GAMECORE_MONOPOLYCHECKSWITCHMAP__CTOR_OFFSET UNITYSDK_OFFSET(0x1B1B0AE0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MonopolyCheckSwitchMap_TypeDefinitionIndex = 19784;
+	inline static constexpr unsigned int MonopolyCheckSwitchMap_TypeDefinitionIndex = 20144;
 
 	class MonopolyCheckSwitchMap : public ::RPG::GameCore::TaskConfig
 	{
@@ -25,9 +25,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MONOPOLYCHECKSWITCHMAP__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_D18BD6CC7EEA9BAE(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::MonopolyCheckSwitchMap*& a2)
+		static ::System::Void Method_3_39AB1F8678500EF0(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::MonopolyCheckSwitchMap*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::MonopolyCheckSwitchMap*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MONOPOLYCHECKSWITCHMAP_METHOD_3_D18BD6CC7EEA9BAE_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::MonopolyCheckSwitchMap*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MONOPOLYCHECKSWITCHMAP_METHOD_3_39AB1F8678500EF0_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_35D5CDD35B031039(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::MonopolyCheckSwitchMap* a2)

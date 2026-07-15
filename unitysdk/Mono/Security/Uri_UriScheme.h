@@ -4,7 +4,7 @@
 
 namespace System { class String; }
 
-#define MONO_SECURITY_URI_URISCHEME__CTOR_OFFSET UNITYSDK_OFFSET(0x26E50)
+#define MONO_SECURITY_URI_URISCHEME__CTOR_OFFSET UNITYSDK_OFFSET(0x7AF990)
 
 namespace Mono::Security
 {

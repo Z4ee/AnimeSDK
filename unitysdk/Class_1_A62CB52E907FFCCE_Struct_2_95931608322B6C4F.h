@@ -5,7 +5,7 @@
 namespace RPG::Client::LittleGame::FiveDim { class FiveDimMonoCamera; }
 namespace RPG::GameCore { class FiveDimVCameraBlendConfig; }
 
-inline static constexpr unsigned int Class_1_A62CB52E907FFCCE_Struct_2_95931608322B6C4F_TypeDefinitionIndex = 71391;
+inline static constexpr unsigned int Class_1_A62CB52E907FFCCE_Struct_2_95931608322B6C4F_TypeDefinitionIndex = 72916;
 
 struct alignas(8) Class_1_A62CB52E907FFCCE_Struct_2_95931608322B6C4F
 {

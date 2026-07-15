@@ -26,7 +26,7 @@
 
 namespace UnityEngine::Rendering
 {
-	inline static constexpr unsigned int CRPipelineAsset_TypeDefinitionIndex = 4843;
+	inline static constexpr unsigned int CRPipelineAsset_TypeDefinitionIndex = 4848;
 
 	struct alignas(8) CRPipelineAsset
 	{
@@ -153,31 +153,31 @@ namespace UnityEngine::Rendering
 		::UnityEngine::Rendering::AOSetting aoSetting; // 0x234
 		::UnityEngine::Rendering::TAASettings taaSettings; // 0x270
 		::UnityEngine::Rendering::UIBlurSettings uiBlurSettings; // 0x288
-		::UnityEngine::Rendering::OffScreenUISettings offScreenUISettings; // 0x368
-		::UnityEngine::Rendering::SSRSettings ssrSettings; // 0x380
-		::UnityEngine::Rendering::SSGISettings ssgiSettings; // 0x3B0
-		::UnityEngine::Rendering::WaterSettings waterSettings; // 0x410
-		::UnityEngine::Rendering::VolumetricCloudSettings volumetricCloudSettings; // 0x428
-		::UnityEngine::Rendering::VolumetricFogSettings volumetricFogSettings; // 0x440
-		::UnityEngine::Rendering::VolumetricCloudSphereSettings volumetricCloudSphereSettings; // 0x500
-		::UnityEngine::Rendering::VolumetricLightSettings volumetricLightSettings; // 0x514
-		::UnityEngine::Rendering::GlobalSDFSettings globalSDFSettings; // 0x524
-		::UnityEngine::Rendering::AmbientVolumneData ambientData; // 0x530
-		::UnityEngine::Rendering::ClusterLightingSettings clusterSettings; // 0x5A0
-		::UnityEngine::Rendering::VoxelIrradianceCacheSettings voxelIrradianceCacheSettings; // 0x5C0
-		::UnityEngine::Rendering::AdaptiveTessellationSettings adaptiveTessellationSettings; // 0x5D0
-		::UnityEngine::Rendering::DLSSData dlssData; // 0x5E0
-		::UnityEngine::Rendering::DepthCopyFlag forwardDepthCopyFlag; // 0x610
-		::System::Int32 minInstanceCountAsyncFill; // 0x614
-		::System::Single geometryShadowFadeRatio; // 0x618
-		::System::Int32 geometryShadowQuality; // 0x61C
-		::System::Byte defaultSplitScreenStencilMask; // 0x620
-		::System::Boolean enableMetalVrr; // 0x621
-		::System::Boolean shouldSkipDrawWhenLoading; // 0x622
-		::System::Int32 skipFrameDelay; // 0x624
-		::System::Int32 particleTrailSmoothness; // 0x628
-		::System::UInt64 _Flag; // 0x630
-		::System::UInt32 _GPUDrivenFlag; // 0x638
-		::System::UInt32 _PlatformFlag; // 0x63C
+		::UnityEngine::Rendering::OffScreenUISettings offScreenUISettings; // 0x364
+		::UnityEngine::Rendering::SSRSettings ssrSettings; // 0x37C
+		::UnityEngine::Rendering::SSGISettings ssgiSettings; // 0x3AC
+		::UnityEngine::Rendering::WaterSettings waterSettings; // 0x40C
+		::UnityEngine::Rendering::VolumetricCloudSettings volumetricCloudSettings; // 0x424
+		::UnityEngine::Rendering::VolumetricFogSettings volumetricFogSettings; // 0x43C
+		::UnityEngine::Rendering::VolumetricCloudSphereSettings volumetricCloudSphereSettings; // 0x4FC
+		::UnityEngine::Rendering::VolumetricLightSettings volumetricLightSettings; // 0x510
+		::UnityEngine::Rendering::GlobalSDFSettings globalSDFSettings; // 0x520
+		::UnityEngine::Rendering::AmbientVolumneData ambientData; // 0x52C
+		::UnityEngine::Rendering::ClusterLightingSettings clusterSettings; // 0x59C
+		::UnityEngine::Rendering::VoxelIrradianceCacheSettings voxelIrradianceCacheSettings; // 0x5BC
+		::UnityEngine::Rendering::AdaptiveTessellationSettings adaptiveTessellationSettings; // 0x5CC
+		::UnityEngine::Rendering::DLSSData dlssData; // 0x5D8
+		::UnityEngine::Rendering::DepthCopyFlag forwardDepthCopyFlag; // 0x608
+		::System::Int32 minInstanceCountAsyncFill; // 0x60C
+		::System::Single geometryShadowFadeRatio; // 0x610
+		::System::Int32 geometryShadowQuality; // 0x614
+		::System::Byte defaultSplitScreenStencilMask; // 0x618
+		::System::Boolean enableMetalVrr; // 0x619
+		::System::Boolean shouldSkipDrawWhenLoading; // 0x61A
+		::System::Int32 skipFrameDelay; // 0x61C
+		::System::Int32 particleTrailSmoothness; // 0x620
+		::System::UInt64 _Flag; // 0x628
+		::System::UInt32 _GPUDrivenFlag; // 0x630
+		::System::UInt32 _PlatformFlag; // 0x634
 	};
 }

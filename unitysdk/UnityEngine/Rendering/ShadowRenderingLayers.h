@@ -4,7 +4,7 @@
 
 namespace UnityEngine::Rendering
 {
-	inline static constexpr unsigned int ShadowRenderingLayers_TypeDefinitionIndex = 4867;
+	inline static constexpr unsigned int ShadowRenderingLayers_TypeDefinitionIndex = 4872;
 
 	struct alignas(4) ShadowRenderingLayers
 	{

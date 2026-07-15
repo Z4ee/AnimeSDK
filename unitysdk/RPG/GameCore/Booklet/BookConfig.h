@@ -8,12 +8,12 @@ namespace RPG::GameCore::Booklet { class ChapterConfig; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_BOOKLET_BOOKCONFIG_METHOD_2_FB3A0FA6B6F07B4C_OFFSET UNITYSDK_OFFSET(0x194E1CB0)
-#define RPG_GAMECORE_BOOKLET_BOOKCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x194E1E70)
+#define RPG_GAMECORE_BOOKLET_BOOKCONFIG_METHOD_2_FB3A0FA6B6F07B4C_OFFSET UNITYSDK_OFFSET(0x1A402830)
+#define RPG_GAMECORE_BOOKLET_BOOKCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1A4029F0)
 
 namespace RPG::GameCore::Booklet
 {
-	inline static constexpr unsigned int BookConfig_TypeDefinitionIndex = 23596;
+	inline static constexpr unsigned int BookConfig_TypeDefinitionIndex = 24087;
 
 	class BookConfig : public ::RPG::GameCore::JsonConfig
 	{

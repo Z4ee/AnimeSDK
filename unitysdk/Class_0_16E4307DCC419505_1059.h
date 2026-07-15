@@ -1,10 +1,12 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-namespace RPG::Client { class UIController; }
-namespace UnityEngine { class Transform; }
+namespace RPG::GameCore { class GameEntity; }
+namespace RPG::GameCore { class SkillData; }
+namespace System { class String; }
+namespace UnityEngine { class RectTransform; }
 
-inline static constexpr unsigned int Class_0_16E4307DCC419505_1059_TypeDefinitionIndex = 68205;
+inline static constexpr unsigned int Class_0_16E4307DCC419505_1059_TypeDefinitionIndex = 68623;
 
 class Class_0_16E4307DCC419505_1059
 {

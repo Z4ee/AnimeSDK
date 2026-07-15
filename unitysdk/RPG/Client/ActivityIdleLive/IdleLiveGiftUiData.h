@@ -8,31 +8,31 @@ namespace RPG::Client::ActivityIdleLive { class GiftSenderUiData; }
 namespace RPG::GameCore { class IdleLiveGiftRow; }
 namespace System { class String; }
 
-#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEGIFTUIDATA_CREATE_OFFSET UNITYSDK_OFFSET(0xB14DAC0)
-#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEGIFTUIDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xB14E270)
-#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEGIFTUIDATA__INITGIFTCONTENT_OFFSET UNITYSDK_OFFSET(0xB14E280)
-#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEGIFTUIDATA__INITSENDERICON_OFFSET UNITYSDK_OFFSET(0xB14E3E0)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEGIFTUIDATA_CREATE_OFFSET UNITYSDK_OFFSET(0x1A670680)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEGIFTUIDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1A670EB0)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEGIFTUIDATA__INITGIFTCONTENT_OFFSET UNITYSDK_OFFSET(0x1A670EC0)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEGIFTUIDATA__INITSENDERICON_OFFSET UNITYSDK_OFFSET(0x1A671090)
 
 namespace RPG::Client::ActivityIdleLive
 {
-	inline static constexpr unsigned int IdleLiveGiftUiData_TypeDefinitionIndex = 70296;
+	inline static constexpr unsigned int IdleLiveGiftUiData_TypeDefinitionIndex = 71819;
 
 	class IdleLiveGiftUiData : public ::System::Object
 	{
 	public:
 		::System::String* SenderIcon; // 0x10
-		::RPG::Client::ActivityIdleLive::GiftSenderUiData* SenderUiData; // 0x18
-		::System::String* AbilityName; // 0x20
-		::System::String* Icon; // 0x28
-		::System::UInt32 Rarity; // 0x30
-		::RPG::GameCore::IdleLiveGiftEffectType EffectType; // 0x34
-		::System::UInt32 Count; // 0x38
-		::System::Single ProtectTime; // 0x3C
-		::System::Single FlySpeed; // 0x40
-		::System::UInt32 ItemId; // 0x44
+		::System::String* Icon; // 0x18
+		::RPG::Client::ActivityIdleLive::GiftSenderUiData* SenderUiData; // 0x20
+		::System::String* AbilityName; // 0x28
+		::RPG::Client::TextID Content; // 0x30
+		::System::UInt32 Rarity; // 0x40
+		::System::Single FlySpeed; // 0x44
 		::System::UInt32 GiftId; // 0x48
-		::System::Boolean HasAbility; // 0x4C
-		::RPG::Client::TextID Content; // 0x50
+		::System::UInt32 Count; // 0x4C
+		::System::Boolean HasAbility; // 0x50
+		::RPG::GameCore::IdleLiveGiftEffectType EffectType; // 0x54
+		::System::Single ProtectTime; // 0x58
+		::System::UInt32 ItemId; // 0x5C
 
 		::System::Void _ctor()
 		{

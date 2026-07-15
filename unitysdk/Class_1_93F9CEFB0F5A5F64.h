@@ -3,9 +3,9 @@
 #include "unitysdk/RPG/Client/LittleGame/ChenLingFes/ChenLingFesJoyStickState.h"
 #include "unitysdk/System/Object.h"
 
-#define CLASS_1_93F9CEFB0F5A5F64__CTOR_OFFSET UNITYSDK_OFFSET(0x1398C740)
+#define CLASS_1_93F9CEFB0F5A5F64__CTOR_OFFSET UNITYSDK_OFFSET(0x183C3F60)
 
-inline static constexpr unsigned int Class_1_93F9CEFB0F5A5F64_TypeDefinitionIndex = 73938;
+inline static constexpr unsigned int Class_1_93F9CEFB0F5A5F64_TypeDefinitionIndex = 76320;
 
 class Class_1_93F9CEFB0F5A5F64 : public ::System::Object
 {

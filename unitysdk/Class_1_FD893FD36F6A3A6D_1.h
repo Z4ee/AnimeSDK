@@ -2,25 +2,44 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_0_16E4307DCC419505_357;
+class Class_0_16E4307DCC419505_30;
 
-#define CLASS_1_FD893FD36F6A3A6D_1_METHOD_1_D67046CBB357BF79_OFFSET UNITYSDK_OFFSET(0x142CB100)
-#define CLASS_1_FD893FD36F6A3A6D_1__CTOR_OFFSET UNITYSDK_OFFSET(0x142CB0F0)
+#define CLASS_1_FD893FD36F6A3A6D_1_GET_TRIGGERCOLLIDER_OFFSET UNITYSDK_OFFSET(0x181825E0)
+#define CLASS_1_FD893FD36F6A3A6D_1_GET_VISITORCOLLIDER_OFFSET UNITYSDK_OFFSET(0x18182600)
+#define CLASS_1_FD893FD36F6A3A6D_1_SET_TRIGGERCOLLIDER_OFFSET UNITYSDK_OFFSET(0x181825F0)
+#define CLASS_1_FD893FD36F6A3A6D_1_SET_VISITORCOLLIDER_OFFSET UNITYSDK_OFFSET(0x18182610)
+#define CLASS_1_FD893FD36F6A3A6D_1__CTOR_OFFSET UNITYSDK_OFFSET(0x18182620)
 
-inline static constexpr unsigned int Class_1_FD893FD36F6A3A6D_1_TypeDefinitionIndex = 56915;
+inline static constexpr unsigned int Class_1_FD893FD36F6A3A6D_1_TypeDefinitionIndex = 35006;
 
 class Class_1_FD893FD36F6A3A6D_1 : public ::System::Object
 {
 public:
-	::Class_0_16E4307DCC419505_357* Field_1_0; // 0x10
+	::Class_0_16E4307DCC419505_30* _VisitorCollider_k__BackingField; // 0x10
+	::Class_0_16E4307DCC419505_30* _TriggerCollider_k__BackingField; // 0x18
 
-	::System::Void _ctor(::Class_0_16E4307DCC419505_357* a1)
+	::System::Void _ctor()
 	{
-		return ((::System::Void(*)(::PVOID, ::Class_0_16E4307DCC419505_357*))((::PBYTE)hIl2Cpp + CLASS_1_FD893FD36F6A3A6D_1__CTOR_OFFSET))(this, a1);
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_FD893FD36F6A3A6D_1__CTOR_OFFSET))(this);
 	}
 
-	::System::Boolean Method_1_D67046CBB357BF79()
+	::Class_0_16E4307DCC419505_30* get_TriggerCollider()
 	{
-		return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_FD893FD36F6A3A6D_1_METHOD_1_D67046CBB357BF79_OFFSET))(this);
+		return ((::Class_0_16E4307DCC419505_30*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_FD893FD36F6A3A6D_1_GET_TRIGGERCOLLIDER_OFFSET))(this);
+	}
+
+	::System::Void set_TriggerCollider(::Class_0_16E4307DCC419505_30* a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::Class_0_16E4307DCC419505_30*))((::PBYTE)hIl2Cpp + CLASS_1_FD893FD36F6A3A6D_1_SET_TRIGGERCOLLIDER_OFFSET))(this, a1);
+	}
+
+	::Class_0_16E4307DCC419505_30* get_VisitorCollider()
+	{
+		return ((::Class_0_16E4307DCC419505_30*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_FD893FD36F6A3A6D_1_GET_VISITORCOLLIDER_OFFSET))(this);
+	}
+
+	::System::Void set_VisitorCollider(::Class_0_16E4307DCC419505_30* a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::Class_0_16E4307DCC419505_30*))((::PBYTE)hIl2Cpp + CLASS_1_FD893FD36F6A3A6D_1_SET_VISITORCOLLIDER_OFFSET))(this, a1);
 	}
 };

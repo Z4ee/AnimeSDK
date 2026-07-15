@@ -5,13 +5,13 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class WaypointConfig; }
 
-#define RPG_GAMECORE_SETNPCWAYPOINT_METHOD_3_E5132BD819B63D92_OFFSET UNITYSDK_OFFSET(0x19C59DB0)
-#define RPG_GAMECORE_SETNPCWAYPOINT_METHOD_3_FF34EB53D60F8AC8_OFFSET UNITYSDK_OFFSET(0x19C59D10)
-#define RPG_GAMECORE_SETNPCWAYPOINT__CTOR_OFFSET UNITYSDK_OFFSET(0x19C59D80)
+#define RPG_GAMECORE_SETNPCWAYPOINT_METHOD_3_E5132BD819B63D92_OFFSET UNITYSDK_OFFSET(0x1C6040A0)
+#define RPG_GAMECORE_SETNPCWAYPOINT_METHOD_3_EE1A33AF90E7D338_OFFSET UNITYSDK_OFFSET(0x1C604040)
+#define RPG_GAMECORE_SETNPCWAYPOINT__CTOR_OFFSET UNITYSDK_OFFSET(0x1C604090)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SetNPCWaypoint_TypeDefinitionIndex = 19151;
+	inline static constexpr unsigned int SetNPCWaypoint_TypeDefinitionIndex = 19507;
 
 	class SetNPCWaypoint : public ::RPG::GameCore::TaskConfig
 	{
@@ -25,9 +25,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETNPCWAYPOINT__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_FF34EB53D60F8AC8(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SetNPCWaypoint*& a2)
+		static ::System::Void Method_3_EE1A33AF90E7D338(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SetNPCWaypoint*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SetNPCWaypoint*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETNPCWAYPOINT_METHOD_3_FF34EB53D60F8AC8_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SetNPCWaypoint*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETNPCWAYPOINT_METHOD_3_EE1A33AF90E7D338_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_E5132BD819B63D92(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SetNPCWaypoint* a2)

@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class ByIsRotatableTimeRewindTarget; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_428ADF1AA5227AF3_EVALUATE_OFFSET UNITYSDK_OFFSET(0x13B7BCB0)
-#define CLASS_3_428ADF1AA5227AF3__CTOR_OFFSET UNITYSDK_OFFSET(0x13B7BC80)
+#define CLASS_3_428ADF1AA5227AF3_EVALUATE_OFFSET UNITYSDK_OFFSET(0x16231000)
+#define CLASS_3_428ADF1AA5227AF3__CTOR_OFFSET UNITYSDK_OFFSET(0x16230FD0)
 
-inline static constexpr unsigned int Class_3_428ADF1AA5227AF3_TypeDefinitionIndex = 49863;
+inline static constexpr unsigned int Class_3_428ADF1AA5227AF3_TypeDefinitionIndex = 50940;
 
 class Class_3_428ADF1AA5227AF3 : public ::RPG::GameCore::PredicateTaskBase_1<::RPG::GameCore::ByIsRotatableTimeRewindTarget*>
 {

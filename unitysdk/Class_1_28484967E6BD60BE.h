@@ -2,14 +2,14 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_0_16E4307DCC419505_260;
+class Class_0_16E4307DCC419505_280;
 namespace RPG::GameCore { class BaseLittleGameAbilityTargetSelectorConfig; }
 namespace System::Collections::Generic { template <typename T> class HashSet_1; }
 
-#define CLASS_1_28484967E6BD60BE_METHOD_1_74BBDE38ED8CCF11_OFFSET UNITYSDK_OFFSET(0xAEF95A0)
-#define CLASS_1_28484967E6BD60BE__CTOR_OFFSET UNITYSDK_OFFSET(0xAEF9970)
+#define CLASS_1_28484967E6BD60BE_METHOD_1_74BBDE38ED8CCF11_OFFSET UNITYSDK_OFFSET(0x15E7B5E0)
+#define CLASS_1_28484967E6BD60BE__CTOR_OFFSET UNITYSDK_OFFSET(0x15E7BAC0)
 
-inline static constexpr unsigned int Class_1_28484967E6BD60BE_TypeDefinitionIndex = 71902;
+inline static constexpr unsigned int Class_1_28484967E6BD60BE_TypeDefinitionIndex = 73427;
 
 class Class_1_28484967E6BD60BE : public ::System::Object
 {
@@ -19,8 +19,8 @@ public:
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_28484967E6BD60BE__CTOR_OFFSET))(this);
 	}
 
-	::System::Collections::Generic::HashSet_1<::System::Int32>* Method_1_74BBDE38ED8CCF11(::Class_0_16E4307DCC419505_260* a1, ::RPG::GameCore::BaseLittleGameAbilityTargetSelectorConfig* a2)
+	::System::Collections::Generic::HashSet_1<::System::Int32>* Method_1_74BBDE38ED8CCF11(::Class_0_16E4307DCC419505_280* a1, ::RPG::GameCore::BaseLittleGameAbilityTargetSelectorConfig* a2)
 	{
-		return ((::System::Collections::Generic::HashSet_1<::System::Int32>*(*)(::PVOID, ::Class_0_16E4307DCC419505_260*, ::RPG::GameCore::BaseLittleGameAbilityTargetSelectorConfig*))((::PBYTE)hIl2Cpp + CLASS_1_28484967E6BD60BE_METHOD_1_74BBDE38ED8CCF11_OFFSET))(this, a1, a2);
+		return ((::System::Collections::Generic::HashSet_1<::System::Int32>*(*)(::PVOID, ::Class_0_16E4307DCC419505_280*, ::RPG::GameCore::BaseLittleGameAbilityTargetSelectorConfig*))((::PBYTE)hIl2Cpp + CLASS_1_28484967E6BD60BE_METHOD_1_74BBDE38ED8CCF11_OFFSET))(this, a1, a2);
 	}
 };

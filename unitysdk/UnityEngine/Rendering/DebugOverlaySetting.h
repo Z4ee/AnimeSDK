@@ -6,7 +6,7 @@
 
 namespace UnityEngine::Rendering
 {
-	inline static constexpr unsigned int DebugOverlaySetting_TypeDefinitionIndex = 4800;
+	inline static constexpr unsigned int DebugOverlaySetting_TypeDefinitionIndex = 4805;
 
 	struct alignas(4) DebugOverlaySetting
 	{

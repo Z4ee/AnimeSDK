@@ -5,38 +5,38 @@
 namespace System::Reflection { class MethodInfo; }
 namespace System::Reflection { class TypeInfo; }
 
-#define MESSAGEPACK_INTERNAL_DYNAMICOBJECTTYPEBUILDER_MESSAGEPACKREADERTYPEINFO__CCTOR_OFFSET UNITYSDK_OFFSET(0x18167BE0)
+#define MESSAGEPACK_INTERNAL_DYNAMICOBJECTTYPEBUILDER_MESSAGEPACKREADERTYPEINFO__CCTOR_OFFSET UNITYSDK_OFFSET(0x14F9DE50)
 
 namespace MessagePack::Internal
 {
-	inline static constexpr unsigned int DynamicObjectTypeBuilder_MessagePackReaderTypeInfo_TypeDefinitionIndex = 7268;
+	inline static constexpr unsigned int DynamicObjectTypeBuilder_MessagePackReaderTypeInfo_TypeDefinitionIndex = 7274;
 
 	class DynamicObjectTypeBuilder_MessagePackReaderTypeInfo : public ::System::Object
 	{
 	public:
-		static ::System::Reflection::MethodInfo** StaticGet_ReadArrayHeader()
+		static ::System::Reflection::MethodInfo** StaticGet_ReadMapHeader()
 		{
-			return (::System::Reflection::MethodInfo**)Il2CppClass::FromTypeDefinitionIndex(DynamicObjectTypeBuilder_MessagePackReaderTypeInfo_TypeDefinitionIndex)->GetStaticField(0x96F0);
-		}
-		static ::System::Reflection::MethodInfo** StaticGet_TryReadNil()
-		{
-			return (::System::Reflection::MethodInfo**)Il2CppClass::FromTypeDefinitionIndex(DynamicObjectTypeBuilder_MessagePackReaderTypeInfo_TypeDefinitionIndex)->GetStaticField(0x96F8);
-		}
-		static ::System::Reflection::MethodInfo** StaticGet_ReadBytes()
-		{
-			return (::System::Reflection::MethodInfo**)Il2CppClass::FromTypeDefinitionIndex(DynamicObjectTypeBuilder_MessagePackReaderTypeInfo_TypeDefinitionIndex)->GetStaticField(0x9700);
-		}
-		static ::System::Reflection::MethodInfo** StaticGet_Skip()
-		{
-			return (::System::Reflection::MethodInfo**)Il2CppClass::FromTypeDefinitionIndex(DynamicObjectTypeBuilder_MessagePackReaderTypeInfo_TypeDefinitionIndex)->GetStaticField(0x9708);
+			return (::System::Reflection::MethodInfo**)Il2CppClass::FromTypeDefinitionIndex(DynamicObjectTypeBuilder_MessagePackReaderTypeInfo_TypeDefinitionIndex)->GetStaticField(0xA0E0);
 		}
 		static ::System::Reflection::TypeInfo** StaticGet_TypeInfo()
 		{
-			return (::System::Reflection::TypeInfo**)Il2CppClass::FromTypeDefinitionIndex(DynamicObjectTypeBuilder_MessagePackReaderTypeInfo_TypeDefinitionIndex)->GetStaticField(0x9710);
+			return (::System::Reflection::TypeInfo**)Il2CppClass::FromTypeDefinitionIndex(DynamicObjectTypeBuilder_MessagePackReaderTypeInfo_TypeDefinitionIndex)->GetStaticField(0xA0E8);
 		}
-		static ::System::Reflection::MethodInfo** StaticGet_ReadMapHeader()
+		static ::System::Reflection::MethodInfo** StaticGet_ReadArrayHeader()
 		{
-			return (::System::Reflection::MethodInfo**)Il2CppClass::FromTypeDefinitionIndex(DynamicObjectTypeBuilder_MessagePackReaderTypeInfo_TypeDefinitionIndex)->GetStaticField(0x9718);
+			return (::System::Reflection::MethodInfo**)Il2CppClass::FromTypeDefinitionIndex(DynamicObjectTypeBuilder_MessagePackReaderTypeInfo_TypeDefinitionIndex)->GetStaticField(0xA0F0);
+		}
+		static ::System::Reflection::MethodInfo** StaticGet_ReadBytes()
+		{
+			return (::System::Reflection::MethodInfo**)Il2CppClass::FromTypeDefinitionIndex(DynamicObjectTypeBuilder_MessagePackReaderTypeInfo_TypeDefinitionIndex)->GetStaticField(0xA0F8);
+		}
+		static ::System::Reflection::MethodInfo** StaticGet_Skip()
+		{
+			return (::System::Reflection::MethodInfo**)Il2CppClass::FromTypeDefinitionIndex(DynamicObjectTypeBuilder_MessagePackReaderTypeInfo_TypeDefinitionIndex)->GetStaticField(0xA100);
+		}
+		static ::System::Reflection::MethodInfo** StaticGet_TryReadNil()
+		{
+			return (::System::Reflection::MethodInfo**)Il2CppClass::FromTypeDefinitionIndex(DynamicObjectTypeBuilder_MessagePackReaderTypeInfo_TypeDefinitionIndex)->GetStaticField(0xA108);
 		}
 
 		static ::System::Void _cctor()

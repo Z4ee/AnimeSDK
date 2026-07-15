@@ -7,12 +7,12 @@ namespace RPG::GameCore { class SpritePresetNameList; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_SPRITEPRESETSINFOLDER_METHOD_2_A2251CD588FEE1C9_OFFSET UNITYSDK_OFFSET(0x19CA0A40)
-#define RPG_GAMECORE_SPRITEPRESETSINFOLDER__CTOR_OFFSET UNITYSDK_OFFSET(0x19CA0B40)
+#define RPG_GAMECORE_SPRITEPRESETSINFOLDER_METHOD_2_A2251CD588FEE1C9_OFFSET UNITYSDK_OFFSET(0x1B0A4830)
+#define RPG_GAMECORE_SPRITEPRESETSINFOLDER__CTOR_OFFSET UNITYSDK_OFFSET(0x1B0A4930)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SpritePresetsInFolder_TypeDefinitionIndex = 23092;
+	inline static constexpr unsigned int SpritePresetsInFolder_TypeDefinitionIndex = 23559;
 
 	class SpritePresetsInFolder : public ::RPG::GameCore::JsonConfig
 	{

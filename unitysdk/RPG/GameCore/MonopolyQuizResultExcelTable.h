@@ -11,45 +11,45 @@ namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Concurrent { template <typename T1, typename T2> class ConcurrentDictionary_2; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_MONOPOLYQUIZRESULTEXCELTABLE_GETDATA_OFFSET UNITYSDK_OFFSET(0x1999FED0)
-#define RPG_GAMECORE_MONOPOLYQUIZRESULTEXCELTABLE_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x1999FD60)
-#define RPG_GAMECORE_MONOPOLYQUIZRESULTEXCELTABLE_GET_DATADICT_OFFSET UNITYSDK_OFFSET(0x1999FA50)
-#define RPG_GAMECORE_MONOPOLYQUIZRESULTEXCELTABLE_ISDATAEMPTY_OFFSET UNITYSDK_OFFSET(0x1999FD00)
-#define RPG_GAMECORE_MONOPOLYQUIZRESULTEXCELTABLE_ISDATALOADED_OFFSET UNITYSDK_OFFSET(0x199A0060)
-#define RPG_GAMECORE_MONOPOLYQUIZRESULTEXCELTABLE_LOADDATA_OFFSET UNITYSDK_OFFSET(0x1999FAD0)
-#define RPG_GAMECORE_MONOPOLYQUIZRESULTEXCELTABLE_UNLOADDATA_OFFSET UNITYSDK_OFFSET(0x199A00A0)
-#define RPG_GAMECORE_MONOPOLYQUIZRESULTEXCELTABLE__ADDITEMFROMBINARY_OFFSET UNITYSDK_OFFSET(0x199A0270)
-#define RPG_GAMECORE_MONOPOLYQUIZRESULTEXCELTABLE__ADDITEM_OFFSET UNITYSDK_OFFSET(0x199A04D0)
-#define RPG_GAMECORE_MONOPOLYQUIZRESULTEXCELTABLE__CCTOR_OFFSET UNITYSDK_OFFSET(0x199A0840)
-#define RPG_GAMECORE_MONOPOLYQUIZRESULTEXCELTABLE__LOADDATAINCREMENTIAL_OFFSET UNITYSDK_OFFSET(0x199A01D0)
-#define RPG_GAMECORE_MONOPOLYQUIZRESULTEXCELTABLE__LOADDATA_OFFSET UNITYSDK_OFFSET(0x199A0130)
+#define RPG_GAMECORE_MONOPOLYQUIZRESULTEXCELTABLE_GETDATA_OFFSET UNITYSDK_OFFSET(0x1B1BC410)
+#define RPG_GAMECORE_MONOPOLYQUIZRESULTEXCELTABLE_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x1B1BC2A0)
+#define RPG_GAMECORE_MONOPOLYQUIZRESULTEXCELTABLE_GET_DATADICT_OFFSET UNITYSDK_OFFSET(0x1B1BBF90)
+#define RPG_GAMECORE_MONOPOLYQUIZRESULTEXCELTABLE_ISDATAEMPTY_OFFSET UNITYSDK_OFFSET(0x1B1BC240)
+#define RPG_GAMECORE_MONOPOLYQUIZRESULTEXCELTABLE_ISDATALOADED_OFFSET UNITYSDK_OFFSET(0x1B1BC5A0)
+#define RPG_GAMECORE_MONOPOLYQUIZRESULTEXCELTABLE_LOADDATA_OFFSET UNITYSDK_OFFSET(0x1B1BC010)
+#define RPG_GAMECORE_MONOPOLYQUIZRESULTEXCELTABLE_UNLOADDATA_OFFSET UNITYSDK_OFFSET(0x1B1BC5E0)
+#define RPG_GAMECORE_MONOPOLYQUIZRESULTEXCELTABLE__ADDITEMFROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B1BC7B0)
+#define RPG_GAMECORE_MONOPOLYQUIZRESULTEXCELTABLE__ADDITEM_OFFSET UNITYSDK_OFFSET(0x1B1BCA10)
+#define RPG_GAMECORE_MONOPOLYQUIZRESULTEXCELTABLE__CCTOR_OFFSET UNITYSDK_OFFSET(0x1B1BCD80)
+#define RPG_GAMECORE_MONOPOLYQUIZRESULTEXCELTABLE__LOADDATAINCREMENTIAL_OFFSET UNITYSDK_OFFSET(0x1B1BC710)
+#define RPG_GAMECORE_MONOPOLYQUIZRESULTEXCELTABLE__LOADDATA_OFFSET UNITYSDK_OFFSET(0x1B1BC670)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MonopolyQuizResultExcelTable_TypeDefinitionIndex = 11496;
+	inline static constexpr unsigned int MonopolyQuizResultExcelTable_TypeDefinitionIndex = 11596;
 
 	class MonopolyQuizResultExcelTable : public ::System::Object
 	{
 	public:
-		static ::Il2CppArray<::System::String*>** StaticGet_s_PathList()
-		{
-			return (::Il2CppArray<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(MonopolyQuizResultExcelTable_TypeDefinitionIndex)->GetStaticField(0x29B90);
-		}
 		static ::System::Action_1<::Class_1_7A22A3DBEEDD1F80*>** StaticGet__AddItemFromBinary_ActionInst()
 		{
-			return (::System::Action_1<::Class_1_7A22A3DBEEDD1F80*>**)Il2CppClass::FromTypeDefinitionIndex(MonopolyQuizResultExcelTable_TypeDefinitionIndex)->GetStaticField(0x29B98);
+			return (::System::Action_1<::Class_1_7A22A3DBEEDD1F80*>**)Il2CppClass::FromTypeDefinitionIndex(MonopolyQuizResultExcelTable_TypeDefinitionIndex)->GetStaticField(0x10CF0);
+		}
+		static ::Il2CppArray<::System::String*>** StaticGet_s_PathList()
+		{
+			return (::Il2CppArray<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(MonopolyQuizResultExcelTable_TypeDefinitionIndex)->GetStaticField(0x10CF8);
 		}
 		static ::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::MonopolyQuizResultRow*>** StaticGet_dataDict_()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::MonopolyQuizResultRow*>**)Il2CppClass::FromTypeDefinitionIndex(MonopolyQuizResultExcelTable_TypeDefinitionIndex)->GetStaticField(0x29BA0);
-		}
-		static ::System::Boolean* StaticGet_isDataLoaded()
-		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(MonopolyQuizResultExcelTable_TypeDefinitionIndex)->GetStaticField(0x9940);
+			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::MonopolyQuizResultRow*>**)Il2CppClass::FromTypeDefinitionIndex(MonopolyQuizResultExcelTable_TypeDefinitionIndex)->GetStaticField(0x10D00);
 		}
 		static ::System::Byte* StaticGet_HashIndex()
 		{
-			return (::System::Byte*)Il2CppClass::FromTypeDefinitionIndex(MonopolyQuizResultExcelTable_TypeDefinitionIndex)->GetStaticField(0x9941);
+			return (::System::Byte*)Il2CppClass::FromTypeDefinitionIndex(MonopolyQuizResultExcelTable_TypeDefinitionIndex)->GetStaticField(0x59D0);
+		}
+		static ::System::Boolean* StaticGet_isDataLoaded()
+		{
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(MonopolyQuizResultExcelTable_TypeDefinitionIndex)->GetStaticField(0x59D1);
 		}
 
 		static ::System::Void _cctor()

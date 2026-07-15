@@ -3,7 +3,7 @@
 
 namespace UnityEngine::Networking
 {
-	inline static constexpr unsigned int UnityWebRequest_UnityWebRequestMethod_TypeDefinitionIndex = 5356;
+	inline static constexpr unsigned int UnityWebRequest_UnityWebRequestMethod_TypeDefinitionIndex = 5361;
 
 	enum class UnityWebRequest_UnityWebRequestMethod : ::System::Int32
 	{

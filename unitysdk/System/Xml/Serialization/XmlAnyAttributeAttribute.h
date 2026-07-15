@@ -4,7 +4,7 @@
 
 namespace System::Xml::Serialization
 {
-	inline static constexpr unsigned int XmlAnyAttributeAttribute_TypeDefinitionIndex = 1985;
+	inline static constexpr unsigned int XmlAnyAttributeAttribute_TypeDefinitionIndex = 1989;
 
 	class XmlAnyAttributeAttribute : public ::System::Attribute
 	{

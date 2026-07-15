@@ -4,10 +4,10 @@
 #include "unitysdk/System/Object.h"
 #include "unitysdk/System/TimeSpan.h"
 
-#define SYSTEM_TIMEZONE_GET_CURRENTTIMEZONE_OFFSET UNITYSDK_OFFSET(0x1863BFD0)
-#define SYSTEM_TIMEZONE_TOLOCALTIME_OFFSET UNITYSDK_OFFSET(0x1863C1B0)
-#define SYSTEM_TIMEZONE__CCTOR_OFFSET UNITYSDK_OFFSET(0x1863C4B0)
-#define SYSTEM_TIMEZONE__CTOR_OFFSET UNITYSDK_OFFSET(0x1863BFC0)
+#define SYSTEM_TIMEZONE_GET_CURRENTTIMEZONE_OFFSET UNITYSDK_OFFSET(0x1A7428D0)
+#define SYSTEM_TIMEZONE_TOLOCALTIME_OFFSET UNITYSDK_OFFSET(0x1A742AB0)
+#define SYSTEM_TIMEZONE__CCTOR_OFFSET UNITYSDK_OFFSET(0x1A742DB0)
+#define SYSTEM_TIMEZONE__CTOR_OFFSET UNITYSDK_OFFSET(0x1A7428C0)
 
 namespace System
 {
@@ -16,17 +16,17 @@ namespace System
 	class TimeZone : public ::System::Object
 	{
 	public:
-		static ::System::Object** StaticGet_tz_lock()
-		{
-			return (::System::Object**)Il2CppClass::FromTypeDefinitionIndex(TimeZone_TypeDefinitionIndex)->GetStaticField(0x12B30);
-		}
 		static ::System::TimeZone** StaticGet_currentTimeZone()
 		{
-			return (::System::TimeZone**)Il2CppClass::FromTypeDefinitionIndex(TimeZone_TypeDefinitionIndex)->GetStaticField(0x12B38);
+			return (::System::TimeZone**)Il2CppClass::FromTypeDefinitionIndex(TimeZone_TypeDefinitionIndex)->GetStaticField(0x21BF0);
+		}
+		static ::System::Object** StaticGet_tz_lock()
+		{
+			return (::System::Object**)Il2CppClass::FromTypeDefinitionIndex(TimeZone_TypeDefinitionIndex)->GetStaticField(0x21BF8);
 		}
 		static ::System::Int64* StaticGet_timezone_check()
 		{
-			return (::System::Int64*)Il2CppClass::FromTypeDefinitionIndex(TimeZone_TypeDefinitionIndex)->GetStaticField(0x77A0);
+			return (::System::Int64*)Il2CppClass::FromTypeDefinitionIndex(TimeZone_TypeDefinitionIndex)->GetStaticField(0x6B30);
 		}
 
 		::System::Void _ctor()

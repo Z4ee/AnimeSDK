@@ -5,13 +5,13 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class DynamicFloat; }
 
-#define RPG_GAMECORE_BOOMROBOTGAMEPLAYCONTROLLERINITIALIZE_METHOD_3_94A0B25051E74901_OFFSET UNITYSDK_OFFSET(0x194E5B30)
-#define RPG_GAMECORE_BOOMROBOTGAMEPLAYCONTROLLERINITIALIZE_METHOD_3_E2EAC38A6877A52F_OFFSET UNITYSDK_OFFSET(0x194E5BB0)
-#define RPG_GAMECORE_BOOMROBOTGAMEPLAYCONTROLLERINITIALIZE__CTOR_OFFSET UNITYSDK_OFFSET(0x194E5B80)
+#define RPG_GAMECORE_BOOMROBOTGAMEPLAYCONTROLLERINITIALIZE_METHOD_3_4D1EE61C92B6B511_OFFSET UNITYSDK_OFFSET(0x1A4065F0)
+#define RPG_GAMECORE_BOOMROBOTGAMEPLAYCONTROLLERINITIALIZE_METHOD_3_E2EAC38A6877A52F_OFFSET UNITYSDK_OFFSET(0x1A406630)
+#define RPG_GAMECORE_BOOMROBOTGAMEPLAYCONTROLLERINITIALIZE__CTOR_OFFSET UNITYSDK_OFFSET(0x1A406620)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int BoomRobotGameplayControllerInitialize_TypeDefinitionIndex = 20017;
+	inline static constexpr unsigned int BoomRobotGameplayControllerInitialize_TypeDefinitionIndex = 20389;
 
 	class BoomRobotGameplayControllerInitialize : public ::RPG::GameCore::TaskConfig
 	{
@@ -31,9 +31,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BOOMROBOTGAMEPLAYCONTROLLERINITIALIZE__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_94A0B25051E74901(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::BoomRobotGameplayControllerInitialize*& a2)
+		static ::System::Void Method_3_4D1EE61C92B6B511(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::BoomRobotGameplayControllerInitialize*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::BoomRobotGameplayControllerInitialize*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BOOMROBOTGAMEPLAYCONTROLLERINITIALIZE_METHOD_3_94A0B25051E74901_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::BoomRobotGameplayControllerInitialize*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BOOMROBOTGAMEPLAYCONTROLLERINITIALIZE_METHOD_3_4D1EE61C92B6B511_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_E2EAC38A6877A52F(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::BoomRobotGameplayControllerInitialize* a2)

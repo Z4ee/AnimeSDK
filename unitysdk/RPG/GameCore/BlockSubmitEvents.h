@@ -4,13 +4,13 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_BLOCKSUBMITEVENTS_METHOD_3_5DFE9CC7FDA56DA3_OFFSET UNITYSDK_OFFSET(0x194E01F0)
-#define RPG_GAMECORE_BLOCKSUBMITEVENTS_METHOD_3_F81D693FEF74729A_OFFSET UNITYSDK_OFFSET(0x194E0270)
-#define RPG_GAMECORE_BLOCKSUBMITEVENTS__CTOR_OFFSET UNITYSDK_OFFSET(0x194E0240)
+#define RPG_GAMECORE_BLOCKSUBMITEVENTS_METHOD_3_332B862A4C7AED11_OFFSET UNITYSDK_OFFSET(0x1A400E30)
+#define RPG_GAMECORE_BLOCKSUBMITEVENTS_METHOD_3_F81D693FEF74729A_OFFSET UNITYSDK_OFFSET(0x1A400E70)
+#define RPG_GAMECORE_BLOCKSUBMITEVENTS__CTOR_OFFSET UNITYSDK_OFFSET(0x1A400E60)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int BlockSubmitEvents_TypeDefinitionIndex = 22956;
+	inline static constexpr unsigned int BlockSubmitEvents_TypeDefinitionIndex = 23423;
 
 	class BlockSubmitEvents : public ::RPG::GameCore::TaskConfig
 	{
@@ -22,9 +22,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BLOCKSUBMITEVENTS__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_5DFE9CC7FDA56DA3(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::BlockSubmitEvents*& a2)
+		static ::System::Void Method_3_332B862A4C7AED11(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::BlockSubmitEvents*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::BlockSubmitEvents*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BLOCKSUBMITEVENTS_METHOD_3_5DFE9CC7FDA56DA3_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::BlockSubmitEvents*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BLOCKSUBMITEVENTS_METHOD_3_332B862A4C7AED11_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_F81D693FEF74729A(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::BlockSubmitEvents* a2)

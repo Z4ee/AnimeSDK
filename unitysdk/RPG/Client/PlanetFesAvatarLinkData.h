@@ -7,22 +7,22 @@ namespace RPG::Client { class PlanetFesAvatarLink; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_PLANETFESAVATARLINKDATA_GETAVATARLINK_OFFSET UNITYSDK_OFFSET(0xC400990)
-#define RPG_CLIENT_PLANETFESAVATARLINKDATA_GETSHOWLINKS_OFFSET UNITYSDK_OFFSET(0xC4006A0)
-#define RPG_CLIENT_PLANETFESAVATARLINKDATA_INIT_OFFSET UNITYSDK_OFFSET(0xC3FFE20)
-#define RPG_CLIENT_PLANETFESAVATARLINKDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xC400B30)
-#define RPG_CLIENT_PLANETFESAVATARLINKDATA__FINDLINKS_OFFSET UNITYSDK_OFFSET(0xC4002B0)
-#define RPG_CLIENT_PLANETFESAVATARLINKDATA__SORTLINKS_OFFSET UNITYSDK_OFFSET(0xC400A40)
+#define RPG_CLIENT_PLANETFESAVATARLINKDATA_GETAVATARLINK_OFFSET UNITYSDK_OFFSET(0x1A95C6C0)
+#define RPG_CLIENT_PLANETFESAVATARLINKDATA_GETSHOWLINKS_OFFSET UNITYSDK_OFFSET(0x1A95C3D0)
+#define RPG_CLIENT_PLANETFESAVATARLINKDATA_INIT_OFFSET UNITYSDK_OFFSET(0x1A95BB20)
+#define RPG_CLIENT_PLANETFESAVATARLINKDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1A95C970)
+#define RPG_CLIENT_PLANETFESAVATARLINKDATA__FINDLINKS_OFFSET UNITYSDK_OFFSET(0x1A95BFE0)
+#define RPG_CLIENT_PLANETFESAVATARLINKDATA__SORTLINKS_OFFSET UNITYSDK_OFFSET(0x1A95C770)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int PlanetFesAvatarLinkData_TypeDefinitionIndex = 62207;
+	inline static constexpr unsigned int PlanetFesAvatarLinkData_TypeDefinitionIndex = 63573;
 
 	class PlanetFesAvatarLinkData : public ::System::Object
 	{
 	public:
-		::System::Collections::Generic::List_1<::RPG::Client::PlanetFesAvatarLink*>* _AllLinks; // 0x10
-		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::RPG::Client::PlanetFesAvatarLink*>* _LinkByAvatarID; // 0x18
+		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::RPG::Client::PlanetFesAvatarLink*>* _LinkByAvatarID; // 0x10
+		::System::Collections::Generic::List_1<::RPG::Client::PlanetFesAvatarLink*>* _AllLinks; // 0x18
 
 		::System::Void _ctor()
 		{

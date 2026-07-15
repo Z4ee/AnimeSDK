@@ -5,7 +5,7 @@ namespace UnityEngine::Timeline { class TrackAsset; }
 
 namespace UnityEngine::Timeline
 {
-	inline static constexpr unsigned int IMarker_TypeDefinitionIndex = 35888;
+	inline static constexpr unsigned int IMarker_TypeDefinitionIndex = 36670;
 
 	class IMarker
 	{

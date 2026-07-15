@@ -1,15 +1,11 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/RPG/Client/TextID.h"
-#include "unitysdk/RPG/GameCore/AttackDamageType.h"
-#include "unitysdk/RPG/GameCore/AvatarBaseType.h"
-#include "unitysdk/RPG/GameCore/CombatPowerAvatarRarityType.h"
 #include "unitysdk/RPG/GameCore/FixPoint.h"
+#include "unitysdk/RPG/GameCore/StringHash.h"
 
-namespace RPG::GameCore { class ElementResistanceConfig; }
-namespace System { class String; }
+namespace RPG::GameCore { class TaskConfig; }
 
-inline static constexpr unsigned int Class_0_16E4307DCC419505_9_TypeDefinitionIndex = 12098;
+inline static constexpr unsigned int Class_0_16E4307DCC419505_9_TypeDefinitionIndex = 10492;
 
 class Class_0_16E4307DCC419505_9
 {

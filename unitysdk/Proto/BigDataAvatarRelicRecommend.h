@@ -2,8 +2,8 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_1_D17272E82AE804C2_777;
-class Class_1_D1E0AD3915BCCF29_104;
+class Class_1_D17272E82AE804C2_886;
+class Class_1_D17272E82AE804C2_887;
 namespace Google::Protobuf { class CodedInputStream; }
 namespace Google::Protobuf { class CodedOutputStream; }
 namespace Google::Protobuf { class UnknownFieldSet; }
@@ -13,78 +13,78 @@ namespace Google::Protobuf::Collections { template <typename T> class RepeatedFi
 namespace Google::Protobuf::Reflection { class MessageDescriptor; }
 namespace System { class String; }
 
-#define PROTO_BIGDATAAVATARRELICRECOMMEND_CALCULATESIZE_OFFSET UNITYSDK_OFFSET(0x1A0E05A0)
-#define PROTO_BIGDATAAVATARRELICRECOMMEND_CLONE_OFFSET UNITYSDK_OFFSET(0x1A0DFC30)
-#define PROTO_BIGDATAAVATARRELICRECOMMEND_EQUALS_1_OFFSET UNITYSDK_OFFSET(0x1A0DFD60)
-#define PROTO_BIGDATAAVATARRELICRECOMMEND_EQUALS_OFFSET UNITYSDK_OFFSET(0x1A0DFD00)
-#define PROTO_BIGDATAAVATARRELICRECOMMEND_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x1A0DFF00)
-#define PROTO_BIGDATAAVATARRELICRECOMMEND_GET_AVATARID_OFFSET UNITYSDK_OFFSET(0x1A0DFC90)
-#define PROTO_BIGDATAAVATARRELICRECOMMEND_GET_BODYMAINPROPERTYLIST_OFFSET UNITYSDK_OFFSET(0x1A0DFCD0)
-#define PROTO_BIGDATAAVATARRELICRECOMMEND_GET_FOOTMAINPROPERTYLIST_OFFSET UNITYSDK_OFFSET(0x1A0DFCF0)
-#define PROTO_BIGDATAAVATARRELICRECOMMEND_GET_INNERSETLIST_OFFSET UNITYSDK_OFFSET(0x1A0DFCE0)
-#define PROTO_BIGDATAAVATARRELICRECOMMEND_GET_OUTERSETLIST_OFFSET UNITYSDK_OFFSET(0x1A0DFC80)
-#define PROTO_BIGDATAAVATARRELICRECOMMEND_GET_PARSER_OFFSET UNITYSDK_OFFSET(0x1A0DF990)
-#define PROTO_BIGDATAAVATARRELICRECOMMEND_GET_ROPEMAINPROPERTYLIST_OFFSET UNITYSDK_OFFSET(0x1A0DFCB0)
-#define PROTO_BIGDATAAVATARRELICRECOMMEND_GET_SPHEREMAINPROPERTYLIST_OFFSET UNITYSDK_OFFSET(0x1A0DFCC0)
-#define PROTO_BIGDATAAVATARRELICRECOMMEND_MERGEFROM_1_OFFSET UNITYSDK_OFFSET(0x1A0E0A40)
-#define PROTO_BIGDATAAVATARRELICRECOMMEND_MERGEFROM_OFFSET UNITYSDK_OFFSET(0x1A0E07F0)
-#define PROTO_BIGDATAAVATARRELICRECOMMEND_PB__GOOGLE_PROTOBUF_IMESSAGE_GET_DESCRIPTOR_OFFSET UNITYSDK_OFFSET(0x1A0DF9F0)
-#define PROTO_BIGDATAAVATARRELICRECOMMEND_SET_AVATARID_OFFSET UNITYSDK_OFFSET(0x1A0DFCA0)
-#define PROTO_BIGDATAAVATARRELICRECOMMEND_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1A0E0340)
-#define PROTO_BIGDATAAVATARRELICRECOMMEND_WRITETO_OFFSET UNITYSDK_OFFSET(0x1A0E03A0)
-#define PROTO_BIGDATAAVATARRELICRECOMMEND__CCTOR_OFFSET UNITYSDK_OFFSET(0x1A0E0CD0)
-#define PROTO_BIGDATAAVATARRELICRECOMMEND__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1A0DFB00)
-#define PROTO_BIGDATAAVATARRELICRECOMMEND__CTOR_OFFSET UNITYSDK_OFFSET(0x1A0DFA00)
+#define PROTO_BIGDATAAVATARRELICRECOMMEND_CALCULATESIZE_OFFSET UNITYSDK_OFFSET(0x1BF72FD0)
+#define PROTO_BIGDATAAVATARRELICRECOMMEND_CLONE_OFFSET UNITYSDK_OFFSET(0x1BF72980)
+#define PROTO_BIGDATAAVATARRELICRECOMMEND_EQUALS_1_OFFSET UNITYSDK_OFFSET(0x1BF72AB0)
+#define PROTO_BIGDATAAVATARRELICRECOMMEND_EQUALS_OFFSET UNITYSDK_OFFSET(0x1BF72A50)
+#define PROTO_BIGDATAAVATARRELICRECOMMEND_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x1BF72C10)
+#define PROTO_BIGDATAAVATARRELICRECOMMEND_GET_AVATARID_OFFSET UNITYSDK_OFFSET(0x1BF72A10)
+#define PROTO_BIGDATAAVATARRELICRECOMMEND_GET_BODYMAINPROPERTYLIST_OFFSET UNITYSDK_OFFSET(0x1BF72A40)
+#define PROTO_BIGDATAAVATARRELICRECOMMEND_GET_FOOTMAINPROPERTYLIST_OFFSET UNITYSDK_OFFSET(0x1BF72A30)
+#define PROTO_BIGDATAAVATARRELICRECOMMEND_GET_INNERSETLIST_OFFSET UNITYSDK_OFFSET(0x1BF729E0)
+#define PROTO_BIGDATAAVATARRELICRECOMMEND_GET_OUTERSETLIST_OFFSET UNITYSDK_OFFSET(0x1BF729D0)
+#define PROTO_BIGDATAAVATARRELICRECOMMEND_GET_PARSER_OFFSET UNITYSDK_OFFSET(0x1BF726E0)
+#define PROTO_BIGDATAAVATARRELICRECOMMEND_GET_ROPEMAINPROPERTYLIST_OFFSET UNITYSDK_OFFSET(0x1BF729F0)
+#define PROTO_BIGDATAAVATARRELICRECOMMEND_GET_SPHEREMAINPROPERTYLIST_OFFSET UNITYSDK_OFFSET(0x1BF72A00)
+#define PROTO_BIGDATAAVATARRELICRECOMMEND_MERGEFROM_1_OFFSET UNITYSDK_OFFSET(0x1BF73460)
+#define PROTO_BIGDATAAVATARRELICRECOMMEND_MERGEFROM_OFFSET UNITYSDK_OFFSET(0x1BF73210)
+#define PROTO_BIGDATAAVATARRELICRECOMMEND_PB__GOOGLE_PROTOBUF_IMESSAGE_GET_DESCRIPTOR_OFFSET UNITYSDK_OFFSET(0x1BF72740)
+#define PROTO_BIGDATAAVATARRELICRECOMMEND_SET_AVATARID_OFFSET UNITYSDK_OFFSET(0x1BF72A20)
+#define PROTO_BIGDATAAVATARRELICRECOMMEND_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1BF72D40)
+#define PROTO_BIGDATAAVATARRELICRECOMMEND_WRITETO_OFFSET UNITYSDK_OFFSET(0x1BF72DA0)
+#define PROTO_BIGDATAAVATARRELICRECOMMEND__CCTOR_OFFSET UNITYSDK_OFFSET(0x1BF736F0)
+#define PROTO_BIGDATAAVATARRELICRECOMMEND__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1BF72850)
+#define PROTO_BIGDATAAVATARRELICRECOMMEND__CTOR_OFFSET UNITYSDK_OFFSET(0x1BF72750)
 
 namespace Proto
 {
-	inline static constexpr unsigned int BigDataAvatarRelicRecommend_TypeDefinitionIndex = 30562;
+	inline static constexpr unsigned int BigDataAvatarRelicRecommend_TypeDefinitionIndex = 31088;
 
 	class BigDataAvatarRelicRecommend : public ::System::Object
 	{
 	public:
-		static ::Google::Protobuf::FieldCodec_1<::Class_1_D1E0AD3915BCCF29_104*>** StaticGet__repeated_outerSetList_codec()
+		static ::Google::Protobuf::FieldCodec_1<::Class_1_D17272E82AE804C2_887*>** StaticGet__repeated_sphereMainPropertyList_codec()
 		{
-			return (::Google::Protobuf::FieldCodec_1<::Class_1_D1E0AD3915BCCF29_104*>**)Il2CppClass::FromTypeDefinitionIndex(BigDataAvatarRelicRecommend_TypeDefinitionIndex)->GetStaticField(0x17E20);
+			return (::Google::Protobuf::FieldCodec_1<::Class_1_D17272E82AE804C2_887*>**)Il2CppClass::FromTypeDefinitionIndex(BigDataAvatarRelicRecommend_TypeDefinitionIndex)->GetStaticField(0x21F20);
+		}
+		static ::Google::Protobuf::FieldCodec_1<::Class_1_D17272E82AE804C2_886*>** StaticGet__repeated_outerSetList_codec()
+		{
+			return (::Google::Protobuf::FieldCodec_1<::Class_1_D17272E82AE804C2_886*>**)Il2CppClass::FromTypeDefinitionIndex(BigDataAvatarRelicRecommend_TypeDefinitionIndex)->GetStaticField(0x21F28);
+		}
+		static ::Google::Protobuf::FieldCodec_1<::Class_1_D17272E82AE804C2_887*>** StaticGet__repeated_bodyMainPropertyList_codec()
+		{
+			return (::Google::Protobuf::FieldCodec_1<::Class_1_D17272E82AE804C2_887*>**)Il2CppClass::FromTypeDefinitionIndex(BigDataAvatarRelicRecommend_TypeDefinitionIndex)->GetStaticField(0x21F30);
+		}
+		static ::Google::Protobuf::FieldCodec_1<::Class_1_D17272E82AE804C2_886*>** StaticGet__repeated_innerSetList_codec()
+		{
+			return (::Google::Protobuf::FieldCodec_1<::Class_1_D17272E82AE804C2_886*>**)Il2CppClass::FromTypeDefinitionIndex(BigDataAvatarRelicRecommend_TypeDefinitionIndex)->GetStaticField(0x21F38);
 		}
 		static ::Google::Protobuf::MessageParser_1<::Proto::BigDataAvatarRelicRecommend*>** StaticGet__parser()
 		{
-			return (::Google::Protobuf::MessageParser_1<::Proto::BigDataAvatarRelicRecommend*>**)Il2CppClass::FromTypeDefinitionIndex(BigDataAvatarRelicRecommend_TypeDefinitionIndex)->GetStaticField(0x17E28);
+			return (::Google::Protobuf::MessageParser_1<::Proto::BigDataAvatarRelicRecommend*>**)Il2CppClass::FromTypeDefinitionIndex(BigDataAvatarRelicRecommend_TypeDefinitionIndex)->GetStaticField(0x21F40);
 		}
-		static ::Google::Protobuf::FieldCodec_1<::Class_1_D1E0AD3915BCCF29_104*>** StaticGet__repeated_innerSetList_codec()
+		static ::Google::Protobuf::FieldCodec_1<::Class_1_D17272E82AE804C2_887*>** StaticGet__repeated_footMainPropertyList_codec()
 		{
-			return (::Google::Protobuf::FieldCodec_1<::Class_1_D1E0AD3915BCCF29_104*>**)Il2CppClass::FromTypeDefinitionIndex(BigDataAvatarRelicRecommend_TypeDefinitionIndex)->GetStaticField(0x17E30);
+			return (::Google::Protobuf::FieldCodec_1<::Class_1_D17272E82AE804C2_887*>**)Il2CppClass::FromTypeDefinitionIndex(BigDataAvatarRelicRecommend_TypeDefinitionIndex)->GetStaticField(0x21F48);
 		}
-		static ::Google::Protobuf::FieldCodec_1<::Class_1_D17272E82AE804C2_777*>** StaticGet__repeated_sphereMainPropertyList_codec()
+		static ::Google::Protobuf::FieldCodec_1<::Class_1_D17272E82AE804C2_887*>** StaticGet__repeated_ropeMainPropertyList_codec()
 		{
-			return (::Google::Protobuf::FieldCodec_1<::Class_1_D17272E82AE804C2_777*>**)Il2CppClass::FromTypeDefinitionIndex(BigDataAvatarRelicRecommend_TypeDefinitionIndex)->GetStaticField(0x17E38);
+			return (::Google::Protobuf::FieldCodec_1<::Class_1_D17272E82AE804C2_887*>**)Il2CppClass::FromTypeDefinitionIndex(BigDataAvatarRelicRecommend_TypeDefinitionIndex)->GetStaticField(0x21F50);
 		}
-		static ::Google::Protobuf::FieldCodec_1<::Class_1_D17272E82AE804C2_777*>** StaticGet__repeated_bodyMainPropertyList_codec()
-		{
-			return (::Google::Protobuf::FieldCodec_1<::Class_1_D17272E82AE804C2_777*>**)Il2CppClass::FromTypeDefinitionIndex(BigDataAvatarRelicRecommend_TypeDefinitionIndex)->GetStaticField(0x17E40);
-		}
-		static ::Google::Protobuf::FieldCodec_1<::Class_1_D17272E82AE804C2_777*>** StaticGet__repeated_ropeMainPropertyList_codec()
-		{
-			return (::Google::Protobuf::FieldCodec_1<::Class_1_D17272E82AE804C2_777*>**)Il2CppClass::FromTypeDefinitionIndex(BigDataAvatarRelicRecommend_TypeDefinitionIndex)->GetStaticField(0x17E48);
-		}
-		static ::Google::Protobuf::FieldCodec_1<::Class_1_D17272E82AE804C2_777*>** StaticGet__repeated_footMainPropertyList_codec()
-		{
-			return (::Google::Protobuf::FieldCodec_1<::Class_1_D17272E82AE804C2_777*>**)Il2CppClass::FromTypeDefinitionIndex(BigDataAvatarRelicRecommend_TypeDefinitionIndex)->GetStaticField(0x17E50);
-		}
-		// static const ::System::Int32 OuterSetListFieldNumber = 0xB; // 0x0
-		// static const ::System::Int32 AvatarIdFieldNumber = 0xE; // 0x0
-		// static const ::System::Int32 RopeMainPropertyListFieldNumber = 0xC; // 0x0
-		// static const ::System::Int32 SphereMainPropertyListFieldNumber = 0xA; // 0x0
-		// static const ::System::Int32 BodyMainPropertyListFieldNumber = 0x5; // 0x0
-		// static const ::System::Int32 InnerSetListFieldNumber = 0x6; // 0x0
-		// static const ::System::Int32 FootMainPropertyListFieldNumber = 0xF; // 0x0
-		::Google::Protobuf::UnknownFieldSet* _unknownFields; // 0x10
-		::Google::Protobuf::Collections::RepeatedField_1<::Class_1_D1E0AD3915BCCF29_104*>* outerSetList_; // 0x18
-		::Google::Protobuf::Collections::RepeatedField_1<::Class_1_D17272E82AE804C2_777*>* ropeMainPropertyList_; // 0x20
-		::Google::Protobuf::Collections::RepeatedField_1<::Class_1_D17272E82AE804C2_777*>* bodyMainPropertyList_; // 0x28
-		::Google::Protobuf::Collections::RepeatedField_1<::Class_1_D17272E82AE804C2_777*>* sphereMainPropertyList_; // 0x30
-		::Google::Protobuf::Collections::RepeatedField_1<::Class_1_D17272E82AE804C2_777*>* footMainPropertyList_; // 0x38
-		::Google::Protobuf::Collections::RepeatedField_1<::Class_1_D1E0AD3915BCCF29_104*>* innerSetList_; // 0x40
+		// static const ::System::Int32 OuterSetListFieldNumber = 0xC; // 0x0
+		// static const ::System::Int32 InnerSetListFieldNumber = 0xA; // 0x0
+		// static const ::System::Int32 RopeMainPropertyListFieldNumber = 0x4; // 0x0
+		// static const ::System::Int32 SphereMainPropertyListFieldNumber = 0x1; // 0x0
+		// static const ::System::Int32 AvatarIdFieldNumber = 0x7; // 0x0
+		// static const ::System::Int32 FootMainPropertyListFieldNumber = 0x5; // 0x0
+		// static const ::System::Int32 BodyMainPropertyListFieldNumber = 0x6; // 0x0
+		::Google::Protobuf::Collections::RepeatedField_1<::Class_1_D17272E82AE804C2_886*>* outerSetList_; // 0x10
+		::Google::Protobuf::Collections::RepeatedField_1<::Class_1_D17272E82AE804C2_887*>* ropeMainPropertyList_; // 0x18
+		::Google::Protobuf::Collections::RepeatedField_1<::Class_1_D17272E82AE804C2_887*>* bodyMainPropertyList_; // 0x20
+		::Google::Protobuf::Collections::RepeatedField_1<::Class_1_D17272E82AE804C2_887*>* footMainPropertyList_; // 0x28
+		::Google::Protobuf::UnknownFieldSet* _unknownFields; // 0x30
+		::Google::Protobuf::Collections::RepeatedField_1<::Class_1_D17272E82AE804C2_886*>* innerSetList_; // 0x38
+		::Google::Protobuf::Collections::RepeatedField_1<::Class_1_D17272E82AE804C2_887*>* sphereMainPropertyList_; // 0x40
 		::System::UInt32 avatarId_; // 0x48
 
 		::System::Void _ctor()
@@ -117,9 +117,24 @@ namespace Proto
 			return ((::Proto::BigDataAvatarRelicRecommend*(*)(::PVOID))((::PBYTE)hIl2Cpp + PROTO_BIGDATAAVATARRELICRECOMMEND_CLONE_OFFSET))(this);
 		}
 
-		::Google::Protobuf::Collections::RepeatedField_1<::Class_1_D1E0AD3915BCCF29_104*>* get_OuterSetList()
+		::Google::Protobuf::Collections::RepeatedField_1<::Class_1_D17272E82AE804C2_886*>* get_OuterSetList()
 		{
-			return ((::Google::Protobuf::Collections::RepeatedField_1<::Class_1_D1E0AD3915BCCF29_104*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + PROTO_BIGDATAAVATARRELICRECOMMEND_GET_OUTERSETLIST_OFFSET))(this);
+			return ((::Google::Protobuf::Collections::RepeatedField_1<::Class_1_D17272E82AE804C2_886*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + PROTO_BIGDATAAVATARRELICRECOMMEND_GET_OUTERSETLIST_OFFSET))(this);
+		}
+
+		::Google::Protobuf::Collections::RepeatedField_1<::Class_1_D17272E82AE804C2_886*>* get_InnerSetList()
+		{
+			return ((::Google::Protobuf::Collections::RepeatedField_1<::Class_1_D17272E82AE804C2_886*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + PROTO_BIGDATAAVATARRELICRECOMMEND_GET_INNERSETLIST_OFFSET))(this);
+		}
+
+		::Google::Protobuf::Collections::RepeatedField_1<::Class_1_D17272E82AE804C2_887*>* get_RopeMainPropertyList()
+		{
+			return ((::Google::Protobuf::Collections::RepeatedField_1<::Class_1_D17272E82AE804C2_887*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + PROTO_BIGDATAAVATARRELICRECOMMEND_GET_ROPEMAINPROPERTYLIST_OFFSET))(this);
+		}
+
+		::Google::Protobuf::Collections::RepeatedField_1<::Class_1_D17272E82AE804C2_887*>* get_SphereMainPropertyList()
+		{
+			return ((::Google::Protobuf::Collections::RepeatedField_1<::Class_1_D17272E82AE804C2_887*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + PROTO_BIGDATAAVATARRELICRECOMMEND_GET_SPHEREMAINPROPERTYLIST_OFFSET))(this);
 		}
 
 		::System::UInt32 get_AvatarId()
@@ -132,29 +147,14 @@ namespace Proto
 			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + PROTO_BIGDATAAVATARRELICRECOMMEND_SET_AVATARID_OFFSET))(this, a1);
 		}
 
-		::Google::Protobuf::Collections::RepeatedField_1<::Class_1_D17272E82AE804C2_777*>* get_RopeMainPropertyList()
+		::Google::Protobuf::Collections::RepeatedField_1<::Class_1_D17272E82AE804C2_887*>* get_FootMainPropertyList()
 		{
-			return ((::Google::Protobuf::Collections::RepeatedField_1<::Class_1_D17272E82AE804C2_777*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + PROTO_BIGDATAAVATARRELICRECOMMEND_GET_ROPEMAINPROPERTYLIST_OFFSET))(this);
+			return ((::Google::Protobuf::Collections::RepeatedField_1<::Class_1_D17272E82AE804C2_887*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + PROTO_BIGDATAAVATARRELICRECOMMEND_GET_FOOTMAINPROPERTYLIST_OFFSET))(this);
 		}
 
-		::Google::Protobuf::Collections::RepeatedField_1<::Class_1_D17272E82AE804C2_777*>* get_SphereMainPropertyList()
+		::Google::Protobuf::Collections::RepeatedField_1<::Class_1_D17272E82AE804C2_887*>* get_BodyMainPropertyList()
 		{
-			return ((::Google::Protobuf::Collections::RepeatedField_1<::Class_1_D17272E82AE804C2_777*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + PROTO_BIGDATAAVATARRELICRECOMMEND_GET_SPHEREMAINPROPERTYLIST_OFFSET))(this);
-		}
-
-		::Google::Protobuf::Collections::RepeatedField_1<::Class_1_D17272E82AE804C2_777*>* get_BodyMainPropertyList()
-		{
-			return ((::Google::Protobuf::Collections::RepeatedField_1<::Class_1_D17272E82AE804C2_777*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + PROTO_BIGDATAAVATARRELICRECOMMEND_GET_BODYMAINPROPERTYLIST_OFFSET))(this);
-		}
-
-		::Google::Protobuf::Collections::RepeatedField_1<::Class_1_D1E0AD3915BCCF29_104*>* get_InnerSetList()
-		{
-			return ((::Google::Protobuf::Collections::RepeatedField_1<::Class_1_D1E0AD3915BCCF29_104*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + PROTO_BIGDATAAVATARRELICRECOMMEND_GET_INNERSETLIST_OFFSET))(this);
-		}
-
-		::Google::Protobuf::Collections::RepeatedField_1<::Class_1_D17272E82AE804C2_777*>* get_FootMainPropertyList()
-		{
-			return ((::Google::Protobuf::Collections::RepeatedField_1<::Class_1_D17272E82AE804C2_777*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + PROTO_BIGDATAAVATARRELICRECOMMEND_GET_FOOTMAINPROPERTYLIST_OFFSET))(this);
+			return ((::Google::Protobuf::Collections::RepeatedField_1<::Class_1_D17272E82AE804C2_887*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + PROTO_BIGDATAAVATARRELICRECOMMEND_GET_BODYMAINPROPERTYLIST_OFFSET))(this);
 		}
 
 		::System::Boolean Equals(::System::Object* a1)

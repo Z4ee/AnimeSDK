@@ -15,15 +15,15 @@ namespace RPG::GameCore { class TargetEvaluator; }
 namespace SimpleJSON { class JSONNode; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_TRIGGEREFFECT_METHOD_3_0EE7929FF275F2D2_OFFSET UNITYSDK_OFFSET(0x19E0EFD0)
-#define RPG_GAMECORE_TRIGGEREFFECT_METHOD_3_66EE028759018D8A_OFFSET UNITYSDK_OFFSET(0x19E0ECA0)
-#define RPG_GAMECORE_TRIGGEREFFECT_METHOD_3_7349B1777BF91C92_OFFSET UNITYSDK_OFFSET(0x19E0B330)
-#define RPG_GAMECORE_TRIGGEREFFECT_METHOD_3_88EDDCA23758DE4B_OFFSET UNITYSDK_OFFSET(0x19E0B650)
-#define RPG_GAMECORE_TRIGGEREFFECT__CTOR_OFFSET UNITYSDK_OFFSET(0x19E0B5E0)
+#define RPG_GAMECORE_TRIGGEREFFECT_METHOD_3_6139492390D0D569_OFFSET UNITYSDK_OFFSET(0x1B04C590)
+#define RPG_GAMECORE_TRIGGEREFFECT_METHOD_3_88EDDCA23758DE4B_OFFSET UNITYSDK_OFFSET(0x1B048F80)
+#define RPG_GAMECORE_TRIGGEREFFECT_METHOD_3_AC8FD35DD4E611A3_OFFSET UNITYSDK_OFFSET(0x1B04CA10)
+#define RPG_GAMECORE_TRIGGEREFFECT_METHOD_3_E982F6472A5B7A86_OFFSET UNITYSDK_OFFSET(0x1B048C40)
+#define RPG_GAMECORE_TRIGGEREFFECT__CTOR_OFFSET UNITYSDK_OFFSET(0x1B048F30)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TriggerEffect_TypeDefinitionIndex = 19129;
+	inline static constexpr unsigned int TriggerEffect_TypeDefinitionIndex = 19485;
 
 	class TriggerEffect : public ::RPG::GameCore::TaskConfig
 	{
@@ -83,9 +83,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TRIGGEREFFECT__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_7349B1777BF91C92(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::TriggerEffect*& a2)
+		static ::System::Void Method_3_E982F6472A5B7A86(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::TriggerEffect*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::TriggerEffect*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TRIGGEREFFECT_METHOD_3_7349B1777BF91C92_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::TriggerEffect*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TRIGGEREFFECT_METHOD_3_E982F6472A5B7A86_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_88EDDCA23758DE4B(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::TriggerEffect* a2)
@@ -93,14 +93,14 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::TriggerEffect*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TRIGGEREFFECT_METHOD_3_88EDDCA23758DE4B_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_66EE028759018D8A(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::TriggerEffect*& a2)
+		static ::System::Void Method_3_6139492390D0D569(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::TriggerEffect*& a2)
 		{
-			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::TriggerEffect*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TRIGGEREFFECT_METHOD_3_66EE028759018D8A_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::TriggerEffect*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TRIGGEREFFECT_METHOD_3_6139492390D0D569_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_0EE7929FF275F2D2(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::TriggerEffect* a2)
+		static ::System::Void Method_3_AC8FD35DD4E611A3(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::TriggerEffect* a2)
 		{
-			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::TriggerEffect*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TRIGGEREFFECT_METHOD_3_0EE7929FF275F2D2_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::TriggerEffect*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TRIGGEREFFECT_METHOD_3_AC8FD35DD4E611A3_OFFSET))(a1, a2);
 		}
 	};
 }

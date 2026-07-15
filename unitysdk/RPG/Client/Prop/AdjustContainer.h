@@ -18,62 +18,59 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class Animator; }
 namespace UnityEngine { class Transform; }
 
-#define RPG_CLIENT_PROP_ADJUSTCONTAINER_CLEARALL_OFFSET UNITYSDK_OFFSET(0xC4BCD00)
-#define RPG_CLIENT_PROP_ADJUSTCONTAINER_DISPOSE_OFFSET UNITYSDK_OFFSET(0xC4BB330)
-#define RPG_CLIENT_PROP_ADJUSTCONTAINER_GETLOD0PATH_OFFSET UNITYSDK_OFFSET(0xC4BD810)
-#define RPG_CLIENT_PROP_ADJUSTCONTAINER_INITPUZZLE_OFFSET UNITYSDK_OFFSET(0xC4BA710)
-#define RPG_CLIENT_PROP_ADJUSTCONTAINER_METHOD_6_655DDB722F1FDE73_OFFSET UNITYSDK_OFFSET(0xC4BDE10)
-#define RPG_CLIENT_PROP_ADJUSTCONTAINER_METHOD_6_726932EAFA8D0A43_OFFSET UNITYSDK_OFFSET(0xC4BD8F0)
-#define RPG_CLIENT_PROP_ADJUSTCONTAINER_METHOD_6_9126C9C94FC0FA6A_OFFSET UNITYSDK_OFFSET(0xC4BC430)
-#define RPG_CLIENT_PROP_ADJUSTCONTAINER_METHOD_6_9681042564541CD6_OFFSET UNITYSDK_OFFSET(0xC4BC3C0)
-#define RPG_CLIENT_PROP_ADJUSTCONTAINER_METHOD_6_B2AF81294D9C69C7_OFFSET UNITYSDK_OFFSET(0xC4BB080)
-#define RPG_CLIENT_PROP_ADJUSTCONTAINER_RESET_OFFSET UNITYSDK_OFFSET(0xC4BA7B0)
-#define RPG_CLIENT_PROP_ADJUSTCONTAINER_SETALLCONTAINERSACTIVE_OFFSET UNITYSDK_OFFSET(0xC4BD620)
-#define RPG_CLIENT_PROP_ADJUSTCONTAINER_SETPROPEFFECTACTIVE_OFFSET UNITYSDK_OFFSET(0xC4BCBD0)
-#define RPG_CLIENT_PROP_ADJUSTCONTAINER_STARTPUZZLE_OFFSET UNITYSDK_OFFSET(0xC4BB2D0)
-#define RPG_CLIENT_PROP_ADJUSTCONTAINER_UPDATEALLCONTROLLERS_OFFSET UNITYSDK_OFFSET(0xC4BD590)
-#define RPG_CLIENT_PROP_ADJUSTCONTAINER_UPDATECONTROLLERSTATE_OFFSET UNITYSDK_OFFSET(0xC4BCFC0)
-#define RPG_CLIENT_PROP_ADJUSTCONTAINER_UPDATE_OFFSET UNITYSDK_OFFSET(0xC4BB9F0)
-#define RPG_CLIENT_PROP_ADJUSTCONTAINER__CCTOR_OFFSET UNITYSDK_OFFSET(0xC4BE3B0)
-#define RPG_CLIENT_PROP_ADJUSTCONTAINER__CTOR_OFFSET UNITYSDK_OFFSET(0xC4BE330)
-#define RPG_CLIENT_PROP_ADJUSTCONTAINER___IFIXBASEPROXY_DISPOSE_OFFSET UNITYSDK_OFFSET(0xC4BE4C0)
-#define RPG_CLIENT_PROP_ADJUSTCONTAINER___IFIXBASEPROXY_INITPUZZLE_OFFSET UNITYSDK_OFFSET(0xC4BE450)
-#define RPG_CLIENT_PROP_ADJUSTCONTAINER___IFIXBASEPROXY_STARTPUZZLE_OFFSET UNITYSDK_OFFSET(0xC4BE460)
+#define RPG_CLIENT_PROP_ADJUSTCONTAINER_CLEARALL_OFFSET UNITYSDK_OFFSET(0x193A4CB0)
+#define RPG_CLIENT_PROP_ADJUSTCONTAINER_DISPOSE_OFFSET UNITYSDK_OFFSET(0x193A31B0)
+#define RPG_CLIENT_PROP_ADJUSTCONTAINER_GETLOD0PATH_OFFSET UNITYSDK_OFFSET(0x193A57C0)
+#define RPG_CLIENT_PROP_ADJUSTCONTAINER_INITPUZZLE_OFFSET UNITYSDK_OFFSET(0x193A2590)
+#define RPG_CLIENT_PROP_ADJUSTCONTAINER_METHOD_6_655DDB722F1FDE73_OFFSET UNITYSDK_OFFSET(0x193A5DC0)
+#define RPG_CLIENT_PROP_ADJUSTCONTAINER_METHOD_6_726932EAFA8D0A43_OFFSET UNITYSDK_OFFSET(0x193A58A0)
+#define RPG_CLIENT_PROP_ADJUSTCONTAINER_METHOD_6_9126C9C94FC0FA6A_OFFSET UNITYSDK_OFFSET(0x193A43E0)
+#define RPG_CLIENT_PROP_ADJUSTCONTAINER_METHOD_6_9681042564541CD6_OFFSET UNITYSDK_OFFSET(0x193A4370)
+#define RPG_CLIENT_PROP_ADJUSTCONTAINER_METHOD_6_B2AF81294D9C69C7_OFFSET UNITYSDK_OFFSET(0x193A2F00)
+#define RPG_CLIENT_PROP_ADJUSTCONTAINER_RESET_OFFSET UNITYSDK_OFFSET(0x193A2630)
+#define RPG_CLIENT_PROP_ADJUSTCONTAINER_SETALLCONTAINERSACTIVE_OFFSET UNITYSDK_OFFSET(0x193A55D0)
+#define RPG_CLIENT_PROP_ADJUSTCONTAINER_SETPROPEFFECTACTIVE_OFFSET UNITYSDK_OFFSET(0x193A4B80)
+#define RPG_CLIENT_PROP_ADJUSTCONTAINER_STARTPUZZLE_OFFSET UNITYSDK_OFFSET(0x193A3150)
+#define RPG_CLIENT_PROP_ADJUSTCONTAINER_UPDATEALLCONTROLLERS_OFFSET UNITYSDK_OFFSET(0x193A5540)
+#define RPG_CLIENT_PROP_ADJUSTCONTAINER_UPDATECONTROLLERSTATE_OFFSET UNITYSDK_OFFSET(0x193A4F70)
+#define RPG_CLIENT_PROP_ADJUSTCONTAINER_UPDATE_OFFSET UNITYSDK_OFFSET(0x193A39A0)
+#define RPG_CLIENT_PROP_ADJUSTCONTAINER__CCTOR_OFFSET UNITYSDK_OFFSET(0x193A6360)
+#define RPG_CLIENT_PROP_ADJUSTCONTAINER__CTOR_OFFSET UNITYSDK_OFFSET(0x193A62E0)
 
 namespace RPG::Client::Prop
 {
-	inline static constexpr unsigned int AdjustContainer_TypeDefinitionIndex = 72712;
+	inline static constexpr unsigned int AdjustContainer_TypeDefinitionIndex = 74237;
 
 	class AdjustContainer : public ::RPG::Client::Prop::PuzzleBoardBase
 	{
 	public:
 		static ::System::String** StaticGet_Field_6_0()
 		{
-			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(AdjustContainer_TypeDefinitionIndex)->GetStaticField(0x10350);
+			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(AdjustContainer_TypeDefinitionIndex)->GetStaticField(0x68D30);
 		}
 		static ::System::String** StaticGet_Field_6_1()
 		{
-			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(AdjustContainer_TypeDefinitionIndex)->GetStaticField(0x10358);
+			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(AdjustContainer_TypeDefinitionIndex)->GetStaticField(0x68D38);
 		}
 		static ::System::String** StaticGet_Field_6_2()
 		{
-			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(AdjustContainer_TypeDefinitionIndex)->GetStaticField(0x10360);
+			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(AdjustContainer_TypeDefinitionIndex)->GetStaticField(0x68D40);
 		}
 		static ::System::String** StaticGet_Field_6_3()
 		{
-			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(AdjustContainer_TypeDefinitionIndex)->GetStaticField(0x10368);
+			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(AdjustContainer_TypeDefinitionIndex)->GetStaticField(0x68D48);
 		}
 		static ::System::String** StaticGet_Field_6_4()
 		{
-			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(AdjustContainer_TypeDefinitionIndex)->GetStaticField(0x10370);
+			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(AdjustContainer_TypeDefinitionIndex)->GetStaticField(0x68D50);
 		}
 		static ::System::String** StaticGet_Field_6_5()
 		{
-			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(AdjustContainer_TypeDefinitionIndex)->GetStaticField(0x10378);
+			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(AdjustContainer_TypeDefinitionIndex)->GetStaticField(0x68D58);
 		}
 		static ::System::String** StaticGet_Field_6_6()
 		{
-			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(AdjustContainer_TypeDefinitionIndex)->GetStaticField(0x10380);
+			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(AdjustContainer_TypeDefinitionIndex)->GetStaticField(0x68D60);
 		}
 		::Il2CppArray<::RPG::Client::Prop::AdjustContainer_ContainerInstance*>* ContainerInstanceArray; // 0x48
 		::Il2CppArray<::RPG::Client::Prop::AdjustContainer_ContainerController*>* ContainerControllerArray; // 0x50
@@ -181,21 +178,6 @@ namespace RPG::Client::Prop
 		::System::Void Method_6_9126C9C94FC0FA6A()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_ADJUSTCONTAINER_METHOD_6_9126C9C94FC0FA6A_OFFSET))(this);
-		}
-
-		::System::Void __iFixBaseProxy_InitPuzzle(::RPG::GameCore::GameEntity* a1, ::RPG::GameCore::TaskContext* a2, ::RPG::GameCore::PropInitPuzzle* a3)
-		{
-			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::GameEntity*, ::RPG::GameCore::TaskContext*, ::RPG::GameCore::PropInitPuzzle*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_ADJUSTCONTAINER___IFIXBASEPROXY_INITPUZZLE_OFFSET))(this, a1, a2, a3);
-		}
-
-		::System::Void __iFixBaseProxy_StartPuzzle()
-		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_ADJUSTCONTAINER___IFIXBASEPROXY_STARTPUZZLE_OFFSET))(this);
-		}
-
-		::System::Void __iFixBaseProxy_Dispose()
-		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_ADJUSTCONTAINER___IFIXBASEPROXY_DISPOSE_OFFSET))(this);
 		}
 	};
 }

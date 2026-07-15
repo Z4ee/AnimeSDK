@@ -11,12 +11,12 @@ namespace RPG::GameCore { class LevelLookAtPositionInfo; }
 namespace RPG::GameCore { class LevelNPCPossessionInfo; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_LEVELCROWDMEMBERINFO_METHOD_2_EA12CEE7070A5564_OFFSET UNITYSDK_OFFSET(0x1986FAE0)
-#define RPG_GAMECORE_LEVELCROWDMEMBERINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x1986FF80)
+#define RPG_GAMECORE_LEVELCROWDMEMBERINFO_METHOD_2_EA12CEE7070A5564_OFFSET UNITYSDK_OFFSET(0x1B02F6B0)
+#define RPG_GAMECORE_LEVELCROWDMEMBERINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x1B02FB50)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LevelCrowdMemberInfo_TypeDefinitionIndex = 16430;
+	inline static constexpr unsigned int LevelCrowdMemberInfo_TypeDefinitionIndex = 16592;
 
 	class LevelCrowdMemberInfo : public ::RPG::GameCore::JsonConfig
 	{

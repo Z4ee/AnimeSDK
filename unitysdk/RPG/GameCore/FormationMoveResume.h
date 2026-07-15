@@ -4,13 +4,13 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_FORMATIONMOVERESUME_METHOD_3_01813456843B9B69_OFFSET UNITYSDK_OFFSET(0x19766730)
-#define RPG_GAMECORE_FORMATIONMOVERESUME_METHOD_3_6CC38A3EF9444AE0_OFFSET UNITYSDK_OFFSET(0x197666B0)
-#define RPG_GAMECORE_FORMATIONMOVERESUME__CTOR_OFFSET UNITYSDK_OFFSET(0x19766700)
+#define RPG_GAMECORE_FORMATIONMOVERESUME_METHOD_3_01813456843B9B69_OFFSET UNITYSDK_OFFSET(0x1BEC12A0)
+#define RPG_GAMECORE_FORMATIONMOVERESUME_METHOD_3_93E7DFA72A06626A_OFFSET UNITYSDK_OFFSET(0x1BEC1260)
+#define RPG_GAMECORE_FORMATIONMOVERESUME__CTOR_OFFSET UNITYSDK_OFFSET(0x1BEC1290)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FormationMoveResume_TypeDefinitionIndex = 20088;
+	inline static constexpr unsigned int FormationMoveResume_TypeDefinitionIndex = 20460;
 
 	class FormationMoveResume : public ::RPG::GameCore::TaskConfig
 	{
@@ -22,9 +22,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FORMATIONMOVERESUME__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_6CC38A3EF9444AE0(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::FormationMoveResume*& a2)
+		static ::System::Void Method_3_93E7DFA72A06626A(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::FormationMoveResume*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::FormationMoveResume*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FORMATIONMOVERESUME_METHOD_3_6CC38A3EF9444AE0_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::FormationMoveResume*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FORMATIONMOVERESUME_METHOD_3_93E7DFA72A06626A_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_01813456843B9B69(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::FormationMoveResume* a2)

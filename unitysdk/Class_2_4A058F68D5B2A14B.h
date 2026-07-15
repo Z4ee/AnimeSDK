@@ -6,20 +6,20 @@ namespace RPG::GameCore { class GameEntity; }
 namespace RPG::GameCore { class GetWormCompassResult; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_2_4A058F68D5B2A14B_DISPOSE_OFFSET UNITYSDK_OFFSET(0xA6130E0)
-#define CLASS_2_4A058F68D5B2A14B_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xA612AE0)
-#define CLASS_2_4A058F68D5B2A14B_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xA613030)
-#define CLASS_2_4A058F68D5B2A14B_TICK_OFFSET UNITYSDK_OFFSET(0xA613080)
-#define CLASS_2_4A058F68D5B2A14B__CTOR_OFFSET UNITYSDK_OFFSET(0xA612AD0)
+#define CLASS_2_4A058F68D5B2A14B_DISPOSE_OFFSET UNITYSDK_OFFSET(0x18F32310)
+#define CLASS_2_4A058F68D5B2A14B_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x18F31D10)
+#define CLASS_2_4A058F68D5B2A14B_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x18F32260)
+#define CLASS_2_4A058F68D5B2A14B_TICK_OFFSET UNITYSDK_OFFSET(0x18F322B0)
+#define CLASS_2_4A058F68D5B2A14B__CTOR_OFFSET UNITYSDK_OFFSET(0x18F31D00)
 
-inline static constexpr unsigned int Class_2_4A058F68D5B2A14B_TypeDefinitionIndex = 54334;
+inline static constexpr unsigned int Class_2_4A058F68D5B2A14B_TypeDefinitionIndex = 55557;
 
 class Class_2_4A058F68D5B2A14B : public ::Class_1_5F51D4049EA87B7B
 {
 public:
-	::RPG::GameCore::GetWormCompassResult* Field_2_0; // 0x18
-	::RPG::GameCore::TaskContext* Field_2_1; // 0x20
-	::RPG::GameCore::GameEntity* Field_2_2; // 0x28
+	::RPG::GameCore::GameEntity* Field_2_0; // 0x18
+	::RPG::GameCore::GetWormCompassResult* Field_2_1; // 0x20
+	::RPG::GameCore::TaskContext* Field_2_2; // 0x28
 
 	::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::GetWormCompassResult* a2)
 	{

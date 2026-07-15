@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int NoteInputResult_TypeDefinitionIndex = 56255;
+	inline static constexpr unsigned int NoteInputResult_TypeDefinitionIndex = 57494;
 
 	enum class NoteInputResult : ::System::Int32
 	{

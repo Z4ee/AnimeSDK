@@ -8,7 +8,7 @@ namespace System::Collections::Generic { template <typename T> class IEnumerator
 
 namespace System::Collections::Immutable
 {
-	inline static constexpr unsigned int DictionaryEnumerator_2_TypeDefinitionIndex = 6961;
+	inline static constexpr unsigned int DictionaryEnumerator_2_TypeDefinitionIndex = 6967;
 
 	template <typename TKey, typename TValue>
 	class DictionaryEnumerator_2 : public ::System::Object

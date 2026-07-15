@@ -8,12 +8,11 @@ namespace RPG::GameCore { class SwitchCaseByAttackDamageType; }
 namespace RPG::GameCore { class TaskContext; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define CLASS_3_060B188AEEB64333_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1422F6D0)
-#define CLASS_3_060B188AEEB64333_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1422F890)
-#define CLASS_3_060B188AEEB64333__CTOR_OFFSET UNITYSDK_OFFSET(0x1422F470)
-#define CLASS_3_060B188AEEB64333___IFIXBASEPROXY_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1422FC20)
+#define CLASS_3_060B188AEEB64333_DISPOSE_OFFSET UNITYSDK_OFFSET(0x174F9350)
+#define CLASS_3_060B188AEEB64333_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x174F9600)
+#define CLASS_3_060B188AEEB64333__CTOR_OFFSET UNITYSDK_OFFSET(0x174F90F0)
 
-inline static constexpr unsigned int Class_3_060B188AEEB64333_TypeDefinitionIndex = 52001;
+inline static constexpr unsigned int Class_3_060B188AEEB64333_TypeDefinitionIndex = 53156;
 
 class Class_3_060B188AEEB64333 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::SwitchCaseByAttackDamageType*>
 {
@@ -34,10 +33,5 @@ public:
 	::System::Void OnTaskBegin()
 	{
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_3_060B188AEEB64333_ONTASKBEGIN_OFFSET))(this);
-	}
-
-	::System::Void __iFixBaseProxy_Dispose()
-	{
-		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_3_060B188AEEB64333___IFIXBASEPROXY_DISPOSE_OFFSET))(this);
 	}
 };

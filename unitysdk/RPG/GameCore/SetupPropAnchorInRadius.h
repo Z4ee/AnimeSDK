@@ -5,13 +5,13 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_SETUPPROPANCHORINRADIUS_METHOD_3_9CA61A26CFE6C229_OFFSET UNITYSDK_OFFSET(0x19C6B140)
-#define RPG_GAMECORE_SETUPPROPANCHORINRADIUS_METHOD_3_F48EC860D7F7258E_OFFSET UNITYSDK_OFFSET(0x19C6B1E0)
-#define RPG_GAMECORE_SETUPPROPANCHORINRADIUS__CTOR_OFFSET UNITYSDK_OFFSET(0x19C6B1A0)
+#define RPG_GAMECORE_SETUPPROPANCHORINRADIUS_METHOD_3_0BCB85C8E4E12D5E_OFFSET UNITYSDK_OFFSET(0x1BE304E0)
+#define RPG_GAMECORE_SETUPPROPANCHORINRADIUS_METHOD_3_F48EC860D7F7258E_OFFSET UNITYSDK_OFFSET(0x1BE30540)
+#define RPG_GAMECORE_SETUPPROPANCHORINRADIUS__CTOR_OFFSET UNITYSDK_OFFSET(0x1BE30520)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SetupPropAnchorInRadius_TypeDefinitionIndex = 19208;
+	inline static constexpr unsigned int SetupPropAnchorInRadius_TypeDefinitionIndex = 19564;
 
 	class SetupPropAnchorInRadius : public ::RPG::GameCore::TaskConfig
 	{
@@ -32,9 +32,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETUPPROPANCHORINRADIUS__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_9CA61A26CFE6C229(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SetupPropAnchorInRadius*& a2)
+		static ::System::Void Method_3_0BCB85C8E4E12D5E(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SetupPropAnchorInRadius*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SetupPropAnchorInRadius*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETUPPROPANCHORINRADIUS_METHOD_3_9CA61A26CFE6C229_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SetupPropAnchorInRadius*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETUPPROPANCHORINRADIUS_METHOD_3_0BCB85C8E4E12D5E_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_F48EC860D7F7258E(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SetupPropAnchorInRadius* a2)

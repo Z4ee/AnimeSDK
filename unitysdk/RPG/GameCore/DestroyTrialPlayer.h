@@ -4,13 +4,13 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_DESTROYTRIALPLAYER_METHOD_3_7C4E76762F1CEF60_OFFSET UNITYSDK_OFFSET(0x1969B6D0)
-#define RPG_GAMECORE_DESTROYTRIALPLAYER_METHOD_3_E37A690631833D00_OFFSET UNITYSDK_OFFSET(0x1969B640)
-#define RPG_GAMECORE_DESTROYTRIALPLAYER__CTOR_OFFSET UNITYSDK_OFFSET(0x1969B6A0)
+#define RPG_GAMECORE_DESTROYTRIALPLAYER_METHOD_3_7C4E76762F1CEF60_OFFSET UNITYSDK_OFFSET(0x1C1046C0)
+#define RPG_GAMECORE_DESTROYTRIALPLAYER_METHOD_3_BB868B1F55DAB424_OFFSET UNITYSDK_OFFSET(0x1C104670)
+#define RPG_GAMECORE_DESTROYTRIALPLAYER__CTOR_OFFSET UNITYSDK_OFFSET(0x1C1046B0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int DestroyTrialPlayer_TypeDefinitionIndex = 20391;
+	inline static constexpr unsigned int DestroyTrialPlayer_TypeDefinitionIndex = 20806;
 
 	class DestroyTrialPlayer : public ::RPG::GameCore::TaskConfig
 	{
@@ -20,9 +20,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_DESTROYTRIALPLAYER__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_E37A690631833D00(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::DestroyTrialPlayer*& a2)
+		static ::System::Void Method_3_BB868B1F55DAB424(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::DestroyTrialPlayer*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::DestroyTrialPlayer*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_DESTROYTRIALPLAYER_METHOD_3_E37A690631833D00_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::DestroyTrialPlayer*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_DESTROYTRIALPLAYER_METHOD_3_BB868B1F55DAB424_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_7C4E76762F1CEF60(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::DestroyTrialPlayer* a2)

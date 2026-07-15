@@ -5,18 +5,18 @@
 
 namespace System { class String; }
 
-#define RPG_CLIENT_ACTIVITYIDLELIVE_EMOJICHATCONTENTDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xB10D8A0)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_EMOJICHATCONTENTDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x19D22490)
 
 namespace RPG::Client::ActivityIdleLive
 {
-	inline static constexpr unsigned int EmojiChatContentData_TypeDefinitionIndex = 70214;
+	inline static constexpr unsigned int EmojiChatContentData_TypeDefinitionIndex = 71737;
 
 	class EmojiChatContentData : public ::System::Object
 	{
 	public:
 		::System::String* Emoji; // 0x10
-		::System::Int32 EmojiTextNum; // 0x18
-		::RPG::Client::TextID SenderName; // 0x20
+		::RPG::Client::TextID SenderName; // 0x18
+		::System::Int32 EmojiTextNum; // 0x28
 
 		::System::Void _ctor()
 		{

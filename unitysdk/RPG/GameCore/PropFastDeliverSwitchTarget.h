@@ -6,13 +6,13 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class TargetEvaluator; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_PROPFASTDELIVERSWITCHTARGET_METHOD_3_6D2A1C4441C783F8_OFFSET UNITYSDK_OFFSET(0x19A8FCE0)
-#define RPG_GAMECORE_PROPFASTDELIVERSWITCHTARGET_METHOD_3_F498F952F7FCA69A_OFFSET UNITYSDK_OFFSET(0x19A8FE20)
-#define RPG_GAMECORE_PROPFASTDELIVERSWITCHTARGET__CTOR_OFFSET UNITYSDK_OFFSET(0x19A8FD90)
+#define RPG_GAMECORE_PROPFASTDELIVERSWITCHTARGET_METHOD_3_B48DD1CD4FD9A110_OFFSET UNITYSDK_OFFSET(0x1BA22F30)
+#define RPG_GAMECORE_PROPFASTDELIVERSWITCHTARGET_METHOD_3_F498F952F7FCA69A_OFFSET UNITYSDK_OFFSET(0x1BA22FD0)
+#define RPG_GAMECORE_PROPFASTDELIVERSWITCHTARGET__CTOR_OFFSET UNITYSDK_OFFSET(0x1BA22F90)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PropFastDeliverSwitchTarget_TypeDefinitionIndex = 20938;
+	inline static constexpr unsigned int PropFastDeliverSwitchTarget_TypeDefinitionIndex = 21353;
 
 	class PropFastDeliverSwitchTarget : public ::RPG::GameCore::TaskConfig
 	{
@@ -26,9 +26,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PROPFASTDELIVERSWITCHTARGET__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_6D2A1C4441C783F8(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::PropFastDeliverSwitchTarget*& a2)
+		static ::System::Void Method_3_B48DD1CD4FD9A110(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::PropFastDeliverSwitchTarget*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::PropFastDeliverSwitchTarget*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PROPFASTDELIVERSWITCHTARGET_METHOD_3_6D2A1C4441C783F8_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::PropFastDeliverSwitchTarget*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PROPFASTDELIVERSWITCHTARGET_METHOD_3_B48DD1CD4FD9A110_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_F498F952F7FCA69A(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::PropFastDeliverSwitchTarget* a2)

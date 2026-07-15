@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Attribute.h"
 
-#define SYSTEM_DIAGNOSTICS_TRACING_NONEVENTATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x186BF2D0)
+#define SYSTEM_DIAGNOSTICS_TRACING_NONEVENTATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x191BF860)
 
 namespace System::Diagnostics::Tracing
 {
-	inline static constexpr unsigned int NonEventAttribute_TypeDefinitionIndex = 1683;
+	inline static constexpr unsigned int NonEventAttribute_TypeDefinitionIndex = 1687;
 
 	class NonEventAttribute : public ::System::Attribute
 	{

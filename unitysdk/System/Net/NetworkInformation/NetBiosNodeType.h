@@ -3,7 +3,7 @@
 
 namespace System::Net::NetworkInformation
 {
-	inline static constexpr unsigned int NetBiosNodeType_TypeDefinitionIndex = 2926;
+	inline static constexpr unsigned int NetBiosNodeType_TypeDefinitionIndex = 2930;
 
 	enum class NetBiosNodeType : ::System::Int32
 	{

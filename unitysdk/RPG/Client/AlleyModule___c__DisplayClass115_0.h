@@ -4,12 +4,12 @@
 
 namespace RPG::GameCore { class AlleyDeskTalkRow; }
 
-#define RPG_CLIENT_ALLEYMODULE___C__DISPLAYCLASS115_0__CTOR_OFFSET UNITYSDK_OFFSET(0xB2F1BF0)
-#define RPG_CLIENT_ALLEYMODULE___C__DISPLAYCLASS115_0__SETTALKROWPRIORITY_B__0_OFFSET UNITYSDK_OFFSET(0xB305EF0)
+#define RPG_CLIENT_ALLEYMODULE___C__DISPLAYCLASS115_0__CTOR_OFFSET UNITYSDK_OFFSET(0x17ED2F30)
+#define RPG_CLIENT_ALLEYMODULE___C__DISPLAYCLASS115_0__SETTALKROWPRIORITY_B__0_OFFSET UNITYSDK_OFFSET(0x17EE8810)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int AlleyModule___c__DisplayClass115_0_TypeDefinitionIndex = 58230;
+	inline static constexpr unsigned int AlleyModule___c__DisplayClass115_0_TypeDefinitionIndex = 59492;
 
 	class AlleyModule___c__DisplayClass115_0 : public ::System::Object
 	{

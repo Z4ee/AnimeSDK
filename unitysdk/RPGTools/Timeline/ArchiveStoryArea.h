@@ -4,13 +4,12 @@
 
 namespace System { class String; }
 
-#define RPGTOOLS_TIMELINE_ARCHIVESTORYAREA_METHOD_4_0E98210FFD41D920_OFFSET UNITYSDK_OFFSET(0xCFD8F80)
-#define RPGTOOLS_TIMELINE_ARCHIVESTORYAREA_METHOD_4_784C221F8D8DF4FC_OFFSET UNITYSDK_OFFSET(0xCFD8EA0)
-#define RPGTOOLS_TIMELINE_ARCHIVESTORYAREA__CTOR_OFFSET UNITYSDK_OFFSET(0xCFD8F70)
+#define RPGTOOLS_TIMELINE_ARCHIVESTORYAREA_METHOD_4_784C221F8D8DF4FC_OFFSET UNITYSDK_OFFSET(0x1B342DA0)
+#define RPGTOOLS_TIMELINE_ARCHIVESTORYAREA__CTOR_OFFSET UNITYSDK_OFFSET(0x1B342E70)
 
 namespace RPGTools::Timeline
 {
-	inline static constexpr unsigned int ArchiveStoryArea_TypeDefinitionIndex = 45774;
+	inline static constexpr unsigned int ArchiveStoryArea_TypeDefinitionIndex = 46713;
 
 	class ArchiveStoryArea : public ::RPGTools::Timeline::ArchiveAsset
 	{
@@ -26,11 +25,6 @@ namespace RPGTools::Timeline
 		::System::Boolean Method_4_784C221F8D8DF4FC(::RPGTools::Timeline::ArchiveAsset* a1)
 		{
 			return ((::System::Boolean(*)(::PVOID, ::RPGTools::Timeline::ArchiveAsset*))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_ARCHIVESTORYAREA_METHOD_4_784C221F8D8DF4FC_OFFSET))(this, a1);
-		}
-
-		::System::Boolean Method_4_0E98210FFD41D920(::RPGTools::Timeline::ArchiveAsset* a1)
-		{
-			return ((::System::Boolean(*)(::PVOID, ::RPGTools::Timeline::ArchiveAsset*))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_ARCHIVESTORYAREA_METHOD_4_0E98210FFD41D920_OFFSET))(this, a1);
 		}
 	};
 }

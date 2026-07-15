@@ -9,7 +9,7 @@ namespace System::Collections::Generic { template <typename T> class IEnumerator
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int DelayList_1__OnEnumItems_d__14_TypeDefinitionIndex = 55738;
+	inline static constexpr unsigned int DelayList_1__OnEnumItems_d__14_TypeDefinitionIndex = 56975;
 
 	template <typename T>
 	class DelayList_1__OnEnumItems_d__14 : public ::System::Object

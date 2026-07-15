@@ -4,12 +4,12 @@
 
 namespace RPG::Client { class DirectDeliveryNoticeData; }
 
-#define RPG_CLIENT_DIRECTDELIVERYNOTICEMODULE___C__DISPLAYCLASS25_0__CTOR_OFFSET UNITYSDK_OFFSET(0xB7F6260)
-#define RPG_CLIENT_DIRECTDELIVERYNOTICEMODULE___C__DISPLAYCLASS25_0___DOPENDNOTICE_B__0_OFFSET UNITYSDK_OFFSET(0xB7F68A0)
+#define RPG_CLIENT_DIRECTDELIVERYNOTICEMODULE___C__DISPLAYCLASS25_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1A008590)
+#define RPG_CLIENT_DIRECTDELIVERYNOTICEMODULE___C__DISPLAYCLASS25_0___DOPENDNOTICE_B__0_OFFSET UNITYSDK_OFFSET(0x1A008A30)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int DirectDeliveryNoticeModule___c__DisplayClass25_0_TypeDefinitionIndex = 59503;
+	inline static constexpr unsigned int DirectDeliveryNoticeModule___c__DisplayClass25_0_TypeDefinitionIndex = 60787;
 
 	class DirectDeliveryNoticeModule___c__DisplayClass25_0 : public ::System::Object
 	{

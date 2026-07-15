@@ -9,13 +9,13 @@ namespace RPG::GameCore { class HoyoTagContainer; }
 namespace RPG::GameCore { class JsonEnum; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_ADDMENUITEM_METHOD_3_C86D5AAF1AAF8C66_OFFSET UNITYSDK_OFFSET(0x1940F7F0)
-#define RPG_GAMECORE_ADDMENUITEM_METHOD_3_E8F5A0D5F47BD219_OFFSET UNITYSDK_OFFSET(0x1940F620)
-#define RPG_GAMECORE_ADDMENUITEM__CTOR_OFFSET UNITYSDK_OFFSET(0x1940F7C0)
+#define RPG_GAMECORE_ADDMENUITEM_METHOD_3_C86D5AAF1AAF8C66_OFFSET UNITYSDK_OFFSET(0x1BE079E0)
+#define RPG_GAMECORE_ADDMENUITEM_METHOD_3_CD6D5387EBB33FA8_OFFSET UNITYSDK_OFFSET(0x1BE07880)
+#define RPG_GAMECORE_ADDMENUITEM__CTOR_OFFSET UNITYSDK_OFFSET(0x1BE079D0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AddMenuItem_TypeDefinitionIndex = 19961;
+	inline static constexpr unsigned int AddMenuItem_TypeDefinitionIndex = 20332;
 
 	class AddMenuItem : public ::RPG::GameCore::TaskConfig
 	{
@@ -36,9 +36,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADDMENUITEM__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_E8F5A0D5F47BD219(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AddMenuItem*& a2)
+		static ::System::Void Method_3_CD6D5387EBB33FA8(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AddMenuItem*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::AddMenuItem*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADDMENUITEM_METHOD_3_E8F5A0D5F47BD219_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::AddMenuItem*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADDMENUITEM_METHOD_3_CD6D5387EBB33FA8_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_C86D5AAF1AAF8C66(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AddMenuItem* a2)

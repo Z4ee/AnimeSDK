@@ -6,13 +6,13 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class AISelector; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_SELECTAISKILLTARGET_METHOD_3_CD2CF031EB10658F_OFFSET UNITYSDK_OFFSET(0x19C200B0)
-#define RPG_GAMECORE_SELECTAISKILLTARGET_METHOD_3_D21981C8B8A58042_OFFSET UNITYSDK_OFFSET(0x19C20030)
-#define RPG_GAMECORE_SELECTAISKILLTARGET__CTOR_OFFSET UNITYSDK_OFFSET(0x19C20080)
+#define RPG_GAMECORE_SELECTAISKILLTARGET_METHOD_3_BB17562390BCF826_OFFSET UNITYSDK_OFFSET(0x1C2C9EB0)
+#define RPG_GAMECORE_SELECTAISKILLTARGET_METHOD_3_CD2CF031EB10658F_OFFSET UNITYSDK_OFFSET(0x1C2C9EF0)
+#define RPG_GAMECORE_SELECTAISKILLTARGET__CTOR_OFFSET UNITYSDK_OFFSET(0x1C2C9EE0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SelectAISkillTarget_TypeDefinitionIndex = 21207;
+	inline static constexpr unsigned int SelectAISkillTarget_TypeDefinitionIndex = 21622;
 
 	class SelectAISkillTarget : public ::RPG::GameCore::TaskConfig
 	{
@@ -26,9 +26,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SELECTAISKILLTARGET__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_D21981C8B8A58042(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SelectAISkillTarget*& a2)
+		static ::System::Void Method_3_BB17562390BCF826(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SelectAISkillTarget*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SelectAISkillTarget*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SELECTAISKILLTARGET_METHOD_3_D21981C8B8A58042_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SelectAISkillTarget*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SELECTAISKILLTARGET_METHOD_3_BB17562390BCF826_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_CD2CF031EB10658F(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SelectAISkillTarget* a2)

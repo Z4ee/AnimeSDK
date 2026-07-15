@@ -4,12 +4,12 @@
 
 namespace Spine { class TrackEntry; }
 
-#define SPINE_UNITY_WAITFORSPINEANIMATIONEND_NOWWAITFOR_OFFSET UNITYSDK_OFFSET(0x1ACE1050)
-#define SPINE_UNITY_WAITFORSPINEANIMATIONEND__CTOR_OFFSET UNITYSDK_OFFSET(0x1ACE1040)
+#define SPINE_UNITY_WAITFORSPINEANIMATIONEND_NOWWAITFOR_OFFSET UNITYSDK_OFFSET(0x168D5BD0)
+#define SPINE_UNITY_WAITFORSPINEANIMATIONEND__CTOR_OFFSET UNITYSDK_OFFSET(0x168D5BC0)
 
 namespace Spine::Unity
 {
-	inline static constexpr unsigned int WaitForSpineAnimationEnd_TypeDefinitionIndex = 41490;
+	inline static constexpr unsigned int WaitForSpineAnimationEnd_TypeDefinitionIndex = 42305;
 
 	class WaitForSpineAnimationEnd : public ::Spine::Unity::WaitForSpineAnimation
 	{

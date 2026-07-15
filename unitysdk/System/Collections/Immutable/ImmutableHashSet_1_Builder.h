@@ -15,7 +15,7 @@ namespace System::Collections::Immutable { template <typename T> class SortedInt
 
 namespace System::Collections::Immutable
 {
-	inline static constexpr unsigned int ImmutableHashSet_1_Builder_TypeDefinitionIndex = 6973;
+	inline static constexpr unsigned int ImmutableHashSet_1_Builder_TypeDefinitionIndex = 6979;
 
 	template <typename T>
 	class ImmutableHashSet_1_Builder : public ::System::Object

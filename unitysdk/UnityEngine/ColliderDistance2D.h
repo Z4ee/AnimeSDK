@@ -5,7 +5,7 @@
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int ColliderDistance2D_TypeDefinitionIndex = 5272;
+	inline static constexpr unsigned int ColliderDistance2D_TypeDefinitionIndex = 5277;
 
 	struct alignas(4) ColliderDistance2D
 	{

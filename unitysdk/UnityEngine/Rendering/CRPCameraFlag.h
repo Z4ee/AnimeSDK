@@ -3,7 +3,7 @@
 
 namespace UnityEngine::Rendering
 {
-	inline static constexpr unsigned int CRPCameraFlag_TypeDefinitionIndex = 35184;
+	inline static constexpr unsigned int CRPCameraFlag_TypeDefinitionIndex = 35966;
 
 	enum class CRPCameraFlag : ::System::Int32
 	{
@@ -19,5 +19,6 @@ namespace UnityEngine::Rendering
 		kEnableBlurFull = 512,
 		kDisableMainCamera = 1024,
 		kUIBlurDisableBaseCamera = 2048,
+		kEnableBlurPartial = 4096,
 	};
 }

@@ -8,7 +8,7 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace Newtonsoft::Json::Converters
 {
-	inline static constexpr unsigned int IXmlNode_TypeDefinitionIndex = 9485;
+	inline static constexpr unsigned int IXmlNode_TypeDefinitionIndex = 9497;
 
 	class IXmlNode
 	{

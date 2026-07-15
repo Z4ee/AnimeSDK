@@ -6,24 +6,24 @@ namespace RPG::Client::OpenWorld { class StreamingItemData; }
 namespace System { template <typename T1, typename T2> class Action_2; }
 namespace UnityEngine { class GameObject; }
 
-#define RPG_CLIENT_PROP_ADJUSTCONTAINER_CONTAINERINSTANCE___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xC4C22E0)
-#define RPG_CLIENT_PROP_ADJUSTCONTAINER_CONTAINERINSTANCE___C__CTOR_OFFSET UNITYSDK_OFFSET(0xC4C2320)
-#define RPG_CLIENT_PROP_ADJUSTCONTAINER_CONTAINERINSTANCE___C___REGENERATENOREUSE_B__11_2_OFFSET UNITYSDK_OFFSET(0xC4C2330)
+#define RPG_CLIENT_PROP_ADJUSTCONTAINER_CONTAINERINSTANCE___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x193AA300)
+#define RPG_CLIENT_PROP_ADJUSTCONTAINER_CONTAINERINSTANCE___C__CTOR_OFFSET UNITYSDK_OFFSET(0x193AA340)
+#define RPG_CLIENT_PROP_ADJUSTCONTAINER_CONTAINERINSTANCE___C___REGENERATENOREUSE_B__11_2_OFFSET UNITYSDK_OFFSET(0x193AA350)
 
 namespace RPG::Client::Prop
 {
-	inline static constexpr unsigned int AdjustContainer_ContainerInstance___c_TypeDefinitionIndex = 72714;
+	inline static constexpr unsigned int AdjustContainer_ContainerInstance___c_TypeDefinitionIndex = 74239;
 
 	class AdjustContainer_ContainerInstance___c : public ::System::Object
 	{
 	public:
 		static ::RPG::Client::Prop::AdjustContainer_ContainerInstance___c** StaticGet___9()
 		{
-			return (::RPG::Client::Prop::AdjustContainer_ContainerInstance___c**)Il2CppClass::FromTypeDefinitionIndex(AdjustContainer_ContainerInstance___c_TypeDefinitionIndex)->GetStaticField(0x105B0);
+			return (::RPG::Client::Prop::AdjustContainer_ContainerInstance___c**)Il2CppClass::FromTypeDefinitionIndex(AdjustContainer_ContainerInstance___c_TypeDefinitionIndex)->GetStaticField(0x68D80);
 		}
 		static ::System::Action_2<::UnityEngine::GameObject*, ::RPG::Client::OpenWorld::StreamingItemData*>** StaticGet___9__11_2()
 		{
-			return (::System::Action_2<::UnityEngine::GameObject*, ::RPG::Client::OpenWorld::StreamingItemData*>**)Il2CppClass::FromTypeDefinitionIndex(AdjustContainer_ContainerInstance___c_TypeDefinitionIndex)->GetStaticField(0x105B8);
+			return (::System::Action_2<::UnityEngine::GameObject*, ::RPG::Client::OpenWorld::StreamingItemData*>**)Il2CppClass::FromTypeDefinitionIndex(AdjustContainer_ContainerInstance___c_TypeDefinitionIndex)->GetStaticField(0x68D88);
 		}
 
 		static ::System::Void _cctor()

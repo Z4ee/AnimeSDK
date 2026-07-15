@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ClientPunkLordAttackerStatus_TypeDefinitionIndex = 62406;
+	inline static constexpr unsigned int ClientPunkLordAttackerStatus_TypeDefinitionIndex = 63772;
 
 	enum class ClientPunkLordAttackerStatus : ::System::Int32
 	{

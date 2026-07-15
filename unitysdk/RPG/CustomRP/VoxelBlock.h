@@ -3,11 +3,11 @@
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/Vector3Int.h"
 
-#define RPG_CUSTOMRP_VOXELBLOCK__CTOR_OFFSET UNITYSDK_OFFSET(0xCC5A9B0)
+#define RPG_CUSTOMRP_VOXELBLOCK__CTOR_OFFSET UNITYSDK_OFFSET(0x106AB940)
 
 namespace RPG::CustomRP
 {
-	inline static constexpr unsigned int VoxelBlock_TypeDefinitionIndex = 48474;
+	inline static constexpr unsigned int VoxelBlock_TypeDefinitionIndex = 49487;
 
 	class VoxelBlock : public ::System::Object
 	{

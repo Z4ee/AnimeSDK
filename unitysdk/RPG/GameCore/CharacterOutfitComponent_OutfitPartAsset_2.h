@@ -8,7 +8,7 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int CharacterOutfitComponent_OutfitPartAsset_2_TypeDefinitionIndex = 53438;
+	inline static constexpr unsigned int CharacterOutfitComponent_OutfitPartAsset_2_TypeDefinitionIndex = 54654;
 
 	template <typename TAsset, typename TUserData>
 	class CharacterOutfitComponent_OutfitPartAsset_2 : public ::System::Object

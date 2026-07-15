@@ -8,30 +8,30 @@ namespace RVO { class RVOAgent; }
 namespace RVO { class Simulator; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RVO_RVOMANAGER_ADDOBSTACLE_OFFSET UNITYSDK_OFFSET(0xA2536A0)
-#define RVO_RVOMANAGER_ALLOCAGENT_OFFSET UNITYSDK_OFFSET(0xA253440)
-#define RVO_RVOMANAGER_DISPOSE_OFFSET UNITYSDK_OFFSET(0xA252C70)
-#define RVO_RVOMANAGER_GET_SIMULATOR_OFFSET UNITYSDK_OFFSET(0xA254460)
-#define RVO_RVOMANAGER_PROCESSOBSTACLES_OFFSET UNITYSDK_OFFSET(0xA254410)
-#define RVO_RVOMANAGER_RELEASEAGENT_OFFSET UNITYSDK_OFFSET(0xA253580)
-#define RVO_RVOMANAGER_SIMULATE_OFFSET UNITYSDK_OFFSET(0xA252F80)
-#define RVO_RVOMANAGER__CCTOR_OFFSET UNITYSDK_OFFSET(0xA254470)
-#define RVO_RVOMANAGER__CTOR_OFFSET UNITYSDK_OFFSET(0xA252900)
+#define RVO_RVOMANAGER_ADDOBSTACLE_OFFSET UNITYSDK_OFFSET(0x192583D0)
+#define RVO_RVOMANAGER_ALLOCAGENT_OFFSET UNITYSDK_OFFSET(0x19258170)
+#define RVO_RVOMANAGER_DISPOSE_OFFSET UNITYSDK_OFFSET(0x19257960)
+#define RVO_RVOMANAGER_GET_SIMULATOR_OFFSET UNITYSDK_OFFSET(0x192599C0)
+#define RVO_RVOMANAGER_PROCESSOBSTACLES_OFFSET UNITYSDK_OFFSET(0x19259970)
+#define RVO_RVOMANAGER_RELEASEAGENT_OFFSET UNITYSDK_OFFSET(0x192582B0)
+#define RVO_RVOMANAGER_SIMULATE_OFFSET UNITYSDK_OFFSET(0x19257CB0)
+#define RVO_RVOMANAGER__CCTOR_OFFSET UNITYSDK_OFFSET(0x192599D0)
+#define RVO_RVOMANAGER__CTOR_OFFSET UNITYSDK_OFFSET(0x192575F0)
 
 namespace RVO
 {
-	inline static constexpr unsigned int RVOManager_TypeDefinitionIndex = 41851;
+	inline static constexpr unsigned int RVOManager_TypeDefinitionIndex = 42712;
 
 	class RVOManager : public ::System::Object
 	{
 	public:
 		static ::RVO::RVOAgentParam* StaticGet_InvalidParam()
 		{
-			return (::RVO::RVOAgentParam*)Il2CppClass::FromTypeDefinitionIndex(RVOManager_TypeDefinitionIndex)->GetStaticField(0x8050);
+			return (::RVO::RVOAgentParam*)Il2CppClass::FromTypeDefinitionIndex(RVOManager_TypeDefinitionIndex)->GetStaticField(0x6A70);
 		}
-		::RVO::Simulator* _Simulator; // 0x10
+		::System::Collections::Generic::List_1<::RVO::RVOAgent*>* _AgentPool; // 0x10
 		::System::Collections::Generic::List_1<::RVO::RVOAgent*>* _Agents; // 0x18
-		::System::Collections::Generic::List_1<::RVO::RVOAgent*>* _AgentPool; // 0x20
+		::RVO::Simulator* _Simulator; // 0x20
 
 		::System::Void _ctor()
 		{

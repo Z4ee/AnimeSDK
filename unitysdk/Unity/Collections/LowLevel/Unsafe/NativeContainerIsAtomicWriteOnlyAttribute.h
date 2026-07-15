@@ -4,7 +4,7 @@
 
 namespace Unity::Collections::LowLevel::Unsafe
 {
-	inline static constexpr unsigned int NativeContainerIsAtomicWriteOnlyAttribute_TypeDefinitionIndex = 3980;
+	inline static constexpr unsigned int NativeContainerIsAtomicWriteOnlyAttribute_TypeDefinitionIndex = 3985;
 
 	class NativeContainerIsAtomicWriteOnlyAttribute : public ::System::Attribute
 	{

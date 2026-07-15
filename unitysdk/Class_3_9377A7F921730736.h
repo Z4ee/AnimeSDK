@@ -6,11 +6,11 @@ namespace RPG::Client { class MemberData; }
 namespace RPG::GameCore { class AdventureModifyTeamPlayerSP; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_9377A7F921730736_METHOD_3_679331A0AC2A9905_OFFSET UNITYSDK_OFFSET(0x13696820)
-#define CLASS_3_9377A7F921730736_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x13696310)
-#define CLASS_3_9377A7F921730736__CTOR_OFFSET UNITYSDK_OFFSET(0x136962E0)
+#define CLASS_3_9377A7F921730736_METHOD_3_77290F7752755E05_OFFSET UNITYSDK_OFFSET(0x171E4670)
+#define CLASS_3_9377A7F921730736_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x171E4050)
+#define CLASS_3_9377A7F921730736__CTOR_OFFSET UNITYSDK_OFFSET(0x171E4020)
 
-inline static constexpr unsigned int Class_3_9377A7F921730736_TypeDefinitionIndex = 54111;
+inline static constexpr unsigned int Class_3_9377A7F921730736_TypeDefinitionIndex = 55334;
 
 class Class_3_9377A7F921730736 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::AdventureModifyTeamPlayerSP*>
 {
@@ -25,8 +25,8 @@ public:
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_3_9377A7F921730736_ONTASKBEGIN_OFFSET))(this);
 	}
 
-	::System::Void Method_3_679331A0AC2A9905(::RPG::Client::MemberData* a1)
+	::System::Void Method_3_77290F7752755E05(::RPG::Client::MemberData* a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::RPG::Client::MemberData*))((::PBYTE)hIl2Cpp + CLASS_3_9377A7F921730736_METHOD_3_679331A0AC2A9905_OFFSET))(this, a1);
+		return ((::System::Void(*)(::PVOID, ::RPG::Client::MemberData*))((::PBYTE)hIl2Cpp + CLASS_3_9377A7F921730736_METHOD_3_77290F7752755E05_OFFSET))(this, a1);
 	}
 };

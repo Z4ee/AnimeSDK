@@ -10,12 +10,12 @@ namespace RPG::GameCore { class AdventureSkillTargetConfig; }
 namespace RPG::GameCore { class SkillRangeConfig; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_ADVENTURESKILLCONFIG_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x19453BC0)
-#define RPG_GAMECORE_ADVENTURESKILLCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x19453F60)
+#define RPG_GAMECORE_ADVENTURESKILLCONFIG_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1AE624D0)
+#define RPG_GAMECORE_ADVENTURESKILLCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1AE62870)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AdventureSkillConfig_TypeDefinitionIndex = 16649;
+	inline static constexpr unsigned int AdventureSkillConfig_TypeDefinitionIndex = 16811;
 
 	class AdventureSkillConfig : public ::RPG::GameCore::JsonConfig
 	{

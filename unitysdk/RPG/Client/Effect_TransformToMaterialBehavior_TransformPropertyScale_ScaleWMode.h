@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int Effect_TransformToMaterialBehavior_TransformPropertyScale_ScaleWMode_TypeDefinitionIndex = 65996;
+	inline static constexpr unsigned int Effect_TransformToMaterialBehavior_TransformPropertyScale_ScaleWMode_TypeDefinitionIndex = 67421;
 
 	enum class Effect_TransformToMaterialBehavior_TransformPropertyScale_ScaleWMode : ::System::Int32
 	{

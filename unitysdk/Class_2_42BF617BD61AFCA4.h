@@ -1,17 +1,17 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Class_1_26684305CEECE64E.h"
+#include "unitysdk/Class_1_E559374AC4E5AD13.h"
 
 class Class_2_21AD365C113DC484;
 class Class_2_F3C45F1FC7349B6E;
 namespace RPG::GameCore { class CakeRaceActionChangeRobinRadiusByVote; }
 
-#define CLASS_2_42BF617BD61AFCA4_METHOD_2_0B174AF239244CF0_OFFSET UNITYSDK_OFFSET(0x18B26980)
-#define CLASS_2_42BF617BD61AFCA4__CTOR_OFFSET UNITYSDK_OFFSET(0x18B26970)
+#define CLASS_2_42BF617BD61AFCA4_METHOD_2_0B174AF239244CF0_OFFSET UNITYSDK_OFFSET(0x13EC3EB0)
+#define CLASS_2_42BF617BD61AFCA4__CTOR_OFFSET UNITYSDK_OFFSET(0x13EC3EA0)
 
-inline static constexpr unsigned int Class_2_42BF617BD61AFCA4_TypeDefinitionIndex = 35051;
+inline static constexpr unsigned int Class_2_42BF617BD61AFCA4_TypeDefinitionIndex = 35833;
 
-class Class_2_42BF617BD61AFCA4 : public ::Class_1_26684305CEECE64E
+class Class_2_42BF617BD61AFCA4 : public ::Class_1_E559374AC4E5AD13
 {
 public:
 	::RPG::GameCore::CakeRaceActionChangeRobinRadiusByVote* Field_2_0; // 0x10

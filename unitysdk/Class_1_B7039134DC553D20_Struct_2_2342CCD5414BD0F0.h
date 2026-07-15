@@ -4,7 +4,7 @@
 #include "unitysdk/System/Runtime/InteropServices/ComTypes/FILETIME.h"
 #include "unitysdk/System/ValueType.h"
 
-inline static constexpr unsigned int Class_1_B7039134DC553D20_Struct_2_2342CCD5414BD0F0_TypeDefinitionIndex = 56081;
+inline static constexpr unsigned int Class_1_B7039134DC553D20_Struct_2_2342CCD5414BD0F0_TypeDefinitionIndex = 57320;
 
 struct alignas(4) Class_1_B7039134DC553D20_Struct_2_2342CCD5414BD0F0
 {

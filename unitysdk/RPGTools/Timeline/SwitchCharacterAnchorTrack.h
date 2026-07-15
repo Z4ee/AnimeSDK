@@ -8,15 +8,13 @@ namespace RPGTools::Timeline { class OverrideTransformMixer; }
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine::Timeline { class TimelineClip; }
 
-#define RPGTOOLS_TIMELINE_SWITCHCHARACTERANCHORTRACK_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0xD05F2E0)
-#define RPGTOOLS_TIMELINE_SWITCHCHARACTERANCHORTRACK_CREATETRACKMIXER_OFFSET UNITYSDK_OFFSET(0xD05F400)
-#define RPGTOOLS_TIMELINE_SWITCHCHARACTERANCHORTRACK__CTOR_OFFSET UNITYSDK_OFFSET(0xD05F650)
-#define RPGTOOLS_TIMELINE_SWITCHCHARACTERANCHORTRACK___IFIXBASEPROXY_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0xD05F660)
-#define RPGTOOLS_TIMELINE_SWITCHCHARACTERANCHORTRACK___IFIXBASEPROXY_CREATETRACKMIXER_OFFSET UNITYSDK_OFFSET(0xD05F6A0)
+#define RPGTOOLS_TIMELINE_SWITCHCHARACTERANCHORTRACK_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0x19F50360)
+#define RPGTOOLS_TIMELINE_SWITCHCHARACTERANCHORTRACK_CREATETRACKMIXER_OFFSET UNITYSDK_OFFSET(0x19F50480)
+#define RPGTOOLS_TIMELINE_SWITCHCHARACTERANCHORTRACK__CTOR_OFFSET UNITYSDK_OFFSET(0x19F506D0)
 
 namespace RPGTools::Timeline
 {
-	inline static constexpr unsigned int SwitchCharacterAnchorTrack_TypeDefinitionIndex = 45643;
+	inline static constexpr unsigned int SwitchCharacterAnchorTrack_TypeDefinitionIndex = 46581;
 
 	class SwitchCharacterAnchorTrack : public ::RPGTools::Timeline::CharacterTrack
 	{
@@ -36,16 +34,6 @@ namespace RPGTools::Timeline
 		::UnityEngine::Playables::Playable CreateTrackMixer(::UnityEngine::Playables::PlayableGraph a1, ::UnityEngine::GameObject* a2, ::System::Int32 a3)
 		{
 			return ((::UnityEngine::Playables::Playable(*)(::PVOID, ::UnityEngine::Playables::PlayableGraph, ::UnityEngine::GameObject*, ::System::Int32))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_SWITCHCHARACTERANCHORTRACK_CREATETRACKMIXER_OFFSET))(this, a1, a2, a3);
-		}
-
-		::UnityEngine::Playables::Playable __iFixBaseProxy_CreatePlayable(::UnityEngine::Playables::PlayableGraph a1, ::UnityEngine::GameObject* a2, ::UnityEngine::Timeline::TimelineClip* a3)
-		{
-			return ((::UnityEngine::Playables::Playable(*)(::PVOID, ::UnityEngine::Playables::PlayableGraph, ::UnityEngine::GameObject*, ::UnityEngine::Timeline::TimelineClip*))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_SWITCHCHARACTERANCHORTRACK___IFIXBASEPROXY_CREATEPLAYABLE_OFFSET))(this, a1, a2, a3);
-		}
-
-		::UnityEngine::Playables::Playable __iFixBaseProxy_CreateTrackMixer(::UnityEngine::Playables::PlayableGraph a1, ::UnityEngine::GameObject* a2, ::System::Int32 a3)
-		{
-			return ((::UnityEngine::Playables::Playable(*)(::PVOID, ::UnityEngine::Playables::PlayableGraph, ::UnityEngine::GameObject*, ::System::Int32))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_SWITCHCHARACTERANCHORTRACK___IFIXBASEPROXY_CREATETRACKMIXER_OFFSET))(this, a1, a2, a3);
 		}
 	};
 }

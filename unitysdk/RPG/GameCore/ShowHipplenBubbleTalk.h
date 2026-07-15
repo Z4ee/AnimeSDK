@@ -9,13 +9,13 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class DynamicString; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_SHOWHIPPLENBUBBLETALK_METHOD_3_BBADCB6F8B8BACC4_OFFSET UNITYSDK_OFFSET(0x19C7EF80)
-#define RPG_GAMECORE_SHOWHIPPLENBUBBLETALK_METHOD_3_EBBAA119287BA65E_OFFSET UNITYSDK_OFFSET(0x19C7EEF0)
-#define RPG_GAMECORE_SHOWHIPPLENBUBBLETALK__CTOR_OFFSET UNITYSDK_OFFSET(0x19C7EF50)
+#define RPG_GAMECORE_SHOWHIPPLENBUBBLETALK_METHOD_3_725079C75BFC73B3_OFFSET UNITYSDK_OFFSET(0x1BE432F0)
+#define RPG_GAMECORE_SHOWHIPPLENBUBBLETALK_METHOD_3_BBADCB6F8B8BACC4_OFFSET UNITYSDK_OFFSET(0x1BE43340)
+#define RPG_GAMECORE_SHOWHIPPLENBUBBLETALK__CTOR_OFFSET UNITYSDK_OFFSET(0x1BE43330)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ShowHipplenBubbleTalk_TypeDefinitionIndex = 20130;
+	inline static constexpr unsigned int ShowHipplenBubbleTalk_TypeDefinitionIndex = 20502;
 
 	class ShowHipplenBubbleTalk : public ::RPG::GameCore::TaskConfig
 	{
@@ -35,9 +35,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SHOWHIPPLENBUBBLETALK__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_EBBAA119287BA65E(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ShowHipplenBubbleTalk*& a2)
+		static ::System::Void Method_3_725079C75BFC73B3(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ShowHipplenBubbleTalk*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ShowHipplenBubbleTalk*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SHOWHIPPLENBUBBLETALK_METHOD_3_EBBAA119287BA65E_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ShowHipplenBubbleTalk*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SHOWHIPPLENBUBBLETALK_METHOD_3_725079C75BFC73B3_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_BBADCB6F8B8BACC4(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ShowHipplenBubbleTalk* a2)

@@ -12,7 +12,7 @@ namespace System::Collections::Generic { template <typename T> class LinkedList_
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TableLRUCache_2_TypeDefinitionIndex = 10455;
+	inline static constexpr unsigned int TableLRUCache_2_TypeDefinitionIndex = 10503;
 
 	template <typename TKey, typename TValue>
 	class TableLRUCache_2 : public ::System::Object

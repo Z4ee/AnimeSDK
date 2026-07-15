@@ -8,13 +8,13 @@ namespace RPG::GameCore { class TargetEvaluator; }
 namespace RPG::GameCore { class TriggerEffect; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_ROGUEDLC1DOT3DICEINTERACT_METHOD_3_21F558B5543C7F45_OFFSET UNITYSDK_OFFSET(0x19B22AA0)
-#define RPG_GAMECORE_ROGUEDLC1DOT3DICEINTERACT_METHOD_3_789D43B7BFC90413_OFFSET UNITYSDK_OFFSET(0x19B22B20)
-#define RPG_GAMECORE_ROGUEDLC1DOT3DICEINTERACT__CTOR_OFFSET UNITYSDK_OFFSET(0x19B22AF0)
+#define RPG_GAMECORE_ROGUEDLC1DOT3DICEINTERACT_METHOD_3_789D43B7BFC90413_OFFSET UNITYSDK_OFFSET(0x1C4AFC00)
+#define RPG_GAMECORE_ROGUEDLC1DOT3DICEINTERACT_METHOD_3_D16417FAE3C443EC_OFFSET UNITYSDK_OFFSET(0x1C4AFBC0)
+#define RPG_GAMECORE_ROGUEDLC1DOT3DICEINTERACT__CTOR_OFFSET UNITYSDK_OFFSET(0x1C4AFBF0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RogueDLC1Dot3DiceInteract_TypeDefinitionIndex = 21046;
+	inline static constexpr unsigned int RogueDLC1Dot3DiceInteract_TypeDefinitionIndex = 21461;
 
 	class RogueDLC1Dot3DiceInteract : public ::RPG::GameCore::TaskConfig
 	{
@@ -32,9 +32,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUEDLC1DOT3DICEINTERACT__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_21F558B5543C7F45(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::RogueDLC1Dot3DiceInteract*& a2)
+		static ::System::Void Method_3_D16417FAE3C443EC(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::RogueDLC1Dot3DiceInteract*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::RogueDLC1Dot3DiceInteract*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUEDLC1DOT3DICEINTERACT_METHOD_3_21F558B5543C7F45_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::RogueDLC1Dot3DiceInteract*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUEDLC1DOT3DICEINTERACT_METHOD_3_D16417FAE3C443EC_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_789D43B7BFC90413(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::RogueDLC1Dot3DiceInteract* a2)

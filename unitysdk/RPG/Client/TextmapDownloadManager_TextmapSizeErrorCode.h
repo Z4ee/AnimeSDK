@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int TextmapDownloadManager_TextmapSizeErrorCode_TypeDefinitionIndex = 57251;
+	inline static constexpr unsigned int TextmapDownloadManager_TextmapSizeErrorCode_TypeDefinitionIndex = 58509;
 
 	enum class TextmapDownloadManager_TextmapSizeErrorCode : ::System::Int32
 	{

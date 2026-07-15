@@ -7,20 +7,20 @@ namespace MiHoYo::SDK::Win { class ComboManager; }
 namespace System { class String; }
 namespace System { template <typename T> class Action_1; }
 
-#define MIHOYO_SDK_WIN_COMBOMANAGER___C__DISPLAYCLASS36_0__CTOR_OFFSET UNITYSDK_OFFSET(0x184B5C70)
-#define MIHOYO_SDK_WIN_COMBOMANAGER___C__DISPLAYCLASS36_0__SWITCHROLE_B__0_OFFSET UNITYSDK_OFFSET(0x184B5C80)
-#define MIHOYO_SDK_WIN_COMBOMANAGER___C__DISPLAYCLASS36_0__SWITCHROLE_B__1_OFFSET UNITYSDK_OFFSET(0x184B5CE0)
-#define MIHOYO_SDK_WIN_COMBOMANAGER___C__DISPLAYCLASS36_0__SWITCHROLE_B__2_OFFSET UNITYSDK_OFFSET(0x184B5D40)
+#define MIHOYO_SDK_WIN_COMBOMANAGER___C__DISPLAYCLASS36_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1567C590)
+#define MIHOYO_SDK_WIN_COMBOMANAGER___C__DISPLAYCLASS36_0__SWITCHROLE_B__0_OFFSET UNITYSDK_OFFSET(0x1567C5A0)
+#define MIHOYO_SDK_WIN_COMBOMANAGER___C__DISPLAYCLASS36_0__SWITCHROLE_B__1_OFFSET UNITYSDK_OFFSET(0x1567C6C0)
+#define MIHOYO_SDK_WIN_COMBOMANAGER___C__DISPLAYCLASS36_0__SWITCHROLE_B__2_OFFSET UNITYSDK_OFFSET(0x1567C7E0)
 
 namespace MiHoYo::SDK::Win
 {
-	inline static constexpr unsigned int ComboManager___c__DisplayClass36_0_TypeDefinitionIndex = 9082;
+	inline static constexpr unsigned int ComboManager___c__DisplayClass36_0_TypeDefinitionIndex = 9094;
 
 	class ComboManager___c__DisplayClass36_0 : public ::System::Object
 	{
 	public:
-		::MiHoYo::SDK::Win::ComboManager* __4__this; // 0x10
-		::System::Action_1<::System::String*>* callback; // 0x18
+		::System::Action_1<::System::String*>* callback; // 0x10
+		::MiHoYo::SDK::Win::ComboManager* __4__this; // 0x18
 
 		::System::Void _ctor()
 		{

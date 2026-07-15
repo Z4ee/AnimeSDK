@@ -8,10 +8,10 @@ namespace RPG::GameCore { class UIOperation; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class Transform; }
 
-#define MONOUIADAPTCONFIGITEM_METHOD_1_E5A148B176848EDE_OFFSET UNITYSDK_OFFSET(0xA850220)
-#define MONOUIADAPTCONFIGITEM__CTOR_OFFSET UNITYSDK_OFFSET(0xA850730)
+#define MONOUIADAPTCONFIGITEM_METHOD_1_E5A148B176848EDE_OFFSET UNITYSDK_OFFSET(0x186F6790)
+#define MONOUIADAPTCONFIGITEM__CTOR_OFFSET UNITYSDK_OFFSET(0x186F6CA0)
 
-inline static constexpr unsigned int MonoUIAdaptConfigItem_TypeDefinitionIndex = 44875;
+inline static constexpr unsigned int MonoUIAdaptConfigItem_TypeDefinitionIndex = 45792;
 
 class MonoUIAdaptConfigItem : public ::System::Object
 {

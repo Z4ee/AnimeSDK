@@ -3,7 +3,7 @@
 
 namespace UnityEngine::Experimental::Rendering::RenderGraphModule
 {
-	inline static constexpr unsigned int RenderGraphProfileId_TypeDefinitionIndex = 33652;
+	inline static constexpr unsigned int RenderGraphProfileId_TypeDefinitionIndex = 34023;
 
 	enum class RenderGraphProfileId : ::System::Int32
 	{

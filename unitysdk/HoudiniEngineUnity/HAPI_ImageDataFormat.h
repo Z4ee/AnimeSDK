@@ -3,7 +3,7 @@
 
 namespace HoudiniEngineUnity
 {
-	inline static constexpr unsigned int HAPI_ImageDataFormat_TypeDefinitionIndex = 37514;
+	inline static constexpr unsigned int HAPI_ImageDataFormat_TypeDefinitionIndex = 38322;
 
 	enum class HAPI_ImageDataFormat : ::System::Int32
 	{

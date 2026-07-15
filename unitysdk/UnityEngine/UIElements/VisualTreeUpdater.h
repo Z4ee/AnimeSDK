@@ -7,12 +7,12 @@
 namespace UnityEngine::UIElements { class VisualElement; }
 namespace UnityEngine::UIElements { class VisualTreeUpdater_UpdaterArray; }
 
-#define UNITYENGINE_UIELEMENTS_VISUALTREEUPDATER_ONVERSIONCHANGED_OFFSET UNITYSDK_OFFSET(0x1B35F710)
-#define UNITYENGINE_UIELEMENTS_VISUALTREEUPDATER_UPDATEVISUALTREEPHASE_OFFSET UNITYSDK_OFFSET(0x1B35F250)
+#define UNITYENGINE_UIELEMENTS_VISUALTREEUPDATER_ONVERSIONCHANGED_OFFSET UNITYSDK_OFFSET(0x1BA3E560)
+#define UNITYENGINE_UIELEMENTS_VISUALTREEUPDATER_UPDATEVISUALTREEPHASE_OFFSET UNITYSDK_OFFSET(0x1BA3DFF0)
 
 namespace UnityEngine::UIElements
 {
-	inline static constexpr unsigned int VisualTreeUpdater_TypeDefinitionIndex = 6161;
+	inline static constexpr unsigned int VisualTreeUpdater_TypeDefinitionIndex = 6166;
 
 	class VisualTreeUpdater : public ::System::Object
 	{

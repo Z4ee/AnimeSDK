@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class RtByHasSelectSkill; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_9E3F7D5013BF1796_EVALUATE_OFFSET UNITYSDK_OFFSET(0x1362D6A0)
-#define CLASS_3_9E3F7D5013BF1796__CTOR_OFFSET UNITYSDK_OFFSET(0x1362D670)
+#define CLASS_3_9E3F7D5013BF1796_EVALUATE_OFFSET UNITYSDK_OFFSET(0x17C7CCA0)
+#define CLASS_3_9E3F7D5013BF1796__CTOR_OFFSET UNITYSDK_OFFSET(0x17C7CC70)
 
-inline static constexpr unsigned int Class_3_9E3F7D5013BF1796_TypeDefinitionIndex = 50369;
+inline static constexpr unsigned int Class_3_9E3F7D5013BF1796_TypeDefinitionIndex = 51451;
 
 class Class_3_9E3F7D5013BF1796 : public ::RPG::GameCore::PredicateTaskBase_1<::RPG::GameCore::RtByHasSelectSkill*>
 {

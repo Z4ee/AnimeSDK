@@ -4,13 +4,13 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_FRAMETIMEBUDGETINFO_METHOD_3_1B2F5A22944F090D_OFFSET UNITYSDK_OFFSET(0x1976C000)
-#define RPG_GAMECORE_FRAMETIMEBUDGETINFO_METHOD_3_BA967BAEBEBB1CB1_OFFSET UNITYSDK_OFFSET(0x1976C090)
-#define RPG_GAMECORE_FRAMETIMEBUDGETINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x1976C060)
+#define RPG_GAMECORE_FRAMETIMEBUDGETINFO_METHOD_3_1B2F5A22944F090D_OFFSET UNITYSDK_OFFSET(0x1B97E400)
+#define RPG_GAMECORE_FRAMETIMEBUDGETINFO_METHOD_3_BA967BAEBEBB1CB1_OFFSET UNITYSDK_OFFSET(0x1B97E490)
+#define RPG_GAMECORE_FRAMETIMEBUDGETINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x1B97E460)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FrameTimeBudgetInfo_TypeDefinitionIndex = 15642;
+	inline static constexpr unsigned int FrameTimeBudgetInfo_TypeDefinitionIndex = 15815;
 
 	class FrameTimeBudgetInfo : public ::RPG::GameCore::DeviceSettingConfigItemBase
 	{
@@ -18,15 +18,16 @@ namespace RPG::GameCore
 		::System::Boolean Enabled; // 0x18
 		::System::Single AssetMgrTimeMs; // 0x1C
 		::System::Single GameObjectPoolTimeMs; // 0x20
-		::System::Single StreamingUpdateTimeMs; // 0x24
-		::System::Single StreamingLoadTimeMs; // 0x28
-		::System::Single StreamingFadingTimeMs; // 0x2C
-		::System::Single AdvAsyncProcessorTimeMs; // 0x30
-		::System::Single GroupUnloadTimeMs; // 0x34
-		::System::Single BattlePreloadPoolRearrangeTimeMs; // 0x38
-		::System::Single SharedTimeMs; // 0x3C
-		::System::Single MaxExtendTimeMs; // 0x40
-		::System::Single FrameExtendTimeMs; // 0x44
+		::System::Single GameObjectPoolPreResetTimeMs; // 0x24
+		::System::Single StreamingUpdateTimeMs; // 0x28
+		::System::Single StreamingLoadTimeMs; // 0x2C
+		::System::Single StreamingFadingTimeMs; // 0x30
+		::System::Single AdvAsyncProcessorTimeMs; // 0x34
+		::System::Single GroupUnloadTimeMs; // 0x38
+		::System::Single BattlePreloadPoolRearrangeTimeMs; // 0x3C
+		::System::Single SharedTimeMs; // 0x40
+		::System::Single MaxExtendTimeMs; // 0x44
+		::System::Single FrameExtendTimeMs; // 0x48
 
 		::System::Void _ctor()
 		{

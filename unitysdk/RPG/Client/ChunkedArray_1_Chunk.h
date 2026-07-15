@@ -4,7 +4,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ChunkedArray_1_Chunk_TypeDefinitionIndex = 33399;
+	inline static constexpr unsigned int ChunkedArray_1_Chunk_TypeDefinitionIndex = 33769;
 
 	template <typename T>
 	struct ChunkedArray_1_Chunk

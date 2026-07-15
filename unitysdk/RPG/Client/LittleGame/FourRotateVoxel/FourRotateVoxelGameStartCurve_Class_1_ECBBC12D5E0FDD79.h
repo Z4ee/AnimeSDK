@@ -5,11 +5,11 @@
 
 namespace RPG::Client { class MonoEffect; }
 
-#define RPG_CLIENT_LITTLEGAME_FOURROTATEVOXEL_FOURROTATEVOXELGAMESTARTCURVE_CLASS_1_ECBBC12D5E0FDD79__CTOR_OFFSET UNITYSDK_OFFSET(0xBE248D0)
+#define RPG_CLIENT_LITTLEGAME_FOURROTATEVOXEL_FOURROTATEVOXELGAMESTARTCURVE_CLASS_1_ECBBC12D5E0FDD79__CTOR_OFFSET UNITYSDK_OFFSET(0x18A1A1B0)
 
 namespace RPG::Client::LittleGame::FourRotateVoxel
 {
-	inline static constexpr unsigned int FourRotateVoxelGameStartCurve_Class_1_ECBBC12D5E0FDD79_TypeDefinitionIndex = 71365;
+	inline static constexpr unsigned int FourRotateVoxelGameStartCurve_Class_1_ECBBC12D5E0FDD79_TypeDefinitionIndex = 72890;
 
 	class FourRotateVoxelGameStartCurve_Class_1_ECBBC12D5E0FDD79 : public ::System::Object
 	{

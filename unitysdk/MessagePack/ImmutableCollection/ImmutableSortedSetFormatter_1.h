@@ -9,7 +9,7 @@ namespace System::Collections::Immutable { template <typename T> class Immutable
 
 namespace MessagePack::ImmutableCollection
 {
-	inline static constexpr unsigned int ImmutableSortedSetFormatter_1_TypeDefinitionIndex = 7313;
+	inline static constexpr unsigned int ImmutableSortedSetFormatter_1_TypeDefinitionIndex = 7319;
 
 	template <typename T>
 	class ImmutableSortedSetFormatter_1 : public ::MessagePack::Formatters::CollectionFormatterBase_4<T, ::System::Collections::Immutable::ImmutableSortedSet_1_Builder<T>*, ::System::Collections::Immutable::ImmutableSortedSet_1_Enumerator<T>, ::System::Collections::Immutable::ImmutableSortedSet_1<T>*>

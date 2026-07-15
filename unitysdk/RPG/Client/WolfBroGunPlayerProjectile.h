@@ -6,15 +6,14 @@
 namespace RPG::Client { class WolfBroGunPlayTarget; }
 namespace UnityEngine { class Collider; }
 
-#define RPG_CLIENT_WOLFBROGUNPLAYERPROJECTILE_METHOD_6_227F3D625371821C_OFFSET UNITYSDK_OFFSET(0xCC44640)
-#define RPG_CLIENT_WOLFBROGUNPLAYERPROJECTILE_METHOD_6_290BD11329CA8210_OFFSET UNITYSDK_OFFSET(0xCC43D90)
-#define RPG_CLIENT_WOLFBROGUNPLAYERPROJECTILE_METHOD_6_4336FBACB9794796_OFFSET UNITYSDK_OFFSET(0xCC44170)
-#define RPG_CLIENT_WOLFBROGUNPLAYERPROJECTILE_METHOD_6_D2CE238054CB70B4_OFFSET UNITYSDK_OFFSET(0xCC44410)
-#define RPG_CLIENT_WOLFBROGUNPLAYERPROJECTILE__CTOR_OFFSET UNITYSDK_OFFSET(0xCC445B0)
+#define RPG_CLIENT_WOLFBROGUNPLAYERPROJECTILE_METHOD_6_290BD11329CA8210_OFFSET UNITYSDK_OFFSET(0x1742D300)
+#define RPG_CLIENT_WOLFBROGUNPLAYERPROJECTILE_METHOD_6_91D0D9A56BCA1DE9_OFFSET UNITYSDK_OFFSET(0x1742D6E0)
+#define RPG_CLIENT_WOLFBROGUNPLAYERPROJECTILE_METHOD_6_D2CE238054CB70B4_OFFSET UNITYSDK_OFFSET(0x1742DA50)
+#define RPG_CLIENT_WOLFBROGUNPLAYERPROJECTILE__CTOR_OFFSET UNITYSDK_OFFSET(0x1742DBF0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int WolfBroGunPlayerProjectile_TypeDefinitionIndex = 64321;
+	inline static constexpr unsigned int WolfBroGunPlayerProjectile_TypeDefinitionIndex = 65692;
 
 	class WolfBroGunPlayerProjectile : public ::RPG::Client::WolfBroGunProjectile
 	{
@@ -31,19 +30,14 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID, ::UnityEngine::Collider*, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + RPG_CLIENT_WOLFBROGUNPLAYERPROJECTILE_METHOD_6_290BD11329CA8210_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void Method_6_4336FBACB9794796(::RPG::Client::WolfBroGunPlayTarget* a1, ::UnityEngine::Vector3 a2)
+		::System::Void Method_6_91D0D9A56BCA1DE9(::RPG::Client::WolfBroGunPlayTarget* a1, ::UnityEngine::Vector3 a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::WolfBroGunPlayTarget*, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + RPG_CLIENT_WOLFBROGUNPLAYERPROJECTILE_METHOD_6_4336FBACB9794796_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::WolfBroGunPlayTarget*, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + RPG_CLIENT_WOLFBROGUNPLAYERPROJECTILE_METHOD_6_91D0D9A56BCA1DE9_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void Method_6_D2CE238054CB70B4(::System::Int32 a1)
 		{
 			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_WOLFBROGUNPLAYERPROJECTILE_METHOD_6_D2CE238054CB70B4_OFFSET))(this, a1);
-		}
-
-		::System::Void Method_6_227F3D625371821C(::UnityEngine::Collider* a1, ::UnityEngine::Vector3 a2)
-		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Collider*, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + RPG_CLIENT_WOLFBROGUNPLAYERPROJECTILE_METHOD_6_227F3D625371821C_OFFSET))(this, a1, a2);
 		}
 	};
 }

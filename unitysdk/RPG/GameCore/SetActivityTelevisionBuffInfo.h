@@ -5,13 +5,13 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class DynamicFloat; }
 
-#define RPG_GAMECORE_SETACTIVITYTELEVISIONBUFFINFO_METHOD_3_6E99B8A12CD5A5D6_OFFSET UNITYSDK_OFFSET(0x19C26900)
-#define RPG_GAMECORE_SETACTIVITYTELEVISIONBUFFINFO_METHOD_3_CF05392FA4E06924_OFFSET UNITYSDK_OFFSET(0x19C26A20)
-#define RPG_GAMECORE_SETACTIVITYTELEVISIONBUFFINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x19C269A0)
+#define RPG_GAMECORE_SETACTIVITYTELEVISIONBUFFINFO_METHOD_3_1B5CA7EEBBCD8EBF_OFFSET UNITYSDK_OFFSET(0x1C2D0670)
+#define RPG_GAMECORE_SETACTIVITYTELEVISIONBUFFINFO_METHOD_3_CF05392FA4E06924_OFFSET UNITYSDK_OFFSET(0x1C2D0770)
+#define RPG_GAMECORE_SETACTIVITYTELEVISIONBUFFINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x1C2D0700)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SetActivityTelevisionBuffInfo_TypeDefinitionIndex = 21977;
+	inline static constexpr unsigned int SetActivityTelevisionBuffInfo_TypeDefinitionIndex = 22411;
 
 	class SetActivityTelevisionBuffInfo : public ::RPG::GameCore::TaskConfig
 	{
@@ -24,9 +24,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETACTIVITYTELEVISIONBUFFINFO__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_6E99B8A12CD5A5D6(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SetActivityTelevisionBuffInfo*& a2)
+		static ::System::Void Method_3_1B5CA7EEBBCD8EBF(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SetActivityTelevisionBuffInfo*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SetActivityTelevisionBuffInfo*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETACTIVITYTELEVISIONBUFFINFO_METHOD_3_6E99B8A12CD5A5D6_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SetActivityTelevisionBuffInfo*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETACTIVITYTELEVISIONBUFFINFO_METHOD_3_1B5CA7EEBBCD8EBF_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_CF05392FA4E06924(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SetActivityTelevisionBuffInfo* a2)

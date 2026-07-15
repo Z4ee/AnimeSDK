@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LimaoNewsIssueHintPopupShowType_TypeDefinitionIndex = 13309;
+	inline static constexpr unsigned int LimaoNewsIssueHintPopupShowType_TypeDefinitionIndex = 13457;
 
 	enum class LimaoNewsIssueHintPopupShowType : ::System::Int32
 	{

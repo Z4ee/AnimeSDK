@@ -6,7 +6,7 @@ namespace RPG { template <typename T> class GCFreeLazy_1___c; }
 
 namespace RPG
 {
-	inline static constexpr unsigned int GCFreeLazy_1___c_TypeDefinitionIndex = 6744;
+	inline static constexpr unsigned int GCFreeLazy_1___c_TypeDefinitionIndex = 6749;
 
 	template <typename T>
 	class GCFreeLazy_1___c : public ::System::Object

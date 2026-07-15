@@ -6,12 +6,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_ELFSUPEREVENTTYPECONFIG_METHOD_2_E8833C5F72D50A33_OFFSET UNITYSDK_OFFSET(0x196DDEF0)
-#define RPG_GAMECORE_ELFSUPEREVENTTYPECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x196DE2E0)
+#define RPG_GAMECORE_ELFSUPEREVENTTYPECONFIG_METHOD_2_E8833C5F72D50A33_OFFSET UNITYSDK_OFFSET(0x1BB3A400)
+#define RPG_GAMECORE_ELFSUPEREVENTTYPECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1BB3A7F0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ElfSuperEventTypeConfig_TypeDefinitionIndex = 17561;
+	inline static constexpr unsigned int ElfSuperEventTypeConfig_TypeDefinitionIndex = 17734;
 
 	class ElfSuperEventTypeConfig : public ::RPG::GameCore::JsonConfig
 	{

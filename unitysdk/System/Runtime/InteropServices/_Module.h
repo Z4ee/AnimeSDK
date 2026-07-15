@@ -3,7 +3,7 @@
 
 namespace System::Runtime::InteropServices
 {
-	inline static constexpr unsigned int _Module_TypeDefinitionIndex = 1439;
+	inline static constexpr unsigned int _Module_TypeDefinitionIndex = 1443;
 
 	class _Module
 	{

@@ -1,9 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-namespace RPG::GameCore { class GameEntity; }
-
-inline static constexpr unsigned int Class_0_16E4307DCC419505_536_TypeDefinitionIndex = 53425;
+inline static constexpr unsigned int Class_0_16E4307DCC419505_536_TypeDefinitionIndex = 53397;
 
 class Class_0_16E4307DCC419505_536
 {

@@ -7,13 +7,13 @@ namespace RPG::GameCore { class CharacterPhaseAnimConfig; }
 namespace RPG::GameCore { class TargetEvaluator; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_CHARACTERCHANGEPHASE_METHOD_3_0102EAE67CF4F9C0_OFFSET UNITYSDK_OFFSET(0x19608020)
-#define RPG_GAMECORE_CHARACTERCHANGEPHASE_METHOD_3_1D026C7D4233DD36_OFFSET UNITYSDK_OFFSET(0x19607FA0)
-#define RPG_GAMECORE_CHARACTERCHANGEPHASE__CTOR_OFFSET UNITYSDK_OFFSET(0x19607FF0)
+#define RPG_GAMECORE_CHARACTERCHANGEPHASE_METHOD_3_0102EAE67CF4F9C0_OFFSET UNITYSDK_OFFSET(0x1B71DCE0)
+#define RPG_GAMECORE_CHARACTERCHANGEPHASE_METHOD_3_270193718EF08749_OFFSET UNITYSDK_OFFSET(0x1B71DC90)
+#define RPG_GAMECORE_CHARACTERCHANGEPHASE__CTOR_OFFSET UNITYSDK_OFFSET(0x1B71DCD0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int CharacterChangePhase_TypeDefinitionIndex = 21252;
+	inline static constexpr unsigned int CharacterChangePhase_TypeDefinitionIndex = 21667;
 
 	class CharacterChangePhase : public ::RPG::GameCore::TaskConfig
 	{
@@ -29,9 +29,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHARACTERCHANGEPHASE__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_1D026C7D4233DD36(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::CharacterChangePhase*& a2)
+		static ::System::Void Method_3_270193718EF08749(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::CharacterChangePhase*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::CharacterChangePhase*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHARACTERCHANGEPHASE_METHOD_3_1D026C7D4233DD36_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::CharacterChangePhase*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHARACTERCHANGEPHASE_METHOD_3_270193718EF08749_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_0102EAE67CF4F9C0(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::CharacterChangePhase* a2)

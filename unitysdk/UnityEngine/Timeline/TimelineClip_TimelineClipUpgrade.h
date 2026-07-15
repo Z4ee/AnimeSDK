@@ -4,11 +4,11 @@
 
 namespace UnityEngine::Timeline { class TimelineClip; }
 
-#define UNITYENGINE_TIMELINE_TIMELINECLIP_TIMELINECLIPUPGRADE_UPGRADECLIPINFROMGLOBALTOLOCAL_OFFSET UNITYSDK_OFFSET(0x1B2483F0)
+#define UNITYENGINE_TIMELINE_TIMELINECLIP_TIMELINECLIPUPGRADE_UPGRADECLIPINFROMGLOBALTOLOCAL_OFFSET UNITYSDK_OFFSET(0x1A3C5E00)
 
 namespace UnityEngine::Timeline
 {
-	inline static constexpr unsigned int TimelineClip_TimelineClipUpgrade_TypeDefinitionIndex = 35848;
+	inline static constexpr unsigned int TimelineClip_TimelineClipUpgrade_TypeDefinitionIndex = 36630;
 
 	class TimelineClip_TimelineClipUpgrade : public ::System::Object
 	{

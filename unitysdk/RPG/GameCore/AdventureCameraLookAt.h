@@ -7,13 +7,13 @@ namespace RPG::GameCore { class DynamicFloat; }
 namespace RPG::GameCore { class DynamicString; }
 namespace RPG::GameCore { class TargetEvaluator; }
 
-#define RPG_GAMECORE_ADVENTURECAMERALOOKAT_METHOD_4_07A653F13457A58E_OFFSET UNITYSDK_OFFSET(0x19449D40)
-#define RPG_GAMECORE_ADVENTURECAMERALOOKAT_METHOD_4_F654B9D118832DD9_OFFSET UNITYSDK_OFFSET(0x19449CA0)
-#define RPG_GAMECORE_ADVENTURECAMERALOOKAT__CTOR_OFFSET UNITYSDK_OFFSET(0x19449D00)
+#define RPG_GAMECORE_ADVENTURECAMERALOOKAT_METHOD_4_07A653F13457A58E_OFFSET UNITYSDK_OFFSET(0x1AE58770)
+#define RPG_GAMECORE_ADVENTURECAMERALOOKAT_METHOD_4_1EE311594141AD5E_OFFSET UNITYSDK_OFFSET(0x1AE58720)
+#define RPG_GAMECORE_ADVENTURECAMERALOOKAT__CTOR_OFFSET UNITYSDK_OFFSET(0x1AE58760)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AdventureCameraLookAt_TypeDefinitionIndex = 19369;
+	inline static constexpr unsigned int AdventureCameraLookAt_TypeDefinitionIndex = 19725;
 
 	class AdventureCameraLookAt : public ::RPG::GameCore::BaseAdventureCameraLookAt
 	{
@@ -30,9 +30,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVENTURECAMERALOOKAT__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_4_F654B9D118832DD9(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AdventureCameraLookAt*& a2)
+		static ::System::Void Method_4_1EE311594141AD5E(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AdventureCameraLookAt*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::AdventureCameraLookAt*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVENTURECAMERALOOKAT_METHOD_4_F654B9D118832DD9_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::AdventureCameraLookAt*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVENTURECAMERALOOKAT_METHOD_4_1EE311594141AD5E_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_4_07A653F13457A58E(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AdventureCameraLookAt* a2)

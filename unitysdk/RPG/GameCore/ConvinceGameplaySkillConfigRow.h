@@ -6,20 +6,20 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_CONVINCEGAMEPLAYSKILLCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1967C8B0)
-#define RPG_GAMECORE_CONVINCEGAMEPLAYSKILLCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1967CFD0)
+#define RPG_GAMECORE_CONVINCEGAMEPLAYSKILLCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1BC351E0)
+#define RPG_GAMECORE_CONVINCEGAMEPLAYSKILLCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1BC35900)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ConvinceGameplaySkillConfigRow_TypeDefinitionIndex = 12465;
+	inline static constexpr unsigned int ConvinceGameplaySkillConfigRow_TypeDefinitionIndex = 12602;
 
 	class ConvinceGameplaySkillConfigRow : public ::System::Object
 	{
 	public:
 		::System::String* SkillIconPath; // 0x10
-		::RPG::Client::TextID SkillNameText; // 0x18
+		::RPG::Client::TextID SkillDescriptionID; // 0x18
 		::System::UInt32 ID; // 0x28
-		::RPG::Client::TextID SkillDescriptionID; // 0x30
+		::RPG::Client::TextID SkillNameText; // 0x30
 
 		::System::Void _ctor()
 		{

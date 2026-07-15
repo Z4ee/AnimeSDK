@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SingleVCameraFreelook3rdConfigTemplateEnum_TypeDefinitionIndex = 23255;
+	inline static constexpr unsigned int SingleVCameraFreelook3rdConfigTemplateEnum_TypeDefinitionIndex = 23740;
 
 	enum class SingleVCameraFreelook3rdConfigTemplateEnum : ::System::Int32
 	{

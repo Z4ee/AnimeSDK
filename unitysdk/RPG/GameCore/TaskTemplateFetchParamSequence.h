@@ -5,13 +5,13 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_TASKTEMPLATEFETCHPARAMSEQUENCE_METHOD_3_251BE854C786F840_OFFSET UNITYSDK_OFFSET(0x19DDA9F0)
-#define RPG_GAMECORE_TASKTEMPLATEFETCHPARAMSEQUENCE_METHOD_3_90FBEEF2E3BFD039_OFFSET UNITYSDK_OFFSET(0x19DDAA70)
-#define RPG_GAMECORE_TASKTEMPLATEFETCHPARAMSEQUENCE__CTOR_OFFSET UNITYSDK_OFFSET(0x19DDAA40)
+#define RPG_GAMECORE_TASKTEMPLATEFETCHPARAMSEQUENCE_METHOD_3_90FBEEF2E3BFD039_OFFSET UNITYSDK_OFFSET(0x1C1447F0)
+#define RPG_GAMECORE_TASKTEMPLATEFETCHPARAMSEQUENCE_METHOD_3_D1BBE1A9E3107DB2_OFFSET UNITYSDK_OFFSET(0x1C1447B0)
+#define RPG_GAMECORE_TASKTEMPLATEFETCHPARAMSEQUENCE__CTOR_OFFSET UNITYSDK_OFFSET(0x1C1447E0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TaskTemplateFetchParamSequence_TypeDefinitionIndex = 22526;
+	inline static constexpr unsigned int TaskTemplateFetchParamSequence_TypeDefinitionIndex = 22977;
 
 	class TaskTemplateFetchParamSequence : public ::RPG::GameCore::TaskConfig
 	{
@@ -23,9 +23,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TASKTEMPLATEFETCHPARAMSEQUENCE__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_251BE854C786F840(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::TaskTemplateFetchParamSequence*& a2)
+		static ::System::Void Method_3_D1BBE1A9E3107DB2(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::TaskTemplateFetchParamSequence*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::TaskTemplateFetchParamSequence*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TASKTEMPLATEFETCHPARAMSEQUENCE_METHOD_3_251BE854C786F840_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::TaskTemplateFetchParamSequence*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TASKTEMPLATEFETCHPARAMSEQUENCE_METHOD_3_D1BBE1A9E3107DB2_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_90FBEEF2E3BFD039(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::TaskTemplateFetchParamSequence* a2)

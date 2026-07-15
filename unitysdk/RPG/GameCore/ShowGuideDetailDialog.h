@@ -6,13 +6,13 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class DynamicString; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_SHOWGUIDEDETAILDIALOG_METHOD_3_4179D6A6D1DDFA52_OFFSET UNITYSDK_OFFSET(0x19C7C070)
-#define RPG_GAMECORE_SHOWGUIDEDETAILDIALOG_METHOD_3_7D09F989BB65A33C_OFFSET UNITYSDK_OFFSET(0x19C7C0F0)
-#define RPG_GAMECORE_SHOWGUIDEDETAILDIALOG__CTOR_OFFSET UNITYSDK_OFFSET(0x19C7C0C0)
+#define RPG_GAMECORE_SHOWGUIDEDETAILDIALOG_METHOD_3_587E59AF075FD745_OFFSET UNITYSDK_OFFSET(0x1BE40700)
+#define RPG_GAMECORE_SHOWGUIDEDETAILDIALOG_METHOD_3_7D09F989BB65A33C_OFFSET UNITYSDK_OFFSET(0x1BE40740)
+#define RPG_GAMECORE_SHOWGUIDEDETAILDIALOG__CTOR_OFFSET UNITYSDK_OFFSET(0x1BE40730)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ShowGuideDetailDialog_TypeDefinitionIndex = 23020;
+	inline static constexpr unsigned int ShowGuideDetailDialog_TypeDefinitionIndex = 23487;
 
 	class ShowGuideDetailDialog : public ::RPG::GameCore::TaskConfig
 	{
@@ -28,9 +28,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SHOWGUIDEDETAILDIALOG__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_4179D6A6D1DDFA52(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ShowGuideDetailDialog*& a2)
+		static ::System::Void Method_3_587E59AF075FD745(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ShowGuideDetailDialog*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ShowGuideDetailDialog*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SHOWGUIDEDETAILDIALOG_METHOD_3_4179D6A6D1DDFA52_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ShowGuideDetailDialog*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SHOWGUIDEDETAILDIALOG_METHOD_3_587E59AF075FD745_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_7D09F989BB65A33C(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ShowGuideDetailDialog* a2)

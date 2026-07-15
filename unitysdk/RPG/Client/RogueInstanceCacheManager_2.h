@@ -7,7 +7,7 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int RogueInstanceCacheManager_2_TypeDefinitionIndex = 63015;
+	inline static constexpr unsigned int RogueInstanceCacheManager_2_TypeDefinitionIndex = 64382;
 
 	template <typename TKey, typename TInstance>
 	class RogueInstanceCacheManager_2 : public ::System::Object

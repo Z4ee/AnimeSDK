@@ -6,13 +6,13 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class DynamicFloat; }
 namespace RPG::GameCore { class TargetEvaluator; }
 
-#define RPG_GAMECORE_PROPREQINTERACT_METHOD_3_F46FFC7A29FEC814_OFFSET UNITYSDK_OFFSET(0x19A954B0)
-#define RPG_GAMECORE_PROPREQINTERACT_METHOD_3_F6009D836D5C12D8_OFFSET UNITYSDK_OFFSET(0x19A95360)
-#define RPG_GAMECORE_PROPREQINTERACT__CTOR_OFFSET UNITYSDK_OFFSET(0x19A95420)
+#define RPG_GAMECORE_PROPREQINTERACT_METHOD_3_25E22B3538397437_OFFSET UNITYSDK_OFFSET(0x1BA27DF0)
+#define RPG_GAMECORE_PROPREQINTERACT_METHOD_3_F46FFC7A29FEC814_OFFSET UNITYSDK_OFFSET(0x1BA27E70)
+#define RPG_GAMECORE_PROPREQINTERACT__CTOR_OFFSET UNITYSDK_OFFSET(0x1BA27E40)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PropReqInteract_TypeDefinitionIndex = 21101;
+	inline static constexpr unsigned int PropReqInteract_TypeDefinitionIndex = 21516;
 
 	class PropReqInteract : public ::RPG::GameCore::TaskConfig
 	{
@@ -30,9 +30,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PROPREQINTERACT__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_F6009D836D5C12D8(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::PropReqInteract*& a2)
+		static ::System::Void Method_3_25E22B3538397437(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::PropReqInteract*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::PropReqInteract*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PROPREQINTERACT_METHOD_3_F6009D836D5C12D8_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::PropReqInteract*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PROPREQINTERACT_METHOD_3_25E22B3538397437_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_F46FFC7A29FEC814(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::PropReqInteract* a2)

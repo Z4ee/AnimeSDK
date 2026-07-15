@@ -1,0 +1,65 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+
+class Class_1_777D2B452DC9D1CF;
+
+#define CLASS_1_A59D20F391C51503_GET_USEPRESHOW_OFFSET UNITYSDK_OFFSET(0x179B5F10)
+#define CLASS_1_A59D20F391C51503_METHOD_1_124E7DAB85EAFECD_OFFSET UNITYSDK_OFFSET(0x179B5DC0)
+#define CLASS_1_A59D20F391C51503_METHOD_1_70437D85C11C5222_OFFSET UNITYSDK_OFFSET(0x179B5C50)
+#define CLASS_1_A59D20F391C51503_METHOD_1_D64FD9A228A1C4E0_OFFSET UNITYSDK_OFFSET(0x179B5EB0)
+#define CLASS_1_A59D20F391C51503_METHOD_1_F026F9F94BAA5E1F_OFFSET UNITYSDK_OFFSET(0x179B5CF0)
+#define CLASS_1_A59D20F391C51503_METHOD_1_FF7B2911BBACA4A9_OFFSET UNITYSDK_OFFSET(0x179B5D60)
+#define CLASS_1_A59D20F391C51503_SET_USEPRESHOW_OFFSET UNITYSDK_OFFSET(0x179B5F20)
+#define CLASS_1_A59D20F391C51503__CTOR_OFFSET UNITYSDK_OFFSET(0x179B5F30)
+
+inline static constexpr unsigned int Class_1_A59D20F391C51503_TypeDefinitionIndex = 68238;
+
+class Class_1_A59D20F391C51503 : public ::System::Object
+{
+public:
+	::System::Single Field_1_0; // 0x10
+	::System::Boolean _UsePreShow_k__BackingField; // 0x14
+	::System::Single Field_1_2; // 0x18
+	::System::Single Field_1_3; // 0x1C
+
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_A59D20F391C51503__CTOR_OFFSET))(this);
+	}
+
+	::System::Void Method_1_70437D85C11C5222(::Class_1_777D2B452DC9D1CF* a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::Class_1_777D2B452DC9D1CF*))((::PBYTE)hIl2Cpp + CLASS_1_A59D20F391C51503_METHOD_1_70437D85C11C5222_OFFSET))(this, a1);
+	}
+
+	::System::Int32 Method_1_F026F9F94BAA5E1F()
+	{
+		return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_A59D20F391C51503_METHOD_1_F026F9F94BAA5E1F_OFFSET))(this);
+	}
+
+	::System::Single Method_1_FF7B2911BBACA4A9()
+	{
+		return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_A59D20F391C51503_METHOD_1_FF7B2911BBACA4A9_OFFSET))(this);
+	}
+
+	::System::Single Method_1_124E7DAB85EAFECD()
+	{
+		return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_A59D20F391C51503_METHOD_1_124E7DAB85EAFECD_OFFSET))(this);
+	}
+
+	::System::Single Method_1_D64FD9A228A1C4E0()
+	{
+		return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_A59D20F391C51503_METHOD_1_D64FD9A228A1C4E0_OFFSET))(this);
+	}
+
+	::System::Boolean get_UsePreShow()
+	{
+		return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_A59D20F391C51503_GET_USEPRESHOW_OFFSET))(this);
+	}
+
+	::System::Void set_UsePreShow(::System::Boolean a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + CLASS_1_A59D20F391C51503_SET_USEPRESHOW_OFFSET))(this, a1);
+	}
+};

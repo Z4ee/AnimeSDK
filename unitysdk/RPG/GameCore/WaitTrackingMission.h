@@ -4,13 +4,13 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_WAITTRACKINGMISSION_METHOD_3_435F991BB1F935F6_OFFSET UNITYSDK_OFFSET(0x19E63300)
-#define RPG_GAMECORE_WAITTRACKINGMISSION_METHOD_3_475152BF63673DAF_OFFSET UNITYSDK_OFFSET(0x19E63380)
-#define RPG_GAMECORE_WAITTRACKINGMISSION__CTOR_OFFSET UNITYSDK_OFFSET(0x19E63350)
+#define RPG_GAMECORE_WAITTRACKINGMISSION_METHOD_3_31B934E9AAC763A2_OFFSET UNITYSDK_OFFSET(0x1D1BE3B0)
+#define RPG_GAMECORE_WAITTRACKINGMISSION_METHOD_3_475152BF63673DAF_OFFSET UNITYSDK_OFFSET(0x1D1BE3F0)
+#define RPG_GAMECORE_WAITTRACKINGMISSION__CTOR_OFFSET UNITYSDK_OFFSET(0x1D1BE3E0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int WaitTrackingMission_TypeDefinitionIndex = 19990;
+	inline static constexpr unsigned int WaitTrackingMission_TypeDefinitionIndex = 20362;
 
 	class WaitTrackingMission : public ::RPG::GameCore::TaskConfig
 	{
@@ -24,9 +24,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_WAITTRACKINGMISSION__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_435F991BB1F935F6(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::WaitTrackingMission*& a2)
+		static ::System::Void Method_3_31B934E9AAC763A2(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::WaitTrackingMission*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::WaitTrackingMission*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_WAITTRACKINGMISSION_METHOD_3_435F991BB1F935F6_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::WaitTrackingMission*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_WAITTRACKINGMISSION_METHOD_3_31B934E9AAC763A2_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_475152BF63673DAF(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::WaitTrackingMission* a2)

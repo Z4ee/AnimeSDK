@@ -2,15 +2,14 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/Client/PlayerChallengeRecordData.h"
 
-class Class_1_4E16FFD583F3B1DC_1;
+class Class_1_0F76144571501212;
 
-#define RPG_CLIENT_PLAYERBOSSRECORDDATA_SYNC_OFFSET UNITYSDK_OFFSET(0xC495A90)
-#define RPG_CLIENT_PLAYERBOSSRECORDDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xC495980)
-#define RPG_CLIENT_PLAYERBOSSRECORDDATA___IFIXBASEPROXY_SYNC_OFFSET UNITYSDK_OFFSET(0xC4964F0)
+#define RPG_CLIENT_PLAYERBOSSRECORDDATA_SYNC_OFFSET UNITYSDK_OFFSET(0x1A1EB000)
+#define RPG_CLIENT_PLAYERBOSSRECORDDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1A1EAFE0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int PlayerBossRecordData_TypeDefinitionIndex = 60069;
+	inline static constexpr unsigned int PlayerBossRecordData_TypeDefinitionIndex = 61354;
 
 	class PlayerBossRecordData : public ::RPG::Client::PlayerChallengeRecordData
 	{
@@ -20,14 +19,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PLAYERBOSSRECORDDATA__CTOR_OFFSET))(this);
 		}
 
-		::System::Void Sync(::Class_1_4E16FFD583F3B1DC_1* a1)
+		::System::Void Sync(::Class_1_0F76144571501212* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Class_1_4E16FFD583F3B1DC_1*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PLAYERBOSSRECORDDATA_SYNC_OFFSET))(this, a1);
-		}
-
-		::System::Void __iFixBaseProxy_Sync(::Class_1_4E16FFD583F3B1DC_1* a1)
-		{
-			return ((::System::Void(*)(::PVOID, ::Class_1_4E16FFD583F3B1DC_1*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PLAYERBOSSRECORDDATA___IFIXBASEPROXY_SYNC_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::Class_1_0F76144571501212*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PLAYERBOSSRECORDDATA_SYNC_OFFSET))(this, a1);
 		}
 	};
 }

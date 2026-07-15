@@ -3,31 +3,31 @@
 #include "unitysdk/RPG/GameCore/AdventureAnimStateType.h"
 #include "unitysdk/System/Object.h"
 
-class Class_1_A89E800BD673F128;
+class Class_1_E7811A222424F15E;
 namespace RPG::GameCore { class AdventureCharacterController; }
 namespace RPG::GameCore { class GameEntity; }
 
-#define CLASS_1_5184AAF9063C3197_1_DISPOSE_OFFSET UNITYSDK_OFFSET(0xAF40C50)
-#define CLASS_1_5184AAF9063C3197_1_METHOD_1_2685B6183E614529_OFFSET UNITYSDK_OFFSET(0xAF40E80)
-#define CLASS_1_5184AAF9063C3197_1_METHOD_1_365B3CE7026B1EB7_OFFSET UNITYSDK_OFFSET(0xAF40CA0)
-#define CLASS_1_5184AAF9063C3197_1_METHOD_1_735EE20B25F86BF4_OFFSET UNITYSDK_OFFSET(0xAF40E30)
-#define CLASS_1_5184AAF9063C3197_1_METHOD_1_7DD84EAFF333A1E4_OFFSET UNITYSDK_OFFSET(0xAF40CF0)
-#define CLASS_1_5184AAF9063C3197_1_METHOD_1_D8ECBC347869E733_OFFSET UNITYSDK_OFFSET(0xAF40D40)
-#define CLASS_1_5184AAF9063C3197_1_TICK_OFFSET UNITYSDK_OFFSET(0xAF40D90)
-#define CLASS_1_5184AAF9063C3197_1__CTOR_OFFSET UNITYSDK_OFFSET(0xAF40C40)
+#define CLASS_1_5184AAF9063C3197_1_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1646BF50)
+#define CLASS_1_5184AAF9063C3197_1_METHOD_1_2685B6183E614529_OFFSET UNITYSDK_OFFSET(0x1646C190)
+#define CLASS_1_5184AAF9063C3197_1_METHOD_1_365B3CE7026B1EB7_OFFSET UNITYSDK_OFFSET(0x1646BFA0)
+#define CLASS_1_5184AAF9063C3197_1_METHOD_1_460F8AE6EF9687FD_OFFSET UNITYSDK_OFFSET(0x1646C140)
+#define CLASS_1_5184AAF9063C3197_1_METHOD_1_7DD84EAFF333A1E4_OFFSET UNITYSDK_OFFSET(0x1646BFF0)
+#define CLASS_1_5184AAF9063C3197_1_METHOD_1_D8ECBC347869E733_OFFSET UNITYSDK_OFFSET(0x1646C040)
+#define CLASS_1_5184AAF9063C3197_1_TICK_OFFSET UNITYSDK_OFFSET(0x1646C090)
+#define CLASS_1_5184AAF9063C3197_1__CTOR_OFFSET UNITYSDK_OFFSET(0x1646BF40)
 
-inline static constexpr unsigned int Class_1_5184AAF9063C3197_1_TypeDefinitionIndex = 52173;
+inline static constexpr unsigned int Class_1_5184AAF9063C3197_1_TypeDefinitionIndex = 53325;
 
 class Class_1_5184AAF9063C3197_1 : public ::System::Object
 {
 public:
-	::RPG::GameCore::GameEntity* Field_1_0; // 0x10
-	::Class_1_A89E800BD673F128* Field_1_1; // 0x18
-	::RPG::GameCore::AdventureCharacterController* Field_1_2; // 0x20
+	::RPG::GameCore::AdventureCharacterController* Field_1_0; // 0x10
+	::Class_1_E7811A222424F15E* Field_1_1; // 0x18
+	::RPG::GameCore::GameEntity* Field_1_2; // 0x20
 
-	::System::Void _ctor(::RPG::GameCore::GameEntity* a1, ::RPG::GameCore::AdventureCharacterController* a2, ::Class_1_A89E800BD673F128* a3)
+	::System::Void _ctor(::RPG::GameCore::GameEntity* a1, ::RPG::GameCore::AdventureCharacterController* a2, ::Class_1_E7811A222424F15E* a3)
 	{
-		return ((::System::Void(*)(::PVOID, ::RPG::GameCore::GameEntity*, ::RPG::GameCore::AdventureCharacterController*, ::Class_1_A89E800BD673F128*))((::PBYTE)hIl2Cpp + CLASS_1_5184AAF9063C3197_1__CTOR_OFFSET))(this, a1, a2, a3);
+		return ((::System::Void(*)(::PVOID, ::RPG::GameCore::GameEntity*, ::RPG::GameCore::AdventureCharacterController*, ::Class_1_E7811A222424F15E*))((::PBYTE)hIl2Cpp + CLASS_1_5184AAF9063C3197_1__CTOR_OFFSET))(this, a1, a2, a3);
 	}
 
 	::System::Void Dispose()
@@ -55,9 +55,9 @@ public:
 		return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + CLASS_1_5184AAF9063C3197_1_TICK_OFFSET))(this, a1);
 	}
 
-	::System::Void Method_1_735EE20B25F86BF4()
+	::System::Void Method_1_460F8AE6EF9687FD()
 	{
-		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_5184AAF9063C3197_1_METHOD_1_735EE20B25F86BF4_OFFSET))(this);
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_5184AAF9063C3197_1_METHOD_1_460F8AE6EF9687FD_OFFSET))(this);
 	}
 
 	::System::Void Method_1_2685B6183E614529(::System::Single a1)

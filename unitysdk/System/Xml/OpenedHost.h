@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define SYSTEM_XML_OPENEDHOST__CTOR_OFFSET UNITYSDK_OFFSET(0x1AE260C0)
+#define SYSTEM_XML_OPENEDHOST__CTOR_OFFSET UNITYSDK_OFFSET(0x19F908F0)
 
 namespace System::Xml
 {
-	inline static constexpr unsigned int OpenedHost_TypeDefinitionIndex = 1936;
+	inline static constexpr unsigned int OpenedHost_TypeDefinitionIndex = 1940;
 
 	class OpenedHost : public ::System::Object
 	{

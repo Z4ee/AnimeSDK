@@ -5,19 +5,19 @@
 namespace MiHoYo::SDK { class AccountModel; }
 namespace MiHoYo::SDK::Win { class SecondRealNameGrantMail; }
 
-#define MIHOYO_SDK_WIN_SECONDREALNAMEGRANTMAIL___C__DISPLAYCLASS38_0__CTOR_OFFSET UNITYSDK_OFFSET(0x182C7250)
-#define MIHOYO_SDK_WIN_SECONDREALNAMEGRANTMAIL___C__DISPLAYCLASS38_0__SHOW_B__0_OFFSET UNITYSDK_OFFSET(0x182C7550)
+#define MIHOYO_SDK_WIN_SECONDREALNAMEGRANTMAIL___C__DISPLAYCLASS38_0__CTOR_OFFSET UNITYSDK_OFFSET(0x17188CE0)
+#define MIHOYO_SDK_WIN_SECONDREALNAMEGRANTMAIL___C__DISPLAYCLASS38_0__SHOW_B__0_OFFSET UNITYSDK_OFFSET(0x17188FE0)
 
 namespace MiHoYo::SDK::Win
 {
-	inline static constexpr unsigned int SecondRealNameGrantMail___c__DisplayClass38_0_TypeDefinitionIndex = 9173;
+	inline static constexpr unsigned int SecondRealNameGrantMail___c__DisplayClass38_0_TypeDefinitionIndex = 9185;
 
 	class SecondRealNameGrantMail___c__DisplayClass38_0 : public ::System::Object
 	{
 	public:
 		::MiHoYo::SDK::AccountModel* model; // 0x10
-		::System::Boolean isShowRedirect; // 0x18
-		::System::Boolean isShowOtherVerify; // 0x19
+		::System::Boolean isShowOtherVerify; // 0x18
+		::System::Boolean isShowRedirect; // 0x19
 
 		::System::Void _ctor()
 		{

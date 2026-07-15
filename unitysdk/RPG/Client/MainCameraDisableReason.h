@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MainCameraDisableReason_TypeDefinitionIndex = 65073;
+	inline static constexpr unsigned int MainCameraDisableReason_TypeDefinitionIndex = 66478;
 
 	enum class MainCameraDisableReason : ::System::Int32
 	{

@@ -6,13 +6,13 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class DynamicFloat; }
 namespace RPG::GameCore { class TargetEvaluator; }
 
-#define RPG_GAMECORE_ADVSETAISTOP_METHOD_3_7A56A9F13D08FDF4_OFFSET UNITYSDK_OFFSET(0x19435900)
-#define RPG_GAMECORE_ADVSETAISTOP_METHOD_3_BD2BB6D8721CBC17_OFFSET UNITYSDK_OFFSET(0x19435980)
-#define RPG_GAMECORE_ADVSETAISTOP__CTOR_OFFSET UNITYSDK_OFFSET(0x19435950)
+#define RPG_GAMECORE_ADVSETAISTOP_METHOD_3_6DF693B31B572046_OFFSET UNITYSDK_OFFSET(0x1BE2C310)
+#define RPG_GAMECORE_ADVSETAISTOP_METHOD_3_BD2BB6D8721CBC17_OFFSET UNITYSDK_OFFSET(0x1BE2C350)
+#define RPG_GAMECORE_ADVSETAISTOP__CTOR_OFFSET UNITYSDK_OFFSET(0x1BE2C340)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AdvSetAIStop_TypeDefinitionIndex = 20979;
+	inline static constexpr unsigned int AdvSetAIStop_TypeDefinitionIndex = 21394;
 
 	class AdvSetAIStop : public ::RPG::GameCore::TaskConfig
 	{
@@ -25,9 +25,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVSETAISTOP__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_7A56A9F13D08FDF4(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AdvSetAIStop*& a2)
+		static ::System::Void Method_3_6DF693B31B572046(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AdvSetAIStop*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::AdvSetAIStop*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVSETAISTOP_METHOD_3_7A56A9F13D08FDF4_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::AdvSetAIStop*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVSETAISTOP_METHOD_3_6DF693B31B572046_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_BD2BB6D8721CBC17(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AdvSetAIStop* a2)

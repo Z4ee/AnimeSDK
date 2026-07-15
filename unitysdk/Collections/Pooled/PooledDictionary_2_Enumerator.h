@@ -8,7 +8,7 @@ namespace System { class Object; }
 
 namespace Collections::Pooled
 {
-	inline static constexpr unsigned int PooledDictionary_2_Enumerator_TypeDefinitionIndex = 5080;
+	inline static constexpr unsigned int PooledDictionary_2_Enumerator_TypeDefinitionIndex = 5085;
 
 	template <typename TKey, typename TValue>
 	struct PooledDictionary_2_Enumerator

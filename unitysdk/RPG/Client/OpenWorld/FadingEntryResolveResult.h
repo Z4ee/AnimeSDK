@@ -3,7 +3,7 @@
 
 namespace RPG::Client::OpenWorld
 {
-	inline static constexpr unsigned int FadingEntryResolveResult_TypeDefinitionIndex = 69023;
+	inline static constexpr unsigned int FadingEntryResolveResult_TypeDefinitionIndex = 70541;
 
 	enum class FadingEntryResolveResult : ::System::Int32
 	{

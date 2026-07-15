@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define XLUA_LUAHOOKEVENT__CTOR_OFFSET UNITYSDK_OFFSET(0x12E977C0)
+#define XLUA_LUAHOOKEVENT__CTOR_OFFSET UNITYSDK_OFFSET(0x10BEB690)
 
 namespace XLua
 {
-	inline static constexpr unsigned int LuaHookEvent_TypeDefinitionIndex = 47032;
+	inline static constexpr unsigned int LuaHookEvent_TypeDefinitionIndex = 47998;
 
 	class LuaHookEvent : public ::System::Object
 	{

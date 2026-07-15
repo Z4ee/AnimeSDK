@@ -5,12 +5,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_RESMISSIONCONFIG_METHOD_2_2475826058D7E31C_OFFSET UNITYSDK_OFFSET(0x19ACD7D0)
-#define RPG_GAMECORE_RESMISSIONCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x19ACD920)
+#define RPG_GAMECORE_RESMISSIONCONFIG_METHOD_2_2475826058D7E31C_OFFSET UNITYSDK_OFFSET(0x1D01A490)
+#define RPG_GAMECORE_RESMISSIONCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1D01A5E0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ResMissionConfig_TypeDefinitionIndex = 18075;
+	inline static constexpr unsigned int ResMissionConfig_TypeDefinitionIndex = 18279;
 
 	class ResMissionConfig : public ::RPG::GameCore::JsonConfig
 	{

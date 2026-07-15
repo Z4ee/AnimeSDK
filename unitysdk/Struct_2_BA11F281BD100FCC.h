@@ -7,9 +7,9 @@ class Class_1_5469D397DAE62876;
 namespace RPG::GameCore { class GameEntity; }
 namespace System { template <typename T> class Predicate_1; }
 
-#define STRUCT_2_BA11F281BD100FCC_METHOD_2_A91C551AF9039A82_OFFSET UNITYSDK_OFFSET(0xA46CDA0)
+#define STRUCT_2_BA11F281BD100FCC_METHOD_2_A91C551AF9039A82_OFFSET UNITYSDK_OFFSET(0x17853360)
 
-inline static constexpr unsigned int Struct_2_BA11F281BD100FCC_TypeDefinitionIndex = 52479;
+inline static constexpr unsigned int Struct_2_BA11F281BD100FCC_TypeDefinitionIndex = 53683;
 
 struct alignas(8) Struct_2_BA11F281BD100FCC
 {

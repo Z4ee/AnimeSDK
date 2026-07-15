@@ -3,12 +3,12 @@
 #include "unitysdk/System/Attribute.h"
 #include "unitysdk/XLua/GenFlag.h"
 
-#define XLUA_LUACALLCSHARPATTRIBUTE_GET_FLAG_OFFSET UNITYSDK_OFFSET(0x18932D10)
-#define XLUA_LUACALLCSHARPATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x18932D20)
+#define XLUA_LUACALLCSHARPATTRIBUTE_GET_FLAG_OFFSET UNITYSDK_OFFSET(0x1D305D00)
+#define XLUA_LUACALLCSHARPATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1D305D10)
 
 namespace XLua
 {
-	inline static constexpr unsigned int LuaCallCSharpAttribute_TypeDefinitionIndex = 5598;
+	inline static constexpr unsigned int LuaCallCSharpAttribute_TypeDefinitionIndex = 5603;
 
 	class LuaCallCSharpAttribute : public ::System::Attribute
 	{

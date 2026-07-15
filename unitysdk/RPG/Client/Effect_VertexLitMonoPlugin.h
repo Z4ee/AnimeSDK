@@ -9,14 +9,13 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class Light; }
 namespace UnityEngine { class ParticleSystem; }
 
-#define RPG_CLIENT_EFFECT_VERTEXLITMONOPLUGIN_GETTICKLODTEMPLATENAME_OFFSET UNITYSDK_OFFSET(0xB897C50)
-#define RPG_CLIENT_EFFECT_VERTEXLITMONOPLUGIN_GET_BEHAVIOR_OFFSET UNITYSDK_OFFSET(0xB897BC0)
-#define RPG_CLIENT_EFFECT_VERTEXLITMONOPLUGIN__CTOR_OFFSET UNITYSDK_OFFSET(0xB897CA0)
-#define RPG_CLIENT_EFFECT_VERTEXLITMONOPLUGIN___IFIXBASEPROXY_GETTICKLODTEMPLATENAME_OFFSET UNITYSDK_OFFSET(0xB897DE0)
+#define RPG_CLIENT_EFFECT_VERTEXLITMONOPLUGIN_GETTICKLODTEMPLATENAME_OFFSET UNITYSDK_OFFSET(0x15137030)
+#define RPG_CLIENT_EFFECT_VERTEXLITMONOPLUGIN_GET_BEHAVIOR_OFFSET UNITYSDK_OFFSET(0x15136FA0)
+#define RPG_CLIENT_EFFECT_VERTEXLITMONOPLUGIN__CTOR_OFFSET UNITYSDK_OFFSET(0x15137080)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int Effect_VertexLitMonoPlugin_TypeDefinitionIndex = 66003;
+	inline static constexpr unsigned int Effect_VertexLitMonoPlugin_TypeDefinitionIndex = 67428;
 
 	class Effect_VertexLitMonoPlugin : public ::RPG::Client::TAMonoPlugin_1<::RPG::Client::Effect_VertexLitBehavior*>
 	{
@@ -40,11 +39,6 @@ namespace RPG::Client
 		::System::String* GetTickLodTemplateName()
 		{
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_EFFECT_VERTEXLITMONOPLUGIN_GETTICKLODTEMPLATENAME_OFFSET))(this);
-		}
-
-		::System::String* __iFixBaseProxy_GetTickLodTemplateName()
-		{
-			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_EFFECT_VERTEXLITMONOPLUGIN___IFIXBASEPROXY_GETTICKLODTEMPLATENAME_OFFSET))(this);
 		}
 	};
 }

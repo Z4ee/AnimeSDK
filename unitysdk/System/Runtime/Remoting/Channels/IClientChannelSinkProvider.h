@@ -3,7 +3,7 @@
 
 namespace System::Runtime::Remoting::Channels
 {
-	inline static constexpr unsigned int IClientChannelSinkProvider_TypeDefinitionIndex = 1264;
+	inline static constexpr unsigned int IClientChannelSinkProvider_TypeDefinitionIndex = 1266;
 
 	class IClientChannelSinkProvider
 	{

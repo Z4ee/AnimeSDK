@@ -4,12 +4,12 @@
 
 namespace System { class String; }
 
-#define SYSTEM_TIMERS_TIMERSDESCRIPTIONATTRIBUTE_GET_DESCRIPTION_OFFSET UNITYSDK_OFFSET(0x1B000440)
-#define SYSTEM_TIMERS_TIMERSDESCRIPTIONATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1B0003E0)
+#define SYSTEM_TIMERS_TIMERSDESCRIPTIONATTRIBUTE_GET_DESCRIPTION_OFFSET UNITYSDK_OFFSET(0x167EF6D0)
+#define SYSTEM_TIMERS_TIMERSDESCRIPTIONATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x167EF670)
 
 namespace System::Timers
 {
-	inline static constexpr unsigned int TimersDescriptionAttribute_TypeDefinitionIndex = 2484;
+	inline static constexpr unsigned int TimersDescriptionAttribute_TypeDefinitionIndex = 2488;
 
 	class TimersDescriptionAttribute : public ::System::ComponentModel::DescriptionAttribute
 	{

@@ -5,12 +5,12 @@
 namespace System { class String; }
 namespace System { template <typename T> class Action_1; }
 
-#define MIHOYO_SDK_CONSOLE_CN_LOGINMANAGERPS___C__DISPLAYCLASS3_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1821C8B0)
-#define MIHOYO_SDK_CONSOLE_CN_LOGINMANAGERPS___C__DISPLAYCLASS3_0__GENERATEACCESSTOKEN_B__0_OFFSET UNITYSDK_OFFSET(0x1821C8C0)
+#define MIHOYO_SDK_CONSOLE_CN_LOGINMANAGERPS___C__DISPLAYCLASS3_0__CTOR_OFFSET UNITYSDK_OFFSET(0x163AA5D0)
+#define MIHOYO_SDK_CONSOLE_CN_LOGINMANAGERPS___C__DISPLAYCLASS3_0__GENERATEACCESSTOKEN_B__0_OFFSET UNITYSDK_OFFSET(0x163AE1B0)
 
 namespace MiHoYo::SDK::Console::CN
 {
-	inline static constexpr unsigned int LoginManagerPS___c__DisplayClass3_0_TypeDefinitionIndex = 8774;
+	inline static constexpr unsigned int LoginManagerPS___c__DisplayClass3_0_TypeDefinitionIndex = 8786;
 
 	class LoginManagerPS___c__DisplayClass3_0 : public ::System::Object
 	{

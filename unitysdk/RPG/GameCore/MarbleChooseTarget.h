@@ -5,13 +5,13 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_MARBLECHOOSETARGET_METHOD_3_306D02C3043328B7_OFFSET UNITYSDK_OFFSET(0x198CDD30)
-#define RPG_GAMECORE_MARBLECHOOSETARGET_METHOD_3_813B1BA3435620DC_OFFSET UNITYSDK_OFFSET(0x198CDC50)
-#define RPG_GAMECORE_MARBLECHOOSETARGET__CTOR_OFFSET UNITYSDK_OFFSET(0x198CDCE0)
+#define RPG_GAMECORE_MARBLECHOOSETARGET_METHOD_3_2190DA078CB3F177_OFFSET UNITYSDK_OFFSET(0x1BD16E60)
+#define RPG_GAMECORE_MARBLECHOOSETARGET_METHOD_3_306D02C3043328B7_OFFSET UNITYSDK_OFFSET(0x1BD16EC0)
+#define RPG_GAMECORE_MARBLECHOOSETARGET__CTOR_OFFSET UNITYSDK_OFFSET(0x1BD16EB0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MarbleChooseTarget_TypeDefinitionIndex = 15993;
+	inline static constexpr unsigned int MarbleChooseTarget_TypeDefinitionIndex = 16177;
 
 	class MarbleChooseTarget : public ::RPG::GameCore::MarbleTaskConfig
 	{
@@ -23,9 +23,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MARBLECHOOSETARGET__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_813B1BA3435620DC(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::MarbleChooseTarget*& a2)
+		static ::System::Void Method_3_2190DA078CB3F177(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::MarbleChooseTarget*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::MarbleChooseTarget*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MARBLECHOOSETARGET_METHOD_3_813B1BA3435620DC_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::MarbleChooseTarget*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MARBLECHOOSETARGET_METHOD_3_2190DA078CB3F177_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_306D02C3043328B7(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::MarbleChooseTarget* a2)

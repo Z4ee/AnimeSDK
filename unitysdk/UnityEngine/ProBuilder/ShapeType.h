@@ -3,7 +3,7 @@
 
 namespace UnityEngine::ProBuilder
 {
-	inline static constexpr unsigned int ShapeType_TypeDefinitionIndex = 40813;
+	inline static constexpr unsigned int ShapeType_TypeDefinitionIndex = 41628;
 
 	enum class ShapeType : ::System::Int32
 	{

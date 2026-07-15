@@ -5,35 +5,35 @@
 namespace Spine { class AtlasPage; }
 namespace System { class String; }
 
-#define SPINE_ATLASREGION_CLONE_OFFSET UNITYSDK_OFFSET(0x1AC50F10)
-#define SPINE_ATLASREGION_GET_ORIGINALHEIGHT_OFFSET UNITYSDK_OFFSET(0x1AC50F00)
-#define SPINE_ATLASREGION_GET_ORIGINALWIDTH_OFFSET UNITYSDK_OFFSET(0x1AC50EF0)
-#define SPINE_ATLASREGION_GET_PACKEDHEIGHT_OFFSET UNITYSDK_OFFSET(0x1AC50ED0)
-#define SPINE_ATLASREGION_GET_PACKEDWIDTH_OFFSET UNITYSDK_OFFSET(0x1AC50EB0)
-#define SPINE_ATLASREGION_SET_PACKEDHEIGHT_OFFSET UNITYSDK_OFFSET(0x1AC50EE0)
-#define SPINE_ATLASREGION_SET_PACKEDWIDTH_OFFSET UNITYSDK_OFFSET(0x1AC50EC0)
-#define SPINE_ATLASREGION__CTOR_OFFSET UNITYSDK_OFFSET(0x1AC4EE70)
+#define SPINE_ATLASREGION_CLONE_OFFSET UNITYSDK_OFFSET(0x14777240)
+#define SPINE_ATLASREGION_GET_ORIGINALHEIGHT_OFFSET UNITYSDK_OFFSET(0x14777230)
+#define SPINE_ATLASREGION_GET_ORIGINALWIDTH_OFFSET UNITYSDK_OFFSET(0x14777220)
+#define SPINE_ATLASREGION_GET_PACKEDHEIGHT_OFFSET UNITYSDK_OFFSET(0x14777200)
+#define SPINE_ATLASREGION_GET_PACKEDWIDTH_OFFSET UNITYSDK_OFFSET(0x147771E0)
+#define SPINE_ATLASREGION_SET_PACKEDHEIGHT_OFFSET UNITYSDK_OFFSET(0x14777210)
+#define SPINE_ATLASREGION_SET_PACKEDWIDTH_OFFSET UNITYSDK_OFFSET(0x147771F0)
+#define SPINE_ATLASREGION__CTOR_OFFSET UNITYSDK_OFFSET(0x14775190)
 
 namespace Spine
 {
-	inline static constexpr unsigned int AtlasRegion_TypeDefinitionIndex = 36709;
+	inline static constexpr unsigned int AtlasRegion_TypeDefinitionIndex = 37491;
 
 	class AtlasRegion : public ::Spine::TextureRegion
 	{
 	public:
-		::Spine::AtlasPage* page; // 0x28
-		::System::String* name; // 0x30
-		::Il2CppArray<::System::String*>* names; // 0x38
-		::Il2CppArray<::Il2CppArray<::System::Int32>*>* values; // 0x40
-		::System::Boolean rotate; // 0x48
-		::System::Int32 degrees; // 0x4C
-		::System::Int32 y; // 0x50
-		::System::Int32 originalHeight; // 0x54
+		::System::String* name; // 0x28
+		::Spine::AtlasPage* page; // 0x30
+		::Il2CppArray<::Il2CppArray<::System::Int32>*>* values; // 0x38
+		::Il2CppArray<::System::String*>* names; // 0x40
+		::System::Int32 originalHeight; // 0x48
+		::System::Single offsetY; // 0x4C
+		::System::Int32 originalWidth; // 0x50
+		::System::Int32 y; // 0x54
 		::System::Int32 x; // 0x58
-		::System::Single offsetY; // 0x5C
-		::System::Single offsetX; // 0x60
-		::System::Int32 index; // 0x64
-		::System::Int32 originalWidth; // 0x68
+		::System::Int32 index; // 0x5C
+		::System::Boolean rotate; // 0x60
+		::System::Int32 degrees; // 0x64
+		::System::Single offsetX; // 0x68
 
 		::System::Void _ctor()
 		{

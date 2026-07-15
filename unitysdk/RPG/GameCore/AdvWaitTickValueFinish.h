@@ -6,13 +6,13 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class DynamicString; }
 namespace RPG::GameCore { class TargetEvaluator; }
 
-#define RPG_GAMECORE_ADVWAITTICKVALUEFINISH_METHOD_3_3D56ABD552E8F24C_OFFSET UNITYSDK_OFFSET(0x1943C4A0)
-#define RPG_GAMECORE_ADVWAITTICKVALUEFINISH_METHOD_3_A8C99AC848142328_OFFSET UNITYSDK_OFFSET(0x1943C570)
-#define RPG_GAMECORE_ADVWAITTICKVALUEFINISH__CTOR_OFFSET UNITYSDK_OFFSET(0x1943C520)
+#define RPG_GAMECORE_ADVWAITTICKVALUEFINISH_METHOD_3_A8C99AC848142328_OFFSET UNITYSDK_OFFSET(0x1AE4A260)
+#define RPG_GAMECORE_ADVWAITTICKVALUEFINISH_METHOD_3_E8289C2DA782D115_OFFSET UNITYSDK_OFFSET(0x1AE4A1C0)
+#define RPG_GAMECORE_ADVWAITTICKVALUEFINISH__CTOR_OFFSET UNITYSDK_OFFSET(0x1AE4A220)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AdvWaitTickValueFinish_TypeDefinitionIndex = 19876;
+	inline static constexpr unsigned int AdvWaitTickValueFinish_TypeDefinitionIndex = 20240;
 
 	class AdvWaitTickValueFinish : public ::RPG::GameCore::TaskConfig
 	{
@@ -26,9 +26,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVWAITTICKVALUEFINISH__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_3D56ABD552E8F24C(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AdvWaitTickValueFinish*& a2)
+		static ::System::Void Method_3_E8289C2DA782D115(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AdvWaitTickValueFinish*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::AdvWaitTickValueFinish*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVWAITTICKVALUEFINISH_METHOD_3_3D56ABD552E8F24C_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::AdvWaitTickValueFinish*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVWAITTICKVALUEFINISH_METHOD_3_E8289C2DA782D115_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_A8C99AC848142328(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AdvWaitTickValueFinish* a2)

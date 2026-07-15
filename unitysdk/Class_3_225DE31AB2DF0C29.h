@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class TaskContext; }
 namespace RPG::GameCore { class ToggleSkillPreShow; }
 
-#define CLASS_3_225DE31AB2DF0C29_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x14530320)
-#define CLASS_3_225DE31AB2DF0C29__CTOR_OFFSET UNITYSDK_OFFSET(0x145302F0)
+#define CLASS_3_225DE31AB2DF0C29_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x15FA11F0)
+#define CLASS_3_225DE31AB2DF0C29__CTOR_OFFSET UNITYSDK_OFFSET(0x15FA11C0)
 
-inline static constexpr unsigned int Class_3_225DE31AB2DF0C29_TypeDefinitionIndex = 52029;
+inline static constexpr unsigned int Class_3_225DE31AB2DF0C29_TypeDefinitionIndex = 53185;
 
 class Class_3_225DE31AB2DF0C29 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::ToggleSkillPreShow*>
 {

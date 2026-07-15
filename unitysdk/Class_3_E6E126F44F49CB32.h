@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class EnableSpecificModifierSpecialMark; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_E6E126F44F49CB32_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x134DC3B0)
-#define CLASS_3_E6E126F44F49CB32__CTOR_OFFSET UNITYSDK_OFFSET(0x134DC380)
+#define CLASS_3_E6E126F44F49CB32_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x167542E0)
+#define CLASS_3_E6E126F44F49CB32__CTOR_OFFSET UNITYSDK_OFFSET(0x167542B0)
 
-inline static constexpr unsigned int Class_3_E6E126F44F49CB32_TypeDefinitionIndex = 44889;
+inline static constexpr unsigned int Class_3_E6E126F44F49CB32_TypeDefinitionIndex = 45807;
 
 class Class_3_E6E126F44F49CB32 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::EnableSpecificModifierSpecialMark*>
 {

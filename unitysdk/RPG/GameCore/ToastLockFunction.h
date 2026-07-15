@@ -4,13 +4,13 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_TOASTLOCKFUNCTION_METHOD_3_08F425259BC92574_OFFSET UNITYSDK_OFFSET(0x19DE9090)
-#define RPG_GAMECORE_TOASTLOCKFUNCTION_METHOD_3_2EE9E16E346192F5_OFFSET UNITYSDK_OFFSET(0x19DE9010)
-#define RPG_GAMECORE_TOASTLOCKFUNCTION__CTOR_OFFSET UNITYSDK_OFFSET(0x19DE9060)
+#define RPG_GAMECORE_TOASTLOCKFUNCTION_METHOD_3_08F425259BC92574_OFFSET UNITYSDK_OFFSET(0x1C1557A0)
+#define RPG_GAMECORE_TOASTLOCKFUNCTION_METHOD_3_B7824192EC7223A7_OFFSET UNITYSDK_OFFSET(0x1C155760)
+#define RPG_GAMECORE_TOASTLOCKFUNCTION__CTOR_OFFSET UNITYSDK_OFFSET(0x1C155790)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ToastLockFunction_TypeDefinitionIndex = 19167;
+	inline static constexpr unsigned int ToastLockFunction_TypeDefinitionIndex = 19523;
 
 	class ToastLockFunction : public ::RPG::GameCore::TaskConfig
 	{
@@ -22,9 +22,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TOASTLOCKFUNCTION__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_2EE9E16E346192F5(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ToastLockFunction*& a2)
+		static ::System::Void Method_3_B7824192EC7223A7(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ToastLockFunction*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ToastLockFunction*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TOASTLOCKFUNCTION_METHOD_3_2EE9E16E346192F5_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ToastLockFunction*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TOASTLOCKFUNCTION_METHOD_3_B7824192EC7223A7_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_08F425259BC92574(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ToastLockFunction* a2)

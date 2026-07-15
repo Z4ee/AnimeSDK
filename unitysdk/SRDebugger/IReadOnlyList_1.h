@@ -3,7 +3,7 @@
 
 namespace SRDebugger
 {
-	inline static constexpr unsigned int IReadOnlyList_1_TypeDefinitionIndex = 35617;
+	inline static constexpr unsigned int IReadOnlyList_1_TypeDefinitionIndex = 36399;
 
 	template <typename T>
 	class IReadOnlyList_1

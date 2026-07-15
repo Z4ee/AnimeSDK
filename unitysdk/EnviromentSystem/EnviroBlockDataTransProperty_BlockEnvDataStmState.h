@@ -3,7 +3,7 @@
 
 namespace EnviromentSystem
 {
-	inline static constexpr unsigned int EnviroBlockDataTransProperty_BlockEnvDataStmState_TypeDefinitionIndex = 46772;
+	inline static constexpr unsigned int EnviroBlockDataTransProperty_BlockEnvDataStmState_TypeDefinitionIndex = 47737;
 
 	enum class EnviroBlockDataTransProperty_BlockEnvDataStmState : ::System::Int32
 	{

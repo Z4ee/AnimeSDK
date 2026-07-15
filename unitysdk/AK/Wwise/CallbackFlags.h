@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define AK_WWISE_CALLBACKFLAGS__CTOR_OFFSET UNITYSDK_OFFSET(0x1B40E850)
+#define AK_WWISE_CALLBACKFLAGS__CTOR_OFFSET UNITYSDK_OFFSET(0x1B948810)
 
 namespace AK::Wwise
 {
-	inline static constexpr unsigned int CallbackFlags_TypeDefinitionIndex = 41362;
+	inline static constexpr unsigned int CallbackFlags_TypeDefinitionIndex = 42177;
 
 	class CallbackFlags : public ::System::Object
 	{

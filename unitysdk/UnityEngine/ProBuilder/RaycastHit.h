@@ -3,17 +3,17 @@
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-#define UNITYENGINE_PROBUILDER_RAYCASTHIT__CTOR_OFFSET UNITYSDK_OFFSET(0x1B11DF80)
+#define UNITYENGINE_PROBUILDER_RAYCASTHIT__CTOR_OFFSET UNITYSDK_OFFSET(0x17773A30)
 
 namespace UnityEngine::ProBuilder
 {
-	inline static constexpr unsigned int RaycastHit_TypeDefinitionIndex = 40797;
+	inline static constexpr unsigned int RaycastHit_TypeDefinitionIndex = 41612;
 
 	class RaycastHit : public ::System::Object
 	{
 	public:
-		::UnityEngine::Vector3 normal; // 0x10
-		::UnityEngine::Vector3 point; // 0x1C
+		::UnityEngine::Vector3 point; // 0x10
+		::UnityEngine::Vector3 normal; // 0x1C
 		::System::Int32 face; // 0x28
 		::System::Single distance; // 0x2C
 

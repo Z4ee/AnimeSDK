@@ -4,11 +4,11 @@
 
 namespace RPG::Client { class ItemData; }
 
-#define RPG_CLIENT_ITEMHELPER_GETITEM_OFFSET UNITYSDK_OFFSET(0xBD60800)
+#define RPG_CLIENT_ITEMHELPER_GETITEM_OFFSET UNITYSDK_OFFSET(0x16C597F0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ItemHelper_TypeDefinitionIndex = 61449;
+	inline static constexpr unsigned int ItemHelper_TypeDefinitionIndex = 62796;
 
 	class ItemHelper : public ::System::Object
 	{

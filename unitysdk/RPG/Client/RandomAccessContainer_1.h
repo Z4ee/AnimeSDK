@@ -8,7 +8,7 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int RandomAccessContainer_1_TypeDefinitionIndex = 56061;
+	inline static constexpr unsigned int RandomAccessContainer_1_TypeDefinitionIndex = 57300;
 
 	template <typename T>
 	class RandomAccessContainer_1 : public ::System::Object

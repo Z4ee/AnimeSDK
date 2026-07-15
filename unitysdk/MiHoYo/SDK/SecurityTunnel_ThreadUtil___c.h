@@ -5,24 +5,24 @@
 namespace System { class String; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define MIHOYO_SDK_SECURITYTUNNEL_THREADUTIL___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xA216DD0)
-#define MIHOYO_SDK_SECURITYTUNNEL_THREADUTIL___C__CTOR_OFFSET UNITYSDK_OFFSET(0xA216E10)
-#define MIHOYO_SDK_SECURITYTUNNEL_THREADUTIL___C__RANDOMSTRING_B__8_0_OFFSET UNITYSDK_OFFSET(0xA216E20)
+#define MIHOYO_SDK_SECURITYTUNNEL_THREADUTIL___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1ABC1DE0)
+#define MIHOYO_SDK_SECURITYTUNNEL_THREADUTIL___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1ABC1E20)
+#define MIHOYO_SDK_SECURITYTUNNEL_THREADUTIL___C__RANDOMSTRING_B__8_0_OFFSET UNITYSDK_OFFSET(0x1ABC1E30)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int SecurityTunnel_ThreadUtil___c_TypeDefinitionIndex = 43824;
+	inline static constexpr unsigned int SecurityTunnel_ThreadUtil___c_TypeDefinitionIndex = 44686;
 
 	class SecurityTunnel_ThreadUtil___c : public ::System::Object
 	{
 	public:
-		static ::MiHoYo::SDK::SecurityTunnel_ThreadUtil___c** StaticGet___9()
-		{
-			return (::MiHoYo::SDK::SecurityTunnel_ThreadUtil___c**)Il2CppClass::FromTypeDefinitionIndex(SecurityTunnel_ThreadUtil___c_TypeDefinitionIndex)->GetStaticField(0x13C50);
-		}
 		static ::System::Func_2<::System::String*, ::System::Char>** StaticGet___9__8_0()
 		{
-			return (::System::Func_2<::System::String*, ::System::Char>**)Il2CppClass::FromTypeDefinitionIndex(SecurityTunnel_ThreadUtil___c_TypeDefinitionIndex)->GetStaticField(0x13C58);
+			return (::System::Func_2<::System::String*, ::System::Char>**)Il2CppClass::FromTypeDefinitionIndex(SecurityTunnel_ThreadUtil___c_TypeDefinitionIndex)->GetStaticField(0x1C650);
+		}
+		static ::MiHoYo::SDK::SecurityTunnel_ThreadUtil___c** StaticGet___9()
+		{
+			return (::MiHoYo::SDK::SecurityTunnel_ThreadUtil___c**)Il2CppClass::FromTypeDefinitionIndex(SecurityTunnel_ThreadUtil___c_TypeDefinitionIndex)->GetStaticField(0x1C658);
 		}
 
 		static ::System::Void _cctor()

@@ -7,7 +7,7 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int RootMotionBaker_Struct_2_A729D8BCFEE1CA4C_TypeDefinitionIndex = 64376;
+	inline static constexpr unsigned int RootMotionBaker_Struct_2_A729D8BCFEE1CA4C_TypeDefinitionIndex = 65747;
 
 	struct alignas(8) RootMotionBaker_Struct_2_A729D8BCFEE1CA4C
 	{

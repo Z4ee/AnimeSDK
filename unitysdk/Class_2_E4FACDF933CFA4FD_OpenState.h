@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int Class_2_E4FACDF933CFA4FD_OpenState_TypeDefinitionIndex = 49735;
+inline static constexpr unsigned int Class_2_E4FACDF933CFA4FD_OpenState_TypeDefinitionIndex = 50789;
 
 enum class Class_2_E4FACDF933CFA4FD_OpenState : ::System::Int32
 {

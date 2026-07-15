@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class ByTargetIsBetweenCameraAndAnother; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_49C198AEC5E742BC_EVALUATE_OFFSET UNITYSDK_OFFSET(0xFFBB7E0)
-#define CLASS_3_49C198AEC5E742BC__CTOR_OFFSET UNITYSDK_OFFSET(0xFFBB7B0)
+#define CLASS_3_49C198AEC5E742BC_EVALUATE_OFFSET UNITYSDK_OFFSET(0x14691F40)
+#define CLASS_3_49C198AEC5E742BC__CTOR_OFFSET UNITYSDK_OFFSET(0x14691F10)
 
-inline static constexpr unsigned int Class_3_49C198AEC5E742BC_TypeDefinitionIndex = 51151;
+inline static constexpr unsigned int Class_3_49C198AEC5E742BC_TypeDefinitionIndex = 52242;
 
 class Class_3_49C198AEC5E742BC : public ::RPG::GameCore::PredicateTaskBase_1<::RPG::GameCore::ByTargetIsBetweenCameraAndAnother*>
 {

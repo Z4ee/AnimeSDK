@@ -4,7 +4,7 @@
 
 namespace UnityEngine::Rendering
 {
-	inline static constexpr unsigned int TAASettings_TypeDefinitionIndex = 4819;
+	inline static constexpr unsigned int TAASettings_TypeDefinitionIndex = 4824;
 
 	struct alignas(4) TAASettings
 	{

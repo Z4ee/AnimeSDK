@@ -4,11 +4,11 @@
 
 namespace RPG::Client { class ComposeItemData; }
 
-#define RPG_CLIENT_COMPOSEITEMDATA_COMPOSEITEMDATACOUNT__CTOR_OFFSET UNITYSDK_OFFSET(0xB704B50)
+#define RPG_CLIENT_COMPOSEITEMDATA_COMPOSEITEMDATACOUNT__CTOR_OFFSET UNITYSDK_OFFSET(0x1801AA90)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ComposeItemData_ComposeItemDataCount_TypeDefinitionIndex = 61474;
+	inline static constexpr unsigned int ComposeItemData_ComposeItemDataCount_TypeDefinitionIndex = 62836;
 
 	class ComposeItemData_ComposeItemDataCount : public ::System::Object
 	{

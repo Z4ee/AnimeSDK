@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int EAdventureSpawnMode_TypeDefinitionIndex = 52179;
+	inline static constexpr unsigned int EAdventureSpawnMode_TypeDefinitionIndex = 53331;
 
 	enum class EAdventureSpawnMode : ::System::Int32
 	{

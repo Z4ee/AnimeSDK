@@ -4,13 +4,13 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_ACTIVEACTIONCOUNTDOWN_METHOD_3_4655BE6618E5D798_OFFSET UNITYSDK_OFFSET(0x193D05F0)
-#define RPG_GAMECORE_ACTIVEACTIONCOUNTDOWN_METHOD_3_9BA2FDFD5AB4FBF1_OFFSET UNITYSDK_OFFSET(0x193D0670)
-#define RPG_GAMECORE_ACTIVEACTIONCOUNTDOWN__CTOR_OFFSET UNITYSDK_OFFSET(0x193D0640)
+#define RPG_GAMECORE_ACTIVEACTIONCOUNTDOWN_METHOD_3_23F22D29F23C284A_OFFSET UNITYSDK_OFFSET(0x1AAD93B0)
+#define RPG_GAMECORE_ACTIVEACTIONCOUNTDOWN_METHOD_3_9BA2FDFD5AB4FBF1_OFFSET UNITYSDK_OFFSET(0x1AAD9400)
+#define RPG_GAMECORE_ACTIVEACTIONCOUNTDOWN__CTOR_OFFSET UNITYSDK_OFFSET(0x1AAD93F0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ActiveActionCountDown_TypeDefinitionIndex = 22396;
+	inline static constexpr unsigned int ActiveActionCountDown_TypeDefinitionIndex = 22838;
 
 	class ActiveActionCountDown : public ::RPG::GameCore::TaskConfig
 	{
@@ -22,9 +22,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ACTIVEACTIONCOUNTDOWN__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_4655BE6618E5D798(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ActiveActionCountDown*& a2)
+		static ::System::Void Method_3_23F22D29F23C284A(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ActiveActionCountDown*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ActiveActionCountDown*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ACTIVEACTIONCOUNTDOWN_METHOD_3_4655BE6618E5D798_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ActiveActionCountDown*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ACTIVEACTIONCOUNTDOWN_METHOD_3_23F22D29F23C284A_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_9BA2FDFD5AB4FBF1(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ActiveActionCountDown* a2)

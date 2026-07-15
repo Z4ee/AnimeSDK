@@ -6,12 +6,12 @@
 
 namespace UnityEngine { class Material; }
 
-#define UNITYENGINE_PROBUILDER_ENTITYBEHAVIOUR_SETMATERIAL_OFFSET UNITYSDK_OFFSET(0x1B060770)
-#define UNITYENGINE_PROBUILDER_ENTITYBEHAVIOUR__CTOR_OFFSET UNITYSDK_OFFSET(0x1B0609E0)
+#define UNITYENGINE_PROBUILDER_ENTITYBEHAVIOUR_SETMATERIAL_OFFSET UNITYSDK_OFFSET(0xC0465C0)
+#define UNITYENGINE_PROBUILDER_ENTITYBEHAVIOUR__CTOR_OFFSET UNITYSDK_OFFSET(0xC046830)
 
 namespace UnityEngine::ProBuilder
 {
-	inline static constexpr unsigned int EntityBehaviour_TypeDefinitionIndex = 40739;
+	inline static constexpr unsigned int EntityBehaviour_TypeDefinitionIndex = 41554;
 
 	class EntityBehaviour : public ::UnityEngine::MonoBehaviour
 	{

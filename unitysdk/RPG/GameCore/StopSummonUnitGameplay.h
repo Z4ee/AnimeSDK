@@ -5,13 +5,13 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_STOPSUMMONUNITGAMEPLAY_METHOD_3_328C5361A86B543E_OFFSET UNITYSDK_OFFSET(0x19CC1220)
-#define RPG_GAMECORE_STOPSUMMONUNITGAMEPLAY_METHOD_3_88EBF1531CEED2AF_OFFSET UNITYSDK_OFFSET(0x19CC12A0)
-#define RPG_GAMECORE_STOPSUMMONUNITGAMEPLAY__CTOR_OFFSET UNITYSDK_OFFSET(0x19CC1270)
+#define RPG_GAMECORE_STOPSUMMONUNITGAMEPLAY_METHOD_3_683DB45CB9DD3F94_OFFSET UNITYSDK_OFFSET(0x1B0C6800)
+#define RPG_GAMECORE_STOPSUMMONUNITGAMEPLAY_METHOD_3_88EBF1531CEED2AF_OFFSET UNITYSDK_OFFSET(0x1B0C6840)
+#define RPG_GAMECORE_STOPSUMMONUNITGAMEPLAY__CTOR_OFFSET UNITYSDK_OFFSET(0x1B0C6830)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int StopSummonUnitGameplay_TypeDefinitionIndex = 19994;
+	inline static constexpr unsigned int StopSummonUnitGameplay_TypeDefinitionIndex = 20366;
 
 	class StopSummonUnitGameplay : public ::RPG::GameCore::TaskConfig
 	{
@@ -23,9 +23,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_STOPSUMMONUNITGAMEPLAY__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_328C5361A86B543E(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::StopSummonUnitGameplay*& a2)
+		static ::System::Void Method_3_683DB45CB9DD3F94(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::StopSummonUnitGameplay*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::StopSummonUnitGameplay*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_STOPSUMMONUNITGAMEPLAY_METHOD_3_328C5361A86B543E_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::StopSummonUnitGameplay*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_STOPSUMMONUNITGAMEPLAY_METHOD_3_683DB45CB9DD3F94_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_88EBF1531CEED2AF(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::StopSummonUnitGameplay* a2)

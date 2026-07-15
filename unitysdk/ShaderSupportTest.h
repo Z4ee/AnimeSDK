@@ -4,9 +4,9 @@
 
 namespace UnityEngine { class Shader; }
 
-#define SHADERSUPPORTTEST__CTOR_OFFSET UNITYSDK_OFFSET(0x1ABE42C0)
+#define SHADERSUPPORTTEST__CTOR_OFFSET UNITYSDK_OFFSET(0x1BC746D0)
 
-inline static constexpr unsigned int ShaderSupportTest_TypeDefinitionIndex = 40522;
+inline static constexpr unsigned int ShaderSupportTest_TypeDefinitionIndex = 41337;
 
 class ShaderSupportTest : public ::UnityEngine::MonoBehaviour
 {

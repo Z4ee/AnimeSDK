@@ -6,24 +6,24 @@
 namespace Cinemachine { class CinemachineOrbitalTransposer; }
 namespace Cinemachine { class CinemachineOrbitalTransposer_UpdateHeadingDelegate; }
 
-#define CINEMACHINE_CINEMACHINEORBITALTRANSPOSER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x14652210)
-#define CINEMACHINE_CINEMACHINEORBITALTRANSPOSER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x14652240)
-#define CINEMACHINE_CINEMACHINEORBITALTRANSPOSER___C___CTOR_B__36_0_OFFSET UNITYSDK_OFFSET(0x14652250)
+#define CINEMACHINE_CINEMACHINEORBITALTRANSPOSER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x172939F0)
+#define CINEMACHINE_CINEMACHINEORBITALTRANSPOSER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x17293A20)
+#define CINEMACHINE_CINEMACHINEORBITALTRANSPOSER___C___CTOR_B__36_0_OFFSET UNITYSDK_OFFSET(0x17293A30)
 
 namespace Cinemachine
 {
-	inline static constexpr unsigned int CinemachineOrbitalTransposer___c_TypeDefinitionIndex = 36847;
+	inline static constexpr unsigned int CinemachineOrbitalTransposer___c_TypeDefinitionIndex = 37629;
 
 	class CinemachineOrbitalTransposer___c : public ::System::Object
 	{
 	public:
-		static ::Cinemachine::CinemachineOrbitalTransposer___c** StaticGet___9()
-		{
-			return (::Cinemachine::CinemachineOrbitalTransposer___c**)Il2CppClass::FromTypeDefinitionIndex(CinemachineOrbitalTransposer___c_TypeDefinitionIndex)->GetStaticField(0x5410);
-		}
 		static ::Cinemachine::CinemachineOrbitalTransposer_UpdateHeadingDelegate** StaticGet___9__36_0()
 		{
-			return (::Cinemachine::CinemachineOrbitalTransposer_UpdateHeadingDelegate**)Il2CppClass::FromTypeDefinitionIndex(CinemachineOrbitalTransposer___c_TypeDefinitionIndex)->GetStaticField(0x5418);
+			return (::Cinemachine::CinemachineOrbitalTransposer_UpdateHeadingDelegate**)Il2CppClass::FromTypeDefinitionIndex(CinemachineOrbitalTransposer___c_TypeDefinitionIndex)->GetStaticField(0x3420);
+		}
+		static ::Cinemachine::CinemachineOrbitalTransposer___c** StaticGet___9()
+		{
+			return (::Cinemachine::CinemachineOrbitalTransposer___c**)Il2CppClass::FromTypeDefinitionIndex(CinemachineOrbitalTransposer___c_TypeDefinitionIndex)->GetStaticField(0x3428);
 		}
 
 		static ::System::Void _cctor()

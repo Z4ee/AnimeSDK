@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/ValueType.h"
 
-#define UNITYENGINE_FORMATS_ALEMBIC_SDK_NATIVEMETHODS_AIPOINTS_AISCHEMAGETSAMPLE_OFFSET UNITYSDK_OFFSET(0x1B044810)
+#define UNITYENGINE_FORMATS_ALEMBIC_SDK_NATIVEMETHODS_AIPOINTS_AISCHEMAGETSAMPLE_OFFSET UNITYSDK_OFFSET(0x1B19B900)
 
 namespace UnityEngine::Formats::Alembic::Sdk
 {
-	inline static constexpr unsigned int NativeMethods_aiPoints_TypeDefinitionIndex = 41617;
+	inline static constexpr unsigned int NativeMethods_aiPoints_TypeDefinitionIndex = 42477;
 
 	struct alignas(1) NativeMethods_aiPoints
 	{

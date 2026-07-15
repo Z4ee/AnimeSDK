@@ -12,7 +12,7 @@ namespace System::Xml { class XmlNameTable; }
 
 namespace System::Xml
 {
-	inline static constexpr unsigned int IDtdParserAdapter_TypeDefinitionIndex = 1801;
+	inline static constexpr unsigned int IDtdParserAdapter_TypeDefinitionIndex = 1805;
 
 	class IDtdParserAdapter
 	{

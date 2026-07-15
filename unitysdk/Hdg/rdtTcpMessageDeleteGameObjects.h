@@ -6,12 +6,12 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace System::IO { class BinaryReader; }
 namespace System::IO { class BinaryWriter; }
 
-#define HDG_RDTTCPMESSAGEDELETEGAMEOBJECTS_READ_OFFSET UNITYSDK_OFFSET(0x26960)
-#define HDG_RDTTCPMESSAGEDELETEGAMEOBJECTS_WRITE_OFFSET UNITYSDK_OFFSET(0x26950)
+#define HDG_RDTTCPMESSAGEDELETEGAMEOBJECTS_READ_OFFSET UNITYSDK_OFFSET(0x38E50C0)
+#define HDG_RDTTCPMESSAGEDELETEGAMEOBJECTS_WRITE_OFFSET UNITYSDK_OFFSET(0x38E50B0)
 
 namespace Hdg
 {
-	inline static constexpr unsigned int rdtTcpMessageDeleteGameObjects_TypeDefinitionIndex = 44335;
+	inline static constexpr unsigned int rdtTcpMessageDeleteGameObjects_TypeDefinitionIndex = 45205;
 
 	struct alignas(8) rdtTcpMessageDeleteGameObjects
 	{

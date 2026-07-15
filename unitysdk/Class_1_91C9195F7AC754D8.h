@@ -1,0 +1,80 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+
+class Class_1_21DCD4640D389503_30;
+class Class_1_4AF9832A6EE2A67F_1;
+class Class_1_75361B3778CDC46C_1;
+class Class_1_9735092408AFCF2F;
+class Class_1_D17272E82AE804C2_780;
+namespace RPG::Client::PixAir { class PixAirGameProgressNodeViewModel; }
+namespace System::Collections::Generic { template <typename T> class List_1; }
+
+#define CLASS_1_91C9195F7AC754D8_METHOD_1_18B8B3C7AE5E95BB_OFFSET UNITYSDK_OFFSET(0x14A4D1E0)
+#define CLASS_1_91C9195F7AC754D8_METHOD_1_6DFEF4918C679AF0_OFFSET UNITYSDK_OFFSET(0x14A4D130)
+#define CLASS_1_91C9195F7AC754D8_METHOD_1_727AAB18B8F1925E_OFFSET UNITYSDK_OFFSET(0x14A4D000)
+#define CLASS_1_91C9195F7AC754D8_METHOD_1_76508527A9A4BE2F_OFFSET UNITYSDK_OFFSET(0x14A4D660)
+#define CLASS_1_91C9195F7AC754D8_METHOD_1_815E1C3A5EADAF61_OFFSET UNITYSDK_OFFSET(0x14A4CED0)
+#define CLASS_1_91C9195F7AC754D8_METHOD_1_933F0E4BCE605077_OFFSET UNITYSDK_OFFSET(0x14A4D0A0)
+#define CLASS_1_91C9195F7AC754D8_METHOD_1_F8B73ECE7F883AC1_OFFSET UNITYSDK_OFFSET(0x14A4D8D0)
+#define CLASS_1_91C9195F7AC754D8_START_OFFSET UNITYSDK_OFFSET(0x14A4CE10)
+#define CLASS_1_91C9195F7AC754D8_STOP_OFFSET UNITYSDK_OFFSET(0x14A4CE50)
+#define CLASS_1_91C9195F7AC754D8__CTOR_OFFSET UNITYSDK_OFFSET(0x14A4D910)
+
+inline static constexpr unsigned int Class_1_91C9195F7AC754D8_TypeDefinitionIndex = 75192;
+
+class Class_1_91C9195F7AC754D8 : public ::System::Object
+{
+public:
+	::Class_1_9735092408AFCF2F* Field_1_0; // 0x10
+
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_91C9195F7AC754D8__CTOR_OFFSET))(this);
+	}
+
+	::System::Void Start()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_91C9195F7AC754D8_START_OFFSET))(this);
+	}
+
+	::System::Void Stop()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_91C9195F7AC754D8_STOP_OFFSET))(this);
+	}
+
+	::System::Void Method_1_815E1C3A5EADAF61(::Class_1_21DCD4640D389503_30* a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::Class_1_21DCD4640D389503_30*))((::PBYTE)hIl2Cpp + CLASS_1_91C9195F7AC754D8_METHOD_1_815E1C3A5EADAF61_OFFSET))(this, a1);
+	}
+
+	::System::Void Method_1_727AAB18B8F1925E(::Class_1_75361B3778CDC46C_1* a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::Class_1_75361B3778CDC46C_1*))((::PBYTE)hIl2Cpp + CLASS_1_91C9195F7AC754D8_METHOD_1_727AAB18B8F1925E_OFFSET))(this, a1);
+	}
+
+	::System::Void Method_1_933F0E4BCE605077(::System::UInt32 a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + CLASS_1_91C9195F7AC754D8_METHOD_1_933F0E4BCE605077_OFFSET))(this, a1);
+	}
+
+	::System::Void Method_1_6DFEF4918C679AF0(::Class_1_D17272E82AE804C2_780* a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::Class_1_D17272E82AE804C2_780*))((::PBYTE)hIl2Cpp + CLASS_1_91C9195F7AC754D8_METHOD_1_6DFEF4918C679AF0_OFFSET))(this, a1);
+	}
+
+	::System::Void Method_1_18B8B3C7AE5E95BB(::Class_1_4AF9832A6EE2A67F_1* a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::Class_1_4AF9832A6EE2A67F_1*))((::PBYTE)hIl2Cpp + CLASS_1_91C9195F7AC754D8_METHOD_1_18B8B3C7AE5E95BB_OFFSET))(this, a1);
+	}
+
+	::System::Collections::Generic::List_1<::RPG::Client::PixAir::PixAirGameProgressNodeViewModel*>* Method_1_76508527A9A4BE2F(::System::UInt32 a1)
+	{
+		return ((::System::Collections::Generic::List_1<::RPG::Client::PixAir::PixAirGameProgressNodeViewModel*>*(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + CLASS_1_91C9195F7AC754D8_METHOD_1_76508527A9A4BE2F_OFFSET))(this, a1);
+	}
+
+	::Class_1_9735092408AFCF2F* Method_1_F8B73ECE7F883AC1()
+	{
+		return ((::Class_1_9735092408AFCF2F*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_91C9195F7AC754D8_METHOD_1_F8B73ECE7F883AC1_OFFSET))(this);
+	}
+};

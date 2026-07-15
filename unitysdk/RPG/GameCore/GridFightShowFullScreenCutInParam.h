@@ -5,11 +5,11 @@
 
 namespace System { class String; }
 
-#define RPG_GAMECORE_GRIDFIGHTSHOWFULLSCREENCUTINPARAM__CTOR_OFFSET UNITYSDK_OFFSET(0xCE2DE30)
+#define RPG_GAMECORE_GRIDFIGHTSHOWFULLSCREENCUTINPARAM__CTOR_OFFSET UNITYSDK_OFFSET(0x1551FC60)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int GridFightShowFullScreenCutInParam_TypeDefinitionIndex = 54340;
+	inline static constexpr unsigned int GridFightShowFullScreenCutInParam_TypeDefinitionIndex = 55563;
 
 	class GridFightShowFullScreenCutInParam : public ::System::Object
 	{

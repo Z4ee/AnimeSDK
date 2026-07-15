@@ -6,7 +6,7 @@ namespace UnityEngine { class Texture; }
 
 namespace RPG::CustomRP
 {
-	inline static constexpr unsigned int DLSSPass_ViewResources_TypeDefinitionIndex = 35226;
+	inline static constexpr unsigned int DLSSPass_ViewResources_TypeDefinitionIndex = 36008;
 
 	struct alignas(8) DLSSPass_ViewResources
 	{

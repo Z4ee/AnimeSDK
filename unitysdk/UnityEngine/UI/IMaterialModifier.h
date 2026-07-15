@@ -5,7 +5,7 @@ namespace UnityEngine { class Material; }
 
 namespace UnityEngine::UI
 {
-	inline static constexpr unsigned int IMaterialModifier_TypeDefinitionIndex = 5952;
+	inline static constexpr unsigned int IMaterialModifier_TypeDefinitionIndex = 5957;
 
 	class IMaterialModifier
 	{

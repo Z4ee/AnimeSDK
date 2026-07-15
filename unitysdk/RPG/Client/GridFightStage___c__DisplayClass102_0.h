@@ -2,14 +2,14 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_1_21C7581DFE99F091_42;
+class Class_1_21C7581DFE99F091_50;
 
-#define RPG_CLIENT_GRIDFIGHTSTAGE___C__DISPLAYCLASS102_0__CTOR_OFFSET UNITYSDK_OFFSET(0xBC03840)
-#define RPG_CLIENT_GRIDFIGHTSTAGE___C__DISPLAYCLASS102_0__ISAFFIXREMOVED_B__0_OFFSET UNITYSDK_OFFSET(0xBC046A0)
+#define RPG_CLIENT_GRIDFIGHTSTAGE___C__DISPLAYCLASS102_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1AD7D0A0)
+#define RPG_CLIENT_GRIDFIGHTSTAGE___C__DISPLAYCLASS102_0__ISAFFIXREMOVED_B__0_OFFSET UNITYSDK_OFFSET(0x1AD7E600)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GridFightStage___c__DisplayClass102_0_TypeDefinitionIndex = 61003;
+	inline static constexpr unsigned int GridFightStage___c__DisplayClass102_0_TypeDefinitionIndex = 62320;
 
 	class GridFightStage___c__DisplayClass102_0 : public ::System::Object
 	{
@@ -21,9 +21,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTSTAGE___C__DISPLAYCLASS102_0__CTOR_OFFSET))(this);
 		}
 
-		::System::Boolean _IsAffixRemoved_b__0(::Class_1_21C7581DFE99F091_42* a1)
+		::System::Boolean _IsAffixRemoved_b__0(::Class_1_21C7581DFE99F091_50* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::Class_1_21C7581DFE99F091_42*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTSTAGE___C__DISPLAYCLASS102_0__ISAFFIXREMOVED_B__0_OFFSET))(this, a1);
+			return ((::System::Boolean(*)(::PVOID, ::Class_1_21C7581DFE99F091_50*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTSTAGE___C__DISPLAYCLASS102_0__ISAFFIXREMOVED_B__0_OFFSET))(this, a1);
 		}
 	};
 }

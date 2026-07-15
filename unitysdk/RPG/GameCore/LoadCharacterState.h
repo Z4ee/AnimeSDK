@@ -6,13 +6,13 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class TargetEvaluator; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_LOADCHARACTERSTATE_METHOD_3_2AD78D88B39F803C_OFFSET UNITYSDK_OFFSET(0x198A5130)
-#define RPG_GAMECORE_LOADCHARACTERSTATE_METHOD_3_514857E556AAEC98_OFFSET UNITYSDK_OFFSET(0x198A5040)
-#define RPG_GAMECORE_LOADCHARACTERSTATE__CTOR_OFFSET UNITYSDK_OFFSET(0x198A50D0)
+#define RPG_GAMECORE_LOADCHARACTERSTATE_METHOD_3_06EB4475626F389B_OFFSET UNITYSDK_OFFSET(0x1BCC85B0)
+#define RPG_GAMECORE_LOADCHARACTERSTATE_METHOD_3_2AD78D88B39F803C_OFFSET UNITYSDK_OFFSET(0x1BCC8670)
+#define RPG_GAMECORE_LOADCHARACTERSTATE__CTOR_OFFSET UNITYSDK_OFFSET(0x1BCC8620)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LoadCharacterState_TypeDefinitionIndex = 21517;
+	inline static constexpr unsigned int LoadCharacterState_TypeDefinitionIndex = 21938;
 
 	class LoadCharacterState : public ::RPG::GameCore::TaskConfig
 	{
@@ -27,9 +27,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LOADCHARACTERSTATE__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_514857E556AAEC98(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::LoadCharacterState*& a2)
+		static ::System::Void Method_3_06EB4475626F389B(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::LoadCharacterState*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::LoadCharacterState*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LOADCHARACTERSTATE_METHOD_3_514857E556AAEC98_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::LoadCharacterState*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LOADCHARACTERSTATE_METHOD_3_06EB4475626F389B_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_2AD78D88B39F803C(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::LoadCharacterState* a2)

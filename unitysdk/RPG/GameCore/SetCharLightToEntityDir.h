@@ -6,13 +6,13 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class TargetEvaluator; }
 
-#define RPG_GAMECORE_SETCHARLIGHTTOENTITYDIR_METHOD_3_3CF43F9A08D31714_OFFSET UNITYSDK_OFFSET(0x19C2DFE0)
-#define RPG_GAMECORE_SETCHARLIGHTTOENTITYDIR_METHOD_3_8890CDB15035954B_OFFSET UNITYSDK_OFFSET(0x19C2E130)
-#define RPG_GAMECORE_SETCHARLIGHTTOENTITYDIR__CTOR_OFFSET UNITYSDK_OFFSET(0x19C2E0A0)
+#define RPG_GAMECORE_SETCHARLIGHTTOENTITYDIR_METHOD_3_4C0663F4F1A0F0E1_OFFSET UNITYSDK_OFFSET(0x1C2D7180)
+#define RPG_GAMECORE_SETCHARLIGHTTOENTITYDIR_METHOD_3_8890CDB15035954B_OFFSET UNITYSDK_OFFSET(0x1C2D7200)
+#define RPG_GAMECORE_SETCHARLIGHTTOENTITYDIR__CTOR_OFFSET UNITYSDK_OFFSET(0x1C2D71D0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SetCharLightToEntityDir_TypeDefinitionIndex = 20653;
+	inline static constexpr unsigned int SetCharLightToEntityDir_TypeDefinitionIndex = 21068;
 
 	class SetCharLightToEntityDir : public ::RPG::GameCore::TaskConfig
 	{
@@ -25,9 +25,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETCHARLIGHTTOENTITYDIR__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_3CF43F9A08D31714(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SetCharLightToEntityDir*& a2)
+		static ::System::Void Method_3_4C0663F4F1A0F0E1(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SetCharLightToEntityDir*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SetCharLightToEntityDir*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETCHARLIGHTTOENTITYDIR_METHOD_3_3CF43F9A08D31714_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SetCharLightToEntityDir*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETCHARLIGHTTOENTITYDIR_METHOD_3_4C0663F4F1A0F0E1_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_8890CDB15035954B(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SetCharLightToEntityDir* a2)

@@ -5,23 +5,23 @@
 namespace System { class String; }
 namespace System::Net { class IPAddress; }
 
-#define SYSTEM_NET_IPHOSTENTRY_GET_ADDRESSLIST_OFFSET UNITYSDK_OFFSET(0x1AF96190)
-#define SYSTEM_NET_IPHOSTENTRY_GET_HOSTNAME_OFFSET UNITYSDK_OFFSET(0x1AF96160)
-#define SYSTEM_NET_IPHOSTENTRY_SET_ADDRESSLIST_OFFSET UNITYSDK_OFFSET(0x1AF961A0)
-#define SYSTEM_NET_IPHOSTENTRY_SET_ALIASES_OFFSET UNITYSDK_OFFSET(0x1AF96180)
-#define SYSTEM_NET_IPHOSTENTRY_SET_HOSTNAME_OFFSET UNITYSDK_OFFSET(0x1AF96170)
-#define SYSTEM_NET_IPHOSTENTRY__CTOR_OFFSET UNITYSDK_OFFSET(0x1AF68E90)
+#define SYSTEM_NET_IPHOSTENTRY_GET_ADDRESSLIST_OFFSET UNITYSDK_OFFSET(0x196126E0)
+#define SYSTEM_NET_IPHOSTENTRY_GET_HOSTNAME_OFFSET UNITYSDK_OFFSET(0x196126B0)
+#define SYSTEM_NET_IPHOSTENTRY_SET_ADDRESSLIST_OFFSET UNITYSDK_OFFSET(0x196126F0)
+#define SYSTEM_NET_IPHOSTENTRY_SET_ALIASES_OFFSET UNITYSDK_OFFSET(0x196126D0)
+#define SYSTEM_NET_IPHOSTENTRY_SET_HOSTNAME_OFFSET UNITYSDK_OFFSET(0x196126C0)
+#define SYSTEM_NET_IPHOSTENTRY__CTOR_OFFSET UNITYSDK_OFFSET(0x195E02C0)
 
 namespace System::Net
 {
-	inline static constexpr unsigned int IPHostEntry_TypeDefinitionIndex = 2734;
+	inline static constexpr unsigned int IPHostEntry_TypeDefinitionIndex = 2738;
 
 	class IPHostEntry : public ::System::Object
 	{
 	public:
-		::System::String* hostName; // 0x10
+		::Il2CppArray<::System::String*>* aliases; // 0x10
 		::Il2CppArray<::System::Net::IPAddress*>* addressList; // 0x18
-		::Il2CppArray<::System::String*>* aliases; // 0x20
+		::System::String* hostName; // 0x20
 		::System::Boolean isTrustedHost; // 0x28
 
 		::System::Void _ctor()

@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class AutoUseUltraSkill; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_2B7B1758A40BC0CB_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xA4058F0)
-#define CLASS_3_2B7B1758A40BC0CB__CTOR_OFFSET UNITYSDK_OFFSET(0xA4058C0)
+#define CLASS_3_2B7B1758A40BC0CB_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x18594360)
+#define CLASS_3_2B7B1758A40BC0CB__CTOR_OFFSET UNITYSDK_OFFSET(0x18594330)
 
-inline static constexpr unsigned int Class_3_2B7B1758A40BC0CB_TypeDefinitionIndex = 51279;
+inline static constexpr unsigned int Class_3_2B7B1758A40BC0CB_TypeDefinitionIndex = 52385;
 
 class Class_3_2B7B1758A40BC0CB : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::AutoUseUltraSkill*>
 {

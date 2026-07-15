@@ -4,20 +4,20 @@
 
 namespace System::Reflection { class ConstructorInfo; }
 
-#define MESSAGEPACK_SKIPCLRVISIBILITYCHECKS___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x181933F0)
-#define MESSAGEPACK_SKIPCLRVISIBILITYCHECKS___C__CTOR_OFFSET UNITYSDK_OFFSET(0x18193430)
-#define MESSAGEPACK_SKIPCLRVISIBILITYCHECKS___C___CCTOR_B__15_0_OFFSET UNITYSDK_OFFSET(0x18193440)
+#define MESSAGEPACK_SKIPCLRVISIBILITYCHECKS___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1B9455F0)
+#define MESSAGEPACK_SKIPCLRVISIBILITYCHECKS___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1B945630)
+#define MESSAGEPACK_SKIPCLRVISIBILITYCHECKS___C___CCTOR_B__15_0_OFFSET UNITYSDK_OFFSET(0x1B945640)
 
 namespace MessagePack
 {
-	inline static constexpr unsigned int SkipClrVisibilityChecks___c_TypeDefinitionIndex = 7192;
+	inline static constexpr unsigned int SkipClrVisibilityChecks___c_TypeDefinitionIndex = 7198;
 
 	class SkipClrVisibilityChecks___c : public ::System::Object
 	{
 	public:
 		static ::MessagePack::SkipClrVisibilityChecks___c** StaticGet___9()
 		{
-			return (::MessagePack::SkipClrVisibilityChecks___c**)Il2CppClass::FromTypeDefinitionIndex(SkipClrVisibilityChecks___c_TypeDefinitionIndex)->GetStaticField(0xA4A0);
+			return (::MessagePack::SkipClrVisibilityChecks___c**)Il2CppClass::FromTypeDefinitionIndex(SkipClrVisibilityChecks___c_TypeDefinitionIndex)->GetStaticField(0xCD70);
 		}
 
 		static ::System::Void _cctor()

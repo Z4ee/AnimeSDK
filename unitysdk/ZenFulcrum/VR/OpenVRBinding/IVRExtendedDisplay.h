@@ -8,7 +8,7 @@ namespace ZenFulcrum::VR::OpenVRBinding { class IVRExtendedDisplay__GetWindowBou
 
 namespace ZenFulcrum::VR::OpenVRBinding
 {
-	inline static constexpr unsigned int IVRExtendedDisplay_TypeDefinitionIndex = 35997;
+	inline static constexpr unsigned int IVRExtendedDisplay_TypeDefinitionIndex = 36779;
 
 	struct alignas(8) IVRExtendedDisplay
 	{

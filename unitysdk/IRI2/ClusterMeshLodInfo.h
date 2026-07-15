@@ -5,7 +5,7 @@
 
 namespace IRI2
 {
-	inline static constexpr unsigned int ClusterMeshLodInfo_TypeDefinitionIndex = 46843;
+	inline static constexpr unsigned int ClusterMeshLodInfo_TypeDefinitionIndex = 47808;
 
 	struct alignas(8) ClusterMeshLodInfo
 	{

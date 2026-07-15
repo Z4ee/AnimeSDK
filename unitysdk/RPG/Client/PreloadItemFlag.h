@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int PreloadItemFlag_TypeDefinitionIndex = 55813;
+	inline static constexpr unsigned int PreloadItemFlag_TypeDefinitionIndex = 57050;
 
 	enum class PreloadItemFlag : ::System::Int32
 	{

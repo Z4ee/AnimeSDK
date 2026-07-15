@@ -5,11 +5,11 @@
 namespace MiHoYo::SDK { class AccountModel; }
 namespace System { class String; }
 
-#define MIHOYO_SDK_LOGINDATAMODEL__CTOR_OFFSET UNITYSDK_OFFSET(0x1835AF90)
+#define MIHOYO_SDK_LOGINDATAMODEL__CTOR_OFFSET UNITYSDK_OFFSET(0x18218150)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int LoginDataModel_TypeDefinitionIndex = 7813;
+	inline static constexpr unsigned int LoginDataModel_TypeDefinitionIndex = 7819;
 
 	class LoginDataModel : public ::System::Object
 	{

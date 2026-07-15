@@ -5,9 +5,9 @@
 
 namespace RPG::GameCore { class FiveDimPropSpawnerConfig; }
 
-#define CLASS_1_357145762631B1AD__CTOR_OFFSET UNITYSDK_OFFSET(0x18B8F6C0)
+#define CLASS_1_357145762631B1AD__CTOR_OFFSET UNITYSDK_OFFSET(0x1A473270)
 
-inline static constexpr unsigned int Class_1_357145762631B1AD_TypeDefinitionIndex = 40075;
+inline static constexpr unsigned int Class_1_357145762631B1AD_TypeDefinitionIndex = 40888;
 
 class Class_1_357145762631B1AD : public ::System::Object
 {

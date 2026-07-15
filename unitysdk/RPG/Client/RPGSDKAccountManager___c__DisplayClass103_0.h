@@ -5,12 +5,12 @@
 namespace RPG::Client::Promises { template <typename T> class Promise_1; }
 namespace System { class String; }
 
-#define RPG_CLIENT_RPGSDKACCOUNTMANAGER___C__DISPLAYCLASS103_0__CHECKISPUSHNOTIFYOPEN_B__0_OFFSET UNITYSDK_OFFSET(0xC6A7AD0)
-#define RPG_CLIENT_RPGSDKACCOUNTMANAGER___C__DISPLAYCLASS103_0__CTOR_OFFSET UNITYSDK_OFFSET(0xC6A7AC0)
+#define RPG_CLIENT_RPGSDKACCOUNTMANAGER___C__DISPLAYCLASS103_0__CHECKISPUSHNOTIFYOPEN_B__0_OFFSET UNITYSDK_OFFSET(0x167B7700)
+#define RPG_CLIENT_RPGSDKACCOUNTMANAGER___C__DISPLAYCLASS103_0__CTOR_OFFSET UNITYSDK_OFFSET(0x167AC540)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int RPGSDKAccountManager___c__DisplayClass103_0_TypeDefinitionIndex = 57099;
+	inline static constexpr unsigned int RPGSDKAccountManager___c__DisplayClass103_0_TypeDefinitionIndex = 58357;
 
 	class RPGSDKAccountManager___c__DisplayClass103_0 : public ::System::Object
 	{

@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int HealFormulaType_TypeDefinitionIndex = 10065;
+	inline static constexpr unsigned int HealFormulaType_TypeDefinitionIndex = 10080;
 
 	enum class HealFormulaType : ::System::Int32
 	{

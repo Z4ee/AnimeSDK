@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int DynamicValueContextScope_TypeDefinitionIndex = 23400;
+	inline static constexpr unsigned int DynamicValueContextScope_TypeDefinitionIndex = 23888;
 
 	enum class DynamicValueContextScope : ::System::Int32
 	{
@@ -16,5 +16,6 @@ namespace RPG::GameCore
 		TargetEntity = 6,
 		AITag = 7,
 		SummonerEntity = 8,
+		CallbackTemporary = 9,
 	};
 }

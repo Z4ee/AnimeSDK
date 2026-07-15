@@ -8,7 +8,7 @@ namespace System { class Type; }
 
 namespace SRF::Service
 {
-	inline static constexpr unsigned int SRDependencyServiceBase_1__LoadDependencies_d__8_TypeDefinitionIndex = 33605;
+	inline static constexpr unsigned int SRDependencyServiceBase_1__LoadDependencies_d__8_TypeDefinitionIndex = 33976;
 
 	template <typename T>
 	class SRDependencyServiceBase_1__LoadDependencies_d__8 : public ::System::Object

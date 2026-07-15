@@ -6,7 +6,7 @@ namespace System { template <typename T1, typename T2, typename T3> class Func_3
 
 namespace MessagePack::Formatters
 {
-	inline static constexpr unsigned int CollectionHelpers_2_TypeDefinitionIndex = 7368;
+	inline static constexpr unsigned int CollectionHelpers_2_TypeDefinitionIndex = 7374;
 
 	template <typename TCollection, typename TEqualityComparer>
 	class CollectionHelpers_2 : public ::System::Object

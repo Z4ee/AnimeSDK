@@ -5,7 +5,7 @@
 
 namespace ZenFulcrum::VR::OpenVRBinding
 {
-	inline static constexpr unsigned int RenderModel_ComponentState_t_TypeDefinitionIndex = 36380;
+	inline static constexpr unsigned int RenderModel_ComponentState_t_TypeDefinitionIndex = 37162;
 
 	struct alignas(4) RenderModel_ComponentState_t
 	{

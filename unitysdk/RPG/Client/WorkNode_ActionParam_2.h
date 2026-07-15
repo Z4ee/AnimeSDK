@@ -6,7 +6,7 @@ namespace System { template <typename T1, typename T2> class Action_2; }
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int WorkNode_ActionParam_2_TypeDefinitionIndex = 57075;
+	inline static constexpr unsigned int WorkNode_ActionParam_2_TypeDefinitionIndex = 58333;
 
 	template <typename T1, typename T2>
 	class WorkNode_ActionParam_2 : public ::System::Object

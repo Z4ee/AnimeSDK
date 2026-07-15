@@ -7,19 +7,19 @@ namespace System { class Action; }
 namespace System { class String; }
 namespace System { template <typename T> class Action_1; }
 
-#define MIHOYO_SDK_CONSOLE_OS_PAYMANAGERCX___C__DISPLAYCLASS16_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1826CAE0)
-#define MIHOYO_SDK_CONSOLE_OS_PAYMANAGERCX___C__DISPLAYCLASS16_0__GETUSERCOLLECTIONSID_B__0_OFFSET UNITYSDK_OFFSET(0x1826ECB0)
-#define MIHOYO_SDK_CONSOLE_OS_PAYMANAGERCX___C__DISPLAYCLASS16_0__GETUSERCOLLECTIONSID_B__1_OFFSET UNITYSDK_OFFSET(0x1826F070)
+#define MIHOYO_SDK_CONSOLE_OS_PAYMANAGERCX___C__DISPLAYCLASS16_0__CTOR_OFFSET UNITYSDK_OFFSET(0x164057B0)
+#define MIHOYO_SDK_CONSOLE_OS_PAYMANAGERCX___C__DISPLAYCLASS16_0__GETUSERCOLLECTIONSID_B__0_OFFSET UNITYSDK_OFFSET(0x164079A0)
+#define MIHOYO_SDK_CONSOLE_OS_PAYMANAGERCX___C__DISPLAYCLASS16_0__GETUSERCOLLECTIONSID_B__1_OFFSET UNITYSDK_OFFSET(0x16407D60)
 
 namespace MiHoYo::SDK::Console::OS
 {
-	inline static constexpr unsigned int PayManagerCX___c__DisplayClass16_0_TypeDefinitionIndex = 8758;
+	inline static constexpr unsigned int PayManagerCX___c__DisplayClass16_0_TypeDefinitionIndex = 8770;
 
 	class PayManagerCX___c__DisplayClass16_0 : public ::System::Object
 	{
 	public:
-		::System::Action_1<::System::String*>* callback; // 0x10
-		::MiHoYo::SDK::Console::OS::PayManagerCX* __4__this; // 0x18
+		::MiHoYo::SDK::Console::OS::PayManagerCX* __4__this; // 0x10
+		::System::Action_1<::System::String*>* callback; // 0x18
 		::System::Action* __9__1; // 0x20
 
 		::System::Void _ctor()

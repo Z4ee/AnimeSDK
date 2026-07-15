@@ -3,7 +3,7 @@
 
 namespace System::Runtime::Remoting::Messaging
 {
-	inline static constexpr unsigned int CallType_TypeDefinitionIndex = 1319;
+	inline static constexpr unsigned int CallType_TypeDefinitionIndex = 1321;
 
 	enum class CallType : ::System::Int32
 	{

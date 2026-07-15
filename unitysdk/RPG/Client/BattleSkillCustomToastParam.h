@@ -5,11 +5,11 @@
 
 namespace System { class String; }
 
-#define RPG_CLIENT_BATTLESKILLCUSTOMTOASTPARAM__CTOR_OFFSET UNITYSDK_OFFSET(0xB418510)
+#define RPG_CLIENT_BATTLESKILLCUSTOMTOASTPARAM__CTOR_OFFSET UNITYSDK_OFFSET(0x19FBE530)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int BattleSkillCustomToastParam_TypeDefinitionIndex = 67231;
+	inline static constexpr unsigned int BattleSkillCustomToastParam_TypeDefinitionIndex = 68685;
 
 	class BattleSkillCustomToastParam : public ::System::Object
 	{

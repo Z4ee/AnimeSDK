@@ -3,7 +3,7 @@
 
 namespace System::Xml
 {
-	inline static constexpr unsigned int XmlOutputMethod_TypeDefinitionIndex = 1875;
+	inline static constexpr unsigned int XmlOutputMethod_TypeDefinitionIndex = 1879;
 
 	enum class XmlOutputMethod : ::System::Int32
 	{

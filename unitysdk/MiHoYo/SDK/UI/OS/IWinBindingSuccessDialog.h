@@ -6,7 +6,7 @@ namespace System { class String; }
 
 namespace MiHoYo::SDK::UI::OS
 {
-	inline static constexpr unsigned int IWinBindingSuccessDialog_TypeDefinitionIndex = 8376;
+	inline static constexpr unsigned int IWinBindingSuccessDialog_TypeDefinitionIndex = 8388;
 
 	class IWinBindingSuccessDialog
 	{

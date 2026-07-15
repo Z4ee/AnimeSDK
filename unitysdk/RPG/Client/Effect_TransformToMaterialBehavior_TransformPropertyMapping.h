@@ -6,12 +6,12 @@ namespace RPG::Client { class Effect_TransformToMaterialBehavior_TransformProper
 namespace RPG::Client::TAUtils { class RendererSlots; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_EFFECT_TRANSFORMTOMATERIALBEHAVIOR_TRANSFORMPROPERTYMAPPING_METHOD_1_8542E37E74FDE1B5_OFFSET UNITYSDK_OFFSET(0xB894130)
-#define RPG_CLIENT_EFFECT_TRANSFORMTOMATERIALBEHAVIOR_TRANSFORMPROPERTYMAPPING__CTOR_OFFSET UNITYSDK_OFFSET(0xB895150)
+#define RPG_CLIENT_EFFECT_TRANSFORMTOMATERIALBEHAVIOR_TRANSFORMPROPERTYMAPPING_METHOD_1_FD3B916300F77FDA_OFFSET UNITYSDK_OFFSET(0x15133940)
+#define RPG_CLIENT_EFFECT_TRANSFORMTOMATERIALBEHAVIOR_TRANSFORMPROPERTYMAPPING__CTOR_OFFSET UNITYSDK_OFFSET(0x151347D0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int Effect_TransformToMaterialBehavior_TransformPropertyMapping_TypeDefinitionIndex = 65999;
+	inline static constexpr unsigned int Effect_TransformToMaterialBehavior_TransformPropertyMapping_TypeDefinitionIndex = 67424;
 
 	class Effect_TransformToMaterialBehavior_TransformPropertyMapping : public ::System::Object
 	{
@@ -24,9 +24,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_EFFECT_TRANSFORMTOMATERIALBEHAVIOR_TRANSFORMPROPERTYMAPPING__CTOR_OFFSET))(this);
 		}
 
-		::System::Void Method_1_8542E37E74FDE1B5()
+		::System::Void Method_1_FD3B916300F77FDA()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_EFFECT_TRANSFORMTOMATERIALBEHAVIOR_TRANSFORMPROPERTYMAPPING_METHOD_1_8542E37E74FDE1B5_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_EFFECT_TRANSFORMTOMATERIALBEHAVIOR_TRANSFORMPROPERTYMAPPING_METHOD_1_FD3B916300F77FDA_OFFSET))(this);
 		}
 	};
 }

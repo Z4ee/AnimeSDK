@@ -3,12 +3,12 @@
 #include "unitysdk/HoudiniEngineUnity/HAPI_TransformEuler.h"
 #include "unitysdk/System/Object.h"
 
-#define HOUDINIENGINEUNITY_TEST_HAPI_TRANSFORMEULER_ISEQUIVALENTTO_OFFSET UNITYSDK_OFFSET(0x17F809D0)
-#define HOUDINIENGINEUNITY_TEST_HAPI_TRANSFORMEULER__CTOR_OFFSET UNITYSDK_OFFSET(0x17F809B0)
+#define HOUDINIENGINEUNITY_TEST_HAPI_TRANSFORMEULER_ISEQUIVALENTTO_OFFSET UNITYSDK_OFFSET(0x1D20CCB0)
+#define HOUDINIENGINEUNITY_TEST_HAPI_TRANSFORMEULER__CTOR_OFFSET UNITYSDK_OFFSET(0x1D20CC90)
 
 namespace HoudiniEngineUnity
 {
-	inline static constexpr unsigned int Test_HAPI_TransformEuler_TypeDefinitionIndex = 37742;
+	inline static constexpr unsigned int Test_HAPI_TransformEuler_TypeDefinitionIndex = 38550;
 
 	class Test_HAPI_TransformEuler : public ::System::Object
 	{

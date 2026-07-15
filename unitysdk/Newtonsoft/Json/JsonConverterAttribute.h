@@ -5,19 +5,19 @@
 namespace System { class Object; }
 namespace System { class Type; }
 
-#define NEWTONSOFT_JSON_JSONCONVERTERATTRIBUTE_GET_CONVERTERPARAMETERS_OFFSET UNITYSDK_OFFSET(0x1881AAC0)
-#define NEWTONSOFT_JSON_JSONCONVERTERATTRIBUTE_GET_CONVERTERTYPE_OFFSET UNITYSDK_OFFSET(0x1881AAB0)
-#define NEWTONSOFT_JSON_JSONCONVERTERATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1881AAD0)
+#define NEWTONSOFT_JSON_JSONCONVERTERATTRIBUTE_GET_CONVERTERPARAMETERS_OFFSET UNITYSDK_OFFSET(0x165EAD10)
+#define NEWTONSOFT_JSON_JSONCONVERTERATTRIBUTE_GET_CONVERTERTYPE_OFFSET UNITYSDK_OFFSET(0x165EAD00)
+#define NEWTONSOFT_JSON_JSONCONVERTERATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x165EAD20)
 
 namespace Newtonsoft::Json
 {
-	inline static constexpr unsigned int JsonConverterAttribute_TypeDefinitionIndex = 9252;
+	inline static constexpr unsigned int JsonConverterAttribute_TypeDefinitionIndex = 9264;
 
 	class JsonConverterAttribute : public ::System::Attribute
 	{
 	public:
-		::Il2CppArray<::System::Object*>* _ConverterParameters_k__BackingField; // 0x10
-		::System::Type* _converterType; // 0x18
+		::System::Type* _converterType; // 0x10
+		::Il2CppArray<::System::Object*>* _ConverterParameters_k__BackingField; // 0x18
 
 		::System::Void _ctor(::System::Type* a1)
 		{

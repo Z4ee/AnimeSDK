@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int CakeRaceTargetLockStatus_TypeDefinitionIndex = 17497;
+	inline static constexpr unsigned int CakeRaceTargetLockStatus_TypeDefinitionIndex = 17670;
 
 	enum class CakeRaceTargetLockStatus : ::System::Int32
 	{

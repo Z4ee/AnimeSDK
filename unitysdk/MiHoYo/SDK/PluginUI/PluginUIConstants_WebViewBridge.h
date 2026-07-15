@@ -6,7 +6,7 @@ namespace System { class String; }
 
 namespace MiHoYo::SDK::PluginUI
 {
-	inline static constexpr unsigned int PluginUIConstants_WebViewBridge_TypeDefinitionIndex = 8913;
+	inline static constexpr unsigned int PluginUIConstants_WebViewBridge_TypeDefinitionIndex = 8925;
 
 	class PluginUIConstants_WebViewBridge : public ::System::Object
 	{

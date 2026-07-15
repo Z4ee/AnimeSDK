@@ -9,7 +9,7 @@ namespace System::Collections::Generic { template <typename T> class IEnumerator
 
 namespace System::Linq
 {
-	inline static constexpr unsigned int Enumerable__SelectManyIterator_d__17_2_TypeDefinitionIndex = 3133;
+	inline static constexpr unsigned int Enumerable__SelectManyIterator_d__17_2_TypeDefinitionIndex = 3137;
 
 	template <typename TSource, typename TResult>
 	class Enumerable__SelectManyIterator_d__17_2 : public ::System::Object

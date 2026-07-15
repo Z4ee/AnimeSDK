@@ -7,27 +7,27 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_CHENLINGSTAGEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x19630980)
-#define RPG_GAMECORE_CHENLINGSTAGEROW__CTOR_OFFSET UNITYSDK_OFFSET(0x19630D80)
+#define RPG_GAMECORE_CHENLINGSTAGEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1C38ACE0)
+#define RPG_GAMECORE_CHENLINGSTAGEROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1C38B0E0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ChenLingStageRow_TypeDefinitionIndex = 10634;
+	inline static constexpr unsigned int ChenLingStageRow_TypeDefinitionIndex = 10684;
 
 	class ChenLingStageRow : public ::System::Object
 	{
 	public:
-		::System::String* IconPath; // 0x10
-		::System::String* IconPathInBattle; // 0x18
-		::System::UInt32 LockDeckID; // 0x20
-		::System::UInt32 UnlockSubMissionID; // 0x24
-		::RPG::GameCore::ChenLingStageType Type; // 0x28
-		::System::UInt32 ID; // 0x2C
-		::System::UInt32 CampID; // 0x30
-		::RPG::Client::TextID Name; // 0x38
-		::System::UInt32 FinishUnlockDeckID; // 0x48
-		::System::UInt32 NextID; // 0x4C
-		::RPG::Client::TextID CommanderName; // 0x50
+		::System::String* IconPathInBattle; // 0x10
+		::System::String* IconPath; // 0x18
+		::RPG::Client::TextID CommanderName; // 0x20
+		::System::UInt32 NextID; // 0x30
+		::System::UInt32 FinishUnlockDeckID; // 0x34
+		::System::UInt32 LockDeckID; // 0x38
+		::RPG::GameCore::ChenLingStageType Type; // 0x3C
+		::System::UInt32 CampID; // 0x40
+		::System::UInt32 UnlockSubMissionID; // 0x44
+		::System::UInt32 ID; // 0x48
+		::RPG::Client::TextID Name; // 0x50
 
 		::System::Void _ctor()
 		{

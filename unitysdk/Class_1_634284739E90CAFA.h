@@ -6,9 +6,9 @@
 
 namespace RPG::GameCore { class ChenLingBattleEffectConfig; }
 
-#define CLASS_1_634284739E90CAFA__CTOR_OFFSET UNITYSDK_OFFSET(0x18C02410)
+#define CLASS_1_634284739E90CAFA__CTOR_OFFSET UNITYSDK_OFFSET(0x180CA430)
 
-inline static constexpr unsigned int Class_1_634284739E90CAFA_TypeDefinitionIndex = 40316;
+inline static constexpr unsigned int Class_1_634284739E90CAFA_TypeDefinitionIndex = 41131;
 
 class Class_1_634284739E90CAFA : public ::System::Object
 {

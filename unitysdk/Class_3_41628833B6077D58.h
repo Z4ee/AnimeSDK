@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class SetFloorCustomFloat; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_41628833B6077D58_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xCEC4C80)
-#define CLASS_3_41628833B6077D58__CTOR_OFFSET UNITYSDK_OFFSET(0xCEC4C50)
+#define CLASS_3_41628833B6077D58_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x16D8FD60)
+#define CLASS_3_41628833B6077D58__CTOR_OFFSET UNITYSDK_OFFSET(0x16D8FD30)
 
-inline static constexpr unsigned int Class_3_41628833B6077D58_TypeDefinitionIndex = 49752;
+inline static constexpr unsigned int Class_3_41628833B6077D58_TypeDefinitionIndex = 50807;
 
 class Class_3_41628833B6077D58 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::SetFloorCustomFloat*>
 {

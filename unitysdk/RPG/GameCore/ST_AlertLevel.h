@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ST_AlertLevel_TypeDefinitionIndex = 23128;
+	inline static constexpr unsigned int ST_AlertLevel_TypeDefinitionIndex = 23606;
 
 	enum class ST_AlertLevel : ::System::Int32
 	{

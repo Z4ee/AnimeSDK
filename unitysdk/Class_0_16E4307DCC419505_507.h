@@ -1,10 +1,9 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/RPG/GameCore/AdventureAnimStateType.h"
 
-namespace System { class Object; }
+class Class_0_16E4307DCC419505_448;
 
-inline static constexpr unsigned int Class_0_16E4307DCC419505_507_TypeDefinitionIndex = 52185;
+inline static constexpr unsigned int Class_0_16E4307DCC419505_507_TypeDefinitionIndex = 51755;
 
 class Class_0_16E4307DCC419505_507
 {

@@ -9,13 +9,13 @@ namespace RPG::GameCore { class FiveDimPropSpawnerParam; }
 namespace RPG::GameCore { class LittleGameEvent; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_FIVEDIMPROPSPAWNERCONFIG_METHOD_3_0AFE00211F9D5B11_OFFSET UNITYSDK_OFFSET(0x19750140)
-#define RPG_GAMECORE_FIVEDIMPROPSPAWNERCONFIG_METHOD_3_20CFBFD9D1FCFFCE_OFFSET UNITYSDK_OFFSET(0x197501D0)
-#define RPG_GAMECORE_FIVEDIMPROPSPAWNERCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x197501A0)
+#define RPG_GAMECORE_FIVEDIMPROPSPAWNERCONFIG_METHOD_3_20CFBFD9D1FCFFCE_OFFSET UNITYSDK_OFFSET(0x1BEAC570)
+#define RPG_GAMECORE_FIVEDIMPROPSPAWNERCONFIG_METHOD_3_9AA320A21C18C300_OFFSET UNITYSDK_OFFSET(0x1BEAC520)
+#define RPG_GAMECORE_FIVEDIMPROPSPAWNERCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1BEAC560)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FiveDimPropSpawnerConfig_TypeDefinitionIndex = 17682;
+	inline static constexpr unsigned int FiveDimPropSpawnerConfig_TypeDefinitionIndex = 17856;
 
 	class FiveDimPropSpawnerConfig : public ::RPG::GameCore::LittleGameComponentConfig
 	{
@@ -40,9 +40,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMPROPSPAWNERCONFIG__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_0AFE00211F9D5B11(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::FiveDimPropSpawnerConfig*& a2)
+		static ::System::Void Method_3_9AA320A21C18C300(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::FiveDimPropSpawnerConfig*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::FiveDimPropSpawnerConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMPROPSPAWNERCONFIG_METHOD_3_0AFE00211F9D5B11_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::FiveDimPropSpawnerConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMPROPSPAWNERCONFIG_METHOD_3_9AA320A21C18C300_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_20CFBFD9D1FCFFCE(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::FiveDimPropSpawnerConfig* a2)

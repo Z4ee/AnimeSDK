@@ -4,7 +4,7 @@
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int MHYSDKC_VOXQualityLevel_TypeDefinitionIndex = 43646;
+	inline static constexpr unsigned int MHYSDKC_VOXQualityLevel_TypeDefinitionIndex = 44507;
 
 	class MHYSDKC_VOXQualityLevel : public ::System::Object
 	{

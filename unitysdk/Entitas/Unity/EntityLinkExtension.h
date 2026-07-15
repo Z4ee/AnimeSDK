@@ -6,13 +6,13 @@ namespace Entitas { class IEntity; }
 namespace Entitas::Unity { class EntityLink; }
 namespace UnityEngine { class GameObject; }
 
-#define ENTITAS_UNITY_ENTITYLINKEXTENSION_GETENTITYLINK_OFFSET UNITYSDK_OFFSET(0x147040A0)
-#define ENTITAS_UNITY_ENTITYLINKEXTENSION_LINK_OFFSET UNITYSDK_OFFSET(0x14704140)
-#define ENTITAS_UNITY_ENTITYLINKEXTENSION_UNLINK_OFFSET UNITYSDK_OFFSET(0x14704260)
+#define ENTITAS_UNITY_ENTITYLINKEXTENSION_GETENTITYLINK_OFFSET UNITYSDK_OFFSET(0x1D1CE170)
+#define ENTITAS_UNITY_ENTITYLINKEXTENSION_LINK_OFFSET UNITYSDK_OFFSET(0x1D1CE210)
+#define ENTITAS_UNITY_ENTITYLINKEXTENSION_UNLINK_OFFSET UNITYSDK_OFFSET(0x1D1CE330)
 
 namespace Entitas::Unity
 {
-	inline static constexpr unsigned int EntityLinkExtension_TypeDefinitionIndex = 9717;
+	inline static constexpr unsigned int EntityLinkExtension_TypeDefinitionIndex = 9731;
 
 	class EntityLinkExtension : public ::System::Object
 	{

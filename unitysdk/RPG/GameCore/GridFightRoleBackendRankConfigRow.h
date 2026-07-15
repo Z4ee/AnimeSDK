@@ -9,31 +9,31 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class AvatarPropertyValue; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_GRIDFIGHTROLEBACKENDRANKCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x19805100)
-#define RPG_GAMECORE_GRIDFIGHTROLEBACKENDRANKCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x19805770)
+#define RPG_GAMECORE_GRIDFIGHTROLEBACKENDRANKCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D071EF0)
+#define RPG_GAMECORE_GRIDFIGHTROLEBACKENDRANKCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D072560)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int GridFightRoleBackendRankConfigRow_TypeDefinitionIndex = 12868;
+	inline static constexpr unsigned int GridFightRoleBackendRankConfigRow_TypeDefinitionIndex = 13016;
 
 	class GridFightRoleBackendRankConfigRow : public ::System::Object
 	{
 	public:
-		::System::String* IconPath; // 0x10
+		::Il2CppArray<::System::UInt32>* ModifySkillList; // 0x10
 		::Il2CppArray<::System::Double>* DescParamList; // 0x18
-		::Il2CppArray<::System::String*>* RankAbility; // 0x20
-		::Il2CppArray<::System::UInt32>* ExtraEffectIDList; // 0x28
-		::Il2CppArray<::RPG::GameCore::FixPoint>* Param; // 0x30
-		::Il2CppArray<::RPG::GameCore::AvatarPropertyValue*>* OwnerGeneralPropertyList; // 0x38
-		::Il2CppArray<::RPG::GameCore::AvatarPropertyValue*>* AllMemberGeneralPropertyList; // 0x40
-		::Il2CppArray<::System::UInt32>* ModifySkillList; // 0x48
-		::RPG::GameCore::StringHash Trigger; // 0x50
+		::Il2CppArray<::RPG::GameCore::FixPoint>* Param; // 0x20
+		::Il2CppArray<::RPG::GameCore::AvatarPropertyValue*>* OwnerGeneralPropertyList; // 0x28
+		::Il2CppArray<::System::UInt32>* ExtraEffectIDList; // 0x30
+		::Il2CppArray<::RPG::GameCore::AvatarPropertyValue*>* AllMemberGeneralPropertyList; // 0x38
+		::Il2CppArray<::System::String*>* RankAbility; // 0x40
+		::System::String* IconPath; // 0x48
+		::System::UInt32 Rank; // 0x50
 		::System::UInt32 RankID; // 0x54
-		::RPG::GameCore::FixPoint ModifyEnergyBar; // 0x58
+		::RPG::GameCore::StringHash Trigger; // 0x58
 		::RPG::GameCore::FixPoint ModifyInitialEnergyBar; // 0x60
-		::System::UInt32 Rank; // 0x68
-		::RPG::Client::TextID Name; // 0x70
-		::RPG::Client::TextID Desc; // 0x80
+		::RPG::Client::TextID Desc; // 0x68
+		::RPG::GameCore::FixPoint ModifyEnergyBar; // 0x78
+		::RPG::Client::TextID Name; // 0x80
 
 		::System::Void _ctor()
 		{

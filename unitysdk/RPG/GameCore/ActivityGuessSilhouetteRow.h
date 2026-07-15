@@ -5,34 +5,34 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_ACTIVITYGUESSSILHOUETTEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x193ECBA0)
-#define RPG_GAMECORE_ACTIVITYGUESSSILHOUETTEROW__CTOR_OFFSET UNITYSDK_OFFSET(0x193ED100)
+#define RPG_GAMECORE_ACTIVITYGUESSSILHOUETTEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1AAF56A0)
+#define RPG_GAMECORE_ACTIVITYGUESSSILHOUETTEROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1AAF5C00)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ActivityGuessSilhouetteRow_TypeDefinitionIndex = 11105;
+	inline static constexpr unsigned int ActivityGuessSilhouetteRow_TypeDefinitionIndex = 11205;
 
 	class ActivityGuessSilhouetteRow : public ::System::Object
 	{
 	public:
-		::System::String* Tab; // 0x10
-		::System::String* Title; // 0x18
-		::System::String* KeyIconPath; // 0x20
-		::System::String* KeyIconPath2; // 0x28
-		::System::String* Unlock; // 0x30
-		::System::String* SilhouetteIconPath; // 0x38
-		::System::String* Aim01; // 0x40
-		::System::String* Aim02; // 0x48
+		::System::String* Aim02; // 0x10
+		::System::String* Unlock; // 0x18
+		::System::String* SilhouetteIconPath; // 0x20
+		::System::String* Title; // 0x28
+		::System::String* KeyIconPath2; // 0x30
+		::System::String* Aim01; // 0x38
+		::System::String* Tab; // 0x40
+		::System::String* KeyIconPath; // 0x48
 		::System::String* Daily; // 0x50
-		::System::UInt32 MissionID; // 0x58
-		::System::UInt32 BranchQuestID; // 0x5C
-		::System::UInt32 ActivityID; // 0x60
-		::System::UInt32 SilhouetteID; // 0x64
-		::System::UInt32 Order; // 0x68
-		::System::UInt32 Day; // 0x6C
-		::System::UInt32 FinishSubMissionID; // 0x70
-		::System::UInt32 QuestID; // 0x74
-		::System::UInt32 ActivityModuleID; // 0x78
+		::System::UInt32 Order; // 0x58
+		::System::UInt32 ActivityModuleID; // 0x5C
+		::System::UInt32 Day; // 0x60
+		::System::UInt32 FinishSubMissionID; // 0x64
+		::System::UInt32 BranchQuestID; // 0x68
+		::System::UInt32 ActivityID; // 0x6C
+		::System::UInt32 QuestID; // 0x70
+		::System::UInt32 SilhouetteID; // 0x74
+		::System::UInt32 MissionID; // 0x78
 
 		::System::Void _ctor()
 		{

@@ -4,7 +4,7 @@
 
 namespace SWRT
 {
-	inline static constexpr unsigned int BVH8_CWNodeUnpacked__MinY_e__FixedBuffer_TypeDefinitionIndex = 35177;
+	inline static constexpr unsigned int BVH8_CWNodeUnpacked__MinY_e__FixedBuffer_TypeDefinitionIndex = 35959;
 
 	struct alignas(1) BVH8_CWNodeUnpacked__MinY_e__FixedBuffer
 	{

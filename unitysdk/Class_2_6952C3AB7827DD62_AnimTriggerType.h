@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int Class_2_6952C3AB7827DD62_AnimTriggerType_TypeDefinitionIndex = 54124;
+inline static constexpr unsigned int Class_2_6952C3AB7827DD62_AnimTriggerType_TypeDefinitionIndex = 55347;
 
 enum class Class_2_6952C3AB7827DD62_AnimTriggerType : ::System::Int32
 {

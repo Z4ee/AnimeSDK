@@ -3,7 +3,7 @@
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int ParticleSystemAnimationRowMode_TypeDefinitionIndex = 5766;
+	inline static constexpr unsigned int ParticleSystemAnimationRowMode_TypeDefinitionIndex = 5771;
 
 	enum class ParticleSystemAnimationRowMode : ::System::Int32
 	{

@@ -6,11 +6,11 @@ namespace RPG::GameCore { class RogueTournCollectionLoadedPostProcess; }
 namespace RPG::GameCore { class TaskContext; }
 namespace UnityEngine { class GameObject; }
 
-#define CLASS_3_153D1E6F13B4D7F2_METHOD_3_0A5213CB8CB2A5BD_OFFSET UNITYSDK_OFFSET(0x1428A230)
-#define CLASS_3_153D1E6F13B4D7F2_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1428A1A0)
-#define CLASS_3_153D1E6F13B4D7F2__CTOR_OFFSET UNITYSDK_OFFSET(0x1428A170)
+#define CLASS_3_153D1E6F13B4D7F2_METHOD_3_F950D0A9C9CC03DC_OFFSET UNITYSDK_OFFSET(0x146C1310)
+#define CLASS_3_153D1E6F13B4D7F2_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x146C1220)
+#define CLASS_3_153D1E6F13B4D7F2__CTOR_OFFSET UNITYSDK_OFFSET(0x146C11F0)
 
-inline static constexpr unsigned int Class_3_153D1E6F13B4D7F2_TypeDefinitionIndex = 54633;
+inline static constexpr unsigned int Class_3_153D1E6F13B4D7F2_TypeDefinitionIndex = 55858;
 
 class Class_3_153D1E6F13B4D7F2 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::RogueTournCollectionLoadedPostProcess*>
 {
@@ -25,8 +25,8 @@ public:
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_3_153D1E6F13B4D7F2_ONTASKBEGIN_OFFSET))(this);
 	}
 
-	::System::Void Method_3_0A5213CB8CB2A5BD(::UnityEngine::GameObject* a1)
+	::System::Void Method_3_F950D0A9C9CC03DC(::UnityEngine::GameObject* a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::UnityEngine::GameObject*))((::PBYTE)hIl2Cpp + CLASS_3_153D1E6F13B4D7F2_METHOD_3_0A5213CB8CB2A5BD_OFFSET))(this, a1);
+		return ((::System::Void(*)(::PVOID, ::UnityEngine::GameObject*))((::PBYTE)hIl2Cpp + CLASS_3_153D1E6F13B4D7F2_METHOD_3_F950D0A9C9CC03DC_OFFSET))(this, a1);
 	}
 };

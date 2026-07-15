@@ -3,12 +3,12 @@
 #include "unitysdk/System/ComponentModel/ListChangedType.h"
 #include "unitysdk/System/EventArgs.h"
 
-#define SYSTEM_COMPONENTMODEL_LISTCHANGEDEVENTARGS__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1AF2E450)
-#define SYSTEM_COMPONENTMODEL_LISTCHANGEDEVENTARGS__CTOR_OFFSET UNITYSDK_OFFSET(0x1AF2E410)
+#define SYSTEM_COMPONENTMODEL_LISTCHANGEDEVENTARGS__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1914F300)
+#define SYSTEM_COMPONENTMODEL_LISTCHANGEDEVENTARGS__CTOR_OFFSET UNITYSDK_OFFSET(0x1914F2C0)
 
 namespace System::ComponentModel
 {
-	inline static constexpr unsigned int ListChangedEventArgs_TypeDefinitionIndex = 2599;
+	inline static constexpr unsigned int ListChangedEventArgs_TypeDefinitionIndex = 2603;
 
 	class ListChangedEventArgs : public ::System::EventArgs
 	{

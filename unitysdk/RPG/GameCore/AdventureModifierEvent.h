@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AdventureModifierEvent_TypeDefinitionIndex = 16640;
+	inline static constexpr unsigned int AdventureModifierEvent_TypeDefinitionIndex = 16802;
 
 	enum class AdventureModifierEvent : ::System::Int32
 	{
@@ -35,6 +35,7 @@ namespace RPG::GameCore
 		OnTransferToFakeAvatar = 25,
 		OnTransferFromFakeAvatar = 26,
 		OnAfterBuffFullUpdate = 27,
-		Count = 28,
+		OnAcceptMoney = 28,
+		Count = 29,
 	};
 }

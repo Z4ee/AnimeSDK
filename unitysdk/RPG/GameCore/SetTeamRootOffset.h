@@ -7,13 +7,13 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class TargetEvaluator; }
 
-#define RPG_GAMECORE_SETTEAMROOTOFFSET_METHOD_3_5E96BE3275B6C749_OFFSET UNITYSDK_OFFSET(0x19C63EC0)
-#define RPG_GAMECORE_SETTEAMROOTOFFSET_METHOD_3_95879A4769583B86_OFFSET UNITYSDK_OFFSET(0x19C63F40)
-#define RPG_GAMECORE_SETTEAMROOTOFFSET__CTOR_OFFSET UNITYSDK_OFFSET(0x19C63F10)
+#define RPG_GAMECORE_SETTEAMROOTOFFSET_METHOD_3_2D0F7F1A2ED33BCF_OFFSET UNITYSDK_OFFSET(0x1C60D350)
+#define RPG_GAMECORE_SETTEAMROOTOFFSET_METHOD_3_95879A4769583B86_OFFSET UNITYSDK_OFFSET(0x1C60D390)
+#define RPG_GAMECORE_SETTEAMROOTOFFSET__CTOR_OFFSET UNITYSDK_OFFSET(0x1C60D380)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SetTeamRootOffset_TypeDefinitionIndex = 21271;
+	inline static constexpr unsigned int SetTeamRootOffset_TypeDefinitionIndex = 21686;
 
 	class SetTeamRootOffset : public ::RPG::GameCore::TaskConfig
 	{
@@ -28,9 +28,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETTEAMROOTOFFSET__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_5E96BE3275B6C749(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SetTeamRootOffset*& a2)
+		static ::System::Void Method_3_2D0F7F1A2ED33BCF(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SetTeamRootOffset*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SetTeamRootOffset*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETTEAMROOTOFFSET_METHOD_3_5E96BE3275B6C749_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SetTeamRootOffset*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETTEAMROOTOFFSET_METHOD_3_2D0F7F1A2ED33BCF_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_95879A4769583B86(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SetTeamRootOffset* a2)

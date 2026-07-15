@@ -7,12 +7,12 @@
 namespace RPG::Client { class SmoothMaskDrawerBehavior; }
 namespace UnityEngine { class Material; }
 
-#define RPG_CLIENT_SMOOTHMASKDRAWER_GET_BEHAVIOR_OFFSET UNITYSDK_OFFSET(0xC8E7D30)
-#define RPG_CLIENT_SMOOTHMASKDRAWER__CTOR_OFFSET UNITYSDK_OFFSET(0xC8E7DC0)
+#define RPG_CLIENT_SMOOTHMASKDRAWER_GET_BEHAVIOR_OFFSET UNITYSDK_OFFSET(0x18905E20)
+#define RPG_CLIENT_SMOOTHMASKDRAWER__CTOR_OFFSET UNITYSDK_OFFSET(0x18905EB0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int SmoothMaskDrawer_TypeDefinitionIndex = 66410;
+	inline static constexpr unsigned int SmoothMaskDrawer_TypeDefinitionIndex = 67846;
 
 	class SmoothMaskDrawer : public ::RPG::Client::TAMonoPlugin_1<::RPG::Client::SmoothMaskDrawerBehavior*>
 	{

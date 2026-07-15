@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int Class_1_D4E2A0605A71F3AC_FadingDoneActionType_TypeDefinitionIndex = 68886;
+inline static constexpr unsigned int Class_1_D4E2A0605A71F3AC_FadingDoneActionType_TypeDefinitionIndex = 70418;
 
 enum class Class_1_D4E2A0605A71F3AC_FadingDoneActionType : ::System::Int32
 {

@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int UISymbolFilterType_TypeDefinitionIndex = 68126;
+	inline static constexpr unsigned int UISymbolFilterType_TypeDefinitionIndex = 69612;
 
 	enum class UISymbolFilterType : ::System::Int32
 	{

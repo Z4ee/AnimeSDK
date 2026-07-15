@@ -2,22 +2,22 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_0_16E4307DCC419505_80;
+class Class_0_16E4307DCC419505_99;
 class Class_1_942D03E5A029CB94;
 namespace System { class String; }
 
-#define RPG_CLIENT_VERSIONUPDATEMGR___C__DISPLAYCLASS9_0__CTOR_OFFSET UNITYSDK_OFFSET(0xCC13E40)
-#define RPG_CLIENT_VERSIONUPDATEMGR___C__DISPLAYCLASS9_0___CALCBLOCKHPATCHDOWNLOADINFOSCORE_B__2_OFFSET UNITYSDK_OFFSET(0xCC18970)
-#define RPG_CLIENT_VERSIONUPDATEMGR___C__DISPLAYCLASS9_0___CALCBLOCKHPATCHDOWNLOADINFOSCORE_B__3_OFFSET UNITYSDK_OFFSET(0xCC189F0)
+#define RPG_CLIENT_VERSIONUPDATEMGR___C__DISPLAYCLASS9_0__CTOR_OFFSET UNITYSDK_OFFSET(0x173FCFD0)
+#define RPG_CLIENT_VERSIONUPDATEMGR___C__DISPLAYCLASS9_0___CALCBLOCKHPATCHDOWNLOADINFOSCORE_B__2_OFFSET UNITYSDK_OFFSET(0x174026E0)
+#define RPG_CLIENT_VERSIONUPDATEMGR___C__DISPLAYCLASS9_0___CALCBLOCKHPATCHDOWNLOADINFOSCORE_B__3_OFFSET UNITYSDK_OFFSET(0x17402760)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int VersionUpdateMgr___c__DisplayClass9_0_TypeDefinitionIndex = 57289;
+	inline static constexpr unsigned int VersionUpdateMgr___c__DisplayClass9_0_TypeDefinitionIndex = 58547;
 
 	class VersionUpdateMgr___c__DisplayClass9_0 : public ::System::Object
 	{
 	public:
-		::Class_0_16E4307DCC419505_80* index; // 0x10
+		::Class_0_16E4307DCC419505_99* index; // 0x10
 		::System::String* rootPath; // 0x18
 
 		::System::Void _ctor()

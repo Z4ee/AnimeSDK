@@ -4,11 +4,11 @@
 
 namespace System { class String; }
 
-#define RPG_GAMECORE_MAZEEXCELTABLE_SAVE_OFFSET UNITYSDK_OFFSET(0x198FF190)
+#define RPG_GAMECORE_MAZEEXCELTABLE_SAVE_OFFSET UNITYSDK_OFFSET(0x1AF49250)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MazeExcelTable_TypeDefinitionIndex = 14700;
+	inline static constexpr unsigned int MazeExcelTable_TypeDefinitionIndex = 14860;
 
 	class MazeExcelTable : public ::System::Object
 	{

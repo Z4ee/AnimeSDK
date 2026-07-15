@@ -5,10 +5,10 @@
 namespace RPG::Client { class FateGameData; }
 namespace System { class String; }
 
-#define CLASS_2_8CD35D5EC1D57B5E_METHOD_2_D5B2D22A976FD016_OFFSET UNITYSDK_OFFSET(0xA44E260)
-#define CLASS_2_8CD35D5EC1D57B5E__CTOR_OFFSET UNITYSDK_OFFSET(0xA44E2B0)
+#define CLASS_2_8CD35D5EC1D57B5E_METHOD_2_D5B2D22A976FD016_OFFSET UNITYSDK_OFFSET(0x178313C0)
+#define CLASS_2_8CD35D5EC1D57B5E__CTOR_OFFSET UNITYSDK_OFFSET(0x17831410)
 
-inline static constexpr unsigned int Class_2_8CD35D5EC1D57B5E_TypeDefinitionIndex = 59791;
+inline static constexpr unsigned int Class_2_8CD35D5EC1D57B5E_TypeDefinitionIndex = 61076;
 
 class Class_2_8CD35D5EC1D57B5E : public ::RPG::Client::FateGameBroadcastConditionCheckerSingleton_1<::Class_2_8CD35D5EC1D57B5E*>
 {

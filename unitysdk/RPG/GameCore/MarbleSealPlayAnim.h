@@ -4,13 +4,13 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_MARBLESEALPLAYANIM_METHOD_3_4B84E9FC3DBE24AE_OFFSET UNITYSDK_OFFSET(0x198D9710)
-#define RPG_GAMECORE_MARBLESEALPLAYANIM_METHOD_3_4FCA15F982F026CF_OFFSET UNITYSDK_OFFSET(0x198D9790)
-#define RPG_GAMECORE_MARBLESEALPLAYANIM__CTOR_OFFSET UNITYSDK_OFFSET(0x198D9760)
+#define RPG_GAMECORE_MARBLESEALPLAYANIM_METHOD_3_4FCA15F982F026CF_OFFSET UNITYSDK_OFFSET(0x1BD218C0)
+#define RPG_GAMECORE_MARBLESEALPLAYANIM_METHOD_3_7A90D78D9B1D07FC_OFFSET UNITYSDK_OFFSET(0x1BD21880)
+#define RPG_GAMECORE_MARBLESEALPLAYANIM__CTOR_OFFSET UNITYSDK_OFFSET(0x1BD218B0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MarbleSealPlayAnim_TypeDefinitionIndex = 20821;
+	inline static constexpr unsigned int MarbleSealPlayAnim_TypeDefinitionIndex = 21236;
 
 	class MarbleSealPlayAnim : public ::RPG::GameCore::TaskConfig
 	{
@@ -22,9 +22,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MARBLESEALPLAYANIM__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_4B84E9FC3DBE24AE(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::MarbleSealPlayAnim*& a2)
+		static ::System::Void Method_3_7A90D78D9B1D07FC(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::MarbleSealPlayAnim*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::MarbleSealPlayAnim*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MARBLESEALPLAYANIM_METHOD_3_4B84E9FC3DBE24AE_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::MarbleSealPlayAnim*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MARBLESEALPLAYANIM_METHOD_3_7A90D78D9B1D07FC_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_4FCA15F982F026CF(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::MarbleSealPlayAnim* a2)

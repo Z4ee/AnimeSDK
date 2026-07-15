@@ -5,11 +5,11 @@
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace System::Linq::Expressions::Interpreter { class LocalVariable; }
 
-#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_LOCALVARIABLES_VARIABLESCOPE__CTOR_OFFSET UNITYSDK_OFFSET(0x1ADA0430)
+#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_LOCALVARIABLES_VARIABLESCOPE__CTOR_OFFSET UNITYSDK_OFFSET(0x1C1B1EB0)
 
 namespace System::Linq::Expressions::Interpreter
 {
-	inline static constexpr unsigned int LocalVariables_VariableScope_TypeDefinitionIndex = 3509;
+	inline static constexpr unsigned int LocalVariables_VariableScope_TypeDefinitionIndex = 3513;
 
 	class LocalVariables_VariableScope : public ::System::Object
 	{

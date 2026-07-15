@@ -4,9 +4,9 @@
 
 namespace RPG::GameCore { class TaskConfig; }
 
-#define CLASS_1_0301444171B4FB72__CTOR_OFFSET UNITYSDK_OFFSET(0x140162A0)
+#define CLASS_1_0301444171B4FB72__CTOR_OFFSET UNITYSDK_OFFSET(0x15F32BC0)
 
-inline static constexpr unsigned int Class_1_0301444171B4FB72_TypeDefinitionIndex = 57083;
+inline static constexpr unsigned int Class_1_0301444171B4FB72_TypeDefinitionIndex = 58341;
 
 class Class_1_0301444171B4FB72 : public ::System::Object
 {

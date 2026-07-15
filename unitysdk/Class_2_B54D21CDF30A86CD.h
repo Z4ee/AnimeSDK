@@ -1,15 +1,15 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Class_1_ED6A06E6F11DAF49.h"
+#include "unitysdk/Class_1_ED6312566761D69A.h"
 
 namespace RPG::Client { class GridFightRole; }
 
-#define CLASS_2_B54D21CDF30A86CD_METHOD_2_4389275F4099DE36_OFFSET UNITYSDK_OFFSET(0x118F5A70)
-#define CLASS_2_B54D21CDF30A86CD__CTOR_OFFSET UNITYSDK_OFFSET(0x118F5A50)
+#define CLASS_2_B54D21CDF30A86CD_METHOD_2_4389275F4099DE36_OFFSET UNITYSDK_OFFSET(0x15E17FC0)
+#define CLASS_2_B54D21CDF30A86CD__CTOR_OFFSET UNITYSDK_OFFSET(0x15E17FA0)
 
-inline static constexpr unsigned int Class_2_B54D21CDF30A86CD_TypeDefinitionIndex = 60898;
+inline static constexpr unsigned int Class_2_B54D21CDF30A86CD_TypeDefinitionIndex = 62211;
 
-class Class_2_B54D21CDF30A86CD : public ::Class_1_ED6A06E6F11DAF49
+class Class_2_B54D21CDF30A86CD : public ::Class_1_ED6312566761D69A
 {
 public:
 	::RPG::Client::GridFightRole* Field_2_0; // 0x20

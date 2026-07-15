@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TimelineWrapMode_TypeDefinitionIndex = 23180;
+	inline static constexpr unsigned int TimelineWrapMode_TypeDefinitionIndex = 23660;
 
 	enum class TimelineWrapMode : ::System::Int32
 	{

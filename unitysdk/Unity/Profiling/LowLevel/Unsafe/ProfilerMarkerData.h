@@ -4,7 +4,7 @@
 
 namespace Unity::Profiling::LowLevel::Unsafe
 {
-	inline static constexpr unsigned int ProfilerMarkerData_TypeDefinitionIndex = 3939;
+	inline static constexpr unsigned int ProfilerMarkerData_TypeDefinitionIndex = 3943;
 
 	struct alignas(8) ProfilerMarkerData
 	{

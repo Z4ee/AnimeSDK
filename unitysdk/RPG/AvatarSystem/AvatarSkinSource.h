@@ -3,7 +3,7 @@
 
 namespace RPG::AvatarSystem
 {
-	inline static constexpr unsigned int AvatarSkinSource_TypeDefinitionIndex = 48597;
+	inline static constexpr unsigned int AvatarSkinSource_TypeDefinitionIndex = 49610;
 
 	enum class AvatarSkinSource : ::System::Int32
 	{

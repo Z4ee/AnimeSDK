@@ -3,9 +3,9 @@
 #include "unitysdk/RPG/GameCore/CakeRaceCellType.h"
 #include "unitysdk/System/ValueType.h"
 
-#define CLASS_2_F71D85F68E612E5E_STRUCT_2_FD8898F19E6BA539__CTOR_OFFSET UNITYSDK_OFFSET(0x3844570)
+#define CLASS_2_F71D85F68E612E5E_STRUCT_2_FD8898F19E6BA539__CTOR_OFFSET UNITYSDK_OFFSET(0x3979C30)
 
-inline static constexpr unsigned int Class_2_F71D85F68E612E5E_Struct_2_FD8898F19E6BA539_TypeDefinitionIndex = 34898;
+inline static constexpr unsigned int Class_2_F71D85F68E612E5E_Struct_2_FD8898F19E6BA539_TypeDefinitionIndex = 35680;
 
 struct alignas(4) Class_2_F71D85F68E612E5E_Struct_2_FD8898F19E6BA539
 {

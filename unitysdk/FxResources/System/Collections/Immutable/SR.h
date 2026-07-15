@@ -4,7 +4,7 @@
 
 namespace FxResources::System::Collections::Immutable
 {
-	inline static constexpr unsigned int SR_TypeDefinitionIndex = 6950;
+	inline static constexpr unsigned int SR_TypeDefinitionIndex = 6956;
 
 	class SR : public ::System::Object
 	{

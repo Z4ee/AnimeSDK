@@ -5,12 +5,12 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_SYSMAILGOTOCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x19CEB780)
-#define RPG_GAMECORE_SYSMAILGOTOCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x19CEC120)
+#define RPG_GAMECORE_SYSMAILGOTOCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B4461D0)
+#define RPG_GAMECORE_SYSMAILGOTOCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1B446C20)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SysMailGotoConfigRow_TypeDefinitionIndex = 14445;
+	inline static constexpr unsigned int SysMailGotoConfigRow_TypeDefinitionIndex = 14603;
 
 	class SysMailGotoConfigRow : public ::System::Object
 	{

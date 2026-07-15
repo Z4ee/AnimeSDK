@@ -5,13 +5,13 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class TargetEvaluator; }
 
-#define RPG_GAMECORE_ADVENABLEENTITYLINKCABLE_METHOD_3_20537F954DE51328_OFFSET UNITYSDK_OFFSET(0x19421530)
-#define RPG_GAMECORE_ADVENABLEENTITYLINKCABLE_METHOD_3_77623C071185D79E_OFFSET UNITYSDK_OFFSET(0x194214B0)
-#define RPG_GAMECORE_ADVENABLEENTITYLINKCABLE__CTOR_OFFSET UNITYSDK_OFFSET(0x19421500)
+#define RPG_GAMECORE_ADVENABLEENTITYLINKCABLE_METHOD_3_1CCEAB5281E3B157_OFFSET UNITYSDK_OFFSET(0x1BE19FD0)
+#define RPG_GAMECORE_ADVENABLEENTITYLINKCABLE_METHOD_3_20537F954DE51328_OFFSET UNITYSDK_OFFSET(0x1BE1A010)
+#define RPG_GAMECORE_ADVENABLEENTITYLINKCABLE__CTOR_OFFSET UNITYSDK_OFFSET(0x1BE1A000)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AdvEnableEntityLinkCable_TypeDefinitionIndex = 20592;
+	inline static constexpr unsigned int AdvEnableEntityLinkCable_TypeDefinitionIndex = 21007;
 
 	class AdvEnableEntityLinkCable : public ::RPG::GameCore::TaskConfig
 	{
@@ -24,9 +24,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVENABLEENTITYLINKCABLE__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_77623C071185D79E(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AdvEnableEntityLinkCable*& a2)
+		static ::System::Void Method_3_1CCEAB5281E3B157(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AdvEnableEntityLinkCable*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::AdvEnableEntityLinkCable*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVENABLEENTITYLINKCABLE_METHOD_3_77623C071185D79E_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::AdvEnableEntityLinkCable*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVENABLEENTITYLINKCABLE_METHOD_3_1CCEAB5281E3B157_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_20537F954DE51328(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AdvEnableEntityLinkCable* a2)

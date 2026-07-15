@@ -4,12 +4,12 @@
 
 namespace RPG::Client { class GridFightTraitEffectEnhanceSelectConfig; }
 
-#define RPG_CLIENT_GRIDFIGHTTRAITENHANCECHOOSEEFFECT___C__DISPLAYCLASS4_0__CTOR_OFFSET UNITYSDK_OFFSET(0xBC2DD90)
-#define RPG_CLIENT_GRIDFIGHTTRAITENHANCECHOOSEEFFECT___C__DISPLAYCLASS4_0___GETCURRENTOPTIONCONFIGLIST_B__1_OFFSET UNITYSDK_OFFSET(0xBC2DDF0)
+#define RPG_CLIENT_GRIDFIGHTTRAITENHANCECHOOSEEFFECT___C__DISPLAYCLASS4_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1A60B140)
+#define RPG_CLIENT_GRIDFIGHTTRAITENHANCECHOOSEEFFECT___C__DISPLAYCLASS4_0___GETCURRENTOPTIONCONFIGLIST_B__1_OFFSET UNITYSDK_OFFSET(0x1A60B150)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GridFightTraitEnhanceChooseEffect___c__DisplayClass4_0_TypeDefinitionIndex = 61144;
+	inline static constexpr unsigned int GridFightTraitEnhanceChooseEffect___c__DisplayClass4_0_TypeDefinitionIndex = 62473;
 
 	class GridFightTraitEnhanceChooseEffect___c__DisplayClass4_0 : public ::System::Object
 	{

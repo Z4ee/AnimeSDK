@@ -7,13 +7,13 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class TargetEvaluator; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_ADDBEHAVIORFLAGFORMODIFIER_METHOD_3_3FAC58DC867084CF_OFFSET UNITYSDK_OFFSET(0x1940B7E0)
-#define RPG_GAMECORE_ADDBEHAVIORFLAGFORMODIFIER_METHOD_3_E18EC677A56B6E12_OFFSET UNITYSDK_OFFSET(0x1940B860)
-#define RPG_GAMECORE_ADDBEHAVIORFLAGFORMODIFIER__CTOR_OFFSET UNITYSDK_OFFSET(0x1940B830)
+#define RPG_GAMECORE_ADDBEHAVIORFLAGFORMODIFIER_METHOD_3_3920A5A384100847_OFFSET UNITYSDK_OFFSET(0x1BE03F70)
+#define RPG_GAMECORE_ADDBEHAVIORFLAGFORMODIFIER_METHOD_3_E18EC677A56B6E12_OFFSET UNITYSDK_OFFSET(0x1BE03FB0)
+#define RPG_GAMECORE_ADDBEHAVIORFLAGFORMODIFIER__CTOR_OFFSET UNITYSDK_OFFSET(0x1BE03FA0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AddBehaviorFlagForModifier_TypeDefinitionIndex = 22339;
+	inline static constexpr unsigned int AddBehaviorFlagForModifier_TypeDefinitionIndex = 22781;
 
 	class AddBehaviorFlagForModifier : public ::RPG::GameCore::TaskConfig
 	{
@@ -28,9 +28,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADDBEHAVIORFLAGFORMODIFIER__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_3FAC58DC867084CF(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AddBehaviorFlagForModifier*& a2)
+		static ::System::Void Method_3_3920A5A384100847(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AddBehaviorFlagForModifier*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::AddBehaviorFlagForModifier*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADDBEHAVIORFLAGFORMODIFIER_METHOD_3_3FAC58DC867084CF_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::AddBehaviorFlagForModifier*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADDBEHAVIORFLAGFORMODIFIER_METHOD_3_3920A5A384100847_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_E18EC677A56B6E12(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AddBehaviorFlagForModifier* a2)

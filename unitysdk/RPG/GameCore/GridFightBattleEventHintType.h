@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int GridFightBattleEventHintType_TypeDefinitionIndex = 23363;
+	inline static constexpr unsigned int GridFightBattleEventHintType_TypeDefinitionIndex = 23850;
 
 	enum class GridFightBattleEventHintType : ::System::Int32
 	{

@@ -4,13 +4,13 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_TRAVELSHIPRESETSTATE_METHOD_3_1A6F4C6FAAC2A2AD_OFFSET UNITYSDK_OFFSET(0x19E01190)
-#define RPG_GAMECORE_TRAVELSHIPRESETSTATE_METHOD_3_302EE82858B35AD4_OFFSET UNITYSDK_OFFSET(0x19E01100)
-#define RPG_GAMECORE_TRAVELSHIPRESETSTATE__CTOR_OFFSET UNITYSDK_OFFSET(0x19E01160)
+#define RPG_GAMECORE_TRAVELSHIPRESETSTATE_METHOD_3_1A6F4C6FAAC2A2AD_OFFSET UNITYSDK_OFFSET(0x1B03F110)
+#define RPG_GAMECORE_TRAVELSHIPRESETSTATE_METHOD_3_C7A767B6207627C8_OFFSET UNITYSDK_OFFSET(0x1B03F0C0)
+#define RPG_GAMECORE_TRAVELSHIPRESETSTATE__CTOR_OFFSET UNITYSDK_OFFSET(0x1B03F100)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TravelShipResetState_TypeDefinitionIndex = 19828;
+	inline static constexpr unsigned int TravelShipResetState_TypeDefinitionIndex = 20188;
 
 	class TravelShipResetState : public ::RPG::GameCore::TaskConfig
 	{
@@ -23,9 +23,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TRAVELSHIPRESETSTATE__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_302EE82858B35AD4(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::TravelShipResetState*& a2)
+		static ::System::Void Method_3_C7A767B6207627C8(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::TravelShipResetState*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::TravelShipResetState*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TRAVELSHIPRESETSTATE_METHOD_3_302EE82858B35AD4_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::TravelShipResetState*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TRAVELSHIPRESETSTATE_METHOD_3_C7A767B6207627C8_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_1A6F4C6FAAC2A2AD(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::TravelShipResetState* a2)

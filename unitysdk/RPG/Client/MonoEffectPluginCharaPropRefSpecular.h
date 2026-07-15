@@ -8,14 +8,13 @@ namespace UnityEngine { class Material; }
 namespace UnityEngine { class Texture2D; }
 namespace UnityEngine { class Texture; }
 
-#define RPG_CLIENT_MONOEFFECTPLUGINCHARAPROPREFSPECULAR_GETBASECHARACTERFILTER_OFFSET UNITYSDK_OFFSET(0xC0C9A70)
-#define RPG_CLIENT_MONOEFFECTPLUGINCHARAPROPREFSPECULAR_UPDATEPROPERTY_OFFSET UNITYSDK_OFFSET(0xC0C9AE0)
-#define RPG_CLIENT_MONOEFFECTPLUGINCHARAPROPREFSPECULAR__CTOR_OFFSET UNITYSDK_OFFSET(0xC0C9E40)
-#define RPG_CLIENT_MONOEFFECTPLUGINCHARAPROPREFSPECULAR___IFIXBASEPROXY_GETBASECHARACTERFILTER_OFFSET UNITYSDK_OFFSET(0xC0C9E60)
+#define RPG_CLIENT_MONOEFFECTPLUGINCHARAPROPREFSPECULAR_GETBASECHARACTERFILTER_OFFSET UNITYSDK_OFFSET(0x19118420)
+#define RPG_CLIENT_MONOEFFECTPLUGINCHARAPROPREFSPECULAR_UPDATEPROPERTY_OFFSET UNITYSDK_OFFSET(0x19118490)
+#define RPG_CLIENT_MONOEFFECTPLUGINCHARAPROPREFSPECULAR__CTOR_OFFSET UNITYSDK_OFFSET(0x191187F0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MonoEffectPluginCharaPropRefSpecular_TypeDefinitionIndex = 65426;
+	inline static constexpr unsigned int MonoEffectPluginCharaPropRefSpecular_TypeDefinitionIndex = 66839;
 
 	class MonoEffectPluginCharaPropRefSpecular : public ::RPG::Client::MonoEffectPluginCharaPropBase
 	{
@@ -41,11 +40,6 @@ namespace RPG::Client
 		::System::Void UpdateProperty(::System::Collections::Generic::List_1<::UnityEngine::Material*>* a1, ::System::Boolean a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::UnityEngine::Material*>*, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOEFFECTPLUGINCHARAPROPREFSPECULAR_UPDATEPROPERTY_OFFSET))(this, a1, a2);
-		}
-
-		::Il2CppArray<::System::String*>* __iFixBaseProxy_GetBaseCharacterFilter()
-		{
-			return ((::Il2CppArray<::System::String*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOEFFECTPLUGINCHARAPROPREFSPECULAR___IFIXBASEPROXY_GETBASECHARACTERFILTER_OFFSET))(this);
 		}
 	};
 }

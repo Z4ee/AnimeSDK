@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class RefreshFormationCenter; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_7988674DD3C42F43_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xC96FBA0)
-#define CLASS_3_7988674DD3C42F43__CTOR_OFFSET UNITYSDK_OFFSET(0xC96FB70)
+#define CLASS_3_7988674DD3C42F43_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x175E6370)
+#define CLASS_3_7988674DD3C42F43__CTOR_OFFSET UNITYSDK_OFFSET(0x175E6340)
 
-inline static constexpr unsigned int Class_3_7988674DD3C42F43_TypeDefinitionIndex = 52645;
+inline static constexpr unsigned int Class_3_7988674DD3C42F43_TypeDefinitionIndex = 53849;
 
 class Class_3_7988674DD3C42F43 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::RefreshFormationCenter*>
 {

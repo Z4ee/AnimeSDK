@@ -5,7 +5,7 @@
 namespace System { class Exception; }
 template <typename T> class Class_2_FF19A2A9236C6A14;
 
-inline static constexpr unsigned int Class_2_FF19A2A9236C6A14_TypeDefinitionIndex = 46428;
+inline static constexpr unsigned int Class_2_FF19A2A9236C6A14_TypeDefinitionIndex = 47393;
 
 template <typename T>
 class Class_2_FF19A2A9236C6A14 : public ::Class_1_4C4D78409624DBE5<T>

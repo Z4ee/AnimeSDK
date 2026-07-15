@@ -6,29 +6,29 @@ namespace RPG::Client { class GridFightNPC; }
 namespace RPG::Client { class GridFightRole; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define RPG_CLIENT_GRIDFIGHTTRAITREMARKLINEEQUIPACTIVATESTATEPARSER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xBC30270)
-#define RPG_CLIENT_GRIDFIGHTTRAITREMARKLINEEQUIPACTIVATESTATEPARSER___C__CTOR_OFFSET UNITYSDK_OFFSET(0xBC302B0)
-#define RPG_CLIENT_GRIDFIGHTTRAITREMARKLINEEQUIPACTIVATESTATEPARSER___C___GETISACTIVE_B__1_0_OFFSET UNITYSDK_OFFSET(0xBC302C0)
-#define RPG_CLIENT_GRIDFIGHTTRAITREMARKLINEEQUIPACTIVATESTATEPARSER___C___GETISACTIVE_B__1_1_OFFSET UNITYSDK_OFFSET(0xBC302E0)
+#define RPG_CLIENT_GRIDFIGHTTRAITREMARKLINEEQUIPACTIVATESTATEPARSER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1A60E610)
+#define RPG_CLIENT_GRIDFIGHTTRAITREMARKLINEEQUIPACTIVATESTATEPARSER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1A60E650)
+#define RPG_CLIENT_GRIDFIGHTTRAITREMARKLINEEQUIPACTIVATESTATEPARSER___C___GETISACTIVE_B__1_0_OFFSET UNITYSDK_OFFSET(0x1A60E660)
+#define RPG_CLIENT_GRIDFIGHTTRAITREMARKLINEEQUIPACTIVATESTATEPARSER___C___GETISACTIVE_B__1_1_OFFSET UNITYSDK_OFFSET(0x1A60E6C0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GridFightTraitRemarkLineEquipActivateStateParser___c_TypeDefinitionIndex = 61220;
+	inline static constexpr unsigned int GridFightTraitRemarkLineEquipActivateStateParser___c_TypeDefinitionIndex = 62562;
 
 	class GridFightTraitRemarkLineEquipActivateStateParser___c : public ::System::Object
 	{
 	public:
-		static ::RPG::Client::GridFightTraitRemarkLineEquipActivateStateParser___c** StaticGet___9()
-		{
-			return (::RPG::Client::GridFightTraitRemarkLineEquipActivateStateParser___c**)Il2CppClass::FromTypeDefinitionIndex(GridFightTraitRemarkLineEquipActivateStateParser___c_TypeDefinitionIndex)->GetStaticField(0x3CEF0);
-		}
 		static ::System::Func_2<::RPG::Client::GridFightRole*, ::System::Boolean>** StaticGet___9__1_0()
 		{
-			return (::System::Func_2<::RPG::Client::GridFightRole*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(GridFightTraitRemarkLineEquipActivateStateParser___c_TypeDefinitionIndex)->GetStaticField(0x3CEF8);
+			return (::System::Func_2<::RPG::Client::GridFightRole*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(GridFightTraitRemarkLineEquipActivateStateParser___c_TypeDefinitionIndex)->GetStaticField(0x2E270);
 		}
 		static ::System::Func_2<::RPG::Client::GridFightNPC*, ::System::Boolean>** StaticGet___9__1_1()
 		{
-			return (::System::Func_2<::RPG::Client::GridFightNPC*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(GridFightTraitRemarkLineEquipActivateStateParser___c_TypeDefinitionIndex)->GetStaticField(0x3CF00);
+			return (::System::Func_2<::RPG::Client::GridFightNPC*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(GridFightTraitRemarkLineEquipActivateStateParser___c_TypeDefinitionIndex)->GetStaticField(0x2E278);
+		}
+		static ::RPG::Client::GridFightTraitRemarkLineEquipActivateStateParser___c** StaticGet___9()
+		{
+			return (::RPG::Client::GridFightTraitRemarkLineEquipActivateStateParser___c**)Il2CppClass::FromTypeDefinitionIndex(GridFightTraitRemarkLineEquipActivateStateParser___c_TypeDefinitionIndex)->GetStaticField(0x2E280);
 		}
 
 		static ::System::Void _cctor()

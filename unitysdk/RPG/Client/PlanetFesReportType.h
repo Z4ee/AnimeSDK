@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int PlanetFesReportType_TypeDefinitionIndex = 62341;
+	inline static constexpr unsigned int PlanetFesReportType_TypeDefinitionIndex = 63707;
 
 	enum class PlanetFesReportType : ::System::Int32
 	{

@@ -9,20 +9,20 @@ namespace RPG::GameCore { class TurnBasedModifierInstance; }
 namespace System { template <typename T> class Predicate_1; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define CLASS_1_93C352ED7897F063___C__DISPLAYCLASS4_0__CTOR_OFFSET UNITYSDK_OFFSET(0xAFDABF0)
-#define CLASS_1_93C352ED7897F063___C__DISPLAYCLASS4_0__ENTITYSORT_SORTBYMODIFIERVALUE_B__3_OFFSET UNITYSDK_OFFSET(0xAFDB4B0)
-#define CLASS_1_93C352ED7897F063___C__DISPLAYCLASS4_0__ENTITYSORT_SORTBYMODIFIERVALUE_G___COMPAREIMPLMAXFISRT_1_OFFSET UNITYSDK_OFFSET(0xAFDB750)
-#define CLASS_1_93C352ED7897F063___C__DISPLAYCLASS4_0__ENTITYSORT_SORTBYMODIFIERVALUE_G___COMPAREIMPLMINFISRT_0_OFFSET UNITYSDK_OFFSET(0xAFDB5B0)
+#define CLASS_1_93C352ED7897F063___C__DISPLAYCLASS4_0__CTOR_OFFSET UNITYSDK_OFFSET(0x16165920)
+#define CLASS_1_93C352ED7897F063___C__DISPLAYCLASS4_0__ENTITYSORT_SORTBYMODIFIERVALUE_B__3_OFFSET UNITYSDK_OFFSET(0x16166250)
+#define CLASS_1_93C352ED7897F063___C__DISPLAYCLASS4_0__ENTITYSORT_SORTBYMODIFIERVALUE_G___COMPAREIMPLMAXFISRT_1_OFFSET UNITYSDK_OFFSET(0x16166480)
+#define CLASS_1_93C352ED7897F063___C__DISPLAYCLASS4_0__ENTITYSORT_SORTBYMODIFIERVALUE_G___COMPAREIMPLMINFISRT_0_OFFSET UNITYSDK_OFFSET(0x161662E0)
 
-inline static constexpr unsigned int Class_1_93C352ED7897F063___c__DisplayClass4_0_TypeDefinitionIndex = 51959;
+inline static constexpr unsigned int Class_1_93C352ED7897F063___c__DisplayClass4_0_TypeDefinitionIndex = 53112;
 
 class Class_1_93C352ED7897F063___c__DisplayClass4_0 : public ::System::Object
 {
 public:
-	::RPG::GameCore::SortByModifierValue* config; // 0x10
-	::System::Predicate_1<::RPG::GameCore::TurnBasedModifierInstance*>* __9__3; // 0x18
-	::System::Collections::Generic::Dictionary_2<::RPG::GameCore::GameEntity*, ::RPG::GameCore::FixPoint>* _SortScoreDict; // 0x20
-	::RPG::GameCore::GameEntity* _Caster; // 0x28
+	::System::Collections::Generic::Dictionary_2<::RPG::GameCore::GameEntity*, ::RPG::GameCore::FixPoint>* _SortScoreDict; // 0x10
+	::RPG::GameCore::SortByModifierValue* config; // 0x18
+	::RPG::GameCore::GameEntity* _Caster; // 0x20
+	::System::Predicate_1<::RPG::GameCore::TurnBasedModifierInstance*>* __9__3; // 0x28
 
 	::System::Void _ctor()
 	{

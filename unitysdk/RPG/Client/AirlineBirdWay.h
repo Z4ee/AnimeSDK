@@ -6,13 +6,12 @@
 namespace RPG::Client { class AirlineVariableSpeedRange; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_AIRLINEBIRDWAY_AWAKE_OFFSET UNITYSDK_OFFSET(0xB2D59C0)
-#define RPG_CLIENT_AIRLINEBIRDWAY__CTOR_OFFSET UNITYSDK_OFFSET(0xB2D62F0)
-#define RPG_CLIENT_AIRLINEBIRDWAY___IFIXBASEPROXY_AWAKE_OFFSET UNITYSDK_OFFSET(0xB2D6350)
+#define RPG_CLIENT_AIRLINEBIRDWAY_AWAKE_OFFSET UNITYSDK_OFFSET(0x17EB6680)
+#define RPG_CLIENT_AIRLINEBIRDWAY__CTOR_OFFSET UNITYSDK_OFFSET(0x17EB6E90)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int AirlineBirdWay_TypeDefinitionIndex = 55897;
+	inline static constexpr unsigned int AirlineBirdWay_TypeDefinitionIndex = 57136;
 
 	class AirlineBirdWay : public ::RPG::Client::Airline
 	{
@@ -32,11 +31,6 @@ namespace RPG::Client
 		::System::Void Awake()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_AIRLINEBIRDWAY_AWAKE_OFFSET))(this);
-		}
-
-		::System::Void __iFixBaseProxy_Awake()
-		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_AIRLINEBIRDWAY___IFIXBASEPROXY_AWAKE_OFFSET))(this);
 		}
 	};
 }

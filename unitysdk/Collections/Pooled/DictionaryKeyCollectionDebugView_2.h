@@ -6,7 +6,7 @@ namespace System::Collections::Generic { template <typename T> class ICollection
 
 namespace Collections::Pooled
 {
-	inline static constexpr unsigned int DictionaryKeyCollectionDebugView_2_TypeDefinitionIndex = 5069;
+	inline static constexpr unsigned int DictionaryKeyCollectionDebugView_2_TypeDefinitionIndex = 5074;
 
 	template <typename TKey, typename TValue>
 	class DictionaryKeyCollectionDebugView_2 : public ::System::Object

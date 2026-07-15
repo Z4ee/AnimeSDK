@@ -7,15 +7,13 @@
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine::Timeline { class TimelineClip; }
 
-#define RPGTOOLS_TIMELINE_STORYLIGHTCONTROLTRACK_CREATETRACKMIXER_OFFSET UNITYSDK_OFFSET(0xD05B970)
-#define RPGTOOLS_TIMELINE_STORYLIGHTCONTROLTRACK_ONCREATECLIP_OFFSET UNITYSDK_OFFSET(0xD05BF10)
-#define RPGTOOLS_TIMELINE_STORYLIGHTCONTROLTRACK__CTOR_OFFSET UNITYSDK_OFFSET(0xD05C000)
-#define RPGTOOLS_TIMELINE_STORYLIGHTCONTROLTRACK___IFIXBASEPROXY_CREATETRACKMIXER_OFFSET UNITYSDK_OFFSET(0xD05C0E0)
-#define RPGTOOLS_TIMELINE_STORYLIGHTCONTROLTRACK___IFIXBASEPROXY_ONCREATECLIP_OFFSET UNITYSDK_OFFSET(0xD05C180)
+#define RPGTOOLS_TIMELINE_STORYLIGHTCONTROLTRACK_CREATETRACKMIXER_OFFSET UNITYSDK_OFFSET(0x19F4C040)
+#define RPGTOOLS_TIMELINE_STORYLIGHTCONTROLTRACK_ONCREATECLIP_OFFSET UNITYSDK_OFFSET(0x19F4CDD0)
+#define RPGTOOLS_TIMELINE_STORYLIGHTCONTROLTRACK__CTOR_OFFSET UNITYSDK_OFFSET(0x19F4CE90)
 
 namespace RPGTools::Timeline
 {
-	inline static constexpr unsigned int StoryLightControlTrack_TypeDefinitionIndex = 45626;
+	inline static constexpr unsigned int StoryLightControlTrack_TypeDefinitionIndex = 46560;
 
 	class StoryLightControlTrack : public ::UnityEngine::Timeline::TrackAsset
 	{
@@ -35,16 +33,6 @@ namespace RPGTools::Timeline
 		::System::Void OnCreateClip(::UnityEngine::Timeline::TimelineClip* a1)
 		{
 			return ((::System::Void(*)(::PVOID, ::UnityEngine::Timeline::TimelineClip*))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_STORYLIGHTCONTROLTRACK_ONCREATECLIP_OFFSET))(this, a1);
-		}
-
-		::UnityEngine::Playables::Playable __iFixBaseProxy_CreateTrackMixer(::UnityEngine::Playables::PlayableGraph a1, ::UnityEngine::GameObject* a2, ::System::Int32 a3)
-		{
-			return ((::UnityEngine::Playables::Playable(*)(::PVOID, ::UnityEngine::Playables::PlayableGraph, ::UnityEngine::GameObject*, ::System::Int32))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_STORYLIGHTCONTROLTRACK___IFIXBASEPROXY_CREATETRACKMIXER_OFFSET))(this, a1, a2, a3);
-		}
-
-		::System::Void __iFixBaseProxy_OnCreateClip(::UnityEngine::Timeline::TimelineClip* a1)
-		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Timeline::TimelineClip*))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_STORYLIGHTCONTROLTRACK___IFIXBASEPROXY_ONCREATECLIP_OFFSET))(this, a1);
 		}
 	};
 }

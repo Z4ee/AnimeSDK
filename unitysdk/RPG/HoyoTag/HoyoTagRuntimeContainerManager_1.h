@@ -10,7 +10,7 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::HoyoTag
 {
-	inline static constexpr unsigned int HoyoTagRuntimeContainerManager_1_TypeDefinitionIndex = 48400;
+	inline static constexpr unsigned int HoyoTagRuntimeContainerManager_1_TypeDefinitionIndex = 49399;
 
 	template <typename T>
 	class HoyoTagRuntimeContainerManager_1 : public ::System::Object

@@ -6,9 +6,9 @@
 namespace RPG::GameCore { class CakeRaceRegionConfig; }
 namespace System::Collections::Generic { template <typename T> class HashSet_1; }
 
-#define CLASS_1_E8E63295DCAF8D1A__CTOR_OFFSET UNITYSDK_OFFSET(0x18B74FF0)
+#define CLASS_1_E8E63295DCAF8D1A__CTOR_OFFSET UNITYSDK_OFFSET(0x18170100)
 
-inline static constexpr unsigned int Class_1_E8E63295DCAF8D1A_TypeDefinitionIndex = 34895;
+inline static constexpr unsigned int Class_1_E8E63295DCAF8D1A_TypeDefinitionIndex = 35677;
 
 class Class_1_E8E63295DCAF8D1A : public ::System::Object
 {

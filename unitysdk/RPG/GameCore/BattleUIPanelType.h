@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int BattleUIPanelType_TypeDefinitionIndex = 23306;
+	inline static constexpr unsigned int BattleUIPanelType_TypeDefinitionIndex = 23792;
 
 	enum class BattleUIPanelType : ::System::Int32
 	{
@@ -27,12 +27,13 @@ namespace RPG::GameCore
 		SkillButtonDoubleUltra02 = 17,
 		SkillButtonDoubleUpDownUltra01 = 18,
 		SkillButtonDoubleUpDownUltra02 = 19,
-		SpecialAvatarButtonGroups = 20,
-		ShortCutHintInfoPanel = 21,
-		BattleScreenEffectPanel = 22,
-		ActionBarWaveInfo = 23,
-		TurnHintPanel = 24,
-		BPTopPanel = 25,
-		Count = 26,
+		SkillButtonAssist = 20,
+		SpecialAvatarButtonGroups = 21,
+		ShortCutHintInfoPanel = 22,
+		BattleScreenEffectPanel = 23,
+		ActionBarWaveInfo = 24,
+		TurnHintPanel = 25,
+		BPTopPanel = 26,
+		Count = 27,
 	};
 }

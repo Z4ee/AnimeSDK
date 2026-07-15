@@ -5,13 +5,13 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_SO_PLAYINTERACTONPOINT_METHOD_4_94DDEB05A6232D54_OFFSET UNITYSDK_OFFSET(0x19BFD700)
-#define RPG_GAMECORE_SO_PLAYINTERACTONPOINT_METHOD_4_B8DFF11F99D7C9E2_OFFSET UNITYSDK_OFFSET(0x19BFE0D0)
-#define RPG_GAMECORE_SO_PLAYINTERACTONPOINT__CTOR_OFFSET UNITYSDK_OFFSET(0x19BFD6D0)
+#define RPG_GAMECORE_SO_PLAYINTERACTONPOINT_METHOD_4_94DDEB05A6232D54_OFFSET UNITYSDK_OFFSET(0x1B775F40)
+#define RPG_GAMECORE_SO_PLAYINTERACTONPOINT_METHOD_4_AECD304FF6A05641_OFFSET UNITYSDK_OFFSET(0x1B776820)
+#define RPG_GAMECORE_SO_PLAYINTERACTONPOINT__CTOR_OFFSET UNITYSDK_OFFSET(0x1B775F30)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SO_PlayInteractOnPoint_TypeDefinitionIndex = 18939;
+	inline static constexpr unsigned int SO_PlayInteractOnPoint_TypeDefinitionIndex = 19289;
 
 	class SO_PlayInteractOnPoint : public ::RPG::GameCore::SOTaskConfig
 	{
@@ -28,9 +28,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SO_PLAYINTERACTONPOINT__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_4_B8DFF11F99D7C9E2(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SO_PlayInteractOnPoint*& a2)
+		static ::System::Void Method_4_AECD304FF6A05641(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SO_PlayInteractOnPoint*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SO_PlayInteractOnPoint*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SO_PLAYINTERACTONPOINT_METHOD_4_B8DFF11F99D7C9E2_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SO_PlayInteractOnPoint*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SO_PLAYINTERACTONPOINT_METHOD_4_AECD304FF6A05641_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_4_94DDEB05A6232D54(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SO_PlayInteractOnPoint* a2)

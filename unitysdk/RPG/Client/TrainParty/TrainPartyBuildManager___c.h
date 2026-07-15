@@ -5,24 +5,24 @@
 namespace RPG::Client::TrainParty { class TrainPartyBuildAreaInfo; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define RPG_CLIENT_TRAINPARTY_TRAINPARTYBUILDMANAGER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xCAA39C0)
-#define RPG_CLIENT_TRAINPARTY_TRAINPARTYBUILDMANAGER___C__CTOR_OFFSET UNITYSDK_OFFSET(0xCAA3A00)
-#define RPG_CLIENT_TRAINPARTY_TRAINPARTYBUILDMANAGER___C__GETSHOWINACTIVITYAREAINFOLIST_B__55_0_OFFSET UNITYSDK_OFFSET(0xCAA3A10)
+#define RPG_CLIENT_TRAINPARTY_TRAINPARTYBUILDMANAGER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1A2B7620)
+#define RPG_CLIENT_TRAINPARTY_TRAINPARTYBUILDMANAGER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1A2B7660)
+#define RPG_CLIENT_TRAINPARTY_TRAINPARTYBUILDMANAGER___C__GETSHOWINACTIVITYAREAINFOLIST_B__55_0_OFFSET UNITYSDK_OFFSET(0x1A2B7670)
 
 namespace RPG::Client::TrainParty
 {
-	inline static constexpr unsigned int TrainPartyBuildManager___c_TypeDefinitionIndex = 69380;
+	inline static constexpr unsigned int TrainPartyBuildManager___c_TypeDefinitionIndex = 70901;
 
 	class TrainPartyBuildManager___c : public ::System::Object
 	{
 	public:
-		static ::System::Func_2<::RPG::Client::TrainParty::TrainPartyBuildAreaInfo*, ::System::Boolean>** StaticGet___9__55_0()
-		{
-			return (::System::Func_2<::RPG::Client::TrainParty::TrainPartyBuildAreaInfo*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(TrainPartyBuildManager___c_TypeDefinitionIndex)->GetStaticField(0x56620);
-		}
 		static ::RPG::Client::TrainParty::TrainPartyBuildManager___c** StaticGet___9()
 		{
-			return (::RPG::Client::TrainParty::TrainPartyBuildManager___c**)Il2CppClass::FromTypeDefinitionIndex(TrainPartyBuildManager___c_TypeDefinitionIndex)->GetStaticField(0x56628);
+			return (::RPG::Client::TrainParty::TrainPartyBuildManager___c**)Il2CppClass::FromTypeDefinitionIndex(TrainPartyBuildManager___c_TypeDefinitionIndex)->GetStaticField(0x45700);
+		}
+		static ::System::Func_2<::RPG::Client::TrainParty::TrainPartyBuildAreaInfo*, ::System::Boolean>** StaticGet___9__55_0()
+		{
+			return (::System::Func_2<::RPG::Client::TrainParty::TrainPartyBuildAreaInfo*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(TrainPartyBuildManager___c_TypeDefinitionIndex)->GetStaticField(0x45708);
 		}
 
 		static ::System::Void _cctor()

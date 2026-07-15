@@ -6,7 +6,7 @@ namespace System::Text::RegularExpressions { class RegexRunner; }
 
 namespace System::Text::RegularExpressions
 {
-	inline static constexpr unsigned int RegexRunnerFactory_TypeDefinitionIndex = 2517;
+	inline static constexpr unsigned int RegexRunnerFactory_TypeDefinitionIndex = 2521;
 
 	class RegexRunnerFactory : public ::System::Object
 	{

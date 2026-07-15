@@ -5,9 +5,9 @@
 
 class Class_1_C3183153408A386B;
 
-#define STRUCT_2_127EAB4936C75FCC__CTOR_OFFSET UNITYSDK_OFFSET(0x2FAF0)
+#define STRUCT_2_127EAB4936C75FCC__CTOR_OFFSET UNITYSDK_OFFSET(0x387D9D0)
 
-inline static constexpr unsigned int Struct_2_127EAB4936C75FCC_TypeDefinitionIndex = 53488;
+inline static constexpr unsigned int Struct_2_127EAB4936C75FCC_TypeDefinitionIndex = 54704;
 
 struct alignas(8) Struct_2_127EAB4936C75FCC
 {

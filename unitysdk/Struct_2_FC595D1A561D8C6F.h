@@ -4,9 +4,9 @@
 #include "unitysdk/UnityEngine/Quaternion.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-#define STRUCT_2_FC595D1A561D8C6F__CTOR_OFFSET UNITYSDK_OFFSET(0x7AEC0)
+#define STRUCT_2_FC595D1A561D8C6F__CTOR_OFFSET UNITYSDK_OFFSET(0x397F1D0)
 
-inline static constexpr unsigned int Struct_2_FC595D1A561D8C6F_TypeDefinitionIndex = 60013;
+inline static constexpr unsigned int Struct_2_FC595D1A561D8C6F_TypeDefinitionIndex = 61298;
 
 struct alignas(4) Struct_2_FC595D1A561D8C6F
 {

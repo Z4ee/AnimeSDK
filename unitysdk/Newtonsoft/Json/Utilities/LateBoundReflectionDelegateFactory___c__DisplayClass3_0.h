@@ -5,19 +5,19 @@
 namespace System::Reflection { class ConstructorInfo; }
 namespace System::Reflection { class MethodBase; }
 
-#define NEWTONSOFT_JSON_UTILITIES_LATEBOUNDREFLECTIONDELEGATEFACTORY___C__DISPLAYCLASS3_0__CREATEPARAMETERIZEDCONSTRUCTOR_B__0_OFFSET UNITYSDK_OFFSET(0x1887B1A0)
-#define NEWTONSOFT_JSON_UTILITIES_LATEBOUNDREFLECTIONDELEGATEFACTORY___C__DISPLAYCLASS3_0__CREATEPARAMETERIZEDCONSTRUCTOR_B__1_OFFSET UNITYSDK_OFFSET(0x1887B210)
-#define NEWTONSOFT_JSON_UTILITIES_LATEBOUNDREFLECTIONDELEGATEFACTORY___C__DISPLAYCLASS3_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1887B140)
+#define NEWTONSOFT_JSON_UTILITIES_LATEBOUNDREFLECTIONDELEGATEFACTORY___C__DISPLAYCLASS3_0__CREATEPARAMETERIZEDCONSTRUCTOR_B__0_OFFSET UNITYSDK_OFFSET(0x15BCC0C0)
+#define NEWTONSOFT_JSON_UTILITIES_LATEBOUNDREFLECTIONDELEGATEFACTORY___C__DISPLAYCLASS3_0__CREATEPARAMETERIZEDCONSTRUCTOR_B__1_OFFSET UNITYSDK_OFFSET(0x15BCC0E0)
+#define NEWTONSOFT_JSON_UTILITIES_LATEBOUNDREFLECTIONDELEGATEFACTORY___C__DISPLAYCLASS3_0__CTOR_OFFSET UNITYSDK_OFFSET(0x15BCC060)
 
 namespace Newtonsoft::Json::Utilities
 {
-	inline static constexpr unsigned int LateBoundReflectionDelegateFactory___c__DisplayClass3_0_TypeDefinitionIndex = 9288;
+	inline static constexpr unsigned int LateBoundReflectionDelegateFactory___c__DisplayClass3_0_TypeDefinitionIndex = 9300;
 
 	class LateBoundReflectionDelegateFactory___c__DisplayClass3_0 : public ::System::Object
 	{
 	public:
-		::System::Reflection::ConstructorInfo* c; // 0x10
-		::System::Reflection::MethodBase* method; // 0x18
+		::System::Reflection::MethodBase* method; // 0x10
+		::System::Reflection::ConstructorInfo* c; // 0x18
 
 		::System::Void _ctor()
 		{

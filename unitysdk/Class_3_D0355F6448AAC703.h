@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class StartBattleLevelGraphOperation; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_D0355F6448AAC703_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xAC74090)
-#define CLASS_3_D0355F6448AAC703__CTOR_OFFSET UNITYSDK_OFFSET(0xAC74060)
+#define CLASS_3_D0355F6448AAC703_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x16DD7800)
+#define CLASS_3_D0355F6448AAC703__CTOR_OFFSET UNITYSDK_OFFSET(0x16DD77D0)
 
-inline static constexpr unsigned int Class_3_D0355F6448AAC703_TypeDefinitionIndex = 54860;
+inline static constexpr unsigned int Class_3_D0355F6448AAC703_TypeDefinitionIndex = 56091;
 
 class Class_3_D0355F6448AAC703 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::StartBattleLevelGraphOperation*>
 {

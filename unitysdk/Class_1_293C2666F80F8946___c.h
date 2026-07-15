@@ -6,22 +6,22 @@ class Class_1_DA5E269DBF62B292;
 namespace RPG::GameCore { class FloorSavedValueOverride; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define CLASS_1_293C2666F80F8946___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x12AB7180)
-#define CLASS_1_293C2666F80F8946___C__CTOR_OFFSET UNITYSDK_OFFSET(0x12AB71C0)
-#define CLASS_1_293C2666F80F8946___C___GETFLOORSAVEDVALUEOVERRIDELIST_B__14_0_OFFSET UNITYSDK_OFFSET(0x12AB71D0)
+#define CLASS_1_293C2666F80F8946___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x185E0250)
+#define CLASS_1_293C2666F80F8946___C__CTOR_OFFSET UNITYSDK_OFFSET(0x185E0290)
+#define CLASS_1_293C2666F80F8946___C___GETFLOORSAVEDVALUEOVERRIDELIST_B__14_0_OFFSET UNITYSDK_OFFSET(0x185E02A0)
 
-inline static constexpr unsigned int Class_1_293C2666F80F8946___c_TypeDefinitionIndex = 70162;
+inline static constexpr unsigned int Class_1_293C2666F80F8946___c_TypeDefinitionIndex = 71685;
 
 class Class_1_293C2666F80F8946___c : public ::System::Object
 {
 public:
 	static ::Class_1_293C2666F80F8946___c** StaticGet___9()
 	{
-		return (::Class_1_293C2666F80F8946___c**)Il2CppClass::FromTypeDefinitionIndex(Class_1_293C2666F80F8946___c_TypeDefinitionIndex)->GetStaticField(0x2B0D0);
+		return (::Class_1_293C2666F80F8946___c**)Il2CppClass::FromTypeDefinitionIndex(Class_1_293C2666F80F8946___c_TypeDefinitionIndex)->GetStaticField(0x2FBD0);
 	}
 	static ::System::Func_2<::Class_1_DA5E269DBF62B292*, ::RPG::GameCore::FloorSavedValueOverride*>** StaticGet___9__14_0()
 	{
-		return (::System::Func_2<::Class_1_DA5E269DBF62B292*, ::RPG::GameCore::FloorSavedValueOverride*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_293C2666F80F8946___c_TypeDefinitionIndex)->GetStaticField(0x2B0D8);
+		return (::System::Func_2<::Class_1_DA5E269DBF62B292*, ::RPG::GameCore::FloorSavedValueOverride*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_293C2666F80F8946___c_TypeDefinitionIndex)->GetStaticField(0x2FBD8);
 	}
 
 	static ::System::Void _cctor()

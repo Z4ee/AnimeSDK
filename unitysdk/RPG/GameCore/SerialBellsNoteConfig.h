@@ -5,12 +5,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_SERIALBELLSNOTECONFIG_METHOD_2_DFBCE4974F4703F8_OFFSET UNITYSDK_OFFSET(0x19C21320)
-#define RPG_GAMECORE_SERIALBELLSNOTECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x19C214C0)
+#define RPG_GAMECORE_SERIALBELLSNOTECONFIG_METHOD_2_DFBCE4974F4703F8_OFFSET UNITYSDK_OFFSET(0x1C2CB060)
+#define RPG_GAMECORE_SERIALBELLSNOTECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1C2CB200)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SerialBellsNoteConfig_TypeDefinitionIndex = 15560;
+	inline static constexpr unsigned int SerialBellsNoteConfig_TypeDefinitionIndex = 15731;
 
 	class SerialBellsNoteConfig : public ::RPG::GameCore::JsonConfig
 	{

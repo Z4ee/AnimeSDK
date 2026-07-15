@@ -3,7 +3,7 @@
 
 namespace RPGTools::Timeline
 {
-	inline static constexpr unsigned int QTEData_FailActionType_TypeDefinitionIndex = 45552;
+	inline static constexpr unsigned int QTEData_FailActionType_TypeDefinitionIndex = 46486;
 
 	enum class QTEData_FailActionType : ::System::Int32
 	{

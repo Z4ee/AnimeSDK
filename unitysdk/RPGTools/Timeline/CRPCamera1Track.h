@@ -7,15 +7,13 @@
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine::Timeline { class TimelineClip; }
 
-#define RPGTOOLS_TIMELINE_CRPCAMERA1TRACK_CREATETRACKMIXER_OFFSET UNITYSDK_OFFSET(0xCFE2840)
-#define RPGTOOLS_TIMELINE_CRPCAMERA1TRACK_ONCREATECLIP_OFFSET UNITYSDK_OFFSET(0xCFE29C0)
-#define RPGTOOLS_TIMELINE_CRPCAMERA1TRACK__CTOR_OFFSET UNITYSDK_OFFSET(0xCFE2A90)
-#define RPGTOOLS_TIMELINE_CRPCAMERA1TRACK___IFIXBASEPROXY_CREATETRACKMIXER_OFFSET UNITYSDK_OFFSET(0xCFE2B70)
-#define RPGTOOLS_TIMELINE_CRPCAMERA1TRACK___IFIXBASEPROXY_ONCREATECLIP_OFFSET UNITYSDK_OFFSET(0xCFE2C10)
+#define RPGTOOLS_TIMELINE_CRPCAMERA1TRACK_CREATETRACKMIXER_OFFSET UNITYSDK_OFFSET(0x1B34B720)
+#define RPGTOOLS_TIMELINE_CRPCAMERA1TRACK_ONCREATECLIP_OFFSET UNITYSDK_OFFSET(0x1B34B8A0)
+#define RPGTOOLS_TIMELINE_CRPCAMERA1TRACK__CTOR_OFFSET UNITYSDK_OFFSET(0x1B34B970)
 
 namespace RPGTools::Timeline
 {
-	inline static constexpr unsigned int CRPCamera1Track_TypeDefinitionIndex = 45182;
+	inline static constexpr unsigned int CRPCamera1Track_TypeDefinitionIndex = 46106;
 
 	class CRPCamera1Track : public ::UnityEngine::Timeline::TrackAsset
 	{
@@ -33,16 +31,6 @@ namespace RPGTools::Timeline
 		::System::Void OnCreateClip(::UnityEngine::Timeline::TimelineClip* a1)
 		{
 			return ((::System::Void(*)(::PVOID, ::UnityEngine::Timeline::TimelineClip*))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_CRPCAMERA1TRACK_ONCREATECLIP_OFFSET))(this, a1);
-		}
-
-		::UnityEngine::Playables::Playable __iFixBaseProxy_CreateTrackMixer(::UnityEngine::Playables::PlayableGraph a1, ::UnityEngine::GameObject* a2, ::System::Int32 a3)
-		{
-			return ((::UnityEngine::Playables::Playable(*)(::PVOID, ::UnityEngine::Playables::PlayableGraph, ::UnityEngine::GameObject*, ::System::Int32))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_CRPCAMERA1TRACK___IFIXBASEPROXY_CREATETRACKMIXER_OFFSET))(this, a1, a2, a3);
-		}
-
-		::System::Void __iFixBaseProxy_OnCreateClip(::UnityEngine::Timeline::TimelineClip* a1)
-		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Timeline::TimelineClip*))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_CRPCAMERA1TRACK___IFIXBASEPROXY_ONCREATECLIP_OFFSET))(this, a1);
 		}
 	};
 }

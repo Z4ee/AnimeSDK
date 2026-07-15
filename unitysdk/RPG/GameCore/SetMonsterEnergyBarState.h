@@ -13,13 +13,13 @@ namespace RPG::GameCore { class TargetEvaluator; }
 namespace RPG::GameCore { class UITextNode; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_SETMONSTERENERGYBARSTATE_METHOD_3_29ED9B97CE08E4F7_OFFSET UNITYSDK_OFFSET(0x19C571A0)
-#define RPG_GAMECORE_SETMONSTERENERGYBARSTATE_METHOD_3_A944D65DBB2BAFD9_OFFSET UNITYSDK_OFFSET(0x19C570A0)
-#define RPG_GAMECORE_SETMONSTERENERGYBARSTATE__CTOR_OFFSET UNITYSDK_OFFSET(0x19C57130)
+#define RPG_GAMECORE_SETMONSTERENERGYBARSTATE_METHOD_3_2924F40EA2AA79FA_OFFSET UNITYSDK_OFFSET(0x1C6018B0)
+#define RPG_GAMECORE_SETMONSTERENERGYBARSTATE_METHOD_3_29ED9B97CE08E4F7_OFFSET UNITYSDK_OFFSET(0x1C601990)
+#define RPG_GAMECORE_SETMONSTERENERGYBARSTATE__CTOR_OFFSET UNITYSDK_OFFSET(0x1C601930)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SetMonsterEnergyBarState_TypeDefinitionIndex = 22360;
+	inline static constexpr unsigned int SetMonsterEnergyBarState_TypeDefinitionIndex = 22802;
 
 	class SetMonsterEnergyBarState : public ::RPG::GameCore::TaskConfig
 	{
@@ -50,9 +50,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETMONSTERENERGYBARSTATE__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_A944D65DBB2BAFD9(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SetMonsterEnergyBarState*& a2)
+		static ::System::Void Method_3_2924F40EA2AA79FA(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SetMonsterEnergyBarState*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SetMonsterEnergyBarState*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETMONSTERENERGYBARSTATE_METHOD_3_A944D65DBB2BAFD9_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SetMonsterEnergyBarState*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETMONSTERENERGYBARSTATE_METHOD_3_2924F40EA2AA79FA_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_29ED9B97CE08E4F7(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SetMonsterEnergyBarState* a2)

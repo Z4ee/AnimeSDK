@@ -10,32 +10,32 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_GAMECORE_GRIDFIGHTTRAITBASECONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1980EDA0)
-#define RPG_GAMECORE_GRIDFIGHTTRAITBASECONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1980F350)
+#define RPG_GAMECORE_GRIDFIGHTTRAITBASECONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D07BA90)
+#define RPG_GAMECORE_GRIDFIGHTTRAITBASECONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D07C040)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int GridFightTraitBaseConfigRow_TypeDefinitionIndex = 13019;
+	inline static constexpr unsigned int GridFightTraitBaseConfigRow_TypeDefinitionIndex = 13167;
 
 	class GridFightTraitBaseConfigRow : public ::System::Object
 	{
 	public:
-		::System::String* CutinPath; // 0x10
-		::Il2CppArray<::System::UInt32>* TraitEffectList; // 0x18
-		::System::String* MiniIconPath; // 0x20
-		::Il2CppArray<::RPG::GameCore::FixPoint>* BaseDescParamList; // 0x28
-		::System::String* TraitSearchKey; // 0x30
-		::Il2CppArray<::System::UInt32>* BEIDList; // 0x38
-		::System::String* IconPath; // 0x40
+		::Il2CppArray<::System::UInt32>* TraitEffectList; // 0x10
+		::Il2CppArray<::System::UInt32>* BEIDList; // 0x18
+		::System::String* IconPath; // 0x20
+		::System::String* CutinPath; // 0x28
+		::System::String* MiniIconPath; // 0x30
+		::System::String* TraitSearchKey; // 0x38
+		::Il2CppArray<::RPG::GameCore::FixPoint>* BaseDescParamList; // 0x40
 		::System::Collections::Generic::List_1<::System::UInt32>* TraitLayerList; // 0x48
-		::RPG::Client::TextID TraitBaseDesc; // 0x50
-		::RPG::GameCore::GridFightActivationType ActivationType; // 0x60
-		::RPG::GameCore::GridFightTraitType TraitType; // 0x64
-		::RPG::Client::TextID TraitBaseSimpleDesc; // 0x68
-		::RPG::Client::TextID TraitName; // 0x78
+		::RPG::Client::TextID TraitBaseSimpleDesc; // 0x50
+		::RPG::Client::TextID TraitName; // 0x60
+		::RPG::Client::TextID TraitBaseDesc; // 0x70
+		::System::UInt32 SeasonID; // 0x80
+		::System::UInt32 TraitSortPriority; // 0x84
 		::System::UInt32 ID; // 0x88
-		::System::UInt32 TraitSortPriority; // 0x8C
-		::System::UInt32 SeasonID; // 0x90
+		::RPG::GameCore::GridFightActivationType ActivationType; // 0x8C
+		::RPG::GameCore::GridFightTraitType TraitType; // 0x90
 
 		::System::Void _ctor()
 		{

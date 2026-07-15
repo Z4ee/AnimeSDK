@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int PlayerStepOnUnstablePlatformReason_TypeDefinitionIndex = 56936;
+	inline static constexpr unsigned int PlayerStepOnUnstablePlatformReason_TypeDefinitionIndex = 58183;
 
 	enum class PlayerStepOnUnstablePlatformReason : ::System::Int32
 	{

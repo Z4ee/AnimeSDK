@@ -5,11 +5,10 @@
 namespace RPG::GameCore { class ChangeCharacterConfigParamClientOnly; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_4_54F4FDC2CE2F5770_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xA769C60)
-#define CLASS_4_54F4FDC2CE2F5770__CTOR_OFFSET UNITYSDK_OFFSET(0xA769C30)
-#define CLASS_4_54F4FDC2CE2F5770___IFIXBASEPROXY_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xA769E00)
+#define CLASS_4_54F4FDC2CE2F5770_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x18740670)
+#define CLASS_4_54F4FDC2CE2F5770__CTOR_OFFSET UNITYSDK_OFFSET(0x18740640)
 
-inline static constexpr unsigned int Class_4_54F4FDC2CE2F5770_TypeDefinitionIndex = 51319;
+inline static constexpr unsigned int Class_4_54F4FDC2CE2F5770_TypeDefinitionIndex = 52426;
 
 class Class_4_54F4FDC2CE2F5770 : public ::Class_3_77CF7DC62C1C1163
 {
@@ -22,10 +21,5 @@ public:
 	::System::Void OnTaskBegin()
 	{
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_4_54F4FDC2CE2F5770_ONTASKBEGIN_OFFSET))(this);
-	}
-
-	::System::Void __iFixBaseProxy_OnTaskBegin()
-	{
-		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_4_54F4FDC2CE2F5770___IFIXBASEPROXY_ONTASKBEGIN_OFFSET))(this);
 	}
 };

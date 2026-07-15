@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LevelLittleGameLoadType_TypeDefinitionIndex = 16476;
+	inline static constexpr unsigned int LevelLittleGameLoadType_TypeDefinitionIndex = 16638;
 
 	enum class LevelLittleGameLoadType : ::System::Int32
 	{

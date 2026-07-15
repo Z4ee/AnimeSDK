@@ -8,7 +8,7 @@ namespace System { class Object; }
 namespace System { class String; }
 template <typename T> class Class_3_455124A410922D94;
 
-inline static constexpr unsigned int Class_3_455124A410922D94_TypeDefinitionIndex = 46715;
+inline static constexpr unsigned int Class_3_455124A410922D94_TypeDefinitionIndex = 47680;
 
 template <typename T>
 class Class_3_455124A410922D94 : public ::Class_2_2CD72A7067203FFF

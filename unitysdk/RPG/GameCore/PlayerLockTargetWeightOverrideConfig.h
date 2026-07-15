@@ -3,11 +3,11 @@
 #include "unitysdk/System/Nullable_1.h"
 #include "unitysdk/System/Object.h"
 
-#define RPG_GAMECORE_PLAYERLOCKTARGETWEIGHTOVERRIDECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0xCE73F20)
+#define RPG_GAMECORE_PLAYERLOCKTARGETWEIGHTOVERRIDECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x197A7000)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PlayerLockTargetWeightOverrideConfig_TypeDefinitionIndex = 53862;
+	inline static constexpr unsigned int PlayerLockTargetWeightOverrideConfig_TypeDefinitionIndex = 55084;
 
 	class PlayerLockTargetWeightOverrideConfig : public ::System::Object
 	{

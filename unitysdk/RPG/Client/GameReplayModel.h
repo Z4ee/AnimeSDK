@@ -5,13 +5,13 @@
 namespace RPG::Client { class ReplayUploadContent; }
 namespace System { class String; }
 
-#define RPG_CLIENT_GAMEREPLAYMODEL_METHOD_1_73C95CCE280B068D_OFFSET UNITYSDK_OFFSET(0xBAC27E0)
-#define RPG_CLIENT_GAMEREPLAYMODEL_METHOD_1_993D824EA8AA9831_OFFSET UNITYSDK_OFFSET(0xBAC2670)
-#define RPG_CLIENT_GAMEREPLAYMODEL__CTOR_OFFSET UNITYSDK_OFFSET(0xBAC2990)
+#define RPG_CLIENT_GAMEREPLAYMODEL_METHOD_1_A17E43A2B3CD15D8_OFFSET UNITYSDK_OFFSET(0x192DEC70)
+#define RPG_CLIENT_GAMEREPLAYMODEL_METHOD_1_F012FBFFC9656E9C_OFFSET UNITYSDK_OFFSET(0x192DEB30)
+#define RPG_CLIENT_GAMEREPLAYMODEL__CTOR_OFFSET UNITYSDK_OFFSET(0x192DEDF0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GameReplayModel_TypeDefinitionIndex = 56998;
+	inline static constexpr unsigned int GameReplayModel_TypeDefinitionIndex = 58245;
 
 	class GameReplayModel : public ::System::Object
 	{
@@ -30,14 +30,14 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GAMEREPLAYMODEL__CTOR_OFFSET))(this);
 		}
 
-		::Il2CppArray<::System::Byte>* Method_1_993D824EA8AA9831()
+		::Il2CppArray<::System::Byte>* Method_1_F012FBFFC9656E9C()
 		{
-			return ((::Il2CppArray<::System::Byte>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GAMEREPLAYMODEL_METHOD_1_993D824EA8AA9831_OFFSET))(this);
+			return ((::Il2CppArray<::System::Byte>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GAMEREPLAYMODEL_METHOD_1_F012FBFFC9656E9C_OFFSET))(this);
 		}
 
-		static ::RPG::Client::GameReplayModel* Method_1_73C95CCE280B068D(::Il2CppArray<::System::Byte>* a1)
+		static ::RPG::Client::GameReplayModel* Method_1_A17E43A2B3CD15D8(::Il2CppArray<::System::Byte>* a1)
 		{
-			return ((::RPG::Client::GameReplayModel*(*)(::Il2CppArray<::System::Byte>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GAMEREPLAYMODEL_METHOD_1_73C95CCE280B068D_OFFSET))(a1);
+			return ((::RPG::Client::GameReplayModel*(*)(::Il2CppArray<::System::Byte>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GAMEREPLAYMODEL_METHOD_1_A17E43A2B3CD15D8_OFFSET))(a1);
 		}
 	};
 }

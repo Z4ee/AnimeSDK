@@ -4,19 +4,19 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_PLAYERRETURNQUESTROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x19A41630)
-#define RPG_GAMECORE_PLAYERRETURNQUESTROW__CTOR_OFFSET UNITYSDK_OFFSET(0x19A41D90)
+#define RPG_GAMECORE_PLAYERRETURNQUESTROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1BA10A40)
+#define RPG_GAMECORE_PLAYERRETURNQUESTROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1BA111E0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PlayerReturnQuestRow_TypeDefinitionIndex = 13796;
+	inline static constexpr unsigned int PlayerReturnQuestRow_TypeDefinitionIndex = 13944;
 
 	class PlayerReturnQuestRow : public ::System::Object
 	{
 	public:
-		::System::UInt32 ID; // 0x10
-		::System::UInt32 GroupID; // 0x14
-		::System::UInt32 LinearQuestID; // 0x18
+		::System::UInt32 GroupID; // 0x10
+		::System::UInt32 LinearQuestID; // 0x14
+		::System::UInt32 ID; // 0x18
 
 		::System::Void _ctor()
 		{

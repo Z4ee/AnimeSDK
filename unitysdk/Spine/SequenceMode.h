@@ -3,7 +3,7 @@
 
 namespace Spine
 {
-	inline static constexpr unsigned int SequenceMode_TypeDefinitionIndex = 36723;
+	inline static constexpr unsigned int SequenceMode_TypeDefinitionIndex = 37505;
 
 	enum class SequenceMode : ::System::Int32
 	{

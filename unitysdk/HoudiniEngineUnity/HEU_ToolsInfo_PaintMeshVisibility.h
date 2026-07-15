@@ -3,7 +3,7 @@
 
 namespace HoudiniEngineUnity
 {
-	inline static constexpr unsigned int HEU_ToolsInfo_PaintMeshVisibility_TypeDefinitionIndex = 37804;
+	inline static constexpr unsigned int HEU_ToolsInfo_PaintMeshVisibility_TypeDefinitionIndex = 38612;
 
 	enum class HEU_ToolsInfo_PaintMeshVisibility : ::System::Int32
 	{

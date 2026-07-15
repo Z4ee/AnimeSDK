@@ -6,12 +6,11 @@ namespace RPG::GameCore { class GameEntity; }
 namespace RPG::GameCore { class PlayVoice; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_39E67A37484C8AE0_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1431E380)
-#define CLASS_3_39E67A37484C8AE0_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1431E4E0)
-#define CLASS_3_39E67A37484C8AE0__CTOR_OFFSET UNITYSDK_OFFSET(0x1431E350)
-#define CLASS_3_39E67A37484C8AE0___IFIXBASEPROXY_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1431E740)
+#define CLASS_3_39E67A37484C8AE0_DISPOSE_OFFSET UNITYSDK_OFFSET(0x14A09C90)
+#define CLASS_3_39E67A37484C8AE0_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x14A09DF0)
+#define CLASS_3_39E67A37484C8AE0__CTOR_OFFSET UNITYSDK_OFFSET(0x14A09C60)
 
-inline static constexpr unsigned int Class_3_39E67A37484C8AE0_TypeDefinitionIndex = 52642;
+inline static constexpr unsigned int Class_3_39E67A37484C8AE0_TypeDefinitionIndex = 53846;
 
 class Class_3_39E67A37484C8AE0 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::PlayVoice*>
 {
@@ -31,10 +30,5 @@ public:
 	::System::Void OnTaskBegin()
 	{
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_3_39E67A37484C8AE0_ONTASKBEGIN_OFFSET))(this);
-	}
-
-	::System::Void __iFixBaseProxy_Dispose()
-	{
-		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_3_39E67A37484C8AE0___IFIXBASEPROXY_DISPOSE_OFFSET))(this);
 	}
 };

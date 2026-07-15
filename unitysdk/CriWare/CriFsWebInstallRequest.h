@@ -6,22 +6,22 @@ namespace CriWare { class CriFsRequest_DoneDelegate; }
 namespace CriWare { class CriFsWebInstaller; }
 namespace System { class String; }
 
-#define CRIWARE_CRIFSWEBINSTALLREQUEST_DISPOSE_OFFSET UNITYSDK_OFFSET(0x146C67A0)
-#define CRIWARE_CRIFSWEBINSTALLREQUEST_GETCRC32_OFFSET UNITYSDK_OFFSET(0x146C6050)
-#define CRIWARE_CRIFSWEBINSTALLREQUEST_STOP_OFFSET UNITYSDK_OFFSET(0x146C5F40)
-#define CRIWARE_CRIFSWEBINSTALLREQUEST_UPDATE_OFFSET UNITYSDK_OFFSET(0x146C6240)
-#define CRIWARE_CRIFSWEBINSTALLREQUEST__CTOR_OFFSET UNITYSDK_OFFSET(0x146C4F20)
+#define CRIWARE_CRIFSWEBINSTALLREQUEST_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1BE5B7A0)
+#define CRIWARE_CRIFSWEBINSTALLREQUEST_GETCRC32_OFFSET UNITYSDK_OFFSET(0x1BE5AFF0)
+#define CRIWARE_CRIFSWEBINSTALLREQUEST_STOP_OFFSET UNITYSDK_OFFSET(0x1BE5AEE0)
+#define CRIWARE_CRIFSWEBINSTALLREQUEST_UPDATE_OFFSET UNITYSDK_OFFSET(0x1BE5B1E0)
+#define CRIWARE_CRIFSWEBINSTALLREQUEST__CTOR_OFFSET UNITYSDK_OFFSET(0x1BE59CB0)
 
 namespace CriWare
 {
-	inline static constexpr unsigned int CriFsWebInstallRequest_TypeDefinitionIndex = 37155;
+	inline static constexpr unsigned int CriFsWebInstallRequest_TypeDefinitionIndex = 37957;
 
 	class CriFsWebInstallRequest : public ::CriWare::CriFsInstallRequest
 	{
 	public:
 		::CriWare::CriFsWebInstaller* installer; // 0x50
-		::System::Boolean crc32_set; // 0x58
-		::System::UInt32 crc32; // 0x5C
+		::System::UInt32 crc32; // 0x58
+		::System::Boolean crc32_set; // 0x5C
 
 		::System::Void _ctor(::System::String* a1, ::System::String* a2, ::CriWare::CriFsRequest_DoneDelegate* a3)
 		{

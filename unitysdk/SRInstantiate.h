@@ -6,9 +6,9 @@
 
 namespace UnityEngine { class GameObject; }
 
-#define SRINSTANTIATE_INSTANTIATE_OFFSET UNITYSDK_OFFSET(0x1AD28560)
+#define SRINSTANTIATE_INSTANTIATE_OFFSET UNITYSDK_OFFSET(0x1CEDF040)
 
-inline static constexpr unsigned int SRInstantiate_TypeDefinitionIndex = 33544;
+inline static constexpr unsigned int SRInstantiate_TypeDefinitionIndex = 33915;
 
 class SRInstantiate : public ::System::Object
 {

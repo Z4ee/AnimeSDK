@@ -6,7 +6,7 @@ namespace System { class Object; }
 
 namespace System::Collections
 {
-	inline static constexpr unsigned int IDictionaryEnumerator_TypeDefinitionIndex = 1471;
+	inline static constexpr unsigned int IDictionaryEnumerator_TypeDefinitionIndex = 1475;
 
 	class IDictionaryEnumerator
 	{

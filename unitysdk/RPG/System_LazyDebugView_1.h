@@ -7,7 +7,7 @@ namespace RPG { template <typename T> class GCFreeLazy_1; }
 
 namespace RPG
 {
-	inline static constexpr unsigned int System_LazyDebugView_1_TypeDefinitionIndex = 6745;
+	inline static constexpr unsigned int System_LazyDebugView_1_TypeDefinitionIndex = 6750;
 
 	template <typename T>
 	class System_LazyDebugView_1 : public ::System::Object

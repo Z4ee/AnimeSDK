@@ -8,15 +8,13 @@ namespace System { class String; }
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine::Timeline { class TimelineClip; }
 
-#define RPGTOOLS_TIMELINE_NPCPOSSESSIONTRACK_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0xD032470)
-#define RPGTOOLS_TIMELINE_NPCPOSSESSIONTRACK_ONCREATECLIP_OFFSET UNITYSDK_OFFSET(0xD032580)
-#define RPGTOOLS_TIMELINE_NPCPOSSESSIONTRACK__CTOR_OFFSET UNITYSDK_OFFSET(0xD0325F0)
-#define RPGTOOLS_TIMELINE_NPCPOSSESSIONTRACK___IFIXBASEPROXY_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0xD032610)
-#define RPGTOOLS_TIMELINE_NPCPOSSESSIONTRACK___IFIXBASEPROXY_ONCREATECLIP_OFFSET UNITYSDK_OFFSET(0xD032650)
+#define RPGTOOLS_TIMELINE_NPCPOSSESSIONTRACK_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0x1998E470)
+#define RPGTOOLS_TIMELINE_NPCPOSSESSIONTRACK_ONCREATECLIP_OFFSET UNITYSDK_OFFSET(0x1998E5B0)
+#define RPGTOOLS_TIMELINE_NPCPOSSESSIONTRACK__CTOR_OFFSET UNITYSDK_OFFSET(0x1998E620)
 
 namespace RPGTools::Timeline
 {
-	inline static constexpr unsigned int NpcPossessionTrack_TypeDefinitionIndex = 45504;
+	inline static constexpr unsigned int NpcPossessionTrack_TypeDefinitionIndex = 46438;
 
 	class NpcPossessionTrack : public ::RPGTools::Timeline::CharacterTrack
 	{
@@ -36,16 +34,6 @@ namespace RPGTools::Timeline
 		::System::Void OnCreateClip(::UnityEngine::Timeline::TimelineClip* a1)
 		{
 			return ((::System::Void(*)(::PVOID, ::UnityEngine::Timeline::TimelineClip*))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_NPCPOSSESSIONTRACK_ONCREATECLIP_OFFSET))(this, a1);
-		}
-
-		::UnityEngine::Playables::Playable __iFixBaseProxy_CreatePlayable(::UnityEngine::Playables::PlayableGraph a1, ::UnityEngine::GameObject* a2, ::UnityEngine::Timeline::TimelineClip* a3)
-		{
-			return ((::UnityEngine::Playables::Playable(*)(::PVOID, ::UnityEngine::Playables::PlayableGraph, ::UnityEngine::GameObject*, ::UnityEngine::Timeline::TimelineClip*))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_NPCPOSSESSIONTRACK___IFIXBASEPROXY_CREATEPLAYABLE_OFFSET))(this, a1, a2, a3);
-		}
-
-		::System::Void __iFixBaseProxy_OnCreateClip(::UnityEngine::Timeline::TimelineClip* a1)
-		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Timeline::TimelineClip*))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_NPCPOSSESSIONTRACK___IFIXBASEPROXY_ONCREATECLIP_OFFSET))(this, a1);
 		}
 	};
 }

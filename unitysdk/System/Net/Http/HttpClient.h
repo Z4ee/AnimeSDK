@@ -15,35 +15,35 @@ namespace System::Net::Http::Headers { class HttpRequestHeaders; }
 namespace System::Threading { class CancellationTokenSource; }
 namespace System::Threading::Tasks { template <typename T> class Task_1; }
 
-#define SYSTEM_NET_HTTP_HTTPCLIENT_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1ADE2CC0)
-#define SYSTEM_NET_HTTP_HTTPCLIENT_GET_MAXRESPONSECONTENTBUFFERSIZE_OFFSET UNITYSDK_OFFSET(0x1ADE2CB0)
-#define SYSTEM_NET_HTTP_HTTPCLIENT_POSTASYNC_OFFSET UNITYSDK_OFFSET(0x1ADE2DD0)
-#define SYSTEM_NET_HTTP_HTTPCLIENT_SENDASYNCWORKER_OFFSET UNITYSDK_OFFSET(0x1ADE3540)
-#define SYSTEM_NET_HTTP_HTTPCLIENT_SENDASYNC_1_OFFSET UNITYSDK_OFFSET(0x1ADE3460)
-#define SYSTEM_NET_HTTP_HTTPCLIENT_SENDASYNC_2_OFFSET UNITYSDK_OFFSET(0x1ADE2FD0)
-#define SYSTEM_NET_HTTP_HTTPCLIENT_SENDASYNC_OFFSET UNITYSDK_OFFSET(0x1ADE2F90)
-#define SYSTEM_NET_HTTP_HTTPCLIENT__CCTOR_OFFSET UNITYSDK_OFFSET(0x1ADE35F0)
-#define SYSTEM_NET_HTTP_HTTPCLIENT__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1ADE2B90)
-#define SYSTEM_NET_HTTP_HTTPCLIENT__CTOR_OFFSET UNITYSDK_OFFSET(0x1ADE29B0)
-#define SYSTEM_NET_HTTP_HTTPCLIENT___N__0_OFFSET UNITYSDK_OFFSET(0x1ADE3600)
+#define SYSTEM_NET_HTTP_HTTPCLIENT_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1CAA1E20)
+#define SYSTEM_NET_HTTP_HTTPCLIENT_GET_MAXRESPONSECONTENTBUFFERSIZE_OFFSET UNITYSDK_OFFSET(0x1CAA1E10)
+#define SYSTEM_NET_HTTP_HTTPCLIENT_POSTASYNC_OFFSET UNITYSDK_OFFSET(0x1CAA1F80)
+#define SYSTEM_NET_HTTP_HTTPCLIENT_SENDASYNCWORKER_OFFSET UNITYSDK_OFFSET(0x1CAA2700)
+#define SYSTEM_NET_HTTP_HTTPCLIENT_SENDASYNC_1_OFFSET UNITYSDK_OFFSET(0x1CAA2620)
+#define SYSTEM_NET_HTTP_HTTPCLIENT_SENDASYNC_2_OFFSET UNITYSDK_OFFSET(0x1CAA2180)
+#define SYSTEM_NET_HTTP_HTTPCLIENT_SENDASYNC_OFFSET UNITYSDK_OFFSET(0x1CAA2140)
+#define SYSTEM_NET_HTTP_HTTPCLIENT__CCTOR_OFFSET UNITYSDK_OFFSET(0x1CAA27C0)
+#define SYSTEM_NET_HTTP_HTTPCLIENT__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1CAA1D20)
+#define SYSTEM_NET_HTTP_HTTPCLIENT__CTOR_OFFSET UNITYSDK_OFFSET(0x1CAA1BE0)
+#define SYSTEM_NET_HTTP_HTTPCLIENT___N__0_OFFSET UNITYSDK_OFFSET(0x1CAA27D0)
 
 namespace System::Net::Http
 {
-	inline static constexpr unsigned int HttpClient_TypeDefinitionIndex = 3746;
+	inline static constexpr unsigned int HttpClient_TypeDefinitionIndex = 3750;
 
 	class HttpClient : public ::System::Net::Http::HttpMessageInvoker
 	{
 	public:
 		static ::System::TimeSpan* StaticGet_TimeoutDefault()
 		{
-			return (::System::TimeSpan*)Il2CppClass::FromTypeDefinitionIndex(HttpClient_TypeDefinitionIndex)->GetStaticField(0x9CD0);
+			return (::System::TimeSpan*)Il2CppClass::FromTypeDefinitionIndex(HttpClient_TypeDefinitionIndex)->GetStaticField(0x8D50);
 		}
-		::System::Threading::CancellationTokenSource* cts; // 0x20
-		::System::Net::Http::Headers::HttpRequestHeaders* headers; // 0x28
-		::System::Uri* base_address; // 0x30
-		::System::Boolean disposed; // 0x38
+		::System::Uri* base_address; // 0x20
+		::System::Threading::CancellationTokenSource* cts; // 0x28
+		::System::Net::Http::Headers::HttpRequestHeaders* headers; // 0x30
+		::System::Int64 buffer_size; // 0x38
 		::System::TimeSpan timeout; // 0x40
-		::System::Int64 buffer_size; // 0x48
+		::System::Boolean disposed; // 0x48
 
 		::System::Void _ctor()
 		{

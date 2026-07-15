@@ -8,25 +8,25 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_CAKERACEEFFECTROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x195EC650)
-#define RPG_GAMECORE_CAKERACEEFFECTROW__CTOR_OFFSET UNITYSDK_OFFSET(0x195ECA20)
+#define RPG_GAMECORE_CAKERACEEFFECTROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B2D03B0)
+#define RPG_GAMECORE_CAKERACEEFFECTROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1B2D0780)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int CakeRaceEffectRow_TypeDefinitionIndex = 10558;
+	inline static constexpr unsigned int CakeRaceEffectRow_TypeDefinitionIndex = 10608;
 
 	class CakeRaceEffectRow : public ::System::Object
 	{
 	public:
-		::System::String* EffectIcon; // 0x10
-		::Il2CppArray<::RPG::GameCore::CakeRaceRegionTag>* NotAllowRegionTagList; // 0x18
-		::Il2CppArray<::RPG::GameCore::CakeRaceRegionTag>* AllowRegionTagList; // 0x20
-		::Il2CppArray<::System::UInt32>* AllowSectionIndex; // 0x28
-		::Il2CppArray<::RPG::GameCore::FixPoint>* ParamList; // 0x30
-		::System::String* AbilityJson; // 0x38
-		::System::UInt32 EffectID; // 0x40
-		::RPG::Client::TextID EffectDesc; // 0x48
-		::RPG::Client::TextID EffectName; // 0x58
+		::Il2CppArray<::RPG::GameCore::CakeRaceRegionTag>* AllowRegionTagList; // 0x10
+		::System::String* EffectIcon; // 0x18
+		::Il2CppArray<::RPG::GameCore::FixPoint>* ParamList; // 0x20
+		::System::String* AbilityJson; // 0x28
+		::Il2CppArray<::RPG::GameCore::CakeRaceRegionTag>* NotAllowRegionTagList; // 0x30
+		::Il2CppArray<::System::UInt32>* AllowSectionIndex; // 0x38
+		::RPG::Client::TextID EffectDesc; // 0x40
+		::RPG::Client::TextID EffectName; // 0x50
+		::System::UInt32 EffectID; // 0x60
 
 		::System::Void _ctor()
 		{

@@ -4,12 +4,12 @@
 
 namespace RPG::Client { class IMissionIcon; }
 
-#define RPG_CLIENT_MISSIONUTILS___C__DISPLAYCLASS7_0__CTOR_OFFSET UNITYSDK_OFFSET(0xC042E50)
-#define RPG_CLIENT_MISSIONUTILS___C__DISPLAYCLASS7_0__ISPLAYERCLOSETOSUBMISSIONWAYPOINT_B__0_OFFSET UNITYSDK_OFFSET(0xC047A60)
+#define RPG_CLIENT_MISSIONUTILS___C__DISPLAYCLASS7_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1805F210)
+#define RPG_CLIENT_MISSIONUTILS___C__DISPLAYCLASS7_0__ISPLAYERCLOSETOSUBMISSIONWAYPOINT_B__0_OFFSET UNITYSDK_OFFSET(0x18064110)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MissionUtils___c__DisplayClass7_0_TypeDefinitionIndex = 61886;
+	inline static constexpr unsigned int MissionUtils___c__DisplayClass7_0_TypeDefinitionIndex = 63251;
 
 	class MissionUtils___c__DisplayClass7_0 : public ::System::Object
 	{

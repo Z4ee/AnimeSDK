@@ -3,7 +3,7 @@
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int MHYSDKC_Info_WebViewAnimationOptions_TypeDefinitionIndex = 43550;
+	inline static constexpr unsigned int MHYSDKC_Info_WebViewAnimationOptions_TypeDefinitionIndex = 44411;
 
 	enum class MHYSDKC_Info_WebViewAnimationOptions : ::System::Int32
 	{

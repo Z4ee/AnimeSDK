@@ -3,9 +3,9 @@
 #include "unitysdk/RPG/GameCore/NodeGraphDisplayType.h"
 #include "unitysdk/System/Attribute.h"
 
-#define CLASS_2_17870E2EB8C466A9__CTOR_OFFSET UNITYSDK_OFFSET(0x19D61920)
+#define CLASS_2_17870E2EB8C466A9__CTOR_OFFSET UNITYSDK_OFFSET(0x1B3D8180)
 
-inline static constexpr unsigned int Class_2_17870E2EB8C466A9_TypeDefinitionIndex = 10406;
+inline static constexpr unsigned int Class_2_17870E2EB8C466A9_TypeDefinitionIndex = 10456;
 
 class Class_2_17870E2EB8C466A9 : public ::System::Attribute
 {

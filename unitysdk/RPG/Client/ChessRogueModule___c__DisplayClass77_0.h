@@ -2,20 +2,20 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_1_C9DFE5EE7107C629_2;
+class Class_1_C9DFE5EE7107C629_5;
 namespace RPG::Client { class ChessRogueBoardCellDataItem; }
 
-#define RPG_CLIENT_CHESSROGUEMODULE___C__DISPLAYCLASS77_0__CTOR_OFFSET UNITYSDK_OFFSET(0xB662140)
-#define RPG_CLIENT_CHESSROGUEMODULE___C__DISPLAYCLASS77_0___ONCMDCHESSROGUECELLUPDATENOTIFY_B__0_OFFSET UNITYSDK_OFFSET(0xB664B40)
+#define RPG_CLIENT_CHESSROGUEMODULE___C__DISPLAYCLASS77_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1A4EEDF0)
+#define RPG_CLIENT_CHESSROGUEMODULE___C__DISPLAYCLASS77_0___ONCMDCHESSROGUECELLUPDATENOTIFY_B__0_OFFSET UNITYSDK_OFFSET(0x1A4F17B0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ChessRogueModule___c__DisplayClass77_0_TypeDefinitionIndex = 62574;
+	inline static constexpr unsigned int ChessRogueModule___c__DisplayClass77_0_TypeDefinitionIndex = 63941;
 
 	class ChessRogueModule___c__DisplayClass77_0 : public ::System::Object
 	{
 	public:
-		::Class_1_C9DFE5EE7107C629_2* protoCell; // 0x10
+		::Class_1_C9DFE5EE7107C629_5* protoCell; // 0x10
 
 		::System::Void _ctor()
 		{

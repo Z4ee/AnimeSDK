@@ -3,7 +3,7 @@
 
 namespace System::Net
 {
-	inline static constexpr unsigned int CookieVariant_TypeDefinitionIndex = 2782;
+	inline static constexpr unsigned int CookieVariant_TypeDefinitionIndex = 2786;
 
 	enum class CookieVariant : ::System::Int32
 	{

@@ -3,10 +3,10 @@
 #include "unitysdk/RPG/GameCore/EventType.h"
 #include "unitysdk/System/Attribute.h"
 
-#define CLASS_2_E55AE8831AAE79EB_GET_TARGETEVENTTYPE_OFFSET UNITYSDK_OFFSET(0x141F1260)
-#define CLASS_2_E55AE8831AAE79EB__CTOR_OFFSET UNITYSDK_OFFSET(0x141F1250)
+#define CLASS_2_E55AE8831AAE79EB_GET_TARGETEVENTTYPE_OFFSET UNITYSDK_OFFSET(0x179E1B40)
+#define CLASS_2_E55AE8831AAE79EB__CTOR_OFFSET UNITYSDK_OFFSET(0x179E1B30)
 
-inline static constexpr unsigned int Class_2_E55AE8831AAE79EB_TypeDefinitionIndex = 52298;
+inline static constexpr unsigned int Class_2_E55AE8831AAE79EB_TypeDefinitionIndex = 53498;
 
 class Class_2_E55AE8831AAE79EB : public ::System::Attribute
 {

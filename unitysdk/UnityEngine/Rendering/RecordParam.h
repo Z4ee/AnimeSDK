@@ -6,7 +6,7 @@ namespace System { class String; }
 
 namespace UnityEngine::Rendering
 {
-	inline static constexpr unsigned int RecordParam_TypeDefinitionIndex = 4811;
+	inline static constexpr unsigned int RecordParam_TypeDefinitionIndex = 4816;
 
 	struct alignas(8) RecordParam
 	{

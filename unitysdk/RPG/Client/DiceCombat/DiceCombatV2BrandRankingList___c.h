@@ -5,24 +5,24 @@
 namespace RPG::Client::DiceCombat { class DiceCombatV2BrandRankingEntry; }
 namespace System { template <typename T1, typename T2, typename T3> class Func_3; }
 
-#define RPG_CLIENT_DICECOMBAT_DICECOMBATV2BRANDRANKINGLIST___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xB7C8B10)
-#define RPG_CLIENT_DICECOMBAT_DICECOMBATV2BRANDRANKINGLIST___C__CTOR_OFFSET UNITYSDK_OFFSET(0xB7C8B50)
-#define RPG_CLIENT_DICECOMBAT_DICECOMBATV2BRANDRANKINGLIST___C__PLAYCHANGE_B__12_0_OFFSET UNITYSDK_OFFSET(0xB7C8B60)
+#define RPG_CLIENT_DICECOMBAT_DICECOMBATV2BRANDRANKINGLIST___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1A437730)
+#define RPG_CLIENT_DICECOMBAT_DICECOMBATV2BRANDRANKINGLIST___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1A437770)
+#define RPG_CLIENT_DICECOMBAT_DICECOMBATV2BRANDRANKINGLIST___C__PLAYCHANGE_B__12_0_OFFSET UNITYSDK_OFFSET(0x1A437780)
 
 namespace RPG::Client::DiceCombat
 {
-	inline static constexpr unsigned int DiceCombatV2BrandRankingList___c_TypeDefinitionIndex = 70779;
+	inline static constexpr unsigned int DiceCombatV2BrandRankingList___c_TypeDefinitionIndex = 72292;
 
 	class DiceCombatV2BrandRankingList___c : public ::System::Object
 	{
 	public:
 		static ::System::Func_3<::RPG::Client::DiceCombat::DiceCombatV2BrandRankingEntry*, ::System::Int32, ::System::Single>** StaticGet___9__12_0()
 		{
-			return (::System::Func_3<::RPG::Client::DiceCombat::DiceCombatV2BrandRankingEntry*, ::System::Int32, ::System::Single>**)Il2CppClass::FromTypeDefinitionIndex(DiceCombatV2BrandRankingList___c_TypeDefinitionIndex)->GetStaticField(0x60C0);
+			return (::System::Func_3<::RPG::Client::DiceCombat::DiceCombatV2BrandRankingEntry*, ::System::Int32, ::System::Single>**)Il2CppClass::FromTypeDefinitionIndex(DiceCombatV2BrandRankingList___c_TypeDefinitionIndex)->GetStaticField(0x6B310);
 		}
 		static ::RPG::Client::DiceCombat::DiceCombatV2BrandRankingList___c** StaticGet___9()
 		{
-			return (::RPG::Client::DiceCombat::DiceCombatV2BrandRankingList___c**)Il2CppClass::FromTypeDefinitionIndex(DiceCombatV2BrandRankingList___c_TypeDefinitionIndex)->GetStaticField(0x60C8);
+			return (::RPG::Client::DiceCombat::DiceCombatV2BrandRankingList___c**)Il2CppClass::FromTypeDefinitionIndex(DiceCombatV2BrandRankingList___c_TypeDefinitionIndex)->GetStaticField(0x6B318);
 		}
 
 		static ::System::Void _cctor()

@@ -4,12 +4,12 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_QUESTKEYPOINTREWARDROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x19AA4720)
-#define RPG_GAMECORE_QUESTKEYPOINTREWARDROW__CTOR_OFFSET UNITYSDK_OFFSET(0x19AA48D0)
+#define RPG_GAMECORE_QUESTKEYPOINTREWARDROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B9ABB00)
+#define RPG_GAMECORE_QUESTKEYPOINTREWARDROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1B9ABCB0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int QuestKeyPointRewardRow_TypeDefinitionIndex = 13800;
+	inline static constexpr unsigned int QuestKeyPointRewardRow_TypeDefinitionIndex = 13948;
 
 	class QuestKeyPointRewardRow : public ::System::Object
 	{

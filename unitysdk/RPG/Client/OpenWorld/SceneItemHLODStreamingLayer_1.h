@@ -1,12 +1,12 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Class_1_5B228A4605C15E47.h"
+#include "unitysdk/Class_1_E7175D70942CF05A.h"
 #include "unitysdk/RPG/Client/OpenWorld/BlockVisionState.h"
 #include "unitysdk/RPG/Client/OpenWorld/SceneItemHLODTreeEnableReason.h"
 #include "unitysdk/UnityEngine/Rect.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-class Class_0_16E4307DCC419505_1083;
+class Class_0_16E4307DCC419505_1129;
 class Class_1_303D5A33D1401D59;
 class Class_1_3F28033F34305C46;
 class Class_1_8A6989C352B0F0F0;
@@ -23,20 +23,21 @@ namespace UnityEngine { class GameObject; }
 
 namespace RPG::Client::OpenWorld
 {
-	inline static constexpr unsigned int SceneItemHLODStreamingLayer_1_TypeDefinitionIndex = 68912;
+	inline static constexpr unsigned int SceneItemHLODStreamingLayer_1_TypeDefinitionIndex = 70444;
 
 	template <typename T>
-	class SceneItemHLODStreamingLayer_1 : public ::Class_1_5B228A4605C15E47
+	class SceneItemHLODStreamingLayer_1 : public ::Class_1_E7175D70942CF05A
 	{
 	public:
 		::System::Action* _HLODLoadedCallback; // 0x0
 		::System::Single _WatchDelay; // 0x0
 		::System::Collections::Generic::List_1<::Class_1_CD49E6413051D9AA*>* _ShrinkToExpandNodes; // 0x0
 		::System::Collections::Generic::List_1<::Class_1_CD49E6413051D9AA*>* _ExpandToShrinkNodes; // 0x0
+		::System::Collections::Generic::List_1<::Class_1_CD49E6413051D9AA*>* _ReadyToShrinkNodes; // 0x0
 		::RPG::Client::OpenWorld::StreamingItemData* _BlockHLODItem; // 0x0
 		::Class_1_CD49E6413051D9AA* _BlockHLODTree; // 0x0
 		::System::Collections::Generic::List_1<::Class_1_CD49E6413051D9AA*>* _HLODGroupTree; // 0x0
-		::System::Collections::Generic::Dictionary_2<::RPG::Client::OpenWorld::StreamingItemData*, ::Class_1_5B228A4605C15E47*>* _HLODLeafItems; // 0x0
+		::System::Collections::Generic::Dictionary_2<::RPG::Client::OpenWorld::StreamingItemData*, ::Class_1_E7175D70942CF05A*>* _HLODLeafItems; // 0x0
 		::System::Collections::Generic::Dictionary_2<::System::Int32, ::RPG::Client::OpenWorld::StreamingItemData*>* _HLODLeafItemIndex; // 0x0
 		::RPG::Client::OpenWorld::BlockVisionState _LastBlockVisionState; // 0x0
 	};

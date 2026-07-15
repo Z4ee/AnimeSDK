@@ -8,7 +8,7 @@ namespace System { class Object; }
 
 namespace Newtonsoft::Json::Utilities
 {
-	inline static constexpr unsigned int MethodCall_2_TypeDefinitionIndex = 9295;
+	inline static constexpr unsigned int MethodCall_2_TypeDefinitionIndex = 9307;
 
 	template <typename T, typename TResult>
 	class MethodCall_2 : public ::System::MulticastDelegate

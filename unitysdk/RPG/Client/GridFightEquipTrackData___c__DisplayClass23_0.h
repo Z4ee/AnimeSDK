@@ -1,23 +1,23 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Enum_3_DB663931210BBC27_36.h"
+#include "unitysdk/Enum_3_DB663931210BBC27_37.h"
 #include "unitysdk/System/Object.h"
 
 namespace RPG::Client { class GridFightEquipTrack; }
 
-#define RPG_CLIENT_GRIDFIGHTEQUIPTRACKDATA___C__DISPLAYCLASS23_0__CTOR_OFFSET UNITYSDK_OFFSET(0xBB2F460)
-#define RPG_CLIENT_GRIDFIGHTEQUIPTRACKDATA___C__DISPLAYCLASS23_0__GETEQUIPTRACK_B__0_OFFSET UNITYSDK_OFFSET(0xBB32B60)
-#define RPG_CLIENT_GRIDFIGHTEQUIPTRACKDATA___C__DISPLAYCLASS23_0__GETEQUIPTRACK_B__1_OFFSET UNITYSDK_OFFSET(0xBB32B80)
+#define RPG_CLIENT_GRIDFIGHTEQUIPTRACKDATA___C__DISPLAYCLASS23_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1A698350)
+#define RPG_CLIENT_GRIDFIGHTEQUIPTRACKDATA___C__DISPLAYCLASS23_0__GETEQUIPTRACK_B__0_OFFSET UNITYSDK_OFFSET(0x1A69BBB0)
+#define RPG_CLIENT_GRIDFIGHTEQUIPTRACKDATA___C__DISPLAYCLASS23_0__GETEQUIPTRACK_B__1_OFFSET UNITYSDK_OFFSET(0x1A69BBD0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GridFightEquipTrackData___c__DisplayClass23_0_TypeDefinitionIndex = 61086;
+	inline static constexpr unsigned int GridFightEquipTrackData___c__DisplayClass23_0_TypeDefinitionIndex = 62406;
 
 	class GridFightEquipTrackData___c__DisplayClass23_0 : public ::System::Object
 	{
 	public:
-		::System::UInt32 targetID; // 0x10
-		::Enum_3_DB663931210BBC27_36 trackSource; // 0x14
+		::Enum_3_DB663931210BBC27_37 trackSource; // 0x10
+		::System::UInt32 targetID; // 0x14
 
 		::System::Void _ctor()
 		{

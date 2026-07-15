@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int EParkourEventEntityType_TypeDefinitionIndex = 11538;
+	inline static constexpr unsigned int EParkourEventEntityType_TypeDefinitionIndex = 11638;
 
 	enum class EParkourEventEntityType : ::System::Int32
 	{

@@ -7,7 +7,7 @@ class Class_2_AEE59ED8DADEC1A1;
 class Class_4_38B51614211CBC7D;
 namespace RPG::GameCore { class DiceCombatModifierConfig; }
 
-inline static constexpr unsigned int Struct_2_96BCC9D6041DDF7D_TypeDefinitionIndex = 34502;
+inline static constexpr unsigned int Struct_2_96BCC9D6041DDF7D_TypeDefinitionIndex = 34884;
 
 struct alignas(8) Struct_2_96BCC9D6041DDF7D
 {

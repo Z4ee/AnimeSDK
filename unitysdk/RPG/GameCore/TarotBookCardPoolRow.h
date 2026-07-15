@@ -4,18 +4,18 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_TAROTBOOKCARDPOOLROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x19D2F9A0)
-#define RPG_GAMECORE_TAROTBOOKCARDPOOLROW__CTOR_OFFSET UNITYSDK_OFFSET(0x19D2FB70)
+#define RPG_GAMECORE_TAROTBOOKCARDPOOLROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D0CBFD0)
+#define RPG_GAMECORE_TAROTBOOKCARDPOOLROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D0CC1A0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TarotBookCardPoolRow_TypeDefinitionIndex = 14461;
+	inline static constexpr unsigned int TarotBookCardPoolRow_TypeDefinitionIndex = 14619;
 
 	class TarotBookCardPoolRow : public ::System::Object
 	{
 	public:
-		::Il2CppArray<::System::UInt32>* StoryList; // 0x10
-		::Il2CppArray<::System::UInt32>* CardList; // 0x18
+		::Il2CppArray<::System::UInt32>* CardList; // 0x10
+		::Il2CppArray<::System::UInt32>* StoryList; // 0x18
 		::Il2CppArray<::System::UInt32>* ClueList; // 0x20
 		::System::UInt32 ID; // 0x28
 

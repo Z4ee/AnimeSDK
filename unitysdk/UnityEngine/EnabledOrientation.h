@@ -3,7 +3,7 @@
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int EnabledOrientation_TypeDefinitionIndex = 4101;
+	inline static constexpr unsigned int EnabledOrientation_TypeDefinitionIndex = 4106;
 
 	enum class EnabledOrientation : ::System::Int32
 	{

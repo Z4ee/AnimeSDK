@@ -8,31 +8,31 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class Material; }
 namespace UnityEngine { class Renderer; }
 
-#define STAGEHARMONYMATLINKSLOT_GET_ISSINGLERENDERER_OFFSET UNITYSDK_OFFSET(0xD099450)
-#define STAGEHARMONYMATLINKSLOT_METHOD_2_03BFDB1C3240A55A_OFFSET UNITYSDK_OFFSET(0xD099460)
-#define STAGEHARMONYMATLINKSLOT_METHOD_2_04A4B365E89A7C7D_OFFSET UNITYSDK_OFFSET(0xD099800)
-#define STAGEHARMONYMATLINKSLOT_METHOD_2_053A7A8C0272A969_OFFSET UNITYSDK_OFFSET(0xD099CC0)
-#define STAGEHARMONYMATLINKSLOT_METHOD_2_05575812F33D749E_OFFSET UNITYSDK_OFFSET(0xD099A70)
-#define STAGEHARMONYMATLINKSLOT_METHOD_2_3D2B77EBCAE390AB_OFFSET UNITYSDK_OFFSET(0xD0996A0)
-#define STAGEHARMONYMATLINKSLOT_METHOD_2_482601AC39388AEF_OFFSET UNITYSDK_OFFSET(0xD099990)
-#define STAGEHARMONYMATLINKSLOT_METHOD_2_CA373AA1C7054598_1_OFFSET UNITYSDK_OFFSET(0xD099660)
-#define STAGEHARMONYMATLINKSLOT_METHOD_2_CA373AA1C7054598_OFFSET UNITYSDK_OFFSET(0xD099610)
-#define STAGEHARMONYMATLINKSLOT__CTOR_OFFSET UNITYSDK_OFFSET(0xD09A0B0)
+#define STAGEHARMONYMATLINKSLOT_GET_ISSINGLERENDERER_OFFSET UNITYSDK_OFFSET(0x14ECFAB0)
+#define STAGEHARMONYMATLINKSLOT_METHOD_2_03BFDB1C3240A55A_OFFSET UNITYSDK_OFFSET(0x14ECFAC0)
+#define STAGEHARMONYMATLINKSLOT_METHOD_2_04A4B365E89A7C7D_OFFSET UNITYSDK_OFFSET(0x14ECFE70)
+#define STAGEHARMONYMATLINKSLOT_METHOD_2_3D2B77EBCAE390AB_OFFSET UNITYSDK_OFFSET(0x14ECFD10)
+#define STAGEHARMONYMATLINKSLOT_METHOD_2_482601AC39388AEF_OFFSET UNITYSDK_OFFSET(0x14ED0000)
+#define STAGEHARMONYMATLINKSLOT_METHOD_2_51120F267FCE261F_OFFSET UNITYSDK_OFFSET(0x14ED05B0)
+#define STAGEHARMONYMATLINKSLOT_METHOD_2_CA373AA1C7054598_1_OFFSET UNITYSDK_OFFSET(0x14ECFCD0)
+#define STAGEHARMONYMATLINKSLOT_METHOD_2_CA373AA1C7054598_OFFSET UNITYSDK_OFFSET(0x14ECFC80)
+#define STAGEHARMONYMATLINKSLOT_METHOD_2_D7A3826BE77D1015_OFFSET UNITYSDK_OFFSET(0x14ED00E0)
+#define STAGEHARMONYMATLINKSLOT__CTOR_OFFSET UNITYSDK_OFFSET(0x14ED0C10)
 
-inline static constexpr unsigned int StageHarmonyMatLinkSlot_TypeDefinitionIndex = 44838;
+inline static constexpr unsigned int StageHarmonyMatLinkSlot_TypeDefinitionIndex = 45755;
 
 class StageHarmonyMatLinkSlot : public ::StageHarmonyBaseLinkSlot
 {
 public:
-	::System::Boolean isRendererGroup; // 0x28
-	::UnityEngine::Renderer* TargetRenderer; // 0x30
-	::System::Int32 MatID; // 0x38
-	::System::String* PropertyName; // 0x40
-	::System::Int32 _PropertyID; // 0x48
-	::System::Collections::Generic::List_1<::UnityEngine::Renderer*>* TargetRenderers; // 0x50
-	::System::Boolean useInstanceMode; // 0x58
-	::UnityEngine::Material* OriginalMat; // 0x60
-	::UnityEngine::Material* InstancedMat; // 0x68
+	::System::Boolean isRendererGroup; // 0x40
+	::UnityEngine::Renderer* TargetRenderer; // 0x48
+	::System::Int32 MatID; // 0x50
+	::System::String* PropertyName; // 0x58
+	::System::Int32 _PropertyID; // 0x60
+	::System::Collections::Generic::List_1<::UnityEngine::Renderer*>* TargetRenderers; // 0x68
+	::System::Boolean useInstanceMode; // 0x70
+	::UnityEngine::Material* OriginalMat; // 0x78
+	::UnityEngine::Material* InstancedMat; // 0x80
 
 	::System::Void _ctor()
 	{
@@ -74,13 +74,13 @@ public:
 		return ((::System::Void(*)(::PVOID, ::UnityEngine::Renderer*, ::System::Single))((::PBYTE)hIl2Cpp + STAGEHARMONYMATLINKSLOT_METHOD_2_482601AC39388AEF_OFFSET))(this, a1, a2);
 	}
 
-	::System::Void Method_2_053A7A8C0272A969(::StageHarmonyDemodulator* a1, ::UnityEngine::Renderer* a2, ::System::Single a3)
+	::System::Void Method_2_51120F267FCE261F(::StageHarmonyDemodulator* a1, ::UnityEngine::Renderer* a2, ::System::Single a3)
 	{
-		return ((::System::Void(*)(::PVOID, ::StageHarmonyDemodulator*, ::UnityEngine::Renderer*, ::System::Single))((::PBYTE)hIl2Cpp + STAGEHARMONYMATLINKSLOT_METHOD_2_053A7A8C0272A969_OFFSET))(this, a1, a2, a3);
+		return ((::System::Void(*)(::PVOID, ::StageHarmonyDemodulator*, ::UnityEngine::Renderer*, ::System::Single))((::PBYTE)hIl2Cpp + STAGEHARMONYMATLINKSLOT_METHOD_2_51120F267FCE261F_OFFSET))(this, a1, a2, a3);
 	}
 
-	::System::Void Method_2_05575812F33D749E(::StageHarmonyDemodulator* a1, ::UnityEngine::Material* a2, ::System::Single a3)
+	::System::Void Method_2_D7A3826BE77D1015(::StageHarmonyDemodulator* a1, ::UnityEngine::Material* a2, ::System::Single a3)
 	{
-		return ((::System::Void(*)(::PVOID, ::StageHarmonyDemodulator*, ::UnityEngine::Material*, ::System::Single))((::PBYTE)hIl2Cpp + STAGEHARMONYMATLINKSLOT_METHOD_2_05575812F33D749E_OFFSET))(this, a1, a2, a3);
+		return ((::System::Void(*)(::PVOID, ::StageHarmonyDemodulator*, ::UnityEngine::Material*, ::System::Single))((::PBYTE)hIl2Cpp + STAGEHARMONYMATLINKSLOT_METHOD_2_D7A3826BE77D1015_OFFSET))(this, a1, a2, a3);
 	}
 };

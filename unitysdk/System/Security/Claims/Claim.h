@@ -8,17 +8,17 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 namespace System::Collections::Generic { template <typename T1, typename T2> class IDictionary_2; }
 namespace System::Security::Claims { class ClaimsIdentity; }
 
-#define SYSTEM_SECURITY_CLAIMS_CLAIM_CLONE_OFFSET UNITYSDK_OFFSET(0x187DF1F0)
-#define SYSTEM_SECURITY_CLAIMS_CLAIM_GET_PROPERTIES_OFFSET UNITYSDK_OFFSET(0x187DEC20)
-#define SYSTEM_SECURITY_CLAIMS_CLAIM_GET_SUBJECT_OFFSET UNITYSDK_OFFSET(0x187DF1B0)
-#define SYSTEM_SECURITY_CLAIMS_CLAIM_GET_TYPE_OFFSET UNITYSDK_OFFSET(0x187DF1D0)
-#define SYSTEM_SECURITY_CLAIMS_CLAIM_GET_VALUE_OFFSET UNITYSDK_OFFSET(0x187DF1E0)
-#define SYSTEM_SECURITY_CLAIMS_CLAIM_ONDESERIALIZEDMETHOD_OFFSET UNITYSDK_OFFSET(0x187DF190)
-#define SYSTEM_SECURITY_CLAIMS_CLAIM_SET_SUBJECT_OFFSET UNITYSDK_OFFSET(0x187DF1C0)
-#define SYSTEM_SECURITY_CLAIMS_CLAIM_TOSTRING_OFFSET UNITYSDK_OFFSET(0x187DF250)
-#define SYSTEM_SECURITY_CLAIMS_CLAIM__CTOR_1_OFFSET UNITYSDK_OFFSET(0x187DEA10)
-#define SYSTEM_SECURITY_CLAIMS_CLAIM__CTOR_2_OFFSET UNITYSDK_OFFSET(0x187DED60)
-#define SYSTEM_SECURITY_CLAIMS_CLAIM__CTOR_OFFSET UNITYSDK_OFFSET(0x187DE9E0)
+#define SYSTEM_SECURITY_CLAIMS_CLAIM_CLONE_OFFSET UNITYSDK_OFFSET(0x18353640)
+#define SYSTEM_SECURITY_CLAIMS_CLAIM_GET_PROPERTIES_OFFSET UNITYSDK_OFFSET(0x18353070)
+#define SYSTEM_SECURITY_CLAIMS_CLAIM_GET_SUBJECT_OFFSET UNITYSDK_OFFSET(0x18353600)
+#define SYSTEM_SECURITY_CLAIMS_CLAIM_GET_TYPE_OFFSET UNITYSDK_OFFSET(0x18353620)
+#define SYSTEM_SECURITY_CLAIMS_CLAIM_GET_VALUE_OFFSET UNITYSDK_OFFSET(0x18353630)
+#define SYSTEM_SECURITY_CLAIMS_CLAIM_ONDESERIALIZEDMETHOD_OFFSET UNITYSDK_OFFSET(0x183535E0)
+#define SYSTEM_SECURITY_CLAIMS_CLAIM_SET_SUBJECT_OFFSET UNITYSDK_OFFSET(0x18353610)
+#define SYSTEM_SECURITY_CLAIMS_CLAIM_TOSTRING_OFFSET UNITYSDK_OFFSET(0x183536A0)
+#define SYSTEM_SECURITY_CLAIMS_CLAIM__CTOR_1_OFFSET UNITYSDK_OFFSET(0x18352E10)
+#define SYSTEM_SECURITY_CLAIMS_CLAIM__CTOR_2_OFFSET UNITYSDK_OFFSET(0x183531B0)
+#define SYSTEM_SECURITY_CLAIMS_CLAIM__CTOR_OFFSET UNITYSDK_OFFSET(0x18352DE0)
 
 namespace System::Security::Claims
 {
@@ -27,15 +27,15 @@ namespace System::Security::Claims
 	class Claim : public ::System::Object
 	{
 	public:
-		::System::String* m_value; // 0x10
-		::System::Object* m_propertyLock; // 0x18
-		::System::Security::Claims::ClaimsIdentity* m_subject; // 0x20
-		::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>* m_properties; // 0x28
+		::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>* m_properties; // 0x10
+		::System::String* m_value; // 0x18
+		::System::String* m_valueType; // 0x20
+		::System::String* m_originalIssuer; // 0x28
 		::System::String* m_issuer; // 0x30
-		::Il2CppArray<::System::Byte>* m_userSerializationData; // 0x38
+		::System::Security::Claims::ClaimsIdentity* m_subject; // 0x38
 		::System::String* m_type; // 0x40
-		::System::String* m_originalIssuer; // 0x48
-		::System::String* m_valueType; // 0x50
+		::System::Object* m_propertyLock; // 0x48
+		::Il2CppArray<::System::Byte>* m_userSerializationData; // 0x50
 
 		::System::Void _ctor(::System::String* a1, ::System::String* a2, ::System::String* a3, ::System::String* a4, ::System::String* a5, ::System::Security::Claims::ClaimsIdentity* a6)
 		{

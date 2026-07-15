@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class OverrideEntityModifierPhaseCamera; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_8FF89E8D54C6B4D7_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x13A5CC10)
-#define CLASS_3_8FF89E8D54C6B4D7__CTOR_OFFSET UNITYSDK_OFFSET(0x13A5CBE0)
+#define CLASS_3_8FF89E8D54C6B4D7_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x16E884C0)
+#define CLASS_3_8FF89E8D54C6B4D7__CTOR_OFFSET UNITYSDK_OFFSET(0x16E88490)
 
-inline static constexpr unsigned int Class_3_8FF89E8D54C6B4D7_TypeDefinitionIndex = 51598;
+inline static constexpr unsigned int Class_3_8FF89E8D54C6B4D7_TypeDefinitionIndex = 52740;
 
 class Class_3_8FF89E8D54C6B4D7 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::OverrideEntityModifierPhaseCamera*>
 {

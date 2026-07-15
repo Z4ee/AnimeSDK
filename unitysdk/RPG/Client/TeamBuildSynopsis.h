@@ -4,13 +4,13 @@
 
 namespace System::Collections::Generic { template <typename T> class IList_1; }
 
-#define RPG_CLIENT_TEAMBUILDSYNOPSIS_CREATE_OFFSET UNITYSDK_OFFSET(0xC9F3600)
-#define RPG_CLIENT_TEAMBUILDSYNOPSIS_GET_AVATARIDS_OFFSET UNITYSDK_OFFSET(0xC9F35F0)
-#define RPG_CLIENT_TEAMBUILDSYNOPSIS__CTOR_OFFSET UNITYSDK_OFFSET(0xC9F3C60)
+#define RPG_CLIENT_TEAMBUILDSYNOPSIS_CREATE_OFFSET UNITYSDK_OFFSET(0x18551EB0)
+#define RPG_CLIENT_TEAMBUILDSYNOPSIS_GET_AVATARIDS_OFFSET UNITYSDK_OFFSET(0x18556800)
+#define RPG_CLIENT_TEAMBUILDSYNOPSIS__CTOR_OFFSET UNITYSDK_OFFSET(0x18556810)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int TeamBuildSynopsis_TypeDefinitionIndex = 63715;
+	inline static constexpr unsigned int TeamBuildSynopsis_TypeDefinitionIndex = 65084;
 
 	class TeamBuildSynopsis : public ::System::Object
 	{

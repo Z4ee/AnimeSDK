@@ -7,7 +7,7 @@ namespace System::Collections::Generic { template <typename T> class IList_1; }
 
 namespace RVO
 {
-	inline static constexpr unsigned int RVOObstacleParam_TypeDefinitionIndex = 41852;
+	inline static constexpr unsigned int RVOObstacleParam_TypeDefinitionIndex = 42713;
 
 	struct alignas(8) RVOObstacleParam
 	{

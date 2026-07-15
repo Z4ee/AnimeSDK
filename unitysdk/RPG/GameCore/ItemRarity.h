@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ItemRarity_TypeDefinitionIndex = 10193;
+	inline static constexpr unsigned int ItemRarity_TypeDefinitionIndex = 10214;
 
 	enum class ItemRarity : ::System::Int32
 	{

@@ -8,12 +8,12 @@ namespace RPG::GameCore { class LevelRegionConnectivity; }
 namespace RPG::GameCore { class LevelRegionStateConfig; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_LEVELREGIONINFO_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x19889E90)
-#define RPG_GAMECORE_LEVELREGIONINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x1988A010)
+#define RPG_GAMECORE_LEVELREGIONINFO_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B087DE0)
+#define RPG_GAMECORE_LEVELREGIONINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x1B087F60)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LevelRegionInfo_TypeDefinitionIndex = 16531;
+	inline static constexpr unsigned int LevelRegionInfo_TypeDefinitionIndex = 16693;
 
 	class LevelRegionInfo : public ::RPG::GameCore::JsonConfig
 	{

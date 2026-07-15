@@ -7,13 +7,13 @@ namespace UnityEngine { class Material; }
 namespace UnityEngine { class RenderTexture; }
 namespace UnityEngine::UI { class RawImage; }
 
-#define CLASS_1_295F92BEFA9236BF_DISPOSE_OFFSET UNITYSDK_OFFSET(0x112B0860)
-#define CLASS_1_295F92BEFA9236BF_METHOD_1_6E07954A29DDCD4C_OFFSET UNITYSDK_OFFSET(0x112B07C0)
-#define CLASS_1_295F92BEFA9236BF_METHOD_1_9681042564541CD6_OFFSET UNITYSDK_OFFSET(0x112B0760)
-#define CLASS_1_295F92BEFA9236BF_METHOD_1_B7C69575F1BC05B2_OFFSET UNITYSDK_OFFSET(0x112B0570)
-#define CLASS_1_295F92BEFA9236BF__CTOR_OFFSET UNITYSDK_OFFSET(0x112B08E0)
+#define CLASS_1_295F92BEFA9236BF_DISPOSE_OFFSET UNITYSDK_OFFSET(0x18F95B20)
+#define CLASS_1_295F92BEFA9236BF_METHOD_1_6E07954A29DDCD4C_OFFSET UNITYSDK_OFFSET(0x18F95A80)
+#define CLASS_1_295F92BEFA9236BF_METHOD_1_9681042564541CD6_OFFSET UNITYSDK_OFFSET(0x18F95A20)
+#define CLASS_1_295F92BEFA9236BF_METHOD_1_E8B5ADF70FCD4DFB_OFFSET UNITYSDK_OFFSET(0x18F95890)
+#define CLASS_1_295F92BEFA9236BF__CTOR_OFFSET UNITYSDK_OFFSET(0x18F95BA0)
 
-inline static constexpr unsigned int Class_1_295F92BEFA9236BF_TypeDefinitionIndex = 67996;
+inline static constexpr unsigned int Class_1_295F92BEFA9236BF_TypeDefinitionIndex = 69482;
 
 class Class_1_295F92BEFA9236BF : public ::System::Object
 {
@@ -26,9 +26,9 @@ public:
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_295F92BEFA9236BF__CTOR_OFFSET))(this);
 	}
 
-	::System::Void Method_1_B7C69575F1BC05B2(::UnityEngine::UI::RawImage* a1, ::UnityEngine::RenderTexture* a2)
+	::System::Void Method_1_E8B5ADF70FCD4DFB(::UnityEngine::UI::RawImage* a1, ::UnityEngine::RenderTexture* a2)
 	{
-		return ((::System::Void(*)(::PVOID, ::UnityEngine::UI::RawImage*, ::UnityEngine::RenderTexture*))((::PBYTE)hIl2Cpp + CLASS_1_295F92BEFA9236BF_METHOD_1_B7C69575F1BC05B2_OFFSET))(this, a1, a2);
+		return ((::System::Void(*)(::PVOID, ::UnityEngine::UI::RawImage*, ::UnityEngine::RenderTexture*))((::PBYTE)hIl2Cpp + CLASS_1_295F92BEFA9236BF_METHOD_1_E8B5ADF70FCD4DFB_OFFSET))(this, a1, a2);
 	}
 
 	::System::Void Method_1_6E07954A29DDCD4C(::UnityEngine::UI::RawImage* a1, ::System::Single a2)

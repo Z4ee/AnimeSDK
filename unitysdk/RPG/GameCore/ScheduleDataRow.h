@@ -5,12 +5,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_SCHEDULEDATAROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x19C1D7F0)
-#define RPG_GAMECORE_SCHEDULEDATAROW__CTOR_OFFSET UNITYSDK_OFFSET(0x19C1D940)
+#define RPG_GAMECORE_SCHEDULEDATAROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1C2C7860)
+#define RPG_GAMECORE_SCHEDULEDATAROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1C2C79B0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ScheduleDataRow_TypeDefinitionIndex = 14353;
+	inline static constexpr unsigned int ScheduleDataRow_TypeDefinitionIndex = 14501;
 
 	class ScheduleDataRow : public ::System::Object
 	{

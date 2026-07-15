@@ -3,7 +3,7 @@
 
 namespace RPG::Client::PixAir
 {
-	inline static constexpr unsigned int PixAirContainerType_TypeDefinitionIndex = 73659;
+	inline static constexpr unsigned int PixAirContainerType_TypeDefinitionIndex = 75308;
 
 	enum class PixAirContainerType : ::System::Int32
 	{

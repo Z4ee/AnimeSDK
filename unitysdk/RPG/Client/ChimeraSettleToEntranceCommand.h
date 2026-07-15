@@ -4,13 +4,12 @@
 
 namespace System { class String; }
 
-#define RPG_CLIENT_CHIMERASETTLETOENTRANCECOMMAND__CTOR_OFFSET UNITYSDK_OFFSET(0xB6B66E0)
-#define RPG_CLIENT_CHIMERASETTLETOENTRANCECOMMAND__EXECUTEIMPL_OFFSET UNITYSDK_OFFSET(0xB6B9CA0)
-#define RPG_CLIENT_CHIMERASETTLETOENTRANCECOMMAND___IFIXBASEPROXY__EXECUTEIMPL_OFFSET UNITYSDK_OFFSET(0xB6B9D10)
+#define RPG_CLIENT_CHIMERASETTLETOENTRANCECOMMAND__CTOR_OFFSET UNITYSDK_OFFSET(0x19B09E70)
+#define RPG_CLIENT_CHIMERASETTLETOENTRANCECOMMAND__EXECUTEIMPL_OFFSET UNITYSDK_OFFSET(0x19B0D060)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ChimeraSettleToEntranceCommand_TypeDefinitionIndex = 59400;
+	inline static constexpr unsigned int ChimeraSettleToEntranceCommand_TypeDefinitionIndex = 60671;
 
 	class ChimeraSettleToEntranceCommand : public ::RPG::Client::ChimeraSettleCommandBase
 	{
@@ -25,11 +24,6 @@ namespace RPG::Client
 		::System::Void _ExecuteImpl()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHIMERASETTLETOENTRANCECOMMAND__EXECUTEIMPL_OFFSET))(this);
-		}
-
-		::System::Void __iFixBaseProxy__ExecuteImpl()
-		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHIMERASETTLETOENTRANCECOMMAND___IFIXBASEPROXY__EXECUTEIMPL_OFFSET))(this);
 		}
 	};
 }

@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FiveDimMiniGameCoinType_TypeDefinitionIndex = 17836;
+	inline static constexpr unsigned int FiveDimMiniGameCoinType_TypeDefinitionIndex = 18013;
 
 	enum class FiveDimMiniGameCoinType : ::System::Int32
 	{

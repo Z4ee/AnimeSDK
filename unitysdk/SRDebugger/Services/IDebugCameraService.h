@@ -5,7 +5,7 @@ namespace UnityEngine { class Camera; }
 
 namespace SRDebugger::Services
 {
-	inline static constexpr unsigned int IDebugCameraService_TypeDefinitionIndex = 35723;
+	inline static constexpr unsigned int IDebugCameraService_TypeDefinitionIndex = 36505;
 
 	class IDebugCameraService
 	{

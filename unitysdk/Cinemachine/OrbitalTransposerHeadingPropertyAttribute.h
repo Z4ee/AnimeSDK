@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/PropertyAttribute.h"
 
-#define CINEMACHINE_ORBITALTRANSPOSERHEADINGPROPERTYATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x146646F0)
+#define CINEMACHINE_ORBITALTRANSPOSERHEADINGPROPERTYATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1D215060)
 
 namespace Cinemachine
 {
-	inline static constexpr unsigned int OrbitalTransposerHeadingPropertyAttribute_TypeDefinitionIndex = 36885;
+	inline static constexpr unsigned int OrbitalTransposerHeadingPropertyAttribute_TypeDefinitionIndex = 37667;
 
 	class OrbitalTransposerHeadingPropertyAttribute : public ::UnityEngine::PropertyAttribute
 	{

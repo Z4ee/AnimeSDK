@@ -4,12 +4,12 @@
 
 namespace UnityEngine { class Object; }
 
-#define RPG_CUSTOMRP_CRPPIPELINEBASE_DELAYRELEASEINFO_RESET_OFFSET UNITYSDK_OFFSET(0x18EB9910)
-#define RPG_CUSTOMRP_CRPPIPELINEBASE_DELAYRELEASEINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x18EB9970)
+#define RPG_CUSTOMRP_CRPPIPELINEBASE_DELAYRELEASEINFO_RESET_OFFSET UNITYSDK_OFFSET(0x17811F00)
+#define RPG_CUSTOMRP_CRPPIPELINEBASE_DELAYRELEASEINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x17811F60)
 
 namespace RPG::CustomRP
 {
-	inline static constexpr unsigned int CRPPipelineBase_DelayReleaseInfo_TypeDefinitionIndex = 35220;
+	inline static constexpr unsigned int CRPPipelineBase_DelayReleaseInfo_TypeDefinitionIndex = 36002;
 
 	class CRPPipelineBase_DelayReleaseInfo : public ::System::Object
 	{

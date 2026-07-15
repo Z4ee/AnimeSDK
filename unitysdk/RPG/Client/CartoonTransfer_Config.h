@@ -6,11 +6,11 @@
 namespace System { class Action; }
 namespace UnityEngine { class AnimationCurve; }
 
-#define RPG_CLIENT_CARTOONTRANSFER_CONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0xB4BE4F0)
+#define RPG_CLIENT_CARTOONTRANSFER_CONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1AC5DFA0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int CartoonTransfer_Config_TypeDefinitionIndex = 67757;
+	inline static constexpr unsigned int CartoonTransfer_Config_TypeDefinitionIndex = 69241;
 
 	class CartoonTransfer_Config : public ::System::Object
 	{

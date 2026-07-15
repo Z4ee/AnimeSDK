@@ -1,11 +1,10 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/RPG/GameCore/RogueMagicMountType.h"
 
-namespace RPG::Client { class RogueMagicUnitDataItem; }
-namespace System::Collections::Generic { template <typename T> class List_1; }
+class Class_0_16E4307DCC419505_880;
+namespace System { template <typename T> class Action_1; }
 
-inline static constexpr unsigned int Class_0_16E4307DCC419505_889_TypeDefinitionIndex = 63051;
+inline static constexpr unsigned int Class_0_16E4307DCC419505_889_TypeDefinitionIndex = 64090;
 
 class Class_0_16E4307DCC419505_889
 {

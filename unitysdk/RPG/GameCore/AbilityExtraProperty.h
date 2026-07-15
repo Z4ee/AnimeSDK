@@ -3,12 +3,12 @@
 #include "unitysdk/RPG/GameCore/FixPoint.h"
 #include "unitysdk/System/ValueType.h"
 
-#define RPG_GAMECORE_ABILITYEXTRAPROPERTY_GET_VALUE_OFFSET UNITYSDK_OFFSET(0x1476F0)
-#define RPG_GAMECORE_ABILITYEXTRAPROPERTY__CTOR_OFFSET UNITYSDK_OFFSET(0x1476D0)
+#define RPG_GAMECORE_ABILITYEXTRAPROPERTY_GET_VALUE_OFFSET UNITYSDK_OFFSET(0x384F7D0)
+#define RPG_GAMECORE_ABILITYEXTRAPROPERTY__CTOR_OFFSET UNITYSDK_OFFSET(0x2F01E40)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AbilityExtraProperty_TypeDefinitionIndex = 50860;
+	inline static constexpr unsigned int AbilityExtraProperty_TypeDefinitionIndex = 51945;
 
 	struct alignas(8) AbilityExtraProperty
 	{

@@ -4,24 +4,24 @@
 
 namespace System { class Action; }
 
-#define MIHOYO_SDK_CONSOLE_CN_LOGINMANAGERPS___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1821C7E0)
-#define MIHOYO_SDK_CONSOLE_CN_LOGINMANAGERPS___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1821C820)
-#define MIHOYO_SDK_CONSOLE_CN_LOGINMANAGERPS___C___CTOR_B__2_0_OFFSET UNITYSDK_OFFSET(0x1821C830)
+#define MIHOYO_SDK_CONSOLE_CN_LOGINMANAGERPS___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x163AE0E0)
+#define MIHOYO_SDK_CONSOLE_CN_LOGINMANAGERPS___C__CTOR_OFFSET UNITYSDK_OFFSET(0x163AE120)
+#define MIHOYO_SDK_CONSOLE_CN_LOGINMANAGERPS___C___CTOR_B__2_0_OFFSET UNITYSDK_OFFSET(0x163AE130)
 
 namespace MiHoYo::SDK::Console::CN
 {
-	inline static constexpr unsigned int LoginManagerPS___c_TypeDefinitionIndex = 8773;
+	inline static constexpr unsigned int LoginManagerPS___c_TypeDefinitionIndex = 8785;
 
 	class LoginManagerPS___c : public ::System::Object
 	{
 	public:
 		static ::MiHoYo::SDK::Console::CN::LoginManagerPS___c** StaticGet___9()
 		{
-			return (::MiHoYo::SDK::Console::CN::LoginManagerPS___c**)Il2CppClass::FromTypeDefinitionIndex(LoginManagerPS___c_TypeDefinitionIndex)->GetStaticField(0xE2C0);
+			return (::MiHoYo::SDK::Console::CN::LoginManagerPS___c**)Il2CppClass::FromTypeDefinitionIndex(LoginManagerPS___c_TypeDefinitionIndex)->GetStaticField(0x18390);
 		}
 		static ::System::Action** StaticGet___9__2_0()
 		{
-			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(LoginManagerPS___c_TypeDefinitionIndex)->GetStaticField(0xE2C8);
+			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(LoginManagerPS___c_TypeDefinitionIndex)->GetStaticField(0x18398);
 		}
 
 		static ::System::Void _cctor()

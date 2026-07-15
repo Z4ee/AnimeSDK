@@ -4,12 +4,12 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_IDLELIVEQUESTIONMESSAGEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x19846140)
-#define RPG_GAMECORE_IDLELIVEQUESTIONMESSAGEROW__CTOR_OFFSET UNITYSDK_OFFSET(0x19846260)
+#define RPG_GAMECORE_IDLELIVEQUESTIONMESSAGEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B698950)
+#define RPG_GAMECORE_IDLELIVEQUESTIONMESSAGEROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1B698A70)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int IdleLiveQuestionMessageRow_TypeDefinitionIndex = 11317;
+	inline static constexpr unsigned int IdleLiveQuestionMessageRow_TypeDefinitionIndex = 11417;
 
 	class IdleLiveQuestionMessageRow : public ::System::Object
 	{

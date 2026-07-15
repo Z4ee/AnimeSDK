@@ -7,13 +7,13 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class DynamicFloat; }
 namespace RPG::GameCore { class DynamicString; }
 
-#define RPG_GAMECORE_ADVENTURECAMERATOORTHOGRAPHIC_METHOD_3_EE029D45ED00EC2C_OFFSET UNITYSDK_OFFSET(0x1944B070)
-#define RPG_GAMECORE_ADVENTURECAMERATOORTHOGRAPHIC_METHOD_3_FF581D7F79249F2D_OFFSET UNITYSDK_OFFSET(0x1944B0F0)
-#define RPG_GAMECORE_ADVENTURECAMERATOORTHOGRAPHIC__CTOR_OFFSET UNITYSDK_OFFSET(0x1944B0C0)
+#define RPG_GAMECORE_ADVENTURECAMERATOORTHOGRAPHIC_METHOD_3_ADECD5A0BDB93EFC_OFFSET UNITYSDK_OFFSET(0x1AE599F0)
+#define RPG_GAMECORE_ADVENTURECAMERATOORTHOGRAPHIC_METHOD_3_FF581D7F79249F2D_OFFSET UNITYSDK_OFFSET(0x1AE59A30)
+#define RPG_GAMECORE_ADVENTURECAMERATOORTHOGRAPHIC__CTOR_OFFSET UNITYSDK_OFFSET(0x1AE59A20)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AdventureCameraToOrthographic_TypeDefinitionIndex = 20913;
+	inline static constexpr unsigned int AdventureCameraToOrthographic_TypeDefinitionIndex = 21328;
 
 	class AdventureCameraToOrthographic : public ::RPG::GameCore::TaskConfig
 	{
@@ -33,9 +33,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVENTURECAMERATOORTHOGRAPHIC__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_EE029D45ED00EC2C(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AdventureCameraToOrthographic*& a2)
+		static ::System::Void Method_3_ADECD5A0BDB93EFC(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AdventureCameraToOrthographic*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::AdventureCameraToOrthographic*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVENTURECAMERATOORTHOGRAPHIC_METHOD_3_EE029D45ED00EC2C_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::AdventureCameraToOrthographic*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVENTURECAMERATOORTHOGRAPHIC_METHOD_3_ADECD5A0BDB93EFC_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_FF581D7F79249F2D(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AdventureCameraToOrthographic* a2)

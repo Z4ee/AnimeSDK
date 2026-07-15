@@ -4,12 +4,12 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_IDLELIVECHESTRANKROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x198414D0)
-#define RPG_GAMECORE_IDLELIVECHESTRANKROW__CTOR_OFFSET UNITYSDK_OFFSET(0x19841650)
+#define RPG_GAMECORE_IDLELIVECHESTRANKROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B693CE0)
+#define RPG_GAMECORE_IDLELIVECHESTRANKROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1B693E60)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int IdleLiveChestRankRow_TypeDefinitionIndex = 11236;
+	inline static constexpr unsigned int IdleLiveChestRankRow_TypeDefinitionIndex = 11336;
 
 	class IdleLiveChestRankRow : public ::System::Object
 	{

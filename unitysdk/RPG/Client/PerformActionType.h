@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int PerformActionType_TypeDefinitionIndex = 65539;
+	inline static constexpr unsigned int PerformActionType_TypeDefinitionIndex = 66954;
 
 	enum class PerformActionType : ::System::Int32
 	{

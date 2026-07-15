@@ -5,13 +5,13 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class PredicateConfig; }
 
-#define RPG_GAMECORE_ADVLOOPTIMER_METHOD_3_30E3B92AD161CEE7_OFFSET UNITYSDK_OFFSET(0x19428E30)
-#define RPG_GAMECORE_ADVLOOPTIMER_METHOD_3_A538A5C7A4D6B500_OFFSET UNITYSDK_OFFSET(0x19428DB0)
-#define RPG_GAMECORE_ADVLOOPTIMER__CTOR_OFFSET UNITYSDK_OFFSET(0x19428E00)
+#define RPG_GAMECORE_ADVLOOPTIMER_METHOD_3_30E3B92AD161CEE7_OFFSET UNITYSDK_OFFSET(0x1BE20AD0)
+#define RPG_GAMECORE_ADVLOOPTIMER_METHOD_3_48E8688EA3BADA31_OFFSET UNITYSDK_OFFSET(0x1BE20A90)
+#define RPG_GAMECORE_ADVLOOPTIMER__CTOR_OFFSET UNITYSDK_OFFSET(0x1BE20AC0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AdvLoopTimer_TypeDefinitionIndex = 20059;
+	inline static constexpr unsigned int AdvLoopTimer_TypeDefinitionIndex = 20431;
 
 	class AdvLoopTimer : public ::RPG::GameCore::TaskConfig
 	{
@@ -28,9 +28,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVLOOPTIMER__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_A538A5C7A4D6B500(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AdvLoopTimer*& a2)
+		static ::System::Void Method_3_48E8688EA3BADA31(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AdvLoopTimer*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::AdvLoopTimer*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVLOOPTIMER_METHOD_3_A538A5C7A4D6B500_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::AdvLoopTimer*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVLOOPTIMER_METHOD_3_48E8688EA3BADA31_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_30E3B92AD161CEE7(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AdvLoopTimer* a2)

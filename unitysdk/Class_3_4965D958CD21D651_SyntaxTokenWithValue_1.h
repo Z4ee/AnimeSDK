@@ -6,7 +6,7 @@
 namespace System { class Object; }
 namespace System { class String; }
 
-inline static constexpr unsigned int Class_3_4965D958CD21D651_SyntaxTokenWithValue_1_TypeDefinitionIndex = 68564;
+inline static constexpr unsigned int Class_3_4965D958CD21D651_SyntaxTokenWithValue_1_TypeDefinitionIndex = 70060;
 
 template <typename T>
 class Class_3_4965D958CD21D651_SyntaxTokenWithValue_1 : public ::Class_3_4965D958CD21D651

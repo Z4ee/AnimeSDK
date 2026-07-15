@@ -3,7 +3,7 @@
 
 namespace Epic::OnlineServices::AntiCheatCommon
 {
-	inline static constexpr unsigned int AntiCheatCommonPlayerTakeDamageResult_TypeDefinitionIndex = 43270;
+	inline static constexpr unsigned int AntiCheatCommonPlayerTakeDamageResult_TypeDefinitionIndex = 44131;
 
 	enum class AntiCheatCommonPlayerTakeDamageResult : ::System::Int32
 	{

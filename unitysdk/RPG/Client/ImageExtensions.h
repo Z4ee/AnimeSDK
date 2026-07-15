@@ -6,13 +6,13 @@ namespace System { class String; }
 namespace UnityEngine { class Sprite; }
 namespace UnityEngine::UI { class Image; }
 
-#define RPG_CLIENT_IMAGEEXTENSIONS_SAFESETALPHA_OFFSET UNITYSDK_OFFSET(0xBD28440)
-#define RPG_CLIENT_IMAGEEXTENSIONS_SAFESETCOLOR_OFFSET UNITYSDK_OFFSET(0xBD28530)
-#define RPG_CLIENT_IMAGEEXTENSIONS_SAFESETSPRITE_OFFSET UNITYSDK_OFFSET(0xBD28340)
+#define RPG_CLIENT_IMAGEEXTENSIONS_SAFESETALPHA_OFFSET UNITYSDK_OFFSET(0x17964A60)
+#define RPG_CLIENT_IMAGEEXTENSIONS_SAFESETCOLOR_OFFSET UNITYSDK_OFFSET(0x17964BC0)
+#define RPG_CLIENT_IMAGEEXTENSIONS_SAFESETSPRITE_OFFSET UNITYSDK_OFFSET(0x17957130)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ImageExtensions_TypeDefinitionIndex = 67984;
+	inline static constexpr unsigned int ImageExtensions_TypeDefinitionIndex = 69470;
 
 	class ImageExtensions : public ::System::Object
 	{

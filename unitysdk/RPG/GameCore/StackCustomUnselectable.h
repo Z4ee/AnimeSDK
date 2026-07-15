@@ -7,13 +7,13 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class PredicateConfig; }
 
-#define RPG_GAMECORE_STACKCUSTOMUNSELECTABLE_METHOD_3_6C6C5F5DFFDE3BF6_OFFSET UNITYSDK_OFFSET(0x19CA1970)
-#define RPG_GAMECORE_STACKCUSTOMUNSELECTABLE_METHOD_3_FAB0E8C43C9B4CA7_OFFSET UNITYSDK_OFFSET(0x19CA1A00)
-#define RPG_GAMECORE_STACKCUSTOMUNSELECTABLE__CTOR_OFFSET UNITYSDK_OFFSET(0x19CA19D0)
+#define RPG_GAMECORE_STACKCUSTOMUNSELECTABLE_METHOD_3_34837A4187EB221A_OFFSET UNITYSDK_OFFSET(0x1B0A5530)
+#define RPG_GAMECORE_STACKCUSTOMUNSELECTABLE_METHOD_3_FAB0E8C43C9B4CA7_OFFSET UNITYSDK_OFFSET(0x1B0A5580)
+#define RPG_GAMECORE_STACKCUSTOMUNSELECTABLE__CTOR_OFFSET UNITYSDK_OFFSET(0x1B0A5570)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int StackCustomUnselectable_TypeDefinitionIndex = 22418;
+	inline static constexpr unsigned int StackCustomUnselectable_TypeDefinitionIndex = 22862;
 
 	class StackCustomUnselectable : public ::RPG::GameCore::TaskConfig
 	{
@@ -28,9 +28,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_STACKCUSTOMUNSELECTABLE__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_6C6C5F5DFFDE3BF6(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::StackCustomUnselectable*& a2)
+		static ::System::Void Method_3_34837A4187EB221A(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::StackCustomUnselectable*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::StackCustomUnselectable*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_STACKCUSTOMUNSELECTABLE_METHOD_3_6C6C5F5DFFDE3BF6_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::StackCustomUnselectable*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_STACKCUSTOMUNSELECTABLE_METHOD_3_34837A4187EB221A_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_FAB0E8C43C9B4CA7(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::StackCustomUnselectable* a2)

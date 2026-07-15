@@ -4,13 +4,12 @@
 
 namespace System { class String; }
 
-#define RPG_CLIENT_FLOORCONNECTIVITYDATA_EDGECONNECTIONINFO_TOSTRING_OFFSET UNITYSDK_OFFSET(0xBA61330)
-#define RPG_CLIENT_FLOORCONNECTIVITYDATA_EDGECONNECTIONINFO__CTOR_OFFSET UNITYSDK_OFFSET(0xBA61320)
-#define RPG_CLIENT_FLOORCONNECTIVITYDATA_EDGECONNECTIONINFO___IFIXBASEPROXY_TOSTRING_OFFSET UNITYSDK_OFFSET(0xBA61410)
+#define RPG_CLIENT_FLOORCONNECTIVITYDATA_EDGECONNECTIONINFO_TOSTRING_OFFSET UNITYSDK_OFFSET(0x16D12E10)
+#define RPG_CLIENT_FLOORCONNECTIVITYDATA_EDGECONNECTIONINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x16D12E00)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int FloorConnectivityData_EdgeConnectionInfo_TypeDefinitionIndex = 60027;
+	inline static constexpr unsigned int FloorConnectivityData_EdgeConnectionInfo_TypeDefinitionIndex = 61312;
 
 	class FloorConnectivityData_EdgeConnectionInfo : public ::System::Object
 	{
@@ -27,11 +26,6 @@ namespace RPG::Client
 		::System::String* ToString()
 		{
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_FLOORCONNECTIVITYDATA_EDGECONNECTIONINFO_TOSTRING_OFFSET))(this);
-		}
-
-		::System::String* __iFixBaseProxy_ToString()
-		{
-			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_FLOORCONNECTIVITYDATA_EDGECONNECTIONINFO___IFIXBASEPROXY_TOSTRING_OFFSET))(this);
 		}
 	};
 }

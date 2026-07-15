@@ -7,11 +7,11 @@ namespace RPG::GameCore { class GameEntity; }
 namespace RPG::GameCore { class TaskContext; }
 namespace RPG::GameCore { class TurnBasedModifierInstance; }
 
-#define CLASS_1_7EA0251B2ED76AE0_METHOD_1_02A7FCEDE09AD0D7_OFFSET UNITYSDK_OFFSET(0xA845400)
-#define CLASS_1_7EA0251B2ED76AE0_METHOD_1_7A10FF0393E8C892_OFFSET UNITYSDK_OFFSET(0xA8454B0)
-#define CLASS_1_7EA0251B2ED76AE0_METHOD_1_8FE7DFD4607B9D92_OFFSET UNITYSDK_OFFSET(0xA8455C0)
+#define CLASS_1_7EA0251B2ED76AE0_METHOD_1_02A7FCEDE09AD0D7_OFFSET UNITYSDK_OFFSET(0x186EBEA0)
+#define CLASS_1_7EA0251B2ED76AE0_METHOD_1_8B80E4F27F82BCD6_OFFSET UNITYSDK_OFFSET(0x186EBF50)
+#define CLASS_1_7EA0251B2ED76AE0_METHOD_1_9B177C9F31C5AF5B_OFFSET UNITYSDK_OFFSET(0x186EBFD0)
 
-inline static constexpr unsigned int Class_1_7EA0251B2ED76AE0_TypeDefinitionIndex = 52063;
+inline static constexpr unsigned int Class_1_7EA0251B2ED76AE0_TypeDefinitionIndex = 53220;
 
 class Class_1_7EA0251B2ED76AE0 : public ::System::Object
 {
@@ -21,13 +21,13 @@ public:
 		return ((::System::Boolean(*)(::Il2CppArray<::RPG::GameCore::ModifierBehaviorFlag>*, ::RPG::GameCore::TurnBasedModifierInstance*))((::PBYTE)hIl2Cpp + CLASS_1_7EA0251B2ED76AE0_METHOD_1_02A7FCEDE09AD0D7_OFFSET))(a1, a2);
 	}
 
-	static ::System::Boolean Method_1_7A10FF0393E8C892(::RPG::GameCore::TaskContext* a1)
+	static ::System::Boolean Method_1_8B80E4F27F82BCD6(::RPG::GameCore::TaskContext* a1)
 	{
-		return ((::System::Boolean(*)(::RPG::GameCore::TaskContext*))((::PBYTE)hIl2Cpp + CLASS_1_7EA0251B2ED76AE0_METHOD_1_7A10FF0393E8C892_OFFSET))(a1);
+		return ((::System::Boolean(*)(::RPG::GameCore::TaskContext*))((::PBYTE)hIl2Cpp + CLASS_1_7EA0251B2ED76AE0_METHOD_1_8B80E4F27F82BCD6_OFFSET))(a1);
 	}
 
-	static ::System::Boolean Method_1_8FE7DFD4607B9D92(::RPG::GameCore::TurnBasedModifierInstance* a1, ::RPG::GameCore::GameEntity* a2)
+	static ::System::Boolean Method_1_9B177C9F31C5AF5B(::RPG::GameCore::TurnBasedModifierInstance* a1, ::RPG::GameCore::GameEntity* a2)
 	{
-		return ((::System::Boolean(*)(::RPG::GameCore::TurnBasedModifierInstance*, ::RPG::GameCore::GameEntity*))((::PBYTE)hIl2Cpp + CLASS_1_7EA0251B2ED76AE0_METHOD_1_8FE7DFD4607B9D92_OFFSET))(a1, a2);
+		return ((::System::Boolean(*)(::RPG::GameCore::TurnBasedModifierInstance*, ::RPG::GameCore::GameEntity*))((::PBYTE)hIl2Cpp + CLASS_1_7EA0251B2ED76AE0_METHOD_1_9B177C9F31C5AF5B_OFFSET))(a1, a2);
 	}
 };

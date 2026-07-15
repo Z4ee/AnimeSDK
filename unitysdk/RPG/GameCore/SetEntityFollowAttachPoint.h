@@ -8,13 +8,13 @@ class Class_2_B35C6E695A702FAB;
 namespace RPG::GameCore { class TargetEvaluator; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_SETENTITYFOLLOWATTACHPOINT_METHOD_3_BEAADE656044253A_OFFSET UNITYSDK_OFFSET(0x19C4B920)
-#define RPG_GAMECORE_SETENTITYFOLLOWATTACHPOINT_METHOD_3_EF1D1D8404074EF0_OFFSET UNITYSDK_OFFSET(0x19C4B890)
-#define RPG_GAMECORE_SETENTITYFOLLOWATTACHPOINT__CTOR_OFFSET UNITYSDK_OFFSET(0x19C4B8F0)
+#define RPG_GAMECORE_SETENTITYFOLLOWATTACHPOINT_METHOD_3_BEAADE656044253A_OFFSET UNITYSDK_OFFSET(0x1C5F7160)
+#define RPG_GAMECORE_SETENTITYFOLLOWATTACHPOINT_METHOD_3_C7E964B65E6F141B_OFFSET UNITYSDK_OFFSET(0x1C5F7110)
+#define RPG_GAMECORE_SETENTITYFOLLOWATTACHPOINT__CTOR_OFFSET UNITYSDK_OFFSET(0x1C5F7150)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SetEntityFollowAttachPoint_TypeDefinitionIndex = 21484;
+	inline static constexpr unsigned int SetEntityFollowAttachPoint_TypeDefinitionIndex = 21904;
 
 	class SetEntityFollowAttachPoint : public ::RPG::GameCore::TaskConfig
 	{
@@ -34,9 +34,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETENTITYFOLLOWATTACHPOINT__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_EF1D1D8404074EF0(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SetEntityFollowAttachPoint*& a2)
+		static ::System::Void Method_3_C7E964B65E6F141B(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SetEntityFollowAttachPoint*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SetEntityFollowAttachPoint*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETENTITYFOLLOWATTACHPOINT_METHOD_3_EF1D1D8404074EF0_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SetEntityFollowAttachPoint*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETENTITYFOLLOWATTACHPOINT_METHOD_3_C7E964B65E6F141B_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_BEAADE656044253A(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SetEntityFollowAttachPoint* a2)

@@ -7,19 +7,19 @@ namespace UnityEngine { class GameObject; }
 namespace UnityEngine { class RectTransform; }
 namespace UnityEngine::UI { class RawImage; }
 
-#define CINEMACHINE_CINEMACHINESTORYBOARD_CANVASINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x1465A2E0)
+#define CINEMACHINE_CINEMACHINESTORYBOARD_CANVASINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x1729CA50)
 
 namespace Cinemachine
 {
-	inline static constexpr unsigned int CinemachineStoryboard_CanvasInfo_TypeDefinitionIndex = 36818;
+	inline static constexpr unsigned int CinemachineStoryboard_CanvasInfo_TypeDefinitionIndex = 37600;
 
 	class CinemachineStoryboard_CanvasInfo : public ::System::Object
 	{
 	public:
-		::UnityEngine::GameObject* mCanvas; // 0x10
+		::UnityEngine::UI::RawImage* mRawImage; // 0x10
 		::UnityEngine::RectTransform* mViewport; // 0x18
-		::UnityEngine::UI::RawImage* mRawImage; // 0x20
-		::Cinemachine::CinemachineBrain* mCanvasParent; // 0x28
+		::Cinemachine::CinemachineBrain* mCanvasParent; // 0x20
+		::UnityEngine::GameObject* mCanvas; // 0x28
 
 		::System::Void _ctor()
 		{

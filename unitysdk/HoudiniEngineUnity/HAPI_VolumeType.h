@@ -3,7 +3,7 @@
 
 namespace HoudiniEngineUnity
 {
-	inline static constexpr unsigned int HAPI_VolumeType_TypeDefinitionIndex = 37503;
+	inline static constexpr unsigned int HAPI_VolumeType_TypeDefinitionIndex = 38311;
 
 	enum class HAPI_VolumeType : ::System::Int32
 	{

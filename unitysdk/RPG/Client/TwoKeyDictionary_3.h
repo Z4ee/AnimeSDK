@@ -7,7 +7,7 @@ namespace System::Collections::Generic { template <typename T> class IEqualityCo
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int TwoKeyDictionary_3_TypeDefinitionIndex = 33458;
+	inline static constexpr unsigned int TwoKeyDictionary_3_TypeDefinitionIndex = 33828;
 
 	template <typename TFirstKey, typename TSecondKey, typename TValue>
 	class TwoKeyDictionary_3 : public ::System::Collections::Generic::Dictionary_2<TFirstKey, ::System::Collections::Generic::Dictionary_2<TSecondKey, TValue>*>

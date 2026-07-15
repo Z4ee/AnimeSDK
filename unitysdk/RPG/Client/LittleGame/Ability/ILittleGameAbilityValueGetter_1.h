@@ -2,12 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/FixPoint.h"
 
-class Class_0_16E4307DCC419505_260;
+class Class_0_16E4307DCC419505_280;
 namespace RPG::GameCore { class BaseLittleGameAbilityValueGetterConfig; }
 
 namespace RPG::Client::LittleGame::Ability
 {
-	inline static constexpr unsigned int ILittleGameAbilityValueGetter_1_TypeDefinitionIndex = 71918;
+	inline static constexpr unsigned int ILittleGameAbilityValueGetter_1_TypeDefinitionIndex = 73443;
 
 	template <typename TEntity>
 	class ILittleGameAbilityValueGetter_1

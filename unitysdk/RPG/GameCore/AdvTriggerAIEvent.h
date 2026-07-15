@@ -8,13 +8,13 @@ namespace RPG::GameCore { class DynamicFloat; }
 namespace RPG::GameCore { class TargetEvaluator; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_ADVTRIGGERAIEVENT_METHOD_3_46DB1183C99BC81A_OFFSET UNITYSDK_OFFSET(0x1943B330)
-#define RPG_GAMECORE_ADVTRIGGERAIEVENT_METHOD_3_AA1268C0A3062A81_OFFSET UNITYSDK_OFFSET(0x1943B3B0)
-#define RPG_GAMECORE_ADVTRIGGERAIEVENT__CTOR_OFFSET UNITYSDK_OFFSET(0x1943B380)
+#define RPG_GAMECORE_ADVTRIGGERAIEVENT_METHOD_3_5EA6646A8C987F74_OFFSET UNITYSDK_OFFSET(0x1AE49170)
+#define RPG_GAMECORE_ADVTRIGGERAIEVENT_METHOD_3_AA1268C0A3062A81_OFFSET UNITYSDK_OFFSET(0x1AE491B0)
+#define RPG_GAMECORE_ADVTRIGGERAIEVENT__CTOR_OFFSET UNITYSDK_OFFSET(0x1AE491A0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AdvTriggerAIEvent_TypeDefinitionIndex = 22112;
+	inline static constexpr unsigned int AdvTriggerAIEvent_TypeDefinitionIndex = 22549;
 
 	class AdvTriggerAIEvent : public ::RPG::GameCore::TaskConfig
 	{
@@ -29,9 +29,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVTRIGGERAIEVENT__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_46DB1183C99BC81A(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AdvTriggerAIEvent*& a2)
+		static ::System::Void Method_3_5EA6646A8C987F74(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AdvTriggerAIEvent*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::AdvTriggerAIEvent*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVTRIGGERAIEVENT_METHOD_3_46DB1183C99BC81A_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::AdvTriggerAIEvent*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVTRIGGERAIEVENT_METHOD_3_5EA6646A8C987F74_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_AA1268C0A3062A81(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AdvTriggerAIEvent* a2)

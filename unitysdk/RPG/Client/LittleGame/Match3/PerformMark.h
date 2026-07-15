@@ -3,7 +3,7 @@
 
 namespace RPG::Client::LittleGame::Match3
 {
-	inline static constexpr unsigned int PerformMark_TypeDefinitionIndex = 39643;
+	inline static constexpr unsigned int PerformMark_TypeDefinitionIndex = 40452;
 
 	enum class PerformMark : ::System::Int32
 	{

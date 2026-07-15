@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/Events/UnityEvent.h"
 
-#define RPG_CLIENT_COLLIDERBUTTON_VOIDEVENT__CTOR_OFFSET UNITYSDK_OFFSET(0xB6EEE20)
+#define RPG_CLIENT_COLLIDERBUTTON_VOIDEVENT__CTOR_OFFSET UNITYSDK_OFFSET(0x18004260)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ColliderButton_VoidEvent_TypeDefinitionIndex = 67759;
+	inline static constexpr unsigned int ColliderButton_VoidEvent_TypeDefinitionIndex = 69243;
 
 	class ColliderButton_VoidEvent : public ::UnityEngine::Events::UnityEvent
 	{

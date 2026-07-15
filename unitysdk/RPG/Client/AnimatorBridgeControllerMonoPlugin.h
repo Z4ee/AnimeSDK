@@ -6,13 +6,13 @@ namespace RPG::Client { class AnimatorBridgeControllerBehavior; }
 namespace RPG::Client { class BridgeChildAnimator; }
 namespace System { class String; }
 
-#define RPG_CLIENT_ANIMATORBRIDGECONTROLLERMONOPLUGIN_METHOD_7_5112DAEA12867223_OFFSET UNITYSDK_OFFSET(0xB311620)
-#define RPG_CLIENT_ANIMATORBRIDGECONTROLLERMONOPLUGIN_ONANIMEVENT_OFFSET UNITYSDK_OFFSET(0xB311290)
-#define RPG_CLIENT_ANIMATORBRIDGECONTROLLERMONOPLUGIN__CTOR_OFFSET UNITYSDK_OFFSET(0xB311630)
+#define RPG_CLIENT_ANIMATORBRIDGECONTROLLERMONOPLUGIN_METHOD_7_30BE8F7B3BCC5014_OFFSET UNITYSDK_OFFSET(0x19B14E20)
+#define RPG_CLIENT_ANIMATORBRIDGECONTROLLERMONOPLUGIN_ONANIMEVENT_OFFSET UNITYSDK_OFFSET(0x19B14A00)
+#define RPG_CLIENT_ANIMATORBRIDGECONTROLLERMONOPLUGIN__CTOR_OFFSET UNITYSDK_OFFSET(0x19B14E60)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int AnimatorBridgeControllerMonoPlugin_TypeDefinitionIndex = 65714;
+	inline static constexpr unsigned int AnimatorBridgeControllerMonoPlugin_TypeDefinitionIndex = 67131;
 
 	class AnimatorBridgeControllerMonoPlugin : public ::RPG::Client::TAMonoPlugin_1<::RPG::Client::AnimatorBridgeControllerBehavior*>
 	{
@@ -29,9 +29,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ANIMATORBRIDGECONTROLLERMONOPLUGIN_ONANIMEVENT_OFFSET))(this, a1);
 		}
 
-		::RPG::Client::AnimatorBridgeControllerBehavior* Method_7_5112DAEA12867223()
+		::RPG::Client::AnimatorBridgeControllerBehavior* Method_7_30BE8F7B3BCC5014()
 		{
-			return ((::RPG::Client::AnimatorBridgeControllerBehavior*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ANIMATORBRIDGECONTROLLERMONOPLUGIN_METHOD_7_5112DAEA12867223_OFFSET))(this);
+			return ((::RPG::Client::AnimatorBridgeControllerBehavior*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ANIMATORBRIDGECONTROLLERMONOPLUGIN_METHOD_7_30BE8F7B3BCC5014_OFFSET))(this);
 		}
 	};
 }

@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FateCoinIncomeType_TypeDefinitionIndex = 10173;
+	inline static constexpr unsigned int FateCoinIncomeType_TypeDefinitionIndex = 10188;
 
 	enum class FateCoinIncomeType : ::System::Int32
 	{

@@ -5,18 +5,18 @@
 namespace System { class String; }
 namespace System { class Type; }
 
-#define SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_OBJECTMAPINFO_ISCOMPATIBLE_OFFSET UNITYSDK_OFFSET(0x187B0330)
-#define SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_OBJECTMAPINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x187B0310)
+#define SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_OBJECTMAPINFO_ISCOMPATIBLE_OFFSET UNITYSDK_OFFSET(0x1791ECD0)
+#define SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_OBJECTMAPINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x1791ECB0)
 
 namespace System::Runtime::Serialization::Formatters::Binary
 {
-	inline static constexpr unsigned int ObjectMapInfo_TypeDefinitionIndex = 1172;
+	inline static constexpr unsigned int ObjectMapInfo_TypeDefinitionIndex = 1174;
 
 	class ObjectMapInfo : public ::System::Object
 	{
 	public:
-		::Il2CppArray<::System::Type*>* memberTypes; // 0x10
-		::Il2CppArray<::System::String*>* memberNames; // 0x18
+		::Il2CppArray<::System::String*>* memberNames; // 0x10
+		::Il2CppArray<::System::Type*>* memberTypes; // 0x18
 		::System::Int32 numMembers; // 0x20
 		::System::Int32 objectId; // 0x24
 

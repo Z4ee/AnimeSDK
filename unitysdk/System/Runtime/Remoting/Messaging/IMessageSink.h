@@ -6,7 +6,7 @@ namespace System::Runtime::Remoting::Messaging { class IMessageCtrl; }
 
 namespace System::Runtime::Remoting::Messaging
 {
-	inline static constexpr unsigned int IMessageSink_TypeDefinitionIndex = 1308;
+	inline static constexpr unsigned int IMessageSink_TypeDefinitionIndex = 1310;
 
 	class IMessageSink
 	{

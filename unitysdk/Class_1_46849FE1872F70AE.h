@@ -3,9 +3,9 @@
 #include "unitysdk/RPG/Client/LittleGame/BossTransitionReason.h"
 #include "unitysdk/System/Object.h"
 
-#define CLASS_1_46849FE1872F70AE__CTOR_OFFSET UNITYSDK_OFFSET(0x18BC39A0)
+#define CLASS_1_46849FE1872F70AE__CTOR_OFFSET UNITYSDK_OFFSET(0x1A4A7FC0)
 
-inline static constexpr unsigned int Class_1_46849FE1872F70AE_TypeDefinitionIndex = 39401;
+inline static constexpr unsigned int Class_1_46849FE1872F70AE_TypeDefinitionIndex = 40210;
 
 class Class_1_46849FE1872F70AE : public ::System::Object
 {

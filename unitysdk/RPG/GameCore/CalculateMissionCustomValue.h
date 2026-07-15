@@ -7,13 +7,13 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class MissionCustomValue; }
 namespace RPG::GameCore { class MissionCustomValuePair; }
 
-#define RPG_GAMECORE_CALCULATEMISSIONCUSTOMVALUE_METHOD_3_0266B18C4DE46FEF_OFFSET UNITYSDK_OFFSET(0x195F2F10)
-#define RPG_GAMECORE_CALCULATEMISSIONCUSTOMVALUE_METHOD_3_29A11CFB89905436_OFFSET UNITYSDK_OFFSET(0x195F2E90)
-#define RPG_GAMECORE_CALCULATEMISSIONCUSTOMVALUE__CTOR_OFFSET UNITYSDK_OFFSET(0x195F2EE0)
+#define RPG_GAMECORE_CALCULATEMISSIONCUSTOMVALUE_METHOD_3_0266B18C4DE46FEF_OFFSET UNITYSDK_OFFSET(0x1B708590)
+#define RPG_GAMECORE_CALCULATEMISSIONCUSTOMVALUE_METHOD_3_EF91EA69ED0D1BE2_OFFSET UNITYSDK_OFFSET(0x1B708550)
+#define RPG_GAMECORE_CALCULATEMISSIONCUSTOMVALUE__CTOR_OFFSET UNITYSDK_OFFSET(0x1B708580)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int CalculateMissionCustomValue_TypeDefinitionIndex = 19303;
+	inline static constexpr unsigned int CalculateMissionCustomValue_TypeDefinitionIndex = 19659;
 
 	class CalculateMissionCustomValue : public ::RPG::GameCore::TaskConfig
 	{
@@ -29,9 +29,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CALCULATEMISSIONCUSTOMVALUE__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_29A11CFB89905436(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::CalculateMissionCustomValue*& a2)
+		static ::System::Void Method_3_EF91EA69ED0D1BE2(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::CalculateMissionCustomValue*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::CalculateMissionCustomValue*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CALCULATEMISSIONCUSTOMVALUE_METHOD_3_29A11CFB89905436_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::CalculateMissionCustomValue*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CALCULATEMISSIONCUSTOMVALUE_METHOD_3_EF91EA69ED0D1BE2_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_0266B18C4DE46FEF(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::CalculateMissionCustomValue* a2)

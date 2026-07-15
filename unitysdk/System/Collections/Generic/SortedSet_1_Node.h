@@ -8,7 +8,7 @@ namespace System::Collections::Generic { template <typename T> class SortedSet_1
 
 namespace System::Collections::Generic
 {
-	inline static constexpr unsigned int SortedSet_1_Node_TypeDefinitionIndex = 3032;
+	inline static constexpr unsigned int SortedSet_1_Node_TypeDefinitionIndex = 3036;
 
 	template <typename T>
 	class SortedSet_1_Node : public ::System::Object

@@ -4,13 +4,13 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_SWITCHREFBASE_METHOD_2_38696A2313BF856F_OFFSET UNITYSDK_OFFSET(0x19CDF990)
-#define RPG_GAMECORE_SWITCHREFBASE_METHOD_2_5904CD377781D222_OFFSET UNITYSDK_OFFSET(0x19CDE7F0)
-#define RPG_GAMECORE_SWITCHREFBASE__CTOR_OFFSET UNITYSDK_OFFSET(0x19CDF9F0)
+#define RPG_GAMECORE_SWITCHREFBASE_METHOD_2_2FCA7736F13237C5_OFFSET UNITYSDK_OFFSET(0x1B439770)
+#define RPG_GAMECORE_SWITCHREFBASE_METHOD_2_38696A2313BF856F_OFFSET UNITYSDK_OFFSET(0x1B43A870)
+#define RPG_GAMECORE_SWITCHREFBASE__CTOR_OFFSET UNITYSDK_OFFSET(0x1B43A8D0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SwitchRefBase_TypeDefinitionIndex = 22464;
+	inline static constexpr unsigned int SwitchRefBase_TypeDefinitionIndex = 22914;
 
 	class SwitchRefBase : public ::RPG::GameCore::JsonConfig
 	{
@@ -20,9 +20,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SWITCHREFBASE__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_5904CD377781D222(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SwitchRefBase*& a2)
+		static ::System::Void Method_2_2FCA7736F13237C5(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SwitchRefBase*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SwitchRefBase*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SWITCHREFBASE_METHOD_2_5904CD377781D222_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SwitchRefBase*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SWITCHREFBASE_METHOD_2_2FCA7736F13237C5_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_2_38696A2313BF856F(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SwitchRefBase* a2)

@@ -6,11 +6,11 @@ class Class_1_5F4D64A4B97E38F9;
 namespace System { class String; }
 namespace System { template <typename T> class Action_1; }
 
-#define SOFA_BASEVIEWMODEL__CTOR_OFFSET UNITYSDK_OFFSET(0xD08C230)
+#define SOFA_BASEVIEWMODEL__CTOR_OFFSET UNITYSDK_OFFSET(0x14EBCA40)
 
 namespace Sofa
 {
-	inline static constexpr unsigned int BaseViewModel_TypeDefinitionIndex = 44995;
+	inline static constexpr unsigned int BaseViewModel_TypeDefinitionIndex = 45913;
 
 	class BaseViewModel : public ::Sofa::Core::ObservableObject
 	{

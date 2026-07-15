@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MusicRhythmLightConeRewardType_TypeDefinitionIndex = 57800;
+	inline static constexpr unsigned int MusicRhythmLightConeRewardType_TypeDefinitionIndex = 59066;
 
 	enum class MusicRhythmLightConeRewardType : ::System::Int32
 	{

@@ -11,7 +11,7 @@ namespace System::Collections::Generic { template <typename T> class IList_1; }
 
 namespace Collections::Pooled
 {
-	inline static constexpr unsigned int PooledCollection_1_TypeDefinitionIndex = 5075;
+	inline static constexpr unsigned int PooledCollection_1_TypeDefinitionIndex = 5080;
 
 	template <typename T>
 	class PooledCollection_1 : public ::System::Object

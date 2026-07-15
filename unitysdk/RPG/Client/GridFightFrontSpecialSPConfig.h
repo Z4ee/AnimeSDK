@@ -6,23 +6,23 @@
 
 namespace RPG::GameCore { class GridFightFrontSpecialSPConfigRow; }
 
-#define RPG_CLIENT_GRIDFIGHTFRONTSPECIALSPCONFIG_GET_INITIALSPECIALSP_OFFSET UNITYSDK_OFFSET(0xBB47B80)
-#define RPG_CLIENT_GRIDFIGHTFRONTSPECIALSPCONFIG_GET_MAXSPECIALSP_OFFSET UNITYSDK_OFFSET(0xBB47B90)
-#define RPG_CLIENT_GRIDFIGHTFRONTSPECIALSPCONFIG_GET_ROLEID_OFFSET UNITYSDK_OFFSET(0xBB47B60)
-#define RPG_CLIENT_GRIDFIGHTFRONTSPECIALSPCONFIG_GET_SPECIALSPTYPE_OFFSET UNITYSDK_OFFSET(0xBB47B70)
-#define RPG_CLIENT_GRIDFIGHTFRONTSPECIALSPCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0xBB47AF0)
+#define RPG_CLIENT_GRIDFIGHTFRONTSPECIALSPCONFIG_GET_INITIALSPECIALSP_OFFSET UNITYSDK_OFFSET(0x1ABC6960)
+#define RPG_CLIENT_GRIDFIGHTFRONTSPECIALSPCONFIG_GET_MAXSPECIALSP_OFFSET UNITYSDK_OFFSET(0x1ABC6970)
+#define RPG_CLIENT_GRIDFIGHTFRONTSPECIALSPCONFIG_GET_ROLEID_OFFSET UNITYSDK_OFFSET(0x1ABC6940)
+#define RPG_CLIENT_GRIDFIGHTFRONTSPECIALSPCONFIG_GET_SPECIALSPTYPE_OFFSET UNITYSDK_OFFSET(0x1ABC6950)
+#define RPG_CLIENT_GRIDFIGHTFRONTSPECIALSPCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1ABC68D0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GridFightFrontSpecialSPConfig_TypeDefinitionIndex = 60892;
+	inline static constexpr unsigned int GridFightFrontSpecialSPConfig_TypeDefinitionIndex = 62205;
 
 	class GridFightFrontSpecialSPConfig : public ::System::Object
 	{
 	public:
-		::System::UInt32 _RoleID_k__BackingField; // 0x10
-		::RPG::GameCore::GridFightFrontSpecialSPDisplayType _SpecialSPType_k__BackingField; // 0x14
+		::RPG::GameCore::FixPoint _MaxSpecialSP_k__BackingField; // 0x10
 		::RPG::GameCore::FixPoint _InitialSpecialSP_k__BackingField; // 0x18
-		::RPG::GameCore::FixPoint _MaxSpecialSP_k__BackingField; // 0x20
+		::System::UInt32 _RoleID_k__BackingField; // 0x20
+		::RPG::GameCore::GridFightFrontSpecialSPDisplayType _SpecialSPType_k__BackingField; // 0x24
 
 		::System::Void _ctor(::RPG::GameCore::GridFightFrontSpecialSPConfigRow* a1)
 		{

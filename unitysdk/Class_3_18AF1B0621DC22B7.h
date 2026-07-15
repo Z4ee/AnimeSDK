@@ -1,14 +1,13 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Class_2_4860135DFDF560DA.h"
+#include "unitysdk/Class_2_F05791F6CE56A9B4.h"
 
-#define CLASS_3_18AF1B0621DC22B7_CLEAR_OFFSET UNITYSDK_OFFSET(0x18CF46B0)
-#define CLASS_3_18AF1B0621DC22B7__CTOR_OFFSET UNITYSDK_OFFSET(0x18CF4710)
-#define CLASS_3_18AF1B0621DC22B7___IFIXBASEPROXY_CLEAR_OFFSET UNITYSDK_OFFSET(0x18CF4720)
+#define CLASS_3_18AF1B0621DC22B7_CLEAR_OFFSET UNITYSDK_OFFSET(0x1A8FB2A0)
+#define CLASS_3_18AF1B0621DC22B7__CTOR_OFFSET UNITYSDK_OFFSET(0x1A8FB300)
 
-inline static constexpr unsigned int Class_3_18AF1B0621DC22B7_TypeDefinitionIndex = 40123;
+inline static constexpr unsigned int Class_3_18AF1B0621DC22B7_TypeDefinitionIndex = 40936;
 
-class Class_3_18AF1B0621DC22B7 : public ::Class_2_4860135DFDF560DA
+class Class_3_18AF1B0621DC22B7 : public ::Class_2_F05791F6CE56A9B4
 {
 public:
 	::System::Boolean Field_3_0; // 0x400
@@ -24,10 +23,5 @@ public:
 	::System::Void Clear()
 	{
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_3_18AF1B0621DC22B7_CLEAR_OFFSET))(this);
-	}
-
-	::System::Void __iFixBaseProxy_Clear()
-	{
-		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_3_18AF1B0621DC22B7___IFIXBASEPROXY_CLEAR_OFFSET))(this);
 	}
 };

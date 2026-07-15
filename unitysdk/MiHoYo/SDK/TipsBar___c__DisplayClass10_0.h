@@ -5,18 +5,18 @@
 namespace MiHoYo::SDK { class TipsBar; }
 namespace System { class String; }
 
-#define MIHOYO_SDK_TIPSBAR___C__DISPLAYCLASS10_0__CTOR_OFFSET UNITYSDK_OFFSET(0x184300A0)
-#define MIHOYO_SDK_TIPSBAR___C__DISPLAYCLASS10_0__SHOW_B__0_OFFSET UNITYSDK_OFFSET(0x18430350)
+#define MIHOYO_SDK_TIPSBAR___C__DISPLAYCLASS10_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1712F680)
+#define MIHOYO_SDK_TIPSBAR___C__DISPLAYCLASS10_0__SHOW_B__0_OFFSET UNITYSDK_OFFSET(0x1712F900)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int TipsBar___c__DisplayClass10_0_TypeDefinitionIndex = 8172;
+	inline static constexpr unsigned int TipsBar___c__DisplayClass10_0_TypeDefinitionIndex = 8183;
 
 	class TipsBar___c__DisplayClass10_0 : public ::System::Object
 	{
 	public:
-		::System::String* content; // 0x10
-		::System::String* imagePath; // 0x18
+		::System::String* imagePath; // 0x10
+		::System::String* content; // 0x18
 
 		::System::Void _ctor()
 		{

@@ -4,12 +4,12 @@
 
 namespace Mono::Net::Security { class MobileAuthenticatedStream; }
 
-#define MONO_NET_SECURITY_MOBILEAUTHENTICATEDSTREAM___C__DISPLAYCLASS66_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1AF10620)
-#define MONO_NET_SECURITY_MOBILEAUTHENTICATEDSTREAM___C__DISPLAYCLASS66_0__INNERREAD_B__0_OFFSET UNITYSDK_OFFSET(0x1AF10630)
+#define MONO_NET_SECURITY_MOBILEAUTHENTICATEDSTREAM___C__DISPLAYCLASS66_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1A8494A0)
+#define MONO_NET_SECURITY_MOBILEAUTHENTICATEDSTREAM___C__DISPLAYCLASS66_0__INNERREAD_B__0_OFFSET UNITYSDK_OFFSET(0x1A8494B0)
 
 namespace Mono::Net::Security
 {
-	inline static constexpr unsigned int MobileAuthenticatedStream___c__DisplayClass66_0_TypeDefinitionIndex = 2429;
+	inline static constexpr unsigned int MobileAuthenticatedStream___c__DisplayClass66_0_TypeDefinitionIndex = 2433;
 
 	class MobileAuthenticatedStream___c__DisplayClass66_0 : public ::System::Object
 	{

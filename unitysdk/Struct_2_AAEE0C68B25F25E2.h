@@ -5,7 +5,7 @@
 namespace RPG::GameCore { class GameEntity; }
 namespace RPG::GameCore { class StageMonsterWave; }
 
-inline static constexpr unsigned int Struct_2_AAEE0C68B25F25E2_TypeDefinitionIndex = 55146;
+inline static constexpr unsigned int Struct_2_AAEE0C68B25F25E2_TypeDefinitionIndex = 56379;
 
 struct alignas(8) Struct_2_AAEE0C68B25F25E2
 {

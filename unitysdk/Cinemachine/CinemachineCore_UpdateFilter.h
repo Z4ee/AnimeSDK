@@ -3,7 +3,7 @@
 
 namespace Cinemachine
 {
-	inline static constexpr unsigned int CinemachineCore_UpdateFilter_TypeDefinitionIndex = 36877;
+	inline static constexpr unsigned int CinemachineCore_UpdateFilter_TypeDefinitionIndex = 37659;
 
 	enum class CinemachineCore_UpdateFilter : ::System::Int32
 	{

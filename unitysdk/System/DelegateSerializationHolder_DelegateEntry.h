@@ -6,8 +6,8 @@ namespace System { class Delegate; }
 namespace System { class String; }
 namespace System::Runtime::Serialization { class SerializationInfo; }
 
-#define SYSTEM_DELEGATESERIALIZATIONHOLDER_DELEGATEENTRY_DESERIALIZEDELEGATE_OFFSET UNITYSDK_OFFSET(0x18696B50)
-#define SYSTEM_DELEGATESERIALIZATIONHOLDER_DELEGATEENTRY__CTOR_OFFSET UNITYSDK_OFFSET(0x18696E90)
+#define SYSTEM_DELEGATESERIALIZATIONHOLDER_DELEGATEENTRY_DESERIALIZEDELEGATE_OFFSET UNITYSDK_OFFSET(0x18D1A020)
+#define SYSTEM_DELEGATESERIALIZATIONHOLDER_DELEGATEENTRY__CTOR_OFFSET UNITYSDK_OFFSET(0x18D1A410)
 
 namespace System
 {
@@ -16,13 +16,13 @@ namespace System
 	class DelegateSerializationHolder_DelegateEntry : public ::System::Object
 	{
 	public:
-		::System::Object* target; // 0x10
-		::System::String* assembly; // 0x18
-		::System::DelegateSerializationHolder_DelegateEntry* delegateEntry; // 0x20
+		::System::String* targetTypeName; // 0x10
+		::System::String* targetTypeAssembly; // 0x18
+		::System::String* type; // 0x20
 		::System::String* methodName; // 0x28
-		::System::String* targetTypeAssembly; // 0x30
-		::System::String* type; // 0x38
-		::System::String* targetTypeName; // 0x40
+		::System::DelegateSerializationHolder_DelegateEntry* delegateEntry; // 0x30
+		::System::Object* target; // 0x38
+		::System::String* assembly; // 0x40
 
 		::System::Void _ctor(::System::Delegate* a1, ::System::String* a2)
 		{

@@ -7,27 +7,27 @@
 namespace System { template <typename T1, typename T2> class Func_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_1_C64A90CC94D1A46C___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x13CAF520)
-#define CLASS_1_C64A90CC94D1A46C___C__CTOR_OFFSET UNITYSDK_OFFSET(0x13CAF560)
-#define CLASS_1_C64A90CC94D1A46C___C__DEEPCOPY_B__3_0_OFFSET UNITYSDK_OFFSET(0x13CAF570)
-#define CLASS_1_C64A90CC94D1A46C___C__DEEPCOPY_B__3_1_OFFSET UNITYSDK_OFFSET(0x13CAF580)
+#define CLASS_1_C64A90CC94D1A46C___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1626D210)
+#define CLASS_1_C64A90CC94D1A46C___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1626D250)
+#define CLASS_1_C64A90CC94D1A46C___C__DEEPCOPY_B__3_0_OFFSET UNITYSDK_OFFSET(0x1626D260)
+#define CLASS_1_C64A90CC94D1A46C___C__DEEPCOPY_B__3_1_OFFSET UNITYSDK_OFFSET(0x1626D270)
 
-inline static constexpr unsigned int Class_1_C64A90CC94D1A46C___c_TypeDefinitionIndex = 73255;
+inline static constexpr unsigned int Class_1_C64A90CC94D1A46C___c_TypeDefinitionIndex = 74780;
 
 class Class_1_C64A90CC94D1A46C___c : public ::System::Object
 {
 public:
+	static ::Class_1_C64A90CC94D1A46C___c** StaticGet___9()
+	{
+		return (::Class_1_C64A90CC94D1A46C___c**)Il2CppClass::FromTypeDefinitionIndex(Class_1_C64A90CC94D1A46C___c_TypeDefinitionIndex)->GetStaticField(0x60C20);
+	}
 	static ::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::System::Int32, ::System::Collections::Generic::List_1<::UnityEngine::Vector2Int>*>, ::System::Int32>** StaticGet___9__3_0()
 	{
-		return (::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::System::Int32, ::System::Collections::Generic::List_1<::UnityEngine::Vector2Int>*>, ::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_C64A90CC94D1A46C___c_TypeDefinitionIndex)->GetStaticField(0x66A80);
+		return (::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::System::Int32, ::System::Collections::Generic::List_1<::UnityEngine::Vector2Int>*>, ::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_C64A90CC94D1A46C___c_TypeDefinitionIndex)->GetStaticField(0x60C28);
 	}
 	static ::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::System::Int32, ::System::Collections::Generic::List_1<::UnityEngine::Vector2Int>*>, ::System::Collections::Generic::List_1<::UnityEngine::Vector2Int>*>** StaticGet___9__3_1()
 	{
-		return (::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::System::Int32, ::System::Collections::Generic::List_1<::UnityEngine::Vector2Int>*>, ::System::Collections::Generic::List_1<::UnityEngine::Vector2Int>*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_C64A90CC94D1A46C___c_TypeDefinitionIndex)->GetStaticField(0x66A88);
-	}
-	static ::Class_1_C64A90CC94D1A46C___c** StaticGet___9()
-	{
-		return (::Class_1_C64A90CC94D1A46C___c**)Il2CppClass::FromTypeDefinitionIndex(Class_1_C64A90CC94D1A46C___c_TypeDefinitionIndex)->GetStaticField(0x66A90);
+		return (::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::System::Int32, ::System::Collections::Generic::List_1<::UnityEngine::Vector2Int>*>, ::System::Collections::Generic::List_1<::UnityEngine::Vector2Int>*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_C64A90CC94D1A46C___c_TypeDefinitionIndex)->GetStaticField(0x60C30);
 	}
 
 	static ::System::Void _cctor()

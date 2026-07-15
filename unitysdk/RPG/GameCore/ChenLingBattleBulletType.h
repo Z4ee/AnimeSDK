@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ChenLingBattleBulletType_TypeDefinitionIndex = 14926;
+	inline static constexpr unsigned int ChenLingBattleBulletType_TypeDefinitionIndex = 15090;
 
 	enum class ChenLingBattleBulletType : ::System::Int32
 	{

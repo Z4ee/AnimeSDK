@@ -5,18 +5,18 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_FUNNUMMULTIPLIERROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1976F510)
-#define RPG_GAMECORE_FUNNUMMULTIPLIERROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1976F650)
+#define RPG_GAMECORE_FUNNUMMULTIPLIERROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B981910)
+#define RPG_GAMECORE_FUNNUMMULTIPLIERROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1B981A50)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FunNumMultiplierRow_TypeDefinitionIndex = 12583;
+	inline static constexpr unsigned int FunNumMultiplierRow_TypeDefinitionIndex = 12720;
 
 	class FunNumMultiplierRow : public ::System::Object
 	{
 	public:
-		::RPG::GameCore::FixPoint Multiplier; // 0x10
-		::System::UInt32 FunNum; // 0x18
+		::System::UInt32 FunNum; // 0x10
+		::RPG::GameCore::FixPoint Multiplier; // 0x18
 
 		::System::Void _ctor()
 		{

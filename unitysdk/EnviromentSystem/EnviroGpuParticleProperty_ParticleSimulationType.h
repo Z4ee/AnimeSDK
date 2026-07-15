@@ -3,7 +3,7 @@
 
 namespace EnviromentSystem
 {
-	inline static constexpr unsigned int EnviroGpuParticleProperty_ParticleSimulationType_TypeDefinitionIndex = 46780;
+	inline static constexpr unsigned int EnviroGpuParticleProperty_ParticleSimulationType_TypeDefinitionIndex = 47745;
 
 	enum class EnviroGpuParticleProperty_ParticleSimulationType : ::System::Int32
 	{

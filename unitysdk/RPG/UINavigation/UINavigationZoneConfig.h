@@ -4,11 +4,11 @@
 
 namespace RPG::Client { class MonoInControlButton; }
 
-#define RPG_UINAVIGATION_UINAVIGATIONZONECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0xCFCC270)
+#define RPG_UINAVIGATION_UINAVIGATIONZONECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x19D606D0)
 
 namespace RPG::UINavigation
 {
-	inline static constexpr unsigned int UINavigationZoneConfig_TypeDefinitionIndex = 48414;
+	inline static constexpr unsigned int UINavigationZoneConfig_TypeDefinitionIndex = 49413;
 
 	class UINavigationZoneConfig : public ::System::Object
 	{

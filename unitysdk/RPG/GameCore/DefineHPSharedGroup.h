@@ -5,13 +5,13 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class TargetEvaluator; }
 
-#define RPG_GAMECORE_DEFINEHPSHAREDGROUP_METHOD_3_08E35FE2E4008812_OFFSET UNITYSDK_OFFSET(0x196983D0)
-#define RPG_GAMECORE_DEFINEHPSHAREDGROUP_METHOD_3_2A4ACF4D434BB00C_OFFSET UNITYSDK_OFFSET(0x19698450)
-#define RPG_GAMECORE_DEFINEHPSHAREDGROUP__CTOR_OFFSET UNITYSDK_OFFSET(0x19698420)
+#define RPG_GAMECORE_DEFINEHPSHAREDGROUP_METHOD_3_2A4ACF4D434BB00C_OFFSET UNITYSDK_OFFSET(0x1C101DC0)
+#define RPG_GAMECORE_DEFINEHPSHAREDGROUP_METHOD_3_5D767CC31CB9806D_OFFSET UNITYSDK_OFFSET(0x1C101D70)
+#define RPG_GAMECORE_DEFINEHPSHAREDGROUP__CTOR_OFFSET UNITYSDK_OFFSET(0x1C101DB0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int DefineHPSharedGroup_TypeDefinitionIndex = 21580;
+	inline static constexpr unsigned int DefineHPSharedGroup_TypeDefinitionIndex = 22002;
 
 	class DefineHPSharedGroup : public ::RPG::GameCore::TaskConfig
 	{
@@ -27,9 +27,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_DEFINEHPSHAREDGROUP__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_08E35FE2E4008812(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::DefineHPSharedGroup*& a2)
+		static ::System::Void Method_3_5D767CC31CB9806D(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::DefineHPSharedGroup*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::DefineHPSharedGroup*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_DEFINEHPSHAREDGROUP_METHOD_3_08E35FE2E4008812_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::DefineHPSharedGroup*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_DEFINEHPSHAREDGROUP_METHOD_3_5D767CC31CB9806D_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_2A4ACF4D434BB00C(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::DefineHPSharedGroup* a2)

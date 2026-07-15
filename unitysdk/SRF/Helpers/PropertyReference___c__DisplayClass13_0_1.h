@@ -7,7 +7,7 @@ namespace System { template <typename T> class Func_1; }
 
 namespace SRF::Helpers
 {
-	inline static constexpr unsigned int PropertyReference___c__DisplayClass13_0_1_TypeDefinitionIndex = 33622;
+	inline static constexpr unsigned int PropertyReference___c__DisplayClass13_0_1_TypeDefinitionIndex = 33993;
 
 	template <typename T>
 	class PropertyReference___c__DisplayClass13_0_1 : public ::System::Object

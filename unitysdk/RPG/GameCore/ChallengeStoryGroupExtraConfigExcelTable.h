@@ -11,45 +11,45 @@ namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Concurrent { template <typename T1, typename T2> class ConcurrentDictionary_2; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_CHALLENGESTORYGROUPEXTRACONFIGEXCELTABLE_GETDATA_OFFSET UNITYSDK_OFFSET(0x195FFBE0)
-#define RPG_GAMECORE_CHALLENGESTORYGROUPEXTRACONFIGEXCELTABLE_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x195FFA70)
-#define RPG_GAMECORE_CHALLENGESTORYGROUPEXTRACONFIGEXCELTABLE_GET_DATADICT_OFFSET UNITYSDK_OFFSET(0x195FF760)
-#define RPG_GAMECORE_CHALLENGESTORYGROUPEXTRACONFIGEXCELTABLE_ISDATAEMPTY_OFFSET UNITYSDK_OFFSET(0x195FFA10)
-#define RPG_GAMECORE_CHALLENGESTORYGROUPEXTRACONFIGEXCELTABLE_ISDATALOADED_OFFSET UNITYSDK_OFFSET(0x195FFD30)
-#define RPG_GAMECORE_CHALLENGESTORYGROUPEXTRACONFIGEXCELTABLE_LOADDATA_OFFSET UNITYSDK_OFFSET(0x195FF7E0)
-#define RPG_GAMECORE_CHALLENGESTORYGROUPEXTRACONFIGEXCELTABLE_UNLOADDATA_OFFSET UNITYSDK_OFFSET(0x195FFD70)
-#define RPG_GAMECORE_CHALLENGESTORYGROUPEXTRACONFIGEXCELTABLE__ADDITEMFROMBINARY_OFFSET UNITYSDK_OFFSET(0x195FFF40)
-#define RPG_GAMECORE_CHALLENGESTORYGROUPEXTRACONFIGEXCELTABLE__ADDITEM_OFFSET UNITYSDK_OFFSET(0x196002E0)
-#define RPG_GAMECORE_CHALLENGESTORYGROUPEXTRACONFIGEXCELTABLE__CCTOR_OFFSET UNITYSDK_OFFSET(0x19600600)
-#define RPG_GAMECORE_CHALLENGESTORYGROUPEXTRACONFIGEXCELTABLE__LOADDATAINCREMENTIAL_OFFSET UNITYSDK_OFFSET(0x195FFEA0)
-#define RPG_GAMECORE_CHALLENGESTORYGROUPEXTRACONFIGEXCELTABLE__LOADDATA_OFFSET UNITYSDK_OFFSET(0x195FFE00)
+#define RPG_GAMECORE_CHALLENGESTORYGROUPEXTRACONFIGEXCELTABLE_GETDATA_OFFSET UNITYSDK_OFFSET(0x1B715D30)
+#define RPG_GAMECORE_CHALLENGESTORYGROUPEXTRACONFIGEXCELTABLE_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x1B715BC0)
+#define RPG_GAMECORE_CHALLENGESTORYGROUPEXTRACONFIGEXCELTABLE_GET_DATADICT_OFFSET UNITYSDK_OFFSET(0x1B7158B0)
+#define RPG_GAMECORE_CHALLENGESTORYGROUPEXTRACONFIGEXCELTABLE_ISDATAEMPTY_OFFSET UNITYSDK_OFFSET(0x1B715B60)
+#define RPG_GAMECORE_CHALLENGESTORYGROUPEXTRACONFIGEXCELTABLE_ISDATALOADED_OFFSET UNITYSDK_OFFSET(0x1B715E80)
+#define RPG_GAMECORE_CHALLENGESTORYGROUPEXTRACONFIGEXCELTABLE_LOADDATA_OFFSET UNITYSDK_OFFSET(0x1B715930)
+#define RPG_GAMECORE_CHALLENGESTORYGROUPEXTRACONFIGEXCELTABLE_UNLOADDATA_OFFSET UNITYSDK_OFFSET(0x1B715EC0)
+#define RPG_GAMECORE_CHALLENGESTORYGROUPEXTRACONFIGEXCELTABLE__ADDITEMFROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B716090)
+#define RPG_GAMECORE_CHALLENGESTORYGROUPEXTRACONFIGEXCELTABLE__ADDITEM_OFFSET UNITYSDK_OFFSET(0x1B716430)
+#define RPG_GAMECORE_CHALLENGESTORYGROUPEXTRACONFIGEXCELTABLE__CCTOR_OFFSET UNITYSDK_OFFSET(0x1B716750)
+#define RPG_GAMECORE_CHALLENGESTORYGROUPEXTRACONFIGEXCELTABLE__LOADDATAINCREMENTIAL_OFFSET UNITYSDK_OFFSET(0x1B715FF0)
+#define RPG_GAMECORE_CHALLENGESTORYGROUPEXTRACONFIGEXCELTABLE__LOADDATA_OFFSET UNITYSDK_OFFSET(0x1B715F50)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ChallengeStoryGroupExtraConfigExcelTable_TypeDefinitionIndex = 12362;
+	inline static constexpr unsigned int ChallengeStoryGroupExtraConfigExcelTable_TypeDefinitionIndex = 12495;
 
 	class ChallengeStoryGroupExtraConfigExcelTable : public ::System::Object
 	{
 	public:
 		static ::System::Action_1<::Class_1_7A22A3DBEEDD1F80*>** StaticGet__AddItemFromBinary_ActionInst()
 		{
-			return (::System::Action_1<::Class_1_7A22A3DBEEDD1F80*>**)Il2CppClass::FromTypeDefinitionIndex(ChallengeStoryGroupExtraConfigExcelTable_TypeDefinitionIndex)->GetStaticField(0xB960);
-		}
-		static ::Il2CppArray<::System::String*>** StaticGet_s_PathList()
-		{
-			return (::Il2CppArray<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(ChallengeStoryGroupExtraConfigExcelTable_TypeDefinitionIndex)->GetStaticField(0xB968);
+			return (::System::Action_1<::Class_1_7A22A3DBEEDD1F80*>**)Il2CppClass::FromTypeDefinitionIndex(ChallengeStoryGroupExtraConfigExcelTable_TypeDefinitionIndex)->GetStaticField(0x297B0);
 		}
 		static ::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::ChallengeStoryGroupExtraConfigRow*>** StaticGet_dataDict_()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::ChallengeStoryGroupExtraConfigRow*>**)Il2CppClass::FromTypeDefinitionIndex(ChallengeStoryGroupExtraConfigExcelTable_TypeDefinitionIndex)->GetStaticField(0xB970);
+			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::ChallengeStoryGroupExtraConfigRow*>**)Il2CppClass::FromTypeDefinitionIndex(ChallengeStoryGroupExtraConfigExcelTable_TypeDefinitionIndex)->GetStaticField(0x297B8);
 		}
-		static ::System::Boolean* StaticGet_isDataLoaded()
+		static ::Il2CppArray<::System::String*>** StaticGet_s_PathList()
 		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(ChallengeStoryGroupExtraConfigExcelTable_TypeDefinitionIndex)->GetStaticField(0x46B0);
+			return (::Il2CppArray<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(ChallengeStoryGroupExtraConfigExcelTable_TypeDefinitionIndex)->GetStaticField(0x297C0);
 		}
 		static ::System::Byte* StaticGet_HashIndex()
 		{
-			return (::System::Byte*)Il2CppClass::FromTypeDefinitionIndex(ChallengeStoryGroupExtraConfigExcelTable_TypeDefinitionIndex)->GetStaticField(0x46B1);
+			return (::System::Byte*)Il2CppClass::FromTypeDefinitionIndex(ChallengeStoryGroupExtraConfigExcelTable_TypeDefinitionIndex)->GetStaticField(0x78E0);
+		}
+		static ::System::Boolean* StaticGet_isDataLoaded()
+		{
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(ChallengeStoryGroupExtraConfigExcelTable_TypeDefinitionIndex)->GetStaticField(0x78E1);
 		}
 
 		static ::System::Void _cctor()

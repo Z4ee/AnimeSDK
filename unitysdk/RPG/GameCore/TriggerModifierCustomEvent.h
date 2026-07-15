@@ -10,13 +10,13 @@ namespace RPG::GameCore { class PredicateConfig; }
 namespace RPG::GameCore { class TargetEvaluator; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_TRIGGERMODIFIERCUSTOMEVENT_METHOD_3_92BB07320FEDF53F_OFFSET UNITYSDK_OFFSET(0x19E18010)
-#define RPG_GAMECORE_TRIGGERMODIFIERCUSTOMEVENT_METHOD_3_BB21DF926805CCB7_OFFSET UNITYSDK_OFFSET(0x19E18130)
-#define RPG_GAMECORE_TRIGGERMODIFIERCUSTOMEVENT__CTOR_OFFSET UNITYSDK_OFFSET(0x19E180B0)
+#define RPG_GAMECORE_TRIGGERMODIFIERCUSTOMEVENT_METHOD_3_79D01DAAE32C5863_OFFSET UNITYSDK_OFFSET(0x1B058AB0)
+#define RPG_GAMECORE_TRIGGERMODIFIERCUSTOMEVENT_METHOD_3_BB21DF926805CCB7_OFFSET UNITYSDK_OFFSET(0x1B058B90)
+#define RPG_GAMECORE_TRIGGERMODIFIERCUSTOMEVENT__CTOR_OFFSET UNITYSDK_OFFSET(0x1B058B30)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TriggerModifierCustomEvent_TypeDefinitionIndex = 21469;
+	inline static constexpr unsigned int TriggerModifierCustomEvent_TypeDefinitionIndex = 21888;
 
 	class TriggerModifierCustomEvent : public ::RPG::GameCore::TaskConfig
 	{
@@ -35,9 +35,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TRIGGERMODIFIERCUSTOMEVENT__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_92BB07320FEDF53F(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::TriggerModifierCustomEvent*& a2)
+		static ::System::Void Method_3_79D01DAAE32C5863(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::TriggerModifierCustomEvent*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::TriggerModifierCustomEvent*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TRIGGERMODIFIERCUSTOMEVENT_METHOD_3_92BB07320FEDF53F_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::TriggerModifierCustomEvent*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TRIGGERMODIFIERCUSTOMEVENT_METHOD_3_79D01DAAE32C5863_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_BB21DF926805CCB7(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::TriggerModifierCustomEvent* a2)

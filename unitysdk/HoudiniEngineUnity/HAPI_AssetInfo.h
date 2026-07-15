@@ -4,7 +4,7 @@
 
 namespace HoudiniEngineUnity
 {
-	inline static constexpr unsigned int HAPI_AssetInfo_TypeDefinitionIndex = 37532;
+	inline static constexpr unsigned int HAPI_AssetInfo_TypeDefinitionIndex = 38340;
 
 	struct alignas(4) HAPI_AssetInfo
 	{

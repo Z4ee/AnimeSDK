@@ -9,12 +9,12 @@ namespace RPG::GameCore { class FieldEffectHighPriorityList; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_FIELDEFFECTBUDGETCONFIG_METHOD_2_C0964BF304E25208_OFFSET UNITYSDK_OFFSET(0x19718FB0)
-#define RPG_GAMECORE_FIELDEFFECTBUDGETCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x19719240)
+#define RPG_GAMECORE_FIELDEFFECTBUDGETCONFIG_METHOD_2_C0964BF304E25208_OFFSET UNITYSDK_OFFSET(0x1BA792C0)
+#define RPG_GAMECORE_FIELDEFFECTBUDGETCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1BA79550)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FieldEffectBudgetConfig_TypeDefinitionIndex = 15668;
+	inline static constexpr unsigned int FieldEffectBudgetConfig_TypeDefinitionIndex = 15841;
 
 	class FieldEffectBudgetConfig : public ::RPG::GameCore::JsonConfig
 	{

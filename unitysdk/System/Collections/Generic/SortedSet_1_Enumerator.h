@@ -10,7 +10,7 @@ namespace System::Runtime::Serialization { class SerializationInfo; }
 
 namespace System::Collections::Generic
 {
-	inline static constexpr unsigned int SortedSet_1_Enumerator_TypeDefinitionIndex = 3033;
+	inline static constexpr unsigned int SortedSet_1_Enumerator_TypeDefinitionIndex = 3037;
 
 	template <typename T>
 	struct SortedSet_1_Enumerator

@@ -3,7 +3,7 @@
 
 namespace HoudiniEngineUnity
 {
-	inline static constexpr unsigned int HAPI_PDG_WorkItemState_TypeDefinitionIndex = 37522;
+	inline static constexpr unsigned int HAPI_PDG_WorkItemState_TypeDefinitionIndex = 38330;
 
 	enum class HAPI_PDG_WorkItemState : ::System::Int32
 	{

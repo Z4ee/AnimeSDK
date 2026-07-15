@@ -4,20 +4,20 @@
 #include "unitysdk/System/Object.h"
 #include "unitysdk/System/ReadOnlySpan_1.h"
 
-#define MESSAGEPACK_MESSAGEPACKPRIMITIVES_DECODERS_READUINT64UINT8_READ_OFFSET UNITYSDK_OFFSET(0x181782D0)
-#define MESSAGEPACK_MESSAGEPACKPRIMITIVES_DECODERS_READUINT64UINT8__CCTOR_OFFSET UNITYSDK_OFFSET(0x18178320)
-#define MESSAGEPACK_MESSAGEPACKPRIMITIVES_DECODERS_READUINT64UINT8__CTOR_OFFSET UNITYSDK_OFFSET(0x181782C0)
+#define MESSAGEPACK_MESSAGEPACKPRIMITIVES_DECODERS_READUINT64UINT8_READ_OFFSET UNITYSDK_OFFSET(0x1B925BE0)
+#define MESSAGEPACK_MESSAGEPACKPRIMITIVES_DECODERS_READUINT64UINT8__CCTOR_OFFSET UNITYSDK_OFFSET(0x1B925C30)
+#define MESSAGEPACK_MESSAGEPACKPRIMITIVES_DECODERS_READUINT64UINT8__CTOR_OFFSET UNITYSDK_OFFSET(0x1B925BD0)
 
 namespace MessagePack
 {
-	inline static constexpr unsigned int MessagePackPrimitives_Decoders_ReadUInt64UInt8_TypeDefinitionIndex = 7145;
+	inline static constexpr unsigned int MessagePackPrimitives_Decoders_ReadUInt64UInt8_TypeDefinitionIndex = 7151;
 
 	class MessagePackPrimitives_Decoders_ReadUInt64UInt8 : public ::System::Object
 	{
 	public:
 		static ::MessagePack::MessagePackPrimitives_Decoders_ReadUInt64UInt8** StaticGet_Instance()
 		{
-			return (::MessagePack::MessagePackPrimitives_Decoders_ReadUInt64UInt8**)Il2CppClass::FromTypeDefinitionIndex(MessagePackPrimitives_Decoders_ReadUInt64UInt8_TypeDefinitionIndex)->GetStaticField(0x9B90);
+			return (::MessagePack::MessagePackPrimitives_Decoders_ReadUInt64UInt8**)Il2CppClass::FromTypeDefinitionIndex(MessagePackPrimitives_Decoders_ReadUInt64UInt8_TypeDefinitionIndex)->GetStaticField(0xB020);
 		}
 
 		::System::Void _ctor()

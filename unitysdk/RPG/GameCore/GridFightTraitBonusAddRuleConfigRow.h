@@ -5,19 +5,19 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_GRIDFIGHTTRAITBONUSADDRULECONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1980F360)
-#define RPG_GAMECORE_GRIDFIGHTTRAITBONUSADDRULECONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1980F4F0)
+#define RPG_GAMECORE_GRIDFIGHTTRAITBONUSADDRULECONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D07C050)
+#define RPG_GAMECORE_GRIDFIGHTTRAITBONUSADDRULECONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D07C1E0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int GridFightTraitBonusAddRuleConfigRow_TypeDefinitionIndex = 13032;
+	inline static constexpr unsigned int GridFightTraitBonusAddRuleConfigRow_TypeDefinitionIndex = 13180;
 
 	class GridFightTraitBonusAddRuleConfigRow : public ::System::Object
 	{
 	public:
 		::Il2CppArray<::System::UInt32>* ParamList; // 0x10
-		::RPG::GameCore::GridFightTraitBonusAddType TraitBonusType; // 0x18
-		::System::UInt32 ID; // 0x1C
+		::System::UInt32 ID; // 0x18
+		::RPG::GameCore::GridFightTraitBonusAddType TraitBonusType; // 0x1C
 
 		::System::Void _ctor()
 		{

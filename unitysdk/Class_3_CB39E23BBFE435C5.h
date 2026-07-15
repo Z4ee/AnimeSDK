@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class ConstructBodyPart; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_CB39E23BBFE435C5_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB2BA0B0)
-#define CLASS_3_CB39E23BBFE435C5__CTOR_OFFSET UNITYSDK_OFFSET(0xB2BA080)
+#define CLASS_3_CB39E23BBFE435C5_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x14FD28B0)
+#define CLASS_3_CB39E23BBFE435C5__CTOR_OFFSET UNITYSDK_OFFSET(0x14FD2880)
 
-inline static constexpr unsigned int Class_3_CB39E23BBFE435C5_TypeDefinitionIndex = 51375;
+inline static constexpr unsigned int Class_3_CB39E23BBFE435C5_TypeDefinitionIndex = 52485;
 
 class Class_3_CB39E23BBFE435C5 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::ConstructBodyPart*>
 {

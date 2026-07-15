@@ -5,9 +5,9 @@
 
 namespace RPG::GameCore { class ActionDelayLinkExtraBehaviorGroup; }
 
-#define CLASS_1_93D8EFB1FD78A009_STRUCT_2_26E46D0ED8EDBA3A__CTOR_OFFSET UNITYSDK_OFFSET(0x841B0)
+#define CLASS_1_93D8EFB1FD78A009_STRUCT_2_26E46D0ED8EDBA3A__CTOR_OFFSET UNITYSDK_OFFSET(0x38F9D40)
 
-inline static constexpr unsigned int Class_1_93D8EFB1FD78A009_Struct_2_26E46D0ED8EDBA3A_TypeDefinitionIndex = 52274;
+inline static constexpr unsigned int Class_1_93D8EFB1FD78A009_Struct_2_26E46D0ED8EDBA3A_TypeDefinitionIndex = 53426;
 
 struct alignas(2) Class_1_93D8EFB1FD78A009_Struct_2_26E46D0ED8EDBA3A
 {

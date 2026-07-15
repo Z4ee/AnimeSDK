@@ -1,0 +1,85 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+
+class Class_1_51C7EDC5CE56F41A;
+class Class_1_7EEA5E93C4D09894;
+namespace RPG::Client { class QuestData; }
+namespace System::Collections::Generic { template <typename T> class List_1; }
+
+#define RPG_CLIENT_TEAMTOWERS_TEAMTOWERSLEVELREWARDVIEWMODEL_GETLEVELREWARDQUESTS_OFFSET UNITYSDK_OFFSET(0x1857F270)
+#define RPG_CLIENT_TEAMTOWERS_TEAMTOWERSLEVELREWARDVIEWMODEL_GETRESIDENTREWARDLEVELS_OFFSET UNITYSDK_OFFSET(0x1857F2C0)
+#define RPG_CLIENT_TEAMTOWERS_TEAMTOWERSLEVELREWARDVIEWMODEL_GET_CURRENTEXP_OFFSET UNITYSDK_OFFSET(0x1857F6D0)
+#define RPG_CLIENT_TEAMTOWERS_TEAMTOWERSLEVELREWARDVIEWMODEL_GET_LEVELUPEXP_OFFSET UNITYSDK_OFFSET(0x1857F7A0)
+#define RPG_CLIENT_TEAMTOWERS_TEAMTOWERSLEVELREWARDVIEWMODEL_GET_MAXTEXTVISIBLE_OFFSET UNITYSDK_OFFSET(0x1857F890)
+#define RPG_CLIENT_TEAMTOWERS_TEAMTOWERSLEVELREWARDVIEWMODEL_GET_PLAYERLEVEL_OFFSET UNITYSDK_OFFSET(0x1857F5D0)
+#define RPG_CLIENT_TEAMTOWERS_TEAMTOWERSLEVELREWARDVIEWMODEL_GET_PROGRESSNUMVISIBLE_OFFSET UNITYSDK_OFFSET(0x1857F800)
+#define RPG_CLIENT_TEAMTOWERS_TEAMTOWERSLEVELREWARDVIEWMODEL__CCTOR_OFFSET UNITYSDK_OFFSET(0x1857F910)
+#define RPG_CLIENT_TEAMTOWERS_TEAMTOWERSLEVELREWARDVIEWMODEL__CTOR_OFFSET UNITYSDK_OFFSET(0x1857F170)
+#define RPG_CLIENT_TEAMTOWERS_TEAMTOWERSLEVELREWARDVIEWMODEL__INITALLSERVICESINDICONTAINER_OFFSET UNITYSDK_OFFSET(0x1857F180)
+
+namespace RPG::Client::TeamTowers
+{
+	inline static constexpr unsigned int TeamTowersLevelRewardViewModel_TypeDefinitionIndex = 75098;
+
+	class TeamTowersLevelRewardViewModel : public ::System::Object
+	{
+	public:
+		static ::System::UInt32* StaticGet__SilverWolfMaxLevel()
+		{
+			return (::System::UInt32*)Il2CppClass::FromTypeDefinitionIndex(TeamTowersLevelRewardViewModel_TypeDefinitionIndex)->GetStaticField(0xA450);
+		}
+		::Class_1_7EEA5E93C4D09894* _Repository; // 0x10
+		::Class_1_51C7EDC5CE56F41A* _RewardService; // 0x18
+
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_TEAMTOWERS_TEAMTOWERSLEVELREWARDVIEWMODEL__CTOR_OFFSET))(this);
+		}
+
+		static ::System::Void _cctor()
+		{
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + RPG_CLIENT_TEAMTOWERS_TEAMTOWERSLEVELREWARDVIEWMODEL__CCTOR_OFFSET))();
+		}
+
+		::System::Collections::Generic::List_1<::RPG::Client::QuestData*>* GetLevelRewardQuests()
+		{
+			return ((::System::Collections::Generic::List_1<::RPG::Client::QuestData*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_TEAMTOWERS_TEAMTOWERSLEVELREWARDVIEWMODEL_GETLEVELREWARDQUESTS_OFFSET))(this);
+		}
+
+		::System::Collections::Generic::List_1<::System::UInt32>* GetResidentRewardLevels()
+		{
+			return ((::System::Collections::Generic::List_1<::System::UInt32>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_TEAMTOWERS_TEAMTOWERSLEVELREWARDVIEWMODEL_GETRESIDENTREWARDLEVELS_OFFSET))(this);
+		}
+
+		::System::Void _InitAllServicesInDIContainer()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_TEAMTOWERS_TEAMTOWERSLEVELREWARDVIEWMODEL__INITALLSERVICESINDICONTAINER_OFFSET))(this);
+		}
+
+		::System::UInt32 get_PlayerLevel()
+		{
+			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_TEAMTOWERS_TEAMTOWERSLEVELREWARDVIEWMODEL_GET_PLAYERLEVEL_OFFSET))(this);
+		}
+
+		::System::UInt32 get_CurrentExp()
+		{
+			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_TEAMTOWERS_TEAMTOWERSLEVELREWARDVIEWMODEL_GET_CURRENTEXP_OFFSET))(this);
+		}
+
+		::System::UInt32 get_LevelUpExp()
+		{
+			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_TEAMTOWERS_TEAMTOWERSLEVELREWARDVIEWMODEL_GET_LEVELUPEXP_OFFSET))(this);
+		}
+
+		::System::Boolean get_ProgressNumVisible()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_TEAMTOWERS_TEAMTOWERSLEVELREWARDVIEWMODEL_GET_PROGRESSNUMVISIBLE_OFFSET))(this);
+		}
+
+		::System::Boolean get_MaxTextVisible()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_TEAMTOWERS_TEAMTOWERSLEVELREWARDVIEWMODEL_GET_MAXTEXTVISIBLE_OFFSET))(this);
+		}
+	};
+}

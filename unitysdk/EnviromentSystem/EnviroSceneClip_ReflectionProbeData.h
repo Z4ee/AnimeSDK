@@ -7,7 +7,7 @@ namespace UnityEngine { class Cubemap; }
 
 namespace EnviromentSystem
 {
-	inline static constexpr unsigned int EnviroSceneClip_ReflectionProbeData_TypeDefinitionIndex = 46758;
+	inline static constexpr unsigned int EnviroSceneClip_ReflectionProbeData_TypeDefinitionIndex = 47723;
 
 	struct alignas(8) EnviroSceneClip_ReflectionProbeData
 	{

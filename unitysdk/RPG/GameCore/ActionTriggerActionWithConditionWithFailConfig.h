@@ -5,13 +5,13 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class MiConditionConfigBase; }
 
-#define RPG_GAMECORE_ACTIONTRIGGERACTIONWITHCONDITIONWITHFAILCONFIG_METHOD_4_5D9A33471C5FF063_OFFSET UNITYSDK_OFFSET(0x193D0030)
-#define RPG_GAMECORE_ACTIONTRIGGERACTIONWITHCONDITIONWITHFAILCONFIG_METHOD_4_79D3DFB91243BE5E_OFFSET UNITYSDK_OFFSET(0x193D0110)
-#define RPG_GAMECORE_ACTIONTRIGGERACTIONWITHCONDITIONWITHFAILCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x193D00C0)
+#define RPG_GAMECORE_ACTIONTRIGGERACTIONWITHCONDITIONWITHFAILCONFIG_METHOD_4_4F5D85748873EE67_OFFSET UNITYSDK_OFFSET(0x1AAD8EE0)
+#define RPG_GAMECORE_ACTIONTRIGGERACTIONWITHCONDITIONWITHFAILCONFIG_METHOD_4_E4DD046EF164152D_OFFSET UNITYSDK_OFFSET(0x1AAD8E80)
+#define RPG_GAMECORE_ACTIONTRIGGERACTIONWITHCONDITIONWITHFAILCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1AAD8ED0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ActionTriggerActionWithConditionWithFailConfig_TypeDefinitionIndex = 16185;
+	inline static constexpr unsigned int ActionTriggerActionWithConditionWithFailConfig_TypeDefinitionIndex = 16369;
 
 	class ActionTriggerActionWithConditionWithFailConfig : public ::RPG::GameCore::MiActionConfigBase
 	{
@@ -25,14 +25,14 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ACTIONTRIGGERACTIONWITHCONDITIONWITHFAILCONFIG__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_4_5D9A33471C5FF063(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ActionTriggerActionWithConditionWithFailConfig*& a2)
+		static ::System::Void Method_4_E4DD046EF164152D(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ActionTriggerActionWithConditionWithFailConfig*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ActionTriggerActionWithConditionWithFailConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ACTIONTRIGGERACTIONWITHCONDITIONWITHFAILCONFIG_METHOD_4_5D9A33471C5FF063_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ActionTriggerActionWithConditionWithFailConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ACTIONTRIGGERACTIONWITHCONDITIONWITHFAILCONFIG_METHOD_4_E4DD046EF164152D_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_4_79D3DFB91243BE5E(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ActionTriggerActionWithConditionWithFailConfig* a2)
+		static ::System::Void Method_4_4F5D85748873EE67(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ActionTriggerActionWithConditionWithFailConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ActionTriggerActionWithConditionWithFailConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ACTIONTRIGGERACTIONWITHCONDITIONWITHFAILCONFIG_METHOD_4_79D3DFB91243BE5E_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ActionTriggerActionWithConditionWithFailConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ACTIONTRIGGERACTIONWITHCONDITIONWITHFAILCONFIG_METHOD_4_4F5D85748873EE67_OFFSET))(a1, a2);
 		}
 	};
 }

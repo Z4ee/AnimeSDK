@@ -5,22 +5,22 @@
 namespace System { class String; }
 namespace System { template <typename T> class Action_1; }
 
-#define RPG_CLIENT_PHOTOGRAPHUTILS___C__DISPLAYCLASS137_0__CTOR_OFFSET UNITYSDK_OFFSET(0xC3A2450)
-#define RPG_CLIENT_PHOTOGRAPHUTILS___C__DISPLAYCLASS137_0___SAVETOGALLERY_B__0_OFFSET UNITYSDK_OFFSET(0xC3A3890)
-#define RPG_CLIENT_PHOTOGRAPHUTILS___C__DISPLAYCLASS137_0___SAVETOGALLERY_B__1_OFFSET UNITYSDK_OFFSET(0xC3A38B0)
+#define RPG_CLIENT_PHOTOGRAPHUTILS___C__DISPLAYCLASS137_0__CTOR_OFFSET UNITYSDK_OFFSET(0x19EB16E0)
+#define RPG_CLIENT_PHOTOGRAPHUTILS___C__DISPLAYCLASS137_0___SAVETOGALLERY_B__0_OFFSET UNITYSDK_OFFSET(0x19EB2B20)
+#define RPG_CLIENT_PHOTOGRAPHUTILS___C__DISPLAYCLASS137_0___SAVETOGALLERY_B__1_OFFSET UNITYSDK_OFFSET(0x19EB2B40)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int PhotoGraphUtils___c__DisplayClass137_0_TypeDefinitionIndex = 64939;
+	inline static constexpr unsigned int PhotoGraphUtils___c__DisplayClass137_0_TypeDefinitionIndex = 66341;
 
 	class PhotoGraphUtils___c__DisplayClass137_0 : public ::System::Object
 	{
 	public:
-		::System::String* title; // 0x10
-		::System::String* desc; // 0x18
+		::System::String* desc; // 0x10
+		::Il2CppArray<::System::Byte>* mediaBytes; // 0x18
 		::System::String* fileName; // 0x20
-		::System::Action_1<::System::Boolean>* saveCallback; // 0x28
-		::Il2CppArray<::System::Byte>* mediaBytes; // 0x30
+		::System::String* title; // 0x28
+		::System::Action_1<::System::Boolean>* saveCallback; // 0x30
 
 		::System::Void _ctor()
 		{

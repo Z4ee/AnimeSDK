@@ -9,13 +9,13 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class CameraBattleTransitionBeHitConfig; }
 namespace RPG::GameCore { class CustomCameraBattleTransitionShotConfig; }
 
-#define RPG_GAMECORE_ENABLEFREELOOKCAMERABATTLETRANSITIONMODE_METHOD_3_DF440198004AF96A_OFFSET UNITYSDK_OFFSET(0x196E3D40)
-#define RPG_GAMECORE_ENABLEFREELOOKCAMERABATTLETRANSITIONMODE_METHOD_3_EFB98A5716A30540_OFFSET UNITYSDK_OFFSET(0x196E3CA0)
-#define RPG_GAMECORE_ENABLEFREELOOKCAMERABATTLETRANSITIONMODE__CTOR_OFFSET UNITYSDK_OFFSET(0x196E3D00)
+#define RPG_GAMECORE_ENABLEFREELOOKCAMERABATTLETRANSITIONMODE_METHOD_3_8940FBCFA685E7DF_OFFSET UNITYSDK_OFFSET(0x1BB3FDD0)
+#define RPG_GAMECORE_ENABLEFREELOOKCAMERABATTLETRANSITIONMODE_METHOD_3_DF440198004AF96A_OFFSET UNITYSDK_OFFSET(0x1BB3FE30)
+#define RPG_GAMECORE_ENABLEFREELOOKCAMERABATTLETRANSITIONMODE__CTOR_OFFSET UNITYSDK_OFFSET(0x1BB3FE10)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int EnableFreelookCameraBattleTransitionMode_TypeDefinitionIndex = 19285;
+	inline static constexpr unsigned int EnableFreelookCameraBattleTransitionMode_TypeDefinitionIndex = 19641;
 
 	class EnableFreelookCameraBattleTransitionMode : public ::RPG::GameCore::TaskConfig
 	{
@@ -37,9 +37,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ENABLEFREELOOKCAMERABATTLETRANSITIONMODE__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_EFB98A5716A30540(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::EnableFreelookCameraBattleTransitionMode*& a2)
+		static ::System::Void Method_3_8940FBCFA685E7DF(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::EnableFreelookCameraBattleTransitionMode*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::EnableFreelookCameraBattleTransitionMode*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ENABLEFREELOOKCAMERABATTLETRANSITIONMODE_METHOD_3_EFB98A5716A30540_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::EnableFreelookCameraBattleTransitionMode*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ENABLEFREELOOKCAMERABATTLETRANSITIONMODE_METHOD_3_8940FBCFA685E7DF_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_DF440198004AF96A(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::EnableFreelookCameraBattleTransitionMode* a2)

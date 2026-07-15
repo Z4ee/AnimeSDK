@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define RPG_CLIENT_LITTLEGAME_FEVERTIMECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x18CD9D40)
+#define RPG_CLIENT_LITTLEGAME_FEVERTIMECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1C590F40)
 
 namespace RPG::Client::LittleGame
 {
-	inline static constexpr unsigned int FeverTimeConfig_TypeDefinitionIndex = 39346;
+	inline static constexpr unsigned int FeverTimeConfig_TypeDefinitionIndex = 40155;
 
 	class FeverTimeConfig : public ::System::Object
 	{

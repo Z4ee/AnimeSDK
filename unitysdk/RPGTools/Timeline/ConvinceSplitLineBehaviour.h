@@ -6,15 +6,14 @@
 
 namespace RPGTools::Timeline { class ConvinceSplitLineClip; }
 
-#define RPGTOOLS_TIMELINE_CONVINCESPLITLINEBEHAVIOUR_GET_CLIP_OFFSET UNITYSDK_OFFSET(0xCFFC990)
-#define RPGTOOLS_TIMELINE_CONVINCESPLITLINEBEHAVIOUR_ONBEHAVIOURPLAY_OFFSET UNITYSDK_OFFSET(0xCFFC9B0)
-#define RPGTOOLS_TIMELINE_CONVINCESPLITLINEBEHAVIOUR_SET_CLIP_OFFSET UNITYSDK_OFFSET(0xCFFC9A0)
-#define RPGTOOLS_TIMELINE_CONVINCESPLITLINEBEHAVIOUR__CTOR_OFFSET UNITYSDK_OFFSET(0xCFFCC50)
-#define RPGTOOLS_TIMELINE_CONVINCESPLITLINEBEHAVIOUR___IFIXBASEPROXY_ONBEHAVIOURPLAY_OFFSET UNITYSDK_OFFSET(0xCFFCC60)
+#define RPGTOOLS_TIMELINE_CONVINCESPLITLINEBEHAVIOUR_GET_CLIP_OFFSET UNITYSDK_OFFSET(0x19A348B0)
+#define RPGTOOLS_TIMELINE_CONVINCESPLITLINEBEHAVIOUR_ONBEHAVIOURPLAY_OFFSET UNITYSDK_OFFSET(0x19A348D0)
+#define RPGTOOLS_TIMELINE_CONVINCESPLITLINEBEHAVIOUR_SET_CLIP_OFFSET UNITYSDK_OFFSET(0x19A348C0)
+#define RPGTOOLS_TIMELINE_CONVINCESPLITLINEBEHAVIOUR__CTOR_OFFSET UNITYSDK_OFFSET(0x19A34B70)
 
 namespace RPGTools::Timeline
 {
-	inline static constexpr unsigned int ConvinceSplitLineBehaviour_TypeDefinitionIndex = 45356;
+	inline static constexpr unsigned int ConvinceSplitLineBehaviour_TypeDefinitionIndex = 46280;
 
 	class ConvinceSplitLineBehaviour : public ::UnityEngine::Playables::PlayableBehaviour
 	{
@@ -39,11 +38,6 @@ namespace RPGTools::Timeline
 		::System::Void OnBehaviourPlay(::UnityEngine::Playables::Playable a1, ::UnityEngine::Playables::FrameData a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::UnityEngine::Playables::Playable, ::UnityEngine::Playables::FrameData))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_CONVINCESPLITLINEBEHAVIOUR_ONBEHAVIOURPLAY_OFFSET))(this, a1, a2);
-		}
-
-		::System::Void __iFixBaseProxy_OnBehaviourPlay(::UnityEngine::Playables::Playable a1, ::UnityEngine::Playables::FrameData a2)
-		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Playables::Playable, ::UnityEngine::Playables::FrameData))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_CONVINCESPLITLINEBEHAVIOUR___IFIXBASEPROXY_ONBEHAVIOURPLAY_OFFSET))(this, a1, a2);
 		}
 	};
 }

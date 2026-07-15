@@ -7,13 +7,12 @@ namespace RPG::Client { class Effect_ElectricChainV2AnimationBindingBehavior; }
 namespace RPG::Client::ElectricChainV2 { class Effect_ElectricChainV2; }
 namespace System { class String; }
 
-#define RPG_CLIENT_EFFECT_ELECTRICCHAINV2ANIMATIONBINDING_GETTICKLODTEMPLATENAME_OFFSET UNITYSDK_OFFSET(0xB84CD60)
-#define RPG_CLIENT_EFFECT_ELECTRICCHAINV2ANIMATIONBINDING__CTOR_OFFSET UNITYSDK_OFFSET(0xB84CDB0)
-#define RPG_CLIENT_EFFECT_ELECTRICCHAINV2ANIMATIONBINDING___IFIXBASEPROXY_GETTICKLODTEMPLATENAME_OFFSET UNITYSDK_OFFSET(0xB84CDE0)
+#define RPG_CLIENT_EFFECT_ELECTRICCHAINV2ANIMATIONBINDING_GETTICKLODTEMPLATENAME_OFFSET UNITYSDK_OFFSET(0x150E75C0)
+#define RPG_CLIENT_EFFECT_ELECTRICCHAINV2ANIMATIONBINDING__CTOR_OFFSET UNITYSDK_OFFSET(0x150E7610)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int Effect_ElectricChainV2AnimationBinding_TypeDefinitionIndex = 65890;
+	inline static constexpr unsigned int Effect_ElectricChainV2AnimationBinding_TypeDefinitionIndex = 67307;
 
 	class Effect_ElectricChainV2AnimationBinding : public ::RPG::Client::TAMonoPlugin_1<::RPG::Client::Effect_ElectricChainV2AnimationBindingBehavior*>
 	{
@@ -37,11 +36,6 @@ namespace RPG::Client
 		::System::String* GetTickLodTemplateName()
 		{
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_EFFECT_ELECTRICCHAINV2ANIMATIONBINDING_GETTICKLODTEMPLATENAME_OFFSET))(this);
-		}
-
-		::System::String* __iFixBaseProxy_GetTickLodTemplateName()
-		{
-			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_EFFECT_ELECTRICCHAINV2ANIMATIONBINDING___IFIXBASEPROXY_GETTICKLODTEMPLATENAME_OFFSET))(this);
 		}
 	};
 }

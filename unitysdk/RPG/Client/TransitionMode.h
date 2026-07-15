@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int TransitionMode_TypeDefinitionIndex = 56879;
+	inline static constexpr unsigned int TransitionMode_TypeDefinitionIndex = 58126;
 
 	enum class TransitionMode : ::System::Int32
 	{
@@ -14,5 +14,6 @@ namespace RPG::Client
 		UniverseUI = 4,
 		OnlineReplay = 5,
 		Universe3D_AetherDivide = 6,
+		ScreenSpecialFadeIn = 7,
 	};
 }

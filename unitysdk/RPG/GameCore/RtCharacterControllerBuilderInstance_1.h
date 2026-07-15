@@ -4,7 +4,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RtCharacterControllerBuilderInstance_1_TypeDefinitionIndex = 50419;
+	inline static constexpr unsigned int RtCharacterControllerBuilderInstance_1_TypeDefinitionIndex = 51501;
 
 	template <typename T>
 	class RtCharacterControllerBuilderInstance_1 : public ::System::Object

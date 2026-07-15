@@ -9,13 +9,12 @@ namespace RPG::CustomRP { class AllBloomStage; }
 namespace RPG::CustomRP { class RPGBloom; }
 namespace System { class Object; }
 
-#define RPGTOOLS_TIMELINE_POSTPROCESSING_BLOOMANIMATETIMELINEBEHAVIOUR_PROCESSFRAME_OFFSET UNITYSDK_OFFSET(0xD03CE30)
-#define RPGTOOLS_TIMELINE_POSTPROCESSING_BLOOMANIMATETIMELINEBEHAVIOUR__CTOR_OFFSET UNITYSDK_OFFSET(0xD03D1C0)
-#define RPGTOOLS_TIMELINE_POSTPROCESSING_BLOOMANIMATETIMELINEBEHAVIOUR___IFIXBASEPROXY_PROCESSFRAME_OFFSET UNITYSDK_OFFSET(0xD03D2B0)
+#define RPGTOOLS_TIMELINE_POSTPROCESSING_BLOOMANIMATETIMELINEBEHAVIOUR_PROCESSFRAME_OFFSET UNITYSDK_OFFSET(0x19999B60)
+#define RPGTOOLS_TIMELINE_POSTPROCESSING_BLOOMANIMATETIMELINEBEHAVIOUR__CTOR_OFFSET UNITYSDK_OFFSET(0x1999A130)
 
 namespace RPGTools::Timeline::PostProcessing
 {
-	inline static constexpr unsigned int BloomAnimateTimelineBehaviour_TypeDefinitionIndex = 45816;
+	inline static constexpr unsigned int BloomAnimateTimelineBehaviour_TypeDefinitionIndex = 46755;
 
 	class BloomAnimateTimelineBehaviour : public ::RPGTools::Timeline::PostProcessing::BasePlayableBehaviour_1<::RPG::CustomRP::RPGBloom*>
 	{
@@ -31,11 +30,6 @@ namespace RPGTools::Timeline::PostProcessing
 		::System::Void ProcessFrame(::UnityEngine::Playables::Playable a1, ::UnityEngine::Playables::FrameData a2, ::System::Object* a3)
 		{
 			return ((::System::Void(*)(::PVOID, ::UnityEngine::Playables::Playable, ::UnityEngine::Playables::FrameData, ::System::Object*))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_POSTPROCESSING_BLOOMANIMATETIMELINEBEHAVIOUR_PROCESSFRAME_OFFSET))(this, a1, a2, a3);
-		}
-
-		::System::Void __iFixBaseProxy_ProcessFrame(::UnityEngine::Playables::Playable a1, ::UnityEngine::Playables::FrameData a2, ::System::Object* a3)
-		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Playables::Playable, ::UnityEngine::Playables::FrameData, ::System::Object*))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_POSTPROCESSING_BLOOMANIMATETIMELINEBEHAVIOUR___IFIXBASEPROXY_PROCESSFRAME_OFFSET))(this, a1, a2, a3);
 		}
 	};
 }

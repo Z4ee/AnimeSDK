@@ -4,12 +4,12 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_ACTIVITYDICERULEGROUPROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x193DACC0)
-#define RPG_GAMECORE_ACTIVITYDICERULEGROUPROW__CTOR_OFFSET UNITYSDK_OFFSET(0x193DAE00)
+#define RPG_GAMECORE_ACTIVITYDICERULEGROUPROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1AAE37C0)
+#define RPG_GAMECORE_ACTIVITYDICERULEGROUPROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1AAE3900)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ActivityDiceRuleGroupRow_TypeDefinitionIndex = 10831;
+	inline static constexpr unsigned int ActivityDiceRuleGroupRow_TypeDefinitionIndex = 10881;
 
 	class ActivityDiceRuleGroupRow : public ::System::Object
 	{

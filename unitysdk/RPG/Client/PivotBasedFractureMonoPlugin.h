@@ -3,18 +3,17 @@
 #include "unitysdk/RPG/Client/TAMonoPlugin_1.h"
 #include "unitysdk/UnityEngine/Vector2.h"
 
-class Class_3_23BA54A1AA190943;
+class Class_3_55F58FD99E7F2103;
 namespace System { class String; }
 
-#define RPG_CLIENT_PIVOTBASEDFRACTUREMONOPLUGIN_GETTICKLODTEMPLATENAME_OFFSET UNITYSDK_OFFSET(0xC3ACED0)
-#define RPG_CLIENT_PIVOTBASEDFRACTUREMONOPLUGIN__CTOR_OFFSET UNITYSDK_OFFSET(0xC3ACF20)
-#define RPG_CLIENT_PIVOTBASEDFRACTUREMONOPLUGIN___IFIXBASEPROXY_GETTICKLODTEMPLATENAME_OFFSET UNITYSDK_OFFSET(0xC3ACF50)
+#define RPG_CLIENT_PIVOTBASEDFRACTUREMONOPLUGIN_GETTICKLODTEMPLATENAME_OFFSET UNITYSDK_OFFSET(0x19EBC250)
+#define RPG_CLIENT_PIVOTBASEDFRACTUREMONOPLUGIN__CTOR_OFFSET UNITYSDK_OFFSET(0x19EBC2A0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int PivotBasedFractureMonoPlugin_TypeDefinitionIndex = 66112;
+	inline static constexpr unsigned int PivotBasedFractureMonoPlugin_TypeDefinitionIndex = 67537;
 
-	class PivotBasedFractureMonoPlugin : public ::RPG::Client::TAMonoPlugin_1<::Class_3_23BA54A1AA190943*>
+	class PivotBasedFractureMonoPlugin : public ::RPG::Client::TAMonoPlugin_1<::Class_3_55F58FD99E7F2103*>
 	{
 	public:
 		::System::Single Process; // 0x30
@@ -37,11 +36,6 @@ namespace RPG::Client
 		::System::String* GetTickLodTemplateName()
 		{
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PIVOTBASEDFRACTUREMONOPLUGIN_GETTICKLODTEMPLATENAME_OFFSET))(this);
-		}
-
-		::System::String* __iFixBaseProxy_GetTickLodTemplateName()
-		{
-			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PIVOTBASEDFRACTUREMONOPLUGIN___IFIXBASEPROXY_GETTICKLODTEMPLATENAME_OFFSET))(this);
 		}
 	};
 }

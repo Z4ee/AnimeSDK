@@ -86,7 +86,7 @@ namespace ZenFulcrum::VR::OpenVRBinding { class IVROverlay__ShowOverlay; }
 
 namespace ZenFulcrum::VR::OpenVRBinding
 {
-	inline static constexpr unsigned int IVROverlay_TypeDefinitionIndex = 36120;
+	inline static constexpr unsigned int IVROverlay_TypeDefinitionIndex = 36902;
 
 	struct alignas(8) IVROverlay
 	{

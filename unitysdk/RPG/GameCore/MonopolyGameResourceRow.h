@@ -5,21 +5,21 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_MONOPOLYGAMERESOURCEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1995FBF0)
-#define RPG_GAMECORE_MONOPOLYGAMERESOURCEROW__CTOR_OFFSET UNITYSDK_OFFSET(0x19960270)
+#define RPG_GAMECORE_MONOPOLYGAMERESOURCEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B1B4640)
+#define RPG_GAMECORE_MONOPOLYGAMERESOURCEROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1B1B4C80)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MonopolyGameResourceRow_TypeDefinitionIndex = 11503;
+	inline static constexpr unsigned int MonopolyGameResourceRow_TypeDefinitionIndex = 11603;
 
 	class MonopolyGameResourceRow : public ::System::Object
 	{
 	public:
 		::System::String* IconPath; // 0x10
-		::System::String* RuleIconPath; // 0x18
-		::System::String* IconOutlinePath; // 0x20
-		::System::UInt32 ResourceID; // 0x28
-		::System::UInt32 ResourceNum; // 0x2C
+		::System::String* IconOutlinePath; // 0x18
+		::System::String* RuleIconPath; // 0x20
+		::System::UInt32 ResourceNum; // 0x28
+		::System::UInt32 ResourceID; // 0x2C
 
 		::System::Void _ctor()
 		{

@@ -5,13 +5,13 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class DynamicFloat; }
 
-#define RPG_GAMECORE_ADVISOMETRICSETSWIPECAMERA_METHOD_3_3C7F17FB9A67D410_OFFSET UNITYSDK_OFFSET(0x19427B50)
-#define RPG_GAMECORE_ADVISOMETRICSETSWIPECAMERA_METHOD_3_AD561F48FBB2AB32_OFFSET UNITYSDK_OFFSET(0x19427AD0)
-#define RPG_GAMECORE_ADVISOMETRICSETSWIPECAMERA__CTOR_OFFSET UNITYSDK_OFFSET(0x19427B20)
+#define RPG_GAMECORE_ADVISOMETRICSETSWIPECAMERA_METHOD_3_3C7F17FB9A67D410_OFFSET UNITYSDK_OFFSET(0x1BE1FA30)
+#define RPG_GAMECORE_ADVISOMETRICSETSWIPECAMERA_METHOD_3_FB454D8F3FC1AAE4_OFFSET UNITYSDK_OFFSET(0x1BE1F9F0)
+#define RPG_GAMECORE_ADVISOMETRICSETSWIPECAMERA__CTOR_OFFSET UNITYSDK_OFFSET(0x1BE1FA20)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AdvIsometricSetSwipeCamera_TypeDefinitionIndex = 20990;
+	inline static constexpr unsigned int AdvIsometricSetSwipeCamera_TypeDefinitionIndex = 21405;
 
 	class AdvIsometricSetSwipeCamera : public ::RPG::GameCore::TaskConfig
 	{
@@ -29,9 +29,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVISOMETRICSETSWIPECAMERA__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_AD561F48FBB2AB32(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AdvIsometricSetSwipeCamera*& a2)
+		static ::System::Void Method_3_FB454D8F3FC1AAE4(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AdvIsometricSetSwipeCamera*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::AdvIsometricSetSwipeCamera*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVISOMETRICSETSWIPECAMERA_METHOD_3_AD561F48FBB2AB32_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::AdvIsometricSetSwipeCamera*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVISOMETRICSETSWIPECAMERA_METHOD_3_FB454D8F3FC1AAE4_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_3C7F17FB9A67D410(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AdvIsometricSetSwipeCamera* a2)

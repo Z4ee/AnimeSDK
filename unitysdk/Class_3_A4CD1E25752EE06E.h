@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class ResetActionCountDown; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_A4CD1E25752EE06E_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x142CDA40)
-#define CLASS_3_A4CD1E25752EE06E__CTOR_OFFSET UNITYSDK_OFFSET(0x142CDA10)
+#define CLASS_3_A4CD1E25752EE06E_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1470BA30)
+#define CLASS_3_A4CD1E25752EE06E__CTOR_OFFSET UNITYSDK_OFFSET(0x1470BA00)
 
-inline static constexpr unsigned int Class_3_A4CD1E25752EE06E_TypeDefinitionIndex = 51229;
+inline static constexpr unsigned int Class_3_A4CD1E25752EE06E_TypeDefinitionIndex = 52321;
 
 class Class_3_A4CD1E25752EE06E : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::ResetActionCountDown*>
 {

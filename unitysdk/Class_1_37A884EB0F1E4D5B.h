@@ -1,0 +1,33 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/RPG/Client/TextID.h"
+#include "unitysdk/RPG/GameCore/FateRinCaseBoardTeamType.h"
+#include "unitysdk/System/Object.h"
+
+class Class_1_7A22A3DBEEDD1F80;
+
+#define CLASS_1_37A884EB0F1E4D5B_METHOD_1_E9A2160FD348DB23_OFFSET UNITYSDK_OFFSET(0x1B289310)
+#define CLASS_1_37A884EB0F1E4D5B__CTOR_OFFSET UNITYSDK_OFFSET(0x1B289690)
+
+inline static constexpr unsigned int Class_1_37A884EB0F1E4D5B_TypeDefinitionIndex = 11171;
+
+class Class_1_37A884EB0F1E4D5B : public ::System::Object
+{
+public:
+	::RPG::Client::TextID Field_1_0; // 0x10
+	::System::UInt32 Field_1_1; // 0x20
+	::RPG::GameCore::FateRinCaseBoardTeamType Field_1_2; // 0x24
+	::RPG::Client::TextID Field_1_3; // 0x28
+	::RPG::Client::TextID Field_1_4; // 0x38
+	::RPG::Client::TextID Field_1_5; // 0x48
+
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_37A884EB0F1E4D5B__CTOR_OFFSET))(this);
+	}
+
+	static ::System::Void Method_1_E9A2160FD348DB23(::Class_1_7A22A3DBEEDD1F80* a1, ::Class_1_37A884EB0F1E4D5B*& a2)
+	{
+		return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::Class_1_37A884EB0F1E4D5B*&))((::PBYTE)hIl2Cpp + CLASS_1_37A884EB0F1E4D5B_METHOD_1_E9A2160FD348DB23_OFFSET))(a1, a2);
+	}
+};

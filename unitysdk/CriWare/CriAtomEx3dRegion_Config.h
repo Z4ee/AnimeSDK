@@ -4,7 +4,7 @@
 
 namespace CriWare
 {
-	inline static constexpr unsigned int CriAtomEx3dRegion_Config_TypeDefinitionIndex = 37062;
+	inline static constexpr unsigned int CriAtomEx3dRegion_Config_TypeDefinitionIndex = 37861;
 
 	struct alignas(4) CriAtomEx3dRegion_Config
 	{

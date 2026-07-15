@@ -6,24 +6,24 @@ namespace RPG::Client::LittleGame { class MonoTrigger; }
 namespace System { template <typename T1, typename T2, typename T3> class Action_3; }
 namespace UnityEngine { class Collider; }
 
-#define RPG_CLIENT_LITTLEGAME_MONOTRIGGER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xBE30B20)
-#define RPG_CLIENT_LITTLEGAME_MONOTRIGGER___C__CTOR_OFFSET UNITYSDK_OFFSET(0xBE30B50)
-#define RPG_CLIENT_LITTLEGAME_MONOTRIGGER___C___SETLISTENGUESTCOLLIDERENABLE_B__13_0_OFFSET UNITYSDK_OFFSET(0xBE30B60)
+#define RPG_CLIENT_LITTLEGAME_MONOTRIGGER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x19AAD4E0)
+#define RPG_CLIENT_LITTLEGAME_MONOTRIGGER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x19AAD510)
+#define RPG_CLIENT_LITTLEGAME_MONOTRIGGER___C___SETLISTENGUESTCOLLIDERENABLE_B__13_0_OFFSET UNITYSDK_OFFSET(0x19AAD520)
 
 namespace RPG::Client::LittleGame
 {
-	inline static constexpr unsigned int MonoTrigger___c_TypeDefinitionIndex = 71086;
+	inline static constexpr unsigned int MonoTrigger___c_TypeDefinitionIndex = 72599;
 
 	class MonoTrigger___c : public ::System::Object
 	{
 	public:
-		static ::System::Action_3<::RPG::Client::LittleGame::MonoTrigger*, ::UnityEngine::Collider*, ::System::Boolean>** StaticGet___9__13_0()
-		{
-			return (::System::Action_3<::RPG::Client::LittleGame::MonoTrigger*, ::UnityEngine::Collider*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(MonoTrigger___c_TypeDefinitionIndex)->GetStaticField(0x4E500);
-		}
 		static ::RPG::Client::LittleGame::MonoTrigger___c** StaticGet___9()
 		{
-			return (::RPG::Client::LittleGame::MonoTrigger___c**)Il2CppClass::FromTypeDefinitionIndex(MonoTrigger___c_TypeDefinitionIndex)->GetStaticField(0x4E508);
+			return (::RPG::Client::LittleGame::MonoTrigger___c**)Il2CppClass::FromTypeDefinitionIndex(MonoTrigger___c_TypeDefinitionIndex)->GetStaticField(0x3C9F0);
+		}
+		static ::System::Action_3<::RPG::Client::LittleGame::MonoTrigger*, ::UnityEngine::Collider*, ::System::Boolean>** StaticGet___9__13_0()
+		{
+			return (::System::Action_3<::RPG::Client::LittleGame::MonoTrigger*, ::UnityEngine::Collider*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(MonoTrigger___c_TypeDefinitionIndex)->GetStaticField(0x3C9F8);
 		}
 
 		static ::System::Void _cctor()

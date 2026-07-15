@@ -7,7 +7,7 @@ namespace UnityEngine::ProBuilder::KdTree { template <typename T> class ITypeMat
 
 namespace UnityEngine::ProBuilder::KdTree
 {
-	inline static constexpr unsigned int PriorityQueue_2_TypeDefinitionIndex = 35791;
+	inline static constexpr unsigned int PriorityQueue_2_TypeDefinitionIndex = 36573;
 
 	template <typename TItem, typename TPriority>
 	class PriorityQueue_2 : public ::System::Object

@@ -6,12 +6,12 @@
 namespace RPG::Client::TAUtils { class RendererSlots; }
 namespace UnityEngine { class Material; }
 
-#define RPG_CLIENT_AVATAREFFECTRENDERERBEHAVIOR_AVATAREFFECTMAT_GET_MATERIALINSTANCE_OFFSET UNITYSDK_OFFSET(0xB35FE90)
-#define RPG_CLIENT_AVATAREFFECTRENDERERBEHAVIOR_AVATAREFFECTMAT__CTOR_OFFSET UNITYSDK_OFFSET(0xB3623B0)
+#define RPG_CLIENT_AVATAREFFECTRENDERERBEHAVIOR_AVATAREFFECTMAT_GET_MATERIALINSTANCE_OFFSET UNITYSDK_OFFSET(0x18121B00)
+#define RPG_CLIENT_AVATAREFFECTRENDERERBEHAVIOR_AVATAREFFECTMAT__CTOR_OFFSET UNITYSDK_OFFSET(0x18123CB0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int AvatarEffectRendererBehavior_AvatarEffectMat_TypeDefinitionIndex = 65688;
+	inline static constexpr unsigned int AvatarEffectRendererBehavior_AvatarEffectMat_TypeDefinitionIndex = 67105;
 
 	class AvatarEffectRendererBehavior_AvatarEffectMat : public ::System::Object
 	{
@@ -23,7 +23,8 @@ namespace RPG::Client
 		::System::Boolean AfterTransparent; // 0x2C
 		::System::Boolean IgnoreMPB; // 0x2D
 		::System::Boolean DrawMeshMode; // 0x2E
-		::UnityEngine::Material* _MaterialInstance; // 0x30
+		::System::UInt32 RenderingLayerMask; // 0x30
+		::UnityEngine::Material* _MaterialInstance; // 0x38
 
 		::System::Void _ctor()
 		{

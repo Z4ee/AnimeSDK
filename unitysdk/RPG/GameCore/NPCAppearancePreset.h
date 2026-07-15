@@ -6,12 +6,12 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class EffectConfig; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_NPCAPPEARANCEPRESET_METHOD_2_97B77545FA2D9493_OFFSET UNITYSDK_OFFSET(0x199C6730)
-#define RPG_GAMECORE_NPCAPPEARANCEPRESET__CTOR_OFFSET UNITYSDK_OFFSET(0x199C68F0)
+#define RPG_GAMECORE_NPCAPPEARANCEPRESET_METHOD_2_97B77545FA2D9493_OFFSET UNITYSDK_OFFSET(0x1BAF0150)
+#define RPG_GAMECORE_NPCAPPEARANCEPRESET__CTOR_OFFSET UNITYSDK_OFFSET(0x1BAF0310)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int NPCAppearancePreset_TypeDefinitionIndex = 16599;
+	inline static constexpr unsigned int NPCAppearancePreset_TypeDefinitionIndex = 16761;
 
 	class NPCAppearancePreset : public ::RPG::GameCore::JsonConfig
 	{

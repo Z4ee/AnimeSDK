@@ -1,6 +1,6 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Class_1_47C4886CB6C61234.h"
+#include "unitysdk/Class_1_5BBB2050B3F3F683.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
 class Class_1_65282CEDEA364C3F;
@@ -13,81 +13,78 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class BoxCollider; }
 
-#define RPG_CLIENT_ISOMETRICVIEWMODULE_ADDCONNECTORS_OFFSET UNITYSDK_OFFSET(0xBD594D0)
-#define RPG_CLIENT_ISOMETRICVIEWMODULE_ENABLETELEPORT_OFFSET UNITYSDK_OFFSET(0xBD59AF0)
-#define RPG_CLIENT_ISOMETRICVIEWMODULE_ENDMODULE_OFFSET UNITYSDK_OFFSET(0xBD56FE0)
-#define RPG_CLIENT_ISOMETRICVIEWMODULE_ENDZOOMFOLLOW_OFFSET UNITYSDK_OFFSET(0xBD5A430)
-#define RPG_CLIENT_ISOMETRICVIEWMODULE_GET_ISACTIVE_OFFSET UNITYSDK_OFFSET(0xBD5B2F0)
-#define RPG_CLIENT_ISOMETRICVIEWMODULE_GET_NEEDTICK_OFFSET UNITYSDK_OFFSET(0xBD5B2E0)
-#define RPG_CLIENT_ISOMETRICVIEWMODULE_GET_STARTTIME_OFFSET UNITYSDK_OFFSET(0xBD5B300)
-#define RPG_CLIENT_ISOMETRICVIEWMODULE_ONINIT_OFFSET UNITYSDK_OFFSET(0xBD56E60)
-#define RPG_CLIENT_ISOMETRICVIEWMODULE_ONUNINIT_OFFSET UNITYSDK_OFFSET(0xBD56F20)
-#define RPG_CLIENT_ISOMETRICVIEWMODULE_OPERATEMOVEPLATFORM_OFFSET UNITYSDK_OFFSET(0xBD5ADB0)
-#define RPG_CLIENT_ISOMETRICVIEWMODULE_OPERATEROTATEPLATFORM_OFFSET UNITYSDK_OFFSET(0xBD5AE00)
-#define RPG_CLIENT_ISOMETRICVIEWMODULE_REPORTENDMODULE_OFFSET UNITYSDK_OFFSET(0xBD5A590)
-#define RPG_CLIENT_ISOMETRICVIEWMODULE_REPORTSTARTMODULE_OFFSET UNITYSDK_OFFSET(0xBD5AAC0)
-#define RPG_CLIENT_ISOMETRICVIEWMODULE_STARTMODULE_OFFSET UNITYSDK_OFFSET(0xBD59B40)
-#define RPG_CLIENT_ISOMETRICVIEWMODULE_STARTSWIPECAMERA_OFFSET UNITYSDK_OFFSET(0xBD5AE50)
-#define RPG_CLIENT_ISOMETRICVIEWMODULE_STARTZOOMFOLLOW_OFFSET UNITYSDK_OFFSET(0xBD5B240)
-#define RPG_CLIENT_ISOMETRICVIEWMODULE_STOPSWIPECAMERA_OFFSET UNITYSDK_OFFSET(0xBD5AFE0)
-#define RPG_CLIENT_ISOMETRICVIEWMODULE_SWITCHISOMETRICVIEW_OFFSET UNITYSDK_OFFSET(0xBD5B060)
-#define RPG_CLIENT_ISOMETRICVIEWMODULE_TICK_OFFSET UNITYSDK_OFFSET(0xBD57810)
-#define RPG_CLIENT_ISOMETRICVIEWMODULE__ADDSHADOW_OFFSET UNITYSDK_OFFSET(0xBD58EA0)
-#define RPG_CLIENT_ISOMETRICVIEWMODULE__CCTOR_OFFSET UNITYSDK_OFFSET(0xBD5B440)
-#define RPG_CLIENT_ISOMETRICVIEWMODULE__CTOR_OFFSET UNITYSDK_OFFSET(0xBD5B310)
-#define RPG_CLIENT_ISOMETRICVIEWMODULE__ONADVENTUREPHASEEND_OFFSET UNITYSDK_OFFSET(0xBD5B290)
-#define RPG_CLIENT_ISOMETRICVIEWMODULE__REMOVESHADOW_OFFSET UNITYSDK_OFFSET(0xBD58E30)
-#define RPG_CLIENT_ISOMETRICVIEWMODULE__UPDATEFOLLOWANCHOR_OFFSET UNITYSDK_OFFSET(0xBD59040)
-#define RPG_CLIENT_ISOMETRICVIEWMODULE__UPDATESHADOWPOSITION_OFFSET UNITYSDK_OFFSET(0xBD58FD0)
-#define RPG_CLIENT_ISOMETRICVIEWMODULE___IFIXBASEPROXY_ONINIT_OFFSET UNITYSDK_OFFSET(0xBD5B490)
-#define RPG_CLIENT_ISOMETRICVIEWMODULE___IFIXBASEPROXY_ONUNINIT_OFFSET UNITYSDK_OFFSET(0xBD5B4F0)
-#define RPG_CLIENT_ISOMETRICVIEWMODULE___IFIXBASEPROXY_TICK_OFFSET UNITYSDK_OFFSET(0xBD5B550)
+#define RPG_CLIENT_ISOMETRICVIEWMODULE_ADDCONNECTORS_OFFSET UNITYSDK_OFFSET(0x16C51FC0)
+#define RPG_CLIENT_ISOMETRICVIEWMODULE_ENABLETELEPORT_OFFSET UNITYSDK_OFFSET(0x16C52580)
+#define RPG_CLIENT_ISOMETRICVIEWMODULE_ENDMODULE_OFFSET UNITYSDK_OFFSET(0x16C4FA20)
+#define RPG_CLIENT_ISOMETRICVIEWMODULE_ENDZOOMFOLLOW_OFFSET UNITYSDK_OFFSET(0x16C52F20)
+#define RPG_CLIENT_ISOMETRICVIEWMODULE_GET_ISACTIVE_OFFSET UNITYSDK_OFFSET(0x16C53DE0)
+#define RPG_CLIENT_ISOMETRICVIEWMODULE_GET_NEEDTICK_OFFSET UNITYSDK_OFFSET(0x16C53DD0)
+#define RPG_CLIENT_ISOMETRICVIEWMODULE_GET_STARTTIME_OFFSET UNITYSDK_OFFSET(0x16C53DF0)
+#define RPG_CLIENT_ISOMETRICVIEWMODULE_ONINIT_OFFSET UNITYSDK_OFFSET(0x16C4F8A0)
+#define RPG_CLIENT_ISOMETRICVIEWMODULE_ONUNINIT_OFFSET UNITYSDK_OFFSET(0x16C4F960)
+#define RPG_CLIENT_ISOMETRICVIEWMODULE_OPERATEMOVEPLATFORM_OFFSET UNITYSDK_OFFSET(0x16C538B0)
+#define RPG_CLIENT_ISOMETRICVIEWMODULE_OPERATEROTATEPLATFORM_OFFSET UNITYSDK_OFFSET(0x16C53900)
+#define RPG_CLIENT_ISOMETRICVIEWMODULE_REPORTENDMODULE_OFFSET UNITYSDK_OFFSET(0x16C53080)
+#define RPG_CLIENT_ISOMETRICVIEWMODULE_REPORTSTARTMODULE_OFFSET UNITYSDK_OFFSET(0x16C535C0)
+#define RPG_CLIENT_ISOMETRICVIEWMODULE_STARTMODULE_OFFSET UNITYSDK_OFFSET(0x16C525D0)
+#define RPG_CLIENT_ISOMETRICVIEWMODULE_STARTSWIPECAMERA_OFFSET UNITYSDK_OFFSET(0x16C53950)
+#define RPG_CLIENT_ISOMETRICVIEWMODULE_STARTZOOMFOLLOW_OFFSET UNITYSDK_OFFSET(0x16C53D30)
+#define RPG_CLIENT_ISOMETRICVIEWMODULE_STOPSWIPECAMERA_OFFSET UNITYSDK_OFFSET(0x16C53AE0)
+#define RPG_CLIENT_ISOMETRICVIEWMODULE_SWITCHISOMETRICVIEW_OFFSET UNITYSDK_OFFSET(0x16C53B60)
+#define RPG_CLIENT_ISOMETRICVIEWMODULE_TICK_OFFSET UNITYSDK_OFFSET(0x16C502C0)
+#define RPG_CLIENT_ISOMETRICVIEWMODULE__ADDSHADOW_OFFSET UNITYSDK_OFFSET(0x16C51990)
+#define RPG_CLIENT_ISOMETRICVIEWMODULE__CCTOR_OFFSET UNITYSDK_OFFSET(0x16C53F30)
+#define RPG_CLIENT_ISOMETRICVIEWMODULE__CTOR_OFFSET UNITYSDK_OFFSET(0x16C53E00)
+#define RPG_CLIENT_ISOMETRICVIEWMODULE__ONADVENTUREPHASEEND_OFFSET UNITYSDK_OFFSET(0x16C53D80)
+#define RPG_CLIENT_ISOMETRICVIEWMODULE__REMOVESHADOW_OFFSET UNITYSDK_OFFSET(0x16C51920)
+#define RPG_CLIENT_ISOMETRICVIEWMODULE__UPDATEFOLLOWANCHOR_OFFSET UNITYSDK_OFFSET(0x16C51B30)
+#define RPG_CLIENT_ISOMETRICVIEWMODULE__UPDATESHADOWPOSITION_OFFSET UNITYSDK_OFFSET(0x16C51AC0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int IsometricViewModule_TypeDefinitionIndex = 56237;
+	inline static constexpr unsigned int IsometricViewModule_TypeDefinitionIndex = 57476;
 
-	class IsometricViewModule : public ::Class_1_47C4886CB6C61234
+	class IsometricViewModule : public ::Class_1_5BBB2050B3F3F683
 	{
 	public:
 		static ::System::String** StaticGet_GAME_KEY()
 		{
-			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(IsometricViewModule_TypeDefinitionIndex)->GetStaticField(0x45820);
+			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(IsometricViewModule_TypeDefinitionIndex)->GetStaticField(0x344B0);
 		}
 		static ::System::Single* StaticGet_FloatEpsilon()
 		{
-			return (::System::Single*)Il2CppClass::FromTypeDefinitionIndex(IsometricViewModule_TypeDefinitionIndex)->GetStaticField(0xC800);
+			return (::System::Single*)Il2CppClass::FromTypeDefinitionIndex(IsometricViewModule_TypeDefinitionIndex)->GetStaticField(0x89C0);
 		}
-		::System::Collections::Generic::List_1<::RPG::Client::Prop::IsometricViewPuzzleItem*>* _Items; // 0x20
-		::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>* _ExtraData; // 0x28
-		::RPG::GameCore::AnchorInfo* _OriginAnchor; // 0x30
-		::RPG::GameCore::AnchorInfo* _FollowAnchor; // 0x38
+		::System::Collections::Generic::Dictionary_2<::UnityEngine::BoxCollider*, ::RPG::Client::Prop::IsometricViewPuzzleItem*>* _Colliders; // 0x20
+		::System::Collections::Generic::List_1<::RPG::Client::Prop::IsometricViewPuzzleItem*>* _Items; // 0x28
+		::Class_1_65282CEDEA364C3F* _SwipeCamera; // 0x30
+		::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>* _ExtraData; // 0x38
 		::RPG::GameCore::GameEntity* _OwnerProp; // 0x40
-		::RPG::GameCore::GameEntity* _Player; // 0x48
-		::Class_1_65282CEDEA364C3F* _SwipeCamera; // 0x50
-		::System::Collections::Generic::Dictionary_2<::UnityEngine::BoxCollider*, ::RPG::Client::Prop::IsometricViewPuzzleItem*>* _Colliders; // 0x58
-		::RPG::GameCore::AnchorInfo* _SwipeAnchor; // 0x60
-		::System::Int32 _LastReportEnd; // 0x68
-		::System::Single _ObserveTime; // 0x6C
-		::System::Single _MaxBorderY; // 0x70
-		::System::Single _ZoomOffsetUp; // 0x74
-		::System::Int32 _StartTime; // 0x78
-		::System::UInt32 _ObserveCounter; // 0x7C
-		::System::Single _MaxCameraSize; // 0x80
-		::System::Boolean _EnableTeleport; // 0x84
-		::System::Boolean _ZoomFollow; // 0x85
-		::System::Boolean _InTriggerRegion; // 0x86
-		::System::Boolean _ShadowActive; // 0x87
-		::System::Int32 _PositionID; // 0x88
-		::System::Int32 _CasterID; // 0x8C
-		::System::Single _MaxBorderX; // 0x90
-		::System::Boolean RecordClusterLighting; // 0x94
-		::System::Boolean _IsActive; // 0x95
-		::System::UInt32 _MoveCount; // 0x98
+		::RPG::GameCore::AnchorInfo* _SwipeAnchor; // 0x48
+		::RPG::GameCore::AnchorInfo* _OriginAnchor; // 0x50
+		::RPG::GameCore::GameEntity* _Player; // 0x58
+		::RPG::GameCore::AnchorInfo* _FollowAnchor; // 0x60
+		::System::Int32 _PositionID; // 0x68
+		::System::Int32 _StartTime; // 0x6C
+		::System::Single _ZoomOffsetLeft; // 0x70
+		::System::UInt32 _RotateCount; // 0x74
+		::System::UInt32 _MoveCount; // 0x78
+		::System::Single _MaxBorderY; // 0x7C
+		::System::Int32 _LastReportEnd; // 0x80
+		::System::Boolean _InTriggerRegion; // 0x84
+		::System::Boolean _ShadowActive; // 0x85
+		::System::Boolean RecordClusterLighting; // 0x86
+		::System::Boolean _IsActive; // 0x87
+		::System::Single _ObserveTime; // 0x88
+		::System::Single _MaxBorderX; // 0x8C
+		::System::Single _ZoomOffsetDown; // 0x90
+		::System::Single _ZoomOffsetUp; // 0x94
+		::System::Int32 _CasterID; // 0x98
 		::System::Single _ZoomOffsetRight; // 0x9C
-		::System::Single _ZoomOffsetDown; // 0xA0
-		::System::Single _ZoomOffsetLeft; // 0xA4
-		::System::UInt32 _RotateCount; // 0xA8
+		::System::Single _MaxCameraSize; // 0xA0
+		::System::Boolean _EnableTeleport; // 0xA4
+		::System::Boolean _ZoomFollow; // 0xA5
+		::System::UInt32 _ObserveCounter; // 0xA8
 
 		::System::Void _ctor()
 		{
@@ -217,21 +214,6 @@ namespace RPG::Client
 		::System::Int32 get_StartTime()
 		{
 			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ISOMETRICVIEWMODULE_GET_STARTTIME_OFFSET))(this);
-		}
-
-		::System::Void __iFixBaseProxy_OnInit()
-		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ISOMETRICVIEWMODULE___IFIXBASEPROXY_ONINIT_OFFSET))(this);
-		}
-
-		::System::Void __iFixBaseProxy_OnUninit()
-		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ISOMETRICVIEWMODULE___IFIXBASEPROXY_ONUNINIT_OFFSET))(this);
-		}
-
-		::System::Void __iFixBaseProxy_Tick(::System::Single a1)
-		{
-			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_ISOMETRICVIEWMODULE___IFIXBASEPROXY_TICK_OFFSET))(this, a1);
 		}
 	};
 }

@@ -16,25 +16,25 @@ namespace UnityEngine { class Object; }
 namespace UnityEngine { class Renderer; }
 namespace UnityEngine { class Transform; }
 
-#define CLASS_1_5DC2257AA02CFDD4_METHOD_1_006F4D5C221D8114_OFFSET UNITYSDK_OFFSET(0x138F10E0)
-#define CLASS_1_5DC2257AA02CFDD4_METHOD_1_00DD04A858E595E0_1_OFFSET UNITYSDK_OFFSET(0x138F11E0)
-#define CLASS_1_5DC2257AA02CFDD4_METHOD_1_00DD04A858E595E0_2_OFFSET UNITYSDK_OFFSET(0x138F1250)
-#define CLASS_1_5DC2257AA02CFDD4_METHOD_1_00DD04A858E595E0_OFFSET UNITYSDK_OFFSET(0x138F1160)
-#define CLASS_1_5DC2257AA02CFDD4_METHOD_1_59927E845A83721D_OFFSET UNITYSDK_OFFSET(0x138F1080)
-#define CLASS_1_5DC2257AA02CFDD4_METHOD_1_5EAAB7D28BDBDA36_OFFSET UNITYSDK_OFFSET(0x138F1770)
-#define CLASS_1_5DC2257AA02CFDD4_METHOD_1_8DFEC2596574785D_OFFSET UNITYSDK_OFFSET(0x138F12C0)
-#define CLASS_1_5DC2257AA02CFDD4_METHOD_1_B9E794E4B4438670_OFFSET UNITYSDK_OFFSET(0x138F2150)
-#define CLASS_1_5DC2257AA02CFDD4_METHOD_1_DAEC529A91997CF3_OFFSET UNITYSDK_OFFSET(0x138F1B90)
-#define CLASS_1_5DC2257AA02CFDD4__CCTOR_OFFSET UNITYSDK_OFFSET(0x138F2570)
+#define CLASS_1_5DC2257AA02CFDD4_METHOD_1_006F4D5C221D8114_OFFSET UNITYSDK_OFFSET(0x18B9B6B0)
+#define CLASS_1_5DC2257AA02CFDD4_METHOD_1_00DD04A858E595E0_1_OFFSET UNITYSDK_OFFSET(0x18B9B7B0)
+#define CLASS_1_5DC2257AA02CFDD4_METHOD_1_00DD04A858E595E0_2_OFFSET UNITYSDK_OFFSET(0x18B9B820)
+#define CLASS_1_5DC2257AA02CFDD4_METHOD_1_00DD04A858E595E0_OFFSET UNITYSDK_OFFSET(0x18B9B730)
+#define CLASS_1_5DC2257AA02CFDD4_METHOD_1_59927E845A83721D_OFFSET UNITYSDK_OFFSET(0x18B9B650)
+#define CLASS_1_5DC2257AA02CFDD4_METHOD_1_5EAAB7D28BDBDA36_OFFSET UNITYSDK_OFFSET(0x18B9BD40)
+#define CLASS_1_5DC2257AA02CFDD4_METHOD_1_67C210E5902309AD_OFFSET UNITYSDK_OFFSET(0x18B9C8A0)
+#define CLASS_1_5DC2257AA02CFDD4_METHOD_1_8DFEC2596574785D_OFFSET UNITYSDK_OFFSET(0x18B9B890)
+#define CLASS_1_5DC2257AA02CFDD4_METHOD_1_BB9B0A5B758FB8F0_OFFSET UNITYSDK_OFFSET(0x18B9C160)
+#define CLASS_1_5DC2257AA02CFDD4__CCTOR_OFFSET UNITYSDK_OFFSET(0x18B9CE80)
 
-inline static constexpr unsigned int Class_1_5DC2257AA02CFDD4_TypeDefinitionIndex = 68746;
+inline static constexpr unsigned int Class_1_5DC2257AA02CFDD4_TypeDefinitionIndex = 70246;
 
 class Class_1_5DC2257AA02CFDD4 : public ::System::Object
 {
 public:
 	static ::UnityEngine::Bounds* StaticGet_Field_1_0()
 	{
-		return (::UnityEngine::Bounds*)Il2CppClass::FromTypeDefinitionIndex(Class_1_5DC2257AA02CFDD4_TypeDefinitionIndex)->GetStaticField(0x25B0);
+		return (::UnityEngine::Bounds*)Il2CppClass::FromTypeDefinitionIndex(Class_1_5DC2257AA02CFDD4_TypeDefinitionIndex)->GetStaticField(0xE8C0);
 	}
 
 	static ::System::Void _cctor()
@@ -77,13 +77,13 @@ public:
 		return ((::RPG::Client::TAUtils::QuaternionTransform(*)(::UnityEngine::Transform*, ::UnityEngine::Transform*, ::System::Boolean))((::PBYTE)hIl2Cpp + CLASS_1_5DC2257AA02CFDD4_METHOD_1_5EAAB7D28BDBDA36_OFFSET))(a1, a2, a3);
 	}
 
-	static ::UnityEngine::Bounds Method_1_DAEC529A91997CF3(::System::Collections::Generic::IEnumerable_1<::UnityEngine::Renderer*>* a1)
+	static ::UnityEngine::Bounds Method_1_BB9B0A5B758FB8F0(::System::Collections::Generic::IEnumerable_1<::UnityEngine::Renderer*>* a1)
 	{
-		return ((::UnityEngine::Bounds(*)(::System::Collections::Generic::IEnumerable_1<::UnityEngine::Renderer*>*))((::PBYTE)hIl2Cpp + CLASS_1_5DC2257AA02CFDD4_METHOD_1_DAEC529A91997CF3_OFFSET))(a1);
+		return ((::UnityEngine::Bounds(*)(::System::Collections::Generic::IEnumerable_1<::UnityEngine::Renderer*>*))((::PBYTE)hIl2Cpp + CLASS_1_5DC2257AA02CFDD4_METHOD_1_BB9B0A5B758FB8F0_OFFSET))(a1);
 	}
 
-	static ::System::Void Method_1_B9E794E4B4438670(::System::Collections::Generic::IEnumerable_1<::UnityEngine::Renderer*>* a1, ::System::Boolean a2, ::UnityEngine::Bounds a3)
+	static ::System::Void Method_1_67C210E5902309AD(::System::Collections::Generic::IEnumerable_1<::UnityEngine::Renderer*>* a1, ::System::Boolean a2, ::UnityEngine::Bounds a3)
 	{
-		return ((::System::Void(*)(::System::Collections::Generic::IEnumerable_1<::UnityEngine::Renderer*>*, ::System::Boolean, ::UnityEngine::Bounds))((::PBYTE)hIl2Cpp + CLASS_1_5DC2257AA02CFDD4_METHOD_1_B9E794E4B4438670_OFFSET))(a1, a2, a3);
+		return ((::System::Void(*)(::System::Collections::Generic::IEnumerable_1<::UnityEngine::Renderer*>*, ::System::Boolean, ::UnityEngine::Bounds))((::PBYTE)hIl2Cpp + CLASS_1_5DC2257AA02CFDD4_METHOD_1_67C210E5902309AD_OFFSET))(a1, a2, a3);
 	}
 };

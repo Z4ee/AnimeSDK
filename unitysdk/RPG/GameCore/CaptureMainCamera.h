@@ -5,13 +5,13 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_CAPTUREMAINCAMERA_METHOD_3_25C46B96D91B52BA_OFFSET UNITYSDK_OFFSET(0x195F4840)
-#define RPG_GAMECORE_CAPTUREMAINCAMERA_METHOD_3_A20C1751DE045538_OFFSET UNITYSDK_OFFSET(0x195F47C0)
-#define RPG_GAMECORE_CAPTUREMAINCAMERA__CTOR_OFFSET UNITYSDK_OFFSET(0x195F4810)
+#define RPG_GAMECORE_CAPTUREMAINCAMERA_METHOD_3_183206C4A3540575_OFFSET UNITYSDK_OFFSET(0x1B70A9D0)
+#define RPG_GAMECORE_CAPTUREMAINCAMERA_METHOD_3_25C46B96D91B52BA_OFFSET UNITYSDK_OFFSET(0x1B70AA10)
+#define RPG_GAMECORE_CAPTUREMAINCAMERA__CTOR_OFFSET UNITYSDK_OFFSET(0x1B70AA00)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int CaptureMainCamera_TypeDefinitionIndex = 19679;
+	inline static constexpr unsigned int CaptureMainCamera_TypeDefinitionIndex = 20038;
 
 	class CaptureMainCamera : public ::RPG::GameCore::TaskConfig
 	{
@@ -24,9 +24,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CAPTUREMAINCAMERA__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_A20C1751DE045538(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::CaptureMainCamera*& a2)
+		static ::System::Void Method_3_183206C4A3540575(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::CaptureMainCamera*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::CaptureMainCamera*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CAPTUREMAINCAMERA_METHOD_3_A20C1751DE045538_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::CaptureMainCamera*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CAPTUREMAINCAMERA_METHOD_3_183206C4A3540575_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_25C46B96D91B52BA(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::CaptureMainCamera* a2)

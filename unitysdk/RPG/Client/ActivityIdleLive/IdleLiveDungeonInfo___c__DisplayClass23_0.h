@@ -2,20 +2,20 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_1_C821CB457FB5EBC6_11;
+class Class_1_A7B2F9D1AE8AB549_4;
 namespace RPG::Client::ActivityIdleLive { class IdleLiveDungeonData; }
 
-#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEDUNGEONINFO___C__DISPLAYCLASS23_0__CTOR_OFFSET UNITYSDK_OFFSET(0xB134D00)
-#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEDUNGEONINFO___C__DISPLAYCLASS23_0__UPDATE_B__0_OFFSET UNITYSDK_OFFSET(0xB1355C0)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEDUNGEONINFO___C__DISPLAYCLASS23_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1A656920)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEDUNGEONINFO___C__DISPLAYCLASS23_0__UPDATE_B__0_OFFSET UNITYSDK_OFFSET(0x1A657280)
 
 namespace RPG::Client::ActivityIdleLive
 {
-	inline static constexpr unsigned int IdleLiveDungeonInfo___c__DisplayClass23_0_TypeDefinitionIndex = 70084;
+	inline static constexpr unsigned int IdleLiveDungeonInfo___c__DisplayClass23_0_TypeDefinitionIndex = 71607;
 
 	class IdleLiveDungeonInfo___c__DisplayClass23_0 : public ::System::Object
 	{
 	public:
-		::Class_1_C821CB457FB5EBC6_11* rsp; // 0x10
+		::Class_1_A7B2F9D1AE8AB549_4* rsp; // 0x10
 
 		::System::Void _ctor()
 		{

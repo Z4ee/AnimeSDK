@@ -5,20 +5,20 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_ENDMOSTCHRONICLEPERFORMANCEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x196E7100)
-#define RPG_GAMECORE_ENDMOSTCHRONICLEPERFORMANCEROW__CTOR_OFFSET UNITYSDK_OFFSET(0x196E72E0)
+#define RPG_GAMECORE_ENDMOSTCHRONICLEPERFORMANCEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1C0500C0)
+#define RPG_GAMECORE_ENDMOSTCHRONICLEPERFORMANCEROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1C0502A0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int EndmostChroniclePerformanceRow_TypeDefinitionIndex = 13459;
+	inline static constexpr unsigned int EndmostChroniclePerformanceRow_TypeDefinitionIndex = 13607;
 
 	class EndmostChroniclePerformanceRow : public ::System::Object
 	{
 	public:
-		::System::Int32 Order; // 0x10
-		::System::UInt32 ID; // 0x14
+		::RPG::GameCore::ELevelPerformanceType Type; // 0x10
+		::System::Int32 Order; // 0x14
 		::System::UInt32 EndmostChronicleID; // 0x18
-		::RPG::GameCore::ELevelPerformanceType Type; // 0x1C
+		::System::UInt32 ID; // 0x1C
 
 		::System::Void _ctor()
 		{

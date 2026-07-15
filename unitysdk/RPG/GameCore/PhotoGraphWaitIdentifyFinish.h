@@ -6,13 +6,13 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class DynamicFloat; }
 namespace RPG::GameCore { class TargetEvaluator; }
 
-#define RPG_GAMECORE_PHOTOGRAPHWAITIDENTIFYFINISH_METHOD_3_96006D1D9952A849_OFFSET UNITYSDK_OFFSET(0x19A0AF60)
-#define RPG_GAMECORE_PHOTOGRAPHWAITIDENTIFYFINISH_METHOD_3_B8A1ED5A138787BE_OFFSET UNITYSDK_OFFSET(0x19A0AEE0)
-#define RPG_GAMECORE_PHOTOGRAPHWAITIDENTIFYFINISH__CTOR_OFFSET UNITYSDK_OFFSET(0x19A0AF30)
+#define RPG_GAMECORE_PHOTOGRAPHWAITIDENTIFYFINISH_METHOD_3_8AB88107D8557A77_OFFSET UNITYSDK_OFFSET(0x1B4C5330)
+#define RPG_GAMECORE_PHOTOGRAPHWAITIDENTIFYFINISH_METHOD_3_96006D1D9952A849_OFFSET UNITYSDK_OFFSET(0x1B4C5370)
+#define RPG_GAMECORE_PHOTOGRAPHWAITIDENTIFYFINISH__CTOR_OFFSET UNITYSDK_OFFSET(0x1B4C5360)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PhotoGraphWaitIdentifyFinish_TypeDefinitionIndex = 20444;
+	inline static constexpr unsigned int PhotoGraphWaitIdentifyFinish_TypeDefinitionIndex = 20859;
 
 	class PhotoGraphWaitIdentifyFinish : public ::RPG::GameCore::TaskConfig
 	{
@@ -29,9 +29,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PHOTOGRAPHWAITIDENTIFYFINISH__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_B8A1ED5A138787BE(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::PhotoGraphWaitIdentifyFinish*& a2)
+		static ::System::Void Method_3_8AB88107D8557A77(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::PhotoGraphWaitIdentifyFinish*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::PhotoGraphWaitIdentifyFinish*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PHOTOGRAPHWAITIDENTIFYFINISH_METHOD_3_B8A1ED5A138787BE_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::PhotoGraphWaitIdentifyFinish*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PHOTOGRAPHWAITIDENTIFYFINISH_METHOD_3_8AB88107D8557A77_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_96006D1D9952A849(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::PhotoGraphWaitIdentifyFinish* a2)

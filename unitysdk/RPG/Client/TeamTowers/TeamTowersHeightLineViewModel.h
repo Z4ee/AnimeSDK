@@ -1,0 +1,56 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+
+class Class_2_465A9E6CC2B0EF21;
+class Class_3_E7D29F43FB80184D;
+
+#define RPG_CLIENT_TEAMTOWERS_TEAMTOWERSHEIGHTLINEVIEWMODEL_GET_CURHEIGHT_OFFSET UNITYSDK_OFFSET(0x1857A350)
+#define RPG_CLIENT_TEAMTOWERS_TEAMTOWERSHEIGHTLINEVIEWMODEL_GET_TARGETHEIGHT_OFFSET UNITYSDK_OFFSET(0x1857D9C0)
+#define RPG_CLIENT_TEAMTOWERS_TEAMTOWERSHEIGHTLINEVIEWMODEL_GET__PLAYERENTITY_OFFSET UNITYSDK_OFFSET(0x1857D950)
+#define RPG_CLIENT_TEAMTOWERS_TEAMTOWERSHEIGHTLINEVIEWMODEL_ISSKILLLINE_OFFSET UNITYSDK_OFFSET(0x1857D870)
+#define RPG_CLIENT_TEAMTOWERS_TEAMTOWERSHEIGHTLINEVIEWMODEL_SET_TARGETHEIGHT_OFFSET UNITYSDK_OFFSET(0x1857D9D0)
+#define RPG_CLIENT_TEAMTOWERS_TEAMTOWERSHEIGHTLINEVIEWMODEL__CTOR_OFFSET UNITYSDK_OFFSET(0x185796B0)
+
+namespace RPG::Client::TeamTowers
+{
+	inline static constexpr unsigned int TeamTowersHeightLineViewModel_TypeDefinitionIndex = 75094;
+
+	class TeamTowersHeightLineViewModel : public ::System::Object
+	{
+	public:
+		::Class_3_E7D29F43FB80184D* _OwnerGame; // 0x10
+		::System::UInt32 _TargetHeight_k__BackingField; // 0x18
+		::System::Boolean _IsLocalPlayer; // 0x1C
+
+		::System::Void _ctor(::System::Boolean a1, ::Class_3_E7D29F43FB80184D* a2)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Boolean, ::Class_3_E7D29F43FB80184D*))((::PBYTE)hIl2Cpp + RPG_CLIENT_TEAMTOWERS_TEAMTOWERSHEIGHTLINEVIEWMODEL__CTOR_OFFSET))(this, a1, a2);
+		}
+
+		::System::Boolean IsSkillLine()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_TEAMTOWERS_TEAMTOWERSHEIGHTLINEVIEWMODEL_ISSKILLLINE_OFFSET))(this);
+		}
+
+		::System::UInt32 get_CurHeight()
+		{
+			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_TEAMTOWERS_TEAMTOWERSHEIGHTLINEVIEWMODEL_GET_CURHEIGHT_OFFSET))(this);
+		}
+
+		::System::UInt32 get_TargetHeight()
+		{
+			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_TEAMTOWERS_TEAMTOWERSHEIGHTLINEVIEWMODEL_GET_TARGETHEIGHT_OFFSET))(this);
+		}
+
+		::System::Void set_TargetHeight(::System::UInt32 a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_TEAMTOWERS_TEAMTOWERSHEIGHTLINEVIEWMODEL_SET_TARGETHEIGHT_OFFSET))(this, a1);
+		}
+
+		::Class_2_465A9E6CC2B0EF21* get__PlayerEntity()
+		{
+			return ((::Class_2_465A9E6CC2B0EF21*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_TEAMTOWERS_TEAMTOWERSHEIGHTLINEVIEWMODEL_GET__PLAYERENTITY_OFFSET))(this);
+		}
+	};
+}

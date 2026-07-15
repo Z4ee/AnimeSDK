@@ -2,7 +2,7 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Attribute.h"
 
-#define SYSTEM_SECURITY_SECURITYCRITICALATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x185D0FA0)
+#define SYSTEM_SECURITY_SECURITYCRITICALATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x150B84E0)
 
 namespace System::Security
 {

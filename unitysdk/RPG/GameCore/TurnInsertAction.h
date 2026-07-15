@@ -1,5 +1,6 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/RPG/GameCore/BoolEx.h"
 #include "unitysdk/RPG/GameCore/ControlSkillType.h"
 #include "unitysdk/RPG/GameCore/ModifierBehaviorFlag.h"
 #include "unitysdk/RPG/GameCore/TaskConfig.h"
@@ -15,13 +16,13 @@ namespace RPG::GameCore { class TurnInsertActionUIConfig; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_TURNINSERTACTION_METHOD_3_8B92A1733C19D2D7_OFFSET UNITYSDK_OFFSET(0x19E24CB0)
-#define RPG_GAMECORE_TURNINSERTACTION_METHOD_3_9A8E346BF3212BB1_OFFSET UNITYSDK_OFFSET(0x19E24DB0)
-#define RPG_GAMECORE_TURNINSERTACTION__CTOR_OFFSET UNITYSDK_OFFSET(0x19E24CF0)
+#define RPG_GAMECORE_TURNINSERTACTION_METHOD_3_21B20F0D6FF94A8C_OFFSET UNITYSDK_OFFSET(0x1B066710)
+#define RPG_GAMECORE_TURNINSERTACTION_METHOD_3_9A8E346BF3212BB1_OFFSET UNITYSDK_OFFSET(0x1B066890)
+#define RPG_GAMECORE_TURNINSERTACTION__CTOR_OFFSET UNITYSDK_OFFSET(0x1B0667E0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TurnInsertAction_TypeDefinitionIndex = 21422;
+	inline static constexpr unsigned int TurnInsertAction_TypeDefinitionIndex = 21841;
 
 	class TurnInsertAction : public ::RPG::GameCore::TaskConfig
 	{
@@ -48,13 +49,14 @@ namespace RPG::GameCore
 		::System::Boolean CanRunAfterFightFinish; // 0x88
 		::Il2CppArray<::RPG::GameCore::TaskConfig*>* OnInsertAbort; // 0x90
 		::System::Boolean CopyAbortContext; // 0x98
-		::RPG::GameCore::DynamicString* CustomTag; // 0xA0
+		::Il2CppArray<::RPG::GameCore::DynamicString*>* CustomTags; // 0xA0
 		::System::Boolean IgnoreBPDec; // 0xA8
 		::System::Boolean IgnoreSPDec; // 0xA9
 		::RPG::GameCore::DynamicFloat* OverrideElationPoint; // 0xB0
 		::System::Boolean FollowSameTagNormalAction; // 0xB8
 		::RPG::GameCore::TurnInsertActionUIConfig* UIConfig; // 0xC0
 		::System::Boolean IgnoreUltraButtonEffect; // 0xC8
+		::RPG::GameCore::BoolEx OverrideCutIn; // 0xCC
 		::Class_2_68C34B5C1C40C2FF* PreCheck; // 0xD0
 		::RPG::GameCore::PredicateConfig* ActivePredicate; // 0xD8
 		::System::String* PendingInsertAbilityPriority; // 0xE0
@@ -64,9 +66,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TURNINSERTACTION__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_8B92A1733C19D2D7(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::TurnInsertAction*& a2)
+		static ::System::Void Method_3_21B20F0D6FF94A8C(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::TurnInsertAction*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::TurnInsertAction*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TURNINSERTACTION_METHOD_3_8B92A1733C19D2D7_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::TurnInsertAction*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TURNINSERTACTION_METHOD_3_21B20F0D6FF94A8C_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_9A8E346BF3212BB1(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::TurnInsertAction* a2)

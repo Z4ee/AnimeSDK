@@ -6,22 +6,22 @@
 namespace RPG::GameCore { class BattleTargetConfigRow; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define RPG_CLIENT_CHALLENGEPEAKTARGET_CREATE_OFFSET UNITYSDK_OFFSET(0xB55DEC0)
-#define RPG_CLIENT_CHALLENGEPEAKTARGET_GET_ID_OFFSET UNITYSDK_OFFSET(0xB55E080)
-#define RPG_CLIENT_CHALLENGEPEAKTARGET_GET_ISPASSED_OFFSET UNITYSDK_OFFSET(0xB55E180)
-#define RPG_CLIENT_CHALLENGEPEAKTARGET_GET_TARGETNAME_OFFSET UNITYSDK_OFFSET(0xB572D00)
-#define RPG_CLIENT_CHALLENGEPEAKTARGET_GET_TARGETPARAM_OFFSET UNITYSDK_OFFSET(0xB572D30)
-#define RPG_CLIENT_CHALLENGEPEAKTARGET__CTOR_OFFSET UNITYSDK_OFFSET(0xB572D50)
+#define RPG_CLIENT_CHALLENGEPEAKTARGET_CREATE_OFFSET UNITYSDK_OFFSET(0x191DC050)
+#define RPG_CLIENT_CHALLENGEPEAKTARGET_GET_ID_OFFSET UNITYSDK_OFFSET(0x191DC250)
+#define RPG_CLIENT_CHALLENGEPEAKTARGET_GET_ISPASSED_OFFSET UNITYSDK_OFFSET(0x191DC320)
+#define RPG_CLIENT_CHALLENGEPEAKTARGET_GET_TARGETNAME_OFFSET UNITYSDK_OFFSET(0x191F2950)
+#define RPG_CLIENT_CHALLENGEPEAKTARGET_GET_TARGETPARAM_OFFSET UNITYSDK_OFFSET(0x191F29C0)
+#define RPG_CLIENT_CHALLENGEPEAKTARGET__CTOR_OFFSET UNITYSDK_OFFSET(0x191F2A10)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ChallengePeakTarget_TypeDefinitionIndex = 59135;
+	inline static constexpr unsigned int ChallengePeakTarget_TypeDefinitionIndex = 60406;
 
 	class ChallengePeakTarget : public ::System::Object
 	{
 	public:
-		::System::Func_2<::System::UInt32, ::System::Boolean>* _CheckIsPassed; // 0x10
-		::RPG::GameCore::BattleTargetConfigRow* _Meta; // 0x18
+		::RPG::GameCore::BattleTargetConfigRow* _Meta; // 0x10
+		::System::Func_2<::System::UInt32, ::System::Boolean>* _CheckIsPassed; // 0x18
 
 		::System::Void _ctor(::RPG::GameCore::BattleTargetConfigRow* a1, ::System::Func_2<::System::UInt32, ::System::Boolean>* a2)
 		{

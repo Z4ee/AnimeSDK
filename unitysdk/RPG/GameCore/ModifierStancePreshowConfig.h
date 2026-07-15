@@ -9,12 +9,12 @@ namespace RPG::GameCore { class AttackDamageTypeConfig; }
 namespace RPG::GameCore { class DynamicFloat; }
 namespace RPG::GameCore { class PredicateConfig; }
 
-#define RPG_GAMECORE_MODIFIERSTANCEPRESHOWCONFIG_METHOD_2_FF40999DEA72A6DE_OFFSET UNITYSDK_OFFSET(0x1994D700)
-#define RPG_GAMECORE_MODIFIERSTANCEPRESHOWCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1994DBE0)
+#define RPG_GAMECORE_MODIFIERSTANCEPRESHOWCONFIG_METHOD_2_FF40999DEA72A6DE_OFFSET UNITYSDK_OFFSET(0x1AF72640)
+#define RPG_GAMECORE_MODIFIERSTANCEPRESHOWCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1AF72B20)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ModifierStancePreshowConfig_TypeDefinitionIndex = 17282;
+	inline static constexpr unsigned int ModifierStancePreshowConfig_TypeDefinitionIndex = 17453;
 
 	class ModifierStancePreshowConfig : public ::RPG::GameCore::JsonConfig
 	{

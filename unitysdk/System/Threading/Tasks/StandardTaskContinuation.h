@@ -6,8 +6,8 @@
 namespace System::Threading::Tasks { class Task; }
 namespace System::Threading::Tasks { class TaskScheduler; }
 
-#define SYSTEM_THREADING_TASKS_STANDARDTASKCONTINUATION_RUN_OFFSET UNITYSDK_OFFSET(0x18622ED0)
-#define SYSTEM_THREADING_TASKS_STANDARDTASKCONTINUATION__CTOR_OFFSET UNITYSDK_OFFSET(0x18622E60)
+#define SYSTEM_THREADING_TASKS_STANDARDTASKCONTINUATION_RUN_OFFSET UNITYSDK_OFFSET(0x1A727E20)
+#define SYSTEM_THREADING_TASKS_STANDARDTASKCONTINUATION__CTOR_OFFSET UNITYSDK_OFFSET(0x1A727B20)
 
 namespace System::Threading::Tasks
 {
@@ -16,8 +16,8 @@ namespace System::Threading::Tasks
 	class StandardTaskContinuation : public ::System::Threading::Tasks::TaskContinuation
 	{
 	public:
-		::System::Threading::Tasks::TaskScheduler* m_taskScheduler; // 0x10
-		::System::Threading::Tasks::Task* m_task; // 0x18
+		::System::Threading::Tasks::Task* m_task; // 0x10
+		::System::Threading::Tasks::TaskScheduler* m_taskScheduler; // 0x18
 		::System::Threading::Tasks::TaskContinuationOptions m_options; // 0x20
 
 		::System::Void _ctor(::System::Threading::Tasks::Task* a1, ::System::Threading::Tasks::TaskContinuationOptions a2, ::System::Threading::Tasks::TaskScheduler* a3)

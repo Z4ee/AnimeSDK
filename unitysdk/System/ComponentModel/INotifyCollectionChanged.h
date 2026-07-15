@@ -3,7 +3,7 @@
 
 namespace System::ComponentModel
 {
-	inline static constexpr unsigned int INotifyCollectionChanged_TypeDefinitionIndex = 9222;
+	inline static constexpr unsigned int INotifyCollectionChanged_TypeDefinitionIndex = 9234;
 
 	class INotifyCollectionChanged
 	{

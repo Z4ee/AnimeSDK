@@ -7,27 +7,27 @@
 class Class_1_40CD5CE8474BAA94;
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_1_40CD5CE8474BAA94__ROLLDICE_PLACEHOLDSTATEDICE_D__24_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x13A3CCE0)
-#define CLASS_1_40CD5CE8474BAA94__ROLLDICE_PLACEHOLDSTATEDICE_D__24_SYSTEM_COLLECTIONS_GENERIC_IENUMERATOR_SYSTEM_OBJECT__GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x13A3DD30)
-#define CLASS_1_40CD5CE8474BAA94__ROLLDICE_PLACEHOLDSTATEDICE_D__24_SYSTEM_COLLECTIONS_IENUMERATOR_GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x13A3DD90)
-#define CLASS_1_40CD5CE8474BAA94__ROLLDICE_PLACEHOLDSTATEDICE_D__24_SYSTEM_COLLECTIONS_IENUMERATOR_RESET_OFFSET UNITYSDK_OFFSET(0x13A3DD40)
-#define CLASS_1_40CD5CE8474BAA94__ROLLDICE_PLACEHOLDSTATEDICE_D__24_SYSTEM_IDISPOSABLE_DISPOSE_OFFSET UNITYSDK_OFFSET(0x13A3CCC0)
-#define CLASS_1_40CD5CE8474BAA94__ROLLDICE_PLACEHOLDSTATEDICE_D__24__CTOR_OFFSET UNITYSDK_OFFSET(0x13A31D00)
+#define CLASS_1_40CD5CE8474BAA94__ROLLDICE_PLACEHOLDSTATEDICE_D__24_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x16524520)
+#define CLASS_1_40CD5CE8474BAA94__ROLLDICE_PLACEHOLDSTATEDICE_D__24_SYSTEM_COLLECTIONS_GENERIC_IENUMERATOR_SYSTEM_OBJECT__GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x16525570)
+#define CLASS_1_40CD5CE8474BAA94__ROLLDICE_PLACEHOLDSTATEDICE_D__24_SYSTEM_COLLECTIONS_IENUMERATOR_GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x165255D0)
+#define CLASS_1_40CD5CE8474BAA94__ROLLDICE_PLACEHOLDSTATEDICE_D__24_SYSTEM_COLLECTIONS_IENUMERATOR_RESET_OFFSET UNITYSDK_OFFSET(0x16525580)
+#define CLASS_1_40CD5CE8474BAA94__ROLLDICE_PLACEHOLDSTATEDICE_D__24_SYSTEM_IDISPOSABLE_DISPOSE_OFFSET UNITYSDK_OFFSET(0x16524500)
+#define CLASS_1_40CD5CE8474BAA94__ROLLDICE_PLACEHOLDSTATEDICE_D__24__CTOR_OFFSET UNITYSDK_OFFSET(0x165195E0)
 
-inline static constexpr unsigned int Class_1_40CD5CE8474BAA94__RollDice_PlaceHoldStateDice_d__24_TypeDefinitionIndex = 56383;
+inline static constexpr unsigned int Class_1_40CD5CE8474BAA94__RollDice_PlaceHoldStateDice_d__24_TypeDefinitionIndex = 57622;
 
 class Class_1_40CD5CE8474BAA94__RollDice_PlaceHoldStateDice_d__24 : public ::System::Object
 {
 public:
-	::System::Collections::Generic::List_1<::UnityEngine::Quaternion>* _targetRotations_5__5; // 0x10
-	::System::Collections::Generic::List_1<::UnityEngine::Quaternion>* _originRotations_5__4; // 0x18
-	::System::Collections::Generic::List_1<::UnityEngine::Vector3>* _originPositions_5__2; // 0x20
-	::Class_1_40CD5CE8474BAA94* __4__this; // 0x28
-	::System::Object* __2__current; // 0x30
+	::System::Object* __2__current; // 0x10
+	::System::Collections::Generic::List_1<::UnityEngine::Quaternion>* _targetRotations_5__5; // 0x18
+	::Class_1_40CD5CE8474BAA94* __4__this; // 0x20
+	::System::Collections::Generic::List_1<::UnityEngine::Vector3>* _originPositions_5__2; // 0x28
+	::System::Collections::Generic::List_1<::UnityEngine::Quaternion>* _originRotations_5__4; // 0x30
 	::System::Collections::Generic::List_1<::UnityEngine::Vector3>* _targetPositions_5__3; // 0x38
 	::System::Int32 __1__state; // 0x40
-	::System::Boolean forceRefresh; // 0x44
-	::System::Single _ratio_5__6; // 0x48
+	::System::Single _ratio_5__6; // 0x44
+	::System::Boolean forceRefresh; // 0x48
 
 	::System::Void _ctor(::System::Int32 a1)
 	{

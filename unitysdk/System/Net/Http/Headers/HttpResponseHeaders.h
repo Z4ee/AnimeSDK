@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Net/Http/Headers/HttpHeaders.h"
 
-#define SYSTEM_NET_HTTP_HEADERS_HTTPRESPONSEHEADERS__CTOR_OFFSET UNITYSDK_OFFSET(0x1ADDA4A0)
+#define SYSTEM_NET_HTTP_HEADERS_HTTPRESPONSEHEADERS__CTOR_OFFSET UNITYSDK_OFFSET(0x1CA99A50)
 
 namespace System::Net::Http::Headers
 {
-	inline static constexpr unsigned int HttpResponseHeaders_TypeDefinitionIndex = 3786;
+	inline static constexpr unsigned int HttpResponseHeaders_TypeDefinitionIndex = 3790;
 
 	class HttpResponseHeaders : public ::System::Net::Http::Headers::HttpHeaders
 	{

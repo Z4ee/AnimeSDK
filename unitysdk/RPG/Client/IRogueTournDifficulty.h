@@ -5,7 +5,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int IRogueTournDifficulty_TypeDefinitionIndex = 63212;
+	inline static constexpr unsigned int IRogueTournDifficulty_TypeDefinitionIndex = 64579;
 
 	class IRogueTournDifficulty
 	{

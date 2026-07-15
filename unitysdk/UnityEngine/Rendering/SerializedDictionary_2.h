@@ -6,7 +6,7 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace UnityEngine::Rendering
 {
-	inline static constexpr unsigned int SerializedDictionary_2_TypeDefinitionIndex = 33704;
+	inline static constexpr unsigned int SerializedDictionary_2_TypeDefinitionIndex = 34075;
 
 	template <typename K, typename V>
 	class SerializedDictionary_2 : public ::System::Collections::Generic::Dictionary_2<K, V>

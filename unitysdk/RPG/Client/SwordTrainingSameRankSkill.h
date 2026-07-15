@@ -5,11 +5,11 @@
 namespace RPG::Client { class SwordTrainingSkillData; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_SWORDTRAININGSAMERANKSKILL__CTOR_OFFSET UNITYSDK_OFFSET(0x143D20)
+#define RPG_CLIENT_SWORDTRAININGSAMERANKSKILL__CTOR_OFFSET UNITYSDK_OFFSET(0x39E8200)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int SwordTrainingSameRankSkill_TypeDefinitionIndex = 57959;
+	inline static constexpr unsigned int SwordTrainingSameRankSkill_TypeDefinitionIndex = 59225;
 
 	struct alignas(8) SwordTrainingSameRankSkill
 	{

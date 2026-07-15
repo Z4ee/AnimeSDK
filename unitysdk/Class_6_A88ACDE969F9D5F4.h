@@ -1,0 +1,48 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/Class_5_4C504FC16936A602.h"
+#include "unitysdk/RPG/Client/LittleGame/Move/MoveState.h"
+#include "unitysdk/Struct_2_F31A7EC67A3AEEF7.h"
+
+#define CLASS_6_A88ACDE969F9D5F4_METHOD_6_41EFED9BE418BD0C_OFFSET UNITYSDK_OFFSET(0x14A1AF90)
+#define CLASS_6_A88ACDE969F9D5F4_METHOD_6_458DAEAB6170C584_OFFSET UNITYSDK_OFFSET(0x14A1AFF0)
+#define CLASS_6_A88ACDE969F9D5F4_METHOD_6_D64FD9A228A1C4E0_OFFSET UNITYSDK_OFFSET(0x14A1AF20)
+#define CLASS_6_A88ACDE969F9D5F4_METHOD_6_E3DE31A03057E055_OFFSET UNITYSDK_OFFSET(0x14A1B0B0)
+#define CLASS_6_A88ACDE969F9D5F4_METHOD_6_F48B6E9D83D3B226_OFFSET UNITYSDK_OFFSET(0x14A1AF10)
+#define CLASS_6_A88ACDE969F9D5F4__CTOR_OFFSET UNITYSDK_OFFSET(0x14A1B1E0)
+
+inline static constexpr unsigned int Class_6_A88ACDE969F9D5F4_TypeDefinitionIndex = 73037;
+
+class Class_6_A88ACDE969F9D5F4 : public ::Class_5_4C504FC16936A602
+{
+public:
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_6_A88ACDE969F9D5F4__CTOR_OFFSET))(this);
+	}
+
+	::RPG::Client::LittleGame::Move::MoveState Method_6_F48B6E9D83D3B226()
+	{
+		return ((::RPG::Client::LittleGame::Move::MoveState(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_6_A88ACDE969F9D5F4_METHOD_6_F48B6E9D83D3B226_OFFSET))(this);
+	}
+
+	::System::Single Method_6_D64FD9A228A1C4E0()
+	{
+		return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_6_A88ACDE969F9D5F4_METHOD_6_D64FD9A228A1C4E0_OFFSET))(this);
+	}
+
+	::System::Void Method_6_41EFED9BE418BD0C(::Struct_2_F31A7EC67A3AEEF7& a1, ::RPG::Client::LittleGame::Move::MoveState a2)
+	{
+		return ((::System::Void(*)(::PVOID, ::Struct_2_F31A7EC67A3AEEF7&, ::RPG::Client::LittleGame::Move::MoveState))((::PBYTE)hIl2Cpp + CLASS_6_A88ACDE969F9D5F4_METHOD_6_41EFED9BE418BD0C_OFFSET))(this, a1, a2);
+	}
+
+	::System::Void Method_6_458DAEAB6170C584()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_6_A88ACDE969F9D5F4_METHOD_6_458DAEAB6170C584_OFFSET))(this);
+	}
+
+	::System::Void Method_6_E3DE31A03057E055()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_6_A88ACDE969F9D5F4_METHOD_6_E3DE31A03057E055_OFFSET))(this);
+	}
+};

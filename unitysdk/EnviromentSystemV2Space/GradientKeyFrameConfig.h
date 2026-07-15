@@ -4,11 +4,11 @@
 
 namespace UnityEngine { class Gradient; }
 
-#define ENVIROMENTSYSTEMV2SPACE_GRADIENTKEYFRAMECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x135ED9B0)
+#define ENVIROMENTSYSTEMV2SPACE_GRADIENTKEYFRAMECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0xF1F9DE0)
 
 namespace EnviromentSystemV2Space
 {
-	inline static constexpr unsigned int GradientKeyFrameConfig_TypeDefinitionIndex = 46660;
+	inline static constexpr unsigned int GradientKeyFrameConfig_TypeDefinitionIndex = 47625;
 
 	class GradientKeyFrameConfig : public ::System::Object
 	{

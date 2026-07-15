@@ -5,7 +5,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FixPoint_FixPointParsePartData_TypeDefinitionIndex = 9590;
+	inline static constexpr unsigned int FixPoint_FixPointParsePartData_TypeDefinitionIndex = 9603;
 
 	struct alignas(8) FixPoint_FixPointParsePartData
 	{

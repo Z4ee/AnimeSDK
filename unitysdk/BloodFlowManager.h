@@ -12,12 +12,12 @@ namespace UnityEngine { class Material; }
 namespace UnityEngine { class MaterialPropertyBlock; }
 namespace UnityEngine { class Mesh; }
 
-#define BLOODFLOWMANAGER_AWAKE_OFFSET UNITYSDK_OFFSET(0xB0399C0)
-#define BLOODFLOWMANAGER_ONDESTROY_OFFSET UNITYSDK_OFFSET(0xB039AA0)
-#define BLOODFLOWMANAGER_UPDATE_OFFSET UNITYSDK_OFFSET(0xB039A50)
-#define BLOODFLOWMANAGER__CTOR_OFFSET UNITYSDK_OFFSET(0xB039B50)
+#define BLOODFLOWMANAGER_AWAKE_OFFSET UNITYSDK_OFFSET(0x18BA7460)
+#define BLOODFLOWMANAGER_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x18BA7540)
+#define BLOODFLOWMANAGER_UPDATE_OFFSET UNITYSDK_OFFSET(0x18BA74F0)
+#define BLOODFLOWMANAGER__CTOR_OFFSET UNITYSDK_OFFSET(0x18BA75F0)
 
-inline static constexpr unsigned int BloodFlowManager_TypeDefinitionIndex = 44745;
+inline static constexpr unsigned int BloodFlowManager_TypeDefinitionIndex = 45660;
 
 class BloodFlowManager : public ::UnityEngine::MonoBehaviour
 {

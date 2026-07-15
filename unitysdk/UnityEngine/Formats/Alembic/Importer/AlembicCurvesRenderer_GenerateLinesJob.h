@@ -5,11 +5,11 @@
 #include "unitysdk/UnityEngine/Vector2.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-#define UNITYENGINE_FORMATS_ALEMBIC_IMPORTER_ALEMBICCURVESRENDERER_GENERATELINESJOB_EXECUTE_OFFSET UNITYSDK_OFFSET(0x3872750)
+#define UNITYENGINE_FORMATS_ALEMBIC_IMPORTER_ALEMBICCURVESRENDERER_GENERATELINESJOB_EXECUTE_OFFSET UNITYSDK_OFFSET(0x3A1FDD0)
 
 namespace UnityEngine::Formats::Alembic::Importer
 {
-	inline static constexpr unsigned int AlembicCurvesRenderer_GenerateLinesJob_TypeDefinitionIndex = 41699;
+	inline static constexpr unsigned int AlembicCurvesRenderer_GenerateLinesJob_TypeDefinitionIndex = 42559;
 
 	struct alignas(8) AlembicCurvesRenderer_GenerateLinesJob
 	{

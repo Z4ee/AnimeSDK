@@ -5,22 +5,22 @@
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MIHOYO_SDK_PLUGINUI_JOYPADMANAGERINTERNAL_INSTANCE_OFFSET UNITYSDK_OFFSET(0xA1EA2C0)
-#define MIHOYO_SDK_PLUGINUI_JOYPADMANAGERINTERNAL_ISTOP_OFFSET UNITYSDK_OFFSET(0xA1EAB40)
-#define MIHOYO_SDK_PLUGINUI_JOYPADMANAGERINTERNAL_POPUI_OFFSET UNITYSDK_OFFSET(0xA1EA7A0)
-#define MIHOYO_SDK_PLUGINUI_JOYPADMANAGERINTERNAL_PUSHUI_OFFSET UNITYSDK_OFFSET(0xA1EA360)
-#define MIHOYO_SDK_PLUGINUI_JOYPADMANAGERINTERNAL__CTOR_OFFSET UNITYSDK_OFFSET(0xA1F4160)
+#define MIHOYO_SDK_PLUGINUI_JOYPADMANAGERINTERNAL_INSTANCE_OFFSET UNITYSDK_OFFSET(0x1AB8DF30)
+#define MIHOYO_SDK_PLUGINUI_JOYPADMANAGERINTERNAL_ISTOP_OFFSET UNITYSDK_OFFSET(0x1AB938F0)
+#define MIHOYO_SDK_PLUGINUI_JOYPADMANAGERINTERNAL_POPUI_OFFSET UNITYSDK_OFFSET(0x1AB8E2E0)
+#define MIHOYO_SDK_PLUGINUI_JOYPADMANAGERINTERNAL_PUSHUI_OFFSET UNITYSDK_OFFSET(0x1AB8DFD0)
+#define MIHOYO_SDK_PLUGINUI_JOYPADMANAGERINTERNAL__CTOR_OFFSET UNITYSDK_OFFSET(0x1AB9D200)
 
 namespace MiHoYo::SDK::PluginUI
 {
-	inline static constexpr unsigned int JoypadManagerInternal_TypeDefinitionIndex = 44135;
+	inline static constexpr unsigned int JoypadManagerInternal_TypeDefinitionIndex = 45005;
 
 	class JoypadManagerInternal : public ::System::Object
 	{
 	public:
 		static ::MiHoYo::SDK::PluginUI::JoypadManagerInternal** StaticGet__instance()
 		{
-			return (::MiHoYo::SDK::PluginUI::JoypadManagerInternal**)Il2CppClass::FromTypeDefinitionIndex(JoypadManagerInternal_TypeDefinitionIndex)->GetStaticField(0x12B20);
+			return (::MiHoYo::SDK::PluginUI::JoypadManagerInternal**)Il2CppClass::FromTypeDefinitionIndex(JoypadManagerInternal_TypeDefinitionIndex)->GetStaticField(0x1B4C0);
 		}
 		::System::Collections::Generic::List_1<::System::String*>* m_lstUIStack; // 0x10
 		::System::String* m_strTopUI; // 0x18

@@ -1,10 +1,10 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-class Class_1_CA217ABF4E3B4F3F;
-namespace System { template <typename T> class Action_1; }
+namespace System { class Action; }
+namespace UnityEngine { class GameObject; }
 
-inline static constexpr unsigned int Class_0_16E4307DCC419505_1033_TypeDefinitionIndex = 67475;
+inline static constexpr unsigned int Class_0_16E4307DCC419505_1033_TypeDefinitionIndex = 68280;
 
 class Class_0_16E4307DCC419505_1033
 {

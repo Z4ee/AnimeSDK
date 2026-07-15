@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int PoseSwitcherType_TypeDefinitionIndex = 56647;
+	inline static constexpr unsigned int PoseSwitcherType_TypeDefinitionIndex = 57893;
 
 	enum class PoseSwitcherType : ::System::Int32
 	{

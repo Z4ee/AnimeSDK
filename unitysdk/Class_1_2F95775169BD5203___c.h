@@ -5,22 +5,22 @@
 class WaveSimPanel;
 namespace System { template <typename T> class Comparison_1; }
 
-#define CLASS_1_2F95775169BD5203___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x14222110)
-#define CLASS_1_2F95775169BD5203___C__CTOR_OFFSET UNITYSDK_OFFSET(0x14222150)
-#define CLASS_1_2F95775169BD5203___C__UPDATEVOLUME_B__161_0_OFFSET UNITYSDK_OFFSET(0x14222160)
+#define CLASS_1_2F95775169BD5203___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x174E8E50)
+#define CLASS_1_2F95775169BD5203___C__CTOR_OFFSET UNITYSDK_OFFSET(0x174E8E90)
+#define CLASS_1_2F95775169BD5203___C__UPDATEVOLUME_B__161_0_OFFSET UNITYSDK_OFFSET(0x174E8EA0)
 
-inline static constexpr unsigned int Class_1_2F95775169BD5203___c_TypeDefinitionIndex = 44790;
+inline static constexpr unsigned int Class_1_2F95775169BD5203___c_TypeDefinitionIndex = 45707;
 
 class Class_1_2F95775169BD5203___c : public ::System::Object
 {
 public:
-	static ::Class_1_2F95775169BD5203___c** StaticGet___9()
-	{
-		return (::Class_1_2F95775169BD5203___c**)Il2CppClass::FromTypeDefinitionIndex(Class_1_2F95775169BD5203___c_TypeDefinitionIndex)->GetStaticField(0x1A540);
-	}
 	static ::System::Comparison_1<::WaveSimPanel*>** StaticGet___9__161_0()
 	{
-		return (::System::Comparison_1<::WaveSimPanel*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_2F95775169BD5203___c_TypeDefinitionIndex)->GetStaticField(0x1A548);
+		return (::System::Comparison_1<::WaveSimPanel*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_2F95775169BD5203___c_TypeDefinitionIndex)->GetStaticField(0xFEF0);
+	}
+	static ::Class_1_2F95775169BD5203___c** StaticGet___9()
+	{
+		return (::Class_1_2F95775169BD5203___c**)Il2CppClass::FromTypeDefinitionIndex(Class_1_2F95775169BD5203___c_TypeDefinitionIndex)->GetStaticField(0xFEF8);
 	}
 
 	static ::System::Void _cctor()

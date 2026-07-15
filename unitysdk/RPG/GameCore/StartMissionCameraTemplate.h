@@ -6,13 +6,13 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class DynamicFloat; }
 namespace RPG::GameCore { class DynamicString; }
 
-#define RPG_GAMECORE_STARTMISSIONCAMERATEMPLATE_METHOD_3_4524C848BB6BF5FC_OFFSET UNITYSDK_OFFSET(0x19CB8130)
-#define RPG_GAMECORE_STARTMISSIONCAMERATEMPLATE_METHOD_3_4F71963F42DE6EDB_OFFSET UNITYSDK_OFFSET(0x19CB7F00)
-#define RPG_GAMECORE_STARTMISSIONCAMERATEMPLATE__CTOR_OFFSET UNITYSDK_OFFSET(0x19CB8030)
+#define RPG_GAMECORE_STARTMISSIONCAMERATEMPLATE_METHOD_3_4524C848BB6BF5FC_OFFSET UNITYSDK_OFFSET(0x1B0BDE20)
+#define RPG_GAMECORE_STARTMISSIONCAMERATEMPLATE_METHOD_3_A0716B1CCF2133D2_OFFSET UNITYSDK_OFFSET(0x1B0BDC40)
+#define RPG_GAMECORE_STARTMISSIONCAMERATEMPLATE__CTOR_OFFSET UNITYSDK_OFFSET(0x1B0BDD40)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int StartMissionCameraTemplate_TypeDefinitionIndex = 22505;
+	inline static constexpr unsigned int StartMissionCameraTemplate_TypeDefinitionIndex = 22955;
 
 	class StartMissionCameraTemplate : public ::RPG::GameCore::TaskConfig
 	{
@@ -34,9 +34,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_STARTMISSIONCAMERATEMPLATE__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_4F71963F42DE6EDB(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::StartMissionCameraTemplate*& a2)
+		static ::System::Void Method_3_A0716B1CCF2133D2(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::StartMissionCameraTemplate*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::StartMissionCameraTemplate*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_STARTMISSIONCAMERATEMPLATE_METHOD_3_4F71963F42DE6EDB_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::StartMissionCameraTemplate*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_STARTMISSIONCAMERATEMPLATE_METHOD_3_A0716B1CCF2133D2_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_4524C848BB6BF5FC(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::StartMissionCameraTemplate* a2)

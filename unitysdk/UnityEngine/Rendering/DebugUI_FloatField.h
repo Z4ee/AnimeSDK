@@ -4,12 +4,12 @@
 
 namespace System { template <typename T> class Func_1; }
 
-#define UNITYENGINE_RENDERING_DEBUGUI_FLOATFIELD_VALIDATEVALUE_OFFSET UNITYSDK_OFFSET(0x1B178410)
-#define UNITYENGINE_RENDERING_DEBUGUI_FLOATFIELD__CTOR_OFFSET UNITYSDK_OFFSET(0x1B178460)
+#define UNITYENGINE_RENDERING_DEBUGUI_FLOATFIELD_VALIDATEVALUE_OFFSET UNITYSDK_OFFSET(0x1B0EF250)
+#define UNITYENGINE_RENDERING_DEBUGUI_FLOATFIELD__CTOR_OFFSET UNITYSDK_OFFSET(0x1B0EF2A0)
 
 namespace UnityEngine::Rendering
 {
-	inline static constexpr unsigned int DebugUI_FloatField_TypeDefinitionIndex = 33726;
+	inline static constexpr unsigned int DebugUI_FloatField_TypeDefinitionIndex = 34097;
 
 	class DebugUI_FloatField : public ::UnityEngine::Rendering::DebugUI_Field_1<::System::Single>
 	{
@@ -17,8 +17,8 @@ namespace UnityEngine::Rendering
 		::System::Func_1<::System::Single>* max; // 0x50
 		::System::Func_1<::System::Single>* min; // 0x58
 		::System::Int32 decimals; // 0x60
-		::System::Single incStepMult; // 0x64
-		::System::Single incStep; // 0x68
+		::System::Single incStep; // 0x64
+		::System::Single incStepMult; // 0x68
 
 		::System::Void _ctor()
 		{

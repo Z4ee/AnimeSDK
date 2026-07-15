@@ -4,7 +4,7 @@
 
 namespace System::Threading { class ThreadPoolWorkQueue; }
 
-#define SYSTEM_THREADING_THREADPOOLGLOBALS__CCTOR_OFFSET UNITYSDK_OFFSET(0x18633BE0)
+#define SYSTEM_THREADING_THREADPOOLGLOBALS__CCTOR_OFFSET UNITYSDK_OFFSET(0x1A739310)
 
 namespace System::Threading
 {
@@ -15,27 +15,27 @@ namespace System::Threading
 	public:
 		static ::System::Threading::ThreadPoolWorkQueue** StaticGet_workQueue()
 		{
-			return (::System::Threading::ThreadPoolWorkQueue**)Il2CppClass::FromTypeDefinitionIndex(ThreadPoolGlobals_TypeDefinitionIndex)->GetStaticField(0x128B0);
-		}
-		static ::System::UInt32* StaticGet_tpQuantum()
-		{
-			return (::System::UInt32*)Il2CppClass::FromTypeDefinitionIndex(ThreadPoolGlobals_TypeDefinitionIndex)->GetStaticField(0x7710);
-		}
-		static ::System::Boolean* StaticGet_enableWorkerTracking()
-		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(ThreadPoolGlobals_TypeDefinitionIndex)->GetStaticField(0x7714);
-		}
-		static ::System::Boolean* StaticGet_vmTpInitialized()
-		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(ThreadPoolGlobals_TypeDefinitionIndex)->GetStaticField(0x7715);
-		}
-		static ::System::Boolean* StaticGet_tpHosted()
-		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(ThreadPoolGlobals_TypeDefinitionIndex)->GetStaticField(0x7716);
+			return (::System::Threading::ThreadPoolWorkQueue**)Il2CppClass::FromTypeDefinitionIndex(ThreadPoolGlobals_TypeDefinitionIndex)->GetStaticField(0x21A20);
 		}
 		static ::System::Int32* StaticGet_processorCount()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(ThreadPoolGlobals_TypeDefinitionIndex)->GetStaticField(0x7718);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(ThreadPoolGlobals_TypeDefinitionIndex)->GetStaticField(0x6AC0);
+		}
+		static ::System::Boolean* StaticGet_vmTpInitialized()
+		{
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(ThreadPoolGlobals_TypeDefinitionIndex)->GetStaticField(0x6AC4);
+		}
+		static ::System::Boolean* StaticGet_tpHosted()
+		{
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(ThreadPoolGlobals_TypeDefinitionIndex)->GetStaticField(0x6AC5);
+		}
+		static ::System::Boolean* StaticGet_enableWorkerTracking()
+		{
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(ThreadPoolGlobals_TypeDefinitionIndex)->GetStaticField(0x6AC6);
+		}
+		static ::System::UInt32* StaticGet_tpQuantum()
+		{
+			return (::System::UInt32*)Il2CppClass::FromTypeDefinitionIndex(ThreadPoolGlobals_TypeDefinitionIndex)->GetStaticField(0x6AC8);
 		}
 
 		static ::System::Void _cctor()

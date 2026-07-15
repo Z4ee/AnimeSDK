@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int EvolveGearType_TypeDefinitionIndex = 10958;
+	inline static constexpr unsigned int EvolveGearType_TypeDefinitionIndex = 11008;
 
 	enum class EvolveGearType : ::System::Int32
 	{

@@ -10,7 +10,7 @@ namespace System::Linq { template <typename T> class Enumerable_Iterator_1; }
 
 namespace System::Linq
 {
-	inline static constexpr unsigned int Enumerable_Iterator_1_TypeDefinitionIndex = 3122;
+	inline static constexpr unsigned int Enumerable_Iterator_1_TypeDefinitionIndex = 3126;
 
 	template <typename TSource>
 	class Enumerable_Iterator_1 : public ::System::Object

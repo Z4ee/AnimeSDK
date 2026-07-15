@@ -8,13 +8,13 @@ namespace RPG::GameCore { class AttachPointEffectAdaptionConfig; }
 namespace RPG::GameCore { class TargetEvaluator; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_SETDYNAMICATTACHPOINTEFFECTADAPTIONCONFIG_METHOD_3_32202389B6EC4514_OFFSET UNITYSDK_OFFSET(0x19C33E90)
-#define RPG_GAMECORE_SETDYNAMICATTACHPOINTEFFECTADAPTIONCONFIG_METHOD_3_6C8099CC4DEE9CB6_OFFSET UNITYSDK_OFFSET(0x19C33F60)
-#define RPG_GAMECORE_SETDYNAMICATTACHPOINTEFFECTADAPTIONCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x19C33F10)
+#define RPG_GAMECORE_SETDYNAMICATTACHPOINTEFFECTADAPTIONCONFIG_METHOD_3_6C8099CC4DEE9CB6_OFFSET UNITYSDK_OFFSET(0x1C2DC840)
+#define RPG_GAMECORE_SETDYNAMICATTACHPOINTEFFECTADAPTIONCONFIG_METHOD_3_8EFC3B5032D1B1EF_OFFSET UNITYSDK_OFFSET(0x1C2DC7A0)
+#define RPG_GAMECORE_SETDYNAMICATTACHPOINTEFFECTADAPTIONCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1C2DC800)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SetDynamicAttachPointEffectAdaptionConfig_TypeDefinitionIndex = 19134;
+	inline static constexpr unsigned int SetDynamicAttachPointEffectAdaptionConfig_TypeDefinitionIndex = 19490;
 
 	class SetDynamicAttachPointEffectAdaptionConfig : public ::RPG::GameCore::TaskConfig
 	{
@@ -29,9 +29,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETDYNAMICATTACHPOINTEFFECTADAPTIONCONFIG__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_32202389B6EC4514(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SetDynamicAttachPointEffectAdaptionConfig*& a2)
+		static ::System::Void Method_3_8EFC3B5032D1B1EF(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SetDynamicAttachPointEffectAdaptionConfig*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SetDynamicAttachPointEffectAdaptionConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETDYNAMICATTACHPOINTEFFECTADAPTIONCONFIG_METHOD_3_32202389B6EC4514_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SetDynamicAttachPointEffectAdaptionConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETDYNAMICATTACHPOINTEFFECTADAPTIONCONFIG_METHOD_3_8EFC3B5032D1B1EF_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_6C8099CC4DEE9CB6(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SetDynamicAttachPointEffectAdaptionConfig* a2)

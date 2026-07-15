@@ -4,20 +4,20 @@
 
 namespace Proto { class MainMissionSnapshot; }
 
-#define PROTO_MAINMISSIONSNAPSHOT___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1A0FA6D0)
-#define PROTO_MAINMISSIONSNAPSHOT___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1A0FA710)
-#define PROTO_MAINMISSIONSNAPSHOT___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1A0FA720)
+#define PROTO_MAINMISSIONSNAPSHOT___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1BEDCA00)
+#define PROTO_MAINMISSIONSNAPSHOT___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1BEDCA40)
+#define PROTO_MAINMISSIONSNAPSHOT___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1BEDCA50)
 
 namespace Proto
 {
-	inline static constexpr unsigned int MainMissionSnapshot___c_TypeDefinitionIndex = 24405;
+	inline static constexpr unsigned int MainMissionSnapshot___c_TypeDefinitionIndex = 24907;
 
 	class MainMissionSnapshot___c : public ::System::Object
 	{
 	public:
 		static ::Proto::MainMissionSnapshot___c** StaticGet___9()
 		{
-			return (::Proto::MainMissionSnapshot___c**)Il2CppClass::FromTypeDefinitionIndex(MainMissionSnapshot___c_TypeDefinitionIndex)->GetStaticField(0x440D0);
+			return (::Proto::MainMissionSnapshot___c**)Il2CppClass::FromTypeDefinitionIndex(MainMissionSnapshot___c_TypeDefinitionIndex)->GetStaticField(0x3E8C0);
 		}
 
 		static ::System::Void _cctor()

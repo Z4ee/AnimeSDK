@@ -3,7 +3,7 @@
 
 namespace HedgehogTeam::EasyTouch
 {
-	inline static constexpr unsigned int QuickLongTap_ActionTriggering_TypeDefinitionIndex = 37300;
+	inline static constexpr unsigned int QuickLongTap_ActionTriggering_TypeDefinitionIndex = 38108;
 
 	enum class QuickLongTap_ActionTriggering : ::System::Int32
 	{

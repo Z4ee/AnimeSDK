@@ -4,12 +4,12 @@
 
 namespace MiHoYo::SDK::UI::OS { class IAgeGateGeneralErrorDialog; }
 
-#define MIHOYO_SDK_CONSOLE_OS_AGEGATEMANAGER___C__DISPLAYCLASS7_0__CTOR_OFFSET UNITYSDK_OFFSET(0x182561E0)
-#define MIHOYO_SDK_CONSOLE_OS_AGEGATEMANAGER___C__DISPLAYCLASS7_0__HANDLEAGEGATEFROMERRORCODE_B__1_OFFSET UNITYSDK_OFFSET(0x18256D50)
+#define MIHOYO_SDK_CONSOLE_OS_AGEGATEMANAGER___C__DISPLAYCLASS7_0__CTOR_OFFSET UNITYSDK_OFFSET(0x163EDB30)
+#define MIHOYO_SDK_CONSOLE_OS_AGEGATEMANAGER___C__DISPLAYCLASS7_0__HANDLEAGEGATEFROMERRORCODE_B__1_OFFSET UNITYSDK_OFFSET(0x163EE790)
 
 namespace MiHoYo::SDK::Console::OS
 {
-	inline static constexpr unsigned int AgeGateManager___c__DisplayClass7_0_TypeDefinitionIndex = 8715;
+	inline static constexpr unsigned int AgeGateManager___c__DisplayClass7_0_TypeDefinitionIndex = 8727;
 
 	class AgeGateManager___c__DisplayClass7_0 : public ::System::Object
 	{

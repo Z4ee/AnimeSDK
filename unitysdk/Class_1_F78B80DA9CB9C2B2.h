@@ -2,18 +2,18 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_0_16E4307DCC419505_1106;
+class Class_0_16E4307DCC419505_1152;
 namespace System { class String; }
 
-#define CLASS_1_F78B80DA9CB9C2B2_METHOD_1_0277C5E3B6254F4A_OFFSET UNITYSDK_OFFSET(0xE47D2B0)
+#define CLASS_1_F78B80DA9CB9C2B2_METHOD_1_0277C5E3B6254F4A_OFFSET UNITYSDK_OFFSET(0x16FAD9E0)
 
-inline static constexpr unsigned int Class_1_F78B80DA9CB9C2B2_TypeDefinitionIndex = 69658;
+inline static constexpr unsigned int Class_1_F78B80DA9CB9C2B2_TypeDefinitionIndex = 71181;
 
 class Class_1_F78B80DA9CB9C2B2 : public ::System::Object
 {
 public:
-	static ::System::String* Method_1_0277C5E3B6254F4A(::Class_0_16E4307DCC419505_1106* a1)
+	static ::System::String* Method_1_0277C5E3B6254F4A(::Class_0_16E4307DCC419505_1152* a1)
 	{
-		return ((::System::String*(*)(::Class_0_16E4307DCC419505_1106*))((::PBYTE)hIl2Cpp + CLASS_1_F78B80DA9CB9C2B2_METHOD_1_0277C5E3B6254F4A_OFFSET))(a1);
+		return ((::System::String*(*)(::Class_0_16E4307DCC419505_1152*))((::PBYTE)hIl2Cpp + CLASS_1_F78B80DA9CB9C2B2_METHOD_1_0277C5E3B6254F4A_OFFSET))(a1);
 	}
 };

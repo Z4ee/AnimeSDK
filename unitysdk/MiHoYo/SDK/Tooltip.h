@@ -6,23 +6,23 @@ namespace MiHoYo::SDK { class UIManager; }
 namespace System { class String; }
 namespace UnityEngine { class RectTransform; }
 
-#define MIHOYO_SDK_TOOLTIP_HIDE_OFFSET UNITYSDK_OFFSET(0x1842D880)
-#define MIHOYO_SDK_TOOLTIP_SHOW_OFFSET UNITYSDK_OFFSET(0x1842D6C0)
-#define MIHOYO_SDK_TOOLTIP_START_OFFSET UNITYSDK_OFFSET(0x18431020)
-#define MIHOYO_SDK_TOOLTIP_UPDATEOFFSET_OFFSET UNITYSDK_OFFSET(0x18431220)
-#define MIHOYO_SDK_TOOLTIP_UPDATE_OFFSET UNITYSDK_OFFSET(0x18431430)
-#define MIHOYO_SDK_TOOLTIP__CTOR_OFFSET UNITYSDK_OFFSET(0x184314A0)
+#define MIHOYO_SDK_TOOLTIP_HIDE_OFFSET UNITYSDK_OFFSET(0x1B69A3C0)
+#define MIHOYO_SDK_TOOLTIP_SHOW_OFFSET UNITYSDK_OFFSET(0x1B6997D0)
+#define MIHOYO_SDK_TOOLTIP_START_OFFSET UNITYSDK_OFFSET(0x1B6992F0)
+#define MIHOYO_SDK_TOOLTIP_UPDATEOFFSET_OFFSET UNITYSDK_OFFSET(0x1B699560)
+#define MIHOYO_SDK_TOOLTIP_UPDATE_OFFSET UNITYSDK_OFFSET(0x1B699770)
+#define MIHOYO_SDK_TOOLTIP__CTOR_OFFSET UNITYSDK_OFFSET(0x1B69A460)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int Tooltip_TypeDefinitionIndex = 7960;
+	inline static constexpr unsigned int Tooltip_TypeDefinitionIndex = 7970;
 
 	class Tooltip : public ::MiHoYo::SDK::UIElement
 	{
 	public:
 		static ::MiHoYo::SDK::UIManager** StaticGet_manager()
 		{
-			return (::MiHoYo::SDK::UIManager**)Il2CppClass::FromTypeDefinitionIndex(Tooltip_TypeDefinitionIndex)->GetStaticField(0x22F50);
+			return (::MiHoYo::SDK::UIManager**)Il2CppClass::FromTypeDefinitionIndex(Tooltip_TypeDefinitionIndex)->GetStaticField(0x27DB0);
 		}
 		// static const ::System::Int32 TOOLTIP_OFFSET = 0x2; // 0x0
 		// static const ::System::String* PrefabName; // 0x0

@@ -6,12 +6,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class LittleGameTriggerConfig; }
 
-#define RPG_GAMECORE_FIVEDIMONEWAYENTRYCONFIG_METHOD_2_44ECCF7724343AB8_OFFSET UNITYSDK_OFFSET(0x1973B680)
-#define RPG_GAMECORE_FIVEDIMONEWAYENTRYCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1974BD80)
+#define RPG_GAMECORE_FIVEDIMONEWAYENTRYCONFIG_METHOD_2_1871AA394CE67DFE_OFFSET UNITYSDK_OFFSET(0x1BEA7190)
+#define RPG_GAMECORE_FIVEDIMONEWAYENTRYCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1BEA72D0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FiveDimOneWayEntryConfig_TypeDefinitionIndex = 17629;
+	inline static constexpr unsigned int FiveDimOneWayEntryConfig_TypeDefinitionIndex = 17803;
 
 	class FiveDimOneWayEntryConfig : public ::RPG::GameCore::JsonConfig
 	{
@@ -25,9 +25,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMONEWAYENTRYCONFIG__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_44ECCF7724343AB8(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::FiveDimOneWayEntryConfig*& a2)
+		static ::System::Void Method_2_1871AA394CE67DFE(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::FiveDimOneWayEntryConfig*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::FiveDimOneWayEntryConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMONEWAYENTRYCONFIG_METHOD_2_44ECCF7724343AB8_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::FiveDimOneWayEntryConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMONEWAYENTRYCONFIG_METHOD_2_1871AA394CE67DFE_OFFSET))(a1, a2);
 		}
 	};
 }

@@ -6,13 +6,13 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class MiParameterConfigBase; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_ACTIONSETBLACKBOARDVALUECONFIG_METHOD_4_667D9F51418CC109_OFFSET UNITYSDK_OFFSET(0x193CE320)
-#define RPG_GAMECORE_ACTIONSETBLACKBOARDVALUECONFIG_METHOD_4_9D33E9B4FD69A996_OFFSET UNITYSDK_OFFSET(0x193CE0D0)
-#define RPG_GAMECORE_ACTIONSETBLACKBOARDVALUECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x193CE230)
+#define RPG_GAMECORE_ACTIONSETBLACKBOARDVALUECONFIG_METHOD_4_34BED98CF2CC7555_OFFSET UNITYSDK_OFFSET(0x1AAD7250)
+#define RPG_GAMECORE_ACTIONSETBLACKBOARDVALUECONFIG_METHOD_4_3E52E51DE0C54F40_OFFSET UNITYSDK_OFFSET(0x1AAD7330)
+#define RPG_GAMECORE_ACTIONSETBLACKBOARDVALUECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1AAD72E0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ActionSetBlackboardValueConfig_TypeDefinitionIndex = 16187;
+	inline static constexpr unsigned int ActionSetBlackboardValueConfig_TypeDefinitionIndex = 16371;
 
 	class ActionSetBlackboardValueConfig : public ::RPG::GameCore::MiActionConfigBase
 	{
@@ -25,14 +25,14 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ACTIONSETBLACKBOARDVALUECONFIG__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_4_9D33E9B4FD69A996(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ActionSetBlackboardValueConfig*& a2)
+		static ::System::Void Method_4_34BED98CF2CC7555(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ActionSetBlackboardValueConfig*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ActionSetBlackboardValueConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ACTIONSETBLACKBOARDVALUECONFIG_METHOD_4_9D33E9B4FD69A996_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ActionSetBlackboardValueConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ACTIONSETBLACKBOARDVALUECONFIG_METHOD_4_34BED98CF2CC7555_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_4_667D9F51418CC109(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ActionSetBlackboardValueConfig* a2)
+		static ::System::Void Method_4_3E52E51DE0C54F40(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ActionSetBlackboardValueConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ActionSetBlackboardValueConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ACTIONSETBLACKBOARDVALUECONFIG_METHOD_4_667D9F51418CC109_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ActionSetBlackboardValueConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ACTIONSETBLACKBOARDVALUECONFIG_METHOD_4_3E52E51DE0C54F40_OFFSET))(a1, a2);
 		}
 	};
 }

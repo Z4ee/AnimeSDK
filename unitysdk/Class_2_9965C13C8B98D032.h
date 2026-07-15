@@ -9,11 +9,11 @@ namespace RPG::GameCore { class RtTargetMapPosWithMaxTargetCount; }
 namespace RPG::GameCore { class TaskContext; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_2_9965C13C8B98D032_METHOD_2_053D583BF0F54FF7_OFFSET UNITYSDK_OFFSET(0x1061FA80)
-#define CLASS_2_9965C13C8B98D032_TRANSFORM_OFFSET UNITYSDK_OFFSET(0x1061F7B0)
-#define CLASS_2_9965C13C8B98D032__CTOR_OFFSET UNITYSDK_OFFSET(0x1061F790)
+#define CLASS_2_9965C13C8B98D032_METHOD_2_053D583BF0F54FF7_OFFSET UNITYSDK_OFFSET(0x146ADBD0)
+#define CLASS_2_9965C13C8B98D032_TRANSFORM_OFFSET UNITYSDK_OFFSET(0x146AD900)
+#define CLASS_2_9965C13C8B98D032__CTOR_OFFSET UNITYSDK_OFFSET(0x146AD8E0)
 
-inline static constexpr unsigned int Class_2_9965C13C8B98D032_TypeDefinitionIndex = 50263;
+inline static constexpr unsigned int Class_2_9965C13C8B98D032_TypeDefinitionIndex = 51345;
 
 class Class_2_9965C13C8B98D032 : public ::RPG::GameCore::TargetSeqOperationImpl_1<::RPG::GameCore::RtTargetMapPosWithMaxTargetCount*>
 {

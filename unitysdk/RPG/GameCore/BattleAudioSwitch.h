@@ -7,13 +7,13 @@ namespace RPG::GameCore { class DynamicString; }
 namespace RPG::GameCore { class TargetEvaluator; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_BATTLEAUDIOSWITCH_METHOD_3_744F8F6F633F693A_OFFSET UNITYSDK_OFFSET(0x194C3370)
-#define RPG_GAMECORE_BATTLEAUDIOSWITCH_METHOD_3_F9119CD090E4192B_OFFSET UNITYSDK_OFFSET(0x194C33F0)
-#define RPG_GAMECORE_BATTLEAUDIOSWITCH__CTOR_OFFSET UNITYSDK_OFFSET(0x194C33C0)
+#define RPG_GAMECORE_BATTLEAUDIOSWITCH_METHOD_3_6824922161D89E76_OFFSET UNITYSDK_OFFSET(0x1A3E3450)
+#define RPG_GAMECORE_BATTLEAUDIOSWITCH_METHOD_3_F9119CD090E4192B_OFFSET UNITYSDK_OFFSET(0x1A3E3490)
+#define RPG_GAMECORE_BATTLEAUDIOSWITCH__CTOR_OFFSET UNITYSDK_OFFSET(0x1A3E3480)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int BattleAudioSwitch_TypeDefinitionIndex = 21710;
+	inline static constexpr unsigned int BattleAudioSwitch_TypeDefinitionIndex = 22137;
 
 	class BattleAudioSwitch : public ::RPG::GameCore::TaskConfig
 	{
@@ -27,9 +27,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BATTLEAUDIOSWITCH__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_744F8F6F633F693A(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::BattleAudioSwitch*& a2)
+		static ::System::Void Method_3_6824922161D89E76(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::BattleAudioSwitch*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::BattleAudioSwitch*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BATTLEAUDIOSWITCH_METHOD_3_744F8F6F633F693A_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::BattleAudioSwitch*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BATTLEAUDIOSWITCH_METHOD_3_6824922161D89E76_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_F9119CD090E4192B(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::BattleAudioSwitch* a2)

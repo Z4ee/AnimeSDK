@@ -6,13 +6,13 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class DynamicString; }
 namespace RPG::GameCore { class TaskConfig; }
 
-#define RPG_GAMECORE_WAITGROUPEVENT_METHOD_4_88885C73CE8EC5EA_OFFSET UNITYSDK_OFFSET(0x19E57EF0)
-#define RPG_GAMECORE_WAITGROUPEVENT_METHOD_4_DA2CE388B41568E0_OFFSET UNITYSDK_OFFSET(0x19E57E10)
-#define RPG_GAMECORE_WAITGROUPEVENT__CTOR_OFFSET UNITYSDK_OFFSET(0x19E57E90)
+#define RPG_GAMECORE_WAITGROUPEVENT_METHOD_4_88885C73CE8EC5EA_OFFSET UNITYSDK_OFFSET(0x1B8A6440)
+#define RPG_GAMECORE_WAITGROUPEVENT_METHOD_4_DD381AAA6EE524B7_OFFSET UNITYSDK_OFFSET(0x1B8A63F0)
+#define RPG_GAMECORE_WAITGROUPEVENT__CTOR_OFFSET UNITYSDK_OFFSET(0x1B8A6430)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int WaitGroupEvent_TypeDefinitionIndex = 20027;
+	inline static constexpr unsigned int WaitGroupEvent_TypeDefinitionIndex = 20399;
 
 	class WaitGroupEvent : public ::RPG::GameCore::AdvWaitingEventBase
 	{
@@ -25,9 +25,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_WAITGROUPEVENT__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_4_DA2CE388B41568E0(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::WaitGroupEvent*& a2)
+		static ::System::Void Method_4_DD381AAA6EE524B7(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::WaitGroupEvent*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::WaitGroupEvent*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_WAITGROUPEVENT_METHOD_4_DA2CE388B41568E0_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::WaitGroupEvent*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_WAITGROUPEVENT_METHOD_4_DD381AAA6EE524B7_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_4_88885C73CE8EC5EA(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::WaitGroupEvent* a2)

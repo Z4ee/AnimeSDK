@@ -8,13 +8,13 @@ namespace RPG::GameCore { class DynamicString; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_INCLUDEGLOBALTASKLISTTEMPLATE_METHOD_3_38DF3E75FA715668_OFFSET UNITYSDK_OFFSET(0x1984DC40)
-#define RPG_GAMECORE_INCLUDEGLOBALTASKLISTTEMPLATE_METHOD_3_C9D716E7207E374B_OFFSET UNITYSDK_OFFSET(0x1984DBC0)
-#define RPG_GAMECORE_INCLUDEGLOBALTASKLISTTEMPLATE__CTOR_OFFSET UNITYSDK_OFFSET(0x1984DC10)
+#define RPG_GAMECORE_INCLUDEGLOBALTASKLISTTEMPLATE_METHOD_3_38DF3E75FA715668_OFFSET UNITYSDK_OFFSET(0x1B00E100)
+#define RPG_GAMECORE_INCLUDEGLOBALTASKLISTTEMPLATE_METHOD_3_EA073CBBD0E23495_OFFSET UNITYSDK_OFFSET(0x1B00E0C0)
+#define RPG_GAMECORE_INCLUDEGLOBALTASKLISTTEMPLATE__CTOR_OFFSET UNITYSDK_OFFSET(0x1B00E0F0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int IncludeGlobalTaskListTemplate_TypeDefinitionIndex = 22527;
+	inline static constexpr unsigned int IncludeGlobalTaskListTemplate_TypeDefinitionIndex = 22978;
 
 	class IncludeGlobalTaskListTemplate : public ::RPG::GameCore::TaskConfig
 	{
@@ -28,9 +28,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_INCLUDEGLOBALTASKLISTTEMPLATE__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_C9D716E7207E374B(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::IncludeGlobalTaskListTemplate*& a2)
+		static ::System::Void Method_3_EA073CBBD0E23495(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::IncludeGlobalTaskListTemplate*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::IncludeGlobalTaskListTemplate*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_INCLUDEGLOBALTASKLISTTEMPLATE_METHOD_3_C9D716E7207E374B_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::IncludeGlobalTaskListTemplate*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_INCLUDEGLOBALTASKLISTTEMPLATE_METHOD_3_EA073CBBD0E23495_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_38DF3E75FA715668(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::IncludeGlobalTaskListTemplate* a2)

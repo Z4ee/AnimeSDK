@@ -5,13 +5,13 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_MARBLEBUFFTEXT_METHOD_3_801751DAE0E58958_OFFSET UNITYSDK_OFFSET(0x198C9A80)
-#define RPG_GAMECORE_MARBLEBUFFTEXT_METHOD_3_A73D56702C562A34_OFFSET UNITYSDK_OFFSET(0x198C9B60)
-#define RPG_GAMECORE_MARBLEBUFFTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x198C9B10)
+#define RPG_GAMECORE_MARBLEBUFFTEXT_METHOD_3_A73D56702C562A34_OFFSET UNITYSDK_OFFSET(0x1BD137E0)
+#define RPG_GAMECORE_MARBLEBUFFTEXT_METHOD_3_C10EA56289AD88CA_OFFSET UNITYSDK_OFFSET(0x1BD13780)
+#define RPG_GAMECORE_MARBLEBUFFTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x1BD137D0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MarbleBuffText_TypeDefinitionIndex = 15992;
+	inline static constexpr unsigned int MarbleBuffText_TypeDefinitionIndex = 16176;
 
 	class MarbleBuffText : public ::RPG::GameCore::MarbleTaskConfig
 	{
@@ -24,9 +24,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MARBLEBUFFTEXT__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_801751DAE0E58958(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::MarbleBuffText*& a2)
+		static ::System::Void Method_3_C10EA56289AD88CA(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::MarbleBuffText*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::MarbleBuffText*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MARBLEBUFFTEXT_METHOD_3_801751DAE0E58958_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::MarbleBuffText*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MARBLEBUFFTEXT_METHOD_3_C10EA56289AD88CA_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_A73D56702C562A34(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::MarbleBuffText* a2)

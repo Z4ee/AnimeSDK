@@ -7,11 +7,11 @@ namespace RPG::Client { class MonoUIColorSwitcher_ColorItem; }
 namespace RPG::Client { class MonoUIColorSwitcher_NodeItem; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_MONOUICOLORSWITCHER_NODERECORD__CTOR_OFFSET UNITYSDK_OFFSET(0xC15C670)
+#define RPG_CLIENT_MONOUICOLORSWITCHER_NODERECORD__CTOR_OFFSET UNITYSDK_OFFSET(0x1A3631D0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MonoUIColorSwitcher_NodeRecord_TypeDefinitionIndex = 64500;
+	inline static constexpr unsigned int MonoUIColorSwitcher_NodeRecord_TypeDefinitionIndex = 65900;
 
 	class MonoUIColorSwitcher_NodeRecord : public ::System::Object
 	{

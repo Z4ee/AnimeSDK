@@ -4,7 +4,7 @@
 
 namespace UnityEngine::Rendering
 {
-	inline static constexpr unsigned int OffScreenUISettings__WorldSpace_e__FixedBuffer_TypeDefinitionIndex = 4823;
+	inline static constexpr unsigned int OffScreenUISettings__WorldSpace_e__FixedBuffer_TypeDefinitionIndex = 4828;
 
 	struct alignas(1) OffScreenUISettings__WorldSpace_e__FixedBuffer
 	{

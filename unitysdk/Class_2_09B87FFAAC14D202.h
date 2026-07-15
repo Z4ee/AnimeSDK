@@ -1,0 +1,79 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/Class_1_41E07A9DDAB7FC78.h"
+
+class Class_1_10F56A639581CEB1_14;
+class Class_1_359E211E5CA0A213;
+class Class_1_66D6A0360B93D27A_1;
+class Class_1_8844A4E6AE686D5C_6;
+class Class_1_D17272E82AE804C2_457;
+namespace RPG::Client { class GridFightBonusResultData; }
+
+#define CLASS_2_09B87FFAAC14D202_METHOD_2_361C06486F56B4E7_OFFSET UNITYSDK_OFFSET(0x15F067F0)
+#define CLASS_2_09B87FFAAC14D202_UPDATEADDFORGE_OFFSET UNITYSDK_OFFSET(0x15F06730)
+#define CLASS_2_09B87FFAAC14D202_UPDATEADDITEM_OFFSET UNITYSDK_OFFSET(0x16BDD820)
+#define CLASS_2_09B87FFAAC14D202_UPDATEADDROLE_OFFSET UNITYSDK_OFFSET(0x16BDD760)
+#define CLASS_2_09B87FFAAC14D202_UPDATECOIN_OFFSET UNITYSDK_OFFSET(0x16BDD690)
+#define CLASS_2_09B87FFAAC14D202_UPDATEITEM_OFFSET UNITYSDK_OFFSET(0x15F066D0)
+#define CLASS_2_09B87FFAAC14D202_UPDATELEVELANDEXP_OFFSET UNITYSDK_OFFSET(0x16BDD6F0)
+#define CLASS_2_09B87FFAAC14D202_UPDATEORB_OFFSET UNITYSDK_OFFSET(0x16BDD7C0)
+#define CLASS_2_09B87FFAAC14D202_UPDATESHOP_OFFSET UNITYSDK_OFFSET(0x15F06790)
+#define CLASS_2_09B87FFAAC14D202__CTOR_OFFSET UNITYSDK_OFFSET(0x15F06840)
+
+inline static constexpr unsigned int Class_2_09B87FFAAC14D202_TypeDefinitionIndex = 61512;
+
+class Class_2_09B87FFAAC14D202 : public ::Class_1_41E07A9DDAB7FC78
+{
+public:
+	::RPG::Client::GridFightBonusResultData* Field_2_0; // 0x10
+
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_09B87FFAAC14D202__CTOR_OFFSET))(this);
+	}
+
+	::System::Void UpdateCoin(::System::UInt32 a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + CLASS_2_09B87FFAAC14D202_UPDATECOIN_OFFSET))(this, a1);
+	}
+
+	::System::Void UpdateLevelAndExp(::System::UInt32 a1, ::System::UInt32 a2)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::UInt32, ::System::UInt32))((::PBYTE)hIl2Cpp + CLASS_2_09B87FFAAC14D202_UPDATELEVELANDEXP_OFFSET))(this, a1, a2);
+	}
+
+	::System::Void UpdateAddRole(::Class_1_66D6A0360B93D27A_1* a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::Class_1_66D6A0360B93D27A_1*))((::PBYTE)hIl2Cpp + CLASS_2_09B87FFAAC14D202_UPDATEADDROLE_OFFSET))(this, a1);
+	}
+
+	::System::Void UpdateOrb(::Class_1_D17272E82AE804C2_457* a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::Class_1_D17272E82AE804C2_457*))((::PBYTE)hIl2Cpp + CLASS_2_09B87FFAAC14D202_UPDATEORB_OFFSET))(this, a1);
+	}
+
+	::System::Void UpdateAddItem(::Class_1_8844A4E6AE686D5C_6* a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::Class_1_8844A4E6AE686D5C_6*))((::PBYTE)hIl2Cpp + CLASS_2_09B87FFAAC14D202_UPDATEADDITEM_OFFSET))(this, a1);
+	}
+
+	::System::Void UpdateItem(::Class_1_8844A4E6AE686D5C_6* a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::Class_1_8844A4E6AE686D5C_6*))((::PBYTE)hIl2Cpp + CLASS_2_09B87FFAAC14D202_UPDATEITEM_OFFSET))(this, a1);
+	}
+
+	::System::Void UpdateAddForge(::Class_1_10F56A639581CEB1_14* a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::Class_1_10F56A639581CEB1_14*))((::PBYTE)hIl2Cpp + CLASS_2_09B87FFAAC14D202_UPDATEADDFORGE_OFFSET))(this, a1);
+	}
+
+	::System::Void UpdateShop(::Class_1_359E211E5CA0A213* a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::Class_1_359E211E5CA0A213*))((::PBYTE)hIl2Cpp + CLASS_2_09B87FFAAC14D202_UPDATESHOP_OFFSET))(this, a1);
+	}
+
+	::System::Void Method_2_361C06486F56B4E7()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_09B87FFAAC14D202_METHOD_2_361C06486F56B4E7_OFFSET))(this);
+	}
+};

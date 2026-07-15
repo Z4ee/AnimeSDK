@@ -1,18 +1,18 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Class_1_43BD383C98B4C0C5_191.h"
+#include "unitysdk/Class_1_43BD383C98B4C0C5_199.h"
 #include "unitysdk/RPG/GameCore/ChimeraDuelTeamType.h"
 
 class Class_1_F9FBCC956DFCF137_25;
 class Class_1_FD611945730E269E;
 namespace RPG::GameCore { class ChimeraDuelNpcLeaveNode; }
 
-#define CLASS_2_792B76992050D353_METHOD_2_9AE379058E90AA45_OFFSET UNITYSDK_OFFSET(0xA4E67B0)
-#define CLASS_2_792B76992050D353__CTOR_OFFSET UNITYSDK_OFFSET(0xA4E6890)
+#define CLASS_2_792B76992050D353_METHOD_2_9AE379058E90AA45_OFFSET UNITYSDK_OFFSET(0x15268F60)
+#define CLASS_2_792B76992050D353__CTOR_OFFSET UNITYSDK_OFFSET(0x15269040)
 
-inline static constexpr unsigned int Class_2_792B76992050D353_TypeDefinitionIndex = 72209;
+inline static constexpr unsigned int Class_2_792B76992050D353_TypeDefinitionIndex = 73734;
 
-class Class_2_792B76992050D353 : public ::Class_1_43BD383C98B4C0C5_191
+class Class_2_792B76992050D353 : public ::Class_1_43BD383C98B4C0C5_199
 {
 public:
 	::RPG::GameCore::ChimeraDuelNpcLeaveNode* Field_2_0; // 0x10

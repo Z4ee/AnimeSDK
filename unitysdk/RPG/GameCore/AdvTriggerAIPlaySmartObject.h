@@ -6,13 +6,13 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class DynamicFloat; }
 namespace RPG::GameCore { class TargetEvaluator; }
 
-#define RPG_GAMECORE_ADVTRIGGERAIPLAYSMARTOBJECT_METHOD_3_364B466B188F3345_OFFSET UNITYSDK_OFFSET(0x1943B5C0)
-#define RPG_GAMECORE_ADVTRIGGERAIPLAYSMARTOBJECT_METHOD_3_7FC0AD4D338BE97B_OFFSET UNITYSDK_OFFSET(0x1943B640)
-#define RPG_GAMECORE_ADVTRIGGERAIPLAYSMARTOBJECT__CTOR_OFFSET UNITYSDK_OFFSET(0x1943B610)
+#define RPG_GAMECORE_ADVTRIGGERAIPLAYSMARTOBJECT_METHOD_3_7238F419516D778E_OFFSET UNITYSDK_OFFSET(0x1AE493C0)
+#define RPG_GAMECORE_ADVTRIGGERAIPLAYSMARTOBJECT_METHOD_3_7FC0AD4D338BE97B_OFFSET UNITYSDK_OFFSET(0x1AE49400)
+#define RPG_GAMECORE_ADVTRIGGERAIPLAYSMARTOBJECT__CTOR_OFFSET UNITYSDK_OFFSET(0x1AE493F0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AdvTriggerAIPlaySmartObject_TypeDefinitionIndex = 20978;
+	inline static constexpr unsigned int AdvTriggerAIPlaySmartObject_TypeDefinitionIndex = 21393;
 
 	class AdvTriggerAIPlaySmartObject : public ::RPG::GameCore::TaskConfig
 	{
@@ -28,9 +28,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVTRIGGERAIPLAYSMARTOBJECT__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_364B466B188F3345(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AdvTriggerAIPlaySmartObject*& a2)
+		static ::System::Void Method_3_7238F419516D778E(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AdvTriggerAIPlaySmartObject*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::AdvTriggerAIPlaySmartObject*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVTRIGGERAIPLAYSMARTOBJECT_METHOD_3_364B466B188F3345_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::AdvTriggerAIPlaySmartObject*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVTRIGGERAIPLAYSMARTOBJECT_METHOD_3_7238F419516D778E_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_7FC0AD4D338BE97B(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AdvTriggerAIPlaySmartObject* a2)

@@ -17,40 +17,40 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class Material; }
 namespace UnityEngine { class Shader; }
 
-#define RPG_CUSTOMRP_CRPRENDERERDATA_GETDEFAULTMATERIAL_OFFSET UNITYSDK_OFFSET(0x18EBB4C0)
-#define RPG_CUSTOMRP_CRPRENDERERDATA_GETDEFAULTSHADER_OFFSET UNITYSDK_OFFSET(0x18EBB640)
-#define RPG_CUSTOMRP_CRPRENDERERDATA_GETMATID_OFFSET UNITYSDK_OFFSET(0x18EAF930)
-#define RPG_CUSTOMRP_CRPRENDERERDATA_GETMAT_OFFSET UNITYSDK_OFFSET(0x18EBB490)
-#define RPG_CUSTOMRP_CRPRENDERERDATA_INITMAT_1_OFFSET UNITYSDK_OFFSET(0x18EA7E70)
-#define RPG_CUSTOMRP_CRPRENDERERDATA_INITMAT_OFFSET UNITYSDK_OFFSET(0x18EBB660)
-#define RPG_CUSTOMRP_CRPRENDERERDATA_RELOADRES_OFFSET UNITYSDK_OFFSET(0x18EBB240)
-#define RPG_CUSTOMRP_CRPRENDERERDATA_UNITMAT_OFFSET UNITYSDK_OFFSET(0x18EACC20)
-#define RPG_CUSTOMRP_CRPRENDERERDATA_UPDATECHAREYESTENCIL_OFFSET UNITYSDK_OFFSET(0x18EBB260)
-#define RPG_CUSTOMRP_CRPRENDERERDATA__CCTOR_OFFSET UNITYSDK_OFFSET(0x18EBB800)
-#define RPG_CUSTOMRP_CRPRENDERERDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x18EBB760)
+#define RPG_CUSTOMRP_CRPRENDERERDATA_GETDEFAULTMATERIAL_OFFSET UNITYSDK_OFFSET(0x17813EF0)
+#define RPG_CUSTOMRP_CRPRENDERERDATA_GETDEFAULTSHADER_OFFSET UNITYSDK_OFFSET(0x17814070)
+#define RPG_CUSTOMRP_CRPRENDERERDATA_GETMATID_OFFSET UNITYSDK_OFFSET(0x17807B50)
+#define RPG_CUSTOMRP_CRPRENDERERDATA_GETMAT_OFFSET UNITYSDK_OFFSET(0x17813EC0)
+#define RPG_CUSTOMRP_CRPRENDERERDATA_INITMAT_1_OFFSET UNITYSDK_OFFSET(0x177FFE80)
+#define RPG_CUSTOMRP_CRPRENDERERDATA_INITMAT_OFFSET UNITYSDK_OFFSET(0x17814090)
+#define RPG_CUSTOMRP_CRPRENDERERDATA_RELOADRES_OFFSET UNITYSDK_OFFSET(0x17813C70)
+#define RPG_CUSTOMRP_CRPRENDERERDATA_UNITMAT_OFFSET UNITYSDK_OFFSET(0x17804C70)
+#define RPG_CUSTOMRP_CRPRENDERERDATA_UPDATECHAREYESTENCIL_OFFSET UNITYSDK_OFFSET(0x17813C90)
+#define RPG_CUSTOMRP_CRPRENDERERDATA__CCTOR_OFFSET UNITYSDK_OFFSET(0x17814230)
+#define RPG_CUSTOMRP_CRPRENDERERDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x17814190)
 
 namespace RPG::CustomRP
 {
-	inline static constexpr unsigned int CRPRendererData_TypeDefinitionIndex = 35534;
+	inline static constexpr unsigned int CRPRendererData_TypeDefinitionIndex = 36316;
 
 	class CRPRendererData : public ::RPG::CustomRP::CRPRendererDataBase
 	{
 	public:
-		static ::System::UInt32* StaticGet_Flag_PreLightMRTPass()
+		static ::System::UInt32* StaticGet_Flag_StencilDebug()
 		{
-			return (::System::UInt32*)Il2CppClass::FromTypeDefinitionIndex(CRPRendererData_TypeDefinitionIndex)->GetStaticField(0x12CC0);
-		}
-		static ::System::UInt32* StaticGet_Flag_PreAOPass()
-		{
-			return (::System::UInt32*)Il2CppClass::FromTypeDefinitionIndex(CRPRendererData_TypeDefinitionIndex)->GetStaticField(0x12CC4);
+			return (::System::UInt32*)Il2CppClass::FromTypeDefinitionIndex(CRPRendererData_TypeDefinitionIndex)->GetStaticField(0x10140);
 		}
 		static ::System::UInt32* StaticGet_Flag_ShadowHalfRes()
 		{
-			return (::System::UInt32*)Il2CppClass::FromTypeDefinitionIndex(CRPRendererData_TypeDefinitionIndex)->GetStaticField(0x12CC8);
+			return (::System::UInt32*)Il2CppClass::FromTypeDefinitionIndex(CRPRendererData_TypeDefinitionIndex)->GetStaticField(0x10144);
 		}
-		static ::System::UInt32* StaticGet_Flag_StencilDebug()
+		static ::System::UInt32* StaticGet_Flag_PreAOPass()
 		{
-			return (::System::UInt32*)Il2CppClass::FromTypeDefinitionIndex(CRPRendererData_TypeDefinitionIndex)->GetStaticField(0x12CCC);
+			return (::System::UInt32*)Il2CppClass::FromTypeDefinitionIndex(CRPRendererData_TypeDefinitionIndex)->GetStaticField(0x10148);
+		}
+		static ::System::UInt32* StaticGet_Flag_PreLightMRTPass()
+		{
+			return (::System::UInt32*)Il2CppClass::FromTypeDefinitionIndex(CRPRendererData_TypeDefinitionIndex)->GetStaticField(0x1014C);
 		}
 		::RPG::CustomRP::CRPRendererData_CRPShaderResources* shaders; // 0x28
 		::RPG::CustomRP::CRPRendererData_CRPComputeResources* computes; // 0x30

@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int DiceCombatInsertAbilityPriority_TypeDefinitionIndex = 15346;
+	inline static constexpr unsigned int DiceCombatInsertAbilityPriority_TypeDefinitionIndex = 15510;
 
 	enum class DiceCombatInsertAbilityPriority : ::System::Int32
 	{

@@ -3,7 +3,7 @@
 
 namespace RPG::CustomRP
 {
-	inline static constexpr unsigned int CameraOverlayType_TypeDefinitionIndex = 35369;
+	inline static constexpr unsigned int CameraOverlayType_TypeDefinitionIndex = 36150;
 
 	enum class CameraOverlayType : ::System::Int32
 	{

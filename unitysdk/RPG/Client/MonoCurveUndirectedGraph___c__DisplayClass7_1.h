@@ -5,12 +5,12 @@
 namespace RPG::Client { class CurveUndirectedConnection; }
 namespace RPG::Client { class CurveUndirectedEdge; }
 
-#define RPG_CLIENT_MONOCURVEUNDIRECTEDGRAPH___C__DISPLAYCLASS7_1__CTOR_OFFSET UNITYSDK_OFFSET(0xC0700D0)
-#define RPG_CLIENT_MONOCURVEUNDIRECTEDGRAPH___C__DISPLAYCLASS7_1__GENERATECURVEEDGES_B__2_OFFSET UNITYSDK_OFFSET(0xC0702D0)
+#define RPG_CLIENT_MONOCURVEUNDIRECTEDGRAPH___C__DISPLAYCLASS7_1__CTOR_OFFSET UNITYSDK_OFFSET(0x10CC4C90)
+#define RPG_CLIENT_MONOCURVEUNDIRECTEDGRAPH___C__DISPLAYCLASS7_1__GENERATECURVEEDGES_B__2_OFFSET UNITYSDK_OFFSET(0x10CC4E90)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MonoCurveUndirectedGraph___c__DisplayClass7_1_TypeDefinitionIndex = 64158;
+	inline static constexpr unsigned int MonoCurveUndirectedGraph___c__DisplayClass7_1_TypeDefinitionIndex = 65529;
 
 	class MonoCurveUndirectedGraph___c__DisplayClass7_1 : public ::System::Object
 	{

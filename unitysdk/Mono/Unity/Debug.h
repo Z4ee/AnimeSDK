@@ -7,12 +7,12 @@
 
 namespace System { class String; }
 
-#define MONO_UNITY_DEBUG_CHECKANDTHROW_1_OFFSET UNITYSDK_OFFSET(0x1AF156F0)
-#define MONO_UNITY_DEBUG_CHECKANDTHROW_OFFSET UNITYSDK_OFFSET(0x1AF15670)
+#define MONO_UNITY_DEBUG_CHECKANDTHROW_1_OFFSET UNITYSDK_OFFSET(0x1A84E8F0)
+#define MONO_UNITY_DEBUG_CHECKANDTHROW_OFFSET UNITYSDK_OFFSET(0x1A84E870)
 
 namespace Mono::Unity
 {
-	inline static constexpr unsigned int Debug_TypeDefinitionIndex = 2337;
+	inline static constexpr unsigned int Debug_TypeDefinitionIndex = 2341;
 
 	class Debug : public ::System::Object
 	{

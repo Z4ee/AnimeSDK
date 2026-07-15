@@ -8,13 +8,13 @@ namespace RPG::GameCore { class CameraLookAtScreenRangeConfig; }
 namespace RPG::GameCore { class VCameraFreelook3rdConfig; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_BASEADVENTURECAMERALOOKAT_METHOD_3_788438D614F85474_OFFSET UNITYSDK_OFFSET(0x194B94B0)
-#define RPG_GAMECORE_BASEADVENTURECAMERALOOKAT_METHOD_3_B61871BC8193DACB_OFFSET UNITYSDK_OFFSET(0x194B92C0)
-#define RPG_GAMECORE_BASEADVENTURECAMERALOOKAT__CTOR_OFFSET UNITYSDK_OFFSET(0x194B9470)
+#define RPG_GAMECORE_BASEADVENTURECAMERALOOKAT_METHOD_3_788438D614F85474_OFFSET UNITYSDK_OFFSET(0x1A3DB980)
+#define RPG_GAMECORE_BASEADVENTURECAMERALOOKAT_METHOD_3_FC5EC25EFB6A1DE9_OFFSET UNITYSDK_OFFSET(0x1A3DB800)
+#define RPG_GAMECORE_BASEADVENTURECAMERALOOKAT__CTOR_OFFSET UNITYSDK_OFFSET(0x1A3DB970)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int BaseAdventureCameraLookAt_TypeDefinitionIndex = 22429;
+	inline static constexpr unsigned int BaseAdventureCameraLookAt_TypeDefinitionIndex = 22878;
 
 	class BaseAdventureCameraLookAt : public ::RPG::GameCore::TaskConfig
 	{
@@ -41,9 +41,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BASEADVENTURECAMERALOOKAT__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_B61871BC8193DACB(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::BaseAdventureCameraLookAt*& a2)
+		static ::System::Void Method_3_FC5EC25EFB6A1DE9(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::BaseAdventureCameraLookAt*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::BaseAdventureCameraLookAt*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BASEADVENTURECAMERALOOKAT_METHOD_3_B61871BC8193DACB_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::BaseAdventureCameraLookAt*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BASEADVENTURECAMERALOOKAT_METHOD_3_FC5EC25EFB6A1DE9_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_788438D614F85474(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::BaseAdventureCameraLookAt* a2)

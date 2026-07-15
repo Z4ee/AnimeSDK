@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Attribute.h"
 
-#define SRDEBUGGER_INCREMENTATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1ACE25F0)
+#define SRDEBUGGER_INCREMENTATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1A1EEBD0)
 
 namespace SRDebugger
 {
-	inline static constexpr unsigned int IncrementAttribute_TypeDefinitionIndex = 35626;
+	inline static constexpr unsigned int IncrementAttribute_TypeDefinitionIndex = 36408;
 
 	class IncrementAttribute : public ::System::Attribute
 	{

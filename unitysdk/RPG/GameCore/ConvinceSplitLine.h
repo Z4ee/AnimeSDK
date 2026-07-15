@@ -4,13 +4,13 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_CONVINCESPLITLINE_METHOD_3_19DDA9977D547F3B_OFFSET UNITYSDK_OFFSET(0x1967E700)
-#define RPG_GAMECORE_CONVINCESPLITLINE_METHOD_3_912035860BAD02D2_OFFSET UNITYSDK_OFFSET(0x1967E680)
-#define RPG_GAMECORE_CONVINCESPLITLINE__CTOR_OFFSET UNITYSDK_OFFSET(0x1967E6D0)
+#define RPG_GAMECORE_CONVINCESPLITLINE_METHOD_3_19DDA9977D547F3B_OFFSET UNITYSDK_OFFSET(0x1BC36DE0)
+#define RPG_GAMECORE_CONVINCESPLITLINE_METHOD_3_6EB264BA1FDBC068_OFFSET UNITYSDK_OFFSET(0x1BC36DA0)
+#define RPG_GAMECORE_CONVINCESPLITLINE__CTOR_OFFSET UNITYSDK_OFFSET(0x1BC36DD0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ConvinceSplitLine_TypeDefinitionIndex = 20612;
+	inline static constexpr unsigned int ConvinceSplitLine_TypeDefinitionIndex = 21027;
 
 	class ConvinceSplitLine : public ::RPG::GameCore::TaskConfig
 	{
@@ -22,9 +22,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CONVINCESPLITLINE__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_912035860BAD02D2(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ConvinceSplitLine*& a2)
+		static ::System::Void Method_3_6EB264BA1FDBC068(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ConvinceSplitLine*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ConvinceSplitLine*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CONVINCESPLITLINE_METHOD_3_912035860BAD02D2_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ConvinceSplitLine*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CONVINCESPLITLINE_METHOD_3_6EB264BA1FDBC068_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_19DDA9977D547F3B(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ConvinceSplitLine* a2)

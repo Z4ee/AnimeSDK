@@ -52,210 +52,210 @@ namespace MiHoYo::SDK { class WebDelegate_ShowDevToolsDelegate; }
 namespace MiHoYo::SDK { class WebDelegate_ShowGeetestV4WebDelegate; }
 namespace MiHoYo::SDK { class WebDelegate_UpdateJoypadControlDelegate; }
 
-#define MIHOYO_SDK_WEBDELEGATE__CTOR_OFFSET UNITYSDK_OFFSET(0x18463800)
+#define MIHOYO_SDK_WEBDELEGATE__CTOR_OFFSET UNITYSDK_OFFSET(0x15C23E10)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int WebDelegate_TypeDefinitionIndex = 7758;
+	inline static constexpr unsigned int WebDelegate_TypeDefinitionIndex = 7764;
 
 	class WebDelegate : public ::System::Object
 	{
 	public:
-		static ::MiHoYo::SDK::WebDelegate_RegisterGeetestViewDelegate** StaticGet_RegisterGeetestView()
+		static ::MiHoYo::SDK::WebDelegate_CallJSPublishFunctionDelegate** StaticGet_CallJSPublishFunction()
 		{
-			return (::MiHoYo::SDK::WebDelegate_RegisterGeetestViewDelegate**)Il2CppClass::FromTypeDefinitionIndex(WebDelegate_TypeDefinitionIndex)->GetStaticField(0xB9C0);
-		}
-		static ::MiHoYo::SDK::WebDelegate_SetBackButtonActionDelegate** StaticGet_SetBackButtonAction()
-		{
-			return (::MiHoYo::SDK::WebDelegate_SetBackButtonActionDelegate**)Il2CppClass::FromTypeDefinitionIndex(WebDelegate_TypeDefinitionIndex)->GetStaticField(0xB9C8);
-		}
-		static ::MiHoYo::SDK::WebDelegate_SetWebCookiesDelegate** StaticGet_SetWebCookies()
-		{
-			return (::MiHoYo::SDK::WebDelegate_SetWebCookiesDelegate**)Il2CppClass::FromTypeDefinitionIndex(WebDelegate_TypeDefinitionIndex)->GetStaticField(0xB9D0);
-		}
-		static ::MiHoYo::SDK::WebDelegate_GetUserAgentDelegate** StaticGet_GetUserAgent()
-		{
-			return (::MiHoYo::SDK::WebDelegate_GetUserAgentDelegate**)Il2CppClass::FromTypeDefinitionIndex(WebDelegate_TypeDefinitionIndex)->GetStaticField(0xB9D8);
-		}
-		static ::MiHoYo::SDK::WebDelegate_SetGameVolumeDelegate** StaticGet_SetGameVolume()
-		{
-			return (::MiHoYo::SDK::WebDelegate_SetGameVolumeDelegate**)Il2CppClass::FromTypeDefinitionIndex(WebDelegate_TypeDefinitionIndex)->GetStaticField(0xB9E0);
-		}
-		static ::MiHoYo::SDK::WebDelegate_OnWebViewPopupBrowserCreate** StaticGet_OnPopupBrowserCreate()
-		{
-			return (::MiHoYo::SDK::WebDelegate_OnWebViewPopupBrowserCreate**)Il2CppClass::FromTypeDefinitionIndex(WebDelegate_TypeDefinitionIndex)->GetStaticField(0xB9E8);
-		}
-		static ::MiHoYo::SDK::WebDelegate_ClearBGImgDelegate** StaticGet_ClearBGImg()
-		{
-			return (::MiHoYo::SDK::WebDelegate_ClearBGImgDelegate**)Il2CppClass::FromTypeDefinitionIndex(WebDelegate_TypeDefinitionIndex)->GetStaticField(0xB9F0);
-		}
-		static ::MiHoYo::SDK::WebDelegate_SetZoomEnabledDelegate** StaticGet_SetZoomEnabled()
-		{
-			return (::MiHoYo::SDK::WebDelegate_SetZoomEnabledDelegate**)Il2CppClass::FromTypeDefinitionIndex(WebDelegate_TypeDefinitionIndex)->GetStaticField(0xB9F8);
-		}
-		static ::MiHoYo::SDK::WebDelegate_OnWebViewNativeReady** StaticGet_OnNativeReady()
-		{
-			return (::MiHoYo::SDK::WebDelegate_OnWebViewNativeReady**)Il2CppClass::FromTypeDefinitionIndex(WebDelegate_TypeDefinitionIndex)->GetStaticField(0xBA00);
-		}
-		static ::MiHoYo::SDK::WebDelegate_OnWebViewBeforePageHide** StaticGet_OnPageBeforeHide()
-		{
-			return (::MiHoYo::SDK::WebDelegate_OnWebViewBeforePageHide**)Il2CppClass::FromTypeDefinitionIndex(WebDelegate_TypeDefinitionIndex)->GetStaticField(0xBA08);
-		}
-		static ::MiHoYo::SDK::WebDelegate_SetWebAnimationEnableDelegate** StaticGet_SetWebAnimationEnable()
-		{
-			return (::MiHoYo::SDK::WebDelegate_SetWebAnimationEnableDelegate**)Il2CppClass::FromTypeDefinitionIndex(WebDelegate_TypeDefinitionIndex)->GetStaticField(0xBA10);
-		}
-		static ::MiHoYo::SDK::WebDelegate_SetBackButtonEnabledDelegate** StaticGet_SetBackButtonEnabled()
-		{
-			return (::MiHoYo::SDK::WebDelegate_SetBackButtonEnabledDelegate**)Il2CppClass::FromTypeDefinitionIndex(WebDelegate_TypeDefinitionIndex)->GetStaticField(0xBA18);
-		}
-		static ::MiHoYo::SDK::WebDelegate_OnWebViewBeforeNavigationMessageDelegate** StaticGet_OnBeforeNavigationMessage()
-		{
-			return (::MiHoYo::SDK::WebDelegate_OnWebViewBeforeNavigationMessageDelegate**)Il2CppClass::FromTypeDefinitionIndex(WebDelegate_TypeDefinitionIndex)->GetStaticField(0xBA20);
+			return (::MiHoYo::SDK::WebDelegate_CallJSPublishFunctionDelegate**)Il2CppClass::FromTypeDefinitionIndex(WebDelegate_TypeDefinitionIndex)->GetStaticField(0xBDA0);
 		}
 		static ::MiHoYo::SDK::WebDelegate_SetWebLinearDelegate** StaticGet_SetWebLinear()
 		{
-			return (::MiHoYo::SDK::WebDelegate_SetWebLinearDelegate**)Il2CppClass::FromTypeDefinitionIndex(WebDelegate_TypeDefinitionIndex)->GetStaticField(0xBA28);
-		}
-		static ::MiHoYo::SDK::WebDelegate_SetCookiesDelegate** StaticGet_SetCookies()
-		{
-			return (::MiHoYo::SDK::WebDelegate_SetCookiesDelegate**)Il2CppClass::FromTypeDefinitionIndex(WebDelegate_TypeDefinitionIndex)->GetStaticField(0xBA30);
-		}
-		static ::MiHoYo::SDK::WebDelegate_ClearCookiesDelegate** StaticGet_ClearCookies()
-		{
-			return (::MiHoYo::SDK::WebDelegate_ClearCookiesDelegate**)Il2CppClass::FromTypeDefinitionIndex(WebDelegate_TypeDefinitionIndex)->GetStaticField(0xBA38);
-		}
-		static ::MiHoYo::SDK::WebDelegate_SetUrlQueryDelegate** StaticGet_SetWebUrlQuery()
-		{
-			return (::MiHoYo::SDK::WebDelegate_SetUrlQueryDelegate**)Il2CppClass::FromTypeDefinitionIndex(WebDelegate_TypeDefinitionIndex)->GetStaticField(0xBA40);
-		}
-		static ::MiHoYo::SDK::WebDelegate_ShowDevToolsDelegate** StaticGet_ShowDevTools()
-		{
-			return (::MiHoYo::SDK::WebDelegate_ShowDevToolsDelegate**)Il2CppClass::FromTypeDefinitionIndex(WebDelegate_TypeDefinitionIndex)->GetStaticField(0xBA48);
-		}
-		static ::MiHoYo::SDK::WebDelegate_SetGlobalUserAgentDelegate** StaticGet_SetGlobalUserAgent()
-		{
-			return (::MiHoYo::SDK::WebDelegate_SetGlobalUserAgentDelegate**)Il2CppClass::FromTypeDefinitionIndex(WebDelegate_TypeDefinitionIndex)->GetStaticField(0xBA50);
-		}
-		static ::MiHoYo::SDK::WebDelegate_LoadDelegate** StaticGet_Load()
-		{
-			return (::MiHoYo::SDK::WebDelegate_LoadDelegate**)Il2CppClass::FromTypeDefinitionIndex(WebDelegate_TypeDefinitionIndex)->GetStaticField(0xBA58);
-		}
-		static ::MiHoYo::SDK::WebDelegate_SetAdjustDPIEnableDelegate** StaticGet_SetAdjustDPIEnable()
-		{
-			return (::MiHoYo::SDK::WebDelegate_SetAdjustDPIEnableDelegate**)Il2CppClass::FromTypeDefinitionIndex(WebDelegate_TypeDefinitionIndex)->GetStaticField(0xBA60);
-		}
-		static ::MiHoYo::SDK::WebDelegate_CloseDelegate** StaticGet_Close()
-		{
-			return (::MiHoYo::SDK::WebDelegate_CloseDelegate**)Il2CppClass::FromTypeDefinitionIndex(WebDelegate_TypeDefinitionIndex)->GetStaticField(0xBA68);
-		}
-		static ::MiHoYo::SDK::WebDelegate_CallJSFunctionDelegate** StaticGet_CallJSFunction()
-		{
-			return (::MiHoYo::SDK::WebDelegate_CallJSFunctionDelegate**)Il2CppClass::FromTypeDefinitionIndex(WebDelegate_TypeDefinitionIndex)->GetStaticField(0xBA70);
-		}
-		static ::MiHoYo::SDK::WebDelegate_HideBGDelegate** StaticGet_HideBG()
-		{
-			return (::MiHoYo::SDK::WebDelegate_HideBGDelegate**)Il2CppClass::FromTypeDefinitionIndex(WebDelegate_TypeDefinitionIndex)->GetStaticField(0xBA78);
-		}
-		static ::MiHoYo::SDK::WebDelegate_RegisterJSPostMessageDelegate** StaticGet_RegisterJSPostMessage()
-		{
-			return (::MiHoYo::SDK::WebDelegate_RegisterJSPostMessageDelegate**)Il2CppClass::FromTypeDefinitionIndex(WebDelegate_TypeDefinitionIndex)->GetStaticField(0xBA80);
-		}
-		static ::MiHoYo::SDK::WebDelegate_GetGlobalUserAgentDelegate** StaticGet_GetGlobalUserAgent()
-		{
-			return (::MiHoYo::SDK::WebDelegate_GetGlobalUserAgentDelegate**)Il2CppClass::FromTypeDefinitionIndex(WebDelegate_TypeDefinitionIndex)->GetStaticField(0xBA88);
-		}
-		static ::MiHoYo::SDK::WebDelegate_SetWebVolumeDelegate** StaticGet_SetWebVolume()
-		{
-			return (::MiHoYo::SDK::WebDelegate_SetWebVolumeDelegate**)Il2CppClass::FromTypeDefinitionIndex(WebDelegate_TypeDefinitionIndex)->GetStaticField(0xBA90);
-		}
-		static ::MiHoYo::SDK::WebDelegate_SetForwardButtonEnabledDelegate** StaticGet_SetForwardButtonEnabled()
-		{
-			return (::MiHoYo::SDK::WebDelegate_SetForwardButtonEnabledDelegate**)Il2CppClass::FromTypeDefinitionIndex(WebDelegate_TypeDefinitionIndex)->GetStaticField(0xBA98);
-		}
-		static ::MiHoYo::SDK::WebDelegate_OnUniWebViewMessageDelegate** StaticGet_OnUniWebViewMessage()
-		{
-			return (::MiHoYo::SDK::WebDelegate_OnUniWebViewMessageDelegate**)Il2CppClass::FromTypeDefinitionIndex(WebDelegate_TypeDefinitionIndex)->GetStaticField(0xBAA0);
-		}
-		static ::MiHoYo::SDK::WebDelegate_SetUserAgentDelegate** StaticGet_SetUserAgent()
-		{
-			return (::MiHoYo::SDK::WebDelegate_SetUserAgentDelegate**)Il2CppClass::FromTypeDefinitionIndex(WebDelegate_TypeDefinitionIndex)->GetStaticField(0xBAA8);
-		}
-		static ::MiHoYo::SDK::WebDelegate_GeetestLoadURLDelegate** StaticGet_GeetestLoadURL()
-		{
-			return (::MiHoYo::SDK::WebDelegate_GeetestLoadURLDelegate**)Il2CppClass::FromTypeDefinitionIndex(WebDelegate_TypeDefinitionIndex)->GetStaticField(0xBAB0);
+			return (::MiHoYo::SDK::WebDelegate_SetWebLinearDelegate**)Il2CppClass::FromTypeDefinitionIndex(WebDelegate_TypeDefinitionIndex)->GetStaticField(0xBDA8);
 		}
 		static ::MiHoYo::SDK::WebDelegate_PreLoadDelegate** StaticGet_PreLoad()
 		{
-			return (::MiHoYo::SDK::WebDelegate_PreLoadDelegate**)Il2CppClass::FromTypeDefinitionIndex(WebDelegate_TypeDefinitionIndex)->GetStaticField(0xBAB8);
-		}
-		static ::MiHoYo::SDK::WebDelegate_OnWebViewPageError** StaticGet_OnPageError()
-		{
-			return (::MiHoYo::SDK::WebDelegate_OnWebViewPageError**)Il2CppClass::FromTypeDefinitionIndex(WebDelegate_TypeDefinitionIndex)->GetStaticField(0xBAC0);
-		}
-		static ::MiHoYo::SDK::WebDelegate_ShowGeetestV4WebDelegate** StaticGet_ShowGeetestV4Web()
-		{
-			return (::MiHoYo::SDK::WebDelegate_ShowGeetestV4WebDelegate**)Il2CppClass::FromTypeDefinitionIndex(WebDelegate_TypeDefinitionIndex)->GetStaticField(0xBAC8);
-		}
-		static ::MiHoYo::SDK::WebDelegate_HideDelegate** StaticGet_Hide()
-		{
-			return (::MiHoYo::SDK::WebDelegate_HideDelegate**)Il2CppClass::FromTypeDefinitionIndex(WebDelegate_TypeDefinitionIndex)->GetStaticField(0xBAD0);
-		}
-		static ::MiHoYo::SDK::WebDelegate_SetCurrentWebviewAnimationEnableDelegate** StaticGet_SetCurrentWebviewAnimationEnable()
-		{
-			return (::MiHoYo::SDK::WebDelegate_SetCurrentWebviewAnimationEnableDelegate**)Il2CppClass::FromTypeDefinitionIndex(WebDelegate_TypeDefinitionIndex)->GetStaticField(0xBAD8);
-		}
-		static ::MiHoYo::SDK::WebDelegate_QueryIsOffScreenRenderingDelegate** StaticGet_QueryIsOffScreenRendering()
-		{
-			return (::MiHoYo::SDK::WebDelegate_QueryIsOffScreenRenderingDelegate**)Il2CppClass::FromTypeDefinitionIndex(WebDelegate_TypeDefinitionIndex)->GetStaticField(0xBAE0);
-		}
-		static ::MiHoYo::SDK::WebDelegate_HideNavigationBarDelegate** StaticGet_HideNavigationBar()
-		{
-			return (::MiHoYo::SDK::WebDelegate_HideNavigationBarDelegate**)Il2CppClass::FromTypeDefinitionIndex(WebDelegate_TypeDefinitionIndex)->GetStaticField(0xBAE8);
-		}
-		static ::MiHoYo::SDK::WebDelegate_OnWebViewInputEnableStatus** StaticGet_OnInputEnableStatus()
-		{
-			return (::MiHoYo::SDK::WebDelegate_OnWebViewInputEnableStatus**)Il2CppClass::FromTypeDefinitionIndex(WebDelegate_TypeDefinitionIndex)->GetStaticField(0xBAF0);
-		}
-		static ::MiHoYo::SDK::WebDelegate_SetFrameDelegate** StaticGet_SetFrame()
-		{
-			return (::MiHoYo::SDK::WebDelegate_SetFrameDelegate**)Il2CppClass::FromTypeDefinitionIndex(WebDelegate_TypeDefinitionIndex)->GetStaticField(0xBAF8);
-		}
-		static ::MiHoYo::SDK::WebDelegate_SetBouncesEnabledDelegate** StaticGet_SetBouncesEnabled()
-		{
-			return (::MiHoYo::SDK::WebDelegate_SetBouncesEnabledDelegate**)Il2CppClass::FromTypeDefinitionIndex(WebDelegate_TypeDefinitionIndex)->GetStaticField(0xBB00);
-		}
-		static ::MiHoYo::SDK::WebDelegate_OnWebViewPageClose** StaticGet_OnPageClose()
-		{
-			return (::MiHoYo::SDK::WebDelegate_OnWebViewPageClose**)Il2CppClass::FromTypeDefinitionIndex(WebDelegate_TypeDefinitionIndex)->GetStaticField(0xBB08);
-		}
-		static ::MiHoYo::SDK::WebDelegate_ShowDelegate** StaticGet_Show()
-		{
-			return (::MiHoYo::SDK::WebDelegate_ShowDelegate**)Il2CppClass::FromTypeDefinitionIndex(WebDelegate_TypeDefinitionIndex)->GetStaticField(0xBB10);
-		}
-		static ::MiHoYo::SDK::WebDelegate_OnWebViewPageFinish** StaticGet_OnPageFinish()
-		{
-			return (::MiHoYo::SDK::WebDelegate_OnWebViewPageFinish**)Il2CppClass::FromTypeDefinitionIndex(WebDelegate_TypeDefinitionIndex)->GetStaticField(0xBB18);
-		}
-		static ::MiHoYo::SDK::WebDelegate_SetNewWindowTypeDelegate** StaticGet_SetNewWindowType()
-		{
-			return (::MiHoYo::SDK::WebDelegate_SetNewWindowTypeDelegate**)Il2CppClass::FromTypeDefinitionIndex(WebDelegate_TypeDefinitionIndex)->GetStaticField(0xBB20);
-		}
-		static ::MiHoYo::SDK::WebDelegate_CallJSPublishFunctionDelegate** StaticGet_CallJSPublishFunction()
-		{
-			return (::MiHoYo::SDK::WebDelegate_CallJSPublishFunctionDelegate**)Il2CppClass::FromTypeDefinitionIndex(WebDelegate_TypeDefinitionIndex)->GetStaticField(0xBB28);
-		}
-		static ::MiHoYo::SDK::WebDelegate_SetWebFeatureDelegate** StaticGet_SetWebFeature()
-		{
-			return (::MiHoYo::SDK::WebDelegate_SetWebFeatureDelegate**)Il2CppClass::FromTypeDefinitionIndex(WebDelegate_TypeDefinitionIndex)->GetStaticField(0xBB30);
+			return (::MiHoYo::SDK::WebDelegate_PreLoadDelegate**)Il2CppClass::FromTypeDefinitionIndex(WebDelegate_TypeDefinitionIndex)->GetStaticField(0xBDB0);
 		}
 		static ::MiHoYo::SDK::WebDelegate_InitDelegate** StaticGet_Init()
 		{
-			return (::MiHoYo::SDK::WebDelegate_InitDelegate**)Il2CppClass::FromTypeDefinitionIndex(WebDelegate_TypeDefinitionIndex)->GetStaticField(0xBB38);
+			return (::MiHoYo::SDK::WebDelegate_InitDelegate**)Il2CppClass::FromTypeDefinitionIndex(WebDelegate_TypeDefinitionIndex)->GetStaticField(0xBDB8);
+		}
+		static ::MiHoYo::SDK::WebDelegate_SetForwardButtonEnabledDelegate** StaticGet_SetForwardButtonEnabled()
+		{
+			return (::MiHoYo::SDK::WebDelegate_SetForwardButtonEnabledDelegate**)Il2CppClass::FromTypeDefinitionIndex(WebDelegate_TypeDefinitionIndex)->GetStaticField(0xBDC0);
+		}
+		static ::MiHoYo::SDK::WebDelegate_ClearCookiesDelegate** StaticGet_ClearCookies()
+		{
+			return (::MiHoYo::SDK::WebDelegate_ClearCookiesDelegate**)Il2CppClass::FromTypeDefinitionIndex(WebDelegate_TypeDefinitionIndex)->GetStaticField(0xBDC8);
+		}
+		static ::MiHoYo::SDK::WebDelegate_ShowGeetestV4WebDelegate** StaticGet_ShowGeetestV4Web()
+		{
+			return (::MiHoYo::SDK::WebDelegate_ShowGeetestV4WebDelegate**)Il2CppClass::FromTypeDefinitionIndex(WebDelegate_TypeDefinitionIndex)->GetStaticField(0xBDD0);
+		}
+		static ::MiHoYo::SDK::WebDelegate_RegisterJSPostMessageDelegate** StaticGet_RegisterJSPostMessage()
+		{
+			return (::MiHoYo::SDK::WebDelegate_RegisterJSPostMessageDelegate**)Il2CppClass::FromTypeDefinitionIndex(WebDelegate_TypeDefinitionIndex)->GetStaticField(0xBDD8);
+		}
+		static ::MiHoYo::SDK::WebDelegate_OnWebViewNativeReady** StaticGet_OnNativeReady()
+		{
+			return (::MiHoYo::SDK::WebDelegate_OnWebViewNativeReady**)Il2CppClass::FromTypeDefinitionIndex(WebDelegate_TypeDefinitionIndex)->GetStaticField(0xBDE0);
+		}
+		static ::MiHoYo::SDK::WebDelegate_OnWebViewPageFinish** StaticGet_OnPageFinish()
+		{
+			return (::MiHoYo::SDK::WebDelegate_OnWebViewPageFinish**)Il2CppClass::FromTypeDefinitionIndex(WebDelegate_TypeDefinitionIndex)->GetStaticField(0xBDE8);
 		}
 		static ::MiHoYo::SDK::WebDelegate_UpdateJoypadControlDelegate** StaticGet_UpdateJoypadControl()
 		{
-			return (::MiHoYo::SDK::WebDelegate_UpdateJoypadControlDelegate**)Il2CppClass::FromTypeDefinitionIndex(WebDelegate_TypeDefinitionIndex)->GetStaticField(0xBB40);
+			return (::MiHoYo::SDK::WebDelegate_UpdateJoypadControlDelegate**)Il2CppClass::FromTypeDefinitionIndex(WebDelegate_TypeDefinitionIndex)->GetStaticField(0xBDF0);
+		}
+		static ::MiHoYo::SDK::WebDelegate_SetZoomEnabledDelegate** StaticGet_SetZoomEnabled()
+		{
+			return (::MiHoYo::SDK::WebDelegate_SetZoomEnabledDelegate**)Il2CppClass::FromTypeDefinitionIndex(WebDelegate_TypeDefinitionIndex)->GetStaticField(0xBDF8);
+		}
+		static ::MiHoYo::SDK::WebDelegate_SetAdjustDPIEnableDelegate** StaticGet_SetAdjustDPIEnable()
+		{
+			return (::MiHoYo::SDK::WebDelegate_SetAdjustDPIEnableDelegate**)Il2CppClass::FromTypeDefinitionIndex(WebDelegate_TypeDefinitionIndex)->GetStaticField(0xBE00);
+		}
+		static ::MiHoYo::SDK::WebDelegate_OnUniWebViewMessageDelegate** StaticGet_OnUniWebViewMessage()
+		{
+			return (::MiHoYo::SDK::WebDelegate_OnUniWebViewMessageDelegate**)Il2CppClass::FromTypeDefinitionIndex(WebDelegate_TypeDefinitionIndex)->GetStaticField(0xBE08);
+		}
+		static ::MiHoYo::SDK::WebDelegate_GeetestLoadURLDelegate** StaticGet_GeetestLoadURL()
+		{
+			return (::MiHoYo::SDK::WebDelegate_GeetestLoadURLDelegate**)Il2CppClass::FromTypeDefinitionIndex(WebDelegate_TypeDefinitionIndex)->GetStaticField(0xBE10);
+		}
+		static ::MiHoYo::SDK::WebDelegate_OnWebViewBeforePageHide** StaticGet_OnPageBeforeHide()
+		{
+			return (::MiHoYo::SDK::WebDelegate_OnWebViewBeforePageHide**)Il2CppClass::FromTypeDefinitionIndex(WebDelegate_TypeDefinitionIndex)->GetStaticField(0xBE18);
+		}
+		static ::MiHoYo::SDK::WebDelegate_SetUserAgentDelegate** StaticGet_SetUserAgent()
+		{
+			return (::MiHoYo::SDK::WebDelegate_SetUserAgentDelegate**)Il2CppClass::FromTypeDefinitionIndex(WebDelegate_TypeDefinitionIndex)->GetStaticField(0xBE20);
+		}
+		static ::MiHoYo::SDK::WebDelegate_SetWebCookiesDelegate** StaticGet_SetWebCookies()
+		{
+			return (::MiHoYo::SDK::WebDelegate_SetWebCookiesDelegate**)Il2CppClass::FromTypeDefinitionIndex(WebDelegate_TypeDefinitionIndex)->GetStaticField(0xBE28);
+		}
+		static ::MiHoYo::SDK::WebDelegate_SetCookiesDelegate** StaticGet_SetCookies()
+		{
+			return (::MiHoYo::SDK::WebDelegate_SetCookiesDelegate**)Il2CppClass::FromTypeDefinitionIndex(WebDelegate_TypeDefinitionIndex)->GetStaticField(0xBE30);
+		}
+		static ::MiHoYo::SDK::WebDelegate_SetUrlQueryDelegate** StaticGet_SetWebUrlQuery()
+		{
+			return (::MiHoYo::SDK::WebDelegate_SetUrlQueryDelegate**)Il2CppClass::FromTypeDefinitionIndex(WebDelegate_TypeDefinitionIndex)->GetStaticField(0xBE38);
+		}
+		static ::MiHoYo::SDK::WebDelegate_HideBGDelegate** StaticGet_HideBG()
+		{
+			return (::MiHoYo::SDK::WebDelegate_HideBGDelegate**)Il2CppClass::FromTypeDefinitionIndex(WebDelegate_TypeDefinitionIndex)->GetStaticField(0xBE40);
+		}
+		static ::MiHoYo::SDK::WebDelegate_OnWebViewInputEnableStatus** StaticGet_OnInputEnableStatus()
+		{
+			return (::MiHoYo::SDK::WebDelegate_OnWebViewInputEnableStatus**)Il2CppClass::FromTypeDefinitionIndex(WebDelegate_TypeDefinitionIndex)->GetStaticField(0xBE48);
+		}
+		static ::MiHoYo::SDK::WebDelegate_RegisterGeetestViewDelegate** StaticGet_RegisterGeetestView()
+		{
+			return (::MiHoYo::SDK::WebDelegate_RegisterGeetestViewDelegate**)Il2CppClass::FromTypeDefinitionIndex(WebDelegate_TypeDefinitionIndex)->GetStaticField(0xBE50);
+		}
+		static ::MiHoYo::SDK::WebDelegate_HideDelegate** StaticGet_Hide()
+		{
+			return (::MiHoYo::SDK::WebDelegate_HideDelegate**)Il2CppClass::FromTypeDefinitionIndex(WebDelegate_TypeDefinitionIndex)->GetStaticField(0xBE58);
+		}
+		static ::MiHoYo::SDK::WebDelegate_SetGameVolumeDelegate** StaticGet_SetGameVolume()
+		{
+			return (::MiHoYo::SDK::WebDelegate_SetGameVolumeDelegate**)Il2CppClass::FromTypeDefinitionIndex(WebDelegate_TypeDefinitionIndex)->GetStaticField(0xBE60);
+		}
+		static ::MiHoYo::SDK::WebDelegate_SetBackButtonEnabledDelegate** StaticGet_SetBackButtonEnabled()
+		{
+			return (::MiHoYo::SDK::WebDelegate_SetBackButtonEnabledDelegate**)Il2CppClass::FromTypeDefinitionIndex(WebDelegate_TypeDefinitionIndex)->GetStaticField(0xBE68);
+		}
+		static ::MiHoYo::SDK::WebDelegate_SetBouncesEnabledDelegate** StaticGet_SetBouncesEnabled()
+		{
+			return (::MiHoYo::SDK::WebDelegate_SetBouncesEnabledDelegate**)Il2CppClass::FromTypeDefinitionIndex(WebDelegate_TypeDefinitionIndex)->GetStaticField(0xBE70);
+		}
+		static ::MiHoYo::SDK::WebDelegate_HideNavigationBarDelegate** StaticGet_HideNavigationBar()
+		{
+			return (::MiHoYo::SDK::WebDelegate_HideNavigationBarDelegate**)Il2CppClass::FromTypeDefinitionIndex(WebDelegate_TypeDefinitionIndex)->GetStaticField(0xBE78);
+		}
+		static ::MiHoYo::SDK::WebDelegate_QueryIsOffScreenRenderingDelegate** StaticGet_QueryIsOffScreenRendering()
+		{
+			return (::MiHoYo::SDK::WebDelegate_QueryIsOffScreenRenderingDelegate**)Il2CppClass::FromTypeDefinitionIndex(WebDelegate_TypeDefinitionIndex)->GetStaticField(0xBE80);
+		}
+		static ::MiHoYo::SDK::WebDelegate_GetUserAgentDelegate** StaticGet_GetUserAgent()
+		{
+			return (::MiHoYo::SDK::WebDelegate_GetUserAgentDelegate**)Il2CppClass::FromTypeDefinitionIndex(WebDelegate_TypeDefinitionIndex)->GetStaticField(0xBE88);
+		}
+		static ::MiHoYo::SDK::WebDelegate_SetWebFeatureDelegate** StaticGet_SetWebFeature()
+		{
+			return (::MiHoYo::SDK::WebDelegate_SetWebFeatureDelegate**)Il2CppClass::FromTypeDefinitionIndex(WebDelegate_TypeDefinitionIndex)->GetStaticField(0xBE90);
+		}
+		static ::MiHoYo::SDK::WebDelegate_SetCurrentWebviewAnimationEnableDelegate** StaticGet_SetCurrentWebviewAnimationEnable()
+		{
+			return (::MiHoYo::SDK::WebDelegate_SetCurrentWebviewAnimationEnableDelegate**)Il2CppClass::FromTypeDefinitionIndex(WebDelegate_TypeDefinitionIndex)->GetStaticField(0xBE98);
+		}
+		static ::MiHoYo::SDK::WebDelegate_SetBackButtonActionDelegate** StaticGet_SetBackButtonAction()
+		{
+			return (::MiHoYo::SDK::WebDelegate_SetBackButtonActionDelegate**)Il2CppClass::FromTypeDefinitionIndex(WebDelegate_TypeDefinitionIndex)->GetStaticField(0xBEA0);
+		}
+		static ::MiHoYo::SDK::WebDelegate_OnWebViewPageClose** StaticGet_OnPageClose()
+		{
+			return (::MiHoYo::SDK::WebDelegate_OnWebViewPageClose**)Il2CppClass::FromTypeDefinitionIndex(WebDelegate_TypeDefinitionIndex)->GetStaticField(0xBEA8);
+		}
+		static ::MiHoYo::SDK::WebDelegate_LoadDelegate** StaticGet_Load()
+		{
+			return (::MiHoYo::SDK::WebDelegate_LoadDelegate**)Il2CppClass::FromTypeDefinitionIndex(WebDelegate_TypeDefinitionIndex)->GetStaticField(0xBEB0);
+		}
+		static ::MiHoYo::SDK::WebDelegate_ShowDevToolsDelegate** StaticGet_ShowDevTools()
+		{
+			return (::MiHoYo::SDK::WebDelegate_ShowDevToolsDelegate**)Il2CppClass::FromTypeDefinitionIndex(WebDelegate_TypeDefinitionIndex)->GetStaticField(0xBEB8);
+		}
+		static ::MiHoYo::SDK::WebDelegate_SetWebAnimationEnableDelegate** StaticGet_SetWebAnimationEnable()
+		{
+			return (::MiHoYo::SDK::WebDelegate_SetWebAnimationEnableDelegate**)Il2CppClass::FromTypeDefinitionIndex(WebDelegate_TypeDefinitionIndex)->GetStaticField(0xBEC0);
+		}
+		static ::MiHoYo::SDK::WebDelegate_SetWebVolumeDelegate** StaticGet_SetWebVolume()
+		{
+			return (::MiHoYo::SDK::WebDelegate_SetWebVolumeDelegate**)Il2CppClass::FromTypeDefinitionIndex(WebDelegate_TypeDefinitionIndex)->GetStaticField(0xBEC8);
+		}
+		static ::MiHoYo::SDK::WebDelegate_SetFrameDelegate** StaticGet_SetFrame()
+		{
+			return (::MiHoYo::SDK::WebDelegate_SetFrameDelegate**)Il2CppClass::FromTypeDefinitionIndex(WebDelegate_TypeDefinitionIndex)->GetStaticField(0xBED0);
+		}
+		static ::MiHoYo::SDK::WebDelegate_GetGlobalUserAgentDelegate** StaticGet_GetGlobalUserAgent()
+		{
+			return (::MiHoYo::SDK::WebDelegate_GetGlobalUserAgentDelegate**)Il2CppClass::FromTypeDefinitionIndex(WebDelegate_TypeDefinitionIndex)->GetStaticField(0xBED8);
+		}
+		static ::MiHoYo::SDK::WebDelegate_SetGlobalUserAgentDelegate** StaticGet_SetGlobalUserAgent()
+		{
+			return (::MiHoYo::SDK::WebDelegate_SetGlobalUserAgentDelegate**)Il2CppClass::FromTypeDefinitionIndex(WebDelegate_TypeDefinitionIndex)->GetStaticField(0xBEE0);
+		}
+		static ::MiHoYo::SDK::WebDelegate_ShowDelegate** StaticGet_Show()
+		{
+			return (::MiHoYo::SDK::WebDelegate_ShowDelegate**)Il2CppClass::FromTypeDefinitionIndex(WebDelegate_TypeDefinitionIndex)->GetStaticField(0xBEE8);
+		}
+		static ::MiHoYo::SDK::WebDelegate_OnWebViewPopupBrowserCreate** StaticGet_OnPopupBrowserCreate()
+		{
+			return (::MiHoYo::SDK::WebDelegate_OnWebViewPopupBrowserCreate**)Il2CppClass::FromTypeDefinitionIndex(WebDelegate_TypeDefinitionIndex)->GetStaticField(0xBEF0);
+		}
+		static ::MiHoYo::SDK::WebDelegate_CallJSFunctionDelegate** StaticGet_CallJSFunction()
+		{
+			return (::MiHoYo::SDK::WebDelegate_CallJSFunctionDelegate**)Il2CppClass::FromTypeDefinitionIndex(WebDelegate_TypeDefinitionIndex)->GetStaticField(0xBEF8);
+		}
+		static ::MiHoYo::SDK::WebDelegate_CloseDelegate** StaticGet_Close()
+		{
+			return (::MiHoYo::SDK::WebDelegate_CloseDelegate**)Il2CppClass::FromTypeDefinitionIndex(WebDelegate_TypeDefinitionIndex)->GetStaticField(0xBF00);
+		}
+		static ::MiHoYo::SDK::WebDelegate_ClearBGImgDelegate** StaticGet_ClearBGImg()
+		{
+			return (::MiHoYo::SDK::WebDelegate_ClearBGImgDelegate**)Il2CppClass::FromTypeDefinitionIndex(WebDelegate_TypeDefinitionIndex)->GetStaticField(0xBF08);
+		}
+		static ::MiHoYo::SDK::WebDelegate_SetNewWindowTypeDelegate** StaticGet_SetNewWindowType()
+		{
+			return (::MiHoYo::SDK::WebDelegate_SetNewWindowTypeDelegate**)Il2CppClass::FromTypeDefinitionIndex(WebDelegate_TypeDefinitionIndex)->GetStaticField(0xBF10);
+		}
+		static ::MiHoYo::SDK::WebDelegate_OnWebViewBeforeNavigationMessageDelegate** StaticGet_OnBeforeNavigationMessage()
+		{
+			return (::MiHoYo::SDK::WebDelegate_OnWebViewBeforeNavigationMessageDelegate**)Il2CppClass::FromTypeDefinitionIndex(WebDelegate_TypeDefinitionIndex)->GetStaticField(0xBF18);
+		}
+		static ::MiHoYo::SDK::WebDelegate_OnWebViewPageError** StaticGet_OnPageError()
+		{
+			return (::MiHoYo::SDK::WebDelegate_OnWebViewPageError**)Il2CppClass::FromTypeDefinitionIndex(WebDelegate_TypeDefinitionIndex)->GetStaticField(0xBF20);
 		}
 
 		::System::Void _ctor()

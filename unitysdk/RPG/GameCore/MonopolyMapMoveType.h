@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MonopolyMapMoveType_TypeDefinitionIndex = 15423;
+	inline static constexpr unsigned int MonopolyMapMoveType_TypeDefinitionIndex = 15594;
 
 	enum class MonopolyMapMoveType : ::System::Int32
 	{

@@ -4,7 +4,7 @@
 
 namespace ZLinq::Internal
 {
-	inline static constexpr unsigned int HashSetSlim_1_Entry_TypeDefinitionIndex = 6391;
+	inline static constexpr unsigned int HashSetSlim_1_Entry_TypeDefinitionIndex = 6396;
 
 	template <typename T>
 	struct HashSetSlim_1_Entry

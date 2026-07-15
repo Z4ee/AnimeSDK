@@ -4,13 +4,13 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_WOLFBROPUZZLEREPORT_METHOD_3_447C60975DB5690E_OFFSET UNITYSDK_OFFSET(0x19E68FB0)
-#define RPG_GAMECORE_WOLFBROPUZZLEREPORT_METHOD_3_8B5D36E8D0571EB6_OFFSET UNITYSDK_OFFSET(0x19E68F30)
-#define RPG_GAMECORE_WOLFBROPUZZLEREPORT__CTOR_OFFSET UNITYSDK_OFFSET(0x19E68F80)
+#define RPG_GAMECORE_WOLFBROPUZZLEREPORT_METHOD_3_447C60975DB5690E_OFFSET UNITYSDK_OFFSET(0x1D1C3960)
+#define RPG_GAMECORE_WOLFBROPUZZLEREPORT_METHOD_3_B83653BE60759046_OFFSET UNITYSDK_OFFSET(0x1D1C3920)
+#define RPG_GAMECORE_WOLFBROPUZZLEREPORT__CTOR_OFFSET UNITYSDK_OFFSET(0x1D1C3950)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int WolfBroPuzzleReport_TypeDefinitionIndex = 19230;
+	inline static constexpr unsigned int WolfBroPuzzleReport_TypeDefinitionIndex = 19586;
 
 	class WolfBroPuzzleReport : public ::RPG::GameCore::TaskConfig
 	{
@@ -26,9 +26,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_WOLFBROPUZZLEREPORT__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_8B5D36E8D0571EB6(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::WolfBroPuzzleReport*& a2)
+		static ::System::Void Method_3_B83653BE60759046(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::WolfBroPuzzleReport*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::WolfBroPuzzleReport*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_WOLFBROPUZZLEREPORT_METHOD_3_8B5D36E8D0571EB6_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::WolfBroPuzzleReport*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_WOLFBROPUZZLEREPORT_METHOD_3_B83653BE60759046_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_447C60975DB5690E(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::WolfBroPuzzleReport* a2)

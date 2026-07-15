@@ -6,11 +6,11 @@
 
 namespace System { class String; }
 
-#define RPG_CLIENT_PROP_CHIMERADUELINITIALEFFECTCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0xC50BDD0)
+#define RPG_CLIENT_PROP_CHIMERADUELINITIALEFFECTCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x16E22760)
 
 namespace RPG::Client::Prop
 {
-	inline static constexpr unsigned int ChimeraDuelInitialEffectConfig_TypeDefinitionIndex = 72840;
+	inline static constexpr unsigned int ChimeraDuelInitialEffectConfig_TypeDefinitionIndex = 74365;
 
 	class ChimeraDuelInitialEffectConfig : public ::System::Object
 	{

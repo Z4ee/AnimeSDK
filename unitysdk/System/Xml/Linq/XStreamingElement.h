@@ -6,7 +6,7 @@ namespace System::Xml::Linq { class XName; }
 
 namespace System::Xml::Linq
 {
-	inline static constexpr unsigned int XStreamingElement_TypeDefinitionIndex = 3896;
+	inline static constexpr unsigned int XStreamingElement_TypeDefinitionIndex = 3900;
 
 	class XStreamingElement : public ::System::Object
 	{

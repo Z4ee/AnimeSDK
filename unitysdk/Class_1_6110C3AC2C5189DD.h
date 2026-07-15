@@ -5,22 +5,22 @@
 
 class Class_1_73D621BDD90E61A7;
 class Class_1_D8203AFB32E9259C;
-class Class_2_074660E1B46C96C1_Class_1_9D2500B7447E67F1;
+class Class_2_B078978DCA0CA7A4_Class_1_9D2500B7447E67F1;
 namespace RPG::GameCore { class GameEntity; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_1_6110C3AC2C5189DD_METHOD_1_52474B8C56A29315_OFFSET UNITYSDK_OFFSET(0x1356CC80)
-#define CLASS_1_6110C3AC2C5189DD_METHOD_1_8FA2956940AE948F_OFFSET UNITYSDK_OFFSET(0x1356CDB0)
-#define CLASS_1_6110C3AC2C5189DD__CTOR_OFFSET UNITYSDK_OFFSET(0x1356CEE0)
+#define CLASS_1_6110C3AC2C5189DD_METHOD_1_52474B8C56A29315_OFFSET UNITYSDK_OFFSET(0x17EA91E0)
+#define CLASS_1_6110C3AC2C5189DD_METHOD_1_8FA2956940AE948F_OFFSET UNITYSDK_OFFSET(0x17EA9310)
+#define CLASS_1_6110C3AC2C5189DD__CTOR_OFFSET UNITYSDK_OFFSET(0x17EA9440)
 
-inline static constexpr unsigned int Class_1_6110C3AC2C5189DD_TypeDefinitionIndex = 50584;
+inline static constexpr unsigned int Class_1_6110C3AC2C5189DD_TypeDefinitionIndex = 51666;
 
 class Class_1_6110C3AC2C5189DD : public ::System::Object
 {
 public:
-	::Class_1_73D621BDD90E61A7* Field_1_0; // 0x10
-	::Class_2_074660E1B46C96C1_Class_1_9D2500B7447E67F1* Field_1_1; // 0x18
-	::System::Collections::Generic::List_1<::RPG::GameCore::GameEntity*>* Field_1_2; // 0x20
+	::Class_2_B078978DCA0CA7A4_Class_1_9D2500B7447E67F1* Field_1_0; // 0x10
+	::System::Collections::Generic::List_1<::RPG::GameCore::GameEntity*>* Field_1_1; // 0x18
+	::Class_1_73D621BDD90E61A7* Field_1_2; // 0x20
 
 	::System::Void _ctor()
 	{

@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/AsyncOperation.h"
 
-#define UNITYENGINE_ASSETBUNDLEINSTANTIATEPREFABREQUEST__CTOR_OFFSET UNITYSDK_OFFSET(0x1B26CCE0)
+#define UNITYENGINE_ASSETBUNDLEINSTANTIATEPREFABREQUEST__CTOR_OFFSET UNITYSDK_OFFSET(0x1D2FA6E0)
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int AssetBundleInstantiatePrefabRequest_TypeDefinitionIndex = 5694;
+	inline static constexpr unsigned int AssetBundleInstantiatePrefabRequest_TypeDefinitionIndex = 5699;
 
 	class AssetBundleInstantiatePrefabRequest : public ::UnityEngine::AsyncOperation
 	{

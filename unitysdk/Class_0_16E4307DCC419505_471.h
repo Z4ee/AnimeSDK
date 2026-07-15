@@ -1,12 +1,9 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/FixPoint.h"
-#include "unitysdk/RPG/GameCore/RtInsertActionPhase.h"
+#include "unitysdk/Struct_2_87C8F594A107C13B.h"
 
-class Class_1_E03F8E82A66D87F1;
-namespace System { class Object; }
-
-inline static constexpr unsigned int Class_0_16E4307DCC419505_471_TypeDefinitionIndex = 50561;
+inline static constexpr unsigned int Class_0_16E4307DCC419505_471_TypeDefinitionIndex = 51535;
 
 class Class_0_16E4307DCC419505_471
 {

@@ -11,7 +11,7 @@ namespace System::Net::Http::Headers { template <typename T> class TryParseDeleg
 
 namespace System::Net::Http::Headers
 {
-	inline static constexpr unsigned int HeaderInfo_HeaderTypeInfo_2_TypeDefinitionIndex = 3776;
+	inline static constexpr unsigned int HeaderInfo_HeaderTypeInfo_2_TypeDefinitionIndex = 3780;
 
 	template <typename T, typename U>
 	class HeaderInfo_HeaderTypeInfo_2 : public ::System::Net::Http::Headers::HeaderInfo

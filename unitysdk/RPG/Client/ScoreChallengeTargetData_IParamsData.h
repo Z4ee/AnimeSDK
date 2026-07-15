@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ScoreChallengeTargetData_IParamsData_TypeDefinitionIndex = 59063;
+	inline static constexpr unsigned int ScoreChallengeTargetData_IParamsData_TypeDefinitionIndex = 60334;
 
 	class ScoreChallengeTargetData_IParamsData
 	{

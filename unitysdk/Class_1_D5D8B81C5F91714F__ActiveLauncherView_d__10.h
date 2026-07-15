@@ -10,33 +10,33 @@ namespace RPG::Client::Prop { class DestroyRootPuzzleChess; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class WaitForSeconds; }
 
-#define CLASS_1_D5D8B81C5F91714F__ACTIVELAUNCHERVIEW_D__10_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x138C35E0)
-#define CLASS_1_D5D8B81C5F91714F__ACTIVELAUNCHERVIEW_D__10_SYSTEM_COLLECTIONS_GENERIC_IENUMERATOR_SYSTEM_OBJECT__GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x138C43B0)
-#define CLASS_1_D5D8B81C5F91714F__ACTIVELAUNCHERVIEW_D__10_SYSTEM_COLLECTIONS_IENUMERATOR_GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x138C4410)
-#define CLASS_1_D5D8B81C5F91714F__ACTIVELAUNCHERVIEW_D__10_SYSTEM_COLLECTIONS_IENUMERATOR_RESET_OFFSET UNITYSDK_OFFSET(0x138C43C0)
-#define CLASS_1_D5D8B81C5F91714F__ACTIVELAUNCHERVIEW_D__10_SYSTEM_IDISPOSABLE_DISPOSE_OFFSET UNITYSDK_OFFSET(0x138C35B0)
-#define CLASS_1_D5D8B81C5F91714F__ACTIVELAUNCHERVIEW_D__10__CTOR_OFFSET UNITYSDK_OFFSET(0x138C2CA0)
+#define CLASS_1_D5D8B81C5F91714F__ACTIVELAUNCHERVIEW_D__10_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x18B6C700)
+#define CLASS_1_D5D8B81C5F91714F__ACTIVELAUNCHERVIEW_D__10_SYSTEM_COLLECTIONS_GENERIC_IENUMERATOR_SYSTEM_OBJECT__GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x18B6D4C0)
+#define CLASS_1_D5D8B81C5F91714F__ACTIVELAUNCHERVIEW_D__10_SYSTEM_COLLECTIONS_IENUMERATOR_GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x18B6D520)
+#define CLASS_1_D5D8B81C5F91714F__ACTIVELAUNCHERVIEW_D__10_SYSTEM_COLLECTIONS_IENUMERATOR_RESET_OFFSET UNITYSDK_OFFSET(0x18B6D4D0)
+#define CLASS_1_D5D8B81C5F91714F__ACTIVELAUNCHERVIEW_D__10_SYSTEM_IDISPOSABLE_DISPOSE_OFFSET UNITYSDK_OFFSET(0x18B6C6E0)
+#define CLASS_1_D5D8B81C5F91714F__ACTIVELAUNCHERVIEW_D__10__CTOR_OFFSET UNITYSDK_OFFSET(0x18B6BCB0)
 
-inline static constexpr unsigned int Class_1_D5D8B81C5F91714F__ActiveLauncherView_d__10_TypeDefinitionIndex = 73058;
+inline static constexpr unsigned int Class_1_D5D8B81C5F91714F__ActiveLauncherView_d__10_TypeDefinitionIndex = 74583;
 
 class Class_1_D5D8B81C5F91714F__ActiveLauncherView_d__10 : public ::System::Object
 {
 public:
-	::RPG::Client::MonoEffectManager* _monoEffectManager_5__10; // 0x10
-	::UnityEngine::WaitForSeconds* waitSecond; // 0x18
-	::System::Collections::Generic::List_1<::System::Collections::Generic::List_1<::Class_1_2D33D4E16DA6E537*>*>* chessDetectInfos; // 0x20
-	::Class_1_2D33D4E16DA6E537* _curDetectInfo_5__2; // 0x28
-	::System::Object* __2__current; // 0x30
-	::RPG::Client::Prop::DestroyRootPuzzleChess* _lastChess_5__3; // 0x38
-	::Class_1_D5D8B81C5F91714F* __4__this; // 0x40
-	::RPG::Client::Prop::DestroyRootPuzzleChess* _chess_5__4; // 0x48
-	::UnityEngine::Vector3 _chessPosition_5__9; // 0x50
-	::System::Int32 __1__state; // 0x5C
+	::UnityEngine::WaitForSeconds* waitSecond; // 0x10
+	::Class_1_D5D8B81C5F91714F* __4__this; // 0x18
+	::RPG::Client::Prop::DestroyRootPuzzleChess* _lastChess_5__3; // 0x20
+	::RPG::Client::MonoEffectManager* _monoEffectManager_5__10; // 0x28
+	::System::Collections::Generic::List_1<::System::Collections::Generic::List_1<::Class_1_2D33D4E16DA6E537*>*>* chessDetectInfos; // 0x30
+	::Class_1_2D33D4E16DA6E537* _curDetectInfo_5__2; // 0x38
+	::RPG::Client::Prop::DestroyRootPuzzleChess* _chess_5__4; // 0x40
+	::System::Object* __2__current; // 0x48
+	::System::Boolean result; // 0x50
+	::UnityEngine::Vector3 _lastDirection_5__5; // 0x54
 	::System::Int32 _j_5__7; // 0x60
-	::System::Boolean result; // 0x64
-	::System::Int32 _i_5__6; // 0x68
-	::UnityEngine::Vector3 _lastChessPosition_5__8; // 0x6C
-	::UnityEngine::Vector3 _lastDirection_5__5; // 0x78
+	::UnityEngine::Vector3 _lastChessPosition_5__8; // 0x64
+	::UnityEngine::Vector3 _chessPosition_5__9; // 0x70
+	::System::Int32 _i_5__6; // 0x7C
+	::System::Int32 __1__state; // 0x80
 
 	::System::Void _ctor(::System::Int32 a1)
 	{

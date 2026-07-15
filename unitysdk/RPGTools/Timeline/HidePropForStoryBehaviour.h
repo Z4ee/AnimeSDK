@@ -6,15 +6,14 @@
 
 namespace RPGTools::Timeline { class HidePropForStoryClip; }
 
-#define RPGTOOLS_TIMELINE_HIDEPROPFORSTORYBEHAVIOUR_GET_CLIP_OFFSET UNITYSDK_OFFSET(0xD023440)
-#define RPGTOOLS_TIMELINE_HIDEPROPFORSTORYBEHAVIOUR_ONBEHAVIOURPLAY_OFFSET UNITYSDK_OFFSET(0xD023460)
-#define RPGTOOLS_TIMELINE_HIDEPROPFORSTORYBEHAVIOUR_SET_CLIP_OFFSET UNITYSDK_OFFSET(0xD023450)
-#define RPGTOOLS_TIMELINE_HIDEPROPFORSTORYBEHAVIOUR__CTOR_OFFSET UNITYSDK_OFFSET(0xD023610)
-#define RPGTOOLS_TIMELINE_HIDEPROPFORSTORYBEHAVIOUR___IFIXBASEPROXY_ONBEHAVIOURPLAY_OFFSET UNITYSDK_OFFSET(0xD023620)
+#define RPGTOOLS_TIMELINE_HIDEPROPFORSTORYBEHAVIOUR_GET_CLIP_OFFSET UNITYSDK_OFFSET(0x19A5E8B0)
+#define RPGTOOLS_TIMELINE_HIDEPROPFORSTORYBEHAVIOUR_ONBEHAVIOURPLAY_OFFSET UNITYSDK_OFFSET(0x19A5E8D0)
+#define RPGTOOLS_TIMELINE_HIDEPROPFORSTORYBEHAVIOUR_SET_CLIP_OFFSET UNITYSDK_OFFSET(0x19A5E8C0)
+#define RPGTOOLS_TIMELINE_HIDEPROPFORSTORYBEHAVIOUR__CTOR_OFFSET UNITYSDK_OFFSET(0x19A5EA80)
 
 namespace RPGTools::Timeline
 {
-	inline static constexpr unsigned int HidePropForStoryBehaviour_TypeDefinitionIndex = 45433;
+	inline static constexpr unsigned int HidePropForStoryBehaviour_TypeDefinitionIndex = 46367;
 
 	class HidePropForStoryBehaviour : public ::UnityEngine::Playables::PlayableBehaviour
 	{
@@ -39,11 +38,6 @@ namespace RPGTools::Timeline
 		::System::Void OnBehaviourPlay(::UnityEngine::Playables::Playable a1, ::UnityEngine::Playables::FrameData a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::UnityEngine::Playables::Playable, ::UnityEngine::Playables::FrameData))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_HIDEPROPFORSTORYBEHAVIOUR_ONBEHAVIOURPLAY_OFFSET))(this, a1, a2);
-		}
-
-		::System::Void __iFixBaseProxy_OnBehaviourPlay(::UnityEngine::Playables::Playable a1, ::UnityEngine::Playables::FrameData a2)
-		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Playables::Playable, ::UnityEngine::Playables::FrameData))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_HIDEPROPFORSTORYBEHAVIOUR___IFIXBASEPROXY_ONBEHAVIOURPLAY_OFFSET))(this, a1, a2);
 		}
 	};
 }

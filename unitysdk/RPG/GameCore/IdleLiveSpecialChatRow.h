@@ -4,24 +4,24 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_IDLELIVESPECIALCHATROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x198476A0)
-#define RPG_GAMECORE_IDLELIVESPECIALCHATROW__CTOR_OFFSET UNITYSDK_OFFSET(0x19847980)
+#define RPG_GAMECORE_IDLELIVESPECIALCHATROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B007A60)
+#define RPG_GAMECORE_IDLELIVESPECIALCHATROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1B007D40)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int IdleLiveSpecialChatRow_TypeDefinitionIndex = 11272;
+	inline static constexpr unsigned int IdleLiveSpecialChatRow_TypeDefinitionIndex = 11372;
 
 	class IdleLiveSpecialChatRow : public ::System::Object
 	{
 	public:
 		::Il2CppArray<::System::UInt32>* ChatList; // 0x10
-		::System::UInt32 RepeatCount; // 0x18
+		::System::UInt32 UnlockID; // 0x18
 		::System::UInt32 ID; // 0x1C
-		::System::Single Interval; // 0x20
-		::System::UInt32 UnlockID; // 0x24
-		::System::UInt32 TriggerID; // 0x28
-		::System::Single FlySpeed; // 0x2C
-		::System::Boolean IsExclusive; // 0x30
+		::System::Boolean IsExclusive; // 0x20
+		::System::UInt32 RepeatCount; // 0x24
+		::System::Single Interval; // 0x28
+		::System::UInt32 TriggerID; // 0x2C
+		::System::Single FlySpeed; // 0x30
 
 		::System::Void _ctor()
 		{

@@ -6,10 +6,10 @@
 
 namespace System { template <typename T1, typename T2> class Tuple_2; }
 
-#define CLASS_2_DC6739E252B83566___C__DISPLAYCLASS9_0__CTOR_OFFSET UNITYSDK_OFFSET(0x12385BC0)
-#define CLASS_2_DC6739E252B83566___C__DISPLAYCLASS9_0___GETUPTEXT_B__0_OFFSET UNITYSDK_OFFSET(0x12386490)
+#define CLASS_2_DC6739E252B83566___C__DISPLAYCLASS9_0__CTOR_OFFSET UNITYSDK_OFFSET(0x140E90A0)
+#define CLASS_2_DC6739E252B83566___C__DISPLAYCLASS9_0___GETUPTEXT_B__0_OFFSET UNITYSDK_OFFSET(0x140E97B0)
 
-inline static constexpr unsigned int Class_2_DC6739E252B83566___c__DisplayClass9_0_TypeDefinitionIndex = 66921;
+inline static constexpr unsigned int Class_2_DC6739E252B83566___c__DisplayClass9_0_TypeDefinitionIndex = 68365;
 
 class Class_2_DC6739E252B83566___c__DisplayClass9_0 : public ::System::Object
 {

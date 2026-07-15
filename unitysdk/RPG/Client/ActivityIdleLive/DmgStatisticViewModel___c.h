@@ -5,24 +5,24 @@
 namespace RPG::Client::ActivityIdleLive { class IdleLiveDmgStatisticsUiData; }
 namespace System { template <typename T> class Comparison_1; }
 
-#define RPG_CLIENT_ACTIVITYIDLELIVE_DMGSTATISTICVIEWMODEL___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xB10CED0)
-#define RPG_CLIENT_ACTIVITYIDLELIVE_DMGSTATISTICVIEWMODEL___C__CTOR_OFFSET UNITYSDK_OFFSET(0xB10CF10)
-#define RPG_CLIENT_ACTIVITYIDLELIVE_DMGSTATISTICVIEWMODEL___C___REFRESHDMGSTATISTICS_B__7_0_OFFSET UNITYSDK_OFFSET(0xB10CF20)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_DMGSTATISTICVIEWMODEL___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x19D219E0)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_DMGSTATISTICVIEWMODEL___C__CTOR_OFFSET UNITYSDK_OFFSET(0x19D21A20)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_DMGSTATISTICVIEWMODEL___C___REFRESHDMGSTATISTICS_B__7_0_OFFSET UNITYSDK_OFFSET(0x19D21A30)
 
 namespace RPG::Client::ActivityIdleLive
 {
-	inline static constexpr unsigned int DmgStatisticViewModel___c_TypeDefinitionIndex = 70288;
+	inline static constexpr unsigned int DmgStatisticViewModel___c_TypeDefinitionIndex = 71811;
 
 	class DmgStatisticViewModel___c : public ::System::Object
 	{
 	public:
 		static ::System::Comparison_1<::RPG::Client::ActivityIdleLive::IdleLiveDmgStatisticsUiData*>** StaticGet___9__7_0()
 		{
-			return (::System::Comparison_1<::RPG::Client::ActivityIdleLive::IdleLiveDmgStatisticsUiData*>**)Il2CppClass::FromTypeDefinitionIndex(DmgStatisticViewModel___c_TypeDefinitionIndex)->GetStaticField(0x50780);
+			return (::System::Comparison_1<::RPG::Client::ActivityIdleLive::IdleLiveDmgStatisticsUiData*>**)Il2CppClass::FromTypeDefinitionIndex(DmgStatisticViewModel___c_TypeDefinitionIndex)->GetStaticField(0x3C1D0);
 		}
 		static ::RPG::Client::ActivityIdleLive::DmgStatisticViewModel___c** StaticGet___9()
 		{
-			return (::RPG::Client::ActivityIdleLive::DmgStatisticViewModel___c**)Il2CppClass::FromTypeDefinitionIndex(DmgStatisticViewModel___c_TypeDefinitionIndex)->GetStaticField(0x50788);
+			return (::RPG::Client::ActivityIdleLive::DmgStatisticViewModel___c**)Il2CppClass::FromTypeDefinitionIndex(DmgStatisticViewModel___c_TypeDefinitionIndex)->GetStaticField(0x3C1D8);
 		}
 
 		static ::System::Void _cctor()

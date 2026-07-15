@@ -10,7 +10,7 @@ namespace UnityEngine { class Mesh; }
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int LinearModuleRendererBehavior_PrototypeData_TypeDefinitionIndex = 66288;
+	inline static constexpr unsigned int LinearModuleRendererBehavior_PrototypeData_TypeDefinitionIndex = 67713;
 
 	struct alignas(8) LinearModuleRendererBehavior_PrototypeData
 	{

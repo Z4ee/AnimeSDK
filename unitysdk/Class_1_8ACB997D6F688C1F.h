@@ -3,19 +3,19 @@
 #include "unitysdk/Struct_2_0814C3CA012BD292.h"
 #include "unitysdk/System/Object.h"
 
-class Class_1_9CD491AD3011CBF9;
+class Class_1_B0665B42245E17DA;
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_1_8ACB997D6F688C1F_METHOD_1_59EB78C082EE580B_OFFSET UNITYSDK_OFFSET(0x141FEB10)
-#define CLASS_1_8ACB997D6F688C1F_METHOD_1_F8500317B85F31FF_OFFSET UNITYSDK_OFFSET(0x141FEC40)
-#define CLASS_1_8ACB997D6F688C1F__CTOR_OFFSET UNITYSDK_OFFSET(0x141FEDE0)
+#define CLASS_1_8ACB997D6F688C1F_METHOD_1_59EB78C082EE580B_OFFSET UNITYSDK_OFFSET(0x179F00D0)
+#define CLASS_1_8ACB997D6F688C1F_METHOD_1_F8500317B85F31FF_OFFSET UNITYSDK_OFFSET(0x179F0200)
+#define CLASS_1_8ACB997D6F688C1F__CTOR_OFFSET UNITYSDK_OFFSET(0x179F03A0)
 
-inline static constexpr unsigned int Class_1_8ACB997D6F688C1F_TypeDefinitionIndex = 60708;
+inline static constexpr unsigned int Class_1_8ACB997D6F688C1F_TypeDefinitionIndex = 62000;
 
 class Class_1_8ACB997D6F688C1F : public ::System::Object
 {
 public:
-	::System::Collections::Generic::List_1<::Class_1_9CD491AD3011CBF9*>* Field_1_0; // 0x10
+	::System::Collections::Generic::List_1<::Class_1_B0665B42245E17DA*>* Field_1_0; // 0x10
 
 	::System::Void _ctor()
 	{
@@ -27,8 +27,8 @@ public:
 		return ((::System::Int32(*)(::PVOID, ::System::UInt32, ::System::UInt32, ::Struct_2_0814C3CA012BD292))((::PBYTE)hIl2Cpp + CLASS_1_8ACB997D6F688C1F_METHOD_1_59EB78C082EE580B_OFFSET))(this, a1, a2, a3);
 	}
 
-	::Class_1_9CD491AD3011CBF9* Method_1_F8500317B85F31FF(::System::UInt32 a1, ::Struct_2_0814C3CA012BD292 a2)
+	::Class_1_B0665B42245E17DA* Method_1_F8500317B85F31FF(::System::UInt32 a1, ::Struct_2_0814C3CA012BD292 a2)
 	{
-		return ((::Class_1_9CD491AD3011CBF9*(*)(::PVOID, ::System::UInt32, ::Struct_2_0814C3CA012BD292))((::PBYTE)hIl2Cpp + CLASS_1_8ACB997D6F688C1F_METHOD_1_F8500317B85F31FF_OFFSET))(this, a1, a2);
+		return ((::Class_1_B0665B42245E17DA*(*)(::PVOID, ::System::UInt32, ::Struct_2_0814C3CA012BD292))((::PBYTE)hIl2Cpp + CLASS_1_8ACB997D6F688C1F_METHOD_1_F8500317B85F31FF_OFFSET))(this, a1, a2);
 	}
 };

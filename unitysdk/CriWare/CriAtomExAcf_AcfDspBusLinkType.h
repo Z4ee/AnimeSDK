@@ -3,7 +3,7 @@
 
 namespace CriWare
 {
-	inline static constexpr unsigned int CriAtomExAcf_AcfDspBusLinkType_TypeDefinitionIndex = 37072;
+	inline static constexpr unsigned int CriAtomExAcf_AcfDspBusLinkType_TypeDefinitionIndex = 37872;
 
 	enum class CriAtomExAcf_AcfDspBusLinkType : ::System::UInt32
 	{

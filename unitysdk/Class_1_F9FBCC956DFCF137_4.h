@@ -1,44 +1,27 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/RPG/GameCore/FixPoint.h"
 #include "unitysdk/System/Object.h"
 
-class Class_1_916F5886E8F1F462;
+class Class_1_AC66714FF5876767;
 
-#define CLASS_1_F9FBCC956DFCF137_4_CLEAR_OFFSET UNITYSDK_OFFSET(0xA7352F0)
-#define CLASS_1_F9FBCC956DFCF137_4_GET_TOKENQUEUE_OFFSET UNITYSDK_OFFSET(0xA735270)
-#define CLASS_1_F9FBCC956DFCF137_4_METHOD_1_1D4018D4200358D0_OFFSET UNITYSDK_OFFSET(0xA735290)
-#define CLASS_1_F9FBCC956DFCF137_4_SET_TOKENQUEUE_OFFSET UNITYSDK_OFFSET(0xA735280)
-#define CLASS_1_F9FBCC956DFCF137_4__CTOR_OFFSET UNITYSDK_OFFSET(0xA735350)
+#define CLASS_1_F9FBCC956DFCF137_4_METHOD_1_0EB2ACFBD5A30D96_OFFSET UNITYSDK_OFFSET(0x15F4D890)
+#define CLASS_1_F9FBCC956DFCF137_4__CTOR_OFFSET UNITYSDK_OFFSET(0x15F4D880)
 
-inline static constexpr unsigned int Class_1_F9FBCC956DFCF137_4_TypeDefinitionIndex = 50700;
+inline static constexpr unsigned int Class_1_F9FBCC956DFCF137_4_TypeDefinitionIndex = 51894;
 
 class Class_1_F9FBCC956DFCF137_4 : public ::System::Object
 {
 public:
-	::Class_1_916F5886E8F1F462* _TokenQueue_k__BackingField; // 0x10
+	::Class_1_AC66714FF5876767* Field_1_0; // 0x10
 
-	::System::Void _ctor()
+	::System::Void _ctor(::Class_1_AC66714FF5876767* a1)
 	{
-		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_F9FBCC956DFCF137_4__CTOR_OFFSET))(this);
+		return ((::System::Void(*)(::PVOID, ::Class_1_AC66714FF5876767*))((::PBYTE)hIl2Cpp + CLASS_1_F9FBCC956DFCF137_4__CTOR_OFFSET))(this, a1);
 	}
 
-	::Class_1_916F5886E8F1F462* get_TokenQueue()
+	::RPG::GameCore::FixPoint Method_1_0EB2ACFBD5A30D96()
 	{
-		return ((::Class_1_916F5886E8F1F462*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_F9FBCC956DFCF137_4_GET_TOKENQUEUE_OFFSET))(this);
-	}
-
-	::System::Void set_TokenQueue(::Class_1_916F5886E8F1F462* a1)
-	{
-		return ((::System::Void(*)(::PVOID, ::Class_1_916F5886E8F1F462*))((::PBYTE)hIl2Cpp + CLASS_1_F9FBCC956DFCF137_4_SET_TOKENQUEUE_OFFSET))(this, a1);
-	}
-
-	::System::Boolean Method_1_1D4018D4200358D0()
-	{
-		return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_F9FBCC956DFCF137_4_METHOD_1_1D4018D4200358D0_OFFSET))(this);
-	}
-
-	::System::Void Clear()
-	{
-		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_F9FBCC956DFCF137_4_CLEAR_OFFSET))(this);
+		return ((::RPG::GameCore::FixPoint(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_F9FBCC956DFCF137_4_METHOD_1_0EB2ACFBD5A30D96_OFFSET))(this);
 	}
 };

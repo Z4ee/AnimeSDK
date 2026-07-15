@@ -6,13 +6,13 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_ACTIVEMARBLEVIRTUALCAMERA_METHOD_4_D7DDA170B7F90816_OFFSET UNITYSDK_OFFSET(0x193D0FA0)
-#define RPG_GAMECORE_ACTIVEMARBLEVIRTUALCAMERA_METHOD_4_EF3DE278BF422031_OFFSET UNITYSDK_OFFSET(0x193D0EE0)
-#define RPG_GAMECORE_ACTIVEMARBLEVIRTUALCAMERA__CTOR_OFFSET UNITYSDK_OFFSET(0x193D0F50)
+#define RPG_GAMECORE_ACTIVEMARBLEVIRTUALCAMERA_METHOD_4_2A8167F54B402566_OFFSET UNITYSDK_OFFSET(0x1AAD9B70)
+#define RPG_GAMECORE_ACTIVEMARBLEVIRTUALCAMERA_METHOD_4_D7DDA170B7F90816_OFFSET UNITYSDK_OFFSET(0x1AAD9BF0)
+#define RPG_GAMECORE_ACTIVEMARBLEVIRTUALCAMERA__CTOR_OFFSET UNITYSDK_OFFSET(0x1AAD9BC0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ActiveMarbleVirtualCamera_TypeDefinitionIndex = 20822;
+	inline static constexpr unsigned int ActiveMarbleVirtualCamera_TypeDefinitionIndex = 21237;
 
 	class ActiveMarbleVirtualCamera : public ::RPG::GameCore::ActiveVirtualCamera
 	{
@@ -27,9 +27,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ACTIVEMARBLEVIRTUALCAMERA__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_4_EF3DE278BF422031(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ActiveMarbleVirtualCamera*& a2)
+		static ::System::Void Method_4_2A8167F54B402566(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ActiveMarbleVirtualCamera*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ActiveMarbleVirtualCamera*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ACTIVEMARBLEVIRTUALCAMERA_METHOD_4_EF3DE278BF422031_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ActiveMarbleVirtualCamera*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ACTIVEMARBLEVIRTUALCAMERA_METHOD_4_2A8167F54B402566_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_4_D7DDA170B7F90816(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ActiveMarbleVirtualCamera* a2)

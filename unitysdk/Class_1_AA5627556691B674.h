@@ -5,9 +5,9 @@
 namespace RPG::GameCore { class TaskContext; }
 namespace RPG::GameCore { class VCameraConfigChange; }
 
-#define CLASS_1_AA5627556691B674__CTOR_OFFSET UNITYSDK_OFFSET(0xAFB8CF0)
+#define CLASS_1_AA5627556691B674__CTOR_OFFSET UNITYSDK_OFFSET(0x142830F0)
 
-inline static constexpr unsigned int Class_1_AA5627556691B674_TypeDefinitionIndex = 65029;
+inline static constexpr unsigned int Class_1_AA5627556691B674_TypeDefinitionIndex = 66434;
 
 class Class_1_AA5627556691B674 : public ::System::Object
 {

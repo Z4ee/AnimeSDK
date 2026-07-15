@@ -7,15 +7,15 @@ namespace RPG::GameCore { class DynamicString; }
 namespace RPG::GameCore { class TargetEvaluator; }
 namespace SimpleJSON { class JSONNode; }
 
-#define RPG_GAMECORE_ADVBYCHECKWINDOWINSLOT_METHOD_4_1487FD0462CF124B_OFFSET UNITYSDK_OFFSET(0x19416620)
-#define RPG_GAMECORE_ADVBYCHECKWINDOWINSLOT_METHOD_4_6B226727F04CD919_OFFSET UNITYSDK_OFFSET(0x194166F0)
-#define RPG_GAMECORE_ADVBYCHECKWINDOWINSLOT_METHOD_4_7BD033D13D142BCF_OFFSET UNITYSDK_OFFSET(0x19416900)
-#define RPG_GAMECORE_ADVBYCHECKWINDOWINSLOT_METHOD_4_B49D7DD1FB25BD74_OFFSET UNITYSDK_OFFSET(0x19416980)
-#define RPG_GAMECORE_ADVBYCHECKWINDOWINSLOT__CTOR_OFFSET UNITYSDK_OFFSET(0x194166A0)
+#define RPG_GAMECORE_ADVBYCHECKWINDOWINSLOT_METHOD_4_1BE811B163AC49C3_OFFSET UNITYSDK_OFFSET(0x1BE0E390)
+#define RPG_GAMECORE_ADVBYCHECKWINDOWINSLOT_METHOD_4_31A2FE37499A75A0_OFFSET UNITYSDK_OFFSET(0x1BE0E140)
+#define RPG_GAMECORE_ADVBYCHECKWINDOWINSLOT_METHOD_4_4C880308DC266555_OFFSET UNITYSDK_OFFSET(0x1BE0E3C0)
+#define RPG_GAMECORE_ADVBYCHECKWINDOWINSLOT_METHOD_4_6B226727F04CD919_OFFSET UNITYSDK_OFFSET(0x1BE0E180)
+#define RPG_GAMECORE_ADVBYCHECKWINDOWINSLOT__CTOR_OFFSET UNITYSDK_OFFSET(0x1BE0E170)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AdvByCheckWindowInSlot_TypeDefinitionIndex = 20118;
+	inline static constexpr unsigned int AdvByCheckWindowInSlot_TypeDefinitionIndex = 20490;
 
 	class AdvByCheckWindowInSlot : public ::RPG::GameCore::PredicateConfig
 	{
@@ -30,9 +30,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVBYCHECKWINDOWINSLOT__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_4_1487FD0462CF124B(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AdvByCheckWindowInSlot*& a2)
+		static ::System::Void Method_4_31A2FE37499A75A0(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AdvByCheckWindowInSlot*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::AdvByCheckWindowInSlot*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVBYCHECKWINDOWINSLOT_METHOD_4_1487FD0462CF124B_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::AdvByCheckWindowInSlot*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVBYCHECKWINDOWINSLOT_METHOD_4_31A2FE37499A75A0_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_4_6B226727F04CD919(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AdvByCheckWindowInSlot* a2)
@@ -40,14 +40,14 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::AdvByCheckWindowInSlot*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVBYCHECKWINDOWINSLOT_METHOD_4_6B226727F04CD919_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_4_7BD033D13D142BCF(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::AdvByCheckWindowInSlot*& a2)
+		static ::System::Void Method_4_1BE811B163AC49C3(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::AdvByCheckWindowInSlot*& a2)
 		{
-			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::AdvByCheckWindowInSlot*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVBYCHECKWINDOWINSLOT_METHOD_4_7BD033D13D142BCF_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::AdvByCheckWindowInSlot*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVBYCHECKWINDOWINSLOT_METHOD_4_1BE811B163AC49C3_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_4_B49D7DD1FB25BD74(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::AdvByCheckWindowInSlot* a2)
+		static ::System::Void Method_4_4C880308DC266555(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::AdvByCheckWindowInSlot* a2)
 		{
-			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::AdvByCheckWindowInSlot*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVBYCHECKWINDOWINSLOT_METHOD_4_B49D7DD1FB25BD74_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::AdvByCheckWindowInSlot*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVBYCHECKWINDOWINSLOT_METHOD_4_4C880308DC266555_OFFSET))(a1, a2);
 		}
 	};
 }

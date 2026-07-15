@@ -6,7 +6,7 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace Google::Protobuf::Collections
 {
-	inline static constexpr unsigned int Lists_TypeDefinitionIndex = 5577;
+	inline static constexpr unsigned int Lists_TypeDefinitionIndex = 5582;
 
 	class Lists : public ::System::Object
 	{

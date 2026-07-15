@@ -6,12 +6,12 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class FiveDimDefaultCameraConfig; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_FIVEDIMGLOBALCAMERACONFIG_METHOD_2_A6CB6B9D45827AB4_OFFSET UNITYSDK_OFFSET(0x1973EEA0)
-#define RPG_GAMECORE_FIVEDIMGLOBALCAMERACONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x19740DA0)
+#define RPG_GAMECORE_FIVEDIMGLOBALCAMERACONFIG_METHOD_2_A6CB6B9D45827AB4_OFFSET UNITYSDK_OFFSET(0x1BA97950)
+#define RPG_GAMECORE_FIVEDIMGLOBALCAMERACONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1BA990D0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FiveDimGlobalCameraConfig_TypeDefinitionIndex = 15846;
+	inline static constexpr unsigned int FiveDimGlobalCameraConfig_TypeDefinitionIndex = 16020;
 
 	class FiveDimGlobalCameraConfig : public ::RPG::GameCore::JsonConfig
 	{

@@ -2,19 +2,19 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define SUPERSCROLLVIEW_LOOPGRIDVIEWINITPARAM_COPYDEFAULTINITPARAM_OFFSET UNITYSDK_OFFSET(0xD0B9BD0)
-#define SUPERSCROLLVIEW_LOOPGRIDVIEWINITPARAM__CTOR_OFFSET UNITYSDK_OFFSET(0xD0B9C30)
+#define SUPERSCROLLVIEW_LOOPGRIDVIEWINITPARAM_COPYDEFAULTINITPARAM_OFFSET UNITYSDK_OFFSET(0x14EF0970)
+#define SUPERSCROLLVIEW_LOOPGRIDVIEWINITPARAM__CTOR_OFFSET UNITYSDK_OFFSET(0x14EF09D0)
 
 namespace SuperScrollView
 {
-	inline static constexpr unsigned int LoopGridViewInitParam_TypeDefinitionIndex = 44941;
+	inline static constexpr unsigned int LoopGridViewInitParam_TypeDefinitionIndex = 45859;
 
 	class LoopGridViewInitParam : public ::System::Object
 	{
 	public:
-		::System::Single mSnapFinishThreshold; // 0x10
-		::System::Single mSmoothDumpRate; // 0x14
-		::System::Single mSnapVecThreshold; // 0x18
+		::System::Single mSmoothDumpRate; // 0x10
+		::System::Single mSnapVecThreshold; // 0x14
+		::System::Single mSnapFinishThreshold; // 0x18
 
 		::System::Void _ctor()
 		{

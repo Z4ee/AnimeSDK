@@ -6,24 +6,24 @@ namespace RPG::Client { class AvatarEffectRendererBehavior_AvatarEffectMat; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 namespace UnityEngine { class Material; }
 
-#define RPG_CLIENT_AVATAREFFECTRENDERER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xB35FDD0)
-#define RPG_CLIENT_AVATAREFFECTRENDERER___C__CTOR_OFFSET UNITYSDK_OFFSET(0xB35FE10)
-#define RPG_CLIENT_AVATAREFFECTRENDERER___C__GET_MATERIALS_B__3_0_OFFSET UNITYSDK_OFFSET(0xB35FE20)
+#define RPG_CLIENT_AVATAREFFECTRENDERER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x18121A40)
+#define RPG_CLIENT_AVATAREFFECTRENDERER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x18121A80)
+#define RPG_CLIENT_AVATAREFFECTRENDERER___C__GET_MATERIALS_B__3_0_OFFSET UNITYSDK_OFFSET(0x18121A90)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int AvatarEffectRenderer___c_TypeDefinitionIndex = 65686;
+	inline static constexpr unsigned int AvatarEffectRenderer___c_TypeDefinitionIndex = 67103;
 
 	class AvatarEffectRenderer___c : public ::System::Object
 	{
 	public:
 		static ::System::Func_2<::RPG::Client::AvatarEffectRendererBehavior_AvatarEffectMat*, ::UnityEngine::Material*>** StaticGet___9__3_0()
 		{
-			return (::System::Func_2<::RPG::Client::AvatarEffectRendererBehavior_AvatarEffectMat*, ::UnityEngine::Material*>**)Il2CppClass::FromTypeDefinitionIndex(AvatarEffectRenderer___c_TypeDefinitionIndex)->GetStaticField(0x62D40);
+			return (::System::Func_2<::RPG::Client::AvatarEffectRendererBehavior_AvatarEffectMat*, ::UnityEngine::Material*>**)Il2CppClass::FromTypeDefinitionIndex(AvatarEffectRenderer___c_TypeDefinitionIndex)->GetStaticField(0x56410);
 		}
 		static ::RPG::Client::AvatarEffectRenderer___c** StaticGet___9()
 		{
-			return (::RPG::Client::AvatarEffectRenderer___c**)Il2CppClass::FromTypeDefinitionIndex(AvatarEffectRenderer___c_TypeDefinitionIndex)->GetStaticField(0x62D48);
+			return (::RPG::Client::AvatarEffectRenderer___c**)Il2CppClass::FromTypeDefinitionIndex(AvatarEffectRenderer___c_TypeDefinitionIndex)->GetStaticField(0x56418);
 		}
 
 		static ::System::Void _cctor()

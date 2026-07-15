@@ -8,19 +8,18 @@ namespace RPG::GameCore { class StackRedirectSkillTarget; }
 namespace RPG::GameCore { class TaskContext; }
 namespace System { template <typename T1, typename T2> class Action_2; }
 
-#define CLASS_3_3E82BB27CA8DBD40_DISPOSE_OFFSET UNITYSDK_OFFSET(0x13A66080)
-#define CLASS_3_3E82BB27CA8DBD40_METHOD_3_FD964A2C03CF6EC9_OFFSET UNITYSDK_OFFSET(0x13A66360)
-#define CLASS_3_3E82BB27CA8DBD40_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x13A660F0)
-#define CLASS_3_3E82BB27CA8DBD40__CTOR_OFFSET UNITYSDK_OFFSET(0x13A65FE0)
-#define CLASS_3_3E82BB27CA8DBD40___IFIXBASEPROXY_DISPOSE_OFFSET UNITYSDK_OFFSET(0x13A665B0)
+#define CLASS_3_3E82BB27CA8DBD40_DISPOSE_OFFSET UNITYSDK_OFFSET(0x16E92C90)
+#define CLASS_3_3E82BB27CA8DBD40_METHOD_3_FD964A2C03CF6EC9_OFFSET UNITYSDK_OFFSET(0x16E92FD0)
+#define CLASS_3_3E82BB27CA8DBD40_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x16E92D60)
+#define CLASS_3_3E82BB27CA8DBD40__CTOR_OFFSET UNITYSDK_OFFSET(0x16E92BF0)
 
-inline static constexpr unsigned int Class_3_3E82BB27CA8DBD40_TypeDefinitionIndex = 51975;
+inline static constexpr unsigned int Class_3_3E82BB27CA8DBD40_TypeDefinitionIndex = 53128;
 
 class Class_3_3E82BB27CA8DBD40 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::StackRedirectSkillTarget*>
 {
 public:
-	::System::Action_2<::RPG::GameCore::GameEntity*, ::RPG::GameCore::GameEntity*>* Field_3_0; // 0x28
-	::Class_3_07C3C4D2990C49EE* Field_3_1; // 0x30
+	::Class_3_07C3C4D2990C49EE* Field_3_0; // 0x28
+	::System::Action_2<::RPG::GameCore::GameEntity*, ::RPG::GameCore::GameEntity*>* Field_3_1; // 0x30
 
 	::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::StackRedirectSkillTarget* a2)
 	{
@@ -40,10 +39,5 @@ public:
 	::System::Void Method_3_FD964A2C03CF6EC9(::RPG::GameCore::GameEntity* a1, ::RPG::GameCore::GameEntity* a2)
 	{
 		return ((::System::Void(*)(::PVOID, ::RPG::GameCore::GameEntity*, ::RPG::GameCore::GameEntity*))((::PBYTE)hIl2Cpp + CLASS_3_3E82BB27CA8DBD40_METHOD_3_FD964A2C03CF6EC9_OFFSET))(this, a1, a2);
-	}
-
-	::System::Void __iFixBaseProxy_Dispose()
-	{
-		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_3_3E82BB27CA8DBD40___IFIXBASEPROXY_DISPOSE_OFFSET))(this);
 	}
 };

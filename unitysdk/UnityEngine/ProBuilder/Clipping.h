@@ -4,12 +4,12 @@
 #include "unitysdk/UnityEngine/ProBuilder/Clipping_OutCode.h"
 #include "unitysdk/UnityEngine/Rect.h"
 
-#define UNITYENGINE_PROBUILDER_CLIPPING_COMPUTEOUTCODE_OFFSET UNITYSDK_OFFSET(0x1B0602F0)
-#define UNITYENGINE_PROBUILDER_CLIPPING_RECTCONTAINSLINESEGMENT_OFFSET UNITYSDK_OFFSET(0x1B060330)
+#define UNITYENGINE_PROBUILDER_CLIPPING_COMPUTEOUTCODE_OFFSET UNITYSDK_OFFSET(0xC046140)
+#define UNITYENGINE_PROBUILDER_CLIPPING_RECTCONTAINSLINESEGMENT_OFFSET UNITYSDK_OFFSET(0xC046180)
 
 namespace UnityEngine::ProBuilder
 {
-	inline static constexpr unsigned int Clipping_TypeDefinitionIndex = 40725;
+	inline static constexpr unsigned int Clipping_TypeDefinitionIndex = 41540;
 
 	class Clipping : public ::System::Object
 	{

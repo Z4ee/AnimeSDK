@@ -6,12 +6,12 @@ namespace System { class String; }
 namespace System { class Type; }
 namespace System::Reflection { class Assembly; }
 
-#define SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_OBJECTREADER_TOPLEVELASSEMBLYTYPERESOLVER_RESOLVETYPE_OFFSET UNITYSDK_OFFSET(0x187B6420)
-#define SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_OBJECTREADER_TOPLEVELASSEMBLYTYPERESOLVER__CTOR_OFFSET UNITYSDK_OFFSET(0x187B6410)
+#define SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_OBJECTREADER_TOPLEVELASSEMBLYTYPERESOLVER_RESOLVETYPE_OFFSET UNITYSDK_OFFSET(0x179255C0)
+#define SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_OBJECTREADER_TOPLEVELASSEMBLYTYPERESOLVER__CTOR_OFFSET UNITYSDK_OFFSET(0x179255B0)
 
 namespace System::Runtime::Serialization::Formatters::Binary
 {
-	inline static constexpr unsigned int ObjectReader_TopLevelAssemblyTypeResolver_TypeDefinitionIndex = 1180;
+	inline static constexpr unsigned int ObjectReader_TopLevelAssemblyTypeResolver_TypeDefinitionIndex = 1182;
 
 	class ObjectReader_TopLevelAssemblyTypeResolver : public ::System::Object
 	{

@@ -6,15 +6,14 @@
 
 namespace RPGTools::Timeline { class TriggerStoryAdvEffectClip; }
 
-#define RPGTOOLS_TIMELINE_TRIGGERSTORYADVEFFECTBEHAVIOUR_GET_CLIP_OFFSET UNITYSDK_OFFSET(0xD066840)
-#define RPGTOOLS_TIMELINE_TRIGGERSTORYADVEFFECTBEHAVIOUR_ONBEHAVIOURPLAY_OFFSET UNITYSDK_OFFSET(0xD066860)
-#define RPGTOOLS_TIMELINE_TRIGGERSTORYADVEFFECTBEHAVIOUR_SET_CLIP_OFFSET UNITYSDK_OFFSET(0xD066850)
-#define RPGTOOLS_TIMELINE_TRIGGERSTORYADVEFFECTBEHAVIOUR__CTOR_OFFSET UNITYSDK_OFFSET(0xD066A00)
-#define RPGTOOLS_TIMELINE_TRIGGERSTORYADVEFFECTBEHAVIOUR___IFIXBASEPROXY_ONBEHAVIOURPLAY_OFFSET UNITYSDK_OFFSET(0xD066A10)
+#define RPGTOOLS_TIMELINE_TRIGGERSTORYADVEFFECTBEHAVIOUR_GET_CLIP_OFFSET UNITYSDK_OFFSET(0x19F57040)
+#define RPGTOOLS_TIMELINE_TRIGGERSTORYADVEFFECTBEHAVIOUR_ONBEHAVIOURPLAY_OFFSET UNITYSDK_OFFSET(0x19F57060)
+#define RPGTOOLS_TIMELINE_TRIGGERSTORYADVEFFECTBEHAVIOUR_SET_CLIP_OFFSET UNITYSDK_OFFSET(0x19F57050)
+#define RPGTOOLS_TIMELINE_TRIGGERSTORYADVEFFECTBEHAVIOUR__CTOR_OFFSET UNITYSDK_OFFSET(0x19F57200)
 
 namespace RPGTools::Timeline
 {
-	inline static constexpr unsigned int TriggerStoryAdvEffectBehaviour_TypeDefinitionIndex = 45603;
+	inline static constexpr unsigned int TriggerStoryAdvEffectBehaviour_TypeDefinitionIndex = 46537;
 
 	class TriggerStoryAdvEffectBehaviour : public ::UnityEngine::Playables::PlayableBehaviour
 	{
@@ -39,11 +38,6 @@ namespace RPGTools::Timeline
 		::System::Void OnBehaviourPlay(::UnityEngine::Playables::Playable a1, ::UnityEngine::Playables::FrameData a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::UnityEngine::Playables::Playable, ::UnityEngine::Playables::FrameData))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_TRIGGERSTORYADVEFFECTBEHAVIOUR_ONBEHAVIOURPLAY_OFFSET))(this, a1, a2);
-		}
-
-		::System::Void __iFixBaseProxy_OnBehaviourPlay(::UnityEngine::Playables::Playable a1, ::UnityEngine::Playables::FrameData a2)
-		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Playables::Playable, ::UnityEngine::Playables::FrameData))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_TRIGGERSTORYADVEFFECTBEHAVIOUR___IFIXBASEPROXY_ONBEHAVIOURPLAY_OFFSET))(this, a1, a2);
 		}
 	};
 }

@@ -1,18 +1,17 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Class_1_F9FBCC956DFCF137_5.h"
+#include "unitysdk/Class_1_F9FBCC956DFCF137_4.h"
 #include "unitysdk/RPG/GameCore/FixPoint.h"
 
 class Class_1_AC66714FF5876767;
 namespace RPG::GameCore { class CheckTurnStateAxis; }
 
-#define CLASS_2_ECA77334F321C3FB_METHOD_2_512073A5E70F4E39_OFFSET UNITYSDK_OFFSET(0xA5D8670)
-#define CLASS_2_ECA77334F321C3FB_METHOD_2_770FD2CFDE656E17_OFFSET UNITYSDK_OFFSET(0xA5D8580)
-#define CLASS_2_ECA77334F321C3FB__CTOR_OFFSET UNITYSDK_OFFSET(0xA5D8570)
+#define CLASS_2_ECA77334F321C3FB_METHOD_2_770FD2CFDE656E17_OFFSET UNITYSDK_OFFSET(0x152DB260)
+#define CLASS_2_ECA77334F321C3FB__CTOR_OFFSET UNITYSDK_OFFSET(0x152DB250)
 
-inline static constexpr unsigned int Class_2_ECA77334F321C3FB_TypeDefinitionIndex = 50821;
+inline static constexpr unsigned int Class_2_ECA77334F321C3FB_TypeDefinitionIndex = 51906;
 
-class Class_2_ECA77334F321C3FB : public ::Class_1_F9FBCC956DFCF137_5
+class Class_2_ECA77334F321C3FB : public ::Class_1_F9FBCC956DFCF137_4
 {
 public:
 	::RPG::GameCore::CheckTurnStateAxis* Field_2_0; // 0x18
@@ -25,10 +24,5 @@ public:
 	::RPG::GameCore::FixPoint Method_2_770FD2CFDE656E17()
 	{
 		return ((::RPG::GameCore::FixPoint(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_ECA77334F321C3FB_METHOD_2_770FD2CFDE656E17_OFFSET))(this);
-	}
-
-	::RPG::GameCore::FixPoint Method_2_512073A5E70F4E39()
-	{
-		return ((::RPG::GameCore::FixPoint(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_ECA77334F321C3FB_METHOD_2_512073A5E70F4E39_OFFSET))(this);
 	}
 };

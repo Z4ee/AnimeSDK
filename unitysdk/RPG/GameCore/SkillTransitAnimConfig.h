@@ -5,12 +5,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_SKILLTRANSITANIMCONFIG_METHOD_2_9F5BFB09BA7A9AB6_OFFSET UNITYSDK_OFFSET(0x19C8EC00)
-#define RPG_GAMECORE_SKILLTRANSITANIMCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x19C8EE30)
+#define RPG_GAMECORE_SKILLTRANSITANIMCONFIG_METHOD_2_9F5BFB09BA7A9AB6_OFFSET UNITYSDK_OFFSET(0x1BE51FB0)
+#define RPG_GAMECORE_SKILLTRANSITANIMCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1BE521E0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SkillTransitAnimConfig_TypeDefinitionIndex = 15679;
+	inline static constexpr unsigned int SkillTransitAnimConfig_TypeDefinitionIndex = 15852;
 
 	class SkillTransitAnimConfig : public ::RPG::GameCore::JsonConfig
 	{

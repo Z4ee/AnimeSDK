@@ -6,12 +6,12 @@
 
 namespace RPG::Client::ElectricChainV2 { class Sampler; }
 
-#define RPG_CLIENT_ELECTRICCHAINV2_SPHERE_METHOD_2_0CFE5F25BEFC2C07_OFFSET UNITYSDK_OFFSET(0xB8A3C20)
-#define RPG_CLIENT_ELECTRICCHAINV2_SPHERE__CTOR_OFFSET UNITYSDK_OFFSET(0xB8A0EC0)
+#define RPG_CLIENT_ELECTRICCHAINV2_SPHERE_METHOD_2_64914350C49C927D_OFFSET UNITYSDK_OFFSET(0x18E18AA0)
+#define RPG_CLIENT_ELECTRICCHAINV2_SPHERE__CTOR_OFFSET UNITYSDK_OFFSET(0x18E15C50)
 
 namespace RPG::Client::ElectricChainV2
 {
-	inline static constexpr unsigned int Sphere_TypeDefinitionIndex = 68693;
+	inline static constexpr unsigned int Sphere_TypeDefinitionIndex = 70191;
 
 	class Sphere : public ::RPG::Client::ElectricChainV2::Shape
 	{
@@ -25,9 +25,9 @@ namespace RPG::Client::ElectricChainV2
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ELECTRICCHAINV2_SPHERE__CTOR_OFFSET))(this);
 		}
 
-		::UnityEngine::Vector3 Method_2_0CFE5F25BEFC2C07()
+		::UnityEngine::Vector3 Method_2_64914350C49C927D()
 		{
-			return ((::UnityEngine::Vector3(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ELECTRICCHAINV2_SPHERE_METHOD_2_0CFE5F25BEFC2C07_OFFSET))(this);
+			return ((::UnityEngine::Vector3(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ELECTRICCHAINV2_SPHERE_METHOD_2_64914350C49C927D_OFFSET))(this);
 		}
 	};
 }

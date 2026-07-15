@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SORestartMode_TypeDefinitionIndex = 16508;
+	inline static constexpr unsigned int SORestartMode_TypeDefinitionIndex = 16670;
 
 	enum class SORestartMode : ::System::Int32
 	{

@@ -13,7 +13,7 @@ namespace System::Diagnostics::Tracing { template <typename T> class PropertyAcc
 
 namespace System::Diagnostics::Tracing
 {
-	inline static constexpr unsigned int InvokeTypeInfo_1_TypeDefinitionIndex = 1595;
+	inline static constexpr unsigned int InvokeTypeInfo_1_TypeDefinitionIndex = 1599;
 
 	template <typename ContainerType>
 	class InvokeTypeInfo_1 : public ::System::Diagnostics::Tracing::TraceLoggingTypeInfo_1<ContainerType>

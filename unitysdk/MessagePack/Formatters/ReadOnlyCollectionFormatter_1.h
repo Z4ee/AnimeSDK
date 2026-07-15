@@ -7,7 +7,7 @@ namespace System::Collections::ObjectModel { template <typename T> class ReadOnl
 
 namespace MessagePack::Formatters
 {
-	inline static constexpr unsigned int ReadOnlyCollectionFormatter_1_TypeDefinitionIndex = 7346;
+	inline static constexpr unsigned int ReadOnlyCollectionFormatter_1_TypeDefinitionIndex = 7352;
 
 	template <typename T>
 	class ReadOnlyCollectionFormatter_1 : public ::MessagePack::Formatters::CollectionFormatterBase_3<T, ::Il2CppArray<T>*, ::System::Collections::ObjectModel::ReadOnlyCollection_1<T>*>

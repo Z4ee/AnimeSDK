@@ -7,13 +7,13 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class PointQueryConfig; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_ST_MAIN_DOSKILL_METHOD_4_3F0A4055F93A9B1A_OFFSET UNITYSDK_OFFSET(0x19C173A0)
-#define RPG_GAMECORE_ST_MAIN_DOSKILL_METHOD_4_5B9CC7A7863849BD_OFFSET UNITYSDK_OFFSET(0x19BFEBB0)
-#define RPG_GAMECORE_ST_MAIN_DOSKILL__CTOR_OFFSET UNITYSDK_OFFSET(0x19BFEB60)
+#define RPG_GAMECORE_ST_MAIN_DOSKILL_METHOD_4_5B9CC7A7863849BD_OFFSET UNITYSDK_OFFSET(0x1B781100)
+#define RPG_GAMECORE_ST_MAIN_DOSKILL_METHOD_4_D401253E8AA997FC_OFFSET UNITYSDK_OFFSET(0x1B7810C0)
+#define RPG_GAMECORE_ST_MAIN_DOSKILL__CTOR_OFFSET UNITYSDK_OFFSET(0x1B7810F0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ST_Main_DoSkill_TypeDefinitionIndex = 18970;
+	inline static constexpr unsigned int ST_Main_DoSkill_TypeDefinitionIndex = 19321;
 
 	class ST_Main_DoSkill : public ::RPG::GameCore::STTaskConfig
 	{
@@ -29,9 +29,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ST_MAIN_DOSKILL__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_4_3F0A4055F93A9B1A(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ST_Main_DoSkill*& a2)
+		static ::System::Void Method_4_D401253E8AA997FC(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ST_Main_DoSkill*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ST_Main_DoSkill*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ST_MAIN_DOSKILL_METHOD_4_3F0A4055F93A9B1A_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ST_Main_DoSkill*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ST_MAIN_DOSKILL_METHOD_4_D401253E8AA997FC_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_4_5B9CC7A7863849BD(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ST_Main_DoSkill* a2)

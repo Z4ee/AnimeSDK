@@ -4,13 +4,13 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_ST_SIDE_TIMER_METHOD_4_382EAB24255812C8_OFFSET UNITYSDK_OFFSET(0x19C1B370)
-#define RPG_GAMECORE_ST_SIDE_TIMER_METHOD_4_F6A121ACB11FCD22_OFFSET UNITYSDK_OFFSET(0x19C0DF40)
-#define RPG_GAMECORE_ST_SIDE_TIMER__CTOR_OFFSET UNITYSDK_OFFSET(0x19C0DEF0)
+#define RPG_GAMECORE_ST_SIDE_TIMER_METHOD_4_A11C0775389F9D99_OFFSET UNITYSDK_OFFSET(0x1C2C55F0)
+#define RPG_GAMECORE_ST_SIDE_TIMER_METHOD_4_F6A121ACB11FCD22_OFFSET UNITYSDK_OFFSET(0x1C2C5630)
+#define RPG_GAMECORE_ST_SIDE_TIMER__CTOR_OFFSET UNITYSDK_OFFSET(0x1C2C5620)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ST_Side_Timer_TypeDefinitionIndex = 19020;
+	inline static constexpr unsigned int ST_Side_Timer_TypeDefinitionIndex = 19371;
 
 	class ST_Side_Timer : public ::RPG::GameCore::STTaskConfig
 	{
@@ -22,9 +22,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ST_SIDE_TIMER__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_4_382EAB24255812C8(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ST_Side_Timer*& a2)
+		static ::System::Void Method_4_A11C0775389F9D99(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ST_Side_Timer*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ST_Side_Timer*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ST_SIDE_TIMER_METHOD_4_382EAB24255812C8_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ST_Side_Timer*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ST_SIDE_TIMER_METHOD_4_A11C0775389F9D99_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_4_F6A121ACB11FCD22(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ST_Side_Timer* a2)

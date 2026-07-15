@@ -6,13 +6,13 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class TargetEvaluator; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_PROPTRIGGERANIMSTATE_METHOD_3_169730B9226315A1_OFFSET UNITYSDK_OFFSET(0x19A9EA30)
-#define RPG_GAMECORE_PROPTRIGGERANIMSTATE_METHOD_3_CD30E516F93B53C8_OFFSET UNITYSDK_OFFSET(0x19A9E8D0)
-#define RPG_GAMECORE_PROPTRIGGERANIMSTATE__CTOR_OFFSET UNITYSDK_OFFSET(0x19A9E990)
+#define RPG_GAMECORE_PROPTRIGGERANIMSTATE_METHOD_3_169730B9226315A1_OFFSET UNITYSDK_OFFSET(0x1B9A6330)
+#define RPG_GAMECORE_PROPTRIGGERANIMSTATE_METHOD_3_807CBFA586E46729_OFFSET UNITYSDK_OFFSET(0x1B9A62B0)
+#define RPG_GAMECORE_PROPTRIGGERANIMSTATE__CTOR_OFFSET UNITYSDK_OFFSET(0x1B9A6300)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PropTriggerAnimState_TypeDefinitionIndex = 19262;
+	inline static constexpr unsigned int PropTriggerAnimState_TypeDefinitionIndex = 19618;
 
 	class PropTriggerAnimState : public ::RPG::GameCore::TaskConfig
 	{
@@ -29,9 +29,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PROPTRIGGERANIMSTATE__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_CD30E516F93B53C8(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::PropTriggerAnimState*& a2)
+		static ::System::Void Method_3_807CBFA586E46729(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::PropTriggerAnimState*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::PropTriggerAnimState*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PROPTRIGGERANIMSTATE_METHOD_3_CD30E516F93B53C8_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::PropTriggerAnimState*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PROPTRIGGERANIMSTATE_METHOD_3_807CBFA586E46729_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_169730B9226315A1(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::PropTriggerAnimState* a2)

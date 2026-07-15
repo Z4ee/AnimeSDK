@@ -3,7 +3,7 @@
 
 namespace ZenFulcrum::VR::OpenVRBinding
 {
-	inline static constexpr unsigned int EGamepadTextInputLineMode_TypeDefinitionIndex = 36316;
+	inline static constexpr unsigned int EGamepadTextInputLineMode_TypeDefinitionIndex = 37098;
 
 	enum class EGamepadTextInputLineMode : ::System::Int32
 	{

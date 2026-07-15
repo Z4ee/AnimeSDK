@@ -7,10 +7,10 @@ namespace UnityEngine { class Transform; }
 namespace UnityEngine::UI { class Image; }
 namespace UnityEngine::UI { class Text; }
 
-#define CLASS_1_8C991E7F06D23AEA_METHOD_1_ECA72114536D14FE_OFFSET UNITYSDK_OFFSET(0xACC60F0)
-#define CLASS_1_8C991E7F06D23AEA__CTOR_OFFSET UNITYSDK_OFFSET(0xACC61F0)
+#define CLASS_1_8C991E7F06D23AEA_METHOD_1_ECA72114536D14FE_OFFSET UNITYSDK_OFFSET(0x173E6C80)
+#define CLASS_1_8C991E7F06D23AEA__CTOR_OFFSET UNITYSDK_OFFSET(0x173E6D80)
 
-inline static constexpr unsigned int Class_1_8C991E7F06D23AEA_TypeDefinitionIndex = 66964;
+inline static constexpr unsigned int Class_1_8C991E7F06D23AEA_TypeDefinitionIndex = 68408;
 
 class Class_1_8C991E7F06D23AEA : public ::System::Object
 {
@@ -18,9 +18,9 @@ public:
 	// static const ::System::String* Field_1_0; // 0x0
 	::UnityEngine::UI::Text* Field_1_1; // 0x10
 	::UnityEngine::UI::Text* Field_1_2; // 0x18
-	::UnityEngine::Transform* Field_1_3; // 0x20
-	::UnityEngine::UI::Image* Field_1_4; // 0x28
-	::UnityEngine::UI::Text* Field_1_5; // 0x30
+	::UnityEngine::UI::Text* Field_1_3; // 0x20
+	::UnityEngine::Transform* Field_1_4; // 0x28
+	::UnityEngine::UI::Image* Field_1_5; // 0x30
 
 	::System::Void _ctor()
 	{

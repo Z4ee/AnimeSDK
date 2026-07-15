@@ -9,13 +9,13 @@ namespace RPG::GameCore { class DynamicJson; }
 namespace RPG::GameCore { class DynamicString; }
 namespace RPG::GameCore { class TargetEvaluator; }
 
-#define RPG_GAMECORE_PROPCURVESETSTARTPOINT_METHOD_3_00394310626B1888_OFFSET UNITYSDK_OFFSET(0x19A8A8A0)
-#define RPG_GAMECORE_PROPCURVESETSTARTPOINT_METHOD_3_926E220588F59CA2_OFFSET UNITYSDK_OFFSET(0x19A8A7A0)
-#define RPG_GAMECORE_PROPCURVESETSTARTPOINT__CTOR_OFFSET UNITYSDK_OFFSET(0x19A8A830)
+#define RPG_GAMECORE_PROPCURVESETSTARTPOINT_METHOD_3_00394310626B1888_OFFSET UNITYSDK_OFFSET(0x1BA1E010)
+#define RPG_GAMECORE_PROPCURVESETSTARTPOINT_METHOD_3_928AE2AAAD4807EB_OFFSET UNITYSDK_OFFSET(0x1BA1DF40)
+#define RPG_GAMECORE_PROPCURVESETSTARTPOINT__CTOR_OFFSET UNITYSDK_OFFSET(0x1BA1DFC0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PropCurveSetStartPoint_TypeDefinitionIndex = 19849;
+	inline static constexpr unsigned int PropCurveSetStartPoint_TypeDefinitionIndex = 20213;
 
 	class PropCurveSetStartPoint : public ::RPG::GameCore::TaskConfig
 	{
@@ -39,9 +39,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PROPCURVESETSTARTPOINT__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_926E220588F59CA2(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::PropCurveSetStartPoint*& a2)
+		static ::System::Void Method_3_928AE2AAAD4807EB(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::PropCurveSetStartPoint*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::PropCurveSetStartPoint*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PROPCURVESETSTARTPOINT_METHOD_3_926E220588F59CA2_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::PropCurveSetStartPoint*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PROPCURVESETSTARTPOINT_METHOD_3_928AE2AAAD4807EB_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_00394310626B1888(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::PropCurveSetStartPoint* a2)

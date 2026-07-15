@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int BattleCollegeData_BattleCollegeStatus_TypeDefinitionIndex = 58825;
+	inline static constexpr unsigned int BattleCollegeData_BattleCollegeStatus_TypeDefinitionIndex = 60096;
 
 	enum class BattleCollegeData_BattleCollegeStatus : ::System::Int32
 	{

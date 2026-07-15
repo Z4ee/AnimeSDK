@@ -3,7 +3,7 @@
 
 namespace RPG::Client::LittleGame
 {
-	inline static constexpr unsigned int BossTransitionReason_TypeDefinitionIndex = 39398;
+	inline static constexpr unsigned int BossTransitionReason_TypeDefinitionIndex = 40207;
 
 	enum class BossTransitionReason : ::System::Int32
 	{

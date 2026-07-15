@@ -4,12 +4,12 @@
 
 namespace System { class String; }
 
-#define MIHOYO_SDK_HTTPDNS_HOYOSDKHTTPWEBRESPONSE___C__DISPLAYCLASS7_0__CTOR_OFFSET UNITYSDK_OFFSET(0xA17B0A0)
-#define MIHOYO_SDK_HTTPDNS_HOYOSDKHTTPWEBRESPONSE___C__DISPLAYCLASS7_0__DOLOGGER_B__0_OFFSET UNITYSDK_OFFSET(0xA17B320)
+#define MIHOYO_SDK_HTTPDNS_HOYOSDKHTTPWEBRESPONSE___C__DISPLAYCLASS7_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1ACFDFF0)
+#define MIHOYO_SDK_HTTPDNS_HOYOSDKHTTPWEBRESPONSE___C__DISPLAYCLASS7_0__DOLOGGER_B__0_OFFSET UNITYSDK_OFFSET(0x1ACFE2C0)
 
 namespace MiHoYo::SDK::HttpDns
 {
-	inline static constexpr unsigned int HoYoSDKHttpWebResponse___c__DisplayClass7_0_TypeDefinitionIndex = 44063;
+	inline static constexpr unsigned int HoYoSDKHttpWebResponse___c__DisplayClass7_0_TypeDefinitionIndex = 44925;
 
 	class HoYoSDKHttpWebResponse___c__DisplayClass7_0 : public ::System::Object
 	{

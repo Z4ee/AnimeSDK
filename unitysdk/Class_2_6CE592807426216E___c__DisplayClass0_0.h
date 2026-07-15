@@ -5,10 +5,10 @@
 class Class_2_6CE592807426216E;
 namespace System { class String; }
 
-#define CLASS_2_6CE592807426216E___C__DISPLAYCLASS0_0__CTOR_OFFSET UNITYSDK_OFFSET(0xAFB1870)
-#define CLASS_2_6CE592807426216E___C__DISPLAYCLASS0_0__PLAYANIM_B__0_OFFSET UNITYSDK_OFFSET(0xAFB20C0)
+#define CLASS_2_6CE592807426216E___C__DISPLAYCLASS0_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1427B900)
+#define CLASS_2_6CE592807426216E___C__DISPLAYCLASS0_0__PLAYANIM_B__0_OFFSET UNITYSDK_OFFSET(0x1427C020)
 
-inline static constexpr unsigned int Class_2_6CE592807426216E___c__DisplayClass0_0_TypeDefinitionIndex = 67284;
+inline static constexpr unsigned int Class_2_6CE592807426216E___c__DisplayClass0_0_TypeDefinitionIndex = 68748;
 
 class Class_2_6CE592807426216E___c__DisplayClass0_0 : public ::System::Object
 {

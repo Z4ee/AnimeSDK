@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/Events/UnityEvent_1.h"
 
-#define UNITYENGINE_UI_SCROLLBAR_SCROLLEVENT__CTOR_OFFSET UNITYSDK_OFFSET(0x1B3E9C70)
+#define UNITYENGINE_UI_SCROLLBAR_SCROLLEVENT__CTOR_OFFSET UNITYSDK_OFFSET(0x15DD6F90)
 
 namespace UnityEngine::UI
 {
-	inline static constexpr unsigned int Scrollbar_ScrollEvent_TypeDefinitionIndex = 5991;
+	inline static constexpr unsigned int Scrollbar_ScrollEvent_TypeDefinitionIndex = 5996;
 
 	class Scrollbar_ScrollEvent : public ::UnityEngine::Events::UnityEvent_1<::System::Single>
 	{

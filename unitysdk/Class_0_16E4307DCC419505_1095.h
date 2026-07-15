@@ -1,10 +1,9 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-namespace RPG::AvatarSystem { class IAvatar; }
-namespace RPG::Client::RelicSmartSuit { class RelicSmartSuitPlanData; }
+class Class_0_16E4307DCC419505_1081;
 
-inline static constexpr unsigned int Class_0_16E4307DCC419505_1095_TypeDefinitionIndex = 69486;
+inline static constexpr unsigned int Class_0_16E4307DCC419505_1095_TypeDefinitionIndex = 69181;
 
 class Class_0_16E4307DCC419505_1095
 {

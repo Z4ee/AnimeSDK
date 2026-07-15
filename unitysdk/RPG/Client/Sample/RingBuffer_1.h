@@ -4,7 +4,7 @@
 
 namespace RPG::Client::Sample
 {
-	inline static constexpr unsigned int RingBuffer_1_TypeDefinitionIndex = 69114;
+	inline static constexpr unsigned int RingBuffer_1_TypeDefinitionIndex = 70633;
 
 	template <typename T>
 	class RingBuffer_1 : public ::System::Object

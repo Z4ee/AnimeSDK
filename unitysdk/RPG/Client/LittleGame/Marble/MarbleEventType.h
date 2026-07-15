@@ -3,7 +3,7 @@
 
 namespace RPG::Client::LittleGame::Marble
 {
-	inline static constexpr unsigned int MarbleEventType_TypeDefinitionIndex = 39696;
+	inline static constexpr unsigned int MarbleEventType_TypeDefinitionIndex = 40505;
 
 	enum class MarbleEventType : ::System::Int32
 	{

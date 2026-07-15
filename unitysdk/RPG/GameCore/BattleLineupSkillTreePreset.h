@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int BattleLineupSkillTreePreset_TypeDefinitionIndex = 17229;
+	inline static constexpr unsigned int BattleLineupSkillTreePreset_TypeDefinitionIndex = 17391;
 
 	enum class BattleLineupSkillTreePreset : ::System::Int32
 	{

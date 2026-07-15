@@ -3,11 +3,11 @@
 #include "unitysdk/RPG/Client/CameraFightStateCommonConfig.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-#define RPG_CLIENT_CAMERAFIGHTSTATECASTANIMATIONCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0xB4BA130)
+#define RPG_CLIENT_CAMERAFIGHTSTATECASTANIMATIONCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1AC593C0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int CameraFightStateCastAnimationConfig_TypeDefinitionIndex = 65042;
+	inline static constexpr unsigned int CameraFightStateCastAnimationConfig_TypeDefinitionIndex = 66447;
 
 	class CameraFightStateCastAnimationConfig : public ::RPG::Client::CameraFightStateCommonConfig
 	{

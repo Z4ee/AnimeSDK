@@ -7,10 +7,10 @@ namespace System { class String; }
 namespace UnityEngine { class MaterialPropertyBlock; }
 namespace UnityEngine { class Renderer; }
 
-#define EFFECT_SETMATERIALPROPERTYBYRULES_ONENABLE_OFFSET UNITYSDK_OFFSET(0x1357D4C0)
-#define EFFECT_SETMATERIALPROPERTYBYRULES__CTOR_OFFSET UNITYSDK_OFFSET(0x1357D530)
+#define EFFECT_SETMATERIALPROPERTYBYRULES_ONENABLE_OFFSET UNITYSDK_OFFSET(0xF18B210)
+#define EFFECT_SETMATERIALPROPERTYBYRULES__CTOR_OFFSET UNITYSDK_OFFSET(0xF18B280)
 
-inline static constexpr unsigned int Effect_SetMaterialPropertyByRules_TypeDefinitionIndex = 44749;
+inline static constexpr unsigned int Effect_SetMaterialPropertyByRules_TypeDefinitionIndex = 45664;
 
 class Effect_SetMaterialPropertyByRules : public ::UnityEngine::MonoBehaviour
 {

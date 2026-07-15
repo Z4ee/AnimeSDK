@@ -7,28 +7,28 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_DRINKMAKERCHEERSCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x196C0370)
-#define RPG_GAMECORE_DRINKMAKERCHEERSCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x196C0900)
+#define RPG_GAMECORE_DRINKMAKERCHEERSCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1BB1C180)
+#define RPG_GAMECORE_DRINKMAKERCHEERSCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1BB1C710)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int DrinkMakerCheersConfigRow_TypeDefinitionIndex = 12567;
+	inline static constexpr unsigned int DrinkMakerCheersConfigRow_TypeDefinitionIndex = 12704;
 
 	class DrinkMakerCheersConfigRow : public ::System::Object
 	{
 	public:
-		::Il2CppArray<::System::UInt32>* CommentList; // 0x10
-		::System::String* DrinkIconPath; // 0x18
+		::System::String* DrinkIconPath; // 0x10
+		::System::String* DrinkIconPrefab; // 0x18
 		::Il2CppArray<::System::UInt32>* ParamList; // 0x20
-		::System::String* DrinkIconPrefab; // 0x28
-		::RPG::Client::TextID OriginalName; // 0x30
-		::RPG::Client::TextID FunctionName; // 0x40
-		::System::UInt32 DrinkNameTextJoinID; // 0x50
-		::RPG::GameCore::DrinkMakerRequestMode Mode; // 0x54
-		::RPG::Client::TextID TagName; // 0x58
-		::RPG::Client::TextID AvatarRequestText; // 0x68
-		::RPG::Client::TextID Contraindications; // 0x78
-		::System::UInt32 ID; // 0x88
+		::Il2CppArray<::System::UInt32>* CommentList; // 0x28
+		::RPG::Client::TextID FunctionName; // 0x30
+		::System::UInt32 DrinkNameTextJoinID; // 0x40
+		::RPG::GameCore::DrinkMakerRequestMode Mode; // 0x44
+		::RPG::Client::TextID AvatarRequestText; // 0x48
+		::RPG::Client::TextID OriginalName; // 0x58
+		::System::UInt32 ID; // 0x68
+		::RPG::Client::TextID TagName; // 0x70
+		::RPG::Client::TextID Contraindications; // 0x80
 
 		::System::Void _ctor()
 		{

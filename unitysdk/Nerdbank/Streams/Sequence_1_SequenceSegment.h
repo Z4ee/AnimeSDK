@@ -10,7 +10,7 @@ namespace System::Buffers { template <typename T> class IMemoryOwner_1; }
 
 namespace Nerdbank::Streams
 {
-	inline static constexpr unsigned int Sequence_1_SequenceSegment_TypeDefinitionIndex = 7110;
+	inline static constexpr unsigned int Sequence_1_SequenceSegment_TypeDefinitionIndex = 7116;
 
 	template <typename T>
 	class Sequence_1_SequenceSegment : public ::System::Buffers::ReadOnlySequenceSegment_1<T>

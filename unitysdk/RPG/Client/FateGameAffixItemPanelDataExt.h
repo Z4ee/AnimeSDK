@@ -4,12 +4,12 @@
 
 namespace RPG::Client { class IFateGameAffixItemPanelData; }
 
-#define RPG_CLIENT_FATEGAMEAFFIXITEMPANELDATAEXT_ISAFFIX_OFFSET UNITYSDK_OFFSET(0xB98BE40)
-#define RPG_CLIENT_FATEGAMEAFFIXITEMPANELDATAEXT_ISREIJUAFFIX_OFFSET UNITYSDK_OFFSET(0xB98BEE0)
+#define RPG_CLIENT_FATEGAMEAFFIXITEMPANELDATAEXT_ISAFFIX_OFFSET UNITYSDK_OFFSET(0x196FE4C0)
+#define RPG_CLIENT_FATEGAMEAFFIXITEMPANELDATAEXT_ISREIJUAFFIX_OFFSET UNITYSDK_OFFSET(0x196FE560)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int FateGameAffixItemPanelDataExt_TypeDefinitionIndex = 59893;
+	inline static constexpr unsigned int FateGameAffixItemPanelDataExt_TypeDefinitionIndex = 61178;
 
 	class FateGameAffixItemPanelDataExt : public ::System::Object
 	{

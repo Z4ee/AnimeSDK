@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Attribute.h"
 
-#define UNITYENGINE_INTERNAL_EXCLUDEFROMDOCSATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1B29CB20)
+#define UNITYENGINE_INTERNAL_EXCLUDEFROMDOCSATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1CCC5CB0)
 
 namespace UnityEngine::Internal
 {
-	inline static constexpr unsigned int ExcludeFromDocsAttribute_TypeDefinitionIndex = 4667;
+	inline static constexpr unsigned int ExcludeFromDocsAttribute_TypeDefinitionIndex = 4672;
 
 	class ExcludeFromDocsAttribute : public ::System::Attribute
 	{

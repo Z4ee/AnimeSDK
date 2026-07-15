@@ -7,13 +7,12 @@
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine::Timeline { class TimelineClip; }
 
-#define RPGTOOLS_TIMELINE_HIPPLEN_HIPPLENGAMECHIMERATRACK_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0xD0258A0)
-#define RPGTOOLS_TIMELINE_HIPPLEN_HIPPLENGAMECHIMERATRACK__CTOR_OFFSET UNITYSDK_OFFSET(0xD025A40)
-#define RPGTOOLS_TIMELINE_HIPPLEN_HIPPLENGAMECHIMERATRACK___IFIXBASEPROXY_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0xD025A50)
+#define RPGTOOLS_TIMELINE_HIPPLEN_HIPPLENGAMECHIMERATRACK_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0x19A60E00)
+#define RPGTOOLS_TIMELINE_HIPPLEN_HIPPLENGAMECHIMERATRACK__CTOR_OFFSET UNITYSDK_OFFSET(0x19A60FA0)
 
 namespace RPGTools::Timeline::Hipplen
 {
-	inline static constexpr unsigned int HipplenGameChimeraTrack_TypeDefinitionIndex = 45919;
+	inline static constexpr unsigned int HipplenGameChimeraTrack_TypeDefinitionIndex = 46858;
 
 	class HipplenGameChimeraTrack : public ::RPGTools::Timeline::CustomUniqueNameTrack
 	{
@@ -28,11 +27,6 @@ namespace RPGTools::Timeline::Hipplen
 		::UnityEngine::Playables::Playable CreatePlayable(::UnityEngine::Playables::PlayableGraph a1, ::UnityEngine::GameObject* a2, ::UnityEngine::Timeline::TimelineClip* a3)
 		{
 			return ((::UnityEngine::Playables::Playable(*)(::PVOID, ::UnityEngine::Playables::PlayableGraph, ::UnityEngine::GameObject*, ::UnityEngine::Timeline::TimelineClip*))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_HIPPLEN_HIPPLENGAMECHIMERATRACK_CREATEPLAYABLE_OFFSET))(this, a1, a2, a3);
-		}
-
-		::UnityEngine::Playables::Playable __iFixBaseProxy_CreatePlayable(::UnityEngine::Playables::PlayableGraph a1, ::UnityEngine::GameObject* a2, ::UnityEngine::Timeline::TimelineClip* a3)
-		{
-			return ((::UnityEngine::Playables::Playable(*)(::PVOID, ::UnityEngine::Playables::PlayableGraph, ::UnityEngine::GameObject*, ::UnityEngine::Timeline::TimelineClip*))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_HIPPLEN_HIPPLENGAMECHIMERATRACK___IFIXBASEPROXY_CREATEPLAYABLE_OFFSET))(this, a1, a2, a3);
 		}
 	};
 }

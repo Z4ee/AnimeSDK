@@ -3,7 +3,7 @@
 
 namespace Spine
 {
-	inline static constexpr unsigned int ISlotTimeline_TypeDefinitionIndex = 36661;
+	inline static constexpr unsigned int ISlotTimeline_TypeDefinitionIndex = 37443;
 
 	class ISlotTimeline
 	{

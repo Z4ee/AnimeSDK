@@ -11,45 +11,45 @@ namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Concurrent { template <typename T1, typename T2> class ConcurrentDictionary_2; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_CURRENCYDISPLAYEXCELTABLE_GETDATA_OFFSET UNITYSDK_OFFSET(0x19686360)
-#define RPG_GAMECORE_CURRENCYDISPLAYEXCELTABLE_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x196861F0)
-#define RPG_GAMECORE_CURRENCYDISPLAYEXCELTABLE_GET_DATADICT_OFFSET UNITYSDK_OFFSET(0x19685EE0)
-#define RPG_GAMECORE_CURRENCYDISPLAYEXCELTABLE_ISDATAEMPTY_OFFSET UNITYSDK_OFFSET(0x19686190)
-#define RPG_GAMECORE_CURRENCYDISPLAYEXCELTABLE_ISDATALOADED_OFFSET UNITYSDK_OFFSET(0x196864B0)
-#define RPG_GAMECORE_CURRENCYDISPLAYEXCELTABLE_LOADDATA_OFFSET UNITYSDK_OFFSET(0x19685F60)
-#define RPG_GAMECORE_CURRENCYDISPLAYEXCELTABLE_UNLOADDATA_OFFSET UNITYSDK_OFFSET(0x196864F0)
-#define RPG_GAMECORE_CURRENCYDISPLAYEXCELTABLE__ADDITEMFROMBINARY_OFFSET UNITYSDK_OFFSET(0x196866C0)
-#define RPG_GAMECORE_CURRENCYDISPLAYEXCELTABLE__ADDITEM_OFFSET UNITYSDK_OFFSET(0x19686850)
-#define RPG_GAMECORE_CURRENCYDISPLAYEXCELTABLE__CCTOR_OFFSET UNITYSDK_OFFSET(0x19686B70)
-#define RPG_GAMECORE_CURRENCYDISPLAYEXCELTABLE__LOADDATAINCREMENTIAL_OFFSET UNITYSDK_OFFSET(0x19686620)
-#define RPG_GAMECORE_CURRENCYDISPLAYEXCELTABLE__LOADDATA_OFFSET UNITYSDK_OFFSET(0x19686580)
+#define RPG_GAMECORE_CURRENCYDISPLAYEXCELTABLE_GETDATA_OFFSET UNITYSDK_OFFSET(0x1BC3E1E0)
+#define RPG_GAMECORE_CURRENCYDISPLAYEXCELTABLE_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x1BC3E070)
+#define RPG_GAMECORE_CURRENCYDISPLAYEXCELTABLE_GET_DATADICT_OFFSET UNITYSDK_OFFSET(0x1BC3DD60)
+#define RPG_GAMECORE_CURRENCYDISPLAYEXCELTABLE_ISDATAEMPTY_OFFSET UNITYSDK_OFFSET(0x1BC3E010)
+#define RPG_GAMECORE_CURRENCYDISPLAYEXCELTABLE_ISDATALOADED_OFFSET UNITYSDK_OFFSET(0x1BC3E330)
+#define RPG_GAMECORE_CURRENCYDISPLAYEXCELTABLE_LOADDATA_OFFSET UNITYSDK_OFFSET(0x1BC3DDE0)
+#define RPG_GAMECORE_CURRENCYDISPLAYEXCELTABLE_UNLOADDATA_OFFSET UNITYSDK_OFFSET(0x1BC3E370)
+#define RPG_GAMECORE_CURRENCYDISPLAYEXCELTABLE__ADDITEMFROMBINARY_OFFSET UNITYSDK_OFFSET(0x1BC3E540)
+#define RPG_GAMECORE_CURRENCYDISPLAYEXCELTABLE__ADDITEM_OFFSET UNITYSDK_OFFSET(0x1BC3E6D0)
+#define RPG_GAMECORE_CURRENCYDISPLAYEXCELTABLE__CCTOR_OFFSET UNITYSDK_OFFSET(0x1BC3E9F0)
+#define RPG_GAMECORE_CURRENCYDISPLAYEXCELTABLE__LOADDATAINCREMENTIAL_OFFSET UNITYSDK_OFFSET(0x1BC3E4A0)
+#define RPG_GAMECORE_CURRENCYDISPLAYEXCELTABLE__LOADDATA_OFFSET UNITYSDK_OFFSET(0x1BC3E400)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int CurrencyDisplayExcelTable_TypeDefinitionIndex = 13920;
+	inline static constexpr unsigned int CurrencyDisplayExcelTable_TypeDefinitionIndex = 14068;
 
 	class CurrencyDisplayExcelTable : public ::System::Object
 	{
 	public:
-		static ::System::Action_1<::Class_1_7A22A3DBEEDD1F80*>** StaticGet__AddItemFromBinary_ActionInst()
-		{
-			return (::System::Action_1<::Class_1_7A22A3DBEEDD1F80*>**)Il2CppClass::FromTypeDefinitionIndex(CurrencyDisplayExcelTable_TypeDefinitionIndex)->GetStaticField(0x110B0);
-		}
 		static ::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::CurrencyDisplayRow*>** StaticGet_dataDict_()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::CurrencyDisplayRow*>**)Il2CppClass::FromTypeDefinitionIndex(CurrencyDisplayExcelTable_TypeDefinitionIndex)->GetStaticField(0x110B8);
+			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::CurrencyDisplayRow*>**)Il2CppClass::FromTypeDefinitionIndex(CurrencyDisplayExcelTable_TypeDefinitionIndex)->GetStaticField(0x2DB70);
+		}
+		static ::System::Action_1<::Class_1_7A22A3DBEEDD1F80*>** StaticGet__AddItemFromBinary_ActionInst()
+		{
+			return (::System::Action_1<::Class_1_7A22A3DBEEDD1F80*>**)Il2CppClass::FromTypeDefinitionIndex(CurrencyDisplayExcelTable_TypeDefinitionIndex)->GetStaticField(0x2DB78);
 		}
 		static ::Il2CppArray<::System::String*>** StaticGet_s_PathList()
 		{
-			return (::Il2CppArray<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(CurrencyDisplayExcelTable_TypeDefinitionIndex)->GetStaticField(0x110C0);
+			return (::Il2CppArray<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(CurrencyDisplayExcelTable_TypeDefinitionIndex)->GetStaticField(0x2DB80);
 		}
 		static ::System::Boolean* StaticGet_isDataLoaded()
 		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(CurrencyDisplayExcelTable_TypeDefinitionIndex)->GetStaticField(0x52E0);
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(CurrencyDisplayExcelTable_TypeDefinitionIndex)->GetStaticField(0x8040);
 		}
 		static ::System::Byte* StaticGet_HashIndex()
 		{
-			return (::System::Byte*)Il2CppClass::FromTypeDefinitionIndex(CurrencyDisplayExcelTable_TypeDefinitionIndex)->GetStaticField(0x52E1);
+			return (::System::Byte*)Il2CppClass::FromTypeDefinitionIndex(CurrencyDisplayExcelTable_TypeDefinitionIndex)->GetStaticField(0x8041);
 		}
 
 		static ::System::Void _cctor()

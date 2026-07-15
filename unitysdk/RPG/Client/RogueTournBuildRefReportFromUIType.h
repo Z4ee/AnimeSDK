@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int RogueTournBuildRefReportFromUIType_TypeDefinitionIndex = 56075;
+	inline static constexpr unsigned int RogueTournBuildRefReportFromUIType_TypeDefinitionIndex = 57314;
 
 	enum class RogueTournBuildRefReportFromUIType : ::System::UInt32
 	{

@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class ByCompareCityAtmosphereSubwayArrived; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_9A2C2B2F7107E37F_EVALUATE_OFFSET UNITYSDK_OFFSET(0xB758340)
-#define CLASS_3_9A2C2B2F7107E37F__CTOR_OFFSET UNITYSDK_OFFSET(0xB758310)
+#define CLASS_3_9A2C2B2F7107E37F_EVALUATE_OFFSET UNITYSDK_OFFSET(0x155B40E0)
+#define CLASS_3_9A2C2B2F7107E37F__CTOR_OFFSET UNITYSDK_OFFSET(0x155B40B0)
 
-inline static constexpr unsigned int Class_3_9A2C2B2F7107E37F_TypeDefinitionIndex = 49150;
+inline static constexpr unsigned int Class_3_9A2C2B2F7107E37F_TypeDefinitionIndex = 50165;
 
 class Class_3_9A2C2B2F7107E37F : public ::RPG::GameCore::PredicateTaskBase_1<::RPG::GameCore::ByCompareCityAtmosphereSubwayArrived*>
 {

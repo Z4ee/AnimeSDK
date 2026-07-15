@@ -8,13 +8,13 @@ namespace RPG::GameCore { class DynamicFloat; }
 namespace RPG::GameCore { class PredicateConfig; }
 namespace RPG::GameCore { class TargetEvaluator; }
 
-#define RPG_GAMECORE_SORTTARGETS_METHOD_3_62299A528350F73A_OFFSET UNITYSDK_OFFSET(0x19C903A0)
-#define RPG_GAMECORE_SORTTARGETS_METHOD_3_C2E746C5414F7E12_OFFSET UNITYSDK_OFFSET(0x19C904C0)
-#define RPG_GAMECORE_SORTTARGETS__CTOR_OFFSET UNITYSDK_OFFSET(0x19C90440)
+#define RPG_GAMECORE_SORTTARGETS_METHOD_3_B488E02FFDF15C83_OFFSET UNITYSDK_OFFSET(0x1BE53610)
+#define RPG_GAMECORE_SORTTARGETS_METHOD_3_C2E746C5414F7E12_OFFSET UNITYSDK_OFFSET(0x1BE53700)
+#define RPG_GAMECORE_SORTTARGETS__CTOR_OFFSET UNITYSDK_OFFSET(0x1BE536A0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SortTargets_TypeDefinitionIndex = 21884;
+	inline static constexpr unsigned int SortTargets_TypeDefinitionIndex = 22311;
 
 	class SortTargets : public ::RPG::GameCore::TaskConfig
 	{
@@ -33,9 +33,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SORTTARGETS__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_62299A528350F73A(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SortTargets*& a2)
+		static ::System::Void Method_3_B488E02FFDF15C83(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SortTargets*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SortTargets*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SORTTARGETS_METHOD_3_62299A528350F73A_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SortTargets*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SORTTARGETS_METHOD_3_B488E02FFDF15C83_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_C2E746C5414F7E12(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SortTargets* a2)

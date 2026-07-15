@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int WaitLevelGraphFinishMode_TypeDefinitionIndex = 23391;
+	inline static constexpr unsigned int WaitLevelGraphFinishMode_TypeDefinitionIndex = 23879;
 
 	enum class WaitLevelGraphFinishMode : ::System::Int32
 	{

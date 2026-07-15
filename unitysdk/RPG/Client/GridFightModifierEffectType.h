@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GridFightModifierEffectType_TypeDefinitionIndex = 60778;
+	inline static constexpr unsigned int GridFightModifierEffectType_TypeDefinitionIndex = 62071;
 
 	enum class GridFightModifierEffectType : ::System::Int32
 	{
@@ -15,5 +15,6 @@ namespace RPG::Client
 		ReplaceNode = 5,
 		InsertNode = 6,
 		NpcBonus = 7,
+		UpgradeEquipByRole = 8,
 	};
 }

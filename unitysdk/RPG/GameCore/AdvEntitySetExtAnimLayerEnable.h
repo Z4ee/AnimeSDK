@@ -6,13 +6,13 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class TargetEvaluator; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_ADVENTITYSETEXTANIMLAYERENABLE_METHOD_3_2F96ABD23DC40FFD_OFFSET UNITYSDK_OFFSET(0x194237F0)
-#define RPG_GAMECORE_ADVENTITYSETEXTANIMLAYERENABLE_METHOD_3_735A29E1BF90BB53_OFFSET UNITYSDK_OFFSET(0x19423770)
-#define RPG_GAMECORE_ADVENTITYSETEXTANIMLAYERENABLE__CTOR_OFFSET UNITYSDK_OFFSET(0x194237C0)
+#define RPG_GAMECORE_ADVENTITYSETEXTANIMLAYERENABLE_METHOD_3_2F96ABD23DC40FFD_OFFSET UNITYSDK_OFFSET(0x1BE1BF10)
+#define RPG_GAMECORE_ADVENTITYSETEXTANIMLAYERENABLE_METHOD_3_890DDD91C0039C54_OFFSET UNITYSDK_OFFSET(0x1BE1BED0)
+#define RPG_GAMECORE_ADVENTITYSETEXTANIMLAYERENABLE__CTOR_OFFSET UNITYSDK_OFFSET(0x1BE1BF00)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AdvEntitySetExtAnimLayerEnable_TypeDefinitionIndex = 19899;
+	inline static constexpr unsigned int AdvEntitySetExtAnimLayerEnable_TypeDefinitionIndex = 20263;
 
 	class AdvEntitySetExtAnimLayerEnable : public ::RPG::GameCore::TaskConfig
 	{
@@ -28,9 +28,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVENTITYSETEXTANIMLAYERENABLE__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_735A29E1BF90BB53(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AdvEntitySetExtAnimLayerEnable*& a2)
+		static ::System::Void Method_3_890DDD91C0039C54(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AdvEntitySetExtAnimLayerEnable*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::AdvEntitySetExtAnimLayerEnable*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVENTITYSETEXTANIMLAYERENABLE_METHOD_3_735A29E1BF90BB53_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::AdvEntitySetExtAnimLayerEnable*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVENTITYSETEXTANIMLAYERENABLE_METHOD_3_890DDD91C0039C54_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_2F96ABD23DC40FFD(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AdvEntitySetExtAnimLayerEnable* a2)

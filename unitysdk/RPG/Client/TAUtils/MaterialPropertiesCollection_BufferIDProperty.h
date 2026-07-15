@@ -4,12 +4,12 @@
 
 namespace UnityEngine { class Material; }
 
-#define RPG_CLIENT_TAUTILS_MATERIALPROPERTIESCOLLECTION_BUFFERIDPROPERTY_METHOD_3_3B01BE9C2045A2D8_OFFSET UNITYSDK_OFFSET(0xC9BF9E0)
-#define RPG_CLIENT_TAUTILS_MATERIALPROPERTIESCOLLECTION_BUFFERIDPROPERTY__CTOR_OFFSET UNITYSDK_OFFSET(0xC9BD840)
+#define RPG_CLIENT_TAUTILS_MATERIALPROPERTIESCOLLECTION_BUFFERIDPROPERTY_METHOD_3_3B01BE9C2045A2D8_OFFSET UNITYSDK_OFFSET(0x19759260)
+#define RPG_CLIENT_TAUTILS_MATERIALPROPERTIESCOLLECTION_BUFFERIDPROPERTY__CTOR_OFFSET UNITYSDK_OFFSET(0x197570C0)
 
 namespace RPG::Client::TAUtils
 {
-	inline static constexpr unsigned int MaterialPropertiesCollection_BufferIDProperty_TypeDefinitionIndex = 68719;
+	inline static constexpr unsigned int MaterialPropertiesCollection_BufferIDProperty_TypeDefinitionIndex = 70217;
 
 	class MaterialPropertiesCollection_BufferIDProperty : public ::RPG::Client::TAUtils::MaterialPropertiesCollection_Property_1<::System::UInt64>
 	{

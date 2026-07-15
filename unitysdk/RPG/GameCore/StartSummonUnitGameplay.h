@@ -7,13 +7,13 @@ namespace RPG::GameCore { class SubLevelGraphDynamicFloatOverride; }
 namespace RPG::GameCore { class SubLevelGraphDynamicStringOverride; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_STARTSUMMONUNITGAMEPLAY_METHOD_3_0A26D52F4A52EDFD_OFFSET UNITYSDK_OFFSET(0x19CB9400)
-#define RPG_GAMECORE_STARTSUMMONUNITGAMEPLAY_METHOD_3_B40DD527B0A543B4_OFFSET UNITYSDK_OFFSET(0x19CB9480)
-#define RPG_GAMECORE_STARTSUMMONUNITGAMEPLAY__CTOR_OFFSET UNITYSDK_OFFSET(0x19CB9450)
+#define RPG_GAMECORE_STARTSUMMONUNITGAMEPLAY_METHOD_3_B40DD527B0A543B4_OFFSET UNITYSDK_OFFSET(0x1B0BEF10)
+#define RPG_GAMECORE_STARTSUMMONUNITGAMEPLAY_METHOD_3_B4C0520E846BECA1_OFFSET UNITYSDK_OFFSET(0x1B0BEED0)
+#define RPG_GAMECORE_STARTSUMMONUNITGAMEPLAY__CTOR_OFFSET UNITYSDK_OFFSET(0x1B0BEF00)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int StartSummonUnitGameplay_TypeDefinitionIndex = 19993;
+	inline static constexpr unsigned int StartSummonUnitGameplay_TypeDefinitionIndex = 20365;
 
 	class StartSummonUnitGameplay : public ::RPG::GameCore::TaskConfig
 	{
@@ -27,9 +27,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_STARTSUMMONUNITGAMEPLAY__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_0A26D52F4A52EDFD(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::StartSummonUnitGameplay*& a2)
+		static ::System::Void Method_3_B4C0520E846BECA1(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::StartSummonUnitGameplay*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::StartSummonUnitGameplay*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_STARTSUMMONUNITGAMEPLAY_METHOD_3_0A26D52F4A52EDFD_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::StartSummonUnitGameplay*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_STARTSUMMONUNITGAMEPLAY_METHOD_3_B4C0520E846BECA1_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_B40DD527B0A543B4(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::StartSummonUnitGameplay* a2)

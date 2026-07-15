@@ -4,13 +4,13 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_MARBLEBYISDEFENDER_METHOD_4_230D4E11423C640D_OFFSET UNITYSDK_OFFSET(0x198CCBE0)
-#define RPG_GAMECORE_MARBLEBYISDEFENDER_METHOD_4_9D2FE9E74A746C55_OFFSET UNITYSDK_OFFSET(0x198CCB00)
-#define RPG_GAMECORE_MARBLEBYISDEFENDER__CTOR_OFFSET UNITYSDK_OFFSET(0x198CCB90)
+#define RPG_GAMECORE_MARBLEBYISDEFENDER_METHOD_4_067B801FD51FE32E_OFFSET UNITYSDK_OFFSET(0x1BD16010)
+#define RPG_GAMECORE_MARBLEBYISDEFENDER_METHOD_4_230D4E11423C640D_OFFSET UNITYSDK_OFFSET(0x1BD16070)
+#define RPG_GAMECORE_MARBLEBYISDEFENDER__CTOR_OFFSET UNITYSDK_OFFSET(0x1BD16060)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MarbleByIsDefender_TypeDefinitionIndex = 16019;
+	inline static constexpr unsigned int MarbleByIsDefender_TypeDefinitionIndex = 16203;
 
 	class MarbleByIsDefender : public ::RPG::GameCore::MarblePredicateConfig
 	{
@@ -20,9 +20,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MARBLEBYISDEFENDER__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_4_9D2FE9E74A746C55(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::MarbleByIsDefender*& a2)
+		static ::System::Void Method_4_067B801FD51FE32E(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::MarbleByIsDefender*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::MarbleByIsDefender*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MARBLEBYISDEFENDER_METHOD_4_9D2FE9E74A746C55_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::MarbleByIsDefender*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MARBLEBYISDEFENDER_METHOD_4_067B801FD51FE32E_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_4_230D4E11423C640D(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::MarbleByIsDefender* a2)

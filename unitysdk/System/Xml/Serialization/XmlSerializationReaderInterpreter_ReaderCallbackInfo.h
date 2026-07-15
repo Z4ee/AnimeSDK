@@ -5,12 +5,12 @@
 namespace System::Xml::Serialization { class XmlSerializationReaderInterpreter; }
 namespace System::Xml::Serialization { class XmlTypeMapping; }
 
-#define SYSTEM_XML_SERIALIZATION_XMLSERIALIZATIONREADERINTERPRETER_READERCALLBACKINFO_READOBJECT_OFFSET UNITYSDK_OFFSET(0x1AE919D0)
-#define SYSTEM_XML_SERIALIZATION_XMLSERIALIZATIONREADERINTERPRETER_READERCALLBACKINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x1AE88C00)
+#define SYSTEM_XML_SERIALIZATION_XMLSERIALIZATIONREADERINTERPRETER_READERCALLBACKINFO_READOBJECT_OFFSET UNITYSDK_OFFSET(0x1629D820)
+#define SYSTEM_XML_SERIALIZATION_XMLSERIALIZATIONREADERINTERPRETER_READERCALLBACKINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x16291320)
 
 namespace System::Xml::Serialization
 {
-	inline static constexpr unsigned int XmlSerializationReaderInterpreter_ReaderCallbackInfo_TypeDefinitionIndex = 2023;
+	inline static constexpr unsigned int XmlSerializationReaderInterpreter_ReaderCallbackInfo_TypeDefinitionIndex = 2027;
 
 	class XmlSerializationReaderInterpreter_ReaderCallbackInfo : public ::System::Object
 	{

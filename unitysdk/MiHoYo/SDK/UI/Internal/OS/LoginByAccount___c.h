@@ -5,24 +5,24 @@
 namespace MiHoYo::SDK::UI::Internal::OS { class LoginByAccount; }
 namespace System { template <typename T> class Action_1; }
 
-#define MIHOYO_SDK_UI_INTERNAL_OS_LOGINBYACCOUNT___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x18451AD0)
-#define MIHOYO_SDK_UI_INTERNAL_OS_LOGINBYACCOUNT___C__CTOR_OFFSET UNITYSDK_OFFSET(0x18451B10)
-#define MIHOYO_SDK_UI_INTERNAL_OS_LOGINBYACCOUNT___C__SHOW_B__60_0_OFFSET UNITYSDK_OFFSET(0x18451B20)
+#define MIHOYO_SDK_UI_INTERNAL_OS_LOGINBYACCOUNT___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1B6BC8F0)
+#define MIHOYO_SDK_UI_INTERNAL_OS_LOGINBYACCOUNT___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1B6BC930)
+#define MIHOYO_SDK_UI_INTERNAL_OS_LOGINBYACCOUNT___C__SHOW_B__60_0_OFFSET UNITYSDK_OFFSET(0x1B6BC940)
 
 namespace MiHoYo::SDK::UI::Internal::OS
 {
-	inline static constexpr unsigned int LoginByAccount___c_TypeDefinitionIndex = 8349;
+	inline static constexpr unsigned int LoginByAccount___c_TypeDefinitionIndex = 8361;
 
 	class LoginByAccount___c : public ::System::Object
 	{
 	public:
-		static ::System::Action_1<::MiHoYo::SDK::UI::Internal::OS::LoginByAccount*>** StaticGet___9__60_0()
-		{
-			return (::System::Action_1<::MiHoYo::SDK::UI::Internal::OS::LoginByAccount*>**)Il2CppClass::FromTypeDefinitionIndex(LoginByAccount___c_TypeDefinitionIndex)->GetStaticField(0x23FA0);
-		}
 		static ::MiHoYo::SDK::UI::Internal::OS::LoginByAccount___c** StaticGet___9()
 		{
-			return (::MiHoYo::SDK::UI::Internal::OS::LoginByAccount___c**)Il2CppClass::FromTypeDefinitionIndex(LoginByAccount___c_TypeDefinitionIndex)->GetStaticField(0x23FA8);
+			return (::MiHoYo::SDK::UI::Internal::OS::LoginByAccount___c**)Il2CppClass::FromTypeDefinitionIndex(LoginByAccount___c_TypeDefinitionIndex)->GetStaticField(0x285B0);
+		}
+		static ::System::Action_1<::MiHoYo::SDK::UI::Internal::OS::LoginByAccount*>** StaticGet___9__60_0()
+		{
+			return (::System::Action_1<::MiHoYo::SDK::UI::Internal::OS::LoginByAccount*>**)Il2CppClass::FromTypeDefinitionIndex(LoginByAccount___c_TypeDefinitionIndex)->GetStaticField(0x285B8);
 		}
 
 		static ::System::Void _cctor()

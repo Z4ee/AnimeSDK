@@ -1,23 +1,23 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Class_1_43BD383C98B4C0C5_196.h"
+#include "unitysdk/Class_1_43BD383C98B4C0C5_204.h"
 #include "unitysdk/Struct_2_BA7046B740FEFA98.h"
 
 class Class_1_39DC98424E208118;
 namespace RPG::Client::Prop { class BoxmanPuzzleBoard; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_2_4E6B072CC0250732__CCTOR_OFFSET UNITYSDK_OFFSET(0xB76C180)
-#define CLASS_2_4E6B072CC0250732__CTOR_OFFSET UNITYSDK_OFFSET(0xB76C110)
+#define CLASS_2_4E6B072CC0250732__CCTOR_OFFSET UNITYSDK_OFFSET(0x169AD7C0)
+#define CLASS_2_4E6B072CC0250732__CTOR_OFFSET UNITYSDK_OFFSET(0x169AD750)
 
-inline static constexpr unsigned int Class_2_4E6B072CC0250732_TypeDefinitionIndex = 73457;
+inline static constexpr unsigned int Class_2_4E6B072CC0250732_TypeDefinitionIndex = 74982;
 
-class Class_2_4E6B072CC0250732 : public ::Class_1_43BD383C98B4C0C5_196
+class Class_2_4E6B072CC0250732 : public ::Class_1_43BD383C98B4C0C5_204
 {
 public:
 	static ::System::Collections::Generic::List_1<::Struct_2_BA7046B740FEFA98>** StaticGet_Field_2_0()
 	{
-		return (::System::Collections::Generic::List_1<::Struct_2_BA7046B740FEFA98>**)Il2CppClass::FromTypeDefinitionIndex(Class_2_4E6B072CC0250732_TypeDefinitionIndex)->GetStaticField(0x67E0);
+		return (::System::Collections::Generic::List_1<::Struct_2_BA7046B740FEFA98>**)Il2CppClass::FromTypeDefinitionIndex(Class_2_4E6B072CC0250732_TypeDefinitionIndex)->GetStaticField(0x56E10);
 	}
 	::System::Collections::Generic::List_1<::Class_1_39DC98424E208118*>* Field_2_1; // 0x10
 	::System::Collections::Generic::List_1<::Class_1_39DC98424E208118*>* Field_2_2; // 0x18

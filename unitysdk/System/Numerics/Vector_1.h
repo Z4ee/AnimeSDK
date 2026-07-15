@@ -9,7 +9,7 @@ namespace System { class String; }
 
 namespace System::Numerics
 {
-	inline static constexpr unsigned int Vector_1_TypeDefinitionIndex = 3848;
+	inline static constexpr unsigned int Vector_1_TypeDefinitionIndex = 3852;
 
 	template <typename T>
 	struct Vector_1

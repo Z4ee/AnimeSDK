@@ -1,12 +1,10 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-namespace BansheeGz::BGSpline::Components { class BGCcMath; }
-namespace BansheeGz::BGSpline::Components { class BGCcSplitterPolyline; }
-namespace BansheeGz::BGSpline::Curve { class BGCurve; }
-namespace UnityEngine { class LineRenderer; }
+namespace RPG::Client { class IAdventureSettingConflictShowInfo; }
+namespace System { class String; }
 
-inline static constexpr unsigned int Class_0_16E4307DCC419505_671_TypeDefinitionIndex = 58315;
+inline static constexpr unsigned int Class_0_16E4307DCC419505_671_TypeDefinitionIndex = 58569;
 
 class Class_0_16E4307DCC419505_671
 {

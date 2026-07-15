@@ -7,12 +7,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_DAMAGERESISTANCETYPEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1968F0F0)
-#define RPG_GAMECORE_DAMAGERESISTANCETYPEROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1968F7E0)
+#define RPG_GAMECORE_DAMAGERESISTANCETYPEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1C0F8980)
+#define RPG_GAMECORE_DAMAGERESISTANCETYPEROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1C0F9070)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int DamageResistanceTypeRow_TypeDefinitionIndex = 13517;
+	inline static constexpr unsigned int DamageResistanceTypeRow_TypeDefinitionIndex = 13665;
 
 	class DamageResistanceTypeRow : public ::System::Object
 	{
@@ -20,8 +20,8 @@ namespace RPG::GameCore
 		::System::String* Icon; // 0x10
 		::System::String* HighResistanceIcon; // 0x18
 		::RPG::Client::TextID Resistance; // 0x20
-		::RPG::GameCore::AttackDamageType Type; // 0x30
-		::RPG::Client::TextID HighResistance; // 0x38
+		::RPG::Client::TextID HighResistance; // 0x30
+		::RPG::GameCore::AttackDamageType Type; // 0x40
 
 		::System::Void _ctor()
 		{

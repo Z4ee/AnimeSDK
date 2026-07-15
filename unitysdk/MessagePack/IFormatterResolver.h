@@ -5,7 +5,7 @@ namespace MessagePack::Formatters { template <typename T> class IMessagePackForm
 
 namespace MessagePack
 {
-	inline static constexpr unsigned int IFormatterResolver_TypeDefinitionIndex = 7116;
+	inline static constexpr unsigned int IFormatterResolver_TypeDefinitionIndex = 7122;
 
 	class IFormatterResolver
 	{

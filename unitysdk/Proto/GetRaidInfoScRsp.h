@@ -2,8 +2,8 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_1_766E1CF11E204F43_10;
-class Class_1_D17272E82AE804C2_768;
+class Class_1_D17272E82AE804C2_875;
+class Class_1_D55C9EF3F758FF20_4;
 namespace Google::Protobuf { class CodedInputStream; }
 namespace Google::Protobuf { class CodedOutputStream; }
 namespace Google::Protobuf { class UnknownFieldSet; }
@@ -13,57 +13,57 @@ namespace Google::Protobuf::Collections { template <typename T> class RepeatedFi
 namespace Google::Protobuf::Reflection { class MessageDescriptor; }
 namespace System { class String; }
 
-#define PROTO_GETRAIDINFOSCRSP_CALCULATESIZE_OFFSET UNITYSDK_OFFSET(0x1A0F0DC0)
-#define PROTO_GETRAIDINFOSCRSP_CLONE_OFFSET UNITYSDK_OFFSET(0x1A0F07D0)
-#define PROTO_GETRAIDINFOSCRSP_EQUALS_1_OFFSET UNITYSDK_OFFSET(0x1A0F0880)
-#define PROTO_GETRAIDINFOSCRSP_EQUALS_OFFSET UNITYSDK_OFFSET(0x1A0F0850)
-#define PROTO_GETRAIDINFOSCRSP_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x1A0F0990)
-#define PROTO_GETRAIDINFOSCRSP_GET_CHALLENGERAIDLIST_OFFSET UNITYSDK_OFFSET(0x1A0F0800)
-#define PROTO_GETRAIDINFOSCRSP_GET_CHALLENGETAKENREWARDIDLIST_OFFSET UNITYSDK_OFFSET(0x1A0F0820)
-#define PROTO_GETRAIDINFOSCRSP_GET_FINISHEDRAIDINFOLIST_OFFSET UNITYSDK_OFFSET(0x1A0F0810)
-#define PROTO_GETRAIDINFOSCRSP_GET_PARSER_OFFSET UNITYSDK_OFFSET(0x1A0F05B0)
-#define PROTO_GETRAIDINFOSCRSP_GET_RETCODE_OFFSET UNITYSDK_OFFSET(0x1A0F0830)
-#define PROTO_GETRAIDINFOSCRSP_MERGEFROM_1_OFFSET UNITYSDK_OFFSET(0x1A0F1070)
-#define PROTO_GETRAIDINFOSCRSP_MERGEFROM_OFFSET UNITYSDK_OFFSET(0x1A0F0F50)
-#define PROTO_GETRAIDINFOSCRSP_PB__GOOGLE_PROTOBUF_IMESSAGE_GET_DESCRIPTOR_OFFSET UNITYSDK_OFFSET(0x1A0F05E0)
-#define PROTO_GETRAIDINFOSCRSP_SET_RETCODE_OFFSET UNITYSDK_OFFSET(0x1A0F0840)
-#define PROTO_GETRAIDINFOSCRSP_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1A0F0BF0)
-#define PROTO_GETRAIDINFOSCRSP_WRITETO_OFFSET UNITYSDK_OFFSET(0x1A0F0C50)
-#define PROTO_GETRAIDINFOSCRSP__CCTOR_OFFSET UNITYSDK_OFFSET(0x1A0F11F0)
-#define PROTO_GETRAIDINFOSCRSP__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1A0F0690)
-#define PROTO_GETRAIDINFOSCRSP__CTOR_OFFSET UNITYSDK_OFFSET(0x1A0F05F0)
+#define PROTO_GETRAIDINFOSCRSP_CALCULATESIZE_OFFSET UNITYSDK_OFFSET(0x1BF84360)
+#define PROTO_GETRAIDINFOSCRSP_CLONE_OFFSET UNITYSDK_OFFSET(0x1BF83DC0)
+#define PROTO_GETRAIDINFOSCRSP_EQUALS_1_OFFSET UNITYSDK_OFFSET(0x1BF83E70)
+#define PROTO_GETRAIDINFOSCRSP_EQUALS_OFFSET UNITYSDK_OFFSET(0x1BF83E40)
+#define PROTO_GETRAIDINFOSCRSP_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x1BF83FF0)
+#define PROTO_GETRAIDINFOSCRSP_GET_CHALLENGERAIDLIST_OFFSET UNITYSDK_OFFSET(0x1BF83DF0)
+#define PROTO_GETRAIDINFOSCRSP_GET_CHALLENGETAKENREWARDIDLIST_OFFSET UNITYSDK_OFFSET(0x1BF83E10)
+#define PROTO_GETRAIDINFOSCRSP_GET_FINISHEDRAIDINFOLIST_OFFSET UNITYSDK_OFFSET(0x1BF83E00)
+#define PROTO_GETRAIDINFOSCRSP_GET_PARSER_OFFSET UNITYSDK_OFFSET(0x1BF83BA0)
+#define PROTO_GETRAIDINFOSCRSP_GET_RETCODE_OFFSET UNITYSDK_OFFSET(0x1BF83E20)
+#define PROTO_GETRAIDINFOSCRSP_MERGEFROM_1_OFFSET UNITYSDK_OFFSET(0x1BF84610)
+#define PROTO_GETRAIDINFOSCRSP_MERGEFROM_OFFSET UNITYSDK_OFFSET(0x1BF844F0)
+#define PROTO_GETRAIDINFOSCRSP_PB__GOOGLE_PROTOBUF_IMESSAGE_GET_DESCRIPTOR_OFFSET UNITYSDK_OFFSET(0x1BF83BD0)
+#define PROTO_GETRAIDINFOSCRSP_SET_RETCODE_OFFSET UNITYSDK_OFFSET(0x1BF83E30)
+#define PROTO_GETRAIDINFOSCRSP_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1BF84160)
+#define PROTO_GETRAIDINFOSCRSP_WRITETO_OFFSET UNITYSDK_OFFSET(0x1BF841C0)
+#define PROTO_GETRAIDINFOSCRSP__CCTOR_OFFSET UNITYSDK_OFFSET(0x1BF84780)
+#define PROTO_GETRAIDINFOSCRSP__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1BF83C80)
+#define PROTO_GETRAIDINFOSCRSP__CTOR_OFFSET UNITYSDK_OFFSET(0x1BF83BE0)
 
 namespace Proto
 {
-	inline static constexpr unsigned int GetRaidInfoScRsp_TypeDefinitionIndex = 30469;
+	inline static constexpr unsigned int GetRaidInfoScRsp_TypeDefinitionIndex = 30997;
 
 	class GetRaidInfoScRsp : public ::System::Object
 	{
 	public:
-		static ::Google::Protobuf::FieldCodec_1<::Class_1_D17272E82AE804C2_768*>** StaticGet__repeated_challengeRaidList_codec()
-		{
-			return (::Google::Protobuf::FieldCodec_1<::Class_1_D17272E82AE804C2_768*>**)Il2CppClass::FromTypeDefinitionIndex(GetRaidInfoScRsp_TypeDefinitionIndex)->GetStaticField(0x435A0);
-		}
 		static ::Google::Protobuf::MessageParser_1<::Proto::GetRaidInfoScRsp*>** StaticGet__parser()
 		{
-			return (::Google::Protobuf::MessageParser_1<::Proto::GetRaidInfoScRsp*>**)Il2CppClass::FromTypeDefinitionIndex(GetRaidInfoScRsp_TypeDefinitionIndex)->GetStaticField(0x435A8);
+			return (::Google::Protobuf::MessageParser_1<::Proto::GetRaidInfoScRsp*>**)Il2CppClass::FromTypeDefinitionIndex(GetRaidInfoScRsp_TypeDefinitionIndex)->GetStaticField(0x3C990);
 		}
 		static ::Google::Protobuf::FieldCodec_1<::System::UInt32>** StaticGet__repeated_challengeTakenRewardIdList_codec()
 		{
-			return (::Google::Protobuf::FieldCodec_1<::System::UInt32>**)Il2CppClass::FromTypeDefinitionIndex(GetRaidInfoScRsp_TypeDefinitionIndex)->GetStaticField(0x435B0);
+			return (::Google::Protobuf::FieldCodec_1<::System::UInt32>**)Il2CppClass::FromTypeDefinitionIndex(GetRaidInfoScRsp_TypeDefinitionIndex)->GetStaticField(0x3C998);
 		}
-		static ::Google::Protobuf::FieldCodec_1<::Class_1_766E1CF11E204F43_10*>** StaticGet__repeated_finishedRaidInfoList_codec()
+		static ::Google::Protobuf::FieldCodec_1<::Class_1_D55C9EF3F758FF20_4*>** StaticGet__repeated_finishedRaidInfoList_codec()
 		{
-			return (::Google::Protobuf::FieldCodec_1<::Class_1_766E1CF11E204F43_10*>**)Il2CppClass::FromTypeDefinitionIndex(GetRaidInfoScRsp_TypeDefinitionIndex)->GetStaticField(0x435B8);
+			return (::Google::Protobuf::FieldCodec_1<::Class_1_D55C9EF3F758FF20_4*>**)Il2CppClass::FromTypeDefinitionIndex(GetRaidInfoScRsp_TypeDefinitionIndex)->GetStaticField(0x3C9A0);
 		}
-		// static const ::System::Int32 ChallengeRaidListFieldNumber = 0x1; // 0x0
-		// static const ::System::Int32 FinishedRaidInfoListFieldNumber = 0x5; // 0x0
-		// static const ::System::Int32 ChallengeTakenRewardIdListFieldNumber = 0xC; // 0x0
+		static ::Google::Protobuf::FieldCodec_1<::Class_1_D17272E82AE804C2_875*>** StaticGet__repeated_challengeRaidList_codec()
+		{
+			return (::Google::Protobuf::FieldCodec_1<::Class_1_D17272E82AE804C2_875*>**)Il2CppClass::FromTypeDefinitionIndex(GetRaidInfoScRsp_TypeDefinitionIndex)->GetStaticField(0x3C9A8);
+		}
+		// static const ::System::Int32 ChallengeRaidListFieldNumber = 0xD; // 0x0
+		// static const ::System::Int32 FinishedRaidInfoListFieldNumber = 0xC; // 0x0
+		// static const ::System::Int32 ChallengeTakenRewardIdListFieldNumber = 0x4; // 0x0
 		// static const ::System::Int32 RetcodeFieldNumber = 0x6; // 0x0
-		::Google::Protobuf::UnknownFieldSet* _unknownFields; // 0x10
+		::Google::Protobuf::Collections::RepeatedField_1<::Class_1_D17272E82AE804C2_875*>* challengeRaidList_; // 0x10
 		::Google::Protobuf::Collections::RepeatedField_1<::System::UInt32>* challengeTakenRewardIdList_; // 0x18
-		::Google::Protobuf::Collections::RepeatedField_1<::Class_1_766E1CF11E204F43_10*>* finishedRaidInfoList_; // 0x20
-		::Google::Protobuf::Collections::RepeatedField_1<::Class_1_D17272E82AE804C2_768*>* challengeRaidList_; // 0x28
+		::Google::Protobuf::UnknownFieldSet* _unknownFields; // 0x20
+		::Google::Protobuf::Collections::RepeatedField_1<::Class_1_D55C9EF3F758FF20_4*>* finishedRaidInfoList_; // 0x28
 		::System::UInt32 retcode_; // 0x30
 
 		::System::Void _ctor()
@@ -96,14 +96,14 @@ namespace Proto
 			return ((::Proto::GetRaidInfoScRsp*(*)(::PVOID))((::PBYTE)hIl2Cpp + PROTO_GETRAIDINFOSCRSP_CLONE_OFFSET))(this);
 		}
 
-		::Google::Protobuf::Collections::RepeatedField_1<::Class_1_D17272E82AE804C2_768*>* get_ChallengeRaidList()
+		::Google::Protobuf::Collections::RepeatedField_1<::Class_1_D17272E82AE804C2_875*>* get_ChallengeRaidList()
 		{
-			return ((::Google::Protobuf::Collections::RepeatedField_1<::Class_1_D17272E82AE804C2_768*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + PROTO_GETRAIDINFOSCRSP_GET_CHALLENGERAIDLIST_OFFSET))(this);
+			return ((::Google::Protobuf::Collections::RepeatedField_1<::Class_1_D17272E82AE804C2_875*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + PROTO_GETRAIDINFOSCRSP_GET_CHALLENGERAIDLIST_OFFSET))(this);
 		}
 
-		::Google::Protobuf::Collections::RepeatedField_1<::Class_1_766E1CF11E204F43_10*>* get_FinishedRaidInfoList()
+		::Google::Protobuf::Collections::RepeatedField_1<::Class_1_D55C9EF3F758FF20_4*>* get_FinishedRaidInfoList()
 		{
-			return ((::Google::Protobuf::Collections::RepeatedField_1<::Class_1_766E1CF11E204F43_10*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + PROTO_GETRAIDINFOSCRSP_GET_FINISHEDRAIDINFOLIST_OFFSET))(this);
+			return ((::Google::Protobuf::Collections::RepeatedField_1<::Class_1_D55C9EF3F758FF20_4*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + PROTO_GETRAIDINFOSCRSP_GET_FINISHEDRAIDINFOLIST_OFFSET))(this);
 		}
 
 		::Google::Protobuf::Collections::RepeatedField_1<::System::UInt32>* get_ChallengeTakenRewardIdList()

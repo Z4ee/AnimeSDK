@@ -1,16 +1,15 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Class_1_6D4DDF404C3CCC18.h"
+#include "unitysdk/Class_1_41E07A9DDAB7FC78.h"
 
-#define RPG_CLIENT_GRIDFIGHTROLEPOSSERVICE_ROLEREMOVESUMMERIZER_UPDATEREMOVEROLE_OFFSET UNITYSDK_OFFSET(0xBBE3090)
-#define RPG_CLIENT_GRIDFIGHTROLEPOSSERVICE_ROLEREMOVESUMMERIZER__CTOR_OFFSET UNITYSDK_OFFSET(0xBBE3150)
-#define RPG_CLIENT_GRIDFIGHTROLEPOSSERVICE_ROLEREMOVESUMMERIZER___IFIXBASEPROXY_UPDATEREMOVEROLE_OFFSET UNITYSDK_OFFSET(0xBBE3160)
+#define RPG_CLIENT_GRIDFIGHTROLEPOSSERVICE_ROLEREMOVESUMMERIZER_UPDATEREMOVEROLE_OFFSET UNITYSDK_OFFSET(0x1AD56340)
+#define RPG_CLIENT_GRIDFIGHTROLEPOSSERVICE_ROLEREMOVESUMMERIZER__CTOR_OFFSET UNITYSDK_OFFSET(0x1AD56400)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GridFightRolePosService_RoleRemoveSummerizer_TypeDefinitionIndex = 60643;
+	inline static constexpr unsigned int GridFightRolePosService_RoleRemoveSummerizer_TypeDefinitionIndex = 61934;
 
-	class GridFightRolePosService_RoleRemoveSummerizer : public ::Class_1_6D4DDF404C3CCC18
+	class GridFightRolePosService_RoleRemoveSummerizer : public ::Class_1_41E07A9DDAB7FC78
 	{
 	public:
 		::System::Void _ctor()
@@ -21,11 +20,6 @@ namespace RPG::Client
 		::System::Void UpdateRemoveRole(::System::UInt32 a1)
 		{
 			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTROLEPOSSERVICE_ROLEREMOVESUMMERIZER_UPDATEREMOVEROLE_OFFSET))(this, a1);
-		}
-
-		::System::Void __iFixBaseProxy_UpdateRemoveRole(::System::UInt32 a1)
-		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTROLEPOSSERVICE_ROLEREMOVESUMMERIZER___IFIXBASEPROXY_UPDATEREMOVEROLE_OFFSET))(this, a1);
 		}
 	};
 }

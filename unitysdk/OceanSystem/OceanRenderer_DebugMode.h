@@ -3,7 +3,7 @@
 
 namespace OceanSystem
 {
-	inline static constexpr unsigned int OceanRenderer_DebugMode_TypeDefinitionIndex = 46172;
+	inline static constexpr unsigned int OceanRenderer_DebugMode_TypeDefinitionIndex = 47137;
 
 	enum class OceanRenderer_DebugMode : ::System::Int32
 	{

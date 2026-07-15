@@ -3,7 +3,7 @@
 
 namespace Mono::Security::Interface
 {
-	inline static constexpr unsigned int MonoSslPolicyErrors_TypeDefinitionIndex = 2280;
+	inline static constexpr unsigned int MonoSslPolicyErrors_TypeDefinitionIndex = 2284;
 
 	enum class MonoSslPolicyErrors : ::System::Int32
 	{

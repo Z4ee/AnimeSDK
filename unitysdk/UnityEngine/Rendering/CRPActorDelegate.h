@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/Behaviour.h"
 
-#define UNITYENGINE_RENDERING_CRPACTORDELEGATE_SETSAFEDELETE_OFFSET UNITYSDK_OFFSET(0x1B2C5010)
+#define UNITYENGINE_RENDERING_CRPACTORDELEGATE_SETSAFEDELETE_OFFSET UNITYSDK_OFFSET(0x1CE002B0)
 
 namespace UnityEngine::Rendering
 {
-	inline static constexpr unsigned int CRPActorDelegate_TypeDefinitionIndex = 4849;
+	inline static constexpr unsigned int CRPActorDelegate_TypeDefinitionIndex = 4854;
 
 	class CRPActorDelegate : public ::UnityEngine::Behaviour
 	{

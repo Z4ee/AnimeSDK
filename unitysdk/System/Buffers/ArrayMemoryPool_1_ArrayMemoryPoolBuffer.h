@@ -5,7 +5,7 @@
 
 namespace System::Buffers
 {
-	inline static constexpr unsigned int ArrayMemoryPool_1_ArrayMemoryPoolBuffer_TypeDefinitionIndex = 4968;
+	inline static constexpr unsigned int ArrayMemoryPool_1_ArrayMemoryPoolBuffer_TypeDefinitionIndex = 4973;
 
 	template <typename T>
 	class ArrayMemoryPool_1_ArrayMemoryPoolBuffer : public ::System::Object

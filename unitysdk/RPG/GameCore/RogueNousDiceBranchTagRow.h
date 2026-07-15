@@ -6,12 +6,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_ROGUENOUSDICEBRANCHTAGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x19BA1840)
-#define RPG_GAMECORE_ROGUENOUSDICEBRANCHTAGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x19BA1A00)
+#define RPG_GAMECORE_ROGUENOUSDICEBRANCHTAGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D16AA20)
+#define RPG_GAMECORE_ROGUENOUSDICEBRANCHTAGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D16ABE0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RogueNousDiceBranchTagRow_TypeDefinitionIndex = 14170;
+	inline static constexpr unsigned int RogueNousDiceBranchTagRow_TypeDefinitionIndex = 14318;
 
 	class RogueNousDiceBranchTagRow : public ::System::Object
 	{

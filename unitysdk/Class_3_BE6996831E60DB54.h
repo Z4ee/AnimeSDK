@@ -1,0 +1,51 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/Class_2_B3AFD97860C380C7.h"
+
+class Class_3_2EAEB59C1D3F00D7;
+namespace RPG::GameCore { class TaskContext; }
+
+#define CLASS_3_BE6996831E60DB54_METHOD_3_DC715239B8B98D9C_1_OFFSET UNITYSDK_OFFSET(0x16A9CD10)
+#define CLASS_3_BE6996831E60DB54_METHOD_3_DC715239B8B98D9C_2_OFFSET UNITYSDK_OFFSET(0x16A9CD70)
+#define CLASS_3_BE6996831E60DB54_METHOD_3_DC715239B8B98D9C_3_OFFSET UNITYSDK_OFFSET(0x16A9CDD0)
+#define CLASS_3_BE6996831E60DB54_METHOD_3_DC715239B8B98D9C_OFFSET UNITYSDK_OFFSET(0x16A9CCB0)
+#define CLASS_3_BE6996831E60DB54_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x16A9CB30)
+#define CLASS_3_BE6996831E60DB54__CTOR_OFFSET UNITYSDK_OFFSET(0x16A9CA80)
+
+inline static constexpr unsigned int Class_3_BE6996831E60DB54_TypeDefinitionIndex = 50917;
+
+class Class_3_BE6996831E60DB54 : public ::Class_2_B3AFD97860C380C7
+{
+public:
+	::Class_3_2EAEB59C1D3F00D7* Field_3_0; // 0x28
+
+	::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::Class_3_2EAEB59C1D3F00D7* a2)
+	{
+		return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::Class_3_2EAEB59C1D3F00D7*))((::PBYTE)hIl2Cpp + CLASS_3_BE6996831E60DB54__CTOR_OFFSET))(this, a1, a2);
+	}
+
+	::System::Void OnTaskBegin()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_3_BE6996831E60DB54_ONTASKBEGIN_OFFSET))(this);
+	}
+
+	::System::Void Method_3_DC715239B8B98D9C()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_3_BE6996831E60DB54_METHOD_3_DC715239B8B98D9C_OFFSET))(this);
+	}
+
+	::System::Void Method_3_DC715239B8B98D9C_1()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_3_BE6996831E60DB54_METHOD_3_DC715239B8B98D9C_1_OFFSET))(this);
+	}
+
+	::System::Void Method_3_DC715239B8B98D9C_2()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_3_BE6996831E60DB54_METHOD_3_DC715239B8B98D9C_2_OFFSET))(this);
+	}
+
+	::System::Void Method_3_DC715239B8B98D9C_3()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_3_BE6996831E60DB54_METHOD_3_DC715239B8B98D9C_3_OFFSET))(this);
+	}
+};

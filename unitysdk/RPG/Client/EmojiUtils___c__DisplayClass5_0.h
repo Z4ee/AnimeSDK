@@ -4,12 +4,12 @@
 
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_CLIENT_EMOJIUTILS___C__DISPLAYCLASS5_0__CTOR_OFFSET UNITYSDK_OFFSET(0xB909260)
-#define RPG_CLIENT_EMOJIUTILS___C__DISPLAYCLASS5_0__GETEMOJIIDS_B__0_OFFSET UNITYSDK_OFFSET(0xB9094B0)
+#define RPG_CLIENT_EMOJIUTILS___C__DISPLAYCLASS5_0__CTOR_OFFSET UNITYSDK_OFFSET(0x18D8AC60)
+#define RPG_CLIENT_EMOJIUTILS___C__DISPLAYCLASS5_0__GETEMOJIIDS_B__0_OFFSET UNITYSDK_OFFSET(0x18D8AEB0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int EmojiUtils___c__DisplayClass5_0_TypeDefinitionIndex = 59172;
+	inline static constexpr unsigned int EmojiUtils___c__DisplayClass5_0_TypeDefinitionIndex = 60443;
 
 	class EmojiUtils___c__DisplayClass5_0 : public ::System::Object
 	{

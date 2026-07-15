@@ -5,7 +5,7 @@ namespace Entitas { template <typename T> class IMatcher_1; }
 
 namespace RPG::Client::LittleGame
 {
-	inline static constexpr unsigned int IGenericViewAssetContext_1_TypeDefinitionIndex = 38985;
+	inline static constexpr unsigned int IGenericViewAssetContext_1_TypeDefinitionIndex = 39794;
 
 	template <typename TEntity>
 	class IGenericViewAssetContext_1

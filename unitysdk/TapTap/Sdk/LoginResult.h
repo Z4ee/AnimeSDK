@@ -5,26 +5,26 @@
 namespace System { class Exception; }
 namespace TapTap::Sdk { class AccessToken; }
 
-#define TAPTAP_SDK_LOGINRESULT_GET_ISCANCELED_OFFSET UNITYSDK_OFFSET(0x1B01EFE0)
-#define TAPTAP_SDK_LOGINRESULT_GET_ISFAULTED_OFFSET UNITYSDK_OFFSET(0x1B01F000)
-#define TAPTAP_SDK_LOGINRESULT_GET_TOKEN_OFFSET UNITYSDK_OFFSET(0x1B01F030)
-#define TAPTAP_SDK_LOGINRESULT_SET_EXCEPTION_OFFSET UNITYSDK_OFFSET(0x1B01F020)
-#define TAPTAP_SDK_LOGINRESULT_SET_ISCANCELED_OFFSET UNITYSDK_OFFSET(0x1B01EFF0)
-#define TAPTAP_SDK_LOGINRESULT_SET_ISFAULTED_OFFSET UNITYSDK_OFFSET(0x1B01F010)
-#define TAPTAP_SDK_LOGINRESULT_SET_TOKEN_OFFSET UNITYSDK_OFFSET(0x1B01F040)
-#define TAPTAP_SDK_LOGINRESULT__CTOR_OFFSET UNITYSDK_OFFSET(0x1B01EE90)
+#define TAPTAP_SDK_LOGINRESULT_GET_ISCANCELED_OFFSET UNITYSDK_OFFSET(0x1D1D4790)
+#define TAPTAP_SDK_LOGINRESULT_GET_ISFAULTED_OFFSET UNITYSDK_OFFSET(0x1D1D47B0)
+#define TAPTAP_SDK_LOGINRESULT_GET_TOKEN_OFFSET UNITYSDK_OFFSET(0x1D1D47E0)
+#define TAPTAP_SDK_LOGINRESULT_SET_EXCEPTION_OFFSET UNITYSDK_OFFSET(0x1D1D47D0)
+#define TAPTAP_SDK_LOGINRESULT_SET_ISCANCELED_OFFSET UNITYSDK_OFFSET(0x1D1D47A0)
+#define TAPTAP_SDK_LOGINRESULT_SET_ISFAULTED_OFFSET UNITYSDK_OFFSET(0x1D1D47C0)
+#define TAPTAP_SDK_LOGINRESULT_SET_TOKEN_OFFSET UNITYSDK_OFFSET(0x1D1D47F0)
+#define TAPTAP_SDK_LOGINRESULT__CTOR_OFFSET UNITYSDK_OFFSET(0x1D1D4640)
 
 namespace TapTap::Sdk
 {
-	inline static constexpr unsigned int LoginResult_TypeDefinitionIndex = 7076;
+	inline static constexpr unsigned int LoginResult_TypeDefinitionIndex = 7082;
 
 	class LoginResult : public ::System::Object
 	{
 	public:
-		::TapTap::Sdk::AccessToken* _Token_k__BackingField; // 0x10
-		::System::Exception* _Exception_k__BackingField; // 0x18
-		::System::Boolean _IsFaulted_k__BackingField; // 0x20
-		::System::Boolean _IsCanceled_k__BackingField; // 0x21
+		::System::Exception* _Exception_k__BackingField; // 0x10
+		::TapTap::Sdk::AccessToken* _Token_k__BackingField; // 0x18
+		::System::Boolean _IsCanceled_k__BackingField; // 0x20
+		::System::Boolean _IsFaulted_k__BackingField; // 0x21
 
 		::System::Void _ctor()
 		{

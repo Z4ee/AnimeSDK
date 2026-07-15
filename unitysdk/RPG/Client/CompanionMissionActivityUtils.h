@@ -5,12 +5,12 @@
 namespace RPG::Client { class CompanionMissionActivityBannerData; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_COMPANIONMISSIONACTIVITYUTILS_GETINSCHEDULEBANNERDATALIST_OFFSET UNITYSDK_OFFSET(0xB6FD250)
-#define RPG_CLIENT_COMPANIONMISSIONACTIVITYUTILS_GETINSCHEDULEBANNERIDLIST_OFFSET UNITYSDK_OFFSET(0xB6FCD90)
+#define RPG_CLIENT_COMPANIONMISSIONACTIVITYUTILS_GETINSCHEDULEBANNERDATALIST_OFFSET UNITYSDK_OFFSET(0x18012AC0)
+#define RPG_CLIENT_COMPANIONMISSIONACTIVITYUTILS_GETINSCHEDULEBANNERIDLIST_OFFSET UNITYSDK_OFFSET(0x18012600)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int CompanionMissionActivityUtils_TypeDefinitionIndex = 59459;
+	inline static constexpr unsigned int CompanionMissionActivityUtils_TypeDefinitionIndex = 60743;
 
 	class CompanionMissionActivityUtils : public ::System::Object
 	{

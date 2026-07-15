@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int GridFightRegion_TypeDefinitionIndex = 10184;
+	inline static constexpr unsigned int GridFightRegion_TypeDefinitionIndex = 10205;
 
 	enum class GridFightRegion : ::System::Int32
 	{

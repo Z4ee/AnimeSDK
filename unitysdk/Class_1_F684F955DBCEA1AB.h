@@ -5,9 +5,9 @@
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine { class Transform; }
 
-#define CLASS_1_F684F955DBCEA1AB__CTOR_OFFSET UNITYSDK_OFFSET(0x18CF7460)
+#define CLASS_1_F684F955DBCEA1AB__CTOR_OFFSET UNITYSDK_OFFSET(0x1A8FE010)
 
-inline static constexpr unsigned int Class_1_F684F955DBCEA1AB_TypeDefinitionIndex = 39801;
+inline static constexpr unsigned int Class_1_F684F955DBCEA1AB_TypeDefinitionIndex = 40610;
 
 class Class_1_F684F955DBCEA1AB : public ::System::Object
 {

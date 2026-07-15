@@ -3,9 +3,9 @@
 #include "unitysdk/RPG/MVector3.h"
 #include "unitysdk/System/ValueType.h"
 
-#define STRUCT_2_3C72212260A8C076_METHOD_2_7D90263CF3A3B469_OFFSET UNITYSDK_OFFSET(0x145220)
+#define STRUCT_2_3C72212260A8C076_METHOD_2_7D90263CF3A3B469_OFFSET UNITYSDK_OFFSET(0x3958CB0)
 
-inline static constexpr unsigned int Struct_2_3C72212260A8C076_TypeDefinitionIndex = 53182;
+inline static constexpr unsigned int Struct_2_3C72212260A8C076_TypeDefinitionIndex = 54397;
 
 struct alignas(4) Struct_2_3C72212260A8C076
 {

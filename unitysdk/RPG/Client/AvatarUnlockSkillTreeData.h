@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define RPG_CLIENT_AVATARUNLOCKSKILLTREEDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xB398520)
+#define RPG_CLIENT_AVATARUNLOCKSKILLTREEDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x186744F0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int AvatarUnlockSkillTreeData_TypeDefinitionIndex = 58446;
+	inline static constexpr unsigned int AvatarUnlockSkillTreeData_TypeDefinitionIndex = 59715;
 
 	class AvatarUnlockSkillTreeData : public ::System::Object
 	{

@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AnimatorLayerEmotionType_TypeDefinitionIndex = 23176;
+	inline static constexpr unsigned int AnimatorLayerEmotionType_TypeDefinitionIndex = 23656;
 
 	enum class AnimatorLayerEmotionType : ::System::Int32
 	{

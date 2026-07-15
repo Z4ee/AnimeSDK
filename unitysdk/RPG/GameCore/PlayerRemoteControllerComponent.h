@@ -2,8 +2,8 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/GameComponentBase.h"
 
+class Class_2_21055A9FA74B791E;
 class Class_2_3F4D673D3F90D12C;
-class Class_2_9D4DD2F4235F8658;
 class Class_2_F67FF7EB526BF85C;
 namespace RPG::GameCore { class AdventureCharacterController; }
 namespace RPG::GameCore { class CharacterVisibleComponent; }
@@ -15,41 +15,40 @@ namespace RPG::GameCore { class TransformComponent; }
 namespace System { class Object; }
 namespace System::Collections { class IEnumerator; }
 
-#define RPG_GAMECORE_PLAYERREMOTECONTROLLERCOMPONENT_DISPOSE_OFFSET UNITYSDK_OFFSET(0xCE73FB0)
-#define RPG_GAMECORE_PLAYERREMOTECONTROLLERCOMPONENT_GET_CONTROLENTITY_OFFSET UNITYSDK_OFFSET(0xCE74B80)
-#define RPG_GAMECORE_PLAYERREMOTECONTROLLERCOMPONENT_GET_PLAYERSTUB_OFFSET UNITYSDK_OFFSET(0xCE74B70)
-#define RPG_GAMECORE_PLAYERREMOTECONTROLLERCOMPONENT_INITCOMPONENT_OFFSET UNITYSDK_OFFSET(0xCE745C0)
-#define RPG_GAMECORE_PLAYERREMOTECONTROLLERCOMPONENT_RELEASECONTROL_OFFSET UNITYSDK_OFFSET(0xCE74210)
-#define RPG_GAMECORE_PLAYERREMOTECONTROLLERCOMPONENT_SETPLAYERSTUB_OFFSET UNITYSDK_OFFSET(0xCE748D0)
-#define RPG_GAMECORE_PLAYERREMOTECONTROLLERCOMPONENT_TICK_OFFSET UNITYSDK_OFFSET(0xCE74050)
-#define RPG_GAMECORE_PLAYERREMOTECONTROLLERCOMPONENT__CTOR_OFFSET UNITYSDK_OFFSET(0xCE73F50)
-#define RPG_GAMECORE_PLAYERREMOTECONTROLLERCOMPONENT__DELAYCANCELCONTROL_OFFSET UNITYSDK_OFFSET(0xCE74AE0)
-#define RPG_GAMECORE_PLAYERREMOTECONTROLLERCOMPONENT__INHERITCONTROLENTITYMODIFIERS_OFFSET UNITYSDK_OFFSET(0xCE74420)
-#define RPG_GAMECORE_PLAYERREMOTECONTROLLERCOMPONENT__ONREMOTECONTROLRELEASE_OFFSET UNITYSDK_OFFSET(0xCE74920)
-#define RPG_GAMECORE_PLAYERREMOTECONTROLLERCOMPONENT___IFIXBASEPROXY_TICK_OFFSET UNITYSDK_OFFSET(0xCE74B90)
+#define RPG_GAMECORE_PLAYERREMOTECONTROLLERCOMPONENT_DISPOSE_OFFSET UNITYSDK_OFFSET(0x197A7090)
+#define RPG_GAMECORE_PLAYERREMOTECONTROLLERCOMPONENT_GET_CONTROLENTITY_OFFSET UNITYSDK_OFFSET(0x197A7CE0)
+#define RPG_GAMECORE_PLAYERREMOTECONTROLLERCOMPONENT_GET_PLAYERSTUB_OFFSET UNITYSDK_OFFSET(0x197A7CD0)
+#define RPG_GAMECORE_PLAYERREMOTECONTROLLERCOMPONENT_INITCOMPONENT_OFFSET UNITYSDK_OFFSET(0x197A76B0)
+#define RPG_GAMECORE_PLAYERREMOTECONTROLLERCOMPONENT_RELEASECONTROL_OFFSET UNITYSDK_OFFSET(0x197A72F0)
+#define RPG_GAMECORE_PLAYERREMOTECONTROLLERCOMPONENT_SETPLAYERSTUB_OFFSET UNITYSDK_OFFSET(0x197A7A30)
+#define RPG_GAMECORE_PLAYERREMOTECONTROLLERCOMPONENT_TICK_OFFSET UNITYSDK_OFFSET(0x197A7130)
+#define RPG_GAMECORE_PLAYERREMOTECONTROLLERCOMPONENT__CTOR_OFFSET UNITYSDK_OFFSET(0x197A7030)
+#define RPG_GAMECORE_PLAYERREMOTECONTROLLERCOMPONENT__DELAYCANCELCONTROL_OFFSET UNITYSDK_OFFSET(0x197A7C40)
+#define RPG_GAMECORE_PLAYERREMOTECONTROLLERCOMPONENT__INHERITCONTROLENTITYMODIFIERS_OFFSET UNITYSDK_OFFSET(0x197A7510)
+#define RPG_GAMECORE_PLAYERREMOTECONTROLLERCOMPONENT__ONREMOTECONTROLRELEASE_OFFSET UNITYSDK_OFFSET(0x197A7A80)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PlayerRemoteControllerComponent_TypeDefinitionIndex = 53866;
+	inline static constexpr unsigned int PlayerRemoteControllerComponent_TypeDefinitionIndex = 55088;
 
 	class PlayerRemoteControllerComponent : public ::RPG::GameCore::GameComponentBase
 	{
 	public:
-		::RPG::GameCore::TransformComponent* _TargetTransformCmpt; // 0x18
-		::RPG::GameCore::NPCComponent* _NPCCmpt; // 0x20
-		::RPG::GameCore::CharacterVisibleComponent* _VisibleCmpt; // 0x28
-		::RPG::GameCore::GameEntity* _PlayerStub; // 0x30
-		::RPG::GameCore::TransformComponent* _SelfTransformCmpt; // 0x38
-		::RPG::GameCore::GameEntity* _ControlEntity; // 0x40
-		::RPG::GameCore::AdventureCharacterController* _AdvCharCtrlCmpt; // 0x48
-		::Class_2_3F4D673D3F90D12C* _CharVisionCmpt; // 0x50
-		::RPG::GameCore::ColliderTriggerComponent* _TriggerCmpt; // 0x58
-		::RPG::GameCore::LevelGraphComponent* _LevelGraphCmpt; // 0x60
-		::Class_2_F67FF7EB526BF85C* _TargetingCmpt; // 0x68
-		::Class_2_9D4DD2F4235F8658* _AdvCharAICmpt; // 0x70
-		::System::Boolean CanUseSameMapTeleport; // 0x78
-		::System::Boolean SupportRush; // 0x79
-		::System::Boolean SyncPlayerPositionToServer; // 0x7A
+		::RPG::GameCore::NPCComponent* _NPCCmpt; // 0x18
+		::RPG::GameCore::TransformComponent* _TargetTransformCmpt; // 0x20
+		::Class_2_F67FF7EB526BF85C* _TargetingCmpt; // 0x28
+		::Class_2_3F4D673D3F90D12C* _CharVisionCmpt; // 0x30
+		::RPG::GameCore::AdventureCharacterController* _AdvCharCtrlCmpt; // 0x38
+		::RPG::GameCore::ColliderTriggerComponent* _TriggerCmpt; // 0x40
+		::RPG::GameCore::GameEntity* _ControlEntity; // 0x48
+		::RPG::GameCore::GameEntity* _PlayerStub; // 0x50
+		::RPG::GameCore::TransformComponent* _SelfTransformCmpt; // 0x58
+		::Class_2_21055A9FA74B791E* _AdvCharAICmpt; // 0x60
+		::RPG::GameCore::LevelGraphComponent* _LevelGraphCmpt; // 0x68
+		::RPG::GameCore::CharacterVisibleComponent* _VisibleCmpt; // 0x70
+		::System::Boolean SupportRush; // 0x78
+		::System::Boolean SyncPlayerPositionToServer; // 0x79
+		::System::Boolean CanUseSameMapTeleport; // 0x7A
 
 		::System::Void _ctor()
 		{
@@ -104,11 +103,6 @@ namespace RPG::GameCore
 		::RPG::GameCore::GameEntity* get_ControlEntity()
 		{
 			return ((::RPG::GameCore::GameEntity*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PLAYERREMOTECONTROLLERCOMPONENT_GET_CONTROLENTITY_OFFSET))(this);
-		}
-
-		::System::Void __iFixBaseProxy_Tick(::System::Single a1)
-		{
-			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PLAYERREMOTECONTROLLERCOMPONENT___IFIXBASEPROXY_TICK_OFFSET))(this, a1);
 		}
 	};
 }

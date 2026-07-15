@@ -4,7 +4,7 @@
 
 namespace Google::Protobuf::WellKnownTypes
 {
-	inline static constexpr unsigned int Field_Types_TypeDefinitionIndex = 5445;
+	inline static constexpr unsigned int Field_Types_TypeDefinitionIndex = 5450;
 
 	class Field_Types : public ::System::Object
 	{

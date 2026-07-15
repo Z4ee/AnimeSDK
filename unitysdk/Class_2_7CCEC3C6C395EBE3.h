@@ -5,19 +5,19 @@
 namespace RPG::GameCore { class OverrideLightDeviceFollowColliderMode; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_2_7CCEC3C6C395EBE3_DISPOSE_OFFSET UNITYSDK_OFFSET(0x137B18D0)
-#define CLASS_2_7CCEC3C6C395EBE3_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x137B17C0)
-#define CLASS_2_7CCEC3C6C395EBE3_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x137B1910)
-#define CLASS_2_7CCEC3C6C395EBE3_TICK_OFFSET UNITYSDK_OFFSET(0x137B1960)
-#define CLASS_2_7CCEC3C6C395EBE3__CTOR_OFFSET UNITYSDK_OFFSET(0x137B17B0)
+#define CLASS_2_7CCEC3C6C395EBE3_DISPOSE_OFFSET UNITYSDK_OFFSET(0x15FE7C60)
+#define CLASS_2_7CCEC3C6C395EBE3_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x15FE7B50)
+#define CLASS_2_7CCEC3C6C395EBE3_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x15FE7CA0)
+#define CLASS_2_7CCEC3C6C395EBE3_TICK_OFFSET UNITYSDK_OFFSET(0x15FE7CF0)
+#define CLASS_2_7CCEC3C6C395EBE3__CTOR_OFFSET UNITYSDK_OFFSET(0x15FE7B40)
 
-inline static constexpr unsigned int Class_2_7CCEC3C6C395EBE3_TypeDefinitionIndex = 49364;
+inline static constexpr unsigned int Class_2_7CCEC3C6C395EBE3_TypeDefinitionIndex = 50379;
 
 class Class_2_7CCEC3C6C395EBE3 : public ::Class_1_5F51D4049EA87B7B
 {
 public:
-	::RPG::GameCore::OverrideLightDeviceFollowColliderMode* Field_2_0; // 0x18
-	::RPG::GameCore::TaskContext* Field_2_1; // 0x20
+	::RPG::GameCore::TaskContext* Field_2_0; // 0x18
+	::RPG::GameCore::OverrideLightDeviceFollowColliderMode* Field_2_1; // 0x20
 
 	::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::OverrideLightDeviceFollowColliderMode* a2)
 	{

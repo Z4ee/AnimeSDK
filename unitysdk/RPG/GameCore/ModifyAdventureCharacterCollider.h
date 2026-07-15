@@ -5,13 +5,13 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class ColliderConfig; }
 
-#define RPG_GAMECORE_MODIFYADVENTURECHARACTERCOLLIDER_METHOD_3_2B003E1D0497C98A_OFFSET UNITYSDK_OFFSET(0x1994EEE0)
-#define RPG_GAMECORE_MODIFYADVENTURECHARACTERCOLLIDER_METHOD_3_C7A2990F90FB4DDB_OFFSET UNITYSDK_OFFSET(0x1994EE60)
-#define RPG_GAMECORE_MODIFYADVENTURECHARACTERCOLLIDER__CTOR_OFFSET UNITYSDK_OFFSET(0x1994EEB0)
+#define RPG_GAMECORE_MODIFYADVENTURECHARACTERCOLLIDER_METHOD_3_2B003E1D0497C98A_OFFSET UNITYSDK_OFFSET(0x1AF73CC0)
+#define RPG_GAMECORE_MODIFYADVENTURECHARACTERCOLLIDER_METHOD_3_45B0736739235757_OFFSET UNITYSDK_OFFSET(0x1AF73C80)
+#define RPG_GAMECORE_MODIFYADVENTURECHARACTERCOLLIDER__CTOR_OFFSET UNITYSDK_OFFSET(0x1AF73CB0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ModifyAdventureCharacterCollider_TypeDefinitionIndex = 21187;
+	inline static constexpr unsigned int ModifyAdventureCharacterCollider_TypeDefinitionIndex = 21602;
 
 	class ModifyAdventureCharacterCollider : public ::RPG::GameCore::TaskConfig
 	{
@@ -25,9 +25,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MODIFYADVENTURECHARACTERCOLLIDER__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_C7A2990F90FB4DDB(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ModifyAdventureCharacterCollider*& a2)
+		static ::System::Void Method_3_45B0736739235757(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ModifyAdventureCharacterCollider*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ModifyAdventureCharacterCollider*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MODIFYADVENTURECHARACTERCOLLIDER_METHOD_3_C7A2990F90FB4DDB_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ModifyAdventureCharacterCollider*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MODIFYADVENTURECHARACTERCOLLIDER_METHOD_3_45B0736739235757_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_2B003E1D0497C98A(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ModifyAdventureCharacterCollider* a2)

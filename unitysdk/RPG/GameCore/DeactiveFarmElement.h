@@ -5,13 +5,13 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class TargetEvaluator; }
 
-#define RPG_GAMECORE_DEACTIVEFARMELEMENT_METHOD_3_7706044986DEBDB0_OFFSET UNITYSDK_OFFSET(0x196926F0)
-#define RPG_GAMECORE_DEACTIVEFARMELEMENT_METHOD_3_F26E4C9C1C088BE9_OFFSET UNITYSDK_OFFSET(0x19692770)
-#define RPG_GAMECORE_DEACTIVEFARMELEMENT__CTOR_OFFSET UNITYSDK_OFFSET(0x19692740)
+#define RPG_GAMECORE_DEACTIVEFARMELEMENT_METHOD_3_ABFAB33E735B5E62_OFFSET UNITYSDK_OFFSET(0x1C0FC180)
+#define RPG_GAMECORE_DEACTIVEFARMELEMENT_METHOD_3_F26E4C9C1C088BE9_OFFSET UNITYSDK_OFFSET(0x1C0FC1C0)
+#define RPG_GAMECORE_DEACTIVEFARMELEMENT__CTOR_OFFSET UNITYSDK_OFFSET(0x1C0FC1B0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int DeactiveFarmElement_TypeDefinitionIndex = 20864;
+	inline static constexpr unsigned int DeactiveFarmElement_TypeDefinitionIndex = 21279;
 
 	class DeactiveFarmElement : public ::RPG::GameCore::TaskConfig
 	{
@@ -23,9 +23,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_DEACTIVEFARMELEMENT__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_7706044986DEBDB0(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::DeactiveFarmElement*& a2)
+		static ::System::Void Method_3_ABFAB33E735B5E62(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::DeactiveFarmElement*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::DeactiveFarmElement*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_DEACTIVEFARMELEMENT_METHOD_3_7706044986DEBDB0_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::DeactiveFarmElement*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_DEACTIVEFARMELEMENT_METHOD_3_ABFAB33E735B5E62_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_F26E4C9C1C088BE9(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::DeactiveFarmElement* a2)

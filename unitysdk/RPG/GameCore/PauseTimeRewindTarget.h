@@ -7,13 +7,13 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class DynamicFloat; }
 namespace RPG::GameCore { class TargetEvaluator; }
 
-#define RPG_GAMECORE_PAUSETIMEREWINDTARGET_METHOD_3_230287D4DEE482CA_OFFSET UNITYSDK_OFFSET(0x199EB170)
-#define RPG_GAMECORE_PAUSETIMEREWINDTARGET_METHOD_3_A9BB3D1375506E0D_OFFSET UNITYSDK_OFFSET(0x199EB210)
-#define RPG_GAMECORE_PAUSETIMEREWINDTARGET__CTOR_OFFSET UNITYSDK_OFFSET(0x199EB1D0)
+#define RPG_GAMECORE_PAUSETIMEREWINDTARGET_METHOD_3_933C89A73B271A15_OFFSET UNITYSDK_OFFSET(0x1BB12F80)
+#define RPG_GAMECORE_PAUSETIMEREWINDTARGET_METHOD_3_A9BB3D1375506E0D_OFFSET UNITYSDK_OFFSET(0x1BB12FD0)
+#define RPG_GAMECORE_PAUSETIMEREWINDTARGET__CTOR_OFFSET UNITYSDK_OFFSET(0x1BB12FC0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PauseTimeRewindTarget_TypeDefinitionIndex = 19516;
+	inline static constexpr unsigned int PauseTimeRewindTarget_TypeDefinitionIndex = 19874;
 
 	class PauseTimeRewindTarget : public ::RPG::GameCore::TaskConfig
 	{
@@ -29,9 +29,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PAUSETIMEREWINDTARGET__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_230287D4DEE482CA(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::PauseTimeRewindTarget*& a2)
+		static ::System::Void Method_3_933C89A73B271A15(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::PauseTimeRewindTarget*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::PauseTimeRewindTarget*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PAUSETIMEREWINDTARGET_METHOD_3_230287D4DEE482CA_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::PauseTimeRewindTarget*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PAUSETIMEREWINDTARGET_METHOD_3_933C89A73B271A15_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_A9BB3D1375506E0D(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::PauseTimeRewindTarget* a2)

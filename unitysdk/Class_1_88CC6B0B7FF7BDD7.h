@@ -4,16 +4,16 @@
 #include "unitysdk/RPG/GameCore/GameModeParamNotifyType.h"
 #include "unitysdk/System/Object.h"
 
-#define CLASS_1_88CC6B0B7FF7BDD7_CLEAR_OFFSET UNITYSDK_OFFSET(0xC960960)
-#define CLASS_1_88CC6B0B7FF7BDD7__CTOR_OFFSET UNITYSDK_OFFSET(0xC9609A0)
+#define CLASS_1_88CC6B0B7FF7BDD7_CLEAR_OFFSET UNITYSDK_OFFSET(0x16B6EFA0)
+#define CLASS_1_88CC6B0B7FF7BDD7__CTOR_OFFSET UNITYSDK_OFFSET(0x16B6EFE0)
 
-inline static constexpr unsigned int Class_1_88CC6B0B7FF7BDD7_TypeDefinitionIndex = 51595;
+inline static constexpr unsigned int Class_1_88CC6B0B7FF7BDD7_TypeDefinitionIndex = 52737;
 
 class Class_1_88CC6B0B7FF7BDD7 : public ::System::Object
 {
 public:
-	::RPG::GameCore::GameModeParamNotifyType Field_1_0; // 0x10
-	::RPG::GameCore::FixPoint Field_1_1; // 0x18
+	::RPG::GameCore::FixPoint Field_1_0; // 0x10
+	::RPG::GameCore::GameModeParamNotifyType Field_1_1; // 0x18
 
 	::System::Void _ctor()
 	{

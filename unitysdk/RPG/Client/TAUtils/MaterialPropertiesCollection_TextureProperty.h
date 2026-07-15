@@ -5,12 +5,12 @@
 namespace UnityEngine { class Material; }
 namespace UnityEngine { class Texture; }
 
-#define RPG_CLIENT_TAUTILS_MATERIALPROPERTIESCOLLECTION_TEXTUREPROPERTY_METHOD_3_3B01BE9C2045A2D8_OFFSET UNITYSDK_OFFSET(0xC9BFEC0)
-#define RPG_CLIENT_TAUTILS_MATERIALPROPERTIESCOLLECTION_TEXTUREPROPERTY__CTOR_OFFSET UNITYSDK_OFFSET(0xC9BD580)
+#define RPG_CLIENT_TAUTILS_MATERIALPROPERTIESCOLLECTION_TEXTUREPROPERTY_METHOD_3_3B01BE9C2045A2D8_OFFSET UNITYSDK_OFFSET(0x19759740)
+#define RPG_CLIENT_TAUTILS_MATERIALPROPERTIESCOLLECTION_TEXTUREPROPERTY__CTOR_OFFSET UNITYSDK_OFFSET(0x19756E00)
 
 namespace RPG::Client::TAUtils
 {
-	inline static constexpr unsigned int MaterialPropertiesCollection_TextureProperty_TypeDefinitionIndex = 68717;
+	inline static constexpr unsigned int MaterialPropertiesCollection_TextureProperty_TypeDefinitionIndex = 70215;
 
 	class MaterialPropertiesCollection_TextureProperty : public ::RPG::Client::TAUtils::MaterialPropertiesCollection_Property_1<::UnityEngine::Texture*>
 	{

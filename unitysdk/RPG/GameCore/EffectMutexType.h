@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int EffectMutexType_TypeDefinitionIndex = 23147;
+	inline static constexpr unsigned int EffectMutexType_TypeDefinitionIndex = 23627;
 
 	enum class EffectMutexType : ::System::Int32
 	{

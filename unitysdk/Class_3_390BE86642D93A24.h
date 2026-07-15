@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class AdvCharacterSetMotionBlendTime; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_390BE86642D93A24_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xA884CA0)
-#define CLASS_3_390BE86642D93A24__CTOR_OFFSET UNITYSDK_OFFSET(0xA884C70)
+#define CLASS_3_390BE86642D93A24_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x14B14400)
+#define CLASS_3_390BE86642D93A24__CTOR_OFFSET UNITYSDK_OFFSET(0x14B143D0)
 
-inline static constexpr unsigned int Class_3_390BE86642D93A24_TypeDefinitionIndex = 48940;
+inline static constexpr unsigned int Class_3_390BE86642D93A24_TypeDefinitionIndex = 49953;
 
 class Class_3_390BE86642D93A24 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::AdvCharacterSetMotionBlendTime*>
 {

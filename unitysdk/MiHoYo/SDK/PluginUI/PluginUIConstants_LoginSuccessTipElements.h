@@ -6,7 +6,7 @@ namespace System { class String; }
 
 namespace MiHoYo::SDK::PluginUI
 {
-	inline static constexpr unsigned int PluginUIConstants_LoginSuccessTipElements_TypeDefinitionIndex = 8837;
+	inline static constexpr unsigned int PluginUIConstants_LoginSuccessTipElements_TypeDefinitionIndex = 8849;
 
 	class PluginUIConstants_LoginSuccessTipElements : public ::System::Object
 	{

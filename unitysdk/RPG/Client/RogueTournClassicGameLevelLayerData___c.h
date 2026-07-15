@@ -5,24 +5,24 @@
 namespace RPG::Client { class IRogueTournClassicGameLevelRoom; }
 namespace System { template <typename T> class Comparison_1; }
 
-#define RPG_CLIENT_ROGUETOURNCLASSICGAMELEVELLAYERDATA___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xC80AEC0)
-#define RPG_CLIENT_ROGUETOURNCLASSICGAMELEVELLAYERDATA___C__CTOR_OFFSET UNITYSDK_OFFSET(0xC80AF00)
-#define RPG_CLIENT_ROGUETOURNCLASSICGAMELEVELLAYERDATA___C___SYNCROOMSFULL_B__9_0_OFFSET UNITYSDK_OFFSET(0xC80AF10)
+#define RPG_CLIENT_ROGUETOURNCLASSICGAMELEVELLAYERDATA___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x19C19760)
+#define RPG_CLIENT_ROGUETOURNCLASSICGAMELEVELLAYERDATA___C__CTOR_OFFSET UNITYSDK_OFFSET(0x19C197A0)
+#define RPG_CLIENT_ROGUETOURNCLASSICGAMELEVELLAYERDATA___C___SYNCROOMSFULL_B__9_0_OFFSET UNITYSDK_OFFSET(0x19C197B0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int RogueTournClassicGameLevelLayerData___c_TypeDefinitionIndex = 63267;
+	inline static constexpr unsigned int RogueTournClassicGameLevelLayerData___c_TypeDefinitionIndex = 64634;
 
 	class RogueTournClassicGameLevelLayerData___c : public ::System::Object
 	{
 	public:
 		static ::System::Comparison_1<::RPG::Client::IRogueTournClassicGameLevelRoom*>** StaticGet___9__9_0()
 		{
-			return (::System::Comparison_1<::RPG::Client::IRogueTournClassicGameLevelRoom*>**)Il2CppClass::FromTypeDefinitionIndex(RogueTournClassicGameLevelLayerData___c_TypeDefinitionIndex)->GetStaticField(0x38750);
+			return (::System::Comparison_1<::RPG::Client::IRogueTournClassicGameLevelRoom*>**)Il2CppClass::FromTypeDefinitionIndex(RogueTournClassicGameLevelLayerData___c_TypeDefinitionIndex)->GetStaticField(0x2A580);
 		}
 		static ::RPG::Client::RogueTournClassicGameLevelLayerData___c** StaticGet___9()
 		{
-			return (::RPG::Client::RogueTournClassicGameLevelLayerData___c**)Il2CppClass::FromTypeDefinitionIndex(RogueTournClassicGameLevelLayerData___c_TypeDefinitionIndex)->GetStaticField(0x38758);
+			return (::RPG::Client::RogueTournClassicGameLevelLayerData___c**)Il2CppClass::FromTypeDefinitionIndex(RogueTournClassicGameLevelLayerData___c_TypeDefinitionIndex)->GetStaticField(0x2A588);
 		}
 
 		static ::System::Void _cctor()

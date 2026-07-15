@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPGTools/Timeline/BaseHideDialogBehaviour.h"
 
-#define RPGTOOLS_TIMELINE_HIDETALKRECORDINGDIALOGBEHAVIOUR__CTOR_OFFSET UNITYSDK_OFFSET(0xD024CB0)
+#define RPGTOOLS_TIMELINE_HIDETALKRECORDINGDIALOGBEHAVIOUR__CTOR_OFFSET UNITYSDK_OFFSET(0x19A601A0)
 
 namespace RPGTools::Timeline
 {
-	inline static constexpr unsigned int HideTalkRecordingDialogBehaviour_TypeDefinitionIndex = 45570;
+	inline static constexpr unsigned int HideTalkRecordingDialogBehaviour_TypeDefinitionIndex = 46504;
 
 	class HideTalkRecordingDialogBehaviour : public ::RPGTools::Timeline::BaseHideDialogBehaviour
 	{

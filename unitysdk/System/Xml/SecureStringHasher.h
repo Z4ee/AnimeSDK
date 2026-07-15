@@ -5,22 +5,22 @@
 namespace System { class String; }
 namespace System::Xml { class SecureStringHasher_HashCodeOfStringDelegate; }
 
-#define SYSTEM_XML_SECURESTRINGHASHER_EQUALS_OFFSET UNITYSDK_OFFSET(0x1AE69510)
-#define SYSTEM_XML_SECURESTRINGHASHER_GETHASHCODEDELEGATE_OFFSET UNITYSDK_OFFSET(0x1AE695A0)
-#define SYSTEM_XML_SECURESTRINGHASHER_GETHASHCODEOFSTRING_OFFSET UNITYSDK_OFFSET(0x1AE69760)
-#define SYSTEM_XML_SECURESTRINGHASHER_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x1AE69530)
-#define SYSTEM_XML_SECURESTRINGHASHER__CTOR_OFFSET UNITYSDK_OFFSET(0x1AE694C0)
+#define SYSTEM_XML_SECURESTRINGHASHER_EQUALS_OFFSET UNITYSDK_OFFSET(0x19680F80)
+#define SYSTEM_XML_SECURESTRINGHASHER_GETHASHCODEDELEGATE_OFFSET UNITYSDK_OFFSET(0x19681010)
+#define SYSTEM_XML_SECURESTRINGHASHER_GETHASHCODEOFSTRING_OFFSET UNITYSDK_OFFSET(0x19681150)
+#define SYSTEM_XML_SECURESTRINGHASHER_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x19680FA0)
+#define SYSTEM_XML_SECURESTRINGHASHER__CTOR_OFFSET UNITYSDK_OFFSET(0x19680F30)
 
 namespace System::Xml
 {
-	inline static constexpr unsigned int SecureStringHasher_TypeDefinitionIndex = 1815;
+	inline static constexpr unsigned int SecureStringHasher_TypeDefinitionIndex = 1819;
 
 	class SecureStringHasher : public ::System::Object
 	{
 	public:
 		static ::System::Xml::SecureStringHasher_HashCodeOfStringDelegate** StaticGet_hashCodeDelegate()
 		{
-			return (::System::Xml::SecureStringHasher_HashCodeOfStringDelegate**)Il2CppClass::FromTypeDefinitionIndex(SecureStringHasher_TypeDefinitionIndex)->GetStaticField(0x162B0);
+			return (::System::Xml::SecureStringHasher_HashCodeOfStringDelegate**)Il2CppClass::FromTypeDefinitionIndex(SecureStringHasher_TypeDefinitionIndex)->GetStaticField(0x24920);
 		}
 		::System::Int32 hashCodeRandomizer; // 0x10
 

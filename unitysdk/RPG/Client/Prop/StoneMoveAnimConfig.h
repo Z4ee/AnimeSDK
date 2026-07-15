@@ -4,11 +4,11 @@
 
 namespace UnityEngine { class AnimationCurve; }
 
-#define RPG_CLIENT_PROP_STONEMOVEANIMCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0xC629950)
+#define RPG_CLIENT_PROP_STONEMOVEANIMCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1610E4D0)
 
 namespace RPG::Client::Prop
 {
-	inline static constexpr unsigned int StoneMoveAnimConfig_TypeDefinitionIndex = 73042;
+	inline static constexpr unsigned int StoneMoveAnimConfig_TypeDefinitionIndex = 74567;
 
 	class StoneMoveAnimConfig : public ::System::Object
 	{

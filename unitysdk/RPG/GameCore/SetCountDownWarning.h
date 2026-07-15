@@ -5,13 +5,13 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class DynamicFloat; }
 
-#define RPG_GAMECORE_SETCOUNTDOWNWARNING_METHOD_3_4AD7F1E3372DD4B8_OFFSET UNITYSDK_OFFSET(0x19C324C0)
-#define RPG_GAMECORE_SETCOUNTDOWNWARNING_METHOD_3_7FCAA7189A4AB7A8_OFFSET UNITYSDK_OFFSET(0x19C32540)
-#define RPG_GAMECORE_SETCOUNTDOWNWARNING__CTOR_OFFSET UNITYSDK_OFFSET(0x19C32510)
+#define RPG_GAMECORE_SETCOUNTDOWNWARNING_METHOD_3_4082AF11AD67161B_OFFSET UNITYSDK_OFFSET(0x1C2DB050)
+#define RPG_GAMECORE_SETCOUNTDOWNWARNING_METHOD_3_7FCAA7189A4AB7A8_OFFSET UNITYSDK_OFFSET(0x1C2DB090)
+#define RPG_GAMECORE_SETCOUNTDOWNWARNING__CTOR_OFFSET UNITYSDK_OFFSET(0x1C2DB080)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SetCountDownWarning_TypeDefinitionIndex = 21680;
+	inline static constexpr unsigned int SetCountDownWarning_TypeDefinitionIndex = 22107;
 
 	class SetCountDownWarning : public ::RPG::GameCore::TaskConfig
 	{
@@ -23,9 +23,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETCOUNTDOWNWARNING__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_4AD7F1E3372DD4B8(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SetCountDownWarning*& a2)
+		static ::System::Void Method_3_4082AF11AD67161B(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SetCountDownWarning*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SetCountDownWarning*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETCOUNTDOWNWARNING_METHOD_3_4AD7F1E3372DD4B8_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SetCountDownWarning*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETCOUNTDOWNWARNING_METHOD_3_4082AF11AD67161B_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_7FCAA7189A4AB7A8(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SetCountDownWarning* a2)

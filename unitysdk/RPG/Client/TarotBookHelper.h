@@ -8,12 +8,12 @@ namespace RPG::Client { class IBookletView; }
 namespace RPG::Client { class UIController; }
 namespace System { template <typename T> class Action_1; }
 
-#define RPG_CLIENT_TAROTBOOKHELPER_DESTROYVIEW_OFFSET UNITYSDK_OFFSET(0xC9DA9A0)
-#define RPG_CLIENT_TAROTBOOKHELPER_INITVIEW_OFFSET UNITYSDK_OFFSET(0xC9DA6B0)
+#define RPG_CLIENT_TAROTBOOKHELPER_DESTROYVIEW_OFFSET UNITYSDK_OFFSET(0x19775D40)
+#define RPG_CLIENT_TAROTBOOKHELPER_INITVIEW_OFFSET UNITYSDK_OFFSET(0x19775A00)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int TarotBookHelper_TypeDefinitionIndex = 67702;
+	inline static constexpr unsigned int TarotBookHelper_TypeDefinitionIndex = 69186;
 
 	class TarotBookHelper : public ::System::Object
 	{

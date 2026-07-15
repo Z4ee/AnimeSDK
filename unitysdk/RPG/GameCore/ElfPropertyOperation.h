@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ElfPropertyOperation_TypeDefinitionIndex = 17581;
+	inline static constexpr unsigned int ElfPropertyOperation_TypeDefinitionIndex = 17754;
 
 	enum class ElfPropertyOperation : ::System::Int32
 	{

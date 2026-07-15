@@ -6,13 +6,13 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class TargetEvaluator; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_SETTARGETMODELDYNAMICLOADPRIORITY_METHOD_3_0B659CC3BCE64D62_OFFSET UNITYSDK_OFFSET(0x19C629D0)
-#define RPG_GAMECORE_SETTARGETMODELDYNAMICLOADPRIORITY_METHOD_3_BD63B536175EDB71_OFFSET UNITYSDK_OFFSET(0x19C62A50)
-#define RPG_GAMECORE_SETTARGETMODELDYNAMICLOADPRIORITY__CTOR_OFFSET UNITYSDK_OFFSET(0x19C62A20)
+#define RPG_GAMECORE_SETTARGETMODELDYNAMICLOADPRIORITY_METHOD_3_01C5F751881F174C_OFFSET UNITYSDK_OFFSET(0x1C60BF90)
+#define RPG_GAMECORE_SETTARGETMODELDYNAMICLOADPRIORITY_METHOD_3_BD63B536175EDB71_OFFSET UNITYSDK_OFFSET(0x1C60BFE0)
+#define RPG_GAMECORE_SETTARGETMODELDYNAMICLOADPRIORITY__CTOR_OFFSET UNITYSDK_OFFSET(0x1C60BFD0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SetTargetModelDynamicLoadPriority_TypeDefinitionIndex = 21727;
+	inline static constexpr unsigned int SetTargetModelDynamicLoadPriority_TypeDefinitionIndex = 22154;
 
 	class SetTargetModelDynamicLoadPriority : public ::RPG::GameCore::TaskConfig
 	{
@@ -26,9 +26,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETTARGETMODELDYNAMICLOADPRIORITY__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_0B659CC3BCE64D62(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SetTargetModelDynamicLoadPriority*& a2)
+		static ::System::Void Method_3_01C5F751881F174C(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SetTargetModelDynamicLoadPriority*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SetTargetModelDynamicLoadPriority*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETTARGETMODELDYNAMICLOADPRIORITY_METHOD_3_0B659CC3BCE64D62_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SetTargetModelDynamicLoadPriority*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETTARGETMODELDYNAMICLOADPRIORITY_METHOD_3_01C5F751881F174C_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_BD63B536175EDB71(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SetTargetModelDynamicLoadPriority* a2)

@@ -3,13 +3,12 @@
 #include "unitysdk/RPG/Client/MaterialPropertySerializeFieldTemplate1_MaterialPropertySerializeField.h"
 #include "unitysdk/RPG/Client/MaterialPropertySerializeFieldTemplate8.h"
 
-#define RPG_CLIENT_MATERIALPROPERTYSERIALIZEFIELDTEMPLATE9_GETPROPERTYFIELDS_OFFSET UNITYSDK_OFFSET(0xBFB71F0)
-#define RPG_CLIENT_MATERIALPROPERTYSERIALIZEFIELDTEMPLATE9__CTOR_OFFSET UNITYSDK_OFFSET(0xBFB71D0)
-#define RPG_CLIENT_MATERIALPROPERTYSERIALIZEFIELDTEMPLATE9___IFIXBASEPROXY_GETPROPERTYFIELDS_OFFSET UNITYSDK_OFFSET(0xBFBBF00)
+#define RPG_CLIENT_MATERIALPROPERTYSERIALIZEFIELDTEMPLATE9_GETPROPERTYFIELDS_OFFSET UNITYSDK_OFFSET(0x1AA02380)
+#define RPG_CLIENT_MATERIALPROPERTYSERIALIZEFIELDTEMPLATE9__CTOR_OFFSET UNITYSDK_OFFSET(0x1A9FDB00)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MaterialPropertySerializeFieldTemplate9_TypeDefinitionIndex = 66092;
+	inline static constexpr unsigned int MaterialPropertySerializeFieldTemplate9_TypeDefinitionIndex = 67517;
 
 	class MaterialPropertySerializeFieldTemplate9 : public ::RPG::Client::MaterialPropertySerializeFieldTemplate8
 	{
@@ -24,11 +23,6 @@ namespace RPG::Client
 		::Il2CppArray<::RPG::Client::MaterialPropertySerializeFieldTemplate1_MaterialPropertySerializeField>* GetPropertyFields()
 		{
 			return ((::Il2CppArray<::RPG::Client::MaterialPropertySerializeFieldTemplate1_MaterialPropertySerializeField>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MATERIALPROPERTYSERIALIZEFIELDTEMPLATE9_GETPROPERTYFIELDS_OFFSET))(this);
-		}
-
-		::Il2CppArray<::RPG::Client::MaterialPropertySerializeFieldTemplate1_MaterialPropertySerializeField>* __iFixBaseProxy_GetPropertyFields()
-		{
-			return ((::Il2CppArray<::RPG::Client::MaterialPropertySerializeFieldTemplate1_MaterialPropertySerializeField>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MATERIALPROPERTYSERIALIZEFIELDTEMPLATE9___IFIXBASEPROXY_GETPROPERTYFIELDS_OFFSET))(this);
 		}
 	};
 }

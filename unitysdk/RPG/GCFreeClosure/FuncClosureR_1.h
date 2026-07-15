@@ -1,6 +1,6 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Struct_2_FEC02DE91E0436C1.h"
+#include "unitysdk/Struct_2_218A9DEA224E6D0C.h"
 #include "unitysdk/System/ValueType.h"
 
 namespace System { class Object; }
@@ -12,11 +12,11 @@ namespace System { template <typename T> class Func_1; }
 
 namespace RPG::GCFreeClosure
 {
-	inline static constexpr unsigned int FuncClosureR_1_TypeDefinitionIndex = 6873;
+	inline static constexpr unsigned int FuncClosureR_1_TypeDefinitionIndex = 6878;
 
 	template <typename TReturn>
 	struct FuncClosureR_1
 	{
-		::Struct_2_FEC02DE91E0436C1 _closure; // 0x0
+		::Struct_2_218A9DEA224E6D0C _closure; // 0x0
 	};
 }

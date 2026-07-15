@@ -3,9 +3,9 @@
 #include "unitysdk/RPG/Client/OpenWorld/VolumeParameter_1.h"
 #include "unitysdk/UnityEngine/LayerMask.h"
 
-#define CLASS_3_FB249EDFE7D283C9__CTOR_OFFSET UNITYSDK_OFFSET(0xAEF9480)
+#define CLASS_3_FB249EDFE7D283C9__CTOR_OFFSET UNITYSDK_OFFSET(0x15E7B4C0)
 
-inline static constexpr unsigned int Class_3_FB249EDFE7D283C9_TypeDefinitionIndex = 69079;
+inline static constexpr unsigned int Class_3_FB249EDFE7D283C9_TypeDefinitionIndex = 70598;
 
 class Class_3_FB249EDFE7D283C9 : public ::RPG::Client::OpenWorld::VolumeParameter_1<::UnityEngine::LayerMask>
 {

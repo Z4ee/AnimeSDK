@@ -6,7 +6,7 @@ namespace System::Collections::Generic { template <typename T> class IEqualityCo
 
 namespace Entitas
 {
-	inline static constexpr unsigned int EntityEqualityComparer_1_TypeDefinitionIndex = 9654;
+	inline static constexpr unsigned int EntityEqualityComparer_1_TypeDefinitionIndex = 9668;
 
 	template <typename TEntity>
 	class EntityEqualityComparer_1 : public ::System::Object

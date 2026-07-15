@@ -3,9 +3,9 @@
 #include "unitysdk/RPG/GameCore/RtPropertyModifyData.h"
 #include "unitysdk/System/Object.h"
 
-#define CLASS_1_20E2FAD387AD3D89_METHOD_1_0C0B06B1B95F55E4_OFFSET UNITYSDK_OFFSET(0x141F0BD0)
+#define CLASS_1_20E2FAD387AD3D89_METHOD_1_0C0B06B1B95F55E4_OFFSET UNITYSDK_OFFSET(0x179E1030)
 
-inline static constexpr unsigned int Class_1_20E2FAD387AD3D89_TypeDefinitionIndex = 50181;
+inline static constexpr unsigned int Class_1_20E2FAD387AD3D89_TypeDefinitionIndex = 51263;
 
 class Class_1_20E2FAD387AD3D89 : public ::System::Object
 {

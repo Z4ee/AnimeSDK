@@ -9,26 +9,26 @@ namespace UnityEngine { class AnimationCurve; }
 namespace UnityEngine { class Material; }
 namespace UnityEngine { class Mesh; }
 
-#define RPG_CLIENT_TIMESPACECRISSCROSSADDITIONSMONOPLUGIN_DESPAWNED_OFFSET UNITYSDK_OFFSET(0xCA55610)
-#define RPG_CLIENT_TIMESPACECRISSCROSSADDITIONSMONOPLUGIN_HIGHLIGHTALL_OFFSET UNITYSDK_OFFSET(0xCA55660)
-#define RPG_CLIENT_TIMESPACECRISSCROSSADDITIONSMONOPLUGIN_SPAWNED_OFFSET UNITYSDK_OFFSET(0xCA555C0)
-#define RPG_CLIENT_TIMESPACECRISSCROSSADDITIONSMONOPLUGIN__CCTOR_OFFSET UNITYSDK_OFFSET(0xCA556D0)
-#define RPG_CLIENT_TIMESPACECRISSCROSSADDITIONSMONOPLUGIN__CTOR_OFFSET UNITYSDK_OFFSET(0xCA556B0)
+#define RPG_CLIENT_TIMESPACECRISSCROSSADDITIONSMONOPLUGIN_DESPAWNED_OFFSET UNITYSDK_OFFSET(0x17886F80)
+#define RPG_CLIENT_TIMESPACECRISSCROSSADDITIONSMONOPLUGIN_HIGHLIGHTALL_OFFSET UNITYSDK_OFFSET(0x17886FD0)
+#define RPG_CLIENT_TIMESPACECRISSCROSSADDITIONSMONOPLUGIN_SPAWNED_OFFSET UNITYSDK_OFFSET(0x17886F30)
+#define RPG_CLIENT_TIMESPACECRISSCROSSADDITIONSMONOPLUGIN__CCTOR_OFFSET UNITYSDK_OFFSET(0x17887040)
+#define RPG_CLIENT_TIMESPACECRISSCROSSADDITIONSMONOPLUGIN__CTOR_OFFSET UNITYSDK_OFFSET(0x17887020)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int TimeSpaceCrisscrossAdditionsMonoPlugin_TypeDefinitionIndex = 65638;
+	inline static constexpr unsigned int TimeSpaceCrisscrossAdditionsMonoPlugin_TypeDefinitionIndex = 67055;
 
 	class TimeSpaceCrisscrossAdditionsMonoPlugin : public ::RPG::Client::TAMonoPlugin_1<::RPG::Client::TimeSpaceCrisscrossAdditionsBehavior*>
 	{
 	public:
 		static ::System::Int32* StaticGet_Field_7_0()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(TimeSpaceCrisscrossAdditionsMonoPlugin_TypeDefinitionIndex)->GetStaticField(0x10A50);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(TimeSpaceCrisscrossAdditionsMonoPlugin_TypeDefinitionIndex)->GetStaticField(0xB490);
 		}
 		static ::System::Int32* StaticGet_Field_7_1()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(TimeSpaceCrisscrossAdditionsMonoPlugin_TypeDefinitionIndex)->GetStaticField(0x10A54);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(TimeSpaceCrisscrossAdditionsMonoPlugin_TypeDefinitionIndex)->GetStaticField(0xB494);
 		}
 		::UnityEngine::Material* HighLightMat; // 0x30
 		::System::Single HighLightDuaringTime; // 0x38

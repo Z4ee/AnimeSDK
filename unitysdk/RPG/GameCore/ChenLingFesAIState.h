@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ChenLingFesAIState_TypeDefinitionIndex = 17525;
+	inline static constexpr unsigned int ChenLingFesAIState_TypeDefinitionIndex = 17698;
 
 	enum class ChenLingFesAIState : ::System::Int32
 	{

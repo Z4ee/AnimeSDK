@@ -12,21 +12,21 @@ namespace System::Net::Http { class HttpRequestMessage; }
 namespace System::Net::Http { class HttpResponseMessage; }
 namespace System::Runtime::CompilerServices { class IAsyncStateMachine; }
 
-#define CLASS_1_25538049F7DB29C4__GETDOCUMENTRAW_D__7_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x2BCB580)
-#define CLASS_1_25538049F7DB29C4__GETDOCUMENTRAW_D__7_SETSTATEMACHINE_OFFSET UNITYSDK_OFFSET(0x2BCB590)
+#define CLASS_1_25538049F7DB29C4__GETDOCUMENTRAW_D__7_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x38D1D70)
+#define CLASS_1_25538049F7DB29C4__GETDOCUMENTRAW_D__7_SETSTATEMACHINE_OFFSET UNITYSDK_OFFSET(0x38D1D80)
 
-inline static constexpr unsigned int Class_1_25538049F7DB29C4__GetDocumentRaw_d__7_TypeDefinitionIndex = 46857;
+inline static constexpr unsigned int Class_1_25538049F7DB29C4__GetDocumentRaw_d__7_TypeDefinitionIndex = 47822;
 
 struct alignas(8) Class_1_25538049F7DB29C4__GetDocumentRaw_d__7
 {
-	::System::Runtime::CompilerServices::TaskAwaiter_1<::System::String*> __u__1; // 0x10
-	::System::String* docID; // 0x18
-	::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<::System::String*> __u__3; // 0x20
-	::Class_1_25538049F7DB29C4* __4__this; // 0x30
-	::System::Net::Http::HttpClient* _client_5__3; // 0x38
-	::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::System::String*> __t__builder; // 0x40
-	::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<::System::Net::Http::HttpResponseMessage*> __u__2; // 0x58
-	::System::Net::Http::HttpRequestMessage* _request_5__2; // 0x68
+	::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<::System::String*> __u__3; // 0x10
+	::Class_1_25538049F7DB29C4* __4__this; // 0x20
+	::System::Runtime::CompilerServices::TaskAwaiter_1<::System::String*> __u__1; // 0x28
+	::System::String* docID; // 0x30
+	::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<::System::Net::Http::HttpResponseMessage*> __u__2; // 0x38
+	::System::Net::Http::HttpRequestMessage* _request_5__2; // 0x48
+	::System::Net::Http::HttpClient* _client_5__3; // 0x50
+	::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::System::String*> __t__builder; // 0x58
 	::System::Int32 __1__state; // 0x70
 
 	::System::Void MoveNext()

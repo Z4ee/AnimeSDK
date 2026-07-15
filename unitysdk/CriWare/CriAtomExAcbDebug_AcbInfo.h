@@ -7,7 +7,7 @@ namespace System { class String; }
 
 namespace CriWare
 {
-	inline static constexpr unsigned int CriAtomExAcbDebug_AcbInfo_TypeDefinitionIndex = 37230;
+	inline static constexpr unsigned int CriAtomExAcbDebug_AcbInfo_TypeDefinitionIndex = 38036;
 
 	struct alignas(8) CriAtomExAcbDebug_AcbInfo
 	{

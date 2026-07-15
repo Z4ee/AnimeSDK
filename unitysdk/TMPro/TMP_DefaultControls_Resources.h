@@ -6,7 +6,7 @@ namespace UnityEngine { class Sprite; }
 
 namespace TMPro
 {
-	inline static constexpr unsigned int TMP_DefaultControls_Resources_TypeDefinitionIndex = 40941;
+	inline static constexpr unsigned int TMP_DefaultControls_Resources_TypeDefinitionIndex = 41756;
 
 	struct alignas(8) TMP_DefaultControls_Resources
 	{

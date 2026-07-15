@@ -7,7 +7,7 @@ namespace System::Collections::Generic { template <typename T> class ICollection
 
 namespace System::Collections::ObjectModel
 {
-	inline static constexpr unsigned int ReadOnlyDictionaryHelpers_TypeDefinitionIndex = 1501;
+	inline static constexpr unsigned int ReadOnlyDictionaryHelpers_TypeDefinitionIndex = 1505;
 
 	class ReadOnlyDictionaryHelpers : public ::System::Object
 	{

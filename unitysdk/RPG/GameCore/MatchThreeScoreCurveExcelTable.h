@@ -11,45 +11,45 @@ namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Concurrent { template <typename T1, typename T2> class ConcurrentDictionary_2; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_MATCHTHREESCORECURVEEXCELTABLE_GETDATA_OFFSET UNITYSDK_OFFSET(0x198F4130)
-#define RPG_GAMECORE_MATCHTHREESCORECURVEEXCELTABLE_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x198F3FC0)
-#define RPG_GAMECORE_MATCHTHREESCORECURVEEXCELTABLE_GET_DATADICT_OFFSET UNITYSDK_OFFSET(0x198F3CB0)
-#define RPG_GAMECORE_MATCHTHREESCORECURVEEXCELTABLE_ISDATAEMPTY_OFFSET UNITYSDK_OFFSET(0x198F3F60)
-#define RPG_GAMECORE_MATCHTHREESCORECURVEEXCELTABLE_ISDATALOADED_OFFSET UNITYSDK_OFFSET(0x198F4340)
-#define RPG_GAMECORE_MATCHTHREESCORECURVEEXCELTABLE_LOADDATA_OFFSET UNITYSDK_OFFSET(0x198F3D30)
-#define RPG_GAMECORE_MATCHTHREESCORECURVEEXCELTABLE_UNLOADDATA_OFFSET UNITYSDK_OFFSET(0x198F4380)
-#define RPG_GAMECORE_MATCHTHREESCORECURVEEXCELTABLE__ADDITEMFROMBINARY_OFFSET UNITYSDK_OFFSET(0x198F4550)
-#define RPG_GAMECORE_MATCHTHREESCORECURVEEXCELTABLE__ADDITEM_OFFSET UNITYSDK_OFFSET(0x198F4810)
-#define RPG_GAMECORE_MATCHTHREESCORECURVEEXCELTABLE__CCTOR_OFFSET UNITYSDK_OFFSET(0x198F4BE0)
-#define RPG_GAMECORE_MATCHTHREESCORECURVEEXCELTABLE__LOADDATAINCREMENTIAL_OFFSET UNITYSDK_OFFSET(0x198F44B0)
-#define RPG_GAMECORE_MATCHTHREESCORECURVEEXCELTABLE__LOADDATA_OFFSET UNITYSDK_OFFSET(0x198F4410)
+#define RPG_GAMECORE_MATCHTHREESCORECURVEEXCELTABLE_GETDATA_OFFSET UNITYSDK_OFFSET(0x1BD347B0)
+#define RPG_GAMECORE_MATCHTHREESCORECURVEEXCELTABLE_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x1BD34640)
+#define RPG_GAMECORE_MATCHTHREESCORECURVEEXCELTABLE_GET_DATADICT_OFFSET UNITYSDK_OFFSET(0x1BD34330)
+#define RPG_GAMECORE_MATCHTHREESCORECURVEEXCELTABLE_ISDATAEMPTY_OFFSET UNITYSDK_OFFSET(0x1BD345E0)
+#define RPG_GAMECORE_MATCHTHREESCORECURVEEXCELTABLE_ISDATALOADED_OFFSET UNITYSDK_OFFSET(0x1BD349C0)
+#define RPG_GAMECORE_MATCHTHREESCORECURVEEXCELTABLE_LOADDATA_OFFSET UNITYSDK_OFFSET(0x1BD343B0)
+#define RPG_GAMECORE_MATCHTHREESCORECURVEEXCELTABLE_UNLOADDATA_OFFSET UNITYSDK_OFFSET(0x1BD34A00)
+#define RPG_GAMECORE_MATCHTHREESCORECURVEEXCELTABLE__ADDITEMFROMBINARY_OFFSET UNITYSDK_OFFSET(0x1BD34BD0)
+#define RPG_GAMECORE_MATCHTHREESCORECURVEEXCELTABLE__ADDITEM_OFFSET UNITYSDK_OFFSET(0x1BD34E90)
+#define RPG_GAMECORE_MATCHTHREESCORECURVEEXCELTABLE__CCTOR_OFFSET UNITYSDK_OFFSET(0x1BD35260)
+#define RPG_GAMECORE_MATCHTHREESCORECURVEEXCELTABLE__LOADDATAINCREMENTIAL_OFFSET UNITYSDK_OFFSET(0x1BD34B30)
+#define RPG_GAMECORE_MATCHTHREESCORECURVEEXCELTABLE__LOADDATA_OFFSET UNITYSDK_OFFSET(0x1BD34A90)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MatchThreeScoreCurveExcelTable_TypeDefinitionIndex = 11404;
+	inline static constexpr unsigned int MatchThreeScoreCurveExcelTable_TypeDefinitionIndex = 11504;
 
 	class MatchThreeScoreCurveExcelTable : public ::System::Object
 	{
 	public:
 		static ::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::MatchThreeScoreCurveRow*>** StaticGet_dataDict_()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::MatchThreeScoreCurveRow*>**)Il2CppClass::FromTypeDefinitionIndex(MatchThreeScoreCurveExcelTable_TypeDefinitionIndex)->GetStaticField(0x2B8A0);
+			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::MatchThreeScoreCurveRow*>**)Il2CppClass::FromTypeDefinitionIndex(MatchThreeScoreCurveExcelTable_TypeDefinitionIndex)->GetStaticField(0x3FF80);
 		}
 		static ::System::Action_1<::Class_1_7A22A3DBEEDD1F80*>** StaticGet__AddItemFromBinary_ActionInst()
 		{
-			return (::System::Action_1<::Class_1_7A22A3DBEEDD1F80*>**)Il2CppClass::FromTypeDefinitionIndex(MatchThreeScoreCurveExcelTable_TypeDefinitionIndex)->GetStaticField(0x2B8A8);
+			return (::System::Action_1<::Class_1_7A22A3DBEEDD1F80*>**)Il2CppClass::FromTypeDefinitionIndex(MatchThreeScoreCurveExcelTable_TypeDefinitionIndex)->GetStaticField(0x3FF88);
 		}
 		static ::Il2CppArray<::System::String*>** StaticGet_s_PathList()
 		{
-			return (::Il2CppArray<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(MatchThreeScoreCurveExcelTable_TypeDefinitionIndex)->GetStaticField(0x2B8B0);
-		}
-		static ::System::Byte* StaticGet_HashIndex()
-		{
-			return (::System::Byte*)Il2CppClass::FromTypeDefinitionIndex(MatchThreeScoreCurveExcelTable_TypeDefinitionIndex)->GetStaticField(0x9AC0);
+			return (::Il2CppArray<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(MatchThreeScoreCurveExcelTable_TypeDefinitionIndex)->GetStaticField(0x3FF90);
 		}
 		static ::System::Boolean* StaticGet_isDataLoaded()
 		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(MatchThreeScoreCurveExcelTable_TypeDefinitionIndex)->GetStaticField(0x9AC1);
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(MatchThreeScoreCurveExcelTable_TypeDefinitionIndex)->GetStaticField(0xAAD0);
+		}
+		static ::System::Byte* StaticGet_HashIndex()
+		{
+			return (::System::Byte*)Il2CppClass::FromTypeDefinitionIndex(MatchThreeScoreCurveExcelTable_TypeDefinitionIndex)->GetStaticField(0xAAD1);
 		}
 
 		static ::System::Void _cctor()

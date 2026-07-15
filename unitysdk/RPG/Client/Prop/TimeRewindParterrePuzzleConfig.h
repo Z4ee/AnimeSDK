@@ -4,11 +4,11 @@
 
 namespace RPG::Client::Prop { class TimeRewindParterrePuzzleContainerConfig; }
 
-#define RPG_CLIENT_PROP_TIMEREWINDPARTERREPUZZLECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0xC636C60)
+#define RPG_CLIENT_PROP_TIMEREWINDPARTERREPUZZLECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1611B730)
 
 namespace RPG::Client::Prop
 {
-	inline static constexpr unsigned int TimeRewindParterrePuzzleConfig_TypeDefinitionIndex = 73424;
+	inline static constexpr unsigned int TimeRewindParterrePuzzleConfig_TypeDefinitionIndex = 74949;
 
 	class TimeRewindParterrePuzzleConfig : public ::System::Object
 	{

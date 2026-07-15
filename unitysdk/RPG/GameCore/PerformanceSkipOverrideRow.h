@@ -8,28 +8,28 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_PERFORMANCESKIPOVERRIDEROW_FROMBINARYWITHOUTNEW_OFFSET UNITYSDK_OFFSET(0x199FCE30)
-#define RPG_GAMECORE_PERFORMANCESKIPOVERRIDEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x199FD1D0)
-#define RPG_GAMECORE_PERFORMANCESKIPOVERRIDEROW_FROMTABLEOFFSET_OFFSET UNITYSDK_OFFSET(0x199FDE60)
-#define RPG_GAMECORE_PERFORMANCESKIPOVERRIDEROW_RESET_OFFSET UNITYSDK_OFFSET(0x199FDEC0)
-#define RPG_GAMECORE_PERFORMANCESKIPOVERRIDEROW__CTOR_OFFSET UNITYSDK_OFFSET(0x199FDEE0)
+#define RPG_GAMECORE_PERFORMANCESKIPOVERRIDEROW_FROMBINARYWITHOUTNEW_OFFSET UNITYSDK_OFFSET(0x1B4B7200)
+#define RPG_GAMECORE_PERFORMANCESKIPOVERRIDEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B4B75A0)
+#define RPG_GAMECORE_PERFORMANCESKIPOVERRIDEROW_FROMTABLEOFFSET_OFFSET UNITYSDK_OFFSET(0x1B4B8280)
+#define RPG_GAMECORE_PERFORMANCESKIPOVERRIDEROW_RESET_OFFSET UNITYSDK_OFFSET(0x1B4B82E0)
+#define RPG_GAMECORE_PERFORMANCESKIPOVERRIDEROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1B4B8300)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PerformanceSkipOverrideRow_TypeDefinitionIndex = 13689;
+	inline static constexpr unsigned int PerformanceSkipOverrideRow_TypeDefinitionIndex = 13837;
 
 	class PerformanceSkipOverrideRow : public ::System::Object
 	{
 	public:
 		::Il2CppArray<::System::String*>* OverrideCharacterList; // 0x10
-		::System::UInt32 PackID; // 0x18
+		::System::UInt32 IsConfirmRequiredToSkipFlag; // 0x18
 		::System::UInt32 IsOverrideCharacter; // 0x1C
-		::System::UInt32 IsConfirmRequiredToSkipFlag; // 0x20
-		::System::UInt32 IsOverrideImportantFlag; // 0x24
-		::System::UInt32 PerformanceID; // 0x28
-		::RPG::Client::TextID Desc; // 0x30
-		::RPG::GameCore::ELevelPerformanceType PerformanceType; // 0x40
-		::System::UInt32 OverrideImportantFlag; // 0x44
+		::RPG::GameCore::ELevelPerformanceType PerformanceType; // 0x20
+		::System::UInt32 OverrideImportantFlag; // 0x24
+		::System::UInt32 PackID; // 0x28
+		::System::UInt32 PerformanceID; // 0x2C
+		::System::UInt32 IsOverrideImportantFlag; // 0x30
+		::RPG::Client::TextID Desc; // 0x38
 
 		::System::Void _ctor()
 		{

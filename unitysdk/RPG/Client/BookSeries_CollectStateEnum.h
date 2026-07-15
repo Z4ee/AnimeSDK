@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int BookSeries_CollectStateEnum_TypeDefinitionIndex = 62068;
+	inline static constexpr unsigned int BookSeries_CollectStateEnum_TypeDefinitionIndex = 63433;
 
 	enum class BookSeries_CollectStateEnum : ::System::Int32
 	{

@@ -5,11 +5,11 @@
 namespace Entitas { class IEntity; }
 namespace System { class Object; }
 
-#define ENTITAS_ENTITYISALREADYRETAINEDBYOWNEREXCEPTION__CTOR_OFFSET UNITYSDK_OFFSET(0x14702850)
+#define ENTITAS_ENTITYISALREADYRETAINEDBYOWNEREXCEPTION__CTOR_OFFSET UNITYSDK_OFFSET(0x1D1CC3E0)
 
 namespace Entitas
 {
-	inline static constexpr unsigned int EntityIsAlreadyRetainedByOwnerException_TypeDefinitionIndex = 9657;
+	inline static constexpr unsigned int EntityIsAlreadyRetainedByOwnerException_TypeDefinitionIndex = 9671;
 
 	class EntityIsAlreadyRetainedByOwnerException : public ::Entitas::EntitasException
 	{

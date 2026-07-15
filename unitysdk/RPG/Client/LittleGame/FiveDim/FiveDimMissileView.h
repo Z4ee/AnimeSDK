@@ -10,15 +10,13 @@ namespace Entitas { class IEntity; }
 namespace System { class String; }
 namespace UnityEngine { class CapsuleCollider; }
 
-#define RPG_CLIENT_LITTLEGAME_FIVEDIM_FIVEDIMMISSILEVIEW_INITIALIZE_OFFSET UNITYSDK_OFFSET(0xBE06E30)
-#define RPG_CLIENT_LITTLEGAME_FIVEDIM_FIVEDIMMISSILEVIEW_RELEASE_OFFSET UNITYSDK_OFFSET(0xBE070C0)
-#define RPG_CLIENT_LITTLEGAME_FIVEDIM_FIVEDIMMISSILEVIEW__CTOR_OFFSET UNITYSDK_OFFSET(0xBE071B0)
-#define RPG_CLIENT_LITTLEGAME_FIVEDIM_FIVEDIMMISSILEVIEW___IFIXBASEPROXY_INITIALIZE_OFFSET UNITYSDK_OFFSET(0xBE071D0)
-#define RPG_CLIENT_LITTLEGAME_FIVEDIM_FIVEDIMMISSILEVIEW___IFIXBASEPROXY_RELEASE_OFFSET UNITYSDK_OFFSET(0xBE071E0)
+#define RPG_CLIENT_LITTLEGAME_FIVEDIM_FIVEDIMMISSILEVIEW_INITIALIZE_OFFSET UNITYSDK_OFFSET(0x189FBD00)
+#define RPG_CLIENT_LITTLEGAME_FIVEDIM_FIVEDIMMISSILEVIEW_RELEASE_OFFSET UNITYSDK_OFFSET(0x189FBF90)
+#define RPG_CLIENT_LITTLEGAME_FIVEDIM_FIVEDIMMISSILEVIEW__CTOR_OFFSET UNITYSDK_OFFSET(0x189FC080)
 
 namespace RPG::Client::LittleGame::FiveDim
 {
-	inline static constexpr unsigned int FiveDimMissileView_TypeDefinitionIndex = 71714;
+	inline static constexpr unsigned int FiveDimMissileView_TypeDefinitionIndex = 73239;
 
 	class FiveDimMissileView : public ::RPG::Client::LittleGame::FiveDim::FiveDimPropView
 	{
@@ -41,16 +39,6 @@ namespace RPG::Client::LittleGame::FiveDim
 		::System::Void Release(::System::String* a1)
 		{
 			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAME_FIVEDIM_FIVEDIMMISSILEVIEW_RELEASE_OFFSET))(this, a1);
-		}
-
-		::System::Void __iFixBaseProxy_Initialize(::Entitas::IContext* a1, ::Class_1_47EE63CB5C4DC8FC_5* a2, ::Entitas::IEntity* a3)
-		{
-			return ((::System::Void(*)(::PVOID, ::Entitas::IContext*, ::Class_1_47EE63CB5C4DC8FC_5*, ::Entitas::IEntity*))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAME_FIVEDIM_FIVEDIMMISSILEVIEW___IFIXBASEPROXY_INITIALIZE_OFFSET))(this, a1, a2, a3);
-		}
-
-		::System::Void __iFixBaseProxy_Release(::System::String* a1)
-		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAME_FIVEDIM_FIVEDIMMISSILEVIEW___IFIXBASEPROXY_RELEASE_OFFSET))(this, a1);
 		}
 	};
 }

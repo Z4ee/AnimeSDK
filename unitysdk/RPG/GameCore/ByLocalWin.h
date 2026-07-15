@@ -5,15 +5,15 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace SimpleJSON { class JSONNode; }
 
-#define RPG_GAMECORE_BYLOCALWIN_METHOD_4_993E68B47A639A32_OFFSET UNITYSDK_OFFSET(0x19575B50)
-#define RPG_GAMECORE_BYLOCALWIN_METHOD_4_A953868FB7B40733_OFFSET UNITYSDK_OFFSET(0x195758C0)
-#define RPG_GAMECORE_BYLOCALWIN_METHOD_4_BDF9891C50790BB9_OFFSET UNITYSDK_OFFSET(0x19575990)
-#define RPG_GAMECORE_BYLOCALWIN_METHOD_4_E59D2D43D96EB81A_OFFSET UNITYSDK_OFFSET(0x19575AD0)
-#define RPG_GAMECORE_BYLOCALWIN__CTOR_OFFSET UNITYSDK_OFFSET(0x19575940)
+#define RPG_GAMECORE_BYLOCALWIN_METHOD_4_B2ABF4F80FFA92F6_OFFSET UNITYSDK_OFFSET(0x1B2AE610)
+#define RPG_GAMECORE_BYLOCALWIN_METHOD_4_BDF9891C50790BB9_OFFSET UNITYSDK_OFFSET(0x1B2AE4A0)
+#define RPG_GAMECORE_BYLOCALWIN_METHOD_4_CD5E66F504817983_OFFSET UNITYSDK_OFFSET(0x1B2AE5E0)
+#define RPG_GAMECORE_BYLOCALWIN_METHOD_4_FEB97BD34FC9B932_OFFSET UNITYSDK_OFFSET(0x1B2AE460)
+#define RPG_GAMECORE_BYLOCALWIN__CTOR_OFFSET UNITYSDK_OFFSET(0x1B2AE490)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ByLocalWin_TypeDefinitionIndex = 22249;
+	inline static constexpr unsigned int ByLocalWin_TypeDefinitionIndex = 22689;
 
 	class ByLocalWin : public ::RPG::GameCore::PredicateConfig
 	{
@@ -23,9 +23,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYLOCALWIN__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_4_A953868FB7B40733(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ByLocalWin*& a2)
+		static ::System::Void Method_4_FEB97BD34FC9B932(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ByLocalWin*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ByLocalWin*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYLOCALWIN_METHOD_4_A953868FB7B40733_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ByLocalWin*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYLOCALWIN_METHOD_4_FEB97BD34FC9B932_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_4_BDF9891C50790BB9(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ByLocalWin* a2)
@@ -33,14 +33,14 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ByLocalWin*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYLOCALWIN_METHOD_4_BDF9891C50790BB9_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_4_E59D2D43D96EB81A(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::ByLocalWin*& a2)
+		static ::System::Void Method_4_CD5E66F504817983(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::ByLocalWin*& a2)
 		{
-			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::ByLocalWin*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYLOCALWIN_METHOD_4_E59D2D43D96EB81A_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::ByLocalWin*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYLOCALWIN_METHOD_4_CD5E66F504817983_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_4_993E68B47A639A32(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::ByLocalWin* a2)
+		static ::System::Void Method_4_B2ABF4F80FFA92F6(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::ByLocalWin* a2)
 		{
-			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::ByLocalWin*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYLOCALWIN_METHOD_4_993E68B47A639A32_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::ByLocalWin*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYLOCALWIN_METHOD_4_B2ABF4F80FFA92F6_OFFSET))(a1, a2);
 		}
 	};
 }

@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int Class_1_0AAA29E827EB555D_ETriggerState_TypeDefinitionIndex = 74360;
+inline static constexpr unsigned int Class_1_0AAA29E827EB555D_ETriggerState_TypeDefinitionIndex = 76750;
 
 enum class Class_1_0AAA29E827EB555D_ETriggerState : ::System::Int32
 {

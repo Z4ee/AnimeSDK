@@ -4,12 +4,12 @@
 
 namespace RPG::Client::ActivityIdleLive { class IIdleLiveAvatarData; }
 
-#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVETEAMRECOMMENDINFO___C__DISPLAYCLASS3_1__CTOR_OFFSET UNITYSDK_OFFSET(0xB16BBF0)
-#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVETEAMRECOMMENDINFO___C__DISPLAYCLASS3_1___HASMATCHEDTAGONCAPTAIN_B__1_OFFSET UNITYSDK_OFFSET(0xB16BF30)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVETEAMRECOMMENDINFO___C__DISPLAYCLASS3_1__CTOR_OFFSET UNITYSDK_OFFSET(0x1A17C6D0)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVETEAMRECOMMENDINFO___C__DISPLAYCLASS3_1___HASMATCHEDTAGONCAPTAIN_B__1_OFFSET UNITYSDK_OFFSET(0x1A17CA10)
 
 namespace RPG::Client::ActivityIdleLive
 {
-	inline static constexpr unsigned int IdleLiveTeamRecommendInfo___c__DisplayClass3_1_TypeDefinitionIndex = 69959;
+	inline static constexpr unsigned int IdleLiveTeamRecommendInfo___c__DisplayClass3_1_TypeDefinitionIndex = 71482;
 
 	class IdleLiveTeamRecommendInfo___c__DisplayClass3_1 : public ::System::Object
 	{

@@ -1,17 +1,17 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Class_1_26684305CEECE64E.h"
+#include "unitysdk/Class_1_E559374AC4E5AD13.h"
 
 class Class_2_21AD365C113DC484;
 class Class_2_F3C45F1FC7349B6E;
 namespace RPG::GameCore { class CakeRaceActionApplyMoveStateInGridMoveDirection; }
 
-#define CLASS_2_5B8E42303708EA95_METHOD_2_F74BC6092622B2EE_OFFSET UNITYSDK_OFFSET(0x18B37300)
-#define CLASS_2_5B8E42303708EA95__CTOR_OFFSET UNITYSDK_OFFSET(0x18B372F0)
+#define CLASS_2_5B8E42303708EA95_METHOD_2_F74BC6092622B2EE_OFFSET UNITYSDK_OFFSET(0x13ED87C0)
+#define CLASS_2_5B8E42303708EA95__CTOR_OFFSET UNITYSDK_OFFSET(0x13ED87B0)
 
-inline static constexpr unsigned int Class_2_5B8E42303708EA95_TypeDefinitionIndex = 35047;
+inline static constexpr unsigned int Class_2_5B8E42303708EA95_TypeDefinitionIndex = 35829;
 
-class Class_2_5B8E42303708EA95 : public ::Class_1_26684305CEECE64E
+class Class_2_5B8E42303708EA95 : public ::Class_1_E559374AC4E5AD13
 {
 public:
 	::RPG::GameCore::CakeRaceActionApplyMoveStateInGridMoveDirection* Field_2_0; // 0x10

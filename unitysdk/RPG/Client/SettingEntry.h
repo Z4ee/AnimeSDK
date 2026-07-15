@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int SettingEntry_TypeDefinitionIndex = 63569;
+	inline static constexpr unsigned int SettingEntry_TypeDefinitionIndex = 64936;
 
 	enum class SettingEntry : ::System::Int32
 	{

@@ -5,23 +5,23 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_BOXINGCLUBSTAGECONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x194ED490)
-#define RPG_GAMECORE_BOXINGCLUBSTAGECONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x194EDCC0)
+#define RPG_GAMECORE_BOXINGCLUBSTAGECONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1A40DE50)
+#define RPG_GAMECORE_BOXINGCLUBSTAGECONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1A40E680)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int BoxingClubStageConfigRow_TypeDefinitionIndex = 12287;
+	inline static constexpr unsigned int BoxingClubStageConfigRow_TypeDefinitionIndex = 12421;
 
 	class BoxingClubStageConfigRow : public ::System::Object
 	{
 	public:
 		::Il2CppArray<::System::UInt32>* BuffOptionalList; // 0x10
 		::RPG::Client::TextID BubbleTalkEnemy; // 0x18
-		::RPG::Client::TextID Name; // 0x28
+		::RPG::Client::TextID BubbleTalkPlayer; // 0x28
 		::System::UInt32 BuffID; // 0x38
-		::RPG::Client::TextID BubbleTalkPlayer; // 0x40
-		::System::UInt32 EventID; // 0x50
-		::System::UInt32 MonsterWaveIndex; // 0x54
+		::System::UInt32 MonsterWaveIndex; // 0x3C
+		::System::UInt32 EventID; // 0x40
+		::RPG::Client::TextID Name; // 0x48
 
 		::System::Void _ctor()
 		{

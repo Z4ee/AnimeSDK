@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int DialogueUtil_DialogueTriggerReason_TypeDefinitionIndex = 53304;
+	inline static constexpr unsigned int DialogueUtil_DialogueTriggerReason_TypeDefinitionIndex = 54519;
 
 	enum class DialogueUtil_DialogueTriggerReason : ::System::Int32
 	{

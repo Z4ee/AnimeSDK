@@ -11,45 +11,45 @@ namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Concurrent { template <typename T1, typename T2> class ConcurrentDictionary_2; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_GRIDFIGHTEQUIPUPGRADECONFIGEXCELTABLE_GETDATA_OFFSET UNITYSDK_OFFSET(0x197E2780)
-#define RPG_GAMECORE_GRIDFIGHTEQUIPUPGRADECONFIGEXCELTABLE_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x197E2650)
-#define RPG_GAMECORE_GRIDFIGHTEQUIPUPGRADECONFIGEXCELTABLE_GET_DATADICT_OFFSET UNITYSDK_OFFSET(0x197E2340)
-#define RPG_GAMECORE_GRIDFIGHTEQUIPUPGRADECONFIGEXCELTABLE_ISDATAEMPTY_OFFSET UNITYSDK_OFFSET(0x197E25F0)
-#define RPG_GAMECORE_GRIDFIGHTEQUIPUPGRADECONFIGEXCELTABLE_ISDATALOADED_OFFSET UNITYSDK_OFFSET(0x197E2910)
-#define RPG_GAMECORE_GRIDFIGHTEQUIPUPGRADECONFIGEXCELTABLE_LOADDATA_OFFSET UNITYSDK_OFFSET(0x197E23C0)
-#define RPG_GAMECORE_GRIDFIGHTEQUIPUPGRADECONFIGEXCELTABLE_UNLOADDATA_OFFSET UNITYSDK_OFFSET(0x197E2950)
-#define RPG_GAMECORE_GRIDFIGHTEQUIPUPGRADECONFIGEXCELTABLE__ADDITEMFROMBINARY_OFFSET UNITYSDK_OFFSET(0x197E2B20)
-#define RPG_GAMECORE_GRIDFIGHTEQUIPUPGRADECONFIGEXCELTABLE__ADDITEM_OFFSET UNITYSDK_OFFSET(0x197E2C60)
-#define RPG_GAMECORE_GRIDFIGHTEQUIPUPGRADECONFIGEXCELTABLE__CCTOR_OFFSET UNITYSDK_OFFSET(0x197E2F80)
-#define RPG_GAMECORE_GRIDFIGHTEQUIPUPGRADECONFIGEXCELTABLE__LOADDATAINCREMENTIAL_OFFSET UNITYSDK_OFFSET(0x197E2A80)
-#define RPG_GAMECORE_GRIDFIGHTEQUIPUPGRADECONFIGEXCELTABLE__LOADDATA_OFFSET UNITYSDK_OFFSET(0x197E29E0)
+#define RPG_GAMECORE_GRIDFIGHTEQUIPUPGRADECONFIGEXCELTABLE_GETDATA_OFFSET UNITYSDK_OFFSET(0x1C5CA2F0)
+#define RPG_GAMECORE_GRIDFIGHTEQUIPUPGRADECONFIGEXCELTABLE_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x1C5CA1C0)
+#define RPG_GAMECORE_GRIDFIGHTEQUIPUPGRADECONFIGEXCELTABLE_GET_DATADICT_OFFSET UNITYSDK_OFFSET(0x1C5C9EB0)
+#define RPG_GAMECORE_GRIDFIGHTEQUIPUPGRADECONFIGEXCELTABLE_ISDATAEMPTY_OFFSET UNITYSDK_OFFSET(0x1C5CA160)
+#define RPG_GAMECORE_GRIDFIGHTEQUIPUPGRADECONFIGEXCELTABLE_ISDATALOADED_OFFSET UNITYSDK_OFFSET(0x1C5CA480)
+#define RPG_GAMECORE_GRIDFIGHTEQUIPUPGRADECONFIGEXCELTABLE_LOADDATA_OFFSET UNITYSDK_OFFSET(0x1C5C9F30)
+#define RPG_GAMECORE_GRIDFIGHTEQUIPUPGRADECONFIGEXCELTABLE_UNLOADDATA_OFFSET UNITYSDK_OFFSET(0x1C5CA4C0)
+#define RPG_GAMECORE_GRIDFIGHTEQUIPUPGRADECONFIGEXCELTABLE__ADDITEMFROMBINARY_OFFSET UNITYSDK_OFFSET(0x1C5CA690)
+#define RPG_GAMECORE_GRIDFIGHTEQUIPUPGRADECONFIGEXCELTABLE__ADDITEM_OFFSET UNITYSDK_OFFSET(0x1C5CA7D0)
+#define RPG_GAMECORE_GRIDFIGHTEQUIPUPGRADECONFIGEXCELTABLE__CCTOR_OFFSET UNITYSDK_OFFSET(0x1C5CAAF0)
+#define RPG_GAMECORE_GRIDFIGHTEQUIPUPGRADECONFIGEXCELTABLE__LOADDATAINCREMENTIAL_OFFSET UNITYSDK_OFFSET(0x1C5CA5F0)
+#define RPG_GAMECORE_GRIDFIGHTEQUIPUPGRADECONFIGEXCELTABLE__LOADDATA_OFFSET UNITYSDK_OFFSET(0x1C5CA550)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int GridFightEquipUpgradeConfigExcelTable_TypeDefinitionIndex = 12822;
+	inline static constexpr unsigned int GridFightEquipUpgradeConfigExcelTable_TypeDefinitionIndex = 12958;
 
 	class GridFightEquipUpgradeConfigExcelTable : public ::System::Object
 	{
 	public:
-		static ::Il2CppArray<::System::String*>** StaticGet_s_PathList()
-		{
-			return (::Il2CppArray<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(GridFightEquipUpgradeConfigExcelTable_TypeDefinitionIndex)->GetStaticField(0x1BA90);
-		}
 		static ::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::GridFightEquipUpgradeConfigRow*>** StaticGet_dataDict_()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::GridFightEquipUpgradeConfigRow*>**)Il2CppClass::FromTypeDefinitionIndex(GridFightEquipUpgradeConfigExcelTable_TypeDefinitionIndex)->GetStaticField(0x1BA98);
+			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::GridFightEquipUpgradeConfigRow*>**)Il2CppClass::FromTypeDefinitionIndex(GridFightEquipUpgradeConfigExcelTable_TypeDefinitionIndex)->GetStaticField(0x365C0);
 		}
 		static ::System::Action_1<::Class_1_7A22A3DBEEDD1F80*>** StaticGet__AddItemFromBinary_ActionInst()
 		{
-			return (::System::Action_1<::Class_1_7A22A3DBEEDD1F80*>**)Il2CppClass::FromTypeDefinitionIndex(GridFightEquipUpgradeConfigExcelTable_TypeDefinitionIndex)->GetStaticField(0x1BAA0);
+			return (::System::Action_1<::Class_1_7A22A3DBEEDD1F80*>**)Il2CppClass::FromTypeDefinitionIndex(GridFightEquipUpgradeConfigExcelTable_TypeDefinitionIndex)->GetStaticField(0x365C8);
+		}
+		static ::Il2CppArray<::System::String*>** StaticGet_s_PathList()
+		{
+			return (::Il2CppArray<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(GridFightEquipUpgradeConfigExcelTable_TypeDefinitionIndex)->GetStaticField(0x365D0);
 		}
 		static ::System::Boolean* StaticGet_isDataLoaded()
 		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(GridFightEquipUpgradeConfigExcelTable_TypeDefinitionIndex)->GetStaticField(0x8D70);
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(GridFightEquipUpgradeConfigExcelTable_TypeDefinitionIndex)->GetStaticField(0x9080);
 		}
 		static ::System::Byte* StaticGet_HashIndex()
 		{
-			return (::System::Byte*)Il2CppClass::FromTypeDefinitionIndex(GridFightEquipUpgradeConfigExcelTable_TypeDefinitionIndex)->GetStaticField(0x8D71);
+			return (::System::Byte*)Il2CppClass::FromTypeDefinitionIndex(GridFightEquipUpgradeConfigExcelTable_TypeDefinitionIndex)->GetStaticField(0x9081);
 		}
 
 		static ::System::Void _cctor()

@@ -11,13 +11,12 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class Material; }
 namespace UnityEngine { class Texture2D; }
 
-#define RPG_CLIENT_A4SKYDOMEEFFECTCONTROLMONOPLUGIN_GETTICKLODTEMPLATENAME_OFFSET UNITYSDK_OFFSET(0xB071B10)
-#define RPG_CLIENT_A4SKYDOMEEFFECTCONTROLMONOPLUGIN__CTOR_OFFSET UNITYSDK_OFFSET(0xB071B60)
-#define RPG_CLIENT_A4SKYDOMEEFFECTCONTROLMONOPLUGIN___IFIXBASEPROXY_GETTICKLODTEMPLATENAME_OFFSET UNITYSDK_OFFSET(0xB071B80)
+#define RPG_CLIENT_A4SKYDOMEEFFECTCONTROLMONOPLUGIN_GETTICKLODTEMPLATENAME_OFFSET UNITYSDK_OFFSET(0x1746E2A0)
+#define RPG_CLIENT_A4SKYDOMEEFFECTCONTROLMONOPLUGIN__CTOR_OFFSET UNITYSDK_OFFSET(0x1746E2F0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int A4SkyDomeEffectControlMonoPlugin_TypeDefinitionIndex = 66265;
+	inline static constexpr unsigned int A4SkyDomeEffectControlMonoPlugin_TypeDefinitionIndex = 67690;
 
 	class A4SkyDomeEffectControlMonoPlugin : public ::RPG::Client::TAMonoPlugin_1<::RPG::Client::A4SkyDomeEffectControlBehavior*>
 	{
@@ -63,11 +62,6 @@ namespace RPG::Client
 		::System::String* GetTickLodTemplateName()
 		{
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_A4SKYDOMEEFFECTCONTROLMONOPLUGIN_GETTICKLODTEMPLATENAME_OFFSET))(this);
-		}
-
-		::System::String* __iFixBaseProxy_GetTickLodTemplateName()
-		{
-			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_A4SKYDOMEEFFECTCONTROLMONOPLUGIN___IFIXBASEPROXY_GETTICKLODTEMPLATENAME_OFFSET))(this);
 		}
 	};
 }

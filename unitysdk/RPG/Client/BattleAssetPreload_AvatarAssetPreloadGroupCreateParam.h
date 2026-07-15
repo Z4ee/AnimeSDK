@@ -5,17 +5,17 @@
 namespace RPG::AvatarSystem { class IAvatar; }
 namespace System { class String; }
 
-#define RPG_CLIENT_BATTLEASSETPRELOAD_AVATARASSETPRELOADGROUPCREATEPARAM__CTOR_OFFSET UNITYSDK_OFFSET(0xB3C5470)
+#define RPG_CLIENT_BATTLEASSETPRELOAD_AVATARASSETPRELOADGROUPCREATEPARAM__CTOR_OFFSET UNITYSDK_OFFSET(0x1869AA30)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int BattleAssetPreload_AvatarAssetPreloadGroupCreateParam_TypeDefinitionIndex = 55765;
+	inline static constexpr unsigned int BattleAssetPreload_AvatarAssetPreloadGroupCreateParam_TypeDefinitionIndex = 57002;
 
 	class BattleAssetPreload_AvatarAssetPreloadGroupCreateParam : public ::RPG::Client::BattleAssetPreload_AssetPreloadGroupCreateParam
 	{
 	public:
-		::RPG::AvatarSystem::IAvatar* AvatarData; // 0x10
-		::System::String* OverrideModelPath; // 0x18
+		::System::String* OverrideModelPath; // 0x10
+		::RPG::AvatarSystem::IAvatar* AvatarData; // 0x18
 
 		::System::Void _ctor()
 		{

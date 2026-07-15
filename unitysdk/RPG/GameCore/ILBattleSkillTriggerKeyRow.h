@@ -6,12 +6,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_ILBATTLESKILLTRIGGERKEYROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1983E830)
-#define RPG_GAMECORE_ILBATTLESKILLTRIGGERKEYROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1983E9B0)
+#define RPG_GAMECORE_ILBATTLESKILLTRIGGERKEYROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B691040)
+#define RPG_GAMECORE_ILBATTLESKILLTRIGGERKEYROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1B6911C0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ILBattleSkillTriggerKeyRow_TypeDefinitionIndex = 13144;
+	inline static constexpr unsigned int ILBattleSkillTriggerKeyRow_TypeDefinitionIndex = 13292;
 
 	class ILBattleSkillTriggerKeyRow : public ::System::Object
 	{

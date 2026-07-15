@@ -6,12 +6,12 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class FiveDimPlayerActionConfig; }
 namespace RPG::GameCore { class FourRotateVoxelPlayerEffectConfig; }
 
-#define RPG_GAMECORE_FOURROTATEVOXELPLAYERCONFIG_METHOD_2_23A1B1415ECFD4BF_OFFSET UNITYSDK_OFFSET(0x19769520)
-#define RPG_GAMECORE_FOURROTATEVOXELPLAYERCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1976B240)
+#define RPG_GAMECORE_FOURROTATEVOXELPLAYERCONFIG_METHOD_2_76DEC1F3CFD7EBD6_OFFSET UNITYSDK_OFFSET(0x1B97AD70)
+#define RPG_GAMECORE_FOURROTATEVOXELPLAYERCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1B97D310)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FourRotateVoxelPlayerConfig_TypeDefinitionIndex = 15909;
+	inline static constexpr unsigned int FourRotateVoxelPlayerConfig_TypeDefinitionIndex = 16083;
 
 	class FourRotateVoxelPlayerConfig : public ::RPG::GameCore::JsonConfig
 	{
@@ -28,9 +28,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FOURROTATEVOXELPLAYERCONFIG__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_23A1B1415ECFD4BF(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::FourRotateVoxelPlayerConfig*& a2)
+		static ::System::Void Method_2_76DEC1F3CFD7EBD6(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::FourRotateVoxelPlayerConfig*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::FourRotateVoxelPlayerConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FOURROTATEVOXELPLAYERCONFIG_METHOD_2_23A1B1415ECFD4BF_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::FourRotateVoxelPlayerConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FOURROTATEVOXELPLAYERCONFIG_METHOD_2_76DEC1F3CFD7EBD6_OFFSET))(a1, a2);
 		}
 	};
 }

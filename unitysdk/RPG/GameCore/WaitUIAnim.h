@@ -5,13 +5,13 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_WAITUIANIM_METHOD_3_63AE727AE2E7D2F5_OFFSET UNITYSDK_OFFSET(0x19E64110)
-#define RPG_GAMECORE_WAITUIANIM_METHOD_3_9BB17C72C949B374_OFFSET UNITYSDK_OFFSET(0x19E64080)
-#define RPG_GAMECORE_WAITUIANIM__CTOR_OFFSET UNITYSDK_OFFSET(0x19E640E0)
+#define RPG_GAMECORE_WAITUIANIM_METHOD_3_621287240969A22C_OFFSET UNITYSDK_OFFSET(0x1D1BF000)
+#define RPG_GAMECORE_WAITUIANIM_METHOD_3_63AE727AE2E7D2F5_OFFSET UNITYSDK_OFFSET(0x1D1BF050)
+#define RPG_GAMECORE_WAITUIANIM__CTOR_OFFSET UNITYSDK_OFFSET(0x1D1BF040)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int WaitUIAnim_TypeDefinitionIndex = 23025;
+	inline static constexpr unsigned int WaitUIAnim_TypeDefinitionIndex = 23492;
 
 	class WaitUIAnim : public ::RPG::GameCore::TaskConfig
 	{
@@ -26,9 +26,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_WAITUIANIM__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_9BB17C72C949B374(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::WaitUIAnim*& a2)
+		static ::System::Void Method_3_621287240969A22C(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::WaitUIAnim*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::WaitUIAnim*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_WAITUIANIM_METHOD_3_9BB17C72C949B374_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::WaitUIAnim*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_WAITUIANIM_METHOD_3_621287240969A22C_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_63AE727AE2E7D2F5(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::WaitUIAnim* a2)

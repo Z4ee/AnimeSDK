@@ -5,13 +5,13 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class TargetEvaluator; }
 
-#define RPG_GAMECORE_ENABLEBATTLEONATTACKED_METHOD_3_6A8FAC608280E3C3_OFFSET UNITYSDK_OFFSET(0x196E2D70)
-#define RPG_GAMECORE_ENABLEBATTLEONATTACKED_METHOD_3_903C911D85F51C67_OFFSET UNITYSDK_OFFSET(0x196E2DF0)
-#define RPG_GAMECORE_ENABLEBATTLEONATTACKED__CTOR_OFFSET UNITYSDK_OFFSET(0x196E2DC0)
+#define RPG_GAMECORE_ENABLEBATTLEONATTACKED_METHOD_3_903C911D85F51C67_OFFSET UNITYSDK_OFFSET(0x1BB3F130)
+#define RPG_GAMECORE_ENABLEBATTLEONATTACKED_METHOD_3_A07BA8A0A524E4D0_OFFSET UNITYSDK_OFFSET(0x1BB3F0F0)
+#define RPG_GAMECORE_ENABLEBATTLEONATTACKED__CTOR_OFFSET UNITYSDK_OFFSET(0x1BB3F120)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int EnableBattleOnAttacked_TypeDefinitionIndex = 20541;
+	inline static constexpr unsigned int EnableBattleOnAttacked_TypeDefinitionIndex = 20956;
 
 	class EnableBattleOnAttacked : public ::RPG::GameCore::TaskConfig
 	{
@@ -24,9 +24,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ENABLEBATTLEONATTACKED__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_6A8FAC608280E3C3(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::EnableBattleOnAttacked*& a2)
+		static ::System::Void Method_3_A07BA8A0A524E4D0(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::EnableBattleOnAttacked*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::EnableBattleOnAttacked*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ENABLEBATTLEONATTACKED_METHOD_3_6A8FAC608280E3C3_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::EnableBattleOnAttacked*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ENABLEBATTLEONATTACKED_METHOD_3_A07BA8A0A524E4D0_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_903C911D85F51C67(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::EnableBattleOnAttacked* a2)

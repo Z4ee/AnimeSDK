@@ -8,13 +8,13 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_ADVNPCPATROL_METHOD_3_26A342BCDB22E339_OFFSET UNITYSDK_OFFSET(0x1942A930)
-#define RPG_GAMECORE_ADVNPCPATROL_METHOD_3_EE95B8F05C27FEBB_OFFSET UNITYSDK_OFFSET(0x1942A9C0)
-#define RPG_GAMECORE_ADVNPCPATROL__CTOR_OFFSET UNITYSDK_OFFSET(0x1942A990)
+#define RPG_GAMECORE_ADVNPCPATROL_METHOD_3_02EE9E976B64A2FA_OFFSET UNITYSDK_OFFSET(0x1BE22340)
+#define RPG_GAMECORE_ADVNPCPATROL_METHOD_3_EE95B8F05C27FEBB_OFFSET UNITYSDK_OFFSET(0x1BE22390)
+#define RPG_GAMECORE_ADVNPCPATROL__CTOR_OFFSET UNITYSDK_OFFSET(0x1BE22380)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AdvNPCPatrol_TypeDefinitionIndex = 18854;
+	inline static constexpr unsigned int AdvNPCPatrol_TypeDefinitionIndex = 19204;
 
 	class AdvNPCPatrol : public ::RPG::GameCore::TaskConfig
 	{
@@ -33,9 +33,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVNPCPATROL__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_26A342BCDB22E339(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AdvNPCPatrol*& a2)
+		static ::System::Void Method_3_02EE9E976B64A2FA(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AdvNPCPatrol*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::AdvNPCPatrol*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVNPCPATROL_METHOD_3_26A342BCDB22E339_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::AdvNPCPatrol*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVNPCPATROL_METHOD_3_02EE9E976B64A2FA_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_EE95B8F05C27FEBB(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AdvNPCPatrol* a2)

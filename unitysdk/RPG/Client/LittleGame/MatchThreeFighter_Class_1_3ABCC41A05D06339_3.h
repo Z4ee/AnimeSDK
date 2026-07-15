@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define RPG_CLIENT_LITTLEGAME_MATCHTHREEFIGHTER_CLASS_1_3ABCC41A05D06339_3__CTOR_OFFSET UNITYSDK_OFFSET(0xBE2BA50)
+#define RPG_CLIENT_LITTLEGAME_MATCHTHREEFIGHTER_CLASS_1_3ABCC41A05D06339_3__CTOR_OFFSET UNITYSDK_OFFSET(0x19AA83C0)
 
 namespace RPG::Client::LittleGame
 {
-	inline static constexpr unsigned int MatchThreeFighter_Class_1_3ABCC41A05D06339_3_TypeDefinitionIndex = 71128;
+	inline static constexpr unsigned int MatchThreeFighter_Class_1_3ABCC41A05D06339_3_TypeDefinitionIndex = 72641;
 
 	class MatchThreeFighter_Class_1_3ABCC41A05D06339_3 : public ::System::Object
 	{

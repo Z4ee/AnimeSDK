@@ -11,16 +11,14 @@ namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class Material; }
 
-#define RPGTOOLS_TIMELINE_FRESNELRIMMATERIALANIMATEBEHAVIOUR_METHOD_2_F52D8C29ED22C82E_OFFSET UNITYSDK_OFFSET(0xD020AC0)
-#define RPGTOOLS_TIMELINE_FRESNELRIMMATERIALANIMATEBEHAVIOUR_ONBEHAVIOURPLAY_OFFSET UNITYSDK_OFFSET(0xD020660)
-#define RPGTOOLS_TIMELINE_FRESNELRIMMATERIALANIMATEBEHAVIOUR_PROCESSFRAME_OFFSET UNITYSDK_OFFSET(0xD0206E0)
-#define RPGTOOLS_TIMELINE_FRESNELRIMMATERIALANIMATEBEHAVIOUR__CTOR_OFFSET UNITYSDK_OFFSET(0xD020B90)
-#define RPGTOOLS_TIMELINE_FRESNELRIMMATERIALANIMATEBEHAVIOUR___IFIXBASEPROXY_ONBEHAVIOURPLAY_OFFSET UNITYSDK_OFFSET(0xD020BD0)
-#define RPGTOOLS_TIMELINE_FRESNELRIMMATERIALANIMATEBEHAVIOUR___IFIXBASEPROXY_PROCESSFRAME_OFFSET UNITYSDK_OFFSET(0xD020BE0)
+#define RPGTOOLS_TIMELINE_FRESNELRIMMATERIALANIMATEBEHAVIOUR_METHOD_2_988EE78A892C77F3_OFFSET UNITYSDK_OFFSET(0x19A5A580)
+#define RPGTOOLS_TIMELINE_FRESNELRIMMATERIALANIMATEBEHAVIOUR_ONBEHAVIOURPLAY_OFFSET UNITYSDK_OFFSET(0x19A5A1B0)
+#define RPGTOOLS_TIMELINE_FRESNELRIMMATERIALANIMATEBEHAVIOUR_PROCESSFRAME_OFFSET UNITYSDK_OFFSET(0x19A5A230)
+#define RPGTOOLS_TIMELINE_FRESNELRIMMATERIALANIMATEBEHAVIOUR__CTOR_OFFSET UNITYSDK_OFFSET(0x19A5A5F0)
 
 namespace RPGTools::Timeline
 {
-	inline static constexpr unsigned int FresnelRimMaterialAnimateBehaviour_TypeDefinitionIndex = 45368;
+	inline static constexpr unsigned int FresnelRimMaterialAnimateBehaviour_TypeDefinitionIndex = 46297;
 
 	class FresnelRimMaterialAnimateBehaviour : public ::UnityEngine::Playables::PlayableBehaviour
 	{
@@ -46,19 +44,9 @@ namespace RPGTools::Timeline
 			return ((::System::Void(*)(::PVOID, ::UnityEngine::Playables::Playable, ::UnityEngine::Playables::FrameData, ::System::Object*))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_FRESNELRIMMATERIALANIMATEBEHAVIOUR_PROCESSFRAME_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Boolean Method_2_F52D8C29ED22C82E(::System::String* a1)
+		::System::Boolean Method_2_988EE78A892C77F3(::System::String* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_FRESNELRIMMATERIALANIMATEBEHAVIOUR_METHOD_2_F52D8C29ED22C82E_OFFSET))(this, a1);
-		}
-
-		::System::Void __iFixBaseProxy_OnBehaviourPlay(::UnityEngine::Playables::Playable a1, ::UnityEngine::Playables::FrameData a2)
-		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Playables::Playable, ::UnityEngine::Playables::FrameData))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_FRESNELRIMMATERIALANIMATEBEHAVIOUR___IFIXBASEPROXY_ONBEHAVIOURPLAY_OFFSET))(this, a1, a2);
-		}
-
-		::System::Void __iFixBaseProxy_ProcessFrame(::UnityEngine::Playables::Playable a1, ::UnityEngine::Playables::FrameData a2, ::System::Object* a3)
-		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Playables::Playable, ::UnityEngine::Playables::FrameData, ::System::Object*))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_FRESNELRIMMATERIALANIMATEBEHAVIOUR___IFIXBASEPROXY_PROCESSFRAME_OFFSET))(this, a1, a2, a3);
+			return ((::System::Boolean(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_FRESNELRIMMATERIALANIMATEBEHAVIOUR_METHOD_2_988EE78A892C77F3_OFFSET))(this, a1);
 		}
 	};
 }

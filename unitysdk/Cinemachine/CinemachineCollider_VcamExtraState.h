@@ -5,27 +5,27 @@
 
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CINEMACHINE_CINEMACHINECOLLIDER_VCAMEXTRASTATE_ADDPOINTTODEBUGPATH_OFFSET UNITYSDK_OFFSET(0x14632600)
-#define CINEMACHINE_CINEMACHINECOLLIDER_VCAMEXTRASTATE_APPLYDISTANCESMOOTHING_OFFSET UNITYSDK_OFFSET(0x14630B50)
-#define CINEMACHINE_CINEMACHINECOLLIDER_VCAMEXTRASTATE_RESETDISTANCESMOOTHING_OFFSET UNITYSDK_OFFSET(0x14630C20)
-#define CINEMACHINE_CINEMACHINECOLLIDER_VCAMEXTRASTATE_UPDATEDISTANCESMOOTHING_OFFSET UNITYSDK_OFFSET(0x14630AB0)
-#define CINEMACHINE_CINEMACHINECOLLIDER_VCAMEXTRASTATE__CTOR_OFFSET UNITYSDK_OFFSET(0x14634630)
+#define CINEMACHINE_CINEMACHINECOLLIDER_VCAMEXTRASTATE_ADDPOINTTODEBUGPATH_OFFSET UNITYSDK_OFFSET(0x17271710)
+#define CINEMACHINE_CINEMACHINECOLLIDER_VCAMEXTRASTATE_APPLYDISTANCESMOOTHING_OFFSET UNITYSDK_OFFSET(0x1726FC60)
+#define CINEMACHINE_CINEMACHINECOLLIDER_VCAMEXTRASTATE_RESETDISTANCESMOOTHING_OFFSET UNITYSDK_OFFSET(0x1726FD30)
+#define CINEMACHINE_CINEMACHINECOLLIDER_VCAMEXTRASTATE_UPDATEDISTANCESMOOTHING_OFFSET UNITYSDK_OFFSET(0x1726FBC0)
+#define CINEMACHINE_CINEMACHINECOLLIDER_VCAMEXTRASTATE__CTOR_OFFSET UNITYSDK_OFFSET(0x17273710)
 
 namespace Cinemachine
 {
-	inline static constexpr unsigned int CinemachineCollider_VcamExtraState_TypeDefinitionIndex = 36791;
+	inline static constexpr unsigned int CinemachineCollider_VcamExtraState_TypeDefinitionIndex = 37573;
 
 	class CinemachineCollider_VcamExtraState : public ::System::Object
 	{
 	public:
 		::System::Collections::Generic::List_1<::UnityEngine::Vector3>* debugResolutionPath; // 0x10
 		::System::Single colliderDisplacement; // 0x18
-		::System::Single m_SmoothedDistance; // 0x1C
-		::System::Boolean targetObscured; // 0x20
-		::System::Single m_SmoothedTime; // 0x24
-		::System::Single occlusionStartTime; // 0x28
-		::UnityEngine::Vector3 m_previousDisplacementCorrection; // 0x2C
-		::UnityEngine::Vector3 m_previousDisplacement; // 0x38
+		::UnityEngine::Vector3 m_previousDisplacementCorrection; // 0x1C
+		::System::Single m_SmoothedDistance; // 0x28
+		::System::Single m_SmoothedTime; // 0x2C
+		::UnityEngine::Vector3 m_previousDisplacement; // 0x30
+		::System::Boolean targetObscured; // 0x3C
+		::System::Single occlusionStartTime; // 0x40
 
 		::System::Void _ctor()
 		{

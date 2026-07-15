@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Configuration/ConfigurationElementCollection.h"
 
-#define SYSTEM_NET_CONFIGURATION_CONNECTIONMANAGEMENTELEMENTCOLLECTION__CTOR_OFFSET UNITYSDK_OFFSET(0x1AF58830)
+#define SYSTEM_NET_CONFIGURATION_CONNECTIONMANAGEMENTELEMENTCOLLECTION__CTOR_OFFSET UNITYSDK_OFFSET(0x19183530)
 
 namespace System::Net::Configuration
 {
-	inline static constexpr unsigned int ConnectionManagementElementCollection_TypeDefinitionIndex = 3064;
+	inline static constexpr unsigned int ConnectionManagementElementCollection_TypeDefinitionIndex = 3068;
 
 	class ConnectionManagementElementCollection : public ::System::Configuration::ConfigurationElementCollection
 	{

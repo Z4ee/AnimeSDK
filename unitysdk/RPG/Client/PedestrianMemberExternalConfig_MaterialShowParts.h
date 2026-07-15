@@ -6,12 +6,12 @@
 namespace System { class String; }
 namespace UnityEngine { class ScriptableObject; }
 
-#define RPG_CLIENT_PEDESTRIANMEMBEREXTERNALCONFIG_MATERIALSHOWPARTS_GET_SPECIALTAG_OFFSET UNITYSDK_OFFSET(0xC355EB0)
-#define RPG_CLIENT_PEDESTRIANMEMBEREXTERNALCONFIG_MATERIALSHOWPARTS__CTOR_OFFSET UNITYSDK_OFFSET(0xC355EC0)
+#define RPG_CLIENT_PEDESTRIANMEMBEREXTERNALCONFIG_MATERIALSHOWPARTS_GET_SPECIALTAG_OFFSET UNITYSDK_OFFSET(0x17F33800)
+#define RPG_CLIENT_PEDESTRIANMEMBEREXTERNALCONFIG_MATERIALSHOWPARTS__CTOR_OFFSET UNITYSDK_OFFSET(0x17F33810)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int PedestrianMemberExternalConfig_MaterialShowParts_TypeDefinitionIndex = 64770;
+	inline static constexpr unsigned int PedestrianMemberExternalConfig_MaterialShowParts_TypeDefinitionIndex = 66171;
 
 	class PedestrianMemberExternalConfig_MaterialShowParts : public ::RPG::Client::IPedestrianMemberExternalConfig
 	{

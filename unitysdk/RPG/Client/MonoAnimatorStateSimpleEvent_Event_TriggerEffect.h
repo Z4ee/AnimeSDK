@@ -8,12 +8,12 @@ namespace RPG::Client { class MonoAnimatorStateSimpleEvent; }
 namespace System { class String; }
 namespace UnityEngine { class Transform; }
 
-#define RPG_CLIENT_MONOANIMATORSTATESIMPLEEVENT_EVENT_TRIGGEREFFECT_METHOD_2_A13916F874030531_OFFSET UNITYSDK_OFFSET(0xC058840)
-#define RPG_CLIENT_MONOANIMATORSTATESIMPLEEVENT_EVENT_TRIGGEREFFECT__CTOR_OFFSET UNITYSDK_OFFSET(0xC058D50)
+#define RPG_CLIENT_MONOANIMATORSTATESIMPLEEVENT_EVENT_TRIGGEREFFECT_METHOD_2_A13916F874030531_OFFSET UNITYSDK_OFFSET(0x18075320)
+#define RPG_CLIENT_MONOANIMATORSTATESIMPLEEVENT_EVENT_TRIGGEREFFECT__CTOR_OFFSET UNITYSDK_OFFSET(0x180756D0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MonoAnimatorStateSimpleEvent_Event_TriggerEffect_TypeDefinitionIndex = 64105;
+	inline static constexpr unsigned int MonoAnimatorStateSimpleEvent_Event_TriggerEffect_TypeDefinitionIndex = 65476;
 
 	class MonoAnimatorStateSimpleEvent_Event_TriggerEffect : public ::RPG::Client::MonoAnimatorStateSimpleEvent_Event
 	{

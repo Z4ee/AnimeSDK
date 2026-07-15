@@ -7,14 +7,13 @@ namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class Material; }
 
-#define RPG_CLIENT_MONOEFFECTPLUGINCHARAPROPFACEOUTLINE_GETBASECHARACTERFILTER_OFFSET UNITYSDK_OFFSET(0xC0C43A0)
-#define RPG_CLIENT_MONOEFFECTPLUGINCHARAPROPFACEOUTLINE_UPDATEPROPERTY_OFFSET UNITYSDK_OFFSET(0xC0C4410)
-#define RPG_CLIENT_MONOEFFECTPLUGINCHARAPROPFACEOUTLINE__CTOR_OFFSET UNITYSDK_OFFSET(0xC0C4B80)
-#define RPG_CLIENT_MONOEFFECTPLUGINCHARAPROPFACEOUTLINE___IFIXBASEPROXY_GETBASECHARACTERFILTER_OFFSET UNITYSDK_OFFSET(0xC0C4BE0)
+#define RPG_CLIENT_MONOEFFECTPLUGINCHARAPROPFACEOUTLINE_GETBASECHARACTERFILTER_OFFSET UNITYSDK_OFFSET(0x191134C0)
+#define RPG_CLIENT_MONOEFFECTPLUGINCHARAPROPFACEOUTLINE_UPDATEPROPERTY_OFFSET UNITYSDK_OFFSET(0x19113530)
+#define RPG_CLIENT_MONOEFFECTPLUGINCHARAPROPFACEOUTLINE__CTOR_OFFSET UNITYSDK_OFFSET(0x19113CA0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MonoEffectPluginCharaPropFaceOutline_TypeDefinitionIndex = 65411;
+	inline static constexpr unsigned int MonoEffectPluginCharaPropFaceOutline_TypeDefinitionIndex = 66824;
 
 	class MonoEffectPluginCharaPropFaceOutline : public ::RPG::Client::MonoEffectPluginCharaPropBase
 	{
@@ -51,11 +50,6 @@ namespace RPG::Client
 		::System::Void UpdateProperty(::System::Collections::Generic::List_1<::UnityEngine::Material*>* a1, ::System::Boolean a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::UnityEngine::Material*>*, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOEFFECTPLUGINCHARAPROPFACEOUTLINE_UPDATEPROPERTY_OFFSET))(this, a1, a2);
-		}
-
-		::Il2CppArray<::System::String*>* __iFixBaseProxy_GetBaseCharacterFilter()
-		{
-			return ((::Il2CppArray<::System::String*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOEFFECTPLUGINCHARAPROPFACEOUTLINE___IFIXBASEPROXY_GETBASECHARACTERFILTER_OFFSET))(this);
 		}
 	};
 }

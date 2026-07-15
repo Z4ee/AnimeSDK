@@ -3,7 +3,7 @@
 
 namespace System::Runtime::InteropServices
 {
-	inline static constexpr unsigned int GCHandleType_TypeDefinitionIndex = 1425;
+	inline static constexpr unsigned int GCHandleType_TypeDefinitionIndex = 1429;
 
 	enum class GCHandleType : ::System::Int32
 	{

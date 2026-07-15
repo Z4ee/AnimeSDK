@@ -3,7 +3,7 @@
 
 namespace RPG::Client::Prop
 {
-	inline static constexpr unsigned int InsertionItemState_TypeDefinitionIndex = 73150;
+	inline static constexpr unsigned int InsertionItemState_TypeDefinitionIndex = 74675;
 
 	enum class InsertionItemState : ::System::Int32
 	{

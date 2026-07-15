@@ -7,7 +7,7 @@ namespace System { class Object; }
 
 namespace Google::Protobuf::Reflection
 {
-	inline static constexpr unsigned int IFieldAccessor_TypeDefinitionIndex = 5547;
+	inline static constexpr unsigned int IFieldAccessor_TypeDefinitionIndex = 5552;
 
 	class IFieldAccessor
 	{

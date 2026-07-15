@@ -8,13 +8,13 @@ namespace RPG::GameCore { class DynamicString; }
 namespace RPG::GameCore { class TargetEvaluator; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_STOPSOUND_METHOD_3_1B372DFD1E0FD1C4_OFFSET UNITYSDK_OFFSET(0x19CC0F10)
-#define RPG_GAMECORE_STOPSOUND_METHOD_3_4AD00847B2BDF5F5_OFFSET UNITYSDK_OFFSET(0x19CC0FA0)
-#define RPG_GAMECORE_STOPSOUND__CTOR_OFFSET UNITYSDK_OFFSET(0x19CC0F70)
+#define RPG_GAMECORE_STOPSOUND_METHOD_3_0FB17E095279DCD6_OFFSET UNITYSDK_OFFSET(0x1B0C6530)
+#define RPG_GAMECORE_STOPSOUND_METHOD_3_4AD00847B2BDF5F5_OFFSET UNITYSDK_OFFSET(0x1B0C6580)
+#define RPG_GAMECORE_STOPSOUND__CTOR_OFFSET UNITYSDK_OFFSET(0x1B0C6570)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int StopSound_TypeDefinitionIndex = 19469;
+	inline static constexpr unsigned int StopSound_TypeDefinitionIndex = 19827;
 
 	class StopSound : public ::RPG::GameCore::TaskConfig
 	{
@@ -32,9 +32,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_STOPSOUND__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_1B372DFD1E0FD1C4(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::StopSound*& a2)
+		static ::System::Void Method_3_0FB17E095279DCD6(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::StopSound*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::StopSound*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_STOPSOUND_METHOD_3_1B372DFD1E0FD1C4_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::StopSound*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_STOPSOUND_METHOD_3_0FB17E095279DCD6_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_4AD00847B2BDF5F5(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::StopSound* a2)

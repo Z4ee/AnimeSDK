@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int EvolveBuildGearManager_DeadLineState_TypeDefinitionIndex = 52331;
+	inline static constexpr unsigned int EvolveBuildGearManager_DeadLineState_TypeDefinitionIndex = 53535;
 
 	enum class EvolveBuildGearManager_DeadLineState : ::System::Byte
 	{

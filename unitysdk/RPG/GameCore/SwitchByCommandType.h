@@ -6,13 +6,13 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class TargetEvaluator; }
 
-#define RPG_GAMECORE_SWITCHBYCOMMANDTYPE_METHOD_3_296DC11BD55C494E_OFFSET UNITYSDK_OFFSET(0x19CD80E0)
-#define RPG_GAMECORE_SWITCHBYCOMMANDTYPE_METHOD_3_6CF510B3332BDE0A_OFFSET UNITYSDK_OFFSET(0x19CD8000)
-#define RPG_GAMECORE_SWITCHBYCOMMANDTYPE__CTOR_OFFSET UNITYSDK_OFFSET(0x19CD8080)
+#define RPG_GAMECORE_SWITCHBYCOMMANDTYPE_METHOD_3_296DC11BD55C494E_OFFSET UNITYSDK_OFFSET(0x1B433AE0)
+#define RPG_GAMECORE_SWITCHBYCOMMANDTYPE_METHOD_3_64C9BF67FA9880A1_OFFSET UNITYSDK_OFFSET(0x1B433A40)
+#define RPG_GAMECORE_SWITCHBYCOMMANDTYPE__CTOR_OFFSET UNITYSDK_OFFSET(0x1B433AA0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SwitchByCommandType_TypeDefinitionIndex = 22378;
+	inline static constexpr unsigned int SwitchByCommandType_TypeDefinitionIndex = 22820;
 
 	class SwitchByCommandType : public ::RPG::GameCore::TaskConfig
 	{
@@ -26,9 +26,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SWITCHBYCOMMANDTYPE__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_6CF510B3332BDE0A(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SwitchByCommandType*& a2)
+		static ::System::Void Method_3_64C9BF67FA9880A1(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SwitchByCommandType*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SwitchByCommandType*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SWITCHBYCOMMANDTYPE_METHOD_3_6CF510B3332BDE0A_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SwitchByCommandType*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SWITCHBYCOMMANDTYPE_METHOD_3_64C9BF67FA9880A1_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_296DC11BD55C494E(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SwitchByCommandType* a2)

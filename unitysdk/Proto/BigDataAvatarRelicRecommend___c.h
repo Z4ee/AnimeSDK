@@ -4,20 +4,20 @@
 
 namespace Proto { class BigDataAvatarRelicRecommend; }
 
-#define PROTO_BIGDATAAVATARRELICRECOMMEND___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1A0E1150)
-#define PROTO_BIGDATAAVATARRELICRECOMMEND___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1A0E1190)
-#define PROTO_BIGDATAAVATARRELICRECOMMEND___C___CCTOR_B__53_0_OFFSET UNITYSDK_OFFSET(0x1A0E11A0)
+#define PROTO_BIGDATAAVATARRELICRECOMMEND___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1BF73B70)
+#define PROTO_BIGDATAAVATARRELICRECOMMEND___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1BF73BB0)
+#define PROTO_BIGDATAAVATARRELICRECOMMEND___C___CCTOR_B__53_0_OFFSET UNITYSDK_OFFSET(0x1BF73BC0)
 
 namespace Proto
 {
-	inline static constexpr unsigned int BigDataAvatarRelicRecommend___c_TypeDefinitionIndex = 30563;
+	inline static constexpr unsigned int BigDataAvatarRelicRecommend___c_TypeDefinitionIndex = 31089;
 
 	class BigDataAvatarRelicRecommend___c : public ::System::Object
 	{
 	public:
 		static ::Proto::BigDataAvatarRelicRecommend___c** StaticGet___9()
 		{
-			return (::Proto::BigDataAvatarRelicRecommend___c**)Il2CppClass::FromTypeDefinitionIndex(BigDataAvatarRelicRecommend___c_TypeDefinitionIndex)->GetStaticField(0x42830);
+			return (::Proto::BigDataAvatarRelicRecommend___c**)Il2CppClass::FromTypeDefinitionIndex(BigDataAvatarRelicRecommend___c_TypeDefinitionIndex)->GetStaticField(0x3BC60);
 		}
 
 		static ::System::Void _cctor()

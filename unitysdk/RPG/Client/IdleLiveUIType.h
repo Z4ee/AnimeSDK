@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int IdleLiveUIType_TypeDefinitionIndex = 9959;
+	inline static constexpr unsigned int IdleLiveUIType_TypeDefinitionIndex = 9974;
 
 	enum class IdleLiveUIType : ::System::Int32
 	{

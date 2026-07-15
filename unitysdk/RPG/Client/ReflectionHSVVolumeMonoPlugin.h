@@ -6,13 +6,12 @@
 namespace RPG::Client { class ReflectionHSVVolumeBehavior; }
 namespace System { class String; }
 
-#define RPG_CLIENT_REFLECTIONHSVVOLUMEMONOPLUGIN_GETTICKLODTEMPLATENAME_OFFSET UNITYSDK_OFFSET(0xC6CB5B0)
-#define RPG_CLIENT_REFLECTIONHSVVOLUMEMONOPLUGIN__CTOR_OFFSET UNITYSDK_OFFSET(0xC6CB600)
-#define RPG_CLIENT_REFLECTIONHSVVOLUMEMONOPLUGIN___IFIXBASEPROXY_GETTICKLODTEMPLATENAME_OFFSET UNITYSDK_OFFSET(0xC6CB610)
+#define RPG_CLIENT_REFLECTIONHSVVOLUMEMONOPLUGIN_GETTICKLODTEMPLATENAME_OFFSET UNITYSDK_OFFSET(0x198669D0)
+#define RPG_CLIENT_REFLECTIONHSVVOLUMEMONOPLUGIN__CTOR_OFFSET UNITYSDK_OFFSET(0x19866A20)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ReflectionHSVVolumeMonoPlugin_TypeDefinitionIndex = 66123;
+	inline static constexpr unsigned int ReflectionHSVVolumeMonoPlugin_TypeDefinitionIndex = 67548;
 
 	class ReflectionHSVVolumeMonoPlugin : public ::RPG::Client::TAMonoPlugin_1<::RPG::Client::ReflectionHSVVolumeBehavior*>
 	{
@@ -28,11 +27,6 @@ namespace RPG::Client
 		::System::String* GetTickLodTemplateName()
 		{
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_REFLECTIONHSVVOLUMEMONOPLUGIN_GETTICKLODTEMPLATENAME_OFFSET))(this);
-		}
-
-		::System::String* __iFixBaseProxy_GetTickLodTemplateName()
-		{
-			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_REFLECTIONHSVVOLUMEMONOPLUGIN___IFIXBASEPROXY_GETTICKLODTEMPLATENAME_OFFSET))(this);
 		}
 	};
 }

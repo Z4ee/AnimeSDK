@@ -5,12 +5,12 @@
 
 namespace UnityEngine { class Material; }
 
-#define RPG_CLIENT_TAUTILS_MATERIALPROPERTIESCOLLECTION_MATRIXARRAYPROPERTY_METHOD_3_64C8CF167B1D4401_OFFSET UNITYSDK_OFFSET(0xC9BFD20)
-#define RPG_CLIENT_TAUTILS_MATERIALPROPERTIESCOLLECTION_MATRIXARRAYPROPERTY__CTOR_OFFSET UNITYSDK_OFFSET(0xC9BDDC0)
+#define RPG_CLIENT_TAUTILS_MATERIALPROPERTIESCOLLECTION_MATRIXARRAYPROPERTY_METHOD_3_64C8CF167B1D4401_OFFSET UNITYSDK_OFFSET(0x197595A0)
+#define RPG_CLIENT_TAUTILS_MATERIALPROPERTIESCOLLECTION_MATRIXARRAYPROPERTY__CTOR_OFFSET UNITYSDK_OFFSET(0x19757640)
 
 namespace RPG::Client::TAUtils
 {
-	inline static constexpr unsigned int MaterialPropertiesCollection_MatrixArrayProperty_TypeDefinitionIndex = 68723;
+	inline static constexpr unsigned int MaterialPropertiesCollection_MatrixArrayProperty_TypeDefinitionIndex = 70221;
 
 	class MaterialPropertiesCollection_MatrixArrayProperty : public ::RPG::Client::TAUtils::MaterialPropertiesCollection_Property_1<::Il2CppArray<::UnityEngine::Matrix4x4>*>
 	{

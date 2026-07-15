@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int AnchorVirtualCameraMode_TypeDefinitionIndex = 63901;
+	inline static constexpr unsigned int AnchorVirtualCameraMode_TypeDefinitionIndex = 65272;
 
 	enum class AnchorVirtualCameraMode : ::System::Int32
 	{

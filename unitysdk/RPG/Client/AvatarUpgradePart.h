@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int AvatarUpgradePart_TypeDefinitionIndex = 58796;
+	inline static constexpr unsigned int AvatarUpgradePart_TypeDefinitionIndex = 60067;
 
 	enum class AvatarUpgradePart : ::System::Int32
 	{

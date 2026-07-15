@@ -4,7 +4,7 @@
 
 namespace System::Configuration
 {
-	inline static constexpr unsigned int ConfigurationSectionGroup_TypeDefinitionIndex = 2330;
+	inline static constexpr unsigned int ConfigurationSectionGroup_TypeDefinitionIndex = 2334;
 
 	class ConfigurationSectionGroup : public ::System::Object
 	{

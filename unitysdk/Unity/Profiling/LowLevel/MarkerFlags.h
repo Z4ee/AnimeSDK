@@ -3,7 +3,7 @@
 
 namespace Unity::Profiling::LowLevel
 {
-	inline static constexpr unsigned int MarkerFlags_TypeDefinitionIndex = 3938;
+	inline static constexpr unsigned int MarkerFlags_TypeDefinitionIndex = 3942;
 
 	enum class MarkerFlags : ::System::Int32
 	{

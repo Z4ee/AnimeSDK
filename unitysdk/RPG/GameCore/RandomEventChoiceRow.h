@@ -5,23 +5,23 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_RANDOMEVENTCHOICEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x19AAEC00)
-#define RPG_GAMECORE_RANDOMEVENTCHOICEROW__CTOR_OFFSET UNITYSDK_OFFSET(0x19AAEEE0)
+#define RPG_GAMECORE_RANDOMEVENTCHOICEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B9B68E0)
+#define RPG_GAMECORE_RANDOMEVENTCHOICEROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1B9B6BC0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RandomEventChoiceRow_TypeDefinitionIndex = 13576;
+	inline static constexpr unsigned int RandomEventChoiceRow_TypeDefinitionIndex = 13724;
 
 	class RandomEventChoiceRow : public ::System::Object
 	{
 	public:
-		::System::UInt32 EventRewardFund; // 0x10
-		::System::UInt32 EventRewardBuff; // 0x14
-		::System::UInt32 EventCostOption; // 0x18
-		::System::UInt32 ChoiceID; // 0x1C
-		::RPG::Client::TextID Option; // 0x20
-		::System::Boolean IsCancel; // 0x30
-		::System::UInt32 EventBuffDay; // 0x34
+		::RPG::Client::TextID Option; // 0x10
+		::System::Boolean IsCancel; // 0x20
+		::System::UInt32 EventRewardFund; // 0x24
+		::System::UInt32 EventRewardBuff; // 0x28
+		::System::UInt32 EventBuffDay; // 0x2C
+		::System::UInt32 EventCostOption; // 0x30
+		::System::UInt32 ChoiceID; // 0x34
 
 		::System::Void _ctor()
 		{

@@ -4,7 +4,7 @@
 
 namespace RPG::Client::ActivityIdleLive
 {
-	inline static constexpr unsigned int IdleLiveBaseTeamInfo_SimpleSlotData_TypeDefinitionIndex = 69963;
+	inline static constexpr unsigned int IdleLiveBaseTeamInfo_SimpleSlotData_TypeDefinitionIndex = 71486;
 
 	struct alignas(4) IdleLiveBaseTeamInfo_SimpleSlotData
 	{

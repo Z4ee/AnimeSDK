@@ -5,13 +5,13 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class DynamicFloat; }
 
-#define RPG_GAMECORE_TRYREQUESTENTERREGION_METHOD_3_A325C1008CE911CF_OFFSET UNITYSDK_OFFSET(0x19E20ED0)
-#define RPG_GAMECORE_TRYREQUESTENTERREGION_METHOD_3_AAC5373C73794E50_OFFSET UNITYSDK_OFFSET(0x19E21030)
-#define RPG_GAMECORE_TRYREQUESTENTERREGION__CTOR_OFFSET UNITYSDK_OFFSET(0x19E20F10)
+#define RPG_GAMECORE_TRYREQUESTENTERREGION_METHOD_3_AAC5373C73794E50_OFFSET UNITYSDK_OFFSET(0x1B062C00)
+#define RPG_GAMECORE_TRYREQUESTENTERREGION_METHOD_3_CA25482A1E6F2C0B_OFFSET UNITYSDK_OFFSET(0x1B0629D0)
+#define RPG_GAMECORE_TRYREQUESTENTERREGION__CTOR_OFFSET UNITYSDK_OFFSET(0x1B062B00)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TryRequestEnterRegion_TypeDefinitionIndex = 19613;
+	inline static constexpr unsigned int TryRequestEnterRegion_TypeDefinitionIndex = 19972;
 
 	class TryRequestEnterRegion : public ::RPG::GameCore::TaskConfig
 	{
@@ -27,9 +27,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TRYREQUESTENTERREGION__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_A325C1008CE911CF(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::TryRequestEnterRegion*& a2)
+		static ::System::Void Method_3_CA25482A1E6F2C0B(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::TryRequestEnterRegion*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::TryRequestEnterRegion*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TRYREQUESTENTERREGION_METHOD_3_A325C1008CE911CF_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::TryRequestEnterRegion*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TRYREQUESTENTERREGION_METHOD_3_CA25482A1E6F2C0B_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_AAC5373C73794E50(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::TryRequestEnterRegion* a2)

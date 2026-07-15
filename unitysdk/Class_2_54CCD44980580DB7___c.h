@@ -3,49 +3,49 @@
 #include "unitysdk/System/Net/Security/SslPolicyErrors.h"
 #include "unitysdk/System/Object.h"
 
-class Class_1_AAE3CF8472BB8C9A;
+class Class_1_E40337C55D87F197;
 namespace System { template <typename T1, typename T2> class Func_2; }
 namespace System::Net { class IPEndPoint; }
 namespace System::Net::Security { class RemoteCertificateValidationCallback; }
 namespace System::Security::Cryptography::X509Certificates { class X509Certificate; }
 namespace System::Security::Cryptography::X509Certificates { class X509Chain; }
 
-#define CLASS_2_54CCD44980580DB7___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x14585980)
-#define CLASS_2_54CCD44980580DB7___C__CTOR_OFFSET UNITYSDK_OFFSET(0x145859B0)
-#define CLASS_2_54CCD44980580DB7___C__GET_FAILURECOUNT_B__47_0_OFFSET UNITYSDK_OFFSET(0x14585A20)
-#define CLASS_2_54CCD44980580DB7___C__GET_FINISHCOUNT_B__49_0_OFFSET UNITYSDK_OFFSET(0x14585A40)
-#define CLASS_2_54CCD44980580DB7___C__GET_SUCCESSCOUNT_B__45_0_OFFSET UNITYSDK_OFFSET(0x14585A00)
-#define CLASS_2_54CCD44980580DB7___C___CHECKIPV6STATE_B__13_0_OFFSET UNITYSDK_OFFSET(0x145859C0)
-#define CLASS_2_54CCD44980580DB7___C___GETWEBRESPONSE_B__25_0_OFFSET UNITYSDK_OFFSET(0x145859F0)
+#define CLASS_2_54CCD44980580DB7___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x162EA710)
+#define CLASS_2_54CCD44980580DB7___C__CTOR_OFFSET UNITYSDK_OFFSET(0x162EA740)
+#define CLASS_2_54CCD44980580DB7___C__GET_FAILURECOUNT_B__47_0_OFFSET UNITYSDK_OFFSET(0x162EA7B0)
+#define CLASS_2_54CCD44980580DB7___C__GET_FINISHCOUNT_B__49_0_OFFSET UNITYSDK_OFFSET(0x162EA7D0)
+#define CLASS_2_54CCD44980580DB7___C__GET_SUCCESSCOUNT_B__45_0_OFFSET UNITYSDK_OFFSET(0x162EA790)
+#define CLASS_2_54CCD44980580DB7___C___CHECKIPV6STATE_B__13_0_OFFSET UNITYSDK_OFFSET(0x162EA750)
+#define CLASS_2_54CCD44980580DB7___C___GETWEBRESPONSE_B__25_0_OFFSET UNITYSDK_OFFSET(0x162EA780)
 
-inline static constexpr unsigned int Class_2_54CCD44980580DB7___c_TypeDefinitionIndex = 55712;
+inline static constexpr unsigned int Class_2_54CCD44980580DB7___c_TypeDefinitionIndex = 56949;
 
 class Class_2_54CCD44980580DB7___c : public ::System::Object
 {
 public:
-	static ::System::Func_2<::Class_1_AAE3CF8472BB8C9A*, ::System::Boolean>** StaticGet___9__49_0()
+	static ::System::Func_2<::Class_1_E40337C55D87F197*, ::System::Boolean>** StaticGet___9__49_0()
 	{
-		return (::System::Func_2<::Class_1_AAE3CF8472BB8C9A*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(Class_2_54CCD44980580DB7___c_TypeDefinitionIndex)->GetStaticField(0x4FC90);
+		return (::System::Func_2<::Class_1_E40337C55D87F197*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(Class_2_54CCD44980580DB7___c_TypeDefinitionIndex)->GetStaticField(0x3FAC0);
 	}
 	static ::System::Net::Security::RemoteCertificateValidationCallback** StaticGet___9__25_0()
 	{
-		return (::System::Net::Security::RemoteCertificateValidationCallback**)Il2CppClass::FromTypeDefinitionIndex(Class_2_54CCD44980580DB7___c_TypeDefinitionIndex)->GetStaticField(0x4FC98);
+		return (::System::Net::Security::RemoteCertificateValidationCallback**)Il2CppClass::FromTypeDefinitionIndex(Class_2_54CCD44980580DB7___c_TypeDefinitionIndex)->GetStaticField(0x3FAC8);
 	}
-	static ::Class_2_54CCD44980580DB7___c** StaticGet___9()
+	static ::System::Func_2<::Class_1_E40337C55D87F197*, ::System::Boolean>** StaticGet___9__45_0()
 	{
-		return (::Class_2_54CCD44980580DB7___c**)Il2CppClass::FromTypeDefinitionIndex(Class_2_54CCD44980580DB7___c_TypeDefinitionIndex)->GetStaticField(0x4FCA0);
+		return (::System::Func_2<::Class_1_E40337C55D87F197*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(Class_2_54CCD44980580DB7___c_TypeDefinitionIndex)->GetStaticField(0x3FAD0);
 	}
 	static ::System::Func_2<::System::Net::IPEndPoint*, ::System::Boolean>** StaticGet___9__13_0()
 	{
-		return (::System::Func_2<::System::Net::IPEndPoint*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(Class_2_54CCD44980580DB7___c_TypeDefinitionIndex)->GetStaticField(0x4FCA8);
+		return (::System::Func_2<::System::Net::IPEndPoint*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(Class_2_54CCD44980580DB7___c_TypeDefinitionIndex)->GetStaticField(0x3FAD8);
 	}
-	static ::System::Func_2<::Class_1_AAE3CF8472BB8C9A*, ::System::Boolean>** StaticGet___9__45_0()
+	static ::Class_2_54CCD44980580DB7___c** StaticGet___9()
 	{
-		return (::System::Func_2<::Class_1_AAE3CF8472BB8C9A*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(Class_2_54CCD44980580DB7___c_TypeDefinitionIndex)->GetStaticField(0x4FCB0);
+		return (::Class_2_54CCD44980580DB7___c**)Il2CppClass::FromTypeDefinitionIndex(Class_2_54CCD44980580DB7___c_TypeDefinitionIndex)->GetStaticField(0x3FAE0);
 	}
-	static ::System::Func_2<::Class_1_AAE3CF8472BB8C9A*, ::System::Boolean>** StaticGet___9__47_0()
+	static ::System::Func_2<::Class_1_E40337C55D87F197*, ::System::Boolean>** StaticGet___9__47_0()
 	{
-		return (::System::Func_2<::Class_1_AAE3CF8472BB8C9A*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(Class_2_54CCD44980580DB7___c_TypeDefinitionIndex)->GetStaticField(0x4FCB8);
+		return (::System::Func_2<::Class_1_E40337C55D87F197*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(Class_2_54CCD44980580DB7___c_TypeDefinitionIndex)->GetStaticField(0x3FAE8);
 	}
 
 	static ::System::Void _cctor()
@@ -68,18 +68,18 @@ public:
 		return ((::System::Boolean(*)(::PVOID, ::System::Object*, ::System::Security::Cryptography::X509Certificates::X509Certificate*, ::System::Security::Cryptography::X509Certificates::X509Chain*, ::System::Net::Security::SslPolicyErrors))((::PBYTE)hIl2Cpp + CLASS_2_54CCD44980580DB7___C___GETWEBRESPONSE_B__25_0_OFFSET))(this, a1, a2, a3, a4);
 	}
 
-	::System::Boolean _get_SuccessCount_b__45_0(::Class_1_AAE3CF8472BB8C9A* a1)
+	::System::Boolean _get_SuccessCount_b__45_0(::Class_1_E40337C55D87F197* a1)
 	{
-		return ((::System::Boolean(*)(::PVOID, ::Class_1_AAE3CF8472BB8C9A*))((::PBYTE)hIl2Cpp + CLASS_2_54CCD44980580DB7___C__GET_SUCCESSCOUNT_B__45_0_OFFSET))(this, a1);
+		return ((::System::Boolean(*)(::PVOID, ::Class_1_E40337C55D87F197*))((::PBYTE)hIl2Cpp + CLASS_2_54CCD44980580DB7___C__GET_SUCCESSCOUNT_B__45_0_OFFSET))(this, a1);
 	}
 
-	::System::Boolean _get_FailureCount_b__47_0(::Class_1_AAE3CF8472BB8C9A* a1)
+	::System::Boolean _get_FailureCount_b__47_0(::Class_1_E40337C55D87F197* a1)
 	{
-		return ((::System::Boolean(*)(::PVOID, ::Class_1_AAE3CF8472BB8C9A*))((::PBYTE)hIl2Cpp + CLASS_2_54CCD44980580DB7___C__GET_FAILURECOUNT_B__47_0_OFFSET))(this, a1);
+		return ((::System::Boolean(*)(::PVOID, ::Class_1_E40337C55D87F197*))((::PBYTE)hIl2Cpp + CLASS_2_54CCD44980580DB7___C__GET_FAILURECOUNT_B__47_0_OFFSET))(this, a1);
 	}
 
-	::System::Boolean _get_FinishCount_b__49_0(::Class_1_AAE3CF8472BB8C9A* a1)
+	::System::Boolean _get_FinishCount_b__49_0(::Class_1_E40337C55D87F197* a1)
 	{
-		return ((::System::Boolean(*)(::PVOID, ::Class_1_AAE3CF8472BB8C9A*))((::PBYTE)hIl2Cpp + CLASS_2_54CCD44980580DB7___C__GET_FINISHCOUNT_B__49_0_OFFSET))(this, a1);
+		return ((::System::Boolean(*)(::PVOID, ::Class_1_E40337C55D87F197*))((::PBYTE)hIl2Cpp + CLASS_2_54CCD44980580DB7___C__GET_FINISHCOUNT_B__49_0_OFFSET))(this, a1);
 	}
 };

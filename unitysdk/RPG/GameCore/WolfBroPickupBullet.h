@@ -4,13 +4,13 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_WOLFBROPICKUPBULLET_METHOD_3_8584C94687BA448E_OFFSET UNITYSDK_OFFSET(0x19E68AC0)
-#define RPG_GAMECORE_WOLFBROPICKUPBULLET_METHOD_3_C4455067C5B7DCC2_OFFSET UNITYSDK_OFFSET(0x19E689B0)
-#define RPG_GAMECORE_WOLFBROPICKUPBULLET__CTOR_OFFSET UNITYSDK_OFFSET(0x19E68A90)
+#define RPG_GAMECORE_WOLFBROPICKUPBULLET_METHOD_3_6FA4910A760AF28B_OFFSET UNITYSDK_OFFSET(0x1D1C3460)
+#define RPG_GAMECORE_WOLFBROPICKUPBULLET_METHOD_3_8584C94687BA448E_OFFSET UNITYSDK_OFFSET(0x1D1C3530)
+#define RPG_GAMECORE_WOLFBROPICKUPBULLET__CTOR_OFFSET UNITYSDK_OFFSET(0x1D1C3520)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int WolfBroPickupBullet_TypeDefinitionIndex = 20372;
+	inline static constexpr unsigned int WolfBroPickupBullet_TypeDefinitionIndex = 20787;
 
 	class WolfBroPickupBullet : public ::RPG::GameCore::TaskConfig
 	{
@@ -20,9 +20,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_WOLFBROPICKUPBULLET__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_C4455067C5B7DCC2(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::WolfBroPickupBullet*& a2)
+		static ::System::Void Method_3_6FA4910A760AF28B(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::WolfBroPickupBullet*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::WolfBroPickupBullet*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_WOLFBROPICKUPBULLET_METHOD_3_C4455067C5B7DCC2_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::WolfBroPickupBullet*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_WOLFBROPICKUPBULLET_METHOD_3_6FA4910A760AF28B_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_8584C94687BA448E(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::WolfBroPickupBullet* a2)

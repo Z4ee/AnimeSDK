@@ -8,21 +8,21 @@ namespace MessagePack { class MessagePackSerializerOptions; }
 namespace MessagePack::Formatters { template <typename T> class IMessagePackFormatter_1; }
 namespace System::Collections { class BitArray; }
 
-#define MESSAGEPACK_FORMATTERS_BITARRAYFORMATTER_DESERIALIZE_OFFSET UNITYSDK_OFFSET(0x18137770)
-#define MESSAGEPACK_FORMATTERS_BITARRAYFORMATTER_SERIALIZE_OFFSET UNITYSDK_OFFSET(0x181376D0)
-#define MESSAGEPACK_FORMATTERS_BITARRAYFORMATTER__CCTOR_OFFSET UNITYSDK_OFFSET(0x181378A0)
-#define MESSAGEPACK_FORMATTERS_BITARRAYFORMATTER__CTOR_OFFSET UNITYSDK_OFFSET(0x181376C0)
+#define MESSAGEPACK_FORMATTERS_BITARRAYFORMATTER_DESERIALIZE_OFFSET UNITYSDK_OFFSET(0x14F65880)
+#define MESSAGEPACK_FORMATTERS_BITARRAYFORMATTER_SERIALIZE_OFFSET UNITYSDK_OFFSET(0x14F65780)
+#define MESSAGEPACK_FORMATTERS_BITARRAYFORMATTER__CCTOR_OFFSET UNITYSDK_OFFSET(0x14F659B0)
+#define MESSAGEPACK_FORMATTERS_BITARRAYFORMATTER__CTOR_OFFSET UNITYSDK_OFFSET(0x14F65770)
 
 namespace MessagePack::Formatters
 {
-	inline static constexpr unsigned int BitArrayFormatter_TypeDefinitionIndex = 7448;
+	inline static constexpr unsigned int BitArrayFormatter_TypeDefinitionIndex = 7454;
 
 	class BitArrayFormatter : public ::System::Object
 	{
 	public:
 		static ::MessagePack::Formatters::IMessagePackFormatter_1<::System::Collections::BitArray*>** StaticGet_Instance()
 		{
-			return (::MessagePack::Formatters::IMessagePackFormatter_1<::System::Collections::BitArray*>**)Il2CppClass::FromTypeDefinitionIndex(BitArrayFormatter_TypeDefinitionIndex)->GetStaticField(0x85E0);
+			return (::MessagePack::Formatters::IMessagePackFormatter_1<::System::Collections::BitArray*>**)Il2CppClass::FromTypeDefinitionIndex(BitArrayFormatter_TypeDefinitionIndex)->GetStaticField(0x8B70);
 		}
 
 		::System::Void _ctor()

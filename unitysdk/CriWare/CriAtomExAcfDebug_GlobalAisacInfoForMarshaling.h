@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/ValueType.h"
 
-#define CRIWARE_CRIATOMEXACFDEBUG_GLOBALAISACINFOFORMARSHALING_CONVERT_OFFSET UNITYSDK_OFFSET(0x2BD5500)
+#define CRIWARE_CRIATOMEXACFDEBUG_GLOBALAISACINFOFORMARSHALING_CONVERT_OFFSET UNITYSDK_OFFSET(0x3A18D30)
 
 namespace CriWare
 {
-	inline static constexpr unsigned int CriAtomExAcfDebug_GlobalAisacInfoForMarshaling_TypeDefinitionIndex = 37226;
+	inline static constexpr unsigned int CriAtomExAcfDebug_GlobalAisacInfoForMarshaling_TypeDefinitionIndex = 38032;
 
 	struct alignas(8) CriAtomExAcfDebug_GlobalAisacInfoForMarshaling
 	{

@@ -4,11 +4,11 @@
 
 namespace System { class String; }
 
-#define RPGTOOLS_TIMELINE_CHARACTERSTOPLOOKATDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xCFF3D40)
+#define RPGTOOLS_TIMELINE_CHARACTERSTOPLOOKATDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1B35C530)
 
 namespace RPGTools::Timeline
 {
-	inline static constexpr unsigned int CharacterStopLookAtData_TypeDefinitionIndex = 45293;
+	inline static constexpr unsigned int CharacterStopLookAtData_TypeDefinitionIndex = 46217;
 
 	class CharacterStopLookAtData : public ::System::Object
 	{

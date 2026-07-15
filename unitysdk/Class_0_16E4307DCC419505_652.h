@@ -1,9 +1,10 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/RPG/Client/ConeSphereTrigger_TriggerPattern.h"
 
-class Class_1_6E48A12B40FA04FD_1;
+namespace UnityEngine { class Collider; }
 
-inline static constexpr unsigned int Class_0_16E4307DCC419505_652_TypeDefinitionIndex = 57931;
+inline static constexpr unsigned int Class_0_16E4307DCC419505_652_TypeDefinitionIndex = 57797;
 
 class Class_0_16E4307DCC419505_652
 {

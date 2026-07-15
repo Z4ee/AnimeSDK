@@ -8,7 +8,7 @@ namespace UnityEngine::UIElements { class VisualElement; }
 
 namespace UnityEngine::UIElements
 {
-	inline static constexpr unsigned int IPanel_TypeDefinitionIndex = 6142;
+	inline static constexpr unsigned int IPanel_TypeDefinitionIndex = 6147;
 
 	class IPanel
 	{

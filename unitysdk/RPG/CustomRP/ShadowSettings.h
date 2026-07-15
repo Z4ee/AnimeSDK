@@ -3,11 +3,11 @@
 #include "unitysdk/RPG/CustomRP/ShadowSettings_MainLightShadow.h"
 #include "unitysdk/System/Object.h"
 
-#define RPG_CUSTOMRP_SHADOWSETTINGS__CTOR_OFFSET UNITYSDK_OFFSET(0x18F26C50)
+#define RPG_CUSTOMRP_SHADOWSETTINGS__CTOR_OFFSET UNITYSDK_OFFSET(0x1D134AF0)
 
 namespace RPG::CustomRP
 {
-	inline static constexpr unsigned int ShadowSettings_TypeDefinitionIndex = 35243;
+	inline static constexpr unsigned int ShadowSettings_TypeDefinitionIndex = 36025;
 
 	class ShadowSettings : public ::System::Object
 	{

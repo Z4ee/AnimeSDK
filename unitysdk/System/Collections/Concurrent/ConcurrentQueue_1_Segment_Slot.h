@@ -4,7 +4,7 @@
 
 namespace System::Collections::Concurrent
 {
-	inline static constexpr unsigned int ConcurrentQueue_1_Segment_Slot_TypeDefinitionIndex = 1510;
+	inline static constexpr unsigned int ConcurrentQueue_1_Segment_Slot_TypeDefinitionIndex = 1514;
 
 	template <typename T>
 	struct ConcurrentQueue_1_Segment_Slot

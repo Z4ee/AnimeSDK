@@ -7,13 +7,13 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class TargetEvaluator; }
 namespace RPG::GameCore { class TeammateAttackFormationConfig; }
 
-#define RPG_GAMECORE_SETTEAMMATEATTACKFORMATION_METHOD_3_0C5D75FA4882F0CD_OFFSET UNITYSDK_OFFSET(0x19C64150)
-#define RPG_GAMECORE_SETTEAMMATEATTACKFORMATION_METHOD_3_74BB182DB55BCA32_OFFSET UNITYSDK_OFFSET(0x19C64230)
-#define RPG_GAMECORE_SETTEAMMATEATTACKFORMATION__CTOR_OFFSET UNITYSDK_OFFSET(0x19C641D0)
+#define RPG_GAMECORE_SETTEAMMATEATTACKFORMATION_METHOD_3_62B1C2819F09FE44_OFFSET UNITYSDK_OFFSET(0x1C60D5A0)
+#define RPG_GAMECORE_SETTEAMMATEATTACKFORMATION_METHOD_3_74BB182DB55BCA32_OFFSET UNITYSDK_OFFSET(0x1C60D650)
+#define RPG_GAMECORE_SETTEAMMATEATTACKFORMATION__CTOR_OFFSET UNITYSDK_OFFSET(0x1C60D610)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SetTeammateAttackFormation_TypeDefinitionIndex = 21263;
+	inline static constexpr unsigned int SetTeammateAttackFormation_TypeDefinitionIndex = 21678;
 
 	class SetTeammateAttackFormation : public ::RPG::GameCore::TaskConfig
 	{
@@ -32,9 +32,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETTEAMMATEATTACKFORMATION__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_0C5D75FA4882F0CD(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SetTeammateAttackFormation*& a2)
+		static ::System::Void Method_3_62B1C2819F09FE44(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SetTeammateAttackFormation*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SetTeammateAttackFormation*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETTEAMMATEATTACKFORMATION_METHOD_3_0C5D75FA4882F0CD_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SetTeammateAttackFormation*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETTEAMMATEATTACKFORMATION_METHOD_3_62B1C2819F09FE44_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_74BB182DB55BCA32(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SetTeammateAttackFormation* a2)

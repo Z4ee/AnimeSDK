@@ -5,20 +5,20 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_TRAINPARTYREWARDCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x19DF8B20)
-#define RPG_GAMECORE_TRAINPARTYREWARDCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x19DF8D20)
+#define RPG_GAMECORE_TRAINPARTYREWARDCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1C163B40)
+#define RPG_GAMECORE_TRAINPARTYREWARDCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1C163D40)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TrainPartyRewardConfigRow_TypeDefinitionIndex = 14565;
+	inline static constexpr unsigned int TrainPartyRewardConfigRow_TypeDefinitionIndex = 14723;
 
 	class TrainPartyRewardConfigRow : public ::System::Object
 	{
 	public:
-		::RPG::Client::TextID Name; // 0x10
-		::System::UInt32 RequireStar; // 0x20
-		::System::UInt32 Level; // 0x24
-		::System::UInt32 RewardID; // 0x28
+		::System::UInt32 RewardID; // 0x10
+		::System::UInt32 RequireStar; // 0x14
+		::System::UInt32 Level; // 0x18
+		::RPG::Client::TextID Name; // 0x20
 
 		::System::Void _ctor()
 		{

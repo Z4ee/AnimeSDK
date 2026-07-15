@@ -4,11 +4,11 @@
 
 namespace System { class String; }
 
-#define RPG_CLIENT_LITTLEGAME_MATCH3_MATCHTHREEIMAGEDIALOGINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x18CDC1E0)
+#define RPG_CLIENT_LITTLEGAME_MATCH3_MATCHTHREEIMAGEDIALOGINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x1C593AA0)
 
 namespace RPG::Client::LittleGame::Match3
 {
-	inline static constexpr unsigned int MatchThreeImageDialogInfo_TypeDefinitionIndex = 39656;
+	inline static constexpr unsigned int MatchThreeImageDialogInfo_TypeDefinitionIndex = 40465;
 
 	class MatchThreeImageDialogInfo : public ::System::Object
 	{

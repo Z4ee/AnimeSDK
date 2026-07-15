@@ -2,7 +2,7 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/ValueType.h"
 
-#define SYSTEM_REFLECTION_PARAMETERMODIFIER__CTOR_OFFSET UNITYSDK_OFFSET(0x383B910)
+#define SYSTEM_REFLECTION_PARAMETERMODIFIER__CTOR_OFFSET UNITYSDK_OFFSET(0x3A000E0)
 
 namespace System::Reflection
 {

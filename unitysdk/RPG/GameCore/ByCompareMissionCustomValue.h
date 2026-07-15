@@ -7,15 +7,15 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class MissionCustomValue; }
 namespace SimpleJSON { class JSONNode; }
 
-#define RPG_GAMECORE_BYCOMPAREMISSIONCUSTOMVALUE_METHOD_4_23859559A5648B1B_OFFSET UNITYSDK_OFFSET(0x1951F080)
-#define RPG_GAMECORE_BYCOMPAREMISSIONCUSTOMVALUE_METHOD_4_7605545FDCA9D7BA_OFFSET UNITYSDK_OFFSET(0x1951ED60)
-#define RPG_GAMECORE_BYCOMPAREMISSIONCUSTOMVALUE_METHOD_4_79BC103FE8AF0010_OFFSET UNITYSDK_OFFSET(0x1951EC80)
-#define RPG_GAMECORE_BYCOMPAREMISSIONCUSTOMVALUE_METHOD_4_79F23AAAB9756533_OFFSET UNITYSDK_OFFSET(0x1951F000)
-#define RPG_GAMECORE_BYCOMPAREMISSIONCUSTOMVALUE__CTOR_OFFSET UNITYSDK_OFFSET(0x1951ED00)
+#define RPG_GAMECORE_BYCOMPAREMISSIONCUSTOMVALUE_METHOD_4_01172CE0B51DA08A_OFFSET UNITYSDK_OFFSET(0x19CF3780)
+#define RPG_GAMECORE_BYCOMPAREMISSIONCUSTOMVALUE_METHOD_4_0619082DDDA8A1AD_OFFSET UNITYSDK_OFFSET(0x19CF37C0)
+#define RPG_GAMECORE_BYCOMPAREMISSIONCUSTOMVALUE_METHOD_4_7605545FDCA9D7BA_OFFSET UNITYSDK_OFFSET(0x19CF34E0)
+#define RPG_GAMECORE_BYCOMPAREMISSIONCUSTOMVALUE_METHOD_4_847AD1B580C55D92_OFFSET UNITYSDK_OFFSET(0x19CF3490)
+#define RPG_GAMECORE_BYCOMPAREMISSIONCUSTOMVALUE__CTOR_OFFSET UNITYSDK_OFFSET(0x19CF34D0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ByCompareMissionCustomValue_TypeDefinitionIndex = 19298;
+	inline static constexpr unsigned int ByCompareMissionCustomValue_TypeDefinitionIndex = 19654;
 
 	class ByCompareMissionCustomValue : public ::RPG::GameCore::PredicateConfig
 	{
@@ -32,9 +32,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYCOMPAREMISSIONCUSTOMVALUE__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_4_79BC103FE8AF0010(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ByCompareMissionCustomValue*& a2)
+		static ::System::Void Method_4_847AD1B580C55D92(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ByCompareMissionCustomValue*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ByCompareMissionCustomValue*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYCOMPAREMISSIONCUSTOMVALUE_METHOD_4_79BC103FE8AF0010_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ByCompareMissionCustomValue*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYCOMPAREMISSIONCUSTOMVALUE_METHOD_4_847AD1B580C55D92_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_4_7605545FDCA9D7BA(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ByCompareMissionCustomValue* a2)
@@ -42,14 +42,14 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ByCompareMissionCustomValue*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYCOMPAREMISSIONCUSTOMVALUE_METHOD_4_7605545FDCA9D7BA_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_4_79F23AAAB9756533(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::ByCompareMissionCustomValue*& a2)
+		static ::System::Void Method_4_01172CE0B51DA08A(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::ByCompareMissionCustomValue*& a2)
 		{
-			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::ByCompareMissionCustomValue*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYCOMPAREMISSIONCUSTOMVALUE_METHOD_4_79F23AAAB9756533_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::ByCompareMissionCustomValue*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYCOMPAREMISSIONCUSTOMVALUE_METHOD_4_01172CE0B51DA08A_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_4_23859559A5648B1B(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::ByCompareMissionCustomValue* a2)
+		static ::System::Void Method_4_0619082DDDA8A1AD(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::ByCompareMissionCustomValue* a2)
 		{
-			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::ByCompareMissionCustomValue*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYCOMPAREMISSIONCUSTOMVALUE_METHOD_4_23859559A5648B1B_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::ByCompareMissionCustomValue*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYCOMPAREMISSIONCUSTOMVALUE_METHOD_4_0619082DDDA8A1AD_OFFSET))(a1, a2);
 		}
 	};
 }

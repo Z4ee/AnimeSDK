@@ -7,7 +7,7 @@ namespace Google::Protobuf { template <typename T> class ExtensionSet_1; }
 
 namespace Google::Protobuf
 {
-	inline static constexpr unsigned int ExtensionSet_TypeDefinitionIndex = 5373;
+	inline static constexpr unsigned int ExtensionSet_TypeDefinitionIndex = 5378;
 
 	class ExtensionSet : public ::System::Object
 	{

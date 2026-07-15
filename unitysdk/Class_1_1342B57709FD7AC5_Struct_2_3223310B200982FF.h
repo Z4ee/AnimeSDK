@@ -4,7 +4,7 @@
 
 namespace UnityEngine { class Renderer; }
 
-inline static constexpr unsigned int Class_1_1342B57709FD7AC5_Struct_2_3223310B200982FF_TypeDefinitionIndex = 65265;
+inline static constexpr unsigned int Class_1_1342B57709FD7AC5_Struct_2_3223310B200982FF_TypeDefinitionIndex = 66675;
 
 struct alignas(8) Class_1_1342B57709FD7AC5_Struct_2_3223310B200982FF
 {

@@ -9,7 +9,7 @@ namespace System::Linq::Expressions { class ParameterExpression; }
 
 namespace System::Linq::Expressions
 {
-	inline static constexpr unsigned int FullExpression_1_TypeDefinitionIndex = 3225;
+	inline static constexpr unsigned int FullExpression_1_TypeDefinitionIndex = 3229;
 
 	template <typename TDelegate>
 	class FullExpression_1 : public ::System::Linq::Expressions::ExpressionN_1<TDelegate>

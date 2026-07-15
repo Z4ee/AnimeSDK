@@ -6,11 +6,11 @@ namespace TMPro { class TMP_Character; }
 namespace TMPro { class TMP_FontAsset; }
 namespace UnityEngine { class Material; }
 
-#define TMPRO_TMP_TEXT_SPECIALCHARACTER__CTOR_OFFSET UNITYSDK_OFFSET(0x387B300)
+#define TMPRO_TMP_TEXT_SPECIALCHARACTER__CTOR_OFFSET UNITYSDK_OFFSET(0x38C2920)
 
 namespace TMPro
 {
-	inline static constexpr unsigned int TMP_Text_SpecialCharacter_TypeDefinitionIndex = 41041;
+	inline static constexpr unsigned int TMP_Text_SpecialCharacter_TypeDefinitionIndex = 41856;
 
 	struct alignas(8) TMP_Text_SpecialCharacter
 	{

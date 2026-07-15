@@ -5,19 +5,19 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_MESSAGESPECIALCHANGEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x19916A80)
-#define RPG_GAMECORE_MESSAGESPECIALCHANGEROW__CTOR_OFFSET UNITYSDK_OFFSET(0x19916BC0)
+#define RPG_GAMECORE_MESSAGESPECIALCHANGEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1AF60D00)
+#define RPG_GAMECORE_MESSAGESPECIALCHANGEROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1AF60E40)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MessageSpecialChangeRow_TypeDefinitionIndex = 13746;
+	inline static constexpr unsigned int MessageSpecialChangeRow_TypeDefinitionIndex = 13894;
 
 	class MessageSpecialChangeRow : public ::System::Object
 	{
 	public:
-		::System::UInt32 ItemID; // 0x10
-		::System::UInt32 DialogShowID; // 0x14
-		::RPG::GameCore::MessageSpecialChangeType ActionType; // 0x18
+		::RPG::GameCore::MessageSpecialChangeType ActionType; // 0x10
+		::System::UInt32 ItemID; // 0x14
+		::System::UInt32 DialogShowID; // 0x18
 
 		::System::Void _ctor()
 		{

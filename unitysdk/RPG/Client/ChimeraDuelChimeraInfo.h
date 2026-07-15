@@ -7,22 +7,22 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 namespace System::Collections::Generic { template <typename T> class HashSet_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_CHIMERADUELCHIMERAINFO_DISPOSE_OFFSET UNITYSDK_OFFSET(0xB67DD60)
-#define RPG_CLIENT_CHIMERADUELCHIMERAINFO_GETCOREFLAMEVESSELCAPACITY_OFFSET UNITYSDK_OFFSET(0xB67E150)
-#define RPG_CLIENT_CHIMERADUELCHIMERAINFO_GETDATAWITHINRARITY_OFFSET UNITYSDK_OFFSET(0xB67DEA0)
-#define RPG_CLIENT_CHIMERADUELCHIMERAINFO_GETDATA_OFFSET UNITYSDK_OFFSET(0xB67DDF0)
-#define RPG_CLIENT_CHIMERADUELCHIMERAINFO_ISCOREFLAMEVESSEL_OFFSET UNITYSDK_OFFSET(0xB67CF20)
-#define RPG_CLIENT_CHIMERADUELCHIMERAINFO__CTOR_OFFSET UNITYSDK_OFFSET(0xB67D640)
+#define RPG_CLIENT_CHIMERADUELCHIMERAINFO_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1A50B960)
+#define RPG_CLIENT_CHIMERADUELCHIMERAINFO_GETCOREFLAMEVESSELCAPACITY_OFFSET UNITYSDK_OFFSET(0x1A50BCA0)
+#define RPG_CLIENT_CHIMERADUELCHIMERAINFO_GETDATAWITHINRARITY_OFFSET UNITYSDK_OFFSET(0x1A50B9F0)
+#define RPG_CLIENT_CHIMERADUELCHIMERAINFO_GETDATA_OFFSET UNITYSDK_OFFSET(0x1A504FB0)
+#define RPG_CLIENT_CHIMERADUELCHIMERAINFO_ISCOREFLAMEVESSEL_OFFSET UNITYSDK_OFFSET(0x1A50A970)
+#define RPG_CLIENT_CHIMERADUELCHIMERAINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x1A50B230)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ChimeraDuelChimeraInfo_TypeDefinitionIndex = 59279;
+	inline static constexpr unsigned int ChimeraDuelChimeraInfo_TypeDefinitionIndex = 60550;
 
 	class ChimeraDuelChimeraInfo : public ::System::Object
 	{
 	public:
-		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::RPG::Client::ChimeraDuelChimeraData*>* _DataDict; // 0x10
-		::System::Collections::Generic::HashSet_1<::System::UInt32>* _CoreflameChimeras; // 0x18
+		::System::Collections::Generic::HashSet_1<::System::UInt32>* _CoreflameChimeras; // 0x10
+		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::RPG::Client::ChimeraDuelChimeraData*>* _DataDict; // 0x18
 
 		::System::Void _ctor()
 		{

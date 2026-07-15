@@ -4,7 +4,7 @@
 
 template <typename T> class Class_1_95D444975EC437CC;
 
-inline static constexpr unsigned int Class_1_95D444975EC437CC_Struct_2_79A7327EFE754135_TypeDefinitionIndex = 46352;
+inline static constexpr unsigned int Class_1_95D444975EC437CC_Struct_2_79A7327EFE754135_TypeDefinitionIndex = 47317;
 
 template <typename T>
 struct Class_1_95D444975EC437CC_Struct_2_79A7327EFE754135

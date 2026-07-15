@@ -10,7 +10,7 @@ namespace System::Buffers { template <typename T> class ReadOnlySequenceSegment_
 
 namespace System::Buffers
 {
-	inline static constexpr unsigned int ReadOnlySequence_1_TypeDefinitionIndex = 4974;
+	inline static constexpr unsigned int ReadOnlySequence_1_TypeDefinitionIndex = 4979;
 
 	template <typename T>
 	struct ReadOnlySequence_1

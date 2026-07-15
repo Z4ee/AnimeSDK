@@ -6,12 +6,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_BUBBLETALKINFO_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x194EF0B0)
-#define RPG_GAMECORE_BUBBLETALKINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x194EF400)
+#define RPG_GAMECORE_BUBBLETALKINFO_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x19CB65F0)
+#define RPG_GAMECORE_BUBBLETALKINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x19CB6940)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int BubbleTalkInfo_TypeDefinitionIndex = 19265;
+	inline static constexpr unsigned int BubbleTalkInfo_TypeDefinitionIndex = 19621;
 
 	class BubbleTalkInfo : public ::RPG::GameCore::JsonConfig
 	{

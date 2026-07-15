@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RogueTournAreaGroupID_TypeDefinitionIndex = 14205;
+	inline static constexpr unsigned int RogueTournAreaGroupID_TypeDefinitionIndex = 14353;
 
 	enum class RogueTournAreaGroupID : ::System::Int32
 	{

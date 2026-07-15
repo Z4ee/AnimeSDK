@@ -7,12 +7,12 @@
 namespace System { class String; }
 namespace UnityEngine::Windows::Speech { class PhraseRecognizer_PhraseRecognizedDelegate; }
 
-#define UNITYENGINE_WINDOWS_SPEECH_PHRASERECOGNIZER_INVOKEPHRASERECOGNIZEDEVENT_OFFSET UNITYSDK_OFFSET(0x1B2E9EB0)
-#define UNITYENGINE_WINDOWS_SPEECH_PHRASERECOGNIZER_MARSHALSEMANTICMEANING_OFFSET UNITYSDK_OFFSET(0x1B2E9F70)
+#define UNITYENGINE_WINDOWS_SPEECH_PHRASERECOGNIZER_INVOKEPHRASERECOGNIZEDEVENT_OFFSET UNITYSDK_OFFSET(0x1D22D0D0)
+#define UNITYENGINE_WINDOWS_SPEECH_PHRASERECOGNIZER_MARSHALSEMANTICMEANING_OFFSET UNITYSDK_OFFSET(0x1D22D190)
 
 namespace UnityEngine::Windows::Speech
 {
-	inline static constexpr unsigned int PhraseRecognizer_TypeDefinitionIndex = 4416;
+	inline static constexpr unsigned int PhraseRecognizer_TypeDefinitionIndex = 4421;
 
 	class PhraseRecognizer : public ::System::Object
 	{

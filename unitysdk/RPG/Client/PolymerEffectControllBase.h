@@ -4,30 +4,30 @@
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 
 class Class_1_303D5A33D1401D59;
-class Class_1_E6E7D50288DDC3E7;
+class Class_1_5F7F520FBB2CFE23;
 namespace RPG::Client::OpenWorld { class StreamingItemData; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine { class Transform; }
 
-#define RPG_CLIENT_POLYMEREFFECTCONTROLLBASE_GET_POLYMERADDCHILDOBJ_OFFSET UNITYSDK_OFFSET(0xC4B0620)
-#define RPG_CLIENT_POLYMEREFFECTCONTROLLBASE_GET_VISUALIZEDATA_OFFSET UNITYSDK_OFFSET(0xC4B1240)
-#define RPG_CLIENT_POLYMEREFFECTCONTROLLBASE_METHOD_5_1FE62D8A95280893_OFFSET UNITYSDK_OFFSET(0xC4B0730)
-#define RPG_CLIENT_POLYMEREFFECTCONTROLLBASE_ONPOLYMERREBUILDAFTERFADING_OFFSET UNITYSDK_OFFSET(0xC4B0430)
-#define RPG_CLIENT_POLYMEREFFECTCONTROLLBASE_ONPOLYMERREBUILDBEFOREFADING_OFFSET UNITYSDK_OFFSET(0xC4B04E0)
-#define RPG_CLIENT_POLYMEREFFECTCONTROLLBASE_SET_POLYMERADDCHILDOBJ_OFFSET UNITYSDK_OFFSET(0xC4B0630)
-#define RPG_CLIENT_POLYMEREFFECTCONTROLLBASE_SET_VISUALIZEDATA_OFFSET UNITYSDK_OFFSET(0xC4B1250)
-#define RPG_CLIENT_POLYMEREFFECTCONTROLLBASE__CTOR_OFFSET UNITYSDK_OFFSET(0xC4B0410)
+#define RPG_CLIENT_POLYMEREFFECTCONTROLLBASE_GET_POLYMERADDCHILDOBJ_OFFSET UNITYSDK_OFFSET(0x19397A70)
+#define RPG_CLIENT_POLYMEREFFECTCONTROLLBASE_GET_VISUALIZEDATA_OFFSET UNITYSDK_OFFSET(0x193987E0)
+#define RPG_CLIENT_POLYMEREFFECTCONTROLLBASE_METHOD_5_E9A5554837CAC47B_OFFSET UNITYSDK_OFFSET(0x19397B80)
+#define RPG_CLIENT_POLYMEREFFECTCONTROLLBASE_ONPOLYMERREBUILDAFTERFADING_OFFSET UNITYSDK_OFFSET(0x19398740)
+#define RPG_CLIENT_POLYMEREFFECTCONTROLLBASE_ONPOLYMERREBUILDBEFOREFADING_OFFSET UNITYSDK_OFFSET(0x19398690)
+#define RPG_CLIENT_POLYMEREFFECTCONTROLLBASE_SET_POLYMERADDCHILDOBJ_OFFSET UNITYSDK_OFFSET(0x19397A80)
+#define RPG_CLIENT_POLYMEREFFECTCONTROLLBASE_SET_VISUALIZEDATA_OFFSET UNITYSDK_OFFSET(0x193987F0)
+#define RPG_CLIENT_POLYMEREFFECTCONTROLLBASE__CTOR_OFFSET UNITYSDK_OFFSET(0x193979D0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int PolymerEffectControllBase_TypeDefinitionIndex = 65735;
+	inline static constexpr unsigned int PolymerEffectControllBase_TypeDefinitionIndex = 67152;
 
 	class PolymerEffectControllBase : public ::UnityEngine::MonoBehaviour
 	{
 	public:
-		::Class_1_E6E7D50288DDC3E7* _VisualizeData_k__BackingField; // 0x18
+		::Class_1_5F7F520FBB2CFE23* _VisualizeData_k__BackingField; // 0x18
 		::RPG::Client::MusicVisualizeDataSourceType SourceType; // 0x20
 		::System::Collections::Generic::List_1<::System::String*>* PolymerChildren; // 0x28
 
@@ -46,9 +46,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID, ::UnityEngine::GameObject*))((::PBYTE)hIl2Cpp + RPG_CLIENT_POLYMEREFFECTCONTROLLBASE_SET_POLYMERADDCHILDOBJ_OFFSET))(this, a1);
 		}
 
-		::System::String* Method_5_1FE62D8A95280893(::UnityEngine::Transform* a1, ::UnityEngine::Transform* a2)
+		::System::String* Method_5_E9A5554837CAC47B(::UnityEngine::Transform* a1, ::UnityEngine::Transform* a2)
 		{
-			return ((::System::String*(*)(::PVOID, ::UnityEngine::Transform*, ::UnityEngine::Transform*))((::PBYTE)hIl2Cpp + RPG_CLIENT_POLYMEREFFECTCONTROLLBASE_METHOD_5_1FE62D8A95280893_OFFSET))(this, a1, a2);
+			return ((::System::String*(*)(::PVOID, ::UnityEngine::Transform*, ::UnityEngine::Transform*))((::PBYTE)hIl2Cpp + RPG_CLIENT_POLYMEREFFECTCONTROLLBASE_METHOD_5_E9A5554837CAC47B_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void OnPolymerRebuildBeforeFading(::Class_1_303D5A33D1401D59* a1, ::RPG::Client::OpenWorld::StreamingItemData* a2, ::UnityEngine::GameObject* a3, ::UnityEngine::GameObject* a4)
@@ -61,14 +61,14 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID, ::Class_1_303D5A33D1401D59*, ::RPG::Client::OpenWorld::StreamingItemData*, ::UnityEngine::GameObject*))((::PBYTE)hIl2Cpp + RPG_CLIENT_POLYMEREFFECTCONTROLLBASE_ONPOLYMERREBUILDAFTERFADING_OFFSET))(this, a1, a2, a3);
 		}
 
-		::Class_1_E6E7D50288DDC3E7* get_VisualizeData()
+		::Class_1_5F7F520FBB2CFE23* get_VisualizeData()
 		{
-			return ((::Class_1_E6E7D50288DDC3E7*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_POLYMEREFFECTCONTROLLBASE_GET_VISUALIZEDATA_OFFSET))(this);
+			return ((::Class_1_5F7F520FBB2CFE23*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_POLYMEREFFECTCONTROLLBASE_GET_VISUALIZEDATA_OFFSET))(this);
 		}
 
-		::System::Void set_VisualizeData(::Class_1_E6E7D50288DDC3E7* a1)
+		::System::Void set_VisualizeData(::Class_1_5F7F520FBB2CFE23* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Class_1_E6E7D50288DDC3E7*))((::PBYTE)hIl2Cpp + RPG_CLIENT_POLYMEREFFECTCONTROLLBASE_SET_VISUALIZEDATA_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::Class_1_5F7F520FBB2CFE23*))((::PBYTE)hIl2Cpp + RPG_CLIENT_POLYMEREFFECTCONTROLLBASE_SET_VISUALIZEDATA_OFFSET))(this, a1);
 		}
 	};
 }

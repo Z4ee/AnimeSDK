@@ -4,12 +4,12 @@
 
 namespace RPG::Client { class ChallengePeakTeam; }
 
-#define RPG_CLIENT_CHALLENGEPEAKTEAMCONTEXT___C__DISPLAYCLASS32_0__CTOR_OFFSET UNITYSDK_OFFSET(0xB576150)
-#define RPG_CLIENT_CHALLENGEPEAKTEAMCONTEXT___C__DISPLAYCLASS32_0__GETNORMALTEAMBYID_B__0_OFFSET UNITYSDK_OFFSET(0xB576DF0)
+#define RPG_CLIENT_CHALLENGEPEAKTEAMCONTEXT___C__DISPLAYCLASS32_0__CTOR_OFFSET UNITYSDK_OFFSET(0x191F60F0)
+#define RPG_CLIENT_CHALLENGEPEAKTEAMCONTEXT___C__DISPLAYCLASS32_0__GETNORMALTEAMBYID_B__0_OFFSET UNITYSDK_OFFSET(0x191F6EE0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ChallengePeakTeamContext___c__DisplayClass32_0_TypeDefinitionIndex = 59139;
+	inline static constexpr unsigned int ChallengePeakTeamContext___c__DisplayClass32_0_TypeDefinitionIndex = 60410;
 
 	class ChallengePeakTeamContext___c__DisplayClass32_0 : public ::System::Object
 	{

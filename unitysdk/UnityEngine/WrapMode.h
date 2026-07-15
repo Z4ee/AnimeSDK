@@ -3,7 +3,7 @@
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int WrapMode_TypeDefinitionIndex = 4011;
+	inline static constexpr unsigned int WrapMode_TypeDefinitionIndex = 4016;
 
 	enum class WrapMode : ::System::Int32
 	{

@@ -8,13 +8,15 @@ namespace RPG::GameCore { class HoyoTagContainer; }
 namespace SimpleJSON { class JSONNode; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_BLOCKNODECONFIG_METHOD_2_37D3DE6D8A866A73_OFFSET UNITYSDK_OFFSET(0x194DED00)
-#define RPG_GAMECORE_BLOCKNODECONFIG_METHOD_2_AE3CBB691880A973_OFFSET UNITYSDK_OFFSET(0x194DF3A0)
-#define RPG_GAMECORE_BLOCKNODECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x194DF390)
+#define RPG_GAMECORE_BLOCKNODECONFIG_METHOD_2_37D3DE6D8A866A73_OFFSET UNITYSDK_OFFSET(0x1A3FEC40)
+#define RPG_GAMECORE_BLOCKNODECONFIG_METHOD_2_AE3CBB691880A973_OFFSET UNITYSDK_OFFSET(0x1A3FF330)
+#define RPG_GAMECORE_BLOCKNODECONFIG_METHOD_2_F0E307B84478A272_OFFSET UNITYSDK_OFFSET(0x1A400BC0)
+#define RPG_GAMECORE_BLOCKNODECONFIG_METHOD_2_F24A112B56A2E4B4_OFFSET UNITYSDK_OFFSET(0x1A400BA0)
+#define RPG_GAMECORE_BLOCKNODECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1A3FF320)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int BlockNodeConfig_TypeDefinitionIndex = 18134;
+	inline static constexpr unsigned int BlockNodeConfig_TypeDefinitionIndex = 18367;
 
 	class BlockNodeConfig : public ::RPG::GameCore::JsonConfig
 	{
@@ -38,6 +40,7 @@ namespace RPG::GameCore
 		::System::String* HLODPath; // 0x58
 		::RPG::GameCore::HoyoTagContainer* TagContainer; // 0x60
 		::System::SByte BlockGrassQualityLowerBoundsOverride; // 0x68
+		::System::String* PrefabName; // 0x70
 
 		::System::Void _ctor()
 		{
@@ -52,6 +55,16 @@ namespace RPG::GameCore
 		static ::System::Void Method_2_AE3CBB691880A973(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::BlockNodeConfig*& a2)
 		{
 			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::BlockNodeConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BLOCKNODECONFIG_METHOD_2_AE3CBB691880A973_OFFSET))(a1, a2);
+		}
+
+		::System::String* Method_2_F24A112B56A2E4B4()
+		{
+			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BLOCKNODECONFIG_METHOD_2_F24A112B56A2E4B4_OFFSET))(this);
+		}
+
+		::System::Boolean Method_2_F0E307B84478A272()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BLOCKNODECONFIG_METHOD_2_F0E307B84478A272_OFFSET))(this);
 		}
 	};
 }

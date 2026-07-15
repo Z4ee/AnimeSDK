@@ -11,7 +11,7 @@ namespace ZXing::Rendering { template <typename T> class IBarcodeRenderer_1; }
 
 namespace ZXing
 {
-	inline static constexpr unsigned int BarcodeWriterGeneric_1_TypeDefinitionIndex = 6411;
+	inline static constexpr unsigned int BarcodeWriterGeneric_1_TypeDefinitionIndex = 6416;
 
 	template <typename TOutput>
 	class BarcodeWriterGeneric_1 : public ::System::Object

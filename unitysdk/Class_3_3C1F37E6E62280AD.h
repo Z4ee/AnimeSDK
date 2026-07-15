@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class AdvByCheckNeedWaitServerCheckSkillResult; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_3C1F37E6E62280AD_EVALUATE_OFFSET UNITYSDK_OFFSET(0xB063D00)
-#define CLASS_3_3C1F37E6E62280AD__CTOR_OFFSET UNITYSDK_OFFSET(0xB063CD0)
+#define CLASS_3_3C1F37E6E62280AD_EVALUATE_OFFSET UNITYSDK_OFFSET(0x1745FEC0)
+#define CLASS_3_3C1F37E6E62280AD__CTOR_OFFSET UNITYSDK_OFFSET(0x1745FE90)
 
-inline static constexpr unsigned int Class_3_3C1F37E6E62280AD_TypeDefinitionIndex = 48937;
+inline static constexpr unsigned int Class_3_3C1F37E6E62280AD_TypeDefinitionIndex = 49950;
 
 class Class_3_3C1F37E6E62280AD : public ::RPG::GameCore::PredicateTaskBase_1<::RPG::GameCore::AdvByCheckNeedWaitServerCheckSkillResult*>
 {

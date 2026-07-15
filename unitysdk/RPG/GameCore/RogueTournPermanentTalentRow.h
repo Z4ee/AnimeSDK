@@ -8,12 +8,12 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class ItemConfig; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_ROGUETOURNPERMANENTTALENTROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x19BCEB40)
-#define RPG_GAMECORE_ROGUETOURNPERMANENTTALENTROW__CTOR_OFFSET UNITYSDK_OFFSET(0x19BCEF60)
+#define RPG_GAMECORE_ROGUETOURNPERMANENTTALENTROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1BB7CA60)
+#define RPG_GAMECORE_ROGUETOURNPERMANENTTALENTROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1BB7CE80)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RogueTournPermanentTalentRow_TypeDefinitionIndex = 14250;
+	inline static constexpr unsigned int RogueTournPermanentTalentRow_TypeDefinitionIndex = 14398;
 
 	class RogueTournPermanentTalentRow : public ::System::Object
 	{
@@ -24,9 +24,9 @@ namespace RPG::GameCore
 		::System::String* Icon; // 0x28
 		::RPG::Client::TextID EffectDesc; // 0x30
 		::RPG::Client::TextID EffectTitle; // 0x40
-		::System::Boolean IsImportant; // 0x50
-		::System::UInt32 TalentID; // 0x54
-		::RPG::Client::TextID EffectTag; // 0x58
+		::RPG::Client::TextID EffectTag; // 0x50
+		::System::Boolean IsImportant; // 0x60
+		::System::UInt32 TalentID; // 0x64
 
 		::System::Void _ctor()
 		{

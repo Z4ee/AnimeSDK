@@ -7,12 +7,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_EMOJIGROUPROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x196E1E30)
-#define RPG_GAMECORE_EMOJIGROUPROW__CTOR_OFFSET UNITYSDK_OFFSET(0x196E2550)
+#define RPG_GAMECORE_EMOJIGROUPROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1BB3E2E0)
+#define RPG_GAMECORE_EMOJIGROUPROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1BB3E9C0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int EmojiGroupRow_TypeDefinitionIndex = 12588;
+	inline static constexpr unsigned int EmojiGroupRow_TypeDefinitionIndex = 12725;
 
 	class EmojiGroupRow : public ::System::Object
 	{

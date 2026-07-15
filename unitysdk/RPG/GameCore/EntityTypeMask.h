@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int EntityTypeMask_TypeDefinitionIndex = 10071;
+	inline static constexpr unsigned int EntityTypeMask_TypeDefinitionIndex = 10086;
 
 	enum class EntityTypeMask : ::System::UInt64
 	{
@@ -46,6 +46,7 @@ namespace RPG::GameCore
 		PreviewShow = 0x400000000,
 		LittleGameContainer = 0x800000000,
 		LittleGameViewProxy = 0x1000000000,
+		GridFightBackend = 0x2000000000,
 		DummyEntity = 0x4000000000,
 		Battle_AllEntity = 0x200001206,
 		Battle_VisibleControlled = 0x200009006,

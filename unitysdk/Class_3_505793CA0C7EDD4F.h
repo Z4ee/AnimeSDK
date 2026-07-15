@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class RtSkillPauseTarget; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_505793CA0C7EDD4F_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBF51B90)
-#define CLASS_3_505793CA0C7EDD4F__CTOR_OFFSET UNITYSDK_OFFSET(0xBF51B60)
+#define CLASS_3_505793CA0C7EDD4F_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x160ACA80)
+#define CLASS_3_505793CA0C7EDD4F__CTOR_OFFSET UNITYSDK_OFFSET(0x160ACA50)
 
-inline static constexpr unsigned int Class_3_505793CA0C7EDD4F_TypeDefinitionIndex = 50382;
+inline static constexpr unsigned int Class_3_505793CA0C7EDD4F_TypeDefinitionIndex = 51464;
 
 class Class_3_505793CA0C7EDD4F : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::RtSkillPauseTarget*>
 {

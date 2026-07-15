@@ -8,7 +8,7 @@ namespace System { template <typename T> class Predicate_1; }
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GridFightModifierInfo___c__21_1_TypeDefinitionIndex = 60817;
+	inline static constexpr unsigned int GridFightModifierInfo___c__21_1_TypeDefinitionIndex = 62116;
 
 	template <typename T>
 	class GridFightModifierInfo___c__21_1 : public ::System::Object

@@ -5,12 +5,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class DynamicLoadBlockData; }
 
-#define RPG_GAMECORE_DYNAMICLOADBLOCKDATAS_METHOD_2_6100832A2A688CE6_OFFSET UNITYSDK_OFFSET(0x196CEF80)
-#define RPG_GAMECORE_DYNAMICLOADBLOCKDATAS__CTOR_OFFSET UNITYSDK_OFFSET(0x196CF040)
+#define RPG_GAMECORE_DYNAMICLOADBLOCKDATAS_METHOD_2_35DB529749D0E8CF_OFFSET UNITYSDK_OFFSET(0x1BB2AE40)
+#define RPG_GAMECORE_DYNAMICLOADBLOCKDATAS__CTOR_OFFSET UNITYSDK_OFFSET(0x1BB2AF30)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int DynamicLoadBlockDatas_TypeDefinitionIndex = 18176;
+	inline static constexpr unsigned int DynamicLoadBlockDatas_TypeDefinitionIndex = 18409;
 
 	class DynamicLoadBlockDatas : public ::RPG::GameCore::JsonConfig
 	{
@@ -22,9 +22,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_DYNAMICLOADBLOCKDATAS__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_6100832A2A688CE6(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::DynamicLoadBlockDatas*& a2)
+		static ::System::Void Method_2_35DB529749D0E8CF(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::DynamicLoadBlockDatas*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::DynamicLoadBlockDatas*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_DYNAMICLOADBLOCKDATAS_METHOD_2_6100832A2A688CE6_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::DynamicLoadBlockDatas*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_DYNAMICLOADBLOCKDATAS_METHOD_2_35DB529749D0E8CF_OFFSET))(a1, a2);
 		}
 	};
 }

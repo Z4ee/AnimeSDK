@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class AddRegardAsAttackType; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_165068B022299F0A_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xABA94C0)
-#define CLASS_3_165068B022299F0A__CTOR_OFFSET UNITYSDK_OFFSET(0xABA9490)
+#define CLASS_3_165068B022299F0A_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x16428300)
+#define CLASS_3_165068B022299F0A__CTOR_OFFSET UNITYSDK_OFFSET(0x164282D0)
 
-inline static constexpr unsigned int Class_3_165068B022299F0A_TypeDefinitionIndex = 51246;
+inline static constexpr unsigned int Class_3_165068B022299F0A_TypeDefinitionIndex = 52338;
 
 class Class_3_165068B022299F0A : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::AddRegardAsAttackType*>
 {

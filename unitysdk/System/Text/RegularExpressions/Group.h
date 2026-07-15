@@ -5,25 +5,25 @@
 namespace System { class String; }
 namespace System::Text::RegularExpressions { class CaptureCollection; }
 
-#define SYSTEM_TEXT_REGULAREXPRESSIONS_GROUP_GET_CAPTURES_OFFSET UNITYSDK_OFFSET(0x1AFDD090)
-#define SYSTEM_TEXT_REGULAREXPRESSIONS_GROUP_GET_SUCCESS_OFFSET UNITYSDK_OFFSET(0x1AFDD080)
-#define SYSTEM_TEXT_REGULAREXPRESSIONS_GROUP__CCTOR_OFFSET UNITYSDK_OFFSET(0x1AFDD0F0)
-#define SYSTEM_TEXT_REGULAREXPRESSIONS_GROUP__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1AFDD170)
-#define SYSTEM_TEXT_REGULAREXPRESSIONS_GROUP__CTOR_OFFSET UNITYSDK_OFFSET(0x1AFDD010)
+#define SYSTEM_TEXT_REGULAREXPRESSIONS_GROUP_GET_CAPTURES_OFFSET UNITYSDK_OFFSET(0x167CB790)
+#define SYSTEM_TEXT_REGULAREXPRESSIONS_GROUP_GET_SUCCESS_OFFSET UNITYSDK_OFFSET(0x167CB780)
+#define SYSTEM_TEXT_REGULAREXPRESSIONS_GROUP__CCTOR_OFFSET UNITYSDK_OFFSET(0x167CB7F0)
+#define SYSTEM_TEXT_REGULAREXPRESSIONS_GROUP__CTOR_1_OFFSET UNITYSDK_OFFSET(0x167CB870)
+#define SYSTEM_TEXT_REGULAREXPRESSIONS_GROUP__CTOR_OFFSET UNITYSDK_OFFSET(0x167CB700)
 
 namespace System::Text::RegularExpressions
 {
-	inline static constexpr unsigned int Group_TypeDefinitionIndex = 2503;
+	inline static constexpr unsigned int Group_TypeDefinitionIndex = 2507;
 
 	class Group : public ::System::Text::RegularExpressions::Capture
 	{
 	public:
 		static ::System::Text::RegularExpressions::Group** StaticGet__emptygroup()
 		{
-			return (::System::Text::RegularExpressions::Group**)Il2CppClass::FromTypeDefinitionIndex(Group_TypeDefinitionIndex)->GetStaticField(0x27270);
+			return (::System::Text::RegularExpressions::Group**)Il2CppClass::FromTypeDefinitionIndex(Group_TypeDefinitionIndex)->GetStaticField(0x2F360);
 		}
-		::Il2CppArray<::System::Int32>* _caps; // 0x20
-		::System::Text::RegularExpressions::CaptureCollection* _capcoll; // 0x28
+		::System::Text::RegularExpressions::CaptureCollection* _capcoll; // 0x20
+		::Il2CppArray<::System::Int32>* _caps; // 0x28
 		::System::String* _name; // 0x30
 		::System::Int32 _capcount; // 0x38
 

@@ -6,13 +6,13 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class TargetEvaluator; }
 
-#define RPG_GAMECORE_ADVENTURETARGETUSESKILL_METHOD_3_4BB6B2DF536A0F70_OFFSET UNITYSDK_OFFSET(0x19454770)
-#define RPG_GAMECORE_ADVENTURETARGETUSESKILL_METHOD_3_C199754DA00B575C_OFFSET UNITYSDK_OFFSET(0x194546A0)
-#define RPG_GAMECORE_ADVENTURETARGETUSESKILL__CTOR_OFFSET UNITYSDK_OFFSET(0x19454720)
+#define RPG_GAMECORE_ADVENTURETARGETUSESKILL_METHOD_3_4BB6B2DF536A0F70_OFFSET UNITYSDK_OFFSET(0x1AE62FA0)
+#define RPG_GAMECORE_ADVENTURETARGETUSESKILL_METHOD_3_9382308952D16225_OFFSET UNITYSDK_OFFSET(0x1AE62F00)
+#define RPG_GAMECORE_ADVENTURETARGETUSESKILL__CTOR_OFFSET UNITYSDK_OFFSET(0x1AE62F60)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AdventureTargetUseSkill_TypeDefinitionIndex = 19071;
+	inline static constexpr unsigned int AdventureTargetUseSkill_TypeDefinitionIndex = 19426;
 
 	class AdventureTargetUseSkill : public ::RPG::GameCore::TaskConfig
 	{
@@ -27,9 +27,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVENTURETARGETUSESKILL__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_C199754DA00B575C(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AdventureTargetUseSkill*& a2)
+		static ::System::Void Method_3_9382308952D16225(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AdventureTargetUseSkill*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::AdventureTargetUseSkill*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVENTURETARGETUSESKILL_METHOD_3_C199754DA00B575C_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::AdventureTargetUseSkill*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVENTURETARGETUSESKILL_METHOD_3_9382308952D16225_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_4BB6B2DF536A0F70(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AdventureTargetUseSkill* a2)

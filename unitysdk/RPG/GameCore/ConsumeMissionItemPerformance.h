@@ -6,13 +6,13 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class SimpleTalkInfo; }
 
-#define RPG_GAMECORE_CONSUMEMISSIONITEMPERFORMANCE_METHOD_3_4B918E7CED069D6C_OFFSET UNITYSDK_OFFSET(0x19679F60)
-#define RPG_GAMECORE_CONSUMEMISSIONITEMPERFORMANCE_METHOD_3_4F67A540B9F3FA99_OFFSET UNITYSDK_OFFSET(0x19679FE0)
-#define RPG_GAMECORE_CONSUMEMISSIONITEMPERFORMANCE__CTOR_OFFSET UNITYSDK_OFFSET(0x19679FB0)
+#define RPG_GAMECORE_CONSUMEMISSIONITEMPERFORMANCE_METHOD_3_4F67A540B9F3FA99_OFFSET UNITYSDK_OFFSET(0x1BC32710)
+#define RPG_GAMECORE_CONSUMEMISSIONITEMPERFORMANCE_METHOD_3_D105D67B4FC0CD1F_OFFSET UNITYSDK_OFFSET(0x1BC326D0)
+#define RPG_GAMECORE_CONSUMEMISSIONITEMPERFORMANCE__CTOR_OFFSET UNITYSDK_OFFSET(0x1BC32700)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ConsumeMissionItemPerformance_TypeDefinitionIndex = 19308;
+	inline static constexpr unsigned int ConsumeMissionItemPerformance_TypeDefinitionIndex = 19664;
 
 	class ConsumeMissionItemPerformance : public ::RPG::GameCore::TaskConfig
 	{
@@ -28,9 +28,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CONSUMEMISSIONITEMPERFORMANCE__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_4B918E7CED069D6C(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ConsumeMissionItemPerformance*& a2)
+		static ::System::Void Method_3_D105D67B4FC0CD1F(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ConsumeMissionItemPerformance*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ConsumeMissionItemPerformance*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CONSUMEMISSIONITEMPERFORMANCE_METHOD_3_4B918E7CED069D6C_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ConsumeMissionItemPerformance*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CONSUMEMISSIONITEMPERFORMANCE_METHOD_3_D105D67B4FC0CD1F_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_4F67A540B9F3FA99(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ConsumeMissionItemPerformance* a2)

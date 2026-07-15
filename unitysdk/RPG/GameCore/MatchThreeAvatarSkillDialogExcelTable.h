@@ -11,45 +11,45 @@ namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Concurrent { template <typename T1, typename T2> class ConcurrentDictionary_2; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_MATCHTHREEAVATARSKILLDIALOGEXCELTABLE_GETDATA_OFFSET UNITYSDK_OFFSET(0x198EC790)
-#define RPG_GAMECORE_MATCHTHREEAVATARSKILLDIALOGEXCELTABLE_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x198EC620)
-#define RPG_GAMECORE_MATCHTHREEAVATARSKILLDIALOGEXCELTABLE_GET_DATADICT_OFFSET UNITYSDK_OFFSET(0x198EC310)
-#define RPG_GAMECORE_MATCHTHREEAVATARSKILLDIALOGEXCELTABLE_ISDATAEMPTY_OFFSET UNITYSDK_OFFSET(0x198EC5C0)
-#define RPG_GAMECORE_MATCHTHREEAVATARSKILLDIALOGEXCELTABLE_ISDATALOADED_OFFSET UNITYSDK_OFFSET(0x198EC920)
-#define RPG_GAMECORE_MATCHTHREEAVATARSKILLDIALOGEXCELTABLE_LOADDATA_OFFSET UNITYSDK_OFFSET(0x198EC390)
-#define RPG_GAMECORE_MATCHTHREEAVATARSKILLDIALOGEXCELTABLE_UNLOADDATA_OFFSET UNITYSDK_OFFSET(0x198EC960)
-#define RPG_GAMECORE_MATCHTHREEAVATARSKILLDIALOGEXCELTABLE__ADDITEMFROMBINARY_OFFSET UNITYSDK_OFFSET(0x198ECB30)
-#define RPG_GAMECORE_MATCHTHREEAVATARSKILLDIALOGEXCELTABLE__ADDITEM_OFFSET UNITYSDK_OFFSET(0x198ECE20)
-#define RPG_GAMECORE_MATCHTHREEAVATARSKILLDIALOGEXCELTABLE__CCTOR_OFFSET UNITYSDK_OFFSET(0x198ED190)
-#define RPG_GAMECORE_MATCHTHREEAVATARSKILLDIALOGEXCELTABLE__LOADDATAINCREMENTIAL_OFFSET UNITYSDK_OFFSET(0x198ECA90)
-#define RPG_GAMECORE_MATCHTHREEAVATARSKILLDIALOGEXCELTABLE__LOADDATA_OFFSET UNITYSDK_OFFSET(0x198EC9F0)
+#define RPG_GAMECORE_MATCHTHREEAVATARSKILLDIALOGEXCELTABLE_GETDATA_OFFSET UNITYSDK_OFFSET(0x1BD2CE90)
+#define RPG_GAMECORE_MATCHTHREEAVATARSKILLDIALOGEXCELTABLE_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x1BD2CD20)
+#define RPG_GAMECORE_MATCHTHREEAVATARSKILLDIALOGEXCELTABLE_GET_DATADICT_OFFSET UNITYSDK_OFFSET(0x1BD2CA10)
+#define RPG_GAMECORE_MATCHTHREEAVATARSKILLDIALOGEXCELTABLE_ISDATAEMPTY_OFFSET UNITYSDK_OFFSET(0x1BD2CCC0)
+#define RPG_GAMECORE_MATCHTHREEAVATARSKILLDIALOGEXCELTABLE_ISDATALOADED_OFFSET UNITYSDK_OFFSET(0x1BD2D020)
+#define RPG_GAMECORE_MATCHTHREEAVATARSKILLDIALOGEXCELTABLE_LOADDATA_OFFSET UNITYSDK_OFFSET(0x1BD2CA90)
+#define RPG_GAMECORE_MATCHTHREEAVATARSKILLDIALOGEXCELTABLE_UNLOADDATA_OFFSET UNITYSDK_OFFSET(0x1BD2D060)
+#define RPG_GAMECORE_MATCHTHREEAVATARSKILLDIALOGEXCELTABLE__ADDITEMFROMBINARY_OFFSET UNITYSDK_OFFSET(0x1BD2D230)
+#define RPG_GAMECORE_MATCHTHREEAVATARSKILLDIALOGEXCELTABLE__ADDITEM_OFFSET UNITYSDK_OFFSET(0x1BD2D520)
+#define RPG_GAMECORE_MATCHTHREEAVATARSKILLDIALOGEXCELTABLE__CCTOR_OFFSET UNITYSDK_OFFSET(0x1BD2D890)
+#define RPG_GAMECORE_MATCHTHREEAVATARSKILLDIALOGEXCELTABLE__LOADDATAINCREMENTIAL_OFFSET UNITYSDK_OFFSET(0x1BD2D190)
+#define RPG_GAMECORE_MATCHTHREEAVATARSKILLDIALOGEXCELTABLE__LOADDATA_OFFSET UNITYSDK_OFFSET(0x1BD2D0F0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MatchThreeAvatarSkillDialogExcelTable_TypeDefinitionIndex = 11406;
+	inline static constexpr unsigned int MatchThreeAvatarSkillDialogExcelTable_TypeDefinitionIndex = 11506;
 
 	class MatchThreeAvatarSkillDialogExcelTable : public ::System::Object
 	{
 	public:
 		static ::System::Action_1<::Class_1_7A22A3DBEEDD1F80*>** StaticGet__AddItemFromBinary_ActionInst()
 		{
-			return (::System::Action_1<::Class_1_7A22A3DBEEDD1F80*>**)Il2CppClass::FromTypeDefinitionIndex(MatchThreeAvatarSkillDialogExcelTable_TypeDefinitionIndex)->GetStaticField(0xEC10);
-		}
-		static ::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::MatchThreeAvatarSkillDialogRow*>** StaticGet_dataDict_()
-		{
-			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::MatchThreeAvatarSkillDialogRow*>**)Il2CppClass::FromTypeDefinitionIndex(MatchThreeAvatarSkillDialogExcelTable_TypeDefinitionIndex)->GetStaticField(0xEC18);
+			return (::System::Action_1<::Class_1_7A22A3DBEEDD1F80*>**)Il2CppClass::FromTypeDefinitionIndex(MatchThreeAvatarSkillDialogExcelTable_TypeDefinitionIndex)->GetStaticField(0x3FC50);
 		}
 		static ::Il2CppArray<::System::String*>** StaticGet_s_PathList()
 		{
-			return (::Il2CppArray<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(MatchThreeAvatarSkillDialogExcelTable_TypeDefinitionIndex)->GetStaticField(0xEC20);
+			return (::Il2CppArray<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(MatchThreeAvatarSkillDialogExcelTable_TypeDefinitionIndex)->GetStaticField(0x3FC58);
+		}
+		static ::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::MatchThreeAvatarSkillDialogRow*>** StaticGet_dataDict_()
+		{
+			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::MatchThreeAvatarSkillDialogRow*>**)Il2CppClass::FromTypeDefinitionIndex(MatchThreeAvatarSkillDialogExcelTable_TypeDefinitionIndex)->GetStaticField(0x3FC60);
 		}
 		static ::System::Boolean* StaticGet_isDataLoaded()
 		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(MatchThreeAvatarSkillDialogExcelTable_TypeDefinitionIndex)->GetStaticField(0x4CC0);
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(MatchThreeAvatarSkillDialogExcelTable_TypeDefinitionIndex)->GetStaticField(0xA960);
 		}
 		static ::System::Byte* StaticGet_HashIndex()
 		{
-			return (::System::Byte*)Il2CppClass::FromTypeDefinitionIndex(MatchThreeAvatarSkillDialogExcelTable_TypeDefinitionIndex)->GetStaticField(0x4CC1);
+			return (::System::Byte*)Il2CppClass::FromTypeDefinitionIndex(MatchThreeAvatarSkillDialogExcelTable_TypeDefinitionIndex)->GetStaticField(0xA961);
 		}
 
 		static ::System::Void _cctor()

@@ -3,7 +3,7 @@
 
 namespace CriWare
 {
-	inline static constexpr unsigned int CriDisposableObjectManager_ModuleType_TypeDefinitionIndex = 37235;
+	inline static constexpr unsigned int CriDisposableObjectManager_ModuleType_TypeDefinitionIndex = 38041;
 
 	enum class CriDisposableObjectManager_ModuleType : ::System::Int32
 	{

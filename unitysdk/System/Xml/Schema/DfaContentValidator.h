@@ -5,11 +5,11 @@
 
 namespace System::Xml::Schema { class SymbolsDictionary; }
 
-#define SYSTEM_XML_SCHEMA_DFACONTENTVALIDATOR__CTOR_OFFSET UNITYSDK_OFFSET(0x1AE3B290)
+#define SYSTEM_XML_SCHEMA_DFACONTENTVALIDATOR__CTOR_OFFSET UNITYSDK_OFFSET(0x19FA9240)
 
 namespace System::Xml::Schema
 {
-	inline static constexpr unsigned int DfaContentValidator_TypeDefinitionIndex = 2070;
+	inline static constexpr unsigned int DfaContentValidator_TypeDefinitionIndex = 2074;
 
 	class DfaContentValidator : public ::System::Xml::Schema::ContentValidator
 	{

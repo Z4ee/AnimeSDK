@@ -4,7 +4,7 @@
 
 namespace System::Net::NetworkInformation
 {
-	inline static constexpr unsigned int in6_addr_TypeDefinitionIndex = 2938;
+	inline static constexpr unsigned int in6_addr_TypeDefinitionIndex = 2942;
 
 	struct alignas(8) in6_addr
 	{

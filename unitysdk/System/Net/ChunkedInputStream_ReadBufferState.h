@@ -4,11 +4,11 @@
 
 namespace System::Net { class HttpStreamAsyncResult; }
 
-#define SYSTEM_NET_CHUNKEDINPUTSTREAM_READBUFFERSTATE__CTOR_OFFSET UNITYSDK_OFFSET(0x1AF583C0)
+#define SYSTEM_NET_CHUNKEDINPUTSTREAM_READBUFFERSTATE__CTOR_OFFSET UNITYSDK_OFFSET(0x19183060)
 
 namespace System::Net
 {
-	inline static constexpr unsigned int ChunkedInputStream_ReadBufferState_TypeDefinitionIndex = 2815;
+	inline static constexpr unsigned int ChunkedInputStream_ReadBufferState_TypeDefinitionIndex = 2819;
 
 	class ChunkedInputStream_ReadBufferState : public ::System::Object
 	{

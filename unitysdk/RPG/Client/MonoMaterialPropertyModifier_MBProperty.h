@@ -9,7 +9,7 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MonoMaterialPropertyModifier_MBProperty_TypeDefinitionIndex = 64087;
+	inline static constexpr unsigned int MonoMaterialPropertyModifier_MBProperty_TypeDefinitionIndex = 65458;
 
 	struct alignas(8) MonoMaterialPropertyModifier_MBProperty
 	{

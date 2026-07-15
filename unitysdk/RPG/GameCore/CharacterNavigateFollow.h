@@ -6,13 +6,13 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_CHARACTERNAVIGATEFOLLOW_METHOD_3_83C2015637B4D5BE_OFFSET UNITYSDK_OFFSET(0x19610270)
-#define RPG_GAMECORE_CHARACTERNAVIGATEFOLLOW_METHOD_3_F71A36AB8CE33556_OFFSET UNITYSDK_OFFSET(0x196102F0)
-#define RPG_GAMECORE_CHARACTERNAVIGATEFOLLOW__CTOR_OFFSET UNITYSDK_OFFSET(0x196102C0)
+#define RPG_GAMECORE_CHARACTERNAVIGATEFOLLOW_METHOD_3_392B5CFE830B80C0_OFFSET UNITYSDK_OFFSET(0x1B725F80)
+#define RPG_GAMECORE_CHARACTERNAVIGATEFOLLOW_METHOD_3_F71A36AB8CE33556_OFFSET UNITYSDK_OFFSET(0x1B725FD0)
+#define RPG_GAMECORE_CHARACTERNAVIGATEFOLLOW__CTOR_OFFSET UNITYSDK_OFFSET(0x1B725FC0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int CharacterNavigateFollow_TypeDefinitionIndex = 19711;
+	inline static constexpr unsigned int CharacterNavigateFollow_TypeDefinitionIndex = 20070;
 
 	class CharacterNavigateFollow : public ::RPG::GameCore::TaskConfig
 	{
@@ -29,9 +29,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHARACTERNAVIGATEFOLLOW__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_83C2015637B4D5BE(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::CharacterNavigateFollow*& a2)
+		static ::System::Void Method_3_392B5CFE830B80C0(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::CharacterNavigateFollow*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::CharacterNavigateFollow*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHARACTERNAVIGATEFOLLOW_METHOD_3_83C2015637B4D5BE_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::CharacterNavigateFollow*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHARACTERNAVIGATEFOLLOW_METHOD_3_392B5CFE830B80C0_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_F71A36AB8CE33556(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::CharacterNavigateFollow* a2)

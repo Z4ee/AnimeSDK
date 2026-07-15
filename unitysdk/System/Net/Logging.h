@@ -4,14 +4,14 @@
 
 namespace System::Net
 {
-	inline static constexpr unsigned int Logging_TypeDefinitionIndex = 2808;
+	inline static constexpr unsigned int Logging_TypeDefinitionIndex = 2812;
 
 	class Logging : public ::System::Object
 	{
 	public:
 		static ::System::Boolean* StaticGet_On()
 		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(Logging_TypeDefinitionIndex)->GetStaticField(0x92A0);
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(Logging_TypeDefinitionIndex)->GetStaticField(0x7CC0);
 		}
 	};
 }

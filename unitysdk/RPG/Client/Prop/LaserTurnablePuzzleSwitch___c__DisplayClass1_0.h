@@ -5,12 +5,12 @@
 namespace RPG::Client::Prop { class LaserTurnablePuzzleSwitch; }
 namespace RPG::Client::Prop { class LaserTurnableSelectParamData; }
 
-#define RPG_CLIENT_PROP_LASERTURNABLEPUZZLESWITCH___C__DISPLAYCLASS1_0__CTOR_OFFSET UNITYSDK_OFFSET(0xC58AF20)
-#define RPG_CLIENT_PROP_LASERTURNABLEPUZZLESWITCH___C__DISPLAYCLASS1_0__INITSWITCH_B__1_OFFSET UNITYSDK_OFFSET(0xC58BE90)
+#define RPG_CLIENT_PROP_LASERTURNABLEPUZZLESWITCH___C__DISPLAYCLASS1_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1483FAB0)
+#define RPG_CLIENT_PROP_LASERTURNABLEPUZZLESWITCH___C__DISPLAYCLASS1_0__INITSWITCH_B__1_OFFSET UNITYSDK_OFFSET(0x148409B0)
 
 namespace RPG::Client::Prop
 {
-	inline static constexpr unsigned int LaserTurnablePuzzleSwitch___c__DisplayClass1_0_TypeDefinitionIndex = 73194;
+	inline static constexpr unsigned int LaserTurnablePuzzleSwitch___c__DisplayClass1_0_TypeDefinitionIndex = 74719;
 
 	class LaserTurnablePuzzleSwitch___c__DisplayClass1_0 : public ::System::Object
 	{

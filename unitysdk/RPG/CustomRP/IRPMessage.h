@@ -7,7 +7,7 @@ namespace System::IO { class BinaryWriter; }
 
 namespace RPG::CustomRP
 {
-	inline static constexpr unsigned int IRPMessage_TypeDefinitionIndex = 35581;
+	inline static constexpr unsigned int IRPMessage_TypeDefinitionIndex = 36363;
 
 	class IRPMessage
 	{

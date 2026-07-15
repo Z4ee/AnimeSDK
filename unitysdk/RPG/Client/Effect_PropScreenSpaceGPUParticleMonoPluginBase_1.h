@@ -6,7 +6,7 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int Effect_PropScreenSpaceGPUParticleMonoPluginBase_1_TypeDefinitionIndex = 65962;
+	inline static constexpr unsigned int Effect_PropScreenSpaceGPUParticleMonoPluginBase_1_TypeDefinitionIndex = 67387;
 
 	template <typename TBehavior>
 	class Effect_PropScreenSpaceGPUParticleMonoPluginBase_1 : public ::RPG::Client::TAMonoPlugin_1<TBehavior>

@@ -6,13 +6,13 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class BaseLittleGameAbilityTargetSelectorConfig; }
 namespace RPG::GameCore { class PixAirMissleConfig; }
 
-#define RPG_GAMECORE_LITTLEGAMEABILITYPIXAIRFIREMISSLE_METHOD_4_426BB5F7C7E81B20_OFFSET UNITYSDK_OFFSET(0x198955E0)
-#define RPG_GAMECORE_LITTLEGAMEABILITYPIXAIRFIREMISSLE_METHOD_4_BEFAE6D75EB5BBA9_OFFSET UNITYSDK_OFFSET(0x19895660)
-#define RPG_GAMECORE_LITTLEGAMEABILITYPIXAIRFIREMISSLE__CTOR_OFFSET UNITYSDK_OFFSET(0x19895630)
+#define RPG_GAMECORE_LITTLEGAMEABILITYPIXAIRFIREMISSLE_METHOD_4_556D498305C687AA_OFFSET UNITYSDK_OFFSET(0x1B095010)
+#define RPG_GAMECORE_LITTLEGAMEABILITYPIXAIRFIREMISSLE_METHOD_4_BEFAE6D75EB5BBA9_OFFSET UNITYSDK_OFFSET(0x1B095050)
+#define RPG_GAMECORE_LITTLEGAMEABILITYPIXAIRFIREMISSLE__CTOR_OFFSET UNITYSDK_OFFSET(0x1B095040)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LittleGameAbilityPixAirFireMissle_TypeDefinitionIndex = 20224;
+	inline static constexpr unsigned int LittleGameAbilityPixAirFireMissle_TypeDefinitionIndex = 20598;
 
 	class LittleGameAbilityPixAirFireMissle : public ::RPG::GameCore::BaseLittleGameAbilityTaskConfig
 	{
@@ -25,9 +25,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LITTLEGAMEABILITYPIXAIRFIREMISSLE__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_4_426BB5F7C7E81B20(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::LittleGameAbilityPixAirFireMissle*& a2)
+		static ::System::Void Method_4_556D498305C687AA(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::LittleGameAbilityPixAirFireMissle*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::LittleGameAbilityPixAirFireMissle*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LITTLEGAMEABILITYPIXAIRFIREMISSLE_METHOD_4_426BB5F7C7E81B20_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::LittleGameAbilityPixAirFireMissle*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LITTLEGAMEABILITYPIXAIRFIREMISSLE_METHOD_4_556D498305C687AA_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_4_BEFAE6D75EB5BBA9(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::LittleGameAbilityPixAirFireMissle* a2)

@@ -7,12 +7,12 @@ namespace UnityEngine { class Camera; }
 namespace UnityEngine { class Shader; }
 namespace UnityEngine { class Texture2D; }
 
-#define UNITYENGINE_PROBUILDER_SELECTIONPICKERRENDERER_SELECTIONPICKERRENDERERSTANDARD_RENDERLOOKUPTEXTURE_OFFSET UNITYSDK_OFFSET(0x1B128520)
-#define UNITYENGINE_PROBUILDER_SELECTIONPICKERRENDERER_SELECTIONPICKERRENDERERSTANDARD__CTOR_OFFSET UNITYSDK_OFFSET(0x1B1249E0)
+#define UNITYENGINE_PROBUILDER_SELECTIONPICKERRENDERER_SELECTIONPICKERRENDERERSTANDARD_RENDERLOOKUPTEXTURE_OFFSET UNITYSDK_OFFSET(0x1777EAF0)
+#define UNITYENGINE_PROBUILDER_SELECTIONPICKERRENDERER_SELECTIONPICKERRENDERERSTANDARD__CTOR_OFFSET UNITYSDK_OFFSET(0x1777AB50)
 
 namespace UnityEngine::ProBuilder
 {
-	inline static constexpr unsigned int SelectionPickerRenderer_SelectionPickerRendererStandard_TypeDefinitionIndex = 40805;
+	inline static constexpr unsigned int SelectionPickerRenderer_SelectionPickerRendererStandard_TypeDefinitionIndex = 41620;
 
 	class SelectionPickerRenderer_SelectionPickerRendererStandard : public ::System::Object
 	{

@@ -4,12 +4,12 @@
 
 namespace System { class String; }
 
-#define ZENFULCRUM_EMBEDDEDBROWSER_BROWSERSYSTEMSETTINGS_AWAKE_OFFSET UNITYSDK_OFFSET(0x1B4F2500)
-#define ZENFULCRUM_EMBEDDEDBROWSER_BROWSERSYSTEMSETTINGS__CTOR_OFFSET UNITYSDK_OFFSET(0x1B4F25D0)
+#define ZENFULCRUM_EMBEDDEDBROWSER_BROWSERSYSTEMSETTINGS_AWAKE_OFFSET UNITYSDK_OFFSET(0x1AB51500)
+#define ZENFULCRUM_EMBEDDEDBROWSER_BROWSERSYSTEMSETTINGS__CTOR_OFFSET UNITYSDK_OFFSET(0x1AB515D0)
 
 namespace ZenFulcrum::EmbeddedBrowser
 {
-	inline static constexpr unsigned int BrowserSystemSettings_TypeDefinitionIndex = 36528;
+	inline static constexpr unsigned int BrowserSystemSettings_TypeDefinitionIndex = 37310;
 
 	class BrowserSystemSettings : public ::UnityEngine::MonoBehaviour
 	{

@@ -2,7 +2,7 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define SYSTEM_DEFAULTBINDER_BINDERSTATE__CTOR_OFFSET UNITYSDK_OFFSET(0x18690F50)
+#define SYSTEM_DEFAULTBINDER_BINDERSTATE__CTOR_OFFSET UNITYSDK_OFFSET(0x18D107E0)
 
 namespace System
 {
@@ -12,8 +12,8 @@ namespace System
 	{
 	public:
 		::Il2CppArray<::System::Int32>* m_argsMap; // 0x10
-		::System::Boolean m_isParamArray; // 0x18
-		::System::Int32 m_originalSize; // 0x1C
+		::System::Int32 m_originalSize; // 0x18
+		::System::Boolean m_isParamArray; // 0x1C
 
 		::System::Void _ctor(::Il2CppArray<::System::Int32>* a1, ::System::Int32 a2, ::System::Boolean a3)
 		{

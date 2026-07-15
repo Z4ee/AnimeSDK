@@ -3,9 +3,9 @@
 #include "unitysdk/RPG/Client/LockSource.h"
 #include "unitysdk/System/Object.h"
 
-#define CLASS_1_9EDD26082BAAABDE_METHOD_1_D9509DCEA9F29B99_OFFSET UNITYSDK_OFFSET(0xA6431B0)
+#define CLASS_1_9EDD26082BAAABDE_METHOD_1_D9509DCEA9F29B99_OFFSET UNITYSDK_OFFSET(0x17A281F0)
 
-inline static constexpr unsigned int Class_1_9EDD26082BAAABDE_TypeDefinitionIndex = 60146;
+inline static constexpr unsigned int Class_1_9EDD26082BAAABDE_TypeDefinitionIndex = 61432;
 
 class Class_1_9EDD26082BAAABDE : public ::System::Object
 {

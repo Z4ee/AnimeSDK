@@ -7,13 +7,13 @@ namespace RPG::GameCore { class DynamicString; }
 namespace RPG::GameCore { class TargetEvaluator; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_SWITCHCHARACTERANCHOR_METHOD_3_BF67C5917A52AB13_OFFSET UNITYSDK_OFFSET(0x19CD9720)
-#define RPG_GAMECORE_SWITCHCHARACTERANCHOR_METHOD_3_C54D86AAB898CF29_OFFSET UNITYSDK_OFFSET(0x19CD97C0)
-#define RPG_GAMECORE_SWITCHCHARACTERANCHOR__CTOR_OFFSET UNITYSDK_OFFSET(0x19CD9780)
+#define RPG_GAMECORE_SWITCHCHARACTERANCHOR_METHOD_3_47BE13835D928974_OFFSET UNITYSDK_OFFSET(0x1B434F50)
+#define RPG_GAMECORE_SWITCHCHARACTERANCHOR_METHOD_3_C54D86AAB898CF29_OFFSET UNITYSDK_OFFSET(0x1B434FA0)
+#define RPG_GAMECORE_SWITCHCHARACTERANCHOR__CTOR_OFFSET UNITYSDK_OFFSET(0x1B434F90)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SwitchCharacterAnchor_TypeDefinitionIndex = 19680;
+	inline static constexpr unsigned int SwitchCharacterAnchor_TypeDefinitionIndex = 20039;
 
 	class SwitchCharacterAnchor : public ::RPG::GameCore::TaskConfig
 	{
@@ -35,9 +35,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SWITCHCHARACTERANCHOR__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_BF67C5917A52AB13(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SwitchCharacterAnchor*& a2)
+		static ::System::Void Method_3_47BE13835D928974(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SwitchCharacterAnchor*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SwitchCharacterAnchor*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SWITCHCHARACTERANCHOR_METHOD_3_BF67C5917A52AB13_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SwitchCharacterAnchor*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SWITCHCHARACTERANCHOR_METHOD_3_47BE13835D928974_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_C54D86AAB898CF29(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SwitchCharacterAnchor* a2)

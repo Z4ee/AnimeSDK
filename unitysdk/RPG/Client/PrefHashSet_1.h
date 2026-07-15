@@ -12,7 +12,7 @@ namespace System::Collections::Generic { template <typename T> class IEnumerator
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int PrefHashSet_1_TypeDefinitionIndex = 33519;
+	inline static constexpr unsigned int PrefHashSet_1_TypeDefinitionIndex = 33889;
 
 	template <typename T>
 	class PrefHashSet_1 : public ::RPG::Client::Pref_1<::System::Collections::Generic::HashSet_1<T>*>

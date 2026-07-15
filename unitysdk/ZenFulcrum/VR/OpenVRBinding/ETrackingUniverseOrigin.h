@@ -3,7 +3,7 @@
 
 namespace ZenFulcrum::VR::OpenVRBinding
 {
-	inline static constexpr unsigned int ETrackingUniverseOrigin_TypeDefinitionIndex = 36282;
+	inline static constexpr unsigned int ETrackingUniverseOrigin_TypeDefinitionIndex = 37064;
 
 	enum class ETrackingUniverseOrigin : ::System::Int32
 	{

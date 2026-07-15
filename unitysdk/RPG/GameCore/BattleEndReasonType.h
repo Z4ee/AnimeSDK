@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int BattleEndReasonType_TypeDefinitionIndex = 23382;
+	inline static constexpr unsigned int BattleEndReasonType_TypeDefinitionIndex = 23870;
 
 	enum class BattleEndReasonType : ::System::Int32
 	{

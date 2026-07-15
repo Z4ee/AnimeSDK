@@ -3,7 +3,7 @@
 
 namespace RPG::CustomRP
 {
-	inline static constexpr unsigned int MaterialIDValueSeq_TypeDefinitionIndex = 35548;
+	inline static constexpr unsigned int MaterialIDValueSeq_TypeDefinitionIndex = 36330;
 
 	enum class MaterialIDValueSeq : ::System::Int32
 	{

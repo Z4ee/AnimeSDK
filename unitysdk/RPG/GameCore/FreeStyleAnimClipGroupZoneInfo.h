@@ -8,12 +8,12 @@ namespace RPG::GameCore { class AnimationZone; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class HashSet_1; }
 
-#define RPG_GAMECORE_FREESTYLEANIMCLIPGROUPZONEINFO_METHOD_2_C637B594D9705B54_OFFSET UNITYSDK_OFFSET(0x1976C480)
-#define RPG_GAMECORE_FREESTYLEANIMCLIPGROUPZONEINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x1976C640)
+#define RPG_GAMECORE_FREESTYLEANIMCLIPGROUPZONEINFO_METHOD_2_C637B594D9705B54_OFFSET UNITYSDK_OFFSET(0x1B97E8C0)
+#define RPG_GAMECORE_FREESTYLEANIMCLIPGROUPZONEINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x1B97EA80)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FreeStyleAnimClipGroupZoneInfo_TypeDefinitionIndex = 15491;
+	inline static constexpr unsigned int FreeStyleAnimClipGroupZoneInfo_TypeDefinitionIndex = 15662;
 
 	class FreeStyleAnimClipGroupZoneInfo : public ::RPG::GameCore::JsonConfig
 	{

@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int SpaceZooCatType_TypeDefinitionIndex = 63590;
+	inline static constexpr unsigned int SpaceZooCatType_TypeDefinitionIndex = 64957;
 
 	enum class SpaceZooCatType : ::System::Int32
 	{

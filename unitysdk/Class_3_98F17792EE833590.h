@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class AdvTriggerSkill; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_98F17792EE833590_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBF4E5A0)
-#define CLASS_3_98F17792EE833590__CTOR_OFFSET UNITYSDK_OFFSET(0xBF4E570)
+#define CLASS_3_98F17792EE833590_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x160A8BC0)
+#define CLASS_3_98F17792EE833590__CTOR_OFFSET UNITYSDK_OFFSET(0x160A8B90)
 
-inline static constexpr unsigned int Class_3_98F17792EE833590_TypeDefinitionIndex = 54100;
+inline static constexpr unsigned int Class_3_98F17792EE833590_TypeDefinitionIndex = 55323;
 
 class Class_3_98F17792EE833590 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::AdvTriggerSkill*>
 {

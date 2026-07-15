@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define RPG_CLIENT_MOVEMENTSTOPPEDROOTMOTIONBAKEDDATA_CLASS_1_3B76E13757985C28_2__CTOR_OFFSET UNITYSDK_OFFSET(0xC1A7780)
+#define RPG_CLIENT_MOVEMENTSTOPPEDROOTMOTIONBAKEDDATA_CLASS_1_3B76E13757985C28_2__CTOR_OFFSET UNITYSDK_OFFSET(0x19073AE0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MovementStoppedRootMotionBakedData_Class_1_3B76E13757985C28_2_TypeDefinitionIndex = 64373;
+	inline static constexpr unsigned int MovementStoppedRootMotionBakedData_Class_1_3B76E13757985C28_2_TypeDefinitionIndex = 65744;
 
 	class MovementStoppedRootMotionBakedData_Class_1_3B76E13757985C28_2 : public ::System::Object
 	{

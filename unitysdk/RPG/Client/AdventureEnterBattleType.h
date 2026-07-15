@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int AdventureEnterBattleType_TypeDefinitionIndex = 56215;
+	inline static constexpr unsigned int AdventureEnterBattleType_TypeDefinitionIndex = 57454;
 
 	enum class AdventureEnterBattleType : ::System::Int32
 	{
@@ -15,10 +15,11 @@ namespace RPG::Client
 		Cocoon = 5,
 		CharacterTrial = 6,
 		CommonActivityBattle = 7,
-		Reply = 8,
-		RogueEvent = 9,
-		AetherChallenge = 10,
-		AetherDivideByEntity = 11,
-		ManuallyScreenCrack = 12,
+		CommonActivityBattleEmptyTransition = 8,
+		Reply = 9,
+		RogueEvent = 10,
+		AetherChallenge = 11,
+		AetherDivideByEntity = 12,
+		ManuallyScreenCrack = 13,
 	};
 }

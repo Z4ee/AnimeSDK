@@ -1,6 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/Client/TextID.h"
+#include "unitysdk/RPG/GameCore/FiveDimCustomScreenTransferStyle.h"
 #include "unitysdk/RPG/GameCore/FiveDimDifficulty.h"
 #include "unitysdk/RPG/GameCore/FiveDimGameplayMode.h"
 #include "unitysdk/RPG/GameCore/LittleGameLevelSettings.h"
@@ -16,13 +17,13 @@ namespace RPG::GameCore { class MiniGameCollectCoinConfig; }
 namespace RPG::GameCore { class MiniGameFlappyBirdConfig; }
 namespace RPG::GameCore { class MiniGameHundredFloorConfig; }
 
-#define RPG_GAMECORE_FIVEDIMLEVELSETTINGS_FROMBINARYIMPL_OFFSET UNITYSDK_OFFSET(0x19744BD0)
-#define RPG_GAMECORE_FIVEDIMLEVELSETTINGS_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x19744B80)
-#define RPG_GAMECORE_FIVEDIMLEVELSETTINGS__CTOR_OFFSET UNITYSDK_OFFSET(0x19744BC0)
+#define RPG_GAMECORE_FIVEDIMLEVELSETTINGS_FROMBINARYIMPL_OFFSET UNITYSDK_OFFSET(0x1BE9EB70)
+#define RPG_GAMECORE_FIVEDIMLEVELSETTINGS_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1BE9EB20)
+#define RPG_GAMECORE_FIVEDIMLEVELSETTINGS__CTOR_OFFSET UNITYSDK_OFFSET(0x1BE9EB60)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FiveDimLevelSettings_TypeDefinitionIndex = 17610;
+	inline static constexpr unsigned int FiveDimLevelSettings_TypeDefinitionIndex = 17784;
 
 	class FiveDimLevelSettings : public ::RPG::GameCore::LittleGameLevelSettings
 	{
@@ -48,6 +49,7 @@ namespace RPG::GameCore
 		::RPG::Client::TextID SimepleGameLevelDesc; // 0x88
 		::System::Boolean CameraCullingOptimization; // 0x98
 		::System::Boolean EnableEffectSimulateInSurface; // 0x99
+		::RPG::GameCore::FiveDimCustomScreenTransferStyle LoadingViewStyle; // 0x9C
 
 		::System::Void _ctor()
 		{

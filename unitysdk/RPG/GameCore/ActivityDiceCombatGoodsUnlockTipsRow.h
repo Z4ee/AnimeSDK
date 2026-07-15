@@ -5,18 +5,18 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_ACTIVITYDICECOMBATGOODSUNLOCKTIPSROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x193D8C00)
-#define RPG_GAMECORE_ACTIVITYDICECOMBATGOODSUNLOCKTIPSROW__CTOR_OFFSET UNITYSDK_OFFSET(0x193D8D80)
+#define RPG_GAMECORE_ACTIVITYDICECOMBATGOODSUNLOCKTIPSROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1AAE1700)
+#define RPG_GAMECORE_ACTIVITYDICECOMBATGOODSUNLOCKTIPSROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1AAE1880)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ActivityDiceCombatGoodsUnlockTipsRow_TypeDefinitionIndex = 10808;
+	inline static constexpr unsigned int ActivityDiceCombatGoodsUnlockTipsRow_TypeDefinitionIndex = 10858;
 
 	class ActivityDiceCombatGoodsUnlockTipsRow : public ::System::Object
 	{
 	public:
-		::RPG::Client::TextID UnlockTips; // 0x10
-		::System::UInt32 ID; // 0x20
+		::System::UInt32 ID; // 0x10
+		::RPG::Client::TextID UnlockTips; // 0x18
 
 		::System::Void _ctor()
 		{

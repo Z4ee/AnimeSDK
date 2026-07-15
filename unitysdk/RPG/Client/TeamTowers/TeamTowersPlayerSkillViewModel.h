@@ -1,0 +1,95 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/RPG/Client/TextID.h"
+#include "unitysdk/RPG/GameCore/TeamTowersPlayerSkillType.h"
+#include "unitysdk/System/Object.h"
+
+class Class_1_47CFC2D7B3865B39;
+namespace System { class String; }
+namespace System { template <typename T> class Action_1; }
+
+#define RPG_CLIENT_TEAMTOWERS_TEAMTOWERSPLAYERSKILLVIEWMODEL_GET_DESC_OFFSET UNITYSDK_OFFSET(0x1946A790)
+#define RPG_CLIENT_TEAMTOWERS_TEAMTOWERSPLAYERSKILLVIEWMODEL_GET_ICONPATH_OFFSET UNITYSDK_OFFSET(0x1946A740)
+#define RPG_CLIENT_TEAMTOWERS_TEAMTOWERSPLAYERSKILLVIEWMODEL_GET_ISSELECTED_OFFSET UNITYSDK_OFFSET(0x1946A8A0)
+#define RPG_CLIENT_TEAMTOWERS_TEAMTOWERSPLAYERSKILLVIEWMODEL_GET_LEVEL_OFFSET UNITYSDK_OFFSET(0x1946A6F0)
+#define RPG_CLIENT_TEAMTOWERS_TEAMTOWERSPLAYERSKILLVIEWMODEL_GET_NAME_OFFSET UNITYSDK_OFFSET(0x1946A7F0)
+#define RPG_CLIENT_TEAMTOWERS_TEAMTOWERSPLAYERSKILLVIEWMODEL_GET_SKILLID_OFFSET UNITYSDK_OFFSET(0x1946A6A0)
+#define RPG_CLIENT_TEAMTOWERS_TEAMTOWERSPLAYERSKILLVIEWMODEL_GET_SKILLTYPE_OFFSET UNITYSDK_OFFSET(0x1946A8C0)
+#define RPG_CLIENT_TEAMTOWERS_TEAMTOWERSPLAYERSKILLVIEWMODEL_GET_VIDEOID_OFFSET UNITYSDK_OFFSET(0x1946A850)
+#define RPG_CLIENT_TEAMTOWERS_TEAMTOWERSPLAYERSKILLVIEWMODEL_REGISTERONCLICKCALLBACK_OFFSET UNITYSDK_OFFSET(0x1946A310)
+#define RPG_CLIENT_TEAMTOWERS_TEAMTOWERSPLAYERSKILLVIEWMODEL_SELECT_OFFSET UNITYSDK_OFFSET(0x1946A360)
+#define RPG_CLIENT_TEAMTOWERS_TEAMTOWERSPLAYERSKILLVIEWMODEL_SET_ISSELECTED_OFFSET UNITYSDK_OFFSET(0x1946A8B0)
+#define RPG_CLIENT_TEAMTOWERS_TEAMTOWERSPLAYERSKILLVIEWMODEL__CTOR_OFFSET UNITYSDK_OFFSET(0x1946A300)
+
+namespace RPG::Client::TeamTowers
+{
+	inline static constexpr unsigned int TeamTowersPlayerSkillViewModel_TypeDefinitionIndex = 75113;
+
+	class TeamTowersPlayerSkillViewModel : public ::System::Object
+	{
+	public:
+		::Class_1_47CFC2D7B3865B39* _SkillInfo; // 0x10
+		::System::Action_1<::RPG::Client::TeamTowers::TeamTowersPlayerSkillViewModel*>* _OnClick; // 0x18
+		::System::Boolean _IsSelected_k__BackingField; // 0x20
+
+		::System::Void _ctor(::Class_1_47CFC2D7B3865B39* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::Class_1_47CFC2D7B3865B39*))((::PBYTE)hIl2Cpp + RPG_CLIENT_TEAMTOWERS_TEAMTOWERSPLAYERSKILLVIEWMODEL__CTOR_OFFSET))(this, a1);
+		}
+
+		::System::Void RegisterOnClickCallBack(::System::Action_1<::RPG::Client::TeamTowers::TeamTowersPlayerSkillViewModel*>* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::RPG::Client::TeamTowers::TeamTowersPlayerSkillViewModel*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_TEAMTOWERS_TEAMTOWERSPLAYERSKILLVIEWMODEL_REGISTERONCLICKCALLBACK_OFFSET))(this, a1);
+		}
+
+		::System::Void Select()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_TEAMTOWERS_TEAMTOWERSPLAYERSKILLVIEWMODEL_SELECT_OFFSET))(this);
+		}
+
+		::System::UInt32 get_SkillID()
+		{
+			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_TEAMTOWERS_TEAMTOWERSPLAYERSKILLVIEWMODEL_GET_SKILLID_OFFSET))(this);
+		}
+
+		::System::UInt32 get_Level()
+		{
+			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_TEAMTOWERS_TEAMTOWERSPLAYERSKILLVIEWMODEL_GET_LEVEL_OFFSET))(this);
+		}
+
+		::System::String* get_IconPath()
+		{
+			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_TEAMTOWERS_TEAMTOWERSPLAYERSKILLVIEWMODEL_GET_ICONPATH_OFFSET))(this);
+		}
+
+		::RPG::Client::TextID get_Desc()
+		{
+			return ((::RPG::Client::TextID(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_TEAMTOWERS_TEAMTOWERSPLAYERSKILLVIEWMODEL_GET_DESC_OFFSET))(this);
+		}
+
+		::RPG::Client::TextID get_Name()
+		{
+			return ((::RPG::Client::TextID(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_TEAMTOWERS_TEAMTOWERSPLAYERSKILLVIEWMODEL_GET_NAME_OFFSET))(this);
+		}
+
+		::System::UInt32 get_VideoID()
+		{
+			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_TEAMTOWERS_TEAMTOWERSPLAYERSKILLVIEWMODEL_GET_VIDEOID_OFFSET))(this);
+		}
+
+		::System::Boolean get_IsSelected()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_TEAMTOWERS_TEAMTOWERSPLAYERSKILLVIEWMODEL_GET_ISSELECTED_OFFSET))(this);
+		}
+
+		::System::Void set_IsSelected(::System::Boolean a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_TEAMTOWERS_TEAMTOWERSPLAYERSKILLVIEWMODEL_SET_ISSELECTED_OFFSET))(this, a1);
+		}
+
+		::RPG::GameCore::TeamTowersPlayerSkillType get_SkillType()
+		{
+			return ((::RPG::GameCore::TeamTowersPlayerSkillType(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_TEAMTOWERS_TEAMTOWERSPLAYERSKILLVIEWMODEL_GET_SKILLTYPE_OFFSET))(this);
+		}
+	};
+}

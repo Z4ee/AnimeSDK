@@ -3,7 +3,7 @@
 
 namespace RPG::CustomRP
 {
-	inline static constexpr unsigned int PlatformFlag_TypeDefinitionIndex = 35326;
+	inline static constexpr unsigned int PlatformFlag_TypeDefinitionIndex = 36107;
 
 	enum class PlatformFlag : ::System::UInt64
 	{

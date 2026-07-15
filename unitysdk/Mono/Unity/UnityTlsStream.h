@@ -12,12 +12,12 @@ namespace System::Net::Security { class SslStream; }
 namespace System::Security::Cryptography::X509Certificates { class X509Certificate; }
 namespace System::Security::Cryptography::X509Certificates { class X509CertificateCollection; }
 
-#define MONO_UNITY_UNITYTLSSTREAM_CREATECONTEXT_OFFSET UNITYSDK_OFFSET(0x1AF11B90)
-#define MONO_UNITY_UNITYTLSSTREAM__CTOR_OFFSET UNITYSDK_OFFSET(0x1AF1AEA0)
+#define MONO_UNITY_UNITYTLSSTREAM_CREATECONTEXT_OFFSET UNITYSDK_OFFSET(0x1A84ABA0)
+#define MONO_UNITY_UNITYTLSSTREAM__CTOR_OFFSET UNITYSDK_OFFSET(0x1A854220)
 
 namespace Mono::Unity
 {
-	inline static constexpr unsigned int UnityTlsStream_TypeDefinitionIndex = 2393;
+	inline static constexpr unsigned int UnityTlsStream_TypeDefinitionIndex = 2397;
 
 	class UnityTlsStream : public ::Mono::Net::Security::MobileAuthenticatedStream
 	{

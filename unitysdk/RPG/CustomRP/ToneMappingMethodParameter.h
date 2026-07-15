@@ -3,11 +3,11 @@
 #include "unitysdk/RPG/CustomRP/ToneMappingMethod.h"
 #include "unitysdk/UnityEngine/Rendering/VolumeParameter_1.h"
 
-#define RPG_CUSTOMRP_TONEMAPPINGMETHODPARAMETER__CTOR_OFFSET UNITYSDK_OFFSET(0x18F27450)
+#define RPG_CUSTOMRP_TONEMAPPINGMETHODPARAMETER__CTOR_OFFSET UNITYSDK_OFFSET(0x1D135300)
 
 namespace RPG::CustomRP
 {
-	inline static constexpr unsigned int ToneMappingMethodParameter_TypeDefinitionIndex = 35521;
+	inline static constexpr unsigned int ToneMappingMethodParameter_TypeDefinitionIndex = 36303;
 
 	class ToneMappingMethodParameter : public ::UnityEngine::Rendering::VolumeParameter_1<::RPG::CustomRP::ToneMappingMethod>
 	{

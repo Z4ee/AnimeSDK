@@ -1,15 +1,16 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Struct_2_5CBC9F852A3C275F.h"
-#include "unitysdk/Struct_2_EAC1BB0F093534A5.h"
-#include "unitysdk/UnityEngine/Bounds.h"
+#include "unitysdk/RPG/Client/LittleGame/Match3/GridLocalPoint.h"
+#include "unitysdk/RPG/Client/LittleGame/Match3/ViewMomentType.h"
+#include "unitysdk/RPG/GameCore/Match3/BombType.h"
+#include "unitysdk/RPG/GameCore/Match3/PieceTag.h"
+#include "unitysdk/Struct_2_5C4F194DEECB2289.h"
+#include "unitysdk/System/Nullable_1.h"
+#include "unitysdk/System/ValueTuple_2.h"
 
-class Class_0_16E4307DCC419505_235;
-class Class_0_16E4307DCC419505_90;
-class Class_2_B9E8C2EEAA5C96EC;
-namespace System { class String; }
+namespace System::Collections::Generic { template <typename T> class List_1; }
 
-inline static constexpr unsigned int Class_0_16E4307DCC419505_250_TypeDefinitionIndex = 40204;
+inline static constexpr unsigned int Class_0_16E4307DCC419505_250_TypeDefinitionIndex = 40477;
 
 class Class_0_16E4307DCC419505_250
 {

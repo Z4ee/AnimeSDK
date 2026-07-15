@@ -8,22 +8,22 @@ namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Reflection { class MethodInfo; }
 
-#define CLASS_1_8566B514487EDEC5_METHOD_1_0895E40595AA43D5_OFFSET UNITYSDK_OFFSET(0x143BB220)
-#define CLASS_1_8566B514487EDEC5_METHOD_1_548073936DB8C3FF_OFFSET UNITYSDK_OFFSET(0x143BB690)
-#define CLASS_1_8566B514487EDEC5_METHOD_1_585B0D457CC614E1_OFFSET UNITYSDK_OFFSET(0x143BB120)
-#define CLASS_1_8566B514487EDEC5_METHOD_1_98D5C00138EAB7DA_OFFSET UNITYSDK_OFFSET(0x143BBAE0)
-#define CLASS_1_8566B514487EDEC5_METHOD_1_AA76C364DB506F02_OFFSET UNITYSDK_OFFSET(0x143BAF70)
-#define CLASS_1_8566B514487EDEC5_METHOD_1_C155B49BEB149D60_OFFSET UNITYSDK_OFFSET(0x143BB560)
-#define CLASS_1_8566B514487EDEC5_METHOD_1_CE1F719EF4F1C62F_OFFSET UNITYSDK_OFFSET(0x143BBEF0)
+#define CLASS_1_8566B514487EDEC5_METHOD_1_0895E40595AA43D5_OFFSET UNITYSDK_OFFSET(0x15866BE0)
+#define CLASS_1_8566B514487EDEC5_METHOD_1_23A1B43C4C61D5BC_OFFSET UNITYSDK_OFFSET(0x15867000)
+#define CLASS_1_8566B514487EDEC5_METHOD_1_2D6F869DE72D5B9A_OFFSET UNITYSDK_OFFSET(0x15867A80)
+#define CLASS_1_8566B514487EDEC5_METHOD_1_585B0D457CC614E1_OFFSET UNITYSDK_OFFSET(0x15866AE0)
+#define CLASS_1_8566B514487EDEC5_METHOD_1_A750B2EA0895F0D9_OFFSET UNITYSDK_OFFSET(0x158667E0)
+#define CLASS_1_8566B514487EDEC5_METHOD_1_C4C51197A5DA4BF8_OFFSET UNITYSDK_OFFSET(0x15867270)
+#define CLASS_1_8566B514487EDEC5_METHOD_1_CE1F719EF4F1C62F_OFFSET UNITYSDK_OFFSET(0x15868240)
 
-inline static constexpr unsigned int Class_1_8566B514487EDEC5_TypeDefinitionIndex = 64886;
+inline static constexpr unsigned int Class_1_8566B514487EDEC5_TypeDefinitionIndex = 66288;
 
 class Class_1_8566B514487EDEC5 : public ::System::Object
 {
 public:
-	static ::Il2CppArray<::System::String*>* Method_1_AA76C364DB506F02()
+	static ::Il2CppArray<::System::String*>* Method_1_A750B2EA0895F0D9()
 	{
-		return ((::Il2CppArray<::System::String*>*(*)())((::PBYTE)hIl2Cpp + CLASS_1_8566B514487EDEC5_METHOD_1_AA76C364DB506F02_OFFSET))();
+		return ((::Il2CppArray<::System::String*>*(*)())((::PBYTE)hIl2Cpp + CLASS_1_8566B514487EDEC5_METHOD_1_A750B2EA0895F0D9_OFFSET))();
 	}
 
 	static ::System::Boolean Method_1_585B0D457CC614E1(::System::UInt16 a1, ::RPG::Client::NetPacket* a2, ::System::Collections::Generic::Dictionary_2<::System::UInt16, ::System::Action_1<::RPG::Client::NetPacket*>*>* a3)
@@ -41,18 +41,18 @@ public:
 		return ((::System::String*(*)(::System::Object*))((::PBYTE)hIl2Cpp + CLASS_1_8566B514487EDEC5_METHOD_1_CE1F719EF4F1C62F_OFFSET))(a1);
 	}
 
-	static ::System::Boolean Method_1_C155B49BEB149D60(::System::Object* a1, ::System::Reflection::MethodInfo* a2)
+	static ::System::Boolean Method_1_23A1B43C4C61D5BC(::System::Object* a1, ::System::Reflection::MethodInfo* a2)
 	{
-		return ((::System::Boolean(*)(::System::Object*, ::System::Reflection::MethodInfo*))((::PBYTE)hIl2Cpp + CLASS_1_8566B514487EDEC5_METHOD_1_C155B49BEB149D60_OFFSET))(a1, a2);
+		return ((::System::Boolean(*)(::System::Object*, ::System::Reflection::MethodInfo*))((::PBYTE)hIl2Cpp + CLASS_1_8566B514487EDEC5_METHOD_1_23A1B43C4C61D5BC_OFFSET))(a1, a2);
 	}
 
-	static ::System::Boolean Method_1_548073936DB8C3FF(::System::Object* a1, ::System::Reflection::MethodInfo* a2)
+	static ::System::Boolean Method_1_C4C51197A5DA4BF8(::System::Object* a1, ::System::Reflection::MethodInfo* a2)
 	{
-		return ((::System::Boolean(*)(::System::Object*, ::System::Reflection::MethodInfo*))((::PBYTE)hIl2Cpp + CLASS_1_8566B514487EDEC5_METHOD_1_548073936DB8C3FF_OFFSET))(a1, a2);
+		return ((::System::Boolean(*)(::System::Object*, ::System::Reflection::MethodInfo*))((::PBYTE)hIl2Cpp + CLASS_1_8566B514487EDEC5_METHOD_1_C4C51197A5DA4BF8_OFFSET))(a1, a2);
 	}
 
-	static ::System::Boolean Method_1_98D5C00138EAB7DA(::System::Object* a1, ::System::Reflection::MethodInfo* a2)
+	static ::System::Boolean Method_1_2D6F869DE72D5B9A(::System::Object* a1, ::System::Reflection::MethodInfo* a2)
 	{
-		return ((::System::Boolean(*)(::System::Object*, ::System::Reflection::MethodInfo*))((::PBYTE)hIl2Cpp + CLASS_1_8566B514487EDEC5_METHOD_1_98D5C00138EAB7DA_OFFSET))(a1, a2);
+		return ((::System::Boolean(*)(::System::Object*, ::System::Reflection::MethodInfo*))((::PBYTE)hIl2Cpp + CLASS_1_8566B514487EDEC5_METHOD_1_2D6F869DE72D5B9A_OFFSET))(a1, a2);
 	}
 };

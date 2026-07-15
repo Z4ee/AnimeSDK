@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class ByCurrentRogueHasMiracle; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_5DAF7D825D2DAA7A_EVALUATE_OFFSET UNITYSDK_OFFSET(0xB2A3410)
-#define CLASS_3_5DAF7D825D2DAA7A__CTOR_OFFSET UNITYSDK_OFFSET(0xB2A33E0)
+#define CLASS_3_5DAF7D825D2DAA7A_EVALUATE_OFFSET UNITYSDK_OFFSET(0x14FB98E0)
+#define CLASS_3_5DAF7D825D2DAA7A__CTOR_OFFSET UNITYSDK_OFFSET(0x14FB98B0)
 
-inline static constexpr unsigned int Class_3_5DAF7D825D2DAA7A_TypeDefinitionIndex = 49661;
+inline static constexpr unsigned int Class_3_5DAF7D825D2DAA7A_TypeDefinitionIndex = 50715;
 
 class Class_3_5DAF7D825D2DAA7A : public ::RPG::GameCore::PredicateTaskBase_1<::RPG::GameCore::ByCurrentRogueHasMiracle*>
 {

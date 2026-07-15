@@ -2,24 +2,24 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/Sofa/Core/ObservableObject.h"
 
-class Class_1_2FDE33CCAE591AA8;
 namespace RPG::Client::Prop { class DuelChimeraProxy; }
+namespace Sofa::Core { class SimpleCommand; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_CHIMERADUEL_CHIMERADUELBATTLEVIEWMODEL_CREATE_OFFSET UNITYSDK_OFFSET(0xB674C50)
-#define RPG_CLIENT_CHIMERADUEL_CHIMERADUELBATTLEVIEWMODEL__CTOR_OFFSET UNITYSDK_OFFSET(0xB674CE0)
+#define RPG_CLIENT_CHIMERADUEL_CHIMERADUELBATTLEVIEWMODEL_CREATE_OFFSET UNITYSDK_OFFSET(0x1A502A90)
+#define RPG_CLIENT_CHIMERADUEL_CHIMERADUELBATTLEVIEWMODEL__CTOR_OFFSET UNITYSDK_OFFSET(0x1A502B20)
 
 namespace RPG::Client::ChimeraDuel
 {
-	inline static constexpr unsigned int ChimeraDuelBattleViewModel_TypeDefinitionIndex = 73909;
+	inline static constexpr unsigned int ChimeraDuelBattleViewModel_TypeDefinitionIndex = 76291;
 
 	class ChimeraDuelBattleViewModel : public ::Sofa::Core::ObservableObject
 	{
 	public:
-		::Class_1_2FDE33CCAE591AA8* ApplyAccelerateCommand; // 0x18
-		::System::Collections::Generic::List_1<::RPG::Client::Prop::DuelChimeraProxy*>* ChimeraProxies; // 0x20
-		::Class_1_2FDE33CCAE591AA8* TryExitBattleCommand; // 0x28
-		::Class_1_2FDE33CCAE591AA8* SwitchAutoModeCommand; // 0x30
+		::Sofa::Core::SimpleCommand* TryExitBattleCommand; // 0x18
+		::Sofa::Core::SimpleCommand* ApplyAccelerateCommand; // 0x20
+		::Sofa::Core::SimpleCommand* SwitchAutoModeCommand; // 0x28
+		::System::Collections::Generic::List_1<::RPG::Client::Prop::DuelChimeraProxy*>* ChimeraProxies; // 0x30
 
 		::System::Void _ctor()
 		{

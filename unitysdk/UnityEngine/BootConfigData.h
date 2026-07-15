@@ -2,12 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define UNITYENGINE_BOOTCONFIGDATA_WRAPBOOTCONFIGDATA_OFFSET UNITYSDK_OFFSET(0x1B27E030)
-#define UNITYENGINE_BOOTCONFIGDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1B27E0D0)
+#define UNITYENGINE_BOOTCONFIGDATA_WRAPBOOTCONFIGDATA_OFFSET UNITYSDK_OFFSET(0x1C4D12F0)
+#define UNITYENGINE_BOOTCONFIGDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1C4D1390)
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int BootConfigData_TypeDefinitionIndex = 4022;
+	inline static constexpr unsigned int BootConfigData_TypeDefinitionIndex = 4027;
 
 	class BootConfigData : public ::System::Object
 	{

@@ -5,7 +5,7 @@
 
 namespace System::Diagnostics::Tracing
 {
-	inline static constexpr unsigned int ManifestEnvelope_TypeDefinitionIndex = 1698;
+	inline static constexpr unsigned int ManifestEnvelope_TypeDefinitionIndex = 1702;
 
 	struct alignas(2) ManifestEnvelope
 	{

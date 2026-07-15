@@ -3,7 +3,7 @@
 
 namespace RPG::Client::BAT
 {
-	inline static constexpr unsigned int BATRendererBehavior_CullingMode_TypeDefinitionIndex = 68767;
+	inline static constexpr unsigned int BATRendererBehavior_CullingMode_TypeDefinitionIndex = 70267;
 
 	enum class BATRendererBehavior_CullingMode : ::System::Int32
 	{

@@ -3,7 +3,7 @@
 
 namespace RPG::LittleGameShare::DiceCombatCore
 {
-	inline static constexpr unsigned int EAIState_TypeDefinitionIndex = 34259;
+	inline static constexpr unsigned int EAIState_TypeDefinitionIndex = 34641;
 
 	enum class EAIState : ::System::Int32
 	{

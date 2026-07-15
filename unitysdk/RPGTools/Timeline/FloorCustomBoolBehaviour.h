@@ -6,15 +6,14 @@
 
 namespace RPGTools::Timeline { class FloorCustomBoolClip; }
 
-#define RPGTOOLS_TIMELINE_FLOORCUSTOMBOOLBEHAVIOUR_GET_CLIP_OFFSET UNITYSDK_OFFSET(0xD01F490)
-#define RPGTOOLS_TIMELINE_FLOORCUSTOMBOOLBEHAVIOUR_ONBEHAVIOURPLAY_OFFSET UNITYSDK_OFFSET(0xD01F4B0)
-#define RPGTOOLS_TIMELINE_FLOORCUSTOMBOOLBEHAVIOUR_SET_CLIP_OFFSET UNITYSDK_OFFSET(0xD01F4A0)
-#define RPGTOOLS_TIMELINE_FLOORCUSTOMBOOLBEHAVIOUR__CTOR_OFFSET UNITYSDK_OFFSET(0xD01F6F0)
-#define RPGTOOLS_TIMELINE_FLOORCUSTOMBOOLBEHAVIOUR___IFIXBASEPROXY_ONBEHAVIOURPLAY_OFFSET UNITYSDK_OFFSET(0xD01F700)
+#define RPGTOOLS_TIMELINE_FLOORCUSTOMBOOLBEHAVIOUR_GET_CLIP_OFFSET UNITYSDK_OFFSET(0x19A590C0)
+#define RPGTOOLS_TIMELINE_FLOORCUSTOMBOOLBEHAVIOUR_ONBEHAVIOURPLAY_OFFSET UNITYSDK_OFFSET(0x19A590E0)
+#define RPGTOOLS_TIMELINE_FLOORCUSTOMBOOLBEHAVIOUR_SET_CLIP_OFFSET UNITYSDK_OFFSET(0x19A590D0)
+#define RPGTOOLS_TIMELINE_FLOORCUSTOMBOOLBEHAVIOUR__CTOR_OFFSET UNITYSDK_OFFSET(0x19A59320)
 
 namespace RPGTools::Timeline
 {
-	inline static constexpr unsigned int FloorCustomBoolBehaviour_TypeDefinitionIndex = 45421;
+	inline static constexpr unsigned int FloorCustomBoolBehaviour_TypeDefinitionIndex = 46350;
 
 	class FloorCustomBoolBehaviour : public ::UnityEngine::Playables::PlayableBehaviour
 	{
@@ -39,11 +38,6 @@ namespace RPGTools::Timeline
 		::System::Void OnBehaviourPlay(::UnityEngine::Playables::Playable a1, ::UnityEngine::Playables::FrameData a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::UnityEngine::Playables::Playable, ::UnityEngine::Playables::FrameData))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_FLOORCUSTOMBOOLBEHAVIOUR_ONBEHAVIOURPLAY_OFFSET))(this, a1, a2);
-		}
-
-		::System::Void __iFixBaseProxy_OnBehaviourPlay(::UnityEngine::Playables::Playable a1, ::UnityEngine::Playables::FrameData a2)
-		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Playables::Playable, ::UnityEngine::Playables::FrameData))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_FLOORCUSTOMBOOLBEHAVIOUR___IFIXBASEPROXY_ONBEHAVIOURPLAY_OFFSET))(this, a1, a2);
 		}
 	};
 }

@@ -3,20 +3,24 @@
 #include "unitysdk/CriWare/CriAtomEx_CharacterEncoding.h"
 #include "unitysdk/System/ValueType.h"
 
-#define CRIWARE_CRIATOMEXACBDEBUG_ACBINFOFORMARSHALING_CONVERT_OFFSET UNITYSDK_OFFSET(0x2BD2740)
+namespace System { class String; }
+
+#define CRIWARE_CRIATOMEXACBDEBUG_ACBINFOFORMARSHALING_CONVERT_OFFSET UNITYSDK_OFFSET(0x3A15EE0)
 
 namespace CriWare
 {
-	inline static constexpr unsigned int CriAtomExAcbDebug_AcbInfoForMarshaling_TypeDefinitionIndex = 37231;
+	inline static constexpr unsigned int CriAtomExAcbDebug_AcbInfoForMarshaling_TypeDefinitionIndex = 38037;
 
 	struct alignas(8) CriAtomExAcbDebug_AcbInfoForMarshaling
 	{
 		::System::IntPtr namePtr; // 0x10
 		::System::UInt32 size; // 0x18
 		::System::UInt32 version; // 0x1C
-		::CriWare::CriAtomEx_CharacterEncoding characterEncoding; // 0x20
-		::System::Single volume; // 0x24
-		::System::Int32 numCues; // 0x28
+		::System::String* userData; // 0x20
+		::System::String* language; // 0x28
+		::CriWare::CriAtomEx_CharacterEncoding characterEncoding; // 0x30
+		::System::Single volume; // 0x34
+		::System::Int32 numCues; // 0x38
 
 		/*
 		::System::Void Convert(::CriWare::CriAtomExAcbDebug_AcbInfo& a1)

@@ -6,13 +6,13 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class TargetEvaluator; }
 
-#define RPG_GAMECORE_BLINKTOPOSITION_METHOD_3_49F56242224536BA_OFFSET UNITYSDK_OFFSET(0x194DE670)
-#define RPG_GAMECORE_BLINKTOPOSITION_METHOD_3_6DD9BBC870C213E1_OFFSET UNITYSDK_OFFSET(0x194DE5A0)
-#define RPG_GAMECORE_BLINKTOPOSITION__CTOR_OFFSET UNITYSDK_OFFSET(0x194DE620)
+#define RPG_GAMECORE_BLINKTOPOSITION_METHOD_3_49F56242224536BA_OFFSET UNITYSDK_OFFSET(0x1A3FE630)
+#define RPG_GAMECORE_BLINKTOPOSITION_METHOD_3_4B233C5F3032C138_OFFSET UNITYSDK_OFFSET(0x1A3FE590)
+#define RPG_GAMECORE_BLINKTOPOSITION__CTOR_OFFSET UNITYSDK_OFFSET(0x1A3FE5F0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int BlinkToPosition_TypeDefinitionIndex = 21879;
+	inline static constexpr unsigned int BlinkToPosition_TypeDefinitionIndex = 22306;
 
 	class BlinkToPosition : public ::RPG::GameCore::TaskConfig
 	{
@@ -25,9 +25,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BLINKTOPOSITION__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_6DD9BBC870C213E1(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::BlinkToPosition*& a2)
+		static ::System::Void Method_3_4B233C5F3032C138(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::BlinkToPosition*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::BlinkToPosition*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BLINKTOPOSITION_METHOD_3_6DD9BBC870C213E1_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::BlinkToPosition*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BLINKTOPOSITION_METHOD_3_4B233C5F3032C138_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_49F56242224536BA(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::BlinkToPosition* a2)

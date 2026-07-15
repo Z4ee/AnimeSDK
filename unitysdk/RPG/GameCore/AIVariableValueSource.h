@@ -5,12 +5,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class AIVariable; }
 
-#define RPG_GAMECORE_AIVARIABLEVALUESOURCE_METHOD_2_2931C18DAE863CA7_OFFSET UNITYSDK_OFFSET(0x193C5D30)
-#define RPG_GAMECORE_AIVARIABLEVALUESOURCE__CTOR_OFFSET UNITYSDK_OFFSET(0x193C5DF0)
+#define RPG_GAMECORE_AIVARIABLEVALUESOURCE_METHOD_2_2931C18DAE863CA7_OFFSET UNITYSDK_OFFSET(0x1B9F9840)
+#define RPG_GAMECORE_AIVARIABLEVALUESOURCE__CTOR_OFFSET UNITYSDK_OFFSET(0x1B9F9900)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AIVariableValueSource_TypeDefinitionIndex = 14843;
+	inline static constexpr unsigned int AIVariableValueSource_TypeDefinitionIndex = 15005;
 
 	class AIVariableValueSource : public ::RPG::GameCore::JsonConfig
 	{

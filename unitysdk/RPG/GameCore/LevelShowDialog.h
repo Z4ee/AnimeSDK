@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/TaskConfig.h"
 
-#define RPG_GAMECORE_LEVELSHOWDIALOG__CTOR_OFFSET UNITYSDK_OFFSET(0xCE4D760)
+#define RPG_GAMECORE_LEVELSHOWDIALOG__CTOR_OFFSET UNITYSDK_OFFSET(0x1BE034B0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LevelShowDialog_TypeDefinitionIndex = 54384;
+	inline static constexpr unsigned int LevelShowDialog_TypeDefinitionIndex = 55607;
 
 	class LevelShowDialog : public ::RPG::GameCore::TaskConfig
 	{

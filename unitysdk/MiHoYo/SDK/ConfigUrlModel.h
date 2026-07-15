@@ -4,11 +4,11 @@
 
 namespace System { class String; }
 
-#define MIHOYO_SDK_CONFIGURLMODEL__CTOR_OFFSET UNITYSDK_OFFSET(0x1820AEA0)
+#define MIHOYO_SDK_CONFIGURLMODEL__CTOR_OFFSET UNITYSDK_OFFSET(0x1888CF20)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int ConfigUrlModel_TypeDefinitionIndex = 7842;
+	inline static constexpr unsigned int ConfigUrlModel_TypeDefinitionIndex = 7848;
 
 	class ConfigUrlModel : public ::System::Object
 	{
@@ -216,6 +216,8 @@ namespace MiHoYo::SDK
 		::System::String* channelBindingWebPageUrlOS; // 0x650
 		::System::String* passportGetConfig; // 0x658
 		::System::String* getVoiceToken; // 0x660
+		::System::String* checkDeviceLimit; // 0x668
+		::System::String* bindDevice; // 0x670
 
 		::System::Void _ctor()
 		{

@@ -6,12 +6,12 @@
 
 namespace RPG::Client::ElectricChainV2 { class Sampler; }
 
-#define RPG_CLIENT_ELECTRICCHAINV2_HEMISPHERE_METHOD_2_0CFE5F25BEFC2C07_OFFSET UNITYSDK_OFFSET(0xB8A2190)
-#define RPG_CLIENT_ELECTRICCHAINV2_HEMISPHERE__CTOR_OFFSET UNITYSDK_OFFSET(0xB8A2530)
+#define RPG_CLIENT_ELECTRICCHAINV2_HEMISPHERE_METHOD_2_64914350C49C927D_OFFSET UNITYSDK_OFFSET(0x18E16BD0)
+#define RPG_CLIENT_ELECTRICCHAINV2_HEMISPHERE__CTOR_OFFSET UNITYSDK_OFFSET(0x18E17050)
 
 namespace RPG::Client::ElectricChainV2
 {
-	inline static constexpr unsigned int Hemisphere_TypeDefinitionIndex = 68692;
+	inline static constexpr unsigned int Hemisphere_TypeDefinitionIndex = 70190;
 
 	class Hemisphere : public ::RPG::Client::ElectricChainV2::Shape
 	{
@@ -25,9 +25,9 @@ namespace RPG::Client::ElectricChainV2
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ELECTRICCHAINV2_HEMISPHERE__CTOR_OFFSET))(this);
 		}
 
-		::UnityEngine::Vector3 Method_2_0CFE5F25BEFC2C07()
+		::UnityEngine::Vector3 Method_2_64914350C49C927D()
 		{
-			return ((::UnityEngine::Vector3(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ELECTRICCHAINV2_HEMISPHERE_METHOD_2_0CFE5F25BEFC2C07_OFFSET))(this);
+			return ((::UnityEngine::Vector3(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ELECTRICCHAINV2_HEMISPHERE_METHOD_2_64914350C49C927D_OFFSET))(this);
 		}
 	};
 }

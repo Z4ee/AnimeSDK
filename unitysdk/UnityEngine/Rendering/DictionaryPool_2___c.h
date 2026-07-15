@@ -7,7 +7,7 @@ namespace UnityEngine::Rendering { template <typename T1, typename T2> class Dic
 
 namespace UnityEngine::Rendering
 {
-	inline static constexpr unsigned int DictionaryPool_2___c_TypeDefinitionIndex = 33691;
+	inline static constexpr unsigned int DictionaryPool_2___c_TypeDefinitionIndex = 34062;
 
 	template <typename TKey, typename TValue>
 	class DictionaryPool_2___c : public ::System::Object

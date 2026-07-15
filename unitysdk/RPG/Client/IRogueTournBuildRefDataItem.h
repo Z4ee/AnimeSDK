@@ -10,7 +10,7 @@ namespace System::Collections::Generic { template <typename T> class IList_1; }
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int IRogueTournBuildRefDataItem_TypeDefinitionIndex = 63147;
+	inline static constexpr unsigned int IRogueTournBuildRefDataItem_TypeDefinitionIndex = 64514;
 
 	class IRogueTournBuildRefDataItem
 	{

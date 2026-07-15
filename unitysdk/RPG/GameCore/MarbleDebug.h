@@ -4,13 +4,13 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_MARBLEDEBUG_METHOD_3_41A4F2B9983A0D76_OFFSET UNITYSDK_OFFSET(0x198CE2A0)
-#define RPG_GAMECORE_MARBLEDEBUG_METHOD_3_901F8BF97475293D_OFFSET UNITYSDK_OFFSET(0x198CE160)
-#define RPG_GAMECORE_MARBLEDEBUG__CTOR_OFFSET UNITYSDK_OFFSET(0x198CE250)
+#define RPG_GAMECORE_MARBLEDEBUG_METHOD_3_41A4F2B9983A0D76_OFFSET UNITYSDK_OFFSET(0x1BD17310)
+#define RPG_GAMECORE_MARBLEDEBUG_METHOD_3_D746D1DE8A2B97E7_OFFSET UNITYSDK_OFFSET(0x1BD17270)
+#define RPG_GAMECORE_MARBLEDEBUG__CTOR_OFFSET UNITYSDK_OFFSET(0x1BD17300)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MarbleDebug_TypeDefinitionIndex = 16015;
+	inline static constexpr unsigned int MarbleDebug_TypeDefinitionIndex = 16199;
 
 	class MarbleDebug : public ::RPG::GameCore::MarbleTaskConfig
 	{
@@ -20,9 +20,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MARBLEDEBUG__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_901F8BF97475293D(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::MarbleDebug*& a2)
+		static ::System::Void Method_3_D746D1DE8A2B97E7(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::MarbleDebug*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::MarbleDebug*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MARBLEDEBUG_METHOD_3_901F8BF97475293D_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::MarbleDebug*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MARBLEDEBUG_METHOD_3_D746D1DE8A2B97E7_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_41A4F2B9983A0D76(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::MarbleDebug* a2)

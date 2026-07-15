@@ -8,13 +8,13 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class DynamicFloat; }
 namespace RPG::GameCore { class SpecialBpFeature; }
 
-#define RPG_GAMECORE_MODIFYTEAMBOOSTPOINT_METHOD_3_22B45910F237C5BD_OFFSET UNITYSDK_OFFSET(0x1995A040)
-#define RPG_GAMECORE_MODIFYTEAMBOOSTPOINT_METHOD_3_7742ABF450C29CE9_OFFSET UNITYSDK_OFFSET(0x19959FB0)
-#define RPG_GAMECORE_MODIFYTEAMBOOSTPOINT__CTOR_OFFSET UNITYSDK_OFFSET(0x1995A010)
+#define RPG_GAMECORE_MODIFYTEAMBOOSTPOINT_METHOD_3_22B45910F237C5BD_OFFSET UNITYSDK_OFFSET(0x1B1AECD0)
+#define RPG_GAMECORE_MODIFYTEAMBOOSTPOINT_METHOD_3_9E5ECD66D1303827_OFFSET UNITYSDK_OFFSET(0x1B1AEC80)
+#define RPG_GAMECORE_MODIFYTEAMBOOSTPOINT__CTOR_OFFSET UNITYSDK_OFFSET(0x1B1AECC0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ModifyTeamBoostPoint_TypeDefinitionIndex = 21371;
+	inline static constexpr unsigned int ModifyTeamBoostPoint_TypeDefinitionIndex = 21789;
 
 	class ModifyTeamBoostPoint : public ::RPG::GameCore::TaskConfig
 	{
@@ -31,9 +31,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MODIFYTEAMBOOSTPOINT__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_7742ABF450C29CE9(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ModifyTeamBoostPoint*& a2)
+		static ::System::Void Method_3_9E5ECD66D1303827(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ModifyTeamBoostPoint*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ModifyTeamBoostPoint*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MODIFYTEAMBOOSTPOINT_METHOD_3_7742ABF450C29CE9_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ModifyTeamBoostPoint*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MODIFYTEAMBOOSTPOINT_METHOD_3_9E5ECD66D1303827_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_22B45910F237C5BD(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ModifyTeamBoostPoint* a2)

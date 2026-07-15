@@ -4,13 +4,13 @@
 
 namespace UnityEngine { class AnimationCurve; }
 
-#define RPG_CLIENT_NAMEDCURVE_GET_NAMEHASH_OFFSET UNITYSDK_OFFSET(0xC247B70)
-#define RPG_CLIENT_NAMEDCURVE_SET_NAMEHASH_OFFSET UNITYSDK_OFFSET(0xC247B80)
-#define RPG_CLIENT_NAMEDCURVE__CTOR_OFFSET UNITYSDK_OFFSET(0xC247B90)
+#define RPG_CLIENT_NAMEDCURVE_GET_NAMEHASH_OFFSET UNITYSDK_OFFSET(0x18EAFCD0)
+#define RPG_CLIENT_NAMEDCURVE_SET_NAMEHASH_OFFSET UNITYSDK_OFFSET(0x18EAFCE0)
+#define RPG_CLIENT_NAMEDCURVE__CTOR_OFFSET UNITYSDK_OFFSET(0x18EAFCF0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int NamedCurve_TypeDefinitionIndex = 56140;
+	inline static constexpr unsigned int NamedCurve_TypeDefinitionIndex = 57380;
 
 	class NamedCurve : public ::UnityEngine::ScriptableObject
 	{

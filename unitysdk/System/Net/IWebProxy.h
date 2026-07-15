@@ -6,7 +6,7 @@ namespace System::Net { class ICredentials; }
 
 namespace System::Net
 {
-	inline static constexpr unsigned int IWebProxy_TypeDefinitionIndex = 2801;
+	inline static constexpr unsigned int IWebProxy_TypeDefinitionIndex = 2805;
 
 	class IWebProxy
 	{

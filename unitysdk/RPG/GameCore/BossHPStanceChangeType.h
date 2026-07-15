@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int BossHPStanceChangeType_TypeDefinitionIndex = 23410;
+	inline static constexpr unsigned int BossHPStanceChangeType_TypeDefinitionIndex = 23898;
 
 	enum class BossHPStanceChangeType : ::System::Int32
 	{

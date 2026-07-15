@@ -17,7 +17,7 @@ namespace System::Collections::Immutable { template <typename T> class IOrderedC
 
 namespace System::Collections::Immutable
 {
-	inline static constexpr unsigned int ImmutableSortedDictionary_2_Node_TypeDefinitionIndex = 7023;
+	inline static constexpr unsigned int ImmutableSortedDictionary_2_Node_TypeDefinitionIndex = 7029;
 
 	template <typename TKey, typename TValue>
 	class ImmutableSortedDictionary_2_Node : public ::System::Object

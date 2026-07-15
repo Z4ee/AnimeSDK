@@ -5,13 +5,13 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_ST_MAIN_STANDBY_METHOD_4_17B8C05B134CE9E7_OFFSET UNITYSDK_OFFSET(0x19C19560)
-#define RPG_GAMECORE_ST_MAIN_STANDBY_METHOD_4_AA5DD8C57035D86A_OFFSET UNITYSDK_OFFSET(0x19C05EA0)
-#define RPG_GAMECORE_ST_MAIN_STANDBY__CTOR_OFFSET UNITYSDK_OFFSET(0x19C05E50)
+#define RPG_GAMECORE_ST_MAIN_STANDBY_METHOD_4_AA5DD8C57035D86A_OFFSET UNITYSDK_OFFSET(0x1B786C80)
+#define RPG_GAMECORE_ST_MAIN_STANDBY_METHOD_4_DC8D2AEC89B3FCDC_OFFSET UNITYSDK_OFFSET(0x1B786C40)
+#define RPG_GAMECORE_ST_MAIN_STANDBY__CTOR_OFFSET UNITYSDK_OFFSET(0x1B786C70)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ST_Main_StandBy_TypeDefinitionIndex = 18971;
+	inline static constexpr unsigned int ST_Main_StandBy_TypeDefinitionIndex = 19322;
 
 	class ST_Main_StandBy : public ::RPG::GameCore::STTaskConfig
 	{
@@ -29,9 +29,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ST_MAIN_STANDBY__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_4_17B8C05B134CE9E7(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ST_Main_StandBy*& a2)
+		static ::System::Void Method_4_DC8D2AEC89B3FCDC(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ST_Main_StandBy*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ST_Main_StandBy*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ST_MAIN_STANDBY_METHOD_4_17B8C05B134CE9E7_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ST_Main_StandBy*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ST_MAIN_STANDBY_METHOD_4_DC8D2AEC89B3FCDC_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_4_AA5DD8C57035D86A(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ST_Main_StandBy* a2)

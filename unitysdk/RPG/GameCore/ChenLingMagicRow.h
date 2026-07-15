@@ -5,20 +5,20 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_CHENLINGMAGICROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1962EAF0)
-#define RPG_GAMECORE_CHENLINGMAGICROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1962ED20)
+#define RPG_GAMECORE_CHENLINGMAGICROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1C388FA0)
+#define RPG_GAMECORE_CHENLINGMAGICROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1C3891D0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ChenLingMagicRow_TypeDefinitionIndex = 10628;
+	inline static constexpr unsigned int ChenLingMagicRow_TypeDefinitionIndex = 10678;
 
 	class ChenLingMagicRow : public ::System::Object
 	{
 	public:
-		::RPG::Client::TextID Name; // 0x10
-		::System::UInt32 ID; // 0x20
-		::System::UInt32 EffectID; // 0x24
-		::RPG::Client::TextID Desc; // 0x28
+		::RPG::Client::TextID Desc; // 0x10
+		::RPG::Client::TextID Name; // 0x20
+		::System::UInt32 EffectID; // 0x30
+		::System::UInt32 ID; // 0x34
 
 		::System::Void _ctor()
 		{

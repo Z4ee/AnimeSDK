@@ -8,7 +8,7 @@ namespace UnityEngine::Timeline { class TrackAsset; }
 
 namespace RPGTools::Timeline
 {
-	inline static constexpr unsigned int BindInfo_BindReference_TypeDefinitionIndex = 45778;
+	inline static constexpr unsigned int BindInfo_BindReference_TypeDefinitionIndex = 46717;
 
 	struct alignas(8) BindInfo_BindReference
 	{

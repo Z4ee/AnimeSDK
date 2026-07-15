@@ -6,12 +6,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_AVATARSPECIALSKILLTREEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x194B44F0)
-#define RPG_GAMECORE_AVATARSPECIALSKILLTREEROW__CTOR_OFFSET UNITYSDK_OFFSET(0x194B4B30)
+#define RPG_GAMECORE_AVATARSPECIALSKILLTREEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1A3D6AB0)
+#define RPG_GAMECORE_AVATARSPECIALSKILLTREEROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1A3D70F0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AvatarSpecialSkillTreeRow_TypeDefinitionIndex = 12119;
+	inline static constexpr unsigned int AvatarSpecialSkillTreeRow_TypeDefinitionIndex = 12251;
 
 	class AvatarSpecialSkillTreeRow : public ::System::Object
 	{

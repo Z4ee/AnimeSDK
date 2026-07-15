@@ -8,15 +8,15 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class TargetEvaluator; }
 namespace SimpleJSON { class JSONNode; }
 
-#define RPG_GAMECORE_BYISTEAMLOCATIONINDEXTYPE_METHOD_4_433B4EB9322AAFC5_OFFSET UNITYSDK_OFFSET(0x19571810)
-#define RPG_GAMECORE_BYISTEAMLOCATIONINDEXTYPE_METHOD_4_E6A41028857FDBD2_OFFSET UNITYSDK_OFFSET(0x19571890)
-#define RPG_GAMECORE_BYISTEAMLOCATIONINDEXTYPE_METHOD_4_F38CD3B43677ED7F_OFFSET UNITYSDK_OFFSET(0x195715A0)
-#define RPG_GAMECORE_BYISTEAMLOCATIONINDEXTYPE_METHOD_4_F8A14D41C03D8219_OFFSET UNITYSDK_OFFSET(0x195714C0)
-#define RPG_GAMECORE_BYISTEAMLOCATIONINDEXTYPE__CTOR_OFFSET UNITYSDK_OFFSET(0x19571540)
+#define RPG_GAMECORE_BYISTEAMLOCATIONINDEXTYPE_METHOD_4_1894044532957ECF_OFFSET UNITYSDK_OFFSET(0x1B2A9720)
+#define RPG_GAMECORE_BYISTEAMLOCATIONINDEXTYPE_METHOD_4_88F4577B07813A49_OFFSET UNITYSDK_OFFSET(0x1B2A96E0)
+#define RPG_GAMECORE_BYISTEAMLOCATIONINDEXTYPE_METHOD_4_BF35E0F40517425A_OFFSET UNITYSDK_OFFSET(0x1B2A9420)
+#define RPG_GAMECORE_BYISTEAMLOCATIONINDEXTYPE_METHOD_4_F38CD3B43677ED7F_OFFSET UNITYSDK_OFFSET(0x1B2A9470)
+#define RPG_GAMECORE_BYISTEAMLOCATIONINDEXTYPE__CTOR_OFFSET UNITYSDK_OFFSET(0x1B2A9460)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ByIsTeamLocationIndexType_TypeDefinitionIndex = 21779;
+	inline static constexpr unsigned int ByIsTeamLocationIndexType_TypeDefinitionIndex = 22205;
 
 	class ByIsTeamLocationIndexType : public ::RPG::GameCore::PredicateConfig
 	{
@@ -31,9 +31,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYISTEAMLOCATIONINDEXTYPE__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_4_F8A14D41C03D8219(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ByIsTeamLocationIndexType*& a2)
+		static ::System::Void Method_4_BF35E0F40517425A(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ByIsTeamLocationIndexType*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ByIsTeamLocationIndexType*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYISTEAMLOCATIONINDEXTYPE_METHOD_4_F8A14D41C03D8219_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ByIsTeamLocationIndexType*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYISTEAMLOCATIONINDEXTYPE_METHOD_4_BF35E0F40517425A_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_4_F38CD3B43677ED7F(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ByIsTeamLocationIndexType* a2)
@@ -41,14 +41,14 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ByIsTeamLocationIndexType*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYISTEAMLOCATIONINDEXTYPE_METHOD_4_F38CD3B43677ED7F_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_4_433B4EB9322AAFC5(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::ByIsTeamLocationIndexType*& a2)
+		static ::System::Void Method_4_88F4577B07813A49(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::ByIsTeamLocationIndexType*& a2)
 		{
-			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::ByIsTeamLocationIndexType*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYISTEAMLOCATIONINDEXTYPE_METHOD_4_433B4EB9322AAFC5_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::ByIsTeamLocationIndexType*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYISTEAMLOCATIONINDEXTYPE_METHOD_4_88F4577B07813A49_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_4_E6A41028857FDBD2(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::ByIsTeamLocationIndexType* a2)
+		static ::System::Void Method_4_1894044532957ECF(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::ByIsTeamLocationIndexType* a2)
 		{
-			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::ByIsTeamLocationIndexType*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYISTEAMLOCATIONINDEXTYPE_METHOD_4_E6A41028857FDBD2_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::ByIsTeamLocationIndexType*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYISTEAMLOCATIONINDEXTYPE_METHOD_4_1894044532957ECF_OFFSET))(a1, a2);
 		}
 	};
 }

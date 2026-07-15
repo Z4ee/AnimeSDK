@@ -4,13 +4,13 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_PLAYERTEAMAPPEAR_METHOD_3_6C9F1A862BB8F8CE_OFFSET UNITYSDK_OFFSET(0x19A43210)
-#define RPG_GAMECORE_PLAYERTEAMAPPEAR_METHOD_3_A594AD8C7AC57AFF_OFFSET UNITYSDK_OFFSET(0x19A43290)
-#define RPG_GAMECORE_PLAYERTEAMAPPEAR__CTOR_OFFSET UNITYSDK_OFFSET(0x19A43260)
+#define RPG_GAMECORE_PLAYERTEAMAPPEAR_METHOD_3_7E85B40EF69471E4_OFFSET UNITYSDK_OFFSET(0x1BA12640)
+#define RPG_GAMECORE_PLAYERTEAMAPPEAR_METHOD_3_A594AD8C7AC57AFF_OFFSET UNITYSDK_OFFSET(0x1BA12680)
+#define RPG_GAMECORE_PLAYERTEAMAPPEAR__CTOR_OFFSET UNITYSDK_OFFSET(0x1BA12670)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PlayerTeamAppear_TypeDefinitionIndex = 21704;
+	inline static constexpr unsigned int PlayerTeamAppear_TypeDefinitionIndex = 22131;
 
 	class PlayerTeamAppear : public ::RPG::GameCore::TaskConfig
 	{
@@ -22,9 +22,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PLAYERTEAMAPPEAR__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_6C9F1A862BB8F8CE(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::PlayerTeamAppear*& a2)
+		static ::System::Void Method_3_7E85B40EF69471E4(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::PlayerTeamAppear*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::PlayerTeamAppear*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PLAYERTEAMAPPEAR_METHOD_3_6C9F1A862BB8F8CE_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::PlayerTeamAppear*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PLAYERTEAMAPPEAR_METHOD_3_7E85B40EF69471E4_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_A594AD8C7AC57AFF(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::PlayerTeamAppear* a2)

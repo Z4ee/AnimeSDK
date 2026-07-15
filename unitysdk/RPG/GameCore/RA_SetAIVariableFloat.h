@@ -5,13 +5,13 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_RA_SETAIVARIABLEFLOAT_METHOD_4_648DA22265A80009_OFFSET UNITYSDK_OFFSET(0x19AA8320)
-#define RPG_GAMECORE_RA_SETAIVARIABLEFLOAT_METHOD_4_A374DEC5A1355C45_OFFSET UNITYSDK_OFFSET(0x19AA83A0)
-#define RPG_GAMECORE_RA_SETAIVARIABLEFLOAT__CTOR_OFFSET UNITYSDK_OFFSET(0x19AA8370)
+#define RPG_GAMECORE_RA_SETAIVARIABLEFLOAT_METHOD_4_A374DEC5A1355C45_OFFSET UNITYSDK_OFFSET(0x1B9B0250)
+#define RPG_GAMECORE_RA_SETAIVARIABLEFLOAT_METHOD_4_E2781B68F998BD92_OFFSET UNITYSDK_OFFSET(0x1B9B0210)
+#define RPG_GAMECORE_RA_SETAIVARIABLEFLOAT__CTOR_OFFSET UNITYSDK_OFFSET(0x1B9B0240)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RA_SetAIVariableFloat_TypeDefinitionIndex = 18918;
+	inline static constexpr unsigned int RA_SetAIVariableFloat_TypeDefinitionIndex = 19268;
 
 	class RA_SetAIVariableFloat : public ::RPG::GameCore::ReactionTaskConfig
 	{
@@ -24,9 +24,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_RA_SETAIVARIABLEFLOAT__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_4_648DA22265A80009(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::RA_SetAIVariableFloat*& a2)
+		static ::System::Void Method_4_E2781B68F998BD92(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::RA_SetAIVariableFloat*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::RA_SetAIVariableFloat*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_RA_SETAIVARIABLEFLOAT_METHOD_4_648DA22265A80009_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::RA_SetAIVariableFloat*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_RA_SETAIVARIABLEFLOAT_METHOD_4_E2781B68F998BD92_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_4_A374DEC5A1355C45(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::RA_SetAIVariableFloat* a2)

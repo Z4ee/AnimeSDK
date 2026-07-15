@@ -4,7 +4,7 @@
 
 namespace UnityEngine::Rendering
 {
-	inline static constexpr unsigned int CameraProperties__layerCullDistances_e__FixedBuffer_TypeDefinitionIndex = 4723;
+	inline static constexpr unsigned int CameraProperties__layerCullDistances_e__FixedBuffer_TypeDefinitionIndex = 4728;
 
 	struct alignas(4) CameraProperties__layerCullDistances_e__FixedBuffer
 	{

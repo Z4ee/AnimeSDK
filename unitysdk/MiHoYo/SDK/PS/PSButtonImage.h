@@ -4,12 +4,12 @@
 
 namespace UnityEngine { class Sprite; }
 
-#define MIHOYO_SDK_PS_PSBUTTONIMAGE_AWAKE_OFFSET UNITYSDK_OFFSET(0x183C1910)
-#define MIHOYO_SDK_PS_PSBUTTONIMAGE__CTOR_OFFSET UNITYSDK_OFFSET(0x183C1A90)
+#define MIHOYO_SDK_PS_PSBUTTONIMAGE_AWAKE_OFFSET UNITYSDK_OFFSET(0x1944B490)
+#define MIHOYO_SDK_PS_PSBUTTONIMAGE__CTOR_OFFSET UNITYSDK_OFFSET(0x1944B610)
 
 namespace MiHoYo::SDK::PS
 {
-	inline static constexpr unsigned int PSButtonImage_TypeDefinitionIndex = 8597;
+	inline static constexpr unsigned int PSButtonImage_TypeDefinitionIndex = 8609;
 
 	class PSButtonImage : public ::UnityEngine::MonoBehaviour
 	{

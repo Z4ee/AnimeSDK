@@ -5,12 +5,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class FormationZOffsetParams; }
 
-#define RPG_GAMECORE_FORMATIONZOFFSETLIST_METHOD_2_B1DC6CB3FAFB1A40_OFFSET UNITYSDK_OFFSET(0x19767230)
-#define RPG_GAMECORE_FORMATIONZOFFSETLIST__CTOR_OFFSET UNITYSDK_OFFSET(0x19767320)
+#define RPG_GAMECORE_FORMATIONZOFFSETLIST_METHOD_2_B1DC6CB3FAFB1A40_OFFSET UNITYSDK_OFFSET(0x1BEC1CE0)
+#define RPG_GAMECORE_FORMATIONZOFFSETLIST__CTOR_OFFSET UNITYSDK_OFFSET(0x1B978B30)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FormationZOffsetList_TypeDefinitionIndex = 15750;
+	inline static constexpr unsigned int FormationZOffsetList_TypeDefinitionIndex = 15924;
 
 	class FormationZOffsetList : public ::RPG::GameCore::JsonConfig
 	{

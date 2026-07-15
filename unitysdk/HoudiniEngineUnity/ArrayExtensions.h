@@ -6,7 +6,7 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace HoudiniEngineUnity
 {
-	inline static constexpr unsigned int ArrayExtensions_TypeDefinitionIndex = 37660;
+	inline static constexpr unsigned int ArrayExtensions_TypeDefinitionIndex = 38468;
 
 	class ArrayExtensions : public ::System::Object
 	{

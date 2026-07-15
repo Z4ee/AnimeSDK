@@ -3,7 +3,7 @@
 
 namespace CriWare
 {
-	inline static constexpr unsigned int CriAtomExPlayerOutputAnalyzer_Type_TypeDefinitionIndex = 37107;
+	inline static constexpr unsigned int CriAtomExPlayerOutputAnalyzer_Type_TypeDefinitionIndex = 37906;
 
 	enum class CriAtomExPlayerOutputAnalyzer_Type : ::System::Int32
 	{

@@ -7,7 +7,7 @@ namespace UnityEngine { class Event; }
 
 namespace UnityEngine::UIElements
 {
-	inline static constexpr unsigned int CommandEventBase_1_TypeDefinitionIndex = 6172;
+	inline static constexpr unsigned int CommandEventBase_1_TypeDefinitionIndex = 6177;
 
 	template <typename T>
 	class CommandEventBase_1 : public ::UnityEngine::UIElements::EventBase_1<T>

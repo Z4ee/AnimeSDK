@@ -5,13 +5,13 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class TaskConfig; }
 
-#define RPG_CLIENT_ADVENTUREGAMEPLAYLOCKWITHDELAY_METHOD_4_38EF2DF33254A0BF_OFFSET UNITYSDK_OFFSET(0x193B0770)
-#define RPG_CLIENT_ADVENTUREGAMEPLAYLOCKWITHDELAY_METHOD_4_B20391A191C34184_OFFSET UNITYSDK_OFFSET(0x193B0990)
-#define RPG_CLIENT_ADVENTUREGAMEPLAYLOCKWITHDELAY__CTOR_OFFSET UNITYSDK_OFFSET(0x193B0740)
+#define RPG_CLIENT_ADVENTUREGAMEPLAYLOCKWITHDELAY_METHOD_4_38EF2DF33254A0BF_OFFSET UNITYSDK_OFFSET(0x1B9E2470)
+#define RPG_CLIENT_ADVENTUREGAMEPLAYLOCKWITHDELAY_METHOD_4_F705B2CAB5C5B16E_OFFSET UNITYSDK_OFFSET(0x1B9E2690)
+#define RPG_CLIENT_ADVENTUREGAMEPLAYLOCKWITHDELAY__CTOR_OFFSET UNITYSDK_OFFSET(0x1B9E2460)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int AdventureGameplayLockWithDelay_TypeDefinitionIndex = 9957;
+	inline static constexpr unsigned int AdventureGameplayLockWithDelay_TypeDefinitionIndex = 9972;
 
 	class AdventureGameplayLockWithDelay : public ::RPG::Client::AdventureGameplayLock
 	{
@@ -24,9 +24,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ADVENTUREGAMEPLAYLOCKWITHDELAY__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_4_B20391A191C34184(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::Client::AdventureGameplayLockWithDelay*& a2)
+		static ::System::Void Method_4_F705B2CAB5C5B16E(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::Client::AdventureGameplayLockWithDelay*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::Client::AdventureGameplayLockWithDelay*&))((::PBYTE)hIl2Cpp + RPG_CLIENT_ADVENTUREGAMEPLAYLOCKWITHDELAY_METHOD_4_B20391A191C34184_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::Client::AdventureGameplayLockWithDelay*&))((::PBYTE)hIl2Cpp + RPG_CLIENT_ADVENTUREGAMEPLAYLOCKWITHDELAY_METHOD_4_F705B2CAB5C5B16E_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_4_38EF2DF33254A0BF(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::Client::AdventureGameplayLockWithDelay* a2)

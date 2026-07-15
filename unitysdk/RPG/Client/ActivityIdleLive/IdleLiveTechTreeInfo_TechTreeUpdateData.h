@@ -4,7 +4,7 @@
 
 namespace RPG::Client::ActivityIdleLive
 {
-	inline static constexpr unsigned int IdleLiveTechTreeInfo_TechTreeUpdateData_TypeDefinitionIndex = 70275;
+	inline static constexpr unsigned int IdleLiveTechTreeInfo_TechTreeUpdateData_TypeDefinitionIndex = 71798;
 
 	struct alignas(4) IdleLiveTechTreeInfo_TechTreeUpdateData
 	{

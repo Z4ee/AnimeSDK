@@ -9,7 +9,7 @@ namespace System::Collections::Generic { template <typename T> class IEnumerator
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int IndexedDictionary_2_TypeDefinitionIndex = 33441;
+	inline static constexpr unsigned int IndexedDictionary_2_TypeDefinitionIndex = 33811;
 
 	template <typename TKey, typename TValue>
 	class IndexedDictionary_2 : public ::System::Object

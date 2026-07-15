@@ -1,11 +1,9 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/UnityEngine/Color.h"
-#include "unitysdk/UnityEngine/Vector3.h"
 
-namespace System::Collections::Generic { template <typename T> class IReadOnlyList_1; }
+namespace RPG::GameCore { class EventManager; }
 
-inline static constexpr unsigned int Class_0_16E4307DCC419505_668_TypeDefinitionIndex = 58313;
+inline static constexpr unsigned int Class_0_16E4307DCC419505_668_TypeDefinitionIndex = 58399;
 
 class Class_0_16E4307DCC419505_668
 {

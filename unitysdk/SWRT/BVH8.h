@@ -8,30 +8,30 @@ namespace SWRT { class BVH2; }
 namespace SWRT { class BVH8_WNode; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define SWRT_BVH8_BUILD_OFFSET UNITYSDK_OFFSET(0x18F2F250)
-#define SWRT_BVH8_CALCULATEDECISION_OFFSET UNITYSDK_OFFSET(0x18F2E950)
-#define SWRT_BVH8_CONVERTTOCWBVH_OFFSET UNITYSDK_OFFSET(0x18F2FC10)
-#define SWRT_BVH8_GATHERPRIMITIVES_OFFSET UNITYSDK_OFFSET(0x18F30DF0)
-#define SWRT_BVH8_GETCHILDREN_OFFSET UNITYSDK_OFFSET(0x18F303F0)
-#define SWRT_BVH8_NEXTPOWEROFTWOFLOATUNSAFE_OFFSET UNITYSDK_OFFSET(0x18F30ED0)
-#define SWRT_BVH8_SORTCHILDREN_OFFSET UNITYSDK_OFFSET(0x18F305A0)
-#define SWRT_BVH8__CTOR_OFFSET UNITYSDK_OFFSET(0x18F2E5D0)
+#define SWRT_BVH8_BUILD_OFFSET UNITYSDK_OFFSET(0x1D13ECB0)
+#define SWRT_BVH8_CALCULATEDECISION_OFFSET UNITYSDK_OFFSET(0x1D13E3B0)
+#define SWRT_BVH8_CONVERTTOCWBVH_OFFSET UNITYSDK_OFFSET(0x1D13F670)
+#define SWRT_BVH8_GATHERPRIMITIVES_OFFSET UNITYSDK_OFFSET(0x1D140850)
+#define SWRT_BVH8_GETCHILDREN_OFFSET UNITYSDK_OFFSET(0x1D13FE50)
+#define SWRT_BVH8_NEXTPOWEROFTWOFLOATUNSAFE_OFFSET UNITYSDK_OFFSET(0x1D140930)
+#define SWRT_BVH8_SORTCHILDREN_OFFSET UNITYSDK_OFFSET(0x1D140000)
+#define SWRT_BVH8__CTOR_OFFSET UNITYSDK_OFFSET(0x1D13E020)
 
 namespace SWRT
 {
-	inline static constexpr unsigned int BVH8_TypeDefinitionIndex = 35168;
+	inline static constexpr unsigned int BVH8_TypeDefinitionIndex = 35950;
 
 	class BVH8 : public ::System::Object
 	{
 	public:
-		::System::Collections::Generic::List_1<::SWRT::BVH8_CWNode>* _CWNodes; // 0x10
-		::Il2CppArray<::System::Single>* _Cost; // 0x18
-		::Il2CppArray<::System::Boolean>* _SlotEmpty; // 0x20
-		::Il2CppArray<::System::Int32>* _Assignment; // 0x28
-		::System::Collections::Generic::List_1<::SWRT::BVH8_WNode*>* _WNodes; // 0x30
-		::Il2CppArray<::SWRT::BVH8_Decision>* _Decisions; // 0x38
-		::System::Collections::Generic::List_1<::System::Int32>* _PrimIndices; // 0x40
-		::Il2CppArray<::System::Int32>* _ChildrenCopy; // 0x48
+		::Il2CppArray<::System::Boolean>* _SlotEmpty; // 0x10
+		::System::Collections::Generic::List_1<::SWRT::BVH8_CWNode>* _CWNodes; // 0x18
+		::System::Collections::Generic::List_1<::System::Int32>* _PrimIndices; // 0x20
+		::Il2CppArray<::System::Int32>* _ChildrenCopy; // 0x28
+		::Il2CppArray<::SWRT::BVH8_Decision>* _Decisions; // 0x30
+		::Il2CppArray<::System::Single>* _Cost; // 0x38
+		::Il2CppArray<::System::Int32>* _Assignment; // 0x40
+		::System::Collections::Generic::List_1<::SWRT::BVH8_WNode*>* _WNodes; // 0x48
 
 		::System::Void _ctor(::SWRT::BVH2* a1)
 		{

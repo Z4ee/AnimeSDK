@@ -3,7 +3,7 @@
 
 namespace System::Linq::Expressions
 {
-	inline static constexpr unsigned int GotoExpressionKind_TypeDefinitionIndex = 3208;
+	inline static constexpr unsigned int GotoExpressionKind_TypeDefinitionIndex = 3212;
 
 	enum class GotoExpressionKind : ::System::Int32
 	{

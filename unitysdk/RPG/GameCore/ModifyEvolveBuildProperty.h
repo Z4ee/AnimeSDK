@@ -7,13 +7,13 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class DynamicFloat; }
 
-#define RPG_GAMECORE_MODIFYEVOLVEBUILDPROPERTY_METHOD_3_1C464D090863587F_OFFSET UNITYSDK_OFFSET(0x199557F0)
-#define RPG_GAMECORE_MODIFYEVOLVEBUILDPROPERTY_METHOD_3_AE271607FE018280_OFFSET UNITYSDK_OFFSET(0x19955880)
-#define RPG_GAMECORE_MODIFYEVOLVEBUILDPROPERTY__CTOR_OFFSET UNITYSDK_OFFSET(0x19955850)
+#define RPG_GAMECORE_MODIFYEVOLVEBUILDPROPERTY_METHOD_3_39ACDBC7A37F1F15_OFFSET UNITYSDK_OFFSET(0x1B1AA9A0)
+#define RPG_GAMECORE_MODIFYEVOLVEBUILDPROPERTY_METHOD_3_AE271607FE018280_OFFSET UNITYSDK_OFFSET(0x1B1AA9F0)
+#define RPG_GAMECORE_MODIFYEVOLVEBUILDPROPERTY__CTOR_OFFSET UNITYSDK_OFFSET(0x1B1AA9E0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ModifyEvolveBuildProperty_TypeDefinitionIndex = 21844;
+	inline static constexpr unsigned int ModifyEvolveBuildProperty_TypeDefinitionIndex = 22271;
 
 	class ModifyEvolveBuildProperty : public ::RPG::GameCore::TaskConfig
 	{
@@ -27,9 +27,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MODIFYEVOLVEBUILDPROPERTY__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_1C464D090863587F(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ModifyEvolveBuildProperty*& a2)
+		static ::System::Void Method_3_39ACDBC7A37F1F15(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ModifyEvolveBuildProperty*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ModifyEvolveBuildProperty*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MODIFYEVOLVEBUILDPROPERTY_METHOD_3_1C464D090863587F_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ModifyEvolveBuildProperty*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MODIFYEVOLVEBUILDPROPERTY_METHOD_3_39ACDBC7A37F1F15_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_AE271607FE018280(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ModifyEvolveBuildProperty* a2)

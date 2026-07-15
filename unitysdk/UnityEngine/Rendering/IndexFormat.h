@@ -3,7 +3,7 @@
 
 namespace UnityEngine::Rendering
 {
-	inline static constexpr unsigned int IndexFormat_TypeDefinitionIndex = 4670;
+	inline static constexpr unsigned int IndexFormat_TypeDefinitionIndex = 4675;
 
 	enum class IndexFormat : ::System::Int32
 	{

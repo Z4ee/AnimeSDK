@@ -6,7 +6,7 @@ namespace System { class String; }
 
 namespace RPG::CustomRP
 {
-	inline static constexpr unsigned int PPFilterStack_ScreenEffectParameter_TypeDefinitionIndex = 48486;
+	inline static constexpr unsigned int PPFilterStack_ScreenEffectParameter_TypeDefinitionIndex = 49499;
 
 	struct alignas(8) PPFilterStack_ScreenEffectParameter
 	{

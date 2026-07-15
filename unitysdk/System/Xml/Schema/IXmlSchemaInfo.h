@@ -9,7 +9,7 @@ namespace System::Xml::Schema { class XmlSchemaType; }
 
 namespace System::Xml::Schema
 {
-	inline static constexpr unsigned int IXmlSchemaInfo_TypeDefinitionIndex = 2155;
+	inline static constexpr unsigned int IXmlSchemaInfo_TypeDefinitionIndex = 2159;
 
 	class IXmlSchemaInfo
 	{

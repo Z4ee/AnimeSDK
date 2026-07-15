@@ -4,7 +4,7 @@
 
 namespace System { class String; }
 
-#define SYSTEM_REFLECTION_EMIT_OPCODENAMES__CCTOR_OFFSET UNITYSDK_OFFSET(0x18750030)
+#define SYSTEM_REFLECTION_EMIT_OPCODENAMES__CCTOR_OFFSET UNITYSDK_OFFSET(0x1AFCBA80)
 
 namespace System::Reflection::Emit
 {
@@ -15,7 +15,7 @@ namespace System::Reflection::Emit
 	public:
 		static ::Il2CppArray<::System::String*>** StaticGet_names()
 		{
-			return (::Il2CppArray<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(OpCodeNames_TypeDefinitionIndex)->GetStaticField(0x9910);
+			return (::Il2CppArray<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(OpCodeNames_TypeDefinitionIndex)->GetStaticField(0xEF00);
 		}
 
 		static ::System::Void _cctor()

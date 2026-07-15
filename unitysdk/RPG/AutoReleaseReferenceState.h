@@ -3,7 +3,7 @@
 
 namespace RPG
 {
-	inline static constexpr unsigned int AutoReleaseReferenceState_TypeDefinitionIndex = 5618;
+	inline static constexpr unsigned int AutoReleaseReferenceState_TypeDefinitionIndex = 5623;
 
 	enum class AutoReleaseReferenceState : ::System::Int32
 	{

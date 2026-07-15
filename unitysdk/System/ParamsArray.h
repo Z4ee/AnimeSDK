@@ -4,14 +4,14 @@
 
 namespace System { class Object; }
 
-#define SYSTEM_PARAMSARRAY_GETATSLOW_OFFSET UNITYSDK_OFFSET(0x383AFB0)
-#define SYSTEM_PARAMSARRAY_GET_ITEM_OFFSET UNITYSDK_OFFSET(0x383AF40)
-#define SYSTEM_PARAMSARRAY_GET_LENGTH_OFFSET UNITYSDK_OFFSET(0x383AF20)
-#define SYSTEM_PARAMSARRAY__CCTOR_OFFSET UNITYSDK_OFFSET(0x18743DF0)
-#define SYSTEM_PARAMSARRAY__CTOR_1_OFFSET UNITYSDK_OFFSET(0x383AE70)
-#define SYSTEM_PARAMSARRAY__CTOR_2_OFFSET UNITYSDK_OFFSET(0x383AEA0)
-#define SYSTEM_PARAMSARRAY__CTOR_3_OFFSET UNITYSDK_OFFSET(0x383AEC0)
-#define SYSTEM_PARAMSARRAY__CTOR_OFFSET UNITYSDK_OFFSET(0x383AE50)
+#define SYSTEM_PARAMSARRAY_GETATSLOW_OFFSET UNITYSDK_OFFSET(0x3A19D90)
+#define SYSTEM_PARAMSARRAY_GET_ITEM_OFFSET UNITYSDK_OFFSET(0x3A19D20)
+#define SYSTEM_PARAMSARRAY_GET_LENGTH_OFFSET UNITYSDK_OFFSET(0x3A19D00)
+#define SYSTEM_PARAMSARRAY__CCTOR_OFFSET UNITYSDK_OFFSET(0x1AFBDD50)
+#define SYSTEM_PARAMSARRAY__CTOR_1_OFFSET UNITYSDK_OFFSET(0x3A19C50)
+#define SYSTEM_PARAMSARRAY__CTOR_2_OFFSET UNITYSDK_OFFSET(0x3A19C80)
+#define SYSTEM_PARAMSARRAY__CTOR_3_OFFSET UNITYSDK_OFFSET(0x3A19CA0)
+#define SYSTEM_PARAMSARRAY__CTOR_OFFSET UNITYSDK_OFFSET(0x3A19C30)
 
 namespace System
 {
@@ -19,17 +19,17 @@ namespace System
 
 	struct alignas(8) ParamsArray
 	{
-		static ::Il2CppArray<::System::Object*>** StaticGet_twoArgArray()
+		static ::Il2CppArray<::System::Object*>** StaticGet_oneArgArray()
 		{
-			return (::Il2CppArray<::System::Object*>**)Il2CppClass::FromTypeDefinitionIndex(ParamsArray_TypeDefinitionIndex)->GetStaticField(0x9300);
+			return (::Il2CppArray<::System::Object*>**)Il2CppClass::FromTypeDefinitionIndex(ParamsArray_TypeDefinitionIndex)->GetStaticField(0xE6C0);
 		}
 		static ::Il2CppArray<::System::Object*>** StaticGet_threeArgArray()
 		{
-			return (::Il2CppArray<::System::Object*>**)Il2CppClass::FromTypeDefinitionIndex(ParamsArray_TypeDefinitionIndex)->GetStaticField(0x9308);
+			return (::Il2CppArray<::System::Object*>**)Il2CppClass::FromTypeDefinitionIndex(ParamsArray_TypeDefinitionIndex)->GetStaticField(0xE6C8);
 		}
-		static ::Il2CppArray<::System::Object*>** StaticGet_oneArgArray()
+		static ::Il2CppArray<::System::Object*>** StaticGet_twoArgArray()
 		{
-			return (::Il2CppArray<::System::Object*>**)Il2CppClass::FromTypeDefinitionIndex(ParamsArray_TypeDefinitionIndex)->GetStaticField(0x9310);
+			return (::Il2CppArray<::System::Object*>**)Il2CppClass::FromTypeDefinitionIndex(ParamsArray_TypeDefinitionIndex)->GetStaticField(0xE6D0);
 		}
 		::System::Object* arg0; // 0x10
 		::System::Object* arg1; // 0x18

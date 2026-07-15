@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int AimEntityInfoType_TypeDefinitionIndex = 56954;
+	inline static constexpr unsigned int AimEntityInfoType_TypeDefinitionIndex = 58201;
 
 	enum class AimEntityInfoType : ::System::Int32
 	{

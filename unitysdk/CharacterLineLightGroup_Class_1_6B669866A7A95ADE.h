@@ -6,9 +6,9 @@
 
 namespace UnityEngine { class Transform; }
 
-#define CHARACTERLINELIGHTGROUP_CLASS_1_6B669866A7A95ADE__CTOR_OFFSET UNITYSDK_OFFSET(0xC73E500)
+#define CHARACTERLINELIGHTGROUP_CLASS_1_6B669866A7A95ADE__CTOR_OFFSET UNITYSDK_OFFSET(0x16B2F4A0)
 
-inline static constexpr unsigned int CharacterLineLightGroup_Class_1_6B669866A7A95ADE_TypeDefinitionIndex = 44758;
+inline static constexpr unsigned int CharacterLineLightGroup_Class_1_6B669866A7A95ADE_TypeDefinitionIndex = 45673;
 
 class CharacterLineLightGroup_Class_1_6B669866A7A95ADE : public ::System::Object
 {

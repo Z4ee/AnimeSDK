@@ -13,64 +13,64 @@ namespace System { template <typename T1, typename T2> class Func_2; }
 namespace System { template <typename T> class Comparison_1; }
 namespace System { template <typename T> class Predicate_1; }
 
-#define RPG_CLIENT_GRIDFIGHTGAMEREFFILTER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xBB797C0)
-#define RPG_CLIENT_GRIDFIGHTGAMEREFFILTER___C__CREATECOMPARER_B__4_0_OFFSET UNITYSDK_OFFSET(0xBB79850)
-#define RPG_CLIENT_GRIDFIGHTGAMEREFFILTER___C__CTOR_OFFSET UNITYSDK_OFFSET(0xBB79800)
-#define RPG_CLIENT_GRIDFIGHTGAMEREFFILTER___C__GETCURSEASONALLTRAITS_B__58_0_OFFSET UNITYSDK_OFFSET(0xBB79C30)
-#define RPG_CLIENT_GRIDFIGHTGAMEREFFILTER___C__GETCURSEASONALLTRAITS_B__58_1_OFFSET UNITYSDK_OFFSET(0xBB79C50)
-#define RPG_CLIENT_GRIDFIGHTGAMEREFFILTER___C__SORT_B__5_0_OFFSET UNITYSDK_OFFSET(0xBB79890)
-#define RPG_CLIENT_GRIDFIGHTGAMEREFFILTER___C___CTOR_B__2_0_OFFSET UNITYSDK_OFFSET(0xBB79810)
-#define RPG_CLIENT_GRIDFIGHTGAMEREFFILTER___C___RELEATIVESORT_B__6_4_OFFSET UNITYSDK_OFFSET(0xBB79AD0)
-#define RPG_CLIENT_GRIDFIGHTGAMEREFFILTER___C___RELEATIVESORT_B__6_5_OFFSET UNITYSDK_OFFSET(0xBB79B60)
-#define RPG_CLIENT_GRIDFIGHTGAMEREFFILTER___C___RELEATIVESORT_B__6_6_OFFSET UNITYSDK_OFFSET(0xBB79BF0)
-#define RPG_CLIENT_GRIDFIGHTGAMEREFFILTER___C___RELEATIVESORT_B__6_7_OFFSET UNITYSDK_OFFSET(0xBB79C10)
+#define RPG_CLIENT_GRIDFIGHTGAMEREFFILTER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1ABFA400)
+#define RPG_CLIENT_GRIDFIGHTGAMEREFFILTER___C__CREATECOMPARER_B__4_0_OFFSET UNITYSDK_OFFSET(0x1ABFA490)
+#define RPG_CLIENT_GRIDFIGHTGAMEREFFILTER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1ABFA440)
+#define RPG_CLIENT_GRIDFIGHTGAMEREFFILTER___C__GETCURSEASONALLTRAITS_B__58_0_OFFSET UNITYSDK_OFFSET(0x1ABFA900)
+#define RPG_CLIENT_GRIDFIGHTGAMEREFFILTER___C__GETCURSEASONALLTRAITS_B__58_1_OFFSET UNITYSDK_OFFSET(0x1ABFA920)
+#define RPG_CLIENT_GRIDFIGHTGAMEREFFILTER___C__SORT_B__5_0_OFFSET UNITYSDK_OFFSET(0x1ABFA4D0)
+#define RPG_CLIENT_GRIDFIGHTGAMEREFFILTER___C___CTOR_B__2_0_OFFSET UNITYSDK_OFFSET(0x1ABFA450)
+#define RPG_CLIENT_GRIDFIGHTGAMEREFFILTER___C___RELEATIVESORT_B__6_4_OFFSET UNITYSDK_OFFSET(0x1ABFA740)
+#define RPG_CLIENT_GRIDFIGHTGAMEREFFILTER___C___RELEATIVESORT_B__6_5_OFFSET UNITYSDK_OFFSET(0x1ABFA7D0)
+#define RPG_CLIENT_GRIDFIGHTGAMEREFFILTER___C___RELEATIVESORT_B__6_6_OFFSET UNITYSDK_OFFSET(0x1ABFA860)
+#define RPG_CLIENT_GRIDFIGHTGAMEREFFILTER___C___RELEATIVESORT_B__6_7_OFFSET UNITYSDK_OFFSET(0x1ABFA8B0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GridFightGameRefFilter___c_TypeDefinitionIndex = 60544;
+	inline static constexpr unsigned int GridFightGameRefFilter___c_TypeDefinitionIndex = 61835;
 
 	class GridFightGameRefFilter___c : public ::System::Object
 	{
 	public:
+		static ::System::Func_2<::RPG::GameCore::GridFightTraitBaseConfigRow*, ::RPG::Client::GridFightTraitConfig*>** StaticGet___9__58_1()
+		{
+			return (::System::Func_2<::RPG::GameCore::GridFightTraitBaseConfigRow*, ::RPG::Client::GridFightTraitConfig*>**)Il2CppClass::FromTypeDefinitionIndex(GridFightGameRefFilter___c_TypeDefinitionIndex)->GetStaticField(0x27250);
+		}
 		static ::System::Predicate_1<::RPG::Client::GridFightGameRefData*>** StaticGet___9__5_0()
 		{
-			return (::System::Predicate_1<::RPG::Client::GridFightGameRefData*>**)Il2CppClass::FromTypeDefinitionIndex(GridFightGameRefFilter___c_TypeDefinitionIndex)->GetStaticField(0x2E9A0);
-		}
-		static ::System::Func_2<::RPG::GameCore::GridFightTraitBaseConfigRow*, ::RPG::GameCore::GridFightTraitType>** StaticGet___9__58_0()
-		{
-			return (::System::Func_2<::RPG::GameCore::GridFightTraitBaseConfigRow*, ::RPG::GameCore::GridFightTraitType>**)Il2CppClass::FromTypeDefinitionIndex(GridFightGameRefFilter___c_TypeDefinitionIndex)->GetStaticField(0x2E9A8);
-		}
-		static ::System::Func_2<::RPG::Client::GridFightRole*, ::System::Int64>** StaticGet___9__6_6()
-		{
-			return (::System::Func_2<::RPG::Client::GridFightRole*, ::System::Int64>**)Il2CppClass::FromTypeDefinitionIndex(GridFightGameRefFilter___c_TypeDefinitionIndex)->GetStaticField(0x2E9B0);
-		}
-		static ::System::Func_2<::RPG::Client::GridFightRole*, ::System::Int32>** StaticGet___9__6_4()
-		{
-			return (::System::Func_2<::RPG::Client::GridFightRole*, ::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(GridFightGameRefFilter___c_TypeDefinitionIndex)->GetStaticField(0x2E9B8);
-		}
-		static ::System::Func_2<::RPG::Client::GridFightRole*, ::System::Int32>** StaticGet___9__6_5()
-		{
-			return (::System::Func_2<::RPG::Client::GridFightRole*, ::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(GridFightGameRefFilter___c_TypeDefinitionIndex)->GetStaticField(0x2E9C0);
+			return (::System::Predicate_1<::RPG::Client::GridFightGameRefData*>**)Il2CppClass::FromTypeDefinitionIndex(GridFightGameRefFilter___c_TypeDefinitionIndex)->GetStaticField(0x27258);
 		}
 		static ::System::Func_3<::RPG::Client::GridFightGameRefData*, ::RPG::Client::GridFightGameRefData*, ::System::Int32>** StaticGet___9__2_0()
 		{
-			return (::System::Func_3<::RPG::Client::GridFightGameRefData*, ::RPG::Client::GridFightGameRefData*, ::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(GridFightGameRefFilter___c_TypeDefinitionIndex)->GetStaticField(0x2E9C8);
-		}
-		static ::System::Func_2<::RPG::Client::GridFightRole*, ::System::Int64>** StaticGet___9__6_7()
-		{
-			return (::System::Func_2<::RPG::Client::GridFightRole*, ::System::Int64>**)Il2CppClass::FromTypeDefinitionIndex(GridFightGameRefFilter___c_TypeDefinitionIndex)->GetStaticField(0x2E9D0);
+			return (::System::Func_3<::RPG::Client::GridFightGameRefData*, ::RPG::Client::GridFightGameRefData*, ::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(GridFightGameRefFilter___c_TypeDefinitionIndex)->GetStaticField(0x27260);
 		}
 		static ::System::Comparison_1<::RPG::AvatarSystem::IAvatar*>** StaticGet___9__4_0()
 		{
-			return (::System::Comparison_1<::RPG::AvatarSystem::IAvatar*>**)Il2CppClass::FromTypeDefinitionIndex(GridFightGameRefFilter___c_TypeDefinitionIndex)->GetStaticField(0x2E9D8);
+			return (::System::Comparison_1<::RPG::AvatarSystem::IAvatar*>**)Il2CppClass::FromTypeDefinitionIndex(GridFightGameRefFilter___c_TypeDefinitionIndex)->GetStaticField(0x27268);
 		}
-		static ::System::Func_2<::RPG::GameCore::GridFightTraitBaseConfigRow*, ::RPG::Client::GridFightTraitConfig*>** StaticGet___9__58_1()
+		static ::System::Func_2<::RPG::Client::GridFightRole*, ::System::Int64>** StaticGet___9__6_6()
 		{
-			return (::System::Func_2<::RPG::GameCore::GridFightTraitBaseConfigRow*, ::RPG::Client::GridFightTraitConfig*>**)Il2CppClass::FromTypeDefinitionIndex(GridFightGameRefFilter___c_TypeDefinitionIndex)->GetStaticField(0x2E9E0);
+			return (::System::Func_2<::RPG::Client::GridFightRole*, ::System::Int64>**)Il2CppClass::FromTypeDefinitionIndex(GridFightGameRefFilter___c_TypeDefinitionIndex)->GetStaticField(0x27270);
+		}
+		static ::System::Func_2<::RPG::Client::GridFightRole*, ::System::Int64>** StaticGet___9__6_7()
+		{
+			return (::System::Func_2<::RPG::Client::GridFightRole*, ::System::Int64>**)Il2CppClass::FromTypeDefinitionIndex(GridFightGameRefFilter___c_TypeDefinitionIndex)->GetStaticField(0x27278);
 		}
 		static ::RPG::Client::GridFightGameRefFilter___c** StaticGet___9()
 		{
-			return (::RPG::Client::GridFightGameRefFilter___c**)Il2CppClass::FromTypeDefinitionIndex(GridFightGameRefFilter___c_TypeDefinitionIndex)->GetStaticField(0x2E9E8);
+			return (::RPG::Client::GridFightGameRefFilter___c**)Il2CppClass::FromTypeDefinitionIndex(GridFightGameRefFilter___c_TypeDefinitionIndex)->GetStaticField(0x27280);
+		}
+		static ::System::Func_2<::RPG::GameCore::GridFightTraitBaseConfigRow*, ::RPG::GameCore::GridFightTraitType>** StaticGet___9__58_0()
+		{
+			return (::System::Func_2<::RPG::GameCore::GridFightTraitBaseConfigRow*, ::RPG::GameCore::GridFightTraitType>**)Il2CppClass::FromTypeDefinitionIndex(GridFightGameRefFilter___c_TypeDefinitionIndex)->GetStaticField(0x27288);
+		}
+		static ::System::Func_2<::RPG::Client::GridFightRole*, ::System::Int32>** StaticGet___9__6_4()
+		{
+			return (::System::Func_2<::RPG::Client::GridFightRole*, ::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(GridFightGameRefFilter___c_TypeDefinitionIndex)->GetStaticField(0x27290);
+		}
+		static ::System::Func_2<::RPG::Client::GridFightRole*, ::System::Int32>** StaticGet___9__6_5()
+		{
+			return (::System::Func_2<::RPG::Client::GridFightRole*, ::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(GridFightGameRefFilter___c_TypeDefinitionIndex)->GetStaticField(0x27298);
 		}
 
 		static ::System::Void _cctor()

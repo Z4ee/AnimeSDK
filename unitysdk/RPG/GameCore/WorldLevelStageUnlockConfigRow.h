@@ -5,12 +5,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_WORLDLEVELSTAGEUNLOCKCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x19E6C7A0)
-#define RPG_GAMECORE_WORLDLEVELSTAGEUNLOCKCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x19E6CE10)
+#define RPG_GAMECORE_WORLDLEVELSTAGEUNLOCKCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D1C6FF0)
+#define RPG_GAMECORE_WORLDLEVELSTAGEUNLOCKCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D1C7660)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int WorldLevelStageUnlockConfigRow_TypeDefinitionIndex = 11956;
+	inline static constexpr unsigned int WorldLevelStageUnlockConfigRow_TypeDefinitionIndex = 12088;
 
 	class WorldLevelStageUnlockConfigRow : public ::System::Object
 	{

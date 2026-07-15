@@ -4,12 +4,12 @@
 
 namespace System { class String; }
 
-#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_RUNTIMELABEL_TOSTRING_OFFSET UNITYSDK_OFFSET(0x3868940)
-#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_RUNTIMELABEL__CTOR_OFFSET UNITYSDK_OFFSET(0x2CA3450)
+#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_RUNTIMELABEL_TOSTRING_OFFSET UNITYSDK_OFFSET(0x3AA17C0)
+#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_RUNTIMELABEL__CTOR_OFFSET UNITYSDK_OFFSET(0x6EB6E0)
 
 namespace System::Linq::Expressions::Interpreter
 {
-	inline static constexpr unsigned int RuntimeLabel_TypeDefinitionIndex = 3303;
+	inline static constexpr unsigned int RuntimeLabel_TypeDefinitionIndex = 3307;
 
 	struct alignas(4) RuntimeLabel
 	{

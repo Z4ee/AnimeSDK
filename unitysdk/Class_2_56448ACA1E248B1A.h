@@ -8,15 +8,14 @@ namespace UnityEngine { class Animation; }
 namespace UnityEngine::UI { class Image; }
 namespace UnityEngine::UI { class Text; }
 
-#define CLASS_2_56448ACA1E248B1A_METHOD_2_54F087CB0E40E879_OFFSET UNITYSDK_OFFSET(0xAA3ED30)
-#define CLASS_2_56448ACA1E248B1A_METHOD_2_7994C4DE82EC92CB_OFFSET UNITYSDK_OFFSET(0xAA3EF30)
-#define CLASS_2_56448ACA1E248B1A_METHOD_2_7E0102A7D81125F5_OFFSET UNITYSDK_OFFSET(0xAA3EFE0)
-#define CLASS_2_56448ACA1E248B1A_METHOD_2_9C7395CE0F030E26_OFFSET UNITYSDK_OFFSET(0xAA3EBA0)
-#define CLASS_2_56448ACA1E248B1A__CTOR_OFFSET UNITYSDK_OFFSET(0xAA3F0E0)
-#define CLASS_2_56448ACA1E248B1A__ONBIND_OFFSET UNITYSDK_OFFSET(0xAA3EAE0)
-#define CLASS_2_56448ACA1E248B1A___IFIXBASEPROXY__ONBIND_OFFSET UNITYSDK_OFFSET(0xAA3F110)
+#define CLASS_2_56448ACA1E248B1A_METHOD_2_54F087CB0E40E879_OFFSET UNITYSDK_OFFSET(0x1825C190)
+#define CLASS_2_56448ACA1E248B1A_METHOD_2_7994C4DE82EC92CB_OFFSET UNITYSDK_OFFSET(0x1825C390)
+#define CLASS_2_56448ACA1E248B1A_METHOD_2_7E0102A7D81125F5_OFFSET UNITYSDK_OFFSET(0x1825C440)
+#define CLASS_2_56448ACA1E248B1A_METHOD_2_9C7395CE0F030E26_OFFSET UNITYSDK_OFFSET(0x1825C000)
+#define CLASS_2_56448ACA1E248B1A__CTOR_OFFSET UNITYSDK_OFFSET(0x1825C5A0)
+#define CLASS_2_56448ACA1E248B1A__ONBIND_OFFSET UNITYSDK_OFFSET(0x1825BF40)
 
-inline static constexpr unsigned int Class_2_56448ACA1E248B1A_TypeDefinitionIndex = 67587;
+inline static constexpr unsigned int Class_2_56448ACA1E248B1A_TypeDefinitionIndex = 69069;
 
 class Class_2_56448ACA1E248B1A : public ::Class_1_CA217ABF4E3B4F3F
 {
@@ -24,9 +23,9 @@ public:
 	// static const ::System::String* Field_2_0; // 0x0
 	// static const ::System::String* Field_2_1; // 0x0
 	// static const ::System::String* Field_2_2; // 0x0
-	::UnityEngine::Animation* Field_2_3; // 0x60
-	::UnityEngine::UI::Image* Field_2_4; // 0x68
-	::UnityEngine::UI::Text* Field_2_5; // 0x70
+	::UnityEngine::UI::Image* Field_2_3; // 0x60
+	::UnityEngine::UI::Text* Field_2_4; // 0x68
+	::UnityEngine::Animation* Field_2_5; // 0x70
 	::System::Int32 Field_2_6; // 0x78
 
 	::System::Void _ctor()
@@ -57,10 +56,5 @@ public:
 	::System::Void Method_2_7E0102A7D81125F5(::System::String* a1)
 	{
 		return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + CLASS_2_56448ACA1E248B1A_METHOD_2_7E0102A7D81125F5_OFFSET))(this, a1);
-	}
-
-	::System::Void __iFixBaseProxy__OnBind()
-	{
-		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_56448ACA1E248B1A___IFIXBASEPROXY__ONBIND_OFFSET))(this);
 	}
 };

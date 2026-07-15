@@ -6,24 +6,24 @@
 namespace RPG::Client { class MonoEffect; }
 namespace System { template <typename T1, typename T2> class Action_2; }
 
-#define RPG_CLIENT_LITTLEGAME_PIXAIR_PIXAIREQUIPVIEW___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xBE3BC80)
-#define RPG_CLIENT_LITTLEGAME_PIXAIR_PIXAIREQUIPVIEW___C__CTOR_OFFSET UNITYSDK_OFFSET(0xBE3BCC0)
-#define RPG_CLIENT_LITTLEGAME_PIXAIR_PIXAIREQUIPVIEW___C___FIREEFFECT_B__10_0_OFFSET UNITYSDK_OFFSET(0xBE3BCD0)
+#define RPG_CLIENT_LITTLEGAME_PIXAIR_PIXAIREQUIPVIEW___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x19AB71B0)
+#define RPG_CLIENT_LITTLEGAME_PIXAIR_PIXAIREQUIPVIEW___C__CTOR_OFFSET UNITYSDK_OFFSET(0x19AB71F0)
+#define RPG_CLIENT_LITTLEGAME_PIXAIR_PIXAIREQUIPVIEW___C___FIREEFFECT_B__10_0_OFFSET UNITYSDK_OFFSET(0x19AB7200)
 
 namespace RPG::Client::LittleGame::PixAir
 {
-	inline static constexpr unsigned int PixAirEquipView___c_TypeDefinitionIndex = 71844;
+	inline static constexpr unsigned int PixAirEquipView___c_TypeDefinitionIndex = 73369;
 
 	class PixAirEquipView___c : public ::System::Object
 	{
 	public:
-		static ::RPG::Client::LittleGame::PixAir::PixAirEquipView___c** StaticGet___9()
-		{
-			return (::RPG::Client::LittleGame::PixAir::PixAirEquipView___c**)Il2CppClass::FromTypeDefinitionIndex(PixAirEquipView___c_TypeDefinitionIndex)->GetStaticField(0x4E960);
-		}
 		static ::System::Action_2<::RPG::Client::MonoEffect*, ::RPG::Client::TriggerEffectCallbackParams>** StaticGet___9__10_0()
 		{
-			return (::System::Action_2<::RPG::Client::MonoEffect*, ::RPG::Client::TriggerEffectCallbackParams>**)Il2CppClass::FromTypeDefinitionIndex(PixAirEquipView___c_TypeDefinitionIndex)->GetStaticField(0x4E968);
+			return (::System::Action_2<::RPG::Client::MonoEffect*, ::RPG::Client::TriggerEffectCallbackParams>**)Il2CppClass::FromTypeDefinitionIndex(PixAirEquipView___c_TypeDefinitionIndex)->GetStaticField(0x3CEC0);
+		}
+		static ::RPG::Client::LittleGame::PixAir::PixAirEquipView___c** StaticGet___9()
+		{
+			return (::RPG::Client::LittleGame::PixAir::PixAirEquipView___c**)Il2CppClass::FromTypeDefinitionIndex(PixAirEquipView___c_TypeDefinitionIndex)->GetStaticField(0x3CEC8);
 		}
 
 		static ::System::Void _cctor()

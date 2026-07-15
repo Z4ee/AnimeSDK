@@ -8,13 +8,13 @@ namespace RPG::GameCore { class DynamicFloat; }
 namespace RPG::GameCore { class TargetEvaluator; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_ADDWEAKBYTEAMATTACKTYPE_METHOD_3_965303BC94380155_OFFSET UNITYSDK_OFFSET(0x19413D20)
-#define RPG_GAMECORE_ADDWEAKBYTEAMATTACKTYPE_METHOD_3_9A6CDB47A31832D9_OFFSET UNITYSDK_OFFSET(0x19413CA0)
-#define RPG_GAMECORE_ADDWEAKBYTEAMATTACKTYPE__CTOR_OFFSET UNITYSDK_OFFSET(0x19413CF0)
+#define RPG_GAMECORE_ADDWEAKBYTEAMATTACKTYPE_METHOD_3_518B5A10F34C41C1_OFFSET UNITYSDK_OFFSET(0x1BE0B810)
+#define RPG_GAMECORE_ADDWEAKBYTEAMATTACKTYPE_METHOD_3_965303BC94380155_OFFSET UNITYSDK_OFFSET(0x1BE0B850)
+#define RPG_GAMECORE_ADDWEAKBYTEAMATTACKTYPE__CTOR_OFFSET UNITYSDK_OFFSET(0x1BE0B840)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AddWeakByTeamAttackType_TypeDefinitionIndex = 22283;
+	inline static constexpr unsigned int AddWeakByTeamAttackType_TypeDefinitionIndex = 22724;
 
 	class AddWeakByTeamAttackType : public ::RPG::GameCore::TaskConfig
 	{
@@ -32,9 +32,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADDWEAKBYTEAMATTACKTYPE__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_9A6CDB47A31832D9(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AddWeakByTeamAttackType*& a2)
+		static ::System::Void Method_3_518B5A10F34C41C1(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AddWeakByTeamAttackType*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::AddWeakByTeamAttackType*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADDWEAKBYTEAMATTACKTYPE_METHOD_3_9A6CDB47A31832D9_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::AddWeakByTeamAttackType*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADDWEAKBYTEAMATTACKTYPE_METHOD_3_518B5A10F34C41C1_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_965303BC94380155(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AddWeakByTeamAttackType* a2)

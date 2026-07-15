@@ -7,7 +7,7 @@ namespace System { class String; }
 namespace System { template <typename T1, typename T2> class Action_2; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-inline static constexpr unsigned int Class_1_7A094D546B72ACCF_AssetLoader_2_TypeDefinitionIndex = 64657;
+inline static constexpr unsigned int Class_1_7A094D546B72ACCF_AssetLoader_2_TypeDefinitionIndex = 66058;
 
 template <typename T, typename V>
 class Class_1_7A094D546B72ACCF_AssetLoader_2 : public ::System::Object

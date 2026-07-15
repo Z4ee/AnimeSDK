@@ -6,13 +6,13 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class DynamicFloat; }
 namespace RPG::GameCore { class TriggerValidGuestConfig; }
 
-#define RPG_GAMECORE_ADVDISTRICTSETUPTRIGGER_METHOD_3_0CEA6486AE77E83C_OFFSET UNITYSDK_OFFSET(0x19420940)
-#define RPG_GAMECORE_ADVDISTRICTSETUPTRIGGER_METHOD_3_A94FA31A45A59D40_OFFSET UNITYSDK_OFFSET(0x19420B10)
-#define RPG_GAMECORE_ADVDISTRICTSETUPTRIGGER__CTOR_OFFSET UNITYSDK_OFFSET(0x19420A40)
+#define RPG_GAMECORE_ADVDISTRICTSETUPTRIGGER_METHOD_3_1338A9E3BC9119CC_OFFSET UNITYSDK_OFFSET(0x1BE194E0)
+#define RPG_GAMECORE_ADVDISTRICTSETUPTRIGGER_METHOD_3_A94FA31A45A59D40_OFFSET UNITYSDK_OFFSET(0x1BE19670)
+#define RPG_GAMECORE_ADVDISTRICTSETUPTRIGGER__CTOR_OFFSET UNITYSDK_OFFSET(0x1BE195C0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AdvDistrictSetupTrigger_TypeDefinitionIndex = 20024;
+	inline static constexpr unsigned int AdvDistrictSetupTrigger_TypeDefinitionIndex = 20396;
 
 	class AdvDistrictSetupTrigger : public ::RPG::GameCore::TaskConfig
 	{
@@ -31,9 +31,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVDISTRICTSETUPTRIGGER__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_0CEA6486AE77E83C(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AdvDistrictSetupTrigger*& a2)
+		static ::System::Void Method_3_1338A9E3BC9119CC(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AdvDistrictSetupTrigger*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::AdvDistrictSetupTrigger*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVDISTRICTSETUPTRIGGER_METHOD_3_0CEA6486AE77E83C_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::AdvDistrictSetupTrigger*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVDISTRICTSETUPTRIGGER_METHOD_3_1338A9E3BC9119CC_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_A94FA31A45A59D40(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AdvDistrictSetupTrigger* a2)

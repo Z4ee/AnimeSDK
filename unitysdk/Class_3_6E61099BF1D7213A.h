@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class AdvSetConfineFeatureParam; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_6E61099BF1D7213A_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xACA65E0)
-#define CLASS_3_6E61099BF1D7213A__CTOR_OFFSET UNITYSDK_OFFSET(0xACA65B0)
+#define CLASS_3_6E61099BF1D7213A_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1707DBF0)
+#define CLASS_3_6E61099BF1D7213A__CTOR_OFFSET UNITYSDK_OFFSET(0x1707DBC0)
 
-inline static constexpr unsigned int Class_3_6E61099BF1D7213A_TypeDefinitionIndex = 49093;
+inline static constexpr unsigned int Class_3_6E61099BF1D7213A_TypeDefinitionIndex = 50106;
 
 class Class_3_6E61099BF1D7213A : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::AdvSetConfineFeatureParam*>
 {

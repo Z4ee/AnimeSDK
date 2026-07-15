@@ -2,78 +2,78 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_0_16E4307DCC419505_68;
+class Class_0_16E4307DCC419505_87;
 class Class_1_942D03E5A029CB94;
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define RPG_CLIENT_VERSIONUPDATEMGR___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xCC18040)
-#define RPG_CLIENT_VERSIONUPDATEMGR___C__CTOR_OFFSET UNITYSDK_OFFSET(0xCC18080)
-#define RPG_CLIENT_VERSIONUPDATEMGR___C__GETPREDOWNLOADSIZE_B__19_0_OFFSET UNITYSDK_OFFSET(0xCC183B0)
-#define RPG_CLIENT_VERSIONUPDATEMGR___C__GETPREDOWNLOADSIZE_B__19_1_OFFSET UNITYSDK_OFFSET(0xCC18460)
-#define RPG_CLIENT_VERSIONUPDATEMGR___C___CALCAUDIOHPATCHDOWNLOADINFOSCORE_B__23_0_OFFSET UNITYSDK_OFFSET(0xCC18520)
-#define RPG_CLIENT_VERSIONUPDATEMGR___C___CALCAUDIOHPATCHDOWNLOADINFOSCORE_B__23_1_OFFSET UNITYSDK_OFFSET(0xCC185D0)
-#define RPG_CLIENT_VERSIONUPDATEMGR___C___CALCAUDIOHPATCHDOWNLOADINFOS_B__21_0_OFFSET UNITYSDK_OFFSET(0xCC18510)
-#define RPG_CLIENT_VERSIONUPDATEMGR___C___CALCBLOCKHPATCHDOWNLOADINFOSCORE_B__9_0_OFFSET UNITYSDK_OFFSET(0xCC18200)
-#define RPG_CLIENT_VERSIONUPDATEMGR___C___CALCBLOCKHPATCHDOWNLOADINFOSCORE_B__9_1_OFFSET UNITYSDK_OFFSET(0xCC18300)
-#define RPG_CLIENT_VERSIONUPDATEMGR___C___CALCBLOCKHPATCHDOWNLOADINFOSCORE_B__9_4_OFFSET UNITYSDK_OFFSET(0xCC182B0)
-#define RPG_CLIENT_VERSIONUPDATEMGR___C___CALCBLOCKHPATCHDOWNLOADINFOS_B__8_0_OFFSET UNITYSDK_OFFSET(0xCC181F0)
-#define RPG_CLIENT_VERSIONUPDATEMGR___C___GETDOWNLOADSIZE_B__7_0_OFFSET UNITYSDK_OFFSET(0xCC18090)
-#define RPG_CLIENT_VERSIONUPDATEMGR___C___GETDOWNLOADSIZE_B__7_1_OFFSET UNITYSDK_OFFSET(0xCC18140)
+#define RPG_CLIENT_VERSIONUPDATEMGR___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x17401B30)
+#define RPG_CLIENT_VERSIONUPDATEMGR___C__CTOR_OFFSET UNITYSDK_OFFSET(0x17401B70)
+#define RPG_CLIENT_VERSIONUPDATEMGR___C__GETPREDOWNLOADSIZE_B__19_0_OFFSET UNITYSDK_OFFSET(0x17401FE0)
+#define RPG_CLIENT_VERSIONUPDATEMGR___C__GETPREDOWNLOADSIZE_B__19_1_OFFSET UNITYSDK_OFFSET(0x174020E0)
+#define RPG_CLIENT_VERSIONUPDATEMGR___C___CALCAUDIOHPATCHDOWNLOADINFOSCORE_B__23_0_OFFSET UNITYSDK_OFFSET(0x174021F0)
+#define RPG_CLIENT_VERSIONUPDATEMGR___C___CALCAUDIOHPATCHDOWNLOADINFOSCORE_B__23_1_OFFSET UNITYSDK_OFFSET(0x174022F0)
+#define RPG_CLIENT_VERSIONUPDATEMGR___C___CALCAUDIOHPATCHDOWNLOADINFOS_B__21_0_OFFSET UNITYSDK_OFFSET(0x174021E0)
+#define RPG_CLIENT_VERSIONUPDATEMGR___C___CALCBLOCKHPATCHDOWNLOADINFOSCORE_B__9_0_OFFSET UNITYSDK_OFFSET(0x17401D90)
+#define RPG_CLIENT_VERSIONUPDATEMGR___C___CALCBLOCKHPATCHDOWNLOADINFOSCORE_B__9_1_OFFSET UNITYSDK_OFFSET(0x17401EE0)
+#define RPG_CLIENT_VERSIONUPDATEMGR___C___CALCBLOCKHPATCHDOWNLOADINFOSCORE_B__9_4_OFFSET UNITYSDK_OFFSET(0x17401E90)
+#define RPG_CLIENT_VERSIONUPDATEMGR___C___CALCBLOCKHPATCHDOWNLOADINFOS_B__8_0_OFFSET UNITYSDK_OFFSET(0x17401D80)
+#define RPG_CLIENT_VERSIONUPDATEMGR___C___GETDOWNLOADSIZE_B__7_0_OFFSET UNITYSDK_OFFSET(0x17401B80)
+#define RPG_CLIENT_VERSIONUPDATEMGR___C___GETDOWNLOADSIZE_B__7_1_OFFSET UNITYSDK_OFFSET(0x17401C80)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int VersionUpdateMgr___c_TypeDefinitionIndex = 57285;
+	inline static constexpr unsigned int VersionUpdateMgr___c_TypeDefinitionIndex = 58543;
 
 	class VersionUpdateMgr___c : public ::System::Object
 	{
 	public:
+		static ::System::Func_2<::Class_0_16E4307DCC419505_87*, ::System::Int64>** StaticGet___9__23_0()
+		{
+			return (::System::Func_2<::Class_0_16E4307DCC419505_87*, ::System::Int64>**)Il2CppClass::FromTypeDefinitionIndex(VersionUpdateMgr___c_TypeDefinitionIndex)->GetStaticField(0x550C0);
+		}
+		static ::System::Func_2<::Class_0_16E4307DCC419505_87*, ::System::Int64>** StaticGet___9__19_1()
+		{
+			return (::System::Func_2<::Class_0_16E4307DCC419505_87*, ::System::Int64>**)Il2CppClass::FromTypeDefinitionIndex(VersionUpdateMgr___c_TypeDefinitionIndex)->GetStaticField(0x550C8);
+		}
 		static ::System::Func_2<::Class_1_942D03E5A029CB94*, ::System::Int64>** StaticGet___9__9_4()
 		{
-			return (::System::Func_2<::Class_1_942D03E5A029CB94*, ::System::Int64>**)Il2CppClass::FromTypeDefinitionIndex(VersionUpdateMgr___c_TypeDefinitionIndex)->GetStaticField(0x61B50);
+			return (::System::Func_2<::Class_1_942D03E5A029CB94*, ::System::Int64>**)Il2CppClass::FromTypeDefinitionIndex(VersionUpdateMgr___c_TypeDefinitionIndex)->GetStaticField(0x550D0);
 		}
-		static ::System::Func_2<::Class_0_16E4307DCC419505_68*, ::System::Int64>** StaticGet___9__9_0()
+		static ::System::Func_2<::Class_0_16E4307DCC419505_87*, ::System::Int64>** StaticGet___9__7_0()
 		{
-			return (::System::Func_2<::Class_0_16E4307DCC419505_68*, ::System::Int64>**)Il2CppClass::FromTypeDefinitionIndex(VersionUpdateMgr___c_TypeDefinitionIndex)->GetStaticField(0x61B58);
+			return (::System::Func_2<::Class_0_16E4307DCC419505_87*, ::System::Int64>**)Il2CppClass::FromTypeDefinitionIndex(VersionUpdateMgr___c_TypeDefinitionIndex)->GetStaticField(0x550D8);
 		}
-		static ::System::Func_2<::Class_0_16E4307DCC419505_68*, ::System::Boolean>** StaticGet___9__21_0()
+		static ::System::Func_2<::Class_0_16E4307DCC419505_87*, ::System::Int64>** StaticGet___9__9_0()
 		{
-			return (::System::Func_2<::Class_0_16E4307DCC419505_68*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(VersionUpdateMgr___c_TypeDefinitionIndex)->GetStaticField(0x61B60);
+			return (::System::Func_2<::Class_0_16E4307DCC419505_87*, ::System::Int64>**)Il2CppClass::FromTypeDefinitionIndex(VersionUpdateMgr___c_TypeDefinitionIndex)->GetStaticField(0x550E0);
 		}
-		static ::System::Func_2<::Class_0_16E4307DCC419505_68*, ::System::Int64>** StaticGet___9__23_1()
+		static ::System::Func_2<::Class_0_16E4307DCC419505_87*, ::System::Int64>** StaticGet___9__23_1()
 		{
-			return (::System::Func_2<::Class_0_16E4307DCC419505_68*, ::System::Int64>**)Il2CppClass::FromTypeDefinitionIndex(VersionUpdateMgr___c_TypeDefinitionIndex)->GetStaticField(0x61B68);
+			return (::System::Func_2<::Class_0_16E4307DCC419505_87*, ::System::Int64>**)Il2CppClass::FromTypeDefinitionIndex(VersionUpdateMgr___c_TypeDefinitionIndex)->GetStaticField(0x550E8);
 		}
-		static ::System::Func_2<::Class_0_16E4307DCC419505_68*, ::System::Int64>** StaticGet___9__19_1()
+		static ::System::Func_2<::Class_0_16E4307DCC419505_87*, ::System::Int64>** StaticGet___9__7_1()
 		{
-			return (::System::Func_2<::Class_0_16E4307DCC419505_68*, ::System::Int64>**)Il2CppClass::FromTypeDefinitionIndex(VersionUpdateMgr___c_TypeDefinitionIndex)->GetStaticField(0x61B70);
+			return (::System::Func_2<::Class_0_16E4307DCC419505_87*, ::System::Int64>**)Il2CppClass::FromTypeDefinitionIndex(VersionUpdateMgr___c_TypeDefinitionIndex)->GetStaticField(0x550F0);
 		}
-		static ::System::Func_2<::Class_0_16E4307DCC419505_68*, ::System::Int64>** StaticGet___9__7_1()
+		static ::System::Func_2<::Class_0_16E4307DCC419505_87*, ::System::Int64>** StaticGet___9__19_0()
 		{
-			return (::System::Func_2<::Class_0_16E4307DCC419505_68*, ::System::Int64>**)Il2CppClass::FromTypeDefinitionIndex(VersionUpdateMgr___c_TypeDefinitionIndex)->GetStaticField(0x61B78);
+			return (::System::Func_2<::Class_0_16E4307DCC419505_87*, ::System::Int64>**)Il2CppClass::FromTypeDefinitionIndex(VersionUpdateMgr___c_TypeDefinitionIndex)->GetStaticField(0x550F8);
 		}
-		static ::System::Func_2<::Class_0_16E4307DCC419505_68*, ::System::Boolean>** StaticGet___9__8_0()
+		static ::System::Func_2<::Class_0_16E4307DCC419505_87*, ::System::Boolean>** StaticGet___9__21_0()
 		{
-			return (::System::Func_2<::Class_0_16E4307DCC419505_68*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(VersionUpdateMgr___c_TypeDefinitionIndex)->GetStaticField(0x61B80);
+			return (::System::Func_2<::Class_0_16E4307DCC419505_87*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(VersionUpdateMgr___c_TypeDefinitionIndex)->GetStaticField(0x55100);
 		}
-		static ::System::Func_2<::Class_0_16E4307DCC419505_68*, ::System::Int64>** StaticGet___9__23_0()
+		static ::System::Func_2<::Class_0_16E4307DCC419505_87*, ::System::Int64>** StaticGet___9__9_1()
 		{
-			return (::System::Func_2<::Class_0_16E4307DCC419505_68*, ::System::Int64>**)Il2CppClass::FromTypeDefinitionIndex(VersionUpdateMgr___c_TypeDefinitionIndex)->GetStaticField(0x61B88);
+			return (::System::Func_2<::Class_0_16E4307DCC419505_87*, ::System::Int64>**)Il2CppClass::FromTypeDefinitionIndex(VersionUpdateMgr___c_TypeDefinitionIndex)->GetStaticField(0x55108);
 		}
-		static ::System::Func_2<::Class_0_16E4307DCC419505_68*, ::System::Int64>** StaticGet___9__19_0()
+		static ::System::Func_2<::Class_0_16E4307DCC419505_87*, ::System::Boolean>** StaticGet___9__8_0()
 		{
-			return (::System::Func_2<::Class_0_16E4307DCC419505_68*, ::System::Int64>**)Il2CppClass::FromTypeDefinitionIndex(VersionUpdateMgr___c_TypeDefinitionIndex)->GetStaticField(0x61B90);
-		}
-		static ::System::Func_2<::Class_0_16E4307DCC419505_68*, ::System::Int64>** StaticGet___9__9_1()
-		{
-			return (::System::Func_2<::Class_0_16E4307DCC419505_68*, ::System::Int64>**)Il2CppClass::FromTypeDefinitionIndex(VersionUpdateMgr___c_TypeDefinitionIndex)->GetStaticField(0x61B98);
+			return (::System::Func_2<::Class_0_16E4307DCC419505_87*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(VersionUpdateMgr___c_TypeDefinitionIndex)->GetStaticField(0x55110);
 		}
 		static ::RPG::Client::VersionUpdateMgr___c** StaticGet___9()
 		{
-			return (::RPG::Client::VersionUpdateMgr___c**)Il2CppClass::FromTypeDefinitionIndex(VersionUpdateMgr___c_TypeDefinitionIndex)->GetStaticField(0x61BA0);
-		}
-		static ::System::Func_2<::Class_0_16E4307DCC419505_68*, ::System::Int64>** StaticGet___9__7_0()
-		{
-			return (::System::Func_2<::Class_0_16E4307DCC419505_68*, ::System::Int64>**)Il2CppClass::FromTypeDefinitionIndex(VersionUpdateMgr___c_TypeDefinitionIndex)->GetStaticField(0x61BA8);
+			return (::RPG::Client::VersionUpdateMgr___c**)Il2CppClass::FromTypeDefinitionIndex(VersionUpdateMgr___c_TypeDefinitionIndex)->GetStaticField(0x55118);
 		}
 
 		static ::System::Void _cctor()
@@ -86,24 +86,24 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_VERSIONUPDATEMGR___C__CTOR_OFFSET))(this);
 		}
 
-		::System::Int64 __GetDownloadSize_b__7_0(::Class_0_16E4307DCC419505_68* a1)
+		::System::Int64 __GetDownloadSize_b__7_0(::Class_0_16E4307DCC419505_87* a1)
 		{
-			return ((::System::Int64(*)(::PVOID, ::Class_0_16E4307DCC419505_68*))((::PBYTE)hIl2Cpp + RPG_CLIENT_VERSIONUPDATEMGR___C___GETDOWNLOADSIZE_B__7_0_OFFSET))(this, a1);
+			return ((::System::Int64(*)(::PVOID, ::Class_0_16E4307DCC419505_87*))((::PBYTE)hIl2Cpp + RPG_CLIENT_VERSIONUPDATEMGR___C___GETDOWNLOADSIZE_B__7_0_OFFSET))(this, a1);
 		}
 
-		::System::Int64 __GetDownloadSize_b__7_1(::Class_0_16E4307DCC419505_68* a1)
+		::System::Int64 __GetDownloadSize_b__7_1(::Class_0_16E4307DCC419505_87* a1)
 		{
-			return ((::System::Int64(*)(::PVOID, ::Class_0_16E4307DCC419505_68*))((::PBYTE)hIl2Cpp + RPG_CLIENT_VERSIONUPDATEMGR___C___GETDOWNLOADSIZE_B__7_1_OFFSET))(this, a1);
+			return ((::System::Int64(*)(::PVOID, ::Class_0_16E4307DCC419505_87*))((::PBYTE)hIl2Cpp + RPG_CLIENT_VERSIONUPDATEMGR___C___GETDOWNLOADSIZE_B__7_1_OFFSET))(this, a1);
 		}
 
-		::System::Boolean __CalcBlockHPatchDownloadInfos_b__8_0(::Class_0_16E4307DCC419505_68* a1)
+		::System::Boolean __CalcBlockHPatchDownloadInfos_b__8_0(::Class_0_16E4307DCC419505_87* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::Class_0_16E4307DCC419505_68*))((::PBYTE)hIl2Cpp + RPG_CLIENT_VERSIONUPDATEMGR___C___CALCBLOCKHPATCHDOWNLOADINFOS_B__8_0_OFFSET))(this, a1);
+			return ((::System::Boolean(*)(::PVOID, ::Class_0_16E4307DCC419505_87*))((::PBYTE)hIl2Cpp + RPG_CLIENT_VERSIONUPDATEMGR___C___CALCBLOCKHPATCHDOWNLOADINFOS_B__8_0_OFFSET))(this, a1);
 		}
 
-		::System::Int64 __CalcBlockHPatchDownloadInfosCore_b__9_0(::Class_0_16E4307DCC419505_68* a1)
+		::System::Int64 __CalcBlockHPatchDownloadInfosCore_b__9_0(::Class_0_16E4307DCC419505_87* a1)
 		{
-			return ((::System::Int64(*)(::PVOID, ::Class_0_16E4307DCC419505_68*))((::PBYTE)hIl2Cpp + RPG_CLIENT_VERSIONUPDATEMGR___C___CALCBLOCKHPATCHDOWNLOADINFOSCORE_B__9_0_OFFSET))(this, a1);
+			return ((::System::Int64(*)(::PVOID, ::Class_0_16E4307DCC419505_87*))((::PBYTE)hIl2Cpp + RPG_CLIENT_VERSIONUPDATEMGR___C___CALCBLOCKHPATCHDOWNLOADINFOSCORE_B__9_0_OFFSET))(this, a1);
 		}
 
 		::System::Int64 __CalcBlockHPatchDownloadInfosCore_b__9_4(::Class_1_942D03E5A029CB94* a1)
@@ -111,34 +111,34 @@ namespace RPG::Client
 			return ((::System::Int64(*)(::PVOID, ::Class_1_942D03E5A029CB94*))((::PBYTE)hIl2Cpp + RPG_CLIENT_VERSIONUPDATEMGR___C___CALCBLOCKHPATCHDOWNLOADINFOSCORE_B__9_4_OFFSET))(this, a1);
 		}
 
-		::System::Int64 __CalcBlockHPatchDownloadInfosCore_b__9_1(::Class_0_16E4307DCC419505_68* a1)
+		::System::Int64 __CalcBlockHPatchDownloadInfosCore_b__9_1(::Class_0_16E4307DCC419505_87* a1)
 		{
-			return ((::System::Int64(*)(::PVOID, ::Class_0_16E4307DCC419505_68*))((::PBYTE)hIl2Cpp + RPG_CLIENT_VERSIONUPDATEMGR___C___CALCBLOCKHPATCHDOWNLOADINFOSCORE_B__9_1_OFFSET))(this, a1);
+			return ((::System::Int64(*)(::PVOID, ::Class_0_16E4307DCC419505_87*))((::PBYTE)hIl2Cpp + RPG_CLIENT_VERSIONUPDATEMGR___C___CALCBLOCKHPATCHDOWNLOADINFOSCORE_B__9_1_OFFSET))(this, a1);
 		}
 
-		::System::Int64 _GetPreDownloadSize_b__19_0(::Class_0_16E4307DCC419505_68* a1)
+		::System::Int64 _GetPreDownloadSize_b__19_0(::Class_0_16E4307DCC419505_87* a1)
 		{
-			return ((::System::Int64(*)(::PVOID, ::Class_0_16E4307DCC419505_68*))((::PBYTE)hIl2Cpp + RPG_CLIENT_VERSIONUPDATEMGR___C__GETPREDOWNLOADSIZE_B__19_0_OFFSET))(this, a1);
+			return ((::System::Int64(*)(::PVOID, ::Class_0_16E4307DCC419505_87*))((::PBYTE)hIl2Cpp + RPG_CLIENT_VERSIONUPDATEMGR___C__GETPREDOWNLOADSIZE_B__19_0_OFFSET))(this, a1);
 		}
 
-		::System::Int64 _GetPreDownloadSize_b__19_1(::Class_0_16E4307DCC419505_68* a1)
+		::System::Int64 _GetPreDownloadSize_b__19_1(::Class_0_16E4307DCC419505_87* a1)
 		{
-			return ((::System::Int64(*)(::PVOID, ::Class_0_16E4307DCC419505_68*))((::PBYTE)hIl2Cpp + RPG_CLIENT_VERSIONUPDATEMGR___C__GETPREDOWNLOADSIZE_B__19_1_OFFSET))(this, a1);
+			return ((::System::Int64(*)(::PVOID, ::Class_0_16E4307DCC419505_87*))((::PBYTE)hIl2Cpp + RPG_CLIENT_VERSIONUPDATEMGR___C__GETPREDOWNLOADSIZE_B__19_1_OFFSET))(this, a1);
 		}
 
-		::System::Boolean __CalcAudioHPatchDownloadInfos_b__21_0(::Class_0_16E4307DCC419505_68* a1)
+		::System::Boolean __CalcAudioHPatchDownloadInfos_b__21_0(::Class_0_16E4307DCC419505_87* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::Class_0_16E4307DCC419505_68*))((::PBYTE)hIl2Cpp + RPG_CLIENT_VERSIONUPDATEMGR___C___CALCAUDIOHPATCHDOWNLOADINFOS_B__21_0_OFFSET))(this, a1);
+			return ((::System::Boolean(*)(::PVOID, ::Class_0_16E4307DCC419505_87*))((::PBYTE)hIl2Cpp + RPG_CLIENT_VERSIONUPDATEMGR___C___CALCAUDIOHPATCHDOWNLOADINFOS_B__21_0_OFFSET))(this, a1);
 		}
 
-		::System::Int64 __CalcAudioHPatchDownloadInfosCore_b__23_0(::Class_0_16E4307DCC419505_68* a1)
+		::System::Int64 __CalcAudioHPatchDownloadInfosCore_b__23_0(::Class_0_16E4307DCC419505_87* a1)
 		{
-			return ((::System::Int64(*)(::PVOID, ::Class_0_16E4307DCC419505_68*))((::PBYTE)hIl2Cpp + RPG_CLIENT_VERSIONUPDATEMGR___C___CALCAUDIOHPATCHDOWNLOADINFOSCORE_B__23_0_OFFSET))(this, a1);
+			return ((::System::Int64(*)(::PVOID, ::Class_0_16E4307DCC419505_87*))((::PBYTE)hIl2Cpp + RPG_CLIENT_VERSIONUPDATEMGR___C___CALCAUDIOHPATCHDOWNLOADINFOSCORE_B__23_0_OFFSET))(this, a1);
 		}
 
-		::System::Int64 __CalcAudioHPatchDownloadInfosCore_b__23_1(::Class_0_16E4307DCC419505_68* a1)
+		::System::Int64 __CalcAudioHPatchDownloadInfosCore_b__23_1(::Class_0_16E4307DCC419505_87* a1)
 		{
-			return ((::System::Int64(*)(::PVOID, ::Class_0_16E4307DCC419505_68*))((::PBYTE)hIl2Cpp + RPG_CLIENT_VERSIONUPDATEMGR___C___CALCAUDIOHPATCHDOWNLOADINFOSCORE_B__23_1_OFFSET))(this, a1);
+			return ((::System::Int64(*)(::PVOID, ::Class_0_16E4307DCC419505_87*))((::PBYTE)hIl2Cpp + RPG_CLIENT_VERSIONUPDATEMGR___C___CALCAUDIOHPATCHDOWNLOADINFOSCORE_B__23_1_OFFSET))(this, a1);
 		}
 	};
 }

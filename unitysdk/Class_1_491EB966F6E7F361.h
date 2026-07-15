@@ -4,16 +4,16 @@
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-#define CLASS_1_491EB966F6E7F361__CTOR_OFFSET UNITYSDK_OFFSET(0x18C70E70)
+#define CLASS_1_491EB966F6E7F361__CTOR_OFFSET UNITYSDK_OFFSET(0x1AE451D0)
 
-inline static constexpr unsigned int Class_1_491EB966F6E7F361_TypeDefinitionIndex = 39517;
+inline static constexpr unsigned int Class_1_491EB966F6E7F361_TypeDefinitionIndex = 40326;
 
 class Class_1_491EB966F6E7F361 : public ::System::Object
 {
 public:
-	::UnityEngine::Vector3 Field_1_0; // 0x10
-	::RPG::Client::LittleGame::TimelineControlGameCharacterVisionConfig Field_1_1; // 0x1C
-	::System::Single Field_1_2; // 0x24
+	::RPG::Client::LittleGame::TimelineControlGameCharacterVisionConfig Field_1_0; // 0x10
+	::System::Single Field_1_1; // 0x18
+	::UnityEngine::Vector3 Field_1_2; // 0x1C
 
 	::System::Void _ctor()
 	{

@@ -4,12 +4,12 @@
 
 class Class_1_185A388C9275732B;
 
-#define RPG_CLIENT_TEAMBUILDCALCULATOR___C__DISPLAYCLASS21_0__CTOR_OFFSET UNITYSDK_OFFSET(0xC9EEC00)
-#define RPG_CLIENT_TEAMBUILDCALCULATOR___C__DISPLAYCLASS21_0___FILLWITHALTERNATIVEAVATARS_B__0_OFFSET UNITYSDK_OFFSET(0xC9F20F0)
+#define RPG_CLIENT_TEAMBUILDCALCULATOR___C__DISPLAYCLASS21_0__CTOR_OFFSET UNITYSDK_OFFSET(0x18550F90)
+#define RPG_CLIENT_TEAMBUILDCALCULATOR___C__DISPLAYCLASS21_0___FILLWITHALTERNATIVEAVATARS_B__0_OFFSET UNITYSDK_OFFSET(0x185549A0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int TeamBuildCalculator___c__DisplayClass21_0_TypeDefinitionIndex = 63707;
+	inline static constexpr unsigned int TeamBuildCalculator___c__DisplayClass21_0_TypeDefinitionIndex = 65076;
 
 	class TeamBuildCalculator___c__DisplayClass21_0 : public ::System::Object
 	{

@@ -5,11 +5,11 @@
 namespace Google::Protobuf::Reflection { class IDescriptor; }
 namespace System { class String; }
 
-#define GOOGLE_PROTOBUF_REFLECTION_DESCRIPTORVALIDATIONEXCEPTION__CTOR_OFFSET UNITYSDK_OFFSET(0x17E48CC0)
+#define GOOGLE_PROTOBUF_REFLECTION_DESCRIPTORVALIDATIONEXCEPTION__CTOR_OFFSET UNITYSDK_OFFSET(0x19048EB0)
 
 namespace Google::Protobuf::Reflection
 {
-	inline static constexpr unsigned int DescriptorValidationException_TypeDefinitionIndex = 5530;
+	inline static constexpr unsigned int DescriptorValidationException_TypeDefinitionIndex = 5535;
 
 	class DescriptorValidationException : public ::System::Exception
 	{

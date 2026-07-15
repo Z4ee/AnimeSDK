@@ -4,11 +4,11 @@
 
 namespace System { class String; }
 
-#define NEWTONSOFT_JSON_UTILITIES_VALIDATIONUTILS_ARGUMENTNOTNULL_OFFSET UNITYSDK_OFFSET(0x1887D1B0)
+#define NEWTONSOFT_JSON_UTILITIES_VALIDATIONUTILS_ARGUMENTNOTNULL_OFFSET UNITYSDK_OFFSET(0x1D1F3AB0)
 
 namespace Newtonsoft::Json::Utilities
 {
-	inline static constexpr unsigned int ValidationUtils_TypeDefinitionIndex = 9337;
+	inline static constexpr unsigned int ValidationUtils_TypeDefinitionIndex = 9349;
 
 	class ValidationUtils : public ::System::Object
 	{

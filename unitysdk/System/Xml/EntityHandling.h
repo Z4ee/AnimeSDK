@@ -3,7 +3,7 @@
 
 namespace System::Xml
 {
-	inline static constexpr unsigned int EntityHandling_TypeDefinitionIndex = 1789;
+	inline static constexpr unsigned int EntityHandling_TypeDefinitionIndex = 1793;
 
 	enum class EntityHandling : ::System::Int32
 	{

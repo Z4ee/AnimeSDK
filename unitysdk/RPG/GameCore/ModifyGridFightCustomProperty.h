@@ -7,13 +7,13 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class DynamicFloat; }
 namespace RPG::GameCore { class JsonEnum; }
 
-#define RPG_GAMECORE_MODIFYGRIDFIGHTCUSTOMPROPERTY_METHOD_3_935082945CA60222_OFFSET UNITYSDK_OFFSET(0x19956490)
-#define RPG_GAMECORE_MODIFYGRIDFIGHTCUSTOMPROPERTY_METHOD_3_CFBD91B041AF2A25_OFFSET UNITYSDK_OFFSET(0x19956400)
-#define RPG_GAMECORE_MODIFYGRIDFIGHTCUSTOMPROPERTY__CTOR_OFFSET UNITYSDK_OFFSET(0x19956460)
+#define RPG_GAMECORE_MODIFYGRIDFIGHTCUSTOMPROPERTY_METHOD_3_60C7D4D51453FA8B_OFFSET UNITYSDK_OFFSET(0x1B1AB470)
+#define RPG_GAMECORE_MODIFYGRIDFIGHTCUSTOMPROPERTY_METHOD_3_935082945CA60222_OFFSET UNITYSDK_OFFSET(0x1B1AB4C0)
+#define RPG_GAMECORE_MODIFYGRIDFIGHTCUSTOMPROPERTY__CTOR_OFFSET UNITYSDK_OFFSET(0x1B1AB4B0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ModifyGridFightCustomProperty_TypeDefinitionIndex = 21306;
+	inline static constexpr unsigned int ModifyGridFightCustomProperty_TypeDefinitionIndex = 21721;
 
 	class ModifyGridFightCustomProperty : public ::RPG::GameCore::TaskConfig
 	{
@@ -27,9 +27,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MODIFYGRIDFIGHTCUSTOMPROPERTY__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_CFBD91B041AF2A25(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ModifyGridFightCustomProperty*& a2)
+		static ::System::Void Method_3_60C7D4D51453FA8B(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ModifyGridFightCustomProperty*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ModifyGridFightCustomProperty*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MODIFYGRIDFIGHTCUSTOMPROPERTY_METHOD_3_CFBD91B041AF2A25_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ModifyGridFightCustomProperty*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MODIFYGRIDFIGHTCUSTOMPROPERTY_METHOD_3_60C7D4D51453FA8B_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_935082945CA60222(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ModifyGridFightCustomProperty* a2)

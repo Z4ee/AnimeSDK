@@ -8,13 +8,11 @@ namespace RPG::GameCore { class OptionTriggerInfo; }
 namespace System { class Action; }
 namespace System { template <typename T> class Func_1; }
 
-#define CLASS_3_3100354E684764E9_1_DOONENTER_OFFSET UNITYSDK_OFFSET(0xAAB9910)
-#define CLASS_3_3100354E684764E9_1_DOONEXIT_OFFSET UNITYSDK_OFFSET(0xAAB99D0)
-#define CLASS_3_3100354E684764E9_1__CTOR_OFFSET UNITYSDK_OFFSET(0xAAB98A0)
-#define CLASS_3_3100354E684764E9_1___IFIXBASEPROXY_DOONENTER_OFFSET UNITYSDK_OFFSET(0xAAB9A90)
-#define CLASS_3_3100354E684764E9_1___IFIXBASEPROXY_DOONEXIT_OFFSET UNITYSDK_OFFSET(0xAAB9B10)
+#define CLASS_3_3100354E684764E9_1_DOONENTER_OFFSET UNITYSDK_OFFSET(0x16A25000)
+#define CLASS_3_3100354E684764E9_1_DOONEXIT_OFFSET UNITYSDK_OFFSET(0x16A25080)
+#define CLASS_3_3100354E684764E9_1__CTOR_OFFSET UNITYSDK_OFFSET(0x16A24F90)
 
-inline static constexpr unsigned int Class_3_3100354E684764E9_1_TypeDefinitionIndex = 73331;
+inline static constexpr unsigned int Class_3_3100354E684764E9_1_TypeDefinitionIndex = 74856;
 
 class Class_3_3100354E684764E9_1 : public ::Class_2_C5E5FE6832D0C155
 {
@@ -35,15 +33,5 @@ public:
 	::System::Void DoOnExit(::RPG::GameCore::GameEntity* a1, ::RPG::GameCore::TriggerExitReason a2)
 	{
 		return ((::System::Void(*)(::PVOID, ::RPG::GameCore::GameEntity*, ::RPG::GameCore::TriggerExitReason))((::PBYTE)hIl2Cpp + CLASS_3_3100354E684764E9_1_DOONEXIT_OFFSET))(this, a1, a2);
-	}
-
-	::System::Void __iFixBaseProxy_DoOnEnter(::RPG::GameCore::GameEntity* a1)
-	{
-		return ((::System::Void(*)(::PVOID, ::RPG::GameCore::GameEntity*))((::PBYTE)hIl2Cpp + CLASS_3_3100354E684764E9_1___IFIXBASEPROXY_DOONENTER_OFFSET))(this, a1);
-	}
-
-	::System::Void __iFixBaseProxy_DoOnExit(::RPG::GameCore::GameEntity* a1, ::RPG::GameCore::TriggerExitReason a2)
-	{
-		return ((::System::Void(*)(::PVOID, ::RPG::GameCore::GameEntity*, ::RPG::GameCore::TriggerExitReason))((::PBYTE)hIl2Cpp + CLASS_3_3100354E684764E9_1___IFIXBASEPROXY_DOONEXIT_OFFSET))(this, a1, a2);
 	}
 };

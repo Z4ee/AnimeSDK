@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int GameFlowType_TypeDefinitionIndex = 10176;
+	inline static constexpr unsigned int GameFlowType_TypeDefinitionIndex = 10196;
 
 	enum class GameFlowType : ::System::Int32
 	{

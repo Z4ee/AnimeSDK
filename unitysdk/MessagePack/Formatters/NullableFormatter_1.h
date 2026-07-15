@@ -9,7 +9,7 @@ namespace MessagePack { class MessagePackSerializerOptions; }
 
 namespace MessagePack::Formatters
 {
-	inline static constexpr unsigned int NullableFormatter_1_TypeDefinitionIndex = 7396;
+	inline static constexpr unsigned int NullableFormatter_1_TypeDefinitionIndex = 7402;
 
 	template <typename T>
 	class NullableFormatter_1 : public ::System::Object

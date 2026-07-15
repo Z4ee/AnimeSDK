@@ -5,12 +5,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class FreeStyleState; }
 
-#define RPG_GAMECORE_FREESTYLESTATECONFIG_METHOD_2_C6FBE8EDE389A2BA_OFFSET UNITYSDK_OFFSET(0x1976E1A0)
-#define RPG_GAMECORE_FREESTYLESTATECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1976E2D0)
+#define RPG_GAMECORE_FREESTYLESTATECONFIG_METHOD_2_C6FBE8EDE389A2BA_OFFSET UNITYSDK_OFFSET(0x1B9805E0)
+#define RPG_GAMECORE_FREESTYLESTATECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1B980710)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FreeStyleStateConfig_TypeDefinitionIndex = 15495;
+	inline static constexpr unsigned int FreeStyleStateConfig_TypeDefinitionIndex = 15666;
 
 	class FreeStyleStateConfig : public ::RPG::GameCore::JsonConfig
 	{

@@ -4,13 +4,13 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_TRIGGERPARTNERANIMSYNC_METHOD_3_9358CD7A822E0E0E_OFFSET UNITYSDK_OFFSET(0x19E1A0D0)
-#define RPG_GAMECORE_TRIGGERPARTNERANIMSYNC_METHOD_3_B4617135F0F6BF5F_OFFSET UNITYSDK_OFFSET(0x19E1A050)
-#define RPG_GAMECORE_TRIGGERPARTNERANIMSYNC__CTOR_OFFSET UNITYSDK_OFFSET(0x19E1A0A0)
+#define RPG_GAMECORE_TRIGGERPARTNERANIMSYNC_METHOD_3_8D643D1D3720164D_OFFSET UNITYSDK_OFFSET(0x1B05A6F0)
+#define RPG_GAMECORE_TRIGGERPARTNERANIMSYNC_METHOD_3_9358CD7A822E0E0E_OFFSET UNITYSDK_OFFSET(0x1B05A730)
+#define RPG_GAMECORE_TRIGGERPARTNERANIMSYNC__CTOR_OFFSET UNITYSDK_OFFSET(0x1B05A720)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TriggerPartnerAnimSync_TypeDefinitionIndex = 22169;
+	inline static constexpr unsigned int TriggerPartnerAnimSync_TypeDefinitionIndex = 22606;
 
 	class TriggerPartnerAnimSync : public ::RPG::GameCore::TaskConfig
 	{
@@ -22,9 +22,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TRIGGERPARTNERANIMSYNC__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_B4617135F0F6BF5F(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::TriggerPartnerAnimSync*& a2)
+		static ::System::Void Method_3_8D643D1D3720164D(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::TriggerPartnerAnimSync*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::TriggerPartnerAnimSync*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TRIGGERPARTNERANIMSYNC_METHOD_3_B4617135F0F6BF5F_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::TriggerPartnerAnimSync*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TRIGGERPARTNERANIMSYNC_METHOD_3_8D643D1D3720164D_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_9358CD7A822E0E0E(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::TriggerPartnerAnimSync* a2)

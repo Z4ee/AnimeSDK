@@ -5,12 +5,12 @@
 
 namespace RPG::Client::ChenLingBattle { class CardConfig; }
 
-#define RPG_CLIENT_CHENLINGBATTLEDECKDATA___C__DISPLAYCLASS10_0__CTOR_OFFSET UNITYSDK_OFFSET(0xB5D4890)
-#define RPG_CLIENT_CHENLINGBATTLEDECKDATA___C__DISPLAYCLASS10_0__GETCARDSBYTYPE_B__0_OFFSET UNITYSDK_OFFSET(0xB5D52C0)
+#define RPG_CLIENT_CHENLINGBATTLEDECKDATA___C__DISPLAYCLASS10_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1AFEE120)
+#define RPG_CLIENT_CHENLINGBATTLEDECKDATA___C__DISPLAYCLASS10_0__GETCARDSBYTYPE_B__0_OFFSET UNITYSDK_OFFSET(0x1AFEECA0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ChenLingBattleDeckData___c__DisplayClass10_0_TypeDefinitionIndex = 57426;
+	inline static constexpr unsigned int ChenLingBattleDeckData___c__DisplayClass10_0_TypeDefinitionIndex = 58688;
 
 	class ChenLingBattleDeckData___c__DisplayClass10_0 : public ::System::Object
 	{

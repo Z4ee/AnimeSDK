@@ -4,18 +4,18 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_CHENLINGCONQUERLEVELROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x19626B90)
-#define RPG_GAMECORE_CHENLINGCONQUERLEVELROW__CTOR_OFFSET UNITYSDK_OFFSET(0x19626C80)
+#define RPG_GAMECORE_CHENLINGCONQUERLEVELROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1C3814D0)
+#define RPG_GAMECORE_CHENLINGCONQUERLEVELROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1C3815C0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ChenLingConquerLevelRow_TypeDefinitionIndex = 10647;
+	inline static constexpr unsigned int ChenLingConquerLevelRow_TypeDefinitionIndex = 10697;
 
 	class ChenLingConquerLevelRow : public ::System::Object
 	{
 	public:
-		::System::UInt32 Level; // 0x10
-		::System::UInt32 PrivilegePointNum; // 0x14
+		::System::UInt32 PrivilegePointNum; // 0x10
+		::System::UInt32 Level; // 0x14
 
 		::System::Void _ctor()
 		{

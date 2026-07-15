@@ -8,11 +8,11 @@ namespace RPG::Client::OpenWorld { class PVSRuntimeReplayRawExportCheck; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_OPENWORLD_PVSRUNTIMEREPLAYRESULTDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xC312AE0)
+#define RPG_CLIENT_OPENWORLD_PVSRUNTIMEREPLAYRESULTDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x18294B40)
 
 namespace RPG::Client::OpenWorld
 {
-	inline static constexpr unsigned int PVSRuntimeReplayResultData_TypeDefinitionIndex = 68859;
+	inline static constexpr unsigned int PVSRuntimeReplayResultData_TypeDefinitionIndex = 70360;
 
 	class PVSRuntimeReplayResultData : public ::System::Object
 	{

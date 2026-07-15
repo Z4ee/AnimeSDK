@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int RefGPUParticleSystem_CurveMode_TypeDefinitionIndex = 40537;
+inline static constexpr unsigned int RefGPUParticleSystem_CurveMode_TypeDefinitionIndex = 41352;
 
 enum class RefGPUParticleSystem_CurveMode : ::System::Int32
 {

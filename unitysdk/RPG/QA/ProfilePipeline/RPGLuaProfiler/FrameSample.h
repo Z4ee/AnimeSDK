@@ -5,11 +5,11 @@
 namespace RPG::QA::ProfilePipeline::RPGLuaProfiler { class Sample; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_QA_PROFILEPIPELINE_RPGLUAPROFILER_FRAMESAMPLE__CTOR_OFFSET UNITYSDK_OFFSET(0xCFB4D90)
+#define RPG_QA_PROFILEPIPELINE_RPGLUAPROFILER_FRAMESAMPLE__CTOR_OFFSET UNITYSDK_OFFSET(0x19D444C0)
 
 namespace RPG::QA::ProfilePipeline::RPGLuaProfiler
 {
-	inline static constexpr unsigned int FrameSample_TypeDefinitionIndex = 48457;
+	inline static constexpr unsigned int FrameSample_TypeDefinitionIndex = 49464;
 
 	class FrameSample : public ::System::Object
 	{

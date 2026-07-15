@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/Client/GridFightFlowDirector_FlowStateEventBase_1.h"
 
-#define RPG_CLIENT_GRIDFIGHTFLOWDIRECTOR_BATTLEFINISHEVENT__CTOR_OFFSET UNITYSDK_OFFSET(0xBB3A850)
+#define RPG_CLIENT_GRIDFIGHTFLOWDIRECTOR_BATTLEFINISHEVENT__CTOR_OFFSET UNITYSDK_OFFSET(0x1A6A5DF0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GridFightFlowDirector_BattleFinishEvent_TypeDefinitionIndex = 60367;
+	inline static constexpr unsigned int GridFightFlowDirector_BattleFinishEvent_TypeDefinitionIndex = 61658;
 
 	class GridFightFlowDirector_BattleFinishEvent : public ::RPG::Client::GridFightFlowDirector_FlowStateEventBase_1<::RPG::Client::GridFightFlowDirector_BattleFinishEvent*>
 	{

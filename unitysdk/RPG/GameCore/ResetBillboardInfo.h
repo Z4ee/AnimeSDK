@@ -6,13 +6,13 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class TargetEvaluator; }
 
-#define RPG_GAMECORE_RESETBILLBOARDINFO_METHOD_3_5A96C5DE6CF40411_OFFSET UNITYSDK_OFFSET(0x19ACE760)
-#define RPG_GAMECORE_RESETBILLBOARDINFO_METHOD_3_B721D9599FA1F7FA_OFFSET UNITYSDK_OFFSET(0x19ACE6E0)
-#define RPG_GAMECORE_RESETBILLBOARDINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x19ACE730)
+#define RPG_GAMECORE_RESETBILLBOARDINFO_METHOD_3_5A96C5DE6CF40411_OFFSET UNITYSDK_OFFSET(0x1D01B220)
+#define RPG_GAMECORE_RESETBILLBOARDINFO_METHOD_3_A448F5D75FA78B18_OFFSET UNITYSDK_OFFSET(0x1D01B1E0)
+#define RPG_GAMECORE_RESETBILLBOARDINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x1D01B210)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ResetBillboardInfo_TypeDefinitionIndex = 19321;
+	inline static constexpr unsigned int ResetBillboardInfo_TypeDefinitionIndex = 19677;
 
 	class ResetBillboardInfo : public ::RPG::GameCore::TaskConfig
 	{
@@ -28,9 +28,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_RESETBILLBOARDINFO__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_B721D9599FA1F7FA(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ResetBillboardInfo*& a2)
+		static ::System::Void Method_3_A448F5D75FA78B18(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ResetBillboardInfo*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ResetBillboardInfo*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_RESETBILLBOARDINFO_METHOD_3_B721D9599FA1F7FA_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ResetBillboardInfo*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_RESETBILLBOARDINFO_METHOD_3_A448F5D75FA78B18_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_5A96C5DE6CF40411(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ResetBillboardInfo* a2)

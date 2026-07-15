@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 
-#define PVSSTAGEOCCLUDERHANDLE__CTOR_OFFSET UNITYSDK_OFFSET(0xB06CAC0)
+#define PVSSTAGEOCCLUDERHANDLE__CTOR_OFFSET UNITYSDK_OFFSET(0x17468EC0)
 
-inline static constexpr unsigned int PvsStageOccluderHandle_TypeDefinitionIndex = 44696;
+inline static constexpr unsigned int PvsStageOccluderHandle_TypeDefinitionIndex = 45611;
 
 class PvsStageOccluderHandle : public ::UnityEngine::MonoBehaviour
 {

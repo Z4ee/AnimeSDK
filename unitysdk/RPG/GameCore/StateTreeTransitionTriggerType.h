@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int StateTreeTransitionTriggerType_TypeDefinitionIndex = 14820;
+	inline static constexpr unsigned int StateTreeTransitionTriggerType_TypeDefinitionIndex = 14982;
 
 	enum class StateTreeTransitionTriggerType : ::System::Int32
 	{

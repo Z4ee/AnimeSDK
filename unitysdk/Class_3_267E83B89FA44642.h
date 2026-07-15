@@ -5,12 +5,11 @@
 namespace RPG::GameCore { class ResetCharLightFromEntityDir; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_267E83B89FA44642_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1377C460)
-#define CLASS_3_267E83B89FA44642_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1377C4A0)
-#define CLASS_3_267E83B89FA44642__CTOR_OFFSET UNITYSDK_OFFSET(0x1377C430)
-#define CLASS_3_267E83B89FA44642___IFIXBASEPROXY_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1377C900)
+#define CLASS_3_267E83B89FA44642_DISPOSE_OFFSET UNITYSDK_OFFSET(0x16378F00)
+#define CLASS_3_267E83B89FA44642_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x16378F40)
+#define CLASS_3_267E83B89FA44642__CTOR_OFFSET UNITYSDK_OFFSET(0x16378ED0)
 
-inline static constexpr unsigned int Class_3_267E83B89FA44642_TypeDefinitionIndex = 49726;
+inline static constexpr unsigned int Class_3_267E83B89FA44642_TypeDefinitionIndex = 50780;
 
 class Class_3_267E83B89FA44642 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::ResetCharLightFromEntityDir*>
 {
@@ -28,10 +27,5 @@ public:
 	::System::Void OnTaskBegin()
 	{
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_3_267E83B89FA44642_ONTASKBEGIN_OFFSET))(this);
-	}
-
-	::System::Void __iFixBaseProxy_Dispose()
-	{
-		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_3_267E83B89FA44642___IFIXBASEPROXY_DISPOSE_OFFSET))(this);
 	}
 };

@@ -1,10 +1,10 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/RPG/MVector3.h"
 
-class Class_1_AEDED6B377F2000F;
+class Class_0_16E4307DCC419505_34;
+namespace Entitas { class IComponent; }
 
-inline static constexpr unsigned int Class_0_16E4307DCC419505_57_TypeDefinitionIndex = 34804;
+inline static constexpr unsigned int Class_0_16E4307DCC419505_57_TypeDefinitionIndex = 35360;
 
 class Class_0_16E4307DCC419505_57
 {

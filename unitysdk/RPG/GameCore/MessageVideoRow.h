@@ -5,12 +5,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_MESSAGEVIDEOROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x19918280)
-#define RPG_GAMECORE_MESSAGEVIDEOROW__CTOR_OFFSET UNITYSDK_OFFSET(0x19918830)
+#define RPG_GAMECORE_MESSAGEVIDEOROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1AF62500)
+#define RPG_GAMECORE_MESSAGEVIDEOROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1AF62AB0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MessageVideoRow_TypeDefinitionIndex = 13735;
+	inline static constexpr unsigned int MessageVideoRow_TypeDefinitionIndex = 13883;
 
 	class MessageVideoRow : public ::System::Object
 	{

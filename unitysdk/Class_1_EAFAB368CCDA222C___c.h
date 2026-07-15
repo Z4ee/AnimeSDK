@@ -5,22 +5,22 @@
 namespace RPG::Client { class ChimeraDuelRankData; }
 namespace System { template <typename T> class Comparison_1; }
 
-#define CLASS_1_EAFAB368CCDA222C___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xAFF38B0)
-#define CLASS_1_EAFAB368CCDA222C___C__CTOR_OFFSET UNITYSDK_OFFSET(0xAFF38E0)
-#define CLASS_1_EAFAB368CCDA222C___C___CTOR_B__1_0_OFFSET UNITYSDK_OFFSET(0xAFF38F0)
+#define CLASS_1_EAFAB368CCDA222C___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1617F380)
+#define CLASS_1_EAFAB368CCDA222C___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1617F3B0)
+#define CLASS_1_EAFAB368CCDA222C___C___CTOR_B__1_0_OFFSET UNITYSDK_OFFSET(0x1617F3C0)
 
-inline static constexpr unsigned int Class_1_EAFAB368CCDA222C___c_TypeDefinitionIndex = 59317;
+inline static constexpr unsigned int Class_1_EAFAB368CCDA222C___c_TypeDefinitionIndex = 60588;
 
 class Class_1_EAFAB368CCDA222C___c : public ::System::Object
 {
 public:
 	static ::System::Comparison_1<::RPG::Client::ChimeraDuelRankData*>** StaticGet___9__1_0()
 	{
-		return (::System::Comparison_1<::RPG::Client::ChimeraDuelRankData*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_EAFAB368CCDA222C___c_TypeDefinitionIndex)->GetStaticField(0x47B10);
+		return (::System::Comparison_1<::RPG::Client::ChimeraDuelRankData*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_EAFAB368CCDA222C___c_TypeDefinitionIndex)->GetStaticField(0x32780);
 	}
 	static ::Class_1_EAFAB368CCDA222C___c** StaticGet___9()
 	{
-		return (::Class_1_EAFAB368CCDA222C___c**)Il2CppClass::FromTypeDefinitionIndex(Class_1_EAFAB368CCDA222C___c_TypeDefinitionIndex)->GetStaticField(0x47B18);
+		return (::Class_1_EAFAB368CCDA222C___c**)Il2CppClass::FromTypeDefinitionIndex(Class_1_EAFAB368CCDA222C___c_TypeDefinitionIndex)->GetStaticField(0x32788);
 	}
 
 	static ::System::Void _cctor()

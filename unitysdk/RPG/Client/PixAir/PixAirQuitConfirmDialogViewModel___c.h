@@ -4,39 +4,39 @@
 
 namespace System { class Action; }
 
-#define RPG_CLIENT_PIXAIR_PIXAIRQUITCONFIRMDIALOGVIEWMODEL___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xC3E7180)
-#define RPG_CLIENT_PIXAIR_PIXAIRQUITCONFIRMDIALOGVIEWMODEL___C__CREATE_B__28_1_OFFSET UNITYSDK_OFFSET(0xC3E7400)
-#define RPG_CLIENT_PIXAIR_PIXAIRQUITCONFIRMDIALOGVIEWMODEL___C__CREATE_B__28_2_OFFSET UNITYSDK_OFFSET(0xC3E7640)
-#define RPG_CLIENT_PIXAIR_PIXAIRQUITCONFIRMDIALOGVIEWMODEL___C__CREATE_B__28_3_OFFSET UNITYSDK_OFFSET(0xC3E7880)
-#define RPG_CLIENT_PIXAIR_PIXAIRQUITCONFIRMDIALOGVIEWMODEL___C__CREATE_B__28_4_OFFSET UNITYSDK_OFFSET(0xC3E71D0)
-#define RPG_CLIENT_PIXAIR_PIXAIRQUITCONFIRMDIALOGVIEWMODEL___C__CTOR_OFFSET UNITYSDK_OFFSET(0xC3E71C0)
+#define RPG_CLIENT_PIXAIR_PIXAIRQUITCONFIRMDIALOGVIEWMODEL___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1A0DCAB0)
+#define RPG_CLIENT_PIXAIR_PIXAIRQUITCONFIRMDIALOGVIEWMODEL___C__CREATE_B__28_1_OFFSET UNITYSDK_OFFSET(0x1A0DCD30)
+#define RPG_CLIENT_PIXAIR_PIXAIRQUITCONFIRMDIALOGVIEWMODEL___C__CREATE_B__28_2_OFFSET UNITYSDK_OFFSET(0x1A0DCF90)
+#define RPG_CLIENT_PIXAIR_PIXAIRQUITCONFIRMDIALOGVIEWMODEL___C__CREATE_B__28_3_OFFSET UNITYSDK_OFFSET(0x1A0DD1F0)
+#define RPG_CLIENT_PIXAIR_PIXAIRQUITCONFIRMDIALOGVIEWMODEL___C__CREATE_B__28_4_OFFSET UNITYSDK_OFFSET(0x1A0DCB00)
+#define RPG_CLIENT_PIXAIR_PIXAIRQUITCONFIRMDIALOGVIEWMODEL___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1A0DCAF0)
 
 namespace RPG::Client::PixAir
 {
-	inline static constexpr unsigned int PixAirQuitConfirmDialogViewModel___c_TypeDefinitionIndex = 73707;
+	inline static constexpr unsigned int PixAirQuitConfirmDialogViewModel___c_TypeDefinitionIndex = 75356;
 
 	class PixAirQuitConfirmDialogViewModel___c : public ::System::Object
 	{
 	public:
-		static ::System::Action** StaticGet___9__28_3()
-		{
-			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(PixAirQuitConfirmDialogViewModel___c_TypeDefinitionIndex)->GetStaticField(0x8210);
-		}
 		static ::System::Action** StaticGet___9__28_4()
 		{
-			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(PixAirQuitConfirmDialogViewModel___c_TypeDefinitionIndex)->GetStaticField(0x8218);
-		}
-		static ::RPG::Client::PixAir::PixAirQuitConfirmDialogViewModel___c** StaticGet___9()
-		{
-			return (::RPG::Client::PixAir::PixAirQuitConfirmDialogViewModel___c**)Il2CppClass::FromTypeDefinitionIndex(PixAirQuitConfirmDialogViewModel___c_TypeDefinitionIndex)->GetStaticField(0x8220);
-		}
-		static ::System::Action** StaticGet___9__28_1()
-		{
-			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(PixAirQuitConfirmDialogViewModel___c_TypeDefinitionIndex)->GetStaticField(0x8228);
+			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(PixAirQuitConfirmDialogViewModel___c_TypeDefinitionIndex)->GetStaticField(0x68220);
 		}
 		static ::System::Action** StaticGet___9__28_2()
 		{
-			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(PixAirQuitConfirmDialogViewModel___c_TypeDefinitionIndex)->GetStaticField(0x8230);
+			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(PixAirQuitConfirmDialogViewModel___c_TypeDefinitionIndex)->GetStaticField(0x68228);
+		}
+		static ::System::Action** StaticGet___9__28_1()
+		{
+			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(PixAirQuitConfirmDialogViewModel___c_TypeDefinitionIndex)->GetStaticField(0x68230);
+		}
+		static ::RPG::Client::PixAir::PixAirQuitConfirmDialogViewModel___c** StaticGet___9()
+		{
+			return (::RPG::Client::PixAir::PixAirQuitConfirmDialogViewModel___c**)Il2CppClass::FromTypeDefinitionIndex(PixAirQuitConfirmDialogViewModel___c_TypeDefinitionIndex)->GetStaticField(0x68238);
+		}
+		static ::System::Action** StaticGet___9__28_3()
+		{
+			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(PixAirQuitConfirmDialogViewModel___c_TypeDefinitionIndex)->GetStaticField(0x68240);
 		}
 
 		static ::System::Void _cctor()

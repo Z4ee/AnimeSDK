@@ -10,10 +10,10 @@ namespace System::Threading { class ContextCallback; }
 namespace System::Threading { class ExecutionContext; }
 namespace System::Threading::Tasks { class Task; }
 
-#define SYSTEM_IO_STREAM_READWRITETASK_CLEARBEGINSTATE_OFFSET UNITYSDK_OFFSET(0x18720580)
-#define SYSTEM_IO_STREAM_READWRITETASK_INVOKEASYNCCALLBACK_OFFSET UNITYSDK_OFFSET(0x18720F00)
-#define SYSTEM_IO_STREAM_READWRITETASK_SYSTEM_THREADING_TASKS_ITASKCOMPLETIONACTION_INVOKE_OFFSET UNITYSDK_OFFSET(0x18720F80)
-#define SYSTEM_IO_STREAM_READWRITETASK__CTOR_OFFSET UNITYSDK_OFFSET(0x1871F3A0)
+#define SYSTEM_IO_STREAM_READWRITETASK_CLEARBEGINSTATE_OFFSET UNITYSDK_OFFSET(0x1B863270)
+#define SYSTEM_IO_STREAM_READWRITETASK_INVOKEASYNCCALLBACK_OFFSET UNITYSDK_OFFSET(0x1B863EF0)
+#define SYSTEM_IO_STREAM_READWRITETASK_SYSTEM_THREADING_TASKS_ITASKCOMPLETIONACTION_INVOKE_OFFSET UNITYSDK_OFFSET(0x1B863F70)
+#define SYSTEM_IO_STREAM_READWRITETASK__CTOR_OFFSET UNITYSDK_OFFSET(0x1B861DE0)
 
 namespace System::IO
 {
@@ -24,11 +24,11 @@ namespace System::IO
 	public:
 		static ::System::Threading::ContextCallback** StaticGet_s_invokeAsyncCallback()
 		{
-			return (::System::Threading::ContextCallback**)Il2CppClass::FromTypeDefinitionIndex(Stream_ReadWriteTask_TypeDefinitionIndex)->GetStaticField(0x7D80);
+			return (::System::Threading::ContextCallback**)Il2CppClass::FromTypeDefinitionIndex(Stream_ReadWriteTask_TypeDefinitionIndex)->GetStaticField(0xD330);
 		}
-		::System::IO::Stream* _stream; // 0x50
-		::System::Threading::ExecutionContext* _context; // 0x58
-		::System::AsyncCallback* _callback; // 0x60
+		::System::Threading::ExecutionContext* _context; // 0x50
+		::System::AsyncCallback* _callback; // 0x58
+		::System::IO::Stream* _stream; // 0x60
 		::Il2CppArray<::System::Byte>* _buffer; // 0x68
 		::System::Int32 _count; // 0x70
 		::System::Int32 _offset; // 0x74

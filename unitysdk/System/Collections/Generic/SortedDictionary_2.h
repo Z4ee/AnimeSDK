@@ -19,7 +19,7 @@ namespace System::Collections::Generic { template <typename T> class TreeSet_1; 
 
 namespace System::Collections::Generic
 {
-	inline static constexpr unsigned int SortedDictionary_2_TypeDefinitionIndex = 3007;
+	inline static constexpr unsigned int SortedDictionary_2_TypeDefinitionIndex = 3011;
 
 	template <typename TKey, typename TValue>
 	class SortedDictionary_2 : public ::System::Object

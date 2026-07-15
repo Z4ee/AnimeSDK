@@ -5,12 +5,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class TriggerEffect; }
 
-#define RPG_GAMECORE_NPCPOSSESSIONEFFECTCONFIG_METHOD_2_70ECF9102D542D52_OFFSET UNITYSDK_OFFSET(0x199D3510)
-#define RPG_GAMECORE_NPCPOSSESSIONEFFECTCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x199D3660)
+#define RPG_GAMECORE_NPCPOSSESSIONEFFECTCONFIG_METHOD_2_70ECF9102D542D52_OFFSET UNITYSDK_OFFSET(0x1BAFD970)
+#define RPG_GAMECORE_NPCPOSSESSIONEFFECTCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1BAFDAC0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int NpcPossessionEffectConfig_TypeDefinitionIndex = 21171;
+	inline static constexpr unsigned int NpcPossessionEffectConfig_TypeDefinitionIndex = 21586;
 
 	class NpcPossessionEffectConfig : public ::RPG::GameCore::JsonConfig
 	{

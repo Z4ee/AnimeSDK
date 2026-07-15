@@ -5,13 +5,12 @@
 namespace RPG::Client { class CharacterMonoAvatar; }
 namespace RPGTools::Timeline { class CharacterStopLookAtData; }
 
-#define RPGTOOLS_TIMELINE_CHARACTERSTOPLOOKATBEHAVIOUR_METHOD_3_5EBCF276C230582C_OFFSET UNITYSDK_OFFSET(0xCFF3820)
-#define RPGTOOLS_TIMELINE_CHARACTERSTOPLOOKATBEHAVIOUR_METHOD_3_CA373AA1C7054598_OFFSET UNITYSDK_OFFSET(0xCFF3A70)
-#define RPGTOOLS_TIMELINE_CHARACTERSTOPLOOKATBEHAVIOUR__CTOR_OFFSET UNITYSDK_OFFSET(0xCFF3A60)
+#define RPGTOOLS_TIMELINE_CHARACTERSTOPLOOKATBEHAVIOUR_METHOD_3_5EBCF276C230582C_OFFSET UNITYSDK_OFFSET(0x1B35C060)
+#define RPGTOOLS_TIMELINE_CHARACTERSTOPLOOKATBEHAVIOUR__CTOR_OFFSET UNITYSDK_OFFSET(0x1B35C290)
 
 namespace RPGTools::Timeline
 {
-	inline static constexpr unsigned int CharacterStopLookAtBehaviour_TypeDefinitionIndex = 45291;
+	inline static constexpr unsigned int CharacterStopLookAtBehaviour_TypeDefinitionIndex = 46215;
 
 	class CharacterStopLookAtBehaviour : public ::RPGTools::Timeline::CustomEventBehaviour
 	{
@@ -27,11 +26,6 @@ namespace RPGTools::Timeline
 		::System::Void Method_3_5EBCF276C230582C()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_CHARACTERSTOPLOOKATBEHAVIOUR_METHOD_3_5EBCF276C230582C_OFFSET))(this);
-		}
-
-		::System::Void Method_3_CA373AA1C7054598()
-		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_CHARACTERSTOPLOOKATBEHAVIOUR_METHOD_3_CA373AA1C7054598_OFFSET))(this);
 		}
 	};
 }

@@ -9,13 +9,13 @@ namespace RPG::GameCore { class TargetEvaluator; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_ADDMAZEBUFF_METHOD_3_A530E77385635ACA_OFFSET UNITYSDK_OFFSET(0x1940EEE0)
-#define RPG_GAMECORE_ADDMAZEBUFF_METHOD_3_C1F7B6FD9A40D50E_OFFSET UNITYSDK_OFFSET(0x1940F080)
-#define RPG_GAMECORE_ADDMAZEBUFF__CTOR_OFFSET UNITYSDK_OFFSET(0x1940C900)
+#define RPG_GAMECORE_ADDMAZEBUFF_METHOD_3_AEBE1A211D5B0CE7_OFFSET UNITYSDK_OFFSET(0x1BE071D0)
+#define RPG_GAMECORE_ADDMAZEBUFF_METHOD_3_C1F7B6FD9A40D50E_OFFSET UNITYSDK_OFFSET(0x1BE07320)
+#define RPG_GAMECORE_ADDMAZEBUFF__CTOR_OFFSET UNITYSDK_OFFSET(0x1BE04FB0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AddMazeBuff_TypeDefinitionIndex = 19279;
+	inline static constexpr unsigned int AddMazeBuff_TypeDefinitionIndex = 19635;
 
 	class AddMazeBuff : public ::RPG::GameCore::TaskConfig
 	{
@@ -34,9 +34,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADDMAZEBUFF__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_A530E77385635ACA(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AddMazeBuff*& a2)
+		static ::System::Void Method_3_AEBE1A211D5B0CE7(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AddMazeBuff*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::AddMazeBuff*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADDMAZEBUFF_METHOD_3_A530E77385635ACA_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::AddMazeBuff*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADDMAZEBUFF_METHOD_3_AEBE1A211D5B0CE7_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_C1F7B6FD9A40D50E(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AddMazeBuff* a2)

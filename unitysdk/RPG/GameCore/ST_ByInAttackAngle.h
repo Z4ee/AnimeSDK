@@ -5,15 +5,15 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace SimpleJSON { class JSONNode; }
 
-#define RPG_GAMECORE_ST_BYINATTACKANGLE_METHOD_4_777F4485404947BD_OFFSET UNITYSDK_OFFSET(0x19C15710)
-#define RPG_GAMECORE_ST_BYINATTACKANGLE_METHOD_4_9D45FD9508FBFDAC_OFFSET UNITYSDK_OFFSET(0x19C15480)
-#define RPG_GAMECORE_ST_BYINATTACKANGLE_METHOD_4_B19FA035364497D9_OFFSET UNITYSDK_OFFSET(0x19C15690)
-#define RPG_GAMECORE_ST_BYINATTACKANGLE_METHOD_4_FEE07A009578FB66_OFFSET UNITYSDK_OFFSET(0x19C15550)
-#define RPG_GAMECORE_ST_BYINATTACKANGLE__CTOR_OFFSET UNITYSDK_OFFSET(0x19C15500)
+#define RPG_GAMECORE_ST_BYINATTACKANGLE_METHOD_4_8C3A557952A85091_OFFSET UNITYSDK_OFFSET(0x1B77EBA0)
+#define RPG_GAMECORE_ST_BYINATTACKANGLE_METHOD_4_A8DE72BDFEE68B70_OFFSET UNITYSDK_OFFSET(0x1B77EB70)
+#define RPG_GAMECORE_ST_BYINATTACKANGLE_METHOD_4_BD8C3D5EAABA0365_OFFSET UNITYSDK_OFFSET(0x1B77E9F0)
+#define RPG_GAMECORE_ST_BYINATTACKANGLE_METHOD_4_FEE07A009578FB66_OFFSET UNITYSDK_OFFSET(0x1B77EA30)
+#define RPG_GAMECORE_ST_BYINATTACKANGLE__CTOR_OFFSET UNITYSDK_OFFSET(0x1B77EA20)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ST_ByInAttackAngle_TypeDefinitionIndex = 18951;
+	inline static constexpr unsigned int ST_ByInAttackAngle_TypeDefinitionIndex = 19301;
 
 	class ST_ByInAttackAngle : public ::RPG::GameCore::PredicateConfig
 	{
@@ -23,9 +23,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ST_BYINATTACKANGLE__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_4_9D45FD9508FBFDAC(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ST_ByInAttackAngle*& a2)
+		static ::System::Void Method_4_BD8C3D5EAABA0365(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ST_ByInAttackAngle*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ST_ByInAttackAngle*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ST_BYINATTACKANGLE_METHOD_4_9D45FD9508FBFDAC_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ST_ByInAttackAngle*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ST_BYINATTACKANGLE_METHOD_4_BD8C3D5EAABA0365_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_4_FEE07A009578FB66(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ST_ByInAttackAngle* a2)
@@ -33,14 +33,14 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ST_ByInAttackAngle*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ST_BYINATTACKANGLE_METHOD_4_FEE07A009578FB66_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_4_B19FA035364497D9(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::ST_ByInAttackAngle*& a2)
+		static ::System::Void Method_4_A8DE72BDFEE68B70(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::ST_ByInAttackAngle*& a2)
 		{
-			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::ST_ByInAttackAngle*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ST_BYINATTACKANGLE_METHOD_4_B19FA035364497D9_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::ST_ByInAttackAngle*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ST_BYINATTACKANGLE_METHOD_4_A8DE72BDFEE68B70_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_4_777F4485404947BD(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::ST_ByInAttackAngle* a2)
+		static ::System::Void Method_4_8C3A557952A85091(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::ST_ByInAttackAngle* a2)
 		{
-			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::ST_ByInAttackAngle*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ST_BYINATTACKANGLE_METHOD_4_777F4485404947BD_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::ST_ByInAttackAngle*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ST_BYINATTACKANGLE_METHOD_4_8C3A557952A85091_OFFSET))(a1, a2);
 		}
 	};
 }

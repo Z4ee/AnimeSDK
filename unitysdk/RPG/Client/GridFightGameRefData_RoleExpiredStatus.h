@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GridFightGameRefData_RoleExpiredStatus_TypeDefinitionIndex = 60511;
+	inline static constexpr unsigned int GridFightGameRefData_RoleExpiredStatus_TypeDefinitionIndex = 61802;
 
 	enum class GridFightGameRefData_RoleExpiredStatus : ::System::Int32
 	{

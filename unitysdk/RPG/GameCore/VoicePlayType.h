@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int VoicePlayType_TypeDefinitionIndex = 10258;
+	inline static constexpr unsigned int VoicePlayType_TypeDefinitionIndex = 10279;
 
 	enum class VoicePlayType : ::System::Int32
 	{

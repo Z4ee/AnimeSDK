@@ -5,11 +5,11 @@
 namespace RPG::Client::Prop { class ChimeraEntranceRoundParam; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_PROP_CHIMERAENTRANCECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0xC51FA90)
+#define RPG_CLIENT_PROP_CHIMERAENTRANCECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x18FF1580)
 
 namespace RPG::Client::Prop
 {
-	inline static constexpr unsigned int ChimeraEntranceConfig_TypeDefinitionIndex = 73002;
+	inline static constexpr unsigned int ChimeraEntranceConfig_TypeDefinitionIndex = 74527;
 
 	class ChimeraEntranceConfig : public ::UnityEngine::MonoBehaviour
 	{

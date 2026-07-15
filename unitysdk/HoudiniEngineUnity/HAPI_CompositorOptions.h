@@ -4,7 +4,7 @@
 
 namespace HoudiniEngineUnity
 {
-	inline static constexpr unsigned int HAPI_CompositorOptions_TypeDefinitionIndex = 37559;
+	inline static constexpr unsigned int HAPI_CompositorOptions_TypeDefinitionIndex = 38367;
 
 	struct alignas(4) HAPI_CompositorOptions
 	{

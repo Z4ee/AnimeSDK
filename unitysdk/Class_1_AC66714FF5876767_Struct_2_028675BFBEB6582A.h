@@ -3,16 +3,16 @@
 #include "unitysdk/RPG/GameCore/FixPoint.h"
 #include "unitysdk/System/ValueType.h"
 
-#define CLASS_1_AC66714FF5876767_STRUCT_2_028675BFBEB6582A__CCTOR_OFFSET UNITYSDK_OFFSET(0xACCB6B0)
-#define CLASS_1_AC66714FF5876767_STRUCT_2_028675BFBEB6582A__CTOR_OFFSET UNITYSDK_OFFSET(0x89650)
+#define CLASS_1_AC66714FF5876767_STRUCT_2_028675BFBEB6582A__CCTOR_OFFSET UNITYSDK_OFFSET(0x173EC5D0)
+#define CLASS_1_AC66714FF5876767_STRUCT_2_028675BFBEB6582A__CTOR_OFFSET UNITYSDK_OFFSET(0x6E35A0)
 
-inline static constexpr unsigned int Class_1_AC66714FF5876767_Struct_2_028675BFBEB6582A_TypeDefinitionIndex = 50785;
+inline static constexpr unsigned int Class_1_AC66714FF5876767_Struct_2_028675BFBEB6582A_TypeDefinitionIndex = 51867;
 
 struct alignas(8) Class_1_AC66714FF5876767_Struct_2_028675BFBEB6582A
 {
 	static ::Class_1_AC66714FF5876767_Struct_2_028675BFBEB6582A* StaticGet_Field_2_0()
 	{
-		return (::Class_1_AC66714FF5876767_Struct_2_028675BFBEB6582A*)Il2CppClass::FromTypeDefinitionIndex(Class_1_AC66714FF5876767_Struct_2_028675BFBEB6582A_TypeDefinitionIndex)->GetStaticField(0x86B0);
+		return (::Class_1_AC66714FF5876767_Struct_2_028675BFBEB6582A*)Il2CppClass::FromTypeDefinitionIndex(Class_1_AC66714FF5876767_Struct_2_028675BFBEB6582A_TypeDefinitionIndex)->GetStaticField(0x2760);
 	}
 	::RPG::GameCore::FixPoint Field_2_1; // 0x10
 	::System::Int32 Field_2_2; // 0x18

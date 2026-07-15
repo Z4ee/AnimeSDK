@@ -6,23 +6,23 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_MATCHTHREEV2CHALLENGERROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x198F5C80)
-#define RPG_GAMECORE_MATCHTHREEV2CHALLENGERROW__CTOR_OFFSET UNITYSDK_OFFSET(0x198F5F90)
+#define RPG_GAMECORE_MATCHTHREEV2CHALLENGERROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1AF3FAD0)
+#define RPG_GAMECORE_MATCHTHREEV2CHALLENGERROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1AF3FDE0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MatchThreeV2ChallengerRow_TypeDefinitionIndex = 11432;
+	inline static constexpr unsigned int MatchThreeV2ChallengerRow_TypeDefinitionIndex = 11532;
 
 	class MatchThreeV2ChallengerRow : public ::System::Object
 	{
 	public:
 		::Il2CppArray<::System::UInt32>* StarTargetList; // 0x10
 		::System::String* ChallengerImage; // 0x18
-		::RPG::Client::TextID ChallengerTitle; // 0x20
-		::System::UInt32 LevelID; // 0x30
-		::System::UInt32 UnlockBattleItem; // 0x34
-		::System::UInt32 ChallengerID; // 0x38
-		::RPG::Client::TextID ChallengerDesc; // 0x40
+		::RPG::Client::TextID ChallengerDesc; // 0x20
+		::System::UInt32 ChallengerID; // 0x30
+		::System::UInt32 LevelID; // 0x34
+		::System::UInt32 UnlockBattleItem; // 0x38
+		::RPG::Client::TextID ChallengerTitle; // 0x40
 
 		::System::Void _ctor()
 		{

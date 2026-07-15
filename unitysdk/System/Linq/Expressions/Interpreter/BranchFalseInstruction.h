@@ -6,22 +6,22 @@ namespace System { class String; }
 namespace System::Linq::Expressions::Interpreter { class Instruction; }
 namespace System::Linq::Expressions::Interpreter { class InterpretedFrame; }
 
-#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_BRANCHFALSEINSTRUCTION_GET_CACHE_OFFSET UNITYSDK_OFFSET(0x1AD6DC00)
-#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_BRANCHFALSEINSTRUCTION_GET_CONSUMEDSTACK_OFFSET UNITYSDK_OFFSET(0x1AD6DCB0)
-#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_BRANCHFALSEINSTRUCTION_GET_INSTRUCTIONNAME_OFFSET UNITYSDK_OFFSET(0x1AD6DC70)
-#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_BRANCHFALSEINSTRUCTION_RUN_OFFSET UNITYSDK_OFFSET(0x1AD6DCC0)
-#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_BRANCHFALSEINSTRUCTION__CTOR_OFFSET UNITYSDK_OFFSET(0x1AD6DD90)
+#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_BRANCHFALSEINSTRUCTION_GET_CACHE_OFFSET UNITYSDK_OFFSET(0x17E6A120)
+#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_BRANCHFALSEINSTRUCTION_GET_CONSUMEDSTACK_OFFSET UNITYSDK_OFFSET(0x17E6A1D0)
+#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_BRANCHFALSEINSTRUCTION_GET_INSTRUCTIONNAME_OFFSET UNITYSDK_OFFSET(0x17E6A190)
+#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_BRANCHFALSEINSTRUCTION_RUN_OFFSET UNITYSDK_OFFSET(0x17E6A1E0)
+#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_BRANCHFALSEINSTRUCTION__CTOR_OFFSET UNITYSDK_OFFSET(0x17E6A2B0)
 
 namespace System::Linq::Expressions::Interpreter
 {
-	inline static constexpr unsigned int BranchFalseInstruction_TypeDefinitionIndex = 3309;
+	inline static constexpr unsigned int BranchFalseInstruction_TypeDefinitionIndex = 3313;
 
 	class BranchFalseInstruction : public ::System::Linq::Expressions::Interpreter::OffsetInstruction
 	{
 	public:
 		static ::Il2CppArray<::System::Linq::Expressions::Interpreter::Instruction*>** StaticGet_s_cache()
 		{
-			return (::Il2CppArray<::System::Linq::Expressions::Interpreter::Instruction*>**)Il2CppClass::FromTypeDefinitionIndex(BranchFalseInstruction_TypeDefinitionIndex)->GetStaticField(0x29F40);
+			return (::Il2CppArray<::System::Linq::Expressions::Interpreter::Instruction*>**)Il2CppClass::FromTypeDefinitionIndex(BranchFalseInstruction_TypeDefinitionIndex)->GetStaticField(0x32B30);
 		}
 
 		::System::Void _ctor()

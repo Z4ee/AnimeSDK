@@ -4,7 +4,7 @@
 
 namespace UnityEngine::PlayerLoop
 {
-	inline static constexpr unsigned int Initialization_DirectorSampleTime_TypeDefinitionIndex = 4526;
+	inline static constexpr unsigned int Initialization_DirectorSampleTime_TypeDefinitionIndex = 4531;
 
 	struct alignas(1) Initialization_DirectorSampleTime
 	{

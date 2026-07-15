@@ -5,13 +5,13 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class TargetEvaluator; }
 
-#define RPG_GAMECORE_ADDISOMETRICCONNECTOR_METHOD_3_13EE773768E6A67D_OFFSET UNITYSDK_OFFSET(0x1940EDD0)
-#define RPG_GAMECORE_ADDISOMETRICCONNECTOR_METHOD_3_CD9284761691B76B_OFFSET UNITYSDK_OFFSET(0x1940EC80)
-#define RPG_GAMECORE_ADDISOMETRICCONNECTOR__CTOR_OFFSET UNITYSDK_OFFSET(0x1940ED40)
+#define RPG_GAMECORE_ADDISOMETRICCONNECTOR_METHOD_3_13EE773768E6A67D_OFFSET UNITYSDK_OFFSET(0x1BE070C0)
+#define RPG_GAMECORE_ADDISOMETRICCONNECTOR_METHOD_3_874AC86FB48051B5_OFFSET UNITYSDK_OFFSET(0x1BE07040)
+#define RPG_GAMECORE_ADDISOMETRICCONNECTOR__CTOR_OFFSET UNITYSDK_OFFSET(0x1BE07090)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AddIsometricConnector_TypeDefinitionIndex = 20983;
+	inline static constexpr unsigned int AddIsometricConnector_TypeDefinitionIndex = 21398;
 
 	class AddIsometricConnector : public ::RPG::GameCore::TaskConfig
 	{
@@ -23,9 +23,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADDISOMETRICCONNECTOR__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_CD9284761691B76B(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AddIsometricConnector*& a2)
+		static ::System::Void Method_3_874AC86FB48051B5(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AddIsometricConnector*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::AddIsometricConnector*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADDISOMETRICCONNECTOR_METHOD_3_CD9284761691B76B_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::AddIsometricConnector*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADDISOMETRICCONNECTOR_METHOD_3_874AC86FB48051B5_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_13EE773768E6A67D(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AddIsometricConnector* a2)

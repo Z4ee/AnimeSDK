@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class ChimeraDuelShopGuideDragUpgrade; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_231EDADD97FBC01A_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xA670710)
-#define CLASS_3_231EDADD97FBC01A__CTOR_OFFSET UNITYSDK_OFFSET(0xA6706E0)
+#define CLASS_3_231EDADD97FBC01A_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x18DC1840)
+#define CLASS_3_231EDADD97FBC01A__CTOR_OFFSET UNITYSDK_OFFSET(0x18DC1810)
 
-inline static constexpr unsigned int Class_3_231EDADD97FBC01A_TypeDefinitionIndex = 49691;
+inline static constexpr unsigned int Class_3_231EDADD97FBC01A_TypeDefinitionIndex = 50745;
 
 class Class_3_231EDADD97FBC01A : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::ChimeraDuelShopGuideDragUpgrade*>
 {

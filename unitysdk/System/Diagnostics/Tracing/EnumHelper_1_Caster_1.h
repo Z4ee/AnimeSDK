@@ -6,7 +6,7 @@ namespace System::Diagnostics::Tracing { template <typename T1, typename T2> cla
 
 namespace System::Diagnostics::Tracing
 {
-	inline static constexpr unsigned int EnumHelper_1_Caster_1_TypeDefinitionIndex = 1584;
+	inline static constexpr unsigned int EnumHelper_1_Caster_1_TypeDefinitionIndex = 1588;
 
 	template <typename UnderlyingType, typename ValueType>
 	class EnumHelper_1_Caster_1 : public ::System::Object

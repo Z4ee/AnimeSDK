@@ -6,11 +6,11 @@ namespace RPG::GameCore { class ByContainBehaviorFlag; }
 namespace RPG::GameCore { class TaskContext; }
 namespace RPG::GameCore { class TurnBasedAbilityComponent; }
 
-#define CLASS_3_5D816765DBB57CAC_EVALUATE_OFFSET UNITYSDK_OFFSET(0x13A15260)
-#define CLASS_3_5D816765DBB57CAC_METHOD_3_1A1D79A1EFC7E86A_OFFSET UNITYSDK_OFFSET(0x13A153D0)
-#define CLASS_3_5D816765DBB57CAC__CTOR_OFFSET UNITYSDK_OFFSET(0x13A15230)
+#define CLASS_3_5D816765DBB57CAC_EVALUATE_OFFSET UNITYSDK_OFFSET(0x164F82E0)
+#define CLASS_3_5D816765DBB57CAC_METHOD_3_1A1D79A1EFC7E86A_OFFSET UNITYSDK_OFFSET(0x164F8450)
+#define CLASS_3_5D816765DBB57CAC__CTOR_OFFSET UNITYSDK_OFFSET(0x164F82B0)
 
-inline static constexpr unsigned int Class_3_5D816765DBB57CAC_TypeDefinitionIndex = 51031;
+inline static constexpr unsigned int Class_3_5D816765DBB57CAC_TypeDefinitionIndex = 52116;
 
 class Class_3_5D816765DBB57CAC : public ::RPG::GameCore::PredicateTaskBase_1<::RPG::GameCore::ByContainBehaviorFlag*>
 {

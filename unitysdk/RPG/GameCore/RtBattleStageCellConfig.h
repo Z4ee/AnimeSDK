@@ -6,12 +6,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_RTBATTLESTAGECELLCONFIG_METHOD_2_6ECC487FD84CC055_OFFSET UNITYSDK_OFFSET(0x19BDC570)
-#define RPG_GAMECORE_RTBATTLESTAGECELLCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x19BDC720)
+#define RPG_GAMECORE_RTBATTLESTAGECELLCONFIG_METHOD_2_6ECC487FD84CC055_OFFSET UNITYSDK_OFFSET(0x1BB89440)
+#define RPG_GAMECORE_RTBATTLESTAGECELLCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1BB895F0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RtBattleStageCellConfig_TypeDefinitionIndex = 17160;
+	inline static constexpr unsigned int RtBattleStageCellConfig_TypeDefinitionIndex = 17322;
 
 	class RtBattleStageCellConfig : public ::RPG::GameCore::JsonConfig
 	{

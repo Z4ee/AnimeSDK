@@ -3,7 +3,7 @@
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int UserAuthorization_TypeDefinitionIndex = 4019;
+	inline static constexpr unsigned int UserAuthorization_TypeDefinitionIndex = 4024;
 
 	enum class UserAuthorization : ::System::Int32
 	{

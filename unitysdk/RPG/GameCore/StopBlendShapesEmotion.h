@@ -5,13 +5,13 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class TargetEvaluator; }
 
-#define RPG_GAMECORE_STOPBLENDSHAPESEMOTION_METHOD_3_9E5F232F6302264E_OFFSET UNITYSDK_OFFSET(0x19CBF7F0)
-#define RPG_GAMECORE_STOPBLENDSHAPESEMOTION_METHOD_3_F085E7CD6883CFD8_OFFSET UNITYSDK_OFFSET(0x19CBF880)
-#define RPG_GAMECORE_STOPBLENDSHAPESEMOTION__CTOR_OFFSET UNITYSDK_OFFSET(0x19CBF850)
+#define RPG_GAMECORE_STOPBLENDSHAPESEMOTION_METHOD_3_99558EE6FA3D9E47_OFFSET UNITYSDK_OFFSET(0x1B0C50D0)
+#define RPG_GAMECORE_STOPBLENDSHAPESEMOTION_METHOD_3_F085E7CD6883CFD8_OFFSET UNITYSDK_OFFSET(0x1B0C5120)
+#define RPG_GAMECORE_STOPBLENDSHAPESEMOTION__CTOR_OFFSET UNITYSDK_OFFSET(0x1B0C5110)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int StopBlendShapesEmotion_TypeDefinitionIndex = 20670;
+	inline static constexpr unsigned int StopBlendShapesEmotion_TypeDefinitionIndex = 21085;
 
 	class StopBlendShapesEmotion : public ::RPG::GameCore::TaskConfig
 	{
@@ -24,9 +24,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_STOPBLENDSHAPESEMOTION__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_9E5F232F6302264E(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::StopBlendShapesEmotion*& a2)
+		static ::System::Void Method_3_99558EE6FA3D9E47(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::StopBlendShapesEmotion*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::StopBlendShapesEmotion*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_STOPBLENDSHAPESEMOTION_METHOD_3_9E5F232F6302264E_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::StopBlendShapesEmotion*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_STOPBLENDSHAPESEMOTION_METHOD_3_99558EE6FA3D9E47_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_F085E7CD6883CFD8(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::StopBlendShapesEmotion* a2)

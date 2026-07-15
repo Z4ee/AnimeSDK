@@ -4,7 +4,7 @@
 #include "unitysdk/UnityChan/SpringManager_BoneTag.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-inline static constexpr unsigned int Struct_2_52A902145F5BE513_2_TypeDefinitionIndex = 44972;
+inline static constexpr unsigned int Struct_2_52A902145F5BE513_2_TypeDefinitionIndex = 45890;
 
 struct alignas(8) Struct_2_52A902145F5BE513_2
 {

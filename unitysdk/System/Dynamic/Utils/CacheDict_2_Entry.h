@@ -4,7 +4,7 @@
 
 namespace System::Dynamic::Utils
 {
-	inline static constexpr unsigned int CacheDict_2_Entry_TypeDefinitionIndex = 3671;
+	inline static constexpr unsigned int CacheDict_2_Entry_TypeDefinitionIndex = 3675;
 
 	template <typename TKey, typename TValue>
 	class CacheDict_2_Entry : public ::System::Object

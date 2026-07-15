@@ -1,10 +1,9 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-class Class_0_16E4307DCC419505_842;
-namespace System { template <typename T> class Action_1; }
+namespace RPG::Client { class MainMissionData; }
 
-inline static constexpr unsigned int Class_0_16E4307DCC419505_851_TypeDefinitionIndex = 62723;
+inline static constexpr unsigned int Class_0_16E4307DCC419505_851_TypeDefinitionIndex = 63235;
 
 class Class_0_16E4307DCC419505_851
 {

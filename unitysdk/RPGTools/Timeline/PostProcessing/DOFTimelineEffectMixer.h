@@ -7,14 +7,13 @@
 namespace RPG::CustomRP { class RPGDepthOfField; }
 namespace System { class Object; }
 
-#define RPGTOOLS_TIMELINE_POSTPROCESSING_DOFTIMELINEEFFECTMIXER_GET_ISEDITORMODE_OFFSET UNITYSDK_OFFSET(0xD040A70)
-#define RPGTOOLS_TIMELINE_POSTPROCESSING_DOFTIMELINEEFFECTMIXER_PROCESSFRAME_OFFSET UNITYSDK_OFFSET(0xD040A80)
-#define RPGTOOLS_TIMELINE_POSTPROCESSING_DOFTIMELINEEFFECTMIXER__CTOR_OFFSET UNITYSDK_OFFSET(0xD040EB0)
-#define RPGTOOLS_TIMELINE_POSTPROCESSING_DOFTIMELINEEFFECTMIXER___IFIXBASEPROXY_PROCESSFRAME_OFFSET UNITYSDK_OFFSET(0xD040ED0)
+#define RPGTOOLS_TIMELINE_POSTPROCESSING_DOFTIMELINEEFFECTMIXER_GET_ISEDITORMODE_OFFSET UNITYSDK_OFFSET(0x1999F120)
+#define RPGTOOLS_TIMELINE_POSTPROCESSING_DOFTIMELINEEFFECTMIXER_PROCESSFRAME_OFFSET UNITYSDK_OFFSET(0x1999F130)
+#define RPGTOOLS_TIMELINE_POSTPROCESSING_DOFTIMELINEEFFECTMIXER__CTOR_OFFSET UNITYSDK_OFFSET(0x1999F620)
 
 namespace RPGTools::Timeline::PostProcessing
 {
-	inline static constexpr unsigned int DOFTimelineEffectMixer_TypeDefinitionIndex = 45837;
+	inline static constexpr unsigned int DOFTimelineEffectMixer_TypeDefinitionIndex = 46776;
 
 	class DOFTimelineEffectMixer : public ::RPGTools::Timeline::PostProcessing::BasePlayableBehaviour_1<::RPG::CustomRP::RPGDepthOfField*>
 	{
@@ -34,11 +33,6 @@ namespace RPGTools::Timeline::PostProcessing
 		::System::Void ProcessFrame(::UnityEngine::Playables::Playable a1, ::UnityEngine::Playables::FrameData a2, ::System::Object* a3)
 		{
 			return ((::System::Void(*)(::PVOID, ::UnityEngine::Playables::Playable, ::UnityEngine::Playables::FrameData, ::System::Object*))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_POSTPROCESSING_DOFTIMELINEEFFECTMIXER_PROCESSFRAME_OFFSET))(this, a1, a2, a3);
-		}
-
-		::System::Void __iFixBaseProxy_ProcessFrame(::UnityEngine::Playables::Playable a1, ::UnityEngine::Playables::FrameData a2, ::System::Object* a3)
-		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Playables::Playable, ::UnityEngine::Playables::FrameData, ::System::Object*))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_POSTPROCESSING_DOFTIMELINEEFFECTMIXER___IFIXBASEPROXY_PROCESSFRAME_OFFSET))(this, a1, a2, a3);
 		}
 	};
 }

@@ -9,7 +9,7 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace System::Linq
 {
-	inline static constexpr unsigned int Enumerable_WhereListIterator_1_TypeDefinitionIndex = 3125;
+	inline static constexpr unsigned int Enumerable_WhereListIterator_1_TypeDefinitionIndex = 3129;
 
 	template <typename TSource>
 	class Enumerable_WhereListIterator_1 : public ::System::Linq::Enumerable_Iterator_1<TSource>

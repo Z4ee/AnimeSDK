@@ -7,15 +7,13 @@
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine::Timeline { class TimelineClip; }
 
-#define RPGTOOLS_TIMELINE_SIMPLEBLACKMASKTRACK_CREATETRACKMIXER_OFFSET UNITYSDK_OFFSET(0xD0562C0)
-#define RPGTOOLS_TIMELINE_SIMPLEBLACKMASKTRACK_ONCREATECLIP_OFFSET UNITYSDK_OFFSET(0xD0563C0)
-#define RPGTOOLS_TIMELINE_SIMPLEBLACKMASKTRACK__CTOR_OFFSET UNITYSDK_OFFSET(0xD056430)
-#define RPGTOOLS_TIMELINE_SIMPLEBLACKMASKTRACK___IFIXBASEPROXY_CREATETRACKMIXER_OFFSET UNITYSDK_OFFSET(0xD056510)
-#define RPGTOOLS_TIMELINE_SIMPLEBLACKMASKTRACK___IFIXBASEPROXY_ONCREATECLIP_OFFSET UNITYSDK_OFFSET(0xD0565B0)
+#define RPGTOOLS_TIMELINE_SIMPLEBLACKMASKTRACK_CREATETRACKMIXER_OFFSET UNITYSDK_OFFSET(0x199B7000)
+#define RPGTOOLS_TIMELINE_SIMPLEBLACKMASKTRACK_ONCREATECLIP_OFFSET UNITYSDK_OFFSET(0x199B7100)
+#define RPGTOOLS_TIMELINE_SIMPLEBLACKMASKTRACK__CTOR_OFFSET UNITYSDK_OFFSET(0x199B7170)
 
 namespace RPGTools::Timeline
 {
-	inline static constexpr unsigned int SimpleBlackMaskTrack_TypeDefinitionIndex = 45590;
+	inline static constexpr unsigned int SimpleBlackMaskTrack_TypeDefinitionIndex = 46524;
 
 	class SimpleBlackMaskTrack : public ::UnityEngine::Timeline::TrackAsset
 	{
@@ -33,16 +31,6 @@ namespace RPGTools::Timeline
 		::System::Void OnCreateClip(::UnityEngine::Timeline::TimelineClip* a1)
 		{
 			return ((::System::Void(*)(::PVOID, ::UnityEngine::Timeline::TimelineClip*))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_SIMPLEBLACKMASKTRACK_ONCREATECLIP_OFFSET))(this, a1);
-		}
-
-		::UnityEngine::Playables::Playable __iFixBaseProxy_CreateTrackMixer(::UnityEngine::Playables::PlayableGraph a1, ::UnityEngine::GameObject* a2, ::System::Int32 a3)
-		{
-			return ((::UnityEngine::Playables::Playable(*)(::PVOID, ::UnityEngine::Playables::PlayableGraph, ::UnityEngine::GameObject*, ::System::Int32))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_SIMPLEBLACKMASKTRACK___IFIXBASEPROXY_CREATETRACKMIXER_OFFSET))(this, a1, a2, a3);
-		}
-
-		::System::Void __iFixBaseProxy_OnCreateClip(::UnityEngine::Timeline::TimelineClip* a1)
-		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Timeline::TimelineClip*))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_SIMPLEBLACKMASKTRACK___IFIXBASEPROXY_ONCREATECLIP_OFFSET))(this, a1);
 		}
 	};
 }

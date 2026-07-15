@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ComplexSkillAISubType_TypeDefinitionIndex = 50829;
+	inline static constexpr unsigned int ComplexSkillAISubType_TypeDefinitionIndex = 51914;
 
 	enum class ComplexSkillAISubType : ::System::Int32
 	{

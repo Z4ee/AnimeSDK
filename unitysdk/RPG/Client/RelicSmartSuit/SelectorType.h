@@ -3,7 +3,7 @@
 
 namespace RPG::Client::RelicSmartSuit
 {
-	inline static constexpr unsigned int SelectorType_TypeDefinitionIndex = 69519;
+	inline static constexpr unsigned int SelectorType_TypeDefinitionIndex = 71042;
 
 	enum class SelectorType : ::System::Int32
 	{

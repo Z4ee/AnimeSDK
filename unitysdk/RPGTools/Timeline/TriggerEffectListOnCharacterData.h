@@ -6,12 +6,12 @@ namespace RPG::GameCore { class EffectConfig; }
 namespace RPG::GameCore { class TriggerEffectListOnCharacter; }
 namespace System { class String; }
 
-#define RPGTOOLS_TIMELINE_TRIGGEREFFECTLISTONCHARACTERDATA_METHOD_1_95AFCE0225BD2881_OFFSET UNITYSDK_OFFSET(0xD0660B0)
-#define RPGTOOLS_TIMELINE_TRIGGEREFFECTLISTONCHARACTERDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xD066190)
+#define RPGTOOLS_TIMELINE_TRIGGEREFFECTLISTONCHARACTERDATA_METHOD_1_13A1DC5E9070BB8D_OFFSET UNITYSDK_OFFSET(0x19F56930)
+#define RPGTOOLS_TIMELINE_TRIGGEREFFECTLISTONCHARACTERDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x19F569F0)
 
 namespace RPGTools::Timeline
 {
-	inline static constexpr unsigned int TriggerEffectListOnCharacterData_TypeDefinitionIndex = 45616;
+	inline static constexpr unsigned int TriggerEffectListOnCharacterData_TypeDefinitionIndex = 46550;
 
 	class TriggerEffectListOnCharacterData : public ::System::Object
 	{
@@ -24,9 +24,9 @@ namespace RPGTools::Timeline
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_TRIGGEREFFECTLISTONCHARACTERDATA__CTOR_OFFSET))(this);
 		}
 
-		::RPG::GameCore::TriggerEffectListOnCharacter* Method_1_95AFCE0225BD2881()
+		::RPG::GameCore::TriggerEffectListOnCharacter* Method_1_13A1DC5E9070BB8D()
 		{
-			return ((::RPG::GameCore::TriggerEffectListOnCharacter*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_TRIGGEREFFECTLISTONCHARACTERDATA_METHOD_1_95AFCE0225BD2881_OFFSET))(this);
+			return ((::RPG::GameCore::TriggerEffectListOnCharacter*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_TRIGGEREFFECTLISTONCHARACTERDATA_METHOD_1_13A1DC5E9070BB8D_OFFSET))(this);
 		}
 	};
 }

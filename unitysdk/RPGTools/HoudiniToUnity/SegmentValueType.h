@@ -3,7 +3,7 @@
 
 namespace RPGTools::HoudiniToUnity
 {
-	inline static constexpr unsigned int SegmentValueType_TypeDefinitionIndex = 44285;
+	inline static constexpr unsigned int SegmentValueType_TypeDefinitionIndex = 45155;
 
 	enum class SegmentValueType : ::System::Int32
 	{

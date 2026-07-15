@@ -6,13 +6,13 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class DynamicString; }
 
-#define RPG_GAMECORE_TRANSITENVPROFILE_METHOD_3_4942AB81878A4872_OFFSET UNITYSDK_OFFSET(0x19DFCB80)
-#define RPG_GAMECORE_TRANSITENVPROFILE_METHOD_3_D13E4BFDB0947502_OFFSET UNITYSDK_OFFSET(0x19DFCDE0)
-#define RPG_GAMECORE_TRANSITENVPROFILE__CTOR_OFFSET UNITYSDK_OFFSET(0x19DFCDB0)
+#define RPG_GAMECORE_TRANSITENVPROFILE_METHOD_3_D13E4BFDB0947502_OFFSET UNITYSDK_OFFSET(0x1B03B0C0)
+#define RPG_GAMECORE_TRANSITENVPROFILE_METHOD_3_E11077D9B583D18C_OFFSET UNITYSDK_OFFSET(0x1B03AEE0)
+#define RPG_GAMECORE_TRANSITENVPROFILE__CTOR_OFFSET UNITYSDK_OFFSET(0x1B03B0B0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TransitEnvProfile_TypeDefinitionIndex = 19608;
+	inline static constexpr unsigned int TransitEnvProfile_TypeDefinitionIndex = 19967;
 
 	class TransitEnvProfile : public ::RPG::GameCore::TaskConfig
 	{
@@ -26,9 +26,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TRANSITENVPROFILE__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_4942AB81878A4872(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::TransitEnvProfile*& a2)
+		static ::System::Void Method_3_E11077D9B583D18C(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::TransitEnvProfile*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::TransitEnvProfile*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TRANSITENVPROFILE_METHOD_3_4942AB81878A4872_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::TransitEnvProfile*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TRANSITENVPROFILE_METHOD_3_E11077D9B583D18C_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_D13E4BFDB0947502(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::TransitEnvProfile* a2)

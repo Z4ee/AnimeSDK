@@ -3,9 +3,9 @@
 #include "unitysdk/RPG/GameCore/Match3/PieceTag.h"
 #include "unitysdk/System/Object.h"
 
-#define CLASS_1_92407C22705A44E3__CTOR_OFFSET UNITYSDK_OFFSET(0x18BA4920)
+#define CLASS_1_92407C22705A44E3__CTOR_OFFSET UNITYSDK_OFFSET(0x1A488880)
 
-inline static constexpr unsigned int Class_1_92407C22705A44E3_TypeDefinitionIndex = 39285;
+inline static constexpr unsigned int Class_1_92407C22705A44E3_TypeDefinitionIndex = 40094;
 
 class Class_1_92407C22705A44E3 : public ::System::Object
 {

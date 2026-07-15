@@ -5,12 +5,12 @@
 namespace RPG::GameCore { class LevelUpEvolveBuildGear; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define RPG_GAMECORE_LEVELUPEVOLVEBUILDGEARTASK_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xCE56E50)
-#define RPG_GAMECORE_LEVELUPEVOLVEBUILDGEARTASK__CTOR_OFFSET UNITYSDK_OFFSET(0xCE56E20)
+#define RPG_GAMECORE_LEVELUPEVOLVEBUILDGEARTASK_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1978A4C0)
+#define RPG_GAMECORE_LEVELUPEVOLVEBUILDGEARTASK__CTOR_OFFSET UNITYSDK_OFFSET(0x1978A490)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LevelUpEvolveBuildGearTask_TypeDefinitionIndex = 51500;
+	inline static constexpr unsigned int LevelUpEvolveBuildGearTask_TypeDefinitionIndex = 52642;
 
 	class LevelUpEvolveBuildGearTask : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::LevelUpEvolveBuildGear*>
 	{

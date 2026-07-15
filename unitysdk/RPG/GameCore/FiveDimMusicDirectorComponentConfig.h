@@ -4,16 +4,17 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class FiveDimEffectPreloadConfig; }
+namespace RPG::GameCore { class FiveDimMusicComboJumpConfig; }
 namespace RPG::GameCore { class LittleGameEvent; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_FIVEDIMMUSICDIRECTORCOMPONENTCONFIG_METHOD_3_0E5558229A8ED0AF_OFFSET UNITYSDK_OFFSET(0x1974AB60)
-#define RPG_GAMECORE_FIVEDIMMUSICDIRECTORCOMPONENTCONFIG_METHOD_3_D5600382010E3B4D_OFFSET UNITYSDK_OFFSET(0x1974ABD0)
-#define RPG_GAMECORE_FIVEDIMMUSICDIRECTORCOMPONENTCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1974ABB0)
+#define RPG_GAMECORE_FIVEDIMMUSICDIRECTORCOMPONENTCONFIG_METHOD_3_C2AD5163505D6FBA_OFFSET UNITYSDK_OFFSET(0x1BEA5ED0)
+#define RPG_GAMECORE_FIVEDIMMUSICDIRECTORCOMPONENTCONFIG_METHOD_3_CBEBD7B44E885E9B_OFFSET UNITYSDK_OFFSET(0x1BEA5E80)
+#define RPG_GAMECORE_FIVEDIMMUSICDIRECTORCOMPONENTCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1BEA5EC0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FiveDimMusicDirectorComponentConfig_TypeDefinitionIndex = 17909;
+	inline static constexpr unsigned int FiveDimMusicDirectorComponentConfig_TypeDefinitionIndex = 18087;
 
 	class FiveDimMusicDirectorComponentConfig : public ::RPG::GameCore::LittleGameComponentConfig
 	{
@@ -28,20 +29,21 @@ namespace RPG::GameCore
 		::RPG::GameCore::LittleGameEvent* OnMusicPause; // 0x38
 		::RPG::GameCore::LittleGameEvent* OnMusicResume; // 0x40
 		::Il2CppArray<::RPG::GameCore::FiveDimEffectPreloadConfig*>* EffectPreloadConfigList; // 0x48
+		::RPG::GameCore::FiveDimMusicComboJumpConfig* ComboJumpConfig; // 0x50
 
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMMUSICDIRECTORCOMPONENTCONFIG__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_0E5558229A8ED0AF(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::FiveDimMusicDirectorComponentConfig*& a2)
+		static ::System::Void Method_3_CBEBD7B44E885E9B(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::FiveDimMusicDirectorComponentConfig*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::FiveDimMusicDirectorComponentConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMMUSICDIRECTORCOMPONENTCONFIG_METHOD_3_0E5558229A8ED0AF_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::FiveDimMusicDirectorComponentConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMMUSICDIRECTORCOMPONENTCONFIG_METHOD_3_CBEBD7B44E885E9B_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_D5600382010E3B4D(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::FiveDimMusicDirectorComponentConfig* a2)
+		static ::System::Void Method_3_C2AD5163505D6FBA(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::FiveDimMusicDirectorComponentConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::FiveDimMusicDirectorComponentConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMMUSICDIRECTORCOMPONENTCONFIG_METHOD_3_D5600382010E3B4D_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::FiveDimMusicDirectorComponentConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMMUSICDIRECTORCOMPONENTCONFIG_METHOD_3_C2AD5163505D6FBA_OFFSET))(a1, a2);
 		}
 	};
 }

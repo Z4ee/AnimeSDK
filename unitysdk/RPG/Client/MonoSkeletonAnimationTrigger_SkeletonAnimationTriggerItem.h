@@ -4,11 +4,11 @@
 
 namespace System { class String; }
 
-#define RPG_CLIENT_MONOSKELETONANIMATIONTRIGGER_SKELETONANIMATIONTRIGGERITEM__CTOR_OFFSET UNITYSDK_OFFSET(0xC146330)
+#define RPG_CLIENT_MONOSKELETONANIMATIONTRIGGER_SKELETONANIMATIONTRIGGERITEM__CTOR_OFFSET UNITYSDK_OFFSET(0x1A34C390)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MonoSkeletonAnimationTrigger_SkeletonAnimationTriggerItem_TypeDefinitionIndex = 64493;
+	inline static constexpr unsigned int MonoSkeletonAnimationTrigger_SkeletonAnimationTriggerItem_TypeDefinitionIndex = 65893;
 
 	class MonoSkeletonAnimationTrigger_SkeletonAnimationTriggerItem : public ::System::Object
 	{

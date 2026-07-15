@@ -6,12 +6,12 @@
 namespace UnityEngine { class Object; }
 namespace UnityEngine { class RectTransform; }
 
-#define UNITYENGINE_DRIVENRECTTRANSFORMTRACKER_ADD_OFFSET UNITYSDK_OFFSET(0x1020)
-#define UNITYENGINE_DRIVENRECTTRANSFORMTRACKER_CLEAR_OFFSET UNITYSDK_OFFSET(0x1020)
+#define UNITYENGINE_DRIVENRECTTRANSFORMTRACKER_ADD_OFFSET UNITYSDK_OFFSET(0x667A60)
+#define UNITYENGINE_DRIVENRECTTRANSFORMTRACKER_CLEAR_OFFSET UNITYSDK_OFFSET(0x667A60)
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int DrivenRectTransformTracker_TypeDefinitionIndex = 4384;
+	inline static constexpr unsigned int DrivenRectTransformTracker_TypeDefinitionIndex = 4389;
 
 	struct alignas(1) DrivenRectTransformTracker
 	{

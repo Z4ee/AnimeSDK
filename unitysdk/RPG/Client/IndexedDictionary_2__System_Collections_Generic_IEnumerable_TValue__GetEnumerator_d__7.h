@@ -6,7 +6,7 @@ namespace RPG::Client { template <typename T1, typename T2> class IndexedDiction
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int IndexedDictionary_2__System_Collections_Generic_IEnumerable_TValue__GetEnumerator_d__7_TypeDefinitionIndex = 33442;
+	inline static constexpr unsigned int IndexedDictionary_2__System_Collections_Generic_IEnumerable_TValue__GetEnumerator_d__7_TypeDefinitionIndex = 33812;
 
 	template <typename TKey, typename TValue>
 	class IndexedDictionary_2__System_Collections_Generic_IEnumerable_TValue__GetEnumerator_d__7 : public ::System::Object

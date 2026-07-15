@@ -6,13 +6,12 @@
 namespace RPG::Client { class AudiencePrefabConfig; }
 namespace System { class String; }
 
-#define RPG_CLIENT_AUDIENCEFEATUREDATA_TOSTRING_OFFSET UNITYSDK_OFFSET(0xB339E30)
-#define RPG_CLIENT_AUDIENCEFEATUREDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xB339EE0)
-#define RPG_CLIENT_AUDIENCEFEATUREDATA___IFIXBASEPROXY_TOSTRING_OFFSET UNITYSDK_OFFSET(0xB339EF0)
+#define RPG_CLIENT_AUDIENCEFEATUREDATA_TOSTRING_OFFSET UNITYSDK_OFFSET(0x19B3EE70)
+#define RPG_CLIENT_AUDIENCEFEATUREDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x19B3EF80)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int AudienceFeatureData_TypeDefinitionIndex = 64647;
+	inline static constexpr unsigned int AudienceFeatureData_TypeDefinitionIndex = 66048;
 
 	class AudienceFeatureData : public ::System::Object
 	{
@@ -28,11 +27,6 @@ namespace RPG::Client
 		::System::String* ToString()
 		{
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_AUDIENCEFEATUREDATA_TOSTRING_OFFSET))(this);
-		}
-
-		::System::String* __iFixBaseProxy_ToString()
-		{
-			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_AUDIENCEFEATUREDATA___IFIXBASEPROXY_TOSTRING_OFFSET))(this);
 		}
 	};
 }

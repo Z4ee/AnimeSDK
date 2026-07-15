@@ -5,7 +5,7 @@ namespace System { class String; }
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int IConfigReader_TypeDefinitionIndex = 4048;
+	inline static constexpr unsigned int IConfigReader_TypeDefinitionIndex = 4053;
 
 	class IConfigReader
 	{

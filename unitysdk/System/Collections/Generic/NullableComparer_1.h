@@ -7,7 +7,7 @@ namespace System { class Object; }
 
 namespace System::Collections::Generic
 {
-	inline static constexpr unsigned int NullableComparer_1_TypeDefinitionIndex = 1535;
+	inline static constexpr unsigned int NullableComparer_1_TypeDefinitionIndex = 1539;
 
 	template <typename T>
 	class NullableComparer_1 : public ::System::Collections::Generic::Comparer_1<::System::Nullable_1<T>>

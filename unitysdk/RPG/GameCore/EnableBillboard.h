@@ -5,13 +5,13 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class TargetEvaluator; }
 
-#define RPG_GAMECORE_ENABLEBILLBOARD_METHOD_3_749016EB8896BE68_OFFSET UNITYSDK_OFFSET(0x196E30C0)
-#define RPG_GAMECORE_ENABLEBILLBOARD_METHOD_3_8F5B428A5B05BFC5_OFFSET UNITYSDK_OFFSET(0x196E2F70)
-#define RPG_GAMECORE_ENABLEBILLBOARD__CTOR_OFFSET UNITYSDK_OFFSET(0x196E3030)
+#define RPG_GAMECORE_ENABLEBILLBOARD_METHOD_3_749016EB8896BE68_OFFSET UNITYSDK_OFFSET(0x1BB3F330)
+#define RPG_GAMECORE_ENABLEBILLBOARD_METHOD_3_F267538D9F3936CA_OFFSET UNITYSDK_OFFSET(0x1BB3F2B0)
+#define RPG_GAMECORE_ENABLEBILLBOARD__CTOR_OFFSET UNITYSDK_OFFSET(0x1BB3F300)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int EnableBillboard_TypeDefinitionIndex = 19322;
+	inline static constexpr unsigned int EnableBillboard_TypeDefinitionIndex = 19678;
 
 	class EnableBillboard : public ::RPG::GameCore::TaskConfig
 	{
@@ -24,9 +24,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ENABLEBILLBOARD__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_8F5B428A5B05BFC5(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::EnableBillboard*& a2)
+		static ::System::Void Method_3_F267538D9F3936CA(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::EnableBillboard*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::EnableBillboard*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ENABLEBILLBOARD_METHOD_3_8F5B428A5B05BFC5_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::EnableBillboard*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ENABLEBILLBOARD_METHOD_3_F267538D9F3936CA_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_749016EB8896BE68(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::EnableBillboard* a2)

@@ -5,13 +5,13 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_ADVISOMETRICCAMERASIZEBLEND_METHOD_3_3ACF5845AFAD8B31_OFFSET UNITYSDK_OFFSET(0x194275B0)
-#define RPG_GAMECORE_ADVISOMETRICCAMERASIZEBLEND_METHOD_3_EF7AB418B42AAC5D_OFFSET UNITYSDK_OFFSET(0x19427530)
-#define RPG_GAMECORE_ADVISOMETRICCAMERASIZEBLEND__CTOR_OFFSET UNITYSDK_OFFSET(0x19427580)
+#define RPG_GAMECORE_ADVISOMETRICCAMERASIZEBLEND_METHOD_3_3ACF5845AFAD8B31_OFFSET UNITYSDK_OFFSET(0x1BE1F610)
+#define RPG_GAMECORE_ADVISOMETRICCAMERASIZEBLEND_METHOD_3_AD5641F5D90F322E_OFFSET UNITYSDK_OFFSET(0x1BE1F5D0)
+#define RPG_GAMECORE_ADVISOMETRICCAMERASIZEBLEND__CTOR_OFFSET UNITYSDK_OFFSET(0x1BE1F600)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AdvIsometricCameraSizeBlend_TypeDefinitionIndex = 20991;
+	inline static constexpr unsigned int AdvIsometricCameraSizeBlend_TypeDefinitionIndex = 21406;
 
 	class AdvIsometricCameraSizeBlend : public ::RPG::GameCore::TaskConfig
 	{
@@ -24,9 +24,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVISOMETRICCAMERASIZEBLEND__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_EF7AB418B42AAC5D(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AdvIsometricCameraSizeBlend*& a2)
+		static ::System::Void Method_3_AD5641F5D90F322E(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AdvIsometricCameraSizeBlend*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::AdvIsometricCameraSizeBlend*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVISOMETRICCAMERASIZEBLEND_METHOD_3_EF7AB418B42AAC5D_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::AdvIsometricCameraSizeBlend*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVISOMETRICCAMERASIZEBLEND_METHOD_3_AD5641F5D90F322E_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_3ACF5845AFAD8B31(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AdvIsometricCameraSizeBlend* a2)

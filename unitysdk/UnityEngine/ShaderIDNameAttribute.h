@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Attribute.h"
 
-#define UNITYENGINE_SHADERIDNAMEATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1B2D6880)
+#define UNITYENGINE_SHADERIDNAMEATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1BFB09A0)
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int ShaderIDNameAttribute_TypeDefinitionIndex = 4367;
+	inline static constexpr unsigned int ShaderIDNameAttribute_TypeDefinitionIndex = 4372;
 
 	class ShaderIDNameAttribute : public ::System::Attribute
 	{

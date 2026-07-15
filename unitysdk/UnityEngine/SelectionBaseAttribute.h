@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Attribute.h"
 
-#define UNITYENGINE_SELECTIONBASEATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1B2D5AC0)
+#define UNITYENGINE_SELECTIONBASEATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1BFAFB30)
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int SelectionBaseAttribute_TypeDefinitionIndex = 4324;
+	inline static constexpr unsigned int SelectionBaseAttribute_TypeDefinitionIndex = 4329;
 
 	class SelectionBaseAttribute : public ::System::Attribute
 	{

@@ -5,7 +5,7 @@
 
 namespace RPGTools::Timeline::PostProcessing
 {
-	inline static constexpr unsigned int BasePlayableBehaviour_1_TypeDefinitionIndex = 45802;
+	inline static constexpr unsigned int BasePlayableBehaviour_1_TypeDefinitionIndex = 46741;
 
 	template <typename T>
 	class BasePlayableBehaviour_1 : public ::RPGTools::Timeline::PostProcessing::BasePlayableBehaviour

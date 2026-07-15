@@ -4,13 +4,13 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_INTERRUPTSKILLEXECUTION_METHOD_3_789DD48255418017_OFFSET UNITYSDK_OFFSET(0x19852480)
-#define RPG_GAMECORE_INTERRUPTSKILLEXECUTION_METHOD_3_CA351F8DE2B832A1_OFFSET UNITYSDK_OFFSET(0x19852500)
-#define RPG_GAMECORE_INTERRUPTSKILLEXECUTION__CTOR_OFFSET UNITYSDK_OFFSET(0x198524D0)
+#define RPG_GAMECORE_INTERRUPTSKILLEXECUTION_METHOD_3_03393DCBCD1D401E_OFFSET UNITYSDK_OFFSET(0x1B012410)
+#define RPG_GAMECORE_INTERRUPTSKILLEXECUTION_METHOD_3_CA351F8DE2B832A1_OFFSET UNITYSDK_OFFSET(0x1B012450)
+#define RPG_GAMECORE_INTERRUPTSKILLEXECUTION__CTOR_OFFSET UNITYSDK_OFFSET(0x1B012440)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int InterruptSkillExecution_TypeDefinitionIndex = 21877;
+	inline static constexpr unsigned int InterruptSkillExecution_TypeDefinitionIndex = 22304;
 
 	class InterruptSkillExecution : public ::RPG::GameCore::TaskConfig
 	{
@@ -23,9 +23,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_INTERRUPTSKILLEXECUTION__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_789DD48255418017(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::InterruptSkillExecution*& a2)
+		static ::System::Void Method_3_03393DCBCD1D401E(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::InterruptSkillExecution*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::InterruptSkillExecution*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_INTERRUPTSKILLEXECUTION_METHOD_3_789DD48255418017_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::InterruptSkillExecution*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_INTERRUPTSKILLEXECUTION_METHOD_3_03393DCBCD1D401E_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_CA351F8DE2B832A1(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::InterruptSkillExecution* a2)

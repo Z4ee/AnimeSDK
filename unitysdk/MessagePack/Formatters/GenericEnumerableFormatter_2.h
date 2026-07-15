@@ -6,7 +6,7 @@ namespace MessagePack { class MessagePackSerializerOptions; }
 
 namespace MessagePack::Formatters
 {
-	inline static constexpr unsigned int GenericEnumerableFormatter_2_TypeDefinitionIndex = 7341;
+	inline static constexpr unsigned int GenericEnumerableFormatter_2_TypeDefinitionIndex = 7347;
 
 	template <typename TElement, typename TCollection>
 	class GenericEnumerableFormatter_2 : public ::MessagePack::Formatters::CollectionFormatterBase_3<TElement, ::Il2CppArray<TElement>*, TCollection>

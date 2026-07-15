@@ -5,13 +5,13 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_HIPPLENGAMEWAITEVENT_METHOD_3_A4440D6CD58E6275_OFFSET UNITYSDK_OFFSET(0x19834C10)
-#define RPG_GAMECORE_HIPPLENGAMEWAITEVENT_METHOD_3_FE8CEFC866ED1A29_OFFSET UNITYSDK_OFFSET(0x19834C90)
-#define RPG_GAMECORE_HIPPLENGAMEWAITEVENT__CTOR_OFFSET UNITYSDK_OFFSET(0x19834C60)
+#define RPG_GAMECORE_HIPPLENGAMEWAITEVENT_METHOD_3_CB62798BF9564E66_OFFSET UNITYSDK_OFFSET(0x1B6874B0)
+#define RPG_GAMECORE_HIPPLENGAMEWAITEVENT_METHOD_3_FE8CEFC866ED1A29_OFFSET UNITYSDK_OFFSET(0x1B6874F0)
+#define RPG_GAMECORE_HIPPLENGAMEWAITEVENT__CTOR_OFFSET UNITYSDK_OFFSET(0x1B6874E0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int HipplenGameWaitEvent_TypeDefinitionIndex = 20150;
+	inline static constexpr unsigned int HipplenGameWaitEvent_TypeDefinitionIndex = 20522;
 
 	class HipplenGameWaitEvent : public ::RPG::GameCore::TaskConfig
 	{
@@ -24,9 +24,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_HIPPLENGAMEWAITEVENT__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_A4440D6CD58E6275(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::HipplenGameWaitEvent*& a2)
+		static ::System::Void Method_3_CB62798BF9564E66(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::HipplenGameWaitEvent*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::HipplenGameWaitEvent*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_HIPPLENGAMEWAITEVENT_METHOD_3_A4440D6CD58E6275_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::HipplenGameWaitEvent*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_HIPPLENGAMEWAITEVENT_METHOD_3_CB62798BF9564E66_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_FE8CEFC866ED1A29(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::HipplenGameWaitEvent* a2)

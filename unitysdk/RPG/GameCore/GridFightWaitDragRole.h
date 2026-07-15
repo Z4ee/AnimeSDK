@@ -6,13 +6,13 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class GridFightDragOpGridSelector; }
 namespace RPG::GameCore { class GridFightDragOpRoleSelector; }
 
-#define RPG_GAMECORE_GRIDFIGHTWAITDRAGROLE_METHOD_3_74BE9A38E0C4489A_OFFSET UNITYSDK_OFFSET(0x198123B0)
-#define RPG_GAMECORE_GRIDFIGHTWAITDRAGROLE_METHOD_3_A3CB618E08EE56AB_OFFSET UNITYSDK_OFFSET(0x19812330)
-#define RPG_GAMECORE_GRIDFIGHTWAITDRAGROLE__CTOR_OFFSET UNITYSDK_OFFSET(0x19812380)
+#define RPG_GAMECORE_GRIDFIGHTWAITDRAGROLE_METHOD_3_04D1BC2296B299A7_OFFSET UNITYSDK_OFFSET(0x1D07EFA0)
+#define RPG_GAMECORE_GRIDFIGHTWAITDRAGROLE_METHOD_3_74BE9A38E0C4489A_OFFSET UNITYSDK_OFFSET(0x1D07EFE0)
+#define RPG_GAMECORE_GRIDFIGHTWAITDRAGROLE__CTOR_OFFSET UNITYSDK_OFFSET(0x1D07EFD0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int GridFightWaitDragRole_TypeDefinitionIndex = 18839;
+	inline static constexpr unsigned int GridFightWaitDragRole_TypeDefinitionIndex = 19189;
 
 	class GridFightWaitDragRole : public ::RPG::GameCore::TaskConfig
 	{
@@ -26,9 +26,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GRIDFIGHTWAITDRAGROLE__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_A3CB618E08EE56AB(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::GridFightWaitDragRole*& a2)
+		static ::System::Void Method_3_04D1BC2296B299A7(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::GridFightWaitDragRole*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::GridFightWaitDragRole*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GRIDFIGHTWAITDRAGROLE_METHOD_3_A3CB618E08EE56AB_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::GridFightWaitDragRole*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GRIDFIGHTWAITDRAGROLE_METHOD_3_04D1BC2296B299A7_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_74BE9A38E0C4489A(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::GridFightWaitDragRole* a2)

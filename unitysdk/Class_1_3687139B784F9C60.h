@@ -1,0 +1,155 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/RPG/Client/CakeRace/CakeRaceLoadingDisplayState.h"
+#include "unitysdk/RPG/Client/LittleGameShare/CakeRaceCore/LevelStateType.h"
+#include "unitysdk/System/Object.h"
+
+class Class_1_7E879E2723D836B1;
+namespace RPG::Client::CakeRace { class CakeRaceGameFlow; }
+namespace RPG::Client::CakeRace { class CakeRaceGameplayContext; }
+namespace RPG::Client::Promises { class IPromise; }
+namespace System { class Action; }
+
+#define CLASS_1_3687139B784F9C60_ADD_ONLOADINGSTART_OFFSET UNITYSDK_OFFSET(0x18F1C7A0)
+#define CLASS_1_3687139B784F9C60_METHOD_1_1D4018D4200358D0_OFFSET UNITYSDK_OFFSET(0x18F1C730)
+#define CLASS_1_3687139B784F9C60_METHOD_1_27C712754FB3D869_OFFSET UNITYSDK_OFFSET(0x18F1CA20)
+#define CLASS_1_3687139B784F9C60_METHOD_1_4343F372F34C05BF_1_OFFSET UNITYSDK_OFFSET(0x18F1D360)
+#define CLASS_1_3687139B784F9C60_METHOD_1_4343F372F34C05BF_2_OFFSET UNITYSDK_OFFSET(0x18F1D3C0)
+#define CLASS_1_3687139B784F9C60_METHOD_1_4343F372F34C05BF_OFFSET UNITYSDK_OFFSET(0x18F1CF00)
+#define CLASS_1_3687139B784F9C60_METHOD_1_69056D4B5A1908E6_OFFSET UNITYSDK_OFFSET(0x18F1C550)
+#define CLASS_1_3687139B784F9C60_METHOD_1_6F1A049270AD7843_OFFSET UNITYSDK_OFFSET(0x18F1CF60)
+#define CLASS_1_3687139B784F9C60_METHOD_1_8CA8CDD07FDF6A13_OFFSET UNITYSDK_OFFSET(0x18F1C4C0)
+#define CLASS_1_3687139B784F9C60_METHOD_1_8CCB07639A05D95D_1_OFFSET UNITYSDK_OFFSET(0x18F1D420)
+#define CLASS_1_3687139B784F9C60_METHOD_1_8CCB07639A05D95D_OFFSET UNITYSDK_OFFSET(0x18F1D1D0)
+#define CLASS_1_3687139B784F9C60_METHOD_1_908CDC094010F209_OFFSET UNITYSDK_OFFSET(0x18F1CFC0)
+#define CLASS_1_3687139B784F9C60_METHOD_1_9094A96EEEB7AD9B_OFFSET UNITYSDK_OFFSET(0x18F1C8E0)
+#define CLASS_1_3687139B784F9C60_METHOD_1_95D7FFD985F439CA_OFFSET UNITYSDK_OFFSET(0x18F1D220)
+#define CLASS_1_3687139B784F9C60_METHOD_1_9BAB385F8658C2AD_OFFSET UNITYSDK_OFFSET(0x18F1D140)
+#define CLASS_1_3687139B784F9C60_METHOD_1_AD125F4F7EE61610_OFFSET UNITYSDK_OFFSET(0x18F1C860)
+#define CLASS_1_3687139B784F9C60_METHOD_1_B64C60973842FE45_OFFSET UNITYSDK_OFFSET(0x18F1C660)
+#define CLASS_1_3687139B784F9C60_METHOD_1_C73EC975E9A33351_OFFSET UNITYSDK_OFFSET(0x18F1CCB0)
+#define CLASS_1_3687139B784F9C60_METHOD_1_F190CF1673762089_OFFSET UNITYSDK_OFFSET(0x18F1CAD0)
+#define CLASS_1_3687139B784F9C60_METHOD_1_FFF8162B3F3F749A_OFFSET UNITYSDK_OFFSET(0x18F1CD80)
+#define CLASS_1_3687139B784F9C60_REMOVE_ONLOADINGSTART_OFFSET UNITYSDK_OFFSET(0x18F1C800)
+#define CLASS_1_3687139B784F9C60__CTOR_OFFSET UNITYSDK_OFFSET(0x18F1C8D0)
+
+inline static constexpr unsigned int Class_1_3687139B784F9C60_TypeDefinitionIndex = 72526;
+
+class Class_1_3687139B784F9C60 : public ::System::Object
+{
+public:
+	::System::Action* OnLoadingStart; // 0x10
+	::System::Boolean Field_1_1; // 0x18
+	::System::Boolean Field_1_2; // 0x19
+	::System::Boolean Field_1_3; // 0x1A
+
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_3687139B784F9C60__CTOR_OFFSET))(this);
+	}
+
+	static ::RPG::Client::CakeRace::CakeRaceGameFlow* Method_1_8CA8CDD07FDF6A13()
+	{
+		return ((::RPG::Client::CakeRace::CakeRaceGameFlow*(*)())((::PBYTE)hIl2Cpp + CLASS_1_3687139B784F9C60_METHOD_1_8CA8CDD07FDF6A13_OFFSET))();
+	}
+
+	::RPG::Client::CakeRace::CakeRaceGameplayContext* Method_1_69056D4B5A1908E6()
+	{
+		return ((::RPG::Client::CakeRace::CakeRaceGameplayContext*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_3687139B784F9C60_METHOD_1_69056D4B5A1908E6_OFFSET))(this);
+	}
+
+	::Class_1_7E879E2723D836B1* Method_1_B64C60973842FE45()
+	{
+		return ((::Class_1_7E879E2723D836B1*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_3687139B784F9C60_METHOD_1_B64C60973842FE45_OFFSET))(this);
+	}
+
+	::System::Boolean Method_1_1D4018D4200358D0()
+	{
+		return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_3687139B784F9C60_METHOD_1_1D4018D4200358D0_OFFSET))(this);
+	}
+
+	::System::Void add_OnLoadingStart(::System::Action* a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + CLASS_1_3687139B784F9C60_ADD_ONLOADINGSTART_OFFSET))(this, a1);
+	}
+
+	::System::Void remove_OnLoadingStart(::System::Action* a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + CLASS_1_3687139B784F9C60_REMOVE_ONLOADINGSTART_OFFSET))(this, a1);
+	}
+
+	static ::Class_1_3687139B784F9C60* Method_1_AD125F4F7EE61610()
+	{
+		return ((::Class_1_3687139B784F9C60*(*)())((::PBYTE)hIl2Cpp + CLASS_1_3687139B784F9C60_METHOD_1_AD125F4F7EE61610_OFFSET))();
+	}
+
+	::System::Void Method_1_9094A96EEEB7AD9B(::System::Boolean a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + CLASS_1_3687139B784F9C60_METHOD_1_9094A96EEEB7AD9B_OFFSET))(this, a1);
+	}
+
+	::RPG::Client::Promises::IPromise* Method_1_F190CF1673762089(::RPG::Client::CakeRace::CakeRaceLoadingDisplayState a1)
+	{
+		return ((::RPG::Client::Promises::IPromise*(*)(::PVOID, ::RPG::Client::CakeRace::CakeRaceLoadingDisplayState))((::PBYTE)hIl2Cpp + CLASS_1_3687139B784F9C60_METHOD_1_F190CF1673762089_OFFSET))(this, a1);
+	}
+
+	static ::System::Action* Method_1_C73EC975E9A33351(::RPG::Client::CakeRace::CakeRaceLoadingDisplayState a1)
+	{
+		return ((::System::Action*(*)(::RPG::Client::CakeRace::CakeRaceLoadingDisplayState))((::PBYTE)hIl2Cpp + CLASS_1_3687139B784F9C60_METHOD_1_C73EC975E9A33351_OFFSET))(a1);
+	}
+
+	::RPG::Client::Promises::IPromise* Method_1_FFF8162B3F3F749A()
+	{
+		return ((::RPG::Client::Promises::IPromise*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_3687139B784F9C60_METHOD_1_FFF8162B3F3F749A_OFFSET))(this);
+	}
+
+	::System::Void Method_1_4343F372F34C05BF()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_3687139B784F9C60_METHOD_1_4343F372F34C05BF_OFFSET))(this);
+	}
+
+	::System::Void Method_1_6F1A049270AD7843()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_3687139B784F9C60_METHOD_1_6F1A049270AD7843_OFFSET))(this);
+	}
+
+	::System::Void Method_1_908CDC094010F209()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_3687139B784F9C60_METHOD_1_908CDC094010F209_OFFSET))(this);
+	}
+
+	::System::Void Method_1_9BAB385F8658C2AD()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_3687139B784F9C60_METHOD_1_9BAB385F8658C2AD_OFFSET))(this);
+	}
+
+	::System::Void Method_1_8CCB07639A05D95D()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_3687139B784F9C60_METHOD_1_8CCB07639A05D95D_OFFSET))(this);
+	}
+
+	::System::Void Method_1_95D7FFD985F439CA(::RPG::Client::LittleGameShare::CakeRaceCore::LevelStateType a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::RPG::Client::LittleGameShare::CakeRaceCore::LevelStateType))((::PBYTE)hIl2Cpp + CLASS_1_3687139B784F9C60_METHOD_1_95D7FFD985F439CA_OFFSET))(this, a1);
+	}
+
+	::System::Void Method_1_4343F372F34C05BF_1()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_3687139B784F9C60_METHOD_1_4343F372F34C05BF_1_OFFSET))(this);
+	}
+
+	::System::Void Method_1_4343F372F34C05BF_2()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_3687139B784F9C60_METHOD_1_4343F372F34C05BF_2_OFFSET))(this);
+	}
+
+	::System::Void Method_1_8CCB07639A05D95D_1()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_3687139B784F9C60_METHOD_1_8CCB07639A05D95D_1_OFFSET))(this);
+	}
+
+	::System::Void Method_1_27C712754FB3D869(::System::Boolean& a1, ::System::Boolean a2, ::System::Boolean a3)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::Boolean&, ::System::Boolean, ::System::Boolean))((::PBYTE)hIl2Cpp + CLASS_1_3687139B784F9C60_METHOD_1_27C712754FB3D869_OFFSET))(this, a1, a2, a3);
+	}
+};

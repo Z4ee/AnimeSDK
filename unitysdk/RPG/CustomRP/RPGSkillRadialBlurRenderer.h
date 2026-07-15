@@ -7,13 +7,13 @@ namespace RPG::CustomRP { class MaterialLibrary; }
 namespace UnityEngine { class Material; }
 namespace UnityEngine::Rendering { class CommandBuffer; }
 
-#define RPG_CUSTOMRP_RPGSKILLRADIALBLURRENDERER_INNEREXECUTE_OFFSET UNITYSDK_OFFSET(0x18F117D0)
-#define RPG_CUSTOMRP_RPGSKILLRADIALBLURRENDERER_UPDATE_OFFSET UNITYSDK_OFFSET(0x18F11690)
-#define RPG_CUSTOMRP_RPGSKILLRADIALBLURRENDERER__CTOR_OFFSET UNITYSDK_OFFSET(0x18F115C0)
+#define RPG_CUSTOMRP_RPGSKILLRADIALBLURRENDERER_INNEREXECUTE_OFFSET UNITYSDK_OFFSET(0x16C1ABA0)
+#define RPG_CUSTOMRP_RPGSKILLRADIALBLURRENDERER_UPDATE_OFFSET UNITYSDK_OFFSET(0x16C1AA80)
+#define RPG_CUSTOMRP_RPGSKILLRADIALBLURRENDERER__CTOR_OFFSET UNITYSDK_OFFSET(0x16C1A9B0)
 
 namespace RPG::CustomRP
 {
-	inline static constexpr unsigned int RPGSkillRadialBlurRenderer_TypeDefinitionIndex = 35515;
+	inline static constexpr unsigned int RPGSkillRadialBlurRenderer_TypeDefinitionIndex = 36297;
 
 	class RPGSkillRadialBlurRenderer : public ::RPG::CustomRP::CRPPostprocessSubPass2
 	{

@@ -6,15 +6,14 @@
 
 namespace RPGTools::Timeline { class TalkImageV2HideClip; }
 
-#define RPGTOOLS_TIMELINE_TALKIMAGEV2HIDEBEHAVIOUR_GET_CLIP_OFFSET UNITYSDK_OFFSET(0xD061EC0)
-#define RPGTOOLS_TIMELINE_TALKIMAGEV2HIDEBEHAVIOUR_ONBEHAVIOURPLAY_OFFSET UNITYSDK_OFFSET(0xD061EE0)
-#define RPGTOOLS_TIMELINE_TALKIMAGEV2HIDEBEHAVIOUR_SET_CLIP_OFFSET UNITYSDK_OFFSET(0xD061ED0)
-#define RPGTOOLS_TIMELINE_TALKIMAGEV2HIDEBEHAVIOUR__CTOR_OFFSET UNITYSDK_OFFSET(0xD062030)
-#define RPGTOOLS_TIMELINE_TALKIMAGEV2HIDEBEHAVIOUR___IFIXBASEPROXY_ONBEHAVIOURPLAY_OFFSET UNITYSDK_OFFSET(0xD062040)
+#define RPGTOOLS_TIMELINE_TALKIMAGEV2HIDEBEHAVIOUR_GET_CLIP_OFFSET UNITYSDK_OFFSET(0x19F529E0)
+#define RPGTOOLS_TIMELINE_TALKIMAGEV2HIDEBEHAVIOUR_ONBEHAVIOURPLAY_OFFSET UNITYSDK_OFFSET(0x19F52A00)
+#define RPGTOOLS_TIMELINE_TALKIMAGEV2HIDEBEHAVIOUR_SET_CLIP_OFFSET UNITYSDK_OFFSET(0x19F529F0)
+#define RPGTOOLS_TIMELINE_TALKIMAGEV2HIDEBEHAVIOUR__CTOR_OFFSET UNITYSDK_OFFSET(0x19F52B50)
 
 namespace RPGTools::Timeline
 {
-	inline static constexpr unsigned int TalkImageV2HideBehaviour_TypeDefinitionIndex = 45663;
+	inline static constexpr unsigned int TalkImageV2HideBehaviour_TypeDefinitionIndex = 46601;
 
 	class TalkImageV2HideBehaviour : public ::UnityEngine::Playables::PlayableBehaviour
 	{
@@ -39,11 +38,6 @@ namespace RPGTools::Timeline
 		::System::Void OnBehaviourPlay(::UnityEngine::Playables::Playable a1, ::UnityEngine::Playables::FrameData a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::UnityEngine::Playables::Playable, ::UnityEngine::Playables::FrameData))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_TALKIMAGEV2HIDEBEHAVIOUR_ONBEHAVIOURPLAY_OFFSET))(this, a1, a2);
-		}
-
-		::System::Void __iFixBaseProxy_OnBehaviourPlay(::UnityEngine::Playables::Playable a1, ::UnityEngine::Playables::FrameData a2)
-		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Playables::Playable, ::UnityEngine::Playables::FrameData))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_TALKIMAGEV2HIDEBEHAVIOUR___IFIXBASEPROXY_ONBEHAVIOURPLAY_OFFSET))(this, a1, a2);
 		}
 	};
 }

@@ -4,11 +4,11 @@
 
 namespace System { class String; }
 
-#define RPG_CLIENT_LIFTANCHORDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xBD6F670)
+#define RPG_CLIENT_LIFTANCHORDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x16C69C20)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int LiftAnchorData_TypeDefinitionIndex = 56359;
+	inline static constexpr unsigned int LiftAnchorData_TypeDefinitionIndex = 57598;
 
 	class LiftAnchorData : public ::System::Object
 	{

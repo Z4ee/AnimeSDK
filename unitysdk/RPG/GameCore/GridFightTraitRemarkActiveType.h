@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int GridFightTraitRemarkActiveType_TypeDefinitionIndex = 13013;
+	inline static constexpr unsigned int GridFightTraitRemarkActiveType_TypeDefinitionIndex = 13161;
 
 	enum class GridFightTraitRemarkActiveType : ::System::Int32
 	{
@@ -18,5 +18,7 @@ namespace RPG::GameCore
 		ExpertActivate = 8,
 		RandomPropertyByRole = 9,
 		RandomPropertyByEquip = 10,
+		EffectRoleActivate = 11,
+		EffectEquipActivate = 12,
 	};
 }

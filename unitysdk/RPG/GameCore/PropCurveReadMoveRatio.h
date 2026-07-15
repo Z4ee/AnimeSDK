@@ -6,13 +6,13 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class DynamicString; }
 namespace RPG::GameCore { class TargetEvaluator; }
 
-#define RPG_GAMECORE_PROPCURVEREADMOVERATIO_METHOD_3_66B2D32D80EDCAC8_OFFSET UNITYSDK_OFFSET(0x19A8A530)
-#define RPG_GAMECORE_PROPCURVEREADMOVERATIO_METHOD_3_AEAC275D27100814_OFFSET UNITYSDK_OFFSET(0x19A8A620)
-#define RPG_GAMECORE_PROPCURVEREADMOVERATIO__CTOR_OFFSET UNITYSDK_OFFSET(0x19A8A5C0)
+#define RPG_GAMECORE_PROPCURVEREADMOVERATIO_METHOD_3_99F28BDF3260B2A3_OFFSET UNITYSDK_OFFSET(0x1BA1DD00)
+#define RPG_GAMECORE_PROPCURVEREADMOVERATIO_METHOD_3_AEAC275D27100814_OFFSET UNITYSDK_OFFSET(0x1BA1DDC0)
+#define RPG_GAMECORE_PROPCURVEREADMOVERATIO__CTOR_OFFSET UNITYSDK_OFFSET(0x1BA1DD70)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PropCurveReadMoveRatio_TypeDefinitionIndex = 19850;
+	inline static constexpr unsigned int PropCurveReadMoveRatio_TypeDefinitionIndex = 20214;
 
 	class PropCurveReadMoveRatio : public ::RPG::GameCore::TaskConfig
 	{
@@ -26,9 +26,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PROPCURVEREADMOVERATIO__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_66B2D32D80EDCAC8(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::PropCurveReadMoveRatio*& a2)
+		static ::System::Void Method_3_99F28BDF3260B2A3(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::PropCurveReadMoveRatio*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::PropCurveReadMoveRatio*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PROPCURVEREADMOVERATIO_METHOD_3_66B2D32D80EDCAC8_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::PropCurveReadMoveRatio*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PROPCURVEREADMOVERATIO_METHOD_3_99F28BDF3260B2A3_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_AEAC275D27100814(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::PropCurveReadMoveRatio* a2)

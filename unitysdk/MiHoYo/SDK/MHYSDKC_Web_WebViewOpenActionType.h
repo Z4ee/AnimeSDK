@@ -3,7 +3,7 @@
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int MHYSDKC_Web_WebViewOpenActionType_TypeDefinitionIndex = 43571;
+	inline static constexpr unsigned int MHYSDKC_Web_WebViewOpenActionType_TypeDefinitionIndex = 44432;
 
 	enum class MHYSDKC_Web_WebViewOpenActionType : ::System::Int32
 	{

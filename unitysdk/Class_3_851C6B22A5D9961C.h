@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class SetBPSortType; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_851C6B22A5D9961C_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xA5E5450)
-#define CLASS_3_851C6B22A5D9961C__CTOR_OFFSET UNITYSDK_OFFSET(0xA5E5420)
+#define CLASS_3_851C6B22A5D9961C_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x18F03460)
+#define CLASS_3_851C6B22A5D9961C__CTOR_OFFSET UNITYSDK_OFFSET(0x18F03430)
 
-inline static constexpr unsigned int Class_3_851C6B22A5D9961C_TypeDefinitionIndex = 51704;
+inline static constexpr unsigned int Class_3_851C6B22A5D9961C_TypeDefinitionIndex = 52847;
 
 class Class_3_851C6B22A5D9961C : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::SetBPSortType*>
 {

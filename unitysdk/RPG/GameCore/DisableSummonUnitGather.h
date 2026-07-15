@@ -5,13 +5,13 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class TargetEvaluator; }
 
-#define RPG_GAMECORE_DISABLESUMMONUNITGATHER_METHOD_3_8C23B9CE8571D888_OFFSET UNITYSDK_OFFSET(0x196BD1F0)
-#define RPG_GAMECORE_DISABLESUMMONUNITGATHER_METHOD_3_A537023C519C637E_OFFSET UNITYSDK_OFFSET(0x196BD170)
-#define RPG_GAMECORE_DISABLESUMMONUNITGATHER__CTOR_OFFSET UNITYSDK_OFFSET(0x196BD1C0)
+#define RPG_GAMECORE_DISABLESUMMONUNITGATHER_METHOD_3_3804973D266103B7_OFFSET UNITYSDK_OFFSET(0x1BB19060)
+#define RPG_GAMECORE_DISABLESUMMONUNITGATHER_METHOD_3_8C23B9CE8571D888_OFFSET UNITYSDK_OFFSET(0x1BB190A0)
+#define RPG_GAMECORE_DISABLESUMMONUNITGATHER__CTOR_OFFSET UNITYSDK_OFFSET(0x1BB19090)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int DisableSummonUnitGather_TypeDefinitionIndex = 19034;
+	inline static constexpr unsigned int DisableSummonUnitGather_TypeDefinitionIndex = 19387;
 
 	class DisableSummonUnitGather : public ::RPG::GameCore::TaskConfig
 	{
@@ -24,9 +24,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_DISABLESUMMONUNITGATHER__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_A537023C519C637E(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::DisableSummonUnitGather*& a2)
+		static ::System::Void Method_3_3804973D266103B7(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::DisableSummonUnitGather*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::DisableSummonUnitGather*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_DISABLESUMMONUNITGATHER_METHOD_3_A537023C519C637E_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::DisableSummonUnitGather*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_DISABLESUMMONUNITGATHER_METHOD_3_3804973D266103B7_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_8C23B9CE8571D888(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::DisableSummonUnitGather* a2)

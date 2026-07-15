@@ -7,13 +7,12 @@ namespace System { class String; }
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine { class LineRenderer; }
 
-#define RPG_CLIENT_LINERENDERERCONTROLMONOPLUGIN_GETTICKLODTEMPLATENAME_OFFSET UNITYSDK_OFFSET(0xBDBCE30)
-#define RPG_CLIENT_LINERENDERERCONTROLMONOPLUGIN__CTOR_OFFSET UNITYSDK_OFFSET(0xBDBCE80)
-#define RPG_CLIENT_LINERENDERERCONTROLMONOPLUGIN___IFIXBASEPROXY_GETTICKLODTEMPLATENAME_OFFSET UNITYSDK_OFFSET(0xBDBCE90)
+#define RPG_CLIENT_LINERENDERERCONTROLMONOPLUGIN_GETTICKLODTEMPLATENAME_OFFSET UNITYSDK_OFFSET(0x19B7AAA0)
+#define RPG_CLIENT_LINERENDERERCONTROLMONOPLUGIN__CTOR_OFFSET UNITYSDK_OFFSET(0x19B7AAF0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int LineRendererControlMonoPlugin_TypeDefinitionIndex = 66061;
+	inline static constexpr unsigned int LineRendererControlMonoPlugin_TypeDefinitionIndex = 67486;
 
 	class LineRendererControlMonoPlugin : public ::RPG::Client::TAMonoPlugin_1<::RPG::Client::LineRendererControlBehavior*>
 	{
@@ -30,11 +29,6 @@ namespace RPG::Client
 		::System::String* GetTickLodTemplateName()
 		{
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_LINERENDERERCONTROLMONOPLUGIN_GETTICKLODTEMPLATENAME_OFFSET))(this);
-		}
-
-		::System::String* __iFixBaseProxy_GetTickLodTemplateName()
-		{
-			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_LINERENDERERCONTROLMONOPLUGIN___IFIXBASEPROXY_GETTICKLODTEMPLATENAME_OFFSET))(this);
 		}
 	};
 }

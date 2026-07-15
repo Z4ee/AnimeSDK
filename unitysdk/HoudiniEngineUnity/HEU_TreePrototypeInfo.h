@@ -4,12 +4,12 @@
 
 namespace System { class String; }
 
-#define HOUDINIENGINEUNITY_HEU_TREEPROTOTYPEINFO_ISEQUIVALENTTO_OFFSET UNITYSDK_OFFSET(0x17F6D530)
-#define HOUDINIENGINEUNITY_HEU_TREEPROTOTYPEINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x17F60700)
+#define HOUDINIENGINEUNITY_HEU_TREEPROTOTYPEINFO_ISEQUIVALENTTO_OFFSET UNITYSDK_OFFSET(0x197DE440)
+#define HOUDINIENGINEUNITY_HEU_TREEPROTOTYPEINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x197D07D0)
 
 namespace HoudiniEngineUnity
 {
-	inline static constexpr unsigned int HEU_TreePrototypeInfo_TypeDefinitionIndex = 37808;
+	inline static constexpr unsigned int HEU_TreePrototypeInfo_TypeDefinitionIndex = 38616;
 
 	class HEU_TreePrototypeInfo : public ::System::Object
 	{

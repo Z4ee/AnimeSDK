@@ -7,7 +7,7 @@ namespace Entitas { template <typename T> class IMatcher_1; }
 
 namespace Entitas
 {
-	inline static constexpr unsigned int TriggerOnEvent_1_TypeDefinitionIndex = 9633;
+	inline static constexpr unsigned int TriggerOnEvent_1_TypeDefinitionIndex = 9647;
 
 	template <typename TEntity>
 	struct TriggerOnEvent_1

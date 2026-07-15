@@ -7,19 +7,19 @@ namespace RPG::Client::Challenge::Tierce { class ChallengeTierceTargetListContro
 namespace System { class Action; }
 namespace UnityEngine { class GameObject; }
 
-#define RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCETARGETLISTCONTROL___C__DISPLAYCLASS9_0__CTOR_OFFSET UNITYSDK_OFFSET(0xB4E8EC0)
-#define RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCETARGETLISTCONTROL___C__DISPLAYCLASS9_0___REFRESH_B__1_OFFSET UNITYSDK_OFFSET(0xB4E8ED0)
-#define RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCETARGETLISTCONTROL___C__DISPLAYCLASS9_0___REFRESH_B__2_OFFSET UNITYSDK_OFFSET(0xB4E8F10)
+#define RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCETARGETLISTCONTROL___C__DISPLAYCLASS9_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1877A6D0)
+#define RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCETARGETLISTCONTROL___C__DISPLAYCLASS9_0___REFRESH_B__1_OFFSET UNITYSDK_OFFSET(0x1877A6E0)
+#define RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCETARGETLISTCONTROL___C__DISPLAYCLASS9_0___REFRESH_B__2_OFFSET UNITYSDK_OFFSET(0x1877A720)
 
 namespace RPG::Client::Challenge::Tierce
 {
-	inline static constexpr unsigned int ChallengeTierceTargetListControl___c__DisplayClass9_0_TypeDefinitionIndex = 74191;
+	inline static constexpr unsigned int ChallengeTierceTargetListControl___c__DisplayClass9_0_TypeDefinitionIndex = 76575;
 
 	class ChallengeTierceTargetListControl___c__DisplayClass9_0 : public ::System::Object
 	{
 	public:
-		::RPG::Client::Challenge::ChallengeTargetViewModel* target; // 0x10
-		::RPG::Client::Challenge::Tierce::ChallengeTierceTargetListControl* __4__this; // 0x18
+		::RPG::Client::Challenge::Tierce::ChallengeTierceTargetListControl* __4__this; // 0x10
+		::RPG::Client::Challenge::ChallengeTargetViewModel* target; // 0x18
 		::System::Int32 prefabIndex; // 0x20
 
 		::System::Void _ctor()

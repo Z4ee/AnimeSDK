@@ -3,7 +3,7 @@
 
 namespace RPG::Client::LittleGame::Marble
 {
-	inline static constexpr unsigned int MarbleActionSource_TypeDefinitionIndex = 39703;
+	inline static constexpr unsigned int MarbleActionSource_TypeDefinitionIndex = 40512;
 
 	enum class MarbleActionSource : ::System::Int32
 	{

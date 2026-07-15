@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class ByComparePropPuzzleCreated; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_049E5BAA28B8E939_EVALUATE_OFFSET UNITYSDK_OFFSET(0x142E4100)
-#define CLASS_3_049E5BAA28B8E939__CTOR_OFFSET UNITYSDK_OFFSET(0x142E40D0)
+#define CLASS_3_049E5BAA28B8E939_EVALUATE_OFFSET UNITYSDK_OFFSET(0x166FE550)
+#define CLASS_3_049E5BAA28B8E939__CTOR_OFFSET UNITYSDK_OFFSET(0x166FE520)
 
-inline static constexpr unsigned int Class_3_049E5BAA28B8E939_TypeDefinitionIndex = 49655;
+inline static constexpr unsigned int Class_3_049E5BAA28B8E939_TypeDefinitionIndex = 50709;
 
 class Class_3_049E5BAA28B8E939 : public ::RPG::GameCore::PredicateTaskBase_1<::RPG::GameCore::ByComparePropPuzzleCreated*>
 {

@@ -6,7 +6,7 @@
 
 namespace RPGTools::Timeline::PostProcessing
 {
-	inline static constexpr unsigned int MotionBlurParameter_TypeDefinitionIndex = 45853;
+	inline static constexpr unsigned int MotionBlurParameter_TypeDefinitionIndex = 46792;
 
 	struct alignas(4) MotionBlurParameter
 	{

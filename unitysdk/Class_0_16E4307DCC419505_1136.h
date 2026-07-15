@@ -1,10 +1,10 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/System/DateTime.h"
 
-namespace RPG::Client { class SwordTrainingStatusChangeInfo; }
-namespace System::Collections::Generic { template <typename T> class IList_1; }
+namespace System::IO { class BinaryWriter; }
 
-inline static constexpr unsigned int Class_0_16E4307DCC419505_1136_TypeDefinitionIndex = 69882;
+inline static constexpr unsigned int Class_0_16E4307DCC419505_1136_TypeDefinitionIndex = 70632;
 
 class Class_0_16E4307DCC419505_1136
 {

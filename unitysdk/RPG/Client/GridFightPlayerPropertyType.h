@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GridFightPlayerPropertyType_TypeDefinitionIndex = 60346;
+	inline static constexpr unsigned int GridFightPlayerPropertyType_TypeDefinitionIndex = 61636;
 
 	enum class GridFightPlayerPropertyType : ::System::Int32
 	{
@@ -22,5 +22,6 @@ namespace RPG::Client
 		MaxInterestNum = 12,
 		TrackEquips = 13,
 		PlayerLevelLimit = 14,
+		BuyExpHpCost = 15,
 	};
 }

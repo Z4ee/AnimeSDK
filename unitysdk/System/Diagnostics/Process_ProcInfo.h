@@ -6,7 +6,7 @@ namespace System { class String; }
 
 namespace System::Diagnostics
 {
-	inline static constexpr unsigned int Process_ProcInfo_TypeDefinitionIndex = 2538;
+	inline static constexpr unsigned int Process_ProcInfo_TypeDefinitionIndex = 2542;
 
 	struct alignas(8) Process_ProcInfo
 	{

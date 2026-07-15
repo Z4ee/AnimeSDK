@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class AdventureByNpcMazeSkillCooldown; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_E36F10BF9EC67B15_EVALUATE_OFFSET UNITYSDK_OFFSET(0xB006810)
-#define CLASS_3_E36F10BF9EC67B15__CTOR_OFFSET UNITYSDK_OFFSET(0xB0067E0)
+#define CLASS_3_E36F10BF9EC67B15_EVALUATE_OFFSET UNITYSDK_OFFSET(0x161937E0)
+#define CLASS_3_E36F10BF9EC67B15__CTOR_OFFSET UNITYSDK_OFFSET(0x161937B0)
 
-inline static constexpr unsigned int Class_3_E36F10BF9EC67B15_TypeDefinitionIndex = 49647;
+inline static constexpr unsigned int Class_3_E36F10BF9EC67B15_TypeDefinitionIndex = 50701;
 
 class Class_3_E36F10BF9EC67B15 : public ::RPG::GameCore::PredicateTaskBase_1<::RPG::GameCore::AdventureByNpcMazeSkillCooldown*>
 {

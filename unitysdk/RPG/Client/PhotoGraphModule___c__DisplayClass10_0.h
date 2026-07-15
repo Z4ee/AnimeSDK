@@ -5,12 +5,12 @@
 namespace RPG::GameCore { class PhotoGraphLogoConfig; }
 namespace System { class String; }
 
-#define RPG_CLIENT_PHOTOGRAPHMODULE___C__DISPLAYCLASS10_0__CTOR_OFFSET UNITYSDK_OFFSET(0xC3814C0)
-#define RPG_CLIENT_PHOTOGRAPHMODULE___C__DISPLAYCLASS10_0__GETLOGOCONFIG_B__0_OFFSET UNITYSDK_OFFSET(0xC3821C0)
+#define RPG_CLIENT_PHOTOGRAPHMODULE___C__DISPLAYCLASS10_0__CTOR_OFFSET UNITYSDK_OFFSET(0x17F601C0)
+#define RPG_CLIENT_PHOTOGRAPHMODULE___C__DISPLAYCLASS10_0__GETLOGOCONFIG_B__0_OFFSET UNITYSDK_OFFSET(0x17F60E20)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int PhotoGraphModule___c__DisplayClass10_0_TypeDefinitionIndex = 62140;
+	inline static constexpr unsigned int PhotoGraphModule___c__DisplayClass10_0_TypeDefinitionIndex = 63506;
 
 	class PhotoGraphModule___c__DisplayClass10_0 : public ::System::Object
 	{

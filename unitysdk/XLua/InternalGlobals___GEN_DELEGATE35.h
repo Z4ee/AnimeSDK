@@ -2,20 +2,20 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/MulticastDelegate.h"
 
+namespace RPG::Client { class RogueTournDifficultyCompData; }
 namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
-namespace UnityEngine::Events { template <typename T> class UnityAction_1; }
-namespace UnityEngine::Events { template <typename T> class UnityEvent_1; }
+namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
 
-#define XLUA_INTERNALGLOBALS___GEN_DELEGATE35_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x12E88C60)
-#define XLUA_INTERNALGLOBALS___GEN_DELEGATE35_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x12E88CA0)
-#define XLUA_INTERNALGLOBALS___GEN_DELEGATE35_INVOKE_OFFSET UNITYSDK_OFFSET(0x12E88C50)
-#define XLUA_INTERNALGLOBALS___GEN_DELEGATE35__CTOR_OFFSET UNITYSDK_OFFSET(0x12E88B60)
+#define XLUA_INTERNALGLOBALS___GEN_DELEGATE35_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x11CEA480)
+#define XLUA_INTERNALGLOBALS___GEN_DELEGATE35_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x11CEA4B0)
+#define XLUA_INTERNALGLOBALS___GEN_DELEGATE35_INVOKE_OFFSET UNITYSDK_OFFSET(0x11CEA470)
+#define XLUA_INTERNALGLOBALS___GEN_DELEGATE35__CTOR_OFFSET UNITYSDK_OFFSET(0x11CEA380)
 
 namespace XLua
 {
-	inline static constexpr unsigned int InternalGlobals___GEN_DELEGATE35_TypeDefinitionIndex = 46951;
+	inline static constexpr unsigned int InternalGlobals___GEN_DELEGATE35_TypeDefinitionIndex = 47916;
 
 	class InternalGlobals___GEN_DELEGATE35 : public ::System::MulticastDelegate
 	{
@@ -25,19 +25,19 @@ namespace XLua
 			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + XLUA_INTERNALGLOBALS___GEN_DELEGATE35__CTOR_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void Invoke(::UnityEngine::Events::UnityEvent_1<::System::Int32>* a1, ::UnityEngine::Events::UnityAction_1<::System::Int32>* a2)
+		::System::UInt32 Invoke(::System::Collections::Generic::IEnumerable_1<::RPG::Client::RogueTournDifficultyCompData*>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Events::UnityEvent_1<::System::Int32>*, ::UnityEngine::Events::UnityAction_1<::System::Int32>*))((::PBYTE)hIl2Cpp + XLUA_INTERNALGLOBALS___GEN_DELEGATE35_INVOKE_OFFSET))(this, a1, a2);
+			return ((::System::UInt32(*)(::PVOID, ::System::Collections::Generic::IEnumerable_1<::RPG::Client::RogueTournDifficultyCompData*>*))((::PBYTE)hIl2Cpp + XLUA_INTERNALGLOBALS___GEN_DELEGATE35_INVOKE_OFFSET))(this, a1);
 		}
 
-		::System::IAsyncResult* BeginInvoke(::UnityEngine::Events::UnityEvent_1<::System::Int32>* a1, ::UnityEngine::Events::UnityAction_1<::System::Int32>* a2, ::System::AsyncCallback* a3, ::System::Object* a4)
+		::System::IAsyncResult* BeginInvoke(::System::Collections::Generic::IEnumerable_1<::RPG::Client::RogueTournDifficultyCompData*>* a1, ::System::AsyncCallback* a2, ::System::Object* a3)
 		{
-			return ((::System::IAsyncResult*(*)(::PVOID, ::UnityEngine::Events::UnityEvent_1<::System::Int32>*, ::UnityEngine::Events::UnityAction_1<::System::Int32>*, ::System::AsyncCallback*, ::System::Object*))((::PBYTE)hIl2Cpp + XLUA_INTERNALGLOBALS___GEN_DELEGATE35_BEGININVOKE_OFFSET))(this, a1, a2, a3, a4);
+			return ((::System::IAsyncResult*(*)(::PVOID, ::System::Collections::Generic::IEnumerable_1<::RPG::Client::RogueTournDifficultyCompData*>*, ::System::AsyncCallback*, ::System::Object*))((::PBYTE)hIl2Cpp + XLUA_INTERNALGLOBALS___GEN_DELEGATE35_BEGININVOKE_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Void EndInvoke(::System::IAsyncResult* a1)
+		::System::UInt32 EndInvoke(::System::IAsyncResult* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + XLUA_INTERNALGLOBALS___GEN_DELEGATE35_ENDINVOKE_OFFSET))(this, a1);
+			return ((::System::UInt32(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + XLUA_INTERNALGLOBALS___GEN_DELEGATE35_ENDINVOKE_OFFSET))(this, a1);
 		}
 	};
 }

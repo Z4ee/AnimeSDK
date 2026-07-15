@@ -5,13 +5,13 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class TargetEvaluator; }
 
-#define RPG_GAMECORE_SETCHARACTERALWAYSIDLESTATE_METHOD_3_C10ACBB031D49CB9_OFFSET UNITYSDK_OFFSET(0x19C2E290)
-#define RPG_GAMECORE_SETCHARACTERALWAYSIDLESTATE_METHOD_3_D90071AFC373E130_OFFSET UNITYSDK_OFFSET(0x19C2E310)
-#define RPG_GAMECORE_SETCHARACTERALWAYSIDLESTATE__CTOR_OFFSET UNITYSDK_OFFSET(0x19C2E2E0)
+#define RPG_GAMECORE_SETCHARACTERALWAYSIDLESTATE_METHOD_3_A08277AA12FC02C5_OFFSET UNITYSDK_OFFSET(0x1C2D7360)
+#define RPG_GAMECORE_SETCHARACTERALWAYSIDLESTATE_METHOD_3_D90071AFC373E130_OFFSET UNITYSDK_OFFSET(0x1C2D73A0)
+#define RPG_GAMECORE_SETCHARACTERALWAYSIDLESTATE__CTOR_OFFSET UNITYSDK_OFFSET(0x1C2D7390)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SetCharacterAlwaysIdleState_TypeDefinitionIndex = 21524;
+	inline static constexpr unsigned int SetCharacterAlwaysIdleState_TypeDefinitionIndex = 21945;
 
 	class SetCharacterAlwaysIdleState : public ::RPG::GameCore::TaskConfig
 	{
@@ -24,9 +24,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETCHARACTERALWAYSIDLESTATE__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_C10ACBB031D49CB9(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SetCharacterAlwaysIdleState*& a2)
+		static ::System::Void Method_3_A08277AA12FC02C5(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SetCharacterAlwaysIdleState*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SetCharacterAlwaysIdleState*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETCHARACTERALWAYSIDLESTATE_METHOD_3_C10ACBB031D49CB9_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SetCharacterAlwaysIdleState*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETCHARACTERALWAYSIDLESTATE_METHOD_3_A08277AA12FC02C5_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_D90071AFC373E130(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SetCharacterAlwaysIdleState* a2)

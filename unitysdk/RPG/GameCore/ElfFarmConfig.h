@@ -5,12 +5,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_ELFFARMCONFIG_METHOD_2_2695D861F14F89E2_OFFSET UNITYSDK_OFFSET(0x196DA480)
-#define RPG_GAMECORE_ELFFARMCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x196DA6D0)
+#define RPG_GAMECORE_ELFFARMCONFIG_METHOD_2_2695D861F14F89E2_OFFSET UNITYSDK_OFFSET(0x1BB36B10)
+#define RPG_GAMECORE_ELFFARMCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1BB36D60)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ElfFarmConfig_TypeDefinitionIndex = 17572;
+	inline static constexpr unsigned int ElfFarmConfig_TypeDefinitionIndex = 17745;
 
 	class ElfFarmConfig : public ::RPG::GameCore::JsonConfig
 	{

@@ -6,12 +6,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_BELOBOGSHOPUICONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x194DB050)
-#define RPG_GAMECORE_BELOBOGSHOPUICONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x194DB800)
+#define RPG_GAMECORE_BELOBOGSHOPUICONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1A3FB180)
+#define RPG_GAMECORE_BELOBOGSHOPUICONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1A3FB930)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int BelobogShopUIConfigRow_TypeDefinitionIndex = 11453;
+	inline static constexpr unsigned int BelobogShopUIConfigRow_TypeDefinitionIndex = 11553;
 
 	class BelobogShopUIConfigRow : public ::System::Object
 	{

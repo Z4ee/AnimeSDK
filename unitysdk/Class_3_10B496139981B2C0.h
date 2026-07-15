@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class DeployPuzzleFadeout; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_10B496139981B2C0_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xAC6DF80)
-#define CLASS_3_10B496139981B2C0__CTOR_OFFSET UNITYSDK_OFFSET(0xAC6DF50)
+#define CLASS_3_10B496139981B2C0_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x173B7800)
+#define CLASS_3_10B496139981B2C0__CTOR_OFFSET UNITYSDK_OFFSET(0x173B77D0)
 
-inline static constexpr unsigned int Class_3_10B496139981B2C0_TypeDefinitionIndex = 54268;
+inline static constexpr unsigned int Class_3_10B496139981B2C0_TypeDefinitionIndex = 55491;
 
 class Class_3_10B496139981B2C0 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::DeployPuzzleFadeout*>
 {

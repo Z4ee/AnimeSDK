@@ -6,29 +6,29 @@
 
 class Class_1_70697F531F566942_1;
 class Class_1_73D621BDD90E61A7;
-class Class_2_074660E1B46C96C1_Class_1_9D2500B7447E67F1;
+class Class_2_B078978DCA0CA7A4_Class_1_9D2500B7447E67F1;
 namespace RPG::GameCore { class ComplexSkillAIConfigEx; }
 namespace RPG::GameCore { class GameEntity; }
 namespace RPG::GameCore { class TaskContext; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_1_780D22339C62DFB3_METHOD_1_00605CD46BC5ED28_OFFSET UNITYSDK_OFFSET(0x145F9D50)
-#define CLASS_1_780D22339C62DFB3_METHOD_1_03B1BF2F2F8589FD_OFFSET UNITYSDK_OFFSET(0x145F9D10)
-#define CLASS_1_780D22339C62DFB3_METHOD_1_10D3800655458822_OFFSET UNITYSDK_OFFSET(0x145F9880)
-#define CLASS_1_780D22339C62DFB3_METHOD_1_5790A55946AA509D_OFFSET UNITYSDK_OFFSET(0x145F9CD0)
-#define CLASS_1_780D22339C62DFB3_METHOD_1_5DB0A9A96011589C_OFFSET UNITYSDK_OFFSET(0x145F96D0)
-#define CLASS_1_780D22339C62DFB3__CCTOR_OFFSET UNITYSDK_OFFSET(0x145F9DA0)
-#define CLASS_1_780D22339C62DFB3__CTOR_OFFSET UNITYSDK_OFFSET(0x145F9D90)
+#define CLASS_1_780D22339C62DFB3_METHOD_1_00605CD46BC5ED28_OFFSET UNITYSDK_OFFSET(0x116615C0)
+#define CLASS_1_780D22339C62DFB3_METHOD_1_03B1BF2F2F8589FD_OFFSET UNITYSDK_OFFSET(0x11661580)
+#define CLASS_1_780D22339C62DFB3_METHOD_1_10D3800655458822_OFFSET UNITYSDK_OFFSET(0x11661070)
+#define CLASS_1_780D22339C62DFB3_METHOD_1_5790A55946AA509D_OFFSET UNITYSDK_OFFSET(0x11661540)
+#define CLASS_1_780D22339C62DFB3_METHOD_1_5DB0A9A96011589C_OFFSET UNITYSDK_OFFSET(0x11660EC0)
+#define CLASS_1_780D22339C62DFB3__CCTOR_OFFSET UNITYSDK_OFFSET(0x11661610)
+#define CLASS_1_780D22339C62DFB3__CTOR_OFFSET UNITYSDK_OFFSET(0x11661600)
 
-inline static constexpr unsigned int Class_1_780D22339C62DFB3_TypeDefinitionIndex = 50582;
+inline static constexpr unsigned int Class_1_780D22339C62DFB3_TypeDefinitionIndex = 51664;
 
 class Class_1_780D22339C62DFB3 : public ::System::Object
 {
 public:
 	static ::RPG::GameCore::TaskContext** StaticGet_Field_1_0()
 	{
-		return (::RPG::GameCore::TaskContext**)Il2CppClass::FromTypeDefinitionIndex(Class_1_780D22339C62DFB3_TypeDefinitionIndex)->GetStaticField(0x54BF0);
+		return (::RPG::GameCore::TaskContext**)Il2CppClass::FromTypeDefinitionIndex(Class_1_780D22339C62DFB3_TypeDefinitionIndex)->GetStaticField(0x449F0);
 	}
 
 	::System::Void _ctor()
@@ -41,9 +41,9 @@ public:
 		return ((::System::Void(*)())((::PBYTE)hIl2Cpp + CLASS_1_780D22339C62DFB3__CCTOR_OFFSET))();
 	}
 
-	static ::Class_1_AC66714FF5876767_Struct_2_028675BFBEB6582A Method_1_5DB0A9A96011589C(::RPG::GameCore::GameEntity* a1, ::System::Int32 a2, ::RPG::GameCore::ComplexSkillAIConfigEx* a3, ::RPG::GameCore::GameEntity* a4, ::System::Collections::Generic::List_1<::RPG::GameCore::GameEntity*>* a5, ::Class_2_074660E1B46C96C1_Class_1_9D2500B7447E67F1* a6, ::Class_1_73D621BDD90E61A7* a7)
+	static ::Class_1_AC66714FF5876767_Struct_2_028675BFBEB6582A Method_1_5DB0A9A96011589C(::RPG::GameCore::GameEntity* a1, ::System::Int32 a2, ::RPG::GameCore::ComplexSkillAIConfigEx* a3, ::RPG::GameCore::GameEntity* a4, ::System::Collections::Generic::List_1<::RPG::GameCore::GameEntity*>* a5, ::Class_2_B078978DCA0CA7A4_Class_1_9D2500B7447E67F1* a6, ::Class_1_73D621BDD90E61A7* a7)
 	{
-		return ((::Class_1_AC66714FF5876767_Struct_2_028675BFBEB6582A(*)(::RPG::GameCore::GameEntity*, ::System::Int32, ::RPG::GameCore::ComplexSkillAIConfigEx*, ::RPG::GameCore::GameEntity*, ::System::Collections::Generic::List_1<::RPG::GameCore::GameEntity*>*, ::Class_2_074660E1B46C96C1_Class_1_9D2500B7447E67F1*, ::Class_1_73D621BDD90E61A7*))((::PBYTE)hIl2Cpp + CLASS_1_780D22339C62DFB3_METHOD_1_5DB0A9A96011589C_OFFSET))(a1, a2, a3, a4, a5, a6, a7);
+		return ((::Class_1_AC66714FF5876767_Struct_2_028675BFBEB6582A(*)(::RPG::GameCore::GameEntity*, ::System::Int32, ::RPG::GameCore::ComplexSkillAIConfigEx*, ::RPG::GameCore::GameEntity*, ::System::Collections::Generic::List_1<::RPG::GameCore::GameEntity*>*, ::Class_2_B078978DCA0CA7A4_Class_1_9D2500B7447E67F1*, ::Class_1_73D621BDD90E61A7*))((::PBYTE)hIl2Cpp + CLASS_1_780D22339C62DFB3_METHOD_1_5DB0A9A96011589C_OFFSET))(a1, a2, a3, a4, a5, a6, a7);
 	}
 
 	static ::RPG::GameCore::FixPoint Method_1_10D3800655458822(::RPG::GameCore::ComplexSkillAIConfigEx* a1, ::Class_1_70697F531F566942_1* a2)

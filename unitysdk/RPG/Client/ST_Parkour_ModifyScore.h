@@ -4,13 +4,13 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_CLIENT_ST_PARKOUR_MODIFYSCORE_METHOD_4_3FD933B79C4CB108_OFFSET UNITYSDK_OFFSET(0x193BE4E0)
-#define RPG_CLIENT_ST_PARKOUR_MODIFYSCORE_METHOD_4_C4B30AAF83B3C797_OFFSET UNITYSDK_OFFSET(0x193BE410)
-#define RPG_CLIENT_ST_PARKOUR_MODIFYSCORE__CTOR_OFFSET UNITYSDK_OFFSET(0x193BE490)
+#define RPG_CLIENT_ST_PARKOUR_MODIFYSCORE_METHOD_4_3FD933B79C4CB108_OFFSET UNITYSDK_OFFSET(0x1B9F1570)
+#define RPG_CLIENT_ST_PARKOUR_MODIFYSCORE_METHOD_4_5F1E8AD70496397C_OFFSET UNITYSDK_OFFSET(0x1B9F1530)
+#define RPG_CLIENT_ST_PARKOUR_MODIFYSCORE__CTOR_OFFSET UNITYSDK_OFFSET(0x1B9F1560)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ST_Parkour_ModifyScore_TypeDefinitionIndex = 9940;
+	inline static constexpr unsigned int ST_Parkour_ModifyScore_TypeDefinitionIndex = 9955;
 
 	class ST_Parkour_ModifyScore : public ::RPG::GameCore::STTaskConfig
 	{
@@ -32,9 +32,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ST_PARKOUR_MODIFYSCORE__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_4_C4B30AAF83B3C797(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::Client::ST_Parkour_ModifyScore*& a2)
+		static ::System::Void Method_4_5F1E8AD70496397C(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::Client::ST_Parkour_ModifyScore*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::Client::ST_Parkour_ModifyScore*&))((::PBYTE)hIl2Cpp + RPG_CLIENT_ST_PARKOUR_MODIFYSCORE_METHOD_4_C4B30AAF83B3C797_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::Client::ST_Parkour_ModifyScore*&))((::PBYTE)hIl2Cpp + RPG_CLIENT_ST_PARKOUR_MODIFYSCORE_METHOD_4_5F1E8AD70496397C_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_4_3FD933B79C4CB108(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::Client::ST_Parkour_ModifyScore* a2)

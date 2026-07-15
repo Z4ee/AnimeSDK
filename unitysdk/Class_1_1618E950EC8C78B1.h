@@ -3,9 +3,9 @@
 #include "unitysdk/RPG/Client/LittleGame/BossPhase.h"
 #include "unitysdk/System/Object.h"
 
-#define CLASS_1_1618E950EC8C78B1__CTOR_OFFSET UNITYSDK_OFFSET(0x18C849E0)
+#define CLASS_1_1618E950EC8C78B1__CTOR_OFFSET UNITYSDK_OFFSET(0x1757EA30)
 
-inline static constexpr unsigned int Class_1_1618E950EC8C78B1_TypeDefinitionIndex = 39400;
+inline static constexpr unsigned int Class_1_1618E950EC8C78B1_TypeDefinitionIndex = 40209;
 
 class Class_1_1618E950EC8C78B1 : public ::System::Object
 {

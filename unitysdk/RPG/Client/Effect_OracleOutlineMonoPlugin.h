@@ -7,13 +7,12 @@ namespace RPG::Client::Prop { class OraclePuzzleItem; }
 namespace System { class String; }
 namespace UnityEngine { class Material; }
 
-#define RPG_CLIENT_EFFECT_ORACLEOUTLINEMONOPLUGIN_GETTICKLODTEMPLATENAME_OFFSET UNITYSDK_OFFSET(0xB86AD00)
-#define RPG_CLIENT_EFFECT_ORACLEOUTLINEMONOPLUGIN__CTOR_OFFSET UNITYSDK_OFFSET(0xB86AD50)
-#define RPG_CLIENT_EFFECT_ORACLEOUTLINEMONOPLUGIN___IFIXBASEPROXY_GETTICKLODTEMPLATENAME_OFFSET UNITYSDK_OFFSET(0xB86AD70)
+#define RPG_CLIENT_EFFECT_ORACLEOUTLINEMONOPLUGIN_GETTICKLODTEMPLATENAME_OFFSET UNITYSDK_OFFSET(0x1510C640)
+#define RPG_CLIENT_EFFECT_ORACLEOUTLINEMONOPLUGIN__CTOR_OFFSET UNITYSDK_OFFSET(0x1510C690)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int Effect_OracleOutlineMonoPlugin_TypeDefinitionIndex = 65931;
+	inline static constexpr unsigned int Effect_OracleOutlineMonoPlugin_TypeDefinitionIndex = 67356;
 
 	class Effect_OracleOutlineMonoPlugin : public ::RPG::Client::TAMonoPlugin_1<::RPG::Client::Effect_OracleOutlineBehavior*>
 	{
@@ -32,11 +31,6 @@ namespace RPG::Client
 		::System::String* GetTickLodTemplateName()
 		{
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_EFFECT_ORACLEOUTLINEMONOPLUGIN_GETTICKLODTEMPLATENAME_OFFSET))(this);
-		}
-
-		::System::String* __iFixBaseProxy_GetTickLodTemplateName()
-		{
-			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_EFFECT_ORACLEOUTLINEMONOPLUGIN___IFIXBASEPROXY_GETTICKLODTEMPLATENAME_OFFSET))(this);
 		}
 	};
 }

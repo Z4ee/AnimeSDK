@@ -9,44 +9,44 @@ namespace System { template <typename T1, typename T2> class Func_2; }
 namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_TREASURECHALLENGEINSTANCE___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xCADE660)
-#define RPG_CLIENT_TREASURECHALLENGEINSTANCE___C__CTOR_OFFSET UNITYSDK_OFFSET(0xCADE690)
-#define RPG_CLIENT_TREASURECHALLENGEINSTANCE___C__ONENTERBATTLE_B__50_0_OFFSET UNITYSDK_OFFSET(0xCADE6A0)
-#define RPG_CLIENT_TREASURECHALLENGEINSTANCE___C__ONENTERBATTLE_B__50_1_OFFSET UNITYSDK_OFFSET(0xCADE6B0)
-#define RPG_CLIENT_TREASURECHALLENGEINSTANCE___C__ONENTERBATTLE_B__50_2_OFFSET UNITYSDK_OFFSET(0xCADE6C0)
-#define RPG_CLIENT_TREASURECHALLENGEINSTANCE___C__ONENTERBATTLE_B__50_3_OFFSET UNITYSDK_OFFSET(0xCADE6D0)
-#define RPG_CLIENT_TREASURECHALLENGEINSTANCE___C__TRYTRACKFIRSTSTARTMISSION_B__53_0_OFFSET UNITYSDK_OFFSET(0xCADE6E0)
+#define RPG_CLIENT_TREASURECHALLENGEINSTANCE___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x198AF610)
+#define RPG_CLIENT_TREASURECHALLENGEINSTANCE___C__CTOR_OFFSET UNITYSDK_OFFSET(0x198AF640)
+#define RPG_CLIENT_TREASURECHALLENGEINSTANCE___C__ONENTERBATTLE_B__50_0_OFFSET UNITYSDK_OFFSET(0x198AF650)
+#define RPG_CLIENT_TREASURECHALLENGEINSTANCE___C__ONENTERBATTLE_B__50_1_OFFSET UNITYSDK_OFFSET(0x198AF660)
+#define RPG_CLIENT_TREASURECHALLENGEINSTANCE___C__ONENTERBATTLE_B__50_2_OFFSET UNITYSDK_OFFSET(0x198AF670)
+#define RPG_CLIENT_TREASURECHALLENGEINSTANCE___C__ONENTERBATTLE_B__50_3_OFFSET UNITYSDK_OFFSET(0x198AF680)
+#define RPG_CLIENT_TREASURECHALLENGEINSTANCE___C__TRYTRACKFIRSTSTARTMISSION_B__53_0_OFFSET UNITYSDK_OFFSET(0x198AF690)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int TreasureChallengeInstance___c_TypeDefinitionIndex = 62431;
+	inline static constexpr unsigned int TreasureChallengeInstance___c_TypeDefinitionIndex = 63797;
 
 	class TreasureChallengeInstance___c : public ::System::Object
 	{
 	public:
-		static ::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::RPG::Client::TreasureChallengeTargetStatus>, ::RPG::Client::TreasureChallengeTargetStatus>** StaticGet___9__50_3()
-		{
-			return (::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::RPG::Client::TreasureChallengeTargetStatus>, ::RPG::Client::TreasureChallengeTargetStatus>**)Il2CppClass::FromTypeDefinitionIndex(TreasureChallengeInstance___c_TypeDefinitionIndex)->GetStaticField(0x59240);
-		}
-		static ::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::System::UInt32>, ::System::UInt32>** StaticGet___9__50_1()
-		{
-			return (::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::System::UInt32>, ::System::UInt32>**)Il2CppClass::FromTypeDefinitionIndex(TreasureChallengeInstance___c_TypeDefinitionIndex)->GetStaticField(0x59248);
-		}
 		static ::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::RPG::Client::TreasureChallengeTargetStatus>, ::System::UInt32>** StaticGet___9__50_2()
 		{
-			return (::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::RPG::Client::TreasureChallengeTargetStatus>, ::System::UInt32>**)Il2CppClass::FromTypeDefinitionIndex(TreasureChallengeInstance___c_TypeDefinitionIndex)->GetStaticField(0x59250);
+			return (::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::RPG::Client::TreasureChallengeTargetStatus>, ::System::UInt32>**)Il2CppClass::FromTypeDefinitionIndex(TreasureChallengeInstance___c_TypeDefinitionIndex)->GetStaticField(0x47D00);
 		}
 		static ::System::Action_1<::System::Collections::Generic::List_1<::RPG::Client::MainMissionData*>*>** StaticGet___9__53_0()
 		{
-			return (::System::Action_1<::System::Collections::Generic::List_1<::RPG::Client::MainMissionData*>*>**)Il2CppClass::FromTypeDefinitionIndex(TreasureChallengeInstance___c_TypeDefinitionIndex)->GetStaticField(0x59258);
+			return (::System::Action_1<::System::Collections::Generic::List_1<::RPG::Client::MainMissionData*>*>**)Il2CppClass::FromTypeDefinitionIndex(TreasureChallengeInstance___c_TypeDefinitionIndex)->GetStaticField(0x47D08);
 		}
 		static ::RPG::Client::TreasureChallengeInstance___c** StaticGet___9()
 		{
-			return (::RPG::Client::TreasureChallengeInstance___c**)Il2CppClass::FromTypeDefinitionIndex(TreasureChallengeInstance___c_TypeDefinitionIndex)->GetStaticField(0x59260);
+			return (::RPG::Client::TreasureChallengeInstance___c**)Il2CppClass::FromTypeDefinitionIndex(TreasureChallengeInstance___c_TypeDefinitionIndex)->GetStaticField(0x47D10);
+		}
+		static ::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::System::UInt32>, ::System::UInt32>** StaticGet___9__50_1()
+		{
+			return (::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::System::UInt32>, ::System::UInt32>**)Il2CppClass::FromTypeDefinitionIndex(TreasureChallengeInstance___c_TypeDefinitionIndex)->GetStaticField(0x47D18);
+		}
+		static ::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::RPG::Client::TreasureChallengeTargetStatus>, ::RPG::Client::TreasureChallengeTargetStatus>** StaticGet___9__50_3()
+		{
+			return (::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::RPG::Client::TreasureChallengeTargetStatus>, ::RPG::Client::TreasureChallengeTargetStatus>**)Il2CppClass::FromTypeDefinitionIndex(TreasureChallengeInstance___c_TypeDefinitionIndex)->GetStaticField(0x47D20);
 		}
 		static ::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::System::UInt32>, ::System::UInt32>** StaticGet___9__50_0()
 		{
-			return (::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::System::UInt32>, ::System::UInt32>**)Il2CppClass::FromTypeDefinitionIndex(TreasureChallengeInstance___c_TypeDefinitionIndex)->GetStaticField(0x59268);
+			return (::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::System::UInt32>, ::System::UInt32>**)Il2CppClass::FromTypeDefinitionIndex(TreasureChallengeInstance___c_TypeDefinitionIndex)->GetStaticField(0x47D28);
 		}
 
 		static ::System::Void _cctor()

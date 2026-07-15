@@ -9,18 +9,18 @@ namespace RPG::GameCore { class GameObjectPoolSetting; }
 namespace RPG::GameCore { class MonsterAssetPreloadConfig; }
 namespace System { class String; }
 
-#define CLASS_1_E012177D06C0B2FD_METHOD_1_7A299E5A4491551D_OFFSET UNITYSDK_OFFSET(0x14471060)
-#define CLASS_1_E012177D06C0B2FD__CTOR_OFFSET UNITYSDK_OFFSET(0x14471250)
+#define CLASS_1_E012177D06C0B2FD_METHOD_1_7A299E5A4491551D_OFFSET UNITYSDK_OFFSET(0x1514BA50)
+#define CLASS_1_E012177D06C0B2FD__CTOR_OFFSET UNITYSDK_OFFSET(0x1514BC40)
 
-inline static constexpr unsigned int Class_1_E012177D06C0B2FD_TypeDefinitionIndex = 63872;
+inline static constexpr unsigned int Class_1_E012177D06C0B2FD_TypeDefinitionIndex = 65243;
 
 class Class_1_E012177D06C0B2FD : public ::System::Object
 {
 public:
-	::RPG::GameCore::FrameTimeBudgetInfo* Field_1_0; // 0x10
-	::RPG::GameCore::AvatarAssetPreloadConfig* Field_1_1; // 0x18
-	::RPG::GameCore::GameObjectPoolSetting* Field_1_2; // 0x20
-	::RPG::GameCore::MonsterAssetPreloadConfig* Field_1_3; // 0x28
+	::RPG::GameCore::AvatarAssetPreloadConfig* Field_1_0; // 0x10
+	::RPG::GameCore::MonsterAssetPreloadConfig* Field_1_1; // 0x18
+	::RPG::GameCore::FrameTimeBudgetInfo* Field_1_2; // 0x20
+	::RPG::GameCore::GameObjectPoolSetting* Field_1_3; // 0x28
 
 	::System::Void _ctor()
 	{

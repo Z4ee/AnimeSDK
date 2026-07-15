@@ -6,13 +6,13 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class DynamicFloat; }
 
-#define RPG_GAMECORE_SETBATTLETARGETPROGRESS_METHOD_3_6CF5C621BBB87E1A_OFFSET UNITYSDK_OFFSET(0x19C2C210)
-#define RPG_GAMECORE_SETBATTLETARGETPROGRESS_METHOD_3_9EA66BE71A253483_OFFSET UNITYSDK_OFFSET(0x19C2C2A0)
-#define RPG_GAMECORE_SETBATTLETARGETPROGRESS__CTOR_OFFSET UNITYSDK_OFFSET(0x19C2C270)
+#define RPG_GAMECORE_SETBATTLETARGETPROGRESS_METHOD_3_1F813F85CC33CD02_OFFSET UNITYSDK_OFFSET(0x1C2D5680)
+#define RPG_GAMECORE_SETBATTLETARGETPROGRESS_METHOD_3_9EA66BE71A253483_OFFSET UNITYSDK_OFFSET(0x1C2D56D0)
+#define RPG_GAMECORE_SETBATTLETARGETPROGRESS__CTOR_OFFSET UNITYSDK_OFFSET(0x1C2D56C0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SetBattleTargetProgress_TypeDefinitionIndex = 21918;
+	inline static constexpr unsigned int SetBattleTargetProgress_TypeDefinitionIndex = 22347;
 
 	class SetBattleTargetProgress : public ::RPG::GameCore::TaskConfig
 	{
@@ -26,9 +26,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETBATTLETARGETPROGRESS__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_6CF5C621BBB87E1A(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SetBattleTargetProgress*& a2)
+		static ::System::Void Method_3_1F813F85CC33CD02(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SetBattleTargetProgress*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SetBattleTargetProgress*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETBATTLETARGETPROGRESS_METHOD_3_6CF5C621BBB87E1A_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SetBattleTargetProgress*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETBATTLETARGETPROGRESS_METHOD_3_1F813F85CC33CD02_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_9EA66BE71A253483(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SetBattleTargetProgress* a2)

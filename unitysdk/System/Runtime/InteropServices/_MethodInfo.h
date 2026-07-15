@@ -6,7 +6,7 @@ namespace System { class Type; }
 
 namespace System::Runtime::InteropServices
 {
-	inline static constexpr unsigned int _MethodInfo_TypeDefinitionIndex = 1438;
+	inline static constexpr unsigned int _MethodInfo_TypeDefinitionIndex = 1442;
 
 	class _MethodInfo
 	{

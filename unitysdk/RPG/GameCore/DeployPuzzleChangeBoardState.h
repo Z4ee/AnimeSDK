@@ -6,13 +6,13 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class TargetEvaluator; }
 
-#define RPG_GAMECORE_DEPLOYPUZZLECHANGEBOARDSTATE_METHOD_3_55A252E8672E7540_OFFSET UNITYSDK_OFFSET(0x19698FD0)
-#define RPG_GAMECORE_DEPLOYPUZZLECHANGEBOARDSTATE_METHOD_3_B76A0D5B21B3B3D4_OFFSET UNITYSDK_OFFSET(0x19698E80)
-#define RPG_GAMECORE_DEPLOYPUZZLECHANGEBOARDSTATE__CTOR_OFFSET UNITYSDK_OFFSET(0x19698F40)
+#define RPG_GAMECORE_DEPLOYPUZZLECHANGEBOARDSTATE_METHOD_3_55A252E8672E7540_OFFSET UNITYSDK_OFFSET(0x1C102720)
+#define RPG_GAMECORE_DEPLOYPUZZLECHANGEBOARDSTATE_METHOD_3_823EBB1B039CF7E6_OFFSET UNITYSDK_OFFSET(0x1C1026A0)
+#define RPG_GAMECORE_DEPLOYPUZZLECHANGEBOARDSTATE__CTOR_OFFSET UNITYSDK_OFFSET(0x1C1026F0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int DeployPuzzleChangeBoardState_TypeDefinitionIndex = 19225;
+	inline static constexpr unsigned int DeployPuzzleChangeBoardState_TypeDefinitionIndex = 19581;
 
 	class DeployPuzzleChangeBoardState : public ::RPG::GameCore::TaskConfig
 	{
@@ -25,9 +25,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_DEPLOYPUZZLECHANGEBOARDSTATE__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_B76A0D5B21B3B3D4(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::DeployPuzzleChangeBoardState*& a2)
+		static ::System::Void Method_3_823EBB1B039CF7E6(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::DeployPuzzleChangeBoardState*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::DeployPuzzleChangeBoardState*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_DEPLOYPUZZLECHANGEBOARDSTATE_METHOD_3_B76A0D5B21B3B3D4_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::DeployPuzzleChangeBoardState*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_DEPLOYPUZZLECHANGEBOARDSTATE_METHOD_3_823EBB1B039CF7E6_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_55A252E8672E7540(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::DeployPuzzleChangeBoardState* a2)

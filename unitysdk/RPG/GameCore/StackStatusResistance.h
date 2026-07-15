@@ -7,13 +7,13 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class DynamicFloat; }
 namespace RPG::GameCore { class TargetEvaluator; }
 
-#define RPG_GAMECORE_STACKSTATUSRESISTANCE_METHOD_3_8FB84279E4D0530F_OFFSET UNITYSDK_OFFSET(0x19CA3600)
-#define RPG_GAMECORE_STACKSTATUSRESISTANCE_METHOD_3_B59B10AC9E36F352_OFFSET UNITYSDK_OFFSET(0x19CA3680)
-#define RPG_GAMECORE_STACKSTATUSRESISTANCE__CTOR_OFFSET UNITYSDK_OFFSET(0x19CA3650)
+#define RPG_GAMECORE_STACKSTATUSRESISTANCE_METHOD_3_4A171E36493BD087_OFFSET UNITYSDK_OFFSET(0x1B0A7060)
+#define RPG_GAMECORE_STACKSTATUSRESISTANCE_METHOD_3_B59B10AC9E36F352_OFFSET UNITYSDK_OFFSET(0x1B0A70A0)
+#define RPG_GAMECORE_STACKSTATUSRESISTANCE__CTOR_OFFSET UNITYSDK_OFFSET(0x1B0A7090)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int StackStatusResistance_TypeDefinitionIndex = 21443;
+	inline static constexpr unsigned int StackStatusResistance_TypeDefinitionIndex = 21863;
 
 	class StackStatusResistance : public ::RPG::GameCore::TaskConfig
 	{
@@ -27,9 +27,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_STACKSTATUSRESISTANCE__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_8FB84279E4D0530F(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::StackStatusResistance*& a2)
+		static ::System::Void Method_3_4A171E36493BD087(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::StackStatusResistance*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::StackStatusResistance*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_STACKSTATUSRESISTANCE_METHOD_3_8FB84279E4D0530F_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::StackStatusResistance*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_STACKSTATUSRESISTANCE_METHOD_3_4A171E36493BD087_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_B59B10AC9E36F352(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::StackStatusResistance* a2)

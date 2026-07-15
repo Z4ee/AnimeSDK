@@ -8,18 +8,18 @@ namespace ZenFulcrum::EmbeddedBrowser { class Cookie; }
 namespace ZenFulcrum::EmbeddedBrowser { class CookieManager; }
 namespace ZenFulcrum::EmbeddedBrowser { template <typename T> class Promise_1; }
 
-#define ZENFULCRUM_EMBEDDEDBROWSER_COOKIEMANAGER_COOKIEFETCH__CTOR_OFFSET UNITYSDK_OFFSET(0x1B4F4800)
+#define ZENFULCRUM_EMBEDDEDBROWSER_COOKIEMANAGER_COOKIEFETCH__CTOR_OFFSET UNITYSDK_OFFSET(0x1AB53DF0)
 
 namespace ZenFulcrum::EmbeddedBrowser
 {
-	inline static constexpr unsigned int CookieManager_CookieFetch_TypeDefinitionIndex = 36552;
+	inline static constexpr unsigned int CookieManager_CookieFetch_TypeDefinitionIndex = 37334;
 
 	class CookieManager_CookieFetch : public ::System::Object
 	{
 	public:
-		::ZenFulcrum::EmbeddedBrowser::CookieManager* manager; // 0x10
+		::System::Collections::Generic::List_1<::ZenFulcrum::EmbeddedBrowser::Cookie*>* result; // 0x10
 		::ZenFulcrum::EmbeddedBrowser::BrowserNative_GetCookieFunc* nativeCB; // 0x18
-		::System::Collections::Generic::List_1<::ZenFulcrum::EmbeddedBrowser::Cookie*>* result; // 0x20
+		::ZenFulcrum::EmbeddedBrowser::CookieManager* manager; // 0x20
 		::ZenFulcrum::EmbeddedBrowser::Promise_1<::System::Collections::Generic::List_1<::ZenFulcrum::EmbeddedBrowser::Cookie*>*>* promise; // 0x28
 
 		::System::Void _ctor()

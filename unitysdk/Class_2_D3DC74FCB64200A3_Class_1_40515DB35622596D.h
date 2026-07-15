@@ -4,9 +4,9 @@
 
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_2_D3DC74FCB64200A3_CLASS_1_40515DB35622596D__CTOR_OFFSET UNITYSDK_OFFSET(0x135F55A0)
+#define CLASS_2_D3DC74FCB64200A3_CLASS_1_40515DB35622596D__CTOR_OFFSET UNITYSDK_OFFSET(0x17C41060)
 
-inline static constexpr unsigned int Class_2_D3DC74FCB64200A3_Class_1_40515DB35622596D_TypeDefinitionIndex = 54389;
+inline static constexpr unsigned int Class_2_D3DC74FCB64200A3_Class_1_40515DB35622596D_TypeDefinitionIndex = 55612;
 
 class Class_2_D3DC74FCB64200A3_Class_1_40515DB35622596D : public ::System::Object
 {

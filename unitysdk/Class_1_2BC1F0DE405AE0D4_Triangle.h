@@ -3,9 +3,9 @@
 #include "unitysdk/System/ValueType.h"
 #include "unitysdk/UnityEngine/Vector2.h"
 
-#define CLASS_1_2BC1F0DE405AE0D4_TRIANGLE__CTOR_OFFSET UNITYSDK_OFFSET(0x2C890)
+#define CLASS_1_2BC1F0DE405AE0D4_TRIANGLE__CTOR_OFFSET UNITYSDK_OFFSET(0x2F01D90)
 
-inline static constexpr unsigned int Class_1_2BC1F0DE405AE0D4_Triangle_TypeDefinitionIndex = 64826;
+inline static constexpr unsigned int Class_1_2BC1F0DE405AE0D4_Triangle_TypeDefinitionIndex = 66227;
 
 struct alignas(4) Class_1_2BC1F0DE405AE0D4_Triangle
 {

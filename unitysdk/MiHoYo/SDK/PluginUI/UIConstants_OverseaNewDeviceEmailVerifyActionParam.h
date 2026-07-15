@@ -6,7 +6,7 @@ namespace System { class String; }
 
 namespace MiHoYo::SDK::PluginUI
 {
-	inline static constexpr unsigned int UIConstants_OverseaNewDeviceEmailVerifyActionParam_TypeDefinitionIndex = 44212;
+	inline static constexpr unsigned int UIConstants_OverseaNewDeviceEmailVerifyActionParam_TypeDefinitionIndex = 45082;
 
 	class UIConstants_OverseaNewDeviceEmailVerifyActionParam : public ::System::Object
 	{

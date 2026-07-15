@@ -5,17 +5,17 @@
 namespace RPG::GameCore { class GameEntity; }
 namespace UnityEngine { class GameObject; }
 
-#define RPG_GAMECORE_ENTITYMODELDISPOSE__CTOR_OFFSET UNITYSDK_OFFSET(0xCDC2580)
+#define RPG_GAMECORE_ENTITYMODELDISPOSE__CTOR_OFFSET UNITYSDK_OFFSET(0xFC021A0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int EntityModelDispose_TypeDefinitionIndex = 53422;
+	inline static constexpr unsigned int EntityModelDispose_TypeDefinitionIndex = 54638;
 
 	class EntityModelDispose : public ::System::Object
 	{
 	public:
-		::UnityEngine::GameObject* UnityGo; // 0x10
-		::RPG::GameCore::GameEntity* Entity; // 0x18
+		::RPG::GameCore::GameEntity* Entity; // 0x10
+		::UnityEngine::GameObject* UnityGo; // 0x18
 
 		::System::Void _ctor()
 		{

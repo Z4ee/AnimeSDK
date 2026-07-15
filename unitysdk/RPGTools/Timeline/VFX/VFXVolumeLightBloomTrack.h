@@ -7,15 +7,13 @@
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine::Timeline { class TimelineClip; }
 
-#define RPGTOOLS_TIMELINE_VFX_VFXVOLUMELIGHTBLOOMTRACK_CREATETRACKMIXER_OFFSET UNITYSDK_OFFSET(0xD06FAE0)
-#define RPGTOOLS_TIMELINE_VFX_VFXVOLUMELIGHTBLOOMTRACK_ONCREATECLIP_OFFSET UNITYSDK_OFFSET(0xD06FC60)
-#define RPGTOOLS_TIMELINE_VFX_VFXVOLUMELIGHTBLOOMTRACK__CTOR_OFFSET UNITYSDK_OFFSET(0xD06FD20)
-#define RPGTOOLS_TIMELINE_VFX_VFXVOLUMELIGHTBLOOMTRACK___IFIXBASEPROXY_CREATETRACKMIXER_OFFSET UNITYSDK_OFFSET(0xD06FE00)
-#define RPGTOOLS_TIMELINE_VFX_VFXVOLUMELIGHTBLOOMTRACK___IFIXBASEPROXY_ONCREATECLIP_OFFSET UNITYSDK_OFFSET(0xD06FEA0)
+#define RPGTOOLS_TIMELINE_VFX_VFXVOLUMELIGHTBLOOMTRACK_CREATETRACKMIXER_OFFSET UNITYSDK_OFFSET(0x19F60B80)
+#define RPGTOOLS_TIMELINE_VFX_VFXVOLUMELIGHTBLOOMTRACK_ONCREATECLIP_OFFSET UNITYSDK_OFFSET(0x19F60D00)
+#define RPGTOOLS_TIMELINE_VFX_VFXVOLUMELIGHTBLOOMTRACK__CTOR_OFFSET UNITYSDK_OFFSET(0x19F60DC0)
 
 namespace RPGTools::Timeline::VFX
 {
-	inline static constexpr unsigned int VFXVolumeLightBloomTrack_TypeDefinitionIndex = 45965;
+	inline static constexpr unsigned int VFXVolumeLightBloomTrack_TypeDefinitionIndex = 46904;
 
 	class VFXVolumeLightBloomTrack : public ::UnityEngine::Timeline::TrackAsset
 	{
@@ -33,16 +31,6 @@ namespace RPGTools::Timeline::VFX
 		::System::Void OnCreateClip(::UnityEngine::Timeline::TimelineClip* a1)
 		{
 			return ((::System::Void(*)(::PVOID, ::UnityEngine::Timeline::TimelineClip*))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_VFX_VFXVOLUMELIGHTBLOOMTRACK_ONCREATECLIP_OFFSET))(this, a1);
-		}
-
-		::UnityEngine::Playables::Playable __iFixBaseProxy_CreateTrackMixer(::UnityEngine::Playables::PlayableGraph a1, ::UnityEngine::GameObject* a2, ::System::Int32 a3)
-		{
-			return ((::UnityEngine::Playables::Playable(*)(::PVOID, ::UnityEngine::Playables::PlayableGraph, ::UnityEngine::GameObject*, ::System::Int32))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_VFX_VFXVOLUMELIGHTBLOOMTRACK___IFIXBASEPROXY_CREATETRACKMIXER_OFFSET))(this, a1, a2, a3);
-		}
-
-		::System::Void __iFixBaseProxy_OnCreateClip(::UnityEngine::Timeline::TimelineClip* a1)
-		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Timeline::TimelineClip*))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_VFX_VFXVOLUMELIGHTBLOOMTRACK___IFIXBASEPROXY_ONCREATECLIP_OFFSET))(this, a1);
 		}
 	};
 }

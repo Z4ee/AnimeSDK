@@ -5,13 +5,13 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class PingPongGridIndex; }
 
-#define RPG_GAMECORE_PINGPONGTRANSFORMCMPTCONFIG_METHOD_3_D261B1130F33E1CC_OFFSET UNITYSDK_OFFSET(0x19A0FC70)
-#define RPG_GAMECORE_PINGPONGTRANSFORMCMPTCONFIG_METHOD_3_D87E98D0C349E67A_OFFSET UNITYSDK_OFFSET(0x19A0FBE0)
-#define RPG_GAMECORE_PINGPONGTRANSFORMCMPTCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x19A0FC50)
+#define RPG_GAMECORE_PINGPONGTRANSFORMCMPTCONFIG_METHOD_3_8D0B40C6CD967CC6_OFFSET UNITYSDK_OFFSET(0x1B4C9D60)
+#define RPG_GAMECORE_PINGPONGTRANSFORMCMPTCONFIG_METHOD_3_D261B1130F33E1CC_OFFSET UNITYSDK_OFFSET(0x1B4C9DC0)
+#define RPG_GAMECORE_PINGPONGTRANSFORMCMPTCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1B4C9DB0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PingPongTransformCmptConfig_TypeDefinitionIndex = 18000;
+	inline static constexpr unsigned int PingPongTransformCmptConfig_TypeDefinitionIndex = 18184;
 
 	class PingPongTransformCmptConfig : public ::RPG::GameCore::LittleGameComponentConfig
 	{
@@ -24,9 +24,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PINGPONGTRANSFORMCMPTCONFIG__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_D87E98D0C349E67A(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::PingPongTransformCmptConfig*& a2)
+		static ::System::Void Method_3_8D0B40C6CD967CC6(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::PingPongTransformCmptConfig*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::PingPongTransformCmptConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PINGPONGTRANSFORMCMPTCONFIG_METHOD_3_D87E98D0C349E67A_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::PingPongTransformCmptConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PINGPONGTRANSFORMCMPTCONFIG_METHOD_3_8D0B40C6CD967CC6_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_D261B1130F33E1CC(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::PingPongTransformCmptConfig* a2)

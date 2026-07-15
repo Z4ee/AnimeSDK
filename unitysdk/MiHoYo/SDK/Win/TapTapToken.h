@@ -5,18 +5,18 @@
 namespace System { class String; }
 namespace TapTap::Sdk { class AccessToken; }
 
-#define MIHOYO_SDK_WIN_TAPTAPTOKEN_ISVALID_OFFSET UNITYSDK_OFFSET(0x182CEA60)
-#define MIHOYO_SDK_WIN_TAPTAPTOKEN__CTOR_OFFSET UNITYSDK_OFFSET(0x182CE7D0)
+#define MIHOYO_SDK_WIN_TAPTAPTOKEN_ISVALID_OFFSET UNITYSDK_OFFSET(0x1D0F76B0)
+#define MIHOYO_SDK_WIN_TAPTAPTOKEN__CTOR_OFFSET UNITYSDK_OFFSET(0x1D0F7690)
 
 namespace MiHoYo::SDK::Win
 {
-	inline static constexpr unsigned int TapTapToken_TypeDefinitionIndex = 9029;
+	inline static constexpr unsigned int TapTapToken_TypeDefinitionIndex = 9041;
 
 	class TapTapToken : public ::System::Object
 	{
 	public:
-		::System::String* Kid; // 0x10
-		::System::String* MacKey; // 0x18
+		::System::String* MacKey; // 0x10
+		::System::String* Kid; // 0x18
 
 		::System::Void _ctor(::TapTap::Sdk::AccessToken* a1)
 		{

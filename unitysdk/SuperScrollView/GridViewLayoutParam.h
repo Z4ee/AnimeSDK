@@ -2,22 +2,22 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define SUPERSCROLLVIEW_GRIDVIEWLAYOUTPARAM_CHECKPARAM_OFFSET UNITYSDK_OFFSET(0xD0A0A20)
-#define SUPERSCROLLVIEW_GRIDVIEWLAYOUTPARAM_INITFROM_OFFSET UNITYSDK_OFFSET(0xD0A0AD0)
-#define SUPERSCROLLVIEW_GRIDVIEWLAYOUTPARAM__CTOR_OFFSET UNITYSDK_OFFSET(0xD0A0B90)
+#define SUPERSCROLLVIEW_GRIDVIEWLAYOUTPARAM_CHECKPARAM_OFFSET UNITYSDK_OFFSET(0x14ED83C0)
+#define SUPERSCROLLVIEW_GRIDVIEWLAYOUTPARAM_INITFROM_OFFSET UNITYSDK_OFFSET(0x14ED8470)
+#define SUPERSCROLLVIEW_GRIDVIEWLAYOUTPARAM__CTOR_OFFSET UNITYSDK_OFFSET(0x14ED8530)
 
 namespace SuperScrollView
 {
-	inline static constexpr unsigned int GridViewLayoutParam_TypeDefinitionIndex = 44964;
+	inline static constexpr unsigned int GridViewLayoutParam_TypeDefinitionIndex = 45882;
 
 	class GridViewLayoutParam : public ::System::Object
 	{
 	public:
 		::Il2CppArray<::System::Single>* mCustomColumnOrRowOffsetArray; // 0x10
-		::System::Int32 mColumnOrRowCount; // 0x18
-		::System::Single mPadding1; // 0x1C
+		::System::Single mPadding1; // 0x18
+		::System::Single mPadding2; // 0x1C
 		::System::Single mItemWidthOrHeight; // 0x20
-		::System::Single mPadding2; // 0x24
+		::System::Int32 mColumnOrRowCount; // 0x24
 
 		::System::Void _ctor()
 		{

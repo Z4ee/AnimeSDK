@@ -7,13 +7,12 @@ namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_1_283E14C05600D26A_2_METHOD_1_F1B3C25BA2441ED4_OFFSET UNITYSDK_OFFSET(0xAAD00F0)
-#define CLASS_1_283E14C05600D26A_2_TOSTRING_OFFSET UNITYSDK_OFFSET(0xAACFFE0)
-#define CLASS_1_283E14C05600D26A_2_TRIGGERACTION_OFFSET UNITYSDK_OFFSET(0xAAD0070)
-#define CLASS_1_283E14C05600D26A_2__CTOR_OFFSET UNITYSDK_OFFSET(0xAACFF60)
-#define CLASS_1_283E14C05600D26A_2___IFIXBASEPROXY_TOSTRING_OFFSET UNITYSDK_OFFSET(0xAAD0100)
+#define CLASS_1_283E14C05600D26A_2_METHOD_1_26346C69215EE3D8_OFFSET UNITYSDK_OFFSET(0x183781E0)
+#define CLASS_1_283E14C05600D26A_2_TOSTRING_OFFSET UNITYSDK_OFFSET(0x183780D0)
+#define CLASS_1_283E14C05600D26A_2_TRIGGERACTION_OFFSET UNITYSDK_OFFSET(0x18378160)
+#define CLASS_1_283E14C05600D26A_2__CTOR_OFFSET UNITYSDK_OFFSET(0x18378050)
 
-inline static constexpr unsigned int Class_1_283E14C05600D26A_2_TypeDefinitionIndex = 62635;
+inline static constexpr unsigned int Class_1_283E14C05600D26A_2_TypeDefinitionIndex = 64002;
 
 class Class_1_283E14C05600D26A_2 : public ::System::Object
 {
@@ -35,13 +34,8 @@ public:
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_283E14C05600D26A_2_TRIGGERACTION_OFFSET))(this);
 	}
 
-	::System::Collections::Generic::IEnumerable_1<::RPG::Client::RogueFormulaData*>* Method_1_F1B3C25BA2441ED4()
+	::System::Collections::Generic::IEnumerable_1<::RPG::Client::RogueFormulaData*>* Method_1_26346C69215EE3D8()
 	{
-		return ((::System::Collections::Generic::IEnumerable_1<::RPG::Client::RogueFormulaData*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_283E14C05600D26A_2_METHOD_1_F1B3C25BA2441ED4_OFFSET))(this);
-	}
-
-	::System::String* __iFixBaseProxy_ToString()
-	{
-		return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_283E14C05600D26A_2___IFIXBASEPROXY_TOSTRING_OFFSET))(this);
+		return ((::System::Collections::Generic::IEnumerable_1<::RPG::Client::RogueFormulaData*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_283E14C05600D26A_2_METHOD_1_26346C69215EE3D8_OFFSET))(this);
 	}
 };

@@ -4,20 +4,20 @@
 
 namespace Google::Protobuf::Reflection { class DescriptorProto_Types_ExtensionRange; }
 
-#define GOOGLE_PROTOBUF_REFLECTION_DESCRIPTORPROTO_TYPES_EXTENSIONRANGE___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x17E4DE20)
-#define GOOGLE_PROTOBUF_REFLECTION_DESCRIPTORPROTO_TYPES_EXTENSIONRANGE___C__CTOR_OFFSET UNITYSDK_OFFSET(0x17E4DE60)
-#define GOOGLE_PROTOBUF_REFLECTION_DESCRIPTORPROTO_TYPES_EXTENSIONRANGE___C___CCTOR_B__47_0_OFFSET UNITYSDK_OFFSET(0x17E4DE70)
+#define GOOGLE_PROTOBUF_REFLECTION_DESCRIPTORPROTO_TYPES_EXTENSIONRANGE___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1904E120)
+#define GOOGLE_PROTOBUF_REFLECTION_DESCRIPTORPROTO_TYPES_EXTENSIONRANGE___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1904E160)
+#define GOOGLE_PROTOBUF_REFLECTION_DESCRIPTORPROTO_TYPES_EXTENSIONRANGE___C___CCTOR_B__47_0_OFFSET UNITYSDK_OFFSET(0x1904E170)
 
 namespace Google::Protobuf::Reflection
 {
-	inline static constexpr unsigned int DescriptorProto_Types_ExtensionRange___c_TypeDefinitionIndex = 5463;
+	inline static constexpr unsigned int DescriptorProto_Types_ExtensionRange___c_TypeDefinitionIndex = 5468;
 
 	class DescriptorProto_Types_ExtensionRange___c : public ::System::Object
 	{
 	public:
 		static ::Google::Protobuf::Reflection::DescriptorProto_Types_ExtensionRange___c** StaticGet___9()
 		{
-			return (::Google::Protobuf::Reflection::DescriptorProto_Types_ExtensionRange___c**)Il2CppClass::FromTypeDefinitionIndex(DescriptorProto_Types_ExtensionRange___c_TypeDefinitionIndex)->GetStaticField(0x3D370);
+			return (::Google::Protobuf::Reflection::DescriptorProto_Types_ExtensionRange___c**)Il2CppClass::FromTypeDefinitionIndex(DescriptorProto_Types_ExtensionRange___c_TypeDefinitionIndex)->GetStaticField(0x3D420);
 		}
 
 		static ::System::Void _cctor()

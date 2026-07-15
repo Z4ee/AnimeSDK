@@ -6,13 +6,13 @@ namespace SRF::Service { class SRServiceManager_ServiceStub; }
 namespace SRF::Service { class ServiceConstructorAttribute; }
 namespace System::Reflection { class MethodInfo; }
 
-#define SRF_SERVICE_SRSERVICEMANAGER___C__DISPLAYCLASS27_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1AD1F870)
-#define SRF_SERVICE_SRSERVICEMANAGER___C__DISPLAYCLASS27_0__SCANTYPEFORCONSTRUCTORS_B__0_OFFSET UNITYSDK_OFFSET(0x1AD1FAE0)
-#define SRF_SERVICE_SRSERVICEMANAGER___C__DISPLAYCLASS27_0__SCANTYPEFORCONSTRUCTORS_B__1_OFFSET UNITYSDK_OFFSET(0x1AD1FB10)
+#define SRF_SERVICE_SRSERVICEMANAGER___C__DISPLAYCLASS27_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1CED59D0)
+#define SRF_SERVICE_SRSERVICEMANAGER___C__DISPLAYCLASS27_0__SCANTYPEFORCONSTRUCTORS_B__0_OFFSET UNITYSDK_OFFSET(0x1CED5C40)
+#define SRF_SERVICE_SRSERVICEMANAGER___C__DISPLAYCLASS27_0__SCANTYPEFORCONSTRUCTORS_B__1_OFFSET UNITYSDK_OFFSET(0x1CED5C70)
 
 namespace SRF::Service
 {
-	inline static constexpr unsigned int SRServiceManager___c__DisplayClass27_0_TypeDefinitionIndex = 33614;
+	inline static constexpr unsigned int SRServiceManager___c__DisplayClass27_0_TypeDefinitionIndex = 33985;
 
 	class SRServiceManager___c__DisplayClass27_0 : public ::System::Object
 	{

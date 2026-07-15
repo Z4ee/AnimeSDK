@@ -4,12 +4,12 @@
 
 namespace RPG::Client { class IAvatarComparer; }
 
-#define RPG_CLIENT_ACTIVITYPLAYERRETURNRELICAVATARCOMPARERFACTORY_CREATE_OFFSET UNITYSDK_OFFSET(0xB1F3230)
-#define RPG_CLIENT_ACTIVITYPLAYERRETURNRELICAVATARCOMPARERFACTORY__CTOR_OFFSET UNITYSDK_OFFSET(0xB1F3370)
+#define RPG_CLIENT_ACTIVITYPLAYERRETURNRELICAVATARCOMPARERFACTORY_CREATE_OFFSET UNITYSDK_OFFSET(0x1933CAF0)
+#define RPG_CLIENT_ACTIVITYPLAYERRETURNRELICAVATARCOMPARERFACTORY__CTOR_OFFSET UNITYSDK_OFFSET(0x1933CC30)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ActivityPlayerReturnRelicAvatarComparerFactory_TypeDefinitionIndex = 57871;
+	inline static constexpr unsigned int ActivityPlayerReturnRelicAvatarComparerFactory_TypeDefinitionIndex = 59137;
 
 	class ActivityPlayerReturnRelicAvatarComparerFactory : public ::System::Object
 	{

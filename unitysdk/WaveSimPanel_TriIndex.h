@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int WaveSimPanel_TriIndex_TypeDefinitionIndex = 44792;
+inline static constexpr unsigned int WaveSimPanel_TriIndex_TypeDefinitionIndex = 45709;
 
 enum class WaveSimPanel_TriIndex : ::System::Int32
 {

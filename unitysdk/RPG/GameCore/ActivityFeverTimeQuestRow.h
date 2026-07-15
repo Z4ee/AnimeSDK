@@ -5,19 +5,19 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_ACTIVITYFEVERTIMEQUESTROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x193E7210)
-#define RPG_GAMECORE_ACTIVITYFEVERTIMEQUESTROW__CTOR_OFFSET UNITYSDK_OFFSET(0x193E7870)
+#define RPG_GAMECORE_ACTIVITYFEVERTIMEQUESTROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1AAEFCE0)
+#define RPG_GAMECORE_ACTIVITYFEVERTIMEQUESTROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1AAF0340)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ActivityFeverTimeQuestRow_TypeDefinitionIndex = 11084;
+	inline static constexpr unsigned int ActivityFeverTimeQuestRow_TypeDefinitionIndex = 11184;
 
 	class ActivityFeverTimeQuestRow : public ::System::Object
 	{
 	public:
 		::Il2CppArray<::System::UInt32>* QuestIDList; // 0x10
-		::RPG::Client::TextID TabName; // 0x18
-		::System::UInt32 QuestGroupID; // 0x28
+		::System::UInt32 QuestGroupID; // 0x18
+		::RPG::Client::TextID TabName; // 0x20
 
 		::System::Void _ctor()
 		{

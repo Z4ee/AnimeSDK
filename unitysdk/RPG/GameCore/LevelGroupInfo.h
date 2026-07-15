@@ -6,13 +6,13 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class LevelDimensionFilter; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_LEVELGROUPINFO_FROMBINARYIMPL_OFFSET UNITYSDK_OFFSET(0x19876CF0)
-#define RPG_GAMECORE_LEVELGROUPINFO_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x19876C80)
-#define RPG_GAMECORE_LEVELGROUPINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x19876CD0)
+#define RPG_GAMECORE_LEVELGROUPINFO_FROMBINARYIMPL_OFFSET UNITYSDK_OFFSET(0x1B036DC0)
+#define RPG_GAMECORE_LEVELGROUPINFO_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B036D50)
+#define RPG_GAMECORE_LEVELGROUPINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x1B036DA0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LevelGroupInfo_TypeDefinitionIndex = 16491;
+	inline static constexpr unsigned int LevelGroupInfo_TypeDefinitionIndex = 16653;
 
 	class LevelGroupInfo : public ::RPG::GameCore::RtLevelGroupInfoBase
 	{

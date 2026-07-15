@@ -3,21 +3,21 @@
 #include "unitysdk/Class_1_8BDC5FAA8163256A.h"
 #include "unitysdk/RPG/GameCore/DiceCombatSkillPreviewInvokeType.h"
 
-class Class_2_3616FDE8A71D0590_1;
-class Class_4_D581BED103406713;
+class Class_2_3616FDE8A71D0590;
+class Class_4_79E380B8FEE3115F;
 namespace RPG::GameCore { class DiceCombatNotAvatarPreviewConfig; }
 
-#define CLASS_2_E3C254E7857673C8_METHOD_2_3207497D85D64F9A_OFFSET UNITYSDK_OFFSET(0x189E7110)
-#define CLASS_2_E3C254E7857673C8__CTOR_OFFSET UNITYSDK_OFFSET(0x189E7100)
+#define CLASS_2_E3C254E7857673C8_METHOD_2_3207497D85D64F9A_OFFSET UNITYSDK_OFFSET(0x18D47000)
+#define CLASS_2_E3C254E7857673C8__CTOR_OFFSET UNITYSDK_OFFSET(0x18D46FF0)
 
-inline static constexpr unsigned int Class_2_E3C254E7857673C8_TypeDefinitionIndex = 34494;
+inline static constexpr unsigned int Class_2_E3C254E7857673C8_TypeDefinitionIndex = 34876;
 
 class Class_2_E3C254E7857673C8 : public ::Class_1_8BDC5FAA8163256A
 {
 public:
-	::System::Void _ctor(::Class_4_D581BED103406713* a1, ::Class_2_3616FDE8A71D0590_1* a2)
+	::System::Void _ctor(::Class_4_79E380B8FEE3115F* a1, ::Class_2_3616FDE8A71D0590* a2)
 	{
-		return ((::System::Void(*)(::PVOID, ::Class_4_D581BED103406713*, ::Class_2_3616FDE8A71D0590_1*))((::PBYTE)hIl2Cpp + CLASS_2_E3C254E7857673C8__CTOR_OFFSET))(this, a1, a2);
+		return ((::System::Void(*)(::PVOID, ::Class_4_79E380B8FEE3115F*, ::Class_2_3616FDE8A71D0590*))((::PBYTE)hIl2Cpp + CLASS_2_E3C254E7857673C8__CTOR_OFFSET))(this, a1, a2);
 	}
 
 	::RPG::GameCore::DiceCombatNotAvatarPreviewConfig* Method_2_3207497D85D64F9A(::System::UInt32 a1, ::RPG::GameCore::DiceCombatSkillPreviewInvokeType a2)

@@ -6,18 +6,18 @@ namespace RPG::GameCore { class ByHaveObstacle; }
 namespace RPG::GameCore { class TaskContext; }
 namespace UnityEngine { class Transform; }
 
-#define CLASS_3_01C6F9A0755E9830_EVALUATE_OFFSET UNITYSDK_OFFSET(0x13BE1660)
-#define CLASS_3_01C6F9A0755E9830__CCTOR_OFFSET UNITYSDK_OFFSET(0x13BE1C50)
-#define CLASS_3_01C6F9A0755E9830__CTOR_OFFSET UNITYSDK_OFFSET(0x13BE14E0)
+#define CLASS_3_01C6F9A0755E9830_EVALUATE_OFFSET UNITYSDK_OFFSET(0x17D69BF0)
+#define CLASS_3_01C6F9A0755E9830__CCTOR_OFFSET UNITYSDK_OFFSET(0x17D6A1E0)
+#define CLASS_3_01C6F9A0755E9830__CTOR_OFFSET UNITYSDK_OFFSET(0x17D69A60)
 
-inline static constexpr unsigned int Class_3_01C6F9A0755E9830_TypeDefinitionIndex = 51068;
+inline static constexpr unsigned int Class_3_01C6F9A0755E9830_TypeDefinitionIndex = 52154;
 
 class Class_3_01C6F9A0755E9830 : public ::RPG::GameCore::PredicateTaskBase_1<::RPG::GameCore::ByHaveObstacle*>
 {
 public:
 	static ::System::Int32* StaticGet_Field_3_0()
 	{
-		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Class_3_01C6F9A0755E9830_TypeDefinitionIndex)->GetStaticField(0x13A50);
+		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Class_3_01C6F9A0755E9830_TypeDefinitionIndex)->GetStaticField(0xF790);
 	}
 	::UnityEngine::Transform* Field_3_1; // 0x28
 	::UnityEngine::Transform* Field_3_2; // 0x30

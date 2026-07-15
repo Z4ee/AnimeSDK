@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class MunicipalChatEntityInfo; }
 namespace RPG::GameCore { class MunicipalChatNPCInfo; }
 
-#define CLASS_2_28D22891565E4637___C__DISPLAYCLASS2_0__CTOR_OFFSET UNITYSDK_OFFSET(0x106463C0)
-#define CLASS_2_28D22891565E4637___C__DISPLAYCLASS2_0__LOADCHATCONFIG_B__0_OFFSET UNITYSDK_OFFSET(0x10647020)
+#define CLASS_2_28D22891565E4637___C__DISPLAYCLASS2_0__CTOR_OFFSET UNITYSDK_OFFSET(0x14B7DD90)
+#define CLASS_2_28D22891565E4637___C__DISPLAYCLASS2_0__LOADCHATCONFIG_B__0_OFFSET UNITYSDK_OFFSET(0x14B7EBB0)
 
-inline static constexpr unsigned int Class_2_28D22891565E4637___c__DisplayClass2_0_TypeDefinitionIndex = 54466;
+inline static constexpr unsigned int Class_2_28D22891565E4637___c__DisplayClass2_0_TypeDefinitionIndex = 55690;
 
 class Class_2_28D22891565E4637___c__DisplayClass2_0 : public ::System::Object
 {

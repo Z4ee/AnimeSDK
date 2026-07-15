@@ -4,29 +4,29 @@
 
 namespace System::Threading { class WaitCallback; }
 
-#define MIHOYO_SDK_MTR_MIHOYOMTRINTERFACE___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xA188D60)
-#define MIHOYO_SDK_MTR_MIHOYOMTRINTERFACE___C__CHECKURLUSAGE_B__5_0_OFFSET UNITYSDK_OFFSET(0xA1893D0)
-#define MIHOYO_SDK_MTR_MIHOYOMTRINTERFACE___C__CTOR_OFFSET UNITYSDK_OFFSET(0xA188DA0)
-#define MIHOYO_SDK_MTR_MIHOYOMTRINTERFACE___C__DOMTR_B__3_0_OFFSET UNITYSDK_OFFSET(0xA188DB0)
+#define MIHOYO_SDK_MTR_MIHOYOMTRINTERFACE___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1AD0BF70)
+#define MIHOYO_SDK_MTR_MIHOYOMTRINTERFACE___C__CHECKURLUSAGE_B__5_0_OFFSET UNITYSDK_OFFSET(0x1AD0C650)
+#define MIHOYO_SDK_MTR_MIHOYOMTRINTERFACE___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1AD0BFB0)
+#define MIHOYO_SDK_MTR_MIHOYOMTRINTERFACE___C__DOMTR_B__3_0_OFFSET UNITYSDK_OFFSET(0x1AD0BFC0)
 
 namespace MiHoYo::SDK::MTR
 {
-	inline static constexpr unsigned int MiHoYoMTRInterface___c_TypeDefinitionIndex = 44050;
+	inline static constexpr unsigned int MiHoYoMTRInterface___c_TypeDefinitionIndex = 44912;
 
 	class MiHoYoMTRInterface___c : public ::System::Object
 	{
 	public:
-		static ::MiHoYo::SDK::MTR::MiHoYoMTRInterface___c** StaticGet___9()
-		{
-			return (::MiHoYo::SDK::MTR::MiHoYoMTRInterface___c**)Il2CppClass::FromTypeDefinitionIndex(MiHoYoMTRInterface___c_TypeDefinitionIndex)->GetStaticField(0xE210);
-		}
 		static ::System::Threading::WaitCallback** StaticGet___9__5_0()
 		{
-			return (::System::Threading::WaitCallback**)Il2CppClass::FromTypeDefinitionIndex(MiHoYoMTRInterface___c_TypeDefinitionIndex)->GetStaticField(0xE218);
+			return (::System::Threading::WaitCallback**)Il2CppClass::FromTypeDefinitionIndex(MiHoYoMTRInterface___c_TypeDefinitionIndex)->GetStaticField(0xECD0);
 		}
 		static ::System::Threading::WaitCallback** StaticGet___9__3_0()
 		{
-			return (::System::Threading::WaitCallback**)Il2CppClass::FromTypeDefinitionIndex(MiHoYoMTRInterface___c_TypeDefinitionIndex)->GetStaticField(0xE220);
+			return (::System::Threading::WaitCallback**)Il2CppClass::FromTypeDefinitionIndex(MiHoYoMTRInterface___c_TypeDefinitionIndex)->GetStaticField(0xECD8);
+		}
+		static ::MiHoYo::SDK::MTR::MiHoYoMTRInterface___c** StaticGet___9()
+		{
+			return (::MiHoYo::SDK::MTR::MiHoYoMTRInterface___c**)Il2CppClass::FromTypeDefinitionIndex(MiHoYoMTRInterface___c_TypeDefinitionIndex)->GetStaticField(0xECE0);
 		}
 
 		static ::System::Void _cctor()

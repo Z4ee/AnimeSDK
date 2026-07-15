@@ -4,12 +4,12 @@
 
 namespace System { class String; }
 
-#define SPINE_UNITY_SKELETONRENDERER___C__DISPLAYCLASS76_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1ACD3EA0)
-#define SPINE_UNITY_SKELETONRENDERER___C__DISPLAYCLASS76_0__FINDANDAPPLYSEPARATORSLOTS_B__0_OFFSET UNITYSDK_OFFSET(0x1ACD46E0)
+#define SPINE_UNITY_SKELETONRENDERER___C__DISPLAYCLASS76_0__CTOR_OFFSET UNITYSDK_OFFSET(0x168C7FD0)
+#define SPINE_UNITY_SKELETONRENDERER___C__DISPLAYCLASS76_0__FINDANDAPPLYSEPARATORSLOTS_B__0_OFFSET UNITYSDK_OFFSET(0x168C8810)
 
 namespace Spine::Unity
 {
-	inline static constexpr unsigned int SkeletonRenderer___c__DisplayClass76_0_TypeDefinitionIndex = 41431;
+	inline static constexpr unsigned int SkeletonRenderer___c__DisplayClass76_0_TypeDefinitionIndex = 42246;
 
 	class SkeletonRenderer___c__DisplayClass76_0 : public ::System::Object
 	{

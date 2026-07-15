@@ -13,7 +13,7 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int PrefDictionary_2_TypeDefinitionIndex = 33520;
+	inline static constexpr unsigned int PrefDictionary_2_TypeDefinitionIndex = 33890;
 
 	template <typename TKey, typename TValue>
 	class PrefDictionary_2 : public ::RPG::Client::Pref_1<::System::Collections::Generic::Dictionary_2<TKey, TValue>*>

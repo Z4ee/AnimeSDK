@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PerceiveValueTriggerType_TypeDefinitionIndex = 23256;
+	inline static constexpr unsigned int PerceiveValueTriggerType_TypeDefinitionIndex = 23741;
 
 	enum class PerceiveValueTriggerType : ::System::Int32
 	{

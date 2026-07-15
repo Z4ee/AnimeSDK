@@ -5,13 +5,13 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class TargetEvaluator; }
 
-#define RPG_GAMECORE_PROPESCALATORMOVESTOP_METHOD_3_0B5950FDA3194282_OFFSET UNITYSDK_OFFSET(0x19A8CC50)
-#define RPG_GAMECORE_PROPESCALATORMOVESTOP_METHOD_3_9ACE875DD87BDE18_OFFSET UNITYSDK_OFFSET(0x19A8CD20)
-#define RPG_GAMECORE_PROPESCALATORMOVESTOP__CTOR_OFFSET UNITYSDK_OFFSET(0x19A8CCD0)
+#define RPG_GAMECORE_PROPESCALATORMOVESTOP_METHOD_3_23C1BDE8343B18F1_OFFSET UNITYSDK_OFFSET(0x1BA201B0)
+#define RPG_GAMECORE_PROPESCALATORMOVESTOP_METHOD_3_9ACE875DD87BDE18_OFFSET UNITYSDK_OFFSET(0x1BA20250)
+#define RPG_GAMECORE_PROPESCALATORMOVESTOP__CTOR_OFFSET UNITYSDK_OFFSET(0x1BA20210)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PropEscalatorMoveStop_TypeDefinitionIndex = 19866;
+	inline static constexpr unsigned int PropEscalatorMoveStop_TypeDefinitionIndex = 20230;
 
 	class PropEscalatorMoveStop : public ::RPG::GameCore::TaskConfig
 	{
@@ -23,9 +23,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PROPESCALATORMOVESTOP__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_0B5950FDA3194282(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::PropEscalatorMoveStop*& a2)
+		static ::System::Void Method_3_23C1BDE8343B18F1(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::PropEscalatorMoveStop*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::PropEscalatorMoveStop*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PROPESCALATORMOVESTOP_METHOD_3_0B5950FDA3194282_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::PropEscalatorMoveStop*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PROPESCALATORMOVESTOP_METHOD_3_23C1BDE8343B18F1_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_9ACE875DD87BDE18(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::PropEscalatorMoveStop* a2)

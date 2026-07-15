@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class ByMuseumProjectorThemeNum; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_6B37FB29D50E874D_EVALUATE_OFFSET UNITYSDK_OFFSET(0xB7839B0)
-#define CLASS_3_6B37FB29D50E874D__CTOR_OFFSET UNITYSDK_OFFSET(0xB783980)
+#define CLASS_3_6B37FB29D50E874D_EVALUATE_OFFSET UNITYSDK_OFFSET(0x169C5BC0)
+#define CLASS_3_6B37FB29D50E874D__CTOR_OFFSET UNITYSDK_OFFSET(0x169C5B90)
 
-inline static constexpr unsigned int Class_3_6B37FB29D50E874D_TypeDefinitionIndex = 49675;
+inline static constexpr unsigned int Class_3_6B37FB29D50E874D_TypeDefinitionIndex = 50729;
 
 class Class_3_6B37FB29D50E874D : public ::RPG::GameCore::PredicateTaskBase_1<::RPG::GameCore::ByMuseumProjectorThemeNum*>
 {

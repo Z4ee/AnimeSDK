@@ -9,7 +9,7 @@ namespace System::Collections::Generic { template <typename T> class IEnumerator
 
 namespace ZenFulcrum::EmbeddedBrowser::Promises
 {
-	inline static constexpr unsigned int EnumerableExt__LazyEach_d__1_1_TypeDefinitionIndex = 36646;
+	inline static constexpr unsigned int EnumerableExt__LazyEach_d__1_1_TypeDefinitionIndex = 37428;
 
 	template <typename T>
 	class EnumerableExt__LazyEach_d__1_1 : public ::System::Object

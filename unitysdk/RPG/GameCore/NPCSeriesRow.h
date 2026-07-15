@@ -4,12 +4,12 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_NPCSERIESROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x199C9190)
-#define RPG_GAMECORE_NPCSERIESROW__CTOR_OFFSET UNITYSDK_OFFSET(0x199C9250)
+#define RPG_GAMECORE_NPCSERIESROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1BAF2B30)
+#define RPG_GAMECORE_NPCSERIESROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1BAF2BF0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int NPCSeriesRow_TypeDefinitionIndex = 13610;
+	inline static constexpr unsigned int NPCSeriesRow_TypeDefinitionIndex = 13758;
 
 	class NPCSeriesRow : public ::System::Object
 	{

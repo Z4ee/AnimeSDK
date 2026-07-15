@@ -7,15 +7,15 @@ namespace RPG::GameCore { class DynamicFloat; }
 namespace RPG::GameCore { class DynamicString; }
 namespace SimpleJSON { class JSONNode; }
 
-#define RPG_GAMECORE_BYGRIDFIGHTTRAITSELECTEDCHARACTER_METHOD_4_239BEE13C24729F8_OFFSET UNITYSDK_OFFSET(0x1954C340)
-#define RPG_GAMECORE_BYGRIDFIGHTTRAITSELECTEDCHARACTER_METHOD_4_5FFCF766ADEDF3C7_OFFSET UNITYSDK_OFFSET(0x1954C170)
-#define RPG_GAMECORE_BYGRIDFIGHTTRAITSELECTEDCHARACTER_METHOD_4_9BAD93DCE0C44881_OFFSET UNITYSDK_OFFSET(0x1954C0A0)
-#define RPG_GAMECORE_BYGRIDFIGHTTRAITSELECTEDCHARACTER_METHOD_4_C0BA0278A990A249_OFFSET UNITYSDK_OFFSET(0x1954C3C0)
-#define RPG_GAMECORE_BYGRIDFIGHTTRAITSELECTEDCHARACTER__CTOR_OFFSET UNITYSDK_OFFSET(0x1954C120)
+#define RPG_GAMECORE_BYGRIDFIGHTTRAITSELECTEDCHARACTER_METHOD_4_5E5583D82220CEBE_OFFSET UNITYSDK_OFFSET(0x1A8C4E40)
+#define RPG_GAMECORE_BYGRIDFIGHTTRAITSELECTEDCHARACTER_METHOD_4_5FFCF766ADEDF3C7_OFFSET UNITYSDK_OFFSET(0x1A8C4C40)
+#define RPG_GAMECORE_BYGRIDFIGHTTRAITSELECTEDCHARACTER_METHOD_4_60C00F9DC898F58E_OFFSET UNITYSDK_OFFSET(0x1A8C4C00)
+#define RPG_GAMECORE_BYGRIDFIGHTTRAITSELECTEDCHARACTER_METHOD_4_C9115DAD124286F1_OFFSET UNITYSDK_OFFSET(0x1A8C4E10)
+#define RPG_GAMECORE_BYGRIDFIGHTTRAITSELECTEDCHARACTER__CTOR_OFFSET UNITYSDK_OFFSET(0x1A8C4C30)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ByGridFightTraitSelectedCharacter_TypeDefinitionIndex = 21294;
+	inline static constexpr unsigned int ByGridFightTraitSelectedCharacter_TypeDefinitionIndex = 21709;
 
 	class ByGridFightTraitSelectedCharacter : public ::RPG::GameCore::PredicateConfig
 	{
@@ -28,9 +28,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYGRIDFIGHTTRAITSELECTEDCHARACTER__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_4_9BAD93DCE0C44881(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ByGridFightTraitSelectedCharacter*& a2)
+		static ::System::Void Method_4_60C00F9DC898F58E(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ByGridFightTraitSelectedCharacter*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ByGridFightTraitSelectedCharacter*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYGRIDFIGHTTRAITSELECTEDCHARACTER_METHOD_4_9BAD93DCE0C44881_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ByGridFightTraitSelectedCharacter*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYGRIDFIGHTTRAITSELECTEDCHARACTER_METHOD_4_60C00F9DC898F58E_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_4_5FFCF766ADEDF3C7(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ByGridFightTraitSelectedCharacter* a2)
@@ -38,14 +38,14 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ByGridFightTraitSelectedCharacter*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYGRIDFIGHTTRAITSELECTEDCHARACTER_METHOD_4_5FFCF766ADEDF3C7_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_4_239BEE13C24729F8(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::ByGridFightTraitSelectedCharacter*& a2)
+		static ::System::Void Method_4_C9115DAD124286F1(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::ByGridFightTraitSelectedCharacter*& a2)
 		{
-			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::ByGridFightTraitSelectedCharacter*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYGRIDFIGHTTRAITSELECTEDCHARACTER_METHOD_4_239BEE13C24729F8_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::ByGridFightTraitSelectedCharacter*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYGRIDFIGHTTRAITSELECTEDCHARACTER_METHOD_4_C9115DAD124286F1_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_4_C0BA0278A990A249(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::ByGridFightTraitSelectedCharacter* a2)
+		static ::System::Void Method_4_5E5583D82220CEBE(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::ByGridFightTraitSelectedCharacter* a2)
 		{
-			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::ByGridFightTraitSelectedCharacter*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYGRIDFIGHTTRAITSELECTEDCHARACTER_METHOD_4_C0BA0278A990A249_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::ByGridFightTraitSelectedCharacter*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYGRIDFIGHTTRAITSELECTEDCHARACTER_METHOD_4_5E5583D82220CEBE_OFFSET))(a1, a2);
 		}
 	};
 }

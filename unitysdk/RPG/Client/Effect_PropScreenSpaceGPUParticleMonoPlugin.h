@@ -4,11 +4,11 @@
 
 namespace RPG::Client { class Effect_PropScreenSpaceGPUParticleBehavior; }
 
-#define RPG_CLIENT_EFFECT_PROPSCREENSPACEGPUPARTICLEMONOPLUGIN__CTOR_OFFSET UNITYSDK_OFFSET(0xB884510)
+#define RPG_CLIENT_EFFECT_PROPSCREENSPACEGPUPARTICLEMONOPLUGIN__CTOR_OFFSET UNITYSDK_OFFSET(0x15124650)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int Effect_PropScreenSpaceGPUParticleMonoPlugin_TypeDefinitionIndex = 65961;
+	inline static constexpr unsigned int Effect_PropScreenSpaceGPUParticleMonoPlugin_TypeDefinitionIndex = 67386;
 
 	class Effect_PropScreenSpaceGPUParticleMonoPlugin : public ::RPG::Client::Effect_PropScreenSpaceGPUParticleMonoPluginBase_1<::RPG::Client::Effect_PropScreenSpaceGPUParticleBehavior*>
 	{

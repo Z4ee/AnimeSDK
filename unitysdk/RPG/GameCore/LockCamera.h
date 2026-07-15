@@ -4,13 +4,13 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_LOCKCAMERA_METHOD_3_B91E38D54A5EBE4A_OFFSET UNITYSDK_OFFSET(0x198AB370)
-#define RPG_GAMECORE_LOCKCAMERA_METHOD_3_FD212F36C492D00B_OFFSET UNITYSDK_OFFSET(0x198AB400)
-#define RPG_GAMECORE_LOCKCAMERA__CTOR_OFFSET UNITYSDK_OFFSET(0x198AB3D0)
+#define RPG_GAMECORE_LOCKCAMERA_METHOD_3_A385D3BE2E70D552_OFFSET UNITYSDK_OFFSET(0x1BCCE680)
+#define RPG_GAMECORE_LOCKCAMERA_METHOD_3_FD212F36C492D00B_OFFSET UNITYSDK_OFFSET(0x1BCCE6D0)
+#define RPG_GAMECORE_LOCKCAMERA__CTOR_OFFSET UNITYSDK_OFFSET(0x1BCCE6C0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LockCamera_TypeDefinitionIndex = 19026;
+	inline static constexpr unsigned int LockCamera_TypeDefinitionIndex = 19379;
 
 	class LockCamera : public ::RPG::GameCore::TaskConfig
 	{
@@ -25,9 +25,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LOCKCAMERA__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_B91E38D54A5EBE4A(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::LockCamera*& a2)
+		static ::System::Void Method_3_A385D3BE2E70D552(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::LockCamera*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::LockCamera*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LOCKCAMERA_METHOD_3_B91E38D54A5EBE4A_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::LockCamera*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LOCKCAMERA_METHOD_3_A385D3BE2E70D552_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_FD212F36C492D00B(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::LockCamera* a2)

@@ -7,17 +7,17 @@
 namespace System::Collections::Generic { template <typename T> class HashSet_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_1_9940F9E16DD482B4_METHOD_1_AA169839CB93802A_OFFSET UNITYSDK_OFFSET(0xD18D1E0)
-#define CLASS_1_9940F9E16DD482B4__CTOR_OFFSET UNITYSDK_OFFSET(0xD18D2E0)
+#define CLASS_1_9940F9E16DD482B4_METHOD_1_AA169839CB93802A_OFFSET UNITYSDK_OFFSET(0x176B1A30)
+#define CLASS_1_9940F9E16DD482B4__CTOR_OFFSET UNITYSDK_OFFSET(0x176B1B30)
 
-inline static constexpr unsigned int Class_1_9940F9E16DD482B4_TypeDefinitionIndex = 58260;
+inline static constexpr unsigned int Class_1_9940F9E16DD482B4_TypeDefinitionIndex = 59522;
 
 class Class_1_9940F9E16DD482B4 : public ::System::Object
 {
 public:
-	::System::Collections::Generic::List_1<::System::UInt32>* Field_1_0; // 0x10
-	::System::Collections::Generic::List_1<::UnityEngine::Vector2Int>* Field_1_1; // 0x18
-	::System::Collections::Generic::List_1<::RPG::Client::AlleyLineDirectionEnum>* Field_1_2; // 0x20
+	::System::Collections::Generic::List_1<::RPG::Client::AlleyLineDirectionEnum>* Field_1_0; // 0x10
+	::System::Collections::Generic::List_1<::System::UInt32>* Field_1_1; // 0x18
+	::System::Collections::Generic::List_1<::UnityEngine::Vector2Int>* Field_1_2; // 0x20
 	::System::Collections::Generic::HashSet_1<::System::UInt32>* Field_1_3; // 0x28
 	::System::UInt32 Field_1_4; // 0x30
 	::System::UInt32 Field_1_5; // 0x34

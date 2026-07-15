@@ -2,7 +2,7 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/ValueType.h"
 
-inline static constexpr unsigned int AkSoundEngine_GlobalStats_TypeDefinitionIndex = 41184;
+inline static constexpr unsigned int AkSoundEngine_GlobalStats_TypeDefinitionIndex = 41999;
 
 struct alignas(8) AkSoundEngine_GlobalStats
 {

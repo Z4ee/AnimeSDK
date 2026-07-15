@@ -5,11 +5,11 @@
 
 namespace UnityEngine { class GameObject; }
 
-#define RPG_CLIENT_PROP_RUBIKCUBEPUZZLESWITCHDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xC622340)
+#define RPG_CLIENT_PROP_RUBIKCUBEPUZZLESWITCHDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x16107670)
 
 namespace RPG::Client::Prop
 {
-	inline static constexpr unsigned int RubikCubePuzzleSwitchData_TypeDefinitionIndex = 73357;
+	inline static constexpr unsigned int RubikCubePuzzleSwitchData_TypeDefinitionIndex = 74882;
 
 	class RubikCubePuzzleSwitchData : public ::System::Object
 	{

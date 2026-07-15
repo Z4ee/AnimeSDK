@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class AITryInsertUltra; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_221CC4908DC77487_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB9E9AA0)
-#define CLASS_3_221CC4908DC77487__CTOR_OFFSET UNITYSDK_OFFSET(0xB9E9A70)
+#define CLASS_3_221CC4908DC77487_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBF8CE00)
+#define CLASS_3_221CC4908DC77487__CTOR_OFFSET UNITYSDK_OFFSET(0xBF8CDD0)
 
-inline static constexpr unsigned int Class_3_221CC4908DC77487_TypeDefinitionIndex = 51221;
+inline static constexpr unsigned int Class_3_221CC4908DC77487_TypeDefinitionIndex = 52313;
 
 class Class_3_221CC4908DC77487 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::AITryInsertUltra*>
 {

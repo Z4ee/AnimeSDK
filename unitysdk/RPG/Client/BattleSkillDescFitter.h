@@ -2,28 +2,28 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_1_99E47DBBD38370B7;
+class Class_1_3AF00C13A1E953CE;
 namespace RPG::Client { class BattleSkillDescItemFitter; }
 namespace RPG::Client { class BattleSkillDescItemFitterParamCollector; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class RectTransform; }
 
-#define RPG_CLIENT_BATTLESKILLDESCFITTER_ADDITEMFITTER_OFFSET UNITYSDK_OFFSET(0xB418670)
-#define RPG_CLIENT_BATTLESKILLDESCFITTER_CREATE_OFFSET UNITYSDK_OFFSET(0xB418520)
-#define RPG_CLIENT_BATTLESKILLDESCFITTER_TRYFIT_OFFSET UNITYSDK_OFFSET(0xB4188D0)
-#define RPG_CLIENT_BATTLESKILLDESCFITTER__CTOR_OFFSET UNITYSDK_OFFSET(0xB418620)
-#define RPG_CLIENT_BATTLESKILLDESCFITTER__TRYFITITEMS_OFFSET UNITYSDK_OFFSET(0xB418930)
-#define RPG_CLIENT_BATTLESKILLDESCFITTER__TRYUPDATEPOS_OFFSET UNITYSDK_OFFSET(0xB418A70)
+#define RPG_CLIENT_BATTLESKILLDESCFITTER_ADDITEMFITTER_OFFSET UNITYSDK_OFFSET(0x19FBE690)
+#define RPG_CLIENT_BATTLESKILLDESCFITTER_CREATE_OFFSET UNITYSDK_OFFSET(0x19FBE540)
+#define RPG_CLIENT_BATTLESKILLDESCFITTER_TRYFIT_OFFSET UNITYSDK_OFFSET(0x19FBE8F0)
+#define RPG_CLIENT_BATTLESKILLDESCFITTER__CTOR_OFFSET UNITYSDK_OFFSET(0x19FBE640)
+#define RPG_CLIENT_BATTLESKILLDESCFITTER__TRYFITITEMS_OFFSET UNITYSDK_OFFSET(0x19FBE950)
+#define RPG_CLIENT_BATTLESKILLDESCFITTER__TRYUPDATEPOS_OFFSET UNITYSDK_OFFSET(0x19FBEA90)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int BattleSkillDescFitter_TypeDefinitionIndex = 67174;
+	inline static constexpr unsigned int BattleSkillDescFitter_TypeDefinitionIndex = 68626;
 
 	class BattleSkillDescFitter : public ::System::Object
 	{
 	public:
 		::UnityEngine::RectTransform* _NeedRefreshFitterTransform; // 0x10
-		::Class_1_99E47DBBD38370B7* _RootTransformCornerData; // 0x18
+		::Class_1_3AF00C13A1E953CE* _RootTransformCornerData; // 0x18
 		::System::Collections::Generic::List_1<::RPG::Client::BattleSkillDescItemFitter*>* _ItemFitterList; // 0x20
 		::UnityEngine::RectTransform* _PosChangeTransform; // 0x28
 

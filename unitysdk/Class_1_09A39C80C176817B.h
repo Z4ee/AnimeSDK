@@ -8,12 +8,12 @@ namespace RPG::Client { class CameraBlendCurve; }
 namespace System { class String; }
 namespace UnityEngine { class Transform; }
 
-#define CLASS_1_09A39C80C176817B_CLEAR_OFFSET UNITYSDK_OFFSET(0x138E3AA0)
-#define CLASS_1_09A39C80C176817B_METHOD_1_2B32279AD66917FA_OFFSET UNITYSDK_OFFSET(0x138E3B30)
-#define CLASS_1_09A39C80C176817B_METHOD_1_A52062643A2DBAD8_OFFSET UNITYSDK_OFFSET(0x138E3CF0)
-#define CLASS_1_09A39C80C176817B__CTOR_OFFSET UNITYSDK_OFFSET(0x138E3E40)
+#define CLASS_1_09A39C80C176817B_CLEAR_OFFSET UNITYSDK_OFFSET(0x18B8D8A0)
+#define CLASS_1_09A39C80C176817B_METHOD_1_2B32279AD66917FA_OFFSET UNITYSDK_OFFSET(0x18B8D930)
+#define CLASS_1_09A39C80C176817B_METHOD_1_A52062643A2DBAD8_OFFSET UNITYSDK_OFFSET(0x18B8DAF0)
+#define CLASS_1_09A39C80C176817B__CTOR_OFFSET UNITYSDK_OFFSET(0x18B8DC40)
 
-inline static constexpr unsigned int Class_1_09A39C80C176817B_TypeDefinitionIndex = 64417;
+inline static constexpr unsigned int Class_1_09A39C80C176817B_TypeDefinitionIndex = 65788;
 
 class Class_1_09A39C80C176817B : public ::System::Object
 {
@@ -23,8 +23,8 @@ public:
 	::UnityEngine::Transform* Field_1_2; // 0x20
 	::UnityEngine::Quaternion Field_1_3; // 0x28
 	::System::Single Field_1_4; // 0x38
-	::System::Single Field_1_5; // 0x3C
-	::UnityEngine::Quaternion Field_1_6; // 0x40
+	::UnityEngine::Quaternion Field_1_5; // 0x3C
+	::System::Single Field_1_6; // 0x4C
 
 	::System::Void _ctor()
 	{

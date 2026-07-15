@@ -3,7 +3,7 @@
 
 namespace UnityEngine::Playables
 {
-	inline static constexpr unsigned int DirectorUpdateMode_TypeDefinitionIndex = 4895;
+	inline static constexpr unsigned int DirectorUpdateMode_TypeDefinitionIndex = 4900;
 
 	enum class DirectorUpdateMode : ::System::Int32
 	{

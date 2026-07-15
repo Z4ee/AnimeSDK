@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RoleSwitchCondType_TypeDefinitionIndex = 12887;
+	inline static constexpr unsigned int RoleSwitchCondType_TypeDefinitionIndex = 13035;
 
 	enum class RoleSwitchCondType : ::System::Int32
 	{

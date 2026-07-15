@@ -11,7 +11,7 @@ namespace System::Collections::ObjectModel { template <typename T> class ReadOnl
 
 namespace SRF
 {
-	inline static constexpr unsigned int SRList_1_TypeDefinitionIndex = 33552;
+	inline static constexpr unsigned int SRList_1_TypeDefinitionIndex = 33923;
 
 	template <typename T>
 	class SRList_1 : public ::System::Object

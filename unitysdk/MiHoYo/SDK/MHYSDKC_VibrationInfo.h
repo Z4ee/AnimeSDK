@@ -6,7 +6,7 @@ namespace System { class String; }
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int MHYSDKC_VibrationInfo_TypeDefinitionIndex = 43578;
+	inline static constexpr unsigned int MHYSDKC_VibrationInfo_TypeDefinitionIndex = 44439;
 
 	class MHYSDKC_VibrationInfo : public ::System::Object
 	{

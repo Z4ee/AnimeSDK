@@ -12,41 +12,41 @@ namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Concurrent { template <typename T1, typename T2> class ConcurrentDictionary_2; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_ROGUETALKNAMECOLOREXCELTABLE_GETDATA_OFFSET UNITYSDK_OFFSET(0x19BBD8A0)
-#define RPG_GAMECORE_ROGUETALKNAMECOLOREXCELTABLE_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x19BBD720)
-#define RPG_GAMECORE_ROGUETALKNAMECOLOREXCELTABLE_GET_DATADICT_OFFSET UNITYSDK_OFFSET(0x19BBD410)
-#define RPG_GAMECORE_ROGUETALKNAMECOLOREXCELTABLE_ISDATAEMPTY_OFFSET UNITYSDK_OFFSET(0x19BBD6C0)
-#define RPG_GAMECORE_ROGUETALKNAMECOLOREXCELTABLE_ISDATALOADED_OFFSET UNITYSDK_OFFSET(0x19BBD9A0)
-#define RPG_GAMECORE_ROGUETALKNAMECOLOREXCELTABLE_LOADDATA_OFFSET UNITYSDK_OFFSET(0x19BBD490)
-#define RPG_GAMECORE_ROGUETALKNAMECOLOREXCELTABLE_UNLOADDATA_OFFSET UNITYSDK_OFFSET(0x19BBD9E0)
-#define RPG_GAMECORE_ROGUETALKNAMECOLOREXCELTABLE__ADDITEMFROMBINARY_OFFSET UNITYSDK_OFFSET(0x19BBDBB0)
-#define RPG_GAMECORE_ROGUETALKNAMECOLOREXCELTABLE__ADDITEM_OFFSET UNITYSDK_OFFSET(0x19BBDC00)
-#define RPG_GAMECORE_ROGUETALKNAMECOLOREXCELTABLE__CCTOR_OFFSET UNITYSDK_OFFSET(0x19BBE100)
-#define RPG_GAMECORE_ROGUETALKNAMECOLOREXCELTABLE__LOADDATAINCREMENTIAL_OFFSET UNITYSDK_OFFSET(0x19BBDB10)
-#define RPG_GAMECORE_ROGUETALKNAMECOLOREXCELTABLE__LOADDATA_OFFSET UNITYSDK_OFFSET(0x19BBDA70)
+#define RPG_GAMECORE_ROGUETALKNAMECOLOREXCELTABLE_GETDATA_OFFSET UNITYSDK_OFFSET(0x1BB6B930)
+#define RPG_GAMECORE_ROGUETALKNAMECOLOREXCELTABLE_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x1BB6B7B0)
+#define RPG_GAMECORE_ROGUETALKNAMECOLOREXCELTABLE_GET_DATADICT_OFFSET UNITYSDK_OFFSET(0x1BB6B4A0)
+#define RPG_GAMECORE_ROGUETALKNAMECOLOREXCELTABLE_ISDATAEMPTY_OFFSET UNITYSDK_OFFSET(0x1BB6B750)
+#define RPG_GAMECORE_ROGUETALKNAMECOLOREXCELTABLE_ISDATALOADED_OFFSET UNITYSDK_OFFSET(0x1BB6BA30)
+#define RPG_GAMECORE_ROGUETALKNAMECOLOREXCELTABLE_LOADDATA_OFFSET UNITYSDK_OFFSET(0x1BB6B520)
+#define RPG_GAMECORE_ROGUETALKNAMECOLOREXCELTABLE_UNLOADDATA_OFFSET UNITYSDK_OFFSET(0x1BB6BA70)
+#define RPG_GAMECORE_ROGUETALKNAMECOLOREXCELTABLE__ADDITEMFROMBINARY_OFFSET UNITYSDK_OFFSET(0x1BB6BC40)
+#define RPG_GAMECORE_ROGUETALKNAMECOLOREXCELTABLE__ADDITEM_OFFSET UNITYSDK_OFFSET(0x1BB6BE00)
+#define RPG_GAMECORE_ROGUETALKNAMECOLOREXCELTABLE__CCTOR_OFFSET UNITYSDK_OFFSET(0x1BB6C300)
+#define RPG_GAMECORE_ROGUETALKNAMECOLOREXCELTABLE__LOADDATAINCREMENTIAL_OFFSET UNITYSDK_OFFSET(0x1BB6BBA0)
+#define RPG_GAMECORE_ROGUETALKNAMECOLOREXCELTABLE__LOADDATA_OFFSET UNITYSDK_OFFSET(0x1BB6BB00)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RogueTalkNameColorExcelTable_TypeDefinitionIndex = 14079;
+	inline static constexpr unsigned int RogueTalkNameColorExcelTable_TypeDefinitionIndex = 14227;
 
 	class RogueTalkNameColorExcelTable : public ::System::Object
 	{
 	public:
+		static ::System::Action_1<::Class_1_7A22A3DBEEDD1F80*>** StaticGet__AddItemFromBinary_ActionInst()
+		{
+			return (::System::Action_1<::Class_1_7A22A3DBEEDD1F80*>**)Il2CppClass::FromTypeDefinitionIndex(RogueTalkNameColorExcelTable_TypeDefinitionIndex)->GetStaticField(0x4F6B0);
+		}
 		static ::Il2CppArray<::System::String*>** StaticGet_s_PathList()
 		{
-			return (::Il2CppArray<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(RogueTalkNameColorExcelTable_TypeDefinitionIndex)->GetStaticField(0x8350);
+			return (::Il2CppArray<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(RogueTalkNameColorExcelTable_TypeDefinitionIndex)->GetStaticField(0x4F6B8);
 		}
 		static ::System::Collections::Generic::Dictionary_2<::RPG::GameCore::RogueTalkNameColorExcelTable_IndexKey, ::RPG::GameCore::RogueTalkNameColorRow*>** StaticGet_dataDict_()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::RogueTalkNameColorExcelTable_IndexKey, ::RPG::GameCore::RogueTalkNameColorRow*>**)Il2CppClass::FromTypeDefinitionIndex(RogueTalkNameColorExcelTable_TypeDefinitionIndex)->GetStaticField(0x8358);
-		}
-		static ::System::Action_1<::Class_1_7A22A3DBEEDD1F80*>** StaticGet__AddItemFromBinary_ActionInst()
-		{
-			return (::System::Action_1<::Class_1_7A22A3DBEEDD1F80*>**)Il2CppClass::FromTypeDefinitionIndex(RogueTalkNameColorExcelTable_TypeDefinitionIndex)->GetStaticField(0x8360);
+			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::RogueTalkNameColorExcelTable_IndexKey, ::RPG::GameCore::RogueTalkNameColorRow*>**)Il2CppClass::FromTypeDefinitionIndex(RogueTalkNameColorExcelTable_TypeDefinitionIndex)->GetStaticField(0x4F6C0);
 		}
 		static ::System::Boolean* StaticGet_isDataLoaded()
 		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(RogueTalkNameColorExcelTable_TypeDefinitionIndex)->GetStaticField(0x3870);
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(RogueTalkNameColorExcelTable_TypeDefinitionIndex)->GetStaticField(0xE430);
 		}
 
 		static ::System::Void _cctor()

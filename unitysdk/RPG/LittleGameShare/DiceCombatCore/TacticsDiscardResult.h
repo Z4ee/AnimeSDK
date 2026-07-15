@@ -3,7 +3,7 @@
 
 namespace RPG::LittleGameShare::DiceCombatCore
 {
-	inline static constexpr unsigned int TacticsDiscardResult_TypeDefinitionIndex = 34589;
+	inline static constexpr unsigned int TacticsDiscardResult_TypeDefinitionIndex = 34971;
 
 	enum class TacticsDiscardResult : ::System::Byte
 	{

@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ModifierBehaviorFlag_TypeDefinitionIndex = 10041;
+	inline static constexpr unsigned int ModifierBehaviorFlag_TypeDefinitionIndex = 10056;
 
 	enum class ModifierBehaviorFlag : ::System::Int32
 	{

@@ -3,7 +3,7 @@
 
 namespace RPG::Client::PixAir
 {
-	inline static constexpr unsigned int PixAirNodeInstance_NodeState_TypeDefinitionIndex = 73670;
+	inline static constexpr unsigned int PixAirNodeInstance_NodeState_TypeDefinitionIndex = 75319;
 
 	enum class PixAirNodeInstance_NodeState : ::System::Int32
 	{

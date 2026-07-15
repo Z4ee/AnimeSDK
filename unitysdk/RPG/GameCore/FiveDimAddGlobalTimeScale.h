@@ -6,13 +6,13 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class DynamicFloat; }
 namespace RPG::GameCore { class DynamicString; }
 
-#define RPG_GAMECORE_FIVEDIMADDGLOBALTIMESCALE_METHOD_3_0566348D78770DFE_OFFSET UNITYSDK_OFFSET(0x19726920)
-#define RPG_GAMECORE_FIVEDIMADDGLOBALTIMESCALE_METHOD_3_6E3E58B74733B649_OFFSET UNITYSDK_OFFSET(0x197269E0)
-#define RPG_GAMECORE_FIVEDIMADDGLOBALTIMESCALE__CTOR_OFFSET UNITYSDK_OFFSET(0x19726990)
+#define RPG_GAMECORE_FIVEDIMADDGLOBALTIMESCALE_METHOD_3_6E3E58B74733B649_OFFSET UNITYSDK_OFFSET(0x1BA868F0)
+#define RPG_GAMECORE_FIVEDIMADDGLOBALTIMESCALE_METHOD_3_B3939106E6390F89_OFFSET UNITYSDK_OFFSET(0x1BA86860)
+#define RPG_GAMECORE_FIVEDIMADDGLOBALTIMESCALE__CTOR_OFFSET UNITYSDK_OFFSET(0x1BA868C0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FiveDimAddGlobalTimeScale_TypeDefinitionIndex = 20253;
+	inline static constexpr unsigned int FiveDimAddGlobalTimeScale_TypeDefinitionIndex = 20646;
 
 	class FiveDimAddGlobalTimeScale : public ::RPG::GameCore::TaskConfig
 	{
@@ -27,9 +27,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMADDGLOBALTIMESCALE__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_0566348D78770DFE(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::FiveDimAddGlobalTimeScale*& a2)
+		static ::System::Void Method_3_B3939106E6390F89(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::FiveDimAddGlobalTimeScale*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::FiveDimAddGlobalTimeScale*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMADDGLOBALTIMESCALE_METHOD_3_0566348D78770DFE_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::FiveDimAddGlobalTimeScale*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMADDGLOBALTIMESCALE_METHOD_3_B3939106E6390F89_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_6E3E58B74733B649(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::FiveDimAddGlobalTimeScale* a2)

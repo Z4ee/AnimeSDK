@@ -6,29 +6,29 @@ namespace RPG::Client { class RogueEndlessAreaData; }
 namespace System { class Action; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define RPG_CLIENT_ROGUEMODULE___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xC7D0150)
-#define RPG_CLIENT_ROGUEMODULE___C__CTOR_OFFSET UNITYSDK_OFFSET(0xC7D0190)
-#define RPG_CLIENT_ROGUEMODULE___C__HASROGUEENDLESSINDOING_B__25_0_OFFSET UNITYSDK_OFFSET(0xC7D01A0)
-#define RPG_CLIENT_ROGUEMODULE___C___SHOWBUFFAEONFIRSTTALK_B__130_0_OFFSET UNITYSDK_OFFSET(0xC7D0200)
+#define RPG_CLIENT_ROGUEMODULE___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x19A344C0)
+#define RPG_CLIENT_ROGUEMODULE___C__CTOR_OFFSET UNITYSDK_OFFSET(0x19A34500)
+#define RPG_CLIENT_ROGUEMODULE___C__HASROGUEENDLESSINDOING_B__25_0_OFFSET UNITYSDK_OFFSET(0x19A34510)
+#define RPG_CLIENT_ROGUEMODULE___C___SHOWBUFFAEONFIRSTTALK_B__130_0_OFFSET UNITYSDK_OFFSET(0x19A34570)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int RogueModule___c_TypeDefinitionIndex = 63086;
+	inline static constexpr unsigned int RogueModule___c_TypeDefinitionIndex = 64453;
 
 	class RogueModule___c : public ::System::Object
 	{
 	public:
 		static ::System::Action** StaticGet___9__130_0()
 		{
-			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(RogueModule___c_TypeDefinitionIndex)->GetStaticField(0x34530);
-		}
-		static ::RPG::Client::RogueModule___c** StaticGet___9()
-		{
-			return (::RPG::Client::RogueModule___c**)Il2CppClass::FromTypeDefinitionIndex(RogueModule___c_TypeDefinitionIndex)->GetStaticField(0x34538);
+			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(RogueModule___c_TypeDefinitionIndex)->GetStaticField(0x26E60);
 		}
 		static ::System::Func_2<::RPG::Client::RogueEndlessAreaData*, ::System::Boolean>** StaticGet___9__25_0()
 		{
-			return (::System::Func_2<::RPG::Client::RogueEndlessAreaData*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(RogueModule___c_TypeDefinitionIndex)->GetStaticField(0x34540);
+			return (::System::Func_2<::RPG::Client::RogueEndlessAreaData*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(RogueModule___c_TypeDefinitionIndex)->GetStaticField(0x26E68);
+		}
+		static ::RPG::Client::RogueModule___c** StaticGet___9()
+		{
+			return (::RPG::Client::RogueModule___c**)Il2CppClass::FromTypeDefinitionIndex(RogueModule___c_TypeDefinitionIndex)->GetStaticField(0x26E70);
 		}
 
 		static ::System::Void _cctor()

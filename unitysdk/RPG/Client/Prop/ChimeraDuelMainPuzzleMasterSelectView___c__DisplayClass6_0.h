@@ -5,12 +5,12 @@
 namespace RPG::Client::Prop { class ChimeraDuelMainPuzzleMasterSelectView; }
 namespace UnityEngine { class Transform; }
 
-#define RPG_CLIENT_PROP_CHIMERADUELMAINPUZZLEMASTERSELECTVIEW___C__DISPLAYCLASS6_0__CTOR_OFFSET UNITYSDK_OFFSET(0xC5160B0)
-#define RPG_CLIENT_PROP_CHIMERADUELMAINPUZZLEMASTERSELECTVIEW___C__DISPLAYCLASS6_0___CREATEMASTERENTITY_B__0_OFFSET UNITYSDK_OFFSET(0xC5167E0)
+#define RPG_CLIENT_PROP_CHIMERADUELMAINPUZZLEMASTERSELECTVIEW___C__DISPLAYCLASS6_0__CTOR_OFFSET UNITYSDK_OFFSET(0x16E2C640)
+#define RPG_CLIENT_PROP_CHIMERADUELMAINPUZZLEMASTERSELECTVIEW___C__DISPLAYCLASS6_0___CREATEMASTERENTITY_B__0_OFFSET UNITYSDK_OFFSET(0x16E2CCD0)
 
 namespace RPG::Client::Prop
 {
-	inline static constexpr unsigned int ChimeraDuelMainPuzzleMasterSelectView___c__DisplayClass6_0_TypeDefinitionIndex = 72899;
+	inline static constexpr unsigned int ChimeraDuelMainPuzzleMasterSelectView___c__DisplayClass6_0_TypeDefinitionIndex = 74424;
 
 	class ChimeraDuelMainPuzzleMasterSelectView___c__DisplayClass6_0 : public ::System::Object
 	{

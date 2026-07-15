@@ -6,20 +6,20 @@ namespace RPGTools { class AppDevicePerformanceBehavior; }
 namespace System { class String; }
 namespace UnityEngine::UI { class InputField; }
 
-#define RPGTOOLS_APPDEVICEPERFORMANCEBEHAVIOR___C__DISPLAYCLASS40_0__CTOR_OFFSET UNITYSDK_OFFSET(0xA243E70)
-#define RPGTOOLS_APPDEVICEPERFORMANCEBEHAVIOR___C__DISPLAYCLASS40_0__SETUPUI_B__0_OFFSET UNITYSDK_OFFSET(0xA2454A0)
-#define RPGTOOLS_APPDEVICEPERFORMANCEBEHAVIOR___C__DISPLAYCLASS40_0__SETUPUI_B__1_OFFSET UNITYSDK_OFFSET(0xA2454F0)
+#define RPGTOOLS_APPDEVICEPERFORMANCEBEHAVIOR___C__DISPLAYCLASS40_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1B75AF60)
+#define RPGTOOLS_APPDEVICEPERFORMANCEBEHAVIOR___C__DISPLAYCLASS40_0__SETUPUI_B__0_OFFSET UNITYSDK_OFFSET(0x1B75C770)
+#define RPGTOOLS_APPDEVICEPERFORMANCEBEHAVIOR___C__DISPLAYCLASS40_0__SETUPUI_B__1_OFFSET UNITYSDK_OFFSET(0x1B75C7C0)
 
 namespace RPGTools
 {
-	inline static constexpr unsigned int AppDevicePerformanceBehavior___c__DisplayClass40_0_TypeDefinitionIndex = 44280;
+	inline static constexpr unsigned int AppDevicePerformanceBehavior___c__DisplayClass40_0_TypeDefinitionIndex = 45150;
 
 	class AppDevicePerformanceBehavior___c__DisplayClass40_0 : public ::System::Object
 	{
 	public:
-		::RPGTools::AppDevicePerformanceBehavior* __4__this; // 0x10
-		::UnityEngine::UI::InputField* memUpdateInput; // 0x18
-		::UnityEngine::UI::InputField* fpsUpdateInput; // 0x20
+		::UnityEngine::UI::InputField* memUpdateInput; // 0x10
+		::UnityEngine::UI::InputField* fpsUpdateInput; // 0x18
+		::RPGTools::AppDevicePerformanceBehavior* __4__this; // 0x20
 
 		::System::Void _ctor()
 		{

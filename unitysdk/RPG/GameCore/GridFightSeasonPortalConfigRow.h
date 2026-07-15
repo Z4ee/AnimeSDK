@@ -3,22 +3,19 @@
 #include "unitysdk/System/Object.h"
 
 class Class_1_7A22A3DBEEDD1F80;
-namespace System { class String; }
 
-#define RPG_GAMECORE_GRIDFIGHTSEASONPORTALCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x19808FB0)
-#define RPG_GAMECORE_GRIDFIGHTSEASONPORTALCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x19809130)
+#define RPG_GAMECORE_GRIDFIGHTSEASONPORTALCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D0760F0)
+#define RPG_GAMECORE_GRIDFIGHTSEASONPORTALCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D0761E0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int GridFightSeasonPortalConfigRow_TypeDefinitionIndex = 12987;
+	inline static constexpr unsigned int GridFightSeasonPortalConfigRow_TypeDefinitionIndex = 13135;
 
 	class GridFightSeasonPortalConfigRow : public ::System::Object
 	{
 	public:
-		::System::String* ConditionJsonPath; // 0x10
-		::System::UInt32 PortalID; // 0x18
-		::System::UInt32 Ratio; // 0x1C
-		::System::UInt32 SeasonID; // 0x20
+		::System::UInt32 SeasonID; // 0x10
+		::System::UInt32 PortalID; // 0x14
 
 		::System::Void _ctor()
 		{

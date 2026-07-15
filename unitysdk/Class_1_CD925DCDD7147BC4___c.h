@@ -5,22 +5,22 @@
 namespace System { class Exception; }
 namespace System { template <typename T> class Action_1; }
 
-#define CLASS_1_CD925DCDD7147BC4___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xC72D990)
-#define CLASS_1_CD925DCDD7147BC4___C__CTOR_OFFSET UNITYSDK_OFFSET(0xC72D9D0)
-#define CLASS_1_CD925DCDD7147BC4___C___EXECUTESWITCH_B__10_4_OFFSET UNITYSDK_OFFSET(0xC72D9E0)
+#define CLASS_1_CD925DCDD7147BC4___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x18467C10)
+#define CLASS_1_CD925DCDD7147BC4___C__CTOR_OFFSET UNITYSDK_OFFSET(0x18467C50)
+#define CLASS_1_CD925DCDD7147BC4___C___EXECUTESWITCH_B__10_4_OFFSET UNITYSDK_OFFSET(0x18467C60)
 
-inline static constexpr unsigned int Class_1_CD925DCDD7147BC4___c_TypeDefinitionIndex = 72245;
+inline static constexpr unsigned int Class_1_CD925DCDD7147BC4___c_TypeDefinitionIndex = 73770;
 
 class Class_1_CD925DCDD7147BC4___c : public ::System::Object
 {
 public:
 	static ::System::Action_1<::System::Exception*>** StaticGet___9__10_4()
 	{
-		return (::System::Action_1<::System::Exception*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_CD925DCDD7147BC4___c_TypeDefinitionIndex)->GetStaticField(0x68880);
+		return (::System::Action_1<::System::Exception*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_CD925DCDD7147BC4___c_TypeDefinitionIndex)->GetStaticField(0x5EC00);
 	}
 	static ::Class_1_CD925DCDD7147BC4___c** StaticGet___9()
 	{
-		return (::Class_1_CD925DCDD7147BC4___c**)Il2CppClass::FromTypeDefinitionIndex(Class_1_CD925DCDD7147BC4___c_TypeDefinitionIndex)->GetStaticField(0x68888);
+		return (::Class_1_CD925DCDD7147BC4___c**)Il2CppClass::FromTypeDefinitionIndex(Class_1_CD925DCDD7147BC4___c_TypeDefinitionIndex)->GetStaticField(0x5EC08);
 	}
 
 	static ::System::Void _cctor()

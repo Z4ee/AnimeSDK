@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int DOFCocMethodType_TypeDefinitionIndex = 15603;
+	inline static constexpr unsigned int DOFCocMethodType_TypeDefinitionIndex = 15775;
 
 	enum class DOFCocMethodType : ::System::Int32
 	{

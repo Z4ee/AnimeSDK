@@ -3,11 +3,11 @@
 #include "unitysdk/RPGTools/RoadGenerator/CurveEditPreset_CurveCreateParam.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 
-#define RPGTOOLS_ROADGENERATOR_CURVEEDITPRESET__CTOR_OFFSET UNITYSDK_OFFSET(0xCFD16E0)
+#define RPGTOOLS_ROADGENERATOR_CURVEEDITPRESET__CTOR_OFFSET UNITYSDK_OFFSET(0x19D69340)
 
 namespace RPGTools::RoadGenerator
 {
-	inline static constexpr unsigned int CurveEditPreset_TypeDefinitionIndex = 46107;
+	inline static constexpr unsigned int CurveEditPreset_TypeDefinitionIndex = 47046;
 
 	class CurveEditPreset : public ::UnityEngine::MonoBehaviour
 	{

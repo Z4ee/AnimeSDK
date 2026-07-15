@@ -8,13 +8,13 @@ namespace RPG::GameCore { class TargetEvaluator; }
 namespace RPG::GameCore { class VCameraConfig; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_VCAMERACONFIGCHANGE_METHOD_3_4134187906C32F3C_OFFSET UNITYSDK_OFFSET(0x19E3D9A0)
-#define RPG_GAMECORE_VCAMERACONFIGCHANGE_METHOD_3_F65C54B5219F931E_OFFSET UNITYSDK_OFFSET(0x19E3DB70)
-#define RPG_GAMECORE_VCAMERACONFIGCHANGE__CTOR_OFFSET UNITYSDK_OFFSET(0x19E3DB40)
+#define RPG_GAMECORE_VCAMERACONFIGCHANGE_METHOD_3_267D18E754F53CCE_OFFSET UNITYSDK_OFFSET(0x1B88A5B0)
+#define RPG_GAMECORE_VCAMERACONFIGCHANGE_METHOD_3_F65C54B5219F931E_OFFSET UNITYSDK_OFFSET(0x1B88A710)
+#define RPG_GAMECORE_VCAMERACONFIGCHANGE__CTOR_OFFSET UNITYSDK_OFFSET(0x1B88A700)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int VCameraConfigChange_TypeDefinitionIndex = 22425;
+	inline static constexpr unsigned int VCameraConfigChange_TypeDefinitionIndex = 22874;
 
 	class VCameraConfigChange : public ::RPG::GameCore::TaskConfig
 	{
@@ -31,9 +31,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_VCAMERACONFIGCHANGE__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_4134187906C32F3C(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::VCameraConfigChange*& a2)
+		static ::System::Void Method_3_267D18E754F53CCE(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::VCameraConfigChange*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::VCameraConfigChange*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_VCAMERACONFIGCHANGE_METHOD_3_4134187906C32F3C_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::VCameraConfigChange*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_VCAMERACONFIGCHANGE_METHOD_3_267D18E754F53CCE_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_F65C54B5219F931E(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::VCameraConfigChange* a2)

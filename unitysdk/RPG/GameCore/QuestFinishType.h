@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int QuestFinishType_TypeDefinitionIndex = 10057;
+	inline static constexpr unsigned int QuestFinishType_TypeDefinitionIndex = 10072;
 
 	enum class QuestFinishType : ::System::Int32
 	{
@@ -923,5 +923,53 @@ namespace RPG::GameCore
 		PixAirTotalScore = 430018,
 		GroupPropertyValueIgnoreVerse = 430030,
 		FloorSavedValueIgnoreVerse = 430031,
+		TeamTowersFinishPveStage = 440000,
+		TeamTowersUpToLevel = 440001,
+		TeamTowersGetSkillCnt = 440002,
+		TeamTowersUseSkill = 440003,
+		TeamTowersHeightLineCnt = 440004,
+		TeamTowersFinishStage = 440005,
+		GridFightTraitRoleTotalStar = 440006,
+		GridFightRefreshShopCntWithRole = 440007,
+		GridFightDressDifferentEquipWithRole = 440008,
+		GridFightBattleNoRoleDied = 440009,
+		GridFightEnterNodeLevel = 440010,
+		GridFightEliteBranchBattle = 440011,
+		GridFightBuyExpNum = 440012,
+		GridFightKeepWinWithProgress = 440013,
+		GridFightTraitAfterBattleWithProgress = 440014,
+		GridFightSubGlobalHp = 440015,
+		GridFightBattleAvatarNum = 440016,
+		GridFightCurCoinNum = 440017,
+		GridFightEquipNumInEquipArea = 440018,
+		GridFightBattleNotPerfectWinCnt = 440019,
+		GridFightGlobalHpUnderValue = 440020,
+		GridFightAllRoleDressEquipsInBattle = 440021,
+		GridFightDressEquipCastUltraSkillCnt = 440022,
+		GridFightDressEquipFinishBattleCnt = 440023,
+		GridFightDressEquipSubStarNum = 440024,
+		GridFightRoleAdditionalProperty = 440025,
+		GridFightRoleTopDamage = 440026,
+		TeamTowersFinishEndlessMode = 440027,
+		TeamTowersAllStageStar = 440028,
+		TeamTowersSingleStageUseSkill = 440029,
+		GridFightBattleDiffPartner = 440030,
+		GridFightEnterBattleWithDiffEquip = 440031,
+		GridFightAddDiffNpc = 440032,
+		GridFightSettleKeepWin = 440033,
+		GridFightSettleWithoutBackRole = 440034,
+		GridFightFinishPrayQuestNum = 440035,
+		GridFightSettleBattleCnt = 440036,
+		GridFightSubCoinCnt = 440037,
+		GridFightRecycleRoleByCondition = 440038,
+		GridFightEnterBattleWithEquip = 440039,
+		GridFightFinishPrayQuest = 440040,
+		GridFightSettleWithEquipList = 440041,
+		GridFightDressEquipByCategory = 440042,
+		RealFinishMainMission = 440043,
+		RealFinishSubMission = 440044,
+		GridFightBattleWithRoleAndStar = 440045,
+		FateRinFinishFight = 440500,
+		FateRinFinishChallengeFightWithBuffLevel = 440501,
 	};
 }

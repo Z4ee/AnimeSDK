@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore::Match3
 {
-	inline static constexpr unsigned int ActionRole_TypeDefinitionIndex = 23521;
+	inline static constexpr unsigned int ActionRole_TypeDefinitionIndex = 24010;
 
 	enum class ActionRole : ::System::Int32
 	{

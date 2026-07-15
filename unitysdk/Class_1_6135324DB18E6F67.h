@@ -10,23 +10,23 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine { class Transform; }
 
-#define CLASS_1_6135324DB18E6F67_DISPOSE_OFFSET UNITYSDK_OFFSET(0x13690FE0)
-#define CLASS_1_6135324DB18E6F67_METHOD_1_25BB49F51A3018E8_OFFSET UNITYSDK_OFFSET(0x13690930)
-#define CLASS_1_6135324DB18E6F67_METHOD_1_CA373AA1C7054598_OFFSET UNITYSDK_OFFSET(0x136908F0)
-#define CLASS_1_6135324DB18E6F67_METHOD_1_CA6BDDCC5F7CE11E_OFFSET UNITYSDK_OFFSET(0x13690F50)
-#define CLASS_1_6135324DB18E6F67_METHOD_1_D40CDB84B43A4CE0_OFFSET UNITYSDK_OFFSET(0x13690980)
-#define CLASS_1_6135324DB18E6F67__CTOR_OFFSET UNITYSDK_OFFSET(0x136906E0)
+#define CLASS_1_6135324DB18E6F67_DISPOSE_OFFSET UNITYSDK_OFFSET(0x171DEBE0)
+#define CLASS_1_6135324DB18E6F67_METHOD_1_1D44F502338E9435_OFFSET UNITYSDK_OFFSET(0x171DE400)
+#define CLASS_1_6135324DB18E6F67_METHOD_1_3E113CA4DD9458DF_OFFSET UNITYSDK_OFFSET(0x171DE450)
+#define CLASS_1_6135324DB18E6F67_METHOD_1_8C4AEC0BC1CA0CB4_OFFSET UNITYSDK_OFFSET(0x171DEAF0)
+#define CLASS_1_6135324DB18E6F67_METHOD_1_CA373AA1C7054598_OFFSET UNITYSDK_OFFSET(0x171DE3C0)
+#define CLASS_1_6135324DB18E6F67__CTOR_OFFSET UNITYSDK_OFFSET(0x171DE1B0)
 
-inline static constexpr unsigned int Class_1_6135324DB18E6F67_TypeDefinitionIndex = 72989;
+inline static constexpr unsigned int Class_1_6135324DB18E6F67_TypeDefinitionIndex = 74514;
 
 class Class_1_6135324DB18E6F67 : public ::System::Object
 {
 public:
-	::System::Collections::Generic::Dictionary_2<::RPG::Client::Prop::ChimeraPreparationState, ::RPG::Client::Prop::ChimeraPreparationStateControllerBase*>* Field_1_0; // 0x10
-	::RPG::Client::Prop::ChimeraPreparationStateControllerBase* Field_1_1; // 0x18
-	::System::Collections::Generic::Dictionary_2<::RPG::Client::Prop::ChimeraPreparationState, ::UnityEngine::GameObject*>* Field_1_2; // 0x20
+	::System::Collections::Generic::Dictionary_2<::RPG::Client::Prop::ChimeraPreparationState, ::UnityEngine::GameObject*>* Field_1_0; // 0x10
+	::Class_1_9C1673530BBC4E15* Field_1_1; // 0x18
+	::RPG::Client::Prop::ChimeraPreparationStateControllerBase* Field_1_2; // 0x20
 	::UnityEngine::Transform* Field_1_3; // 0x28
-	::Class_1_9C1673530BBC4E15* Field_1_4; // 0x30
+	::System::Collections::Generic::Dictionary_2<::RPG::Client::Prop::ChimeraPreparationState, ::RPG::Client::Prop::ChimeraPreparationStateControllerBase*>* Field_1_4; // 0x30
 
 	::System::Void _ctor(::System::Collections::Generic::List_1<::UnityEngine::GameObject*>* a1, ::UnityEngine::Transform* a2, ::Class_1_9C1673530BBC4E15* a3)
 	{
@@ -38,19 +38,19 @@ public:
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_6135324DB18E6F67_METHOD_1_CA373AA1C7054598_OFFSET))(this);
 	}
 
-	::System::Void Method_1_25BB49F51A3018E8(::RPG::Client::Prop::ChimeraPreparationState a1)
+	::System::Void Method_1_1D44F502338E9435(::RPG::Client::Prop::ChimeraPreparationState a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::RPG::Client::Prop::ChimeraPreparationState))((::PBYTE)hIl2Cpp + CLASS_1_6135324DB18E6F67_METHOD_1_25BB49F51A3018E8_OFFSET))(this, a1);
+		return ((::System::Void(*)(::PVOID, ::RPG::Client::Prop::ChimeraPreparationState))((::PBYTE)hIl2Cpp + CLASS_1_6135324DB18E6F67_METHOD_1_1D44F502338E9435_OFFSET))(this, a1);
 	}
 
-	::System::Void Method_1_CA6BDDCC5F7CE11E(::System::Single a1)
+	::System::Void Method_1_8C4AEC0BC1CA0CB4(::System::Single a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + CLASS_1_6135324DB18E6F67_METHOD_1_CA6BDDCC5F7CE11E_OFFSET))(this, a1);
+		return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + CLASS_1_6135324DB18E6F67_METHOD_1_8C4AEC0BC1CA0CB4_OFFSET))(this, a1);
 	}
 
-	::System::Void Method_1_D40CDB84B43A4CE0(::RPG::Client::Prop::ChimeraPreparationState a1)
+	::System::Void Method_1_3E113CA4DD9458DF(::RPG::Client::Prop::ChimeraPreparationState a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::RPG::Client::Prop::ChimeraPreparationState))((::PBYTE)hIl2Cpp + CLASS_1_6135324DB18E6F67_METHOD_1_D40CDB84B43A4CE0_OFFSET))(this, a1);
+		return ((::System::Void(*)(::PVOID, ::RPG::Client::Prop::ChimeraPreparationState))((::PBYTE)hIl2Cpp + CLASS_1_6135324DB18E6F67_METHOD_1_3E113CA4DD9458DF_OFFSET))(this, a1);
 	}
 
 	::System::Void Dispose()

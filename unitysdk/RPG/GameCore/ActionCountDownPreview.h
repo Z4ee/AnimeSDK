@@ -5,13 +5,13 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_ACTIONCOUNTDOWNPREVIEW_METHOD_3_6524D7D3ABE9A225_OFFSET UNITYSDK_OFFSET(0x193CA9C0)
-#define RPG_GAMECORE_ACTIONCOUNTDOWNPREVIEW_METHOD_3_7A6AA11A9D2740E6_OFFSET UNITYSDK_OFFSET(0x193CA940)
-#define RPG_GAMECORE_ACTIONCOUNTDOWNPREVIEW__CTOR_OFFSET UNITYSDK_OFFSET(0x193CA990)
+#define RPG_GAMECORE_ACTIONCOUNTDOWNPREVIEW_METHOD_3_6524D7D3ABE9A225_OFFSET UNITYSDK_OFFSET(0x1B9FE160)
+#define RPG_GAMECORE_ACTIONCOUNTDOWNPREVIEW_METHOD_3_ED88D2ED5900CA70_OFFSET UNITYSDK_OFFSET(0x1B9FE120)
+#define RPG_GAMECORE_ACTIONCOUNTDOWNPREVIEW__CTOR_OFFSET UNITYSDK_OFFSET(0x1B9FE150)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ActionCountDownPreview_TypeDefinitionIndex = 22399;
+	inline static constexpr unsigned int ActionCountDownPreview_TypeDefinitionIndex = 22841;
 
 	class ActionCountDownPreview : public ::RPG::GameCore::TaskConfig
 	{
@@ -24,9 +24,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ACTIONCOUNTDOWNPREVIEW__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_7A6AA11A9D2740E6(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ActionCountDownPreview*& a2)
+		static ::System::Void Method_3_ED88D2ED5900CA70(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ActionCountDownPreview*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ActionCountDownPreview*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ACTIONCOUNTDOWNPREVIEW_METHOD_3_7A6AA11A9D2740E6_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ActionCountDownPreview*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ACTIONCOUNTDOWNPREVIEW_METHOD_3_ED88D2ED5900CA70_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_6524D7D3ABE9A225(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ActionCountDownPreview* a2)

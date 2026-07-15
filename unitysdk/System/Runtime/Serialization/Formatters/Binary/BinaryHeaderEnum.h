@@ -3,7 +3,7 @@
 
 namespace System::Runtime::Serialization::Formatters::Binary
 {
-	inline static constexpr unsigned int BinaryHeaderEnum_TypeDefinitionIndex = 1157;
+	inline static constexpr unsigned int BinaryHeaderEnum_TypeDefinitionIndex = 1159;
 
 	enum class BinaryHeaderEnum : ::System::Int32
 	{

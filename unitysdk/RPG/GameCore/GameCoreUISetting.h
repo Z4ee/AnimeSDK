@@ -22,12 +22,12 @@ namespace RPG::GameCore { class UIPanelGroup; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_GAMECOREUISETTING_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x197BD370)
-#define RPG_GAMECORE_GAMECOREUISETTING__CTOR_OFFSET UNITYSDK_OFFSET(0x197C8960)
+#define RPG_GAMECORE_GAMECOREUISETTING_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B995AC0)
+#define RPG_GAMECORE_GAMECOREUISETTING__CTOR_OFFSET UNITYSDK_OFFSET(0x1B9A10F0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int GameCoreUISetting_TypeDefinitionIndex = 16272;
+	inline static constexpr unsigned int GameCoreUISetting_TypeDefinitionIndex = 16456;
 
 	class GameCoreUISetting : public ::RPG::GameCore::JsonConfig
 	{
@@ -70,64 +70,65 @@ namespace RPG::GameCore
 		::RPG::Client::TextID SkillButtonSPNotEnoughTextID; // 0x118
 		::RPG::Client::TextID SkillButtonNoTargetTextID; // 0x128
 		::RPG::Client::TextID SkillButtonDisableTextID; // 0x138
-		::RPG::MVector3 SkillInfoOffset01; // 0x148
-		::RPG::MVector3 SkillInfoOffset02; // 0x154
-		::RPG::MVector3 SkillInfoOffset03; // 0x160
-		::RPG::MVector3 SkillInfoOffset04; // 0x16C
-		::RPG::MVector3 SkillInfoOffset05; // 0x178
-		::RPG::MVector3 SkillInfoOffset06; // 0x184
-		::RPG::MVector3 TeamSkillInfoOffset01; // 0x190
-		::RPG::MVector3 TeamSkillInfoOffset02; // 0x19C
-		::RPG::MVector3 TeamSkillInfoOffset03; // 0x1A8
-		::RPG::MVector3 TeamSkillInfoOffset04; // 0x1B4
-		::RPG::MVector3 ColossusSkillInfoOffset; // 0x1C0
-		::RPG::MVector3 CharacterHUDOffsetDefault; // 0x1CC
-		::System::Single JoystickWalkRange; // 0x1D8
-		::System::Single PlayerFootprintSpawnInterval; // 0x1DC
-		::System::Single PlayerFootprintLifetime; // 0x1E0
-		::System::String* PlayerFootprintPath; // 0x1E8
-		::System::Collections::Generic::Dictionary_2<::RPG::Client::TextID, ::System::String*>* SkillTypeColor; // 0x1F0
-		::System::Single HPBarCameraOffsetYFar; // 0x1F8
-		::System::Single HPBarCameraOffsetYNear; // 0x1FC
-		::System::Single HPBarCameraDistanceMax; // 0x200
-		::System::Single HPBarCameraDistanceMin; // 0x204
-		::System::Single ShowBuffGapTime; // 0x208
-		::System::Single ShowBuffDamageTextGapTime; // 0x20C
-		::System::Boolean CheckUIFollow3DTargetVisibility; // 0x210
-		::System::Single DelayTextShowDuration; // 0x214
-		::System::String* MinimapMapCirclePrefabPath; // 0x218
-		::System::String* MinimapMapBackgroundPrefabPath; // 0x220
-		::System::String* MinimapMapTraceMissionEffectPath; // 0x228
-		::System::Single AnchorWaypointHeight; // 0x230
-		::System::String* WaypointTargetAttachPoint; // 0x238
-		::System::Single WaypointAttachPointOffset; // 0x240
-		::System::Collections::Generic::Dictionary_2<::RPG::GameCore::AttackDamageType, ::System::String*>* AttackDamageTypeToEnergyBarDot; // 0x248
-		::System::Collections::Generic::Dictionary_2<::RPG::GameCore::AttackDamageType, ::System::String*>* AttackDamageTypeToSummonerEnergyBarDot; // 0x250
-		::System::Collections::Generic::Dictionary_2<::RPG::GameCore::AttackDamageType, ::System::String*>* AttackDamageTypeToUltraFrameColor; // 0x258
-		::System::Collections::Generic::Dictionary_2<::RPG::GameCore::AttackDamageType, ::System::String*>* AttackDamageTypeToEnhancePrefab; // 0x260
-		::RPG::GameCore::ActionBarStyleSizeSetting* ActionBarStyleSize; // 0x268
-		::System::Single ActionBarHorizontalSpace; // 0x270
-		::System::Single ActionBarVerticalSpace; // 0x274
-		::RPG::MVector2 TargetPreviewSize; // 0x278
-		::System::Single TargetPreviewMoveTimeLength; // 0x280
-		::System::Single HpRedRatio; // 0x284
-		::System::Single DotDamageOutline1Width; // 0x288
-		::System::String* HPHurtColor; // 0x290
-		::System::String* HPHealColor; // 0x298
-		::System::Collections::Generic::Dictionary_2<::RPG::GameCore::EnumStatusType, ::RPG::Client::TextID>* DispelStatusTypeToTextID; // 0x2A0
-		::System::Collections::Generic::Dictionary_2<::RPG::GameCore::EnumStatusType, ::RPG::Client::TextID>* ResistStatusTypeToTextID; // 0x2A8
-		::RPG::GameCore::RedModeStanceBarSetting* RedModeStanceBarSetting; // 0x2B0
-		::RPG::GameCore::PluralityStanceBarSetting* PluralityStanceBarSetting; // 0x2B8
-		::RPG::GameCore::PluralityHPBarSetting* PluralityHPBarSetting; // 0x2C0
-		::System::Collections::Generic::Dictionary_2<::RPG::GameCore::AttackDamageType, ::System::String*>* AttackDamageTypeToEnergyBarColor; // 0x2C8
-		::Il2CppArray<::RPG::GameCore::ModifierDestroyTextInfo*>* ModifierDestroyTextID; // 0x2D0
-		::System::Collections::Generic::Dictionary_2<::System::String*, ::RPG::GameCore::UIPanelGroup*>* UIPanelGroups; // 0x2D8
-		::System::Single HPRefreshMaxInterval; // 0x2E0
-		::Il2CppArray<::RPG::GameCore::StageType>* GlobalBuffBtnStageTypeBlackList; // 0x2E8
-		::RPG::GameCore::MonsterEnergyBarNumColorSetting* MonsterEnergyBarNumColorSetting; // 0x2F0
-		::System::UInt32 MaxShowBPCount; // 0x2F8
-		::RPG::GameCore::DamageTextPoolMaxSizeOfGraphicsQuality* DamageTextPoolMaxSize; // 0x300
-		::RPG::GameCore::ElationLevelSetting* ElationLevelSetting; // 0x308
+		::RPG::Client::TextID SkillButtonAssistSkillNotEnoughEnergyTextID; // 0x148
+		::RPG::MVector3 SkillInfoOffset01; // 0x158
+		::RPG::MVector3 SkillInfoOffset02; // 0x164
+		::RPG::MVector3 SkillInfoOffset03; // 0x170
+		::RPG::MVector3 SkillInfoOffset04; // 0x17C
+		::RPG::MVector3 SkillInfoOffset05; // 0x188
+		::RPG::MVector3 SkillInfoOffset06; // 0x194
+		::RPG::MVector3 TeamSkillInfoOffset01; // 0x1A0
+		::RPG::MVector3 TeamSkillInfoOffset02; // 0x1AC
+		::RPG::MVector3 TeamSkillInfoOffset03; // 0x1B8
+		::RPG::MVector3 TeamSkillInfoOffset04; // 0x1C4
+		::RPG::MVector3 ColossusSkillInfoOffset; // 0x1D0
+		::RPG::MVector3 CharacterHUDOffsetDefault; // 0x1DC
+		::System::Single JoystickWalkRange; // 0x1E8
+		::System::Single PlayerFootprintSpawnInterval; // 0x1EC
+		::System::Single PlayerFootprintLifetime; // 0x1F0
+		::System::String* PlayerFootprintPath; // 0x1F8
+		::System::Collections::Generic::Dictionary_2<::RPG::Client::TextID, ::System::String*>* SkillTypeColor; // 0x200
+		::System::Single HPBarCameraOffsetYFar; // 0x208
+		::System::Single HPBarCameraOffsetYNear; // 0x20C
+		::System::Single HPBarCameraDistanceMax; // 0x210
+		::System::Single HPBarCameraDistanceMin; // 0x214
+		::System::Single ShowBuffGapTime; // 0x218
+		::System::Single ShowBuffDamageTextGapTime; // 0x21C
+		::System::Boolean CheckUIFollow3DTargetVisibility; // 0x220
+		::System::Single DelayTextShowDuration; // 0x224
+		::System::String* MinimapMapCirclePrefabPath; // 0x228
+		::System::String* MinimapMapBackgroundPrefabPath; // 0x230
+		::System::String* MinimapMapTraceMissionEffectPath; // 0x238
+		::System::Single AnchorWaypointHeight; // 0x240
+		::System::String* WaypointTargetAttachPoint; // 0x248
+		::System::Single WaypointAttachPointOffset; // 0x250
+		::System::Collections::Generic::Dictionary_2<::RPG::GameCore::AttackDamageType, ::System::String*>* AttackDamageTypeToEnergyBarDot; // 0x258
+		::System::Collections::Generic::Dictionary_2<::RPG::GameCore::AttackDamageType, ::System::String*>* AttackDamageTypeToSummonerEnergyBarDot; // 0x260
+		::System::Collections::Generic::Dictionary_2<::RPG::GameCore::AttackDamageType, ::System::String*>* AttackDamageTypeToUltraFrameColor; // 0x268
+		::System::Collections::Generic::Dictionary_2<::RPG::GameCore::AttackDamageType, ::System::String*>* AttackDamageTypeToEnhancePrefab; // 0x270
+		::RPG::GameCore::ActionBarStyleSizeSetting* ActionBarStyleSize; // 0x278
+		::System::Single ActionBarHorizontalSpace; // 0x280
+		::System::Single ActionBarVerticalSpace; // 0x284
+		::RPG::MVector2 TargetPreviewSize; // 0x288
+		::System::Single TargetPreviewMoveTimeLength; // 0x290
+		::System::Single HpRedRatio; // 0x294
+		::System::Single DotDamageOutline1Width; // 0x298
+		::System::String* HPHurtColor; // 0x2A0
+		::System::String* HPHealColor; // 0x2A8
+		::System::Collections::Generic::Dictionary_2<::RPG::GameCore::EnumStatusType, ::RPG::Client::TextID>* DispelStatusTypeToTextID; // 0x2B0
+		::System::Collections::Generic::Dictionary_2<::RPG::GameCore::EnumStatusType, ::RPG::Client::TextID>* ResistStatusTypeToTextID; // 0x2B8
+		::RPG::GameCore::RedModeStanceBarSetting* RedModeStanceBarSetting; // 0x2C0
+		::RPG::GameCore::PluralityStanceBarSetting* PluralityStanceBarSetting; // 0x2C8
+		::RPG::GameCore::PluralityHPBarSetting* PluralityHPBarSetting; // 0x2D0
+		::System::Collections::Generic::Dictionary_2<::RPG::GameCore::AttackDamageType, ::System::String*>* AttackDamageTypeToEnergyBarColor; // 0x2D8
+		::Il2CppArray<::RPG::GameCore::ModifierDestroyTextInfo*>* ModifierDestroyTextID; // 0x2E0
+		::System::Collections::Generic::Dictionary_2<::System::String*, ::RPG::GameCore::UIPanelGroup*>* UIPanelGroups; // 0x2E8
+		::System::Single HPRefreshMaxInterval; // 0x2F0
+		::Il2CppArray<::RPG::GameCore::StageType>* GlobalBuffBtnStageTypeBlackList; // 0x2F8
+		::RPG::GameCore::MonsterEnergyBarNumColorSetting* MonsterEnergyBarNumColorSetting; // 0x300
+		::System::UInt32 MaxShowBPCount; // 0x308
+		::RPG::GameCore::DamageTextPoolMaxSizeOfGraphicsQuality* DamageTextPoolMaxSize; // 0x310
+		::RPG::GameCore::ElationLevelSetting* ElationLevelSetting; // 0x318
 
 		::System::Void _ctor()
 		{

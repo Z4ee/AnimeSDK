@@ -6,13 +6,13 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class DynamicFloat; }
 namespace RPG::GameCore { class TargetEvaluator; }
 
-#define RPG_GAMECORE_SCALEPROPBYCOLLECTIONPROGRESS_METHOD_3_6B6614D9C7D13AAF_OFFSET UNITYSDK_OFFSET(0x19C1CE20)
-#define RPG_GAMECORE_SCALEPROPBYCOLLECTIONPROGRESS_METHOD_3_DE8F228A58A47DA6_OFFSET UNITYSDK_OFFSET(0x19C1CCA0)
-#define RPG_GAMECORE_SCALEPROPBYCOLLECTIONPROGRESS__CTOR_OFFSET UNITYSDK_OFFSET(0x19C1CD70)
+#define RPG_GAMECORE_SCALEPROPBYCOLLECTIONPROGRESS_METHOD_3_5CE4F1FC600B848F_OFFSET UNITYSDK_OFFSET(0x1C2C6D70)
+#define RPG_GAMECORE_SCALEPROPBYCOLLECTIONPROGRESS_METHOD_3_6B6614D9C7D13AAF_OFFSET UNITYSDK_OFFSET(0x1C2C6ED0)
+#define RPG_GAMECORE_SCALEPROPBYCOLLECTIONPROGRESS__CTOR_OFFSET UNITYSDK_OFFSET(0x1C2C6E30)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ScalePropByCollectionProgress_TypeDefinitionIndex = 19275;
+	inline static constexpr unsigned int ScalePropByCollectionProgress_TypeDefinitionIndex = 19631;
 
 	class ScalePropByCollectionProgress : public ::RPG::GameCore::TaskConfig
 	{
@@ -26,9 +26,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SCALEPROPBYCOLLECTIONPROGRESS__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_DE8F228A58A47DA6(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ScalePropByCollectionProgress*& a2)
+		static ::System::Void Method_3_5CE4F1FC600B848F(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ScalePropByCollectionProgress*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ScalePropByCollectionProgress*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SCALEPROPBYCOLLECTIONPROGRESS_METHOD_3_DE8F228A58A47DA6_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ScalePropByCollectionProgress*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SCALEPROPBYCOLLECTIONPROGRESS_METHOD_3_5CE4F1FC600B848F_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_6B6614D9C7D13AAF(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ScalePropByCollectionProgress* a2)

@@ -4,13 +4,13 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_SHUFFLETARGETLIST_METHOD_3_0ABA3081DE54F4E7_OFFSET UNITYSDK_OFFSET(0x19C87AE0)
-#define RPG_GAMECORE_SHUFFLETARGETLIST_METHOD_3_15ECC69324E34FDB_OFFSET UNITYSDK_OFFSET(0x19C87BF0)
-#define RPG_GAMECORE_SHUFFLETARGETLIST__CTOR_OFFSET UNITYSDK_OFFSET(0x19C87BC0)
+#define RPG_GAMECORE_SHUFFLETARGETLIST_METHOD_3_15ECC69324E34FDB_OFFSET UNITYSDK_OFFSET(0x1BE4B110)
+#define RPG_GAMECORE_SHUFFLETARGETLIST_METHOD_3_35308AC66824C4DE_OFFSET UNITYSDK_OFFSET(0x1BE4B040)
+#define RPG_GAMECORE_SHUFFLETARGETLIST__CTOR_OFFSET UNITYSDK_OFFSET(0x1BE4B100)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ShuffleTargetList_TypeDefinitionIndex = 21242;
+	inline static constexpr unsigned int ShuffleTargetList_TypeDefinitionIndex = 21657;
 
 	class ShuffleTargetList : public ::RPG::GameCore::TaskConfig
 	{
@@ -20,9 +20,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SHUFFLETARGETLIST__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_0ABA3081DE54F4E7(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ShuffleTargetList*& a2)
+		static ::System::Void Method_3_35308AC66824C4DE(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ShuffleTargetList*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ShuffleTargetList*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SHUFFLETARGETLIST_METHOD_3_0ABA3081DE54F4E7_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ShuffleTargetList*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SHUFFLETARGETLIST_METHOD_3_35308AC66824C4DE_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_15ECC69324E34FDB(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ShuffleTargetList* a2)

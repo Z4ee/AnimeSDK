@@ -4,7 +4,7 @@
 
 namespace System::Xml::Schema
 {
-	inline static constexpr unsigned int BaseValidator_TypeDefinitionIndex = 2051;
+	inline static constexpr unsigned int BaseValidator_TypeDefinitionIndex = 2055;
 
 	class BaseValidator : public ::System::Object
 	{

@@ -3,7 +3,7 @@
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int FormatFlags_TypeDefinitionIndex = 5016;
+	inline static constexpr unsigned int FormatFlags_TypeDefinitionIndex = 5021;
 
 	enum class FormatFlags : ::System::Int32
 	{

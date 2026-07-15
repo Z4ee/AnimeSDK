@@ -7,7 +7,7 @@ namespace ZLinq::Linq { template <typename T1, typename T2> class Grouping_2; }
 
 namespace ZLinq::Linq
 {
-	inline static constexpr unsigned int LookupBuilder_2_TypeDefinitionIndex = 6381;
+	inline static constexpr unsigned int LookupBuilder_2_TypeDefinitionIndex = 6386;
 
 	template <typename TKey, typename TElement>
 	struct LookupBuilder_2

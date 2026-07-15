@@ -11,45 +11,45 @@ namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Concurrent { template <typename T1, typename T2> class ConcurrentDictionary_2; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_ROGUENOUSDIFFICULTYLEVELEXCELTABLE_GETDATA_OFFSET UNITYSDK_OFFSET(0x19BA4300)
-#define RPG_GAMECORE_ROGUENOUSDIFFICULTYLEVELEXCELTABLE_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x19BA4190)
-#define RPG_GAMECORE_ROGUENOUSDIFFICULTYLEVELEXCELTABLE_GET_DATADICT_OFFSET UNITYSDK_OFFSET(0x19BA3E80)
-#define RPG_GAMECORE_ROGUENOUSDIFFICULTYLEVELEXCELTABLE_ISDATAEMPTY_OFFSET UNITYSDK_OFFSET(0x19BA4130)
-#define RPG_GAMECORE_ROGUENOUSDIFFICULTYLEVELEXCELTABLE_ISDATALOADED_OFFSET UNITYSDK_OFFSET(0x19BA4490)
-#define RPG_GAMECORE_ROGUENOUSDIFFICULTYLEVELEXCELTABLE_LOADDATA_OFFSET UNITYSDK_OFFSET(0x19BA3F00)
-#define RPG_GAMECORE_ROGUENOUSDIFFICULTYLEVELEXCELTABLE_UNLOADDATA_OFFSET UNITYSDK_OFFSET(0x19BA44D0)
-#define RPG_GAMECORE_ROGUENOUSDIFFICULTYLEVELEXCELTABLE__ADDITEMFROMBINARY_OFFSET UNITYSDK_OFFSET(0x19BA46A0)
-#define RPG_GAMECORE_ROGUENOUSDIFFICULTYLEVELEXCELTABLE__ADDITEM_OFFSET UNITYSDK_OFFSET(0x19BA4990)
-#define RPG_GAMECORE_ROGUENOUSDIFFICULTYLEVELEXCELTABLE__CCTOR_OFFSET UNITYSDK_OFFSET(0x19BA4D00)
-#define RPG_GAMECORE_ROGUENOUSDIFFICULTYLEVELEXCELTABLE__LOADDATAINCREMENTIAL_OFFSET UNITYSDK_OFFSET(0x19BA4600)
-#define RPG_GAMECORE_ROGUENOUSDIFFICULTYLEVELEXCELTABLE__LOADDATA_OFFSET UNITYSDK_OFFSET(0x19BA4560)
+#define RPG_GAMECORE_ROGUENOUSDIFFICULTYLEVELEXCELTABLE_GETDATA_OFFSET UNITYSDK_OFFSET(0x1D16D4D0)
+#define RPG_GAMECORE_ROGUENOUSDIFFICULTYLEVELEXCELTABLE_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x1D16D360)
+#define RPG_GAMECORE_ROGUENOUSDIFFICULTYLEVELEXCELTABLE_GET_DATADICT_OFFSET UNITYSDK_OFFSET(0x1D16D050)
+#define RPG_GAMECORE_ROGUENOUSDIFFICULTYLEVELEXCELTABLE_ISDATAEMPTY_OFFSET UNITYSDK_OFFSET(0x1D16D300)
+#define RPG_GAMECORE_ROGUENOUSDIFFICULTYLEVELEXCELTABLE_ISDATALOADED_OFFSET UNITYSDK_OFFSET(0x1D16D660)
+#define RPG_GAMECORE_ROGUENOUSDIFFICULTYLEVELEXCELTABLE_LOADDATA_OFFSET UNITYSDK_OFFSET(0x1D16D0D0)
+#define RPG_GAMECORE_ROGUENOUSDIFFICULTYLEVELEXCELTABLE_UNLOADDATA_OFFSET UNITYSDK_OFFSET(0x1D16D6A0)
+#define RPG_GAMECORE_ROGUENOUSDIFFICULTYLEVELEXCELTABLE__ADDITEMFROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D16D870)
+#define RPG_GAMECORE_ROGUENOUSDIFFICULTYLEVELEXCELTABLE__ADDITEM_OFFSET UNITYSDK_OFFSET(0x1D16DB60)
+#define RPG_GAMECORE_ROGUENOUSDIFFICULTYLEVELEXCELTABLE__CCTOR_OFFSET UNITYSDK_OFFSET(0x1D16DED0)
+#define RPG_GAMECORE_ROGUENOUSDIFFICULTYLEVELEXCELTABLE__LOADDATAINCREMENTIAL_OFFSET UNITYSDK_OFFSET(0x1D16D7D0)
+#define RPG_GAMECORE_ROGUENOUSDIFFICULTYLEVELEXCELTABLE__LOADDATA_OFFSET UNITYSDK_OFFSET(0x1D16D730)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RogueNousDifficultyLevelExcelTable_TypeDefinitionIndex = 14198;
+	inline static constexpr unsigned int RogueNousDifficultyLevelExcelTable_TypeDefinitionIndex = 14346;
 
 	class RogueNousDifficultyLevelExcelTable : public ::System::Object
 	{
 	public:
 		static ::System::Action_1<::Class_1_7A22A3DBEEDD1F80*>** StaticGet__AddItemFromBinary_ActionInst()
 		{
-			return (::System::Action_1<::Class_1_7A22A3DBEEDD1F80*>**)Il2CppClass::FromTypeDefinitionIndex(RogueNousDifficultyLevelExcelTable_TypeDefinitionIndex)->GetStaticField(0x46D40);
+			return (::System::Action_1<::Class_1_7A22A3DBEEDD1F80*>**)Il2CppClass::FromTypeDefinitionIndex(RogueNousDifficultyLevelExcelTable_TypeDefinitionIndex)->GetStaticField(0x4F280);
 		}
 		static ::Il2CppArray<::System::String*>** StaticGet_s_PathList()
 		{
-			return (::Il2CppArray<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(RogueNousDifficultyLevelExcelTable_TypeDefinitionIndex)->GetStaticField(0x46D48);
+			return (::Il2CppArray<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(RogueNousDifficultyLevelExcelTable_TypeDefinitionIndex)->GetStaticField(0x4F288);
 		}
 		static ::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::RogueNousDifficultyLevelRow*>** StaticGet_dataDict_()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::RogueNousDifficultyLevelRow*>**)Il2CppClass::FromTypeDefinitionIndex(RogueNousDifficultyLevelExcelTable_TypeDefinitionIndex)->GetStaticField(0x46D50);
+			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::RogueNousDifficultyLevelRow*>**)Il2CppClass::FromTypeDefinitionIndex(RogueNousDifficultyLevelExcelTable_TypeDefinitionIndex)->GetStaticField(0x4F290);
 		}
 		static ::System::Boolean* StaticGet_isDataLoaded()
 		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(RogueNousDifficultyLevelExcelTable_TypeDefinitionIndex)->GetStaticField(0xCDA0);
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(RogueNousDifficultyLevelExcelTable_TypeDefinitionIndex)->GetStaticField(0xE380);
 		}
 		static ::System::Byte* StaticGet_HashIndex()
 		{
-			return (::System::Byte*)Il2CppClass::FromTypeDefinitionIndex(RogueNousDifficultyLevelExcelTable_TypeDefinitionIndex)->GetStaticField(0xCDA1);
+			return (::System::Byte*)Il2CppClass::FromTypeDefinitionIndex(RogueNousDifficultyLevelExcelTable_TypeDefinitionIndex)->GetStaticField(0xE381);
 		}
 
 		static ::System::Void _cctor()

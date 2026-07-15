@@ -6,13 +6,13 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class PropDestructItem; }
 namespace RPG::GameCore { class PropStateItem; }
 
-#define RPG_GAMECORE_RESETALLPUZZLESTATESCLIENTONLY_METHOD_3_75D30B1646B903D7_OFFSET UNITYSDK_OFFSET(0x19ACE0C0)
-#define RPG_GAMECORE_RESETALLPUZZLESTATESCLIENTONLY_METHOD_3_964181E194A94DD6_OFFSET UNITYSDK_OFFSET(0x19ACE140)
-#define RPG_GAMECORE_RESETALLPUZZLESTATESCLIENTONLY__CTOR_OFFSET UNITYSDK_OFFSET(0x19ACE110)
+#define RPG_GAMECORE_RESETALLPUZZLESTATESCLIENTONLY_METHOD_3_07B8DD014FCD9563_OFFSET UNITYSDK_OFFSET(0x1D01AC80)
+#define RPG_GAMECORE_RESETALLPUZZLESTATESCLIENTONLY_METHOD_3_964181E194A94DD6_OFFSET UNITYSDK_OFFSET(0x1D01ACC0)
+#define RPG_GAMECORE_RESETALLPUZZLESTATESCLIENTONLY__CTOR_OFFSET UNITYSDK_OFFSET(0x1D01ACB0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ResetAllPuzzleStatesClientOnly_TypeDefinitionIndex = 20036;
+	inline static constexpr unsigned int ResetAllPuzzleStatesClientOnly_TypeDefinitionIndex = 20408;
 
 	class ResetAllPuzzleStatesClientOnly : public ::RPG::GameCore::TaskConfig
 	{
@@ -25,9 +25,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_RESETALLPUZZLESTATESCLIENTONLY__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_75D30B1646B903D7(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ResetAllPuzzleStatesClientOnly*& a2)
+		static ::System::Void Method_3_07B8DD014FCD9563(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ResetAllPuzzleStatesClientOnly*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ResetAllPuzzleStatesClientOnly*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_RESETALLPUZZLESTATESCLIENTONLY_METHOD_3_75D30B1646B903D7_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ResetAllPuzzleStatesClientOnly*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_RESETALLPUZZLESTATESCLIENTONLY_METHOD_3_07B8DD014FCD9563_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_964181E194A94DD6(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ResetAllPuzzleStatesClientOnly* a2)

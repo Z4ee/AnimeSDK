@@ -4,7 +4,7 @@
 
 namespace System { class String; }
 
-inline static constexpr unsigned int Struct_2_ABC67D4EFBF3BD9A_TypeDefinitionIndex = 50576;
+inline static constexpr unsigned int Struct_2_ABC67D4EFBF3BD9A_TypeDefinitionIndex = 51658;
 
 struct alignas(8) Struct_2_ABC67D4EFBF3BD9A
 {

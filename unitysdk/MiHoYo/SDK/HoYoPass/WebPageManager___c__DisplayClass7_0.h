@@ -7,12 +7,12 @@ namespace MiHoYo::SDK { class Web; }
 namespace MiHoYo::SDK::HoYoPass { class WebPageManager; }
 namespace System { template <typename T1, typename T2> class Action_2; }
 
-#define MIHOYO_SDK_HOYOPASS_WEBPAGEMANAGER___C__DISPLAYCLASS7_0__CTOR_OFFSET UNITYSDK_OFFSET(0x18343530)
-#define MIHOYO_SDK_HOYOPASS_WEBPAGEMANAGER___C__DISPLAYCLASS7_0__OPENWEBPAGE_B__5_OFFSET UNITYSDK_OFFSET(0x18344150)
+#define MIHOYO_SDK_HOYOPASS_WEBPAGEMANAGER___C__DISPLAYCLASS7_0__CTOR_OFFSET UNITYSDK_OFFSET(0x181FFB10)
+#define MIHOYO_SDK_HOYOPASS_WEBPAGEMANAGER___C__DISPLAYCLASS7_0__OPENWEBPAGE_B__5_OFFSET UNITYSDK_OFFSET(0x18200CF0)
 
 namespace MiHoYo::SDK::HoYoPass
 {
-	inline static constexpr unsigned int WebPageManager___c__DisplayClass7_0_TypeDefinitionIndex = 8278;
+	inline static constexpr unsigned int WebPageManager___c__DisplayClass7_0_TypeDefinitionIndex = 8290;
 
 	class WebPageManager___c__DisplayClass7_0 : public ::System::Object
 	{

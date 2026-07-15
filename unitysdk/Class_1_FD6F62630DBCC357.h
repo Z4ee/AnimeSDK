@@ -11,12 +11,12 @@ namespace RPG::GameCore { class GameEntity; }
 namespace RPG::GameCore { class TaskConfig; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_1_FD6F62630DBCC357_METHOD_1_0B909AECAD8C1593_OFFSET UNITYSDK_OFFSET(0x13508950)
-#define CLASS_1_FD6F62630DBCC357_METHOD_1_46771E8BDEC25066_OFFSET UNITYSDK_OFFSET(0x135087D0)
-#define CLASS_1_FD6F62630DBCC357_METHOD_1_9342451C1D334F67_OFFSET UNITYSDK_OFFSET(0x13508480)
-#define CLASS_1_FD6F62630DBCC357__CTOR_OFFSET UNITYSDK_OFFSET(0x135095F0)
+#define CLASS_1_FD6F62630DBCC357_METHOD_1_0B909AECAD8C1593_OFFSET UNITYSDK_OFFSET(0x1685C0D0)
+#define CLASS_1_FD6F62630DBCC357_METHOD_1_9342451C1D334F67_OFFSET UNITYSDK_OFFSET(0x1685BA60)
+#define CLASS_1_FD6F62630DBCC357_METHOD_1_FF396CC145481CA0_OFFSET UNITYSDK_OFFSET(0x1685BDB0)
+#define CLASS_1_FD6F62630DBCC357__CTOR_OFFSET UNITYSDK_OFFSET(0x1685CD70)
 
-inline static constexpr unsigned int Class_1_FD6F62630DBCC357_TypeDefinitionIndex = 50202;
+inline static constexpr unsigned int Class_1_FD6F62630DBCC357_TypeDefinitionIndex = 51284;
 
 class Class_1_FD6F62630DBCC357 : public ::System::Object
 {
@@ -35,9 +35,9 @@ public:
 		return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::Il2CppArray<::RPG::GameCore::TaskConfig*>*, ::Il2CppArray<::RPG::GameCore::DynamicValueRangeCallback*>*))((::PBYTE)hIl2Cpp + CLASS_1_FD6F62630DBCC357_METHOD_1_9342451C1D334F67_OFFSET))(this, a1, a2, a3);
 	}
 
-	::System::Void Method_1_46771E8BDEC25066(::System::Boolean a1)
+	::System::Void Method_1_FF396CC145481CA0(::System::Boolean a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + CLASS_1_FD6F62630DBCC357_METHOD_1_46771E8BDEC25066_OFFSET))(this, a1);
+		return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + CLASS_1_FD6F62630DBCC357_METHOD_1_FF396CC145481CA0_OFFSET))(this, a1);
 	}
 
 	::System::Void Method_1_0B909AECAD8C1593(::RPG::GameCore::TaskContext* a1, ::System::Nullable_1<::RPG::GameCore::FixPoint> a2, ::RPG::GameCore::FixPoint a3, ::RPG::GameCore::FixPoint a4, ::RPG::GameCore::GameEntity* a5)

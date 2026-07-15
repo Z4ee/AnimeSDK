@@ -6,12 +6,12 @@
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class Transform; }
 
-#define HOUDINIENGINEUNITY_HEU_PARTDATA___C__DISPLAYCLASS99_1__BAKEPARTTOGAMEOBJECT_B__1_OFFSET UNITYSDK_OFFSET(0x17F45D20)
-#define HOUDINIENGINEUNITY_HEU_PARTDATA___C__DISPLAYCLASS99_1__CTOR_OFFSET UNITYSDK_OFFSET(0x17F44D30)
+#define HOUDINIENGINEUNITY_HEU_PARTDATA___C__DISPLAYCLASS99_1__BAKEPARTTOGAMEOBJECT_B__1_OFFSET UNITYSDK_OFFSET(0x108AF380)
+#define HOUDINIENGINEUNITY_HEU_PARTDATA___C__DISPLAYCLASS99_1__CTOR_OFFSET UNITYSDK_OFFSET(0x108AE3D0)
 
 namespace HoudiniEngineUnity
 {
-	inline static constexpr unsigned int HEU_PartData___c__DisplayClass99_1_TypeDefinitionIndex = 37457;
+	inline static constexpr unsigned int HEU_PartData___c__DisplayClass99_1_TypeDefinitionIndex = 38265;
 
 	class HEU_PartData___c__DisplayClass99_1 : public ::System::Object
 	{

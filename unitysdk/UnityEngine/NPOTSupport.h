@@ -3,7 +3,7 @@
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int NPOTSupport_TypeDefinitionIndex = 4155;
+	inline static constexpr unsigned int NPOTSupport_TypeDefinitionIndex = 4160;
 
 	enum class NPOTSupport : ::System::Int32
 	{

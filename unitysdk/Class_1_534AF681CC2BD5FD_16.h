@@ -2,10 +2,7 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-namespace RPG::GameCore { class LodTemplate; }
-namespace RPG::GameCore { class NormDistanceLodTemplate; }
-
-inline static constexpr unsigned int Class_1_534AF681CC2BD5FD_16_TypeDefinitionIndex = 23497;
+inline static constexpr unsigned int Class_1_534AF681CC2BD5FD_16_TypeDefinitionIndex = 18323;
 
 class Class_1_534AF681CC2BD5FD_16 : public ::System::Object
 {

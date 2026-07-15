@@ -4,7 +4,7 @@
 
 namespace System::Xml::Serialization
 {
-	inline static constexpr unsigned int XmlMemberMapping_TypeDefinitionIndex = 2004;
+	inline static constexpr unsigned int XmlMemberMapping_TypeDefinitionIndex = 2008;
 
 	class XmlMemberMapping : public ::System::Object
 	{

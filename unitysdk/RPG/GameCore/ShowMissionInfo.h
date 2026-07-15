@@ -4,13 +4,13 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_SHOWMISSIONINFO_METHOD_3_197CFE3A026AD1D0_OFFSET UNITYSDK_OFFSET(0x19C7FF90)
-#define RPG_GAMECORE_SHOWMISSIONINFO_METHOD_3_78A05FB8431E3059_OFFSET UNITYSDK_OFFSET(0x19C80010)
-#define RPG_GAMECORE_SHOWMISSIONINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x19C7FFE0)
+#define RPG_GAMECORE_SHOWMISSIONINFO_METHOD_3_2D674575C7F96F1A_OFFSET UNITYSDK_OFFSET(0x1BE441E0)
+#define RPG_GAMECORE_SHOWMISSIONINFO_METHOD_3_78A05FB8431E3059_OFFSET UNITYSDK_OFFSET(0x1BE44220)
+#define RPG_GAMECORE_SHOWMISSIONINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x1BE44210)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ShowMissionInfo_TypeDefinitionIndex = 22742;
+	inline static constexpr unsigned int ShowMissionInfo_TypeDefinitionIndex = 23209;
 
 	class ShowMissionInfo : public ::RPG::GameCore::TaskConfig
 	{
@@ -22,9 +22,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SHOWMISSIONINFO__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_197CFE3A026AD1D0(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ShowMissionInfo*& a2)
+		static ::System::Void Method_3_2D674575C7F96F1A(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ShowMissionInfo*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ShowMissionInfo*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SHOWMISSIONINFO_METHOD_3_197CFE3A026AD1D0_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ShowMissionInfo*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SHOWMISSIONINFO_METHOD_3_2D674575C7F96F1A_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_78A05FB8431E3059(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ShowMissionInfo* a2)

@@ -2,7 +2,7 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/GameComponentBase.h"
 
-class Class_0_16E4307DCC419505_441;
+class Class_0_16E4307DCC419505_465;
 namespace RPG::GameCore { class GameEntity; }
 namespace RPG::GameCore { template <typename T> class IRtFlagListener_1; }
 namespace RPG::GameCore { template <typename T> class RtFlagRef_1; }
@@ -13,7 +13,7 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RtFlagComponent_1_TypeDefinitionIndex = 50441;
+	inline static constexpr unsigned int RtFlagComponent_1_TypeDefinitionIndex = 51523;
 
 	template <typename TFlag>
 	class RtFlagComponent_1 : public ::RPG::GameCore::GameComponentBase

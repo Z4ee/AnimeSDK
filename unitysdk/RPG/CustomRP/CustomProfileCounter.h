@@ -3,7 +3,7 @@
 
 namespace RPG::CustomRP
 {
-	inline static constexpr unsigned int CustomProfileCounter_TypeDefinitionIndex = 35591;
+	inline static constexpr unsigned int CustomProfileCounter_TypeDefinitionIndex = 36373;
 
 	enum class CustomProfileCounter : ::System::Int32
 	{

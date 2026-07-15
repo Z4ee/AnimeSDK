@@ -4,11 +4,11 @@
 
 namespace RPG::Client { class MonoAnimatorStateSimpleEvent; }
 
-#define RPG_CLIENT_MONOANIMATORSTATESIMPLEEVENT_EVENT__CTOR_OFFSET UNITYSDK_OFFSET(0xC0587C0)
+#define RPG_CLIENT_MONOANIMATORSTATESIMPLEEVENT_EVENT__CTOR_OFFSET UNITYSDK_OFFSET(0x180752A0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MonoAnimatorStateSimpleEvent_Event_TypeDefinitionIndex = 64102;
+	inline static constexpr unsigned int MonoAnimatorStateSimpleEvent_Event_TypeDefinitionIndex = 65473;
 
 	class MonoAnimatorStateSimpleEvent_Event : public ::System::Object
 	{

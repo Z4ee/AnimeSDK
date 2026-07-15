@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int StateBranchType_TypeDefinitionIndex = 10087;
+	inline static constexpr unsigned int StateBranchType_TypeDefinitionIndex = 10102;
 
 	enum class StateBranchType : ::System::Int32
 	{

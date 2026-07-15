@@ -7,13 +7,13 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class AdventureHitConfig; }
 namespace RPG::GameCore { class TargetEvaluator; }
 
-#define RPG_GAMECORE_TRIGGERHITPROP_METHOD_3_1693E8BA028812E7_OFFSET UNITYSDK_OFFSET(0x19E16050)
-#define RPG_GAMECORE_TRIGGERHITPROP_METHOD_3_412AB712E6B69138_OFFSET UNITYSDK_OFFSET(0x19E160D0)
-#define RPG_GAMECORE_TRIGGERHITPROP__CTOR_OFFSET UNITYSDK_OFFSET(0x19E160A0)
+#define RPG_GAMECORE_TRIGGERHITPROP_METHOD_3_092DCF539CFE2A15_OFFSET UNITYSDK_OFFSET(0x1B056E50)
+#define RPG_GAMECORE_TRIGGERHITPROP_METHOD_3_412AB712E6B69138_OFFSET UNITYSDK_OFFSET(0x1B056E90)
+#define RPG_GAMECORE_TRIGGERHITPROP__CTOR_OFFSET UNITYSDK_OFFSET(0x1B056E80)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TriggerHitProp_TypeDefinitionIndex = 19077;
+	inline static constexpr unsigned int TriggerHitProp_TypeDefinitionIndex = 19432;
 
 	class TriggerHitProp : public ::RPG::GameCore::TaskConfig
 	{
@@ -27,9 +27,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TRIGGERHITPROP__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_1693E8BA028812E7(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::TriggerHitProp*& a2)
+		static ::System::Void Method_3_092DCF539CFE2A15(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::TriggerHitProp*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::TriggerHitProp*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TRIGGERHITPROP_METHOD_3_1693E8BA028812E7_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::TriggerHitProp*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TRIGGERHITPROP_METHOD_3_092DCF539CFE2A15_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_412AB712E6B69138(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::TriggerHitProp* a2)

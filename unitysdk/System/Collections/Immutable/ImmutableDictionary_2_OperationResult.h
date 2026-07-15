@@ -3,7 +3,7 @@
 
 namespace System::Collections::Immutable
 {
-	inline static constexpr unsigned int ImmutableDictionary_2_OperationResult_TypeDefinitionIndex = 7003;
+	inline static constexpr unsigned int ImmutableDictionary_2_OperationResult_TypeDefinitionIndex = 7009;
 
 	enum class ImmutableDictionary_2_OperationResult : ::System::Int32
 	{

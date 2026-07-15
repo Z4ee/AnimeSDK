@@ -9,7 +9,7 @@ namespace System::Collections::Immutable { template <typename T1, typename T2> c
 
 namespace MessagePack::ImmutableCollection
 {
-	inline static constexpr unsigned int ImmutableDictionaryFormatter_2_TypeDefinitionIndex = 7310;
+	inline static constexpr unsigned int ImmutableDictionaryFormatter_2_TypeDefinitionIndex = 7316;
 
 	template <typename TKey, typename TValue>
 	class ImmutableDictionaryFormatter_2 : public ::MessagePack::Formatters::DictionaryFormatterBase_5<TKey, TValue, ::System::Collections::Immutable::ImmutableDictionary_2_Builder<TKey, TValue>*, ::System::Collections::Immutable::ImmutableDictionary_2_Enumerator<TKey, TValue>, ::System::Collections::Immutable::ImmutableDictionary_2<TKey, TValue>*>

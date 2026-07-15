@@ -9,12 +9,12 @@ namespace RPG::GameCore { class LevelMinimapLayerSpriteConfig; }
 namespace RPG::GameCore { class LevelMinimapPassage; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_LEVELMINIMAPSECTION_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x19879BA0)
-#define RPG_GAMECORE_LEVELMINIMAPSECTION__CTOR_OFFSET UNITYSDK_OFFSET(0x1987A120)
+#define RPG_GAMECORE_LEVELMINIMAPSECTION_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B072350)
+#define RPG_GAMECORE_LEVELMINIMAPSECTION__CTOR_OFFSET UNITYSDK_OFFSET(0x1B0728D0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LevelMinimapSection_TypeDefinitionIndex = 16370;
+	inline static constexpr unsigned int LevelMinimapSection_TypeDefinitionIndex = 16532;
 
 	class LevelMinimapSection : public ::RPG::GameCore::JsonConfig
 	{

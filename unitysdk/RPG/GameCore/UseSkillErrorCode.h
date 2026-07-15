@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int UseSkillErrorCode_TypeDefinitionIndex = 23399;
+	inline static constexpr unsigned int UseSkillErrorCode_TypeDefinitionIndex = 23887;
 
 	enum class UseSkillErrorCode : ::System::Int32
 	{
@@ -36,5 +36,6 @@ namespace RPG::GameCore
 		OnlyDamagingInCharm = 26,
 		OtherLinkSkillUsing = 27,
 		NoMatchAutoCast = 28,
+		AssistSkillNotEnoughEnergy = 29,
 	};
 }

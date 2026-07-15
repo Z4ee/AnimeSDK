@@ -4,12 +4,12 @@
 
 namespace System { class Action; }
 
-#define RPG_CLIENT_ROGUETOURNUTILS___C__DISPLAYCLASS37_0__CTOR_OFFSET UNITYSDK_OFFSET(0xC86FBC0)
-#define RPG_CLIENT_ROGUETOURNUTILS___C__DISPLAYCLASS37_0__TRANSFERTOLAUNCHER_B__0_OFFSET UNITYSDK_OFFSET(0xC8739C0)
+#define RPG_CLIENT_ROGUETOURNUTILS___C__DISPLAYCLASS37_0__CTOR_OFFSET UNITYSDK_OFFSET(0x184D32F0)
+#define RPG_CLIENT_ROGUETOURNUTILS___C__DISPLAYCLASS37_0__TRANSFERTOLAUNCHER_B__0_OFFSET UNITYSDK_OFFSET(0x184D7D10)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int RogueTournUtils___c__DisplayClass37_0_TypeDefinitionIndex = 63444;
+	inline static constexpr unsigned int RogueTournUtils___c__DisplayClass37_0_TypeDefinitionIndex = 64811;
 
 	class RogueTournUtils___c__DisplayClass37_0 : public ::System::Object
 	{

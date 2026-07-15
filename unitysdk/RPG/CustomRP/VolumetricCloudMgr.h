@@ -5,21 +5,21 @@
 namespace RPG::CustomRP { class VolumetricCloudLayer; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CUSTOMRP_VOLUMETRICCLOUDMGR_GET_INSTANCE_OFFSET UNITYSDK_OFFSET(0x18F28AA0)
-#define RPG_CUSTOMRP_VOLUMETRICCLOUDMGR_GET_LAYERS_OFFSET UNITYSDK_OFFSET(0x18F28BF0)
-#define RPG_CUSTOMRP_VOLUMETRICCLOUDMGR__CCTOR_OFFSET UNITYSDK_OFFSET(0x18F28B90)
-#define RPG_CUSTOMRP_VOLUMETRICCLOUDMGR__CTOR_OFFSET UNITYSDK_OFFSET(0x18F28BA0)
+#define RPG_CUSTOMRP_VOLUMETRICCLOUDMGR_GET_INSTANCE_OFFSET UNITYSDK_OFFSET(0x1D137D90)
+#define RPG_CUSTOMRP_VOLUMETRICCLOUDMGR_GET_LAYERS_OFFSET UNITYSDK_OFFSET(0x1D137EE0)
+#define RPG_CUSTOMRP_VOLUMETRICCLOUDMGR__CCTOR_OFFSET UNITYSDK_OFFSET(0x1D137E80)
+#define RPG_CUSTOMRP_VOLUMETRICCLOUDMGR__CTOR_OFFSET UNITYSDK_OFFSET(0x1D137E90)
 
 namespace RPG::CustomRP
 {
-	inline static constexpr unsigned int VolumetricCloudMgr_TypeDefinitionIndex = 35409;
+	inline static constexpr unsigned int VolumetricCloudMgr_TypeDefinitionIndex = 36191;
 
 	class VolumetricCloudMgr : public ::System::Object
 	{
 	public:
 		static ::RPG::CustomRP::VolumetricCloudMgr** StaticGet_s_instance()
 		{
-			return (::RPG::CustomRP::VolumetricCloudMgr**)Il2CppClass::FromTypeDefinitionIndex(VolumetricCloudMgr_TypeDefinitionIndex)->GetStaticField(0x62E30);
+			return (::RPG::CustomRP::VolumetricCloudMgr**)Il2CppClass::FromTypeDefinitionIndex(VolumetricCloudMgr_TypeDefinitionIndex)->GetStaticField(0x610D0);
 		}
 		::System::Collections::Generic::List_1<::RPG::CustomRP::VolumetricCloudLayer*>* _layers; // 0x10
 

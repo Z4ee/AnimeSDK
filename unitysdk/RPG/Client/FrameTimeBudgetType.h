@@ -3,20 +3,21 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int FrameTimeBudgetType_TypeDefinitionIndex = 66466;
+	inline static constexpr unsigned int FrameTimeBudgetType_TypeDefinitionIndex = 67902;
 
 	enum class FrameTimeBudgetType : ::System::Int32
 	{
 		Shared = 0,
 		AssetMgr = 1,
 		GameObjectPool = 2,
-		StreamingUpdate = 3,
-		StreamingLoad = 4,
-		StreamingFading = 5,
-		AdvAsyncProcessor = 6,
-		GroupUnload = 7,
-		BattlePreloadPoolRearrange = 8,
-		ConfigDataPoolTick = 9,
-		Count = 10,
+		GameObjectPoolPreReset = 3,
+		StreamingUpdate = 4,
+		StreamingLoad = 5,
+		StreamingFading = 6,
+		AdvAsyncProcessor = 7,
+		GroupUnload = 8,
+		BattlePreloadPoolRearrange = 9,
+		ConfigDataPoolTick = 10,
+		Count = 11,
 	};
 }

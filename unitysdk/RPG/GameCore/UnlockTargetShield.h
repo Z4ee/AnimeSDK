@@ -6,13 +6,13 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class TargetEvaluator; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_UNLOCKTARGETSHIELD_METHOD_3_B38A20E846EF7FC8_OFFSET UNITYSDK_OFFSET(0x19E38510)
-#define RPG_GAMECORE_UNLOCKTARGETSHIELD_METHOD_3_C875B5A4D5E7C9CA_OFFSET UNITYSDK_OFFSET(0x19E38590)
-#define RPG_GAMECORE_UNLOCKTARGETSHIELD__CTOR_OFFSET UNITYSDK_OFFSET(0x19E38560)
+#define RPG_GAMECORE_UNLOCKTARGETSHIELD_METHOD_3_9A0F52599F32AD45_OFFSET UNITYSDK_OFFSET(0x1B8853F0)
+#define RPG_GAMECORE_UNLOCKTARGETSHIELD_METHOD_3_C875B5A4D5E7C9CA_OFFSET UNITYSDK_OFFSET(0x1B885430)
+#define RPG_GAMECORE_UNLOCKTARGETSHIELD__CTOR_OFFSET UNITYSDK_OFFSET(0x1B885420)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int UnlockTargetShield_TypeDefinitionIndex = 22332;
+	inline static constexpr unsigned int UnlockTargetShield_TypeDefinitionIndex = 22774;
 
 	class UnlockTargetShield : public ::RPG::GameCore::TaskConfig
 	{
@@ -25,9 +25,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_UNLOCKTARGETSHIELD__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_B38A20E846EF7FC8(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::UnlockTargetShield*& a2)
+		static ::System::Void Method_3_9A0F52599F32AD45(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::UnlockTargetShield*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::UnlockTargetShield*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_UNLOCKTARGETSHIELD_METHOD_3_B38A20E846EF7FC8_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::UnlockTargetShield*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_UNLOCKTARGETSHIELD_METHOD_3_9A0F52599F32AD45_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_C875B5A4D5E7C9CA(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::UnlockTargetShield* a2)

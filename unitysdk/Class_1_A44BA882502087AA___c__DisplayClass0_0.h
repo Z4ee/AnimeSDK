@@ -4,10 +4,10 @@
 
 namespace RPG::Client::NavMap::FiveDim { class SectionConfig; }
 
-#define CLASS_1_A44BA882502087AA___C__DISPLAYCLASS0_0__CREATE_B__0_OFFSET UNITYSDK_OFFSET(0x1427A670)
-#define CLASS_1_A44BA882502087AA___C__DISPLAYCLASS0_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1427A5E0)
+#define CLASS_1_A44BA882502087AA___C__DISPLAYCLASS0_0__CREATE_B__0_OFFSET UNITYSDK_OFFSET(0x15B1E380)
+#define CLASS_1_A44BA882502087AA___C__DISPLAYCLASS0_0__CTOR_OFFSET UNITYSDK_OFFSET(0x15B1E2F0)
 
-inline static constexpr unsigned int Class_1_A44BA882502087AA___c__DisplayClass0_0_TypeDefinitionIndex = 69711;
+inline static constexpr unsigned int Class_1_A44BA882502087AA___c__DisplayClass0_0_TypeDefinitionIndex = 71234;
 
 class Class_1_A44BA882502087AA___c__DisplayClass0_0 : public ::System::Object
 {

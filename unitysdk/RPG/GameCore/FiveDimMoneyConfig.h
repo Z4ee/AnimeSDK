@@ -5,13 +5,13 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_FIVEDIMMONEYCONFIG_METHOD_3_8003324B0A1A92AA_OFFSET UNITYSDK_OFFSET(0x19747960)
-#define RPG_GAMECORE_FIVEDIMMONEYCONFIG_METHOD_3_95A4DF698D8D3C9B_OFFSET UNITYSDK_OFFSET(0x197479D0)
-#define RPG_GAMECORE_FIVEDIMMONEYCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x197479B0)
+#define RPG_GAMECORE_FIVEDIMMONEYCONFIG_METHOD_3_865454D8AD928622_OFFSET UNITYSDK_OFFSET(0x1BEA24D0)
+#define RPG_GAMECORE_FIVEDIMMONEYCONFIG_METHOD_3_95A4DF698D8D3C9B_OFFSET UNITYSDK_OFFSET(0x1BEA2510)
+#define RPG_GAMECORE_FIVEDIMMONEYCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1BEA2500)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FiveDimMoneyConfig_TypeDefinitionIndex = 17649;
+	inline static constexpr unsigned int FiveDimMoneyConfig_TypeDefinitionIndex = 17823;
 
 	class FiveDimMoneyConfig : public ::RPG::GameCore::LittleGameComponentConfig
 	{
@@ -25,9 +25,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMMONEYCONFIG__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_8003324B0A1A92AA(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::FiveDimMoneyConfig*& a2)
+		static ::System::Void Method_3_865454D8AD928622(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::FiveDimMoneyConfig*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::FiveDimMoneyConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMMONEYCONFIG_METHOD_3_8003324B0A1A92AA_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::FiveDimMoneyConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMMONEYCONFIG_METHOD_3_865454D8AD928622_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_95A4DF698D8D3C9B(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::FiveDimMoneyConfig* a2)

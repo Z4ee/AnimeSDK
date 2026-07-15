@@ -7,12 +7,12 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class ChimeraAbilityModifierParam; }
 namespace RPG::GameCore { class ChimeraBattleTargetEvaluator; }
 
-#define RPG_GAMECORE_CHIMERAABILITYMODIFIER_METHOD_2_94595847773890A9_OFFSET UNITYSDK_OFFSET(0x19633630)
-#define RPG_GAMECORE_CHIMERAABILITYMODIFIER__CTOR_OFFSET UNITYSDK_OFFSET(0x19633810)
+#define RPG_GAMECORE_CHIMERAABILITYMODIFIER_METHOD_2_94595847773890A9_OFFSET UNITYSDK_OFFSET(0x1C38D890)
+#define RPG_GAMECORE_CHIMERAABILITYMODIFIER__CTOR_OFFSET UNITYSDK_OFFSET(0x1C38DA70)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ChimeraAbilityModifier_TypeDefinitionIndex = 15069;
+	inline static constexpr unsigned int ChimeraAbilityModifier_TypeDefinitionIndex = 15233;
 
 	class ChimeraAbilityModifier : public ::RPG::GameCore::JsonConfig
 	{

@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/ValueType.h"
 
-#define RPG_CLIENT_HEADICONUTILS_SORTINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x13CA20)
+#define RPG_CLIENT_HEADICONUTILS_SORTINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x38DE2E0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int HeadIconUtils_SortInfo_TypeDefinitionIndex = 61386;
+	inline static constexpr unsigned int HeadIconUtils_SortInfo_TypeDefinitionIndex = 62730;
 
 	struct alignas(4) HeadIconUtils_SortInfo
 	{

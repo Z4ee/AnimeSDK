@@ -5,12 +5,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_DECALGAMEPLAYCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x19695BD0)
-#define RPG_GAMECORE_DECALGAMEPLAYCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x19696250)
+#define RPG_GAMECORE_DECALGAMEPLAYCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1C0FF740)
+#define RPG_GAMECORE_DECALGAMEPLAYCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1C0FFDC0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int DecalGameplayConfigRow_TypeDefinitionIndex = 12493;
+	inline static constexpr unsigned int DecalGameplayConfigRow_TypeDefinitionIndex = 12630;
 
 	class DecalGameplayConfigRow : public ::System::Object
 	{

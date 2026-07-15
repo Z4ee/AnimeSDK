@@ -4,7 +4,7 @@
 
 namespace InControl::Internal
 {
-	inline static constexpr unsigned int RingBuffer_1_TypeDefinitionIndex = 37959;
+	inline static constexpr unsigned int RingBuffer_1_TypeDefinitionIndex = 38767;
 
 	template <typename T>
 	class RingBuffer_1 : public ::System::Object

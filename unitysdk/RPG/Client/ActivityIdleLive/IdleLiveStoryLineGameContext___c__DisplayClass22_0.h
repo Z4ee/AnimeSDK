@@ -4,19 +4,19 @@
 
 namespace RPG::Client::ActivityIdleLive { class IdleLiveStoryLineGameContext; }
 
-#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVESTORYLINEGAMECONTEXT___C__DISPLAYCLASS22_0__CTOR_OFFSET UNITYSDK_OFFSET(0xB161060)
-#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVESTORYLINEGAMECONTEXT___C__DISPLAYCLASS22_0___FINISHBATTLEWIN_B__1_OFFSET UNITYSDK_OFFSET(0xB1614E0)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVESTORYLINEGAMECONTEXT___C__DISPLAYCLASS22_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1A1708D0)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVESTORYLINEGAMECONTEXT___C__DISPLAYCLASS22_0___FINISHBATTLEWIN_B__1_OFFSET UNITYSDK_OFFSET(0x1A170DD0)
 
 namespace RPG::Client::ActivityIdleLive
 {
-	inline static constexpr unsigned int IdleLiveStoryLineGameContext___c__DisplayClass22_0_TypeDefinitionIndex = 70195;
+	inline static constexpr unsigned int IdleLiveStoryLineGameContext___c__DisplayClass22_0_TypeDefinitionIndex = 71718;
 
 	class IdleLiveStoryLineGameContext___c__DisplayClass22_0 : public ::System::Object
 	{
 	public:
 		::RPG::Client::ActivityIdleLive::IdleLiveStoryLineGameContext* __4__this; // 0x10
-		::System::Boolean isNodeNowFinished; // 0x18
-		::System::Boolean isFirstWin; // 0x19
+		::System::Boolean isFirstWin; // 0x18
+		::System::Boolean isNodeNowFinished; // 0x19
 
 		::System::Void _ctor()
 		{

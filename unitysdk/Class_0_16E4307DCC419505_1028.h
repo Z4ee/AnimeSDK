@@ -1,10 +1,8 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/RPG/GameCore/ElationPointChangePopUIStyle.h"
+#include "unitysdk/Struct_2_A7EFF121F1A9ACBF.h"
 
-namespace System { class String; }
-
-inline static constexpr unsigned int Class_0_16E4307DCC419505_1028_TypeDefinitionIndex = 67396;
+inline static constexpr unsigned int Class_0_16E4307DCC419505_1028_TypeDefinitionIndex = 68097;
 
 class Class_0_16E4307DCC419505_1028
 {

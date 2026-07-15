@@ -11,13 +11,13 @@ namespace RPG::GameCore { class PredicateConfig; }
 namespace RPG::GameCore { class TargetEvaluator; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_PROPSETUPTWOSTATEUITRIGGER_METHOD_3_7FE765052D040A68_OFFSET UNITYSDK_OFFSET(0x19A993A0)
-#define RPG_GAMECORE_PROPSETUPTWOSTATEUITRIGGER_METHOD_3_862C363D3936A688_OFFSET UNITYSDK_OFFSET(0x19A99580)
-#define RPG_GAMECORE_PROPSETUPTWOSTATEUITRIGGER__CTOR_OFFSET UNITYSDK_OFFSET(0x19A994A0)
+#define RPG_GAMECORE_PROPSETUPTWOSTATEUITRIGGER_METHOD_3_862C363D3936A688_OFFSET UNITYSDK_OFFSET(0x1BA2B420)
+#define RPG_GAMECORE_PROPSETUPTWOSTATEUITRIGGER_METHOD_3_D1737663E5DE3A8F_OFFSET UNITYSDK_OFFSET(0x1BA2B320)
+#define RPG_GAMECORE_PROPSETUPTWOSTATEUITRIGGER__CTOR_OFFSET UNITYSDK_OFFSET(0x1BA2B3B0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PropSetupTwoStateUITrigger_TypeDefinitionIndex = 20994;
+	inline static constexpr unsigned int PropSetupTwoStateUITrigger_TypeDefinitionIndex = 21409;
 
 	class PropSetupTwoStateUITrigger : public ::RPG::GameCore::TaskConfig
 	{
@@ -46,9 +46,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PROPSETUPTWOSTATEUITRIGGER__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_7FE765052D040A68(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::PropSetupTwoStateUITrigger*& a2)
+		static ::System::Void Method_3_D1737663E5DE3A8F(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::PropSetupTwoStateUITrigger*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::PropSetupTwoStateUITrigger*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PROPSETUPTWOSTATEUITRIGGER_METHOD_3_7FE765052D040A68_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::PropSetupTwoStateUITrigger*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PROPSETUPTWOSTATEUITRIGGER_METHOD_3_D1737663E5DE3A8F_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_862C363D3936A688(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::PropSetupTwoStateUITrigger* a2)

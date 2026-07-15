@@ -5,11 +5,11 @@
 #include "unitysdk/RPG/GameCore/StageType.h"
 #include "unitysdk/System/Object.h"
 
-#define RPG_CLIENT_PAUSEDIALOGPARAM__CTOR_OFFSET UNITYSDK_OFFSET(0xC350FA0)
+#define RPG_CLIENT_PAUSEDIALOGPARAM__CTOR_OFFSET UNITYSDK_OFFSET(0x1A302A70)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int PauseDialogParam_TypeDefinitionIndex = 66972;
+	inline static constexpr unsigned int PauseDialogParam_TypeDefinitionIndex = 68416;
 
 	class PauseDialogParam : public ::System::Object
 	{

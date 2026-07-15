@@ -6,7 +6,7 @@ namespace RPG::GameCore { class GameEntity; }
 namespace RPG::GameCore { class PredicateConfig; }
 namespace RPG::GameCore { class TaskConfig; }
 
-inline static constexpr unsigned int Struct_2_B4045B92AE12A5DB_TypeDefinitionIndex = 54442;
+inline static constexpr unsigned int Struct_2_B4045B92AE12A5DB_TypeDefinitionIndex = 55665;
 
 struct alignas(8) Struct_2_B4045B92AE12A5DB
 {

@@ -1,9 +1,10 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-class Class_2_B66C1067C0468FBB;
+namespace RPG::Client { class SwordTrainingStatusChangeInfo; }
+namespace System::Collections::Generic { template <typename T> class IList_1; }
 
-inline static constexpr unsigned int Class_0_16E4307DCC419505_1182_TypeDefinitionIndex = 72110;
+inline static constexpr unsigned int Class_0_16E4307DCC419505_1182_TypeDefinitionIndex = 71405;
 
 class Class_0_16E4307DCC419505_1182
 {

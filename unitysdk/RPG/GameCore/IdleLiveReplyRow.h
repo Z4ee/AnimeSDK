@@ -5,12 +5,12 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_IDLELIVEREPLYROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x19846B70)
-#define RPG_GAMECORE_IDLELIVEREPLYROW__CTOR_OFFSET UNITYSDK_OFFSET(0x19846CF0)
+#define RPG_GAMECORE_IDLELIVEREPLYROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B006F30)
+#define RPG_GAMECORE_IDLELIVEREPLYROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1B0070B0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int IdleLiveReplyRow_TypeDefinitionIndex = 11282;
+	inline static constexpr unsigned int IdleLiveReplyRow_TypeDefinitionIndex = 11382;
 
 	class IdleLiveReplyRow : public ::System::Object
 	{

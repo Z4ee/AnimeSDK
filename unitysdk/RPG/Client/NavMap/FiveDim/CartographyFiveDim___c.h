@@ -10,34 +10,34 @@ namespace System { template <typename T1, typename T2> class Func_2; }
 namespace System { template <typename T> class Comparison_1; }
 namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
 
-#define RPG_CLIENT_NAVMAP_FIVEDIM_CARTOGRAPHYFIVEDIM___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xC254850)
-#define RPG_CLIENT_NAVMAP_FIVEDIM_CARTOGRAPHYFIVEDIM___C__CTOR_OFFSET UNITYSDK_OFFSET(0xC254880)
-#define RPG_CLIENT_NAVMAP_FIVEDIM_CARTOGRAPHYFIVEDIM___C__GETCHESTICONS_B__5_0_OFFSET UNITYSDK_OFFSET(0xC254890)
-#define RPG_CLIENT_NAVMAP_FIVEDIM_CARTOGRAPHYFIVEDIM___C__GET_ALLFACES_B__20_0_OFFSET UNITYSDK_OFFSET(0xC254920)
-#define RPG_CLIENT_NAVMAP_FIVEDIM_CARTOGRAPHYFIVEDIM___C___COLLECTTRACKINGMISSIONICON_B__10_0_OFFSET UNITYSDK_OFFSET(0xC2548B0)
+#define RPG_CLIENT_NAVMAP_FIVEDIM_CARTOGRAPHYFIVEDIM___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x18EBE440)
+#define RPG_CLIENT_NAVMAP_FIVEDIM_CARTOGRAPHYFIVEDIM___C__CTOR_OFFSET UNITYSDK_OFFSET(0x18EBE470)
+#define RPG_CLIENT_NAVMAP_FIVEDIM_CARTOGRAPHYFIVEDIM___C__GETCHESTICONS_B__5_0_OFFSET UNITYSDK_OFFSET(0x18EBE480)
+#define RPG_CLIENT_NAVMAP_FIVEDIM_CARTOGRAPHYFIVEDIM___C__GET_ALLFACES_B__20_0_OFFSET UNITYSDK_OFFSET(0x18EBE510)
+#define RPG_CLIENT_NAVMAP_FIVEDIM_CARTOGRAPHYFIVEDIM___C___COLLECTTRACKINGMISSIONICON_B__10_0_OFFSET UNITYSDK_OFFSET(0x18EBE4A0)
 
 namespace RPG::Client::NavMap::FiveDim
 {
-	inline static constexpr unsigned int CartographyFiveDim___c_TypeDefinitionIndex = 69690;
+	inline static constexpr unsigned int CartographyFiveDim___c_TypeDefinitionIndex = 71213;
 
 	class CartographyFiveDim___c : public ::System::Object
 	{
 	public:
 		static ::System::Func_2<::Class_1_A3C62CC0DC4BD2F1*, ::System::Collections::Generic::IEnumerable_1<::RPG::Client::NavMap::FiveDim::Face*>*>** StaticGet___9__20_0()
 		{
-			return (::System::Func_2<::Class_1_A3C62CC0DC4BD2F1*, ::System::Collections::Generic::IEnumerable_1<::RPG::Client::NavMap::FiveDim::Face*>*>**)Il2CppClass::FromTypeDefinitionIndex(CartographyFiveDim___c_TypeDefinitionIndex)->GetStaticField(0x66FB0);
-		}
-		static ::System::Func_2<::RPG::Client::NavMap::FiveDim::EntityIcon*, ::System::Boolean>** StaticGet___9__5_0()
-		{
-			return (::System::Func_2<::RPG::Client::NavMap::FiveDim::EntityIcon*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(CartographyFiveDim___c_TypeDefinitionIndex)->GetStaticField(0x66FB8);
+			return (::System::Func_2<::Class_1_A3C62CC0DC4BD2F1*, ::System::Collections::Generic::IEnumerable_1<::RPG::Client::NavMap::FiveDim::Face*>*>**)Il2CppClass::FromTypeDefinitionIndex(CartographyFiveDim___c_TypeDefinitionIndex)->GetStaticField(0x5F340);
 		}
 		static ::System::Comparison_1<::RPG::Client::SubMissionData*>** StaticGet___9__10_0()
 		{
-			return (::System::Comparison_1<::RPG::Client::SubMissionData*>**)Il2CppClass::FromTypeDefinitionIndex(CartographyFiveDim___c_TypeDefinitionIndex)->GetStaticField(0x66FC0);
+			return (::System::Comparison_1<::RPG::Client::SubMissionData*>**)Il2CppClass::FromTypeDefinitionIndex(CartographyFiveDim___c_TypeDefinitionIndex)->GetStaticField(0x5F348);
 		}
 		static ::RPG::Client::NavMap::FiveDim::CartographyFiveDim___c** StaticGet___9()
 		{
-			return (::RPG::Client::NavMap::FiveDim::CartographyFiveDim___c**)Il2CppClass::FromTypeDefinitionIndex(CartographyFiveDim___c_TypeDefinitionIndex)->GetStaticField(0x66FC8);
+			return (::RPG::Client::NavMap::FiveDim::CartographyFiveDim___c**)Il2CppClass::FromTypeDefinitionIndex(CartographyFiveDim___c_TypeDefinitionIndex)->GetStaticField(0x5F350);
+		}
+		static ::System::Func_2<::RPG::Client::NavMap::FiveDim::EntityIcon*, ::System::Boolean>** StaticGet___9__5_0()
+		{
+			return (::System::Func_2<::RPG::Client::NavMap::FiveDim::EntityIcon*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(CartographyFiveDim___c_TypeDefinitionIndex)->GetStaticField(0x5F358);
 		}
 
 		static ::System::Void _cctor()

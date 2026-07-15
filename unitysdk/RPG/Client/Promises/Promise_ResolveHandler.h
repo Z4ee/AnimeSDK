@@ -7,7 +7,7 @@ namespace System { class Action; }
 
 namespace RPG::Client::Promises
 {
-	inline static constexpr unsigned int Promise_ResolveHandler_TypeDefinitionIndex = 9565;
+	inline static constexpr unsigned int Promise_ResolveHandler_TypeDefinitionIndex = 9577;
 
 	struct alignas(8) Promise_ResolveHandler
 	{

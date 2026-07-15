@@ -5,13 +5,13 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class BaseChimeraDuelEntitiesSelectorConfig; }
 
-#define RPG_GAMECORE_CHIMERADUELSWAPPOSITIONNODE_METHOD_3_1F4E42CB5E5B1B1E_OFFSET UNITYSDK_OFFSET(0x19647EB0)
-#define RPG_GAMECORE_CHIMERADUELSWAPPOSITIONNODE_METHOD_3_B658D4E04E2A7F2D_OFFSET UNITYSDK_OFFSET(0x19647F90)
-#define RPG_GAMECORE_CHIMERADUELSWAPPOSITIONNODE__CTOR_OFFSET UNITYSDK_OFFSET(0x19647F40)
+#define RPG_GAMECORE_CHIMERADUELSWAPPOSITIONNODE_METHOD_3_260E32BE6C4D8677_OFFSET UNITYSDK_OFFSET(0x1C249040)
+#define RPG_GAMECORE_CHIMERADUELSWAPPOSITIONNODE_METHOD_3_B658D4E04E2A7F2D_OFFSET UNITYSDK_OFFSET(0x1C2490A0)
+#define RPG_GAMECORE_CHIMERADUELSWAPPOSITIONNODE__CTOR_OFFSET UNITYSDK_OFFSET(0x1C249090)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ChimeraDuelSwapPositionNode_TypeDefinitionIndex = 15192;
+	inline static constexpr unsigned int ChimeraDuelSwapPositionNode_TypeDefinitionIndex = 15356;
 
 	class ChimeraDuelSwapPositionNode : public ::RPG::GameCore::BaseChimeraDuelNode
 	{
@@ -25,9 +25,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHIMERADUELSWAPPOSITIONNODE__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_1F4E42CB5E5B1B1E(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ChimeraDuelSwapPositionNode*& a2)
+		static ::System::Void Method_3_260E32BE6C4D8677(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ChimeraDuelSwapPositionNode*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ChimeraDuelSwapPositionNode*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHIMERADUELSWAPPOSITIONNODE_METHOD_3_1F4E42CB5E5B1B1E_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ChimeraDuelSwapPositionNode*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHIMERADUELSWAPPOSITIONNODE_METHOD_3_260E32BE6C4D8677_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_B658D4E04E2A7F2D(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ChimeraDuelSwapPositionNode* a2)

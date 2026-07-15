@@ -4,7 +4,7 @@
 
 namespace UnityEngine::Rendering
 {
-	inline static constexpr unsigned int GlobalSDFSettings_TypeDefinitionIndex = 4835;
+	inline static constexpr unsigned int GlobalSDFSettings_TypeDefinitionIndex = 4840;
 
 	struct alignas(4) GlobalSDFSettings
 	{

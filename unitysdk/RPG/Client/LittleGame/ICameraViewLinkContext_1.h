@@ -5,7 +5,7 @@ namespace Entitas { template <typename T> class IMatcher_1; }
 
 namespace RPG::Client::LittleGame
 {
-	inline static constexpr unsigned int ICameraViewLinkContext_1_TypeDefinitionIndex = 38970;
+	inline static constexpr unsigned int ICameraViewLinkContext_1_TypeDefinitionIndex = 39779;
 
 	template <typename TEntity>
 	class ICameraViewLinkContext_1

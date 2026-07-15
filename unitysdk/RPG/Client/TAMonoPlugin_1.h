@@ -7,7 +7,7 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int TAMonoPlugin_1_TypeDefinitionIndex = 66188;
+	inline static constexpr unsigned int TAMonoPlugin_1_TypeDefinitionIndex = 67613;
 
 	template <typename TBehavior>
 	class TAMonoPlugin_1 : public ::RPG::Client::TAMonoBase

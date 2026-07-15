@@ -8,7 +8,7 @@ namespace System::Runtime::Serialization { class SerializationInfo; }
 
 namespace System::Collections::Generic
 {
-	inline static constexpr unsigned int EnumEqualityComparer_1_TypeDefinitionIndex = 1543;
+	inline static constexpr unsigned int EnumEqualityComparer_1_TypeDefinitionIndex = 1547;
 
 	template <typename T>
 	class EnumEqualityComparer_1 : public ::System::Collections::Generic::EqualityComparer_1<T>

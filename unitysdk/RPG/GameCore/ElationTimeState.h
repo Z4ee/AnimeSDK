@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ElationTimeState_TypeDefinitionIndex = 52322;
+	inline static constexpr unsigned int ElationTimeState_TypeDefinitionIndex = 53526;
 
 	enum class ElationTimeState : ::System::Int32
 	{

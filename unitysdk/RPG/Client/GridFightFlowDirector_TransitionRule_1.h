@@ -8,7 +8,7 @@ namespace System { template <typename T> class Predicate_1; }
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GridFightFlowDirector_TransitionRule_1_TypeDefinitionIndex = 60392;
+	inline static constexpr unsigned int GridFightFlowDirector_TransitionRule_1_TypeDefinitionIndex = 61683;
 
 	template <typename T>
 	class GridFightFlowDirector_TransitionRule_1 : public ::System::Object

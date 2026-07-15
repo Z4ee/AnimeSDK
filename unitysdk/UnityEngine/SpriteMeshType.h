@@ -3,7 +3,7 @@
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int SpriteMeshType_TypeDefinitionIndex = 4396;
+	inline static constexpr unsigned int SpriteMeshType_TypeDefinitionIndex = 4401;
 
 	enum class SpriteMeshType : ::System::Int32
 	{

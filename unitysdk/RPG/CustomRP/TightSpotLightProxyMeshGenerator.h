@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 
-#define RPG_CUSTOMRP_TIGHTSPOTLIGHTPROXYMESHGENERATOR__CTOR_OFFSET UNITYSDK_OFFSET(0xCC58AA0)
+#define RPG_CUSTOMRP_TIGHTSPOTLIGHTPROXYMESHGENERATOR__CTOR_OFFSET UNITYSDK_OFFSET(0x106A9A30)
 
 namespace RPG::CustomRP
 {
-	inline static constexpr unsigned int TightSpotLightProxyMeshGenerator_TypeDefinitionIndex = 48472;
+	inline static constexpr unsigned int TightSpotLightProxyMeshGenerator_TypeDefinitionIndex = 49485;
 
 	class TightSpotLightProxyMeshGenerator : public ::UnityEngine::MonoBehaviour
 	{

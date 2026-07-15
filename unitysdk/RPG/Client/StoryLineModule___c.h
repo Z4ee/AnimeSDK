@@ -6,24 +6,24 @@ namespace RPG::Client { class StoryLineData; }
 namespace RPG::Client::Promises { class IPromise; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define RPG_CLIENT_STORYLINEMODULE___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xC93AB00)
-#define RPG_CLIENT_STORYLINEMODULE___C__CTOR_OFFSET UNITYSDK_OFFSET(0xC93AB30)
-#define RPG_CLIENT_STORYLINEMODULE___C__SENDSTORYLINEDATA_B__7_0_OFFSET UNITYSDK_OFFSET(0xC93AB40)
+#define RPG_CLIENT_STORYLINEMODULE___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x19C44DB0)
+#define RPG_CLIENT_STORYLINEMODULE___C__CTOR_OFFSET UNITYSDK_OFFSET(0x19C44DE0)
+#define RPG_CLIENT_STORYLINEMODULE___C__SENDSTORYLINEDATA_B__7_0_OFFSET UNITYSDK_OFFSET(0x19C44DF0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int StoryLineModule___c_TypeDefinitionIndex = 63614;
+	inline static constexpr unsigned int StoryLineModule___c_TypeDefinitionIndex = 64981;
 
 	class StoryLineModule___c : public ::System::Object
 	{
 	public:
-		static ::System::Func_2<::RPG::Client::StoryLineData*, ::RPG::Client::Promises::IPromise*>** StaticGet___9__7_0()
-		{
-			return (::System::Func_2<::RPG::Client::StoryLineData*, ::RPG::Client::Promises::IPromise*>**)Il2CppClass::FromTypeDefinitionIndex(StoryLineModule___c_TypeDefinitionIndex)->GetStaticField(0x4B3E0);
-		}
 		static ::RPG::Client::StoryLineModule___c** StaticGet___9()
 		{
-			return (::RPG::Client::StoryLineModule___c**)Il2CppClass::FromTypeDefinitionIndex(StoryLineModule___c_TypeDefinitionIndex)->GetStaticField(0x4B3E8);
+			return (::RPG::Client::StoryLineModule___c**)Il2CppClass::FromTypeDefinitionIndex(StoryLineModule___c_TypeDefinitionIndex)->GetStaticField(0x37E90);
+		}
+		static ::System::Func_2<::RPG::Client::StoryLineData*, ::RPG::Client::Promises::IPromise*>** StaticGet___9__7_0()
+		{
+			return (::System::Func_2<::RPG::Client::StoryLineData*, ::RPG::Client::Promises::IPromise*>**)Il2CppClass::FromTypeDefinitionIndex(StoryLineModule___c_TypeDefinitionIndex)->GetStaticField(0x37E98);
 		}
 
 		static ::System::Void _cctor()

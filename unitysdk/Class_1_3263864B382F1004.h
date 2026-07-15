@@ -1,0 +1,65 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+#include "unitysdk/UnityEngine/Rect.h"
+
+namespace MiHoYoSDKJSON { class JSONNode; }
+namespace System { class String; }
+
+#define CLASS_1_3263864B382F1004_DISPOSE_OFFSET UNITYSDK_OFFSET(0x15856D10)
+#define CLASS_1_3263864B382F1004_METHOD_1_099F3BEF18B7C862_OFFSET UNITYSDK_OFFSET(0x15856F70)
+#define CLASS_1_3263864B382F1004_METHOD_1_4B720A8549DC5EC3_OFFSET UNITYSDK_OFFSET(0x15856BE0)
+#define CLASS_1_3263864B382F1004_METHOD_1_6B11E8FE97F72BB5_OFFSET UNITYSDK_OFFSET(0x158579D0)
+#define CLASS_1_3263864B382F1004_METHOD_1_A1D8CD775DEC3C21_1_OFFSET UNITYSDK_OFFSET(0x15856CC0)
+#define CLASS_1_3263864B382F1004_METHOD_1_A1D8CD775DEC3C21_OFFSET UNITYSDK_OFFSET(0x15856C70)
+#define CLASS_1_3263864B382F1004_METHOD_1_D627EB1FE456DB0C_OFFSET UNITYSDK_OFFSET(0x15857160)
+#define CLASS_1_3263864B382F1004__CTOR_OFFSET UNITYSDK_OFFSET(0x15856DF0)
+
+inline static constexpr unsigned int Class_1_3263864B382F1004_TypeDefinitionIndex = 57403;
+
+class Class_1_3263864B382F1004 : public ::System::Object
+{
+public:
+	::System::Boolean Field_1_0; // 0x10
+	::UnityEngine::Rect Field_1_1; // 0x14
+
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_3263864B382F1004__CTOR_OFFSET))(this);
+	}
+
+	::UnityEngine::Rect Method_1_4B720A8549DC5EC3()
+	{
+		return ((::UnityEngine::Rect(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_3263864B382F1004_METHOD_1_4B720A8549DC5EC3_OFFSET))(this);
+	}
+
+	::System::Int32 Method_1_A1D8CD775DEC3C21()
+	{
+		return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_3263864B382F1004_METHOD_1_A1D8CD775DEC3C21_OFFSET))(this);
+	}
+
+	::System::Int32 Method_1_A1D8CD775DEC3C21_1()
+	{
+		return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_3263864B382F1004_METHOD_1_A1D8CD775DEC3C21_1_OFFSET))(this);
+	}
+
+	::System::Void Dispose()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_3263864B382F1004_DISPOSE_OFFSET))(this);
+	}
+
+	::System::Void Method_1_099F3BEF18B7C862(::MiHoYoSDKJSON::JSONNode* a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::MiHoYoSDKJSON::JSONNode*))((::PBYTE)hIl2Cpp + CLASS_1_3263864B382F1004_METHOD_1_099F3BEF18B7C862_OFFSET))(this, a1);
+	}
+
+	::System::Void Method_1_6B11E8FE97F72BB5(::System::String* a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + CLASS_1_3263864B382F1004_METHOD_1_6B11E8FE97F72BB5_OFFSET))(this, a1);
+	}
+
+	::System::Void Method_1_D627EB1FE456DB0C(::MiHoYoSDKJSON::JSONNode* a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::MiHoYoSDKJSON::JSONNode*))((::PBYTE)hIl2Cpp + CLASS_1_3263864B382F1004_METHOD_1_D627EB1FE456DB0C_OFFSET))(this, a1);
+	}
+};

@@ -5,9 +5,9 @@
 
 namespace RPG::GameCore { class LevelPedestrianV2RoadPointInfo; }
 
-#define CLASS_1_C8D1FDF5B7DC671F_STRUCT_2_337F30C7300DA789__CTOR_OFFSET UNITYSDK_OFFSET(0x829C0)
+#define CLASS_1_C8D1FDF5B7DC671F_STRUCT_2_337F30C7300DA789__CTOR_OFFSET UNITYSDK_OFFSET(0x3959070)
 
-inline static constexpr unsigned int Class_1_C8D1FDF5B7DC671F_Struct_2_337F30C7300DA789_TypeDefinitionIndex = 64808;
+inline static constexpr unsigned int Class_1_C8D1FDF5B7DC671F_Struct_2_337F30C7300DA789_TypeDefinitionIndex = 66209;
 
 struct alignas(4) Class_1_C8D1FDF5B7DC671F_Struct_2_337F30C7300DA789
 {

@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define RPG_CLIENT_PROP_STONEINFO__CTOR_OFFSET UNITYSDK_OFFSET(0xC629940)
+#define RPG_CLIENT_PROP_STONEINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x1610E4C0)
 
 namespace RPG::Client::Prop
 {
-	inline static constexpr unsigned int StoneInfo_TypeDefinitionIndex = 73038;
+	inline static constexpr unsigned int StoneInfo_TypeDefinitionIndex = 74563;
 
 	class StoneInfo : public ::System::Object
 	{

@@ -5,13 +5,13 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_SETNAVIGATIONTARGET_METHOD_3_33926BDD4A112554_OFFSET UNITYSDK_OFFSET(0x19C5A170)
-#define RPG_GAMECORE_SETNAVIGATIONTARGET_METHOD_3_4664254D2B22BF45_OFFSET UNITYSDK_OFFSET(0x19C5A1F0)
-#define RPG_GAMECORE_SETNAVIGATIONTARGET__CTOR_OFFSET UNITYSDK_OFFSET(0x19C5A1C0)
+#define RPG_GAMECORE_SETNAVIGATIONTARGET_METHOD_3_4664254D2B22BF45_OFFSET UNITYSDK_OFFSET(0x1C604460)
+#define RPG_GAMECORE_SETNAVIGATIONTARGET_METHOD_3_D5EF00CFCDB6BF86_OFFSET UNITYSDK_OFFSET(0x1C604420)
+#define RPG_GAMECORE_SETNAVIGATIONTARGET__CTOR_OFFSET UNITYSDK_OFFSET(0x1C604450)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SetNavigationTarget_TypeDefinitionIndex = 23034;
+	inline static constexpr unsigned int SetNavigationTarget_TypeDefinitionIndex = 23501;
 
 	class SetNavigationTarget : public ::RPG::GameCore::TaskConfig
 	{
@@ -23,9 +23,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETNAVIGATIONTARGET__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_33926BDD4A112554(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SetNavigationTarget*& a2)
+		static ::System::Void Method_3_D5EF00CFCDB6BF86(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SetNavigationTarget*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SetNavigationTarget*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETNAVIGATIONTARGET_METHOD_3_33926BDD4A112554_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SetNavigationTarget*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETNAVIGATIONTARGET_METHOD_3_D5EF00CFCDB6BF86_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_4664254D2B22BF45(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SetNavigationTarget* a2)

@@ -4,23 +4,23 @@
 
 namespace System { class String; }
 
-#define SYSTEM_XML_LINQ_XDECLARATION_GET_ENCODING_OFFSET UNITYSDK_OFFSET(0x1AE0D0A0)
-#define SYSTEM_XML_LINQ_XDECLARATION_GET_STANDALONE_OFFSET UNITYSDK_OFFSET(0x1AE0D0B0)
-#define SYSTEM_XML_LINQ_XDECLARATION_GET_VERSION_OFFSET UNITYSDK_OFFSET(0x1AE0D0C0)
-#define SYSTEM_XML_LINQ_XDECLARATION_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1AE0D0D0)
-#define SYSTEM_XML_LINQ_XDECLARATION__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1AE0D020)
-#define SYSTEM_XML_LINQ_XDECLARATION__CTOR_OFFSET UNITYSDK_OFFSET(0x1AE0D010)
+#define SYSTEM_XML_LINQ_XDECLARATION_GET_ENCODING_OFFSET UNITYSDK_OFFSET(0x1D1A1C00)
+#define SYSTEM_XML_LINQ_XDECLARATION_GET_STANDALONE_OFFSET UNITYSDK_OFFSET(0x1D1A1C10)
+#define SYSTEM_XML_LINQ_XDECLARATION_GET_VERSION_OFFSET UNITYSDK_OFFSET(0x1D1A1C20)
+#define SYSTEM_XML_LINQ_XDECLARATION_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1D1A1C30)
+#define SYSTEM_XML_LINQ_XDECLARATION__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1D1A1B80)
+#define SYSTEM_XML_LINQ_XDECLARATION__CTOR_OFFSET UNITYSDK_OFFSET(0x1D1A1B70)
 
 namespace System::Xml::Linq
 {
-	inline static constexpr unsigned int XDeclaration_TypeDefinitionIndex = 3893;
+	inline static constexpr unsigned int XDeclaration_TypeDefinitionIndex = 3897;
 
 	class XDeclaration : public ::System::Object
 	{
 	public:
-		::System::String* version; // 0x10
-		::System::String* encoding; // 0x18
-		::System::String* standalone; // 0x20
+		::System::String* encoding; // 0x10
+		::System::String* standalone; // 0x18
+		::System::String* version; // 0x20
 
 		::System::Void _ctor(::System::String* a1, ::System::String* a2, ::System::String* a3)
 		{

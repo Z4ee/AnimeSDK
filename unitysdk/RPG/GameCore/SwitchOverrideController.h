@@ -5,13 +5,13 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class DynamicString; }
 
-#define RPG_GAMECORE_SWITCHOVERRIDECONTROLLER_METHOD_3_A7D50C8CA9209F66_OFFSET UNITYSDK_OFFSET(0x19CDDC30)
-#define RPG_GAMECORE_SWITCHOVERRIDECONTROLLER_METHOD_3_B109BFD407E4A86F_OFFSET UNITYSDK_OFFSET(0x19CDDCB0)
-#define RPG_GAMECORE_SWITCHOVERRIDECONTROLLER__CTOR_OFFSET UNITYSDK_OFFSET(0x19CDDC80)
+#define RPG_GAMECORE_SWITCHOVERRIDECONTROLLER_METHOD_3_B109BFD407E4A86F_OFFSET UNITYSDK_OFFSET(0x1B438D90)
+#define RPG_GAMECORE_SWITCHOVERRIDECONTROLLER_METHOD_3_C01B40592657B9CE_OFFSET UNITYSDK_OFFSET(0x1B438D50)
+#define RPG_GAMECORE_SWITCHOVERRIDECONTROLLER__CTOR_OFFSET UNITYSDK_OFFSET(0x1B438D80)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SwitchOverrideController_TypeDefinitionIndex = 21523;
+	inline static constexpr unsigned int SwitchOverrideController_TypeDefinitionIndex = 21944;
 
 	class SwitchOverrideController : public ::RPG::GameCore::TaskConfig
 	{
@@ -24,9 +24,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SWITCHOVERRIDECONTROLLER__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_A7D50C8CA9209F66(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SwitchOverrideController*& a2)
+		static ::System::Void Method_3_C01B40592657B9CE(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SwitchOverrideController*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SwitchOverrideController*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SWITCHOVERRIDECONTROLLER_METHOD_3_A7D50C8CA9209F66_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SwitchOverrideController*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SWITCHOVERRIDECONTROLLER_METHOD_3_C01B40592657B9CE_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_B109BFD407E4A86F(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SwitchOverrideController* a2)

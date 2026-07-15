@@ -3,7 +3,7 @@
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int FileDownloadStatus_TypeDefinitionIndex = 43691;
+	inline static constexpr unsigned int FileDownloadStatus_TypeDefinitionIndex = 44553;
 
 	enum class FileDownloadStatus : ::System::Int32
 	{

@@ -9,7 +9,7 @@ namespace System::Net::Http::Headers { template <typename T> class TryParseListD
 
 namespace System::Net::Http::Headers
 {
-	inline static constexpr unsigned int HeaderInfo_CollectionHeaderTypeInfo_2_TypeDefinitionIndex = 3777;
+	inline static constexpr unsigned int HeaderInfo_CollectionHeaderTypeInfo_2_TypeDefinitionIndex = 3781;
 
 	template <typename T, typename U>
 	class HeaderInfo_CollectionHeaderTypeInfo_2 : public ::System::Net::Http::Headers::HeaderInfo_HeaderTypeInfo_2<T, U>

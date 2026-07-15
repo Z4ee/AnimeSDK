@@ -1,16 +1,16 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Class_1_43BD383C98B4C0C5_16.h"
+#include "unitysdk/Class_1_43BD383C98B4C0C5_17.h"
 
 class Class_3_F65294BF89CA0784;
 namespace RPG::GameCore { class DiceCombatAIEffectEvaluatorConfig_DiceSelectCount; }
 
-#define CLASS_2_D50AC6F41C10E107_METHOD_2_861970C5F2C21AB2_OFFSET UNITYSDK_OFFSET(0x18AF5080)
-#define CLASS_2_D50AC6F41C10E107__CTOR_OFFSET UNITYSDK_OFFSET(0x18AEF370)
+#define CLASS_2_D50AC6F41C10E107_METHOD_2_861970C5F2C21AB2_OFFSET UNITYSDK_OFFSET(0x17B3B1C0)
+#define CLASS_2_D50AC6F41C10E107__CTOR_OFFSET UNITYSDK_OFFSET(0x17B34D00)
 
-inline static constexpr unsigned int Class_2_D50AC6F41C10E107_TypeDefinitionIndex = 34290;
+inline static constexpr unsigned int Class_2_D50AC6F41C10E107_TypeDefinitionIndex = 34672;
 
-class Class_2_D50AC6F41C10E107 : public ::Class_1_43BD383C98B4C0C5_16
+class Class_2_D50AC6F41C10E107 : public ::Class_1_43BD383C98B4C0C5_17
 {
 public:
 	::RPG::GameCore::DiceCombatAIEffectEvaluatorConfig_DiceSelectCount* Field_2_0; // 0x10

@@ -5,18 +5,18 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_CHATBUBBLEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x196170B0)
-#define RPG_GAMECORE_CHATBUBBLEROW__CTOR_OFFSET UNITYSDK_OFFSET(0x19617220)
+#define RPG_GAMECORE_CHATBUBBLEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B72CAD0)
+#define RPG_GAMECORE_CHATBUBBLEROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1B72CC40)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ChatBubbleRow_TypeDefinitionIndex = 12372;
+	inline static constexpr unsigned int ChatBubbleRow_TypeDefinitionIndex = 12505;
 
 	class ChatBubbleRow : public ::System::Object
 	{
 	public:
-		::System::UInt32 ShowParam; // 0x10
-		::System::UInt32 ID; // 0x14
+		::System::UInt32 ID; // 0x10
+		::System::UInt32 ShowParam; // 0x14
 		::RPG::GameCore::PersonalizeShowType ShowType; // 0x18
 
 		::System::Void _ctor()

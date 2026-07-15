@@ -8,23 +8,23 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class ItemConfig; }
 
-#define RPG_GAMECORE_INTERACTROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x19852180)
-#define RPG_GAMECORE_INTERACTROW__CTOR_OFFSET UNITYSDK_OFFSET(0x19852470)
+#define RPG_GAMECORE_INTERACTROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B011CA0)
+#define RPG_GAMECORE_INTERACTROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1B012400)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int InteractRow_TypeDefinitionIndex = 13833;
+	inline static constexpr unsigned int InteractRow_TypeDefinitionIndex = 13981;
 
 	class InteractRow : public ::System::Object
 	{
 	public:
 		::Il2CppArray<::RPG::GameCore::ItemConfig*>* ItemCostList; // 0x10
-		::RPG::GameCore::PropState TargetState; // 0x18
-		::System::UInt32 InteractID; // 0x1C
-		::RPG::GameCore::PropState SrcState; // 0x20
-		::RPG::GameCore::InteractCostType InteractCostType; // 0x24
-		::System::Boolean IsEvent; // 0x28
-		::RPG::Client::TextID InteractDesc; // 0x30
+		::RPG::Client::TextID InteractDesc; // 0x18
+		::RPG::GameCore::PropState TargetState; // 0x28
+		::System::Boolean IsEvent; // 0x2C
+		::System::UInt32 InteractID; // 0x30
+		::RPG::GameCore::InteractCostType InteractCostType; // 0x34
+		::RPG::GameCore::PropState SrcState; // 0x38
 
 		::System::Void _ctor()
 		{

@@ -5,20 +5,20 @@
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class IEnumerator_1; }
 
-#define RPG_CLIENT_COMPONENTASSETLOADERBASE_COLLECTALLREFASSETPATH_OFFSET UNITYSDK_OFFSET(0xB6FE660)
-#define RPG_CLIENT_COMPONENTASSETLOADERBASE__CCTOR_OFFSET UNITYSDK_OFFSET(0xB700F20)
-#define RPG_CLIENT_COMPONENTASSETLOADERBASE__CTOR_OFFSET UNITYSDK_OFFSET(0xB6FE5B0)
+#define RPG_CLIENT_COMPONENTASSETLOADERBASE_COLLECTALLREFASSETPATH_OFFSET UNITYSDK_OFFSET(0x180163B0)
+#define RPG_CLIENT_COMPONENTASSETLOADERBASE__CCTOR_OFFSET UNITYSDK_OFFSET(0x18016440)
+#define RPG_CLIENT_COMPONENTASSETLOADERBASE__CTOR_OFFSET UNITYSDK_OFFSET(0x18013F50)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ComponentAssetLoaderBase_TypeDefinitionIndex = 63988;
+	inline static constexpr unsigned int ComponentAssetLoaderBase_TypeDefinitionIndex = 65359;
 
 	class ComponentAssetLoaderBase : public ::UnityEngine::MonoBehaviour
 	{
 	public:
 		static ::System::Boolean* StaticGet_AutoLoadInEditor()
 		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(ComponentAssetLoaderBase_TypeDefinitionIndex)->GetStaticField(0x13D70);
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(ComponentAssetLoaderBase_TypeDefinitionIndex)->GetStaticField(0x14450);
 		}
 
 		::System::Void _ctor()

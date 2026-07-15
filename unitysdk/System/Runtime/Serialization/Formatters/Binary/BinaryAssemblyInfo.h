@@ -5,19 +5,19 @@
 namespace System { class String; }
 namespace System::Reflection { class Assembly; }
 
-#define SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_BINARYASSEMBLYINFO_GETASSEMBLY_OFFSET UNITYSDK_OFFSET(0x187A8C90)
-#define SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_BINARYASSEMBLYINFO__CTOR_1_OFFSET UNITYSDK_OFFSET(0x187A8C80)
-#define SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_BINARYASSEMBLYINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x187A8C70)
+#define SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_BINARYASSEMBLYINFO_GETASSEMBLY_OFFSET UNITYSDK_OFFSET(0x17915140)
+#define SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_BINARYASSEMBLYINFO__CTOR_1_OFFSET UNITYSDK_OFFSET(0x17915130)
+#define SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_BINARYASSEMBLYINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x17915120)
 
 namespace System::Runtime::Serialization::Formatters::Binary
 {
-	inline static constexpr unsigned int BinaryAssemblyInfo_TypeDefinitionIndex = 1136;
+	inline static constexpr unsigned int BinaryAssemblyInfo_TypeDefinitionIndex = 1138;
 
 	class BinaryAssemblyInfo : public ::System::Object
 	{
 	public:
-		::System::String* assemblyString; // 0x10
-		::System::Reflection::Assembly* assembly; // 0x18
+		::System::Reflection::Assembly* assembly; // 0x10
+		::System::String* assemblyString; // 0x18
 
 		::System::Void _ctor(::System::String* a1)
 		{

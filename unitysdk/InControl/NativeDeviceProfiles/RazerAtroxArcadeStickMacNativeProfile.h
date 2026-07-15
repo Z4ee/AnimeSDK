@@ -2,12 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/InControl/NativeDeviceProfiles/Xbox360DriverMacNativeProfile.h"
 
-#define INCONTROL_NATIVEDEVICEPROFILES_RAZERATROXARCADESTICKMACNATIVEPROFILE_DEFINE_OFFSET UNITYSDK_OFFSET(0x18000C70)
-#define INCONTROL_NATIVEDEVICEPROFILES_RAZERATROXARCADESTICKMACNATIVEPROFILE__CTOR_OFFSET UNITYSDK_OFFSET(0x18000D20)
+#define INCONTROL_NATIVEDEVICEPROFILES_RAZERATROXARCADESTICKMACNATIVEPROFILE_DEFINE_OFFSET UNITYSDK_OFFSET(0x132CD900)
+#define INCONTROL_NATIVEDEVICEPROFILES_RAZERATROXARCADESTICKMACNATIVEPROFILE__CTOR_OFFSET UNITYSDK_OFFSET(0x132CD9B0)
 
 namespace InControl::NativeDeviceProfiles
 {
-	inline static constexpr unsigned int RazerAtroxArcadeStickMacNativeProfile_TypeDefinitionIndex = 38256;
+	inline static constexpr unsigned int RazerAtroxArcadeStickMacNativeProfile_TypeDefinitionIndex = 39064;
 
 	class RazerAtroxArcadeStickMacNativeProfile : public ::InControl::NativeDeviceProfiles::Xbox360DriverMacNativeProfile
 	{

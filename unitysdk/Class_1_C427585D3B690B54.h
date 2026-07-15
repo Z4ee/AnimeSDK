@@ -7,22 +7,22 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class Material; }
 namespace UnityEngine { class Renderer; }
 
-#define CLASS_1_C427585D3B690B54_METHOD_1_4902E6AECD9F20DD_OFFSET UNITYSDK_OFFSET(0xAB6FBB0)
-#define CLASS_1_C427585D3B690B54__CCTOR_OFFSET UNITYSDK_OFFSET(0xAB6FD60)
-#define CLASS_1_C427585D3B690B54__CTOR_OFFSET UNITYSDK_OFFSET(0xAB6FD50)
+#define CLASS_1_C427585D3B690B54_METHOD_1_4902E6AECD9F20DD_OFFSET UNITYSDK_OFFSET(0x16CE8820)
+#define CLASS_1_C427585D3B690B54__CCTOR_OFFSET UNITYSDK_OFFSET(0x16CE89D0)
+#define CLASS_1_C427585D3B690B54__CTOR_OFFSET UNITYSDK_OFFSET(0x16CE89C0)
 
-inline static constexpr unsigned int Class_1_C427585D3B690B54_TypeDefinitionIndex = 68975;
+inline static constexpr unsigned int Class_1_C427585D3B690B54_TypeDefinitionIndex = 70502;
 
 class Class_1_C427585D3B690B54 : public ::System::Object
 {
 public:
-	static ::System::Collections::Generic::List_1<::UnityEngine::Renderer*>** StaticGet_Field_1_0()
+	static ::System::Collections::Generic::Dictionary_2<::System::Int32, ::Il2CppArray<::UnityEngine::Material*>*>** StaticGet_Field_1_0()
 	{
-		return (::System::Collections::Generic::List_1<::UnityEngine::Renderer*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_C427585D3B690B54_TypeDefinitionIndex)->GetStaticField(0xAB10);
+		return (::System::Collections::Generic::Dictionary_2<::System::Int32, ::Il2CppArray<::UnityEngine::Material*>*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_C427585D3B690B54_TypeDefinitionIndex)->GetStaticField(0x6B3F0);
 	}
-	static ::System::Collections::Generic::Dictionary_2<::System::Int32, ::Il2CppArray<::UnityEngine::Material*>*>** StaticGet_Field_1_1()
+	static ::System::Collections::Generic::List_1<::UnityEngine::Renderer*>** StaticGet_Field_1_1()
 	{
-		return (::System::Collections::Generic::Dictionary_2<::System::Int32, ::Il2CppArray<::UnityEngine::Material*>*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_C427585D3B690B54_TypeDefinitionIndex)->GetStaticField(0xAB18);
+		return (::System::Collections::Generic::List_1<::UnityEngine::Renderer*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_C427585D3B690B54_TypeDefinitionIndex)->GetStaticField(0x6B3F8);
 	}
 
 	::System::Void _ctor()

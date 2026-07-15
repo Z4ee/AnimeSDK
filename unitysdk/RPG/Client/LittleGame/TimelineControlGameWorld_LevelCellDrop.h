@@ -4,7 +4,7 @@
 
 namespace RPG::Client::LittleGame
 {
-	inline static constexpr unsigned int TimelineControlGameWorld_LevelCellDrop_TypeDefinitionIndex = 39524;
+	inline static constexpr unsigned int TimelineControlGameWorld_LevelCellDrop_TypeDefinitionIndex = 40333;
 
 	struct alignas(4) TimelineControlGameWorld_LevelCellDrop
 	{

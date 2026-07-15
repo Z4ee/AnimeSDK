@@ -7,7 +7,7 @@ namespace System::Runtime::Serialization { class SerializationInfo; }
 
 namespace System::Collections::Generic
 {
-	inline static constexpr unsigned int SByteEnumEqualityComparer_1_TypeDefinitionIndex = 1544;
+	inline static constexpr unsigned int SByteEnumEqualityComparer_1_TypeDefinitionIndex = 1548;
 
 	template <typename T>
 	class SByteEnumEqualityComparer_1 : public ::System::Collections::Generic::EnumEqualityComparer_1<T>

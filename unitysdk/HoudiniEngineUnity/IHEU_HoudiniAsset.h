@@ -33,7 +33,7 @@ namespace UnityEngine { class Material; }
 
 namespace HoudiniEngineUnity
 {
-	inline static constexpr unsigned int IHEU_HoudiniAsset_TypeDefinitionIndex = 37596;
+	inline static constexpr unsigned int IHEU_HoudiniAsset_TypeDefinitionIndex = 38404;
 
 	class IHEU_HoudiniAsset
 	{

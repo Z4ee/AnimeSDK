@@ -1,10 +1,10 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/RPG/GameCore/RtModifierBehaviorLifeBinding.h"
 
-class Class_2_24193089A4D2255F;
+class Class_0_16E4307DCC419505_372;
+namespace System { class String; }
 
-inline static constexpr unsigned int Class_0_16E4307DCC419505_428_TypeDefinitionIndex = 50226;
+inline static constexpr unsigned int Class_0_16E4307DCC419505_428_TypeDefinitionIndex = 58170;
 
 class Class_0_16E4307DCC419505_428
 {

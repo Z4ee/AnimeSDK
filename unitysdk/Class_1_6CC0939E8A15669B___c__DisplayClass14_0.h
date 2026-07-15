@@ -7,20 +7,20 @@ class Class_1_0A490681D87FEF21;
 class Class_1_877AA22B04AFB81F_2;
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define CLASS_1_6CC0939E8A15669B___C__DISPLAYCLASS14_0__CTOR_OFFSET UNITYSDK_OFFSET(0x189AC040)
-#define CLASS_1_6CC0939E8A15669B___C__DISPLAYCLASS14_0__GETFARTARGETROUGHGOALWEIGHTCOMPUTER_B__0_OFFSET UNITYSDK_OFFSET(0x189AECD0)
-#define CLASS_1_6CC0939E8A15669B___C__DISPLAYCLASS14_0__GETFARTARGETROUGHGOALWEIGHTCOMPUTER_B__1_OFFSET UNITYSDK_OFFSET(0x189AED30)
+#define CLASS_1_6CC0939E8A15669B___C__DISPLAYCLASS14_0__CTOR_OFFSET UNITYSDK_OFFSET(0x14A9A840)
+#define CLASS_1_6CC0939E8A15669B___C__DISPLAYCLASS14_0__GETFARTARGETROUGHGOALWEIGHTCOMPUTER_B__0_OFFSET UNITYSDK_OFFSET(0x14A9D390)
+#define CLASS_1_6CC0939E8A15669B___C__DISPLAYCLASS14_0__GETFARTARGETROUGHGOALWEIGHTCOMPUTER_B__1_OFFSET UNITYSDK_OFFSET(0x14A9D3F0)
 
-inline static constexpr unsigned int Class_1_6CC0939E8A15669B___c__DisplayClass14_0_TypeDefinitionIndex = 34937;
+inline static constexpr unsigned int Class_1_6CC0939E8A15669B___c__DisplayClass14_0_TypeDefinitionIndex = 35719;
 
 class Class_1_6CC0939E8A15669B___c__DisplayClass14_0 : public ::System::Object
 {
 public:
 	::System::Collections::Generic::Dictionary_2<::System::ValueTuple_2<::System::UInt32, ::System::UInt32>, ::System::UInt32>* preferPos; // 0x10
-	::System::Int32 targetY; // 0x18
-	::System::Int32 xDiff; // 0x1C
-	::System::Int32 yDiff; // 0x20
-	::System::Int32 targetX; // 0x24
+	::System::Int32 xDiff; // 0x18
+	::System::Int32 yDiff; // 0x1C
+	::System::Int32 targetX; // 0x20
+	::System::Int32 targetY; // 0x24
 
 	::System::Void _ctor()
 	{

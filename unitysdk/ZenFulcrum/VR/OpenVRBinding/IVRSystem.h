@@ -50,7 +50,7 @@ namespace ZenFulcrum::VR::OpenVRBinding { class IVRSystem__TriggerHapticPulse; }
 
 namespace ZenFulcrum::VR::OpenVRBinding
 {
-	inline static constexpr unsigned int IVRSystem_TypeDefinitionIndex = 35951;
+	inline static constexpr unsigned int IVRSystem_TypeDefinitionIndex = 36733;
 
 	struct alignas(8) IVRSystem
 	{

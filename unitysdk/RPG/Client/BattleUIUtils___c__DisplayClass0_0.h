@@ -4,12 +4,12 @@
 
 namespace RPG::GameCore { class TurnBasedModifierInstance; }
 
-#define RPG_CLIENT_BATTLEUIUTILS___C__DISPLAYCLASS0_0__CTOR_OFFSET UNITYSDK_OFFSET(0xB41C9B0)
-#define RPG_CLIENT_BATTLEUIUTILS___C__DISPLAYCLASS0_0__ISENTITYHAVESHIELDBUFF_B__0_OFFSET UNITYSDK_OFFSET(0xB423FA0)
+#define RPG_CLIENT_BATTLEUIUTILS___C__DISPLAYCLASS0_0__CTOR_OFFSET UNITYSDK_OFFSET(0x19FC29F0)
+#define RPG_CLIENT_BATTLEUIUTILS___C__DISPLAYCLASS0_0__ISENTITYHAVESHIELDBUFF_B__0_OFFSET UNITYSDK_OFFSET(0x19FCA100)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int BattleUIUtils___c__DisplayClass0_0_TypeDefinitionIndex = 67341;
+	inline static constexpr unsigned int BattleUIUtils___c__DisplayClass0_0_TypeDefinitionIndex = 68810;
 
 	class BattleUIUtils___c__DisplayClass0_0 : public ::System::Object
 	{

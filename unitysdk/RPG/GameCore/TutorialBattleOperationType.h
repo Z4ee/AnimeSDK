@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TutorialBattleOperationType_TypeDefinitionIndex = 23457;
+	inline static constexpr unsigned int TutorialBattleOperationType_TypeDefinitionIndex = 23946;
 
 	enum class TutorialBattleOperationType : ::System::Int32
 	{
@@ -17,5 +17,8 @@ namespace RPG::GameCore
 		UseUltra = 7,
 		BattleEvent = 8,
 		BattleQTE = 9,
+		AssistSkill = 10,
+		UltraSubSkill01 = 11,
+		UltraSubSkill02 = 12,
 	};
 }

@@ -4,7 +4,7 @@
 
 namespace Collections::Pooled
 {
-	inline static constexpr unsigned int PooledDictionary_2_Entry_TypeDefinitionIndex = 5079;
+	inline static constexpr unsigned int PooledDictionary_2_Entry_TypeDefinitionIndex = 5084;
 
 	template <typename TKey, typename TValue>
 	struct PooledDictionary_2_Entry

@@ -6,29 +6,29 @@
 namespace System { class Type; }
 namespace System::Runtime::Serialization::Formatters::Binary { class __BinaryWriter; }
 
-#define SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_BINARYMETHODRETURN_DUMP_OFFSET UNITYSDK_OFFSET(0x187AC130)
-#define SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_BINARYMETHODRETURN_WRITE_OFFSET UNITYSDK_OFFSET(0x187ABF80)
-#define SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_BINARYMETHODRETURN__CCTOR_OFFSET UNITYSDK_OFFSET(0x187ABEE0)
-#define SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_BINARYMETHODRETURN__CTOR_OFFSET UNITYSDK_OFFSET(0x187ABF70)
+#define SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_BINARYMETHODRETURN_DUMP_OFFSET UNITYSDK_OFFSET(0x17919710)
+#define SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_BINARYMETHODRETURN_WRITE_OFFSET UNITYSDK_OFFSET(0x179192C0)
+#define SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_BINARYMETHODRETURN__CCTOR_OFFSET UNITYSDK_OFFSET(0x17919220)
+#define SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_BINARYMETHODRETURN__CTOR_OFFSET UNITYSDK_OFFSET(0x179192B0)
 
 namespace System::Runtime::Serialization::Formatters::Binary
 {
-	inline static constexpr unsigned int BinaryMethodReturn_TypeDefinitionIndex = 1142;
+	inline static constexpr unsigned int BinaryMethodReturn_TypeDefinitionIndex = 1144;
 
 	class BinaryMethodReturn : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet_instanceOfVoid()
 		{
-			return (::System::Object**)Il2CppClass::FromTypeDefinitionIndex(BinaryMethodReturn_TypeDefinitionIndex)->GetStaticField(0xC960);
+			return (::System::Object**)Il2CppClass::FromTypeDefinitionIndex(BinaryMethodReturn_TypeDefinitionIndex)->GetStaticField(0x19790);
 		}
-		::System::Object* callContext; // 0x10
-		::System::Type* returnType; // 0x18
-		::Il2CppArray<::System::Object*>* args; // 0x20
-		::System::Object* returnValue; // 0x28
+		::System::Object* returnValue; // 0x10
+		::System::Object* callContext; // 0x18
+		::System::Type* returnType; // 0x20
+		::Il2CppArray<::System::Object*>* args; // 0x28
 		::Il2CppArray<::System::Type*>* argTypes; // 0x30
-		::System::Boolean bArgsPrimitive; // 0x38
-		::System::Runtime::Serialization::Formatters::Binary::MessageEnum messageEnum; // 0x3C
+		::System::Runtime::Serialization::Formatters::Binary::MessageEnum messageEnum; // 0x38
+		::System::Boolean bArgsPrimitive; // 0x3C
 
 		static ::System::Void _cctor()
 		{

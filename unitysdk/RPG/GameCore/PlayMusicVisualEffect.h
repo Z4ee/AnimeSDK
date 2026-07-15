@@ -6,13 +6,13 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class TargetEvaluator; }
 
-#define RPG_GAMECORE_PLAYMUSICVISUALEFFECT_METHOD_3_6CA89E29A255CA66_OFFSET UNITYSDK_OFFSET(0x19A25DF0)
-#define RPG_GAMECORE_PLAYMUSICVISUALEFFECT_METHOD_3_B9304EAB23A1A936_OFFSET UNITYSDK_OFFSET(0x19A25F40)
-#define RPG_GAMECORE_PLAYMUSICVISUALEFFECT__CTOR_OFFSET UNITYSDK_OFFSET(0x19A25EB0)
+#define RPG_GAMECORE_PLAYMUSICVISUALEFFECT_METHOD_3_B9304EAB23A1A936_OFFSET UNITYSDK_OFFSET(0x1BA04BD0)
+#define RPG_GAMECORE_PLAYMUSICVISUALEFFECT_METHOD_3_D82B8FE6BE772E60_OFFSET UNITYSDK_OFFSET(0x1BA04B50)
+#define RPG_GAMECORE_PLAYMUSICVISUALEFFECT__CTOR_OFFSET UNITYSDK_OFFSET(0x1BA04BA0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PlayMusicVisualEffect_TypeDefinitionIndex = 21085;
+	inline static constexpr unsigned int PlayMusicVisualEffect_TypeDefinitionIndex = 21500;
 
 	class PlayMusicVisualEffect : public ::RPG::GameCore::TaskConfig
 	{
@@ -25,9 +25,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PLAYMUSICVISUALEFFECT__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_6CA89E29A255CA66(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::PlayMusicVisualEffect*& a2)
+		static ::System::Void Method_3_D82B8FE6BE772E60(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::PlayMusicVisualEffect*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::PlayMusicVisualEffect*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PLAYMUSICVISUALEFFECT_METHOD_3_6CA89E29A255CA66_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::PlayMusicVisualEffect*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PLAYMUSICVISUALEFFECT_METHOD_3_D82B8FE6BE772E60_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_B9304EAB23A1A936(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::PlayMusicVisualEffect* a2)

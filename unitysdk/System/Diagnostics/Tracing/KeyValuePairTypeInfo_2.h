@@ -11,7 +11,7 @@ namespace System::Diagnostics::Tracing { template <typename T> class TraceLoggin
 
 namespace System::Diagnostics::Tracing
 {
-	inline static constexpr unsigned int KeyValuePairTypeInfo_2_TypeDefinitionIndex = 1646;
+	inline static constexpr unsigned int KeyValuePairTypeInfo_2_TypeDefinitionIndex = 1650;
 
 	template <typename K, typename V>
 	class KeyValuePairTypeInfo_2 : public ::System::Diagnostics::Tracing::TraceLoggingTypeInfo_1<::System::Collections::Generic::KeyValuePair_2<K, V>>

@@ -6,18 +6,18 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_ALLOWEDAUDIOLANGUAGEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x19475040)
-#define RPG_GAMECORE_ALLOWEDAUDIOLANGUAGEROW__CTOR_OFFSET UNITYSDK_OFFSET(0x194756A0)
+#define RPG_GAMECORE_ALLOWEDAUDIOLANGUAGEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1A0521D0)
+#define RPG_GAMECORE_ALLOWEDAUDIOLANGUAGEROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1A052870)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AllowedAudioLanguageRow_TypeDefinitionIndex = 12037;
+	inline static constexpr unsigned int AllowedAudioLanguageRow_TypeDefinitionIndex = 12169;
 
 	class AllowedAudioLanguageRow : public ::System::Object
 	{
 	public:
-		::System::String* AudioLanguageKey; // 0x10
-		::System::String* WwiseLanguageKey; // 0x18
+		::System::String* WwiseLanguageKey; // 0x10
+		::System::String* AudioLanguageKey; // 0x18
 		::System::UInt32 AudioTrackIndex; // 0x20
 		::RPG::Client::TextID ShowString; // 0x28
 

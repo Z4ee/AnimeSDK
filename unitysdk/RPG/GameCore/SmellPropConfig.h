@@ -6,12 +6,12 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class DynamicFloat; }
 namespace RPG::GameCore { class DynamicString; }
 
-#define RPG_GAMECORE_SMELLPROPCONFIG_METHOD_2_4C7EAA95ED67BAD2_OFFSET UNITYSDK_OFFSET(0x19C8FAE0)
-#define RPG_GAMECORE_SMELLPROPCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x19C8FC90)
+#define RPG_GAMECORE_SMELLPROPCONFIG_METHOD_2_FB7ED5B86124F5DB_OFFSET UNITYSDK_OFFSET(0x1BE52D60)
+#define RPG_GAMECORE_SMELLPROPCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1BE52EF0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SmellPropConfig_TypeDefinitionIndex = 19372;
+	inline static constexpr unsigned int SmellPropConfig_TypeDefinitionIndex = 19728;
 
 	class SmellPropConfig : public ::RPG::GameCore::JsonConfig
 	{
@@ -25,9 +25,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SMELLPROPCONFIG__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_4C7EAA95ED67BAD2(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SmellPropConfig*& a2)
+		static ::System::Void Method_2_FB7ED5B86124F5DB(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SmellPropConfig*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SmellPropConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SMELLPROPCONFIG_METHOD_2_4C7EAA95ED67BAD2_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SmellPropConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SMELLPROPCONFIG_METHOD_2_FB7ED5B86124F5DB_OFFSET))(a1, a2);
 		}
 	};
 }

@@ -1,6 +1,6 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Enum_3_0A3761FE34514D6C_80.h"
+#include "unitysdk/Enum_3_0A3761FE34514D6C_83.h"
 #include "unitysdk/System/Object.h"
 
 namespace Google::Protobuf { class CodedInputStream; }
@@ -10,41 +10,41 @@ namespace Google::Protobuf { template <typename T> class MessageParser_1; }
 namespace Google::Protobuf::Reflection { class MessageDescriptor; }
 namespace System { class String; }
 
-#define PROTO_TUTORIAL_CALCULATESIZE_OFFSET UNITYSDK_OFFSET(0x1A12FB20)
-#define PROTO_TUTORIAL_CLONE_OFFSET UNITYSDK_OFFSET(0x1A12F8A0)
-#define PROTO_TUTORIAL_EQUALS_1_OFFSET UNITYSDK_OFFSET(0x1A12F9A0)
-#define PROTO_TUTORIAL_EQUALS_OFFSET UNITYSDK_OFFSET(0x1A12F930)
-#define PROTO_TUTORIAL_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x1A12FA00)
-#define PROTO_TUTORIAL_GET_ID_OFFSET UNITYSDK_OFFSET(0x1A12F910)
-#define PROTO_TUTORIAL_GET_PARSER_OFFSET UNITYSDK_OFFSET(0x1A12F820)
-#define PROTO_TUTORIAL_GET_STATUS_OFFSET UNITYSDK_OFFSET(0x1A12F8F0)
-#define PROTO_TUTORIAL_MERGEFROM_1_OFFSET UNITYSDK_OFFSET(0x1A12FCB0)
-#define PROTO_TUTORIAL_MERGEFROM_OFFSET UNITYSDK_OFFSET(0x1A12FC70)
-#define PROTO_TUTORIAL_PB__GOOGLE_PROTOBUF_IMESSAGE_GET_DESCRIPTOR_OFFSET UNITYSDK_OFFSET(0x1A12F850)
-#define PROTO_TUTORIAL_SET_ID_OFFSET UNITYSDK_OFFSET(0x1A12F920)
-#define PROTO_TUTORIAL_SET_STATUS_OFFSET UNITYSDK_OFFSET(0x1A12F900)
-#define PROTO_TUTORIAL_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1A12FA30)
-#define PROTO_TUTORIAL_WRITETO_OFFSET UNITYSDK_OFFSET(0x1A12FA90)
-#define PROTO_TUTORIAL__CCTOR_OFFSET UNITYSDK_OFFSET(0x1A12FE30)
-#define PROTO_TUTORIAL__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1A12F870)
-#define PROTO_TUTORIAL__CTOR_OFFSET UNITYSDK_OFFSET(0x1A12F860)
+#define PROTO_TUTORIAL_CALCULATESIZE_OFFSET UNITYSDK_OFFSET(0x1BEFAB90)
+#define PROTO_TUTORIAL_CLONE_OFFSET UNITYSDK_OFFSET(0x1BEFA7D0)
+#define PROTO_TUTORIAL_EQUALS_1_OFFSET UNITYSDK_OFFSET(0x1BEFA940)
+#define PROTO_TUTORIAL_EQUALS_OFFSET UNITYSDK_OFFSET(0x1BEFA860)
+#define PROTO_TUTORIAL_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x1BEFAA10)
+#define PROTO_TUTORIAL_GET_ID_OFFSET UNITYSDK_OFFSET(0x1BEFA840)
+#define PROTO_TUTORIAL_GET_PARSER_OFFSET UNITYSDK_OFFSET(0x1BEFA750)
+#define PROTO_TUTORIAL_GET_STATUS_OFFSET UNITYSDK_OFFSET(0x1BEFA820)
+#define PROTO_TUTORIAL_MERGEFROM_1_OFFSET UNITYSDK_OFFSET(0x1BEFAD20)
+#define PROTO_TUTORIAL_MERGEFROM_OFFSET UNITYSDK_OFFSET(0x1BEFACE0)
+#define PROTO_TUTORIAL_PB__GOOGLE_PROTOBUF_IMESSAGE_GET_DESCRIPTOR_OFFSET UNITYSDK_OFFSET(0x1BEFA780)
+#define PROTO_TUTORIAL_SET_ID_OFFSET UNITYSDK_OFFSET(0x1BEFA850)
+#define PROTO_TUTORIAL_SET_STATUS_OFFSET UNITYSDK_OFFSET(0x1BEFA830)
+#define PROTO_TUTORIAL_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1BEFAA40)
+#define PROTO_TUTORIAL_WRITETO_OFFSET UNITYSDK_OFFSET(0x1BEFAAA0)
+#define PROTO_TUTORIAL__CCTOR_OFFSET UNITYSDK_OFFSET(0x1BEFAEA0)
+#define PROTO_TUTORIAL__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1BEFA7A0)
+#define PROTO_TUTORIAL__CTOR_OFFSET UNITYSDK_OFFSET(0x1BEFA790)
 
 namespace Proto
 {
-	inline static constexpr unsigned int Tutorial_TypeDefinitionIndex = 33239;
+	inline static constexpr unsigned int Tutorial_TypeDefinitionIndex = 33619;
 
 	class Tutorial : public ::System::Object
 	{
 	public:
 		static ::Google::Protobuf::MessageParser_1<::Proto::Tutorial*>** StaticGet__parser()
 		{
-			return (::Google::Protobuf::MessageParser_1<::Proto::Tutorial*>**)Il2CppClass::FromTypeDefinitionIndex(Tutorial_TypeDefinitionIndex)->GetStaticField(0x44820);
+			return (::Google::Protobuf::MessageParser_1<::Proto::Tutorial*>**)Il2CppClass::FromTypeDefinitionIndex(Tutorial_TypeDefinitionIndex)->GetStaticField(0x29030);
 		}
-		// static const ::System::Int32 StatusFieldNumber = 0xE; // 0x0
-		// static const ::System::Int32 IdFieldNumber = 0x4; // 0x0
+		// static const ::System::Int32 StatusFieldNumber = 0x3; // 0x0
+		// static const ::System::Int32 IdFieldNumber = 0xA; // 0x0
 		::Google::Protobuf::UnknownFieldSet* _unknownFields; // 0x10
-		::Enum_3_0A3761FE34514D6C_80 status_; // 0x18
-		::System::UInt32 id_; // 0x1C
+		::System::UInt32 id_; // 0x18
+		::Enum_3_0A3761FE34514D6C_83 status_; // 0x1C
 
 		::System::Void _ctor()
 		{
@@ -76,14 +76,14 @@ namespace Proto
 			return ((::Proto::Tutorial*(*)(::PVOID))((::PBYTE)hIl2Cpp + PROTO_TUTORIAL_CLONE_OFFSET))(this);
 		}
 
-		::Enum_3_0A3761FE34514D6C_80 get_Status()
+		::Enum_3_0A3761FE34514D6C_83 get_Status()
 		{
-			return ((::Enum_3_0A3761FE34514D6C_80(*)(::PVOID))((::PBYTE)hIl2Cpp + PROTO_TUTORIAL_GET_STATUS_OFFSET))(this);
+			return ((::Enum_3_0A3761FE34514D6C_83(*)(::PVOID))((::PBYTE)hIl2Cpp + PROTO_TUTORIAL_GET_STATUS_OFFSET))(this);
 		}
 
-		::System::Void set_Status(::Enum_3_0A3761FE34514D6C_80 a1)
+		::System::Void set_Status(::Enum_3_0A3761FE34514D6C_83 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Enum_3_0A3761FE34514D6C_80))((::PBYTE)hIl2Cpp + PROTO_TUTORIAL_SET_STATUS_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::Enum_3_0A3761FE34514D6C_83))((::PBYTE)hIl2Cpp + PROTO_TUTORIAL_SET_STATUS_OFFSET))(this, a1);
 		}
 
 		::System::UInt32 get_Id()

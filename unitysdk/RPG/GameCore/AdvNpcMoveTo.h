@@ -6,13 +6,13 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class DynamicString; }
 namespace RPG::GameCore { class TargetEvaluator; }
 
-#define RPG_GAMECORE_ADVNPCMOVETO_METHOD_3_745D829A68F0E1D3_OFFSET UNITYSDK_OFFSET(0x1942EA30)
-#define RPG_GAMECORE_ADVNPCMOVETO_METHOD_3_EC6A813F137DB8B9_OFFSET UNITYSDK_OFFSET(0x1942E8E0)
-#define RPG_GAMECORE_ADVNPCMOVETO__CTOR_OFFSET UNITYSDK_OFFSET(0x1942E9A0)
+#define RPG_GAMECORE_ADVNPCMOVETO_METHOD_3_4C362DC6FEE2EF1D_OFFSET UNITYSDK_OFFSET(0x1BE25DD0)
+#define RPG_GAMECORE_ADVNPCMOVETO_METHOD_3_745D829A68F0E1D3_OFFSET UNITYSDK_OFFSET(0x1BE25E50)
+#define RPG_GAMECORE_ADVNPCMOVETO__CTOR_OFFSET UNITYSDK_OFFSET(0x1BE25E20)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AdvNpcMoveTo_TypeDefinitionIndex = 20734;
+	inline static constexpr unsigned int AdvNpcMoveTo_TypeDefinitionIndex = 21149;
 
 	class AdvNpcMoveTo : public ::RPG::GameCore::TaskConfig
 	{
@@ -26,9 +26,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVNPCMOVETO__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_EC6A813F137DB8B9(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AdvNpcMoveTo*& a2)
+		static ::System::Void Method_3_4C362DC6FEE2EF1D(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AdvNpcMoveTo*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::AdvNpcMoveTo*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVNPCMOVETO_METHOD_3_EC6A813F137DB8B9_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::AdvNpcMoveTo*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVNPCMOVETO_METHOD_3_4C362DC6FEE2EF1D_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_745D829A68F0E1D3(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AdvNpcMoveTo* a2)

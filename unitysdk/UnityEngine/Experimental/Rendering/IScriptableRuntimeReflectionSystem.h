@@ -3,7 +3,7 @@
 
 namespace UnityEngine::Experimental::Rendering
 {
-	inline static constexpr unsigned int IScriptableRuntimeReflectionSystem_TypeDefinitionIndex = 4914;
+	inline static constexpr unsigned int IScriptableRuntimeReflectionSystem_TypeDefinitionIndex = 4919;
 
 	class IScriptableRuntimeReflectionSystem
 	{

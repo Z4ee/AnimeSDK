@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define TMPRO_TMP_TEXTELEMENT_LEGACY__CTOR_OFFSET UNITYSDK_OFFSET(0x1B1F58F0)
+#define TMPRO_TMP_TEXTELEMENT_LEGACY__CTOR_OFFSET UNITYSDK_OFFSET(0x1240E180)
 
 namespace TMPro
 {
-	inline static constexpr unsigned int TMP_TextElement_Legacy_TypeDefinitionIndex = 41046;
+	inline static constexpr unsigned int TMP_TextElement_Legacy_TypeDefinitionIndex = 41861;
 
 	class TMP_TextElement_Legacy : public ::System::Object
 	{

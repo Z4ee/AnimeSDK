@@ -8,16 +8,15 @@ namespace UnityEngine { class Sprite; }
 namespace UnityEngine { class Texture; }
 namespace UnityEngine::UI { class VertexHelper; }
 
-#define RPG_CLIENT_AUILINERENDER_GET_MAINTEXTURE_OFFSET UNITYSDK_OFFSET(0xB0740A0)
-#define RPG_CLIENT_AUILINERENDER_METHOD_7_1E2ADA6EB660284B_OFFSET UNITYSDK_OFFSET(0xB074CD0)
-#define RPG_CLIENT_AUILINERENDER_METHOD_7_EE31827DE295EEA2_OFFSET UNITYSDK_OFFSET(0xB074310)
-#define RPG_CLIENT_AUILINERENDER_ONPOPULATEMESH_OFFSET UNITYSDK_OFFSET(0xB0740B0)
-#define RPG_CLIENT_AUILINERENDER__CTOR_OFFSET UNITYSDK_OFFSET(0xB074DD0)
-#define RPG_CLIENT_AUILINERENDER___IFIXBASEPROXY_ONPOPULATEMESH_OFFSET UNITYSDK_OFFSET(0xB074EE0)
+#define RPG_CLIENT_AUILINERENDER_GET_MAINTEXTURE_OFFSET UNITYSDK_OFFSET(0x17470550)
+#define RPG_CLIENT_AUILINERENDER_METHOD_7_1E2ADA6EB660284B_OFFSET UNITYSDK_OFFSET(0x174711C0)
+#define RPG_CLIENT_AUILINERENDER_METHOD_7_EE31827DE295EEA2_OFFSET UNITYSDK_OFFSET(0x17470800)
+#define RPG_CLIENT_AUILINERENDER_ONPOPULATEMESH_OFFSET UNITYSDK_OFFSET(0x174705A0)
+#define RPG_CLIENT_AUILINERENDER__CTOR_OFFSET UNITYSDK_OFFSET(0x174712C0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int AUiLineRender_TypeDefinitionIndex = 67736;
+	inline static constexpr unsigned int AUiLineRender_TypeDefinitionIndex = 69220;
 
 	class AUiLineRender : public ::UnityEngine::UI::Graphic
 	{
@@ -53,11 +52,6 @@ namespace RPG::Client
 		::UnityEngine::Vector2 Method_7_1E2ADA6EB660284B(::UnityEngine::Vector2 a1, ::System::Single a2, ::System::Int32 a3)
 		{
 			return ((::UnityEngine::Vector2(*)(::PVOID, ::UnityEngine::Vector2, ::System::Single, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_AUILINERENDER_METHOD_7_1E2ADA6EB660284B_OFFSET))(this, a1, a2, a3);
-		}
-
-		::System::Void __iFixBaseProxy_OnPopulateMesh(::UnityEngine::UI::VertexHelper* a1)
-		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::UI::VertexHelper*))((::PBYTE)hIl2Cpp + RPG_CLIENT_AUILINERENDER___IFIXBASEPROXY_ONPOPULATEMESH_OFFSET))(this, a1);
 		}
 	};
 }

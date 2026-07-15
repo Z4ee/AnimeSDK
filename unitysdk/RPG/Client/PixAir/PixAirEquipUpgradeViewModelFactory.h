@@ -5,12 +5,12 @@
 namespace RPG::Client::PixAir { class PixAirEquipInstance; }
 namespace RPG::Client::PixAir { class PixAirEquipUpgradeViewModel; }
 
-#define RPG_CLIENT_PIXAIR_PIXAIREQUIPUPGRADEVIEWMODELFACTORY_CREATEFORPREVIEW_OFFSET UNITYSDK_OFFSET(0xC3C71E0)
-#define RPG_CLIENT_PIXAIR_PIXAIREQUIPUPGRADEVIEWMODELFACTORY_CREATEPREVIEWINSTANCE_OFFSET UNITYSDK_OFFSET(0xC3C7280)
+#define RPG_CLIENT_PIXAIR_PIXAIREQUIPUPGRADEVIEWMODELFACTORY_CREATEFORPREVIEW_OFFSET UNITYSDK_OFFSET(0x19ED5B80)
+#define RPG_CLIENT_PIXAIR_PIXAIREQUIPUPGRADEVIEWMODELFACTORY_CREATEPREVIEWINSTANCE_OFFSET UNITYSDK_OFFSET(0x19ED5C20)
 
 namespace RPG::Client::PixAir
 {
-	inline static constexpr unsigned int PixAirEquipUpgradeViewModelFactory_TypeDefinitionIndex = 73653;
+	inline static constexpr unsigned int PixAirEquipUpgradeViewModelFactory_TypeDefinitionIndex = 75302;
 
 	class PixAirEquipUpgradeViewModelFactory : public ::System::Object
 	{

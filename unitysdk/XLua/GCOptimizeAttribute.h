@@ -3,12 +3,12 @@
 #include "unitysdk/System/Attribute.h"
 #include "unitysdk/XLua/OptimizeFlag.h"
 
-#define XLUA_GCOPTIMIZEATTRIBUTE_GET_FLAG_OFFSET UNITYSDK_OFFSET(0x18932CB0)
-#define XLUA_GCOPTIMIZEATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x18932CC0)
+#define XLUA_GCOPTIMIZEATTRIBUTE_GET_FLAG_OFFSET UNITYSDK_OFFSET(0x1D305CA0)
+#define XLUA_GCOPTIMIZEATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1D305CB0)
 
 namespace XLua
 {
-	inline static constexpr unsigned int GCOptimizeAttribute_TypeDefinitionIndex = 5607;
+	inline static constexpr unsigned int GCOptimizeAttribute_TypeDefinitionIndex = 5612;
 
 	class GCOptimizeAttribute : public ::System::Attribute
 	{

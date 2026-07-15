@@ -22,13 +22,13 @@ namespace RPG::GameCore { class TriggerValidGuestConfig; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_GAMECORE_PROPCONFIG_METHOD_2_0AB84CB3665AAE0E_OFFSET UNITYSDK_OFFSET(0x19A87FA0)
-#define RPG_GAMECORE_PROPCONFIG_METHOD_2_5E25F0EC42AB184F_OFFSET UNITYSDK_OFFSET(0x19A88220)
-#define RPG_GAMECORE_PROPCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x19A88C50)
+#define RPG_GAMECORE_PROPCONFIG_METHOD_2_0AB84CB3665AAE0E_OFFSET UNITYSDK_OFFSET(0x1BA1B6D0)
+#define RPG_GAMECORE_PROPCONFIG_METHOD_2_894B217F2342BC66_OFFSET UNITYSDK_OFFSET(0x1BA1B950)
+#define RPG_GAMECORE_PROPCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1BA1C360)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PropConfig_TypeDefinitionIndex = 14708;
+	inline static constexpr unsigned int PropConfig_TypeDefinitionIndex = 14868;
 
 	class PropConfig : public ::RPG::GameCore::JsonConfig
 	{
@@ -76,9 +76,9 @@ namespace RPG::GameCore
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PROPCONFIG_METHOD_2_0AB84CB3665AAE0E_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_5E25F0EC42AB184F(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::PropConfig*& a2)
+		static ::System::Void Method_2_894B217F2342BC66(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::PropConfig*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::PropConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PROPCONFIG_METHOD_2_5E25F0EC42AB184F_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::PropConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PROPCONFIG_METHOD_2_894B217F2342BC66_OFFSET))(a1, a2);
 		}
 	};
 }

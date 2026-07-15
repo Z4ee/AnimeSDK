@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ViewModeSwitchType_TypeDefinitionIndex = 23314;
+	inline static constexpr unsigned int ViewModeSwitchType_TypeDefinitionIndex = 23801;
 
 	enum class ViewModeSwitchType : ::System::Int32
 	{

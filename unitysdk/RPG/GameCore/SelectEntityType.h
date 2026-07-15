@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SelectEntityType_TypeDefinitionIndex = 17482;
+	inline static constexpr unsigned int SelectEntityType_TypeDefinitionIndex = 17655;
 
 	enum class SelectEntityType : ::System::Int32
 	{

@@ -3,7 +3,7 @@
 #include "unitysdk/RPG/GameCore/StringHash.h"
 #include "unitysdk/System/ValueType.h"
 
-inline static constexpr unsigned int Class_3_4EA8E4A234CC4113_Struct_2_FAFDEB3CCCDB8966_TypeDefinitionIndex = 51767;
+inline static constexpr unsigned int Class_3_4EA8E4A234CC4113_Struct_2_FAFDEB3CCCDB8966_TypeDefinitionIndex = 52914;
 
 struct alignas(4) Class_3_4EA8E4A234CC4113_Struct_2_FAFDEB3CCCDB8966
 {

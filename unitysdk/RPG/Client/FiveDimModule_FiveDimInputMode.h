@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int FiveDimModule_FiveDimInputMode_TypeDefinitionIndex = 60006;
+	inline static constexpr unsigned int FiveDimModule_FiveDimInputMode_TypeDefinitionIndex = 61291;
 
 	enum class FiveDimModule_FiveDimInputMode : ::System::Int32
 	{

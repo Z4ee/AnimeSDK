@@ -7,7 +7,7 @@ namespace UnityEngine::Networking { class UnityWebRequest; }
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int INetworkInterceptor_TypeDefinitionIndex = 8123;
+	inline static constexpr unsigned int INetworkInterceptor_TypeDefinitionIndex = 8133;
 
 	class INetworkInterceptor
 	{

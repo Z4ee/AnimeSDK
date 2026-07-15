@@ -3,21 +3,21 @@
 #include "unitysdk/RPG/GameCore/AvatarPropertyType.h"
 #include "unitysdk/System/Object.h"
 
-class Class_0_16E4307DCC419505_684;
+class Class_0_16E4307DCC419505_719;
 class Class_1_A05AF49AB4C19659;
 namespace RPG::Client { class GridFightElationTraitEquipComponent; }
 
-#define CLASS_1_430C50E881726763_METHOD_1_92F85D4296A9ADDA_OFFSET UNITYSDK_OFFSET(0xCECD820)
-#define CLASS_1_430C50E881726763_METHOD_1_AC425167B3BD4E59_OFFSET UNITYSDK_OFFSET(0xCECDCF0)
-#define CLASS_1_430C50E881726763__CTOR_OFFSET UNITYSDK_OFFSET(0xCECD740)
+#define CLASS_1_430C50E881726763_METHOD_1_92F85D4296A9ADDA_OFFSET UNITYSDK_OFFSET(0x16A9B1C0)
+#define CLASS_1_430C50E881726763_METHOD_1_AC425167B3BD4E59_OFFSET UNITYSDK_OFFSET(0x16A9B8B0)
+#define CLASS_1_430C50E881726763__CTOR_OFFSET UNITYSDK_OFFSET(0x16A9B0E0)
 
-inline static constexpr unsigned int Class_1_430C50E881726763_TypeDefinitionIndex = 61134;
+inline static constexpr unsigned int Class_1_430C50E881726763_TypeDefinitionIndex = 62453;
 
 class Class_1_430C50E881726763 : public ::System::Object
 {
 public:
-	::RPG::Client::GridFightElationTraitEquipComponent* Field_1_0; // 0x10
-	::Class_1_A05AF49AB4C19659* Field_1_1; // 0x18
+	::Class_1_A05AF49AB4C19659* Field_1_0; // 0x10
+	::RPG::Client::GridFightElationTraitEquipComponent* Field_1_1; // 0x18
 
 	::System::Void _ctor(::RPG::Client::GridFightElationTraitEquipComponent* a1)
 	{
@@ -29,8 +29,8 @@ public:
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_430C50E881726763_METHOD_1_92F85D4296A9ADDA_OFFSET))(this);
 	}
 
-	::Class_0_16E4307DCC419505_684* Method_1_AC425167B3BD4E59(::RPG::GameCore::AvatarPropertyType a1)
+	::Class_0_16E4307DCC419505_719* Method_1_AC425167B3BD4E59(::RPG::GameCore::AvatarPropertyType a1)
 	{
-		return ((::Class_0_16E4307DCC419505_684*(*)(::PVOID, ::RPG::GameCore::AvatarPropertyType))((::PBYTE)hIl2Cpp + CLASS_1_430C50E881726763_METHOD_1_AC425167B3BD4E59_OFFSET))(this, a1);
+		return ((::Class_0_16E4307DCC419505_719*(*)(::PVOID, ::RPG::GameCore::AvatarPropertyType))((::PBYTE)hIl2Cpp + CLASS_1_430C50E881726763_METHOD_1_AC425167B3BD4E59_OFFSET))(this, a1);
 	}
 };

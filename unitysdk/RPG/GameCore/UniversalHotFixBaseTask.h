@@ -5,13 +5,13 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class UniversalHotFixTaskConfig; }
 
-#define RPG_GAMECORE_UNIVERSALHOTFIXBASETASK_METHOD_3_3C5BD2870EE0BA88_OFFSET UNITYSDK_OFFSET(0x19E36440)
-#define RPG_GAMECORE_UNIVERSALHOTFIXBASETASK_METHOD_3_61A7BDAF4C1DB6F7_OFFSET UNITYSDK_OFFSET(0x19E36720)
-#define RPG_GAMECORE_UNIVERSALHOTFIXBASETASK__CTOR_OFFSET UNITYSDK_OFFSET(0x19E366F0)
+#define RPG_GAMECORE_UNIVERSALHOTFIXBASETASK_METHOD_3_61A7BDAF4C1DB6F7_OFFSET UNITYSDK_OFFSET(0x1B883100)
+#define RPG_GAMECORE_UNIVERSALHOTFIXBASETASK_METHOD_3_E7DA718EE2E1E37D_OFFSET UNITYSDK_OFFSET(0x1B882ED0)
+#define RPG_GAMECORE_UNIVERSALHOTFIXBASETASK__CTOR_OFFSET UNITYSDK_OFFSET(0x1B8830F0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int UniversalHotFixBaseTask_TypeDefinitionIndex = 22083;
+	inline static constexpr unsigned int UniversalHotFixBaseTask_TypeDefinitionIndex = 22519;
 
 	class UniversalHotFixBaseTask : public ::RPG::GameCore::TaskConfig
 	{
@@ -24,9 +24,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_UNIVERSALHOTFIXBASETASK__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_3C5BD2870EE0BA88(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::UniversalHotFixBaseTask*& a2)
+		static ::System::Void Method_3_E7DA718EE2E1E37D(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::UniversalHotFixBaseTask*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::UniversalHotFixBaseTask*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_UNIVERSALHOTFIXBASETASK_METHOD_3_3C5BD2870EE0BA88_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::UniversalHotFixBaseTask*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_UNIVERSALHOTFIXBASETASK_METHOD_3_E7DA718EE2E1E37D_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_61A7BDAF4C1DB6F7(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::UniversalHotFixBaseTask* a2)

@@ -2,12 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/Object.h"
 
-#define UNITYENGINE_FLARE_INTERNAL_CREATE_OFFSET UNITYSDK_OFFSET(0x1B294D30)
-#define UNITYENGINE_FLARE__CTOR_OFFSET UNITYSDK_OFFSET(0x1B294D20)
+#define UNITYENGINE_FLARE_INTERNAL_CREATE_OFFSET UNITYSDK_OFFSET(0x1C1791F0)
+#define UNITYENGINE_FLARE__CTOR_OFFSET UNITYSDK_OFFSET(0x1C1791E0)
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int Flare_TypeDefinitionIndex = 4125;
+	inline static constexpr unsigned int Flare_TypeDefinitionIndex = 4130;
 
 	class Flare : public ::UnityEngine::Object
 	{

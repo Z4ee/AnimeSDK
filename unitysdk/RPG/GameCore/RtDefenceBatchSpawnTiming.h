@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RtDefenceBatchSpawnTiming_TypeDefinitionIndex = 17176;
+	inline static constexpr unsigned int RtDefenceBatchSpawnTiming_TypeDefinitionIndex = 17338;
 
 	enum class RtDefenceBatchSpawnTiming : ::System::Int32
 	{

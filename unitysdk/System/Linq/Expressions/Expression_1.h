@@ -10,7 +10,7 @@ namespace System::Linq::Expressions { template <typename T> class Expression_1; 
 
 namespace System::Linq::Expressions
 {
-	inline static constexpr unsigned int Expression_1_TypeDefinitionIndex = 3218;
+	inline static constexpr unsigned int Expression_1_TypeDefinitionIndex = 3222;
 
 	template <typename TDelegate>
 	class Expression_1 : public ::System::Linq::Expressions::LambdaExpression

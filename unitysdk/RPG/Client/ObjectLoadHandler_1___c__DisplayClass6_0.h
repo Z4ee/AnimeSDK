@@ -6,7 +6,7 @@ namespace RPG::Client { template <typename T> class ObjectLoadHandler_1; }
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ObjectLoadHandler_1___c__DisplayClass6_0_TypeDefinitionIndex = 33501;
+	inline static constexpr unsigned int ObjectLoadHandler_1___c__DisplayClass6_0_TypeDefinitionIndex = 33871;
 
 	template <typename TObj>
 	class ObjectLoadHandler_1___c__DisplayClass6_0 : public ::System::Object

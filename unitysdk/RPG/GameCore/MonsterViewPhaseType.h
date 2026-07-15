@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MonsterViewPhaseType_TypeDefinitionIndex = 23294;
+	inline static constexpr unsigned int MonsterViewPhaseType_TypeDefinitionIndex = 23780;
 
 	enum class MonsterViewPhaseType : ::System::Int32
 	{

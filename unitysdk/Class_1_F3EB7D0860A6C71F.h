@@ -5,10 +5,10 @@
 class Class_1_03EB5D6C771FDB13;
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define CLASS_1_F3EB7D0860A6C71F_METHOD_1_7E97FE7B356A7427_OFFSET UNITYSDK_OFFSET(0xBF26260)
-#define CLASS_1_F3EB7D0860A6C71F__CTOR_OFFSET UNITYSDK_OFFSET(0xBF26420)
+#define CLASS_1_F3EB7D0860A6C71F_METHOD_1_7E97FE7B356A7427_OFFSET UNITYSDK_OFFSET(0x1607DE00)
+#define CLASS_1_F3EB7D0860A6C71F__CTOR_OFFSET UNITYSDK_OFFSET(0x1607DFC0)
 
-inline static constexpr unsigned int Class_1_F3EB7D0860A6C71F_TypeDefinitionIndex = 57405;
+inline static constexpr unsigned int Class_1_F3EB7D0860A6C71F_TypeDefinitionIndex = 58667;
 
 class Class_1_F3EB7D0860A6C71F : public ::System::Object
 {

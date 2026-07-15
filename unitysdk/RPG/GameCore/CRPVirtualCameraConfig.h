@@ -7,12 +7,12 @@ namespace RPG::GameCore { class VCameraBlend; }
 namespace RPG::GameCore { class VCameraNoiseChange; }
 namespace RPG::GameCore { class VCameraNormalConfig; }
 
-#define RPG_GAMECORE_CRPVIRTUALCAMERACONFIG_METHOD_2_ECF42FB557893D3F_OFFSET UNITYSDK_OFFSET(0x195E15B0)
-#define RPG_GAMECORE_CRPVIRTUALCAMERACONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x195E1720)
+#define RPG_GAMECORE_CRPVIRTUALCAMERACONFIG_METHOD_2_5D439502CB1F4B83_OFFSET UNITYSDK_OFFSET(0x1B2C6B70)
+#define RPG_GAMECORE_CRPVIRTUALCAMERACONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1B2C6CB0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int CRPVirtualCameraConfig_TypeDefinitionIndex = 15607;
+	inline static constexpr unsigned int CRPVirtualCameraConfig_TypeDefinitionIndex = 15779;
 
 	class CRPVirtualCameraConfig : public ::RPG::GameCore::JsonConfig
 	{
@@ -27,9 +27,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CRPVIRTUALCAMERACONFIG__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_ECF42FB557893D3F(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::CRPVirtualCameraConfig*& a2)
+		static ::System::Void Method_2_5D439502CB1F4B83(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::CRPVirtualCameraConfig*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::CRPVirtualCameraConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CRPVIRTUALCAMERACONFIG_METHOD_2_ECF42FB557893D3F_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::CRPVirtualCameraConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CRPVIRTUALCAMERACONFIG_METHOD_2_5D439502CB1F4B83_OFFSET))(a1, a2);
 		}
 	};
 }

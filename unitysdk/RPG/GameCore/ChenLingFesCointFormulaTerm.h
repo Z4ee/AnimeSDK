@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ChenLingFesCointFormulaTerm_TypeDefinitionIndex = 23222;
+	inline static constexpr unsigned int ChenLingFesCointFormulaTerm_TypeDefinitionIndex = 23704;
 
 	enum class ChenLingFesCointFormulaTerm : ::System::Int32
 	{

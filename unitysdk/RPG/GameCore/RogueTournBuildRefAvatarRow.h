@@ -4,18 +4,18 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_ROGUETOURNBUILDREFAVATARROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x19BC2170)
-#define RPG_GAMECORE_ROGUETOURNBUILDREFAVATARROW__CTOR_OFFSET UNITYSDK_OFFSET(0x19BC2750)
+#define RPG_GAMECORE_ROGUETOURNBUILDREFAVATARROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1BB70240)
+#define RPG_GAMECORE_ROGUETOURNBUILDREFAVATARROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1BB70820)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RogueTournBuildRefAvatarRow_TypeDefinitionIndex = 14264;
+	inline static constexpr unsigned int RogueTournBuildRefAvatarRow_TypeDefinitionIndex = 14412;
 
 	class RogueTournBuildRefAvatarRow : public ::System::Object
 	{
 	public:
-		::System::UInt32 SortWeight; // 0x10
-		::System::UInt32 AvatarID; // 0x14
+		::System::UInt32 AvatarID; // 0x10
+		::System::UInt32 SortWeight; // 0x14
 
 		::System::Void _ctor()
 		{

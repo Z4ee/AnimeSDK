@@ -7,13 +7,13 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class DynamicFloat; }
 namespace RPG::GameCore { class TargetEvaluator; }
 
-#define RPG_GAMECORE_ADDWEAKNESS_METHOD_3_74DE26AF0687A086_OFFSET UNITYSDK_OFFSET(0x19414040)
-#define RPG_GAMECORE_ADDWEAKNESS_METHOD_3_791E3E0837340BB7_OFFSET UNITYSDK_OFFSET(0x194140C0)
-#define RPG_GAMECORE_ADDWEAKNESS__CTOR_OFFSET UNITYSDK_OFFSET(0x19414090)
+#define RPG_GAMECORE_ADDWEAKNESS_METHOD_3_123FB06C926ACF6A_OFFSET UNITYSDK_OFFSET(0x1BE0BB70)
+#define RPG_GAMECORE_ADDWEAKNESS_METHOD_3_791E3E0837340BB7_OFFSET UNITYSDK_OFFSET(0x1BE0BBB0)
+#define RPG_GAMECORE_ADDWEAKNESS__CTOR_OFFSET UNITYSDK_OFFSET(0x1BE0BBA0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AddWeakness_TypeDefinitionIndex = 21823;
+	inline static constexpr unsigned int AddWeakness_TypeDefinitionIndex = 22249;
 
 	class AddWeakness : public ::RPG::GameCore::TaskConfig
 	{
@@ -27,9 +27,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADDWEAKNESS__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_74DE26AF0687A086(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AddWeakness*& a2)
+		static ::System::Void Method_3_123FB06C926ACF6A(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AddWeakness*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::AddWeakness*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADDWEAKNESS_METHOD_3_74DE26AF0687A086_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::AddWeakness*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADDWEAKNESS_METHOD_3_123FB06C926ACF6A_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_791E3E0837340BB7(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AddWeakness* a2)

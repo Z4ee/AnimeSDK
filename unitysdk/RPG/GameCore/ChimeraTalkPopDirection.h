@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ChimeraTalkPopDirection_TypeDefinitionIndex = 15049;
+	inline static constexpr unsigned int ChimeraTalkPopDirection_TypeDefinitionIndex = 15213;
 
 	enum class ChimeraTalkPopDirection : ::System::Int32
 	{

@@ -2,13 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/Client/BaseGachaPoolData.h"
 
-#define RPG_CLIENT_LIMITEDGACHAPOOLDATA_ISVALID_OFFSET UNITYSDK_OFFSET(0xBDBAC80)
-#define RPG_CLIENT_LIMITEDGACHAPOOLDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xBDBAC70)
-#define RPG_CLIENT_LIMITEDGACHAPOOLDATA___IFIXBASEPROXY_ISVALID_OFFSET UNITYSDK_OFFSET(0xBDBAD70)
+#define RPG_CLIENT_LIMITEDGACHAPOOLDATA_ISVALID_OFFSET UNITYSDK_OFFSET(0x19B79010)
+#define RPG_CLIENT_LIMITEDGACHAPOOLDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x19B79000)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int LimitedGachaPoolData_TypeDefinitionIndex = 60105;
+	inline static constexpr unsigned int LimitedGachaPoolData_TypeDefinitionIndex = 61391;
 
 	class LimitedGachaPoolData : public ::RPG::Client::BaseGachaPoolData
 	{
@@ -21,11 +20,6 @@ namespace RPG::Client
 		::System::Boolean IsValid()
 		{
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_LIMITEDGACHAPOOLDATA_ISVALID_OFFSET))(this);
-		}
-
-		::System::Boolean __iFixBaseProxy_IsValid()
-		{
-			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_LIMITEDGACHAPOOLDATA___IFIXBASEPROXY_ISVALID_OFFSET))(this);
 		}
 	};
 }

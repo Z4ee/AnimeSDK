@@ -4,13 +4,13 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_ST_SIDE_ENABLEDIALOGUE_METHOD_4_42DE47E3563D55C4_OFFSET UNITYSDK_OFFSET(0x19C19ED0)
-#define RPG_GAMECORE_ST_SIDE_ENABLEDIALOGUE_METHOD_4_A8AC9FFC61C5F58E_OFFSET UNITYSDK_OFFSET(0x19C08CC0)
-#define RPG_GAMECORE_ST_SIDE_ENABLEDIALOGUE__CTOR_OFFSET UNITYSDK_OFFSET(0x19C08C70)
+#define RPG_GAMECORE_ST_SIDE_ENABLEDIALOGUE_METHOD_4_A2B80F9F16B7FDCD_OFFSET UNITYSDK_OFFSET(0x1B7889F0)
+#define RPG_GAMECORE_ST_SIDE_ENABLEDIALOGUE_METHOD_4_A8AC9FFC61C5F58E_OFFSET UNITYSDK_OFFSET(0x1B788A30)
+#define RPG_GAMECORE_ST_SIDE_ENABLEDIALOGUE__CTOR_OFFSET UNITYSDK_OFFSET(0x1B788A20)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ST_Side_EnableDialogue_TypeDefinitionIndex = 19016;
+	inline static constexpr unsigned int ST_Side_EnableDialogue_TypeDefinitionIndex = 19367;
 
 	class ST_Side_EnableDialogue : public ::RPG::GameCore::STTaskConfig
 	{
@@ -22,9 +22,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ST_SIDE_ENABLEDIALOGUE__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_4_42DE47E3563D55C4(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ST_Side_EnableDialogue*& a2)
+		static ::System::Void Method_4_A2B80F9F16B7FDCD(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ST_Side_EnableDialogue*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ST_Side_EnableDialogue*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ST_SIDE_ENABLEDIALOGUE_METHOD_4_42DE47E3563D55C4_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ST_Side_EnableDialogue*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ST_SIDE_ENABLEDIALOGUE_METHOD_4_A2B80F9F16B7FDCD_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_4_A8AC9FFC61C5F58E(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ST_Side_EnableDialogue* a2)

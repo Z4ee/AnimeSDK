@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int CameraDataAndFlags_DisableFreelook3rdCameraInputAxisReason_TypeDefinitionIndex = 65016;
+	inline static constexpr unsigned int CameraDataAndFlags_DisableFreelook3rdCameraInputAxisReason_TypeDefinitionIndex = 66421;
 
 	enum class CameraDataAndFlags_DisableFreelook3rdCameraInputAxisReason : ::System::Int32
 	{

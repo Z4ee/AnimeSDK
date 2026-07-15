@@ -5,13 +5,13 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_CREATEAIRLINE_METHOD_3_08D854CABE061C47_OFFSET UNITYSDK_OFFSET(0x1967F300)
-#define RPG_GAMECORE_CREATEAIRLINE_METHOD_3_C1F058E717DF4A69_OFFSET UNITYSDK_OFFSET(0x1967F280)
-#define RPG_GAMECORE_CREATEAIRLINE__CTOR_OFFSET UNITYSDK_OFFSET(0x1967F2D0)
+#define RPG_GAMECORE_CREATEAIRLINE_METHOD_3_08D854CABE061C47_OFFSET UNITYSDK_OFFSET(0x1BC37830)
+#define RPG_GAMECORE_CREATEAIRLINE_METHOD_3_8C0D7A5F9D8B0C6C_OFFSET UNITYSDK_OFFSET(0x1BC377F0)
+#define RPG_GAMECORE_CREATEAIRLINE__CTOR_OFFSET UNITYSDK_OFFSET(0x1BC37820)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int CreateAirline_TypeDefinitionIndex = 20655;
+	inline static constexpr unsigned int CreateAirline_TypeDefinitionIndex = 21070;
 
 	class CreateAirline : public ::RPG::GameCore::TaskConfig
 	{
@@ -24,9 +24,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CREATEAIRLINE__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_C1F058E717DF4A69(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::CreateAirline*& a2)
+		static ::System::Void Method_3_8C0D7A5F9D8B0C6C(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::CreateAirline*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::CreateAirline*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CREATEAIRLINE_METHOD_3_C1F058E717DF4A69_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::CreateAirline*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CREATEAIRLINE_METHOD_3_8C0D7A5F9D8B0C6C_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_08D854CABE061C47(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::CreateAirline* a2)

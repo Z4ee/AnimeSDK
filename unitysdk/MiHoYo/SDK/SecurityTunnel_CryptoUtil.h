@@ -6,33 +6,33 @@ namespace System { class String; }
 namespace System::Security::Cryptography { class ICryptoTransform; }
 namespace System::Security::Cryptography { class RijndaelManaged; }
 
-#define MIHOYO_SDK_SECURITYTUNNEL_CRYPTOUTIL_AESCBCDECRYPT_OFFSET UNITYSDK_OFFSET(0xA205890)
-#define MIHOYO_SDK_SECURITYTUNNEL_CRYPTOUTIL_AESCBCENCRYPT_OFFSET UNITYSDK_OFFSET(0xA204CC0)
-#define MIHOYO_SDK_SECURITYTUNNEL_CRYPTOUTIL_RSADECRYPT_OFFSET UNITYSDK_OFFSET(0xA205BB0)
-#define MIHOYO_SDK_SECURITYTUNNEL_CRYPTOUTIL_RSAENCRYPT_OFFSET UNITYSDK_OFFSET(0xA204FE0)
-#define MIHOYO_SDK_SECURITYTUNNEL_CRYPTOUTIL_UPDATEDECODEIV_OFFSET UNITYSDK_OFFSET(0xA213090)
-#define MIHOYO_SDK_SECURITYTUNNEL_CRYPTOUTIL_UPDATEENCODEIV_OFFSET UNITYSDK_OFFSET(0xA213020)
-#define MIHOYO_SDK_SECURITYTUNNEL_CRYPTOUTIL__CTOR_OFFSET UNITYSDK_OFFSET(0xA2064D0)
+#define MIHOYO_SDK_SECURITYTUNNEL_CRYPTOUTIL_AESCBCDECRYPT_OFFSET UNITYSDK_OFFSET(0x1ABAFAE0)
+#define MIHOYO_SDK_SECURITYTUNNEL_CRYPTOUTIL_AESCBCENCRYPT_OFFSET UNITYSDK_OFFSET(0x1ABAEE30)
+#define MIHOYO_SDK_SECURITYTUNNEL_CRYPTOUTIL_RSADECRYPT_OFFSET UNITYSDK_OFFSET(0x1ABAFE60)
+#define MIHOYO_SDK_SECURITYTUNNEL_CRYPTOUTIL_RSAENCRYPT_OFFSET UNITYSDK_OFFSET(0x1ABAF1A0)
+#define MIHOYO_SDK_SECURITYTUNNEL_CRYPTOUTIL_UPDATEDECODEIV_OFFSET UNITYSDK_OFFSET(0x1ABBDFB0)
+#define MIHOYO_SDK_SECURITYTUNNEL_CRYPTOUTIL_UPDATEENCODEIV_OFFSET UNITYSDK_OFFSET(0x1ABBDF40)
+#define MIHOYO_SDK_SECURITYTUNNEL_CRYPTOUTIL__CTOR_OFFSET UNITYSDK_OFFSET(0x1ABB0860)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int SecurityTunnel_CryptoUtil_TypeDefinitionIndex = 43812;
+	inline static constexpr unsigned int SecurityTunnel_CryptoUtil_TypeDefinitionIndex = 44674;
 
 	class SecurityTunnel_CryptoUtil : public ::System::Object
 	{
 	public:
 		static ::System::Security::Cryptography::ICryptoTransform** StaticGet_encryptor()
 		{
-			return (::System::Security::Cryptography::ICryptoTransform**)Il2CppClass::FromTypeDefinitionIndex(SecurityTunnel_CryptoUtil_TypeDefinitionIndex)->GetStaticField(0x137F0);
+			return (::System::Security::Cryptography::ICryptoTransform**)Il2CppClass::FromTypeDefinitionIndex(SecurityTunnel_CryptoUtil_TypeDefinitionIndex)->GetStaticField(0x1C150);
 		}
 		static ::System::Security::Cryptography::ICryptoTransform** StaticGet_decryptor()
 		{
-			return (::System::Security::Cryptography::ICryptoTransform**)Il2CppClass::FromTypeDefinitionIndex(SecurityTunnel_CryptoUtil_TypeDefinitionIndex)->GetStaticField(0x137F8);
+			return (::System::Security::Cryptography::ICryptoTransform**)Il2CppClass::FromTypeDefinitionIndex(SecurityTunnel_CryptoUtil_TypeDefinitionIndex)->GetStaticField(0x1C158);
 		}
 		::Il2CppArray<::System::Byte>* key; // 0x10
-		::Il2CppArray<::System::Byte>* encodeIV; // 0x18
+		::System::Security::Cryptography::RijndaelManaged* rm; // 0x18
 		::Il2CppArray<::System::Byte>* decodeIV; // 0x20
-		::System::Security::Cryptography::RijndaelManaged* rm; // 0x28
+		::Il2CppArray<::System::Byte>* encodeIV; // 0x28
 
 		::System::Void _ctor(::Il2CppArray<::System::Byte>* a1, ::Il2CppArray<::System::Byte>* a2)
 		{

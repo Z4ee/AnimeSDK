@@ -6,9 +6,9 @@
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define IRI_BUILDINGRENDERERLIST_RENDERERMATRIX__CTOR_OFFSET UNITYSDK_OFFSET(0x1423C480)
+#define IRI_BUILDINGRENDERERLIST_RENDERERMATRIX__CTOR_OFFSET UNITYSDK_OFFSET(0x175064E0)
 
-inline static constexpr unsigned int IRI_BuildingRendererList_RendererMatrix_TypeDefinitionIndex = 44508;
+inline static constexpr unsigned int IRI_BuildingRendererList_RendererMatrix_TypeDefinitionIndex = 45380;
 
 class IRI_BuildingRendererList_RendererMatrix : public ::System::Object
 {
@@ -16,7 +16,8 @@ public:
 	::System::String* RendererFBXPath; // 0x10
 	::System::String* RendererMeshName; // 0x18
 	::System::String* RendererMaterialPath; // 0x20
-	::System::Collections::Generic::List_1<::UnityEngine::Matrix4x4>* RendererMatrixList; // 0x28
+	::System::UInt32 DeformType; // 0x28
+	::System::Collections::Generic::List_1<::UnityEngine::Matrix4x4>* RendererMatrixList; // 0x30
 
 	::System::Void _ctor()
 	{

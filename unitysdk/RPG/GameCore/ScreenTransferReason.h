@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ScreenTransferReason_TypeDefinitionIndex = 23424;
+	inline static constexpr unsigned int ScreenTransferReason_TypeDefinitionIndex = 23913;
 
 	enum class ScreenTransferReason : ::System::Int32
 	{
@@ -19,6 +19,7 @@ namespace RPG::GameCore
 		PerformanceSkip = 9,
 		PerformanceReplay = 10,
 		IdleLiveWaitFinalActReady = 11,
+		BlackScreenMask = 12,
 		LiveFix01 = 51,
 		LiveFix02 = 52,
 		LiveFix03 = 53,

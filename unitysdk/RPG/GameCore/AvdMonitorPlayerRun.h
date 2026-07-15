@@ -6,13 +6,13 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class DynamicString; }
 
-#define RPG_GAMECORE_AVDMONITORPLAYERRUN_METHOD_3_2A8D055FB8D1E74C_OFFSET UNITYSDK_OFFSET(0x194B6170)
-#define RPG_GAMECORE_AVDMONITORPLAYERRUN_METHOD_3_70E02D76689A540F_OFFSET UNITYSDK_OFFSET(0x194B60F0)
-#define RPG_GAMECORE_AVDMONITORPLAYERRUN__CTOR_OFFSET UNITYSDK_OFFSET(0x194B6140)
+#define RPG_GAMECORE_AVDMONITORPLAYERRUN_METHOD_3_2A8D055FB8D1E74C_OFFSET UNITYSDK_OFFSET(0x1A3D86F0)
+#define RPG_GAMECORE_AVDMONITORPLAYERRUN_METHOD_3_BB7D3C797FE95542_OFFSET UNITYSDK_OFFSET(0x1A3D86B0)
+#define RPG_GAMECORE_AVDMONITORPLAYERRUN__CTOR_OFFSET UNITYSDK_OFFSET(0x1A3D86E0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AvdMonitorPlayerRun_TypeDefinitionIndex = 19878;
+	inline static constexpr unsigned int AvdMonitorPlayerRun_TypeDefinitionIndex = 20242;
 
 	class AvdMonitorPlayerRun : public ::RPG::GameCore::TaskConfig
 	{
@@ -29,9 +29,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_AVDMONITORPLAYERRUN__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_70E02D76689A540F(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AvdMonitorPlayerRun*& a2)
+		static ::System::Void Method_3_BB7D3C797FE95542(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AvdMonitorPlayerRun*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::AvdMonitorPlayerRun*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_AVDMONITORPLAYERRUN_METHOD_3_70E02D76689A540F_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::AvdMonitorPlayerRun*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_AVDMONITORPLAYERRUN_METHOD_3_BB7D3C797FE95542_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_2A8D055FB8D1E74C(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AvdMonitorPlayerRun* a2)

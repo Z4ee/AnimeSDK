@@ -3,7 +3,7 @@
 
 namespace Spine::Unity
 {
-	inline static constexpr unsigned int SettingsTriState_TypeDefinitionIndex = 41485;
+	inline static constexpr unsigned int SettingsTriState_TypeDefinitionIndex = 42300;
 
 	enum class SettingsTriState : ::System::Int32
 	{

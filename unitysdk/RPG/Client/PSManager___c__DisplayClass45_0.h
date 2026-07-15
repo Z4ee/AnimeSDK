@@ -2,22 +2,22 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_1_C88E9CDFBEAC50C3;
+class Class_1_2CEBEAE10BD13F6B;
 namespace System { class String; }
 namespace System { template <typename T> class Action_1; }
 
-#define RPG_CLIENT_PSMANAGER___C__DISPLAYCLASS45_0__CTOR_OFFSET UNITYSDK_OFFSET(0xC32A380)
-#define RPG_CLIENT_PSMANAGER___C__DISPLAYCLASS45_0__GETPSSESSIONDATAWITHSESSIONID_B__0_OFFSET UNITYSDK_OFFSET(0xC32ADF0)
+#define RPG_CLIENT_PSMANAGER___C__DISPLAYCLASS45_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1A2DB140)
+#define RPG_CLIENT_PSMANAGER___C__DISPLAYCLASS45_0__GETPSSESSIONDATAWITHSESSIONID_B__0_OFFSET UNITYSDK_OFFSET(0x1A2DBC90)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int PSManager___c__DisplayClass45_0_TypeDefinitionIndex = 62390;
+	inline static constexpr unsigned int PSManager___c__DisplayClass45_0_TypeDefinitionIndex = 63756;
 
 	class PSManager___c__DisplayClass45_0 : public ::System::Object
 	{
 	public:
-		::System::Action_1<::Class_1_C88E9CDFBEAC50C3*>* callback; // 0x10
-		::System::String* sessionId; // 0x18
+		::System::String* sessionId; // 0x10
+		::System::Action_1<::Class_1_2CEBEAE10BD13F6B*>* callback; // 0x18
 
 		::System::Void _ctor()
 		{

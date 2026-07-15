@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int DiceCombatWeatherShowType_TypeDefinitionIndex = 10827;
+	inline static constexpr unsigned int DiceCombatWeatherShowType_TypeDefinitionIndex = 10877;
 
 	enum class DiceCombatWeatherShowType : ::System::Int32
 	{

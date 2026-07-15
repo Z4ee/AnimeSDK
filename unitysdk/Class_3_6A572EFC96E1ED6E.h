@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class ByIsControlSkillDisable; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_6A572EFC96E1ED6E_EVALUATE_OFFSET UNITYSDK_OFFSET(0x136D2790)
-#define CLASS_3_6A572EFC96E1ED6E__CTOR_OFFSET UNITYSDK_OFFSET(0x136D2760)
+#define CLASS_3_6A572EFC96E1ED6E_EVALUATE_OFFSET UNITYSDK_OFFSET(0x17042210)
+#define CLASS_3_6A572EFC96E1ED6E__CTOR_OFFSET UNITYSDK_OFFSET(0x170421E0)
 
-inline static constexpr unsigned int Class_3_6A572EFC96E1ED6E_TypeDefinitionIndex = 51083;
+inline static constexpr unsigned int Class_3_6A572EFC96E1ED6E_TypeDefinitionIndex = 52169;
 
 class Class_3_6A572EFC96E1ED6E : public ::RPG::GameCore::PredicateTaskBase_1<::RPG::GameCore::ByIsControlSkillDisable*>
 {

@@ -4,7 +4,7 @@
 
 namespace System::Security::Cryptography
 {
-	inline static constexpr unsigned int DSAParameters_TypeDefinitionIndex = 1011;
+	inline static constexpr unsigned int DSAParameters_TypeDefinitionIndex = 1012;
 
 	struct alignas(8) DSAParameters
 	{

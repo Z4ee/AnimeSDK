@@ -7,15 +7,13 @@
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine::Timeline { class TimelineClip; }
 
-#define RPGTOOLS_TIMELINE_ACTIVEVIRTUALCAMERATRACK_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0xCFD4380)
-#define RPGTOOLS_TIMELINE_ACTIVEVIRTUALCAMERATRACK_CREATETRACKMIXER_OFFSET UNITYSDK_OFFSET(0xCFD4590)
-#define RPGTOOLS_TIMELINE_ACTIVEVIRTUALCAMERATRACK__CTOR_OFFSET UNITYSDK_OFFSET(0xCFD4770)
-#define RPGTOOLS_TIMELINE_ACTIVEVIRTUALCAMERATRACK___IFIXBASEPROXY_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0xCFD4850)
-#define RPGTOOLS_TIMELINE_ACTIVEVIRTUALCAMERATRACK___IFIXBASEPROXY_CREATETRACKMIXER_OFFSET UNITYSDK_OFFSET(0xCFD4890)
+#define RPGTOOLS_TIMELINE_ACTIVEVIRTUALCAMERATRACK_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0x19D6BEA0)
+#define RPGTOOLS_TIMELINE_ACTIVEVIRTUALCAMERATRACK_CREATETRACKMIXER_OFFSET UNITYSDK_OFFSET(0x19D6C0B0)
+#define RPGTOOLS_TIMELINE_ACTIVEVIRTUALCAMERATRACK__CTOR_OFFSET UNITYSDK_OFFSET(0x19D6C290)
 
 namespace RPGTools::Timeline
 {
-	inline static constexpr unsigned int ActiveVirtualCameraTrack_TypeDefinitionIndex = 45133;
+	inline static constexpr unsigned int ActiveVirtualCameraTrack_TypeDefinitionIndex = 46051;
 
 	class ActiveVirtualCameraTrack : public ::UnityEngine::Timeline::TrackAsset
 	{
@@ -33,16 +31,6 @@ namespace RPGTools::Timeline
 		::UnityEngine::Playables::Playable CreateTrackMixer(::UnityEngine::Playables::PlayableGraph a1, ::UnityEngine::GameObject* a2, ::System::Int32 a3)
 		{
 			return ((::UnityEngine::Playables::Playable(*)(::PVOID, ::UnityEngine::Playables::PlayableGraph, ::UnityEngine::GameObject*, ::System::Int32))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_ACTIVEVIRTUALCAMERATRACK_CREATETRACKMIXER_OFFSET))(this, a1, a2, a3);
-		}
-
-		::UnityEngine::Playables::Playable __iFixBaseProxy_CreatePlayable(::UnityEngine::Playables::PlayableGraph a1, ::UnityEngine::GameObject* a2, ::UnityEngine::Timeline::TimelineClip* a3)
-		{
-			return ((::UnityEngine::Playables::Playable(*)(::PVOID, ::UnityEngine::Playables::PlayableGraph, ::UnityEngine::GameObject*, ::UnityEngine::Timeline::TimelineClip*))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_ACTIVEVIRTUALCAMERATRACK___IFIXBASEPROXY_CREATEPLAYABLE_OFFSET))(this, a1, a2, a3);
-		}
-
-		::UnityEngine::Playables::Playable __iFixBaseProxy_CreateTrackMixer(::UnityEngine::Playables::PlayableGraph a1, ::UnityEngine::GameObject* a2, ::System::Int32 a3)
-		{
-			return ((::UnityEngine::Playables::Playable(*)(::PVOID, ::UnityEngine::Playables::PlayableGraph, ::UnityEngine::GameObject*, ::System::Int32))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_ACTIVEVIRTUALCAMERATRACK___IFIXBASEPROXY_CREATETRACKMIXER_OFFSET))(this, a1, a2, a3);
 		}
 	};
 }

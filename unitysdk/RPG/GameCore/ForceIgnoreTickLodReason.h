@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ForceIgnoreTickLodReason_TypeDefinitionIndex = 53995;
+	inline static constexpr unsigned int ForceIgnoreTickLodReason_TypeDefinitionIndex = 55214;
 
 	enum class ForceIgnoreTickLodReason : ::System::Int32
 	{

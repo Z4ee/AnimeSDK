@@ -8,12 +8,12 @@ namespace RPG::GameCore { class ModifierValueBindData; }
 namespace RPG::GameCore { class SubModifierData; }
 namespace RPG::GameCore { class TurnBasedModifierDependencyConfig; }
 
-#define RPG_GAMECORE_TURNBASEDMODIFIERADDITIONCONFIG_METHOD_2_4068E961C806D746_OFFSET UNITYSDK_OFFSET(0x19E22470)
-#define RPG_GAMECORE_TURNBASEDMODIFIERADDITIONCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x19E226A0)
+#define RPG_GAMECORE_TURNBASEDMODIFIERADDITIONCONFIG_METHOD_2_4068E961C806D746_OFFSET UNITYSDK_OFFSET(0x1B063F00)
+#define RPG_GAMECORE_TURNBASEDMODIFIERADDITIONCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1B064130)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TurnBasedModifierAdditionConfig_TypeDefinitionIndex = 17326;
+	inline static constexpr unsigned int TurnBasedModifierAdditionConfig_TypeDefinitionIndex = 17499;
 
 	class TurnBasedModifierAdditionConfig : public ::RPG::GameCore::JsonConfig
 	{

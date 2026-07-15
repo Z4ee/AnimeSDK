@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int EraVisibleReason_TypeDefinitionIndex = 68467;
+	inline static constexpr unsigned int EraVisibleReason_TypeDefinitionIndex = 69961;
 
 	enum class EraVisibleReason : ::System::Int32
 	{

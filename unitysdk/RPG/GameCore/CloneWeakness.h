@@ -5,13 +5,13 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class TargetEvaluator; }
 
-#define RPG_GAMECORE_CLONEWEAKNESS_METHOD_3_28C2AB5D8383C46E_OFFSET UNITYSDK_OFFSET(0x19663AC0)
-#define RPG_GAMECORE_CLONEWEAKNESS_METHOD_3_2CE8E951597DE431_OFFSET UNITYSDK_OFFSET(0x19663A30)
-#define RPG_GAMECORE_CLONEWEAKNESS__CTOR_OFFSET UNITYSDK_OFFSET(0x19663A90)
+#define RPG_GAMECORE_CLONEWEAKNESS_METHOD_3_28C2AB5D8383C46E_OFFSET UNITYSDK_OFFSET(0x1BC1E5C0)
+#define RPG_GAMECORE_CLONEWEAKNESS_METHOD_3_923F01F98B6D84F7_OFFSET UNITYSDK_OFFSET(0x1BC1E570)
+#define RPG_GAMECORE_CLONEWEAKNESS__CTOR_OFFSET UNITYSDK_OFFSET(0x1BC1E5B0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int CloneWeakness_TypeDefinitionIndex = 21824;
+	inline static constexpr unsigned int CloneWeakness_TypeDefinitionIndex = 22250;
 
 	class CloneWeakness : public ::RPG::GameCore::TaskConfig
 	{
@@ -26,9 +26,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CLONEWEAKNESS__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_2CE8E951597DE431(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::CloneWeakness*& a2)
+		static ::System::Void Method_3_923F01F98B6D84F7(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::CloneWeakness*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::CloneWeakness*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CLONEWEAKNESS_METHOD_3_2CE8E951597DE431_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::CloneWeakness*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CLONEWEAKNESS_METHOD_3_923F01F98B6D84F7_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_28C2AB5D8383C46E(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::CloneWeakness* a2)

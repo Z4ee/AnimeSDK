@@ -6,13 +6,13 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class DynamicFloat; }
 namespace RPG::GameCore { class TargetEvaluator; }
 
-#define RPG_GAMECORE_ADVGROUPENTERCOMBAT_METHOD_3_B77887AE21F691A2_OFFSET UNITYSDK_OFFSET(0x194268A0)
-#define RPG_GAMECORE_ADVGROUPENTERCOMBAT_METHOD_3_C590CCD336BA8855_OFFSET UNITYSDK_OFFSET(0x19426820)
-#define RPG_GAMECORE_ADVGROUPENTERCOMBAT__CTOR_OFFSET UNITYSDK_OFFSET(0x19426870)
+#define RPG_GAMECORE_ADVGROUPENTERCOMBAT_METHOD_3_54559E0023C462EB_OFFSET UNITYSDK_OFFSET(0x1BE1EB70)
+#define RPG_GAMECORE_ADVGROUPENTERCOMBAT_METHOD_3_B77887AE21F691A2_OFFSET UNITYSDK_OFFSET(0x1BE1EBB0)
+#define RPG_GAMECORE_ADVGROUPENTERCOMBAT__CTOR_OFFSET UNITYSDK_OFFSET(0x1BE1EBA0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AdvGroupEnterCombat_TypeDefinitionIndex = 19417;
+	inline static constexpr unsigned int AdvGroupEnterCombat_TypeDefinitionIndex = 19775;
 
 	class AdvGroupEnterCombat : public ::RPG::GameCore::TaskConfig
 	{
@@ -25,9 +25,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVGROUPENTERCOMBAT__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_C590CCD336BA8855(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AdvGroupEnterCombat*& a2)
+		static ::System::Void Method_3_54559E0023C462EB(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AdvGroupEnterCombat*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::AdvGroupEnterCombat*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVGROUPENTERCOMBAT_METHOD_3_C590CCD336BA8855_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::AdvGroupEnterCombat*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVGROUPENTERCOMBAT_METHOD_3_54559E0023C462EB_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_B77887AE21F691A2(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AdvGroupEnterCombat* a2)

@@ -6,7 +6,7 @@ namespace System { class String; }
 
 namespace System::Collections::Generic
 {
-	inline static constexpr unsigned int KeyValuePair_2_TypeDefinitionIndex = 1519;
+	inline static constexpr unsigned int KeyValuePair_2_TypeDefinitionIndex = 1523;
 
 	template <typename TKey, typename TValue>
 	struct KeyValuePair_2

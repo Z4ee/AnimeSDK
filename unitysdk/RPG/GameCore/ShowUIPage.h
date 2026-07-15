@@ -8,13 +8,13 @@ namespace RPG::GameCore { class UIImageNode; }
 namespace RPG::GameCore { class UITextNode; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_SHOWUIPAGE_METHOD_3_008D5E06212AF376_OFFSET UNITYSDK_OFFSET(0x19C86A50)
-#define RPG_GAMECORE_SHOWUIPAGE_METHOD_3_51B8A51879B552E1_OFFSET UNITYSDK_OFFSET(0x19C869D0)
-#define RPG_GAMECORE_SHOWUIPAGE__CTOR_OFFSET UNITYSDK_OFFSET(0x19C86A20)
+#define RPG_GAMECORE_SHOWUIPAGE_METHOD_3_008D5E06212AF376_OFFSET UNITYSDK_OFFSET(0x1BE4A100)
+#define RPG_GAMECORE_SHOWUIPAGE_METHOD_3_48D9B69A2D3BDC10_OFFSET UNITYSDK_OFFSET(0x1BE4A0C0)
+#define RPG_GAMECORE_SHOWUIPAGE__CTOR_OFFSET UNITYSDK_OFFSET(0x1BE4A0F0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ShowUIPage_TypeDefinitionIndex = 22535;
+	inline static constexpr unsigned int ShowUIPage_TypeDefinitionIndex = 22986;
 
 	class ShowUIPage : public ::RPG::GameCore::TaskConfig
 	{
@@ -31,9 +31,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SHOWUIPAGE__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_51B8A51879B552E1(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ShowUIPage*& a2)
+		static ::System::Void Method_3_48D9B69A2D3BDC10(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ShowUIPage*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ShowUIPage*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SHOWUIPAGE_METHOD_3_51B8A51879B552E1_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ShowUIPage*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SHOWUIPAGE_METHOD_3_48D9B69A2D3BDC10_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_008D5E06212AF376(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ShowUIPage* a2)

@@ -7,7 +7,7 @@ namespace RPG::Client { class IAssetOperation; }
 namespace System { class String; }
 namespace System { template <typename T> class Action_1; }
 
-inline static constexpr unsigned int Class_1_B48FFE703050178A_LodAssetRef_1_TypeDefinitionIndex = 64728;
+inline static constexpr unsigned int Class_1_B48FFE703050178A_LodAssetRef_1_TypeDefinitionIndex = 66129;
 
 template <typename T>
 class Class_1_B48FFE703050178A_LodAssetRef_1 : public ::System::Object

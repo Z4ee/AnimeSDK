@@ -5,12 +5,12 @@
 namespace RPG::Client::Promises { template <typename T> class Promise_1; }
 namespace UnityEngine { class Texture; }
 
-#define RPG_CLIENT_UIFRAMECAPTURE___C__DISPLAYCLASS1_0__CAPTUREFRAMEWITHPOSTPROCESS_B__0_OFFSET UNITYSDK_OFFSET(0xCB4CC70)
-#define RPG_CLIENT_UIFRAMECAPTURE___C__DISPLAYCLASS1_0__CTOR_OFFSET UNITYSDK_OFFSET(0xCB4CB90)
+#define RPG_CLIENT_UIFRAMECAPTURE___C__DISPLAYCLASS1_0__CAPTUREFRAMEWITHPOSTPROCESS_B__0_OFFSET UNITYSDK_OFFSET(0x17235CF0)
+#define RPG_CLIENT_UIFRAMECAPTURE___C__DISPLAYCLASS1_0__CTOR_OFFSET UNITYSDK_OFFSET(0x17235C10)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int UIFrameCapture___c__DisplayClass1_0_TypeDefinitionIndex = 68232;
+	inline static constexpr unsigned int UIFrameCapture___c__DisplayClass1_0_TypeDefinitionIndex = 69721;
 
 	class UIFrameCapture___c__DisplayClass1_0 : public ::System::Object
 	{

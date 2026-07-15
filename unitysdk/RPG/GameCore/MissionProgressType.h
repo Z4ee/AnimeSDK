@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MissionProgressType_TypeDefinitionIndex = 18066;
+	inline static constexpr unsigned int MissionProgressType_TypeDefinitionIndex = 18270;
 
 	enum class MissionProgressType : ::System::Int32
 	{

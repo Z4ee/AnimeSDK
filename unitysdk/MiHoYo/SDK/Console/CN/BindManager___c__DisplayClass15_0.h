@@ -7,12 +7,12 @@ namespace MiHoYo::SDK::Console::CN { class BindManager; }
 namespace System { class String; }
 namespace System { template <typename T> class Action_1; }
 
-#define MIHOYO_SDK_CONSOLE_CN_BINDMANAGER___C__DISPLAYCLASS15_0__CREATETHIRDPARTYBINDMOBILEACTIONTICKET_B__0_OFFSET UNITYSDK_OFFSET(0x182143A0)
-#define MIHOYO_SDK_CONSOLE_CN_BINDMANAGER___C__DISPLAYCLASS15_0__CTOR_OFFSET UNITYSDK_OFFSET(0x18211A90)
+#define MIHOYO_SDK_CONSOLE_CN_BINDMANAGER___C__DISPLAYCLASS15_0__CREATETHIRDPARTYBINDMOBILEACTIONTICKET_B__0_OFFSET UNITYSDK_OFFSET(0x18897A90)
+#define MIHOYO_SDK_CONSOLE_CN_BINDMANAGER___C__DISPLAYCLASS15_0__CTOR_OFFSET UNITYSDK_OFFSET(0x18894FC0)
 
 namespace MiHoYo::SDK::Console::CN
 {
-	inline static constexpr unsigned int BindManager___c__DisplayClass15_0_TypeDefinitionIndex = 8768;
+	inline static constexpr unsigned int BindManager___c__DisplayClass15_0_TypeDefinitionIndex = 8780;
 
 	class BindManager___c__DisplayClass15_0 : public ::System::Object
 	{

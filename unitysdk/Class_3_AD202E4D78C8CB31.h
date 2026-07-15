@@ -8,20 +8,20 @@ namespace RPG::GameCore { class DamageDisplayData; }
 namespace RPG::GameCore { class DynamicFloat; }
 namespace RPG::GameCore { class TargetEvaluator; }
 
-#define CLASS_3_AD202E4D78C8CB31_METHOD_3_E024E0080A08A9C9_OFFSET UNITYSDK_OFFSET(0x19E9E1A0)
-#define CLASS_3_AD202E4D78C8CB31_METHOD_3_FF096862EF90B096_OFFSET UNITYSDK_OFFSET(0x19E9DFF0)
-#define CLASS_3_AD202E4D78C8CB31__CTOR_OFFSET UNITYSDK_OFFSET(0x19E9E0E0)
+#define CLASS_3_AD202E4D78C8CB31_METHOD_3_E024E0080A08A9C9_OFFSET UNITYSDK_OFFSET(0x1B157820)
+#define CLASS_3_AD202E4D78C8CB31_METHOD_3_FF096862EF90B096_OFFSET UNITYSDK_OFFSET(0x1B1576A0)
+#define CLASS_3_AD202E4D78C8CB31__CTOR_OFFSET UNITYSDK_OFFSET(0x1B157770)
 
-inline static constexpr unsigned int Class_3_AD202E4D78C8CB31_TypeDefinitionIndex = 22849;
+inline static constexpr unsigned int Class_3_AD202E4D78C8CB31_TypeDefinitionIndex = 23316;
 
 class Class_3_AD202E4D78C8CB31 : public ::RPG::GameCore::TaskConfig
 {
 public:
-	::RPG::GameCore::DamageDisplayData* Field_3_0; // 0x18
-	::RPG::GameCore::TargetEvaluator* Field_3_1; // 0x20
+	::RPG::GameCore::DynamicFloat* Field_3_0; // 0x18
+	::RPG::GameCore::DynamicFloat* Field_3_1; // 0x20
 	::RPG::GameCore::TargetEvaluator* Field_3_2; // 0x28
-	::RPG::GameCore::DynamicFloat* Field_3_3; // 0x30
-	::RPG::GameCore::DynamicFloat* Field_3_4; // 0x38
+	::RPG::GameCore::DamageDisplayData* Field_3_3; // 0x30
+	::RPG::GameCore::TargetEvaluator* Field_3_4; // 0x38
 	::System::Boolean Field_3_5; // 0x40
 	::RPG::GameCore::HealFormulaType Field_3_6; // 0x44
 

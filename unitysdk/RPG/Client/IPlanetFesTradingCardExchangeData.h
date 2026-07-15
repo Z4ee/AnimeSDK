@@ -8,7 +8,7 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int IPlanetFesTradingCardExchangeData_TypeDefinitionIndex = 62252;
+	inline static constexpr unsigned int IPlanetFesTradingCardExchangeData_TypeDefinitionIndex = 63618;
 
 	class IPlanetFesTradingCardExchangeData
 	{

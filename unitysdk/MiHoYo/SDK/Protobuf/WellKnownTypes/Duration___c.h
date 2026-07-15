@@ -4,20 +4,20 @@
 
 namespace MiHoYo::SDK::Protobuf::WellKnownTypes { class Duration; }
 
-#define MIHOYO_SDK_PROTOBUF_WELLKNOWNTYPES_DURATION___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x181CC7A0)
-#define MIHOYO_SDK_PROTOBUF_WELLKNOWNTYPES_DURATION___C__CTOR_OFFSET UNITYSDK_OFFSET(0x181CC7E0)
-#define MIHOYO_SDK_PROTOBUF_WELLKNOWNTYPES_DURATION___C___CCTOR_B__45_0_OFFSET UNITYSDK_OFFSET(0x181CC7F0)
+#define MIHOYO_SDK_PROTOBUF_WELLKNOWNTYPES_DURATION___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1D28BA00)
+#define MIHOYO_SDK_PROTOBUF_WELLKNOWNTYPES_DURATION___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1D28BA40)
+#define MIHOYO_SDK_PROTOBUF_WELLKNOWNTYPES_DURATION___C___CCTOR_B__45_0_OFFSET UNITYSDK_OFFSET(0x1D28BA50)
 
 namespace MiHoYo::SDK::Protobuf::WellKnownTypes
 {
-	inline static constexpr unsigned int Duration___c_TypeDefinitionIndex = 33934;
+	inline static constexpr unsigned int Duration___c_TypeDefinitionIndex = 34305;
 
 	class Duration___c : public ::System::Object
 	{
 	public:
 		static ::MiHoYo::SDK::Protobuf::WellKnownTypes::Duration___c** StaticGet___9()
 		{
-			return (::MiHoYo::SDK::Protobuf::WellKnownTypes::Duration___c**)Il2CppClass::FromTypeDefinitionIndex(Duration___c_TypeDefinitionIndex)->GetStaticField(0xDD0);
+			return (::MiHoYo::SDK::Protobuf::WellKnownTypes::Duration___c**)Il2CppClass::FromTypeDefinitionIndex(Duration___c_TypeDefinitionIndex)->GetStaticField(0xB00);
 		}
 
 		static ::System::Void _cctor()

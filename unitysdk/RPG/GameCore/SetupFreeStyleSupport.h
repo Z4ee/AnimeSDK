@@ -6,13 +6,13 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class TargetEvaluator; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_SETUPFREESTYLESUPPORT_METHOD_3_00E52D42D7394866_OFFSET UNITYSDK_OFFSET(0x19C6A6C0)
-#define RPG_GAMECORE_SETUPFREESTYLESUPPORT_METHOD_3_136DF6F08785C6EA_OFFSET UNITYSDK_OFFSET(0x19C6A5F0)
-#define RPG_GAMECORE_SETUPFREESTYLESUPPORT__CTOR_OFFSET UNITYSDK_OFFSET(0x19C6A670)
+#define RPG_GAMECORE_SETUPFREESTYLESUPPORT_METHOD_3_00E52D42D7394866_OFFSET UNITYSDK_OFFSET(0x1BE2FB20)
+#define RPG_GAMECORE_SETUPFREESTYLESUPPORT_METHOD_3_3F7C9CA715B74BF3_OFFSET UNITYSDK_OFFSET(0x1BE2FA80)
+#define RPG_GAMECORE_SETUPFREESTYLESUPPORT__CTOR_OFFSET UNITYSDK_OFFSET(0x1BE2FAE0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SetupFreeStyleSupport_TypeDefinitionIndex = 20685;
+	inline static constexpr unsigned int SetupFreeStyleSupport_TypeDefinitionIndex = 21100;
 
 	class SetupFreeStyleSupport : public ::RPG::GameCore::TaskConfig
 	{
@@ -27,9 +27,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETUPFREESTYLESUPPORT__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_136DF6F08785C6EA(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SetupFreeStyleSupport*& a2)
+		static ::System::Void Method_3_3F7C9CA715B74BF3(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SetupFreeStyleSupport*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SetupFreeStyleSupport*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETUPFREESTYLESUPPORT_METHOD_3_136DF6F08785C6EA_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SetupFreeStyleSupport*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETUPFREESTYLESUPPORT_METHOD_3_3F7C9CA715B74BF3_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_00E52D42D7394866(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SetupFreeStyleSupport* a2)

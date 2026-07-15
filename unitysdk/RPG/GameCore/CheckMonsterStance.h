@@ -5,13 +5,13 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_CHECKMONSTERSTANCE_METHOD_3_0632A0E8D2A3BA22_OFFSET UNITYSDK_OFFSET(0x196188C0)
-#define RPG_GAMECORE_CHECKMONSTERSTANCE_METHOD_3_1DE3C1202F104BD4_OFFSET UNITYSDK_OFFSET(0x19618940)
-#define RPG_GAMECORE_CHECKMONSTERSTANCE__CTOR_OFFSET UNITYSDK_OFFSET(0x19618910)
+#define RPG_GAMECORE_CHECKMONSTERSTANCE_METHOD_3_1DE3C1202F104BD4_OFFSET UNITYSDK_OFFSET(0x1B72E330)
+#define RPG_GAMECORE_CHECKMONSTERSTANCE_METHOD_3_5FC358F117DF09D3_OFFSET UNITYSDK_OFFSET(0x1B72E2E0)
+#define RPG_GAMECORE_CHECKMONSTERSTANCE__CTOR_OFFSET UNITYSDK_OFFSET(0x1B72E320)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int CheckMonsterStance_TypeDefinitionIndex = 21716;
+	inline static constexpr unsigned int CheckMonsterStance_TypeDefinitionIndex = 22143;
 
 	class CheckMonsterStance : public ::RPG::GameCore::TaskConfig
 	{
@@ -24,9 +24,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHECKMONSTERSTANCE__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_0632A0E8D2A3BA22(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::CheckMonsterStance*& a2)
+		static ::System::Void Method_3_5FC358F117DF09D3(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::CheckMonsterStance*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::CheckMonsterStance*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHECKMONSTERSTANCE_METHOD_3_0632A0E8D2A3BA22_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::CheckMonsterStance*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHECKMONSTERSTANCE_METHOD_3_5FC358F117DF09D3_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_1DE3C1202F104BD4(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::CheckMonsterStance* a2)

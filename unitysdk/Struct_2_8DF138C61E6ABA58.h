@@ -5,7 +5,7 @@
 
 namespace RPG::GameCore { class CharacterInputData; }
 
-inline static constexpr unsigned int Struct_2_8DF138C61E6ABA58_TypeDefinitionIndex = 53323;
+inline static constexpr unsigned int Struct_2_8DF138C61E6ABA58_TypeDefinitionIndex = 54538;
 
 struct alignas(8) Struct_2_8DF138C61E6ABA58
 {

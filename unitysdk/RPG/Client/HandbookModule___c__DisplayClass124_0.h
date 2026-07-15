@@ -2,19 +2,19 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define RPG_CLIENT_HANDBOOKMODULE___C__DISPLAYCLASS124_0__CTOR_OFFSET UNITYSDK_OFFSET(0xBCF9B60)
-#define RPG_CLIENT_HANDBOOKMODULE___C__DISPLAYCLASS124_0__GOTOTOGUIDEROGUE_B__0_OFFSET UNITYSDK_OFFSET(0xBCFE220)
+#define RPG_CLIENT_HANDBOOKMODULE___C__DISPLAYCLASS124_0__CTOR_OFFSET UNITYSDK_OFFSET(0x18FE3CC0)
+#define RPG_CLIENT_HANDBOOKMODULE___C__DISPLAYCLASS124_0__GOTOTOGUIDEROGUE_B__0_OFFSET UNITYSDK_OFFSET(0x18FE83D0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int HandbookModule___c__DisplayClass124_0_TypeDefinitionIndex = 61363;
+	inline static constexpr unsigned int HandbookModule___c__DisplayClass124_0_TypeDefinitionIndex = 62707;
 
 	class HandbookModule___c__DisplayClass124_0 : public ::System::Object
 	{
 	public:
-		::System::Boolean useCustomizedAreaID; // 0x10
-		::System::Boolean autoShow; // 0x11
-		::System::UInt32 customizedAreaID; // 0x14
+		::System::UInt32 customizedAreaID; // 0x10
+		::System::Boolean useCustomizedAreaID; // 0x14
+		::System::Boolean autoShow; // 0x15
 
 		::System::Void _ctor()
 		{

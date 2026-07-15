@@ -1,54 +1,59 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Class_3_98D44D81FBACEF55_LineType.h"
-#include "unitysdk/Class_3_B3D9F954008EA010_DrawModeType.h"
+#include "unitysdk/Class_3_893BFA26BECA2B67_LineType.h"
+#include "unitysdk/Class_3_B40B82316B003D8B_DrawModeType.h"
 #include "unitysdk/RPG/Client/TAMonoPlugin_1.h"
 #include "unitysdk/Struct_2_B3CFB45E7E960210.h"
 #include "unitysdk/UnityEngine/Bounds.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-class Class_3_98D44D81FBACEF55_AdditionalTransformAnim;
-class Class_3_B3D9F954008EA010;
-class Class_3_B3D9F954008EA010_AnimatedInstance;
-class Class_3_B3D9F954008EA010_AnimatedItem;
+class Class_3_893BFA26BECA2B67_AdditionalTransformAnim;
+class Class_3_B40B82316B003D8B;
+class Class_3_B40B82316B003D8B_AnimatedInstance;
+class Class_3_B40B82316B003D8B_AnimatedItem;
 namespace RPG::Client { class BezierCurve; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class Texture; }
 namespace UnityEngine { class Transform; }
 
-#define RPG_CLIENT_GPUTRANSFORMLOOPANIM_BAKEBEZIERCURVEDRAWMODE_OFFSET UNITYSDK_OFFSET(0xBAA74B0)
-#define RPG_CLIENT_GPUTRANSFORMLOOPANIM_GET_ARTBOUNDFULL_OFFSET UNITYSDK_OFFSET(0xBAA8120)
-#define RPG_CLIENT_GPUTRANSFORMLOOPANIM_GET_ARTBOUND_OFFSET UNITYSDK_OFFSET(0xBAA8970)
-#define RPG_CLIENT_GPUTRANSFORMLOOPANIM_GET_RENDERBUDGETDATA_OFFSET UNITYSDK_OFFSET(0xBAA8A20)
-#define RPG_CLIENT_GPUTRANSFORMLOOPANIM_METHOD_7_193B69F9A0A775CE_OFFSET UNITYSDK_OFFSET(0xBAA74F0)
-#define RPG_CLIENT_GPUTRANSFORMLOOPANIM__CTOR_OFFSET UNITYSDK_OFFSET(0xBAA8F80)
+#define RPG_CLIENT_GPUTRANSFORMLOOPANIM_BAKEBEZIERCURVEDRAWMODE_OFFSET UNITYSDK_OFFSET(0x192C1360)
+#define RPG_CLIENT_GPUTRANSFORMLOOPANIM_GET_ARTBOUNDFULL_OFFSET UNITYSDK_OFFSET(0x192C1FD0)
+#define RPG_CLIENT_GPUTRANSFORMLOOPANIM_GET_ARTBOUND_OFFSET UNITYSDK_OFFSET(0x192C2820)
+#define RPG_CLIENT_GPUTRANSFORMLOOPANIM_GET_BAKETEXTURE_OFFSET UNITYSDK_OFFSET(0x192C1300)
+#define RPG_CLIENT_GPUTRANSFORMLOOPANIM_GET_RENDERBUDGETDATA_OFFSET UNITYSDK_OFFSET(0x192C28D0)
+#define RPG_CLIENT_GPUTRANSFORMLOOPANIM_METHOD_7_193B69F9A0A775CE_OFFSET UNITYSDK_OFFSET(0x192C13A0)
+#define RPG_CLIENT_GPUTRANSFORMLOOPANIM__CTOR_OFFSET UNITYSDK_OFFSET(0x192C2E30)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GPUTransformLoopAnim_TypeDefinitionIndex = 65750;
+	inline static constexpr unsigned int GPUTransformLoopAnim_TypeDefinitionIndex = 67167;
 
-	class GPUTransformLoopAnim : public ::RPG::Client::TAMonoPlugin_1<::Class_3_B3D9F954008EA010*>
+	class GPUTransformLoopAnim : public ::RPG::Client::TAMonoPlugin_1<::Class_3_B40B82316B003D8B*>
 	{
 	public:
-		::System::Collections::Generic::List_1<::Class_3_B3D9F954008EA010_AnimatedItem*>* AnimatedCrowd; // 0x30
-		::Class_3_B3D9F954008EA010_DrawModeType DrawMode; // 0x38
-		::Class_3_98D44D81FBACEF55_LineType Mode; // 0x3C
+		::System::Collections::Generic::List_1<::Class_3_B40B82316B003D8B_AnimatedItem*>* AnimatedCrowd; // 0x30
+		::Class_3_B40B82316B003D8B_DrawModeType DrawMode; // 0x38
+		::Class_3_893BFA26BECA2B67_LineType Mode; // 0x3C
 		::UnityEngine::Vector3 StartPos; // 0x40
 		::UnityEngine::Vector3 EndPos; // 0x4C
 		::RPG::Client::BezierCurve* Curve; // 0x58
 		::System::Boolean FollowCurve; // 0x60
-		::UnityEngine::Texture* BakeTexture; // 0x68
-		::System::Single Speed; // 0x70
-		::UnityEngine::Vector3 GlobalRelativeTranslation; // 0x74
-		::UnityEngine::Vector3 GlobalRelativeRotation; // 0x80
-		::UnityEngine::Vector3 GlobalRelativeScale; // 0x8C
-		::Class_3_98D44D81FBACEF55_AdditionalTransformAnim* AdditionalTransformAnim; // 0x98
-		::System::Boolean Inited; // 0xA0
-		::System::Single SpeedLog; // 0xA4
+		::System::Single Speed; // 0x64
+		::UnityEngine::Vector3 GlobalRelativeTranslation; // 0x68
+		::UnityEngine::Vector3 GlobalRelativeRotation; // 0x74
+		::UnityEngine::Vector3 GlobalRelativeScale; // 0x80
+		::Class_3_893BFA26BECA2B67_AdditionalTransformAnim* AdditionalTransformAnim; // 0x90
+		::System::Boolean Inited; // 0x98
+		::System::Single SpeedLog; // 0x9C
 
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GPUTRANSFORMLOOPANIM__CTOR_OFFSET))(this);
+		}
+
+		::UnityEngine::Texture* get_BakeTexture()
+		{
+			return ((::UnityEngine::Texture*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GPUTRANSFORMLOOPANIM_GET_BAKETEXTURE_OFFSET))(this);
 		}
 
 		::System::Void BakeBezierCurveDrawMode()
@@ -56,9 +61,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GPUTRANSFORMLOOPANIM_BAKEBEZIERCURVEDRAWMODE_OFFSET))(this);
 		}
 
-		::Class_3_B3D9F954008EA010_AnimatedInstance* Method_7_193B69F9A0A775CE(::UnityEngine::Transform* a1)
+		::Class_3_B40B82316B003D8B_AnimatedInstance* Method_7_193B69F9A0A775CE(::UnityEngine::Transform* a1)
 		{
-			return ((::Class_3_B3D9F954008EA010_AnimatedInstance*(*)(::PVOID, ::UnityEngine::Transform*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GPUTRANSFORMLOOPANIM_METHOD_7_193B69F9A0A775CE_OFFSET))(this, a1);
+			return ((::Class_3_B40B82316B003D8B_AnimatedInstance*(*)(::PVOID, ::UnityEngine::Transform*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GPUTRANSFORMLOOPANIM_METHOD_7_193B69F9A0A775CE_OFFSET))(this, a1);
 		}
 
 		::UnityEngine::Bounds get_ArtBoundFull()

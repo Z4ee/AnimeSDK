@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int CameraDataAndFlags_MazeBattleShotDataType_TypeDefinitionIndex = 65021;
+	inline static constexpr unsigned int CameraDataAndFlags_MazeBattleShotDataType_TypeDefinitionIndex = 66426;
 
 	enum class CameraDataAndFlags_MazeBattleShotDataType : ::System::Int32
 	{

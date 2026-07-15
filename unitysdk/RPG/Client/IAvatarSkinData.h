@@ -7,7 +7,7 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int IAvatarSkinData_TypeDefinitionIndex = 58452;
+	inline static constexpr unsigned int IAvatarSkinData_TypeDefinitionIndex = 59721;
 
 	class IAvatarSkinData
 	{

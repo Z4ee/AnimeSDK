@@ -6,13 +6,13 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class TargetEvaluator; }
 
-#define RPG_GAMECORE_MODIFYCOOLDOWN_METHOD_3_106E2F22E509B8D5_OFFSET UNITYSDK_OFFSET(0x1994FDC0)
-#define RPG_GAMECORE_MODIFYCOOLDOWN_METHOD_3_81E244CB03357C2C_OFFSET UNITYSDK_OFFSET(0x1994FE40)
-#define RPG_GAMECORE_MODIFYCOOLDOWN__CTOR_OFFSET UNITYSDK_OFFSET(0x1994FE10)
+#define RPG_GAMECORE_MODIFYCOOLDOWN_METHOD_3_81E244CB03357C2C_OFFSET UNITYSDK_OFFSET(0x1B1A5140)
+#define RPG_GAMECORE_MODIFYCOOLDOWN_METHOD_3_9D0365CDCBFEB991_OFFSET UNITYSDK_OFFSET(0x1B1A5100)
+#define RPG_GAMECORE_MODIFYCOOLDOWN__CTOR_OFFSET UNITYSDK_OFFSET(0x1B1A5130)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ModifyCoolDown_TypeDefinitionIndex = 21366;
+	inline static constexpr unsigned int ModifyCoolDown_TypeDefinitionIndex = 21784;
 
 	class ModifyCoolDown : public ::RPG::GameCore::TaskConfig
 	{
@@ -27,9 +27,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MODIFYCOOLDOWN__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_106E2F22E509B8D5(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ModifyCoolDown*& a2)
+		static ::System::Void Method_3_9D0365CDCBFEB991(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ModifyCoolDown*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ModifyCoolDown*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MODIFYCOOLDOWN_METHOD_3_106E2F22E509B8D5_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ModifyCoolDown*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MODIFYCOOLDOWN_METHOD_3_9D0365CDCBFEB991_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_81E244CB03357C2C(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ModifyCoolDown* a2)

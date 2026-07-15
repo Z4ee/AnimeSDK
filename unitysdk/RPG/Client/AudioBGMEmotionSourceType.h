@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int AudioBGMEmotionSourceType_TypeDefinitionIndex = 56531;
+	inline static constexpr unsigned int AudioBGMEmotionSourceType_TypeDefinitionIndex = 57771;
 
 	enum class AudioBGMEmotionSourceType : ::System::Int32
 	{

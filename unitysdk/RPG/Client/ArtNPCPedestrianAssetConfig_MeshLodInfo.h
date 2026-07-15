@@ -6,7 +6,7 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ArtNPCPedestrianAssetConfig_MeshLodInfo_TypeDefinitionIndex = 64755;
+	inline static constexpr unsigned int ArtNPCPedestrianAssetConfig_MeshLodInfo_TypeDefinitionIndex = 66156;
 
 	struct alignas(8) ArtNPCPedestrianAssetConfig_MeshLodInfo
 	{

@@ -1,6 +1,6 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Class_1_5B0B78CFE6F65A6A.h"
+#include "unitysdk/Class_1_4A7F3B1CD6560F7E.h"
 #include "unitysdk/RPG/Client/CameraModuleType.h"
 
 namespace RPG::Client { class CameraDataAndFlags; }
@@ -9,17 +9,16 @@ namespace RPG::Client { class PipelineCameraEngine; }
 namespace RPG::Client { class PipelineCameraGlobalConfig; }
 namespace UnityEngine { class Transform; }
 
-#define CLASS_2_3AC793AC922B6D20_METHOD_2_06330CD58CB602B6_OFFSET UNITYSDK_OFFSET(0xAB1BB50)
-#define CLASS_2_3AC793AC922B6D20_METHOD_2_30E134A2CEDB3A22_OFFSET UNITYSDK_OFFSET(0xAB1B9A0)
-#define CLASS_2_3AC793AC922B6D20_METHOD_2_A0433AB55CC45192_OFFSET UNITYSDK_OFFSET(0xAB1BA50)
-#define CLASS_2_3AC793AC922B6D20_METHOD_2_CA373AA1C7054598_OFFSET UNITYSDK_OFFSET(0xAB1D2A0)
-#define CLASS_2_3AC793AC922B6D20_METHOD_2_DD325FEFA053DBEF_OFFSET UNITYSDK_OFFSET(0xAB1D2F0)
-#define CLASS_2_3AC793AC922B6D20__CTOR_1_OFFSET UNITYSDK_OFFSET(0xAB1B970)
-#define CLASS_2_3AC793AC922B6D20__CTOR_OFFSET UNITYSDK_OFFSET(0xAB1B960)
+#define CLASS_2_3AC793AC922B6D20_METHOD_2_06330CD58CB602B6_OFFSET UNITYSDK_OFFSET(0x15066EF0)
+#define CLASS_2_3AC793AC922B6D20_METHOD_2_30E134A2CEDB3A22_OFFSET UNITYSDK_OFFSET(0x15066D40)
+#define CLASS_2_3AC793AC922B6D20_METHOD_2_A0433AB55CC45192_OFFSET UNITYSDK_OFFSET(0x15066DF0)
+#define CLASS_2_3AC793AC922B6D20_METHOD_2_CA373AA1C7054598_OFFSET UNITYSDK_OFFSET(0x15068640)
+#define CLASS_2_3AC793AC922B6D20__CTOR_1_OFFSET UNITYSDK_OFFSET(0x15066BE0)
+#define CLASS_2_3AC793AC922B6D20__CTOR_OFFSET UNITYSDK_OFFSET(0x15066BD0)
 
-inline static constexpr unsigned int Class_2_3AC793AC922B6D20_TypeDefinitionIndex = 65089;
+inline static constexpr unsigned int Class_2_3AC793AC922B6D20_TypeDefinitionIndex = 66494;
 
-class Class_2_3AC793AC922B6D20 : public ::Class_1_5B0B78CFE6F65A6A
+class Class_2_3AC793AC922B6D20 : public ::Class_1_4A7F3B1CD6560F7E
 {
 public:
 	::UnityEngine::Transform* Field_2_0; // 0x38
@@ -52,10 +51,5 @@ public:
 	::System::Void Method_2_CA373AA1C7054598()
 	{
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_3AC793AC922B6D20_METHOD_2_CA373AA1C7054598_OFFSET))(this);
-	}
-
-	::System::Void Method_2_DD325FEFA053DBEF(::RPG::Client::PipelineCameraEngine* a1, ::RPG::Client::CameraModuleConfigCollection* a2, ::RPG::Client::PipelineCameraGlobalConfig* a3, ::RPG::Client::CameraDataAndFlags* a4, ::RPG::Client::CameraModuleType a5)
-	{
-		return ((::System::Void(*)(::PVOID, ::RPG::Client::PipelineCameraEngine*, ::RPG::Client::CameraModuleConfigCollection*, ::RPG::Client::PipelineCameraGlobalConfig*, ::RPG::Client::CameraDataAndFlags*, ::RPG::Client::CameraModuleType))((::PBYTE)hIl2Cpp + CLASS_2_3AC793AC922B6D20_METHOD_2_DD325FEFA053DBEF_OFFSET))(this, a1, a2, a3, a4, a5);
 	}
 };

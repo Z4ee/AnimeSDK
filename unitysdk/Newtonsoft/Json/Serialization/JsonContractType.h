@@ -3,7 +3,7 @@
 
 namespace Newtonsoft::Json::Serialization
 {
-	inline static constexpr unsigned int JsonContractType_TypeDefinitionIndex = 9371;
+	inline static constexpr unsigned int JsonContractType_TypeDefinitionIndex = 9383;
 
 	enum class JsonContractType : ::System::Int32
 	{

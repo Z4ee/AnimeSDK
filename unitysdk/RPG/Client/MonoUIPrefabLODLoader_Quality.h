@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MonoUIPrefabLODLoader_Quality_TypeDefinitionIndex = 64507;
+	inline static constexpr unsigned int MonoUIPrefabLODLoader_Quality_TypeDefinitionIndex = 65907;
 
 	enum class MonoUIPrefabLODLoader_Quality : ::System::Int32
 	{

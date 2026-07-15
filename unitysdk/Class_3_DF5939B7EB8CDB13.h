@@ -4,22 +4,22 @@
 #include "unitysdk/RPG/GameCore/FixPoint.h"
 #include "unitysdk/RPG/GameCore/ImmediateTaskBase_1.h"
 
-class Class_1_63FCD7401F25CCF9;
-class Class_3_99BDA01B55ECE46A;
+class Class_1_A67459655C467518;
+class Class_3_616D254EC2C455CD;
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_DF5939B7EB8CDB13_METHOD_3_145BEE9BBC06CCEE_OFFSET UNITYSDK_OFFSET(0x13841290)
-#define CLASS_3_DF5939B7EB8CDB13_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x13840F80)
-#define CLASS_3_DF5939B7EB8CDB13__CTOR_OFFSET UNITYSDK_OFFSET(0x13840F50)
+#define CLASS_3_DF5939B7EB8CDB13_METHOD_3_145BEE9BBC06CCEE_OFFSET UNITYSDK_OFFSET(0x17C915E0)
+#define CLASS_3_DF5939B7EB8CDB13_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x17C912D0)
+#define CLASS_3_DF5939B7EB8CDB13__CTOR_OFFSET UNITYSDK_OFFSET(0x17C912A0)
 
-inline static constexpr unsigned int Class_3_DF5939B7EB8CDB13_TypeDefinitionIndex = 52040;
+inline static constexpr unsigned int Class_3_DF5939B7EB8CDB13_TypeDefinitionIndex = 53196;
 
-class Class_3_DF5939B7EB8CDB13 : public ::RPG::GameCore::ImmediateTaskBase_1<::Class_3_99BDA01B55ECE46A*>
+class Class_3_DF5939B7EB8CDB13 : public ::RPG::GameCore::ImmediateTaskBase_1<::Class_3_616D254EC2C455CD*>
 {
 public:
-	::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::Class_3_99BDA01B55ECE46A* a2)
+	::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::Class_3_616D254EC2C455CD* a2)
 	{
-		return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::Class_3_99BDA01B55ECE46A*))((::PBYTE)hIl2Cpp + CLASS_3_DF5939B7EB8CDB13__CTOR_OFFSET))(this, a1, a2);
+		return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::Class_3_616D254EC2C455CD*))((::PBYTE)hIl2Cpp + CLASS_3_DF5939B7EB8CDB13__CTOR_OFFSET))(this, a1, a2);
 	}
 
 	::System::Void OnTaskBegin()
@@ -27,8 +27,8 @@ public:
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_3_DF5939B7EB8CDB13_ONTASKBEGIN_OFFSET))(this);
 	}
 
-	::System::Void Method_3_145BEE9BBC06CCEE(::Class_1_63FCD7401F25CCF9* a1, ::RPG::GameCore::AvatarSpecialStatisticsType a2, ::RPG::GameCore::FixPoint a3)
+	::System::Void Method_3_145BEE9BBC06CCEE(::Class_1_A67459655C467518* a1, ::RPG::GameCore::AvatarSpecialStatisticsType a2, ::RPG::GameCore::FixPoint a3)
 	{
-		return ((::System::Void(*)(::PVOID, ::Class_1_63FCD7401F25CCF9*, ::RPG::GameCore::AvatarSpecialStatisticsType, ::RPG::GameCore::FixPoint))((::PBYTE)hIl2Cpp + CLASS_3_DF5939B7EB8CDB13_METHOD_3_145BEE9BBC06CCEE_OFFSET))(this, a1, a2, a3);
+		return ((::System::Void(*)(::PVOID, ::Class_1_A67459655C467518*, ::RPG::GameCore::AvatarSpecialStatisticsType, ::RPG::GameCore::FixPoint))((::PBYTE)hIl2Cpp + CLASS_3_DF5939B7EB8CDB13_METHOD_3_145BEE9BBC06CCEE_OFFSET))(this, a1, a2, a3);
 	}
 };

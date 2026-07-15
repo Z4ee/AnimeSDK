@@ -5,13 +5,13 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_SETLOOPMOVEOBJECTSPEED_METHOD_3_9A950ACF6965387E_OFFSET UNITYSDK_OFFSET(0x19C542C0)
-#define RPG_GAMECORE_SETLOOPMOVEOBJECTSPEED_METHOD_3_D8BAC9E2F2A2E73D_OFFSET UNITYSDK_OFFSET(0x19C54340)
-#define RPG_GAMECORE_SETLOOPMOVEOBJECTSPEED__CTOR_OFFSET UNITYSDK_OFFSET(0x19C54310)
+#define RPG_GAMECORE_SETLOOPMOVEOBJECTSPEED_METHOD_3_4EFFADDB8C10EA08_OFFSET UNITYSDK_OFFSET(0x1C5FEE30)
+#define RPG_GAMECORE_SETLOOPMOVEOBJECTSPEED_METHOD_3_D8BAC9E2F2A2E73D_OFFSET UNITYSDK_OFFSET(0x1C5FEE70)
+#define RPG_GAMECORE_SETLOOPMOVEOBJECTSPEED__CTOR_OFFSET UNITYSDK_OFFSET(0x1C5FEE60)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SetLoopMoveObjectSpeed_TypeDefinitionIndex = 19293;
+	inline static constexpr unsigned int SetLoopMoveObjectSpeed_TypeDefinitionIndex = 19649;
 
 	class SetLoopMoveObjectSpeed : public ::RPG::GameCore::TaskConfig
 	{
@@ -25,9 +25,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETLOOPMOVEOBJECTSPEED__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_9A950ACF6965387E(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SetLoopMoveObjectSpeed*& a2)
+		static ::System::Void Method_3_4EFFADDB8C10EA08(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SetLoopMoveObjectSpeed*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SetLoopMoveObjectSpeed*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETLOOPMOVEOBJECTSPEED_METHOD_3_9A950ACF6965387E_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SetLoopMoveObjectSpeed*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETLOOPMOVEOBJECTSPEED_METHOD_3_4EFFADDB8C10EA08_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_D8BAC9E2F2A2E73D(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SetLoopMoveObjectSpeed* a2)

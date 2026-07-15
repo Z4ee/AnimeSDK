@@ -7,19 +7,19 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_IDLELIVESENDERROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x19846D00)
-#define RPG_GAMECORE_IDLELIVESENDERROW__CTOR_OFFSET UNITYSDK_OFFSET(0x19846F20)
+#define RPG_GAMECORE_IDLELIVESENDERROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B0070C0)
+#define RPG_GAMECORE_IDLELIVESENDERROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1B0072E0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int IdleLiveSenderRow_TypeDefinitionIndex = 11278;
+	inline static constexpr unsigned int IdleLiveSenderRow_TypeDefinitionIndex = 11378;
 
 	class IdleLiveSenderRow : public ::System::Object
 	{
 	public:
 		::System::String* Icon; // 0x10
-		::RPG::GameCore::OfflineMessageSenderType SenderType; // 0x18
-		::System::UInt32 ID; // 0x1C
+		::System::UInt32 ID; // 0x18
+		::RPG::GameCore::OfflineMessageSenderType SenderType; // 0x1C
 		::RPG::Client::TextID Name; // 0x20
 
 		::System::Void _ctor()

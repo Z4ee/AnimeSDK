@@ -1,27 +1,27 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Class_2_7134DCF9ECF7587A.h"
+#include "unitysdk/Class_2_BB5C2228DBF7AE1F.h"
 
-class Class_3_BA17AF9DC70F4765;
+class Class_3_C53C3A88959D9B6E;
 namespace RPG::Client { class ChenLingFesGameInstance; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_6707CC6E3F66B9CD_1_METHOD_3_CE962969F77540FC_OFFSET UNITYSDK_OFFSET(0x142F0F60)
-#define CLASS_3_6707CC6E3F66B9CD_1_METHOD_3_FAC5ABFAAE683959_OFFSET UNITYSDK_OFFSET(0x142F0E30)
-#define CLASS_3_6707CC6E3F66B9CD_1_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x142F07C0)
-#define CLASS_3_6707CC6E3F66B9CD_1__CTOR_OFFSET UNITYSDK_OFFSET(0x142F07B0)
+#define CLASS_3_6707CC6E3F66B9CD_1_METHOD_3_BD6A3C745D127D79_OFFSET UNITYSDK_OFFSET(0x1670AD40)
+#define CLASS_3_6707CC6E3F66B9CD_1_METHOD_3_FAC5ABFAAE683959_OFFSET UNITYSDK_OFFSET(0x1670AC10)
+#define CLASS_3_6707CC6E3F66B9CD_1_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1670A5A0)
+#define CLASS_3_6707CC6E3F66B9CD_1__CTOR_OFFSET UNITYSDK_OFFSET(0x1670A590)
 
-inline static constexpr unsigned int Class_3_6707CC6E3F66B9CD_1_TypeDefinitionIndex = 49277;
+inline static constexpr unsigned int Class_3_6707CC6E3F66B9CD_1_TypeDefinitionIndex = 50292;
 
-class Class_3_6707CC6E3F66B9CD_1 : public ::Class_2_7134DCF9ECF7587A
+class Class_3_6707CC6E3F66B9CD_1 : public ::Class_2_BB5C2228DBF7AE1F
 {
 public:
 	::RPG::GameCore::TaskContext* Field_3_0; // 0x28
-	::Class_3_BA17AF9DC70F4765* Field_3_1; // 0x30
+	::Class_3_C53C3A88959D9B6E* Field_3_1; // 0x30
 
-	::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::Class_3_BA17AF9DC70F4765* a2)
+	::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::Class_3_C53C3A88959D9B6E* a2)
 	{
-		return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::Class_3_BA17AF9DC70F4765*))((::PBYTE)hIl2Cpp + CLASS_3_6707CC6E3F66B9CD_1__CTOR_OFFSET))(this, a1, a2);
+		return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::Class_3_C53C3A88959D9B6E*))((::PBYTE)hIl2Cpp + CLASS_3_6707CC6E3F66B9CD_1__CTOR_OFFSET))(this, a1, a2);
 	}
 
 	::System::Void OnTaskBegin()
@@ -29,9 +29,9 @@ public:
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_3_6707CC6E3F66B9CD_1_ONTASKBEGIN_OFFSET))(this);
 	}
 
-	::System::Void Method_3_CE962969F77540FC(::System::Boolean a1)
+	::System::Void Method_3_BD6A3C745D127D79(::System::Boolean a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + CLASS_3_6707CC6E3F66B9CD_1_METHOD_3_CE962969F77540FC_OFFSET))(this, a1);
+		return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + CLASS_3_6707CC6E3F66B9CD_1_METHOD_3_BD6A3C745D127D79_OFFSET))(this, a1);
 	}
 
 	::RPG::Client::ChenLingFesGameInstance* Method_3_FAC5ABFAAE683959()

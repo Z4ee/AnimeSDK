@@ -1,0 +1,305 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+
+class Class_1_2069E4ACFE5B6F0E;
+class Class_1_5138A02229B03469;
+class Class_1_7EEA5E93C4D09894;
+class Class_1_80ED5C578A50E90A;
+class Class_1_B13340E145F0BF93;
+namespace RPG::Client::TeamTowers { class TeamTowersBossData; }
+namespace RPG::Client::TeamTowers { class TeamTowersBubbleData; }
+namespace RPG::Client::TeamTowers { class TeamTowersDepartmentData; }
+namespace RPG::Client::TeamTowers { class TeamTowersStageData; }
+namespace RPG::Client::TeamTowers { class TeamTowersStageDetailStarsViewModel; }
+namespace RPG::Client::TeamTowers { class TeamTowersStageDetailTabViewModel; }
+namespace RPG::Client::TeamTowers { class TeamTowersStageGroupData; }
+namespace RPG::Client::TeamTowers { class TeamTowersWindowService; }
+namespace System { class String; }
+namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
+namespace System::Collections::Generic { template <typename T> class List_1; }
+namespace UnityEngine { class Transform; }
+
+#define RPG_CLIENT_TEAMTOWERS_TEAMTOWERSSTAGEDETAILVIEWMODEL_ENTERSTAGE_OFFSET UNITYSDK_OFFSET(0x194729F0)
+#define RPG_CLIENT_TEAMTOWERS_TEAMTOWERSSTAGEDETAILVIEWMODEL_GETAVAILABLEBRICKIDS_OFFSET UNITYSDK_OFFSET(0x194721C0)
+#define RPG_CLIENT_TEAMTOWERS_TEAMTOWERSSTAGEDETAILVIEWMODEL_GETBRICKICONPATH_OFFSET UNITYSDK_OFFSET(0x194722D0)
+#define RPG_CLIENT_TEAMTOWERS_TEAMTOWERSSTAGEDETAILVIEWMODEL_GETNEXTBUBBLEDATA_OFFSET UNITYSDK_OFFSET(0x194726B0)
+#define RPG_CLIENT_TEAMTOWERS_TEAMTOWERSSTAGEDETAILVIEWMODEL_GET_BOSSDATA_OFFSET UNITYSDK_OFFSET(0x194729A0)
+#define RPG_CLIENT_TEAMTOWERS_TEAMTOWERSSTAGEDETAILVIEWMODEL_GET_BOSSID_OFFSET UNITYSDK_OFFSET(0x19472F20)
+#define RPG_CLIENT_TEAMTOWERS_TEAMTOWERSSTAGEDETAILVIEWMODEL_GET_BUBBLEINTERVAL_OFFSET UNITYSDK_OFFSET(0x194732D0)
+#define RPG_CLIENT_TEAMTOWERS_TEAMTOWERSSTAGEDETAILVIEWMODEL_GET_DEPARTMENTDATA_OFFSET UNITYSDK_OFFSET(0x194732C0)
+#define RPG_CLIENT_TEAMTOWERS_TEAMTOWERSSTAGEDETAILVIEWMODEL_GET_DEPARTMENTID_OFFSET UNITYSDK_OFFSET(0x194731F0)
+#define RPG_CLIENT_TEAMTOWERS_TEAMTOWERSSTAGEDETAILVIEWMODEL_GET_HARDSTAGEDATA_OFFSET UNITYSDK_OFFSET(0x19472E20)
+#define RPG_CLIENT_TEAMTOWERS_TEAMTOWERSSTAGEDETAILVIEWMODEL_GET_HARDSTAGEHASPASSED_OFFSET UNITYSDK_OFFSET(0x194730F0)
+#define RPG_CLIENT_TEAMTOWERS_TEAMTOWERSSTAGEDETAILVIEWMODEL_GET_HARDSTARSVIEWMODEL_OFFSET UNITYSDK_OFFSET(0x19473400)
+#define RPG_CLIENT_TEAMTOWERS_TEAMTOWERSSTAGEDETAILVIEWMODEL_GET_HARDTABVIEWMODEL_OFFSET UNITYSDK_OFFSET(0x19473440)
+#define RPG_CLIENT_TEAMTOWERS_TEAMTOWERSSTAGEDETAILVIEWMODEL_GET_HASPASSED_OFFSET UNITYSDK_OFFSET(0x19472F70)
+#define RPG_CLIENT_TEAMTOWERS_TEAMTOWERSSTAGEDETAILVIEWMODEL_GET_HASSIMPLESTAGE_OFFSET UNITYSDK_OFFSET(0x19471BC0)
+#define RPG_CLIENT_TEAMTOWERS_TEAMTOWERSSTAGEDETAILVIEWMODEL_GET_ISHARDMODE_OFFSET UNITYSDK_OFFSET(0x19472FC0)
+#define RPG_CLIENT_TEAMTOWERS_TEAMTOWERSSTAGEDETAILVIEWMODEL_GET_ISPVPSTAGE_OFFSET UNITYSDK_OFFSET(0x19473240)
+#define RPG_CLIENT_TEAMTOWERS_TEAMTOWERSSTAGEDETAILVIEWMODEL_GET_SHOWABILITYBUTTON_OFFSET UNITYSDK_OFFSET(0x19473190)
+#define RPG_CLIENT_TEAMTOWERS_TEAMTOWERSSTAGEDETAILVIEWMODEL_GET_SIMPLESTAGEDATA_OFFSET UNITYSDK_OFFSET(0x19472D70)
+#define RPG_CLIENT_TEAMTOWERS_TEAMTOWERSSTAGEDETAILVIEWMODEL_GET_SIMPLESTAGEHASPASSED_OFFSET UNITYSDK_OFFSET(0x19473040)
+#define RPG_CLIENT_TEAMTOWERS_TEAMTOWERSSTAGEDETAILVIEWMODEL_GET_SIMPLESTARSVIEWMODEL_OFFSET UNITYSDK_OFFSET(0x194733E0)
+#define RPG_CLIENT_TEAMTOWERS_TEAMTOWERSSTAGEDETAILVIEWMODEL_GET_SIMPLETABVIEWMODEL_OFFSET UNITYSDK_OFFSET(0x19473420)
+#define RPG_CLIENT_TEAMTOWERS_TEAMTOWERSSTAGEDETAILVIEWMODEL_GET_SPECIALRULESTATE_OFFSET UNITYSDK_OFFSET(0x19473320)
+#define RPG_CLIENT_TEAMTOWERS_TEAMTOWERSSTAGEDETAILVIEWMODEL_GET_STAGEGROUPID_OFFSET UNITYSDK_OFFSET(0x19472E80)
+#define RPG_CLIENT_TEAMTOWERS_TEAMTOWERSSTAGEDETAILVIEWMODEL_GET_STAGEID_OFFSET UNITYSDK_OFFSET(0x19472ED0)
+#define RPG_CLIENT_TEAMTOWERS_TEAMTOWERSSTAGEDETAILVIEWMODEL_GET_STARSVIEWMODEL_OFFSET UNITYSDK_OFFSET(0x194733C0)
+#define RPG_CLIENT_TEAMTOWERS_TEAMTOWERSSTAGEDETAILVIEWMODEL_GET_WINDOWSERVICE_OFFSET UNITYSDK_OFFSET(0x19473460)
+#define RPG_CLIENT_TEAMTOWERS_TEAMTOWERSSTAGEDETAILVIEWMODEL_POPUPNEWDIFFICULTYUNLOCKHINT_OFFSET UNITYSDK_OFFSET(0x19472B10)
+#define RPG_CLIENT_TEAMTOWERS_TEAMTOWERSSTAGEDETAILVIEWMODEL_REFRESHSTARSVIEWMODELS_OFFSET UNITYSDK_OFFSET(0x19472A90)
+#define RPG_CLIENT_TEAMTOWERS_TEAMTOWERSSTAGEDETAILVIEWMODEL_SETUPBOSSRENDERINGPANEL_OFFSET UNITYSDK_OFFSET(0x19472360)
+#define RPG_CLIENT_TEAMTOWERS_TEAMTOWERSSTAGEDETAILVIEWMODEL_SET_HARDSTARSVIEWMODEL_OFFSET UNITYSDK_OFFSET(0x19473410)
+#define RPG_CLIENT_TEAMTOWERS_TEAMTOWERSSTAGEDETAILVIEWMODEL_SET_HARDTABVIEWMODEL_OFFSET UNITYSDK_OFFSET(0x19473450)
+#define RPG_CLIENT_TEAMTOWERS_TEAMTOWERSSTAGEDETAILVIEWMODEL_SET_SIMPLESTARSVIEWMODEL_OFFSET UNITYSDK_OFFSET(0x194733F0)
+#define RPG_CLIENT_TEAMTOWERS_TEAMTOWERSSTAGEDETAILVIEWMODEL_SET_SIMPLETABVIEWMODEL_OFFSET UNITYSDK_OFFSET(0x19473430)
+#define RPG_CLIENT_TEAMTOWERS_TEAMTOWERSSTAGEDETAILVIEWMODEL_SET_STARSVIEWMODEL_OFFSET UNITYSDK_OFFSET(0x194733D0)
+#define RPG_CLIENT_TEAMTOWERS_TEAMTOWERSSTAGEDETAILVIEWMODEL_SET_WINDOWSERVICE_OFFSET UNITYSDK_OFFSET(0x19473470)
+#define RPG_CLIENT_TEAMTOWERS_TEAMTOWERSSTAGEDETAILVIEWMODEL_SWITCHTOEASY_OFFSET UNITYSDK_OFFSET(0x19471FA0)
+#define RPG_CLIENT_TEAMTOWERS_TEAMTOWERSSTAGEDETAILVIEWMODEL_SWITCHTOHARD_OFFSET UNITYSDK_OFFSET(0x19472100)
+#define RPG_CLIENT_TEAMTOWERS_TEAMTOWERSSTAGEDETAILVIEWMODEL__BUILDSTARSVIEWMODELS_OFFSET UNITYSDK_OFFSET(0x19471C20)
+#define RPG_CLIENT_TEAMTOWERS_TEAMTOWERSSTAGEDETAILVIEWMODEL__BUILDTABVIEWMODELS_OFFSET UNITYSDK_OFFSET(0x19471E10)
+#define RPG_CLIENT_TEAMTOWERS_TEAMTOWERSSTAGEDETAILVIEWMODEL__CTOR_OFFSET UNITYSDK_OFFSET(0x19471920)
+#define RPG_CLIENT_TEAMTOWERS_TEAMTOWERSSTAGEDETAILVIEWMODEL__POPUPNEWDIFFICULTYDIALOG_OFFSET UNITYSDK_OFFSET(0x19472B60)
+#define RPG_CLIENT_TEAMTOWERS_TEAMTOWERSSTAGEDETAILVIEWMODEL__SWITCHSTARSVIEWMODEL_OFFSET UNITYSDK_OFFSET(0x19472060)
+
+namespace RPG::Client::TeamTowers
+{
+	inline static constexpr unsigned int TeamTowersStageDetailViewModel_TypeDefinitionIndex = 75117;
+
+	class TeamTowersStageDetailViewModel : public ::System::Object
+	{
+	public:
+		::RPG::Client::TeamTowers::TeamTowersStageDetailStarsViewModel* _SimpleStarsViewModel_k__BackingField; // 0x10
+		::Class_1_80ED5C578A50E90A* _ResultService; // 0x18
+		::Class_1_B13340E145F0BF93* _GameflowService; // 0x20
+		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::Class_1_5138A02229B03469*>* _BubbleSequenceDict; // 0x28
+		::Class_1_7EEA5E93C4D09894* _Repository; // 0x30
+		::RPG::Client::TeamTowers::TeamTowersWindowService* _WindowService_k__BackingField; // 0x38
+		::RPG::Client::TeamTowers::TeamTowersDepartmentData* _DepartmentData_k__BackingField; // 0x40
+		::RPG::Client::TeamTowers::TeamTowersStageData* _CurrentStageData; // 0x48
+		::RPG::Client::TeamTowers::TeamTowersStageDetailTabViewModel* _HardTabViewModel_k__BackingField; // 0x50
+		::RPG::Client::TeamTowers::TeamTowersStageDetailTabViewModel* _SimpleTabViewModel_k__BackingField; // 0x58
+		::Class_1_2069E4ACFE5B6F0E* _DepartmentRow; // 0x60
+		::RPG::Client::TeamTowers::TeamTowersStageDetailStarsViewModel* _StarsViewModel_k__BackingField; // 0x68
+		::RPG::Client::TeamTowers::TeamTowersStageDetailStarsViewModel* _HardStarsViewModel_k__BackingField; // 0x70
+		::RPG::Client::TeamTowers::TeamTowersStageGroupData* _StageGroupData; // 0x78
+		::System::Single _BubbleInterval; // 0x80
+
+		::System::Void _ctor(::Class_1_7EEA5E93C4D09894* a1, ::Class_1_B13340E145F0BF93* a2, ::Class_1_80ED5C578A50E90A* a3, ::RPG::Client::TeamTowers::TeamTowersWindowService* a4, ::System::UInt32 a5)
+		{
+			return ((::System::Void(*)(::PVOID, ::Class_1_7EEA5E93C4D09894*, ::Class_1_B13340E145F0BF93*, ::Class_1_80ED5C578A50E90A*, ::RPG::Client::TeamTowers::TeamTowersWindowService*, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_TEAMTOWERS_TEAMTOWERSSTAGEDETAILVIEWMODEL__CTOR_OFFSET))(this, a1, a2, a3, a4, a5);
+		}
+
+		::System::Void SwitchToEasy()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_TEAMTOWERS_TEAMTOWERSSTAGEDETAILVIEWMODEL_SWITCHTOEASY_OFFSET))(this);
+		}
+
+		::System::Void SwitchToHard()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_TEAMTOWERS_TEAMTOWERSSTAGEDETAILVIEWMODEL_SWITCHTOHARD_OFFSET))(this);
+		}
+
+		::System::Collections::Generic::List_1<::System::UInt32>* GetAvailableBrickIDs()
+		{
+			return ((::System::Collections::Generic::List_1<::System::UInt32>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_TEAMTOWERS_TEAMTOWERSSTAGEDETAILVIEWMODEL_GETAVAILABLEBRICKIDS_OFFSET))(this);
+		}
+
+		::System::String* GetBrickIconPath(::System::UInt32 a1)
+		{
+			return ((::System::String*(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_TEAMTOWERS_TEAMTOWERSSTAGEDETAILVIEWMODEL_GETBRICKICONPATH_OFFSET))(this, a1);
+		}
+
+		::System::Void SetupBossRenderingPanel(::UnityEngine::Transform* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Transform*))((::PBYTE)hIl2Cpp + RPG_CLIENT_TEAMTOWERS_TEAMTOWERSSTAGEDETAILVIEWMODEL_SETUPBOSSRENDERINGPANEL_OFFSET))(this, a1);
+		}
+
+		::RPG::Client::TeamTowers::TeamTowersBubbleData* GetNextBubbleData()
+		{
+			return ((::RPG::Client::TeamTowers::TeamTowersBubbleData*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_TEAMTOWERS_TEAMTOWERSSTAGEDETAILVIEWMODEL_GETNEXTBUBBLEDATA_OFFSET))(this);
+		}
+
+		::System::Void EnterStage()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_TEAMTOWERS_TEAMTOWERSSTAGEDETAILVIEWMODEL_ENTERSTAGE_OFFSET))(this);
+		}
+
+		::System::Void RefreshStarsViewModels()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_TEAMTOWERS_TEAMTOWERSSTAGEDETAILVIEWMODEL_REFRESHSTARSVIEWMODELS_OFFSET))(this);
+		}
+
+		::System::Void PopupNewDifficultyUnlockHint()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_TEAMTOWERS_TEAMTOWERSSTAGEDETAILVIEWMODEL_POPUPNEWDIFFICULTYUNLOCKHINT_OFFSET))(this);
+		}
+
+		::System::Void _BuildStarsViewModels()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_TEAMTOWERS_TEAMTOWERSSTAGEDETAILVIEWMODEL__BUILDSTARSVIEWMODELS_OFFSET))(this);
+		}
+
+		::System::Void _SwitchStarsViewModel()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_TEAMTOWERS_TEAMTOWERSSTAGEDETAILVIEWMODEL__SWITCHSTARSVIEWMODEL_OFFSET))(this);
+		}
+
+		::System::Void _BuildTabViewModels()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_TEAMTOWERS_TEAMTOWERSSTAGEDETAILVIEWMODEL__BUILDTABVIEWMODELS_OFFSET))(this);
+		}
+
+		::System::Void _PopupNewDifficultyDialog()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_TEAMTOWERS_TEAMTOWERSSTAGEDETAILVIEWMODEL__POPUPNEWDIFFICULTYDIALOG_OFFSET))(this);
+		}
+
+		::System::UInt32 get_StageGroupID()
+		{
+			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_TEAMTOWERS_TEAMTOWERSSTAGEDETAILVIEWMODEL_GET_STAGEGROUPID_OFFSET))(this);
+		}
+
+		::System::UInt32 get_StageID()
+		{
+			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_TEAMTOWERS_TEAMTOWERSSTAGEDETAILVIEWMODEL_GET_STAGEID_OFFSET))(this);
+		}
+
+		::System::UInt32 get_BossID()
+		{
+			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_TEAMTOWERS_TEAMTOWERSSTAGEDETAILVIEWMODEL_GET_BOSSID_OFFSET))(this);
+		}
+
+		::System::Boolean get_HasPassed()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_TEAMTOWERS_TEAMTOWERSSTAGEDETAILVIEWMODEL_GET_HASPASSED_OFFSET))(this);
+		}
+
+		::System::Boolean get_IsHardMode()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_TEAMTOWERS_TEAMTOWERSSTAGEDETAILVIEWMODEL_GET_ISHARDMODE_OFFSET))(this);
+		}
+
+		::System::Boolean get_HasSimpleStage()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_TEAMTOWERS_TEAMTOWERSSTAGEDETAILVIEWMODEL_GET_HASSIMPLESTAGE_OFFSET))(this);
+		}
+
+		::RPG::Client::TeamTowers::TeamTowersStageData* get_SimpleStageData()
+		{
+			return ((::RPG::Client::TeamTowers::TeamTowersStageData*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_TEAMTOWERS_TEAMTOWERSSTAGEDETAILVIEWMODEL_GET_SIMPLESTAGEDATA_OFFSET))(this);
+		}
+
+		::RPG::Client::TeamTowers::TeamTowersStageData* get_HardStageData()
+		{
+			return ((::RPG::Client::TeamTowers::TeamTowersStageData*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_TEAMTOWERS_TEAMTOWERSSTAGEDETAILVIEWMODEL_GET_HARDSTAGEDATA_OFFSET))(this);
+		}
+
+		::System::Boolean get_SimpleStageHasPassed()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_TEAMTOWERS_TEAMTOWERSSTAGEDETAILVIEWMODEL_GET_SIMPLESTAGEHASPASSED_OFFSET))(this);
+		}
+
+		::System::Boolean get_HardStageHasPassed()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_TEAMTOWERS_TEAMTOWERSSTAGEDETAILVIEWMODEL_GET_HARDSTAGEHASPASSED_OFFSET))(this);
+		}
+
+		::System::Boolean get_ShowAbilityButton()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_TEAMTOWERS_TEAMTOWERSSTAGEDETAILVIEWMODEL_GET_SHOWABILITYBUTTON_OFFSET))(this);
+		}
+
+		::System::UInt32 get_DepartmentID()
+		{
+			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_TEAMTOWERS_TEAMTOWERSSTAGEDETAILVIEWMODEL_GET_DEPARTMENTID_OFFSET))(this);
+		}
+
+		::System::Boolean get_IsPVPStage()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_TEAMTOWERS_TEAMTOWERSSTAGEDETAILVIEWMODEL_GET_ISPVPSTAGE_OFFSET))(this);
+		}
+
+		::RPG::Client::TeamTowers::TeamTowersBossData* get_BossData()
+		{
+			return ((::RPG::Client::TeamTowers::TeamTowersBossData*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_TEAMTOWERS_TEAMTOWERSSTAGEDETAILVIEWMODEL_GET_BOSSDATA_OFFSET))(this);
+		}
+
+		::RPG::Client::TeamTowers::TeamTowersDepartmentData* get_DepartmentData()
+		{
+			return ((::RPG::Client::TeamTowers::TeamTowersDepartmentData*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_TEAMTOWERS_TEAMTOWERSSTAGEDETAILVIEWMODEL_GET_DEPARTMENTDATA_OFFSET))(this);
+		}
+
+		::System::Single get_BubbleInterval()
+		{
+			return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_TEAMTOWERS_TEAMTOWERSSTAGEDETAILVIEWMODEL_GET_BUBBLEINTERVAL_OFFSET))(this);
+		}
+
+		::System::String* get_SpecialRuleState()
+		{
+			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_TEAMTOWERS_TEAMTOWERSSTAGEDETAILVIEWMODEL_GET_SPECIALRULESTATE_OFFSET))(this);
+		}
+
+		::RPG::Client::TeamTowers::TeamTowersStageDetailStarsViewModel* get_StarsViewModel()
+		{
+			return ((::RPG::Client::TeamTowers::TeamTowersStageDetailStarsViewModel*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_TEAMTOWERS_TEAMTOWERSSTAGEDETAILVIEWMODEL_GET_STARSVIEWMODEL_OFFSET))(this);
+		}
+
+		::System::Void set_StarsViewModel(::RPG::Client::TeamTowers::TeamTowersStageDetailStarsViewModel* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::TeamTowers::TeamTowersStageDetailStarsViewModel*))((::PBYTE)hIl2Cpp + RPG_CLIENT_TEAMTOWERS_TEAMTOWERSSTAGEDETAILVIEWMODEL_SET_STARSVIEWMODEL_OFFSET))(this, a1);
+		}
+
+		::RPG::Client::TeamTowers::TeamTowersStageDetailStarsViewModel* get_SimpleStarsViewModel()
+		{
+			return ((::RPG::Client::TeamTowers::TeamTowersStageDetailStarsViewModel*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_TEAMTOWERS_TEAMTOWERSSTAGEDETAILVIEWMODEL_GET_SIMPLESTARSVIEWMODEL_OFFSET))(this);
+		}
+
+		::System::Void set_SimpleStarsViewModel(::RPG::Client::TeamTowers::TeamTowersStageDetailStarsViewModel* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::TeamTowers::TeamTowersStageDetailStarsViewModel*))((::PBYTE)hIl2Cpp + RPG_CLIENT_TEAMTOWERS_TEAMTOWERSSTAGEDETAILVIEWMODEL_SET_SIMPLESTARSVIEWMODEL_OFFSET))(this, a1);
+		}
+
+		::RPG::Client::TeamTowers::TeamTowersStageDetailStarsViewModel* get_HardStarsViewModel()
+		{
+			return ((::RPG::Client::TeamTowers::TeamTowersStageDetailStarsViewModel*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_TEAMTOWERS_TEAMTOWERSSTAGEDETAILVIEWMODEL_GET_HARDSTARSVIEWMODEL_OFFSET))(this);
+		}
+
+		::System::Void set_HardStarsViewModel(::RPG::Client::TeamTowers::TeamTowersStageDetailStarsViewModel* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::TeamTowers::TeamTowersStageDetailStarsViewModel*))((::PBYTE)hIl2Cpp + RPG_CLIENT_TEAMTOWERS_TEAMTOWERSSTAGEDETAILVIEWMODEL_SET_HARDSTARSVIEWMODEL_OFFSET))(this, a1);
+		}
+
+		::RPG::Client::TeamTowers::TeamTowersStageDetailTabViewModel* get_SimpleTabViewModel()
+		{
+			return ((::RPG::Client::TeamTowers::TeamTowersStageDetailTabViewModel*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_TEAMTOWERS_TEAMTOWERSSTAGEDETAILVIEWMODEL_GET_SIMPLETABVIEWMODEL_OFFSET))(this);
+		}
+
+		::System::Void set_SimpleTabViewModel(::RPG::Client::TeamTowers::TeamTowersStageDetailTabViewModel* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::TeamTowers::TeamTowersStageDetailTabViewModel*))((::PBYTE)hIl2Cpp + RPG_CLIENT_TEAMTOWERS_TEAMTOWERSSTAGEDETAILVIEWMODEL_SET_SIMPLETABVIEWMODEL_OFFSET))(this, a1);
+		}
+
+		::RPG::Client::TeamTowers::TeamTowersStageDetailTabViewModel* get_HardTabViewModel()
+		{
+			return ((::RPG::Client::TeamTowers::TeamTowersStageDetailTabViewModel*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_TEAMTOWERS_TEAMTOWERSSTAGEDETAILVIEWMODEL_GET_HARDTABVIEWMODEL_OFFSET))(this);
+		}
+
+		::System::Void set_HardTabViewModel(::RPG::Client::TeamTowers::TeamTowersStageDetailTabViewModel* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::TeamTowers::TeamTowersStageDetailTabViewModel*))((::PBYTE)hIl2Cpp + RPG_CLIENT_TEAMTOWERS_TEAMTOWERSSTAGEDETAILVIEWMODEL_SET_HARDTABVIEWMODEL_OFFSET))(this, a1);
+		}
+
+		::RPG::Client::TeamTowers::TeamTowersWindowService* get_WindowService()
+		{
+			return ((::RPG::Client::TeamTowers::TeamTowersWindowService*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_TEAMTOWERS_TEAMTOWERSSTAGEDETAILVIEWMODEL_GET_WINDOWSERVICE_OFFSET))(this);
+		}
+
+		::System::Void set_WindowService(::RPG::Client::TeamTowers::TeamTowersWindowService* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::TeamTowers::TeamTowersWindowService*))((::PBYTE)hIl2Cpp + RPG_CLIENT_TEAMTOWERS_TEAMTOWERSSTAGEDETAILVIEWMODEL_SET_WINDOWSERVICE_OFFSET))(this, a1);
+		}
+	};
+}

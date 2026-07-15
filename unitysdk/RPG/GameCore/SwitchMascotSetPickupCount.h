@@ -5,13 +5,13 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class DynamicString; }
 
-#define RPG_GAMECORE_SWITCHMASCOTSETPICKUPCOUNT_METHOD_3_F34F23710F3C41BE_OFFSET UNITYSDK_OFFSET(0x19CDD550)
-#define RPG_GAMECORE_SWITCHMASCOTSETPICKUPCOUNT_METHOD_3_FF66718892DE888F_OFFSET UNITYSDK_OFFSET(0x19CDD4D0)
-#define RPG_GAMECORE_SWITCHMASCOTSETPICKUPCOUNT__CTOR_OFFSET UNITYSDK_OFFSET(0x19CDD520)
+#define RPG_GAMECORE_SWITCHMASCOTSETPICKUPCOUNT_METHOD_3_758357D4720ED77D_OFFSET UNITYSDK_OFFSET(0x1B4386E0)
+#define RPG_GAMECORE_SWITCHMASCOTSETPICKUPCOUNT_METHOD_3_F34F23710F3C41BE_OFFSET UNITYSDK_OFFSET(0x1B438720)
+#define RPG_GAMECORE_SWITCHMASCOTSETPICKUPCOUNT__CTOR_OFFSET UNITYSDK_OFFSET(0x1B438710)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SwitchMascotSetPickupCount_TypeDefinitionIndex = 20774;
+	inline static constexpr unsigned int SwitchMascotSetPickupCount_TypeDefinitionIndex = 21189;
 
 	class SwitchMascotSetPickupCount : public ::RPG::GameCore::TaskConfig
 	{
@@ -23,9 +23,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SWITCHMASCOTSETPICKUPCOUNT__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_FF66718892DE888F(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SwitchMascotSetPickupCount*& a2)
+		static ::System::Void Method_3_758357D4720ED77D(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SwitchMascotSetPickupCount*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SwitchMascotSetPickupCount*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SWITCHMASCOTSETPICKUPCOUNT_METHOD_3_FF66718892DE888F_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SwitchMascotSetPickupCount*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SWITCHMASCOTSETPICKUPCOUNT_METHOD_3_758357D4720ED77D_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_F34F23710F3C41BE(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SwitchMascotSetPickupCount* a2)

@@ -6,20 +6,20 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_CHIMERAGALLERYACTROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1964A0B0)
-#define RPG_GAMECORE_CHIMERAGALLERYACTROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1964A2A0)
+#define RPG_GAMECORE_CHIMERAGALLERYACTROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1C24AF60)
+#define RPG_GAMECORE_CHIMERAGALLERYACTROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1C24B150)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ChimeraGalleryActRow_TypeDefinitionIndex = 12424;
+	inline static constexpr unsigned int ChimeraGalleryActRow_TypeDefinitionIndex = 12557;
 
 	class ChimeraGalleryActRow : public ::System::Object
 	{
 	public:
 		::System::String* Icon; // 0x10
-		::RPG::Client::TextID Name; // 0x18
-		::System::UInt32 ActID; // 0x28
-		::System::Single Sort; // 0x2C
+		::System::Single Sort; // 0x18
+		::System::UInt32 ActID; // 0x1C
+		::RPG::Client::TextID Name; // 0x20
 
 		::System::Void _ctor()
 		{

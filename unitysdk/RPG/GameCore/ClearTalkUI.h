@@ -4,13 +4,13 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_CLEARTALKUI_METHOD_3_37FB3E4B825A8454_OFFSET UNITYSDK_OFFSET(0x19654220)
-#define RPG_GAMECORE_CLEARTALKUI_METHOD_3_4701A08B414C7AE5_OFFSET UNITYSDK_OFFSET(0x196541A0)
-#define RPG_GAMECORE_CLEARTALKUI__CTOR_OFFSET UNITYSDK_OFFSET(0x196541F0)
+#define RPG_GAMECORE_CLEARTALKUI_METHOD_3_04D8D4F6F66A56D1_OFFSET UNITYSDK_OFFSET(0x1C254C30)
+#define RPG_GAMECORE_CLEARTALKUI_METHOD_3_37FB3E4B825A8454_OFFSET UNITYSDK_OFFSET(0x1C254C70)
+#define RPG_GAMECORE_CLEARTALKUI__CTOR_OFFSET UNITYSDK_OFFSET(0x1C254C60)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ClearTalkUI_TypeDefinitionIndex = 20689;
+	inline static constexpr unsigned int ClearTalkUI_TypeDefinitionIndex = 21104;
 
 	class ClearTalkUI : public ::RPG::GameCore::TaskConfig
 	{
@@ -23,9 +23,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CLEARTALKUI__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_4701A08B414C7AE5(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ClearTalkUI*& a2)
+		static ::System::Void Method_3_04D8D4F6F66A56D1(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ClearTalkUI*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ClearTalkUI*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CLEARTALKUI_METHOD_3_4701A08B414C7AE5_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ClearTalkUI*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CLEARTALKUI_METHOD_3_04D8D4F6F66A56D1_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_37FB3E4B825A8454(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ClearTalkUI* a2)

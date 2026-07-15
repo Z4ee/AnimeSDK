@@ -7,12 +7,12 @@ namespace RPG::GameCore { class DistanceToScoreWeightMapping; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_POINTEVALUATORCONSTVALUE_METHOD_2_E2AB6B457551DEDF_OFFSET UNITYSDK_OFFSET(0x19A44150)
-#define RPG_GAMECORE_POINTEVALUATORCONSTVALUE__CTOR_OFFSET UNITYSDK_OFFSET(0x19A44230)
+#define RPG_GAMECORE_POINTEVALUATORCONSTVALUE_METHOD_2_E2AB6B457551DEDF_OFFSET UNITYSDK_OFFSET(0x1BA13540)
+#define RPG_GAMECORE_POINTEVALUATORCONSTVALUE__CTOR_OFFSET UNITYSDK_OFFSET(0x1BA13620)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PointEvaluatorConstValue_TypeDefinitionIndex = 14862;
+	inline static constexpr unsigned int PointEvaluatorConstValue_TypeDefinitionIndex = 15024;
 
 	class PointEvaluatorConstValue : public ::RPG::GameCore::JsonConfig
 	{

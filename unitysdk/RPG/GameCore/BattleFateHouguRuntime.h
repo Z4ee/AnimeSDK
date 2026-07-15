@@ -4,19 +4,19 @@
 
 class Class_2_1DB6C02CA182EEBA;
 
-#define RPG_GAMECORE_BATTLEFATEHOUGURUNTIME_DISPOSE_OFFSET UNITYSDK_OFFSET(0xCD2E2A0)
-#define RPG_GAMECORE_BATTLEFATEHOUGURUNTIME__CTOR_OFFSET UNITYSDK_OFFSET(0xCD2E2F0)
+#define RPG_GAMECORE_BATTLEFATEHOUGURUNTIME_DISPOSE_OFFSET UNITYSDK_OFFSET(0x195D5D70)
+#define RPG_GAMECORE_BATTLEFATEHOUGURUNTIME__CTOR_OFFSET UNITYSDK_OFFSET(0x195D5DC0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int BattleFateHouguRuntime_TypeDefinitionIndex = 52360;
+	inline static constexpr unsigned int BattleFateHouguRuntime_TypeDefinitionIndex = 53564;
 
 	class BattleFateHouguRuntime : public ::System::Object
 	{
 	public:
 		::Class_2_1DB6C02CA182EEBA* MazeBuffAbilityCache; // 0x10
-		::System::UInt32 Count; // 0x18
-		::System::UInt32 ConfigID; // 0x1C
+		::System::UInt32 ConfigID; // 0x18
+		::System::UInt32 Count; // 0x1C
 
 		::System::Void _ctor()
 		{

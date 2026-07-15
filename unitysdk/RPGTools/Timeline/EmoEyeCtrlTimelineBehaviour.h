@@ -9,13 +9,12 @@ namespace RPGTools::Timeline { class EmoEyeCtrlOffsetData; }
 namespace RPGTools::Timeline { class EmoEyeCtrlShakeData; }
 namespace System { class Object; }
 
-#define RPGTOOLS_TIMELINE_EMOEYECTRLTIMELINEBEHAVIOUR_PROCESSFRAME_OFFSET UNITYSDK_OFFSET(0xD007800)
-#define RPGTOOLS_TIMELINE_EMOEYECTRLTIMELINEBEHAVIOUR__CTOR_OFFSET UNITYSDK_OFFSET(0xD007890)
-#define RPGTOOLS_TIMELINE_EMOEYECTRLTIMELINEBEHAVIOUR___IFIXBASEPROXY_PROCESSFRAME_OFFSET UNITYSDK_OFFSET(0xD0078A0)
+#define RPGTOOLS_TIMELINE_EMOEYECTRLTIMELINEBEHAVIOUR_PROCESSFRAME_OFFSET UNITYSDK_OFFSET(0x19A3FF40)
+#define RPGTOOLS_TIMELINE_EMOEYECTRLTIMELINEBEHAVIOUR__CTOR_OFFSET UNITYSDK_OFFSET(0x19A3FFD0)
 
 namespace RPGTools::Timeline
 {
-	inline static constexpr unsigned int EmoEyeCtrlTimelineBehaviour_TypeDefinitionIndex = 45404;
+	inline static constexpr unsigned int EmoEyeCtrlTimelineBehaviour_TypeDefinitionIndex = 46333;
 
 	class EmoEyeCtrlTimelineBehaviour : public ::UnityEngine::Playables::PlayableBehaviour
 	{
@@ -34,11 +33,6 @@ namespace RPGTools::Timeline
 		::System::Void ProcessFrame(::UnityEngine::Playables::Playable a1, ::UnityEngine::Playables::FrameData a2, ::System::Object* a3)
 		{
 			return ((::System::Void(*)(::PVOID, ::UnityEngine::Playables::Playable, ::UnityEngine::Playables::FrameData, ::System::Object*))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_EMOEYECTRLTIMELINEBEHAVIOUR_PROCESSFRAME_OFFSET))(this, a1, a2, a3);
-		}
-
-		::System::Void __iFixBaseProxy_ProcessFrame(::UnityEngine::Playables::Playable a1, ::UnityEngine::Playables::FrameData a2, ::System::Object* a3)
-		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Playables::Playable, ::UnityEngine::Playables::FrameData, ::System::Object*))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_EMOEYECTRLTIMELINEBEHAVIOUR___IFIXBASEPROXY_PROCESSFRAME_OFFSET))(this, a1, a2, a3);
 		}
 	};
 }

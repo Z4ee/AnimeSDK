@@ -4,7 +4,7 @@
 
 namespace UnityEngine::Rendering
 {
-	inline static constexpr unsigned int RTReflectionSettings_TypeDefinitionIndex = 4808;
+	inline static constexpr unsigned int RTReflectionSettings_TypeDefinitionIndex = 4813;
 
 	struct alignas(4) RTReflectionSettings
 	{

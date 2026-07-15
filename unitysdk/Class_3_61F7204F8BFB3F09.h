@@ -6,10 +6,10 @@
 namespace RPG::GameCore { class SetDynamicValueByStatusResistance; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_61F7204F8BFB3F09_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1388E9A0)
-#define CLASS_3_61F7204F8BFB3F09__CTOR_OFFSET UNITYSDK_OFFSET(0x1388E8C0)
+#define CLASS_3_61F7204F8BFB3F09_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x16332360)
+#define CLASS_3_61F7204F8BFB3F09__CTOR_OFFSET UNITYSDK_OFFSET(0x16332280)
 
-inline static constexpr unsigned int Class_3_61F7204F8BFB3F09_TypeDefinitionIndex = 51810;
+inline static constexpr unsigned int Class_3_61F7204F8BFB3F09_TypeDefinitionIndex = 52958;
 
 class Class_3_61F7204F8BFB3F09 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::SetDynamicValueByStatusResistance*>
 {

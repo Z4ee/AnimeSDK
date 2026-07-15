@@ -8,7 +8,7 @@ namespace System::Collections::Generic { template <typename T> class SortedSet_1
 
 namespace System::Collections::Generic
 {
-	inline static constexpr unsigned int SortedDictionary_2_KeyCollection___c__DisplayClass6_1_TypeDefinitionIndex = 3013;
+	inline static constexpr unsigned int SortedDictionary_2_KeyCollection___c__DisplayClass6_1_TypeDefinitionIndex = 3017;
 
 	template <typename TKey, typename TValue>
 	class SortedDictionary_2_KeyCollection___c__DisplayClass6_1 : public ::System::Object

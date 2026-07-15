@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int TimeRewindControlManager_TimeRewindEntityPreloadState_TypeDefinitionIndex = 56846;
+	inline static constexpr unsigned int TimeRewindControlManager_TimeRewindEntityPreloadState_TypeDefinitionIndex = 58093;
 
 	enum class TimeRewindControlManager_TimeRewindEntityPreloadState : ::System::Int32
 	{

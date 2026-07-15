@@ -4,13 +4,13 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_SHOWADVENTURELEVELPAGE_METHOD_3_BE6D4EA930D9E547_OFFSET UNITYSDK_OFFSET(0x19C73A50)
-#define RPG_GAMECORE_SHOWADVENTURELEVELPAGE_METHOD_3_D6EEF687FAEE47B3_OFFSET UNITYSDK_OFFSET(0x19C73940)
-#define RPG_GAMECORE_SHOWADVENTURELEVELPAGE__CTOR_OFFSET UNITYSDK_OFFSET(0x19C73A20)
+#define RPG_GAMECORE_SHOWADVENTURELEVELPAGE_METHOD_3_B0487B49D4287AAA_OFFSET UNITYSDK_OFFSET(0x1BE38B90)
+#define RPG_GAMECORE_SHOWADVENTURELEVELPAGE_METHOD_3_BE6D4EA930D9E547_OFFSET UNITYSDK_OFFSET(0x1BE38C60)
+#define RPG_GAMECORE_SHOWADVENTURELEVELPAGE__CTOR_OFFSET UNITYSDK_OFFSET(0x1BE38C50)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ShowAdventureLevelPage_TypeDefinitionIndex = 19750;
+	inline static constexpr unsigned int ShowAdventureLevelPage_TypeDefinitionIndex = 20110;
 
 	class ShowAdventureLevelPage : public ::RPG::GameCore::TaskConfig
 	{
@@ -20,9 +20,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SHOWADVENTURELEVELPAGE__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_D6EEF687FAEE47B3(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ShowAdventureLevelPage*& a2)
+		static ::System::Void Method_3_B0487B49D4287AAA(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ShowAdventureLevelPage*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ShowAdventureLevelPage*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SHOWADVENTURELEVELPAGE_METHOD_3_D6EEF687FAEE47B3_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ShowAdventureLevelPage*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SHOWADVENTURELEVELPAGE_METHOD_3_B0487B49D4287AAA_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_BE6D4EA930D9E547(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ShowAdventureLevelPage* a2)

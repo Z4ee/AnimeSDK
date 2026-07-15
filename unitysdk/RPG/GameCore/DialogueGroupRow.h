@@ -8,23 +8,23 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class JsonEnum; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_DIALOGUEGROUPROW_FROMBINARYWITHOUTNEW_OFFSET UNITYSDK_OFFSET(0x1969FD30)
-#define RPG_GAMECORE_DIALOGUEGROUPROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1969FFF0)
-#define RPG_GAMECORE_DIALOGUEGROUPROW_FROMTABLEOFFSET_OFFSET UNITYSDK_OFFSET(0x196A0AE0)
-#define RPG_GAMECORE_DIALOGUEGROUPROW_RESET_OFFSET UNITYSDK_OFFSET(0x196A0B40)
-#define RPG_GAMECORE_DIALOGUEGROUPROW__CTOR_OFFSET UNITYSDK_OFFSET(0x196A0B50)
+#define RPG_GAMECORE_DIALOGUEGROUPROW_FROMBINARYWITHOUTNEW_OFFSET UNITYSDK_OFFSET(0x1C108BE0)
+#define RPG_GAMECORE_DIALOGUEGROUPROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1C108EA0)
+#define RPG_GAMECORE_DIALOGUEGROUPROW_FROMTABLEOFFSET_OFFSET UNITYSDK_OFFSET(0x1C109980)
+#define RPG_GAMECORE_DIALOGUEGROUPROW_RESET_OFFSET UNITYSDK_OFFSET(0x1C1099E0)
+#define RPG_GAMECORE_DIALOGUEGROUPROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1C1099F0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int DialogueGroupRow_TypeDefinitionIndex = 12495;
+	inline static constexpr unsigned int DialogueGroupRow_TypeDefinitionIndex = 12632;
 
 	class DialogueGroupRow : public ::System::Object
 	{
 	public:
-		::System::String* ActPath; // 0x10
+		::Il2CppArray<::System::UInt32>* ConditionIDs; // 0x10
 		::RPG::GameCore::JsonEnum* IconType; // 0x18
 		::System::String* InteractTitle; // 0x20
-		::Il2CppArray<::System::UInt32>* ConditionIDs; // 0x28
+		::System::String* ActPath; // 0x28
 		::System::UInt32 Priority; // 0x30
 		::RPG::GameCore::DialogueGroupType GroupType; // 0x34
 		::System::UInt32 GroupID; // 0x38

@@ -5,21 +5,21 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_ROGUEDLCSUBSTORYGROUPROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x19B35F60)
-#define RPG_GAMECORE_ROGUEDLCSUBSTORYGROUPROW__CTOR_OFFSET UNITYSDK_OFFSET(0x19B361D0)
+#define RPG_GAMECORE_ROGUEDLCSUBSTORYGROUPROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1CFA8110)
+#define RPG_GAMECORE_ROGUEDLCSUBSTORYGROUPROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1CFA8380)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RogueDLCSubStoryGroupRow_TypeDefinitionIndex = 14064;
+	inline static constexpr unsigned int RogueDLCSubStoryGroupRow_TypeDefinitionIndex = 14212;
 
 	class RogueDLCSubStoryGroupRow : public ::System::Object
 	{
 	public:
 		::Il2CppArray<::System::UInt32>* SubStoryList; // 0x10
-		::System::UInt32 UnlockID; // 0x18
-		::System::UInt32 SubStoryGroupID; // 0x1C
-		::RPG::Client::TextID SubStoryGroupName; // 0x20
-		::System::UInt32 ShowGroup; // 0x30
+		::RPG::Client::TextID SubStoryGroupName; // 0x18
+		::System::UInt32 UnlockID; // 0x28
+		::System::UInt32 ShowGroup; // 0x2C
+		::System::UInt32 SubStoryGroupID; // 0x30
 		::System::UInt32 UnlockSubStoryGroup; // 0x34
 
 		::System::Void _ctor()

@@ -4,12 +4,12 @@
 
 namespace System { class String; }
 
-#define INIPARSEREX_LOG_ERROR_OFFSET UNITYSDK_OFFSET(0x1B2715A0)
-#define INIPARSEREX_LOG_EXCEPTION_OFFSET UNITYSDK_OFFSET(0x1B26F4A0)
+#define INIPARSEREX_LOG_ERROR_OFFSET UNITYSDK_OFFSET(0x1C4C3360)
+#define INIPARSEREX_LOG_EXCEPTION_OFFSET UNITYSDK_OFFSET(0x1C4C10A0)
 
 namespace IniParserEx
 {
-	inline static constexpr unsigned int Log_TypeDefinitionIndex = 3932;
+	inline static constexpr unsigned int Log_TypeDefinitionIndex = 3936;
 
 	class Log : public ::System::Object
 	{

@@ -4,11 +4,11 @@
 
 namespace System { class String; }
 
-#define RPG_CLIENT_MONOHANDCATCHABLEITEM__CTOR_OFFSET UNITYSDK_OFFSET(0xC1173D0)
+#define RPG_CLIENT_MONOHANDCATCHABLEITEM__CTOR_OFFSET UNITYSDK_OFFSET(0x18C487A0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MonoHandCatchableItem_TypeDefinitionIndex = 64335;
+	inline static constexpr unsigned int MonoHandCatchableItem_TypeDefinitionIndex = 65706;
 
 	class MonoHandCatchableItem : public ::UnityEngine::MonoBehaviour
 	{

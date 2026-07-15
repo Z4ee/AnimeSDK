@@ -1,9 +1,8 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/RPG/GameCore/ScreenTransferActionState.h"
 
-namespace RPG::GameCore { class GameEntity; }
-
-inline static constexpr unsigned int Class_0_16E4307DCC419505_430_TypeDefinitionIndex = 50396;
+inline static constexpr unsigned int Class_0_16E4307DCC419505_430_TypeDefinitionIndex = 51092;
 
 class Class_0_16E4307DCC419505_430
 {

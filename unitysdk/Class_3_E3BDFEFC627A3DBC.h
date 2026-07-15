@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class ByHeroGender; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_E3BDFEFC627A3DBC_EVALUATE_OFFSET UNITYSDK_OFFSET(0xA4DA9A0)
-#define CLASS_3_E3BDFEFC627A3DBC__CTOR_OFFSET UNITYSDK_OFFSET(0xA4DA970)
+#define CLASS_3_E3BDFEFC627A3DBC_EVALUATE_OFFSET UNITYSDK_OFFSET(0x1525C530)
+#define CLASS_3_E3BDFEFC627A3DBC__CTOR_OFFSET UNITYSDK_OFFSET(0x1525C500)
 
-inline static constexpr unsigned int Class_3_E3BDFEFC627A3DBC_TypeDefinitionIndex = 49665;
+inline static constexpr unsigned int Class_3_E3BDFEFC627A3DBC_TypeDefinitionIndex = 50719;
 
 class Class_3_E3BDFEFC627A3DBC : public ::RPG::GameCore::PredicateTaskBase_1<::RPG::GameCore::ByHeroGender*>
 {

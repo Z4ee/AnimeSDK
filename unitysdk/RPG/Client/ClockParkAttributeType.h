@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ClockParkAttributeType_TypeDefinitionIndex = 57482;
+	inline static constexpr unsigned int ClockParkAttributeType_TypeDefinitionIndex = 58744;
 
 	enum class ClockParkAttributeType : ::System::Int32
 	{

@@ -6,12 +6,11 @@ namespace RPG::GameCore { class PropComponent; }
 namespace RPG::GameCore { class PropSetupTrigger; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_2F4B7ACF3C275B19_DISPOSE_OFFSET UNITYSDK_OFFSET(0x13B07800)
-#define CLASS_3_2F4B7ACF3C275B19_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x13B07890)
-#define CLASS_3_2F4B7ACF3C275B19__CTOR_OFFSET UNITYSDK_OFFSET(0x13B077D0)
-#define CLASS_3_2F4B7ACF3C275B19___IFIXBASEPROXY_DISPOSE_OFFSET UNITYSDK_OFFSET(0x13B07E30)
+#define CLASS_3_2F4B7ACF3C275B19_DISPOSE_OFFSET UNITYSDK_OFFSET(0x17984C90)
+#define CLASS_3_2F4B7ACF3C275B19_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x17984D20)
+#define CLASS_3_2F4B7ACF3C275B19__CTOR_OFFSET UNITYSDK_OFFSET(0x17984C60)
 
-inline static constexpr unsigned int Class_3_2F4B7ACF3C275B19_TypeDefinitionIndex = 54548;
+inline static constexpr unsigned int Class_3_2F4B7ACF3C275B19_TypeDefinitionIndex = 55772;
 
 class Class_3_2F4B7ACF3C275B19 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::PropSetupTrigger*>
 {
@@ -32,10 +31,5 @@ public:
 	::System::Void OnTaskBegin()
 	{
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_3_2F4B7ACF3C275B19_ONTASKBEGIN_OFFSET))(this);
-	}
-
-	::System::Void __iFixBaseProxy_Dispose()
-	{
-		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_3_2F4B7ACF3C275B19___IFIXBASEPROXY_DISPOSE_OFFSET))(this);
 	}
 };

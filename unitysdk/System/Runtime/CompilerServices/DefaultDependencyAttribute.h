@@ -3,11 +3,11 @@
 #include "unitysdk/System/Attribute.h"
 #include "unitysdk/System/Runtime/CompilerServices/LoadHint.h"
 
-#define SYSTEM_RUNTIME_COMPILERSERVICES_DEFAULTDEPENDENCYATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1876FA60)
+#define SYSTEM_RUNTIME_COMPILERSERVICES_DEFAULTDEPENDENCYATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1A824240)
 
 namespace System::Runtime::CompilerServices
 {
-	inline static constexpr unsigned int DefaultDependencyAttribute_TypeDefinitionIndex = 1367;
+	inline static constexpr unsigned int DefaultDependencyAttribute_TypeDefinitionIndex = 1371;
 
 	class DefaultDependencyAttribute : public ::System::Attribute
 	{

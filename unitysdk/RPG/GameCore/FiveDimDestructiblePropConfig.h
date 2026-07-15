@@ -7,13 +7,13 @@ namespace RPG::GameCore { class FiveDimEntityShakeConfig; }
 namespace RPG::GameCore { class LittleGameEvent; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_FIVEDIMDESTRUCTIBLEPROPCONFIG_METHOD_3_D596F24D78A575E6_OFFSET UNITYSDK_OFFSET(0x19738A40)
-#define RPG_GAMECORE_FIVEDIMDESTRUCTIBLEPROPCONFIG_METHOD_3_DD7B845D8293EC84_OFFSET UNITYSDK_OFFSET(0x197389D0)
-#define RPG_GAMECORE_FIVEDIMDESTRUCTIBLEPROPCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x19738A20)
+#define RPG_GAMECORE_FIVEDIMDESTRUCTIBLEPROPCONFIG_METHOD_3_A057B6CB50B128DF_OFFSET UNITYSDK_OFFSET(0x1BA90E00)
+#define RPG_GAMECORE_FIVEDIMDESTRUCTIBLEPROPCONFIG_METHOD_3_D596F24D78A575E6_OFFSET UNITYSDK_OFFSET(0x1BA90E40)
+#define RPG_GAMECORE_FIVEDIMDESTRUCTIBLEPROPCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1BA90E30)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FiveDimDestructiblePropConfig_TypeDefinitionIndex = 17639;
+	inline static constexpr unsigned int FiveDimDestructiblePropConfig_TypeDefinitionIndex = 17813;
 
 	class FiveDimDestructiblePropConfig : public ::RPG::GameCore::LittleGameComponentConfig
 	{
@@ -38,9 +38,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMDESTRUCTIBLEPROPCONFIG__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_DD7B845D8293EC84(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::FiveDimDestructiblePropConfig*& a2)
+		static ::System::Void Method_3_A057B6CB50B128DF(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::FiveDimDestructiblePropConfig*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::FiveDimDestructiblePropConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMDESTRUCTIBLEPROPCONFIG_METHOD_3_DD7B845D8293EC84_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::FiveDimDestructiblePropConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMDESTRUCTIBLEPROPCONFIG_METHOD_3_A057B6CB50B128DF_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_D596F24D78A575E6(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::FiveDimDestructiblePropConfig* a2)

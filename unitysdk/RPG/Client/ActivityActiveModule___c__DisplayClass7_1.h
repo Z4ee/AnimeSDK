@@ -2,20 +2,20 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_1_EFF6ABE3B36522D9;
+class Class_1_3714832A39691304_1;
 namespace RPG::Client { class ActiveActivityData; }
 
-#define RPG_CLIENT_ACTIVITYACTIVEMODULE___C__DISPLAYCLASS7_1__CTOR_OFFSET UNITYSDK_OFFSET(0xB082DD0)
-#define RPG_CLIENT_ACTIVITYACTIVEMODULE___C__DISPLAYCLASS7_1___SYNCACTIVEACTIVITYDATALIST_B__1_OFFSET UNITYSDK_OFFSET(0xB0833E0)
+#define RPG_CLIENT_ACTIVITYACTIVEMODULE___C__DISPLAYCLASS7_1__CTOR_OFFSET UNITYSDK_OFFSET(0x194A7840)
+#define RPG_CLIENT_ACTIVITYACTIVEMODULE___C__DISPLAYCLASS7_1___SYNCACTIVEACTIVITYDATALIST_B__1_OFFSET UNITYSDK_OFFSET(0x194A7D90)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ActivityActiveModule___c__DisplayClass7_1_TypeDefinitionIndex = 57385;
+	inline static constexpr unsigned int ActivityActiveModule___c__DisplayClass7_1_TypeDefinitionIndex = 58647;
 
 	class ActivityActiveModule___c__DisplayClass7_1 : public ::System::Object
 	{
 	public:
-		::Class_1_EFF6ABE3B36522D9* protoData; // 0x10
+		::Class_1_3714832A39691304_1* protoData; // 0x10
 
 		::System::Void _ctor()
 		{

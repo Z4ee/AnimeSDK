@@ -2,7 +2,7 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-inline static constexpr unsigned int AkBaseArray_1_TypeDefinitionIndex = 41244;
+inline static constexpr unsigned int AkBaseArray_1_TypeDefinitionIndex = 42059;
 
 template <typename T>
 class AkBaseArray_1 : public ::System::Object

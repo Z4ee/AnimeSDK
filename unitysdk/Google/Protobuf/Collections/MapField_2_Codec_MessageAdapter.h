@@ -9,7 +9,7 @@ namespace Google::Protobuf::Reflection { class MessageDescriptor; }
 
 namespace Google::Protobuf::Collections
 {
-	inline static constexpr unsigned int MapField_2_Codec_MessageAdapter_TypeDefinitionIndex = 5581;
+	inline static constexpr unsigned int MapField_2_Codec_MessageAdapter_TypeDefinitionIndex = 5586;
 
 	template <typename TKey, typename TValue>
 	class MapField_2_Codec_MessageAdapter : public ::System::Object

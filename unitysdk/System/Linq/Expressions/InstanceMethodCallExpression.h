@@ -5,12 +5,12 @@
 namespace System::Linq::Expressions { class Expression; }
 namespace System::Reflection { class MethodInfo; }
 
-#define SYSTEM_LINQ_EXPRESSIONS_INSTANCEMETHODCALLEXPRESSION_GETINSTANCE_OFFSET UNITYSDK_OFFSET(0x1AD68F90)
-#define SYSTEM_LINQ_EXPRESSIONS_INSTANCEMETHODCALLEXPRESSION__CTOR_OFFSET UNITYSDK_OFFSET(0x1AD68F20)
+#define SYSTEM_LINQ_EXPRESSIONS_INSTANCEMETHODCALLEXPRESSION_GETINSTANCE_OFFSET UNITYSDK_OFFSET(0x17E65030)
+#define SYSTEM_LINQ_EXPRESSIONS_INSTANCEMETHODCALLEXPRESSION__CTOR_OFFSET UNITYSDK_OFFSET(0x17E64FC0)
 
 namespace System::Linq::Expressions
 {
-	inline static constexpr unsigned int InstanceMethodCallExpression_TypeDefinitionIndex = 3238;
+	inline static constexpr unsigned int InstanceMethodCallExpression_TypeDefinitionIndex = 3242;
 
 	class InstanceMethodCallExpression : public ::System::Linq::Expressions::MethodCallExpression
 	{

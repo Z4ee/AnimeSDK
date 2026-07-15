@@ -8,14 +8,13 @@ namespace RPG::Client { class TerrainVolumeBehavior; }
 namespace System { class String; }
 namespace UnityEngine { class Texture2D; }
 
-#define RPG_CLIENT_TERRAINVOLUMEMONOPLUGIN_GETTICKLODTEMPLATENAME_OFFSET UNITYSDK_OFFSET(0xCA16450)
-#define RPG_CLIENT_TERRAINVOLUMEMONOPLUGIN_SETHEIGHTBLEND_OFFSET UNITYSDK_OFFSET(0xCA162A0)
-#define RPG_CLIENT_TERRAINVOLUMEMONOPLUGIN__CTOR_OFFSET UNITYSDK_OFFSET(0xCA164A0)
-#define RPG_CLIENT_TERRAINVOLUMEMONOPLUGIN___IFIXBASEPROXY_GETTICKLODTEMPLATENAME_OFFSET UNITYSDK_OFFSET(0xCA164B0)
+#define RPG_CLIENT_TERRAINVOLUMEMONOPLUGIN_GETTICKLODTEMPLATENAME_OFFSET UNITYSDK_OFFSET(0x19477F00)
+#define RPG_CLIENT_TERRAINVOLUMEMONOPLUGIN_SETHEIGHTBLEND_OFFSET UNITYSDK_OFFSET(0x19477D50)
+#define RPG_CLIENT_TERRAINVOLUMEMONOPLUGIN__CTOR_OFFSET UNITYSDK_OFFSET(0x19477F50)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int TerrainVolumeMonoPlugin_TypeDefinitionIndex = 66394;
+	inline static constexpr unsigned int TerrainVolumeMonoPlugin_TypeDefinitionIndex = 67830;
 
 	class TerrainVolumeMonoPlugin : public ::RPG::Client::TAMonoPlugin_1<::RPG::Client::TerrainVolumeBehavior*>
 	{
@@ -33,11 +32,6 @@ namespace RPG::Client
 		::System::String* GetTickLodTemplateName()
 		{
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_TERRAINVOLUMEMONOPLUGIN_GETTICKLODTEMPLATENAME_OFFSET))(this);
-		}
-
-		::System::String* __iFixBaseProxy_GetTickLodTemplateName()
-		{
-			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_TERRAINVOLUMEMONOPLUGIN___IFIXBASEPROXY_GETTICKLODTEMPLATENAME_OFFSET))(this);
 		}
 	};
 }

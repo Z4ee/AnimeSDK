@@ -11,45 +11,45 @@ namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Concurrent { template <typename T1, typename T2> class ConcurrentDictionary_2; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_MAPPROPCONDITIONCONFIGEXCELTABLE_GETDATA_OFFSET UNITYSDK_OFFSET(0x198BFD30)
-#define RPG_GAMECORE_MAPPROPCONDITIONCONFIGEXCELTABLE_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x198BFC00)
-#define RPG_GAMECORE_MAPPROPCONDITIONCONFIGEXCELTABLE_GET_DATADICT_OFFSET UNITYSDK_OFFSET(0x198BF8F0)
-#define RPG_GAMECORE_MAPPROPCONDITIONCONFIGEXCELTABLE_ISDATAEMPTY_OFFSET UNITYSDK_OFFSET(0x198BFBA0)
-#define RPG_GAMECORE_MAPPROPCONDITIONCONFIGEXCELTABLE_ISDATALOADED_OFFSET UNITYSDK_OFFSET(0x198BFE80)
-#define RPG_GAMECORE_MAPPROPCONDITIONCONFIGEXCELTABLE_LOADDATA_OFFSET UNITYSDK_OFFSET(0x198BF970)
-#define RPG_GAMECORE_MAPPROPCONDITIONCONFIGEXCELTABLE_UNLOADDATA_OFFSET UNITYSDK_OFFSET(0x198BFEC0)
-#define RPG_GAMECORE_MAPPROPCONDITIONCONFIGEXCELTABLE__ADDITEMFROMBINARY_OFFSET UNITYSDK_OFFSET(0x198C0090)
-#define RPG_GAMECORE_MAPPROPCONDITIONCONFIGEXCELTABLE__ADDITEM_OFFSET UNITYSDK_OFFSET(0x198C0350)
-#define RPG_GAMECORE_MAPPROPCONDITIONCONFIGEXCELTABLE__CCTOR_OFFSET UNITYSDK_OFFSET(0x198C0670)
-#define RPG_GAMECORE_MAPPROPCONDITIONCONFIGEXCELTABLE__LOADDATAINCREMENTIAL_OFFSET UNITYSDK_OFFSET(0x198BFFF0)
-#define RPG_GAMECORE_MAPPROPCONDITIONCONFIGEXCELTABLE__LOADDATA_OFFSET UNITYSDK_OFFSET(0x198BFF50)
+#define RPG_GAMECORE_MAPPROPCONDITIONCONFIGEXCELTABLE_GETDATA_OFFSET UNITYSDK_OFFSET(0x1BCE2D10)
+#define RPG_GAMECORE_MAPPROPCONDITIONCONFIGEXCELTABLE_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x1BCE2BE0)
+#define RPG_GAMECORE_MAPPROPCONDITIONCONFIGEXCELTABLE_GET_DATADICT_OFFSET UNITYSDK_OFFSET(0x1BCE28D0)
+#define RPG_GAMECORE_MAPPROPCONDITIONCONFIGEXCELTABLE_ISDATAEMPTY_OFFSET UNITYSDK_OFFSET(0x1BCE2B80)
+#define RPG_GAMECORE_MAPPROPCONDITIONCONFIGEXCELTABLE_ISDATALOADED_OFFSET UNITYSDK_OFFSET(0x1BCE2E60)
+#define RPG_GAMECORE_MAPPROPCONDITIONCONFIGEXCELTABLE_LOADDATA_OFFSET UNITYSDK_OFFSET(0x1BCE2950)
+#define RPG_GAMECORE_MAPPROPCONDITIONCONFIGEXCELTABLE_UNLOADDATA_OFFSET UNITYSDK_OFFSET(0x1BCE2EA0)
+#define RPG_GAMECORE_MAPPROPCONDITIONCONFIGEXCELTABLE__ADDITEMFROMBINARY_OFFSET UNITYSDK_OFFSET(0x1BCE3070)
+#define RPG_GAMECORE_MAPPROPCONDITIONCONFIGEXCELTABLE__ADDITEM_OFFSET UNITYSDK_OFFSET(0x1BCE3330)
+#define RPG_GAMECORE_MAPPROPCONDITIONCONFIGEXCELTABLE__CCTOR_OFFSET UNITYSDK_OFFSET(0x1BCE3650)
+#define RPG_GAMECORE_MAPPROPCONDITIONCONFIGEXCELTABLE__LOADDATAINCREMENTIAL_OFFSET UNITYSDK_OFFSET(0x1BCE2FD0)
+#define RPG_GAMECORE_MAPPROPCONDITIONCONFIGEXCELTABLE__LOADDATA_OFFSET UNITYSDK_OFFSET(0x1BCE2F30)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MapPropConditionConfigExcelTable_TypeDefinitionIndex = 11966;
+	inline static constexpr unsigned int MapPropConditionConfigExcelTable_TypeDefinitionIndex = 12098;
 
 	class MapPropConditionConfigExcelTable : public ::System::Object
 	{
 	public:
 		static ::Il2CppArray<::System::String*>** StaticGet_s_PathList()
 		{
-			return (::Il2CppArray<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(MapPropConditionConfigExcelTable_TypeDefinitionIndex)->GetStaticField(0x29CC0);
+			return (::Il2CppArray<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(MapPropConditionConfigExcelTable_TypeDefinitionIndex)->GetStaticField(0x3DDB0);
 		}
 		static ::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::MapPropConditionConfigRow*>** StaticGet_dataDict_()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::MapPropConditionConfigRow*>**)Il2CppClass::FromTypeDefinitionIndex(MapPropConditionConfigExcelTable_TypeDefinitionIndex)->GetStaticField(0x29CC8);
+			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::MapPropConditionConfigRow*>**)Il2CppClass::FromTypeDefinitionIndex(MapPropConditionConfigExcelTable_TypeDefinitionIndex)->GetStaticField(0x3DDB8);
 		}
 		static ::System::Action_1<::Class_1_7A22A3DBEEDD1F80*>** StaticGet__AddItemFromBinary_ActionInst()
 		{
-			return (::System::Action_1<::Class_1_7A22A3DBEEDD1F80*>**)Il2CppClass::FromTypeDefinitionIndex(MapPropConditionConfigExcelTable_TypeDefinitionIndex)->GetStaticField(0x29CD0);
-		}
-		static ::System::Boolean* StaticGet_isDataLoaded()
-		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(MapPropConditionConfigExcelTable_TypeDefinitionIndex)->GetStaticField(0x9970);
+			return (::System::Action_1<::Class_1_7A22A3DBEEDD1F80*>**)Il2CppClass::FromTypeDefinitionIndex(MapPropConditionConfigExcelTable_TypeDefinitionIndex)->GetStaticField(0x3DDC0);
 		}
 		static ::System::Byte* StaticGet_HashIndex()
 		{
-			return (::System::Byte*)Il2CppClass::FromTypeDefinitionIndex(MapPropConditionConfigExcelTable_TypeDefinitionIndex)->GetStaticField(0x9971);
+			return (::System::Byte*)Il2CppClass::FromTypeDefinitionIndex(MapPropConditionConfigExcelTable_TypeDefinitionIndex)->GetStaticField(0xA480);
+		}
+		static ::System::Boolean* StaticGet_isDataLoaded()
+		{
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(MapPropConditionConfigExcelTable_TypeDefinitionIndex)->GetStaticField(0xA481);
 		}
 
 		static ::System::Void _cctor()

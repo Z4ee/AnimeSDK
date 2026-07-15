@@ -6,19 +6,19 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_BATTLEBGMCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x194C3640)
-#define RPG_GAMECORE_BATTLEBGMCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x194C3790)
+#define RPG_GAMECORE_BATTLEBGMCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1A3E36E0)
+#define RPG_GAMECORE_BATTLEBGMCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1A3E3830)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int BattleBGMConfigRow_TypeDefinitionIndex = 12211;
+	inline static constexpr unsigned int BattleBGMConfigRow_TypeDefinitionIndex = 12345;
 
 	class BattleBGMConfigRow : public ::System::Object
 	{
 	public:
 		::System::String* BGMName; // 0x10
-		::RPG::GameCore::StageType StageType; // 0x18
-		::System::UInt32 Priority; // 0x1C
+		::System::UInt32 Priority; // 0x18
+		::RPG::GameCore::StageType StageType; // 0x1C
 
 		::System::Void _ctor()
 		{

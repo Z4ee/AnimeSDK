@@ -6,12 +6,12 @@ namespace RPG::Client { class ConditionChecker; }
 namespace RPG::Client::Promises { template <typename T> class Promise_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_CONDITIONCHECKER___C__DISPLAYCLASS19_0__CTOR_OFFSET UNITYSDK_OFFSET(0xB7075F0)
-#define RPG_CLIENT_CONDITIONCHECKER___C__DISPLAYCLASS19_0__DOCHECKWITHPROMISE_B__0_OFFSET UNITYSDK_OFFSET(0xB707680)
+#define RPG_CLIENT_CONDITIONCHECKER___C__DISPLAYCLASS19_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1801DB80)
+#define RPG_CLIENT_CONDITIONCHECKER___C__DISPLAYCLASS19_0__DOCHECKWITHPROMISE_B__0_OFFSET UNITYSDK_OFFSET(0x1801DBD0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ConditionChecker___c__DisplayClass19_0_TypeDefinitionIndex = 55999;
+	inline static constexpr unsigned int ConditionChecker___c__DisplayClass19_0_TypeDefinitionIndex = 57238;
 
 	class ConditionChecker___c__DisplayClass19_0 : public ::System::Object
 	{

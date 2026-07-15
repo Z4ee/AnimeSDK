@@ -4,11 +4,11 @@
 
 namespace Entitas { class IEntity; }
 
-#define ENTITAS_PUBLICMEMBERINFOENTITYEXTENSION_COPYTO_OFFSET UNITYSDK_OFFSET(0x14702CF0)
+#define ENTITAS_PUBLICMEMBERINFOENTITYEXTENSION_COPYTO_OFFSET UNITYSDK_OFFSET(0x1D1CCA20)
 
 namespace Entitas
 {
-	inline static constexpr unsigned int PublicMemberInfoEntityExtension_TypeDefinitionIndex = 9675;
+	inline static constexpr unsigned int PublicMemberInfoEntityExtension_TypeDefinitionIndex = 9689;
 
 	class PublicMemberInfoEntityExtension : public ::System::Object
 	{

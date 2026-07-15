@@ -2,20 +2,20 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_1_21C7581DFE99F091_89;
+class Class_1_21C7581DFE99F091_111;
 namespace RPG::Client { class RogueTalentUnlockData; }
 
-#define RPG_CLIENT_ROGUETALENTDATAITEM___C__DISPLAYCLASS5_0__CTOR_OFFSET UNITYSDK_OFFSET(0xC7EAED0)
-#define RPG_CLIENT_ROGUETALENTDATAITEM___C__DISPLAYCLASS5_0__UPDATESRVDATA_B__0_OFFSET UNITYSDK_OFFSET(0xC7EB7B0)
+#define RPG_CLIENT_ROGUETALENTDATAITEM___C__DISPLAYCLASS5_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1983A5D0)
+#define RPG_CLIENT_ROGUETALENTDATAITEM___C__DISPLAYCLASS5_0__UPDATESRVDATA_B__0_OFFSET UNITYSDK_OFFSET(0x1983AD30)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int RogueTalentDataItem___c__DisplayClass5_0_TypeDefinitionIndex = 63108;
+	inline static constexpr unsigned int RogueTalentDataItem___c__DisplayClass5_0_TypeDefinitionIndex = 64475;
 
 	class RogueTalentDataItem___c__DisplayClass5_0 : public ::System::Object
 	{
 	public:
-		::Class_1_21C7581DFE99F091_89* srvData; // 0x10
+		::Class_1_21C7581DFE99F091_111* srvData; // 0x10
 
 		::System::Void _ctor()
 		{

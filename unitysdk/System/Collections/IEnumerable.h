@@ -5,7 +5,7 @@ namespace System::Collections { class IEnumerator; }
 
 namespace System::Collections
 {
-	inline static constexpr unsigned int IEnumerable_TypeDefinitionIndex = 1472;
+	inline static constexpr unsigned int IEnumerable_TypeDefinitionIndex = 1476;
 
 	class IEnumerable
 	{

@@ -9,12 +9,12 @@ namespace RPG::GameCore { class HipplenMiniGameLoadCharacter; }
 namespace RPG::GameCore { class TaskConfig; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_HIPPLENCOUNTINGCHIMERAMINIGAMECONFIG_METHOD_2_5D777E53259E3CB0_OFFSET UNITYSDK_OFFSET(0x19833470)
-#define RPG_GAMECORE_HIPPLENCOUNTINGCHIMERAMINIGAMECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x198337C0)
+#define RPG_GAMECORE_HIPPLENCOUNTINGCHIMERAMINIGAMECONFIG_METHOD_2_5D777E53259E3CB0_OFFSET UNITYSDK_OFFSET(0x1B685E50)
+#define RPG_GAMECORE_HIPPLENCOUNTINGCHIMERAMINIGAMECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1B6861A0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int HipplenCountingChimeraMiniGameConfig_TypeDefinitionIndex = 15953;
+	inline static constexpr unsigned int HipplenCountingChimeraMiniGameConfig_TypeDefinitionIndex = 16135;
 
 	class HipplenCountingChimeraMiniGameConfig : public ::RPG::GameCore::JsonConfig
 	{

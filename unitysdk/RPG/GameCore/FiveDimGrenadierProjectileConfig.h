@@ -5,12 +5,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_FIVEDIMGRENADIERPROJECTILECONFIG_METHOD_2_29A4BB59019454D6_OFFSET UNITYSDK_OFFSET(0x19742A90)
-#define RPG_GAMECORE_FIVEDIMGRENADIERPROJECTILECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x19742B40)
+#define RPG_GAMECORE_FIVEDIMGRENADIERPROJECTILECONFIG_METHOD_2_29A4BB59019454D6_OFFSET UNITYSDK_OFFSET(0x1BA9AD40)
+#define RPG_GAMECORE_FIVEDIMGRENADIERPROJECTILECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1BA9ADF0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FiveDimGrenadierProjectileConfig_TypeDefinitionIndex = 15876;
+	inline static constexpr unsigned int FiveDimGrenadierProjectileConfig_TypeDefinitionIndex = 16050;
 
 	class FiveDimGrenadierProjectileConfig : public ::RPG::GameCore::JsonConfig
 	{

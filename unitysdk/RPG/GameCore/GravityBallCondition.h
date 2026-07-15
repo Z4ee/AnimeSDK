@@ -6,12 +6,12 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class DynamicFloat; }
 namespace RPG::GameCore { class DynamicString; }
 
-#define RPG_GAMECORE_GRAVITYBALLCONDITION_METHOD_2_39896B0D3DFCF387_OFFSET UNITYSDK_OFFSET(0x197D4270)
-#define RPG_GAMECORE_GRAVITYBALLCONDITION__CTOR_OFFSET UNITYSDK_OFFSET(0x197D43B0)
+#define RPG_GAMECORE_GRAVITYBALLCONDITION_METHOD_2_39896B0D3DFCF387_OFFSET UNITYSDK_OFFSET(0x1C5C0410)
+#define RPG_GAMECORE_GRAVITYBALLCONDITION__CTOR_OFFSET UNITYSDK_OFFSET(0x1C5C0550)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int GravityBallCondition_TypeDefinitionIndex = 19242;
+	inline static constexpr unsigned int GravityBallCondition_TypeDefinitionIndex = 19598;
 
 	class GravityBallCondition : public ::RPG::GameCore::JsonConfig
 	{

@@ -6,11 +6,11 @@
 namespace RPG::GameCore { class GameEntity; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_QINGQUEBATTLEENERGYBARNOTIFY__CTOR_OFFSET UNITYSDK_OFFSET(0xC672450)
+#define RPG_CLIENT_QINGQUEBATTLEENERGYBARNOTIFY__CTOR_OFFSET UNITYSDK_OFFSET(0x1677CAD0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int QingQueBattleEnergyBarNotify_TypeDefinitionIndex = 67128;
+	inline static constexpr unsigned int QingQueBattleEnergyBarNotify_TypeDefinitionIndex = 68572;
 
 	class QingQueBattleEnergyBarNotify : public ::System::Object
 	{

@@ -6,13 +6,13 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class DynamicFloat; }
 
-#define RPG_GAMECORE_TRACEHEARTDIALNPC_METHOD_3_6CE0E7D614699061_OFFSET UNITYSDK_OFFSET(0x19DEBD20)
-#define RPG_GAMECORE_TRACEHEARTDIALNPC_METHOD_3_F9BBB26F32A7FA71_OFFSET UNITYSDK_OFFSET(0x19DEBCA0)
-#define RPG_GAMECORE_TRACEHEARTDIALNPC__CTOR_OFFSET UNITYSDK_OFFSET(0x19DEBCF0)
+#define RPG_GAMECORE_TRACEHEARTDIALNPC_METHOD_3_6CE0E7D614699061_OFFSET UNITYSDK_OFFSET(0x1C158180)
+#define RPG_GAMECORE_TRACEHEARTDIALNPC_METHOD_3_7B759D3324BDB52E_OFFSET UNITYSDK_OFFSET(0x1C158140)
+#define RPG_GAMECORE_TRACEHEARTDIALNPC__CTOR_OFFSET UNITYSDK_OFFSET(0x1C158170)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TraceHeartDialNPC_TypeDefinitionIndex = 20052;
+	inline static constexpr unsigned int TraceHeartDialNPC_TypeDefinitionIndex = 20424;
 
 	class TraceHeartDialNPC : public ::RPG::GameCore::TaskConfig
 	{
@@ -28,9 +28,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TRACEHEARTDIALNPC__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_F9BBB26F32A7FA71(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::TraceHeartDialNPC*& a2)
+		static ::System::Void Method_3_7B759D3324BDB52E(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::TraceHeartDialNPC*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::TraceHeartDialNPC*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TRACEHEARTDIALNPC_METHOD_3_F9BBB26F32A7FA71_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::TraceHeartDialNPC*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TRACEHEARTDIALNPC_METHOD_3_7B759D3324BDB52E_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_6CE0E7D614699061(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::TraceHeartDialNPC* a2)

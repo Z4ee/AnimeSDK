@@ -7,39 +7,39 @@ namespace RPG::Client::NavMap::FiveDim { class MissionIcon; }
 namespace System { template <typename T> class Comparison_1; }
 namespace System { template <typename T> class Predicate_1; }
 
-#define RPG_CLIENT_NAVMAP_FIVEDIM_FACE___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xC257FF0)
-#define RPG_CLIENT_NAVMAP_FIVEDIM_FACE___C__CTOR_OFFSET UNITYSDK_OFFSET(0xC258020)
-#define RPG_CLIENT_NAVMAP_FIVEDIM_FACE___C__GETTRACKINGENTITYICON_B__65_0_OFFSET UNITYSDK_OFFSET(0xC258130)
-#define RPG_CLIENT_NAVMAP_FIVEDIM_FACE___C__GETTRACKINGMISSIONICON_B__66_0_OFFSET UNITYSDK_OFFSET(0xC2581A0)
-#define RPG_CLIENT_NAVMAP_FIVEDIM_FACE___C__HASCHESTICON_B__67_0_OFFSET UNITYSDK_OFFSET(0xC258270)
-#define RPG_CLIENT_NAVMAP_FIVEDIM_FACE___C__SORTENTITYICONS_B__59_0_OFFSET UNITYSDK_OFFSET(0xC258030)
+#define RPG_CLIENT_NAVMAP_FIVEDIM_FACE___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x18EC21F0)
+#define RPG_CLIENT_NAVMAP_FIVEDIM_FACE___C__CTOR_OFFSET UNITYSDK_OFFSET(0x18EC2220)
+#define RPG_CLIENT_NAVMAP_FIVEDIM_FACE___C__GETTRACKINGENTITYICON_B__65_0_OFFSET UNITYSDK_OFFSET(0x18EC2280)
+#define RPG_CLIENT_NAVMAP_FIVEDIM_FACE___C__GETTRACKINGMISSIONICON_B__66_0_OFFSET UNITYSDK_OFFSET(0x18EC22F0)
+#define RPG_CLIENT_NAVMAP_FIVEDIM_FACE___C__HASCHESTICON_B__67_0_OFFSET UNITYSDK_OFFSET(0x18EC2360)
+#define RPG_CLIENT_NAVMAP_FIVEDIM_FACE___C__SORTENTITYICONS_B__59_0_OFFSET UNITYSDK_OFFSET(0x18EC2230)
 
 namespace RPG::Client::NavMap::FiveDim
 {
-	inline static constexpr unsigned int Face___c_TypeDefinitionIndex = 69704;
+	inline static constexpr unsigned int Face___c_TypeDefinitionIndex = 71227;
 
 	class Face___c : public ::System::Object
 	{
 	public:
 		static ::System::Predicate_1<::RPG::Client::NavMap::FiveDim::MissionIcon*>** StaticGet___9__66_0()
 		{
-			return (::System::Predicate_1<::RPG::Client::NavMap::FiveDim::MissionIcon*>**)Il2CppClass::FromTypeDefinitionIndex(Face___c_TypeDefinitionIndex)->GetStaticField(0x67050);
-		}
-		static ::System::Predicate_1<::RPG::Client::NavMap::FiveDim::EntityIcon*>** StaticGet___9__67_0()
-		{
-			return (::System::Predicate_1<::RPG::Client::NavMap::FiveDim::EntityIcon*>**)Il2CppClass::FromTypeDefinitionIndex(Face___c_TypeDefinitionIndex)->GetStaticField(0x67058);
-		}
-		static ::System::Predicate_1<::RPG::Client::NavMap::FiveDim::EntityIcon*>** StaticGet___9__65_0()
-		{
-			return (::System::Predicate_1<::RPG::Client::NavMap::FiveDim::EntityIcon*>**)Il2CppClass::FromTypeDefinitionIndex(Face___c_TypeDefinitionIndex)->GetStaticField(0x67060);
-		}
-		static ::RPG::Client::NavMap::FiveDim::Face___c** StaticGet___9()
-		{
-			return (::RPG::Client::NavMap::FiveDim::Face___c**)Il2CppClass::FromTypeDefinitionIndex(Face___c_TypeDefinitionIndex)->GetStaticField(0x67068);
+			return (::System::Predicate_1<::RPG::Client::NavMap::FiveDim::MissionIcon*>**)Il2CppClass::FromTypeDefinitionIndex(Face___c_TypeDefinitionIndex)->GetStaticField(0x5F470);
 		}
 		static ::System::Comparison_1<::RPG::Client::NavMap::FiveDim::EntityIcon*>** StaticGet___9__59_0()
 		{
-			return (::System::Comparison_1<::RPG::Client::NavMap::FiveDim::EntityIcon*>**)Il2CppClass::FromTypeDefinitionIndex(Face___c_TypeDefinitionIndex)->GetStaticField(0x67070);
+			return (::System::Comparison_1<::RPG::Client::NavMap::FiveDim::EntityIcon*>**)Il2CppClass::FromTypeDefinitionIndex(Face___c_TypeDefinitionIndex)->GetStaticField(0x5F478);
+		}
+		static ::System::Predicate_1<::RPG::Client::NavMap::FiveDim::EntityIcon*>** StaticGet___9__65_0()
+		{
+			return (::System::Predicate_1<::RPG::Client::NavMap::FiveDim::EntityIcon*>**)Il2CppClass::FromTypeDefinitionIndex(Face___c_TypeDefinitionIndex)->GetStaticField(0x5F480);
+		}
+		static ::RPG::Client::NavMap::FiveDim::Face___c** StaticGet___9()
+		{
+			return (::RPG::Client::NavMap::FiveDim::Face___c**)Il2CppClass::FromTypeDefinitionIndex(Face___c_TypeDefinitionIndex)->GetStaticField(0x5F488);
+		}
+		static ::System::Predicate_1<::RPG::Client::NavMap::FiveDim::EntityIcon*>** StaticGet___9__67_0()
+		{
+			return (::System::Predicate_1<::RPG::Client::NavMap::FiveDim::EntityIcon*>**)Il2CppClass::FromTypeDefinitionIndex(Face___c_TypeDefinitionIndex)->GetStaticField(0x5F490);
 		}
 
 		static ::System::Void _cctor()

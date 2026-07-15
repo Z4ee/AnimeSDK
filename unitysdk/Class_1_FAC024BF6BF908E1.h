@@ -6,22 +6,22 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class ItemConfig; }
 
-#define CLASS_1_FAC024BF6BF908E1_METHOD_1_F6FF3DE94D09C840_OFFSET UNITYSDK_OFFSET(0x18FC8630)
-#define CLASS_1_FAC024BF6BF908E1__CTOR_OFFSET UNITYSDK_OFFSET(0x18FC8B20)
+#define CLASS_1_FAC024BF6BF908E1_METHOD_1_F6FF3DE94D09C840_OFFSET UNITYSDK_OFFSET(0x1B215B10)
+#define CLASS_1_FAC024BF6BF908E1__CTOR_OFFSET UNITYSDK_OFFSET(0x1B216000)
 
-inline static constexpr unsigned int Class_1_FAC024BF6BF908E1_TypeDefinitionIndex = 12341;
+inline static constexpr unsigned int Class_1_FAC024BF6BF908E1_TypeDefinitionIndex = 12474;
 
 class Class_1_FAC024BF6BF908E1 : public ::System::Object
 {
 public:
 	::Il2CppArray<::System::UInt32>* Field_1_0; // 0x10
 	::Il2CppArray<::RPG::GameCore::ItemConfig*>* Field_1_1; // 0x18
-	::Il2CppArray<::System::UInt32>* Field_1_2; // 0x20
+	::Il2CppArray<::RPG::GameCore::ItemConfig*>* Field_1_2; // 0x20
 	::Il2CppArray<::System::UInt32>* Field_1_3; // 0x28
 	::Il2CppArray<::RPG::GameCore::AttackDamageType>* Field_1_4; // 0x30
 	::Il2CppArray<::System::UInt32>* Field_1_5; // 0x38
 	::Il2CppArray<::System::UInt32>* Field_1_6; // 0x40
-	::Il2CppArray<::RPG::GameCore::ItemConfig*>* Field_1_7; // 0x48
+	::Il2CppArray<::System::UInt32>* Field_1_7; // 0x48
 	::System::UInt32 Field_1_8; // 0x50
 	::System::UInt32 Field_1_9; // 0x54
 	::System::UInt32 Field_1_10; // 0x58

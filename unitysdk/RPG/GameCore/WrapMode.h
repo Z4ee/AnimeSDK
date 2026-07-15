@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int WrapMode_TypeDefinitionIndex = 15522;
+	inline static constexpr unsigned int WrapMode_TypeDefinitionIndex = 15693;
 
 	enum class WrapMode : ::System::Int32
 	{

@@ -4,7 +4,7 @@
 
 namespace RPG::Embree
 {
-	inline static constexpr unsigned int EmbreeWrapperUnsafe_RTCRay_TypeDefinitionIndex = 44380;
+	inline static constexpr unsigned int EmbreeWrapperUnsafe_RTCRay_TypeDefinitionIndex = 45250;
 
 	struct alignas(4) EmbreeWrapperUnsafe_RTCRay
 	{

@@ -7,13 +7,13 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class DynamicFloat; }
 namespace RPG::GameCore { class TargetEvaluator; }
 
-#define RPG_GAMECORE_REINITPROPERTY_METHOD_3_253D2C2880F2C502_OFFSET UNITYSDK_OFFSET(0x19ABA7F0)
-#define RPG_GAMECORE_REINITPROPERTY_METHOD_3_E7AA732EDF14AC3F_OFFSET UNITYSDK_OFFSET(0x19ABA770)
-#define RPG_GAMECORE_REINITPROPERTY__CTOR_OFFSET UNITYSDK_OFFSET(0x19ABA7C0)
+#define RPG_GAMECORE_REINITPROPERTY_METHOD_3_253D2C2880F2C502_OFFSET UNITYSDK_OFFSET(0x1B9C1AD0)
+#define RPG_GAMECORE_REINITPROPERTY_METHOD_3_63E3DA683202C6B2_OFFSET UNITYSDK_OFFSET(0x1B9C1A90)
+#define RPG_GAMECORE_REINITPROPERTY__CTOR_OFFSET UNITYSDK_OFFSET(0x1B9C1AC0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ReinitProperty_TypeDefinitionIndex = 22278;
+	inline static constexpr unsigned int ReinitProperty_TypeDefinitionIndex = 22719;
 
 	class ReinitProperty : public ::RPG::GameCore::TaskConfig
 	{
@@ -29,9 +29,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_REINITPROPERTY__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_E7AA732EDF14AC3F(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ReinitProperty*& a2)
+		static ::System::Void Method_3_63E3DA683202C6B2(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ReinitProperty*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ReinitProperty*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_REINITPROPERTY_METHOD_3_E7AA732EDF14AC3F_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ReinitProperty*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_REINITPROPERTY_METHOD_3_63E3DA683202C6B2_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_253D2C2880F2C502(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ReinitProperty* a2)

@@ -7,13 +7,13 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class TargetEvaluator; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_ADDREGARDASATTACKTYPE_METHOD_3_4967E663B031E2E2_OFFSET UNITYSDK_OFFSET(0x19411E60)
-#define RPG_GAMECORE_ADDREGARDASATTACKTYPE_METHOD_3_7E23866A22331543_OFFSET UNITYSDK_OFFSET(0x19411EE0)
-#define RPG_GAMECORE_ADDREGARDASATTACKTYPE__CTOR_OFFSET UNITYSDK_OFFSET(0x19411EB0)
+#define RPG_GAMECORE_ADDREGARDASATTACKTYPE_METHOD_3_237B720EDBA8BC16_OFFSET UNITYSDK_OFFSET(0x1BE09CD0)
+#define RPG_GAMECORE_ADDREGARDASATTACKTYPE_METHOD_3_7E23866A22331543_OFFSET UNITYSDK_OFFSET(0x1BE09D10)
+#define RPG_GAMECORE_ADDREGARDASATTACKTYPE__CTOR_OFFSET UNITYSDK_OFFSET(0x1BE09D00)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AddRegardAsAttackType_TypeDefinitionIndex = 21943;
+	inline static constexpr unsigned int AddRegardAsAttackType_TypeDefinitionIndex = 22377;
 
 	class AddRegardAsAttackType : public ::RPG::GameCore::TaskConfig
 	{
@@ -28,9 +28,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADDREGARDASATTACKTYPE__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_4967E663B031E2E2(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AddRegardAsAttackType*& a2)
+		static ::System::Void Method_3_237B720EDBA8BC16(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AddRegardAsAttackType*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::AddRegardAsAttackType*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADDREGARDASATTACKTYPE_METHOD_3_4967E663B031E2E2_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::AddRegardAsAttackType*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADDREGARDASATTACKTYPE_METHOD_3_237B720EDBA8BC16_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_7E23866A22331543(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AddRegardAsAttackType* a2)

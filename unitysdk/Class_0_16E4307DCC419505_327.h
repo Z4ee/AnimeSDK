@@ -1,11 +1,9 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-class Class_0_16E4307DCC419505_328;
-class Class_1_E4CB20B056222958;
-namespace RPG::CustomRP { class CustomAdditionalLightData; }
+class Class_1_7B4E9156998275BE;
 
-inline static constexpr unsigned int Class_0_16E4307DCC419505_327_TypeDefinitionIndex = 46304;
+inline static constexpr unsigned int Class_0_16E4307DCC419505_327_TypeDefinitionIndex = 41505;
 
 class Class_0_16E4307DCC419505_327
 {

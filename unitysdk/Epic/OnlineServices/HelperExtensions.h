@@ -5,12 +5,12 @@
 
 namespace System { class String; }
 
-#define EPIC_ONLINESERVICES_HELPEREXTENSIONS_ISOPERATIONCOMPLETE_OFFSET UNITYSDK_OFFSET(0xA2CDC10)
-#define EPIC_ONLINESERVICES_HELPEREXTENSIONS_TOHEXSTRING_OFFSET UNITYSDK_OFFSET(0xA2CDC20)
+#define EPIC_ONLINESERVICES_HELPEREXTENSIONS_ISOPERATIONCOMPLETE_OFFSET UNITYSDK_OFFSET(0x1BAB33F0)
+#define EPIC_ONLINESERVICES_HELPEREXTENSIONS_TOHEXSTRING_OFFSET UNITYSDK_OFFSET(0x1BAB3400)
 
 namespace Epic::OnlineServices
 {
-	inline static constexpr unsigned int HelperExtensions_TypeDefinitionIndex = 41875;
+	inline static constexpr unsigned int HelperExtensions_TypeDefinitionIndex = 42736;
 
 	class HelperExtensions : public ::System::Object
 	{

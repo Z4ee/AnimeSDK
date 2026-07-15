@@ -3,7 +3,7 @@
 
 namespace System::Net
 {
-	inline static constexpr unsigned int WebConnection_NtlmAuthState_TypeDefinitionIndex = 2872;
+	inline static constexpr unsigned int WebConnection_NtlmAuthState_TypeDefinitionIndex = 2876;
 
 	enum class WebConnection_NtlmAuthState : ::System::Int32
 	{

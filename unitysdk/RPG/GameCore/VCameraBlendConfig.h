@@ -5,13 +5,13 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class VCameraBlend; }
 
-#define RPG_GAMECORE_VCAMERABLENDCONFIG_METHOD_3_6051098174EA81C8_OFFSET UNITYSDK_OFFSET(0x19E39F10)
-#define RPG_GAMECORE_VCAMERABLENDCONFIG_METHOD_3_7C59C9A4E8F7B161_OFFSET UNITYSDK_OFFSET(0x19E39E90)
-#define RPG_GAMECORE_VCAMERABLENDCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x19E39EE0)
+#define RPG_GAMECORE_VCAMERABLENDCONFIG_METHOD_3_0CEA981044B2AAAB_OFFSET UNITYSDK_OFFSET(0x1B886B10)
+#define RPG_GAMECORE_VCAMERABLENDCONFIG_METHOD_3_6051098174EA81C8_OFFSET UNITYSDK_OFFSET(0x1B886B50)
+#define RPG_GAMECORE_VCAMERABLENDCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1B886B40)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int VCameraBlendConfig_TypeDefinitionIndex = 19142;
+	inline static constexpr unsigned int VCameraBlendConfig_TypeDefinitionIndex = 19498;
 
 	class VCameraBlendConfig : public ::RPG::GameCore::TaskConfig
 	{
@@ -23,9 +23,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_VCAMERABLENDCONFIG__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_7C59C9A4E8F7B161(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::VCameraBlendConfig*& a2)
+		static ::System::Void Method_3_0CEA981044B2AAAB(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::VCameraBlendConfig*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::VCameraBlendConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_VCAMERABLENDCONFIG_METHOD_3_7C59C9A4E8F7B161_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::VCameraBlendConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_VCAMERABLENDCONFIG_METHOD_3_0CEA981044B2AAAB_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_6051098174EA81C8(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::VCameraBlendConfig* a2)

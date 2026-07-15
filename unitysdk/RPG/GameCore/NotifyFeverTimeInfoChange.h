@@ -8,13 +8,13 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class DynamicFloat; }
 
-#define RPG_GAMECORE_NOTIFYFEVERTIMEINFOCHANGE_METHOD_3_5E33D3BB38ACE999_OFFSET UNITYSDK_OFFSET(0x199D05A0)
-#define RPG_GAMECORE_NOTIFYFEVERTIMEINFOCHANGE_METHOD_3_9F89E5835DBFDAA7_OFFSET UNITYSDK_OFFSET(0x199D0520)
-#define RPG_GAMECORE_NOTIFYFEVERTIMEINFOCHANGE__CTOR_OFFSET UNITYSDK_OFFSET(0x199D0570)
+#define RPG_GAMECORE_NOTIFYFEVERTIMEINFOCHANGE_METHOD_3_5E33D3BB38ACE999_OFFSET UNITYSDK_OFFSET(0x1BAFAB00)
+#define RPG_GAMECORE_NOTIFYFEVERTIMEINFOCHANGE_METHOD_3_78EA6196961A1A20_OFFSET UNITYSDK_OFFSET(0x1BAFAAC0)
+#define RPG_GAMECORE_NOTIFYFEVERTIMEINFOCHANGE__CTOR_OFFSET UNITYSDK_OFFSET(0x1BAFAAF0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int NotifyFeverTimeInfoChange_TypeDefinitionIndex = 21985;
+	inline static constexpr unsigned int NotifyFeverTimeInfoChange_TypeDefinitionIndex = 22419;
 
 	class NotifyFeverTimeInfoChange : public ::RPG::GameCore::TaskConfig
 	{
@@ -33,9 +33,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_NOTIFYFEVERTIMEINFOCHANGE__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_9F89E5835DBFDAA7(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::NotifyFeverTimeInfoChange*& a2)
+		static ::System::Void Method_3_78EA6196961A1A20(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::NotifyFeverTimeInfoChange*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::NotifyFeverTimeInfoChange*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_NOTIFYFEVERTIMEINFOCHANGE_METHOD_3_9F89E5835DBFDAA7_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::NotifyFeverTimeInfoChange*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_NOTIFYFEVERTIMEINFOCHANGE_METHOD_3_78EA6196961A1A20_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_5E33D3BB38ACE999(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::NotifyFeverTimeInfoChange* a2)

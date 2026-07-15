@@ -4,25 +4,25 @@
 #include "unitysdk/VLB/VolumetricDustParticles_Direction.h"
 #include "unitysdk/VLB/VolumetricDustParticles_ParticleType.h"
 
-class Class_3_3A397C8F3B8E8660;
+class Class_3_3BA4173F442038F3;
 namespace UnityEngine { class ParticleSystem; }
 
-#define VLB_VOLUMETRICDUSTPARTICLES_GET_ISCULLED_OFFSET UNITYSDK_OFFSET(0xD0F63A0)
-#define VLB_VOLUMETRICDUSTPARTICLES_INSTANTIATEPARTICLESYSTEM_OFFSET UNITYSDK_OFFSET(0xD0F63C0)
-#define VLB_VOLUMETRICDUSTPARTICLES_SET_ISCULLED_OFFSET UNITYSDK_OFFSET(0xD0F63B0)
-#define VLB_VOLUMETRICDUSTPARTICLES__CCTOR_OFFSET UNITYSDK_OFFSET(0xD0F6450)
-#define VLB_VOLUMETRICDUSTPARTICLES__CTOR_OFFSET UNITYSDK_OFFSET(0xD0F6410)
+#define VLB_VOLUMETRICDUSTPARTICLES_GET_ISCULLED_OFFSET UNITYSDK_OFFSET(0x10538EE0)
+#define VLB_VOLUMETRICDUSTPARTICLES_INSTANTIATEPARTICLESYSTEM_OFFSET UNITYSDK_OFFSET(0x10538F00)
+#define VLB_VOLUMETRICDUSTPARTICLES_SET_ISCULLED_OFFSET UNITYSDK_OFFSET(0x10538EF0)
+#define VLB_VOLUMETRICDUSTPARTICLES__CCTOR_OFFSET UNITYSDK_OFFSET(0x10538F90)
+#define VLB_VOLUMETRICDUSTPARTICLES__CTOR_OFFSET UNITYSDK_OFFSET(0x10538F50)
 
 namespace VLB
 {
-	inline static constexpr unsigned int VolumetricDustParticles_TypeDefinitionIndex = 46207;
+	inline static constexpr unsigned int VolumetricDustParticles_TypeDefinitionIndex = 47172;
 
-	class VolumetricDustParticles : public ::RPG::Client::TAMonoPlugin_1<::Class_3_3A397C8F3B8E8660*>
+	class VolumetricDustParticles : public ::RPG::Client::TAMonoPlugin_1<::Class_3_3BA4173F442038F3*>
 	{
 	public:
 		static ::System::Boolean* StaticGet_isFeatureSupported()
 		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(VolumetricDustParticles_TypeDefinitionIndex)->GetStaticField(0x7B20);
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(VolumetricDustParticles_TypeDefinitionIndex)->GetStaticField(0x149F0);
 		}
 		::VLB::VolumetricDustParticles_ParticleType particleType; // 0x30
 		::UnityEngine::ParticleSystem* particlePrefab; // 0x38

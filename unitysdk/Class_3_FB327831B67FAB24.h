@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class SetFiveDimEntityAttachTarget; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_FB327831B67FAB24_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xA47B4F0)
-#define CLASS_3_FB327831B67FAB24__CTOR_OFFSET UNITYSDK_OFFSET(0xA47B4C0)
+#define CLASS_3_FB327831B67FAB24_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x17863640)
+#define CLASS_3_FB327831B67FAB24__CTOR_OFFSET UNITYSDK_OFFSET(0x17863610)
 
-inline static constexpr unsigned int Class_3_FB327831B67FAB24_TypeDefinitionIndex = 49445;
+inline static constexpr unsigned int Class_3_FB327831B67FAB24_TypeDefinitionIndex = 50495;
 
 class Class_3_FB327831B67FAB24 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::SetFiveDimEntityAttachTarget*>
 {

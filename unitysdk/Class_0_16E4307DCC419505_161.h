@@ -1,11 +1,9 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/UnityEngine/Vector3.h"
 
-class Class_1_0B84B0F93CB9CAEF;
-namespace System::Collections::Generic { template <typename T> class List_1; }
+class Class_1_7807B2B04302CD7B_15;
 
-inline static constexpr unsigned int Class_0_16E4307DCC419505_161_TypeDefinitionIndex = 38912;
+inline static constexpr unsigned int Class_0_16E4307DCC419505_161_TypeDefinitionIndex = 39699;
 
 class Class_0_16E4307DCC419505_161
 {

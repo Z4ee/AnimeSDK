@@ -4,20 +4,20 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_CHENLINGFESITEMRULEGROUPROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1962AA90)
-#define RPG_GAMECORE_CHENLINGFESITEMRULEGROUPROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1962AC70)
+#define RPG_GAMECORE_CHENLINGFESITEMRULEGROUPROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1C384E90)
+#define RPG_GAMECORE_CHENLINGFESITEMRULEGROUPROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1C385070)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ChenLingFesItemRuleGroupRow_TypeDefinitionIndex = 10663;
+	inline static constexpr unsigned int ChenLingFesItemRuleGroupRow_TypeDefinitionIndex = 10713;
 
 	class ChenLingFesItemRuleGroupRow : public ::System::Object
 	{
 	public:
 		::Il2CppArray<::System::UInt32>* ItemList; // 0x10
 		::Il2CppArray<::System::Single>* ItemRareWeight; // 0x18
-		::System::UInt32 ID; // 0x20
-		::System::UInt32 GroupID; // 0x24
+		::System::UInt32 GroupID; // 0x20
+		::System::UInt32 ID; // 0x24
 
 		::System::Void _ctor()
 		{

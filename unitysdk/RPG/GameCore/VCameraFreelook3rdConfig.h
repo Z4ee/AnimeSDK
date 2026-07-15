@@ -5,14 +5,15 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class VCameraFloatChangeParam; }
 namespace RPG::GameCore { class VCameraFreelook3rdBaseChangeParam; }
+namespace RPG::GameCore { class VCameraFreelook3rdExtraParams; }
 namespace RPG::GameCore { class VCameraVector3ChangeParam; }
 
-#define RPG_GAMECORE_VCAMERAFREELOOK3RDCONFIG_METHOD_2_3EE7CD93788F55D2_OFFSET UNITYSDK_OFFSET(0x19E3BD90)
-#define RPG_GAMECORE_VCAMERAFREELOOK3RDCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x19E3E540)
+#define RPG_GAMECORE_VCAMERAFREELOOK3RDCONFIG_METHOD_2_816E4EA6E8E89FEF_OFFSET UNITYSDK_OFFSET(0x1B8889A0)
+#define RPG_GAMECORE_VCAMERAFREELOOK3RDCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1B88B0E0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int VCameraFreelook3rdConfig_TypeDefinitionIndex = 15590;
+	inline static constexpr unsigned int VCameraFreelook3rdConfig_TypeDefinitionIndex = 15762;
 
 	class VCameraFreelook3rdConfig : public ::RPG::GameCore::JsonConfig
 	{
@@ -25,15 +26,16 @@ namespace RPG::GameCore
 		::RPG::GameCore::VCameraVector3ChangeParam* DampChangeParam; // 0x38
 		::System::Int32 DampChangeParamPriority; // 0x40
 		::RPG::GameCore::VCameraVector3ChangeParam* LookAtOffsetChangeParam; // 0x48
+		::RPG::GameCore::VCameraFreelook3rdExtraParams* ExtraParams; // 0x50
 
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_VCAMERAFREELOOK3RDCONFIG__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_3EE7CD93788F55D2(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::VCameraFreelook3rdConfig*& a2)
+		static ::System::Void Method_2_816E4EA6E8E89FEF(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::VCameraFreelook3rdConfig*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::VCameraFreelook3rdConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_VCAMERAFREELOOK3RDCONFIG_METHOD_2_3EE7CD93788F55D2_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::VCameraFreelook3rdConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_VCAMERAFREELOOK3RDCONFIG_METHOD_2_816E4EA6E8E89FEF_OFFSET))(a1, a2);
 		}
 	};
 }

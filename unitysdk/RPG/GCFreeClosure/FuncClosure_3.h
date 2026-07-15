@@ -16,7 +16,7 @@ namespace System { template <typename T1, typename T2, typename T3> class Action
 
 namespace RPG::GCFreeClosure
 {
-	inline static constexpr unsigned int FuncClosure_3_TypeDefinitionIndex = 6843;
+	inline static constexpr unsigned int FuncClosure_3_TypeDefinitionIndex = 6848;
 
 	template <typename TInput0, typename TInput1, typename TInput2>
 	struct FuncClosure_3

@@ -3,7 +3,7 @@
 
 namespace Cinemachine
 {
-	inline static constexpr unsigned int CinemachineBrain_BrainUpdateMethod_TypeDefinitionIndex = 36781;
+	inline static constexpr unsigned int CinemachineBrain_BrainUpdateMethod_TypeDefinitionIndex = 37563;
 
 	enum class CinemachineBrain_BrainUpdateMethod : ::System::Int32
 	{

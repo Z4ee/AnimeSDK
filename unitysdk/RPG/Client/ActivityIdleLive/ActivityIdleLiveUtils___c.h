@@ -7,49 +7,49 @@ namespace RPG::Client::ActivityIdleLive { class IdleLiveTeamSlotData; }
 namespace RPG::GameCore { class DynamicValue; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define RPG_CLIENT_ACTIVITYIDLELIVE_ACTIVITYIDLELIVEUTILS___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xB106D10)
-#define RPG_CLIENT_ACTIVITYIDLELIVE_ACTIVITYIDLELIVEUTILS___C__CONVERTSLOTDATASTOAVATARDICT_B__3_0_OFFSET UNITYSDK_OFFSET(0xB106D60)
-#define RPG_CLIENT_ACTIVITYIDLELIVE_ACTIVITYIDLELIVEUTILS___C__CONVERTSLOTDATASTOAVATARDICT_B__3_1_OFFSET UNITYSDK_OFFSET(0xB106D90)
-#define RPG_CLIENT_ACTIVITYIDLELIVE_ACTIVITYIDLELIVEUTILS___C__CONVERTSLOTDATASTOAVATARDICT_B__3_2_OFFSET UNITYSDK_OFFSET(0xB106E50)
-#define RPG_CLIENT_ACTIVITYIDLELIVE_ACTIVITYIDLELIVEUTILS___C__CONVERTSLOTDATASTOAVATARDICT_B__3_3_OFFSET UNITYSDK_OFFSET(0xB106E60)
-#define RPG_CLIENT_ACTIVITYIDLELIVE_ACTIVITYIDLELIVEUTILS___C__CTOR_OFFSET UNITYSDK_OFFSET(0xB106D50)
-#define RPG_CLIENT_ACTIVITYIDLELIVE_ACTIVITYIDLELIVEUTILS___C__GET_DUNGEONMULTIPLEPLAYERSETTLERATIOLIST_B__12_0_OFFSET UNITYSDK_OFFSET(0xB106E70)
-#define RPG_CLIENT_ACTIVITYIDLELIVE_ACTIVITYIDLELIVEUTILS___C__GET_TAGLEVELLIST_B__14_0_OFFSET UNITYSDK_OFFSET(0xB106ED0)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_ACTIVITYIDLELIVEUTILS___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x19D1B4A0)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_ACTIVITYIDLELIVEUTILS___C__CONVERTSLOTDATASTOAVATARDICT_B__3_0_OFFSET UNITYSDK_OFFSET(0x19D1B4F0)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_ACTIVITYIDLELIVEUTILS___C__CONVERTSLOTDATASTOAVATARDICT_B__3_1_OFFSET UNITYSDK_OFFSET(0x19D1B580)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_ACTIVITYIDLELIVEUTILS___C__CONVERTSLOTDATASTOAVATARDICT_B__3_2_OFFSET UNITYSDK_OFFSET(0x19D1B680)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_ACTIVITYIDLELIVEUTILS___C__CONVERTSLOTDATASTOAVATARDICT_B__3_3_OFFSET UNITYSDK_OFFSET(0x19D1B690)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_ACTIVITYIDLELIVEUTILS___C__CTOR_OFFSET UNITYSDK_OFFSET(0x19D1B4E0)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_ACTIVITYIDLELIVEUTILS___C__GET_DUNGEONMULTIPLEPLAYERSETTLERATIOLIST_B__12_0_OFFSET UNITYSDK_OFFSET(0x19D1B6A0)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_ACTIVITYIDLELIVEUTILS___C__GET_TAGLEVELLIST_B__14_0_OFFSET UNITYSDK_OFFSET(0x19D1B700)
 
 namespace RPG::Client::ActivityIdleLive
 {
-	inline static constexpr unsigned int ActivityIdleLiveUtils___c_TypeDefinitionIndex = 69937;
+	inline static constexpr unsigned int ActivityIdleLiveUtils___c_TypeDefinitionIndex = 71460;
 
 	class ActivityIdleLiveUtils___c : public ::System::Object
 	{
 	public:
-		static ::System::Func_2<::RPG::GameCore::DynamicValue*, ::System::UInt32>** StaticGet___9__14_0()
-		{
-			return (::System::Func_2<::RPG::GameCore::DynamicValue*, ::System::UInt32>**)Il2CppClass::FromTypeDefinitionIndex(ActivityIdleLiveUtils___c_TypeDefinitionIndex)->GetStaticField(0x50470);
-		}
-		static ::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::System::UInt32>, ::System::UInt32>** StaticGet___9__3_3()
-		{
-			return (::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::System::UInt32>, ::System::UInt32>**)Il2CppClass::FromTypeDefinitionIndex(ActivityIdleLiveUtils___c_TypeDefinitionIndex)->GetStaticField(0x50478);
-		}
-		static ::System::Func_2<::RPG::GameCore::DynamicValue*, ::System::UInt32>** StaticGet___9__12_0()
-		{
-			return (::System::Func_2<::RPG::GameCore::DynamicValue*, ::System::UInt32>**)Il2CppClass::FromTypeDefinitionIndex(ActivityIdleLiveUtils___c_TypeDefinitionIndex)->GetStaticField(0x50480);
-		}
-		static ::System::Func_2<::RPG::Client::ActivityIdleLive::IdleLiveTeamSlotData*, ::System::Boolean>** StaticGet___9__3_0()
-		{
-			return (::System::Func_2<::RPG::Client::ActivityIdleLive::IdleLiveTeamSlotData*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(ActivityIdleLiveUtils___c_TypeDefinitionIndex)->GetStaticField(0x50488);
-		}
 		static ::RPG::Client::ActivityIdleLive::ActivityIdleLiveUtils___c** StaticGet___9()
 		{
-			return (::RPG::Client::ActivityIdleLive::ActivityIdleLiveUtils___c**)Il2CppClass::FromTypeDefinitionIndex(ActivityIdleLiveUtils___c_TypeDefinitionIndex)->GetStaticField(0x50490);
+			return (::RPG::Client::ActivityIdleLive::ActivityIdleLiveUtils___c**)Il2CppClass::FromTypeDefinitionIndex(ActivityIdleLiveUtils___c_TypeDefinitionIndex)->GetStaticField(0x3BFE0);
 		}
 		static ::System::Func_2<::RPG::Client::ActivityIdleLive::IdleLiveTeamSlotData*, ::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::System::UInt32>>** StaticGet___9__3_1()
 		{
-			return (::System::Func_2<::RPG::Client::ActivityIdleLive::IdleLiveTeamSlotData*, ::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::System::UInt32>>**)Il2CppClass::FromTypeDefinitionIndex(ActivityIdleLiveUtils___c_TypeDefinitionIndex)->GetStaticField(0x50498);
+			return (::System::Func_2<::RPG::Client::ActivityIdleLive::IdleLiveTeamSlotData*, ::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::System::UInt32>>**)Il2CppClass::FromTypeDefinitionIndex(ActivityIdleLiveUtils___c_TypeDefinitionIndex)->GetStaticField(0x3BFE8);
+		}
+		static ::System::Func_2<::RPG::GameCore::DynamicValue*, ::System::UInt32>** StaticGet___9__14_0()
+		{
+			return (::System::Func_2<::RPG::GameCore::DynamicValue*, ::System::UInt32>**)Il2CppClass::FromTypeDefinitionIndex(ActivityIdleLiveUtils___c_TypeDefinitionIndex)->GetStaticField(0x3BFF0);
+		}
+		static ::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::System::UInt32>, ::System::UInt32>** StaticGet___9__3_3()
+		{
+			return (::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::System::UInt32>, ::System::UInt32>**)Il2CppClass::FromTypeDefinitionIndex(ActivityIdleLiveUtils___c_TypeDefinitionIndex)->GetStaticField(0x3BFF8);
+		}
+		static ::System::Func_2<::RPG::GameCore::DynamicValue*, ::System::UInt32>** StaticGet___9__12_0()
+		{
+			return (::System::Func_2<::RPG::GameCore::DynamicValue*, ::System::UInt32>**)Il2CppClass::FromTypeDefinitionIndex(ActivityIdleLiveUtils___c_TypeDefinitionIndex)->GetStaticField(0x3C000);
 		}
 		static ::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::System::UInt32>, ::System::UInt32>** StaticGet___9__3_2()
 		{
-			return (::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::System::UInt32>, ::System::UInt32>**)Il2CppClass::FromTypeDefinitionIndex(ActivityIdleLiveUtils___c_TypeDefinitionIndex)->GetStaticField(0x504A0);
+			return (::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::System::UInt32>, ::System::UInt32>**)Il2CppClass::FromTypeDefinitionIndex(ActivityIdleLiveUtils___c_TypeDefinitionIndex)->GetStaticField(0x3C008);
+		}
+		static ::System::Func_2<::RPG::Client::ActivityIdleLive::IdleLiveTeamSlotData*, ::System::Boolean>** StaticGet___9__3_0()
+		{
+			return (::System::Func_2<::RPG::Client::ActivityIdleLive::IdleLiveTeamSlotData*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(ActivityIdleLiveUtils___c_TypeDefinitionIndex)->GetStaticField(0x3C010);
 		}
 
 		static ::System::Void _cctor()

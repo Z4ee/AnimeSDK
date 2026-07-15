@@ -5,19 +5,19 @@
 namespace MiHoYo::SDK { class JSONObject; }
 namespace MiHoYo::SDK::HoYoPass { class AgeGateManager; }
 
-#define MIHOYO_SDK_HOYOPASS_AGEGATEMANAGER___C__DISPLAYCLASS31_0__CTOR_OFFSET UNITYSDK_OFFSET(0x18313900)
-#define MIHOYO_SDK_HOYOPASS_AGEGATEMANAGER___C__DISPLAYCLASS31_0__SHOWAGEGATECONFIRMDIALOG_B__0_OFFSET UNITYSDK_OFFSET(0x18315210)
-#define MIHOYO_SDK_HOYOPASS_AGEGATEMANAGER___C__DISPLAYCLASS31_0__SHOWAGEGATECONFIRMDIALOG_B__1_OFFSET UNITYSDK_OFFSET(0x18315300)
+#define MIHOYO_SDK_HOYOPASS_AGEGATEMANAGER___C__DISPLAYCLASS31_0__CTOR_OFFSET UNITYSDK_OFFSET(0x181CFB40)
+#define MIHOYO_SDK_HOYOPASS_AGEGATEMANAGER___C__DISPLAYCLASS31_0__SHOWAGEGATECONFIRMDIALOG_B__0_OFFSET UNITYSDK_OFFSET(0x181D1330)
+#define MIHOYO_SDK_HOYOPASS_AGEGATEMANAGER___C__DISPLAYCLASS31_0__SHOWAGEGATECONFIRMDIALOG_B__1_OFFSET UNITYSDK_OFFSET(0x181D1420)
 
 namespace MiHoYo::SDK::HoYoPass
 {
-	inline static constexpr unsigned int AgeGateManager___c__DisplayClass31_0_TypeDefinitionIndex = 8205;
+	inline static constexpr unsigned int AgeGateManager___c__DisplayClass31_0_TypeDefinitionIndex = 8217;
 
 	class AgeGateManager___c__DisplayClass31_0 : public ::System::Object
 	{
 	public:
-		::MiHoYo::SDK::HoYoPass::AgeGateManager* __4__this; // 0x10
-		::MiHoYo::SDK::JSONObject* cbody; // 0x18
+		::MiHoYo::SDK::JSONObject* cbody; // 0x10
+		::MiHoYo::SDK::HoYoPass::AgeGateManager* __4__this; // 0x18
 
 		::System::Void _ctor()
 		{

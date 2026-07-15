@@ -9,104 +9,104 @@ namespace RPG::Client { class MultiLightEffectMaterialBlock; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_PROP_ROGUEDLCCOMPASS_METHOD_5_8C3BC87CC267BAC7_OFFSET UNITYSDK_OFFSET(0xC5FD370)
-#define RPG_CLIENT_PROP_ROGUEDLCCOMPASS_METHOD_5_B1936CE4DA97AA45_OFFSET UNITYSDK_OFFSET(0xC5FC7F0)
-#define RPG_CLIENT_PROP_ROGUEDLCCOMPASS_METHOD_5_BD50D311A56B5E90_OFFSET UNITYSDK_OFFSET(0xC5FD4C0)
-#define RPG_CLIENT_PROP_ROGUEDLCCOMPASS_METHOD_5_C8110F9A5AB27813_OFFSET UNITYSDK_OFFSET(0xC5FCF30)
-#define RPG_CLIENT_PROP_ROGUEDLCCOMPASS_METHOD_5_CC99BBFAC9417CA7_OFFSET UNITYSDK_OFFSET(0xC5FC8B0)
-#define RPG_CLIENT_PROP_ROGUEDLCCOMPASS_METHOD_5_D4F7042B54090FE4_OFFSET UNITYSDK_OFFSET(0xC5FD6F0)
-#define RPG_CLIENT_PROP_ROGUEDLCCOMPASS_STOP_OFFSET UNITYSDK_OFFSET(0xC5FC3F0)
-#define RPG_CLIENT_PROP_ROGUEDLCCOMPASS_TRYINIT_OFFSET UNITYSDK_OFFSET(0xC5FBBF0)
-#define RPG_CLIENT_PROP_ROGUEDLCCOMPASS_UPDATE_OFFSET UNITYSDK_OFFSET(0xC5FC5B0)
-#define RPG_CLIENT_PROP_ROGUEDLCCOMPASS__CCTOR_OFFSET UNITYSDK_OFFSET(0xC5FDB90)
-#define RPG_CLIENT_PROP_ROGUEDLCCOMPASS__CTOR_OFFSET UNITYSDK_OFFSET(0xC5FD850)
+#define RPG_CLIENT_PROP_ROGUEDLCCOMPASS_METHOD_5_8C3BC87CC267BAC7_OFFSET UNITYSDK_OFFSET(0x14F3FFE0)
+#define RPG_CLIENT_PROP_ROGUEDLCCOMPASS_METHOD_5_B1936CE4DA97AA45_OFFSET UNITYSDK_OFFSET(0x14F3F470)
+#define RPG_CLIENT_PROP_ROGUEDLCCOMPASS_METHOD_5_BD50D311A56B5E90_OFFSET UNITYSDK_OFFSET(0x14F40130)
+#define RPG_CLIENT_PROP_ROGUEDLCCOMPASS_METHOD_5_C8110F9A5AB27813_OFFSET UNITYSDK_OFFSET(0x14F3FBB0)
+#define RPG_CLIENT_PROP_ROGUEDLCCOMPASS_METHOD_5_CC99BBFAC9417CA7_OFFSET UNITYSDK_OFFSET(0x14F3F530)
+#define RPG_CLIENT_PROP_ROGUEDLCCOMPASS_METHOD_5_D4F7042B54090FE4_OFFSET UNITYSDK_OFFSET(0x14F40360)
+#define RPG_CLIENT_PROP_ROGUEDLCCOMPASS_STOP_OFFSET UNITYSDK_OFFSET(0x14F3F070)
+#define RPG_CLIENT_PROP_ROGUEDLCCOMPASS_TRYINIT_OFFSET UNITYSDK_OFFSET(0x14F3E860)
+#define RPG_CLIENT_PROP_ROGUEDLCCOMPASS_UPDATE_OFFSET UNITYSDK_OFFSET(0x14F3F230)
+#define RPG_CLIENT_PROP_ROGUEDLCCOMPASS__CCTOR_OFFSET UNITYSDK_OFFSET(0x14F40800)
+#define RPG_CLIENT_PROP_ROGUEDLCCOMPASS__CTOR_OFFSET UNITYSDK_OFFSET(0x14F404C0)
 
 namespace RPG::Client::Prop
 {
-	inline static constexpr unsigned int RogueDLCCompass_TypeDefinitionIndex = 73472;
+	inline static constexpr unsigned int RogueDLCCompass_TypeDefinitionIndex = 74997;
 
 	class RogueDLCCompass : public ::UnityEngine::MonoBehaviour
 	{
 	public:
-		static ::System::String** StaticGet_MIDDLE_STOP()
+		static ::System::String** StaticGet_RTPC_MIDDLE()
 		{
-			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(RogueDLCCompass_TypeDefinitionIndex)->GetStaticField(0x1B000);
-		}
-		static ::System::String** StaticGet_TWO_OVERLAP()
-		{
-			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(RogueDLCCompass_TypeDefinitionIndex)->GetStaticField(0x1B008);
-		}
-		static ::System::String** StaticGet_MIDDLE_SELECT()
-		{
-			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(RogueDLCCompass_TypeDefinitionIndex)->GetStaticField(0x1B010);
-		}
-		static ::System::String** StaticGet_FINISH_STRONG_EFFECT()
-		{
-			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(RogueDLCCompass_TypeDefinitionIndex)->GetStaticField(0x1B018);
-		}
-		static ::System::String** StaticGet_FINISH_WEAK_EFFECT()
-		{
-			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(RogueDLCCompass_TypeDefinitionIndex)->GetStaticField(0x1B020);
-		}
-		static ::System::String** StaticGet_RTPC_OUTER()
-		{
-			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(RogueDLCCompass_TypeDefinitionIndex)->GetStaticField(0x1B028);
-		}
-		static ::System::String** StaticGet_INNER_STOP()
-		{
-			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(RogueDLCCompass_TypeDefinitionIndex)->GetStaticField(0x1B030);
-		}
-		static ::System::String** StaticGet_COMPASS_FINISH_LV3()
-		{
-			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(RogueDLCCompass_TypeDefinitionIndex)->GetStaticField(0x1B038);
-		}
-		static ::System::String** StaticGet_COUNTDOWN_END()
-		{
-			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(RogueDLCCompass_TypeDefinitionIndex)->GetStaticField(0x1B040);
-		}
-		static ::System::String** StaticGet_OUTER_ROTATE()
-		{
-			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(RogueDLCCompass_TypeDefinitionIndex)->GetStaticField(0x1B048);
-		}
-		static ::System::String** StaticGet_COMPASS_FINISH()
-		{
-			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(RogueDLCCompass_TypeDefinitionIndex)->GetStaticField(0x1B050);
+			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(RogueDLCCompass_TypeDefinitionIndex)->GetStaticField(0xBF90);
 		}
 		static ::System::String** StaticGet_INNER_ROTATE()
 		{
-			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(RogueDLCCompass_TypeDefinitionIndex)->GetStaticField(0x1B058);
+			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(RogueDLCCompass_TypeDefinitionIndex)->GetStaticField(0xBF98);
 		}
-		static ::System::String** StaticGet_RTPC_INNER()
+		static ::System::String** StaticGet_COMPASS_FINISH_LV3()
 		{
-			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(RogueDLCCompass_TypeDefinitionIndex)->GetStaticField(0x1B060);
+			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(RogueDLCCompass_TypeDefinitionIndex)->GetStaticField(0xBFA0);
 		}
-		static ::System::String** StaticGet_THREE_OVERLAP()
+		static ::System::String** StaticGet_FINISH_WEAK_EFFECT()
 		{
-			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(RogueDLCCompass_TypeDefinitionIndex)->GetStaticField(0x1B068);
-		}
-		static ::System::String** StaticGet_OUTER_SELECT()
-		{
-			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(RogueDLCCompass_TypeDefinitionIndex)->GetStaticField(0x1B070);
-		}
-		static ::System::String** StaticGet_RTPC_MIDDLE()
-		{
-			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(RogueDLCCompass_TypeDefinitionIndex)->GetStaticField(0x1B078);
-		}
-		static ::System::String** StaticGet_OUTER_STOP()
-		{
-			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(RogueDLCCompass_TypeDefinitionIndex)->GetStaticField(0x1B080);
-		}
-		static ::System::String** StaticGet_INNER_SELECT()
-		{
-			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(RogueDLCCompass_TypeDefinitionIndex)->GetStaticField(0x1B088);
+			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(RogueDLCCompass_TypeDefinitionIndex)->GetStaticField(0xBFA8);
 		}
 		static ::System::String** StaticGet_MIDDLE_ROTATE()
 		{
-			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(RogueDLCCompass_TypeDefinitionIndex)->GetStaticField(0x1B090);
+			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(RogueDLCCompass_TypeDefinitionIndex)->GetStaticField(0xBFB0);
+		}
+		static ::System::String** StaticGet_INNER_SELECT()
+		{
+			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(RogueDLCCompass_TypeDefinitionIndex)->GetStaticField(0xBFB8);
 		}
 		static ::System::String** StaticGet_COUNTDOWN_START()
 		{
-			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(RogueDLCCompass_TypeDefinitionIndex)->GetStaticField(0x1B098);
+			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(RogueDLCCompass_TypeDefinitionIndex)->GetStaticField(0xBFC0);
+		}
+		static ::System::String** StaticGet_RTPC_INNER()
+		{
+			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(RogueDLCCompass_TypeDefinitionIndex)->GetStaticField(0xBFC8);
+		}
+		static ::System::String** StaticGet_TWO_OVERLAP()
+		{
+			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(RogueDLCCompass_TypeDefinitionIndex)->GetStaticField(0xBFD0);
+		}
+		static ::System::String** StaticGet_OUTER_STOP()
+		{
+			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(RogueDLCCompass_TypeDefinitionIndex)->GetStaticField(0xBFD8);
+		}
+		static ::System::String** StaticGet_COMPASS_FINISH()
+		{
+			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(RogueDLCCompass_TypeDefinitionIndex)->GetStaticField(0xBFE0);
+		}
+		static ::System::String** StaticGet_MIDDLE_SELECT()
+		{
+			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(RogueDLCCompass_TypeDefinitionIndex)->GetStaticField(0xBFE8);
+		}
+		static ::System::String** StaticGet_RTPC_OUTER()
+		{
+			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(RogueDLCCompass_TypeDefinitionIndex)->GetStaticField(0xBFF0);
+		}
+		static ::System::String** StaticGet_THREE_OVERLAP()
+		{
+			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(RogueDLCCompass_TypeDefinitionIndex)->GetStaticField(0xBFF8);
+		}
+		static ::System::String** StaticGet_FINISH_STRONG_EFFECT()
+		{
+			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(RogueDLCCompass_TypeDefinitionIndex)->GetStaticField(0xC000);
+		}
+		static ::System::String** StaticGet_OUTER_ROTATE()
+		{
+			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(RogueDLCCompass_TypeDefinitionIndex)->GetStaticField(0xC008);
+		}
+		static ::System::String** StaticGet_MIDDLE_STOP()
+		{
+			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(RogueDLCCompass_TypeDefinitionIndex)->GetStaticField(0xC010);
+		}
+		static ::System::String** StaticGet_COUNTDOWN_END()
+		{
+			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(RogueDLCCompass_TypeDefinitionIndex)->GetStaticField(0xC018);
+		}
+		static ::System::String** StaticGet_INNER_STOP()
+		{
+			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(RogueDLCCompass_TypeDefinitionIndex)->GetStaticField(0xC020);
+		}
+		static ::System::String** StaticGet_OUTER_SELECT()
+		{
+			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(RogueDLCCompass_TypeDefinitionIndex)->GetStaticField(0xC028);
 		}
 		::System::Collections::Generic::List_1<::System::Single>* SpeedScale; // 0x18
 		::System::Collections::Generic::List_1<::System::Int32>* BufferingScale; // 0x20

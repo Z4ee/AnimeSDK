@@ -3,7 +3,7 @@
 
 namespace RPG::CustomRP
 {
-	inline static constexpr unsigned int ClipPlaneType_TypeDefinitionIndex = 35382;
+	inline static constexpr unsigned int ClipPlaneType_TypeDefinitionIndex = 36163;
 
 	enum class ClipPlaneType : ::System::Int32
 	{

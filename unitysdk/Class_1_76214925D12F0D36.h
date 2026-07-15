@@ -1,0 +1,56 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+
+class Class_0_16E4307DCC419505_1266;
+class Class_1_11B5E54645B08227;
+class Class_1_463067CB4A542AEE;
+class Class_1_5F4D64A4B97E38F9;
+class Class_1_C85C4DAB350DD5FC_2;
+
+#define CLASS_1_76214925D12F0D36_METHOD_1_8422ABC65E83BF12_OFFSET UNITYSDK_OFFSET(0x156258A0)
+#define CLASS_1_76214925D12F0D36_START_OFFSET UNITYSDK_OFFSET(0x156257B0)
+#define CLASS_1_76214925D12F0D36_STOP_OFFSET UNITYSDK_OFFSET(0x15625840)
+#define CLASS_1_76214925D12F0D36__CTOR_OFFSET UNITYSDK_OFFSET(0x15625700)
+#define CLASS_1_76214925D12F0D36___ONCARDUNLOCKSYNC_B__3_0_OFFSET UNITYSDK_OFFSET(0x15625CD0)
+#define CLASS_1_76214925D12F0D36___ONCARDUNLOCKSYNC_B__3_1_OFFSET UNITYSDK_OFFSET(0x15625D20)
+
+inline static constexpr unsigned int Class_1_76214925D12F0D36_TypeDefinitionIndex = 76119;
+
+class Class_1_76214925D12F0D36 : public ::System::Object
+{
+public:
+	::Class_1_5F4D64A4B97E38F9* Field_1_0; // 0x10
+	::Class_0_16E4307DCC419505_1266* Field_1_1; // 0x18
+	::Class_1_11B5E54645B08227* Field_1_2; // 0x20
+
+	::System::Void _ctor(::Class_0_16E4307DCC419505_1266* a1, ::Class_1_11B5E54645B08227* a2, ::Class_1_5F4D64A4B97E38F9* a3)
+	{
+		return ((::System::Void(*)(::PVOID, ::Class_0_16E4307DCC419505_1266*, ::Class_1_11B5E54645B08227*, ::Class_1_5F4D64A4B97E38F9*))((::PBYTE)hIl2Cpp + CLASS_1_76214925D12F0D36__CTOR_OFFSET))(this, a1, a2, a3);
+	}
+
+	::System::Void Start()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_76214925D12F0D36_START_OFFSET))(this);
+	}
+
+	::System::Void Stop()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_76214925D12F0D36_STOP_OFFSET))(this);
+	}
+
+	::System::Void Method_1_8422ABC65E83BF12(::Class_1_463067CB4A542AEE* a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::Class_1_463067CB4A542AEE*))((::PBYTE)hIl2Cpp + CLASS_1_76214925D12F0D36_METHOD_1_8422ABC65E83BF12_OFFSET))(this, a1);
+	}
+
+	::System::Boolean __OnCardUnlockSync_b__3_0(::System::UInt32 a1)
+	{
+		return ((::System::Boolean(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + CLASS_1_76214925D12F0D36___ONCARDUNLOCKSYNC_B__3_0_OFFSET))(this, a1);
+	}
+
+	::Class_1_C85C4DAB350DD5FC_2* __OnCardUnlockSync_b__3_1(::System::UInt32 a1)
+	{
+		return ((::Class_1_C85C4DAB350DD5FC_2*(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + CLASS_1_76214925D12F0D36___ONCARDUNLOCKSYNC_B__3_1_OFFSET))(this, a1);
+	}
+};

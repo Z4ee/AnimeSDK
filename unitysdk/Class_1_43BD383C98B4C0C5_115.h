@@ -1,19 +1,10 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Class_1_43BD383C98B4C0C5_115_Struct_2_0A33320B2F65B0F7.h"
-#include "unitysdk/Class_1_43BD383C98B4C0C5_115_Struct_2_8D4F9E4D299B5DEE.h"
 #include "unitysdk/System/Object.h"
-#include "unitysdk/System/ValueTuple_2.h"
-#include "unitysdk/UnityEngine/Vector3.h"
 
-namespace System { class String; }
-namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
-namespace System::Collections::Generic { template <typename T> class HashSet_1; }
-namespace System::Collections::Generic { template <typename T> class List_1; }
+#define CLASS_1_43BD383C98B4C0C5_115__CTOR_OFFSET UNITYSDK_OFFSET(0x14E56D40)
 
-#define CLASS_1_43BD383C98B4C0C5_115__CTOR_OFFSET UNITYSDK_OFFSET(0x1449FB30)
-
-inline static constexpr unsigned int Class_1_43BD383C98B4C0C5_115_TypeDefinitionIndex = 48440;
+inline static constexpr unsigned int Class_1_43BD383C98B4C0C5_115_TypeDefinitionIndex = 47182;
 
 class Class_1_43BD383C98B4C0C5_115 : public ::System::Object
 {

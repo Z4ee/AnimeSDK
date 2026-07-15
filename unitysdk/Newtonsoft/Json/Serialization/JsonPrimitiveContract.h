@@ -7,21 +7,21 @@
 namespace System { class Type; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define NEWTONSOFT_JSON_SERIALIZATION_JSONPRIMITIVECONTRACT_GET_TYPECODE_OFFSET UNITYSDK_OFFSET(0x18857240)
-#define NEWTONSOFT_JSON_SERIALIZATION_JSONPRIMITIVECONTRACT_SET_TYPECODE_OFFSET UNITYSDK_OFFSET(0x18857250)
-#define NEWTONSOFT_JSON_SERIALIZATION_JSONPRIMITIVECONTRACT__CCTOR_OFFSET UNITYSDK_OFFSET(0x18857260)
-#define NEWTONSOFT_JSON_SERIALIZATION_JSONPRIMITIVECONTRACT__CTOR_OFFSET UNITYSDK_OFFSET(0x1884FCC0)
+#define NEWTONSOFT_JSON_SERIALIZATION_JSONPRIMITIVECONTRACT_GET_TYPECODE_OFFSET UNITYSDK_OFFSET(0x15B9E4A0)
+#define NEWTONSOFT_JSON_SERIALIZATION_JSONPRIMITIVECONTRACT_SET_TYPECODE_OFFSET UNITYSDK_OFFSET(0x15B9E4B0)
+#define NEWTONSOFT_JSON_SERIALIZATION_JSONPRIMITIVECONTRACT__CCTOR_OFFSET UNITYSDK_OFFSET(0x15B9E4C0)
+#define NEWTONSOFT_JSON_SERIALIZATION_JSONPRIMITIVECONTRACT__CTOR_OFFSET UNITYSDK_OFFSET(0x15B947B0)
 
 namespace Newtonsoft::Json::Serialization
 {
-	inline static constexpr unsigned int JsonPrimitiveContract_TypeDefinitionIndex = 9350;
+	inline static constexpr unsigned int JsonPrimitiveContract_TypeDefinitionIndex = 9362;
 
 	class JsonPrimitiveContract : public ::Newtonsoft::Json::Serialization::JsonContract
 	{
 	public:
 		static ::System::Collections::Generic::Dictionary_2<::System::Type*, ::Newtonsoft::Json::ReadType>** StaticGet_ReadTypeMap()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::System::Type*, ::Newtonsoft::Json::ReadType>**)Il2CppClass::FromTypeDefinitionIndex(JsonPrimitiveContract_TypeDefinitionIndex)->GetStaticField(0x2F890);
+			return (::System::Collections::Generic::Dictionary_2<::System::Type*, ::Newtonsoft::Json::ReadType>**)Il2CppClass::FromTypeDefinitionIndex(JsonPrimitiveContract_TypeDefinitionIndex)->GetStaticField(0x33FC0);
 		}
 		::Newtonsoft::Json::Utilities::PrimitiveTypeCode _TypeCode_k__BackingField; // 0x80
 

@@ -3,7 +3,7 @@
 
 namespace VLB
 {
-	inline static constexpr unsigned int VolumetricDustParticles_ParticleType_TypeDefinitionIndex = 46208;
+	inline static constexpr unsigned int VolumetricDustParticles_ParticleType_TypeDefinitionIndex = 47173;
 
 	enum class VolumetricDustParticles_ParticleType : ::System::Int32
 	{

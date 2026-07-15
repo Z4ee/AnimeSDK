@@ -6,13 +6,13 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace SimpleJSON { class JSONNode; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_PCKFILELIST_METHOD_2_0CA550C144D1FA79_OFFSET UNITYSDK_OFFSET(0x199EBC50)
-#define RPG_GAMECORE_PCKFILELIST_METHOD_2_EB3AD391AB11E254_OFFSET UNITYSDK_OFFSET(0x199EBB50)
-#define RPG_GAMECORE_PCKFILELIST__CTOR_OFFSET UNITYSDK_OFFSET(0x199EBC40)
+#define RPG_GAMECORE_PCKFILELIST_METHOD_2_9D9649DD36BC0A05_OFFSET UNITYSDK_OFFSET(0x1BB13940)
+#define RPG_GAMECORE_PCKFILELIST_METHOD_2_EB3AD391AB11E254_OFFSET UNITYSDK_OFFSET(0x1BB13840)
+#define RPG_GAMECORE_PCKFILELIST__CTOR_OFFSET UNITYSDK_OFFSET(0x1BB13930)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PckFileList_TypeDefinitionIndex = 15574;
+	inline static constexpr unsigned int PckFileList_TypeDefinitionIndex = 15745;
 
 	class PckFileList : public ::RPG::GameCore::JsonConfig
 	{
@@ -29,9 +29,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::PckFileList*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PCKFILELIST_METHOD_2_EB3AD391AB11E254_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_2_0CA550C144D1FA79(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::PckFileList*& a2)
+		static ::System::Void Method_2_9D9649DD36BC0A05(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::PckFileList*& a2)
 		{
-			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::PckFileList*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PCKFILELIST_METHOD_2_0CA550C144D1FA79_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::PckFileList*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PCKFILELIST_METHOD_2_9D9649DD36BC0A05_OFFSET))(a1, a2);
 		}
 	};
 }

@@ -4,11 +4,11 @@
 
 namespace System { class String; }
 
-#define MIHOYO_SDK_PC_OS_GOOGLECHECKOUTPARAM__CTOR_OFFSET UNITYSDK_OFFSET(0x18388800)
+#define MIHOYO_SDK_PC_OS_GOOGLECHECKOUTPARAM__CTOR_OFFSET UNITYSDK_OFFSET(0x1993BE00)
 
 namespace MiHoYo::SDK::PC::OS
 {
-	inline static constexpr unsigned int GoogleCheckoutParam_TypeDefinitionIndex = 8417;
+	inline static constexpr unsigned int GoogleCheckoutParam_TypeDefinitionIndex = 8429;
 
 	class GoogleCheckoutParam : public ::System::Object
 	{

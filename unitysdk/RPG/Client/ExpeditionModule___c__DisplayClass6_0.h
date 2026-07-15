@@ -5,12 +5,12 @@
 namespace RPG::Client { class ExpeditionHarvestData; }
 namespace RPG::Client { class ExpeditionModule; }
 
-#define RPG_CLIENT_EXPEDITIONMODULE___C__DISPLAYCLASS6_0__CTOR_OFFSET UNITYSDK_OFFSET(0xB95E790)
-#define RPG_CLIENT_EXPEDITIONMODULE___C__DISPLAYCLASS6_0__GETUNLOCKEDHARVESTDATASBYGROUPID_B__0_OFFSET UNITYSDK_OFFSET(0xB961FA0)
+#define RPG_CLIENT_EXPEDITIONMODULE___C__DISPLAYCLASS6_0__CTOR_OFFSET UNITYSDK_OFFSET(0x196CD8F0)
+#define RPG_CLIENT_EXPEDITIONMODULE___C__DISPLAYCLASS6_0__GETUNLOCKEDHARVESTDATASBYGROUPID_B__0_OFFSET UNITYSDK_OFFSET(0x196D1520)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ExpeditionModule___c__DisplayClass6_0_TypeDefinitionIndex = 59766;
+	inline static constexpr unsigned int ExpeditionModule___c__DisplayClass6_0_TypeDefinitionIndex = 61051;
 
 	class ExpeditionModule___c__DisplayClass6_0 : public ::System::Object
 	{

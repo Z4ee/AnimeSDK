@@ -6,13 +6,13 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class MiParameterConfigBase; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_ACTIONTRIGGERACTIONWITHTIMESLIMITCONFIG_METHOD_4_01E08232722A1633_OFFSET UNITYSDK_OFFSET(0x193D02C0)
-#define RPG_GAMECORE_ACTIONTRIGGERACTIONWITHTIMESLIMITCONFIG_METHOD_4_E75AE553A8852D6E_OFFSET UNITYSDK_OFFSET(0x193D03A0)
-#define RPG_GAMECORE_ACTIONTRIGGERACTIONWITHTIMESLIMITCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x193D0350)
+#define RPG_GAMECORE_ACTIONTRIGGERACTIONWITHTIMESLIMITCONFIG_METHOD_4_2328CECC73CBC2FD_OFFSET UNITYSDK_OFFSET(0x1AAD9100)
+#define RPG_GAMECORE_ACTIONTRIGGERACTIONWITHTIMESLIMITCONFIG_METHOD_4_913599D7196E7C77_OFFSET UNITYSDK_OFFSET(0x1AAD9160)
+#define RPG_GAMECORE_ACTIONTRIGGERACTIONWITHTIMESLIMITCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1AAD9150)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ActionTriggerActionWithTimesLimitConfig_TypeDefinitionIndex = 16188;
+	inline static constexpr unsigned int ActionTriggerActionWithTimesLimitConfig_TypeDefinitionIndex = 16372;
 
 	class ActionTriggerActionWithTimesLimitConfig : public ::RPG::GameCore::MiActionConfigBase
 	{
@@ -26,14 +26,14 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ACTIONTRIGGERACTIONWITHTIMESLIMITCONFIG__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_4_01E08232722A1633(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ActionTriggerActionWithTimesLimitConfig*& a2)
+		static ::System::Void Method_4_2328CECC73CBC2FD(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ActionTriggerActionWithTimesLimitConfig*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ActionTriggerActionWithTimesLimitConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ACTIONTRIGGERACTIONWITHTIMESLIMITCONFIG_METHOD_4_01E08232722A1633_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ActionTriggerActionWithTimesLimitConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ACTIONTRIGGERACTIONWITHTIMESLIMITCONFIG_METHOD_4_2328CECC73CBC2FD_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_4_E75AE553A8852D6E(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ActionTriggerActionWithTimesLimitConfig* a2)
+		static ::System::Void Method_4_913599D7196E7C77(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ActionTriggerActionWithTimesLimitConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ActionTriggerActionWithTimesLimitConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ACTIONTRIGGERACTIONWITHTIMESLIMITCONFIG_METHOD_4_E75AE553A8852D6E_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ActionTriggerActionWithTimesLimitConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ACTIONTRIGGERACTIONWITHTIMESLIMITCONFIG_METHOD_4_913599D7196E7C77_OFFSET))(a1, a2);
 		}
 	};
 }

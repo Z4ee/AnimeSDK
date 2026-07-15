@@ -4,13 +4,13 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_SETHUDTEMPLATE_METHOD_3_21C5F4774A346A06_OFFSET UNITYSDK_OFFSET(0x19C51B60)
-#define RPG_GAMECORE_SETHUDTEMPLATE_METHOD_3_2783C47DAC898D42_OFFSET UNITYSDK_OFFSET(0x19C51BE0)
-#define RPG_GAMECORE_SETHUDTEMPLATE__CTOR_OFFSET UNITYSDK_OFFSET(0x19C51BB0)
+#define RPG_GAMECORE_SETHUDTEMPLATE_METHOD_3_2783C47DAC898D42_OFFSET UNITYSDK_OFFSET(0x1C5FCBD0)
+#define RPG_GAMECORE_SETHUDTEMPLATE_METHOD_3_52F852A76155E5E9_OFFSET UNITYSDK_OFFSET(0x1C5FCB90)
+#define RPG_GAMECORE_SETHUDTEMPLATE__CTOR_OFFSET UNITYSDK_OFFSET(0x1C5FCBC0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SetHudTemplate_TypeDefinitionIndex = 19756;
+	inline static constexpr unsigned int SetHudTemplate_TypeDefinitionIndex = 20116;
 
 	class SetHudTemplate : public ::RPG::GameCore::TaskConfig
 	{
@@ -23,9 +23,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETHUDTEMPLATE__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_21C5F4774A346A06(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SetHudTemplate*& a2)
+		static ::System::Void Method_3_52F852A76155E5E9(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SetHudTemplate*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SetHudTemplate*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETHUDTEMPLATE_METHOD_3_21C5F4774A346A06_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SetHudTemplate*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETHUDTEMPLATE_METHOD_3_52F852A76155E5E9_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_2783C47DAC898D42(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SetHudTemplate* a2)

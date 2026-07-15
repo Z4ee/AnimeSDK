@@ -3,9 +3,9 @@
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/Bounds.h"
 
-#define CLASS_1_C0F9055BB6E95366__CTOR_OFFSET UNITYSDK_OFFSET(0x18DC5C70)
+#define CLASS_1_C0F9055BB6E95366__CTOR_OFFSET UNITYSDK_OFFSET(0x1B17C7B0)
 
-inline static constexpr unsigned int Class_1_C0F9055BB6E95366_TypeDefinitionIndex = 39897;
+inline static constexpr unsigned int Class_1_C0F9055BB6E95366_TypeDefinitionIndex = 40709;
 
 class Class_1_C0F9055BB6E95366 : public ::System::Object
 {

@@ -6,13 +6,13 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class DynamicFloat; }
 namespace RPG::GameCore { class TargetEvaluator; }
 
-#define RPG_GAMECORE_REFRESHMAPROTATIONVOLUMEUSABLE_METHOD_3_354F1BE91F16B1F6_OFFSET UNITYSDK_OFFSET(0x19AB9880)
-#define RPG_GAMECORE_REFRESHMAPROTATIONVOLUMEUSABLE_METHOD_3_BB0F6EF9264CC575_OFFSET UNITYSDK_OFFSET(0x19AB9900)
-#define RPG_GAMECORE_REFRESHMAPROTATIONVOLUMEUSABLE__CTOR_OFFSET UNITYSDK_OFFSET(0x19AB98D0)
+#define RPG_GAMECORE_REFRESHMAPROTATIONVOLUMEUSABLE_METHOD_3_063050ADDA5E8300_OFFSET UNITYSDK_OFFSET(0x1B9C0D80)
+#define RPG_GAMECORE_REFRESHMAPROTATIONVOLUMEUSABLE_METHOD_3_BB0F6EF9264CC575_OFFSET UNITYSDK_OFFSET(0x1B9C0DC0)
+#define RPG_GAMECORE_REFRESHMAPROTATIONVOLUMEUSABLE__CTOR_OFFSET UNITYSDK_OFFSET(0x1B9C0DB0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RefreshMapRotationVolumeUsable_TypeDefinitionIndex = 19775;
+	inline static constexpr unsigned int RefreshMapRotationVolumeUsable_TypeDefinitionIndex = 20135;
 
 	class RefreshMapRotationVolumeUsable : public ::RPG::GameCore::TaskConfig
 	{
@@ -25,9 +25,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_REFRESHMAPROTATIONVOLUMEUSABLE__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_354F1BE91F16B1F6(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::RefreshMapRotationVolumeUsable*& a2)
+		static ::System::Void Method_3_063050ADDA5E8300(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::RefreshMapRotationVolumeUsable*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::RefreshMapRotationVolumeUsable*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_REFRESHMAPROTATIONVOLUMEUSABLE_METHOD_3_354F1BE91F16B1F6_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::RefreshMapRotationVolumeUsable*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_REFRESHMAPROTATIONVOLUMEUSABLE_METHOD_3_063050ADDA5E8300_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_BB0F6EF9264CC575(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::RefreshMapRotationVolumeUsable* a2)

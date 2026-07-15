@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ElectricChain_LineControlMode_TypeDefinitionIndex = 65886;
+	inline static constexpr unsigned int ElectricChain_LineControlMode_TypeDefinitionIndex = 67303;
 
 	enum class ElectricChain_LineControlMode : ::System::Int32
 	{

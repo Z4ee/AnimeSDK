@@ -6,13 +6,13 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class TargetEvaluator; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_ABORTINSERTABILITY_METHOD_3_51D2CEF4BEC7FE99_OFFSET UNITYSDK_OFFSET(0x193C6750)
-#define RPG_GAMECORE_ABORTINSERTABILITY_METHOD_3_FEAFAFB3463B1D55_OFFSET UNITYSDK_OFFSET(0x193C67D0)
-#define RPG_GAMECORE_ABORTINSERTABILITY__CTOR_OFFSET UNITYSDK_OFFSET(0x193C67A0)
+#define RPG_GAMECORE_ABORTINSERTABILITY_METHOD_3_681570A7E15F5CA2_OFFSET UNITYSDK_OFFSET(0x1B9FA260)
+#define RPG_GAMECORE_ABORTINSERTABILITY_METHOD_3_FEAFAFB3463B1D55_OFFSET UNITYSDK_OFFSET(0x1B9FA2A0)
+#define RPG_GAMECORE_ABORTINSERTABILITY__CTOR_OFFSET UNITYSDK_OFFSET(0x1B9FA290)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AbortInsertAbility_TypeDefinitionIndex = 21429;
+	inline static constexpr unsigned int AbortInsertAbility_TypeDefinitionIndex = 21849;
 
 	class AbortInsertAbility : public ::RPG::GameCore::TaskConfig
 	{
@@ -25,9 +25,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ABORTINSERTABILITY__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_51D2CEF4BEC7FE99(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AbortInsertAbility*& a2)
+		static ::System::Void Method_3_681570A7E15F5CA2(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AbortInsertAbility*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::AbortInsertAbility*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ABORTINSERTABILITY_METHOD_3_51D2CEF4BEC7FE99_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::AbortInsertAbility*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ABORTINSERTABILITY_METHOD_3_681570A7E15F5CA2_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_FEAFAFB3463B1D55(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AbortInsertAbility* a2)

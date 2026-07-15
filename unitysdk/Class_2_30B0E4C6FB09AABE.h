@@ -1,18 +1,18 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Class_1_43BD383C98B4C0C5_191.h"
+#include "unitysdk/Class_1_43BD383C98B4C0C5_199.h"
 #include "unitysdk/RPG/GameCore/ChimeraDuelTeamType.h"
 
 class Class_1_F9FBCC956DFCF137_25;
 class Class_1_FD611945730E269E;
 namespace RPG::GameCore { class ChimeraDuelSpawnAllyNpcHipplenMiniNode; }
 
-#define CLASS_2_30B0E4C6FB09AABE_METHOD_2_9AE379058E90AA45_OFFSET UNITYSDK_OFFSET(0x141F1270)
-#define CLASS_2_30B0E4C6FB09AABE__CTOR_OFFSET UNITYSDK_OFFSET(0x141F1350)
+#define CLASS_2_30B0E4C6FB09AABE_METHOD_2_9AE379058E90AA45_OFFSET UNITYSDK_OFFSET(0x179E1B50)
+#define CLASS_2_30B0E4C6FB09AABE__CTOR_OFFSET UNITYSDK_OFFSET(0x179E1C30)
 
-inline static constexpr unsigned int Class_2_30B0E4C6FB09AABE_TypeDefinitionIndex = 72215;
+inline static constexpr unsigned int Class_2_30B0E4C6FB09AABE_TypeDefinitionIndex = 73740;
 
-class Class_2_30B0E4C6FB09AABE : public ::Class_1_43BD383C98B4C0C5_191
+class Class_2_30B0E4C6FB09AABE : public ::Class_1_43BD383C98B4C0C5_199
 {
 public:
 	::RPG::GameCore::ChimeraDuelSpawnAllyNpcHipplenMiniNode* Field_2_0; // 0x10

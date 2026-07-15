@@ -5,9 +5,9 @@
 namespace RPG::GameCore { class ByCompareTargetCountClientOnly; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_4_E84CDA127E9FF478__CTOR_OFFSET UNITYSDK_OFFSET(0xA82F680)
+#define CLASS_4_E84CDA127E9FF478__CTOR_OFFSET UNITYSDK_OFFSET(0x17651390)
 
-inline static constexpr unsigned int Class_4_E84CDA127E9FF478_TypeDefinitionIndex = 51021;
+inline static constexpr unsigned int Class_4_E84CDA127E9FF478_TypeDefinitionIndex = 52106;
 
 class Class_4_E84CDA127E9FF478 : public ::Class_3_26FABDF4360D5746
 {

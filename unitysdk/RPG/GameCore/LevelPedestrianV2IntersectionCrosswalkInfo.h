@@ -7,13 +7,13 @@ namespace RPG::GameCore { class LevelPedestrianV2IntersectionAreaInfo; }
 namespace RPG::GameCore { class LevelPedestrianV2IntersectionConnectAreaInfo; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_LEVELPEDESTRIANV2INTERSECTIONCROSSWALKINFO_METHOD_3_AE6F12CDA0CA59AB_OFFSET UNITYSDK_OFFSET(0x19883F30)
-#define RPG_GAMECORE_LEVELPEDESTRIANV2INTERSECTIONCROSSWALKINFO_METHOD_3_D851402CF2FE6444_OFFSET UNITYSDK_OFFSET(0x19883EF0)
-#define RPG_GAMECORE_LEVELPEDESTRIANV2INTERSECTIONCROSSWALKINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x19883F20)
+#define RPG_GAMECORE_LEVELPEDESTRIANV2INTERSECTIONCROSSWALKINFO_METHOD_3_04C31F54F750FA62_OFFSET UNITYSDK_OFFSET(0x1B083AF0)
+#define RPG_GAMECORE_LEVELPEDESTRIANV2INTERSECTIONCROSSWALKINFO_METHOD_3_59CA436DFEBBBB24_OFFSET UNITYSDK_OFFSET(0x1B083AB0)
+#define RPG_GAMECORE_LEVELPEDESTRIANV2INTERSECTIONCROSSWALKINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x1B083AE0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LevelPedestrianV2IntersectionCrosswalkInfo_TypeDefinitionIndex = 16451;
+	inline static constexpr unsigned int LevelPedestrianV2IntersectionCrosswalkInfo_TypeDefinitionIndex = 16613;
 
 	class LevelPedestrianV2IntersectionCrosswalkInfo : public ::RPG::GameCore::LevelPedestrianV2IntersectionInfo
 	{
@@ -27,14 +27,14 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELPEDESTRIANV2INTERSECTIONCROSSWALKINFO__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_D851402CF2FE6444(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::LevelPedestrianV2IntersectionCrosswalkInfo*& a2)
+		static ::System::Void Method_3_59CA436DFEBBBB24(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::LevelPedestrianV2IntersectionCrosswalkInfo*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::LevelPedestrianV2IntersectionCrosswalkInfo*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELPEDESTRIANV2INTERSECTIONCROSSWALKINFO_METHOD_3_D851402CF2FE6444_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::LevelPedestrianV2IntersectionCrosswalkInfo*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELPEDESTRIANV2INTERSECTIONCROSSWALKINFO_METHOD_3_59CA436DFEBBBB24_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_AE6F12CDA0CA59AB(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::LevelPedestrianV2IntersectionCrosswalkInfo* a2)
+		static ::System::Void Method_3_04C31F54F750FA62(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::LevelPedestrianV2IntersectionCrosswalkInfo* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::LevelPedestrianV2IntersectionCrosswalkInfo*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELPEDESTRIANV2INTERSECTIONCROSSWALKINFO_METHOD_3_AE6F12CDA0CA59AB_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::LevelPedestrianV2IntersectionCrosswalkInfo*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELPEDESTRIANV2INTERSECTIONCROSSWALKINFO_METHOD_3_04C31F54F750FA62_OFFSET))(a1, a2);
 		}
 	};
 }

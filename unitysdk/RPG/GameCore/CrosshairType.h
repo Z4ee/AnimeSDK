@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int CrosshairType_TypeDefinitionIndex = 15727;
+	inline static constexpr unsigned int CrosshairType_TypeDefinitionIndex = 15901;
 
 	enum class CrosshairType : ::System::Int32
 	{
@@ -11,5 +11,7 @@ namespace RPG::GameCore
 		Default = 1,
 		Cyrene = 2,
 		SilverWolf999 = 3,
+		Gluttony = 4,
+		HimekoNova = 5,
 	};
 }

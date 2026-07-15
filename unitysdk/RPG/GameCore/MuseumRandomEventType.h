@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MuseumRandomEventType_TypeDefinitionIndex = 13573;
+	inline static constexpr unsigned int MuseumRandomEventType_TypeDefinitionIndex = 13721;
 
 	enum class MuseumRandomEventType : ::System::Int32
 	{

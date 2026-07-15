@@ -6,7 +6,7 @@ namespace System::Reflection { class MethodInfo; }
 
 namespace System::Diagnostics::Tracing
 {
-	inline static constexpr unsigned int EnumHelper_1_TypeDefinitionIndex = 1582;
+	inline static constexpr unsigned int EnumHelper_1_TypeDefinitionIndex = 1586;
 
 	template <typename UnderlyingType>
 	class EnumHelper_1 : public ::System::Object

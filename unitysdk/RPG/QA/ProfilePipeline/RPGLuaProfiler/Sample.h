@@ -6,36 +6,36 @@ namespace System { class String; }
 namespace System { template <typename T> class Comparison_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_QA_PROFILEPIPELINE_RPGLUAPROFILER_SAMPLE_ADDCHILD_OFFSET UNITYSDK_OFFSET(0xCFB5100)
-#define RPG_QA_PROFILEPIPELINE_RPGLUAPROFILER_SAMPLE_CHILDCOUNT_OFFSET UNITYSDK_OFFSET(0xCFB51B0)
-#define RPG_QA_PROFILEPIPELINE_RPGLUAPROFILER_SAMPLE_CHILD_OFFSET UNITYSDK_OFFSET(0xCFB51D0)
-#define RPG_QA_PROFILEPIPELINE_RPGLUAPROFILER_SAMPLE_PARENT_OFFSET UNITYSDK_OFFSET(0xCFB4FA0)
-#define RPG_QA_PROFILEPIPELINE_RPGLUAPROFILER_SAMPLE_REMOVECHILD_1_OFFSET UNITYSDK_OFFSET(0xCFB5020)
-#define RPG_QA_PROFILEPIPELINE_RPGLUAPROFILER_SAMPLE_REMOVECHILD_OFFSET UNITYSDK_OFFSET(0xCFB4FB0)
-#define RPG_QA_PROFILEPIPELINE_RPGLUAPROFILER_SAMPLE_SORTCHILD_OFFSET UNITYSDK_OFFSET(0xCFB5220)
-#define RPG_QA_PROFILEPIPELINE_RPGLUAPROFILER_SAMPLE_UPDATESELFDATA_OFFSET UNITYSDK_OFFSET(0xCFB4E60)
-#define RPG_QA_PROFILEPIPELINE_RPGLUAPROFILER_SAMPLE__CTOR_OFFSET UNITYSDK_OFFSET(0xCFB52D0)
+#define RPG_QA_PROFILEPIPELINE_RPGLUAPROFILER_SAMPLE_ADDCHILD_OFFSET UNITYSDK_OFFSET(0x19D44850)
+#define RPG_QA_PROFILEPIPELINE_RPGLUAPROFILER_SAMPLE_CHILDCOUNT_OFFSET UNITYSDK_OFFSET(0x19D44900)
+#define RPG_QA_PROFILEPIPELINE_RPGLUAPROFILER_SAMPLE_CHILD_OFFSET UNITYSDK_OFFSET(0x19D44920)
+#define RPG_QA_PROFILEPIPELINE_RPGLUAPROFILER_SAMPLE_PARENT_OFFSET UNITYSDK_OFFSET(0x19D446F0)
+#define RPG_QA_PROFILEPIPELINE_RPGLUAPROFILER_SAMPLE_REMOVECHILD_1_OFFSET UNITYSDK_OFFSET(0x19D44770)
+#define RPG_QA_PROFILEPIPELINE_RPGLUAPROFILER_SAMPLE_REMOVECHILD_OFFSET UNITYSDK_OFFSET(0x19D44700)
+#define RPG_QA_PROFILEPIPELINE_RPGLUAPROFILER_SAMPLE_SORTCHILD_OFFSET UNITYSDK_OFFSET(0x19D44970)
+#define RPG_QA_PROFILEPIPELINE_RPGLUAPROFILER_SAMPLE_UPDATESELFDATA_OFFSET UNITYSDK_OFFSET(0x19D445B0)
+#define RPG_QA_PROFILEPIPELINE_RPGLUAPROFILER_SAMPLE__CTOR_OFFSET UNITYSDK_OFFSET(0x19D44A20)
 
 namespace RPG::QA::ProfilePipeline::RPGLuaProfiler
 {
-	inline static constexpr unsigned int Sample_TypeDefinitionIndex = 48456;
+	inline static constexpr unsigned int Sample_TypeDefinitionIndex = 49463;
 
 	class Sample : public ::System::Object
 	{
 	public:
-		::System::String* Name; // 0x10
-		::System::String* NameWhat; // 0x18
+		::System::String* NameWhat; // 0x10
+		::System::String* What; // 0x18
 		::RPG::QA::ProfilePipeline::RPGLuaProfiler::Sample* _Parent; // 0x20
-		::System::String* What; // 0x28
+		::System::Collections::Generic::List_1<::RPG::QA::ProfilePipeline::RPGLuaProfiler::Sample*>* _Children; // 0x28
 		::System::String* Source; // 0x30
-		::System::Collections::Generic::List_1<::RPG::QA::ProfilePipeline::RPGLuaProfiler::Sample*>* _Children; // 0x38
-		::System::Int64 SelfMono; // 0x40
+		::System::String* Name; // 0x38
+		::System::Int32 CurrentLine; // 0x40
+		::System::Int32 CallCount; // 0x44
 		::System::Int64 SelfLua; // 0x48
-		::System::Int64 LuaMemoryInBytes; // 0x50
-		::System::Int64 MonoMemoryInBytes; // 0x58
-		::System::Int32 HookEvent; // 0x60
-		::System::Int32 CurrentLine; // 0x64
-		::System::Int32 CallCount; // 0x68
+		::System::Int32 HookEvent; // 0x50
+		::System::Int64 SelfMono; // 0x58
+		::System::Int64 MonoMemoryInBytes; // 0x60
+		::System::Int64 LuaMemoryInBytes; // 0x68
 
 		::System::Void _ctor()
 		{

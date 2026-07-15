@@ -3,7 +3,7 @@
 
 namespace CriWare
 {
-	inline static constexpr unsigned int CriAtomExCategory_ReactHoldType_TypeDefinitionIndex = 37032;
+	inline static constexpr unsigned int CriAtomExCategory_ReactHoldType_TypeDefinitionIndex = 37831;
 
 	enum class CriAtomExCategory_ReactHoldType : ::System::Int32
 	{

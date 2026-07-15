@@ -12,45 +12,45 @@ namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Concurrent { template <typename T1, typename T2> class ConcurrentDictionary_2; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_LIMITTYPECONFIGEXCELTABLE_GETDATA_OFFSET UNITYSDK_OFFSET(0x1988E740)
-#define RPG_GAMECORE_LIMITTYPECONFIGEXCELTABLE_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x1988E5D0)
-#define RPG_GAMECORE_LIMITTYPECONFIGEXCELTABLE_GET_DATADICT_OFFSET UNITYSDK_OFFSET(0x1988E4F0)
-#define RPG_GAMECORE_LIMITTYPECONFIGEXCELTABLE_ISDATAEMPTY_OFFSET UNITYSDK_OFFSET(0x1988E570)
-#define RPG_GAMECORE_LIMITTYPECONFIGEXCELTABLE_ISDATALOADED_OFFSET UNITYSDK_OFFSET(0x1988DB40)
-#define RPG_GAMECORE_LIMITTYPECONFIGEXCELTABLE_LOADDATA_OFFSET UNITYSDK_OFFSET(0x1988DB80)
-#define RPG_GAMECORE_LIMITTYPECONFIGEXCELTABLE_UNLOADDATA_OFFSET UNITYSDK_OFFSET(0x1988DDB0)
-#define RPG_GAMECORE_LIMITTYPECONFIGEXCELTABLE__ADDITEMFROMBINARY_OFFSET UNITYSDK_OFFSET(0x1988DF80)
-#define RPG_GAMECORE_LIMITTYPECONFIGEXCELTABLE__ADDITEM_OFFSET UNITYSDK_OFFSET(0x1988E1D0)
-#define RPG_GAMECORE_LIMITTYPECONFIGEXCELTABLE__CCTOR_OFFSET UNITYSDK_OFFSET(0x1988E890)
-#define RPG_GAMECORE_LIMITTYPECONFIGEXCELTABLE__LOADDATAINCREMENTIAL_OFFSET UNITYSDK_OFFSET(0x1988DEE0)
-#define RPG_GAMECORE_LIMITTYPECONFIGEXCELTABLE__LOADDATA_OFFSET UNITYSDK_OFFSET(0x1988DE40)
+#define RPG_GAMECORE_LIMITTYPECONFIGEXCELTABLE_GETDATA_OFFSET UNITYSDK_OFFSET(0x1B08E260)
+#define RPG_GAMECORE_LIMITTYPECONFIGEXCELTABLE_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x1B08E0F0)
+#define RPG_GAMECORE_LIMITTYPECONFIGEXCELTABLE_GET_DATADICT_OFFSET UNITYSDK_OFFSET(0x1B08E010)
+#define RPG_GAMECORE_LIMITTYPECONFIGEXCELTABLE_ISDATAEMPTY_OFFSET UNITYSDK_OFFSET(0x1B08E090)
+#define RPG_GAMECORE_LIMITTYPECONFIGEXCELTABLE_ISDATALOADED_OFFSET UNITYSDK_OFFSET(0x1B08D660)
+#define RPG_GAMECORE_LIMITTYPECONFIGEXCELTABLE_LOADDATA_OFFSET UNITYSDK_OFFSET(0x1B08D6A0)
+#define RPG_GAMECORE_LIMITTYPECONFIGEXCELTABLE_UNLOADDATA_OFFSET UNITYSDK_OFFSET(0x1B08D8D0)
+#define RPG_GAMECORE_LIMITTYPECONFIGEXCELTABLE__ADDITEMFROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B08DAA0)
+#define RPG_GAMECORE_LIMITTYPECONFIGEXCELTABLE__ADDITEM_OFFSET UNITYSDK_OFFSET(0x1B08DCF0)
+#define RPG_GAMECORE_LIMITTYPECONFIGEXCELTABLE__CCTOR_OFFSET UNITYSDK_OFFSET(0x1B08E3B0)
+#define RPG_GAMECORE_LIMITTYPECONFIGEXCELTABLE__LOADDATAINCREMENTIAL_OFFSET UNITYSDK_OFFSET(0x1B08DA00)
+#define RPG_GAMECORE_LIMITTYPECONFIGEXCELTABLE__LOADDATA_OFFSET UNITYSDK_OFFSET(0x1B08D960)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LimitTypeConfigExcelTable_TypeDefinitionIndex = 14372;
+	inline static constexpr unsigned int LimitTypeConfigExcelTable_TypeDefinitionIndex = 14520;
 
 	class LimitTypeConfigExcelTable : public ::System::Object
 	{
 	public:
 		static ::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::LimitTypeConfigRow*>** StaticGet_dataDict_()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::LimitTypeConfigRow*>**)Il2CppClass::FromTypeDefinitionIndex(LimitTypeConfigExcelTable_TypeDefinitionIndex)->GetStaticField(0x27E40);
+			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::LimitTypeConfigRow*>**)Il2CppClass::FromTypeDefinitionIndex(LimitTypeConfigExcelTable_TypeDefinitionIndex)->GetStaticField(0x2B8F0);
 		}
 		static ::System::Action_1<::Class_1_7A22A3DBEEDD1F80*>** StaticGet__AddItemFromBinary_ActionInst()
 		{
-			return (::System::Action_1<::Class_1_7A22A3DBEEDD1F80*>**)Il2CppClass::FromTypeDefinitionIndex(LimitTypeConfigExcelTable_TypeDefinitionIndex)->GetStaticField(0x27E48);
+			return (::System::Action_1<::Class_1_7A22A3DBEEDD1F80*>**)Il2CppClass::FromTypeDefinitionIndex(LimitTypeConfigExcelTable_TypeDefinitionIndex)->GetStaticField(0x2B8F8);
 		}
 		static ::Il2CppArray<::System::String*>** StaticGet_s_PathList()
 		{
-			return (::Il2CppArray<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(LimitTypeConfigExcelTable_TypeDefinitionIndex)->GetStaticField(0x27E50);
-		}
-		static ::System::Boolean* StaticGet_isDataLoaded()
-		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(LimitTypeConfigExcelTable_TypeDefinitionIndex)->GetStaticField(0x9750);
+			return (::Il2CppArray<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(LimitTypeConfigExcelTable_TypeDefinitionIndex)->GetStaticField(0x2B900);
 		}
 		static ::System::Byte* StaticGet_HashIndex()
 		{
-			return (::System::Byte*)Il2CppClass::FromTypeDefinitionIndex(LimitTypeConfigExcelTable_TypeDefinitionIndex)->GetStaticField(0x9751);
+			return (::System::Byte*)Il2CppClass::FromTypeDefinitionIndex(LimitTypeConfigExcelTable_TypeDefinitionIndex)->GetStaticField(0x7C30);
+		}
+		static ::System::Boolean* StaticGet_isDataLoaded()
+		{
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(LimitTypeConfigExcelTable_TypeDefinitionIndex)->GetStaticField(0x7C31);
 		}
 
 		static ::System::Void _cctor()

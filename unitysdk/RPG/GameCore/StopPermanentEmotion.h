@@ -5,13 +5,13 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class TargetEvaluator; }
 
-#define RPG_GAMECORE_STOPPERMANENTEMOTION_METHOD_3_20DA94D223C1E879_OFFSET UNITYSDK_OFFSET(0x19CC0980)
-#define RPG_GAMECORE_STOPPERMANENTEMOTION_METHOD_3_F39060B3E7B67AB5_OFFSET UNITYSDK_OFFSET(0x19CC0A10)
-#define RPG_GAMECORE_STOPPERMANENTEMOTION__CTOR_OFFSET UNITYSDK_OFFSET(0x19CC09E0)
+#define RPG_GAMECORE_STOPPERMANENTEMOTION_METHOD_3_2F83F925DC017082_OFFSET UNITYSDK_OFFSET(0x1B0C6060)
+#define RPG_GAMECORE_STOPPERMANENTEMOTION_METHOD_3_F39060B3E7B67AB5_OFFSET UNITYSDK_OFFSET(0x1B0C60B0)
+#define RPG_GAMECORE_STOPPERMANENTEMOTION__CTOR_OFFSET UNITYSDK_OFFSET(0x1B0C60A0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int StopPermanentEmotion_TypeDefinitionIndex = 20668;
+	inline static constexpr unsigned int StopPermanentEmotion_TypeDefinitionIndex = 21083;
 
 	class StopPermanentEmotion : public ::RPG::GameCore::TaskConfig
 	{
@@ -24,9 +24,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_STOPPERMANENTEMOTION__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_20DA94D223C1E879(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::StopPermanentEmotion*& a2)
+		static ::System::Void Method_3_2F83F925DC017082(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::StopPermanentEmotion*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::StopPermanentEmotion*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_STOPPERMANENTEMOTION_METHOD_3_20DA94D223C1E879_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::StopPermanentEmotion*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_STOPPERMANENTEMOTION_METHOD_3_2F83F925DC017082_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_F39060B3E7B67AB5(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::StopPermanentEmotion* a2)

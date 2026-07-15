@@ -6,13 +6,13 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class TargetEvaluator; }
 
-#define RPG_GAMECORE_LOOKAT_METHOD_3_5AC68DAE2EA01F8B_OFFSET UNITYSDK_OFFSET(0x198AF3B0)
-#define RPG_GAMECORE_LOOKAT_METHOD_3_73BAD9060BC701D1_OFFSET UNITYSDK_OFFSET(0x198AF4A0)
-#define RPG_GAMECORE_LOOKAT__CTOR_OFFSET UNITYSDK_OFFSET(0x198AF440)
+#define RPG_GAMECORE_LOOKAT_METHOD_3_73BAD9060BC701D1_OFFSET UNITYSDK_OFFSET(0x1BCD22D0)
+#define RPG_GAMECORE_LOOKAT_METHOD_3_AF674D0B7E4D09C2_OFFSET UNITYSDK_OFFSET(0x1BCD2210)
+#define RPG_GAMECORE_LOOKAT__CTOR_OFFSET UNITYSDK_OFFSET(0x1BCD2280)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LookAt_TypeDefinitionIndex = 21626;
+	inline static constexpr unsigned int LookAt_TypeDefinitionIndex = 22049;
 
 	class LookAt : public ::RPG::GameCore::TaskConfig
 	{
@@ -30,9 +30,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LOOKAT__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_5AC68DAE2EA01F8B(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::LookAt*& a2)
+		static ::System::Void Method_3_AF674D0B7E4D09C2(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::LookAt*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::LookAt*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LOOKAT_METHOD_3_5AC68DAE2EA01F8B_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::LookAt*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LOOKAT_METHOD_3_AF674D0B7E4D09C2_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_73BAD9060BC701D1(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::LookAt* a2)

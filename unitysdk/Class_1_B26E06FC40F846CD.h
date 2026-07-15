@@ -1,0 +1,97 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+
+class Class_1_84DA91D3CFCB2E68;
+class Class_1_A8AC1AB191A5FBF8;
+class Class_1_B9D6E7E76075C6E2_2;
+class Class_1_F4140148FE9021F9;
+class Class_1_FF80A1ACD786CECB_8;
+
+#define CLASS_1_B26E06FC40F846CD_GET_BATTLEDECKID_OFFSET UNITYSDK_OFFSET(0x14B9B600)
+#define CLASS_1_B26E06FC40F846CD_GET_CARDGAMESTATE_OFFSET UNITYSDK_OFFSET(0x14B9B630)
+#define CLASS_1_B26E06FC40F846CD_GET_DAMAGESTATISTICSSTATE_OFFSET UNITYSDK_OFFSET(0x14B9B650)
+#define CLASS_1_B26E06FC40F846CD_GET_ENEMYSTATE_OFFSET UNITYSDK_OFFSET(0x14B9B640)
+#define CLASS_1_B26E06FC40F846CD_GET_FRIENDSTATE_OFFSET UNITYSDK_OFFSET(0x14B9B620)
+#define CLASS_1_B26E06FC40F846CD_GET_ISPLAYERACTION_OFFSET UNITYSDK_OFFSET(0x14B9B5C0)
+#define CLASS_1_B26E06FC40F846CD_GET_WAITINGULTRAORDERAVATARID_OFFSET UNITYSDK_OFFSET(0x14B9B5E0)
+#define CLASS_1_B26E06FC40F846CD_GET_WAVEINFOSTATE_OFFSET UNITYSDK_OFFSET(0x14B9B660)
+#define CLASS_1_B26E06FC40F846CD_SET_BATTLEDECKID_OFFSET UNITYSDK_OFFSET(0x14B9B610)
+#define CLASS_1_B26E06FC40F846CD_SET_ISPLAYERACTION_OFFSET UNITYSDK_OFFSET(0x14B9B5D0)
+#define CLASS_1_B26E06FC40F846CD_SET_WAITINGULTRAORDERAVATARID_OFFSET UNITYSDK_OFFSET(0x14B9B5F0)
+#define CLASS_1_B26E06FC40F846CD__CTOR_OFFSET UNITYSDK_OFFSET(0x14B9B670)
+
+inline static constexpr unsigned int Class_1_B26E06FC40F846CD_TypeDefinitionIndex = 75864;
+
+class Class_1_B26E06FC40F846CD : public ::System::Object
+{
+public:
+	::Class_1_B9D6E7E76075C6E2_2* _EnemyState_k__BackingField; // 0x10
+	::Class_1_FF80A1ACD786CECB_8* _WaveInfoState_k__BackingField; // 0x18
+	::Class_1_84DA91D3CFCB2E68* _FriendState_k__BackingField; // 0x20
+	::Class_1_F4140148FE9021F9* _CardGameState_k__BackingField; // 0x28
+	::Class_1_A8AC1AB191A5FBF8* _DamageStatisticsState_k__BackingField; // 0x30
+	::System::Boolean _IsPlayerAction_k__BackingField; // 0x38
+	::System::UInt32 _BattleDeckID_k__BackingField; // 0x3C
+	::System::UInt32 _WaitingUltraOrderAvatarID_k__BackingField; // 0x40
+
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_B26E06FC40F846CD__CTOR_OFFSET))(this);
+	}
+
+	::System::Boolean get_IsPlayerAction()
+	{
+		return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_B26E06FC40F846CD_GET_ISPLAYERACTION_OFFSET))(this);
+	}
+
+	::System::Void set_IsPlayerAction(::System::Boolean a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + CLASS_1_B26E06FC40F846CD_SET_ISPLAYERACTION_OFFSET))(this, a1);
+	}
+
+	::System::UInt32 get_WaitingUltraOrderAvatarID()
+	{
+		return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_B26E06FC40F846CD_GET_WAITINGULTRAORDERAVATARID_OFFSET))(this);
+	}
+
+	::System::Void set_WaitingUltraOrderAvatarID(::System::UInt32 a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + CLASS_1_B26E06FC40F846CD_SET_WAITINGULTRAORDERAVATARID_OFFSET))(this, a1);
+	}
+
+	::System::UInt32 get_BattleDeckID()
+	{
+		return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_B26E06FC40F846CD_GET_BATTLEDECKID_OFFSET))(this);
+	}
+
+	::System::Void set_BattleDeckID(::System::UInt32 a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + CLASS_1_B26E06FC40F846CD_SET_BATTLEDECKID_OFFSET))(this, a1);
+	}
+
+	::Class_1_84DA91D3CFCB2E68* get_FriendState()
+	{
+		return ((::Class_1_84DA91D3CFCB2E68*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_B26E06FC40F846CD_GET_FRIENDSTATE_OFFSET))(this);
+	}
+
+	::Class_1_F4140148FE9021F9* get_CardGameState()
+	{
+		return ((::Class_1_F4140148FE9021F9*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_B26E06FC40F846CD_GET_CARDGAMESTATE_OFFSET))(this);
+	}
+
+	::Class_1_B9D6E7E76075C6E2_2* get_EnemyState()
+	{
+		return ((::Class_1_B9D6E7E76075C6E2_2*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_B26E06FC40F846CD_GET_ENEMYSTATE_OFFSET))(this);
+	}
+
+	::Class_1_A8AC1AB191A5FBF8* get_DamageStatisticsState()
+	{
+		return ((::Class_1_A8AC1AB191A5FBF8*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_B26E06FC40F846CD_GET_DAMAGESTATISTICSSTATE_OFFSET))(this);
+	}
+
+	::Class_1_FF80A1ACD786CECB_8* get_WaveInfoState()
+	{
+		return ((::Class_1_FF80A1ACD786CECB_8*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_B26E06FC40F846CD_GET_WAVEINFOSTATE_OFFSET))(this);
+	}
+};

@@ -5,20 +5,20 @@
 namespace System::Collections::Generic { template <typename T> class HashSet_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_1_538E7BA66E5AEE88_METHOD_1_33ACA6CB2ABC73F7_OFFSET UNITYSDK_OFFSET(0x18ABA170)
-#define CLASS_1_538E7BA66E5AEE88_METHOD_1_C68E4EE621305660_OFFSET UNITYSDK_OFFSET(0x18ABA230)
-#define CLASS_1_538E7BA66E5AEE88_METHOD_1_F0088C88851A7DFB_OFFSET UNITYSDK_OFFSET(0x18ABA280)
-#define CLASS_1_538E7BA66E5AEE88__CTOR_OFFSET UNITYSDK_OFFSET(0x18ABA290)
+#define CLASS_1_538E7BA66E5AEE88_METHOD_1_33ACA6CB2ABC73F7_OFFSET UNITYSDK_OFFSET(0x19101F10)
+#define CLASS_1_538E7BA66E5AEE88_METHOD_1_C68E4EE621305660_OFFSET UNITYSDK_OFFSET(0x19101FD0)
+#define CLASS_1_538E7BA66E5AEE88_METHOD_1_F0088C88851A7DFB_OFFSET UNITYSDK_OFFSET(0x19102020)
+#define CLASS_1_538E7BA66E5AEE88__CTOR_OFFSET UNITYSDK_OFFSET(0x19102030)
 
-inline static constexpr unsigned int Class_1_538E7BA66E5AEE88_TypeDefinitionIndex = 34991;
+inline static constexpr unsigned int Class_1_538E7BA66E5AEE88_TypeDefinitionIndex = 35773;
 
 class Class_1_538E7BA66E5AEE88 : public ::System::Object
 {
 public:
-	::System::Collections::Generic::List_1<::System::UInt32>* Field_1_0; // 0x10
-	::System::Collections::Generic::HashSet_1<::System::Int32>* Field_1_1; // 0x18
-	::System::UInt64 Field_1_2; // 0x20
-	::System::Boolean Field_1_3; // 0x28
+	::System::Collections::Generic::HashSet_1<::System::Int32>* Field_1_0; // 0x10
+	::System::Collections::Generic::List_1<::System::UInt32>* Field_1_1; // 0x18
+	::System::Boolean Field_1_2; // 0x20
+	::System::UInt64 Field_1_3; // 0x28
 
 	::System::Void _ctor()
 	{

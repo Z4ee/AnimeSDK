@@ -29,7 +29,7 @@ namespace System::Runtime::Serialization { class SerializationInfo; }
 
 namespace Collections::Pooled
 {
-	inline static constexpr unsigned int PooledDictionary_2_TypeDefinitionIndex = 5077;
+	inline static constexpr unsigned int PooledDictionary_2_TypeDefinitionIndex = 5082;
 
 	template <typename TKey, typename TValue>
 	class PooledDictionary_2 : public ::System::Object

@@ -5,13 +5,13 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class TargetEvaluator; }
 
-#define RPG_GAMECORE_ADVLOCKSPECIALTARGET_METHOD_3_79D16FEDC72F93DE_OFFSET UNITYSDK_OFFSET(0x194284F0)
-#define RPG_GAMECORE_ADVLOCKSPECIALTARGET_METHOD_3_D1B584D213C66927_OFFSET UNITYSDK_OFFSET(0x19428570)
-#define RPG_GAMECORE_ADVLOCKSPECIALTARGET__CTOR_OFFSET UNITYSDK_OFFSET(0x19428540)
+#define RPG_GAMECORE_ADVLOCKSPECIALTARGET_METHOD_3_8073521FCECD9346_OFFSET UNITYSDK_OFFSET(0x1BE20310)
+#define RPG_GAMECORE_ADVLOCKSPECIALTARGET_METHOD_3_D1B584D213C66927_OFFSET UNITYSDK_OFFSET(0x1BE20350)
+#define RPG_GAMECORE_ADVLOCKSPECIALTARGET__CTOR_OFFSET UNITYSDK_OFFSET(0x1BE20340)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AdvLockSpecialTarget_TypeDefinitionIndex = 19313;
+	inline static constexpr unsigned int AdvLockSpecialTarget_TypeDefinitionIndex = 19669;
 
 	class AdvLockSpecialTarget : public ::RPG::GameCore::TaskConfig
 	{
@@ -24,9 +24,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVLOCKSPECIALTARGET__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_79D16FEDC72F93DE(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AdvLockSpecialTarget*& a2)
+		static ::System::Void Method_3_8073521FCECD9346(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AdvLockSpecialTarget*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::AdvLockSpecialTarget*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVLOCKSPECIALTARGET_METHOD_3_79D16FEDC72F93DE_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::AdvLockSpecialTarget*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVLOCKSPECIALTARGET_METHOD_3_8073521FCECD9346_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_D1B584D213C66927(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AdvLockSpecialTarget* a2)

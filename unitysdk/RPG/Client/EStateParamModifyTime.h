@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int EStateParamModifyTime_TypeDefinitionIndex = 64390;
+	inline static constexpr unsigned int EStateParamModifyTime_TypeDefinitionIndex = 65761;
 
 	enum class EStateParamModifyTime : ::System::Int32
 	{

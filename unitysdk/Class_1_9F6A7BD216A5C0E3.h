@@ -5,10 +5,10 @@
 namespace RPG::Client { class CameraNamedDynamicOffset; }
 namespace RPG::GameCore { class GameEntity; }
 
-#define CLASS_1_9F6A7BD216A5C0E3_METHOD_1_707355BB5CCD728C_OFFSET UNITYSDK_OFFSET(0x1350B3F0)
-#define CLASS_1_9F6A7BD216A5C0E3__CTOR_OFFSET UNITYSDK_OFFSET(0x1350B520)
+#define CLASS_1_9F6A7BD216A5C0E3_METHOD_1_707355BB5CCD728C_OFFSET UNITYSDK_OFFSET(0x1685EE80)
+#define CLASS_1_9F6A7BD216A5C0E3__CTOR_OFFSET UNITYSDK_OFFSET(0x1685EFB0)
 
-inline static constexpr unsigned int Class_1_9F6A7BD216A5C0E3_TypeDefinitionIndex = 65036;
+inline static constexpr unsigned int Class_1_9F6A7BD216A5C0E3_TypeDefinitionIndex = 66441;
 
 class Class_1_9F6A7BD216A5C0E3 : public ::System::Object
 {

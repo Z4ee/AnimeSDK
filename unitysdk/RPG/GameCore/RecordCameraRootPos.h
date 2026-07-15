@@ -5,13 +5,13 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class TargetEvaluator; }
 
-#define RPG_GAMECORE_RECORDCAMERAROOTPOS_METHOD_3_C4F3E38AAE3DB4BB_OFFSET UNITYSDK_OFFSET(0x19AB6B80)
-#define RPG_GAMECORE_RECORDCAMERAROOTPOS_METHOD_3_E33BA7769D33A712_OFFSET UNITYSDK_OFFSET(0x19AB6C00)
-#define RPG_GAMECORE_RECORDCAMERAROOTPOS__CTOR_OFFSET UNITYSDK_OFFSET(0x19AB6BD0)
+#define RPG_GAMECORE_RECORDCAMERAROOTPOS_METHOD_3_9275F51B636F6289_OFFSET UNITYSDK_OFFSET(0x1B9BE380)
+#define RPG_GAMECORE_RECORDCAMERAROOTPOS_METHOD_3_E33BA7769D33A712_OFFSET UNITYSDK_OFFSET(0x1B9BE3C0)
+#define RPG_GAMECORE_RECORDCAMERAROOTPOS__CTOR_OFFSET UNITYSDK_OFFSET(0x1B9BE3B0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RecordCameraRootPos_TypeDefinitionIndex = 22426;
+	inline static constexpr unsigned int RecordCameraRootPos_TypeDefinitionIndex = 22875;
 
 	class RecordCameraRootPos : public ::RPG::GameCore::TaskConfig
 	{
@@ -23,9 +23,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_RECORDCAMERAROOTPOS__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_C4F3E38AAE3DB4BB(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::RecordCameraRootPos*& a2)
+		static ::System::Void Method_3_9275F51B636F6289(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::RecordCameraRootPos*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::RecordCameraRootPos*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_RECORDCAMERAROOTPOS_METHOD_3_C4F3E38AAE3DB4BB_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::RecordCameraRootPos*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_RECORDCAMERAROOTPOS_METHOD_3_9275F51B636F6289_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_E33BA7769D33A712(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::RecordCameraRootPos* a2)

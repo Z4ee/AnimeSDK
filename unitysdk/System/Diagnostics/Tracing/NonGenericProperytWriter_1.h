@@ -10,7 +10,7 @@ namespace System::Reflection { class MethodInfo; }
 
 namespace System::Diagnostics::Tracing
 {
-	inline static constexpr unsigned int NonGenericProperytWriter_1_TypeDefinitionIndex = 1598;
+	inline static constexpr unsigned int NonGenericProperytWriter_1_TypeDefinitionIndex = 1602;
 
 	template <typename ContainerType>
 	class NonGenericProperytWriter_1 : public ::System::Diagnostics::Tracing::PropertyAccessor_1<ContainerType>

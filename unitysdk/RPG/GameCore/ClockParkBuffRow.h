@@ -6,24 +6,24 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_CLOCKPARKBUFFROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x19655BB0)
-#define RPG_GAMECORE_CLOCKPARKBUFFROW__CTOR_OFFSET UNITYSDK_OFFSET(0x19656430)
+#define RPG_GAMECORE_CLOCKPARKBUFFROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1C2564D0)
+#define RPG_GAMECORE_CLOCKPARKBUFFROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1C256D50)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ClockParkBuffRow_TypeDefinitionIndex = 10743;
+	inline static constexpr unsigned int ClockParkBuffRow_TypeDefinitionIndex = 10793;
 
 	class ClockParkBuffRow : public ::System::Object
 	{
 	public:
-		::RPG::GameCore::ClockParkBuffType BuffType; // 0x10
-		::System::Int32 Param3; // 0x14
-		::System::Int32 Param1; // 0x18
-		::System::UInt32 BuffID; // 0x1C
-		::System::UInt32 Times; // 0x20
-		::System::Int32 Param2; // 0x24
-		::RPG::Client::TextID BuffTitle; // 0x28
-		::RPG::Client::TextID BuffDesc; // 0x38
+		::System::Int32 Param3; // 0x10
+		::System::UInt32 Times; // 0x14
+		::RPG::Client::TextID BuffTitle; // 0x18
+		::RPG::Client::TextID BuffDesc; // 0x28
+		::System::UInt32 BuffID; // 0x38
+		::System::Int32 Param1; // 0x3C
+		::RPG::GameCore::ClockParkBuffType BuffType; // 0x40
+		::System::Int32 Param2; // 0x44
 
 		::System::Void _ctor()
 		{

@@ -4,7 +4,7 @@
 
 namespace ZLinq::Linq
 {
-	inline static constexpr unsigned int Concat_3_TypeDefinitionIndex = 6358;
+	inline static constexpr unsigned int Concat_3_TypeDefinitionIndex = 6363;
 
 	template <typename TEnumerator1, typename TEnumerator2, typename TSource>
 	struct Concat_3

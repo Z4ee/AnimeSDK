@@ -6,13 +6,13 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class DynamicFloat; }
 
-#define RPG_GAMECORE_LOCKHP_METHOD_3_40BC8C1901D751FE_OFFSET UNITYSDK_OFFSET(0x198AC170)
-#define RPG_GAMECORE_LOCKHP_METHOD_3_7EE24B2C8B1500BD_OFFSET UNITYSDK_OFFSET(0x198AC200)
-#define RPG_GAMECORE_LOCKHP__CTOR_OFFSET UNITYSDK_OFFSET(0x198AC1D0)
+#define RPG_GAMECORE_LOCKHP_METHOD_3_7EE24B2C8B1500BD_OFFSET UNITYSDK_OFFSET(0x1BCCF3D0)
+#define RPG_GAMECORE_LOCKHP_METHOD_3_F5272F2524830388_OFFSET UNITYSDK_OFFSET(0x1BCCF380)
+#define RPG_GAMECORE_LOCKHP__CTOR_OFFSET UNITYSDK_OFFSET(0x1BCCF3C0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LockHP_TypeDefinitionIndex = 22327;
+	inline static constexpr unsigned int LockHP_TypeDefinitionIndex = 22769;
 
 	class LockHP : public ::RPG::GameCore::TaskConfig
 	{
@@ -25,9 +25,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LOCKHP__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_40BC8C1901D751FE(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::LockHP*& a2)
+		static ::System::Void Method_3_F5272F2524830388(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::LockHP*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::LockHP*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LOCKHP_METHOD_3_40BC8C1901D751FE_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::LockHP*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LOCKHP_METHOD_3_F5272F2524830388_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_7EE24B2C8B1500BD(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::LockHP* a2)

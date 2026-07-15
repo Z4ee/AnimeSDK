@@ -1,6 +1,6 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Struct_2_9BF8902D61AE1796.h"
+#include "unitysdk/Struct_2_F8D9CEC872B937AF.h"
 #include "unitysdk/System/Object.h"
 #include "unitysdk/System/ValueTuple_3.h"
 
@@ -11,7 +11,7 @@ namespace System { template <typename T1, typename T2> class Action_2; }
 
 namespace RPG::Client::LittleGame
 {
-	inline static constexpr unsigned int SimpleCameraService_1___c_TypeDefinitionIndex = 71094;
+	inline static constexpr unsigned int SimpleCameraService_1___c_TypeDefinitionIndex = 72607;
 
 	template <typename TEntity>
 	class SimpleCameraService_1___c : public ::System::Object
@@ -21,9 +21,9 @@ namespace RPG::Client::LittleGame
 		{
 			return (::RPG::Client::LittleGame::SimpleCameraService_1___c<TEntity>**)Il2CppClass::FromTypeDefinitionIndex(SimpleCameraService_1___c_TypeDefinitionIndex)->GetStaticField(0x0);
 		}
-		static ::System::Action_2<::RPG::Client::LittleGame::SimpleCameraService_1<TEntity>*, ::System::ValueTuple_3<TEntity, ::System::String*, ::Struct_2_9BF8902D61AE1796>>** StaticGet___9__3_0()
+		static ::System::Action_2<::RPG::Client::LittleGame::SimpleCameraService_1<TEntity>*, ::System::ValueTuple_3<TEntity, ::System::String*, ::Struct_2_F8D9CEC872B937AF>>** StaticGet___9__3_0()
 		{
-			return (::System::Action_2<::RPG::Client::LittleGame::SimpleCameraService_1<TEntity>*, ::System::ValueTuple_3<TEntity, ::System::String*, ::Struct_2_9BF8902D61AE1796>>**)Il2CppClass::FromTypeDefinitionIndex(SimpleCameraService_1___c_TypeDefinitionIndex)->GetStaticField(0x0);
+			return (::System::Action_2<::RPG::Client::LittleGame::SimpleCameraService_1<TEntity>*, ::System::ValueTuple_3<TEntity, ::System::String*, ::Struct_2_F8D9CEC872B937AF>>**)Il2CppClass::FromTypeDefinitionIndex(SimpleCameraService_1___c_TypeDefinitionIndex)->GetStaticField(0x0);
 		}
 	};
 }

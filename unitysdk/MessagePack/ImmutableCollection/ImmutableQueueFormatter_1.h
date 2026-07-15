@@ -8,7 +8,7 @@ namespace System::Collections::Immutable { template <typename T> class Immutable
 
 namespace MessagePack::ImmutableCollection
 {
-	inline static constexpr unsigned int ImmutableQueueFormatter_1_TypeDefinitionIndex = 7314;
+	inline static constexpr unsigned int ImmutableQueueFormatter_1_TypeDefinitionIndex = 7320;
 
 	template <typename T>
 	class ImmutableQueueFormatter_1 : public ::MessagePack::Formatters::CollectionFormatterBase_3<T, ::MessagePack::ImmutableCollection::ImmutableQueueBuilder_1<T>*, ::System::Collections::Immutable::ImmutableQueue_1<T>*>

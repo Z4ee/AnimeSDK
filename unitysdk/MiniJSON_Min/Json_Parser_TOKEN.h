@@ -3,7 +3,7 @@
 
 namespace MiniJSON_Min
 {
-	inline static constexpr unsigned int Json_Parser_TOKEN_TypeDefinitionIndex = 38379;
+	inline static constexpr unsigned int Json_Parser_TOKEN_TypeDefinitionIndex = 39187;
 
 	enum class Json_Parser_TOKEN : ::System::Int32
 	{

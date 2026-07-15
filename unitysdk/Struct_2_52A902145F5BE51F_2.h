@@ -4,7 +4,7 @@
 #include "unitysdk/Struct_2_EAC1BB0F093534A5.h"
 #include "unitysdk/System/ValueType.h"
 
-inline static constexpr unsigned int Struct_2_52A902145F5BE51F_2_TypeDefinitionIndex = 40020;
+inline static constexpr unsigned int Struct_2_52A902145F5BE51F_2_TypeDefinitionIndex = 40833;
 
 struct alignas(4) Struct_2_52A902145F5BE51F_2
 {

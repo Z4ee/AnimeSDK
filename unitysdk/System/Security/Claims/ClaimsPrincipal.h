@@ -11,16 +11,16 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace System::Runtime::Serialization { class SerializationInfo; }
 namespace System::Security::Claims { class ClaimsIdentity; }
 
-#define SYSTEM_SECURITY_CLAIMS_CLAIMSPRINCIPAL_DESERIALIZEIDENTITIES_OFFSET UNITYSDK_OFFSET(0x187E3970)
-#define SYSTEM_SECURITY_CLAIMS_CLAIMSPRINCIPAL_DESERIALIZE_OFFSET UNITYSDK_OFFSET(0x187E2C20)
-#define SYSTEM_SECURITY_CLAIMS_CLAIMSPRINCIPAL_GET_CLAIMSPRINCIPALSELECTOR_OFFSET UNITYSDK_OFFSET(0x187E2AC0)
-#define SYSTEM_SECURITY_CLAIMS_CLAIMSPRINCIPAL_ONDESERIALIZEDMETHOD_OFFSET UNITYSDK_OFFSET(0x187E3930)
-#define SYSTEM_SECURITY_CLAIMS_CLAIMSPRINCIPAL_ONSERIALIZINGMETHOD_OFFSET UNITYSDK_OFFSET(0x187E2DE0)
-#define SYSTEM_SECURITY_CLAIMS_CLAIMSPRINCIPAL_SELECTPRIMARYIDENTITY_OFFSET UNITYSDK_OFFSET(0x187E2750)
-#define SYSTEM_SECURITY_CLAIMS_CLAIMSPRINCIPAL_SERIALIZEIDENTITIES_OFFSET UNITYSDK_OFFSET(0x187E2E20)
-#define SYSTEM_SECURITY_CLAIMS_CLAIMSPRINCIPAL__CCTOR_OFFSET UNITYSDK_OFFSET(0x187E3FE0)
-#define SYSTEM_SECURITY_CLAIMS_CLAIMSPRINCIPAL__CTOR_1_OFFSET UNITYSDK_OFFSET(0x187E2B80)
-#define SYSTEM_SECURITY_CLAIMS_CLAIMSPRINCIPAL__CTOR_OFFSET UNITYSDK_OFFSET(0x187E2B20)
+#define SYSTEM_SECURITY_CLAIMS_CLAIMSPRINCIPAL_DESERIALIZEIDENTITIES_OFFSET UNITYSDK_OFFSET(0x18358E20)
+#define SYSTEM_SECURITY_CLAIMS_CLAIMSPRINCIPAL_DESERIALIZE_OFFSET UNITYSDK_OFFSET(0x18357E30)
+#define SYSTEM_SECURITY_CLAIMS_CLAIMSPRINCIPAL_GET_CLAIMSPRINCIPALSELECTOR_OFFSET UNITYSDK_OFFSET(0x18357CD0)
+#define SYSTEM_SECURITY_CLAIMS_CLAIMSPRINCIPAL_ONDESERIALIZEDMETHOD_OFFSET UNITYSDK_OFFSET(0x18358DE0)
+#define SYSTEM_SECURITY_CLAIMS_CLAIMSPRINCIPAL_ONSERIALIZINGMETHOD_OFFSET UNITYSDK_OFFSET(0x18357FF0)
+#define SYSTEM_SECURITY_CLAIMS_CLAIMSPRINCIPAL_SELECTPRIMARYIDENTITY_OFFSET UNITYSDK_OFFSET(0x183577D0)
+#define SYSTEM_SECURITY_CLAIMS_CLAIMSPRINCIPAL_SERIALIZEIDENTITIES_OFFSET UNITYSDK_OFFSET(0x18358030)
+#define SYSTEM_SECURITY_CLAIMS_CLAIMSPRINCIPAL__CCTOR_OFFSET UNITYSDK_OFFSET(0x18359560)
+#define SYSTEM_SECURITY_CLAIMS_CLAIMSPRINCIPAL__CTOR_1_OFFSET UNITYSDK_OFFSET(0x18357D90)
+#define SYSTEM_SECURITY_CLAIMS_CLAIMSPRINCIPAL__CTOR_OFFSET UNITYSDK_OFFSET(0x18357D30)
 
 namespace System::Security::Claims
 {
@@ -29,16 +29,16 @@ namespace System::Security::Claims
 	class ClaimsPrincipal : public ::System::Object
 	{
 	public:
-		static ::System::Func_1<::System::Security::Claims::ClaimsPrincipal*>** StaticGet_s_principalSelector()
-		{
-			return (::System::Func_1<::System::Security::Claims::ClaimsPrincipal*>**)Il2CppClass::FromTypeDefinitionIndex(ClaimsPrincipal_TypeDefinitionIndex)->GetStaticField(0xDF60);
-		}
 		static ::System::Func_2<::System::Collections::Generic::IEnumerable_1<::System::Security::Claims::ClaimsIdentity*>*, ::System::Security::Claims::ClaimsIdentity*>** StaticGet_s_identitySelector()
 		{
-			return (::System::Func_2<::System::Collections::Generic::IEnumerable_1<::System::Security::Claims::ClaimsIdentity*>*, ::System::Security::Claims::ClaimsIdentity*>**)Il2CppClass::FromTypeDefinitionIndex(ClaimsPrincipal_TypeDefinitionIndex)->GetStaticField(0xDF68);
+			return (::System::Func_2<::System::Collections::Generic::IEnumerable_1<::System::Security::Claims::ClaimsIdentity*>*, ::System::Security::Claims::ClaimsIdentity*>**)Il2CppClass::FromTypeDefinitionIndex(ClaimsPrincipal_TypeDefinitionIndex)->GetStaticField(0x1AE00);
 		}
-		::System::Collections::Generic::List_1<::System::Security::Claims::ClaimsIdentity*>* m_identities; // 0x10
-		::System::String* m_version; // 0x18
+		static ::System::Func_1<::System::Security::Claims::ClaimsPrincipal*>** StaticGet_s_principalSelector()
+		{
+			return (::System::Func_1<::System::Security::Claims::ClaimsPrincipal*>**)Il2CppClass::FromTypeDefinitionIndex(ClaimsPrincipal_TypeDefinitionIndex)->GetStaticField(0x1AE08);
+		}
+		::System::String* m_version; // 0x10
+		::System::Collections::Generic::List_1<::System::Security::Claims::ClaimsIdentity*>* m_identities; // 0x18
 		::System::String* m_serializedClaimsIdentities; // 0x20
 		::Il2CppArray<::System::Byte>* m_userSerializationData; // 0x28
 

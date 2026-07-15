@@ -9,13 +9,13 @@ namespace UnityEngine::UI { class Image; }
 namespace UnityEngine::UI { class RawImage; }
 namespace UnityEngine::UI { class SmoothMask; }
 
-#define RPG_CLIENT_SPRITEPRESETCONTROLLER_APPLY_OFFSET UNITYSDK_OFFSET(0xC8FBE10)
-#define RPG_CLIENT_SPRITEPRESETCONTROLLER_TRYAPPLY_OFFSET UNITYSDK_OFFSET(0xC8FBFA0)
-#define RPG_CLIENT_SPRITEPRESETCONTROLLER__CTOR_OFFSET UNITYSDK_OFFSET(0xC8FC130)
+#define RPG_CLIENT_SPRITEPRESETCONTROLLER_APPLY_OFFSET UNITYSDK_OFFSET(0x1891A4E0)
+#define RPG_CLIENT_SPRITEPRESETCONTROLLER_TRYAPPLY_OFFSET UNITYSDK_OFFSET(0x1891A640)
+#define RPG_CLIENT_SPRITEPRESETCONTROLLER__CTOR_OFFSET UNITYSDK_OFFSET(0x1891A7A0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int SpritePresetController_TypeDefinitionIndex = 64552;
+	inline static constexpr unsigned int SpritePresetController_TypeDefinitionIndex = 65952;
 
 	class SpritePresetController : public ::UnityEngine::MonoBehaviour
 	{

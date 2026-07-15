@@ -6,19 +6,19 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_ITEMCONSUMETYPEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1985C700)
-#define RPG_GAMECORE_ITEMCONSUMETYPEROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1985CD90)
+#define RPG_GAMECORE_ITEMCONSUMETYPEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B01CA20)
+#define RPG_GAMECORE_ITEMCONSUMETYPEROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1B01D0B0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ItemConsumeTypeRow_TypeDefinitionIndex = 13200;
+	inline static constexpr unsigned int ItemConsumeTypeRow_TypeDefinitionIndex = 13348;
 
 	class ItemConsumeTypeRow : public ::System::Object
 	{
 	public:
 		::System::String* TypeIconPath; // 0x10
-		::RPG::Client::TextID FilterName; // 0x18
-		::System::UInt32 TypeID; // 0x28
+		::System::UInt32 TypeID; // 0x18
+		::RPG::Client::TextID FilterName; // 0x20
 
 		::System::Void _ctor()
 		{

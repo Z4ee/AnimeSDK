@@ -7,13 +7,13 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class DynamicFloat; }
 namespace RPG::GameCore { class TargetEvaluator; }
 
-#define RPG_GAMECORE_ADVENTUREMODIFYTEAMPLAYERSP_METHOD_3_01D56E4FDA8882A6_OFFSET UNITYSDK_OFFSET(0x19450B80)
-#define RPG_GAMECORE_ADVENTUREMODIFYTEAMPLAYERSP_METHOD_3_4B7084AA398A4D00_OFFSET UNITYSDK_OFFSET(0x19450C10)
-#define RPG_GAMECORE_ADVENTUREMODIFYTEAMPLAYERSP__CTOR_OFFSET UNITYSDK_OFFSET(0x19450BE0)
+#define RPG_GAMECORE_ADVENTUREMODIFYTEAMPLAYERSP_METHOD_3_038C525A76172A11_OFFSET UNITYSDK_OFFSET(0x1AE5F640)
+#define RPG_GAMECORE_ADVENTUREMODIFYTEAMPLAYERSP_METHOD_3_4B7084AA398A4D00_OFFSET UNITYSDK_OFFSET(0x1AE5F690)
+#define RPG_GAMECORE_ADVENTUREMODIFYTEAMPLAYERSP__CTOR_OFFSET UNITYSDK_OFFSET(0x1AE5F680)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AdventureModifyTeamPlayerSP_TypeDefinitionIndex = 19048;
+	inline static constexpr unsigned int AdventureModifyTeamPlayerSP_TypeDefinitionIndex = 19401;
 
 	class AdventureModifyTeamPlayerSP : public ::RPG::GameCore::TaskConfig
 	{
@@ -29,9 +29,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVENTUREMODIFYTEAMPLAYERSP__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_01D56E4FDA8882A6(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AdventureModifyTeamPlayerSP*& a2)
+		static ::System::Void Method_3_038C525A76172A11(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AdventureModifyTeamPlayerSP*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::AdventureModifyTeamPlayerSP*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVENTUREMODIFYTEAMPLAYERSP_METHOD_3_01D56E4FDA8882A6_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::AdventureModifyTeamPlayerSP*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVENTUREMODIFYTEAMPLAYERSP_METHOD_3_038C525A76172A11_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_4B7084AA398A4D00(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AdventureModifyTeamPlayerSP* a2)

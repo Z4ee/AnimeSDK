@@ -6,13 +6,12 @@
 
 namespace UnityEngine { class GameObject; }
 
-#define RPGTOOLS_TIMELINE_PLAYBACKTIMELINETRACK_CREATETRACKMIXER_OFFSET UNITYSDK_OFFSET(0xD039A40)
-#define RPGTOOLS_TIMELINE_PLAYBACKTIMELINETRACK__CTOR_OFFSET UNITYSDK_OFFSET(0xD03A170)
-#define RPGTOOLS_TIMELINE_PLAYBACKTIMELINETRACK___IFIXBASEPROXY_CREATETRACKMIXER_OFFSET UNITYSDK_OFFSET(0xD03A250)
+#define RPGTOOLS_TIMELINE_PLAYBACKTIMELINETRACK_CREATETRACKMIXER_OFFSET UNITYSDK_OFFSET(0x19995A20)
+#define RPGTOOLS_TIMELINE_PLAYBACKTIMELINETRACK__CTOR_OFFSET UNITYSDK_OFFSET(0x199962F0)
 
 namespace RPGTools::Timeline
 {
-	inline static constexpr unsigned int PlaybackTimelineTrack_TypeDefinitionIndex = 45730;
+	inline static constexpr unsigned int PlaybackTimelineTrack_TypeDefinitionIndex = 46669;
 
 	class PlaybackTimelineTrack : public ::UnityEngine::Timeline::TrackAsset
 	{
@@ -25,11 +24,6 @@ namespace RPGTools::Timeline
 		::UnityEngine::Playables::Playable CreateTrackMixer(::UnityEngine::Playables::PlayableGraph a1, ::UnityEngine::GameObject* a2, ::System::Int32 a3)
 		{
 			return ((::UnityEngine::Playables::Playable(*)(::PVOID, ::UnityEngine::Playables::PlayableGraph, ::UnityEngine::GameObject*, ::System::Int32))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_PLAYBACKTIMELINETRACK_CREATETRACKMIXER_OFFSET))(this, a1, a2, a3);
-		}
-
-		::UnityEngine::Playables::Playable __iFixBaseProxy_CreateTrackMixer(::UnityEngine::Playables::PlayableGraph a1, ::UnityEngine::GameObject* a2, ::System::Int32 a3)
-		{
-			return ((::UnityEngine::Playables::Playable(*)(::PVOID, ::UnityEngine::Playables::PlayableGraph, ::UnityEngine::GameObject*, ::System::Int32))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_PLAYBACKTIMELINETRACK___IFIXBASEPROXY_CREATETRACKMIXER_OFFSET))(this, a1, a2, a3);
 		}
 	};
 }

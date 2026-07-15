@@ -7,7 +7,7 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PriorityQueue_1_TypeDefinitionIndex = 55188;
+	inline static constexpr unsigned int PriorityQueue_1_TypeDefinitionIndex = 56421;
 
 	template <typename T>
 	class PriorityQueue_1 : public ::System::Object

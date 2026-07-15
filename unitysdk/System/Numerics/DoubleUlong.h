@@ -4,7 +4,7 @@
 
 namespace System::Numerics
 {
-	inline static constexpr unsigned int DoubleUlong_TypeDefinitionIndex = 3830;
+	inline static constexpr unsigned int DoubleUlong_TypeDefinitionIndex = 3834;
 
 	struct alignas(8) DoubleUlong
 	{

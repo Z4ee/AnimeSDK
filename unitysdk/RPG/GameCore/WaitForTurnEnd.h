@@ -4,13 +4,13 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_WAITFORTURNEND_METHOD_3_228E1220FB636187_OFFSET UNITYSDK_OFFSET(0x19E56C40)
-#define RPG_GAMECORE_WAITFORTURNEND_METHOD_3_30BA599FC4C8ECB6_OFFSET UNITYSDK_OFFSET(0x19E56CC0)
-#define RPG_GAMECORE_WAITFORTURNEND__CTOR_OFFSET UNITYSDK_OFFSET(0x19E56C90)
+#define RPG_GAMECORE_WAITFORTURNEND_METHOD_3_30BA599FC4C8ECB6_OFFSET UNITYSDK_OFFSET(0x1B8A5540)
+#define RPG_GAMECORE_WAITFORTURNEND_METHOD_3_FA0822FCF0DA89B5_OFFSET UNITYSDK_OFFSET(0x1B8A5500)
+#define RPG_GAMECORE_WAITFORTURNEND__CTOR_OFFSET UNITYSDK_OFFSET(0x1B8A5530)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int WaitForTurnEnd_TypeDefinitionIndex = 22151;
+	inline static constexpr unsigned int WaitForTurnEnd_TypeDefinitionIndex = 22588;
 
 	class WaitForTurnEnd : public ::RPG::GameCore::TaskConfig
 	{
@@ -22,9 +22,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_WAITFORTURNEND__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_228E1220FB636187(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::WaitForTurnEnd*& a2)
+		static ::System::Void Method_3_FA0822FCF0DA89B5(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::WaitForTurnEnd*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::WaitForTurnEnd*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_WAITFORTURNEND_METHOD_3_228E1220FB636187_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::WaitForTurnEnd*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_WAITFORTURNEND_METHOD_3_FA0822FCF0DA89B5_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_30BA599FC4C8ECB6(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::WaitForTurnEnd* a2)

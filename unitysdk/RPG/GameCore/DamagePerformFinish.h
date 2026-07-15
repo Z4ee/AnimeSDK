@@ -4,13 +4,13 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_DAMAGEPERFORMFINISH_METHOD_3_58EEA8822C2ACC1C_OFFSET UNITYSDK_OFFSET(0x1968E500)
-#define RPG_GAMECORE_DAMAGEPERFORMFINISH_METHOD_3_D25523C21EAF3109_OFFSET UNITYSDK_OFFSET(0x1968E330)
-#define RPG_GAMECORE_DAMAGEPERFORMFINISH__CTOR_OFFSET UNITYSDK_OFFSET(0x1968E4D0)
+#define RPG_GAMECORE_DAMAGEPERFORMFINISH_METHOD_3_58EEA8822C2ACC1C_OFFSET UNITYSDK_OFFSET(0x1BC463C0)
+#define RPG_GAMECORE_DAMAGEPERFORMFINISH_METHOD_3_5B060E3E091B3A7D_OFFSET UNITYSDK_OFFSET(0x1BC46260)
+#define RPG_GAMECORE_DAMAGEPERFORMFINISH__CTOR_OFFSET UNITYSDK_OFFSET(0x1BC463B0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int DamagePerformFinish_TypeDefinitionIndex = 21389;
+	inline static constexpr unsigned int DamagePerformFinish_TypeDefinitionIndex = 21807;
 
 	class DamagePerformFinish : public ::RPG::GameCore::TaskConfig
 	{
@@ -23,9 +23,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_DAMAGEPERFORMFINISH__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_D25523C21EAF3109(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::DamagePerformFinish*& a2)
+		static ::System::Void Method_3_5B060E3E091B3A7D(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::DamagePerformFinish*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::DamagePerformFinish*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_DAMAGEPERFORMFINISH_METHOD_3_D25523C21EAF3109_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::DamagePerformFinish*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_DAMAGEPERFORMFINISH_METHOD_3_5B060E3E091B3A7D_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_58EEA8822C2ACC1C(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::DamagePerformFinish* a2)

@@ -8,12 +8,12 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class ChenLingBattleEffectTier; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_CHENLINGBATTLEEFFECTCONFIG_METHOD_2_F22C727D81B7294B_OFFSET UNITYSDK_OFFSET(0x1961BF00)
-#define RPG_GAMECORE_CHENLINGBATTLEEFFECTCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1961FBE0)
+#define RPG_GAMECORE_CHENLINGBATTLEEFFECTCONFIG_METHOD_2_F22C727D81B7294B_OFFSET UNITYSDK_OFFSET(0x1C376200)
+#define RPG_GAMECORE_CHENLINGBATTLEEFFECTCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1C379EE0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ChenLingBattleEffectConfig_TypeDefinitionIndex = 14933;
+	inline static constexpr unsigned int ChenLingBattleEffectConfig_TypeDefinitionIndex = 15097;
 
 	class ChenLingBattleEffectConfig : public ::RPG::GameCore::JsonConfig
 	{

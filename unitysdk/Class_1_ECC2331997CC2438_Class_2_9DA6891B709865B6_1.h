@@ -1,14 +1,14 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Class_1_ECC2331997CC2438_Class_1_9A90CD018E72DF20_9.h"
+#include "unitysdk/Class_1_ECC2331997CC2438_Class_1_9A90CD018E72DF20_13.h"
 
 namespace System { class String; }
 
-#define CLASS_1_ECC2331997CC2438_CLASS_2_9DA6891B709865B6_1__CTOR_OFFSET UNITYSDK_OFFSET(0x1449DE00)
+#define CLASS_1_ECC2331997CC2438_CLASS_2_9DA6891B709865B6_1__CTOR_OFFSET UNITYSDK_OFFSET(0x15179C30)
 
-inline static constexpr unsigned int Class_1_ECC2331997CC2438_Class_2_9DA6891B709865B6_1_TypeDefinitionIndex = 64872;
+inline static constexpr unsigned int Class_1_ECC2331997CC2438_Class_2_9DA6891B709865B6_1_TypeDefinitionIndex = 66273;
 
-class Class_1_ECC2331997CC2438_Class_2_9DA6891B709865B6_1 : public ::Class_1_ECC2331997CC2438_Class_1_9A90CD018E72DF20_9
+class Class_1_ECC2331997CC2438_Class_2_9DA6891B709865B6_1 : public ::Class_1_ECC2331997CC2438_Class_1_9A90CD018E72DF20_13
 {
 public:
 	::System::String* Field_2_0; // 0x10

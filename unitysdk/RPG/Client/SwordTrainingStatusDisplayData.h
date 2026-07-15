@@ -6,13 +6,12 @@
 
 namespace RPG::GameCore { class SwordTrainingStatusRow; }
 
-#define RPG_CLIENT_SWORDTRAININGSTATUSDISPLAYDATA_GETDISPLAYNAME_OFFSET UNITYSDK_OFFSET(0xC9AF8E0)
-#define RPG_CLIENT_SWORDTRAININGSTATUSDISPLAYDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xC99A470)
-#define RPG_CLIENT_SWORDTRAININGSTATUSDISPLAYDATA___IFIXBASEPROXY_GETDISPLAYNAME_OFFSET UNITYSDK_OFFSET(0xC9AF950)
+#define RPG_CLIENT_SWORDTRAININGSTATUSDISPLAYDATA_GETDISPLAYNAME_OFFSET UNITYSDK_OFFSET(0x19748C20)
+#define RPG_CLIENT_SWORDTRAININGSTATUSDISPLAYDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x19748C00)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int SwordTrainingStatusDisplayData_TypeDefinitionIndex = 57917;
+	inline static constexpr unsigned int SwordTrainingStatusDisplayData_TypeDefinitionIndex = 59183;
 
 	class SwordTrainingStatusDisplayData : public ::RPG::Client::SwordTrainingConditionDisplayData
 	{
@@ -28,11 +27,6 @@ namespace RPG::Client
 		::RPG::Client::TextID GetDisplayName()
 		{
 			return ((::RPG::Client::TextID(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_SWORDTRAININGSTATUSDISPLAYDATA_GETDISPLAYNAME_OFFSET))(this);
-		}
-
-		::RPG::Client::TextID __iFixBaseProxy_GetDisplayName()
-		{
-			return ((::RPG::Client::TextID(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_SWORDTRAININGSTATUSDISPLAYDATA___IFIXBASEPROXY_GETDISPLAYNAME_OFFSET))(this);
 		}
 	};
 }

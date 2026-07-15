@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SimpleTalkStyleType_TypeDefinitionIndex = 23194;
+	inline static constexpr unsigned int SimpleTalkStyleType_TypeDefinitionIndex = 23674;
 
 	enum class SimpleTalkStyleType : ::System::Int32
 	{

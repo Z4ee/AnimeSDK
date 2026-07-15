@@ -5,7 +5,7 @@
 namespace System::Runtime::CompilerServices { template <typename T1, typename T2> class ConditionalWeakTable_2_CreateValueCallback; }
 template <typename T1, typename T2, typename T3> class Class_1_5F4D64A4B97E38F9___c__1_3;
 
-inline static constexpr unsigned int Class_1_5F4D64A4B97E38F9___c__1_3_TypeDefinitionIndex = 40654;
+inline static constexpr unsigned int Class_1_5F4D64A4B97E38F9___c__1_3_TypeDefinitionIndex = 41469;
 
 template <typename TSubscriber, typename TMessage, typename TId>
 class Class_1_5F4D64A4B97E38F9___c__1_3 : public ::System::Object

@@ -7,13 +7,13 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class DynamicFloat; }
 namespace RPG::GameCore { class SpecialBpFeature; }
 
-#define RPG_GAMECORE_STACKADDITIONALTEAMBOOSTPOINT_METHOD_3_75490B573ABE4700_OFFSET UNITYSDK_OFFSET(0x19CA1070)
-#define RPG_GAMECORE_STACKADDITIONALTEAMBOOSTPOINT_METHOD_3_8DF6C79F742DB611_OFFSET UNITYSDK_OFFSET(0x19CA0FE0)
-#define RPG_GAMECORE_STACKADDITIONALTEAMBOOSTPOINT__CTOR_OFFSET UNITYSDK_OFFSET(0x19CA1040)
+#define RPG_GAMECORE_STACKADDITIONALTEAMBOOSTPOINT_METHOD_3_75490B573ABE4700_OFFSET UNITYSDK_OFFSET(0x1B0A4D60)
+#define RPG_GAMECORE_STACKADDITIONALTEAMBOOSTPOINT_METHOD_3_B073C84272901AAD_OFFSET UNITYSDK_OFFSET(0x1B0A4D10)
+#define RPG_GAMECORE_STACKADDITIONALTEAMBOOSTPOINT__CTOR_OFFSET UNITYSDK_OFFSET(0x1B0A4D50)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int StackAdditionalTeamBoostPoint_TypeDefinitionIndex = 22268;
+	inline static constexpr unsigned int StackAdditionalTeamBoostPoint_TypeDefinitionIndex = 22709;
 
 	class StackAdditionalTeamBoostPoint : public ::RPG::GameCore::TaskConfig
 	{
@@ -27,9 +27,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_STACKADDITIONALTEAMBOOSTPOINT__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_8DF6C79F742DB611(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::StackAdditionalTeamBoostPoint*& a2)
+		static ::System::Void Method_3_B073C84272901AAD(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::StackAdditionalTeamBoostPoint*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::StackAdditionalTeamBoostPoint*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_STACKADDITIONALTEAMBOOSTPOINT_METHOD_3_8DF6C79F742DB611_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::StackAdditionalTeamBoostPoint*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_STACKADDITIONALTEAMBOOSTPOINT_METHOD_3_B073C84272901AAD_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_75490B573ABE4700(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::StackAdditionalTeamBoostPoint* a2)

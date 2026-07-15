@@ -8,13 +8,13 @@ namespace RPG::GameCore { class StageIslandHLODConfig; }
 namespace SimpleJSON { class JSONNode; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_STAGEISLANDCONFIG_METHOD_2_2BE10075CDCE5571_OFFSET UNITYSDK_OFFSET(0x19CAB3A0)
-#define RPG_GAMECORE_STAGEISLANDCONFIG_METHOD_2_62732FFF33ABD963_OFFSET UNITYSDK_OFFSET(0x19CAB170)
-#define RPG_GAMECORE_STAGEISLANDCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x19CAB390)
+#define RPG_GAMECORE_STAGEISLANDCONFIG_METHOD_2_62732FFF33ABD963_OFFSET UNITYSDK_OFFSET(0x1B0B05B0)
+#define RPG_GAMECORE_STAGEISLANDCONFIG_METHOD_2_A5CBAA33149F198E_OFFSET UNITYSDK_OFFSET(0x1B0B07E0)
+#define RPG_GAMECORE_STAGEISLANDCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1B0B07D0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int StageIslandConfig_TypeDefinitionIndex = 18147;
+	inline static constexpr unsigned int StageIslandConfig_TypeDefinitionIndex = 18380;
 
 	class StageIslandConfig : public ::RPG::GameCore::JsonConfig
 	{
@@ -35,9 +35,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::StageIslandConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_STAGEISLANDCONFIG_METHOD_2_62732FFF33ABD963_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_2_2BE10075CDCE5571(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::StageIslandConfig*& a2)
+		static ::System::Void Method_2_A5CBAA33149F198E(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::StageIslandConfig*& a2)
 		{
-			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::StageIslandConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_STAGEISLANDCONFIG_METHOD_2_2BE10075CDCE5571_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::StageIslandConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_STAGEISLANDCONFIG_METHOD_2_A5CBAA33149F198E_OFFSET))(a1, a2);
 		}
 	};
 }

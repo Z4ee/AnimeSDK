@@ -4,7 +4,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int TerrainDeformationReceiverMonoPlugin_DeformationLayerSettings_TypeDefinitionIndex = 66392;
+	inline static constexpr unsigned int TerrainDeformationReceiverMonoPlugin_DeformationLayerSettings_TypeDefinitionIndex = 67828;
 
 	struct alignas(4) TerrainDeformationReceiverMonoPlugin_DeformationLayerSettings
 	{

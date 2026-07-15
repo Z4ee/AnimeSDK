@@ -10,24 +10,24 @@ class Class_1_4D1B1009D34E8A43;
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_1_7375A09D0E497C75_METHOD_1_36726F9E10ADB55F_OFFSET UNITYSDK_OFFSET(0x1238A7E0)
-#define CLASS_1_7375A09D0E497C75_METHOD_1_369BB5E7FA6A1768_OFFSET UNITYSDK_OFFSET(0x1238A680)
-#define CLASS_1_7375A09D0E497C75_METHOD_1_594F60052862009B_OFFSET UNITYSDK_OFFSET(0x1238A380)
-#define CLASS_1_7375A09D0E497C75_METHOD_1_F17676F976AEF1D8_OFFSET UNITYSDK_OFFSET(0x1238AAC0)
-#define CLASS_1_7375A09D0E497C75__CCTOR_OFFSET UNITYSDK_OFFSET(0x1238AD50)
+#define CLASS_1_7375A09D0E497C75_METHOD_1_36726F9E10ADB55F_OFFSET UNITYSDK_OFFSET(0x140EDC70)
+#define CLASS_1_7375A09D0E497C75_METHOD_1_369BB5E7FA6A1768_OFFSET UNITYSDK_OFFSET(0x140EDB10)
+#define CLASS_1_7375A09D0E497C75_METHOD_1_594F60052862009B_OFFSET UNITYSDK_OFFSET(0x140ED810)
+#define CLASS_1_7375A09D0E497C75_METHOD_1_F17676F976AEF1D8_OFFSET UNITYSDK_OFFSET(0x140EDF50)
+#define CLASS_1_7375A09D0E497C75__CCTOR_OFFSET UNITYSDK_OFFSET(0x140EE1E0)
 
-inline static constexpr unsigned int Class_1_7375A09D0E497C75_TypeDefinitionIndex = 65615;
+inline static constexpr unsigned int Class_1_7375A09D0E497C75_TypeDefinitionIndex = 67032;
 
 class Class_1_7375A09D0E497C75 : public ::System::Object
 {
 public:
 	static ::System::Collections::Generic::List_1<::Class_1_4D1B1009D34E8A43*>** StaticGet_Field_1_0()
 	{
-		return (::System::Collections::Generic::List_1<::Class_1_4D1B1009D34E8A43*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_7375A09D0E497C75_TypeDefinitionIndex)->GetStaticField(0x1BC50);
+		return (::System::Collections::Generic::List_1<::Class_1_4D1B1009D34E8A43*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_7375A09D0E497C75_TypeDefinitionIndex)->GetStaticField(0x10A10);
 	}
 	static ::System::Collections::Generic::List_1<::Class_1_4D1B1009D34E8A43*>** StaticGet_Field_1_1()
 	{
-		return (::System::Collections::Generic::List_1<::Class_1_4D1B1009D34E8A43*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_7375A09D0E497C75_TypeDefinitionIndex)->GetStaticField(0x1BC58);
+		return (::System::Collections::Generic::List_1<::Class_1_4D1B1009D34E8A43*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_7375A09D0E497C75_TypeDefinitionIndex)->GetStaticField(0x10A18);
 	}
 
 	static ::System::Void _cctor()

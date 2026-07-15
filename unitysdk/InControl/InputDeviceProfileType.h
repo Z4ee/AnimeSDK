@@ -3,7 +3,7 @@
 
 namespace InControl
 {
-	inline static constexpr unsigned int InputDeviceProfileType_TypeDefinitionIndex = 37881;
+	inline static constexpr unsigned int InputDeviceProfileType_TypeDefinitionIndex = 38689;
 
 	enum class InputDeviceProfileType : ::System::Int32
 	{

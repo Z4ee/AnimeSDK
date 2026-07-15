@@ -6,13 +6,13 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class MissionCustomValueGroupConfig; }
 namespace SimpleJSON { class JSONNode; }
 
-#define RPG_GAMECORE_MISSIONCUSTOMVALUEGROUPCONFIGPACK_METHOD_2_3EDC2E3ED5F89DBB_OFFSET UNITYSDK_OFFSET(0x19944900)
-#define RPG_GAMECORE_MISSIONCUSTOMVALUEGROUPCONFIGPACK_METHOD_2_C2C0AD4B578EB3BF_OFFSET UNITYSDK_OFFSET(0x199449D0)
-#define RPG_GAMECORE_MISSIONCUSTOMVALUEGROUPCONFIGPACK__CTOR_OFFSET UNITYSDK_OFFSET(0x199449C0)
+#define RPG_GAMECORE_MISSIONCUSTOMVALUEGROUPCONFIGPACK_METHOD_2_3EDC2E3ED5F89DBB_OFFSET UNITYSDK_OFFSET(0x1AF691C0)
+#define RPG_GAMECORE_MISSIONCUSTOMVALUEGROUPCONFIGPACK_METHOD_2_DD65E5291D679F4B_OFFSET UNITYSDK_OFFSET(0x1AF69290)
+#define RPG_GAMECORE_MISSIONCUSTOMVALUEGROUPCONFIGPACK__CTOR_OFFSET UNITYSDK_OFFSET(0x1AF69280)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MissionCustomValueGroupConfigPack_TypeDefinitionIndex = 18042;
+	inline static constexpr unsigned int MissionCustomValueGroupConfigPack_TypeDefinitionIndex = 18246;
 
 	class MissionCustomValueGroupConfigPack : public ::RPG::GameCore::JsonConfig
 	{
@@ -29,9 +29,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::MissionCustomValueGroupConfigPack*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MISSIONCUSTOMVALUEGROUPCONFIGPACK_METHOD_2_3EDC2E3ED5F89DBB_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_2_C2C0AD4B578EB3BF(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::MissionCustomValueGroupConfigPack*& a2)
+		static ::System::Void Method_2_DD65E5291D679F4B(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::MissionCustomValueGroupConfigPack*& a2)
 		{
-			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::MissionCustomValueGroupConfigPack*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MISSIONCUSTOMVALUEGROUPCONFIGPACK_METHOD_2_C2C0AD4B578EB3BF_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::MissionCustomValueGroupConfigPack*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MISSIONCUSTOMVALUEGROUPCONFIGPACK_METHOD_2_DD65E5291D679F4B_OFFSET))(a1, a2);
 		}
 	};
 }

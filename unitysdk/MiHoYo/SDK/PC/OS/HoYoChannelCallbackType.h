@@ -3,7 +3,7 @@
 
 namespace MiHoYo::SDK::PC::OS
 {
-	inline static constexpr unsigned int HoYoChannelCallbackType_TypeDefinitionIndex = 8445;
+	inline static constexpr unsigned int HoYoChannelCallbackType_TypeDefinitionIndex = 8457;
 
 	enum class HoYoChannelCallbackType : ::System::Int32
 	{

@@ -2,12 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Attribute.h"
 
-#define UNITYENGINE_BINDINGS_IGNOREATTRIBUTE_SET_DOESNOTCONTRIBUTETOSIZE_OFFSET UNITYSDK_OFFSET(0x1B340260)
-#define UNITYENGINE_BINDINGS_IGNOREATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1B340270)
+#define UNITYENGINE_BINDINGS_IGNOREATTRIBUTE_SET_DOESNOTCONTRIBUTETOSIZE_OFFSET UNITYSDK_OFFSET(0x1D2FFFA0)
+#define UNITYENGINE_BINDINGS_IGNOREATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1D2FFFB0)
 
 namespace UnityEngine::Bindings
 {
-	inline static constexpr unsigned int IgnoreAttribute_TypeDefinitionIndex = 3724;
+	inline static constexpr unsigned int IgnoreAttribute_TypeDefinitionIndex = 3728;
 
 	class IgnoreAttribute : public ::System::Attribute
 	{

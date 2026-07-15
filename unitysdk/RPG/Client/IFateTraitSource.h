@@ -6,7 +6,7 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int IFateTraitSource_TypeDefinitionIndex = 59805;
+	inline static constexpr unsigned int IFateTraitSource_TypeDefinitionIndex = 61090;
 
 	class IFateTraitSource
 	{

@@ -6,13 +6,13 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class TargetEvaluator; }
 
-#define RPG_GAMECORE_SHOWBATTLESKILLENHANCED_METHOD_3_79F21717C46CAB7A_OFFSET UNITYSDK_OFFSET(0x19C75D10)
-#define RPG_GAMECORE_SHOWBATTLESKILLENHANCED_METHOD_3_AA9B7CF92C3EE14D_OFFSET UNITYSDK_OFFSET(0x19C75C80)
-#define RPG_GAMECORE_SHOWBATTLESKILLENHANCED__CTOR_OFFSET UNITYSDK_OFFSET(0x19C75CE0)
+#define RPG_GAMECORE_SHOWBATTLESKILLENHANCED_METHOD_3_79F21717C46CAB7A_OFFSET UNITYSDK_OFFSET(0x1BE3AD70)
+#define RPG_GAMECORE_SHOWBATTLESKILLENHANCED_METHOD_3_90BE7022014482EF_OFFSET UNITYSDK_OFFSET(0x1BE3AD20)
+#define RPG_GAMECORE_SHOWBATTLESKILLENHANCED__CTOR_OFFSET UNITYSDK_OFFSET(0x1BE3AD60)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ShowBattleSkillEnhanced_TypeDefinitionIndex = 21674;
+	inline static constexpr unsigned int ShowBattleSkillEnhanced_TypeDefinitionIndex = 22101;
 
 	class ShowBattleSkillEnhanced : public ::RPG::GameCore::TaskConfig
 	{
@@ -27,9 +27,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SHOWBATTLESKILLENHANCED__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_AA9B7CF92C3EE14D(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ShowBattleSkillEnhanced*& a2)
+		static ::System::Void Method_3_90BE7022014482EF(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ShowBattleSkillEnhanced*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ShowBattleSkillEnhanced*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SHOWBATTLESKILLENHANCED_METHOD_3_AA9B7CF92C3EE14D_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ShowBattleSkillEnhanced*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SHOWBATTLESKILLENHANCED_METHOD_3_90BE7022014482EF_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_79F21717C46CAB7A(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ShowBattleSkillEnhanced* a2)

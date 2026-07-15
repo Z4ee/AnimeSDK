@@ -6,13 +6,13 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_STOPEFFECTFOLLOWPOINT_METHOD_3_08D739B7F12C29AD_OFFSET UNITYSDK_OFFSET(0x19CC0200)
-#define RPG_GAMECORE_STOPEFFECTFOLLOWPOINT_METHOD_3_C3B6D0D544765383_OFFSET UNITYSDK_OFFSET(0x19CC0160)
-#define RPG_GAMECORE_STOPEFFECTFOLLOWPOINT__CTOR_OFFSET UNITYSDK_OFFSET(0x19CC01C0)
+#define RPG_GAMECORE_STOPEFFECTFOLLOWPOINT_METHOD_3_08D739B7F12C29AD_OFFSET UNITYSDK_OFFSET(0x1B0C5990)
+#define RPG_GAMECORE_STOPEFFECTFOLLOWPOINT_METHOD_3_146776DD8A432084_OFFSET UNITYSDK_OFFSET(0x1B0C5920)
+#define RPG_GAMECORE_STOPEFFECTFOLLOWPOINT__CTOR_OFFSET UNITYSDK_OFFSET(0x1B0C5970)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int StopEffectFollowPoint_TypeDefinitionIndex = 19137;
+	inline static constexpr unsigned int StopEffectFollowPoint_TypeDefinitionIndex = 19493;
 
 	class StopEffectFollowPoint : public ::RPG::GameCore::TaskConfig
 	{
@@ -28,9 +28,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_STOPEFFECTFOLLOWPOINT__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_C3B6D0D544765383(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::StopEffectFollowPoint*& a2)
+		static ::System::Void Method_3_146776DD8A432084(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::StopEffectFollowPoint*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::StopEffectFollowPoint*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_STOPEFFECTFOLLOWPOINT_METHOD_3_C3B6D0D544765383_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::StopEffectFollowPoint*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_STOPEFFECTFOLLOWPOINT_METHOD_3_146776DD8A432084_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_08D739B7F12C29AD(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::StopEffectFollowPoint* a2)

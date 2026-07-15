@@ -9,21 +9,21 @@ namespace RPG::Client::Promises { class IPromise; }
 namespace System { class Action; }
 namespace System { class Object; }
 
-#define RPG_CLIENT_CHENLINGBATTLE_STAGESETTLEPHASE_ONENTER_OFFSET UNITYSDK_OFFSET(0xB5D2950)
-#define RPG_CLIENT_CHENLINGBATTLE_STAGESETTLEPHASE_ONLEAVE_OFFSET UNITYSDK_OFFSET(0xB5D2F70)
-#define RPG_CLIENT_CHENLINGBATTLE_STAGESETTLEPHASE_SWITCHTOPREPAREEDIT_OFFSET UNITYSDK_OFFSET(0xB5D3140)
-#define RPG_CLIENT_CHENLINGBATTLE_STAGESETTLEPHASE__CTOR_OFFSET UNITYSDK_OFFSET(0xB5D2940)
+#define RPG_CLIENT_CHENLINGBATTLE_STAGESETTLEPHASE_ONENTER_OFFSET UNITYSDK_OFFSET(0x1AFEBF30)
+#define RPG_CLIENT_CHENLINGBATTLE_STAGESETTLEPHASE_ONLEAVE_OFFSET UNITYSDK_OFFSET(0x1AFEC650)
+#define RPG_CLIENT_CHENLINGBATTLE_STAGESETTLEPHASE_SWITCHTOPREPAREEDIT_OFFSET UNITYSDK_OFFSET(0x1AFEC820)
+#define RPG_CLIENT_CHENLINGBATTLE_STAGESETTLEPHASE__CTOR_OFFSET UNITYSDK_OFFSET(0x1AFEBF20)
 
 namespace RPG::Client::ChenLingBattle
 {
-	inline static constexpr unsigned int StageSettlePhase_TypeDefinitionIndex = 70900;
+	inline static constexpr unsigned int StageSettlePhase_TypeDefinitionIndex = 72413;
 
 	class StageSettlePhase : public ::RPG::Client::ChenLingBattle::GamePhase
 	{
 	public:
 		::RPG::Client::LuaUIGameFlowContext* _RoundSettlePage; // 0x18
-		::RPG::Client::LuaUIGameFlowContext* _StageSettlePage; // 0x20
-		::RPG::Client::StageSettleInfo* _StageSettleInfo; // 0x28
+		::RPG::Client::StageSettleInfo* _StageSettleInfo; // 0x20
+		::RPG::Client::LuaUIGameFlowContext* _StageSettlePage; // 0x28
 
 		::System::Void _ctor(::Class_1_CE84D8E232AFC277* a1)
 		{

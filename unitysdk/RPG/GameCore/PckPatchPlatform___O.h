@@ -3,18 +3,18 @@
 #include "unitysdk/System/Object.h"
 
 namespace System { class String; }
-template <typename T> class Class_1_9EB2CB86795DEEF1_DelegateParseJson_1;
+template <typename T> class Class_1_D837DED66799FBE3_DelegateParseJson_1;
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PckPatchPlatform___O_TypeDefinitionIndex = 15573;
+	inline static constexpr unsigned int PckPatchPlatform___O_TypeDefinitionIndex = 15744;
 
 	class PckPatchPlatform___O : public ::System::Object
 	{
 	public:
-		static ::Class_1_9EB2CB86795DEEF1_DelegateParseJson_1<::System::String*>** StaticGet__0___FromJson()
+		static ::Class_1_D837DED66799FBE3_DelegateParseJson_1<::System::String*>** StaticGet__0___FromJson()
 		{
-			return (::Class_1_9EB2CB86795DEEF1_DelegateParseJson_1<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(PckPatchPlatform___O_TypeDefinitionIndex)->GetStaticField(0x34600);
+			return (::Class_1_D837DED66799FBE3_DelegateParseJson_1<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(PckPatchPlatform___O_TypeDefinitionIndex)->GetStaticField(0x44CD0);
 		}
 	};
 }

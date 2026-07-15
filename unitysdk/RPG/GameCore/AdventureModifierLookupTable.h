@@ -7,12 +7,12 @@ namespace RPG::GameCore { class AdventureModifierConfig; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_ADVENTUREMODIFIERLOOKUPTABLE_METHOD_2_12164D3E7F4E6405_OFFSET UNITYSDK_OFFSET(0x19450420)
-#define RPG_GAMECORE_ADVENTUREMODIFIERLOOKUPTABLE__CTOR_OFFSET UNITYSDK_OFFSET(0x19450500)
+#define RPG_GAMECORE_ADVENTUREMODIFIERLOOKUPTABLE_METHOD_2_12164D3E7F4E6405_OFFSET UNITYSDK_OFFSET(0x1AE5EF70)
+#define RPG_GAMECORE_ADVENTUREMODIFIERLOOKUPTABLE__CTOR_OFFSET UNITYSDK_OFFSET(0x1AE5F050)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AdventureModifierLookupTable_TypeDefinitionIndex = 16643;
+	inline static constexpr unsigned int AdventureModifierLookupTable_TypeDefinitionIndex = 16805;
 
 	class AdventureModifierLookupTable : public ::RPG::GameCore::JsonConfig
 	{

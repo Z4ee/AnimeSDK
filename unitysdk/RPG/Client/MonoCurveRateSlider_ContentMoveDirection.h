@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MonoCurveRateSlider_ContentMoveDirection_TypeDefinitionIndex = 67811;
+	inline static constexpr unsigned int MonoCurveRateSlider_ContentMoveDirection_TypeDefinitionIndex = 69295;
 
 	enum class MonoCurveRateSlider_ContentMoveDirection : ::System::Int32
 	{

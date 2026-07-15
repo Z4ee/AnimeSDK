@@ -4,11 +4,11 @@
 
 namespace RPG::Client { class RogueTournAreaDataItem; }
 
-#define RPG_CLIENT_ROGUETOURNAREADATAEXT_ISINPROGRESS_OFFSET UNITYSDK_OFFSET(0xC7F2BC0)
+#define RPG_CLIENT_ROGUETOURNAREADATAEXT_ISINPROGRESS_OFFSET UNITYSDK_OFFSET(0x198425F0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int RogueTournAreaDataExt_TypeDefinitionIndex = 63130;
+	inline static constexpr unsigned int RogueTournAreaDataExt_TypeDefinitionIndex = 64497;
 
 	class RogueTournAreaDataExt : public ::System::Object
 	{

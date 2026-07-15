@@ -6,7 +6,7 @@ namespace System { class Object; }
 
 namespace Google::Protobuf::Reflection
 {
-	inline static constexpr unsigned int ReflectionUtil_IExtensionReflectionHelper_TypeDefinitionIndex = 5560;
+	inline static constexpr unsigned int ReflectionUtil_IExtensionReflectionHelper_TypeDefinitionIndex = 5565;
 
 	class ReflectionUtil_IExtensionReflectionHelper
 	{

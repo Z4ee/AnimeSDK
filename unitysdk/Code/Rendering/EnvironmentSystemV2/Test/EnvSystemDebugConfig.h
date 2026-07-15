@@ -4,11 +4,11 @@
 
 namespace Code::Rendering::EnvironmentSystemV2 { class EnvV2ParamPreset; }
 
-#define CODE_RENDERING_ENVIRONMENTSYSTEMV2_TEST_ENVSYSTEMDEBUGCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0xC743B50)
+#define CODE_RENDERING_ENVIRONMENTSYSTEMV2_TEST_ENVSYSTEMDEBUGCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x16B34DF0)
 
 namespace Code::Rendering::EnvironmentSystemV2::Test
 {
-	inline static constexpr unsigned int EnvSystemDebugConfig_TypeDefinitionIndex = 46871;
+	inline static constexpr unsigned int EnvSystemDebugConfig_TypeDefinitionIndex = 47836;
 
 	class EnvSystemDebugConfig : public ::UnityEngine::MonoBehaviour
 	{

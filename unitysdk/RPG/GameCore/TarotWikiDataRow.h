@@ -5,22 +5,22 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_TAROTWIKIDATAROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x19D331C0)
-#define RPG_GAMECORE_TAROTWIKIDATAROW__CTOR_OFFSET UNITYSDK_OFFSET(0x19D334C0)
+#define RPG_GAMECORE_TAROTWIKIDATAROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1C143BE0)
+#define RPG_GAMECORE_TAROTWIKIDATAROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1C143EE0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TarotWikiDataRow_TypeDefinitionIndex = 14478;
+	inline static constexpr unsigned int TarotWikiDataRow_TypeDefinitionIndex = 14636;
 
 	class TarotWikiDataRow : public ::System::Object
 	{
 	public:
-		::Il2CppArray<::System::UInt32>* ChangeID; // 0x10
-		::Il2CppArray<::System::UInt32>* SubdataList; // 0x18
-		::RPG::Client::TextID Title; // 0x20
-		::System::UInt32 UnlockID; // 0x30
-		::System::UInt32 ID; // 0x34
-		::RPG::Client::TextID Details; // 0x38
+		::Il2CppArray<::System::UInt32>* SubdataList; // 0x10
+		::Il2CppArray<::System::UInt32>* ChangeID; // 0x18
+		::RPG::Client::TextID Details; // 0x20
+		::RPG::Client::TextID Title; // 0x30
+		::System::UInt32 ID; // 0x40
+		::System::UInt32 UnlockID; // 0x44
 
 		::System::Void _ctor()
 		{

@@ -3,8 +3,8 @@
 #include "unitysdk/RPG/GameCore/ChimeraDuelTeamType.h"
 #include "unitysdk/System/Object.h"
 
-class Class_1_3F1549C2A53A3A5B;
-class Class_1_43BD383C98B4C0C5_191;
+class Class_1_43BD383C98B4C0C5_199;
+class Class_1_E518B582305CCAFF;
 class Class_1_F9FBCC956DFCF137_25;
 class Class_2_FB9CF047C8AEAA83;
 namespace RPG::Client::LittleGame::ChimeraDuel { class ChimeraDuelChimeraCache; }
@@ -12,23 +12,23 @@ namespace System { class Action; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_1_27C2042A8F90B8A5_EXECUTE_OFFSET UNITYSDK_OFFSET(0x13851860)
-#define CLASS_1_27C2042A8F90B8A5_METHOD_1_4BC86543E53D0696_OFFSET UNITYSDK_OFFSET(0x138512D0)
-#define CLASS_1_27C2042A8F90B8A5_METHOD_1_A27DC2C5A103933A_OFFSET UNITYSDK_OFFSET(0x13851790)
-#define CLASS_1_27C2042A8F90B8A5_METHOD_1_B387E1AED8A8F880_OFFSET UNITYSDK_OFFSET(0x13851580)
-#define CLASS_1_27C2042A8F90B8A5_TICK_OFFSET UNITYSDK_OFFSET(0x13851A30)
-#define CLASS_1_27C2042A8F90B8A5__CTOR_OFFSET UNITYSDK_OFFSET(0x13851270)
+#define CLASS_1_27C2042A8F90B8A5_EXECUTE_OFFSET UNITYSDK_OFFSET(0x17CA1FC0)
+#define CLASS_1_27C2042A8F90B8A5_METHOD_1_4BC86543E53D0696_OFFSET UNITYSDK_OFFSET(0x17CA19E0)
+#define CLASS_1_27C2042A8F90B8A5_METHOD_1_A27DC2C5A103933A_OFFSET UNITYSDK_OFFSET(0x17CA1EF0)
+#define CLASS_1_27C2042A8F90B8A5_METHOD_1_B387E1AED8A8F880_OFFSET UNITYSDK_OFFSET(0x17CA1CE0)
+#define CLASS_1_27C2042A8F90B8A5_TICK_OFFSET UNITYSDK_OFFSET(0x17CA2190)
+#define CLASS_1_27C2042A8F90B8A5__CTOR_OFFSET UNITYSDK_OFFSET(0x17CA1980)
 
-inline static constexpr unsigned int Class_1_27C2042A8F90B8A5_TypeDefinitionIndex = 72169;
+inline static constexpr unsigned int Class_1_27C2042A8F90B8A5_TypeDefinitionIndex = 73694;
 
 class Class_1_27C2042A8F90B8A5 : public ::System::Object
 {
 public:
 	// static const ::System::String* Field_1_0; // 0x0
-	::Class_1_3F1549C2A53A3A5B* Field_1_1; // 0x10
-	::RPG::Client::LittleGame::ChimeraDuel::ChimeraDuelChimeraCache* Field_1_2; // 0x18
-	::System::Collections::Generic::List_1<::Class_1_43BD383C98B4C0C5_191*>* Field_1_3; // 0x20
-	::System::Collections::Generic::List_1<::RPG::Client::LittleGame::ChimeraDuel::ChimeraDuelChimeraCache*>* Field_1_4; // 0x28
+	::System::Collections::Generic::List_1<::Class_1_43BD383C98B4C0C5_199*>* Field_1_1; // 0x10
+	::System::Collections::Generic::List_1<::RPG::Client::LittleGame::ChimeraDuel::ChimeraDuelChimeraCache*>* Field_1_2; // 0x18
+	::RPG::Client::LittleGame::ChimeraDuel::ChimeraDuelChimeraCache* Field_1_3; // 0x20
+	::Class_1_E518B582305CCAFF* Field_1_4; // 0x28
 
 	::System::Void _ctor(::RPG::Client::LittleGame::ChimeraDuel::ChimeraDuelChimeraCache* a1)
 	{

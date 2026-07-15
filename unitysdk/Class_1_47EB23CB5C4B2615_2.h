@@ -4,9 +4,9 @@
 
 class Class_1_B1B8D38711757224;
 
-#define CLASS_1_47EB23CB5C4B2615_2__CTOR_OFFSET UNITYSDK_OFFSET(0x18B6BFC0)
+#define CLASS_1_47EB23CB5C4B2615_2__CTOR_OFFSET UNITYSDK_OFFSET(0x18165A70)
 
-inline static constexpr unsigned int Class_1_47EB23CB5C4B2615_2_TypeDefinitionIndex = 34346;
+inline static constexpr unsigned int Class_1_47EB23CB5C4B2615_2_TypeDefinitionIndex = 34728;
 
 class Class_1_47EB23CB5C4B2615_2 : public ::System::Object
 {

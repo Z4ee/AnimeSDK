@@ -7,19 +7,19 @@ namespace RPG::Client { class PhotoGraphFilterImage; }
 namespace System { class String; }
 namespace System { template <typename T> class Action_1; }
 
-#define RPG_CLIENT_PHOTOGRAPHUTILS___C__DISPLAYCLASS131_0__CTOR_OFFSET UNITYSDK_OFFSET(0xC3A16D0)
-#define RPG_CLIENT_PHOTOGRAPHUTILS___C__DISPLAYCLASS131_0__SAVESCREENCAPTURE_B__0_OFFSET UNITYSDK_OFFSET(0xC3A34A0)
-#define RPG_CLIENT_PHOTOGRAPHUTILS___C__DISPLAYCLASS131_0__SAVESCREENCAPTURE_B__1_OFFSET UNITYSDK_OFFSET(0xC3A3580)
+#define RPG_CLIENT_PHOTOGRAPHUTILS___C__DISPLAYCLASS131_0__CTOR_OFFSET UNITYSDK_OFFSET(0x19EB08B0)
+#define RPG_CLIENT_PHOTOGRAPHUTILS___C__DISPLAYCLASS131_0__SAVESCREENCAPTURE_B__0_OFFSET UNITYSDK_OFFSET(0x19EB2730)
+#define RPG_CLIENT_PHOTOGRAPHUTILS___C__DISPLAYCLASS131_0__SAVESCREENCAPTURE_B__1_OFFSET UNITYSDK_OFFSET(0x19EB2810)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int PhotoGraphUtils___c__DisplayClass131_0_TypeDefinitionIndex = 64937;
+	inline static constexpr unsigned int PhotoGraphUtils___c__DisplayClass131_0_TypeDefinitionIndex = 66339;
 
 	class PhotoGraphUtils___c__DisplayClass131_0 : public ::System::Object
 	{
 	public:
-		::System::String* name; // 0x10
-		::RPG::Client::PhotoGraphFilterImage* image; // 0x18
+		::RPG::Client::PhotoGraphFilterImage* image; // 0x10
+		::System::String* name; // 0x18
 		::System::Action_1<::System::Boolean>* __9__1; // 0x20
 
 		::System::Void _ctor()

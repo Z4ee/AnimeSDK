@@ -4,12 +4,12 @@
 
 namespace System { class String; }
 
-#define SYSTEM_RUNTIME_INTEROPSERVICES_GUIDATTRIBUTE_GET_VALUE_OFFSET UNITYSDK_OFFSET(0x18771370)
-#define SYSTEM_RUNTIME_INTEROPSERVICES_GUIDATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x18771360)
+#define SYSTEM_RUNTIME_INTEROPSERVICES_GUIDATTRIBUTE_GET_VALUE_OFFSET UNITYSDK_OFFSET(0x1A825F00)
+#define SYSTEM_RUNTIME_INTEROPSERVICES_GUIDATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1A825EF0)
 
 namespace System::Runtime::InteropServices
 {
-	inline static constexpr unsigned int GuidAttribute_TypeDefinitionIndex = 1403;
+	inline static constexpr unsigned int GuidAttribute_TypeDefinitionIndex = 1407;
 
 	class GuidAttribute : public ::System::Attribute
 	{

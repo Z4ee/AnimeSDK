@@ -11,45 +11,45 @@ namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Concurrent { template <typename T1, typename T2> class ConcurrentDictionary_2; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_TEAMLIMITCONDITIONEXCELTABLE_GETDATA_OFFSET UNITYSDK_OFFSET(0x19DDC900)
-#define RPG_GAMECORE_TEAMLIMITCONDITIONEXCELTABLE_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x19DDC790)
-#define RPG_GAMECORE_TEAMLIMITCONDITIONEXCELTABLE_GET_DATADICT_OFFSET UNITYSDK_OFFSET(0x19DDC6B0)
-#define RPG_GAMECORE_TEAMLIMITCONDITIONEXCELTABLE_ISDATAEMPTY_OFFSET UNITYSDK_OFFSET(0x19DDC730)
-#define RPG_GAMECORE_TEAMLIMITCONDITIONEXCELTABLE_ISDATALOADED_OFFSET UNITYSDK_OFFSET(0x19DDBC10)
-#define RPG_GAMECORE_TEAMLIMITCONDITIONEXCELTABLE_LOADDATA_OFFSET UNITYSDK_OFFSET(0x19DDBC50)
-#define RPG_GAMECORE_TEAMLIMITCONDITIONEXCELTABLE_UNLOADDATA_OFFSET UNITYSDK_OFFSET(0x19DDBE80)
-#define RPG_GAMECORE_TEAMLIMITCONDITIONEXCELTABLE__ADDITEMFROMBINARY_OFFSET UNITYSDK_OFFSET(0x19DDC050)
-#define RPG_GAMECORE_TEAMLIMITCONDITIONEXCELTABLE__ADDITEM_OFFSET UNITYSDK_OFFSET(0x19DDC340)
-#define RPG_GAMECORE_TEAMLIMITCONDITIONEXCELTABLE__CCTOR_OFFSET UNITYSDK_OFFSET(0x19DDCA90)
-#define RPG_GAMECORE_TEAMLIMITCONDITIONEXCELTABLE__LOADDATAINCREMENTIAL_OFFSET UNITYSDK_OFFSET(0x19DDBFB0)
-#define RPG_GAMECORE_TEAMLIMITCONDITIONEXCELTABLE__LOADDATA_OFFSET UNITYSDK_OFFSET(0x19DDBF10)
+#define RPG_GAMECORE_TEAMLIMITCONDITIONEXCELTABLE_GETDATA_OFFSET UNITYSDK_OFFSET(0x1C146520)
+#define RPG_GAMECORE_TEAMLIMITCONDITIONEXCELTABLE_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x1C1463B0)
+#define RPG_GAMECORE_TEAMLIMITCONDITIONEXCELTABLE_GET_DATADICT_OFFSET UNITYSDK_OFFSET(0x1C1462D0)
+#define RPG_GAMECORE_TEAMLIMITCONDITIONEXCELTABLE_ISDATAEMPTY_OFFSET UNITYSDK_OFFSET(0x1C146350)
+#define RPG_GAMECORE_TEAMLIMITCONDITIONEXCELTABLE_ISDATALOADED_OFFSET UNITYSDK_OFFSET(0x1C1458B0)
+#define RPG_GAMECORE_TEAMLIMITCONDITIONEXCELTABLE_LOADDATA_OFFSET UNITYSDK_OFFSET(0x1C1458F0)
+#define RPG_GAMECORE_TEAMLIMITCONDITIONEXCELTABLE_UNLOADDATA_OFFSET UNITYSDK_OFFSET(0x1C145B20)
+#define RPG_GAMECORE_TEAMLIMITCONDITIONEXCELTABLE__ADDITEMFROMBINARY_OFFSET UNITYSDK_OFFSET(0x1C145CF0)
+#define RPG_GAMECORE_TEAMLIMITCONDITIONEXCELTABLE__ADDITEM_OFFSET UNITYSDK_OFFSET(0x1C145FB0)
+#define RPG_GAMECORE_TEAMLIMITCONDITIONEXCELTABLE__CCTOR_OFFSET UNITYSDK_OFFSET(0x1C146670)
+#define RPG_GAMECORE_TEAMLIMITCONDITIONEXCELTABLE__LOADDATAINCREMENTIAL_OFFSET UNITYSDK_OFFSET(0x1C145C50)
+#define RPG_GAMECORE_TEAMLIMITCONDITIONEXCELTABLE__LOADDATA_OFFSET UNITYSDK_OFFSET(0x1C145BB0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TeamLimitConditionExcelTable_TypeDefinitionIndex = 14514;
+	inline static constexpr unsigned int TeamLimitConditionExcelTable_TypeDefinitionIndex = 14672;
 
 	class TeamLimitConditionExcelTable : public ::System::Object
 	{
 	public:
 		static ::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::TeamLimitConditionRow*>** StaticGet_dataDict_()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::TeamLimitConditionRow*>**)Il2CppClass::FromTypeDefinitionIndex(TeamLimitConditionExcelTable_TypeDefinitionIndex)->GetStaticField(0x5BA0);
+			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::TeamLimitConditionRow*>**)Il2CppClass::FromTypeDefinitionIndex(TeamLimitConditionExcelTable_TypeDefinitionIndex)->GetStaticField(0xB680);
 		}
 		static ::Il2CppArray<::System::String*>** StaticGet_s_PathList()
 		{
-			return (::Il2CppArray<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(TeamLimitConditionExcelTable_TypeDefinitionIndex)->GetStaticField(0x5BA8);
+			return (::Il2CppArray<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(TeamLimitConditionExcelTable_TypeDefinitionIndex)->GetStaticField(0xB688);
 		}
 		static ::System::Action_1<::Class_1_7A22A3DBEEDD1F80*>** StaticGet__AddItemFromBinary_ActionInst()
 		{
-			return (::System::Action_1<::Class_1_7A22A3DBEEDD1F80*>**)Il2CppClass::FromTypeDefinitionIndex(TeamLimitConditionExcelTable_TypeDefinitionIndex)->GetStaticField(0x5BB0);
-		}
-		static ::System::Byte* StaticGet_HashIndex()
-		{
-			return (::System::Byte*)Il2CppClass::FromTypeDefinitionIndex(TeamLimitConditionExcelTable_TypeDefinitionIndex)->GetStaticField(0x2F90);
+			return (::System::Action_1<::Class_1_7A22A3DBEEDD1F80*>**)Il2CppClass::FromTypeDefinitionIndex(TeamLimitConditionExcelTable_TypeDefinitionIndex)->GetStaticField(0xB690);
 		}
 		static ::System::Boolean* StaticGet_isDataLoaded()
 		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(TeamLimitConditionExcelTable_TypeDefinitionIndex)->GetStaticField(0x2F91);
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(TeamLimitConditionExcelTable_TypeDefinitionIndex)->GetStaticField(0x4630);
+		}
+		static ::System::Byte* StaticGet_HashIndex()
+		{
+			return (::System::Byte*)Il2CppClass::FromTypeDefinitionIndex(TeamLimitConditionExcelTable_TypeDefinitionIndex)->GetStaticField(0x4631);
 		}
 
 		static ::System::Void _cctor()

@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RequestPassByValueSourceType_TypeDefinitionIndex = 23168;
+	inline static constexpr unsigned int RequestPassByValueSourceType_TypeDefinitionIndex = 23648;
 
 	enum class RequestPassByValueSourceType : ::System::Int32
 	{

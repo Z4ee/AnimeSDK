@@ -6,13 +6,13 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class TargetEvaluator; }
 
-#define RPG_GAMECORE_SHOWSKILLREADYCAMERA_METHOD_3_689FF340E1755C3C_OFFSET UNITYSDK_OFFSET(0x19C83790)
-#define RPG_GAMECORE_SHOWSKILLREADYCAMERA_METHOD_3_F72AA0DA4503B9CA_OFFSET UNITYSDK_OFFSET(0x19C83710)
-#define RPG_GAMECORE_SHOWSKILLREADYCAMERA__CTOR_OFFSET UNITYSDK_OFFSET(0x19C83760)
+#define RPG_GAMECORE_SHOWSKILLREADYCAMERA_METHOD_3_17A10D50067AE99B_OFFSET UNITYSDK_OFFSET(0x1BE472E0)
+#define RPG_GAMECORE_SHOWSKILLREADYCAMERA_METHOD_3_689FF340E1755C3C_OFFSET UNITYSDK_OFFSET(0x1BE47320)
+#define RPG_GAMECORE_SHOWSKILLREADYCAMERA__CTOR_OFFSET UNITYSDK_OFFSET(0x1BE47310)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ShowSkillReadyCamera_TypeDefinitionIndex = 21604;
+	inline static constexpr unsigned int ShowSkillReadyCamera_TypeDefinitionIndex = 22026;
 
 	class ShowSkillReadyCamera : public ::RPG::GameCore::TaskConfig
 	{
@@ -25,9 +25,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SHOWSKILLREADYCAMERA__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_F72AA0DA4503B9CA(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ShowSkillReadyCamera*& a2)
+		static ::System::Void Method_3_17A10D50067AE99B(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ShowSkillReadyCamera*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ShowSkillReadyCamera*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SHOWSKILLREADYCAMERA_METHOD_3_F72AA0DA4503B9CA_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ShowSkillReadyCamera*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SHOWSKILLREADYCAMERA_METHOD_3_17A10D50067AE99B_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_689FF340E1755C3C(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ShowSkillReadyCamera* a2)

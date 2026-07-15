@@ -6,7 +6,7 @@ namespace RPG::Client::NavMap { class ICartographer; }
 
 namespace RPG::Client::NavMap
 {
-	inline static constexpr unsigned int ISubNavMap_TypeDefinitionIndex = 69678;
+	inline static constexpr unsigned int ISubNavMap_TypeDefinitionIndex = 71201;
 
 	class ISubNavMap
 	{

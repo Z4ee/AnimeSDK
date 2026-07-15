@@ -5,12 +5,12 @@
 
 namespace MiHoYo::SDK::Console::UI::OS { class ConsoleAgeGateParentalConsentProcessDialog; }
 
-#define MIHOYO_SDK_CONSOLE_UI_OS_CONSOLEAGEGATEPARENTALCONSENTPROCESSDIALOG___C__DISPLAYCLASS26_0__CTOR_OFFSET UNITYSDK_OFFSET(0x182FF5F0)
-#define MIHOYO_SDK_CONSOLE_UI_OS_CONSOLEAGEGATEPARENTALCONSENTPROCESSDIALOG___C__DISPLAYCLASS26_0__SHOW_B__0_OFFSET UNITYSDK_OFFSET(0x182FF830)
+#define MIHOYO_SDK_CONSOLE_UI_OS_CONSOLEAGEGATEPARENTALCONSENTPROCESSDIALOG___C__DISPLAYCLASS26_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1AA3ABA0)
+#define MIHOYO_SDK_CONSOLE_UI_OS_CONSOLEAGEGATEPARENTALCONSENTPROCESSDIALOG___C__DISPLAYCLASS26_0__SHOW_B__0_OFFSET UNITYSDK_OFFSET(0x1AA3ADE0)
 
 namespace MiHoYo::SDK::Console::UI::OS
 {
-	inline static constexpr unsigned int ConsoleAgeGateParentalConsentProcessDialog___c__DisplayClass26_0_TypeDefinitionIndex = 8697;
+	inline static constexpr unsigned int ConsoleAgeGateParentalConsentProcessDialog___c__DisplayClass26_0_TypeDefinitionIndex = 8709;
 
 	class ConsoleAgeGateParentalConsentProcessDialog___c__DisplayClass26_0 : public ::System::Object
 	{

@@ -4,10 +4,10 @@
 
 namespace RPG::GameCore { class BattleGridFightEquipData; }
 
-#define CLASS_1_5E8D52132353525B_METHOD_1_CDEFC3BCD02C3E59_OFFSET UNITYSDK_OFFSET(0xCEC23D0)
-#define CLASS_1_5E8D52132353525B__CTOR_OFFSET UNITYSDK_OFFSET(0xCEC23C0)
+#define CLASS_1_5E8D52132353525B_METHOD_1_077562104BB0E728_OFFSET UNITYSDK_OFFSET(0x16D8D3F0)
+#define CLASS_1_5E8D52132353525B__CTOR_OFFSET UNITYSDK_OFFSET(0x16D8D3E0)
 
-inline static constexpr unsigned int Class_1_5E8D52132353525B_TypeDefinitionIndex = 60755;
+inline static constexpr unsigned int Class_1_5E8D52132353525B_TypeDefinitionIndex = 62047;
 
 class Class_1_5E8D52132353525B : public ::System::Object
 {
@@ -19,8 +19,8 @@ public:
 		return ((::System::Void(*)(::PVOID, ::RPG::GameCore::BattleGridFightEquipData*))((::PBYTE)hIl2Cpp + CLASS_1_5E8D52132353525B__CTOR_OFFSET))(this, a1);
 	}
 
-	::System::UInt32 Method_1_CDEFC3BCD02C3E59()
+	::System::UInt32 Method_1_077562104BB0E728()
 	{
-		return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_5E8D52132353525B_METHOD_1_CDEFC3BCD02C3E59_OFFSET))(this);
+		return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_5E8D52132353525B_METHOD_1_077562104BB0E728_OFFSET))(this);
 	}
 };

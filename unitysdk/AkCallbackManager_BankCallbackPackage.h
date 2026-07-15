@@ -4,15 +4,15 @@
 
 class AkCallbackManager_BankCallback;
 
-#define AKCALLBACKMANAGER_BANKCALLBACKPACKAGE__CTOR_OFFSET UNITYSDK_OFFSET(0x1B422270)
+#define AKCALLBACKMANAGER_BANKCALLBACKPACKAGE__CTOR_OFFSET UNITYSDK_OFFSET(0x1B95BE50)
 
-inline static constexpr unsigned int AkCallbackManager_BankCallbackPackage_TypeDefinitionIndex = 41209;
+inline static constexpr unsigned int AkCallbackManager_BankCallbackPackage_TypeDefinitionIndex = 42024;
 
 class AkCallbackManager_BankCallbackPackage : public ::System::Object
 {
 public:
-	::System::Object* m_Cookie; // 0x10
-	::AkCallbackManager_BankCallback* m_Callback; // 0x18
+	::AkCallbackManager_BankCallback* m_Callback; // 0x10
+	::System::Object* m_Cookie; // 0x18
 
 	::System::Void _ctor(::AkCallbackManager_BankCallback* a1, ::System::Object* a2)
 	{

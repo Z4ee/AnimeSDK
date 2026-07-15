@@ -7,13 +7,13 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class DynamicFloat; }
 namespace RPG::GameCore { class TargetEvaluator; }
 
-#define RPG_GAMECORE_REDUCESTANCERATIO_METHOD_3_329734278FBD467C_OFFSET UNITYSDK_OFFSET(0x19AB8A90)
-#define RPG_GAMECORE_REDUCESTANCERATIO_METHOD_3_99FC259B954987C1_OFFSET UNITYSDK_OFFSET(0x19AB8A00)
-#define RPG_GAMECORE_REDUCESTANCERATIO__CTOR_OFFSET UNITYSDK_OFFSET(0x19AB8A60)
+#define RPG_GAMECORE_REDUCESTANCERATIO_METHOD_3_329734278FBD467C_OFFSET UNITYSDK_OFFSET(0x1B9C0110)
+#define RPG_GAMECORE_REDUCESTANCERATIO_METHOD_3_B896ED3A0942823D_OFFSET UNITYSDK_OFFSET(0x1B9C00C0)
+#define RPG_GAMECORE_REDUCESTANCERATIO__CTOR_OFFSET UNITYSDK_OFFSET(0x1B9C0100)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ReduceStanceRatio_TypeDefinitionIndex = 22282;
+	inline static constexpr unsigned int ReduceStanceRatio_TypeDefinitionIndex = 22723;
 
 	class ReduceStanceRatio : public ::RPG::GameCore::TaskConfig
 	{
@@ -27,9 +27,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_REDUCESTANCERATIO__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_99FC259B954987C1(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ReduceStanceRatio*& a2)
+		static ::System::Void Method_3_B896ED3A0942823D(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ReduceStanceRatio*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ReduceStanceRatio*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_REDUCESTANCERATIO_METHOD_3_99FC259B954987C1_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ReduceStanceRatio*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_REDUCESTANCERATIO_METHOD_3_B896ED3A0942823D_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_329734278FBD467C(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ReduceStanceRatio* a2)

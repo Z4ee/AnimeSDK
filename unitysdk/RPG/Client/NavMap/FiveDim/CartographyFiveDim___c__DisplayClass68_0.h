@@ -4,18 +4,18 @@
 
 class Class_1_A3C62CC0DC4BD2F1;
 
-#define RPG_CLIENT_NAVMAP_FIVEDIM_CARTOGRAPHYFIVEDIM___C__DISPLAYCLASS68_0__CTOR_OFFSET UNITYSDK_OFFSET(0xC254830)
-#define RPG_CLIENT_NAVMAP_FIVEDIM_CARTOGRAPHYFIVEDIM___C__DISPLAYCLASS68_0__GETLEVELINSTANCE_B__0_OFFSET UNITYSDK_OFFSET(0xC254970)
+#define RPG_CLIENT_NAVMAP_FIVEDIM_CARTOGRAPHYFIVEDIM___C__DISPLAYCLASS68_0__CTOR_OFFSET UNITYSDK_OFFSET(0x18EBE3F0)
+#define RPG_CLIENT_NAVMAP_FIVEDIM_CARTOGRAPHYFIVEDIM___C__DISPLAYCLASS68_0__GETLEVELINSTANCE_B__0_OFFSET UNITYSDK_OFFSET(0x18EBE5C0)
 
 namespace RPG::Client::NavMap::FiveDim
 {
-	inline static constexpr unsigned int CartographyFiveDim___c__DisplayClass68_0_TypeDefinitionIndex = 69692;
+	inline static constexpr unsigned int CartographyFiveDim___c__DisplayClass68_0_TypeDefinitionIndex = 71215;
 
 	class CartographyFiveDim___c__DisplayClass68_0 : public ::System::Object
 	{
 	public:
-		::System::UInt32 groupID; // 0x10
-		::System::UInt32 instanceID; // 0x14
+		::System::UInt32 instanceID; // 0x10
+		::System::UInt32 groupID; // 0x14
 
 		::System::Void _ctor()
 		{

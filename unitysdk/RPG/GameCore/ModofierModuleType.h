@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ModofierModuleType_TypeDefinitionIndex = 10156;
+	inline static constexpr unsigned int ModofierModuleType_TypeDefinitionIndex = 10171;
 
 	enum class ModofierModuleType : ::System::Int32
 	{

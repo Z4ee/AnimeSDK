@@ -3,7 +3,7 @@
 
 namespace RPG::Client::LittleGameShare
 {
-	inline static constexpr unsigned int LittleGameClientNetMode_TypeDefinitionIndex = 34651;
+	inline static constexpr unsigned int LittleGameClientNetMode_TypeDefinitionIndex = 35317;
 
 	enum class LittleGameClientNetMode : ::System::Byte
 	{

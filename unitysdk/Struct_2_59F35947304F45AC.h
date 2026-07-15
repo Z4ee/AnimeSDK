@@ -3,9 +3,9 @@
 #include "unitysdk/RPG/GameCore/FixPoint.h"
 #include "unitysdk/System/ValueType.h"
 
-#define STRUCT_2_59F35947304F45AC_METHOD_2_1D4018D4200358D0_OFFSET UNITYSDK_OFFSET(0x82CD0)
+#define STRUCT_2_59F35947304F45AC_METHOD_2_1D4018D4200358D0_OFFSET UNITYSDK_OFFSET(0x3980330)
 
-inline static constexpr unsigned int Struct_2_59F35947304F45AC_TypeDefinitionIndex = 50888;
+inline static constexpr unsigned int Struct_2_59F35947304F45AC_TypeDefinitionIndex = 51973;
 
 struct alignas(8) Struct_2_59F35947304F45AC
 {

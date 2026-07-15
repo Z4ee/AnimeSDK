@@ -8,7 +8,7 @@ namespace System { class String; }
 namespace System::Collections { class IEnumerator; }
 namespace System::Collections::Generic { template <typename T> class IEnumerator_1; }
 
-inline static constexpr unsigned int Class_1_FBFA092366368ABD___UseActionEvent_d__81_3_TypeDefinitionIndex = 55677;
+inline static constexpr unsigned int Class_1_FBFA092366368ABD___UseActionEvent_d__81_3_TypeDefinitionIndex = 56914;
 
 template <typename T1, typename T2, typename T3>
 class Class_1_FBFA092366368ABD___UseActionEvent_d__81_3 : public ::System::Object

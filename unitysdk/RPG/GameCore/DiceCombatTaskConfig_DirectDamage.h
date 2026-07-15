@@ -7,13 +7,13 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class DynamicFloat; }
 
-#define RPG_GAMECORE_DICECOMBATTASKCONFIG_DIRECTDAMAGE_METHOD_3_92F458E212EEB284_OFFSET UNITYSDK_OFFSET(0x196B8F20)
-#define RPG_GAMECORE_DICECOMBATTASKCONFIG_DIRECTDAMAGE_METHOD_3_EC0FDD1660D0E2A9_OFFSET UNITYSDK_OFFSET(0x196B2B80)
-#define RPG_GAMECORE_DICECOMBATTASKCONFIG_DIRECTDAMAGE__CTOR_OFFSET UNITYSDK_OFFSET(0x196B2B30)
+#define RPG_GAMECORE_DICECOMBATTASKCONFIG_DIRECTDAMAGE_METHOD_3_CB9DB692EE356141_OFFSET UNITYSDK_OFFSET(0x1C1187C0)
+#define RPG_GAMECORE_DICECOMBATTASKCONFIG_DIRECTDAMAGE_METHOD_3_EC0FDD1660D0E2A9_OFFSET UNITYSDK_OFFSET(0x1C118820)
+#define RPG_GAMECORE_DICECOMBATTASKCONFIG_DIRECTDAMAGE__CTOR_OFFSET UNITYSDK_OFFSET(0x1C118810)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int DiceCombatTaskConfig_DirectDamage_TypeDefinitionIndex = 15276;
+	inline static constexpr unsigned int DiceCombatTaskConfig_DirectDamage_TypeDefinitionIndex = 15440;
 
 	class DiceCombatTaskConfig_DirectDamage : public ::RPG::GameCore::DiceCombatTaskConfig
 	{
@@ -27,9 +27,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_DICECOMBATTASKCONFIG_DIRECTDAMAGE__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_92F458E212EEB284(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::DiceCombatTaskConfig_DirectDamage*& a2)
+		static ::System::Void Method_3_CB9DB692EE356141(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::DiceCombatTaskConfig_DirectDamage*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::DiceCombatTaskConfig_DirectDamage*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_DICECOMBATTASKCONFIG_DIRECTDAMAGE_METHOD_3_92F458E212EEB284_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::DiceCombatTaskConfig_DirectDamage*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_DICECOMBATTASKCONFIG_DIRECTDAMAGE_METHOD_3_CB9DB692EE356141_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_EC0FDD1660D0E2A9(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::DiceCombatTaskConfig_DirectDamage* a2)

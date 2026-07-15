@@ -5,13 +5,13 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace SimpleJSON { class JSONNode; }
 
-#define RPG_GAMECORE_PHOTOGRAPHTARGETSIZE_METHOD_2_183CDDB08970E2FA_OFFSET UNITYSDK_OFFSET(0x19A0A570)
-#define RPG_GAMECORE_PHOTOGRAPHTARGETSIZE_METHOD_2_870379C94EB5CF3A_OFFSET UNITYSDK_OFFSET(0x19A0A6B0)
-#define RPG_GAMECORE_PHOTOGRAPHTARGETSIZE__CTOR_OFFSET UNITYSDK_OFFSET(0x19A0A6A0)
+#define RPG_GAMECORE_PHOTOGRAPHTARGETSIZE_METHOD_2_183CDDB08970E2FA_OFFSET UNITYSDK_OFFSET(0x1B4C47F0)
+#define RPG_GAMECORE_PHOTOGRAPHTARGETSIZE_METHOD_2_2718462ABEA87C89_OFFSET UNITYSDK_OFFSET(0x1B4C4930)
+#define RPG_GAMECORE_PHOTOGRAPHTARGETSIZE__CTOR_OFFSET UNITYSDK_OFFSET(0x1B4C4920)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PhotoGraphTargetSize_TypeDefinitionIndex = 20433;
+	inline static constexpr unsigned int PhotoGraphTargetSize_TypeDefinitionIndex = 20848;
 
 	class PhotoGraphTargetSize : public ::RPG::GameCore::JsonConfig
 	{
@@ -29,9 +29,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::PhotoGraphTargetSize*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PHOTOGRAPHTARGETSIZE_METHOD_2_183CDDB08970E2FA_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_2_870379C94EB5CF3A(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::PhotoGraphTargetSize*& a2)
+		static ::System::Void Method_2_2718462ABEA87C89(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::PhotoGraphTargetSize*& a2)
 		{
-			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::PhotoGraphTargetSize*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PHOTOGRAPHTARGETSIZE_METHOD_2_870379C94EB5CF3A_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::PhotoGraphTargetSize*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PHOTOGRAPHTARGETSIZE_METHOD_2_2718462ABEA87C89_OFFSET))(a1, a2);
 		}
 	};
 }

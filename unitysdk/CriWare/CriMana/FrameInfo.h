@@ -1,13 +1,14 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/CriWare/CriMana/AlphaType.h"
+#include "unitysdk/CriWare/CriMana/ColorSpaceConversionType.h"
 #include "unitysdk/System/Object.h"
 
-#define CRIWARE_CRIMANA_FRAMEINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x146CBF70)
+#define CRIWARE_CRIMANA_FRAMEINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x1BE5E290)
 
 namespace CriWare::CriMana
 {
-	inline static constexpr unsigned int FrameInfo_TypeDefinitionIndex = 37246;
+	inline static constexpr unsigned int FrameInfo_TypeDefinitionIndex = 38055;
 
 	class FrameInfo : public ::System::Object
 	{
@@ -28,6 +29,8 @@ namespace CriWare::CriMana
 		::CriWare::CriMana::AlphaType alphaType; // 0x4C
 		::System::UInt32 cntSkippedFrames; // 0x50
 		::System::UInt32 totalFramesPerFile; // 0x54
+		::CriWare::CriMana::ColorSpaceConversionType colorConv; // 0x58
+		::System::Int32 padding; // 0x5C
 
 		::System::Void _ctor()
 		{

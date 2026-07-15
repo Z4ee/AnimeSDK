@@ -5,19 +5,19 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_GRIDFIGHTROLESWITCHCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x19808220)
-#define RPG_GAMECORE_GRIDFIGHTROLESWITCHCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x198083F0)
+#define RPG_GAMECORE_GRIDFIGHTROLESWITCHCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D075360)
+#define RPG_GAMECORE_GRIDFIGHTROLESWITCHCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D075530)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int GridFightRoleSwitchConfigRow_TypeDefinitionIndex = 12888;
+	inline static constexpr unsigned int GridFightRoleSwitchConfigRow_TypeDefinitionIndex = 13036;
 
 	class GridFightRoleSwitchConfigRow : public ::System::Object
 	{
 	public:
 		::Il2CppArray<::System::UInt32>* ParamList; // 0x10
-		::System::UInt32 RoleID; // 0x18
-		::RPG::GameCore::RoleSwitchCondType Condition; // 0x1C
+		::RPG::GameCore::RoleSwitchCondType Condition; // 0x18
+		::System::UInt32 RoleID; // 0x1C
 		::System::UInt32 BaseRoleID; // 0x20
 
 		::System::Void _ctor()

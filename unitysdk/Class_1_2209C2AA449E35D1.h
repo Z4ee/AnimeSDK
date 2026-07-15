@@ -1,0 +1,229 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/RPG/GameCore/FixPoint.h"
+#include "unitysdk/System/Object.h"
+
+class Class_0_16E4307DCC419505_425;
+class Class_1_1D9727EA1575EDF4;
+class Class_1_23C1B7E6B450FFB8_4;
+class Class_1_CBA6E507755E8EB4;
+class Class_1_D294488719556168;
+class Class_2_7EA45D2647F35CDD;
+namespace RPG::GameCore { class GameEntity; }
+namespace RPG::GameCore { class PVEGameStatistics; }
+namespace RPG::GameCore { class TaskContext; }
+namespace System { class String; }
+namespace System::Collections::Generic { template <typename T> class IReadOnlyList_1; }
+namespace System::Collections::Generic { template <typename T> class List_1; }
+
+#define CLASS_1_2209C2AA449E35D1_GET_TOTALDAMAGETAKEN_OFFSET UNITYSDK_OFFSET(0x15897720)
+#define CLASS_1_2209C2AA449E35D1_GET_TOTALDAMAGE_OFFSET UNITYSDK_OFFSET(0x15897700)
+#define CLASS_1_2209C2AA449E35D1_GET_TOTALHPRECOVER_OFFSET UNITYSDK_OFFSET(0x15897740)
+#define CLASS_1_2209C2AA449E35D1_GET_TOTALMANAADD_OFFSET UNITYSDK_OFFSET(0x158976C0)
+#define CLASS_1_2209C2AA449E35D1_GET_TOTALMANACOST_OFFSET UNITYSDK_OFFSET(0x158976E0)
+#define CLASS_1_2209C2AA449E35D1_GET_TOTALSHIELDTAKEN_OFFSET UNITYSDK_OFFSET(0x15897760)
+#define CLASS_1_2209C2AA449E35D1_METHOD_1_088CB5C8A993BEE6_OFFSET UNITYSDK_OFFSET(0x158964A0)
+#define CLASS_1_2209C2AA449E35D1_METHOD_1_2559F723A82A39F2_OFFSET UNITYSDK_OFFSET(0x15897350)
+#define CLASS_1_2209C2AA449E35D1_METHOD_1_3C2E750B4D78DF48_OFFSET UNITYSDK_OFFSET(0x15896F30)
+#define CLASS_1_2209C2AA449E35D1_METHOD_1_40AF574CD5336697_OFFSET UNITYSDK_OFFSET(0x15896CA0)
+#define CLASS_1_2209C2AA449E35D1_METHOD_1_443A8FD387045C5D_OFFSET UNITYSDK_OFFSET(0x158969E0)
+#define CLASS_1_2209C2AA449E35D1_METHOD_1_55912CB55812B639_OFFSET UNITYSDK_OFFSET(0x158966B0)
+#define CLASS_1_2209C2AA449E35D1_METHOD_1_61662D64ED8D92B7_OFFSET UNITYSDK_OFFSET(0x15897190)
+#define CLASS_1_2209C2AA449E35D1_METHOD_1_67CB175E5BCA2316_OFFSET UNITYSDK_OFFSET(0x15896E30)
+#define CLASS_1_2209C2AA449E35D1_METHOD_1_693FDC0BDCE5886D_OFFSET UNITYSDK_OFFSET(0x15895FE0)
+#define CLASS_1_2209C2AA449E35D1_METHOD_1_703C685613C67520_OFFSET UNITYSDK_OFFSET(0x158974F0)
+#define CLASS_1_2209C2AA449E35D1_METHOD_1_77911CCFAC6246A2_OFFSET UNITYSDK_OFFSET(0x15895F60)
+#define CLASS_1_2209C2AA449E35D1_METHOD_1_885879C657984DE4_OFFSET UNITYSDK_OFFSET(0x15896EB0)
+#define CLASS_1_2209C2AA449E35D1_METHOD_1_90DFC48E559589E5_OFFSET UNITYSDK_OFFSET(0x15895970)
+#define CLASS_1_2209C2AA449E35D1_METHOD_1_98060E4D16CBDFE4_OFFSET UNITYSDK_OFFSET(0x15895730)
+#define CLASS_1_2209C2AA449E35D1_METHOD_1_AD890FF2759AE6DF_OFFSET UNITYSDK_OFFSET(0x15897050)
+#define CLASS_1_2209C2AA449E35D1_METHOD_1_CC15D6CD4D3CC816_1_OFFSET UNITYSDK_OFFSET(0x15895780)
+#define CLASS_1_2209C2AA449E35D1_METHOD_1_CC15D6CD4D3CC816_OFFSET UNITYSDK_OFFSET(0x15895540)
+#define CLASS_1_2209C2AA449E35D1_METHOD_1_CEBFF096B4C9D46B_OFFSET UNITYSDK_OFFSET(0x15895CE0)
+#define CLASS_1_2209C2AA449E35D1_METHOD_1_F941B64ADF94EB92_OFFSET UNITYSDK_OFFSET(0x15896D40)
+#define CLASS_1_2209C2AA449E35D1_SET_TOTALDAMAGETAKEN_OFFSET UNITYSDK_OFFSET(0x15897730)
+#define CLASS_1_2209C2AA449E35D1_SET_TOTALDAMAGE_OFFSET UNITYSDK_OFFSET(0x15897710)
+#define CLASS_1_2209C2AA449E35D1_SET_TOTALHPRECOVER_OFFSET UNITYSDK_OFFSET(0x15897750)
+#define CLASS_1_2209C2AA449E35D1_SET_TOTALMANAADD_OFFSET UNITYSDK_OFFSET(0x158976D0)
+#define CLASS_1_2209C2AA449E35D1_SET_TOTALMANACOST_OFFSET UNITYSDK_OFFSET(0x158976F0)
+#define CLASS_1_2209C2AA449E35D1_SET_TOTALSHIELDTAKEN_OFFSET UNITYSDK_OFFSET(0x15897770)
+#define CLASS_1_2209C2AA449E35D1__CTOR_OFFSET UNITYSDK_OFFSET(0x15895460)
+
+inline static constexpr unsigned int Class_1_2209C2AA449E35D1_TypeDefinitionIndex = 53469;
+
+class Class_1_2209C2AA449E35D1 : public ::System::Object
+{
+public:
+	// static const ::System::Int32 Field_1_0 = 0x7DE; // 0x0
+	// static const ::System::String* Field_1_1; // 0x0
+	::Class_2_7EA45D2647F35CDD* Field_1_2; // 0x10
+	::System::Collections::Generic::List_1<::Class_1_23C1B7E6B450FFB8_4*>* Field_1_3; // 0x18
+	::Class_1_1D9727EA1575EDF4* Field_1_4; // 0x20
+	::Il2CppArray<::System::UInt32>* Field_1_5; // 0x28
+	::RPG::GameCore::FixPoint _TotalDamageTaken_k__BackingField; // 0x30
+	::RPG::GameCore::FixPoint _TotalHpRecover_k__BackingField; // 0x38
+	::RPG::GameCore::FixPoint _TotalShieldTaken_k__BackingField; // 0x40
+	::System::UInt32 _TotalManaCost_k__BackingField; // 0x48
+	::System::UInt32 _TotalManaAdd_k__BackingField; // 0x4C
+	::RPG::GameCore::FixPoint _TotalDamage_k__BackingField; // 0x50
+
+	::System::Void _ctor(::Class_2_7EA45D2647F35CDD* a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::Class_2_7EA45D2647F35CDD*))((::PBYTE)hIl2Cpp + CLASS_1_2209C2AA449E35D1__CTOR_OFFSET))(this, a1);
+	}
+
+	::System::Void Method_1_98060E4D16CBDFE4()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_2209C2AA449E35D1_METHOD_1_98060E4D16CBDFE4_OFFSET))(this);
+	}
+
+	::System::Void Method_1_90DFC48E559589E5(::RPG::GameCore::PVEGameStatistics* a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::RPG::GameCore::PVEGameStatistics*))((::PBYTE)hIl2Cpp + CLASS_1_2209C2AA449E35D1_METHOD_1_90DFC48E559589E5_OFFSET))(this, a1);
+	}
+
+	::System::Void Method_1_CEBFF096B4C9D46B()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_2209C2AA449E35D1_METHOD_1_CEBFF096B4C9D46B_OFFSET))(this);
+	}
+
+	::System::Void Method_1_77911CCFAC6246A2(::System::Int32 a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + CLASS_1_2209C2AA449E35D1_METHOD_1_77911CCFAC6246A2_OFFSET))(this, a1);
+	}
+
+	::System::Void Method_1_693FDC0BDCE5886D(::Class_1_D294488719556168* a1, ::RPG::GameCore::TaskContext* a2)
+	{
+		return ((::System::Void(*)(::PVOID, ::Class_1_D294488719556168*, ::RPG::GameCore::TaskContext*))((::PBYTE)hIl2Cpp + CLASS_1_2209C2AA449E35D1_METHOD_1_693FDC0BDCE5886D_OFFSET))(this, a1, a2);
+	}
+
+	::System::Void Method_1_088CB5C8A993BEE6(::Class_1_D294488719556168* a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::Class_1_D294488719556168*))((::PBYTE)hIl2Cpp + CLASS_1_2209C2AA449E35D1_METHOD_1_088CB5C8A993BEE6_OFFSET))(this, a1);
+	}
+
+	::System::Int32 Method_1_55912CB55812B639(::System::Collections::Generic::IReadOnlyList_1<::Class_1_D294488719556168*>* a1, ::System::UInt32 a2)
+	{
+		return ((::System::Int32(*)(::PVOID, ::System::Collections::Generic::IReadOnlyList_1<::Class_1_D294488719556168*>*, ::System::UInt32))((::PBYTE)hIl2Cpp + CLASS_1_2209C2AA449E35D1_METHOD_1_55912CB55812B639_OFFSET))(this, a1, a2);
+	}
+
+	::System::Void Method_1_CC15D6CD4D3CC816()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_2209C2AA449E35D1_METHOD_1_CC15D6CD4D3CC816_OFFSET))(this);
+	}
+
+	::System::Void Method_1_CC15D6CD4D3CC816_1()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_2209C2AA449E35D1_METHOD_1_CC15D6CD4D3CC816_1_OFFSET))(this);
+	}
+
+	::System::Void Method_1_443A8FD387045C5D(::Class_0_16E4307DCC419505_425* a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::Class_0_16E4307DCC419505_425*))((::PBYTE)hIl2Cpp + CLASS_1_2209C2AA449E35D1_METHOD_1_443A8FD387045C5D_OFFSET))(this, a1);
+	}
+
+	::System::Void Method_1_3C2E750B4D78DF48(::Class_0_16E4307DCC419505_425* a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::Class_0_16E4307DCC419505_425*))((::PBYTE)hIl2Cpp + CLASS_1_2209C2AA449E35D1_METHOD_1_3C2E750B4D78DF48_OFFSET))(this, a1);
+	}
+
+	::System::Void Method_1_AD890FF2759AE6DF(::Class_0_16E4307DCC419505_425* a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::Class_0_16E4307DCC419505_425*))((::PBYTE)hIl2Cpp + CLASS_1_2209C2AA449E35D1_METHOD_1_AD890FF2759AE6DF_OFFSET))(this, a1);
+	}
+
+	::System::Void Method_1_61662D64ED8D92B7(::Class_0_16E4307DCC419505_425* a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::Class_0_16E4307DCC419505_425*))((::PBYTE)hIl2Cpp + CLASS_1_2209C2AA449E35D1_METHOD_1_61662D64ED8D92B7_OFFSET))(this, a1);
+	}
+
+	::System::Boolean Method_1_F941B64ADF94EB92(::RPG::GameCore::GameEntity* a1)
+	{
+		return ((::System::Boolean(*)(::PVOID, ::RPG::GameCore::GameEntity*))((::PBYTE)hIl2Cpp + CLASS_1_2209C2AA449E35D1_METHOD_1_F941B64ADF94EB92_OFFSET))(this, a1);
+	}
+
+	::System::Boolean Method_1_40AF574CD5336697(::RPG::GameCore::GameEntity* a1)
+	{
+		return ((::System::Boolean(*)(::PVOID, ::RPG::GameCore::GameEntity*))((::PBYTE)hIl2Cpp + CLASS_1_2209C2AA449E35D1_METHOD_1_40AF574CD5336697_OFFSET))(this, a1);
+	}
+
+	::Class_1_23C1B7E6B450FFB8_4* Method_1_67CB175E5BCA2316(::RPG::GameCore::GameEntity* a1)
+	{
+		return ((::Class_1_23C1B7E6B450FFB8_4*(*)(::PVOID, ::RPG::GameCore::GameEntity*))((::PBYTE)hIl2Cpp + CLASS_1_2209C2AA449E35D1_METHOD_1_67CB175E5BCA2316_OFFSET))(this, a1);
+	}
+
+	::Class_1_23C1B7E6B450FFB8_4* Method_1_2559F723A82A39F2(::System::UInt32 a1)
+	{
+		return ((::Class_1_23C1B7E6B450FFB8_4*(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + CLASS_1_2209C2AA449E35D1_METHOD_1_2559F723A82A39F2_OFFSET))(this, a1);
+	}
+
+	::Class_1_CBA6E507755E8EB4* Method_1_885879C657984DE4(::RPG::GameCore::GameEntity* a1)
+	{
+		return ((::Class_1_CBA6E507755E8EB4*(*)(::PVOID, ::RPG::GameCore::GameEntity*))((::PBYTE)hIl2Cpp + CLASS_1_2209C2AA449E35D1_METHOD_1_885879C657984DE4_OFFSET))(this, a1);
+	}
+
+	::Class_1_CBA6E507755E8EB4* Method_1_703C685613C67520(::System::UInt32 a1)
+	{
+		return ((::Class_1_CBA6E507755E8EB4*(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + CLASS_1_2209C2AA449E35D1_METHOD_1_703C685613C67520_OFFSET))(this, a1);
+	}
+
+	::System::UInt32 get_TotalManaAdd()
+	{
+		return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_2209C2AA449E35D1_GET_TOTALMANAADD_OFFSET))(this);
+	}
+
+	::System::Void set_TotalManaAdd(::System::UInt32 a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + CLASS_1_2209C2AA449E35D1_SET_TOTALMANAADD_OFFSET))(this, a1);
+	}
+
+	::System::UInt32 get_TotalManaCost()
+	{
+		return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_2209C2AA449E35D1_GET_TOTALMANACOST_OFFSET))(this);
+	}
+
+	::System::Void set_TotalManaCost(::System::UInt32 a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + CLASS_1_2209C2AA449E35D1_SET_TOTALMANACOST_OFFSET))(this, a1);
+	}
+
+	::RPG::GameCore::FixPoint get_TotalDamage()
+	{
+		return ((::RPG::GameCore::FixPoint(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_2209C2AA449E35D1_GET_TOTALDAMAGE_OFFSET))(this);
+	}
+
+	::System::Void set_TotalDamage(::RPG::GameCore::FixPoint a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::RPG::GameCore::FixPoint))((::PBYTE)hIl2Cpp + CLASS_1_2209C2AA449E35D1_SET_TOTALDAMAGE_OFFSET))(this, a1);
+	}
+
+	::RPG::GameCore::FixPoint get_TotalDamageTaken()
+	{
+		return ((::RPG::GameCore::FixPoint(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_2209C2AA449E35D1_GET_TOTALDAMAGETAKEN_OFFSET))(this);
+	}
+
+	::System::Void set_TotalDamageTaken(::RPG::GameCore::FixPoint a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::RPG::GameCore::FixPoint))((::PBYTE)hIl2Cpp + CLASS_1_2209C2AA449E35D1_SET_TOTALDAMAGETAKEN_OFFSET))(this, a1);
+	}
+
+	::RPG::GameCore::FixPoint get_TotalHpRecover()
+	{
+		return ((::RPG::GameCore::FixPoint(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_2209C2AA449E35D1_GET_TOTALHPRECOVER_OFFSET))(this);
+	}
+
+	::System::Void set_TotalHpRecover(::RPG::GameCore::FixPoint a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::RPG::GameCore::FixPoint))((::PBYTE)hIl2Cpp + CLASS_1_2209C2AA449E35D1_SET_TOTALHPRECOVER_OFFSET))(this, a1);
+	}
+
+	::RPG::GameCore::FixPoint get_TotalShieldTaken()
+	{
+		return ((::RPG::GameCore::FixPoint(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_2209C2AA449E35D1_GET_TOTALSHIELDTAKEN_OFFSET))(this);
+	}
+
+	::System::Void set_TotalShieldTaken(::RPG::GameCore::FixPoint a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::RPG::GameCore::FixPoint))((::PBYTE)hIl2Cpp + CLASS_1_2209C2AA449E35D1_SET_TOTALSHIELDTAKEN_OFFSET))(this, a1);
+	}
+};

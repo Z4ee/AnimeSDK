@@ -2,12 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define UNITYENGINE_GCFREECLOSURE_SVALUE_WRITERINIT_DOINIT_OFFSET UNITYSDK_OFFSET(0x1B297BC0)
-#define UNITYENGINE_GCFREECLOSURE_SVALUE_WRITERINIT__CCTOR_OFFSET UNITYSDK_OFFSET(0x1B2974B0)
+#define UNITYENGINE_GCFREECLOSURE_SVALUE_WRITERINIT_DOINIT_OFFSET UNITYSDK_OFFSET(0x1C17BEE0)
+#define UNITYENGINE_GCFREECLOSURE_SVALUE_WRITERINIT__CCTOR_OFFSET UNITYSDK_OFFSET(0x1C17B7B0)
 
 namespace UnityEngine::GCFreeClosure
 {
-	inline static constexpr unsigned int SValue_WriterInit_TypeDefinitionIndex = 4452;
+	inline static constexpr unsigned int SValue_WriterInit_TypeDefinitionIndex = 4457;
 
 	class SValue_WriterInit : public ::System::Object
 	{

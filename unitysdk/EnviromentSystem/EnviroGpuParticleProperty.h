@@ -14,154 +14,139 @@ namespace UnityEngine { class Material; }
 namespace UnityEngine { class Texture2D; }
 namespace UnityEngine::Rendering { class CommandBuffer; }
 
-#define ENVIROMENTSYSTEM_ENVIROGPUPARTICLEPROPERTY_METHOD_3_004598EA5EBAC892_OFFSET UNITYSDK_OFFSET(0x13594A60)
-#define ENVIROMENTSYSTEM_ENVIROGPUPARTICLEPROPERTY_METHOD_3_0A9532FAEAAC0B12_OFFSET UNITYSDK_OFFSET(0x13594980)
-#define ENVIROMENTSYSTEM_ENVIROGPUPARTICLEPROPERTY_METHOD_3_0DA2366A4A7DBAA7_OFFSET UNITYSDK_OFFSET(0x13591480)
-#define ENVIROMENTSYSTEM_ENVIROGPUPARTICLEPROPERTY_METHOD_3_153F913CE80846EE_OFFSET UNITYSDK_OFFSET(0x1358DC80)
-#define ENVIROMENTSYSTEM_ENVIROGPUPARTICLEPROPERTY_METHOD_3_2F381734DBBAB430_OFFSET UNITYSDK_OFFSET(0x13594AC0)
-#define ENVIROMENTSYSTEM_ENVIROGPUPARTICLEPROPERTY_METHOD_3_3C927B51D2142A24_OFFSET UNITYSDK_OFFSET(0x13594B30)
-#define ENVIROMENTSYSTEM_ENVIROGPUPARTICLEPROPERTY_METHOD_3_42B2BB88AE2FB02E_OFFSET UNITYSDK_OFFSET(0x1358E0E0)
-#define ENVIROMENTSYSTEM_ENVIROGPUPARTICLEPROPERTY_METHOD_3_50767E19148D64AB_OFFSET UNITYSDK_OFFSET(0x1358E8E0)
-#define ENVIROMENTSYSTEM_ENVIROGPUPARTICLEPROPERTY_METHOD_3_510117FB185393B1_OFFSET UNITYSDK_OFFSET(0x13594D70)
-#define ENVIROMENTSYSTEM_ENVIROGPUPARTICLEPROPERTY_METHOD_3_5790A55946AA509D_1_OFFSET UNITYSDK_OFFSET(0x13594AD0)
-#define ENVIROMENTSYSTEM_ENVIROGPUPARTICLEPROPERTY_METHOD_3_5790A55946AA509D_2_OFFSET UNITYSDK_OFFSET(0x13594B90)
-#define ENVIROMENTSYSTEM_ENVIROGPUPARTICLEPROPERTY_METHOD_3_5790A55946AA509D_3_OFFSET UNITYSDK_OFFSET(0x13594BF0)
-#define ENVIROMENTSYSTEM_ENVIROGPUPARTICLEPROPERTY_METHOD_3_5790A55946AA509D_4_OFFSET UNITYSDK_OFFSET(0x13594C50)
-#define ENVIROMENTSYSTEM_ENVIROGPUPARTICLEPROPERTY_METHOD_3_5790A55946AA509D_5_OFFSET UNITYSDK_OFFSET(0x13594CB0)
-#define ENVIROMENTSYSTEM_ENVIROGPUPARTICLEPROPERTY_METHOD_3_5790A55946AA509D_6_OFFSET UNITYSDK_OFFSET(0x13594D10)
-#define ENVIROMENTSYSTEM_ENVIROGPUPARTICLEPROPERTY_METHOD_3_5790A55946AA509D_OFFSET UNITYSDK_OFFSET(0x135948B0)
-#define ENVIROMENTSYSTEM_ENVIROGPUPARTICLEPROPERTY_METHOD_3_5D0BCFABEB41AF6A_OFFSET UNITYSDK_OFFSET(0x1358E160)
-#define ENVIROMENTSYSTEM_ENVIROGPUPARTICLEPROPERTY_METHOD_3_6BC96613664F3638_OFFSET UNITYSDK_OFFSET(0x13593AC0)
-#define ENVIROMENTSYSTEM_ENVIROGPUPARTICLEPROPERTY_METHOD_3_6E371F7870BE8E38_OFFSET UNITYSDK_OFFSET(0x13591590)
-#define ENVIROMENTSYSTEM_ENVIROGPUPARTICLEPROPERTY_METHOD_3_80FACD8CB3F84BED_OFFSET UNITYSDK_OFFSET(0x13594290)
-#define ENVIROMENTSYSTEM_ENVIROGPUPARTICLEPROPERTY_METHOD_3_821BBDC04720A2EB_OFFSET UNITYSDK_OFFSET(0x1358EFE0)
-#define ENVIROMENTSYSTEM_ENVIROGPUPARTICLEPROPERTY_METHOD_3_981042ED17D01D80_OFFSET UNITYSDK_OFFSET(0x13593F60)
-#define ENVIROMENTSYSTEM_ENVIROGPUPARTICLEPROPERTY_METHOD_3_984CEF7BA8F7C8D1_OFFSET UNITYSDK_OFFSET(0x1358F2D0)
-#define ENVIROMENTSYSTEM_ENVIROGPUPARTICLEPROPERTY_METHOD_3_A44A18C9451109E4_OFFSET UNITYSDK_OFFSET(0x13590DE0)
-#define ENVIROMENTSYSTEM_ENVIROGPUPARTICLEPROPERTY_METHOD_3_B00A1D822E6F5C31_OFFSET UNITYSDK_OFFSET(0x135937B0)
-#define ENVIROMENTSYSTEM_ENVIROGPUPARTICLEPROPERTY_METHOD_3_B76CD5CB3E297DF3_OFFSET UNITYSDK_OFFSET(0x1358ECB0)
-#define ENVIROMENTSYSTEM_ENVIROGPUPARTICLEPROPERTY_METHOD_3_BA9F244927357C17_OFFSET UNITYSDK_OFFSET(0x13594850)
-#define ENVIROMENTSYSTEM_ENVIROGPUPARTICLEPROPERTY_METHOD_3_C027CF3DBDF58558_OFFSET UNITYSDK_OFFSET(0x13591290)
-#define ENVIROMENTSYSTEM_ENVIROGPUPARTICLEPROPERTY_METHOD_3_C9A3013DD208C696_OFFSET UNITYSDK_OFFSET(0x13593500)
-#define ENVIROMENTSYSTEM_ENVIROGPUPARTICLEPROPERTY_METHOD_3_D155D4917B3D2C6A_OFFSET UNITYSDK_OFFSET(0x1358DFA0)
-#define ENVIROMENTSYSTEM_ENVIROGPUPARTICLEPROPERTY_METHOD_3_D8767955799CFD63_OFFSET UNITYSDK_OFFSET(0x135916E0)
-#define ENVIROMENTSYSTEM_ENVIROGPUPARTICLEPROPERTY_METHOD_3_E7B58F15867D5BA9_1_OFFSET UNITYSDK_OFFSET(0x135949F0)
-#define ENVIROMENTSYSTEM_ENVIROGPUPARTICLEPROPERTY_METHOD_3_E7B58F15867D5BA9_OFFSET UNITYSDK_OFFSET(0x13594910)
-#define ENVIROMENTSYSTEM_ENVIROGPUPARTICLEPROPERTY_METHOD_3_F63FE1AA9633F811_OFFSET UNITYSDK_OFFSET(0x13592770)
-#define ENVIROMENTSYSTEM_ENVIROGPUPARTICLEPROPERTY__CCTOR_OFFSET UNITYSDK_OFFSET(0x13594660)
-#define ENVIROMENTSYSTEM_ENVIROGPUPARTICLEPROPERTY__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1358D8A0)
-#define ENVIROMENTSYSTEM_ENVIROGPUPARTICLEPROPERTY__CTOR_OFFSET UNITYSDK_OFFSET(0x1358D760)
+#define ENVIROMENTSYSTEM_ENVIROGPUPARTICLEPROPERTY_METHOD_3_0DA2366A4A7DBAA7_OFFSET UNITYSDK_OFFSET(0xF1A0EB0)
+#define ENVIROMENTSYSTEM_ENVIROGPUPARTICLEPROPERTY_METHOD_3_153F913CE80846EE_OFFSET UNITYSDK_OFFSET(0xF19D560)
+#define ENVIROMENTSYSTEM_ENVIROGPUPARTICLEPROPERTY_METHOD_3_42B2BB88AE2FB02E_OFFSET UNITYSDK_OFFSET(0xF19D9C0)
+#define ENVIROMENTSYSTEM_ENVIROGPUPARTICLEPROPERTY_METHOD_3_50767E19148D64AB_OFFSET UNITYSDK_OFFSET(0xF19E120)
+#define ENVIROMENTSYSTEM_ENVIROGPUPARTICLEPROPERTY_METHOD_3_5D0BCFABEB41AF6A_OFFSET UNITYSDK_OFFSET(0xF19DA40)
+#define ENVIROMENTSYSTEM_ENVIROGPUPARTICLEPROPERTY_METHOD_3_6BC96613664F3638_OFFSET UNITYSDK_OFFSET(0xF1A34F0)
+#define ENVIROMENTSYSTEM_ENVIROGPUPARTICLEPROPERTY_METHOD_3_6E371F7870BE8E38_OFFSET UNITYSDK_OFFSET(0xF1A0FC0)
+#define ENVIROMENTSYSTEM_ENVIROGPUPARTICLEPROPERTY_METHOD_3_80FACD8CB3F84BED_OFFSET UNITYSDK_OFFSET(0xF1A3CC0)
+#define ENVIROMENTSYSTEM_ENVIROGPUPARTICLEPROPERTY_METHOD_3_821BBDC04720A2EB_OFFSET UNITYSDK_OFFSET(0xF19E820)
+#define ENVIROMENTSYSTEM_ENVIROGPUPARTICLEPROPERTY_METHOD_3_981042ED17D01D80_OFFSET UNITYSDK_OFFSET(0xF1A3990)
+#define ENVIROMENTSYSTEM_ENVIROGPUPARTICLEPROPERTY_METHOD_3_984CEF7BA8F7C8D1_OFFSET UNITYSDK_OFFSET(0xF19EB10)
+#define ENVIROMENTSYSTEM_ENVIROGPUPARTICLEPROPERTY_METHOD_3_A44A18C9451109E4_OFFSET UNITYSDK_OFFSET(0xF1A0810)
+#define ENVIROMENTSYSTEM_ENVIROGPUPARTICLEPROPERTY_METHOD_3_B00A1D822E6F5C31_OFFSET UNITYSDK_OFFSET(0xF1A31E0)
+#define ENVIROMENTSYSTEM_ENVIROGPUPARTICLEPROPERTY_METHOD_3_B76CD5CB3E297DF3_OFFSET UNITYSDK_OFFSET(0xF19E4F0)
+#define ENVIROMENTSYSTEM_ENVIROGPUPARTICLEPROPERTY_METHOD_3_C027CF3DBDF58558_OFFSET UNITYSDK_OFFSET(0xF1A0CC0)
+#define ENVIROMENTSYSTEM_ENVIROGPUPARTICLEPROPERTY_METHOD_3_C9A3013DD208C696_OFFSET UNITYSDK_OFFSET(0xF1A2F30)
+#define ENVIROMENTSYSTEM_ENVIROGPUPARTICLEPROPERTY_METHOD_3_D155D4917B3D2C6A_OFFSET UNITYSDK_OFFSET(0xF19D880)
+#define ENVIROMENTSYSTEM_ENVIROGPUPARTICLEPROPERTY_METHOD_3_D8767955799CFD63_OFFSET UNITYSDK_OFFSET(0xF1A1110)
+#define ENVIROMENTSYSTEM_ENVIROGPUPARTICLEPROPERTY_METHOD_3_F63FE1AA9633F811_OFFSET UNITYSDK_OFFSET(0xF1A21A0)
+#define ENVIROMENTSYSTEM_ENVIROGPUPARTICLEPROPERTY__CCTOR_OFFSET UNITYSDK_OFFSET(0xF1A4090)
+#define ENVIROMENTSYSTEM_ENVIROGPUPARTICLEPROPERTY__CTOR_1_OFFSET UNITYSDK_OFFSET(0xF19D180)
+#define ENVIROMENTSYSTEM_ENVIROGPUPARTICLEPROPERTY__CTOR_OFFSET UNITYSDK_OFFSET(0xF19D040)
 
 namespace EnviromentSystem
 {
-	inline static constexpr unsigned int EnviroGpuParticleProperty_TypeDefinitionIndex = 46779;
+	inline static constexpr unsigned int EnviroGpuParticleProperty_TypeDefinitionIndex = 47744;
 
 	class EnviroGpuParticleProperty : public ::EnviromentSystem::EnviroAssetProperty
 	{
 	public:
+		static ::System::String** StaticGet__Noise2DPath()
+		{
+			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(EnviroGpuParticleProperty_TypeDefinitionIndex)->GetStaticField(0x34CC0);
+		}
 		static ::System::Collections::Generic::List_1<::RPG::Client::GpuParticleOccluder*>** StaticGet_GpuParticleOccluders()
 		{
-			return (::System::Collections::Generic::List_1<::RPG::Client::GpuParticleOccluder*>**)Il2CppClass::FromTypeDefinitionIndex(EnviroGpuParticleProperty_TypeDefinitionIndex)->GetStaticField(0x44D60);
+			return (::System::Collections::Generic::List_1<::RPG::Client::GpuParticleOccluder*>**)Il2CppClass::FromTypeDefinitionIndex(EnviroGpuParticleProperty_TypeDefinitionIndex)->GetStaticField(0x34CC8);
 		}
 		static ::System::String** StaticGet__Noise3DPath()
 		{
-			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(EnviroGpuParticleProperty_TypeDefinitionIndex)->GetStaticField(0x44D68);
-		}
-		static ::System::String** StaticGet__Noise2DPath()
-		{
-			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(EnviroGpuParticleProperty_TypeDefinitionIndex)->GetStaticField(0x44D70);
-		}
-		static ::System::Int32* StaticGet__WindZoneBBoxMaxPosShaderID()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(EnviroGpuParticleProperty_TypeDefinitionIndex)->GetStaticField(0xC4C0);
-		}
-		static ::System::Int32* StaticGet__WindGlobalShaderID()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(EnviroGpuParticleProperty_TypeDefinitionIndex)->GetStaticField(0xC4C4);
-		}
-		static ::System::Int32* StaticGet__RangeMinOldShaderID()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(EnviroGpuParticleProperty_TypeDefinitionIndex)->GetStaticField(0xC4C8);
-		}
-		static ::System::Int32* StaticGet__NoiseTillingShaderID()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(EnviroGpuParticleProperty_TypeDefinitionIndex)->GetStaticField(0xC4CC);
-		}
-		static ::System::Int32* StaticGet__WindZoneBBoxMinPosShaderID()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(EnviroGpuParticleProperty_TypeDefinitionIndex)->GetStaticField(0xC4D0);
-		}
-		static ::System::Int32* StaticGet__NoiseTexShaderID()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(EnviroGpuParticleProperty_TypeDefinitionIndex)->GetStaticField(0xC4D4);
-		}
-		static ::System::Int32* StaticGet__PositionTexShaderID()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(EnviroGpuParticleProperty_TypeDefinitionIndex)->GetStaticField(0xC4D8);
-		}
-		static ::System::Int32* StaticGet__RangeMinShaderID()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(EnviroGpuParticleProperty_TypeDefinitionIndex)->GetStaticField(0xC4DC);
-		}
-		static ::System::Int32* StaticGet__SpeedTexReadShaderID()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(EnviroGpuParticleProperty_TypeDefinitionIndex)->GetStaticField(0xC4E0);
-		}
-		static ::System::Int32* StaticGet__WindScaleShaderID()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(EnviroGpuParticleProperty_TypeDefinitionIndex)->GetStaticField(0xC4E4);
-		}
-		static ::System::Int32* StaticGet__WindZoneShaderID()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(EnviroGpuParticleProperty_TypeDefinitionIndex)->GetStaticField(0xC4E8);
-		}
-		static ::System::Int32* StaticGet__RandomSizeShaderID()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(EnviroGpuParticleProperty_TypeDefinitionIndex)->GetStaticField(0xC4EC);
-		}
-		static ::System::Int32* StaticGet__Occluder()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(EnviroGpuParticleProperty_TypeDefinitionIndex)->GetStaticField(0xC4F0);
-		}
-		static ::System::Int32* StaticGet__SpeedTexShaderID()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(EnviroGpuParticleProperty_TypeDefinitionIndex)->GetStaticField(0xC4F4);
-		}
-		static ::System::Int32* StaticGet__DeltaTimeShaderID()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(EnviroGpuParticleProperty_TypeDefinitionIndex)->GetStaticField(0xC4F8);
-		}
-		static ::System::Int32* StaticGet__GpuParticleOccluderID()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(EnviroGpuParticleProperty_TypeDefinitionIndex)->GetStaticField(0xC4FC);
-		}
-		static ::System::Int32* StaticGet__TimeShaderID()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(EnviroGpuParticleProperty_TypeDefinitionIndex)->GetStaticField(0xC500);
-		}
-		static ::System::Int32* StaticGet__NoiseTex2DShaderID()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(EnviroGpuParticleProperty_TypeDefinitionIndex)->GetStaticField(0xC504);
-		}
-		static ::System::Int32* StaticGet__RangeMaxShaderID()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(EnviroGpuParticleProperty_TypeDefinitionIndex)->GetStaticField(0xC508);
-		}
-		static ::System::Int32* StaticGet__NoiseScaleShaderID()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(EnviroGpuParticleProperty_TypeDefinitionIndex)->GetStaticField(0xC50C);
+			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(EnviroGpuParticleProperty_TypeDefinitionIndex)->GetStaticField(0x34CD0);
 		}
 		static ::System::Int32* StaticGet__PositionTexReadShaderID()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(EnviroGpuParticleProperty_TypeDefinitionIndex)->GetStaticField(0xC510);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(EnviroGpuParticleProperty_TypeDefinitionIndex)->GetStaticField(0x8AB0);
+		}
+		static ::System::Int32* StaticGet__NoiseTexShaderID()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(EnviroGpuParticleProperty_TypeDefinitionIndex)->GetStaticField(0x8AB4);
+		}
+		static ::System::Int32* StaticGet__WindZoneBBoxMaxPosShaderID()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(EnviroGpuParticleProperty_TypeDefinitionIndex)->GetStaticField(0x8AB8);
+		}
+		static ::System::Int32* StaticGet__WindScaleShaderID()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(EnviroGpuParticleProperty_TypeDefinitionIndex)->GetStaticField(0x8ABC);
+		}
+		static ::System::Int32* StaticGet__TimeShaderID()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(EnviroGpuParticleProperty_TypeDefinitionIndex)->GetStaticField(0x8AC0);
+		}
+		static ::System::Int32* StaticGet__WindZoneBBoxMinPosShaderID()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(EnviroGpuParticleProperty_TypeDefinitionIndex)->GetStaticField(0x8AC4);
+		}
+		static ::System::Int32* StaticGet__PositionTexShaderID()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(EnviroGpuParticleProperty_TypeDefinitionIndex)->GetStaticField(0x8AC8);
+		}
+		static ::System::Int32* StaticGet__GpuParticleOccluderID()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(EnviroGpuParticleProperty_TypeDefinitionIndex)->GetStaticField(0x8ACC);
+		}
+		static ::System::Int32* StaticGet__RandomSizeShaderID()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(EnviroGpuParticleProperty_TypeDefinitionIndex)->GetStaticField(0x8AD0);
+		}
+		static ::System::Int32* StaticGet__WindZoneShaderID()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(EnviroGpuParticleProperty_TypeDefinitionIndex)->GetStaticField(0x8AD4);
+		}
+		static ::System::Int32* StaticGet__WindGlobalShaderID()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(EnviroGpuParticleProperty_TypeDefinitionIndex)->GetStaticField(0x8AD8);
+		}
+		static ::System::Int32* StaticGet__RangeMinOldShaderID()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(EnviroGpuParticleProperty_TypeDefinitionIndex)->GetStaticField(0x8ADC);
+		}
+		static ::System::Int32* StaticGet__NoiseScaleShaderID()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(EnviroGpuParticleProperty_TypeDefinitionIndex)->GetStaticField(0x8AE0);
 		}
 		static ::System::Int32* StaticGet__RangeMaxOldShaderID()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(EnviroGpuParticleProperty_TypeDefinitionIndex)->GetStaticField(0xC514);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(EnviroGpuParticleProperty_TypeDefinitionIndex)->GetStaticField(0x8AE4);
+		}
+		static ::System::Int32* StaticGet__RangeMaxShaderID()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(EnviroGpuParticleProperty_TypeDefinitionIndex)->GetStaticField(0x8AE8);
+		}
+		static ::System::Int32* StaticGet__NoiseTillingShaderID()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(EnviroGpuParticleProperty_TypeDefinitionIndex)->GetStaticField(0x8AEC);
 		}
 		static ::System::Int32* StaticGet__OccluderAsVolumeID()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(EnviroGpuParticleProperty_TypeDefinitionIndex)->GetStaticField(0xC518);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(EnviroGpuParticleProperty_TypeDefinitionIndex)->GetStaticField(0x8AF0);
+		}
+		static ::System::Int32* StaticGet__Occluder()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(EnviroGpuParticleProperty_TypeDefinitionIndex)->GetStaticField(0x8AF4);
+		}
+		static ::System::Int32* StaticGet__DeltaTimeShaderID()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(EnviroGpuParticleProperty_TypeDefinitionIndex)->GetStaticField(0x8AF8);
+		}
+		static ::System::Int32* StaticGet__RangeMinShaderID()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(EnviroGpuParticleProperty_TypeDefinitionIndex)->GetStaticField(0x8AFC);
+		}
+		static ::System::Int32* StaticGet__NoiseTex2DShaderID()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(EnviroGpuParticleProperty_TypeDefinitionIndex)->GetStaticField(0x8B00);
+		}
+		static ::System::Int32* StaticGet__SpeedTexReadShaderID()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(EnviroGpuParticleProperty_TypeDefinitionIndex)->GetStaticField(0x8B04);
+		}
+		static ::System::Int32* StaticGet__SpeedTexShaderID()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(EnviroGpuParticleProperty_TypeDefinitionIndex)->GetStaticField(0x8B08);
 		}
 		::System::Boolean OnlyInHighQuality; // 0x50
 		::System::Boolean OccluderAsVolume; // 0x51
@@ -280,81 +265,6 @@ namespace EnviromentSystem
 		::System::Void Method_3_A44A18C9451109E4()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + ENVIROMENTSYSTEM_ENVIROGPUPARTICLEPROPERTY_METHOD_3_A44A18C9451109E4_OFFSET))(this);
-		}
-
-		::System::Boolean Method_3_BA9F244927357C17(::EnviromentSystem::EnviroProperty* a1)
-		{
-			return ((::System::Boolean(*)(::PVOID, ::EnviromentSystem::EnviroProperty*))((::PBYTE)hIl2Cpp + ENVIROMENTSYSTEM_ENVIROGPUPARTICLEPROPERTY_METHOD_3_BA9F244927357C17_OFFSET))(this, a1);
-		}
-
-		::System::Void Method_3_5790A55946AA509D()
-		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + ENVIROMENTSYSTEM_ENVIROGPUPARTICLEPROPERTY_METHOD_3_5790A55946AA509D_OFFSET))(this);
-		}
-
-		::System::Void Method_3_E7B58F15867D5BA9(::EnviromentSystem::EnviroProperty* a1)
-		{
-			return ((::System::Void(*)(::PVOID, ::EnviromentSystem::EnviroProperty*))((::PBYTE)hIl2Cpp + ENVIROMENTSYSTEM_ENVIROGPUPARTICLEPROPERTY_METHOD_3_E7B58F15867D5BA9_OFFSET))(this, a1);
-		}
-
-		::System::Void Method_3_0A9532FAEAAC0B12(::System::Single a1)
-		{
-			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + ENVIROMENTSYSTEM_ENVIROGPUPARTICLEPROPERTY_METHOD_3_0A9532FAEAAC0B12_OFFSET))(this, a1);
-		}
-
-		::System::Void Method_3_E7B58F15867D5BA9_1(::EnviromentSystem::EnviroProperty* a1)
-		{
-			return ((::System::Void(*)(::PVOID, ::EnviromentSystem::EnviroProperty*))((::PBYTE)hIl2Cpp + ENVIROMENTSYSTEM_ENVIROGPUPARTICLEPROPERTY_METHOD_3_E7B58F15867D5BA9_1_OFFSET))(this, a1);
-		}
-
-		::System::Void Method_3_004598EA5EBAC892(::UnityEngine::Rendering::CommandBuffer* a1)
-		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Rendering::CommandBuffer*))((::PBYTE)hIl2Cpp + ENVIROMENTSYSTEM_ENVIROGPUPARTICLEPROPERTY_METHOD_3_004598EA5EBAC892_OFFSET))(this, a1);
-		}
-
-		::System::Void Method_3_2F381734DBBAB430()
-		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + ENVIROMENTSYSTEM_ENVIROGPUPARTICLEPROPERTY_METHOD_3_2F381734DBBAB430_OFFSET))(this);
-		}
-
-		::System::Void Method_3_5790A55946AA509D_1()
-		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + ENVIROMENTSYSTEM_ENVIROGPUPARTICLEPROPERTY_METHOD_3_5790A55946AA509D_1_OFFSET))(this);
-		}
-
-		::System::Void Method_3_3C927B51D2142A24(::System::Single a1)
-		{
-			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + ENVIROMENTSYSTEM_ENVIROGPUPARTICLEPROPERTY_METHOD_3_3C927B51D2142A24_OFFSET))(this, a1);
-		}
-
-		::System::Void Method_3_5790A55946AA509D_2()
-		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + ENVIROMENTSYSTEM_ENVIROGPUPARTICLEPROPERTY_METHOD_3_5790A55946AA509D_2_OFFSET))(this);
-		}
-
-		::System::Void Method_3_5790A55946AA509D_3()
-		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + ENVIROMENTSYSTEM_ENVIROGPUPARTICLEPROPERTY_METHOD_3_5790A55946AA509D_3_OFFSET))(this);
-		}
-
-		::System::Void Method_3_5790A55946AA509D_4()
-		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + ENVIROMENTSYSTEM_ENVIROGPUPARTICLEPROPERTY_METHOD_3_5790A55946AA509D_4_OFFSET))(this);
-		}
-
-		::System::Void Method_3_5790A55946AA509D_5()
-		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + ENVIROMENTSYSTEM_ENVIROGPUPARTICLEPROPERTY_METHOD_3_5790A55946AA509D_5_OFFSET))(this);
-		}
-
-		::System::Void Method_3_5790A55946AA509D_6()
-		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + ENVIROMENTSYSTEM_ENVIROGPUPARTICLEPROPERTY_METHOD_3_5790A55946AA509D_6_OFFSET))(this);
-		}
-
-		::System::Void Method_3_510117FB185393B1(::System::Collections::Generic::List_1<::System::String*>*& a1, ::System::Collections::Generic::List_1<::System::Type*>*& a2)
-		{
-			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::System::String*>*&, ::System::Collections::Generic::List_1<::System::Type*>*&))((::PBYTE)hIl2Cpp + ENVIROMENTSYSTEM_ENVIROGPUPARTICLEPROPERTY_METHOD_3_510117FB185393B1_OFFSET))(this, a1, a2);
 		}
 	};
 }

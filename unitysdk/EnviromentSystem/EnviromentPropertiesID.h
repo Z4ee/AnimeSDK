@@ -3,7 +3,7 @@
 
 namespace EnviromentSystem
 {
-	inline static constexpr unsigned int EnviromentPropertiesID_TypeDefinitionIndex = 46764;
+	inline static constexpr unsigned int EnviromentPropertiesID_TypeDefinitionIndex = 47729;
 
 	enum class EnviromentPropertiesID : ::System::Int32
 	{

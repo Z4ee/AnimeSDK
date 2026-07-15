@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int CameraDataAndFlags_DisableCameraProtectReason_TypeDefinitionIndex = 65018;
+	inline static constexpr unsigned int CameraDataAndFlags_DisableCameraProtectReason_TypeDefinitionIndex = 66423;
 
 	enum class CameraDataAndFlags_DisableCameraProtectReason : ::System::Int32
 	{
@@ -12,5 +12,6 @@ namespace RPG::Client
 		Ghost = 4,
 		Chimera = 8,
 		LittleGame = 16,
+		Task = 32,
 	};
 }

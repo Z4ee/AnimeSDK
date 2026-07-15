@@ -4,13 +4,13 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_RESETTREASURECHALLENGE_METHOD_3_1BA4639635945A4C_OFFSET UNITYSDK_OFFSET(0x19AD06C0)
-#define RPG_GAMECORE_RESETTREASURECHALLENGE_METHOD_3_B226B83761C83CD8_OFFSET UNITYSDK_OFFSET(0x19AD07D0)
-#define RPG_GAMECORE_RESETTREASURECHALLENGE__CTOR_OFFSET UNITYSDK_OFFSET(0x19AD07A0)
+#define RPG_GAMECORE_RESETTREASURECHALLENGE_METHOD_3_B226B83761C83CD8_OFFSET UNITYSDK_OFFSET(0x1D01CE80)
+#define RPG_GAMECORE_RESETTREASURECHALLENGE_METHOD_3_C67653EE8A2E3915_OFFSET UNITYSDK_OFFSET(0x1D01CDB0)
+#define RPG_GAMECORE_RESETTREASURECHALLENGE__CTOR_OFFSET UNITYSDK_OFFSET(0x1D01CE70)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ResetTreasureChallenge_TypeDefinitionIndex = 19332;
+	inline static constexpr unsigned int ResetTreasureChallenge_TypeDefinitionIndex = 19688;
 
 	class ResetTreasureChallenge : public ::RPG::GameCore::TaskConfig
 	{
@@ -20,9 +20,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_RESETTREASURECHALLENGE__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_1BA4639635945A4C(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ResetTreasureChallenge*& a2)
+		static ::System::Void Method_3_C67653EE8A2E3915(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ResetTreasureChallenge*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ResetTreasureChallenge*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_RESETTREASURECHALLENGE_METHOD_3_1BA4639635945A4C_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ResetTreasureChallenge*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_RESETTREASURECHALLENGE_METHOD_3_C67653EE8A2E3915_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_B226B83761C83CD8(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ResetTreasureChallenge* a2)

@@ -4,7 +4,7 @@
 
 namespace System::Runtime::CompilerServices
 {
-	inline static constexpr unsigned int StrongBox_1_TypeDefinitionIndex = 3660;
+	inline static constexpr unsigned int StrongBox_1_TypeDefinitionIndex = 3664;
 
 	template <typename T>
 	class StrongBox_1 : public ::System::Object

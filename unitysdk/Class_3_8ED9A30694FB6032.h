@@ -2,10 +2,10 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/Client/OpenWorld/VolumeParameter_1.h"
 
-#define CLASS_3_8ED9A30694FB6032_INTERP_OFFSET UNITYSDK_OFFSET(0x13C45600)
-#define CLASS_3_8ED9A30694FB6032__CTOR_OFFSET UNITYSDK_OFFSET(0x13C455B0)
+#define CLASS_3_8ED9A30694FB6032_INTERP_OFFSET UNITYSDK_OFFSET(0x17A3C870)
+#define CLASS_3_8ED9A30694FB6032__CTOR_OFFSET UNITYSDK_OFFSET(0x17A3C820)
 
-inline static constexpr unsigned int Class_3_8ED9A30694FB6032_TypeDefinitionIndex = 69088;
+inline static constexpr unsigned int Class_3_8ED9A30694FB6032_TypeDefinitionIndex = 70607;
 
 class Class_3_8ED9A30694FB6032 : public ::RPG::Client::OpenWorld::VolumeParameter_1<::System::Single>
 {

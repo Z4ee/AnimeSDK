@@ -5,13 +5,13 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class TargetEvaluator; }
 
-#define RPG_GAMECORE_RADIALBLUREFFECT_METHOD_3_D01B3431BA9AC6C1_OFFSET UNITYSDK_OFFSET(0x19AA9A90)
-#define RPG_GAMECORE_RADIALBLUREFFECT_METHOD_3_E3C802F5AAEE10D2_OFFSET UNITYSDK_OFFSET(0x19AA9BB0)
-#define RPG_GAMECORE_RADIALBLUREFFECT__CTOR_OFFSET UNITYSDK_OFFSET(0x19AA9B30)
+#define RPG_GAMECORE_RADIALBLUREFFECT_METHOD_3_612E074C11780892_OFFSET UNITYSDK_OFFSET(0x1B9B1870)
+#define RPG_GAMECORE_RADIALBLUREFFECT_METHOD_3_E3C802F5AAEE10D2_OFFSET UNITYSDK_OFFSET(0x1B9B1950)
+#define RPG_GAMECORE_RADIALBLUREFFECT__CTOR_OFFSET UNITYSDK_OFFSET(0x1B9B18F0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RadialBlurEffect_TypeDefinitionIndex = 19119;
+	inline static constexpr unsigned int RadialBlurEffect_TypeDefinitionIndex = 19475;
 
 	class RadialBlurEffect : public ::RPG::GameCore::TaskConfig
 	{
@@ -32,9 +32,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_RADIALBLUREFFECT__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_D01B3431BA9AC6C1(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::RadialBlurEffect*& a2)
+		static ::System::Void Method_3_612E074C11780892(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::RadialBlurEffect*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::RadialBlurEffect*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_RADIALBLUREFFECT_METHOD_3_D01B3431BA9AC6C1_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::RadialBlurEffect*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_RADIALBLUREFFECT_METHOD_3_612E074C11780892_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_E3C802F5AAEE10D2(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::RadialBlurEffect* a2)

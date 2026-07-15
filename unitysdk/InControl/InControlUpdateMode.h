@@ -3,7 +3,7 @@
 
 namespace InControl
 {
-	inline static constexpr unsigned int InControlUpdateMode_TypeDefinitionIndex = 37850;
+	inline static constexpr unsigned int InControlUpdateMode_TypeDefinitionIndex = 38658;
 
 	enum class InControlUpdateMode : ::System::Int32
 	{

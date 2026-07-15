@@ -11,45 +11,45 @@ namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Concurrent { template <typename T1, typename T2> class ConcurrentDictionary_2; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_ACTIVITYPUNKLORDREWARDEXCELTABLE_GETDATA_OFFSET UNITYSDK_OFFSET(0x193F7B30)
-#define RPG_GAMECORE_ACTIVITYPUNKLORDREWARDEXCELTABLE_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x193F79C0)
-#define RPG_GAMECORE_ACTIVITYPUNKLORDREWARDEXCELTABLE_GET_DATADICT_OFFSET UNITYSDK_OFFSET(0x193F76B0)
-#define RPG_GAMECORE_ACTIVITYPUNKLORDREWARDEXCELTABLE_ISDATAEMPTY_OFFSET UNITYSDK_OFFSET(0x193F7960)
-#define RPG_GAMECORE_ACTIVITYPUNKLORDREWARDEXCELTABLE_ISDATALOADED_OFFSET UNITYSDK_OFFSET(0x193F7CC0)
-#define RPG_GAMECORE_ACTIVITYPUNKLORDREWARDEXCELTABLE_LOADDATA_OFFSET UNITYSDK_OFFSET(0x193F7730)
-#define RPG_GAMECORE_ACTIVITYPUNKLORDREWARDEXCELTABLE_UNLOADDATA_OFFSET UNITYSDK_OFFSET(0x193F7D00)
-#define RPG_GAMECORE_ACTIVITYPUNKLORDREWARDEXCELTABLE__ADDITEMFROMBINARY_OFFSET UNITYSDK_OFFSET(0x193F7ED0)
-#define RPG_GAMECORE_ACTIVITYPUNKLORDREWARDEXCELTABLE__ADDITEM_OFFSET UNITYSDK_OFFSET(0x193F8120)
-#define RPG_GAMECORE_ACTIVITYPUNKLORDREWARDEXCELTABLE__CCTOR_OFFSET UNITYSDK_OFFSET(0x193F8490)
-#define RPG_GAMECORE_ACTIVITYPUNKLORDREWARDEXCELTABLE__LOADDATAINCREMENTIAL_OFFSET UNITYSDK_OFFSET(0x193F7E30)
-#define RPG_GAMECORE_ACTIVITYPUNKLORDREWARDEXCELTABLE__LOADDATA_OFFSET UNITYSDK_OFFSET(0x193F7D90)
+#define RPG_GAMECORE_ACTIVITYPUNKLORDREWARDEXCELTABLE_GETDATA_OFFSET UNITYSDK_OFFSET(0x1AB00620)
+#define RPG_GAMECORE_ACTIVITYPUNKLORDREWARDEXCELTABLE_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x1AB004B0)
+#define RPG_GAMECORE_ACTIVITYPUNKLORDREWARDEXCELTABLE_GET_DATADICT_OFFSET UNITYSDK_OFFSET(0x1AB001A0)
+#define RPG_GAMECORE_ACTIVITYPUNKLORDREWARDEXCELTABLE_ISDATAEMPTY_OFFSET UNITYSDK_OFFSET(0x1AB00450)
+#define RPG_GAMECORE_ACTIVITYPUNKLORDREWARDEXCELTABLE_ISDATALOADED_OFFSET UNITYSDK_OFFSET(0x1AB007B0)
+#define RPG_GAMECORE_ACTIVITYPUNKLORDREWARDEXCELTABLE_LOADDATA_OFFSET UNITYSDK_OFFSET(0x1AB00220)
+#define RPG_GAMECORE_ACTIVITYPUNKLORDREWARDEXCELTABLE_UNLOADDATA_OFFSET UNITYSDK_OFFSET(0x1AB007F0)
+#define RPG_GAMECORE_ACTIVITYPUNKLORDREWARDEXCELTABLE__ADDITEMFROMBINARY_OFFSET UNITYSDK_OFFSET(0x1AB009C0)
+#define RPG_GAMECORE_ACTIVITYPUNKLORDREWARDEXCELTABLE__ADDITEM_OFFSET UNITYSDK_OFFSET(0x1AB00C10)
+#define RPG_GAMECORE_ACTIVITYPUNKLORDREWARDEXCELTABLE__CCTOR_OFFSET UNITYSDK_OFFSET(0x1AB00F80)
+#define RPG_GAMECORE_ACTIVITYPUNKLORDREWARDEXCELTABLE__LOADDATAINCREMENTIAL_OFFSET UNITYSDK_OFFSET(0x1AB00920)
+#define RPG_GAMECORE_ACTIVITYPUNKLORDREWARDEXCELTABLE__LOADDATA_OFFSET UNITYSDK_OFFSET(0x1AB00880)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ActivityPunkLordRewardExcelTable_TypeDefinitionIndex = 11722;
+	inline static constexpr unsigned int ActivityPunkLordRewardExcelTable_TypeDefinitionIndex = 11822;
 
 	class ActivityPunkLordRewardExcelTable : public ::System::Object
 	{
 	public:
 		static ::Il2CppArray<::System::String*>** StaticGet_s_PathList()
 		{
-			return (::Il2CppArray<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(ActivityPunkLordRewardExcelTable_TypeDefinitionIndex)->GetStaticField(0x5B5A0);
+			return (::Il2CppArray<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(ActivityPunkLordRewardExcelTable_TypeDefinitionIndex)->GetStaticField(0x1AC20);
 		}
 		static ::System::Action_1<::Class_1_7A22A3DBEEDD1F80*>** StaticGet__AddItemFromBinary_ActionInst()
 		{
-			return (::System::Action_1<::Class_1_7A22A3DBEEDD1F80*>**)Il2CppClass::FromTypeDefinitionIndex(ActivityPunkLordRewardExcelTable_TypeDefinitionIndex)->GetStaticField(0x5B5A8);
+			return (::System::Action_1<::Class_1_7A22A3DBEEDD1F80*>**)Il2CppClass::FromTypeDefinitionIndex(ActivityPunkLordRewardExcelTable_TypeDefinitionIndex)->GetStaticField(0x1AC28);
 		}
 		static ::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::ActivityPunkLordRewardRow*>** StaticGet_dataDict_()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::ActivityPunkLordRewardRow*>**)Il2CppClass::FromTypeDefinitionIndex(ActivityPunkLordRewardExcelTable_TypeDefinitionIndex)->GetStaticField(0x5B5B0);
+			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::ActivityPunkLordRewardRow*>**)Il2CppClass::FromTypeDefinitionIndex(ActivityPunkLordRewardExcelTable_TypeDefinitionIndex)->GetStaticField(0x1AC30);
 		}
 		static ::System::Boolean* StaticGet_isDataLoaded()
 		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(ActivityPunkLordRewardExcelTable_TypeDefinitionIndex)->GetStaticField(0x11DC0);
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(ActivityPunkLordRewardExcelTable_TypeDefinitionIndex)->GetStaticField(0x62D0);
 		}
 		static ::System::Byte* StaticGet_HashIndex()
 		{
-			return (::System::Byte*)Il2CppClass::FromTypeDefinitionIndex(ActivityPunkLordRewardExcelTable_TypeDefinitionIndex)->GetStaticField(0x11DC1);
+			return (::System::Byte*)Il2CppClass::FromTypeDefinitionIndex(ActivityPunkLordRewardExcelTable_TypeDefinitionIndex)->GetStaticField(0x62D1);
 		}
 
 		static ::System::Void _cctor()

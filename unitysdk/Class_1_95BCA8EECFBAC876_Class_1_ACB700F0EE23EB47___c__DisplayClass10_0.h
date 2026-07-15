@@ -4,16 +4,16 @@
 
 namespace System { class Action; }
 
-#define CLASS_1_95BCA8EECFBAC876_CLASS_1_ACB700F0EE23EB47___C__DISPLAYCLASS10_0__CTOR_OFFSET UNITYSDK_OFFSET(0xA7D5570)
+#define CLASS_1_95BCA8EECFBAC876_CLASS_1_ACB700F0EE23EB47___C__DISPLAYCLASS10_0__CTOR_OFFSET UNITYSDK_OFFSET(0x16A65950)
 
-inline static constexpr unsigned int Class_1_95BCA8EECFBAC876_Class_1_ACB700F0EE23EB47___c__DisplayClass10_0_TypeDefinitionIndex = 46356;
+inline static constexpr unsigned int Class_1_95BCA8EECFBAC876_Class_1_ACB700F0EE23EB47___c__DisplayClass10_0_TypeDefinitionIndex = 47321;
 
 class Class_1_95BCA8EECFBAC876_Class_1_ACB700F0EE23EB47___c__DisplayClass10_0 : public ::System::Object
 {
 public:
 	::System::Action* onAllLoadingfinish; // 0x10
-	::System::Int32 loadedCount; // 0x18
-	::System::Int32 totalCount; // 0x1C
+	::System::Int32 totalCount; // 0x18
+	::System::Int32 loadedCount; // 0x1C
 
 	::System::Void _ctor()
 	{

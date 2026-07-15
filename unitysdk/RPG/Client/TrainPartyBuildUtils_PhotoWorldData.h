@@ -5,7 +5,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int TrainPartyBuildUtils_PhotoWorldData_TypeDefinitionIndex = 63781;
+	inline static constexpr unsigned int TrainPartyBuildUtils_PhotoWorldData_TypeDefinitionIndex = 65149;
 
 	struct alignas(8) TrainPartyBuildUtils_PhotoWorldData
 	{

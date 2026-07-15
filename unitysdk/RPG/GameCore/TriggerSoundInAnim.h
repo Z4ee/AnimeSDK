@@ -6,13 +6,13 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_TRIGGERSOUNDINANIM_METHOD_3_7E84322EF5ABD222_OFFSET UNITYSDK_OFFSET(0x19E1EAA0)
-#define RPG_GAMECORE_TRIGGERSOUNDINANIM_METHOD_3_E59908B870ED60D9_OFFSET UNITYSDK_OFFSET(0x19E1EB30)
-#define RPG_GAMECORE_TRIGGERSOUNDINANIM__CTOR_OFFSET UNITYSDK_OFFSET(0x19E1EB00)
+#define RPG_GAMECORE_TRIGGERSOUNDINANIM_METHOD_3_E59908B870ED60D9_OFFSET UNITYSDK_OFFSET(0x1B0607B0)
+#define RPG_GAMECORE_TRIGGERSOUNDINANIM_METHOD_3_E7C9A0568E289A38_OFFSET UNITYSDK_OFFSET(0x1B060760)
+#define RPG_GAMECORE_TRIGGERSOUNDINANIM__CTOR_OFFSET UNITYSDK_OFFSET(0x1B0607A0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TriggerSoundInAnim_TypeDefinitionIndex = 21153;
+	inline static constexpr unsigned int TriggerSoundInAnim_TypeDefinitionIndex = 21568;
 
 	class TriggerSoundInAnim : public ::RPG::GameCore::TaskConfig
 	{
@@ -28,9 +28,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TRIGGERSOUNDINANIM__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_7E84322EF5ABD222(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::TriggerSoundInAnim*& a2)
+		static ::System::Void Method_3_E7C9A0568E289A38(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::TriggerSoundInAnim*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::TriggerSoundInAnim*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TRIGGERSOUNDINANIM_METHOD_3_7E84322EF5ABD222_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::TriggerSoundInAnim*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TRIGGERSOUNDINANIM_METHOD_3_E7C9A0568E289A38_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_E59908B870ED60D9(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::TriggerSoundInAnim* a2)

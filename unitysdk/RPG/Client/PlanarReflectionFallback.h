@@ -8,13 +8,12 @@ namespace RPG::Client::TAUtils { class RendererSlotMaterialPaths; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_PLANARREFLECTIONFALLBACK_GETTICKLODTEMPLATENAME_OFFSET UNITYSDK_OFFSET(0xC3F1890)
-#define RPG_CLIENT_PLANARREFLECTIONFALLBACK__CTOR_OFFSET UNITYSDK_OFFSET(0xC3F18E0)
-#define RPG_CLIENT_PLANARREFLECTIONFALLBACK___IFIXBASEPROXY_GETTICKLODTEMPLATENAME_OFFSET UNITYSDK_OFFSET(0xC3F18F0)
+#define RPG_CLIENT_PLANARREFLECTIONFALLBACK_GETTICKLODTEMPLATENAME_OFFSET UNITYSDK_OFFSET(0x1A0E6860)
+#define RPG_CLIENT_PLANARREFLECTIONFALLBACK__CTOR_OFFSET UNITYSDK_OFFSET(0x1A0E68B0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int PlanarReflectionFallback_TypeDefinitionIndex = 65727;
+	inline static constexpr unsigned int PlanarReflectionFallback_TypeDefinitionIndex = 67144;
 
 	class PlanarReflectionFallback : public ::RPG::Client::TAMonoPlugin_1<::RPG::Client::PlanarReflectionFallbackBehavior*>
 	{
@@ -32,11 +31,6 @@ namespace RPG::Client
 		::System::String* GetTickLodTemplateName()
 		{
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PLANARREFLECTIONFALLBACK_GETTICKLODTEMPLATENAME_OFFSET))(this);
-		}
-
-		::System::String* __iFixBaseProxy_GetTickLodTemplateName()
-		{
-			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PLANARREFLECTIONFALLBACK___IFIXBASEPROXY_GETTICKLODTEMPLATENAME_OFFSET))(this);
 		}
 	};
 }

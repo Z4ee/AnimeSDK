@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MapPregressShowType_TypeDefinitionIndex = 10140;
+	inline static constexpr unsigned int MapPregressShowType_TypeDefinitionIndex = 10155;
 
 	enum class MapPregressShowType : ::System::Int32
 	{

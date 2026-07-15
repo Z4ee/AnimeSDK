@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int StackAdditivePropertyOp_TypeDefinitionIndex = 15313;
+	inline static constexpr unsigned int StackAdditivePropertyOp_TypeDefinitionIndex = 15477;
 
 	enum class StackAdditivePropertyOp : ::System::Int32
 	{

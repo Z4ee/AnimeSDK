@@ -5,18 +5,18 @@
 namespace RPG::Client::Prop { class OraclePuzzlePanel; }
 namespace System { class Action; }
 
-#define RPG_CLIENT_PROP_ORACLEPUZZLEPANEL___C__DISPLAYCLASS10_0__CTOR_OFFSET UNITYSDK_OFFSET(0xC5C8F50)
-#define RPG_CLIENT_PROP_ORACLEPUZZLEPANEL___C__DISPLAYCLASS10_0__STARTFADEOUTPERFORM_B__0_OFFSET UNITYSDK_OFFSET(0xC5CA1B0)
+#define RPG_CLIENT_PROP_ORACLEPUZZLEPANEL___C__DISPLAYCLASS10_0__CTOR_OFFSET UNITYSDK_OFFSET(0x14F0B600)
+#define RPG_CLIENT_PROP_ORACLEPUZZLEPANEL___C__DISPLAYCLASS10_0__STARTFADEOUTPERFORM_B__0_OFFSET UNITYSDK_OFFSET(0x14F0CDD0)
 
 namespace RPG::Client::Prop
 {
-	inline static constexpr unsigned int OraclePuzzlePanel___c__DisplayClass10_0_TypeDefinitionIndex = 73257;
+	inline static constexpr unsigned int OraclePuzzlePanel___c__DisplayClass10_0_TypeDefinitionIndex = 74782;
 
 	class OraclePuzzlePanel___c__DisplayClass10_0 : public ::System::Object
 	{
 	public:
-		::RPG::Client::Prop::OraclePuzzlePanel* __4__this; // 0x10
-		::System::Action* OnFinish; // 0x18
+		::System::Action* OnFinish; // 0x10
+		::RPG::Client::Prop::OraclePuzzlePanel* __4__this; // 0x18
 
 		::System::Void _ctor()
 		{

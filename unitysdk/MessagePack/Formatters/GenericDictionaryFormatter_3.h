@@ -6,7 +6,7 @@ namespace MessagePack { class MessagePackSerializerOptions; }
 
 namespace MessagePack::Formatters
 {
-	inline static constexpr unsigned int GenericDictionaryFormatter_3_TypeDefinitionIndex = 7373;
+	inline static constexpr unsigned int GenericDictionaryFormatter_3_TypeDefinitionIndex = 7379;
 
 	template <typename TKey, typename TValue, typename TDictionary>
 	class GenericDictionaryFormatter_3 : public ::MessagePack::Formatters::DictionaryFormatterBase_3<TKey, TValue, TDictionary>

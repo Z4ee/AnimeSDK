@@ -5,20 +5,20 @@
 namespace MessagePack { class IFormatterResolver; }
 namespace MessagePack::Formatters { template <typename T> class IMessagePackFormatter_1; }
 
-#define RPG_CLIENT_LITTLEGAMESHARE_RPCFORMATTERRESOLVER_REGISTERTOGLOBALRESOLVER_OFFSET UNITYSDK_OFFSET(0x18B8D8A0)
-#define RPG_CLIENT_LITTLEGAMESHARE_RPCFORMATTERRESOLVER__CCTOR_OFFSET UNITYSDK_OFFSET(0x18B8D920)
-#define RPG_CLIENT_LITTLEGAMESHARE_RPCFORMATTERRESOLVER__CTOR_OFFSET UNITYSDK_OFFSET(0x18B8D890)
+#define RPG_CLIENT_LITTLEGAMESHARE_RPCFORMATTERRESOLVER_REGISTERTOGLOBALRESOLVER_OFFSET UNITYSDK_OFFSET(0xB601850)
+#define RPG_CLIENT_LITTLEGAMESHARE_RPCFORMATTERRESOLVER__CCTOR_OFFSET UNITYSDK_OFFSET(0xB6018D0)
+#define RPG_CLIENT_LITTLEGAMESHARE_RPCFORMATTERRESOLVER__CTOR_OFFSET UNITYSDK_OFFSET(0xB601840)
 
 namespace RPG::Client::LittleGameShare
 {
-	inline static constexpr unsigned int RpcFormatterResolver_TypeDefinitionIndex = 34838;
+	inline static constexpr unsigned int RpcFormatterResolver_TypeDefinitionIndex = 35513;
 
 	class RpcFormatterResolver : public ::System::Object
 	{
 	public:
 		static ::MessagePack::IFormatterResolver** StaticGet_Field_1_0()
 		{
-			return (::MessagePack::IFormatterResolver**)Il2CppClass::FromTypeDefinitionIndex(RpcFormatterResolver_TypeDefinitionIndex)->GetStaticField(0x60210);
+			return (::MessagePack::IFormatterResolver**)Il2CppClass::FromTypeDefinitionIndex(RpcFormatterResolver_TypeDefinitionIndex)->GetStaticField(0x5A110);
 		}
 
 		::System::Void _ctor()

@@ -4,12 +4,12 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_CHIMERAENDLESSWORKROUNDROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x19649750)
-#define RPG_GAMECORE_CHIMERAENDLESSWORKROUNDROW__CTOR_OFFSET UNITYSDK_OFFSET(0x19649860)
+#define RPG_GAMECORE_CHIMERAENDLESSWORKROUNDROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1C24A510)
+#define RPG_GAMECORE_CHIMERAENDLESSWORKROUNDROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1C24A620)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ChimeraEndlessWorkRoundRow_TypeDefinitionIndex = 12418;
+	inline static constexpr unsigned int ChimeraEndlessWorkRoundRow_TypeDefinitionIndex = 12551;
 
 	class ChimeraEndlessWorkRoundRow : public ::System::Object
 	{

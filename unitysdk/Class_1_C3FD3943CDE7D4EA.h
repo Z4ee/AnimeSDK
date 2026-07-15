@@ -7,18 +7,18 @@ namespace RPG::GameCore { class DamageByAttackProperty; }
 namespace RPG::GameCore { class GameEntity; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_1_C3FD3943CDE7D4EA__CTOR_OFFSET UNITYSDK_OFFSET(0x13C442C0)
+#define CLASS_1_C3FD3943CDE7D4EA__CTOR_OFFSET UNITYSDK_OFFSET(0x17A3B320)
 
-inline static constexpr unsigned int Class_1_C3FD3943CDE7D4EA_TypeDefinitionIndex = 50868;
+inline static constexpr unsigned int Class_1_C3FD3943CDE7D4EA_TypeDefinitionIndex = 51953;
 
 class Class_1_C3FD3943CDE7D4EA : public ::System::Object
 {
 public:
-	::RPG::GameCore::TaskContext* Field_1_0; // 0x10
-	::RPG::GameCore::GameEntity* Field_1_1; // 0x18
-	::Class_1_843DD6330B22E422* Field_1_2; // 0x20
+	::RPG::GameCore::GameEntity* Field_1_0; // 0x10
+	::Class_1_843DD6330B22E422* Field_1_1; // 0x18
+	::RPG::GameCore::DamageByAttackProperty* Field_1_2; // 0x20
 	::RPG::GameCore::GameEntity* Field_1_3; // 0x28
-	::RPG::GameCore::DamageByAttackProperty* Field_1_4; // 0x30
+	::RPG::GameCore::TaskContext* Field_1_4; // 0x30
 	::System::Boolean Field_1_5; // 0x38
 
 	::System::Void _ctor()

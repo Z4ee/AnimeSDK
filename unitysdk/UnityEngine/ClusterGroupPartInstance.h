@@ -5,7 +5,7 @@
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int ClusterGroupPartInstance_TypeDefinitionIndex = 4088;
+	inline static constexpr unsigned int ClusterGroupPartInstance_TypeDefinitionIndex = 4093;
 
 	struct alignas(4) ClusterGroupPartInstance
 	{

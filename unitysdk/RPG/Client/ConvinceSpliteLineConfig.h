@@ -6,11 +6,11 @@ namespace RPG::Client { class ConvinceHPToSpliteLineConfig; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class AnimationCurve; }
 
-#define RPG_CLIENT_CONVINCESPLITELINECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0xB712E30)
+#define RPG_CLIENT_CONVINCESPLITELINECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1802AA50)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ConvinceSpliteLineConfig_TypeDefinitionIndex = 56709;
+	inline static constexpr unsigned int ConvinceSpliteLineConfig_TypeDefinitionIndex = 57955;
 
 	class ConvinceSpliteLineConfig : public ::System::Object
 	{

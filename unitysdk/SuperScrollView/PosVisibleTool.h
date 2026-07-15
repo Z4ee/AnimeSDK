@@ -5,34 +5,34 @@
 
 namespace UnityEngine { class RectTransform; }
 
-#define SUPERSCROLLVIEW_POSVISIBLETOOL_ISINVISIBLEBYPOS_OFFSET UNITYSDK_OFFSET(0xD0DD330)
-#define SUPERSCROLLVIEW_POSVISIBLETOOL_ISINVISIBLEINHIERARCHY_OFFSET UNITYSDK_OFFSET(0xD0DD3F0)
-#define SUPERSCROLLVIEW_POSVISIBLETOOL_ISINVISIBLE_OFFSET UNITYSDK_OFFSET(0xD0DD490)
-#define SUPERSCROLLVIEW_POSVISIBLETOOL_SETRECTTRANSFORMVISIBLEBYPOS_OFFSET UNITYSDK_OFFSET(0xD09DFA0)
-#define SUPERSCROLLVIEW_POSVISIBLETOOL__CCTOR_OFFSET UNITYSDK_OFFSET(0xD0DD670)
+#define SUPERSCROLLVIEW_POSVISIBLETOOL_ISINVISIBLEBYPOS_OFFSET UNITYSDK_OFFSET(0x1051FD20)
+#define SUPERSCROLLVIEW_POSVISIBLETOOL_ISINVISIBLEINHIERARCHY_OFFSET UNITYSDK_OFFSET(0x1051FDE0)
+#define SUPERSCROLLVIEW_POSVISIBLETOOL_ISINVISIBLE_OFFSET UNITYSDK_OFFSET(0x1051FE80)
+#define SUPERSCROLLVIEW_POSVISIBLETOOL_SETRECTTRANSFORMVISIBLEBYPOS_OFFSET UNITYSDK_OFFSET(0x1051FB70)
+#define SUPERSCROLLVIEW_POSVISIBLETOOL__CCTOR_OFFSET UNITYSDK_OFFSET(0x10520060)
 
 namespace SuperScrollView
 {
-	inline static constexpr unsigned int PosVisibleTool_TypeDefinitionIndex = 44927;
+	inline static constexpr unsigned int PosVisibleTool_TypeDefinitionIndex = 45845;
 
 	class PosVisibleTool : public ::System::Object
 	{
 	public:
-		static ::System::Int32* StaticGet_primeN2()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(PosVisibleTool_TypeDefinitionIndex)->GetStaticField(0x7740);
-		}
-		static ::UnityEngine::Vector3* StaticGet__VeryFarPos()
-		{
-			return (::UnityEngine::Vector3*)Il2CppClass::FromTypeDefinitionIndex(PosVisibleTool_TypeDefinitionIndex)->GetStaticField(0x7744);
-		}
 		static ::UnityEngine::Vector3* StaticGet__VeryFarWorldPos()
 		{
-			return (::UnityEngine::Vector3*)Il2CppClass::FromTypeDefinitionIndex(PosVisibleTool_TypeDefinitionIndex)->GetStaticField(0x7750);
+			return (::UnityEngine::Vector3*)Il2CppClass::FromTypeDefinitionIndex(PosVisibleTool_TypeDefinitionIndex)->GetStaticField(0x14990);
 		}
 		static ::System::Int32* StaticGet_primeN1()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(PosVisibleTool_TypeDefinitionIndex)->GetStaticField(0x775C);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(PosVisibleTool_TypeDefinitionIndex)->GetStaticField(0x1499C);
+		}
+		static ::UnityEngine::Vector3* StaticGet__VeryFarPos()
+		{
+			return (::UnityEngine::Vector3*)Il2CppClass::FromTypeDefinitionIndex(PosVisibleTool_TypeDefinitionIndex)->GetStaticField(0x149A0);
+		}
+		static ::System::Int32* StaticGet_primeN2()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(PosVisibleTool_TypeDefinitionIndex)->GetStaticField(0x149AC);
 		}
 
 		static ::System::Void _cctor()

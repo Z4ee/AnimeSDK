@@ -5,15 +5,13 @@
 
 namespace UnityEngine { class Animator; }
 
-#define RPG_CLIENT_STATENORMALIZEDTIME_ONSTATEEXIT_OFFSET UNITYSDK_OFFSET(0xC924FD0)
-#define RPG_CLIENT_STATENORMALIZEDTIME_ONSTATEUPDATE_OFFSET UNITYSDK_OFFSET(0xC924EB0)
-#define RPG_CLIENT_STATENORMALIZEDTIME__CTOR_OFFSET UNITYSDK_OFFSET(0xC925080)
-#define RPG_CLIENT_STATENORMALIZEDTIME___IFIXBASEPROXY_ONSTATEEXIT_OFFSET UNITYSDK_OFFSET(0xC9250A0)
-#define RPG_CLIENT_STATENORMALIZEDTIME___IFIXBASEPROXY_ONSTATEUPDATE_OFFSET UNITYSDK_OFFSET(0xC925090)
+#define RPG_CLIENT_STATENORMALIZEDTIME_ONSTATEEXIT_OFFSET UNITYSDK_OFFSET(0x17B655A0)
+#define RPG_CLIENT_STATENORMALIZEDTIME_ONSTATEUPDATE_OFFSET UNITYSDK_OFFSET(0x17B65480)
+#define RPG_CLIENT_STATENORMALIZEDTIME__CTOR_OFFSET UNITYSDK_OFFSET(0x17B65650)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int StateNormalizedTime_TypeDefinitionIndex = 64388;
+	inline static constexpr unsigned int StateNormalizedTime_TypeDefinitionIndex = 65759;
 
 	class StateNormalizedTime : public ::UnityEngine::StateMachineBehaviour
 	{
@@ -34,16 +32,6 @@ namespace RPG::Client
 		::System::Void OnStateExit(::UnityEngine::Animator* a1, ::UnityEngine::AnimatorStateInfo a2, ::System::Int32 a3)
 		{
 			return ((::System::Void(*)(::PVOID, ::UnityEngine::Animator*, ::UnityEngine::AnimatorStateInfo, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_STATENORMALIZEDTIME_ONSTATEEXIT_OFFSET))(this, a1, a2, a3);
-		}
-
-		::System::Void __iFixBaseProxy_OnStateUpdate(::UnityEngine::Animator* a1, ::UnityEngine::AnimatorStateInfo a2, ::System::Int32 a3)
-		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Animator*, ::UnityEngine::AnimatorStateInfo, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_STATENORMALIZEDTIME___IFIXBASEPROXY_ONSTATEUPDATE_OFFSET))(this, a1, a2, a3);
-		}
-
-		::System::Void __iFixBaseProxy_OnStateExit(::UnityEngine::Animator* a1, ::UnityEngine::AnimatorStateInfo a2, ::System::Int32 a3)
-		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Animator*, ::UnityEngine::AnimatorStateInfo, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_STATENORMALIZEDTIME___IFIXBASEPROXY_ONSTATEEXIT_OFFSET))(this, a1, a2, a3);
 		}
 	};
 }

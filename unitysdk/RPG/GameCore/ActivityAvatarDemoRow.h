@@ -4,12 +4,12 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_ACTIVITYAVATARDEMOROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x193D4850)
-#define RPG_GAMECORE_ACTIVITYAVATARDEMOROW__CTOR_OFFSET UNITYSDK_OFFSET(0x193D4960)
+#define RPG_GAMECORE_ACTIVITYAVATARDEMOROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1AADD350)
+#define RPG_GAMECORE_ACTIVITYAVATARDEMOROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1AADD460)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ActivityAvatarDemoRow_TypeDefinitionIndex = 10786;
+	inline static constexpr unsigned int ActivityAvatarDemoRow_TypeDefinitionIndex = 10836;
 
 	class ActivityAvatarDemoRow : public ::System::Object
 	{

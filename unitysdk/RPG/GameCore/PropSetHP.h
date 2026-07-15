@@ -6,13 +6,13 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class TargetEvaluator; }
 
-#define RPG_GAMECORE_PROPSETHP_METHOD_3_A58FAB121CB1344B_OFFSET UNITYSDK_OFFSET(0x19A96E30)
-#define RPG_GAMECORE_PROPSETHP_METHOD_3_C8E1A0CAAC334FEF_OFFSET UNITYSDK_OFFSET(0x19A96CF0)
-#define RPG_GAMECORE_PROPSETHP__CTOR_OFFSET UNITYSDK_OFFSET(0x19A96DA0)
+#define RPG_GAMECORE_PROPSETHP_METHOD_3_A58FAB121CB1344B_OFFSET UNITYSDK_OFFSET(0x1BA29390)
+#define RPG_GAMECORE_PROPSETHP_METHOD_3_B7BB81CBBC4AE201_OFFSET UNITYSDK_OFFSET(0x1BA29300)
+#define RPG_GAMECORE_PROPSETHP__CTOR_OFFSET UNITYSDK_OFFSET(0x1BA29360)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PropSetHP_TypeDefinitionIndex = 20846;
+	inline static constexpr unsigned int PropSetHP_TypeDefinitionIndex = 21261;
 
 	class PropSetHP : public ::RPG::GameCore::TaskConfig
 	{
@@ -26,9 +26,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PROPSETHP__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_C8E1A0CAAC334FEF(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::PropSetHP*& a2)
+		static ::System::Void Method_3_B7BB81CBBC4AE201(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::PropSetHP*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::PropSetHP*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PROPSETHP_METHOD_3_C8E1A0CAAC334FEF_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::PropSetHP*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PROPSETHP_METHOD_3_B7BB81CBBC4AE201_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_A58FAB121CB1344B(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::PropSetHP* a2)

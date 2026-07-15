@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int NavigationTestResult_TypeDefinitionIndex = 53344;
+	inline static constexpr unsigned int NavigationTestResult_TypeDefinitionIndex = 54559;
 
 	enum class NavigationTestResult : ::System::Int32
 	{

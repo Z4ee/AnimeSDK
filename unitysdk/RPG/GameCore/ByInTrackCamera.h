@@ -6,15 +6,15 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class DynamicFloat; }
 namespace SimpleJSON { class JSONNode; }
 
-#define RPG_GAMECORE_BYINTRACKCAMERA_METHOD_4_4804F6B120FACF29_OFFSET UNITYSDK_OFFSET(0x19556990)
-#define RPG_GAMECORE_BYINTRACKCAMERA_METHOD_4_4A885C1535F9AB06_OFFSET UNITYSDK_OFFSET(0x19556C10)
-#define RPG_GAMECORE_BYINTRACKCAMERA_METHOD_4_656B1A9F83843E5F_OFFSET UNITYSDK_OFFSET(0x19556B90)
-#define RPG_GAMECORE_BYINTRACKCAMERA_METHOD_4_84F8D7719F1FC30B_OFFSET UNITYSDK_OFFSET(0x195568C0)
-#define RPG_GAMECORE_BYINTRACKCAMERA__CTOR_OFFSET UNITYSDK_OFFSET(0x19556940)
+#define RPG_GAMECORE_BYINTRACKCAMERA_METHOD_4_2459AC284258D36E_OFFSET UNITYSDK_OFFSET(0x1A8D2810)
+#define RPG_GAMECORE_BYINTRACKCAMERA_METHOD_4_4804F6B120FACF29_OFFSET UNITYSDK_OFFSET(0x1A8D2610)
+#define RPG_GAMECORE_BYINTRACKCAMERA_METHOD_4_ECE93E6438DF0210_OFFSET UNITYSDK_OFFSET(0x1A8D25D0)
+#define RPG_GAMECORE_BYINTRACKCAMERA_METHOD_4_F922788EA4181271_OFFSET UNITYSDK_OFFSET(0x1A8D2840)
+#define RPG_GAMECORE_BYINTRACKCAMERA__CTOR_OFFSET UNITYSDK_OFFSET(0x1A8D2600)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ByInTrackCamera_TypeDefinitionIndex = 19690;
+	inline static constexpr unsigned int ByInTrackCamera_TypeDefinitionIndex = 20049;
 
 	class ByInTrackCamera : public ::RPG::GameCore::PredicateConfig
 	{
@@ -27,9 +27,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYINTRACKCAMERA__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_4_84F8D7719F1FC30B(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ByInTrackCamera*& a2)
+		static ::System::Void Method_4_ECE93E6438DF0210(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ByInTrackCamera*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ByInTrackCamera*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYINTRACKCAMERA_METHOD_4_84F8D7719F1FC30B_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ByInTrackCamera*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYINTRACKCAMERA_METHOD_4_ECE93E6438DF0210_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_4_4804F6B120FACF29(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ByInTrackCamera* a2)
@@ -37,14 +37,14 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ByInTrackCamera*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYINTRACKCAMERA_METHOD_4_4804F6B120FACF29_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_4_656B1A9F83843E5F(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::ByInTrackCamera*& a2)
+		static ::System::Void Method_4_2459AC284258D36E(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::ByInTrackCamera*& a2)
 		{
-			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::ByInTrackCamera*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYINTRACKCAMERA_METHOD_4_656B1A9F83843E5F_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::ByInTrackCamera*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYINTRACKCAMERA_METHOD_4_2459AC284258D36E_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_4_4A885C1535F9AB06(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::ByInTrackCamera* a2)
+		static ::System::Void Method_4_F922788EA4181271(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::ByInTrackCamera* a2)
 		{
-			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::ByInTrackCamera*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYINTRACKCAMERA_METHOD_4_4A885C1535F9AB06_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::ByInTrackCamera*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYINTRACKCAMERA_METHOD_4_F922788EA4181271_OFFSET))(a1, a2);
 		}
 	};
 }

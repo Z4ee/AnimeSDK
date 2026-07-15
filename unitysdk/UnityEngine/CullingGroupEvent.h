@@ -4,7 +4,7 @@
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int CullingGroupEvent_TypeDefinitionIndex = 4034;
+	inline static constexpr unsigned int CullingGroupEvent_TypeDefinitionIndex = 4039;
 
 	struct alignas(4) CullingGroupEvent
 	{

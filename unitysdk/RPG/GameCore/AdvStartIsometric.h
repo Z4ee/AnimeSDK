@@ -6,13 +6,13 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class DynamicFloat; }
 namespace RPG::GameCore { class DynamicString; }
 
-#define RPG_GAMECORE_ADVSTARTISOMETRIC_METHOD_3_4C094023E65500B0_OFFSET UNITYSDK_OFFSET(0x1943A450)
-#define RPG_GAMECORE_ADVSTARTISOMETRIC_METHOD_3_CAB696B1A37E8085_OFFSET UNITYSDK_OFFSET(0x1943A4D0)
-#define RPG_GAMECORE_ADVSTARTISOMETRIC__CTOR_OFFSET UNITYSDK_OFFSET(0x1943A4A0)
+#define RPG_GAMECORE_ADVSTARTISOMETRIC_METHOD_3_CAB696B1A37E8085_OFFSET UNITYSDK_OFFSET(0x1AE48480)
+#define RPG_GAMECORE_ADVSTARTISOMETRIC_METHOD_3_E8F7AF6D9DE52D20_OFFSET UNITYSDK_OFFSET(0x1AE48440)
+#define RPG_GAMECORE_ADVSTARTISOMETRIC__CTOR_OFFSET UNITYSDK_OFFSET(0x1AE48470)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AdvStartIsometric_TypeDefinitionIndex = 20982;
+	inline static constexpr unsigned int AdvStartIsometric_TypeDefinitionIndex = 21397;
 
 	class AdvStartIsometric : public ::RPG::GameCore::TaskConfig
 	{
@@ -31,9 +31,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVSTARTISOMETRIC__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_4C094023E65500B0(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AdvStartIsometric*& a2)
+		static ::System::Void Method_3_E8F7AF6D9DE52D20(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AdvStartIsometric*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::AdvStartIsometric*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVSTARTISOMETRIC_METHOD_3_4C094023E65500B0_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::AdvStartIsometric*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVSTARTISOMETRIC_METHOD_3_E8F7AF6D9DE52D20_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_CAB696B1A37E8085(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AdvStartIsometric* a2)

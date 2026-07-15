@@ -5,13 +5,13 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_ATTACHNISHASTAGAITEMTOSCENE_METHOD_3_45EC3D352790AA75_OFFSET UNITYSDK_OFFSET(0x19485880)
-#define RPG_GAMECORE_ATTACHNISHASTAGAITEMTOSCENE_METHOD_3_69320F40B2B5DA1A_OFFSET UNITYSDK_OFFSET(0x19485800)
-#define RPG_GAMECORE_ATTACHNISHASTAGAITEMTOSCENE__CTOR_OFFSET UNITYSDK_OFFSET(0x19485850)
+#define RPG_GAMECORE_ATTACHNISHASTAGAITEMTOSCENE_METHOD_3_45EC3D352790AA75_OFFSET UNITYSDK_OFFSET(0x1A065690)
+#define RPG_GAMECORE_ATTACHNISHASTAGAITEMTOSCENE_METHOD_3_DFBE4C43E1AB49F6_OFFSET UNITYSDK_OFFSET(0x1A065650)
+#define RPG_GAMECORE_ATTACHNISHASTAGAITEMTOSCENE__CTOR_OFFSET UNITYSDK_OFFSET(0x1A065680)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AttachNishastagaItemToScene_TypeDefinitionIndex = 20917;
+	inline static constexpr unsigned int AttachNishastagaItemToScene_TypeDefinitionIndex = 21332;
 
 	class AttachNishastagaItemToScene : public ::RPG::GameCore::TaskConfig
 	{
@@ -29,9 +29,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ATTACHNISHASTAGAITEMTOSCENE__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_69320F40B2B5DA1A(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AttachNishastagaItemToScene*& a2)
+		static ::System::Void Method_3_DFBE4C43E1AB49F6(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AttachNishastagaItemToScene*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::AttachNishastagaItemToScene*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ATTACHNISHASTAGAITEMTOSCENE_METHOD_3_69320F40B2B5DA1A_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::AttachNishastagaItemToScene*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ATTACHNISHASTAGAITEMTOSCENE_METHOD_3_DFBE4C43E1AB49F6_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_45EC3D352790AA75(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AttachNishastagaItemToScene* a2)

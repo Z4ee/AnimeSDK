@@ -7,44 +7,44 @@
 namespace System { template <typename T1, typename T2> class Func_2; }
 namespace UnityEngine::ProBuilder { class Face; }
 
-#define UNITYENGINE_PROBUILDER_PROBUILDERMESH___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1B1190A0)
-#define UNITYENGINE_PROBUILDER_PROBUILDERMESH___C__COPYFROM_B__162_0_OFFSET UNITYSDK_OFFSET(0x1B119170)
-#define UNITYENGINE_PROBUILDER_PROBUILDERMESH___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1B1190E0)
-#define UNITYENGINE_PROBUILDER_PROBUILDERMESH___C__GET_INDEXCOUNT_B__122_0_OFFSET UNITYSDK_OFFSET(0x1B119110)
-#define UNITYENGINE_PROBUILDER_PROBUILDERMESH___C__GET_TRIANGLECOUNT_B__124_0_OFFSET UNITYSDK_OFFSET(0x1B119140)
-#define UNITYENGINE_PROBUILDER_PROBUILDERMESH___C__SETUVS_B__114_0_OFFSET UNITYSDK_OFFSET(0x1B1190F0)
-#define UNITYENGINE_PROBUILDER_PROBUILDERMESH___C__SETUVS_B__114_1_OFFSET UNITYSDK_OFFSET(0x1B119100)
+#define UNITYENGINE_PROBUILDER_PROBUILDERMESH___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1776DFB0)
+#define UNITYENGINE_PROBUILDER_PROBUILDERMESH___C__COPYFROM_B__162_0_OFFSET UNITYSDK_OFFSET(0x1776E080)
+#define UNITYENGINE_PROBUILDER_PROBUILDERMESH___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1776DFF0)
+#define UNITYENGINE_PROBUILDER_PROBUILDERMESH___C__GET_INDEXCOUNT_B__122_0_OFFSET UNITYSDK_OFFSET(0x1776E020)
+#define UNITYENGINE_PROBUILDER_PROBUILDERMESH___C__GET_TRIANGLECOUNT_B__124_0_OFFSET UNITYSDK_OFFSET(0x1776E050)
+#define UNITYENGINE_PROBUILDER_PROBUILDERMESH___C__SETUVS_B__114_0_OFFSET UNITYSDK_OFFSET(0x1776E000)
+#define UNITYENGINE_PROBUILDER_PROBUILDERMESH___C__SETUVS_B__114_1_OFFSET UNITYSDK_OFFSET(0x1776E010)
 
 namespace UnityEngine::ProBuilder
 {
-	inline static constexpr unsigned int ProBuilderMesh___c_TypeDefinitionIndex = 40789;
+	inline static constexpr unsigned int ProBuilderMesh___c_TypeDefinitionIndex = 41604;
 
 	class ProBuilderMesh___c : public ::System::Object
 	{
 	public:
-		static ::System::Func_2<::UnityEngine::ProBuilder::Face*, ::System::Int32>** StaticGet___9__122_0()
-		{
-			return (::System::Func_2<::UnityEngine::ProBuilder::Face*, ::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(ProBuilderMesh___c_TypeDefinitionIndex)->GetStaticField(0x54E00);
-		}
-		static ::System::Func_2<::UnityEngine::ProBuilder::Face*, ::UnityEngine::ProBuilder::Face*>** StaticGet___9__162_0()
-		{
-			return (::System::Func_2<::UnityEngine::ProBuilder::Face*, ::UnityEngine::ProBuilder::Face*>**)Il2CppClass::FromTypeDefinitionIndex(ProBuilderMesh___c_TypeDefinitionIndex)->GetStaticField(0x54E08);
-		}
 		static ::System::Func_2<::UnityEngine::Vector4, ::UnityEngine::Vector2>** StaticGet___9__114_1()
 		{
-			return (::System::Func_2<::UnityEngine::Vector4, ::UnityEngine::Vector2>**)Il2CppClass::FromTypeDefinitionIndex(ProBuilderMesh___c_TypeDefinitionIndex)->GetStaticField(0x54E10);
+			return (::System::Func_2<::UnityEngine::Vector4, ::UnityEngine::Vector2>**)Il2CppClass::FromTypeDefinitionIndex(ProBuilderMesh___c_TypeDefinitionIndex)->GetStaticField(0x54400);
 		}
 		static ::System::Func_2<::UnityEngine::Vector4, ::UnityEngine::Vector2>** StaticGet___9__114_0()
 		{
-			return (::System::Func_2<::UnityEngine::Vector4, ::UnityEngine::Vector2>**)Il2CppClass::FromTypeDefinitionIndex(ProBuilderMesh___c_TypeDefinitionIndex)->GetStaticField(0x54E18);
+			return (::System::Func_2<::UnityEngine::Vector4, ::UnityEngine::Vector2>**)Il2CppClass::FromTypeDefinitionIndex(ProBuilderMesh___c_TypeDefinitionIndex)->GetStaticField(0x54408);
 		}
 		static ::UnityEngine::ProBuilder::ProBuilderMesh___c** StaticGet___9()
 		{
-			return (::UnityEngine::ProBuilder::ProBuilderMesh___c**)Il2CppClass::FromTypeDefinitionIndex(ProBuilderMesh___c_TypeDefinitionIndex)->GetStaticField(0x54E20);
+			return (::UnityEngine::ProBuilder::ProBuilderMesh___c**)Il2CppClass::FromTypeDefinitionIndex(ProBuilderMesh___c_TypeDefinitionIndex)->GetStaticField(0x54410);
 		}
 		static ::System::Func_2<::UnityEngine::ProBuilder::Face*, ::System::Int32>** StaticGet___9__124_0()
 		{
-			return (::System::Func_2<::UnityEngine::ProBuilder::Face*, ::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(ProBuilderMesh___c_TypeDefinitionIndex)->GetStaticField(0x54E28);
+			return (::System::Func_2<::UnityEngine::ProBuilder::Face*, ::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(ProBuilderMesh___c_TypeDefinitionIndex)->GetStaticField(0x54418);
+		}
+		static ::System::Func_2<::UnityEngine::ProBuilder::Face*, ::UnityEngine::ProBuilder::Face*>** StaticGet___9__162_0()
+		{
+			return (::System::Func_2<::UnityEngine::ProBuilder::Face*, ::UnityEngine::ProBuilder::Face*>**)Il2CppClass::FromTypeDefinitionIndex(ProBuilderMesh___c_TypeDefinitionIndex)->GetStaticField(0x54420);
+		}
+		static ::System::Func_2<::UnityEngine::ProBuilder::Face*, ::System::Int32>** StaticGet___9__122_0()
+		{
+			return (::System::Func_2<::UnityEngine::ProBuilder::Face*, ::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(ProBuilderMesh___c_TypeDefinitionIndex)->GetStaticField(0x54428);
 		}
 
 		static ::System::Void _cctor()

@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int NewsTickerViewportCheckResult_TypeDefinitionIndex = 64509;
+	inline static constexpr unsigned int NewsTickerViewportCheckResult_TypeDefinitionIndex = 65909;
 
 	enum class NewsTickerViewportCheckResult : ::System::Int32
 	{

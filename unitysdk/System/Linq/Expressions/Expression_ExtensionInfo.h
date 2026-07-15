@@ -7,7 +7,7 @@ namespace System { class Type; }
 
 namespace System::Linq::Expressions
 {
-	inline static constexpr unsigned int Expression_ExtensionInfo_TypeDefinitionIndex = 3179;
+	inline static constexpr unsigned int Expression_ExtensionInfo_TypeDefinitionIndex = 3183;
 
 	class Expression_ExtensionInfo : public ::System::Object
 	{

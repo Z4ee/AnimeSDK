@@ -7,14 +7,14 @@ namespace System { template <typename T1, typename T2> class Func_2; }
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ChimeraArrangementInfo___O_TypeDefinitionIndex = 59341;
+	inline static constexpr unsigned int ChimeraArrangementInfo___O_TypeDefinitionIndex = 60612;
 
 	class ChimeraArrangementInfo___O : public ::System::Object
 	{
 	public:
 		static ::System::Func_2<::System::UInt32, ::RPG::Client::ChimeraArrangementPresetData*>** StaticGet__0___Create()
 		{
-			return (::System::Func_2<::System::UInt32, ::RPG::Client::ChimeraArrangementPresetData*>**)Il2CppClass::FromTypeDefinitionIndex(ChimeraArrangementInfo___O_TypeDefinitionIndex)->GetStaticField(0x63870);
+			return (::System::Func_2<::System::UInt32, ::RPG::Client::ChimeraArrangementPresetData*>**)Il2CppClass::FromTypeDefinitionIndex(ChimeraArrangementInfo___O_TypeDefinitionIndex)->GetStaticField(0x68010);
 		}
 	};
 }

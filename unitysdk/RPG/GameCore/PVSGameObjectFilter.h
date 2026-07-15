@@ -5,12 +5,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_PVSGAMEOBJECTFILTER_METHOD_2_685CF69E9A722CC4_OFFSET UNITYSDK_OFFSET(0x199E1350)
-#define RPG_GAMECORE_PVSGAMEOBJECTFILTER__CTOR_OFFSET UNITYSDK_OFFSET(0x199E1510)
+#define RPG_GAMECORE_PVSGAMEOBJECTFILTER_METHOD_2_685CF69E9A722CC4_OFFSET UNITYSDK_OFFSET(0x1BB0AA30)
+#define RPG_GAMECORE_PVSGAMEOBJECTFILTER__CTOR_OFFSET UNITYSDK_OFFSET(0x1BB0ABF0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PVSGameObjectFilter_TypeDefinitionIndex = 18192;
+	inline static constexpr unsigned int PVSGameObjectFilter_TypeDefinitionIndex = 18425;
 
 	class PVSGameObjectFilter : public ::RPG::GameCore::JsonConfig
 	{

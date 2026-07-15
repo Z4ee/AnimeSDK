@@ -4,13 +4,12 @@
 #include "unitysdk/UnityEngine/Playables/Playable.h"
 #include "unitysdk/UnityEngine/Playables/PlayableBehaviour.h"
 
-#define RPGTOOLS_TIMELINE_HIDELEVELSTAGEBEHAVIOUR_ONBEHAVIOURPLAY_OFFSET UNITYSDK_OFFSET(0xD022560)
-#define RPGTOOLS_TIMELINE_HIDELEVELSTAGEBEHAVIOUR__CTOR_OFFSET UNITYSDK_OFFSET(0xD0227B0)
-#define RPGTOOLS_TIMELINE_HIDELEVELSTAGEBEHAVIOUR___IFIXBASEPROXY_ONBEHAVIOURPLAY_OFFSET UNITYSDK_OFFSET(0xD0227C0)
+#define RPGTOOLS_TIMELINE_HIDELEVELSTAGEBEHAVIOUR_ONBEHAVIOURPLAY_OFFSET UNITYSDK_OFFSET(0x19A5D930)
+#define RPGTOOLS_TIMELINE_HIDELEVELSTAGEBEHAVIOUR__CTOR_OFFSET UNITYSDK_OFFSET(0x19A5DC90)
 
 namespace RPGTools::Timeline
 {
-	inline static constexpr unsigned int HideLevelStageBehaviour_TypeDefinitionIndex = 45706;
+	inline static constexpr unsigned int HideLevelStageBehaviour_TypeDefinitionIndex = 46645;
 
 	class HideLevelStageBehaviour : public ::UnityEngine::Playables::PlayableBehaviour
 	{
@@ -26,11 +25,6 @@ namespace RPGTools::Timeline
 		::System::Void OnBehaviourPlay(::UnityEngine::Playables::Playable a1, ::UnityEngine::Playables::FrameData a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::UnityEngine::Playables::Playable, ::UnityEngine::Playables::FrameData))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_HIDELEVELSTAGEBEHAVIOUR_ONBEHAVIOURPLAY_OFFSET))(this, a1, a2);
-		}
-
-		::System::Void __iFixBaseProxy_OnBehaviourPlay(::UnityEngine::Playables::Playable a1, ::UnityEngine::Playables::FrameData a2)
-		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Playables::Playable, ::UnityEngine::Playables::FrameData))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_HIDELEVELSTAGEBEHAVIOUR___IFIXBASEPROXY_ONBEHAVIOURPLAY_OFFSET))(this, a1, a2);
 		}
 	};
 }

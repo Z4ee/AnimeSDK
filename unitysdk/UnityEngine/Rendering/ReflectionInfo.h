@@ -6,11 +6,11 @@
 
 namespace UnityEngine { class Camera; }
 
-#define UNITYENGINE_RENDERING_REFLECTIONINFO_SETREFLECITONINFO_OFFSET UNITYSDK_OFFSET(0x1B2CE1B0)
+#define UNITYENGINE_RENDERING_REFLECTIONINFO_SETREFLECITONINFO_OFFSET UNITYSDK_OFFSET(0x1BFA8A70)
 
 namespace UnityEngine::Rendering
 {
-	inline static constexpr unsigned int ReflectionInfo_TypeDefinitionIndex = 4792;
+	inline static constexpr unsigned int ReflectionInfo_TypeDefinitionIndex = 4797;
 
 	struct alignas(4) ReflectionInfo
 	{

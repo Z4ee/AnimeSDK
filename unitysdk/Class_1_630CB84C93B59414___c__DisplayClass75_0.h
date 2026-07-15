@@ -1,0 +1,43 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+
+class Class_2_4FFA1EF262510C03;
+class Class_2_570C2CCF5D0BF6A1;
+class Class_2_7419679A7698613D;
+class Class_2_8D6A893BEF7BEB75_Class_1_ACF0E08C68D3724A;
+
+#define CLASS_1_630CB84C93B59414___C__DISPLAYCLASS75_0__CTOR_OFFSET UNITYSDK_OFFSET(0x14A45590)
+#define CLASS_1_630CB84C93B59414___C__DISPLAYCLASS75_0__ONHPATCHFINISH_B__0_OFFSET UNITYSDK_OFFSET(0x14A4AC00)
+#define CLASS_1_630CB84C93B59414___C__DISPLAYCLASS75_0__ONHPATCHFINISH_B__2_OFFSET UNITYSDK_OFFSET(0x14A4AC20)
+#define CLASS_1_630CB84C93B59414___C__DISPLAYCLASS75_0__ONHPATCHFINISH_B__4_OFFSET UNITYSDK_OFFSET(0x14A4AC40)
+
+inline static constexpr unsigned int Class_1_630CB84C93B59414___c__DisplayClass75_0_TypeDefinitionIndex = 56884;
+
+class Class_1_630CB84C93B59414___c__DisplayClass75_0 : public ::System::Object
+{
+public:
+	::Class_2_4FFA1EF262510C03* dataDesign; // 0x10
+	::Class_2_7419679A7698613D* dataBlock; // 0x18
+	::Class_2_570C2CCF5D0BF6A1* audioPatch; // 0x20
+
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_630CB84C93B59414___C__DISPLAYCLASS75_0__CTOR_OFFSET))(this);
+	}
+
+	::System::Boolean _OnHPatchFinish_b__0(::Class_2_8D6A893BEF7BEB75_Class_1_ACF0E08C68D3724A* a1)
+	{
+		return ((::System::Boolean(*)(::PVOID, ::Class_2_8D6A893BEF7BEB75_Class_1_ACF0E08C68D3724A*))((::PBYTE)hIl2Cpp + CLASS_1_630CB84C93B59414___C__DISPLAYCLASS75_0__ONHPATCHFINISH_B__0_OFFSET))(this, a1);
+	}
+
+	::System::Boolean _OnHPatchFinish_b__2(::Class_2_8D6A893BEF7BEB75_Class_1_ACF0E08C68D3724A* a1)
+	{
+		return ((::System::Boolean(*)(::PVOID, ::Class_2_8D6A893BEF7BEB75_Class_1_ACF0E08C68D3724A*))((::PBYTE)hIl2Cpp + CLASS_1_630CB84C93B59414___C__DISPLAYCLASS75_0__ONHPATCHFINISH_B__2_OFFSET))(this, a1);
+	}
+
+	::System::Boolean _OnHPatchFinish_b__4(::Class_2_8D6A893BEF7BEB75_Class_1_ACF0E08C68D3724A* a1)
+	{
+		return ((::System::Boolean(*)(::PVOID, ::Class_2_8D6A893BEF7BEB75_Class_1_ACF0E08C68D3724A*))((::PBYTE)hIl2Cpp + CLASS_1_630CB84C93B59414___C__DISPLAYCLASS75_0__ONHPATCHFINISH_B__4_OFFSET))(this, a1);
+	}
+};

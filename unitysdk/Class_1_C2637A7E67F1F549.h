@@ -2,18 +2,18 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_0_16E4307DCC419505_1053;
+class Class_0_16E4307DCC419505_1096;
 namespace UnityEngine { class GameObject; }
 
-#define CLASS_1_C2637A7E67F1F549_METHOD_1_C854989B3A64012F_OFFSET UNITYSDK_OFFSET(0x144E58A0)
+#define CLASS_1_C2637A7E67F1F549_METHOD_1_C854989B3A64012F_OFFSET UNITYSDK_OFFSET(0x18EF99C0)
 
-inline static constexpr unsigned int Class_1_C2637A7E67F1F549_TypeDefinitionIndex = 67893;
+inline static constexpr unsigned int Class_1_C2637A7E67F1F549_TypeDefinitionIndex = 69377;
 
 class Class_1_C2637A7E67F1F549 : public ::System::Object
 {
 public:
-	static ::Class_0_16E4307DCC419505_1053* Method_1_C854989B3A64012F(::UnityEngine::GameObject* a1)
+	static ::Class_0_16E4307DCC419505_1096* Method_1_C854989B3A64012F(::UnityEngine::GameObject* a1)
 	{
-		return ((::Class_0_16E4307DCC419505_1053*(*)(::UnityEngine::GameObject*))((::PBYTE)hIl2Cpp + CLASS_1_C2637A7E67F1F549_METHOD_1_C854989B3A64012F_OFFSET))(a1);
+		return ((::Class_0_16E4307DCC419505_1096*(*)(::UnityEngine::GameObject*))((::PBYTE)hIl2Cpp + CLASS_1_C2637A7E67F1F549_METHOD_1_C854989B3A64012F_OFFSET))(a1);
 	}
 };

@@ -5,12 +5,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_MONSTERENERGYBARNUMCOLORSETTING_METHOD_2_AA98E4B1C8285579_OFFSET UNITYSDK_OFFSET(0x199A8680)
-#define RPG_GAMECORE_MONSTERENERGYBARNUMCOLORSETTING__CTOR_OFFSET UNITYSDK_OFFSET(0x199A8790)
+#define RPG_GAMECORE_MONSTERENERGYBARNUMCOLORSETTING_METHOD_2_AA98E4B1C8285579_OFFSET UNITYSDK_OFFSET(0x1B1C4920)
+#define RPG_GAMECORE_MONSTERENERGYBARNUMCOLORSETTING__CTOR_OFFSET UNITYSDK_OFFSET(0x1B1C4A30)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MonsterEnergyBarNumColorSetting_TypeDefinitionIndex = 16282;
+	inline static constexpr unsigned int MonsterEnergyBarNumColorSetting_TypeDefinitionIndex = 16466;
 
 	class MonsterEnergyBarNumColorSetting : public ::RPG::GameCore::JsonConfig
 	{

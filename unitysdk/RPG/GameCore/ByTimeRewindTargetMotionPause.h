@@ -6,15 +6,15 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class TargetEvaluator; }
 namespace SimpleJSON { class JSONNode; }
 
-#define RPG_GAMECORE_BYTIMEREWINDTARGETMOTIONPAUSE_METHOD_4_1C121CA2AE806656_OFFSET UNITYSDK_OFFSET(0x195DF110)
-#define RPG_GAMECORE_BYTIMEREWINDTARGETMOTIONPAUSE_METHOD_4_A540A9F1B45014AF_OFFSET UNITYSDK_OFFSET(0x195DF090)
-#define RPG_GAMECORE_BYTIMEREWINDTARGETMOTIONPAUSE_METHOD_4_CCC70C9B8AFDFC1C_OFFSET UNITYSDK_OFFSET(0x195DEE40)
-#define RPG_GAMECORE_BYTIMEREWINDTARGETMOTIONPAUSE_METHOD_4_E2434423E662D322_OFFSET UNITYSDK_OFFSET(0x195DEF10)
-#define RPG_GAMECORE_BYTIMEREWINDTARGETMOTIONPAUSE__CTOR_OFFSET UNITYSDK_OFFSET(0x195DEEC0)
+#define RPG_GAMECORE_BYTIMEREWINDTARGETMOTIONPAUSE_METHOD_4_019865F9225A889B_OFFSET UNITYSDK_OFFSET(0x1B2C3E10)
+#define RPG_GAMECORE_BYTIMEREWINDTARGETMOTIONPAUSE_METHOD_4_4FC8531F11318F18_OFFSET UNITYSDK_OFFSET(0x1B2C4000)
+#define RPG_GAMECORE_BYTIMEREWINDTARGETMOTIONPAUSE_METHOD_4_8D377298DA08BD7E_OFFSET UNITYSDK_OFFSET(0x1B2C3FD0)
+#define RPG_GAMECORE_BYTIMEREWINDTARGETMOTIONPAUSE_METHOD_4_E2434423E662D322_OFFSET UNITYSDK_OFFSET(0x1B2C3E50)
+#define RPG_GAMECORE_BYTIMEREWINDTARGETMOTIONPAUSE__CTOR_OFFSET UNITYSDK_OFFSET(0x1B2C3E40)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ByTimeRewindTargetMotionPause_TypeDefinitionIndex = 19530;
+	inline static constexpr unsigned int ByTimeRewindTargetMotionPause_TypeDefinitionIndex = 19888;
 
 	class ByTimeRewindTargetMotionPause : public ::RPG::GameCore::PredicateConfig
 	{
@@ -26,9 +26,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYTIMEREWINDTARGETMOTIONPAUSE__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_4_CCC70C9B8AFDFC1C(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ByTimeRewindTargetMotionPause*& a2)
+		static ::System::Void Method_4_019865F9225A889B(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ByTimeRewindTargetMotionPause*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ByTimeRewindTargetMotionPause*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYTIMEREWINDTARGETMOTIONPAUSE_METHOD_4_CCC70C9B8AFDFC1C_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ByTimeRewindTargetMotionPause*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYTIMEREWINDTARGETMOTIONPAUSE_METHOD_4_019865F9225A889B_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_4_E2434423E662D322(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ByTimeRewindTargetMotionPause* a2)
@@ -36,14 +36,14 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ByTimeRewindTargetMotionPause*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYTIMEREWINDTARGETMOTIONPAUSE_METHOD_4_E2434423E662D322_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_4_A540A9F1B45014AF(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::ByTimeRewindTargetMotionPause*& a2)
+		static ::System::Void Method_4_8D377298DA08BD7E(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::ByTimeRewindTargetMotionPause*& a2)
 		{
-			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::ByTimeRewindTargetMotionPause*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYTIMEREWINDTARGETMOTIONPAUSE_METHOD_4_A540A9F1B45014AF_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::ByTimeRewindTargetMotionPause*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYTIMEREWINDTARGETMOTIONPAUSE_METHOD_4_8D377298DA08BD7E_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_4_1C121CA2AE806656(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::ByTimeRewindTargetMotionPause* a2)
+		static ::System::Void Method_4_4FC8531F11318F18(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::ByTimeRewindTargetMotionPause* a2)
 		{
-			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::ByTimeRewindTargetMotionPause*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYTIMEREWINDTARGETMOTIONPAUSE_METHOD_4_1C121CA2AE806656_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::ByTimeRewindTargetMotionPause*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYTIMEREWINDTARGETMOTIONPAUSE_METHOD_4_4FC8531F11318F18_OFFSET))(a1, a2);
 		}
 	};
 }

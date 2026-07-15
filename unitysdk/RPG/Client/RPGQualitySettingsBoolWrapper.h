@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int RPGQualitySettingsBoolWrapper_TypeDefinitionIndex = 63547;
+	inline static constexpr unsigned int RPGQualitySettingsBoolWrapper_TypeDefinitionIndex = 64914;
 
 	enum class RPGQualitySettingsBoolWrapper : ::System::Int32
 	{

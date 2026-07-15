@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class NotifyGameModeParamChange; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_488B265B13D2AACB_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x143D6260)
-#define CLASS_3_488B265B13D2AACB__CTOR_OFFSET UNITYSDK_OFFSET(0x143D6230)
+#define CLASS_3_488B265B13D2AACB_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x158864C0)
+#define CLASS_3_488B265B13D2AACB__CTOR_OFFSET UNITYSDK_OFFSET(0x15886490)
 
-inline static constexpr unsigned int Class_3_488B265B13D2AACB_TypeDefinitionIndex = 51596;
+inline static constexpr unsigned int Class_3_488B265B13D2AACB_TypeDefinitionIndex = 52738;
 
 class Class_3_488B265B13D2AACB : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::NotifyGameModeParamChange*>
 {

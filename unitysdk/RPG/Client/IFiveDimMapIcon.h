@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int IFiveDimMapIcon_TypeDefinitionIndex = 58858;
+	inline static constexpr unsigned int IFiveDimMapIcon_TypeDefinitionIndex = 60129;
 
 	class IFiveDimMapIcon
 	{

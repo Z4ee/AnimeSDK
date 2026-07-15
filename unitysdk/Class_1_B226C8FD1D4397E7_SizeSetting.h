@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int Class_1_B226C8FD1D4397E7_SizeSetting_TypeDefinitionIndex = 46176;
+inline static constexpr unsigned int Class_1_B226C8FD1D4397E7_SizeSetting_TypeDefinitionIndex = 47141;
 
 enum class Class_1_B226C8FD1D4397E7_SizeSetting : ::System::Int32
 {

@@ -6,13 +6,13 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class DynamicFloat; }
 
-#define RPG_GAMECORE_ADVSETCONFINEFEATUREPARAM_METHOD_3_D94041FFD446F4F5_OFFSET UNITYSDK_OFFSET(0x19435F60)
-#define RPG_GAMECORE_ADVSETCONFINEFEATUREPARAM_METHOD_3_F7A2F31455B41CE3_OFFSET UNITYSDK_OFFSET(0x19435FE0)
-#define RPG_GAMECORE_ADVSETCONFINEFEATUREPARAM__CTOR_OFFSET UNITYSDK_OFFSET(0x19435FB0)
+#define RPG_GAMECORE_ADVSETCONFINEFEATUREPARAM_METHOD_3_C14728B8E2C740DF_OFFSET UNITYSDK_OFFSET(0x1BE2C8B0)
+#define RPG_GAMECORE_ADVSETCONFINEFEATUREPARAM_METHOD_3_F7A2F31455B41CE3_OFFSET UNITYSDK_OFFSET(0x1BE2C8F0)
+#define RPG_GAMECORE_ADVSETCONFINEFEATUREPARAM__CTOR_OFFSET UNITYSDK_OFFSET(0x1BE2C8E0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AdvSetConfineFeatureParam_TypeDefinitionIndex = 20593;
+	inline static constexpr unsigned int AdvSetConfineFeatureParam_TypeDefinitionIndex = 21008;
 
 	class AdvSetConfineFeatureParam : public ::RPG::GameCore::TaskConfig
 	{
@@ -33,9 +33,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVSETCONFINEFEATUREPARAM__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_D94041FFD446F4F5(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AdvSetConfineFeatureParam*& a2)
+		static ::System::Void Method_3_C14728B8E2C740DF(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AdvSetConfineFeatureParam*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::AdvSetConfineFeatureParam*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVSETCONFINEFEATUREPARAM_METHOD_3_D94041FFD446F4F5_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::AdvSetConfineFeatureParam*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVSETCONFINEFEATUREPARAM_METHOD_3_C14728B8E2C740DF_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_F7A2F31455B41CE3(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AdvSetConfineFeatureParam* a2)

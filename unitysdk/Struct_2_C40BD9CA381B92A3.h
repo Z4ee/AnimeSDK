@@ -1,0 +1,106 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/ValueType.h"
+#include "unitysdk/UnityEngine/Matrix4x4.h"
+
+namespace RPG::Client { class MapDef; }
+namespace RPG::Client { class MapNpcDef; }
+namespace RPG::Client::NavMap { class IMapDataSource; }
+
+#define STRUCT_2_C40BD9CA381B92A3_GET_ORIGINMATRIX_OFFSET UNITYSDK_OFFSET(0x166590)
+#define STRUCT_2_C40BD9CA381B92A3_METHOD_2_0FCFC175AE2B65B9_OFFSET UNITYSDK_OFFSET(0x179E07A0)
+#define STRUCT_2_C40BD9CA381B92A3_METHOD_2_24D9BF29B297FEF8_OFFSET UNITYSDK_OFFSET(0x179E00D0)
+#define STRUCT_2_C40BD9CA381B92A3_METHOD_2_2DA5E14835AEFAD5_OFFSET UNITYSDK_OFFSET(0x395DB00)
+#define STRUCT_2_C40BD9CA381B92A3_METHOD_2_31BEBE4D2907E113_OFFSET UNITYSDK_OFFSET(0x179DFFB0)
+#define STRUCT_2_C40BD9CA381B92A3_METHOD_2_70568AD9E47CB5C1_OFFSET UNITYSDK_OFFSET(0x179E0A60)
+#define STRUCT_2_C40BD9CA381B92A3_METHOD_2_77FD543600E00498_OFFSET UNITYSDK_OFFSET(0x395DCA0)
+#define STRUCT_2_C40BD9CA381B92A3_METHOD_2_79CF86836A29EF45_OFFSET UNITYSDK_OFFSET(0x395DAE0)
+#define STRUCT_2_C40BD9CA381B92A3_METHOD_2_A7404DEF8F06FEF2_OFFSET UNITYSDK_OFFSET(0x179E0370)
+#define STRUCT_2_C40BD9CA381B92A3_METHOD_2_C34AC80B04BCFF1B_1_OFFSET UNITYSDK_OFFSET(0x395DD50)
+#define STRUCT_2_C40BD9CA381B92A3_METHOD_2_C34AC80B04BCFF1B_OFFSET UNITYSDK_OFFSET(0x395DBE0)
+#define STRUCT_2_C40BD9CA381B92A3_METHOD_2_F0CC36B6897ED114_OFFSET UNITYSDK_OFFSET(0x179E0480)
+#define STRUCT_2_C40BD9CA381B92A3_SET_ORIGINMATRIX_OFFSET UNITYSDK_OFFSET(0x166230)
+
+inline static constexpr unsigned int Struct_2_C40BD9CA381B92A3_TypeDefinitionIndex = 57869;
+
+struct alignas(4) Struct_2_C40BD9CA381B92A3
+{
+	::UnityEngine::Matrix4x4 _OriginMatrix_k__BackingField; // 0x10
+
+	/*
+	static ::Struct_2_C40BD9CA381B92A3 Method_2_31BEBE4D2907E113(::UnityEngine::Vector3 a1, ::UnityEngine::Quaternion a2)
+	{
+		return ((::Struct_2_C40BD9CA381B92A3(*)(::UnityEngine::Vector3, ::UnityEngine::Quaternion))((::PBYTE)hIl2Cpp + STRUCT_2_C40BD9CA381B92A3_METHOD_2_31BEBE4D2907E113_OFFSET))(a1, a2);
+	}
+	*/
+
+	/*
+	static ::Struct_2_C40BD9CA381B92A3 Method_2_24D9BF29B297FEF8(::UnityEngine::Vector3 a1, ::UnityEngine::Quaternion a2)
+	{
+		return ((::Struct_2_C40BD9CA381B92A3(*)(::UnityEngine::Vector3, ::UnityEngine::Quaternion))((::PBYTE)hIl2Cpp + STRUCT_2_C40BD9CA381B92A3_METHOD_2_24D9BF29B297FEF8_OFFSET))(a1, a2);
+	}
+	*/
+
+	static ::Struct_2_C40BD9CA381B92A3 Method_2_A7404DEF8F06FEF2(::RPG::Client::MapNpcDef* a1)
+	{
+		return ((::Struct_2_C40BD9CA381B92A3(*)(::RPG::Client::MapNpcDef*))((::PBYTE)hIl2Cpp + STRUCT_2_C40BD9CA381B92A3_METHOD_2_A7404DEF8F06FEF2_OFFSET))(a1);
+	}
+
+	static ::Struct_2_C40BD9CA381B92A3 Method_2_F0CC36B6897ED114(::RPG::Client::MapNpcDef* a1, ::RPG::Client::MapDef* a2)
+	{
+		return ((::Struct_2_C40BD9CA381B92A3(*)(::RPG::Client::MapNpcDef*, ::RPG::Client::MapDef*))((::PBYTE)hIl2Cpp + STRUCT_2_C40BD9CA381B92A3_METHOD_2_F0CC36B6897ED114_OFFSET))(a1, a2);
+	}
+
+	static ::Struct_2_C40BD9CA381B92A3 Method_2_0FCFC175AE2B65B9(::RPG::Client::MapNpcDef* a1, ::RPG::Client::NavMap::IMapDataSource* a2)
+	{
+		return ((::Struct_2_C40BD9CA381B92A3(*)(::RPG::Client::MapNpcDef*, ::RPG::Client::NavMap::IMapDataSource*))((::PBYTE)hIl2Cpp + STRUCT_2_C40BD9CA381B92A3_METHOD_2_0FCFC175AE2B65B9_OFFSET))(a1, a2);
+	}
+
+	static ::Struct_2_C40BD9CA381B92A3 Method_2_70568AD9E47CB5C1(::System::Single a1, ::System::UInt32 a2)
+	{
+		return ((::Struct_2_C40BD9CA381B92A3(*)(::System::Single, ::System::UInt32))((::PBYTE)hIl2Cpp + STRUCT_2_C40BD9CA381B92A3_METHOD_2_70568AD9E47CB5C1_OFFSET))(a1, a2);
+	}
+
+	::UnityEngine::Matrix4x4 Method_2_79CF86836A29EF45()
+	{
+		return ((::UnityEngine::Matrix4x4(*)(::PVOID))((::PBYTE)hIl2Cpp + STRUCT_2_C40BD9CA381B92A3_METHOD_2_79CF86836A29EF45_OFFSET))(this);
+	}
+
+	/*
+	::UnityEngine::Vector3 Method_2_2DA5E14835AEFAD5()
+	{
+		return ((::UnityEngine::Vector3(*)(::PVOID))((::PBYTE)hIl2Cpp + STRUCT_2_C40BD9CA381B92A3_METHOD_2_2DA5E14835AEFAD5_OFFSET))(this);
+	}
+	*/
+
+	/*
+	::UnityEngine::Quaternion Method_2_C34AC80B04BCFF1B()
+	{
+		return ((::UnityEngine::Quaternion(*)(::PVOID))((::PBYTE)hIl2Cpp + STRUCT_2_C40BD9CA381B92A3_METHOD_2_C34AC80B04BCFF1B_OFFSET))(this);
+	}
+	*/
+
+	::UnityEngine::Matrix4x4 get_OriginMatrix()
+	{
+		return ((::UnityEngine::Matrix4x4(*)(::PVOID))((::PBYTE)hIl2Cpp + STRUCT_2_C40BD9CA381B92A3_GET_ORIGINMATRIX_OFFSET))(this);
+	}
+
+	::System::Void set_OriginMatrix(::UnityEngine::Matrix4x4 a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::UnityEngine::Matrix4x4))((::PBYTE)hIl2Cpp + STRUCT_2_C40BD9CA381B92A3_SET_ORIGINMATRIX_OFFSET))(this, a1);
+	}
+
+	/*
+	::UnityEngine::Vector3 Method_2_77FD543600E00498()
+	{
+		return ((::UnityEngine::Vector3(*)(::PVOID))((::PBYTE)hIl2Cpp + STRUCT_2_C40BD9CA381B92A3_METHOD_2_77FD543600E00498_OFFSET))(this);
+	}
+	*/
+
+	/*
+	::UnityEngine::Quaternion Method_2_C34AC80B04BCFF1B_1()
+	{
+		return ((::UnityEngine::Quaternion(*)(::PVOID))((::PBYTE)hIl2Cpp + STRUCT_2_C40BD9CA381B92A3_METHOD_2_C34AC80B04BCFF1B_1_OFFSET))(this);
+	}
+	*/
+};

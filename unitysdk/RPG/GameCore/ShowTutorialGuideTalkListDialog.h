@@ -8,13 +8,13 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class TutorialGuideShowConfig; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_SHOWTUTORIALGUIDETALKLISTDIALOG_METHOD_3_62E3EF2E5A997F80_OFFSET UNITYSDK_OFFSET(0x19C85820)
-#define RPG_GAMECORE_SHOWTUTORIALGUIDETALKLISTDIALOG_METHOD_3_D3F09E27CF3F2B88_OFFSET UNITYSDK_OFFSET(0x19C858A0)
-#define RPG_GAMECORE_SHOWTUTORIALGUIDETALKLISTDIALOG__CTOR_OFFSET UNITYSDK_OFFSET(0x19C85870)
+#define RPG_GAMECORE_SHOWTUTORIALGUIDETALKLISTDIALOG_METHOD_3_D3F09E27CF3F2B88_OFFSET UNITYSDK_OFFSET(0x1BE490D0)
+#define RPG_GAMECORE_SHOWTUTORIALGUIDETALKLISTDIALOG_METHOD_3_F107A4BC29CE1451_OFFSET UNITYSDK_OFFSET(0x1BE49090)
+#define RPG_GAMECORE_SHOWTUTORIALGUIDETALKLISTDIALOG__CTOR_OFFSET UNITYSDK_OFFSET(0x1BE490C0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ShowTutorialGuideTalkListDialog_TypeDefinitionIndex = 23018;
+	inline static constexpr unsigned int ShowTutorialGuideTalkListDialog_TypeDefinitionIndex = 23485;
 
 	class ShowTutorialGuideTalkListDialog : public ::RPG::GameCore::TaskConfig
 	{
@@ -30,9 +30,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SHOWTUTORIALGUIDETALKLISTDIALOG__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_62E3EF2E5A997F80(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ShowTutorialGuideTalkListDialog*& a2)
+		static ::System::Void Method_3_F107A4BC29CE1451(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ShowTutorialGuideTalkListDialog*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ShowTutorialGuideTalkListDialog*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SHOWTUTORIALGUIDETALKLISTDIALOG_METHOD_3_62E3EF2E5A997F80_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ShowTutorialGuideTalkListDialog*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SHOWTUTORIALGUIDETALKLISTDIALOG_METHOD_3_F107A4BC29CE1451_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_D3F09E27CF3F2B88(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ShowTutorialGuideTalkListDialog* a2)

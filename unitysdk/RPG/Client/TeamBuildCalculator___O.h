@@ -6,18 +6,18 @@ namespace System { template <typename T1, typename T2> class Func_2; }
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int TeamBuildCalculator___O_TypeDefinitionIndex = 63705;
+	inline static constexpr unsigned int TeamBuildCalculator___O_TypeDefinitionIndex = 65074;
 
 	class TeamBuildCalculator___O : public ::System::Object
 	{
 	public:
 		static ::System::Func_2<::System::UInt32, ::System::Boolean>** StaticGet__1____TrueChecker()
 		{
-			return (::System::Func_2<::System::UInt32, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(TeamBuildCalculator___O_TypeDefinitionIndex)->GetStaticField(0x4FEA0);
+			return (::System::Func_2<::System::UInt32, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(TeamBuildCalculator___O_TypeDefinitionIndex)->GetStaticField(0x3C6B0);
 		}
 		static ::System::Func_2<::System::UInt32, ::System::Boolean>** StaticGet__0____HasAvatarChecker()
 		{
-			return (::System::Func_2<::System::UInt32, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(TeamBuildCalculator___O_TypeDefinitionIndex)->GetStaticField(0x4FEA8);
+			return (::System::Func_2<::System::UInt32, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(TeamBuildCalculator___O_TypeDefinitionIndex)->GetStaticField(0x3C6B8);
 		}
 	};
 }

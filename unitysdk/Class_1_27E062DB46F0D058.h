@@ -8,17 +8,17 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine::EventSystems { class BaseEventData; }
 namespace UnityEngine::UI { class Selectable; }
 
-#define CLASS_1_27E062DB46F0D058_METHOD_1_8906865985E88687_1_OFFSET UNITYSDK_OFFSET(0x136F3BB0)
-#define CLASS_1_27E062DB46F0D058_METHOD_1_8906865985E88687_OFFSET UNITYSDK_OFFSET(0x136F3B30)
-#define CLASS_1_27E062DB46F0D058__CTOR_OFFSET UNITYSDK_OFFSET(0x136F3C30)
+#define CLASS_1_27E062DB46F0D058_METHOD_1_8906865985E88687_1_OFFSET UNITYSDK_OFFSET(0x16ECBBF0)
+#define CLASS_1_27E062DB46F0D058_METHOD_1_8906865985E88687_OFFSET UNITYSDK_OFFSET(0x16ECBB70)
+#define CLASS_1_27E062DB46F0D058__CTOR_OFFSET UNITYSDK_OFFSET(0x16ECBC70)
 
-inline static constexpr unsigned int Class_1_27E062DB46F0D058_TypeDefinitionIndex = 48421;
+inline static constexpr unsigned int Class_1_27E062DB46F0D058_TypeDefinitionIndex = 49420;
 
 class Class_1_27E062DB46F0D058 : public ::System::Object
 {
 public:
-	::UnityEngine::UI::Selectable* Field_1_0; // 0x10
-	::UnityEngine::EventSystems::BaseEventData* Field_1_1; // 0x18
+	::UnityEngine::EventSystems::BaseEventData* Field_1_0; // 0x10
+	::UnityEngine::UI::Selectable* Field_1_1; // 0x18
 	::System::Collections::Generic::List_1<::RPG::UINavigation::UINavigation*>* Field_1_2; // 0x20
 	::RPG::UINavigation::UINavigationDirection Field_1_3; // 0x28
 

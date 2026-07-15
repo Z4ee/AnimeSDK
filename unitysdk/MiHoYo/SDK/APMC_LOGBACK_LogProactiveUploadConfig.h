@@ -6,11 +6,11 @@ namespace MiHoYo::SDK { class APMC_LOGBACK_LogAttachmentUploaded; }
 namespace MiHoYo::SDK { class APMC_LOGBACK_LogUploadStart; }
 namespace MiHoYo::SDK { class APMC_LOGBACK_LogUploaded; }
 
-#define MIHOYO_SDK_APMC_LOGBACK_LOGPROACTIVEUPLOADCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0xA134240)
+#define MIHOYO_SDK_APMC_LOGBACK_LOGPROACTIVEUPLOADCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1535D660)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int APMC_LOGBACK_LogProactiveUploadConfig_TypeDefinitionIndex = 43913;
+	inline static constexpr unsigned int APMC_LOGBACK_LogProactiveUploadConfig_TypeDefinitionIndex = 44775;
 
 	class APMC_LOGBACK_LogProactiveUploadConfig : public ::System::Object
 	{

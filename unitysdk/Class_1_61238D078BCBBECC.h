@@ -6,10 +6,10 @@
 namespace RPG::GameCore { class RtAttackData; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_1_61238D078BCBBECC_DISPOSE_OFFSET UNITYSDK_OFFSET(0xAAAF600)
-#define CLASS_1_61238D078BCBBECC__CTOR_OFFSET UNITYSDK_OFFSET(0xAAAF5B0)
+#define CLASS_1_61238D078BCBBECC_DISPOSE_OFFSET UNITYSDK_OFFSET(0x16A19D60)
+#define CLASS_1_61238D078BCBBECC__CTOR_OFFSET UNITYSDK_OFFSET(0x16A19D10)
 
-inline static constexpr unsigned int Class_1_61238D078BCBBECC_TypeDefinitionIndex = 50293;
+inline static constexpr unsigned int Class_1_61238D078BCBBECC_TypeDefinitionIndex = 51375;
 
 class Class_1_61238D078BCBBECC : public ::System::Object
 {

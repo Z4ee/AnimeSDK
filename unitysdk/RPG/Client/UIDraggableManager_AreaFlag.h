@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int UIDraggableManager_AreaFlag_TypeDefinitionIndex = 64613;
+	inline static constexpr unsigned int UIDraggableManager_AreaFlag_TypeDefinitionIndex = 66014;
 
 	enum class UIDraggableManager_AreaFlag : ::System::Int32
 	{

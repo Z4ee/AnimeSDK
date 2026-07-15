@@ -7,7 +7,7 @@ namespace UnityEngine { class LineRenderer; }
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int CustomLineProcedural_Struct_2_E36BFA641C5D2AAB_TypeDefinitionIndex = 65826;
+	inline static constexpr unsigned int CustomLineProcedural_Struct_2_E36BFA641C5D2AAB_TypeDefinitionIndex = 67243;
 
 	struct alignas(8) CustomLineProcedural_Struct_2_E36BFA641C5D2AAB
 	{

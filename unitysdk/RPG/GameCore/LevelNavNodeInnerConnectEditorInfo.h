@@ -1,18 +1,18 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/RPG/GameCore/LevelNavNodeInnerConnectInfo.h"
+#include "unitysdk/RPG/GameCore/JsonConfig.h"
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_LEVELNAVNODEINNERCONNECTEDITORINFO_FROMBINARYIMPL_OFFSET UNITYSDK_OFFSET(0x1987EB50)
-#define RPG_GAMECORE_LEVELNAVNODEINNERCONNECTEDITORINFO_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1987EB00)
-#define RPG_GAMECORE_LEVELNAVNODEINNERCONNECTEDITORINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x1987EB40)
+#define RPG_GAMECORE_LEVELNAVNODEINNERCONNECTEDITORINFO_FROMBINARYIMPL_OFFSET UNITYSDK_OFFSET(0x1B0798C0)
+#define RPG_GAMECORE_LEVELNAVNODEINNERCONNECTEDITORINFO_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B079870)
+#define RPG_GAMECORE_LEVELNAVNODEINNERCONNECTEDITORINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x1B0798B0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LevelNavNodeInnerConnectEditorInfo_TypeDefinitionIndex = 16529;
+	inline static constexpr unsigned int LevelNavNodeInnerConnectEditorInfo_TypeDefinitionIndex = 16691;
 
-	class LevelNavNodeInnerConnectEditorInfo : public ::RPG::GameCore::LevelNavNodeInnerConnectInfo
+	class LevelNavNodeInnerConnectEditorInfo : public ::RPG::GameCore::JsonConfig
 	{
 	public:
 		::System::Void _ctor()

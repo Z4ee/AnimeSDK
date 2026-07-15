@@ -9,13 +9,12 @@ namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class AnimationCurve; }
 
-#define RPG_CLIENT_EFFECT_CYRENERINGSTARSHININGMONOPLUGIN_GETTICKLODTEMPLATENAME_OFFSET UNITYSDK_OFFSET(0xB8496B0)
-#define RPG_CLIENT_EFFECT_CYRENERINGSTARSHININGMONOPLUGIN__CTOR_OFFSET UNITYSDK_OFFSET(0xB849700)
-#define RPG_CLIENT_EFFECT_CYRENERINGSTARSHININGMONOPLUGIN___IFIXBASEPROXY_GETTICKLODTEMPLATENAME_OFFSET UNITYSDK_OFFSET(0xB849890)
+#define RPG_CLIENT_EFFECT_CYRENERINGSTARSHININGMONOPLUGIN_GETTICKLODTEMPLATENAME_OFFSET UNITYSDK_OFFSET(0x150E4620)
+#define RPG_CLIENT_EFFECT_CYRENERINGSTARSHININGMONOPLUGIN__CTOR_OFFSET UNITYSDK_OFFSET(0x150E4670)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int Effect_CyreneRingStarShiningMonoPlugin_TypeDefinitionIndex = 65865;
+	inline static constexpr unsigned int Effect_CyreneRingStarShiningMonoPlugin_TypeDefinitionIndex = 67282;
 
 	class Effect_CyreneRingStarShiningMonoPlugin : public ::RPG::Client::TAMonoPlugin_1<::RPG::Client::Effect_CyreneRingStarShiningBehavior*>
 	{
@@ -38,11 +37,6 @@ namespace RPG::Client
 		::System::String* GetTickLodTemplateName()
 		{
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_EFFECT_CYRENERINGSTARSHININGMONOPLUGIN_GETTICKLODTEMPLATENAME_OFFSET))(this);
-		}
-
-		::System::String* __iFixBaseProxy_GetTickLodTemplateName()
-		{
-			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_EFFECT_CYRENERINGSTARSHININGMONOPLUGIN___IFIXBASEPROXY_GETTICKLODTEMPLATENAME_OFFSET))(this);
 		}
 	};
 }

@@ -2,12 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define UNITYENGINE_VFX_VFXEXPRESSIONVALUES_CREATEEXPRESSIONVALUESWRAPPER_OFFSET UNITYSDK_OFFSET(0x1B40BCE0)
-#define UNITYENGINE_VFX_VFXEXPRESSIONVALUES__CTOR_OFFSET UNITYSDK_OFFSET(0x1B40BCD0)
+#define UNITYENGINE_VFX_VFXEXPRESSIONVALUES_CREATEEXPRESSIONVALUESWRAPPER_OFFSET UNITYSDK_OFFSET(0x1D304AA0)
+#define UNITYENGINE_VFX_VFXEXPRESSIONVALUES__CTOR_OFFSET UNITYSDK_OFFSET(0x1D304A90)
 
 namespace UnityEngine::VFX
 {
-	inline static constexpr unsigned int VFXExpressionValues_TypeDefinitionIndex = 6281;
+	inline static constexpr unsigned int VFXExpressionValues_TypeDefinitionIndex = 6286;
 
 	class VFXExpressionValues : public ::System::Object
 	{

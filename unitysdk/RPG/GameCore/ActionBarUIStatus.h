@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ActionBarUIStatus_TypeDefinitionIndex = 23320;
+	inline static constexpr unsigned int ActionBarUIStatus_TypeDefinitionIndex = 23807;
 
 	enum class ActionBarUIStatus : ::System::Int32
 	{

@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TransformComponent_ScaleSource_TypeDefinitionIndex = 53931;
+	inline static constexpr unsigned int TransformComponent_ScaleSource_TypeDefinitionIndex = 55154;
 
 	enum class TransformComponent_ScaleSource : ::System::Int32
 	{

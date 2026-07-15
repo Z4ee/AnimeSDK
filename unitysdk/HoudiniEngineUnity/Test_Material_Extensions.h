@@ -6,13 +6,13 @@ namespace HoudiniEngineUnity { class Test_Material; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class Material; }
 
-#define HOUDINIENGINEUNITY_TEST_MATERIAL_EXTENSIONS_TOTESTOBJECT_1_OFFSET UNITYSDK_OFFSET(0x17F81490)
-#define HOUDINIENGINEUNITY_TEST_MATERIAL_EXTENSIONS_TOTESTOBJECT_2_OFFSET UNITYSDK_OFFSET(0x17F815D0)
-#define HOUDINIENGINEUNITY_TEST_MATERIAL_EXTENSIONS_TOTESTOBJECT_OFFSET UNITYSDK_OFFSET(0x17F81450)
+#define HOUDINIENGINEUNITY_TEST_MATERIAL_EXTENSIONS_TOTESTOBJECT_1_OFFSET UNITYSDK_OFFSET(0x1D20D770)
+#define HOUDINIENGINEUNITY_TEST_MATERIAL_EXTENSIONS_TOTESTOBJECT_2_OFFSET UNITYSDK_OFFSET(0x1D20D8B0)
+#define HOUDINIENGINEUNITY_TEST_MATERIAL_EXTENSIONS_TOTESTOBJECT_OFFSET UNITYSDK_OFFSET(0x1D20D730)
 
 namespace HoudiniEngineUnity
 {
-	inline static constexpr unsigned int Test_Material_Extensions_TypeDefinitionIndex = 37753;
+	inline static constexpr unsigned int Test_Material_Extensions_TypeDefinitionIndex = 38561;
 
 	class Test_Material_Extensions : public ::System::Object
 	{

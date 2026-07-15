@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int InstanceArrayV2AnimationTimeMode_TypeDefinitionIndex = 66037;
+	inline static constexpr unsigned int InstanceArrayV2AnimationTimeMode_TypeDefinitionIndex = 67462;
 
 	enum class InstanceArrayV2AnimationTimeMode : ::System::Int32
 	{

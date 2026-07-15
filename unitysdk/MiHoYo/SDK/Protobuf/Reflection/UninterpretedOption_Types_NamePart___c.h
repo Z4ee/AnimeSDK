@@ -4,20 +4,20 @@
 
 namespace MiHoYo::SDK::Protobuf::Reflection { class UninterpretedOption_Types_NamePart; }
 
-#define MIHOYO_SDK_PROTOBUF_REFLECTION_UNINTERPRETEDOPTION_TYPES_NAMEPART___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x181CA370)
-#define MIHOYO_SDK_PROTOBUF_REFLECTION_UNINTERPRETEDOPTION_TYPES_NAMEPART___C__CTOR_OFFSET UNITYSDK_OFFSET(0x181CA3B0)
-#define MIHOYO_SDK_PROTOBUF_REFLECTION_UNINTERPRETEDOPTION_TYPES_NAMEPART___C___CCTOR_B__29_0_OFFSET UNITYSDK_OFFSET(0x181CA3C0)
+#define MIHOYO_SDK_PROTOBUF_REFLECTION_UNINTERPRETEDOPTION_TYPES_NAMEPART___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x196CB3B0)
+#define MIHOYO_SDK_PROTOBUF_REFLECTION_UNINTERPRETEDOPTION_TYPES_NAMEPART___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1D289490)
+#define MIHOYO_SDK_PROTOBUF_REFLECTION_UNINTERPRETEDOPTION_TYPES_NAMEPART___C___CCTOR_B__29_0_OFFSET UNITYSDK_OFFSET(0x1D2894A0)
 
 namespace MiHoYo::SDK::Protobuf::Reflection
 {
-	inline static constexpr unsigned int UninterpretedOption_Types_NamePart___c_TypeDefinitionIndex = 34001;
+	inline static constexpr unsigned int UninterpretedOption_Types_NamePart___c_TypeDefinitionIndex = 34372;
 
 	class UninterpretedOption_Types_NamePart___c : public ::System::Object
 	{
 	public:
 		static ::MiHoYo::SDK::Protobuf::Reflection::UninterpretedOption_Types_NamePart___c** StaticGet___9()
 		{
-			return (::MiHoYo::SDK::Protobuf::Reflection::UninterpretedOption_Types_NamePart___c**)Il2CppClass::FromTypeDefinitionIndex(UninterpretedOption_Types_NamePart___c_TypeDefinitionIndex)->GetStaticField(0x4EA70);
+			return (::MiHoYo::SDK::Protobuf::Reflection::UninterpretedOption_Types_NamePart___c**)Il2CppClass::FromTypeDefinitionIndex(UninterpretedOption_Types_NamePart___c_TypeDefinitionIndex)->GetStaticField(0x4AC80);
 		}
 
 		static ::System::Void _cctor()

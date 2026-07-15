@@ -3,7 +3,7 @@
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int SendMessageOptions_TypeDefinitionIndex = 3999;
+	inline static constexpr unsigned int SendMessageOptions_TypeDefinitionIndex = 4004;
 
 	enum class SendMessageOptions : ::System::Int32
 	{

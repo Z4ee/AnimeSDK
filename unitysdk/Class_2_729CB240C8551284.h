@@ -6,11 +6,10 @@ namespace RPG::Client::ChenLingBattle { class ChenLingBattleGameFlow; }
 namespace RPG::Client::ChenLingBattle { class ChenLingBattleGameSession; }
 namespace UnityEngine { class Transform; }
 
-#define CLASS_2_729CB240C8551284_CLEAR_OFFSET UNITYSDK_OFFSET(0xB28FAE0)
-#define CLASS_2_729CB240C8551284__CTOR_OFFSET UNITYSDK_OFFSET(0xB28FB70)
-#define CLASS_2_729CB240C8551284___IFIXBASEPROXY_CLEAR_OFFSET UNITYSDK_OFFSET(0xB28FB80)
+#define CLASS_2_729CB240C8551284_CLEAR_OFFSET UNITYSDK_OFFSET(0x18BD9420)
+#define CLASS_2_729CB240C8551284__CTOR_OFFSET UNITYSDK_OFFSET(0x18BD94B0)
 
-inline static constexpr unsigned int Class_2_729CB240C8551284_TypeDefinitionIndex = 72316;
+inline static constexpr unsigned int Class_2_729CB240C8551284_TypeDefinitionIndex = 73841;
 
 class Class_2_729CB240C8551284 : public ::Class_1_4CD8A1ACD565F336
 {
@@ -28,10 +27,5 @@ public:
 	::System::Void Clear()
 	{
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_729CB240C8551284_CLEAR_OFFSET))(this);
-	}
-
-	::System::Void __iFixBaseProxy_Clear()
-	{
-		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_729CB240C8551284___IFIXBASEPROXY_CLEAR_OFFSET))(this);
 	}
 };

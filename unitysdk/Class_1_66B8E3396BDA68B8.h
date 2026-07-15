@@ -5,10 +5,10 @@
 
 namespace RPG::GameCore { class AdventureDyingParam; }
 
-#define CLASS_1_66B8E3396BDA68B8_CLEAR_OFFSET UNITYSDK_OFFSET(0x141DA4E0)
-#define CLASS_1_66B8E3396BDA68B8__CTOR_OFFSET UNITYSDK_OFFSET(0x141DA530)
+#define CLASS_1_66B8E3396BDA68B8_CLEAR_OFFSET UNITYSDK_OFFSET(0x179C9750)
+#define CLASS_1_66B8E3396BDA68B8__CTOR_OFFSET UNITYSDK_OFFSET(0x179C97A0)
 
-inline static constexpr unsigned int Class_1_66B8E3396BDA68B8_TypeDefinitionIndex = 54126;
+inline static constexpr unsigned int Class_1_66B8E3396BDA68B8_TypeDefinitionIndex = 55349;
 
 class Class_1_66B8E3396BDA68B8 : public ::System::Object
 {

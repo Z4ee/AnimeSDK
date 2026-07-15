@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int JsonEnumCategory_TypeDefinitionIndex = 10148;
+	inline static constexpr unsigned int JsonEnumCategory_TypeDefinitionIndex = 10163;
 
 	enum class JsonEnumCategory : ::System::Int32
 	{

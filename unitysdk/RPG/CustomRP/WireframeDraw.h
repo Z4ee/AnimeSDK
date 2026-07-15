@@ -13,45 +13,45 @@ namespace UnityEngine { class Material; }
 namespace UnityEngine { class Mesh; }
 namespace UnityEngine { class Transform; }
 
-#define RPG_CUSTOMRP_WIREFRAMEDRAW_ADDOBJECT_OFFSET UNITYSDK_OFFSET(0x18F29CE0)
-#define RPG_CUSTOMRP_WIREFRAMEDRAW_BEGINADDDATA_OFFSET UNITYSDK_OFFSET(0x18F29CA0)
-#define RPG_CUSTOMRP_WIREFRAMEDRAW_DRAW_OFFSET UNITYSDK_OFFSET(0x18F2A1D0)
-#define RPG_CUSTOMRP_WIREFRAMEDRAW_ENDADDDATA_OFFSET UNITYSDK_OFFSET(0x18F2A010)
-#define RPG_CUSTOMRP_WIREFRAMEDRAW_GET_ISDIRTY_OFFSET UNITYSDK_OFFSET(0x18F2A6F0)
-#define RPG_CUSTOMRP_WIREFRAMEDRAW_INIT_OFFSET UNITYSDK_OFFSET(0x18F298A0)
-#define RPG_CUSTOMRP_WIREFRAMEDRAW_SET_ISDIRTY_OFFSET UNITYSDK_OFFSET(0x18F2A700)
-#define RPG_CUSTOMRP_WIREFRAMEDRAW_UNINIT_OFFSET UNITYSDK_OFFSET(0x18F29B10)
-#define RPG_CUSTOMRP_WIREFRAMEDRAW__CACHEINDEX_OFFSET UNITYSDK_OFFSET(0x18F2A710)
-#define RPG_CUSTOMRP_WIREFRAMEDRAW__CCTOR_OFFSET UNITYSDK_OFFSET(0x18F2A990)
-#define RPG_CUSTOMRP_WIREFRAMEDRAW__CLEARCOLLIDERDATA_OFFSET UNITYSDK_OFFSET(0x18F29BD0)
-#define RPG_CUSTOMRP_WIREFRAMEDRAW__CONVERTMESH2LINE_OFFSET UNITYSDK_OFFSET(0x18F29930)
-#define RPG_CUSTOMRP_WIREFRAMEDRAW__CTOR_OFFSET UNITYSDK_OFFSET(0x18F2A8C0)
+#define RPG_CUSTOMRP_WIREFRAMEDRAW_ADDOBJECT_OFFSET UNITYSDK_OFFSET(0x1D138FF0)
+#define RPG_CUSTOMRP_WIREFRAMEDRAW_BEGINADDDATA_OFFSET UNITYSDK_OFFSET(0x1D138FB0)
+#define RPG_CUSTOMRP_WIREFRAMEDRAW_DRAW_OFFSET UNITYSDK_OFFSET(0x1D139500)
+#define RPG_CUSTOMRP_WIREFRAMEDRAW_ENDADDDATA_OFFSET UNITYSDK_OFFSET(0x1D139320)
+#define RPG_CUSTOMRP_WIREFRAMEDRAW_GET_ISDIRTY_OFFSET UNITYSDK_OFFSET(0x1D139A20)
+#define RPG_CUSTOMRP_WIREFRAMEDRAW_INIT_OFFSET UNITYSDK_OFFSET(0x1D138B90)
+#define RPG_CUSTOMRP_WIREFRAMEDRAW_SET_ISDIRTY_OFFSET UNITYSDK_OFFSET(0x1D139A30)
+#define RPG_CUSTOMRP_WIREFRAMEDRAW_UNINIT_OFFSET UNITYSDK_OFFSET(0x1D138E00)
+#define RPG_CUSTOMRP_WIREFRAMEDRAW__CACHEINDEX_OFFSET UNITYSDK_OFFSET(0x1D139A40)
+#define RPG_CUSTOMRP_WIREFRAMEDRAW__CCTOR_OFFSET UNITYSDK_OFFSET(0x1D139CC0)
+#define RPG_CUSTOMRP_WIREFRAMEDRAW__CLEARCOLLIDERDATA_OFFSET UNITYSDK_OFFSET(0x1D138EE0)
+#define RPG_CUSTOMRP_WIREFRAMEDRAW__CONVERTMESH2LINE_OFFSET UNITYSDK_OFFSET(0x1D138C20)
+#define RPG_CUSTOMRP_WIREFRAMEDRAW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D139BF0)
 
 namespace RPG::CustomRP
 {
-	inline static constexpr unsigned int WireframeDraw_TypeDefinitionIndex = 35602;
+	inline static constexpr unsigned int WireframeDraw_TypeDefinitionIndex = 36384;
 
 	class WireframeDraw : public ::System::Object
 	{
 	public:
-		static ::System::Int32* StaticGet__Local2World()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(WireframeDraw_TypeDefinitionIndex)->GetStaticField(0x13830);
-		}
 		static ::System::Int32* StaticGet__MeshOffset()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(WireframeDraw_TypeDefinitionIndex)->GetStaticField(0x13834);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(WireframeDraw_TypeDefinitionIndex)->GetStaticField(0x12AC0);
 		}
-		::System::Collections::Generic::List_1<::UnityEngine::Vector3>* _DynamicData; // 0x10
-		::System::Collections::Generic::List_1<::UnityEngine::Vector3>* _DefaultData; // 0x18
+		static ::System::Int32* StaticGet__Local2World()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(WireframeDraw_TypeDefinitionIndex)->GetStaticField(0x12AC4);
+		}
+		::UnityEngine::Material* _ColliderDebugMat; // 0x10
+		::UnityEngine::ComputeBuffer* _ColliderDataBuffer; // 0x18
 		::System::Collections::Generic::List_1<::RPG::CustomRP::MeshLineData*>* _ColliderData; // 0x20
-		::UnityEngine::ComputeBuffer* _ColliderDataBuffer; // 0x28
-		::UnityEngine::Material* _ColliderDebugMat; // 0x30
-		::System::Boolean _IsDirty; // 0x38
-		::System::Boolean _IsInit; // 0x39
-		::RPG::CustomRP::WireframeDraw_ShapeIndex _Box; // 0x3C
-		::RPG::CustomRP::WireframeDraw_ShapeIndex _Sphere; // 0x44
-		::RPG::CustomRP::WireframeDraw_ShapeIndex _Capsule; // 0x4C
+		::System::Collections::Generic::List_1<::UnityEngine::Vector3>* _DynamicData; // 0x28
+		::System::Collections::Generic::List_1<::UnityEngine::Vector3>* _DefaultData; // 0x30
+		::RPG::CustomRP::WireframeDraw_ShapeIndex _Capsule; // 0x38
+		::RPG::CustomRP::WireframeDraw_ShapeIndex _Box; // 0x40
+		::System::Boolean _IsDirty; // 0x48
+		::System::Boolean _IsInit; // 0x49
+		::RPG::CustomRP::WireframeDraw_ShapeIndex _Sphere; // 0x4C
 
 		::System::Void _ctor()
 		{

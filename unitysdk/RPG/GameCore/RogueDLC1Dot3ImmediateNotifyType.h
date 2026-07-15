@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RogueDLC1Dot3ImmediateNotifyType_TypeDefinitionIndex = 23263;
+	inline static constexpr unsigned int RogueDLC1Dot3ImmediateNotifyType_TypeDefinitionIndex = 23748;
 
 	enum class RogueDLC1Dot3ImmediateNotifyType : ::System::Int32
 	{

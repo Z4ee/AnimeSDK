@@ -8,7 +8,7 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 
 namespace MiHoYo::SDK::ReporterUtil
 {
-	inline static constexpr unsigned int AnalyzerResult_1_TypeDefinitionIndex = 44003;
+	inline static constexpr unsigned int AnalyzerResult_1_TypeDefinitionIndex = 44865;
 
 	template <typename TDataType>
 	class AnalyzerResult_1 : public ::System::Object

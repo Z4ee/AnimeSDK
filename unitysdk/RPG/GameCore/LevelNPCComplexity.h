@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LevelNPCComplexity_TypeDefinitionIndex = 16427;
+	inline static constexpr unsigned int LevelNPCComplexity_TypeDefinitionIndex = 16589;
 
 	enum class LevelNPCComplexity : ::System::Int32
 	{

@@ -5,13 +5,13 @@
 namespace System { class String; }
 namespace System { template <typename T> class Action_1; }
 
-#define MIHOYO_SDK_PCVERIFY_INVOKERETURN_OFFSET UNITYSDK_OFFSET(0xA1DF080)
-#define MIHOYO_SDK_PCVERIFY_INVOKE_OFFSET UNITYSDK_OFFSET(0xA1DF090)
-#define MIHOYO_SDK_PCVERIFY__CTOR_OFFSET UNITYSDK_OFFSET(0xA1DF0A0)
+#define MIHOYO_SDK_PCVERIFY_INVOKERETURN_OFFSET UNITYSDK_OFFSET(0x1853F830)
+#define MIHOYO_SDK_PCVERIFY_INVOKE_OFFSET UNITYSDK_OFFSET(0x1853F840)
+#define MIHOYO_SDK_PCVERIFY__CTOR_OFFSET UNITYSDK_OFFSET(0x1853F850)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int PCVerify_TypeDefinitionIndex = 43659;
+	inline static constexpr unsigned int PCVerify_TypeDefinitionIndex = 44520;
 
 	class PCVerify : public ::System::Object
 	{

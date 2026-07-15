@@ -6,27 +6,27 @@
 namespace RPG::Client::ActivityIdleLive { class IdleLiveChapter; }
 namespace System { class String; }
 
-#define RPG_CLIENT_ACTIVITYIDLELIVE_CHAPTERUIDATA_CREATE_OFFSET UNITYSDK_OFFSET(0xB10AA80)
-#define RPG_CLIENT_ACTIVITYIDLELIVE_CHAPTERUIDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xB10AC60)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_CHAPTERUIDATA_CREATE_OFFSET UNITYSDK_OFFSET(0x19D1F3F0)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_CHAPTERUIDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x19D1F5D0)
 
 namespace RPG::Client::ActivityIdleLive
 {
-	inline static constexpr unsigned int ChapterUiData_TypeDefinitionIndex = 70285;
+	inline static constexpr unsigned int ChapterUiData_TypeDefinitionIndex = 71808;
 
 	class ChapterUiData : public ::System::Object
 	{
 	public:
 		::System::String* Icon; // 0x10
 		::System::String* BackgroundState; // 0x18
-		::RPG::Client::TextID Name; // 0x20
-		::System::UInt32 MaxProgress; // 0x30
-		::System::Boolean IsHardMode; // 0x34
-		::System::Boolean IsUnlocked; // 0x35
-		::System::Boolean IsFinished; // 0x36
-		::System::UInt32 CurProgress; // 0x38
-		::System::UInt32 ChapterId; // 0x3C
-		::System::UInt32 StarNum; // 0x40
-		::RPG::Client::TextID UnlockHint; // 0x48
+		::System::UInt32 ChapterId; // 0x20
+		::System::UInt32 CurProgress; // 0x24
+		::RPG::Client::TextID UnlockHint; // 0x28
+		::System::UInt32 StarNum; // 0x38
+		::System::UInt32 MaxProgress; // 0x3C
+		::System::Boolean IsHardMode; // 0x40
+		::System::Boolean IsFinished; // 0x41
+		::System::Boolean IsUnlocked; // 0x42
+		::RPG::Client::TextID Name; // 0x48
 
 		::System::Void _ctor()
 		{

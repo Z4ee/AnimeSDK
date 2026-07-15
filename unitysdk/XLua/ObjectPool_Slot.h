@@ -5,11 +5,11 @@
 namespace System { class Object; }
 namespace System { class String; }
 
-#define XLUA_OBJECTPOOL_SLOT__CTOR_OFFSET UNITYSDK_OFFSET(0x2FAF0)
+#define XLUA_OBJECTPOOL_SLOT__CTOR_OFFSET UNITYSDK_OFFSET(0x387D9D0)
 
 namespace XLua
 {
-	inline static constexpr unsigned int ObjectPool_Slot_TypeDefinitionIndex = 47025;
+	inline static constexpr unsigned int ObjectPool_Slot_TypeDefinitionIndex = 47991;
 
 	struct alignas(8) ObjectPool_Slot
 	{

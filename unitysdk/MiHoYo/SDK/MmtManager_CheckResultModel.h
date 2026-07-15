@@ -5,11 +5,11 @@
 namespace MiHoYo::SDK { class MmtManager_GeetestModel; }
 namespace System { class String; }
 
-#define MIHOYO_SDK_MMTMANAGER_CHECKRESULTMODEL__CTOR_OFFSET UNITYSDK_OFFSET(0x18369F70)
+#define MIHOYO_SDK_MMTMANAGER_CHECKRESULTMODEL__CTOR_OFFSET UNITYSDK_OFFSET(0x1991BB50)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int MmtManager_CheckResultModel_TypeDefinitionIndex = 7978;
+	inline static constexpr unsigned int MmtManager_CheckResultModel_TypeDefinitionIndex = 7988;
 
 	class MmtManager_CheckResultModel : public ::System::Object
 	{

@@ -8,7 +8,7 @@ namespace System { class Type; }
 
 namespace MessagePack::Internal
 {
-	inline static constexpr unsigned int ThreadsafeTypeKeyHashTable_1_Entry_TypeDefinitionIndex = 7255;
+	inline static constexpr unsigned int ThreadsafeTypeKeyHashTable_1_Entry_TypeDefinitionIndex = 7261;
 
 	template <typename TValue>
 	class ThreadsafeTypeKeyHashTable_1_Entry : public ::System::Object

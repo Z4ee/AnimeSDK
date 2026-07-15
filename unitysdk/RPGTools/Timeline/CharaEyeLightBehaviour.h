@@ -8,17 +8,15 @@ namespace RPG::Client { class CharaEyeLight; }
 namespace System { class Object; }
 namespace System { class String; }
 
-#define RPGTOOLS_TIMELINE_CHARAEYELIGHTBEHAVIOUR_GET_CHARACTERUNIQUENAME_OFFSET UNITYSDK_OFFSET(0xCFEAC50)
-#define RPGTOOLS_TIMELINE_CHARAEYELIGHTBEHAVIOUR_ONBEHAVIOURPLAY_OFFSET UNITYSDK_OFFSET(0xCFEAC70)
-#define RPGTOOLS_TIMELINE_CHARAEYELIGHTBEHAVIOUR_PROCESSFRAME_OFFSET UNITYSDK_OFFSET(0xCFEADC0)
-#define RPGTOOLS_TIMELINE_CHARAEYELIGHTBEHAVIOUR_SET_CHARACTERUNIQUENAME_OFFSET UNITYSDK_OFFSET(0xCFEAC60)
-#define RPGTOOLS_TIMELINE_CHARAEYELIGHTBEHAVIOUR__CTOR_OFFSET UNITYSDK_OFFSET(0xCFEAEE0)
-#define RPGTOOLS_TIMELINE_CHARAEYELIGHTBEHAVIOUR___IFIXBASEPROXY_ONBEHAVIOURPLAY_OFFSET UNITYSDK_OFFSET(0xCFEAEF0)
-#define RPGTOOLS_TIMELINE_CHARAEYELIGHTBEHAVIOUR___IFIXBASEPROXY_PROCESSFRAME_OFFSET UNITYSDK_OFFSET(0xCFEAF00)
+#define RPGTOOLS_TIMELINE_CHARAEYELIGHTBEHAVIOUR_GET_CHARACTERUNIQUENAME_OFFSET UNITYSDK_OFFSET(0x1B353830)
+#define RPGTOOLS_TIMELINE_CHARAEYELIGHTBEHAVIOUR_ONBEHAVIOURPLAY_OFFSET UNITYSDK_OFFSET(0x1B353850)
+#define RPGTOOLS_TIMELINE_CHARAEYELIGHTBEHAVIOUR_PROCESSFRAME_OFFSET UNITYSDK_OFFSET(0x1B3539A0)
+#define RPGTOOLS_TIMELINE_CHARAEYELIGHTBEHAVIOUR_SET_CHARACTERUNIQUENAME_OFFSET UNITYSDK_OFFSET(0x1B353840)
+#define RPGTOOLS_TIMELINE_CHARAEYELIGHTBEHAVIOUR__CTOR_OFFSET UNITYSDK_OFFSET(0x1B353AC0)
 
 namespace RPGTools::Timeline
 {
-	inline static constexpr unsigned int CharaEyeLightBehaviour_TypeDefinitionIndex = 45232;
+	inline static constexpr unsigned int CharaEyeLightBehaviour_TypeDefinitionIndex = 46156;
 
 	class CharaEyeLightBehaviour : public ::UnityEngine::Playables::PlayableBehaviour
 	{
@@ -50,16 +48,6 @@ namespace RPGTools::Timeline
 		::System::Void ProcessFrame(::UnityEngine::Playables::Playable a1, ::UnityEngine::Playables::FrameData a2, ::System::Object* a3)
 		{
 			return ((::System::Void(*)(::PVOID, ::UnityEngine::Playables::Playable, ::UnityEngine::Playables::FrameData, ::System::Object*))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_CHARAEYELIGHTBEHAVIOUR_PROCESSFRAME_OFFSET))(this, a1, a2, a3);
-		}
-
-		::System::Void __iFixBaseProxy_OnBehaviourPlay(::UnityEngine::Playables::Playable a1, ::UnityEngine::Playables::FrameData a2)
-		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Playables::Playable, ::UnityEngine::Playables::FrameData))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_CHARAEYELIGHTBEHAVIOUR___IFIXBASEPROXY_ONBEHAVIOURPLAY_OFFSET))(this, a1, a2);
-		}
-
-		::System::Void __iFixBaseProxy_ProcessFrame(::UnityEngine::Playables::Playable a1, ::UnityEngine::Playables::FrameData a2, ::System::Object* a3)
-		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Playables::Playable, ::UnityEngine::Playables::FrameData, ::System::Object*))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_CHARAEYELIGHTBEHAVIOUR___IFIXBASEPROXY_PROCESSFRAME_OFFSET))(this, a1, a2, a3);
 		}
 	};
 }

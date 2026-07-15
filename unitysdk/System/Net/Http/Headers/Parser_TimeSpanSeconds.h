@@ -5,11 +5,11 @@
 
 namespace System { class String; }
 
-#define SYSTEM_NET_HTTP_HEADERS_PARSER_TIMESPANSECONDS_TRYPARSE_OFFSET UNITYSDK_OFFSET(0x1ADDCF00)
+#define SYSTEM_NET_HTTP_HEADERS_PARSER_TIMESPANSECONDS_TRYPARSE_OFFSET UNITYSDK_OFFSET(0x1CA9C360)
 
 namespace System::Net::Http::Headers
 {
-	inline static constexpr unsigned int Parser_TimeSpanSeconds_TypeDefinitionIndex = 3805;
+	inline static constexpr unsigned int Parser_TimeSpanSeconds_TypeDefinitionIndex = 3809;
 
 	class Parser_TimeSpanSeconds : public ::System::Object
 	{

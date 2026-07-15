@@ -1,0 +1,108 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/RPG/Client/FateRin/BaseViewModel.h"
+#include "unitysdk/RPG/Client/TextID.h"
+
+class Class_0_16E4307DCC419505_1269;
+class Class_0_16E4307DCC419505_311;
+class Class_1_310250D457C6B8CD;
+class Class_1_5060AE803DAE1512;
+namespace RPG::Client::FateRin::HouguMap { class FateRinHouguMapFight; }
+namespace System { class String; }
+
+#define RPG_CLIENT_FATERIN_HOUGUMAP_HOUGUMAPFIGHTVIEWMODEL_GET_HASCARDREWARD_OFFSET UNITYSDK_OFFSET(0x1A3906C0)
+#define RPG_CLIENT_FATERIN_HOUGUMAP_HOUGUMAPFIGHTVIEWMODEL_GET_ID_OFFSET UNITYSDK_OFFSET(0x1A38F910)
+#define RPG_CLIENT_FATERIN_HOUGUMAP_HOUGUMAPFIGHTVIEWMODEL_GET_ISBOSS_OFFSET UNITYSDK_OFFSET(0x1A38FD00)
+#define RPG_CLIENT_FATERIN_HOUGUMAP_HOUGUMAPFIGHTVIEWMODEL_GET_ISFINISHED_OFFSET UNITYSDK_OFFSET(0x1A38FE10)
+#define RPG_CLIENT_FATERIN_HOUGUMAP_HOUGUMAPFIGHTVIEWMODEL_GET_ISNEW_OFFSET UNITYSDK_OFFSET(0x1A390780)
+#define RPG_CLIENT_FATERIN_HOUGUMAP_HOUGUMAPFIGHTVIEWMODEL_GET_NAME_OFFSET UNITYSDK_OFFSET(0x1A390720)
+#define RPG_CLIENT_FATERIN_HOUGUMAP_HOUGUMAPFIGHTVIEWMODEL_GET_REWARDCARDICONPATH_OFFSET UNITYSDK_OFFSET(0x1A3906D0)
+#define RPG_CLIENT_FATERIN_HOUGUMAP_HOUGUMAPFIGHTVIEWMODEL_GET_TRACKFIGHTACTION_OFFSET UNITYSDK_OFFSET(0x1A3907E0)
+#define RPG_CLIENT_FATERIN_HOUGUMAP_HOUGUMAPFIGHTVIEWMODEL__CTOR_OFFSET UNITYSDK_OFFSET(0x1A38FFE0)
+#define RPG_CLIENT_FATERIN_HOUGUMAP_HOUGUMAPFIGHTVIEWMODEL__DOTRACKFIGHT_OFFSET UNITYSDK_OFFSET(0x1A390430)
+#define RPG_CLIENT_FATERIN_HOUGUMAP_HOUGUMAPFIGHTVIEWMODEL__MARKSEEN_OFFSET UNITYSDK_OFFSET(0x1A3903D0)
+#define RPG_CLIENT_FATERIN_HOUGUMAP_HOUGUMAPFIGHTVIEWMODEL__TRACKFIGHT_OFFSET UNITYSDK_OFFSET(0x1A3900D0)
+#define RPG_CLIENT_FATERIN_HOUGUMAP_HOUGUMAPFIGHTVIEWMODEL___TRACKFIGHT_B__1_0_OFFSET UNITYSDK_OFFSET(0x1A3907F0)
+
+namespace RPG::Client::FateRin::HouguMap
+{
+	inline static constexpr unsigned int HouguMapFightViewModel_TypeDefinitionIndex = 75811;
+
+	class HouguMapFightViewModel : public ::RPG::Client::FateRin::BaseViewModel
+	{
+	public:
+		::Class_1_5060AE803DAE1512* _MissionProgressService; // 0x20
+		::Class_1_310250D457C6B8CD* _OverrideService; // 0x28
+		::Class_0_16E4307DCC419505_1269* _RedDotService; // 0x30
+		::RPG::Client::FateRin::HouguMap::FateRinHouguMapFight* _Fight; // 0x38
+		::Class_0_16E4307DCC419505_311* _TrackFightAction_k__BackingField; // 0x40
+		::System::Boolean _IsHardMode; // 0x48
+		::System::Boolean _HasCardReward_k__BackingField; // 0x49
+		::System::UInt32 _TrackSubMissionID; // 0x4C
+
+		::System::Void _ctor(::RPG::Client::FateRin::HouguMap::FateRinHouguMapFight* a1, ::Class_1_310250D457C6B8CD* a2, ::Class_1_5060AE803DAE1512* a3, ::Class_0_16E4307DCC419505_1269* a4, ::System::UInt32 a5, ::System::Boolean a6)
+		{
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::FateRin::HouguMap::FateRinHouguMapFight*, ::Class_1_310250D457C6B8CD*, ::Class_1_5060AE803DAE1512*, ::Class_0_16E4307DCC419505_1269*, ::System::UInt32, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_FATERIN_HOUGUMAP_HOUGUMAPFIGHTVIEWMODEL__CTOR_OFFSET))(this, a1, a2, a3, a4, a5, a6);
+		}
+
+		::System::Void _TrackFight()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_FATERIN_HOUGUMAP_HOUGUMAPFIGHTVIEWMODEL__TRACKFIGHT_OFFSET))(this);
+		}
+
+		::System::Void _DoTrackFight()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_FATERIN_HOUGUMAP_HOUGUMAPFIGHTVIEWMODEL__DOTRACKFIGHT_OFFSET))(this);
+		}
+
+		::System::Void _MarkSeen()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_FATERIN_HOUGUMAP_HOUGUMAPFIGHTVIEWMODEL__MARKSEEN_OFFSET))(this);
+		}
+
+		::System::UInt32 get_ID()
+		{
+			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_FATERIN_HOUGUMAP_HOUGUMAPFIGHTVIEWMODEL_GET_ID_OFFSET))(this);
+		}
+
+		::System::Boolean get_HasCardReward()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_FATERIN_HOUGUMAP_HOUGUMAPFIGHTVIEWMODEL_GET_HASCARDREWARD_OFFSET))(this);
+		}
+
+		::System::String* get_RewardCardIconPath()
+		{
+			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_FATERIN_HOUGUMAP_HOUGUMAPFIGHTVIEWMODEL_GET_REWARDCARDICONPATH_OFFSET))(this);
+		}
+
+		::RPG::Client::TextID get_Name()
+		{
+			return ((::RPG::Client::TextID(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_FATERIN_HOUGUMAP_HOUGUMAPFIGHTVIEWMODEL_GET_NAME_OFFSET))(this);
+		}
+
+		::System::Boolean get_IsBoss()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_FATERIN_HOUGUMAP_HOUGUMAPFIGHTVIEWMODEL_GET_ISBOSS_OFFSET))(this);
+		}
+
+		::System::Boolean get_IsFinished()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_FATERIN_HOUGUMAP_HOUGUMAPFIGHTVIEWMODEL_GET_ISFINISHED_OFFSET))(this);
+		}
+
+		::System::Boolean get_IsNew()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_FATERIN_HOUGUMAP_HOUGUMAPFIGHTVIEWMODEL_GET_ISNEW_OFFSET))(this);
+		}
+
+		::Class_0_16E4307DCC419505_311* get_TrackFightAction()
+		{
+			return ((::Class_0_16E4307DCC419505_311*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_FATERIN_HOUGUMAP_HOUGUMAPFIGHTVIEWMODEL_GET_TRACKFIGHTACTION_OFFSET))(this);
+		}
+
+		::System::Void __TrackFight_b__1_0(::System::Boolean a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_FATERIN_HOUGUMAP_HOUGUMAPFIGHTVIEWMODEL___TRACKFIGHT_B__1_0_OFFSET))(this, a1);
+		}
+	};
+}

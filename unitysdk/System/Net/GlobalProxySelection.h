@@ -4,12 +4,12 @@
 
 namespace System::Net { class IWebProxy; }
 
-#define SYSTEM_NET_GLOBALPROXYSELECTION_GETEMPTYWEBPROXY_OFFSET UNITYSDK_OFFSET(0x1AF7BBD0)
-#define SYSTEM_NET_GLOBALPROXYSELECTION_GET_SELECT_OFFSET UNITYSDK_OFFSET(0x1AF75040)
+#define SYSTEM_NET_GLOBALPROXYSELECTION_GETEMPTYWEBPROXY_OFFSET UNITYSDK_OFFSET(0x195F5120)
+#define SYSTEM_NET_GLOBALPROXYSELECTION_GET_SELECT_OFFSET UNITYSDK_OFFSET(0x195EE370)
 
 namespace System::Net
 {
-	inline static constexpr unsigned int GlobalProxySelection_TypeDefinitionIndex = 2721;
+	inline static constexpr unsigned int GlobalProxySelection_TypeDefinitionIndex = 2725;
 
 	class GlobalProxySelection : public ::System::Object
 	{

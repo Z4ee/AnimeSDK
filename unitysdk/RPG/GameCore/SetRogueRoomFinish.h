@@ -4,13 +4,13 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_SETROGUEROOMFINISH_METHOD_3_22B98FB137F517F5_OFFSET UNITYSDK_OFFSET(0x19C5D590)
-#define RPG_GAMECORE_SETROGUEROOMFINISH_METHOD_3_622C41F78873E3E5_OFFSET UNITYSDK_OFFSET(0x19C5D500)
-#define RPG_GAMECORE_SETROGUEROOMFINISH__CTOR_OFFSET UNITYSDK_OFFSET(0x19C5D560)
+#define RPG_GAMECORE_SETROGUEROOMFINISH_METHOD_3_22B98FB137F517F5_OFFSET UNITYSDK_OFFSET(0x1C607150)
+#define RPG_GAMECORE_SETROGUEROOMFINISH_METHOD_3_E528B8D83F847CD1_OFFSET UNITYSDK_OFFSET(0x1C607100)
+#define RPG_GAMECORE_SETROGUEROOMFINISH__CTOR_OFFSET UNITYSDK_OFFSET(0x1C607140)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SetRogueRoomFinish_TypeDefinitionIndex = 19343;
+	inline static constexpr unsigned int SetRogueRoomFinish_TypeDefinitionIndex = 19699;
 
 	class SetRogueRoomFinish : public ::RPG::GameCore::TaskConfig
 	{
@@ -20,9 +20,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETROGUEROOMFINISH__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_622C41F78873E3E5(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SetRogueRoomFinish*& a2)
+		static ::System::Void Method_3_E528B8D83F847CD1(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SetRogueRoomFinish*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SetRogueRoomFinish*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETROGUEROOMFINISH_METHOD_3_622C41F78873E3E5_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SetRogueRoomFinish*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETROGUEROOMFINISH_METHOD_3_E528B8D83F847CD1_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_22B98FB137F517F5(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SetRogueRoomFinish* a2)

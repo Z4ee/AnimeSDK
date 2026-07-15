@@ -4,24 +4,24 @@
 
 namespace System { class Action; }
 
-#define RPG_CLIENT_LITTLEGAME_CHIMERATAKEACTIONCOMMAND___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xBDE2330)
-#define RPG_CLIENT_LITTLEGAME_CHIMERATAKEACTIONCOMMAND___C__CTOR_OFFSET UNITYSDK_OFFSET(0xBDE2370)
-#define RPG_CLIENT_LITTLEGAME_CHIMERATAKEACTIONCOMMAND___C__EXECUTE_B__2_0_OFFSET UNITYSDK_OFFSET(0xBDE2380)
+#define RPG_CLIENT_LITTLEGAME_CHIMERATAKEACTIONCOMMAND___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x19BA0A00)
+#define RPG_CLIENT_LITTLEGAME_CHIMERATAKEACTIONCOMMAND___C__CTOR_OFFSET UNITYSDK_OFFSET(0x19BA0A40)
+#define RPG_CLIENT_LITTLEGAME_CHIMERATAKEACTIONCOMMAND___C__EXECUTE_B__2_0_OFFSET UNITYSDK_OFFSET(0x19BA0A50)
 
 namespace RPG::Client::LittleGame
 {
-	inline static constexpr unsigned int ChimeraTakeActionCommand___c_TypeDefinitionIndex = 71208;
+	inline static constexpr unsigned int ChimeraTakeActionCommand___c_TypeDefinitionIndex = 72721;
 
 	class ChimeraTakeActionCommand___c : public ::System::Object
 	{
 	public:
 		static ::System::Action** StaticGet___9__2_0()
 		{
-			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(ChimeraTakeActionCommand___c_TypeDefinitionIndex)->GetStaticField(0x4ACC0);
+			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(ChimeraTakeActionCommand___c_TypeDefinitionIndex)->GetStaticField(0x39950);
 		}
 		static ::RPG::Client::LittleGame::ChimeraTakeActionCommand___c** StaticGet___9()
 		{
-			return (::RPG::Client::LittleGame::ChimeraTakeActionCommand___c**)Il2CppClass::FromTypeDefinitionIndex(ChimeraTakeActionCommand___c_TypeDefinitionIndex)->GetStaticField(0x4ACC8);
+			return (::RPG::Client::LittleGame::ChimeraTakeActionCommand___c**)Il2CppClass::FromTypeDefinitionIndex(ChimeraTakeActionCommand___c_TypeDefinitionIndex)->GetStaticField(0x39958);
 		}
 
 		static ::System::Void _cctor()

@@ -14,26 +14,26 @@ namespace RPGTools::Timeline::Story { class NpcStoryMoveRunData; }
 namespace RPGTools::Timeline::Story { class NpcStoryMoveWalkData; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define CLASS_1_6276C81E82F41F62_METHOD_1_023671D0E3147B36_OFFSET UNITYSDK_OFFSET(0x143AF7C0)
-#define CLASS_1_6276C81E82F41F62_METHOD_1_39C7BAE737D01BF2_OFFSET UNITYSDK_OFFSET(0x143AF660)
-#define CLASS_1_6276C81E82F41F62_METHOD_1_3AC38BC97A5E881A_OFFSET UNITYSDK_OFFSET(0x143AEB40)
-#define CLASS_1_6276C81E82F41F62_METHOD_1_7C1AC8F0AADEE700_OFFSET UNITYSDK_OFFSET(0x143AF870)
-#define CLASS_1_6276C81E82F41F62_METHOD_1_85B9694FB3FF8783_OFFSET UNITYSDK_OFFSET(0x143AF200)
-#define CLASS_1_6276C81E82F41F62_METHOD_1_86667CFD93C22BA4_OFFSET UNITYSDK_OFFSET(0x143AF2E0)
-#define CLASS_1_6276C81E82F41F62_METHOD_1_978264A34A3AD057_OFFSET UNITYSDK_OFFSET(0x143AF470)
-#define CLASS_1_6276C81E82F41F62_METHOD_1_9FC71C2236FF00AD_OFFSET UNITYSDK_OFFSET(0x143AF550)
-#define CLASS_1_6276C81E82F41F62_METHOD_1_E8F7D64DDF61F4CB_OFFSET UNITYSDK_OFFSET(0x143AF710)
-#define CLASS_1_6276C81E82F41F62__CTOR_OFFSET UNITYSDK_OFFSET(0x143AF940)
+#define CLASS_1_6276C81E82F41F62_METHOD_1_023671D0E3147B36_OFFSET UNITYSDK_OFFSET(0x1585A780)
+#define CLASS_1_6276C81E82F41F62_METHOD_1_1671A1953C020671_OFFSET UNITYSDK_OFFSET(0x1585A3B0)
+#define CLASS_1_6276C81E82F41F62_METHOD_1_39C7BAE737D01BF2_OFFSET UNITYSDK_OFFSET(0x1585A620)
+#define CLASS_1_6276C81E82F41F62_METHOD_1_3AC38BC97A5E881A_OFFSET UNITYSDK_OFFSET(0x15859A80)
+#define CLASS_1_6276C81E82F41F62_METHOD_1_85B9694FB3FF8783_OFFSET UNITYSDK_OFFSET(0x1585A140)
+#define CLASS_1_6276C81E82F41F62_METHOD_1_86667CFD93C22BA4_OFFSET UNITYSDK_OFFSET(0x1585A220)
+#define CLASS_1_6276C81E82F41F62_METHOD_1_A9ADAD9C731210C9_OFFSET UNITYSDK_OFFSET(0x1585A830)
+#define CLASS_1_6276C81E82F41F62_METHOD_1_CDF3D0289770B976_OFFSET UNITYSDK_OFFSET(0x1585A490)
+#define CLASS_1_6276C81E82F41F62_METHOD_1_E8F7D64DDF61F4CB_OFFSET UNITYSDK_OFFSET(0x1585A6D0)
+#define CLASS_1_6276C81E82F41F62__CTOR_OFFSET UNITYSDK_OFFSET(0x1585A8E0)
 
-inline static constexpr unsigned int Class_1_6276C81E82F41F62_TypeDefinitionIndex = 45979;
+inline static constexpr unsigned int Class_1_6276C81E82F41F62_TypeDefinitionIndex = 46918;
 
 class Class_1_6276C81E82F41F62 : public ::System::Object
 {
 public:
-	::System::Collections::Generic::Dictionary_2<::RPG::GameCore::BodySize, ::RPGTools::Timeline::Story::AvatarStoryMoveWalkData*>* Field_1_0; // 0x10
-	::System::Collections::Generic::Dictionary_2<::RPG::GameCore::BodySize, ::RPGTools::Timeline::Story::AvatarStoryMoveRunData*>* Field_1_1; // 0x18
-	::System::Collections::Generic::Dictionary_2<::RPG::GameCore::NPCBodySize, ::RPGTools::Timeline::Story::NpcStoryMoveRunData*>* Field_1_2; // 0x20
-	::System::Collections::Generic::Dictionary_2<::RPG::GameCore::NPCBodySize, ::RPGTools::Timeline::Story::NpcStoryMoveWalkData*>* Field_1_3; // 0x28
+	::System::Collections::Generic::Dictionary_2<::RPG::GameCore::NPCBodySize, ::RPGTools::Timeline::Story::NpcStoryMoveWalkData*>* Field_1_0; // 0x10
+	::System::Collections::Generic::Dictionary_2<::RPG::GameCore::NPCBodySize, ::RPGTools::Timeline::Story::NpcStoryMoveRunData*>* Field_1_1; // 0x18
+	::System::Collections::Generic::Dictionary_2<::RPG::GameCore::BodySize, ::RPGTools::Timeline::Story::AvatarStoryMoveRunData*>* Field_1_2; // 0x20
+	::System::Collections::Generic::Dictionary_2<::RPG::GameCore::BodySize, ::RPGTools::Timeline::Story::AvatarStoryMoveWalkData*>* Field_1_3; // 0x28
 
 	::System::Void _ctor()
 	{
@@ -50,9 +50,9 @@ public:
 		return ((::RPGTools::Timeline::Story::BaseStoryMoveWalkData*(*)(::PVOID, ::RPG::GameCore::GameEntity*))((::PBYTE)hIl2Cpp + CLASS_1_6276C81E82F41F62_METHOD_1_85B9694FB3FF8783_OFFSET))(this, a1);
 	}
 
-	::RPGTools::Timeline::Story::BaseStoryMoveRunData* Method_1_978264A34A3AD057(::RPG::GameCore::GameEntity* a1)
+	::RPGTools::Timeline::Story::BaseStoryMoveRunData* Method_1_1671A1953C020671(::RPG::GameCore::GameEntity* a1)
 	{
-		return ((::RPGTools::Timeline::Story::BaseStoryMoveRunData*(*)(::PVOID, ::RPG::GameCore::GameEntity*))((::PBYTE)hIl2Cpp + CLASS_1_6276C81E82F41F62_METHOD_1_978264A34A3AD057_OFFSET))(this, a1);
+		return ((::RPGTools::Timeline::Story::BaseStoryMoveRunData*(*)(::PVOID, ::RPG::GameCore::GameEntity*))((::PBYTE)hIl2Cpp + CLASS_1_6276C81E82F41F62_METHOD_1_1671A1953C020671_OFFSET))(this, a1);
 	}
 
 	::RPGTools::Timeline::Story::BaseStoryMoveWalkData* Method_1_86667CFD93C22BA4(::RPG::GameCore::BodySize a1, ::RPG::GameCore::NPCBodySize a2)
@@ -60,9 +60,9 @@ public:
 		return ((::RPGTools::Timeline::Story::BaseStoryMoveWalkData*(*)(::PVOID, ::RPG::GameCore::BodySize, ::RPG::GameCore::NPCBodySize))((::PBYTE)hIl2Cpp + CLASS_1_6276C81E82F41F62_METHOD_1_86667CFD93C22BA4_OFFSET))(this, a1, a2);
 	}
 
-	::RPGTools::Timeline::Story::BaseStoryMoveRunData* Method_1_9FC71C2236FF00AD(::RPG::GameCore::BodySize a1, ::RPG::GameCore::NPCBodySize a2)
+	::RPGTools::Timeline::Story::BaseStoryMoveRunData* Method_1_CDF3D0289770B976(::RPG::GameCore::BodySize a1, ::RPG::GameCore::NPCBodySize a2)
 	{
-		return ((::RPGTools::Timeline::Story::BaseStoryMoveRunData*(*)(::PVOID, ::RPG::GameCore::BodySize, ::RPG::GameCore::NPCBodySize))((::PBYTE)hIl2Cpp + CLASS_1_6276C81E82F41F62_METHOD_1_9FC71C2236FF00AD_OFFSET))(this, a1, a2);
+		return ((::RPGTools::Timeline::Story::BaseStoryMoveRunData*(*)(::PVOID, ::RPG::GameCore::BodySize, ::RPG::GameCore::NPCBodySize))((::PBYTE)hIl2Cpp + CLASS_1_6276C81E82F41F62_METHOD_1_CDF3D0289770B976_OFFSET))(this, a1, a2);
 	}
 
 	::RPGTools::Timeline::Story::AvatarStoryMoveWalkData* Method_1_39C7BAE737D01BF2(::RPG::GameCore::BodySize a1)
@@ -80,8 +80,8 @@ public:
 		return ((::RPGTools::Timeline::Story::NpcStoryMoveWalkData*(*)(::PVOID, ::RPG::GameCore::NPCBodySize))((::PBYTE)hIl2Cpp + CLASS_1_6276C81E82F41F62_METHOD_1_E8F7D64DDF61F4CB_OFFSET))(this, a1);
 	}
 
-	::RPGTools::Timeline::Story::NpcStoryMoveRunData* Method_1_7C1AC8F0AADEE700(::RPG::GameCore::NPCBodySize a1)
+	::RPGTools::Timeline::Story::NpcStoryMoveRunData* Method_1_A9ADAD9C731210C9(::RPG::GameCore::NPCBodySize a1)
 	{
-		return ((::RPGTools::Timeline::Story::NpcStoryMoveRunData*(*)(::PVOID, ::RPG::GameCore::NPCBodySize))((::PBYTE)hIl2Cpp + CLASS_1_6276C81E82F41F62_METHOD_1_7C1AC8F0AADEE700_OFFSET))(this, a1);
+		return ((::RPGTools::Timeline::Story::NpcStoryMoveRunData*(*)(::PVOID, ::RPG::GameCore::NPCBodySize))((::PBYTE)hIl2Cpp + CLASS_1_6276C81E82F41F62_METHOD_1_A9ADAD9C731210C9_OFFSET))(this, a1);
 	}
 };

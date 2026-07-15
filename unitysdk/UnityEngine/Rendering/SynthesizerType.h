@@ -3,7 +3,7 @@
 
 namespace UnityEngine::Rendering
 {
-	inline static constexpr unsigned int SynthesizerType_TypeDefinitionIndex = 4762;
+	inline static constexpr unsigned int SynthesizerType_TypeDefinitionIndex = 4767;
 
 	enum class SynthesizerType : ::System::Int32
 	{

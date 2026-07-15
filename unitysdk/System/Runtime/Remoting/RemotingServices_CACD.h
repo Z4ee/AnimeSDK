@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define SYSTEM_RUNTIME_REMOTING_REMOTINGSERVICES_CACD__CTOR_OFFSET UNITYSDK_OFFSET(0x187A2900)
+#define SYSTEM_RUNTIME_REMOTING_REMOTINGSERVICES_CACD__CTOR_OFFSET UNITYSDK_OFFSET(0x1790C8B0)
 
 namespace System::Runtime::Remoting
 {
-	inline static constexpr unsigned int RemotingServices_CACD_TypeDefinitionIndex = 1210;
+	inline static constexpr unsigned int RemotingServices_CACD_TypeDefinitionIndex = 1212;
 
 	class RemotingServices_CACD : public ::System::Object
 	{

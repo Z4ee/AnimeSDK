@@ -7,13 +7,13 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class TargetEvaluator; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_NPCSETUPTRIGGER_METHOD_3_2EF2C22699038836_OFFSET UNITYSDK_OFFSET(0x199D3670)
-#define RPG_GAMECORE_NPCSETUPTRIGGER_METHOD_3_970A17D24A182267_OFFSET UNITYSDK_OFFSET(0x199D37B0)
-#define RPG_GAMECORE_NPCSETUPTRIGGER__CTOR_OFFSET UNITYSDK_OFFSET(0x199D3720)
+#define RPG_GAMECORE_NPCSETUPTRIGGER_METHOD_3_38F1E91AE5C03249_OFFSET UNITYSDK_OFFSET(0x1BAFDAD0)
+#define RPG_GAMECORE_NPCSETUPTRIGGER_METHOD_3_970A17D24A182267_OFFSET UNITYSDK_OFFSET(0x1BAFDB50)
+#define RPG_GAMECORE_NPCSETUPTRIGGER__CTOR_OFFSET UNITYSDK_OFFSET(0x1BAFDB20)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int NpcSetupTrigger_TypeDefinitionIndex = 20750;
+	inline static constexpr unsigned int NpcSetupTrigger_TypeDefinitionIndex = 21165;
 
 	class NpcSetupTrigger : public ::RPG::GameCore::TaskConfig
 	{
@@ -31,9 +31,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_NPCSETUPTRIGGER__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_2EF2C22699038836(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::NpcSetupTrigger*& a2)
+		static ::System::Void Method_3_38F1E91AE5C03249(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::NpcSetupTrigger*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::NpcSetupTrigger*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_NPCSETUPTRIGGER_METHOD_3_2EF2C22699038836_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::NpcSetupTrigger*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_NPCSETUPTRIGGER_METHOD_3_38F1E91AE5C03249_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_970A17D24A182267(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::NpcSetupTrigger* a2)

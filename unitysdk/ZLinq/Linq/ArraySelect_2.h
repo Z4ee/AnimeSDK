@@ -6,7 +6,7 @@ namespace System { template <typename T1, typename T2> class Func_2; }
 
 namespace ZLinq::Linq
 {
-	inline static constexpr unsigned int ArraySelect_2_TypeDefinitionIndex = 6376;
+	inline static constexpr unsigned int ArraySelect_2_TypeDefinitionIndex = 6381;
 
 	template <typename TSource, typename TResult>
 	struct ArraySelect_2

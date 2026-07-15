@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class ActionCountDownPreview; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_A7C81A8CB6E0DF86_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xAFD97E0)
-#define CLASS_3_A7C81A8CB6E0DF86__CTOR_OFFSET UNITYSDK_OFFSET(0xAFD97B0)
+#define CLASS_3_A7C81A8CB6E0DF86_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x161644A0)
+#define CLASS_3_A7C81A8CB6E0DF86__CTOR_OFFSET UNITYSDK_OFFSET(0x16164470)
 
-inline static constexpr unsigned int Class_3_A7C81A8CB6E0DF86_TypeDefinitionIndex = 51225;
+inline static constexpr unsigned int Class_3_A7C81A8CB6E0DF86_TypeDefinitionIndex = 52317;
 
 class Class_3_A7C81A8CB6E0DF86 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::ActionCountDownPreview*>
 {

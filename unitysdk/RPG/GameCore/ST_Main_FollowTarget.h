@@ -7,18 +7,18 @@
 #include "unitysdk/RPG/GameCore/ST_FollowMode.h"
 
 class Class_1_7A22A3DBEEDD1F80;
-class Class_2_76DDC609445F4559;
+class Class_2_93C60D7E85A35949;
 namespace RPG::GameCore { class TargetEvaluator; }
 namespace RPG::GameCore { class TaskConfig; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_ST_MAIN_FOLLOWTARGET_METHOD_4_A558AE52630B5535_OFFSET UNITYSDK_OFFSET(0x19C18C00)
-#define RPG_GAMECORE_ST_MAIN_FOLLOWTARGET_METHOD_4_F9500BFFD2643CF7_OFFSET UNITYSDK_OFFSET(0x19C02710)
-#define RPG_GAMECORE_ST_MAIN_FOLLOWTARGET__CTOR_OFFSET UNITYSDK_OFFSET(0x19C02660)
+#define RPG_GAMECORE_ST_MAIN_FOLLOWTARGET_METHOD_4_264316AD54C25836_OFFSET UNITYSDK_OFFSET(0x1B783C20)
+#define RPG_GAMECORE_ST_MAIN_FOLLOWTARGET_METHOD_4_F9500BFFD2643CF7_OFFSET UNITYSDK_OFFSET(0x1B783D10)
+#define RPG_GAMECORE_ST_MAIN_FOLLOWTARGET__CTOR_OFFSET UNITYSDK_OFFSET(0x1B783CB0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ST_Main_FollowTarget_TypeDefinitionIndex = 18995;
+	inline static constexpr unsigned int ST_Main_FollowTarget_TypeDefinitionIndex = 19346;
 
 	class ST_Main_FollowTarget : public ::RPG::GameCore::STTaskConfig
 	{
@@ -58,7 +58,7 @@ namespace RPG::GameCore
 		::System::Single FaceToTargetInternal; // 0xB0
 		::System::Single FaceToTargetAngle; // 0xB4
 		::System::String* TeleportOnEnter; // 0xB8
-		::Class_2_76DDC609445F4559* PacManFollowConfig; // 0xC0
+		::Class_2_93C60D7E85A35949* PacManFollowConfig; // 0xC0
 		::System::Boolean NeedAvoid; // 0xC8
 		::System::Single StartAvoidDistance; // 0xCC
 		::System::Single StartAvoidTime; // 0xD0
@@ -69,9 +69,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ST_MAIN_FOLLOWTARGET__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_4_A558AE52630B5535(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ST_Main_FollowTarget*& a2)
+		static ::System::Void Method_4_264316AD54C25836(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ST_Main_FollowTarget*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ST_Main_FollowTarget*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ST_MAIN_FOLLOWTARGET_METHOD_4_A558AE52630B5535_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ST_Main_FollowTarget*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ST_MAIN_FOLLOWTARGET_METHOD_4_264316AD54C25836_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_4_F9500BFFD2643CF7(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ST_Main_FollowTarget* a2)

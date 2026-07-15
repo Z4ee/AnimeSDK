@@ -11,7 +11,7 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace Entitas
 {
-	inline static constexpr unsigned int IGroup_1_TypeDefinitionIndex = 9684;
+	inline static constexpr unsigned int IGroup_1_TypeDefinitionIndex = 9698;
 
 	template <typename TEntity>
 	class IGroup_1

@@ -6,13 +6,13 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_AUTOMAPPINGATTACHPOINT_METHOD_3_09DEA852146E81C8_OFFSET UNITYSDK_OFFSET(0x1948DFF0)
-#define RPG_GAMECORE_AUTOMAPPINGATTACHPOINT_METHOD_3_26460BEED99CB61D_OFFSET UNITYSDK_OFFSET(0x1948E070)
-#define RPG_GAMECORE_AUTOMAPPINGATTACHPOINT__CTOR_OFFSET UNITYSDK_OFFSET(0x1948E040)
+#define RPG_GAMECORE_AUTOMAPPINGATTACHPOINT_METHOD_3_26460BEED99CB61D_OFFSET UNITYSDK_OFFSET(0x1A06E140)
+#define RPG_GAMECORE_AUTOMAPPINGATTACHPOINT_METHOD_3_6B92BDDBA8A1D9D8_OFFSET UNITYSDK_OFFSET(0x1A06E100)
+#define RPG_GAMECORE_AUTOMAPPINGATTACHPOINT__CTOR_OFFSET UNITYSDK_OFFSET(0x1A06E130)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AutoMappingAttachPoint_TypeDefinitionIndex = 21934;
+	inline static constexpr unsigned int AutoMappingAttachPoint_TypeDefinitionIndex = 22363;
 
 	class AutoMappingAttachPoint : public ::RPG::GameCore::TaskConfig
 	{
@@ -26,9 +26,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_AUTOMAPPINGATTACHPOINT__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_09DEA852146E81C8(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AutoMappingAttachPoint*& a2)
+		static ::System::Void Method_3_6B92BDDBA8A1D9D8(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AutoMappingAttachPoint*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::AutoMappingAttachPoint*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_AUTOMAPPINGATTACHPOINT_METHOD_3_09DEA852146E81C8_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::AutoMappingAttachPoint*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_AUTOMAPPINGATTACHPOINT_METHOD_3_6B92BDDBA8A1D9D8_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_26460BEED99CB61D(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AutoMappingAttachPoint* a2)

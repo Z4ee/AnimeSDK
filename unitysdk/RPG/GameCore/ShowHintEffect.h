@@ -5,13 +5,13 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_SHOWHINTEFFECT_METHOD_3_3E78CC0100E78024_OFFSET UNITYSDK_OFFSET(0x19C7EC00)
-#define RPG_GAMECORE_SHOWHINTEFFECT_METHOD_3_60CE1FFB04ECEFC9_OFFSET UNITYSDK_OFFSET(0x19C7EB80)
-#define RPG_GAMECORE_SHOWHINTEFFECT__CTOR_OFFSET UNITYSDK_OFFSET(0x19C7EBD0)
+#define RPG_GAMECORE_SHOWHINTEFFECT_METHOD_3_3E78CC0100E78024_OFFSET UNITYSDK_OFFSET(0x1BE43000)
+#define RPG_GAMECORE_SHOWHINTEFFECT_METHOD_3_8687D06F6FCFF5A5_OFFSET UNITYSDK_OFFSET(0x1BE42FC0)
+#define RPG_GAMECORE_SHOWHINTEFFECT__CTOR_OFFSET UNITYSDK_OFFSET(0x1BE42FF0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ShowHintEffect_TypeDefinitionIndex = 19422;
+	inline static constexpr unsigned int ShowHintEffect_TypeDefinitionIndex = 19780;
 
 	class ShowHintEffect : public ::RPG::GameCore::TaskConfig
 	{
@@ -27,9 +27,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SHOWHINTEFFECT__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_60CE1FFB04ECEFC9(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ShowHintEffect*& a2)
+		static ::System::Void Method_3_8687D06F6FCFF5A5(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ShowHintEffect*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ShowHintEffect*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SHOWHINTEFFECT_METHOD_3_60CE1FFB04ECEFC9_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ShowHintEffect*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SHOWHINTEFFECT_METHOD_3_8687D06F6FCFF5A5_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_3E78CC0100E78024(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ShowHintEffect* a2)

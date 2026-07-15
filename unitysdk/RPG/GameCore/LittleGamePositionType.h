@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LittleGamePositionType_TypeDefinitionIndex = 23214;
+	inline static constexpr unsigned int LittleGamePositionType_TypeDefinitionIndex = 23696;
 
 	enum class LittleGamePositionType : ::System::Int32
 	{

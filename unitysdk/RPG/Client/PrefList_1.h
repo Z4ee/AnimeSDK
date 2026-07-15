@@ -11,7 +11,7 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int PrefList_1_TypeDefinitionIndex = 33518;
+	inline static constexpr unsigned int PrefList_1_TypeDefinitionIndex = 33888;
 
 	template <typename T>
 	class PrefList_1 : public ::RPG::Client::Pref_1<::System::Collections::Generic::List_1<T>*>

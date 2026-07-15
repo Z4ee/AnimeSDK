@@ -5,12 +5,12 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_SMELLPATHEDGE_METHOD_2_E6DA00F7CCF0F720_OFFSET UNITYSDK_OFFSET(0x19C8F900)
-#define RPG_GAMECORE_SMELLPATHEDGE__CTOR_OFFSET UNITYSDK_OFFSET(0x19C8FAD0)
+#define RPG_GAMECORE_SMELLPATHEDGE_METHOD_2_100550675FFBD6E9_OFFSET UNITYSDK_OFFSET(0x1BE52BB0)
+#define RPG_GAMECORE_SMELLPATHEDGE__CTOR_OFFSET UNITYSDK_OFFSET(0x1BE52D50)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SmellPathEdge_TypeDefinitionIndex = 16705;
+	inline static constexpr unsigned int SmellPathEdge_TypeDefinitionIndex = 16867;
 
 	class SmellPathEdge : public ::RPG::GameCore::JsonConfig
 	{
@@ -24,9 +24,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SMELLPATHEDGE__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_E6DA00F7CCF0F720(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SmellPathEdge*& a2)
+		static ::System::Void Method_2_100550675FFBD6E9(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SmellPathEdge*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SmellPathEdge*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SMELLPATHEDGE_METHOD_2_E6DA00F7CCF0F720_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SmellPathEdge*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SMELLPATHEDGE_METHOD_2_100550675FFBD6E9_OFFSET))(a1, a2);
 		}
 	};
 }

@@ -5,13 +5,13 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_MARBLEWAITBATTLEINPUT_METHOD_3_4C0C2B54F374E935_OFFSET UNITYSDK_OFFSET(0x198DE820)
-#define RPG_GAMECORE_MARBLEWAITBATTLEINPUT_METHOD_3_72BF26F53426D382_OFFSET UNITYSDK_OFFSET(0x198DE8B0)
-#define RPG_GAMECORE_MARBLEWAITBATTLEINPUT__CTOR_OFFSET UNITYSDK_OFFSET(0x198DE880)
+#define RPG_GAMECORE_MARBLEWAITBATTLEINPUT_METHOD_3_2153DB70FD879DCB_OFFSET UNITYSDK_OFFSET(0x1BD23B70)
+#define RPG_GAMECORE_MARBLEWAITBATTLEINPUT_METHOD_3_72BF26F53426D382_OFFSET UNITYSDK_OFFSET(0x1BD23BC0)
+#define RPG_GAMECORE_MARBLEWAITBATTLEINPUT__CTOR_OFFSET UNITYSDK_OFFSET(0x1BD23BB0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MarbleWaitBattleInput_TypeDefinitionIndex = 22970;
+	inline static constexpr unsigned int MarbleWaitBattleInput_TypeDefinitionIndex = 23437;
 
 	class MarbleWaitBattleInput : public ::RPG::GameCore::TaskConfig
 	{
@@ -25,9 +25,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MARBLEWAITBATTLEINPUT__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_4C0C2B54F374E935(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::MarbleWaitBattleInput*& a2)
+		static ::System::Void Method_3_2153DB70FD879DCB(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::MarbleWaitBattleInput*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::MarbleWaitBattleInput*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MARBLEWAITBATTLEINPUT_METHOD_3_4C0C2B54F374E935_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::MarbleWaitBattleInput*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MARBLEWAITBATTLEINPUT_METHOD_3_2153DB70FD879DCB_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_72BF26F53426D382(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::MarbleWaitBattleInput* a2)

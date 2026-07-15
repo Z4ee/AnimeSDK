@@ -7,20 +7,20 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_EVOLVEGEARTYPECONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x196FF940)
-#define RPG_GAMECORE_EVOLVEGEARTYPECONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x19700130)
+#define RPG_GAMECORE_EVOLVEGEARTYPECONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1C0682E0)
+#define RPG_GAMECORE_EVOLVEGEARTYPECONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1C068AC0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int EvolveGearTypeConfigRow_TypeDefinitionIndex = 10972;
+	inline static constexpr unsigned int EvolveGearTypeConfigRow_TypeDefinitionIndex = 11022;
 
 	class EvolveGearTypeConfigRow : public ::System::Object
 	{
 	public:
-		::System::String* TypeImg; // 0x10
-		::System::String* Name; // 0x18
-		::System::String* TypeImgColor; // 0x20
-		::System::String* WeaponToastEffectBg; // 0x28
+		::System::String* WeaponToastEffectBg; // 0x10
+		::System::String* TypeImgColor; // 0x18
+		::System::String* Name; // 0x20
+		::System::String* TypeImg; // 0x28
 		::System::String* FontColor; // 0x30
 		::System::String* MixDetailPropsInfoBg; // 0x38
 		::RPG::GameCore::EvolveGearType ID; // 0x40

@@ -7,7 +7,7 @@ namespace System { template <typename T1, typename T2> class Func_2; }
 
 namespace RPG::Client::Promises
 {
-	inline static constexpr unsigned int IPromiseTimer_TypeDefinitionIndex = 9554;
+	inline static constexpr unsigned int IPromiseTimer_TypeDefinitionIndex = 9566;
 
 	class IPromiseTimer
 	{

@@ -7,13 +7,13 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class DynamicFloat; }
 namespace RPG::GameCore { class SimpleTalkInfo; }
 
-#define RPG_GAMECORE_CONSUMEORIGAMIITEM_METHOD_3_B4232F7576576174_OFFSET UNITYSDK_OFFSET(0x1967A2E0)
-#define RPG_GAMECORE_CONSUMEORIGAMIITEM_METHOD_3_BC5F34EDCDB989A0_OFFSET UNITYSDK_OFFSET(0x1967A260)
-#define RPG_GAMECORE_CONSUMEORIGAMIITEM__CTOR_OFFSET UNITYSDK_OFFSET(0x1967A2B0)
+#define RPG_GAMECORE_CONSUMEORIGAMIITEM_METHOD_3_641A4B8B2D4CE633_OFFSET UNITYSDK_OFFSET(0x1BC32990)
+#define RPG_GAMECORE_CONSUMEORIGAMIITEM_METHOD_3_B4232F7576576174_OFFSET UNITYSDK_OFFSET(0x1BC329D0)
+#define RPG_GAMECORE_CONSUMEORIGAMIITEM__CTOR_OFFSET UNITYSDK_OFFSET(0x1BC329C0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ConsumeOrigamiItem_TypeDefinitionIndex = 20645;
+	inline static constexpr unsigned int ConsumeOrigamiItem_TypeDefinitionIndex = 21060;
 
 	class ConsumeOrigamiItem : public ::RPG::GameCore::TaskConfig
 	{
@@ -29,9 +29,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CONSUMEORIGAMIITEM__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_BC5F34EDCDB989A0(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ConsumeOrigamiItem*& a2)
+		static ::System::Void Method_3_641A4B8B2D4CE633(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ConsumeOrigamiItem*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ConsumeOrigamiItem*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CONSUMEORIGAMIITEM_METHOD_3_BC5F34EDCDB989A0_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ConsumeOrigamiItem*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CONSUMEORIGAMIITEM_METHOD_3_641A4B8B2D4CE633_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_B4232F7576576174(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ConsumeOrigamiItem* a2)

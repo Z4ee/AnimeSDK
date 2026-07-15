@@ -11,45 +11,45 @@ namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Concurrent { template <typename T1, typename T2> class ConcurrentDictionary_2; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_CLOCKPARKSPECIALMISSIONEXCELTABLE_GETDATA_OFFSET UNITYSDK_OFFSET(0x1965F630)
-#define RPG_GAMECORE_CLOCKPARKSPECIALMISSIONEXCELTABLE_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x1965F500)
-#define RPG_GAMECORE_CLOCKPARKSPECIALMISSIONEXCELTABLE_GET_DATADICT_OFFSET UNITYSDK_OFFSET(0x1965F1F0)
-#define RPG_GAMECORE_CLOCKPARKSPECIALMISSIONEXCELTABLE_ISDATAEMPTY_OFFSET UNITYSDK_OFFSET(0x1965F4A0)
-#define RPG_GAMECORE_CLOCKPARKSPECIALMISSIONEXCELTABLE_ISDATALOADED_OFFSET UNITYSDK_OFFSET(0x1965F780)
-#define RPG_GAMECORE_CLOCKPARKSPECIALMISSIONEXCELTABLE_LOADDATA_OFFSET UNITYSDK_OFFSET(0x1965F270)
-#define RPG_GAMECORE_CLOCKPARKSPECIALMISSIONEXCELTABLE_UNLOADDATA_OFFSET UNITYSDK_OFFSET(0x1965F7C0)
-#define RPG_GAMECORE_CLOCKPARKSPECIALMISSIONEXCELTABLE__ADDITEMFROMBINARY_OFFSET UNITYSDK_OFFSET(0x1965F990)
-#define RPG_GAMECORE_CLOCKPARKSPECIALMISSIONEXCELTABLE__ADDITEM_OFFSET UNITYSDK_OFFSET(0x1965FD40)
-#define RPG_GAMECORE_CLOCKPARKSPECIALMISSIONEXCELTABLE__CCTOR_OFFSET UNITYSDK_OFFSET(0x19660060)
-#define RPG_GAMECORE_CLOCKPARKSPECIALMISSIONEXCELTABLE__LOADDATAINCREMENTIAL_OFFSET UNITYSDK_OFFSET(0x1965F8F0)
-#define RPG_GAMECORE_CLOCKPARKSPECIALMISSIONEXCELTABLE__LOADDATA_OFFSET UNITYSDK_OFFSET(0x1965F850)
+#define RPG_GAMECORE_CLOCKPARKSPECIALMISSIONEXCELTABLE_GETDATA_OFFSET UNITYSDK_OFFSET(0x1C25FED0)
+#define RPG_GAMECORE_CLOCKPARKSPECIALMISSIONEXCELTABLE_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x1C25FDA0)
+#define RPG_GAMECORE_CLOCKPARKSPECIALMISSIONEXCELTABLE_GET_DATADICT_OFFSET UNITYSDK_OFFSET(0x1C25FA90)
+#define RPG_GAMECORE_CLOCKPARKSPECIALMISSIONEXCELTABLE_ISDATAEMPTY_OFFSET UNITYSDK_OFFSET(0x1C25FD40)
+#define RPG_GAMECORE_CLOCKPARKSPECIALMISSIONEXCELTABLE_ISDATALOADED_OFFSET UNITYSDK_OFFSET(0x1C260020)
+#define RPG_GAMECORE_CLOCKPARKSPECIALMISSIONEXCELTABLE_LOADDATA_OFFSET UNITYSDK_OFFSET(0x1C25FB10)
+#define RPG_GAMECORE_CLOCKPARKSPECIALMISSIONEXCELTABLE_UNLOADDATA_OFFSET UNITYSDK_OFFSET(0x1C260060)
+#define RPG_GAMECORE_CLOCKPARKSPECIALMISSIONEXCELTABLE__ADDITEMFROMBINARY_OFFSET UNITYSDK_OFFSET(0x1C260230)
+#define RPG_GAMECORE_CLOCKPARKSPECIALMISSIONEXCELTABLE__ADDITEM_OFFSET UNITYSDK_OFFSET(0x1C2605E0)
+#define RPG_GAMECORE_CLOCKPARKSPECIALMISSIONEXCELTABLE__CCTOR_OFFSET UNITYSDK_OFFSET(0x1C260900)
+#define RPG_GAMECORE_CLOCKPARKSPECIALMISSIONEXCELTABLE__LOADDATAINCREMENTIAL_OFFSET UNITYSDK_OFFSET(0x1C260190)
+#define RPG_GAMECORE_CLOCKPARKSPECIALMISSIONEXCELTABLE__LOADDATA_OFFSET UNITYSDK_OFFSET(0x1C2600F0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ClockParkSpecialMissionExcelTable_TypeDefinitionIndex = 10750;
+	inline static constexpr unsigned int ClockParkSpecialMissionExcelTable_TypeDefinitionIndex = 10800;
 
 	class ClockParkSpecialMissionExcelTable : public ::System::Object
 	{
 	public:
 		static ::Il2CppArray<::System::String*>** StaticGet_s_PathList()
 		{
-			return (::Il2CppArray<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(ClockParkSpecialMissionExcelTable_TypeDefinitionIndex)->GetStaticField(0xFB70);
-		}
-		static ::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::ClockParkSpecialMissionRow*>** StaticGet_dataDict_()
-		{
-			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::ClockParkSpecialMissionRow*>**)Il2CppClass::FromTypeDefinitionIndex(ClockParkSpecialMissionExcelTable_TypeDefinitionIndex)->GetStaticField(0xFB78);
+			return (::Il2CppArray<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(ClockParkSpecialMissionExcelTable_TypeDefinitionIndex)->GetStaticField(0x2C860);
 		}
 		static ::System::Action_1<::Class_1_7A22A3DBEEDD1F80*>** StaticGet__AddItemFromBinary_ActionInst()
 		{
-			return (::System::Action_1<::Class_1_7A22A3DBEEDD1F80*>**)Il2CppClass::FromTypeDefinitionIndex(ClockParkSpecialMissionExcelTable_TypeDefinitionIndex)->GetStaticField(0xFB80);
+			return (::System::Action_1<::Class_1_7A22A3DBEEDD1F80*>**)Il2CppClass::FromTypeDefinitionIndex(ClockParkSpecialMissionExcelTable_TypeDefinitionIndex)->GetStaticField(0x2C868);
+		}
+		static ::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::ClockParkSpecialMissionRow*>** StaticGet_dataDict_()
+		{
+			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::ClockParkSpecialMissionRow*>**)Il2CppClass::FromTypeDefinitionIndex(ClockParkSpecialMissionExcelTable_TypeDefinitionIndex)->GetStaticField(0x2C870);
 		}
 		static ::System::Boolean* StaticGet_isDataLoaded()
 		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(ClockParkSpecialMissionExcelTable_TypeDefinitionIndex)->GetStaticField(0x4EE0);
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(ClockParkSpecialMissionExcelTable_TypeDefinitionIndex)->GetStaticField(0x7DC0);
 		}
 		static ::System::Byte* StaticGet_HashIndex()
 		{
-			return (::System::Byte*)Il2CppClass::FromTypeDefinitionIndex(ClockParkSpecialMissionExcelTable_TypeDefinitionIndex)->GetStaticField(0x4EE1);
+			return (::System::Byte*)Il2CppClass::FromTypeDefinitionIndex(ClockParkSpecialMissionExcelTable_TypeDefinitionIndex)->GetStaticField(0x7DC1);
 		}
 
 		static ::System::Void _cctor()

@@ -7,7 +7,7 @@ namespace ZLinq::Internal { template <typename T> class RentedArrayBox_1; }
 
 namespace ZLinq::Internal
 {
-	inline static constexpr unsigned int RentedArrayBox_1_TypeDefinitionIndex = 6392;
+	inline static constexpr unsigned int RentedArrayBox_1_TypeDefinitionIndex = 6397;
 
 	template <typename T>
 	class RentedArrayBox_1 : public ::System::Object

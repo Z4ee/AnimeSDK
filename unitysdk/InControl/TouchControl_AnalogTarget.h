@@ -3,7 +3,7 @@
 
 namespace InControl
 {
-	inline static constexpr unsigned int TouchControl_AnalogTarget_TypeDefinitionIndex = 37920;
+	inline static constexpr unsigned int TouchControl_AnalogTarget_TypeDefinitionIndex = 38728;
 
 	enum class TouchControl_AnalogTarget : ::System::Int32
 	{

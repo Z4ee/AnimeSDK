@@ -3,7 +3,7 @@
 
 namespace RPG::CustomRP
 {
-	inline static constexpr unsigned int ICustomPostProcessComponent_TypeDefinitionIndex = 33633;
+	inline static constexpr unsigned int ICustomPostProcessComponent_TypeDefinitionIndex = 34004;
 
 	class ICustomPostProcessComponent
 	{

@@ -1,8 +1,9 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/RPG/GameCore/RogueMagicScepterFuncType.h"
 
-inline static constexpr unsigned int Class_0_16E4307DCC419505_892_TypeDefinitionIndex = 63061;
+class Class_1_FD893FD36F6A3A6D_5;
+
+inline static constexpr unsigned int Class_0_16E4307DCC419505_892_TypeDefinitionIndex = 64173;
 
 class Class_0_16E4307DCC419505_892
 {

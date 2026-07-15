@@ -2,12 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/ValueType.h"
 
-#define UNITYENGINE_FORMATS_ALEMBIC_SDK_AIPOINTSSAMPLESUMMARY_GET_COUNT_OFFSET UNITYSDK_OFFSET(0x5FB0)
-#define UNITYENGINE_FORMATS_ALEMBIC_SDK_AIPOINTSSAMPLESUMMARY_SET_COUNT_OFFSET UNITYSDK_OFFSET(0x2C4C0)
+#define UNITYENGINE_FORMATS_ALEMBIC_SDK_AIPOINTSSAMPLESUMMARY_GET_COUNT_OFFSET UNITYSDK_OFFSET(0x167710)
+#define UNITYENGINE_FORMATS_ALEMBIC_SDK_AIPOINTSSAMPLESUMMARY_SET_COUNT_OFFSET UNITYSDK_OFFSET(0x167520)
 
 namespace UnityEngine::Formats::Alembic::Sdk
 {
-	inline static constexpr unsigned int aiPointsSampleSummary_TypeDefinitionIndex = 41635;
+	inline static constexpr unsigned int aiPointsSampleSummary_TypeDefinitionIndex = 42495;
 
 	struct alignas(4) aiPointsSampleSummary
 	{

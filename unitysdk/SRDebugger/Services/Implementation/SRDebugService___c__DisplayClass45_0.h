@@ -5,12 +5,12 @@
 namespace SRDebugger { class ActionCompleteCallback; }
 namespace System { class String; }
 
-#define SRDEBUGGER_SERVICES_IMPLEMENTATION_SRDEBUGSERVICE___C__DISPLAYCLASS45_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1ACF6E60)
-#define SRDEBUGGER_SERVICES_IMPLEMENTATION_SRDEBUGSERVICE___C__DISPLAYCLASS45_0__SHOWBUGREPORTSHEET_B__0_OFFSET UNITYSDK_OFFSET(0x1ACF73A0)
+#define SRDEBUGGER_SERVICES_IMPLEMENTATION_SRDEBUGSERVICE___C__DISPLAYCLASS45_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1A205090)
+#define SRDEBUGGER_SERVICES_IMPLEMENTATION_SRDEBUGSERVICE___C__DISPLAYCLASS45_0__SHOWBUGREPORTSHEET_B__0_OFFSET UNITYSDK_OFFSET(0x1A205580)
 
 namespace SRDebugger::Services::Implementation
 {
-	inline static constexpr unsigned int SRDebugService___c__DisplayClass45_0_TypeDefinitionIndex = 35753;
+	inline static constexpr unsigned int SRDebugService___c__DisplayClass45_0_TypeDefinitionIndex = 36535;
 
 	class SRDebugService___c__DisplayClass45_0 : public ::System::Object
 	{

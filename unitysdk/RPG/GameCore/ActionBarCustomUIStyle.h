@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ActionBarCustomUIStyle_TypeDefinitionIndex = 23287;
+	inline static constexpr unsigned int ActionBarCustomUIStyle_TypeDefinitionIndex = 23773;
 
 	enum class ActionBarCustomUIStyle : ::System::Int32
 	{

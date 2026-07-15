@@ -5,13 +5,13 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class DynamicFloat; }
 
-#define RPG_GAMECORE_SETPHAINONCHARGEPOINT_METHOD_3_D23EB9774B07F170_OFFSET UNITYSDK_OFFSET(0x19C5B340)
-#define RPG_GAMECORE_SETPHAINONCHARGEPOINT_METHOD_3_DFB3350920B77EC0_OFFSET UNITYSDK_OFFSET(0x19C5B2C0)
-#define RPG_GAMECORE_SETPHAINONCHARGEPOINT__CTOR_OFFSET UNITYSDK_OFFSET(0x19C5B310)
+#define RPG_GAMECORE_SETPHAINONCHARGEPOINT_METHOD_3_8892FECD41DBD9C3_OFFSET UNITYSDK_OFFSET(0x1C605260)
+#define RPG_GAMECORE_SETPHAINONCHARGEPOINT_METHOD_3_D23EB9774B07F170_OFFSET UNITYSDK_OFFSET(0x1C6052A0)
+#define RPG_GAMECORE_SETPHAINONCHARGEPOINT__CTOR_OFFSET UNITYSDK_OFFSET(0x1C605290)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SetPhainonChargePoint_TypeDefinitionIndex = 21900;
+	inline static constexpr unsigned int SetPhainonChargePoint_TypeDefinitionIndex = 22327;
 
 	class SetPhainonChargePoint : public ::RPG::GameCore::TaskConfig
 	{
@@ -23,9 +23,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETPHAINONCHARGEPOINT__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_DFB3350920B77EC0(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SetPhainonChargePoint*& a2)
+		static ::System::Void Method_3_8892FECD41DBD9C3(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SetPhainonChargePoint*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SetPhainonChargePoint*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETPHAINONCHARGEPOINT_METHOD_3_DFB3350920B77EC0_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SetPhainonChargePoint*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETPHAINONCHARGEPOINT_METHOD_3_8892FECD41DBD9C3_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_D23EB9774B07F170(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SetPhainonChargePoint* a2)

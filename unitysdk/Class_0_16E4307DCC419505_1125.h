@@ -1,10 +1,8 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/RPG/Client/SwordTraining/SwordTrainingEffectSource.h"
+#include "unitysdk/UnityEngine/Rect.h"
 
-class Class_0_16E4307DCC419505_1124;
-
-inline static constexpr unsigned int Class_0_16E4307DCC419505_1125_TypeDefinitionIndex = 69871;
+inline static constexpr unsigned int Class_0_16E4307DCC419505_1125_TypeDefinitionIndex = 70419;
 
 class Class_0_16E4307DCC419505_1125
 {

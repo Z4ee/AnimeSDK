@@ -6,13 +6,12 @@
 
 namespace UnityEngine { class GameObject; }
 
-#define RPGTOOLS_TIMELINE_CONVINCEDOUBLESCREENSHAKETRACK_CREATETRACKMIXER_OFFSET UNITYSDK_OFFSET(0xCFFB790)
-#define RPGTOOLS_TIMELINE_CONVINCEDOUBLESCREENSHAKETRACK__CTOR_OFFSET UNITYSDK_OFFSET(0xCFFB910)
-#define RPGTOOLS_TIMELINE_CONVINCEDOUBLESCREENSHAKETRACK___IFIXBASEPROXY_CREATETRACKMIXER_OFFSET UNITYSDK_OFFSET(0xCFFB9F0)
+#define RPGTOOLS_TIMELINE_CONVINCEDOUBLESCREENSHAKETRACK_CREATETRACKMIXER_OFFSET UNITYSDK_OFFSET(0x1B363460)
+#define RPGTOOLS_TIMELINE_CONVINCEDOUBLESCREENSHAKETRACK__CTOR_OFFSET UNITYSDK_OFFSET(0x1B3635E0)
 
 namespace RPGTools::Timeline
 {
-	inline static constexpr unsigned int ConvinceDoubleScreenShakeTrack_TypeDefinitionIndex = 45343;
+	inline static constexpr unsigned int ConvinceDoubleScreenShakeTrack_TypeDefinitionIndex = 46267;
 
 	class ConvinceDoubleScreenShakeTrack : public ::UnityEngine::Timeline::TrackAsset
 	{
@@ -25,11 +24,6 @@ namespace RPGTools::Timeline
 		::UnityEngine::Playables::Playable CreateTrackMixer(::UnityEngine::Playables::PlayableGraph a1, ::UnityEngine::GameObject* a2, ::System::Int32 a3)
 		{
 			return ((::UnityEngine::Playables::Playable(*)(::PVOID, ::UnityEngine::Playables::PlayableGraph, ::UnityEngine::GameObject*, ::System::Int32))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_CONVINCEDOUBLESCREENSHAKETRACK_CREATETRACKMIXER_OFFSET))(this, a1, a2, a3);
-		}
-
-		::UnityEngine::Playables::Playable __iFixBaseProxy_CreateTrackMixer(::UnityEngine::Playables::PlayableGraph a1, ::UnityEngine::GameObject* a2, ::System::Int32 a3)
-		{
-			return ((::UnityEngine::Playables::Playable(*)(::PVOID, ::UnityEngine::Playables::PlayableGraph, ::UnityEngine::GameObject*, ::System::Int32))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_CONVINCEDOUBLESCREENSHAKETRACK___IFIXBASEPROXY_CREATETRACKMIXER_OFFSET))(this, a1, a2, a3);
 		}
 	};
 }

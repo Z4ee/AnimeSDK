@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int TalkConvinceSpliteLineType_TypeDefinitionIndex = 56712;
+	inline static constexpr unsigned int TalkConvinceSpliteLineType_TypeDefinitionIndex = 57958;
 
 	enum class TalkConvinceSpliteLineType : ::System::Int32
 	{

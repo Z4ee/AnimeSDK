@@ -5,12 +5,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class ConditionParam; }
 
-#define RPG_GAMECORE_ITEMUSECONDITIONROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x19866540)
-#define RPG_GAMECORE_ITEMUSECONDITIONROW__CTOR_OFFSET UNITYSDK_OFFSET(0x19866B50)
+#define RPG_GAMECORE_ITEMUSECONDITIONROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B026980)
+#define RPG_GAMECORE_ITEMUSECONDITIONROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1B026F90)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ItemUseConditionRow_TypeDefinitionIndex = 13235;
+	inline static constexpr unsigned int ItemUseConditionRow_TypeDefinitionIndex = 13383;
 
 	class ItemUseConditionRow : public ::System::Object
 	{

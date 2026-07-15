@@ -3,7 +3,7 @@
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int ReceiveGI_TypeDefinitionIndex = 4145;
+	inline static constexpr unsigned int ReceiveGI_TypeDefinitionIndex = 4150;
 
 	enum class ReceiveGI : ::System::Int32
 	{

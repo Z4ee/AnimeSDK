@@ -2,15 +2,15 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_0_16E4307DCC419505_779;
+class Class_0_16E4307DCC419505_814;
 namespace RPG::Client { class GridFightFormationRole; }
 
-#define RPG_CLIENT_GRIDFIGHTFORMATIONTEAM___C__DISPLAYCLASS70_1__CTOR_OFFSET UNITYSDK_OFFSET(0xBB476F0)
-#define RPG_CLIENT_GRIDFIGHTFORMATIONTEAM___C__DISPLAYCLASS70_1___SYNCTEAM_B__2_OFFSET UNITYSDK_OFFSET(0xBB47700)
+#define RPG_CLIENT_GRIDFIGHTFORMATIONTEAM___C__DISPLAYCLASS70_1__CTOR_OFFSET UNITYSDK_OFFSET(0x1ABC6210)
+#define RPG_CLIENT_GRIDFIGHTFORMATIONTEAM___C__DISPLAYCLASS70_1___SYNCTEAM_B__2_OFFSET UNITYSDK_OFFSET(0x1ABC6220)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GridFightFormationTeam___c__DisplayClass70_1_TypeDefinitionIndex = 60460;
+	inline static constexpr unsigned int GridFightFormationTeam___c__DisplayClass70_1_TypeDefinitionIndex = 61751;
 
 	class GridFightFormationTeam___c__DisplayClass70_1 : public ::System::Object
 	{
@@ -22,9 +22,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTFORMATIONTEAM___C__DISPLAYCLASS70_1__CTOR_OFFSET))(this);
 		}
 
-		::System::Boolean __SyncTeam_b__2(::Class_0_16E4307DCC419505_779* a1)
+		::System::Boolean __SyncTeam_b__2(::Class_0_16E4307DCC419505_814* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::Class_0_16E4307DCC419505_779*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTFORMATIONTEAM___C__DISPLAYCLASS70_1___SYNCTEAM_B__2_OFFSET))(this, a1);
+			return ((::System::Boolean(*)(::PVOID, ::Class_0_16E4307DCC419505_814*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTFORMATIONTEAM___C__DISPLAYCLASS70_1___SYNCTEAM_B__2_OFFSET))(this, a1);
 		}
 	};
 }

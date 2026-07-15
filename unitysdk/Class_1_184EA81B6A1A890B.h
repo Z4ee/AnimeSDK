@@ -9,22 +9,22 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 namespace System::Collections::Generic { template <typename T> class HashSet_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_1_184EA81B6A1A890B_METHOD_1_0E4D2C6AA7165372_OFFSET UNITYSDK_OFFSET(0x136DB230)
-#define CLASS_1_184EA81B6A1A890B_METHOD_1_3635DF2DF6DBDA7E_OFFSET UNITYSDK_OFFSET(0x136DA430)
-#define CLASS_1_184EA81B6A1A890B_METHOD_1_419352DD8D9F0FDD_OFFSET UNITYSDK_OFFSET(0x136DB1B0)
-#define CLASS_1_184EA81B6A1A890B_METHOD_1_576BBFC04A48B8D0_OFFSET UNITYSDK_OFFSET(0x136DACF0)
-#define CLASS_1_184EA81B6A1A890B_METHOD_1_65F11EC75F1E71F4_OFFSET UNITYSDK_OFFSET(0x136DA920)
-#define CLASS_1_184EA81B6A1A890B_METHOD_1_735346B70B4D6BC4_OFFSET UNITYSDK_OFFSET(0x136DABA0)
-#define CLASS_1_184EA81B6A1A890B_METHOD_1_9D3692C67D89A264_OFFSET UNITYSDK_OFFSET(0x136DADA0)
+#define CLASS_1_184EA81B6A1A890B_METHOD_1_0E4D2C6AA7165372_OFFSET UNITYSDK_OFFSET(0x1704B440)
+#define CLASS_1_184EA81B6A1A890B_METHOD_1_419352DD8D9F0FDD_OFFSET UNITYSDK_OFFSET(0x1704B3C0)
+#define CLASS_1_184EA81B6A1A890B_METHOD_1_576BBFC04A48B8D0_OFFSET UNITYSDK_OFFSET(0x1704AF00)
+#define CLASS_1_184EA81B6A1A890B_METHOD_1_5B3373D36AC43707_OFFSET UNITYSDK_OFFSET(0x1704A700)
+#define CLASS_1_184EA81B6A1A890B_METHOD_1_65F11EC75F1E71F4_OFFSET UNITYSDK_OFFSET(0x1704AB30)
+#define CLASS_1_184EA81B6A1A890B_METHOD_1_735346B70B4D6BC4_OFFSET UNITYSDK_OFFSET(0x1704ADB0)
+#define CLASS_1_184EA81B6A1A890B_METHOD_1_9D3692C67D89A264_OFFSET UNITYSDK_OFFSET(0x1704AFB0)
 
-inline static constexpr unsigned int Class_1_184EA81B6A1A890B_TypeDefinitionIndex = 55790;
+inline static constexpr unsigned int Class_1_184EA81B6A1A890B_TypeDefinitionIndex = 57027;
 
 class Class_1_184EA81B6A1A890B : public ::System::Object
 {
 public:
-	static ::System::Void Method_1_3635DF2DF6DBDA7E(::RPG::Client::BattleAssetPreload* a1, ::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::Int32>* a2, ::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::String*>* a3, ::System::Collections::Generic::Dictionary_2<::System::UInt32, ::RPG::AvatarSystem::IAvatar*>* a4, ::System::Int32 a5)
+	static ::System::Void Method_1_5B3373D36AC43707(::RPG::Client::BattleAssetPreload* a1, ::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::Int32>* a2, ::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::String*>* a3, ::System::Collections::Generic::Dictionary_2<::System::UInt32, ::RPG::AvatarSystem::IAvatar*>* a4, ::System::Int32 a5)
 	{
-		return ((::System::Void(*)(::RPG::Client::BattleAssetPreload*, ::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::Int32>*, ::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::String*>*, ::System::Collections::Generic::Dictionary_2<::System::UInt32, ::RPG::AvatarSystem::IAvatar*>*, ::System::Int32))((::PBYTE)hIl2Cpp + CLASS_1_184EA81B6A1A890B_METHOD_1_3635DF2DF6DBDA7E_OFFSET))(a1, a2, a3, a4, a5);
+		return ((::System::Void(*)(::RPG::Client::BattleAssetPreload*, ::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::Int32>*, ::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::String*>*, ::System::Collections::Generic::Dictionary_2<::System::UInt32, ::RPG::AvatarSystem::IAvatar*>*, ::System::Int32))((::PBYTE)hIl2Cpp + CLASS_1_184EA81B6A1A890B_METHOD_1_5B3373D36AC43707_OFFSET))(a1, a2, a3, a4, a5);
 	}
 
 	static ::System::Void Method_1_65F11EC75F1E71F4(::RPG::Client::BattleAssetPreload* a1, ::System::Collections::Generic::List_1<::System::UInt32>* a2, ::System::Boolean a3)

@@ -4,11 +4,11 @@
 
 namespace System { class Type; }
 
-#define EPIC_ONLINESERVICES_MONOPINVOKECALLBACKATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0xA3093D0)
+#define EPIC_ONLINESERVICES_MONOPINVOKECALLBACKATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1BFA1AB0)
 
 namespace Epic::OnlineServices
 {
-	inline static constexpr unsigned int MonoPInvokeCallbackAttribute_TypeDefinitionIndex = 41879;
+	inline static constexpr unsigned int MonoPInvokeCallbackAttribute_TypeDefinitionIndex = 42740;
 
 	class MonoPInvokeCallbackAttribute : public ::System::Attribute
 	{

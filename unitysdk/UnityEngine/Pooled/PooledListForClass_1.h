@@ -13,7 +13,7 @@ namespace UnityEngine::Pooled { template <typename T> class DefaultArrayPoolSour
 
 namespace UnityEngine::Pooled
 {
-	inline static constexpr unsigned int PooledListForClass_1_TypeDefinitionIndex = 4512;
+	inline static constexpr unsigned int PooledListForClass_1_TypeDefinitionIndex = 4517;
 
 	template <typename T>
 	class PooledListForClass_1 : public ::System::Object

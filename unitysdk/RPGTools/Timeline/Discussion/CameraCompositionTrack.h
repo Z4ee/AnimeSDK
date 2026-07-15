@@ -7,15 +7,13 @@
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine::Timeline { class TimelineClip; }
 
-#define RPGTOOLS_TIMELINE_DISCUSSION_CAMERACOMPOSITIONTRACK_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0xD001D40)
-#define RPGTOOLS_TIMELINE_DISCUSSION_CAMERACOMPOSITIONTRACK_CREATETRACKMIXER_OFFSET UNITYSDK_OFFSET(0xD001B60)
-#define RPGTOOLS_TIMELINE_DISCUSSION_CAMERACOMPOSITIONTRACK__CTOR_OFFSET UNITYSDK_OFFSET(0xD001DF0)
-#define RPGTOOLS_TIMELINE_DISCUSSION_CAMERACOMPOSITIONTRACK___IFIXBASEPROXY_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0xD001F70)
-#define RPGTOOLS_TIMELINE_DISCUSSION_CAMERACOMPOSITIONTRACK___IFIXBASEPROXY_CREATETRACKMIXER_OFFSET UNITYSDK_OFFSET(0xD001ED0)
+#define RPGTOOLS_TIMELINE_DISCUSSION_CAMERACOMPOSITIONTRACK_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0x19A3A210)
+#define RPGTOOLS_TIMELINE_DISCUSSION_CAMERACOMPOSITIONTRACK_CREATETRACKMIXER_OFFSET UNITYSDK_OFFSET(0x19A3A030)
+#define RPGTOOLS_TIMELINE_DISCUSSION_CAMERACOMPOSITIONTRACK__CTOR_OFFSET UNITYSDK_OFFSET(0x19A3A2C0)
 
 namespace RPGTools::Timeline::Discussion
 {
-	inline static constexpr unsigned int CameraCompositionTrack_TypeDefinitionIndex = 46055;
+	inline static constexpr unsigned int CameraCompositionTrack_TypeDefinitionIndex = 46994;
 
 	class CameraCompositionTrack : public ::UnityEngine::Timeline::TrackAsset
 	{
@@ -33,16 +31,6 @@ namespace RPGTools::Timeline::Discussion
 		::UnityEngine::Playables::Playable CreatePlayable(::UnityEngine::Playables::PlayableGraph a1, ::UnityEngine::GameObject* a2, ::UnityEngine::Timeline::TimelineClip* a3)
 		{
 			return ((::UnityEngine::Playables::Playable(*)(::PVOID, ::UnityEngine::Playables::PlayableGraph, ::UnityEngine::GameObject*, ::UnityEngine::Timeline::TimelineClip*))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_DISCUSSION_CAMERACOMPOSITIONTRACK_CREATEPLAYABLE_OFFSET))(this, a1, a2, a3);
-		}
-
-		::UnityEngine::Playables::Playable __iFixBaseProxy_CreateTrackMixer(::UnityEngine::Playables::PlayableGraph a1, ::UnityEngine::GameObject* a2, ::System::Int32 a3)
-		{
-			return ((::UnityEngine::Playables::Playable(*)(::PVOID, ::UnityEngine::Playables::PlayableGraph, ::UnityEngine::GameObject*, ::System::Int32))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_DISCUSSION_CAMERACOMPOSITIONTRACK___IFIXBASEPROXY_CREATETRACKMIXER_OFFSET))(this, a1, a2, a3);
-		}
-
-		::UnityEngine::Playables::Playable __iFixBaseProxy_CreatePlayable(::UnityEngine::Playables::PlayableGraph a1, ::UnityEngine::GameObject* a2, ::UnityEngine::Timeline::TimelineClip* a3)
-		{
-			return ((::UnityEngine::Playables::Playable(*)(::PVOID, ::UnityEngine::Playables::PlayableGraph, ::UnityEngine::GameObject*, ::UnityEngine::Timeline::TimelineClip*))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_DISCUSSION_CAMERACOMPOSITIONTRACK___IFIXBASEPROXY_CREATEPLAYABLE_OFFSET))(this, a1, a2, a3);
 		}
 	};
 }

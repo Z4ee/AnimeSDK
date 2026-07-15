@@ -4,13 +4,13 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_WAITPREDICATESUCC_METHOD_3_69022AAB0E332A77_OFFSET UNITYSDK_OFFSET(0x19E5CF30)
-#define RPG_GAMECORE_WAITPREDICATESUCC_METHOD_3_A22805024C2A7E40_OFFSET UNITYSDK_OFFSET(0x19E5CEC0)
-#define RPG_GAMECORE_WAITPREDICATESUCC__CTOR_OFFSET UNITYSDK_OFFSET(0x19E5CF00)
+#define RPG_GAMECORE_WAITPREDICATESUCC_METHOD_3_69022AAB0E332A77_OFFSET UNITYSDK_OFFSET(0x1D1B8F20)
+#define RPG_GAMECORE_WAITPREDICATESUCC_METHOD_3_C3739E134AA6FB2A_OFFSET UNITYSDK_OFFSET(0x1D1B8EE0)
+#define RPG_GAMECORE_WAITPREDICATESUCC__CTOR_OFFSET UNITYSDK_OFFSET(0x1D1B8F10)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int WaitPredicateSucc_TypeDefinitionIndex = 20859;
+	inline static constexpr unsigned int WaitPredicateSucc_TypeDefinitionIndex = 21274;
 
 	class WaitPredicateSucc : public ::RPG::GameCore::TaskConfig
 	{
@@ -20,9 +20,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_WAITPREDICATESUCC__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_A22805024C2A7E40(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::WaitPredicateSucc*& a2)
+		static ::System::Void Method_3_C3739E134AA6FB2A(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::WaitPredicateSucc*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::WaitPredicateSucc*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_WAITPREDICATESUCC_METHOD_3_A22805024C2A7E40_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::WaitPredicateSucc*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_WAITPREDICATESUCC_METHOD_3_C3739E134AA6FB2A_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_69022AAB0E332A77(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::WaitPredicateSucc* a2)

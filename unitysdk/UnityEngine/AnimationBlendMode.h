@@ -3,7 +3,7 @@
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int AnimationBlendMode_TypeDefinitionIndex = 5159;
+	inline static constexpr unsigned int AnimationBlendMode_TypeDefinitionIndex = 5164;
 
 	enum class AnimationBlendMode : ::System::Int32
 	{

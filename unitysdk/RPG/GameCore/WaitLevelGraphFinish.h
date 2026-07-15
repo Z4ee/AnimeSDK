@@ -5,13 +5,13 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_WAITLEVELGRAPHFINISH_METHOD_3_6C8578269E41A10A_OFFSET UNITYSDK_OFFSET(0x19E59220)
-#define RPG_GAMECORE_WAITLEVELGRAPHFINISH_METHOD_3_CEA3541F965C655D_OFFSET UNITYSDK_OFFSET(0x19E591A0)
-#define RPG_GAMECORE_WAITLEVELGRAPHFINISH__CTOR_OFFSET UNITYSDK_OFFSET(0x19E591F0)
+#define RPG_GAMECORE_WAITLEVELGRAPHFINISH_METHOD_3_292347D820564F67_OFFSET UNITYSDK_OFFSET(0x1B8A7410)
+#define RPG_GAMECORE_WAITLEVELGRAPHFINISH_METHOD_3_6C8578269E41A10A_OFFSET UNITYSDK_OFFSET(0x1B8A7450)
+#define RPG_GAMECORE_WAITLEVELGRAPHFINISH__CTOR_OFFSET UNITYSDK_OFFSET(0x1B8A7440)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int WaitLevelGraphFinish_TypeDefinitionIndex = 22114;
+	inline static constexpr unsigned int WaitLevelGraphFinish_TypeDefinitionIndex = 22551;
 
 	class WaitLevelGraphFinish : public ::RPG::GameCore::TaskConfig
 	{
@@ -24,9 +24,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_WAITLEVELGRAPHFINISH__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_CEA3541F965C655D(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::WaitLevelGraphFinish*& a2)
+		static ::System::Void Method_3_292347D820564F67(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::WaitLevelGraphFinish*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::WaitLevelGraphFinish*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_WAITLEVELGRAPHFINISH_METHOD_3_CEA3541F965C655D_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::WaitLevelGraphFinish*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_WAITLEVELGRAPHFINISH_METHOD_3_292347D820564F67_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_6C8578269E41A10A(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::WaitLevelGraphFinish* a2)

@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int CameraDataAndFlags_RoamingStyle_TypeDefinitionIndex = 65014;
+	inline static constexpr unsigned int CameraDataAndFlags_RoamingStyle_TypeDefinitionIndex = 66419;
 
 	enum class CameraDataAndFlags_RoamingStyle : ::System::Int32
 	{

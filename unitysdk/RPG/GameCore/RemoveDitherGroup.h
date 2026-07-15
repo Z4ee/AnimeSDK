@@ -5,13 +5,13 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_REMOVEDITHERGROUP_METHOD_3_612B08CA531B33A1_OFFSET UNITYSDK_OFFSET(0x19AC7D30)
-#define RPG_GAMECORE_REMOVEDITHERGROUP_METHOD_3_B95D03ACB8740B5D_OFFSET UNITYSDK_OFFSET(0x19AC7DB0)
-#define RPG_GAMECORE_REMOVEDITHERGROUP__CTOR_OFFSET UNITYSDK_OFFSET(0x19AC7D80)
+#define RPG_GAMECORE_REMOVEDITHERGROUP_METHOD_3_B95D03ACB8740B5D_OFFSET UNITYSDK_OFFSET(0x1B9CEC20)
+#define RPG_GAMECORE_REMOVEDITHERGROUP_METHOD_3_DBE5D58B740D2DEA_OFFSET UNITYSDK_OFFSET(0x1B9CEBE0)
+#define RPG_GAMECORE_REMOVEDITHERGROUP__CTOR_OFFSET UNITYSDK_OFFSET(0x1B9CEC10)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RemoveDitherGroup_TypeDefinitionIndex = 21662;
+	inline static constexpr unsigned int RemoveDitherGroup_TypeDefinitionIndex = 22088;
 
 	class RemoveDitherGroup : public ::RPG::GameCore::TaskConfig
 	{
@@ -24,9 +24,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_REMOVEDITHERGROUP__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_612B08CA531B33A1(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::RemoveDitherGroup*& a2)
+		static ::System::Void Method_3_DBE5D58B740D2DEA(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::RemoveDitherGroup*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::RemoveDitherGroup*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_REMOVEDITHERGROUP_METHOD_3_612B08CA531B33A1_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::RemoveDitherGroup*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_REMOVEDITHERGROUP_METHOD_3_DBE5D58B740D2DEA_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_B95D03ACB8740B5D(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::RemoveDitherGroup* a2)

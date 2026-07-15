@@ -4,20 +4,20 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_ROGUETOURNEXPSCOREROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x19BC70F0)
-#define RPG_GAMECORE_ROGUETOURNEXPSCOREROW__CTOR_OFFSET UNITYSDK_OFFSET(0x19BC7270)
+#define RPG_GAMECORE_ROGUETOURNEXPSCOREROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1BB75080)
+#define RPG_GAMECORE_ROGUETOURNEXPSCOREROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1BB75200)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RogueTournExpScoreRow_TypeDefinitionIndex = 14239;
+	inline static constexpr unsigned int RogueTournExpScoreRow_TypeDefinitionIndex = 14387;
 
 	class RogueTournExpScoreRow : public ::System::Object
 	{
 	public:
-		::System::UInt32 WeeklyScore; // 0x10
-		::System::UInt32 ScoreExpID; // 0x14
-		::System::UInt32 Exp; // 0x18
-		::System::UInt32 ID; // 0x1C
+		::System::UInt32 Exp; // 0x10
+		::System::UInt32 ID; // 0x14
+		::System::UInt32 ScoreExpID; // 0x18
+		::System::UInt32 WeeklyScore; // 0x1C
 
 		::System::Void _ctor()
 		{

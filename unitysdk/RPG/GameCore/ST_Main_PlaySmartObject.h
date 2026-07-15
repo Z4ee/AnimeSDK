@@ -5,13 +5,13 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_ST_MAIN_PLAYSMARTOBJECT_METHOD_4_8F1EF31CD6C33B83_OFFSET UNITYSDK_OFFSET(0x19C05910)
-#define RPG_GAMECORE_ST_MAIN_PLAYSMARTOBJECT_METHOD_4_B21087AA77116508_OFFSET UNITYSDK_OFFSET(0x19C19460)
-#define RPG_GAMECORE_ST_MAIN_PLAYSMARTOBJECT__CTOR_OFFSET UNITYSDK_OFFSET(0x19C058C0)
+#define RPG_GAMECORE_ST_MAIN_PLAYSMARTOBJECT_METHOD_4_72F79F72D9800C2E_OFFSET UNITYSDK_OFFSET(0x1B7867B0)
+#define RPG_GAMECORE_ST_MAIN_PLAYSMARTOBJECT_METHOD_4_8F1EF31CD6C33B83_OFFSET UNITYSDK_OFFSET(0x1B7867F0)
+#define RPG_GAMECORE_ST_MAIN_PLAYSMARTOBJECT__CTOR_OFFSET UNITYSDK_OFFSET(0x1B7867E0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ST_Main_PlaySmartObject_TypeDefinitionIndex = 18987;
+	inline static constexpr unsigned int ST_Main_PlaySmartObject_TypeDefinitionIndex = 19338;
 
 	class ST_Main_PlaySmartObject : public ::RPG::GameCore::STTaskConfig
 	{
@@ -27,9 +27,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ST_MAIN_PLAYSMARTOBJECT__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_4_B21087AA77116508(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ST_Main_PlaySmartObject*& a2)
+		static ::System::Void Method_4_72F79F72D9800C2E(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ST_Main_PlaySmartObject*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ST_Main_PlaySmartObject*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ST_MAIN_PLAYSMARTOBJECT_METHOD_4_B21087AA77116508_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ST_Main_PlaySmartObject*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ST_MAIN_PLAYSMARTOBJECT_METHOD_4_72F79F72D9800C2E_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_4_8F1EF31CD6C33B83(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ST_Main_PlaySmartObject* a2)

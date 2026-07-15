@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int CloudGraphicsSettingType_TypeDefinitionIndex = 55929;
+	inline static constexpr unsigned int CloudGraphicsSettingType_TypeDefinitionIndex = 57168;
 
 	enum class CloudGraphicsSettingType : ::System::Int32
 	{

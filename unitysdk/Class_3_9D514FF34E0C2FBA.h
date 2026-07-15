@@ -8,12 +8,12 @@ namespace RPG::GameCore { class SummonMonsterData; }
 namespace RPG::GameCore { class TaskContext; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_3_9D514FF34E0C2FBA_METHOD_3_3AB661318C27F0C4_OFFSET UNITYSDK_OFFSET(0xAA9EDB0)
-#define CLASS_3_9D514FF34E0C2FBA_METHOD_3_906EBAD7AEE08C52_OFFSET UNITYSDK_OFFSET(0xAA9F150)
-#define CLASS_3_9D514FF34E0C2FBA_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xAA9ED30)
-#define CLASS_3_9D514FF34E0C2FBA__CTOR_OFFSET UNITYSDK_OFFSET(0xAA9ECE0)
+#define CLASS_3_9D514FF34E0C2FBA_METHOD_3_05FBA0AE5EEFB087_OFFSET UNITYSDK_OFFSET(0x16A09550)
+#define CLASS_3_9D514FF34E0C2FBA_METHOD_3_C795D69BD8CAFE55_OFFSET UNITYSDK_OFFSET(0x16A09160)
+#define CLASS_3_9D514FF34E0C2FBA_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x16A090E0)
+#define CLASS_3_9D514FF34E0C2FBA__CTOR_OFFSET UNITYSDK_OFFSET(0x16A09090)
 
-inline static constexpr unsigned int Class_3_9D514FF34E0C2FBA_TypeDefinitionIndex = 51995;
+inline static constexpr unsigned int Class_3_9D514FF34E0C2FBA_TypeDefinitionIndex = 53150;
 
 class Class_3_9D514FF34E0C2FBA : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::SummonBattleEventMonster*>
 {
@@ -30,13 +30,13 @@ public:
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_3_9D514FF34E0C2FBA_ONTASKBEGIN_OFFSET))(this);
 	}
 
-	::RPG::GameCore::GameEntity* Method_3_3AB661318C27F0C4(::RPG::GameCore::SummonMonsterData* a1)
+	::RPG::GameCore::GameEntity* Method_3_C795D69BD8CAFE55(::RPG::GameCore::SummonMonsterData* a1)
 	{
-		return ((::RPG::GameCore::GameEntity*(*)(::PVOID, ::RPG::GameCore::SummonMonsterData*))((::PBYTE)hIl2Cpp + CLASS_3_9D514FF34E0C2FBA_METHOD_3_3AB661318C27F0C4_OFFSET))(this, a1);
+		return ((::RPG::GameCore::GameEntity*(*)(::PVOID, ::RPG::GameCore::SummonMonsterData*))((::PBYTE)hIl2Cpp + CLASS_3_9D514FF34E0C2FBA_METHOD_3_C795D69BD8CAFE55_OFFSET))(this, a1);
 	}
 
-	::RPG::GameCore::GameEntity* Method_3_906EBAD7AEE08C52()
+	::RPG::GameCore::GameEntity* Method_3_05FBA0AE5EEFB087()
 	{
-		return ((::RPG::GameCore::GameEntity*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_3_9D514FF34E0C2FBA_METHOD_3_906EBAD7AEE08C52_OFFSET))(this);
+		return ((::RPG::GameCore::GameEntity*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_3_9D514FF34E0C2FBA_METHOD_3_05FBA0AE5EEFB087_OFFSET))(this);
 	}
 };

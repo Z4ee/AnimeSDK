@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RtBattleAnimMoveOption_TypeDefinitionIndex = 23443;
+	inline static constexpr unsigned int RtBattleAnimMoveOption_TypeDefinitionIndex = 23932;
 
 	enum class RtBattleAnimMoveOption : ::System::UInt32
 	{

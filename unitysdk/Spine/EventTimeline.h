@@ -9,22 +9,22 @@ namespace Spine { class Skeleton; }
 namespace Spine { template <typename T> class ExposedList_1; }
 namespace System { class String; }
 
-#define SPINE_EVENTTIMELINE_APPLY_OFFSET UNITYSDK_OFFSET(0x1AC55BD0)
-#define SPINE_EVENTTIMELINE_GET_EVENTS_OFFSET UNITYSDK_OFFSET(0x1AC55B20)
-#define SPINE_EVENTTIMELINE_SETFRAME_OFFSET UNITYSDK_OFFSET(0x1AC55B30)
-#define SPINE_EVENTTIMELINE__CCTOR_OFFSET UNITYSDK_OFFSET(0x1AC55E00)
-#define SPINE_EVENTTIMELINE__CTOR_OFFSET UNITYSDK_OFFSET(0x1AC55A30)
+#define SPINE_EVENTTIMELINE_APPLY_OFFSET UNITYSDK_OFFSET(0x1477C020)
+#define SPINE_EVENTTIMELINE_GET_EVENTS_OFFSET UNITYSDK_OFFSET(0x1477BF70)
+#define SPINE_EVENTTIMELINE_SETFRAME_OFFSET UNITYSDK_OFFSET(0x1477BF80)
+#define SPINE_EVENTTIMELINE__CCTOR_OFFSET UNITYSDK_OFFSET(0x1477C250)
+#define SPINE_EVENTTIMELINE__CTOR_OFFSET UNITYSDK_OFFSET(0x1477BEF0)
 
 namespace Spine
 {
-	inline static constexpr unsigned int EventTimeline_TypeDefinitionIndex = 36682;
+	inline static constexpr unsigned int EventTimeline_TypeDefinitionIndex = 37464;
 
 	class EventTimeline : public ::Spine::Timeline
 	{
 	public:
 		static ::Il2CppArray<::System::String*>** StaticGet_propertyIds()
 		{
-			return (::Il2CppArray<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(EventTimeline_TypeDefinitionIndex)->GetStaticField(0x2A00);
+			return (::Il2CppArray<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(EventTimeline_TypeDefinitionIndex)->GetStaticField(0x66DB0);
 		}
 		::Il2CppArray<::Spine::Event*>* events; // 0x20
 

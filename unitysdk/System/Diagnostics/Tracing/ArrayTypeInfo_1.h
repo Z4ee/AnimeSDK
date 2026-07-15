@@ -10,7 +10,7 @@ namespace System::Diagnostics::Tracing { template <typename T> class TraceLoggin
 
 namespace System::Diagnostics::Tracing
 {
-	inline static constexpr unsigned int ArrayTypeInfo_1_TypeDefinitionIndex = 1577;
+	inline static constexpr unsigned int ArrayTypeInfo_1_TypeDefinitionIndex = 1581;
 
 	template <typename ElementType>
 	class ArrayTypeInfo_1 : public ::System::Diagnostics::Tracing::TraceLoggingTypeInfo_1<::Il2CppArray<ElementType>*>

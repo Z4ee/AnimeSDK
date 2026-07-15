@@ -5,13 +5,13 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class DynamicString; }
 
-#define RPG_GAMECORE_ADVNPCPETSEARCH_METHOD_3_2C446C3AD132FA69_OFFSET UNITYSDK_OFFSET(0x1942EC70)
-#define RPG_GAMECORE_ADVNPCPETSEARCH_METHOD_3_FB7E61C700269202_OFFSET UNITYSDK_OFFSET(0x1942EBD0)
-#define RPG_GAMECORE_ADVNPCPETSEARCH__CTOR_OFFSET UNITYSDK_OFFSET(0x1942EC30)
+#define RPG_GAMECORE_ADVNPCPETSEARCH_METHOD_3_2C446C3AD132FA69_OFFSET UNITYSDK_OFFSET(0x1BE26060)
+#define RPG_GAMECORE_ADVNPCPETSEARCH_METHOD_3_D9BE419996AFE8DF_OFFSET UNITYSDK_OFFSET(0x1BE25FF0)
+#define RPG_GAMECORE_ADVNPCPETSEARCH__CTOR_OFFSET UNITYSDK_OFFSET(0x1BE26040)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AdvNpcPetSearch_TypeDefinitionIndex = 18865;
+	inline static constexpr unsigned int AdvNpcPetSearch_TypeDefinitionIndex = 19215;
 
 	class AdvNpcPetSearch : public ::RPG::GameCore::TaskConfig
 	{
@@ -30,9 +30,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVNPCPETSEARCH__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_FB7E61C700269202(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AdvNpcPetSearch*& a2)
+		static ::System::Void Method_3_D9BE419996AFE8DF(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AdvNpcPetSearch*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::AdvNpcPetSearch*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVNPCPETSEARCH_METHOD_3_FB7E61C700269202_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::AdvNpcPetSearch*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVNPCPETSEARCH_METHOD_3_D9BE419996AFE8DF_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_2C446C3AD132FA69(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AdvNpcPetSearch* a2)

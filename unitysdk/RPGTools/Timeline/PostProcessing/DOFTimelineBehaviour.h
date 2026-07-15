@@ -9,15 +9,14 @@ namespace RPG::CustomRP { class RPGDepthOfField; }
 namespace System { class Object; }
 namespace UnityEngine { class GameObject; }
 
-#define RPGTOOLS_TIMELINE_POSTPROCESSING_DOFTIMELINEBEHAVIOUR_GET_TARGET_OFFSET UNITYSDK_OFFSET(0xD03EFB0)
-#define RPGTOOLS_TIMELINE_POSTPROCESSING_DOFTIMELINEBEHAVIOUR_PROCESSFRAME_OFFSET UNITYSDK_OFFSET(0xD03EFD0)
-#define RPGTOOLS_TIMELINE_POSTPROCESSING_DOFTIMELINEBEHAVIOUR_SET_TARGET_OFFSET UNITYSDK_OFFSET(0xD03EFC0)
-#define RPGTOOLS_TIMELINE_POSTPROCESSING_DOFTIMELINEBEHAVIOUR__CTOR_OFFSET UNITYSDK_OFFSET(0xD03F380)
-#define RPGTOOLS_TIMELINE_POSTPROCESSING_DOFTIMELINEBEHAVIOUR___IFIXBASEPROXY_PROCESSFRAME_OFFSET UNITYSDK_OFFSET(0xD03F3D0)
+#define RPGTOOLS_TIMELINE_POSTPROCESSING_DOFTIMELINEBEHAVIOUR_GET_TARGET_OFFSET UNITYSDK_OFFSET(0x1999D110)
+#define RPGTOOLS_TIMELINE_POSTPROCESSING_DOFTIMELINEBEHAVIOUR_PROCESSFRAME_OFFSET UNITYSDK_OFFSET(0x1999D130)
+#define RPGTOOLS_TIMELINE_POSTPROCESSING_DOFTIMELINEBEHAVIOUR_SET_TARGET_OFFSET UNITYSDK_OFFSET(0x1999D120)
+#define RPGTOOLS_TIMELINE_POSTPROCESSING_DOFTIMELINEBEHAVIOUR__CTOR_OFFSET UNITYSDK_OFFSET(0x1999D4E0)
 
 namespace RPGTools::Timeline::PostProcessing
 {
-	inline static constexpr unsigned int DOFTimelineBehaviour_TypeDefinitionIndex = 45831;
+	inline static constexpr unsigned int DOFTimelineBehaviour_TypeDefinitionIndex = 46770;
 
 	class DOFTimelineBehaviour : public ::RPGTools::Timeline::PostProcessing::BasePlayableBehaviour_1<::RPG::CustomRP::RPGDepthOfField*>
 	{
@@ -43,11 +42,6 @@ namespace RPGTools::Timeline::PostProcessing
 		::System::Void ProcessFrame(::UnityEngine::Playables::Playable a1, ::UnityEngine::Playables::FrameData a2, ::System::Object* a3)
 		{
 			return ((::System::Void(*)(::PVOID, ::UnityEngine::Playables::Playable, ::UnityEngine::Playables::FrameData, ::System::Object*))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_POSTPROCESSING_DOFTIMELINEBEHAVIOUR_PROCESSFRAME_OFFSET))(this, a1, a2, a3);
-		}
-
-		::System::Void __iFixBaseProxy_ProcessFrame(::UnityEngine::Playables::Playable a1, ::UnityEngine::Playables::FrameData a2, ::System::Object* a3)
-		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Playables::Playable, ::UnityEngine::Playables::FrameData, ::System::Object*))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_POSTPROCESSING_DOFTIMELINEBEHAVIOUR___IFIXBASEPROXY_PROCESSFRAME_OFFSET))(this, a1, a2, a3);
 		}
 	};
 }

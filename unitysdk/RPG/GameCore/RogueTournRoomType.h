@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RogueTournRoomType_TypeDefinitionIndex = 10226;
+	inline static constexpr unsigned int RogueTournRoomType_TypeDefinitionIndex = 10247;
 
 	enum class RogueTournRoomType : ::System::Int32
 	{

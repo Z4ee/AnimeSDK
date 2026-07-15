@@ -5,11 +5,11 @@
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define ZENFULCRUM_EMBEDDEDBROWSER_WEBRESOURCES_RESPONSEPREAMBLE__CTOR_OFFSET UNITYSDK_OFFSET(0x1B50AC60)
+#define ZENFULCRUM_EMBEDDEDBROWSER_WEBRESOURCES_RESPONSEPREAMBLE__CTOR_OFFSET UNITYSDK_OFFSET(0x1BBEBA60)
 
 namespace ZenFulcrum::EmbeddedBrowser
 {
-	inline static constexpr unsigned int WebResources_ResponsePreamble_TypeDefinitionIndex = 36635;
+	inline static constexpr unsigned int WebResources_ResponsePreamble_TypeDefinitionIndex = 37417;
 
 	class WebResources_ResponsePreamble : public ::System::Object
 	{

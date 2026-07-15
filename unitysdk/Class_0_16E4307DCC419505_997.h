@@ -1,11 +1,13 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/RPG/GameCore/CrosshairType.h"
+#include "unitysdk/Class_1_CD9533418F3B6F39_VCameraType.h"
+#include "unitysdk/UnityEngine/Vector3.h"
 
-class Class_1_9CAA42EF32347EE5_4;
 namespace System { class String; }
+namespace UnityEngine { class GameObject; }
+namespace UnityEngine { class Transform; }
 
-inline static constexpr unsigned int Class_0_16E4307DCC419505_997_TypeDefinitionIndex = 66904;
+inline static constexpr unsigned int Class_0_16E4307DCC419505_997_TypeDefinitionIndex = 66614;
 
 class Class_0_16E4307DCC419505_997
 {

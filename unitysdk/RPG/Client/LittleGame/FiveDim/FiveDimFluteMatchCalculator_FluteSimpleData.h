@@ -6,7 +6,7 @@ namespace System { class String; }
 
 namespace RPG::Client::LittleGame::FiveDim
 {
-	inline static constexpr unsigned int FiveDimFluteMatchCalculator_FluteSimpleData_TypeDefinitionIndex = 71742;
+	inline static constexpr unsigned int FiveDimFluteMatchCalculator_FluteSimpleData_TypeDefinitionIndex = 73267;
 
 	struct alignas(8) FiveDimFluteMatchCalculator_FluteSimpleData
 	{

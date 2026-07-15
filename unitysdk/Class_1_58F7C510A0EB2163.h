@@ -3,18 +3,18 @@
 #include "unitysdk/RPG/GCFreeClosure/FuncClosureR_1.h"
 #include "unitysdk/System/Object.h"
 
-class Class_0_16E4307DCC419505_258;
+class Class_0_16E4307DCC419505_278;
 namespace RPG { template <typename T> class PoolList_1; }
 
-#define CLASS_1_58F7C510A0EB2163_CLEAR_OFFSET UNITYSDK_OFFSET(0x18CF4740)
-#define CLASS_1_58F7C510A0EB2163__CTOR_OFFSET UNITYSDK_OFFSET(0x18CF48E0)
+#define CLASS_1_58F7C510A0EB2163_CLEAR_OFFSET UNITYSDK_OFFSET(0x1A8FB320)
+#define CLASS_1_58F7C510A0EB2163__CTOR_OFFSET UNITYSDK_OFFSET(0x1A8FB4C0)
 
-inline static constexpr unsigned int Class_1_58F7C510A0EB2163_TypeDefinitionIndex = 40236;
+inline static constexpr unsigned int Class_1_58F7C510A0EB2163_TypeDefinitionIndex = 41051;
 
 class Class_1_58F7C510A0EB2163 : public ::System::Object
 {
 public:
-	::RPG::PoolList_1<::Class_0_16E4307DCC419505_258*>* Field_1_0; // 0x10
+	::RPG::PoolList_1<::Class_0_16E4307DCC419505_278*>* Field_1_0; // 0x10
 	::RPG::GCFreeClosure::FuncClosureR_1<::System::Boolean> Field_1_1; // 0x18
 	::System::UInt32 Field_1_2; // 0xA8
 	::System::Boolean Field_1_3; // 0xAC

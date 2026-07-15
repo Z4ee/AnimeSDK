@@ -4,7 +4,7 @@
 
 namespace System::Net::NetworkInformation
 {
-	inline static constexpr unsigned int Win32_SOCKET_ADDRESS_TypeDefinitionIndex = 2958;
+	inline static constexpr unsigned int Win32_SOCKET_ADDRESS_TypeDefinitionIndex = 2962;
 
 	struct alignas(8) Win32_SOCKET_ADDRESS
 	{

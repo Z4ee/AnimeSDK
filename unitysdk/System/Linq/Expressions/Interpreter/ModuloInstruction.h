@@ -5,50 +5,50 @@
 namespace System { class String; }
 namespace System { class Type; }
 
-#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_MODULOINSTRUCTION_CREATE_OFFSET UNITYSDK_OFFSET(0x1ADA10E0)
-#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_MODULOINSTRUCTION_GET_CONSUMEDSTACK_OFFSET UNITYSDK_OFFSET(0x1ADA1070)
-#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_MODULOINSTRUCTION_GET_INSTRUCTIONNAME_OFFSET UNITYSDK_OFFSET(0x1ADA1090)
-#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_MODULOINSTRUCTION_GET_PRODUCEDSTACK_OFFSET UNITYSDK_OFFSET(0x1ADA1080)
-#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_MODULOINSTRUCTION__CTOR_OFFSET UNITYSDK_OFFSET(0x1ADA10D0)
+#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_MODULOINSTRUCTION_CREATE_OFFSET UNITYSDK_OFFSET(0x1C1B2D50)
+#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_MODULOINSTRUCTION_GET_CONSUMEDSTACK_OFFSET UNITYSDK_OFFSET(0x1C1B2CE0)
+#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_MODULOINSTRUCTION_GET_INSTRUCTIONNAME_OFFSET UNITYSDK_OFFSET(0x1C1B2D00)
+#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_MODULOINSTRUCTION_GET_PRODUCEDSTACK_OFFSET UNITYSDK_OFFSET(0x1C1B2CF0)
+#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_MODULOINSTRUCTION__CTOR_OFFSET UNITYSDK_OFFSET(0x1C1B2D40)
 
 namespace System::Linq::Expressions::Interpreter
 {
-	inline static constexpr unsigned int ModuloInstruction_TypeDefinitionIndex = 3510;
+	inline static constexpr unsigned int ModuloInstruction_TypeDefinitionIndex = 3514;
 
 	class ModuloInstruction : public ::System::Linq::Expressions::Interpreter::Instruction
 	{
 	public:
-		static ::System::Linq::Expressions::Interpreter::Instruction** StaticGet_s_UInt32()
-		{
-			return (::System::Linq::Expressions::Interpreter::Instruction**)Il2CppClass::FromTypeDefinitionIndex(ModuloInstruction_TypeDefinitionIndex)->GetStaticField(0x2B9B0);
-		}
-		static ::System::Linq::Expressions::Interpreter::Instruction** StaticGet_s_UInt64()
-		{
-			return (::System::Linq::Expressions::Interpreter::Instruction**)Il2CppClass::FromTypeDefinitionIndex(ModuloInstruction_TypeDefinitionIndex)->GetStaticField(0x2B9B8);
-		}
 		static ::System::Linq::Expressions::Interpreter::Instruction** StaticGet_s_Int16()
 		{
-			return (::System::Linq::Expressions::Interpreter::Instruction**)Il2CppClass::FromTypeDefinitionIndex(ModuloInstruction_TypeDefinitionIndex)->GetStaticField(0x2B9C0);
-		}
-		static ::System::Linq::Expressions::Interpreter::Instruction** StaticGet_s_UInt16()
-		{
-			return (::System::Linq::Expressions::Interpreter::Instruction**)Il2CppClass::FromTypeDefinitionIndex(ModuloInstruction_TypeDefinitionIndex)->GetStaticField(0x2B9C8);
-		}
-		static ::System::Linq::Expressions::Interpreter::Instruction** StaticGet_s_Int32()
-		{
-			return (::System::Linq::Expressions::Interpreter::Instruction**)Il2CppClass::FromTypeDefinitionIndex(ModuloInstruction_TypeDefinitionIndex)->GetStaticField(0x2B9D0);
-		}
-		static ::System::Linq::Expressions::Interpreter::Instruction** StaticGet_s_Double()
-		{
-			return (::System::Linq::Expressions::Interpreter::Instruction**)Il2CppClass::FromTypeDefinitionIndex(ModuloInstruction_TypeDefinitionIndex)->GetStaticField(0x2B9D8);
+			return (::System::Linq::Expressions::Interpreter::Instruction**)Il2CppClass::FromTypeDefinitionIndex(ModuloInstruction_TypeDefinitionIndex)->GetStaticField(0x34240);
 		}
 		static ::System::Linq::Expressions::Interpreter::Instruction** StaticGet_s_Int64()
 		{
-			return (::System::Linq::Expressions::Interpreter::Instruction**)Il2CppClass::FromTypeDefinitionIndex(ModuloInstruction_TypeDefinitionIndex)->GetStaticField(0x2B9E0);
+			return (::System::Linq::Expressions::Interpreter::Instruction**)Il2CppClass::FromTypeDefinitionIndex(ModuloInstruction_TypeDefinitionIndex)->GetStaticField(0x34248);
 		}
 		static ::System::Linq::Expressions::Interpreter::Instruction** StaticGet_s_Single()
 		{
-			return (::System::Linq::Expressions::Interpreter::Instruction**)Il2CppClass::FromTypeDefinitionIndex(ModuloInstruction_TypeDefinitionIndex)->GetStaticField(0x2B9E8);
+			return (::System::Linq::Expressions::Interpreter::Instruction**)Il2CppClass::FromTypeDefinitionIndex(ModuloInstruction_TypeDefinitionIndex)->GetStaticField(0x34250);
+		}
+		static ::System::Linq::Expressions::Interpreter::Instruction** StaticGet_s_UInt32()
+		{
+			return (::System::Linq::Expressions::Interpreter::Instruction**)Il2CppClass::FromTypeDefinitionIndex(ModuloInstruction_TypeDefinitionIndex)->GetStaticField(0x34258);
+		}
+		static ::System::Linq::Expressions::Interpreter::Instruction** StaticGet_s_UInt64()
+		{
+			return (::System::Linq::Expressions::Interpreter::Instruction**)Il2CppClass::FromTypeDefinitionIndex(ModuloInstruction_TypeDefinitionIndex)->GetStaticField(0x34260);
+		}
+		static ::System::Linq::Expressions::Interpreter::Instruction** StaticGet_s_Int32()
+		{
+			return (::System::Linq::Expressions::Interpreter::Instruction**)Il2CppClass::FromTypeDefinitionIndex(ModuloInstruction_TypeDefinitionIndex)->GetStaticField(0x34268);
+		}
+		static ::System::Linq::Expressions::Interpreter::Instruction** StaticGet_s_UInt16()
+		{
+			return (::System::Linq::Expressions::Interpreter::Instruction**)Il2CppClass::FromTypeDefinitionIndex(ModuloInstruction_TypeDefinitionIndex)->GetStaticField(0x34270);
+		}
+		static ::System::Linq::Expressions::Interpreter::Instruction** StaticGet_s_Double()
+		{
+			return (::System::Linq::Expressions::Interpreter::Instruction**)Il2CppClass::FromTypeDefinitionIndex(ModuloInstruction_TypeDefinitionIndex)->GetStaticField(0x34278);
 		}
 
 		::System::Void _ctor()

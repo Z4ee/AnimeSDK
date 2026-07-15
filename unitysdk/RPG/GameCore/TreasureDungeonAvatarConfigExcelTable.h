@@ -11,45 +11,45 @@ namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Concurrent { template <typename T1, typename T2> class ConcurrentDictionary_2; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_TREASUREDUNGEONAVATARCONFIGEXCELTABLE_GETDATA_OFFSET UNITYSDK_OFFSET(0x19E028E0)
-#define RPG_GAMECORE_TREASUREDUNGEONAVATARCONFIGEXCELTABLE_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x19E02770)
-#define RPG_GAMECORE_TREASUREDUNGEONAVATARCONFIGEXCELTABLE_GET_DATADICT_OFFSET UNITYSDK_OFFSET(0x19E02460)
-#define RPG_GAMECORE_TREASUREDUNGEONAVATARCONFIGEXCELTABLE_ISDATAEMPTY_OFFSET UNITYSDK_OFFSET(0x19E02710)
-#define RPG_GAMECORE_TREASUREDUNGEONAVATARCONFIGEXCELTABLE_ISDATALOADED_OFFSET UNITYSDK_OFFSET(0x19E02A70)
-#define RPG_GAMECORE_TREASUREDUNGEONAVATARCONFIGEXCELTABLE_LOADDATA_OFFSET UNITYSDK_OFFSET(0x19E024E0)
-#define RPG_GAMECORE_TREASUREDUNGEONAVATARCONFIGEXCELTABLE_UNLOADDATA_OFFSET UNITYSDK_OFFSET(0x19E02AB0)
-#define RPG_GAMECORE_TREASUREDUNGEONAVATARCONFIGEXCELTABLE__ADDITEMFROMBINARY_OFFSET UNITYSDK_OFFSET(0x19E02C80)
-#define RPG_GAMECORE_TREASUREDUNGEONAVATARCONFIGEXCELTABLE__ADDITEM_OFFSET UNITYSDK_OFFSET(0x19E03050)
-#define RPG_GAMECORE_TREASUREDUNGEONAVATARCONFIGEXCELTABLE__CCTOR_OFFSET UNITYSDK_OFFSET(0x19E033C0)
-#define RPG_GAMECORE_TREASUREDUNGEONAVATARCONFIGEXCELTABLE__LOADDATAINCREMENTIAL_OFFSET UNITYSDK_OFFSET(0x19E02BE0)
-#define RPG_GAMECORE_TREASUREDUNGEONAVATARCONFIGEXCELTABLE__LOADDATA_OFFSET UNITYSDK_OFFSET(0x19E02B40)
+#define RPG_GAMECORE_TREASUREDUNGEONAVATARCONFIGEXCELTABLE_GETDATA_OFFSET UNITYSDK_OFFSET(0x1B040820)
+#define RPG_GAMECORE_TREASUREDUNGEONAVATARCONFIGEXCELTABLE_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x1B0406B0)
+#define RPG_GAMECORE_TREASUREDUNGEONAVATARCONFIGEXCELTABLE_GET_DATADICT_OFFSET UNITYSDK_OFFSET(0x1B0403A0)
+#define RPG_GAMECORE_TREASUREDUNGEONAVATARCONFIGEXCELTABLE_ISDATAEMPTY_OFFSET UNITYSDK_OFFSET(0x1B040650)
+#define RPG_GAMECORE_TREASUREDUNGEONAVATARCONFIGEXCELTABLE_ISDATALOADED_OFFSET UNITYSDK_OFFSET(0x1B0409B0)
+#define RPG_GAMECORE_TREASUREDUNGEONAVATARCONFIGEXCELTABLE_LOADDATA_OFFSET UNITYSDK_OFFSET(0x1B040420)
+#define RPG_GAMECORE_TREASUREDUNGEONAVATARCONFIGEXCELTABLE_UNLOADDATA_OFFSET UNITYSDK_OFFSET(0x1B0409F0)
+#define RPG_GAMECORE_TREASUREDUNGEONAVATARCONFIGEXCELTABLE__ADDITEMFROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B040BC0)
+#define RPG_GAMECORE_TREASUREDUNGEONAVATARCONFIGEXCELTABLE__ADDITEM_OFFSET UNITYSDK_OFFSET(0x1B040F90)
+#define RPG_GAMECORE_TREASUREDUNGEONAVATARCONFIGEXCELTABLE__CCTOR_OFFSET UNITYSDK_OFFSET(0x1B041300)
+#define RPG_GAMECORE_TREASUREDUNGEONAVATARCONFIGEXCELTABLE__LOADDATAINCREMENTIAL_OFFSET UNITYSDK_OFFSET(0x1B040B20)
+#define RPG_GAMECORE_TREASUREDUNGEONAVATARCONFIGEXCELTABLE__LOADDATA_OFFSET UNITYSDK_OFFSET(0x1B040A80)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TreasureDungeonAvatarConfigExcelTable_TypeDefinitionIndex = 11932;
+	inline static constexpr unsigned int TreasureDungeonAvatarConfigExcelTable_TypeDefinitionIndex = 12064;
 
 	class TreasureDungeonAvatarConfigExcelTable : public ::System::Object
 	{
 	public:
-		static ::System::Action_1<::Class_1_7A22A3DBEEDD1F80*>** StaticGet__AddItemFromBinary_ActionInst()
-		{
-			return (::System::Action_1<::Class_1_7A22A3DBEEDD1F80*>**)Il2CppClass::FromTypeDefinitionIndex(TreasureDungeonAvatarConfigExcelTable_TypeDefinitionIndex)->GetStaticField(0x7320);
-		}
 		static ::Il2CppArray<::System::String*>** StaticGet_s_PathList()
 		{
-			return (::Il2CppArray<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(TreasureDungeonAvatarConfigExcelTable_TypeDefinitionIndex)->GetStaticField(0x7328);
+			return (::Il2CppArray<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(TreasureDungeonAvatarConfigExcelTable_TypeDefinitionIndex)->GetStaticField(0xDB70);
+		}
+		static ::System::Action_1<::Class_1_7A22A3DBEEDD1F80*>** StaticGet__AddItemFromBinary_ActionInst()
+		{
+			return (::System::Action_1<::Class_1_7A22A3DBEEDD1F80*>**)Il2CppClass::FromTypeDefinitionIndex(TreasureDungeonAvatarConfigExcelTable_TypeDefinitionIndex)->GetStaticField(0xDB78);
 		}
 		static ::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::TreasureDungeonAvatarConfigRow*>** StaticGet_dataDict_()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::TreasureDungeonAvatarConfigRow*>**)Il2CppClass::FromTypeDefinitionIndex(TreasureDungeonAvatarConfigExcelTable_TypeDefinitionIndex)->GetStaticField(0x7330);
+			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::TreasureDungeonAvatarConfigRow*>**)Il2CppClass::FromTypeDefinitionIndex(TreasureDungeonAvatarConfigExcelTable_TypeDefinitionIndex)->GetStaticField(0xDB80);
 		}
 		static ::System::Byte* StaticGet_HashIndex()
 		{
-			return (::System::Byte*)Il2CppClass::FromTypeDefinitionIndex(TreasureDungeonAvatarConfigExcelTable_TypeDefinitionIndex)->GetStaticField(0x3510);
+			return (::System::Byte*)Il2CppClass::FromTypeDefinitionIndex(TreasureDungeonAvatarConfigExcelTable_TypeDefinitionIndex)->GetStaticField(0x4CC0);
 		}
 		static ::System::Boolean* StaticGet_isDataLoaded()
 		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(TreasureDungeonAvatarConfigExcelTable_TypeDefinitionIndex)->GetStaticField(0x3511);
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(TreasureDungeonAvatarConfigExcelTable_TypeDefinitionIndex)->GetStaticField(0x4CC1);
 		}
 
 		static ::System::Void _cctor()

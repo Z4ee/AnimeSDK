@@ -7,7 +7,7 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int AvatarOutfit_IServerAgent_TypeDefinitionIndex = 58463;
+	inline static constexpr unsigned int AvatarOutfit_IServerAgent_TypeDefinitionIndex = 59733;
 
 	class AvatarOutfit_IServerAgent
 	{

@@ -6,13 +6,13 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class TargetEvaluator; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_ADVTRIGGERSKILL_METHOD_3_10A52346A22F4FB0_OFFSET UNITYSDK_OFFSET(0x1943BE30)
-#define RPG_GAMECORE_ADVTRIGGERSKILL_METHOD_3_5B9C1487254F8CBF_OFFSET UNITYSDK_OFFSET(0x1943BDB0)
-#define RPG_GAMECORE_ADVTRIGGERSKILL__CTOR_OFFSET UNITYSDK_OFFSET(0x1943BE00)
+#define RPG_GAMECORE_ADVTRIGGERSKILL_METHOD_3_10A52346A22F4FB0_OFFSET UNITYSDK_OFFSET(0x1AE49C60)
+#define RPG_GAMECORE_ADVTRIGGERSKILL_METHOD_3_D3C98F249CEBBD8D_OFFSET UNITYSDK_OFFSET(0x1AE49C20)
+#define RPG_GAMECORE_ADVTRIGGERSKILL__CTOR_OFFSET UNITYSDK_OFFSET(0x1AE49C50)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AdvTriggerSkill_TypeDefinitionIndex = 19395;
+	inline static constexpr unsigned int AdvTriggerSkill_TypeDefinitionIndex = 19751;
 
 	class AdvTriggerSkill : public ::RPG::GameCore::TaskConfig
 	{
@@ -26,9 +26,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVTRIGGERSKILL__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_5B9C1487254F8CBF(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AdvTriggerSkill*& a2)
+		static ::System::Void Method_3_D3C98F249CEBBD8D(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AdvTriggerSkill*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::AdvTriggerSkill*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVTRIGGERSKILL_METHOD_3_5B9C1487254F8CBF_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::AdvTriggerSkill*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVTRIGGERSKILL_METHOD_3_D3C98F249CEBBD8D_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_10A52346A22F4FB0(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AdvTriggerSkill* a2)

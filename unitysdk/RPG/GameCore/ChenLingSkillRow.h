@@ -6,18 +6,18 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_CHENLINGSKILLROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1962F970)
-#define RPG_GAMECORE_CHENLINGSKILLROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1962FAD0)
+#define RPG_GAMECORE_CHENLINGSKILLROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1C389CD0)
+#define RPG_GAMECORE_CHENLINGSKILLROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1C389E30)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ChenLingSkillRow_TypeDefinitionIndex = 10598;
+	inline static constexpr unsigned int ChenLingSkillRow_TypeDefinitionIndex = 10648;
 
 	class ChenLingSkillRow : public ::System::Object
 	{
 	public:
-		::Il2CppArray<::RPG::GameCore::FixPoint>* SkillParamList; // 0x10
-		::System::String* SkillJsonConfig; // 0x18
+		::System::String* SkillJsonConfig; // 0x10
+		::Il2CppArray<::RPG::GameCore::FixPoint>* SkillParamList; // 0x18
 		::System::UInt32 ID; // 0x20
 
 		::System::Void _ctor()

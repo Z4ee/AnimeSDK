@@ -7,9 +7,9 @@
 namespace RPG::GameCore { class PossessionConfigRow; }
 namespace System { class String; }
 
-#define STRUCT_2_E98D2D9BCC3C4006__CTOR_OFFSET UNITYSDK_OFFSET(0x7A3A0)
+#define STRUCT_2_E98D2D9BCC3C4006__CTOR_OFFSET UNITYSDK_OFFSET(0x395F5F0)
 
-inline static constexpr unsigned int Struct_2_E98D2D9BCC3C4006_TypeDefinitionIndex = 64785;
+inline static constexpr unsigned int Struct_2_E98D2D9BCC3C4006_TypeDefinitionIndex = 66186;
 
 struct alignas(8) Struct_2_E98D2D9BCC3C4006
 {

@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define RPG_CLIENT_LITTLEGAME_FLIPCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x18CDA320)
+#define RPG_CLIENT_LITTLEGAME_FLIPCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1C591520)
 
 namespace RPG::Client::LittleGame
 {
-	inline static constexpr unsigned int FlipConfig_TypeDefinitionIndex = 39349;
+	inline static constexpr unsigned int FlipConfig_TypeDefinitionIndex = 40158;
 
 	class FlipConfig : public ::System::Object
 	{

@@ -1,12 +1,10 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/Struct_2_F1C4ECC5EFDCA1EF.h"
 
-namespace RPG::Client { class FateGameData; }
-namespace RPG::Client { class IFateGameMasterInfoItem; }
-namespace RPG::Client { class IFateGameRoundSettleDmgSourceItem; }
-namespace System::Collections::Generic { template <typename T> class List_1; }
+namespace System::Collections::Generic { template <typename T> class IReadOnlyCollection_1; }
 
-inline static constexpr unsigned int Class_0_16E4307DCC419505_756_TypeDefinitionIndex = 59862;
+inline static constexpr unsigned int Class_0_16E4307DCC419505_756_TypeDefinitionIndex = 60015;
 
 class Class_0_16E4307DCC419505_756
 {

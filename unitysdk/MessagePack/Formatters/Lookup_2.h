@@ -10,7 +10,7 @@ namespace System::Linq { template <typename T1, typename T2> class IGrouping_2; 
 
 namespace MessagePack::Formatters
 {
-	inline static constexpr unsigned int Lookup_2_TypeDefinitionIndex = 7353;
+	inline static constexpr unsigned int Lookup_2_TypeDefinitionIndex = 7359;
 
 	template <typename TKey, typename TElement>
 	class Lookup_2 : public ::System::Object

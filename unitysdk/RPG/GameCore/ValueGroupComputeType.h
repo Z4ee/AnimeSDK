@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ValueGroupComputeType_TypeDefinitionIndex = 23440;
+	inline static constexpr unsigned int ValueGroupComputeType_TypeDefinitionIndex = 23929;
 
 	enum class ValueGroupComputeType : ::System::Int32
 	{

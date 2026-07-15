@@ -8,12 +8,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_MATERIALPROPERTYCONFIG_METHOD_2_8679A6A675998319_OFFSET UNITYSDK_OFFSET(0x198F7F30)
-#define RPG_GAMECORE_MATERIALPROPERTYCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x198F8120)
+#define RPG_GAMECORE_MATERIALPROPERTYCONFIG_METHOD_2_8BB0DDAB1B8A86D0_OFFSET UNITYSDK_OFFSET(0x1AF41DB0)
+#define RPG_GAMECORE_MATERIALPROPERTYCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1AF41FC0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MaterialPropertyConfig_TypeDefinitionIndex = 15687;
+	inline static constexpr unsigned int MaterialPropertyConfig_TypeDefinitionIndex = 15860;
 
 	class MaterialPropertyConfig : public ::RPG::GameCore::JsonConfig
 	{
@@ -29,9 +29,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MATERIALPROPERTYCONFIG__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_8679A6A675998319(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::MaterialPropertyConfig*& a2)
+		static ::System::Void Method_2_8BB0DDAB1B8A86D0(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::MaterialPropertyConfig*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::MaterialPropertyConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MATERIALPROPERTYCONFIG_METHOD_2_8679A6A675998319_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::MaterialPropertyConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MATERIALPROPERTYCONFIG_METHOD_2_8BB0DDAB1B8A86D0_OFFSET))(a1, a2);
 		}
 	};
 }

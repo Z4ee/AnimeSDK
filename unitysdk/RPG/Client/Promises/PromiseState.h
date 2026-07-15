@@ -3,7 +3,7 @@
 
 namespace RPG::Client::Promises
 {
-	inline static constexpr unsigned int PromiseState_TypeDefinitionIndex = 9526;
+	inline static constexpr unsigned int PromiseState_TypeDefinitionIndex = 9538;
 
 	enum class PromiseState : ::System::Int32
 	{

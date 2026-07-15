@@ -5,12 +5,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_CHIMERADUELMASTERCHALLENGEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1963FF70)
-#define RPG_GAMECORE_CHIMERADUELMASTERCHALLENGEROW__CTOR_OFFSET UNITYSDK_OFFSET(0x19640180)
+#define RPG_GAMECORE_CHIMERADUELMASTERCHALLENGEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1C2416E0)
+#define RPG_GAMECORE_CHIMERADUELMASTERCHALLENGEROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1C2418F0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ChimeraDuelMasterChallengeRow_TypeDefinitionIndex = 10712;
+	inline static constexpr unsigned int ChimeraDuelMasterChallengeRow_TypeDefinitionIndex = 10762;
 
 	class ChimeraDuelMasterChallengeRow : public ::System::Object
 	{

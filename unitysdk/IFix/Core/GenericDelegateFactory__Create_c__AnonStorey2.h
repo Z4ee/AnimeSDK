@@ -7,18 +7,18 @@ namespace IFix::Core { class GenericDelegateFactory__Create_c__AnonStorey0; }
 namespace System { class Delegate; }
 namespace System::Reflection { class MethodInfo; }
 
-#define IFIX_CORE_GENERICDELEGATEFACTORY__CREATE_C__ANONSTOREY2__CTOR_OFFSET UNITYSDK_OFFSET(0x17F8BA20)
-#define IFIX_CORE_GENERICDELEGATEFACTORY__CREATE_C__ANONSTOREY2___M__0_OFFSET UNITYSDK_OFFSET(0x17F8BD00)
+#define IFIX_CORE_GENERICDELEGATEFACTORY__CREATE_C__ANONSTOREY2__CTOR_OFFSET UNITYSDK_OFFSET(0x1B5388F0)
+#define IFIX_CORE_GENERICDELEGATEFACTORY__CREATE_C__ANONSTOREY2___M__0_OFFSET UNITYSDK_OFFSET(0x1B538F60)
 
 namespace IFix::Core
 {
-	inline static constexpr unsigned int GenericDelegateFactory__Create_c__AnonStorey2_TypeDefinitionIndex = 9761;
+	inline static constexpr unsigned int GenericDelegateFactory__Create_c__AnonStorey2_TypeDefinitionIndex = 9775;
 
 	class GenericDelegateFactory__Create_c__AnonStorey2 : public ::System::Object
 	{
 	public:
-		::System::Reflection::MethodInfo* methodInfo; // 0x10
-		::IFix::Core::GenericDelegateFactory__Create_c__AnonStorey0* __f__ref_0; // 0x18
+		::IFix::Core::GenericDelegateFactory__Create_c__AnonStorey0* __f__ref_0; // 0x10
+		::System::Reflection::MethodInfo* methodInfo; // 0x18
 
 		::System::Void _ctor()
 		{

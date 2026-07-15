@@ -7,13 +7,13 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class DynamicFloat; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_SETREPORTCUSTOMVALUE_METHOD_3_13C3F03F8F06AC9C_OFFSET UNITYSDK_OFFSET(0x19C5CB60)
-#define RPG_GAMECORE_SETREPORTCUSTOMVALUE_METHOD_3_DE7A57B1D9F20BFD_OFFSET UNITYSDK_OFFSET(0x19C5CBF0)
-#define RPG_GAMECORE_SETREPORTCUSTOMVALUE__CTOR_OFFSET UNITYSDK_OFFSET(0x19C5CBC0)
+#define RPG_GAMECORE_SETREPORTCUSTOMVALUE_METHOD_3_9AEA451F670AC114_OFFSET UNITYSDK_OFFSET(0x1C606820)
+#define RPG_GAMECORE_SETREPORTCUSTOMVALUE_METHOD_3_DE7A57B1D9F20BFD_OFFSET UNITYSDK_OFFSET(0x1C606870)
+#define RPG_GAMECORE_SETREPORTCUSTOMVALUE__CTOR_OFFSET UNITYSDK_OFFSET(0x1C606860)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SetReportCustomValue_TypeDefinitionIndex = 22367;
+	inline static constexpr unsigned int SetReportCustomValue_TypeDefinitionIndex = 22809;
 
 	class SetReportCustomValue : public ::RPG::GameCore::TaskConfig
 	{
@@ -27,9 +27,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETREPORTCUSTOMVALUE__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_13C3F03F8F06AC9C(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SetReportCustomValue*& a2)
+		static ::System::Void Method_3_9AEA451F670AC114(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SetReportCustomValue*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SetReportCustomValue*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETREPORTCUSTOMVALUE_METHOD_3_13C3F03F8F06AC9C_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SetReportCustomValue*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETREPORTCUSTOMVALUE_METHOD_3_9AEA451F670AC114_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_DE7A57B1D9F20BFD(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SetReportCustomValue* a2)

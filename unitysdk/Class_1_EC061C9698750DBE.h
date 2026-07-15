@@ -7,15 +7,15 @@ namespace RPG::Client { class FlexibleLayoutGroup; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace UnityEngine { class RectTransform; }
 
-#define CLASS_1_EC061C9698750DBE_METHOD_1_05B00B3640B6EF22_OFFSET UNITYSDK_OFFSET(0xA4DAE60)
-#define CLASS_1_EC061C9698750DBE_METHOD_1_5203AD37BF8E7CD7_OFFSET UNITYSDK_OFFSET(0xA4DAE80)
-#define CLASS_1_EC061C9698750DBE_METHOD_1_F0088C88851A7DFB_1_OFFSET UNITYSDK_OFFSET(0xA4DAE10)
-#define CLASS_1_EC061C9698750DBE_METHOD_1_F0088C88851A7DFB_OFFSET UNITYSDK_OFFSET(0xA4DAE00)
-#define CLASS_1_EC061C9698750DBE_METHOD_1_F5599B7DA8E7E53C_1_OFFSET UNITYSDK_OFFSET(0xA4DAE40)
-#define CLASS_1_EC061C9698750DBE_METHOD_1_F5599B7DA8E7E53C_OFFSET UNITYSDK_OFFSET(0xA4DAE20)
-#define CLASS_1_EC061C9698750DBE__CTOR_OFFSET UNITYSDK_OFFSET(0xA4DADE0)
+#define CLASS_1_EC061C9698750DBE_METHOD_1_2AF2955D647E74C4_OFFSET UNITYSDK_OFFSET(0x1525CB50)
+#define CLASS_1_EC061C9698750DBE_METHOD_1_391A84BCD9F51317_1_OFFSET UNITYSDK_OFFSET(0x1525C9C0)
+#define CLASS_1_EC061C9698750DBE_METHOD_1_391A84BCD9F51317_OFFSET UNITYSDK_OFFSET(0x1525C980)
+#define CLASS_1_EC061C9698750DBE_METHOD_1_EB5DBAA6F96AF9C9_OFFSET UNITYSDK_OFFSET(0x1525CAE0)
+#define CLASS_1_EC061C9698750DBE_METHOD_1_F026F9F94BAA5E1F_1_OFFSET UNITYSDK_OFFSET(0x1525CA70)
+#define CLASS_1_EC061C9698750DBE_METHOD_1_F026F9F94BAA5E1F_OFFSET UNITYSDK_OFFSET(0x1525CA00)
+#define CLASS_1_EC061C9698750DBE__CTOR_OFFSET UNITYSDK_OFFSET(0x1525C960)
 
-inline static constexpr unsigned int Class_1_EC061C9698750DBE_TypeDefinitionIndex = 67897;
+inline static constexpr unsigned int Class_1_EC061C9698750DBE_TypeDefinitionIndex = 69381;
 
 class Class_1_EC061C9698750DBE : public ::System::Object
 {
@@ -27,33 +27,33 @@ public:
 		return ((::System::Void(*)(::PVOID, ::RPG::Client::FlexibleLayoutGroup*))((::PBYTE)hIl2Cpp + CLASS_1_EC061C9698750DBE__CTOR_OFFSET))(this, a1);
 	}
 
-	::System::Boolean Method_1_F0088C88851A7DFB()
+	::System::Boolean Method_1_391A84BCD9F51317()
 	{
-		return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_EC061C9698750DBE_METHOD_1_F0088C88851A7DFB_OFFSET))(this);
+		return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_EC061C9698750DBE_METHOD_1_391A84BCD9F51317_OFFSET))(this);
 	}
 
-	::System::Boolean Method_1_F0088C88851A7DFB_1()
+	::System::Boolean Method_1_391A84BCD9F51317_1()
 	{
-		return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_EC061C9698750DBE_METHOD_1_F0088C88851A7DFB_1_OFFSET))(this);
+		return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_EC061C9698750DBE_METHOD_1_391A84BCD9F51317_1_OFFSET))(this);
 	}
 
-	::System::Int32 Method_1_F5599B7DA8E7E53C()
+	::System::Int32 Method_1_F026F9F94BAA5E1F()
 	{
-		return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_EC061C9698750DBE_METHOD_1_F5599B7DA8E7E53C_OFFSET))(this);
+		return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_EC061C9698750DBE_METHOD_1_F026F9F94BAA5E1F_OFFSET))(this);
 	}
 
-	::System::Int32 Method_1_F5599B7DA8E7E53C_1()
+	::System::Int32 Method_1_F026F9F94BAA5E1F_1()
 	{
-		return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_EC061C9698750DBE_METHOD_1_F5599B7DA8E7E53C_1_OFFSET))(this);
+		return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_EC061C9698750DBE_METHOD_1_F026F9F94BAA5E1F_1_OFFSET))(this);
 	}
 
-	::System::Collections::Generic::Dictionary_2<::UnityEngine::UI::GridLayoutGroup_RowColumnPair, ::UnityEngine::RectTransform*>* Method_1_05B00B3640B6EF22()
+	::System::Collections::Generic::Dictionary_2<::UnityEngine::UI::GridLayoutGroup_RowColumnPair, ::UnityEngine::RectTransform*>* Method_1_EB5DBAA6F96AF9C9()
 	{
-		return ((::System::Collections::Generic::Dictionary_2<::UnityEngine::UI::GridLayoutGroup_RowColumnPair, ::UnityEngine::RectTransform*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_EC061C9698750DBE_METHOD_1_05B00B3640B6EF22_OFFSET))(this);
+		return ((::System::Collections::Generic::Dictionary_2<::UnityEngine::UI::GridLayoutGroup_RowColumnPair, ::UnityEngine::RectTransform*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_EC061C9698750DBE_METHOD_1_EB5DBAA6F96AF9C9_OFFSET))(this);
 	}
 
-	::System::Collections::Generic::Dictionary_2<::System::Int32, ::UnityEngine::UI::GridLayoutGroup_RowColumnPair>* Method_1_5203AD37BF8E7CD7()
+	::System::Collections::Generic::Dictionary_2<::System::Int32, ::UnityEngine::UI::GridLayoutGroup_RowColumnPair>* Method_1_2AF2955D647E74C4()
 	{
-		return ((::System::Collections::Generic::Dictionary_2<::System::Int32, ::UnityEngine::UI::GridLayoutGroup_RowColumnPair>*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_EC061C9698750DBE_METHOD_1_5203AD37BF8E7CD7_OFFSET))(this);
+		return ((::System::Collections::Generic::Dictionary_2<::System::Int32, ::UnityEngine::UI::GridLayoutGroup_RowColumnPair>*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_EC061C9698750DBE_METHOD_1_2AF2955D647E74C4_OFFSET))(this);
 	}
 };

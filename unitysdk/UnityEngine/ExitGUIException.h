@@ -4,12 +4,12 @@
 
 namespace System { class String; }
 
-#define UNITYENGINE_EXITGUIEXCEPTION__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1B2ED850)
-#define UNITYENGINE_EXITGUIEXCEPTION__CTOR_OFFSET UNITYSDK_OFFSET(0x1B2ED7F0)
+#define UNITYENGINE_EXITGUIEXCEPTION__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1AEB57F0)
+#define UNITYENGINE_EXITGUIEXCEPTION__CTOR_OFFSET UNITYSDK_OFFSET(0x1AEB5790)
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int ExitGUIException_TypeDefinitionIndex = 5231;
+	inline static constexpr unsigned int ExitGUIException_TypeDefinitionIndex = 5236;
 
 	class ExitGUIException : public ::System::Exception
 	{

@@ -6,29 +6,29 @@ namespace HoudiniEngineUnity { class Test_Material; }
 namespace System { template <typename T1, typename T2> class Converter_2; }
 namespace UnityEngine { class Material; }
 
-#define HOUDINIENGINEUNITY_TEST_MATERIAL_EXTENSIONS___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x17F81700)
-#define HOUDINIENGINEUNITY_TEST_MATERIAL_EXTENSIONS___C__CTOR_OFFSET UNITYSDK_OFFSET(0x17F81740)
-#define HOUDINIENGINEUNITY_TEST_MATERIAL_EXTENSIONS___C__TOTESTOBJECT_B__1_0_OFFSET UNITYSDK_OFFSET(0x17F81750)
-#define HOUDINIENGINEUNITY_TEST_MATERIAL_EXTENSIONS___C__TOTESTOBJECT_B__2_0_OFFSET UNITYSDK_OFFSET(0x17F81790)
+#define HOUDINIENGINEUNITY_TEST_MATERIAL_EXTENSIONS___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1D20D9E0)
+#define HOUDINIENGINEUNITY_TEST_MATERIAL_EXTENSIONS___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1D20DA20)
+#define HOUDINIENGINEUNITY_TEST_MATERIAL_EXTENSIONS___C__TOTESTOBJECT_B__1_0_OFFSET UNITYSDK_OFFSET(0x1D20DA30)
+#define HOUDINIENGINEUNITY_TEST_MATERIAL_EXTENSIONS___C__TOTESTOBJECT_B__2_0_OFFSET UNITYSDK_OFFSET(0x1D20DA70)
 
 namespace HoudiniEngineUnity
 {
-	inline static constexpr unsigned int Test_Material_Extensions___c_TypeDefinitionIndex = 37754;
+	inline static constexpr unsigned int Test_Material_Extensions___c_TypeDefinitionIndex = 38562;
 
 	class Test_Material_Extensions___c : public ::System::Object
 	{
 	public:
 		static ::HoudiniEngineUnity::Test_Material_Extensions___c** StaticGet___9()
 		{
-			return (::HoudiniEngineUnity::Test_Material_Extensions___c**)Il2CppClass::FromTypeDefinitionIndex(Test_Material_Extensions___c_TypeDefinitionIndex)->GetStaticField(0x11640);
+			return (::HoudiniEngineUnity::Test_Material_Extensions___c**)Il2CppClass::FromTypeDefinitionIndex(Test_Material_Extensions___c_TypeDefinitionIndex)->GetStaticField(0x1C130);
 		}
 		static ::System::Converter_2<::UnityEngine::Material*, ::HoudiniEngineUnity::Test_Material*>** StaticGet___9__2_0()
 		{
-			return (::System::Converter_2<::UnityEngine::Material*, ::HoudiniEngineUnity::Test_Material*>**)Il2CppClass::FromTypeDefinitionIndex(Test_Material_Extensions___c_TypeDefinitionIndex)->GetStaticField(0x11648);
+			return (::System::Converter_2<::UnityEngine::Material*, ::HoudiniEngineUnity::Test_Material*>**)Il2CppClass::FromTypeDefinitionIndex(Test_Material_Extensions___c_TypeDefinitionIndex)->GetStaticField(0x1C138);
 		}
 		static ::System::Converter_2<::UnityEngine::Material*, ::HoudiniEngineUnity::Test_Material*>** StaticGet___9__1_0()
 		{
-			return (::System::Converter_2<::UnityEngine::Material*, ::HoudiniEngineUnity::Test_Material*>**)Il2CppClass::FromTypeDefinitionIndex(Test_Material_Extensions___c_TypeDefinitionIndex)->GetStaticField(0x11650);
+			return (::System::Converter_2<::UnityEngine::Material*, ::HoudiniEngineUnity::Test_Material*>**)Il2CppClass::FromTypeDefinitionIndex(Test_Material_Extensions___c_TypeDefinitionIndex)->GetStaticField(0x1C140);
 		}
 
 		static ::System::Void _cctor()

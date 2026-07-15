@@ -5,9 +5,9 @@
 #include "unitysdk/RPG/GameCore/BattleExtraPropertyAddition.h"
 #include "unitysdk/RPG/GameCore/FixPoint.h"
 
-#define CLASS_2_27AF3F8D0A0E5985__CTOR_OFFSET UNITYSDK_OFFSET(0xC97C230)
+#define CLASS_2_27AF3F8D0A0E5985__CTOR_OFFSET UNITYSDK_OFFSET(0x175F2BE0)
 
-inline static constexpr unsigned int Class_2_27AF3F8D0A0E5985_TypeDefinitionIndex = 52593;
+inline static constexpr unsigned int Class_2_27AF3F8D0A0E5985_TypeDefinitionIndex = 53797;
 
 class Class_2_27AF3F8D0A0E5985 : public ::Class_1_B37E32AE995F430C
 {

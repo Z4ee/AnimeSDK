@@ -1,12 +1,13 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/RPG/Client/UIFloatingTextType.h"
-#include "unitysdk/RPG/GameCore/FixPoint.h"
-#include "unitysdk/Struct_2_5909FD7779934CCA.h"
+#include "unitysdk/RPG/GameCore/FloatMessageType.h"
+#include "unitysdk/UnityEngine/Vector2.h"
 
-class DamageTextStyle;
+class Class_1_2AA304B71C6E8B6D;
+class Class_1_95EEF67A826E14FF;
+namespace RPG::GameCore { class GameEntity; }
 
-inline static constexpr unsigned int Class_0_16E4307DCC419505_1036_TypeDefinitionIndex = 67614;
+inline static constexpr unsigned int Class_0_16E4307DCC419505_1036_TypeDefinitionIndex = 68298;
 
 class Class_0_16E4307DCC419505_1036
 {

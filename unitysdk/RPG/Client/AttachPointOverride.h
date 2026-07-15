@@ -4,11 +4,11 @@
 
 namespace UnityEngine { class Transform; }
 
-#define RPG_CLIENT_ATTACHPOINTOVERRIDE__CTOR_OFFSET UNITYSDK_OFFSET(0xB339120)
+#define RPG_CLIENT_ATTACHPOINTOVERRIDE__CTOR_OFFSET UNITYSDK_OFFSET(0x19B3E140)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int AttachPointOverride_TypeDefinitionIndex = 63946;
+	inline static constexpr unsigned int AttachPointOverride_TypeDefinitionIndex = 65317;
 
 	class AttachPointOverride : public ::System::Object
 	{

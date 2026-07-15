@@ -5,13 +5,13 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_PERFORMANCEDYNAMICLOADCHARACTER_METHOD_3_1DA40A081DF1D53F_OFFSET UNITYSDK_OFFSET(0x199F1B60)
-#define RPG_GAMECORE_PERFORMANCEDYNAMICLOADCHARACTER_METHOD_3_D04B452CD2B9FDF9_OFFSET UNITYSDK_OFFSET(0x199F1BE0)
-#define RPG_GAMECORE_PERFORMANCEDYNAMICLOADCHARACTER__CTOR_OFFSET UNITYSDK_OFFSET(0x199F1BB0)
+#define RPG_GAMECORE_PERFORMANCEDYNAMICLOADCHARACTER_METHOD_3_247D277676C1B036_OFFSET UNITYSDK_OFFSET(0x1B4AC100)
+#define RPG_GAMECORE_PERFORMANCEDYNAMICLOADCHARACTER_METHOD_3_D04B452CD2B9FDF9_OFFSET UNITYSDK_OFFSET(0x1B4AC140)
+#define RPG_GAMECORE_PERFORMANCEDYNAMICLOADCHARACTER__CTOR_OFFSET UNITYSDK_OFFSET(0x1B4AC130)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PerformanceDynamicLoadCharacter_TypeDefinitionIndex = 20637;
+	inline static constexpr unsigned int PerformanceDynamicLoadCharacter_TypeDefinitionIndex = 21052;
 
 	class PerformanceDynamicLoadCharacter : public ::RPG::GameCore::TaskConfig
 	{
@@ -24,9 +24,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PERFORMANCEDYNAMICLOADCHARACTER__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_1DA40A081DF1D53F(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::PerformanceDynamicLoadCharacter*& a2)
+		static ::System::Void Method_3_247D277676C1B036(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::PerformanceDynamicLoadCharacter*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::PerformanceDynamicLoadCharacter*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PERFORMANCEDYNAMICLOADCHARACTER_METHOD_3_1DA40A081DF1D53F_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::PerformanceDynamicLoadCharacter*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PERFORMANCEDYNAMICLOADCHARACTER_METHOD_3_247D277676C1B036_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_D04B452CD2B9FDF9(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::PerformanceDynamicLoadCharacter* a2)

@@ -10,7 +10,7 @@ namespace MessagePack { class MessagePackSerializerOptions; }
 
 namespace MessagePack::Unity::Extension
 {
-	inline static constexpr unsigned int UnsafeBlitFormatterBase_2_TypeDefinitionIndex = 9847;
+	inline static constexpr unsigned int UnsafeBlitFormatterBase_2_TypeDefinitionIndex = 9862;
 
 	template <typename T, typename TReverseEndianessHelper>
 	class UnsafeBlitFormatterBase_2 : public ::System::Object

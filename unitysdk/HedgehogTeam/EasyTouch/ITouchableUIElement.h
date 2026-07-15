@@ -3,7 +3,7 @@
 
 namespace HedgehogTeam::EasyTouch
 {
-	inline static constexpr unsigned int ITouchableUIElement_TypeDefinitionIndex = 37377;
+	inline static constexpr unsigned int ITouchableUIElement_TypeDefinitionIndex = 38185;
 
 	class ITouchableUIElement
 	{

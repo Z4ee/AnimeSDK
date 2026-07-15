@@ -1,8 +1,9 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/RPG/Client/TextID.h"
 
-inline static constexpr unsigned int Class_0_16E4307DCC419505_735_TypeDefinitionIndex = 58880;
+namespace RPG::Client { class AvatarOutfit; }
+
+inline static constexpr unsigned int Class_0_16E4307DCC419505_735_TypeDefinitionIndex = 59912;
 
 class Class_0_16E4307DCC419505_735
 {

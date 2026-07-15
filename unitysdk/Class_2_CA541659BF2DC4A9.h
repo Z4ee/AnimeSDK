@@ -1,0 +1,77 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/RPG/Client/BehaviorBase.h"
+
+namespace RPG::Client { class MonoDBBridgeControl; }
+namespace RPG::Client { class MonoDBBridgeManager; }
+namespace UnityEngine { class MonoBehaviour; }
+
+#define CLASS_2_CA541659BF2DC4A9_METHOD_2_13D8773148BD1DCD_OFFSET UNITYSDK_OFFSET(0x186537A0)
+#define CLASS_2_CA541659BF2DC4A9_METHOD_2_2D494761E0135759_OFFSET UNITYSDK_OFFSET(0x186595A0)
+#define CLASS_2_CA541659BF2DC4A9_METHOD_2_2FDC69A366F3E642_OFFSET UNITYSDK_OFFSET(0x18653750)
+#define CLASS_2_CA541659BF2DC4A9_METHOD_2_885DF4DA0F709E3E_OFFSET UNITYSDK_OFFSET(0x18659910)
+#define CLASS_2_CA541659BF2DC4A9_METHOD_2_BC516BD7B592E51E_OFFSET UNITYSDK_OFFSET(0x18659610)
+#define CLASS_2_CA541659BF2DC4A9_METHOD_2_C0FBE2EB5AC963BC_OFFSET UNITYSDK_OFFSET(0x18652A90)
+#define CLASS_2_CA541659BF2DC4A9_METHOD_2_CA373AA1C7054598_OFFSET UNITYSDK_OFFSET(0x18659560)
+#define CLASS_2_CA541659BF2DC4A9_METHOD_2_D155D4917B3D2C6A_OFFSET UNITYSDK_OFFSET(0x18653150)
+#define CLASS_2_CA541659BF2DC4A9_METHOD_2_D1D2D42FAACF21FF_OFFSET UNITYSDK_OFFSET(0x18652A00)
+#define CLASS_2_CA541659BF2DC4A9__CTOR_OFFSET UNITYSDK_OFFSET(0x18659C10)
+
+inline static constexpr unsigned int Class_2_CA541659BF2DC4A9_TypeDefinitionIndex = 67214;
+
+class Class_2_CA541659BF2DC4A9 : public ::RPG::Client::BehaviorBase
+{
+public:
+	::Il2CppArray<::RPG::Client::MonoDBBridgeControl*>* Field_2_0; // 0x18
+	::Il2CppArray<::System::Single>* Field_2_1; // 0x20
+
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_CA541659BF2DC4A9__CTOR_OFFSET))(this);
+	}
+
+	::System::Void Method_2_D1D2D42FAACF21FF(::UnityEngine::MonoBehaviour* a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::UnityEngine::MonoBehaviour*))((::PBYTE)hIl2Cpp + CLASS_2_CA541659BF2DC4A9_METHOD_2_D1D2D42FAACF21FF_OFFSET))(this, a1);
+	}
+
+	::System::Void Method_2_2FDC69A366F3E642()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_CA541659BF2DC4A9_METHOD_2_2FDC69A366F3E642_OFFSET))(this);
+	}
+
+	::System::Void Method_2_CA373AA1C7054598()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_CA541659BF2DC4A9_METHOD_2_CA373AA1C7054598_OFFSET))(this);
+	}
+
+	::System::Void Method_2_C0FBE2EB5AC963BC()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_CA541659BF2DC4A9_METHOD_2_C0FBE2EB5AC963BC_OFFSET))(this);
+	}
+
+	::System::Void Method_2_13D8773148BD1DCD()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_CA541659BF2DC4A9_METHOD_2_13D8773148BD1DCD_OFFSET))(this);
+	}
+
+	::System::Void Method_2_885DF4DA0F709E3E()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_CA541659BF2DC4A9_METHOD_2_885DF4DA0F709E3E_OFFSET))(this);
+	}
+
+	::System::Void Method_2_BC516BD7B592E51E()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_CA541659BF2DC4A9_METHOD_2_BC516BD7B592E51E_OFFSET))(this);
+	}
+
+	::System::Void Method_2_D155D4917B3D2C6A()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_CA541659BF2DC4A9_METHOD_2_D155D4917B3D2C6A_OFFSET))(this);
+	}
+
+	::RPG::Client::MonoDBBridgeManager* Method_2_2D494761E0135759()
+	{
+		return ((::RPG::Client::MonoDBBridgeManager*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_CA541659BF2DC4A9_METHOD_2_2D494761E0135759_OFFSET))(this);
+	}
+};

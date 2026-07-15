@@ -7,13 +7,12 @@ namespace RPG::Client { class LinearModuleRendererBehavior; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_LINEARMODULERENDERERMONOPLUGIN_GETTICKLODTEMPLATENAME_OFFSET UNITYSDK_OFFSET(0xBDBE2C0)
-#define RPG_CLIENT_LINEARMODULERENDERERMONOPLUGIN__CTOR_OFFSET UNITYSDK_OFFSET(0xBDBE310)
-#define RPG_CLIENT_LINEARMODULERENDERERMONOPLUGIN___IFIXBASEPROXY_GETTICKLODTEMPLATENAME_OFFSET UNITYSDK_OFFSET(0xBDBE320)
+#define RPG_CLIENT_LINEARMODULERENDERERMONOPLUGIN_GETTICKLODTEMPLATENAME_OFFSET UNITYSDK_OFFSET(0x19B7BCA0)
+#define RPG_CLIENT_LINEARMODULERENDERERMONOPLUGIN__CTOR_OFFSET UNITYSDK_OFFSET(0x19B7BCF0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int LinearModuleRendererMonoPlugin_TypeDefinitionIndex = 66290;
+	inline static constexpr unsigned int LinearModuleRendererMonoPlugin_TypeDefinitionIndex = 67715;
 
 	class LinearModuleRendererMonoPlugin : public ::RPG::Client::TAMonoPlugin_1<::RPG::Client::LinearModuleRendererBehavior*>
 	{
@@ -29,11 +28,6 @@ namespace RPG::Client
 		::System::String* GetTickLodTemplateName()
 		{
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_LINEARMODULERENDERERMONOPLUGIN_GETTICKLODTEMPLATENAME_OFFSET))(this);
-		}
-
-		::System::String* __iFixBaseProxy_GetTickLodTemplateName()
-		{
-			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_LINEARMODULERENDERERMONOPLUGIN___IFIXBASEPROXY_GETTICKLODTEMPLATENAME_OFFSET))(this);
 		}
 	};
 }

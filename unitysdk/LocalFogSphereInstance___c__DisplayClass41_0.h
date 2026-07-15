@@ -5,10 +5,10 @@
 namespace UnityEngine { class MeshFilter; }
 namespace UnityEngine { class Object; }
 
-#define LOCALFOGSPHEREINSTANCE___C__DISPLAYCLASS41_0__CTOR_OFFSET UNITYSDK_OFFSET(0xA65CC80)
-#define LOCALFOGSPHEREINSTANCE___C__DISPLAYCLASS41_0__ONOBJECTCREATEDASYNC_B__0_OFFSET UNITYSDK_OFFSET(0xA65D190)
+#define LOCALFOGSPHEREINSTANCE___C__DISPLAYCLASS41_0__CTOR_OFFSET UNITYSDK_OFFSET(0x18DAC390)
+#define LOCALFOGSPHEREINSTANCE___C__DISPLAYCLASS41_0__ONOBJECTCREATEDASYNC_B__0_OFFSET UNITYSDK_OFFSET(0x18DAC870)
 
-inline static constexpr unsigned int LocalFogSphereInstance___c__DisplayClass41_0_TypeDefinitionIndex = 44766;
+inline static constexpr unsigned int LocalFogSphereInstance___c__DisplayClass41_0_TypeDefinitionIndex = 45681;
 
 class LocalFogSphereInstance___c__DisplayClass41_0 : public ::System::Object
 {

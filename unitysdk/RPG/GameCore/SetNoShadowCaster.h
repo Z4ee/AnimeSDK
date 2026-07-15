@@ -5,13 +5,13 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_SETNOSHADOWCASTER_METHOD_3_2A4CE371EF606860_OFFSET UNITYSDK_OFFSET(0x19C5A380)
-#define RPG_GAMECORE_SETNOSHADOWCASTER_METHOD_3_D83FB2420A99D9F1_OFFSET UNITYSDK_OFFSET(0x19C5A300)
-#define RPG_GAMECORE_SETNOSHADOWCASTER__CTOR_OFFSET UNITYSDK_OFFSET(0x19C5A350)
+#define RPG_GAMECORE_SETNOSHADOWCASTER_METHOD_3_2A4CE371EF606860_OFFSET UNITYSDK_OFFSET(0x1C6045C0)
+#define RPG_GAMECORE_SETNOSHADOWCASTER_METHOD_3_70544DCB50B04F8D_OFFSET UNITYSDK_OFFSET(0x1C604570)
+#define RPG_GAMECORE_SETNOSHADOWCASTER__CTOR_OFFSET UNITYSDK_OFFSET(0x1C6045B0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SetNoShadowCaster_TypeDefinitionIndex = 21645;
+	inline static constexpr unsigned int SetNoShadowCaster_TypeDefinitionIndex = 22071;
 
 	class SetNoShadowCaster : public ::RPG::GameCore::TaskConfig
 	{
@@ -25,9 +25,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETNOSHADOWCASTER__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_D83FB2420A99D9F1(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SetNoShadowCaster*& a2)
+		static ::System::Void Method_3_70544DCB50B04F8D(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SetNoShadowCaster*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SetNoShadowCaster*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETNOSHADOWCASTER_METHOD_3_D83FB2420A99D9F1_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SetNoShadowCaster*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETNOSHADOWCASTER_METHOD_3_70544DCB50B04F8D_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_2A4CE371EF606860(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SetNoShadowCaster* a2)

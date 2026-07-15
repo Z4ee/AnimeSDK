@@ -1,0 +1,101 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/Class_1_CA217ABF4E3B4F3F.h"
+#include "unitysdk/RPG/GameCore/MonsterEnergyBarType.h"
+#include "unitysdk/Struct_2_96F8F0A04B900A9E.h"
+
+class Class_1_70697F531F566942_2;
+class Class_2_1DC128E22A3FA54F;
+namespace RPG::GameCore { class GameEntity; }
+namespace System { class Object; }
+
+#define CLASS_2_F253BDBB0669BC76_AUTOBINDCALLBACK_OFFSET UNITYSDK_OFFSET(0x1428FB00)
+#define CLASS_2_F253BDBB0669BC76_AUTOREMOVECALLBACK_OFFSET UNITYSDK_OFFSET(0x1428FBF0)
+#define CLASS_2_F253BDBB0669BC76_METHOD_2_2A0F641337364AF8_OFFSET UNITYSDK_OFFSET(0x1428F540)
+#define CLASS_2_F253BDBB0669BC76_METHOD_2_3DB54BF3B1645FAD_OFFSET UNITYSDK_OFFSET(0x1428F650)
+#define CLASS_2_F253BDBB0669BC76_METHOD_2_4343F372F34C05BF_OFFSET UNITYSDK_OFFSET(0x1428F9E0)
+#define CLASS_2_F253BDBB0669BC76_METHOD_2_B10FB9597F17FCB4_OFFSET UNITYSDK_OFFSET(0x1428F3D0)
+#define CLASS_2_F253BDBB0669BC76_METHOD_2_E3DE31A03057E055_OFFSET UNITYSDK_OFFSET(0x1428F420)
+#define CLASS_2_F253BDBB0669BC76_METHOD_2_F37CDBD6D46274D2_OFFSET UNITYSDK_OFFSET(0x1428FA40)
+#define CLASS_2_F253BDBB0669BC76_METHOD_2_FF3BACC5C51334C8_OFFSET UNITYSDK_OFFSET(0x1428F270)
+#define CLASS_2_F253BDBB0669BC76_ONACQUIRE_OFFSET UNITYSDK_OFFSET(0x1428F300)
+#define CLASS_2_F253BDBB0669BC76_ONRETURN_OFFSET UNITYSDK_OFFSET(0x1428F950)
+#define CLASS_2_F253BDBB0669BC76__CTOR_OFFSET UNITYSDK_OFFSET(0x1428FCC0)
+#define CLASS_2_F253BDBB0669BC76__ONBIND_OFFSET UNITYSDK_OFFSET(0x1428F230)
+
+inline static constexpr unsigned int Class_2_F253BDBB0669BC76_TypeDefinitionIndex = 68476;
+
+class Class_2_F253BDBB0669BC76 : public ::Class_1_CA217ABF4E3B4F3F
+{
+public:
+	::RPG::GameCore::GameEntity* Field_2_0; // 0x60
+	::Class_2_1DC128E22A3FA54F* Field_2_1; // 0x68
+	::Class_1_70697F531F566942_2* Field_2_2; // 0x70
+	::System::Boolean Field_2_3; // 0x78
+	::RPG::GameCore::MonsterEnergyBarType Field_2_4; // 0x7C
+
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_F253BDBB0669BC76__CTOR_OFFSET))(this);
+	}
+
+	::System::Void _OnBind()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_F253BDBB0669BC76__ONBIND_OFFSET))(this);
+	}
+
+	::System::Void Method_2_FF3BACC5C51334C8(::Struct_2_96F8F0A04B900A9E a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::Struct_2_96F8F0A04B900A9E))((::PBYTE)hIl2Cpp + CLASS_2_F253BDBB0669BC76_METHOD_2_FF3BACC5C51334C8_OFFSET))(this, a1);
+	}
+
+	::System::Void OnAcquire(::RPG::GameCore::GameEntity* a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::RPG::GameCore::GameEntity*))((::PBYTE)hIl2Cpp + CLASS_2_F253BDBB0669BC76_ONACQUIRE_OFFSET))(this, a1);
+	}
+
+	::System::Void Method_2_B10FB9597F17FCB4()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_F253BDBB0669BC76_METHOD_2_B10FB9597F17FCB4_OFFSET))(this);
+	}
+
+	::System::Void Method_2_2A0F641337364AF8()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_F253BDBB0669BC76_METHOD_2_2A0F641337364AF8_OFFSET))(this);
+	}
+
+	::System::Void OnReturn()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_F253BDBB0669BC76_ONRETURN_OFFSET))(this);
+	}
+
+	::System::Void Method_2_4343F372F34C05BF()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_F253BDBB0669BC76_METHOD_2_4343F372F34C05BF_OFFSET))(this);
+	}
+
+	::System::Void Method_2_3DB54BF3B1645FAD(::Class_1_70697F531F566942_2* a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::Class_1_70697F531F566942_2*))((::PBYTE)hIl2Cpp + CLASS_2_F253BDBB0669BC76_METHOD_2_3DB54BF3B1645FAD_OFFSET))(this, a1);
+	}
+
+	::System::Void Method_2_E3DE31A03057E055()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_F253BDBB0669BC76_METHOD_2_E3DE31A03057E055_OFFSET))(this);
+	}
+
+	::System::Void Method_2_F37CDBD6D46274D2(::System::Object* a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + CLASS_2_F253BDBB0669BC76_METHOD_2_F37CDBD6D46274D2_OFFSET))(this, a1);
+	}
+
+	::System::Void AutoBindCallback()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_F253BDBB0669BC76_AUTOBINDCALLBACK_OFFSET))(this);
+	}
+
+	::System::Void AutoRemoveCallback()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_F253BDBB0669BC76_AUTOREMOVECALLBACK_OFFSET))(this);
+	}
+};

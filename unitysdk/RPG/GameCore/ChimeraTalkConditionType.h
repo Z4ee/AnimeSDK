@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ChimeraTalkConditionType_TypeDefinitionIndex = 10164;
+	inline static constexpr unsigned int ChimeraTalkConditionType_TypeDefinitionIndex = 10179;
 
 	enum class ChimeraTalkConditionType : ::System::Int32
 	{

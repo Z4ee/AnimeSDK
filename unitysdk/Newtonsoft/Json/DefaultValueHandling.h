@@ -3,7 +3,7 @@
 
 namespace Newtonsoft::Json
 {
-	inline static constexpr unsigned int DefaultValueHandling_TypeDefinitionIndex = 9251;
+	inline static constexpr unsigned int DefaultValueHandling_TypeDefinitionIndex = 9263;
 
 	enum class DefaultValueHandling : ::System::Int32
 	{

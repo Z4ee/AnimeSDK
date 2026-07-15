@@ -1,12 +1,8 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/RPG/GameCore/EntityType.h"
+#include "unitysdk/Struct_2_126FCF6D29887CE8.h"
 
-class Class_1_0E94DD4A47F0F315;
-namespace RPG::Client { class BaseMonoTriggerRegion; }
-namespace UnityEngine { class Transform; }
-
-inline static constexpr unsigned int Class_0_16E4307DCC419505_542_TypeDefinitionIndex = 53725;
+inline static constexpr unsigned int Class_0_16E4307DCC419505_542_TypeDefinitionIndex = 53475;
 
 class Class_0_16E4307DCC419505_542
 {

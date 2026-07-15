@@ -6,13 +6,13 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class EffectConfig; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_TRIGGEREFFECTLISTONCHARACTER_METHOD_3_9A571E746DC07165_OFFSET UNITYSDK_OFFSET(0x19E13DA0)
-#define RPG_GAMECORE_TRIGGEREFFECTLISTONCHARACTER_METHOD_3_B3BDEF99C7D3ED29_OFFSET UNITYSDK_OFFSET(0x19E13D20)
-#define RPG_GAMECORE_TRIGGEREFFECTLISTONCHARACTER__CTOR_OFFSET UNITYSDK_OFFSET(0x19E13D70)
+#define RPG_GAMECORE_TRIGGEREFFECTLISTONCHARACTER_METHOD_3_831F7C48868412B2_OFFSET UNITYSDK_OFFSET(0x1B054F10)
+#define RPG_GAMECORE_TRIGGEREFFECTLISTONCHARACTER_METHOD_3_9A571E746DC07165_OFFSET UNITYSDK_OFFSET(0x1B054F50)
+#define RPG_GAMECORE_TRIGGEREFFECTLISTONCHARACTER__CTOR_OFFSET UNITYSDK_OFFSET(0x1B054F40)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TriggerEffectListOnCharacter_TypeDefinitionIndex = 20691;
+	inline static constexpr unsigned int TriggerEffectListOnCharacter_TypeDefinitionIndex = 21106;
 
 	class TriggerEffectListOnCharacter : public ::RPG::GameCore::TaskConfig
 	{
@@ -25,9 +25,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TRIGGEREFFECTLISTONCHARACTER__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_B3BDEF99C7D3ED29(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::TriggerEffectListOnCharacter*& a2)
+		static ::System::Void Method_3_831F7C48868412B2(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::TriggerEffectListOnCharacter*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::TriggerEffectListOnCharacter*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TRIGGEREFFECTLISTONCHARACTER_METHOD_3_B3BDEF99C7D3ED29_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::TriggerEffectListOnCharacter*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TRIGGEREFFECTLISTONCHARACTER_METHOD_3_831F7C48868412B2_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_9A571E746DC07165(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::TriggerEffectListOnCharacter* a2)

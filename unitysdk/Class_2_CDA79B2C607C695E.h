@@ -9,26 +9,25 @@ namespace System { class String; }
 namespace UnityEngine { class Transform; }
 namespace UnityEngine::UI { class Image; }
 
-#define CLASS_2_CDA79B2C607C695E_METHOD_2_1B9BAFE25893B138_OFFSET UNITYSDK_OFFSET(0x1372F8E0)
-#define CLASS_2_CDA79B2C607C695E_METHOD_2_BD3078E21D74E44F_OFFSET UNITYSDK_OFFSET(0x1372FAD0)
-#define CLASS_2_CDA79B2C607C695E_METHOD_2_CC8BA8306EA10C06_OFFSET UNITYSDK_OFFSET(0x1372F880)
-#define CLASS_2_CDA79B2C607C695E_METHOD_2_EC2B405D0723571D_OFFSET UNITYSDK_OFFSET(0x1372FA40)
-#define CLASS_2_CDA79B2C607C695E__CTOR_OFFSET UNITYSDK_OFFSET(0x1372FB80)
-#define CLASS_2_CDA79B2C607C695E__ONBIND_OFFSET UNITYSDK_OFFSET(0x1372F740)
-#define CLASS_2_CDA79B2C607C695E___IFIXBASEPROXY__ONBIND_OFFSET UNITYSDK_OFFSET(0x1372FBB0)
+#define CLASS_2_CDA79B2C607C695E_METHOD_2_2340068C22DFE332_OFFSET UNITYSDK_OFFSET(0x172F9CC0)
+#define CLASS_2_CDA79B2C607C695E_METHOD_2_CC8BA8306EA10C06_OFFSET UNITYSDK_OFFSET(0x172F9C50)
+#define CLASS_2_CDA79B2C607C695E_METHOD_2_E855A974FE0C8866_OFFSET UNITYSDK_OFFSET(0x172F9F80)
+#define CLASS_2_CDA79B2C607C695E_METHOD_2_F0D9B6AAFF504D87_OFFSET UNITYSDK_OFFSET(0x172F9EB0)
+#define CLASS_2_CDA79B2C607C695E__CTOR_OFFSET UNITYSDK_OFFSET(0x172FA060)
+#define CLASS_2_CDA79B2C607C695E__ONBIND_OFFSET UNITYSDK_OFFSET(0x172F9B10)
 
-inline static constexpr unsigned int Class_2_CDA79B2C607C695E_TypeDefinitionIndex = 67512;
+inline static constexpr unsigned int Class_2_CDA79B2C607C695E_TypeDefinitionIndex = 68993;
 
 class Class_2_CDA79B2C607C695E : public ::Class_1_CA217ABF4E3B4F3F
 {
 public:
 	// static const ::System::String* Field_2_0; // 0x0
-	::UnityEngine::UI::Image* Field_2_1; // 0x60
-	::RPG::Client::MonoUIColorSwitcher* Field_2_2; // 0x68
-	::Class_2_01E36AFA5FDDCBCA* Field_2_3; // 0x70
-	::RPG::Client::GridFightRole* Field_2_4; // 0x78
-	::UnityEngine::Transform* Field_2_5; // 0x80
-	::UnityEngine::UI::Image* Field_2_6; // 0x88
+	::RPG::Client::MonoUIColorSwitcher* Field_2_1; // 0x60
+	::UnityEngine::UI::Image* Field_2_2; // 0x68
+	::UnityEngine::UI::Image* Field_2_3; // 0x70
+	::UnityEngine::Transform* Field_2_4; // 0x78
+	::Class_2_01E36AFA5FDDCBCA* Field_2_5; // 0x80
+	::RPG::Client::GridFightRole* Field_2_6; // 0x88
 
 	::System::Void _ctor()
 	{
@@ -45,23 +44,18 @@ public:
 		return ((::System::Void(*)(::PVOID, ::RPG::Client::GridFightRole*))((::PBYTE)hIl2Cpp + CLASS_2_CDA79B2C607C695E_METHOD_2_CC8BA8306EA10C06_OFFSET))(this, a1);
 	}
 
-	::System::Void Method_2_1B9BAFE25893B138()
+	::System::Void Method_2_2340068C22DFE332()
 	{
-		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_CDA79B2C607C695E_METHOD_2_1B9BAFE25893B138_OFFSET))(this);
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_CDA79B2C607C695E_METHOD_2_2340068C22DFE332_OFFSET))(this);
 	}
 
-	::System::Void Method_2_EC2B405D0723571D()
+	::System::Void Method_2_F0D9B6AAFF504D87()
 	{
-		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_CDA79B2C607C695E_METHOD_2_EC2B405D0723571D_OFFSET))(this);
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_CDA79B2C607C695E_METHOD_2_F0D9B6AAFF504D87_OFFSET))(this);
 	}
 
-	::System::Void Method_2_BD3078E21D74E44F()
+	::System::Void Method_2_E855A974FE0C8866()
 	{
-		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_CDA79B2C607C695E_METHOD_2_BD3078E21D74E44F_OFFSET))(this);
-	}
-
-	::System::Void __iFixBaseProxy__OnBind()
-	{
-		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_CDA79B2C607C695E___IFIXBASEPROXY__ONBIND_OFFSET))(this);
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_CDA79B2C607C695E_METHOD_2_E855A974FE0C8866_OFFSET))(this);
 	}
 };

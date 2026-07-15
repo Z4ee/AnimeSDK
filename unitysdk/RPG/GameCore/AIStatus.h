@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AIStatus_TypeDefinitionIndex = 23131;
+	inline static constexpr unsigned int AIStatus_TypeDefinitionIndex = 23609;
 
 	enum class AIStatus : ::System::Int32
 	{

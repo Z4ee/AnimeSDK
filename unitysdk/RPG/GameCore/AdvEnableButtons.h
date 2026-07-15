@@ -6,13 +6,13 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class TargetEvaluator; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_ADVENABLEBUTTONS_METHOD_3_8AE91ED941698DD1_OFFSET UNITYSDK_OFFSET(0x19421290)
-#define RPG_GAMECORE_ADVENABLEBUTTONS_METHOD_3_D3537D15BB5606B6_OFFSET UNITYSDK_OFFSET(0x19421210)
-#define RPG_GAMECORE_ADVENABLEBUTTONS__CTOR_OFFSET UNITYSDK_OFFSET(0x19421260)
+#define RPG_GAMECORE_ADVENABLEBUTTONS_METHOD_3_68985604AA4A6C88_OFFSET UNITYSDK_OFFSET(0x1BE19D70)
+#define RPG_GAMECORE_ADVENABLEBUTTONS_METHOD_3_8AE91ED941698DD1_OFFSET UNITYSDK_OFFSET(0x1BE19DB0)
+#define RPG_GAMECORE_ADVENABLEBUTTONS__CTOR_OFFSET UNITYSDK_OFFSET(0x1BE19DA0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AdvEnableButtons_TypeDefinitionIndex = 19398;
+	inline static constexpr unsigned int AdvEnableButtons_TypeDefinitionIndex = 19756;
 
 	class AdvEnableButtons : public ::RPG::GameCore::TaskConfig
 	{
@@ -27,9 +27,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVENABLEBUTTONS__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_D3537D15BB5606B6(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AdvEnableButtons*& a2)
+		static ::System::Void Method_3_68985604AA4A6C88(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AdvEnableButtons*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::AdvEnableButtons*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVENABLEBUTTONS_METHOD_3_D3537D15BB5606B6_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::AdvEnableButtons*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVENABLEBUTTONS_METHOD_3_68985604AA4A6C88_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_8AE91ED941698DD1(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AdvEnableButtons* a2)

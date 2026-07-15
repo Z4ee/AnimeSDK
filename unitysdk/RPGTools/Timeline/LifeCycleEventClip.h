@@ -9,13 +9,13 @@ namespace RPGTools::Timeline { class LifeCycleEventArgument; }
 namespace RPGTools::Timeline { class LifeCycleEventBehaviour; }
 namespace UnityEngine { class GameObject; }
 
-#define RPGTOOLS_TIMELINE_LIFECYCLEEVENTCLIP_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0xD027310)
-#define RPGTOOLS_TIMELINE_LIFECYCLEEVENTCLIP_GET_CLIPCAPS_OFFSET UNITYSDK_OFFSET(0xD0274B0)
-#define RPGTOOLS_TIMELINE_LIFECYCLEEVENTCLIP__CTOR_OFFSET UNITYSDK_OFFSET(0xD0274C0)
+#define RPGTOOLS_TIMELINE_LIFECYCLEEVENTCLIP_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0x19A62A30)
+#define RPGTOOLS_TIMELINE_LIFECYCLEEVENTCLIP_GET_CLIPCAPS_OFFSET UNITYSDK_OFFSET(0x19A62BD0)
+#define RPGTOOLS_TIMELINE_LIFECYCLEEVENTCLIP__CTOR_OFFSET UNITYSDK_OFFSET(0x19A62BE0)
 
 namespace RPGTools::Timeline
 {
-	inline static constexpr unsigned int LifeCycleEventClip_TypeDefinitionIndex = 45441;
+	inline static constexpr unsigned int LifeCycleEventClip_TypeDefinitionIndex = 46375;
 
 	class LifeCycleEventClip : public ::UnityEngine::Playables::PlayableAsset
 	{

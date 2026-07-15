@@ -6,22 +6,22 @@ namespace RPG::GameCore { class GameEntity; }
 namespace System { class String; }
 namespace UnityEngine::Timeline { class TrackAsset; }
 
-#define RPG_CLIENT_ACTIVITYHIPPLEN_HIPPLENCOUNTINGCHIMERAMINIGAME_PLAYINGTRACKASSET__CTOR_OFFSET UNITYSDK_OFFSET(0xB0E98D0)
+#define RPG_CLIENT_ACTIVITYHIPPLEN_HIPPLENCOUNTINGCHIMERAMINIGAME_PLAYINGTRACKASSET__CTOR_OFFSET UNITYSDK_OFFSET(0x19BD2070)
 
 namespace RPG::Client::ActivityHipplen
 {
-	inline static constexpr unsigned int HipplenCountingChimeraMiniGame_PlayingTrackAsset_TypeDefinitionIndex = 70457;
+	inline static constexpr unsigned int HipplenCountingChimeraMiniGame_PlayingTrackAsset_TypeDefinitionIndex = 71980;
 
 	class HipplenCountingChimeraMiniGame_PlayingTrackAsset : public ::System::Object
 	{
 	public:
 		::RPG::GameCore::GameEntity* ChimeraEntityRef; // 0x10
-		::UnityEngine::Timeline::TrackAsset* TrackAssetRef; // 0x18
-		::System::String* CharacterUniqueName; // 0x20
-		::System::Double StartTime; // 0x28
-		::System::Boolean IsWorking; // 0x30
-		::System::Boolean IsFinished; // 0x31
-		::System::UInt32 ChimeraID; // 0x34
+		::System::String* CharacterUniqueName; // 0x18
+		::UnityEngine::Timeline::TrackAsset* TrackAssetRef; // 0x20
+		::System::Boolean IsWorking; // 0x28
+		::System::Boolean IsFinished; // 0x29
+		::System::UInt32 ChimeraID; // 0x2C
+		::System::Double StartTime; // 0x30
 		::System::Double Duration; // 0x38
 
 		::System::Void _ctor()

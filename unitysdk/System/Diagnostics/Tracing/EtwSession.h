@@ -6,22 +6,22 @@ namespace System { template <typename T> class WeakReference_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace System::Diagnostics::Tracing { class ActivityFilter; }
 
-#define SYSTEM_DIAGNOSTICS_TRACING_ETWSESSION_GETETWSESSION_OFFSET UNITYSDK_OFFSET(0x1869E8C0)
-#define SYSTEM_DIAGNOSTICS_TRACING_ETWSESSION_REMOVEETWSESSION_OFFSET UNITYSDK_OFFSET(0x1869EE70)
-#define SYSTEM_DIAGNOSTICS_TRACING_ETWSESSION_TRIMGLOBALLIST_OFFSET UNITYSDK_OFFSET(0x1869ECC0)
-#define SYSTEM_DIAGNOSTICS_TRACING_ETWSESSION__CCTOR_OFFSET UNITYSDK_OFFSET(0x1869F000)
-#define SYSTEM_DIAGNOSTICS_TRACING_ETWSESSION__CTOR_OFFSET UNITYSDK_OFFSET(0x1869ECB0)
+#define SYSTEM_DIAGNOSTICS_TRACING_ETWSESSION_GETETWSESSION_OFFSET UNITYSDK_OFFSET(0x1919B1B0)
+#define SYSTEM_DIAGNOSTICS_TRACING_ETWSESSION_REMOVEETWSESSION_OFFSET UNITYSDK_OFFSET(0x1919B760)
+#define SYSTEM_DIAGNOSTICS_TRACING_ETWSESSION_TRIMGLOBALLIST_OFFSET UNITYSDK_OFFSET(0x1919B5B0)
+#define SYSTEM_DIAGNOSTICS_TRACING_ETWSESSION__CCTOR_OFFSET UNITYSDK_OFFSET(0x1919B8F0)
+#define SYSTEM_DIAGNOSTICS_TRACING_ETWSESSION__CTOR_OFFSET UNITYSDK_OFFSET(0x1919B5A0)
 
 namespace System::Diagnostics::Tracing
 {
-	inline static constexpr unsigned int EtwSession_TypeDefinitionIndex = 1689;
+	inline static constexpr unsigned int EtwSession_TypeDefinitionIndex = 1693;
 
 	class EtwSession : public ::System::Object
 	{
 	public:
 		static ::System::Collections::Generic::List_1<::System::WeakReference_1<::System::Diagnostics::Tracing::EtwSession*>*>** StaticGet_s_etwSessions()
 		{
-			return (::System::Collections::Generic::List_1<::System::WeakReference_1<::System::Diagnostics::Tracing::EtwSession*>*>**)Il2CppClass::FromTypeDefinitionIndex(EtwSession_TypeDefinitionIndex)->GetStaticField(0x54F0);
+			return (::System::Collections::Generic::List_1<::System::WeakReference_1<::System::Diagnostics::Tracing::EtwSession*>*>**)Il2CppClass::FromTypeDefinitionIndex(EtwSession_TypeDefinitionIndex)->GetStaticField(0x5470);
 		}
 		::System::Diagnostics::Tracing::ActivityFilter* m_activityFilter; // 0x10
 		::System::Int32 m_etwSessionId; // 0x18

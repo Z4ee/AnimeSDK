@@ -7,12 +7,12 @@
 #include "unitysdk/System/Nullable_1.h"
 #include "unitysdk/System/ValueType.h"
 
-class Class_1_945ACFB1FEBC7A2C_18;
+class Class_1_945ACFB1FEBC7A2C_20;
 namespace RPG::GameCore { class MonsterEnergyBarCustomColor; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-inline static constexpr unsigned int Struct_2_52A902145F5BE513_4_TypeDefinitionIndex = 51873;
+inline static constexpr unsigned int Struct_2_52A902145F5BE513_4_TypeDefinitionIndex = 53026;
 
 struct alignas(8) Struct_2_52A902145F5BE513_4
 {
@@ -34,5 +34,5 @@ struct alignas(8) Struct_2_52A902145F5BE513_4
 	::Il2CppArray<::System::String*>* Field_2_15; // 0x90
 	::RPG::GameCore::MonsterEnergyBarNumColor Field_2_16; // 0x98
 	::RPG::GameCore::MonsterEnergyBarCustomColor* Field_2_17; // 0xA0
-	::System::Collections::Generic::List_1<::Class_1_945ACFB1FEBC7A2C_18*>* Field_2_18; // 0xA8
+	::System::Collections::Generic::List_1<::Class_1_945ACFB1FEBC7A2C_20*>* Field_2_18; // 0xA8
 };

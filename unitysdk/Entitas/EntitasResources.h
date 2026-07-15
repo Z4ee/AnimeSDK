@@ -4,11 +4,11 @@
 
 namespace System { class String; }
 
-#define ENTITAS_ENTITASRESOURCES_GETVERSION_OFFSET UNITYSDK_OFFSET(0x146FF9D0)
+#define ENTITAS_ENTITASRESOURCES_GETVERSION_OFFSET UNITYSDK_OFFSET(0x1D1C9340)
 
 namespace Entitas
 {
-	inline static constexpr unsigned int EntitasResources_TypeDefinitionIndex = 9652;
+	inline static constexpr unsigned int EntitasResources_TypeDefinitionIndex = 9666;
 
 	class EntitasResources : public ::System::Object
 	{

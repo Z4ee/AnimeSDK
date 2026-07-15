@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int WalkStyleFlag_TypeDefinitionIndex = 10078;
+	inline static constexpr unsigned int WalkStyleFlag_TypeDefinitionIndex = 10093;
 
 	enum class WalkStyleFlag : ::System::Int32
 	{

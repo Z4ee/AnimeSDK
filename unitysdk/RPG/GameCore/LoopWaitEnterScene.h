@@ -4,13 +4,13 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_LOOPWAITENTERSCENE_METHOD_3_7A4733B0087E7C96_OFFSET UNITYSDK_OFFSET(0x198B1C40)
-#define RPG_GAMECORE_LOOPWAITENTERSCENE_METHOD_3_F68856A7854D8F96_OFFSET UNITYSDK_OFFSET(0x198B1BB0)
-#define RPG_GAMECORE_LOOPWAITENTERSCENE__CTOR_OFFSET UNITYSDK_OFFSET(0x198B1C10)
+#define RPG_GAMECORE_LOOPWAITENTERSCENE_METHOD_3_7A4733B0087E7C96_OFFSET UNITYSDK_OFFSET(0x1BCD4990)
+#define RPG_GAMECORE_LOOPWAITENTERSCENE_METHOD_3_E57E1A5E5CFBC63A_OFFSET UNITYSDK_OFFSET(0x1BCD4940)
+#define RPG_GAMECORE_LOOPWAITENTERSCENE__CTOR_OFFSET UNITYSDK_OFFSET(0x1BCD4980)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LoopWaitEnterScene_TypeDefinitionIndex = 20015;
+	inline static constexpr unsigned int LoopWaitEnterScene_TypeDefinitionIndex = 20387;
 
 	class LoopWaitEnterScene : public ::RPG::GameCore::TaskConfig
 	{
@@ -20,9 +20,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LOOPWAITENTERSCENE__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_F68856A7854D8F96(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::LoopWaitEnterScene*& a2)
+		static ::System::Void Method_3_E57E1A5E5CFBC63A(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::LoopWaitEnterScene*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::LoopWaitEnterScene*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LOOPWAITENTERSCENE_METHOD_3_F68856A7854D8F96_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::LoopWaitEnterScene*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LOOPWAITENTERSCENE_METHOD_3_E57E1A5E5CFBC63A_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_7A4733B0087E7C96(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::LoopWaitEnterScene* a2)

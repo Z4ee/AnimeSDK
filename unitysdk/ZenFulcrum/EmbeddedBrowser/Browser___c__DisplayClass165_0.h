@@ -4,21 +4,21 @@
 
 namespace ZenFulcrum::EmbeddedBrowser { class Browser; }
 
-#define ZENFULCRUM_EMBEDDEDBROWSER_BROWSER___C__DISPLAYCLASS165_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1B4DB2A0)
-#define ZENFULCRUM_EMBEDDEDBROWSER_BROWSER___C__DISPLAYCLASS165_0__SETGEOMETRY_B__0_OFFSET UNITYSDK_OFFSET(0x1B4E5910)
+#define ZENFULCRUM_EMBEDDEDBROWSER_BROWSER___C__DISPLAYCLASS165_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1AB39190)
+#define ZENFULCRUM_EMBEDDEDBROWSER_BROWSER___C__DISPLAYCLASS165_0__SETGEOMETRY_B__0_OFFSET UNITYSDK_OFFSET(0x1AB43E30)
 
 namespace ZenFulcrum::EmbeddedBrowser
 {
-	inline static constexpr unsigned int Browser___c__DisplayClass165_0_TypeDefinitionIndex = 36403;
+	inline static constexpr unsigned int Browser___c__DisplayClass165_0_TypeDefinitionIndex = 37185;
 
 	class Browser___c__DisplayClass165_0 : public ::System::Object
 	{
 	public:
 		::ZenFulcrum::EmbeddedBrowser::Browser* __4__this; // 0x10
-		::System::Int32 w; // 0x18
-		::System::Int32 y; // 0x1C
-		::System::Int32 x; // 0x20
-		::System::Int32 h; // 0x24
+		::System::Int32 y; // 0x18
+		::System::Int32 h; // 0x1C
+		::System::Int32 w; // 0x20
+		::System::Int32 x; // 0x24
 
 		::System::Void _ctor()
 		{

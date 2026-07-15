@@ -9,12 +9,12 @@ namespace RPG::GameCore { class AdventurePositionCheckConfig; }
 namespace RPG::GameCore { class EntityPosAdaptionConfig; }
 namespace RPG::GameCore { class SummonUnitInteractionDestroyRule; }
 
-#define RPG_GAMECORE_SUMMONUNITGROUPCONFIG_METHOD_2_BAB8DF66DCC6D652_OFFSET UNITYSDK_OFFSET(0x19CD67B0)
-#define RPG_GAMECORE_SUMMONUNITGROUPCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x19CD6C40)
+#define RPG_GAMECORE_SUMMONUNITGROUPCONFIG_METHOD_2_BAB8DF66DCC6D652_OFFSET UNITYSDK_OFFSET(0x1B4323D0)
+#define RPG_GAMECORE_SUMMONUNITGROUPCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1B432860)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SummonUnitGroupConfig_TypeDefinitionIndex = 16731;
+	inline static constexpr unsigned int SummonUnitGroupConfig_TypeDefinitionIndex = 16893;
 
 	class SummonUnitGroupConfig : public ::RPG::GameCore::JsonConfig
 	{

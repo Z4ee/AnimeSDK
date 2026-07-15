@@ -3,7 +3,7 @@
 
 namespace UnityEngine::UI
 {
-	inline static constexpr unsigned int CanvasScaler_ScreenMatchMode_TypeDefinitionIndex = 5920;
+	inline static constexpr unsigned int CanvasScaler_ScreenMatchMode_TypeDefinitionIndex = 5925;
 
 	enum class CanvasScaler_ScreenMatchMode : ::System::Int32
 	{

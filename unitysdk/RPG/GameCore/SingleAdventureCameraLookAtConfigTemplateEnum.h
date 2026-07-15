@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SingleAdventureCameraLookAtConfigTemplateEnum_TypeDefinitionIndex = 23254;
+	inline static constexpr unsigned int SingleAdventureCameraLookAtConfigTemplateEnum_TypeDefinitionIndex = 23739;
 
 	enum class SingleAdventureCameraLookAtConfigTemplateEnum : ::System::Int32
 	{

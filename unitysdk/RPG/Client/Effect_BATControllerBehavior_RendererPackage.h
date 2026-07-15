@@ -7,12 +7,12 @@ namespace UnityEngine { class Renderer; }
 namespace UnityEngine { class Texture2D; }
 namespace UnityEngine { class Texture; }
 
-#define RPG_CLIENT_EFFECT_BATCONTROLLERBEHAVIOR_RENDERERPACKAGE_METHOD_1_2BAD32BC896505A6_OFFSET UNITYSDK_OFFSET(0xB842BB0)
-#define RPG_CLIENT_EFFECT_BATCONTROLLERBEHAVIOR_RENDERERPACKAGE__CTOR_OFFSET UNITYSDK_OFFSET(0xB843200)
+#define RPG_CLIENT_EFFECT_BATCONTROLLERBEHAVIOR_RENDERERPACKAGE_METHOD_1_2BAD32BC896505A6_OFFSET UNITYSDK_OFFSET(0x150DE6C0)
+#define RPG_CLIENT_EFFECT_BATCONTROLLERBEHAVIOR_RENDERERPACKAGE__CTOR_OFFSET UNITYSDK_OFFSET(0x150DE870)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int Effect_BATControllerBehavior_RendererPackage_TypeDefinitionIndex = 65857;
+	inline static constexpr unsigned int Effect_BATControllerBehavior_RendererPackage_TypeDefinitionIndex = 67274;
 
 	class Effect_BATControllerBehavior_RendererPackage : public ::System::Object
 	{

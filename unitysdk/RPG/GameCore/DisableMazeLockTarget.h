@@ -5,13 +5,13 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class TargetEvaluator; }
 
-#define RPG_GAMECORE_DISABLEMAZELOCKTARGET_METHOD_3_A8F197A596744DDB_OFFSET UNITYSDK_OFFSET(0x196BC950)
-#define RPG_GAMECORE_DISABLEMAZELOCKTARGET_METHOD_3_C5F557868227D07F_OFFSET UNITYSDK_OFFSET(0x196BC9D0)
-#define RPG_GAMECORE_DISABLEMAZELOCKTARGET__CTOR_OFFSET UNITYSDK_OFFSET(0x196BC9A0)
+#define RPG_GAMECORE_DISABLEMAZELOCKTARGET_METHOD_3_C5F557868227D07F_OFFSET UNITYSDK_OFFSET(0x1BB18A10)
+#define RPG_GAMECORE_DISABLEMAZELOCKTARGET_METHOD_3_D67585EF87A9F3C8_OFFSET UNITYSDK_OFFSET(0x1BB189C0)
+#define RPG_GAMECORE_DISABLEMAZELOCKTARGET__CTOR_OFFSET UNITYSDK_OFFSET(0x1BB18A00)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int DisableMazeLockTarget_TypeDefinitionIndex = 19028;
+	inline static constexpr unsigned int DisableMazeLockTarget_TypeDefinitionIndex = 19381;
 
 	class DisableMazeLockTarget : public ::RPG::GameCore::TaskConfig
 	{
@@ -24,9 +24,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_DISABLEMAZELOCKTARGET__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_A8F197A596744DDB(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::DisableMazeLockTarget*& a2)
+		static ::System::Void Method_3_D67585EF87A9F3C8(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::DisableMazeLockTarget*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::DisableMazeLockTarget*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_DISABLEMAZELOCKTARGET_METHOD_3_A8F197A596744DDB_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::DisableMazeLockTarget*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_DISABLEMAZELOCKTARGET_METHOD_3_D67585EF87A9F3C8_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_C5F557868227D07F(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::DisableMazeLockTarget* a2)

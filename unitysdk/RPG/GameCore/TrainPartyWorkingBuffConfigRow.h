@@ -6,19 +6,19 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_TRAINPARTYWORKINGBUFFCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x19DFA680)
-#define RPG_GAMECORE_TRAINPARTYWORKINGBUFFCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x19DFA8E0)
+#define RPG_GAMECORE_TRAINPARTYWORKINGBUFFCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B038A60)
+#define RPG_GAMECORE_TRAINPARTYWORKINGBUFFCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1B038CC0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TrainPartyWorkingBuffConfigRow_TypeDefinitionIndex = 14555;
+	inline static constexpr unsigned int TrainPartyWorkingBuffConfigRow_TypeDefinitionIndex = 14713;
 
 	class TrainPartyWorkingBuffConfigRow : public ::System::Object
 	{
 	public:
 		::System::String* IconPath; // 0x10
-		::RPG::Client::TextID Name; // 0x18
-		::System::UInt32 WorkingBuffID; // 0x28
+		::System::UInt32 WorkingBuffID; // 0x18
+		::RPG::Client::TextID Name; // 0x20
 		::RPG::Client::TextID Description; // 0x30
 
 		::System::Void _ctor()

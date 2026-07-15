@@ -4,7 +4,7 @@
 
 namespace RPG::Embree
 {
-	inline static constexpr unsigned int EmbreeWrapperUnsafe_RTCIntersectArguments_TypeDefinitionIndex = 44384;
+	inline static constexpr unsigned int EmbreeWrapperUnsafe_RTCIntersectArguments_TypeDefinitionIndex = 45254;
 
 	struct alignas(8) EmbreeWrapperUnsafe_RTCIntersectArguments
 	{

@@ -6,12 +6,12 @@
 
 namespace System::Runtime::CompilerServices { class IAsyncStateMachine; }
 
-#define RPG_CUSTOMRP_DLSSPASS__WARMUP_D__4_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x3849920)
-#define RPG_CUSTOMRP_DLSSPASS__WARMUP_D__4_SETSTATEMACHINE_OFFSET UNITYSDK_OFFSET(0x13C2B0)
+#define RPG_CUSTOMRP_DLSSPASS__WARMUP_D__4_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x3945F80)
+#define RPG_CUSTOMRP_DLSSPASS__WARMUP_D__4_SETSTATEMACHINE_OFFSET UNITYSDK_OFFSET(0x38D1DC0)
 
 namespace RPG::CustomRP
 {
-	inline static constexpr unsigned int DLSSPass__Warmup_d__4_TypeDefinitionIndex = 35234;
+	inline static constexpr unsigned int DLSSPass__Warmup_d__4_TypeDefinitionIndex = 36016;
 
 	struct alignas(8) DLSSPass__Warmup_d__4
 	{

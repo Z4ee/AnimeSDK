@@ -4,13 +4,13 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_CONVINCEPANELACTIVE_METHOD_3_4D5D2BB3EC7934D6_OFFSET UNITYSDK_OFFSET(0x1967DF90)
-#define RPG_GAMECORE_CONVINCEPANELACTIVE_METHOD_3_81EECD333FA9F64F_OFFSET UNITYSDK_OFFSET(0x1967DF10)
-#define RPG_GAMECORE_CONVINCEPANELACTIVE__CTOR_OFFSET UNITYSDK_OFFSET(0x1967DF60)
+#define RPG_GAMECORE_CONVINCEPANELACTIVE_METHOD_3_4D5D2BB3EC7934D6_OFFSET UNITYSDK_OFFSET(0x1BC36730)
+#define RPG_GAMECORE_CONVINCEPANELACTIVE_METHOD_3_9EB7E3E0B3776E87_OFFSET UNITYSDK_OFFSET(0x1BC366F0)
+#define RPG_GAMECORE_CONVINCEPANELACTIVE__CTOR_OFFSET UNITYSDK_OFFSET(0x1BC36720)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ConvincePanelActive_TypeDefinitionIndex = 20622;
+	inline static constexpr unsigned int ConvincePanelActive_TypeDefinitionIndex = 21037;
 
 	class ConvincePanelActive : public ::RPG::GameCore::TaskConfig
 	{
@@ -23,9 +23,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CONVINCEPANELACTIVE__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_81EECD333FA9F64F(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ConvincePanelActive*& a2)
+		static ::System::Void Method_3_9EB7E3E0B3776E87(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ConvincePanelActive*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ConvincePanelActive*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CONVINCEPANELACTIVE_METHOD_3_81EECD333FA9F64F_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ConvincePanelActive*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CONVINCEPANELACTIVE_METHOD_3_9EB7E3E0B3776E87_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_4D5D2BB3EC7934D6(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ConvincePanelActive* a2)

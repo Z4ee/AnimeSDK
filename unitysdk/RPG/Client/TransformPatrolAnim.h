@@ -13,15 +13,14 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class Animator; }
 namespace UnityEngine { class Transform; }
 
-#define RPG_CLIENT_TRANSFORMPATROLANIM_GETTICKLODTEMPLATENAME_OFFSET UNITYSDK_OFFSET(0xCACCB60)
-#define RPG_CLIENT_TRANSFORMPATROLANIM_GET_ARTBOUNDFULL_OFFSET UNITYSDK_OFFSET(0xCACC2E0)
-#define RPG_CLIENT_TRANSFORMPATROLANIM_GET_ARTBOUND_OFFSET UNITYSDK_OFFSET(0xCACC9C0)
-#define RPG_CLIENT_TRANSFORMPATROLANIM__CTOR_OFFSET UNITYSDK_OFFSET(0xCACCBB0)
-#define RPG_CLIENT_TRANSFORMPATROLANIM___IFIXBASEPROXY_GETTICKLODTEMPLATENAME_OFFSET UNITYSDK_OFFSET(0xCACCF90)
+#define RPG_CLIENT_TRANSFORMPATROLANIM_GETTICKLODTEMPLATENAME_OFFSET UNITYSDK_OFFSET(0x1989D680)
+#define RPG_CLIENT_TRANSFORMPATROLANIM_GET_ARTBOUNDFULL_OFFSET UNITYSDK_OFFSET(0x1989CE00)
+#define RPG_CLIENT_TRANSFORMPATROLANIM_GET_ARTBOUND_OFFSET UNITYSDK_OFFSET(0x1989D4E0)
+#define RPG_CLIENT_TRANSFORMPATROLANIM__CTOR_OFFSET UNITYSDK_OFFSET(0x1989D6D0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int TransformPatrolAnim_TypeDefinitionIndex = 65765;
+	inline static constexpr unsigned int TransformPatrolAnim_TypeDefinitionIndex = 67182;
 
 	class TransformPatrolAnim : public ::RPG::Client::TAMonoPlugin_1<::RPG::Client::TransformPatrolAnimBehavior*>
 	{
@@ -60,11 +59,6 @@ namespace RPG::Client
 		::System::String* GetTickLodTemplateName()
 		{
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_TRANSFORMPATROLANIM_GETTICKLODTEMPLATENAME_OFFSET))(this);
-		}
-
-		::System::String* __iFixBaseProxy_GetTickLodTemplateName()
-		{
-			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_TRANSFORMPATROLANIM___IFIXBASEPROXY_GETTICKLODTEMPLATENAME_OFFSET))(this);
 		}
 	};
 }

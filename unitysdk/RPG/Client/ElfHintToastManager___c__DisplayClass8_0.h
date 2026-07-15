@@ -5,12 +5,12 @@
 namespace RPG::Client { class ElfShopItemData; }
 namespace RPG::Client { template <typename T> class PrefHashSet_1; }
 
-#define RPG_CLIENT_ELFHINTTOASTMANAGER___C__DISPLAYCLASS8_0__CTOR_OFFSET UNITYSDK_OFFSET(0xB8C5E20)
-#define RPG_CLIENT_ELFHINTTOASTMANAGER___C__DISPLAYCLASS8_0___CHECKSHOPGOODSHINTS_B__0_OFFSET UNITYSDK_OFFSET(0xB8C5E30)
+#define RPG_CLIENT_ELFHINTTOASTMANAGER___C__DISPLAYCLASS8_0__CTOR_OFFSET UNITYSDK_OFFSET(0x18E3B420)
+#define RPG_CLIENT_ELFHINTTOASTMANAGER___C__DISPLAYCLASS8_0___CHECKSHOPGOODSHINTS_B__0_OFFSET UNITYSDK_OFFSET(0x18E3B430)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ElfHintToastManager___c__DisplayClass8_0_TypeDefinitionIndex = 59629;
+	inline static constexpr unsigned int ElfHintToastManager___c__DisplayClass8_0_TypeDefinitionIndex = 60914;
 
 	class ElfHintToastManager___c__DisplayClass8_0 : public ::System::Object
 	{

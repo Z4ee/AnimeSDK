@@ -6,15 +6,14 @@
 
 namespace RPGTools::Timeline { class ConvincePanelActiveClip; }
 
-#define RPGTOOLS_TIMELINE_CONVINCEPANELACTIVEBEHAVIOUR_GET_CLIP_OFFSET UNITYSDK_OFFSET(0xCFFC210)
-#define RPGTOOLS_TIMELINE_CONVINCEPANELACTIVEBEHAVIOUR_ONBEHAVIOURPLAY_OFFSET UNITYSDK_OFFSET(0xCFFC230)
-#define RPGTOOLS_TIMELINE_CONVINCEPANELACTIVEBEHAVIOUR_SET_CLIP_OFFSET UNITYSDK_OFFSET(0xCFFC220)
-#define RPGTOOLS_TIMELINE_CONVINCEPANELACTIVEBEHAVIOUR__CTOR_OFFSET UNITYSDK_OFFSET(0xCFFC440)
-#define RPGTOOLS_TIMELINE_CONVINCEPANELACTIVEBEHAVIOUR___IFIXBASEPROXY_ONBEHAVIOURPLAY_OFFSET UNITYSDK_OFFSET(0xCFFC450)
+#define RPGTOOLS_TIMELINE_CONVINCEPANELACTIVEBEHAVIOUR_GET_CLIP_OFFSET UNITYSDK_OFFSET(0x1B363D80)
+#define RPGTOOLS_TIMELINE_CONVINCEPANELACTIVEBEHAVIOUR_ONBEHAVIOURPLAY_OFFSET UNITYSDK_OFFSET(0x1B363DA0)
+#define RPGTOOLS_TIMELINE_CONVINCEPANELACTIVEBEHAVIOUR_SET_CLIP_OFFSET UNITYSDK_OFFSET(0x1B363D90)
+#define RPGTOOLS_TIMELINE_CONVINCEPANELACTIVEBEHAVIOUR__CTOR_OFFSET UNITYSDK_OFFSET(0x1B363FB0)
 
 namespace RPGTools::Timeline
 {
-	inline static constexpr unsigned int ConvincePanelActiveBehaviour_TypeDefinitionIndex = 45350;
+	inline static constexpr unsigned int ConvincePanelActiveBehaviour_TypeDefinitionIndex = 46274;
 
 	class ConvincePanelActiveBehaviour : public ::UnityEngine::Playables::PlayableBehaviour
 	{
@@ -39,11 +38,6 @@ namespace RPGTools::Timeline
 		::System::Void OnBehaviourPlay(::UnityEngine::Playables::Playable a1, ::UnityEngine::Playables::FrameData a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::UnityEngine::Playables::Playable, ::UnityEngine::Playables::FrameData))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_CONVINCEPANELACTIVEBEHAVIOUR_ONBEHAVIOURPLAY_OFFSET))(this, a1, a2);
-		}
-
-		::System::Void __iFixBaseProxy_OnBehaviourPlay(::UnityEngine::Playables::Playable a1, ::UnityEngine::Playables::FrameData a2)
-		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Playables::Playable, ::UnityEngine::Playables::FrameData))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_CONVINCEPANELACTIVEBEHAVIOUR___IFIXBASEPROXY_ONBEHAVIOURPLAY_OFFSET))(this, a1, a2);
 		}
 	};
 }

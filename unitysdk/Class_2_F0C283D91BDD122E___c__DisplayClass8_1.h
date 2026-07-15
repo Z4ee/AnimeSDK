@@ -6,17 +6,17 @@ class Class_2_F0C283D91BDD122E___c__DisplayClass8_0;
 namespace System { class String; }
 namespace UnityEngine { class Texture2D; }
 
-#define CLASS_2_F0C283D91BDD122E___C__DISPLAYCLASS8_1__CTOR_OFFSET UNITYSDK_OFFSET(0xA75B1B0)
-#define CLASS_2_F0C283D91BDD122E___C__DISPLAYCLASS8_1___REFRESHREPLACETVTEXTURE_B__0_OFFSET UNITYSDK_OFFSET(0xA75B720)
+#define CLASS_2_F0C283D91BDD122E___C__DISPLAYCLASS8_1__CTOR_OFFSET UNITYSDK_OFFSET(0x18731B10)
+#define CLASS_2_F0C283D91BDD122E___C__DISPLAYCLASS8_1___REFRESHREPLACETVTEXTURE_B__0_OFFSET UNITYSDK_OFFSET(0x18732070)
 
-inline static constexpr unsigned int Class_2_F0C283D91BDD122E___c__DisplayClass8_1_TypeDefinitionIndex = 53638;
+inline static constexpr unsigned int Class_2_F0C283D91BDD122E___c__DisplayClass8_1_TypeDefinitionIndex = 54857;
 
 class Class_2_F0C283D91BDD122E___c__DisplayClass8_1 : public ::System::Object
 {
 public:
 	::System::String* textureKey; // 0x10
-	::Class_2_F0C283D91BDD122E___c__DisplayClass8_0* CS___8__locals1; // 0x18
-	::System::String* texturePath; // 0x20
+	::System::String* texturePath; // 0x18
+	::Class_2_F0C283D91BDD122E___c__DisplayClass8_0* CS___8__locals1; // 0x20
 
 	::System::Void _ctor()
 	{

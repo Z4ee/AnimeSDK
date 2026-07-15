@@ -7,16 +7,14 @@ namespace System { class String; }
 namespace UnityEngine { class AnimationCurve; }
 namespace UnityEngine { class Animator; }
 
-#define RPG_CLIENT_STATEFLOATPARAMMODIFYBYNORMALIZETIME_METHOD_4_15BEFE33A35D6EF8_OFFSET UNITYSDK_OFFSET(0xC923660)
-#define RPG_CLIENT_STATEFLOATPARAMMODIFYBYNORMALIZETIME_ONSTATEENTER_OFFSET UNITYSDK_OFFSET(0xC923700)
-#define RPG_CLIENT_STATEFLOATPARAMMODIFYBYNORMALIZETIME_ONSTATEUPDATE_OFFSET UNITYSDK_OFFSET(0xC9238E0)
-#define RPG_CLIENT_STATEFLOATPARAMMODIFYBYNORMALIZETIME__CTOR_OFFSET UNITYSDK_OFFSET(0xC923A80)
-#define RPG_CLIENT_STATEFLOATPARAMMODIFYBYNORMALIZETIME___IFIXBASEPROXY_ONSTATEENTER_OFFSET UNITYSDK_OFFSET(0xC923B20)
-#define RPG_CLIENT_STATEFLOATPARAMMODIFYBYNORMALIZETIME___IFIXBASEPROXY_ONSTATEUPDATE_OFFSET UNITYSDK_OFFSET(0xC923B30)
+#define RPG_CLIENT_STATEFLOATPARAMMODIFYBYNORMALIZETIME_METHOD_4_15BEFE33A35D6EF8_OFFSET UNITYSDK_OFFSET(0x17B63EC0)
+#define RPG_CLIENT_STATEFLOATPARAMMODIFYBYNORMALIZETIME_ONSTATEENTER_OFFSET UNITYSDK_OFFSET(0x17B63F60)
+#define RPG_CLIENT_STATEFLOATPARAMMODIFYBYNORMALIZETIME_ONSTATEUPDATE_OFFSET UNITYSDK_OFFSET(0x17B64140)
+#define RPG_CLIENT_STATEFLOATPARAMMODIFYBYNORMALIZETIME__CTOR_OFFSET UNITYSDK_OFFSET(0x17B642E0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int StateFloatParamModifyByNormalizeTime_TypeDefinitionIndex = 64383;
+	inline static constexpr unsigned int StateFloatParamModifyByNormalizeTime_TypeDefinitionIndex = 65754;
 
 	class StateFloatParamModifyByNormalizeTime : public ::UnityEngine::StateMachineBehaviour
 	{
@@ -45,16 +43,6 @@ namespace RPG::Client
 		::System::Void OnStateUpdate(::UnityEngine::Animator* a1, ::UnityEngine::AnimatorStateInfo a2, ::System::Int32 a3)
 		{
 			return ((::System::Void(*)(::PVOID, ::UnityEngine::Animator*, ::UnityEngine::AnimatorStateInfo, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_STATEFLOATPARAMMODIFYBYNORMALIZETIME_ONSTATEUPDATE_OFFSET))(this, a1, a2, a3);
-		}
-
-		::System::Void __iFixBaseProxy_OnStateEnter(::UnityEngine::Animator* a1, ::UnityEngine::AnimatorStateInfo a2, ::System::Int32 a3)
-		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Animator*, ::UnityEngine::AnimatorStateInfo, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_STATEFLOATPARAMMODIFYBYNORMALIZETIME___IFIXBASEPROXY_ONSTATEENTER_OFFSET))(this, a1, a2, a3);
-		}
-
-		::System::Void __iFixBaseProxy_OnStateUpdate(::UnityEngine::Animator* a1, ::UnityEngine::AnimatorStateInfo a2, ::System::Int32 a3)
-		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Animator*, ::UnityEngine::AnimatorStateInfo, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_STATEFLOATPARAMMODIFYBYNORMALIZETIME___IFIXBASEPROXY_ONSTATEUPDATE_OFFSET))(this, a1, a2, a3);
 		}
 	};
 }

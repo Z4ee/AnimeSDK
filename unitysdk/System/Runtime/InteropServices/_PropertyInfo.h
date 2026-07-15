@@ -3,7 +3,7 @@
 
 namespace System::Runtime::InteropServices
 {
-	inline static constexpr unsigned int _PropertyInfo_TypeDefinitionIndex = 1441;
+	inline static constexpr unsigned int _PropertyInfo_TypeDefinitionIndex = 1445;
 
 	class _PropertyInfo
 	{

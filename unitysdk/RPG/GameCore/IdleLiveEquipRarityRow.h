@@ -6,24 +6,24 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_IDLELIVEEQUIPRARITYROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x19842890)
-#define RPG_GAMECORE_IDLELIVEEQUIPRARITYROW__CTOR_OFFSET UNITYSDK_OFFSET(0x19842C10)
+#define RPG_GAMECORE_IDLELIVEEQUIPRARITYROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B6950A0)
+#define RPG_GAMECORE_IDLELIVEEQUIPRARITYROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1B695420)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int IdleLiveEquipRarityRow_TypeDefinitionIndex = 11247;
+	inline static constexpr unsigned int IdleLiveEquipRarityRow_TypeDefinitionIndex = 11347;
 
 	class IdleLiveEquipRarityRow : public ::System::Object
 	{
 	public:
-		::System::String* RarityIcon; // 0x10
-		::System::String* StateName; // 0x18
-		::System::String* OrbEffectPath; // 0x20
-		::System::String* RarityBg; // 0x28
-		::System::UInt32 Rarity; // 0x30
-		::RPG::GameCore::FixPoint EquipRarityAddPower; // 0x38
-		::RPG::GameCore::FixPoint SpEquipRarityAddPower; // 0x40
-		::RPG::GameCore::FixPoint SpEquipPowerFactor; // 0x48
+		::System::String* OrbEffectPath; // 0x10
+		::System::String* RarityBg; // 0x18
+		::System::String* RarityIcon; // 0x20
+		::System::String* StateName; // 0x28
+		::RPG::GameCore::FixPoint EquipRarityAddPower; // 0x30
+		::RPG::GameCore::FixPoint SpEquipRarityAddPower; // 0x38
+		::RPG::GameCore::FixPoint SpEquipPowerFactor; // 0x40
+		::System::UInt32 Rarity; // 0x48
 
 		::System::Void _ctor()
 		{

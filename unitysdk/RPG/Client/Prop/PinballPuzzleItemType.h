@@ -3,7 +3,7 @@
 
 namespace RPG::Client::Prop
 {
-	inline static constexpr unsigned int PinballPuzzleItemType_TypeDefinitionIndex = 73287;
+	inline static constexpr unsigned int PinballPuzzleItemType_TypeDefinitionIndex = 74812;
 
 	enum class PinballPuzzleItemType : ::System::Int32
 	{

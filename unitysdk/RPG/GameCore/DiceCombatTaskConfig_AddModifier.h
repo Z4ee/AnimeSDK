@@ -6,13 +6,13 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class DynamicFloat; }
 
-#define RPG_GAMECORE_DICECOMBATTASKCONFIG_ADDMODIFIER_METHOD_3_5A01598E34DD80FF_OFFSET UNITYSDK_OFFSET(0x196B1820)
-#define RPG_GAMECORE_DICECOMBATTASKCONFIG_ADDMODIFIER_METHOD_3_7A72BF8A3700476E_OFFSET UNITYSDK_OFFSET(0x196B8580)
-#define RPG_GAMECORE_DICECOMBATTASKCONFIG_ADDMODIFIER__CTOR_OFFSET UNITYSDK_OFFSET(0x196B1740)
+#define RPG_GAMECORE_DICECOMBATTASKCONFIG_ADDMODIFIER_METHOD_3_30CE40DB27AF4BCB_OFFSET UNITYSDK_OFFSET(0x1C1178F0)
+#define RPG_GAMECORE_DICECOMBATTASKCONFIG_ADDMODIFIER_METHOD_3_5A01598E34DD80FF_OFFSET UNITYSDK_OFFSET(0x1C117A50)
+#define RPG_GAMECORE_DICECOMBATTASKCONFIG_ADDMODIFIER__CTOR_OFFSET UNITYSDK_OFFSET(0x1C1179C0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int DiceCombatTaskConfig_AddModifier_TypeDefinitionIndex = 15287;
+	inline static constexpr unsigned int DiceCombatTaskConfig_AddModifier_TypeDefinitionIndex = 15451;
 
 	class DiceCombatTaskConfig_AddModifier : public ::RPG::GameCore::DiceCombatTaskConfig
 	{
@@ -27,9 +27,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_DICECOMBATTASKCONFIG_ADDMODIFIER__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_7A72BF8A3700476E(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::DiceCombatTaskConfig_AddModifier*& a2)
+		static ::System::Void Method_3_30CE40DB27AF4BCB(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::DiceCombatTaskConfig_AddModifier*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::DiceCombatTaskConfig_AddModifier*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_DICECOMBATTASKCONFIG_ADDMODIFIER_METHOD_3_7A72BF8A3700476E_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::DiceCombatTaskConfig_AddModifier*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_DICECOMBATTASKCONFIG_ADDMODIFIER_METHOD_3_30CE40DB27AF4BCB_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_5A01598E34DD80FF(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::DiceCombatTaskConfig_AddModifier* a2)

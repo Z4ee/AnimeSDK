@@ -5,12 +5,12 @@
 namespace RPG::Client::Challenge::Tierce { class ChallengeTierceStageSelectTabViewModel; }
 namespace RPG::Client::Challenge::Tierce { class ChallengeTierceStageSelectTabsViewModel; }
 
-#define RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCESTAGESELECTTABSVIEWMODEL___C__DISPLAYCLASS21_0__CTOR_OFFSET UNITYSDK_OFFSET(0xB4E3570)
-#define RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCESTAGESELECTTABSVIEWMODEL___C__DISPLAYCLASS21_0___CTOR_B__0_OFFSET UNITYSDK_OFFSET(0xB4E3970)
+#define RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCESTAGESELECTTABSVIEWMODEL___C__DISPLAYCLASS21_0__CTOR_OFFSET UNITYSDK_OFFSET(0x18773F50)
+#define RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCESTAGESELECTTABSVIEWMODEL___C__DISPLAYCLASS21_0___CTOR_B__0_OFFSET UNITYSDK_OFFSET(0x18774470)
 
 namespace RPG::Client::Challenge::Tierce
 {
-	inline static constexpr unsigned int ChallengeTierceStageSelectTabsViewModel___c__DisplayClass21_0_TypeDefinitionIndex = 74273;
+	inline static constexpr unsigned int ChallengeTierceStageSelectTabsViewModel___c__DisplayClass21_0_TypeDefinitionIndex = 76657;
 
 	class ChallengeTierceStageSelectTabsViewModel___c__DisplayClass21_0 : public ::System::Object
 	{

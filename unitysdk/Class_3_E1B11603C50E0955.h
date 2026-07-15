@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class ByCompareMatchThreeBirdLocation; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_E1B11603C50E0955_EVALUATE_OFFSET UNITYSDK_OFFSET(0x143FD2D0)
-#define CLASS_3_E1B11603C50E0955__CTOR_OFFSET UNITYSDK_OFFSET(0x143FD2A0)
+#define CLASS_3_E1B11603C50E0955_EVALUATE_OFFSET UNITYSDK_OFFSET(0x170ABF40)
+#define CLASS_3_E1B11603C50E0955__CTOR_OFFSET UNITYSDK_OFFSET(0x170ABF10)
 
-inline static constexpr unsigned int Class_3_E1B11603C50E0955_TypeDefinitionIndex = 49550;
+inline static constexpr unsigned int Class_3_E1B11603C50E0955_TypeDefinitionIndex = 50604;
 
 class Class_3_E1B11603C50E0955 : public ::RPG::GameCore::PredicateTaskBase_1<::RPG::GameCore::ByCompareMatchThreeBirdLocation*>
 {

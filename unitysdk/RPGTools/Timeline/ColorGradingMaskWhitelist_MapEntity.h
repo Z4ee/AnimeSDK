@@ -4,7 +4,7 @@
 
 namespace RPGTools::Timeline
 {
-	inline static constexpr unsigned int ColorGradingMaskWhitelist_MapEntity_TypeDefinitionIndex = 45736;
+	inline static constexpr unsigned int ColorGradingMaskWhitelist_MapEntity_TypeDefinitionIndex = 46675;
 
 	struct alignas(4) ColorGradingMaskWhitelist_MapEntity
 	{

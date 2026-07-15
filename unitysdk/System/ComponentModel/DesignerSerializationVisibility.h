@@ -3,7 +3,7 @@
 
 namespace System::ComponentModel
 {
-	inline static constexpr unsigned int DesignerSerializationVisibility_TypeDefinitionIndex = 2573;
+	inline static constexpr unsigned int DesignerSerializationVisibility_TypeDefinitionIndex = 2577;
 
 	enum class DesignerSerializationVisibility : ::System::Int32
 	{

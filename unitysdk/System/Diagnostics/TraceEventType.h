@@ -3,7 +3,7 @@
 
 namespace System::Diagnostics
 {
-	inline static constexpr unsigned int TraceEventType_TypeDefinitionIndex = 2527;
+	inline static constexpr unsigned int TraceEventType_TypeDefinitionIndex = 2531;
 
 	enum class TraceEventType : ::System::Int32
 	{

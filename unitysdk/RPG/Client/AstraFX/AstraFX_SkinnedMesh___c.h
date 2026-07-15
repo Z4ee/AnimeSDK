@@ -6,29 +6,29 @@
 namespace RPG::Client::AstraFX { class AstraFX_SkinnedMesh_PassSettingByMesh; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define RPG_CLIENT_ASTRAFX_ASTRAFX_SKINNEDMESH___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xB335E40)
-#define RPG_CLIENT_ASTRAFX_ASTRAFX_SKINNEDMESH___C__CTOR_OFFSET UNITYSDK_OFFSET(0xB335E80)
-#define RPG_CLIENT_ASTRAFX_ASTRAFX_SKINNEDMESH___C__RESETSIMULATIONSTATE_B__5_0_OFFSET UNITYSDK_OFFSET(0xB335E90)
-#define RPG_CLIENT_ASTRAFX_ASTRAFX_SKINNEDMESH___C__RESETSIMULATIONSTATE_B__5_1_OFFSET UNITYSDK_OFFSET(0xB335FB0)
+#define RPG_CLIENT_ASTRAFX_ASTRAFX_SKINNEDMESH___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x19B3ADA0)
+#define RPG_CLIENT_ASTRAFX_ASTRAFX_SKINNEDMESH___C__CTOR_OFFSET UNITYSDK_OFFSET(0x19B3ADE0)
+#define RPG_CLIENT_ASTRAFX_ASTRAFX_SKINNEDMESH___C__RESETSIMULATIONSTATE_B__5_0_OFFSET UNITYSDK_OFFSET(0x19B3ADF0)
+#define RPG_CLIENT_ASTRAFX_ASTRAFX_SKINNEDMESH___C__RESETSIMULATIONSTATE_B__5_1_OFFSET UNITYSDK_OFFSET(0x19B3AF10)
 
 namespace RPG::Client::AstraFX
 {
-	inline static constexpr unsigned int AstraFX_SkinnedMesh___c_TypeDefinitionIndex = 68787;
+	inline static constexpr unsigned int AstraFX_SkinnedMesh___c_TypeDefinitionIndex = 70287;
 
 	class AstraFX_SkinnedMesh___c : public ::System::Object
 	{
 	public:
 		static ::RPG::Client::AstraFX::AstraFX_SkinnedMesh___c** StaticGet___9()
 		{
-			return (::RPG::Client::AstraFX::AstraFX_SkinnedMesh___c**)Il2CppClass::FromTypeDefinitionIndex(AstraFX_SkinnedMesh___c_TypeDefinitionIndex)->GetStaticField(0x62140);
-		}
-		static ::System::Func_2<::RPG::Client::AstraFX::AstraFX_SkinnedMesh_SkinnedMeshBinder, ::System::Boolean>** StaticGet___9__5_0()
-		{
-			return (::System::Func_2<::RPG::Client::AstraFX::AstraFX_SkinnedMesh_SkinnedMeshBinder, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(AstraFX_SkinnedMesh___c_TypeDefinitionIndex)->GetStaticField(0x62148);
+			return (::RPG::Client::AstraFX::AstraFX_SkinnedMesh___c**)Il2CppClass::FromTypeDefinitionIndex(AstraFX_SkinnedMesh___c_TypeDefinitionIndex)->GetStaticField(0x55370);
 		}
 		static ::System::Func_2<::RPG::Client::AstraFX::AstraFX_SkinnedMesh_PassSettingByMesh*, ::System::Boolean>** StaticGet___9__5_1()
 		{
-			return (::System::Func_2<::RPG::Client::AstraFX::AstraFX_SkinnedMesh_PassSettingByMesh*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(AstraFX_SkinnedMesh___c_TypeDefinitionIndex)->GetStaticField(0x62150);
+			return (::System::Func_2<::RPG::Client::AstraFX::AstraFX_SkinnedMesh_PassSettingByMesh*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(AstraFX_SkinnedMesh___c_TypeDefinitionIndex)->GetStaticField(0x55378);
+		}
+		static ::System::Func_2<::RPG::Client::AstraFX::AstraFX_SkinnedMesh_SkinnedMeshBinder, ::System::Boolean>** StaticGet___9__5_0()
+		{
+			return (::System::Func_2<::RPG::Client::AstraFX::AstraFX_SkinnedMesh_SkinnedMeshBinder, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(AstraFX_SkinnedMesh___c_TypeDefinitionIndex)->GetStaticField(0x55380);
 		}
 
 		static ::System::Void _cctor()

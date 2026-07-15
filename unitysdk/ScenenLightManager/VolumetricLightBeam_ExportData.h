@@ -11,11 +11,11 @@
 class Class_4_F5F252917445E3C5_ExtraExportData;
 namespace UnityEngine { class Gradient; }
 
-#define SCENENLIGHTMANAGER_VOLUMETRICLIGHTBEAM_EXPORTDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xD07DC40)
+#define SCENENLIGHTMANAGER_VOLUMETRICLIGHTBEAM_EXPORTDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x19F6E970)
 
 namespace ScenenLightManager
 {
-	inline static constexpr unsigned int VolumetricLightBeam_ExportData_TypeDefinitionIndex = 46286;
+	inline static constexpr unsigned int VolumetricLightBeam_ExportData_TypeDefinitionIndex = 47251;
 
 	class VolumetricLightBeam_ExportData : public ::ScenenLightManager::BaseComponentExportData
 	{

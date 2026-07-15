@@ -6,13 +6,13 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class DynamicFloat; }
 
-#define RPG_GAMECORE_SETLEVELCHALLENGETURNLIMIT_METHOD_3_656347DAADC7C16D_OFFSET UNITYSDK_OFFSET(0x19C53570)
-#define RPG_GAMECORE_SETLEVELCHALLENGETURNLIMIT_METHOD_3_83C5868FBDE16B6E_OFFSET UNITYSDK_OFFSET(0x19C534F0)
-#define RPG_GAMECORE_SETLEVELCHALLENGETURNLIMIT__CTOR_OFFSET UNITYSDK_OFFSET(0x19C53540)
+#define RPG_GAMECORE_SETLEVELCHALLENGETURNLIMIT_METHOD_3_656347DAADC7C16D_OFFSET UNITYSDK_OFFSET(0x1C5FE260)
+#define RPG_GAMECORE_SETLEVELCHALLENGETURNLIMIT_METHOD_3_714951B26AF500F8_OFFSET UNITYSDK_OFFSET(0x1C5FE220)
+#define RPG_GAMECORE_SETLEVELCHALLENGETURNLIMIT__CTOR_OFFSET UNITYSDK_OFFSET(0x1C5FE250)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SetLevelChallengeTurnLimit_TypeDefinitionIndex = 21878;
+	inline static constexpr unsigned int SetLevelChallengeTurnLimit_TypeDefinitionIndex = 22305;
 
 	class SetLevelChallengeTurnLimit : public ::RPG::GameCore::TaskConfig
 	{
@@ -25,9 +25,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETLEVELCHALLENGETURNLIMIT__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_83C5868FBDE16B6E(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SetLevelChallengeTurnLimit*& a2)
+		static ::System::Void Method_3_714951B26AF500F8(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SetLevelChallengeTurnLimit*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SetLevelChallengeTurnLimit*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETLEVELCHALLENGETURNLIMIT_METHOD_3_83C5868FBDE16B6E_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SetLevelChallengeTurnLimit*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETLEVELCHALLENGETURNLIMIT_METHOD_3_714951B26AF500F8_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_656347DAADC7C16D(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SetLevelChallengeTurnLimit* a2)

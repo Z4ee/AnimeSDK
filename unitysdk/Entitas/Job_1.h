@@ -6,7 +6,7 @@ namespace System { class Exception; }
 
 namespace Entitas
 {
-	inline static constexpr unsigned int Job_1_TypeDefinitionIndex = 9701;
+	inline static constexpr unsigned int Job_1_TypeDefinitionIndex = 9715;
 
 	template <typename TEntity>
 	class Job_1 : public ::System::Object

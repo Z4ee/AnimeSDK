@@ -6,17 +6,17 @@ class Class_1_E23A2D2E72B0716C;
 class Class_1_F9FBCC956DFCF137_25;
 namespace System { class Action; }
 
-#define CLASS_1_E23A2D2E72B0716C___C__DISPLAYCLASS4_0__CTOR_OFFSET UNITYSDK_OFFSET(0x13754BF0)
-#define CLASS_1_E23A2D2E72B0716C___C__DISPLAYCLASS4_0__EXECUTE_B__0_OFFSET UNITYSDK_OFFSET(0x13754EE0)
+#define CLASS_1_E23A2D2E72B0716C___C__DISPLAYCLASS4_0__CTOR_OFFSET UNITYSDK_OFFSET(0x173206A0)
+#define CLASS_1_E23A2D2E72B0716C___C__DISPLAYCLASS4_0__EXECUTE_B__0_OFFSET UNITYSDK_OFFSET(0x17320A60)
 
-inline static constexpr unsigned int Class_1_E23A2D2E72B0716C___c__DisplayClass4_0_TypeDefinitionIndex = 72171;
+inline static constexpr unsigned int Class_1_E23A2D2E72B0716C___c__DisplayClass4_0_TypeDefinitionIndex = 73696;
 
 class Class_1_E23A2D2E72B0716C___c__DisplayClass4_0 : public ::System::Object
 {
 public:
-	::Class_1_E23A2D2E72B0716C* __4__this; // 0x10
-	::System::Action* onComplete; // 0x18
-	::Class_1_F9FBCC956DFCF137_25* context; // 0x20
+	::System::Action* onComplete; // 0x10
+	::Class_1_F9FBCC956DFCF137_25* context; // 0x18
+	::Class_1_E23A2D2E72B0716C* __4__this; // 0x20
 
 	::System::Void _ctor()
 	{

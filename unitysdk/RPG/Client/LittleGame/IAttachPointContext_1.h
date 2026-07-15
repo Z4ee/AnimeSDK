@@ -5,7 +5,7 @@ namespace Entitas { template <typename T> class IMatcher_1; }
 
 namespace RPG::Client::LittleGame
 {
-	inline static constexpr unsigned int IAttachPointContext_1_TypeDefinitionIndex = 38963;
+	inline static constexpr unsigned int IAttachPointContext_1_TypeDefinitionIndex = 39772;
 
 	template <typename TEntity>
 	class IAttachPointContext_1

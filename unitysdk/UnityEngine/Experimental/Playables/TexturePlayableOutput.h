@@ -3,11 +3,11 @@
 #include "unitysdk/System/ValueType.h"
 #include "unitysdk/UnityEngine/Playables/PlayableOutputHandle.h"
 
-#define UNITYENGINE_EXPERIMENTAL_PLAYABLES_TEXTUREPLAYABLEOUTPUT_GETHANDLE_OFFSET UNITYSDK_OFFSET(0x2BC6740)
+#define UNITYENGINE_EXPERIMENTAL_PLAYABLES_TEXTUREPLAYABLEOUTPUT_GETHANDLE_OFFSET UNITYSDK_OFFSET(0x165450)
 
 namespace UnityEngine::Experimental::Playables
 {
-	inline static constexpr unsigned int TexturePlayableOutput_TypeDefinitionIndex = 4912;
+	inline static constexpr unsigned int TexturePlayableOutput_TypeDefinitionIndex = 4917;
 
 	struct alignas(8) TexturePlayableOutput
 	{

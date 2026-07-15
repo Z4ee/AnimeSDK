@@ -3,7 +3,7 @@
 
 namespace Newtonsoft::Json::Bson
 {
-	inline static constexpr unsigned int BsonReader_BsonReaderState_TypeDefinitionIndex = 9500;
+	inline static constexpr unsigned int BsonReader_BsonReaderState_TypeDefinitionIndex = 9512;
 
 	enum class BsonReader_BsonReaderState : ::System::Int32
 	{

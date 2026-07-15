@@ -3,7 +3,7 @@
 
 namespace CriWare::CriMana
 {
-	inline static constexpr unsigned int Player_AudioTrack_TypeDefinitionIndex = 37253;
+	inline static constexpr unsigned int Player_AudioTrack_TypeDefinitionIndex = 38062;
 
 	enum class Player_AudioTrack : ::System::Int32
 	{

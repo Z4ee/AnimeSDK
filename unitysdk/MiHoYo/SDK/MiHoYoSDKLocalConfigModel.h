@@ -6,11 +6,11 @@ namespace MiHoYo::SDK { class MiHoYoSDKConfigUrlModel; }
 namespace MiHoYo::SDK { class MiHoYoSDKEOSParametersModel; }
 namespace System { class String; }
 
-#define MIHOYO_SDK_MIHOYOSDKLOCALCONFIGMODEL__CTOR_OFFSET UNITYSDK_OFFSET(0xA1AB200)
+#define MIHOYO_SDK_MIHOYOSDKLOCALCONFIGMODEL__CTOR_OFFSET UNITYSDK_OFFSET(0x185094A0)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int MiHoYoSDKLocalConfigModel_TypeDefinitionIndex = 43762;
+	inline static constexpr unsigned int MiHoYoSDKLocalConfigModel_TypeDefinitionIndex = 44624;
 
 	class MiHoYoSDKLocalConfigModel : public ::System::Object
 	{

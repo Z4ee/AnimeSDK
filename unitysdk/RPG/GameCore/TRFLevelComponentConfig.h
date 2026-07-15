@@ -5,13 +5,13 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class TRFStageConfig; }
 
-#define RPG_GAMECORE_TRFLEVELCOMPONENTCONFIG_METHOD_3_A297EE24E55958D9_OFFSET UNITYSDK_OFFSET(0x19CECB50)
-#define RPG_GAMECORE_TRFLEVELCOMPONENTCONFIG_METHOD_3_B803C0ED58918F68_OFFSET UNITYSDK_OFFSET(0x19CECC00)
-#define RPG_GAMECORE_TRFLEVELCOMPONENTCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x19CECBD0)
+#define RPG_GAMECORE_TRFLEVELCOMPONENTCONFIG_METHOD_3_A797369F3F46F781_OFFSET UNITYSDK_OFFSET(0x1B4475C0)
+#define RPG_GAMECORE_TRFLEVELCOMPONENTCONFIG_METHOD_3_B803C0ED58918F68_OFFSET UNITYSDK_OFFSET(0x1B447630)
+#define RPG_GAMECORE_TRFLEVELCOMPONENTCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1B447620)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TRFLevelComponentConfig_TypeDefinitionIndex = 17976;
+	inline static constexpr unsigned int TRFLevelComponentConfig_TypeDefinitionIndex = 18160;
 
 	class TRFLevelComponentConfig : public ::RPG::GameCore::LittleGameComponentConfig
 	{
@@ -25,9 +25,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TRFLEVELCOMPONENTCONFIG__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_A297EE24E55958D9(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::TRFLevelComponentConfig*& a2)
+		static ::System::Void Method_3_A797369F3F46F781(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::TRFLevelComponentConfig*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::TRFLevelComponentConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TRFLEVELCOMPONENTCONFIG_METHOD_3_A297EE24E55958D9_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::TRFLevelComponentConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TRFLEVELCOMPONENTCONFIG_METHOD_3_A797369F3F46F781_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_B803C0ED58918F68(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::TRFLevelComponentConfig* a2)

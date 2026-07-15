@@ -6,13 +6,13 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_USESKILL_METHOD_3_4474EFFF13F2A180_OFFSET UNITYSDK_OFFSET(0x19E39350)
-#define RPG_GAMECORE_USESKILL_METHOD_3_D5E6F956B67D054F_OFFSET UNITYSDK_OFFSET(0x19E392D0)
-#define RPG_GAMECORE_USESKILL__CTOR_OFFSET UNITYSDK_OFFSET(0x19E39320)
+#define RPG_GAMECORE_USESKILL_METHOD_3_4474EFFF13F2A180_OFFSET UNITYSDK_OFFSET(0x1B886040)
+#define RPG_GAMECORE_USESKILL_METHOD_3_E2A040AC82726B9D_OFFSET UNITYSDK_OFFSET(0x1B885FF0)
+#define RPG_GAMECORE_USESKILL__CTOR_OFFSET UNITYSDK_OFFSET(0x1B886030)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int UseSkill_TypeDefinitionIndex = 21208;
+	inline static constexpr unsigned int UseSkill_TypeDefinitionIndex = 21623;
 
 	class UseSkill : public ::RPG::GameCore::TaskConfig
 	{
@@ -26,9 +26,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_USESKILL__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_D5E6F956B67D054F(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::UseSkill*& a2)
+		static ::System::Void Method_3_E2A040AC82726B9D(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::UseSkill*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::UseSkill*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_USESKILL_METHOD_3_D5E6F956B67D054F_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::UseSkill*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_USESKILL_METHOD_3_E2A040AC82726B9D_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_4474EFFF13F2A180(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::UseSkill* a2)

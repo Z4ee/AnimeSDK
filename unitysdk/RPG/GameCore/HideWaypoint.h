@@ -5,13 +5,13 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class TargetEvaluator; }
 
-#define RPG_GAMECORE_HIDEWAYPOINT_METHOD_3_254B9C2203D3A74D_OFFSET UNITYSDK_OFFSET(0x19832510)
-#define RPG_GAMECORE_HIDEWAYPOINT_METHOD_3_9B933442F1BD1491_OFFSET UNITYSDK_OFFSET(0x19832490)
-#define RPG_GAMECORE_HIDEWAYPOINT__CTOR_OFFSET UNITYSDK_OFFSET(0x198324E0)
+#define RPG_GAMECORE_HIDEWAYPOINT_METHOD_3_254B9C2203D3A74D_OFFSET UNITYSDK_OFFSET(0x1B684EC0)
+#define RPG_GAMECORE_HIDEWAYPOINT_METHOD_3_C51A9487C87DD81A_OFFSET UNITYSDK_OFFSET(0x1B684E70)
+#define RPG_GAMECORE_HIDEWAYPOINT__CTOR_OFFSET UNITYSDK_OFFSET(0x1B684EB0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int HideWaypoint_TypeDefinitionIndex = 19726;
+	inline static constexpr unsigned int HideWaypoint_TypeDefinitionIndex = 20085;
 
 	class HideWaypoint : public ::RPG::GameCore::TaskConfig
 	{
@@ -24,9 +24,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_HIDEWAYPOINT__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_9B933442F1BD1491(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::HideWaypoint*& a2)
+		static ::System::Void Method_3_C51A9487C87DD81A(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::HideWaypoint*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::HideWaypoint*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_HIDEWAYPOINT_METHOD_3_9B933442F1BD1491_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::HideWaypoint*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_HIDEWAYPOINT_METHOD_3_C51A9487C87DD81A_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_254B9C2203D3A74D(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::HideWaypoint* a2)

@@ -6,25 +6,25 @@
 namespace BansheeGz::BGSpline::Curve { class BGCurveBaseMath; }
 namespace BansheeGz::BGSpline::Curve { class BGCurveBaseMath_SectionInfo; }
 
-#define BANSHEEGZ_BGSPLINE_CURVE_BGCURVECALCULATORCLOSESTPOINT_CALCPOSITIONBYCLOSESTPOINT_OFFSET UNITYSDK_OFFSET(0x18960630)
-#define BANSHEEGZ_BGSPLINE_CURVE_BGCURVECALCULATORCLOSESTPOINT_MAXDISTANCE_OFFSET UNITYSDK_OFFSET(0x18965F50)
-#define BANSHEEGZ_BGSPLINE_CURVE_BGCURVECALCULATORCLOSESTPOINT__CCTOR_OFFSET UNITYSDK_OFFSET(0x18965EE0)
-#define BANSHEEGZ_BGSPLINE_CURVE_BGCURVECALCULATORCLOSESTPOINT__CTOR_OFFSET UNITYSDK_OFFSET(0x18960620)
+#define BANSHEEGZ_BGSPLINE_CURVE_BGCURVECALCULATORCLOSESTPOINT_CALCPOSITIONBYCLOSESTPOINT_OFFSET UNITYSDK_OFFSET(0x16907DF0)
+#define BANSHEEGZ_BGSPLINE_CURVE_BGCURVECALCULATORCLOSESTPOINT_MAXDISTANCE_OFFSET UNITYSDK_OFFSET(0x1690DE40)
+#define BANSHEEGZ_BGSPLINE_CURVE_BGCURVECALCULATORCLOSESTPOINT__CCTOR_OFFSET UNITYSDK_OFFSET(0x1690DDB0)
+#define BANSHEEGZ_BGSPLINE_CURVE_BGCURVECALCULATORCLOSESTPOINT__CTOR_OFFSET UNITYSDK_OFFSET(0x16907DE0)
 
 namespace BansheeGz::BGSpline::Curve
 {
-	inline static constexpr unsigned int BGCurveCalculatorClosestPoint_TypeDefinitionIndex = 34087;
+	inline static constexpr unsigned int BGCurveCalculatorClosestPoint_TypeDefinitionIndex = 34458;
 
 	class BGCurveCalculatorClosestPoint : public ::System::Object
 	{
 	public:
 		static ::Il2CppArray<::System::Int32>** StaticGet_TransitionsForPartitions()
 		{
-			return (::Il2CppArray<::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(BGCurveCalculatorClosestPoint_TypeDefinitionIndex)->GetStaticField(0x4FA90);
+			return (::Il2CppArray<::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(BGCurveCalculatorClosestPoint_TypeDefinitionIndex)->GetStaticField(0x4C160);
 		}
-		::Il2CppArray<::System::Boolean>* excludedSections; // 0x10
-		::BansheeGz::BGSpline::Curve::BGCurveBaseMath* math; // 0x18
-		::Il2CppArray<::System::Single>* minSectionDistances; // 0x20
+		::Il2CppArray<::System::Single>* minSectionDistances; // 0x10
+		::Il2CppArray<::System::Boolean>* excludedSections; // 0x18
+		::BansheeGz::BGSpline::Curve::BGCurveBaseMath* math; // 0x20
 
 		static ::System::Void _cctor()
 		{

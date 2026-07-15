@@ -4,8 +4,8 @@
 
 namespace System { class String; }
 
-#define SYSTEM_TIMETYPE_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1863BD20)
-#define SYSTEM_TIMETYPE__CTOR_OFFSET UNITYSDK_OFFSET(0x1863BD10)
+#define SYSTEM_TIMETYPE_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1A742620)
+#define SYSTEM_TIMETYPE__CTOR_OFFSET UNITYSDK_OFFSET(0x1A742610)
 
 namespace System
 {
@@ -15,8 +15,8 @@ namespace System
 	{
 	public:
 		::System::String* Name; // 0x10
-		::System::Boolean IsDst; // 0x18
-		::System::Int32 Offset; // 0x1C
+		::System::Int32 Offset; // 0x18
+		::System::Boolean IsDst; // 0x1C
 
 		::System::Void _ctor(::System::Int32 a1, ::System::Boolean a2, ::System::String* a3)
 		{

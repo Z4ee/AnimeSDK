@@ -5,11 +5,11 @@
 
 namespace UnityEngine { class GameObject; }
 
-#define RPG_CLIENT_LITTLEGAME_CAKERACE_CAKERACEHUDBUBBLEFADEOUTMESSAGE__CTOR_OFFSET UNITYSDK_OFFSET(0xBDC1110)
+#define RPG_CLIENT_LITTLEGAME_CAKERACE_CAKERACEHUDBUBBLEFADEOUTMESSAGE__CTOR_OFFSET UNITYSDK_OFFSET(0x19B7F030)
 
 namespace RPG::Client::LittleGame::CakeRace
 {
-	inline static constexpr unsigned int CakeRaceHUDBubbleFadeoutMessage_TypeDefinitionIndex = 72659;
+	inline static constexpr unsigned int CakeRaceHUDBubbleFadeoutMessage_TypeDefinitionIndex = 74184;
 
 	class CakeRaceHUDBubbleFadeoutMessage : public ::System::Object
 	{

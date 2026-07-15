@@ -7,10 +7,10 @@ namespace RPG::Client { class MonoEffect; }
 namespace RPG::GameCore { class MarbleEffect; }
 namespace UnityEngine { class Transform; }
 
-#define CLASS_2_FCB9A1A95B2AB574___C__DISPLAYCLASS55_0__CTOR_OFFSET UNITYSDK_OFFSET(0xA8EFA20)
-#define CLASS_2_FCB9A1A95B2AB574___C__DISPLAYCLASS55_0__TRIGGERMARBLEEFFECT_B__0_OFFSET UNITYSDK_OFFSET(0xA8EFA30)
+#define CLASS_2_FCB9A1A95B2AB574___C__DISPLAYCLASS55_0__CTOR_OFFSET UNITYSDK_OFFSET(0x15ED50A0)
+#define CLASS_2_FCB9A1A95B2AB574___C__DISPLAYCLASS55_0__TRIGGERMARBLEEFFECT_B__0_OFFSET UNITYSDK_OFFSET(0x15EDB420)
 
-inline static constexpr unsigned int Class_2_FCB9A1A95B2AB574___c__DisplayClass55_0_TypeDefinitionIndex = 56464;
+inline static constexpr unsigned int Class_2_FCB9A1A95B2AB574___c__DisplayClass55_0_TypeDefinitionIndex = 57704;
 
 class Class_2_FCB9A1A95B2AB574___c__DisplayClass55_0 : public ::System::Object
 {

@@ -7,12 +7,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_PARKOURTRIGGEREVENTCONTENTROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x199E7C10)
-#define RPG_GAMECORE_PARKOURTRIGGEREVENTCONTENTROW__CTOR_OFFSET UNITYSDK_OFFSET(0x199E7E20)
+#define RPG_GAMECORE_PARKOURTRIGGEREVENTCONTENTROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1BB0FC90)
+#define RPG_GAMECORE_PARKOURTRIGGEREVENTCONTENTROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1BB0FEA0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ParkourTriggerEventContentRow_TypeDefinitionIndex = 11542;
+	inline static constexpr unsigned int ParkourTriggerEventContentRow_TypeDefinitionIndex = 11642;
 
 	class ParkourTriggerEventContentRow : public ::System::Object
 	{

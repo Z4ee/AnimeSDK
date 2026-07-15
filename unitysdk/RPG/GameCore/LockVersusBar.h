@@ -4,13 +4,13 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_LOCKVERSUSBAR_METHOD_3_4383D0040E087E29_OFFSET UNITYSDK_OFFSET(0x198ADD70)
-#define RPG_GAMECORE_LOCKVERSUSBAR_METHOD_3_B313798818AC2870_OFFSET UNITYSDK_OFFSET(0x198ADDF0)
-#define RPG_GAMECORE_LOCKVERSUSBAR__CTOR_OFFSET UNITYSDK_OFFSET(0x198ADDC0)
+#define RPG_GAMECORE_LOCKVERSUSBAR_METHOD_3_65EB6191DFC817B3_OFFSET UNITYSDK_OFFSET(0x1BCD0C10)
+#define RPG_GAMECORE_LOCKVERSUSBAR_METHOD_3_B313798818AC2870_OFFSET UNITYSDK_OFFSET(0x1BCD0C50)
+#define RPG_GAMECORE_LOCKVERSUSBAR__CTOR_OFFSET UNITYSDK_OFFSET(0x1BCD0C40)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LockVersusBar_TypeDefinitionIndex = 21891;
+	inline static constexpr unsigned int LockVersusBar_TypeDefinitionIndex = 22318;
 
 	class LockVersusBar : public ::RPG::GameCore::TaskConfig
 	{
@@ -22,9 +22,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LOCKVERSUSBAR__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_4383D0040E087E29(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::LockVersusBar*& a2)
+		static ::System::Void Method_3_65EB6191DFC817B3(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::LockVersusBar*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::LockVersusBar*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LOCKVERSUSBAR_METHOD_3_4383D0040E087E29_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::LockVersusBar*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LOCKVERSUSBAR_METHOD_3_65EB6191DFC817B3_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_B313798818AC2870(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::LockVersusBar* a2)

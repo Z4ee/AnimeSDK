@@ -4,7 +4,7 @@
 
 namespace ZenFulcrum::VR::OpenVRBinding
 {
-	inline static constexpr unsigned int IntersectionMaskCircle_t_TypeDefinitionIndex = 36378;
+	inline static constexpr unsigned int IntersectionMaskCircle_t_TypeDefinitionIndex = 37160;
 
 	struct alignas(4) IntersectionMaskCircle_t
 	{

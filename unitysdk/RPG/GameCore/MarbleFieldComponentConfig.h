@@ -4,13 +4,13 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_MARBLEFIELDCOMPONENTCONFIG_METHOD_3_44BCA67304A6F7BF_OFFSET UNITYSDK_OFFSET(0x198CF050)
-#define RPG_GAMECORE_MARBLEFIELDCOMPONENTCONFIG_METHOD_3_F3B854CAEA804F98_OFFSET UNITYSDK_OFFSET(0x198CEFC0)
-#define RPG_GAMECORE_MARBLEFIELDCOMPONENTCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x198CF030)
+#define RPG_GAMECORE_MARBLEFIELDCOMPONENTCONFIG_METHOD_3_023597ABCC9ECC09_OFFSET UNITYSDK_OFFSET(0x1BD17F50)
+#define RPG_GAMECORE_MARBLEFIELDCOMPONENTCONFIG_METHOD_3_44BCA67304A6F7BF_OFFSET UNITYSDK_OFFSET(0x1BD17FB0)
+#define RPG_GAMECORE_MARBLEFIELDCOMPONENTCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1BD17FA0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MarbleFieldComponentConfig_TypeDefinitionIndex = 17984;
+	inline static constexpr unsigned int MarbleFieldComponentConfig_TypeDefinitionIndex = 18168;
 
 	class MarbleFieldComponentConfig : public ::RPG::GameCore::LittleGameComponentConfig
 	{
@@ -30,9 +30,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MARBLEFIELDCOMPONENTCONFIG__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_F3B854CAEA804F98(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::MarbleFieldComponentConfig*& a2)
+		static ::System::Void Method_3_023597ABCC9ECC09(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::MarbleFieldComponentConfig*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::MarbleFieldComponentConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MARBLEFIELDCOMPONENTCONFIG_METHOD_3_F3B854CAEA804F98_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::MarbleFieldComponentConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MARBLEFIELDCOMPONENTCONFIG_METHOD_3_023597ABCC9ECC09_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_44BCA67304A6F7BF(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::MarbleFieldComponentConfig* a2)

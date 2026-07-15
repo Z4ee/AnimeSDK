@@ -7,7 +7,7 @@ namespace System { template <typename T> class Action_1; }
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ObjectLoadHandler_1___c__DisplayClass8_0_1_TypeDefinitionIndex = 33503;
+	inline static constexpr unsigned int ObjectLoadHandler_1___c__DisplayClass8_0_1_TypeDefinitionIndex = 33873;
 
 	template <typename TObj, typename T>
 	class ObjectLoadHandler_1___c__DisplayClass8_0_1 : public ::System::Object

@@ -5,7 +5,7 @@ namespace UnityEngine { class RectTransform; }
 
 namespace UnityEngine::UI
 {
-	inline static constexpr unsigned int IMask_TypeDefinitionIndex = 5881;
+	inline static constexpr unsigned int IMask_TypeDefinitionIndex = 5886;
 
 	class IMask
 	{

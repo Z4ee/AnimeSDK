@@ -1,0 +1,52 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/Enum_3_4608E37A1B3D374A_19.h"
+#include "unitysdk/RPG/Client/GridFightGameModifier.h"
+
+class Class_1_1A05043E9AD1C5D3;
+
+#define RPG_CLIENT_GRIDFIGHTPRAYQUESTFINISHTYPE_GET_FINISHTYPE_OFFSET UNITYSDK_OFFSET(0x1AEA25A0)
+#define RPG_CLIENT_GRIDFIGHTPRAYQUESTFINISHTYPE_GET_ISACTIVATED_OFFSET UNITYSDK_OFFSET(0x1AEA2640)
+#define RPG_CLIENT_GRIDFIGHTPRAYQUESTFINISHTYPE_GET_PRAYQUESTID_OFFSET UNITYSDK_OFFSET(0x1AEA2500)
+#define RPG_CLIENT_GRIDFIGHTPRAYQUESTFINISHTYPE__CTOR_OFFSET UNITYSDK_OFFSET(0x1AEA24F0)
+#define RPG_CLIENT_GRIDFIGHTPRAYQUESTFINISHTYPE__INNODERANGE_OFFSET UNITYSDK_OFFSET(0x1AEA2760)
+#define RPG_CLIENT_GRIDFIGHTPRAYQUESTFINISHTYPE__ISROUNDLEFT_OFFSET UNITYSDK_OFFSET(0x1AEA2B90)
+
+namespace RPG::Client
+{
+	inline static constexpr unsigned int GridFightPrayQuestFinishType_TypeDefinitionIndex = 62113;
+
+	class GridFightPrayQuestFinishType : public ::RPG::Client::GridFightGameModifier
+	{
+	public:
+		::System::Void _ctor(::Class_1_1A05043E9AD1C5D3* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::Class_1_1A05043E9AD1C5D3*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTPRAYQUESTFINISHTYPE__CTOR_OFFSET))(this, a1);
+		}
+
+		::System::UInt32 get_PrayQuestID()
+		{
+			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTPRAYQUESTFINISHTYPE_GET_PRAYQUESTID_OFFSET))(this);
+		}
+
+		::Enum_3_4608E37A1B3D374A_19 get_FinishType()
+		{
+			return ((::Enum_3_4608E37A1B3D374A_19(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTPRAYQUESTFINISHTYPE_GET_FINISHTYPE_OFFSET))(this);
+		}
+
+		::System::Boolean get_IsActivated()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTPRAYQUESTFINISHTYPE_GET_ISACTIVATED_OFFSET))(this);
+		}
+
+		::System::Boolean _InNodeRange()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTPRAYQUESTFINISHTYPE__INNODERANGE_OFFSET))(this);
+		}
+
+		::System::Boolean _IsRoundLeft()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTPRAYQUESTFINISHTYPE__ISROUNDLEFT_OFFSET))(this);
+		}
+	};
+}

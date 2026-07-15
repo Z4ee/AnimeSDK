@@ -8,7 +8,7 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int IChallengeBossEntranceLevelTeamViewModel_TypeDefinitionIndex = 59031;
+	inline static constexpr unsigned int IChallengeBossEntranceLevelTeamViewModel_TypeDefinitionIndex = 60302;
 
 	class IChallengeBossEntranceLevelTeamViewModel
 	{

@@ -6,15 +6,15 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace SimpleJSON { class JSONNode; }
 
-#define RPG_CLIENT_ST_PARKOUR_BYCOMPARELAPCOUNT_METHOD_4_28D2DD536D808902_OFFSET UNITYSDK_OFFSET(0x193BD520)
-#define RPG_CLIENT_ST_PARKOUR_BYCOMPARELAPCOUNT_METHOD_4_33C27543BF4E4891_OFFSET UNITYSDK_OFFSET(0x193BD270)
-#define RPG_CLIENT_ST_PARKOUR_BYCOMPARELAPCOUNT_METHOD_4_574D128961EC3059_OFFSET UNITYSDK_OFFSET(0x193BD340)
-#define RPG_CLIENT_ST_PARKOUR_BYCOMPARELAPCOUNT_METHOD_4_6C4C38CA19C5E3F7_OFFSET UNITYSDK_OFFSET(0x193BD5A0)
-#define RPG_CLIENT_ST_PARKOUR_BYCOMPARELAPCOUNT__CTOR_OFFSET UNITYSDK_OFFSET(0x193BD2F0)
+#define RPG_CLIENT_ST_PARKOUR_BYCOMPARELAPCOUNT_METHOD_4_1571C310B8936227_OFFSET UNITYSDK_OFFSET(0x1B9EFE20)
+#define RPG_CLIENT_ST_PARKOUR_BYCOMPARELAPCOUNT_METHOD_4_450D7D13CBAAC810_OFFSET UNITYSDK_OFFSET(0x1B9EFC00)
+#define RPG_CLIENT_ST_PARKOUR_BYCOMPARELAPCOUNT_METHOD_4_4DBDB7A52C1E4DB0_OFFSET UNITYSDK_OFFSET(0x1B9EFE50)
+#define RPG_CLIENT_ST_PARKOUR_BYCOMPARELAPCOUNT_METHOD_4_574D128961EC3059_OFFSET UNITYSDK_OFFSET(0x1B9EFC40)
+#define RPG_CLIENT_ST_PARKOUR_BYCOMPARELAPCOUNT__CTOR_OFFSET UNITYSDK_OFFSET(0x1B9EFC30)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ST_Parkour_ByCompareLapCount_TypeDefinitionIndex = 9935;
+	inline static constexpr unsigned int ST_Parkour_ByCompareLapCount_TypeDefinitionIndex = 9950;
 
 	class ST_Parkour_ByCompareLapCount : public ::RPG::GameCore::PredicateConfig
 	{
@@ -27,9 +27,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ST_PARKOUR_BYCOMPARELAPCOUNT__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_4_33C27543BF4E4891(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::Client::ST_Parkour_ByCompareLapCount*& a2)
+		static ::System::Void Method_4_450D7D13CBAAC810(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::Client::ST_Parkour_ByCompareLapCount*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::Client::ST_Parkour_ByCompareLapCount*&))((::PBYTE)hIl2Cpp + RPG_CLIENT_ST_PARKOUR_BYCOMPARELAPCOUNT_METHOD_4_33C27543BF4E4891_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::Client::ST_Parkour_ByCompareLapCount*&))((::PBYTE)hIl2Cpp + RPG_CLIENT_ST_PARKOUR_BYCOMPARELAPCOUNT_METHOD_4_450D7D13CBAAC810_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_4_574D128961EC3059(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::Client::ST_Parkour_ByCompareLapCount* a2)
@@ -37,14 +37,14 @@ namespace RPG::Client
 			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::Client::ST_Parkour_ByCompareLapCount*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ST_PARKOUR_BYCOMPARELAPCOUNT_METHOD_4_574D128961EC3059_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_4_28D2DD536D808902(::SimpleJSON::JSONNode* a1, ::RPG::Client::ST_Parkour_ByCompareLapCount*& a2)
+		static ::System::Void Method_4_1571C310B8936227(::SimpleJSON::JSONNode* a1, ::RPG::Client::ST_Parkour_ByCompareLapCount*& a2)
 		{
-			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::Client::ST_Parkour_ByCompareLapCount*&))((::PBYTE)hIl2Cpp + RPG_CLIENT_ST_PARKOUR_BYCOMPARELAPCOUNT_METHOD_4_28D2DD536D808902_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::Client::ST_Parkour_ByCompareLapCount*&))((::PBYTE)hIl2Cpp + RPG_CLIENT_ST_PARKOUR_BYCOMPARELAPCOUNT_METHOD_4_1571C310B8936227_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_4_6C4C38CA19C5E3F7(::SimpleJSON::JSONNode* a1, ::RPG::Client::ST_Parkour_ByCompareLapCount* a2)
+		static ::System::Void Method_4_4DBDB7A52C1E4DB0(::SimpleJSON::JSONNode* a1, ::RPG::Client::ST_Parkour_ByCompareLapCount* a2)
 		{
-			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::Client::ST_Parkour_ByCompareLapCount*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ST_PARKOUR_BYCOMPARELAPCOUNT_METHOD_4_6C4C38CA19C5E3F7_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::Client::ST_Parkour_ByCompareLapCount*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ST_PARKOUR_BYCOMPARELAPCOUNT_METHOD_4_4DBDB7A52C1E4DB0_OFFSET))(a1, a2);
 		}
 	};
 }

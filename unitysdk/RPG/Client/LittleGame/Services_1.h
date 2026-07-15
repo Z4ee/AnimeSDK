@@ -19,7 +19,7 @@ namespace RPG::Client::LittleGame { template <typename T> class ITriggerService_
 
 namespace RPG::Client::LittleGame
 {
-	inline static constexpr unsigned int Services_1_TypeDefinitionIndex = 39449;
+	inline static constexpr unsigned int Services_1_TypeDefinitionIndex = 40258;
 
 	template <typename TEntity>
 	class Services_1 : public ::Class_1_47EE63CB5C4DC8FC_5

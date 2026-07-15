@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FiveDimScrollViewType_TypeDefinitionIndex = 17631;
+	inline static constexpr unsigned int FiveDimScrollViewType_TypeDefinitionIndex = 17805;
 
 	enum class FiveDimScrollViewType : ::System::Int32
 	{

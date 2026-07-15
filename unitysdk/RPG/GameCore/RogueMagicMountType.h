@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RogueMagicMountType_TypeDefinitionIndex = 10237;
+	inline static constexpr unsigned int RogueMagicMountType_TypeDefinitionIndex = 10258;
 
 	enum class RogueMagicMountType : ::System::Int32
 	{

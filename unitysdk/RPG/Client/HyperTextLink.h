@@ -15,41 +15,39 @@ namespace UnityEngine::EventSystems { class PointerEventData; }
 namespace UnityEngine::UI { class Image; }
 namespace UnityEngine::UI { class VertexHelper; }
 
-#define RPG_CLIENT_HYPERTEXTLINK_AWAKE_OFFSET UNITYSDK_OFFSET(0xBD1E270)
-#define RPG_CLIENT_HYPERTEXTLINK_GETOUTPUTTEXT_OFFSET UNITYSDK_OFFSET(0xBD1FA50)
-#define RPG_CLIENT_HYPERTEXTLINK_ONPOINTERCLICK_OFFSET UNITYSDK_OFFSET(0xBD203C0)
-#define RPG_CLIENT_HYPERTEXTLINK_ONPOPULATEMESH_OFFSET UNITYSDK_OFFSET(0xBD1F070)
-#define RPG_CLIENT_HYPERTEXTLINK_SETTEXT_OFFSET UNITYSDK_OFFSET(0xBD20740)
-#define RPG_CLIENT_HYPERTEXTLINK_SETVERTICESDIRTY_OFFSET UNITYSDK_OFFSET(0xBD1E3A0)
-#define RPG_CLIENT_HYPERTEXTLINK_UPDATEQUADIMAGE_OFFSET UNITYSDK_OFFSET(0xBD1E430)
-#define RPG_CLIENT_HYPERTEXTLINK__CCTOR_OFFSET UNITYSDK_OFFSET(0xBD20990)
-#define RPG_CLIENT_HYPERTEXTLINK__CTOR_OFFSET UNITYSDK_OFFSET(0xBD20890)
-#define RPG_CLIENT_HYPERTEXTLINK___IFIXBASEPROXY_AWAKE_OFFSET UNITYSDK_OFFSET(0xBD20AF0)
-#define RPG_CLIENT_HYPERTEXTLINK___IFIXBASEPROXY_ONPOPULATEMESH_OFFSET UNITYSDK_OFFSET(0xBD20B60)
-#define RPG_CLIENT_HYPERTEXTLINK___IFIXBASEPROXY_SETVERTICESDIRTY_OFFSET UNITYSDK_OFFSET(0xBD20B00)
+#define RPG_CLIENT_HYPERTEXTLINK_AWAKE_OFFSET UNITYSDK_OFFSET(0x17959350)
+#define RPG_CLIENT_HYPERTEXTLINK_GETOUTPUTTEXT_OFFSET UNITYSDK_OFFSET(0x1795ABF0)
+#define RPG_CLIENT_HYPERTEXTLINK_ONPOINTERCLICK_OFFSET UNITYSDK_OFFSET(0x1795B810)
+#define RPG_CLIENT_HYPERTEXTLINK_ONPOPULATEMESH_OFFSET UNITYSDK_OFFSET(0x1795A3A0)
+#define RPG_CLIENT_HYPERTEXTLINK_SETTEXT_OFFSET UNITYSDK_OFFSET(0x1795BBF0)
+#define RPG_CLIENT_HYPERTEXTLINK_SETVERTICESDIRTY_OFFSET UNITYSDK_OFFSET(0x17959480)
+#define RPG_CLIENT_HYPERTEXTLINK_SET_TEXT_OFFSET UNITYSDK_OFFSET(0x17959290)
+#define RPG_CLIENT_HYPERTEXTLINK_UPDATEQUADIMAGE_OFFSET UNITYSDK_OFFSET(0x17959510)
+#define RPG_CLIENT_HYPERTEXTLINK__CCTOR_OFFSET UNITYSDK_OFFSET(0x1795BDC0)
+#define RPG_CLIENT_HYPERTEXTLINK__CTOR_OFFSET UNITYSDK_OFFSET(0x1795BCC0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int HyperTextLink_TypeDefinitionIndex = 67781;
+	inline static constexpr unsigned int HyperTextLink_TypeDefinitionIndex = 69265;
 
 	class HyperTextLink : public ::UnityEngine::UI::Text
 	{
 	public:
-		static ::System::Text::RegularExpressions::Regex** StaticGet_s_ImageRegex()
-		{
-			return (::System::Text::RegularExpressions::Regex**)Il2CppClass::FromTypeDefinitionIndex(HyperTextLink_TypeDefinitionIndex)->GetStaticField(0x43520);
-		}
 		static ::System::Text::RegularExpressions::Regex** StaticGet_s_HrefRegex()
 		{
-			return (::System::Text::RegularExpressions::Regex**)Il2CppClass::FromTypeDefinitionIndex(HyperTextLink_TypeDefinitionIndex)->GetStaticField(0x43528);
+			return (::System::Text::RegularExpressions::Regex**)Il2CppClass::FromTypeDefinitionIndex(HyperTextLink_TypeDefinitionIndex)->GetStaticField(0x31CE0);
 		}
 		static ::System::Text::StringBuilder** StaticGet_s_TextBuilder()
 		{
-			return (::System::Text::StringBuilder**)Il2CppClass::FromTypeDefinitionIndex(HyperTextLink_TypeDefinitionIndex)->GetStaticField(0x43530);
+			return (::System::Text::StringBuilder**)Il2CppClass::FromTypeDefinitionIndex(HyperTextLink_TypeDefinitionIndex)->GetStaticField(0x31CE8);
+		}
+		static ::System::Text::RegularExpressions::Regex** StaticGet_s_ImageRegex()
+		{
+			return (::System::Text::RegularExpressions::Regex**)Il2CppClass::FromTypeDefinitionIndex(HyperTextLink_TypeDefinitionIndex)->GetStaticField(0x31CF0);
 		}
 		static ::System::Func_2<::System::String*, ::UnityEngine::Sprite*>** StaticGet_funLoadSprite()
 		{
-			return (::System::Func_2<::System::String*, ::UnityEngine::Sprite*>**)Il2CppClass::FromTypeDefinitionIndex(HyperTextLink_TypeDefinitionIndex)->GetStaticField(0x43538);
+			return (::System::Func_2<::System::String*, ::UnityEngine::Sprite*>**)Il2CppClass::FromTypeDefinitionIndex(HyperTextLink_TypeDefinitionIndex)->GetStaticField(0x31CF8);
 		}
 		::System::String* m_OutputText; // 0x190
 		::System::Collections::Generic::List_1<::UnityEngine::UI::Image*>* m_ImagesPool; // 0x198
@@ -66,6 +64,11 @@ namespace RPG::Client
 		static ::System::Void _cctor()
 		{
 			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + RPG_CLIENT_HYPERTEXTLINK__CCTOR_OFFSET))();
+		}
+
+		::System::Void set_text(::System::String* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_HYPERTEXTLINK_SET_TEXT_OFFSET))(this, a1);
 		}
 
 		::System::Void Awake()
@@ -101,21 +104,6 @@ namespace RPG::Client
 		::System::Void SetText(::System::String* a1)
 		{
 			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_HYPERTEXTLINK_SETTEXT_OFFSET))(this, a1);
-		}
-
-		::System::Void __iFixBaseProxy_Awake()
-		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_HYPERTEXTLINK___IFIXBASEPROXY_AWAKE_OFFSET))(this);
-		}
-
-		::System::Void __iFixBaseProxy_SetVerticesDirty()
-		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_HYPERTEXTLINK___IFIXBASEPROXY_SETVERTICESDIRTY_OFFSET))(this);
-		}
-
-		::System::Void __iFixBaseProxy_OnPopulateMesh(::UnityEngine::UI::VertexHelper* a1)
-		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::UI::VertexHelper*))((::PBYTE)hIl2Cpp + RPG_CLIENT_HYPERTEXTLINK___IFIXBASEPROXY_ONPOPULATEMESH_OFFSET))(this, a1);
 		}
 	};
 }

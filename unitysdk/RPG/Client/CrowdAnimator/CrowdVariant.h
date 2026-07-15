@@ -3,11 +3,11 @@
 #include "unitysdk/RPG/Client/CrowdAnimator/CrowdLod.h"
 #include "unitysdk/UnityEngine/ScriptableObject.h"
 
-#define RPG_CLIENT_CROWDANIMATOR_CROWDVARIANT__CTOR_OFFSET UNITYSDK_OFFSET(0xB720030)
+#define RPG_CLIENT_CROWDANIMATOR_CROWDVARIANT__CTOR_OFFSET UNITYSDK_OFFSET(0x18038070)
 
 namespace RPG::Client::CrowdAnimator
 {
-	inline static constexpr unsigned int CrowdVariant_TypeDefinitionIndex = 68833;
+	inline static constexpr unsigned int CrowdVariant_TypeDefinitionIndex = 70333;
 
 	class CrowdVariant : public ::UnityEngine::ScriptableObject
 	{

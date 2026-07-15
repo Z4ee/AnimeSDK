@@ -11,45 +11,45 @@ namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Concurrent { template <typename T1, typename T2> class ConcurrentDictionary_2; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_OPENURLWEBVIEWRULEEXCELTABLE_GETDATA_OFFSET UNITYSDK_OFFSET(0x199D9120)
-#define RPG_GAMECORE_OPENURLWEBVIEWRULEEXCELTABLE_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x199D8FB0)
-#define RPG_GAMECORE_OPENURLWEBVIEWRULEEXCELTABLE_GET_DATADICT_OFFSET UNITYSDK_OFFSET(0x199D8CA0)
-#define RPG_GAMECORE_OPENURLWEBVIEWRULEEXCELTABLE_ISDATAEMPTY_OFFSET UNITYSDK_OFFSET(0x199D8F50)
-#define RPG_GAMECORE_OPENURLWEBVIEWRULEEXCELTABLE_ISDATALOADED_OFFSET UNITYSDK_OFFSET(0x199D92B0)
-#define RPG_GAMECORE_OPENURLWEBVIEWRULEEXCELTABLE_LOADDATA_OFFSET UNITYSDK_OFFSET(0x199D8D20)
-#define RPG_GAMECORE_OPENURLWEBVIEWRULEEXCELTABLE_UNLOADDATA_OFFSET UNITYSDK_OFFSET(0x199D92F0)
-#define RPG_GAMECORE_OPENURLWEBVIEWRULEEXCELTABLE__ADDITEMFROMBINARY_OFFSET UNITYSDK_OFFSET(0x199D94C0)
-#define RPG_GAMECORE_OPENURLWEBVIEWRULEEXCELTABLE__ADDITEM_OFFSET UNITYSDK_OFFSET(0x199D9700)
-#define RPG_GAMECORE_OPENURLWEBVIEWRULEEXCELTABLE__CCTOR_OFFSET UNITYSDK_OFFSET(0x199D9A70)
-#define RPG_GAMECORE_OPENURLWEBVIEWRULEEXCELTABLE__LOADDATAINCREMENTIAL_OFFSET UNITYSDK_OFFSET(0x199D9420)
-#define RPG_GAMECORE_OPENURLWEBVIEWRULEEXCELTABLE__LOADDATA_OFFSET UNITYSDK_OFFSET(0x199D9380)
+#define RPG_GAMECORE_OPENURLWEBVIEWRULEEXCELTABLE_GETDATA_OFFSET UNITYSDK_OFFSET(0x1BB030F0)
+#define RPG_GAMECORE_OPENURLWEBVIEWRULEEXCELTABLE_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x1BB02F80)
+#define RPG_GAMECORE_OPENURLWEBVIEWRULEEXCELTABLE_GET_DATADICT_OFFSET UNITYSDK_OFFSET(0x1BB02C70)
+#define RPG_GAMECORE_OPENURLWEBVIEWRULEEXCELTABLE_ISDATAEMPTY_OFFSET UNITYSDK_OFFSET(0x1BB02F20)
+#define RPG_GAMECORE_OPENURLWEBVIEWRULEEXCELTABLE_ISDATALOADED_OFFSET UNITYSDK_OFFSET(0x1BB03280)
+#define RPG_GAMECORE_OPENURLWEBVIEWRULEEXCELTABLE_LOADDATA_OFFSET UNITYSDK_OFFSET(0x1BB02CF0)
+#define RPG_GAMECORE_OPENURLWEBVIEWRULEEXCELTABLE_UNLOADDATA_OFFSET UNITYSDK_OFFSET(0x1BB032C0)
+#define RPG_GAMECORE_OPENURLWEBVIEWRULEEXCELTABLE__ADDITEMFROMBINARY_OFFSET UNITYSDK_OFFSET(0x1BB03490)
+#define RPG_GAMECORE_OPENURLWEBVIEWRULEEXCELTABLE__ADDITEM_OFFSET UNITYSDK_OFFSET(0x1BB036D0)
+#define RPG_GAMECORE_OPENURLWEBVIEWRULEEXCELTABLE__CCTOR_OFFSET UNITYSDK_OFFSET(0x1BB03A40)
+#define RPG_GAMECORE_OPENURLWEBVIEWRULEEXCELTABLE__LOADDATAINCREMENTIAL_OFFSET UNITYSDK_OFFSET(0x1BB033F0)
+#define RPG_GAMECORE_OPENURLWEBVIEWRULEEXCELTABLE__LOADDATA_OFFSET UNITYSDK_OFFSET(0x1BB03350)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int OpenURLWebViewRuleExcelTable_TypeDefinitionIndex = 12698;
+	inline static constexpr unsigned int OpenURLWebViewRuleExcelTable_TypeDefinitionIndex = 12835;
 
 	class OpenURLWebViewRuleExcelTable : public ::System::Object
 	{
 	public:
+		static ::System::Action_1<::Class_1_7A22A3DBEEDD1F80*>** StaticGet__AddItemFromBinary_ActionInst()
+		{
+			return (::System::Action_1<::Class_1_7A22A3DBEEDD1F80*>**)Il2CppClass::FromTypeDefinitionIndex(OpenURLWebViewRuleExcelTable_TypeDefinitionIndex)->GetStaticField(0x44500);
+		}
 		static ::Il2CppArray<::System::String*>** StaticGet_s_PathList()
 		{
-			return (::Il2CppArray<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(OpenURLWebViewRuleExcelTable_TypeDefinitionIndex)->GetStaticField(0x34070);
+			return (::Il2CppArray<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(OpenURLWebViewRuleExcelTable_TypeDefinitionIndex)->GetStaticField(0x44508);
 		}
 		static ::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::OpenURLWebViewRuleRow*>** StaticGet_dataDict_()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::OpenURLWebViewRuleRow*>**)Il2CppClass::FromTypeDefinitionIndex(OpenURLWebViewRuleExcelTable_TypeDefinitionIndex)->GetStaticField(0x34078);
-		}
-		static ::System::Action_1<::Class_1_7A22A3DBEEDD1F80*>** StaticGet__AddItemFromBinary_ActionInst()
-		{
-			return (::System::Action_1<::Class_1_7A22A3DBEEDD1F80*>**)Il2CppClass::FromTypeDefinitionIndex(OpenURLWebViewRuleExcelTable_TypeDefinitionIndex)->GetStaticField(0x34080);
+			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::OpenURLWebViewRuleRow*>**)Il2CppClass::FromTypeDefinitionIndex(OpenURLWebViewRuleExcelTable_TypeDefinitionIndex)->GetStaticField(0x44510);
 		}
 		static ::System::Byte* StaticGet_HashIndex()
 		{
-			return (::System::Byte*)Il2CppClass::FromTypeDefinitionIndex(OpenURLWebViewRuleExcelTable_TypeDefinitionIndex)->GetStaticField(0xA380);
+			return (::System::Byte*)Il2CppClass::FromTypeDefinitionIndex(OpenURLWebViewRuleExcelTable_TypeDefinitionIndex)->GetStaticField(0xBBA0);
 		}
 		static ::System::Boolean* StaticGet_isDataLoaded()
 		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(OpenURLWebViewRuleExcelTable_TypeDefinitionIndex)->GetStaticField(0xA381);
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(OpenURLWebViewRuleExcelTable_TypeDefinitionIndex)->GetStaticField(0xBBA1);
 		}
 
 		static ::System::Void _cctor()

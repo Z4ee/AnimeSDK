@@ -7,13 +7,13 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class DynamicString; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_PROPINITFARMELEMENT_METHOD_3_48A742533CB33DC8_OFFSET UNITYSDK_OFFSET(0x19A90180)
-#define RPG_GAMECORE_PROPINITFARMELEMENT_METHOD_3_DE6F7308C8C5F90B_OFFSET UNITYSDK_OFFSET(0x19A90200)
-#define RPG_GAMECORE_PROPINITFARMELEMENT__CTOR_OFFSET UNITYSDK_OFFSET(0x19A901D0)
+#define RPG_GAMECORE_PROPINITFARMELEMENT_METHOD_3_6FA9C10371A10BA7_OFFSET UNITYSDK_OFFSET(0x1BA23330)
+#define RPG_GAMECORE_PROPINITFARMELEMENT_METHOD_3_DE6F7308C8C5F90B_OFFSET UNITYSDK_OFFSET(0x1BA23370)
+#define RPG_GAMECORE_PROPINITFARMELEMENT__CTOR_OFFSET UNITYSDK_OFFSET(0x1BA23360)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PropInitFarmElement_TypeDefinitionIndex = 20867;
+	inline static constexpr unsigned int PropInitFarmElement_TypeDefinitionIndex = 21282;
 
 	class PropInitFarmElement : public ::RPG::GameCore::TaskConfig
 	{
@@ -33,9 +33,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PROPINITFARMELEMENT__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_48A742533CB33DC8(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::PropInitFarmElement*& a2)
+		static ::System::Void Method_3_6FA9C10371A10BA7(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::PropInitFarmElement*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::PropInitFarmElement*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PROPINITFARMELEMENT_METHOD_3_48A742533CB33DC8_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::PropInitFarmElement*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PROPINITFARMELEMENT_METHOD_3_6FA9C10371A10BA7_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_DE6F7308C8C5F90B(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::PropInitFarmElement* a2)

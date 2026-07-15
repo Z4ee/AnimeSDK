@@ -1,0 +1,55 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+
+#define RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2CTZS_B2BOUNDINGPOWEROF2_OFFSET UNITYSDK_OFFSET(0xB6140B0)
+#define RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2CTZS_B2CLZ32_OFFSET UNITYSDK_OFFSET(0xB614000)
+#define RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2CTZS_B2CTZ32_OFFSET UNITYSDK_OFFSET(0xB613FD0)
+#define RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2CTZS_B2CTZ64_OFFSET UNITYSDK_OFFSET(0xB614030)
+#define RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2CTZS_B2ISPOWEROF2_OFFSET UNITYSDK_OFFSET(0xB6140A0)
+#define RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2CTZS_B2POPCOUNT64_OFFSET UNITYSDK_OFFSET(0xB614070)
+#define RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2CTZS_B2ROUNDUPPOWEROF2_OFFSET UNITYSDK_OFFSET(0xB6140E0)
+
+namespace RPG::LittleGameShare::HoyoPhysics::Box2D
+{
+	inline static constexpr unsigned int B2CTZs_TypeDefinitionIndex = 35055;
+
+	class B2CTZs : public ::System::Object
+	{
+	public:
+		static ::System::UInt32 b2CTZ32(::System::UInt32 a1)
+		{
+			return ((::System::UInt32(*)(::System::UInt32))((::PBYTE)hIl2Cpp + RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2CTZS_B2CTZ32_OFFSET))(a1);
+		}
+
+		static ::System::UInt32 b2CLZ32(::System::UInt32 a1)
+		{
+			return ((::System::UInt32(*)(::System::UInt32))((::PBYTE)hIl2Cpp + RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2CTZS_B2CLZ32_OFFSET))(a1);
+		}
+
+		static ::System::UInt32 b2CTZ64(::System::UInt64 a1)
+		{
+			return ((::System::UInt32(*)(::System::UInt64))((::PBYTE)hIl2Cpp + RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2CTZS_B2CTZ64_OFFSET))(a1);
+		}
+
+		static ::System::Int32 b2PopCount64(::System::UInt64 a1)
+		{
+			return ((::System::Int32(*)(::System::UInt64))((::PBYTE)hIl2Cpp + RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2CTZS_B2POPCOUNT64_OFFSET))(a1);
+		}
+
+		static ::System::Boolean b2IsPowerOf2(::System::Int32 a1)
+		{
+			return ((::System::Boolean(*)(::System::Int32))((::PBYTE)hIl2Cpp + RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2CTZS_B2ISPOWEROF2_OFFSET))(a1);
+		}
+
+		static ::System::Int32 b2BoundingPowerOf2(::System::Int32 a1)
+		{
+			return ((::System::Int32(*)(::System::Int32))((::PBYTE)hIl2Cpp + RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2CTZS_B2BOUNDINGPOWEROF2_OFFSET))(a1);
+		}
+
+		static ::System::Int32 b2RoundUpPowerOf2(::System::Int32 a1)
+		{
+			return ((::System::Int32(*)(::System::Int32))((::PBYTE)hIl2Cpp + RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2CTZS_B2ROUNDUPPOWEROF2_OFFSET))(a1);
+		}
+	};
+}

@@ -6,15 +6,14 @@
 
 namespace RPGTools::Timeline { class DestroyEmojiBubbleClip; }
 
-#define RPGTOOLS_TIMELINE_DESTROYEMOJIBUBBLEBEHAVIOUR_GET_CLIP_OFFSET UNITYSDK_OFFSET(0xCFFF650)
-#define RPGTOOLS_TIMELINE_DESTROYEMOJIBUBBLEBEHAVIOUR_ONBEHAVIOURPLAY_OFFSET UNITYSDK_OFFSET(0xCFFF670)
-#define RPGTOOLS_TIMELINE_DESTROYEMOJIBUBBLEBEHAVIOUR_SET_CLIP_OFFSET UNITYSDK_OFFSET(0xCFFF660)
-#define RPGTOOLS_TIMELINE_DESTROYEMOJIBUBBLEBEHAVIOUR__CTOR_OFFSET UNITYSDK_OFFSET(0xCFFF750)
-#define RPGTOOLS_TIMELINE_DESTROYEMOJIBUBBLEBEHAVIOUR___IFIXBASEPROXY_ONBEHAVIOURPLAY_OFFSET UNITYSDK_OFFSET(0xCFFF760)
+#define RPGTOOLS_TIMELINE_DESTROYEMOJIBUBBLEBEHAVIOUR_GET_CLIP_OFFSET UNITYSDK_OFFSET(0x19A37AA0)
+#define RPGTOOLS_TIMELINE_DESTROYEMOJIBUBBLEBEHAVIOUR_ONBEHAVIOURPLAY_OFFSET UNITYSDK_OFFSET(0x19A37AC0)
+#define RPGTOOLS_TIMELINE_DESTROYEMOJIBUBBLEBEHAVIOUR_SET_CLIP_OFFSET UNITYSDK_OFFSET(0x19A37AB0)
+#define RPGTOOLS_TIMELINE_DESTROYEMOJIBUBBLEBEHAVIOUR__CTOR_OFFSET UNITYSDK_OFFSET(0x19A37BA0)
 
 namespace RPGTools::Timeline
 {
-	inline static constexpr unsigned int DestroyEmojiBubbleBehaviour_TypeDefinitionIndex = 45392;
+	inline static constexpr unsigned int DestroyEmojiBubbleBehaviour_TypeDefinitionIndex = 46321;
 
 	class DestroyEmojiBubbleBehaviour : public ::UnityEngine::Playables::PlayableBehaviour
 	{
@@ -39,11 +38,6 @@ namespace RPGTools::Timeline
 		::System::Void OnBehaviourPlay(::UnityEngine::Playables::Playable a1, ::UnityEngine::Playables::FrameData a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::UnityEngine::Playables::Playable, ::UnityEngine::Playables::FrameData))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_DESTROYEMOJIBUBBLEBEHAVIOUR_ONBEHAVIOURPLAY_OFFSET))(this, a1, a2);
-		}
-
-		::System::Void __iFixBaseProxy_OnBehaviourPlay(::UnityEngine::Playables::Playable a1, ::UnityEngine::Playables::FrameData a2)
-		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Playables::Playable, ::UnityEngine::Playables::FrameData))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_DESTROYEMOJIBUBBLEBEHAVIOUR___IFIXBASEPROXY_ONBEHAVIOURPLAY_OFFSET))(this, a1, a2);
 		}
 	};
 }

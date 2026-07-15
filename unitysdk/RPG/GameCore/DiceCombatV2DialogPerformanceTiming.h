@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int DiceCombatV2DialogPerformanceTiming_TypeDefinitionIndex = 15406;
+	inline static constexpr unsigned int DiceCombatV2DialogPerformanceTiming_TypeDefinitionIndex = 15570;
 
 	enum class DiceCombatV2DialogPerformanceTiming : ::System::Int32
 	{

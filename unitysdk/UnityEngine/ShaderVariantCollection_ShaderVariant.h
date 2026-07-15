@@ -6,11 +6,11 @@
 namespace System { class String; }
 namespace UnityEngine { class Shader; }
 
-#define UNITYENGINE_SHADERVARIANTCOLLECTION_SHADERVARIANT__CTOR_OFFSET UNITYSDK_OFFSET(0x80C40)
+#define UNITYENGINE_SHADERVARIANTCOLLECTION_SHADERVARIANT__CTOR_OFFSET UNITYSDK_OFFSET(0x38F92A0)
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int ShaderVariantCollection_ShaderVariant_TypeDefinitionIndex = 4369;
+	inline static constexpr unsigned int ShaderVariantCollection_ShaderVariant_TypeDefinitionIndex = 4374;
 
 	struct alignas(8) ShaderVariantCollection_ShaderVariant
 	{

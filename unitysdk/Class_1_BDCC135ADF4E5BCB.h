@@ -7,9 +7,9 @@ namespace RPG::Client { class BaseGameFlow; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define CLASS_1_BDCC135ADF4E5BCB_METHOD_1_F7E156525C0E1714_OFFSET UNITYSDK_OFFSET(0xB00ADD0)
+#define CLASS_1_BDCC135ADF4E5BCB_METHOD_1_F7E156525C0E1714_OFFSET UNITYSDK_OFFSET(0x16197DA0)
 
-inline static constexpr unsigned int Class_1_BDCC135ADF4E5BCB_TypeDefinitionIndex = 60141;
+inline static constexpr unsigned int Class_1_BDCC135ADF4E5BCB_TypeDefinitionIndex = 61427;
 
 class Class_1_BDCC135ADF4E5BCB : public ::System::Object
 {

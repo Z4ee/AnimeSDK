@@ -12,13 +12,13 @@ namespace RPG::GameCore { class GridFightPrepTutorialSubToastHintParam; }
 namespace RPG::GameCore { class GridFightPrepTutorialToastHintParam; }
 namespace RPG::GameCore { class GridFightPrepTutorialTopHintParam; }
 
-#define RPG_GAMECORE_GRIDFIGHTPREPTUTORIALOP_METHOD_3_3467D788080562B9_OFFSET UNITYSDK_OFFSET(0x19802C40)
-#define RPG_GAMECORE_GRIDFIGHTPREPTUTORIALOP_METHOD_3_B5D1B10894A84B0D_OFFSET UNITYSDK_OFFSET(0x19802CC0)
-#define RPG_GAMECORE_GRIDFIGHTPREPTUTORIALOP__CTOR_OFFSET UNITYSDK_OFFSET(0x19802C90)
+#define RPG_GAMECORE_GRIDFIGHTPREPTUTORIALOP_METHOD_3_ACD371A999B1B7B7_OFFSET UNITYSDK_OFFSET(0x1D06FA70)
+#define RPG_GAMECORE_GRIDFIGHTPREPTUTORIALOP_METHOD_3_B5D1B10894A84B0D_OFFSET UNITYSDK_OFFSET(0x1D06FAB0)
+#define RPG_GAMECORE_GRIDFIGHTPREPTUTORIALOP__CTOR_OFFSET UNITYSDK_OFFSET(0x1D06FAA0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int GridFightPrepTutorialOP_TypeDefinitionIndex = 18850;
+	inline static constexpr unsigned int GridFightPrepTutorialOP_TypeDefinitionIndex = 19200;
 
 	class GridFightPrepTutorialOP : public ::RPG::GameCore::TaskConfig
 	{
@@ -37,9 +37,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GRIDFIGHTPREPTUTORIALOP__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_3467D788080562B9(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::GridFightPrepTutorialOP*& a2)
+		static ::System::Void Method_3_ACD371A999B1B7B7(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::GridFightPrepTutorialOP*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::GridFightPrepTutorialOP*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GRIDFIGHTPREPTUTORIALOP_METHOD_3_3467D788080562B9_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::GridFightPrepTutorialOP*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GRIDFIGHTPREPTUTORIALOP_METHOD_3_ACD371A999B1B7B7_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_B5D1B10894A84B0D(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::GridFightPrepTutorialOP* a2)

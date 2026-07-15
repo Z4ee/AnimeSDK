@@ -6,7 +6,7 @@ namespace Spine::Unity { class SkeletonDataAsset; }
 
 namespace Spine::Unity
 {
-	inline static constexpr unsigned int ISkeletonComponent_TypeDefinitionIndex = 41456;
+	inline static constexpr unsigned int ISkeletonComponent_TypeDefinitionIndex = 42271;
 
 	class ISkeletonComponent
 	{

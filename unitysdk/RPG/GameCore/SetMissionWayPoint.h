@@ -5,13 +5,13 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_SETMISSIONWAYPOINT_METHOD_3_24AE18F9EDC60A25_OFFSET UNITYSDK_OFFSET(0x19C55C20)
-#define RPG_GAMECORE_SETMISSIONWAYPOINT_METHOD_3_5071B28D5979FD1E_OFFSET UNITYSDK_OFFSET(0x19C55BA0)
-#define RPG_GAMECORE_SETMISSIONWAYPOINT__CTOR_OFFSET UNITYSDK_OFFSET(0x19C55BF0)
+#define RPG_GAMECORE_SETMISSIONWAYPOINT_METHOD_3_24AE18F9EDC60A25_OFFSET UNITYSDK_OFFSET(0x1C6004B0)
+#define RPG_GAMECORE_SETMISSIONWAYPOINT_METHOD_3_A6810C5417D383E9_OFFSET UNITYSDK_OFFSET(0x1C600470)
+#define RPG_GAMECORE_SETMISSIONWAYPOINT__CTOR_OFFSET UNITYSDK_OFFSET(0x1C6004A0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SetMissionWayPoint_TypeDefinitionIndex = 19616;
+	inline static constexpr unsigned int SetMissionWayPoint_TypeDefinitionIndex = 19975;
 
 	class SetMissionWayPoint : public ::RPG::GameCore::TaskConfig
 	{
@@ -39,9 +39,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETMISSIONWAYPOINT__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_5071B28D5979FD1E(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SetMissionWayPoint*& a2)
+		static ::System::Void Method_3_A6810C5417D383E9(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SetMissionWayPoint*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SetMissionWayPoint*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETMISSIONWAYPOINT_METHOD_3_5071B28D5979FD1E_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SetMissionWayPoint*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETMISSIONWAYPOINT_METHOD_3_A6810C5417D383E9_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_24AE18F9EDC60A25(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SetMissionWayPoint* a2)

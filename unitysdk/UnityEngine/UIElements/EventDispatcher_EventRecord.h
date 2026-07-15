@@ -7,7 +7,7 @@ namespace UnityEngine::UIElements { class IPanel; }
 
 namespace UnityEngine::UIElements
 {
-	inline static constexpr unsigned int EventDispatcher_EventRecord_TypeDefinitionIndex = 6127;
+	inline static constexpr unsigned int EventDispatcher_EventRecord_TypeDefinitionIndex = 6132;
 
 	struct alignas(8) EventDispatcher_EventRecord
 	{

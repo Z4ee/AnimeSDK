@@ -6,39 +6,39 @@ namespace System { class String; }
 namespace System { template <typename T> class Predicate_1; }
 namespace System::Net::Http::Headers { class TransferCodingHeaderValue; }
 
-#define SYSTEM_NET_HTTP_HEADERS_HTTPREQUESTHEADERS___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1ADDA3C0)
-#define SYSTEM_NET_HTTP_HEADERS_HTTPREQUESTHEADERS___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1ADDA3F0)
-#define SYSTEM_NET_HTTP_HEADERS_HTTPREQUESTHEADERS___C__GET_CONNECTIONCLOSE_B__19_0_OFFSET UNITYSDK_OFFSET(0x1ADDA400)
-#define SYSTEM_NET_HTTP_HEADERS_HTTPREQUESTHEADERS___C__GET_CONNECTIONKEEPALIVE_B__22_0_OFFSET UNITYSDK_OFFSET(0x1ADDA420)
-#define SYSTEM_NET_HTTP_HEADERS_HTTPREQUESTHEADERS___C__GET_EXPECTCONTINUE_B__29_0_OFFSET UNITYSDK_OFFSET(0x1ADDA440)
-#define SYSTEM_NET_HTTP_HEADERS_HTTPREQUESTHEADERS___C__GET_TRANSFERENCODINGCHUNKED_B__71_0_OFFSET UNITYSDK_OFFSET(0x1ADDA470)
+#define SYSTEM_NET_HTTP_HEADERS_HTTPREQUESTHEADERS___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1CA99970)
+#define SYSTEM_NET_HTTP_HEADERS_HTTPREQUESTHEADERS___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1CA999A0)
+#define SYSTEM_NET_HTTP_HEADERS_HTTPREQUESTHEADERS___C__GET_CONNECTIONCLOSE_B__19_0_OFFSET UNITYSDK_OFFSET(0x1CA999B0)
+#define SYSTEM_NET_HTTP_HEADERS_HTTPREQUESTHEADERS___C__GET_CONNECTIONKEEPALIVE_B__22_0_OFFSET UNITYSDK_OFFSET(0x1CA999D0)
+#define SYSTEM_NET_HTTP_HEADERS_HTTPREQUESTHEADERS___C__GET_EXPECTCONTINUE_B__29_0_OFFSET UNITYSDK_OFFSET(0x1CA999F0)
+#define SYSTEM_NET_HTTP_HEADERS_HTTPREQUESTHEADERS___C__GET_TRANSFERENCODINGCHUNKED_B__71_0_OFFSET UNITYSDK_OFFSET(0x1CA99A20)
 
 namespace System::Net::Http::Headers
 {
-	inline static constexpr unsigned int HttpRequestHeaders___c_TypeDefinitionIndex = 3785;
+	inline static constexpr unsigned int HttpRequestHeaders___c_TypeDefinitionIndex = 3789;
 
 	class HttpRequestHeaders___c : public ::System::Object
 	{
 	public:
-		static ::System::Predicate_1<::System::String*>** StaticGet___9__22_0()
-		{
-			return (::System::Predicate_1<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(HttpRequestHeaders___c_TypeDefinitionIndex)->GetStaticField(0x2C9A0);
-		}
-		static ::System::Predicate_1<::System::String*>** StaticGet___9__19_0()
-		{
-			return (::System::Predicate_1<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(HttpRequestHeaders___c_TypeDefinitionIndex)->GetStaticField(0x2C9A8);
-		}
-		static ::System::Predicate_1<::System::Net::Http::Headers::TransferCodingHeaderValue*>** StaticGet___9__29_0()
-		{
-			return (::System::Predicate_1<::System::Net::Http::Headers::TransferCodingHeaderValue*>**)Il2CppClass::FromTypeDefinitionIndex(HttpRequestHeaders___c_TypeDefinitionIndex)->GetStaticField(0x2C9B0);
-		}
 		static ::System::Net::Http::Headers::HttpRequestHeaders___c** StaticGet___9()
 		{
-			return (::System::Net::Http::Headers::HttpRequestHeaders___c**)Il2CppClass::FromTypeDefinitionIndex(HttpRequestHeaders___c_TypeDefinitionIndex)->GetStaticField(0x2C9B8);
+			return (::System::Net::Http::Headers::HttpRequestHeaders___c**)Il2CppClass::FromTypeDefinitionIndex(HttpRequestHeaders___c_TypeDefinitionIndex)->GetStaticField(0x35240);
+		}
+		static ::System::Predicate_1<::System::String*>** StaticGet___9__22_0()
+		{
+			return (::System::Predicate_1<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(HttpRequestHeaders___c_TypeDefinitionIndex)->GetStaticField(0x35248);
 		}
 		static ::System::Predicate_1<::System::Net::Http::Headers::TransferCodingHeaderValue*>** StaticGet___9__71_0()
 		{
-			return (::System::Predicate_1<::System::Net::Http::Headers::TransferCodingHeaderValue*>**)Il2CppClass::FromTypeDefinitionIndex(HttpRequestHeaders___c_TypeDefinitionIndex)->GetStaticField(0x2C9C0);
+			return (::System::Predicate_1<::System::Net::Http::Headers::TransferCodingHeaderValue*>**)Il2CppClass::FromTypeDefinitionIndex(HttpRequestHeaders___c_TypeDefinitionIndex)->GetStaticField(0x35250);
+		}
+		static ::System::Predicate_1<::System::Net::Http::Headers::TransferCodingHeaderValue*>** StaticGet___9__29_0()
+		{
+			return (::System::Predicate_1<::System::Net::Http::Headers::TransferCodingHeaderValue*>**)Il2CppClass::FromTypeDefinitionIndex(HttpRequestHeaders___c_TypeDefinitionIndex)->GetStaticField(0x35258);
+		}
+		static ::System::Predicate_1<::System::String*>** StaticGet___9__19_0()
+		{
+			return (::System::Predicate_1<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(HttpRequestHeaders___c_TypeDefinitionIndex)->GetStaticField(0x35260);
 		}
 
 		static ::System::Void _cctor()

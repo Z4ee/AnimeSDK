@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int LoadingStyle_TypeDefinitionIndex = 68243;
+	inline static constexpr unsigned int LoadingStyle_TypeDefinitionIndex = 69732;
 
 	enum class LoadingStyle : ::System::Int32
 	{

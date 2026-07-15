@@ -2,7 +2,7 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/ValueType.h"
 
-inline static constexpr unsigned int Struct_2_52A902145F5BE51A_TempBitConverterImpl_1_TypeDefinitionIndex = 6930;
+inline static constexpr unsigned int Struct_2_52A902145F5BE51A_TempBitConverterImpl_1_TypeDefinitionIndex = 6936;
 
 template <typename T>
 struct Struct_2_52A902145F5BE51A_TempBitConverterImpl_1

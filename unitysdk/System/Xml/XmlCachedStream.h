@@ -5,11 +5,11 @@
 namespace System { class Uri; }
 namespace System::IO { class Stream; }
 
-#define SYSTEM_XML_XMLCACHEDSTREAM__CTOR_OFFSET UNITYSDK_OFFSET(0x1AEA9B60)
+#define SYSTEM_XML_XMLCACHEDSTREAM__CTOR_OFFSET UNITYSDK_OFFSET(0x162BE060)
 
 namespace System::Xml
 {
-	inline static constexpr unsigned int XmlCachedStream_TypeDefinitionIndex = 1938;
+	inline static constexpr unsigned int XmlCachedStream_TypeDefinitionIndex = 1942;
 
 	class XmlCachedStream : public ::System::IO::MemoryStream
 	{

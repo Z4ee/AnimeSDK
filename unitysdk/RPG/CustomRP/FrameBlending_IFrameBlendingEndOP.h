@@ -3,7 +3,7 @@
 
 namespace RPG::CustomRP
 {
-	inline static constexpr unsigned int FrameBlending_IFrameBlendingEndOP_TypeDefinitionIndex = 35281;
+	inline static constexpr unsigned int FrameBlending_IFrameBlendingEndOP_TypeDefinitionIndex = 36063;
 
 	class FrameBlending_IFrameBlendingEndOP
 	{

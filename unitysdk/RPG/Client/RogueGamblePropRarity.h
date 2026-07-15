@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int RogueGamblePropRarity_TypeDefinitionIndex = 62863;
+	inline static constexpr unsigned int RogueGamblePropRarity_TypeDefinitionIndex = 64230;
 
 	enum class RogueGamblePropRarity : ::System::Int32
 	{

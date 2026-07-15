@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class TaskContext; }
 namespace RPG::GameCore { class TriggerBlendShapesEmotion; }
 
-#define CLASS_3_A249B9DF04995DBC_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xACBA8A0)
-#define CLASS_3_A249B9DF04995DBC__CTOR_OFFSET UNITYSDK_OFFSET(0xACBA870)
+#define CLASS_3_A249B9DF04995DBC_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x173DAD80)
+#define CLASS_3_A249B9DF04995DBC__CTOR_OFFSET UNITYSDK_OFFSET(0x173DAD50)
 
-inline static constexpr unsigned int Class_3_A249B9DF04995DBC_TypeDefinitionIndex = 52226;
+inline static constexpr unsigned int Class_3_A249B9DF04995DBC_TypeDefinitionIndex = 53378;
 
 class Class_3_A249B9DF04995DBC : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::TriggerBlendShapesEmotion*>
 {

@@ -5,9 +5,9 @@
 class Class_1_D818CA99906737D6;
 namespace RPG::Client { class IRogueTournPersonaModifier; }
 
-#define CLASS_1_AACAF35F6C229DC0_METHOD_1_BFFAF29A1364E8AA_OFFSET UNITYSDK_OFFSET(0xCBD7DA0)
+#define CLASS_1_AACAF35F6C229DC0_METHOD_1_BFFAF29A1364E8AA_OFFSET UNITYSDK_OFFSET(0x1760BA40)
 
-inline static constexpr unsigned int Class_1_AACAF35F6C229DC0_TypeDefinitionIndex = 63329;
+inline static constexpr unsigned int Class_1_AACAF35F6C229DC0_TypeDefinitionIndex = 64696;
 
 class Class_1_AACAF35F6C229DC0 : public ::System::Object
 {

@@ -3,9 +3,9 @@
 #include "unitysdk/RPG/Client/OpenWorld/VolumeParameter_1.h"
 #include "unitysdk/UnityEngine/Vector2.h"
 
-#define CLASS_3_07D330A92D2D5A23__CTOR_OFFSET UNITYSDK_OFFSET(0x13AAB2E0)
+#define CLASS_3_07D330A92D2D5A23__CTOR_OFFSET UNITYSDK_OFFSET(0x1936B010)
 
-inline static constexpr unsigned int Class_3_07D330A92D2D5A23_TypeDefinitionIndex = 69101;
+inline static constexpr unsigned int Class_3_07D330A92D2D5A23_TypeDefinitionIndex = 70620;
 
 class Class_3_07D330A92D2D5A23 : public ::RPG::Client::OpenWorld::VolumeParameter_1<::UnityEngine::Vector2>
 {

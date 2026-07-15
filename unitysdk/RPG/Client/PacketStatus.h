@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int PacketStatus_TypeDefinitionIndex = 40464;
+	inline static constexpr unsigned int PacketStatus_TypeDefinitionIndex = 41279;
 
 	enum class PacketStatus : ::System::Int32
 	{

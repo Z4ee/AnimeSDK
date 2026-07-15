@@ -7,19 +7,19 @@ namespace RPG::GameCore { class GridFightShowRightCutIn; }
 namespace RPG::GameCore { class TaskContext; }
 namespace System { class String; }
 
-#define CLASS_3_758F772BE3658AC2_METHOD_3_BF96DD2CB9CE433A_OFFSET UNITYSDK_OFFSET(0x11909CA0)
-#define CLASS_3_758F772BE3658AC2_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x11909760)
-#define CLASS_3_758F772BE3658AC2__CCTOR_OFFSET UNITYSDK_OFFSET(0x11909E50)
-#define CLASS_3_758F772BE3658AC2__CTOR_OFFSET UNITYSDK_OFFSET(0x11909730)
+#define CLASS_3_758F772BE3658AC2_METHOD_3_BF96DD2CB9CE433A_OFFSET UNITYSDK_OFFSET(0x140B9C90)
+#define CLASS_3_758F772BE3658AC2_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x140B9750)
+#define CLASS_3_758F772BE3658AC2__CCTOR_OFFSET UNITYSDK_OFFSET(0x140B9E30)
+#define CLASS_3_758F772BE3658AC2__CTOR_OFFSET UNITYSDK_OFFSET(0x140B9720)
 
-inline static constexpr unsigned int Class_3_758F772BE3658AC2_TypeDefinitionIndex = 54344;
+inline static constexpr unsigned int Class_3_758F772BE3658AC2_TypeDefinitionIndex = 55567;
 
 class Class_3_758F772BE3658AC2 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::GridFightShowRightCutIn*>
 {
 public:
 	static ::System::String** StaticGet_Field_3_0()
 	{
-		return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(Class_3_758F772BE3658AC2_TypeDefinitionIndex)->GetStaticField(0x19190);
+		return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(Class_3_758F772BE3658AC2_TypeDefinitionIndex)->GetStaticField(0xEFE0);
 	}
 
 	::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::GridFightShowRightCutIn* a2)

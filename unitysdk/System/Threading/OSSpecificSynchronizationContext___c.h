@@ -5,9 +5,9 @@
 namespace System::Runtime::CompilerServices { template <typename T1, typename T2> class ConditionalWeakTable_2_CreateValueCallback; }
 namespace System::Threading { class OSSpecificSynchronizationContext; }
 
-#define SYSTEM_THREADING_OSSPECIFICSYNCHRONIZATIONCONTEXT___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1861D930)
-#define SYSTEM_THREADING_OSSPECIFICSYNCHRONIZATIONCONTEXT___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1861D960)
-#define SYSTEM_THREADING_OSSPECIFICSYNCHRONIZATIONCONTEXT___C__GET_B__3_0_OFFSET UNITYSDK_OFFSET(0x1861D970)
+#define SYSTEM_THREADING_OSSPECIFICSYNCHRONIZATIONCONTEXT___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x19985540)
+#define SYSTEM_THREADING_OSSPECIFICSYNCHRONIZATIONCONTEXT___C__CTOR_OFFSET UNITYSDK_OFFSET(0x19985570)
+#define SYSTEM_THREADING_OSSPECIFICSYNCHRONIZATIONCONTEXT___C__GET_B__3_0_OFFSET UNITYSDK_OFFSET(0x19985580)
 
 namespace System::Threading
 {
@@ -16,13 +16,13 @@ namespace System::Threading
 	class OSSpecificSynchronizationContext___c : public ::System::Object
 	{
 	public:
-		static ::System::Threading::OSSpecificSynchronizationContext___c** StaticGet___9()
-		{
-			return (::System::Threading::OSSpecificSynchronizationContext___c**)Il2CppClass::FromTypeDefinitionIndex(OSSpecificSynchronizationContext___c_TypeDefinitionIndex)->GetStaticField(0x11D10);
-		}
 		static ::System::Runtime::CompilerServices::ConditionalWeakTable_2_CreateValueCallback<::System::Object*, ::System::Threading::OSSpecificSynchronizationContext*>** StaticGet___9__3_0()
 		{
-			return (::System::Runtime::CompilerServices::ConditionalWeakTable_2_CreateValueCallback<::System::Object*, ::System::Threading::OSSpecificSynchronizationContext*>**)Il2CppClass::FromTypeDefinitionIndex(OSSpecificSynchronizationContext___c_TypeDefinitionIndex)->GetStaticField(0x11D18);
+			return (::System::Runtime::CompilerServices::ConditionalWeakTable_2_CreateValueCallback<::System::Object*, ::System::Threading::OSSpecificSynchronizationContext*>**)Il2CppClass::FromTypeDefinitionIndex(OSSpecificSynchronizationContext___c_TypeDefinitionIndex)->GetStaticField(0x20DC0);
+		}
+		static ::System::Threading::OSSpecificSynchronizationContext___c** StaticGet___9()
+		{
+			return (::System::Threading::OSSpecificSynchronizationContext___c**)Il2CppClass::FromTypeDefinitionIndex(OSSpecificSynchronizationContext___c_TypeDefinitionIndex)->GetStaticField(0x20DC8);
 		}
 
 		static ::System::Void _cctor()

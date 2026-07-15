@@ -5,12 +5,12 @@
 namespace HoudiniEngineUnity { class HEU_Shelf; }
 namespace System { class String; }
 
-#define HOUDINIENGINEUNITY_HEU_SHELFTOOLS___C__DISPLAYCLASS19_0__ADDSHELF_B__0_OFFSET UNITYSDK_OFFSET(0x17F5C9A0)
-#define HOUDINIENGINEUNITY_HEU_SHELFTOOLS___C__DISPLAYCLASS19_0__CTOR_OFFSET UNITYSDK_OFFSET(0x17F5AC60)
+#define HOUDINIENGINEUNITY_HEU_SHELFTOOLS___C__DISPLAYCLASS19_0__ADDSHELF_B__0_OFFSET UNITYSDK_OFFSET(0x197CCB20)
+#define HOUDINIENGINEUNITY_HEU_SHELFTOOLS___C__DISPLAYCLASS19_0__CTOR_OFFSET UNITYSDK_OFFSET(0x197CADC0)
 
 namespace HoudiniEngineUnity
 {
-	inline static constexpr unsigned int HEU_ShelfTools___c__DisplayClass19_0_TypeDefinitionIndex = 37701;
+	inline static constexpr unsigned int HEU_ShelfTools___c__DisplayClass19_0_TypeDefinitionIndex = 38509;
 
 	class HEU_ShelfTools___c__DisplayClass19_0 : public ::System::Object
 	{

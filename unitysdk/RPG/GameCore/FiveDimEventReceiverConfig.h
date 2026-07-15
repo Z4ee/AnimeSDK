@@ -5,13 +5,13 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class FiveDimEventReceiverItem; }
 
-#define RPG_GAMECORE_FIVEDIMEVENTRECEIVERCONFIG_METHOD_3_563623CBB152C1FB_OFFSET UNITYSDK_OFFSET(0x1973B880)
-#define RPG_GAMECORE_FIVEDIMEVENTRECEIVERCONFIG_METHOD_3_A8668E666C88E992_OFFSET UNITYSDK_OFFSET(0x1973B7E0)
-#define RPG_GAMECORE_FIVEDIMEVENTRECEIVERCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1973B840)
+#define RPG_GAMECORE_FIVEDIMEVENTRECEIVERCONFIG_METHOD_3_563623CBB152C1FB_OFFSET UNITYSDK_OFFSET(0x1BA941E0)
+#define RPG_GAMECORE_FIVEDIMEVENTRECEIVERCONFIG_METHOD_3_A32F9761C698529B_OFFSET UNITYSDK_OFFSET(0x1BA94170)
+#define RPG_GAMECORE_FIVEDIMEVENTRECEIVERCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1BA941C0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FiveDimEventReceiverConfig_TypeDefinitionIndex = 17731;
+	inline static constexpr unsigned int FiveDimEventReceiverConfig_TypeDefinitionIndex = 17905;
 
 	class FiveDimEventReceiverConfig : public ::RPG::GameCore::LittleGameComponentConfig
 	{
@@ -24,9 +24,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMEVENTRECEIVERCONFIG__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_A8668E666C88E992(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::FiveDimEventReceiverConfig*& a2)
+		static ::System::Void Method_3_A32F9761C698529B(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::FiveDimEventReceiverConfig*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::FiveDimEventReceiverConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMEVENTRECEIVERCONFIG_METHOD_3_A8668E666C88E992_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::FiveDimEventReceiverConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMEVENTRECEIVERCONFIG_METHOD_3_A32F9761C698529B_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_563623CBB152C1FB(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::FiveDimEventReceiverConfig* a2)

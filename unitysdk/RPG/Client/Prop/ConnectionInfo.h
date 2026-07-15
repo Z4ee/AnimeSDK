@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define RPG_CLIENT_PROP_CONNECTIONINFO__CTOR_OFFSET UNITYSDK_OFFSET(0xC5369C0)
+#define RPG_CLIENT_PROP_CONNECTIONINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x19008270)
 
 namespace RPG::Client::Prop
 {
-	inline static constexpr unsigned int ConnectionInfo_TypeDefinitionIndex = 73039;
+	inline static constexpr unsigned int ConnectionInfo_TypeDefinitionIndex = 74564;
 
 	class ConnectionInfo : public ::System::Object
 	{

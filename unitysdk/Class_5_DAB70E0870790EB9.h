@@ -1,0 +1,56 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/Class_4_75DFF94C54F0E143.h"
+#include "unitysdk/RPG/Client/LittleGame/Move/MoveState.h"
+#include "unitysdk/Struct_2_F31A7EC67A3AEEF7.h"
+
+class Class_1_BAF6F107F0961F34;
+
+#define CLASS_5_DAB70E0870790EB9_METHOD_5_2C3C6F1E9A1BB177_OFFSET UNITYSDK_OFFSET(0x17F7B250)
+#define CLASS_5_DAB70E0870790EB9_METHOD_5_59BC725D372CDEF8_OFFSET UNITYSDK_OFFSET(0x17F7B130)
+#define CLASS_5_DAB70E0870790EB9_METHOD_5_70437D85C11C5222_OFFSET UNITYSDK_OFFSET(0x17F7AFA0)
+#define CLASS_5_DAB70E0870790EB9_METHOD_5_96A71EEBBFD7E4B0_OFFSET UNITYSDK_OFFSET(0x17F7B090)
+#define CLASS_5_DAB70E0870790EB9_METHOD_5_F48B6E9D83D3B226_OFFSET UNITYSDK_OFFSET(0x17F7B2A0)
+#define CLASS_5_DAB70E0870790EB9_METHOD_5_FF266310B473E14D_OFFSET UNITYSDK_OFFSET(0x17F7B1A0)
+#define CLASS_5_DAB70E0870790EB9__CTOR_OFFSET UNITYSDK_OFFSET(0x17F7B2B0)
+
+inline static constexpr unsigned int Class_5_DAB70E0870790EB9_TypeDefinitionIndex = 73018;
+
+class Class_5_DAB70E0870790EB9 : public ::Class_4_75DFF94C54F0E143
+{
+public:
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_5_DAB70E0870790EB9__CTOR_OFFSET))(this);
+	}
+
+	::System::Void Method_5_70437D85C11C5222(::Class_1_BAF6F107F0961F34* a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::Class_1_BAF6F107F0961F34*))((::PBYTE)hIl2Cpp + CLASS_5_DAB70E0870790EB9_METHOD_5_70437D85C11C5222_OFFSET))(this, a1);
+	}
+
+	::System::Void Method_5_96A71EEBBFD7E4B0(::Struct_2_F31A7EC67A3AEEF7& a1, ::RPG::Client::LittleGame::Move::MoveState a2)
+	{
+		return ((::System::Void(*)(::PVOID, ::Struct_2_F31A7EC67A3AEEF7&, ::RPG::Client::LittleGame::Move::MoveState))((::PBYTE)hIl2Cpp + CLASS_5_DAB70E0870790EB9_METHOD_5_96A71EEBBFD7E4B0_OFFSET))(this, a1, a2);
+	}
+
+	::System::Void Method_5_59BC725D372CDEF8(::Struct_2_F31A7EC67A3AEEF7& a1, ::RPG::Client::LittleGame::Move::MoveState a2)
+	{
+		return ((::System::Void(*)(::PVOID, ::Struct_2_F31A7EC67A3AEEF7&, ::RPG::Client::LittleGame::Move::MoveState))((::PBYTE)hIl2Cpp + CLASS_5_DAB70E0870790EB9_METHOD_5_59BC725D372CDEF8_OFFSET))(this, a1, a2);
+	}
+
+	::System::Void Method_5_FF266310B473E14D(::Struct_2_F31A7EC67A3AEEF7& a1, ::System::Single a2)
+	{
+		return ((::System::Void(*)(::PVOID, ::Struct_2_F31A7EC67A3AEEF7&, ::System::Single))((::PBYTE)hIl2Cpp + CLASS_5_DAB70E0870790EB9_METHOD_5_FF266310B473E14D_OFFSET))(this, a1, a2);
+	}
+
+	::System::Single Method_5_2C3C6F1E9A1BB177(::Struct_2_F31A7EC67A3AEEF7& a1)
+	{
+		return ((::System::Single(*)(::PVOID, ::Struct_2_F31A7EC67A3AEEF7&))((::PBYTE)hIl2Cpp + CLASS_5_DAB70E0870790EB9_METHOD_5_2C3C6F1E9A1BB177_OFFSET))(this, a1);
+	}
+
+	::RPG::Client::LittleGame::Move::MoveState Method_5_F48B6E9D83D3B226()
+	{
+		return ((::RPG::Client::LittleGame::Move::MoveState(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_5_DAB70E0870790EB9_METHOD_5_F48B6E9D83D3B226_OFFSET))(this);
+	}
+};

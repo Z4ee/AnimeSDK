@@ -3,7 +3,7 @@
 
 namespace XLua::LuaDLL
 {
-	inline static constexpr unsigned int RelationshipType_TypeDefinitionIndex = 48384;
+	inline static constexpr unsigned int RelationshipType_TypeDefinitionIndex = 49383;
 
 	enum class RelationshipType : ::System::Int32
 	{

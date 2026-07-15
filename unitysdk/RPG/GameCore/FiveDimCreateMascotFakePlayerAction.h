@@ -7,13 +7,13 @@ namespace RPG::GameCore { class FiveDimEffectItem; }
 namespace RPG::GameCore { class LittleGameEvent; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_FIVEDIMCREATEMASCOTFAKEPLAYERACTION_METHOD_3_DFCF1393B81B3F91_OFFSET UNITYSDK_OFFSET(0x1972CD60)
-#define RPG_GAMECORE_FIVEDIMCREATEMASCOTFAKEPLAYERACTION_METHOD_3_F393BB5F3EC5694E_OFFSET UNITYSDK_OFFSET(0x19736C30)
-#define RPG_GAMECORE_FIVEDIMCREATEMASCOTFAKEPLAYERACTION__CTOR_OFFSET UNITYSDK_OFFSET(0x1972CD40)
+#define RPG_GAMECORE_FIVEDIMCREATEMASCOTFAKEPLAYERACTION_METHOD_3_71408E4F92E57120_OFFSET UNITYSDK_OFFSET(0x1BA8E900)
+#define RPG_GAMECORE_FIVEDIMCREATEMASCOTFAKEPLAYERACTION_METHOD_3_DFCF1393B81B3F91_OFFSET UNITYSDK_OFFSET(0x1BA8E940)
+#define RPG_GAMECORE_FIVEDIMCREATEMASCOTFAKEPLAYERACTION__CTOR_OFFSET UNITYSDK_OFFSET(0x1BA8E930)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FiveDimCreateMascotFakePlayerAction_TypeDefinitionIndex = 17771;
+	inline static constexpr unsigned int FiveDimCreateMascotFakePlayerAction_TypeDefinitionIndex = 17947;
 
 	class FiveDimCreateMascotFakePlayerAction : public ::RPG::GameCore::FiveDimBaseEventAction
 	{
@@ -33,9 +33,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMCREATEMASCOTFAKEPLAYERACTION__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_F393BB5F3EC5694E(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::FiveDimCreateMascotFakePlayerAction*& a2)
+		static ::System::Void Method_3_71408E4F92E57120(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::FiveDimCreateMascotFakePlayerAction*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::FiveDimCreateMascotFakePlayerAction*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMCREATEMASCOTFAKEPLAYERACTION_METHOD_3_F393BB5F3EC5694E_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::FiveDimCreateMascotFakePlayerAction*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMCREATEMASCOTFAKEPLAYERACTION_METHOD_3_71408E4F92E57120_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_DFCF1393B81B3F91(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::FiveDimCreateMascotFakePlayerAction* a2)

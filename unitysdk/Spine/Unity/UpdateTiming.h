@@ -3,7 +3,7 @@
 
 namespace Spine::Unity
 {
-	inline static constexpr unsigned int UpdateTiming_TypeDefinitionIndex = 41449;
+	inline static constexpr unsigned int UpdateTiming_TypeDefinitionIndex = 42264;
 
 	enum class UpdateTiming : ::System::Int32
 	{

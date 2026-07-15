@@ -14,15 +14,14 @@ namespace UnityEngine { class Renderer; }
 namespace UnityEngine { class Shader; }
 namespace UnityEngine { class Texture2D; }
 
-#define RPG_CLIENT_MONOEFFECTPLUGINCHARAPROPSTARRYSKY_INIT_OFFSET UNITYSDK_OFFSET(0xC0CF250)
-#define RPG_CLIENT_MONOEFFECTPLUGINCHARAPROPSTARRYSKY_UNINIT_OFFSET UNITYSDK_OFFSET(0xC0D0380)
-#define RPG_CLIENT_MONOEFFECTPLUGINCHARAPROPSTARRYSKY_UPDATEPROPERTY_OFFSET UNITYSDK_OFFSET(0xC0CF2F0)
-#define RPG_CLIENT_MONOEFFECTPLUGINCHARAPROPSTARRYSKY__CTOR_OFFSET UNITYSDK_OFFSET(0xC0D04A0)
-#define RPG_CLIENT_MONOEFFECTPLUGINCHARAPROPSTARRYSKY___IFIXBASEPROXY_INIT_OFFSET UNITYSDK_OFFSET(0xC0D04C0)
+#define RPG_CLIENT_MONOEFFECTPLUGINCHARAPROPSTARRYSKY_INIT_OFFSET UNITYSDK_OFFSET(0x1911D9F0)
+#define RPG_CLIENT_MONOEFFECTPLUGINCHARAPROPSTARRYSKY_UNINIT_OFFSET UNITYSDK_OFFSET(0x1911EB20)
+#define RPG_CLIENT_MONOEFFECTPLUGINCHARAPROPSTARRYSKY_UPDATEPROPERTY_OFFSET UNITYSDK_OFFSET(0x1911DA90)
+#define RPG_CLIENT_MONOEFFECTPLUGINCHARAPROPSTARRYSKY__CTOR_OFFSET UNITYSDK_OFFSET(0x1911EC40)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MonoEffectPluginCharaPropStarrySky_TypeDefinitionIndex = 65431;
+	inline static constexpr unsigned int MonoEffectPluginCharaPropStarrySky_TypeDefinitionIndex = 66844;
 
 	class MonoEffectPluginCharaPropStarrySky : public ::RPG::Client::MonoEffectPluginCharaPropBase
 	{
@@ -94,11 +93,6 @@ namespace RPG::Client
 		::System::Void UnInit(::System::Collections::Generic::List_1<::UnityEngine::Material*>* a1)
 		{
 			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::UnityEngine::Material*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOEFFECTPLUGINCHARAPROPSTARRYSKY_UNINIT_OFFSET))(this, a1);
-		}
-
-		::System::Void __iFixBaseProxy_Init(::System::Collections::Generic::Dictionary_2<::UnityEngine::Renderer*, ::RPG::Client::MonoEffectPluginCharaEffectBase_Class_1_0875A0359D7C8064*>* a1, ::System::Collections::Generic::List_1<::UnityEngine::Material*>* a2, ::System::Collections::Generic::Dictionary_2<::UnityEngine::Shader*, ::System::String*>*& a3)
-		{
-			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::Dictionary_2<::UnityEngine::Renderer*, ::RPG::Client::MonoEffectPluginCharaEffectBase_Class_1_0875A0359D7C8064*>*, ::System::Collections::Generic::List_1<::UnityEngine::Material*>*, ::System::Collections::Generic::Dictionary_2<::UnityEngine::Shader*, ::System::String*>*&))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOEFFECTPLUGINCHARAPROPSTARRYSKY___IFIXBASEPROXY_INIT_OFFSET))(this, a1, a2, a3);
 		}
 	};
 }

@@ -6,29 +6,29 @@ namespace RPG::Client { class CakeRaceChatEmojiDataItem; }
 namespace RPG::Client { class CakeRaceChatMessageDataItem; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define RPG_CLIENT_CAKERACECHATINFO___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xB494210)
-#define RPG_CLIENT_CAKERACECHATINFO___C__CTOR_OFFSET UNITYSDK_OFFSET(0xB494250)
-#define RPG_CLIENT_CAKERACECHATINFO___C__GETNORMALMESSAGES_B__6_0_OFFSET UNITYSDK_OFFSET(0xB494260)
-#define RPG_CLIENT_CAKERACECHATINFO___C__GETPLAYERUSEEMOJIS_B__8_0_OFFSET UNITYSDK_OFFSET(0xB494280)
+#define RPG_CLIENT_CAKERACECHATINFO___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1AAC1110)
+#define RPG_CLIENT_CAKERACECHATINFO___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1AAC1150)
+#define RPG_CLIENT_CAKERACECHATINFO___C__GETNORMALMESSAGES_B__6_0_OFFSET UNITYSDK_OFFSET(0x1AAC1160)
+#define RPG_CLIENT_CAKERACECHATINFO___C__GETPLAYERUSEEMOJIS_B__8_0_OFFSET UNITYSDK_OFFSET(0x1AAC1180)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int CakeRaceChatInfo___c_TypeDefinitionIndex = 58985;
+	inline static constexpr unsigned int CakeRaceChatInfo___c_TypeDefinitionIndex = 60256;
 
 	class CakeRaceChatInfo___c : public ::System::Object
 	{
 	public:
-		static ::RPG::Client::CakeRaceChatInfo___c** StaticGet___9()
-		{
-			return (::RPG::Client::CakeRaceChatInfo___c**)Il2CppClass::FromTypeDefinitionIndex(CakeRaceChatInfo___c_TypeDefinitionIndex)->GetStaticField(0x5C280);
-		}
 		static ::System::Func_2<::RPG::Client::CakeRaceChatMessageDataItem*, ::System::Boolean>** StaticGet___9__6_0()
 		{
-			return (::System::Func_2<::RPG::Client::CakeRaceChatMessageDataItem*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(CakeRaceChatInfo___c_TypeDefinitionIndex)->GetStaticField(0x5C288);
+			return (::System::Func_2<::RPG::Client::CakeRaceChatMessageDataItem*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(CakeRaceChatInfo___c_TypeDefinitionIndex)->GetStaticField(0x5F6D0);
 		}
 		static ::System::Func_2<::RPG::Client::CakeRaceChatEmojiDataItem*, ::System::Boolean>** StaticGet___9__8_0()
 		{
-			return (::System::Func_2<::RPG::Client::CakeRaceChatEmojiDataItem*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(CakeRaceChatInfo___c_TypeDefinitionIndex)->GetStaticField(0x5C290);
+			return (::System::Func_2<::RPG::Client::CakeRaceChatEmojiDataItem*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(CakeRaceChatInfo___c_TypeDefinitionIndex)->GetStaticField(0x5F6D8);
+		}
+		static ::RPG::Client::CakeRaceChatInfo___c** StaticGet___9()
+		{
+			return (::RPG::Client::CakeRaceChatInfo___c**)Il2CppClass::FromTypeDefinitionIndex(CakeRaceChatInfo___c_TypeDefinitionIndex)->GetStaticField(0x5F6E0);
 		}
 
 		static ::System::Void _cctor()

@@ -5,13 +5,13 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class PredicateConfig; }
 
-#define RPG_GAMECORE_TRIGGERMODIFIERENTERBATTLE_METHOD_3_40EC1D732529C5AC_OFFSET UNITYSDK_OFFSET(0x19E184A0)
-#define RPG_GAMECORE_TRIGGERMODIFIERENTERBATTLE_METHOD_3_EEE94AF87AEB983D_OFFSET UNITYSDK_OFFSET(0x19E18520)
-#define RPG_GAMECORE_TRIGGERMODIFIERENTERBATTLE__CTOR_OFFSET UNITYSDK_OFFSET(0x19E184F0)
+#define RPG_GAMECORE_TRIGGERMODIFIERENTERBATTLE_METHOD_3_C4B5768F03E5ABBE_OFFSET UNITYSDK_OFFSET(0x1B058F00)
+#define RPG_GAMECORE_TRIGGERMODIFIERENTERBATTLE_METHOD_3_EEE94AF87AEB983D_OFFSET UNITYSDK_OFFSET(0x1B058F40)
+#define RPG_GAMECORE_TRIGGERMODIFIERENTERBATTLE__CTOR_OFFSET UNITYSDK_OFFSET(0x1B058F30)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TriggerModifierEnterBattle_TypeDefinitionIndex = 22170;
+	inline static constexpr unsigned int TriggerModifierEnterBattle_TypeDefinitionIndex = 22607;
 
 	class TriggerModifierEnterBattle : public ::RPG::GameCore::TaskConfig
 	{
@@ -23,9 +23,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TRIGGERMODIFIERENTERBATTLE__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_40EC1D732529C5AC(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::TriggerModifierEnterBattle*& a2)
+		static ::System::Void Method_3_C4B5768F03E5ABBE(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::TriggerModifierEnterBattle*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::TriggerModifierEnterBattle*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TRIGGERMODIFIERENTERBATTLE_METHOD_3_40EC1D732529C5AC_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::TriggerModifierEnterBattle*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TRIGGERMODIFIERENTERBATTLE_METHOD_3_C4B5768F03E5ABBE_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_EEE94AF87AEB983D(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::TriggerModifierEnterBattle* a2)

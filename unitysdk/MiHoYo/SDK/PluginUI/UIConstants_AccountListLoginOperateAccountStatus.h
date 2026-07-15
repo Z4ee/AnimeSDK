@@ -6,7 +6,7 @@ namespace System { class String; }
 
 namespace MiHoYo::SDK::PluginUI
 {
-	inline static constexpr unsigned int UIConstants_AccountListLoginOperateAccountStatus_TypeDefinitionIndex = 44202;
+	inline static constexpr unsigned int UIConstants_AccountListLoginOperateAccountStatus_TypeDefinitionIndex = 45072;
 
 	class UIConstants_AccountListLoginOperateAccountStatus : public ::System::Object
 	{

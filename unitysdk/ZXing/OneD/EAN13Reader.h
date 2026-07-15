@@ -2,18 +2,18 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/ZXing/OneD/UPCEANReader.h"
 
-#define ZXING_ONED_EAN13READER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1B5587F0)
+#define ZXING_ONED_EAN13READER__CCTOR_OFFSET UNITYSDK_OFFSET(0x15551100)
 
 namespace ZXing::OneD
 {
-	inline static constexpr unsigned int EAN13Reader_TypeDefinitionIndex = 6449;
+	inline static constexpr unsigned int EAN13Reader_TypeDefinitionIndex = 6454;
 
 	class EAN13Reader : public ::ZXing::OneD::UPCEANReader
 	{
 	public:
 		static ::Il2CppArray<::System::Int32>** StaticGet_FIRST_DIGIT_ENCODINGS()
 		{
-			return (::Il2CppArray<::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(EAN13Reader_TypeDefinitionIndex)->GetStaticField(0x3C50);
+			return (::Il2CppArray<::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(EAN13Reader_TypeDefinitionIndex)->GetStaticField(0x2270);
 		}
 
 		static ::System::Void _cctor()

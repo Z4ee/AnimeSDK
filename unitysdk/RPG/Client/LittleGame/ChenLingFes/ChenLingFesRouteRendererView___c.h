@@ -5,24 +5,24 @@
 namespace BansheeGz::BGSpline::Components { class BGCcSplitterPolyline; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define RPG_CLIENT_LITTLEGAME_CHENLINGFES_CHENLINGFESROUTERENDERERVIEW___C__BINDCOMPONENTS_B__2_0_OFFSET UNITYSDK_OFFSET(0xBDD6E70)
-#define RPG_CLIENT_LITTLEGAME_CHENLINGFES_CHENLINGFESROUTERENDERERVIEW___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xBDD6E20)
-#define RPG_CLIENT_LITTLEGAME_CHENLINGFES_CHENLINGFESROUTERENDERERVIEW___C__CTOR_OFFSET UNITYSDK_OFFSET(0xBDD6E60)
+#define RPG_CLIENT_LITTLEGAME_CHENLINGFES_CHENLINGFESROUTERENDERERVIEW___C__BINDCOMPONENTS_B__2_0_OFFSET UNITYSDK_OFFSET(0x19B955A0)
+#define RPG_CLIENT_LITTLEGAME_CHENLINGFES_CHENLINGFESROUTERENDERERVIEW___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x19B95550)
+#define RPG_CLIENT_LITTLEGAME_CHENLINGFES_CHENLINGFESROUTERENDERERVIEW___C__CTOR_OFFSET UNITYSDK_OFFSET(0x19B95590)
 
 namespace RPG::Client::LittleGame::ChenLingFes
 {
-	inline static constexpr unsigned int ChenLingFesRouteRendererView___c_TypeDefinitionIndex = 72310;
+	inline static constexpr unsigned int ChenLingFesRouteRendererView___c_TypeDefinitionIndex = 73835;
 
 	class ChenLingFesRouteRendererView___c : public ::System::Object
 	{
 	public:
 		static ::RPG::Client::LittleGame::ChenLingFes::ChenLingFesRouteRendererView___c** StaticGet___9()
 		{
-			return (::RPG::Client::LittleGame::ChenLingFes::ChenLingFesRouteRendererView___c**)Il2CppClass::FromTypeDefinitionIndex(ChenLingFesRouteRendererView___c_TypeDefinitionIndex)->GetStaticField(0x4A140);
+			return (::RPG::Client::LittleGame::ChenLingFes::ChenLingFesRouteRendererView___c**)Il2CppClass::FromTypeDefinitionIndex(ChenLingFesRouteRendererView___c_TypeDefinitionIndex)->GetStaticField(0x39270);
 		}
 		static ::System::Func_2<::BansheeGz::BGSpline::Components::BGCcSplitterPolyline*, ::System::Boolean>** StaticGet___9__2_0()
 		{
-			return (::System::Func_2<::BansheeGz::BGSpline::Components::BGCcSplitterPolyline*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(ChenLingFesRouteRendererView___c_TypeDefinitionIndex)->GetStaticField(0x4A148);
+			return (::System::Func_2<::BansheeGz::BGSpline::Components::BGCcSplitterPolyline*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(ChenLingFesRouteRendererView___c_TypeDefinitionIndex)->GetStaticField(0x39278);
 		}
 
 		static ::System::Void _cctor()

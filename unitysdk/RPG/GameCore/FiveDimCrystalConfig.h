@@ -7,13 +7,13 @@ namespace RPG::GameCore { class FiveDimTriggerShape; }
 namespace RPG::GameCore { class LittleGameEvent; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_FIVEDIMCRYSTALCONFIG_METHOD_3_30D756FA95B1D468_OFFSET UNITYSDK_OFFSET(0x19736EC0)
-#define RPG_GAMECORE_FIVEDIMCRYSTALCONFIG_METHOD_3_52F93B198B643705_OFFSET UNITYSDK_OFFSET(0x19736E30)
-#define RPG_GAMECORE_FIVEDIMCRYSTALCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x19736E90)
+#define RPG_GAMECORE_FIVEDIMCRYSTALCONFIG_METHOD_3_BD25801E0B47AC22_OFFSET UNITYSDK_OFFSET(0x1BA8F000)
+#define RPG_GAMECORE_FIVEDIMCRYSTALCONFIG_METHOD_3_FCEE8FCE3486550F_OFFSET UNITYSDK_OFFSET(0x1BA8F060)
+#define RPG_GAMECORE_FIVEDIMCRYSTALCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1BA8F040)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FiveDimCrystalConfig_TypeDefinitionIndex = 17691;
+	inline static constexpr unsigned int FiveDimCrystalConfig_TypeDefinitionIndex = 17865;
 
 	class FiveDimCrystalConfig : public ::RPG::GameCore::LittleGameComponentConfig
 	{
@@ -35,14 +35,14 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMCRYSTALCONFIG__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_52F93B198B643705(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::FiveDimCrystalConfig*& a2)
+		static ::System::Void Method_3_BD25801E0B47AC22(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::FiveDimCrystalConfig*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::FiveDimCrystalConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMCRYSTALCONFIG_METHOD_3_52F93B198B643705_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::FiveDimCrystalConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMCRYSTALCONFIG_METHOD_3_BD25801E0B47AC22_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_30D756FA95B1D468(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::FiveDimCrystalConfig* a2)
+		static ::System::Void Method_3_FCEE8FCE3486550F(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::FiveDimCrystalConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::FiveDimCrystalConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMCRYSTALCONFIG_METHOD_3_30D756FA95B1D468_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::FiveDimCrystalConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMCRYSTALCONFIG_METHOD_3_FCEE8FCE3486550F_OFFSET))(a1, a2);
 		}
 	};
 }

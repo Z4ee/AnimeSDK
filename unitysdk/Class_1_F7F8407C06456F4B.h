@@ -3,9 +3,9 @@
 #include "unitysdk/RPG/Client/LittleGame/PixAir/PixAirPlaneType.h"
 #include "unitysdk/System/Object.h"
 
-#define CLASS_1_F7F8407C06456F4B__CTOR_OFFSET UNITYSDK_OFFSET(0x18DCBD40)
+#define CLASS_1_F7F8407C06456F4B__CTOR_OFFSET UNITYSDK_OFFSET(0x1B1827A0)
 
-inline static constexpr unsigned int Class_1_F7F8407C06456F4B_TypeDefinitionIndex = 40271;
+inline static constexpr unsigned int Class_1_F7F8407C06456F4B_TypeDefinitionIndex = 41086;
 
 class Class_1_F7F8407C06456F4B : public ::System::Object
 {

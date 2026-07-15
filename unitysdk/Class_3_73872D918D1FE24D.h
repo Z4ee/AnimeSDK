@@ -7,10 +7,10 @@ class Class_1_5F51D4049EA87B7B;
 namespace RPG::GameCore { class TaskContext; }
 namespace RPG::GameCore { class TriggerParamModifierCustomEvent; }
 
-#define CLASS_3_73872D918D1FE24D_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xA69A690)
-#define CLASS_3_73872D918D1FE24D__CTOR_OFFSET UNITYSDK_OFFSET(0xA69A530)
+#define CLASS_3_73872D918D1FE24D_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x185BE450)
+#define CLASS_3_73872D918D1FE24D__CTOR_OFFSET UNITYSDK_OFFSET(0x185BE2F0)
 
-inline static constexpr unsigned int Class_3_73872D918D1FE24D_TypeDefinitionIndex = 52078;
+inline static constexpr unsigned int Class_3_73872D918D1FE24D_TypeDefinitionIndex = 53235;
 
 class Class_3_73872D918D1FE24D : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::TriggerParamModifierCustomEvent*>
 {

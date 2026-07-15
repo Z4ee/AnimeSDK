@@ -5,13 +5,13 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class TargetEvaluator; }
 
-#define RPG_GAMECORE_SETENTITYUNSELECTABLE_METHOD_3_0C8A65CC46CCB8D6_OFFSET UNITYSDK_OFFSET(0x19C4CA10)
-#define RPG_GAMECORE_SETENTITYUNSELECTABLE_METHOD_3_44F9714F8AB7C50C_OFFSET UNITYSDK_OFFSET(0x19C4C990)
-#define RPG_GAMECORE_SETENTITYUNSELECTABLE__CTOR_OFFSET UNITYSDK_OFFSET(0x19C4C9E0)
+#define RPG_GAMECORE_SETENTITYUNSELECTABLE_METHOD_3_0C8A65CC46CCB8D6_OFFSET UNITYSDK_OFFSET(0x1C5F8140)
+#define RPG_GAMECORE_SETENTITYUNSELECTABLE_METHOD_3_7AA843D33BD997C1_OFFSET UNITYSDK_OFFSET(0x1C5F8100)
+#define RPG_GAMECORE_SETENTITYUNSELECTABLE__CTOR_OFFSET UNITYSDK_OFFSET(0x1C5F8130)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SetEntityUnselectable_TypeDefinitionIndex = 21481;
+	inline static constexpr unsigned int SetEntityUnselectable_TypeDefinitionIndex = 21901;
 
 	class SetEntityUnselectable : public ::RPG::GameCore::TaskConfig
 	{
@@ -24,9 +24,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETENTITYUNSELECTABLE__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_44F9714F8AB7C50C(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SetEntityUnselectable*& a2)
+		static ::System::Void Method_3_7AA843D33BD997C1(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SetEntityUnselectable*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SetEntityUnselectable*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETENTITYUNSELECTABLE_METHOD_3_44F9714F8AB7C50C_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SetEntityUnselectable*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETENTITYUNSELECTABLE_METHOD_3_7AA843D33BD997C1_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_0C8A65CC46CCB8D6(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SetEntityUnselectable* a2)

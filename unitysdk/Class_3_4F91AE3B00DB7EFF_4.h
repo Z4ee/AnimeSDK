@@ -2,20 +2,20 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/PredicateTaskBase_1.h"
 
-class Class_4_6C451618FA553762_3;
+class Class_4_A98F0D4F1FD3451C_3;
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_4F91AE3B00DB7EFF_4_EVALUATE_OFFSET UNITYSDK_OFFSET(0xCEBC2E0)
-#define CLASS_3_4F91AE3B00DB7EFF_4__CTOR_OFFSET UNITYSDK_OFFSET(0xCEBC2B0)
+#define CLASS_3_4F91AE3B00DB7EFF_4_EVALUATE_OFFSET UNITYSDK_OFFSET(0x16D872A0)
+#define CLASS_3_4F91AE3B00DB7EFF_4__CTOR_OFFSET UNITYSDK_OFFSET(0x16D87270)
 
-inline static constexpr unsigned int Class_3_4F91AE3B00DB7EFF_4_TypeDefinitionIndex = 49201;
+inline static constexpr unsigned int Class_3_4F91AE3B00DB7EFF_4_TypeDefinitionIndex = 50216;
 
-class Class_3_4F91AE3B00DB7EFF_4 : public ::RPG::GameCore::PredicateTaskBase_1<::Class_4_6C451618FA553762_3*>
+class Class_3_4F91AE3B00DB7EFF_4 : public ::RPG::GameCore::PredicateTaskBase_1<::Class_4_A98F0D4F1FD3451C_3*>
 {
 public:
-	::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::Class_4_6C451618FA553762_3* a2)
+	::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::Class_4_A98F0D4F1FD3451C_3* a2)
 	{
-		return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::Class_4_6C451618FA553762_3*))((::PBYTE)hIl2Cpp + CLASS_3_4F91AE3B00DB7EFF_4__CTOR_OFFSET))(this, a1, a2);
+		return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::Class_4_A98F0D4F1FD3451C_3*))((::PBYTE)hIl2Cpp + CLASS_3_4F91AE3B00DB7EFF_4__CTOR_OFFSET))(this, a1, a2);
 	}
 
 	::System::Boolean Evaluate()

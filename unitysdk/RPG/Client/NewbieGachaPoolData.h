@@ -4,15 +4,13 @@
 
 namespace System { class String; }
 
-#define RPG_CLIENT_NEWBIEGACHAPOOLDATA_HAVETIMELIMIT_OFFSET UNITYSDK_OFFSET(0xC2E29A0)
-#define RPG_CLIENT_NEWBIEGACHAPOOLDATA_ISVALID_OFFSET UNITYSDK_OFFSET(0xC2E2950)
-#define RPG_CLIENT_NEWBIEGACHAPOOLDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xC2E27D0)
-#define RPG_CLIENT_NEWBIEGACHAPOOLDATA___IFIXBASEPROXY_HAVETIMELIMIT_OFFSET UNITYSDK_OFFSET(0xC2E2A40)
-#define RPG_CLIENT_NEWBIEGACHAPOOLDATA___IFIXBASEPROXY_ISVALID_OFFSET UNITYSDK_OFFSET(0xC2E29E0)
+#define RPG_CLIENT_NEWBIEGACHAPOOLDATA_HAVETIMELIMIT_OFFSET UNITYSDK_OFFSET(0x18263D60)
+#define RPG_CLIENT_NEWBIEGACHAPOOLDATA_ISVALID_OFFSET UNITYSDK_OFFSET(0x18263D10)
+#define RPG_CLIENT_NEWBIEGACHAPOOLDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x18263B90)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int NewbieGachaPoolData_TypeDefinitionIndex = 60106;
+	inline static constexpr unsigned int NewbieGachaPoolData_TypeDefinitionIndex = 61392;
 
 	class NewbieGachaPoolData : public ::RPG::Client::BaseGachaPoolData
 	{
@@ -35,16 +33,6 @@ namespace RPG::Client
 		::System::Boolean HaveTimeLimit()
 		{
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_NEWBIEGACHAPOOLDATA_HAVETIMELIMIT_OFFSET))(this);
-		}
-
-		::System::Boolean __iFixBaseProxy_IsValid()
-		{
-			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_NEWBIEGACHAPOOLDATA___IFIXBASEPROXY_ISVALID_OFFSET))(this);
-		}
-
-		::System::Boolean __iFixBaseProxy_HaveTimeLimit()
-		{
-			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_NEWBIEGACHAPOOLDATA___IFIXBASEPROXY_HAVETIMELIMIT_OFFSET))(this);
 		}
 	};
 }

@@ -6,13 +6,13 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class TargetEvaluator; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_CHARACTERFOLLOWANIMSTATE_METHOD_3_2149400B6E9319C1_OFFSET UNITYSDK_OFFSET(0x1960DB70)
-#define RPG_GAMECORE_CHARACTERFOLLOWANIMSTATE_METHOD_3_6E86EF8079227C5A_OFFSET UNITYSDK_OFFSET(0x1960DC00)
-#define RPG_GAMECORE_CHARACTERFOLLOWANIMSTATE__CTOR_OFFSET UNITYSDK_OFFSET(0x1960DBD0)
+#define RPG_GAMECORE_CHARACTERFOLLOWANIMSTATE_METHOD_3_6E86EF8079227C5A_OFFSET UNITYSDK_OFFSET(0x1B723A50)
+#define RPG_GAMECORE_CHARACTERFOLLOWANIMSTATE_METHOD_3_CAB4D293BCDBDF56_OFFSET UNITYSDK_OFFSET(0x1B723A00)
+#define RPG_GAMECORE_CHARACTERFOLLOWANIMSTATE__CTOR_OFFSET UNITYSDK_OFFSET(0x1B723A40)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int CharacterFollowAnimState_TypeDefinitionIndex = 21199;
+	inline static constexpr unsigned int CharacterFollowAnimState_TypeDefinitionIndex = 21614;
 
 	class CharacterFollowAnimState : public ::RPG::GameCore::TaskConfig
 	{
@@ -29,9 +29,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHARACTERFOLLOWANIMSTATE__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_2149400B6E9319C1(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::CharacterFollowAnimState*& a2)
+		static ::System::Void Method_3_CAB4D293BCDBDF56(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::CharacterFollowAnimState*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::CharacterFollowAnimState*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHARACTERFOLLOWANIMSTATE_METHOD_3_2149400B6E9319C1_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::CharacterFollowAnimState*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHARACTERFOLLOWANIMSTATE_METHOD_3_CAB4D293BCDBDF56_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_6E86EF8079227C5A(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::CharacterFollowAnimState* a2)

@@ -4,12 +4,12 @@
 
 namespace RPG::Client { class RogueFormulaData; }
 
-#define RPG_CLIENT_ROGUEFORMULAINFO___C__DISPLAYCLASS15_0__CTOR_OFFSET UNITYSDK_OFFSET(0xC783600)
-#define RPG_CLIENT_ROGUEFORMULAINFO___C__DISPLAYCLASS15_0__GETSORTEDSHOWNFORMULASBYSTATE_B__0_OFFSET UNITYSDK_OFFSET(0xC7854B0)
+#define RPG_CLIENT_ROGUEFORMULAINFO___C__DISPLAYCLASS15_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1A4551C0)
+#define RPG_CLIENT_ROGUEFORMULAINFO___C__DISPLAYCLASS15_0__GETSORTEDSHOWNFORMULASBYSTATE_B__0_OFFSET UNITYSDK_OFFSET(0x1A457DE0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int RogueFormulaInfo___c__DisplayClass15_0_TypeDefinitionIndex = 62855;
+	inline static constexpr unsigned int RogueFormulaInfo___c__DisplayClass15_0_TypeDefinitionIndex = 64222;
 
 	class RogueFormulaInfo___c__DisplayClass15_0 : public ::System::Object
 	{

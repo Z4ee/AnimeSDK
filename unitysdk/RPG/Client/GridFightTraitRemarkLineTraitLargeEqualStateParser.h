@@ -4,12 +4,12 @@
 
 namespace RPG::Client { class GridFightTrait; }
 
-#define RPG_CLIENT_GRIDFIGHTTRAITREMARKLINETRAITLARGEEQUALSTATEPARSER_CHECKLAYERCONDITION_OFFSET UNITYSDK_OFFSET(0xBC31AA0)
-#define RPG_CLIENT_GRIDFIGHTTRAITREMARKLINETRAITLARGEEQUALSTATEPARSER__CTOR_OFFSET UNITYSDK_OFFSET(0xBC316C0)
+#define RPG_CLIENT_GRIDFIGHTTRAITREMARKLINETRAITLARGEEQUALSTATEPARSER_CHECKLAYERCONDITION_OFFSET UNITYSDK_OFFSET(0x1A6103A0)
+#define RPG_CLIENT_GRIDFIGHTTRAITREMARKLINETRAITLARGEEQUALSTATEPARSER__CTOR_OFFSET UNITYSDK_OFFSET(0x1A60FFC0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GridFightTraitRemarkLineTraitLargeEqualStateParser_TypeDefinitionIndex = 61231;
+	inline static constexpr unsigned int GridFightTraitRemarkLineTraitLargeEqualStateParser_TypeDefinitionIndex = 62573;
 
 	class GridFightTraitRemarkLineTraitLargeEqualStateParser : public ::RPG::Client::GridFightTraitRemarkLineTraitStateParserBase
 	{

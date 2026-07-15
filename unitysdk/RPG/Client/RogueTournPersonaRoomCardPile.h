@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int RogueTournPersonaRoomCardPile_TypeDefinitionIndex = 63370;
+	inline static constexpr unsigned int RogueTournPersonaRoomCardPile_TypeDefinitionIndex = 64737;
 
 	enum class RogueTournPersonaRoomCardPile : ::System::Int32
 	{

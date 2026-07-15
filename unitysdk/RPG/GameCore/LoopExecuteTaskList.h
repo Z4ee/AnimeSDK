@@ -5,13 +5,13 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class DynamicFloat; }
 
-#define RPG_GAMECORE_LOOPEXECUTETASKLIST_METHOD_3_164F54A8DD3B7AE7_OFFSET UNITYSDK_OFFSET(0x198B0EC0)
-#define RPG_GAMECORE_LOOPEXECUTETASKLIST_METHOD_3_B605123EC8AED8CD_OFFSET UNITYSDK_OFFSET(0x198B0BE0)
-#define RPG_GAMECORE_LOOPEXECUTETASKLIST__CTOR_OFFSET UNITYSDK_OFFSET(0x198B0E40)
+#define RPG_GAMECORE_LOOPEXECUTETASKLIST_METHOD_3_164F54A8DD3B7AE7_OFFSET UNITYSDK_OFFSET(0x1BCD3D10)
+#define RPG_GAMECORE_LOOPEXECUTETASKLIST_METHOD_3_29D005593585F4B2_OFFSET UNITYSDK_OFFSET(0x1BCD3A70)
+#define RPG_GAMECORE_LOOPEXECUTETASKLIST__CTOR_OFFSET UNITYSDK_OFFSET(0x1BCD3CA0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LoopExecuteTaskList_TypeDefinitionIndex = 21646;
+	inline static constexpr unsigned int LoopExecuteTaskList_TypeDefinitionIndex = 22072;
 
 	class LoopExecuteTaskList : public ::RPG::GameCore::TaskConfig
 	{
@@ -24,9 +24,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LOOPEXECUTETASKLIST__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_B605123EC8AED8CD(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::LoopExecuteTaskList*& a2)
+		static ::System::Void Method_3_29D005593585F4B2(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::LoopExecuteTaskList*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::LoopExecuteTaskList*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LOOPEXECUTETASKLIST_METHOD_3_B605123EC8AED8CD_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::LoopExecuteTaskList*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LOOPEXECUTETASKLIST_METHOD_3_29D005593585F4B2_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_164F54A8DD3B7AE7(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::LoopExecuteTaskList* a2)

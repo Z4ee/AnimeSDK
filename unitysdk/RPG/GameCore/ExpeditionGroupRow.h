@@ -6,19 +6,19 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_EXPEDITIONGROUPROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x19703E40)
-#define RPG_GAMECORE_EXPEDITIONGROUPROW__CTOR_OFFSET UNITYSDK_OFFSET(0x19704490)
+#define RPG_GAMECORE_EXPEDITIONGROUPROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1C06C730)
+#define RPG_GAMECORE_EXPEDITIONGROUPROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1C06CD80)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ExpeditionGroupRow_TypeDefinitionIndex = 12623;
+	inline static constexpr unsigned int ExpeditionGroupRow_TypeDefinitionIndex = 12760;
 
 	class ExpeditionGroupRow : public ::System::Object
 	{
 	public:
 		::System::String* IconPath; // 0x10
-		::System::UInt32 GroupID; // 0x18
-		::RPG::Client::TextID Name; // 0x20
+		::RPG::Client::TextID Name; // 0x18
+		::System::UInt32 GroupID; // 0x28
 
 		::System::Void _ctor()
 		{

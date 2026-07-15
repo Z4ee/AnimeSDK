@@ -4,7 +4,7 @@
 
 namespace UnityEngine::UI
 {
-	inline static constexpr unsigned int TextPosition_TypeDefinitionIndex = 5914;
+	inline static constexpr unsigned int TextPosition_TypeDefinitionIndex = 5919;
 
 	struct alignas(8) TextPosition
 	{

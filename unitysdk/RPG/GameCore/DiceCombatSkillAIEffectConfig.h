@@ -5,12 +5,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class DiceCombatTaskConfig; }
 
-#define RPG_GAMECORE_DICECOMBATSKILLAIEFFECTCONFIG_METHOD_2_546CABF138915419_OFFSET UNITYSDK_OFFSET(0x196AFC70)
-#define RPG_GAMECORE_DICECOMBATSKILLAIEFFECTCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x196AFD60)
+#define RPG_GAMECORE_DICECOMBATSKILLAIEFFECTCONFIG_METHOD_2_546CABF138915419_OFFSET UNITYSDK_OFFSET(0x1C117110)
+#define RPG_GAMECORE_DICECOMBATSKILLAIEFFECTCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1C117200)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int DiceCombatSkillAIEffectConfig_TypeDefinitionIndex = 15350;
+	inline static constexpr unsigned int DiceCombatSkillAIEffectConfig_TypeDefinitionIndex = 15514;
 
 	class DiceCombatSkillAIEffectConfig : public ::RPG::GameCore::JsonConfig
 	{

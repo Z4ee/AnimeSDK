@@ -4,7 +4,7 @@
 
 namespace System::Collections::Generic { template <typename T> class Queue_1; }
 
-inline static constexpr unsigned int Class_1_64C1E63642C4A2DF_TypeDefinitionIndex = 40461;
+inline static constexpr unsigned int Class_1_64C1E63642C4A2DF_TypeDefinitionIndex = 41276;
 
 template <typename T>
 class Class_1_64C1E63642C4A2DF : public ::System::Object

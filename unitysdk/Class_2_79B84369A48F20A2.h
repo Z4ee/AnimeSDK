@@ -5,9 +5,9 @@
 namespace RPG::GameCore { class CharacterInputData; }
 namespace System { template <typename T1, typename T2> class Action_2; }
 
-#define CLASS_2_79B84369A48F20A2__CTOR_OFFSET UNITYSDK_OFFSET(0x138482F0)
+#define CLASS_2_79B84369A48F20A2__CTOR_OFFSET UNITYSDK_OFFSET(0x17C98660)
 
-inline static constexpr unsigned int Class_2_79B84369A48F20A2_TypeDefinitionIndex = 53239;
+inline static constexpr unsigned int Class_2_79B84369A48F20A2_TypeDefinitionIndex = 54454;
 
 class Class_2_79B84369A48F20A2 : public ::RPG::GameCore::PriorityQueue_1<::System::Action_2<::RPG::GameCore::CharacterInputData*, ::System::Single>*>
 {

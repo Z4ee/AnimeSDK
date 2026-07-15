@@ -8,12 +8,12 @@ namespace UnityEngine::Rendering { class ColorParameter; }
 namespace UnityEngine::Rendering { class FloatParameter; }
 namespace UnityEngine::Rendering { class TextureParameter; }
 
-#define RPG_CUSTOMRP_RPGSPEEDLINE_ISACTIVEIMPL_OFFSET UNITYSDK_OFFSET(0x18F12960)
-#define RPG_CUSTOMRP_RPGSPEEDLINE__CTOR_OFFSET UNITYSDK_OFFSET(0x18F129B0)
+#define RPG_CUSTOMRP_RPGSPEEDLINE_ISACTIVEIMPL_OFFSET UNITYSDK_OFFSET(0x16C1BFD0)
+#define RPG_CUSTOMRP_RPGSPEEDLINE__CTOR_OFFSET UNITYSDK_OFFSET(0x16C1C080)
 
 namespace RPG::CustomRP
 {
-	inline static constexpr unsigned int RPGSpeedLine_TypeDefinitionIndex = 35516;
+	inline static constexpr unsigned int RPGSpeedLine_TypeDefinitionIndex = 36298;
 
 	class RPGSpeedLine : public ::RPG::CustomRP::CustomVolumeComponent
 	{

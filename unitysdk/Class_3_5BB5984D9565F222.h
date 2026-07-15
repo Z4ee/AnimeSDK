@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class SetTargetTeamLocation; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_5BB5984D9565F222_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xAD502F0)
-#define CLASS_3_5BB5984D9565F222__CTOR_OFFSET UNITYSDK_OFFSET(0xAD502C0)
+#define CLASS_3_5BB5984D9565F222_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x177DF950)
+#define CLASS_3_5BB5984D9565F222__CTOR_OFFSET UNITYSDK_OFFSET(0x177DF920)
 
-inline static constexpr unsigned int Class_3_5BB5984D9565F222_TypeDefinitionIndex = 52686;
+inline static constexpr unsigned int Class_3_5BB5984D9565F222_TypeDefinitionIndex = 53895;
 
 class Class_3_5BB5984D9565F222 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::SetTargetTeamLocation*>
 {

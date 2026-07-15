@@ -8,22 +8,22 @@ namespace Google::Protobuf::Reflection { class MethodDescriptorProto; }
 namespace Google::Protobuf::Reflection { class ServiceDescriptor; }
 namespace System { class String; }
 
-#define GOOGLE_PROTOBUF_REFLECTION_METHODDESCRIPTOR_CROSSLINK_OFFSET UNITYSDK_OFFSET(0x17E738E0)
-#define GOOGLE_PROTOBUF_REFLECTION_METHODDESCRIPTOR_GET_NAME_OFFSET UNITYSDK_OFFSET(0x17E73870)
-#define GOOGLE_PROTOBUF_REFLECTION_METHODDESCRIPTOR_GET_PROTO_OFFSET UNITYSDK_OFFSET(0x17E73860)
-#define GOOGLE_PROTOBUF_REFLECTION_METHODDESCRIPTOR__CTOR_OFFSET UNITYSDK_OFFSET(0x17E73700)
+#define GOOGLE_PROTOBUF_REFLECTION_METHODDESCRIPTOR_CROSSLINK_OFFSET UNITYSDK_OFFSET(0x1BDBF760)
+#define GOOGLE_PROTOBUF_REFLECTION_METHODDESCRIPTOR_GET_NAME_OFFSET UNITYSDK_OFFSET(0x1BDBF6F0)
+#define GOOGLE_PROTOBUF_REFLECTION_METHODDESCRIPTOR_GET_PROTO_OFFSET UNITYSDK_OFFSET(0x1BDBF6E0)
+#define GOOGLE_PROTOBUF_REFLECTION_METHODDESCRIPTOR__CTOR_OFFSET UNITYSDK_OFFSET(0x1BDBF580)
 
 namespace Google::Protobuf::Reflection
 {
-	inline static constexpr unsigned int MethodDescriptor_TypeDefinitionIndex = 5553;
+	inline static constexpr unsigned int MethodDescriptor_TypeDefinitionIndex = 5558;
 
 	class MethodDescriptor : public ::Google::Protobuf::Reflection::DescriptorBase
 	{
 	public:
 		::Google::Protobuf::Reflection::MethodDescriptorProto* proto; // 0x28
-		::Google::Protobuf::Reflection::ServiceDescriptor* service; // 0x30
-		::Google::Protobuf::Reflection::MessageDescriptor* outputType; // 0x38
-		::Google::Protobuf::Reflection::MessageDescriptor* inputType; // 0x40
+		::Google::Protobuf::Reflection::MessageDescriptor* outputType; // 0x30
+		::Google::Protobuf::Reflection::MessageDescriptor* inputType; // 0x38
+		::Google::Protobuf::Reflection::ServiceDescriptor* service; // 0x40
 
 		::System::Void _ctor(::Google::Protobuf::Reflection::MethodDescriptorProto* a1, ::Google::Protobuf::Reflection::FileDescriptor* a2, ::Google::Protobuf::Reflection::ServiceDescriptor* a3, ::System::Int32 a4)
 		{

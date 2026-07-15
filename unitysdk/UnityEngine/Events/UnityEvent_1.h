@@ -10,7 +10,7 @@ namespace UnityEngine::Events { template <typename T> class UnityAction_1; }
 
 namespace UnityEngine::Events
 {
-	inline static constexpr unsigned int UnityEvent_1_TypeDefinitionIndex = 4475;
+	inline static constexpr unsigned int UnityEvent_1_TypeDefinitionIndex = 4480;
 
 	template <typename T0>
 	class UnityEvent_1 : public ::UnityEngine::Events::UnityEventBase

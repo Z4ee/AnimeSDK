@@ -6,13 +6,13 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class DynamicFloat; }
 namespace RPG::GameCore { class TargetEvaluator; }
 
-#define RPG_GAMECORE_QTECATCHGHOSTREWIND_METHOD_3_576E08067ED778DE_OFFSET UNITYSDK_OFFSET(0x19AA2600)
-#define RPG_GAMECORE_QTECATCHGHOSTREWIND_METHOD_3_69DF8C042D29ACD3_OFFSET UNITYSDK_OFFSET(0x19AA2580)
-#define RPG_GAMECORE_QTECATCHGHOSTREWIND__CTOR_OFFSET UNITYSDK_OFFSET(0x19AA25D0)
+#define RPG_GAMECORE_QTECATCHGHOSTREWIND_METHOD_3_576E08067ED778DE_OFFSET UNITYSDK_OFFSET(0x1B9A9930)
+#define RPG_GAMECORE_QTECATCHGHOSTREWIND_METHOD_3_7DCB065A69407B03_OFFSET UNITYSDK_OFFSET(0x1B9A98F0)
+#define RPG_GAMECORE_QTECATCHGHOSTREWIND__CTOR_OFFSET UNITYSDK_OFFSET(0x1B9A9920)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int QteCatchGhostRewind_TypeDefinitionIndex = 20823;
+	inline static constexpr unsigned int QteCatchGhostRewind_TypeDefinitionIndex = 21238;
 
 	class QteCatchGhostRewind : public ::RPG::GameCore::TaskConfig
 	{
@@ -29,9 +29,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_QTECATCHGHOSTREWIND__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_69DF8C042D29ACD3(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::QteCatchGhostRewind*& a2)
+		static ::System::Void Method_3_7DCB065A69407B03(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::QteCatchGhostRewind*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::QteCatchGhostRewind*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_QTECATCHGHOSTREWIND_METHOD_3_69DF8C042D29ACD3_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::QteCatchGhostRewind*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_QTECATCHGHOSTREWIND_METHOD_3_7DCB065A69407B03_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_576E08067ED778DE(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::QteCatchGhostRewind* a2)

@@ -6,7 +6,7 @@ namespace System::Collections::Generic { template <typename T> class IEnumerator
 
 namespace MessagePack::Formatters
 {
-	inline static constexpr unsigned int CollectionFormatterBase_3_TypeDefinitionIndex = 7338;
+	inline static constexpr unsigned int CollectionFormatterBase_3_TypeDefinitionIndex = 7344;
 
 	template <typename TElement, typename TIntermediate, typename TCollection>
 	class CollectionFormatterBase_3 : public ::MessagePack::Formatters::CollectionFormatterBase_4<TElement, TIntermediate, ::System::Collections::Generic::IEnumerator_1<TElement>*, TCollection>

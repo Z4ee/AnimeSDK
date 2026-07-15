@@ -5,29 +5,29 @@
 namespace RPG::GameCore { class DrinkMakerGuestCommentRow; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define RPG_CLIENT_DRINKMAKERCOMMENTMANAGER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xB818650)
-#define RPG_CLIENT_DRINKMAKERCOMMENTMANAGER___C__CTOR_OFFSET UNITYSDK_OFFSET(0xB818690)
-#define RPG_CLIENT_DRINKMAKERCOMMENTMANAGER___C___GETRANDOMSUCCESSCOMMENT_B__4_0_OFFSET UNITYSDK_OFFSET(0xB8186A0)
-#define RPG_CLIENT_DRINKMAKERCOMMENTMANAGER___C___GETRANDOMSUCCESSCOMMENT_B__4_1_OFFSET UNITYSDK_OFFSET(0xB8186C0)
+#define RPG_CLIENT_DRINKMAKERCOMMENTMANAGER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1770B4D0)
+#define RPG_CLIENT_DRINKMAKERCOMMENTMANAGER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1770B510)
+#define RPG_CLIENT_DRINKMAKERCOMMENTMANAGER___C___GETRANDOMSUCCESSCOMMENT_B__4_0_OFFSET UNITYSDK_OFFSET(0x1770B520)
+#define RPG_CLIENT_DRINKMAKERCOMMENTMANAGER___C___GETRANDOMSUCCESSCOMMENT_B__4_1_OFFSET UNITYSDK_OFFSET(0x1770B540)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int DrinkMakerCommentManager___c_TypeDefinitionIndex = 59559;
+	inline static constexpr unsigned int DrinkMakerCommentManager___c_TypeDefinitionIndex = 60843;
 
 	class DrinkMakerCommentManager___c : public ::System::Object
 	{
 	public:
+		static ::RPG::Client::DrinkMakerCommentManager___c** StaticGet___9()
+		{
+			return (::RPG::Client::DrinkMakerCommentManager___c**)Il2CppClass::FromTypeDefinitionIndex(DrinkMakerCommentManager___c_TypeDefinitionIndex)->GetStaticField(0x6B5F0);
+		}
 		static ::System::Func_2<::RPG::GameCore::DrinkMakerGuestCommentRow*, ::System::Boolean>** StaticGet___9__4_0()
 		{
-			return (::System::Func_2<::RPG::GameCore::DrinkMakerGuestCommentRow*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(DrinkMakerCommentManager___c_TypeDefinitionIndex)->GetStaticField(0x8C20);
+			return (::System::Func_2<::RPG::GameCore::DrinkMakerGuestCommentRow*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(DrinkMakerCommentManager___c_TypeDefinitionIndex)->GetStaticField(0x6B5F8);
 		}
 		static ::System::Func_2<::RPG::GameCore::DrinkMakerGuestCommentRow*, ::System::Boolean>** StaticGet___9__4_1()
 		{
-			return (::System::Func_2<::RPG::GameCore::DrinkMakerGuestCommentRow*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(DrinkMakerCommentManager___c_TypeDefinitionIndex)->GetStaticField(0x8C28);
-		}
-		static ::RPG::Client::DrinkMakerCommentManager___c** StaticGet___9()
-		{
-			return (::RPG::Client::DrinkMakerCommentManager___c**)Il2CppClass::FromTypeDefinitionIndex(DrinkMakerCommentManager___c_TypeDefinitionIndex)->GetStaticField(0x8C30);
+			return (::System::Func_2<::RPG::GameCore::DrinkMakerGuestCommentRow*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(DrinkMakerCommentManager___c_TypeDefinitionIndex)->GetStaticField(0x6B600);
 		}
 
 		static ::System::Void _cctor()

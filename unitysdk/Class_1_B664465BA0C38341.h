@@ -5,10 +5,10 @@
 namespace RPG::Client { class ActivityRewardCountCollection; }
 namespace RPG::Client { class ActivityRewardCountData; }
 
-#define CLASS_1_B664465BA0C38341_METHOD_1_AAFC2C42D9E4CCC1_OFFSET UNITYSDK_OFFSET(0x142D8C70)
-#define CLASS_1_B664465BA0C38341__CTOR_OFFSET UNITYSDK_OFFSET(0x142D8C20)
+#define CLASS_1_B664465BA0C38341_METHOD_1_AAFC2C42D9E4CCC1_OFFSET UNITYSDK_OFFSET(0x166EE560)
+#define CLASS_1_B664465BA0C38341__CTOR_OFFSET UNITYSDK_OFFSET(0x166EE510)
 
-inline static constexpr unsigned int Class_1_B664465BA0C38341_TypeDefinitionIndex = 57777;
+inline static constexpr unsigned int Class_1_B664465BA0C38341_TypeDefinitionIndex = 59043;
 
 class Class_1_B664465BA0C38341 : public ::System::Object
 {

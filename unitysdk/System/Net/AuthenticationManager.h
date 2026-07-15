@@ -9,30 +9,30 @@ namespace System::Net { class ICredentialPolicy; }
 namespace System::Net { class ICredentials; }
 namespace System::Net { class WebRequest; }
 
-#define SYSTEM_NET_AUTHENTICATIONMANAGER_AUTHENTICATE_OFFSET UNITYSDK_OFFSET(0x1AF55EB0)
-#define SYSTEM_NET_AUTHENTICATIONMANAGER_DOAUTHENTICATE_OFFSET UNITYSDK_OFFSET(0x1AF55FB0)
-#define SYSTEM_NET_AUTHENTICATIONMANAGER_ENSUREMODULES_OFFSET UNITYSDK_OFFSET(0x1AF55C30)
-#define SYSTEM_NET_AUTHENTICATIONMANAGER_PREAUTHENTICATE_OFFSET UNITYSDK_OFFSET(0x1AF56690)
-#define SYSTEM_NET_AUTHENTICATIONMANAGER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1AF56DA0)
+#define SYSTEM_NET_AUTHENTICATIONMANAGER_AUTHENTICATE_OFFSET UNITYSDK_OFFSET(0x19180400)
+#define SYSTEM_NET_AUTHENTICATIONMANAGER_DOAUTHENTICATE_OFFSET UNITYSDK_OFFSET(0x19180500)
+#define SYSTEM_NET_AUTHENTICATIONMANAGER_ENSUREMODULES_OFFSET UNITYSDK_OFFSET(0x19180050)
+#define SYSTEM_NET_AUTHENTICATIONMANAGER_PREAUTHENTICATE_OFFSET UNITYSDK_OFFSET(0x19180F10)
+#define SYSTEM_NET_AUTHENTICATIONMANAGER__CCTOR_OFFSET UNITYSDK_OFFSET(0x19181950)
 
 namespace System::Net
 {
-	inline static constexpr unsigned int AuthenticationManager_TypeDefinitionIndex = 2811;
+	inline static constexpr unsigned int AuthenticationManager_TypeDefinitionIndex = 2815;
 
 	class AuthenticationManager : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet_locker()
 		{
-			return (::System::Object**)Il2CppClass::FromTypeDefinitionIndex(AuthenticationManager_TypeDefinitionIndex)->GetStaticField(0x23D60);
-		}
-		static ::System::Collections::ArrayList** StaticGet_modules()
-		{
-			return (::System::Collections::ArrayList**)Il2CppClass::FromTypeDefinitionIndex(AuthenticationManager_TypeDefinitionIndex)->GetStaticField(0x23D68);
+			return (::System::Object**)Il2CppClass::FromTypeDefinitionIndex(AuthenticationManager_TypeDefinitionIndex)->GetStaticField(0x2B520);
 		}
 		static ::System::Net::ICredentialPolicy** StaticGet_credential_policy()
 		{
-			return (::System::Net::ICredentialPolicy**)Il2CppClass::FromTypeDefinitionIndex(AuthenticationManager_TypeDefinitionIndex)->GetStaticField(0x23D70);
+			return (::System::Net::ICredentialPolicy**)Il2CppClass::FromTypeDefinitionIndex(AuthenticationManager_TypeDefinitionIndex)->GetStaticField(0x2B528);
+		}
+		static ::System::Collections::ArrayList** StaticGet_modules()
+		{
+			return (::System::Collections::ArrayList**)Il2CppClass::FromTypeDefinitionIndex(AuthenticationManager_TypeDefinitionIndex)->GetStaticField(0x2B530);
 		}
 
 		static ::System::Void _cctor()

@@ -1,6 +1,6 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Class_2_6B72CB78996603D1.h"
+#include "unitysdk/Class_2_75E63034C2ED40FA.h"
 
 class Class_1_A92BC063ED2379EB;
 class Class_2_B66C1067C0468FBB;
@@ -8,12 +8,12 @@ namespace RPG::GameCore { class ChimeraDuelEffectConfig; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_3_56DE9A72AA5A6119_2_METHOD_3_FE56DBE513136158_OFFSET UNITYSDK_OFFSET(0x13AF1DD0)
-#define CLASS_3_56DE9A72AA5A6119_2__CTOR_OFFSET UNITYSDK_OFFSET(0x13AF2420)
+#define CLASS_3_56DE9A72AA5A6119_2_METHOD_3_FE56DBE513136158_OFFSET UNITYSDK_OFFSET(0x16F82A80)
+#define CLASS_3_56DE9A72AA5A6119_2__CTOR_OFFSET UNITYSDK_OFFSET(0x16F830C0)
 
-inline static constexpr unsigned int Class_3_56DE9A72AA5A6119_2_TypeDefinitionIndex = 72016;
+inline static constexpr unsigned int Class_3_56DE9A72AA5A6119_2_TypeDefinitionIndex = 73541;
 
-class Class_3_56DE9A72AA5A6119_2 : public ::Class_2_6B72CB78996603D1
+class Class_3_56DE9A72AA5A6119_2 : public ::Class_2_75E63034C2ED40FA
 {
 public:
 	// static const ::System::String* Field_3_0; // 0x0

@@ -1,6 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/Client/CameraActiveTeam.h"
+#include "unitysdk/RPG/Client/UltraDistanceCameraPrority.h"
 #include "unitysdk/RPG/Client/UltraDistanceGlobalDynamicOffsetMode.h"
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/Vector3.h"
@@ -9,11 +10,11 @@ namespace RPG::GameCore { class GameEntity; }
 namespace RPG::GameCore { class VCameraBlend; }
 namespace System { class String; }
 
-#define RPG_CLIENT_CAMERANAMEDDYNAMICOFFSET__CTOR_OFFSET UNITYSDK_OFFSET(0xB4BC0E0)
+#define RPG_CLIENT_CAMERANAMEDDYNAMICOFFSET__CTOR_OFFSET UNITYSDK_OFFSET(0x1AC5B410)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int CameraNamedDynamicOffset_TypeDefinitionIndex = 65182;
+	inline static constexpr unsigned int CameraNamedDynamicOffset_TypeDefinitionIndex = 66592;
 
 	class CameraNamedDynamicOffset : public ::System::Object
 	{
@@ -25,13 +26,15 @@ namespace RPG::Client
 		::UnityEngine::Vector3 SelectDarkAimOffset; // 0x3C
 		::RPG::Client::CameraActiveTeam ActiveTeamType; // 0x48
 		::System::Boolean IsUltraDistance; // 0x4C
-		::RPG::Client::UltraDistanceGlobalDynamicOffsetMode UltraDistanceMode; // 0x50
-		::System::Single UltraDistanceBlendDuration; // 0x54
-		::System::Single UltraDistanceRestrictAlpha; // 0x58
-		::UnityEngine::Vector3 UseSkillPerformAnchorOffsetAtUltraDistance; // 0x5C
-		::UnityEngine::Vector3 UseSkillPerformAimOffsetAtUltraDistance; // 0x68
+		::RPG::Client::UltraDistanceCameraPrority CameraPriority; // 0x50
+		::RPG::Client::UltraDistanceGlobalDynamicOffsetMode UltraDistanceMode; // 0x54
+		::System::Single UltraDistanceBlendDuration; // 0x58
+		::System::Single UltraDistanceRestrictAlpha; // 0x5C
+		::UnityEngine::Vector3 UseSkillPerformAnchorOffsetAtUltraDistance; // 0x60
+		::UnityEngine::Vector3 UseSkillPerformAimOffsetAtUltraDistance; // 0x6C
 		::RPG::GameCore::VCameraBlend* BlendConfigToReplaceCutAtUltraDistance; // 0x78
-		::RPG::GameCore::GameEntity* Caster; // 0x80
+		::System::Boolean HideTeamMembers; // 0x80
+		::RPG::GameCore::GameEntity* Caster; // 0x88
 
 		::System::Void _ctor()
 		{

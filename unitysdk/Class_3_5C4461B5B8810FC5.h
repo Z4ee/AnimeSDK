@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class AdvTrackNpcLockAlert; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_5C4461B5B8810FC5_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x13725AA0)
-#define CLASS_3_5C4461B5B8810FC5__CTOR_OFFSET UNITYSDK_OFFSET(0x13725A70)
+#define CLASS_3_5C4461B5B8810FC5_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x16EFEA50)
+#define CLASS_3_5C4461B5B8810FC5__CTOR_OFFSET UNITYSDK_OFFSET(0x16EFEA20)
 
-inline static constexpr unsigned int Class_3_5C4461B5B8810FC5_TypeDefinitionIndex = 49112;
+inline static constexpr unsigned int Class_3_5C4461B5B8810FC5_TypeDefinitionIndex = 50125;
 
 class Class_3_5C4461B5B8810FC5 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::AdvTrackNpcLockAlert*>
 {

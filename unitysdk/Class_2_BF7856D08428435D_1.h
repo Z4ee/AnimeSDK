@@ -5,10 +5,10 @@
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class IDictionary_2; }
 
-#define CLASS_2_BF7856D08428435D_1_METHOD_2_E3DE31A03057E055_OFFSET UNITYSDK_OFFSET(0x13B50660)
-#define CLASS_2_BF7856D08428435D_1__CTOR_OFFSET UNITYSDK_OFFSET(0x13B50490)
+#define CLASS_2_BF7856D08428435D_1_METHOD_2_E3DE31A03057E055_OFFSET UNITYSDK_OFFSET(0x16203300)
+#define CLASS_2_BF7856D08428435D_1__CTOR_OFFSET UNITYSDK_OFFSET(0x16203050)
 
-inline static constexpr unsigned int Class_2_BF7856D08428435D_1_TypeDefinitionIndex = 74475;
+inline static constexpr unsigned int Class_2_BF7856D08428435D_1_TypeDefinitionIndex = 76865;
 
 class Class_2_BF7856D08428435D_1 : public ::Class_1_FAF146B3D74C3C3F
 {

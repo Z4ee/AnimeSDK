@@ -8,13 +8,13 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_ST_MAIN_MOVETOTARGET_METHOD_4_5CAE1946446EE189_OFFSET UNITYSDK_OFFSET(0x19C04730)
-#define RPG_GAMECORE_ST_MAIN_MOVETOTARGET_METHOD_4_9036D5B4F45CEBF3_OFFSET UNITYSDK_OFFSET(0x19C19130)
-#define RPG_GAMECORE_ST_MAIN_MOVETOTARGET__CTOR_OFFSET UNITYSDK_OFFSET(0x19C046D0)
+#define RPG_GAMECORE_ST_MAIN_MOVETOTARGET_METHOD_4_5CAE1946446EE189_OFFSET UNITYSDK_OFFSET(0x1B7858D0)
+#define RPG_GAMECORE_ST_MAIN_MOVETOTARGET_METHOD_4_D381064D3211FF74_OFFSET UNITYSDK_OFFSET(0x1B785870)
+#define RPG_GAMECORE_ST_MAIN_MOVETOTARGET__CTOR_OFFSET UNITYSDK_OFFSET(0x1B7858B0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ST_Main_MoveToTarget_TypeDefinitionIndex = 18978;
+	inline static constexpr unsigned int ST_Main_MoveToTarget_TypeDefinitionIndex = 19329;
 
 	class ST_Main_MoveToTarget : public ::RPG::GameCore::STTaskConfig
 	{
@@ -36,9 +36,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ST_MAIN_MOVETOTARGET__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_4_9036D5B4F45CEBF3(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ST_Main_MoveToTarget*& a2)
+		static ::System::Void Method_4_D381064D3211FF74(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ST_Main_MoveToTarget*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ST_Main_MoveToTarget*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ST_MAIN_MOVETOTARGET_METHOD_4_9036D5B4F45CEBF3_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ST_Main_MoveToTarget*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ST_MAIN_MOVETOTARGET_METHOD_4_D381064D3211FF74_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_4_5CAE1946446EE189(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ST_Main_MoveToTarget* a2)

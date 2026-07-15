@@ -10,13 +10,13 @@ namespace RPG::GameCore { class DynamicFloat; }
 namespace RPG::GameCore { class TargetEvaluator; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_MODIFYSHIELD_METHOD_3_03EC4DD7A306E792_OFFSET UNITYSDK_OFFSET(0x19957EE0)
-#define RPG_GAMECORE_MODIFYSHIELD_METHOD_3_61ED70152A9DA4AD_OFFSET UNITYSDK_OFFSET(0x19957E40)
-#define RPG_GAMECORE_MODIFYSHIELD__CTOR_OFFSET UNITYSDK_OFFSET(0x19957EA0)
+#define RPG_GAMECORE_MODIFYSHIELD_METHOD_3_03EC4DD7A306E792_OFFSET UNITYSDK_OFFSET(0x1B1ACD60)
+#define RPG_GAMECORE_MODIFYSHIELD_METHOD_3_6A0C8F1DB13AE47D_OFFSET UNITYSDK_OFFSET(0x1B1ACD10)
+#define RPG_GAMECORE_MODIFYSHIELD__CTOR_OFFSET UNITYSDK_OFFSET(0x1B1ACD50)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ModifyShield_TypeDefinitionIndex = 21863;
+	inline static constexpr unsigned int ModifyShield_TypeDefinitionIndex = 22290;
 
 	class ModifyShield : public ::RPG::GameCore::TaskConfig
 	{
@@ -37,9 +37,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MODIFYSHIELD__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_61ED70152A9DA4AD(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ModifyShield*& a2)
+		static ::System::Void Method_3_6A0C8F1DB13AE47D(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ModifyShield*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ModifyShield*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MODIFYSHIELD_METHOD_3_61ED70152A9DA4AD_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ModifyShield*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MODIFYSHIELD_METHOD_3_6A0C8F1DB13AE47D_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_03EC4DD7A306E792(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ModifyShield* a2)

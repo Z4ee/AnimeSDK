@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/ScriptableObject.h"
 
-#define CODE_RENDERING_ENVIRONMENTSYSTEMV2_ENVV2PARAMPRESET__CTOR_OFFSET UNITYSDK_OFFSET(0xC743B20)
+#define CODE_RENDERING_ENVIRONMENTSYSTEMV2_ENVV2PARAMPRESET__CTOR_OFFSET UNITYSDK_OFFSET(0x16B34DC0)
 
 namespace Code::Rendering::EnvironmentSystemV2
 {
-	inline static constexpr unsigned int EnvV2ParamPreset_TypeDefinitionIndex = 46870;
+	inline static constexpr unsigned int EnvV2ParamPreset_TypeDefinitionIndex = 47835;
 
 	class EnvV2ParamPreset : public ::UnityEngine::ScriptableObject
 	{

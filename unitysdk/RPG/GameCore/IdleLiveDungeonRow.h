@@ -7,34 +7,34 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_IDLELIVEDUNGEONROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x198417A0)
-#define RPG_GAMECORE_IDLELIVEDUNGEONROW__CTOR_OFFSET UNITYSDK_OFFSET(0x19841D80)
+#define RPG_GAMECORE_IDLELIVEDUNGEONROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B693FB0)
+#define RPG_GAMECORE_IDLELIVEDUNGEONROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1B694590)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int IdleLiveDungeonRow_TypeDefinitionIndex = 11225;
+	inline static constexpr unsigned int IdleLiveDungeonRow_TypeDefinitionIndex = 11325;
 
 	class IdleLiveDungeonRow : public ::System::Object
 	{
 	public:
-		::System::String* BGMState; // 0x10
-		::System::String* BossIconPath; // 0x18
-		::System::String* BossFigurePath; // 0x20
-		::Il2CppArray<::RPG::GameCore::ILBattleAvatarTag>* RecommondTagList; // 0x28
-		::System::String* MonsterFigure; // 0x30
-		::RPG::Client::TextID Name; // 0x38
-		::RPG::Client::TextID Desc; // 0x48
-		::System::UInt32 UnlockChapterIndex; // 0x58
-		::System::UInt32 IncomeHpProgress; // 0x5C
-		::System::UInt32 BattleTime; // 0x60
-		::System::UInt32 CrystalPerHourIncrease; // 0x64
-		::System::UInt32 TicketPerHourIncrease; // 0x68
-		::System::UInt32 ID; // 0x6C
-		::System::UInt32 StageID; // 0x70
-		::System::UInt32 RewardID; // 0x74
-		::System::UInt32 MaxHpProgress; // 0x78
-		::System::UInt32 ChestPerHourIncrease; // 0x7C
-		::System::UInt32 ChatPhase; // 0x80
+		::System::String* BossIconPath; // 0x10
+		::System::String* MonsterFigure; // 0x18
+		::Il2CppArray<::RPG::GameCore::ILBattleAvatarTag>* RecommondTagList; // 0x20
+		::System::String* BGMState; // 0x28
+		::System::String* BossFigurePath; // 0x30
+		::System::UInt32 UnlockChapterIndex; // 0x38
+		::System::UInt32 IncomeHpProgress; // 0x3C
+		::System::UInt32 ChatPhase; // 0x40
+		::System::UInt32 CrystalPerHourIncrease; // 0x44
+		::System::UInt32 ChestPerHourIncrease; // 0x48
+		::System::UInt32 StageID; // 0x4C
+		::System::UInt32 MaxHpProgress; // 0x50
+		::System::UInt32 BattleTime; // 0x54
+		::RPG::Client::TextID Desc; // 0x58
+		::RPG::Client::TextID Name; // 0x68
+		::System::UInt32 RewardID; // 0x78
+		::System::UInt32 ID; // 0x7C
+		::System::UInt32 TicketPerHourIncrease; // 0x80
 
 		::System::Void _ctor()
 		{

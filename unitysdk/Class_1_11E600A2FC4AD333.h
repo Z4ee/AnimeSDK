@@ -1,0 +1,123 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/RPG/LittleGameShare/HoyoPhysics/Box2D/B2ShapeId.h"
+#include "unitysdk/RPG/MVector2.h"
+#include "unitysdk/Struct_2_3437ECE1CCDFA38D.h"
+#include "unitysdk/System/Object.h"
+
+class Class_0_16E4307DCC419505_27;
+class Class_1_F33AABD3C067711C;
+namespace RPG::LittleGameShare::HoyoPhysics { class PhysicsCollider2DFilterConfig; }
+
+#define CLASS_1_11E600A2FC4AD333_GET_OWNERBODY_OFFSET UNITYSDK_OFFSET(0x17B00BB0)
+#define CLASS_1_11E600A2FC4AD333_GET_SHAPEID_OFFSET UNITYSDK_OFFSET(0x17B00B80)
+#define CLASS_1_11E600A2FC4AD333_METHOD_1_3918430D1F9BC652_OFFSET UNITYSDK_OFFSET(0x17B00450)
+#define CLASS_1_11E600A2FC4AD333_METHOD_1_47B047590A4850CC_OFFSET UNITYSDK_OFFSET(0x17B00140)
+#define CLASS_1_11E600A2FC4AD333_METHOD_1_4B049ACCC0F6C63E_OFFSET UNITYSDK_OFFSET(0x17B00550)
+#define CLASS_1_11E600A2FC4AD333_METHOD_1_4E1969F1317D7407_OFFSET UNITYSDK_OFFSET(0x17B00BD0)
+#define CLASS_1_11E600A2FC4AD333_METHOD_1_5C00C2EE4FCF347E_OFFSET UNITYSDK_OFFSET(0x17AFEDF0)
+#define CLASS_1_11E600A2FC4AD333_METHOD_1_7DD84EAFF333A1E4_OFFSET UNITYSDK_OFFSET(0x17B00180)
+#define CLASS_1_11E600A2FC4AD333_METHOD_1_8FAD57395F26ACC4_1_OFFSET UNITYSDK_OFFSET(0x17B003B0)
+#define CLASS_1_11E600A2FC4AD333_METHOD_1_8FAD57395F26ACC4_OFFSET UNITYSDK_OFFSET(0x17B00310)
+#define CLASS_1_11E600A2FC4AD333_METHOD_1_999B8B439422C7E7_OFFSET UNITYSDK_OFFSET(0x17B00250)
+#define CLASS_1_11E600A2FC4AD333_METHOD_1_AEF085E6C83B79B3_OFFSET UNITYSDK_OFFSET(0x17B001D0)
+#define CLASS_1_11E600A2FC4AD333_METHOD_1_CCC672DA7FD1F216_OFFSET UNITYSDK_OFFSET(0x17B00CE0)
+#define CLASS_1_11E600A2FC4AD333_METHOD_1_DC518C0507DB9345_OFFSET UNITYSDK_OFFSET(0x17B00C60)
+#define CLASS_1_11E600A2FC4AD333_SET_OWNERBODY_OFFSET UNITYSDK_OFFSET(0x17B00BC0)
+#define CLASS_1_11E600A2FC4AD333_SET_SHAPEID_OFFSET UNITYSDK_OFFSET(0x17B00BA0)
+#define CLASS_1_11E600A2FC4AD333__CTOR_OFFSET UNITYSDK_OFFSET(0x17B00130)
+
+inline static constexpr unsigned int Class_1_11E600A2FC4AD333_TypeDefinitionIndex = 34996;
+
+class Class_1_11E600A2FC4AD333 : public ::System::Object
+{
+public:
+	::Class_1_F33AABD3C067711C* _OwnerBody_k__BackingField; // 0x10
+	::System::Object* Field_1_1; // 0x18
+	::RPG::LittleGameShare::HoyoPhysics::Box2D::B2ShapeId _ShapeId_k__BackingField; // 0x20
+
+	::System::Void _ctor(::Class_1_F33AABD3C067711C* a1, ::System::Object* a2)
+	{
+		return ((::System::Void(*)(::PVOID, ::Class_1_F33AABD3C067711C*, ::System::Object*))((::PBYTE)hIl2Cpp + CLASS_1_11E600A2FC4AD333__CTOR_OFFSET))(this, a1, a2);
+	}
+
+	::System::Object* Method_1_47B047590A4850CC()
+	{
+		return ((::System::Object*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_11E600A2FC4AD333_METHOD_1_47B047590A4850CC_OFFSET))(this);
+	}
+
+	::System::Void Method_1_7DD84EAFF333A1E4(::System::Object* a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + CLASS_1_11E600A2FC4AD333_METHOD_1_7DD84EAFF333A1E4_OFFSET))(this, a1);
+	}
+
+	::System::UInt64 Method_1_AEF085E6C83B79B3()
+	{
+		return ((::System::UInt64(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_11E600A2FC4AD333_METHOD_1_AEF085E6C83B79B3_OFFSET))(this);
+	}
+
+	::System::Void Method_1_999B8B439422C7E7(::System::Single a1, ::System::Single a2)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + CLASS_1_11E600A2FC4AD333_METHOD_1_999B8B439422C7E7_OFFSET))(this, a1, a2);
+	}
+
+	::System::Void Method_1_8FAD57395F26ACC4(::System::Single a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + CLASS_1_11E600A2FC4AD333_METHOD_1_8FAD57395F26ACC4_OFFSET))(this, a1);
+	}
+
+	::System::Void Method_1_8FAD57395F26ACC4_1(::System::Single a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + CLASS_1_11E600A2FC4AD333_METHOD_1_8FAD57395F26ACC4_1_OFFSET))(this, a1);
+	}
+
+	::System::Void Method_1_3918430D1F9BC652(::RPG::LittleGameShare::HoyoPhysics::PhysicsCollider2DFilterConfig* a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::RPG::LittleGameShare::HoyoPhysics::PhysicsCollider2DFilterConfig*))((::PBYTE)hIl2Cpp + CLASS_1_11E600A2FC4AD333_METHOD_1_3918430D1F9BC652_OFFSET))(this, a1);
+	}
+
+	::System::Void Method_1_4B049ACCC0F6C63E(::Class_0_16E4307DCC419505_27* a1, ::System::Boolean a2)
+	{
+		return ((::System::Void(*)(::PVOID, ::Class_0_16E4307DCC419505_27*, ::System::Boolean))((::PBYTE)hIl2Cpp + CLASS_1_11E600A2FC4AD333_METHOD_1_4B049ACCC0F6C63E_OFFSET))(this, a1, a2);
+	}
+
+	::RPG::LittleGameShare::HoyoPhysics::Box2D::B2ShapeId get_ShapeId()
+	{
+		return ((::RPG::LittleGameShare::HoyoPhysics::Box2D::B2ShapeId(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_11E600A2FC4AD333_GET_SHAPEID_OFFSET))(this);
+	}
+
+	::System::Void set_ShapeId(::RPG::LittleGameShare::HoyoPhysics::Box2D::B2ShapeId a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::RPG::LittleGameShare::HoyoPhysics::Box2D::B2ShapeId))((::PBYTE)hIl2Cpp + CLASS_1_11E600A2FC4AD333_SET_SHAPEID_OFFSET))(this, a1);
+	}
+
+	::Class_1_F33AABD3C067711C* get_OwnerBody()
+	{
+		return ((::Class_1_F33AABD3C067711C*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_11E600A2FC4AD333_GET_OWNERBODY_OFFSET))(this);
+	}
+
+	::System::Void set_OwnerBody(::Class_1_F33AABD3C067711C* a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::Class_1_F33AABD3C067711C*))((::PBYTE)hIl2Cpp + CLASS_1_11E600A2FC4AD333_SET_OWNERBODY_OFFSET))(this, a1);
+	}
+
+	::Struct_2_3437ECE1CCDFA38D Method_1_4E1969F1317D7407()
+	{
+		return ((::Struct_2_3437ECE1CCDFA38D(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_11E600A2FC4AD333_METHOD_1_4E1969F1317D7407_OFFSET))(this);
+	}
+
+	::Class_0_16E4307DCC419505_27* Method_1_5C00C2EE4FCF347E()
+	{
+		return ((::Class_0_16E4307DCC419505_27*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_11E600A2FC4AD333_METHOD_1_5C00C2EE4FCF347E_OFFSET))(this);
+	}
+
+	::RPG::MVector2 Method_1_DC518C0507DB9345()
+	{
+		return ((::RPG::MVector2(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_11E600A2FC4AD333_METHOD_1_DC518C0507DB9345_OFFSET))(this);
+	}
+
+	::RPG::MVector2 Method_1_CCC672DA7FD1F216()
+	{
+		return ((::RPG::MVector2(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_11E600A2FC4AD333_METHOD_1_CCC672DA7FD1F216_OFFSET))(this);
+	}
+};

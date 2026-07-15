@@ -6,10 +6,10 @@ namespace RPG::GameCore { class SetDynamicAttachPointEffectAdaptionConfig; }
 namespace RPG::GameCore { class TaskContext; }
 namespace System::Text::RegularExpressions { class Regex; }
 
-#define CLASS_3_E79672C17B435298_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x145A73F0)
-#define CLASS_3_E79672C17B435298__CTOR_OFFSET UNITYSDK_OFFSET(0x145A73C0)
+#define CLASS_3_E79672C17B435298_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1630E270)
+#define CLASS_3_E79672C17B435298__CTOR_OFFSET UNITYSDK_OFFSET(0x1630E240)
 
-inline static constexpr unsigned int Class_3_E79672C17B435298_TypeDefinitionIndex = 51743;
+inline static constexpr unsigned int Class_3_E79672C17B435298_TypeDefinitionIndex = 52889;
 
 class Class_3_E79672C17B435298 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::SetDynamicAttachPointEffectAdaptionConfig*>
 {

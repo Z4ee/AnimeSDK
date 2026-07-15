@@ -9,11 +9,11 @@ namespace RPG::Client { class CRPReflectionSettings; }
 namespace RPG::Client { class CRPSFXSettings; }
 namespace RPG::Client { class CRPShadowSettings; }
 
-#define RPG_CLIENT_RPGQUALITYSETTINGSPRESETDETAILCONSOLE__CTOR_OFFSET UNITYSDK_OFFSET(0xC695B80)
+#define RPG_CLIENT_RPGQUALITYSETTINGSPRESETDETAILCONSOLE__CTOR_OFFSET UNITYSDK_OFFSET(0x167A28C0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int RPGQualitySettingsPresetDetailConsole_TypeDefinitionIndex = 63566;
+	inline static constexpr unsigned int RPGQualitySettingsPresetDetailConsole_TypeDefinitionIndex = 64933;
 
 	class RPGQualitySettingsPresetDetailConsole : public ::System::Object
 	{

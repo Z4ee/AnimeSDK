@@ -5,13 +5,13 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class TargetEvaluator; }
 
-#define RPG_GAMECORE_ADVPLAYERENABLEIDLESHOW_METHOD_3_E84EBAEC91BAA186_OFFSET UNITYSDK_OFFSET(0x194310E0)
-#define RPG_GAMECORE_ADVPLAYERENABLEIDLESHOW_METHOD_3_EC8ED245C2670CB7_OFFSET UNITYSDK_OFFSET(0x19431160)
-#define RPG_GAMECORE_ADVPLAYERENABLEIDLESHOW__CTOR_OFFSET UNITYSDK_OFFSET(0x19431130)
+#define RPG_GAMECORE_ADVPLAYERENABLEIDLESHOW_METHOD_3_85B044AA1D9DD06A_OFFSET UNITYSDK_OFFSET(0x1BE28130)
+#define RPG_GAMECORE_ADVPLAYERENABLEIDLESHOW_METHOD_3_EC8ED245C2670CB7_OFFSET UNITYSDK_OFFSET(0x1BE28170)
+#define RPG_GAMECORE_ADVPLAYERENABLEIDLESHOW__CTOR_OFFSET UNITYSDK_OFFSET(0x1BE28160)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AdvPlayerEnableIdleShow_TypeDefinitionIndex = 19101;
+	inline static constexpr unsigned int AdvPlayerEnableIdleShow_TypeDefinitionIndex = 19456;
 
 	class AdvPlayerEnableIdleShow : public ::RPG::GameCore::TaskConfig
 	{
@@ -25,9 +25,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVPLAYERENABLEIDLESHOW__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_E84EBAEC91BAA186(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AdvPlayerEnableIdleShow*& a2)
+		static ::System::Void Method_3_85B044AA1D9DD06A(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AdvPlayerEnableIdleShow*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::AdvPlayerEnableIdleShow*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVPLAYERENABLEIDLESHOW_METHOD_3_E84EBAEC91BAA186_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::AdvPlayerEnableIdleShow*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVPLAYERENABLEIDLESHOW_METHOD_3_85B044AA1D9DD06A_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_EC8ED245C2670CB7(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AdvPlayerEnableIdleShow* a2)

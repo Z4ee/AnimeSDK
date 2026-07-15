@@ -6,7 +6,7 @@ namespace System { class String; }
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int MHYSDKC_AntiAddictionMessage_TypeDefinitionIndex = 43598;
+	inline static constexpr unsigned int MHYSDKC_AntiAddictionMessage_TypeDefinitionIndex = 44459;
 
 	class MHYSDKC_AntiAddictionMessage : public ::System::Object
 	{

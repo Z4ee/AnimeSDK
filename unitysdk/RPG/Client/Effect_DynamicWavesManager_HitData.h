@@ -9,7 +9,7 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int Effect_DynamicWavesManager_HitData_TypeDefinitionIndex = 65874;
+	inline static constexpr unsigned int Effect_DynamicWavesManager_HitData_TypeDefinitionIndex = 67291;
 
 	struct alignas(8) Effect_DynamicWavesManager_HitData
 	{

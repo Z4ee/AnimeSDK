@@ -5,13 +5,13 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class DynamicFloat; }
 
-#define RPG_GAMECORE_ADDTIMEREWINDBTNCD_METHOD_3_3A85B19702FD669D_OFFSET UNITYSDK_OFFSET(0x19413330)
-#define RPG_GAMECORE_ADDTIMEREWINDBTNCD_METHOD_3_6C3C078BC674FBBB_OFFSET UNITYSDK_OFFSET(0x194132B0)
-#define RPG_GAMECORE_ADDTIMEREWINDBTNCD__CTOR_OFFSET UNITYSDK_OFFSET(0x19413300)
+#define RPG_GAMECORE_ADDTIMEREWINDBTNCD_METHOD_3_3A85B19702FD669D_OFFSET UNITYSDK_OFFSET(0x1BE0AF80)
+#define RPG_GAMECORE_ADDTIMEREWINDBTNCD_METHOD_3_5D6D1015A5B7E4BE_OFFSET UNITYSDK_OFFSET(0x1BE0AF40)
+#define RPG_GAMECORE_ADDTIMEREWINDBTNCD__CTOR_OFFSET UNITYSDK_OFFSET(0x1BE0AF70)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AddTimeRewindBtnCD_TypeDefinitionIndex = 19539;
+	inline static constexpr unsigned int AddTimeRewindBtnCD_TypeDefinitionIndex = 19897;
 
 	class AddTimeRewindBtnCD : public ::RPG::GameCore::TaskConfig
 	{
@@ -23,9 +23,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADDTIMEREWINDBTNCD__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_6C3C078BC674FBBB(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AddTimeRewindBtnCD*& a2)
+		static ::System::Void Method_3_5D6D1015A5B7E4BE(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AddTimeRewindBtnCD*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::AddTimeRewindBtnCD*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADDTIMEREWINDBTNCD_METHOD_3_6C3C078BC674FBBB_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::AddTimeRewindBtnCD*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADDTIMEREWINDBTNCD_METHOD_3_5D6D1015A5B7E4BE_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_3A85B19702FD669D(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AddTimeRewindBtnCD* a2)

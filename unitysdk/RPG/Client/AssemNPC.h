@@ -5,17 +5,17 @@
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_ASSEMNPC_METHOD_1_92D59DB27A2254BC_OFFSET UNITYSDK_OFFSET(0xB32A6C0)
-#define RPG_CLIENT_ASSEMNPC_METHOD_1_9672A1E124B0978D_OFFSET UNITYSDK_OFFSET(0xB32A4F0)
-#define RPG_CLIENT_ASSEMNPC_ONAFTERDESERIALIZE_OFFSET UNITYSDK_OFFSET(0xB32A8B0)
-#define RPG_CLIENT_ASSEMNPC_ONBEFORESERIALIZE_OFFSET UNITYSDK_OFFSET(0xB32A870)
-#define RPG_CLIENT_ASSEMNPC_TOSTRING_OFFSET UNITYSDK_OFFSET(0xB32A7A0)
-#define RPG_CLIENT_ASSEMNPC__CTOR_OFFSET UNITYSDK_OFFSET(0xB32A760)
-#define RPG_CLIENT_ASSEMNPC___IFIXBASEPROXY_TOSTRING_OFFSET UNITYSDK_OFFSET(0xB32A9B0)
+#define RPG_CLIENT_ASSEMNPC_METHOD_1_92D59DB27A2254BC_OFFSET UNITYSDK_OFFSET(0x19B2EFA0)
+#define RPG_CLIENT_ASSEMNPC_METHOD_1_9656213C005E9904_OFFSET UNITYSDK_OFFSET(0x19B2EC30)
+#define RPG_CLIENT_ASSEMNPC_METHOD_1_ABD5B53377E7C191_OFFSET UNITYSDK_OFFSET(0x19B2EE00)
+#define RPG_CLIENT_ASSEMNPC_ONAFTERDESERIALIZE_OFFSET UNITYSDK_OFFSET(0x19B2F190)
+#define RPG_CLIENT_ASSEMNPC_ONBEFORESERIALIZE_OFFSET UNITYSDK_OFFSET(0x19B2F150)
+#define RPG_CLIENT_ASSEMNPC_TOSTRING_OFFSET UNITYSDK_OFFSET(0x19B2F080)
+#define RPG_CLIENT_ASSEMNPC__CTOR_OFFSET UNITYSDK_OFFSET(0x19B2F040)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int AssemNPC_TypeDefinitionIndex = 56102;
+	inline static constexpr unsigned int AssemNPC_TypeDefinitionIndex = 57342;
 
 	class AssemNPC : public ::System::Object
 	{
@@ -30,22 +30,26 @@ namespace RPG::Client
 		::System::String* HairMat; // 0x48
 		::System::String* Item; // 0x50
 		::System::String* ItemMat; // 0x58
-		::Il2CppArray<::System::String*>* MatVariantKeys; // 0x60
-		::System::Single AssemScore; // 0x68
-		::System::Collections::Generic::List_1<::System::String*>* Variants; // 0x70
-		::System::String* AnimatorPath; // 0x78
-		::System::Int32 BodySizeInt; // 0x80
-		::System::String* FreeStyleCharacterID; // 0x88
-		::System::String* FreeStyleCharacterConfigPath; // 0x90
+		::System::Single AssemScore; // 0x60
+		::System::Collections::Generic::List_1<::System::String*>* MatVariantKeys; // 0x68
+		::System::String* AnimatorPath; // 0x70
+		::System::Int32 BodySizeInt; // 0x78
+		::System::String* FreeStyleCharacterID; // 0x80
+		::System::String* FreeStyleCharacterConfigPath; // 0x88
 
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ASSEMNPC__CTOR_OFFSET))(this);
 		}
 
-		::System::Boolean Method_1_9672A1E124B0978D(::RPG::Client::AssemNPC* a1)
+		::System::Boolean Method_1_9656213C005E9904(::RPG::Client::AssemNPC* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::AssemNPC*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ASSEMNPC_METHOD_1_9672A1E124B0978D_OFFSET))(this, a1);
+			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::AssemNPC*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ASSEMNPC_METHOD_1_9656213C005E9904_OFFSET))(this, a1);
+		}
+
+		static ::System::Boolean Method_1_ABD5B53377E7C191(::System::Collections::Generic::List_1<::System::String*>* a1, ::System::Collections::Generic::List_1<::System::String*>* a2)
+		{
+			return ((::System::Boolean(*)(::System::Collections::Generic::List_1<::System::String*>*, ::System::Collections::Generic::List_1<::System::String*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ASSEMNPC_METHOD_1_ABD5B53377E7C191_OFFSET))(a1, a2);
 		}
 
 		::RPG::Client::AssemNPC* Method_1_92D59DB27A2254BC()
@@ -66,11 +70,6 @@ namespace RPG::Client
 		::System::Void OnAfterDeserialize()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ASSEMNPC_ONAFTERDESERIALIZE_OFFSET))(this);
-		}
-
-		::System::String* __iFixBaseProxy_ToString()
-		{
-			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ASSEMNPC___IFIXBASEPROXY_TOSTRING_OFFSET))(this);
 		}
 	};
 }

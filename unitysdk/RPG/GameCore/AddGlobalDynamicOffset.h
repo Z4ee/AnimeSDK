@@ -5,13 +5,13 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class DynamicString; }
 
-#define RPG_GAMECORE_ADDGLOBALDYNAMICOFFSET_METHOD_3_1FFCB0A55231ECCC_OFFSET UNITYSDK_OFFSET(0x1940E170)
-#define RPG_GAMECORE_ADDGLOBALDYNAMICOFFSET_METHOD_3_FC8F6F468AFED625_OFFSET UNITYSDK_OFFSET(0x1940E1F0)
-#define RPG_GAMECORE_ADDGLOBALDYNAMICOFFSET__CTOR_OFFSET UNITYSDK_OFFSET(0x1940E1C0)
+#define RPG_GAMECORE_ADDGLOBALDYNAMICOFFSET_METHOD_3_42774EB89F3DAAC0_OFFSET UNITYSDK_OFFSET(0x1BE065F0)
+#define RPG_GAMECORE_ADDGLOBALDYNAMICOFFSET_METHOD_3_FC8F6F468AFED625_OFFSET UNITYSDK_OFFSET(0x1BE06630)
+#define RPG_GAMECORE_ADDGLOBALDYNAMICOFFSET__CTOR_OFFSET UNITYSDK_OFFSET(0x1BE06620)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AddGlobalDynamicOffset_TypeDefinitionIndex = 21282;
+	inline static constexpr unsigned int AddGlobalDynamicOffset_TypeDefinitionIndex = 21697;
 
 	class AddGlobalDynamicOffset : public ::RPG::GameCore::TaskConfig
 	{
@@ -24,9 +24,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADDGLOBALDYNAMICOFFSET__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_1FFCB0A55231ECCC(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AddGlobalDynamicOffset*& a2)
+		static ::System::Void Method_3_42774EB89F3DAAC0(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AddGlobalDynamicOffset*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::AddGlobalDynamicOffset*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADDGLOBALDYNAMICOFFSET_METHOD_3_1FFCB0A55231ECCC_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::AddGlobalDynamicOffset*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADDGLOBALDYNAMICOFFSET_METHOD_3_42774EB89F3DAAC0_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_FC8F6F468AFED625(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AddGlobalDynamicOffset* a2)

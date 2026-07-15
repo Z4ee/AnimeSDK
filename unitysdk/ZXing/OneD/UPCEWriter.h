@@ -9,13 +9,13 @@ namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class IDictionary_2; }
 namespace ZXing::Common { class BitMatrix; }
 
-#define ZXING_ONED_UPCEWRITER_ENCODE_1_OFFSET UNITYSDK_OFFSET(0x1B560C90)
-#define ZXING_ONED_UPCEWRITER_ENCODE_OFFSET UNITYSDK_OFFSET(0x1B560BE0)
-#define ZXING_ONED_UPCEWRITER__CTOR_OFFSET UNITYSDK_OFFSET(0x1B54F960)
+#define ZXING_ONED_UPCEWRITER_ENCODE_1_OFFSET UNITYSDK_OFFSET(0x15559460)
+#define ZXING_ONED_UPCEWRITER_ENCODE_OFFSET UNITYSDK_OFFSET(0x155593B0)
+#define ZXING_ONED_UPCEWRITER__CTOR_OFFSET UNITYSDK_OFFSET(0x15547FC0)
 
 namespace ZXing::OneD
 {
-	inline static constexpr unsigned int UPCEWriter_TypeDefinitionIndex = 6464;
+	inline static constexpr unsigned int UPCEWriter_TypeDefinitionIndex = 6469;
 
 	class UPCEWriter : public ::ZXing::OneD::UPCEANWriter
 	{

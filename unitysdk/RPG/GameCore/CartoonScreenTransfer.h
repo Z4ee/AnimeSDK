@@ -6,13 +6,13 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class TargetEvaluator; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_CARTOONSCREENTRANSFER_METHOD_3_2436847688D48795_OFFSET UNITYSDK_OFFSET(0x195F4D20)
-#define RPG_GAMECORE_CARTOONSCREENTRANSFER_METHOD_3_5ACB55342087AC3E_OFFSET UNITYSDK_OFFSET(0x195F4C90)
-#define RPG_GAMECORE_CARTOONSCREENTRANSFER__CTOR_OFFSET UNITYSDK_OFFSET(0x195F4CF0)
+#define RPG_GAMECORE_CARTOONSCREENTRANSFER_METHOD_3_2436847688D48795_OFFSET UNITYSDK_OFFSET(0x1B70AE80)
+#define RPG_GAMECORE_CARTOONSCREENTRANSFER_METHOD_3_435C10A6AC5CEB94_OFFSET UNITYSDK_OFFSET(0x1B70AE30)
+#define RPG_GAMECORE_CARTOONSCREENTRANSFER__CTOR_OFFSET UNITYSDK_OFFSET(0x1B70AE70)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int CartoonScreenTransfer_TypeDefinitionIndex = 21074;
+	inline static constexpr unsigned int CartoonScreenTransfer_TypeDefinitionIndex = 21489;
 
 	class CartoonScreenTransfer : public ::RPG::GameCore::TaskConfig
 	{
@@ -28,9 +28,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CARTOONSCREENTRANSFER__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_5ACB55342087AC3E(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::CartoonScreenTransfer*& a2)
+		static ::System::Void Method_3_435C10A6AC5CEB94(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::CartoonScreenTransfer*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::CartoonScreenTransfer*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CARTOONSCREENTRANSFER_METHOD_3_5ACB55342087AC3E_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::CartoonScreenTransfer*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CARTOONSCREENTRANSFER_METHOD_3_435C10A6AC5CEB94_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_2436847688D48795(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::CartoonScreenTransfer* a2)

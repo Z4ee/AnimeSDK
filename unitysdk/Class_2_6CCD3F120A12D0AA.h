@@ -1,17 +1,17 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Class_1_26684305CEECE64E.h"
+#include "unitysdk/Class_1_E559374AC4E5AD13.h"
 
 class Class_2_21AD365C113DC484;
 class Class_2_F3C45F1FC7349B6E;
 namespace RPG::GameCore { class CakeRaceActionChangeWaitTimeByVote; }
 
-#define CLASS_2_6CCD3F120A12D0AA_METHOD_2_201D16A3250E45E0_OFFSET UNITYSDK_OFFSET(0x18AC5740)
-#define CLASS_2_6CCD3F120A12D0AA__CTOR_OFFSET UNITYSDK_OFFSET(0x18AC5730)
+#define CLASS_2_6CCD3F120A12D0AA_METHOD_2_201D16A3250E45E0_OFFSET UNITYSDK_OFFSET(0x17B07FF0)
+#define CLASS_2_6CCD3F120A12D0AA__CTOR_OFFSET UNITYSDK_OFFSET(0x17B07FE0)
 
-inline static constexpr unsigned int Class_2_6CCD3F120A12D0AA_TypeDefinitionIndex = 35053;
+inline static constexpr unsigned int Class_2_6CCD3F120A12D0AA_TypeDefinitionIndex = 35835;
 
-class Class_2_6CCD3F120A12D0AA : public ::Class_1_26684305CEECE64E
+class Class_2_6CCD3F120A12D0AA : public ::Class_1_E559374AC4E5AD13
 {
 public:
 	::RPG::GameCore::CakeRaceActionChangeWaitTimeByVote* Field_2_0; // 0x10

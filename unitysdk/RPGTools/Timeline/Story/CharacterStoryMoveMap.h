@@ -8,11 +8,11 @@ namespace RPGTools::Timeline::Story { class NpcStoryMoveRunData; }
 namespace RPGTools::Timeline::Story { class NpcStoryMoveWalkData; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPGTOOLS_TIMELINE_STORY_CHARACTERSTORYMOVEMAP__CTOR_OFFSET UNITYSDK_OFFSET(0xD057B20)
+#define RPGTOOLS_TIMELINE_STORY_CHARACTERSTORYMOVEMAP__CTOR_OFFSET UNITYSDK_OFFSET(0x199B88A0)
 
 namespace RPGTools::Timeline::Story
 {
-	inline static constexpr unsigned int CharacterStoryMoveMap_TypeDefinitionIndex = 45971;
+	inline static constexpr unsigned int CharacterStoryMoveMap_TypeDefinitionIndex = 46910;
 
 	class CharacterStoryMoveMap : public ::UnityEngine::ScriptableObject
 	{

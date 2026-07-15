@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AdventureSkillCharacterComponent_SkillAllowUseCheckResult_TypeDefinitionIndex = 53107;
+	inline static constexpr unsigned int AdventureSkillCharacterComponent_SkillAllowUseCheckResult_TypeDefinitionIndex = 54321;
 
 	enum class AdventureSkillCharacterComponent_SkillAllowUseCheckResult : ::System::Int32
 	{

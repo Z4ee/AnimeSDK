@@ -10,7 +10,7 @@ namespace System::Runtime::Serialization { class SerializationInfo; }
 
 namespace System::Collections::Generic
 {
-	inline static constexpr unsigned int CacheLinkedList_1_Enumerator_TypeDefinitionIndex = 6682;
+	inline static constexpr unsigned int CacheLinkedList_1_Enumerator_TypeDefinitionIndex = 6687;
 
 	template <typename T>
 	struct CacheLinkedList_1_Enumerator

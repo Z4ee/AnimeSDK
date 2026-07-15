@@ -7,22 +7,22 @@ namespace RPG::Client { class ChenLingBattleSoldierLevelConfig; }
 namespace RPG::Client { class ChenLingBattleSoldierUnitConfig; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_CLIENT_CHENLINGBATTLESOLDIERINFO_DISPOSE_OFFSET UNITYSDK_OFFSET(0xB5D80A0)
-#define RPG_CLIENT_CHENLINGBATTLESOLDIERINFO_GETSOLDIERCONFIG_OFFSET UNITYSDK_OFFSET(0xB5BD970)
-#define RPG_CLIENT_CHENLINGBATTLESOLDIERINFO_GETSOLDIERLEVELCONFIG_OFFSET UNITYSDK_OFFSET(0xB5CCA20)
-#define RPG_CLIENT_CHENLINGBATTLESOLDIERINFO_GETSOLDIERUNITCONFIG_OFFSET UNITYSDK_OFFSET(0xB5D0D10)
-#define RPG_CLIENT_CHENLINGBATTLESOLDIERINFO_INIT_OFFSET UNITYSDK_OFFSET(0xB5D7AD0)
-#define RPG_CLIENT_CHENLINGBATTLESOLDIERINFO__CTOR_OFFSET UNITYSDK_OFFSET(0xB5D7AC0)
+#define RPG_CLIENT_CHENLINGBATTLESOLDIERINFO_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1AFF1EE0)
+#define RPG_CLIENT_CHENLINGBATTLESOLDIERINFO_GETSOLDIERCONFIG_OFFSET UNITYSDK_OFFSET(0x1AFE5000)
+#define RPG_CLIENT_CHENLINGBATTLESOLDIERINFO_GETSOLDIERLEVELCONFIG_OFFSET UNITYSDK_OFFSET(0x1AFE51D0)
+#define RPG_CLIENT_CHENLINGBATTLESOLDIERINFO_GETSOLDIERUNITCONFIG_OFFSET UNITYSDK_OFFSET(0x1AFEA190)
+#define RPG_CLIENT_CHENLINGBATTLESOLDIERINFO_INIT_OFFSET UNITYSDK_OFFSET(0x1AFF1910)
+#define RPG_CLIENT_CHENLINGBATTLESOLDIERINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x1AFF1900)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ChenLingBattleSoldierInfo_TypeDefinitionIndex = 57453;
+	inline static constexpr unsigned int ChenLingBattleSoldierInfo_TypeDefinitionIndex = 58715;
 
 	class ChenLingBattleSoldierInfo : public ::System::Object
 	{
 	public:
-		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::Collections::Generic::Dictionary_2<::System::UInt32, ::RPG::Client::ChenLingBattleSoldierLevelConfig*>*>* _SoldierLevelConfigDict; // 0x10
-		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::RPG::Client::ChenLingBattleSoldierUnitConfig*>* _SoldierUnitConfigDict; // 0x18
+		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::RPG::Client::ChenLingBattleSoldierUnitConfig*>* _SoldierUnitConfigDict; // 0x10
+		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::Collections::Generic::Dictionary_2<::System::UInt32, ::RPG::Client::ChenLingBattleSoldierLevelConfig*>*>* _SoldierLevelConfigDict; // 0x18
 		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::RPG::Client::ChenLingBattleSoldierConfig*>* _SoldierConfigDict; // 0x20
 
 		::System::Void _ctor()

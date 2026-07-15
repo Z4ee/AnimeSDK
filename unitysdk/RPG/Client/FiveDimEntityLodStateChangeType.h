@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int FiveDimEntityLodStateChangeType_TypeDefinitionIndex = 56568;
+	inline static constexpr unsigned int FiveDimEntityLodStateChangeType_TypeDefinitionIndex = 57808;
 
 	enum class FiveDimEntityLodStateChangeType : ::System::Int32
 	{

@@ -6,13 +6,13 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class TargetEvaluator; }
 
-#define RPG_GAMECORE_RESETREDSTANCE_METHOD_3_19E21C8491ADCDCD_OFFSET UNITYSDK_OFFSET(0x19ACF9D0)
-#define RPG_GAMECORE_RESETREDSTANCE_METHOD_3_3A0351ED28D494BA_OFFSET UNITYSDK_OFFSET(0x19ACFA60)
-#define RPG_GAMECORE_RESETREDSTANCE__CTOR_OFFSET UNITYSDK_OFFSET(0x19ACFA30)
+#define RPG_GAMECORE_RESETREDSTANCE_METHOD_3_3A0351ED28D494BA_OFFSET UNITYSDK_OFFSET(0x1D01C2A0)
+#define RPG_GAMECORE_RESETREDSTANCE_METHOD_3_BB34EE3AD47533E3_OFFSET UNITYSDK_OFFSET(0x1D01C250)
+#define RPG_GAMECORE_RESETREDSTANCE__CTOR_OFFSET UNITYSDK_OFFSET(0x1D01C290)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ResetRedStance_TypeDefinitionIndex = 21394;
+	inline static constexpr unsigned int ResetRedStance_TypeDefinitionIndex = 21812;
 
 	class ResetRedStance : public ::RPG::GameCore::TaskConfig
 	{
@@ -26,9 +26,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_RESETREDSTANCE__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_19E21C8491ADCDCD(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ResetRedStance*& a2)
+		static ::System::Void Method_3_BB34EE3AD47533E3(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ResetRedStance*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ResetRedStance*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_RESETREDSTANCE_METHOD_3_19E21C8491ADCDCD_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ResetRedStance*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_RESETREDSTANCE_METHOD_3_BB34EE3AD47533E3_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_3A0351ED28D494BA(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ResetRedStance* a2)

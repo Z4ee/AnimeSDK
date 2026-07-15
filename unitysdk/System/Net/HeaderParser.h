@@ -7,14 +7,14 @@ namespace System { class IAsyncResult; }
 namespace System { class Object; }
 namespace System { class String; }
 
-#define SYSTEM_NET_HEADERPARSER_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1AF7DC70)
-#define SYSTEM_NET_HEADERPARSER_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1AF7DCA0)
-#define SYSTEM_NET_HEADERPARSER_INVOKE_OFFSET UNITYSDK_OFFSET(0x1AF7DC60)
-#define SYSTEM_NET_HEADERPARSER__CTOR_OFFSET UNITYSDK_OFFSET(0x1AF7DBF0)
+#define SYSTEM_NET_HEADERPARSER_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x195F7470)
+#define SYSTEM_NET_HEADERPARSER_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x195F74A0)
+#define SYSTEM_NET_HEADERPARSER_INVOKE_OFFSET UNITYSDK_OFFSET(0x195F7460)
+#define SYSTEM_NET_HEADERPARSER__CTOR_OFFSET UNITYSDK_OFFSET(0x195F73F0)
 
 namespace System::Net
 {
-	inline static constexpr unsigned int HeaderParser_TypeDefinitionIndex = 2764;
+	inline static constexpr unsigned int HeaderParser_TypeDefinitionIndex = 2768;
 
 	class HeaderParser : public ::System::MulticastDelegate
 	{

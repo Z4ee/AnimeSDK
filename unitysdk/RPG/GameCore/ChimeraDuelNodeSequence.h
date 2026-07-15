@@ -5,12 +5,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class BaseChimeraDuelNode; }
 
-#define RPG_GAMECORE_CHIMERADUELNODESEQUENCE_METHOD_2_E407430CD0BAE7FA_OFFSET UNITYSDK_OFFSET(0x19642330)
-#define RPG_GAMECORE_CHIMERADUELNODESEQUENCE__CTOR_OFFSET UNITYSDK_OFFSET(0x19642420)
+#define RPG_GAMECORE_CHIMERADUELNODESEQUENCE_METHOD_2_E407430CD0BAE7FA_OFFSET UNITYSDK_OFFSET(0x1C243B90)
+#define RPG_GAMECORE_CHIMERADUELNODESEQUENCE__CTOR_OFFSET UNITYSDK_OFFSET(0x1C243C80)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ChimeraDuelNodeSequence_TypeDefinitionIndex = 15209;
+	inline static constexpr unsigned int ChimeraDuelNodeSequence_TypeDefinitionIndex = 15373;
 
 	class ChimeraDuelNodeSequence : public ::RPG::GameCore::JsonConfig
 	{

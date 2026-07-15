@@ -3,13 +3,13 @@
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/Vector2.h"
 
-#define INCONTROL_DEADZONE_CIRCULAR_OFFSET UNITYSDK_OFFSET(0x17FABDA0)
-#define INCONTROL_DEADZONE_SEPARATENOTNORMALIZED_OFFSET UNITYSDK_OFFSET(0x17FABB80)
-#define INCONTROL_DEADZONE_SEPARATE_OFFSET UNITYSDK_OFFSET(0x17FABC60)
+#define INCONTROL_DEADZONE_CIRCULAR_OFFSET UNITYSDK_OFFSET(0x17331E50)
+#define INCONTROL_DEADZONE_SEPARATENOTNORMALIZED_OFFSET UNITYSDK_OFFSET(0x17331C30)
+#define INCONTROL_DEADZONE_SEPARATE_OFFSET UNITYSDK_OFFSET(0x17331D10)
 
 namespace InControl
 {
-	inline static constexpr unsigned int DeadZone_TypeDefinitionIndex = 37854;
+	inline static constexpr unsigned int DeadZone_TypeDefinitionIndex = 38662;
 
 	class DeadZone : public ::System::Object
 	{

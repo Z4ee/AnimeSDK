@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class SwitchHandForbidUIOperate; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_AB2A882D3ED84B04_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xA5C64A0)
-#define CLASS_3_AB2A882D3ED84B04__CTOR_OFFSET UNITYSDK_OFFSET(0xA5C6470)
+#define CLASS_3_AB2A882D3ED84B04_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x152C6EF0)
+#define CLASS_3_AB2A882D3ED84B04__CTOR_OFFSET UNITYSDK_OFFSET(0x152C6EC0)
 
-inline static constexpr unsigned int Class_3_AB2A882D3ED84B04_TypeDefinitionIndex = 49831;
+inline static constexpr unsigned int Class_3_AB2A882D3ED84B04_TypeDefinitionIndex = 50886;
 
 class Class_3_AB2A882D3ED84B04 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::SwitchHandForbidUIOperate*>
 {

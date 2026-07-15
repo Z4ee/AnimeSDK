@@ -10,7 +10,7 @@ namespace System::Collections::Generic { template <typename T> class IEnumerator
 
 namespace System::Collections::Generic
 {
-	inline static constexpr unsigned int SortedDictionary_2_ValueCollection_TypeDefinitionIndex = 3014;
+	inline static constexpr unsigned int SortedDictionary_2_ValueCollection_TypeDefinitionIndex = 3018;
 
 	template <typename TKey, typename TValue>
 	class SortedDictionary_2_ValueCollection : public ::System::Object

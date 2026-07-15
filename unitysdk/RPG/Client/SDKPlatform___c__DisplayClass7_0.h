@@ -5,12 +5,12 @@
 namespace System { class Action; }
 namespace System { class String; }
 
-#define RPG_CLIENT_SDKPLATFORM___C__DISPLAYCLASS7_0__CTOR_OFFSET UNITYSDK_OFFSET(0xC8A1A20)
-#define RPG_CLIENT_SDKPLATFORM___C__DISPLAYCLASS7_0__SHOWPSEMPTYSTOREDIALOG_B__0_OFFSET UNITYSDK_OFFSET(0xC8A1A90)
+#define RPG_CLIENT_SDKPLATFORM___C__DISPLAYCLASS7_0__CTOR_OFFSET UNITYSDK_OFFSET(0x19F2AFE0)
+#define RPG_CLIENT_SDKPLATFORM___C__DISPLAYCLASS7_0__SHOWPSEMPTYSTOREDIALOG_B__0_OFFSET UNITYSDK_OFFSET(0x19F2B050)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int SDKPlatform___c__DisplayClass7_0_TypeDefinitionIndex = 56073;
+	inline static constexpr unsigned int SDKPlatform___c__DisplayClass7_0_TypeDefinitionIndex = 57312;
 
 	class SDKPlatform___c__DisplayClass7_0 : public ::System::Object
 	{

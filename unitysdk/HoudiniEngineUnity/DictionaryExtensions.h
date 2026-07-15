@@ -6,7 +6,7 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 
 namespace HoudiniEngineUnity
 {
-	inline static constexpr unsigned int DictionaryExtensions_TypeDefinitionIndex = 37661;
+	inline static constexpr unsigned int DictionaryExtensions_TypeDefinitionIndex = 38469;
 
 	class DictionaryExtensions : public ::System::Object
 	{

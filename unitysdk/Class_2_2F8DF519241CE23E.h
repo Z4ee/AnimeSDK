@@ -1,6 +1,6 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Class_1_76ED9B246ED58A54.h"
+#include "unitysdk/Class_1_CD4EC20BEBA8A2DA.h"
 
 class Class_1_0E117AC86D8E5BCA;
 class Class_1_D8BECDCE48063EC7;
@@ -8,12 +8,12 @@ class Class_2_AEE59ED8DADEC1A1;
 namespace RPG::GameCore { class DiceCombatDiceSelectorConfig_Point; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_2_2F8DF519241CE23E_METHOD_2_FFEC94B680A1B002_OFFSET UNITYSDK_OFFSET(0x18A01010)
-#define CLASS_2_2F8DF519241CE23E__CTOR_OFFSET UNITYSDK_OFFSET(0x18A01000)
+#define CLASS_2_2F8DF519241CE23E_METHOD_2_FFEC94B680A1B002_OFFSET UNITYSDK_OFFSET(0x17B86950)
+#define CLASS_2_2F8DF519241CE23E__CTOR_OFFSET UNITYSDK_OFFSET(0x17B86940)
 
-inline static constexpr unsigned int Class_2_2F8DF519241CE23E_TypeDefinitionIndex = 34446;
+inline static constexpr unsigned int Class_2_2F8DF519241CE23E_TypeDefinitionIndex = 34828;
 
-class Class_2_2F8DF519241CE23E : public ::Class_1_76ED9B246ED58A54
+class Class_2_2F8DF519241CE23E : public ::Class_1_CD4EC20BEBA8A2DA
 {
 public:
 	::RPG::GameCore::DiceCombatDiceSelectorConfig_Point* Field_2_0; // 0x18

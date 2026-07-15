@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int WaitBatchTriggerRule_TypeDefinitionIndex = 23420;
+	inline static constexpr unsigned int WaitBatchTriggerRule_TypeDefinitionIndex = 23909;
 
 	enum class WaitBatchTriggerRule : ::System::Int32
 	{

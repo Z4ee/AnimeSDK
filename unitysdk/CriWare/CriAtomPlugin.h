@@ -2,113 +2,152 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/CriWare/Common_CpuUsage.h"
 #include "unitysdk/CriWare/CriAtomConfig_LinuxOutput.h"
+#include "unitysdk/CriWare/CriAtomEx_SoundRendererType.h"
+#include "unitysdk/CriWare/CriAtomPlugin_FileOpenCondition.h"
+#include "unitysdk/CriWare/CriAtom_SpeakerMapping.h"
 #include "unitysdk/System/Object.h"
 
 namespace CriWare { class CriAtomConfig; }
+namespace CriWare { class CriAtomExAcb; }
 namespace CriWare { class CriAtomPlugin_CallbackFromNativeDelegate; }
+namespace System { class Action; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CRIWARE_CRIATOMPLUGIN_CALLBACKFROMNATIVE_OFFSET UNITYSDK_OFFSET(0x146B5D30)
-#define CRIWARE_CRIATOMPLUGIN_CRIWARE009CE561_OFFSET UNITYSDK_OFFSET(0x146B36A0)
-#define CRIWARE_CRIATOMPLUGIN_CRIWARE15B0037A_OFFSET UNITYSDK_OFFSET(0x146B5E70)
-#define CRIWARE_CRIATOMPLUGIN_CRIWARE15F30D07_OFFSET UNITYSDK_OFFSET(0x146B6010)
-#define CRIWARE_CRIATOMPLUGIN_CRIWARE237CA5E3_OFFSET UNITYSDK_OFFSET(0x146B3A80)
-#define CRIWARE_CRIATOMPLUGIN_CRIWARE2626EF5B_OFFSET UNITYSDK_OFFSET(0x146B4EC0)
-#define CRIWARE_CRIATOMPLUGIN_CRIWARE28E5ABA4_OFFSET UNITYSDK_OFFSET(0x146B5F10)
-#define CRIWARE_CRIATOMPLUGIN_CRIWARE2CFF30B7_OFFSET UNITYSDK_OFFSET(0x146B4130)
-#define CRIWARE_CRIATOMPLUGIN_CRIWARE2F034134_OFFSET UNITYSDK_OFFSET(0x146B3DF0)
-#define CRIWARE_CRIATOMPLUGIN_CRIWARE5B1C5B3B_OFFSET UNITYSDK_OFFSET(0x146B5A60)
-#define CRIWARE_CRIATOMPLUGIN_CRIWARE5BC8942D_OFFSET UNITYSDK_OFFSET(0x146B5C90)
-#define CRIWARE_CRIATOMPLUGIN_CRIWARE63E1F278_OFFSET UNITYSDK_OFFSET(0x146B5170)
-#define CRIWARE_CRIATOMPLUGIN_CRIWARE70981A20_OFFSET UNITYSDK_OFFSET(0x146B3F70)
-#define CRIWARE_CRIATOMPLUGIN_CRIWARE7581CF8C_OFFSET UNITYSDK_OFFSET(0x146B2E00)
-#define CRIWARE_CRIATOMPLUGIN_CRIWARE780E6ED2_OFFSET UNITYSDK_OFFSET(0x146B3BA0)
-#define CRIWARE_CRIATOMPLUGIN_CRIWARE797E0462_OFFSET UNITYSDK_OFFSET(0x146B6090)
-#define CRIWARE_CRIATOMPLUGIN_CRIWARE8384362B_OFFSET UNITYSDK_OFFSET(0x146B3950)
-#define CRIWARE_CRIATOMPLUGIN_CRIWARE88175F19_OFFSET UNITYSDK_OFFSET(0x146B5F90)
-#define CRIWARE_CRIATOMPLUGIN_CRIWARE98A6BE5C_OFFSET UNITYSDK_OFFSET(0x146B59D0)
-#define CRIWARE_CRIATOMPLUGIN_CRIWAREA703719E_OFFSET UNITYSDK_OFFSET(0x146B5D70)
-#define CRIWARE_CRIATOMPLUGIN_CRIWAREB64E0C3B_OFFSET UNITYSDK_OFFSET(0x146B5510)
-#define CRIWARE_CRIATOMPLUGIN_CRIWAREBF97E87F_OFFSET UNITYSDK_OFFSET(0x146B5DF0)
-#define CRIWARE_CRIATOMPLUGIN_CRIWAREC176B113_OFFSET UNITYSDK_OFFSET(0x146B5030)
-#define CRIWARE_CRIATOMPLUGIN_CRIWAREC54D0552_OFFSET UNITYSDK_OFFSET(0x146B6110)
-#define CRIWARE_CRIATOMPLUGIN_CRIWARECCA1268B_OFFSET UNITYSDK_OFFSET(0x146B2CE0)
-#define CRIWARE_CRIATOMPLUGIN_CRIWARED1FD92AA_OFFSET UNITYSDK_OFFSET(0x146B2BC0)
-#define CRIWARE_CRIATOMPLUGIN_CRIWAREE097EA6E_OFFSET UNITYSDK_OFFSET(0x146B6190)
-#define CRIWARE_CRIATOMPLUGIN_CRIWAREE320F01B_OFFSET UNITYSDK_OFFSET(0x146B58B0)
-#define CRIWARE_CRIATOMPLUGIN_CRIWAREE996B258_OFFSET UNITYSDK_OFFSET(0x146B3CC0)
-#define CRIWARE_CRIATOMPLUGIN_DECRYPTACB_OFFSET UNITYSDK_OFFSET(0x146B5AE0)
-#define CRIWARE_CRIATOMPLUGIN_EXECUTEQUEUEDBEATSYNCCALLBACKS_OFFSET UNITYSDK_OFFSET(0x146B2D60)
-#define CRIWARE_CRIATOMPLUGIN_EXECUTEQUEUEDCUELINKCALLBACKS_OFFSET UNITYSDK_OFFSET(0x146B2B20)
-#define CRIWARE_CRIATOMPLUGIN_EXECUTEQUEUEDEVENTCALLBACKS_OFFSET UNITYSDK_OFFSET(0x146B2C40)
-#define CRIWARE_CRIATOMPLUGIN_FINALIZELIBRARY_OFFSET UNITYSDK_OFFSET(0x146B4860)
-#define CRIWARE_CRIATOMPLUGIN_GETAUDIOEFFECTINTERFACELIST_OFFSET UNITYSDK_OFFSET(0x146B2E80)
-#define CRIWARE_CRIATOMPLUGIN_GETCPUUSAGE_OFFSET UNITYSDK_OFFSET(0x146B5590)
-#define CRIWARE_CRIATOMPLUGIN_GETLOOPCOUNTPARAMETERID_OFFSET UNITYSDK_OFFSET(0x146AD5A0)
-#define CRIWARE_CRIATOMPLUGIN_GETOUTPUTCHANNELS_OFFSET UNITYSDK_OFFSET(0x146B5930)
-#define CRIWARE_CRIATOMPLUGIN_GETOUTPUTSAMPLINGRATE_OFFSET UNITYSDK_OFFSET(0x146B5810)
-#define CRIWARE_CRIATOMPLUGIN_GETREQUIREDMAXVIRTUALVOICES_OFFSET UNITYSDK_OFFSET(0x146B41B0)
-#define CRIWARE_CRIATOMPLUGIN_GETSPATIALIZERCOREINTERFACEFROMATOMOCULUSAUDIOBRIDGE_OFFSET UNITYSDK_OFFSET(0x146B3030)
-#define CRIWARE_CRIATOMPLUGIN_GET_ISINITIALIZED_OFFSET UNITYSDK_OFFSET(0x146B2AF0)
-#define CRIWARE_CRIATOMPLUGIN_INITIALIZELIBRARY_OFFSET UNITYSDK_OFFSET(0x146B41F0)
-#define CRIWARE_CRIATOMPLUGIN_ISINITIALIZEDFORPCMOUTPUT_OFFSET UNITYSDK_OFFSET(0x146B5A50)
-#define CRIWARE_CRIATOMPLUGIN_ISLIBRARYINITIALIZED_OFFSET UNITYSDK_OFFSET(0x146A6320)
-#define CRIWARE_CRIATOMPLUGIN_LOG_OFFSET UNITYSDK_OFFSET(0x146B2AE0)
-#define CRIWARE_CRIATOMPLUGIN_PAUSE_OFFSET UNITYSDK_OFFSET(0x146B5430)
-#define CRIWARE_CRIATOMPLUGIN_SETCONFIGADDITIONALPARAMETERS_ANDROID_OFFSET UNITYSDK_OFFSET(0x146B3E80)
-#define CRIWARE_CRIATOMPLUGIN_SETCONFIGADDITIONALPARAMETERS_EDITOR_OFFSET UNITYSDK_OFFSET(0x146B39E0)
-#define CRIWARE_CRIATOMPLUGIN_SETCONFIGADDITIONALPARAMETERS_IOS_OFFSET UNITYSDK_OFFSET(0x146B3D40)
-#define CRIWARE_CRIATOMPLUGIN_SETCONFIGADDITIONALPARAMETERS_LINUX_OFFSET UNITYSDK_OFFSET(0x146B3C20)
-#define CRIWARE_CRIATOMPLUGIN_SETCONFIGADDITIONALPARAMETERS_PC_OFFSET UNITYSDK_OFFSET(0x146B3B00)
-#define CRIWARE_CRIATOMPLUGIN_SETCONFIGADDITIONALPARAMETERS_PS4_OFFSET UNITYSDK_OFFSET(0x146B4050)
-#define CRIWARE_CRIATOMPLUGIN_SETCONFIGADDITIONALPARAMETERS_PS5_OFFSET UNITYSDK_OFFSET(0x146B4060)
-#define CRIWARE_CRIATOMPLUGIN_SETCONFIGADDITIONALPARAMETERS_SWITCH_OFFSET UNITYSDK_OFFSET(0x146B4070)
-#define CRIWARE_CRIATOMPLUGIN_SETCONFIGADDITIONALPARAMETERS_VITA_OFFSET UNITYSDK_OFFSET(0x146B4040)
-#define CRIWARE_CRIATOMPLUGIN_SETCONFIGADDITIONALPARAMETERS_WEBGL_OFFSET UNITYSDK_OFFSET(0x146B4080)
-#define CRIWARE_CRIATOMPLUGIN_SETCONFIGMONITORPARAMETES_OFFSET UNITYSDK_OFFSET(0x146B38A0)
-#define CRIWARE_CRIATOMPLUGIN_SETCONFIGPARAMETERS_OFFSET UNITYSDK_OFFSET(0x146B3440)
-#define CRIWARE_CRIATOMPLUGIN_SETMAXSAMPLINGRATEFORSTANDARDVOICEPOOL_OFFSET UNITYSDK_OFFSET(0x146B4090)
-#define CRIWARE_CRIATOMPLUGIN__CCTOR_OFFSET UNITYSDK_OFFSET(0x146B6210)
+#define CRIWARE_CRIATOMPLUGIN_ADD_ONBEFOREFINALIZE_OFFSET UNITYSDK_OFFSET(0x1B7A0D40)
+#define CRIWARE_CRIATOMPLUGIN_ADD_ONBEFOREINITIALIZE_OFFSET UNITYSDK_OFFSET(0x1B7A0AC0)
+#define CRIWARE_CRIATOMPLUGIN_ADD_ONFINALIZED_OFFSET UNITYSDK_OFFSET(0x1B7A0E80)
+#define CRIWARE_CRIATOMPLUGIN_ADD_ONINITIALIZED_OFFSET UNITYSDK_OFFSET(0x1B7A0C00)
+#define CRIWARE_CRIATOMPLUGIN_CALLBACKFROMNATIVE_OFFSET UNITYSDK_OFFSET(0x1B7A4180)
+#define CRIWARE_CRIATOMPLUGIN_CRIWARE01A2ECB0_OFFSET UNITYSDK_OFFSET(0x1B7A36B0)
+#define CRIWARE_CRIATOMPLUGIN_CRIWARE041B62AF_OFFSET UNITYSDK_OFFSET(0x1B7A4240)
+#define CRIWARE_CRIATOMPLUGIN_CRIWARE0B886AF3_OFFSET UNITYSDK_OFFSET(0x1B7A1CC0)
+#define CRIWARE_CRIATOMPLUGIN_CRIWARE0C534427_OFFSET UNITYSDK_OFFSET(0x1B7A1A60)
+#define CRIWARE_CRIATOMPLUGIN_CRIWARE10ED6C77_OFFSET UNITYSDK_OFFSET(0x1B7A2270)
+#define CRIWARE_CRIATOMPLUGIN_CRIWARE1E06F107_OFFSET UNITYSDK_OFFSET(0x1B7A1780)
+#define CRIWARE_CRIATOMPLUGIN_CRIWARE36F4C206_OFFSET UNITYSDK_OFFSET(0x1B7A45E0)
+#define CRIWARE_CRIATOMPLUGIN_CRIWARE380D96FC_OFFSET UNITYSDK_OFFSET(0x1B7A31B0)
+#define CRIWARE_CRIATOMPLUGIN_CRIWARE3B3A1489_OFFSET UNITYSDK_OFFSET(0x1B7A1F20)
+#define CRIWARE_CRIATOMPLUGIN_CRIWARE43F8CB5E_OFFSET UNITYSDK_OFFSET(0x1B7A3310)
+#define CRIWARE_CRIATOMPLUGIN_CRIWARE503D6EC0_OFFSET UNITYSDK_OFFSET(0x1B7A1B90)
+#define CRIWARE_CRIATOMPLUGIN_CRIWARE65F3B261_OFFSET UNITYSDK_OFFSET(0x1B7A3CD0)
+#define CRIWARE_CRIATOMPLUGIN_CRIWARE6B9656CC_OFFSET UNITYSDK_OFFSET(0x1B7A1070)
+#define CRIWARE_CRIATOMPLUGIN_CRIWARE6C6D06F3_OFFSET UNITYSDK_OFFSET(0x1B7A4360)
+#define CRIWARE_CRIATOMPLUGIN_CRIWARE7ABCA0A2_OFFSET UNITYSDK_OFFSET(0x1B7A11A0)
+#define CRIWARE_CRIATOMPLUGIN_CRIWARE80CA213E_OFFSET UNITYSDK_OFFSET(0x1B7A1DE0)
+#define CRIWARE_CRIATOMPLUGIN_CRIWARE813CFB49_OFFSET UNITYSDK_OFFSET(0x1B7A44E0)
+#define CRIWARE_CRIATOMPLUGIN_CRIWARE874EDA5D_OFFSET UNITYSDK_OFFSET(0x1B7A2F00)
+#define CRIWARE_CRIATOMPLUGIN_CRIWARE98DA093D_OFFSET UNITYSDK_OFFSET(0x1B7A4560)
+#define CRIWARE_CRIATOMPLUGIN_CRIWAREAB4E051A_OFFSET UNITYSDK_OFFSET(0x1B7A20A0)
+#define CRIWARE_CRIATOMPLUGIN_CRIWAREAEE98D7A_OFFSET UNITYSDK_OFFSET(0x1B7A3070)
+#define CRIWARE_CRIATOMPLUGIN_CRIWAREB05B3403_OFFSET UNITYSDK_OFFSET(0x1B7A37D0)
+#define CRIWARE_CRIATOMPLUGIN_CRIWAREB2956D4E_OFFSET UNITYSDK_OFFSET(0x1B7A41C0)
+#define CRIWARE_CRIATOMPLUGIN_CRIWAREB59406BB_OFFSET UNITYSDK_OFFSET(0x1B7A42C0)
+#define CRIWARE_CRIATOMPLUGIN_CRIWAREBA22AA6A_OFFSET UNITYSDK_OFFSET(0x1B7A3860)
+#define CRIWARE_CRIATOMPLUGIN_CRIWAREC5F8065D_OFFSET UNITYSDK_OFFSET(0x1B7A4460)
+#define CRIWARE_CRIATOMPLUGIN_CRIWAREDCA2E8D4_OFFSET UNITYSDK_OFFSET(0x1B7A3A60)
+#define CRIWARE_CRIATOMPLUGIN_CRIWAREE4D1D1E7_OFFSET UNITYSDK_OFFSET(0x1B7A43E0)
+#define CRIWARE_CRIATOMPLUGIN_CRIWAREF0082817_OFFSET UNITYSDK_OFFSET(0x1B7A12D0)
+#define CRIWARE_CRIATOMPLUGIN_DECRYPTACB_OFFSET UNITYSDK_OFFSET(0x1B7A3B20)
+#define CRIWARE_CRIATOMPLUGIN_EXECUTEQUEUEDBEATSYNCCALLBACKS_OFFSET UNITYSDK_OFFSET(0x1B7A1220)
+#define CRIWARE_CRIATOMPLUGIN_EXECUTEQUEUEDCUELINKCALLBACKS_OFFSET UNITYSDK_OFFSET(0x1B7A0FC0)
+#define CRIWARE_CRIATOMPLUGIN_EXECUTEQUEUEDEVENTCALLBACKS_OFFSET UNITYSDK_OFFSET(0x1B7A10F0)
+#define CRIWARE_CRIATOMPLUGIN_FINALIZELIBRARY_OFFSET UNITYSDK_OFFSET(0x1B7A2A40)
+#define CRIWARE_CRIATOMPLUGIN_GETAUDIOEFFECTINTERFACELIST_OFFSET UNITYSDK_OFFSET(0x1B7A1350)
+#define CRIWARE_CRIATOMPLUGIN_GETCPUUSAGE_OFFSET UNITYSDK_OFFSET(0x1B7A3390)
+#define CRIWARE_CRIATOMPLUGIN_GETFILEOPENCONDITION_OFFSET UNITYSDK_OFFSET(0x1B7A3D70)
+#define CRIWARE_CRIATOMPLUGIN_GETLOOPCOUNTPARAMETERID_OFFSET UNITYSDK_OFFSET(0x1B799700)
+#define CRIWARE_CRIATOMPLUGIN_GETOUTPUTCHANNELS_OFFSET UNITYSDK_OFFSET(0x1B7A3730)
+#define CRIWARE_CRIATOMPLUGIN_GETOUTPUTSAMPLINGRATE_OFFSET UNITYSDK_OFFSET(0x1B7A3610)
+#define CRIWARE_CRIATOMPLUGIN_GETREQUIREDMAXVIRTUALVOICES_OFFSET UNITYSDK_OFFSET(0x1B7A22F0)
+#define CRIWARE_CRIATOMPLUGIN_GETWAVESAMPLES_OFFSET UNITYSDK_OFFSET(0x1B7A38E0)
+#define CRIWARE_CRIATOMPLUGIN_GET_ISINITIALIZED_OFFSET UNITYSDK_OFFSET(0x1B7A0920)
+#define CRIWARE_CRIATOMPLUGIN_GET_USESINGAMEPREVIEW_OFFSET UNITYSDK_OFFSET(0x1B7A0950)
+#define CRIWARE_CRIATOMPLUGIN_INITIALIZELIBRARY_OFFSET UNITYSDK_OFFSET(0x1B7A2330)
+#define CRIWARE_CRIATOMPLUGIN_ISINITIALIZEDFORPCMOUTPUT_OFFSET UNITYSDK_OFFSET(0x1B7A3850)
+#define CRIWARE_CRIATOMPLUGIN_ISLIBRARYINITIALIZED_OFFSET UNITYSDK_OFFSET(0x1B78F380)
+#define CRIWARE_CRIATOMPLUGIN_LOG_OFFSET UNITYSDK_OFFSET(0x1B7A0910)
+#define CRIWARE_CRIATOMPLUGIN_PAUSE_OFFSET UNITYSDK_OFFSET(0x1B7A3230)
+#define CRIWARE_CRIATOMPLUGIN_PREPAREACBDATAFORLOAD_OFFSET UNITYSDK_OFFSET(0x1B7A09C0)
+#define CRIWARE_CRIATOMPLUGIN_REMOVE_ONBEFOREFINALIZE_OFFSET UNITYSDK_OFFSET(0x1B7A0DE0)
+#define CRIWARE_CRIATOMPLUGIN_REMOVE_ONBEFOREINITIALIZE_OFFSET UNITYSDK_OFFSET(0x1B7A0B60)
+#define CRIWARE_CRIATOMPLUGIN_REMOVE_ONFINALIZED_OFFSET UNITYSDK_OFFSET(0x1B7A0F20)
+#define CRIWARE_CRIATOMPLUGIN_REMOVE_ONINITIALIZED_OFFSET UNITYSDK_OFFSET(0x1B7A0CA0)
+#define CRIWARE_CRIATOMPLUGIN_SETCONFIGADDITIONALPARAMETERS_ANDROID_OFFSET UNITYSDK_OFFSET(0x1B7A1FB0)
+#define CRIWARE_CRIATOMPLUGIN_SETCONFIGADDITIONALPARAMETERS_EDITOR_OFFSET UNITYSDK_OFFSET(0x1B7A1AF0)
+#define CRIWARE_CRIATOMPLUGIN_SETCONFIGADDITIONALPARAMETERS_IOS_OFFSET UNITYSDK_OFFSET(0x1B7A1E60)
+#define CRIWARE_CRIATOMPLUGIN_SETCONFIGADDITIONALPARAMETERS_LINUX_OFFSET UNITYSDK_OFFSET(0x1B7A1D40)
+#define CRIWARE_CRIATOMPLUGIN_SETCONFIGADDITIONALPARAMETERS_PC_OFFSET UNITYSDK_OFFSET(0x1B7A1C10)
+#define CRIWARE_CRIATOMPLUGIN_SETCONFIGADDITIONALPARAMETERS_PS4_OFFSET UNITYSDK_OFFSET(0x1B7A2180)
+#define CRIWARE_CRIATOMPLUGIN_SETCONFIGADDITIONALPARAMETERS_PS5_OFFSET UNITYSDK_OFFSET(0x1B7A2190)
+#define CRIWARE_CRIATOMPLUGIN_SETCONFIGADDITIONALPARAMETERS_SWITCH2_OFFSET UNITYSDK_OFFSET(0x1B7A21B0)
+#define CRIWARE_CRIATOMPLUGIN_SETCONFIGADDITIONALPARAMETERS_SWITCH_OFFSET UNITYSDK_OFFSET(0x1B7A21A0)
+#define CRIWARE_CRIATOMPLUGIN_SETCONFIGADDITIONALPARAMETERS_VITA_OFFSET UNITYSDK_OFFSET(0x1B7A2170)
+#define CRIWARE_CRIATOMPLUGIN_SETCONFIGADDITIONALPARAMETERS_WEBGL_OFFSET UNITYSDK_OFFSET(0x1B7A21C0)
+#define CRIWARE_CRIATOMPLUGIN_SETCONFIGMONITORPARAMETES_OFFSET UNITYSDK_OFFSET(0x1B7A19B0)
+#define CRIWARE_CRIATOMPLUGIN_SETCONFIGPARAMETERS_OFFSET UNITYSDK_OFFSET(0x1B7A1500)
+#define CRIWARE_CRIATOMPLUGIN_SETMAXSAMPLINGRATEFORSTANDARDVOICEPOOL_OFFSET UNITYSDK_OFFSET(0x1B7A21D0)
+#define CRIWARE_CRIATOMPLUGIN_SET_USESINGAMEPREVIEW_OFFSET UNITYSDK_OFFSET(0x1B7A0990)
+#define CRIWARE_CRIATOMPLUGIN__CCTOR_OFFSET UNITYSDK_OFFSET(0x1B7A4660)
 
 namespace CriWare
 {
-	inline static constexpr unsigned int CriAtomPlugin_TypeDefinitionIndex = 36975;
+	inline static constexpr unsigned int CriAtomPlugin_TypeDefinitionIndex = 37773;
 
 	class CriAtomPlugin : public ::System::Object
 	{
 	public:
 		static ::System::Collections::Generic::List_1<::System::IntPtr>** StaticGet_effectInterfaceList()
 		{
-			return (::System::Collections::Generic::List_1<::System::IntPtr>**)Il2CppClass::FromTypeDefinitionIndex(CriAtomPlugin_TypeDefinitionIndex)->GetStaticField(0x7400);
+			return (::System::Collections::Generic::List_1<::System::IntPtr>**)Il2CppClass::FromTypeDefinitionIndex(CriAtomPlugin_TypeDefinitionIndex)->GetStaticField(0x9750);
+		}
+		static ::System::Action** StaticGet_OnBeforeInitialize()
+		{
+			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(CriAtomPlugin_TypeDefinitionIndex)->GetStaticField(0x9758);
+		}
+		static ::System::Action** StaticGet_OnFinalized()
+		{
+			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(CriAtomPlugin_TypeDefinitionIndex)->GetStaticField(0x9760);
+		}
+		static ::System::Action** StaticGet_OnBeforeFinalize()
+		{
+			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(CriAtomPlugin_TypeDefinitionIndex)->GetStaticField(0x9768);
+		}
+		static ::System::Action** StaticGet_OnInitialized()
+		{
+			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(CriAtomPlugin_TypeDefinitionIndex)->GetStaticField(0x9770);
+		}
+		static ::System::Boolean* StaticGet__UsesInGamePreview_k__BackingField()
+		{
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(CriAtomPlugin_TypeDefinitionIndex)->GetStaticField(0x38C0);
 		}
 		static ::System::Boolean* StaticGet_isConfigured()
 		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(CriAtomPlugin_TypeDefinitionIndex)->GetStaticField(0x3540);
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(CriAtomPlugin_TypeDefinitionIndex)->GetStaticField(0x38C1);
 		}
 		static ::System::UInt16* StaticGet_CRIATOMPARAMETER2_ID_INVALID()
 		{
-			return (::System::UInt16*)Il2CppClass::FromTypeDefinitionIndex(CriAtomPlugin_TypeDefinitionIndex)->GetStaticField(0x3542);
-		}
-		static ::System::Int32* StaticGet_CRIATOMUNITY_PARAMETER_ID_LOOP_COUNT()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(CriAtomPlugin_TypeDefinitionIndex)->GetStaticField(0x3544);
-		}
-		static ::System::Int32* StaticGet_initializationCount()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(CriAtomPlugin_TypeDefinitionIndex)->GetStaticField(0x3548);
+			return (::System::UInt16*)Il2CppClass::FromTypeDefinitionIndex(CriAtomPlugin_TypeDefinitionIndex)->GetStaticField(0x38C2);
 		}
 		static ::System::Single* StaticGet_timeSinceStartup()
 		{
-			return (::System::Single*)Il2CppClass::FromTypeDefinitionIndex(CriAtomPlugin_TypeDefinitionIndex)->GetStaticField(0x354C);
+			return (::System::Single*)Il2CppClass::FromTypeDefinitionIndex(CriAtomPlugin_TypeDefinitionIndex)->GetStaticField(0x38C4);
 		}
 		static ::CriWare::Common_CpuUsage* StaticGet_cpuUsage()
 		{
-			return (::CriWare::Common_CpuUsage*)Il2CppClass::FromTypeDefinitionIndex(CriAtomPlugin_TypeDefinitionIndex)->GetStaticField(0x3550);
+			return (::CriWare::Common_CpuUsage*)Il2CppClass::FromTypeDefinitionIndex(CriAtomPlugin_TypeDefinitionIndex)->GetStaticField(0x38C8);
+		}
+		static ::System::Int32* StaticGet_CRIATOMUNITY_PARAMETER_ID_LOOP_COUNT()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(CriAtomPlugin_TypeDefinitionIndex)->GetStaticField(0x38D4);
+		}
+		static ::System::Int32* StaticGet_initializationCount()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(CriAtomPlugin_TypeDefinitionIndex)->GetStaticField(0x38D8);
 		}
 		static ::System::UInt64* StaticGet_temporalStorage()
 		{
-			return (::System::UInt64*)Il2CppClass::FromTypeDefinitionIndex(CriAtomPlugin_TypeDefinitionIndex)->GetStaticField(0x3560);
+			return (::System::UInt64*)Il2CppClass::FromTypeDefinitionIndex(CriAtomPlugin_TypeDefinitionIndex)->GetStaticField(0x38E0);
 		}
 
 		static ::System::Void _cctor()
@@ -124,6 +163,61 @@ namespace CriWare
 		static ::System::Boolean get_isInitialized()
 		{
 			return ((::System::Boolean(*)())((::PBYTE)hIl2Cpp + CRIWARE_CRIATOMPLUGIN_GET_ISINITIALIZED_OFFSET))();
+		}
+
+		static ::System::Boolean get_UsesInGamePreview()
+		{
+			return ((::System::Boolean(*)())((::PBYTE)hIl2Cpp + CRIWARE_CRIATOMPLUGIN_GET_USESINGAMEPREVIEW_OFFSET))();
+		}
+
+		static ::System::Void set_UsesInGamePreview(::System::Boolean a1)
+		{
+			return ((::System::Void(*)(::System::Boolean))((::PBYTE)hIl2Cpp + CRIWARE_CRIATOMPLUGIN_SET_USESINGAMEPREVIEW_OFFSET))(a1);
+		}
+
+		static ::Il2CppArray<::System::Byte>* PrepareAcbDataForLoad(::Il2CppArray<::System::Byte>* a1)
+		{
+			return ((::Il2CppArray<::System::Byte>*(*)(::Il2CppArray<::System::Byte>*))((::PBYTE)hIl2Cpp + CRIWARE_CRIATOMPLUGIN_PREPAREACBDATAFORLOAD_OFFSET))(a1);
+		}
+
+		static ::System::Void add_OnBeforeInitialize(::System::Action* a1)
+		{
+			return ((::System::Void(*)(::System::Action*))((::PBYTE)hIl2Cpp + CRIWARE_CRIATOMPLUGIN_ADD_ONBEFOREINITIALIZE_OFFSET))(a1);
+		}
+
+		static ::System::Void remove_OnBeforeInitialize(::System::Action* a1)
+		{
+			return ((::System::Void(*)(::System::Action*))((::PBYTE)hIl2Cpp + CRIWARE_CRIATOMPLUGIN_REMOVE_ONBEFOREINITIALIZE_OFFSET))(a1);
+		}
+
+		static ::System::Void add_OnInitialized(::System::Action* a1)
+		{
+			return ((::System::Void(*)(::System::Action*))((::PBYTE)hIl2Cpp + CRIWARE_CRIATOMPLUGIN_ADD_ONINITIALIZED_OFFSET))(a1);
+		}
+
+		static ::System::Void remove_OnInitialized(::System::Action* a1)
+		{
+			return ((::System::Void(*)(::System::Action*))((::PBYTE)hIl2Cpp + CRIWARE_CRIATOMPLUGIN_REMOVE_ONINITIALIZED_OFFSET))(a1);
+		}
+
+		static ::System::Void add_OnBeforeFinalize(::System::Action* a1)
+		{
+			return ((::System::Void(*)(::System::Action*))((::PBYTE)hIl2Cpp + CRIWARE_CRIATOMPLUGIN_ADD_ONBEFOREFINALIZE_OFFSET))(a1);
+		}
+
+		static ::System::Void remove_OnBeforeFinalize(::System::Action* a1)
+		{
+			return ((::System::Void(*)(::System::Action*))((::PBYTE)hIl2Cpp + CRIWARE_CRIATOMPLUGIN_REMOVE_ONBEFOREFINALIZE_OFFSET))(a1);
+		}
+
+		static ::System::Void add_OnFinalized(::System::Action* a1)
+		{
+			return ((::System::Void(*)(::System::Action*))((::PBYTE)hIl2Cpp + CRIWARE_CRIATOMPLUGIN_ADD_ONFINALIZED_OFFSET))(a1);
+		}
+
+		static ::System::Void remove_OnFinalized(::System::Action* a1)
+		{
+			return ((::System::Void(*)(::System::Action*))((::PBYTE)hIl2Cpp + CRIWARE_CRIATOMPLUGIN_REMOVE_ONFINALIZED_OFFSET))(a1);
 		}
 
 		static ::System::Void ExecuteQueuedCueLinkCallbacks()
@@ -146,14 +240,9 @@ namespace CriWare
 			return ((::System::Boolean(*)(::System::Collections::Generic::List_1<::System::IntPtr>*&))((::PBYTE)hIl2Cpp + CRIWARE_CRIATOMPLUGIN_GETAUDIOEFFECTINTERFACELIST_OFFSET))(a1);
 		}
 
-		static ::System::IntPtr GetSpatializerCoreInterfaceFromAtomOculusAudioBridge()
+		static ::System::Void SetConfigParameters(::System::Int32 a1, ::System::Int32 a2, ::System::Int32 a3, ::System::Byte a4, ::System::Byte a5, ::System::Int32 a6, ::System::Int32 a7, ::System::Int32 a8, ::System::Int32 a9, ::System::Int32 a10, ::System::Int32 a11, ::System::Int32 a12, ::System::Int32 a13, ::System::Int32 a14, ::CriWare::CriAtom_SpeakerMapping a15, ::System::Boolean a16, ::System::Single a17, ::System::Int32 a18, ::System::Int32 a19, ::System::Int32 a20, ::System::Int32 a21, ::System::Single a22, ::CriWare::CriAtomEx_SoundRendererType a23, ::System::Boolean a24, ::System::Boolean a25)
 		{
-			return ((::System::IntPtr(*)())((::PBYTE)hIl2Cpp + CRIWARE_CRIATOMPLUGIN_GETSPATIALIZERCOREINTERFACEFROMATOMOCULUSAUDIOBRIDGE_OFFSET))();
-		}
-
-		static ::System::Void SetConfigParameters(::System::Int32 a1, ::System::Int32 a2, ::System::Int32 a3, ::System::Int32 a4, ::System::Int32 a5, ::System::Int32 a6, ::System::Int32 a7, ::System::Int32 a8, ::System::Int32 a9, ::System::Int32 a10, ::System::Int32 a11, ::System::Int32 a12, ::System::Int32 a13, ::System::Int32 a14, ::System::Boolean a15, ::System::Single a16, ::System::Int32 a17, ::System::Int32 a18, ::System::Int32 a19, ::System::Int32 a20, ::System::Boolean a21)
-		{
-			return ((::System::Void(*)(::System::Int32, ::System::Int32, ::System::Int32, ::System::Int32, ::System::Int32, ::System::Int32, ::System::Int32, ::System::Int32, ::System::Int32, ::System::Int32, ::System::Int32, ::System::Int32, ::System::Int32, ::System::Int32, ::System::Boolean, ::System::Single, ::System::Int32, ::System::Int32, ::System::Int32, ::System::Int32, ::System::Boolean))((::PBYTE)hIl2Cpp + CRIWARE_CRIATOMPLUGIN_SETCONFIGPARAMETERS_OFFSET))(a1, a2, a3, a4, a5, a6, a7, a8, a9, a10, a11, a12, a13, a14, a15, a16, a17, a18, a19, a20, a21);
+			return ((::System::Void(*)(::System::Int32, ::System::Int32, ::System::Int32, ::System::Byte, ::System::Byte, ::System::Int32, ::System::Int32, ::System::Int32, ::System::Int32, ::System::Int32, ::System::Int32, ::System::Int32, ::System::Int32, ::System::Int32, ::CriWare::CriAtom_SpeakerMapping, ::System::Boolean, ::System::Single, ::System::Int32, ::System::Int32, ::System::Int32, ::System::Int32, ::System::Single, ::CriWare::CriAtomEx_SoundRendererType, ::System::Boolean, ::System::Boolean))((::PBYTE)hIl2Cpp + CRIWARE_CRIATOMPLUGIN_SETCONFIGPARAMETERS_OFFSET))(a1, a2, a3, a4, a5, a6, a7, a8, a9, a10, a11, a12, a13, a14, a15, a16, a17, a18, a19, a20, a21, a22, a23, a24, a25);
 		}
 
 		static ::System::Void SetConfigMonitorParametes(::System::Int32 a1, ::System::Int32 a2, ::System::Int32 a3)
@@ -166,9 +255,9 @@ namespace CriWare
 			return ((::System::Void(*)(::System::Boolean, ::System::Int32))((::PBYTE)hIl2Cpp + CRIWARE_CRIATOMPLUGIN_SETCONFIGADDITIONALPARAMETERS_EDITOR_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void SetConfigAdditionalParameters_PC(::System::Int64 a1)
+		static ::System::Void SetConfigAdditionalParameters_PC(::System::Int64 a1, ::System::Boolean a2)
 		{
-			return ((::System::Void(*)(::System::Int64))((::PBYTE)hIl2Cpp + CRIWARE_CRIATOMPLUGIN_SETCONFIGADDITIONALPARAMETERS_PC_OFFSET))(a1);
+			return ((::System::Void(*)(::System::Int64, ::System::Boolean))((::PBYTE)hIl2Cpp + CRIWARE_CRIATOMPLUGIN_SETCONFIGADDITIONALPARAMETERS_PC_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void SetConfigAdditionalParameters_LINUX(::CriWare::CriAtomConfig_LinuxOutput a1, ::System::Int32 a2)
@@ -176,9 +265,9 @@ namespace CriWare
 			return ((::System::Void(*)(::CriWare::CriAtomConfig_LinuxOutput, ::System::Int32))((::PBYTE)hIl2Cpp + CRIWARE_CRIATOMPLUGIN_SETCONFIGADDITIONALPARAMETERS_LINUX_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void SetConfigAdditionalParameters_IOS(::System::Boolean a1, ::System::UInt32 a2, ::System::Boolean a3)
+		static ::System::Void SetConfigAdditionalParameters_IOS(::System::Boolean a1, ::System::UInt32 a2, ::System::Boolean a3, ::System::Boolean a4)
 		{
-			return ((::System::Void(*)(::System::Boolean, ::System::UInt32, ::System::Boolean))((::PBYTE)hIl2Cpp + CRIWARE_CRIATOMPLUGIN_SETCONFIGADDITIONALPARAMETERS_IOS_OFFSET))(a1, a2, a3);
+			return ((::System::Void(*)(::System::Boolean, ::System::UInt32, ::System::Boolean, ::System::Boolean))((::PBYTE)hIl2Cpp + CRIWARE_CRIATOMPLUGIN_SETCONFIGADDITIONALPARAMETERS_IOS_OFFSET))(a1, a2, a3, a4);
 		}
 
 		static ::System::Void SetConfigAdditionalParameters_ANDROID(::System::Boolean a1, ::System::Int32 a2, ::System::Int32 a3, ::System::Int32 a4, ::System::Int32 a5, ::System::Boolean a6, ::System::Boolean a7, ::System::Int32 a8)
@@ -191,14 +280,14 @@ namespace CriWare
 			return ((::System::Void(*)(::System::Int32, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + CRIWARE_CRIATOMPLUGIN_SETCONFIGADDITIONALPARAMETERS_VITA_OFFSET))(a1, a2, a3);
 		}
 
-		static ::System::Void SetConfigAdditionalParameters_PS4(::System::Int32 a1, ::System::Int32 a2, ::System::Boolean a3, ::System::Int32 a4, ::System::Int32 a5)
+		static ::System::Void SetConfigAdditionalParameters_PS4(::System::Int32 a1, ::System::Int32 a2, ::System::Boolean a3, ::System::Int32 a4, ::System::Int32 a5, ::System::Int32 a6)
 		{
-			return ((::System::Void(*)(::System::Int32, ::System::Int32, ::System::Boolean, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + CRIWARE_CRIATOMPLUGIN_SETCONFIGADDITIONALPARAMETERS_PS4_OFFSET))(a1, a2, a3, a4, a5);
+			return ((::System::Void(*)(::System::Int32, ::System::Int32, ::System::Boolean, ::System::Int32, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + CRIWARE_CRIATOMPLUGIN_SETCONFIGADDITIONALPARAMETERS_PS4_OFFSET))(a1, a2, a3, a4, a5, a6);
 		}
 
-		static ::System::Void SetConfigAdditionalParameters_PS5(::System::Int32 a1, ::System::Int32 a2)
+		static ::System::Void SetConfigAdditionalParameters_PS5(::System::Int32 a1, ::System::Int32 a2, ::System::Int32 a3)
 		{
-			return ((::System::Void(*)(::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + CRIWARE_CRIATOMPLUGIN_SETCONFIGADDITIONALPARAMETERS_PS5_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::System::Int32, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + CRIWARE_CRIATOMPLUGIN_SETCONFIGADDITIONALPARAMETERS_PS5_OFFSET))(a1, a2, a3);
 		}
 
 		static ::System::Void SetConfigAdditionalParameters_SWITCH(::System::Boolean a1, ::System::Int32 a2, ::System::Int32 a3, ::System::Boolean a4)
@@ -206,9 +295,14 @@ namespace CriWare
 			return ((::System::Void(*)(::System::Boolean, ::System::Int32, ::System::Int32, ::System::Boolean))((::PBYTE)hIl2Cpp + CRIWARE_CRIATOMPLUGIN_SETCONFIGADDITIONALPARAMETERS_SWITCH_OFFSET))(a1, a2, a3, a4);
 		}
 
-		static ::System::Void SetConfigAdditionalParameters_WEBGL(::System::Int32 a1)
+		static ::System::Void SetConfigAdditionalParameters_SWITCH2(::System::Int32 a1, ::System::Int32 a2, ::System::Boolean a3)
 		{
-			return ((::System::Void(*)(::System::Int32))((::PBYTE)hIl2Cpp + CRIWARE_CRIATOMPLUGIN_SETCONFIGADDITIONALPARAMETERS_WEBGL_OFFSET))(a1);
+			return ((::System::Void(*)(::System::Int32, ::System::Int32, ::System::Boolean))((::PBYTE)hIl2Cpp + CRIWARE_CRIATOMPLUGIN_SETCONFIGADDITIONALPARAMETERS_SWITCH2_OFFSET))(a1, a2, a3);
+		}
+
+		static ::System::Void SetConfigAdditionalParameters_WEBGL(::System::Int32 a1, ::System::Boolean a2)
+		{
+			return ((::System::Void(*)(::System::Int32, ::System::Boolean))((::PBYTE)hIl2Cpp + CRIWARE_CRIATOMPLUGIN_SETCONFIGADDITIONALPARAMETERS_WEBGL_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void SetMaxSamplingRateForStandardVoicePool(::System::Int32 a1, ::System::Int32 a2)
@@ -266,9 +360,19 @@ namespace CriWare
 			return ((::System::UInt16(*)())((::PBYTE)hIl2Cpp + CRIWARE_CRIATOMPLUGIN_GETLOOPCOUNTPARAMETERID_OFFSET))();
 		}
 
+		static ::System::Boolean GetWaveSamples(::CriWare::CriAtomExAcb* a1, ::System::String* a2, ::Il2CppArray<::System::Int16>* a3)
+		{
+			return ((::System::Boolean(*)(::CriWare::CriAtomExAcb*, ::System::String*, ::Il2CppArray<::System::Int16>*))((::PBYTE)hIl2Cpp + CRIWARE_CRIATOMPLUGIN_GETWAVESAMPLES_OFFSET))(a1, a2, a3);
+		}
+
 		static ::System::Void DecryptAcb(::System::IntPtr a1, ::System::UInt64 a2, ::System::UInt64 a3)
 		{
 			return ((::System::Void(*)(::System::IntPtr, ::System::UInt64, ::System::UInt64))((::PBYTE)hIl2Cpp + CRIWARE_CRIATOMPLUGIN_DECRYPTACB_OFFSET))(a1, a2, a3);
+		}
+
+		static ::CriWare::CriAtomPlugin_FileOpenCondition GetFileOpenCondition()
+		{
+			return ((::CriWare::CriAtomPlugin_FileOpenCondition(*)())((::PBYTE)hIl2Cpp + CRIWARE_CRIATOMPLUGIN_GETFILEOPENCONDITION_OFFSET))();
 		}
 
 		static ::System::UInt64 CallbackFromNative(::System::IntPtr a1)
@@ -276,144 +380,149 @@ namespace CriWare
 			return ((::System::UInt64(*)(::System::IntPtr))((::PBYTE)hIl2Cpp + CRIWARE_CRIATOMPLUGIN_CALLBACKFROMNATIVE_OFFSET))(a1);
 		}
 
-		static ::System::Void CRIWARE009CE561(::System::Int32 a1, ::System::Int32 a2, ::System::Int32 a3, ::System::Int32 a4, ::System::Int32 a5, ::System::Int32 a6, ::System::Int32 a7, ::System::Int32 a8, ::System::Int32 a9, ::System::Int32 a10, ::System::Int32 a11, ::System::Int32 a12, ::System::Int32 a13, ::System::Int32 a14, ::System::Boolean a15, ::System::Single a16, ::System::Int32 a17, ::System::Int32 a18, ::System::Int32 a19, ::System::Int32 a20, ::System::Boolean a21, ::System::IntPtr a22)
+		static ::System::Boolean CRIWAREDCA2E8D4(::System::IntPtr a1, ::System::String* a2, ::System::IntPtr a3, ::System::Int64 a4)
 		{
-			return ((::System::Void(*)(::System::Int32, ::System::Int32, ::System::Int32, ::System::Int32, ::System::Int32, ::System::Int32, ::System::Int32, ::System::Int32, ::System::Int32, ::System::Int32, ::System::Int32, ::System::Int32, ::System::Int32, ::System::Int32, ::System::Boolean, ::System::Single, ::System::Int32, ::System::Int32, ::System::Int32, ::System::Int32, ::System::Boolean, ::System::IntPtr))((::PBYTE)hIl2Cpp + CRIWARE_CRIATOMPLUGIN_CRIWARE009CE561_OFFSET))(a1, a2, a3, a4, a5, a6, a7, a8, a9, a10, a11, a12, a13, a14, a15, a16, a17, a18, a19, a20, a21, a22);
+			return ((::System::Boolean(*)(::System::IntPtr, ::System::String*, ::System::IntPtr, ::System::Int64))((::PBYTE)hIl2Cpp + CRIWARE_CRIATOMPLUGIN_CRIWAREDCA2E8D4_OFFSET))(a1, a2, a3, a4);
 		}
 
-		static ::System::Void CRIWARE8384362B(::System::UInt32 a1, ::System::UInt32 a2, ::System::Int32 a3)
+		static ::System::Void CRIWARE1E06F107(::System::Int32 a1, ::System::Int32 a2, ::System::Int32 a3, ::System::Byte a4, ::System::Byte a5, ::System::Int32 a6, ::System::Int32 a7, ::System::Int32 a8, ::System::Int32 a9, ::System::Int32 a10, ::System::Int32 a11, ::System::Int32 a12, ::System::Int32 a13, ::System::Int32 a14, ::CriWare::CriAtom_SpeakerMapping a15, ::System::Boolean a16, ::System::Single a17, ::System::Int32 a18, ::System::Int32 a19, ::System::Int32 a20, ::System::Int32 a21, ::System::Single a22, ::CriWare::CriAtomEx_SoundRendererType a23, ::System::Boolean a24, ::System::Boolean a25)
 		{
-			return ((::System::Void(*)(::System::UInt32, ::System::UInt32, ::System::Int32))((::PBYTE)hIl2Cpp + CRIWARE_CRIATOMPLUGIN_CRIWARE8384362B_OFFSET))(a1, a2, a3);
+			return ((::System::Void(*)(::System::Int32, ::System::Int32, ::System::Int32, ::System::Byte, ::System::Byte, ::System::Int32, ::System::Int32, ::System::Int32, ::System::Int32, ::System::Int32, ::System::Int32, ::System::Int32, ::System::Int32, ::System::Int32, ::CriWare::CriAtom_SpeakerMapping, ::System::Boolean, ::System::Single, ::System::Int32, ::System::Int32, ::System::Int32, ::System::Int32, ::System::Single, ::CriWare::CriAtomEx_SoundRendererType, ::System::Boolean, ::System::Boolean))((::PBYTE)hIl2Cpp + CRIWARE_CRIATOMPLUGIN_CRIWARE1E06F107_OFFSET))(a1, a2, a3, a4, a5, a6, a7, a8, a9, a10, a11, a12, a13, a14, a15, a16, a17, a18, a19, a20, a21, a22, a23, a24, a25);
 		}
 
-		static ::System::Void CRIWARE237CA5E3(::System::Boolean a1)
+		static ::System::Void CRIWARE0C534427(::System::UInt32 a1, ::System::UInt32 a2, ::System::Int32 a3)
 		{
-			return ((::System::Void(*)(::System::Boolean))((::PBYTE)hIl2Cpp + CRIWARE_CRIATOMPLUGIN_CRIWARE237CA5E3_OFFSET))(a1);
+			return ((::System::Void(*)(::System::UInt32, ::System::UInt32, ::System::Int32))((::PBYTE)hIl2Cpp + CRIWARE_CRIATOMPLUGIN_CRIWARE0C534427_OFFSET))(a1, a2, a3);
 		}
 
-		static ::System::Void CRIWARE780E6ED2(::System::Int64 a1)
+		static ::System::Void CRIWARE503D6EC0(::System::Boolean a1)
 		{
-			return ((::System::Void(*)(::System::Int64))((::PBYTE)hIl2Cpp + CRIWARE_CRIATOMPLUGIN_CRIWARE780E6ED2_OFFSET))(a1);
+			return ((::System::Void(*)(::System::Boolean))((::PBYTE)hIl2Cpp + CRIWARE_CRIATOMPLUGIN_CRIWARE503D6EC0_OFFSET))(a1);
 		}
 
-		static ::System::Void CRIWAREE996B258(::System::Int32 a1, ::System::Int32 a2)
+		static ::System::Void CRIWARE0B886AF3(::System::Int64 a1, ::System::Boolean a2)
 		{
-			return ((::System::Void(*)(::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + CRIWARE_CRIATOMPLUGIN_CRIWAREE996B258_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::System::Int64, ::System::Boolean))((::PBYTE)hIl2Cpp + CRIWARE_CRIATOMPLUGIN_CRIWARE0B886AF3_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void CRIWARE2F034134(::System::Boolean a1, ::System::UInt32 a2, ::System::Boolean a3)
+		static ::System::Void CRIWARE80CA213E(::System::Int32 a1, ::System::Int32 a2)
 		{
-			return ((::System::Void(*)(::System::Boolean, ::System::UInt32, ::System::Boolean))((::PBYTE)hIl2Cpp + CRIWARE_CRIATOMPLUGIN_CRIWARE2F034134_OFFSET))(a1, a2, a3);
+			return ((::System::Void(*)(::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + CRIWARE_CRIATOMPLUGIN_CRIWARE80CA213E_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void CRIWARE70981A20(::System::Boolean a1, ::System::Int32 a2, ::System::Int32 a3, ::System::Int32 a4, ::System::Int32 a5, ::System::Boolean a6, ::System::Int32 a7)
+		static ::System::Void CRIWARE3B3A1489(::System::Boolean a1, ::System::UInt32 a2, ::System::Boolean a3, ::System::Boolean a4)
 		{
-			return ((::System::Void(*)(::System::Boolean, ::System::Int32, ::System::Int32, ::System::Int32, ::System::Int32, ::System::Boolean, ::System::Int32))((::PBYTE)hIl2Cpp + CRIWARE_CRIATOMPLUGIN_CRIWARE70981A20_OFFSET))(a1, a2, a3, a4, a5, a6, a7);
+			return ((::System::Void(*)(::System::Boolean, ::System::UInt32, ::System::Boolean, ::System::Boolean))((::PBYTE)hIl2Cpp + CRIWARE_CRIATOMPLUGIN_CRIWARE3B3A1489_OFFSET))(a1, a2, a3, a4);
 		}
 
-		static ::System::Void CRIWARE2626EF5B()
+		static ::System::Void CRIWAREAB4E051A(::System::Boolean a1, ::System::Int32 a2, ::System::Int32 a3, ::System::Int32 a4, ::System::Int32 a5, ::System::Boolean a6, ::System::Int32 a7)
 		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + CRIWARE_CRIATOMPLUGIN_CRIWARE2626EF5B_OFFSET))();
+			return ((::System::Void(*)(::System::Boolean, ::System::Int32, ::System::Int32, ::System::Int32, ::System::Int32, ::System::Boolean, ::System::Int32))((::PBYTE)hIl2Cpp + CRIWARE_CRIATOMPLUGIN_CRIWAREAB4E051A_OFFSET))(a1, a2, a3, a4, a5, a6, a7);
 		}
 
-		static ::System::Boolean CRIWAREC176B113()
+		static ::System::Void CRIWARE874EDA5D()
 		{
-			return ((::System::Boolean(*)())((::PBYTE)hIl2Cpp + CRIWARE_CRIATOMPLUGIN_CRIWAREC176B113_OFFSET))();
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + CRIWARE_CRIATOMPLUGIN_CRIWARE874EDA5D_OFFSET))();
 		}
 
-		static ::System::Void CRIWARE63E1F278()
+		static ::System::Boolean CRIWAREAEE98D7A()
 		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + CRIWARE_CRIATOMPLUGIN_CRIWARE63E1F278_OFFSET))();
+			return ((::System::Boolean(*)())((::PBYTE)hIl2Cpp + CRIWARE_CRIATOMPLUGIN_CRIWAREAEE98D7A_OFFSET))();
 		}
 
-		static ::System::Void CRIWAREB64E0C3B(::System::Boolean a1)
+		static ::System::Void CRIWARE380D96FC()
 		{
-			return ((::System::Void(*)(::System::Boolean))((::PBYTE)hIl2Cpp + CRIWARE_CRIATOMPLUGIN_CRIWAREB64E0C3B_OFFSET))(a1);
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + CRIWARE_CRIATOMPLUGIN_CRIWARE380D96FC_OFFSET))();
 		}
 
-		static ::System::UInt32 CRIWAREA703719E()
+		static ::System::Void CRIWARE43F8CB5E(::System::Boolean a1)
 		{
-			return ((::System::UInt32(*)())((::PBYTE)hIl2Cpp + CRIWARE_CRIATOMPLUGIN_CRIWAREA703719E_OFFSET))();
+			return ((::System::Void(*)(::System::Boolean))((::PBYTE)hIl2Cpp + CRIWARE_CRIATOMPLUGIN_CRIWARE43F8CB5E_OFFSET))(a1);
 		}
 
-		static ::System::Void CRIWAREBF97E87F(::System::Int32 a1)
+		static ::System::UInt32 CRIWAREB2956D4E()
 		{
-			return ((::System::Void(*)(::System::Int32))((::PBYTE)hIl2Cpp + CRIWARE_CRIATOMPLUGIN_CRIWAREBF97E87F_OFFSET))(a1);
+			return ((::System::UInt32(*)())((::PBYTE)hIl2Cpp + CRIWARE_CRIATOMPLUGIN_CRIWAREB2956D4E_OFFSET))();
 		}
 
-		static ::System::Void CRIWARE15B0037A(::System::IntPtr a1, ::System::String* a2)
+		static ::System::Void CRIWARE041B62AF(::System::Int32 a1)
 		{
-			return ((::System::Void(*)(::System::IntPtr, ::System::String*))((::PBYTE)hIl2Cpp + CRIWARE_CRIATOMPLUGIN_CRIWARE15B0037A_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::System::Int32))((::PBYTE)hIl2Cpp + CRIWARE_CRIATOMPLUGIN_CRIWARE041B62AF_OFFSET))(a1);
 		}
 
-		static ::System::Void CRIWARE28E5ABA4(::System::IntPtr a1)
+		static ::System::Void CRIWAREB59406BB(::System::IntPtr a1, ::System::String* a2)
 		{
-			return ((::System::Void(*)(::System::IntPtr))((::PBYTE)hIl2Cpp + CRIWARE_CRIATOMPLUGIN_CRIWARE28E5ABA4_OFFSET))(a1);
+			return ((::System::Void(*)(::System::IntPtr, ::System::String*))((::PBYTE)hIl2Cpp + CRIWARE_CRIATOMPLUGIN_CRIWAREB59406BB_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void CRIWARECCA1268B()
+		static ::System::Void CRIWARE6C6D06F3(::System::IntPtr a1)
 		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + CRIWARE_CRIATOMPLUGIN_CRIWARECCA1268B_OFFSET))();
+			return ((::System::Void(*)(::System::IntPtr))((::PBYTE)hIl2Cpp + CRIWARE_CRIATOMPLUGIN_CRIWARE6C6D06F3_OFFSET))(a1);
 		}
 
-		static ::System::Void CRIWARE88175F19(::System::IntPtr a1)
+		static ::System::Void CRIWARE7ABCA0A2()
 		{
-			return ((::System::Void(*)(::System::IntPtr))((::PBYTE)hIl2Cpp + CRIWARE_CRIATOMPLUGIN_CRIWARE88175F19_OFFSET))(a1);
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + CRIWARE_CRIATOMPLUGIN_CRIWARE7ABCA0A2_OFFSET))();
 		}
 
-		static ::System::Void CRIWARE7581CF8C()
+		static ::System::Void CRIWAREE4D1D1E7(::System::IntPtr a1)
 		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + CRIWARE_CRIATOMPLUGIN_CRIWARE7581CF8C_OFFSET))();
+			return ((::System::Void(*)(::System::IntPtr))((::PBYTE)hIl2Cpp + CRIWARE_CRIATOMPLUGIN_CRIWAREE4D1D1E7_OFFSET))(a1);
 		}
 
-		static ::System::Void CRIWARE15F30D07(::System::IntPtr a1)
+		static ::System::Void CRIWAREF0082817()
 		{
-			return ((::System::Void(*)(::System::IntPtr))((::PBYTE)hIl2Cpp + CRIWARE_CRIATOMPLUGIN_CRIWARE15F30D07_OFFSET))(a1);
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + CRIWARE_CRIATOMPLUGIN_CRIWAREF0082817_OFFSET))();
 		}
 
-		static ::System::Void CRIWARED1FD92AA()
+		static ::System::Void CRIWAREC5F8065D(::System::IntPtr a1)
 		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + CRIWARE_CRIATOMPLUGIN_CRIWARED1FD92AA_OFFSET))();
+			return ((::System::Void(*)(::System::IntPtr))((::PBYTE)hIl2Cpp + CRIWARE_CRIATOMPLUGIN_CRIWAREC5F8065D_OFFSET))(a1);
 		}
 
-		static ::System::Void CRIWARE2CFF30B7(::System::Int32 a1, ::System::Int32 a2)
+		static ::System::Void CRIWARE6B9656CC()
 		{
-			return ((::System::Void(*)(::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + CRIWARE_CRIATOMPLUGIN_CRIWARE2CFF30B7_OFFSET))(a1, a2);
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + CRIWARE_CRIATOMPLUGIN_CRIWARE6B9656CC_OFFSET))();
 		}
 
-		static ::System::Void CRIWARE797E0462()
+		static ::System::Void CRIWARE10ED6C77(::System::Int32 a1, ::System::Int32 a2)
 		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + CRIWARE_CRIATOMPLUGIN_CRIWARE797E0462_OFFSET))();
+			return ((::System::Void(*)(::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + CRIWARE_CRIATOMPLUGIN_CRIWARE10ED6C77_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void CRIWAREC54D0552()
+		static ::System::Void CRIWARE813CFB49()
 		{
-			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + CRIWARE_CRIATOMPLUGIN_CRIWAREC54D0552_OFFSET))();
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + CRIWARE_CRIATOMPLUGIN_CRIWARE813CFB49_OFFSET))();
 		}
 
-		static ::System::Void CRIWARE5BC8942D(::System::IntPtr a1, ::CriWare::CriAtomPlugin_CallbackFromNativeDelegate* a2, ::System::IntPtr a3)
+		static ::System::Void CRIWARE98DA093D()
 		{
-			return ((::System::Void(*)(::System::IntPtr, ::CriWare::CriAtomPlugin_CallbackFromNativeDelegate*, ::System::IntPtr))((::PBYTE)hIl2Cpp + CRIWARE_CRIATOMPLUGIN_CRIWARE5BC8942D_OFFSET))(a1, a2, a3);
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + CRIWARE_CRIATOMPLUGIN_CRIWARE98DA093D_OFFSET))();
 		}
 
-		static ::System::UInt16 CRIWARE5B1C5B3B(::System::Int32 a1)
+		static ::System::Void CRIWARE65F3B261(::System::IntPtr a1, ::CriWare::CriAtomPlugin_CallbackFromNativeDelegate* a2, ::System::IntPtr a3)
 		{
-			return ((::System::UInt16(*)(::System::Int32))((::PBYTE)hIl2Cpp + CRIWARE_CRIATOMPLUGIN_CRIWARE5B1C5B3B_OFFSET))(a1);
+			return ((::System::Void(*)(::System::IntPtr, ::CriWare::CriAtomPlugin_CallbackFromNativeDelegate*, ::System::IntPtr))((::PBYTE)hIl2Cpp + CRIWARE_CRIATOMPLUGIN_CRIWARE65F3B261_OFFSET))(a1, a2, a3);
 		}
 
-		static ::System::Boolean CRIWAREE097EA6E()
+		static ::System::UInt16 CRIWAREBA22AA6A(::System::Int32 a1)
 		{
-			return ((::System::Boolean(*)())((::PBYTE)hIl2Cpp + CRIWARE_CRIATOMPLUGIN_CRIWAREE097EA6E_OFFSET))();
+			return ((::System::UInt16(*)(::System::Int32))((::PBYTE)hIl2Cpp + CRIWARE_CRIATOMPLUGIN_CRIWAREBA22AA6A_OFFSET))(a1);
 		}
 
-		static ::System::Int32 CRIWAREE320F01B()
+		static ::System::Boolean CRIWARE36F4C206()
 		{
-			return ((::System::Int32(*)())((::PBYTE)hIl2Cpp + CRIWARE_CRIATOMPLUGIN_CRIWAREE320F01B_OFFSET))();
+			return ((::System::Boolean(*)())((::PBYTE)hIl2Cpp + CRIWARE_CRIATOMPLUGIN_CRIWARE36F4C206_OFFSET))();
 		}
 
-		static ::System::Int32 CRIWARE98A6BE5C()
+		static ::System::Int32 CRIWARE01A2ECB0()
 		{
-			return ((::System::Int32(*)())((::PBYTE)hIl2Cpp + CRIWARE_CRIATOMPLUGIN_CRIWARE98A6BE5C_OFFSET))();
+			return ((::System::Int32(*)())((::PBYTE)hIl2Cpp + CRIWARE_CRIATOMPLUGIN_CRIWARE01A2ECB0_OFFSET))();
+		}
+
+		static ::System::Int32 CRIWAREB05B3403()
+		{
+			return ((::System::Int32(*)())((::PBYTE)hIl2Cpp + CRIWARE_CRIATOMPLUGIN_CRIWAREB05B3403_OFFSET))();
 		}
 	};
 }

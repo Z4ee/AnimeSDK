@@ -4,12 +4,12 @@
 
 namespace RPG::Client::Promises { class Promise; }
 
-#define RPG_CLIENT_ROGUEMAGICMODULE___C__DISPLAYCLASS19_0__CTOR_OFFSET UNITYSDK_OFFSET(0xC7A85A0)
-#define RPG_CLIENT_ROGUEMAGICMODULE___C__DISPLAYCLASS19_0___GETMISCREALTIMEDATAPROMISED_B__0_OFFSET UNITYSDK_OFFSET(0xC7ACC90)
+#define RPG_CLIENT_ROGUEMAGICMODULE___C__DISPLAYCLASS19_0__CTOR_OFFSET UNITYSDK_OFFSET(0x19A0BE10)
+#define RPG_CLIENT_ROGUEMAGICMODULE___C__DISPLAYCLASS19_0___GETMISCREALTIMEDATAPROMISED_B__0_OFFSET UNITYSDK_OFFSET(0x19A10ED0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int RogueMagicModule___c__DisplayClass19_0_TypeDefinitionIndex = 63042;
+	inline static constexpr unsigned int RogueMagicModule___c__DisplayClass19_0_TypeDefinitionIndex = 64409;
 
 	class RogueMagicModule___c__DisplayClass19_0 : public ::System::Object
 	{

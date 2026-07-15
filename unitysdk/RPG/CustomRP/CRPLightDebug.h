@@ -5,11 +5,11 @@
 
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CUSTOMRP_CRPLIGHTDEBUG_RESET_OFFSET UNITYSDK_OFFSET(0x3849840)
+#define RPG_CUSTOMRP_CRPLIGHTDEBUG_RESET_OFFSET UNITYSDK_OFFSET(0x395C9A0)
 
 namespace RPG::CustomRP
 {
-	inline static constexpr unsigned int CRPLightDebug_TypeDefinitionIndex = 35241;
+	inline static constexpr unsigned int CRPLightDebug_TypeDefinitionIndex = 36023;
 
 	struct alignas(8) CRPLightDebug
 	{

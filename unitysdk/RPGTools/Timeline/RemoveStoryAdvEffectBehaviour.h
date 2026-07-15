@@ -6,15 +6,14 @@
 
 namespace RPGTools::Timeline { class RemoveStoryAdvEffectClip; }
 
-#define RPGTOOLS_TIMELINE_REMOVESTORYADVEFFECTBEHAVIOUR_GET_CLIP_OFFSET UNITYSDK_OFFSET(0xD04EE60)
-#define RPGTOOLS_TIMELINE_REMOVESTORYADVEFFECTBEHAVIOUR_ONBEHAVIOURPLAY_OFFSET UNITYSDK_OFFSET(0xD04EE80)
-#define RPGTOOLS_TIMELINE_REMOVESTORYADVEFFECTBEHAVIOUR_SET_CLIP_OFFSET UNITYSDK_OFFSET(0xD04EE70)
-#define RPGTOOLS_TIMELINE_REMOVESTORYADVEFFECTBEHAVIOUR__CTOR_OFFSET UNITYSDK_OFFSET(0xD04F020)
-#define RPGTOOLS_TIMELINE_REMOVESTORYADVEFFECTBEHAVIOUR___IFIXBASEPROXY_ONBEHAVIOURPLAY_OFFSET UNITYSDK_OFFSET(0xD04F030)
+#define RPGTOOLS_TIMELINE_REMOVESTORYADVEFFECTBEHAVIOUR_GET_CLIP_OFFSET UNITYSDK_OFFSET(0x199AF4C0)
+#define RPGTOOLS_TIMELINE_REMOVESTORYADVEFFECTBEHAVIOUR_ONBEHAVIOURPLAY_OFFSET UNITYSDK_OFFSET(0x199AF4E0)
+#define RPGTOOLS_TIMELINE_REMOVESTORYADVEFFECTBEHAVIOUR_SET_CLIP_OFFSET UNITYSDK_OFFSET(0x199AF4D0)
+#define RPGTOOLS_TIMELINE_REMOVESTORYADVEFFECTBEHAVIOUR__CTOR_OFFSET UNITYSDK_OFFSET(0x199AF680)
 
 namespace RPGTools::Timeline
 {
-	inline static constexpr unsigned int RemoveStoryAdvEffectBehaviour_TypeDefinitionIndex = 45599;
+	inline static constexpr unsigned int RemoveStoryAdvEffectBehaviour_TypeDefinitionIndex = 46533;
 
 	class RemoveStoryAdvEffectBehaviour : public ::UnityEngine::Playables::PlayableBehaviour
 	{
@@ -39,11 +38,6 @@ namespace RPGTools::Timeline
 		::System::Void OnBehaviourPlay(::UnityEngine::Playables::Playable a1, ::UnityEngine::Playables::FrameData a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::UnityEngine::Playables::Playable, ::UnityEngine::Playables::FrameData))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_REMOVESTORYADVEFFECTBEHAVIOUR_ONBEHAVIOURPLAY_OFFSET))(this, a1, a2);
-		}
-
-		::System::Void __iFixBaseProxy_OnBehaviourPlay(::UnityEngine::Playables::Playable a1, ::UnityEngine::Playables::FrameData a2)
-		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Playables::Playable, ::UnityEngine::Playables::FrameData))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_REMOVESTORYADVEFFECTBEHAVIOUR___IFIXBASEPROXY_ONBEHAVIOURPLAY_OFFSET))(this, a1, a2);
 		}
 	};
 }

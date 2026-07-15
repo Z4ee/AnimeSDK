@@ -8,32 +8,32 @@ namespace System { template <typename T1, typename T2> class Func_2; }
 namespace System { template <typename T> class Comparison_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_1_3DF80F278B6BDF72___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1060F280)
-#define CLASS_1_3DF80F278B6BDF72___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1060F2C0)
-#define CLASS_1_3DF80F278B6BDF72___C__WARMUPPSOSONEBYONE_B__13_0_OFFSET UNITYSDK_OFFSET(0x1060F2D0)
-#define CLASS_1_3DF80F278B6BDF72___C__WARMUPPSOSONEBYONE_B__13_1_OFFSET UNITYSDK_OFFSET(0x1060F400)
-#define CLASS_1_3DF80F278B6BDF72___C__WRITEWARMUPINFOS_B__23_0_OFFSET UNITYSDK_OFFSET(0x1060F430)
+#define CLASS_1_3DF80F278B6BDF72___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1469C9A0)
+#define CLASS_1_3DF80F278B6BDF72___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1469C9E0)
+#define CLASS_1_3DF80F278B6BDF72___C__WARMUPPSOSONEBYONE_B__13_0_OFFSET UNITYSDK_OFFSET(0x1469C9F0)
+#define CLASS_1_3DF80F278B6BDF72___C__WARMUPPSOSONEBYONE_B__13_1_OFFSET UNITYSDK_OFFSET(0x1469CB20)
+#define CLASS_1_3DF80F278B6BDF72___C__WRITEWARMUPINFOS_B__23_0_OFFSET UNITYSDK_OFFSET(0x1469CB50)
 
-inline static constexpr unsigned int Class_1_3DF80F278B6BDF72___c_TypeDefinitionIndex = 44719;
+inline static constexpr unsigned int Class_1_3DF80F278B6BDF72___c_TypeDefinitionIndex = 45634;
 
 class Class_1_3DF80F278B6BDF72___c : public ::System::Object
 {
 public:
-	static ::Class_1_3DF80F278B6BDF72___c** StaticGet___9()
-	{
-		return (::Class_1_3DF80F278B6BDF72___c**)Il2CppClass::FromTypeDefinitionIndex(Class_1_3DF80F278B6BDF72___c_TypeDefinitionIndex)->GetStaticField(0xE7C0);
-	}
 	static ::System::Func_2<::System::Collections::Generic::List_1<::Class_1_3DF80F278B6BDF72_Class_1_2B73F33514AAF796*>*, ::System::Int32>** StaticGet___9__13_0()
 	{
-		return (::System::Func_2<::System::Collections::Generic::List_1<::Class_1_3DF80F278B6BDF72_Class_1_2B73F33514AAF796*>*, ::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_3DF80F278B6BDF72___c_TypeDefinitionIndex)->GetStaticField(0xE7C8);
+		return (::System::Func_2<::System::Collections::Generic::List_1<::Class_1_3DF80F278B6BDF72_Class_1_2B73F33514AAF796*>*, ::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_3DF80F278B6BDF72___c_TypeDefinitionIndex)->GetStaticField(0x6C040);
+	}
+	static ::Class_1_3DF80F278B6BDF72___c** StaticGet___9()
+	{
+		return (::Class_1_3DF80F278B6BDF72___c**)Il2CppClass::FromTypeDefinitionIndex(Class_1_3DF80F278B6BDF72___c_TypeDefinitionIndex)->GetStaticField(0x6C048);
 	}
 	static ::System::Func_2<::Class_1_3DF80F278B6BDF72_Class_1_2B73F33514AAF796*, ::System::Int32>** StaticGet___9__13_1()
 	{
-		return (::System::Func_2<::Class_1_3DF80F278B6BDF72_Class_1_2B73F33514AAF796*, ::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_3DF80F278B6BDF72___c_TypeDefinitionIndex)->GetStaticField(0xE7D0);
+		return (::System::Func_2<::Class_1_3DF80F278B6BDF72_Class_1_2B73F33514AAF796*, ::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_3DF80F278B6BDF72___c_TypeDefinitionIndex)->GetStaticField(0x6C050);
 	}
 	static ::System::Comparison_1<::WarmupQualitySet>** StaticGet___9__23_0()
 	{
-		return (::System::Comparison_1<::WarmupQualitySet>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_3DF80F278B6BDF72___c_TypeDefinitionIndex)->GetStaticField(0xE7D8);
+		return (::System::Comparison_1<::WarmupQualitySet>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_3DF80F278B6BDF72___c_TypeDefinitionIndex)->GetStaticField(0x6C058);
 	}
 
 	static ::System::Void _cctor()

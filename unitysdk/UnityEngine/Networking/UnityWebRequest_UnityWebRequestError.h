@@ -3,7 +3,7 @@
 
 namespace UnityEngine::Networking
 {
-	inline static constexpr unsigned int UnityWebRequest_UnityWebRequestError_TypeDefinitionIndex = 5357;
+	inline static constexpr unsigned int UnityWebRequest_UnityWebRequestError_TypeDefinitionIndex = 5362;
 
 	enum class UnityWebRequest_UnityWebRequestError : ::System::Int32
 	{

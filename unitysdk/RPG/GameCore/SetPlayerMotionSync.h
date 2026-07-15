@@ -4,13 +4,13 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_SETPLAYERMOTIONSYNC_METHOD_3_13A66FCB5052FBBF_OFFSET UNITYSDK_OFFSET(0x19C5B640)
-#define RPG_GAMECORE_SETPLAYERMOTIONSYNC_METHOD_3_C3C2AB6B7407C3EE_OFFSET UNITYSDK_OFFSET(0x19C5B6C0)
-#define RPG_GAMECORE_SETPLAYERMOTIONSYNC__CTOR_OFFSET UNITYSDK_OFFSET(0x19C5B690)
+#define RPG_GAMECORE_SETPLAYERMOTIONSYNC_METHOD_3_2F6479E143C790AD_OFFSET UNITYSDK_OFFSET(0x1C605560)
+#define RPG_GAMECORE_SETPLAYERMOTIONSYNC_METHOD_3_C3C2AB6B7407C3EE_OFFSET UNITYSDK_OFFSET(0x1C6055A0)
+#define RPG_GAMECORE_SETPLAYERMOTIONSYNC__CTOR_OFFSET UNITYSDK_OFFSET(0x1C605590)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SetPlayerMotionSync_TypeDefinitionIndex = 19376;
+	inline static constexpr unsigned int SetPlayerMotionSync_TypeDefinitionIndex = 19732;
 
 	class SetPlayerMotionSync : public ::RPG::GameCore::TaskConfig
 	{
@@ -22,9 +22,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETPLAYERMOTIONSYNC__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_13A66FCB5052FBBF(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SetPlayerMotionSync*& a2)
+		static ::System::Void Method_3_2F6479E143C790AD(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SetPlayerMotionSync*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SetPlayerMotionSync*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETPLAYERMOTIONSYNC_METHOD_3_13A66FCB5052FBBF_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SetPlayerMotionSync*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETPLAYERMOTIONSYNC_METHOD_3_2F6479E143C790AD_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_C3C2AB6B7407C3EE(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SetPlayerMotionSync* a2)

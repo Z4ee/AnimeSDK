@@ -8,7 +8,7 @@ namespace UnityEngine { class GameObject; }
 
 namespace SRF::UI
 {
-	inline static constexpr unsigned int ResponsiveEnable_Entry_TypeDefinitionIndex = 33579;
+	inline static constexpr unsigned int ResponsiveEnable_Entry_TypeDefinitionIndex = 33950;
 
 	struct alignas(8) ResponsiveEnable_Entry
 	{

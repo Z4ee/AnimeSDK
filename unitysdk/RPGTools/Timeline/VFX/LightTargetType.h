@@ -3,7 +3,7 @@
 
 namespace RPGTools::Timeline::VFX
 {
-	inline static constexpr unsigned int LightTargetType_TypeDefinitionIndex = 45960;
+	inline static constexpr unsigned int LightTargetType_TypeDefinitionIndex = 46899;
 
 	enum class LightTargetType : ::System::Int32
 	{

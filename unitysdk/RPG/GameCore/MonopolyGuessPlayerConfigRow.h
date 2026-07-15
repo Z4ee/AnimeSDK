@@ -6,12 +6,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_MONOPOLYGUESSPLAYERCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x19960FB0)
-#define RPG_GAMECORE_MONOPOLYGUESSPLAYERCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x199616D0)
+#define RPG_GAMECORE_MONOPOLYGUESSPLAYERCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B1B59C0)
+#define RPG_GAMECORE_MONOPOLYGUESSPLAYERCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1B1B60E0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MonopolyGuessPlayerConfigRow_TypeDefinitionIndex = 11511;
+	inline static constexpr unsigned int MonopolyGuessPlayerConfigRow_TypeDefinitionIndex = 11611;
 
 	class MonopolyGuessPlayerConfigRow : public ::System::Object
 	{

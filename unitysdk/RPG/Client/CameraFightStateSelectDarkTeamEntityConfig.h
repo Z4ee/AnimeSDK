@@ -3,11 +3,11 @@
 #include "unitysdk/RPG/Client/CameraFightStateCommonConfig.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-#define RPG_CLIENT_CAMERAFIGHTSTATESELECTDARKTEAMENTITYCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0xB4BA7D0)
+#define RPG_CLIENT_CAMERAFIGHTSTATESELECTDARKTEAMENTITYCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1AC59A60)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int CameraFightStateSelectDarkTeamEntityConfig_TypeDefinitionIndex = 65049;
+	inline static constexpr unsigned int CameraFightStateSelectDarkTeamEntityConfig_TypeDefinitionIndex = 66454;
 
 	class CameraFightStateSelectDarkTeamEntityConfig : public ::RPG::Client::CameraFightStateCommonConfig
 	{

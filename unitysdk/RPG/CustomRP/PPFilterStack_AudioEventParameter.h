@@ -6,7 +6,7 @@ namespace System { class String; }
 
 namespace RPG::CustomRP
 {
-	inline static constexpr unsigned int PPFilterStack_AudioEventParameter_TypeDefinitionIndex = 48485;
+	inline static constexpr unsigned int PPFilterStack_AudioEventParameter_TypeDefinitionIndex = 49498;
 
 	struct alignas(8) PPFilterStack_AudioEventParameter
 	{

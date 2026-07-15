@@ -6,13 +6,13 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class TargetEvaluator; }
 
-#define RPG_GAMECORE_SETTEAMLOCKTARGET_METHOD_3_287B754919770E7D_OFFSET UNITYSDK_OFFSET(0x19C63D60)
-#define RPG_GAMECORE_SETTEAMLOCKTARGET_METHOD_3_E140920797034C41_OFFSET UNITYSDK_OFFSET(0x19C63CE0)
-#define RPG_GAMECORE_SETTEAMLOCKTARGET__CTOR_OFFSET UNITYSDK_OFFSET(0x19C63D30)
+#define RPG_GAMECORE_SETTEAMLOCKTARGET_METHOD_3_287B754919770E7D_OFFSET UNITYSDK_OFFSET(0x1C60D1F0)
+#define RPG_GAMECORE_SETTEAMLOCKTARGET_METHOD_3_7563BADB5738F40A_OFFSET UNITYSDK_OFFSET(0x1C60D1B0)
+#define RPG_GAMECORE_SETTEAMLOCKTARGET__CTOR_OFFSET UNITYSDK_OFFSET(0x1C60D1E0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SetTeamLockTarget_TypeDefinitionIndex = 21468;
+	inline static constexpr unsigned int SetTeamLockTarget_TypeDefinitionIndex = 21887;
 
 	class SetTeamLockTarget : public ::RPG::GameCore::TaskConfig
 	{
@@ -25,9 +25,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETTEAMLOCKTARGET__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_E140920797034C41(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SetTeamLockTarget*& a2)
+		static ::System::Void Method_3_7563BADB5738F40A(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SetTeamLockTarget*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SetTeamLockTarget*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETTEAMLOCKTARGET_METHOD_3_E140920797034C41_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SetTeamLockTarget*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETTEAMLOCKTARGET_METHOD_3_7563BADB5738F40A_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_287B754919770E7D(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SetTeamLockTarget* a2)

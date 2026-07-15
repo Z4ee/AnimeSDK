@@ -8,7 +8,7 @@ namespace System { template <typename T> class Action_1; }
 
 namespace Coffee::UIParticleInternal
 {
-	inline static constexpr unsigned int ObjectRepository_1_Entry_TypeDefinitionIndex = 41524;
+	inline static constexpr unsigned int ObjectRepository_1_Entry_TypeDefinitionIndex = 42339;
 
 	template <typename T>
 	class ObjectRepository_1_Entry : public ::System::Object

@@ -6,12 +6,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_FIELDEFFECTADAPTIONCONFIG_METHOD_2_CF3D807F03A144AC_OFFSET UNITYSDK_OFFSET(0x19718E20)
-#define RPG_GAMECORE_FIELDEFFECTADAPTIONCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x19718FA0)
+#define RPG_GAMECORE_FIELDEFFECTADAPTIONCONFIG_METHOD_2_CF89422EEF640C75_OFFSET UNITYSDK_OFFSET(0x1BA79080)
+#define RPG_GAMECORE_FIELDEFFECTADAPTIONCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1BA791E0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FieldEffectAdaptionConfig_TypeDefinitionIndex = 15689;
+	inline static constexpr unsigned int FieldEffectAdaptionConfig_TypeDefinitionIndex = 15862;
 
 	class FieldEffectAdaptionConfig : public ::RPG::GameCore::JsonConfig
 	{
@@ -25,9 +25,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIELDEFFECTADAPTIONCONFIG__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_CF3D807F03A144AC(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::FieldEffectAdaptionConfig*& a2)
+		static ::System::Void Method_2_CF89422EEF640C75(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::FieldEffectAdaptionConfig*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::FieldEffectAdaptionConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIELDEFFECTADAPTIONCONFIG_METHOD_2_CF3D807F03A144AC_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::FieldEffectAdaptionConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIELDEFFECTADAPTIONCONFIG_METHOD_2_CF89422EEF640C75_OFFSET))(a1, a2);
 		}
 	};
 }

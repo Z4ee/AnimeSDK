@@ -2,18 +2,17 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/Class_1_CA217ABF4E3B4F3F.h"
 
-class Class_1_945ACFB1FEBC7A2C_22;
+class Class_1_945ACFB1FEBC7A2C_24;
 namespace RPG::Client { class RPGAnimationEvent; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class Animation; }
 
-#define CLASS_2_616025E65B2913BC_METHOD_2_AD2B2AFEF3192F72_OFFSET UNITYSDK_OFFSET(0x13743ED0)
-#define CLASS_2_616025E65B2913BC_METHOD_2_CAF4BF0B42450263_OFFSET UNITYSDK_OFFSET(0x13743F20)
-#define CLASS_2_616025E65B2913BC__CTOR_OFFSET UNITYSDK_OFFSET(0x13744030)
-#define CLASS_2_616025E65B2913BC__ONBIND_OFFSET UNITYSDK_OFFSET(0x13743D40)
-#define CLASS_2_616025E65B2913BC___IFIXBASEPROXY__ONBIND_OFFSET UNITYSDK_OFFSET(0x13744060)
+#define CLASS_2_616025E65B2913BC_METHOD_2_077465549C9EA81F_OFFSET UNITYSDK_OFFSET(0x1730EC50)
+#define CLASS_2_616025E65B2913BC_METHOD_2_CAF4BF0B42450263_OFFSET UNITYSDK_OFFSET(0x1730ECA0)
+#define CLASS_2_616025E65B2913BC__CTOR_OFFSET UNITYSDK_OFFSET(0x1730EDB0)
+#define CLASS_2_616025E65B2913BC__ONBIND_OFFSET UNITYSDK_OFFSET(0x1730EAC0)
 
-inline static constexpr unsigned int Class_2_616025E65B2913BC_TypeDefinitionIndex = 66788;
+inline static constexpr unsigned int Class_2_616025E65B2913BC_TypeDefinitionIndex = 68225;
 
 class Class_2_616025E65B2913BC : public ::Class_1_CA217ABF4E3B4F3F
 {
@@ -31,18 +30,13 @@ public:
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_616025E65B2913BC__ONBIND_OFFSET))(this);
 	}
 
-	::System::Void Method_2_AD2B2AFEF3192F72()
+	::System::Void Method_2_077465549C9EA81F()
 	{
-		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_616025E65B2913BC_METHOD_2_AD2B2AFEF3192F72_OFFSET))(this);
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_616025E65B2913BC_METHOD_2_077465549C9EA81F_OFFSET))(this);
 	}
 
-	::System::Void Method_2_CAF4BF0B42450263(::System::Collections::Generic::List_1<::Class_1_945ACFB1FEBC7A2C_22*>* a1)
+	::System::Void Method_2_CAF4BF0B42450263(::System::Collections::Generic::List_1<::Class_1_945ACFB1FEBC7A2C_24*>* a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::Class_1_945ACFB1FEBC7A2C_22*>*))((::PBYTE)hIl2Cpp + CLASS_2_616025E65B2913BC_METHOD_2_CAF4BF0B42450263_OFFSET))(this, a1);
-	}
-
-	::System::Void __iFixBaseProxy__OnBind()
-	{
-		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_616025E65B2913BC___IFIXBASEPROXY__ONBIND_OFFSET))(this);
+		return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::Class_1_945ACFB1FEBC7A2C_24*>*))((::PBYTE)hIl2Cpp + CLASS_2_616025E65B2913BC_METHOD_2_CAF4BF0B42450263_OFFSET))(this, a1);
 	}
 };

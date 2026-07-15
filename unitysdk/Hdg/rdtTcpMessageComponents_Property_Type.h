@@ -3,7 +3,7 @@
 
 namespace Hdg
 {
-	inline static constexpr unsigned int rdtTcpMessageComponents_Property_Type_TypeDefinitionIndex = 44333;
+	inline static constexpr unsigned int rdtTcpMessageComponents_Property_Type_TypeDefinitionIndex = 45203;
 
 	enum class rdtTcpMessageComponents_Property_Type : ::System::Int32
 	{

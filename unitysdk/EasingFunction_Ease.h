@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int EasingFunction_Ease_TypeDefinitionIndex = 41748;
+inline static constexpr unsigned int EasingFunction_Ease_TypeDefinitionIndex = 42609;
 
 enum class EasingFunction_Ease : ::System::Int32
 {

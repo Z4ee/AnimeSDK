@@ -16,65 +16,65 @@ namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Concurrent { template <typename T1, typename T2> class ConcurrentDictionary_2; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_DIALOGUEGROUPEXCELTABLE_GETDATA_OFFSET UNITYSDK_OFFSET(0x1969F6F0)
-#define RPG_GAMECORE_DIALOGUEGROUPEXCELTABLE_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x1969F4A0)
-#define RPG_GAMECORE_DIALOGUEGROUPEXCELTABLE_GETLRUINFO_OFFSET UNITYSDK_OFFSET(0x1969F0E0)
-#define RPG_GAMECORE_DIALOGUEGROUPEXCELTABLE_GET_DATADICT_OFFSET UNITYSDK_OFFSET(0x1969F200)
-#define RPG_GAMECORE_DIALOGUEGROUPEXCELTABLE_ISDATAEMPTY_OFFSET UNITYSDK_OFFSET(0x1969F430)
-#define RPG_GAMECORE_DIALOGUEGROUPEXCELTABLE_ISDATALOADED_OFFSET UNITYSDK_OFFSET(0x1969FA00)
-#define RPG_GAMECORE_DIALOGUEGROUPEXCELTABLE_LOADDATA_OFFSET UNITYSDK_OFFSET(0x1969F280)
-#define RPG_GAMECORE_DIALOGUEGROUPEXCELTABLE_LOADTOROW_OFFSET UNITYSDK_OFFSET(0x1969FC30)
-#define RPG_GAMECORE_DIALOGUEGROUPEXCELTABLE_SETLRUOPERATION_OFFSET UNITYSDK_OFFSET(0x1969F190)
-#define RPG_GAMECORE_DIALOGUEGROUPEXCELTABLE_TRYLOADROW_OFFSET UNITYSDK_OFFSET(0x1969F780)
-#define RPG_GAMECORE_DIALOGUEGROUPEXCELTABLE_UNLOADDATA_OFFSET UNITYSDK_OFFSET(0x1969FA40)
-#define RPG_GAMECORE_DIALOGUEGROUPEXCELTABLE__ADDITEMFROMBINARY_OFFSET UNITYSDK_OFFSET(0x196A0310)
-#define RPG_GAMECORE_DIALOGUEGROUPEXCELTABLE__ADDITEM_OFFSET UNITYSDK_OFFSET(0x196A0360)
-#define RPG_GAMECORE_DIALOGUEGROUPEXCELTABLE__CCTOR_OFFSET UNITYSDK_OFFSET(0x196A07F0)
-#define RPG_GAMECORE_DIALOGUEGROUPEXCELTABLE__LOADDATAINCREMENTIAL_OFFSET UNITYSDK_OFFSET(0x196A02B0)
-#define RPG_GAMECORE_DIALOGUEGROUPEXCELTABLE__LOADDATA_OFFSET UNITYSDK_OFFSET(0x1969FBD0)
+#define RPG_GAMECORE_DIALOGUEGROUPEXCELTABLE_GETDATA_OFFSET UNITYSDK_OFFSET(0x1C1085A0)
+#define RPG_GAMECORE_DIALOGUEGROUPEXCELTABLE_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x1C108350)
+#define RPG_GAMECORE_DIALOGUEGROUPEXCELTABLE_GETLRUINFO_OFFSET UNITYSDK_OFFSET(0x1C107F90)
+#define RPG_GAMECORE_DIALOGUEGROUPEXCELTABLE_GET_DATADICT_OFFSET UNITYSDK_OFFSET(0x1C1080B0)
+#define RPG_GAMECORE_DIALOGUEGROUPEXCELTABLE_ISDATAEMPTY_OFFSET UNITYSDK_OFFSET(0x1C1082E0)
+#define RPG_GAMECORE_DIALOGUEGROUPEXCELTABLE_ISDATALOADED_OFFSET UNITYSDK_OFFSET(0x1C1088B0)
+#define RPG_GAMECORE_DIALOGUEGROUPEXCELTABLE_LOADDATA_OFFSET UNITYSDK_OFFSET(0x1C108130)
+#define RPG_GAMECORE_DIALOGUEGROUPEXCELTABLE_LOADTOROW_OFFSET UNITYSDK_OFFSET(0x1C108AE0)
+#define RPG_GAMECORE_DIALOGUEGROUPEXCELTABLE_SETLRUOPERATION_OFFSET UNITYSDK_OFFSET(0x1C108040)
+#define RPG_GAMECORE_DIALOGUEGROUPEXCELTABLE_TRYLOADROW_OFFSET UNITYSDK_OFFSET(0x1C108630)
+#define RPG_GAMECORE_DIALOGUEGROUPEXCELTABLE_UNLOADDATA_OFFSET UNITYSDK_OFFSET(0x1C1088F0)
+#define RPG_GAMECORE_DIALOGUEGROUPEXCELTABLE__ADDITEMFROMBINARY_OFFSET UNITYSDK_OFFSET(0x1C1091C0)
+#define RPG_GAMECORE_DIALOGUEGROUPEXCELTABLE__ADDITEM_OFFSET UNITYSDK_OFFSET(0x1C109210)
+#define RPG_GAMECORE_DIALOGUEGROUPEXCELTABLE__CCTOR_OFFSET UNITYSDK_OFFSET(0x1C109690)
+#define RPG_GAMECORE_DIALOGUEGROUPEXCELTABLE__LOADDATAINCREMENTIAL_OFFSET UNITYSDK_OFFSET(0x1C109160)
+#define RPG_GAMECORE_DIALOGUEGROUPEXCELTABLE__LOADDATA_OFFSET UNITYSDK_OFFSET(0x1C108A80)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int DialogueGroupExcelTable_TypeDefinitionIndex = 12496;
+	inline static constexpr unsigned int DialogueGroupExcelTable_TypeDefinitionIndex = 12633;
 
 	class DialogueGroupExcelTable : public ::System::Object
 	{
 	public:
-		static ::System::Collections::Generic::Dictionary_2<::RPG::GameCore::DialogueGroupExcelTable_IndexKey, ::RPG::GameCore::DialogueGroupRow*>** StaticGet_dataDict_()
-		{
-			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::DialogueGroupExcelTable_IndexKey, ::RPG::GameCore::DialogueGroupRow*>**)Il2CppClass::FromTypeDefinitionIndex(DialogueGroupExcelTable_TypeDefinitionIndex)->GetStaticField(0x11E10);
-		}
 		static ::System::Action_1<::Class_1_7A22A3DBEEDD1F80*>** StaticGet__AddItemFromBinary_ActionInst()
 		{
-			return (::System::Action_1<::Class_1_7A22A3DBEEDD1F80*>**)Il2CppClass::FromTypeDefinitionIndex(DialogueGroupExcelTable_TypeDefinitionIndex)->GetStaticField(0x11E18);
+			return (::System::Action_1<::Class_1_7A22A3DBEEDD1F80*>**)Il2CppClass::FromTypeDefinitionIndex(DialogueGroupExcelTable_TypeDefinitionIndex)->GetStaticField(0x2E6C0);
 		}
 		static ::Il2CppArray<::System::String*>** StaticGet_s_PathList()
 		{
-			return (::Il2CppArray<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(DialogueGroupExcelTable_TypeDefinitionIndex)->GetStaticField(0x11E20);
+			return (::Il2CppArray<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(DialogueGroupExcelTable_TypeDefinitionIndex)->GetStaticField(0x2E6C8);
 		}
-		static ::Class_2_238EB93629797DE5** StaticGet_headers()
+		static ::System::Collections::Generic::Dictionary_2<::RPG::GameCore::DialogueGroupExcelTable_IndexKey, ::RPG::GameCore::DialogueGroupRow*>** StaticGet_dataDict_()
 		{
-			return (::Class_2_238EB93629797DE5**)Il2CppClass::FromTypeDefinitionIndex(DialogueGroupExcelTable_TypeDefinitionIndex)->GetStaticField(0x11E28);
-		}
-		static ::RPG::GameCore::TableLRUCache_2<::RPG::GameCore::DialogueGroupExcelTable_IndexKey, ::RPG::GameCore::DialogueGroupRow*>** StaticGet_LRUCache()
-		{
-			return (::RPG::GameCore::TableLRUCache_2<::RPG::GameCore::DialogueGroupExcelTable_IndexKey, ::RPG::GameCore::DialogueGroupRow*>**)Il2CppClass::FromTypeDefinitionIndex(DialogueGroupExcelTable_TypeDefinitionIndex)->GetStaticField(0x11E30);
+			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::DialogueGroupExcelTable_IndexKey, ::RPG::GameCore::DialogueGroupRow*>**)Il2CppClass::FromTypeDefinitionIndex(DialogueGroupExcelTable_TypeDefinitionIndex)->GetStaticField(0x2E6D0);
 		}
 		static ::System::String** StaticGet_srcFileName()
 		{
-			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(DialogueGroupExcelTable_TypeDefinitionIndex)->GetStaticField(0x11E38);
+			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(DialogueGroupExcelTable_TypeDefinitionIndex)->GetStaticField(0x2E6D8);
 		}
 		static ::Il2CppArray<::System::String*>** StaticGet_fullPathList()
 		{
-			return (::Il2CppArray<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(DialogueGroupExcelTable_TypeDefinitionIndex)->GetStaticField(0x11E40);
+			return (::Il2CppArray<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(DialogueGroupExcelTable_TypeDefinitionIndex)->GetStaticField(0x2E6E0);
 		}
-		static ::System::Boolean* StaticGet_IsLoadReverseMap()
+		static ::RPG::GameCore::TableLRUCache_2<::RPG::GameCore::DialogueGroupExcelTable_IndexKey, ::RPG::GameCore::DialogueGroupRow*>** StaticGet_LRUCache()
 		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(DialogueGroupExcelTable_TypeDefinitionIndex)->GetStaticField(0x5400);
+			return (::RPG::GameCore::TableLRUCache_2<::RPG::GameCore::DialogueGroupExcelTable_IndexKey, ::RPG::GameCore::DialogueGroupRow*>**)Il2CppClass::FromTypeDefinitionIndex(DialogueGroupExcelTable_TypeDefinitionIndex)->GetStaticField(0x2E6E8);
+		}
+		static ::Class_2_238EB93629797DE5** StaticGet_headers()
+		{
+			return (::Class_2_238EB93629797DE5**)Il2CppClass::FromTypeDefinitionIndex(DialogueGroupExcelTable_TypeDefinitionIndex)->GetStaticField(0x2E6F0);
 		}
 		static ::System::Boolean* StaticGet_isDataLoaded()
 		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(DialogueGroupExcelTable_TypeDefinitionIndex)->GetStaticField(0x5401);
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(DialogueGroupExcelTable_TypeDefinitionIndex)->GetStaticField(0x81B0);
+		}
+		static ::System::Boolean* StaticGet_IsLoadReverseMap()
+		{
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(DialogueGroupExcelTable_TypeDefinitionIndex)->GetStaticField(0x81B1);
 		}
 
 		static ::System::Void _cctor()

@@ -3,15 +3,15 @@
 #include "unitysdk/RPG/GameCore/TeamType.h"
 #include "unitysdk/System/Object.h"
 
-#define CLASS_1_5EC8E3A5E7BE15F2__CTOR_OFFSET UNITYSDK_OFFSET(0x13B08E10)
+#define CLASS_1_5EC8E3A5E7BE15F2__CTOR_OFFSET UNITYSDK_OFFSET(0x179863D0)
 
-inline static constexpr unsigned int Class_1_5EC8E3A5E7BE15F2_TypeDefinitionIndex = 50728;
+inline static constexpr unsigned int Class_1_5EC8E3A5E7BE15F2_TypeDefinitionIndex = 51810;
 
 class Class_1_5EC8E3A5E7BE15F2 : public ::System::Object
 {
 public:
-	::System::Boolean Field_1_0; // 0x10
-	::RPG::GameCore::TeamType Field_1_1; // 0x14
+	::RPG::GameCore::TeamType Field_1_0; // 0x10
+	::System::Boolean Field_1_1; // 0x14
 
 	::System::Void _ctor()
 	{

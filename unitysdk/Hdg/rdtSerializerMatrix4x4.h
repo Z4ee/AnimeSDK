@@ -8,24 +8,24 @@ namespace Hdg { class rdtSerializerVector4; }
 namespace System::IO { class BinaryReader; }
 namespace System::IO { class BinaryWriter; }
 
-#define HDG_RDTSERIALIZERMATRIX4X4_DESERIALIZE_OFFSET UNITYSDK_OFFSET(0xA12CAB0)
-#define HDG_RDTSERIALIZERMATRIX4X4_READ_OFFSET UNITYSDK_OFFSET(0xA12CD10)
-#define HDG_RDTSERIALIZERMATRIX4X4_TOUNITYTYPE_OFFSET UNITYSDK_OFFSET(0xA12CA00)
-#define HDG_RDTSERIALIZERMATRIX4X4_WRITE_OFFSET UNITYSDK_OFFSET(0xA12CAE0)
-#define HDG_RDTSERIALIZERMATRIX4X4__CTOR_1_OFFSET UNITYSDK_OFFSET(0xA12C930)
-#define HDG_RDTSERIALIZERMATRIX4X4__CTOR_OFFSET UNITYSDK_OFFSET(0xA12C920)
+#define HDG_RDTSERIALIZERMATRIX4X4_DESERIALIZE_OFFSET UNITYSDK_OFFSET(0x153521D0)
+#define HDG_RDTSERIALIZERMATRIX4X4_READ_OFFSET UNITYSDK_OFFSET(0x15352490)
+#define HDG_RDTSERIALIZERMATRIX4X4_TOUNITYTYPE_OFFSET UNITYSDK_OFFSET(0x15352110)
+#define HDG_RDTSERIALIZERMATRIX4X4_WRITE_OFFSET UNITYSDK_OFFSET(0x15352200)
+#define HDG_RDTSERIALIZERMATRIX4X4__CTOR_1_OFFSET UNITYSDK_OFFSET(0x15351F90)
+#define HDG_RDTSERIALIZERMATRIX4X4__CTOR_OFFSET UNITYSDK_OFFSET(0x15351F80)
 
 namespace Hdg
 {
-	inline static constexpr unsigned int rdtSerializerMatrix4x4_TypeDefinitionIndex = 44316;
+	inline static constexpr unsigned int rdtSerializerMatrix4x4_TypeDefinitionIndex = 45186;
 
 	class rdtSerializerMatrix4x4 : public ::System::Object
 	{
 	public:
-		::Hdg::rdtSerializerVector4* col0; // 0x10
-		::Hdg::rdtSerializerVector4* col2; // 0x18
+		::Hdg::rdtSerializerVector4* col2; // 0x10
+		::Hdg::rdtSerializerVector4* col1; // 0x18
 		::Hdg::rdtSerializerVector4* col3; // 0x20
-		::Hdg::rdtSerializerVector4* col1; // 0x28
+		::Hdg::rdtSerializerVector4* col0; // 0x28
 
 		::System::Void _ctor()
 		{

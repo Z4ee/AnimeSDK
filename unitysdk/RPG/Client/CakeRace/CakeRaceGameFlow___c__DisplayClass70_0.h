@@ -6,12 +6,12 @@ namespace RPG::Client { class CakeRaceStartGameData; }
 namespace RPG::Client::CakeRace { class CakeRaceGameFlow; }
 namespace RPG::Client::Promises { class IPromise; }
 
-#define RPG_CLIENT_CAKERACE_CAKERACEGAMEFLOW___C__DISPLAYCLASS70_0__CTOR_OFFSET UNITYSDK_OFFSET(0xB480300)
-#define RPG_CLIENT_CAKERACE_CAKERACEGAMEFLOW___C__DISPLAYCLASS70_0___HANDLESTARTGAME_B__0_OFFSET UNITYSDK_OFFSET(0xB481B00)
+#define RPG_CLIENT_CAKERACE_CAKERACEGAMEFLOW___C__DISPLAYCLASS70_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1AAACBD0)
+#define RPG_CLIENT_CAKERACE_CAKERACEGAMEFLOW___C__DISPLAYCLASS70_0___HANDLESTARTGAME_B__0_OFFSET UNITYSDK_OFFSET(0x1AAAE380)
 
 namespace RPG::Client::CakeRace
 {
-	inline static constexpr unsigned int CakeRaceGameFlow___c__DisplayClass70_0_TypeDefinitionIndex = 71023;
+	inline static constexpr unsigned int CakeRaceGameFlow___c__DisplayClass70_0_TypeDefinitionIndex = 72536;
 
 	class CakeRaceGameFlow___c__DisplayClass70_0 : public ::System::Object
 	{

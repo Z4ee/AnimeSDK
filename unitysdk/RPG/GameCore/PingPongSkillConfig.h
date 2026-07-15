@@ -6,12 +6,12 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class PingPongMPSkillInfo; }
 namespace RPG::GameCore { class PingPongSPSkillInfo; }
 
-#define RPG_GAMECORE_PINGPONGSKILLCONFIG_METHOD_2_DE1E976379CE8186_OFFSET UNITYSDK_OFFSET(0x19A0EA80)
-#define RPG_GAMECORE_PINGPONGSKILLCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x19A0FBD0)
+#define RPG_GAMECORE_PINGPONGSKILLCONFIG_METHOD_2_DE1E976379CE8186_OFFSET UNITYSDK_OFFSET(0x1B4C8C60)
+#define RPG_GAMECORE_PINGPONGSKILLCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1B4C9D50)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PingPongSkillConfig_TypeDefinitionIndex = 16122;
+	inline static constexpr unsigned int PingPongSkillConfig_TypeDefinitionIndex = 16306;
 
 	class PingPongSkillConfig : public ::RPG::GameCore::JsonConfig
 	{

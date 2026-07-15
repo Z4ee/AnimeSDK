@@ -7,7 +7,7 @@ namespace RPG::GameCore { class SelectMissionItemConfig; }
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MissionModule_SelectItem_TypeDefinitionIndex = 61836;
+	inline static constexpr unsigned int MissionModule_SelectItem_TypeDefinitionIndex = 63198;
 
 	struct alignas(8) MissionModule_SelectItem
 	{

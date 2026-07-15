@@ -5,13 +5,13 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class TargetEvaluator; }
 
-#define RPG_GAMECORE_FORCESETDIALOGCAMERA_METHOD_3_794C130D10C15C99_OFFSET UNITYSDK_OFFSET(0x19764CB0)
-#define RPG_GAMECORE_FORCESETDIALOGCAMERA_METHOD_3_9C2337C39EC7E5E0_OFFSET UNITYSDK_OFFSET(0x19764D30)
-#define RPG_GAMECORE_FORCESETDIALOGCAMERA__CTOR_OFFSET UNITYSDK_OFFSET(0x19764D00)
+#define RPG_GAMECORE_FORCESETDIALOGCAMERA_METHOD_3_9C2337C39EC7E5E0_OFFSET UNITYSDK_OFFSET(0x1BEBFA60)
+#define RPG_GAMECORE_FORCESETDIALOGCAMERA_METHOD_3_CC45134255F618A3_OFFSET UNITYSDK_OFFSET(0x1BEBFA20)
+#define RPG_GAMECORE_FORCESETDIALOGCAMERA__CTOR_OFFSET UNITYSDK_OFFSET(0x1BEBFA50)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ForceSetDialogCamera_TypeDefinitionIndex = 19966;
+	inline static constexpr unsigned int ForceSetDialogCamera_TypeDefinitionIndex = 20337;
 
 	class ForceSetDialogCamera : public ::RPG::GameCore::TaskConfig
 	{
@@ -23,9 +23,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FORCESETDIALOGCAMERA__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_794C130D10C15C99(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ForceSetDialogCamera*& a2)
+		static ::System::Void Method_3_CC45134255F618A3(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ForceSetDialogCamera*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ForceSetDialogCamera*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FORCESETDIALOGCAMERA_METHOD_3_794C130D10C15C99_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ForceSetDialogCamera*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FORCESETDIALOGCAMERA_METHOD_3_CC45134255F618A3_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_9C2337C39EC7E5E0(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ForceSetDialogCamera* a2)

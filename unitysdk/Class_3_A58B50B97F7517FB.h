@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class SetAttachEffectTimeSlow; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_A58B50B97F7517FB_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xA3F8E90)
-#define CLASS_3_A58B50B97F7517FB__CTOR_OFFSET UNITYSDK_OFFSET(0xA3F8E60)
+#define CLASS_3_A58B50B97F7517FB_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x18587570)
+#define CLASS_3_A58B50B97F7517FB__CTOR_OFFSET UNITYSDK_OFFSET(0x18587540)
 
-inline static constexpr unsigned int Class_3_A58B50B97F7517FB_TypeDefinitionIndex = 51700;
+inline static constexpr unsigned int Class_3_A58B50B97F7517FB_TypeDefinitionIndex = 52843;
 
 class Class_3_A58B50B97F7517FB : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::SetAttachEffectTimeSlow*>
 {

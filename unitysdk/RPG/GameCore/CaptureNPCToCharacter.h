@@ -7,13 +7,13 @@ namespace RPG::GameCore { class DynamicFloat; }
 namespace RPG::GameCore { class DynamicString; }
 namespace RPG::GameCore { class TargetEvaluator; }
 
-#define RPG_GAMECORE_CAPTURENPCTOCHARACTER_METHOD_3_13F05A60B4C1F423_OFFSET UNITYSDK_OFFSET(0x195F49A0)
-#define RPG_GAMECORE_CAPTURENPCTOCHARACTER_METHOD_3_2D1FAAED58BA46D3_OFFSET UNITYSDK_OFFSET(0x195F4A20)
-#define RPG_GAMECORE_CAPTURENPCTOCHARACTER__CTOR_OFFSET UNITYSDK_OFFSET(0x195F49F0)
+#define RPG_GAMECORE_CAPTURENPCTOCHARACTER_METHOD_3_2D1FAAED58BA46D3_OFFSET UNITYSDK_OFFSET(0x1B70ABC0)
+#define RPG_GAMECORE_CAPTURENPCTOCHARACTER_METHOD_3_F7FEA7463C8F75BA_OFFSET UNITYSDK_OFFSET(0x1B70AB70)
+#define RPG_GAMECORE_CAPTURENPCTOCHARACTER__CTOR_OFFSET UNITYSDK_OFFSET(0x1B70ABB0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int CaptureNPCToCharacter_TypeDefinitionIndex = 19153;
+	inline static constexpr unsigned int CaptureNPCToCharacter_TypeDefinitionIndex = 19509;
 
 	class CaptureNPCToCharacter : public ::RPG::GameCore::TaskConfig
 	{
@@ -29,9 +29,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CAPTURENPCTOCHARACTER__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_13F05A60B4C1F423(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::CaptureNPCToCharacter*& a2)
+		static ::System::Void Method_3_F7FEA7463C8F75BA(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::CaptureNPCToCharacter*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::CaptureNPCToCharacter*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CAPTURENPCTOCHARACTER_METHOD_3_13F05A60B4C1F423_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::CaptureNPCToCharacter*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CAPTURENPCTOCHARACTER_METHOD_3_F7FEA7463C8F75BA_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_2D1FAAED58BA46D3(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::CaptureNPCToCharacter* a2)

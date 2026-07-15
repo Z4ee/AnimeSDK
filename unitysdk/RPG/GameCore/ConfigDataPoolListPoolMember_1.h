@@ -12,7 +12,7 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ConfigDataPoolListPoolMember_1_TypeDefinitionIndex = 10389;
+	inline static constexpr unsigned int ConfigDataPoolListPoolMember_1_TypeDefinitionIndex = 10438;
 
 	template <typename TElement>
 	struct ConfigDataPoolListPoolMember_1

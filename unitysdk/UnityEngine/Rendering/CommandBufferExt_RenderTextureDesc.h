@@ -11,11 +11,11 @@
 
 namespace UnityEngine::Rendering { class GrowableBuffer; }
 
-#define UNITYENGINE_RENDERING_COMMANDBUFFEREXT_RENDERTEXTUREDESC_SERIALIZE_OFFSET UNITYSDK_OFFSET(0x3879C10)
+#define UNITYENGINE_RENDERING_COMMANDBUFFEREXT_RENDERTEXTUREDESC_SERIALIZE_OFFSET UNITYSDK_OFFSET(0x3A1DC10)
 
 namespace UnityEngine::Rendering
 {
-	inline static constexpr unsigned int CommandBufferExt_RenderTextureDesc_TypeDefinitionIndex = 33753;
+	inline static constexpr unsigned int CommandBufferExt_RenderTextureDesc_TypeDefinitionIndex = 34124;
 
 	struct alignas(4) CommandBufferExt_RenderTextureDesc
 	{

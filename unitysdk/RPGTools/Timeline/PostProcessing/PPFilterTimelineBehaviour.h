@@ -3,11 +3,11 @@
 #include "unitysdk/RPGTools/Timeline/PostProcessing/PPFilterParameter.h"
 #include "unitysdk/UnityEngine/Playables/PlayableBehaviour.h"
 
-#define RPGTOOLS_TIMELINE_POSTPROCESSING_PPFILTERTIMELINEBEHAVIOUR__CTOR_OFFSET UNITYSDK_OFFSET(0xD043650)
+#define RPGTOOLS_TIMELINE_POSTPROCESSING_PPFILTERTIMELINEBEHAVIOUR__CTOR_OFFSET UNITYSDK_OFFSET(0x199A2830)
 
 namespace RPGTools::Timeline::PostProcessing
 {
-	inline static constexpr unsigned int PPFilterTimelineBehaviour_TypeDefinitionIndex = 45858;
+	inline static constexpr unsigned int PPFilterTimelineBehaviour_TypeDefinitionIndex = 46797;
 
 	class PPFilterTimelineBehaviour : public ::UnityEngine::Playables::PlayableBehaviour
 	{

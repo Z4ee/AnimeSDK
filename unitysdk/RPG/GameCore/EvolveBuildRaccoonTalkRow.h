@@ -8,12 +8,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_EVOLVEBUILDRACCOONTALKROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x196F94F0)
-#define RPG_GAMECORE_EVOLVEBUILDRACCOONTALKROW__CTOR_OFFSET UNITYSDK_OFFSET(0x196F9BE0)
+#define RPG_GAMECORE_EVOLVEBUILDRACCOONTALKROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1C061E80)
+#define RPG_GAMECORE_EVOLVEBUILDRACCOONTALKROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1C062560)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int EvolveBuildRaccoonTalkRow_TypeDefinitionIndex = 10977;
+	inline static constexpr unsigned int EvolveBuildRaccoonTalkRow_TypeDefinitionIndex = 11027;
 
 	class EvolveBuildRaccoonTalkRow : public ::System::Object
 	{

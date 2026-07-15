@@ -6,7 +6,7 @@ namespace System { class String; }
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int MHYSDKC_Login_TypeDefinitionIndex = 43548;
+	inline static constexpr unsigned int MHYSDKC_Login_TypeDefinitionIndex = 44409;
 
 	class MHYSDKC_Login : public ::System::Object
 	{
@@ -61,5 +61,6 @@ namespace MiHoYo::SDK
 		// static const ::System::String* OPEN_URL_WITH_LOGIN_STATUS_ARG_URL; // 0x0
 		// static const ::System::String* OPEN_URL_WITH_LOGIN_STATUS_ARG_ACTIONTYPE; // 0x0
 		// static const ::System::String* OPEN_PROTOCOL_WEBVIEW; // 0x0
+		// static const ::System::String* CHECK_DEVICE_LIMIT; // 0x0
 	};
 }

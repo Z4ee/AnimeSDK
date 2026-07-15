@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MarbleCompare_TypeDefinitionIndex = 15982;
+	inline static constexpr unsigned int MarbleCompare_TypeDefinitionIndex = 16166;
 
 	enum class MarbleCompare : ::System::Int32
 	{

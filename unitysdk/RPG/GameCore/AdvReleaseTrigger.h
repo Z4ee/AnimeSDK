@@ -6,13 +6,13 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class TargetEvaluator; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_ADVRELEASETRIGGER_METHOD_3_8EC2CD4E59D5D571_OFFSET UNITYSDK_OFFSET(0x19432EF0)
-#define RPG_GAMECORE_ADVRELEASETRIGGER_METHOD_3_EFAA8DF0BD89DA24_OFFSET UNITYSDK_OFFSET(0x19433040)
-#define RPG_GAMECORE_ADVRELEASETRIGGER__CTOR_OFFSET UNITYSDK_OFFSET(0x19432FB0)
+#define RPG_GAMECORE_ADVRELEASETRIGGER_METHOD_3_B576376E7A6AE2E6_OFFSET UNITYSDK_OFFSET(0x1BE29B90)
+#define RPG_GAMECORE_ADVRELEASETRIGGER_METHOD_3_EFAA8DF0BD89DA24_OFFSET UNITYSDK_OFFSET(0x1BE29C10)
+#define RPG_GAMECORE_ADVRELEASETRIGGER__CTOR_OFFSET UNITYSDK_OFFSET(0x1BE29BE0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AdvReleaseTrigger_TypeDefinitionIndex = 19400;
+	inline static constexpr unsigned int AdvReleaseTrigger_TypeDefinitionIndex = 19758;
 
 	class AdvReleaseTrigger : public ::RPG::GameCore::TaskConfig
 	{
@@ -25,9 +25,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVRELEASETRIGGER__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_8EC2CD4E59D5D571(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AdvReleaseTrigger*& a2)
+		static ::System::Void Method_3_B576376E7A6AE2E6(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AdvReleaseTrigger*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::AdvReleaseTrigger*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVRELEASETRIGGER_METHOD_3_8EC2CD4E59D5D571_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::AdvReleaseTrigger*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVRELEASETRIGGER_METHOD_3_B576376E7A6AE2E6_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_EFAA8DF0BD89DA24(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AdvReleaseTrigger* a2)

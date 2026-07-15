@@ -11,39 +11,39 @@ namespace System { template <typename T1, typename T2> class Func_2; }
 namespace System { template <typename T> class Comparison_1; }
 namespace System { template <typename T> class Predicate_1; }
 
-#define RPG_CLIENT_TAROTBOOKMODULE___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xC9E8040)
-#define RPG_CLIENT_TAROTBOOKMODULE___C__CHECKCANTAKEREADREWARD_B__92_0_OFFSET UNITYSDK_OFFSET(0xC9E81B0)
-#define RPG_CLIENT_TAROTBOOKMODULE___C__CTOR_OFFSET UNITYSDK_OFFSET(0xC9E8070)
-#define RPG_CLIENT_TAROTBOOKMODULE___C__GET_HASNEWSTORY_B__26_0_OFFSET UNITYSDK_OFFSET(0xC9E8080)
-#define RPG_CLIENT_TAROTBOOKMODULE___C__GET_UNLOCKEDCHARACTERCOUNT_B__56_0_OFFSET UNITYSDK_OFFSET(0xC9E8140)
-#define RPG_CLIENT_TAROTBOOKMODULE___C___INITINTERACTIONS_B__168_0_OFFSET UNITYSDK_OFFSET(0xC9E8270)
+#define RPG_CLIENT_TAROTBOOKMODULE___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x18548B90)
+#define RPG_CLIENT_TAROTBOOKMODULE___C__CHECKCANTAKEREADREWARD_B__92_0_OFFSET UNITYSDK_OFFSET(0x18548D20)
+#define RPG_CLIENT_TAROTBOOKMODULE___C__CTOR_OFFSET UNITYSDK_OFFSET(0x18548BC0)
+#define RPG_CLIENT_TAROTBOOKMODULE___C__GET_HASNEWSTORY_B__26_0_OFFSET UNITYSDK_OFFSET(0x18548BD0)
+#define RPG_CLIENT_TAROTBOOKMODULE___C__GET_UNLOCKEDCHARACTERCOUNT_B__56_0_OFFSET UNITYSDK_OFFSET(0x18548CC0)
+#define RPG_CLIENT_TAROTBOOKMODULE___C___INITINTERACTIONS_B__168_0_OFFSET UNITYSDK_OFFSET(0x18548DE0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int TarotBookModule___c_TypeDefinitionIndex = 63686;
+	inline static constexpr unsigned int TarotBookModule___c_TypeDefinitionIndex = 65055;
 
 	class TarotBookModule___c : public ::System::Object
 	{
 	public:
-		static ::RPG::Client::TarotBookModule___c** StaticGet___9()
-		{
-			return (::RPG::Client::TarotBookModule___c**)Il2CppClass::FromTypeDefinitionIndex(TarotBookModule___c_TypeDefinitionIndex)->GetStaticField(0x4F840);
-		}
 		static ::System::Comparison_1<::RPG::Client::TarotBookInteraction*>** StaticGet___9__168_0()
 		{
-			return (::System::Comparison_1<::RPG::Client::TarotBookInteraction*>**)Il2CppClass::FromTypeDefinitionIndex(TarotBookModule___c_TypeDefinitionIndex)->GetStaticField(0x4F848);
+			return (::System::Comparison_1<::RPG::Client::TarotBookInteraction*>**)Il2CppClass::FromTypeDefinitionIndex(TarotBookModule___c_TypeDefinitionIndex)->GetStaticField(0x3BB70);
 		}
 		static ::System::Predicate_1<::RPG::Client::TarotBookReadReward*>** StaticGet___9__92_0()
 		{
-			return (::System::Predicate_1<::RPG::Client::TarotBookReadReward*>**)Il2CppClass::FromTypeDefinitionIndex(TarotBookModule___c_TypeDefinitionIndex)->GetStaticField(0x4F850);
-		}
-		static ::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::RPG::Client::TarotBookStory*>, ::System::Boolean>** StaticGet___9__26_0()
-		{
-			return (::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::RPG::Client::TarotBookStory*>, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(TarotBookModule___c_TypeDefinitionIndex)->GetStaticField(0x4F858);
+			return (::System::Predicate_1<::RPG::Client::TarotBookReadReward*>**)Il2CppClass::FromTypeDefinitionIndex(TarotBookModule___c_TypeDefinitionIndex)->GetStaticField(0x3BB78);
 		}
 		static ::System::Func_2<::RPG::Client::TarotBookCharacter*, ::System::Boolean>** StaticGet___9__56_0()
 		{
-			return (::System::Func_2<::RPG::Client::TarotBookCharacter*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(TarotBookModule___c_TypeDefinitionIndex)->GetStaticField(0x4F860);
+			return (::System::Func_2<::RPG::Client::TarotBookCharacter*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(TarotBookModule___c_TypeDefinitionIndex)->GetStaticField(0x3BB80);
+		}
+		static ::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::RPG::Client::TarotBookStory*>, ::System::Boolean>** StaticGet___9__26_0()
+		{
+			return (::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::RPG::Client::TarotBookStory*>, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(TarotBookModule___c_TypeDefinitionIndex)->GetStaticField(0x3BB88);
+		}
+		static ::RPG::Client::TarotBookModule___c** StaticGet___9()
+		{
+			return (::RPG::Client::TarotBookModule___c**)Il2CppClass::FromTypeDefinitionIndex(TarotBookModule___c_TypeDefinitionIndex)->GetStaticField(0x3BB90);
 		}
 
 		static ::System::Void _cctor()

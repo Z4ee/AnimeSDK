@@ -5,13 +5,13 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class TargetEvaluator; }
 
-#define RPG_GAMECORE_SHOWPROPSCENEOBJCLICKHINT_METHOD_3_29981694393996A5_OFFSET UNITYSDK_OFFSET(0x19C81020)
-#define RPG_GAMECORE_SHOWPROPSCENEOBJCLICKHINT_METHOD_3_454FD8351BE14AED_OFFSET UNITYSDK_OFFSET(0x19C80ED0)
-#define RPG_GAMECORE_SHOWPROPSCENEOBJCLICKHINT__CTOR_OFFSET UNITYSDK_OFFSET(0x19C80F90)
+#define RPG_GAMECORE_SHOWPROPSCENEOBJCLICKHINT_METHOD_3_29981694393996A5_OFFSET UNITYSDK_OFFSET(0x1BE44F90)
+#define RPG_GAMECORE_SHOWPROPSCENEOBJCLICKHINT_METHOD_3_F7D7484B55068C15_OFFSET UNITYSDK_OFFSET(0x1BE44F10)
+#define RPG_GAMECORE_SHOWPROPSCENEOBJCLICKHINT__CTOR_OFFSET UNITYSDK_OFFSET(0x1BE44F60)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ShowPropSceneObjClickHint_TypeDefinitionIndex = 21016;
+	inline static constexpr unsigned int ShowPropSceneObjClickHint_TypeDefinitionIndex = 21431;
 
 	class ShowPropSceneObjClickHint : public ::RPG::GameCore::TaskConfig
 	{
@@ -24,9 +24,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SHOWPROPSCENEOBJCLICKHINT__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_454FD8351BE14AED(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ShowPropSceneObjClickHint*& a2)
+		static ::System::Void Method_3_F7D7484B55068C15(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ShowPropSceneObjClickHint*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ShowPropSceneObjClickHint*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SHOWPROPSCENEOBJCLICKHINT_METHOD_3_454FD8351BE14AED_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ShowPropSceneObjClickHint*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SHOWPROPSCENEOBJCLICKHINT_METHOD_3_F7D7484B55068C15_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_29981694393996A5(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ShowPropSceneObjClickHint* a2)

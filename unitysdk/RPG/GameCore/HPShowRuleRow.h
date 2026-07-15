@@ -5,20 +5,20 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_HPSHOWRULEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1981A3E0)
-#define RPG_GAMECORE_HPSHOWRULEROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1981AA80)
+#define RPG_GAMECORE_HPSHOWRULEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B66D1A0)
+#define RPG_GAMECORE_HPSHOWRULEROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1B66D840)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int HPShowRuleRow_TypeDefinitionIndex = 13065;
+	inline static constexpr unsigned int HPShowRuleRow_TypeDefinitionIndex = 13215;
 
 	class HPShowRuleRow : public ::System::Object
 	{
 	public:
 		::System::String* Color; // 0x10
-		::System::Single Max; // 0x18
-		::System::Boolean IsDanger; // 0x1C
-		::System::UInt32 ID; // 0x20
+		::System::UInt32 ID; // 0x18
+		::System::Single Max; // 0x1C
+		::System::Boolean IsDanger; // 0x20
 
 		::System::Void _ctor()
 		{

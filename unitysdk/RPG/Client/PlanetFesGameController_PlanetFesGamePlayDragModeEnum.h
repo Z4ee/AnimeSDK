@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int PlanetFesGameController_PlanetFesGamePlayDragModeEnum_TypeDefinitionIndex = 62182;
+	inline static constexpr unsigned int PlanetFesGameController_PlanetFesGamePlayDragModeEnum_TypeDefinitionIndex = 63548;
 
 	enum class PlanetFesGameController_PlanetFesGamePlayDragModeEnum : ::System::Int32
 	{

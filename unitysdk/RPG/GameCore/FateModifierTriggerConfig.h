@@ -4,13 +4,13 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_FATEMODIFIERTRIGGERCONFIG_METHOD_3_0BB0114F0A4099ED_OFFSET UNITYSDK_OFFSET(0x19712EC0)
-#define RPG_GAMECORE_FATEMODIFIERTRIGGERCONFIG_METHOD_3_B761A0F9209725E4_OFFSET UNITYSDK_OFFSET(0x19711DD0)
-#define RPG_GAMECORE_FATEMODIFIERTRIGGERCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x19711D80)
+#define RPG_GAMECORE_FATEMODIFIERTRIGGERCONFIG_METHOD_3_B761A0F9209725E4_OFFSET UNITYSDK_OFFSET(0x1C0756A0)
+#define RPG_GAMECORE_FATEMODIFIERTRIGGERCONFIG_METHOD_3_F073AD01B83E10A8_OFFSET UNITYSDK_OFFSET(0x1C075650)
+#define RPG_GAMECORE_FATEMODIFIERTRIGGERCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1C075690)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FateModifierTriggerConfig_TypeDefinitionIndex = 18268;
+	inline static constexpr unsigned int FateModifierTriggerConfig_TypeDefinitionIndex = 18503;
 
 	class FateModifierTriggerConfig : public ::RPG::GameCore::FateModifierConfigBase
 	{
@@ -20,9 +20,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FATEMODIFIERTRIGGERCONFIG__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_0BB0114F0A4099ED(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::FateModifierTriggerConfig*& a2)
+		static ::System::Void Method_3_F073AD01B83E10A8(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::FateModifierTriggerConfig*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::FateModifierTriggerConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FATEMODIFIERTRIGGERCONFIG_METHOD_3_0BB0114F0A4099ED_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::FateModifierTriggerConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FATEMODIFIERTRIGGERCONFIG_METHOD_3_F073AD01B83E10A8_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_B761A0F9209725E4(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::FateModifierTriggerConfig* a2)

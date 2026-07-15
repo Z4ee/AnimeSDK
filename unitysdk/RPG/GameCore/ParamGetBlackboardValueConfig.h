@@ -5,13 +5,13 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_PARAMGETBLACKBOARDVALUECONFIG_METHOD_4_2F453A2B930008BB_OFFSET UNITYSDK_OFFSET(0x199E5980)
-#define RPG_GAMECORE_PARAMGETBLACKBOARDVALUECONFIG_METHOD_4_EC9BF41640BBDD52_OFFSET UNITYSDK_OFFSET(0x199E5780)
-#define RPG_GAMECORE_PARAMGETBLACKBOARDVALUECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x199E5900)
+#define RPG_GAMECORE_PARAMGETBLACKBOARDVALUECONFIG_METHOD_4_2F453A2B930008BB_OFFSET UNITYSDK_OFFSET(0x1BB0DE60)
+#define RPG_GAMECORE_PARAMGETBLACKBOARDVALUECONFIG_METHOD_4_855CCF4F68186A47_OFFSET UNITYSDK_OFFSET(0x1BB0DD80)
+#define RPG_GAMECORE_PARAMGETBLACKBOARDVALUECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1BB0DE50)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ParamGetBlackboardValueConfig_TypeDefinitionIndex = 16222;
+	inline static constexpr unsigned int ParamGetBlackboardValueConfig_TypeDefinitionIndex = 16406;
 
 	class ParamGetBlackboardValueConfig : public ::RPG::GameCore::MiParameterConfigBase
 	{
@@ -23,9 +23,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PARAMGETBLACKBOARDVALUECONFIG__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_4_EC9BF41640BBDD52(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ParamGetBlackboardValueConfig*& a2)
+		static ::System::Void Method_4_855CCF4F68186A47(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ParamGetBlackboardValueConfig*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ParamGetBlackboardValueConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PARAMGETBLACKBOARDVALUECONFIG_METHOD_4_EC9BF41640BBDD52_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ParamGetBlackboardValueConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PARAMGETBLACKBOARDVALUECONFIG_METHOD_4_855CCF4F68186A47_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_4_2F453A2B930008BB(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ParamGetBlackboardValueConfig* a2)

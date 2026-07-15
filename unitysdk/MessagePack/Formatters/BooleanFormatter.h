@@ -6,21 +6,21 @@
 
 namespace MessagePack { class MessagePackSerializerOptions; }
 
-#define MESSAGEPACK_FORMATTERS_BOOLEANFORMATTER_DESERIALIZE_OFFSET UNITYSDK_OFFSET(0x181381F0)
-#define MESSAGEPACK_FORMATTERS_BOOLEANFORMATTER_SERIALIZE_OFFSET UNITYSDK_OFFSET(0x181381E0)
-#define MESSAGEPACK_FORMATTERS_BOOLEANFORMATTER__CCTOR_OFFSET UNITYSDK_OFFSET(0x18138200)
-#define MESSAGEPACK_FORMATTERS_BOOLEANFORMATTER__CTOR_OFFSET UNITYSDK_OFFSET(0x181381D0)
+#define MESSAGEPACK_FORMATTERS_BOOLEANFORMATTER_DESERIALIZE_OFFSET UNITYSDK_OFFSET(0x14F66300)
+#define MESSAGEPACK_FORMATTERS_BOOLEANFORMATTER_SERIALIZE_OFFSET UNITYSDK_OFFSET(0x14F662F0)
+#define MESSAGEPACK_FORMATTERS_BOOLEANFORMATTER__CCTOR_OFFSET UNITYSDK_OFFSET(0x14F66310)
+#define MESSAGEPACK_FORMATTERS_BOOLEANFORMATTER__CTOR_OFFSET UNITYSDK_OFFSET(0x14F662E0)
 
 namespace MessagePack::Formatters
 {
-	inline static constexpr unsigned int BooleanFormatter_TypeDefinitionIndex = 7422;
+	inline static constexpr unsigned int BooleanFormatter_TypeDefinitionIndex = 7428;
 
 	class BooleanFormatter : public ::System::Object
 	{
 	public:
 		static ::MessagePack::Formatters::BooleanFormatter** StaticGet_Instance()
 		{
-			return (::MessagePack::Formatters::BooleanFormatter**)Il2CppClass::FromTypeDefinitionIndex(BooleanFormatter_TypeDefinitionIndex)->GetStaticField(0x8620);
+			return (::MessagePack::Formatters::BooleanFormatter**)Il2CppClass::FromTypeDefinitionIndex(BooleanFormatter_TypeDefinitionIndex)->GetStaticField(0x8BC0);
 		}
 
 		::System::Void _ctor()

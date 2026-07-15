@@ -3,11 +3,11 @@
 #include "unitysdk/System/ValueType.h"
 #include "unitysdk/UnityEngine/Vector2.h"
 
-#define RPG_EDITOR_BGCURVEPCG_CURVESCATTER_SCATTERSETTING__CTOR_OFFSET UNITYSDK_OFFSET(0x147640)
+#define RPG_EDITOR_BGCURVEPCG_CURVESCATTER_SCATTERSETTING__CTOR_OFFSET UNITYSDK_OFFSET(0x384F6B0)
 
 namespace RPG::Editor
 {
-	inline static constexpr unsigned int BGCurvePCG_CurveScatter_ScatterSetting_TypeDefinitionIndex = 48638;
+	inline static constexpr unsigned int BGCurvePCG_CurveScatter_ScatterSetting_TypeDefinitionIndex = 49651;
 
 	struct alignas(4) BGCurvePCG_CurveScatter_ScatterSetting
 	{

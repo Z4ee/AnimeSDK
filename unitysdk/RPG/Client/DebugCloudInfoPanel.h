@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 
-#define RPG_CLIENT_DEBUGCLOUDINFOPANEL__CTOR_OFFSET UNITYSDK_OFFSET(0xB735320)
+#define RPG_CLIENT_DEBUGCLOUDINFOPANEL__CTOR_OFFSET UNITYSDK_OFFSET(0x1808F530)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int DebugCloudInfoPanel_TypeDefinitionIndex = 67945;
+	inline static constexpr unsigned int DebugCloudInfoPanel_TypeDefinitionIndex = 69431;
 
 	class DebugCloudInfoPanel : public ::UnityEngine::MonoBehaviour
 	{

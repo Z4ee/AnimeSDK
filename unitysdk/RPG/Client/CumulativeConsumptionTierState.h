@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int CumulativeConsumptionTierState_TypeDefinitionIndex = 59465;
+	inline static constexpr unsigned int CumulativeConsumptionTierState_TypeDefinitionIndex = 60749;
 
 	enum class CumulativeConsumptionTierState : ::System::Int32
 	{

@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ChimeraDuelBattlePageViewModel_GameViewModel_ExitModeType_TypeDefinitionIndex = 59336;
+	inline static constexpr unsigned int ChimeraDuelBattlePageViewModel_GameViewModel_ExitModeType_TypeDefinitionIndex = 60607;
 
 	enum class ChimeraDuelBattlePageViewModel_GameViewModel_ExitModeType : ::System::Int32
 	{

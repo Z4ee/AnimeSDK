@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int RegionContentLevel_TypeDefinitionIndex = 58167;
+	inline static constexpr unsigned int RegionContentLevel_TypeDefinitionIndex = 59429;
 
 	enum class RegionContentLevel : ::System::Int32
 	{

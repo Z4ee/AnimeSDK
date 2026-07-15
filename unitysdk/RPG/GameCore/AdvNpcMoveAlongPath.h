@@ -7,13 +7,13 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_ADVNPCMOVEALONGPATH_METHOD_3_8C7663B45BC9D2C6_OFFSET UNITYSDK_OFFSET(0x1942E5A0)
-#define RPG_GAMECORE_ADVNPCMOVEALONGPATH_METHOD_3_CDF784D4BBFB1120_OFFSET UNITYSDK_OFFSET(0x1942E510)
-#define RPG_GAMECORE_ADVNPCMOVEALONGPATH__CTOR_OFFSET UNITYSDK_OFFSET(0x1942E570)
+#define RPG_GAMECORE_ADVNPCMOVEALONGPATH_METHOD_3_8C7663B45BC9D2C6_OFFSET UNITYSDK_OFFSET(0x1BE25A90)
+#define RPG_GAMECORE_ADVNPCMOVEALONGPATH_METHOD_3_ED7227A7FDA245BF_OFFSET UNITYSDK_OFFSET(0x1BE25A40)
+#define RPG_GAMECORE_ADVNPCMOVEALONGPATH__CTOR_OFFSET UNITYSDK_OFFSET(0x1BE25A80)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AdvNpcMoveAlongPath_TypeDefinitionIndex = 19193;
+	inline static constexpr unsigned int AdvNpcMoveAlongPath_TypeDefinitionIndex = 19549;
 
 	class AdvNpcMoveAlongPath : public ::RPG::GameCore::TaskConfig
 	{
@@ -31,9 +31,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVNPCMOVEALONGPATH__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_CDF784D4BBFB1120(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AdvNpcMoveAlongPath*& a2)
+		static ::System::Void Method_3_ED7227A7FDA245BF(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AdvNpcMoveAlongPath*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::AdvNpcMoveAlongPath*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVNPCMOVEALONGPATH_METHOD_3_CDF784D4BBFB1120_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::AdvNpcMoveAlongPath*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVNPCMOVEALONGPATH_METHOD_3_ED7227A7FDA245BF_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_8C7663B45BC9D2C6(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AdvNpcMoveAlongPath* a2)

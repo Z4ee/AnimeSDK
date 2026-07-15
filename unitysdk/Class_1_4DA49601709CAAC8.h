@@ -6,9 +6,9 @@
 
 namespace RPG::GameCore { class RtSkillConfig; }
 
-#define CLASS_1_4DA49601709CAAC8_METHOD_1_D944A018FFCA0A20_OFFSET UNITYSDK_OFFSET(0x13FFC660)
+#define CLASS_1_4DA49601709CAAC8_METHOD_1_D944A018FFCA0A20_OFFSET UNITYSDK_OFFSET(0x15F13000)
 
-inline static constexpr unsigned int Class_1_4DA49601709CAAC8_TypeDefinitionIndex = 50506;
+inline static constexpr unsigned int Class_1_4DA49601709CAAC8_TypeDefinitionIndex = 51588;
 
 class Class_1_4DA49601709CAAC8 : public ::System::Object
 {

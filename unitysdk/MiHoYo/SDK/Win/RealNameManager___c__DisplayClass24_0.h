@@ -6,18 +6,18 @@ namespace MiHoYo::SDK { class AccountModel; }
 namespace MiHoYo::SDK { class NetworkResponseModel; }
 namespace MiHoYo::SDK::Win { class RealNameManager; }
 
-#define MIHOYO_SDK_WIN_REALNAMEMANAGER___C__DISPLAYCLASS24_0__CTOR_OFFSET UNITYSDK_OFFSET(0x182B6710)
-#define MIHOYO_SDK_WIN_REALNAMEMANAGER___C__DISPLAYCLASS24_0__REQUESTSECONDREALNAMEAUTH_B__0_OFFSET UNITYSDK_OFFSET(0x182BACF0)
+#define MIHOYO_SDK_WIN_REALNAMEMANAGER___C__DISPLAYCLASS24_0__CTOR_OFFSET UNITYSDK_OFFSET(0x17177A00)
+#define MIHOYO_SDK_WIN_REALNAMEMANAGER___C__DISPLAYCLASS24_0__REQUESTSECONDREALNAMEAUTH_B__0_OFFSET UNITYSDK_OFFSET(0x1717BCC0)
 
 namespace MiHoYo::SDK::Win
 {
-	inline static constexpr unsigned int RealNameManager___c__DisplayClass24_0_TypeDefinitionIndex = 9011;
+	inline static constexpr unsigned int RealNameManager___c__DisplayClass24_0_TypeDefinitionIndex = 9023;
 
 	class RealNameManager___c__DisplayClass24_0 : public ::System::Object
 	{
 	public:
-		::MiHoYo::SDK::Win::RealNameManager* __4__this; // 0x10
-		::MiHoYo::SDK::AccountModel* account; // 0x18
+		::MiHoYo::SDK::AccountModel* account; // 0x10
+		::MiHoYo::SDK::Win::RealNameManager* __4__this; // 0x18
 
 		::System::Void _ctor()
 		{

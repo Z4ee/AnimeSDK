@@ -4,12 +4,12 @@
 
 namespace UnityEngine { class Transform; }
 
-#define RPG_CLIENT_LITTLEGAME_CAKERACE_CAKERACEPICKUPITEMMONOVIEW_UPDATE_OFFSET UNITYSDK_OFFSET(0xBDC42D0)
-#define RPG_CLIENT_LITTLEGAME_CAKERACE_CAKERACEPICKUPITEMMONOVIEW__CTOR_OFFSET UNITYSDK_OFFSET(0xBDC46F0)
+#define RPG_CLIENT_LITTLEGAME_CAKERACE_CAKERACEPICKUPITEMMONOVIEW_UPDATE_OFFSET UNITYSDK_OFFSET(0x19B82310)
+#define RPG_CLIENT_LITTLEGAME_CAKERACE_CAKERACEPICKUPITEMMONOVIEW__CTOR_OFFSET UNITYSDK_OFFSET(0x19B82730)
 
 namespace RPG::Client::LittleGame::CakeRace
 {
-	inline static constexpr unsigned int CakeRacePickupItemMonoView_TypeDefinitionIndex = 72676;
+	inline static constexpr unsigned int CakeRacePickupItemMonoView_TypeDefinitionIndex = 74201;
 
 	class CakeRacePickupItemMonoView : public ::RPG::Client::LittleGame::CakeRace::CakeRaceMonoView
 	{

@@ -9,13 +9,13 @@ namespace RPG::GameCore { class DynamicFloat; }
 namespace RPG::GameCore { class DynamicString; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_SWITCHBATTLEAREA_METHOD_3_26F83C64318FB697_OFFSET UNITYSDK_OFFSET(0x19CD7950)
-#define RPG_GAMECORE_SWITCHBATTLEAREA_METHOD_3_777E7BBDBDE3B375_OFFSET UNITYSDK_OFFSET(0x19CD78D0)
-#define RPG_GAMECORE_SWITCHBATTLEAREA__CTOR_OFFSET UNITYSDK_OFFSET(0x19CD7920)
+#define RPG_GAMECORE_SWITCHBATTLEAREA_METHOD_3_26F83C64318FB697_OFFSET UNITYSDK_OFFSET(0x1B433470)
+#define RPG_GAMECORE_SWITCHBATTLEAREA_METHOD_3_B245BD73F8ADF3BE_OFFSET UNITYSDK_OFFSET(0x1B433430)
+#define RPG_GAMECORE_SWITCHBATTLEAREA__CTOR_OFFSET UNITYSDK_OFFSET(0x1B433460)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SwitchBattleArea_TypeDefinitionIndex = 22048;
+	inline static constexpr unsigned int SwitchBattleArea_TypeDefinitionIndex = 22484;
 
 	class SwitchBattleArea : public ::RPG::GameCore::TaskConfig
 	{
@@ -34,9 +34,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SWITCHBATTLEAREA__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_777E7BBDBDE3B375(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SwitchBattleArea*& a2)
+		static ::System::Void Method_3_B245BD73F8ADF3BE(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SwitchBattleArea*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SwitchBattleArea*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SWITCHBATTLEAREA_METHOD_3_777E7BBDBDE3B375_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SwitchBattleArea*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SWITCHBATTLEAREA_METHOD_3_B245BD73F8ADF3BE_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_26F83C64318FB697(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SwitchBattleArea* a2)

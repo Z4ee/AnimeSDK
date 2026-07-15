@@ -7,13 +7,13 @@ namespace System { class String; }
 namespace System::Diagnostics::Tracing { class TraceLoggingDataCollector; }
 namespace System::Diagnostics::Tracing { class TraceLoggingMetadataCollector; }
 
-#define SYSTEM_DIAGNOSTICS_TRACING_INT16ARRAYTYPEINFO_WRITEDATA_OFFSET UNITYSDK_OFFSET(0x186B9410)
-#define SYSTEM_DIAGNOSTICS_TRACING_INT16ARRAYTYPEINFO_WRITEMETADATA_OFFSET UNITYSDK_OFFSET(0x186B9380)
-#define SYSTEM_DIAGNOSTICS_TRACING_INT16ARRAYTYPEINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x186B95C0)
+#define SYSTEM_DIAGNOSTICS_TRACING_INT16ARRAYTYPEINFO_WRITEDATA_OFFSET UNITYSDK_OFFSET(0x191B91F0)
+#define SYSTEM_DIAGNOSTICS_TRACING_INT16ARRAYTYPEINFO_WRITEMETADATA_OFFSET UNITYSDK_OFFSET(0x191B9160)
+#define SYSTEM_DIAGNOSTICS_TRACING_INT16ARRAYTYPEINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x191B93A0)
 
 namespace System::Diagnostics::Tracing
 {
-	inline static constexpr unsigned int Int16ArrayTypeInfo_TypeDefinitionIndex = 1620;
+	inline static constexpr unsigned int Int16ArrayTypeInfo_TypeDefinitionIndex = 1624;
 
 	class Int16ArrayTypeInfo : public ::System::Diagnostics::Tracing::TraceLoggingTypeInfo_1<::Il2CppArray<::System::Int16>*>
 	{

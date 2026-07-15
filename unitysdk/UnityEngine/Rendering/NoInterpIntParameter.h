@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/Rendering/VolumeParameter_1.h"
 
-#define UNITYENGINE_RENDERING_NOINTERPINTPARAMETER__CTOR_OFFSET UNITYSDK_OFFSET(0x1B17C8B0)
+#define UNITYENGINE_RENDERING_NOINTERPINTPARAMETER__CTOR_OFFSET UNITYSDK_OFFSET(0x1B0F4720)
 
 namespace UnityEngine::Rendering
 {
-	inline static constexpr unsigned int NoInterpIntParameter_TypeDefinitionIndex = 33819;
+	inline static constexpr unsigned int NoInterpIntParameter_TypeDefinitionIndex = 34190;
 
 	class NoInterpIntParameter : public ::UnityEngine::Rendering::VolumeParameter_1<::System::Int32>
 	{

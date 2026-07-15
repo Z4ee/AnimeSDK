@@ -9,7 +9,7 @@ namespace System::Collections::Generic { template <typename T> class HashSet_1; 
 
 namespace MessagePack::Formatters
 {
-	inline static constexpr unsigned int HashSetFormatter_1_TypeDefinitionIndex = 7345;
+	inline static constexpr unsigned int HashSetFormatter_1_TypeDefinitionIndex = 7351;
 
 	template <typename T>
 	class HashSetFormatter_1 : public ::MessagePack::Formatters::CollectionFormatterBase_4<T, ::System::Collections::Generic::HashSet_1<T>*, ::System::Collections::Generic::HashSet_1_Enumerator<T>, ::System::Collections::Generic::HashSet_1<T>*>

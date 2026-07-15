@@ -6,13 +6,13 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class DynamicFloat; }
 namespace RPG::GameCore { class TargetEvaluator; }
 
-#define RPG_GAMECORE_PROPRUNTIMEREPLACEARTPREFAB_METHOD_3_D612920DA94DF269_OFFSET UNITYSDK_OFFSET(0x19A96240)
-#define RPG_GAMECORE_PROPRUNTIMEREPLACEARTPREFAB_METHOD_3_F3B09E4B14605154_OFFSET UNITYSDK_OFFSET(0x19A960F0)
-#define RPG_GAMECORE_PROPRUNTIMEREPLACEARTPREFAB__CTOR_OFFSET UNITYSDK_OFFSET(0x19A961B0)
+#define RPG_GAMECORE_PROPRUNTIMEREPLACEARTPREFAB_METHOD_3_A32A9C5ECF1B549F_OFFSET UNITYSDK_OFFSET(0x1BA28920)
+#define RPG_GAMECORE_PROPRUNTIMEREPLACEARTPREFAB_METHOD_3_D612920DA94DF269_OFFSET UNITYSDK_OFFSET(0x1BA289A0)
+#define RPG_GAMECORE_PROPRUNTIMEREPLACEARTPREFAB__CTOR_OFFSET UNITYSDK_OFFSET(0x1BA28970)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PropRuntimeReplaceArtPrefab_TypeDefinitionIndex = 20944;
+	inline static constexpr unsigned int PropRuntimeReplaceArtPrefab_TypeDefinitionIndex = 21359;
 
 	class PropRuntimeReplaceArtPrefab : public ::RPG::GameCore::TaskConfig
 	{
@@ -27,9 +27,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PROPRUNTIMEREPLACEARTPREFAB__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_F3B09E4B14605154(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::PropRuntimeReplaceArtPrefab*& a2)
+		static ::System::Void Method_3_A32A9C5ECF1B549F(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::PropRuntimeReplaceArtPrefab*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::PropRuntimeReplaceArtPrefab*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PROPRUNTIMEREPLACEARTPREFAB_METHOD_3_F3B09E4B14605154_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::PropRuntimeReplaceArtPrefab*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PROPRUNTIMEREPLACEARTPREFAB_METHOD_3_A32A9C5ECF1B549F_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_D612920DA94DF269(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::PropRuntimeReplaceArtPrefab* a2)

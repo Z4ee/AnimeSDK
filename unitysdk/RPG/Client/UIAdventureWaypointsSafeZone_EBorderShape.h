@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int UIAdventureWaypointsSafeZone_EBorderShape_TypeDefinitionIndex = 64603;
+	inline static constexpr unsigned int UIAdventureWaypointsSafeZone_EBorderShape_TypeDefinitionIndex = 66004;
 
 	enum class UIAdventureWaypointsSafeZone_EBorderShape : ::System::Int32
 	{

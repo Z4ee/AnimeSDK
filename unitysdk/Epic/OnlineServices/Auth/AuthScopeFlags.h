@@ -3,7 +3,7 @@
 
 namespace Epic::OnlineServices::Auth
 {
-	inline static constexpr unsigned int AuthScopeFlags_TypeDefinitionIndex = 43160;
+	inline static constexpr unsigned int AuthScopeFlags_TypeDefinitionIndex = 44021;
 
 	enum class AuthScopeFlags : ::System::Int32
 	{

@@ -5,23 +5,23 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_CHIMERADUELEFFECTROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1963B3C0)
-#define RPG_GAMECORE_CHIMERADUELEFFECTROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1963B6A0)
+#define RPG_GAMECORE_CHIMERADUELEFFECTROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1C394A60)
+#define RPG_GAMECORE_CHIMERADUELEFFECTROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1C394D40)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ChimeraDuelEffectRow_TypeDefinitionIndex = 10683;
+	inline static constexpr unsigned int ChimeraDuelEffectRow_TypeDefinitionIndex = 10733;
 
 	class ChimeraDuelEffectRow : public ::System::Object
 	{
 	public:
-		::System::Int32 Hp; // 0x10
-		::System::Int32 ParamInt; // 0x14
-		::System::UInt32 EffectID; // 0x18
+		::System::Int32 ParamInt; // 0x10
+		::RPG::GameCore::ChimeraDuelServerEffectType EffectType; // 0x14
+		::System::Int32 Hp; // 0x18
 		::System::Int32 Attack; // 0x1C
 		::System::UInt32 Exp; // 0x20
 		::System::Boolean ParamBool; // 0x24
-		::RPG::GameCore::ChimeraDuelServerEffectType EffectType; // 0x28
+		::System::UInt32 EffectID; // 0x28
 
 		::System::Void _ctor()
 		{

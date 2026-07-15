@@ -4,13 +4,13 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_CREATEVIRTUALTEAM_METHOD_3_5721071D3F6DC841_OFFSET UNITYSDK_OFFSET(0x19685ED0)
-#define RPG_GAMECORE_CREATEVIRTUALTEAM_METHOD_3_8EC003825F71DA11_OFFSET UNITYSDK_OFFSET(0x19685E40)
-#define RPG_GAMECORE_CREATEVIRTUALTEAM__CTOR_OFFSET UNITYSDK_OFFSET(0x19685EA0)
+#define RPG_GAMECORE_CREATEVIRTUALTEAM_METHOD_3_5721071D3F6DC841_OFFSET UNITYSDK_OFFSET(0x1BC3DD50)
+#define RPG_GAMECORE_CREATEVIRTUALTEAM_METHOD_3_BAB3615A643B321D_OFFSET UNITYSDK_OFFSET(0x1BC3DD00)
+#define RPG_GAMECORE_CREATEVIRTUALTEAM__CTOR_OFFSET UNITYSDK_OFFSET(0x1BC3DD40)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int CreateVirtualTeam_TypeDefinitionIndex = 20392;
+	inline static constexpr unsigned int CreateVirtualTeam_TypeDefinitionIndex = 20807;
 
 	class CreateVirtualTeam : public ::RPG::GameCore::TaskConfig
 	{
@@ -20,9 +20,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CREATEVIRTUALTEAM__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_8EC003825F71DA11(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::CreateVirtualTeam*& a2)
+		static ::System::Void Method_3_BAB3615A643B321D(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::CreateVirtualTeam*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::CreateVirtualTeam*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CREATEVIRTUALTEAM_METHOD_3_8EC003825F71DA11_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::CreateVirtualTeam*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CREATEVIRTUALTEAM_METHOD_3_BAB3615A643B321D_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_5721071D3F6DC841(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::CreateVirtualTeam* a2)

@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/Newtonsoft/Json/JsonContainerAttribute.h"
 
-#define NEWTONSOFT_JSON_JSONDICTIONARYATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1881AB50)
+#define NEWTONSOFT_JSON_JSONDICTIONARYATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x165EADA0)
 
 namespace Newtonsoft::Json
 {
-	inline static constexpr unsigned int JsonDictionaryAttribute_TypeDefinitionIndex = 9238;
+	inline static constexpr unsigned int JsonDictionaryAttribute_TypeDefinitionIndex = 9250;
 
 	class JsonDictionaryAttribute : public ::Newtonsoft::Json::JsonContainerAttribute
 	{

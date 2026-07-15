@@ -6,13 +6,13 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class DynamicFloat; }
 
-#define RPG_GAMECORE_SHOWBATTLEUIINTIMELINE_METHOD_3_11C2845EC18AA9F9_OFFSET UNITYSDK_OFFSET(0x19C763D0)
-#define RPG_GAMECORE_SHOWBATTLEUIINTIMELINE_METHOD_3_E87C21688CCBF7B8_OFFSET UNITYSDK_OFFSET(0x19C76450)
-#define RPG_GAMECORE_SHOWBATTLEUIINTIMELINE__CTOR_OFFSET UNITYSDK_OFFSET(0x19C76420)
+#define RPG_GAMECORE_SHOWBATTLEUIINTIMELINE_METHOD_3_B07F39A943139095_OFFSET UNITYSDK_OFFSET(0x1BE3B3C0)
+#define RPG_GAMECORE_SHOWBATTLEUIINTIMELINE_METHOD_3_E87C21688CCBF7B8_OFFSET UNITYSDK_OFFSET(0x1BE3B400)
+#define RPG_GAMECORE_SHOWBATTLEUIINTIMELINE__CTOR_OFFSET UNITYSDK_OFFSET(0x1BE3B3F0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ShowBattleUIInTimeline_TypeDefinitionIndex = 21675;
+	inline static constexpr unsigned int ShowBattleUIInTimeline_TypeDefinitionIndex = 22102;
 
 	class ShowBattleUIInTimeline : public ::RPG::GameCore::TaskConfig
 	{
@@ -25,9 +25,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SHOWBATTLEUIINTIMELINE__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_11C2845EC18AA9F9(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ShowBattleUIInTimeline*& a2)
+		static ::System::Void Method_3_B07F39A943139095(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ShowBattleUIInTimeline*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ShowBattleUIInTimeline*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SHOWBATTLEUIINTIMELINE_METHOD_3_11C2845EC18AA9F9_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ShowBattleUIInTimeline*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SHOWBATTLEUIINTIMELINE_METHOD_3_B07F39A943139095_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_E87C21688CCBF7B8(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ShowBattleUIInTimeline* a2)

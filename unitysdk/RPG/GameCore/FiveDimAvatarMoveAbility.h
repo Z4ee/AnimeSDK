@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FiveDimAvatarMoveAbility_TypeDefinitionIndex = 15881;
+	inline static constexpr unsigned int FiveDimAvatarMoveAbility_TypeDefinitionIndex = 16055;
 
 	enum class FiveDimAvatarMoveAbility : ::System::UInt32
 	{

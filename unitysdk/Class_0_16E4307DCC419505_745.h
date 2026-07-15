@@ -1,10 +1,9 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-namespace System { class Object; }
-namespace System { template <typename T> class Action_1; }
+namespace RPG::Client { class RelicItemData; }
 
-inline static constexpr unsigned int Class_0_16E4307DCC419505_745_TypeDefinitionIndex = 59274;
+inline static constexpr unsigned int Class_0_16E4307DCC419505_745_TypeDefinitionIndex = 59947;
 
 class Class_0_16E4307DCC419505_745
 {

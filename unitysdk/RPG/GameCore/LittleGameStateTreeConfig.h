@@ -6,13 +6,13 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class AIVariableValueSource; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_LITTLEGAMESTATETREECONFIG_METHOD_3_77AA48EEF1F02CD7_OFFSET UNITYSDK_OFFSET(0x1989B990)
-#define RPG_GAMECORE_LITTLEGAMESTATETREECONFIG_METHOD_3_950D5B9EEEF1A233_OFFSET UNITYSDK_OFFSET(0x198A2780)
-#define RPG_GAMECORE_LITTLEGAMESTATETREECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1989B970)
+#define RPG_GAMECORE_LITTLEGAMESTATETREECONFIG_METHOD_3_77AA48EEF1F02CD7_OFFSET UNITYSDK_OFFSET(0x1BCC5690)
+#define RPG_GAMECORE_LITTLEGAMESTATETREECONFIG_METHOD_3_ED767096AF184840_OFFSET UNITYSDK_OFFSET(0x1BCC5650)
+#define RPG_GAMECORE_LITTLEGAMESTATETREECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1BCC5680)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LittleGameStateTreeConfig_TypeDefinitionIndex = 17935;
+	inline static constexpr unsigned int LittleGameStateTreeConfig_TypeDefinitionIndex = 18114;
 
 	class LittleGameStateTreeConfig : public ::RPG::GameCore::LittleGameComponentConfig
 	{
@@ -26,9 +26,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LITTLEGAMESTATETREECONFIG__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_950D5B9EEEF1A233(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::LittleGameStateTreeConfig*& a2)
+		static ::System::Void Method_3_ED767096AF184840(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::LittleGameStateTreeConfig*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::LittleGameStateTreeConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LITTLEGAMESTATETREECONFIG_METHOD_3_950D5B9EEEF1A233_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::LittleGameStateTreeConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LITTLEGAMESTATETREECONFIG_METHOD_3_ED767096AF184840_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_77AA48EEF1F02CD7(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::LittleGameStateTreeConfig* a2)

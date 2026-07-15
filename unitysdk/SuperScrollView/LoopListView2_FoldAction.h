@@ -3,7 +3,7 @@
 
 namespace SuperScrollView
 {
-	inline static constexpr unsigned int LoopListView2_FoldAction_TypeDefinitionIndex = 44954;
+	inline static constexpr unsigned int LoopListView2_FoldAction_TypeDefinitionIndex = 45872;
 
 	enum class LoopListView2_FoldAction : ::System::Int32
 	{

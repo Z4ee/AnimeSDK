@@ -6,12 +6,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_ADVEFFECTCONFIG_METHOD_2_DD859B42BC2A07CD_OFFSET UNITYSDK_OFFSET(0x19420E90)
-#define RPG_GAMECORE_ADVEFFECTCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x194211E0)
+#define RPG_GAMECORE_ADVEFFECTCONFIG_METHOD_2_DD859B42BC2A07CD_OFFSET UNITYSDK_OFFSET(0x1BE199F0)
+#define RPG_GAMECORE_ADVEFFECTCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1BE19D40)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AdvEffectConfig_TypeDefinitionIndex = 21091;
+	inline static constexpr unsigned int AdvEffectConfig_TypeDefinitionIndex = 21506;
 
 	class AdvEffectConfig : public ::RPG::GameCore::JsonConfig
 	{

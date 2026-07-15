@@ -5,20 +5,21 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_OVERRIDEFLOORCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x199DD9E0)
-#define RPG_GAMECORE_OVERRIDEFLOORCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x199DDB70)
+#define RPG_GAMECORE_OVERRIDEFLOORCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1BB07300)
+#define RPG_GAMECORE_OVERRIDEFLOORCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1BB074F0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int OverrideFloorConfigRow_TypeDefinitionIndex = 12461;
+	inline static constexpr unsigned int OverrideFloorConfigRow_TypeDefinitionIndex = 12598;
 
 	class OverrideFloorConfigRow : public ::System::Object
 	{
 	public:
 		::System::String* EnableCondition; // 0x10
 		::System::UInt32 FloorID; // 0x18
-		::System::UInt32 ContentID; // 0x1C
+		::System::Boolean IsHideInNavMapSubTab; // 0x1C
 		::System::UInt32 DimensionID; // 0x20
+		::System::UInt32 ContentID; // 0x24
 
 		::System::Void _ctor()
 		{

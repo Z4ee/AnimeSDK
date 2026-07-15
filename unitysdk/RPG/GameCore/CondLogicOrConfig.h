@@ -4,13 +4,13 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_CONDLOGICORCONFIG_METHOD_4_777CFBF05229AAD2_OFFSET UNITYSDK_OFFSET(0x196718C0)
-#define RPG_GAMECORE_CONDLOGICORCONFIG_METHOD_4_FEDB8EDEDB38F10F_OFFSET UNITYSDK_OFFSET(0x19671A00)
-#define RPG_GAMECORE_CONDLOGICORCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x19671980)
+#define RPG_GAMECORE_CONDLOGICORCONFIG_METHOD_4_7FB1FD69870419E7_OFFSET UNITYSDK_OFFSET(0x1BC2A670)
+#define RPG_GAMECORE_CONDLOGICORCONFIG_METHOD_4_FEDB8EDEDB38F10F_OFFSET UNITYSDK_OFFSET(0x1BC2A6D0)
+#define RPG_GAMECORE_CONDLOGICORCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1BC2A6C0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int CondLogicOrConfig_TypeDefinitionIndex = 16208;
+	inline static constexpr unsigned int CondLogicOrConfig_TypeDefinitionIndex = 16392;
 
 	class CondLogicOrConfig : public ::RPG::GameCore::MiConditionConfigBase
 	{
@@ -22,9 +22,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CONDLOGICORCONFIG__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_4_777CFBF05229AAD2(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::CondLogicOrConfig*& a2)
+		static ::System::Void Method_4_7FB1FD69870419E7(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::CondLogicOrConfig*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::CondLogicOrConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CONDLOGICORCONFIG_METHOD_4_777CFBF05229AAD2_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::CondLogicOrConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CONDLOGICORCONFIG_METHOD_4_7FB1FD69870419E7_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_4_FEDB8EDEDB38F10F(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::CondLogicOrConfig* a2)

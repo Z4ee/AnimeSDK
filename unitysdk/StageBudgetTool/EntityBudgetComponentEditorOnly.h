@@ -3,11 +3,11 @@
 #include "unitysdk/StageBudgetTool/EntityType.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 
-#define STAGEBUDGETTOOL_ENTITYBUDGETCOMPONENTEDITORONLY__CTOR_OFFSET UNITYSDK_OFFSET(0xD0944A0)
+#define STAGEBUDGETTOOL_ENTITYBUDGETCOMPONENTEDITORONLY__CTOR_OFFSET UNITYSDK_OFFSET(0x14EC4E00)
 
 namespace StageBudgetTool
 {
-	inline static constexpr unsigned int EntityBudgetComponentEditorOnly_TypeDefinitionIndex = 45029;
+	inline static constexpr unsigned int EntityBudgetComponentEditorOnly_TypeDefinitionIndex = 45947;
 
 	class EntityBudgetComponentEditorOnly : public ::UnityEngine::MonoBehaviour
 	{

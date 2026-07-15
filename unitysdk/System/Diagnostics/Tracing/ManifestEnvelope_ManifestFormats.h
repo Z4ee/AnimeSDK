@@ -3,7 +3,7 @@
 
 namespace System::Diagnostics::Tracing
 {
-	inline static constexpr unsigned int ManifestEnvelope_ManifestFormats_TypeDefinitionIndex = 1699;
+	inline static constexpr unsigned int ManifestEnvelope_ManifestFormats_TypeDefinitionIndex = 1703;
 
 	enum class ManifestEnvelope_ManifestFormats : ::System::Byte
 	{

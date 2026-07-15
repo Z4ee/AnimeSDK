@@ -5,11 +5,11 @@
 namespace HoudiniEngineUnity { class JSONNode; }
 namespace System { class String; }
 
-#define HOUDINIENGINEUNITY_JSON_PARSE_OFFSET UNITYSDK_OFFSET(0x17F5A7C0)
+#define HOUDINIENGINEUNITY_JSON_PARSE_OFFSET UNITYSDK_OFFSET(0x197CA890)
 
 namespace HoudiniEngineUnity
 {
-	inline static constexpr unsigned int JSON_TypeDefinitionIndex = 37722;
+	inline static constexpr unsigned int JSON_TypeDefinitionIndex = 38530;
 
 	class JSON : public ::System::Object
 	{

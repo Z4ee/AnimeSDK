@@ -6,19 +6,19 @@ namespace MiHoYo::SDK::PluginUI { class IPluginUIService; }
 namespace System { class String; }
 namespace System { template <typename T> class Action_1; }
 
-#define MIHOYO_SDK_PLUGINUI_IPLUGINUISERVICE___C__DISPLAYCLASS7_0__CTOR_OFFSET UNITYSDK_OFFSET(0x183D5230)
-#define MIHOYO_SDK_PLUGINUI_IPLUGINUISERVICE___C__DISPLAYCLASS7_0__MAKECLOSEDEFAULTACTION_B__0_OFFSET UNITYSDK_OFFSET(0x183D5530)
+#define MIHOYO_SDK_PLUGINUI_IPLUGINUISERVICE___C__DISPLAYCLASS7_0__CTOR_OFFSET UNITYSDK_OFFSET(0x19460D20)
+#define MIHOYO_SDK_PLUGINUI_IPLUGINUISERVICE___C__DISPLAYCLASS7_0__MAKECLOSEDEFAULTACTION_B__0_OFFSET UNITYSDK_OFFSET(0x19461020)
 
 namespace MiHoYo::SDK::PluginUI
 {
-	inline static constexpr unsigned int IPluginUIService___c__DisplayClass7_0_TypeDefinitionIndex = 8811;
+	inline static constexpr unsigned int IPluginUIService___c__DisplayClass7_0_TypeDefinitionIndex = 8823;
 
 	class IPluginUIService___c__DisplayClass7_0 : public ::System::Object
 	{
 	public:
-		::System::String* strUIName; // 0x10
+		::MiHoYo::SDK::PluginUI::IPluginUIService* __4__this; // 0x10
 		::System::String* strElementID; // 0x18
-		::MiHoYo::SDK::PluginUI::IPluginUIService* __4__this; // 0x20
+		::System::String* strUIName; // 0x20
 
 		::System::Void _ctor()
 		{

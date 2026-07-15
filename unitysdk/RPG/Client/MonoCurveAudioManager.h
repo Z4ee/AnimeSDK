@@ -10,13 +10,13 @@ namespace RPG::GameCore { class TriggerSound; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_MONOCURVEAUDIOMANAGER_AWAKE_OFFSET UNITYSDK_OFFSET(0xC064DB0)
-#define RPG_CLIENT_MONOCURVEAUDIOMANAGER_POSTEVENT_OFFSET UNITYSDK_OFFSET(0xC064B00)
-#define RPG_CLIENT_MONOCURVEAUDIOMANAGER__CTOR_OFFSET UNITYSDK_OFFSET(0xC065330)
+#define RPG_CLIENT_MONOCURVEAUDIOMANAGER_AWAKE_OFFSET UNITYSDK_OFFSET(0x180815C0)
+#define RPG_CLIENT_MONOCURVEAUDIOMANAGER_POSTEVENT_OFFSET UNITYSDK_OFFSET(0x18081230)
+#define RPG_CLIENT_MONOCURVEAUDIOMANAGER__CTOR_OFFSET UNITYSDK_OFFSET(0x18081B40)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MonoCurveAudioManager_TypeDefinitionIndex = 64118;
+	inline static constexpr unsigned int MonoCurveAudioManager_TypeDefinitionIndex = 65489;
 
 	class MonoCurveAudioManager : public ::UnityEngine::MonoBehaviour
 	{

@@ -7,7 +7,7 @@ namespace ZenFulcrum::EmbeddedBrowser { class IPromise; }
 
 namespace ZenFulcrum::EmbeddedBrowser
 {
-	inline static constexpr unsigned int IPromiseTimer_TypeDefinitionIndex = 36598;
+	inline static constexpr unsigned int IPromiseTimer_TypeDefinitionIndex = 37380;
 
 	class IPromiseTimer
 	{

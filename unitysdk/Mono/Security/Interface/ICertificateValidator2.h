@@ -8,7 +8,7 @@ namespace System::Security::Cryptography::X509Certificates { class X509Chain; }
 
 namespace Mono::Security::Interface
 {
-	inline static constexpr unsigned int ICertificateValidator2_TypeDefinitionIndex = 2275;
+	inline static constexpr unsigned int ICertificateValidator2_TypeDefinitionIndex = 2279;
 
 	class ICertificateValidator2
 	{

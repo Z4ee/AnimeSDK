@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FiveDimLoadMode_TypeDefinitionIndex = 23114;
+	inline static constexpr unsigned int FiveDimLoadMode_TypeDefinitionIndex = 23583;
 
 	enum class FiveDimLoadMode : ::System::Int32
 	{

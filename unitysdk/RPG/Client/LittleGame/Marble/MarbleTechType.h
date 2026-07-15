@@ -3,7 +3,7 @@
 
 namespace RPG::Client::LittleGame::Marble
 {
-	inline static constexpr unsigned int MarbleTechType_TypeDefinitionIndex = 39691;
+	inline static constexpr unsigned int MarbleTechType_TypeDefinitionIndex = 40500;
 
 	enum class MarbleTechType : ::System::Int32
 	{

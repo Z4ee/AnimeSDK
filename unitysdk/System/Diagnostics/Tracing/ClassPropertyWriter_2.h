@@ -10,7 +10,7 @@ namespace System::Diagnostics::Tracing { template <typename T> class TraceLoggin
 
 namespace System::Diagnostics::Tracing
 {
-	inline static constexpr unsigned int ClassPropertyWriter_2_TypeDefinitionIndex = 1599;
+	inline static constexpr unsigned int ClassPropertyWriter_2_TypeDefinitionIndex = 1603;
 
 	template <typename ContainerType, typename ValueType>
 	class ClassPropertyWriter_2 : public ::System::Diagnostics::Tracing::PropertyAccessor_1<ContainerType>

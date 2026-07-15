@@ -3,7 +3,7 @@
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int GradientMode_TypeDefinitionIndex = 4206;
+	inline static constexpr unsigned int GradientMode_TypeDefinitionIndex = 4211;
 
 	enum class GradientMode : ::System::Int32
 	{

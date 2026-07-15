@@ -1,6 +1,6 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Class_1_76ED9B246ED58A54.h"
+#include "unitysdk/Class_1_CD4EC20BEBA8A2DA.h"
 
 class Class_1_0E117AC86D8E5BCA;
 class Class_1_D8BECDCE48063EC7;
@@ -8,12 +8,12 @@ class Class_2_AEE59ED8DADEC1A1;
 namespace RPG::GameCore { class DiceCombatDiceSelectorConfig_Even; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_2_25481CB1A28A6918_METHOD_2_A3196062528F0C75_OFFSET UNITYSDK_OFFSET(0x18B25630)
-#define CLASS_2_25481CB1A28A6918__CTOR_OFFSET UNITYSDK_OFFSET(0x18B25620)
+#define CLASS_2_25481CB1A28A6918_METHOD_2_A3196062528F0C75_OFFSET UNITYSDK_OFFSET(0x13EC2B00)
+#define CLASS_2_25481CB1A28A6918__CTOR_OFFSET UNITYSDK_OFFSET(0x13EC2AF0)
 
-inline static constexpr unsigned int Class_2_25481CB1A28A6918_TypeDefinitionIndex = 34451;
+inline static constexpr unsigned int Class_2_25481CB1A28A6918_TypeDefinitionIndex = 34833;
 
-class Class_2_25481CB1A28A6918 : public ::Class_1_76ED9B246ED58A54
+class Class_2_25481CB1A28A6918 : public ::Class_1_CD4EC20BEBA8A2DA
 {
 public:
 	::RPG::GameCore::DiceCombatDiceSelectorConfig_Even* Field_2_0; // 0x18

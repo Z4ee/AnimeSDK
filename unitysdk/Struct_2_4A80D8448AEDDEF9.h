@@ -7,7 +7,7 @@ namespace RPG::GameCore::Match3 { class Match3BirdSkillConfig; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-inline static constexpr unsigned int Struct_2_4A80D8448AEDDEF9_TypeDefinitionIndex = 39242;
+inline static constexpr unsigned int Struct_2_4A80D8448AEDDEF9_TypeDefinitionIndex = 40051;
 
 struct alignas(8) Struct_2_4A80D8448AEDDEF9
 {

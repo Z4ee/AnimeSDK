@@ -8,13 +8,13 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class DynamicFloat; }
 
-#define RPG_GAMECORE_SETUPEFFECTTRANSFORMPARAMS_METHOD_3_72C251D1CAD24F9B_OFFSET UNITYSDK_OFFSET(0x19C69EC0)
-#define RPG_GAMECORE_SETUPEFFECTTRANSFORMPARAMS_METHOD_3_9E0A20077A3B86BB_OFFSET UNITYSDK_OFFSET(0x19C69F40)
-#define RPG_GAMECORE_SETUPEFFECTTRANSFORMPARAMS__CTOR_OFFSET UNITYSDK_OFFSET(0x19C69F10)
+#define RPG_GAMECORE_SETUPEFFECTTRANSFORMPARAMS_METHOD_3_464BF9ECFF05A139_OFFSET UNITYSDK_OFFSET(0x1BE2F390)
+#define RPG_GAMECORE_SETUPEFFECTTRANSFORMPARAMS_METHOD_3_9E0A20077A3B86BB_OFFSET UNITYSDK_OFFSET(0x1BE2F3D0)
+#define RPG_GAMECORE_SETUPEFFECTTRANSFORMPARAMS__CTOR_OFFSET UNITYSDK_OFFSET(0x1BE2F3C0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SetupEffectTransformParams_TypeDefinitionIndex = 21014;
+	inline static constexpr unsigned int SetupEffectTransformParams_TypeDefinitionIndex = 21429;
 
 	class SetupEffectTransformParams : public ::RPG::GameCore::TaskConfig
 	{
@@ -40,9 +40,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETUPEFFECTTRANSFORMPARAMS__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_72C251D1CAD24F9B(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SetupEffectTransformParams*& a2)
+		static ::System::Void Method_3_464BF9ECFF05A139(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SetupEffectTransformParams*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SetupEffectTransformParams*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETUPEFFECTTRANSFORMPARAMS_METHOD_3_72C251D1CAD24F9B_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SetupEffectTransformParams*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETUPEFFECTTRANSFORMPARAMS_METHOD_3_464BF9ECFF05A139_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_9E0A20077A3B86BB(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SetupEffectTransformParams* a2)

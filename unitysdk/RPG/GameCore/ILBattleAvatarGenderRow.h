@@ -4,18 +4,18 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_ILBATTLEAVATARGENDERROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1983CEB0)
-#define RPG_GAMECORE_ILBATTLEAVATARGENDERROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1983CFA0)
+#define RPG_GAMECORE_ILBATTLEAVATARGENDERROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B68F6B0)
+#define RPG_GAMECORE_ILBATTLEAVATARGENDERROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1B68F7A0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ILBattleAvatarGenderRow_TypeDefinitionIndex = 13142;
+	inline static constexpr unsigned int ILBattleAvatarGenderRow_TypeDefinitionIndex = 13290;
 
 	class ILBattleAvatarGenderRow : public ::System::Object
 	{
 	public:
-		::System::UInt32 BoyAvatarID; // 0x10
-		::System::UInt32 GirlAvatarID; // 0x14
+		::System::UInt32 GirlAvatarID; // 0x10
+		::System::UInt32 BoyAvatarID; // 0x14
 
 		::System::Void _ctor()
 		{

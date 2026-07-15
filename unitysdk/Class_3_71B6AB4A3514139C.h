@@ -5,12 +5,11 @@
 namespace RPG::GameCore { class TaskContext; }
 namespace RPG::GameCore { class UnloadBackgroundPlayer; }
 
-#define CLASS_3_71B6AB4A3514139C_DISPOSE_OFFSET UNITYSDK_OFFSET(0x14276A20)
-#define CLASS_3_71B6AB4A3514139C_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x14276A60)
-#define CLASS_3_71B6AB4A3514139C__CTOR_OFFSET UNITYSDK_OFFSET(0x142769F0)
-#define CLASS_3_71B6AB4A3514139C___IFIXBASEPROXY_DISPOSE_OFFSET UNITYSDK_OFFSET(0x14276BA0)
+#define CLASS_3_71B6AB4A3514139C_DISPOSE_OFFSET UNITYSDK_OFFSET(0x15B1A390)
+#define CLASS_3_71B6AB4A3514139C_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x15B1A3D0)
+#define CLASS_3_71B6AB4A3514139C__CTOR_OFFSET UNITYSDK_OFFSET(0x15B1A360)
 
-inline static constexpr unsigned int Class_3_71B6AB4A3514139C_TypeDefinitionIndex = 49955;
+inline static constexpr unsigned int Class_3_71B6AB4A3514139C_TypeDefinitionIndex = 51032;
 
 class Class_3_71B6AB4A3514139C : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::UnloadBackgroundPlayer*>
 {
@@ -28,10 +27,5 @@ public:
 	::System::Void OnTaskBegin()
 	{
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_3_71B6AB4A3514139C_ONTASKBEGIN_OFFSET))(this);
-	}
-
-	::System::Void __iFixBaseProxy_Dispose()
-	{
-		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_3_71B6AB4A3514139C___IFIXBASEPROXY_DISPOSE_OFFSET))(this);
 	}
 };

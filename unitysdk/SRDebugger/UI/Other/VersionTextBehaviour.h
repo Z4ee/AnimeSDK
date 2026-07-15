@@ -5,12 +5,12 @@
 namespace System { class String; }
 namespace UnityEngine::UI { class Text; }
 
-#define SRDEBUGGER_UI_OTHER_VERSIONTEXTBEHAVIOUR_START_OFFSET UNITYSDK_OFFSET(0x1AD0D490)
-#define SRDEBUGGER_UI_OTHER_VERSIONTEXTBEHAVIOUR__CTOR_OFFSET UNITYSDK_OFFSET(0x1AD0D500)
+#define SRDEBUGGER_UI_OTHER_VERSIONTEXTBEHAVIOUR_START_OFFSET UNITYSDK_OFFSET(0x1A21D580)
+#define SRDEBUGGER_UI_OTHER_VERSIONTEXTBEHAVIOUR__CTOR_OFFSET UNITYSDK_OFFSET(0x1A21D650)
 
 namespace SRDebugger::UI::Other
 {
-	inline static constexpr unsigned int VersionTextBehaviour_TypeDefinitionIndex = 35685;
+	inline static constexpr unsigned int VersionTextBehaviour_TypeDefinitionIndex = 36467;
 
 	class VersionTextBehaviour : public ::SRF::SRMonoBehaviourEx
 	{

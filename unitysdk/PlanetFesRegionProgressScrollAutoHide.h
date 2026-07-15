@@ -6,11 +6,11 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class RectTransform; }
 namespace UnityEngine::UI { class ScrollRect; }
 
-#define PLANETFESREGIONPROGRESSSCROLLAUTOHIDE_METHOD_5_876DFAC461D4522D_OFFSET UNITYSDK_OFFSET(0xB06B560)
-#define PLANETFESREGIONPROGRESSSCROLLAUTOHIDE_UPDATE_OFFSET UNITYSDK_OFFSET(0xB06B440)
-#define PLANETFESREGIONPROGRESSSCROLLAUTOHIDE__CTOR_OFFSET UNITYSDK_OFFSET(0xB06B790)
+#define PLANETFESREGIONPROGRESSSCROLLAUTOHIDE_METHOD_5_876DFAC461D4522D_OFFSET UNITYSDK_OFFSET(0x17467950)
+#define PLANETFESREGIONPROGRESSSCROLLAUTOHIDE_UPDATE_OFFSET UNITYSDK_OFFSET(0x17467830)
+#define PLANETFESREGIONPROGRESSSCROLLAUTOHIDE__CTOR_OFFSET UNITYSDK_OFFSET(0x17467B80)
 
-inline static constexpr unsigned int PlanetFesRegionProgressScrollAutoHide_TypeDefinitionIndex = 44575;
+inline static constexpr unsigned int PlanetFesRegionProgressScrollAutoHide_TypeDefinitionIndex = 45447;
 
 class PlanetFesRegionProgressScrollAutoHide : public ::UnityEngine::MonoBehaviour
 {

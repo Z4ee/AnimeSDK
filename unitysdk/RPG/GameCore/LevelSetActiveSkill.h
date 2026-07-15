@@ -6,19 +6,19 @@
 namespace RPG::GameCore { class GameEntityList; }
 namespace RPG::GameCore { class SkillData; }
 
-#define RPG_GAMECORE_LEVELSETACTIVESKILL_GETEVENTTYPE_OFFSET UNITYSDK_OFFSET(0xCE4D700)
-#define RPG_GAMECORE_LEVELSETACTIVESKILL_GETSOURCERUNTIMEID_OFFSET UNITYSDK_OFFSET(0xCE4D6B0)
-#define RPG_GAMECORE_LEVELSETACTIVESKILL__CTOR_OFFSET UNITYSDK_OFFSET(0xCE4D750)
+#define RPG_GAMECORE_LEVELSETACTIVESKILL_GETEVENTTYPE_OFFSET UNITYSDK_OFFSET(0x1BE03450)
+#define RPG_GAMECORE_LEVELSETACTIVESKILL_GETSOURCERUNTIMEID_OFFSET UNITYSDK_OFFSET(0x1BE03400)
+#define RPG_GAMECORE_LEVELSETACTIVESKILL__CTOR_OFFSET UNITYSDK_OFFSET(0x1BE034A0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LevelSetActiveSkill_TypeDefinitionIndex = 53085;
+	inline static constexpr unsigned int LevelSetActiveSkill_TypeDefinitionIndex = 54299;
 
 	class LevelSetActiveSkill : public ::System::Object
 	{
 	public:
-		::RPG::GameCore::GameEntityList* SkillTargetCandidates; // 0x10
-		::RPG::GameCore::SkillData* ActiveSkillData; // 0x18
+		::RPG::GameCore::SkillData* ActiveSkillData; // 0x10
+		::RPG::GameCore::GameEntityList* SkillTargetCandidates; // 0x18
 
 		::System::Void _ctor()
 		{

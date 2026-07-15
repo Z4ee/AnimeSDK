@@ -4,12 +4,12 @@
 
 namespace RPG::Client { class RogueSiteData; }
 
-#define RPG_CLIENT_ROGUEMAPDATA___C__DISPLAYCLASS4_0__CTOR_OFFSET UNITYSDK_OFFSET(0xC7BDE00)
-#define RPG_CLIENT_ROGUEMAPDATA___C__DISPLAYCLASS4_0__GETROGUESITEDATA_B__0_OFFSET UNITYSDK_OFFSET(0xC7BEAC0)
+#define RPG_CLIENT_ROGUEMAPDATA___C__DISPLAYCLASS4_0__CTOR_OFFSET UNITYSDK_OFFSET(0x19A22B20)
+#define RPG_CLIENT_ROGUEMAPDATA___C__DISPLAYCLASS4_0__GETROGUESITEDATA_B__0_OFFSET UNITYSDK_OFFSET(0x19A23420)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int RogueMapData___c__DisplayClass4_0_TypeDefinitionIndex = 63096;
+	inline static constexpr unsigned int RogueMapData___c__DisplayClass4_0_TypeDefinitionIndex = 64463;
 
 	class RogueMapData___c__DisplayClass4_0 : public ::System::Object
 	{

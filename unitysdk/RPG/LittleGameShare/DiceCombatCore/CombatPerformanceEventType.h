@@ -3,7 +3,7 @@
 
 namespace RPG::LittleGameShare::DiceCombatCore
 {
-	inline static constexpr unsigned int CombatPerformanceEventType_TypeDefinitionIndex = 34503;
+	inline static constexpr unsigned int CombatPerformanceEventType_TypeDefinitionIndex = 34885;
 
 	enum class CombatPerformanceEventType : ::System::Byte
 	{

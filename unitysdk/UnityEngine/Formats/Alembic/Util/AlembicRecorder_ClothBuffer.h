@@ -10,22 +10,22 @@ namespace UnityEngine::Formats::Alembic::Sdk { template <typename T> class Pinne
 namespace UnityEngine::Formats::Alembic::Util { class AlembicRecorderSettings; }
 namespace UnityEngine::Formats::Alembic::Util { class AlembicRecorder_MeshBuffer; }
 
-#define UNITYENGINE_FORMATS_ALEMBIC_UTIL_ALEMBICRECORDER_CLOTHBUFFER_CAPTURE_OFFSET UNITYSDK_OFFSET(0x1B049F20)
-#define UNITYENGINE_FORMATS_ALEMBIC_UTIL_ALEMBICRECORDER_CLOTHBUFFER_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1B04ADD0)
-#define UNITYENGINE_FORMATS_ALEMBIC_UTIL_ALEMBICRECORDER_CLOTHBUFFER_GENERATEREMAPINDICES_OFFSET UNITYSDK_OFFSET(0x1B048F60)
-#define UNITYENGINE_FORMATS_ALEMBIC_UTIL_ALEMBICRECORDER_CLOTHBUFFER__CTOR_OFFSET UNITYSDK_OFFSET(0x1B04AF70)
+#define UNITYENGINE_FORMATS_ALEMBIC_UTIL_ALEMBICRECORDER_CLOTHBUFFER_CAPTURE_OFFSET UNITYSDK_OFFSET(0x1B1A1060)
+#define UNITYENGINE_FORMATS_ALEMBIC_UTIL_ALEMBICRECORDER_CLOTHBUFFER_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1B1A1F10)
+#define UNITYENGINE_FORMATS_ALEMBIC_UTIL_ALEMBICRECORDER_CLOTHBUFFER_GENERATEREMAPINDICES_OFFSET UNITYSDK_OFFSET(0x1B1A0090)
+#define UNITYENGINE_FORMATS_ALEMBIC_UTIL_ALEMBICRECORDER_CLOTHBUFFER__CTOR_OFFSET UNITYSDK_OFFSET(0x1B1A1F60)
 
 namespace UnityEngine::Formats::Alembic::Util
 {
-	inline static constexpr unsigned int AlembicRecorder_ClothBuffer_TypeDefinitionIndex = 41585;
+	inline static constexpr unsigned int AlembicRecorder_ClothBuffer_TypeDefinitionIndex = 42445;
 
 	class AlembicRecorder_ClothBuffer : public ::System::Object
 	{
 	public:
-		::UnityEngine::Formats::Alembic::Sdk::PinnedList_1<::System::Int32>* remap; // 0x10
-		::UnityEngine::Formats::Alembic::Sdk::PinnedList_1<::UnityEngine::Vector3>* vertices; // 0x18
-		::UnityEngine::Transform* rootBone; // 0x20
-		::UnityEngine::Formats::Alembic::Sdk::PinnedList_1<::UnityEngine::Vector3>* normals; // 0x28
+		::UnityEngine::Formats::Alembic::Sdk::PinnedList_1<::UnityEngine::Vector3>* vertices; // 0x10
+		::UnityEngine::Transform* rootBone; // 0x18
+		::UnityEngine::Formats::Alembic::Sdk::PinnedList_1<::UnityEngine::Vector3>* normals; // 0x20
+		::UnityEngine::Formats::Alembic::Sdk::PinnedList_1<::System::Int32>* remap; // 0x28
 		::System::Int32 numRemappedVertices; // 0x30
 
 		::System::Void _ctor()

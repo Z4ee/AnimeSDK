@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RtDirSourceType_TypeDefinitionIndex = 23453;
+	inline static constexpr unsigned int RtDirSourceType_TypeDefinitionIndex = 23942;
 
 	enum class RtDirSourceType : ::System::Int32
 	{

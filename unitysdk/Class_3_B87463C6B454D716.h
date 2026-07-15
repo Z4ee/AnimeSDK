@@ -1,0 +1,49 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/RPG/GameCore/ST_Task_1.h"
+
+class Class_2_F400FB9D2D9DA921;
+class Class_2_F400FB9D2D9DA921_Class_1_5ED903387A1D6426;
+namespace RPG::GameCore { class ST_Main_PlayInteract; }
+namespace RPG::GameCore { class TaskContext; }
+
+#define CLASS_3_B87463C6B454D716_DISPOSE_OFFSET UNITYSDK_OFFSET(0x169D20E0)
+#define CLASS_3_B87463C6B454D716_METHOD_3_CA373AA1C7054598_OFFSET UNITYSDK_OFFSET(0x169D24E0)
+#define CLASS_3_B87463C6B454D716_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x169D2170)
+#define CLASS_3_B87463C6B454D716_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x169D2440)
+#define CLASS_3_B87463C6B454D716__CTOR_OFFSET UNITYSDK_OFFSET(0x169D2020)
+
+inline static constexpr unsigned int Class_3_B87463C6B454D716_TypeDefinitionIndex = 49840;
+
+class Class_3_B87463C6B454D716 : public ::RPG::GameCore::ST_Task_1<::RPG::GameCore::ST_Main_PlayInteract*>
+{
+public:
+	::Class_2_F400FB9D2D9DA921_Class_1_5ED903387A1D6426* Field_3_0; // 0x28
+	::Class_2_F400FB9D2D9DA921* Field_3_1; // 0x30
+	::System::Boolean Field_3_2; // 0x38
+
+	::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::ST_Main_PlayInteract* a2)
+	{
+		return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::RPG::GameCore::ST_Main_PlayInteract*))((::PBYTE)hIl2Cpp + CLASS_3_B87463C6B454D716__CTOR_OFFSET))(this, a1, a2);
+	}
+
+	::System::Void Dispose()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_3_B87463C6B454D716_DISPOSE_OFFSET))(this);
+	}
+
+	::System::Void OnTaskBegin()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_3_B87463C6B454D716_ONTASKBEGIN_OFFSET))(this);
+	}
+
+	::System::Void OnTaskReset()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_3_B87463C6B454D716_ONTASKRESET_OFFSET))(this);
+	}
+
+	::System::Void Method_3_CA373AA1C7054598()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_3_B87463C6B454D716_METHOD_3_CA373AA1C7054598_OFFSET))(this);
+	}
+};

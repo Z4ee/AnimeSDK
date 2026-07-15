@@ -7,7 +7,7 @@ namespace System::Buffers { template <typename T> class MemoryPool_1; }
 
 namespace System::Buffers
 {
-	inline static constexpr unsigned int MemoryPool_1_TypeDefinitionIndex = 4973;
+	inline static constexpr unsigned int MemoryPool_1_TypeDefinitionIndex = 4978;
 
 	template <typename T>
 	class MemoryPool_1 : public ::System::Object

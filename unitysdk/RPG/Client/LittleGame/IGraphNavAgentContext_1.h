@@ -5,7 +5,7 @@ namespace Entitas { template <typename T> class IMatcher_1; }
 
 namespace RPG::Client::LittleGame
 {
-	inline static constexpr unsigned int IGraphNavAgentContext_1_TypeDefinitionIndex = 38991;
+	inline static constexpr unsigned int IGraphNavAgentContext_1_TypeDefinitionIndex = 39800;
 
 	template <typename TEntity>
 	class IGraphNavAgentContext_1

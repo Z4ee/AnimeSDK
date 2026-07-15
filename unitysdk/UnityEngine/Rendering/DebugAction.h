@@ -3,7 +3,7 @@
 
 namespace UnityEngine::Rendering
 {
-	inline static constexpr unsigned int DebugAction_TypeDefinitionIndex = 33707;
+	inline static constexpr unsigned int DebugAction_TypeDefinitionIndex = 34078;
 
 	enum class DebugAction : ::System::Int32
 	{

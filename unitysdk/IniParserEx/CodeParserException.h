@@ -4,12 +4,12 @@
 
 namespace System { class String; }
 
-#define INIPARSEREX_CODEPARSEREXCEPTION_GET_MESSAGE_OFFSET UNITYSDK_OFFSET(0x1B271850)
-#define INIPARSEREX_CODEPARSEREXCEPTION__CTOR_OFFSET UNITYSDK_OFFSET(0x1B2717E0)
+#define INIPARSEREX_CODEPARSEREXCEPTION_GET_MESSAGE_OFFSET UNITYSDK_OFFSET(0x1C4C3610)
+#define INIPARSEREX_CODEPARSEREXCEPTION__CTOR_OFFSET UNITYSDK_OFFSET(0x1C4C35A0)
 
 namespace IniParserEx
 {
-	inline static constexpr unsigned int CodeParserException_TypeDefinitionIndex = 3914;
+	inline static constexpr unsigned int CodeParserException_TypeDefinitionIndex = 3918;
 
 	class CodeParserException : public ::System::Exception
 	{

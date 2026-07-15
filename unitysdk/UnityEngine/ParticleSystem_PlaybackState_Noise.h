@@ -4,7 +4,7 @@
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int ParticleSystem_PlaybackState_Noise_TypeDefinitionIndex = 5730;
+	inline static constexpr unsigned int ParticleSystem_PlaybackState_Noise_TypeDefinitionIndex = 5735;
 
 	struct alignas(4) ParticleSystem_PlaybackState_Noise
 	{

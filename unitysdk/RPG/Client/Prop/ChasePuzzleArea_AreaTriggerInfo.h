@@ -8,7 +8,7 @@ namespace UnityEngine { class Collider; }
 
 namespace RPG::Client::Prop
 {
-	inline static constexpr unsigned int ChasePuzzleArea_AreaTriggerInfo_TypeDefinitionIndex = 72740;
+	inline static constexpr unsigned int ChasePuzzleArea_AreaTriggerInfo_TypeDefinitionIndex = 74265;
 
 	struct alignas(8) ChasePuzzleArea_AreaTriggerInfo
 	{

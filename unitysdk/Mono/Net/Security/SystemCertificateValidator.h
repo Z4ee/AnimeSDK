@@ -7,24 +7,24 @@ namespace Mono::Security::Interface { class MonoTlsSettings; }
 namespace System::Security::Cryptography::X509Certificates { class X509CertificateCollection; }
 namespace System::Security::Cryptography::X509Certificates { class X509Chain; }
 
-#define MONO_NET_SECURITY_SYSTEMCERTIFICATEVALIDATOR_CREATEX509CHAIN_OFFSET UNITYSDK_OFFSET(0x1AF14CB0)
-#define MONO_NET_SECURITY_SYSTEMCERTIFICATEVALIDATOR_NEEDSCHAIN_OFFSET UNITYSDK_OFFSET(0x1AF0CD30)
-#define MONO_NET_SECURITY_SYSTEMCERTIFICATEVALIDATOR__CCTOR_OFFSET UNITYSDK_OFFSET(0x1AF14BB0)
+#define MONO_NET_SECURITY_SYSTEMCERTIFICATEVALIDATOR_CREATEX509CHAIN_OFFSET UNITYSDK_OFFSET(0x1A84DE30)
+#define MONO_NET_SECURITY_SYSTEMCERTIFICATEVALIDATOR_NEEDSCHAIN_OFFSET UNITYSDK_OFFSET(0x1A8457F0)
+#define MONO_NET_SECURITY_SYSTEMCERTIFICATEVALIDATOR__CCTOR_OFFSET UNITYSDK_OFFSET(0x1A84DD30)
 
 namespace Mono::Net::Security
 {
-	inline static constexpr unsigned int SystemCertificateValidator_TypeDefinitionIndex = 2436;
+	inline static constexpr unsigned int SystemCertificateValidator_TypeDefinitionIndex = 2440;
 
 	class SystemCertificateValidator : public ::System::Object
 	{
 	public:
-		static ::System::Boolean* StaticGet_is_macosx()
-		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(SystemCertificateValidator_TypeDefinitionIndex)->GetStaticField(0x8C40);
-		}
 		static ::System::Security::Cryptography::X509Certificates::X509KeyUsageFlags* StaticGet_s_flags()
 		{
-			return (::System::Security::Cryptography::X509Certificates::X509KeyUsageFlags*)Il2CppClass::FromTypeDefinitionIndex(SystemCertificateValidator_TypeDefinitionIndex)->GetStaticField(0x8C44);
+			return (::System::Security::Cryptography::X509Certificates::X509KeyUsageFlags*)Il2CppClass::FromTypeDefinitionIndex(SystemCertificateValidator_TypeDefinitionIndex)->GetStaticField(0x7960);
+		}
+		static ::System::Boolean* StaticGet_is_macosx()
+		{
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(SystemCertificateValidator_TypeDefinitionIndex)->GetStaticField(0x7964);
 		}
 
 		static ::System::Void _cctor()

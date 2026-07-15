@@ -14,7 +14,7 @@ namespace System::Collections::Generic { template <typename T> class IEnumerator
 
 namespace Collections::Pooled
 {
-	inline static constexpr unsigned int PooledQueue_1_TypeDefinitionIndex = 5097;
+	inline static constexpr unsigned int PooledQueue_1_TypeDefinitionIndex = 5102;
 
 	template <typename T>
 	class PooledQueue_1 : public ::System::Object

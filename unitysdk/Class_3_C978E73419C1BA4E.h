@@ -1,0 +1,48 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/StageHarmonyLightModLinkSlot.h"
+
+class Class_1_E3144EBBA3CB68CA;
+
+#define CLASS_3_C978E73419C1BA4E_METHOD_3_7787CB3AD5CF0BB7_OFFSET UNITYSDK_OFFSET(0x152E1DB0)
+#define CLASS_3_C978E73419C1BA4E_METHOD_3_96510936A295EA78_OFFSET UNITYSDK_OFFSET(0x152E1C20)
+#define CLASS_3_C978E73419C1BA4E_METHOD_3_CA373AA1C7054598_1_OFFSET UNITYSDK_OFFSET(0x152E2120)
+#define CLASS_3_C978E73419C1BA4E_METHOD_3_CA373AA1C7054598_2_OFFSET UNITYSDK_OFFSET(0x152E2160)
+#define CLASS_3_C978E73419C1BA4E_METHOD_3_CA373AA1C7054598_OFFSET UNITYSDK_OFFSET(0x152E20E0)
+#define CLASS_3_C978E73419C1BA4E__CTOR_OFFSET UNITYSDK_OFFSET(0x152E21A0)
+
+inline static constexpr unsigned int Class_3_C978E73419C1BA4E_TypeDefinitionIndex = 45558;
+
+class Class_3_C978E73419C1BA4E : public ::StageHarmonyLightModLinkSlot
+{
+public:
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_3_C978E73419C1BA4E__CTOR_OFFSET))(this);
+	}
+
+	::System::Void Method_3_96510936A295EA78(::System::Int32 a1, ::Class_1_E3144EBBA3CB68CA* a2)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::Int32, ::Class_1_E3144EBBA3CB68CA*))((::PBYTE)hIl2Cpp + CLASS_3_C978E73419C1BA4E_METHOD_3_96510936A295EA78_OFFSET))(this, a1, a2);
+	}
+
+	::System::Void Method_3_7787CB3AD5CF0BB7(::System::Single a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + CLASS_3_C978E73419C1BA4E_METHOD_3_7787CB3AD5CF0BB7_OFFSET))(this, a1);
+	}
+
+	::System::Void Method_3_CA373AA1C7054598()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_3_C978E73419C1BA4E_METHOD_3_CA373AA1C7054598_OFFSET))(this);
+	}
+
+	::System::Void Method_3_CA373AA1C7054598_1()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_3_C978E73419C1BA4E_METHOD_3_CA373AA1C7054598_1_OFFSET))(this);
+	}
+
+	::System::Void Method_3_CA373AA1C7054598_2()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_3_C978E73419C1BA4E_METHOD_3_CA373AA1C7054598_2_OFFSET))(this);
+	}
+};

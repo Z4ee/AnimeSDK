@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TriggerValidGuestConfigType_TypeDefinitionIndex = 23434;
+	inline static constexpr unsigned int TriggerValidGuestConfigType_TypeDefinitionIndex = 23923;
 
 	enum class TriggerValidGuestConfigType : ::System::Int32
 	{

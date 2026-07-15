@@ -5,13 +5,13 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_SO_SENDMESSAGE_METHOD_4_46C48CBA06B4E9F6_OFFSET UNITYSDK_OFFSET(0x19BFE120)
-#define RPG_GAMECORE_SO_SENDMESSAGE_METHOD_4_FE35FABD832CA2A7_OFFSET UNITYSDK_OFFSET(0x19BFD9F0)
-#define RPG_GAMECORE_SO_SENDMESSAGE__CTOR_OFFSET UNITYSDK_OFFSET(0x19BFD9C0)
+#define RPG_GAMECORE_SO_SENDMESSAGE_METHOD_4_DB61BFF33571926C_OFFSET UNITYSDK_OFFSET(0x1B776850)
+#define RPG_GAMECORE_SO_SENDMESSAGE_METHOD_4_FE35FABD832CA2A7_OFFSET UNITYSDK_OFFSET(0x1B776210)
+#define RPG_GAMECORE_SO_SENDMESSAGE__CTOR_OFFSET UNITYSDK_OFFSET(0x1B776200)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SO_SendMessage_TypeDefinitionIndex = 18941;
+	inline static constexpr unsigned int SO_SendMessage_TypeDefinitionIndex = 19291;
 
 	class SO_SendMessage : public ::RPG::GameCore::SOTaskConfig
 	{
@@ -23,9 +23,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SO_SENDMESSAGE__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_4_46C48CBA06B4E9F6(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SO_SendMessage*& a2)
+		static ::System::Void Method_4_DB61BFF33571926C(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SO_SendMessage*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SO_SendMessage*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SO_SENDMESSAGE_METHOD_4_46C48CBA06B4E9F6_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SO_SendMessage*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SO_SENDMESSAGE_METHOD_4_DB61BFF33571926C_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_4_FE35FABD832CA2A7(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SO_SendMessage* a2)

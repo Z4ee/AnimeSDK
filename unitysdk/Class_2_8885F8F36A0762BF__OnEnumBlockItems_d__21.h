@@ -1,0 +1,73 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+
+class Class_0_16E4307DCC419505_87;
+class Class_0_16E4307DCC419505_95;
+class Class_2_8885F8F36A0762BF;
+namespace System::Collections { class IEnumerator; }
+namespace System::Collections::Generic { template <typename T> class IEnumerator_1; }
+
+#define CLASS_2_8885F8F36A0762BF__ONENUMBLOCKITEMS_D__21_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x16DD91C0)
+#define CLASS_2_8885F8F36A0762BF__ONENUMBLOCKITEMS_D__21_SYSTEM_COLLECTIONS_GENERIC_IENUMERABLE_RPG_CLIENT_IBLOCKITEM__GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x16DD98F0)
+#define CLASS_2_8885F8F36A0762BF__ONENUMBLOCKITEMS_D__21_SYSTEM_COLLECTIONS_GENERIC_IENUMERATOR_RPG_CLIENT_IBLOCKITEM__GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x16DD9880)
+#define CLASS_2_8885F8F36A0762BF__ONENUMBLOCKITEMS_D__21_SYSTEM_COLLECTIONS_IENUMERABLE_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x16DD9950)
+#define CLASS_2_8885F8F36A0762BF__ONENUMBLOCKITEMS_D__21_SYSTEM_COLLECTIONS_IENUMERATOR_GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x16DD98E0)
+#define CLASS_2_8885F8F36A0762BF__ONENUMBLOCKITEMS_D__21_SYSTEM_COLLECTIONS_IENUMERATOR_RESET_OFFSET UNITYSDK_OFFSET(0x16DD9890)
+#define CLASS_2_8885F8F36A0762BF__ONENUMBLOCKITEMS_D__21_SYSTEM_IDISPOSABLE_DISPOSE_OFFSET UNITYSDK_OFFSET(0x16DD91B0)
+#define CLASS_2_8885F8F36A0762BF__ONENUMBLOCKITEMS_D__21__CTOR_OFFSET UNITYSDK_OFFSET(0x16DD7CC0)
+
+inline static constexpr unsigned int Class_2_8885F8F36A0762BF__OnEnumBlockItems_d__21_TypeDefinitionIndex = 56832;
+
+class Class_2_8885F8F36A0762BF__OnEnumBlockItems_d__21 : public ::System::Object
+{
+public:
+	::Class_2_8885F8F36A0762BF* __4__this; // 0x10
+	::Class_0_16E4307DCC419505_95* _indexStream_5__3; // 0x18
+	::Class_0_16E4307DCC419505_95* _indexInfo_5__2; // 0x20
+	::Class_0_16E4307DCC419505_87* __2__current; // 0x28
+	::System::Int32 __1__state; // 0x30
+	::System::Int32 _count_5__4; // 0x34
+	::System::Int32 __l__initialThreadId; // 0x38
+	::System::Int32 _i_5__5; // 0x3C
+
+	::System::Void _ctor(::System::Int32 a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + CLASS_2_8885F8F36A0762BF__ONENUMBLOCKITEMS_D__21__CTOR_OFFSET))(this, a1);
+	}
+
+	::System::Void System_IDisposable_Dispose()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_8885F8F36A0762BF__ONENUMBLOCKITEMS_D__21_SYSTEM_IDISPOSABLE_DISPOSE_OFFSET))(this);
+	}
+
+	::System::Boolean MoveNext()
+	{
+		return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_8885F8F36A0762BF__ONENUMBLOCKITEMS_D__21_MOVENEXT_OFFSET))(this);
+	}
+
+	::Class_0_16E4307DCC419505_87* System_Collections_Generic_IEnumerator_RPG_Client_IBlockItem__get_Current()
+	{
+		return ((::Class_0_16E4307DCC419505_87*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_8885F8F36A0762BF__ONENUMBLOCKITEMS_D__21_SYSTEM_COLLECTIONS_GENERIC_IENUMERATOR_RPG_CLIENT_IBLOCKITEM__GET_CURRENT_OFFSET))(this);
+	}
+
+	::System::Void System_Collections_IEnumerator_Reset()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_8885F8F36A0762BF__ONENUMBLOCKITEMS_D__21_SYSTEM_COLLECTIONS_IENUMERATOR_RESET_OFFSET))(this);
+	}
+
+	::System::Object* System_Collections_IEnumerator_get_Current()
+	{
+		return ((::System::Object*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_8885F8F36A0762BF__ONENUMBLOCKITEMS_D__21_SYSTEM_COLLECTIONS_IENUMERATOR_GET_CURRENT_OFFSET))(this);
+	}
+
+	::System::Collections::Generic::IEnumerator_1<::Class_0_16E4307DCC419505_87*>* System_Collections_Generic_IEnumerable_RPG_Client_IBlockItem__GetEnumerator()
+	{
+		return ((::System::Collections::Generic::IEnumerator_1<::Class_0_16E4307DCC419505_87*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_8885F8F36A0762BF__ONENUMBLOCKITEMS_D__21_SYSTEM_COLLECTIONS_GENERIC_IENUMERABLE_RPG_CLIENT_IBLOCKITEM__GETENUMERATOR_OFFSET))(this);
+	}
+
+	::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator()
+	{
+		return ((::System::Collections::IEnumerator*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_8885F8F36A0762BF__ONENUMBLOCKITEMS_D__21_SYSTEM_COLLECTIONS_IENUMERABLE_GETENUMERATOR_OFFSET))(this);
+	}
+};

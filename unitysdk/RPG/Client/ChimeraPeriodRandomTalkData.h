@@ -6,21 +6,21 @@ namespace RPG::Client { class ChimeraPeriodRandomTalkData_AccWeightedTalkData; }
 namespace RPG::Client { class ChimeraTalkData; }
 namespace RPG::GameCore { class ChimeraPeriodicRandomTalk; }
 
-#define RPG_CLIENT_CHIMERAPERIODRANDOMTALKDATA_GET_CHIMERAID_OFFSET UNITYSDK_OFFSET(0xB6B3660)
-#define RPG_CLIENT_CHIMERAPERIODRANDOMTALKDATA_GET_INTERVAL_OFFSET UNITYSDK_OFFSET(0xB6B3670)
-#define RPG_CLIENT_CHIMERAPERIODRANDOMTALKDATA_SAMPLE_OFFSET UNITYSDK_OFFSET(0xB6B3A80)
-#define RPG_CLIENT_CHIMERAPERIODRANDOMTALKDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xB6B3680)
+#define RPG_CLIENT_CHIMERAPERIODRANDOMTALKDATA_GET_CHIMERAID_OFFSET UNITYSDK_OFFSET(0x19B06D70)
+#define RPG_CLIENT_CHIMERAPERIODRANDOMTALKDATA_GET_INTERVAL_OFFSET UNITYSDK_OFFSET(0x19B06D80)
+#define RPG_CLIENT_CHIMERAPERIODRANDOMTALKDATA_SAMPLE_OFFSET UNITYSDK_OFFSET(0x19B07090)
+#define RPG_CLIENT_CHIMERAPERIODRANDOMTALKDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x19B06D90)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ChimeraPeriodRandomTalkData_TypeDefinitionIndex = 59435;
+	inline static constexpr unsigned int ChimeraPeriodRandomTalkData_TypeDefinitionIndex = 60706;
 
 	class ChimeraPeriodRandomTalkData : public ::System::Object
 	{
 	public:
 		::Il2CppArray<::RPG::Client::ChimeraPeriodRandomTalkData_AccWeightedTalkData*>* _AccWeightedTalks; // 0x10
-		::System::Single _Interval_k__BackingField; // 0x18
-		::System::UInt32 _ChimeraID_k__BackingField; // 0x1C
+		::System::UInt32 _ChimeraID_k__BackingField; // 0x18
+		::System::Single _Interval_k__BackingField; // 0x1C
 
 		::System::Void _ctor(::System::UInt32 a1, ::RPG::GameCore::ChimeraPeriodicRandomTalk* a2)
 		{

@@ -4,7 +4,7 @@
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int AccelerationEvent_TypeDefinitionIndex = 5255;
+	inline static constexpr unsigned int AccelerationEvent_TypeDefinitionIndex = 5260;
 
 	struct alignas(4) AccelerationEvent
 	{

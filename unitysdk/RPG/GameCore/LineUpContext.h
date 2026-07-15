@@ -5,17 +5,18 @@
 #include "unitysdk/RPG/GameCore/StageType.h"
 #include "unitysdk/System/Object.h"
 
-class Class_1_07A210D994F284D8_4;
+class Class_1_07A210D994F284D8_5;
 class Class_1_08B5ACC5F83BB932;
+class Class_1_22B8FDC4E33ACC56;
 class Class_1_3F916053B9BB8D97;
 class Class_1_5F0CB4974A75F258;
 class Class_1_60D44DC008A2AE94;
-class Class_1_7AB88D713F5121B3_43;
-class Class_1_7AB88D713F5121B3_44;
 class Class_1_7AB88D713F5121B3_45;
-class Class_1_82B09E39D0F93215;
+class Class_1_7AB88D713F5121B3_46;
+class Class_1_7AB88D713F5121B3_47;
+class Class_1_9F8A90B6D6D276E5;
 class Class_1_B66FD2332404CEBB;
-class Class_1_E5506B2509E2F0C8;
+class Class_1_CC0B29182510F813;
 namespace RPG::GameCore { class BattleRogueData; }
 namespace RPG::GameCore { class MazeBuffData; }
 namespace RPG::GameCore { class StageRow; }
@@ -23,65 +24,66 @@ namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_GAMECORE_LINEUPCONTEXT_DEEPCLONE_OFFSET UNITYSDK_OFFSET(0xCE588A0)
-#define RPG_GAMECORE_LINEUPCONTEXT_GETBATTLEACHIEVEMENTDATA_OFFSET UNITYSDK_OFFSET(0xCE581E0)
-#define RPG_GAMECORE_LINEUPCONTEXT_GETBATTLERAIDTARGETDATA_OFFSET UNITYSDK_OFFSET(0xCE583C0)
-#define RPG_GAMECORE_LINEUPCONTEXT_GETMONSTERWAVELIST_OFFSET UNITYSDK_OFFSET(0xCE58050)
-#define RPG_GAMECORE_LINEUPCONTEXT_GETMONSTERWAVESTAGECOUNT_OFFSET UNITYSDK_OFFSET(0xCE58090)
-#define RPG_GAMECORE_LINEUPCONTEXT_GETROGUEGOALDATA_OFFSET UNITYSDK_OFFSET(0xCE585C0)
-#define RPG_GAMECORE_LINEUPCONTEXT_GET_MAXWAVEOVERRIDE_OFFSET UNITYSDK_OFFSET(0xCE598B0)
-#define RPG_GAMECORE_LINEUPCONTEXT_GET_STAGEBINDINGMAZEBUFFDATALIST_OFFSET UNITYSDK_OFFSET(0xCE59840)
-#define RPG_GAMECORE_LINEUPCONTEXT_GET_STAGECONFIG_OFFSET UNITYSDK_OFFSET(0xCE594A0)
-#define RPG_GAMECORE_LINEUPCONTEXT_GET_STAGEID_OFFSET UNITYSDK_OFFSET(0xCE591D0)
-#define RPG_GAMECORE_LINEUPCONTEXT_GET_STAGETYPE_OFFSET UNITYSDK_OFFSET(0xCE59480)
-#define RPG_GAMECORE_LINEUPCONTEXT_GET_TREATWAVESASINFINITE_OFFSET UNITYSDK_OFFSET(0xCE598C0)
-#define RPG_GAMECORE_LINEUPCONTEXT_GET_TYPE_OFFSET UNITYSDK_OFFSET(0xCE591B0)
-#define RPG_GAMECORE_LINEUPCONTEXT_GET_WAVECOUNT_OFFSET UNITYSDK_OFFSET(0xCE59850)
-#define RPG_GAMECORE_LINEUPCONTEXT_HASMAZEBUFFDATA_OFFSET UNITYSDK_OFFSET(0xCE597B0)
-#define RPG_GAMECORE_LINEUPCONTEXT_RESET_OFFSET UNITYSDK_OFFSET(0xCE57F20)
-#define RPG_GAMECORE_LINEUPCONTEXT_SETWAVESBYOVERRIDE_OFFSET UNITYSDK_OFFSET(0xCE587C0)
-#define RPG_GAMECORE_LINEUPCONTEXT_SET_STAGEID_OFFSET UNITYSDK_OFFSET(0xCE57FF0)
-#define RPG_GAMECORE_LINEUPCONTEXT_SET_STAGETYPE_OFFSET UNITYSDK_OFFSET(0xCE59490)
-#define RPG_GAMECORE_LINEUPCONTEXT_SET_TYPE_OFFSET UNITYSDK_OFFSET(0xCE591C0)
-#define RPG_GAMECORE_LINEUPCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0xCE59170)
-#define RPG_GAMECORE_LINEUPCONTEXT__ONSTAGEIDCHANGED_OFFSET UNITYSDK_OFFSET(0xCE591E0)
-#define RPG_GAMECORE_LINEUPCONTEXT__SETUPSTAGEBINDINGMAZEBUFFDATA_OFFSET UNITYSDK_OFFSET(0xCE59500)
+#define RPG_GAMECORE_LINEUPCONTEXT_DEEPCLONE_OFFSET UNITYSDK_OFFSET(0x1978BEE0)
+#define RPG_GAMECORE_LINEUPCONTEXT_GETBATTLEACHIEVEMENTDATA_OFFSET UNITYSDK_OFFSET(0x1978B7E0)
+#define RPG_GAMECORE_LINEUPCONTEXT_GETBATTLERAIDTARGETDATA_OFFSET UNITYSDK_OFFSET(0x1978B9C0)
+#define RPG_GAMECORE_LINEUPCONTEXT_GETMONSTERWAVELIST_OFFSET UNITYSDK_OFFSET(0x1978B650)
+#define RPG_GAMECORE_LINEUPCONTEXT_GETMONSTERWAVESTAGECOUNT_OFFSET UNITYSDK_OFFSET(0x1978B690)
+#define RPG_GAMECORE_LINEUPCONTEXT_GETROGUEGOALDATA_OFFSET UNITYSDK_OFFSET(0x1978BBE0)
+#define RPG_GAMECORE_LINEUPCONTEXT_GET_MAXWAVEOVERRIDE_OFFSET UNITYSDK_OFFSET(0x1978CEF0)
+#define RPG_GAMECORE_LINEUPCONTEXT_GET_STAGEBINDINGMAZEBUFFDATALIST_OFFSET UNITYSDK_OFFSET(0x1978CE80)
+#define RPG_GAMECORE_LINEUPCONTEXT_GET_STAGECONFIG_OFFSET UNITYSDK_OFFSET(0x1978CAF0)
+#define RPG_GAMECORE_LINEUPCONTEXT_GET_STAGEID_OFFSET UNITYSDK_OFFSET(0x1978C820)
+#define RPG_GAMECORE_LINEUPCONTEXT_GET_STAGETYPE_OFFSET UNITYSDK_OFFSET(0x1978CAD0)
+#define RPG_GAMECORE_LINEUPCONTEXT_GET_TREATWAVESASINFINITE_OFFSET UNITYSDK_OFFSET(0x1978CF00)
+#define RPG_GAMECORE_LINEUPCONTEXT_GET_TYPE_OFFSET UNITYSDK_OFFSET(0x1978C800)
+#define RPG_GAMECORE_LINEUPCONTEXT_GET_WAVECOUNT_OFFSET UNITYSDK_OFFSET(0x1978CE90)
+#define RPG_GAMECORE_LINEUPCONTEXT_HASMAZEBUFFDATA_OFFSET UNITYSDK_OFFSET(0x1978CE00)
+#define RPG_GAMECORE_LINEUPCONTEXT_RESET_OFFSET UNITYSDK_OFFSET(0x1978B520)
+#define RPG_GAMECORE_LINEUPCONTEXT_SETWAVESBYOVERRIDE_OFFSET UNITYSDK_OFFSET(0x1978BE00)
+#define RPG_GAMECORE_LINEUPCONTEXT_SET_STAGEID_OFFSET UNITYSDK_OFFSET(0x1978B5F0)
+#define RPG_GAMECORE_LINEUPCONTEXT_SET_STAGETYPE_OFFSET UNITYSDK_OFFSET(0x1978CAE0)
+#define RPG_GAMECORE_LINEUPCONTEXT_SET_TYPE_OFFSET UNITYSDK_OFFSET(0x1978C810)
+#define RPG_GAMECORE_LINEUPCONTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x1978C7C0)
+#define RPG_GAMECORE_LINEUPCONTEXT__ONSTAGEIDCHANGED_OFFSET UNITYSDK_OFFSET(0x1978C830)
+#define RPG_GAMECORE_LINEUPCONTEXT__SETUPSTAGEBINDINGMAZEBUFFDATA_OFFSET UNITYSDK_OFFSET(0x1978CB50)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LineUpContext_TypeDefinitionIndex = 52560;
+	inline static constexpr unsigned int LineUpContext_TypeDefinitionIndex = 53764;
 
 	class LineUpContext : public ::System::Object
 	{
 	public:
-		::Il2CppArray<::RPG::GameCore::MazeBuffData*>* MazeBuffDataList; // 0x10
+		::Il2CppArray<::Class_1_7AB88D713F5121B3_45*>* BattleTargetList; // 0x10
 		::Il2CppArray<::System::String*>* AdditionBattleLoseConditions; // 0x18
-		::Il2CppArray<::Class_1_7AB88D713F5121B3_44*>* BattleRougeGoalList; // 0x20
-		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::Class_1_7AB88D713F5121B3_45*>* _BattleRaidTargetDataMap; // 0x28
-		::Il2CppArray<::Class_1_07A210D994F284D8_4*>* BattleAchievementList; // 0x30
-		::Il2CppArray<::RPG::GameCore::MazeBuffData*>* _StageBindingMazeBuffDataList; // 0x38
-		::System::Collections::Generic::List_1<::Class_1_3F916053B9BB8D97*>* _MonsterWaves; // 0x40
-		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::Class_1_07A210D994F284D8_4*>* _BattleAchievementDataMap; // 0x48
-		::RPG::GameCore::BattleRogueData* BattleRogueData; // 0x50
-		::Il2CppArray<::Class_1_7AB88D713F5121B3_45*>* BattleRaidTargetList; // 0x58
-		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::Class_1_7AB88D713F5121B3_44*>* _BattleChallengeScoreDataMap; // 0x60
-		::Il2CppArray<::System::String*>* AdditionBattleWinConditions; // 0x68
-		::Il2CppArray<::Class_1_60D44DC008A2AE94*>* MonsterRewardList; // 0x70
-		::Il2CppArray<::Class_1_5F0CB4974A75F258*>* AvatarExtraAbilityList; // 0x78
-		::Class_1_B66FD2332404CEBB* BattleEvolveBuildData; // 0x80
-		::Il2CppArray<::Class_1_7AB88D713F5121B3_43*>* BattleTargetList; // 0x88
-		::Class_1_82B09E39D0F93215* BattleGridFightData; // 0x90
-		::Class_1_08B5ACC5F83BB932* BattleSwordTrainingData; // 0x98
-		::System::Collections::Generic::List_1<::RPG::GameCore::MazeBuffData*>* GeneratedBindingBuffList; // 0xA0
-		::Il2CppArray<::Class_1_7AB88D713F5121B3_43*>* BattleScoreList; // 0xA8
-		::Class_1_E5506B2509E2F0C8* BattleFateData; // 0xB0
-		::System::UInt32 _StageID; // 0xB8
-		::Enum_3_71AA90D596A09AC8_2 _Type_k__BackingField; // 0xBC
-		::RPG::GameCore::StageType _StageType_k__BackingField; // 0xC0
-		::System::Boolean _GetOverrideWaveFlag; // 0xC4
-		::RPG::GameCore::RogueMode BattleRogueMode; // 0xC8
-		::System::UInt32 BattleActionEventId; // 0xCC
-		::System::UInt32 _MaxWaveOverride; // 0xD0
+		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::Class_1_07A210D994F284D8_5*>* _BattleAchievementDataMap; // 0x20
+		::Il2CppArray<::RPG::GameCore::MazeBuffData*>* _StageBindingMazeBuffDataList; // 0x28
+		::RPG::GameCore::BattleRogueData* BattleRogueData; // 0x30
+		::Il2CppArray<::Class_1_07A210D994F284D8_5*>* BattleAchievementList; // 0x38
+		::System::Collections::Generic::List_1<::RPG::GameCore::MazeBuffData*>* GeneratedBindingBuffList; // 0x40
+		::Class_1_9F8A90B6D6D276E5* BattleFateData; // 0x48
+		::Class_1_CC0B29182510F813* BattleFateRinData; // 0x50
+		::System::Collections::Generic::List_1<::Class_1_3F916053B9BB8D97*>* _MonsterWaves; // 0x58
+		::Il2CppArray<::Class_1_7AB88D713F5121B3_46*>* BattleRaidTargetList; // 0x60
+		::Il2CppArray<::Class_1_60D44DC008A2AE94*>* MonsterRewardList; // 0x68
+		::Il2CppArray<::RPG::GameCore::MazeBuffData*>* MazeBuffDataList; // 0x70
+		::Il2CppArray<::Class_1_7AB88D713F5121B3_47*>* BattleRougeGoalList; // 0x78
+		::Class_1_22B8FDC4E33ACC56* BattleGridFightData; // 0x80
+		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::Class_1_7AB88D713F5121B3_47*>* _BattleChallengeScoreDataMap; // 0x88
+		::Il2CppArray<::Class_1_5F0CB4974A75F258*>* AvatarExtraAbilityList; // 0x90
+		::Il2CppArray<::Class_1_7AB88D713F5121B3_45*>* BattleScoreList; // 0x98
+		::Class_1_B66FD2332404CEBB* BattleEvolveBuildData; // 0xA0
+		::Il2CppArray<::System::String*>* AdditionBattleWinConditions; // 0xA8
+		::Class_1_08B5ACC5F83BB932* BattleSwordTrainingData; // 0xB0
+		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::Class_1_7AB88D713F5121B3_46*>* _BattleRaidTargetDataMap; // 0xB8
+		::System::UInt32 _StageID; // 0xC0
+		::RPG::GameCore::RogueMode BattleRogueMode; // 0xC4
+		::System::UInt32 _MaxWaveOverride; // 0xC8
+		::System::Boolean _GetOverrideWaveFlag; // 0xCC
+		::System::UInt32 BattleActionEventId; // 0xD0
+		::Enum_3_71AA90D596A09AC8_2 _Type_k__BackingField; // 0xD4
+		::RPG::GameCore::StageType _StageType_k__BackingField; // 0xD8
 
 		::System::Void _ctor()
 		{
@@ -103,19 +105,19 @@ namespace RPG::GameCore
 			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LINEUPCONTEXT_GETMONSTERWAVESTAGECOUNT_OFFSET))(this);
 		}
 
-		::Class_1_07A210D994F284D8_4* GetBattleAchievementData(::System::UInt32 a1)
+		::Class_1_07A210D994F284D8_5* GetBattleAchievementData(::System::UInt32 a1)
 		{
-			return ((::Class_1_07A210D994F284D8_4*(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LINEUPCONTEXT_GETBATTLEACHIEVEMENTDATA_OFFSET))(this, a1);
+			return ((::Class_1_07A210D994F284D8_5*(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LINEUPCONTEXT_GETBATTLEACHIEVEMENTDATA_OFFSET))(this, a1);
 		}
 
-		::Class_1_7AB88D713F5121B3_45* GetBattleRaidTargetData(::System::UInt32 a1)
+		::Class_1_7AB88D713F5121B3_46* GetBattleRaidTargetData(::System::UInt32 a1)
 		{
-			return ((::Class_1_7AB88D713F5121B3_45*(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LINEUPCONTEXT_GETBATTLERAIDTARGETDATA_OFFSET))(this, a1);
+			return ((::Class_1_7AB88D713F5121B3_46*(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LINEUPCONTEXT_GETBATTLERAIDTARGETDATA_OFFSET))(this, a1);
 		}
 
-		::Class_1_7AB88D713F5121B3_44* GetRogueGoalData(::System::UInt32 a1)
+		::Class_1_7AB88D713F5121B3_47* GetRogueGoalData(::System::UInt32 a1)
 		{
-			return ((::Class_1_7AB88D713F5121B3_44*(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LINEUPCONTEXT_GETROGUEGOALDATA_OFFSET))(this, a1);
+			return ((::Class_1_7AB88D713F5121B3_47*(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LINEUPCONTEXT_GETROGUEGOALDATA_OFFSET))(this, a1);
 		}
 
 		::System::Void SetWavesByOverride(::Il2CppArray<::Class_1_3F916053B9BB8D97*>* a1, ::System::UInt32 a2)

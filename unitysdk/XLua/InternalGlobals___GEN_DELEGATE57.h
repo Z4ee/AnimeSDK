@@ -1,21 +1,23 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/RPG/GameCore/AttackDamageType.h"
+#include "unitysdk/RPG/GameCore/MonsterRank.h"
+#include "unitysdk/Struct_2_A98C406BD653F8E9.h"
 #include "unitysdk/System/MulticastDelegate.h"
-#include "unitysdk/System/Numerics/BigInteger.h"
 
-class Class_1_075C34D03AFA1215_81;
 namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
+namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define XLUA_INTERNALGLOBALS___GEN_DELEGATE57_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x12E8AB30)
-#define XLUA_INTERNALGLOBALS___GEN_DELEGATE57_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x12E8AB60)
-#define XLUA_INTERNALGLOBALS___GEN_DELEGATE57_INVOKE_OFFSET UNITYSDK_OFFSET(0x12E8AB10)
-#define XLUA_INTERNALGLOBALS___GEN_DELEGATE57__CTOR_OFFSET UNITYSDK_OFFSET(0x12E8AAA0)
+#define XLUA_INTERNALGLOBALS___GEN_DELEGATE57_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x10BDE6C0)
+#define XLUA_INTERNALGLOBALS___GEN_DELEGATE57_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x10BDE740)
+#define XLUA_INTERNALGLOBALS___GEN_DELEGATE57_INVOKE_OFFSET UNITYSDK_OFFSET(0x10BDE6A0)
+#define XLUA_INTERNALGLOBALS___GEN_DELEGATE57__CTOR_OFFSET UNITYSDK_OFFSET(0x10BDE5B0)
 
 namespace XLua
 {
-	inline static constexpr unsigned int InternalGlobals___GEN_DELEGATE57_TypeDefinitionIndex = 46973;
+	inline static constexpr unsigned int InternalGlobals___GEN_DELEGATE57_TypeDefinitionIndex = 47938;
 
 	class InternalGlobals___GEN_DELEGATE57 : public ::System::MulticastDelegate
 	{
@@ -25,19 +27,19 @@ namespace XLua
 			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + XLUA_INTERNALGLOBALS___GEN_DELEGATE57__CTOR_OFFSET))(this, a1, a2);
 		}
 
-		::System::Numerics::BigInteger Invoke(::Class_1_075C34D03AFA1215_81* a1)
+		::System::Boolean Invoke(::System::Collections::Generic::List_1<::Struct_2_A98C406BD653F8E9>* a1, ::RPG::GameCore::AttackDamageType a2, ::RPG::GameCore::MonsterRank a3)
 		{
-			return ((::System::Numerics::BigInteger(*)(::PVOID, ::Class_1_075C34D03AFA1215_81*))((::PBYTE)hIl2Cpp + XLUA_INTERNALGLOBALS___GEN_DELEGATE57_INVOKE_OFFSET))(this, a1);
+			return ((::System::Boolean(*)(::PVOID, ::System::Collections::Generic::List_1<::Struct_2_A98C406BD653F8E9>*, ::RPG::GameCore::AttackDamageType, ::RPG::GameCore::MonsterRank))((::PBYTE)hIl2Cpp + XLUA_INTERNALGLOBALS___GEN_DELEGATE57_INVOKE_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::IAsyncResult* BeginInvoke(::Class_1_075C34D03AFA1215_81* a1, ::System::AsyncCallback* a2, ::System::Object* a3)
+		::System::IAsyncResult* BeginInvoke(::System::Collections::Generic::List_1<::Struct_2_A98C406BD653F8E9>* a1, ::RPG::GameCore::AttackDamageType a2, ::RPG::GameCore::MonsterRank a3, ::System::AsyncCallback* a4, ::System::Object* a5)
 		{
-			return ((::System::IAsyncResult*(*)(::PVOID, ::Class_1_075C34D03AFA1215_81*, ::System::AsyncCallback*, ::System::Object*))((::PBYTE)hIl2Cpp + XLUA_INTERNALGLOBALS___GEN_DELEGATE57_BEGININVOKE_OFFSET))(this, a1, a2, a3);
+			return ((::System::IAsyncResult*(*)(::PVOID, ::System::Collections::Generic::List_1<::Struct_2_A98C406BD653F8E9>*, ::RPG::GameCore::AttackDamageType, ::RPG::GameCore::MonsterRank, ::System::AsyncCallback*, ::System::Object*))((::PBYTE)hIl2Cpp + XLUA_INTERNALGLOBALS___GEN_DELEGATE57_BEGININVOKE_OFFSET))(this, a1, a2, a3, a4, a5);
 		}
 
-		::System::Numerics::BigInteger EndInvoke(::System::IAsyncResult* a1)
+		::System::Boolean EndInvoke(::System::IAsyncResult* a1)
 		{
-			return ((::System::Numerics::BigInteger(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + XLUA_INTERNALGLOBALS___GEN_DELEGATE57_ENDINVOKE_OFFSET))(this, a1);
+			return ((::System::Boolean(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + XLUA_INTERNALGLOBALS___GEN_DELEGATE57_ENDINVOKE_OFFSET))(this, a1);
 		}
 	};
 }

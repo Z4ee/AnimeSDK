@@ -5,12 +5,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class LevelGroupMainMissionIssuePatch; }
 
-#define RPG_GAMECORE_LEVELGROUPMAINMISSIONISSUEPATCHLIST_METHOD_2_23E9493227E568AC_OFFSET UNITYSDK_OFFSET(0x19878490)
-#define RPG_GAMECORE_LEVELGROUPMAINMISSIONISSUEPATCHLIST__CTOR_OFFSET UNITYSDK_OFFSET(0x19878550)
+#define RPG_GAMECORE_LEVELGROUPMAINMISSIONISSUEPATCHLIST_METHOD_2_23E9493227E568AC_OFFSET UNITYSDK_OFFSET(0x1B070410)
+#define RPG_GAMECORE_LEVELGROUPMAINMISSIONISSUEPATCHLIST__CTOR_OFFSET UNITYSDK_OFFSET(0x1B0704D0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LevelGroupMainMissionIssuePatchList_TypeDefinitionIndex = 16507;
+	inline static constexpr unsigned int LevelGroupMainMissionIssuePatchList_TypeDefinitionIndex = 16669;
 
 	class LevelGroupMainMissionIssuePatchList : public ::RPG::GameCore::JsonConfig
 	{

@@ -5,12 +5,12 @@
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine { class Renderer; }
 
-#define RPG_CLIENT_MONOEFFECTDECORATELINECONTROL_UPDATE_OFFSET UNITYSDK_OFFSET(0xC089250)
-#define RPG_CLIENT_MONOEFFECTDECORATELINECONTROL__CTOR_OFFSET UNITYSDK_OFFSET(0xC0895B0)
+#define RPG_CLIENT_MONOEFFECTDECORATELINECONTROL_UPDATE_OFFSET UNITYSDK_OFFSET(0x10CE23A0)
+#define RPG_CLIENT_MONOEFFECTDECORATELINECONTROL__CTOR_OFFSET UNITYSDK_OFFSET(0x10CE2700)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MonoEffectDecorateLineControl_TypeDefinitionIndex = 66147;
+	inline static constexpr unsigned int MonoEffectDecorateLineControl_TypeDefinitionIndex = 67572;
 
 	class MonoEffectDecorateLineControl : public ::UnityEngine::MonoBehaviour
 	{

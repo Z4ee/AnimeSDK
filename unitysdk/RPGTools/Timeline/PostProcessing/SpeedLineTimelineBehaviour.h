@@ -8,13 +8,12 @@
 namespace RPG::CustomRP { class RPGSpeedLine; }
 namespace System { class Object; }
 
-#define RPGTOOLS_TIMELINE_POSTPROCESSING_SPEEDLINETIMELINEBEHAVIOUR_PROCESSFRAME_OFFSET UNITYSDK_OFFSET(0xD046E70)
-#define RPGTOOLS_TIMELINE_POSTPROCESSING_SPEEDLINETIMELINEBEHAVIOUR__CTOR_OFFSET UNITYSDK_OFFSET(0xD0473D0)
-#define RPGTOOLS_TIMELINE_POSTPROCESSING_SPEEDLINETIMELINEBEHAVIOUR___IFIXBASEPROXY_PROCESSFRAME_OFFSET UNITYSDK_OFFSET(0xD047450)
+#define RPGTOOLS_TIMELINE_POSTPROCESSING_SPEEDLINETIMELINEBEHAVIOUR_PROCESSFRAME_OFFSET UNITYSDK_OFFSET(0x199A6B80)
+#define RPGTOOLS_TIMELINE_POSTPROCESSING_SPEEDLINETIMELINEBEHAVIOUR__CTOR_OFFSET UNITYSDK_OFFSET(0x199A7720)
 
 namespace RPGTools::Timeline::PostProcessing
 {
-	inline static constexpr unsigned int SpeedLineTimelineBehaviour_TypeDefinitionIndex = 45885;
+	inline static constexpr unsigned int SpeedLineTimelineBehaviour_TypeDefinitionIndex = 46824;
 
 	class SpeedLineTimelineBehaviour : public ::RPGTools::Timeline::PostProcessing::BasePlayableBehaviour_1<::RPG::CustomRP::RPGSpeedLine*>
 	{
@@ -30,11 +29,6 @@ namespace RPGTools::Timeline::PostProcessing
 		::System::Void ProcessFrame(::UnityEngine::Playables::Playable a1, ::UnityEngine::Playables::FrameData a2, ::System::Object* a3)
 		{
 			return ((::System::Void(*)(::PVOID, ::UnityEngine::Playables::Playable, ::UnityEngine::Playables::FrameData, ::System::Object*))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_POSTPROCESSING_SPEEDLINETIMELINEBEHAVIOUR_PROCESSFRAME_OFFSET))(this, a1, a2, a3);
-		}
-
-		::System::Void __iFixBaseProxy_ProcessFrame(::UnityEngine::Playables::Playable a1, ::UnityEngine::Playables::FrameData a2, ::System::Object* a3)
-		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Playables::Playable, ::UnityEngine::Playables::FrameData, ::System::Object*))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_POSTPROCESSING_SPEEDLINETIMELINEBEHAVIOUR___IFIXBASEPROXY_PROCESSFRAME_OFFSET))(this, a1, a2, a3);
 		}
 	};
 }

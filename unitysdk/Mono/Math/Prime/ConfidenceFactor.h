@@ -3,7 +3,7 @@
 
 namespace Mono::Math::Prime
 {
-	inline static constexpr unsigned int ConfidenceFactor_TypeDefinitionIndex = 2307;
+	inline static constexpr unsigned int ConfidenceFactor_TypeDefinitionIndex = 2311;
 
 	enum class ConfidenceFactor : ::System::Int32
 	{

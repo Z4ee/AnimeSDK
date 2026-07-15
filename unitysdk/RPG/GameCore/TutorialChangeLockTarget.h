@@ -5,13 +5,13 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_TUTORIALCHANGELOCKTARGET_METHOD_3_8B5562BBB66C9948_OFFSET UNITYSDK_OFFSET(0x19E26200)
-#define RPG_GAMECORE_TUTORIALCHANGELOCKTARGET_METHOD_3_B8B011864FC57177_OFFSET UNITYSDK_OFFSET(0x19E26180)
-#define RPG_GAMECORE_TUTORIALCHANGELOCKTARGET__CTOR_OFFSET UNITYSDK_OFFSET(0x19E261D0)
+#define RPG_GAMECORE_TUTORIALCHANGELOCKTARGET_METHOD_3_8B5562BBB66C9948_OFFSET UNITYSDK_OFFSET(0x1B067D00)
+#define RPG_GAMECORE_TUTORIALCHANGELOCKTARGET_METHOD_3_963E8A4E94236465_OFFSET UNITYSDK_OFFSET(0x1B067CC0)
+#define RPG_GAMECORE_TUTORIALCHANGELOCKTARGET__CTOR_OFFSET UNITYSDK_OFFSET(0x1B067CF0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TutorialChangeLockTarget_TypeDefinitionIndex = 23023;
+	inline static constexpr unsigned int TutorialChangeLockTarget_TypeDefinitionIndex = 23490;
 
 	class TutorialChangeLockTarget : public ::RPG::GameCore::TaskConfig
 	{
@@ -25,9 +25,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TUTORIALCHANGELOCKTARGET__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_B8B011864FC57177(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::TutorialChangeLockTarget*& a2)
+		static ::System::Void Method_3_963E8A4E94236465(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::TutorialChangeLockTarget*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::TutorialChangeLockTarget*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TUTORIALCHANGELOCKTARGET_METHOD_3_B8B011864FC57177_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::TutorialChangeLockTarget*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TUTORIALCHANGELOCKTARGET_METHOD_3_963E8A4E94236465_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_8B5562BBB66C9948(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::TutorialChangeLockTarget* a2)

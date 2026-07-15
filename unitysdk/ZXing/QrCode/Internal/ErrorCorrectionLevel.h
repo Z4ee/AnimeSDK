@@ -4,15 +4,15 @@
 
 namespace System { class String; }
 
-#define ZXING_QRCODE_INTERNAL_ERRORCORRECTIONLEVEL_GET_BITS_OFFSET UNITYSDK_OFFSET(0x1B56E4F0)
-#define ZXING_QRCODE_INTERNAL_ERRORCORRECTIONLEVEL_ORDINAL_OFFSET UNITYSDK_OFFSET(0x1B56E500)
-#define ZXING_QRCODE_INTERNAL_ERRORCORRECTIONLEVEL_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1B56E510)
-#define ZXING_QRCODE_INTERNAL_ERRORCORRECTIONLEVEL__CCTOR_OFFSET UNITYSDK_OFFSET(0x1B56E520)
-#define ZXING_QRCODE_INTERNAL_ERRORCORRECTIONLEVEL__CTOR_OFFSET UNITYSDK_OFFSET(0x1B56E4E0)
+#define ZXING_QRCODE_INTERNAL_ERRORCORRECTIONLEVEL_GET_BITS_OFFSET UNITYSDK_OFFSET(0x15567AB0)
+#define ZXING_QRCODE_INTERNAL_ERRORCORRECTIONLEVEL_ORDINAL_OFFSET UNITYSDK_OFFSET(0x15567AC0)
+#define ZXING_QRCODE_INTERNAL_ERRORCORRECTIONLEVEL_TOSTRING_OFFSET UNITYSDK_OFFSET(0x15567AD0)
+#define ZXING_QRCODE_INTERNAL_ERRORCORRECTIONLEVEL__CCTOR_OFFSET UNITYSDK_OFFSET(0x15567AE0)
+#define ZXING_QRCODE_INTERNAL_ERRORCORRECTIONLEVEL__CTOR_OFFSET UNITYSDK_OFFSET(0x15567AA0)
 
 namespace ZXing::QrCode::Internal
 {
-	inline static constexpr unsigned int ErrorCorrectionLevel_TypeDefinitionIndex = 6468;
+	inline static constexpr unsigned int ErrorCorrectionLevel_TypeDefinitionIndex = 6473;
 
 	class ErrorCorrectionLevel : public ::System::Object
 	{
@@ -29,11 +29,11 @@ namespace ZXing::QrCode::Internal
 		{
 			return (::Il2CppArray<::ZXing::QrCode::Internal::ErrorCorrectionLevel*>**)Il2CppClass::FromTypeDefinitionIndex(ErrorCorrectionLevel_TypeDefinitionIndex)->GetStaticField(0x560);
 		}
-		static ::ZXing::QrCode::Internal::ErrorCorrectionLevel** StaticGet_Q()
+		static ::ZXing::QrCode::Internal::ErrorCorrectionLevel** StaticGet_M()
 		{
 			return (::ZXing::QrCode::Internal::ErrorCorrectionLevel**)Il2CppClass::FromTypeDefinitionIndex(ErrorCorrectionLevel_TypeDefinitionIndex)->GetStaticField(0x568);
 		}
-		static ::ZXing::QrCode::Internal::ErrorCorrectionLevel** StaticGet_M()
+		static ::ZXing::QrCode::Internal::ErrorCorrectionLevel** StaticGet_Q()
 		{
 			return (::ZXing::QrCode::Internal::ErrorCorrectionLevel**)Il2CppClass::FromTypeDefinitionIndex(ErrorCorrectionLevel_TypeDefinitionIndex)->GetStaticField(0x570);
 		}

@@ -6,11 +6,11 @@
 
 namespace System { class String; }
 
-#define CLASS_1_CBC93C4FED55FACC_METHOD_1_3139265100F812F5_OFFSET UNITYSDK_OFFSET(0x18C03430)
-#define CLASS_1_CBC93C4FED55FACC_METHOD_1_4343F372F34C05BF_OFFSET UNITYSDK_OFFSET(0x18C03630)
-#define CLASS_1_CBC93C4FED55FACC__CTOR_OFFSET UNITYSDK_OFFSET(0x18C036B0)
+#define CLASS_1_CBC93C4FED55FACC_METHOD_1_3139265100F812F5_OFFSET UNITYSDK_OFFSET(0x180CB560)
+#define CLASS_1_CBC93C4FED55FACC_METHOD_1_4343F372F34C05BF_OFFSET UNITYSDK_OFFSET(0x180CB760)
+#define CLASS_1_CBC93C4FED55FACC__CTOR_OFFSET UNITYSDK_OFFSET(0x180CB7E0)
 
-inline static constexpr unsigned int Class_1_CBC93C4FED55FACC_TypeDefinitionIndex = 38823;
+inline static constexpr unsigned int Class_1_CBC93C4FED55FACC_TypeDefinitionIndex = 39632;
 
 class Class_1_CBC93C4FED55FACC : public ::System::Object
 {
@@ -18,9 +18,9 @@ public:
 	::System::String* Field_1_0; // 0x10
 	::System::String* Field_1_1; // 0x18
 	::System::Single Field_1_2; // 0x20
-	::System::Boolean Field_1_3; // 0x24
-	::RPG::Client::TextID Field_1_4; // 0x28
-	::RPG::GameCore::ElfBehaviorStateType Field_1_5; // 0x38
+	::RPG::Client::TextID Field_1_3; // 0x28
+	::RPG::GameCore::ElfBehaviorStateType Field_1_4; // 0x38
+	::System::Boolean Field_1_5; // 0x3C
 
 	::System::Void _ctor()
 	{

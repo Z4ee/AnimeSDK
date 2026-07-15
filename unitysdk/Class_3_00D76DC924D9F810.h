@@ -8,13 +8,12 @@ namespace RPG::GameCore { class TaskContext; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_3_00D76DC924D9F810_DISPOSE_OFFSET UNITYSDK_OFFSET(0xAD422D0)
-#define CLASS_3_00D76DC924D9F810_METHOD_3_EFAE6171FF3CE93B_OFFSET UNITYSDK_OFFSET(0xAD42920)
-#define CLASS_3_00D76DC924D9F810_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xAD424C0)
-#define CLASS_3_00D76DC924D9F810__CTOR_OFFSET UNITYSDK_OFFSET(0xAD422A0)
-#define CLASS_3_00D76DC924D9F810___IFIXBASEPROXY_DISPOSE_OFFSET UNITYSDK_OFFSET(0xAD429E0)
+#define CLASS_3_00D76DC924D9F810_DISPOSE_OFFSET UNITYSDK_OFFSET(0x177D1340)
+#define CLASS_3_00D76DC924D9F810_METHOD_3_EFAE6171FF3CE93B_OFFSET UNITYSDK_OFFSET(0x177D1990)
+#define CLASS_3_00D76DC924D9F810_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x177D1530)
+#define CLASS_3_00D76DC924D9F810__CTOR_OFFSET UNITYSDK_OFFSET(0x177D1310)
 
-inline static constexpr unsigned int Class_3_00D76DC924D9F810_TypeDefinitionIndex = 54865;
+inline static constexpr unsigned int Class_3_00D76DC924D9F810_TypeDefinitionIndex = 56096;
 
 class Class_3_00D76DC924D9F810 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::StartLevelGraph*>
 {
@@ -39,10 +38,5 @@ public:
 	::RPG::GameCore::LevelGraphComponent* Method_3_EFAE6171FF3CE93B(::System::String* a1)
 	{
 		return ((::RPG::GameCore::LevelGraphComponent*(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + CLASS_3_00D76DC924D9F810_METHOD_3_EFAE6171FF3CE93B_OFFSET))(this, a1);
-	}
-
-	::System::Void __iFixBaseProxy_Dispose()
-	{
-		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_3_00D76DC924D9F810___IFIXBASEPROXY_DISPOSE_OFFSET))(this);
 	}
 };

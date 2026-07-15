@@ -4,7 +4,7 @@
 
 namespace RPG::Client::TAUtils
 {
-	inline static constexpr unsigned int MaterialPropertiesCollection_Property_1_TypeDefinitionIndex = 68711;
+	inline static constexpr unsigned int MaterialPropertiesCollection_Property_1_TypeDefinitionIndex = 70209;
 
 	template <typename T>
 	class MaterialPropertiesCollection_Property_1 : public ::RPG::Client::TAUtils::MaterialPropertiesCollection_Property

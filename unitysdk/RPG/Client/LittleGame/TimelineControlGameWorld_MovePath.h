@@ -5,7 +5,7 @@
 
 namespace RPG::Client::LittleGame
 {
-	inline static constexpr unsigned int TimelineControlGameWorld_MovePath_TypeDefinitionIndex = 39535;
+	inline static constexpr unsigned int TimelineControlGameWorld_MovePath_TypeDefinitionIndex = 40344;
 
 	struct alignas(4) TimelineControlGameWorld_MovePath
 	{

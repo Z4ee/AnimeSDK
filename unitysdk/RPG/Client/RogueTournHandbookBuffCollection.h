@@ -4,11 +4,11 @@
 
 namespace RPG::Client { class RogueTournHandbookBuffDataItem; }
 
-#define RPG_CLIENT_ROGUETOURNHANDBOOKBUFFCOLLECTION__CTOR_OFFSET UNITYSDK_OFFSET(0xC81AA20)
+#define RPG_CLIENT_ROGUETOURNHANDBOOKBUFFCOLLECTION__CTOR_OFFSET UNITYSDK_OFFSET(0x19C2CDF0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int RogueTournHandbookBuffCollection_TypeDefinitionIndex = 63289;
+	inline static constexpr unsigned int RogueTournHandbookBuffCollection_TypeDefinitionIndex = 64656;
 
 	class RogueTournHandbookBuffCollection : public ::RPG::Client::RogueTournHandbookDataCollection_2<::System::UInt32, ::RPG::Client::RogueTournHandbookBuffDataItem*>
 	{

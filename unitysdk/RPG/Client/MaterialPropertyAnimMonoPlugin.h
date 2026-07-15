@@ -6,13 +6,12 @@ namespace RPG::Client { class MaterialPropertyAnimBehavior; }
 namespace RPG::Client { class MaterialPropertyAnimBehavior_MaterialPropertyContent; }
 namespace System { class String; }
 
-#define RPG_CLIENT_MATERIALPROPERTYANIMMONOPLUGIN_GETTICKLODTEMPLATENAME_OFFSET UNITYSDK_OFFSET(0xBFB6BD0)
-#define RPG_CLIENT_MATERIALPROPERTYANIMMONOPLUGIN__CTOR_OFFSET UNITYSDK_OFFSET(0xBFB6C20)
-#define RPG_CLIENT_MATERIALPROPERTYANIMMONOPLUGIN___IFIXBASEPROXY_GETTICKLODTEMPLATENAME_OFFSET UNITYSDK_OFFSET(0xBFB6C30)
+#define RPG_CLIENT_MATERIALPROPERTYANIMMONOPLUGIN_GETTICKLODTEMPLATENAME_OFFSET UNITYSDK_OFFSET(0x1A9FD550)
+#define RPG_CLIENT_MATERIALPROPERTYANIMMONOPLUGIN__CTOR_OFFSET UNITYSDK_OFFSET(0x1A9FD5A0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MaterialPropertyAnimMonoPlugin_TypeDefinitionIndex = 66138;
+	inline static constexpr unsigned int MaterialPropertyAnimMonoPlugin_TypeDefinitionIndex = 67563;
 
 	class MaterialPropertyAnimMonoPlugin : public ::RPG::Client::TAMonoPlugin_1<::RPG::Client::MaterialPropertyAnimBehavior*>
 	{
@@ -36,11 +35,6 @@ namespace RPG::Client
 		::System::String* GetTickLodTemplateName()
 		{
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MATERIALPROPERTYANIMMONOPLUGIN_GETTICKLODTEMPLATENAME_OFFSET))(this);
-		}
-
-		::System::String* __iFixBaseProxy_GetTickLodTemplateName()
-		{
-			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MATERIALPROPERTYANIMMONOPLUGIN___IFIXBASEPROXY_GETTICKLODTEMPLATENAME_OFFSET))(this);
 		}
 	};
 }

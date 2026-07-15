@@ -4,12 +4,12 @@
 
 namespace System::Xml::Serialization { class XmlMemberMapping; }
 
-#define SYSTEM_XML_SERIALIZATION_XMLMEMBERSMAPPING_GET_COUNT_OFFSET UNITYSDK_OFFSET(0x1AE784A0)
-#define SYSTEM_XML_SERIALIZATION_XMLMEMBERSMAPPING_GET_HASWRAPPERELEMENT_OFFSET UNITYSDK_OFFSET(0x1AE784C0)
+#define SYSTEM_XML_SERIALIZATION_XMLMEMBERSMAPPING_GET_COUNT_OFFSET UNITYSDK_OFFSET(0x1627A100)
+#define SYSTEM_XML_SERIALIZATION_XMLMEMBERSMAPPING_GET_HASWRAPPERELEMENT_OFFSET UNITYSDK_OFFSET(0x1627A120)
 
 namespace System::Xml::Serialization
 {
-	inline static constexpr unsigned int XmlMembersMapping_TypeDefinitionIndex = 2005;
+	inline static constexpr unsigned int XmlMembersMapping_TypeDefinitionIndex = 2009;
 
 	class XmlMembersMapping : public ::System::Xml::Serialization::XmlMapping
 	{

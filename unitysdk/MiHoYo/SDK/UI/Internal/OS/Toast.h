@@ -5,13 +5,13 @@
 namespace System { class Action; }
 namespace System { class String; }
 
-#define MIHOYO_SDK_UI_INTERNAL_OS_TOAST_GET_ONTOASTCOMPLETED_OFFSET UNITYSDK_OFFSET(0x18455F70)
-#define MIHOYO_SDK_UI_INTERNAL_OS_TOAST_SHOW_OFFSET UNITYSDK_OFFSET(0x18455F80)
-#define MIHOYO_SDK_UI_INTERNAL_OS_TOAST__CTOR_OFFSET UNITYSDK_OFFSET(0x18455FE0)
+#define MIHOYO_SDK_UI_INTERNAL_OS_TOAST_GET_ONTOASTCOMPLETED_OFFSET UNITYSDK_OFFSET(0x1B6C1710)
+#define MIHOYO_SDK_UI_INTERNAL_OS_TOAST_SHOW_OFFSET UNITYSDK_OFFSET(0x1B6C1720)
+#define MIHOYO_SDK_UI_INTERNAL_OS_TOAST__CTOR_OFFSET UNITYSDK_OFFSET(0x1B6C1780)
 
 namespace MiHoYo::SDK::UI::Internal::OS
 {
-	inline static constexpr unsigned int Toast_TypeDefinitionIndex = 8369;
+	inline static constexpr unsigned int Toast_TypeDefinitionIndex = 8381;
 
 	class Toast : public ::System::Object
 	{

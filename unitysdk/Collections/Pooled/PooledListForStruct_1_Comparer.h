@@ -6,7 +6,7 @@ namespace System { template <typename T1, typename T2, typename T3> class Func_3
 
 namespace Collections::Pooled
 {
-	inline static constexpr unsigned int PooledListForStruct_1_Comparer_TypeDefinitionIndex = 5093;
+	inline static constexpr unsigned int PooledListForStruct_1_Comparer_TypeDefinitionIndex = 5098;
 
 	template <typename T>
 	struct PooledListForStruct_1_Comparer

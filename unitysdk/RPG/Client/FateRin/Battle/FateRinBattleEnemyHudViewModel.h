@@ -1,0 +1,108 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/RPG/Client/FateRin/BaseViewModel.h"
+
+class Class_0_16E4307DCC419505_425;
+class Class_1_5F4D64A4B97E38F9;
+class Class_1_B26E06FC40F846CD;
+class Class_1_B9D6E7E76075C6E2_2;
+class Class_1_E79EE3670D2EC49A;
+class Class_1_F8006A7C557D3FC4;
+class Class_1_F9FBCC956DFCF137_36;
+namespace RPG::Client::FateRin::Battle { class FateRinBattleEnemyHudSingleViewModel; }
+namespace RPG::GameCore { class EventManager; }
+namespace System { class Object; }
+namespace System { template <typename T1, typename T2, typename T3> class Action_3; }
+namespace System::Collections::Generic { template <typename T> class List_1; }
+namespace XLua { class LuaTable; }
+
+#define RPG_CLIENT_FATERIN_BATTLE_FATERINBATTLEENEMYHUDVIEWMODEL_ADDMESSAGEHANDLER_OFFSET UNITYSDK_OFFSET(0x1A5C1990)
+#define RPG_CLIENT_FATERIN_BATTLE_FATERINBATTLEENEMYHUDVIEWMODEL_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1A5C16B0)
+#define RPG_CLIENT_FATERIN_BATTLE_FATERINBATTLEENEMYHUDVIEWMODEL__CTOR_OFFSET UNITYSDK_OFFSET(0x1A5C0FB0)
+#define RPG_CLIENT_FATERIN_BATTLE_FATERINBATTLEENEMYHUDVIEWMODEL__GETEVENTMANAGER_OFFSET UNITYSDK_OFFSET(0x1A5C1A70)
+#define RPG_CLIENT_FATERIN_BATTLE_FATERINBATTLEENEMYHUDVIEWMODEL__ONBATTLEENEMYSTATEMODELCHANGEMESSAGE_OFFSET UNITYSDK_OFFSET(0x1A5C1C90)
+#define RPG_CLIENT_FATERIN_BATTLE_FATERINBATTLEENEMYHUDVIEWMODEL__ONBATTLEONTURNSTATECHANGEMESSAGE_OFFSET UNITYSDK_OFFSET(0x1A5C1D00)
+#define RPG_CLIENT_FATERIN_BATTLE_FATERINBATTLEENEMYHUDVIEWMODEL__ONLEVELGAMEMODESTATECHANGEDEVENT_OFFSET UNITYSDK_OFFSET(0x1A5C1B90)
+#define RPG_CLIENT_FATERIN_BATTLE_FATERINBATTLEENEMYHUDVIEWMODEL__REFRESHVIEWMODEL_OFFSET UNITYSDK_OFFSET(0x1A5C10E0)
+#define RPG_CLIENT_FATERIN_BATTLE_FATERINBATTLEENEMYHUDVIEWMODEL__REGISTEREVENT_OFFSET UNITYSDK_OFFSET(0x1A5C15C0)
+#define RPG_CLIENT_FATERIN_BATTLE_FATERINBATTLEENEMYHUDVIEWMODEL__SENDMESSAGE_OFFSET UNITYSDK_OFFSET(0x1A5C19F0)
+#define RPG_CLIENT_FATERIN_BATTLE_FATERINBATTLEENEMYHUDVIEWMODEL__SORTANDSETPOSINDEX_OFFSET UNITYSDK_OFFSET(0x1A5C1D70)
+#define RPG_CLIENT_FATERIN_BATTLE_FATERINBATTLEENEMYHUDVIEWMODEL__UNREGISTEREVENT_OFFSET UNITYSDK_OFFSET(0x1A5C18A0)
+
+namespace RPG::Client::FateRin::Battle
+{
+	inline static constexpr unsigned int FateRinBattleEnemyHudViewModel_TypeDefinitionIndex = 75907;
+
+	class FateRinBattleEnemyHudViewModel : public ::RPG::Client::FateRin::BaseViewModel
+	{
+	public:
+		::System::Collections::Generic::List_1<::RPG::Client::FateRin::Battle::FateRinBattleEnemyHudSingleViewModel*>* HudViewModelList; // 0x20
+		::System::Action_3<::XLua::LuaTable*, ::System::Int32, ::System::Object*>* _MessageHandler; // 0x28
+		::XLua::LuaTable* _LuaTable; // 0x30
+		::Class_1_B9D6E7E76075C6E2_2* _Model; // 0x38
+		::Class_1_E79EE3670D2EC49A* _UIPresentService; // 0x40
+		::Class_1_B26E06FC40F846CD* _GameStateModel; // 0x48
+		::Class_1_5F4D64A4B97E38F9* _Messenger; // 0x50
+		::System::Boolean _IsFirstWaitTurn; // 0x58
+
+		::System::Void _ctor(::Class_1_B9D6E7E76075C6E2_2* a1, ::Class_1_B26E06FC40F846CD* a2, ::Class_1_5F4D64A4B97E38F9* a3, ::Class_1_E79EE3670D2EC49A* a4)
+		{
+			return ((::System::Void(*)(::PVOID, ::Class_1_B9D6E7E76075C6E2_2*, ::Class_1_B26E06FC40F846CD*, ::Class_1_5F4D64A4B97E38F9*, ::Class_1_E79EE3670D2EC49A*))((::PBYTE)hIl2Cpp + RPG_CLIENT_FATERIN_BATTLE_FATERINBATTLEENEMYHUDVIEWMODEL__CTOR_OFFSET))(this, a1, a2, a3, a4);
+		}
+
+		::System::Void Dispose()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_FATERIN_BATTLE_FATERINBATTLEENEMYHUDVIEWMODEL_DISPOSE_OFFSET))(this);
+		}
+
+		::System::Void AddMessageHandler(::XLua::LuaTable* a1, ::System::Action_3<::XLua::LuaTable*, ::System::Int32, ::System::Object*>* a2)
+		{
+			return ((::System::Void(*)(::PVOID, ::XLua::LuaTable*, ::System::Action_3<::XLua::LuaTable*, ::System::Int32, ::System::Object*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_FATERIN_BATTLE_FATERINBATTLEENEMYHUDVIEWMODEL_ADDMESSAGEHANDLER_OFFSET))(this, a1, a2);
+		}
+
+		::System::Void _SendMessage(::System::Int32 a1, ::System::Object* a2)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Object*))((::PBYTE)hIl2Cpp + RPG_CLIENT_FATERIN_BATTLE_FATERINBATTLEENEMYHUDVIEWMODEL__SENDMESSAGE_OFFSET))(this, a1, a2);
+		}
+
+		::System::Void _RegisterEvent()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_FATERIN_BATTLE_FATERINBATTLEENEMYHUDVIEWMODEL__REGISTEREVENT_OFFSET))(this);
+		}
+
+		::System::Void _UnRegisterEvent()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_FATERIN_BATTLE_FATERINBATTLEENEMYHUDVIEWMODEL__UNREGISTEREVENT_OFFSET))(this);
+		}
+
+		::RPG::GameCore::EventManager* _GetEventManager()
+		{
+			return ((::RPG::GameCore::EventManager*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_FATERIN_BATTLE_FATERINBATTLEENEMYHUDVIEWMODEL__GETEVENTMANAGER_OFFSET))(this);
+		}
+
+		::System::Void _OnLevelGameModeStateChangedEvent(::Class_0_16E4307DCC419505_425* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::Class_0_16E4307DCC419505_425*))((::PBYTE)hIl2Cpp + RPG_CLIENT_FATERIN_BATTLE_FATERINBATTLEENEMYHUDVIEWMODEL__ONLEVELGAMEMODESTATECHANGEDEVENT_OFFSET))(this, a1);
+		}
+
+		::System::Void _OnBattleEnemyStateModelChangeMessage(::Class_1_F9FBCC956DFCF137_36* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::Class_1_F9FBCC956DFCF137_36*))((::PBYTE)hIl2Cpp + RPG_CLIENT_FATERIN_BATTLE_FATERINBATTLEENEMYHUDVIEWMODEL__ONBATTLEENEMYSTATEMODELCHANGEMESSAGE_OFFSET))(this, a1);
+		}
+
+		::System::Void _OnBattleOnTurnStateChangeMessage(::Class_1_F8006A7C557D3FC4* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::Class_1_F8006A7C557D3FC4*))((::PBYTE)hIl2Cpp + RPG_CLIENT_FATERIN_BATTLE_FATERINBATTLEENEMYHUDVIEWMODEL__ONBATTLEONTURNSTATECHANGEMESSAGE_OFFSET))(this, a1);
+		}
+
+		::System::Void _RefreshViewModel()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_FATERIN_BATTLE_FATERINBATTLEENEMYHUDVIEWMODEL__REFRESHVIEWMODEL_OFFSET))(this);
+		}
+
+		::System::Void _SortAndSetPosIndex()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_FATERIN_BATTLE_FATERINBATTLEENEMYHUDVIEWMODEL__SORTANDSETPOSINDEX_OFFSET))(this);
+		}
+	};
+}

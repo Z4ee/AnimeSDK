@@ -6,7 +6,7 @@ namespace System { class String; }
 
 namespace Google::Protobuf::Reflection
 {
-	inline static constexpr unsigned int IDescriptor_TypeDefinitionIndex = 5546;
+	inline static constexpr unsigned int IDescriptor_TypeDefinitionIndex = 5551;
 
 	class IDescriptor
 	{

@@ -2,12 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/InControl/InputDeviceProfile.h"
 
-#define INCONTROL_UNITYDEVICEPROFILES_RAZERSERVALMACUNITYPROFILE_DEFINE_OFFSET UNITYSDK_OFFSET(0x180ECE30)
-#define INCONTROL_UNITYDEVICEPROFILES_RAZERSERVALMACUNITYPROFILE__CTOR_OFFSET UNITYSDK_OFFSET(0x180EE1C0)
+#define INCONTROL_UNITYDEVICEPROFILES_RAZERSERVALMACUNITYPROFILE_DEFINE_OFFSET UNITYSDK_OFFSET(0xB52FE00)
+#define INCONTROL_UNITYDEVICEPROFILES_RAZERSERVALMACUNITYPROFILE__CTOR_OFFSET UNITYSDK_OFFSET(0xB531120)
 
 namespace InControl::UnityDeviceProfiles
 {
-	inline static constexpr unsigned int RazerServalMacUnityProfile_TypeDefinitionIndex = 38063;
+	inline static constexpr unsigned int RazerServalMacUnityProfile_TypeDefinitionIndex = 38871;
 
 	class RazerServalMacUnityProfile : public ::InControl::InputDeviceProfile
 	{

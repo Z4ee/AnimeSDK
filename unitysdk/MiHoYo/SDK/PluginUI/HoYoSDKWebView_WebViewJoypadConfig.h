@@ -4,11 +4,11 @@
 
 namespace System { class String; }
 
-#define MIHOYO_SDK_PLUGINUI_HOYOSDKWEBVIEW_WEBVIEWJOYPADCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0xA1F4140)
+#define MIHOYO_SDK_PLUGINUI_HOYOSDKWEBVIEW_WEBVIEWJOYPADCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1AB9D1E0)
 
 namespace MiHoYo::SDK::PluginUI
 {
-	inline static constexpr unsigned int HoYoSDKWebView_WebViewJoypadConfig_TypeDefinitionIndex = 44132;
+	inline static constexpr unsigned int HoYoSDKWebView_WebViewJoypadConfig_TypeDefinitionIndex = 45002;
 
 	class HoYoSDKWebView_WebViewJoypadConfig : public ::System::Object
 	{

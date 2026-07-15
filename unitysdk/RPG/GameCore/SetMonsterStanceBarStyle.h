@@ -6,13 +6,13 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class TargetEvaluator; }
 
-#define RPG_GAMECORE_SETMONSTERSTANCEBARSTYLE_METHOD_3_1D0558F10163742D_OFFSET UNITYSDK_OFFSET(0x19C58860)
-#define RPG_GAMECORE_SETMONSTERSTANCEBARSTYLE_METHOD_3_9A75D13F99772FDA_OFFSET UNITYSDK_OFFSET(0x19C588E0)
-#define RPG_GAMECORE_SETMONSTERSTANCEBARSTYLE__CTOR_OFFSET UNITYSDK_OFFSET(0x19C588B0)
+#define RPG_GAMECORE_SETMONSTERSTANCEBARSTYLE_METHOD_3_4E1743344C4D96B7_OFFSET UNITYSDK_OFFSET(0x1C602E90)
+#define RPG_GAMECORE_SETMONSTERSTANCEBARSTYLE_METHOD_3_9A75D13F99772FDA_OFFSET UNITYSDK_OFFSET(0x1C602ED0)
+#define RPG_GAMECORE_SETMONSTERSTANCEBARSTYLE__CTOR_OFFSET UNITYSDK_OFFSET(0x1C602EC0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SetMonsterStanceBarStyle_TypeDefinitionIndex = 21687;
+	inline static constexpr unsigned int SetMonsterStanceBarStyle_TypeDefinitionIndex = 22114;
 
 	class SetMonsterStanceBarStyle : public ::RPG::GameCore::TaskConfig
 	{
@@ -25,9 +25,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETMONSTERSTANCEBARSTYLE__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_1D0558F10163742D(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SetMonsterStanceBarStyle*& a2)
+		static ::System::Void Method_3_4E1743344C4D96B7(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SetMonsterStanceBarStyle*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SetMonsterStanceBarStyle*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETMONSTERSTANCEBARSTYLE_METHOD_3_1D0558F10163742D_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SetMonsterStanceBarStyle*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETMONSTERSTANCEBARSTYLE_METHOD_3_4E1743344C4D96B7_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_9A75D13F99772FDA(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SetMonsterStanceBarStyle* a2)

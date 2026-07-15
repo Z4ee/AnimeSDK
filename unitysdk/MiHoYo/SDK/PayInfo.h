@@ -6,7 +6,7 @@ namespace System { class String; }
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int PayInfo_TypeDefinitionIndex = 7541;
+	inline static constexpr unsigned int PayInfo_TypeDefinitionIndex = 7547;
 
 	class PayInfo : public ::System::Object
 	{

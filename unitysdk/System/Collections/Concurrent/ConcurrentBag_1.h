@@ -10,7 +10,7 @@ namespace System::Threading { template <typename T> class ThreadLocal_1; }
 
 namespace System::Collections::Concurrent
 {
-	inline static constexpr unsigned int ConcurrentBag_1_TypeDefinitionIndex = 3044;
+	inline static constexpr unsigned int ConcurrentBag_1_TypeDefinitionIndex = 3048;
 
 	template <typename T>
 	class ConcurrentBag_1 : public ::System::Object

@@ -6,7 +6,7 @@ namespace System { class String; }
 
 namespace MiHoYo::SDK::Uploader
 {
-	inline static constexpr unsigned int AWSUploader_AwsRegion_TypeDefinitionIndex = 44033;
+	inline static constexpr unsigned int AWSUploader_AwsRegion_TypeDefinitionIndex = 44895;
 
 	class AWSUploader_AwsRegion : public ::System::Object
 	{

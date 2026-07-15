@@ -3,9 +3,9 @@
 #include "unitysdk/RPG/GameCore/InfiniteWavePosition.h"
 #include "unitysdk/System/Object.h"
 
-#define CLASS_3_CF3E94650AC20098_CLASS_1_42B54E988F80C53A__CTOR_OFFSET UNITYSDK_OFFSET(0xB502A60)
+#define CLASS_3_CF3E94650AC20098_CLASS_1_42B54E988F80C53A__CTOR_OFFSET UNITYSDK_OFFSET(0x14FEDB10)
 
-inline static constexpr unsigned int Class_3_CF3E94650AC20098_Class_1_42B54E988F80C53A_TypeDefinitionIndex = 51487;
+inline static constexpr unsigned int Class_3_CF3E94650AC20098_Class_1_42B54E988F80C53A_TypeDefinitionIndex = 52629;
 
 class Class_3_CF3E94650AC20098_Class_1_42B54E988F80C53A : public ::System::Object
 {

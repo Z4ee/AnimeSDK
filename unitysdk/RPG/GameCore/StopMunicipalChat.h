@@ -6,13 +6,13 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class DynamicString; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_STOPMUNICIPALCHAT_METHOD_3_207546AA1F5A5E8A_OFFSET UNITYSDK_OFFSET(0x19CC0620)
-#define RPG_GAMECORE_STOPMUNICIPALCHAT_METHOD_3_C62659B0FE9E0A7C_OFFSET UNITYSDK_OFFSET(0x19CC06A0)
-#define RPG_GAMECORE_STOPMUNICIPALCHAT__CTOR_OFFSET UNITYSDK_OFFSET(0x19CC0670)
+#define RPG_GAMECORE_STOPMUNICIPALCHAT_METHOD_3_6FFC9DC6130F5EDB_OFFSET UNITYSDK_OFFSET(0x1B0C5D80)
+#define RPG_GAMECORE_STOPMUNICIPALCHAT_METHOD_3_C62659B0FE9E0A7C_OFFSET UNITYSDK_OFFSET(0x1B0C5DC0)
+#define RPG_GAMECORE_STOPMUNICIPALCHAT__CTOR_OFFSET UNITYSDK_OFFSET(0x1B0C5DB0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int StopMunicipalChat_TypeDefinitionIndex = 19625;
+	inline static constexpr unsigned int StopMunicipalChat_TypeDefinitionIndex = 19984;
 
 	class StopMunicipalChat : public ::RPG::GameCore::TaskConfig
 	{
@@ -25,9 +25,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_STOPMUNICIPALCHAT__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_207546AA1F5A5E8A(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::StopMunicipalChat*& a2)
+		static ::System::Void Method_3_6FFC9DC6130F5EDB(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::StopMunicipalChat*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::StopMunicipalChat*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_STOPMUNICIPALCHAT_METHOD_3_207546AA1F5A5E8A_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::StopMunicipalChat*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_STOPMUNICIPALCHAT_METHOD_3_6FFC9DC6130F5EDB_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_C62659B0FE9E0A7C(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::StopMunicipalChat* a2)

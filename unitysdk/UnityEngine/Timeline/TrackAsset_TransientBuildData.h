@@ -7,12 +7,12 @@ namespace UnityEngine::Timeline { class IMarker; }
 namespace UnityEngine::Timeline { class TimelineClip; }
 namespace UnityEngine::Timeline { class TrackAsset; }
 
-#define UNITYENGINE_TIMELINE_TRACKASSET_TRANSIENTBUILDDATA_CLEAR_OFFSET UNITYSDK_OFFSET(0x387BC60)
-#define UNITYENGINE_TIMELINE_TRACKASSET_TRANSIENTBUILDDATA_CREATE_OFFSET UNITYSDK_OFFSET(0x1B2533E0)
+#define UNITYENGINE_TIMELINE_TRACKASSET_TRANSIENTBUILDDATA_CLEAR_OFFSET UNITYSDK_OFFSET(0x39EDB20)
+#define UNITYENGINE_TIMELINE_TRACKASSET_TRANSIENTBUILDDATA_CREATE_OFFSET UNITYSDK_OFFSET(0x1A3D2BA0)
 
 namespace UnityEngine::Timeline
 {
-	inline static constexpr unsigned int TrackAsset_TransientBuildData_TypeDefinitionIndex = 35861;
+	inline static constexpr unsigned int TrackAsset_TransientBuildData_TypeDefinitionIndex = 36643;
 
 	struct alignas(8) TrackAsset_TransientBuildData
 	{

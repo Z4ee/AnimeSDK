@@ -4,12 +4,12 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_CHIMERADUELCHIMERALEVELROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x196394E0)
-#define RPG_GAMECORE_CHIMERADUELCHIMERALEVELROW__CTOR_OFFSET UNITYSDK_OFFSET(0x19639630)
+#define RPG_GAMECORE_CHIMERADUELCHIMERALEVELROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1C3930C0)
+#define RPG_GAMECORE_CHIMERADUELCHIMERALEVELROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1C393210)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ChimeraDuelChimeraLevelRow_TypeDefinitionIndex = 10674;
+	inline static constexpr unsigned int ChimeraDuelChimeraLevelRow_TypeDefinitionIndex = 10724;
 
 	class ChimeraDuelChimeraLevelRow : public ::System::Object
 	{

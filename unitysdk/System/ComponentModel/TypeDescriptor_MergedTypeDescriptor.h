@@ -6,19 +6,19 @@ namespace System::ComponentModel { class AttributeCollection; }
 namespace System::ComponentModel { class ICustomTypeDescriptor; }
 namespace System::ComponentModel { class TypeConverter; }
 
-#define SYSTEM_COMPONENTMODEL_TYPEDESCRIPTOR_MERGEDTYPEDESCRIPTOR_SYSTEM_COMPONENTMODEL_ICUSTOMTYPEDESCRIPTOR_GETATTRIBUTES_OFFSET UNITYSDK_OFFSET(0x1AF3EB20)
-#define SYSTEM_COMPONENTMODEL_TYPEDESCRIPTOR_MERGEDTYPEDESCRIPTOR_SYSTEM_COMPONENTMODEL_ICUSTOMTYPEDESCRIPTOR_GETCONVERTER_OFFSET UNITYSDK_OFFSET(0x1AF3EC60)
-#define SYSTEM_COMPONENTMODEL_TYPEDESCRIPTOR_MERGEDTYPEDESCRIPTOR__CTOR_OFFSET UNITYSDK_OFFSET(0x1AF3DD50)
+#define SYSTEM_COMPONENTMODEL_TYPEDESCRIPTOR_MERGEDTYPEDESCRIPTOR_SYSTEM_COMPONENTMODEL_ICUSTOMTYPEDESCRIPTOR_GETATTRIBUTES_OFFSET UNITYSDK_OFFSET(0x19165FB0)
+#define SYSTEM_COMPONENTMODEL_TYPEDESCRIPTOR_MERGEDTYPEDESCRIPTOR_SYSTEM_COMPONENTMODEL_ICUSTOMTYPEDESCRIPTOR_GETCONVERTER_OFFSET UNITYSDK_OFFSET(0x191661A0)
+#define SYSTEM_COMPONENTMODEL_TYPEDESCRIPTOR_MERGEDTYPEDESCRIPTOR__CTOR_OFFSET UNITYSDK_OFFSET(0x19164F40)
 
 namespace System::ComponentModel
 {
-	inline static constexpr unsigned int TypeDescriptor_MergedTypeDescriptor_TypeDefinitionIndex = 2630;
+	inline static constexpr unsigned int TypeDescriptor_MergedTypeDescriptor_TypeDefinitionIndex = 2634;
 
 	class TypeDescriptor_MergedTypeDescriptor : public ::System::Object
 	{
 	public:
-		::System::ComponentModel::ICustomTypeDescriptor* _primary; // 0x10
-		::System::ComponentModel::ICustomTypeDescriptor* _secondary; // 0x18
+		::System::ComponentModel::ICustomTypeDescriptor* _secondary; // 0x10
+		::System::ComponentModel::ICustomTypeDescriptor* _primary; // 0x18
 
 		::System::Void _ctor(::System::ComponentModel::ICustomTypeDescriptor* a1, ::System::ComponentModel::ICustomTypeDescriptor* a2)
 		{

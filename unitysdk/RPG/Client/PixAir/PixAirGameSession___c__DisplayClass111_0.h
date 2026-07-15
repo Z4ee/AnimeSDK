@@ -4,7 +4,7 @@
 
 namespace RPG::Client::PixAir
 {
-	inline static constexpr unsigned int PixAirGameSession___c__DisplayClass111_0_TypeDefinitionIndex = 73678;
+	inline static constexpr unsigned int PixAirGameSession___c__DisplayClass111_0_TypeDefinitionIndex = 75327;
 
 	struct alignas(4) PixAirGameSession___c__DisplayClass111_0
 	{

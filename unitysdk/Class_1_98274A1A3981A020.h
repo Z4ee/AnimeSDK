@@ -8,9 +8,9 @@ namespace RPG::Client { class PamChatRelicExplainData; }
 namespace RPG::Client { class PamChatTeamExplainData; }
 namespace System { class String; }
 
-#define CLASS_1_98274A1A3981A020__CTOR_OFFSET UNITYSDK_OFFSET(0x13934130)
+#define CLASS_1_98274A1A3981A020__CTOR_OFFSET UNITYSDK_OFFSET(0x17204420)
 
-inline static constexpr unsigned int Class_1_98274A1A3981A020_TypeDefinitionIndex = 59168;
+inline static constexpr unsigned int Class_1_98274A1A3981A020_TypeDefinitionIndex = 60439;
 
 class Class_1_98274A1A3981A020 : public ::System::Object
 {

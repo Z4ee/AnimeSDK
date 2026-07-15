@@ -3,12 +3,12 @@
 #include "unitysdk/System/ValueType.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-#define UNITYENGINE_BOUNDINGSPHERE__CTOR_1_OFFSET UNITYSDK_OFFSET(0x2C2F090)
-#define UNITYENGINE_BOUNDINGSPHERE__CTOR_OFFSET UNITYSDK_OFFSET(0x253D0)
+#define UNITYENGINE_BOUNDINGSPHERE__CTOR_1_OFFSET UNITYSDK_OFFSET(0x165220)
+#define UNITYENGINE_BOUNDINGSPHERE__CTOR_OFFSET UNITYSDK_OFFSET(0x6EA800)
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int BoundingSphere_TypeDefinitionIndex = 4033;
+	inline static constexpr unsigned int BoundingSphere_TypeDefinitionIndex = 4038;
 
 	struct alignas(4) BoundingSphere
 	{

@@ -7,11 +7,11 @@
 namespace System { class String; }
 namespace UnityEngine { class AnimationCurve; }
 
-#define RPGTOOLS_TIMELINE_CHARACTERBODYCONTROLDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xCFEBA90)
+#define RPGTOOLS_TIMELINE_CHARACTERBODYCONTROLDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1B3545C0)
 
 namespace RPGTools::Timeline
 {
-	inline static constexpr unsigned int CharacterBodyControlData_TypeDefinitionIndex = 45241;
+	inline static constexpr unsigned int CharacterBodyControlData_TypeDefinitionIndex = 46165;
 
 	class CharacterBodyControlData : public ::System::Object
 	{

@@ -6,7 +6,7 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AbilityDynamicStringInjection_TypeDefinitionIndex = 50844;
+	inline static constexpr unsigned int AbilityDynamicStringInjection_TypeDefinitionIndex = 51929;
 
 	struct alignas(8) AbilityDynamicStringInjection
 	{

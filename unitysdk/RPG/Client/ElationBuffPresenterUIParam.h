@@ -8,21 +8,22 @@ namespace UnityEngine { class Transform; }
 namespace UnityEngine::UI { class Button; }
 namespace UnityEngine::UI { class Text; }
 
-#define RPG_CLIENT_ELATIONBUFFPRESENTERUIPARAM__CTOR_OFFSET UNITYSDK_OFFSET(0xB89AC20)
+#define RPG_CLIENT_ELATIONBUFFPRESENTERUIPARAM__CTOR_OFFSET UNITYSDK_OFFSET(0x18E0EEC0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ElationBuffPresenterUIParam_TypeDefinitionIndex = 66545;
+	inline static constexpr unsigned int ElationBuffPresenterUIParam_TypeDefinitionIndex = 67981;
 
 	class ElationBuffPresenterUIParam : public ::System::Object
 	{
 	public:
-		::UnityEngine::UI::Button* CloseOverviewBtn; // 0x10
-		::UnityEngine::Transform* LineBottom; // 0x18
-		::UnityEngine::UI::Text* TotalPointText; // 0x20
+		::UnityEngine::Transform* LineBottom; // 0x10
+		::UnityEngine::UI::Button* CloseOverviewBtn; // 0x18
+		::UnityEngine::UI::Text* TotalDescText; // 0x20
 		::UnityEngine::UI::Button* OpenOverviewBtn; // 0x28
-		::UnityEngine::UI::Text* TotalDescText; // 0x30
+		::UnityEngine::UI::Text* TotalPointText; // 0x30
 		::RPG::Client::NodeListViewPanel_1<::Class_2_2DB5DEF3EA4B57A8*>* ElationBuffList; // 0x38
+		::UnityEngine::Transform* NodeDesc; // 0x40
 
 		::System::Void _ctor()
 		{

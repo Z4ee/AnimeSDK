@@ -4,13 +4,13 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_SHOWCABLEUI_METHOD_3_89D644A420A840EF_OFFSET UNITYSDK_OFFSET(0x19C77510)
-#define RPG_GAMECORE_SHOWCABLEUI_METHOD_3_C1CAF85E82BC851E_OFFSET UNITYSDK_OFFSET(0x19C77590)
-#define RPG_GAMECORE_SHOWCABLEUI__CTOR_OFFSET UNITYSDK_OFFSET(0x19C77560)
+#define RPG_GAMECORE_SHOWCABLEUI_METHOD_3_C1CAF85E82BC851E_OFFSET UNITYSDK_OFFSET(0x1BE3C2B0)
+#define RPG_GAMECORE_SHOWCABLEUI_METHOD_3_E7F984F52C5A1DDD_OFFSET UNITYSDK_OFFSET(0x1BE3C270)
+#define RPG_GAMECORE_SHOWCABLEUI__CTOR_OFFSET UNITYSDK_OFFSET(0x1BE3C2A0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ShowCableUI_TypeDefinitionIndex = 19752;
+	inline static constexpr unsigned int ShowCableUI_TypeDefinitionIndex = 20112;
 
 	class ShowCableUI : public ::RPG::GameCore::TaskConfig
 	{
@@ -22,9 +22,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SHOWCABLEUI__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_89D644A420A840EF(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ShowCableUI*& a2)
+		static ::System::Void Method_3_E7F984F52C5A1DDD(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ShowCableUI*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ShowCableUI*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SHOWCABLEUI_METHOD_3_89D644A420A840EF_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ShowCableUI*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SHOWCABLEUI_METHOD_3_E7F984F52C5A1DDD_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_C1CAF85E82BC851E(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ShowCableUI* a2)

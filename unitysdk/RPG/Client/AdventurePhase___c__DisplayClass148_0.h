@@ -5,18 +5,18 @@
 namespace RPG::Client { class AdventurePhase; }
 namespace RPG::Client { class ServerDispatchData; }
 
-#define RPG_CLIENT_ADVENTUREPHASE___C__DISPLAYCLASS148_0__CTOR_OFFSET UNITYSDK_OFFSET(0xB258B30)
-#define RPG_CLIENT_ADVENTUREPHASE___C__DISPLAYCLASS148_0___CHECKKICKOFFLINE_B__0_OFFSET UNITYSDK_OFFSET(0xB262BE0)
+#define RPG_CLIENT_ADVENTUREPHASE___C__DISPLAYCLASS148_0__CTOR_OFFSET UNITYSDK_OFFSET(0x182BDA40)
+#define RPG_CLIENT_ADVENTUREPHASE___C__DISPLAYCLASS148_0___CHECKKICKOFFLINE_B__0_OFFSET UNITYSDK_OFFSET(0x182C7F00)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int AdventurePhase___c__DisplayClass148_0_TypeDefinitionIndex = 56200;
+	inline static constexpr unsigned int AdventurePhase___c__DisplayClass148_0_TypeDefinitionIndex = 57439;
 
 	class AdventurePhase___c__DisplayClass148_0 : public ::System::Object
 	{
 	public:
-		::RPG::Client::ServerDispatchData* serverDispatchData; // 0x10
-		::RPG::Client::AdventurePhase* __4__this; // 0x18
+		::RPG::Client::AdventurePhase* __4__this; // 0x10
+		::RPG::Client::ServerDispatchData* serverDispatchData; // 0x18
 
 		::System::Void _ctor()
 		{

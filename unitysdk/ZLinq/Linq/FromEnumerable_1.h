@@ -8,7 +8,7 @@ namespace ZLinq::Linq { template <typename T> class CollectionIterator_1; }
 
 namespace ZLinq::Linq
 {
-	inline static constexpr unsigned int FromEnumerable_1_TypeDefinitionIndex = 6339;
+	inline static constexpr unsigned int FromEnumerable_1_TypeDefinitionIndex = 6344;
 
 	template <typename T>
 	struct FromEnumerable_1

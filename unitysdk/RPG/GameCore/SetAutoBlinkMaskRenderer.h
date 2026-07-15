@@ -6,13 +6,13 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class TargetEvaluator; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_SETAUTOBLINKMASKRENDERER_METHOD_3_55B194CBAB7386A0_OFFSET UNITYSDK_OFFSET(0x19C29960)
-#define RPG_GAMECORE_SETAUTOBLINKMASKRENDERER_METHOD_3_BA9058F6829AEB42_OFFSET UNITYSDK_OFFSET(0x19C299E0)
-#define RPG_GAMECORE_SETAUTOBLINKMASKRENDERER__CTOR_OFFSET UNITYSDK_OFFSET(0x19C299B0)
+#define RPG_GAMECORE_SETAUTOBLINKMASKRENDERER_METHOD_3_5503BD60F43F3A3D_OFFSET UNITYSDK_OFFSET(0x1C2D31F0)
+#define RPG_GAMECORE_SETAUTOBLINKMASKRENDERER_METHOD_3_BA9058F6829AEB42_OFFSET UNITYSDK_OFFSET(0x1C2D3230)
+#define RPG_GAMECORE_SETAUTOBLINKMASKRENDERER__CTOR_OFFSET UNITYSDK_OFFSET(0x1C2D3220)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SetAutoBlinkMaskRenderer_TypeDefinitionIndex = 21152;
+	inline static constexpr unsigned int SetAutoBlinkMaskRenderer_TypeDefinitionIndex = 21567;
 
 	class SetAutoBlinkMaskRenderer : public ::RPG::GameCore::TaskConfig
 	{
@@ -25,9 +25,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETAUTOBLINKMASKRENDERER__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_55B194CBAB7386A0(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SetAutoBlinkMaskRenderer*& a2)
+		static ::System::Void Method_3_5503BD60F43F3A3D(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SetAutoBlinkMaskRenderer*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SetAutoBlinkMaskRenderer*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETAUTOBLINKMASKRENDERER_METHOD_3_55B194CBAB7386A0_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SetAutoBlinkMaskRenderer*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETAUTOBLINKMASKRENDERER_METHOD_3_5503BD60F43F3A3D_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_BA9058F6829AEB42(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SetAutoBlinkMaskRenderer* a2)

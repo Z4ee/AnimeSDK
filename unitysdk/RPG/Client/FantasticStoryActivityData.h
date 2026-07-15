@@ -2,13 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/Client/ActivityPanelData.h"
 
-#define RPG_CLIENT_FANTASTICSTORYACTIVITYDATA_ISSHOWNORMALREDDOT_OFFSET UNITYSDK_OFFSET(0xB96BB30)
-#define RPG_CLIENT_FANTASTICSTORYACTIVITYDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xB96BB20)
-#define RPG_CLIENT_FANTASTICSTORYACTIVITYDATA___IFIXBASEPROXY_ISSHOWNORMALREDDOT_OFFSET UNITYSDK_OFFSET(0xB96C0A0)
+#define RPG_CLIENT_FANTASTICSTORYACTIVITYDATA_ISSHOWNORMALREDDOT_OFFSET UNITYSDK_OFFSET(0x196DB4A0)
+#define RPG_CLIENT_FANTASTICSTORYACTIVITYDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x196DB490)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int FantasticStoryActivityData_TypeDefinitionIndex = 59767;
+	inline static constexpr unsigned int FantasticStoryActivityData_TypeDefinitionIndex = 61052;
 
 	class FantasticStoryActivityData : public ::RPG::Client::ActivityPanelData
 	{
@@ -21,11 +20,6 @@ namespace RPG::Client
 		::System::Boolean IsShowNormalRedDot()
 		{
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_FANTASTICSTORYACTIVITYDATA_ISSHOWNORMALREDDOT_OFFSET))(this);
-		}
-
-		::System::Boolean __iFixBaseProxy_IsShowNormalRedDot()
-		{
-			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_FANTASTICSTORYACTIVITYDATA___IFIXBASEPROXY_ISSHOWNORMALREDDOT_OFFSET))(this);
 		}
 	};
 }

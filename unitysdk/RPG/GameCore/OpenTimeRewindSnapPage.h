@@ -6,13 +6,13 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class DynamicFloat; }
 namespace RPG::GameCore { class TargetEvaluator; }
 
-#define RPG_GAMECORE_OPENTIMEREWINDSNAPPAGE_METHOD_3_85F2DC3D559FCBBF_OFFSET UNITYSDK_OFFSET(0x199D8430)
-#define RPG_GAMECORE_OPENTIMEREWINDSNAPPAGE_METHOD_3_FF073FEBB50E6C84_OFFSET UNITYSDK_OFFSET(0x199D83B0)
-#define RPG_GAMECORE_OPENTIMEREWINDSNAPPAGE__CTOR_OFFSET UNITYSDK_OFFSET(0x199D8400)
+#define RPG_GAMECORE_OPENTIMEREWINDSNAPPAGE_METHOD_3_44096114D910DC6E_OFFSET UNITYSDK_OFFSET(0x1BB02480)
+#define RPG_GAMECORE_OPENTIMEREWINDSNAPPAGE_METHOD_3_85F2DC3D559FCBBF_OFFSET UNITYSDK_OFFSET(0x1BB024C0)
+#define RPG_GAMECORE_OPENTIMEREWINDSNAPPAGE__CTOR_OFFSET UNITYSDK_OFFSET(0x1BB024B0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int OpenTimeRewindSnapPage_TypeDefinitionIndex = 19507;
+	inline static constexpr unsigned int OpenTimeRewindSnapPage_TypeDefinitionIndex = 19865;
 
 	class OpenTimeRewindSnapPage : public ::RPG::GameCore::TaskConfig
 	{
@@ -26,9 +26,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_OPENTIMEREWINDSNAPPAGE__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_FF073FEBB50E6C84(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::OpenTimeRewindSnapPage*& a2)
+		static ::System::Void Method_3_44096114D910DC6E(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::OpenTimeRewindSnapPage*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::OpenTimeRewindSnapPage*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_OPENTIMEREWINDSNAPPAGE_METHOD_3_FF073FEBB50E6C84_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::OpenTimeRewindSnapPage*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_OPENTIMEREWINDSNAPPAGE_METHOD_3_44096114D910DC6E_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_85F2DC3D559FCBBF(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::OpenTimeRewindSnapPage* a2)

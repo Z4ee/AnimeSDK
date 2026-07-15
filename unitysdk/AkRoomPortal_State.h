@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int AkRoomPortal_State_TypeDefinitionIndex = 41330;
+inline static constexpr unsigned int AkRoomPortal_State_TypeDefinitionIndex = 42145;
 
 enum class AkRoomPortal_State : ::System::Int32
 {

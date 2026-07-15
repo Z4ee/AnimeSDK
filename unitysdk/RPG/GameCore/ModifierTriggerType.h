@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ModifierTriggerType_TypeDefinitionIndex = 10210;
+	inline static constexpr unsigned int ModifierTriggerType_TypeDefinitionIndex = 10231;
 
 	enum class ModifierTriggerType : ::System::Int32
 	{

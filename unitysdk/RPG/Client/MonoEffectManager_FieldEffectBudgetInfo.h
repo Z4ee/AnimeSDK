@@ -6,7 +6,7 @@ namespace RPG::Client { class TriggerEffectParams; }
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MonoEffectManager_FieldEffectBudgetInfo_TypeDefinitionIndex = 65306;
+	inline static constexpr unsigned int MonoEffectManager_FieldEffectBudgetInfo_TypeDefinitionIndex = 66716;
 
 	struct alignas(8) MonoEffectManager_FieldEffectBudgetInfo
 	{

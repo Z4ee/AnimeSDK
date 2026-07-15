@@ -41,229 +41,229 @@ namespace UnityEngine { class Texture; }
 namespace UnityEngine::Rendering { class CommandBuffer; }
 namespace UnityEngine::Rendering { class CommandBufferExt; }
 
-#define RPG_CUSTOMRP_RPUTILITY_BEGINDRAWRT_OFFSET UNITYSDK_OFFSET(0x18F19FA0)
-#define RPG_CUSTOMRP_RPUTILITY_BLITMRT_OFFSET UNITYSDK_OFFSET(0x18EFF750)
-#define RPG_CUSTOMRP_RPUTILITY_BLITRT_10_OFFSET UNITYSDK_OFFSET(0x18F18F30)
-#define RPG_CUSTOMRP_RPUTILITY_BLITRT_11_OFFSET UNITYSDK_OFFSET(0x18F19430)
-#define RPG_CUSTOMRP_RPUTILITY_BLITRT_1_OFFSET UNITYSDK_OFFSET(0x18EED0C0)
-#define RPG_CUSTOMRP_RPUTILITY_BLITRT_2_OFFSET UNITYSDK_OFFSET(0x18EF4CE0)
-#define RPG_CUSTOMRP_RPUTILITY_BLITRT_3_OFFSET UNITYSDK_OFFSET(0x18EFF610)
-#define RPG_CUSTOMRP_RPUTILITY_BLITRT_4_OFFSET UNITYSDK_OFFSET(0x18EED380)
-#define RPG_CUSTOMRP_RPUTILITY_BLITRT_5_OFFSET UNITYSDK_OFFSET(0x18EFF320)
-#define RPG_CUSTOMRP_RPUTILITY_BLITRT_6_OFFSET UNITYSDK_OFFSET(0x18F06810)
-#define RPG_CUSTOMRP_RPUTILITY_BLITRT_7_OFFSET UNITYSDK_OFFSET(0x18F186B0)
-#define RPG_CUSTOMRP_RPUTILITY_BLITRT_8_OFFSET UNITYSDK_OFFSET(0x18F18A80)
-#define RPG_CUSTOMRP_RPUTILITY_BLITRT_9_OFFSET UNITYSDK_OFFSET(0x18EFEEB0)
-#define RPG_CUSTOMRP_RPUTILITY_BLITRT_OFFSET UNITYSDK_OFFSET(0x18EECDC0)
-#define RPG_CUSTOMRP_RPUTILITY_BLIT_OFFSET UNITYSDK_OFFSET(0x18F17F60)
-#define RPG_CUSTOMRP_RPUTILITY_CALLFUNCTION_OFFSET UNITYSDK_OFFSET(0x18F1B0B0)
-#define RPG_CUSTOMRP_RPUTILITY_COMPUTEHASH32_OFFSET UNITYSDK_OFFSET(0x18F16DD0)
-#define RPG_CUSTOMRP_RPUTILITY_COPYTEX_1_OFFSET UNITYSDK_OFFSET(0x18F19B70)
-#define RPG_CUSTOMRP_RPUTILITY_COPYTEX_2_OFFSET UNITYSDK_OFFSET(0x18F19CB0)
-#define RPG_CUSTOMRP_RPUTILITY_COPYTEX_3_OFFSET UNITYSDK_OFFSET(0x18F19E20)
-#define RPG_CUSTOMRP_RPUTILITY_COPYTEX_OFFSET UNITYSDK_OFFSET(0x18F19A10)
-#define RPG_CUSTOMRP_RPUTILITY_CREATERT_1_OFFSET UNITYSDK_OFFSET(0x18F17960)
-#define RPG_CUSTOMRP_RPUTILITY_CREATERT_OFFSET UNITYSDK_OFFSET(0x18EED200)
-#define RPG_CUSTOMRP_RPUTILITY_DEBUGOBJECTNAME_OFFSET UNITYSDK_OFFSET(0x18F168C0)
-#define RPG_CUSTOMRP_RPUTILITY_DESTROYMAT_OFFSET UNITYSDK_OFFSET(0x18F16740)
-#define RPG_CUSTOMRP_RPUTILITY_DESTROY_OFFSET UNITYSDK_OFFSET(0x18EE76E0)
-#define RPG_CUSTOMRP_RPUTILITY_DRAWDUMMYDEPTH_OFFSET UNITYSDK_OFFSET(0x18F16270)
-#define RPG_CUSTOMRP_RPUTILITY_DRAWRT_OFFSET UNITYSDK_OFFSET(0x18F1A020)
-#define RPG_CUSTOMRP_RPUTILITY_ENABLEPREROTATION_OFFSET UNITYSDK_OFFSET(0x18F183E0)
-#define RPG_CUSTOMRP_RPUTILITY_ENDDRAWRT_OFFSET UNITYSDK_OFFSET(0x18F1A2A0)
-#define RPG_CUSTOMRP_RPUTILITY_FLIPDRAW_1_OFFSET UNITYSDK_OFFSET(0x18F19970)
-#define RPG_CUSTOMRP_RPUTILITY_FLIPDRAW_OFFSET UNITYSDK_OFFSET(0x18F18350)
-#define RPG_CUSTOMRP_RPUTILITY_FORMATBYTES_1_OFFSET UNITYSDK_OFFSET(0x18F16BA0)
-#define RPG_CUSTOMRP_RPUTILITY_FORMATBYTES_OFFSET UNITYSDK_OFFSET(0x18F16A60)
-#define RPG_CUSTOMRP_RPUTILITY_GETADDITIONALCAMERADATA_OFFSET UNITYSDK_OFFSET(0x18F17270)
-#define RPG_CUSTOMRP_RPUTILITY_GETALLASSEMBLYTYPES_OFFSET UNITYSDK_OFFSET(0x18F1AB40)
-#define RPG_CUSTOMRP_RPUTILITY_GETASSEMBLYTYPEFULLNAME_OFFSET UNITYSDK_OFFSET(0x18F1AFC0)
-#define RPG_CUSTOMRP_RPUTILITY_GETASSEMBLYTYPE_1_OFFSET UNITYSDK_OFFSET(0x18F1AED0)
-#define RPG_CUSTOMRP_RPUTILITY_GETASSEMBLYTYPE_OFFSET UNITYSDK_OFFSET(0x18F1ADE0)
-#define RPG_CUSTOMRP_RPUTILITY_GETFILENAME_OFFSET UNITYSDK_OFFSET(0x18F168D0)
-#define RPG_CUSTOMRP_RPUTILITY_GETFLOAT_OFFSET UNITYSDK_OFFSET(0x18F17310)
-#define RPG_CUSTOMRP_RPUTILITY_GETMATRIX_OFFSET UNITYSDK_OFFSET(0x18F17390)
-#define RPG_CUSTOMRP_RPUTILITY_GETOBJID_OFFSET UNITYSDK_OFFSET(0x18F16CF0)
-#define RPG_CUSTOMRP_RPUTILITY_GETPASSENABLEEX_OFFSET UNITYSDK_OFFSET(0x18F16D80)
-#define RPG_CUSTOMRP_RPUTILITY_GETPASSTAG_OFFSET UNITYSDK_OFFSET(0x18F16D30)
-#define RPG_CUSTOMRP_RPUTILITY_GETPATHDIR_OFFSET UNITYSDK_OFFSET(0x18F169F0)
-#define RPG_CUSTOMRP_RPUTILITY_GETPATHWITHOUTEXT_OFFSET UNITYSDK_OFFSET(0x18F169A0)
-#define RPG_CUSTOMRP_RPUTILITY_GETSUBMESHCOUNT_OFFSET UNITYSDK_OFFSET(0x18F16790)
-#define RPG_CUSTOMRP_RPUTILITY_GETTEMPORARYRT_1_OFFSET UNITYSDK_OFFSET(0x18F178A0)
-#define RPG_CUSTOMRP_RPUTILITY_GETTEMPORARYRT_OFFSET UNITYSDK_OFFSET(0x18EECD60)
-#define RPG_CUSTOMRP_RPUTILITY_GETVECTOR_OFFSET UNITYSDK_OFFSET(0x18F17340)
-#define RPG_CUSTOMRP_RPUTILITY_GET_DEBUGMAT_OFFSET UNITYSDK_OFFSET(0x18F16200)
-#define RPG_CUSTOMRP_RPUTILITY_GET_FULLSCREENMESH_OFFSET UNITYSDK_OFFSET(0x18EF6C00)
-#define RPG_CUSTOMRP_RPUTILITY_GET_FULLSCREENQUAD_OFFSET UNITYSDK_OFFSET(0x18F09310)
-#define RPG_CUSTOMRP_RPUTILITY_GET_HALFSPHEREMESH_OFFSET UNITYSDK_OFFSET(0x18F16110)
-#define RPG_CUSTOMRP_RPUTILITY_GET_IDENTITYQUAD_OFFSET UNITYSDK_OFFSET(0x18F15990)
-#define RPG_CUSTOMRP_RPUTILITY_GET_ISGAMEREALRUNNING_OFFSET UNITYSDK_OFFSET(0x18F156F0)
-#define RPG_CUSTOMRP_RPUTILITY_GET_POINTLIGHTMESH_OFFSET UNITYSDK_OFFSET(0x18F15F30)
-#define RPG_CUSTOMRP_RPUTILITY_GET_SPOTLIGHTMESH_OFFSET UNITYSDK_OFFSET(0x18F16020)
-#define RPG_CUSTOMRP_RPUTILITY_GET_UNITCAPSULE_OFFSET UNITYSDK_OFFSET(0x18EE19F0)
-#define RPG_CUSTOMRP_RPUTILITY_GET_UNITCUBE_OFFSET UNITYSDK_OFFSET(0x18EE0B40)
-#define RPG_CUSTOMRP_RPUTILITY_GET_UNITSPHERE_OFFSET UNITYSDK_OFFSET(0x18EE1900)
-#define RPG_CUSTOMRP_RPUTILITY_INIT_OFFSET UNITYSDK_OFFSET(0x18F17D20)
-#define RPG_CUSTOMRP_RPUTILITY_ISBLACKCOLOR_OFFSET UNITYSDK_OFFSET(0x18F16770)
-#define RPG_CUSTOMRP_RPUTILITY_RELEASEASSETDEL_OFFSET UNITYSDK_OFFSET(0x18F158F0)
-#define RPG_CUSTOMRP_RPUTILITY_RELEASERT_OFFSET UNITYSDK_OFFSET(0x18EEBDE0)
-#define RPG_CUSTOMRP_RPUTILITY_RELEASETEMPORARYRT_OFFSET UNITYSDK_OFFSET(0x18EED670)
-#define RPG_CUSTOMRP_RPUTILITY_RESET_OFFSET UNITYSDK_OFFSET(0x18F157D0)
-#define RPG_CUSTOMRP_RPUTILITY_ROTATELEFT_OFFSET UNITYSDK_OFFSET(0x18F16DC0)
-#define RPG_CUSTOMRP_RPUTILITY_SAVETEX_1_OFFSET UNITYSDK_OFFSET(0x18F1A790)
-#define RPG_CUSTOMRP_RPUTILITY_SAVETEX_OFFSET UNITYSDK_OFFSET(0x18F1A3C0)
-#define RPG_CUSTOMRP_RPUTILITY_SETPASSENABLEEX_OFFSET UNITYSDK_OFFSET(0x18F16D40)
-#define RPG_CUSTOMRP_RPUTILITY_SETRENDERTARGET_OFFSET UNITYSDK_OFFSET(0x18F17E00)
-#define RPG_CUSTOMRP_RPUTILITY_SETRT_1_OFFSET UNITYSDK_OFFSET(0x18F18640)
-#define RPG_CUSTOMRP_RPUTILITY_SETRT_2_OFFSET UNITYSDK_OFFSET(0x18EF6A80)
-#define RPG_CUSTOMRP_RPUTILITY_SETRT_OFFSET UNITYSDK_OFFSET(0x18F18440)
-#define RPG_CUSTOMRP_RPUTILITY_SETTEXTURE_1_OFFSET UNITYSDK_OFFSET(0x18EED2A0)
-#define RPG_CUSTOMRP_RPUTILITY_SETTEXTURE_2_OFFSET UNITYSDK_OFFSET(0x18F179E0)
-#define RPG_CUSTOMRP_RPUTILITY_SETTEXTURE_3_OFFSET UNITYSDK_OFFSET(0x18F17A60)
-#define RPG_CUSTOMRP_RPUTILITY_SETTEXTURE_4_OFFSET UNITYSDK_OFFSET(0x18F17AC0)
-#define RPG_CUSTOMRP_RPUTILITY_SETTEXTURE_5_OFFSET UNITYSDK_OFFSET(0x18F17B50)
-#define RPG_CUSTOMRP_RPUTILITY_SETTEXTURE_6_OFFSET UNITYSDK_OFFSET(0x18F17BE0)
-#define RPG_CUSTOMRP_RPUTILITY_SETTEXTURE_OFFSET UNITYSDK_OFFSET(0x18EF17A0)
-#define RPG_CUSTOMRP_RPUTILITY_SETUPMAT_OFFSET UNITYSDK_OFFSET(0x18F15730)
-#define RPG_CUSTOMRP_RPUTILITY_SET_DEBUGMAT_OFFSET UNITYSDK_OFFSET(0x18F16230)
-#define RPG_CUSTOMRP_RPUTILITY_SUPPORTSGRAPHICSFORMAT_OFFSET UNITYSDK_OFFSET(0x18F17420)
-#define RPG_CUSTOMRP_RPUTILITY_SUPPORTSRENDERTEXTUREFORMAT_OFFSET UNITYSDK_OFFSET(0x18F17740)
-#define RPG_CUSTOMRP_RPUTILITY__CCTOR_OFFSET UNITYSDK_OFFSET(0x18F1B1C0)
+#define RPG_CUSTOMRP_RPUTILITY_BEGINDRAWRT_OFFSET UNITYSDK_OFFSET(0x16C23560)
+#define RPG_CUSTOMRP_RPUTILITY_BLITMRT_OFFSET UNITYSDK_OFFSET(0x16C05620)
+#define RPG_CUSTOMRP_RPUTILITY_BLITRT_10_OFFSET UNITYSDK_OFFSET(0x16C224F0)
+#define RPG_CUSTOMRP_RPUTILITY_BLITRT_11_OFFSET UNITYSDK_OFFSET(0x16C229F0)
+#define RPG_CUSTOMRP_RPUTILITY_BLITRT_1_OFFSET UNITYSDK_OFFSET(0x16BF31D0)
+#define RPG_CUSTOMRP_RPUTILITY_BLITRT_2_OFFSET UNITYSDK_OFFSET(0x16BFAAE0)
+#define RPG_CUSTOMRP_RPUTILITY_BLITRT_3_OFFSET UNITYSDK_OFFSET(0x16C054E0)
+#define RPG_CUSTOMRP_RPUTILITY_BLITRT_4_OFFSET UNITYSDK_OFFSET(0x16BF3490)
+#define RPG_CUSTOMRP_RPUTILITY_BLITRT_5_OFFSET UNITYSDK_OFFSET(0x16C051F0)
+#define RPG_CUSTOMRP_RPUTILITY_BLITRT_6_OFFSET UNITYSDK_OFFSET(0x16C0ED50)
+#define RPG_CUSTOMRP_RPUTILITY_BLITRT_7_OFFSET UNITYSDK_OFFSET(0x16C21C70)
+#define RPG_CUSTOMRP_RPUTILITY_BLITRT_8_OFFSET UNITYSDK_OFFSET(0x16C22040)
+#define RPG_CUSTOMRP_RPUTILITY_BLITRT_9_OFFSET UNITYSDK_OFFSET(0x16C04D80)
+#define RPG_CUSTOMRP_RPUTILITY_BLITRT_OFFSET UNITYSDK_OFFSET(0x16BF2ED0)
+#define RPG_CUSTOMRP_RPUTILITY_BLIT_OFFSET UNITYSDK_OFFSET(0x16C21520)
+#define RPG_CUSTOMRP_RPUTILITY_CALLFUNCTION_OFFSET UNITYSDK_OFFSET(0x16C24680)
+#define RPG_CUSTOMRP_RPUTILITY_COMPUTEHASH32_OFFSET UNITYSDK_OFFSET(0x16C203D0)
+#define RPG_CUSTOMRP_RPUTILITY_COPYTEX_1_OFFSET UNITYSDK_OFFSET(0x16C23130)
+#define RPG_CUSTOMRP_RPUTILITY_COPYTEX_2_OFFSET UNITYSDK_OFFSET(0x16C23270)
+#define RPG_CUSTOMRP_RPUTILITY_COPYTEX_3_OFFSET UNITYSDK_OFFSET(0x16C233E0)
+#define RPG_CUSTOMRP_RPUTILITY_COPYTEX_OFFSET UNITYSDK_OFFSET(0x16C22FD0)
+#define RPG_CUSTOMRP_RPUTILITY_CREATERT_1_OFFSET UNITYSDK_OFFSET(0x16C20F20)
+#define RPG_CUSTOMRP_RPUTILITY_CREATERT_OFFSET UNITYSDK_OFFSET(0x16BF3310)
+#define RPG_CUSTOMRP_RPUTILITY_DEBUGOBJECTNAME_OFFSET UNITYSDK_OFFSET(0x16C1FEC0)
+#define RPG_CUSTOMRP_RPUTILITY_DESTROYMAT_OFFSET UNITYSDK_OFFSET(0x16C1FD40)
+#define RPG_CUSTOMRP_RPUTILITY_DESTROY_OFFSET UNITYSDK_OFFSET(0x16BED750)
+#define RPG_CUSTOMRP_RPUTILITY_DRAWDUMMYDEPTH_OFFSET UNITYSDK_OFFSET(0x16C1F870)
+#define RPG_CUSTOMRP_RPUTILITY_DRAWRT_OFFSET UNITYSDK_OFFSET(0x16C235E0)
+#define RPG_CUSTOMRP_RPUTILITY_ENABLEPREROTATION_OFFSET UNITYSDK_OFFSET(0x16C219A0)
+#define RPG_CUSTOMRP_RPUTILITY_ENDDRAWRT_OFFSET UNITYSDK_OFFSET(0x16C23860)
+#define RPG_CUSTOMRP_RPUTILITY_FLIPDRAW_1_OFFSET UNITYSDK_OFFSET(0x16C22F30)
+#define RPG_CUSTOMRP_RPUTILITY_FLIPDRAW_OFFSET UNITYSDK_OFFSET(0x16C21910)
+#define RPG_CUSTOMRP_RPUTILITY_FORMATBYTES_1_OFFSET UNITYSDK_OFFSET(0x16C201A0)
+#define RPG_CUSTOMRP_RPUTILITY_FORMATBYTES_OFFSET UNITYSDK_OFFSET(0x16C20060)
+#define RPG_CUSTOMRP_RPUTILITY_GETADDITIONALCAMERADATA_OFFSET UNITYSDK_OFFSET(0x16C20830)
+#define RPG_CUSTOMRP_RPUTILITY_GETALLASSEMBLYTYPES_OFFSET UNITYSDK_OFFSET(0x16C24110)
+#define RPG_CUSTOMRP_RPUTILITY_GETASSEMBLYTYPEFULLNAME_OFFSET UNITYSDK_OFFSET(0x16C24590)
+#define RPG_CUSTOMRP_RPUTILITY_GETASSEMBLYTYPE_1_OFFSET UNITYSDK_OFFSET(0x16C244A0)
+#define RPG_CUSTOMRP_RPUTILITY_GETASSEMBLYTYPE_OFFSET UNITYSDK_OFFSET(0x16C243B0)
+#define RPG_CUSTOMRP_RPUTILITY_GETFILENAME_OFFSET UNITYSDK_OFFSET(0x16C1FED0)
+#define RPG_CUSTOMRP_RPUTILITY_GETFLOAT_OFFSET UNITYSDK_OFFSET(0x16C208D0)
+#define RPG_CUSTOMRP_RPUTILITY_GETMATRIX_OFFSET UNITYSDK_OFFSET(0x16C20950)
+#define RPG_CUSTOMRP_RPUTILITY_GETOBJID_OFFSET UNITYSDK_OFFSET(0x16C202F0)
+#define RPG_CUSTOMRP_RPUTILITY_GETPASSENABLEEX_OFFSET UNITYSDK_OFFSET(0x16C20380)
+#define RPG_CUSTOMRP_RPUTILITY_GETPASSTAG_OFFSET UNITYSDK_OFFSET(0x16C20330)
+#define RPG_CUSTOMRP_RPUTILITY_GETPATHDIR_OFFSET UNITYSDK_OFFSET(0x16C1FFF0)
+#define RPG_CUSTOMRP_RPUTILITY_GETPATHWITHOUTEXT_OFFSET UNITYSDK_OFFSET(0x16C1FFA0)
+#define RPG_CUSTOMRP_RPUTILITY_GETSUBMESHCOUNT_OFFSET UNITYSDK_OFFSET(0x16C1FD90)
+#define RPG_CUSTOMRP_RPUTILITY_GETTEMPORARYRT_1_OFFSET UNITYSDK_OFFSET(0x16C20E60)
+#define RPG_CUSTOMRP_RPUTILITY_GETTEMPORARYRT_OFFSET UNITYSDK_OFFSET(0x16BF2E70)
+#define RPG_CUSTOMRP_RPUTILITY_GETVECTOR_OFFSET UNITYSDK_OFFSET(0x16C20900)
+#define RPG_CUSTOMRP_RPUTILITY_GET_DEBUGMAT_OFFSET UNITYSDK_OFFSET(0x16C1F800)
+#define RPG_CUSTOMRP_RPUTILITY_GET_FULLSCREENMESH_OFFSET UNITYSDK_OFFSET(0x16BFCA00)
+#define RPG_CUSTOMRP_RPUTILITY_GET_FULLSCREENQUAD_OFFSET UNITYSDK_OFFSET(0x16C11B20)
+#define RPG_CUSTOMRP_RPUTILITY_GET_HALFSPHEREMESH_OFFSET UNITYSDK_OFFSET(0x16C1F710)
+#define RPG_CUSTOMRP_RPUTILITY_GET_IDENTITYQUAD_OFFSET UNITYSDK_OFFSET(0x16C1EF80)
+#define RPG_CUSTOMRP_RPUTILITY_GET_ISGAMEREALRUNNING_OFFSET UNITYSDK_OFFSET(0x16C1ECE0)
+#define RPG_CUSTOMRP_RPUTILITY_GET_POINTLIGHTMESH_OFFSET UNITYSDK_OFFSET(0x16C1F530)
+#define RPG_CUSTOMRP_RPUTILITY_GET_SPOTLIGHTMESH_OFFSET UNITYSDK_OFFSET(0x16C1F620)
+#define RPG_CUSTOMRP_RPUTILITY_GET_UNITCAPSULE_OFFSET UNITYSDK_OFFSET(0x16BE77D0)
+#define RPG_CUSTOMRP_RPUTILITY_GET_UNITCUBE_OFFSET UNITYSDK_OFFSET(0x16BE6920)
+#define RPG_CUSTOMRP_RPUTILITY_GET_UNITSPHERE_OFFSET UNITYSDK_OFFSET(0x16BE76E0)
+#define RPG_CUSTOMRP_RPUTILITY_INIT_OFFSET UNITYSDK_OFFSET(0x16C212E0)
+#define RPG_CUSTOMRP_RPUTILITY_ISBLACKCOLOR_OFFSET UNITYSDK_OFFSET(0x16C1FD70)
+#define RPG_CUSTOMRP_RPUTILITY_RELEASEASSETDEL_OFFSET UNITYSDK_OFFSET(0x16C1EEE0)
+#define RPG_CUSTOMRP_RPUTILITY_RELEASERT_OFFSET UNITYSDK_OFFSET(0x16BF1DF0)
+#define RPG_CUSTOMRP_RPUTILITY_RELEASETEMPORARYRT_OFFSET UNITYSDK_OFFSET(0x16BF3780)
+#define RPG_CUSTOMRP_RPUTILITY_RESET_OFFSET UNITYSDK_OFFSET(0x16C1EDC0)
+#define RPG_CUSTOMRP_RPUTILITY_ROTATELEFT_OFFSET UNITYSDK_OFFSET(0x16C203C0)
+#define RPG_CUSTOMRP_RPUTILITY_SAVETEX_1_OFFSET UNITYSDK_OFFSET(0x16C23D60)
+#define RPG_CUSTOMRP_RPUTILITY_SAVETEX_OFFSET UNITYSDK_OFFSET(0x16C23980)
+#define RPG_CUSTOMRP_RPUTILITY_SETPASSENABLEEX_OFFSET UNITYSDK_OFFSET(0x16C20340)
+#define RPG_CUSTOMRP_RPUTILITY_SETRENDERTARGET_OFFSET UNITYSDK_OFFSET(0x16C213C0)
+#define RPG_CUSTOMRP_RPUTILITY_SETRT_1_OFFSET UNITYSDK_OFFSET(0x16C21C00)
+#define RPG_CUSTOMRP_RPUTILITY_SETRT_2_OFFSET UNITYSDK_OFFSET(0x16BFC880)
+#define RPG_CUSTOMRP_RPUTILITY_SETRT_OFFSET UNITYSDK_OFFSET(0x16C21A00)
+#define RPG_CUSTOMRP_RPUTILITY_SETTEXTURE_1_OFFSET UNITYSDK_OFFSET(0x16BF33B0)
+#define RPG_CUSTOMRP_RPUTILITY_SETTEXTURE_2_OFFSET UNITYSDK_OFFSET(0x16C20FA0)
+#define RPG_CUSTOMRP_RPUTILITY_SETTEXTURE_3_OFFSET UNITYSDK_OFFSET(0x16C21020)
+#define RPG_CUSTOMRP_RPUTILITY_SETTEXTURE_4_OFFSET UNITYSDK_OFFSET(0x16C21080)
+#define RPG_CUSTOMRP_RPUTILITY_SETTEXTURE_5_OFFSET UNITYSDK_OFFSET(0x16C21110)
+#define RPG_CUSTOMRP_RPUTILITY_SETTEXTURE_6_OFFSET UNITYSDK_OFFSET(0x16C211A0)
+#define RPG_CUSTOMRP_RPUTILITY_SETTEXTURE_OFFSET UNITYSDK_OFFSET(0x16BF73C0)
+#define RPG_CUSTOMRP_RPUTILITY_SETUPMAT_OFFSET UNITYSDK_OFFSET(0x16C1ED20)
+#define RPG_CUSTOMRP_RPUTILITY_SET_DEBUGMAT_OFFSET UNITYSDK_OFFSET(0x16C1F830)
+#define RPG_CUSTOMRP_RPUTILITY_SUPPORTSGRAPHICSFORMAT_OFFSET UNITYSDK_OFFSET(0x16C209E0)
+#define RPG_CUSTOMRP_RPUTILITY_SUPPORTSRENDERTEXTUREFORMAT_OFFSET UNITYSDK_OFFSET(0x16C20D00)
+#define RPG_CUSTOMRP_RPUTILITY__CCTOR_OFFSET UNITYSDK_OFFSET(0x16C24760)
 
 namespace RPG::CustomRP
 {
-	inline static constexpr unsigned int RPUtility_TypeDefinitionIndex = 35565;
+	inline static constexpr unsigned int RPUtility_TypeDefinitionIndex = 36347;
 
 	class RPUtility : public ::System::Object
 	{
 	public:
-		static ::System::Collections::Generic::IEnumerable_1<::System::Type*>** StaticGet__AssemblyTypes()
+		static ::System::String** StaticGet__SpotLightMeshDelegatePath()
 		{
-			return (::System::Collections::Generic::IEnumerable_1<::System::Type*>**)Il2CppClass::FromTypeDefinitionIndex(RPUtility_TypeDefinitionIndex)->GetStaticField(0xD610);
-		}
-		static ::UnityEngine::Mesh** StaticGet_s_UnitCube()
-		{
-			return (::UnityEngine::Mesh**)Il2CppClass::FromTypeDefinitionIndex(RPUtility_TypeDefinitionIndex)->GetStaticField(0xD618);
-		}
-		static ::System::Collections::Generic::Dictionary_2<::UnityEngine::RenderTextureFormat, ::System::Boolean>** StaticGet__RenderTextureFormatSupport()
-		{
-			return (::System::Collections::Generic::Dictionary_2<::UnityEngine::RenderTextureFormat, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(RPUtility_TypeDefinitionIndex)->GetStaticField(0xD620);
-		}
-		static ::UnityEngine::Mesh** StaticGet__HalfSphereMesh()
-		{
-			return (::UnityEngine::Mesh**)Il2CppClass::FromTypeDefinitionIndex(RPUtility_TypeDefinitionIndex)->GetStaticField(0xD628);
-		}
-		static ::UnityEngine::Mesh** StaticGet_s_FullscreenMesh()
-		{
-			return (::UnityEngine::Mesh**)Il2CppClass::FromTypeDefinitionIndex(RPUtility_TypeDefinitionIndex)->GetStaticField(0xD630);
-		}
-		static ::UnityEngine::MaterialPropertyBlock** StaticGet__BiltMpb()
-		{
-			return (::UnityEngine::MaterialPropertyBlock**)Il2CppClass::FromTypeDefinitionIndex(RPUtility_TypeDefinitionIndex)->GetStaticField(0xD638);
-		}
-		static ::UnityEngine::Mesh** StaticGet__SpotLightMesh()
-		{
-			return (::UnityEngine::Mesh**)Il2CppClass::FromTypeDefinitionIndex(RPUtility_TypeDefinitionIndex)->GetStaticField(0xD640);
-		}
-		static ::RPG::CustomRP::SyncLoadAssetDel** StaticGet_loadFun()
-		{
-			return (::RPG::CustomRP::SyncLoadAssetDel**)Il2CppClass::FromTypeDefinitionIndex(RPUtility_TypeDefinitionIndex)->GetStaticField(0xD648);
-		}
-		static ::UnityEngine::Mesh** StaticGet_s_FullscreenQuad()
-		{
-			return (::UnityEngine::Mesh**)Il2CppClass::FromTypeDefinitionIndex(RPUtility_TypeDefinitionIndex)->GetStaticField(0xD650);
-		}
-		static ::UnityEngine::Mesh** StaticGet_s_IdentityQuad()
-		{
-			return (::UnityEngine::Mesh**)Il2CppClass::FromTypeDefinitionIndex(RPUtility_TypeDefinitionIndex)->GetStaticField(0xD658);
+			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(RPUtility_TypeDefinitionIndex)->GetStaticField(0x1D350);
 		}
 		static ::System::Collections::Generic::Dictionary_2<::UnityEngine::Experimental::Rendering::GraphicsFormat, ::System::Collections::Generic::Dictionary_2<::UnityEngine::Experimental::Rendering::FormatUsage, ::System::Boolean>*>** StaticGet__GraphicsFormatSupport()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::UnityEngine::Experimental::Rendering::GraphicsFormat, ::System::Collections::Generic::Dictionary_2<::UnityEngine::Experimental::Rendering::FormatUsage, ::System::Boolean>*>**)Il2CppClass::FromTypeDefinitionIndex(RPUtility_TypeDefinitionIndex)->GetStaticField(0xD660);
+			return (::System::Collections::Generic::Dictionary_2<::UnityEngine::Experimental::Rendering::GraphicsFormat, ::System::Collections::Generic::Dictionary_2<::UnityEngine::Experimental::Rendering::FormatUsage, ::System::Boolean>*>**)Il2CppClass::FromTypeDefinitionIndex(RPUtility_TypeDefinitionIndex)->GetStaticField(0x1D358);
 		}
-		static ::UnityEngine::Rendering::CommandBuffer** StaticGet_drawCB()
+		static ::UnityEngine::Mesh** StaticGet_s_FullscreenMesh()
 		{
-			return (::UnityEngine::Rendering::CommandBuffer**)Il2CppClass::FromTypeDefinitionIndex(RPUtility_TypeDefinitionIndex)->GetStaticField(0xD668);
+			return (::UnityEngine::Mesh**)Il2CppClass::FromTypeDefinitionIndex(RPUtility_TypeDefinitionIndex)->GetStaticField(0x1D360);
 		}
-		static ::UnityEngine::Mesh** StaticGet__PointLightMesh()
+		static ::UnityEngine::Mesh** StaticGet__SpotLightMesh()
 		{
-			return (::UnityEngine::Mesh**)Il2CppClass::FromTypeDefinitionIndex(RPUtility_TypeDefinitionIndex)->GetStaticField(0xD670);
-		}
-		static ::RPG::CustomRP::ReleaseAssetDel** StaticGet_releaseFun()
-		{
-			return (::RPG::CustomRP::ReleaseAssetDel**)Il2CppClass::FromTypeDefinitionIndex(RPUtility_TypeDefinitionIndex)->GetStaticField(0xD678);
-		}
-		static ::Il2CppArray<::UnityEngine::Color>** StaticGet_ClearColors()
-		{
-			return (::Il2CppArray<::UnityEngine::Color>**)Il2CppClass::FromTypeDefinitionIndex(RPUtility_TypeDefinitionIndex)->GetStaticField(0xD680);
-		}
-		static ::UnityEngine::Material** StaticGet_s_DebugMat()
-		{
-			return (::UnityEngine::Material**)Il2CppClass::FromTypeDefinitionIndex(RPUtility_TypeDefinitionIndex)->GetStaticField(0xD688);
-		}
-		static ::UnityEngine::Material** StaticGet__BiltMat()
-		{
-			return (::UnityEngine::Material**)Il2CppClass::FromTypeDefinitionIndex(RPUtility_TypeDefinitionIndex)->GetStaticField(0xD690);
+			return (::UnityEngine::Mesh**)Il2CppClass::FromTypeDefinitionIndex(RPUtility_TypeDefinitionIndex)->GetStaticField(0x1D368);
 		}
 		static ::UnityEngine::Mesh** StaticGet_s_Capsule()
 		{
-			return (::UnityEngine::Mesh**)Il2CppClass::FromTypeDefinitionIndex(RPUtility_TypeDefinitionIndex)->GetStaticField(0xD698);
-		}
-		static ::Il2CppArray<::System::String*>** StaticGet__LINEAR_TO_SRGB_CONVERSION()
-		{
-			return (::Il2CppArray<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(RPUtility_TypeDefinitionIndex)->GetStaticField(0xD6A0);
+			return (::UnityEngine::Mesh**)Il2CppClass::FromTypeDefinitionIndex(RPUtility_TypeDefinitionIndex)->GetStaticField(0x1D370);
 		}
 		static ::System::String** StaticGet__PointLightMeshDelegatePath()
 		{
-			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(RPUtility_TypeDefinitionIndex)->GetStaticField(0xD6A8);
+			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(RPUtility_TypeDefinitionIndex)->GetStaticField(0x1D378);
 		}
-		static ::UnityEngine::Mesh** StaticGet_s_UnitSphere()
+		static ::UnityEngine::MaterialPropertyBlock** StaticGet__BiltMpb()
 		{
-			return (::UnityEngine::Mesh**)Il2CppClass::FromTypeDefinitionIndex(RPUtility_TypeDefinitionIndex)->GetStaticField(0xD6B0);
+			return (::UnityEngine::MaterialPropertyBlock**)Il2CppClass::FromTypeDefinitionIndex(RPUtility_TypeDefinitionIndex)->GetStaticField(0x1D380);
 		}
-		static ::System::String** StaticGet__SpotLightMeshDelegatePath()
+		static ::RPG::CustomRP::SyncLoadAssetDel** StaticGet_loadFun()
 		{
-			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(RPUtility_TypeDefinitionIndex)->GetStaticField(0xD6B8);
+			return (::RPG::CustomRP::SyncLoadAssetDel**)Il2CppClass::FromTypeDefinitionIndex(RPUtility_TypeDefinitionIndex)->GetStaticField(0x1D388);
+		}
+		static ::UnityEngine::Material** StaticGet_s_DebugMat()
+		{
+			return (::UnityEngine::Material**)Il2CppClass::FromTypeDefinitionIndex(RPUtility_TypeDefinitionIndex)->GetStaticField(0x1D390);
+		}
+		static ::Il2CppArray<::System::String*>** StaticGet__LINEAR_TO_SRGB_CONVERSION()
+		{
+			return (::Il2CppArray<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(RPUtility_TypeDefinitionIndex)->GetStaticField(0x1D398);
+		}
+		static ::UnityEngine::Mesh** StaticGet__HalfSphereMesh()
+		{
+			return (::UnityEngine::Mesh**)Il2CppClass::FromTypeDefinitionIndex(RPUtility_TypeDefinitionIndex)->GetStaticField(0x1D3A0);
 		}
 		static ::Il2CppArray<::System::Byte>** StaticGet__hashBuffer()
 		{
-			return (::Il2CppArray<::System::Byte>**)Il2CppClass::FromTypeDefinitionIndex(RPUtility_TypeDefinitionIndex)->GetStaticField(0xD6C0);
+			return (::Il2CppArray<::System::Byte>**)Il2CppClass::FromTypeDefinitionIndex(RPUtility_TypeDefinitionIndex)->GetStaticField(0x1D3A8);
 		}
-		static ::System::Boolean* StaticGet_useViewSpaceNormal()
+		static ::UnityEngine::Mesh** StaticGet__PointLightMesh()
 		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(RPUtility_TypeDefinitionIndex)->GetStaticField(0x4970);
+			return (::UnityEngine::Mesh**)Il2CppClass::FromTypeDefinitionIndex(RPUtility_TypeDefinitionIndex)->GetStaticField(0x1D3B0);
 		}
-		static ::System::Single* StaticGet_MaxAspectRatio()
+		static ::UnityEngine::Material** StaticGet__BiltMat()
 		{
-			return (::System::Single*)Il2CppClass::FromTypeDefinitionIndex(RPUtility_TypeDefinitionIndex)->GetStaticField(0x4974);
+			return (::UnityEngine::Material**)Il2CppClass::FromTypeDefinitionIndex(RPUtility_TypeDefinitionIndex)->GetStaticField(0x1D3B8);
 		}
-		static ::UnityEngine::Vector2Int* StaticGet_UIScreenSize()
+		static ::UnityEngine::Mesh** StaticGet_s_UnitSphere()
 		{
-			return (::UnityEngine::Vector2Int*)Il2CppClass::FromTypeDefinitionIndex(RPUtility_TypeDefinitionIndex)->GetStaticField(0x4978);
+			return (::UnityEngine::Mesh**)Il2CppClass::FromTypeDefinitionIndex(RPUtility_TypeDefinitionIndex)->GetStaticField(0x1D3C0);
+		}
+		static ::UnityEngine::Rendering::CommandBuffer** StaticGet_drawCB()
+		{
+			return (::UnityEngine::Rendering::CommandBuffer**)Il2CppClass::FromTypeDefinitionIndex(RPUtility_TypeDefinitionIndex)->GetStaticField(0x1D3C8);
+		}
+		static ::UnityEngine::Mesh** StaticGet_s_FullscreenQuad()
+		{
+			return (::UnityEngine::Mesh**)Il2CppClass::FromTypeDefinitionIndex(RPUtility_TypeDefinitionIndex)->GetStaticField(0x1D3D0);
+		}
+		static ::UnityEngine::Mesh** StaticGet_s_IdentityQuad()
+		{
+			return (::UnityEngine::Mesh**)Il2CppClass::FromTypeDefinitionIndex(RPUtility_TypeDefinitionIndex)->GetStaticField(0x1D3D8);
+		}
+		static ::RPG::CustomRP::ReleaseAssetDel** StaticGet_releaseFun()
+		{
+			return (::RPG::CustomRP::ReleaseAssetDel**)Il2CppClass::FromTypeDefinitionIndex(RPUtility_TypeDefinitionIndex)->GetStaticField(0x1D3E0);
+		}
+		static ::Il2CppArray<::UnityEngine::Color>** StaticGet_ClearColors()
+		{
+			return (::Il2CppArray<::UnityEngine::Color>**)Il2CppClass::FromTypeDefinitionIndex(RPUtility_TypeDefinitionIndex)->GetStaticField(0x1D3E8);
+		}
+		static ::System::Collections::Generic::IEnumerable_1<::System::Type*>** StaticGet__AssemblyTypes()
+		{
+			return (::System::Collections::Generic::IEnumerable_1<::System::Type*>**)Il2CppClass::FromTypeDefinitionIndex(RPUtility_TypeDefinitionIndex)->GetStaticField(0x1D3F0);
+		}
+		static ::UnityEngine::Mesh** StaticGet_s_UnitCube()
+		{
+			return (::UnityEngine::Mesh**)Il2CppClass::FromTypeDefinitionIndex(RPUtility_TypeDefinitionIndex)->GetStaticField(0x1D3F8);
+		}
+		static ::System::Collections::Generic::Dictionary_2<::UnityEngine::RenderTextureFormat, ::System::Boolean>** StaticGet__RenderTextureFormatSupport()
+		{
+			return (::System::Collections::Generic::Dictionary_2<::UnityEngine::RenderTextureFormat, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(RPUtility_TypeDefinitionIndex)->GetStaticField(0x1D400);
 		}
 		static ::UnityEngine::Vector2Int* StaticGet_SceneScreenSize()
 		{
-			return (::UnityEngine::Vector2Int*)Il2CppClass::FromTypeDefinitionIndex(RPUtility_TypeDefinitionIndex)->GetStaticField(0x4980);
+			return (::UnityEngine::Vector2Int*)Il2CppClass::FromTypeDefinitionIndex(RPUtility_TypeDefinitionIndex)->GetStaticField(0x6700);
 		}
-		static ::System::Boolean* StaticGet_ReleaseSimulate()
+		static ::System::Single* StaticGet_MaxAspectRatio()
 		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(RPUtility_TypeDefinitionIndex)->GetStaticField(0x4988);
-		}
-		static ::System::Boolean* StaticGet_useGbufferNormalCompress()
-		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(RPUtility_TypeDefinitionIndex)->GetStaticField(0x4989);
-		}
-		static ::System::Boolean* StaticGet_IsGameRunning()
-		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(RPUtility_TypeDefinitionIndex)->GetStaticField(0x498A);
+			return (::System::Single*)Il2CppClass::FromTypeDefinitionIndex(RPUtility_TypeDefinitionIndex)->GetStaticField(0x6708);
 		}
 		static ::System::Boolean* StaticGet_useGbufferColorCompress()
 		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(RPUtility_TypeDefinitionIndex)->GetStaticField(0x498B);
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(RPUtility_TypeDefinitionIndex)->GetStaticField(0x670C);
+		}
+		static ::System::Boolean* StaticGet_useGbufferNormalCompress()
+		{
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(RPUtility_TypeDefinitionIndex)->GetStaticField(0x670D);
+		}
+		static ::System::Boolean* StaticGet_ReleaseSimulate()
+		{
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(RPUtility_TypeDefinitionIndex)->GetStaticField(0x670E);
+		}
+		static ::UnityEngine::Vector2Int* StaticGet_UIScreenSize()
+		{
+			return (::UnityEngine::Vector2Int*)Il2CppClass::FromTypeDefinitionIndex(RPUtility_TypeDefinitionIndex)->GetStaticField(0x6710);
 		}
 		static ::System::Single* StaticGet_MinAspectRatio()
 		{
-			return (::System::Single*)Il2CppClass::FromTypeDefinitionIndex(RPUtility_TypeDefinitionIndex)->GetStaticField(0x498C);
+			return (::System::Single*)Il2CppClass::FromTypeDefinitionIndex(RPUtility_TypeDefinitionIndex)->GetStaticField(0x6718);
+		}
+		static ::System::Boolean* StaticGet_IsGameRunning()
+		{
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(RPUtility_TypeDefinitionIndex)->GetStaticField(0x671C);
+		}
+		static ::System::Boolean* StaticGet_useViewSpaceNormal()
+		{
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(RPUtility_TypeDefinitionIndex)->GetStaticField(0x671D);
 		}
 		// static const ::System::Single EPSILON; // 0x0
 

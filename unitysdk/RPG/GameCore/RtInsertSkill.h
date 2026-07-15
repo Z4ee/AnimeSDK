@@ -7,13 +7,13 @@ namespace RPG::GameCore { class JsonEnum; }
 namespace RPG::GameCore { class TargetEvaluator; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_RTINSERTSKILL_METHOD_3_060ABBF019720B8D_OFFSET UNITYSDK_OFFSET(0x19BEA9E0)
-#define RPG_GAMECORE_RTINSERTSKILL_METHOD_3_94B163D988F9F903_OFFSET UNITYSDK_OFFSET(0x19BEAAB0)
-#define RPG_GAMECORE_RTINSERTSKILL__CTOR_OFFSET UNITYSDK_OFFSET(0x19BEAA60)
+#define RPG_GAMECORE_RTINSERTSKILL_METHOD_3_94B163D988F9F903_OFFSET UNITYSDK_OFFSET(0x1B763980)
+#define RPG_GAMECORE_RTINSERTSKILL_METHOD_3_C981899358B251FD_OFFSET UNITYSDK_OFFSET(0x1B7638E0)
+#define RPG_GAMECORE_RTINSERTSKILL__CTOR_OFFSET UNITYSDK_OFFSET(0x1B763940)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RtInsertSkill_TypeDefinitionIndex = 22896;
+	inline static constexpr unsigned int RtInsertSkill_TypeDefinitionIndex = 23363;
 
 	class RtInsertSkill : public ::RPG::GameCore::TaskConfig
 	{
@@ -29,9 +29,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_RTINSERTSKILL__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_060ABBF019720B8D(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::RtInsertSkill*& a2)
+		static ::System::Void Method_3_C981899358B251FD(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::RtInsertSkill*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::RtInsertSkill*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_RTINSERTSKILL_METHOD_3_060ABBF019720B8D_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::RtInsertSkill*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_RTINSERTSKILL_METHOD_3_C981899358B251FD_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_94B163D988F9F903(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::RtInsertSkill* a2)

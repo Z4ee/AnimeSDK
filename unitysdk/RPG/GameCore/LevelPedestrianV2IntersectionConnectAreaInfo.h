@@ -5,12 +5,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class LevelPedestrianV2RoadEntryInfo; }
 
-#define RPG_GAMECORE_LEVELPEDESTRIANV2INTERSECTIONCONNECTAREAINFO_METHOD_2_4581396B9B4F9FCE_OFFSET UNITYSDK_OFFSET(0x19883DC0)
-#define RPG_GAMECORE_LEVELPEDESTRIANV2INTERSECTIONCONNECTAREAINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x19883EE0)
+#define RPG_GAMECORE_LEVELPEDESTRIANV2INTERSECTIONCONNECTAREAINFO_METHOD_2_46C3E9C6655AD557_OFFSET UNITYSDK_OFFSET(0x1B083950)
+#define RPG_GAMECORE_LEVELPEDESTRIANV2INTERSECTIONCONNECTAREAINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x1B083AA0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LevelPedestrianV2IntersectionConnectAreaInfo_TypeDefinitionIndex = 16448;
+	inline static constexpr unsigned int LevelPedestrianV2IntersectionConnectAreaInfo_TypeDefinitionIndex = 16610;
 
 	class LevelPedestrianV2IntersectionConnectAreaInfo : public ::RPG::GameCore::JsonConfig
 	{
@@ -24,9 +24,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELPEDESTRIANV2INTERSECTIONCONNECTAREAINFO__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_4581396B9B4F9FCE(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::LevelPedestrianV2IntersectionConnectAreaInfo*& a2)
+		static ::System::Void Method_2_46C3E9C6655AD557(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::LevelPedestrianV2IntersectionConnectAreaInfo*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::LevelPedestrianV2IntersectionConnectAreaInfo*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELPEDESTRIANV2INTERSECTIONCONNECTAREAINFO_METHOD_2_4581396B9B4F9FCE_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::LevelPedestrianV2IntersectionConnectAreaInfo*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELPEDESTRIANV2INTERSECTIONCONNECTAREAINFO_METHOD_2_46C3E9C6655AD557_OFFSET))(a1, a2);
 		}
 	};
 }

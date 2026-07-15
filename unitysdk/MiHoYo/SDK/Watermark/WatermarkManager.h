@@ -6,24 +6,26 @@ namespace System { class String; }
 namespace System { template <typename T1, typename T2> class Action_2; }
 namespace UnityEngine { class Texture2D; }
 
-#define MIHOYO_SDK_WATERMARK_WATERMARKMANAGER_CHECKWATERMARKCONFIG_OFFSET UNITYSDK_OFFSET(0x1845FF80)
-#define MIHOYO_SDK_WATERMARK_WATERMARKMANAGER_GETSCREENSHOTWATERMARKIMAGE_OFFSET UNITYSDK_OFFSET(0x18460240)
-#define MIHOYO_SDK_WATERMARK_WATERMARKMANAGER_INIT_OFFSET UNITYSDK_OFFSET(0x1845FD10)
-#define MIHOYO_SDK_WATERMARK_WATERMARKMANAGER_SETWATERMARKCONFIG_OFFSET UNITYSDK_OFFSET(0x1845F000)
-#define MIHOYO_SDK_WATERMARK_WATERMARKMANAGER_SETWATERMARKENABLE_OFFSET UNITYSDK_OFFSET(0x1845EE20)
-#define MIHOYO_SDK_WATERMARK_WATERMARKMANAGER__CCTOR_OFFSET UNITYSDK_OFFSET(0x18460490)
-#define MIHOYO_SDK_WATERMARK_WATERMARKMANAGER__CTOR_OFFSET UNITYSDK_OFFSET(0x18460480)
+#define MIHOYO_SDK_WATERMARK_WATERMARKMANAGER_CHECKSCREENSHOTWATERMARKCONFIG_OFFSET UNITYSDK_OFFSET(0x15C1FE60)
+#define MIHOYO_SDK_WATERMARK_WATERMARKMANAGER_CHECKWATERMARKCONFIG_OFFSET UNITYSDK_OFFSET(0x15C1FAD0)
+#define MIHOYO_SDK_WATERMARK_WATERMARKMANAGER_GETSCREENSHOTWATERMARKIMAGEDIRECT_OFFSET UNITYSDK_OFFSET(0x15C1FCA0)
+#define MIHOYO_SDK_WATERMARK_WATERMARKMANAGER_GETSCREENSHOTWATERMARKIMAGE_OFFSET UNITYSDK_OFFSET(0x15C1FAE0)
+#define MIHOYO_SDK_WATERMARK_WATERMARKMANAGER_INIT_OFFSET UNITYSDK_OFFSET(0x15C1F850)
+#define MIHOYO_SDK_WATERMARK_WATERMARKMANAGER_SETWATERMARKCONFIG_OFFSET UNITYSDK_OFFSET(0x15C1EBF0)
+#define MIHOYO_SDK_WATERMARK_WATERMARKMANAGER_SETWATERMARKENABLE_OFFSET UNITYSDK_OFFSET(0x15C1E7D0)
+#define MIHOYO_SDK_WATERMARK_WATERMARKMANAGER__CCTOR_OFFSET UNITYSDK_OFFSET(0x15C20130)
+#define MIHOYO_SDK_WATERMARK_WATERMARKMANAGER__CTOR_OFFSET UNITYSDK_OFFSET(0x15C20120)
 
 namespace MiHoYo::SDK::Watermark
 {
-	inline static constexpr unsigned int WatermarkManager_TypeDefinitionIndex = 8533;
+	inline static constexpr unsigned int WatermarkManager_TypeDefinitionIndex = 8545;
 
 	class WatermarkManager : public ::System::Object
 	{
 	public:
 		static ::MiHoYo::SDK::Watermark::WatermarkManager** StaticGet_Instance()
 		{
-			return (::MiHoYo::SDK::Watermark::WatermarkManager**)Il2CppClass::FromTypeDefinitionIndex(WatermarkManager_TypeDefinitionIndex)->GetStaticField(0xCD90);
+			return (::MiHoYo::SDK::Watermark::WatermarkManager**)Il2CppClass::FromTypeDefinitionIndex(WatermarkManager_TypeDefinitionIndex)->GetStaticField(0xEF60);
 		}
 
 		::System::Void _ctor()
@@ -56,9 +58,19 @@ namespace MiHoYo::SDK::Watermark
 			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Int32, ::System::Action_2<::System::Int32, ::UnityEngine::Texture2D*>*, ::System::Single))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WATERMARK_WATERMARKMANAGER_GETSCREENSHOTWATERMARKIMAGE_OFFSET))(this, a1, a2, a3, a4);
 		}
 
+		::System::Void GetScreenShotWatermarkImageDirect(::System::Int32 a1, ::System::Int32 a2, ::System::Action_2<::System::Int32, ::UnityEngine::Texture2D*>* a3, ::System::Single a4)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Int32, ::System::Action_2<::System::Int32, ::UnityEngine::Texture2D*>*, ::System::Single))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WATERMARK_WATERMARKMANAGER_GETSCREENSHOTWATERMARKIMAGEDIRECT_OFFSET))(this, a1, a2, a3, a4);
+		}
+
 		::System::Boolean CheckWatermarkConfig()
 		{
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WATERMARK_WATERMARKMANAGER_CHECKWATERMARKCONFIG_OFFSET))(this);
+		}
+
+		::System::Boolean CheckScreenshotWatermarkConfig(::System::Boolean a1)
+		{
+			return ((::System::Boolean(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WATERMARK_WATERMARKMANAGER_CHECKSCREENSHOTWATERMARKCONFIG_OFFSET))(this, a1);
 		}
 	};
 }

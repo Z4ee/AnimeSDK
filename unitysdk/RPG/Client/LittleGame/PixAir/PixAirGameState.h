@@ -3,7 +3,7 @@
 
 namespace RPG::Client::LittleGame::PixAir
 {
-	inline static constexpr unsigned int PixAirGameState_TypeDefinitionIndex = 40264;
+	inline static constexpr unsigned int PixAirGameState_TypeDefinitionIndex = 41079;
 
 	enum class PixAirGameState : ::System::Int32
 	{

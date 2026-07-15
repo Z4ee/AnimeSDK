@@ -4,7 +4,7 @@
 
 namespace XLua
 {
-	inline static constexpr unsigned int LuaEnv_GCAction_TypeDefinitionIndex = 46988;
+	inline static constexpr unsigned int LuaEnv_GCAction_TypeDefinitionIndex = 47954;
 
 	struct alignas(4) LuaEnv_GCAction
 	{

@@ -4,12 +4,12 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_MESSAGECONTACTSCONDITIONROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1990F320)
-#define RPG_GAMECORE_MESSAGECONTACTSCONDITIONROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1990F460)
+#define RPG_GAMECORE_MESSAGECONTACTSCONDITIONROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1AF595B0)
+#define RPG_GAMECORE_MESSAGECONTACTSCONDITIONROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1AF596F0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MessageContactsConditionRow_TypeDefinitionIndex = 13744;
+	inline static constexpr unsigned int MessageContactsConditionRow_TypeDefinitionIndex = 13892;
 
 	class MessageContactsConditionRow : public ::System::Object
 	{

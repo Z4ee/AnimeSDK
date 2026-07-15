@@ -3,7 +3,7 @@
 
 namespace InControl
 {
-	inline static constexpr unsigned int TouchControlAnchor_TypeDefinitionIndex = 37922;
+	inline static constexpr unsigned int TouchControlAnchor_TypeDefinitionIndex = 38730;
 
 	enum class TouchControlAnchor : ::System::Int32
 	{

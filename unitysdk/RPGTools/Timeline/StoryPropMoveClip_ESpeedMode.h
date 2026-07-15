@@ -3,7 +3,7 @@
 
 namespace RPGTools::Timeline
 {
-	inline static constexpr unsigned int StoryPropMoveClip_ESpeedMode_TypeDefinitionIndex = 45631;
+	inline static constexpr unsigned int StoryPropMoveClip_ESpeedMode_TypeDefinitionIndex = 46569;
 
 	enum class StoryPropMoveClip_ESpeedMode : ::System::Int32
 	{

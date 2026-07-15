@@ -2,17 +2,17 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define RPG_CLIENT_MARBLEHEXDEACTIVATEDNOTIFY__CTOR_OFFSET UNITYSDK_OFFSET(0xBEFBD70)
+#define RPG_CLIENT_MARBLEHEXDEACTIVATEDNOTIFY__CTOR_OFFSET UNITYSDK_OFFSET(0x1A87EAB0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MarbleHexDeactivatedNotify_TypeDefinitionIndex = 61522;
+	inline static constexpr unsigned int MarbleHexDeactivatedNotify_TypeDefinitionIndex = 62884;
 
 	class MarbleHexDeactivatedNotify : public ::System::Object
 	{
 	public:
-		::System::UInt32 HexID; // 0x10
-		::System::Boolean IsEnemy; // 0x14
+		::System::Boolean IsEnemy; // 0x10
+		::System::UInt32 HexID; // 0x14
 
 		::System::Void _ctor()
 		{

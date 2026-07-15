@@ -9,13 +9,13 @@ namespace RPG::Client { class LoopGenerateBehavior; }
 namespace RPG::Client { class LoopGenerateBehavior_RuntimeSlider; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_LOOPGENERATEMONOPLUGIN_SETTEMPSPEED_OFFSET UNITYSDK_OFFSET(0xBE7B9A0)
-#define RPG_CLIENT_LOOPGENERATEMONOPLUGIN_SWITCHCONFIG_OFFSET UNITYSDK_OFFSET(0xBE7B8F0)
-#define RPG_CLIENT_LOOPGENERATEMONOPLUGIN__CTOR_OFFSET UNITYSDK_OFFSET(0xBE7BA60)
+#define RPG_CLIENT_LOOPGENERATEMONOPLUGIN_SETTEMPSPEED_OFFSET UNITYSDK_OFFSET(0x15BE9A70)
+#define RPG_CLIENT_LOOPGENERATEMONOPLUGIN_SWITCHCONFIG_OFFSET UNITYSDK_OFFSET(0x15BE99C0)
+#define RPG_CLIENT_LOOPGENERATEMONOPLUGIN__CTOR_OFFSET UNITYSDK_OFFSET(0x15BE9B30)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int LoopGenerateMonoPlugin_TypeDefinitionIndex = 66298;
+	inline static constexpr unsigned int LoopGenerateMonoPlugin_TypeDefinitionIndex = 67723;
 
 	class LoopGenerateMonoPlugin : public ::RPG::Client::TAMonoPlugin_1<::RPG::Client::LoopGenerateBehavior*>
 	{

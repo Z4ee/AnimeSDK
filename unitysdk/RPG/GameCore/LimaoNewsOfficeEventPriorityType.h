@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LimaoNewsOfficeEventPriorityType_TypeDefinitionIndex = 13291;
+	inline static constexpr unsigned int LimaoNewsOfficeEventPriorityType_TypeDefinitionIndex = 13439;
 
 	enum class LimaoNewsOfficeEventPriorityType : ::System::Int32
 	{

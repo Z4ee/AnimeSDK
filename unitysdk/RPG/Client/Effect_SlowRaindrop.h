@@ -13,13 +13,13 @@ namespace UnityEngine { class MaterialPropertyBlock; }
 namespace UnityEngine { class Mesh; }
 namespace UnityEngine { class Transform; }
 
-#define RPG_CLIENT_EFFECT_SLOWRAINDROP_LATEUPDATE_OFFSET UNITYSDK_OFFSET(0xB886640)
-#define RPG_CLIENT_EFFECT_SLOWRAINDROP_METHOD_5_C7AA0B5353D21688_OFFSET UNITYSDK_OFFSET(0xB8865D0)
-#define RPG_CLIENT_EFFECT_SLOWRAINDROP__CTOR_OFFSET UNITYSDK_OFFSET(0xB886DD0)
+#define RPG_CLIENT_EFFECT_SLOWRAINDROP_LATEUPDATE_OFFSET UNITYSDK_OFFSET(0x151263D0)
+#define RPG_CLIENT_EFFECT_SLOWRAINDROP_METHOD_5_C7AA0B5353D21688_OFFSET UNITYSDK_OFFSET(0x15126360)
+#define RPG_CLIENT_EFFECT_SLOWRAINDROP__CTOR_OFFSET UNITYSDK_OFFSET(0x15126B90)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int Effect_SlowRaindrop_TypeDefinitionIndex = 65970;
+	inline static constexpr unsigned int Effect_SlowRaindrop_TypeDefinitionIndex = 67395;
 
 	class Effect_SlowRaindrop : public ::UnityEngine::MonoBehaviour
 	{

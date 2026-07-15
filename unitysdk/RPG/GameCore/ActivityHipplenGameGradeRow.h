@@ -6,12 +6,12 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_ACTIVITYHIPPLENGAMEGRADEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x193ED650)
-#define RPG_GAMECORE_ACTIVITYHIPPLENGAMEGRADEROW__CTOR_OFFSET UNITYSDK_OFFSET(0x193ED7D0)
+#define RPG_GAMECORE_ACTIVITYHIPPLENGAMEGRADEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1AAF6150)
+#define RPG_GAMECORE_ACTIVITYHIPPLENGAMEGRADEROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1AAF62D0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ActivityHipplenGameGradeRow_TypeDefinitionIndex = 11133;
+	inline static constexpr unsigned int ActivityHipplenGameGradeRow_TypeDefinitionIndex = 11233;
 
 	class ActivityHipplenGameGradeRow : public ::System::Object
 	{

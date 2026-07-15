@@ -6,13 +6,12 @@
 
 namespace System { class String; }
 
-#define RPGTOOLS_TIMELINE_YCORRECTIONENABLEMIXER_ONBEHAVIOURPLAY_OFFSET UNITYSDK_OFFSET(0xD073F00)
-#define RPGTOOLS_TIMELINE_YCORRECTIONENABLEMIXER__CTOR_OFFSET UNITYSDK_OFFSET(0xD0742E0)
-#define RPGTOOLS_TIMELINE_YCORRECTIONENABLEMIXER___IFIXBASEPROXY_ONBEHAVIOURPLAY_OFFSET UNITYSDK_OFFSET(0xD0742F0)
+#define RPGTOOLS_TIMELINE_YCORRECTIONENABLEMIXER_ONBEHAVIOURPLAY_OFFSET UNITYSDK_OFFSET(0x19F64920)
+#define RPGTOOLS_TIMELINE_YCORRECTIONENABLEMIXER__CTOR_OFFSET UNITYSDK_OFFSET(0x19F64D00)
 
 namespace RPGTools::Timeline
 {
-	inline static constexpr unsigned int YCorrectionEnableMixer_TypeDefinitionIndex = 45690;
+	inline static constexpr unsigned int YCorrectionEnableMixer_TypeDefinitionIndex = 46628;
 
 	class YCorrectionEnableMixer : public ::UnityEngine::Playables::PlayableBehaviour
 	{
@@ -28,11 +27,6 @@ namespace RPGTools::Timeline
 		::System::Void OnBehaviourPlay(::UnityEngine::Playables::Playable a1, ::UnityEngine::Playables::FrameData a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::UnityEngine::Playables::Playable, ::UnityEngine::Playables::FrameData))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_YCORRECTIONENABLEMIXER_ONBEHAVIOURPLAY_OFFSET))(this, a1, a2);
-		}
-
-		::System::Void __iFixBaseProxy_OnBehaviourPlay(::UnityEngine::Playables::Playable a1, ::UnityEngine::Playables::FrameData a2)
-		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Playables::Playable, ::UnityEngine::Playables::FrameData))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_YCORRECTIONENABLEMIXER___IFIXBASEPROXY_ONBEHAVIOURPLAY_OFFSET))(this, a1, a2);
 		}
 	};
 }

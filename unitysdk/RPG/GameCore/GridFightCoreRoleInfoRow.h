@@ -5,20 +5,20 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_GRIDFIGHTCOREROLEINFOROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x197DE240)
-#define RPG_GAMECORE_GRIDFIGHTCOREROLEINFOROW__CTOR_OFFSET UNITYSDK_OFFSET(0x197DE440)
+#define RPG_GAMECORE_GRIDFIGHTCOREROLEINFOROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1C5C5DB0)
+#define RPG_GAMECORE_GRIDFIGHTCOREROLEINFOROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1C5C5FB0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int GridFightCoreRoleInfoRow_TypeDefinitionIndex = 13040;
+	inline static constexpr unsigned int GridFightCoreRoleInfoRow_TypeDefinitionIndex = 13188;
 
 	class GridFightCoreRoleInfoRow : public ::System::Object
 	{
 	public:
-		::RPG::Client::TextID ChooseDesc; // 0x10
-		::System::UInt32 SubTraitID; // 0x20
-		::System::UInt32 TraitID; // 0x24
-		::System::UInt32 RoleID; // 0x28
+		::System::UInt32 SubTraitID; // 0x10
+		::System::UInt32 TraitID; // 0x14
+		::System::UInt32 RoleID; // 0x18
+		::RPG::Client::TextID ChooseDesc; // 0x20
 
 		::System::Void _ctor()
 		{

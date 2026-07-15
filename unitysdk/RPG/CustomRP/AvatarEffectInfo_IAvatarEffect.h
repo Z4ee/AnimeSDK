@@ -7,7 +7,7 @@ namespace UnityEngine::Rendering { class CommandBuffer; }
 
 namespace RPG::CustomRP
 {
-	inline static constexpr unsigned int AvatarEffectInfo_IAvatarEffect_TypeDefinitionIndex = 35257;
+	inline static constexpr unsigned int AvatarEffectInfo_IAvatarEffect_TypeDefinitionIndex = 36039;
 
 	class AvatarEffectInfo_IAvatarEffect
 	{

@@ -6,11 +6,10 @@
 namespace RPG::Client { class LuaUIController; }
 namespace RPG::Client { class MonopolyOptionalGroupEventDisplayData; }
 
-#define CLASS_2_64A34E1FA4BE0A60_TRIGGER_OFFSET UNITYSDK_OFFSET(0xA4EE900)
-#define CLASS_2_64A34E1FA4BE0A60__CTOR_OFFSET UNITYSDK_OFFSET(0xA4EE8E0)
-#define CLASS_2_64A34E1FA4BE0A60___IFIXBASEPROXY_TRIGGER_OFFSET UNITYSDK_OFFSET(0xA4EE970)
+#define CLASS_2_64A34E1FA4BE0A60_TRIGGER_OFFSET UNITYSDK_OFFSET(0x152714A0)
+#define CLASS_2_64A34E1FA4BE0A60__CTOR_OFFSET UNITYSDK_OFFSET(0x15271480)
 
-inline static constexpr unsigned int Class_2_64A34E1FA4BE0A60_TypeDefinitionIndex = 61974;
+inline static constexpr unsigned int Class_2_64A34E1FA4BE0A60_TypeDefinitionIndex = 63339;
 
 class Class_2_64A34E1FA4BE0A60 : public ::RPG::Client::MonopolyContentTrigger
 {
@@ -25,10 +24,5 @@ public:
 	::RPG::Client::LuaUIController* Trigger()
 	{
 		return ((::RPG::Client::LuaUIController*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_64A34E1FA4BE0A60_TRIGGER_OFFSET))(this);
-	}
-
-	::RPG::Client::LuaUIController* __iFixBaseProxy_Trigger()
-	{
-		return ((::RPG::Client::LuaUIController*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_64A34E1FA4BE0A60___IFIXBASEPROXY_TRIGGER_OFFSET))(this);
 	}
 };

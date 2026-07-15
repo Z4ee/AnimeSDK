@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 
-#define RPG_CLIENT_OPENWORLD_MONONORMDISTANCELODTEMPLATESELECTOR__CTOR_OFFSET UNITYSDK_OFFSET(0xC3058D0)
+#define RPG_CLIENT_OPENWORLD_MONONORMDISTANCELODTEMPLATESELECTOR__CTOR_OFFSET UNITYSDK_OFFSET(0x18287380)
 
 namespace RPG::Client::OpenWorld
 {
-	inline static constexpr unsigned int MonoNormDistanceLodTemplateSelector_TypeDefinitionIndex = 68836;
+	inline static constexpr unsigned int MonoNormDistanceLodTemplateSelector_TypeDefinitionIndex = 70336;
 
 	class MonoNormDistanceLodTemplateSelector : public ::UnityEngine::MonoBehaviour
 	{

@@ -5,13 +5,13 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class TargetEvaluator; }
 
-#define RPG_GAMECORE_RTSTOPMOVE_METHOD_3_4E44D7F1D46538FF_OFFSET UNITYSDK_OFFSET(0x19BF2DD0)
-#define RPG_GAMECORE_RTSTOPMOVE_METHOD_3_6AA04383F326CCD5_OFFSET UNITYSDK_OFFSET(0x19BF2EA0)
-#define RPG_GAMECORE_RTSTOPMOVE__CTOR_OFFSET UNITYSDK_OFFSET(0x19BF2E50)
+#define RPG_GAMECORE_RTSTOPMOVE_METHOD_3_6AA04383F326CCD5_OFFSET UNITYSDK_OFFSET(0x1B76BA50)
+#define RPG_GAMECORE_RTSTOPMOVE_METHOD_3_70F2758990A5DDE4_OFFSET UNITYSDK_OFFSET(0x1B76B9B0)
+#define RPG_GAMECORE_RTSTOPMOVE__CTOR_OFFSET UNITYSDK_OFFSET(0x1B76BA10)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RtStopMove_TypeDefinitionIndex = 22795;
+	inline static constexpr unsigned int RtStopMove_TypeDefinitionIndex = 23262;
 
 	class RtStopMove : public ::RPG::GameCore::TaskConfig
 	{
@@ -23,9 +23,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_RTSTOPMOVE__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_4E44D7F1D46538FF(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::RtStopMove*& a2)
+		static ::System::Void Method_3_70F2758990A5DDE4(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::RtStopMove*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::RtStopMove*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_RTSTOPMOVE_METHOD_3_4E44D7F1D46538FF_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::RtStopMove*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_RTSTOPMOVE_METHOD_3_70F2758990A5DDE4_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_6AA04383F326CCD5(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::RtStopMove* a2)

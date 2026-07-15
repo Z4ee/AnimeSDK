@@ -7,12 +7,11 @@ namespace System { class String; }
 namespace UnityEngine { class AnimationClip; }
 namespace UnityEngine { class AnimationCurve; }
 
-#define RPG_CLIENT_ANIMATIONCLIPMOTIONPARAMS_TOSTRING_OFFSET UNITYSDK_OFFSET(0x136200)
-#define RPG_CLIENT_ANIMATIONCLIPMOTIONPARAMS___IFIXBASEPROXY_TOSTRING_OFFSET UNITYSDK_OFFSET(0x136210)
+#define RPG_CLIENT_ANIMATIONCLIPMOTIONPARAMS_TOSTRING_OFFSET UNITYSDK_OFFSET(0x39E7160)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int AnimationClipMotionParams_TypeDefinitionIndex = 68406;
+	inline static constexpr unsigned int AnimationClipMotionParams_TypeDefinitionIndex = 69900;
 
 	struct alignas(8) AnimationClipMotionParams
 	{
@@ -29,11 +28,6 @@ namespace RPG::Client
 		::System::String* ToString()
 		{
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ANIMATIONCLIPMOTIONPARAMS_TOSTRING_OFFSET))(this);
-		}
-
-		::System::String* __iFixBaseProxy_ToString()
-		{
-			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ANIMATIONCLIPMOTIONPARAMS___IFIXBASEPROXY_TOSTRING_OFFSET))(this);
 		}
 	};
 }

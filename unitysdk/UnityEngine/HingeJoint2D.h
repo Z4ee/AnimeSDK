@@ -4,7 +4,7 @@
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int HingeJoint2D_TypeDefinitionIndex = 5285;
+	inline static constexpr unsigned int HingeJoint2D_TypeDefinitionIndex = 5290;
 
 	class HingeJoint2D : public ::UnityEngine::AnchoredJoint2D
 	{

@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int RegionBlockExecutionMode_TypeDefinitionIndex = 58136;
+	inline static constexpr unsigned int RegionBlockExecutionMode_TypeDefinitionIndex = 59401;
 
 	enum class RegionBlockExecutionMode : ::System::Int32
 	{

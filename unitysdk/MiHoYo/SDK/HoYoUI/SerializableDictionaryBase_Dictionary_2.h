@@ -8,7 +8,7 @@ namespace System::Runtime::Serialization { class SerializationInfo; }
 
 namespace MiHoYo::SDK::HoYoUI
 {
-	inline static constexpr unsigned int SerializableDictionaryBase_Dictionary_2_TypeDefinitionIndex = 44092;
+	inline static constexpr unsigned int SerializableDictionaryBase_Dictionary_2_TypeDefinitionIndex = 44955;
 
 	template <typename TKey, typename TValue>
 	class SerializableDictionaryBase_Dictionary_2 : public ::System::Collections::Generic::Dictionary_2<TKey, TValue>

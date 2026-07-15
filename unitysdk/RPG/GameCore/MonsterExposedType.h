@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MonsterExposedType_TypeDefinitionIndex = 16252;
+	inline static constexpr unsigned int MonsterExposedType_TypeDefinitionIndex = 16436;
 
 	enum class MonsterExposedType : ::System::Int32
 	{

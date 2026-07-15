@@ -6,7 +6,7 @@
 
 namespace UnityEngine::Rendering
 {
-	inline static constexpr unsigned int PcssSettings_TypeDefinitionIndex = 4864;
+	inline static constexpr unsigned int PcssSettings_TypeDefinitionIndex = 4869;
 
 	struct alignas(4) PcssSettings
 	{

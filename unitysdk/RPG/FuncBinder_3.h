@@ -8,7 +8,7 @@ namespace System { template <typename T1, typename T2> class Func_2; }
 
 namespace RPG
 {
-	inline static constexpr unsigned int FuncBinder_3_TypeDefinitionIndex = 6726;
+	inline static constexpr unsigned int FuncBinder_3_TypeDefinitionIndex = 6731;
 
 	template <typename P, typename T1, typename R>
 	class FuncBinder_3 : public ::RPG::DelegateBinder_4<::RPG::FuncBinder_3<P, T1, R>*, ::System::Func_3<P, T1, R>*, T1, ::System::Func_2<P, R>*>

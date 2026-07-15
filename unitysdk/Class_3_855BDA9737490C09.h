@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class SetTargetDamageTextVisible; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_855BDA9737490C09_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xA4615B0)
-#define CLASS_3_855BDA9737490C09__CTOR_OFFSET UNITYSDK_OFFSET(0xA461580)
+#define CLASS_3_855BDA9737490C09_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x17847260)
+#define CLASS_3_855BDA9737490C09__CTOR_OFFSET UNITYSDK_OFFSET(0x17847230)
 
-inline static constexpr unsigned int Class_3_855BDA9737490C09_TypeDefinitionIndex = 51911;
+inline static constexpr unsigned int Class_3_855BDA9737490C09_TypeDefinitionIndex = 53064;
 
 class Class_3_855BDA9737490C09 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::SetTargetDamageTextVisible*>
 {

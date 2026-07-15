@@ -1,6 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/AdvEnterBattleSelectTargetType.h"
+#include "unitysdk/RPG/GameCore/CostMpPhase.h"
 #include "unitysdk/RPG/GameCore/TaskConfig.h"
 
 class Class_1_7A22A3DBEEDD1F80;
@@ -10,13 +11,13 @@ namespace RPG::GameCore { class AdventureHitConfig; }
 namespace RPG::GameCore { class PredicateConfig; }
 namespace RPG::GameCore { class TargetEvaluator; }
 
-#define RPG_GAMECORE_ADVENTURETRIGGERATTACK_METHOD_3_BEC7A67BA5D23890_OFFSET UNITYSDK_OFFSET(0x19455010)
-#define RPG_GAMECORE_ADVENTURETRIGGERATTACK_METHOD_3_CB228066AF4616E5_OFFSET UNITYSDK_OFFSET(0x19454D60)
-#define RPG_GAMECORE_ADVENTURETRIGGERATTACK__CTOR_OFFSET UNITYSDK_OFFSET(0x19454FA0)
+#define RPG_GAMECORE_ADVENTURETRIGGERATTACK_METHOD_3_BEC7A67BA5D23890_OFFSET UNITYSDK_OFFSET(0x1AE637A0)
+#define RPG_GAMECORE_ADVENTURETRIGGERATTACK_METHOD_3_CB228066AF4616E5_OFFSET UNITYSDK_OFFSET(0x1AE63540)
+#define RPG_GAMECORE_ADVENTURETRIGGERATTACK__CTOR_OFFSET UNITYSDK_OFFSET(0x1AE63740)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AdventureTriggerAttack_TypeDefinitionIndex = 19072;
+	inline static constexpr unsigned int AdventureTriggerAttack_TypeDefinitionIndex = 19427;
 
 	class AdventureTriggerAttack : public ::RPG::GameCore::TaskConfig
 	{
@@ -40,6 +41,7 @@ namespace RPG::GameCore
 		::System::Boolean FilterAllHitTargetByCurrentMP; // 0x74
 		::RPG::GameCore::AdvEnterBattleSelectTargetType EnterBattleSelectTargetType; // 0x78
 		::System::UInt32 CostMP; // 0x7C
+		::RPG::GameCore::CostMpPhase CostMpPhaseType; // 0x80
 
 		::System::Void _ctor()
 		{

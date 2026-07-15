@@ -5,12 +5,12 @@
 namespace RPG::Client { class AdventurePhase; }
 namespace RPG::Client::UI3DGame { class MonopolyGameController; }
 
-#define RPG_CLIENT_UI3DGAME_MONOPOLYGAMECONTROLLER___C__DISPLAYCLASS23_0__CTOR_OFFSET UNITYSDK_OFFSET(0xCB12670)
-#define RPG_CLIENT_UI3DGAME_MONOPOLYGAMECONTROLLER___C__DISPLAYCLASS23_0__ONUIENTERTRIGGER_B__0_OFFSET UNITYSDK_OFFSET(0xCB15BE0)
+#define RPG_CLIENT_UI3DGAME_MONOPOLYGAMECONTROLLER___C__DISPLAYCLASS23_0__CTOR_OFFSET UNITYSDK_OFFSET(0x16FF0F50)
+#define RPG_CLIENT_UI3DGAME_MONOPOLYGAMECONTROLLER___C__DISPLAYCLASS23_0__ONUIENTERTRIGGER_B__0_OFFSET UNITYSDK_OFFSET(0x16FF4680)
 
 namespace RPG::Client::UI3DGame
 {
-	inline static constexpr unsigned int MonopolyGameController___c__DisplayClass23_0_TypeDefinitionIndex = 70544;
+	inline static constexpr unsigned int MonopolyGameController___c__DisplayClass23_0_TypeDefinitionIndex = 72067;
 
 	class MonopolyGameController___c__DisplayClass23_0 : public ::System::Object
 	{

@@ -8,13 +8,13 @@ namespace RPG::GameCore { class SkillDataPropertyModifyItem; }
 namespace RPG::GameCore { class TargetEvaluator; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_MODIFYSKILLPROPERTYBYNAME_METHOD_3_DDE150CC7175EDDC_OFFSET UNITYSDK_OFFSET(0x19958AA0)
-#define RPG_GAMECORE_MODIFYSKILLPROPERTYBYNAME_METHOD_3_EA05665AF57537CA_OFFSET UNITYSDK_OFFSET(0x199589D0)
-#define RPG_GAMECORE_MODIFYSKILLPROPERTYBYNAME__CTOR_OFFSET UNITYSDK_OFFSET(0x19958A50)
+#define RPG_GAMECORE_MODIFYSKILLPROPERTYBYNAME_METHOD_3_65737B02DECE7ED3_OFFSET UNITYSDK_OFFSET(0x1B1AD7F0)
+#define RPG_GAMECORE_MODIFYSKILLPROPERTYBYNAME_METHOD_3_DDE150CC7175EDDC_OFFSET UNITYSDK_OFFSET(0x1B1AD890)
+#define RPG_GAMECORE_MODIFYSKILLPROPERTYBYNAME__CTOR_OFFSET UNITYSDK_OFFSET(0x1B1AD850)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ModifySkillPropertyByName_TypeDefinitionIndex = 22272;
+	inline static constexpr unsigned int ModifySkillPropertyByName_TypeDefinitionIndex = 22713;
 
 	class ModifySkillPropertyByName : public ::RPG::GameCore::TaskConfig
 	{
@@ -29,9 +29,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MODIFYSKILLPROPERTYBYNAME__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_EA05665AF57537CA(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ModifySkillPropertyByName*& a2)
+		static ::System::Void Method_3_65737B02DECE7ED3(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ModifySkillPropertyByName*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ModifySkillPropertyByName*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MODIFYSKILLPROPERTYBYNAME_METHOD_3_EA05665AF57537CA_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ModifySkillPropertyByName*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MODIFYSKILLPROPERTYBYNAME_METHOD_3_65737B02DECE7ED3_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_DDE150CC7175EDDC(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ModifySkillPropertyByName* a2)

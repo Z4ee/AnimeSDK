@@ -4,12 +4,12 @@
 
 namespace RPG::Client { class RogueMagicStoryArchiveDataItem; }
 
-#define RPG_CLIENT_ROGUEMAGICSTORYARCHIVECOLLECTION___C__DISPLAYCLASS5_0__CTOR_OFFSET UNITYSDK_OFFSET(0xC7B4250)
-#define RPG_CLIENT_ROGUEMAGICSTORYARCHIVECOLLECTION___C__DISPLAYCLASS5_0__GETSTORYITEM_B__0_OFFSET UNITYSDK_OFFSET(0xC7B5020)
+#define RPG_CLIENT_ROGUEMAGICSTORYARCHIVECOLLECTION___C__DISPLAYCLASS5_0__CTOR_OFFSET UNITYSDK_OFFSET(0x19A1B030)
+#define RPG_CLIENT_ROGUEMAGICSTORYARCHIVECOLLECTION___C__DISPLAYCLASS5_0__GETSTORYITEM_B__0_OFFSET UNITYSDK_OFFSET(0x19A1BE30)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int RogueMagicStoryArchiveCollection___c__DisplayClass5_0_TypeDefinitionIndex = 63071;
+	inline static constexpr unsigned int RogueMagicStoryArchiveCollection___c__DisplayClass5_0_TypeDefinitionIndex = 64438;
 
 	class RogueMagicStoryArchiveCollection___c__DisplayClass5_0 : public ::System::Object
 	{

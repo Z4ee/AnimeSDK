@@ -4,7 +4,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int GameWorldPluginHelper_1_TypeDefinitionIndex = 54042;
+	inline static constexpr unsigned int GameWorldPluginHelper_1_TypeDefinitionIndex = 55265;
 
 	template <typename T>
 	class GameWorldPluginHelper_1 : public ::System::Object

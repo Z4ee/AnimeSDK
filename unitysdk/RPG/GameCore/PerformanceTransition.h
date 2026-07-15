@@ -15,13 +15,13 @@ namespace RPG::GameCore { class DestroyNPC; }
 namespace RPG::GameCore { class DestroyProp; }
 namespace RPG::GameCore { class SwitchCharacterAnchor; }
 
-#define RPG_GAMECORE_PERFORMANCETRANSITION_METHOD_3_4C62DEAE77F722DD_OFFSET UNITYSDK_OFFSET(0x199FED80)
-#define RPG_GAMECORE_PERFORMANCETRANSITION_METHOD_3_FF7A406AEC4B8787_OFFSET UNITYSDK_OFFSET(0x199FECC0)
-#define RPG_GAMECORE_PERFORMANCETRANSITION__CTOR_OFFSET UNITYSDK_OFFSET(0x199FED30)
+#define RPG_GAMECORE_PERFORMANCETRANSITION_METHOD_3_652A0908693449DB_OFFSET UNITYSDK_OFFSET(0x1B4B90E0)
+#define RPG_GAMECORE_PERFORMANCETRANSITION_METHOD_3_F1F5F0BB07D6656B_OFFSET UNITYSDK_OFFSET(0x1B4B9150)
+#define RPG_GAMECORE_PERFORMANCETRANSITION__CTOR_OFFSET UNITYSDK_OFFSET(0x1B4B9130)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PerformanceTransition_TypeDefinitionIndex = 20638;
+	inline static constexpr unsigned int PerformanceTransition_TypeDefinitionIndex = 21053;
 
 	class PerformanceTransition : public ::RPG::GameCore::TaskConfig
 	{
@@ -51,14 +51,14 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PERFORMANCETRANSITION__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_FF7A406AEC4B8787(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::PerformanceTransition*& a2)
+		static ::System::Void Method_3_652A0908693449DB(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::PerformanceTransition*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::PerformanceTransition*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PERFORMANCETRANSITION_METHOD_3_FF7A406AEC4B8787_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::PerformanceTransition*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PERFORMANCETRANSITION_METHOD_3_652A0908693449DB_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_4C62DEAE77F722DD(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::PerformanceTransition* a2)
+		static ::System::Void Method_3_F1F5F0BB07D6656B(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::PerformanceTransition* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::PerformanceTransition*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PERFORMANCETRANSITION_METHOD_3_4C62DEAE77F722DD_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::PerformanceTransition*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PERFORMANCETRANSITION_METHOD_3_F1F5F0BB07D6656B_OFFSET))(a1, a2);
 		}
 	};
 }

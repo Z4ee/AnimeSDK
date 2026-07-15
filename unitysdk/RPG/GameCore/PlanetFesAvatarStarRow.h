@@ -4,20 +4,20 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_PLANETFESAVATARSTARROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x19A1A310)
-#define RPG_GAMECORE_PLANETFESAVATARSTARROW__CTOR_OFFSET UNITYSDK_OFFSET(0x19A1A9C0)
+#define RPG_GAMECORE_PLANETFESAVATARSTARROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B4D4400)
+#define RPG_GAMECORE_PLANETFESAVATARSTARROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1B4D4AA0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PlanetFesAvatarStarRow_TypeDefinitionIndex = 11625;
+	inline static constexpr unsigned int PlanetFesAvatarStarRow_TypeDefinitionIndex = 11725;
 
 	class PlanetFesAvatarStarRow : public ::System::Object
 	{
 	public:
-		::System::UInt32 IncomeParam; // 0x10
-		::System::UInt32 Rarity; // 0x14
-		::System::UInt32 CostItemNumber; // 0x18
-		::System::UInt32 StarLevel; // 0x1C
+		::System::UInt32 CostItemNumber; // 0x10
+		::System::UInt32 IncomeParam; // 0x14
+		::System::UInt32 StarLevel; // 0x18
+		::System::UInt32 Rarity; // 0x1C
 
 		::System::Void _ctor()
 		{

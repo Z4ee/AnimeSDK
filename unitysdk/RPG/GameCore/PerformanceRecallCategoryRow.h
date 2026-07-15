@@ -6,20 +6,20 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_PERFORMANCERECALLCATEGORYROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x199F5AC0)
-#define RPG_GAMECORE_PERFORMANCERECALLCATEGORYROW__CTOR_OFFSET UNITYSDK_OFFSET(0x199F67C0)
+#define RPG_GAMECORE_PERFORMANCERECALLCATEGORYROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B4AFF50)
+#define RPG_GAMECORE_PERFORMANCERECALLCATEGORYROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1B4B0C50)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PerformanceRecallCategoryRow_TypeDefinitionIndex = 13665;
+	inline static constexpr unsigned int PerformanceRecallCategoryRow_TypeDefinitionIndex = 13813;
 
 	class PerformanceRecallCategoryRow : public ::System::Object
 	{
 	public:
 		::System::String* IconPath; // 0x10
-		::RPG::Client::TextID Category; // 0x18
-		::System::Boolean isSubCategory; // 0x28
-		::System::UInt32 CategoryID; // 0x2C
+		::System::UInt32 CategoryID; // 0x18
+		::System::Boolean isSubCategory; // 0x1C
+		::RPG::Client::TextID Category; // 0x20
 
 		::System::Void _ctor()
 		{

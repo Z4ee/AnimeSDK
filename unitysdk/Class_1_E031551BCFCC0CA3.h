@@ -3,9 +3,9 @@
 #include "unitysdk/RPGTools/Timeline/HeightLimitedTarget.h"
 #include "unitysdk/System/Object.h"
 
-#define CLASS_1_E031551BCFCC0CA3__CTOR_OFFSET UNITYSDK_OFFSET(0x13741510)
+#define CLASS_1_E031551BCFCC0CA3__CTOR_OFFSET UNITYSDK_OFFSET(0x1730C1A0)
 
-inline static constexpr unsigned int Class_1_E031551BCFCC0CA3_TypeDefinitionIndex = 45699;
+inline static constexpr unsigned int Class_1_E031551BCFCC0CA3_TypeDefinitionIndex = 46638;
 
 class Class_1_E031551BCFCC0CA3 : public ::System::Object
 {

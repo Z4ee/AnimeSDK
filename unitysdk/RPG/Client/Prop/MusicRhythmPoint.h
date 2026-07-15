@@ -3,11 +3,11 @@
 #include "unitysdk/RPG/Client/Prop/MusicRhythmPointType.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 
-#define RPG_CLIENT_PROP_MUSICRHYTHMPOINT__CTOR_OFFSET UNITYSDK_OFFSET(0xC59A640)
+#define RPG_CLIENT_PROP_MUSICRHYTHMPOINT__CTOR_OFFSET UNITYSDK_OFFSET(0x1484F280)
 
 namespace RPG::Client::Prop
 {
-	inline static constexpr unsigned int MusicRhythmPoint_TypeDefinitionIndex = 72699;
+	inline static constexpr unsigned int MusicRhythmPoint_TypeDefinitionIndex = 74224;
 
 	class MusicRhythmPoint : public ::UnityEngine::MonoBehaviour
 	{

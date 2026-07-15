@@ -9,7 +9,7 @@
 #include "unitysdk/System/ValueTuple_2.h"
 
 class Class_1_FD6F62630DBCC357;
-class Class_2_24193089A4D2255F;
+class Class_2_291F7DA21A504FC4;
 namespace RPG::GameCore { class GameEntity; }
 namespace RPG::GameCore { class RtDynamicValueRangeGroup; }
 namespace RPG::GameCore { class TaskContext; }
@@ -17,32 +17,30 @@ namespace System { template <typename T1, typename T2, typename T3> class Action
 namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define CLASS_2_9159E45979F8B791_METHOD_2_05222F63AA319F37_OFFSET UNITYSDK_OFFSET(0x13571700)
-#define CLASS_2_9159E45979F8B791_METHOD_2_06CBBB3CC85FFF5B_OFFSET UNITYSDK_OFFSET(0x13570CF0)
-#define CLASS_2_9159E45979F8B791_METHOD_2_33ACA6CB2ABC73F7_OFFSET UNITYSDK_OFFSET(0x13570E10)
-#define CLASS_2_9159E45979F8B791_METHOD_2_5790A55946AA509D_1_OFFSET UNITYSDK_OFFSET(0x13571C50)
-#define CLASS_2_9159E45979F8B791_METHOD_2_5790A55946AA509D_OFFSET UNITYSDK_OFFSET(0x13571BF0)
-#define CLASS_2_9159E45979F8B791_METHOD_2_8D78290CBCA3E0B8_1_OFFSET UNITYSDK_OFFSET(0x13571A40)
-#define CLASS_2_9159E45979F8B791_METHOD_2_8D78290CBCA3E0B8_2_OFFSET UNITYSDK_OFFSET(0x13571AD0)
-#define CLASS_2_9159E45979F8B791_METHOD_2_8D78290CBCA3E0B8_OFFSET UNITYSDK_OFFSET(0x135719B0)
-#define CLASS_2_9159E45979F8B791_METHOD_2_99053D1AE5A59190_OFFSET UNITYSDK_OFFSET(0x13570ED0)
-#define CLASS_2_9159E45979F8B791_METHOD_2_AA169839CB93802A_OFFSET UNITYSDK_OFFSET(0x13570D00)
-#define CLASS_2_9159E45979F8B791_METHOD_2_ABEF0232650F1FB1_OFFSET UNITYSDK_OFFSET(0x135711D0)
-#define CLASS_2_9159E45979F8B791_METHOD_2_FD8E8C912ECA33D9_OFFSET UNITYSDK_OFFSET(0x13571830)
-#define CLASS_2_9159E45979F8B791__CTOR_OFFSET UNITYSDK_OFFSET(0x13571B60)
+#define CLASS_2_9159E45979F8B791_METHOD_2_06CBBB3CC85FFF5B_OFFSET UNITYSDK_OFFSET(0xF17E570)
+#define CLASS_2_9159E45979F8B791_METHOD_2_33ACA6CB2ABC73F7_OFFSET UNITYSDK_OFFSET(0xF17E700)
+#define CLASS_2_9159E45979F8B791_METHOD_2_602564279411879E_OFFSET UNITYSDK_OFFSET(0xF17F130)
+#define CLASS_2_9159E45979F8B791_METHOD_2_8D78290CBCA3E0B8_1_OFFSET UNITYSDK_OFFSET(0xF17F530)
+#define CLASS_2_9159E45979F8B791_METHOD_2_8D78290CBCA3E0B8_2_OFFSET UNITYSDK_OFFSET(0xF17F5C0)
+#define CLASS_2_9159E45979F8B791_METHOD_2_8D78290CBCA3E0B8_OFFSET UNITYSDK_OFFSET(0xF17F4A0)
+#define CLASS_2_9159E45979F8B791_METHOD_2_97D83E4CB3B11935_OFFSET UNITYSDK_OFFSET(0xF17E580)
+#define CLASS_2_9159E45979F8B791_METHOD_2_99053D1AE5A59190_OFFSET UNITYSDK_OFFSET(0xF17E7C0)
+#define CLASS_2_9159E45979F8B791_METHOD_2_ABEF0232650F1FB1_OFFSET UNITYSDK_OFFSET(0xF17EAC0)
+#define CLASS_2_9159E45979F8B791_METHOD_2_FD8E8C912ECA33D9_OFFSET UNITYSDK_OFFSET(0xF17F320)
+#define CLASS_2_9159E45979F8B791__CTOR_OFFSET UNITYSDK_OFFSET(0xF17F650)
 
-inline static constexpr unsigned int Class_2_9159E45979F8B791_TypeDefinitionIndex = 50201;
+inline static constexpr unsigned int Class_2_9159E45979F8B791_TypeDefinitionIndex = 51283;
 
 class Class_2_9159E45979F8B791 : public ::Class_1_8A0BE42C657CE107
 {
 public:
-	::RPG::GameCore::TaskContext* Field_2_0; // 0x18
-	::System::Action_3<::RPG::GameCore::StringHash, ::System::Nullable_1<::RPG::GameCore::FixPoint>, ::RPG::GameCore::FixPoint>* Field_2_1; // 0x20
-	::RPG::GameCore::GameEntity* Field_2_2; // 0x28
-	::System::Action_1<::Class_2_24193089A4D2255F*>* Field_2_3; // 0x30
-	::System::Collections::Generic::Dictionary_2<::System::ValueTuple_2<::RPG::GameCore::StringHash, ::RPG::GameCore::DynamicValueContextScope>, ::Class_1_FD6F62630DBCC357*>* Field_2_4; // 0x38
+	::System::Action_3<::RPG::GameCore::StringHash, ::System::Nullable_1<::RPG::GameCore::FixPoint>, ::RPG::GameCore::FixPoint>* Field_2_0; // 0x18
+	::System::Action_1<::Class_2_291F7DA21A504FC4*>* Field_2_1; // 0x20
+	::System::Collections::Generic::Dictionary_2<::System::ValueTuple_2<::RPG::GameCore::StringHash, ::RPG::GameCore::DynamicValueContextScope>, ::Class_1_FD6F62630DBCC357*>* Field_2_2; // 0x28
+	::System::Action_3<::RPG::GameCore::StringHash, ::System::Nullable_1<::RPG::GameCore::FixPoint>, ::RPG::GameCore::FixPoint>* Field_2_3; // 0x30
+	::RPG::GameCore::GameEntity* Field_2_4; // 0x38
 	::System::Action_3<::RPG::GameCore::StringHash, ::System::Nullable_1<::RPG::GameCore::FixPoint>, ::RPG::GameCore::FixPoint>* Field_2_5; // 0x40
-	::System::Action_3<::RPG::GameCore::StringHash, ::System::Nullable_1<::RPG::GameCore::FixPoint>, ::RPG::GameCore::FixPoint>* Field_2_6; // 0x48
+	::RPG::GameCore::TaskContext* Field_2_6; // 0x48
 	::System::UInt32 Field_2_7; // 0x50
 
 	::System::Void _ctor()
@@ -55,9 +53,9 @@ public:
 		return ((::RPG::GameCore::RtModifierBehaviorLifeBinding(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_9159E45979F8B791_METHOD_2_06CBBB3CC85FFF5B_OFFSET))(this);
 	}
 
-	::System::Void Method_2_AA169839CB93802A()
+	::System::Void Method_2_97D83E4CB3B11935()
 	{
-		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_9159E45979F8B791_METHOD_2_AA169839CB93802A_OFFSET))(this);
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_9159E45979F8B791_METHOD_2_97D83E4CB3B11935_OFFSET))(this);
 	}
 
 	::System::Void Method_2_33ACA6CB2ABC73F7()
@@ -75,9 +73,9 @@ public:
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_9159E45979F8B791_METHOD_2_99053D1AE5A59190_OFFSET))(this);
 	}
 
-	::System::Void Method_2_05222F63AA319F37(::Class_2_24193089A4D2255F* a1)
+	::System::Void Method_2_602564279411879E(::Class_2_291F7DA21A504FC4* a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::Class_2_24193089A4D2255F*))((::PBYTE)hIl2Cpp + CLASS_2_9159E45979F8B791_METHOD_2_05222F63AA319F37_OFFSET))(this, a1);
+		return ((::System::Void(*)(::PVOID, ::Class_2_291F7DA21A504FC4*))((::PBYTE)hIl2Cpp + CLASS_2_9159E45979F8B791_METHOD_2_602564279411879E_OFFSET))(this, a1);
 	}
 
 	::System::Void Method_2_FD8E8C912ECA33D9(::System::ValueTuple_2<::RPG::GameCore::StringHash, ::RPG::GameCore::DynamicValueContextScope> a1, ::System::Nullable_1<::RPG::GameCore::FixPoint> a2, ::RPG::GameCore::FixPoint a3)
@@ -98,15 +96,5 @@ public:
 	::System::Void Method_2_8D78290CBCA3E0B8_2(::RPG::GameCore::StringHash a1, ::System::Nullable_1<::RPG::GameCore::FixPoint> a2, ::RPG::GameCore::FixPoint a3)
 	{
 		return ((::System::Void(*)(::PVOID, ::RPG::GameCore::StringHash, ::System::Nullable_1<::RPG::GameCore::FixPoint>, ::RPG::GameCore::FixPoint))((::PBYTE)hIl2Cpp + CLASS_2_9159E45979F8B791_METHOD_2_8D78290CBCA3E0B8_2_OFFSET))(this, a1, a2, a3);
-	}
-
-	::System::Void Method_2_5790A55946AA509D()
-	{
-		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_9159E45979F8B791_METHOD_2_5790A55946AA509D_OFFSET))(this);
-	}
-
-	::System::Void Method_2_5790A55946AA509D_1()
-	{
-		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_9159E45979F8B791_METHOD_2_5790A55946AA509D_1_OFFSET))(this);
 	}
 };

@@ -5,24 +5,24 @@
 namespace System { class Action; }
 namespace System { class String; }
 
-#define UNITYENGINE_SUBSYSTEMMANAGER_INTERNAL_RELOADSUBSYSTEMSCOMPLETED_OFFSET UNITYSDK_OFFSET(0x1B341900)
-#define UNITYENGINE_SUBSYSTEMMANAGER_INTERNAL_RELOADSUBSYSTEMSSTARTED_OFFSET UNITYSDK_OFFSET(0x1B341850)
-#define UNITYENGINE_SUBSYSTEMMANAGER_REPORTSINGLESUBSYSTEMANALYTICS_OFFSET UNITYSDK_OFFSET(0x1B340D70)
-#define UNITYENGINE_SUBSYSTEMMANAGER_STATICCONSTRUCTSCRIPTINGCLASSMAP_OFFSET UNITYSDK_OFFSET(0x1B341840)
-#define UNITYENGINE_SUBSYSTEMMANAGER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1B341830)
+#define UNITYENGINE_SUBSYSTEMMANAGER_INTERNAL_RELOADSUBSYSTEMSCOMPLETED_OFFSET UNITYSDK_OFFSET(0x1D2FFE30)
+#define UNITYENGINE_SUBSYSTEMMANAGER_INTERNAL_RELOADSUBSYSTEMSSTARTED_OFFSET UNITYSDK_OFFSET(0x1D2FFD80)
+#define UNITYENGINE_SUBSYSTEMMANAGER_REPORTSINGLESUBSYSTEMANALYTICS_OFFSET UNITYSDK_OFFSET(0x1D2FF200)
+#define UNITYENGINE_SUBSYSTEMMANAGER_STATICCONSTRUCTSCRIPTINGCLASSMAP_OFFSET UNITYSDK_OFFSET(0x1D2FFD70)
+#define UNITYENGINE_SUBSYSTEMMANAGER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1D2FFD60)
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int SubsystemManager_TypeDefinitionIndex = 5807;
+	inline static constexpr unsigned int SubsystemManager_TypeDefinitionIndex = 5812;
 
 	class SubsystemManager : public ::System::Object
 	{
 	public:
-		static ::System::Action** StaticGet_reloadSubsytemsStarted()
+		static ::System::Action** StaticGet_reloadSubsytemsCompleted()
 		{
 			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(SubsystemManager_TypeDefinitionIndex)->GetStaticField(0x460);
 		}
-		static ::System::Action** StaticGet_reloadSubsytemsCompleted()
+		static ::System::Action** StaticGet_reloadSubsytemsStarted()
 		{
 			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(SubsystemManager_TypeDefinitionIndex)->GetStaticField(0x468);
 		}

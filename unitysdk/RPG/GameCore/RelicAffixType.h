@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RelicAffixType_TypeDefinitionIndex = 10471;
+	inline static constexpr unsigned int RelicAffixType_TypeDefinitionIndex = 10519;
 
 	enum class RelicAffixType : ::System::Int32
 	{

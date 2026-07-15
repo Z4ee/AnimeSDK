@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int DrinkMakerRequestMode_TypeDefinitionIndex = 12514;
+	inline static constexpr unsigned int DrinkMakerRequestMode_TypeDefinitionIndex = 12651;
 
 	enum class DrinkMakerRequestMode : ::System::Int32
 	{

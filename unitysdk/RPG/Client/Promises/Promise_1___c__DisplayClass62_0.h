@@ -8,7 +8,7 @@ namespace System { class Exception; }
 
 namespace RPG::Client::Promises
 {
-	inline static constexpr unsigned int Promise_1___c__DisplayClass62_0_TypeDefinitionIndex = 9544;
+	inline static constexpr unsigned int Promise_1___c__DisplayClass62_0_TypeDefinitionIndex = 9556;
 
 	template <typename PromisedT>
 	class Promise_1___c__DisplayClass62_0 : public ::System::Object

@@ -5,13 +5,13 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class TargetEvaluator; }
 
-#define RPG_GAMECORE_PROPFASTDELIVERPUZZLELISTENER_METHOD_3_090204ED42845485_OFFSET UNITYSDK_OFFSET(0x19A8F500)
-#define RPG_GAMECORE_PROPFASTDELIVERPUZZLELISTENER_METHOD_3_2EF7F0CDED577361_OFFSET UNITYSDK_OFFSET(0x19A8F650)
-#define RPG_GAMECORE_PROPFASTDELIVERPUZZLELISTENER__CTOR_OFFSET UNITYSDK_OFFSET(0x19A8F5C0)
+#define RPG_GAMECORE_PROPFASTDELIVERPUZZLELISTENER_METHOD_3_2EF7F0CDED577361_OFFSET UNITYSDK_OFFSET(0x1BA229A0)
+#define RPG_GAMECORE_PROPFASTDELIVERPUZZLELISTENER_METHOD_3_732E49F1C267C9A2_OFFSET UNITYSDK_OFFSET(0x1BA22920)
+#define RPG_GAMECORE_PROPFASTDELIVERPUZZLELISTENER__CTOR_OFFSET UNITYSDK_OFFSET(0x1BA22970)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PropFastDeliverPuzzleListener_TypeDefinitionIndex = 20924;
+	inline static constexpr unsigned int PropFastDeliverPuzzleListener_TypeDefinitionIndex = 21339;
 
 	class PropFastDeliverPuzzleListener : public ::RPG::GameCore::TaskConfig
 	{
@@ -27,9 +27,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PROPFASTDELIVERPUZZLELISTENER__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_090204ED42845485(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::PropFastDeliverPuzzleListener*& a2)
+		static ::System::Void Method_3_732E49F1C267C9A2(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::PropFastDeliverPuzzleListener*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::PropFastDeliverPuzzleListener*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PROPFASTDELIVERPUZZLELISTENER_METHOD_3_090204ED42845485_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::PropFastDeliverPuzzleListener*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PROPFASTDELIVERPUZZLELISTENER_METHOD_3_732E49F1C267C9A2_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_2EF7F0CDED577361(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::PropFastDeliverPuzzleListener* a2)

@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int HipplenWorkType_TypeDefinitionIndex = 11109;
+	inline static constexpr unsigned int HipplenWorkType_TypeDefinitionIndex = 11209;
 
 	enum class HipplenWorkType : ::System::Int32
 	{

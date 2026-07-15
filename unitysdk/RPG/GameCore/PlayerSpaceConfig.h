@@ -5,12 +5,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_PLAYERSPACECONFIG_METHOD_2_901B6599D95E06FD_OFFSET UNITYSDK_OFFSET(0x19A42ED0)
-#define RPG_GAMECORE_PLAYERSPACECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x19A43200)
+#define RPG_GAMECORE_PLAYERSPACECONFIG_METHOD_2_901B6599D95E06FD_OFFSET UNITYSDK_OFFSET(0x1BA12300)
+#define RPG_GAMECORE_PLAYERSPACECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1BA12630)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PlayerSpaceConfig_TypeDefinitionIndex = 15578;
+	inline static constexpr unsigned int PlayerSpaceConfig_TypeDefinitionIndex = 15749;
 
 	class PlayerSpaceConfig : public ::RPG::GameCore::JsonConfig
 	{

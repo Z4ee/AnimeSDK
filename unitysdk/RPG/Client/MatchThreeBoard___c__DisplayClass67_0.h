@@ -5,12 +5,12 @@
 namespace RPG::Client { class MatchThreeBoard; }
 namespace RPG::Client { class MatchThreeTimedEffect; }
 
-#define RPG_CLIENT_MATCHTHREEBOARD___C__DISPLAYCLASS67_0__CTOR_OFFSET UNITYSDK_OFFSET(0xBF72AF0)
-#define RPG_CLIENT_MATCHTHREEBOARD___C__DISPLAYCLASS67_0___PLAYBOMBCREATEEFFECT_B__0_OFFSET UNITYSDK_OFFSET(0xBF72B00)
+#define RPG_CLIENT_MATCHTHREEBOARD___C__DISPLAYCLASS67_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1A893480)
+#define RPG_CLIENT_MATCHTHREEBOARD___C__DISPLAYCLASS67_0___PLAYBOMBCREATEEFFECT_B__0_OFFSET UNITYSDK_OFFSET(0x1A8975B0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MatchThreeBoard___c__DisplayClass67_0_TypeDefinitionIndex = 61625;
+	inline static constexpr unsigned int MatchThreeBoard___c__DisplayClass67_0_TypeDefinitionIndex = 62987;
 
 	class MatchThreeBoard___c__DisplayClass67_0 : public ::System::Object
 	{

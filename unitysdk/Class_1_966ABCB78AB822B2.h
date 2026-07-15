@@ -5,16 +5,16 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define CLASS_1_966ABCB78AB822B2_METHOD_1_975B9AC31CF05C24_OFFSET UNITYSDK_OFFSET(0x190E5540)
-#define CLASS_1_966ABCB78AB822B2__CTOR_OFFSET UNITYSDK_OFFSET(0x190E5670)
+#define CLASS_1_966ABCB78AB822B2_METHOD_1_975B9AC31CF05C24_OFFSET UNITYSDK_OFFSET(0xBBD4410)
+#define CLASS_1_966ABCB78AB822B2__CTOR_OFFSET UNITYSDK_OFFSET(0xBBD4540)
 
-inline static constexpr unsigned int Class_1_966ABCB78AB822B2_TypeDefinitionIndex = 12876;
+inline static constexpr unsigned int Class_1_966ABCB78AB822B2_TypeDefinitionIndex = 13024;
 
 class Class_1_966ABCB78AB822B2 : public ::System::Object
 {
 public:
-	::RPG::GameCore::GridFightRoleSkillTag Field_1_0; // 0x10
-	::System::UInt32 Field_1_1; // 0x14
+	::System::UInt32 Field_1_0; // 0x10
+	::RPG::GameCore::GridFightRoleSkillTag Field_1_1; // 0x14
 
 	::System::Void _ctor()
 	{

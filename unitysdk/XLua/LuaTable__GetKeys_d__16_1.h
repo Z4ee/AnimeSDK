@@ -9,7 +9,7 @@ namespace XLua { class ObjectTranslator; }
 
 namespace XLua
 {
-	inline static constexpr unsigned int LuaTable__GetKeys_d__16_1_TypeDefinitionIndex = 46995;
+	inline static constexpr unsigned int LuaTable__GetKeys_d__16_1_TypeDefinitionIndex = 47961;
 
 	template <typename T>
 	class LuaTable__GetKeys_d__16_1 : public ::System::Object

@@ -5,13 +5,13 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class TargetEvaluator; }
 
-#define RPG_GAMECORE_MUTETARGETTIMESLOW_METHOD_3_54D88A3432B70A78_OFFSET UNITYSDK_OFFSET(0x199C6530)
-#define RPG_GAMECORE_MUTETARGETTIMESLOW_METHOD_3_58A07545469F2B7A_OFFSET UNITYSDK_OFFSET(0x199C65B0)
-#define RPG_GAMECORE_MUTETARGETTIMESLOW__CTOR_OFFSET UNITYSDK_OFFSET(0x199C6580)
+#define RPG_GAMECORE_MUTETARGETTIMESLOW_METHOD_3_58A07545469F2B7A_OFFSET UNITYSDK_OFFSET(0x1BAEFFD0)
+#define RPG_GAMECORE_MUTETARGETTIMESLOW_METHOD_3_9F82D578078F8E35_OFFSET UNITYSDK_OFFSET(0x1BAEFF80)
+#define RPG_GAMECORE_MUTETARGETTIMESLOW__CTOR_OFFSET UNITYSDK_OFFSET(0x1BAEFFC0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MuteTargetTimeSlow_TypeDefinitionIndex = 22524;
+	inline static constexpr unsigned int MuteTargetTimeSlow_TypeDefinitionIndex = 22975;
 
 	class MuteTargetTimeSlow : public ::RPG::GameCore::TaskConfig
 	{
@@ -24,9 +24,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MUTETARGETTIMESLOW__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_54D88A3432B70A78(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::MuteTargetTimeSlow*& a2)
+		static ::System::Void Method_3_9F82D578078F8E35(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::MuteTargetTimeSlow*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::MuteTargetTimeSlow*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MUTETARGETTIMESLOW_METHOD_3_54D88A3432B70A78_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::MuteTargetTimeSlow*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MUTETARGETTIMESLOW_METHOD_3_9F82D578078F8E35_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_58A07545469F2B7A(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::MuteTargetTimeSlow* a2)

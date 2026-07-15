@@ -3,7 +3,7 @@
 
 namespace System::Xml
 {
-	inline static constexpr unsigned int DtdParser_LiteralType_TypeDefinitionIndex = 1923;
+	inline static constexpr unsigned int DtdParser_LiteralType_TypeDefinitionIndex = 1927;
 
 	enum class DtdParser_LiteralType : ::System::Int32
 	{

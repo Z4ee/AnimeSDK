@@ -8,13 +8,13 @@ namespace System { class String; }
 namespace System::Diagnostics::Tracing { class TraceLoggingDataCollector; }
 namespace System::Diagnostics::Tracing { class TraceLoggingMetadataCollector; }
 
-#define SYSTEM_DIAGNOSTICS_TRACING_TIMESPANTYPEINFO_WRITEDATA_OFFSET UNITYSDK_OFFSET(0x186C0860)
-#define SYSTEM_DIAGNOSTICS_TRACING_TIMESPANTYPEINFO_WRITEMETADATA_OFFSET UNITYSDK_OFFSET(0x186C0810)
-#define SYSTEM_DIAGNOSTICS_TRACING_TIMESPANTYPEINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x186C08F0)
+#define SYSTEM_DIAGNOSTICS_TRACING_TIMESPANTYPEINFO_WRITEDATA_OFFSET UNITYSDK_OFFSET(0x191C1350)
+#define SYSTEM_DIAGNOSTICS_TRACING_TIMESPANTYPEINFO_WRITEMETADATA_OFFSET UNITYSDK_OFFSET(0x191C1300)
+#define SYSTEM_DIAGNOSTICS_TRACING_TIMESPANTYPEINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x191C13E0)
 
 namespace System::Diagnostics::Tracing
 {
-	inline static constexpr unsigned int TimeSpanTypeInfo_TypeDefinitionIndex = 1644;
+	inline static constexpr unsigned int TimeSpanTypeInfo_TypeDefinitionIndex = 1648;
 
 	class TimeSpanTypeInfo : public ::System::Diagnostics::Tracing::TraceLoggingTypeInfo_1<::System::TimeSpan>
 	{

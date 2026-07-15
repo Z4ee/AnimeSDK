@@ -3,7 +3,7 @@
 
 namespace SRDebugger
 {
-	inline static constexpr unsigned int DefaultTabs_TypeDefinitionIndex = 35636;
+	inline static constexpr unsigned int DefaultTabs_TypeDefinitionIndex = 36418;
 
 	enum class DefaultTabs : ::System::Int32
 	{

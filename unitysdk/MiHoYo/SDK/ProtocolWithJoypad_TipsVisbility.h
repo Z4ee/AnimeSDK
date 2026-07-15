@@ -3,7 +3,7 @@
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int ProtocolWithJoypad_TipsVisbility_TypeDefinitionIndex = 7971;
+	inline static constexpr unsigned int ProtocolWithJoypad_TipsVisbility_TypeDefinitionIndex = 7981;
 
 	enum class ProtocolWithJoypad_TipsVisbility : ::System::Int32
 	{

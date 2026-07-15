@@ -5,10 +5,10 @@
 class Class_1_D8BECDCE48063EC7;
 namespace RPG::GameCore { class DiceCombatPredicateConfig_HasCustomValue; }
 
-#define CLASS_3_96DBE14E6123E2A9_METHOD_3_A043B5CB7B5C886D_OFFSET UNITYSDK_OFFSET(0x18A18EB0)
-#define CLASS_3_96DBE14E6123E2A9__CTOR_OFFSET UNITYSDK_OFFSET(0x18A18E80)
+#define CLASS_3_96DBE14E6123E2A9_METHOD_3_1651764D7D829451_OFFSET UNITYSDK_OFFSET(0x17BA7470)
+#define CLASS_3_96DBE14E6123E2A9__CTOR_OFFSET UNITYSDK_OFFSET(0x17BA7450)
 
-inline static constexpr unsigned int Class_3_96DBE14E6123E2A9_TypeDefinitionIndex = 34432;
+inline static constexpr unsigned int Class_3_96DBE14E6123E2A9_TypeDefinitionIndex = 34814;
 
 class Class_3_96DBE14E6123E2A9 : public ::Class_2_98A798C0C96648F9
 {
@@ -20,8 +20,8 @@ public:
 		return ((::System::Void(*)(::PVOID, ::RPG::GameCore::DiceCombatPredicateConfig_HasCustomValue*, ::Class_1_D8BECDCE48063EC7*))((::PBYTE)hIl2Cpp + CLASS_3_96DBE14E6123E2A9__CTOR_OFFSET))(this, a1, a2);
 	}
 
-	::System::Boolean Method_3_A043B5CB7B5C886D()
+	::System::Boolean Method_3_1651764D7D829451()
 	{
-		return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_3_96DBE14E6123E2A9_METHOD_3_A043B5CB7B5C886D_OFFSET))(this);
+		return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_3_96DBE14E6123E2A9_METHOD_3_1651764D7D829451_OFFSET))(this);
 	}
 };

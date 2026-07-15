@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class RandomSelectFloorValue; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_E8FE43B4184614E7_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x13AB19C0)
-#define CLASS_3_E8FE43B4184614E7__CTOR_OFFSET UNITYSDK_OFFSET(0x13AB1990)
+#define CLASS_3_E8FE43B4184614E7_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x19372C80)
+#define CLASS_3_E8FE43B4184614E7__CTOR_OFFSET UNITYSDK_OFFSET(0x19372C50)
 
-inline static constexpr unsigned int Class_3_E8FE43B4184614E7_TypeDefinitionIndex = 49714;
+inline static constexpr unsigned int Class_3_E8FE43B4184614E7_TypeDefinitionIndex = 50768;
 
 class Class_3_E8FE43B4184614E7 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::RandomSelectFloorValue*>
 {

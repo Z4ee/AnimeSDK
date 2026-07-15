@@ -8,12 +8,12 @@ namespace RPG::GameCore { class CakeRaceMoveStateConfig; }
 namespace RPG::GameCore { class CakeRaceTrapCellParamConfig; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_CAKERACETRAPCELLCONFIG_METHOD_2_ACC403A87BF553C7_OFFSET UNITYSDK_OFFSET(0x195F1390)
-#define RPG_GAMECORE_CAKERACETRAPCELLCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x195F1590)
+#define RPG_GAMECORE_CAKERACETRAPCELLCONFIG_METHOD_2_ACC403A87BF553C7_OFFSET UNITYSDK_OFFSET(0x1B7069F0)
+#define RPG_GAMECORE_CAKERACETRAPCELLCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1B706BF0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int CakeRaceTrapCellConfig_TypeDefinitionIndex = 17505;
+	inline static constexpr unsigned int CakeRaceTrapCellConfig_TypeDefinitionIndex = 17678;
 
 	class CakeRaceTrapCellConfig : public ::RPG::GameCore::JsonConfig
 	{

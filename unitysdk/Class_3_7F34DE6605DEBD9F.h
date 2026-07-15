@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class LockMainStreamSourceToPlayerTeleportPos; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_7F34DE6605DEBD9F_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xA7040C0)
-#define CLASS_3_7F34DE6605DEBD9F__CTOR_OFFSET UNITYSDK_OFFSET(0xA704090)
+#define CLASS_3_7F34DE6605DEBD9F_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x15E6D550)
+#define CLASS_3_7F34DE6605DEBD9F__CTOR_OFFSET UNITYSDK_OFFSET(0x15E6D520)
 
-inline static constexpr unsigned int Class_3_7F34DE6605DEBD9F_TypeDefinitionIndex = 54402;
+inline static constexpr unsigned int Class_3_7F34DE6605DEBD9F_TypeDefinitionIndex = 55625;
 
 class Class_3_7F34DE6605DEBD9F : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::LockMainStreamSourceToPlayerTeleportPos*>
 {

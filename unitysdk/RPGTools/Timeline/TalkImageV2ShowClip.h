@@ -5,21 +5,22 @@
 #include "unitysdk/UnityEngine/Playables/PlayableAsset.h"
 #include "unitysdk/UnityEngine/Playables/PlayableGraph.h"
 #include "unitysdk/UnityEngine/Timeline/ClipCaps.h"
+#include "unitysdk/UnityEngine/Vector2.h"
 
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class GameObject; }
 
-#define RPGTOOLS_TIMELINE_TALKIMAGEV2SHOWCLIP_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0xD062760)
-#define RPGTOOLS_TIMELINE_TALKIMAGEV2SHOWCLIP_GET_CLIPCAPS_OFFSET UNITYSDK_OFFSET(0xD062750)
-#define RPGTOOLS_TIMELINE_TALKIMAGEV2SHOWCLIP_METHOD_4_32F5E8B0F86B286F_OFFSET UNITYSDK_OFFSET(0xD0628C0)
-#define RPGTOOLS_TIMELINE_TALKIMAGEV2SHOWCLIP_METHOD_4_79A0DD953C362A58_OFFSET UNITYSDK_OFFSET(0xD062940)
-#define RPGTOOLS_TIMELINE_TALKIMAGEV2SHOWCLIP_METHOD_4_E4AE005360690BC3_OFFSET UNITYSDK_OFFSET(0xD0629C0)
-#define RPGTOOLS_TIMELINE_TALKIMAGEV2SHOWCLIP__CTOR_OFFSET UNITYSDK_OFFSET(0xD062A40)
+#define RPGTOOLS_TIMELINE_TALKIMAGEV2SHOWCLIP_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0x19F53290)
+#define RPGTOOLS_TIMELINE_TALKIMAGEV2SHOWCLIP_GET_CLIPCAPS_OFFSET UNITYSDK_OFFSET(0x19F53280)
+#define RPGTOOLS_TIMELINE_TALKIMAGEV2SHOWCLIP_METHOD_4_32F5E8B0F86B286F_OFFSET UNITYSDK_OFFSET(0x19F533F0)
+#define RPGTOOLS_TIMELINE_TALKIMAGEV2SHOWCLIP_METHOD_4_79A0DD953C362A58_OFFSET UNITYSDK_OFFSET(0x19F53470)
+#define RPGTOOLS_TIMELINE_TALKIMAGEV2SHOWCLIP_METHOD_4_E4AE005360690BC3_OFFSET UNITYSDK_OFFSET(0x19F534F0)
+#define RPGTOOLS_TIMELINE_TALKIMAGEV2SHOWCLIP__CTOR_OFFSET UNITYSDK_OFFSET(0x19F53570)
 
 namespace RPGTools::Timeline
 {
-	inline static constexpr unsigned int TalkImageV2ShowClip_TypeDefinitionIndex = 45665;
+	inline static constexpr unsigned int TalkImageV2ShowClip_TypeDefinitionIndex = 46603;
 
 	class TalkImageV2ShowClip : public ::UnityEngine::Playables::PlayableAsset
 	{
@@ -32,6 +33,8 @@ namespace RPGTools::Timeline
 		::System::String* MaleImagePath; // 0x38
 		::System::String* FemaleImagePath; // 0x40
 		::System::String* MaterialPath; // 0x48
+		::System::Boolean IsCustomAspect; // 0x50
+		::UnityEngine::Vector2 CustomAspect; // 0x54
 
 		::System::Void _ctor()
 		{

@@ -7,23 +7,23 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_ALLEYMAPEFFECTROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1946C8F0)
-#define RPG_GAMECORE_ALLEYMAPEFFECTROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1946D090)
+#define RPG_GAMECORE_ALLEYMAPEFFECTROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1AE7AC90)
+#define RPG_GAMECORE_ALLEYMAPEFFECTROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1AE7B430)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AlleyMapEffectRow_TypeDefinitionIndex = 11991;
+	inline static constexpr unsigned int AlleyMapEffectRow_TypeDefinitionIndex = 12123;
 
 	class AlleyMapEffectRow : public ::System::Object
 	{
 	public:
-		::System::Single Param3; // 0x10
-		::RPG::GameCore::MapSubEffect MapEffectSubType; // 0x14
-		::System::Single Param1; // 0x18
-		::System::Single Param2; // 0x1C
+		::System::UInt32 MapEffectID; // 0x10
+		::RPG::GameCore::BuffType BuffOrDebuff; // 0x14
+		::RPG::GameCore::MapSubEffect MapEffectSubType; // 0x18
+		::System::Single Param1; // 0x1C
 		::RPG::Client::TextID MapEffectTitle; // 0x20
-		::RPG::GameCore::BuffType BuffOrDebuff; // 0x30
-		::System::UInt32 MapEffectID; // 0x34
+		::System::Single Param3; // 0x30
+		::System::Single Param2; // 0x34
 
 		::System::Void _ctor()
 		{

@@ -5,12 +5,12 @@
 namespace System { class String; }
 namespace UnityEngine::Networking { class UnityWebRequest; }
 
-#define UNITYENGINE_NETWORKING_UNITYWEBREQUESTTEXTURE_GETTEXTURE_1_OFFSET UNITYSDK_OFFSET(0x1B40B330)
-#define UNITYENGINE_NETWORKING_UNITYWEBREQUESTTEXTURE_GETTEXTURE_OFFSET UNITYSDK_OFFSET(0x1B40B250)
+#define UNITYENGINE_NETWORKING_UNITYWEBREQUESTTEXTURE_GETTEXTURE_1_OFFSET UNITYSDK_OFFSET(0x1D3052D0)
+#define UNITYENGINE_NETWORKING_UNITYWEBREQUESTTEXTURE_GETTEXTURE_OFFSET UNITYSDK_OFFSET(0x1D3051F0)
 
 namespace UnityEngine::Networking
 {
-	inline static constexpr unsigned int UnityWebRequestTexture_TypeDefinitionIndex = 6273;
+	inline static constexpr unsigned int UnityWebRequestTexture_TypeDefinitionIndex = 6278;
 
 	class UnityWebRequestTexture : public ::System::Object
 	{

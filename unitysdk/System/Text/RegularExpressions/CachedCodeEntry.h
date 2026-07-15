@@ -9,22 +9,22 @@ namespace System::Text::RegularExpressions { class RegexCode; }
 namespace System::Text::RegularExpressions { class RegexRunnerFactory; }
 namespace System::Text::RegularExpressions { class SharedReference; }
 
-#define SYSTEM_TEXT_REGULAREXPRESSIONS_CACHEDCODEENTRY__CTOR_OFFSET UNITYSDK_OFFSET(0x1AFDC920)
+#define SYSTEM_TEXT_REGULAREXPRESSIONS_CACHEDCODEENTRY__CTOR_OFFSET UNITYSDK_OFFSET(0x167CB000)
 
 namespace System::Text::RegularExpressions
 {
-	inline static constexpr unsigned int CachedCodeEntry_TypeDefinitionIndex = 2488;
+	inline static constexpr unsigned int CachedCodeEntry_TypeDefinitionIndex = 2492;
 
 	class CachedCodeEntry : public ::System::Object
 	{
 	public:
-		::Il2CppArray<::System::String*>* _capslist; // 0x10
-		::System::Collections::Hashtable* _capnames; // 0x18
-		::System::Text::RegularExpressions::ExclusiveReference* _runnerref; // 0x20
-		::System::Text::RegularExpressions::SharedReference* _replref; // 0x28
-		::System::Text::RegularExpressions::RegexRunnerFactory* _factory; // 0x30
-		::System::Collections::Hashtable* _caps; // 0x38
-		::System::String* _key; // 0x40
+		::System::Text::RegularExpressions::SharedReference* _replref; // 0x10
+		::System::String* _key; // 0x18
+		::System::Text::RegularExpressions::RegexRunnerFactory* _factory; // 0x20
+		::System::Collections::Hashtable* _caps; // 0x28
+		::System::Text::RegularExpressions::ExclusiveReference* _runnerref; // 0x30
+		::Il2CppArray<::System::String*>* _capslist; // 0x38
+		::System::Collections::Hashtable* _capnames; // 0x40
 		::System::Text::RegularExpressions::RegexCode* _code; // 0x48
 		::System::Int32 _capsize; // 0x50
 

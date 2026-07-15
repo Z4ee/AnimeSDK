@@ -4,7 +4,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int BattleAssetPreload_AssetState_TypeDefinitionIndex = 55780;
+	inline static constexpr unsigned int BattleAssetPreload_AssetState_TypeDefinitionIndex = 57017;
 
 	struct alignas(1) BattleAssetPreload_AssetState
 	{

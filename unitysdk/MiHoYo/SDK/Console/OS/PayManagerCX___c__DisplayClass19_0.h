@@ -5,12 +5,12 @@
 
 namespace MiHoYo::SDK::Console::OS { class PayManagerCX; }
 
-#define MIHOYO_SDK_CONSOLE_OS_PAYMANAGERCX___C__DISPLAYCLASS19_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1826DB90)
-#define MIHOYO_SDK_CONSOLE_OS_PAYMANAGERCX___C__DISPLAYCLASS19_0__LAUNCHCONSOLEPAY_B__0_OFFSET UNITYSDK_OFFSET(0x1826F980)
+#define MIHOYO_SDK_CONSOLE_OS_PAYMANAGERCX___C__DISPLAYCLASS19_0__CTOR_OFFSET UNITYSDK_OFFSET(0x16406860)
+#define MIHOYO_SDK_CONSOLE_OS_PAYMANAGERCX___C__DISPLAYCLASS19_0__LAUNCHCONSOLEPAY_B__0_OFFSET UNITYSDK_OFFSET(0x164086E0)
 
 namespace MiHoYo::SDK::Console::OS
 {
-	inline static constexpr unsigned int PayManagerCX___c__DisplayClass19_0_TypeDefinitionIndex = 8761;
+	inline static constexpr unsigned int PayManagerCX___c__DisplayClass19_0_TypeDefinitionIndex = 8773;
 
 	class PayManagerCX___c__DisplayClass19_0 : public ::System::Object
 	{

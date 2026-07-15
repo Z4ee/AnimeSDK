@@ -10,7 +10,7 @@ namespace System::Collections::Immutable { template <typename T> class SortedInt
 
 namespace System::Collections::Immutable
 {
-	inline static constexpr unsigned int SortedInt32KeyNode_1_Enumerator_TypeDefinitionIndex = 7042;
+	inline static constexpr unsigned int SortedInt32KeyNode_1_Enumerator_TypeDefinitionIndex = 7048;
 
 	template <typename TValue>
 	struct SortedInt32KeyNode_1_Enumerator

@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AutoGenCellType_TypeDefinitionIndex = 23495;
+	inline static constexpr unsigned int AutoGenCellType_TypeDefinitionIndex = 23984;
 
 	enum class AutoGenCellType : ::System::Int32
 	{

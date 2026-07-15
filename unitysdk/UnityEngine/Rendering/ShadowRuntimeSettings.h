@@ -13,7 +13,7 @@ namespace UnityEngine { class GameObject; }
 
 namespace UnityEngine::Rendering
 {
-	inline static constexpr unsigned int ShadowRuntimeSettings_TypeDefinitionIndex = 4870;
+	inline static constexpr unsigned int ShadowRuntimeSettings_TypeDefinitionIndex = 4875;
 
 	struct alignas(8) ShadowRuntimeSettings
 	{

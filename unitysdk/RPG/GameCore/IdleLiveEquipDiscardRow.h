@@ -5,19 +5,19 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_IDLELIVEEQUIPDISCARDROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x198421C0)
-#define RPG_GAMECORE_IDLELIVEEQUIPDISCARDROW__CTOR_OFFSET UNITYSDK_OFFSET(0x198423B0)
+#define RPG_GAMECORE_IDLELIVEEQUIPDISCARDROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B6949D0)
+#define RPG_GAMECORE_IDLELIVEEQUIPDISCARDROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1B694BC0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int IdleLiveEquipDiscardRow_TypeDefinitionIndex = 11238;
+	inline static constexpr unsigned int IdleLiveEquipDiscardRow_TypeDefinitionIndex = 11338;
 
 	class IdleLiveEquipDiscardRow : public ::System::Object
 	{
 	public:
-		::RPG::GameCore::FixPoint EquipLevelAddPower; // 0x10
-		::System::UInt32 EquipLevel; // 0x18
-		::RPG::GameCore::FixPoint SpEquipLevelAddPower; // 0x20
+		::System::UInt32 EquipLevel; // 0x10
+		::RPG::GameCore::FixPoint SpEquipLevelAddPower; // 0x18
+		::RPG::GameCore::FixPoint EquipLevelAddPower; // 0x20
 
 		::System::Void _ctor()
 		{

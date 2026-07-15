@@ -6,11 +6,11 @@ namespace RPG::GameCore { class GameEntityList; }
 namespace RPG::GameCore { class HitDamageSplit; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_6E98403C873A93DA_METHOD_3_5C552D088F92BE4B_OFFSET UNITYSDK_OFFSET(0xA3D3540)
-#define CLASS_3_6E98403C873A93DA_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xA3D2F90)
-#define CLASS_3_6E98403C873A93DA__CTOR_OFFSET UNITYSDK_OFFSET(0xA3D2F60)
+#define CLASS_3_6E98403C873A93DA_METHOD_3_5DEBB98D721A0982_OFFSET UNITYSDK_OFFSET(0x17AA33B0)
+#define CLASS_3_6E98403C873A93DA_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x17AA2D70)
+#define CLASS_3_6E98403C873A93DA__CTOR_OFFSET UNITYSDK_OFFSET(0x17AA2D40)
 
-inline static constexpr unsigned int Class_3_6E98403C873A93DA_TypeDefinitionIndex = 51468;
+inline static constexpr unsigned int Class_3_6E98403C873A93DA_TypeDefinitionIndex = 52610;
 
 class Class_3_6E98403C873A93DA : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::HitDamageSplit*>
 {
@@ -25,8 +25,8 @@ public:
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_3_6E98403C873A93DA_ONTASKBEGIN_OFFSET))(this);
 	}
 
-	::System::Void Method_3_5C552D088F92BE4B(::RPG::GameCore::GameEntityList* a1)
+	::System::Void Method_3_5DEBB98D721A0982(::RPG::GameCore::GameEntityList* a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::RPG::GameCore::GameEntityList*))((::PBYTE)hIl2Cpp + CLASS_3_6E98403C873A93DA_METHOD_3_5C552D088F92BE4B_OFFSET))(this, a1);
+		return ((::System::Void(*)(::PVOID, ::RPG::GameCore::GameEntityList*))((::PBYTE)hIl2Cpp + CLASS_3_6E98403C873A93DA_METHOD_3_5DEBB98D721A0982_OFFSET))(this, a1);
 	}
 };

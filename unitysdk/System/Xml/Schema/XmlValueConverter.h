@@ -9,11 +9,11 @@ namespace System { class String; }
 namespace System { class Type; }
 namespace System::Xml { class IXmlNamespaceResolver; }
 
-#define SYSTEM_XML_SCHEMA_XMLVALUECONVERTER__CTOR_OFFSET UNITYSDK_OFFSET(0x1AE4C960)
+#define SYSTEM_XML_SCHEMA_XMLVALUECONVERTER__CTOR_OFFSET UNITYSDK_OFFSET(0x19662570)
 
 namespace System::Xml::Schema
 {
-	inline static constexpr unsigned int XmlValueConverter_TypeDefinitionIndex = 2210;
+	inline static constexpr unsigned int XmlValueConverter_TypeDefinitionIndex = 2214;
 
 	class XmlValueConverter : public ::System::Object
 	{

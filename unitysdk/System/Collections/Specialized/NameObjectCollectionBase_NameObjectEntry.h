@@ -4,17 +4,17 @@
 
 namespace System { class String; }
 
-#define SYSTEM_COLLECTIONS_SPECIALIZED_NAMEOBJECTCOLLECTIONBASE_NAMEOBJECTENTRY__CTOR_OFFSET UNITYSDK_OFFSET(0x1AF1EDE0)
+#define SYSTEM_COLLECTIONS_SPECIALIZED_NAMEOBJECTCOLLECTIONBASE_NAMEOBJECTENTRY__CTOR_OFFSET UNITYSDK_OFFSET(0x1A859030)
 
 namespace System::Collections::Specialized
 {
-	inline static constexpr unsigned int NameObjectCollectionBase_NameObjectEntry_TypeDefinitionIndex = 2984;
+	inline static constexpr unsigned int NameObjectCollectionBase_NameObjectEntry_TypeDefinitionIndex = 2988;
 
 	class NameObjectCollectionBase_NameObjectEntry : public ::System::Object
 	{
 	public:
-		::System::String* Key; // 0x10
-		::System::Object* Value; // 0x18
+		::System::Object* Value; // 0x10
+		::System::String* Key; // 0x18
 
 		::System::Void _ctor(::System::String* a1, ::System::Object* a2)
 		{

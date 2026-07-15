@@ -1,0 +1,66 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/RPG/GameCore/GameComponentBase.h"
+
+namespace System { class Object; }
+
+#define CLASS_2_C776D10F0303E166_DISPOSE_OFFSET UNITYSDK_OFFSET(0x16EBE7F0)
+#define CLASS_2_C776D10F0303E166_METHOD_2_1FB03302975E8E7C_OFFSET UNITYSDK_OFFSET(0x16EBE5B0)
+#define CLASS_2_C776D10F0303E166_METHOD_2_7541FB7EB0923E08_OFFSET UNITYSDK_OFFSET(0x16EBE6C0)
+#define CLASS_2_C776D10F0303E166_METHOD_2_9681042564541CD6_1_OFFSET UNITYSDK_OFFSET(0x16EBE910)
+#define CLASS_2_C776D10F0303E166_METHOD_2_9681042564541CD6_OFFSET UNITYSDK_OFFSET(0x16EBEA70)
+#define CLASS_2_C776D10F0303E166_ONMODELROOTLOADED_OFFSET UNITYSDK_OFFSET(0x16EBE670)
+#define CLASS_2_C776D10F0303E166_ONMODELROOTUNLOADED_OFFSET UNITYSDK_OFFSET(0x16EBE7B0)
+#define CLASS_2_C776D10F0303E166_RESETTODEFAULT_OFFSET UNITYSDK_OFFSET(0x16EBEBB0)
+#define CLASS_2_C776D10F0303E166__CTOR_OFFSET UNITYSDK_OFFSET(0x16EBEBF0)
+
+inline static constexpr unsigned int Class_2_C776D10F0303E166_TypeDefinitionIndex = 69971;
+
+class Class_2_C776D10F0303E166 : public ::RPG::GameCore::GameComponentBase
+{
+public:
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_C776D10F0303E166__CTOR_OFFSET))(this);
+	}
+
+	::System::Void Method_2_1FB03302975E8E7C()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_C776D10F0303E166_METHOD_2_1FB03302975E8E7C_OFFSET))(this);
+	}
+
+	::System::Void OnModelRootLoaded()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_C776D10F0303E166_ONMODELROOTLOADED_OFFSET))(this);
+	}
+
+	::System::Void OnModelRootUnloaded()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_C776D10F0303E166_ONMODELROOTUNLOADED_OFFSET))(this);
+	}
+
+	::System::Void Dispose()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_C776D10F0303E166_DISPOSE_OFFSET))(this);
+	}
+
+	::System::Void Method_2_7541FB7EB0923E08(::System::Object* a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + CLASS_2_C776D10F0303E166_METHOD_2_7541FB7EB0923E08_OFFSET))(this, a1);
+	}
+
+	::System::Void Method_2_9681042564541CD6()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_C776D10F0303E166_METHOD_2_9681042564541CD6_OFFSET))(this);
+	}
+
+	::System::Void Method_2_9681042564541CD6_1()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_C776D10F0303E166_METHOD_2_9681042564541CD6_1_OFFSET))(this);
+	}
+
+	::System::Void ResetToDefault()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_C776D10F0303E166_RESETTODEFAULT_OFFSET))(this);
+	}
+};

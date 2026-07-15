@@ -10,7 +10,7 @@ namespace RPG::GameCore { class FiveDimBaseEventAction; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-inline static constexpr unsigned int Struct_2_DF3F1B8142DB3648_TypeDefinitionIndex = 39907;
+inline static constexpr unsigned int Struct_2_DF3F1B8142DB3648_TypeDefinitionIndex = 40719;
 
 struct alignas(8) Struct_2_DF3F1B8142DB3648
 {

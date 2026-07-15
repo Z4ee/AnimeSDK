@@ -4,7 +4,7 @@
 
 namespace Newtonsoft::Json::Utilities
 {
-	inline static constexpr unsigned int EnumValue_1_TypeDefinitionIndex = 9322;
+	inline static constexpr unsigned int EnumValue_1_TypeDefinitionIndex = 9334;
 
 	template <typename T>
 	class EnumValue_1 : public ::System::Object

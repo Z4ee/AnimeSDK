@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LevelRegionConnectivityType_TypeDefinitionIndex = 16518;
+	inline static constexpr unsigned int LevelRegionConnectivityType_TypeDefinitionIndex = 16680;
 
 	enum class LevelRegionConnectivityType : ::System::Int32
 	{

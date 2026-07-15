@@ -5,13 +5,13 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class TargetEvaluator; }
 
-#define RPG_GAMECORE_PLAYVOICE_SINGLE_METHOD_3_5030FABB95576A80_OFFSET UNITYSDK_OFFSET(0x19A2AF40)
-#define RPG_GAMECORE_PLAYVOICE_SINGLE_METHOD_3_BE96E35661FB5D10_OFFSET UNITYSDK_OFFSET(0x19A2AEC0)
-#define RPG_GAMECORE_PLAYVOICE_SINGLE__CTOR_OFFSET UNITYSDK_OFFSET(0x19A2AF10)
+#define RPG_GAMECORE_PLAYVOICE_SINGLE_METHOD_3_0D2B2CEA9322F353_OFFSET UNITYSDK_OFFSET(0x1BA09360)
+#define RPG_GAMECORE_PLAYVOICE_SINGLE_METHOD_3_5030FABB95576A80_OFFSET UNITYSDK_OFFSET(0x1BA093A0)
+#define RPG_GAMECORE_PLAYVOICE_SINGLE__CTOR_OFFSET UNITYSDK_OFFSET(0x1BA09390)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PlayVoice_Single_TypeDefinitionIndex = 19475;
+	inline static constexpr unsigned int PlayVoice_Single_TypeDefinitionIndex = 19833;
 
 	class PlayVoice_Single : public ::RPG::GameCore::TaskConfig
 	{
@@ -24,9 +24,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PLAYVOICE_SINGLE__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_BE96E35661FB5D10(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::PlayVoice_Single*& a2)
+		static ::System::Void Method_3_0D2B2CEA9322F353(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::PlayVoice_Single*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::PlayVoice_Single*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PLAYVOICE_SINGLE_METHOD_3_BE96E35661FB5D10_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::PlayVoice_Single*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PLAYVOICE_SINGLE_METHOD_3_0D2B2CEA9322F353_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_5030FABB95576A80(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::PlayVoice_Single* a2)

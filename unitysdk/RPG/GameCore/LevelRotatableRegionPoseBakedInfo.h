@@ -1,31 +1,122 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/RPG/GameCore/JsonConfig.h"
+#include "unitysdk/System/ValueType.h"
 
-class Class_1_7A22A3DBEEDD1F80;
-namespace System { class String; }
+class Class_1_43BD383C98B4C0C5_3;
+namespace System { class Object; }
 
-#define RPG_GAMECORE_LEVELROTATABLEREGIONPOSEBAKEDINFO_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1988AA50)
-#define RPG_GAMECORE_LEVELROTATABLEREGIONPOSEBAKEDINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x1988AB80)
+#define RPG_GAMECORE_LEVELROTATABLEREGIONPOSEBAKEDINFO_DISPOSE_OFFSET UNITYSDK_OFFSET(0x7B0860)
+#define RPG_GAMECORE_LEVELROTATABLEREGIONPOSEBAKEDINFO_EQUALS_1_OFFSET UNITYSDK_OFFSET(0x3A1B350)
+#define RPG_GAMECORE_LEVELROTATABLEREGIONPOSEBAKEDINFO_EQUALS_OFFSET UNITYSDK_OFFSET(0x7C5660)
+#define RPG_GAMECORE_LEVELROTATABLEREGIONPOSEBAKEDINFO_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x8817F0)
+#define RPG_GAMECORE_LEVELROTATABLEREGIONPOSEBAKEDINFO_GET_ISVALID_OFFSET UNITYSDK_OFFSET(0x881730)
+#define RPG_GAMECORE_LEVELROTATABLEREGIONPOSEBAKEDINFO_GET_NAVMESHLARGEMONSTER_OFFSET UNITYSDK_OFFSET(0x3A1B3D0)
+#define RPG_GAMECORE_LEVELROTATABLEREGIONPOSEBAKEDINFO_GET_NAVMESH_OFFSET UNITYSDK_OFFSET(0x3A1B360)
+#define RPG_GAMECORE_LEVELROTATABLEREGIONPOSEBAKEDINFO_GET_OFFSET_OFFSET UNITYSDK_OFFSET(0x676EB0)
+#define RPG_GAMECORE_LEVELROTATABLEREGIONPOSEBAKEDINFO_GET_POOL_OFFSET UNITYSDK_OFFSET(0x1651A0)
+#define RPG_GAMECORE_LEVELROTATABLEREGIONPOSEBAKEDINFO_INIT_OFFSET UNITYSDK_OFFSET(0x6E35A0)
+#define RPG_GAMECORE_LEVELROTATABLEREGIONPOSEBAKEDINFO_OP_EQUALITY_OFFSET UNITYSDK_OFFSET(0x1B089570)
+#define RPG_GAMECORE_LEVELROTATABLEREGIONPOSEBAKEDINFO_OP_IMPLICIT_OFFSET UNITYSDK_OFFSET(0x1B0897B0)
+#define RPG_GAMECORE_LEVELROTATABLEREGIONPOSEBAKEDINFO_OP_INEQUALITY_OFFSET UNITYSDK_OFFSET(0x1B089680)
+#define RPG_GAMECORE_LEVELROTATABLEREGIONPOSEBAKEDINFO_OP_LOGICALNOT_OFFSET UNITYSDK_OFFSET(0x1B089860)
+#define RPG_GAMECORE_LEVELROTATABLEREGIONPOSEBAKEDINFO_SET_NAVMESHLARGEMONSTER_OFFSET UNITYSDK_OFFSET(0x3A1B3F0)
+#define RPG_GAMECORE_LEVELROTATABLEREGIONPOSEBAKEDINFO_SET_NAVMESH_OFFSET UNITYSDK_OFFSET(0x3A1B380)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LevelRotatableRegionPoseBakedInfo_TypeDefinitionIndex = 16296;
+	inline static constexpr unsigned int LevelRotatableRegionPoseBakedInfo_TypeDefinitionIndex = 10370;
 
-	class LevelRotatableRegionPoseBakedInfo : public ::RPG::GameCore::JsonConfig
+	struct alignas(8) LevelRotatableRegionPoseBakedInfo
 	{
-	public:
-		::System::String* NavMesh; // 0x10
-		::System::String* NavMeshLargeMonster; // 0x18
+		::Class_1_43BD383C98B4C0C5_3* _Pool; // 0x10
+		::System::UInt32 _Offset; // 0x18
 
-		::System::Void _ctor()
+		::System::Void Init(::Class_1_43BD383C98B4C0C5_3* a1, ::System::UInt32 a2)
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELROTATABLEREGIONPOSEBAKEDINFO__CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID, ::Class_1_43BD383C98B4C0C5_3*, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELROTATABLEREGIONPOSEBAKEDINFO_INIT_OFFSET))(this, a1, a2);
 		}
 
-		static ::System::Void FromBinary(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::LevelRotatableRegionPoseBakedInfo*& a2)
+		::System::Boolean get_IsValid()
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::LevelRotatableRegionPoseBakedInfo*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELROTATABLEREGIONPOSEBAKEDINFO_FROMBINARY_OFFSET))(a1, a2);
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELROTATABLEREGIONPOSEBAKEDINFO_GET_ISVALID_OFFSET))(this);
 		}
+
+		::System::UInt32 get_Offset()
+		{
+			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELROTATABLEREGIONPOSEBAKEDINFO_GET_OFFSET_OFFSET))(this);
+		}
+
+		::Class_1_43BD383C98B4C0C5_3* get_Pool()
+		{
+			return ((::Class_1_43BD383C98B4C0C5_3*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELROTATABLEREGIONPOSEBAKEDINFO_GET_POOL_OFFSET))(this);
+		}
+
+		::System::Void Dispose()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELROTATABLEREGIONPOSEBAKEDINFO_DISPOSE_OFFSET))(this);
+		}
+
+		static ::System::Boolean op_Equality(::RPG::GameCore::LevelRotatableRegionPoseBakedInfo a1, ::System::Object* a2)
+		{
+			return ((::System::Boolean(*)(::RPG::GameCore::LevelRotatableRegionPoseBakedInfo, ::System::Object*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELROTATABLEREGIONPOSEBAKEDINFO_OP_EQUALITY_OFFSET))(a1, a2);
+		}
+
+		static ::System::Boolean op_Inequality(::RPG::GameCore::LevelRotatableRegionPoseBakedInfo a1, ::System::Object* a2)
+		{
+			return ((::System::Boolean(*)(::RPG::GameCore::LevelRotatableRegionPoseBakedInfo, ::System::Object*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELROTATABLEREGIONPOSEBAKEDINFO_OP_INEQUALITY_OFFSET))(a1, a2);
+		}
+
+		::System::Boolean Equals(::RPG::GameCore::LevelRotatableRegionPoseBakedInfo a1)
+		{
+			return ((::System::Boolean(*)(::PVOID, ::RPG::GameCore::LevelRotatableRegionPoseBakedInfo))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELROTATABLEREGIONPOSEBAKEDINFO_EQUALS_OFFSET))(this, a1);
+		}
+
+		::System::Boolean Equals_1(::System::Object* a1)
+		{
+			return ((::System::Boolean(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELROTATABLEREGIONPOSEBAKEDINFO_EQUALS_1_OFFSET))(this, a1);
+		}
+
+		::System::Int32 GetHashCode()
+		{
+			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELROTATABLEREGIONPOSEBAKEDINFO_GETHASHCODE_OFFSET))(this);
+		}
+
+		static ::System::Boolean op_Implicit(::RPG::GameCore::LevelRotatableRegionPoseBakedInfo a1)
+		{
+			return ((::System::Boolean(*)(::RPG::GameCore::LevelRotatableRegionPoseBakedInfo))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELROTATABLEREGIONPOSEBAKEDINFO_OP_IMPLICIT_OFFSET))(a1);
+		}
+
+		static ::System::Boolean op_LogicalNot(::RPG::GameCore::LevelRotatableRegionPoseBakedInfo a1)
+		{
+			return ((::System::Boolean(*)(::RPG::GameCore::LevelRotatableRegionPoseBakedInfo))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELROTATABLEREGIONPOSEBAKEDINFO_OP_LOGICALNOT_OFFSET))(a1);
+		}
+
+		/*
+		::Struct_2_CC45B4503679E14E_6 get_NavMesh()
+		{
+			return ((::Struct_2_CC45B4503679E14E_6(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELROTATABLEREGIONPOSEBAKEDINFO_GET_NAVMESH_OFFSET))(this);
+		}
+		*/
+
+		/*
+		::System::Void set_NavMesh(::Struct_2_CC45B4503679E14E_6 a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::Struct_2_CC45B4503679E14E_6))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELROTATABLEREGIONPOSEBAKEDINFO_SET_NAVMESH_OFFSET))(this, a1);
+		}
+		*/
+
+		/*
+		::Struct_2_CC45B4503679E14E_6 get_NavMeshLargeMonster()
+		{
+			return ((::Struct_2_CC45B4503679E14E_6(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELROTATABLEREGIONPOSEBAKEDINFO_GET_NAVMESHLARGEMONSTER_OFFSET))(this);
+		}
+		*/
+
+		/*
+		::System::Void set_NavMeshLargeMonster(::Struct_2_CC45B4503679E14E_6 a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::Struct_2_CC45B4503679E14E_6))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELROTATABLEREGIONPOSEBAKEDINFO_SET_NAVMESHLARGEMONSTER_OFFSET))(this, a1);
+		}
+		*/
 	};
 }

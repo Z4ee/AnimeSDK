@@ -1,0 +1,43 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/Class_1_5772346ACD452D08.h"
+#include "unitysdk/RPG/Client/TextID.h"
+
+namespace RPG::Client { class IGamePhase; }
+
+#define CLASS_2_4D67A244D35B568C_METHOD_2_3E6AA955ABC6F8EC_OFFSET UNITYSDK_OFFSET(0x17640CA0)
+#define CLASS_2_4D67A244D35B568C_METHOD_2_57DB4276A448699C_OFFSET UNITYSDK_OFFSET(0x176407B0)
+#define CLASS_2_4D67A244D35B568C_METHOD_2_6BA7BB45F0BA72F4_OFFSET UNITYSDK_OFFSET(0x17640D80)
+#define CLASS_2_4D67A244D35B568C_METHOD_2_A91086AED8314DB5_OFFSET UNITYSDK_OFFSET(0x17640D30)
+#define CLASS_2_4D67A244D35B568C__CTOR_OFFSET UNITYSDK_OFFSET(0x17640790)
+
+inline static constexpr unsigned int Class_2_4D67A244D35B568C_TypeDefinitionIndex = 58457;
+
+class Class_2_4D67A244D35B568C : public ::Class_1_5772346ACD452D08
+{
+public:
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_4D67A244D35B568C__CTOR_OFFSET))(this);
+	}
+
+	::RPG::Client::TextID Method_2_57DB4276A448699C()
+	{
+		return ((::RPG::Client::TextID(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_4D67A244D35B568C_METHOD_2_57DB4276A448699C_OFFSET))(this);
+	}
+
+	::System::Void Method_2_3E6AA955ABC6F8EC(::RPG::Client::IGamePhase* a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::RPG::Client::IGamePhase*))((::PBYTE)hIl2Cpp + CLASS_2_4D67A244D35B568C_METHOD_2_3E6AA955ABC6F8EC_OFFSET))(this, a1);
+	}
+
+	::System::Void Method_2_A91086AED8314DB5()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_4D67A244D35B568C_METHOD_2_A91086AED8314DB5_OFFSET))(this);
+	}
+
+	::System::Void Method_2_6BA7BB45F0BA72F4()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_4D67A244D35B568C_METHOD_2_6BA7BB45F0BA72F4_OFFSET))(this);
+	}
+};

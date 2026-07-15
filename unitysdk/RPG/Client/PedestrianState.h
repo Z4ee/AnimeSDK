@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int PedestrianState_TypeDefinitionIndex = 64737;
+	inline static constexpr unsigned int PedestrianState_TypeDefinitionIndex = 66138;
 
 	enum class PedestrianState : ::System::Int32
 	{

@@ -3,7 +3,7 @@
 
 namespace System::Linq::Expressions
 {
-	inline static constexpr unsigned int ExpressionType_TypeDefinitionIndex = 3206;
+	inline static constexpr unsigned int ExpressionType_TypeDefinitionIndex = 3210;
 
 	enum class ExpressionType : ::System::Int32
 	{

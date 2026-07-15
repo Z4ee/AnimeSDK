@@ -6,7 +6,7 @@ namespace UnityEngine { class Texture2D; }
 
 namespace EnviromentSystem
 {
-	inline static constexpr unsigned int EnviroSceneClip_Struct_2_9A41477451EC28A3_TypeDefinitionIndex = 46757;
+	inline static constexpr unsigned int EnviroSceneClip_Struct_2_9A41477451EC28A3_TypeDefinitionIndex = 47722;
 
 	struct alignas(8) EnviroSceneClip_Struct_2_9A41477451EC28A3
 	{

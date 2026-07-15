@@ -7,7 +7,7 @@ namespace System::Collections::Generic { template <typename T> class Queue_1; }
 
 namespace UnityEngine::UIElements
 {
-	inline static constexpr unsigned int EventDispatcher_DispatchContext_TypeDefinitionIndex = 6128;
+	inline static constexpr unsigned int EventDispatcher_DispatchContext_TypeDefinitionIndex = 6133;
 
 	struct alignas(8) EventDispatcher_DispatchContext
 	{

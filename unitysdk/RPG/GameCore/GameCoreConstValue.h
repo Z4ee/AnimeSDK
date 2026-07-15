@@ -45,19 +45,19 @@ namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_GAMECORE_GAMECORECONSTVALUE_CHECKMODIFIEREVENTCANRECALL_OFFSET UNITYSDK_OFFSET(0x197C8290)
-#define RPG_GAMECORE_GAMECORECONSTVALUE_FINDMODIFIERCUSTOMEVENTCONFIG_OFFSET UNITYSDK_OFFSET(0x197C7770)
-#define RPG_GAMECORE_GAMECORECONSTVALUE_FINDMODIFIERCUSTOMEVENTGROUP_OFFSET UNITYSDK_OFFSET(0x197C7900)
-#define RPG_GAMECORE_GAMECORECONSTVALUE_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x197B9120)
-#define RPG_GAMECORE_GAMECORECONSTVALUE_GETPROPERTYADSORPTIONCONFIG_OFFSET UNITYSDK_OFFSET(0x197C83F0)
-#define RPG_GAMECORE_GAMECORECONSTVALUE_GET_REVERSEDMODIFIERSTATUSTYPEIMMUNEMAP_OFFSET UNITYSDK_OFFSET(0x197C7E90)
-#define RPG_GAMECORE_GAMECORECONSTVALUE_GET_REVERSEMODIFIERBEHAVIORFLAGIMMUNEMAP_OFFSET UNITYSDK_OFFSET(0x197C7A90)
-#define RPG_GAMECORE_GAMECORECONSTVALUE_ISINCHARACTERIDGROUP_OFFSET UNITYSDK_OFFSET(0x197C8680)
-#define RPG_GAMECORE_GAMECORECONSTVALUE__CTOR_OFFSET UNITYSDK_OFFSET(0x197C7470)
+#define RPG_GAMECORE_GAMECORECONSTVALUE_CHECKMODIFIEREVENTCANRECALL_OFFSET UNITYSDK_OFFSET(0x1B9A0A60)
+#define RPG_GAMECORE_GAMECORECONSTVALUE_FINDMODIFIERCUSTOMEVENTCONFIG_OFFSET UNITYSDK_OFFSET(0x1B99FF40)
+#define RPG_GAMECORE_GAMECORECONSTVALUE_FINDMODIFIERCUSTOMEVENTGROUP_OFFSET UNITYSDK_OFFSET(0x1B9A00D0)
+#define RPG_GAMECORE_GAMECORECONSTVALUE_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B991810)
+#define RPG_GAMECORE_GAMECORECONSTVALUE_GETPROPERTYADSORPTIONCONFIG_OFFSET UNITYSDK_OFFSET(0x1B9A0BC0)
+#define RPG_GAMECORE_GAMECORECONSTVALUE_GET_REVERSEDMODIFIERSTATUSTYPEIMMUNEMAP_OFFSET UNITYSDK_OFFSET(0x1B9A0660)
+#define RPG_GAMECORE_GAMECORECONSTVALUE_GET_REVERSEMODIFIERBEHAVIORFLAGIMMUNEMAP_OFFSET UNITYSDK_OFFSET(0x1B9A0260)
+#define RPG_GAMECORE_GAMECORECONSTVALUE_ISINCHARACTERIDGROUP_OFFSET UNITYSDK_OFFSET(0x1B9A0E50)
+#define RPG_GAMECORE_GAMECORECONSTVALUE__CTOR_OFFSET UNITYSDK_OFFSET(0x1B99FC40)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int GameCoreConstValue_TypeDefinitionIndex = 16249;
+	inline static constexpr unsigned int GameCoreConstValue_TypeDefinitionIndex = 16433;
 
 	class GameCoreConstValue : public ::RPG::GameCore::JsonConfig
 	{
@@ -209,11 +209,12 @@ namespace RPG::GameCore
 		::System::Single AbortMoveSkipRootMotionThreshTime; // 0x3DC
 		::System::String* EmptyAvatarPrefabPath; // 0x3E0
 		::Il2CppArray<::RPG::GameCore::CharacterIDGroupConfig*>* CharacterIDGroups; // 0x3E8
-		::System::Collections::Generic::Dictionary_2<::RPG::GameCore::ModifierBehaviorFlag, ::System::Collections::Generic::List_1<::RPG::GameCore::ModifierBehaviorFlag>*>* _reverseModifierBehaviorFlagImmuneMap; // 0x3F0
-		::System::Collections::Generic::Dictionary_2<::RPG::GameCore::EnumStatusType, ::System::Collections::Generic::List_1<::RPG::GameCore::ModifierBehaviorFlag>*>* _reversedModifierStatusTypeImmuneMap; // 0x3F8
-		::Il2CppArray<::System::UInt32>* _ForbidRecallModifierEventMask; // 0x400
-		::Il2CppArray<::RPG::GameCore::PropertyAdsorptionConfig*>* _PropertyAdsorptionThreshArray; // 0x408
-		::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Collections::Generic::List_1<::System::UInt32>*>* _CharacterIDGroupMap; // 0x410
+		::Class_1_1C30CE192ABE4C54* GlobalAliasLookup; // 0x3F0
+		::System::Collections::Generic::Dictionary_2<::RPG::GameCore::ModifierBehaviorFlag, ::System::Collections::Generic::List_1<::RPG::GameCore::ModifierBehaviorFlag>*>* _reverseModifierBehaviorFlagImmuneMap; // 0x3F8
+		::System::Collections::Generic::Dictionary_2<::RPG::GameCore::EnumStatusType, ::System::Collections::Generic::List_1<::RPG::GameCore::ModifierBehaviorFlag>*>* _reversedModifierStatusTypeImmuneMap; // 0x400
+		::Il2CppArray<::System::UInt32>* _ForbidRecallModifierEventMask; // 0x408
+		::Il2CppArray<::RPG::GameCore::PropertyAdsorptionConfig*>* _PropertyAdsorptionThreshArray; // 0x410
+		::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Collections::Generic::List_1<::System::UInt32>*>* _CharacterIDGroupMap; // 0x418
 
 		::System::Void _ctor()
 		{

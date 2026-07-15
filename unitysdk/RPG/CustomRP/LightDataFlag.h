@@ -3,7 +3,7 @@
 
 namespace RPG::CustomRP
 {
-	inline static constexpr unsigned int LightDataFlag_TypeDefinitionIndex = 35378;
+	inline static constexpr unsigned int LightDataFlag_TypeDefinitionIndex = 36159;
 
 	enum class LightDataFlag : ::System::Int32
 	{

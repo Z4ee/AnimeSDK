@@ -7,10 +7,10 @@ namespace RPG::GameCore { class TargetFetchElationTimeAllTargets; }
 namespace RPG::GameCore { class TaskContext; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_3_24E0DDCD354A6D38_2_EVALUATE_OFFSET UNITYSDK_OFFSET(0xA3C1100)
-#define CLASS_3_24E0DDCD354A6D38_2__CTOR_OFFSET UNITYSDK_OFFSET(0xA3C10B0)
+#define CLASS_3_24E0DDCD354A6D38_2_EVALUATE_OFFSET UNITYSDK_OFFSET(0x17A8FC50)
+#define CLASS_3_24E0DDCD354A6D38_2__CTOR_OFFSET UNITYSDK_OFFSET(0x17A8FC00)
 
-inline static constexpr unsigned int Class_3_24E0DDCD354A6D38_2_TypeDefinitionIndex = 55314;
+inline static constexpr unsigned int Class_3_24E0DDCD354A6D38_2_TypeDefinitionIndex = 56551;
 
 class Class_3_24E0DDCD354A6D38_2 : public ::RPG::GameCore::TargetEvaluatorImpl_1<::RPG::GameCore::TargetFetchElationTimeAllTargets*>
 {

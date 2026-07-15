@@ -7,95 +7,95 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace System::IO { class Stream; }
 namespace System::Text::RegularExpressions { class Regex; }
 
-#define IFIX_MANIFESTCONFIG_GET_ANONYMOUSTYPECOUNT_OFFSET UNITYSDK_OFFSET(0x17FAB430)
-#define IFIX_MANIFESTCONFIG_GET_CODECOUNT_OFFSET UNITYSDK_OFFSET(0x17FAB370)
-#define IFIX_MANIFESTCONFIG_GET_EXTERNMETHODCOUNT_OFFSET UNITYSDK_OFFSET(0x17FAB350)
-#define IFIX_MANIFESTCONFIG_GET_EXTERNTYPECOUNT_OFFSET UNITYSDK_OFFSET(0x17FAB330)
-#define IFIX_MANIFESTCONFIG_GET_FIELDCOUNT_OFFSET UNITYSDK_OFFSET(0x17FAB3B0)
-#define IFIX_MANIFESTCONFIG_GET_INTERNSTRINGCOUNT_OFFSET UNITYSDK_OFFSET(0x17FAB390)
-#define IFIX_MANIFESTCONFIG_GET_INTERPRETMETHODSCOUNT_OFFSET UNITYSDK_OFFSET(0x17FAB3F0)
-#define IFIX_MANIFESTCONFIG_GET_NEWCLASSESCOUNT_OFFSET UNITYSDK_OFFSET(0x17FAB410)
-#define IFIX_MANIFESTCONFIG_GET_STATICFIELDCOUNT_OFFSET UNITYSDK_OFFSET(0x17FAB3D0)
-#define IFIX_MANIFESTCONFIG_PARSEMANIFEST_OFFSET UNITYSDK_OFFSET(0x17F924A0)
-#define IFIX_MANIFESTCONFIG_SET_ANONYMOUSTYPECOUNT_OFFSET UNITYSDK_OFFSET(0x17FAB440)
-#define IFIX_MANIFESTCONFIG_SET_CODECOUNT_OFFSET UNITYSDK_OFFSET(0x17FAB380)
-#define IFIX_MANIFESTCONFIG_SET_EXTERNMETHODCOUNT_OFFSET UNITYSDK_OFFSET(0x17FAB360)
-#define IFIX_MANIFESTCONFIG_SET_EXTERNTYPECOUNT_OFFSET UNITYSDK_OFFSET(0x17FAB340)
-#define IFIX_MANIFESTCONFIG_SET_FIELDCOUNT_OFFSET UNITYSDK_OFFSET(0x17FAB3C0)
-#define IFIX_MANIFESTCONFIG_SET_INTERNSTRINGCOUNT_OFFSET UNITYSDK_OFFSET(0x17FAB3A0)
-#define IFIX_MANIFESTCONFIG_SET_INTERPRETMETHODSCOUNT_OFFSET UNITYSDK_OFFSET(0x17FAB400)
-#define IFIX_MANIFESTCONFIG_SET_NEWCLASSESCOUNT_OFFSET UNITYSDK_OFFSET(0x17FAB420)
-#define IFIX_MANIFESTCONFIG_SET_STATICFIELDCOUNT_OFFSET UNITYSDK_OFFSET(0x17FAB3E0)
-#define IFIX_MANIFESTCONFIG__CCTOR_OFFSET UNITYSDK_OFFSET(0x17FAB450)
-#define IFIX_MANIFESTCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x17FAB290)
+#define IFIX_MANIFESTCONFIG_GET_ANONYMOUSTYPECOUNT_OFFSET UNITYSDK_OFFSET(0x1B5601D0)
+#define IFIX_MANIFESTCONFIG_GET_CODECOUNT_OFFSET UNITYSDK_OFFSET(0x1B560110)
+#define IFIX_MANIFESTCONFIG_GET_EXTERNMETHODCOUNT_OFFSET UNITYSDK_OFFSET(0x1B5600F0)
+#define IFIX_MANIFESTCONFIG_GET_EXTERNTYPECOUNT_OFFSET UNITYSDK_OFFSET(0x1B5600D0)
+#define IFIX_MANIFESTCONFIG_GET_FIELDCOUNT_OFFSET UNITYSDK_OFFSET(0x1B560150)
+#define IFIX_MANIFESTCONFIG_GET_INTERNSTRINGCOUNT_OFFSET UNITYSDK_OFFSET(0x1B560130)
+#define IFIX_MANIFESTCONFIG_GET_INTERPRETMETHODSCOUNT_OFFSET UNITYSDK_OFFSET(0x1B560190)
+#define IFIX_MANIFESTCONFIG_GET_NEWCLASSESCOUNT_OFFSET UNITYSDK_OFFSET(0x1B5601B0)
+#define IFIX_MANIFESTCONFIG_GET_STATICFIELDCOUNT_OFFSET UNITYSDK_OFFSET(0x1B560170)
+#define IFIX_MANIFESTCONFIG_PARSEMANIFEST_OFFSET UNITYSDK_OFFSET(0x1B5421E0)
+#define IFIX_MANIFESTCONFIG_SET_ANONYMOUSTYPECOUNT_OFFSET UNITYSDK_OFFSET(0x1B5601E0)
+#define IFIX_MANIFESTCONFIG_SET_CODECOUNT_OFFSET UNITYSDK_OFFSET(0x1B560120)
+#define IFIX_MANIFESTCONFIG_SET_EXTERNMETHODCOUNT_OFFSET UNITYSDK_OFFSET(0x1B560100)
+#define IFIX_MANIFESTCONFIG_SET_EXTERNTYPECOUNT_OFFSET UNITYSDK_OFFSET(0x1B5600E0)
+#define IFIX_MANIFESTCONFIG_SET_FIELDCOUNT_OFFSET UNITYSDK_OFFSET(0x1B560160)
+#define IFIX_MANIFESTCONFIG_SET_INTERNSTRINGCOUNT_OFFSET UNITYSDK_OFFSET(0x1B560140)
+#define IFIX_MANIFESTCONFIG_SET_INTERPRETMETHODSCOUNT_OFFSET UNITYSDK_OFFSET(0x1B5601A0)
+#define IFIX_MANIFESTCONFIG_SET_NEWCLASSESCOUNT_OFFSET UNITYSDK_OFFSET(0x1B5601C0)
+#define IFIX_MANIFESTCONFIG_SET_STATICFIELDCOUNT_OFFSET UNITYSDK_OFFSET(0x1B560180)
+#define IFIX_MANIFESTCONFIG__CCTOR_OFFSET UNITYSDK_OFFSET(0x1B5601F0)
+#define IFIX_MANIFESTCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1B560030)
 
 namespace IFix
 {
-	inline static constexpr unsigned int ManifestConfig_TypeDefinitionIndex = 9749;
+	inline static constexpr unsigned int ManifestConfig_TypeDefinitionIndex = 9763;
 
 	class ManifestConfig : public ::System::Object
 	{
 	public:
-		static ::System::Text::RegularExpressions::Regex** StaticGet_FieldCountRegexp()
-		{
-			return (::System::Text::RegularExpressions::Regex**)Il2CppClass::FromTypeDefinitionIndex(ManifestConfig_TypeDefinitionIndex)->GetStaticField(0xAC0);
-		}
-		static ::System::Text::RegularExpressions::Regex** StaticGet_AnonymousTypeCountRegexp()
-		{
-			return (::System::Text::RegularExpressions::Regex**)Il2CppClass::FromTypeDefinitionIndex(ManifestConfig_TypeDefinitionIndex)->GetStaticField(0xAC8);
-		}
-		static ::System::Text::RegularExpressions::Regex** StaticGet_CodeCountRegexp()
-		{
-			return (::System::Text::RegularExpressions::Regex**)Il2CppClass::FromTypeDefinitionIndex(ManifestConfig_TypeDefinitionIndex)->GetStaticField(0xAD0);
-		}
 		static ::System::Text::RegularExpressions::Regex** StaticGet_ExternMethodCountRegexp()
 		{
-			return (::System::Text::RegularExpressions::Regex**)Il2CppClass::FromTypeDefinitionIndex(ManifestConfig_TypeDefinitionIndex)->GetStaticField(0xAD8);
-		}
-		static ::System::Text::RegularExpressions::Regex** StaticGet_IgnroeCellExp()
-		{
-			return (::System::Text::RegularExpressions::Regex**)Il2CppClass::FromTypeDefinitionIndex(ManifestConfig_TypeDefinitionIndex)->GetStaticField(0xAE0);
-		}
-		static ::System::Text::RegularExpressions::Regex** StaticGet_InterpretMethodsCountRegexp()
-		{
-			return (::System::Text::RegularExpressions::Regex**)Il2CppClass::FromTypeDefinitionIndex(ManifestConfig_TypeDefinitionIndex)->GetStaticField(0xAE8);
-		}
-		static ::System::Text::RegularExpressions::Regex** StaticGet_StaticFieldCountRegexp()
-		{
-			return (::System::Text::RegularExpressions::Regex**)Il2CppClass::FromTypeDefinitionIndex(ManifestConfig_TypeDefinitionIndex)->GetStaticField(0xAF0);
+			return (::System::Text::RegularExpressions::Regex**)Il2CppClass::FromTypeDefinitionIndex(ManifestConfig_TypeDefinitionIndex)->GetStaticField(0x740);
 		}
 		static ::System::Text::RegularExpressions::Regex** StaticGet_NewClassesCountRegexp()
 		{
-			return (::System::Text::RegularExpressions::Regex**)Il2CppClass::FromTypeDefinitionIndex(ManifestConfig_TypeDefinitionIndex)->GetStaticField(0xAF8);
+			return (::System::Text::RegularExpressions::Regex**)Il2CppClass::FromTypeDefinitionIndex(ManifestConfig_TypeDefinitionIndex)->GetStaticField(0x748);
 		}
-		static ::System::Text::RegularExpressions::Regex** StaticGet_IgnroeListExp()
+		static ::System::Text::RegularExpressions::Regex** StaticGet_IgnroeCellExp()
 		{
-			return (::System::Text::RegularExpressions::Regex**)Il2CppClass::FromTypeDefinitionIndex(ManifestConfig_TypeDefinitionIndex)->GetStaticField(0xB00);
-		}
-		static ::System::Text::RegularExpressions::Regex** StaticGet_ExternTypeCountRegexp()
-		{
-			return (::System::Text::RegularExpressions::Regex**)Il2CppClass::FromTypeDefinitionIndex(ManifestConfig_TypeDefinitionIndex)->GetStaticField(0xB08);
+			return (::System::Text::RegularExpressions::Regex**)Il2CppClass::FromTypeDefinitionIndex(ManifestConfig_TypeDefinitionIndex)->GetStaticField(0x750);
 		}
 		static ::System::Text::RegularExpressions::Regex** StaticGet_PatchRegexp()
 		{
-			return (::System::Text::RegularExpressions::Regex**)Il2CppClass::FromTypeDefinitionIndex(ManifestConfig_TypeDefinitionIndex)->GetStaticField(0xB10);
+			return (::System::Text::RegularExpressions::Regex**)Il2CppClass::FromTypeDefinitionIndex(ManifestConfig_TypeDefinitionIndex)->GetStaticField(0x758);
+		}
+		static ::System::Text::RegularExpressions::Regex** StaticGet_ExternTypeCountRegexp()
+		{
+			return (::System::Text::RegularExpressions::Regex**)Il2CppClass::FromTypeDefinitionIndex(ManifestConfig_TypeDefinitionIndex)->GetStaticField(0x760);
+		}
+		static ::System::Text::RegularExpressions::Regex** StaticGet_InterpretMethodsCountRegexp()
+		{
+			return (::System::Text::RegularExpressions::Regex**)Il2CppClass::FromTypeDefinitionIndex(ManifestConfig_TypeDefinitionIndex)->GetStaticField(0x768);
+		}
+		static ::System::Text::RegularExpressions::Regex** StaticGet_FieldCountRegexp()
+		{
+			return (::System::Text::RegularExpressions::Regex**)Il2CppClass::FromTypeDefinitionIndex(ManifestConfig_TypeDefinitionIndex)->GetStaticField(0x770);
 		}
 		static ::System::Text::RegularExpressions::Regex** StaticGet_InternStringCountRegexp()
 		{
-			return (::System::Text::RegularExpressions::Regex**)Il2CppClass::FromTypeDefinitionIndex(ManifestConfig_TypeDefinitionIndex)->GetStaticField(0xB18);
+			return (::System::Text::RegularExpressions::Regex**)Il2CppClass::FromTypeDefinitionIndex(ManifestConfig_TypeDefinitionIndex)->GetStaticField(0x778);
 		}
-		::System::Collections::Generic::List_1<::System::String*>* Patches; // 0x10
-		::System::Collections::Generic::List_1<::System::Int32>* IgnoreMethods; // 0x18
-		::System::Collections::Generic::List_1<::System::String*>* NewClasses; // 0x20
-		::System::Int32 _ExternTypeCount_k__BackingField; // 0x28
-		::System::Int32 _NewClassesCount_k__BackingField; // 0x2C
-		::System::Int32 _CodeCount_k__BackingField; // 0x30
+		static ::System::Text::RegularExpressions::Regex** StaticGet_AnonymousTypeCountRegexp()
+		{
+			return (::System::Text::RegularExpressions::Regex**)Il2CppClass::FromTypeDefinitionIndex(ManifestConfig_TypeDefinitionIndex)->GetStaticField(0x780);
+		}
+		static ::System::Text::RegularExpressions::Regex** StaticGet_StaticFieldCountRegexp()
+		{
+			return (::System::Text::RegularExpressions::Regex**)Il2CppClass::FromTypeDefinitionIndex(ManifestConfig_TypeDefinitionIndex)->GetStaticField(0x788);
+		}
+		static ::System::Text::RegularExpressions::Regex** StaticGet_IgnroeListExp()
+		{
+			return (::System::Text::RegularExpressions::Regex**)Il2CppClass::FromTypeDefinitionIndex(ManifestConfig_TypeDefinitionIndex)->GetStaticField(0x790);
+		}
+		static ::System::Text::RegularExpressions::Regex** StaticGet_CodeCountRegexp()
+		{
+			return (::System::Text::RegularExpressions::Regex**)Il2CppClass::FromTypeDefinitionIndex(ManifestConfig_TypeDefinitionIndex)->GetStaticField(0x798);
+		}
+		::System::Collections::Generic::List_1<::System::Int32>* IgnoreMethods; // 0x10
+		::System::Collections::Generic::List_1<::System::String*>* NewClasses; // 0x18
+		::System::Collections::Generic::List_1<::System::String*>* Patches; // 0x20
+		::System::Int32 _CodeCount_k__BackingField; // 0x28
+		::System::Int32 _InternStringCount_k__BackingField; // 0x2C
+		::System::Int32 _FieldCount_k__BackingField; // 0x30
 		::System::Int32 _ExternMethodCount_k__BackingField; // 0x34
-		::System::Int32 _StaticFieldCount_k__BackingField; // 0x38
-		::System::Int32 _FieldCount_k__BackingField; // 0x3C
-		::System::Int32 _AnonymousTypeCount_k__BackingField; // 0x40
-		::System::Int32 _InternStringCount_k__BackingField; // 0x44
-		::System::Int32 _InterpretMethodsCount_k__BackingField; // 0x48
+		::System::Int32 _ExternTypeCount_k__BackingField; // 0x38
+		::System::Int32 _InterpretMethodsCount_k__BackingField; // 0x3C
+		::System::Int32 _StaticFieldCount_k__BackingField; // 0x40
+		::System::Int32 _AnonymousTypeCount_k__BackingField; // 0x44
+		::System::Int32 _NewClassesCount_k__BackingField; // 0x48
 
 		::System::Void _ctor()
 		{

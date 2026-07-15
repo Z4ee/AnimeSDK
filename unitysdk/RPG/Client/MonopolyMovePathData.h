@@ -3,20 +3,20 @@
 #include "unitysdk/RPG/GameCore/MonopolyMapMoveType.h"
 #include "unitysdk/System/Object.h"
 
-class Class_1_4BC858D7C27E10ED_45;
 class Class_1_66C20D6C355B068E_5;
+class Class_1_6CB2450063991035_13;
 class Class_1_A4F0FA6F81B0B135;
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_MONOPOLYMOVEPATHDATA_CREATE_OFFSET UNITYSDK_OFFSET(0xC189920)
-#define RPG_CLIENT_MONOPOLYMOVEPATHDATA_GET_PATHLIST_OFFSET UNITYSDK_OFFSET(0xC189E00)
-#define RPG_CLIENT_MONOPOLYMOVEPATHDATA_SET_PATHLIST_OFFSET UNITYSDK_OFFSET(0xC189E10)
-#define RPG_CLIENT_MONOPOLYMOVEPATHDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xC189B80)
-#define RPG_CLIENT_MONOPOLYMOVEPATHDATA__GETMOVETYPE_OFFSET UNITYSDK_OFFSET(0xC189B90)
+#define RPG_CLIENT_MONOPOLYMOVEPATHDATA_CREATE_OFFSET UNITYSDK_OFFSET(0x1953E730)
+#define RPG_CLIENT_MONOPOLYMOVEPATHDATA_GET_PATHLIST_OFFSET UNITYSDK_OFFSET(0x19549020)
+#define RPG_CLIENT_MONOPOLYMOVEPATHDATA_SET_PATHLIST_OFFSET UNITYSDK_OFFSET(0x19549030)
+#define RPG_CLIENT_MONOPOLYMOVEPATHDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x19548DA0)
+#define RPG_CLIENT_MONOPOLYMOVEPATHDATA__GETMOVETYPE_OFFSET UNITYSDK_OFFSET(0x19548DB0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MonopolyMovePathData_TypeDefinitionIndex = 61973;
+	inline static constexpr unsigned int MonopolyMovePathData_TypeDefinitionIndex = 63338;
 
 	class MonopolyMovePathData : public ::System::Object
 	{
@@ -28,9 +28,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOPOLYMOVEPATHDATA__CTOR_OFFSET))(this);
 		}
 
-		static ::RPG::Client::MonopolyMovePathData* Create(::Class_1_4BC858D7C27E10ED_45* a1)
+		static ::RPG::Client::MonopolyMovePathData* Create(::Class_1_6CB2450063991035_13* a1)
 		{
-			return ((::RPG::Client::MonopolyMovePathData*(*)(::Class_1_4BC858D7C27E10ED_45*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOPOLYMOVEPATHDATA_CREATE_OFFSET))(a1);
+			return ((::RPG::Client::MonopolyMovePathData*(*)(::Class_1_6CB2450063991035_13*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOPOLYMOVEPATHDATA_CREATE_OFFSET))(a1);
 		}
 
 		static ::RPG::GameCore::MonopolyMapMoveType _GetMoveType(::Class_1_66C20D6C355B068E_5* a1, ::Class_1_66C20D6C355B068E_5* a2)

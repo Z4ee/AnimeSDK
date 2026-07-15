@@ -15,55 +15,55 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class Transform; }
 
-#define RPG_CLIENT_PROP_PINBALLPAGEPROXY_BINDACTION_OFFSET UNITYSDK_OFFSET(0xC5DF110)
-#define RPG_CLIENT_PROP_PINBALLPAGEPROXY_DISPOSE_OFFSET UNITYSDK_OFFSET(0xC5DE7D0)
-#define RPG_CLIENT_PROP_PINBALLPAGEPROXY_GETOPERATECOUNT_OFFSET UNITYSDK_OFFSET(0xC5DF0C0)
-#define RPG_CLIENT_PROP_PINBALLPAGEPROXY_GET_INSTANCE_OFFSET UNITYSDK_OFFSET(0xC5DE5E0)
-#define RPG_CLIENT_PROP_PINBALLPAGEPROXY_HIDEOPTIONS_OFFSET UNITYSDK_OFFSET(0xC5DEDF0)
-#define RPG_CLIENT_PROP_PINBALLPAGEPROXY_INIT_OFFSET UNITYSDK_OFFSET(0xC5DE900)
-#define RPG_CLIENT_PROP_PINBALLPAGEPROXY_PINBALLDEBUG_GETSELECTABLEITEMCOUNT_OFFSET UNITYSDK_OFFSET(0xC5DF450)
-#define RPG_CLIENT_PROP_PINBALLPAGEPROXY_PINBALLDEBUG_SELECTPLATEBYINDEX_OFFSET UNITYSDK_OFFSET(0xC5DF530)
-#define RPG_CLIENT_PROP_PINBALLPAGEPROXY_SETPLAYERCURSORPOS_OFFSET UNITYSDK_OFFSET(0xC5DF2B0)
-#define RPG_CLIENT_PROP_PINBALLPAGEPROXY_SETPOPUPMENU_OFFSET UNITYSDK_OFFSET(0xC5DE760)
-#define RPG_CLIENT_PROP_PINBALLPAGEPROXY_SETUPPOPUPMENUOPTIONS_OFFSET UNITYSDK_OFFSET(0xC5DEE80)
-#define RPG_CLIENT_PROP_PINBALLPAGEPROXY_SET_INSTANCE_OFFSET UNITYSDK_OFFSET(0xC5DE640)
-#define RPG_CLIENT_PROP_PINBALLPAGEPROXY_SHOWOPTIONS_OFFSET UNITYSDK_OFFSET(0xC5DEB20)
-#define RPG_CLIENT_PROP_PINBALLPAGEPROXY_SHOWPAGE_OFFSET UNITYSDK_OFFSET(0xC5DE980)
-#define RPG_CLIENT_PROP_PINBALLPAGEPROXY__CCTOR_OFFSET UNITYSDK_OFFSET(0xC5DF900)
-#define RPG_CLIENT_PROP_PINBALLPAGEPROXY__CTOR_OFFSET UNITYSDK_OFFSET(0xC5DE6A0)
-#define RPG_CLIENT_PROP_PINBALLPAGEPROXY__ONCLICKLAUNCH_OFFSET UNITYSDK_OFFSET(0xC5DF890)
-#define RPG_CLIENT_PROP_PINBALLPAGEPROXY__ONHIDE_OFFSET UNITYSDK_OFFSET(0xC5DF6D0)
+#define RPG_CLIENT_PROP_PINBALLPAGEPROXY_BINDACTION_OFFSET UNITYSDK_OFFSET(0x14F21880)
+#define RPG_CLIENT_PROP_PINBALLPAGEPROXY_DISPOSE_OFFSET UNITYSDK_OFFSET(0x14F20F40)
+#define RPG_CLIENT_PROP_PINBALLPAGEPROXY_GETOPERATECOUNT_OFFSET UNITYSDK_OFFSET(0x14F21830)
+#define RPG_CLIENT_PROP_PINBALLPAGEPROXY_GET_INSTANCE_OFFSET UNITYSDK_OFFSET(0x14F20D50)
+#define RPG_CLIENT_PROP_PINBALLPAGEPROXY_HIDEOPTIONS_OFFSET UNITYSDK_OFFSET(0x14F21560)
+#define RPG_CLIENT_PROP_PINBALLPAGEPROXY_INIT_OFFSET UNITYSDK_OFFSET(0x14F21070)
+#define RPG_CLIENT_PROP_PINBALLPAGEPROXY_PINBALLDEBUG_GETSELECTABLEITEMCOUNT_OFFSET UNITYSDK_OFFSET(0x14F21BC0)
+#define RPG_CLIENT_PROP_PINBALLPAGEPROXY_PINBALLDEBUG_SELECTPLATEBYINDEX_OFFSET UNITYSDK_OFFSET(0x14F21D30)
+#define RPG_CLIENT_PROP_PINBALLPAGEPROXY_SETPLAYERCURSORPOS_OFFSET UNITYSDK_OFFSET(0x14F21A20)
+#define RPG_CLIENT_PROP_PINBALLPAGEPROXY_SETPOPUPMENU_OFFSET UNITYSDK_OFFSET(0x14F20ED0)
+#define RPG_CLIENT_PROP_PINBALLPAGEPROXY_SETUPPOPUPMENUOPTIONS_OFFSET UNITYSDK_OFFSET(0x14F215F0)
+#define RPG_CLIENT_PROP_PINBALLPAGEPROXY_SET_INSTANCE_OFFSET UNITYSDK_OFFSET(0x14F20DB0)
+#define RPG_CLIENT_PROP_PINBALLPAGEPROXY_SHOWOPTIONS_OFFSET UNITYSDK_OFFSET(0x14F21290)
+#define RPG_CLIENT_PROP_PINBALLPAGEPROXY_SHOWPAGE_OFFSET UNITYSDK_OFFSET(0x14F210F0)
+#define RPG_CLIENT_PROP_PINBALLPAGEPROXY__CCTOR_OFFSET UNITYSDK_OFFSET(0x14F221A0)
+#define RPG_CLIENT_PROP_PINBALLPAGEPROXY__CTOR_OFFSET UNITYSDK_OFFSET(0x14F20E10)
+#define RPG_CLIENT_PROP_PINBALLPAGEPROXY__ONCLICKLAUNCH_OFFSET UNITYSDK_OFFSET(0x14F22130)
+#define RPG_CLIENT_PROP_PINBALLPAGEPROXY__ONHIDE_OFFSET UNITYSDK_OFFSET(0x14F21F70)
 
 namespace RPG::Client::Prop
 {
-	inline static constexpr unsigned int PinballPageProxy_TypeDefinitionIndex = 73283;
+	inline static constexpr unsigned int PinballPageProxy_TypeDefinitionIndex = 74808;
 
 	class PinballPageProxy : public ::System::Object
 	{
 	public:
 		static ::RPG::Client::Prop::PinballPageProxy** StaticGet__Instance_k__BackingField()
 		{
-			return (::RPG::Client::Prop::PinballPageProxy**)Il2CppClass::FromTypeDefinitionIndex(PinballPageProxy_TypeDefinitionIndex)->GetStaticField(0x1A5E0);
-		}
-		static ::System::Collections::Generic::Dictionary_2<::RPG::Client::Prop::PinballPageProxy_PinballPageFloatBtnType, ::System::String*>** StaticGet__BtnAssetPath()
-		{
-			return (::System::Collections::Generic::Dictionary_2<::RPG::Client::Prop::PinballPageProxy_PinballPageFloatBtnType, ::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(PinballPageProxy_TypeDefinitionIndex)->GetStaticField(0x1A5E8);
+			return (::RPG::Client::Prop::PinballPageProxy**)Il2CppClass::FromTypeDefinitionIndex(PinballPageProxy_TypeDefinitionIndex)->GetStaticField(0xA990);
 		}
 		static ::System::Collections::Generic::Dictionary_2<::RPG::Client::Prop::PinballPageProxy_PinballPageFloatBtnType, ::RPG::Client::TextID>** StaticGet__BtnTextIDs()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::RPG::Client::Prop::PinballPageProxy_PinballPageFloatBtnType, ::RPG::Client::TextID>**)Il2CppClass::FromTypeDefinitionIndex(PinballPageProxy_TypeDefinitionIndex)->GetStaticField(0x1A5F0);
+			return (::System::Collections::Generic::Dictionary_2<::RPG::Client::Prop::PinballPageProxy_PinballPageFloatBtnType, ::RPG::Client::TextID>**)Il2CppClass::FromTypeDefinitionIndex(PinballPageProxy_TypeDefinitionIndex)->GetStaticField(0xA998);
+		}
+		static ::System::Collections::Generic::Dictionary_2<::RPG::Client::Prop::PinballPageProxy_PinballPageFloatBtnType, ::System::String*>** StaticGet__BtnAssetPath()
+		{
+			return (::System::Collections::Generic::Dictionary_2<::RPG::Client::Prop::PinballPageProxy_PinballPageFloatBtnType, ::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(PinballPageProxy_TypeDefinitionIndex)->GetStaticField(0xA9A0);
 		}
 		static ::System::Int32* StaticGet__UniqueID()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(PinballPageProxy_TypeDefinitionIndex)->GetStaticField(0x8810);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(PinballPageProxy_TypeDefinitionIndex)->GetStaticField(0x4410);
 		}
-		::RPG::Client::PopupMenuProxy* _PopupMenu; // 0x10
-		::RPG::Client::Prop::PinballPuzzleBoard* _OwnerBoard; // 0x18
-		::System::Collections::Generic::List_1<::RPG::Client::PopupMenuProxy_Option*>* _Options; // 0x20
-		::UnityEngine::Transform* PlayerCursorAttachTransform; // 0x28
-		::System::Collections::Generic::Dictionary_2<::RPG::Client::Prop::PinballPageProxy_PinballPageFloatBtnType, ::RPG::Client::PopupMenuProxy_Option*>* _BtnToOption; // 0x30
+		::UnityEngine::Transform* PlayerCursorAttachTransform; // 0x10
+		::System::Action* _OnLoadCallback; // 0x18
+		::System::Collections::Generic::Dictionary_2<::RPG::Client::Prop::PinballPageProxy_PinballPageFloatBtnType, ::RPG::Client::PopupMenuProxy_Option*>* _BtnToOption; // 0x20
+		::RPG::Client::PopupMenuProxy* _PopupMenu; // 0x28
+		::System::Collections::Generic::List_1<::RPG::Client::PopupMenuProxy_Option*>* _Options; // 0x30
 		::System::Action* _ExitCallback; // 0x38
-		::System::Action* _OnLoadCallback; // 0x40
+		::RPG::Client::Prop::PinballPuzzleBoard* _OwnerBoard; // 0x40
 		::System::Action* _LaunchCallback; // 0x48
 		::RPG::Client::Prop::PinballPageProxy_PinballPageHintState PageHintState; // 0x50
 

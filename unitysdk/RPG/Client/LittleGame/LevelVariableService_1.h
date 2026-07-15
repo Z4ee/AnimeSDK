@@ -3,7 +3,7 @@
 #include "unitysdk/RPG/GameCore/FixPoint.h"
 #include "unitysdk/System/Object.h"
 
-class Class_1_F431D4103CAD3F1C;
+class Class_1_ABF277A1ED07907B;
 namespace Entitas { template <typename T> class IContext_1; }
 namespace RPG::GameCore { class DynamicFloat; }
 namespace RPG::GameCore { class LittleGameLevelVarBindingMap; }
@@ -14,7 +14,7 @@ namespace System { template <typename T> class Action_1; }
 
 namespace RPG::Client::LittleGame
 {
-	inline static constexpr unsigned int LevelVariableService_1_TypeDefinitionIndex = 71077;
+	inline static constexpr unsigned int LevelVariableService_1_TypeDefinitionIndex = 72590;
 
 	template <typename TEntity>
 	class LevelVariableService_1 : public ::System::Object

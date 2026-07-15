@@ -8,9 +8,11 @@
 
 class Class_1_F3391C70DC37088D;
 namespace Entitas { class IEntity; }
+namespace RPG { template <typename T> class PoolHashSet_1; }
 namespace RPG::Client::LittleGame { template <typename T> class Services_1; }
 namespace RPG::Client::LittleGame::FiveDim { template <typename T> class IEntityVarServices_1; }
 namespace RPG::Client::LittleGame::FiveDim { template <typename T> class IFiveDimDestructibleService_1; }
+namespace RPG::Client::LittleGame::FiveDim { template <typename T> class IFiveDimEventService_1; }
 namespace RPG::Client::LittleGame::FiveDim { template <typename T> class IFiveDimLevelVarService_1; }
 namespace RPG::Client::LittleGame::FiveDim { template <typename T> class IFiveDimRotateService_1; }
 namespace RPG::Client::LittleGame::FiveDim { template <typename T> class IFiveDimShakeService_1; }
@@ -76,9 +78,11 @@ namespace RPG::GameCore { class FiveDimMinionDestroySelfAction; }
 namespace RPG::GameCore { class FiveDimMissionTalkAction; }
 namespace RPG::GameCore { class FiveDimMoveToMascotFakePlayerAction; }
 namespace RPG::GameCore { class FiveDimMoveToNextSplinePointAction; }
+namespace RPG::GameCore { class FiveDimMoveToSpecificSplinePointAction; }
 namespace RPG::GameCore { class FiveDimMutePlayerInputAction; }
 namespace RPG::GameCore { class FiveDimMutePlayerSkillAction; }
 namespace RPG::GameCore { class FiveDimMuteUIInputAction; }
+namespace RPG::GameCore { class FiveDimOverrideGrenadierTargetAction; }
 namespace RPG::GameCore { class FiveDimOverrideSimpleGameLevelTipAction; }
 namespace RPG::GameCore { class FiveDimPauseMusicAction; }
 namespace RPG::GameCore { class FiveDimPlayShootArrowAnimAction; }
@@ -101,9 +105,11 @@ namespace RPG::GameCore { class FiveDimSetAnimParamByRawLevelVarAction; }
 namespace RPG::GameCore { class FiveDimSetAnimParamEventAction; }
 namespace RPG::GameCore { class FiveDimSetAnimatorCullingModeAction; }
 namespace RPG::GameCore { class FiveDimSetArrowCollectCoinAction; }
+namespace RPG::GameCore { class FiveDimSetAudioListenerFollowTargetAction; }
 namespace RPG::GameCore { class FiveDimSetBillboardAction; }
 namespace RPG::GameCore { class FiveDimSetCameraActiveAction; }
 namespace RPG::GameCore { class FiveDimSetColliderVisibleAction; }
+namespace RPG::GameCore { class FiveDimSetConveyorDirectionAction; }
 namespace RPG::GameCore { class FiveDimSetDanmuTrackAction; }
 namespace RPG::GameCore { class FiveDimSetDynamicAttachAction; }
 namespace RPG::GameCore { class FiveDimSetEntityVisibleAction; }
@@ -153,23 +159,27 @@ namespace RPG::GameCore { class FiveDimTryMutePlayerMoveOnSurfaceDestroyAction; 
 namespace RPG::GameCore { class FiveDimUIPileToastMessageTextIDAction; }
 namespace RPG::GameCore { class TaskContext; }
 namespace System { class String; }
+namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class IList_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client::LittleGame::FiveDim
 {
-	inline static constexpr unsigned int FiveDimBaseEventActionService_1_TypeDefinitionIndex = 71406;
+	inline static constexpr unsigned int FiveDimBaseEventActionService_1_TypeDefinitionIndex = 72931;
 
 	template <typename T>
 	class FiveDimBaseEventActionService_1 : public ::System::Object
 	{
 	public:
 		::RPG::Client::LittleGame::Services_1<T>* _IServices; // 0x0
+		::RPG::Client::LittleGame::FiveDim::IFiveDimEventService_1<T>* _EventService; // 0x0
 		::RPG::Client::LittleGame::FiveDim::IFiveDimLevelVarService_1<T>* _LevelVarService; // 0x0
 		::RPG::Client::LittleGame::FiveDim::IFiveDimShakeService_1<T>* _ShakeService; // 0x0
 		::RPG::Client::LittleGame::FiveDim::IFiveDimRotateService_1<T>* _RotateService; // 0x0
 		::RPG::Client::LittleGame::FiveDim::IFiveDimDestructibleService_1<T>* _DestructibleService; // 0x0
 		::RPG::Client::LittleGame::FiveDim::IEntityVarServices_1<T>* _EntityVarServices; // 0x0
+		::System::Collections::Generic::Dictionary_2<::System::Int32, ::RPG::PoolHashSet_1<::System::String*>*>* _TriggerSelfEvent; // 0x0
+		::System::Int32 _TriggerSelfEventCount; // 0x0
 		::Class_1_F3391C70DC37088D* _PlayMissionTalkTaskExecuter; // 0x0
 		::RPG::GameCore::TaskContext* __TaskContext_k__BackingField; // 0x0
 	};

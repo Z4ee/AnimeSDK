@@ -1,13 +1,10 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/RPG/GameCore/FixPoint.h"
 
-class Class_1_61FE1266BA6576AD;
-namespace RPG { template <typename T1, typename T2> class PoolDictionary_2; }
-namespace RPG { template <typename T> class PoolList_1; }
-namespace RPG::GameCore { class FiveDimBaseEventAction; }
-namespace RPG::GameCore { class LittleGameEvent; }
+class Class_1_C169B091FAC7BBA6;
 
-inline static constexpr unsigned int Class_0_16E4307DCC419505_152_TypeDefinitionIndex = 38903;
+inline static constexpr unsigned int Class_0_16E4307DCC419505_152_TypeDefinitionIndex = 39690;
 
 class Class_0_16E4307DCC419505_152
 {

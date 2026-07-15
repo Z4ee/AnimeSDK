@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TrainPartyStepResultType_TypeDefinitionIndex = 14679;
+	inline static constexpr unsigned int TrainPartyStepResultType_TypeDefinitionIndex = 14838;
 
 	enum class TrainPartyStepResultType : ::System::Int32
 	{

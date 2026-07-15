@@ -3,7 +3,7 @@
 
 namespace UnityEngine::Rendering
 {
-	inline static constexpr unsigned int PassPos_TypeDefinitionIndex = 4796;
+	inline static constexpr unsigned int PassPos_TypeDefinitionIndex = 4801;
 
 	enum class PassPos : ::System::Int32
 	{

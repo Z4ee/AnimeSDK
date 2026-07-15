@@ -7,13 +7,13 @@ namespace RPG::GameCore { class EmojiIconInfo; }
 namespace RPG::GameCore { class TargetEvaluator; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_SHOWEMOJIBUBBLE_FROMBINARYIMPL_OFFSET UNITYSDK_OFFSET(0x19C784C0)
-#define RPG_GAMECORE_SHOWEMOJIBUBBLE_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x19C78420)
-#define RPG_GAMECORE_SHOWEMOJIBUBBLE__CTOR_OFFSET UNITYSDK_OFFSET(0x19C78480)
+#define RPG_GAMECORE_SHOWEMOJIBUBBLE_FROMBINARYIMPL_OFFSET UNITYSDK_OFFSET(0x1BE3D020)
+#define RPG_GAMECORE_SHOWEMOJIBUBBLE_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1BE3CFC0)
+#define RPG_GAMECORE_SHOWEMOJIBUBBLE__CTOR_OFFSET UNITYSDK_OFFSET(0x1BE3D000)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ShowEmojiBubble_TypeDefinitionIndex = 19269;
+	inline static constexpr unsigned int ShowEmojiBubble_TypeDefinitionIndex = 19625;
 
 	class ShowEmojiBubble : public ::RPG::GameCore::TaskConfig
 	{

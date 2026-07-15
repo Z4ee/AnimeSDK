@@ -5,13 +5,13 @@
 
 namespace RPG::Client { class BezierCurve; }
 
-#define RPG_CLIENT_ELECTRICCHAINV2_CURVE_METHOD_2_124E7DAB85EAFECD_OFFSET UNITYSDK_OFFSET(0xB89CAC0)
-#define RPG_CLIENT_ELECTRICCHAINV2_CURVE_METHOD_2_C30F51361D1AB438_OFFSET UNITYSDK_OFFSET(0xB89C850)
-#define RPG_CLIENT_ELECTRICCHAINV2_CURVE__CTOR_OFFSET UNITYSDK_OFFSET(0xB89CB40)
+#define RPG_CLIENT_ELECTRICCHAINV2_CURVE_METHOD_2_0A99B5F334D75624_OFFSET UNITYSDK_OFFSET(0x18E10A80)
+#define RPG_CLIENT_ELECTRICCHAINV2_CURVE_METHOD_2_124E7DAB85EAFECD_OFFSET UNITYSDK_OFFSET(0x18E10DC0)
+#define RPG_CLIENT_ELECTRICCHAINV2_CURVE__CTOR_OFFSET UNITYSDK_OFFSET(0x18E10E40)
 
 namespace RPG::Client::ElectricChainV2
 {
-	inline static constexpr unsigned int Curve_TypeDefinitionIndex = 68698;
+	inline static constexpr unsigned int Curve_TypeDefinitionIndex = 70196;
 
 	class Curve : public ::RPG::Client::ElectricChainV2::Line
 	{
@@ -23,9 +23,9 @@ namespace RPG::Client::ElectricChainV2
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ELECTRICCHAINV2_CURVE__CTOR_OFFSET))(this);
 		}
 
-		::UnityEngine::Vector3 Method_2_C30F51361D1AB438(::System::Single a1)
+		::UnityEngine::Vector3 Method_2_0A99B5F334D75624(::System::Single a1)
 		{
-			return ((::UnityEngine::Vector3(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_ELECTRICCHAINV2_CURVE_METHOD_2_C30F51361D1AB438_OFFSET))(this, a1);
+			return ((::UnityEngine::Vector3(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_ELECTRICCHAINV2_CURVE_METHOD_2_0A99B5F334D75624_OFFSET))(this, a1);
 		}
 
 		::System::Single Method_2_124E7DAB85EAFECD()

@@ -3,7 +3,7 @@
 
 namespace Cinemachine
 {
-	inline static constexpr unsigned int CinemachineGroupComposer_AdjustmentMode_TypeDefinitionIndex = 36840;
+	inline static constexpr unsigned int CinemachineGroupComposer_AdjustmentMode_TypeDefinitionIndex = 37622;
 
 	enum class CinemachineGroupComposer_AdjustmentMode : ::System::Int32
 	{

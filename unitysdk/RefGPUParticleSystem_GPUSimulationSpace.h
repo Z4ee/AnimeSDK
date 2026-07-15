@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int RefGPUParticleSystem_GPUSimulationSpace_TypeDefinitionIndex = 40542;
+inline static constexpr unsigned int RefGPUParticleSystem_GPUSimulationSpace_TypeDefinitionIndex = 41357;
 
 enum class RefGPUParticleSystem_GPUSimulationSpace : ::System::Int32
 {

@@ -3,7 +3,7 @@
 
 namespace System::Runtime::Remoting
 {
-	inline static constexpr unsigned int WellKnownObjectMode_TypeDefinitionIndex = 1221;
+	inline static constexpr unsigned int WellKnownObjectMode_TypeDefinitionIndex = 1223;
 
 	enum class WellKnownObjectMode : ::System::Int32
 	{

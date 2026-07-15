@@ -2,12 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define RPG_CLIENT_GRIDFIGHTGAMEFORMATIONEDITOR_EXCLUSIVETRAITUNIQUERULE___C__DISPLAYCLASS2_0__CANDRESS_B__0_OFFSET UNITYSDK_OFFSET(0xBB598B0)
-#define RPG_CLIENT_GRIDFIGHTGAMEFORMATIONEDITOR_EXCLUSIVETRAITUNIQUERULE___C__DISPLAYCLASS2_0__CTOR_OFFSET UNITYSDK_OFFSET(0xBB598A0)
+#define RPG_CLIENT_GRIDFIGHTGAMEFORMATIONEDITOR_EXCLUSIVETRAITUNIQUERULE___C__DISPLAYCLASS2_0__CANDRESS_B__0_OFFSET UNITYSDK_OFFSET(0x1ABD8FC0)
+#define RPG_CLIENT_GRIDFIGHTGAMEFORMATIONEDITOR_EXCLUSIVETRAITUNIQUERULE___C__DISPLAYCLASS2_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1ABD8FB0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GridFightGameFormationEditor_ExclusiveTraitUniqueRule___c__DisplayClass2_0_TypeDefinitionIndex = 60421;
+	inline static constexpr unsigned int GridFightGameFormationEditor_ExclusiveTraitUniqueRule___c__DisplayClass2_0_TypeDefinitionIndex = 61712;
 
 	class GridFightGameFormationEditor_ExclusiveTraitUniqueRule___c__DisplayClass2_0 : public ::System::Object
 	{

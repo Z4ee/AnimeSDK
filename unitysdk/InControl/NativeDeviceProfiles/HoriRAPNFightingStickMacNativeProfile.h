@@ -2,12 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/InControl/NativeDeviceProfiles/Xbox360DriverMacNativeProfile.h"
 
-#define INCONTROL_NATIVEDEVICEPROFILES_HORIRAPNFIGHTINGSTICKMACNATIVEPROFILE_DEFINE_OFFSET UNITYSDK_OFFSET(0x17FDC5E0)
-#define INCONTROL_NATIVEDEVICEPROFILES_HORIRAPNFIGHTINGSTICKMACNATIVEPROFILE__CTOR_OFFSET UNITYSDK_OFFSET(0x17FDC660)
+#define INCONTROL_NATIVEDEVICEPROFILES_HORIRAPNFIGHTINGSTICKMACNATIVEPROFILE_DEFINE_OFFSET UNITYSDK_OFFSET(0x173633B0)
+#define INCONTROL_NATIVEDEVICEPROFILES_HORIRAPNFIGHTINGSTICKMACNATIVEPROFILE__CTOR_OFFSET UNITYSDK_OFFSET(0x17363430)
 
 namespace InControl::NativeDeviceProfiles
 {
-	inline static constexpr unsigned int HoriRAPNFightingStickMacNativeProfile_TypeDefinitionIndex = 38173;
+	inline static constexpr unsigned int HoriRAPNFightingStickMacNativeProfile_TypeDefinitionIndex = 38981;
 
 	class HoriRAPNFightingStickMacNativeProfile : public ::InControl::NativeDeviceProfiles::Xbox360DriverMacNativeProfile
 	{

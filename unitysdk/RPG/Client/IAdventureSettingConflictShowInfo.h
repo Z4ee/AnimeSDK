@@ -5,7 +5,7 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int IAdventureSettingConflictShowInfo_TypeDefinitionIndex = 57310;
+	inline static constexpr unsigned int IAdventureSettingConflictShowInfo_TypeDefinitionIndex = 58570;
 
 	class IAdventureSettingConflictShowInfo
 	{

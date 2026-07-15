@@ -5,13 +5,13 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_PRELOADMAP_METHOD_3_1D2970ED930FF42F_OFFSET UNITYSDK_OFFSET(0x19A82370)
-#define RPG_GAMECORE_PRELOADMAP_METHOD_3_8B4762048E06EEA6_OFFSET UNITYSDK_OFFSET(0x19A823F0)
-#define RPG_GAMECORE_PRELOADMAP__CTOR_OFFSET UNITYSDK_OFFSET(0x19A823C0)
+#define RPG_GAMECORE_PRELOADMAP_METHOD_3_8B4762048E06EEA6_OFFSET UNITYSDK_OFFSET(0x1BA160E0)
+#define RPG_GAMECORE_PRELOADMAP_METHOD_3_C6D5F2BD117CED4B_OFFSET UNITYSDK_OFFSET(0x1BA160A0)
+#define RPG_GAMECORE_PRELOADMAP__CTOR_OFFSET UNITYSDK_OFFSET(0x1BA160D0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PreloadMap_TypeDefinitionIndex = 20652;
+	inline static constexpr unsigned int PreloadMap_TypeDefinitionIndex = 21067;
 
 	class PreloadMap : public ::RPG::GameCore::TaskConfig
 	{
@@ -25,9 +25,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PRELOADMAP__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_1D2970ED930FF42F(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::PreloadMap*& a2)
+		static ::System::Void Method_3_C6D5F2BD117CED4B(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::PreloadMap*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::PreloadMap*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PRELOADMAP_METHOD_3_1D2970ED930FF42F_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::PreloadMap*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PRELOADMAP_METHOD_3_C6D5F2BD117CED4B_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_8B4762048E06EEA6(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::PreloadMap* a2)

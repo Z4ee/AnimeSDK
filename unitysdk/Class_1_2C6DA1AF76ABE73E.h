@@ -6,20 +6,20 @@
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_1_2C6DA1AF76ABE73E_CLEAR_OFFSET UNITYSDK_OFFSET(0x13A68FF0)
-#define CLASS_1_2C6DA1AF76ABE73E_METHOD_1_C248EF2067E42139_OFFSET UNITYSDK_OFFSET(0x13A690A0)
-#define CLASS_1_2C6DA1AF76ABE73E_METHOD_1_D77F7476BCD66744_OFFSET UNITYSDK_OFFSET(0x13A691A0)
-#define CLASS_1_2C6DA1AF76ABE73E_METHOD_1_F49F04F2C0603CF5_OFFSET UNITYSDK_OFFSET(0x13A69230)
-#define CLASS_1_2C6DA1AF76ABE73E__CTOR_OFFSET UNITYSDK_OFFSET(0x13A697B0)
+#define CLASS_1_2C6DA1AF76ABE73E_CLEAR_OFFSET UNITYSDK_OFFSET(0x16E96060)
+#define CLASS_1_2C6DA1AF76ABE73E_METHOD_1_C248EF2067E42139_OFFSET UNITYSDK_OFFSET(0x16E96110)
+#define CLASS_1_2C6DA1AF76ABE73E_METHOD_1_D77F7476BCD66744_OFFSET UNITYSDK_OFFSET(0x16E96210)
+#define CLASS_1_2C6DA1AF76ABE73E_METHOD_1_F49F04F2C0603CF5_OFFSET UNITYSDK_OFFSET(0x16E962A0)
+#define CLASS_1_2C6DA1AF76ABE73E__CTOR_OFFSET UNITYSDK_OFFSET(0x16E96840)
 
-inline static constexpr unsigned int Class_1_2C6DA1AF76ABE73E_TypeDefinitionIndex = 62339;
+inline static constexpr unsigned int Class_1_2C6DA1AF76ABE73E_TypeDefinitionIndex = 63705;
 
 class Class_1_2C6DA1AF76ABE73E : public ::System::Object
 {
 public:
 	// static const ::System::UInt32 Field_1_0 = 0x64; // 0x0
-	::System::Collections::Generic::List_1<::System::UInt32>* Field_1_1; // 0x10
-	::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::UInt32>* Field_1_2; // 0x18
+	::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::UInt32>* Field_1_1; // 0x10
+	::System::Collections::Generic::List_1<::System::UInt32>* Field_1_2; // 0x18
 
 	::System::Void _ctor()
 	{

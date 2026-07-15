@@ -7,7 +7,7 @@
 class Class_1_843DD6330B22E422;
 namespace RPG::GameCore { class TurnBasedAbilityComponent; }
 
-inline static constexpr unsigned int Struct_2_1D60DF88E803C0DE_TypeDefinitionIndex = 51387;
+inline static constexpr unsigned int Struct_2_1D60DF88E803C0DE_TypeDefinitionIndex = 52497;
 
 struct alignas(8) Struct_2_1D60DF88E803C0DE
 {

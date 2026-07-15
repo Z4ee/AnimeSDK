@@ -3,7 +3,7 @@
 
 namespace System::Xml::Schema
 {
-	inline static constexpr unsigned int SchemaDeclBase_Use_TypeDefinitionIndex = 2161;
+	inline static constexpr unsigned int SchemaDeclBase_Use_TypeDefinitionIndex = 2165;
 
 	enum class SchemaDeclBase_Use : ::System::Int32
 	{

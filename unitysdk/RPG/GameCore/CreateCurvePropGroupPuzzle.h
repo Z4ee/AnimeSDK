@@ -7,13 +7,13 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class DynamicString; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_CREATECURVEPROPGROUPPUZZLE_METHOD_3_A0DC18EB86818222_OFFSET UNITYSDK_OFFSET(0x196823E0)
-#define RPG_GAMECORE_CREATECURVEPROPGROUPPUZZLE_METHOD_3_DFD0217B2832625C_OFFSET UNITYSDK_OFFSET(0x19682460)
-#define RPG_GAMECORE_CREATECURVEPROPGROUPPUZZLE__CTOR_OFFSET UNITYSDK_OFFSET(0x19682430)
+#define RPG_GAMECORE_CREATECURVEPROPGROUPPUZZLE_METHOD_3_7EF19CFC09DC58CD_OFFSET UNITYSDK_OFFSET(0x1BC3A670)
+#define RPG_GAMECORE_CREATECURVEPROPGROUPPUZZLE_METHOD_3_DFD0217B2832625C_OFFSET UNITYSDK_OFFSET(0x1BC3A6B0)
+#define RPG_GAMECORE_CREATECURVEPROPGROUPPUZZLE__CTOR_OFFSET UNITYSDK_OFFSET(0x1BC3A6A0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int CreateCurvePropGroupPuzzle_TypeDefinitionIndex = 21030;
+	inline static constexpr unsigned int CreateCurvePropGroupPuzzle_TypeDefinitionIndex = 21445;
 
 	class CreateCurvePropGroupPuzzle : public ::RPG::GameCore::TaskConfig
 	{
@@ -30,9 +30,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CREATECURVEPROPGROUPPUZZLE__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_A0DC18EB86818222(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::CreateCurvePropGroupPuzzle*& a2)
+		static ::System::Void Method_3_7EF19CFC09DC58CD(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::CreateCurvePropGroupPuzzle*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::CreateCurvePropGroupPuzzle*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CREATECURVEPROPGROUPPUZZLE_METHOD_3_A0DC18EB86818222_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::CreateCurvePropGroupPuzzle*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CREATECURVEPROPGROUPPUZZLE_METHOD_3_7EF19CFC09DC58CD_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_DFD0217B2832625C(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::CreateCurvePropGroupPuzzle* a2)

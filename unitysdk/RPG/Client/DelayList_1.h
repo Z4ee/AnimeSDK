@@ -10,7 +10,7 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int DelayList_1_TypeDefinitionIndex = 55736;
+	inline static constexpr unsigned int DelayList_1_TypeDefinitionIndex = 56973;
 
 	template <typename T>
 	class DelayList_1 : public ::System::Object

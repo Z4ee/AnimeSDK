@@ -8,13 +8,13 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class DynamicFloat; }
 namespace RPG::GameCore { class TargetEvaluator; }
 
-#define RPG_GAMECORE_ADVENTUREMONSTERTRIGGERMOVE_METHOD_3_BF22CD411F1CBBC4_OFFSET UNITYSDK_OFFSET(0x19450F30)
-#define RPG_GAMECORE_ADVENTUREMONSTERTRIGGERMOVE_METHOD_3_DB9C9141FDC9BD88_OFFSET UNITYSDK_OFFSET(0x19450FB0)
-#define RPG_GAMECORE_ADVENTUREMONSTERTRIGGERMOVE__CTOR_OFFSET UNITYSDK_OFFSET(0x19450F80)
+#define RPG_GAMECORE_ADVENTUREMONSTERTRIGGERMOVE_METHOD_3_B39D1D4D5386C6D6_OFFSET UNITYSDK_OFFSET(0x1AE5F980)
+#define RPG_GAMECORE_ADVENTUREMONSTERTRIGGERMOVE_METHOD_3_DB9C9141FDC9BD88_OFFSET UNITYSDK_OFFSET(0x1AE5F9C0)
+#define RPG_GAMECORE_ADVENTUREMONSTERTRIGGERMOVE__CTOR_OFFSET UNITYSDK_OFFSET(0x1AE5F9B0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AdventureMonsterTriggerMove_TypeDefinitionIndex = 19055;
+	inline static constexpr unsigned int AdventureMonsterTriggerMove_TypeDefinitionIndex = 19408;
 
 	class AdventureMonsterTriggerMove : public ::RPG::GameCore::TaskConfig
 	{
@@ -32,9 +32,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVENTUREMONSTERTRIGGERMOVE__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_BF22CD411F1CBBC4(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AdventureMonsterTriggerMove*& a2)
+		static ::System::Void Method_3_B39D1D4D5386C6D6(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AdventureMonsterTriggerMove*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::AdventureMonsterTriggerMove*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVENTUREMONSTERTRIGGERMOVE_METHOD_3_BF22CD411F1CBBC4_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::AdventureMonsterTriggerMove*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVENTUREMONSTERTRIGGERMOVE_METHOD_3_B39D1D4D5386C6D6_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_DB9C9141FDC9BD88(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AdventureMonsterTriggerMove* a2)

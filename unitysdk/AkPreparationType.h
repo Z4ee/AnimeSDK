@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int AkPreparationType_TypeDefinitionIndex = 41161;
+inline static constexpr unsigned int AkPreparationType_TypeDefinitionIndex = 41976;
 
 enum class AkPreparationType : ::System::Int32
 {

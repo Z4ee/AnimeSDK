@@ -6,13 +6,13 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_ST_SIDE_TRIGGEREFFECT_METHOD_4_34D42A6F7507E798_OFFSET UNITYSDK_OFFSET(0x19C1B3F0)
-#define RPG_GAMECORE_ST_SIDE_TRIGGEREFFECT_METHOD_4_61D5EB787223950F_OFFSET UNITYSDK_OFFSET(0x19C1B4F0)
-#define RPG_GAMECORE_ST_SIDE_TRIGGEREFFECT__CTOR_OFFSET UNITYSDK_OFFSET(0x19C1B480)
+#define RPG_GAMECORE_ST_SIDE_TRIGGEREFFECT_METHOD_4_61D5EB787223950F_OFFSET UNITYSDK_OFFSET(0x1C2C57B0)
+#define RPG_GAMECORE_ST_SIDE_TRIGGEREFFECT_METHOD_4_6D84AB097877DF82_OFFSET UNITYSDK_OFFSET(0x1C2C5740)
+#define RPG_GAMECORE_ST_SIDE_TRIGGEREFFECT__CTOR_OFFSET UNITYSDK_OFFSET(0x1C2C5790)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ST_Side_TriggerEffect_TypeDefinitionIndex = 19018;
+	inline static constexpr unsigned int ST_Side_TriggerEffect_TypeDefinitionIndex = 19369;
 
 	class ST_Side_TriggerEffect : public ::RPG::GameCore::STTaskConfig
 	{
@@ -31,9 +31,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ST_SIDE_TRIGGEREFFECT__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_4_34D42A6F7507E798(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ST_Side_TriggerEffect*& a2)
+		static ::System::Void Method_4_6D84AB097877DF82(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ST_Side_TriggerEffect*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ST_Side_TriggerEffect*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ST_SIDE_TRIGGEREFFECT_METHOD_4_34D42A6F7507E798_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ST_Side_TriggerEffect*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ST_SIDE_TRIGGEREFFECT_METHOD_4_6D84AB097877DF82_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_4_61D5EB787223950F(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ST_Side_TriggerEffect* a2)

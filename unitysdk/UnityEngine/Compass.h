@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define UNITYENGINE_COMPASS__CTOR_OFFSET UNITYSDK_OFFSET(0x1B3127C0)
+#define UNITYENGINE_COMPASS__CTOR_OFFSET UNITYSDK_OFFSET(0x1D2E4C30)
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int Compass_TypeDefinitionIndex = 5258;
+	inline static constexpr unsigned int Compass_TypeDefinitionIndex = 5263;
 
 	class Compass : public ::System::Object
 	{

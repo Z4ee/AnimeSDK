@@ -6,12 +6,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_LEVELAUDIENCEMEMBERRENDERERINFO_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1986DC30)
-#define RPG_GAMECORE_LEVELAUDIENCEMEMBERRENDERERINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x1986DD80)
+#define RPG_GAMECORE_LEVELAUDIENCEMEMBERRENDERERINFO_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B02DB60)
+#define RPG_GAMECORE_LEVELAUDIENCEMEMBERRENDERERINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x1B02DCB0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LevelAudienceMemberRendererInfo_TypeDefinitionIndex = 16467;
+	inline static constexpr unsigned int LevelAudienceMemberRendererInfo_TypeDefinitionIndex = 16629;
 
 	class LevelAudienceMemberRendererInfo : public ::RPG::GameCore::JsonConfig
 	{

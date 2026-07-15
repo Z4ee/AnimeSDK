@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SilverWolfCollectionType_TypeDefinitionIndex = 11771;
+	inline static constexpr unsigned int SilverWolfCollectionType_TypeDefinitionIndex = 11871;
 
 	enum class SilverWolfCollectionType : ::System::Int32
 	{

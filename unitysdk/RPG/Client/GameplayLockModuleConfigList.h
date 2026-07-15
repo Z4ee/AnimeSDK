@@ -10,12 +10,12 @@ namespace RPG::Client { class LockTargetConfigList; }
 namespace RPG::Client { class LockTargetParam; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_CLIENT_GAMEPLAYLOCKMODULECONFIGLIST_METHOD_2_8F580EBAFC286D64_OFFSET UNITYSDK_OFFSET(0x193B2E80)
-#define RPG_CLIENT_GAMEPLAYLOCKMODULECONFIGLIST__CTOR_OFFSET UNITYSDK_OFFSET(0x193B3040)
+#define RPG_CLIENT_GAMEPLAYLOCKMODULECONFIGLIST_METHOD_2_8F580EBAFC286D64_OFFSET UNITYSDK_OFFSET(0x1B9E5380)
+#define RPG_CLIENT_GAMEPLAYLOCKMODULECONFIGLIST__CTOR_OFFSET UNITYSDK_OFFSET(0x1B9E5540)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GameplayLockModuleConfigList_TypeDefinitionIndex = 9869;
+	inline static constexpr unsigned int GameplayLockModuleConfigList_TypeDefinitionIndex = 9884;
 
 	class GameplayLockModuleConfigList : public ::RPG::GameCore::JsonConfig
 	{

@@ -3,7 +3,7 @@
 
 namespace System::Runtime::Remoting::Activation
 {
-	inline static constexpr unsigned int IConstructionReturnMessage_TypeDefinitionIndex = 1274;
+	inline static constexpr unsigned int IConstructionReturnMessage_TypeDefinitionIndex = 1276;
 
 	class IConstructionReturnMessage
 	{

@@ -5,13 +5,13 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class ChimeraDuelModifier; }
 
-#define RPG_GAMECORE_CHIMERADUELMODIFIERCONTAINERNODE_METHOD_3_209E4FB5799E6F6F_OFFSET UNITYSDK_OFFSET(0x19641D80)
-#define RPG_GAMECORE_CHIMERADUELMODIFIERCONTAINERNODE_METHOD_3_E053F932FB290682_OFFSET UNITYSDK_OFFSET(0x19641E60)
-#define RPG_GAMECORE_CHIMERADUELMODIFIERCONTAINERNODE__CTOR_OFFSET UNITYSDK_OFFSET(0x19641E10)
+#define RPG_GAMECORE_CHIMERADUELMODIFIERCONTAINERNODE_METHOD_3_229A6414E6DB882A_OFFSET UNITYSDK_OFFSET(0x1C2434F0)
+#define RPG_GAMECORE_CHIMERADUELMODIFIERCONTAINERNODE_METHOD_3_E053F932FB290682_OFFSET UNITYSDK_OFFSET(0x1C243550)
+#define RPG_GAMECORE_CHIMERADUELMODIFIERCONTAINERNODE__CTOR_OFFSET UNITYSDK_OFFSET(0x1C243540)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ChimeraDuelModifierContainerNode_TypeDefinitionIndex = 15244;
+	inline static constexpr unsigned int ChimeraDuelModifierContainerNode_TypeDefinitionIndex = 15408;
 
 	class ChimeraDuelModifierContainerNode : public ::RPG::GameCore::BaseChimeraDuelNode
 	{
@@ -23,9 +23,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHIMERADUELMODIFIERCONTAINERNODE__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_209E4FB5799E6F6F(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ChimeraDuelModifierContainerNode*& a2)
+		static ::System::Void Method_3_229A6414E6DB882A(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ChimeraDuelModifierContainerNode*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ChimeraDuelModifierContainerNode*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHIMERADUELMODIFIERCONTAINERNODE_METHOD_3_209E4FB5799E6F6F_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ChimeraDuelModifierContainerNode*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHIMERADUELMODIFIERCONTAINERNODE_METHOD_3_229A6414E6DB882A_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_E053F932FB290682(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ChimeraDuelModifierContainerNode* a2)

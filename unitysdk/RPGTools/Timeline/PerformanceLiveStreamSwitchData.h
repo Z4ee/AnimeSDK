@@ -6,11 +6,11 @@
 
 namespace System { class String; }
 
-#define RPGTOOLS_TIMELINE_PERFORMANCELIVESTREAMSWITCHDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xD034720)
+#define RPGTOOLS_TIMELINE_PERFORMANCELIVESTREAMSWITCHDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x199907E0)
 
 namespace RPGTools::Timeline
 {
-	inline static constexpr unsigned int PerformanceLiveStreamSwitchData_TypeDefinitionIndex = 45471;
+	inline static constexpr unsigned int PerformanceLiveStreamSwitchData_TypeDefinitionIndex = 46405;
 
 	class PerformanceLiveStreamSwitchData : public ::System::Object
 	{

@@ -7,14 +7,14 @@ namespace RPG::Client::ActivityIdleLive { class GiftSenderUiData; }
 namespace RPG::GameCore { class IdleLiveQuestionRow; }
 namespace System { class String; }
 
-#define RPG_CLIENT_ACTIVITYIDLELIVE_QUESTIONUIDATA_CREATE_OFFSET UNITYSDK_OFFSET(0xB17A2A0)
-#define RPG_CLIENT_ACTIVITYIDLELIVE_QUESTIONUIDATA_GET_ID_OFFSET UNITYSDK_OFFSET(0xB17A290)
-#define RPG_CLIENT_ACTIVITYIDLELIVE_QUESTIONUIDATA_GET_UID_OFFSET UNITYSDK_OFFSET(0xB17A280)
-#define RPG_CLIENT_ACTIVITYIDLELIVE_QUESTIONUIDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xB17A360)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_QUESTIONUIDATA_CREATE_OFFSET UNITYSDK_OFFSET(0x1A18B7D0)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_QUESTIONUIDATA_GET_ID_OFFSET UNITYSDK_OFFSET(0x1A18B7C0)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_QUESTIONUIDATA_GET_UID_OFFSET UNITYSDK_OFFSET(0x1A18B7B0)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_QUESTIONUIDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1A18B890)
 
 namespace RPG::Client::ActivityIdleLive
 {
-	inline static constexpr unsigned int QuestionUiData_TypeDefinitionIndex = 70302;
+	inline static constexpr unsigned int QuestionUiData_TypeDefinitionIndex = 71825;
 
 	class QuestionUiData : public ::System::Object
 	{
@@ -23,13 +23,13 @@ namespace RPG::Client::ActivityIdleLive
 		::System::String* Option1Icon; // 0x18
 		::RPG::Client::ActivityIdleLive::GiftSenderUiData* SenderUiData; // 0x20
 		::System::String* SenderIcon; // 0x28
-		::RPG::Client::TextID Content; // 0x30
-		::System::Single Duration; // 0x40
-		::System::Boolean IsShow; // 0x44
-		::System::UInt32 Option1Id; // 0x48
-		::System::UInt32 _Id_k__BackingField; // 0x4C
-		::System::UInt32 _Uid_k__BackingField; // 0x50
-		::System::UInt32 Option2Id; // 0x54
+		::System::UInt32 Option2Id; // 0x30
+		::System::UInt32 Option1Id; // 0x34
+		::System::UInt32 _Uid_k__BackingField; // 0x38
+		::System::Single Duration; // 0x3C
+		::RPG::Client::TextID Content; // 0x40
+		::System::Boolean IsShow; // 0x50
+		::System::UInt32 _Id_k__BackingField; // 0x54
 
 		::System::Void _ctor(::RPG::GameCore::IdleLiveQuestionRow* a1, ::System::UInt32 a2)
 		{

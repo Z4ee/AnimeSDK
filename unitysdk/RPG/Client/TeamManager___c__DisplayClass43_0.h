@@ -7,19 +7,19 @@ namespace RPG::Client { class TeamManager; }
 namespace RPG::GameCore { class GameEntity; }
 namespace System { template <typename T> class Action_1; }
 
-#define RPG_CLIENT_TEAMMANAGER___C__DISPLAYCLASS43_0__CTOR_OFFSET UNITYSDK_OFFSET(0xCA00140)
-#define RPG_CLIENT_TEAMMANAGER___C__DISPLAYCLASS43_0___CREATEMEMBERENTITY_B__0_OFFSET UNITYSDK_OFFSET(0xCA04530)
+#define RPG_CLIENT_TEAMMANAGER___C__DISPLAYCLASS43_0__CTOR_OFFSET UNITYSDK_OFFSET(0x18563330)
+#define RPG_CLIENT_TEAMMANAGER___C__DISPLAYCLASS43_0___CREATEMEMBERENTITY_B__0_OFFSET UNITYSDK_OFFSET(0x18567930)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int TeamManager___c__DisplayClass43_0_TypeDefinitionIndex = 56809;
+	inline static constexpr unsigned int TeamManager___c__DisplayClass43_0_TypeDefinitionIndex = 58056;
 
 	class TeamManager___c__DisplayClass43_0 : public ::System::Object
 	{
 	public:
-		::RPG::Client::TeamManager* __4__this; // 0x10
-		::RPG::Client::MemberData* memberData; // 0x18
-		::System::Action_1<::RPG::GameCore::GameEntity*>* onAsyncLoadFinish; // 0x20
+		::RPG::Client::MemberData* memberData; // 0x10
+		::System::Action_1<::RPG::GameCore::GameEntity*>* onAsyncLoadFinish; // 0x18
+		::RPG::Client::TeamManager* __4__this; // 0x20
 
 		::System::Void _ctor()
 		{

@@ -5,13 +5,13 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class DynamicString; }
 
-#define RPG_GAMECORE_COLLECTDATACONDITIONS_METHOD_3_0E356D6BAA009B09_OFFSET UNITYSDK_OFFSET(0x19666360)
-#define RPG_GAMECORE_COLLECTDATACONDITIONS_METHOD_3_F84C37BFE65BEA6A_OFFSET UNITYSDK_OFFSET(0x196662E0)
-#define RPG_GAMECORE_COLLECTDATACONDITIONS__CTOR_OFFSET UNITYSDK_OFFSET(0x19666330)
+#define RPG_GAMECORE_COLLECTDATACONDITIONS_METHOD_3_0E356D6BAA009B09_OFFSET UNITYSDK_OFFSET(0x1BC20D00)
+#define RPG_GAMECORE_COLLECTDATACONDITIONS_METHOD_3_C3EF6A813E1F26EB_OFFSET UNITYSDK_OFFSET(0x1BC20CC0)
+#define RPG_GAMECORE_COLLECTDATACONDITIONS__CTOR_OFFSET UNITYSDK_OFFSET(0x1BC20CF0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int CollectDataConditions_TypeDefinitionIndex = 19708;
+	inline static constexpr unsigned int CollectDataConditions_TypeDefinitionIndex = 20067;
 
 	class CollectDataConditions : public ::RPG::GameCore::TaskConfig
 	{
@@ -27,9 +27,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_COLLECTDATACONDITIONS__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_F84C37BFE65BEA6A(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::CollectDataConditions*& a2)
+		static ::System::Void Method_3_C3EF6A813E1F26EB(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::CollectDataConditions*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::CollectDataConditions*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_COLLECTDATACONDITIONS_METHOD_3_F84C37BFE65BEA6A_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::CollectDataConditions*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_COLLECTDATACONDITIONS_METHOD_3_C3EF6A813E1F26EB_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_0E356D6BAA009B09(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::CollectDataConditions* a2)

@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PerformanceChangePlayerType_TypeDefinitionIndex = 10119;
+	inline static constexpr unsigned int PerformanceChangePlayerType_TypeDefinitionIndex = 10134;
 
 	enum class PerformanceChangePlayerType : ::System::Int32
 	{

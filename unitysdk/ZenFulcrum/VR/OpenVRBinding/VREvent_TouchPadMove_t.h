@@ -4,7 +4,7 @@
 
 namespace ZenFulcrum::VR::OpenVRBinding
 {
-	inline static constexpr unsigned int VREvent_TouchPadMove_t_TypeDefinitionIndex = 36347;
+	inline static constexpr unsigned int VREvent_TouchPadMove_t_TypeDefinitionIndex = 37129;
 
 	struct alignas(4) VREvent_TouchPadMove_t
 	{

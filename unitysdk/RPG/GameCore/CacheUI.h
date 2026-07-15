@@ -5,13 +5,13 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_CACHEUI_METHOD_3_A07D049D2797AC3B_OFFSET UNITYSDK_OFFSET(0x195E2940)
-#define RPG_GAMECORE_CACHEUI_METHOD_3_BEC4C889168D9E92_OFFSET UNITYSDK_OFFSET(0x195E29C0)
-#define RPG_GAMECORE_CACHEUI__CTOR_OFFSET UNITYSDK_OFFSET(0x195E2990)
+#define RPG_GAMECORE_CACHEUI_METHOD_3_6DFF162DDCC95A09_OFFSET UNITYSDK_OFFSET(0x1B2C8950)
+#define RPG_GAMECORE_CACHEUI_METHOD_3_BEC4C889168D9E92_OFFSET UNITYSDK_OFFSET(0x1B2C8990)
+#define RPG_GAMECORE_CACHEUI__CTOR_OFFSET UNITYSDK_OFFSET(0x1B2C8980)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int CacheUI_TypeDefinitionIndex = 20485;
+	inline static constexpr unsigned int CacheUI_TypeDefinitionIndex = 20900;
 
 	class CacheUI : public ::RPG::GameCore::TaskConfig
 	{
@@ -23,9 +23,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CACHEUI__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_A07D049D2797AC3B(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::CacheUI*& a2)
+		static ::System::Void Method_3_6DFF162DDCC95A09(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::CacheUI*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::CacheUI*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CACHEUI_METHOD_3_A07D049D2797AC3B_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::CacheUI*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CACHEUI_METHOD_3_6DFF162DDCC95A09_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_BEC4C889168D9E92(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::CacheUI* a2)

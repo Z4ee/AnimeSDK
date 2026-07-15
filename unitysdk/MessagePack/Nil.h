@@ -5,20 +5,20 @@
 namespace System { class Object; }
 namespace System { class String; }
 
-#define MESSAGEPACK_NIL_EQUALS_1_OFFSET UNITYSDK_OFFSET(0x2BFAAD0)
-#define MESSAGEPACK_NIL_EQUALS_OFFSET UNITYSDK_OFFSET(0x3828390)
-#define MESSAGEPACK_NIL_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x136CD0)
-#define MESSAGEPACK_NIL_TOSTRING_OFFSET UNITYSDK_OFFSET(0x38283E0)
+#define MESSAGEPACK_NIL_EQUALS_1_OFFSET UNITYSDK_OFFSET(0x676060)
+#define MESSAGEPACK_NIL_EQUALS_OFFSET UNITYSDK_OFFSET(0x3A41D20)
+#define MESSAGEPACK_NIL_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x7A9010)
+#define MESSAGEPACK_NIL_TOSTRING_OFFSET UNITYSDK_OFFSET(0x3A41D70)
 
 namespace MessagePack
 {
-	inline static constexpr unsigned int Nil_TypeDefinitionIndex = 7189;
+	inline static constexpr unsigned int Nil_TypeDefinitionIndex = 7195;
 
 	struct alignas(1) Nil
 	{
 		static ::MessagePack::Nil* StaticGet_Default()
 		{
-			return (::MessagePack::Nil*)Il2CppClass::FromTypeDefinitionIndex(Nil_TypeDefinitionIndex)->GetStaticField(0x43A0);
+			return (::MessagePack::Nil*)Il2CppClass::FromTypeDefinitionIndex(Nil_TypeDefinitionIndex)->GetStaticField(0x4780);
 		}
 
 		::System::Boolean Equals(::System::Object* a1)

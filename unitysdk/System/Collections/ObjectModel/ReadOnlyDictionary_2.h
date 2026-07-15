@@ -16,7 +16,7 @@ namespace System::Collections::ObjectModel { template <typename T1, typename T2>
 
 namespace System::Collections::ObjectModel
 {
-	inline static constexpr unsigned int ReadOnlyDictionary_2_TypeDefinitionIndex = 1497;
+	inline static constexpr unsigned int ReadOnlyDictionary_2_TypeDefinitionIndex = 1501;
 
 	template <typename TKey, typename TValue>
 	class ReadOnlyDictionary_2 : public ::System::Object

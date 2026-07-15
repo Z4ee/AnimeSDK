@@ -7,12 +7,12 @@
 
 namespace UnityEngine { class Material; }
 
-#define RPG_CLIENT_MONOEFFECTPLUGINCHARARUNEMATERIALBLOCK_SETMATERIALPROPETIES_OFFSET UNITYSDK_OFFSET(0xC0D2690)
-#define RPG_CLIENT_MONOEFFECTPLUGINCHARARUNEMATERIALBLOCK__CTOR_OFFSET UNITYSDK_OFFSET(0xC0D2A00)
+#define RPG_CLIENT_MONOEFFECTPLUGINCHARARUNEMATERIALBLOCK_SETMATERIALPROPETIES_OFFSET UNITYSDK_OFFSET(0x19120D60)
+#define RPG_CLIENT_MONOEFFECTPLUGINCHARARUNEMATERIALBLOCK__CTOR_OFFSET UNITYSDK_OFFSET(0x191210D0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MonoEffectPluginCharaRuneMaterialBlock_TypeDefinitionIndex = 65377;
+	inline static constexpr unsigned int MonoEffectPluginCharaRuneMaterialBlock_TypeDefinitionIndex = 66790;
 
 	class MonoEffectPluginCharaRuneMaterialBlock : public ::RPG::Client::MonoEffectPluginCompoundMaterialBlock
 	{

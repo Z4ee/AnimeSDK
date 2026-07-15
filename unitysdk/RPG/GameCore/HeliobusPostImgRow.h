@@ -5,12 +5,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_HELIOBUSPOSTIMGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1982A480)
-#define RPG_GAMECORE_HELIOBUSPOSTIMGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1982AA70)
+#define RPG_GAMECORE_HELIOBUSPOSTIMGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B67D260)
+#define RPG_GAMECORE_HELIOBUSPOSTIMGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1B67D850)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int HeliobusPostImgRow_TypeDefinitionIndex = 13105;
+	inline static constexpr unsigned int HeliobusPostImgRow_TypeDefinitionIndex = 13253;
 
 	class HeliobusPostImgRow : public ::System::Object
 	{

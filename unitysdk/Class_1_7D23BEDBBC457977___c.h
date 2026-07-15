@@ -7,7 +7,7 @@ namespace System::Collections::Generic { template <typename T> class IEnumerable
 namespace System::Collections::Generic { template <typename T> class IReadOnlyCollection_1; }
 template <typename T> class Class_1_7D23BEDBBC457977___c;
 
-inline static constexpr unsigned int Class_1_7D23BEDBBC457977___c_TypeDefinitionIndex = 44997;
+inline static constexpr unsigned int Class_1_7D23BEDBBC457977___c_TypeDefinitionIndex = 45915;
 
 template <typename T>
 class Class_1_7D23BEDBBC457977___c : public ::System::Object

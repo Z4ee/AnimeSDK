@@ -3,7 +3,7 @@
 
 namespace MiHoYo::SDK::InputSystem
 {
-	inline static constexpr unsigned int IKeyboardService_TypeDefinitionIndex = 9801;
+	inline static constexpr unsigned int IKeyboardService_TypeDefinitionIndex = 9816;
 
 	class IKeyboardService
 	{

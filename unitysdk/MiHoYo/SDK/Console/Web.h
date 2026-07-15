@@ -6,14 +6,14 @@ namespace System { class Action; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MIHOYO_SDK_CONSOLE_WEB_OPENURLPS_OFFSET UNITYSDK_OFFSET(0x183068D0)
-#define MIHOYO_SDK_CONSOLE_WEB_OPENURLXBOX_OFFSET UNITYSDK_OFFSET(0x183068A0)
-#define MIHOYO_SDK_CONSOLE_WEB_OPENURL_OFFSET UNITYSDK_OFFSET(0x182F79C0)
-#define MIHOYO_SDK_CONSOLE_WEB__CTOR_OFFSET UNITYSDK_OFFSET(0x18306F00)
+#define MIHOYO_SDK_CONSOLE_WEB_OPENURLPS_OFFSET UNITYSDK_OFFSET(0x1AA42D10)
+#define MIHOYO_SDK_CONSOLE_WEB_OPENURLXBOX_OFFSET UNITYSDK_OFFSET(0x1AA42CE0)
+#define MIHOYO_SDK_CONSOLE_WEB_OPENURL_OFFSET UNITYSDK_OFFSET(0x1AA31E00)
+#define MIHOYO_SDK_CONSOLE_WEB__CTOR_OFFSET UNITYSDK_OFFSET(0x1AA433B0)
 
 namespace MiHoYo::SDK::Console
 {
-	inline static constexpr unsigned int Web_TypeDefinitionIndex = 8626;
+	inline static constexpr unsigned int Web_TypeDefinitionIndex = 8638;
 
 	class Web : public ::System::Object
 	{

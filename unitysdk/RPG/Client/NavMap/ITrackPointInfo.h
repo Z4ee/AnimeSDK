@@ -3,7 +3,7 @@
 
 namespace RPG::Client::NavMap
 {
-	inline static constexpr unsigned int ITrackPointInfo_TypeDefinitionIndex = 69633;
+	inline static constexpr unsigned int ITrackPointInfo_TypeDefinitionIndex = 71156;
 
 	class ITrackPointInfo
 	{

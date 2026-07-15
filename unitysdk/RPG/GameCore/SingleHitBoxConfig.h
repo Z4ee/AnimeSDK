@@ -6,12 +6,12 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class TaskConfig; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_SINGLEHITBOXCONFIG_METHOD_2_4662BCFFDE95E7D9_OFFSET UNITYSDK_OFFSET(0x19C8A0D0)
-#define RPG_GAMECORE_SINGLEHITBOXCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x19C8A260)
+#define RPG_GAMECORE_SINGLEHITBOXCONFIG_METHOD_2_4662BCFFDE95E7D9_OFFSET UNITYSDK_OFFSET(0x1BE4D4E0)
+#define RPG_GAMECORE_SINGLEHITBOXCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1BE4D670)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SingleHitBoxConfig_TypeDefinitionIndex = 19250;
+	inline static constexpr unsigned int SingleHitBoxConfig_TypeDefinitionIndex = 19606;
 
 	class SingleHitBoxConfig : public ::RPG::GameCore::JsonConfig
 	{

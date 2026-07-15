@@ -7,13 +7,13 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class DynamicString; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_ACTIVETEMPLATEVIRTUALCAMERA_METHOD_3_C62A4034CFA70520_OFFSET UNITYSDK_OFFSET(0x193D1EE0)
-#define RPG_GAMECORE_ACTIVETEMPLATEVIRTUALCAMERA_METHOD_3_D472540401E2D54E_OFFSET UNITYSDK_OFFSET(0x193D1F60)
-#define RPG_GAMECORE_ACTIVETEMPLATEVIRTUALCAMERA__CTOR_OFFSET UNITYSDK_OFFSET(0x193D1F30)
+#define RPG_GAMECORE_ACTIVETEMPLATEVIRTUALCAMERA_METHOD_3_994635DDA4585E1E_OFFSET UNITYSDK_OFFSET(0x1AADAAE0)
+#define RPG_GAMECORE_ACTIVETEMPLATEVIRTUALCAMERA_METHOD_3_D472540401E2D54E_OFFSET UNITYSDK_OFFSET(0x1AADAB30)
+#define RPG_GAMECORE_ACTIVETEMPLATEVIRTUALCAMERA__CTOR_OFFSET UNITYSDK_OFFSET(0x1AADAB20)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ActiveTemplateVirtualCamera_TypeDefinitionIndex = 19682;
+	inline static constexpr unsigned int ActiveTemplateVirtualCamera_TypeDefinitionIndex = 20041;
 
 	class ActiveTemplateVirtualCamera : public ::RPG::GameCore::TaskConfig
 	{
@@ -36,9 +36,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ACTIVETEMPLATEVIRTUALCAMERA__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_C62A4034CFA70520(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ActiveTemplateVirtualCamera*& a2)
+		static ::System::Void Method_3_994635DDA4585E1E(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ActiveTemplateVirtualCamera*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ActiveTemplateVirtualCamera*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ACTIVETEMPLATEVIRTUALCAMERA_METHOD_3_C62A4034CFA70520_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ActiveTemplateVirtualCamera*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ACTIVETEMPLATEVIRTUALCAMERA_METHOD_3_994635DDA4585E1E_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_D472540401E2D54E(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ActiveTemplateVirtualCamera* a2)

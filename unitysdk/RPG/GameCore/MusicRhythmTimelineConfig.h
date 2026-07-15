@@ -7,12 +7,12 @@ namespace RPG::GameCore { class NoteGroupConfig; }
 namespace RPG::GameCore { class NoteNotifyConfig; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_MUSICRHYTHMTIMELINECONFIG_METHOD_2_DD3D10DA34D3B9A9_OFFSET UNITYSDK_OFFSET(0x199C58E0)
-#define RPG_GAMECORE_MUSICRHYTHMTIMELINECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x199C5F20)
+#define RPG_GAMECORE_MUSICRHYTHMTIMELINECONFIG_METHOD_2_DD3D10DA34D3B9A9_OFFSET UNITYSDK_OFFSET(0x1BAEF3B0)
+#define RPG_GAMECORE_MUSICRHYTHMTIMELINECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1BAEF9F0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MusicRhythmTimelineConfig_TypeDefinitionIndex = 16085;
+	inline static constexpr unsigned int MusicRhythmTimelineConfig_TypeDefinitionIndex = 16269;
 
 	class MusicRhythmTimelineConfig : public ::RPG::GameCore::JsonConfig
 	{

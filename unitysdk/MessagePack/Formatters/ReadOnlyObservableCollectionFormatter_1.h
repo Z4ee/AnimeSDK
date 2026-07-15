@@ -8,7 +8,7 @@ namespace System::Collections::ObjectModel { template <typename T> class ReadOnl
 
 namespace MessagePack::Formatters
 {
-	inline static constexpr unsigned int ReadOnlyObservableCollectionFormatter_1_TypeDefinitionIndex = 7361;
+	inline static constexpr unsigned int ReadOnlyObservableCollectionFormatter_1_TypeDefinitionIndex = 7367;
 
 	template <typename T>
 	class ReadOnlyObservableCollectionFormatter_1 : public ::MessagePack::Formatters::CollectionFormatterBase_3<T, ::System::Collections::ObjectModel::ObservableCollection_1<T>*, ::System::Collections::ObjectModel::ReadOnlyObservableCollection_1<T>*>

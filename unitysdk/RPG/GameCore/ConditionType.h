@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ConditionType_TypeDefinitionIndex = 12443;
+	inline static constexpr unsigned int ConditionType_TypeDefinitionIndex = 12580;
 
 	enum class ConditionType : ::System::Int32
 	{

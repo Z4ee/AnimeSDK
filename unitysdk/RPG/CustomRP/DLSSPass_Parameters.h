@@ -5,7 +5,7 @@
 
 namespace RPG::CustomRP
 {
-	inline static constexpr unsigned int DLSSPass_Parameters_TypeDefinitionIndex = 35225;
+	inline static constexpr unsigned int DLSSPass_Parameters_TypeDefinitionIndex = 36007;
 
 	struct alignas(8) DLSSPass_Parameters
 	{

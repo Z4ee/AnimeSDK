@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int WeaknessState_TypeDefinitionIndex = 53934;
+	inline static constexpr unsigned int WeaknessState_TypeDefinitionIndex = 55160;
 
 	enum class WeaknessState : ::System::Int32
 	{

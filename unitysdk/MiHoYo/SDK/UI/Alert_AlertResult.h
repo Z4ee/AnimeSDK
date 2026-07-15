@@ -3,7 +3,7 @@
 
 namespace MiHoYo::SDK::UI
 {
-	inline static constexpr unsigned int Alert_AlertResult_TypeDefinitionIndex = 8320;
+	inline static constexpr unsigned int Alert_AlertResult_TypeDefinitionIndex = 8332;
 
 	enum class Alert_AlertResult : ::System::Int32
 	{

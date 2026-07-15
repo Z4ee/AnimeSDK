@@ -5,11 +5,11 @@
 
 namespace System { class String; }
 
-#define RPG_CLIENT_TRAINPARTY_TRAINPARTYEVENTFADEINDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xCAA65C0)
+#define RPG_CLIENT_TRAINPARTY_TRAINPARTYEVENTFADEINDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1A2BA3A0)
 
 namespace RPG::Client::TrainParty
 {
-	inline static constexpr unsigned int TrainPartyEventFadeInData_TypeDefinitionIndex = 69398;
+	inline static constexpr unsigned int TrainPartyEventFadeInData_TypeDefinitionIndex = 70919;
 
 	class TrainPartyEventFadeInData : public ::System::Object
 	{

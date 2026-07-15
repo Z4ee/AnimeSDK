@@ -5,7 +5,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MinimapImage_FadeInfo_TypeDefinitionIndex = 67807;
+	inline static constexpr unsigned int MinimapImage_FadeInfo_TypeDefinitionIndex = 69291;
 
 	struct alignas(4) MinimapImage_FadeInfo
 	{

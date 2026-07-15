@@ -4,19 +4,19 @@
 #include "unitysdk/UnityEngine/ScriptableObject.h"
 #include "unitysdk/UnityEngine/Vector2.h"
 
-#define RPG_CLIENT_AUDIENCESTANCECONFIG__CCTOR_OFFSET UNITYSDK_OFFSET(0xB342380)
-#define RPG_CLIENT_AUDIENCESTANCECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0xB342370)
+#define RPG_CLIENT_AUDIENCESTANCECONFIG__CCTOR_OFFSET UNITYSDK_OFFSET(0x19B46B90)
+#define RPG_CLIENT_AUDIENCESTANCECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x19B46B80)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int AudienceStanceConfig_TypeDefinitionIndex = 64681;
+	inline static constexpr unsigned int AudienceStanceConfig_TypeDefinitionIndex = 66082;
 
 	class AudienceStanceConfig : public ::UnityEngine::ScriptableObject
 	{
 	public:
 		static ::UnityEngine::Vector2* StaticGet_RANDOM_OFFSET()
 		{
-			return (::UnityEngine::Vector2*)Il2CppClass::FromTypeDefinitionIndex(AudienceStanceConfig_TypeDefinitionIndex)->GetStaticField(0x133C0);
+			return (::UnityEngine::Vector2*)Il2CppClass::FromTypeDefinitionIndex(AudienceStanceConfig_TypeDefinitionIndex)->GetStaticField(0xE8B0);
 		}
 		::Il2CppArray<::RPG::Client::AudienceStanceConfig_CellConfig>* cellConfigs; // 0x18
 

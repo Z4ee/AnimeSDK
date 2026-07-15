@@ -5,15 +5,15 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace SimpleJSON { class JSONNode; }
 
-#define RPG_GAMECORE_TARGETFETCHALLCUSTOMUNSELECTABLE_METHOD_4_3B1D79A446B1AAF5_OFFSET UNITYSDK_OFFSET(0x19CF6D30)
-#define RPG_GAMECORE_TARGETFETCHALLCUSTOMUNSELECTABLE_METHOD_4_8C8A62858DE9CD2C_OFFSET UNITYSDK_OFFSET(0x19D0AC70)
-#define RPG_GAMECORE_TARGETFETCHALLCUSTOMUNSELECTABLE_METHOD_4_D961EF0C3A20EB09_OFFSET UNITYSDK_OFFSET(0x19D0AC00)
-#define RPG_GAMECORE_TARGETFETCHALLCUSTOMUNSELECTABLE_METHOD_4_FA9C5B477D5B12A4_OFFSET UNITYSDK_OFFSET(0x19D04220)
-#define RPG_GAMECORE_TARGETFETCHALLCUSTOMUNSELECTABLE__CTOR_OFFSET UNITYSDK_OFFSET(0x19CF6CE0)
+#define RPG_GAMECORE_TARGETFETCHALLCUSTOMUNSELECTABLE_METHOD_4_1B2A0A5B47952DF2_OFFSET UNITYSDK_OFFSET(0x1D0B6C10)
+#define RPG_GAMECORE_TARGETFETCHALLCUSTOMUNSELECTABLE_METHOD_4_3B1D79A446B1AAF5_OFFSET UNITYSDK_OFFSET(0x1D0B6C50)
+#define RPG_GAMECORE_TARGETFETCHALLCUSTOMUNSELECTABLE_METHOD_4_4BC600A25FF36778_OFFSET UNITYSDK_OFFSET(0x1D0B6DA0)
+#define RPG_GAMECORE_TARGETFETCHALLCUSTOMUNSELECTABLE_METHOD_4_86344203720E950D_OFFSET UNITYSDK_OFFSET(0x1D0B6D70)
+#define RPG_GAMECORE_TARGETFETCHALLCUSTOMUNSELECTABLE__CTOR_OFFSET UNITYSDK_OFFSET(0x1D0B6C40)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TargetFetchAllCustomUnselectable_TypeDefinitionIndex = 22620;
+	inline static constexpr unsigned int TargetFetchAllCustomUnselectable_TypeDefinitionIndex = 23083;
 
 	class TargetFetchAllCustomUnselectable : public ::RPG::GameCore::TargetEvaluator
 	{
@@ -26,9 +26,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TARGETFETCHALLCUSTOMUNSELECTABLE__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_4_D961EF0C3A20EB09(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::TargetFetchAllCustomUnselectable*& a2)
+		static ::System::Void Method_4_1B2A0A5B47952DF2(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::TargetFetchAllCustomUnselectable*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::TargetFetchAllCustomUnselectable*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TARGETFETCHALLCUSTOMUNSELECTABLE_METHOD_4_D961EF0C3A20EB09_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::TargetFetchAllCustomUnselectable*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TARGETFETCHALLCUSTOMUNSELECTABLE_METHOD_4_1B2A0A5B47952DF2_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_4_3B1D79A446B1AAF5(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::TargetFetchAllCustomUnselectable* a2)
@@ -36,14 +36,14 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::TargetFetchAllCustomUnselectable*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TARGETFETCHALLCUSTOMUNSELECTABLE_METHOD_4_3B1D79A446B1AAF5_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_4_FA9C5B477D5B12A4(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::TargetFetchAllCustomUnselectable*& a2)
+		static ::System::Void Method_4_86344203720E950D(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::TargetFetchAllCustomUnselectable*& a2)
 		{
-			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::TargetFetchAllCustomUnselectable*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TARGETFETCHALLCUSTOMUNSELECTABLE_METHOD_4_FA9C5B477D5B12A4_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::TargetFetchAllCustomUnselectable*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TARGETFETCHALLCUSTOMUNSELECTABLE_METHOD_4_86344203720E950D_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_4_8C8A62858DE9CD2C(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::TargetFetchAllCustomUnselectable* a2)
+		static ::System::Void Method_4_4BC600A25FF36778(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::TargetFetchAllCustomUnselectable* a2)
 		{
-			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::TargetFetchAllCustomUnselectable*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TARGETFETCHALLCUSTOMUNSELECTABLE_METHOD_4_8C8A62858DE9CD2C_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::TargetFetchAllCustomUnselectable*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TARGETFETCHALLCUSTOMUNSELECTABLE_METHOD_4_4BC600A25FF36778_OFFSET))(a1, a2);
 		}
 	};
 }

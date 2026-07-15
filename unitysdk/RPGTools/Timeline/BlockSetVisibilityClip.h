@@ -10,13 +10,13 @@ namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class GameObject; }
 
-#define RPGTOOLS_TIMELINE_BLOCKSETVISIBILITYCLIP_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0xCFE17B0)
-#define RPGTOOLS_TIMELINE_BLOCKSETVISIBILITYCLIP_GET_CLIPCAPS_OFFSET UNITYSDK_OFFSET(0xCFE17A0)
-#define RPGTOOLS_TIMELINE_BLOCKSETVISIBILITYCLIP__CTOR_OFFSET UNITYSDK_OFFSET(0xCFE1940)
+#define RPGTOOLS_TIMELINE_BLOCKSETVISIBILITYCLIP_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0x1B34A850)
+#define RPGTOOLS_TIMELINE_BLOCKSETVISIBILITYCLIP_GET_CLIPCAPS_OFFSET UNITYSDK_OFFSET(0x1B34A840)
+#define RPGTOOLS_TIMELINE_BLOCKSETVISIBILITYCLIP__CTOR_OFFSET UNITYSDK_OFFSET(0x1B34A9E0)
 
 namespace RPGTools::Timeline
 {
-	inline static constexpr unsigned int BlockSetVisibilityClip_TypeDefinitionIndex = 45176;
+	inline static constexpr unsigned int BlockSetVisibilityClip_TypeDefinitionIndex = 46100;
 
 	class BlockSetVisibilityClip : public ::UnityEngine::Playables::PlayableAsset
 	{

@@ -8,7 +8,7 @@ namespace System::Collections::Concurrent { template <typename T> class Concurre
 
 namespace MessagePack::Formatters
 {
-	inline static constexpr unsigned int ConcurrentQueueFormatter_1_TypeDefinitionIndex = 7366;
+	inline static constexpr unsigned int ConcurrentQueueFormatter_1_TypeDefinitionIndex = 7372;
 
 	template <typename T>
 	class ConcurrentQueueFormatter_1 : public ::MessagePack::Formatters::CollectionFormatterBase_2<T, ::System::Collections::Concurrent::ConcurrentQueue_1<T>*>

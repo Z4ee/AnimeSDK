@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int BattleLineupSPPreset_TypeDefinitionIndex = 17247;
+	inline static constexpr unsigned int BattleLineupSPPreset_TypeDefinitionIndex = 17409;
 
 	enum class BattleLineupSPPreset : ::System::Int32
 	{

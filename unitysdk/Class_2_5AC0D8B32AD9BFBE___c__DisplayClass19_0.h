@@ -7,18 +7,18 @@ namespace EffectPlugin { class Effect_CustomFollowPlugin; }
 namespace RPG::Client { class MonoEffectPluginPerformEventListener; }
 namespace UnityEngine { class GameObject; }
 
-#define CLASS_2_5AC0D8B32AD9BFBE___C__DISPLAYCLASS19_0__CTOR_OFFSET UNITYSDK_OFFSET(0x137CCC60)
-#define CLASS_2_5AC0D8B32AD9BFBE___C__DISPLAYCLASS19_0___ONTRAILEFFECTCOMPLETE_B__0_OFFSET UNITYSDK_OFFSET(0x137CD070)
+#define CLASS_2_5AC0D8B32AD9BFBE___C__DISPLAYCLASS19_0__CTOR_OFFSET UNITYSDK_OFFSET(0x16006F60)
+#define CLASS_2_5AC0D8B32AD9BFBE___C__DISPLAYCLASS19_0___ONTRAILEFFECTCOMPLETE_B__0_OFFSET UNITYSDK_OFFSET(0x160070A0)
 
-inline static constexpr unsigned int Class_2_5AC0D8B32AD9BFBE___c__DisplayClass19_0_TypeDefinitionIndex = 56643;
+inline static constexpr unsigned int Class_2_5AC0D8B32AD9BFBE___c__DisplayClass19_0_TypeDefinitionIndex = 57889;
 
 class Class_2_5AC0D8B32AD9BFBE___c__DisplayClass19_0 : public ::System::Object
 {
 public:
-	::UnityEngine::GameObject* targetGo; // 0x10
+	::RPG::Client::MonoEffectPluginPerformEventListener* performPlugin; // 0x10
 	::EffectPlugin::Effect_CustomFollowPlugin* followPlugin; // 0x18
-	::RPG::Client::MonoEffectPluginPerformEventListener* performPlugin; // 0x20
-	::Class_2_5AC0D8B32AD9BFBE* __4__this; // 0x28
+	::Class_2_5AC0D8B32AD9BFBE* __4__this; // 0x20
+	::UnityEngine::GameObject* targetGo; // 0x28
 
 	::System::Void _ctor()
 	{

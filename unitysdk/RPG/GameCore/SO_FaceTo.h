@@ -5,13 +5,13 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_SO_FACETO_METHOD_4_0B78D8D02807DDBF_OFFSET UNITYSDK_OFFSET(0x19BFDF70)
-#define RPG_GAMECORE_SO_FACETO_METHOD_4_F317D25149634860_OFFSET UNITYSDK_OFFSET(0x19BFCB70)
-#define RPG_GAMECORE_SO_FACETO__CTOR_OFFSET UNITYSDK_OFFSET(0x19BFCB40)
+#define RPG_GAMECORE_SO_FACETO_METHOD_4_1529856C796B88E9_OFFSET UNITYSDK_OFFSET(0x1B776730)
+#define RPG_GAMECORE_SO_FACETO_METHOD_4_F317D25149634860_OFFSET UNITYSDK_OFFSET(0x1B7753E0)
+#define RPG_GAMECORE_SO_FACETO__CTOR_OFFSET UNITYSDK_OFFSET(0x1B7753D0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SO_FaceTo_TypeDefinitionIndex = 18936;
+	inline static constexpr unsigned int SO_FaceTo_TypeDefinitionIndex = 19286;
 
 	class SO_FaceTo : public ::RPG::GameCore::SOTaskConfig
 	{
@@ -26,9 +26,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SO_FACETO__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_4_0B78D8D02807DDBF(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SO_FaceTo*& a2)
+		static ::System::Void Method_4_1529856C796B88E9(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SO_FaceTo*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SO_FaceTo*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SO_FACETO_METHOD_4_0B78D8D02807DDBF_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SO_FaceTo*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SO_FACETO_METHOD_4_1529856C796B88E9_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_4_F317D25149634860(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SO_FaceTo* a2)

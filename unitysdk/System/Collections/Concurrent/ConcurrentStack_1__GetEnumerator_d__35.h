@@ -6,7 +6,7 @@ namespace System::Collections::Concurrent { template <typename T> class Concurre
 
 namespace System::Collections::Concurrent
 {
-	inline static constexpr unsigned int ConcurrentStack_1__GetEnumerator_d__35_TypeDefinitionIndex = 1515;
+	inline static constexpr unsigned int ConcurrentStack_1__GetEnumerator_d__35_TypeDefinitionIndex = 1519;
 
 	template <typename T>
 	class ConcurrentStack_1__GetEnumerator_d__35 : public ::System::Object

@@ -6,11 +6,11 @@
 namespace RPG::GameCore { class ChimeraTalkContent; }
 namespace UnityEngine { class Transform; }
 
-#define RPG_CLIENT_PROP_CHIMERAMAINENVTALKINFO__CTOR_OFFSET UNITYSDK_OFFSET(0xC5273C0)
+#define RPG_CLIENT_PROP_CHIMERAMAINENVTALKINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x18FF87E0)
 
 namespace RPG::Client::Prop
 {
-	inline static constexpr unsigned int ChimeraMainEnvTalkInfo_TypeDefinitionIndex = 73001;
+	inline static constexpr unsigned int ChimeraMainEnvTalkInfo_TypeDefinitionIndex = 74526;
 
 	class ChimeraMainEnvTalkInfo : public ::System::Object
 	{

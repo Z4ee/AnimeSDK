@@ -5,7 +5,7 @@
 
 namespace RPG::GCFreeClosure { template <typename T1, typename T2> class FuncByRef_2; }
 
-inline static constexpr unsigned int Struct_2_3906C24C646CC83F_Reader_1_TypeDefinitionIndex = 6916;
+inline static constexpr unsigned int Struct_2_3906C24C646CC83F_Reader_1_TypeDefinitionIndex = 6921;
 
 template <typename T>
 class Struct_2_3906C24C646CC83F_Reader_1 : public ::System::Object

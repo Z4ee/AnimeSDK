@@ -6,12 +6,12 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class ElfFoodEventConfig; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_ELFCHEFCONFIG_METHOD_2_07E04B02BEE1994D_OFFSET UNITYSDK_OFFSET(0x196D8EE0)
-#define RPG_GAMECORE_ELFCHEFCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x196D90B0)
+#define RPG_GAMECORE_ELFCHEFCONFIG_METHOD_2_07E04B02BEE1994D_OFFSET UNITYSDK_OFFSET(0x1BB35680)
+#define RPG_GAMECORE_ELFCHEFCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1BB35850)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ElfChefConfig_TypeDefinitionIndex = 17565;
+	inline static constexpr unsigned int ElfChefConfig_TypeDefinitionIndex = 17738;
 
 	class ElfChefConfig : public ::RPG::GameCore::JsonConfig
 	{

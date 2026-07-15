@@ -3,7 +3,7 @@
 
 namespace UnityEngine::ProBuilder::Poly2Tri
 {
-	inline static constexpr unsigned int Orientation_TypeDefinitionIndex = 35811;
+	inline static constexpr unsigned int Orientation_TypeDefinitionIndex = 36593;
 
 	enum class Orientation : ::System::Int32
 	{

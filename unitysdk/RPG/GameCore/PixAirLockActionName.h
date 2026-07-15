@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PixAirLockActionName_TypeDefinitionIndex = 11603;
+	inline static constexpr unsigned int PixAirLockActionName_TypeDefinitionIndex = 11703;
 
 	enum class PixAirLockActionName : ::System::Int32
 	{

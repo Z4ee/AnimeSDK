@@ -2,20 +2,20 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_1_355A2207C3B7A99D_36;
+class Class_1_242BFB9DE152D766_29;
 namespace RPG::Client { class GridFightAugment; }
 
-#define RPG_CLIENT_GRIDFIGHTAUGMENTINFO___C__DISPLAYCLASS16_0__CTOR_OFFSET UNITYSDK_OFFSET(0xBAE56E0)
-#define RPG_CLIENT_GRIDFIGHTAUGMENTINFO___C__DISPLAYCLASS16_0__UPDATE_B__0_OFFSET UNITYSDK_OFFSET(0xBAE5A60)
+#define RPG_CLIENT_GRIDFIGHTAUGMENTINFO___C__DISPLAYCLASS16_0__CTOR_OFFSET UNITYSDK_OFFSET(0x19303240)
+#define RPG_CLIENT_GRIDFIGHTAUGMENTINFO___C__DISPLAYCLASS16_0__UPDATE_B__0_OFFSET UNITYSDK_OFFSET(0x193035B0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GridFightAugmentInfo___c__DisplayClass16_0_TypeDefinitionIndex = 60171;
+	inline static constexpr unsigned int GridFightAugmentInfo___c__DisplayClass16_0_TypeDefinitionIndex = 61457;
 
 	class GridFightAugmentInfo___c__DisplayClass16_0 : public ::System::Object
 	{
 	public:
-		::Class_1_355A2207C3B7A99D_36* augmentUpdate; // 0x10
+		::Class_1_242BFB9DE152D766_29* augmentUpdate; // 0x10
 
 		::System::Void _ctor()
 		{

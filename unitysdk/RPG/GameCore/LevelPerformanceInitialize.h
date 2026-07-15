@@ -13,15 +13,15 @@ namespace RPG::GameCore { class PerformancePropVisiableInfo; }
 namespace RPG::GameCore { class StageItemAlias; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_LEVELPERFORMANCEINITIALIZE_METHOD_3_2185171878718EA4_OFFSET UNITYSDK_OFFSET(0x19886DF0)
-#define RPG_GAMECORE_LEVELPERFORMANCEINITIALIZE_METHOD_3_8E3B037E20D0F3B7_OFFSET UNITYSDK_OFFSET(0x19886330)
-#define RPG_GAMECORE_LEVELPERFORMANCEINITIALIZE_METHOD_3_C91E5170F9E36EED_OFFSET UNITYSDK_OFFSET(0x19886E00)
-#define RPG_GAMECORE_LEVELPERFORMANCEINITIALIZE_METHOD_3_D2D95C0CA1B2CE9C_OFFSET UNITYSDK_OFFSET(0x198863F0)
-#define RPG_GAMECORE_LEVELPERFORMANCEINITIALIZE__CTOR_OFFSET UNITYSDK_OFFSET(0x198863A0)
+#define RPG_GAMECORE_LEVELPERFORMANCEINITIALIZE_METHOD_3_2185171878718EA4_OFFSET UNITYSDK_OFFSET(0x1B0868D0)
+#define RPG_GAMECORE_LEVELPERFORMANCEINITIALIZE_METHOD_3_928E03256D5FF253_OFFSET UNITYSDK_OFFSET(0x1B085E00)
+#define RPG_GAMECORE_LEVELPERFORMANCEINITIALIZE_METHOD_3_C91E5170F9E36EED_OFFSET UNITYSDK_OFFSET(0x1B0868E0)
+#define RPG_GAMECORE_LEVELPERFORMANCEINITIALIZE_METHOD_3_D2D95C0CA1B2CE9C_OFFSET UNITYSDK_OFFSET(0x1B085E70)
+#define RPG_GAMECORE_LEVELPERFORMANCEINITIALIZE__CTOR_OFFSET UNITYSDK_OFFSET(0x1B085E50)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LevelPerformanceInitialize_TypeDefinitionIndex = 20635;
+	inline static constexpr unsigned int LevelPerformanceInitialize_TypeDefinitionIndex = 21050;
 
 	class LevelPerformanceInitialize : public ::RPG::GameCore::TaskConfig
 	{
@@ -34,12 +34,13 @@ namespace RPG::GameCore
 		::Il2CppArray<::RPG::GameCore::PerformanceCaptureNPC*>* CaptureNPCList; // 0x38
 		::System::Boolean HideNPC; // 0x40
 		::Il2CppArray<::RPG::GameCore::EntityVisiableInfo*>* EntityVisiableList; // 0x48
-		::System::Boolean HideMunicipalCrowd; // 0x50
-		::System::Boolean HideMunicipalPedestrian; // 0x51
-		::System::Boolean HideMunicipalAudience; // 0x52
-		::System::Boolean HideMunicipalOther; // 0x53
-		::System::Boolean HideMonster; // 0x54
-		::System::Boolean HideProp; // 0x55
+		::System::Boolean HideStillNPC; // 0x50
+		::System::Boolean HideMunicipalCrowd; // 0x51
+		::System::Boolean HideMunicipalPedestrian; // 0x52
+		::System::Boolean HideMunicipalAudience; // 0x53
+		::System::Boolean HideMunicipalOther; // 0x54
+		::System::Boolean HideMonster; // 0x55
+		::System::Boolean HideProp; // 0x56
 		::Il2CppArray<::RPG::GameCore::PerformancePropVisiableInfo*>* PropVisiableList; // 0x58
 		::System::Boolean HideLocalPlayer; // 0x60
 		::System::String* FirstCameraAnchor; // 0x68
@@ -58,9 +59,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELPERFORMANCEINITIALIZE__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_8E3B037E20D0F3B7(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::LevelPerformanceInitialize*& a2)
+		static ::System::Void Method_3_928E03256D5FF253(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::LevelPerformanceInitialize*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::LevelPerformanceInitialize*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELPERFORMANCEINITIALIZE_METHOD_3_8E3B037E20D0F3B7_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::LevelPerformanceInitialize*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELPERFORMANCEINITIALIZE_METHOD_3_928E03256D5FF253_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_D2D95C0CA1B2CE9C(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::LevelPerformanceInitialize* a2)

@@ -4,11 +4,11 @@
 
 namespace RPGTools::Timeline { class BlusherData; }
 
-#define RPGTOOLS_TIMELINE_EMOFACEBLUSHERTIMELINEBEHAVIOUR__CTOR_OFFSET UNITYSDK_OFFSET(0xD0095D0)
+#define RPGTOOLS_TIMELINE_EMOFACEBLUSHERTIMELINEBEHAVIOUR__CTOR_OFFSET UNITYSDK_OFFSET(0x19A41C50)
 
 namespace RPGTools::Timeline
 {
-	inline static constexpr unsigned int EmoFaceBlusherTimelineBehaviour_TypeDefinitionIndex = 45414;
+	inline static constexpr unsigned int EmoFaceBlusherTimelineBehaviour_TypeDefinitionIndex = 46343;
 
 	class EmoFaceBlusherTimelineBehaviour : public ::UnityEngine::Playables::PlayableBehaviour
 	{

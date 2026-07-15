@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ActivityLoginData_RewardStatus_TypeDefinitionIndex = 57744;
+	inline static constexpr unsigned int ActivityLoginData_RewardStatus_TypeDefinitionIndex = 59010;
 
 	enum class ActivityLoginData_RewardStatus : ::System::Int32
 	{

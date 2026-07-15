@@ -15,7 +15,7 @@ namespace System::Collections::Generic { template <typename T> class IEnumerator
 
 namespace Google::Protobuf::Collections
 {
-	inline static constexpr unsigned int RepeatedField_1_TypeDefinitionIndex = 5590;
+	inline static constexpr unsigned int RepeatedField_1_TypeDefinitionIndex = 5595;
 
 	template <typename T>
 	class RepeatedField_1 : public ::System::Object

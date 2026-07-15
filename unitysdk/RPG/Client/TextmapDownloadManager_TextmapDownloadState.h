@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int TextmapDownloadManager_TextmapDownloadState_TypeDefinitionIndex = 57249;
+	inline static constexpr unsigned int TextmapDownloadManager_TextmapDownloadState_TypeDefinitionIndex = 58507;
 
 	enum class TextmapDownloadManager_TextmapDownloadState : ::System::Int32
 	{

@@ -4,11 +4,11 @@
 
 namespace UnityEngine { class Animator; }
 
-#define RPG_CLIENT_ANIMATOREXTENSIONS_REBINDWITHPRESTATUS_OFFSET UNITYSDK_OFFSET(0xB3149D0)
+#define RPG_CLIENT_ANIMATOREXTENSIONS_REBINDWITHPRESTATUS_OFFSET UNITYSDK_OFFSET(0x19B184A0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int AnimatorExtensions_TypeDefinitionIndex = 56177;
+	inline static constexpr unsigned int AnimatorExtensions_TypeDefinitionIndex = 57417;
 
 	class AnimatorExtensions : public ::System::Object
 	{

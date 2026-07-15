@@ -6,13 +6,13 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_GLOBALMODIFYINSERTABILITYPRIORITY_METHOD_3_0F7D7D5B63921B3B_OFFSET UNITYSDK_OFFSET(0x197D08C0)
-#define RPG_GAMECORE_GLOBALMODIFYINSERTABILITYPRIORITY_METHOD_3_368DF7C41557FED5_OFFSET UNITYSDK_OFFSET(0x197D0940)
-#define RPG_GAMECORE_GLOBALMODIFYINSERTABILITYPRIORITY__CTOR_OFFSET UNITYSDK_OFFSET(0x197D0910)
+#define RPG_GAMECORE_GLOBALMODIFYINSERTABILITYPRIORITY_METHOD_3_368DF7C41557FED5_OFFSET UNITYSDK_OFFSET(0x1C5BC5B0)
+#define RPG_GAMECORE_GLOBALMODIFYINSERTABILITYPRIORITY_METHOD_3_9FF3B8B8B07C3E22_OFFSET UNITYSDK_OFFSET(0x1C5BC570)
+#define RPG_GAMECORE_GLOBALMODIFYINSERTABILITYPRIORITY__CTOR_OFFSET UNITYSDK_OFFSET(0x1C5BC5A0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int GlobalModifyInsertAbilityPriority_TypeDefinitionIndex = 21430;
+	inline static constexpr unsigned int GlobalModifyInsertAbilityPriority_TypeDefinitionIndex = 21850;
 
 	class GlobalModifyInsertAbilityPriority : public ::RPG::GameCore::TaskConfig
 	{
@@ -25,9 +25,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GLOBALMODIFYINSERTABILITYPRIORITY__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_0F7D7D5B63921B3B(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::GlobalModifyInsertAbilityPriority*& a2)
+		static ::System::Void Method_3_9FF3B8B8B07C3E22(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::GlobalModifyInsertAbilityPriority*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::GlobalModifyInsertAbilityPriority*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GLOBALMODIFYINSERTABILITYPRIORITY_METHOD_3_0F7D7D5B63921B3B_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::GlobalModifyInsertAbilityPriority*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GLOBALMODIFYINSERTABILITYPRIORITY_METHOD_3_9FF3B8B8B07C3E22_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_368DF7C41557FED5(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::GlobalModifyInsertAbilityPriority* a2)

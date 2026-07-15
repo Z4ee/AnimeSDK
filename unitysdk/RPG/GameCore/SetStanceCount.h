@@ -6,13 +6,13 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class DynamicFloat; }
 namespace RPG::GameCore { class TargetEvaluator; }
 
-#define RPG_GAMECORE_SETSTANCECOUNT_METHOD_3_2B8CBA92FC59201A_OFFSET UNITYSDK_OFFSET(0x19C5F7A0)
-#define RPG_GAMECORE_SETSTANCECOUNT_METHOD_3_8EC411CFD5C38281_OFFSET UNITYSDK_OFFSET(0x19C5F820)
-#define RPG_GAMECORE_SETSTANCECOUNT__CTOR_OFFSET UNITYSDK_OFFSET(0x19C5F7F0)
+#define RPG_GAMECORE_SETSTANCECOUNT_METHOD_3_43580D79BF55D774_OFFSET UNITYSDK_OFFSET(0x1C609070)
+#define RPG_GAMECORE_SETSTANCECOUNT_METHOD_3_8EC411CFD5C38281_OFFSET UNITYSDK_OFFSET(0x1C6090C0)
+#define RPG_GAMECORE_SETSTANCECOUNT__CTOR_OFFSET UNITYSDK_OFFSET(0x1C6090B0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SetStanceCount_TypeDefinitionIndex = 21446;
+	inline static constexpr unsigned int SetStanceCount_TypeDefinitionIndex = 21866;
 
 	class SetStanceCount : public ::RPG::GameCore::TaskConfig
 	{
@@ -26,9 +26,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETSTANCECOUNT__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_2B8CBA92FC59201A(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SetStanceCount*& a2)
+		static ::System::Void Method_3_43580D79BF55D774(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SetStanceCount*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SetStanceCount*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETSTANCECOUNT_METHOD_3_2B8CBA92FC59201A_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SetStanceCount*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETSTANCECOUNT_METHOD_3_43580D79BF55D774_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_8EC411CFD5C38281(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SetStanceCount* a2)

@@ -4,13 +4,13 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_HIDEHINTEFFECT_METHOD_3_247FDE585B2EB06E_OFFSET UNITYSDK_OFFSET(0x19831070)
-#define RPG_GAMECORE_HIDEHINTEFFECT_METHOD_3_67DC77A8DBBBA739_OFFSET UNITYSDK_OFFSET(0x19830FF0)
-#define RPG_GAMECORE_HIDEHINTEFFECT__CTOR_OFFSET UNITYSDK_OFFSET(0x19831040)
+#define RPG_GAMECORE_HIDEHINTEFFECT_METHOD_3_247FDE585B2EB06E_OFFSET UNITYSDK_OFFSET(0x1B683C10)
+#define RPG_GAMECORE_HIDEHINTEFFECT_METHOD_3_7101C45C507C76BF_OFFSET UNITYSDK_OFFSET(0x1B683BD0)
+#define RPG_GAMECORE_HIDEHINTEFFECT__CTOR_OFFSET UNITYSDK_OFFSET(0x1B683C00)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int HideHintEffect_TypeDefinitionIndex = 19423;
+	inline static constexpr unsigned int HideHintEffect_TypeDefinitionIndex = 19781;
 
 	class HideHintEffect : public ::RPG::GameCore::TaskConfig
 	{
@@ -23,9 +23,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_HIDEHINTEFFECT__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_67DC77A8DBBBA739(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::HideHintEffect*& a2)
+		static ::System::Void Method_3_7101C45C507C76BF(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::HideHintEffect*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::HideHintEffect*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_HIDEHINTEFFECT_METHOD_3_67DC77A8DBBBA739_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::HideHintEffect*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_HIDEHINTEFFECT_METHOD_3_7101C45C507C76BF_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_247FDE585B2EB06E(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::HideHintEffect* a2)

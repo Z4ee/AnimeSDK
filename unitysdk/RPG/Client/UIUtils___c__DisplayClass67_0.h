@@ -6,12 +6,12 @@ namespace UnityEngine { class Canvas; }
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine::Events { class UnityAction; }
 
-#define RPG_CLIENT_UIUTILS___C__DISPLAYCLASS67_0__CREATEBLOCKER_B__0_OFFSET UNITYSDK_OFFSET(0xCBA3A60)
-#define RPG_CLIENT_UIUTILS___C__DISPLAYCLASS67_0__CTOR_OFFSET UNITYSDK_OFFSET(0xCBA36B0)
+#define RPG_CLIENT_UIUTILS___C__DISPLAYCLASS67_0__CREATEBLOCKER_B__0_OFFSET UNITYSDK_OFFSET(0x1831F2C0)
+#define RPG_CLIENT_UIUTILS___C__DISPLAYCLASS67_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1831EF10)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int UIUtils___c__DisplayClass67_0_TypeDefinitionIndex = 68348;
+	inline static constexpr unsigned int UIUtils___c__DisplayClass67_0_TypeDefinitionIndex = 69837;
 
 	class UIUtils___c__DisplayClass67_0 : public ::System::Object
 	{
@@ -19,9 +19,9 @@ namespace RPG::Client
 		::UnityEngine::GameObject* blocker; // 0x10
 		::UnityEngine::Canvas* exceptBlockNodeCanvas; // 0x18
 		::UnityEngine::Events::UnityAction* blockClickCallback; // 0x20
-		::System::Int32 sortingOrder; // 0x28
-		::System::Boolean overrideSorting; // 0x2C
-		::System::Int32 sortingLayerID; // 0x30
+		::System::Int32 sortingLayerID; // 0x28
+		::System::Int32 sortingOrder; // 0x2C
+		::System::Boolean overrideSorting; // 0x30
 
 		::System::Void _ctor()
 		{

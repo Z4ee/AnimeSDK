@@ -5,12 +5,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_ACTIVITYEVOLVEGEARFORGEMATERIALROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x193E0F00)
-#define RPG_GAMECORE_ACTIVITYEVOLVEGEARFORGEMATERIALROW__CTOR_OFFSET UNITYSDK_OFFSET(0x193E2580)
+#define RPG_GAMECORE_ACTIVITYEVOLVEGEARFORGEMATERIALROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1AAE99C0)
+#define RPG_GAMECORE_ACTIVITYEVOLVEGEARFORGEMATERIALROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1AAEB050)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ActivityEvolveGearForgeMaterialRow_TypeDefinitionIndex = 10965;
+	inline static constexpr unsigned int ActivityEvolveGearForgeMaterialRow_TypeDefinitionIndex = 11015;
 
 	class ActivityEvolveGearForgeMaterialRow : public ::System::Object
 	{

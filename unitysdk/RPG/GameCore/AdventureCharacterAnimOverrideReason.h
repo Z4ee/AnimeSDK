@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AdventureCharacterAnimOverrideReason_TypeDefinitionIndex = 53264;
+	inline static constexpr unsigned int AdventureCharacterAnimOverrideReason_TypeDefinitionIndex = 54479;
 
 	enum class AdventureCharacterAnimOverrideReason : ::System::Int32
 	{

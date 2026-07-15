@@ -7,26 +7,26 @@
 #include "unitysdk/RPG/GameCore/FeverTimeToastType.h"
 #include "unitysdk/RPG/GameCore/FixPoint.h"
 
-#define RPG_GAMECORE_FEVERTIMEINFOCHANGEPARAM_GETEVENTTYPE_OFFSET UNITYSDK_OFFSET(0xCDF88A0)
-#define RPG_GAMECORE_FEVERTIMEINFOCHANGEPARAM_GETSOURCERUNTIMEID_OFFSET UNITYSDK_OFFSET(0xCDF8850)
-#define RPG_GAMECORE_FEVERTIMEINFOCHANGEPARAM_GET_FILLAMOUNT_OFFSET UNITYSDK_OFFSET(0xCDF88F0)
-#define RPG_GAMECORE_FEVERTIMEINFOCHANGEPARAM__CTOR_OFFSET UNITYSDK_OFFSET(0xCDF89F0)
+#define RPG_GAMECORE_FEVERTIMEINFOCHANGEPARAM_GETEVENTTYPE_OFFSET UNITYSDK_OFFSET(0x154E8D10)
+#define RPG_GAMECORE_FEVERTIMEINFOCHANGEPARAM_GETSOURCERUNTIMEID_OFFSET UNITYSDK_OFFSET(0x154E8CC0)
+#define RPG_GAMECORE_FEVERTIMEINFOCHANGEPARAM_GET_FILLAMOUNT_OFFSET UNITYSDK_OFFSET(0x154E8D60)
+#define RPG_GAMECORE_FEVERTIMEINFOCHANGEPARAM__CTOR_OFFSET UNITYSDK_OFFSET(0x154E8E60)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FeverTimeInfoChangeParam_TypeDefinitionIndex = 53088;
+	inline static constexpr unsigned int FeverTimeInfoChangeParam_TypeDefinitionIndex = 54302;
 
 	class FeverTimeInfoChangeParam : public ::Class_1_BF7A075734D15E98
 	{
 	public:
 		::System::Boolean IsLimitReached; // 0x18
-		::RPG::GameCore::FixPoint MaxProgress; // 0x20
-		::RPG::GameCore::FeverTimeToastType ToastType; // 0x28
-		::RPG::GameCore::FeverTimePeriodType PeriodType; // 0x2C
-		::RPG::GameCore::FixPoint CurProgress; // 0x30
+		::RPG::GameCore::FixPoint CurProgress; // 0x20
+		::RPG::GameCore::FixPoint ExtraCount; // 0x28
+		::RPG::GameCore::FixPoint MaxProgress; // 0x30
 		::RPG::Client::TextID ToastTextID; // 0x38
-		::RPG::GameCore::FixPoint ExtraCount; // 0x48
-		::RPG::GameCore::FixPoint ToastDelta; // 0x50
+		::RPG::GameCore::FixPoint ToastDelta; // 0x48
+		::RPG::GameCore::FeverTimePeriodType PeriodType; // 0x50
+		::RPG::GameCore::FeverTimeToastType ToastType; // 0x54
 
 		::System::Void _ctor()
 		{

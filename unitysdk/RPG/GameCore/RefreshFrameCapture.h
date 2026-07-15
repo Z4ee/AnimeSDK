@@ -4,13 +4,13 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_REFRESHFRAMECAPTURE_METHOD_3_58BB2280F9BC14CE_OFFSET UNITYSDK_OFFSET(0x19AB95C0)
-#define RPG_GAMECORE_REFRESHFRAMECAPTURE_METHOD_3_79C2B7826BC8D1B8_OFFSET UNITYSDK_OFFSET(0x19AB9540)
-#define RPG_GAMECORE_REFRESHFRAMECAPTURE__CTOR_OFFSET UNITYSDK_OFFSET(0x19AB9590)
+#define RPG_GAMECORE_REFRESHFRAMECAPTURE_METHOD_3_58BB2280F9BC14CE_OFFSET UNITYSDK_OFFSET(0x1B9C0AC0)
+#define RPG_GAMECORE_REFRESHFRAMECAPTURE_METHOD_3_735D07737E3FCE6C_OFFSET UNITYSDK_OFFSET(0x1B9C0A80)
+#define RPG_GAMECORE_REFRESHFRAMECAPTURE__CTOR_OFFSET UNITYSDK_OFFSET(0x1B9C0AB0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RefreshFrameCapture_TypeDefinitionIndex = 19136;
+	inline static constexpr unsigned int RefreshFrameCapture_TypeDefinitionIndex = 19492;
 
 	class RefreshFrameCapture : public ::RPG::GameCore::TaskConfig
 	{
@@ -26,9 +26,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_REFRESHFRAMECAPTURE__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_79C2B7826BC8D1B8(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::RefreshFrameCapture*& a2)
+		static ::System::Void Method_3_735D07737E3FCE6C(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::RefreshFrameCapture*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::RefreshFrameCapture*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_REFRESHFRAMECAPTURE_METHOD_3_79C2B7826BC8D1B8_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::RefreshFrameCapture*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_REFRESHFRAMECAPTURE_METHOD_3_735D07737E3FCE6C_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_58BB2280F9BC14CE(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::RefreshFrameCapture* a2)

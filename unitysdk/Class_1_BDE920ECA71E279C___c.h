@@ -5,22 +5,22 @@
 namespace System { template <typename T1, typename T2> class Tuple_2; }
 namespace System { template <typename T> class Comparison_1; }
 
-#define CLASS_1_BDE920ECA71E279C___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x13B8A710)
-#define CLASS_1_BDE920ECA71E279C___C__CTOR_OFFSET UNITYSDK_OFFSET(0x13B8A750)
-#define CLASS_1_BDE920ECA71E279C___C__INITTEMPDATA_B__17_0_OFFSET UNITYSDK_OFFSET(0x13B8A760)
+#define CLASS_1_BDE920ECA71E279C___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x157BBA80)
+#define CLASS_1_BDE920ECA71E279C___C__CTOR_OFFSET UNITYSDK_OFFSET(0x157BBAC0)
+#define CLASS_1_BDE920ECA71E279C___C__INITTEMPDATA_B__17_0_OFFSET UNITYSDK_OFFSET(0x157BBAD0)
 
-inline static constexpr unsigned int Class_1_BDE920ECA71E279C___c_TypeDefinitionIndex = 73095;
+inline static constexpr unsigned int Class_1_BDE920ECA71E279C___c_TypeDefinitionIndex = 74620;
 
 class Class_1_BDE920ECA71E279C___c : public ::System::Object
 {
 public:
-	static ::Class_1_BDE920ECA71E279C___c** StaticGet___9()
-	{
-		return (::Class_1_BDE920ECA71E279C___c**)Il2CppClass::FromTypeDefinitionIndex(Class_1_BDE920ECA71E279C___c_TypeDefinitionIndex)->GetStaticField(0x628B0);
-	}
 	static ::System::Comparison_1<::System::Tuple_2<::System::UInt32, ::System::Single>*>** StaticGet___9__17_0()
 	{
-		return (::System::Comparison_1<::System::Tuple_2<::System::UInt32, ::System::Single>*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_BDE920ECA71E279C___c_TypeDefinitionIndex)->GetStaticField(0x628B8);
+		return (::System::Comparison_1<::System::Tuple_2<::System::UInt32, ::System::Single>*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_BDE920ECA71E279C___c_TypeDefinitionIndex)->GetStaticField(0x59440);
+	}
+	static ::Class_1_BDE920ECA71E279C___c** StaticGet___9()
+	{
+		return (::Class_1_BDE920ECA71E279C___c**)Il2CppClass::FromTypeDefinitionIndex(Class_1_BDE920ECA71E279C___c_TypeDefinitionIndex)->GetStaticField(0x59448);
 	}
 
 	static ::System::Void _cctor()

@@ -6,13 +6,13 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class TargetEvaluator; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_STARTEFFECTAIM_METHOD_3_4303E76083E6321A_OFFSET UNITYSDK_OFFSET(0x19CB7600)
-#define RPG_GAMECORE_STARTEFFECTAIM_METHOD_3_F2D1A1C30CFD26AD_OFFSET UNITYSDK_OFFSET(0x19CB7580)
-#define RPG_GAMECORE_STARTEFFECTAIM__CTOR_OFFSET UNITYSDK_OFFSET(0x19CB75D0)
+#define RPG_GAMECORE_STARTEFFECTAIM_METHOD_3_4303E76083E6321A_OFFSET UNITYSDK_OFFSET(0x1B0BD3F0)
+#define RPG_GAMECORE_STARTEFFECTAIM_METHOD_3_AD1D42E32DAADFC3_OFFSET UNITYSDK_OFFSET(0x1B0BD3B0)
+#define RPG_GAMECORE_STARTEFFECTAIM__CTOR_OFFSET UNITYSDK_OFFSET(0x1B0BD3E0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int StartEffectAim_TypeDefinitionIndex = 21227;
+	inline static constexpr unsigned int StartEffectAim_TypeDefinitionIndex = 21642;
 
 	class StartEffectAim : public ::RPG::GameCore::TaskConfig
 	{
@@ -26,9 +26,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_STARTEFFECTAIM__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_F2D1A1C30CFD26AD(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::StartEffectAim*& a2)
+		static ::System::Void Method_3_AD1D42E32DAADFC3(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::StartEffectAim*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::StartEffectAim*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_STARTEFFECTAIM_METHOD_3_F2D1A1C30CFD26AD_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::StartEffectAim*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_STARTEFFECTAIM_METHOD_3_AD1D42E32DAADFC3_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_4303E76083E6321A(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::StartEffectAim* a2)

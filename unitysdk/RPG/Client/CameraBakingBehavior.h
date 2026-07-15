@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/Client/TABehaviorBase.h"
 
-#define RPG_CLIENT_CAMERABAKINGBEHAVIOR__CTOR_OFFSET UNITYSDK_OFFSET(0xB4B07D0)
+#define RPG_CLIENT_CAMERABAKINGBEHAVIOR__CTOR_OFFSET UNITYSDK_OFFSET(0x1AC4F5F0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int CameraBakingBehavior_TypeDefinitionIndex = 66397;
+	inline static constexpr unsigned int CameraBakingBehavior_TypeDefinitionIndex = 67833;
 
 	class CameraBakingBehavior : public ::RPG::Client::TABehaviorBase
 	{

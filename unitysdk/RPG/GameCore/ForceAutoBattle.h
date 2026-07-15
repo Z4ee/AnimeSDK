@@ -5,13 +5,13 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_FORCEAUTOBATTLE_METHOD_3_40F2D69AE16A2E5A_OFFSET UNITYSDK_OFFSET(0x19763B10)
-#define RPG_GAMECORE_FORCEAUTOBATTLE_METHOD_3_E13F7BDAEAE3DDE5_OFFSET UNITYSDK_OFFSET(0x19763A90)
-#define RPG_GAMECORE_FORCEAUTOBATTLE__CTOR_OFFSET UNITYSDK_OFFSET(0x19763AE0)
+#define RPG_GAMECORE_FORCEAUTOBATTLE_METHOD_3_40F2D69AE16A2E5A_OFFSET UNITYSDK_OFFSET(0x1BEBEA10)
+#define RPG_GAMECORE_FORCEAUTOBATTLE_METHOD_3_FE118C96F4301087_OFFSET UNITYSDK_OFFSET(0x1BEBE9D0)
+#define RPG_GAMECORE_FORCEAUTOBATTLE__CTOR_OFFSET UNITYSDK_OFFSET(0x1BEBEA00)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ForceAutoBattle_TypeDefinitionIndex = 22000;
+	inline static constexpr unsigned int ForceAutoBattle_TypeDefinitionIndex = 22434;
 
 	class ForceAutoBattle : public ::RPG::GameCore::TaskConfig
 	{
@@ -24,9 +24,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FORCEAUTOBATTLE__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_E13F7BDAEAE3DDE5(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ForceAutoBattle*& a2)
+		static ::System::Void Method_3_FE118C96F4301087(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ForceAutoBattle*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ForceAutoBattle*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FORCEAUTOBATTLE_METHOD_3_E13F7BDAEAE3DDE5_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ForceAutoBattle*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FORCEAUTOBATTLE_METHOD_3_FE118C96F4301087_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_40F2D69AE16A2E5A(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ForceAutoBattle* a2)

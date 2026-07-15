@@ -4,11 +4,11 @@
 
 namespace System::ComponentModel { class IExtenderProvider; }
 
-#define SYSTEM_COMPONENTMODEL_EXTENDERPROVIDEDPROPERTYATTRIBUTE_GET_PROVIDER_OFFSET UNITYSDK_OFFSET(0x1AF2DF00)
+#define SYSTEM_COMPONENTMODEL_EXTENDERPROVIDEDPROPERTYATTRIBUTE_GET_PROVIDER_OFFSET UNITYSDK_OFFSET(0x1914EDB0)
 
 namespace System::ComponentModel
 {
-	inline static constexpr unsigned int ExtenderProvidedPropertyAttribute_TypeDefinitionIndex = 2586;
+	inline static constexpr unsigned int ExtenderProvidedPropertyAttribute_TypeDefinitionIndex = 2590;
 
 	class ExtenderProvidedPropertyAttribute : public ::System::Attribute
 	{

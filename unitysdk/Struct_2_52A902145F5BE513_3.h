@@ -15,7 +15,7 @@ namespace RPG::GameCore { class JsonEnum; }
 namespace RPG::GameCore { class TaskContext; }
 namespace System { class String; }
 
-inline static constexpr unsigned int Struct_2_52A902145F5BE513_3_TypeDefinitionIndex = 52495;
+inline static constexpr unsigned int Struct_2_52A902145F5BE513_3_TypeDefinitionIndex = 53699;
 
 struct alignas(8) Struct_2_52A902145F5BE513_3
 {

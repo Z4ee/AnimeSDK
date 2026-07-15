@@ -5,13 +5,13 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class DynamicFloat; }
 
-#define RPG_GAMECORE_FIVEDIMSWITCHMATERIALACTION_METHOD_3_B6DF56A91BA61439_OFFSET UNITYSDK_OFFSET(0x1975B8B0)
-#define RPG_GAMECORE_FIVEDIMSWITCHMATERIALACTION_METHOD_3_C508B12D60470FB3_OFFSET UNITYSDK_OFFSET(0x1975B790)
-#define RPG_GAMECORE_FIVEDIMSWITCHMATERIALACTION__CTOR_OFFSET UNITYSDK_OFFSET(0x1975B890)
+#define RPG_GAMECORE_FIVEDIMSWITCHMATERIALACTION_METHOD_3_251CBE4894E84A7C_OFFSET UNITYSDK_OFFSET(0x1BEB6D80)
+#define RPG_GAMECORE_FIVEDIMSWITCHMATERIALACTION_METHOD_3_B6DF56A91BA61439_OFFSET UNITYSDK_OFFSET(0x1BEB6E60)
+#define RPG_GAMECORE_FIVEDIMSWITCHMATERIALACTION__CTOR_OFFSET UNITYSDK_OFFSET(0x1BEB6E50)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FiveDimSwitchMaterialAction_TypeDefinitionIndex = 17852;
+	inline static constexpr unsigned int FiveDimSwitchMaterialAction_TypeDefinitionIndex = 18029;
 
 	class FiveDimSwitchMaterialAction : public ::RPG::GameCore::FiveDimBaseEventAction
 	{
@@ -23,9 +23,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMSWITCHMATERIALACTION__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_C508B12D60470FB3(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::FiveDimSwitchMaterialAction*& a2)
+		static ::System::Void Method_3_251CBE4894E84A7C(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::FiveDimSwitchMaterialAction*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::FiveDimSwitchMaterialAction*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMSWITCHMATERIALACTION_METHOD_3_C508B12D60470FB3_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::FiveDimSwitchMaterialAction*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMSWITCHMATERIALACTION_METHOD_3_251CBE4894E84A7C_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_B6DF56A91BA61439(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::FiveDimSwitchMaterialAction* a2)

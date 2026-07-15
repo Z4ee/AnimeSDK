@@ -1,17 +1,17 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Class_1_26684305CEECE64E.h"
+#include "unitysdk/Class_1_E559374AC4E5AD13.h"
 
 class Class_2_21AD365C113DC484;
 class Class_2_F3C45F1FC7349B6E;
 namespace RPG::GameCore { class CakeRaceActionGenCurSectionWubbaboo; }
 
-#define CLASS_2_097F27DCDF83678B_METHOD_2_B8262374A0257BB3_OFFSET UNITYSDK_OFFSET(0x189E2080)
-#define CLASS_2_097F27DCDF83678B__CTOR_OFFSET UNITYSDK_OFFSET(0x189E2070)
+#define CLASS_2_097F27DCDF83678B_METHOD_2_B8262374A0257BB3_OFFSET UNITYSDK_OFFSET(0x18D41D80)
+#define CLASS_2_097F27DCDF83678B__CTOR_OFFSET UNITYSDK_OFFSET(0x18D41D70)
 
-inline static constexpr unsigned int Class_2_097F27DCDF83678B_TypeDefinitionIndex = 35036;
+inline static constexpr unsigned int Class_2_097F27DCDF83678B_TypeDefinitionIndex = 35818;
 
-class Class_2_097F27DCDF83678B : public ::Class_1_26684305CEECE64E
+class Class_2_097F27DCDF83678B : public ::Class_1_E559374AC4E5AD13
 {
 public:
 	::RPG::GameCore::CakeRaceActionGenCurSectionWubbaboo* Field_2_0; // 0x10

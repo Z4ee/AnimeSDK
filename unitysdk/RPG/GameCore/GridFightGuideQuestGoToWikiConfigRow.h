@@ -4,18 +4,18 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_GRIDFIGHTGUIDEQUESTGOTOWIKICONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x197E6E10)
-#define RPG_GAMECORE_GRIDFIGHTGUIDEQUESTGOTOWIKICONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x197E6F30)
+#define RPG_GAMECORE_GRIDFIGHTGUIDEQUESTGOTOWIKICONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1C5CE9A0)
+#define RPG_GAMECORE_GRIDFIGHTGUIDEQUESTGOTOWIKICONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1C5CEAC0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int GridFightGuideQuestGoToWikiConfigRow_TypeDefinitionIndex = 12946;
+	inline static constexpr unsigned int GridFightGuideQuestGoToWikiConfigRow_TypeDefinitionIndex = 13094;
 
 	class GridFightGuideQuestGoToWikiConfigRow : public ::System::Object
 	{
 	public:
-		::System::UInt32 QuestID; // 0x10
-		::System::UInt32 TutorialGuideGroupID; // 0x14
+		::System::UInt32 TutorialGuideGroupID; // 0x10
+		::System::UInt32 QuestID; // 0x14
 
 		::System::Void _ctor()
 		{

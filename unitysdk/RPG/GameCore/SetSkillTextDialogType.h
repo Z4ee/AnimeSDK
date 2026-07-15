@@ -7,13 +7,13 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class TargetEvaluator; }
 
-#define RPG_GAMECORE_SETSKILLTEXTDIALOGTYPE_METHOD_3_56A7872EDE049FB2_OFFSET UNITYSDK_OFFSET(0x19C5EE00)
-#define RPG_GAMECORE_SETSKILLTEXTDIALOGTYPE_METHOD_3_B88B1E7245C8B775_OFFSET UNITYSDK_OFFSET(0x19C5ED80)
-#define RPG_GAMECORE_SETSKILLTEXTDIALOGTYPE__CTOR_OFFSET UNITYSDK_OFFSET(0x19C5EDD0)
+#define RPG_GAMECORE_SETSKILLTEXTDIALOGTYPE_METHOD_3_56A7872EDE049FB2_OFFSET UNITYSDK_OFFSET(0x1C6087C0)
+#define RPG_GAMECORE_SETSKILLTEXTDIALOGTYPE_METHOD_3_A4B2DB8B8FFF88E7_OFFSET UNITYSDK_OFFSET(0x1C608780)
+#define RPG_GAMECORE_SETSKILLTEXTDIALOGTYPE__CTOR_OFFSET UNITYSDK_OFFSET(0x1C6087B0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SetSkillTextDialogType_TypeDefinitionIndex = 21682;
+	inline static constexpr unsigned int SetSkillTextDialogType_TypeDefinitionIndex = 22109;
 
 	class SetSkillTextDialogType : public ::RPG::GameCore::TaskConfig
 	{
@@ -28,9 +28,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETSKILLTEXTDIALOGTYPE__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_B88B1E7245C8B775(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SetSkillTextDialogType*& a2)
+		static ::System::Void Method_3_A4B2DB8B8FFF88E7(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SetSkillTextDialogType*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SetSkillTextDialogType*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETSKILLTEXTDIALOGTYPE_METHOD_3_B88B1E7245C8B775_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SetSkillTextDialogType*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETSKILLTEXTDIALOGTYPE_METHOD_3_A4B2DB8B8FFF88E7_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_56A7872EDE049FB2(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SetSkillTextDialogType* a2)

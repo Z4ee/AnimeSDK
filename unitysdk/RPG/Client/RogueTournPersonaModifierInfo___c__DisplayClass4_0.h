@@ -1,21 +1,21 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Enum_3_0F1B992870941C13_3.h"
+#include "unitysdk/Enum_3_0F1B992870941C13_4.h"
 #include "unitysdk/System/Object.h"
 
 namespace RPG::Client { class IRogueTournPersonaModifier; }
 
-#define RPG_CLIENT_ROGUETOURNPERSONAMODIFIERINFO___C__DISPLAYCLASS4_0__CTOR_OFFSET UNITYSDK_OFFSET(0xC84A360)
-#define RPG_CLIENT_ROGUETOURNPERSONAMODIFIERINFO___C__DISPLAYCLASS4_0__GETMODIFIERSBYSOURCETYPE_B__0_OFFSET UNITYSDK_OFFSET(0xC84A4D0)
+#define RPG_CLIENT_ROGUETOURNPERSONAMODIFIERINFO___C__DISPLAYCLASS4_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1AA6B2D0)
+#define RPG_CLIENT_ROGUETOURNPERSONAMODIFIERINFO___C__DISPLAYCLASS4_0__GETMODIFIERSBYSOURCETYPE_B__0_OFFSET UNITYSDK_OFFSET(0x1AA6B3C0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int RogueTournPersonaModifierInfo___c__DisplayClass4_0_TypeDefinitionIndex = 63331;
+	inline static constexpr unsigned int RogueTournPersonaModifierInfo___c__DisplayClass4_0_TypeDefinitionIndex = 64698;
 
 	class RogueTournPersonaModifierInfo___c__DisplayClass4_0 : public ::System::Object
 	{
 	public:
-		::Enum_3_0F1B992870941C13_3 type; // 0x10
+		::Enum_3_0F1B992870941C13_4 type; // 0x10
 
 		::System::Void _ctor()
 		{

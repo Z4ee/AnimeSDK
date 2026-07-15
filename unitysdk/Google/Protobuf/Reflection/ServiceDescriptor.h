@@ -9,20 +9,20 @@ namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class IList_1; }
 namespace System::Collections::Generic { template <typename T> class IReadOnlyList_1; }
 
-#define GOOGLE_PROTOBUF_REFLECTION_SERVICEDESCRIPTOR_CROSSLINK_OFFSET UNITYSDK_OFFSET(0x17E7B300)
-#define GOOGLE_PROTOBUF_REFLECTION_SERVICEDESCRIPTOR_GETNESTEDDESCRIPTORLISTFORFIELD_OFFSET UNITYSDK_OFFSET(0x17E7B290)
-#define GOOGLE_PROTOBUF_REFLECTION_SERVICEDESCRIPTOR_GET_NAME_OFFSET UNITYSDK_OFFSET(0x17E7B220)
-#define GOOGLE_PROTOBUF_REFLECTION_SERVICEDESCRIPTOR__CTOR_OFFSET UNITYSDK_OFFSET(0x17E7B010)
+#define GOOGLE_PROTOBUF_REFLECTION_SERVICEDESCRIPTOR_CROSSLINK_OFFSET UNITYSDK_OFFSET(0x1BDC7CE0)
+#define GOOGLE_PROTOBUF_REFLECTION_SERVICEDESCRIPTOR_GETNESTEDDESCRIPTORLISTFORFIELD_OFFSET UNITYSDK_OFFSET(0x1BDC7C70)
+#define GOOGLE_PROTOBUF_REFLECTION_SERVICEDESCRIPTOR_GET_NAME_OFFSET UNITYSDK_OFFSET(0x1BDC7C00)
+#define GOOGLE_PROTOBUF_REFLECTION_SERVICEDESCRIPTOR__CTOR_OFFSET UNITYSDK_OFFSET(0x1BDC79F0)
 
 namespace Google::Protobuf::Reflection
 {
-	inline static constexpr unsigned int ServiceDescriptor_TypeDefinitionIndex = 5571;
+	inline static constexpr unsigned int ServiceDescriptor_TypeDefinitionIndex = 5576;
 
 	class ServiceDescriptor : public ::Google::Protobuf::Reflection::DescriptorBase
 	{
 	public:
-		::Google::Protobuf::Reflection::ServiceDescriptorProto* proto; // 0x28
-		::System::Collections::Generic::IList_1<::Google::Protobuf::Reflection::MethodDescriptor*>* methods; // 0x30
+		::System::Collections::Generic::IList_1<::Google::Protobuf::Reflection::MethodDescriptor*>* methods; // 0x28
+		::Google::Protobuf::Reflection::ServiceDescriptorProto* proto; // 0x30
 
 		::System::Void _ctor(::Google::Protobuf::Reflection::ServiceDescriptorProto* a1, ::Google::Protobuf::Reflection::FileDescriptor* a2, ::System::Int32 a3)
 		{

@@ -8,34 +8,34 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_SHOPCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x19C6F8A0)
-#define RPG_GAMECORE_SHOPCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x19C70730)
+#define RPG_GAMECORE_SHOPCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1BE34BA0)
+#define RPG_GAMECORE_SHOPCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1BE35A30)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ShopConfigRow_TypeDefinitionIndex = 14366;
+	inline static constexpr unsigned int ShopConfigRow_TypeDefinitionIndex = 14514;
 
 	class ShopConfigRow : public ::System::Object
 	{
 	public:
 		::System::String* ShopIconPath; // 0x10
-		::System::String* ShopBar; // 0x18
-		::Il2CppArray<::System::UInt32>* LimitValue1List; // 0x20
-		::Il2CppArray<::System::UInt32>* LimitValue2List; // 0x28
+		::Il2CppArray<::System::UInt32>* LimitValue2List; // 0x18
+		::System::String* ShopBar; // 0x20
+		::Il2CppArray<::System::UInt32>* LimitValue1List; // 0x28
 		::RPG::Client::TextID ShopName; // 0x30
-		::RPG::GameCore::LimitType LimitType1; // 0x40
-		::System::UInt32 ShopSortID; // 0x44
-		::System::UInt32 ShopType; // 0x48
-		::System::UInt32 ScheduleDataID; // 0x4C
-		::System::UInt32 ActivityModuleID; // 0x50
-		::RPG::GameCore::ShopMainType ShopMainType; // 0x54
-		::System::Boolean IsOpen; // 0x58
-		::System::Boolean ServerVerification; // 0x59
-		::System::Boolean HideRemainTime; // 0x5A
-		::RPG::GameCore::LimitType LimitType2; // 0x5C
-		::RPG::Client::TextID ShopDesc; // 0x60
-		::System::UInt32 ShopGroupID; // 0x70
-		::System::UInt32 ShopID; // 0x74
+		::System::UInt32 ShopType; // 0x40
+		::RPG::GameCore::LimitType LimitType1; // 0x44
+		::RPG::GameCore::ShopMainType ShopMainType; // 0x48
+		::System::UInt32 ShopGroupID; // 0x4C
+		::RPG::Client::TextID ShopDesc; // 0x50
+		::System::UInt32 ShopSortID; // 0x60
+		::System::UInt32 ActivityModuleID; // 0x64
+		::System::UInt32 ScheduleDataID; // 0x68
+		::System::Boolean IsOpen; // 0x6C
+		::System::Boolean ServerVerification; // 0x6D
+		::System::Boolean HideRemainTime; // 0x6E
+		::System::UInt32 ShopID; // 0x70
+		::RPG::GameCore::LimitType LimitType2; // 0x74
 
 		::System::Void _ctor()
 		{

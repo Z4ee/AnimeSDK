@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int Class_4_E87F0EF9CD288BB9_LineGlowBlendingMode_TypeDefinitionIndex = 66204;
+inline static constexpr unsigned int Class_4_E87F0EF9CD288BB9_LineGlowBlendingMode_TypeDefinitionIndex = 67629;
 
 enum class Class_4_E87F0EF9CD288BB9_LineGlowBlendingMode : ::System::Int32
 {

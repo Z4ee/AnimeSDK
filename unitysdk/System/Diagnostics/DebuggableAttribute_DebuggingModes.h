@@ -3,7 +3,7 @@
 
 namespace System::Diagnostics
 {
-	inline static constexpr unsigned int DebuggableAttribute_DebuggingModes_TypeDefinitionIndex = 1566;
+	inline static constexpr unsigned int DebuggableAttribute_DebuggingModes_TypeDefinitionIndex = 1570;
 
 	enum class DebuggableAttribute_DebuggingModes : ::System::Int32
 	{

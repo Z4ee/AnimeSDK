@@ -3,7 +3,7 @@
 
 namespace RPG::Client::LittleGameShare
 {
-	inline static constexpr unsigned int ReplicationDormancy_TypeDefinitionIndex = 34662;
+	inline static constexpr unsigned int ReplicationDormancy_TypeDefinitionIndex = 35328;
 
 	enum class ReplicationDormancy : ::System::Byte
 	{

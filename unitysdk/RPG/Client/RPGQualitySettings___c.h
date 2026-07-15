@@ -5,24 +5,24 @@
 namespace RPG::Client { class PCResolution; }
 namespace System { template <typename T> class Comparison_1; }
 
-#define RPG_CLIENT_RPGQUALITYSETTINGS___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xC6959A0)
-#define RPG_CLIENT_RPGQUALITYSETTINGS___C__CTOR_OFFSET UNITYSDK_OFFSET(0xC6959D0)
-#define RPG_CLIENT_RPGQUALITYSETTINGS___C__GETALLDEVICERESOLUTIONS_B__76_0_OFFSET UNITYSDK_OFFSET(0xC6959E0)
+#define RPG_CLIENT_RPGQUALITYSETTINGS___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x167A26E0)
+#define RPG_CLIENT_RPGQUALITYSETTINGS___C__CTOR_OFFSET UNITYSDK_OFFSET(0x167A2710)
+#define RPG_CLIENT_RPGQUALITYSETTINGS___C__GETALLDEVICERESOLUTIONS_B__76_0_OFFSET UNITYSDK_OFFSET(0x167A2720)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int RPGQualitySettings___c_TypeDefinitionIndex = 63545;
+	inline static constexpr unsigned int RPGQualitySettings___c_TypeDefinitionIndex = 64912;
 
 	class RPGQualitySettings___c : public ::System::Object
 	{
 	public:
-		static ::RPG::Client::RPGQualitySettings___c** StaticGet___9()
-		{
-			return (::RPG::Client::RPGQualitySettings___c**)Il2CppClass::FromTypeDefinitionIndex(RPGQualitySettings___c_TypeDefinitionIndex)->GetStaticField(0x27550);
-		}
 		static ::System::Comparison_1<::RPG::Client::PCResolution*>** StaticGet___9__76_0()
 		{
-			return (::System::Comparison_1<::RPG::Client::PCResolution*>**)Il2CppClass::FromTypeDefinitionIndex(RPGQualitySettings___c_TypeDefinitionIndex)->GetStaticField(0x27558);
+			return (::System::Comparison_1<::RPG::Client::PCResolution*>**)Il2CppClass::FromTypeDefinitionIndex(RPGQualitySettings___c_TypeDefinitionIndex)->GetStaticField(0x19870);
+		}
+		static ::RPG::Client::RPGQualitySettings___c** StaticGet___9()
+		{
+			return (::RPG::Client::RPGQualitySettings___c**)Il2CppClass::FromTypeDefinitionIndex(RPGQualitySettings___c_TypeDefinitionIndex)->GetStaticField(0x19878);
 		}
 
 		static ::System::Void _cctor()

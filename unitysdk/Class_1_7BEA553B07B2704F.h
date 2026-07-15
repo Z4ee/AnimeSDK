@@ -4,11 +4,11 @@
 
 namespace RPG::Client { class GridFightGameFormation; }
 
-#define CLASS_1_7BEA553B07B2704F_METHOD_1_1E6ACE55B4B75E9B_OFFSET UNITYSDK_OFFSET(0xAC922E0)
-#define CLASS_1_7BEA553B07B2704F_METHOD_1_842BFDADF3B3F2EA_OFFSET UNITYSDK_OFFSET(0xAC93FE0)
-#define CLASS_1_7BEA553B07B2704F__CTOR_OFFSET UNITYSDK_OFFSET(0xAC95140)
+#define CLASS_1_7BEA553B07B2704F_METHOD_1_842BFDADF3B3F2EA_OFFSET UNITYSDK_OFFSET(0x1706A940)
+#define CLASS_1_7BEA553B07B2704F_METHOD_1_C5893590A0095DB6_OFFSET UNITYSDK_OFFSET(0x17068200)
+#define CLASS_1_7BEA553B07B2704F__CTOR_OFFSET UNITYSDK_OFFSET(0x1706BAA0)
 
-inline static constexpr unsigned int Class_1_7BEA553B07B2704F_TypeDefinitionIndex = 60409;
+inline static constexpr unsigned int Class_1_7BEA553B07B2704F_TypeDefinitionIndex = 61700;
 
 class Class_1_7BEA553B07B2704F : public ::System::Object
 {
@@ -20,9 +20,9 @@ public:
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_7BEA553B07B2704F__CTOR_OFFSET))(this);
 	}
 
-	::Il2CppArray<::System::Byte>* Method_1_1E6ACE55B4B75E9B(::RPG::Client::GridFightGameFormation* a1)
+	::Il2CppArray<::System::Byte>* Method_1_C5893590A0095DB6(::RPG::Client::GridFightGameFormation* a1)
 	{
-		return ((::Il2CppArray<::System::Byte>*(*)(::PVOID, ::RPG::Client::GridFightGameFormation*))((::PBYTE)hIl2Cpp + CLASS_1_7BEA553B07B2704F_METHOD_1_1E6ACE55B4B75E9B_OFFSET))(this, a1);
+		return ((::Il2CppArray<::System::Byte>*(*)(::PVOID, ::RPG::Client::GridFightGameFormation*))((::PBYTE)hIl2Cpp + CLASS_1_7BEA553B07B2704F_METHOD_1_C5893590A0095DB6_OFFSET))(this, a1);
 	}
 
 	::System::Void Method_1_842BFDADF3B3F2EA(::RPG::Client::GridFightGameFormation* a1, ::Il2CppArray<::System::Byte>* a2)

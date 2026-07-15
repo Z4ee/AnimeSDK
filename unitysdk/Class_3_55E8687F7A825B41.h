@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class AdvIsometricSetSwipeCamera; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_55E8687F7A825B41_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1443DEA0)
-#define CLASS_3_55E8687F7A825B41__CTOR_OFFSET UNITYSDK_OFFSET(0x1443DE70)
+#define CLASS_3_55E8687F7A825B41_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x192262A0)
+#define CLASS_3_55E8687F7A825B41__CTOR_OFFSET UNITYSDK_OFFSET(0x19226270)
 
-inline static constexpr unsigned int Class_3_55E8687F7A825B41_TypeDefinitionIndex = 48989;
+inline static constexpr unsigned int Class_3_55E8687F7A825B41_TypeDefinitionIndex = 50002;
 
 class Class_3_55E8687F7A825B41 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::AdvIsometricSetSwipeCamera*>
 {

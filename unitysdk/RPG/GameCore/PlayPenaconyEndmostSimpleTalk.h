@@ -5,13 +5,13 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class PenaconyEndmostSimpleTalkData; }
 
-#define RPG_GAMECORE_PLAYPENACONYENDMOSTSIMPLETALK_METHOD_3_09F201307237FC54_OFFSET UNITYSDK_OFFSET(0x19A27CE0)
-#define RPG_GAMECORE_PLAYPENACONYENDMOSTSIMPLETALK_METHOD_3_5448CFCAC689CE17_OFFSET UNITYSDK_OFFSET(0x19A27C60)
-#define RPG_GAMECORE_PLAYPENACONYENDMOSTSIMPLETALK__CTOR_OFFSET UNITYSDK_OFFSET(0x19A27CB0)
+#define RPG_GAMECORE_PLAYPENACONYENDMOSTSIMPLETALK_METHOD_3_09F201307237FC54_OFFSET UNITYSDK_OFFSET(0x1BA06640)
+#define RPG_GAMECORE_PLAYPENACONYENDMOSTSIMPLETALK_METHOD_3_D89A2F6C61552967_OFFSET UNITYSDK_OFFSET(0x1BA06600)
+#define RPG_GAMECORE_PLAYPENACONYENDMOSTSIMPLETALK__CTOR_OFFSET UNITYSDK_OFFSET(0x1BA06630)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PlayPenaconyEndmostSimpleTalk_TypeDefinitionIndex = 20605;
+	inline static constexpr unsigned int PlayPenaconyEndmostSimpleTalk_TypeDefinitionIndex = 21020;
 
 	class PlayPenaconyEndmostSimpleTalk : public ::RPG::GameCore::TaskConfig
 	{
@@ -23,9 +23,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PLAYPENACONYENDMOSTSIMPLETALK__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_5448CFCAC689CE17(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::PlayPenaconyEndmostSimpleTalk*& a2)
+		static ::System::Void Method_3_D89A2F6C61552967(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::PlayPenaconyEndmostSimpleTalk*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::PlayPenaconyEndmostSimpleTalk*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PLAYPENACONYENDMOSTSIMPLETALK_METHOD_3_5448CFCAC689CE17_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::PlayPenaconyEndmostSimpleTalk*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PLAYPENACONYENDMOSTSIMPLETALK_METHOD_3_D89A2F6C61552967_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_09F201307237FC54(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::PlayPenaconyEndmostSimpleTalk* a2)

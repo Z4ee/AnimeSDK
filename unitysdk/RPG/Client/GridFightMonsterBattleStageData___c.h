@@ -5,24 +5,24 @@
 namespace RPG::Client { class GridFightMonsterData; }
 namespace System { template <typename T> class Comparison_1; }
 
-#define RPG_CLIENT_GRIDFIGHTMONSTERBATTLESTAGEDATA___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xBBB5860)
-#define RPG_CLIENT_GRIDFIGHTMONSTERBATTLESTAGEDATA___C__CTOR_OFFSET UNITYSDK_OFFSET(0xBBB58A0)
-#define RPG_CLIENT_GRIDFIGHTMONSTERBATTLESTAGEDATA___C__SYNC_B__0_0_OFFSET UNITYSDK_OFFSET(0xBBB58B0)
+#define RPG_CLIENT_GRIDFIGHTMONSTERBATTLESTAGEDATA___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x195277B0)
+#define RPG_CLIENT_GRIDFIGHTMONSTERBATTLESTAGEDATA___C__CTOR_OFFSET UNITYSDK_OFFSET(0x195277F0)
+#define RPG_CLIENT_GRIDFIGHTMONSTERBATTLESTAGEDATA___C__SYNC_B__0_0_OFFSET UNITYSDK_OFFSET(0x19527800)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GridFightMonsterBattleStageData___c_TypeDefinitionIndex = 60835;
+	inline static constexpr unsigned int GridFightMonsterBattleStageData___c_TypeDefinitionIndex = 62135;
 
 	class GridFightMonsterBattleStageData___c : public ::System::Object
 	{
 	public:
-		static ::RPG::Client::GridFightMonsterBattleStageData___c** StaticGet___9()
-		{
-			return (::RPG::Client::GridFightMonsterBattleStageData___c**)Il2CppClass::FromTypeDefinitionIndex(GridFightMonsterBattleStageData___c_TypeDefinitionIndex)->GetStaticField(0x34360);
-		}
 		static ::System::Comparison_1<::RPG::Client::GridFightMonsterData*>** StaticGet___9__0_0()
 		{
-			return (::System::Comparison_1<::RPG::Client::GridFightMonsterData*>**)Il2CppClass::FromTypeDefinitionIndex(GridFightMonsterBattleStageData___c_TypeDefinitionIndex)->GetStaticField(0x34368);
+			return (::System::Comparison_1<::RPG::Client::GridFightMonsterData*>**)Il2CppClass::FromTypeDefinitionIndex(GridFightMonsterBattleStageData___c_TypeDefinitionIndex)->GetStaticField(0x293B0);
+		}
+		static ::RPG::Client::GridFightMonsterBattleStageData___c** StaticGet___9()
+		{
+			return (::RPG::Client::GridFightMonsterBattleStageData___c**)Il2CppClass::FromTypeDefinitionIndex(GridFightMonsterBattleStageData___c_TypeDefinitionIndex)->GetStaticField(0x293B8);
 		}
 
 		static ::System::Void _cctor()

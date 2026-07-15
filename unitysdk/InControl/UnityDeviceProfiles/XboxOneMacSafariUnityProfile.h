@@ -2,12 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/InControl/InputDeviceProfile.h"
 
-#define INCONTROL_UNITYDEVICEPROFILES_XBOXONEMACSAFARIUNITYPROFILE_DEFINE_OFFSET UNITYSDK_OFFSET(0x1810F8E0)
-#define INCONTROL_UNITYDEVICEPROFILES_XBOXONEMACSAFARIUNITYPROFILE__CTOR_OFFSET UNITYSDK_OFFSET(0x18110A20)
+#define INCONTROL_UNITYDEVICEPROFILES_XBOXONEMACSAFARIUNITYPROFILE_DEFINE_OFFSET UNITYSDK_OFFSET(0xB551C80)
+#define INCONTROL_UNITYDEVICEPROFILES_XBOXONEMACSAFARIUNITYPROFILE__CTOR_OFFSET UNITYSDK_OFFSET(0xB552D60)
 
 namespace InControl::UnityDeviceProfiles
 {
-	inline static constexpr unsigned int XboxOneMacSafariUnityProfile_TypeDefinitionIndex = 38090;
+	inline static constexpr unsigned int XboxOneMacSafariUnityProfile_TypeDefinitionIndex = 38898;
 
 	class XboxOneMacSafariUnityProfile : public ::InControl::InputDeviceProfile
 	{

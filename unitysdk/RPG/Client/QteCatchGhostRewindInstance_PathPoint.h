@@ -6,7 +6,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int QteCatchGhostRewindInstance_PathPoint_TypeDefinitionIndex = 56329;
+	inline static constexpr unsigned int QteCatchGhostRewindInstance_PathPoint_TypeDefinitionIndex = 57568;
 
 	struct alignas(4) QteCatchGhostRewindInstance_PathPoint
 	{

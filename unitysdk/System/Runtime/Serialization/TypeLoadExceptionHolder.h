@@ -4,12 +4,12 @@
 
 namespace System { class String; }
 
-#define SYSTEM_RUNTIME_SERIALIZATION_TYPELOADEXCEPTIONHOLDER_GET_TYPENAME_OFFSET UNITYSDK_OFFSET(0x187D0D30)
-#define SYSTEM_RUNTIME_SERIALIZATION_TYPELOADEXCEPTIONHOLDER__CTOR_OFFSET UNITYSDK_OFFSET(0x187D0D20)
+#define SYSTEM_RUNTIME_SERIALIZATION_TYPELOADEXCEPTIONHOLDER_GET_TYPENAME_OFFSET UNITYSDK_OFFSET(0x18343A70)
+#define SYSTEM_RUNTIME_SERIALIZATION_TYPELOADEXCEPTIONHOLDER__CTOR_OFFSET UNITYSDK_OFFSET(0x18343A60)
 
 namespace System::Runtime::Serialization
 {
-	inline static constexpr unsigned int TypeLoadExceptionHolder_TypeDefinitionIndex = 1107;
+	inline static constexpr unsigned int TypeLoadExceptionHolder_TypeDefinitionIndex = 1109;
 
 	class TypeLoadExceptionHolder : public ::System::Object
 	{

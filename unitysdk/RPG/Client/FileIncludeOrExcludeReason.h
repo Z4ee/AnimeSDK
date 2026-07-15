@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int FileIncludeOrExcludeReason_TypeDefinitionIndex = 33474;
+	inline static constexpr unsigned int FileIncludeOrExcludeReason_TypeDefinitionIndex = 33844;
 
 	enum class FileIncludeOrExcludeReason : ::System::Int32
 	{

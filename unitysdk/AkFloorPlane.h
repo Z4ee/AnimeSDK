@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int AkFloorPlane_TypeDefinitionIndex = 41123;
+inline static constexpr unsigned int AkFloorPlane_TypeDefinitionIndex = 41938;
 
 enum class AkFloorPlane : ::System::Int32
 {

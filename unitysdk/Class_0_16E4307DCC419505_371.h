@@ -1,10 +1,11 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Struct_2_019938BC9C50B169_3.h"
 
-class Class_1_71EAE0D13B3DF503;
+class Class_1_39155512A8777971;
+namespace System { class Object; }
+namespace UnityEngine::Rendering { class CommandBuffer; }
 
-inline static constexpr unsigned int Class_0_16E4307DCC419505_371_TypeDefinitionIndex = 48534;
+inline static constexpr unsigned int Class_0_16E4307DCC419505_371_TypeDefinitionIndex = 47694;
 
 class Class_0_16E4307DCC419505_371
 {

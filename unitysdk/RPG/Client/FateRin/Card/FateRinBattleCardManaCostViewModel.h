@@ -1,0 +1,44 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/RPG/Client/FateRin/BaseViewModel.h"
+
+class Class_1_5F4D64A4B97E38F9;
+class Class_1_B71FC14BA77C9F77;
+class Class_1_F9FBCC956DFCF137_30;
+namespace System { class String; }
+
+#define RPG_CLIENT_FATERIN_CARD_FATERINBATTLECARDMANACOSTVIEWMODEL_GET_MANACOST_OFFSET UNITYSDK_OFFSET(0x1B499820)
+#define RPG_CLIENT_FATERIN_CARD_FATERINBATTLECARDMANACOSTVIEWMODEL_GET_UISTATE_OFFSET UNITYSDK_OFFSET(0x1B499870)
+#define RPG_CLIENT_FATERIN_CARD_FATERINBATTLECARDMANACOSTVIEWMODEL__CTOR_OFFSET UNITYSDK_OFFSET(0x1B499720)
+#define RPG_CLIENT_FATERIN_CARD_FATERINBATTLECARDMANACOSTVIEWMODEL__ONBATTLECARDMODELCHANGEMESSAGE_OFFSET UNITYSDK_OFFSET(0x1B4997B0)
+
+namespace RPG::Client::FateRin::Card
+{
+	inline static constexpr unsigned int FateRinBattleCardManaCostViewModel_TypeDefinitionIndex = 76188;
+
+	class FateRinBattleCardManaCostViewModel : public ::RPG::Client::FateRin::BaseViewModel
+	{
+	public:
+		::Class_1_B71FC14BA77C9F77* _Model; // 0x20
+
+		::System::Void _ctor(::Class_1_B71FC14BA77C9F77* a1, ::Class_1_5F4D64A4B97E38F9* a2)
+		{
+			return ((::System::Void(*)(::PVOID, ::Class_1_B71FC14BA77C9F77*, ::Class_1_5F4D64A4B97E38F9*))((::PBYTE)hIl2Cpp + RPG_CLIENT_FATERIN_CARD_FATERINBATTLECARDMANACOSTVIEWMODEL__CTOR_OFFSET))(this, a1, a2);
+		}
+
+		::System::Void _OnBattleCardModelChangeMessage(::Class_1_F9FBCC956DFCF137_30* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::Class_1_F9FBCC956DFCF137_30*))((::PBYTE)hIl2Cpp + RPG_CLIENT_FATERIN_CARD_FATERINBATTLECARDMANACOSTVIEWMODEL__ONBATTLECARDMODELCHANGEMESSAGE_OFFSET))(this, a1);
+		}
+
+		::System::Int32 get_ManaCost()
+		{
+			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_FATERIN_CARD_FATERINBATTLECARDMANACOSTVIEWMODEL_GET_MANACOST_OFFSET))(this);
+		}
+
+		::System::String* get_UIState()
+		{
+			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_FATERIN_CARD_FATERINBATTLECARDMANACOSTVIEWMODEL_GET_UISTATE_OFFSET))(this);
+		}
+	};
+}

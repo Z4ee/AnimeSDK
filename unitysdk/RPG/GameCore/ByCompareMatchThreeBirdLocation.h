@@ -6,15 +6,15 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class DynamicFloat; }
 namespace SimpleJSON { class JSONNode; }
 
-#define RPG_GAMECORE_BYCOMPAREMATCHTHREEBIRDLOCATION_METHOD_4_0A2836F70137B5D2_OFFSET UNITYSDK_OFFSET(0x1951E490)
-#define RPG_GAMECORE_BYCOMPAREMATCHTHREEBIRDLOCATION_METHOD_4_4BAE5F190C56B87E_OFFSET UNITYSDK_OFFSET(0x1951E510)
-#define RPG_GAMECORE_BYCOMPAREMATCHTHREEBIRDLOCATION_METHOD_4_50A89E2182EADD97_OFFSET UNITYSDK_OFFSET(0x1951E2B0)
-#define RPG_GAMECORE_BYCOMPAREMATCHTHREEBIRDLOCATION_METHOD_4_94599E0E08FF9385_OFFSET UNITYSDK_OFFSET(0x1951E1E0)
-#define RPG_GAMECORE_BYCOMPAREMATCHTHREEBIRDLOCATION__CTOR_OFFSET UNITYSDK_OFFSET(0x1951E260)
+#define RPG_GAMECORE_BYCOMPAREMATCHTHREEBIRDLOCATION_METHOD_4_2DFED8C2CCA24E37_OFFSET UNITYSDK_OFFSET(0x19CF2950)
+#define RPG_GAMECORE_BYCOMPAREMATCHTHREEBIRDLOCATION_METHOD_4_34FBFD2D9B910F2A_OFFSET UNITYSDK_OFFSET(0x19CF2730)
+#define RPG_GAMECORE_BYCOMPAREMATCHTHREEBIRDLOCATION_METHOD_4_50A89E2182EADD97_OFFSET UNITYSDK_OFFSET(0x19CF2770)
+#define RPG_GAMECORE_BYCOMPAREMATCHTHREEBIRDLOCATION_METHOD_4_D1B1015F19514840_OFFSET UNITYSDK_OFFSET(0x19CF2980)
+#define RPG_GAMECORE_BYCOMPAREMATCHTHREEBIRDLOCATION__CTOR_OFFSET UNITYSDK_OFFSET(0x19CF2760)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ByCompareMatchThreeBirdLocation_TypeDefinitionIndex = 19835;
+	inline static constexpr unsigned int ByCompareMatchThreeBirdLocation_TypeDefinitionIndex = 20195;
 
 	class ByCompareMatchThreeBirdLocation : public ::RPG::GameCore::PredicateConfig
 	{
@@ -27,9 +27,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYCOMPAREMATCHTHREEBIRDLOCATION__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_4_94599E0E08FF9385(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ByCompareMatchThreeBirdLocation*& a2)
+		static ::System::Void Method_4_34FBFD2D9B910F2A(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ByCompareMatchThreeBirdLocation*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ByCompareMatchThreeBirdLocation*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYCOMPAREMATCHTHREEBIRDLOCATION_METHOD_4_94599E0E08FF9385_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ByCompareMatchThreeBirdLocation*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYCOMPAREMATCHTHREEBIRDLOCATION_METHOD_4_34FBFD2D9B910F2A_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_4_50A89E2182EADD97(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ByCompareMatchThreeBirdLocation* a2)
@@ -37,14 +37,14 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ByCompareMatchThreeBirdLocation*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYCOMPAREMATCHTHREEBIRDLOCATION_METHOD_4_50A89E2182EADD97_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_4_0A2836F70137B5D2(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::ByCompareMatchThreeBirdLocation*& a2)
+		static ::System::Void Method_4_2DFED8C2CCA24E37(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::ByCompareMatchThreeBirdLocation*& a2)
 		{
-			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::ByCompareMatchThreeBirdLocation*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYCOMPAREMATCHTHREEBIRDLOCATION_METHOD_4_0A2836F70137B5D2_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::ByCompareMatchThreeBirdLocation*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYCOMPAREMATCHTHREEBIRDLOCATION_METHOD_4_2DFED8C2CCA24E37_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_4_4BAE5F190C56B87E(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::ByCompareMatchThreeBirdLocation* a2)
+		static ::System::Void Method_4_D1B1015F19514840(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::ByCompareMatchThreeBirdLocation* a2)
 		{
-			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::ByCompareMatchThreeBirdLocation*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYCOMPAREMATCHTHREEBIRDLOCATION_METHOD_4_4BAE5F190C56B87E_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::ByCompareMatchThreeBirdLocation*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYCOMPAREMATCHTHREEBIRDLOCATION_METHOD_4_D1B1015F19514840_OFFSET))(a1, a2);
 		}
 	};
 }

@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MonoEffectManager_FieldEffectBudgetStrategy_TypeDefinitionIndex = 65304;
+	inline static constexpr unsigned int MonoEffectManager_FieldEffectBudgetStrategy_TypeDefinitionIndex = 66714;
 
 	enum class MonoEffectManager_FieldEffectBudgetStrategy : ::System::Int32
 	{

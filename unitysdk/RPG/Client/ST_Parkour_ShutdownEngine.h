@@ -4,13 +4,13 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_CLIENT_ST_PARKOUR_SHUTDOWNENGINE_METHOD_4_FB6FA5B354632C38_OFFSET UNITYSDK_OFFSET(0x193BE890)
-#define RPG_CLIENT_ST_PARKOUR_SHUTDOWNENGINE_METHOD_4_FBB2A37C10765CE7_OFFSET UNITYSDK_OFFSET(0x193BEA00)
-#define RPG_CLIENT_ST_PARKOUR_SHUTDOWNENGINE__CTOR_OFFSET UNITYSDK_OFFSET(0x193BE9B0)
+#define RPG_CLIENT_ST_PARKOUR_SHUTDOWNENGINE_METHOD_4_822A6E0CAFCAA04A_OFFSET UNITYSDK_OFFSET(0x1B9F1920)
+#define RPG_CLIENT_ST_PARKOUR_SHUTDOWNENGINE_METHOD_4_FBB2A37C10765CE7_OFFSET UNITYSDK_OFFSET(0x1B9F19F0)
+#define RPG_CLIENT_ST_PARKOUR_SHUTDOWNENGINE__CTOR_OFFSET UNITYSDK_OFFSET(0x1B9F19E0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ST_Parkour_ShutdownEngine_TypeDefinitionIndex = 9942;
+	inline static constexpr unsigned int ST_Parkour_ShutdownEngine_TypeDefinitionIndex = 9957;
 
 	class ST_Parkour_ShutdownEngine : public ::RPG::GameCore::STTaskConfig
 	{
@@ -20,9 +20,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ST_PARKOUR_SHUTDOWNENGINE__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_4_FB6FA5B354632C38(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::Client::ST_Parkour_ShutdownEngine*& a2)
+		static ::System::Void Method_4_822A6E0CAFCAA04A(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::Client::ST_Parkour_ShutdownEngine*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::Client::ST_Parkour_ShutdownEngine*&))((::PBYTE)hIl2Cpp + RPG_CLIENT_ST_PARKOUR_SHUTDOWNENGINE_METHOD_4_FB6FA5B354632C38_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::Client::ST_Parkour_ShutdownEngine*&))((::PBYTE)hIl2Cpp + RPG_CLIENT_ST_PARKOUR_SHUTDOWNENGINE_METHOD_4_822A6E0CAFCAA04A_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_4_FBB2A37C10765CE7(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::Client::ST_Parkour_ShutdownEngine* a2)

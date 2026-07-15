@@ -3,7 +3,7 @@
 
 namespace UnityEngine::ProBuilder
 {
-	inline static constexpr unsigned int PivotLocation_TypeDefinitionIndex = 40811;
+	inline static constexpr unsigned int PivotLocation_TypeDefinitionIndex = 41626;
 
 	enum class PivotLocation : ::System::Int32
 	{

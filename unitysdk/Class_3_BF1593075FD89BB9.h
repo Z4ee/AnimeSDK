@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class DestroyBattleCharacter; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_BF1593075FD89BB9_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x12AA9950)
-#define CLASS_3_BF1593075FD89BB9__CTOR_OFFSET UNITYSDK_OFFSET(0x12AA9920)
+#define CLASS_3_BF1593075FD89BB9_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x185D2E10)
+#define CLASS_3_BF1593075FD89BB9__CTOR_OFFSET UNITYSDK_OFFSET(0x185D2DE0)
 
-inline static constexpr unsigned int Class_3_BF1593075FD89BB9_TypeDefinitionIndex = 51400;
+inline static constexpr unsigned int Class_3_BF1593075FD89BB9_TypeDefinitionIndex = 52510;
 
 class Class_3_BF1593075FD89BB9 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::DestroyBattleCharacter*>
 {

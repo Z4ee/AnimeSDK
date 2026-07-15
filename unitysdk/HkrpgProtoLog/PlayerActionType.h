@@ -3,7 +3,7 @@
 
 namespace HkrpgProtoLog
 {
-	inline static constexpr unsigned int PlayerActionType_TypeDefinitionIndex = 23687;
+	inline static constexpr unsigned int PlayerActionType_TypeDefinitionIndex = 24178;
 
 	enum class PlayerActionType : ::System::Int32
 	{
@@ -839,6 +839,7 @@ namespace HkrpgProtoLog
 		PlayerActionMatch3RoyaleRoundEnd = 6324,
 		PlayerActionDiceCombatSettle = 6325,
 		PlayerActionDiceCombatV2Settle = 6326,
+		PlayerActionTeamTowersSettle = 6327,
 		PlayerActionSwordTrainingLearnSkill = 6351,
 		PlayerActionSwordTrainingNormalAction = 6352,
 		PlayerActionSwordTrainingStoryEffect = 6353,
@@ -1114,6 +1115,10 @@ namespace HkrpgProtoLog
 		PlayerActionGridFightFormationEdit = 7291,
 		PlayerActionGridFightModifierUpdate = 7292,
 		PlayerActionGridFightFormationUgcUpdate = 7293,
+		PlayerActionGridFightPartnerRoleChoose = 7294,
+		PlayerActionGridFightPrayQuestSelect = 7295,
+		PlayerActionGridFightPrayQuestFinish = 7296,
+		PlayerActionGridFightFatePrayQuestOptions = 7297,
 		PlayerActionLocalLegendBattleBegin = 7361,
 		PlayerActionLocalLegendBattleEnd = 7362,
 		PlayerActionDiceCombatBuyShopGood = 7351,
@@ -1214,6 +1219,9 @@ namespace HkrpgProtoLog
 		PlayerActionChenLingBattleCloneEntity = 7523,
 		PlayerActionCycleScoreChange = 7541,
 		PlayerActionCycleScoreTakeReward = 7542,
+		PlayerActionFateRinFightStart = 7546,
+		PlayerActionFateRinFightEnd = 7547,
+		PlayerActionFateRinDeckModify = 7548,
 		PlayerActionRelicPresetPlanSave = 7581,
 		PlayerActionRelicPresetPlanDelete = 7582,
 		PlayerActionRelicPresetPlanModifyName = 7583,
@@ -1239,5 +1247,9 @@ namespace HkrpgProtoLog
 		PlayerActionChenLingFesBusinessDayEnd = 7642,
 		PlayerActionChenLingFesPhaseSettle = 7643,
 		PlayerActionChenLingFesLevelSettle = 7644,
+		PlayerActionChooseDeliveryChoose = 7661,
+		PlayerActionTeamTowersPveEnd = 7671,
+		PlayerActionTeamTowersPvpStart = 7672,
+		PlayerActionTeamTowersPvpEnd = 7673,
 	};
 }

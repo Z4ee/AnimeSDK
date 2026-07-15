@@ -5,21 +5,21 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_PSACTIVITYROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x19AA0500)
-#define RPG_GAMECORE_PSACTIVITYROW__CTOR_OFFSET UNITYSDK_OFFSET(0x19AA07F0)
+#define RPG_GAMECORE_PSACTIVITYROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B9A7A20)
+#define RPG_GAMECORE_PSACTIVITYROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1B9A7D10)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PsActivityRow_TypeDefinitionIndex = 12445;
+	inline static constexpr unsigned int PsActivityRow_TypeDefinitionIndex = 12582;
 
 	class PsActivityRow : public ::System::Object
 	{
 	public:
 		::Il2CppArray<::System::UInt32>* ObjectIDList; // 0x10
-		::System::UInt32 ActivityID; // 0x18
-		::RPG::Client::TextID name; // 0x20
-		::RPG::Client::TextID task; // 0x30
-		::RPG::Client::TextID description; // 0x40
+		::RPG::Client::TextID task; // 0x18
+		::RPG::Client::TextID description; // 0x28
+		::RPG::Client::TextID name; // 0x38
+		::System::UInt32 ActivityID; // 0x48
 
 		::System::Void _ctor()
 		{

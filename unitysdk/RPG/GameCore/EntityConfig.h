@@ -8,12 +8,12 @@ namespace RPG::GameCore { class ComponentConfig; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_ENTITYCONFIG_METHOD_2_32EE5C477F8CAF49_OFFSET UNITYSDK_OFFSET(0x196EB0B0)
-#define RPG_GAMECORE_ENTITYCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x196EB260)
+#define RPG_GAMECORE_ENTITYCONFIG_METHOD_2_32EE5C477F8CAF49_OFFSET UNITYSDK_OFFSET(0x1C053E70)
+#define RPG_GAMECORE_ENTITYCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1C054020)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int EntityConfig_TypeDefinitionIndex = 15745;
+	inline static constexpr unsigned int EntityConfig_TypeDefinitionIndex = 15919;
 
 	class EntityConfig : public ::RPG::GameCore::JsonConfig
 	{

@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MonoPlayerAttachmentPluginPriority_TypeDefinitionIndex = 56225;
+	inline static constexpr unsigned int MonoPlayerAttachmentPluginPriority_TypeDefinitionIndex = 57464;
 
 	enum class MonoPlayerAttachmentPluginPriority : ::System::Int32
 	{

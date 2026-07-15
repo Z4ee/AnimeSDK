@@ -5,13 +5,13 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class TargetEvaluator; }
 
-#define RPG_GAMECORE_CLEARACTIONBARHIGHLIGHTENTITY_METHOD_3_ADDB0D0726F41EB5_OFFSET UNITYSDK_OFFSET(0x19652140)
-#define RPG_GAMECORE_CLEARACTIONBARHIGHLIGHTENTITY_METHOD_3_C79C01BEDB139444_OFFSET UNITYSDK_OFFSET(0x196520C0)
-#define RPG_GAMECORE_CLEARACTIONBARHIGHLIGHTENTITY__CTOR_OFFSET UNITYSDK_OFFSET(0x19652110)
+#define RPG_GAMECORE_CLEARACTIONBARHIGHLIGHTENTITY_METHOD_3_485220526FF8E5F6_OFFSET UNITYSDK_OFFSET(0x1C252FF0)
+#define RPG_GAMECORE_CLEARACTIONBARHIGHLIGHTENTITY_METHOD_3_ADDB0D0726F41EB5_OFFSET UNITYSDK_OFFSET(0x1C253030)
+#define RPG_GAMECORE_CLEARACTIONBARHIGHLIGHTENTITY__CTOR_OFFSET UNITYSDK_OFFSET(0x1C253020)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ClearActionBarHighlightEntity_TypeDefinitionIndex = 21988;
+	inline static constexpr unsigned int ClearActionBarHighlightEntity_TypeDefinitionIndex = 22422;
 
 	class ClearActionBarHighlightEntity : public ::RPG::GameCore::TaskConfig
 	{
@@ -23,9 +23,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CLEARACTIONBARHIGHLIGHTENTITY__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_C79C01BEDB139444(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ClearActionBarHighlightEntity*& a2)
+		static ::System::Void Method_3_485220526FF8E5F6(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ClearActionBarHighlightEntity*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ClearActionBarHighlightEntity*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CLEARACTIONBARHIGHLIGHTENTITY_METHOD_3_C79C01BEDB139444_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ClearActionBarHighlightEntity*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CLEARACTIONBARHIGHLIGHTENTITY_METHOD_3_485220526FF8E5F6_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_ADDB0D0726F41EB5(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ClearActionBarHighlightEntity* a2)

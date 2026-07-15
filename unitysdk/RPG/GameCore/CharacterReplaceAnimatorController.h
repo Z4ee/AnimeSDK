@@ -6,13 +6,13 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class TargetEvaluator; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_CHARACTERREPLACEANIMATORCONTROLLER_METHOD_3_47B0B0DB245B168A_OFFSET UNITYSDK_OFFSET(0x19614380)
-#define RPG_GAMECORE_CHARACTERREPLACEANIMATORCONTROLLER_METHOD_3_81C0F2161B400B31_OFFSET UNITYSDK_OFFSET(0x196142B0)
-#define RPG_GAMECORE_CHARACTERREPLACEANIMATORCONTROLLER__CTOR_OFFSET UNITYSDK_OFFSET(0x19614330)
+#define RPG_GAMECORE_CHARACTERREPLACEANIMATORCONTROLLER_METHOD_3_298CC1C038D78808_OFFSET UNITYSDK_OFFSET(0x1B729ED0)
+#define RPG_GAMECORE_CHARACTERREPLACEANIMATORCONTROLLER_METHOD_3_47B0B0DB245B168A_OFFSET UNITYSDK_OFFSET(0x1B729F70)
+#define RPG_GAMECORE_CHARACTERREPLACEANIMATORCONTROLLER__CTOR_OFFSET UNITYSDK_OFFSET(0x1B729F30)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int CharacterReplaceAnimatorController_TypeDefinitionIndex = 21939;
+	inline static constexpr unsigned int CharacterReplaceAnimatorController_TypeDefinitionIndex = 22373;
 
 	class CharacterReplaceAnimatorController : public ::RPG::GameCore::TaskConfig
 	{
@@ -25,9 +25,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHARACTERREPLACEANIMATORCONTROLLER__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_81C0F2161B400B31(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::CharacterReplaceAnimatorController*& a2)
+		static ::System::Void Method_3_298CC1C038D78808(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::CharacterReplaceAnimatorController*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::CharacterReplaceAnimatorController*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHARACTERREPLACEANIMATORCONTROLLER_METHOD_3_81C0F2161B400B31_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::CharacterReplaceAnimatorController*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHARACTERREPLACEANIMATORCONTROLLER_METHOD_3_298CC1C038D78808_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_47B0B0DB245B168A(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::CharacterReplaceAnimatorController* a2)

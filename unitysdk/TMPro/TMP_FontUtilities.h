@@ -6,21 +6,21 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace TMPro { class TMP_Character; }
 namespace TMPro { class TMP_FontAsset; }
 
-#define TMPRO_TMP_FONTUTILITIES_SEARCHFORCHARACTERINTERNAL_1_OFFSET UNITYSDK_OFFSET(0x1B1B5440)
-#define TMPRO_TMP_FONTUTILITIES_SEARCHFORCHARACTERINTERNAL_OFFSET UNITYSDK_OFFSET(0x1B1B5150)
-#define TMPRO_TMP_FONTUTILITIES_SEARCHFORCHARACTER_1_OFFSET UNITYSDK_OFFSET(0x1B1B53B0)
-#define TMPRO_TMP_FONTUTILITIES_SEARCHFORCHARACTER_OFFSET UNITYSDK_OFFSET(0x1B1B50B0)
+#define TMPRO_TMP_FONTUTILITIES_SEARCHFORCHARACTERINTERNAL_1_OFFSET UNITYSDK_OFFSET(0x171AEB10)
+#define TMPRO_TMP_FONTUTILITIES_SEARCHFORCHARACTERINTERNAL_OFFSET UNITYSDK_OFFSET(0x171AE820)
+#define TMPRO_TMP_FONTUTILITIES_SEARCHFORCHARACTER_1_OFFSET UNITYSDK_OFFSET(0x171AEA80)
+#define TMPRO_TMP_FONTUTILITIES_SEARCHFORCHARACTER_OFFSET UNITYSDK_OFFSET(0x171AE780)
 
 namespace TMPro
 {
-	inline static constexpr unsigned int TMP_FontUtilities_TypeDefinitionIndex = 40966;
+	inline static constexpr unsigned int TMP_FontUtilities_TypeDefinitionIndex = 41781;
 
 	class TMP_FontUtilities : public ::System::Object
 	{
 	public:
 		static ::System::Collections::Generic::List_1<::System::Int32>** StaticGet_k_searchedFontAssets()
 		{
-			return (::System::Collections::Generic::List_1<::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(TMP_FontUtilities_TypeDefinitionIndex)->GetStaticField(0x58AA0);
+			return (::System::Collections::Generic::List_1<::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(TMP_FontUtilities_TypeDefinitionIndex)->GetStaticField(0x56B70);
 		}
 
 		static ::TMPro::TMP_FontAsset* SearchForCharacter(::TMPro::TMP_FontAsset* a1, ::System::UInt32 a2, ::TMPro::TMP_Character*& a3)

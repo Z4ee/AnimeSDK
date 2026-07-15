@@ -6,18 +6,18 @@ namespace MiHoYo::SDK::UI::External::OS { class AccountListPluginUI; }
 namespace System { class String; }
 namespace System { template <typename T> class Action_1; }
 
-#define MIHOYO_SDK_UI_EXTERNAL_OS_ACCOUNTLISTPLUGINUI___C__DISPLAYCLASS40_0__CTOR_OFFSET UNITYSDK_OFFSET(0x184417C0)
-#define MIHOYO_SDK_UI_EXTERNAL_OS_ACCOUNTLISTPLUGINUI___C__DISPLAYCLASS40_0__ONDELETEACCOUNT_B__0_OFFSET UNITYSDK_OFFSET(0x18442CA0)
+#define MIHOYO_SDK_UI_EXTERNAL_OS_ACCOUNTLISTPLUGINUI___C__DISPLAYCLASS40_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1B6AB500)
+#define MIHOYO_SDK_UI_EXTERNAL_OS_ACCOUNTLISTPLUGINUI___C__DISPLAYCLASS40_0__ONDELETEACCOUNT_B__0_OFFSET UNITYSDK_OFFSET(0x1B6ACD30)
 
 namespace MiHoYo::SDK::UI::External::OS
 {
-	inline static constexpr unsigned int AccountListPluginUI___c__DisplayClass40_0_TypeDefinitionIndex = 8336;
+	inline static constexpr unsigned int AccountListPluginUI___c__DisplayClass40_0_TypeDefinitionIndex = 8348;
 
 	class AccountListPluginUI___c__DisplayClass40_0 : public ::System::Object
 	{
 	public:
-		::System::String* strArgs; // 0x10
-		::System::Action_1<::System::String*>* callback; // 0x18
+		::System::Action_1<::System::String*>* callback; // 0x10
+		::System::String* strArgs; // 0x18
 		::MiHoYo::SDK::UI::External::OS::AccountListPluginUI* __4__this; // 0x20
 
 		::System::Void _ctor()

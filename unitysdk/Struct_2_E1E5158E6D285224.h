@@ -5,14 +5,14 @@
 #include "unitysdk/System/ValueType.h"
 
 class Class_1_70CCABA9DB985F52;
-class Class_3_795ECCED069014FF;
+class Class_3_BB8B7764D3497776;
 
-inline static constexpr unsigned int Struct_2_E1E5158E6D285224_TypeDefinitionIndex = 50299;
+inline static constexpr unsigned int Struct_2_E1E5158E6D285224_TypeDefinitionIndex = 51381;
 
 struct alignas(8) Struct_2_E1E5158E6D285224
 {
-	::Class_3_795ECCED069014FF* Field_2_0; // 0x10
-	::Class_3_795ECCED069014FF* Field_2_1; // 0x18
+	::Class_3_BB8B7764D3497776* Field_2_0; // 0x10
+	::Class_3_BB8B7764D3497776* Field_2_1; // 0x18
 	::RPG::GameCore::FixPoint Field_2_2; // 0x20
 	::RPG::GameCore::AttackDamageType Field_2_3; // 0x28
 	::Class_1_70CCABA9DB985F52* Field_2_4; // 0x30

@@ -9,13 +9,12 @@ class PATRenderer;
 namespace RPG::Client { class PATMatPropertyControllerBehavior; }
 namespace System { class String; }
 
-#define RPG_CLIENT_PATMATPROPERTYCONTROLLERMONOPLUGIN_GETTICKLODTEMPLATENAME_OFFSET UNITYSDK_OFFSET(0xC3209A0)
-#define RPG_CLIENT_PATMATPROPERTYCONTROLLERMONOPLUGIN__CTOR_OFFSET UNITYSDK_OFFSET(0xC3209F0)
-#define RPG_CLIENT_PATMATPROPERTYCONTROLLERMONOPLUGIN___IFIXBASEPROXY_GETTICKLODTEMPLATENAME_OFFSET UNITYSDK_OFFSET(0xC320A10)
+#define RPG_CLIENT_PATMATPROPERTYCONTROLLERMONOPLUGIN_GETTICKLODTEMPLATENAME_OFFSET UNITYSDK_OFFSET(0x1A2CF820)
+#define RPG_CLIENT_PATMATPROPERTYCONTROLLERMONOPLUGIN__CTOR_OFFSET UNITYSDK_OFFSET(0x1A2CF870)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int PATMatPropertyControllerMonoPlugin_TypeDefinitionIndex = 66109;
+	inline static constexpr unsigned int PATMatPropertyControllerMonoPlugin_TypeDefinitionIndex = 67534;
 
 	class PATMatPropertyControllerMonoPlugin : public ::RPG::Client::TAMonoPlugin_1<::RPG::Client::PATMatPropertyControllerBehavior*>
 	{
@@ -35,11 +34,6 @@ namespace RPG::Client
 		::System::String* GetTickLodTemplateName()
 		{
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PATMATPROPERTYCONTROLLERMONOPLUGIN_GETTICKLODTEMPLATENAME_OFFSET))(this);
-		}
-
-		::System::String* __iFixBaseProxy_GetTickLodTemplateName()
-		{
-			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PATMATPROPERTYCONTROLLERMONOPLUGIN___IFIXBASEPROXY_GETTICKLODTEMPLATENAME_OFFSET))(this);
 		}
 	};
 }

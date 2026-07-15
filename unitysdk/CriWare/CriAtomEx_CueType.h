@@ -3,7 +3,7 @@
 
 namespace CriWare
 {
-	inline static constexpr unsigned int CriAtomEx_CueType_TypeDefinitionIndex = 37018;
+	inline static constexpr unsigned int CriAtomEx_CueType_TypeDefinitionIndex = 37816;
 
 	enum class CriAtomEx_CueType : ::System::Int32
 	{

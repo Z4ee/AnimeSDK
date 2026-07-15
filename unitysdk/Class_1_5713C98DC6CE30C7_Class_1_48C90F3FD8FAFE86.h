@@ -9,27 +9,27 @@ namespace RPG::GameCore { class TransformComponent; }
 namespace System { class String; }
 namespace UnityEngine { class Animator; }
 
-#define CLASS_1_5713C98DC6CE30C7_CLASS_1_48C90F3FD8FAFE86_METHOD_1_23286C4E1BC884C6_OFFSET UNITYSDK_OFFSET(0x1442CEE0)
-#define CLASS_1_5713C98DC6CE30C7_CLASS_1_48C90F3FD8FAFE86_METHOD_1_4343F372F34C05BF_OFFSET UNITYSDK_OFFSET(0x1442C760)
-#define CLASS_1_5713C98DC6CE30C7_CLASS_1_48C90F3FD8FAFE86__CTOR_OFFSET UNITYSDK_OFFSET(0x1442CA50)
+#define CLASS_1_5713C98DC6CE30C7_CLASS_1_48C90F3FD8FAFE86_METHOD_1_23286C4E1BC884C6_OFFSET UNITYSDK_OFFSET(0x19214BF0)
+#define CLASS_1_5713C98DC6CE30C7_CLASS_1_48C90F3FD8FAFE86_METHOD_1_4343F372F34C05BF_OFFSET UNITYSDK_OFFSET(0x19214470)
+#define CLASS_1_5713C98DC6CE30C7_CLASS_1_48C90F3FD8FAFE86__CTOR_OFFSET UNITYSDK_OFFSET(0x19214760)
 
-inline static constexpr unsigned int Class_1_5713C98DC6CE30C7_Class_1_48C90F3FD8FAFE86_TypeDefinitionIndex = 56262;
+inline static constexpr unsigned int Class_1_5713C98DC6CE30C7_Class_1_48C90F3FD8FAFE86_TypeDefinitionIndex = 57501;
 
 class Class_1_5713C98DC6CE30C7_Class_1_48C90F3FD8FAFE86 : public ::System::Object
 {
 public:
-	::RPG::GameCore::GameEntity* Field_1_0; // 0x10
-	::UnityEngine::Animator* Field_1_1; // 0x18
+	::UnityEngine::Animator* Field_1_0; // 0x10
+	::System::String* Field_1_1; // 0x18
 	::RPG::GameCore::TransformComponent* Field_1_2; // 0x20
-	::System::String* Field_1_3; // 0x28
-	::RPG::Client::Prop::MusicRhythmPropType Field_1_4; // 0x30
-	::System::UInt32 Field_1_5; // 0x34
-	::System::Boolean Field_1_6; // 0x38
-	::System::UInt32 Field_1_7; // 0x3C
-	::System::UInt32 Field_1_8; // 0x40
-	::System::UInt32 Field_1_9; // 0x44
-	::UnityEngine::Vector3 Field_1_10; // 0x48
-	::System::Single Field_1_11; // 0x54
+	::RPG::GameCore::GameEntity* Field_1_3; // 0x28
+	::System::UInt32 Field_1_4; // 0x30
+	::UnityEngine::Vector3 Field_1_5; // 0x34
+	::System::UInt32 Field_1_6; // 0x40
+	::System::UInt32 Field_1_7; // 0x44
+	::RPG::Client::Prop::MusicRhythmPropType Field_1_8; // 0x48
+	::System::UInt32 Field_1_9; // 0x4C
+	::System::Single Field_1_10; // 0x50
+	::System::Boolean Field_1_11; // 0x54
 
 	::System::Void _ctor()
 	{

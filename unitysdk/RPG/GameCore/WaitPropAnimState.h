@@ -7,13 +7,13 @@ namespace RPG::GameCore { class DynamicFloat; }
 namespace RPG::GameCore { class TargetEvaluator; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_WAITPROPANIMSTATE_METHOD_3_0850B4CA7F03AAFE_OFFSET UNITYSDK_OFFSET(0x19E5CFC0)
-#define RPG_GAMECORE_WAITPROPANIMSTATE_METHOD_3_62E1791E0B4405A6_OFFSET UNITYSDK_OFFSET(0x19E5CF40)
-#define RPG_GAMECORE_WAITPROPANIMSTATE__CTOR_OFFSET UNITYSDK_OFFSET(0x19E5CF90)
+#define RPG_GAMECORE_WAITPROPANIMSTATE_METHOD_3_0850B4CA7F03AAFE_OFFSET UNITYSDK_OFFSET(0x1D1B8F70)
+#define RPG_GAMECORE_WAITPROPANIMSTATE_METHOD_3_8CC72C9BA640B17B_OFFSET UNITYSDK_OFFSET(0x1D1B8F30)
+#define RPG_GAMECORE_WAITPROPANIMSTATE__CTOR_OFFSET UNITYSDK_OFFSET(0x1D1B8F60)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int WaitPropAnimState_TypeDefinitionIndex = 19543;
+	inline static constexpr unsigned int WaitPropAnimState_TypeDefinitionIndex = 19901;
 
 	class WaitPropAnimState : public ::RPG::GameCore::TaskConfig
 	{
@@ -29,9 +29,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_WAITPROPANIMSTATE__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_62E1791E0B4405A6(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::WaitPropAnimState*& a2)
+		static ::System::Void Method_3_8CC72C9BA640B17B(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::WaitPropAnimState*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::WaitPropAnimState*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_WAITPROPANIMSTATE_METHOD_3_62E1791E0B4405A6_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::WaitPropAnimState*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_WAITPROPANIMSTATE_METHOD_3_8CC72C9BA640B17B_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_0850B4CA7F03AAFE(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::WaitPropAnimState* a2)

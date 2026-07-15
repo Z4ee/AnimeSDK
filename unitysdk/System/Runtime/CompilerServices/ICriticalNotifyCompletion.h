@@ -5,7 +5,7 @@ namespace System { class Action; }
 
 namespace System::Runtime::CompilerServices
 {
-	inline static constexpr unsigned int ICriticalNotifyCompletion_TypeDefinitionIndex = 1354;
+	inline static constexpr unsigned int ICriticalNotifyCompletion_TypeDefinitionIndex = 1357;
 
 	class ICriticalNotifyCompletion
 	{

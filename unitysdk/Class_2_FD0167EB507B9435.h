@@ -2,29 +2,23 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/Client/GridFightGameModifier.h"
 
-class Class_1_B8E6D5AD8534D123;
+class Class_1_1A05043E9AD1C5D3;
 
-#define CLASS_2_FD0167EB507B9435_UPDATE_OFFSET UNITYSDK_OFFSET(0x13B43720)
-#define CLASS_2_FD0167EB507B9435__CTOR_OFFSET UNITYSDK_OFFSET(0x13B43710)
-#define CLASS_2_FD0167EB507B9435___IFIXBASEPROXY_UPDATE_OFFSET UNITYSDK_OFFSET(0x13B43770)
+#define CLASS_2_FD0167EB507B9435_UPDATE_OFFSET UNITYSDK_OFFSET(0x161F4580)
+#define CLASS_2_FD0167EB507B9435__CTOR_OFFSET UNITYSDK_OFFSET(0x161F4570)
 
-inline static constexpr unsigned int Class_2_FD0167EB507B9435_TypeDefinitionIndex = 60780;
+inline static constexpr unsigned int Class_2_FD0167EB507B9435_TypeDefinitionIndex = 62074;
 
 class Class_2_FD0167EB507B9435 : public ::RPG::Client::GridFightGameModifier
 {
 public:
-	::System::Void _ctor(::Class_1_B8E6D5AD8534D123* a1)
+	::System::Void _ctor(::Class_1_1A05043E9AD1C5D3* a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::Class_1_B8E6D5AD8534D123*))((::PBYTE)hIl2Cpp + CLASS_2_FD0167EB507B9435__CTOR_OFFSET))(this, a1);
+		return ((::System::Void(*)(::PVOID, ::Class_1_1A05043E9AD1C5D3*))((::PBYTE)hIl2Cpp + CLASS_2_FD0167EB507B9435__CTOR_OFFSET))(this, a1);
 	}
 
-	::System::Void Update(::Class_1_B8E6D5AD8534D123* a1)
+	::System::Void Update(::Class_1_1A05043E9AD1C5D3* a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::Class_1_B8E6D5AD8534D123*))((::PBYTE)hIl2Cpp + CLASS_2_FD0167EB507B9435_UPDATE_OFFSET))(this, a1);
-	}
-
-	::System::Void __iFixBaseProxy_Update(::Class_1_B8E6D5AD8534D123* a1)
-	{
-		return ((::System::Void(*)(::PVOID, ::Class_1_B8E6D5AD8534D123*))((::PBYTE)hIl2Cpp + CLASS_2_FD0167EB507B9435___IFIXBASEPROXY_UPDATE_OFFSET))(this, a1);
+		return ((::System::Void(*)(::PVOID, ::Class_1_1A05043E9AD1C5D3*))((::PBYTE)hIl2Cpp + CLASS_2_FD0167EB507B9435_UPDATE_OFFSET))(this, a1);
 	}
 };

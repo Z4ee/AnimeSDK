@@ -1,23 +1,23 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/Class_1_CD6736B46496BBF4.h"
-#include "unitysdk/Enum_3_63BCB6C405BA8A1D_2.h"
+#include "unitysdk/Enum_3_63BCB6C405BA8A1D_3.h"
 
-class Class_1_1CBA230307F9C289_52;
+class Class_1_1CBA230307F9C289_79;
 
-#define CLASS_2_EAE6903B2E8C6C87_METHOD_2_B09E78EE7EE4F8FA_OFFSET UNITYSDK_OFFSET(0x1418A980)
-#define CLASS_2_EAE6903B2E8C6C87__CTOR_OFFSET UNITYSDK_OFFSET(0x1418A970)
+#define CLASS_2_EAE6903B2E8C6C87_METHOD_2_B09E78EE7EE4F8FA_OFFSET UNITYSDK_OFFSET(0x16CB0DA0)
+#define CLASS_2_EAE6903B2E8C6C87__CTOR_OFFSET UNITYSDK_OFFSET(0x16CB0D90)
 
-inline static constexpr unsigned int Class_2_EAE6903B2E8C6C87_TypeDefinitionIndex = 62748;
+inline static constexpr unsigned int Class_2_EAE6903B2E8C6C87_TypeDefinitionIndex = 64115;
 
 class Class_2_EAE6903B2E8C6C87 : public ::Class_1_CD6736B46496BBF4
 {
 public:
-	::Class_1_1CBA230307F9C289_52* Field_2_0; // 0x20
+	::Class_1_1CBA230307F9C289_79* Field_2_0; // 0x20
 
-	::System::Void _ctor(::Enum_3_63BCB6C405BA8A1D_2 a1, ::Class_1_1CBA230307F9C289_52* a2)
+	::System::Void _ctor(::Enum_3_63BCB6C405BA8A1D_3 a1, ::Class_1_1CBA230307F9C289_79* a2)
 	{
-		return ((::System::Void(*)(::PVOID, ::Enum_3_63BCB6C405BA8A1D_2, ::Class_1_1CBA230307F9C289_52*))((::PBYTE)hIl2Cpp + CLASS_2_EAE6903B2E8C6C87__CTOR_OFFSET))(this, a1, a2);
+		return ((::System::Void(*)(::PVOID, ::Enum_3_63BCB6C405BA8A1D_3, ::Class_1_1CBA230307F9C289_79*))((::PBYTE)hIl2Cpp + CLASS_2_EAE6903B2E8C6C87__CTOR_OFFSET))(this, a1, a2);
 	}
 
 	::System::Void Method_2_B09E78EE7EE4F8FA()

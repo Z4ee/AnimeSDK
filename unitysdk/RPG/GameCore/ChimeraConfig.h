@@ -9,12 +9,12 @@ namespace RPG::GameCore { class ChimeraLevelStatus; }
 namespace RPG::GameCore { class ChimeraTalkConfig; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_CHIMERACONFIG_METHOD_2_2499054EA5AF24C0_OFFSET UNITYSDK_OFFSET(0x19635AA0)
-#define RPG_GAMECORE_CHIMERACONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x19635C20)
+#define RPG_GAMECORE_CHIMERACONFIG_METHOD_2_2499054EA5AF24C0_OFFSET UNITYSDK_OFFSET(0x1C38FD00)
+#define RPG_GAMECORE_CHIMERACONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1C38FE80)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ChimeraConfig_TypeDefinitionIndex = 15052;
+	inline static constexpr unsigned int ChimeraConfig_TypeDefinitionIndex = 15216;
 
 	class ChimeraConfig : public ::RPG::GameCore::JsonConfig
 	{

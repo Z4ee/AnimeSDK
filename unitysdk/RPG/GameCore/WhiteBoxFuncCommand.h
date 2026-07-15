@@ -7,13 +7,13 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class TargetEvaluator; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_WHITEBOXFUNCCOMMAND_METHOD_3_2C7491EE56329EB6_OFFSET UNITYSDK_OFFSET(0x19E67110)
-#define RPG_GAMECORE_WHITEBOXFUNCCOMMAND_METHOD_3_7E9C36990B4F70D6_OFFSET UNITYSDK_OFFSET(0x19E671F0)
-#define RPG_GAMECORE_WHITEBOXFUNCCOMMAND__CTOR_OFFSET UNITYSDK_OFFSET(0x19E67190)
+#define RPG_GAMECORE_WHITEBOXFUNCCOMMAND_METHOD_3_7E9C36990B4F70D6_OFFSET UNITYSDK_OFFSET(0x1D1C1ED0)
+#define RPG_GAMECORE_WHITEBOXFUNCCOMMAND_METHOD_3_87237D0E564C0F9F_OFFSET UNITYSDK_OFFSET(0x1D1C1E30)
+#define RPG_GAMECORE_WHITEBOXFUNCCOMMAND__CTOR_OFFSET UNITYSDK_OFFSET(0x1D1C1E90)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int WhiteBoxFuncCommand_TypeDefinitionIndex = 21570;
+	inline static constexpr unsigned int WhiteBoxFuncCommand_TypeDefinitionIndex = 21992;
 
 	class WhiteBoxFuncCommand : public ::RPG::GameCore::TaskConfig
 	{
@@ -28,9 +28,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_WHITEBOXFUNCCOMMAND__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_2C7491EE56329EB6(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::WhiteBoxFuncCommand*& a2)
+		static ::System::Void Method_3_87237D0E564C0F9F(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::WhiteBoxFuncCommand*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::WhiteBoxFuncCommand*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_WHITEBOXFUNCCOMMAND_METHOD_3_2C7491EE56329EB6_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::WhiteBoxFuncCommand*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_WHITEBOXFUNCCOMMAND_METHOD_3_87237D0E564C0F9F_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_7E9C36990B4F70D6(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::WhiteBoxFuncCommand* a2)

@@ -7,13 +7,13 @@ namespace RPG::GameCore { class DynamicString; }
 namespace RPG::GameCore { class HoyoTagContainer; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_BLOCKSETVISIBILITY_METHOD_3_673829067CE3753C_OFFSET UNITYSDK_OFFSET(0x194DFFE0)
-#define RPG_GAMECORE_BLOCKSETVISIBILITY_METHOD_3_FEA1B29A3578EAFD_OFFSET UNITYSDK_OFFSET(0x194DFF60)
-#define RPG_GAMECORE_BLOCKSETVISIBILITY__CTOR_OFFSET UNITYSDK_OFFSET(0x194DFFB0)
+#define RPG_GAMECORE_BLOCKSETVISIBILITY_METHOD_3_673829067CE3753C_OFFSET UNITYSDK_OFFSET(0x1A400C20)
+#define RPG_GAMECORE_BLOCKSETVISIBILITY_METHOD_3_8C763E0577E49845_OFFSET UNITYSDK_OFFSET(0x1A400BE0)
+#define RPG_GAMECORE_BLOCKSETVISIBILITY__CTOR_OFFSET UNITYSDK_OFFSET(0x1A400C10)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int BlockSetVisibility_TypeDefinitionIndex = 20016;
+	inline static constexpr unsigned int BlockSetVisibility_TypeDefinitionIndex = 20388;
 
 	class BlockSetVisibility : public ::RPG::GameCore::TaskConfig
 	{
@@ -28,9 +28,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BLOCKSETVISIBILITY__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_FEA1B29A3578EAFD(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::BlockSetVisibility*& a2)
+		static ::System::Void Method_3_8C763E0577E49845(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::BlockSetVisibility*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::BlockSetVisibility*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BLOCKSETVISIBILITY_METHOD_3_FEA1B29A3578EAFD_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::BlockSetVisibility*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BLOCKSETVISIBILITY_METHOD_3_8C763E0577E49845_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_673829067CE3753C(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::BlockSetVisibility* a2)

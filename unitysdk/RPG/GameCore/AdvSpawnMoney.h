@@ -6,13 +6,13 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class DynamicFloat; }
 namespace RPG::GameCore { class TargetEvaluator; }
 
-#define RPG_GAMECORE_ADVSPAWNMONEY_METHOD_3_6AFBD9E01DA4FFE2_OFFSET UNITYSDK_OFFSET(0x19439F10)
-#define RPG_GAMECORE_ADVSPAWNMONEY_METHOD_3_7F40FC6759DD808C_OFFSET UNITYSDK_OFFSET(0x1943A0A0)
-#define RPG_GAMECORE_ADVSPAWNMONEY__CTOR_OFFSET UNITYSDK_OFFSET(0x19439F50)
+#define RPG_GAMECORE_ADVSPAWNMONEY_METHOD_3_7F40FC6759DD808C_OFFSET UNITYSDK_OFFSET(0x1AE480D0)
+#define RPG_GAMECORE_ADVSPAWNMONEY_METHOD_3_89B23CC48E5BD328_OFFSET UNITYSDK_OFFSET(0x1AE47F30)
+#define RPG_GAMECORE_ADVSPAWNMONEY__CTOR_OFFSET UNITYSDK_OFFSET(0x1AE48010)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AdvSpawnMoney_TypeDefinitionIndex = 20931;
+	inline static constexpr unsigned int AdvSpawnMoney_TypeDefinitionIndex = 21346;
 
 	class AdvSpawnMoney : public ::RPG::GameCore::TaskConfig
 	{
@@ -26,9 +26,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVSPAWNMONEY__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_6AFBD9E01DA4FFE2(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AdvSpawnMoney*& a2)
+		static ::System::Void Method_3_89B23CC48E5BD328(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AdvSpawnMoney*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::AdvSpawnMoney*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVSPAWNMONEY_METHOD_3_6AFBD9E01DA4FFE2_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::AdvSpawnMoney*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVSPAWNMONEY_METHOD_3_89B23CC48E5BD328_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_7F40FC6759DD808C(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AdvSpawnMoney* a2)

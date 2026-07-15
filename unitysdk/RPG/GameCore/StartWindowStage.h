@@ -6,13 +6,13 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class DynamicString; }
 namespace RPG::GameCore { class TargetEvaluator; }
 
-#define RPG_GAMECORE_STARTWINDOWSTAGE_METHOD_3_4DD5662413556F0E_OFFSET UNITYSDK_OFFSET(0x19CB9D60)
-#define RPG_GAMECORE_STARTWINDOWSTAGE_METHOD_3_DC37F054231FCD18_OFFSET UNITYSDK_OFFSET(0x19CB9DE0)
-#define RPG_GAMECORE_STARTWINDOWSTAGE__CTOR_OFFSET UNITYSDK_OFFSET(0x19CB9DB0)
+#define RPG_GAMECORE_STARTWINDOWSTAGE_METHOD_3_37EF263121CDA487_OFFSET UNITYSDK_OFFSET(0x1B0BF730)
+#define RPG_GAMECORE_STARTWINDOWSTAGE_METHOD_3_DC37F054231FCD18_OFFSET UNITYSDK_OFFSET(0x1B0BF770)
+#define RPG_GAMECORE_STARTWINDOWSTAGE__CTOR_OFFSET UNITYSDK_OFFSET(0x1B0BF760)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int StartWindowStage_TypeDefinitionIndex = 20115;
+	inline static constexpr unsigned int StartWindowStage_TypeDefinitionIndex = 20487;
 
 	class StartWindowStage : public ::RPG::GameCore::TaskConfig
 	{
@@ -25,9 +25,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_STARTWINDOWSTAGE__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_4DD5662413556F0E(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::StartWindowStage*& a2)
+		static ::System::Void Method_3_37EF263121CDA487(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::StartWindowStage*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::StartWindowStage*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_STARTWINDOWSTAGE_METHOD_3_4DD5662413556F0E_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::StartWindowStage*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_STARTWINDOWSTAGE_METHOD_3_37EF263121CDA487_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_DC37F054231FCD18(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::StartWindowStage* a2)

@@ -6,7 +6,7 @@ namespace RPG::Client { class WolfBroGunPlayRoadMapConfig; }
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int WolfBroGunPlayEndLess_EndLessTimelineConfig_TypeDefinitionIndex = 64296;
+	inline static constexpr unsigned int WolfBroGunPlayEndLess_EndLessTimelineConfig_TypeDefinitionIndex = 65667;
 
 	struct alignas(8) WolfBroGunPlayEndLess_EndLessTimelineConfig
 	{

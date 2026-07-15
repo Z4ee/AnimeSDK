@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/ValueType.h"
 
-#define HOUDINIENGINEUNITY_HAPI_SPHEREINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x2D4B310)
+#define HOUDINIENGINEUNITY_HAPI_SPHEREINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x38DFDD0)
 
 namespace HoudiniEngineUnity
 {
-	inline static constexpr unsigned int HAPI_SphereInfo_TypeDefinitionIndex = 37553;
+	inline static constexpr unsigned int HAPI_SphereInfo_TypeDefinitionIndex = 38361;
 
 	struct alignas(8) HAPI_SphereInfo
 	{

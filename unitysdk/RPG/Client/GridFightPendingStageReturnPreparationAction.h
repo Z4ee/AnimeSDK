@@ -2,13 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/Client/GridFightPendingStageBaseAction.h"
 
-#define RPG_CLIENT_GRIDFIGHTPENDINGSTAGERETURNPREPARATIONACTION_HANDLE_OFFSET UNITYSDK_OFFSET(0xBBC56C0)
-#define RPG_CLIENT_GRIDFIGHTPENDINGSTAGERETURNPREPARATIONACTION__CTOR_OFFSET UNITYSDK_OFFSET(0xBBC56B0)
-#define RPG_CLIENT_GRIDFIGHTPENDINGSTAGERETURNPREPARATIONACTION___IFIXBASEPROXY_HANDLE_OFFSET UNITYSDK_OFFSET(0xBBC57B0)
+#define RPG_CLIENT_GRIDFIGHTPENDINGSTAGERETURNPREPARATIONACTION_HANDLE_OFFSET UNITYSDK_OFFSET(0x1AE94AE0)
+#define RPG_CLIENT_GRIDFIGHTPENDINGSTAGERETURNPREPARATIONACTION__CTOR_OFFSET UNITYSDK_OFFSET(0x1AE94AD0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GridFightPendingStageReturnPreparationAction_TypeDefinitionIndex = 60402;
+	inline static constexpr unsigned int GridFightPendingStageReturnPreparationAction_TypeDefinitionIndex = 61693;
 
 	class GridFightPendingStageReturnPreparationAction : public ::RPG::Client::GridFightPendingStageBaseAction
 	{
@@ -21,11 +20,6 @@ namespace RPG::Client
 		::System::Void Handle()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTPENDINGSTAGERETURNPREPARATIONACTION_HANDLE_OFFSET))(this);
-		}
-
-		::System::Void __iFixBaseProxy_Handle()
-		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTPENDINGSTAGERETURNPREPARATIONACTION___IFIXBASEPROXY_HANDLE_OFFSET))(this);
 		}
 	};
 }

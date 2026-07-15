@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GroupCbType_TypeDefinitionIndex = 65268;
+	inline static constexpr unsigned int GroupCbType_TypeDefinitionIndex = 66678;
 
 	enum class GroupCbType : ::System::Int32
 	{

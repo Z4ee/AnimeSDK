@@ -6,15 +6,15 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class TargetEvaluator; }
 namespace SimpleJSON { class JSONNode; }
 
-#define RPG_GAMECORE_BYCOMPAREISENTITYINDIALOGUE_METHOD_4_89EFB39455EF7E96_OFFSET UNITYSDK_OFFSET(0x1951A300)
-#define RPG_GAMECORE_BYCOMPAREISENTITYINDIALOGUE_METHOD_4_A8A2823953CD53DB_OFFSET UNITYSDK_OFFSET(0x1951A480)
-#define RPG_GAMECORE_BYCOMPAREISENTITYINDIALOGUE_METHOD_4_B522C25022764568_OFFSET UNITYSDK_OFFSET(0x1951A230)
-#define RPG_GAMECORE_BYCOMPAREISENTITYINDIALOGUE_METHOD_4_E4764EA925126D3A_OFFSET UNITYSDK_OFFSET(0x1951A500)
-#define RPG_GAMECORE_BYCOMPAREISENTITYINDIALOGUE__CTOR_OFFSET UNITYSDK_OFFSET(0x1951A2B0)
+#define RPG_GAMECORE_BYCOMPAREISENTITYINDIALOGUE_METHOD_4_6CE4170281EB75CC_OFFSET UNITYSDK_OFFSET(0x19CED7C0)
+#define RPG_GAMECORE_BYCOMPAREISENTITYINDIALOGUE_METHOD_4_89EFB39455EF7E96_OFFSET UNITYSDK_OFFSET(0x19CED610)
+#define RPG_GAMECORE_BYCOMPAREISENTITYINDIALOGUE_METHOD_4_D2EF4B8791121047_OFFSET UNITYSDK_OFFSET(0x19CED5D0)
+#define RPG_GAMECORE_BYCOMPAREISENTITYINDIALOGUE_METHOD_4_FDD44E1C4902E3C2_OFFSET UNITYSDK_OFFSET(0x19CED790)
+#define RPG_GAMECORE_BYCOMPAREISENTITYINDIALOGUE__CTOR_OFFSET UNITYSDK_OFFSET(0x19CED600)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ByCompareIsEntityInDialogue_TypeDefinitionIndex = 19737;
+	inline static constexpr unsigned int ByCompareIsEntityInDialogue_TypeDefinitionIndex = 20096;
 
 	class ByCompareIsEntityInDialogue : public ::RPG::GameCore::PredicateConfig
 	{
@@ -26,9 +26,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYCOMPAREISENTITYINDIALOGUE__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_4_B522C25022764568(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ByCompareIsEntityInDialogue*& a2)
+		static ::System::Void Method_4_D2EF4B8791121047(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ByCompareIsEntityInDialogue*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ByCompareIsEntityInDialogue*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYCOMPAREISENTITYINDIALOGUE_METHOD_4_B522C25022764568_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ByCompareIsEntityInDialogue*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYCOMPAREISENTITYINDIALOGUE_METHOD_4_D2EF4B8791121047_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_4_89EFB39455EF7E96(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ByCompareIsEntityInDialogue* a2)
@@ -36,14 +36,14 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ByCompareIsEntityInDialogue*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYCOMPAREISENTITYINDIALOGUE_METHOD_4_89EFB39455EF7E96_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_4_A8A2823953CD53DB(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::ByCompareIsEntityInDialogue*& a2)
+		static ::System::Void Method_4_FDD44E1C4902E3C2(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::ByCompareIsEntityInDialogue*& a2)
 		{
-			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::ByCompareIsEntityInDialogue*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYCOMPAREISENTITYINDIALOGUE_METHOD_4_A8A2823953CD53DB_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::ByCompareIsEntityInDialogue*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYCOMPAREISENTITYINDIALOGUE_METHOD_4_FDD44E1C4902E3C2_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_4_E4764EA925126D3A(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::ByCompareIsEntityInDialogue* a2)
+		static ::System::Void Method_4_6CE4170281EB75CC(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::ByCompareIsEntityInDialogue* a2)
 		{
-			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::ByCompareIsEntityInDialogue*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYCOMPAREISENTITYINDIALOGUE_METHOD_4_E4764EA925126D3A_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::ByCompareIsEntityInDialogue*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYCOMPAREISENTITYINDIALOGUE_METHOD_4_6CE4170281EB75CC_OFFSET))(a1, a2);
 		}
 	};
 }

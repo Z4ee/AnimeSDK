@@ -5,13 +5,13 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_PARAMEXPRCONFIG_METHOD_4_A687E3B7B29FC14C_OFFSET UNITYSDK_OFFSET(0x199E51F0)
-#define RPG_GAMECORE_PARAMEXPRCONFIG_METHOD_4_E987CEF32A2FD927_OFFSET UNITYSDK_OFFSET(0x199E5330)
-#define RPG_GAMECORE_PARAMEXPRCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x199E52B0)
+#define RPG_GAMECORE_PARAMEXPRCONFIG_METHOD_4_0BAC5CB0C8351B51_OFFSET UNITYSDK_OFFSET(0x1BB0D9A0)
+#define RPG_GAMECORE_PARAMEXPRCONFIG_METHOD_4_3DAE4A890CE0CAE9_OFFSET UNITYSDK_OFFSET(0x1BB0D940)
+#define RPG_GAMECORE_PARAMEXPRCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1BB0D990)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ParamExprConfig_TypeDefinitionIndex = 16215;
+	inline static constexpr unsigned int ParamExprConfig_TypeDefinitionIndex = 16399;
 
 	class ParamExprConfig : public ::RPG::GameCore::MiParameterConfigBase
 	{
@@ -25,14 +25,14 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PARAMEXPRCONFIG__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_4_A687E3B7B29FC14C(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ParamExprConfig*& a2)
+		static ::System::Void Method_4_3DAE4A890CE0CAE9(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ParamExprConfig*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ParamExprConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PARAMEXPRCONFIG_METHOD_4_A687E3B7B29FC14C_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ParamExprConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PARAMEXPRCONFIG_METHOD_4_3DAE4A890CE0CAE9_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_4_E987CEF32A2FD927(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ParamExprConfig* a2)
+		static ::System::Void Method_4_0BAC5CB0C8351B51(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ParamExprConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ParamExprConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PARAMEXPRCONFIG_METHOD_4_E987CEF32A2FD927_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ParamExprConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PARAMEXPRCONFIG_METHOD_4_0BAC5CB0C8351B51_OFFSET))(a1, a2);
 		}
 	};
 }

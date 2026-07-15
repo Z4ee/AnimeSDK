@@ -8,7 +8,7 @@ namespace System::Xml { class IDtdDefaultAttributeInfo; }
 
 namespace System::Xml
 {
-	inline static constexpr unsigned int IDtdAttributeListInfo_TypeDefinitionIndex = 1796;
+	inline static constexpr unsigned int IDtdAttributeListInfo_TypeDefinitionIndex = 1800;
 
 	class IDtdAttributeListInfo
 	{

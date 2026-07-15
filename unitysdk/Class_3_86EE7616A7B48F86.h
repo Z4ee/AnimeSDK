@@ -2,26 +2,26 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/PredicateTaskBase_1.h"
 
-class Class_4_280EADA080C75A9D;
+class Class_4_F63E984E4BA70BD4;
 namespace RPG::Client::ChenLingBattle { class Grid; }
 namespace RPG::Client::ChenLingBattle { class HandCard; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_86EE7616A7B48F86_EVALUATE_OFFSET UNITYSDK_OFFSET(0x13BAF920)
-#define CLASS_3_86EE7616A7B48F86_METHOD_3_7D3F7C87F5BA60FE_OFFSET UNITYSDK_OFFSET(0x13BAFB70)
-#define CLASS_3_86EE7616A7B48F86_METHOD_3_861B310874B5F50A_OFFSET UNITYSDK_OFFSET(0x13BAFCB0)
-#define CLASS_3_86EE7616A7B48F86__CTOR_OFFSET UNITYSDK_OFFSET(0x13BAF8F0)
+#define CLASS_3_86EE7616A7B48F86_EVALUATE_OFFSET UNITYSDK_OFFSET(0x157E4620)
+#define CLASS_3_86EE7616A7B48F86_METHOD_3_7D3F7C87F5BA60FE_OFFSET UNITYSDK_OFFSET(0x157E4870)
+#define CLASS_3_86EE7616A7B48F86_METHOD_3_861B310874B5F50A_OFFSET UNITYSDK_OFFSET(0x157E4A10)
+#define CLASS_3_86EE7616A7B48F86__CTOR_OFFSET UNITYSDK_OFFSET(0x157E45F0)
 
-inline static constexpr unsigned int Class_3_86EE7616A7B48F86_TypeDefinitionIndex = 49148;
+inline static constexpr unsigned int Class_3_86EE7616A7B48F86_TypeDefinitionIndex = 50163;
 
-class Class_3_86EE7616A7B48F86 : public ::RPG::GameCore::PredicateTaskBase_1<::Class_4_280EADA080C75A9D*>
+class Class_3_86EE7616A7B48F86 : public ::RPG::GameCore::PredicateTaskBase_1<::Class_4_F63E984E4BA70BD4*>
 {
 public:
-	::Class_4_280EADA080C75A9D* Field_3_0; // 0x28
+	::Class_4_F63E984E4BA70BD4* Field_3_0; // 0x28
 
-	::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::Class_4_280EADA080C75A9D* a2)
+	::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::Class_4_F63E984E4BA70BD4* a2)
 	{
-		return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::Class_4_280EADA080C75A9D*))((::PBYTE)hIl2Cpp + CLASS_3_86EE7616A7B48F86__CTOR_OFFSET))(this, a1, a2);
+		return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::Class_4_F63E984E4BA70BD4*))((::PBYTE)hIl2Cpp + CLASS_3_86EE7616A7B48F86__CTOR_OFFSET))(this, a1, a2);
 	}
 
 	::System::Boolean Evaluate()

@@ -7,7 +7,7 @@ namespace System::Collections::Generic { template <typename T> class IEnumerator
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int TrimmedSingleItemArray_1_TypeDefinitionIndex = 33532;
+	inline static constexpr unsigned int TrimmedSingleItemArray_1_TypeDefinitionIndex = 33903;
 
 	template <typename T>
 	struct TrimmedSingleItemArray_1

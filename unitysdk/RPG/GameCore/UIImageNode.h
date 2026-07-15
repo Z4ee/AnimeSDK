@@ -5,12 +5,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_UIIMAGENODE_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x19E2F7D0)
-#define RPG_GAMECORE_UIIMAGENODE__CTOR_OFFSET UNITYSDK_OFFSET(0x19E2F900)
+#define RPG_GAMECORE_UIIMAGENODE_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B87C260)
+#define RPG_GAMECORE_UIIMAGENODE__CTOR_OFFSET UNITYSDK_OFFSET(0x1B87C390)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int UIImageNode_TypeDefinitionIndex = 22532;
+	inline static constexpr unsigned int UIImageNode_TypeDefinitionIndex = 22983;
 
 	class UIImageNode : public ::RPG::GameCore::JsonConfig
 	{

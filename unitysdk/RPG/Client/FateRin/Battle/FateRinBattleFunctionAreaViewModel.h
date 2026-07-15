@@ -1,0 +1,88 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/RPG/Client/FateRin/BaseViewModel.h"
+
+class Class_0_16E4307DCC419505_1267;
+class Class_0_16E4307DCC419505_1288;
+class Class_0_16E4307DCC419505_425;
+class Class_1_5F4D64A4B97E38F9;
+class Class_1_85357ED0932DEBF1;
+class Class_1_90698D4D8381BDC2;
+namespace RPG::Client::FateRin { class ViewModelEventHandler; }
+namespace RPG::Client::FateRin::Battle { class IFateRinBattlePauseButtonViewModel; }
+namespace RPG::Client::FateRin::Battle { class IFateRinBattleSpeedUpButtonViewModel; }
+namespace RPG::GameCore { class EventManager; }
+
+#define RPG_CLIENT_FATERIN_BATTLE_FATERINBATTLEFUNCTIONAREAVIEWMODEL_ADD_ONENTERBATTLE_OFFSET UNITYSDK_OFFSET(0x1A5C3E70)
+#define RPG_CLIENT_FATERIN_BATTLE_FATERINBATTLEFUNCTIONAREAVIEWMODEL_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1A5C3B50)
+#define RPG_CLIENT_FATERIN_BATTLE_FATERINBATTLEFUNCTIONAREAVIEWMODEL_GET_PAUSEBUTTON_OFFSET UNITYSDK_OFFSET(0x1A5C3E60)
+#define RPG_CLIENT_FATERIN_BATTLE_FATERINBATTLEFUNCTIONAREAVIEWMODEL_GET_SPEEDUPBUTTON_OFFSET UNITYSDK_OFFSET(0x1A5C3E50)
+#define RPG_CLIENT_FATERIN_BATTLE_FATERINBATTLEFUNCTIONAREAVIEWMODEL_REMOVE_ONENTERBATTLE_OFFSET UNITYSDK_OFFSET(0x1A5C3ED0)
+#define RPG_CLIENT_FATERIN_BATTLE_FATERINBATTLEFUNCTIONAREAVIEWMODEL__CTOR_OFFSET UNITYSDK_OFFSET(0x1A5C3820)
+#define RPG_CLIENT_FATERIN_BATTLE_FATERINBATTLEFUNCTIONAREAVIEWMODEL__GETEVENTMANAGER_OFFSET UNITYSDK_OFFSET(0x1A5C3C90)
+#define RPG_CLIENT_FATERIN_BATTLE_FATERINBATTLEFUNCTIONAREAVIEWMODEL__ONLEVELGAMEMODESTATECHANGEDEVENT_OFFSET UNITYSDK_OFFSET(0x1A5C3DB0)
+#define RPG_CLIENT_FATERIN_BATTLE_FATERINBATTLEFUNCTIONAREAVIEWMODEL__REGISTEREVENT_OFFSET UNITYSDK_OFFSET(0x1A5C3A60)
+#define RPG_CLIENT_FATERIN_BATTLE_FATERINBATTLEFUNCTIONAREAVIEWMODEL__UNREGISTEREVENT_OFFSET UNITYSDK_OFFSET(0x1A5C3BA0)
+
+namespace RPG::Client::FateRin::Battle
+{
+	inline static constexpr unsigned int FateRinBattleFunctionAreaViewModel_TypeDefinitionIndex = 75920;
+
+	class FateRinBattleFunctionAreaViewModel : public ::RPG::Client::FateRin::BaseViewModel
+	{
+	public:
+		::RPG::Client::FateRin::Battle::IFateRinBattleSpeedUpButtonViewModel* _SpeedUpButton_k__BackingField; // 0x20
+		::RPG::Client::FateRin::ViewModelEventHandler* OnEnterBattle; // 0x28
+		::RPG::Client::FateRin::Battle::IFateRinBattlePauseButtonViewModel* _PauseButton_k__BackingField; // 0x30
+
+		::System::Void _ctor(::Class_1_90698D4D8381BDC2* a1, ::Class_1_85357ED0932DEBF1* a2, ::Class_0_16E4307DCC419505_1288* a3, ::Class_0_16E4307DCC419505_1267* a4, ::Class_1_5F4D64A4B97E38F9* a5)
+		{
+			return ((::System::Void(*)(::PVOID, ::Class_1_90698D4D8381BDC2*, ::Class_1_85357ED0932DEBF1*, ::Class_0_16E4307DCC419505_1288*, ::Class_0_16E4307DCC419505_1267*, ::Class_1_5F4D64A4B97E38F9*))((::PBYTE)hIl2Cpp + RPG_CLIENT_FATERIN_BATTLE_FATERINBATTLEFUNCTIONAREAVIEWMODEL__CTOR_OFFSET))(this, a1, a2, a3, a4, a5);
+		}
+
+		::System::Void Dispose()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_FATERIN_BATTLE_FATERINBATTLEFUNCTIONAREAVIEWMODEL_DISPOSE_OFFSET))(this);
+		}
+
+		::System::Void _RegisterEvent()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_FATERIN_BATTLE_FATERINBATTLEFUNCTIONAREAVIEWMODEL__REGISTEREVENT_OFFSET))(this);
+		}
+
+		::System::Void _UnRegisterEvent()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_FATERIN_BATTLE_FATERINBATTLEFUNCTIONAREAVIEWMODEL__UNREGISTEREVENT_OFFSET))(this);
+		}
+
+		::RPG::GameCore::EventManager* _GetEventManager()
+		{
+			return ((::RPG::GameCore::EventManager*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_FATERIN_BATTLE_FATERINBATTLEFUNCTIONAREAVIEWMODEL__GETEVENTMANAGER_OFFSET))(this);
+		}
+
+		::System::Void _OnLevelGameModeStateChangedEvent(::Class_0_16E4307DCC419505_425* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::Class_0_16E4307DCC419505_425*))((::PBYTE)hIl2Cpp + RPG_CLIENT_FATERIN_BATTLE_FATERINBATTLEFUNCTIONAREAVIEWMODEL__ONLEVELGAMEMODESTATECHANGEDEVENT_OFFSET))(this, a1);
+		}
+
+		::RPG::Client::FateRin::Battle::IFateRinBattleSpeedUpButtonViewModel* get_SpeedUpButton()
+		{
+			return ((::RPG::Client::FateRin::Battle::IFateRinBattleSpeedUpButtonViewModel*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_FATERIN_BATTLE_FATERINBATTLEFUNCTIONAREAVIEWMODEL_GET_SPEEDUPBUTTON_OFFSET))(this);
+		}
+
+		::RPG::Client::FateRin::Battle::IFateRinBattlePauseButtonViewModel* get_PauseButton()
+		{
+			return ((::RPG::Client::FateRin::Battle::IFateRinBattlePauseButtonViewModel*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_FATERIN_BATTLE_FATERINBATTLEFUNCTIONAREAVIEWMODEL_GET_PAUSEBUTTON_OFFSET))(this);
+		}
+
+		::System::Void add_OnEnterBattle(::RPG::Client::FateRin::ViewModelEventHandler* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::FateRin::ViewModelEventHandler*))((::PBYTE)hIl2Cpp + RPG_CLIENT_FATERIN_BATTLE_FATERINBATTLEFUNCTIONAREAVIEWMODEL_ADD_ONENTERBATTLE_OFFSET))(this, a1);
+		}
+
+		::System::Void remove_OnEnterBattle(::RPG::Client::FateRin::ViewModelEventHandler* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::FateRin::ViewModelEventHandler*))((::PBYTE)hIl2Cpp + RPG_CLIENT_FATERIN_BATTLE_FATERINBATTLEFUNCTIONAREAVIEWMODEL_REMOVE_ONENTERBATTLE_OFFSET))(this, a1);
+		}
+	};
+}

@@ -4,12 +4,12 @@
 
 namespace System { class Object; }
 
-#define SYSTEM_RUNTIME_INTEROPSERVICES_HANDLEREF_GET_HANDLE_OFFSET UNITYSDK_OFFSET(0x60D0)
-#define SYSTEM_RUNTIME_INTEROPSERVICES_HANDLEREF__CTOR_OFFSET UNITYSDK_OFFSET(0x80F20)
+#define SYSTEM_RUNTIME_INTEROPSERVICES_HANDLEREF_GET_HANDLE_OFFSET UNITYSDK_OFFSET(0x676DC0)
+#define SYSTEM_RUNTIME_INTEROPSERVICES_HANDLEREF__CTOR_OFFSET UNITYSDK_OFFSET(0x676D90)
 
 namespace System::Runtime::InteropServices
 {
-	inline static constexpr unsigned int HandleRef_TypeDefinitionIndex = 1419;
+	inline static constexpr unsigned int HandleRef_TypeDefinitionIndex = 1423;
 
 	struct alignas(8) HandleRef
 	{

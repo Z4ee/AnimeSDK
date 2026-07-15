@@ -5,23 +5,23 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_ACTIVITYPHOTOEXHIBITIONROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x193F5F10)
-#define RPG_GAMECORE_ACTIVITYPHOTOEXHIBITIONROW__CTOR_OFFSET UNITYSDK_OFFSET(0x193F6220)
+#define RPG_GAMECORE_ACTIVITYPHOTOEXHIBITIONROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1AAFEA00)
+#define RPG_GAMECORE_ACTIVITYPHOTOEXHIBITIONROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1AAFED10)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ActivityPhotoExhibitionRow_TypeDefinitionIndex = 11546;
+	inline static constexpr unsigned int ActivityPhotoExhibitionRow_TypeDefinitionIndex = 11646;
 
 	class ActivityPhotoExhibitionRow : public ::System::Object
 	{
 	public:
 		::Il2CppArray<::System::UInt32>* CommentList; // 0x10
 		::Il2CppArray<::System::UInt32>* PhotoID; // 0x18
-		::RPG::Client::TextID Daily; // 0x20
-		::System::UInt32 GroupID; // 0x30
-		::System::UInt32 ActivityModuleID; // 0x34
-		::System::UInt32 QuestID; // 0x38
-		::RPG::Client::TextID Tab; // 0x40
+		::System::UInt32 QuestID; // 0x20
+		::System::UInt32 GroupID; // 0x24
+		::System::UInt32 ActivityModuleID; // 0x28
+		::RPG::Client::TextID Tab; // 0x30
+		::RPG::Client::TextID Daily; // 0x40
 
 		::System::Void _ctor()
 		{

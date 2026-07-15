@@ -3,7 +3,7 @@
 
 namespace TMPro
 {
-	inline static constexpr unsigned int TMP_InputField_LineType_TypeDefinitionIndex = 40979;
+	inline static constexpr unsigned int TMP_InputField_LineType_TypeDefinitionIndex = 41794;
 
 	enum class TMP_InputField_LineType : ::System::Int32
 	{

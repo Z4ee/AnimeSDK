@@ -5,13 +5,13 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class TargetEvaluator; }
 
-#define RPG_GAMECORE_ADVCHARACTERDISABLEHITBOX_METHOD_3_B3410652FC62197B_OFFSET UNITYSDK_OFFSET(0x1941DFB0)
-#define RPG_GAMECORE_ADVCHARACTERDISABLEHITBOX_METHOD_3_BD7379288E8CF236_OFFSET UNITYSDK_OFFSET(0x1941DF30)
-#define RPG_GAMECORE_ADVCHARACTERDISABLEHITBOX__CTOR_OFFSET UNITYSDK_OFFSET(0x1941DF80)
+#define RPG_GAMECORE_ADVCHARACTERDISABLEHITBOX_METHOD_3_44AF52ACC94A7CB2_OFFSET UNITYSDK_OFFSET(0x1BE16EF0)
+#define RPG_GAMECORE_ADVCHARACTERDISABLEHITBOX_METHOD_3_B3410652FC62197B_OFFSET UNITYSDK_OFFSET(0x1BE16F40)
+#define RPG_GAMECORE_ADVCHARACTERDISABLEHITBOX__CTOR_OFFSET UNITYSDK_OFFSET(0x1BE16F30)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AdvCharacterDisableHitBox_TypeDefinitionIndex = 21173;
+	inline static constexpr unsigned int AdvCharacterDisableHitBox_TypeDefinitionIndex = 21588;
 
 	class AdvCharacterDisableHitBox : public ::RPG::GameCore::TaskConfig
 	{
@@ -25,9 +25,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVCHARACTERDISABLEHITBOX__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_BD7379288E8CF236(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AdvCharacterDisableHitBox*& a2)
+		static ::System::Void Method_3_44AF52ACC94A7CB2(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AdvCharacterDisableHitBox*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::AdvCharacterDisableHitBox*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVCHARACTERDISABLEHITBOX_METHOD_3_BD7379288E8CF236_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::AdvCharacterDisableHitBox*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVCHARACTERDISABLEHITBOX_METHOD_3_44AF52ACC94A7CB2_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_B3410652FC62197B(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AdvCharacterDisableHitBox* a2)

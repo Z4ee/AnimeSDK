@@ -6,7 +6,7 @@ namespace Newtonsoft::Json::Utilities { template <typename T1, typename T2> clas
 
 namespace Newtonsoft::Json::Serialization
 {
-	inline static constexpr unsigned int CachedAttributeGetter_1_TypeDefinitionIndex = 9397;
+	inline static constexpr unsigned int CachedAttributeGetter_1_TypeDefinitionIndex = 9409;
 
 	template <typename T>
 	class CachedAttributeGetter_1 : public ::System::Object

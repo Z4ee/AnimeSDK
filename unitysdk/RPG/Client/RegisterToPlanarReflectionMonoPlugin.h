@@ -6,11 +6,11 @@ namespace RPG::Client { class RegisterToPlanarReflectionBehavior; }
 namespace System { class String; }
 namespace UnityEngine { class Renderer; }
 
-#define RPG_CLIENT_REGISTERTOPLANARREFLECTIONMONOPLUGIN__CTOR_OFFSET UNITYSDK_OFFSET(0xC6CFDC0)
+#define RPG_CLIENT_REGISTERTOPLANARREFLECTIONMONOPLUGIN__CTOR_OFFSET UNITYSDK_OFFSET(0x1986B050)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int RegisterToPlanarReflectionMonoPlugin_TypeDefinitionIndex = 66125;
+	inline static constexpr unsigned int RegisterToPlanarReflectionMonoPlugin_TypeDefinitionIndex = 67550;
 
 	class RegisterToPlanarReflectionMonoPlugin : public ::RPG::Client::TAMonoPlugin_1<::RPG::Client::RegisterToPlanarReflectionBehavior*>
 	{

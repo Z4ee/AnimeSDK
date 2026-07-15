@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int CakeSpeakerPolicy_TypeDefinitionIndex = 12305;
+	inline static constexpr unsigned int CakeSpeakerPolicy_TypeDefinitionIndex = 12439;
 
 	enum class CakeSpeakerPolicy : ::System::Int32
 	{

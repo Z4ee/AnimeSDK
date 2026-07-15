@@ -6,13 +6,13 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_SHOWSKILLTEXTDIALOG_METHOD_3_3490FD8F4F485EE3_OFFSET UNITYSDK_OFFSET(0x19C83900)
-#define RPG_GAMECORE_SHOWSKILLTEXTDIALOG_METHOD_3_43C8363705D58512_OFFSET UNITYSDK_OFFSET(0x19C83980)
-#define RPG_GAMECORE_SHOWSKILLTEXTDIALOG__CTOR_OFFSET UNITYSDK_OFFSET(0x19C83950)
+#define RPG_GAMECORE_SHOWSKILLTEXTDIALOG_METHOD_3_43C8363705D58512_OFFSET UNITYSDK_OFFSET(0x1BE474D0)
+#define RPG_GAMECORE_SHOWSKILLTEXTDIALOG_METHOD_3_4EF81B0FC1C7D5D3_OFFSET UNITYSDK_OFFSET(0x1BE47490)
+#define RPG_GAMECORE_SHOWSKILLTEXTDIALOG__CTOR_OFFSET UNITYSDK_OFFSET(0x1BE474C0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ShowSkillTextDialog_TypeDefinitionIndex = 21681;
+	inline static constexpr unsigned int ShowSkillTextDialog_TypeDefinitionIndex = 22108;
 
 	class ShowSkillTextDialog : public ::RPG::GameCore::TaskConfig
 	{
@@ -26,9 +26,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SHOWSKILLTEXTDIALOG__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_3490FD8F4F485EE3(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ShowSkillTextDialog*& a2)
+		static ::System::Void Method_3_4EF81B0FC1C7D5D3(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ShowSkillTextDialog*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ShowSkillTextDialog*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SHOWSKILLTEXTDIALOG_METHOD_3_3490FD8F4F485EE3_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ShowSkillTextDialog*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SHOWSKILLTEXTDIALOG_METHOD_3_4EF81B0FC1C7D5D3_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_43C8363705D58512(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ShowSkillTextDialog* a2)

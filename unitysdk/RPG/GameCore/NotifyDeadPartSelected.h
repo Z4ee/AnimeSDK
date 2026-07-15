@@ -5,13 +5,13 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class TargetEvaluator; }
 
-#define RPG_GAMECORE_NOTIFYDEADPARTSELECTED_METHOD_3_990292D7301A0589_OFFSET UNITYSDK_OFFSET(0x199D01D0)
-#define RPG_GAMECORE_NOTIFYDEADPARTSELECTED_METHOD_3_99ED26214CD7DAD5_OFFSET UNITYSDK_OFFSET(0x199D0150)
-#define RPG_GAMECORE_NOTIFYDEADPARTSELECTED__CTOR_OFFSET UNITYSDK_OFFSET(0x199D01A0)
+#define RPG_GAMECORE_NOTIFYDEADPARTSELECTED_METHOD_3_990292D7301A0589_OFFSET UNITYSDK_OFFSET(0x1BAFA7B0)
+#define RPG_GAMECORE_NOTIFYDEADPARTSELECTED_METHOD_3_F45A9EBA3FA12DC6_OFFSET UNITYSDK_OFFSET(0x1BAFA770)
+#define RPG_GAMECORE_NOTIFYDEADPARTSELECTED__CTOR_OFFSET UNITYSDK_OFFSET(0x1BAFA7A0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int NotifyDeadPartSelected_TypeDefinitionIndex = 21986;
+	inline static constexpr unsigned int NotifyDeadPartSelected_TypeDefinitionIndex = 22420;
 
 	class NotifyDeadPartSelected : public ::RPG::GameCore::TaskConfig
 	{
@@ -24,9 +24,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_NOTIFYDEADPARTSELECTED__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_99ED26214CD7DAD5(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::NotifyDeadPartSelected*& a2)
+		static ::System::Void Method_3_F45A9EBA3FA12DC6(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::NotifyDeadPartSelected*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::NotifyDeadPartSelected*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_NOTIFYDEADPARTSELECTED_METHOD_3_99ED26214CD7DAD5_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::NotifyDeadPartSelected*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_NOTIFYDEADPARTSELECTED_METHOD_3_F45A9EBA3FA12DC6_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_990292D7301A0589(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::NotifyDeadPartSelected* a2)

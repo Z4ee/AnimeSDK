@@ -4,11 +4,11 @@
 
 namespace System { class String; }
 
-#define RPG_CLIENT_MONOTIMELINECONTROLGAMELEVELCELL_TRIGGERCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0xC14E780)
+#define RPG_CLIENT_MONOTIMELINECONTROLGAMELEVELCELL_TRIGGERCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1A354950)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MonoTimelineControlGameLevelCell_TriggerConfig_TypeDefinitionIndex = 56483;
+	inline static constexpr unsigned int MonoTimelineControlGameLevelCell_TriggerConfig_TypeDefinitionIndex = 57723;
 
 	class MonoTimelineControlGameLevelCell_TriggerConfig : public ::System::Object
 	{

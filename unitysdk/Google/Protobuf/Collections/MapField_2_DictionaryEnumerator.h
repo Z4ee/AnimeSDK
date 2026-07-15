@@ -8,7 +8,7 @@ namespace System::Collections::Generic { template <typename T> class IEnumerator
 
 namespace Google::Protobuf::Collections
 {
-	inline static constexpr unsigned int MapField_2_DictionaryEnumerator_TypeDefinitionIndex = 5579;
+	inline static constexpr unsigned int MapField_2_DictionaryEnumerator_TypeDefinitionIndex = 5584;
 
 	template <typename TKey, typename TValue>
 	class MapField_2_DictionaryEnumerator : public ::System::Object

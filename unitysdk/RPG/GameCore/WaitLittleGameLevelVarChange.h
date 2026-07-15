@@ -7,13 +7,13 @@ namespace RPG::GameCore { class DynamicString; }
 namespace RPG::GameCore { class PredicateConfig; }
 namespace RPG::GameCore { class TaskConfig; }
 
-#define RPG_GAMECORE_WAITLITTLEGAMELEVELVARCHANGE_METHOD_4_4E3A152F527EE13D_OFFSET UNITYSDK_OFFSET(0x19E598A0)
-#define RPG_GAMECORE_WAITLITTLEGAMELEVELVARCHANGE_METHOD_4_E3D262EAF63B58B3_OFFSET UNITYSDK_OFFSET(0x19E59980)
-#define RPG_GAMECORE_WAITLITTLEGAMELEVELVARCHANGE__CTOR_OFFSET UNITYSDK_OFFSET(0x19E59920)
+#define RPG_GAMECORE_WAITLITTLEGAMELEVELVARCHANGE_METHOD_4_DD30E7BBCC83D1C6_OFFSET UNITYSDK_OFFSET(0x1B8A7A00)
+#define RPG_GAMECORE_WAITLITTLEGAMELEVELVARCHANGE_METHOD_4_E3D262EAF63B58B3_OFFSET UNITYSDK_OFFSET(0x1B8A7A50)
+#define RPG_GAMECORE_WAITLITTLEGAMELEVELVARCHANGE__CTOR_OFFSET UNITYSDK_OFFSET(0x1B8A7A40)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int WaitLittleGameLevelVarChange_TypeDefinitionIndex = 20235;
+	inline static constexpr unsigned int WaitLittleGameLevelVarChange_TypeDefinitionIndex = 20628;
 
 	class WaitLittleGameLevelVarChange : public ::RPG::GameCore::AdvWaitingEventBase
 	{
@@ -27,9 +27,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_WAITLITTLEGAMELEVELVARCHANGE__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_4_4E3A152F527EE13D(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::WaitLittleGameLevelVarChange*& a2)
+		static ::System::Void Method_4_DD30E7BBCC83D1C6(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::WaitLittleGameLevelVarChange*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::WaitLittleGameLevelVarChange*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_WAITLITTLEGAMELEVELVARCHANGE_METHOD_4_4E3A152F527EE13D_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::WaitLittleGameLevelVarChange*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_WAITLITTLEGAMELEVELVARCHANGE_METHOD_4_DD30E7BBCC83D1C6_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_4_E3D262EAF63B58B3(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::WaitLittleGameLevelVarChange* a2)

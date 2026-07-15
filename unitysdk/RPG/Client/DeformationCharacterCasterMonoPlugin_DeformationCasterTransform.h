@@ -7,11 +7,11 @@
 namespace System { class String; }
 namespace UnityEngine { class Mesh; }
 
-#define RPG_CLIENT_DEFORMATIONCHARACTERCASTERMONOPLUGIN_DEFORMATIONCASTERTRANSFORM__CTOR_OFFSET UNITYSDK_OFFSET(0xB739F50)
+#define RPG_CLIENT_DEFORMATIONCHARACTERCASTERMONOPLUGIN_DEFORMATIONCASTERTRANSFORM__CTOR_OFFSET UNITYSDK_OFFSET(0x18094030)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int DeformationCharacterCasterMonoPlugin_DeformationCasterTransform_TypeDefinitionIndex = 65705;
+	inline static constexpr unsigned int DeformationCharacterCasterMonoPlugin_DeformationCasterTransform_TypeDefinitionIndex = 67122;
 
 	class DeformationCharacterCasterMonoPlugin_DeformationCasterTransform : public ::System::Object
 	{

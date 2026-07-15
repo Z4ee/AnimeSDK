@@ -5,23 +5,23 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_CHENLINGEFFECTROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x196278D0)
-#define RPG_GAMECORE_CHENLINGEFFECTROW__CTOR_OFFSET UNITYSDK_OFFSET(0x19627B60)
+#define RPG_GAMECORE_CHENLINGEFFECTROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1C381D20)
+#define RPG_GAMECORE_CHENLINGEFFECTROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1C381FB0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ChenLingEffectRow_TypeDefinitionIndex = 10594;
+	inline static constexpr unsigned int ChenLingEffectRow_TypeDefinitionIndex = 10644;
 
 	class ChenLingEffectRow : public ::System::Object
 	{
 	public:
 		::Il2CppArray<::System::UInt32>* ParamList; // 0x10
-		::System::UInt32 Param2; // 0x18
-		::System::UInt32 Param4; // 0x1C
-		::System::UInt32 Param1; // 0x20
-		::System::UInt32 ID; // 0x24
-		::RPG::GameCore::ChenLingEffectType EffectType; // 0x28
-		::System::UInt32 Param3; // 0x2C
+		::RPG::GameCore::ChenLingEffectType EffectType; // 0x18
+		::System::UInt32 ID; // 0x1C
+		::System::UInt32 Param4; // 0x20
+		::System::UInt32 Param2; // 0x24
+		::System::UInt32 Param3; // 0x28
+		::System::UInt32 Param1; // 0x2C
 
 		::System::Void _ctor()
 		{

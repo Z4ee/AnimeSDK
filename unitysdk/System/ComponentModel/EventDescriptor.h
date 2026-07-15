@@ -4,7 +4,7 @@
 
 namespace System::ComponentModel
 {
-	inline static constexpr unsigned int EventDescriptor_TypeDefinitionIndex = 2581;
+	inline static constexpr unsigned int EventDescriptor_TypeDefinitionIndex = 2585;
 
 	class EventDescriptor : public ::System::ComponentModel::MemberDescriptor
 	{

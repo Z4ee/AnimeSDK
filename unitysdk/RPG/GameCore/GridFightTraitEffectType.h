@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int GridFightTraitEffectType_TypeDefinitionIndex = 13012;
+	inline static constexpr unsigned int GridFightTraitEffectType_TypeDefinitionIndex = 13160;
 
 	enum class GridFightTraitEffectType : ::System::Int32
 	{
@@ -20,5 +20,8 @@ namespace RPG::GameCore
 		GainFrontTrait = 10,
 		BackStrengthenFront = 11,
 		Elation = 12,
+		HolyGrailPray = 13,
+		PartnerRoleChoose = 14,
+		ChooseTraitByModule = 15,
 	};
 }

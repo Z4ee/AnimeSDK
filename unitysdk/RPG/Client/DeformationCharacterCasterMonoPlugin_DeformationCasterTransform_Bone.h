@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int DeformationCharacterCasterMonoPlugin_DeformationCasterTransform_Bone_TypeDefinitionIndex = 65706;
+	inline static constexpr unsigned int DeformationCharacterCasterMonoPlugin_DeformationCasterTransform_Bone_TypeDefinitionIndex = 67123;
 
 	enum class DeformationCharacterCasterMonoPlugin_DeformationCasterTransform_Bone : ::System::Int32
 	{

@@ -5,12 +5,12 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_ROGUENOUSMISSIONREWARDROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x19BA7770)
-#define RPG_GAMECORE_ROGUENOUSMISSIONREWARDROW__CTOR_OFFSET UNITYSDK_OFFSET(0x19BA7E10)
+#define RPG_GAMECORE_ROGUENOUSMISSIONREWARDROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D170980)
+#define RPG_GAMECORE_ROGUENOUSMISSIONREWARDROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D171020)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RogueNousMissionRewardRow_TypeDefinitionIndex = 14190;
+	inline static constexpr unsigned int RogueNousMissionRewardRow_TypeDefinitionIndex = 14338;
 
 	class RogueNousMissionRewardRow : public ::System::Object
 	{

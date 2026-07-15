@@ -5,13 +5,13 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class TargetEvaluator; }
 
-#define RPG_GAMECORE_SETENTITYTALKENABLE_METHOD_3_69B4FF9771DB715C_OFFSET UNITYSDK_OFFSET(0x19C4C810)
-#define RPG_GAMECORE_SETENTITYTALKENABLE_METHOD_3_DA8116FD96000EEA_OFFSET UNITYSDK_OFFSET(0x19C4C790)
-#define RPG_GAMECORE_SETENTITYTALKENABLE__CTOR_OFFSET UNITYSDK_OFFSET(0x19C4C7E0)
+#define RPG_GAMECORE_SETENTITYTALKENABLE_METHOD_3_168325DA3E6DAD3B_OFFSET UNITYSDK_OFFSET(0x1C5F7F40)
+#define RPG_GAMECORE_SETENTITYTALKENABLE_METHOD_3_69B4FF9771DB715C_OFFSET UNITYSDK_OFFSET(0x1C5F7F80)
+#define RPG_GAMECORE_SETENTITYTALKENABLE__CTOR_OFFSET UNITYSDK_OFFSET(0x1C5F7F70)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SetEntityTalkEnable_TypeDefinitionIndex = 19619;
+	inline static constexpr unsigned int SetEntityTalkEnable_TypeDefinitionIndex = 19978;
 
 	class SetEntityTalkEnable : public ::RPG::GameCore::TaskConfig
 	{
@@ -24,9 +24,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETENTITYTALKENABLE__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_DA8116FD96000EEA(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SetEntityTalkEnable*& a2)
+		static ::System::Void Method_3_168325DA3E6DAD3B(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SetEntityTalkEnable*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SetEntityTalkEnable*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETENTITYTALKENABLE_METHOD_3_DA8116FD96000EEA_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SetEntityTalkEnable*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETENTITYTALKENABLE_METHOD_3_168325DA3E6DAD3B_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_69B4FF9771DB715C(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SetEntityTalkEnable* a2)

@@ -5,12 +5,11 @@
 namespace RPG::GameCore { class SetAdvLockDistance; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_05E0A76D87E274D1_DISPOSE_OFFSET UNITYSDK_OFFSET(0xFFB8630)
-#define CLASS_3_05E0A76D87E274D1_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xFFB8670)
-#define CLASS_3_05E0A76D87E274D1__CTOR_OFFSET UNITYSDK_OFFSET(0xFFB8600)
-#define CLASS_3_05E0A76D87E274D1___IFIXBASEPROXY_DISPOSE_OFFSET UNITYSDK_OFFSET(0xFFB8780)
+#define CLASS_3_05E0A76D87E274D1_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1468E8D0)
+#define CLASS_3_05E0A76D87E274D1_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1468E910)
+#define CLASS_3_05E0A76D87E274D1__CTOR_OFFSET UNITYSDK_OFFSET(0x1468E8A0)
 
-inline static constexpr unsigned int Class_3_05E0A76D87E274D1_TypeDefinitionIndex = 51698;
+inline static constexpr unsigned int Class_3_05E0A76D87E274D1_TypeDefinitionIndex = 52841;
 
 class Class_3_05E0A76D87E274D1 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::SetAdvLockDistance*>
 {
@@ -28,10 +27,5 @@ public:
 	::System::Void OnTaskBegin()
 	{
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_3_05E0A76D87E274D1_ONTASKBEGIN_OFFSET))(this);
-	}
-
-	::System::Void __iFixBaseProxy_Dispose()
-	{
-		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_3_05E0A76D87E274D1___IFIXBASEPROXY_DISPOSE_OFFSET))(this);
 	}
 };

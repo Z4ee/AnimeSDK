@@ -6,13 +6,13 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class LevelTriggerInfo; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_FIVEDIMTRIGGERSHAPE_METHOD_3_0DF9C32F54D75735_OFFSET UNITYSDK_OFFSET(0x1975D480)
-#define RPG_GAMECORE_FIVEDIMTRIGGERSHAPE_METHOD_3_22C96C8C929895F9_OFFSET UNITYSDK_OFFSET(0x1974DF10)
-#define RPG_GAMECORE_FIVEDIMTRIGGERSHAPE__CTOR_OFFSET UNITYSDK_OFFSET(0x1975D460)
+#define RPG_GAMECORE_FIVEDIMTRIGGERSHAPE_METHOD_3_0DF9C32F54D75735_OFFSET UNITYSDK_OFFSET(0x1BEB85C0)
+#define RPG_GAMECORE_FIVEDIMTRIGGERSHAPE_METHOD_3_49ED5BA149224D02_OFFSET UNITYSDK_OFFSET(0x1BE9FFC0)
+#define RPG_GAMECORE_FIVEDIMTRIGGERSHAPE__CTOR_OFFSET UNITYSDK_OFFSET(0x1BEB85B0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FiveDimTriggerShape_TypeDefinitionIndex = 17625;
+	inline static constexpr unsigned int FiveDimTriggerShape_TypeDefinitionIndex = 17799;
 
 	class FiveDimTriggerShape : public ::RPG::GameCore::LittleGameComponentConfig
 	{
@@ -26,9 +26,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMTRIGGERSHAPE__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_22C96C8C929895F9(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::FiveDimTriggerShape*& a2)
+		static ::System::Void Method_3_49ED5BA149224D02(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::FiveDimTriggerShape*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::FiveDimTriggerShape*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMTRIGGERSHAPE_METHOD_3_22C96C8C929895F9_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::FiveDimTriggerShape*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMTRIGGERSHAPE_METHOD_3_49ED5BA149224D02_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_0DF9C32F54D75735(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::FiveDimTriggerShape* a2)

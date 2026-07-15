@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LevelPerformanceHideType_TypeDefinitionIndex = 16340;
+	inline static constexpr unsigned int LevelPerformanceHideType_TypeDefinitionIndex = 16502;
 
 	enum class LevelPerformanceHideType : ::System::UInt16
 	{

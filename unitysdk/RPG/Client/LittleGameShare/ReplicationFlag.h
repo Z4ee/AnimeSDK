@@ -3,7 +3,7 @@
 
 namespace RPG::Client::LittleGameShare
 {
-	inline static constexpr unsigned int ReplicationFlag_TypeDefinitionIndex = 34661;
+	inline static constexpr unsigned int ReplicationFlag_TypeDefinitionIndex = 35327;
 
 	enum class ReplicationFlag : ::System::Byte
 	{

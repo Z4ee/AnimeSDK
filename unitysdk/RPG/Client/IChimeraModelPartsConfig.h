@@ -7,7 +7,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int IChimeraModelPartsConfig_TypeDefinitionIndex = 59345;
+	inline static constexpr unsigned int IChimeraModelPartsConfig_TypeDefinitionIndex = 60616;
 
 	class IChimeraModelPartsConfig
 	{

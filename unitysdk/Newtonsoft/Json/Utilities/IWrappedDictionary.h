@@ -5,7 +5,7 @@ namespace System { class Object; }
 
 namespace Newtonsoft::Json::Utilities
 {
-	inline static constexpr unsigned int IWrappedDictionary_TypeDefinitionIndex = 9315;
+	inline static constexpr unsigned int IWrappedDictionary_TypeDefinitionIndex = 9327;
 
 	class IWrappedDictionary
 	{

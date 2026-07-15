@@ -14,30 +14,28 @@ namespace UnityEngine { class Material; }
 namespace UnityEngine { class MaterialPropertyBlock; }
 namespace UnityEngine { class Renderer; }
 
-#define CITYATMOSPHERECOMMONANIMEVENT_AWAKE_OFFSET UNITYSDK_OFFSET(0xC743630)
-#define CITYATMOSPHERECOMMONANIMEVENT_ONPOLYMERREBUILDAFTERFADING_OFFSET UNITYSDK_OFFSET(0xC7435D0)
-#define CITYATMOSPHERECOMMONANIMEVENT_ONPOLYMERREBUILDBEFOREFADING_OFFSET UNITYSDK_OFFSET(0xC742D90)
-#define CITYATMOSPHERECOMMONANIMEVENT_RANDOMCOLOR_OFFSET UNITYSDK_OFFSET(0xC743700)
-#define CITYATMOSPHERECOMMONANIMEVENT_RANDOMCONTAINERGOODS_OFFSET UNITYSDK_OFFSET(0xC7438B0)
-#define CITYATMOSPHERECOMMONANIMEVENT_REFRESHCHILDOBJ_OFFSET UNITYSDK_OFFSET(0xC742E10)
-#define CITYATMOSPHERECOMMONANIMEVENT_REFRESHCOLOR_OFFSET UNITYSDK_OFFSET(0xC743170)
-#define CITYATMOSPHERECOMMONANIMEVENT__CCTOR_OFFSET UNITYSDK_OFFSET(0xC743930)
-#define CITYATMOSPHERECOMMONANIMEVENT__CTOR_OFFSET UNITYSDK_OFFSET(0xC7438F0)
-#define CITYATMOSPHERECOMMONANIMEVENT___IFIXBASEPROXY_ONPOLYMERREBUILDAFTERFADING_OFFSET UNITYSDK_OFFSET(0xC743990)
-#define CITYATMOSPHERECOMMONANIMEVENT___IFIXBASEPROXY_ONPOLYMERREBUILDBEFOREFADING_OFFSET UNITYSDK_OFFSET(0xC743980)
+#define CITYATMOSPHERECOMMONANIMEVENT_AWAKE_OFFSET UNITYSDK_OFFSET(0x16B348F0)
+#define CITYATMOSPHERECOMMONANIMEVENT_ONPOLYMERREBUILDAFTERFADING_OFFSET UNITYSDK_OFFSET(0x16B34890)
+#define CITYATMOSPHERECOMMONANIMEVENT_ONPOLYMERREBUILDBEFOREFADING_OFFSET UNITYSDK_OFFSET(0x16B34050)
+#define CITYATMOSPHERECOMMONANIMEVENT_RANDOMCOLOR_OFFSET UNITYSDK_OFFSET(0x16B349C0)
+#define CITYATMOSPHERECOMMONANIMEVENT_RANDOMCONTAINERGOODS_OFFSET UNITYSDK_OFFSET(0x16B34B70)
+#define CITYATMOSPHERECOMMONANIMEVENT_REFRESHCHILDOBJ_OFFSET UNITYSDK_OFFSET(0x16B340D0)
+#define CITYATMOSPHERECOMMONANIMEVENT_REFRESHCOLOR_OFFSET UNITYSDK_OFFSET(0x16B34430)
+#define CITYATMOSPHERECOMMONANIMEVENT__CCTOR_OFFSET UNITYSDK_OFFSET(0x16B34BF0)
+#define CITYATMOSPHERECOMMONANIMEVENT__CTOR_OFFSET UNITYSDK_OFFSET(0x16B34BB0)
 
-inline static constexpr unsigned int CityAtmosphereCommonAnimEvent_TypeDefinitionIndex = 44434;
+inline static constexpr unsigned int CityAtmosphereCommonAnimEvent_TypeDefinitionIndex = 45304;
 
 class CityAtmosphereCommonAnimEvent : public ::RPG::Client::PolymerEffectControllBase
 {
 public:
 	static ::System::Collections::Generic::List_1<::UnityEngine::Material*>** StaticGet_sCachedRendererMats()
 	{
-		return (::System::Collections::Generic::List_1<::UnityEngine::Material*>**)Il2CppClass::FromTypeDefinitionIndex(CityAtmosphereCommonAnimEvent_TypeDefinitionIndex)->GetStaticField(0x68900);
+		return (::System::Collections::Generic::List_1<::UnityEngine::Material*>**)Il2CppClass::FromTypeDefinitionIndex(CityAtmosphereCommonAnimEvent_TypeDefinitionIndex)->GetStaticField(0x5F6C0);
 	}
 	static ::System::Int32* StaticGet_AdjustAlbedoColor()
 	{
-		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(CityAtmosphereCommonAnimEvent_TypeDefinitionIndex)->GetStaticField(0x14110);
+		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(CityAtmosphereCommonAnimEvent_TypeDefinitionIndex)->GetStaticField(0x10180);
 	}
 	::System::Collections::Generic::List_1<::UnityEngine::GameObject*>* Goods; // 0x30
 	::System::Boolean TriggerWhenInverted; // 0x38
@@ -92,15 +90,5 @@ public:
 	::System::Void RandomContainerGoods()
 	{
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CITYATMOSPHERECOMMONANIMEVENT_RANDOMCONTAINERGOODS_OFFSET))(this);
-	}
-
-	::System::Void __iFixBaseProxy_OnPolymerRebuildBeforeFading(::Class_1_303D5A33D1401D59* a1, ::RPG::Client::OpenWorld::StreamingItemData* a2, ::UnityEngine::GameObject* a3, ::UnityEngine::GameObject* a4)
-	{
-		return ((::System::Void(*)(::PVOID, ::Class_1_303D5A33D1401D59*, ::RPG::Client::OpenWorld::StreamingItemData*, ::UnityEngine::GameObject*, ::UnityEngine::GameObject*))((::PBYTE)hIl2Cpp + CITYATMOSPHERECOMMONANIMEVENT___IFIXBASEPROXY_ONPOLYMERREBUILDBEFOREFADING_OFFSET))(this, a1, a2, a3, a4);
-	}
-
-	::System::Void __iFixBaseProxy_OnPolymerRebuildAfterFading(::Class_1_303D5A33D1401D59* a1, ::RPG::Client::OpenWorld::StreamingItemData* a2, ::UnityEngine::GameObject* a3)
-	{
-		return ((::System::Void(*)(::PVOID, ::Class_1_303D5A33D1401D59*, ::RPG::Client::OpenWorld::StreamingItemData*, ::UnityEngine::GameObject*))((::PBYTE)hIl2Cpp + CITYATMOSPHERECOMMONANIMEVENT___IFIXBASEPROXY_ONPOLYMERREBUILDAFTERFADING_OFFSET))(this, a1, a2, a3);
 	}
 };

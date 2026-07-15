@@ -5,22 +5,22 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_GRIDFIGHTTUTORIALSTAGENODECONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x19811890)
-#define RPG_GAMECORE_GRIDFIGHTTUTORIALSTAGENODECONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x19811AD0)
+#define RPG_GAMECORE_GRIDFIGHTTUTORIALSTAGENODECONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D07E580)
+#define RPG_GAMECORE_GRIDFIGHTTUTORIALSTAGENODECONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D07E7C0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int GridFightTutorialStageNodeConfigRow_TypeDefinitionIndex = 13001;
+	inline static constexpr unsigned int GridFightTutorialStageNodeConfigRow_TypeDefinitionIndex = 13149;
 
 	class GridFightTutorialStageNodeConfigRow : public ::System::Object
 	{
 	public:
 		::Il2CppArray<::RPG::GameCore::GridFightFunctionNodeType>* FunctionList; // 0x10
-		::System::UInt32 SectionID; // 0x18
-		::System::UInt32 ChapterID; // 0x1C
-		::System::UInt32 UnlockTutorialTask; // 0x20
-		::System::UInt32 Unlock; // 0x24
-		::System::UInt32 DivisionID; // 0x28
+		::System::UInt32 DivisionID; // 0x18
+		::System::UInt32 UnlockTutorialTask; // 0x1C
+		::System::UInt32 SectionID; // 0x20
+		::System::UInt32 ChapterID; // 0x24
+		::System::UInt32 Unlock; // 0x28
 
 		::System::Void _ctor()
 		{

@@ -9,26 +9,26 @@ namespace RPG::GameCore { class ElementResistanceConfig; }
 namespace RPG::GameCore { class MonsterResistEntry; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_MONSTERATLASEXTRAPHASESROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x199A57F0)
-#define RPG_GAMECORE_MONSTERATLASEXTRAPHASESROW__CTOR_OFFSET UNITYSDK_OFFSET(0x199A5C20)
+#define RPG_GAMECORE_MONSTERATLASEXTRAPHASESROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B1C1B20)
+#define RPG_GAMECORE_MONSTERATLASEXTRAPHASESROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1B1C1F50)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MonsterAtlasExtraPhasesRow_TypeDefinitionIndex = 13498;
+	inline static constexpr unsigned int MonsterAtlasExtraPhasesRow_TypeDefinitionIndex = 13646;
 
 	class MonsterAtlasExtraPhasesRow : public ::System::Object
 	{
 	public:
-		::Il2CppArray<::RPG::GameCore::MonsterResistEntry*>* DebuffResist; // 0x10
-		::Il2CppArray<::RPG::GameCore::AttackDamageType>* StanceWeakList; // 0x18
-		::Il2CppArray<::RPG::GameCore::ElementResistanceConfig*>* DamageTypeResistance; // 0x20
-		::Il2CppArray<::System::String*>* CustomValueTags; // 0x28
-		::System::String* ManikinPrefabPath; // 0x30
-		::System::String* ManikinConfigPath; // 0x38
-		::System::UInt32 TemplateGroupID; // 0x40
-		::System::Int32 PhaseID; // 0x44
-		::RPG::Client::TextID MonsterName; // 0x48
-		::RPG::Client::TextID MonsterIntroduction; // 0x58
+		::System::String* ManikinConfigPath; // 0x10
+		::Il2CppArray<::System::String*>* CustomValueTags; // 0x18
+		::System::String* ManikinPrefabPath; // 0x20
+		::Il2CppArray<::RPG::GameCore::MonsterResistEntry*>* DebuffResist; // 0x28
+		::Il2CppArray<::RPG::GameCore::AttackDamageType>* StanceWeakList; // 0x30
+		::Il2CppArray<::RPG::GameCore::ElementResistanceConfig*>* DamageTypeResistance; // 0x38
+		::RPG::Client::TextID MonsterIntroduction; // 0x40
+		::RPG::Client::TextID MonsterName; // 0x50
+		::System::Int32 PhaseID; // 0x60
+		::System::UInt32 TemplateGroupID; // 0x64
 
 		::System::Void _ctor()
 		{

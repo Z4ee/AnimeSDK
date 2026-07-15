@@ -7,13 +7,13 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class BaseChimeraDuelEntitiesSelectorConfig; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_CHIMERADUELFIREBULLETNODE_METHOD_3_4FC4D1908EFBB809_OFFSET UNITYSDK_OFFSET(0x1963D6B0)
-#define RPG_GAMECORE_CHIMERADUELFIREBULLETNODE_METHOD_3_8249B05689292CD5_OFFSET UNITYSDK_OFFSET(0x1963D7D0)
-#define RPG_GAMECORE_CHIMERADUELFIREBULLETNODE__CTOR_OFFSET UNITYSDK_OFFSET(0x1963D760)
+#define RPG_GAMECORE_CHIMERADUELFIREBULLETNODE_METHOD_3_279A175D2E344640_OFFSET UNITYSDK_OFFSET(0x1C23F030)
+#define RPG_GAMECORE_CHIMERADUELFIREBULLETNODE_METHOD_3_8249B05689292CD5_OFFSET UNITYSDK_OFFSET(0x1C23F130)
+#define RPG_GAMECORE_CHIMERADUELFIREBULLETNODE__CTOR_OFFSET UNITYSDK_OFFSET(0x1C23F0D0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ChimeraDuelFireBulletNode_TypeDefinitionIndex = 15191;
+	inline static constexpr unsigned int ChimeraDuelFireBulletNode_TypeDefinitionIndex = 15355;
 
 	class ChimeraDuelFireBulletNode : public ::RPG::GameCore::BaseChimeraDuelNode
 	{
@@ -32,9 +32,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHIMERADUELFIREBULLETNODE__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_4FC4D1908EFBB809(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ChimeraDuelFireBulletNode*& a2)
+		static ::System::Void Method_3_279A175D2E344640(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ChimeraDuelFireBulletNode*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ChimeraDuelFireBulletNode*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHIMERADUELFIREBULLETNODE_METHOD_3_4FC4D1908EFBB809_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ChimeraDuelFireBulletNode*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHIMERADUELFIREBULLETNODE_METHOD_3_279A175D2E344640_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_8249B05689292CD5(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ChimeraDuelFireBulletNode* a2)

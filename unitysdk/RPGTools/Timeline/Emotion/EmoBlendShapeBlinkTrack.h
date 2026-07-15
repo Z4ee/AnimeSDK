@@ -10,18 +10,16 @@ namespace UnityEngine { class GameObject; }
 namespace UnityEngine::Timeline { class TimelineClip; }
 namespace UnityEngine::Timeline { class TrackAsset; }
 
-#define RPGTOOLS_TIMELINE_EMOTION_EMOBLENDSHAPEBLINKTRACK_COMPILETRACKS_OFFSET UNITYSDK_OFFSET(0xD010B20)
-#define RPGTOOLS_TIMELINE_EMOTION_EMOBLENDSHAPEBLINKTRACK_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0xD010E10)
-#define RPGTOOLS_TIMELINE_EMOTION_EMOBLENDSHAPEBLINKTRACK_GET_CONTROLLER_OFFSET UNITYSDK_OFFSET(0xD010A30)
-#define RPGTOOLS_TIMELINE_EMOTION_EMOBLENDSHAPEBLINKTRACK_GET_USEUNIQUECHARACTERNAME_OFFSET UNITYSDK_OFFSET(0xD010A20)
-#define RPGTOOLS_TIMELINE_EMOTION_EMOBLENDSHAPEBLINKTRACK_METHOD_7_8BFD1173A5F6D827_OFFSET UNITYSDK_OFFSET(0xD010C20)
-#define RPGTOOLS_TIMELINE_EMOTION_EMOBLENDSHAPEBLINKTRACK__CTOR_OFFSET UNITYSDK_OFFSET(0xD010F30)
-#define RPGTOOLS_TIMELINE_EMOTION_EMOBLENDSHAPEBLINKTRACK___IFIXBASEPROXY_COMPILETRACKS_OFFSET UNITYSDK_OFFSET(0xD011010)
-#define RPGTOOLS_TIMELINE_EMOTION_EMOBLENDSHAPEBLINKTRACK___IFIXBASEPROXY_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0xD011020)
+#define RPGTOOLS_TIMELINE_EMOTION_EMOBLENDSHAPEBLINKTRACK_COMPILETRACKS_OFFSET UNITYSDK_OFFSET(0x19A48ED0)
+#define RPGTOOLS_TIMELINE_EMOTION_EMOBLENDSHAPEBLINKTRACK_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0x19A491C0)
+#define RPGTOOLS_TIMELINE_EMOTION_EMOBLENDSHAPEBLINKTRACK_GET_CONTROLLER_OFFSET UNITYSDK_OFFSET(0x19A48DE0)
+#define RPGTOOLS_TIMELINE_EMOTION_EMOBLENDSHAPEBLINKTRACK_GET_USEUNIQUECHARACTERNAME_OFFSET UNITYSDK_OFFSET(0x19A48DD0)
+#define RPGTOOLS_TIMELINE_EMOTION_EMOBLENDSHAPEBLINKTRACK_METHOD_7_8BFD1173A5F6D827_OFFSET UNITYSDK_OFFSET(0x19A48FD0)
+#define RPGTOOLS_TIMELINE_EMOTION_EMOBLENDSHAPEBLINKTRACK__CTOR_OFFSET UNITYSDK_OFFSET(0x19A492E0)
 
 namespace RPGTools::Timeline::Emotion
 {
-	inline static constexpr unsigned int EmoBlendShapeBlinkTrack_TypeDefinitionIndex = 46017;
+	inline static constexpr unsigned int EmoBlendShapeBlinkTrack_TypeDefinitionIndex = 46956;
 
 	class EmoBlendShapeBlinkTrack : public ::RPGTools::Timeline::Emotion::BaseEmoTrack
 	{
@@ -56,16 +54,6 @@ namespace RPGTools::Timeline::Emotion
 		::System::Void Method_7_8BFD1173A5F6D827(::UnityEngine::GameObject* a1)
 		{
 			return ((::System::Void(*)(::PVOID, ::UnityEngine::GameObject*))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_EMOTION_EMOBLENDSHAPEBLINKTRACK_METHOD_7_8BFD1173A5F6D827_OFFSET))(this, a1);
-		}
-
-		::System::Void __iFixBaseProxy_CompileTracks(::UnityEngine::Playables::PlayableGraph a1, ::UnityEngine::Playables::Playable a2, ::System::Collections::Generic::IEnumerable_1<::UnityEngine::Timeline::TrackAsset*>* a3, ::UnityEngine::GameObject* a4, ::System::Boolean a5)
-		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Playables::PlayableGraph, ::UnityEngine::Playables::Playable, ::System::Collections::Generic::IEnumerable_1<::UnityEngine::Timeline::TrackAsset*>*, ::UnityEngine::GameObject*, ::System::Boolean))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_EMOTION_EMOBLENDSHAPEBLINKTRACK___IFIXBASEPROXY_COMPILETRACKS_OFFSET))(this, a1, a2, a3, a4, a5);
-		}
-
-		::UnityEngine::Playables::Playable __iFixBaseProxy_CreatePlayable(::UnityEngine::Playables::PlayableGraph a1, ::UnityEngine::GameObject* a2, ::UnityEngine::Timeline::TimelineClip* a3)
-		{
-			return ((::UnityEngine::Playables::Playable(*)(::PVOID, ::UnityEngine::Playables::PlayableGraph, ::UnityEngine::GameObject*, ::UnityEngine::Timeline::TimelineClip*))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_EMOTION_EMOBLENDSHAPEBLINKTRACK___IFIXBASEPROXY_CREATEPLAYABLE_OFFSET))(this, a1, a2, a3);
 		}
 	};
 }

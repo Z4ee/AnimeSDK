@@ -3,7 +3,7 @@
 
 namespace RPGTools::Timeline::Audio
 {
-	inline static constexpr unsigned int WwiseExternalAudioConfig_ExternalAudioType_TypeDefinitionIndex = 46095;
+	inline static constexpr unsigned int WwiseExternalAudioConfig_ExternalAudioType_TypeDefinitionIndex = 47034;
 
 	enum class WwiseExternalAudioConfig_ExternalAudioType : ::System::Int32
 	{

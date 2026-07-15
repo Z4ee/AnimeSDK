@@ -3,7 +3,7 @@
 
 namespace Cinemachine
 {
-	inline static constexpr unsigned int CinemachineCollider_ResolutionStrategy_TypeDefinitionIndex = 36790;
+	inline static constexpr unsigned int CinemachineCollider_ResolutionStrategy_TypeDefinitionIndex = 37572;
 
 	enum class CinemachineCollider_ResolutionStrategy : ::System::Int32
 	{

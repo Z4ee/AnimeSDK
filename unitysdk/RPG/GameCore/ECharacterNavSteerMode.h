@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ECharacterNavSteerMode_TypeDefinitionIndex = 16567;
+	inline static constexpr unsigned int ECharacterNavSteerMode_TypeDefinitionIndex = 16729;
 
 	enum class ECharacterNavSteerMode : ::System::Int32
 	{

@@ -5,12 +5,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_FSVOVERRIDITEM_METHOD_2_C24ADD1F0F0D94E3_OFFSET UNITYSDK_OFFSET(0x19706C40)
-#define RPG_GAMECORE_FSVOVERRIDITEM__CTOR_OFFSET UNITYSDK_OFFSET(0x19706D90)
+#define RPG_GAMECORE_FSVOVERRIDITEM_METHOD_2_C24ADD1F0F0D94E3_OFFSET UNITYSDK_OFFSET(0x1C06F530)
+#define RPG_GAMECORE_FSVOVERRIDITEM__CTOR_OFFSET UNITYSDK_OFFSET(0x1C06F680)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FSVOverridItem_TypeDefinitionIndex = 18089;
+	inline static constexpr unsigned int FSVOverridItem_TypeDefinitionIndex = 18293;
 
 	class FSVOverridItem : public ::RPG::GameCore::JsonConfig
 	{

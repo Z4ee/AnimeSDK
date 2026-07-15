@@ -6,22 +6,22 @@
 namespace System { class String; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define CLASS_2_FD6D592E82E5BB9E___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x18B03920)
-#define CLASS_2_FD6D592E82E5BB9E___C__CTOR_OFFSET UNITYSDK_OFFSET(0x18B03960)
-#define CLASS_2_FD6D592E82E5BB9E___C___ROLLDICEBYPRESET_B__8_0_OFFSET UNITYSDK_OFFSET(0x18B03970)
+#define CLASS_2_FD6D592E82E5BB9E___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x13E962E0)
+#define CLASS_2_FD6D592E82E5BB9E___C__CTOR_OFFSET UNITYSDK_OFFSET(0x13E96320)
+#define CLASS_2_FD6D592E82E5BB9E___C___ROLLDICEBYPRESET_B__8_0_OFFSET UNITYSDK_OFFSET(0x13E96330)
 
-inline static constexpr unsigned int Class_2_FD6D592E82E5BB9E___c_TypeDefinitionIndex = 34575;
+inline static constexpr unsigned int Class_2_FD6D592E82E5BB9E___c_TypeDefinitionIndex = 34957;
 
 class Class_2_FD6D592E82E5BB9E___c : public ::System::Object
 {
 public:
-	static ::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::System::Int32, ::System::Int32>, ::System::String*>** StaticGet___9__8_0()
-	{
-		return (::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::System::Int32, ::System::Int32>, ::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(Class_2_FD6D592E82E5BB9E___c_TypeDefinitionIndex)->GetStaticField(0x5BC20);
-	}
 	static ::Class_2_FD6D592E82E5BB9E___c** StaticGet___9()
 	{
-		return (::Class_2_FD6D592E82E5BB9E___c**)Il2CppClass::FromTypeDefinitionIndex(Class_2_FD6D592E82E5BB9E___c_TypeDefinitionIndex)->GetStaticField(0x5BC28);
+		return (::Class_2_FD6D592E82E5BB9E___c**)Il2CppClass::FromTypeDefinitionIndex(Class_2_FD6D592E82E5BB9E___c_TypeDefinitionIndex)->GetStaticField(0x56850);
+	}
+	static ::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::System::Int32, ::System::Int32>, ::System::String*>** StaticGet___9__8_0()
+	{
+		return (::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::System::Int32, ::System::Int32>, ::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(Class_2_FD6D592E82E5BB9E___c_TypeDefinitionIndex)->GetStaticField(0x56858);
 	}
 
 	static ::System::Void _cctor()

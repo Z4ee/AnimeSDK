@@ -5,12 +5,12 @@
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine { class Renderer; }
 
-#define RPG_CLIENT_MONOEFFECTPERSPECTIVEWALLCONTROL_UPDATE_OFFSET UNITYSDK_OFFSET(0xC0A3180)
-#define RPG_CLIENT_MONOEFFECTPERSPECTIVEWALLCONTROL__CTOR_OFFSET UNITYSDK_OFFSET(0xC0A3400)
+#define RPG_CLIENT_MONOEFFECTPERSPECTIVEWALLCONTROL_UPDATE_OFFSET UNITYSDK_OFFSET(0x10CFDFA0)
+#define RPG_CLIENT_MONOEFFECTPERSPECTIVEWALLCONTROL__CTOR_OFFSET UNITYSDK_OFFSET(0x10CFE220)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MonoEffectPerspectiveWallControl_TypeDefinitionIndex = 66151;
+	inline static constexpr unsigned int MonoEffectPerspectiveWallControl_TypeDefinitionIndex = 67576;
 
 	class MonoEffectPerspectiveWallControl : public ::UnityEngine::MonoBehaviour
 	{

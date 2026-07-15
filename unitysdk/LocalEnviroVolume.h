@@ -11,28 +11,28 @@ namespace UnityEngine { class Gradient; }
 namespace UnityEngine { class Renderer; }
 namespace UnityEngine { class Texture2D; }
 
-#define LOCALENVIROVOLUME_AWAKE_OFFSET UNITYSDK_OFFSET(0xA65AEA0)
-#define LOCALENVIROVOLUME_METHOD_5_460F8AE6EF9687FD_OFFSET UNITYSDK_OFFSET(0xA65AF80)
-#define LOCALENVIROVOLUME_ONDISABLE_OFFSET UNITYSDK_OFFSET(0xA65B820)
-#define LOCALENVIROVOLUME_ONENABLE_OFFSET UNITYSDK_OFFSET(0xA65B7A0)
-#define LOCALENVIROVOLUME_ONLIGHTWEIGHTACTIVATE_OFFSET UNITYSDK_OFFSET(0xA65B8A0)
-#define LOCALENVIROVOLUME_ONLIGHTWEIGHTDEACTIVATE_OFFSET UNITYSDK_OFFSET(0xA65B940)
-#define LOCALENVIROVOLUME_START_OFFSET UNITYSDK_OFFSET(0xA65AF00)
-#define LOCALENVIROVOLUME_UPDATE_OFFSET UNITYSDK_OFFSET(0xA65B9D0)
-#define LOCALENVIROVOLUME__CTOR_OFFSET UNITYSDK_OFFSET(0xA65BB90)
+#define LOCALENVIROVOLUME_AWAKE_OFFSET UNITYSDK_OFFSET(0x18DAA580)
+#define LOCALENVIROVOLUME_METHOD_5_460F8AE6EF9687FD_OFFSET UNITYSDK_OFFSET(0x18DAA690)
+#define LOCALENVIROVOLUME_ONDISABLE_OFFSET UNITYSDK_OFFSET(0x18DAAF30)
+#define LOCALENVIROVOLUME_ONENABLE_OFFSET UNITYSDK_OFFSET(0x18DAAEB0)
+#define LOCALENVIROVOLUME_ONLIGHTWEIGHTACTIVATE_OFFSET UNITYSDK_OFFSET(0x18DAAFB0)
+#define LOCALENVIROVOLUME_ONLIGHTWEIGHTDEACTIVATE_OFFSET UNITYSDK_OFFSET(0x18DAB050)
+#define LOCALENVIROVOLUME_START_OFFSET UNITYSDK_OFFSET(0x18DAA610)
+#define LOCALENVIROVOLUME_UPDATE_OFFSET UNITYSDK_OFFSET(0x18DAB0E0)
+#define LOCALENVIROVOLUME__CTOR_OFFSET UNITYSDK_OFFSET(0x18DAB2A0)
 
-inline static constexpr unsigned int LocalEnviroVolume_TypeDefinitionIndex = 44762;
+inline static constexpr unsigned int LocalEnviroVolume_TypeDefinitionIndex = 45677;
 
 class LocalEnviroVolume : public ::UnityEngine::MonoBehaviour
 {
 public:
 	static ::UnityEngine::Rendering::ShaderKeyword* StaticGet_Field_5_0()
 	{
-		return (::UnityEngine::Rendering::ShaderKeyword*)Il2CppClass::FromTypeDefinitionIndex(LocalEnviroVolume_TypeDefinitionIndex)->GetStaticField(0x10FD0);
+		return (::UnityEngine::Rendering::ShaderKeyword*)Il2CppClass::FromTypeDefinitionIndex(LocalEnviroVolume_TypeDefinitionIndex)->GetStaticField(0x12670);
 	}
 	static ::System::Int32* StaticGet_Field_5_1()
 	{
-		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(LocalEnviroVolume_TypeDefinitionIndex)->GetStaticField(0x10FD4);
+		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(LocalEnviroVolume_TypeDefinitionIndex)->GetStaticField(0x12674);
 	}
 	::System::Boolean inverse; // 0x18
 	::UnityEngine::Gradient* FogColor; // 0x20

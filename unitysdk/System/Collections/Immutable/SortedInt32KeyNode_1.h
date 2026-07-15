@@ -10,7 +10,7 @@ namespace System::Collections::Immutable { template <typename T> class SortedInt
 
 namespace System::Collections::Immutable
 {
-	inline static constexpr unsigned int SortedInt32KeyNode_1_TypeDefinitionIndex = 7041;
+	inline static constexpr unsigned int SortedInt32KeyNode_1_TypeDefinitionIndex = 7047;
 
 	template <typename TValue>
 	class SortedInt32KeyNode_1 : public ::System::Object

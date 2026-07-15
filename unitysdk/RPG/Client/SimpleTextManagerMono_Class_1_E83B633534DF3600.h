@@ -4,11 +4,11 @@
 
 namespace UnityEngine { class Object; }
 
-#define RPG_CLIENT_SIMPLETEXTMANAGERMONO_CLASS_1_E83B633534DF3600_METHOD_1_F9326FB93A1F02CB_OFFSET UNITYSDK_OFFSET(0xC8D3A10)
+#define RPG_CLIENT_SIMPLETEXTMANAGERMONO_CLASS_1_E83B633534DF3600_METHOD_1_F9326FB93A1F02CB_OFFSET UNITYSDK_OFFSET(0x188EEEB0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int SimpleTextManagerMono_Class_1_E83B633534DF3600_TypeDefinitionIndex = 67881;
+	inline static constexpr unsigned int SimpleTextManagerMono_Class_1_E83B633534DF3600_TypeDefinitionIndex = 69365;
 
 	class SimpleTextManagerMono_Class_1_E83B633534DF3600 : public ::System::Object
 	{

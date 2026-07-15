@@ -8,13 +8,13 @@ namespace RPG::GameCore { class DamageDisplayData; }
 namespace RPG::GameCore { class DynamicFloat; }
 namespace RPG::GameCore { class TargetEvaluator; }
 
-#define RPG_GAMECORE_HEALHP_METHOD_3_B34B766605EA2678_OFFSET UNITYSDK_OFFSET(0x1981E120)
-#define RPG_GAMECORE_HEALHP_METHOD_3_C05C0E2A305F455B_OFFSET UNITYSDK_OFFSET(0x1981DF60)
-#define RPG_GAMECORE_HEALHP__CTOR_OFFSET UNITYSDK_OFFSET(0x1981DFA0)
+#define RPG_GAMECORE_HEALHP_METHOD_3_2F18079C1806E281_OFFSET UNITYSDK_OFFSET(0x1B670C90)
+#define RPG_GAMECORE_HEALHP_METHOD_3_B34B766605EA2678_OFFSET UNITYSDK_OFFSET(0x1B670F70)
+#define RPG_GAMECORE_HEALHP__CTOR_OFFSET UNITYSDK_OFFSET(0x1B670E10)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int HealHP_TypeDefinitionIndex = 21392;
+	inline static constexpr unsigned int HealHP_TypeDefinitionIndex = 21810;
 
 	class HealHP : public ::RPG::GameCore::TaskConfig
 	{
@@ -36,9 +36,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_HEALHP__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_C05C0E2A305F455B(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::HealHP*& a2)
+		static ::System::Void Method_3_2F18079C1806E281(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::HealHP*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::HealHP*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_HEALHP_METHOD_3_C05C0E2A305F455B_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::HealHP*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_HEALHP_METHOD_3_2F18079C1806E281_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_B34B766605EA2678(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::HealHP* a2)

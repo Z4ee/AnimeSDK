@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int InsertAbilityFinishSource_TypeDefinitionIndex = 17347;
+	inline static constexpr unsigned int InsertAbilityFinishSource_TypeDefinitionIndex = 17520;
 
 	enum class InsertAbilityFinishSource : ::System::Int32
 	{

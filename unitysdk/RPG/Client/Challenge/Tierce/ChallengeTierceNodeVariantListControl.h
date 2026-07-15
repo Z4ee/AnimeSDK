@@ -2,7 +2,7 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 
-namespace RPG::Client::Challenge::Tierce { class ChallengeTierceNodeVariantListControl_Class_0_16E7307DCC43CB2C_27; }
+namespace RPG::Client::Challenge::Tierce { class ChallengeTierceNodeVariantListControl_Class_0_16E7307DCC43CB2C_28; }
 namespace RPG::Client::Challenge::Tierce { class ChallengeTierceNodeVariantListControl_Class_1_3934BCE11C8FDFC0; }
 namespace System { class Action; }
 namespace System { class Object; }
@@ -12,25 +12,25 @@ namespace System::Collections::Generic { template <typename T> class IReadOnlyLi
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class GameObject; }
 
-#define RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCENODEVARIANTLISTCONTROL_BINDVIEWMODEL_1_OFFSET UNITYSDK_OFFSET(0xB4CCFF0)
-#define RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCENODEVARIANTLISTCONTROL_BINDVIEWMODEL_2_OFFSET UNITYSDK_OFFSET(0xB4CD0D0)
-#define RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCENODEVARIANTLISTCONTROL_BINDVIEWMODEL_OFFSET UNITYSDK_OFFSET(0xB4CCEF0)
-#define RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCENODEVARIANTLISTCONTROL_GETBOUNDOBJECT_OFFSET UNITYSDK_OFFSET(0xB4CD2D0)
-#define RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCENODEVARIANTLISTCONTROL_GET_ITEMS_OFFSET UNITYSDK_OFFSET(0xB4CCD90)
-#define RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCENODEVARIANTLISTCONTROL_GET_VARIANTPROVIDER_OFFSET UNITYSDK_OFFSET(0xB4CCED0)
-#define RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCENODEVARIANTLISTCONTROL_METHOD_5_1E0D2B2DFBFCBDCA_OFFSET UNITYSDK_OFFSET(0xB4CD230)
-#define RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCENODEVARIANTLISTCONTROL_METHOD_5_2D1DCF232FAAED40_OFFSET UNITYSDK_OFFSET(0xB4CCE00)
-#define RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCENODEVARIANTLISTCONTROL_METHOD_5_2E9D21518474DA09_OFFSET UNITYSDK_OFFSET(0xB4CE3E0)
-#define RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCENODEVARIANTLISTCONTROL_METHOD_5_36EB20BAEC6C0B33_OFFSET UNITYSDK_OFFSET(0xB4CD350)
-#define RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCENODEVARIANTLISTCONTROL_METHOD_5_DD3E15D4A7F8D51F_OFFSET UNITYSDK_OFFSET(0xB4CD4C0)
-#define RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCENODEVARIANTLISTCONTROL_METHOD_5_E3D42085A946E917_OFFSET UNITYSDK_OFFSET(0xB4CE310)
-#define RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCENODEVARIANTLISTCONTROL_SET_ITEMS_OFFSET UNITYSDK_OFFSET(0xB4CCDA0)
-#define RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCENODEVARIANTLISTCONTROL_SET_VARIANTPROVIDER_OFFSET UNITYSDK_OFFSET(0xB4CCEE0)
-#define RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCENODEVARIANTLISTCONTROL__CTOR_OFFSET UNITYSDK_OFFSET(0xB4CE500)
+#define RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCENODEVARIANTLISTCONTROL_BINDVIEWMODEL_1_OFFSET UNITYSDK_OFFSET(0x1AC6DAB0)
+#define RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCENODEVARIANTLISTCONTROL_BINDVIEWMODEL_2_OFFSET UNITYSDK_OFFSET(0x1AC6DB90)
+#define RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCENODEVARIANTLISTCONTROL_BINDVIEWMODEL_OFFSET UNITYSDK_OFFSET(0x1AC6D9B0)
+#define RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCENODEVARIANTLISTCONTROL_GETBOUNDOBJECT_OFFSET UNITYSDK_OFFSET(0x1AC6DD90)
+#define RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCENODEVARIANTLISTCONTROL_GET_ITEMS_OFFSET UNITYSDK_OFFSET(0x1AC6D820)
+#define RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCENODEVARIANTLISTCONTROL_GET_VARIANTPROVIDER_OFFSET UNITYSDK_OFFSET(0x1AC6D990)
+#define RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCENODEVARIANTLISTCONTROL_METHOD_5_1E0D2B2DFBFCBDCA_OFFSET UNITYSDK_OFFSET(0x1AC6DCF0)
+#define RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCENODEVARIANTLISTCONTROL_METHOD_5_2D1DCF232FAAED40_OFFSET UNITYSDK_OFFSET(0x1AC6D8C0)
+#define RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCENODEVARIANTLISTCONTROL_METHOD_5_2E9D21518474DA09_OFFSET UNITYSDK_OFFSET(0x1AC6F0F0)
+#define RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCENODEVARIANTLISTCONTROL_METHOD_5_36EB20BAEC6C0B33_OFFSET UNITYSDK_OFFSET(0x1AC6DE10)
+#define RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCENODEVARIANTLISTCONTROL_METHOD_5_828F2AB4A7DF6436_OFFSET UNITYSDK_OFFSET(0x1AC6DF80)
+#define RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCENODEVARIANTLISTCONTROL_METHOD_5_E3D42085A946E917_OFFSET UNITYSDK_OFFSET(0x1AC6F020)
+#define RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCENODEVARIANTLISTCONTROL_SET_ITEMS_OFFSET UNITYSDK_OFFSET(0x1AC6D860)
+#define RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCENODEVARIANTLISTCONTROL_SET_VARIANTPROVIDER_OFFSET UNITYSDK_OFFSET(0x1AC6D9A0)
+#define RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCENODEVARIANTLISTCONTROL__CTOR_OFFSET UNITYSDK_OFFSET(0x1AC6F210)
 
 namespace RPG::Client::Challenge::Tierce
 {
-	inline static constexpr unsigned int ChallengeTierceNodeVariantListControl_TypeDefinitionIndex = 74181;
+	inline static constexpr unsigned int ChallengeTierceNodeVariantListControl_TypeDefinitionIndex = 76565;
 
 	class ChallengeTierceNodeVariantListControl : public ::UnityEngine::MonoBehaviour
 	{
@@ -39,7 +39,7 @@ namespace RPG::Client::Challenge::Tierce
 		::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Collections::Generic::List_1<::UnityEngine::GameObject*>*>* Field_5_1; // 0x20
 		::System::Collections::Generic::List_1<::UnityEngine::GameObject*>* Field_5_2; // 0x28
 		::System::Collections::Generic::List_1<::System::Action*>* Field_5_3; // 0x30
-		::RPG::Client::Challenge::Tierce::ChallengeTierceNodeVariantListControl_Class_0_16E7307DCC43CB2C_27* _VariantProvider_k__BackingField; // 0x38
+		::RPG::Client::Challenge::Tierce::ChallengeTierceNodeVariantListControl_Class_0_16E7307DCC43CB2C_28* _VariantProvider_k__BackingField; // 0x38
 
 		::System::Void _ctor()
 		{
@@ -56,14 +56,14 @@ namespace RPG::Client::Challenge::Tierce
 			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::IReadOnlyList_1<::RPG::Client::Challenge::Tierce::ChallengeTierceNodeVariantListControl_Class_1_3934BCE11C8FDFC0*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCENODEVARIANTLISTCONTROL_SET_ITEMS_OFFSET))(this, a1);
 		}
 
-		::RPG::Client::Challenge::Tierce::ChallengeTierceNodeVariantListControl_Class_0_16E7307DCC43CB2C_27* get_VariantProvider()
+		::RPG::Client::Challenge::Tierce::ChallengeTierceNodeVariantListControl_Class_0_16E7307DCC43CB2C_28* get_VariantProvider()
 		{
-			return ((::RPG::Client::Challenge::Tierce::ChallengeTierceNodeVariantListControl_Class_0_16E7307DCC43CB2C_27*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCENODEVARIANTLISTCONTROL_GET_VARIANTPROVIDER_OFFSET))(this);
+			return ((::RPG::Client::Challenge::Tierce::ChallengeTierceNodeVariantListControl_Class_0_16E7307DCC43CB2C_28*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCENODEVARIANTLISTCONTROL_GET_VARIANTPROVIDER_OFFSET))(this);
 		}
 
-		::System::Void set_VariantProvider(::RPG::Client::Challenge::Tierce::ChallengeTierceNodeVariantListControl_Class_0_16E7307DCC43CB2C_27* a1)
+		::System::Void set_VariantProvider(::RPG::Client::Challenge::Tierce::ChallengeTierceNodeVariantListControl_Class_0_16E7307DCC43CB2C_28* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::Client::Challenge::Tierce::ChallengeTierceNodeVariantListControl_Class_0_16E7307DCC43CB2C_27*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCENODEVARIANTLISTCONTROL_SET_VARIANTPROVIDER_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::Challenge::Tierce::ChallengeTierceNodeVariantListControl_Class_0_16E7307DCC43CB2C_28*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCENODEVARIANTLISTCONTROL_SET_VARIANTPROVIDER_OFFSET))(this, a1);
 		}
 
 		::System::Void BindViewModel(::System::Int32 a1)
@@ -91,14 +91,14 @@ namespace RPG::Client::Challenge::Tierce
 			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::IReadOnlyList_1<::RPG::Client::Challenge::Tierce::ChallengeTierceNodeVariantListControl_Class_1_3934BCE11C8FDFC0*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCENODEVARIANTLISTCONTROL_METHOD_5_2D1DCF232FAAED40_OFFSET))(this, a1);
 		}
 
-		::System::Collections::Generic::IEnumerable_1<::RPG::Client::Challenge::Tierce::ChallengeTierceNodeVariantListControl_Class_1_3934BCE11C8FDFC0*>* Method_5_1E0D2B2DFBFCBDCA(::System::Collections::Generic::IReadOnlyList_1<::System::Object*>* a1, ::RPG::Client::Challenge::Tierce::ChallengeTierceNodeVariantListControl_Class_0_16E7307DCC43CB2C_27* a2)
+		::System::Collections::Generic::IEnumerable_1<::RPG::Client::Challenge::Tierce::ChallengeTierceNodeVariantListControl_Class_1_3934BCE11C8FDFC0*>* Method_5_1E0D2B2DFBFCBDCA(::System::Collections::Generic::IReadOnlyList_1<::System::Object*>* a1, ::RPG::Client::Challenge::Tierce::ChallengeTierceNodeVariantListControl_Class_0_16E7307DCC43CB2C_28* a2)
 		{
-			return ((::System::Collections::Generic::IEnumerable_1<::RPG::Client::Challenge::Tierce::ChallengeTierceNodeVariantListControl_Class_1_3934BCE11C8FDFC0*>*(*)(::PVOID, ::System::Collections::Generic::IReadOnlyList_1<::System::Object*>*, ::RPG::Client::Challenge::Tierce::ChallengeTierceNodeVariantListControl_Class_0_16E7307DCC43CB2C_27*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCENODEVARIANTLISTCONTROL_METHOD_5_1E0D2B2DFBFCBDCA_OFFSET))(this, a1, a2);
+			return ((::System::Collections::Generic::IEnumerable_1<::RPG::Client::Challenge::Tierce::ChallengeTierceNodeVariantListControl_Class_1_3934BCE11C8FDFC0*>*(*)(::PVOID, ::System::Collections::Generic::IReadOnlyList_1<::System::Object*>*, ::RPG::Client::Challenge::Tierce::ChallengeTierceNodeVariantListControl_Class_0_16E7307DCC43CB2C_28*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCENODEVARIANTLISTCONTROL_METHOD_5_1E0D2B2DFBFCBDCA_OFFSET))(this, a1, a2);
 		}
 
-		::System::Collections::Generic::List_1<::UnityEngine::GameObject*>* Method_5_DD3E15D4A7F8D51F(::System::Collections::Generic::IReadOnlyList_1<::RPG::Client::Challenge::Tierce::ChallengeTierceNodeVariantListControl_Class_1_3934BCE11C8FDFC0*>* a1)
+		::System::Collections::Generic::List_1<::UnityEngine::GameObject*>* Method_5_828F2AB4A7DF6436(::System::Collections::Generic::IReadOnlyList_1<::RPG::Client::Challenge::Tierce::ChallengeTierceNodeVariantListControl_Class_1_3934BCE11C8FDFC0*>* a1)
 		{
-			return ((::System::Collections::Generic::List_1<::UnityEngine::GameObject*>*(*)(::PVOID, ::System::Collections::Generic::IReadOnlyList_1<::RPG::Client::Challenge::Tierce::ChallengeTierceNodeVariantListControl_Class_1_3934BCE11C8FDFC0*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCENODEVARIANTLISTCONTROL_METHOD_5_DD3E15D4A7F8D51F_OFFSET))(this, a1);
+			return ((::System::Collections::Generic::List_1<::UnityEngine::GameObject*>*(*)(::PVOID, ::System::Collections::Generic::IReadOnlyList_1<::RPG::Client::Challenge::Tierce::ChallengeTierceNodeVariantListControl_Class_1_3934BCE11C8FDFC0*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCENODEVARIANTLISTCONTROL_METHOD_5_828F2AB4A7DF6436_OFFSET))(this, a1);
 		}
 
 		::System::Void Method_5_E3D42085A946E917(::System::Collections::Generic::List_1<::UnityEngine::GameObject*>* a1)

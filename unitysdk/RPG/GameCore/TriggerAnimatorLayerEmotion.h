@@ -7,13 +7,13 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class DynamicString; }
 namespace RPG::GameCore { class TargetEvaluator; }
 
-#define RPG_GAMECORE_TRIGGERANIMATORLAYEREMOTION_METHOD_3_34C760B063DE39AA_OFFSET UNITYSDK_OFFSET(0x19E084C0)
-#define RPG_GAMECORE_TRIGGERANIMATORLAYEREMOTION_METHOD_3_8A67C771C044C7A7_OFFSET UNITYSDK_OFFSET(0x19E08430)
-#define RPG_GAMECORE_TRIGGERANIMATORLAYEREMOTION__CTOR_OFFSET UNITYSDK_OFFSET(0x19E08490)
+#define RPG_GAMECORE_TRIGGERANIMATORLAYEREMOTION_METHOD_3_34C760B063DE39AA_OFFSET UNITYSDK_OFFSET(0x1B046270)
+#define RPG_GAMECORE_TRIGGERANIMATORLAYEREMOTION_METHOD_3_C3677DD45CD3661F_OFFSET UNITYSDK_OFFSET(0x1B046220)
+#define RPG_GAMECORE_TRIGGERANIMATORLAYEREMOTION__CTOR_OFFSET UNITYSDK_OFFSET(0x1B046260)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TriggerAnimatorLayerEmotion_TypeDefinitionIndex = 19456;
+	inline static constexpr unsigned int TriggerAnimatorLayerEmotion_TypeDefinitionIndex = 19814;
 
 	class TriggerAnimatorLayerEmotion : public ::RPG::GameCore::TaskConfig
 	{
@@ -28,9 +28,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TRIGGERANIMATORLAYEREMOTION__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_8A67C771C044C7A7(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::TriggerAnimatorLayerEmotion*& a2)
+		static ::System::Void Method_3_C3677DD45CD3661F(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::TriggerAnimatorLayerEmotion*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::TriggerAnimatorLayerEmotion*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TRIGGERANIMATORLAYEREMOTION_METHOD_3_8A67C771C044C7A7_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::TriggerAnimatorLayerEmotion*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TRIGGERANIMATORLAYEREMOTION_METHOD_3_C3677DD45CD3661F_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_34C760B063DE39AA(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::TriggerAnimatorLayerEmotion* a2)

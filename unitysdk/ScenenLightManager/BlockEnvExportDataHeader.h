@@ -11,11 +11,11 @@ namespace ScenenLightManager { class Tup; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define SCENENLIGHTMANAGER_BLOCKENVEXPORTDATAHEADER__CTOR_OFFSET UNITYSDK_OFFSET(0xD07ADF0)
+#define SCENENLIGHTMANAGER_BLOCKENVEXPORTDATAHEADER__CTOR_OFFSET UNITYSDK_OFFSET(0x19F6BB20)
 
 namespace ScenenLightManager
 {
-	inline static constexpr unsigned int BlockEnvExportDataHeader_TypeDefinitionIndex = 46226;
+	inline static constexpr unsigned int BlockEnvExportDataHeader_TypeDefinitionIndex = 47191;
 
 	class BlockEnvExportDataHeader : public ::UnityEngine::ScriptableObject
 	{

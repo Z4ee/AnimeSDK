@@ -7,12 +7,12 @@ namespace RPG::GameCore { class RtModifierConfig; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_RTGLOBALMODIFIERCONFIG_METHOD_2_F34DB2E40E7D3CFA_OFFSET UNITYSDK_OFFSET(0x19BE9FE0)
-#define RPG_GAMECORE_RTGLOBALMODIFIERCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x19BEA0C0)
+#define RPG_GAMECORE_RTGLOBALMODIFIERCONFIG_METHOD_2_F34DB2E40E7D3CFA_OFFSET UNITYSDK_OFFSET(0x1B762F40)
+#define RPG_GAMECORE_RTGLOBALMODIFIERCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1B763020)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RtGlobalModifierConfig_TypeDefinitionIndex = 16788;
+	inline static constexpr unsigned int RtGlobalModifierConfig_TypeDefinitionIndex = 16950;
 
 	class RtGlobalModifierConfig : public ::RPG::GameCore::JsonConfig
 	{

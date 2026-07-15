@@ -7,13 +7,13 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class TargetEvaluator; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_CREATEPHONEONCHARACTER_METHOD_3_4AB16BBA17C7FCB9_OFFSET UNITYSDK_OFFSET(0x19683500)
-#define RPG_GAMECORE_CREATEPHONEONCHARACTER_METHOD_3_AE5F20A649060CDE_OFFSET UNITYSDK_OFFSET(0x19683580)
-#define RPG_GAMECORE_CREATEPHONEONCHARACTER__CTOR_OFFSET UNITYSDK_OFFSET(0x19683550)
+#define RPG_GAMECORE_CREATEPHONEONCHARACTER_METHOD_3_AE5F20A649060CDE_OFFSET UNITYSDK_OFFSET(0x1BC3B5A0)
+#define RPG_GAMECORE_CREATEPHONEONCHARACTER_METHOD_3_F5BF8D08098AA170_OFFSET UNITYSDK_OFFSET(0x1BC3B560)
+#define RPG_GAMECORE_CREATEPHONEONCHARACTER__CTOR_OFFSET UNITYSDK_OFFSET(0x1BC3B590)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int CreatePhoneOnCharacter_TypeDefinitionIndex = 19732;
+	inline static constexpr unsigned int CreatePhoneOnCharacter_TypeDefinitionIndex = 20091;
 
 	class CreatePhoneOnCharacter : public ::RPG::GameCore::TaskConfig
 	{
@@ -32,9 +32,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CREATEPHONEONCHARACTER__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_4AB16BBA17C7FCB9(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::CreatePhoneOnCharacter*& a2)
+		static ::System::Void Method_3_F5BF8D08098AA170(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::CreatePhoneOnCharacter*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::CreatePhoneOnCharacter*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CREATEPHONEONCHARACTER_METHOD_3_4AB16BBA17C7FCB9_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::CreatePhoneOnCharacter*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CREATEPHONEONCHARACTER_METHOD_3_F5BF8D08098AA170_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_AE5F20A649060CDE(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::CreatePhoneOnCharacter* a2)

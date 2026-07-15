@@ -4,7 +4,7 @@
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int RPGGrassSetting_TypeDefinitionIndex = 4268;
+	inline static constexpr unsigned int RPGGrassSetting_TypeDefinitionIndex = 4273;
 
 	struct alignas(4) RPGGrassSetting
 	{

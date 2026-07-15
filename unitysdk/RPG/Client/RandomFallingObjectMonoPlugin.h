@@ -9,13 +9,12 @@ namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class GameObject; }
 
-#define RPG_CLIENT_RANDOMFALLINGOBJECTMONOPLUGIN_GETTICKLODTEMPLATENAME_OFFSET UNITYSDK_OFFSET(0xC6BA9D0)
-#define RPG_CLIENT_RANDOMFALLINGOBJECTMONOPLUGIN__CTOR_OFFSET UNITYSDK_OFFSET(0xC6BAA20)
-#define RPG_CLIENT_RANDOMFALLINGOBJECTMONOPLUGIN___IFIXBASEPROXY_GETTICKLODTEMPLATENAME_OFFSET UNITYSDK_OFFSET(0xC6BAA40)
+#define RPG_CLIENT_RANDOMFALLINGOBJECTMONOPLUGIN_GETTICKLODTEMPLATENAME_OFFSET UNITYSDK_OFFSET(0x19854F40)
+#define RPG_CLIENT_RANDOMFALLINGOBJECTMONOPLUGIN__CTOR_OFFSET UNITYSDK_OFFSET(0x19854F90)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int RandomFallingObjectMonoPlugin_TypeDefinitionIndex = 66319;
+	inline static constexpr unsigned int RandomFallingObjectMonoPlugin_TypeDefinitionIndex = 67744;
 
 	class RandomFallingObjectMonoPlugin : public ::RPG::Client::TAMonoPlugin_1<::RPG::Client::RandomFallingObjectBehavior*>
 	{
@@ -37,11 +36,6 @@ namespace RPG::Client
 		::System::String* GetTickLodTemplateName()
 		{
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_RANDOMFALLINGOBJECTMONOPLUGIN_GETTICKLODTEMPLATENAME_OFFSET))(this);
-		}
-
-		::System::String* __iFixBaseProxy_GetTickLodTemplateName()
-		{
-			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_RANDOMFALLINGOBJECTMONOPLUGIN___IFIXBASEPROXY_GETTICKLODTEMPLATENAME_OFFSET))(this);
 		}
 	};
 }

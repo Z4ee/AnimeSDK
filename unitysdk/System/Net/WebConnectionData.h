@@ -9,29 +9,29 @@ namespace System::IO { class Stream; }
 namespace System::Net { class HttpWebRequest; }
 namespace System::Net { class WebHeaderCollection; }
 
-#define SYSTEM_NET_WEBCONNECTIONDATA_GET_READSTATE_OFFSET UNITYSDK_OFFSET(0x1AFC1BE0)
-#define SYSTEM_NET_WEBCONNECTIONDATA_GET_REQUEST_OFFSET UNITYSDK_OFFSET(0x1AFC1BC0)
-#define SYSTEM_NET_WEBCONNECTIONDATA_SET_READSTATE_OFFSET UNITYSDK_OFFSET(0x1AFBE1E0)
-#define SYSTEM_NET_WEBCONNECTIONDATA_SET_REQUEST_OFFSET UNITYSDK_OFFSET(0x1AFC1BD0)
-#define SYSTEM_NET_WEBCONNECTIONDATA__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1AFBEEE0)
-#define SYSTEM_NET_WEBCONNECTIONDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1AFBA340)
+#define SYSTEM_NET_WEBCONNECTIONDATA_GET_READSTATE_OFFSET UNITYSDK_OFFSET(0x19EFE350)
+#define SYSTEM_NET_WEBCONNECTIONDATA_GET_REQUEST_OFFSET UNITYSDK_OFFSET(0x19EFE330)
+#define SYSTEM_NET_WEBCONNECTIONDATA_SET_READSTATE_OFFSET UNITYSDK_OFFSET(0x19EF9F30)
+#define SYSTEM_NET_WEBCONNECTIONDATA_SET_REQUEST_OFFSET UNITYSDK_OFFSET(0x19EFE340)
+#define SYSTEM_NET_WEBCONNECTIONDATA__CTOR_1_OFFSET UNITYSDK_OFFSET(0x19EFADE0)
+#define SYSTEM_NET_WEBCONNECTIONDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x19EF5580)
 
 namespace System::Net
 {
-	inline static constexpr unsigned int WebConnectionData_TypeDefinitionIndex = 2874;
+	inline static constexpr unsigned int WebConnectionData_TypeDefinitionIndex = 2878;
 
 	class WebConnectionData : public ::System::Object
 	{
 	public:
-		::System::String* StatusDescription; // 0x10
-		::System::Version* Version; // 0x18
-		::System::Net::HttpWebRequest* _request; // 0x20
+		::Il2CppArray<::System::String*>* Challenge; // 0x10
+		::System::Net::HttpWebRequest* _request; // 0x18
+		::System::Version* Version; // 0x20
 		::System::Net::WebHeaderCollection* Headers; // 0x28
-		::System::Version* ProxyVersion; // 0x30
-		::Il2CppArray<::System::String*>* Challenge; // 0x38
-		::System::IO::Stream* stream; // 0x40
-		::System::Int32 StatusCode; // 0x48
-		::System::Net::ReadState _readState; // 0x4C
+		::System::String* StatusDescription; // 0x30
+		::System::IO::Stream* stream; // 0x38
+		::System::Version* ProxyVersion; // 0x40
+		::System::Net::ReadState _readState; // 0x48
+		::System::Int32 StatusCode; // 0x4C
 
 		::System::Void _ctor()
 		{

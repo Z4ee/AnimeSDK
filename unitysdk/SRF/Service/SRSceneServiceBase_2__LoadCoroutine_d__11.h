@@ -6,7 +6,7 @@ namespace SRF::Service { template <typename T1, typename T2> class SRSceneServic
 
 namespace SRF::Service
 {
-	inline static constexpr unsigned int SRSceneServiceBase_2__LoadCoroutine_d__11_TypeDefinitionIndex = 33607;
+	inline static constexpr unsigned int SRSceneServiceBase_2__LoadCoroutine_d__11_TypeDefinitionIndex = 33978;
 
 	template <typename T, typename TImpl>
 	class SRSceneServiceBase_2__LoadCoroutine_d__11 : public ::System::Object

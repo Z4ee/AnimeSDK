@@ -6,13 +6,13 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_FIVEDIMDEBUGLOGEVENTACTION_METHOD_3_75066E1564E1EF76_OFFSET UNITYSDK_OFFSET(0x197385E0)
-#define RPG_GAMECORE_FIVEDIMDEBUGLOGEVENTACTION_METHOD_3_86974953F8CF8FE3_OFFSET UNITYSDK_OFFSET(0x1972D3E0)
-#define RPG_GAMECORE_FIVEDIMDEBUGLOGEVENTACTION__CTOR_OFFSET UNITYSDK_OFFSET(0x1972D3C0)
+#define RPG_GAMECORE_FIVEDIMDEBUGLOGEVENTACTION_METHOD_3_86974953F8CF8FE3_OFFSET UNITYSDK_OFFSET(0x1BA906D0)
+#define RPG_GAMECORE_FIVEDIMDEBUGLOGEVENTACTION_METHOD_3_B23FF091AF3BA09C_OFFSET UNITYSDK_OFFSET(0x1BA90690)
+#define RPG_GAMECORE_FIVEDIMDEBUGLOGEVENTACTION__CTOR_OFFSET UNITYSDK_OFFSET(0x1BA906C0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FiveDimDebugLogEventAction_TypeDefinitionIndex = 17749;
+	inline static constexpr unsigned int FiveDimDebugLogEventAction_TypeDefinitionIndex = 17923;
 
 	class FiveDimDebugLogEventAction : public ::RPG::GameCore::FiveDimBaseEventAction
 	{
@@ -25,9 +25,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMDEBUGLOGEVENTACTION__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_75066E1564E1EF76(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::FiveDimDebugLogEventAction*& a2)
+		static ::System::Void Method_3_B23FF091AF3BA09C(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::FiveDimDebugLogEventAction*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::FiveDimDebugLogEventAction*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMDEBUGLOGEVENTACTION_METHOD_3_75066E1564E1EF76_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::FiveDimDebugLogEventAction*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMDEBUGLOGEVENTACTION_METHOD_3_B23FF091AF3BA09C_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_86974953F8CF8FE3(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::FiveDimDebugLogEventAction* a2)

@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define RPG_CLIENT_ELFCOOKFOODRESULT__CTOR_OFFSET UNITYSDK_OFFSET(0xB8A6010)
+#define RPG_CLIENT_ELFCOOKFOODRESULT__CTOR_OFFSET UNITYSDK_OFFSET(0x18E1B340)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ElfCookFoodResult_TypeDefinitionIndex = 59675;
+	inline static constexpr unsigned int ElfCookFoodResult_TypeDefinitionIndex = 60960;
 
 	class ElfCookFoodResult : public ::System::Object
 	{

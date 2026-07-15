@@ -3,7 +3,7 @@
 
 namespace System
 {
-	inline static constexpr unsigned int UnescapeMode_TypeDefinitionIndex = 2463;
+	inline static constexpr unsigned int UnescapeMode_TypeDefinitionIndex = 2467;
 
 	enum class UnescapeMode : ::System::Int32
 	{

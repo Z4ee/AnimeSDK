@@ -1,18 +1,18 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Class_1_43BD383C98B4C0C5_191.h"
+#include "unitysdk/Class_1_43BD383C98B4C0C5_199.h"
 
 class Class_1_F9FBCC956DFCF137_25;
 class Class_1_FD611945730E269E;
 namespace RPG::GameCore { class ChimeraDuelFireBulletNode; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_2_1AFE97B819916E17_METHOD_2_98FE8344617B99D4_OFFSET UNITYSDK_OFFSET(0xA412400)
-#define CLASS_2_1AFE97B819916E17__CTOR_OFFSET UNITYSDK_OFFSET(0xA4124A0)
+#define CLASS_2_1AFE97B819916E17_METHOD_2_98FE8344617B99D4_OFFSET UNITYSDK_OFFSET(0x185A3480)
+#define CLASS_2_1AFE97B819916E17__CTOR_OFFSET UNITYSDK_OFFSET(0x185A3520)
 
-inline static constexpr unsigned int Class_2_1AFE97B819916E17_TypeDefinitionIndex = 72198;
+inline static constexpr unsigned int Class_2_1AFE97B819916E17_TypeDefinitionIndex = 73723;
 
-class Class_2_1AFE97B819916E17 : public ::Class_1_43BD383C98B4C0C5_191
+class Class_2_1AFE97B819916E17 : public ::Class_1_43BD383C98B4C0C5_199
 {
 public:
 	::RPG::GameCore::ChimeraDuelFireBulletNode* Field_2_0; // 0x10

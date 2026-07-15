@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPGTools/Timeline/BaseShowDialogBehaviour.h"
 
-#define RPGTOOLS_TIMELINE_SHOWROLLINGSUBTITLESDIALOGBEHAVIOUR__CTOR_OFFSET UNITYSDK_OFFSET(0xD054DE0)
+#define RPGTOOLS_TIMELINE_SHOWROLLINGSUBTITLESDIALOGBEHAVIOUR__CTOR_OFFSET UNITYSDK_OFFSET(0x199B5BA0)
 
 namespace RPGTools::Timeline
 {
-	inline static constexpr unsigned int ShowRollingSubtitlesDialogBehaviour_TypeDefinitionIndex = 45583;
+	inline static constexpr unsigned int ShowRollingSubtitlesDialogBehaviour_TypeDefinitionIndex = 46517;
 
 	class ShowRollingSubtitlesDialogBehaviour : public ::RPGTools::Timeline::BaseShowDialogBehaviour
 	{

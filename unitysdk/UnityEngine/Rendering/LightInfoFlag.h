@@ -3,7 +3,7 @@
 
 namespace UnityEngine::Rendering
 {
-	inline static constexpr unsigned int LightInfoFlag_TypeDefinitionIndex = 35183;
+	inline static constexpr unsigned int LightInfoFlag_TypeDefinitionIndex = 35965;
 
 	enum class LightInfoFlag : ::System::Int32
 	{

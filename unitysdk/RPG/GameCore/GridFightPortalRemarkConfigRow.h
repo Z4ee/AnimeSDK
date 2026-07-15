@@ -5,18 +5,18 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_GRIDFIGHTPORTALREMARKCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x19802940)
-#define RPG_GAMECORE_GRIDFIGHTPORTALREMARKCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x19802AC0)
+#define RPG_GAMECORE_GRIDFIGHTPORTALREMARKCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D06F210)
+#define RPG_GAMECORE_GRIDFIGHTPORTALREMARKCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D06F390)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int GridFightPortalRemarkConfigRow_TypeDefinitionIndex = 12993;
+	inline static constexpr unsigned int GridFightPortalRemarkConfigRow_TypeDefinitionIndex = 13141;
 
 	class GridFightPortalRemarkConfigRow : public ::System::Object
 	{
 	public:
-		::RPG::Client::TextID PortalRemark; // 0x10
-		::System::UInt32 PortalID; // 0x20
+		::System::UInt32 PortalID; // 0x10
+		::RPG::Client::TextID PortalRemark; // 0x18
 
 		::System::Void _ctor()
 		{

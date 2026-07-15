@@ -4,7 +4,7 @@
 
 namespace Unity::Jobs::LowLevel::Unsafe
 {
-	inline static constexpr unsigned int JobRanges_TypeDefinitionIndex = 3951;
+	inline static constexpr unsigned int JobRanges_TypeDefinitionIndex = 3955;
 
 	struct alignas(8) JobRanges
 	{

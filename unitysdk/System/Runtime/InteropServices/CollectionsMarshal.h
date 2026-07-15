@@ -5,11 +5,11 @@
 
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define SYSTEM_RUNTIME_INTEROPSERVICES_COLLECTIONSMARSHAL__CCTOR_OFFSET UNITYSDK_OFFSET(0x1B52C190)
+#define SYSTEM_RUNTIME_INTEROPSERVICES_COLLECTIONSMARSHAL__CCTOR_OFFSET UNITYSDK_OFFSET(0x1D2FABF0)
 
 namespace System::Runtime::InteropServices
 {
-	inline static constexpr unsigned int CollectionsMarshal_TypeDefinitionIndex = 6324;
+	inline static constexpr unsigned int CollectionsMarshal_TypeDefinitionIndex = 6329;
 
 	class CollectionsMarshal : public ::System::Object
 	{

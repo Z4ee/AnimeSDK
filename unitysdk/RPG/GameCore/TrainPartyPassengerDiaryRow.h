@@ -5,18 +5,18 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_TRAINPARTYPASSENGERDIARYROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x19DF7860)
-#define RPG_GAMECORE_TRAINPARTYPASSENGERDIARYROW__CTOR_OFFSET UNITYSDK_OFFSET(0x19DF79C0)
+#define RPG_GAMECORE_TRAINPARTYPASSENGERDIARYROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1C1628C0)
+#define RPG_GAMECORE_TRAINPARTYPASSENGERDIARYROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1C162A20)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TrainPartyPassengerDiaryRow_TypeDefinitionIndex = 14554;
+	inline static constexpr unsigned int TrainPartyPassengerDiaryRow_TypeDefinitionIndex = 14712;
 
 	class TrainPartyPassengerDiaryRow : public ::System::Object
 	{
 	public:
-		::RPG::Client::TextID DiaryText; // 0x10
-		::System::UInt32 DiaryID; // 0x20
+		::System::UInt32 DiaryID; // 0x10
+		::RPG::Client::TextID DiaryText; // 0x18
 
 		::System::Void _ctor()
 		{

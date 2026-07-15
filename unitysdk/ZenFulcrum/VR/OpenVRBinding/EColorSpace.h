@@ -3,7 +3,7 @@
 
 namespace ZenFulcrum::VR::OpenVRBinding
 {
-	inline static constexpr unsigned int EColorSpace_TypeDefinitionIndex = 36278;
+	inline static constexpr unsigned int EColorSpace_TypeDefinitionIndex = 37060;
 
 	enum class EColorSpace : ::System::Int32
 	{

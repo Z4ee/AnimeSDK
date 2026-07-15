@@ -7,42 +7,42 @@
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-#define RPG_GAMECORE_CHARACTERINPUTDATA_CLEARMOVEINPUT_OFFSET UNITYSDK_OFFSET(0xCD48200)
-#define RPG_GAMECORE_CHARACTERINPUTDATA_CLEARSTEER_OFFSET UNITYSDK_OFFSET(0xCD47FF0)
-#define RPG_GAMECORE_CHARACTERINPUTDATA_CLEAR_OFFSET UNITYSDK_OFFSET(0xCD47EE0)
-#define RPG_GAMECORE_CHARACTERINPUTDATA_COPY_OFFSET UNITYSDK_OFFSET(0xCD48250)
-#define RPG_GAMECORE_CHARACTERINPUTDATA_GET_DESIREDMOVEVECTOR_OFFSET UNITYSDK_OFFSET(0xCD48400)
-#define RPG_GAMECORE_CHARACTERINPUTDATA_RESET_OFFSET UNITYSDK_OFFSET(0xCD47F70)
-#define RPG_GAMECORE_CHARACTERINPUTDATA_SET_DESIREDMOVEVECTOR_OFFSET UNITYSDK_OFFSET(0xCD48120)
-#define RPG_GAMECORE_CHARACTERINPUTDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xCD48420)
+#define RPG_GAMECORE_CHARACTERINPUTDATA_CLEARMOVEINPUT_OFFSET UNITYSDK_OFFSET(0x12183DA0)
+#define RPG_GAMECORE_CHARACTERINPUTDATA_CLEARSTEER_OFFSET UNITYSDK_OFFSET(0x12183B90)
+#define RPG_GAMECORE_CHARACTERINPUTDATA_CLEAR_OFFSET UNITYSDK_OFFSET(0x12183A90)
+#define RPG_GAMECORE_CHARACTERINPUTDATA_COPY_OFFSET UNITYSDK_OFFSET(0x12183DF0)
+#define RPG_GAMECORE_CHARACTERINPUTDATA_GET_DESIREDMOVEVECTOR_OFFSET UNITYSDK_OFFSET(0x12183F90)
+#define RPG_GAMECORE_CHARACTERINPUTDATA_RESET_OFFSET UNITYSDK_OFFSET(0x12183B20)
+#define RPG_GAMECORE_CHARACTERINPUTDATA_SET_DESIREDMOVEVECTOR_OFFSET UNITYSDK_OFFSET(0x12183CC0)
+#define RPG_GAMECORE_CHARACTERINPUTDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x12183FB0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int CharacterInputData_TypeDefinitionIndex = 53237;
+	inline static constexpr unsigned int CharacterInputData_TypeDefinitionIndex = 54452;
 
 	class CharacterInputData : public ::System::Object
 	{
 	public:
-		::System::Single DesireDirectionAngle; // 0x10
-		::System::Nullable_1<::Struct_2_DD2A07650CD0727B> NavigationFinishedConstraint; // 0x14
-		::RPG::GameCore::CharacterMotionFlag MotionFlag; // 0x2C
-		::RPG::MVector3 DesiredTarget; // 0x30
-		::System::Single DesiredMoveMag; // 0x3C
-		::System::Single OverrideTurnSpeed; // 0x40
-		::UnityEngine::Vector3 DeltaPosition; // 0x44
-		::RPG::MVector3 _desiredMoveVector; // 0x50
-		::System::Boolean NavigationToTarget; // 0x5C
-		::System::Boolean TriggerAttack; // 0x5D
-		::System::Boolean NavigationToTargetRestrict; // 0x5E
-		::System::Single MoveTime; // 0x60
-		::System::Boolean CacheAttack; // 0x64
-		::System::Boolean NavigationMoveCheck; // 0x65
-		::System::Boolean TriggerSkill; // 0x66
-		::System::Boolean TriggerAlert; // 0x67
-		::System::Boolean MovingSteerOnly; // 0x68
-		::System::Boolean IsInTurnBack; // 0x69
-		::System::Boolean CacheSkill; // 0x6A
-		::System::Boolean RushMoveFlag; // 0x6B
+		::System::Nullable_1<::Struct_2_DD2A07650CD0727B> NavigationFinishedConstraint; // 0x10
+		::RPG::GameCore::CharacterMotionFlag MotionFlag; // 0x28
+		::RPG::MVector3 DesiredTarget; // 0x2C
+		::System::Boolean NavigationToTarget; // 0x38
+		::System::Boolean TriggerSkill; // 0x39
+		::System::Boolean TriggerAlert; // 0x3A
+		::System::Boolean NavigationToTargetRestrict; // 0x3B
+		::UnityEngine::Vector3 DeltaPosition; // 0x3C
+		::System::Single OverrideTurnSpeed; // 0x48
+		::System::Single MoveTime; // 0x4C
+		::System::Single DesireDirectionAngle; // 0x50
+		::System::Boolean MovingSteerOnly; // 0x54
+		::System::Boolean IsInTurnBack; // 0x55
+		::System::Boolean TriggerAttack; // 0x56
+		::System::Boolean NavigationMoveCheck; // 0x57
+		::System::Boolean CacheAttack; // 0x58
+		::System::Boolean RushMoveFlag; // 0x59
+		::System::Boolean CacheSkill; // 0x5A
+		::System::Single DesiredMoveMag; // 0x5C
+		::RPG::MVector3 _desiredMoveVector; // 0x60
 
 		::System::Void _ctor()
 		{

@@ -4,11 +4,11 @@
 
 namespace System { class String; }
 
-#define MIHOYO_SDK_UGCINTERFACE_EXCHANGETOKENRESPONSEDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xA226F90)
+#define MIHOYO_SDK_UGCINTERFACE_EXCHANGETOKENRESPONSEDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1B73D0A0)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int UGCInterface_ExchangeTokenResponseData_TypeDefinitionIndex = 43842;
+	inline static constexpr unsigned int UGCInterface_ExchangeTokenResponseData_TypeDefinitionIndex = 44704;
 
 	class UGCInterface_ExchangeTokenResponseData : public ::System::Object
 	{

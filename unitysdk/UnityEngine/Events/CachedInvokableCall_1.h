@@ -8,7 +8,7 @@ namespace UnityEngine { class Object; }
 
 namespace UnityEngine::Events
 {
-	inline static constexpr unsigned int CachedInvokableCall_1_TypeDefinitionIndex = 4466;
+	inline static constexpr unsigned int CachedInvokableCall_1_TypeDefinitionIndex = 4471;
 
 	template <typename T>
 	class CachedInvokableCall_1 : public ::UnityEngine::Events::InvokableCall_1<T>

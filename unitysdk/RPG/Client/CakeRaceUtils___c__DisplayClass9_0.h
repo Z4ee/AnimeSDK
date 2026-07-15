@@ -4,12 +4,12 @@
 
 namespace System { class Action; }
 
-#define RPG_CLIENT_CAKERACEUTILS___C__DISPLAYCLASS9_0__CTOR_OFFSET UNITYSDK_OFFSET(0xB4AFD70)
-#define RPG_CLIENT_CAKERACEUTILS___C__DISPLAYCLASS9_0__TRANSFERTOENTRANCE_B__0_OFFSET UNITYSDK_OFFSET(0xB4B00C0)
+#define RPG_CLIENT_CAKERACEUTILS___C__DISPLAYCLASS9_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1AC4E840)
+#define RPG_CLIENT_CAKERACEUTILS___C__DISPLAYCLASS9_0__TRANSFERTOENTRANCE_B__0_OFFSET UNITYSDK_OFFSET(0x1AC4EBC0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int CakeRaceUtils___c__DisplayClass9_0_TypeDefinitionIndex = 56366;
+	inline static constexpr unsigned int CakeRaceUtils___c__DisplayClass9_0_TypeDefinitionIndex = 57605;
 
 	class CakeRaceUtils___c__DisplayClass9_0 : public ::System::Object
 	{

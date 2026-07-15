@@ -5,13 +5,13 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class TargetEvaluator; }
 
-#define RPG_GAMECORE_ENABLEEMOTION_METHOD_3_448BF841545CC7FB_OFFSET UNITYSDK_OFFSET(0x196E3850)
-#define RPG_GAMECORE_ENABLEEMOTION_METHOD_3_BDCA8F784546FD1C_OFFSET UNITYSDK_OFFSET(0x196E38E0)
-#define RPG_GAMECORE_ENABLEEMOTION__CTOR_OFFSET UNITYSDK_OFFSET(0x196E38B0)
+#define RPG_GAMECORE_ENABLEEMOTION_METHOD_3_0A22B158EC94CDD1_OFFSET UNITYSDK_OFFSET(0x1BB3FA00)
+#define RPG_GAMECORE_ENABLEEMOTION_METHOD_3_BDCA8F784546FD1C_OFFSET UNITYSDK_OFFSET(0x1BB3FA50)
+#define RPG_GAMECORE_ENABLEEMOTION__CTOR_OFFSET UNITYSDK_OFFSET(0x1BB3FA40)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int EnableEmotion_TypeDefinitionIndex = 21183;
+	inline static constexpr unsigned int EnableEmotion_TypeDefinitionIndex = 21598;
 
 	class EnableEmotion : public ::RPG::GameCore::TaskConfig
 	{
@@ -26,9 +26,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ENABLEEMOTION__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_448BF841545CC7FB(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::EnableEmotion*& a2)
+		static ::System::Void Method_3_0A22B158EC94CDD1(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::EnableEmotion*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::EnableEmotion*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ENABLEEMOTION_METHOD_3_448BF841545CC7FB_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::EnableEmotion*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ENABLEEMOTION_METHOD_3_0A22B158EC94CDD1_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_BDCA8F784546FD1C(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::EnableEmotion* a2)

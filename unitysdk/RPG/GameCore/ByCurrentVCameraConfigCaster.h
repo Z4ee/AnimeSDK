@@ -6,15 +6,15 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class TargetEvaluator; }
 namespace SimpleJSON { class JSONNode; }
 
-#define RPG_GAMECORE_BYCURRENTVCAMERACONFIGCASTER_METHOD_4_4CBA0C5C17D1D227_OFFSET UNITYSDK_OFFSET(0x19545280)
-#define RPG_GAMECORE_BYCURRENTVCAMERACONFIGCASTER_METHOD_4_88BCAB2C23003C5C_OFFSET UNITYSDK_OFFSET(0x19545400)
-#define RPG_GAMECORE_BYCURRENTVCAMERACONFIGCASTER_METHOD_4_A94DFA45E1886EE9_OFFSET UNITYSDK_OFFSET(0x195451B0)
-#define RPG_GAMECORE_BYCURRENTVCAMERACONFIGCASTER_METHOD_4_E805DA51464D8C25_OFFSET UNITYSDK_OFFSET(0x19545480)
-#define RPG_GAMECORE_BYCURRENTVCAMERACONFIGCASTER__CTOR_OFFSET UNITYSDK_OFFSET(0x19545230)
+#define RPG_GAMECORE_BYCURRENTVCAMERACONFIGCASTER_METHOD_4_4CBA0C5C17D1D227_OFFSET UNITYSDK_OFFSET(0x1A8BC2D0)
+#define RPG_GAMECORE_BYCURRENTVCAMERACONFIGCASTER_METHOD_4_5F9811F7E9748313_OFFSET UNITYSDK_OFFSET(0x1A8BC480)
+#define RPG_GAMECORE_BYCURRENTVCAMERACONFIGCASTER_METHOD_4_CF2635662F4ACA3D_OFFSET UNITYSDK_OFFSET(0x1A8BC450)
+#define RPG_GAMECORE_BYCURRENTVCAMERACONFIGCASTER_METHOD_4_FB77D9A9D2D8FC46_OFFSET UNITYSDK_OFFSET(0x1A8BC290)
+#define RPG_GAMECORE_BYCURRENTVCAMERACONFIGCASTER__CTOR_OFFSET UNITYSDK_OFFSET(0x1A8BC2C0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ByCurrentVCameraConfigCaster_TypeDefinitionIndex = 22427;
+	inline static constexpr unsigned int ByCurrentVCameraConfigCaster_TypeDefinitionIndex = 22876;
 
 	class ByCurrentVCameraConfigCaster : public ::RPG::GameCore::PredicateConfig
 	{
@@ -26,9 +26,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYCURRENTVCAMERACONFIGCASTER__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_4_A94DFA45E1886EE9(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ByCurrentVCameraConfigCaster*& a2)
+		static ::System::Void Method_4_FB77D9A9D2D8FC46(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ByCurrentVCameraConfigCaster*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ByCurrentVCameraConfigCaster*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYCURRENTVCAMERACONFIGCASTER_METHOD_4_A94DFA45E1886EE9_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ByCurrentVCameraConfigCaster*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYCURRENTVCAMERACONFIGCASTER_METHOD_4_FB77D9A9D2D8FC46_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_4_4CBA0C5C17D1D227(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ByCurrentVCameraConfigCaster* a2)
@@ -36,14 +36,14 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ByCurrentVCameraConfigCaster*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYCURRENTVCAMERACONFIGCASTER_METHOD_4_4CBA0C5C17D1D227_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_4_88BCAB2C23003C5C(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::ByCurrentVCameraConfigCaster*& a2)
+		static ::System::Void Method_4_CF2635662F4ACA3D(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::ByCurrentVCameraConfigCaster*& a2)
 		{
-			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::ByCurrentVCameraConfigCaster*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYCURRENTVCAMERACONFIGCASTER_METHOD_4_88BCAB2C23003C5C_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::ByCurrentVCameraConfigCaster*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYCURRENTVCAMERACONFIGCASTER_METHOD_4_CF2635662F4ACA3D_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_4_E805DA51464D8C25(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::ByCurrentVCameraConfigCaster* a2)
+		static ::System::Void Method_4_5F9811F7E9748313(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::ByCurrentVCameraConfigCaster* a2)
 		{
-			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::ByCurrentVCameraConfigCaster*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYCURRENTVCAMERACONFIGCASTER_METHOD_4_E805DA51464D8C25_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::ByCurrentVCameraConfigCaster*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYCURRENTVCAMERACONFIGCASTER_METHOD_4_5F9811F7E9748313_OFFSET))(a1, a2);
 		}
 	};
 }

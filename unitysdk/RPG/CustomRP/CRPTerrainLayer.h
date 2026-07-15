@@ -5,12 +5,12 @@
 
 namespace UnityEngine { class Texture2D; }
 
-#define RPG_CUSTOMRP_CRPTERRAINLAYER_GETMAINTEXTURE_OFFSET UNITYSDK_OFFSET(0x18EBD1E0)
-#define RPG_CUSTOMRP_CRPTERRAINLAYER__CTOR_OFFSET UNITYSDK_OFFSET(0x18EBD1F0)
+#define RPG_CUSTOMRP_CRPTERRAINLAYER_GETMAINTEXTURE_OFFSET UNITYSDK_OFFSET(0x17815FA0)
+#define RPG_CUSTOMRP_CRPTERRAINLAYER__CTOR_OFFSET UNITYSDK_OFFSET(0x17815FB0)
 
 namespace RPG::CustomRP
 {
-	inline static constexpr unsigned int CRPTerrainLayer_TypeDefinitionIndex = 35397;
+	inline static constexpr unsigned int CRPTerrainLayer_TypeDefinitionIndex = 36178;
 
 	class CRPTerrainLayer : public ::UnityEngine::ScriptableObject
 	{

@@ -11,7 +11,7 @@ namespace System::Collections::Generic { template <typename T> class IEnumerator
 
 namespace MiHoYo::SDK::Protobuf::Collections
 {
-	inline static constexpr unsigned int MapField_2_MapView_1_TypeDefinitionIndex = 34055;
+	inline static constexpr unsigned int MapField_2_MapView_1_TypeDefinitionIndex = 34426;
 
 	template <typename TKey, typename TValue, typename T>
 	class MapField_2_MapView_1 : public ::System::Object

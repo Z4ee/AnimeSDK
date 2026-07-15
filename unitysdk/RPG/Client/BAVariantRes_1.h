@@ -4,7 +4,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int BAVariantRes_1_TypeDefinitionIndex = 64983;
+	inline static constexpr unsigned int BAVariantRes_1_TypeDefinitionIndex = 66388;
 
 	template <typename T>
 	struct BAVariantRes_1

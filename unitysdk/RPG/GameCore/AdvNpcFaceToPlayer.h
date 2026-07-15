@@ -6,13 +6,13 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class TargetEvaluator; }
 
-#define RPG_GAMECORE_ADVNPCFACETOPLAYER_METHOD_3_23607FD499CBD3DE_OFFSET UNITYSDK_OFFSET(0x1942C230)
-#define RPG_GAMECORE_ADVNPCFACETOPLAYER_METHOD_3_5661A0069DE296B6_OFFSET UNITYSDK_OFFSET(0x1942C2F0)
-#define RPG_GAMECORE_ADVNPCFACETOPLAYER__CTOR_OFFSET UNITYSDK_OFFSET(0x1942C2A0)
+#define RPG_GAMECORE_ADVNPCFACETOPLAYER_METHOD_3_5661A0069DE296B6_OFFSET UNITYSDK_OFFSET(0x1BE23A70)
+#define RPG_GAMECORE_ADVNPCFACETOPLAYER_METHOD_3_97DB44DB402C42CD_OFFSET UNITYSDK_OFFSET(0x1BE23A00)
+#define RPG_GAMECORE_ADVNPCFACETOPLAYER__CTOR_OFFSET UNITYSDK_OFFSET(0x1BE23A50)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AdvNpcFaceToPlayer_TypeDefinitionIndex = 19198;
+	inline static constexpr unsigned int AdvNpcFaceToPlayer_TypeDefinitionIndex = 19554;
 
 	class AdvNpcFaceToPlayer : public ::RPG::GameCore::TaskConfig
 	{
@@ -41,9 +41,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVNPCFACETOPLAYER__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_23607FD499CBD3DE(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AdvNpcFaceToPlayer*& a2)
+		static ::System::Void Method_3_97DB44DB402C42CD(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AdvNpcFaceToPlayer*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::AdvNpcFaceToPlayer*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVNPCFACETOPLAYER_METHOD_3_23607FD499CBD3DE_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::AdvNpcFaceToPlayer*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVNPCFACETOPLAYER_METHOD_3_97DB44DB402C42CD_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_5661A0069DE296B6(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AdvNpcFaceToPlayer* a2)

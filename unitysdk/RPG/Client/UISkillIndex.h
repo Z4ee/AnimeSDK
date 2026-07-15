@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int UISkillIndex_TypeDefinitionIndex = 67274;
+	inline static constexpr unsigned int UISkillIndex_TypeDefinitionIndex = 68738;
 
 	enum class UISkillIndex : ::System::Int32
 	{
@@ -12,9 +12,10 @@ namespace RPG::Client
 		Skill = 1,
 		Ultra = 2,
 		CancelSkill = 3,
-		PlayerSubSkill01 = 4,
-		PlayerSubSkill02 = 5,
-		MenuSubSkill = 6,
-		DefaultActiveSkill = 7,
+		AssistSkill = 4,
+		PlayerSubSkill01 = 5,
+		PlayerSubSkill02 = 6,
+		MenuSubSkill = 7,
+		DefaultActiveSkill = 8,
 	};
 }

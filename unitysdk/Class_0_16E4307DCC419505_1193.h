@@ -1,11 +1,9 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/RPG/Client/LittleGame/ChenLing/CirticalTrackType.h"
 
-class Class_1_2AE1D80996AD66EA_3;
-class Class_2_6B60059019300BAD;
+class Class_2_65223DE6C1B20E8E;
 
-inline static constexpr unsigned int Class_0_16E4307DCC419505_1193_TypeDefinitionIndex = 72373;
+inline static constexpr unsigned int Class_0_16E4307DCC419505_1193_TypeDefinitionIndex = 71663;
 
 class Class_0_16E4307DCC419505_1193
 {

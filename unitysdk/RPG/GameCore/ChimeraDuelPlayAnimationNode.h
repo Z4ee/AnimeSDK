@@ -6,13 +6,13 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class BaseChimeraDuelEntitiesSelectorConfig; }
 
-#define RPG_GAMECORE_CHIMERADUELPLAYANIMATIONNODE_METHOD_3_2782CAFB9302087C_OFFSET UNITYSDK_OFFSET(0x19643350)
-#define RPG_GAMECORE_CHIMERADUELPLAYANIMATIONNODE_METHOD_3_B19A607B64C22A9D_OFFSET UNITYSDK_OFFSET(0x19643270)
-#define RPG_GAMECORE_CHIMERADUELPLAYANIMATIONNODE__CTOR_OFFSET UNITYSDK_OFFSET(0x19643300)
+#define RPG_GAMECORE_CHIMERADUELPLAYANIMATIONNODE_METHOD_3_2782CAFB9302087C_OFFSET UNITYSDK_OFFSET(0x1C244890)
+#define RPG_GAMECORE_CHIMERADUELPLAYANIMATIONNODE_METHOD_3_8412399DDBB74E5A_OFFSET UNITYSDK_OFFSET(0x1C244830)
+#define RPG_GAMECORE_CHIMERADUELPLAYANIMATIONNODE__CTOR_OFFSET UNITYSDK_OFFSET(0x1C244880)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ChimeraDuelPlayAnimationNode_TypeDefinitionIndex = 15172;
+	inline static constexpr unsigned int ChimeraDuelPlayAnimationNode_TypeDefinitionIndex = 15336;
 
 	class ChimeraDuelPlayAnimationNode : public ::RPG::GameCore::BaseChimeraDuelNode
 	{
@@ -25,9 +25,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHIMERADUELPLAYANIMATIONNODE__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_B19A607B64C22A9D(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ChimeraDuelPlayAnimationNode*& a2)
+		static ::System::Void Method_3_8412399DDBB74E5A(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ChimeraDuelPlayAnimationNode*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ChimeraDuelPlayAnimationNode*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHIMERADUELPLAYANIMATIONNODE_METHOD_3_B19A607B64C22A9D_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ChimeraDuelPlayAnimationNode*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHIMERADUELPLAYANIMATIONNODE_METHOD_3_8412399DDBB74E5A_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_2782CAFB9302087C(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ChimeraDuelPlayAnimationNode* a2)

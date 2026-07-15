@@ -5,13 +5,13 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class GroupEntityCreateConfig; }
 
-#define RPG_GAMECORE_ADVCREATEENTITYASYNC_METHOD_3_DA114CF636ECF23D_OFFSET UNITYSDK_OFFSET(0x1941F6D0)
-#define RPG_GAMECORE_ADVCREATEENTITYASYNC_METHOD_3_DDC353F5B3E829B3_OFFSET UNITYSDK_OFFSET(0x1941F650)
-#define RPG_GAMECORE_ADVCREATEENTITYASYNC__CTOR_OFFSET UNITYSDK_OFFSET(0x1941F6A0)
+#define RPG_GAMECORE_ADVCREATEENTITYASYNC_METHOD_3_743C25E537CBD3CA_OFFSET UNITYSDK_OFFSET(0x1BE183D0)
+#define RPG_GAMECORE_ADVCREATEENTITYASYNC_METHOD_3_DA114CF636ECF23D_OFFSET UNITYSDK_OFFSET(0x1BE18410)
+#define RPG_GAMECORE_ADVCREATEENTITYASYNC__CTOR_OFFSET UNITYSDK_OFFSET(0x1BE18400)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AdvCreateEntityAsync_TypeDefinitionIndex = 20056;
+	inline static constexpr unsigned int AdvCreateEntityAsync_TypeDefinitionIndex = 20428;
 
 	class AdvCreateEntityAsync : public ::RPG::GameCore::TaskConfig
 	{
@@ -24,9 +24,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVCREATEENTITYASYNC__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_DDC353F5B3E829B3(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AdvCreateEntityAsync*& a2)
+		static ::System::Void Method_3_743C25E537CBD3CA(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AdvCreateEntityAsync*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::AdvCreateEntityAsync*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVCREATEENTITYASYNC_METHOD_3_DDC353F5B3E829B3_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::AdvCreateEntityAsync*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVCREATEENTITYASYNC_METHOD_3_743C25E537CBD3CA_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_DA114CF636ECF23D(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AdvCreateEntityAsync* a2)

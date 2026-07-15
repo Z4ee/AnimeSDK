@@ -4,23 +4,23 @@
 
 namespace MiHoYo::SDK::Protobuf::Reflection { class TypeRegistry; }
 
-#define MIHOYO_SDK_PROTOBUF_JSONFORMATTER_SETTINGS_GET_DEFAULT_OFFSET UNITYSDK_OFFSET(0x181A52E0)
-#define MIHOYO_SDK_PROTOBUF_JSONFORMATTER_SETTINGS_GET_FORMATDEFAULTVALUES_OFFSET UNITYSDK_OFFSET(0x181A5510)
-#define MIHOYO_SDK_PROTOBUF_JSONFORMATTER_SETTINGS_GET_TYPEREGISTRY_OFFSET UNITYSDK_OFFSET(0x181A5520)
-#define MIHOYO_SDK_PROTOBUF_JSONFORMATTER_SETTINGS__CCTOR_OFFSET UNITYSDK_OFFSET(0x181A5340)
-#define MIHOYO_SDK_PROTOBUF_JSONFORMATTER_SETTINGS__CTOR_1_OFFSET UNITYSDK_OFFSET(0x181A5530)
-#define MIHOYO_SDK_PROTOBUF_JSONFORMATTER_SETTINGS__CTOR_OFFSET UNITYSDK_OFFSET(0x181A5390)
+#define MIHOYO_SDK_PROTOBUF_JSONFORMATTER_SETTINGS_GET_DEFAULT_OFFSET UNITYSDK_OFFSET(0x196A3BC0)
+#define MIHOYO_SDK_PROTOBUF_JSONFORMATTER_SETTINGS_GET_FORMATDEFAULTVALUES_OFFSET UNITYSDK_OFFSET(0x196A3DF0)
+#define MIHOYO_SDK_PROTOBUF_JSONFORMATTER_SETTINGS_GET_TYPEREGISTRY_OFFSET UNITYSDK_OFFSET(0x196A3E00)
+#define MIHOYO_SDK_PROTOBUF_JSONFORMATTER_SETTINGS__CCTOR_OFFSET UNITYSDK_OFFSET(0x196A3C20)
+#define MIHOYO_SDK_PROTOBUF_JSONFORMATTER_SETTINGS__CTOR_1_OFFSET UNITYSDK_OFFSET(0x196A3E10)
+#define MIHOYO_SDK_PROTOBUF_JSONFORMATTER_SETTINGS__CTOR_OFFSET UNITYSDK_OFFSET(0x196A3C70)
 
 namespace MiHoYo::SDK::Protobuf
 {
-	inline static constexpr unsigned int JsonFormatter_Settings_TypeDefinitionIndex = 33919;
+	inline static constexpr unsigned int JsonFormatter_Settings_TypeDefinitionIndex = 34290;
 
 	class JsonFormatter_Settings : public ::System::Object
 	{
 	public:
 		static ::MiHoYo::SDK::Protobuf::JsonFormatter_Settings** StaticGet__Default_k__BackingField()
 		{
-			return (::MiHoYo::SDK::Protobuf::JsonFormatter_Settings**)Il2CppClass::FromTypeDefinitionIndex(JsonFormatter_Settings_TypeDefinitionIndex)->GetStaticField(0x4C7F0);
+			return (::MiHoYo::SDK::Protobuf::JsonFormatter_Settings**)Il2CppClass::FromTypeDefinitionIndex(JsonFormatter_Settings_TypeDefinitionIndex)->GetStaticField(0x482E0);
 		}
 		::MiHoYo::SDK::Protobuf::Reflection::TypeRegistry* _TypeRegistry_k__BackingField; // 0x10
 		::System::Boolean _FormatDefaultValues_k__BackingField; // 0x18

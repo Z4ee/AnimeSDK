@@ -6,11 +6,11 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class SkinnedMeshRenderer; }
 namespace UnityEngine { class Transform; }
 
-#define RPG_CLIENT_EFFECT_TRAILARRAYCLONER__CTOR_OFFSET UNITYSDK_OFFSET(0xB88D3D0)
+#define RPG_CLIENT_EFFECT_TRAILARRAYCLONER__CTOR_OFFSET UNITYSDK_OFFSET(0x1512CBD0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int Effect_TrailArrayCloner_TypeDefinitionIndex = 65978;
+	inline static constexpr unsigned int Effect_TrailArrayCloner_TypeDefinitionIndex = 67403;
 
 	class Effect_TrailArrayCloner : public ::RPG::Client::TAMonoBase
 	{

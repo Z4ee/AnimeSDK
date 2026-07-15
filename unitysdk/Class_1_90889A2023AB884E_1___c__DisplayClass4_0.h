@@ -6,10 +6,10 @@ class Class_1_90889A2023AB884E_1;
 namespace RPG::Client::Promises { class IPromise; }
 namespace System { template <typename T> class Func_1; }
 
-#define CLASS_1_90889A2023AB884E_1___C__DISPLAYCLASS4_0__CTOR_OFFSET UNITYSDK_OFFSET(0xAB2CF40)
-#define CLASS_1_90889A2023AB884E_1___C__DISPLAYCLASS4_0___WRAPDISPOSEDCHECK_B__0_OFFSET UNITYSDK_OFFSET(0xAB2CF80)
+#define CLASS_1_90889A2023AB884E_1___C__DISPLAYCLASS4_0__CTOR_OFFSET UNITYSDK_OFFSET(0x150845C0)
+#define CLASS_1_90889A2023AB884E_1___C__DISPLAYCLASS4_0___WRAPDISPOSEDCHECK_B__0_OFFSET UNITYSDK_OFFSET(0x15084600)
 
-inline static constexpr unsigned int Class_1_90889A2023AB884E_1___c__DisplayClass4_0_TypeDefinitionIndex = 63138;
+inline static constexpr unsigned int Class_1_90889A2023AB884E_1___c__DisplayClass4_0_TypeDefinitionIndex = 64505;
 
 class Class_1_90889A2023AB884E_1___c__DisplayClass4_0 : public ::System::Object
 {

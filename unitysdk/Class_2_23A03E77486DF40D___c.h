@@ -5,22 +5,22 @@
 namespace RPG::Client { class FateBuffData; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define CLASS_2_23A03E77486DF40D___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xAACC460)
-#define CLASS_2_23A03E77486DF40D___C__CTOR_OFFSET UNITYSDK_OFFSET(0xAACC4A0)
-#define CLASS_2_23A03E77486DF40D___C__EVALUATE_B__1_1_OFFSET UNITYSDK_OFFSET(0xAACC4B0)
+#define CLASS_2_23A03E77486DF40D___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x18374300)
+#define CLASS_2_23A03E77486DF40D___C__CTOR_OFFSET UNITYSDK_OFFSET(0x18374340)
+#define CLASS_2_23A03E77486DF40D___C__EVALUATE_B__1_1_OFFSET UNITYSDK_OFFSET(0x18374350)
 
-inline static constexpr unsigned int Class_2_23A03E77486DF40D___c_TypeDefinitionIndex = 59933;
+inline static constexpr unsigned int Class_2_23A03E77486DF40D___c_TypeDefinitionIndex = 61218;
 
 class Class_2_23A03E77486DF40D___c : public ::System::Object
 {
 public:
 	static ::Class_2_23A03E77486DF40D___c** StaticGet___9()
 	{
-		return (::Class_2_23A03E77486DF40D___c**)Il2CppClass::FromTypeDefinitionIndex(Class_2_23A03E77486DF40D___c_TypeDefinitionIndex)->GetStaticField(0x39F0);
+		return (::Class_2_23A03E77486DF40D___c**)Il2CppClass::FromTypeDefinitionIndex(Class_2_23A03E77486DF40D___c_TypeDefinitionIndex)->GetStaticField(0x68A20);
 	}
 	static ::System::Func_2<::RPG::Client::FateBuffData*, ::System::Int64>** StaticGet___9__1_1()
 	{
-		return (::System::Func_2<::RPG::Client::FateBuffData*, ::System::Int64>**)Il2CppClass::FromTypeDefinitionIndex(Class_2_23A03E77486DF40D___c_TypeDefinitionIndex)->GetStaticField(0x39F8);
+		return (::System::Func_2<::RPG::Client::FateBuffData*, ::System::Int64>**)Il2CppClass::FromTypeDefinitionIndex(Class_2_23A03E77486DF40D___c_TypeDefinitionIndex)->GetStaticField(0x68A28);
 	}
 
 	static ::System::Void _cctor()

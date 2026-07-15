@@ -8,21 +8,21 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class Renderer; }
 
-#define PLANEREFLECTIONPROXY_DISPOSE_OFFSET UNITYSDK_OFFSET(0x18EA1180)
-#define PLANEREFLECTIONPROXY_ORDERBYPRIORITY_OFFSET UNITYSDK_OFFSET(0x18EA07E0)
-#define PLANEREFLECTIONPROXY_REGISTERPLANEREFLECTIONCASTERRENDERER_OFFSET UNITYSDK_OFFSET(0x18EA0C80)
-#define PLANEREFLECTIONPROXY_REGISTERPLANEREFLECTION_OFFSET UNITYSDK_OFFSET(0x18EA00E0)
-#define PLANEREFLECTIONPROXY_UNREGISTERPLANEREFLECTIONCASTERRENDERER_OFFSET UNITYSDK_OFFSET(0x18EA0F70)
-#define PLANEREFLECTIONPROXY_UNREGISTERPLANEREFLECTION_OFFSET UNITYSDK_OFFSET(0x18EA0AA0)
-#define PLANEREFLECTIONPROXY__CTOR_OFFSET UNITYSDK_OFFSET(0x18EA0000)
+#define PLANEREFLECTIONPROXY_DISPOSE_OFFSET UNITYSDK_OFFSET(0x177F82F0)
+#define PLANEREFLECTIONPROXY_ORDERBYPRIORITY_OFFSET UNITYSDK_OFFSET(0x177F7730)
+#define PLANEREFLECTIONPROXY_REGISTERPLANEREFLECTIONCASTERRENDERER_OFFSET UNITYSDK_OFFSET(0x177F7D40)
+#define PLANEREFLECTIONPROXY_REGISTERPLANEREFLECTION_OFFSET UNITYSDK_OFFSET(0x177F6E80)
+#define PLANEREFLECTIONPROXY_UNREGISTERPLANEREFLECTIONCASTERRENDERER_OFFSET UNITYSDK_OFFSET(0x177F8090)
+#define PLANEREFLECTIONPROXY_UNREGISTERPLANEREFLECTION_OFFSET UNITYSDK_OFFSET(0x177F7AB0)
+#define PLANEREFLECTIONPROXY__CTOR_OFFSET UNITYSDK_OFFSET(0x177F6DA0)
 
-inline static constexpr unsigned int PlaneReflectionProxy_TypeDefinitionIndex = 35149;
+inline static constexpr unsigned int PlaneReflectionProxy_TypeDefinitionIndex = 35931;
 
 class PlaneReflectionProxy : public ::System::Object
 {
 public:
-	::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Collections::Generic::List_1<::UnityEngine::Renderer*>*>* _PendingCasterRendererMap; // 0x10
-	::System::Collections::Generic::Dictionary_2<::System::String*, ::RPG::CustomRP::IPlaneReflection*>* _PlaneReflectionMap; // 0x18
+	::System::Collections::Generic::Dictionary_2<::System::String*, ::RPG::CustomRP::IPlaneReflection*>* _PlaneReflectionMap; // 0x10
+	::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Collections::Generic::List_1<::UnityEngine::Renderer*>*>* _PendingCasterRendererMap; // 0x18
 
 	::System::Void _ctor()
 	{

@@ -9,15 +9,14 @@ namespace RPGTools::Timeline { class EffectParameter; }
 namespace RPGTools::Timeline { class EffectTimelineBehaviour; }
 namespace UnityEngine { class GameObject; }
 
-#define RPGTOOLS_TIMELINE_EFFECTTIMELINECLIP_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0xD003870)
-#define RPGTOOLS_TIMELINE_EFFECTTIMELINECLIP_GET_CLIPCAPS_OFFSET UNITYSDK_OFFSET(0xD003800)
-#define RPGTOOLS_TIMELINE_EFFECTTIMELINECLIP_GET_DURATION_OFFSET UNITYSDK_OFFSET(0xD003810)
-#define RPGTOOLS_TIMELINE_EFFECTTIMELINECLIP__CTOR_OFFSET UNITYSDK_OFFSET(0xD003A10)
-#define RPGTOOLS_TIMELINE_EFFECTTIMELINECLIP___IFIXBASEPROXY_GET_DURATION_OFFSET UNITYSDK_OFFSET(0xD003A70)
+#define RPGTOOLS_TIMELINE_EFFECTTIMELINECLIP_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0x19A3BE80)
+#define RPGTOOLS_TIMELINE_EFFECTTIMELINECLIP_GET_CLIPCAPS_OFFSET UNITYSDK_OFFSET(0x19A3BE10)
+#define RPGTOOLS_TIMELINE_EFFECTTIMELINECLIP_GET_DURATION_OFFSET UNITYSDK_OFFSET(0x19A3BE20)
+#define RPGTOOLS_TIMELINE_EFFECTTIMELINECLIP__CTOR_OFFSET UNITYSDK_OFFSET(0x19A3C020)
 
 namespace RPGTools::Timeline
 {
-	inline static constexpr unsigned int EffectTimelineClip_TypeDefinitionIndex = 45694;
+	inline static constexpr unsigned int EffectTimelineClip_TypeDefinitionIndex = 46632;
 
 	class EffectTimelineClip : public ::UnityEngine::Playables::PlayableAsset
 	{
@@ -44,11 +43,6 @@ namespace RPGTools::Timeline
 		::UnityEngine::Playables::Playable CreatePlayable(::UnityEngine::Playables::PlayableGraph a1, ::UnityEngine::GameObject* a2)
 		{
 			return ((::UnityEngine::Playables::Playable(*)(::PVOID, ::UnityEngine::Playables::PlayableGraph, ::UnityEngine::GameObject*))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_EFFECTTIMELINECLIP_CREATEPLAYABLE_OFFSET))(this, a1, a2);
-		}
-
-		::System::Double __iFixBaseProxy_get_duration()
-		{
-			return ((::System::Double(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_EFFECTTIMELINECLIP___IFIXBASEPROXY_GET_DURATION_OFFSET))(this);
 		}
 	};
 }

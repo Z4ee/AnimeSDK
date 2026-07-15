@@ -7,18 +7,18 @@ namespace MiHoYo::SDK::Win { class LoginManager; }
 namespace System { class String; }
 namespace System { template <typename T> class Action_1; }
 
-#define MIHOYO_SDK_WIN_LOGINMANAGER___C__DISPLAYCLASS23_0__CTOR_OFFSET UNITYSDK_OFFSET(0x184E85C0)
-#define MIHOYO_SDK_WIN_LOGINMANAGER___C__DISPLAYCLASS23_0__LOGOUT_B__0_OFFSET UNITYSDK_OFFSET(0x184FE960)
+#define MIHOYO_SDK_WIN_LOGINMANAGER___C__DISPLAYCLASS23_0__CTOR_OFFSET UNITYSDK_OFFSET(0x156B1800)
+#define MIHOYO_SDK_WIN_LOGINMANAGER___C__DISPLAYCLASS23_0__LOGOUT_B__0_OFFSET UNITYSDK_OFFSET(0x156C7E70)
 
 namespace MiHoYo::SDK::Win
 {
-	inline static constexpr unsigned int LoginManager___c__DisplayClass23_0_TypeDefinitionIndex = 9092;
+	inline static constexpr unsigned int LoginManager___c__DisplayClass23_0_TypeDefinitionIndex = 9104;
 
 	class LoginManager___c__DisplayClass23_0 : public ::System::Object
 	{
 	public:
-		::MiHoYo::SDK::Win::LoginManager* __4__this; // 0x10
-		::System::Action_1<::MiHoYo::SDK::CallbackModel_1<::System::String*>*>* callback; // 0x18
+		::System::Action_1<::MiHoYo::SDK::CallbackModel_1<::System::String*>*>* callback; // 0x10
+		::MiHoYo::SDK::Win::LoginManager* __4__this; // 0x18
 
 		::System::Void _ctor()
 		{

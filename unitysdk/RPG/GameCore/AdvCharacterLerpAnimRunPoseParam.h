@@ -6,13 +6,13 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class TargetEvaluator; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_ADVCHARACTERLERPANIMRUNPOSEPARAM_METHOD_3_204391CF46B44B54_OFFSET UNITYSDK_OFFSET(0x1941E310)
-#define RPG_GAMECORE_ADVCHARACTERLERPANIMRUNPOSEPARAM_METHOD_3_CD094E279CFDF2A8_OFFSET UNITYSDK_OFFSET(0x1941E3E0)
-#define RPG_GAMECORE_ADVCHARACTERLERPANIMRUNPOSEPARAM__CTOR_OFFSET UNITYSDK_OFFSET(0x1941E390)
+#define RPG_GAMECORE_ADVCHARACTERLERPANIMRUNPOSEPARAM_METHOD_3_9E2CA1414DBEED5D_OFFSET UNITYSDK_OFFSET(0x1BE17260)
+#define RPG_GAMECORE_ADVCHARACTERLERPANIMRUNPOSEPARAM_METHOD_3_CD094E279CFDF2A8_OFFSET UNITYSDK_OFFSET(0x1BE17300)
+#define RPG_GAMECORE_ADVCHARACTERLERPANIMRUNPOSEPARAM__CTOR_OFFSET UNITYSDK_OFFSET(0x1BE172C0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AdvCharacterLerpAnimRunPoseParam_TypeDefinitionIndex = 19465;
+	inline static constexpr unsigned int AdvCharacterLerpAnimRunPoseParam_TypeDefinitionIndex = 19823;
 
 	class AdvCharacterLerpAnimRunPoseParam : public ::RPG::GameCore::TaskConfig
 	{
@@ -27,9 +27,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVCHARACTERLERPANIMRUNPOSEPARAM__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_204391CF46B44B54(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AdvCharacterLerpAnimRunPoseParam*& a2)
+		static ::System::Void Method_3_9E2CA1414DBEED5D(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AdvCharacterLerpAnimRunPoseParam*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::AdvCharacterLerpAnimRunPoseParam*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVCHARACTERLERPANIMRUNPOSEPARAM_METHOD_3_204391CF46B44B54_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::AdvCharacterLerpAnimRunPoseParam*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVCHARACTERLERPANIMRUNPOSEPARAM_METHOD_3_9E2CA1414DBEED5D_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_CD094E279CFDF2A8(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AdvCharacterLerpAnimRunPoseParam* a2)

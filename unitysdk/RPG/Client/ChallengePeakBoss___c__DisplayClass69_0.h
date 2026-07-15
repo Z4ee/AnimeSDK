@@ -4,12 +4,12 @@
 
 namespace RPG::Client { class ChallengePeakTarget; }
 
-#define RPG_CLIENT_CHALLENGEPEAKBOSS___C__DISPLAYCLASS69_0__CTOR_OFFSET UNITYSDK_OFFSET(0xB5607A0)
-#define RPG_CLIENT_CHALLENGEPEAKBOSS___C__DISPLAYCLASS69_0__GETTARGETINDEXBYID_B__0_OFFSET UNITYSDK_OFFSET(0xB561080)
+#define RPG_CLIENT_CHALLENGEPEAKBOSS___C__DISPLAYCLASS69_0__CTOR_OFFSET UNITYSDK_OFFSET(0x191DED20)
+#define RPG_CLIENT_CHALLENGEPEAKBOSS___C__DISPLAYCLASS69_0__GETTARGETINDEXBYID_B__0_OFFSET UNITYSDK_OFFSET(0x191DF710)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ChallengePeakBoss___c__DisplayClass69_0_TypeDefinitionIndex = 59104;
+	inline static constexpr unsigned int ChallengePeakBoss___c__DisplayClass69_0_TypeDefinitionIndex = 60375;
 
 	class ChallengePeakBoss___c__DisplayClass69_0 : public ::System::Object
 	{

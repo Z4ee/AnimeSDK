@@ -5,7 +5,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int BezierCurve_PointAndDerivative_TypeDefinitionIndex = 34161;
+	inline static constexpr unsigned int BezierCurve_PointAndDerivative_TypeDefinitionIndex = 34532;
 
 	struct alignas(4) BezierCurve_PointAndDerivative
 	{

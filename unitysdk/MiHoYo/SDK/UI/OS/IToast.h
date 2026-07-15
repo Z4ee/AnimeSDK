@@ -6,7 +6,7 @@ namespace System { class String; }
 
 namespace MiHoYo::SDK::UI::OS
 {
-	inline static constexpr unsigned int IToast_TypeDefinitionIndex = 8396;
+	inline static constexpr unsigned int IToast_TypeDefinitionIndex = 8408;
 
 	class IToast
 	{

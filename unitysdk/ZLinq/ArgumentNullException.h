@@ -4,12 +4,12 @@
 
 namespace System { class String; }
 
-#define ZLINQ_ARGUMENTNULLEXCEPTION_THROWIFNULL_OFFSET UNITYSDK_OFFSET(0x1B52C240)
-#define ZLINQ_ARGUMENTNULLEXCEPTION_THROW_OFFSET UNITYSDK_OFFSET(0x1B52C2A0)
+#define ZLINQ_ARGUMENTNULLEXCEPTION_THROWIFNULL_OFFSET UNITYSDK_OFFSET(0x1D2FAD00)
+#define ZLINQ_ARGUMENTNULLEXCEPTION_THROW_OFFSET UNITYSDK_OFFSET(0x1D2FAD60)
 
 namespace ZLinq
 {
-	inline static constexpr unsigned int ArgumentNullException_TypeDefinitionIndex = 6330;
+	inline static constexpr unsigned int ArgumentNullException_TypeDefinitionIndex = 6335;
 
 	class ArgumentNullException : public ::System::Object
 	{

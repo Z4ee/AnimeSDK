@@ -3,11 +3,11 @@
 #include "unitysdk/Cinemachine/UpdateTracker_UpdateClock.h"
 #include "unitysdk/System/Object.h"
 
-#define CINEMACHINE_CINEMACHINECORE_UPDATESTATUS__CTOR_OFFSET UNITYSDK_OFFSET(0x1463AF80)
+#define CINEMACHINE_CINEMACHINECORE_UPDATESTATUS__CTOR_OFFSET UNITYSDK_OFFSET(0x1727ABA0)
 
 namespace Cinemachine
 {
-	inline static constexpr unsigned int CinemachineCore_UpdateStatus_TypeDefinitionIndex = 36876;
+	inline static constexpr unsigned int CinemachineCore_UpdateStatus_TypeDefinitionIndex = 37658;
 
 	class CinemachineCore_UpdateStatus : public ::System::Object
 	{

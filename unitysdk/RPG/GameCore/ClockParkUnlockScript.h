@@ -4,13 +4,13 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_CLOCKPARKUNLOCKSCRIPT_METHOD_3_3415A13B9BD3CAF8_OFFSET UNITYSDK_OFFSET(0x196638B0)
-#define RPG_GAMECORE_CLOCKPARKUNLOCKSCRIPT_METHOD_3_B676D13F5EB6E981_OFFSET UNITYSDK_OFFSET(0x19663930)
-#define RPG_GAMECORE_CLOCKPARKUNLOCKSCRIPT__CTOR_OFFSET UNITYSDK_OFFSET(0x19663900)
+#define RPG_GAMECORE_CLOCKPARKUNLOCKSCRIPT_METHOD_3_B676D13F5EB6E981_OFFSET UNITYSDK_OFFSET(0x1BC1E470)
+#define RPG_GAMECORE_CLOCKPARKUNLOCKSCRIPT_METHOD_3_E358CC49DBE5EB42_OFFSET UNITYSDK_OFFSET(0x1BC1E430)
+#define RPG_GAMECORE_CLOCKPARKUNLOCKSCRIPT__CTOR_OFFSET UNITYSDK_OFFSET(0x1BC1E460)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ClockParkUnlockScript_TypeDefinitionIndex = 20426;
+	inline static constexpr unsigned int ClockParkUnlockScript_TypeDefinitionIndex = 20841;
 
 	class ClockParkUnlockScript : public ::RPG::GameCore::TaskConfig
 	{
@@ -22,9 +22,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CLOCKPARKUNLOCKSCRIPT__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_3415A13B9BD3CAF8(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ClockParkUnlockScript*& a2)
+		static ::System::Void Method_3_E358CC49DBE5EB42(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ClockParkUnlockScript*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ClockParkUnlockScript*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CLOCKPARKUNLOCKSCRIPT_METHOD_3_3415A13B9BD3CAF8_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ClockParkUnlockScript*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CLOCKPARKUNLOCKSCRIPT_METHOD_3_E358CC49DBE5EB42_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_B676D13F5EB6E981(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ClockParkUnlockScript* a2)

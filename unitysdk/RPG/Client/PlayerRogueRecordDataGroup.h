@@ -8,21 +8,21 @@ namespace RPG::Client { class PlayerMagicRogueRecordData; }
 namespace RPG::Client { class PlayerNousChessRogueRecordData; }
 namespace RPG::Client { class PlayerRogueTournRecordData; }
 
-#define RPG_CLIENT_PLAYERROGUERECORDDATAGROUP_CREATE_OFFSET UNITYSDK_OFFSET(0xC4AAC80)
-#define RPG_CLIENT_PLAYERROGUERECORDDATAGROUP_SYNCDATA_OFFSET UNITYSDK_OFFSET(0xC4AA9C0)
-#define RPG_CLIENT_PLAYERROGUERECORDDATAGROUP__CTOR_OFFSET UNITYSDK_OFFSET(0xC4AACF0)
+#define RPG_CLIENT_PLAYERROGUERECORDDATAGROUP_CREATE_OFFSET UNITYSDK_OFFSET(0x19392090)
+#define RPG_CLIENT_PLAYERROGUERECORDDATAGROUP_SYNCDATA_OFFSET UNITYSDK_OFFSET(0x19391DD0)
+#define RPG_CLIENT_PLAYERROGUERECORDDATAGROUP__CTOR_OFFSET UNITYSDK_OFFSET(0x19392100)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int PlayerRogueRecordDataGroup_TypeDefinitionIndex = 60079;
+	inline static constexpr unsigned int PlayerRogueRecordDataGroup_TypeDefinitionIndex = 61364;
 
 	class PlayerRogueRecordDataGroup : public ::System::Object
 	{
 	public:
-		::RPG::Client::PlayerRogueTournRecordData* TournRogueRecordData; // 0x10
-		::RPG::Client::PlayerChessRogueRecordData* ChessRogueRecordData; // 0x18
-		::RPG::Client::PlayerNousChessRogueRecordData* NousChessRogueRecordData; // 0x20
-		::RPG::Client::PlayerMagicRogueRecordData* MagicRogueRecordData; // 0x28
+		::RPG::Client::PlayerMagicRogueRecordData* MagicRogueRecordData; // 0x10
+		::RPG::Client::PlayerNousChessRogueRecordData* NousChessRogueRecordData; // 0x18
+		::RPG::Client::PlayerChessRogueRecordData* ChessRogueRecordData; // 0x20
+		::RPG::Client::PlayerRogueTournRecordData* TournRogueRecordData; // 0x28
 
 		::System::Void _ctor()
 		{

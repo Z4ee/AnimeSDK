@@ -6,13 +6,13 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class TargetEvaluator; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_SETMODIFIEROVERRIDENAMEFORSTATUS_METHOD_3_BA99AC15F45183D5_OFFSET UNITYSDK_OFFSET(0x19C56860)
-#define RPG_GAMECORE_SETMODIFIEROVERRIDENAMEFORSTATUS_METHOD_3_C4EA8DDF2B654BD6_OFFSET UNITYSDK_OFFSET(0x19C567E0)
-#define RPG_GAMECORE_SETMODIFIEROVERRIDENAMEFORSTATUS__CTOR_OFFSET UNITYSDK_OFFSET(0x19C56830)
+#define RPG_GAMECORE_SETMODIFIEROVERRIDENAMEFORSTATUS_METHOD_3_284A1E3397B7F2E0_OFFSET UNITYSDK_OFFSET(0x1C601000)
+#define RPG_GAMECORE_SETMODIFIEROVERRIDENAMEFORSTATUS_METHOD_3_BA99AC15F45183D5_OFFSET UNITYSDK_OFFSET(0x1C601040)
+#define RPG_GAMECORE_SETMODIFIEROVERRIDENAMEFORSTATUS__CTOR_OFFSET UNITYSDK_OFFSET(0x1C601030)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SetModifierOverrideNameForStatus_TypeDefinitionIndex = 21399;
+	inline static constexpr unsigned int SetModifierOverrideNameForStatus_TypeDefinitionIndex = 21817;
 
 	class SetModifierOverrideNameForStatus : public ::RPG::GameCore::TaskConfig
 	{
@@ -26,9 +26,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETMODIFIEROVERRIDENAMEFORSTATUS__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_C4EA8DDF2B654BD6(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SetModifierOverrideNameForStatus*& a2)
+		static ::System::Void Method_3_284A1E3397B7F2E0(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SetModifierOverrideNameForStatus*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SetModifierOverrideNameForStatus*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETMODIFIEROVERRIDENAMEFORSTATUS_METHOD_3_C4EA8DDF2B654BD6_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SetModifierOverrideNameForStatus*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETMODIFIEROVERRIDENAMEFORSTATUS_METHOD_3_284A1E3397B7F2E0_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_BA99AC15F45183D5(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SetModifierOverrideNameForStatus* a2)

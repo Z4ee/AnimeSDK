@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ActionDelayVisibleType_TypeDefinitionIndex = 66553;
+	inline static constexpr unsigned int ActionDelayVisibleType_TypeDefinitionIndex = 67989;
 
 	enum class ActionDelayVisibleType : ::System::Int32
 	{

@@ -6,20 +6,20 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_IDLELIVESPINEANIMGROUPROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x19847AD0)
-#define RPG_GAMECORE_IDLELIVESPINEANIMGROUPROW__CTOR_OFFSET UNITYSDK_OFFSET(0x19847D00)
+#define RPG_GAMECORE_IDLELIVESPINEANIMGROUPROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B007E90)
+#define RPG_GAMECORE_IDLELIVESPINEANIMGROUPROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1B0080C0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int IdleLiveSpineAnimGroupRow_TypeDefinitionIndex = 11298;
+	inline static constexpr unsigned int IdleLiveSpineAnimGroupRow_TypeDefinitionIndex = 11398;
 
 	class IdleLiveSpineAnimGroupRow : public ::System::Object
 	{
 	public:
 		::Il2CppArray<::System::String*>* MaleStateList; // 0x10
 		::Il2CppArray<::System::String*>* FemaleStateList; // 0x18
-		::RPG::Client::TextID BubbleText; // 0x20
-		::System::UInt32 AnimGroupID; // 0x30
+		::System::UInt32 AnimGroupID; // 0x20
+		::RPG::Client::TextID BubbleText; // 0x28
 
 		::System::Void _ctor()
 		{

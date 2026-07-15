@@ -6,13 +6,13 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class TargetEvaluator; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_ADVREMOVEEFFECTLIST_METHOD_3_225832074879FED2_OFFSET UNITYSDK_OFFSET(0x19433450)
-#define RPG_GAMECORE_ADVREMOVEEFFECTLIST_METHOD_3_D5BF672589A529B0_OFFSET UNITYSDK_OFFSET(0x194333D0)
-#define RPG_GAMECORE_ADVREMOVEEFFECTLIST__CTOR_OFFSET UNITYSDK_OFFSET(0x19433420)
+#define RPG_GAMECORE_ADVREMOVEEFFECTLIST_METHOD_3_225832074879FED2_OFFSET UNITYSDK_OFFSET(0x1BE29FA0)
+#define RPG_GAMECORE_ADVREMOVEEFFECTLIST_METHOD_3_A1F84D44A3AFB3CD_OFFSET UNITYSDK_OFFSET(0x1BE29F60)
+#define RPG_GAMECORE_ADVREMOVEEFFECTLIST__CTOR_OFFSET UNITYSDK_OFFSET(0x1BE29F90)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AdvRemoveEffectList_TypeDefinitionIndex = 21093;
+	inline static constexpr unsigned int AdvRemoveEffectList_TypeDefinitionIndex = 21508;
 
 	class AdvRemoveEffectList : public ::RPG::GameCore::TaskConfig
 	{
@@ -25,9 +25,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVREMOVEEFFECTLIST__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_D5BF672589A529B0(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AdvRemoveEffectList*& a2)
+		static ::System::Void Method_3_A1F84D44A3AFB3CD(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AdvRemoveEffectList*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::AdvRemoveEffectList*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVREMOVEEFFECTLIST_METHOD_3_D5BF672589A529B0_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::AdvRemoveEffectList*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVREMOVEEFFECTLIST_METHOD_3_A1F84D44A3AFB3CD_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_225832074879FED2(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AdvRemoveEffectList* a2)

@@ -6,9 +6,9 @@ namespace System::Threading { class ThreadAbortException; }
 namespace System::Threading::Tasks { class ITaskCompletionAction; }
 namespace System::Threading::Tasks { class Task; }
 
-#define SYSTEM_THREADING_TASKS_COMPLETIONACTIONINVOKER_EXECUTEWORKITEM_OFFSET UNITYSDK_OFFSET(0x18622AE0)
-#define SYSTEM_THREADING_TASKS_COMPLETIONACTIONINVOKER_MARKABORTED_OFFSET UNITYSDK_OFFSET(0x18622B90)
-#define SYSTEM_THREADING_TASKS_COMPLETIONACTIONINVOKER__CTOR_OFFSET UNITYSDK_OFFSET(0x18622AD0)
+#define SYSTEM_THREADING_TASKS_COMPLETIONACTIONINVOKER_EXECUTEWORKITEM_OFFSET UNITYSDK_OFFSET(0x1998A640)
+#define SYSTEM_THREADING_TASKS_COMPLETIONACTIONINVOKER_MARKABORTED_OFFSET UNITYSDK_OFFSET(0x1998A740)
+#define SYSTEM_THREADING_TASKS_COMPLETIONACTIONINVOKER__CTOR_OFFSET UNITYSDK_OFFSET(0x1998A630)
 
 namespace System::Threading::Tasks
 {
@@ -17,8 +17,8 @@ namespace System::Threading::Tasks
 	class CompletionActionInvoker : public ::System::Object
 	{
 	public:
-		::System::Threading::Tasks::ITaskCompletionAction* m_action; // 0x10
-		::System::Threading::Tasks::Task* m_completingTask; // 0x18
+		::System::Threading::Tasks::Task* m_completingTask; // 0x10
+		::System::Threading::Tasks::ITaskCompletionAction* m_action; // 0x18
 
 		::System::Void _ctor(::System::Threading::Tasks::ITaskCompletionAction* a1, ::System::Threading::Tasks::Task* a2)
 		{

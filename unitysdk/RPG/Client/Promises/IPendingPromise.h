@@ -3,7 +3,7 @@
 
 namespace RPG::Client::Promises
 {
-	inline static constexpr unsigned int IPendingPromise_TypeDefinitionIndex = 9559;
+	inline static constexpr unsigned int IPendingPromise_TypeDefinitionIndex = 9571;
 
 	class IPendingPromise
 	{

@@ -2,10 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/ValueTuple_2.h"
 
-class Class_1_668FE281FA72D3E8_26;
-class Class_1_6D7D407F4E59D5BB;
-class Class_1_C06752CD2A701BDD;
-class Class_1_D1E0AD3915BCCF29_125;
+class Class_1_1CBA230307F9C289_92;
+class Class_1_301C5A497102AC7F;
+class Class_1_A139A18477C7681A;
+class Class_1_B27A28B5F94F6BD2;
+class Class_1_D17272E82AE804C2_1063;
 namespace Proto { class SceneMapInfo; }
 namespace RPG::Client { class ChestAndRaidInfoCollector; }
 namespace RPG::Client { class FloorSavedData; }
@@ -17,7 +18,6 @@ namespace RPG::Client { class MapPropDef; }
 namespace RPG::Client { class MapRotationInfo; }
 namespace RPG::GameCore { class EraFlipperConfig; }
 namespace RPG::GameCore { class HoyoTagContainer; }
-namespace RPG::GameCore { class LevelFloorBakedInfo; }
 namespace RPG::GameCore { class LevelNavmapConfig; }
 namespace RPG::GameCore { class LevelValidNavmapSubmapConfig; }
 namespace RPG::GameCore { class RuntimeGroupInfo; }
@@ -30,7 +30,7 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client::NavMap
 {
-	inline static constexpr unsigned int IMapDataSource_TypeDefinitionIndex = 69668;
+	inline static constexpr unsigned int IMapDataSource_TypeDefinitionIndex = 71191;
 
 	class IMapDataSource
 	{

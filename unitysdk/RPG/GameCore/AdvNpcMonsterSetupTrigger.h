@@ -8,13 +8,13 @@ namespace RPG::GameCore { class PropButtonConfig; }
 namespace RPG::GameCore { class TargetEvaluator; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_ADVNPCMONSTERSETUPTRIGGER_METHOD_3_04EE77746394DD8A_OFFSET UNITYSDK_OFFSET(0x1942E0D0)
-#define RPG_GAMECORE_ADVNPCMONSTERSETUPTRIGGER_METHOD_3_51B2437A5F97F8A3_OFFSET UNITYSDK_OFFSET(0x1942E160)
-#define RPG_GAMECORE_ADVNPCMONSTERSETUPTRIGGER__CTOR_OFFSET UNITYSDK_OFFSET(0x1942E130)
+#define RPG_GAMECORE_ADVNPCMONSTERSETUPTRIGGER_METHOD_3_51B2437A5F97F8A3_OFFSET UNITYSDK_OFFSET(0x1BE25690)
+#define RPG_GAMECORE_ADVNPCMONSTERSETUPTRIGGER_METHOD_3_9C75C43FC7629CEE_OFFSET UNITYSDK_OFFSET(0x1BE25640)
+#define RPG_GAMECORE_ADVNPCMONSTERSETUPTRIGGER__CTOR_OFFSET UNITYSDK_OFFSET(0x1BE25680)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AdvNpcMonsterSetupTrigger_TypeDefinitionIndex = 20993;
+	inline static constexpr unsigned int AdvNpcMonsterSetupTrigger_TypeDefinitionIndex = 21408;
 
 	class AdvNpcMonsterSetupTrigger : public ::RPG::GameCore::TaskConfig
 	{
@@ -34,9 +34,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVNPCMONSTERSETUPTRIGGER__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_04EE77746394DD8A(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AdvNpcMonsterSetupTrigger*& a2)
+		static ::System::Void Method_3_9C75C43FC7629CEE(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AdvNpcMonsterSetupTrigger*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::AdvNpcMonsterSetupTrigger*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVNPCMONSTERSETUPTRIGGER_METHOD_3_04EE77746394DD8A_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::AdvNpcMonsterSetupTrigger*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVNPCMONSTERSETUPTRIGGER_METHOD_3_9C75C43FC7629CEE_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_51B2437A5F97F8A3(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AdvNpcMonsterSetupTrigger* a2)

@@ -6,9 +6,9 @@ class Class_1_80AF8BF5A186D7B9;
 namespace System::Collections::Generic { template <typename T> class ICollection_1; }
 namespace UnityEngine { class Transform; }
 
-#define CLASS_1_D19B260269D43396__CTOR_OFFSET UNITYSDK_OFFSET(0xA92BFB0)
+#define CLASS_1_D19B260269D43396__CTOR_OFFSET UNITYSDK_OFFSET(0x13A39840)
 
-inline static constexpr unsigned int Class_1_D19B260269D43396_TypeDefinitionIndex = 66591;
+inline static constexpr unsigned int Class_1_D19B260269D43396_TypeDefinitionIndex = 68027;
 
 class Class_1_D19B260269D43396 : public ::System::Object
 {

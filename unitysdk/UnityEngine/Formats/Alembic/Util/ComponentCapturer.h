@@ -6,12 +6,12 @@
 namespace UnityEngine { class Component; }
 namespace UnityEngine::Formats::Alembic::Util { class AlembicRecorder; }
 
-#define UNITYENGINE_FORMATS_ALEMBIC_UTIL_COMPONENTCAPTURER_MARKFORCEINVISIBLE_OFFSET UNITYSDK_OFFSET(0x1B04E2E0)
-#define UNITYENGINE_FORMATS_ALEMBIC_UTIL_COMPONENTCAPTURER__CTOR_OFFSET UNITYSDK_OFFSET(0x1B04E360)
+#define UNITYENGINE_FORMATS_ALEMBIC_UTIL_COMPONENTCAPTURER_MARKFORCEINVISIBLE_OFFSET UNITYSDK_OFFSET(0x1D304630)
+#define UNITYENGINE_FORMATS_ALEMBIC_UTIL_COMPONENTCAPTURER__CTOR_OFFSET UNITYSDK_OFFSET(0x1D3046B0)
 
 namespace UnityEngine::Formats::Alembic::Util
 {
-	inline static constexpr unsigned int ComponentCapturer_TypeDefinitionIndex = 41579;
+	inline static constexpr unsigned int ComponentCapturer_TypeDefinitionIndex = 42439;
 
 	class ComponentCapturer : public ::System::Object
 	{

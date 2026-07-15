@@ -6,13 +6,13 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class TaskConfig; }
 
-#define RPG_GAMECORE_WAITPROPSTATECHANGEV2_METHOD_4_74AD34358240AA05_OFFSET UNITYSDK_OFFSET(0x19E5E700)
-#define RPG_GAMECORE_WAITPROPSTATECHANGEV2_METHOD_4_EBC9FED13848E32B_OFFSET UNITYSDK_OFFSET(0x19E5E7E0)
-#define RPG_GAMECORE_WAITPROPSTATECHANGEV2__CTOR_OFFSET UNITYSDK_OFFSET(0x19E5E780)
+#define RPG_GAMECORE_WAITPROPSTATECHANGEV2_METHOD_4_EBC9FED13848E32B_OFFSET UNITYSDK_OFFSET(0x1D1BA400)
+#define RPG_GAMECORE_WAITPROPSTATECHANGEV2_METHOD_4_F16B43EC6C064526_OFFSET UNITYSDK_OFFSET(0x1D1BA3B0)
+#define RPG_GAMECORE_WAITPROPSTATECHANGEV2__CTOR_OFFSET UNITYSDK_OFFSET(0x1D1BA3F0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int WaitPropStateChangeV2_TypeDefinitionIndex = 19600;
+	inline static constexpr unsigned int WaitPropStateChangeV2_TypeDefinitionIndex = 19959;
 
 	class WaitPropStateChangeV2 : public ::RPG::GameCore::AdvWaitingEventBase
 	{
@@ -29,9 +29,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_WAITPROPSTATECHANGEV2__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_4_74AD34358240AA05(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::WaitPropStateChangeV2*& a2)
+		static ::System::Void Method_4_F16B43EC6C064526(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::WaitPropStateChangeV2*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::WaitPropStateChangeV2*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_WAITPROPSTATECHANGEV2_METHOD_4_74AD34358240AA05_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::WaitPropStateChangeV2*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_WAITPROPSTATECHANGEV2_METHOD_4_F16B43EC6C064526_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_4_EBC9FED13848E32B(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::WaitPropStateChangeV2* a2)

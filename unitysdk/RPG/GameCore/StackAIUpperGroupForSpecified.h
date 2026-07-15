@@ -6,13 +6,13 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class TargetEvaluator; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_STACKAIUPPERGROUPFORSPECIFIED_METHOD_3_3CF0362960AA30AD_OFFSET UNITYSDK_OFFSET(0x19CA0DA0)
-#define RPG_GAMECORE_STACKAIUPPERGROUPFORSPECIFIED_METHOD_3_8D227BC6D7933C1A_OFFSET UNITYSDK_OFFSET(0x19CA0E40)
-#define RPG_GAMECORE_STACKAIUPPERGROUPFORSPECIFIED__CTOR_OFFSET UNITYSDK_OFFSET(0x19CA0E00)
+#define RPG_GAMECORE_STACKAIUPPERGROUPFORSPECIFIED_METHOD_3_8D227BC6D7933C1A_OFFSET UNITYSDK_OFFSET(0x1B0A4B70)
+#define RPG_GAMECORE_STACKAIUPPERGROUPFORSPECIFIED_METHOD_3_F73BD7498157E9C3_OFFSET UNITYSDK_OFFSET(0x1B0A4B20)
+#define RPG_GAMECORE_STACKAIUPPERGROUPFORSPECIFIED__CTOR_OFFSET UNITYSDK_OFFSET(0x1B0A4B60)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int StackAIUpperGroupForSpecified_TypeDefinitionIndex = 22422;
+	inline static constexpr unsigned int StackAIUpperGroupForSpecified_TypeDefinitionIndex = 22866;
 
 	class StackAIUpperGroupForSpecified : public ::RPG::GameCore::TaskConfig
 	{
@@ -26,9 +26,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_STACKAIUPPERGROUPFORSPECIFIED__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_3CF0362960AA30AD(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::StackAIUpperGroupForSpecified*& a2)
+		static ::System::Void Method_3_F73BD7498157E9C3(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::StackAIUpperGroupForSpecified*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::StackAIUpperGroupForSpecified*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_STACKAIUPPERGROUPFORSPECIFIED_METHOD_3_3CF0362960AA30AD_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::StackAIUpperGroupForSpecified*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_STACKAIUPPERGROUPFORSPECIFIED_METHOD_3_F73BD7498157E9C3_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_8D227BC6D7933C1A(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::StackAIUpperGroupForSpecified* a2)

@@ -14,11 +14,11 @@ namespace UnityEngine { class AnimationCurve; }
 namespace UnityEngine { class Component; }
 namespace UnityEngine { class GameObject; }
 
-#define BANSHEEGZ_BGSPLINE_CURVE_BGCURVEPOINT_FIELDSVALUES__CTOR_OFFSET UNITYSDK_OFFSET(0x189677B0)
+#define BANSHEEGZ_BGSPLINE_CURVE_BGCURVEPOINT_FIELDSVALUES__CTOR_OFFSET UNITYSDK_OFFSET(0x1690F900)
 
 namespace BansheeGz::BGSpline::Curve
 {
-	inline static constexpr unsigned int BGCurvePoint_FieldsValues_TypeDefinitionIndex = 34097;
+	inline static constexpr unsigned int BGCurvePoint_FieldsValues_TypeDefinitionIndex = 34468;
 
 	class BGCurvePoint_FieldsValues : public ::System::Object
 	{

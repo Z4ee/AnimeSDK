@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int Class_1_3940F550ADD57FD2_Section_TypeDefinitionIndex = 38492;
+inline static constexpr unsigned int Class_1_3940F550ADD57FD2_Section_TypeDefinitionIndex = 39300;
 
 enum class Class_1_3940F550ADD57FD2_Section : ::System::Int32
 {

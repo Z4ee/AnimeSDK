@@ -5,13 +5,13 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class PerformanceResultCase; }
 
-#define RPG_GAMECORE_PERFORMANCEENDSEQ_METHOD_3_2C2741AAA3D1AB3B_OFFSET UNITYSDK_OFFSET(0x199F3C20)
-#define RPG_GAMECORE_PERFORMANCEENDSEQ_METHOD_3_AF0E8AC152B22ED5_OFFSET UNITYSDK_OFFSET(0x199F3CA0)
-#define RPG_GAMECORE_PERFORMANCEENDSEQ__CTOR_OFFSET UNITYSDK_OFFSET(0x199F3C70)
+#define RPG_GAMECORE_PERFORMANCEENDSEQ_METHOD_3_18744BB5EDD66E22_OFFSET UNITYSDK_OFFSET(0x1B4AE130)
+#define RPG_GAMECORE_PERFORMANCEENDSEQ_METHOD_3_AF0E8AC152B22ED5_OFFSET UNITYSDK_OFFSET(0x1B4AE170)
+#define RPG_GAMECORE_PERFORMANCEENDSEQ__CTOR_OFFSET UNITYSDK_OFFSET(0x1B4AE160)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PerformanceEndSeq_TypeDefinitionIndex = 20074;
+	inline static constexpr unsigned int PerformanceEndSeq_TypeDefinitionIndex = 20446;
 
 	class PerformanceEndSeq : public ::RPG::GameCore::TaskConfig
 	{
@@ -24,9 +24,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PERFORMANCEENDSEQ__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_2C2741AAA3D1AB3B(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::PerformanceEndSeq*& a2)
+		static ::System::Void Method_3_18744BB5EDD66E22(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::PerformanceEndSeq*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::PerformanceEndSeq*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PERFORMANCEENDSEQ_METHOD_3_2C2741AAA3D1AB3B_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::PerformanceEndSeq*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PERFORMANCEENDSEQ_METHOD_3_18744BB5EDD66E22_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_AF0E8AC152B22ED5(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::PerformanceEndSeq* a2)

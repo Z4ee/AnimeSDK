@@ -3,12 +3,12 @@
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/LayerMask.h"
 
-#define HOUDINIENGINEUNITY_TEST_LAYERMASK_ISEQUIVALENTTO_OFFSET UNITYSDK_OFFSET(0x17F811E0)
-#define HOUDINIENGINEUNITY_TEST_LAYERMASK__CTOR_OFFSET UNITYSDK_OFFSET(0x17F811D0)
+#define HOUDINIENGINEUNITY_TEST_LAYERMASK_ISEQUIVALENTTO_OFFSET UNITYSDK_OFFSET(0x1D20D4C0)
+#define HOUDINIENGINEUNITY_TEST_LAYERMASK__CTOR_OFFSET UNITYSDK_OFFSET(0x1D20D4B0)
 
 namespace HoudiniEngineUnity
 {
-	inline static constexpr unsigned int Test_LayerMask_TypeDefinitionIndex = 37779;
+	inline static constexpr unsigned int Test_LayerMask_TypeDefinitionIndex = 38587;
 
 	class Test_LayerMask : public ::System::Object
 	{

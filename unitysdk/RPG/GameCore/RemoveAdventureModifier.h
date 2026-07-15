@@ -6,13 +6,13 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class TargetEvaluator; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_REMOVEADVENTUREMODIFIER_METHOD_3_5A4F78BA9F055BFF_OFFSET UNITYSDK_OFFSET(0x19AC6FA0)
-#define RPG_GAMECORE_REMOVEADVENTUREMODIFIER_METHOD_3_CCDE182400285E8B_OFFSET UNITYSDK_OFFSET(0x19AC7020)
-#define RPG_GAMECORE_REMOVEADVENTUREMODIFIER__CTOR_OFFSET UNITYSDK_OFFSET(0x19AC6FF0)
+#define RPG_GAMECORE_REMOVEADVENTUREMODIFIER_METHOD_3_CCDE182400285E8B_OFFSET UNITYSDK_OFFSET(0x1B9CE090)
+#define RPG_GAMECORE_REMOVEADVENTUREMODIFIER_METHOD_3_F2DAAA24FEBF2A44_OFFSET UNITYSDK_OFFSET(0x1B9CE050)
+#define RPG_GAMECORE_REMOVEADVENTUREMODIFIER__CTOR_OFFSET UNITYSDK_OFFSET(0x1B9CE080)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RemoveAdventureModifier_TypeDefinitionIndex = 20540;
+	inline static constexpr unsigned int RemoveAdventureModifier_TypeDefinitionIndex = 20955;
 
 	class RemoveAdventureModifier : public ::RPG::GameCore::TaskConfig
 	{
@@ -25,9 +25,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_REMOVEADVENTUREMODIFIER__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_5A4F78BA9F055BFF(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::RemoveAdventureModifier*& a2)
+		static ::System::Void Method_3_F2DAAA24FEBF2A44(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::RemoveAdventureModifier*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::RemoveAdventureModifier*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_REMOVEADVENTUREMODIFIER_METHOD_3_5A4F78BA9F055BFF_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::RemoveAdventureModifier*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_REMOVEADVENTUREMODIFIER_METHOD_3_F2DAAA24FEBF2A44_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_CCDE182400285E8B(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::RemoveAdventureModifier* a2)

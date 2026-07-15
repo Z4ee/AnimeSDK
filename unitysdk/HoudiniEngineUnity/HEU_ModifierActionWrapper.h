@@ -3,7 +3,7 @@
 
 namespace HoudiniEngineUnity
 {
-	inline static constexpr unsigned int HEU_ModifierActionWrapper_TypeDefinitionIndex = 37584;
+	inline static constexpr unsigned int HEU_ModifierActionWrapper_TypeDefinitionIndex = 38392;
 
 	enum class HEU_ModifierActionWrapper : ::System::Int32
 	{

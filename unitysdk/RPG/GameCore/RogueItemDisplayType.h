@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RogueItemDisplayType_TypeDefinitionIndex = 10217;
+	inline static constexpr unsigned int RogueItemDisplayType_TypeDefinitionIndex = 10238;
 
 	enum class RogueItemDisplayType : ::System::Int32
 	{

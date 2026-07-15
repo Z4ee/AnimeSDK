@@ -6,13 +6,13 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class DynamicFloat; }
 namespace RPG::GameCore { class TargetEvaluator; }
 
-#define RPG_GAMECORE_MODIFYACTIONDELAY_METHOD_3_3B2C690A926408E7_OFFSET UNITYSDK_OFFSET(0x1994E3A0)
-#define RPG_GAMECORE_MODIFYACTIONDELAY_METHOD_3_BBBEFDE9B734D391_OFFSET UNITYSDK_OFFSET(0x1994E320)
-#define RPG_GAMECORE_MODIFYACTIONDELAY__CTOR_OFFSET UNITYSDK_OFFSET(0x1994E370)
+#define RPG_GAMECORE_MODIFYACTIONDELAY_METHOD_3_3B2C690A926408E7_OFFSET UNITYSDK_OFFSET(0x1AF73240)
+#define RPG_GAMECORE_MODIFYACTIONDELAY_METHOD_3_B6A53539FC1109CA_OFFSET UNITYSDK_OFFSET(0x1AF73200)
+#define RPG_GAMECORE_MODIFYACTIONDELAY__CTOR_OFFSET UNITYSDK_OFFSET(0x1AF73230)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ModifyActionDelay_TypeDefinitionIndex = 21462;
+	inline static constexpr unsigned int ModifyActionDelay_TypeDefinitionIndex = 21882;
 
 	class ModifyActionDelay : public ::RPG::GameCore::TaskConfig
 	{
@@ -28,9 +28,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MODIFYACTIONDELAY__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_BBBEFDE9B734D391(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ModifyActionDelay*& a2)
+		static ::System::Void Method_3_B6A53539FC1109CA(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ModifyActionDelay*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ModifyActionDelay*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MODIFYACTIONDELAY_METHOD_3_BBBEFDE9B734D391_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ModifyActionDelay*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MODIFYACTIONDELAY_METHOD_3_B6A53539FC1109CA_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_3B2C690A926408E7(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ModifyActionDelay* a2)

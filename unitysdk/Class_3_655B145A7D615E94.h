@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class EndAdvSkillCombo; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_655B145A7D615E94_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x112C1260)
-#define CLASS_3_655B145A7D615E94__CTOR_OFFSET UNITYSDK_OFFSET(0x112C1230)
+#define CLASS_3_655B145A7D615E94_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x15DDFEA0)
+#define CLASS_3_655B145A7D615E94__CTOR_OFFSET UNITYSDK_OFFSET(0x15DDFE70)
 
-inline static constexpr unsigned int Class_3_655B145A7D615E94_TypeDefinitionIndex = 54311;
+inline static constexpr unsigned int Class_3_655B145A7D615E94_TypeDefinitionIndex = 55534;
 
 class Class_3_655B145A7D615E94 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::EndAdvSkillCombo*>
 {

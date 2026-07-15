@@ -7,9 +7,9 @@ class Class_1_C563E5E77DCDB6EB;
 class Class_1_D3E9CB566496BBAE;
 namespace System { template <typename T> class Action_1; }
 
-#define CLASS_1_811684F8F4BAD8BC__CTOR_OFFSET UNITYSDK_OFFSET(0x1353A370)
+#define CLASS_1_811684F8F4BAD8BC__CTOR_OFFSET UNITYSDK_OFFSET(0x168936A0)
 
-inline static constexpr unsigned int Class_1_811684F8F4BAD8BC_TypeDefinitionIndex = 71932;
+inline static constexpr unsigned int Class_1_811684F8F4BAD8BC_TypeDefinitionIndex = 73457;
 
 class Class_1_811684F8F4BAD8BC : public ::System::Object
 {

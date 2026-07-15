@@ -6,7 +6,7 @@ namespace UnityEngine { class RenderTexture; }
 
 namespace UnityEngine::UIElements
 {
-	inline static constexpr unsigned int RuntimePanel_TypeDefinitionIndex = 6145;
+	inline static constexpr unsigned int RuntimePanel_TypeDefinitionIndex = 6150;
 
 	class RuntimePanel : public ::UnityEngine::UIElements::Panel
 	{

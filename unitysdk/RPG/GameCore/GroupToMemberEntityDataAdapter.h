@@ -5,13 +5,13 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class GroupToMemberEntityDataConfig; }
 
-#define RPG_GAMECORE_GROUPTOMEMBERENTITYDATAADAPTER_METHOD_3_C684DAC13DAC644A_OFFSET UNITYSDK_OFFSET(0x19815030)
-#define RPG_GAMECORE_GROUPTOMEMBERENTITYDATAADAPTER_METHOD_3_DCB5BA2F0EBA6D39_OFFSET UNITYSDK_OFFSET(0x198150B0)
-#define RPG_GAMECORE_GROUPTOMEMBERENTITYDATAADAPTER__CTOR_OFFSET UNITYSDK_OFFSET(0x19815080)
+#define RPG_GAMECORE_GROUPTOMEMBERENTITYDATAADAPTER_METHOD_3_BC9137AD207578AA_OFFSET UNITYSDK_OFFSET(0x1B667E40)
+#define RPG_GAMECORE_GROUPTOMEMBERENTITYDATAADAPTER_METHOD_3_DCB5BA2F0EBA6D39_OFFSET UNITYSDK_OFFSET(0x1B667E80)
+#define RPG_GAMECORE_GROUPTOMEMBERENTITYDATAADAPTER__CTOR_OFFSET UNITYSDK_OFFSET(0x1B667E70)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int GroupToMemberEntityDataAdapter_TypeDefinitionIndex = 19596;
+	inline static constexpr unsigned int GroupToMemberEntityDataAdapter_TypeDefinitionIndex = 19955;
 
 	class GroupToMemberEntityDataAdapter : public ::RPG::GameCore::TaskConfig
 	{
@@ -23,9 +23,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GROUPTOMEMBERENTITYDATAADAPTER__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_C684DAC13DAC644A(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::GroupToMemberEntityDataAdapter*& a2)
+		static ::System::Void Method_3_BC9137AD207578AA(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::GroupToMemberEntityDataAdapter*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::GroupToMemberEntityDataAdapter*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GROUPTOMEMBERENTITYDATAADAPTER_METHOD_3_C684DAC13DAC644A_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::GroupToMemberEntityDataAdapter*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GROUPTOMEMBERENTITYDATAADAPTER_METHOD_3_BC9137AD207578AA_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_DCB5BA2F0EBA6D39(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::GroupToMemberEntityDataAdapter* a2)

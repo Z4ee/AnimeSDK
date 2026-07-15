@@ -9,21 +9,20 @@ namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class IReadOnlyList_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_1_E6D4E6257B88FF1D_METHOD_1_1A5CB4F57CDDD315_OFFSET UNITYSDK_OFFSET(0xA3F7170)
-#define CLASS_1_E6D4E6257B88FF1D_METHOD_1_DBE38703F8E74800_OFFSET UNITYSDK_OFFSET(0xA3F73C0)
-#define CLASS_1_E6D4E6257B88FF1D_TOSTRING_OFFSET UNITYSDK_OFFSET(0xA3F7270)
-#define CLASS_1_E6D4E6257B88FF1D__CTOR_OFFSET UNITYSDK_OFFSET(0xA3F7260)
-#define CLASS_1_E6D4E6257B88FF1D___IFIXBASEPROXY_TOSTRING_OFFSET UNITYSDK_OFFSET(0xA3F74C0)
+#define CLASS_1_E6D4E6257B88FF1D_METHOD_1_1A5CB4F57CDDD315_OFFSET UNITYSDK_OFFSET(0x18585B80)
+#define CLASS_1_E6D4E6257B88FF1D_METHOD_1_DBE38703F8E74800_OFFSET UNITYSDK_OFFSET(0x18585DD0)
+#define CLASS_1_E6D4E6257B88FF1D_TOSTRING_OFFSET UNITYSDK_OFFSET(0x18585C80)
+#define CLASS_1_E6D4E6257B88FF1D__CTOR_OFFSET UNITYSDK_OFFSET(0x18585C70)
 
-inline static constexpr unsigned int Class_1_E6D4E6257B88FF1D_TypeDefinitionIndex = 58298;
+inline static constexpr unsigned int Class_1_E6D4E6257B88FF1D_TypeDefinitionIndex = 59560;
 
 class Class_1_E6D4E6257B88FF1D : public ::System::Object
 {
 public:
 	::System::Collections::Generic::List_1<::UnityEngine::Vector2Int>* Field_1_0; // 0x10
 	::System::Collections::Generic::List_1<::UnityEngine::Vector2Int>* Field_1_1; // 0x18
-	::UnityEngine::Vector2 Field_1_2; // 0x20
-	::Class_1_C16080C084A20369_MeasureAction Field_1_3; // 0x28
+	::Class_1_C16080C084A20369_MeasureAction Field_1_2; // 0x20
+	::UnityEngine::Vector2 Field_1_3; // 0x24
 
 	::System::Void _ctor()
 	{
@@ -43,10 +42,5 @@ public:
 	::System::String* Method_1_DBE38703F8E74800(::Class_1_C16080C084A20369_MeasureAction a1)
 	{
 		return ((::System::String*(*)(::PVOID, ::Class_1_C16080C084A20369_MeasureAction))((::PBYTE)hIl2Cpp + CLASS_1_E6D4E6257B88FF1D_METHOD_1_DBE38703F8E74800_OFFSET))(this, a1);
-	}
-
-	::System::String* __iFixBaseProxy_ToString()
-	{
-		return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_E6D4E6257B88FF1D___IFIXBASEPROXY_TOSTRING_OFFSET))(this);
 	}
 };

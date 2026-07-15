@@ -7,7 +7,7 @@ namespace RPG::GameCore { class TaskContext; }
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ImmediateTaskBase_1_TypeDefinitionIndex = 51216;
+	inline static constexpr unsigned int ImmediateTaskBase_1_TypeDefinitionIndex = 52308;
 
 	template <typename TConfig>
 	class ImmediateTaskBase_1 : public ::Class_1_5F51D4049EA87B7B

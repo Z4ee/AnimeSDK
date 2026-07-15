@@ -4,9 +4,9 @@
 
 namespace RPG::GameCore { class BattleLineupData; }
 
-#define CLASS_1_DD365D3DF2F2F979__CTOR_OFFSET UNITYSDK_OFFSET(0xAC342E0)
+#define CLASS_1_DD365D3DF2F2F979__CTOR_OFFSET UNITYSDK_OFFSET(0x14E60C10)
 
-inline static constexpr unsigned int Class_1_DD365D3DF2F2F979_TypeDefinitionIndex = 57007;
+inline static constexpr unsigned int Class_1_DD365D3DF2F2F979_TypeDefinitionIndex = 58254;
 
 class Class_1_DD365D3DF2F2F979 : public ::System::Object
 {

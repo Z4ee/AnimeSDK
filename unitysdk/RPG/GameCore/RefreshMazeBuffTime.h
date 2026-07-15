@@ -6,13 +6,13 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class DynamicFloat; }
 namespace RPG::GameCore { class TargetEvaluator; }
 
-#define RPG_GAMECORE_REFRESHMAZEBUFFTIME_METHOD_3_7612EDDB74E08EE7_OFFSET UNITYSDK_OFFSET(0x19AB9B00)
-#define RPG_GAMECORE_REFRESHMAZEBUFFTIME_METHOD_3_C76A6A1F3AB1C236_OFFSET UNITYSDK_OFFSET(0x19AB9A80)
-#define RPG_GAMECORE_REFRESHMAZEBUFFTIME__CTOR_OFFSET UNITYSDK_OFFSET(0x19AB9AD0)
+#define RPG_GAMECORE_REFRESHMAZEBUFFTIME_METHOD_3_7612EDDB74E08EE7_OFFSET UNITYSDK_OFFSET(0x1B9C0F80)
+#define RPG_GAMECORE_REFRESHMAZEBUFFTIME_METHOD_3_BE78AFA8D4F45D5A_OFFSET UNITYSDK_OFFSET(0x1B9C0F40)
+#define RPG_GAMECORE_REFRESHMAZEBUFFTIME__CTOR_OFFSET UNITYSDK_OFFSET(0x1B9C0F70)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RefreshMazeBuffTime_TypeDefinitionIndex = 19054;
+	inline static constexpr unsigned int RefreshMazeBuffTime_TypeDefinitionIndex = 19407;
 
 	class RefreshMazeBuffTime : public ::RPG::GameCore::TaskConfig
 	{
@@ -26,9 +26,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_REFRESHMAZEBUFFTIME__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_C76A6A1F3AB1C236(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::RefreshMazeBuffTime*& a2)
+		static ::System::Void Method_3_BE78AFA8D4F45D5A(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::RefreshMazeBuffTime*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::RefreshMazeBuffTime*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_REFRESHMAZEBUFFTIME_METHOD_3_C76A6A1F3AB1C236_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::RefreshMazeBuffTime*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_REFRESHMAZEBUFFTIME_METHOD_3_BE78AFA8D4F45D5A_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_7612EDDB74E08EE7(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::RefreshMazeBuffTime* a2)

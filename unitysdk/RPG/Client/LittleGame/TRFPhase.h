@@ -3,7 +3,7 @@
 
 namespace RPG::Client::LittleGame
 {
-	inline static constexpr unsigned int TRFPhase_TypeDefinitionIndex = 39454;
+	inline static constexpr unsigned int TRFPhase_TypeDefinitionIndex = 40263;
 
 	enum class TRFPhase : ::System::Int32
 	{

@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int AdventurePhase_SameMapSwitchPhase_TypeDefinitionIndex = 56198;
+	inline static constexpr unsigned int AdventurePhase_SameMapSwitchPhase_TypeDefinitionIndex = 57437;
 
 	enum class AdventurePhase_SameMapSwitchPhase : ::System::Int32
 	{

@@ -2,20 +2,20 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define SYSTEM_COLLECTIONS_LOWLEVELCOMPARER_COMPARE_OFFSET UNITYSDK_OFFSET(0x185B4250)
-#define SYSTEM_COLLECTIONS_LOWLEVELCOMPARER__CCTOR_OFFSET UNITYSDK_OFFSET(0x185B4450)
-#define SYSTEM_COLLECTIONS_LOWLEVELCOMPARER__CTOR_OFFSET UNITYSDK_OFFSET(0x185B4240)
+#define SYSTEM_COLLECTIONS_LOWLEVELCOMPARER_COMPARE_OFFSET UNITYSDK_OFFSET(0x1AD48C20)
+#define SYSTEM_COLLECTIONS_LOWLEVELCOMPARER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1AD48EE0)
+#define SYSTEM_COLLECTIONS_LOWLEVELCOMPARER__CTOR_OFFSET UNITYSDK_OFFSET(0x1AD48C10)
 
 namespace System::Collections
 {
-	inline static constexpr unsigned int LowLevelComparer_TypeDefinitionIndex = 1446;
+	inline static constexpr unsigned int LowLevelComparer_TypeDefinitionIndex = 1450;
 
 	class LowLevelComparer : public ::System::Object
 	{
 	public:
 		static ::System::Collections::LowLevelComparer** StaticGet_Default()
 		{
-			return (::System::Collections::LowLevelComparer**)Il2CppClass::FromTypeDefinitionIndex(LowLevelComparer_TypeDefinitionIndex)->GetStaticField(0x37B0);
+			return (::System::Collections::LowLevelComparer**)Il2CppClass::FromTypeDefinitionIndex(LowLevelComparer_TypeDefinitionIndex)->GetStaticField(0x3CB0);
 		}
 
 		::System::Void _ctor()

@@ -5,13 +5,13 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_MARBLEBYTRIGGERFEATURE_METHOD_4_5576D8B107C1464B_OFFSET UNITYSDK_OFFSET(0x198CD6B0)
-#define RPG_GAMECORE_MARBLEBYTRIGGERFEATURE_METHOD_4_BC90040FB31B422E_OFFSET UNITYSDK_OFFSET(0x198CD5D0)
-#define RPG_GAMECORE_MARBLEBYTRIGGERFEATURE__CTOR_OFFSET UNITYSDK_OFFSET(0x198CD660)
+#define RPG_GAMECORE_MARBLEBYTRIGGERFEATURE_METHOD_4_5576D8B107C1464B_OFFSET UNITYSDK_OFFSET(0x1BD16940)
+#define RPG_GAMECORE_MARBLEBYTRIGGERFEATURE_METHOD_4_D1053C173B1BCC39_OFFSET UNITYSDK_OFFSET(0x1BD168E0)
+#define RPG_GAMECORE_MARBLEBYTRIGGERFEATURE__CTOR_OFFSET UNITYSDK_OFFSET(0x1BD16930)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MarbleByTriggerFeature_TypeDefinitionIndex = 16024;
+	inline static constexpr unsigned int MarbleByTriggerFeature_TypeDefinitionIndex = 16208;
 
 	class MarbleByTriggerFeature : public ::RPG::GameCore::MarblePredicateConfig
 	{
@@ -23,9 +23,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MARBLEBYTRIGGERFEATURE__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_4_BC90040FB31B422E(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::MarbleByTriggerFeature*& a2)
+		static ::System::Void Method_4_D1053C173B1BCC39(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::MarbleByTriggerFeature*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::MarbleByTriggerFeature*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MARBLEBYTRIGGERFEATURE_METHOD_4_BC90040FB31B422E_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::MarbleByTriggerFeature*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MARBLEBYTRIGGERFEATURE_METHOD_4_D1053C173B1BCC39_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_4_5576D8B107C1464B(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::MarbleByTriggerFeature* a2)

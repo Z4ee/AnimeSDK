@@ -7,7 +7,7 @@ namespace RPG::GameCore { template <typename T> class ConfigDataPool_1; }
 namespace System { class String; }
 template <typename T> class Class_1_7E307543E55D519D___c__DisplayClass23_0_1;
 
-inline static constexpr unsigned int Class_1_7E307543E55D519D___c__DisplayClass23_1_1_TypeDefinitionIndex = 56128;
+inline static constexpr unsigned int Class_1_7E307543E55D519D___c__DisplayClass23_1_1_TypeDefinitionIndex = 57368;
 
 template <typename T>
 class Class_1_7E307543E55D519D___c__DisplayClass23_1_1 : public ::System::Object

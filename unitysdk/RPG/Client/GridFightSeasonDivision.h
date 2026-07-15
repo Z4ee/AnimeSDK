@@ -8,24 +8,24 @@ namespace RPG::Client { class GridFightDivisionLevelReward; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_GRIDFIGHTSEASONDIVISION_GETDISPLAYDIVISIONCONFIGS_OFFSET UNITYSDK_OFFSET(0xBBF1E70)
-#define RPG_CLIENT_GRIDFIGHTSEASONDIVISION_GETPREVDIVISIONID_OFFSET UNITYSDK_OFFSET(0xBBF16F0)
-#define RPG_CLIENT_GRIDFIGHTSEASONDIVISION_HASANYREWARDCANTAKE_OFFSET UNITYSDK_OFFSET(0xBBF17D0)
-#define RPG_CLIENT_GRIDFIGHTSEASONDIVISION_TAKEALLDIVISIONREWARD_OFFSET UNITYSDK_OFFSET(0xBBF1950)
-#define RPG_CLIENT_GRIDFIGHTSEASONDIVISION_TAKEALLEXTRAREWARD_OFFSET UNITYSDK_OFFSET(0xBBF1C30)
-#define RPG_CLIENT_GRIDFIGHTSEASONDIVISION__CTOR_OFFSET UNITYSDK_OFFSET(0xBBF02E0)
-#define RPG_CLIENT_GRIDFIGHTSEASONDIVISION__INITSEASONDIVISIONREWARDS_OFFSET UNITYSDK_OFFSET(0xBBF14A0)
+#define RPG_CLIENT_GRIDFIGHTSEASONDIVISION_GETDISPLAYDIVISIONCONFIGS_OFFSET UNITYSDK_OFFSET(0x1AD66DF0)
+#define RPG_CLIENT_GRIDFIGHTSEASONDIVISION_GETPREVDIVISIONID_OFFSET UNITYSDK_OFFSET(0x1AD66670)
+#define RPG_CLIENT_GRIDFIGHTSEASONDIVISION_HASANYREWARDCANTAKE_OFFSET UNITYSDK_OFFSET(0x1AD66750)
+#define RPG_CLIENT_GRIDFIGHTSEASONDIVISION_TAKEALLDIVISIONREWARD_OFFSET UNITYSDK_OFFSET(0x1AD668D0)
+#define RPG_CLIENT_GRIDFIGHTSEASONDIVISION_TAKEALLEXTRAREWARD_OFFSET UNITYSDK_OFFSET(0x1AD66BB0)
+#define RPG_CLIENT_GRIDFIGHTSEASONDIVISION__CTOR_OFFSET UNITYSDK_OFFSET(0x1AD65210)
+#define RPG_CLIENT_GRIDFIGHTSEASONDIVISION__INITSEASONDIVISIONREWARDS_OFFSET UNITYSDK_OFFSET(0x1AD66420)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GridFightSeasonDivision_TypeDefinitionIndex = 60327;
+	inline static constexpr unsigned int GridFightSeasonDivision_TypeDefinitionIndex = 61617;
 
 	class GridFightSeasonDivision : public ::System::Object
 	{
 	public:
 		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::ValueTuple_2<::System::UInt32, ::System::UInt32>>* LastDivisionIDLUT; // 0x10
-		::System::Collections::Generic::List_1<::RPG::Client::GridFightDivisionLevelReward*>* SeasonDivisionRewards; // 0x18
-		::System::Collections::Generic::List_1<::RPG::Client::GridFightDivisionConfig*>* SeasonDivisionConfigs; // 0x20
+		::System::Collections::Generic::List_1<::RPG::Client::GridFightDivisionConfig*>* SeasonDivisionConfigs; // 0x18
+		::System::Collections::Generic::List_1<::RPG::Client::GridFightDivisionLevelReward*>* SeasonDivisionRewards; // 0x20
 
 		::System::Void _ctor(::System::UInt32 a1)
 		{

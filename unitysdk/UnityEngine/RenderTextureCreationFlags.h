@@ -3,7 +3,7 @@
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int RenderTextureCreationFlags_TypeDefinitionIndex = 4160;
+	inline static constexpr unsigned int RenderTextureCreationFlags_TypeDefinitionIndex = 4165;
 
 	enum class RenderTextureCreationFlags : ::System::Int32
 	{

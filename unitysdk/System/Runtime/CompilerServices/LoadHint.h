@@ -3,7 +3,7 @@
 
 namespace System::Runtime::CompilerServices
 {
-	inline static constexpr unsigned int LoadHint_TypeDefinitionIndex = 1366;
+	inline static constexpr unsigned int LoadHint_TypeDefinitionIndex = 1370;
 
 	enum class LoadHint : ::System::Int32
 	{

@@ -3,7 +3,7 @@
 #include "unitysdk/Class_2_8B39B895BD505A99_DitherProcessType.h"
 #include "unitysdk/System/ValueType.h"
 
-inline static constexpr unsigned int Class_2_8B39B895BD505A99_Struct_2_85063606A63F5E3F_TypeDefinitionIndex = 65085;
+inline static constexpr unsigned int Class_2_8B39B895BD505A99_Struct_2_85063606A63F5E3F_TypeDefinitionIndex = 66490;
 
 struct alignas(4) Class_2_8B39B895BD505A99_Struct_2_85063606A63F5E3F
 {

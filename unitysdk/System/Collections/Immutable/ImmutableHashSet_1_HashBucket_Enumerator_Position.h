@@ -3,7 +3,7 @@
 
 namespace System::Collections::Immutable
 {
-	inline static constexpr unsigned int ImmutableHashSet_1_HashBucket_Enumerator_Position_TypeDefinitionIndex = 6978;
+	inline static constexpr unsigned int ImmutableHashSet_1_HashBucket_Enumerator_Position_TypeDefinitionIndex = 6984;
 
 	enum class ImmutableHashSet_1_HashBucket_Enumerator_Position : ::System::Int32
 	{

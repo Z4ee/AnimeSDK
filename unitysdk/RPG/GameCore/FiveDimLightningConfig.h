@@ -8,13 +8,13 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class LittleGameEvent; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_FIVEDIMLIGHTNINGCONFIG_METHOD_3_46C500FD750FB06A_OFFSET UNITYSDK_OFFSET(0x19745C90)
-#define RPG_GAMECORE_FIVEDIMLIGHTNINGCONFIG_METHOD_3_548BBFD6A8FE9C42_OFFSET UNITYSDK_OFFSET(0x19745D20)
-#define RPG_GAMECORE_FIVEDIMLIGHTNINGCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x19745CF0)
+#define RPG_GAMECORE_FIVEDIMLIGHTNINGCONFIG_METHOD_3_548BBFD6A8FE9C42_OFFSET UNITYSDK_OFFSET(0x1BEA0130)
+#define RPG_GAMECORE_FIVEDIMLIGHTNINGCONFIG_METHOD_3_74E3B9D9FEBE5823_OFFSET UNITYSDK_OFFSET(0x1BEA00D0)
+#define RPG_GAMECORE_FIVEDIMLIGHTNINGCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1BEA0110)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FiveDimLightningConfig_TypeDefinitionIndex = 17694;
+	inline static constexpr unsigned int FiveDimLightningConfig_TypeDefinitionIndex = 17868;
 
 	class FiveDimLightningConfig : public ::RPG::GameCore::LittleGameComponentConfig
 	{
@@ -33,16 +33,16 @@ namespace RPG::GameCore
 		::System::Boolean IsCheckObstruction; // 0x54
 		::RPG::GameCore::LittleGameEvent* AttackPrepareEvent; // 0x58
 		::RPG::GameCore::LittleGameEvent* AttackEvent; // 0x60
-		::System::String* HitEvent; // 0x68
+		::RPG::GameCore::LittleGameEvent* HitPlayerEvent; // 0x68
 
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMLIGHTNINGCONFIG__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_46C500FD750FB06A(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::FiveDimLightningConfig*& a2)
+		static ::System::Void Method_3_74E3B9D9FEBE5823(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::FiveDimLightningConfig*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::FiveDimLightningConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMLIGHTNINGCONFIG_METHOD_3_46C500FD750FB06A_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::FiveDimLightningConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMLIGHTNINGCONFIG_METHOD_3_74E3B9D9FEBE5823_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_548BBFD6A8FE9C42(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::FiveDimLightningConfig* a2)

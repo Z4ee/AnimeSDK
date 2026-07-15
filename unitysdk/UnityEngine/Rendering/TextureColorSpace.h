@@ -3,7 +3,7 @@
 
 namespace UnityEngine::Rendering
 {
-	inline static constexpr unsigned int TextureColorSpace_TypeDefinitionIndex = 33762;
+	inline static constexpr unsigned int TextureColorSpace_TypeDefinitionIndex = 34133;
 
 	enum class TextureColorSpace : ::System::Int32
 	{

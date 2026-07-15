@@ -5,7 +5,7 @@
 
 namespace UnityEngine::Rendering
 {
-	inline static constexpr unsigned int RecordTree_TypeDefinitionIndex = 4812;
+	inline static constexpr unsigned int RecordTree_TypeDefinitionIndex = 4817;
 
 	struct alignas(8) RecordTree
 	{

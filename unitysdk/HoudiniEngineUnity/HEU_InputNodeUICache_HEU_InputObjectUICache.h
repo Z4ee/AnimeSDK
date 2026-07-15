@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define HOUDINIENGINEUNITY_HEU_INPUTNODEUICACHE_HEU_INPUTOBJECTUICACHE__CTOR_OFFSET UNITYSDK_OFFSET(0x17F1CB30)
+#define HOUDINIENGINEUNITY_HEU_INPUTNODEUICACHE_HEU_INPUTOBJECTUICACHE__CTOR_OFFSET UNITYSDK_OFFSET(0x108838F0)
 
 namespace HoudiniEngineUnity
 {
-	inline static constexpr unsigned int HEU_InputNodeUICache_HEU_InputObjectUICache_TypeDefinitionIndex = 37446;
+	inline static constexpr unsigned int HEU_InputNodeUICache_HEU_InputObjectUICache_TypeDefinitionIndex = 38254;
 
 	class HEU_InputNodeUICache_HEU_InputObjectUICache : public ::System::Object
 	{

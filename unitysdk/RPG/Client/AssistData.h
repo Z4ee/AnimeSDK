@@ -6,23 +6,23 @@ namespace Proto { class PlayerAssistInfo; }
 namespace RPG::AvatarSystem { class IAvatar; }
 namespace RPG::Client { class PlayerBriefDisplayData; }
 
-#define RPG_CLIENT_ASSISTDATA_CLONE_OFFSET UNITYSDK_OFFSET(0xB32F5E0)
-#define RPG_CLIENT_ASSISTDATA_CREATE_1_OFFSET UNITYSDK_OFFSET(0xB32F570)
-#define RPG_CLIENT_ASSISTDATA_CREATE_OFFSET UNITYSDK_OFFSET(0xB32F3D0)
-#define RPG_CLIENT_ASSISTDATA_GET_AVATAR_OFFSET UNITYSDK_OFFSET(0xB32F3B0)
-#define RPG_CLIENT_ASSISTDATA_SET_AVATAR_OFFSET UNITYSDK_OFFSET(0xB32F3C0)
-#define RPG_CLIENT_ASSISTDATA_SYNCDATA_OFFSET UNITYSDK_OFFSET(0xB32F450)
-#define RPG_CLIENT_ASSISTDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xB32F440)
+#define RPG_CLIENT_ASSISTDATA_CLONE_OFFSET UNITYSDK_OFFSET(0x19B34500)
+#define RPG_CLIENT_ASSISTDATA_CREATE_1_OFFSET UNITYSDK_OFFSET(0x19B34490)
+#define RPG_CLIENT_ASSISTDATA_CREATE_OFFSET UNITYSDK_OFFSET(0x19B342F0)
+#define RPG_CLIENT_ASSISTDATA_GET_AVATAR_OFFSET UNITYSDK_OFFSET(0x19B342D0)
+#define RPG_CLIENT_ASSISTDATA_SET_AVATAR_OFFSET UNITYSDK_OFFSET(0x19B342E0)
+#define RPG_CLIENT_ASSISTDATA_SYNCDATA_OFFSET UNITYSDK_OFFSET(0x19B34370)
+#define RPG_CLIENT_ASSISTDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x19B34360)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int AssistData_TypeDefinitionIndex = 60050;
+	inline static constexpr unsigned int AssistData_TypeDefinitionIndex = 61335;
 
 	class AssistData : public ::System::Object
 	{
 	public:
-		::RPG::Client::PlayerBriefDisplayData* PlayerDisplayData; // 0x10
-		::RPG::AvatarSystem::IAvatar* _Avatar_k__BackingField; // 0x18
+		::RPG::AvatarSystem::IAvatar* _Avatar_k__BackingField; // 0x10
+		::RPG::Client::PlayerBriefDisplayData* PlayerDisplayData; // 0x18
 
 		::System::Void _ctor()
 		{

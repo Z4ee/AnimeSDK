@@ -6,10 +6,10 @@
 namespace RPG::GameCore { class SetDynamicValueByHitSplitRatio; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_AC87F295EEFD6C71_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xABE47D0)
-#define CLASS_3_AC87F295EEFD6C71__CTOR_OFFSET UNITYSDK_OFFSET(0xABE46F0)
+#define CLASS_3_AC87F295EEFD6C71_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x14CE16F0)
+#define CLASS_3_AC87F295EEFD6C71__CTOR_OFFSET UNITYSDK_OFFSET(0x14CE1610)
 
-inline static constexpr unsigned int Class_3_AC87F295EEFD6C71_TypeDefinitionIndex = 51790;
+inline static constexpr unsigned int Class_3_AC87F295EEFD6C71_TypeDefinitionIndex = 52937;
 
 class Class_3_AC87F295EEFD6C71 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::SetDynamicValueByHitSplitRatio*>
 {

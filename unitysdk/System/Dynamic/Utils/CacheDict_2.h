@@ -6,7 +6,7 @@ namespace System::Dynamic::Utils { template <typename T1, typename T2> class Cac
 
 namespace System::Dynamic::Utils
 {
-	inline static constexpr unsigned int CacheDict_2_TypeDefinitionIndex = 3670;
+	inline static constexpr unsigned int CacheDict_2_TypeDefinitionIndex = 3674;
 
 	template <typename TKey, typename TValue>
 	class CacheDict_2 : public ::System::Object

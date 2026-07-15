@@ -6,15 +6,15 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace SimpleJSON { class JSONNode; }
 
-#define RPG_GAMECORE_BYCOMPARECHALLENGEGROUPTYPE_METHOD_4_38221E01C628D9CC_OFFSET UNITYSDK_OFFSET(0x19506F00)
-#define RPG_GAMECORE_BYCOMPARECHALLENGEGROUPTYPE_METHOD_4_47C6761A088A00DC_OFFSET UNITYSDK_OFFSET(0x19507100)
-#define RPG_GAMECORE_BYCOMPARECHALLENGEGROUPTYPE_METHOD_4_8FDB4C220D730E71_OFFSET UNITYSDK_OFFSET(0x19507080)
-#define RPG_GAMECORE_BYCOMPARECHALLENGEGROUPTYPE_METHOD_4_F130E1E1F27B0282_OFFSET UNITYSDK_OFFSET(0x19506E30)
-#define RPG_GAMECORE_BYCOMPARECHALLENGEGROUPTYPE__CTOR_OFFSET UNITYSDK_OFFSET(0x19506EB0)
+#define RPG_GAMECORE_BYCOMPARECHALLENGEGROUPTYPE_METHOD_4_38221E01C628D9CC_OFFSET UNITYSDK_OFFSET(0x19CD4100)
+#define RPG_GAMECORE_BYCOMPARECHALLENGEGROUPTYPE_METHOD_4_55ED2202904DD76C_OFFSET UNITYSDK_OFFSET(0x19CD4280)
+#define RPG_GAMECORE_BYCOMPARECHALLENGEGROUPTYPE_METHOD_4_D878489FB99FEF49_OFFSET UNITYSDK_OFFSET(0x19CD40C0)
+#define RPG_GAMECORE_BYCOMPARECHALLENGEGROUPTYPE_METHOD_4_EE43F4AC450312C3_OFFSET UNITYSDK_OFFSET(0x19CD42B0)
+#define RPG_GAMECORE_BYCOMPARECHALLENGEGROUPTYPE__CTOR_OFFSET UNITYSDK_OFFSET(0x19CD40F0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ByCompareChallengeGroupType_TypeDefinitionIndex = 22164;
+	inline static constexpr unsigned int ByCompareChallengeGroupType_TypeDefinitionIndex = 22601;
 
 	class ByCompareChallengeGroupType : public ::RPG::GameCore::PredicateConfig
 	{
@@ -26,9 +26,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYCOMPARECHALLENGEGROUPTYPE__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_4_F130E1E1F27B0282(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ByCompareChallengeGroupType*& a2)
+		static ::System::Void Method_4_D878489FB99FEF49(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ByCompareChallengeGroupType*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ByCompareChallengeGroupType*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYCOMPARECHALLENGEGROUPTYPE_METHOD_4_F130E1E1F27B0282_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ByCompareChallengeGroupType*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYCOMPARECHALLENGEGROUPTYPE_METHOD_4_D878489FB99FEF49_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_4_38221E01C628D9CC(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ByCompareChallengeGroupType* a2)
@@ -36,14 +36,14 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ByCompareChallengeGroupType*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYCOMPARECHALLENGEGROUPTYPE_METHOD_4_38221E01C628D9CC_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_4_8FDB4C220D730E71(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::ByCompareChallengeGroupType*& a2)
+		static ::System::Void Method_4_55ED2202904DD76C(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::ByCompareChallengeGroupType*& a2)
 		{
-			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::ByCompareChallengeGroupType*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYCOMPARECHALLENGEGROUPTYPE_METHOD_4_8FDB4C220D730E71_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::ByCompareChallengeGroupType*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYCOMPARECHALLENGEGROUPTYPE_METHOD_4_55ED2202904DD76C_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_4_47C6761A088A00DC(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::ByCompareChallengeGroupType* a2)
+		static ::System::Void Method_4_EE43F4AC450312C3(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::ByCompareChallengeGroupType* a2)
 		{
-			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::ByCompareChallengeGroupType*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYCOMPARECHALLENGEGROUPTYPE_METHOD_4_47C6761A088A00DC_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::ByCompareChallengeGroupType*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYCOMPARECHALLENGEGROUPTYPE_METHOD_4_EE43F4AC450312C3_OFFSET))(a1, a2);
 		}
 	};
 }

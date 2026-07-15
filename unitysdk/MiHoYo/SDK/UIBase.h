@@ -4,13 +4,13 @@
 
 namespace UnityEngine { class GameObject; }
 
-#define MIHOYO_SDK_UIBASE_DESTROY_OFFSET UNITYSDK_OFFSET(0x18457950)
-#define MIHOYO_SDK_UIBASE_SETACTIVE_OFFSET UNITYSDK_OFFSET(0x18457920)
-#define MIHOYO_SDK_UIBASE__CTOR_OFFSET UNITYSDK_OFFSET(0x18457970)
+#define MIHOYO_SDK_UIBASE_DESTROY_OFFSET UNITYSDK_OFFSET(0x1B6C3490)
+#define MIHOYO_SDK_UIBASE_SETACTIVE_OFFSET UNITYSDK_OFFSET(0x1B6C3460)
+#define MIHOYO_SDK_UIBASE__CTOR_OFFSET UNITYSDK_OFFSET(0x1B6C34B0)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int UIBase_TypeDefinitionIndex = 8167;
+	inline static constexpr unsigned int UIBase_TypeDefinitionIndex = 8178;
 
 	class UIBase : public ::UnityEngine::MonoBehaviour
 	{

@@ -2,23 +2,23 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_1_0319A031DCA9B495_11;
-class Class_1_1A51EE17E877E477;
+class Class_1_0319A031DCA9B495_12;
+class Class_1_04B49712BAFF7721;
 class Class_1_905995C4C61F81F7_7;
 namespace Google::Protobuf::Collections { template <typename T> class RepeatedField_1; }
 namespace RPG::Client { class ElfCellGetItemData; }
 namespace RPG::Client { class ItemDisplayData; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_ELFFARMITEMHINTDATA_CREATE_1_OFFSET UNITYSDK_OFFSET(0xB8B6EE0)
-#define RPG_CLIENT_ELFFARMITEMHINTDATA_CREATE_2_OFFSET UNITYSDK_OFFSET(0xB8B7280)
-#define RPG_CLIENT_ELFFARMITEMHINTDATA_CREATE_OFFSET UNITYSDK_OFFSET(0xB8B62F0)
-#define RPG_CLIENT_ELFFARMITEMHINTDATA_GET_MERGEDRESULT_OFFSET UNITYSDK_OFFSET(0xB8B7620)
-#define RPG_CLIENT_ELFFARMITEMHINTDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xB8B6E90)
+#define RPG_CLIENT_ELFFARMITEMHINTDATA_CREATE_1_OFFSET UNITYSDK_OFFSET(0x18E2C920)
+#define RPG_CLIENT_ELFFARMITEMHINTDATA_CREATE_2_OFFSET UNITYSDK_OFFSET(0x18E2CE00)
+#define RPG_CLIENT_ELFFARMITEMHINTDATA_CREATE_OFFSET UNITYSDK_OFFSET(0x18E2B960)
+#define RPG_CLIENT_ELFFARMITEMHINTDATA_GET_MERGEDRESULT_OFFSET UNITYSDK_OFFSET(0x18E2D2E0)
+#define RPG_CLIENT_ELFFARMITEMHINTDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x18E2C8D0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ElfFarmItemHintData_TypeDefinitionIndex = 59606;
+	inline static constexpr unsigned int ElfFarmItemHintData_TypeDefinitionIndex = 60891;
 
 	class ElfFarmItemHintData : public ::System::Object
 	{
@@ -31,9 +31,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ELFFARMITEMHINTDATA__CTOR_OFFSET))(this);
 		}
 
-		static ::RPG::Client::ElfFarmItemHintData* Create(::Google::Protobuf::Collections::RepeatedField_1<::Class_1_1A51EE17E877E477*>* a1)
+		static ::RPG::Client::ElfFarmItemHintData* Create(::Google::Protobuf::Collections::RepeatedField_1<::Class_1_04B49712BAFF7721*>* a1)
 		{
-			return ((::RPG::Client::ElfFarmItemHintData*(*)(::Google::Protobuf::Collections::RepeatedField_1<::Class_1_1A51EE17E877E477*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ELFFARMITEMHINTDATA_CREATE_OFFSET))(a1);
+			return ((::RPG::Client::ElfFarmItemHintData*(*)(::Google::Protobuf::Collections::RepeatedField_1<::Class_1_04B49712BAFF7721*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ELFFARMITEMHINTDATA_CREATE_OFFSET))(a1);
 		}
 
 		static ::RPG::Client::ElfFarmItemHintData* Create_1(::Google::Protobuf::Collections::RepeatedField_1<::Class_1_905995C4C61F81F7_7*>* a1)
@@ -41,9 +41,9 @@ namespace RPG::Client
 			return ((::RPG::Client::ElfFarmItemHintData*(*)(::Google::Protobuf::Collections::RepeatedField_1<::Class_1_905995C4C61F81F7_7*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ELFFARMITEMHINTDATA_CREATE_1_OFFSET))(a1);
 		}
 
-		static ::RPG::Client::ElfFarmItemHintData* Create_2(::Google::Protobuf::Collections::RepeatedField_1<::Class_1_0319A031DCA9B495_11*>* a1)
+		static ::RPG::Client::ElfFarmItemHintData* Create_2(::Google::Protobuf::Collections::RepeatedField_1<::Class_1_0319A031DCA9B495_12*>* a1)
 		{
-			return ((::RPG::Client::ElfFarmItemHintData*(*)(::Google::Protobuf::Collections::RepeatedField_1<::Class_1_0319A031DCA9B495_11*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ELFFARMITEMHINTDATA_CREATE_2_OFFSET))(a1);
+			return ((::RPG::Client::ElfFarmItemHintData*(*)(::Google::Protobuf::Collections::RepeatedField_1<::Class_1_0319A031DCA9B495_12*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ELFFARMITEMHINTDATA_CREATE_2_OFFSET))(a1);
 		}
 
 		::System::Collections::Generic::List_1<::RPG::Client::ItemDisplayData*>* get_MergedResult()

@@ -4,7 +4,7 @@
 
 namespace HoudiniEngineUnity
 {
-	inline static constexpr unsigned int HAPI_ParmChoiceInfo_TypeDefinitionIndex = 37536;
+	inline static constexpr unsigned int HAPI_ParmChoiceInfo_TypeDefinitionIndex = 38344;
 
 	struct alignas(4) HAPI_ParmChoiceInfo
 	{

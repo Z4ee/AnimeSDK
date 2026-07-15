@@ -5,7 +5,7 @@ namespace Entitas { template <typename T> class IMatcher_1; }
 
 namespace RPG::Client::LittleGame
 {
-	inline static constexpr unsigned int IEventCenterContext_1_TypeDefinitionIndex = 38982;
+	inline static constexpr unsigned int IEventCenterContext_1_TypeDefinitionIndex = 39791;
 
 	template <typename TEntity>
 	class IEventCenterContext_1

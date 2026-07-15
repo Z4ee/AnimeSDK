@@ -3,7 +3,7 @@
 
 namespace UnityEngine::GCFreeClosure
 {
-	inline static constexpr unsigned int SValue_Type_TypeDefinitionIndex = 4448;
+	inline static constexpr unsigned int SValue_Type_TypeDefinitionIndex = 4453;
 
 	enum class SValue_Type : ::System::Int32
 	{

@@ -1,18 +1,18 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/RPG/Client/AudienceGroupInstance_Class_1_9A90CD018E72DF20_8.h"
+#include "unitysdk/RPG/Client/AudienceGroupInstance_Class_1_9A90CD018E72DF20_12.h"
 
 namespace RPG::Client { class AudienceLayoutConfig; }
 namespace RPG::GameCore { class LevelCurveInstance; }
 
-#define RPG_CLIENT_AUDIENCEGROUPINSTANCE_CLASS_2_BF64CE6D23787515_METHOD_2_2AD1F749AB39833A_OFFSET UNITYSDK_OFFSET(0xB3415A0)
-#define RPG_CLIENT_AUDIENCEGROUPINSTANCE_CLASS_2_BF64CE6D23787515__CTOR_OFFSET UNITYSDK_OFFSET(0xB341580)
+#define RPG_CLIENT_AUDIENCEGROUPINSTANCE_CLASS_2_BF64CE6D23787515_METHOD_2_2AD1F749AB39833A_OFFSET UNITYSDK_OFFSET(0x19B45DF0)
+#define RPG_CLIENT_AUDIENCEGROUPINSTANCE_CLASS_2_BF64CE6D23787515__CTOR_OFFSET UNITYSDK_OFFSET(0x19B45DD0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int AudienceGroupInstance_Class_2_BF64CE6D23787515_TypeDefinitionIndex = 64669;
+	inline static constexpr unsigned int AudienceGroupInstance_Class_2_BF64CE6D23787515_TypeDefinitionIndex = 66070;
 
-	class AudienceGroupInstance_Class_2_BF64CE6D23787515 : public ::RPG::Client::AudienceGroupInstance_Class_1_9A90CD018E72DF20_8
+	class AudienceGroupInstance_Class_2_BF64CE6D23787515 : public ::RPG::Client::AudienceGroupInstance_Class_1_9A90CD018E72DF20_12
 	{
 	public:
 		::RPG::Client::AudienceLayoutConfig* Field_2_0; // 0x10

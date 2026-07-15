@@ -5,13 +5,13 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_RELEASECACHEUI_METHOD_3_0620D24DC89C5991_OFFSET UNITYSDK_OFFSET(0x19ABACA0)
-#define RPG_GAMECORE_RELEASECACHEUI_METHOD_3_AF7F0737FE10A838_OFFSET UNITYSDK_OFFSET(0x19ABAC20)
-#define RPG_GAMECORE_RELEASECACHEUI__CTOR_OFFSET UNITYSDK_OFFSET(0x19ABAC70)
+#define RPG_GAMECORE_RELEASECACHEUI_METHOD_3_0620D24DC89C5991_OFFSET UNITYSDK_OFFSET(0x1B9C1F00)
+#define RPG_GAMECORE_RELEASECACHEUI_METHOD_3_848EF7FE9B5E4A6A_OFFSET UNITYSDK_OFFSET(0x1B9C1EC0)
+#define RPG_GAMECORE_RELEASECACHEUI__CTOR_OFFSET UNITYSDK_OFFSET(0x1B9C1EF0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ReleaseCacheUI_TypeDefinitionIndex = 20486;
+	inline static constexpr unsigned int ReleaseCacheUI_TypeDefinitionIndex = 20901;
 
 	class ReleaseCacheUI : public ::RPG::GameCore::TaskConfig
 	{
@@ -23,9 +23,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_RELEASECACHEUI__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_AF7F0737FE10A838(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ReleaseCacheUI*& a2)
+		static ::System::Void Method_3_848EF7FE9B5E4A6A(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ReleaseCacheUI*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ReleaseCacheUI*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_RELEASECACHEUI_METHOD_3_AF7F0737FE10A838_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ReleaseCacheUI*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_RELEASECACHEUI_METHOD_3_848EF7FE9B5E4A6A_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_0620D24DC89C5991(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ReleaseCacheUI* a2)

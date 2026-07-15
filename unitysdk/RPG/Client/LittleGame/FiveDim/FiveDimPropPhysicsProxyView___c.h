@@ -6,24 +6,24 @@ namespace RPG::Client::LittleGame::FiveDim { class FiveDimPropPhysicsProxyView; 
 namespace System { template <typename T1, typename T2, typename T3> class Action_3; }
 namespace UnityEngine { class Collider; }
 
-#define RPG_CLIENT_LITTLEGAME_FIVEDIM_FIVEDIMPROPPHYSICSPROXYVIEW___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xBE0B470)
-#define RPG_CLIENT_LITTLEGAME_FIVEDIM_FIVEDIMPROPPHYSICSPROXYVIEW___C__CTOR_OFFSET UNITYSDK_OFFSET(0xBE0B4B0)
-#define RPG_CLIENT_LITTLEGAME_FIVEDIM_FIVEDIMPROPPHYSICSPROXYVIEW___C___GUESTCOLLIDERENABLECLOSURE_B__16_0_OFFSET UNITYSDK_OFFSET(0xBE0B4C0)
+#define RPG_CLIENT_LITTLEGAME_FIVEDIM_FIVEDIMPROPPHYSICSPROXYVIEW___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x18A00550)
+#define RPG_CLIENT_LITTLEGAME_FIVEDIM_FIVEDIMPROPPHYSICSPROXYVIEW___C__CTOR_OFFSET UNITYSDK_OFFSET(0x18A00580)
+#define RPG_CLIENT_LITTLEGAME_FIVEDIM_FIVEDIMPROPPHYSICSPROXYVIEW___C___GUESTCOLLIDERENABLECLOSURE_B__16_0_OFFSET UNITYSDK_OFFSET(0x18A00590)
 
 namespace RPG::Client::LittleGame::FiveDim
 {
-	inline static constexpr unsigned int FiveDimPropPhysicsProxyView___c_TypeDefinitionIndex = 71734;
+	inline static constexpr unsigned int FiveDimPropPhysicsProxyView___c_TypeDefinitionIndex = 73259;
 
 	class FiveDimPropPhysicsProxyView___c : public ::System::Object
 	{
 	public:
-		static ::RPG::Client::LittleGame::FiveDim::FiveDimPropPhysicsProxyView___c** StaticGet___9()
-		{
-			return (::RPG::Client::LittleGame::FiveDim::FiveDimPropPhysicsProxyView___c**)Il2CppClass::FromTypeDefinitionIndex(FiveDimPropPhysicsProxyView___c_TypeDefinitionIndex)->GetStaticField(0x4C850);
-		}
 		static ::System::Action_3<::RPG::Client::LittleGame::FiveDim::FiveDimPropPhysicsProxyView*, ::UnityEngine::Collider*, ::System::Boolean>** StaticGet___9__16_0()
 		{
-			return (::System::Action_3<::RPG::Client::LittleGame::FiveDim::FiveDimPropPhysicsProxyView*, ::UnityEngine::Collider*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(FiveDimPropPhysicsProxyView___c_TypeDefinitionIndex)->GetStaticField(0x4C858);
+			return (::System::Action_3<::RPG::Client::LittleGame::FiveDim::FiveDimPropPhysicsProxyView*, ::UnityEngine::Collider*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(FiveDimPropPhysicsProxyView___c_TypeDefinitionIndex)->GetStaticField(0x3B680);
+		}
+		static ::RPG::Client::LittleGame::FiveDim::FiveDimPropPhysicsProxyView___c** StaticGet___9()
+		{
+			return (::RPG::Client::LittleGame::FiveDim::FiveDimPropPhysicsProxyView___c**)Il2CppClass::FromTypeDefinitionIndex(FiveDimPropPhysicsProxyView___c_TypeDefinitionIndex)->GetStaticField(0x3B688);
 		}
 
 		static ::System::Void _cctor()

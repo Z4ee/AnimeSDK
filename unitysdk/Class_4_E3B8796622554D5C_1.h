@@ -1,0 +1,63 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/Class_3_3F1B1DE9D9F51912.h"
+
+class Class_1_A043D803AC652E6E;
+namespace UnityEngine { class Transform; }
+
+#define CLASS_4_E3B8796622554D5C_1_CLONE_OFFSET UNITYSDK_OFFSET(0x17984A20)
+#define CLASS_4_E3B8796622554D5C_1_ISDONE_OFFSET UNITYSDK_OFFSET(0x179849E0)
+#define CLASS_4_E3B8796622554D5C_1_METHOD_4_2913AB1298342F09_OFFSET UNITYSDK_OFFSET(0x17984410)
+#define CLASS_4_E3B8796622554D5C_1_METHOD_4_F4EA372CC05D4104_OFFSET UNITYSDK_OFFSET(0x179842E0)
+#define CLASS_4_E3B8796622554D5C_1_REVERSE_OFFSET UNITYSDK_OFFSET(0x17984B40)
+#define CLASS_4_E3B8796622554D5C_1_STARTWITHTARGET_OFFSET UNITYSDK_OFFSET(0x179844A0)
+#define CLASS_4_E3B8796622554D5C_1_STEP_OFFSET UNITYSDK_OFFSET(0x17984590)
+#define CLASS_4_E3B8796622554D5C_1__CTOR_OFFSET UNITYSDK_OFFSET(0x179843F0)
+
+inline static constexpr unsigned int Class_4_E3B8796622554D5C_1_TypeDefinitionIndex = 70116;
+
+class Class_4_E3B8796622554D5C_1 : public ::Class_3_3F1B1DE9D9F51912
+{
+public:
+	::Class_3_3F1B1DE9D9F51912* Field_4_0; // 0x38
+
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_4_E3B8796622554D5C_1__CTOR_OFFSET))(this);
+	}
+
+	static ::Class_4_E3B8796622554D5C_1* Method_4_F4EA372CC05D4104(::Class_3_3F1B1DE9D9F51912* a1)
+	{
+		return ((::Class_4_E3B8796622554D5C_1*(*)(::Class_3_3F1B1DE9D9F51912*))((::PBYTE)hIl2Cpp + CLASS_4_E3B8796622554D5C_1_METHOD_4_F4EA372CC05D4104_OFFSET))(a1);
+	}
+
+	::System::Boolean Method_4_2913AB1298342F09(::Class_3_3F1B1DE9D9F51912* a1)
+	{
+		return ((::System::Boolean(*)(::PVOID, ::Class_3_3F1B1DE9D9F51912*))((::PBYTE)hIl2Cpp + CLASS_4_E3B8796622554D5C_1_METHOD_4_2913AB1298342F09_OFFSET))(this, a1);
+	}
+
+	::System::Void StartWithTarget(::UnityEngine::Transform* a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::UnityEngine::Transform*))((::PBYTE)hIl2Cpp + CLASS_4_E3B8796622554D5C_1_STARTWITHTARGET_OFFSET))(this, a1);
+	}
+
+	::System::Void Step(::System::Single a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + CLASS_4_E3B8796622554D5C_1_STEP_OFFSET))(this, a1);
+	}
+
+	::System::Boolean IsDone()
+	{
+		return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_4_E3B8796622554D5C_1_ISDONE_OFFSET))(this);
+	}
+
+	::Class_1_A043D803AC652E6E* Clone()
+	{
+		return ((::Class_1_A043D803AC652E6E*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_4_E3B8796622554D5C_1_CLONE_OFFSET))(this);
+	}
+
+	::Class_1_A043D803AC652E6E* Reverse()
+	{
+		return ((::Class_1_A043D803AC652E6E*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_4_E3B8796622554D5C_1_REVERSE_OFFSET))(this);
+	}
+};

@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SpecialSkillButtonGroupType_TypeDefinitionIndex = 15728;
+	inline static constexpr unsigned int SpecialSkillButtonGroupType_TypeDefinitionIndex = 15902;
 
 	enum class SpecialSkillButtonGroupType : ::System::Int32
 	{
@@ -12,5 +12,6 @@ namespace RPG::GameCore
 		GodPhainon = 2,
 		GodCyrene = 3,
 		Sparxie = 4,
+		HimekoNova = 5,
 	};
 }

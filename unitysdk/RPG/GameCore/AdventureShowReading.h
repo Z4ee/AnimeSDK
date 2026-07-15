@@ -5,13 +5,13 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class DynamicFloat; }
 
-#define RPG_GAMECORE_ADVENTURESHOWREADING_METHOD_3_9DEEDA39FF9C3752_OFFSET UNITYSDK_OFFSET(0x19453A20)
-#define RPG_GAMECORE_ADVENTURESHOWREADING_METHOD_3_A12DB97ABDD7F003_OFFSET UNITYSDK_OFFSET(0x194539A0)
-#define RPG_GAMECORE_ADVENTURESHOWREADING__CTOR_OFFSET UNITYSDK_OFFSET(0x194539F0)
+#define RPG_GAMECORE_ADVENTURESHOWREADING_METHOD_3_9DEEDA39FF9C3752_OFFSET UNITYSDK_OFFSET(0x1AE62330)
+#define RPG_GAMECORE_ADVENTURESHOWREADING_METHOD_3_A0AFDBD98A1DC40B_OFFSET UNITYSDK_OFFSET(0x1AE622E0)
+#define RPG_GAMECORE_ADVENTURESHOWREADING__CTOR_OFFSET UNITYSDK_OFFSET(0x1AE62320)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AdventureShowReading_TypeDefinitionIndex = 19746;
+	inline static constexpr unsigned int AdventureShowReading_TypeDefinitionIndex = 20106;
 
 	class AdventureShowReading : public ::RPG::GameCore::TaskConfig
 	{
@@ -24,9 +24,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVENTURESHOWREADING__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_A12DB97ABDD7F003(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AdventureShowReading*& a2)
+		static ::System::Void Method_3_A0AFDBD98A1DC40B(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AdventureShowReading*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::AdventureShowReading*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVENTURESHOWREADING_METHOD_3_A12DB97ABDD7F003_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::AdventureShowReading*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVENTURESHOWREADING_METHOD_3_A0AFDBD98A1DC40B_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_9DEEDA39FF9C3752(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AdventureShowReading* a2)

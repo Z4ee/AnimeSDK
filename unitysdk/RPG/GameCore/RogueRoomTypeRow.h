@@ -6,24 +6,24 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_ROGUEROOMTYPEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x19BBAE90)
-#define RPG_GAMECORE_ROGUEROOMTYPEROW__CTOR_OFFSET UNITYSDK_OFFSET(0x19BBB740)
+#define RPG_GAMECORE_ROGUEROOMTYPEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1BB68FB0)
+#define RPG_GAMECORE_ROGUEROOMTYPEROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1BB69860)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RogueRoomTypeRow_TypeDefinitionIndex = 13982;
+	inline static constexpr unsigned int RogueRoomTypeRow_TypeDefinitionIndex = 14130;
 
 	class RogueRoomTypeRow : public ::System::Object
 	{
 	public:
 		::System::String* RoomIconEffect; // 0x10
 		::System::String* RogueRoomTypeIcon; // 0x18
-		::System::Boolean IsSuper; // 0x20
-		::System::Boolean MapShowType; // 0x21
-		::System::UInt32 RogueRoomType; // 0x24
-		::RPG::Client::TextID RoomTypeDescTextmapID; // 0x28
-		::RPG::Client::TextID RoomTypeDescTextmapID2; // 0x38
-		::RPG::Client::TextID RogueRoomTypeTextmapID; // 0x48
+		::RPG::Client::TextID RoomTypeDescTextmapID; // 0x20
+		::RPG::Client::TextID RogueRoomTypeTextmapID; // 0x30
+		::System::Boolean IsSuper; // 0x40
+		::System::Boolean MapShowType; // 0x41
+		::System::UInt32 RogueRoomType; // 0x44
+		::RPG::Client::TextID RoomTypeDescTextmapID2; // 0x48
 
 		::System::Void _ctor()
 		{

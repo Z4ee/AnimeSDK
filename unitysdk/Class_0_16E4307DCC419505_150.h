@@ -1,11 +1,10 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-class Class_1_5F08A88160B0E2D6;
-class Class_1_6BB5DBAA1BCBF32D;
-namespace RPG::GameCore { class FiveDimEntityVarConfig; }
+class Class_0_16E4307DCC419505_151;
+class Class_1_7E9DD9C420D52D84;
 
-inline static constexpr unsigned int Class_0_16E4307DCC419505_150_TypeDefinitionIndex = 38901;
+inline static constexpr unsigned int Class_0_16E4307DCC419505_150_TypeDefinitionIndex = 39689;
 
 class Class_0_16E4307DCC419505_150
 {

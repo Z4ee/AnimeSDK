@@ -5,12 +5,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore::Booklet { class SpreadConfig; }
 
-#define RPG_GAMECORE_BOOKLET_SECTIONCONFIG_METHOD_2_663E6BC9252EA2C3_OFFSET UNITYSDK_OFFSET(0x194E4230)
-#define RPG_GAMECORE_BOOKLET_SECTIONCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x194E4380)
+#define RPG_GAMECORE_BOOKLET_SECTIONCONFIG_METHOD_2_663E6BC9252EA2C3_OFFSET UNITYSDK_OFFSET(0x1A404DB0)
+#define RPG_GAMECORE_BOOKLET_SECTIONCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1A404F00)
 
 namespace RPG::GameCore::Booklet
 {
-	inline static constexpr unsigned int SectionConfig_TypeDefinitionIndex = 23599;
+	inline static constexpr unsigned int SectionConfig_TypeDefinitionIndex = 24090;
 
 	class SectionConfig : public ::RPG::GameCore::JsonConfig
 	{

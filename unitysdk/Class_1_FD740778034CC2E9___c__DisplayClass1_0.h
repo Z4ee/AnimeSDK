@@ -6,10 +6,10 @@ class Class_1_FD740778034CC2E9;
 namespace RPG::Client { class EquipmentItemData; }
 namespace System { class String; }
 
-#define CLASS_1_FD740778034CC2E9___C__DISPLAYCLASS1_0__CREATEITEM_B__0_OFFSET UNITYSDK_OFFSET(0xAFC4CC0)
-#define CLASS_1_FD740778034CC2E9___C__DISPLAYCLASS1_0__CTOR_OFFSET UNITYSDK_OFFSET(0xAFC4CA0)
+#define CLASS_1_FD740778034CC2E9___C__DISPLAYCLASS1_0__CREATEITEM_B__0_OFFSET UNITYSDK_OFFSET(0x14290100)
+#define CLASS_1_FD740778034CC2E9___C__DISPLAYCLASS1_0__CTOR_OFFSET UNITYSDK_OFFSET(0x142900E0)
 
-inline static constexpr unsigned int Class_1_FD740778034CC2E9___c__DisplayClass1_0_TypeDefinitionIndex = 61304;
+inline static constexpr unsigned int Class_1_FD740778034CC2E9___c__DisplayClass1_0_TypeDefinitionIndex = 62646;
 
 class Class_1_FD740778034CC2E9___c__DisplayClass1_0 : public ::System::Object
 {

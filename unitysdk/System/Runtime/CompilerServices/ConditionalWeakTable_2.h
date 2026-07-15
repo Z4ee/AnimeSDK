@@ -7,7 +7,7 @@ namespace System::Runtime::CompilerServices { template <typename T1, typename T2
 
 namespace System::Runtime::CompilerServices
 {
-	inline static constexpr unsigned int ConditionalWeakTable_2_TypeDefinitionIndex = 1388;
+	inline static constexpr unsigned int ConditionalWeakTable_2_TypeDefinitionIndex = 1392;
 
 	template <typename TKey, typename TValue>
 	class ConditionalWeakTable_2 : public ::System::Object

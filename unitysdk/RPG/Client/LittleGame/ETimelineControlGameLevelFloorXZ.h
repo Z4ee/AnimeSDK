@@ -3,7 +3,7 @@
 
 namespace RPG::Client::LittleGame
 {
-	inline static constexpr unsigned int ETimelineControlGameLevelFloorXZ_TypeDefinitionIndex = 39531;
+	inline static constexpr unsigned int ETimelineControlGameLevelFloorXZ_TypeDefinitionIndex = 40340;
 
 	enum class ETimelineControlGameLevelFloorXZ : ::System::Int32
 	{

@@ -3,7 +3,7 @@
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int ParticleSystemCollisionMode_TypeDefinitionIndex = 5768;
+	inline static constexpr unsigned int ParticleSystemCollisionMode_TypeDefinitionIndex = 5773;
 
 	enum class ParticleSystemCollisionMode : ::System::Int32
 	{

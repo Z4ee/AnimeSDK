@@ -6,13 +6,13 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class DynamicString; }
 namespace RPG::GameCore { class TargetEvaluator; }
 
-#define RPG_GAMECORE_SETNAVMESHSTATE_METHOD_3_3258037F0DBBC9CB_OFFSET UNITYSDK_OFFSET(0x19C59FB0)
-#define RPG_GAMECORE_SETNAVMESHSTATE_METHOD_3_7B920410862438EF_OFFSET UNITYSDK_OFFSET(0x19C5A030)
-#define RPG_GAMECORE_SETNAVMESHSTATE__CTOR_OFFSET UNITYSDK_OFFSET(0x19C5A000)
+#define RPG_GAMECORE_SETNAVMESHSTATE_METHOD_3_7B920410862438EF_OFFSET UNITYSDK_OFFSET(0x1C6042E0)
+#define RPG_GAMECORE_SETNAVMESHSTATE_METHOD_3_A29C5F37C9C9B3B8_OFFSET UNITYSDK_OFFSET(0x1C6042A0)
+#define RPG_GAMECORE_SETNAVMESHSTATE__CTOR_OFFSET UNITYSDK_OFFSET(0x1C6042D0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SetNavMeshState_TypeDefinitionIndex = 21006;
+	inline static constexpr unsigned int SetNavMeshState_TypeDefinitionIndex = 21421;
 
 	class SetNavMeshState : public ::RPG::GameCore::TaskConfig
 	{
@@ -25,9 +25,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETNAVMESHSTATE__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_3258037F0DBBC9CB(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SetNavMeshState*& a2)
+		static ::System::Void Method_3_A29C5F37C9C9B3B8(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SetNavMeshState*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SetNavMeshState*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETNAVMESHSTATE_METHOD_3_3258037F0DBBC9CB_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SetNavMeshState*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETNAVMESHSTATE_METHOD_3_A29C5F37C9C9B3B8_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_7B920410862438EF(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SetNavMeshState* a2)

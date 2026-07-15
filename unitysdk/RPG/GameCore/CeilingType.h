@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int CeilingType_TypeDefinitionIndex = 12719;
+	inline static constexpr unsigned int CeilingType_TypeDefinitionIndex = 12856;
 
 	enum class CeilingType : ::System::Int32
 	{

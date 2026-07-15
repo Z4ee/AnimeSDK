@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MonoEffectPluginCtrlCamera_CtrlCameraMask_TypeDefinitionIndex = 65497;
+	inline static constexpr unsigned int MonoEffectPluginCtrlCamera_CtrlCameraMask_TypeDefinitionIndex = 66912;
 
 	enum class MonoEffectPluginCtrlCamera_CtrlCameraMask : ::System::Int32
 	{

@@ -8,19 +8,19 @@ namespace RPG::Client { class IGridFightTraitRemarkLineStateParser; }
 namespace System { template <typename T1, typename T2, typename T3> class Func_3; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_CLIENT_GRIDFIGHTTRAITREMARKLINESTATEPARSERFACTORY_CREATEPARSER_OFFSET UNITYSDK_OFFSET(0xBC2F740)
-#define RPG_CLIENT_GRIDFIGHTTRAITREMARKLINESTATEPARSERFACTORY__CCTOR_OFFSET UNITYSDK_OFFSET(0xBC30F30)
+#define RPG_CLIENT_GRIDFIGHTTRAITREMARKLINESTATEPARSERFACTORY_CREATEPARSER_OFFSET UNITYSDK_OFFSET(0x1A60D8D0)
+#define RPG_CLIENT_GRIDFIGHTTRAITREMARKLINESTATEPARSERFACTORY__CCTOR_OFFSET UNITYSDK_OFFSET(0x1A60F830)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GridFightTraitRemarkLineStateParserFactory_TypeDefinitionIndex = 61228;
+	inline static constexpr unsigned int GridFightTraitRemarkLineStateParserFactory_TypeDefinitionIndex = 62570;
 
 	class GridFightTraitRemarkLineStateParserFactory : public ::System::Object
 	{
 	public:
 		static ::System::Collections::Generic::Dictionary_2<::RPG::GameCore::GridFightTraitRemarkActiveType, ::System::Func_3<::Il2CppArray<::System::UInt32>*, ::RPG::Client::GridFightTrait*, ::RPG::Client::IGridFightTraitRemarkLineStateParser*>*>** StaticGet__parserCreators()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::GridFightTraitRemarkActiveType, ::System::Func_3<::Il2CppArray<::System::UInt32>*, ::RPG::Client::GridFightTrait*, ::RPG::Client::IGridFightTraitRemarkLineStateParser*>*>**)Il2CppClass::FromTypeDefinitionIndex(GridFightTraitRemarkLineStateParserFactory_TypeDefinitionIndex)->GetStaticField(0x3CF80);
+			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::GridFightTraitRemarkActiveType, ::System::Func_3<::Il2CppArray<::System::UInt32>*, ::RPG::Client::GridFightTrait*, ::RPG::Client::IGridFightTraitRemarkLineStateParser*>*>**)Il2CppClass::FromTypeDefinitionIndex(GridFightTraitRemarkLineStateParserFactory_TypeDefinitionIndex)->GetStaticField(0x2E310);
 		}
 
 		static ::System::Void _cctor()

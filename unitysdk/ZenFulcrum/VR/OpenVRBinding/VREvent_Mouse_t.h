@@ -4,7 +4,7 @@
 
 namespace ZenFulcrum::VR::OpenVRBinding
 {
-	inline static constexpr unsigned int VREvent_Mouse_t_TypeDefinitionIndex = 36345;
+	inline static constexpr unsigned int VREvent_Mouse_t_TypeDefinitionIndex = 37127;
 
 	struct alignas(4) VREvent_Mouse_t
 	{

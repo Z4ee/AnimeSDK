@@ -6,10 +6,10 @@
 namespace RPG::GameCore { class SetDynamicValueByBattleTargetID; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_696EEA34843F4B98_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xA77ABC0)
-#define CLASS_3_696EEA34843F4B98__CTOR_OFFSET UNITYSDK_OFFSET(0xA77AAE0)
+#define CLASS_3_696EEA34843F4B98_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x18753AD0)
+#define CLASS_3_696EEA34843F4B98__CTOR_OFFSET UNITYSDK_OFFSET(0x187539F0)
 
-inline static constexpr unsigned int Class_3_696EEA34843F4B98_TypeDefinitionIndex = 54688;
+inline static constexpr unsigned int Class_3_696EEA34843F4B98_TypeDefinitionIndex = 55913;
 
 class Class_3_696EEA34843F4B98 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::SetDynamicValueByBattleTargetID*>
 {

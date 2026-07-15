@@ -4,7 +4,7 @@
 
 namespace UnityEngine::Rendering
 {
-	inline static constexpr unsigned int BAParamRef_TypeDefinitionIndex = 4782;
+	inline static constexpr unsigned int BAParamRef_TypeDefinitionIndex = 4787;
 
 	struct alignas(2) BAParamRef
 	{

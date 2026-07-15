@@ -4,11 +4,11 @@
 
 namespace System { class String; }
 
-#define SYSTEM_DIAGNOSTICS_BOOLEANSWITCH__CTOR_OFFSET UNITYSDK_OFFSET(0x1AF3E920)
+#define SYSTEM_DIAGNOSTICS_BOOLEANSWITCH__CTOR_OFFSET UNITYSDK_OFFSET(0x19165D40)
 
 namespace System::Diagnostics
 {
-	inline static constexpr unsigned int BooleanSwitch_TypeDefinitionIndex = 2520;
+	inline static constexpr unsigned int BooleanSwitch_TypeDefinitionIndex = 2524;
 
 	class BooleanSwitch : public ::System::Diagnostics::Switch
 	{

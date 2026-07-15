@@ -8,15 +8,15 @@
 #include "unitysdk/RPG/GameCore/FiveDimPlayerResetSweepDirection.h"
 #include "unitysdk/Struct_2_5CBC9F852A3C275F.h"
 #include "unitysdk/Struct_2_767494BA502A5B79.h"
+#include "unitysdk/Struct_2_B6A3FA7992F9F37E_2.h"
 #include "unitysdk/Struct_2_B6A3FA7992F9F37E_3.h"
-#include "unitysdk/Struct_2_B6A3FA7992F9F37E_4.h"
 #include "unitysdk/Struct_2_CFA12135DA0D972E.h"
 #include "unitysdk/System/ValueType.h"
 #include "unitysdk/UnityEngine/Vector2.h"
 
-class Class_0_16E4307DCC419505_107;
-class Class_0_16E4307DCC419505_235;
-class Class_0_16E4307DCC419505_97;
+class Class_0_16E4307DCC419505_116;
+class Class_0_16E4307DCC419505_126;
+class Class_0_16E4307DCC419505_255;
 class Class_1_936F4381B4CBAB18;
 class Class_1_E2AD61736FBEA606;
 namespace RPG { template <typename T1, typename T2> class PoolDictionary_2; }
@@ -28,7 +28,7 @@ namespace RPG::GameCore { class HoyoTagContainer; }
 namespace RPG::GameCore { class LittleGameLevelConfig; }
 namespace System { class String; }
 
-inline static constexpr unsigned int Struct_2_52A902145F5BE513_1_TypeDefinitionIndex = 39947;
+inline static constexpr unsigned int Struct_2_52A902145F5BE513_1_TypeDefinitionIndex = 40760;
 
 struct alignas(8) Struct_2_52A902145F5BE513_1
 {
@@ -37,20 +37,20 @@ struct alignas(8) Struct_2_52A902145F5BE513_1
 	::System::String* Field_2_2; // 0x20
 	::RPG::GameCore::FiveDimBakedLevelConfig* Field_2_3; // 0x28
 	::RPG::GameCore::FiveDimBakedPresetConfig* Field_2_4; // 0x30
-	::Class_0_16E4307DCC419505_97* Field_2_5; // 0x38
-	::Class_0_16E4307DCC419505_107* Field_2_6; // 0x40
+	::Class_0_16E4307DCC419505_116* Field_2_5; // 0x38
+	::Class_0_16E4307DCC419505_126* Field_2_6; // 0x40
 	::System::UInt32 Field_2_7; // 0x48
 	::System::UInt32 Field_2_8; // 0x4C
 	::System::UInt32 Field_2_9; // 0x50
-	::Struct_2_B6A3FA7992F9F37E_3 Field_2_10; // 0x54
-	::Struct_2_B6A3FA7992F9F37E_4 Field_2_11; // 0x55
+	::Struct_2_B6A3FA7992F9F37E_2 Field_2_10; // 0x54
+	::Struct_2_B6A3FA7992F9F37E_3 Field_2_11; // 0x55
 	::Struct_2_767494BA502A5B79 Field_2_12; // 0x58
 	::RPG::GameCore::HoyoTagContainer* Field_2_13; // 0x60
 	::System::Boolean Field_2_14; // 0x68
 	::RPG::GameCore::FiveDimGameplayMode Field_2_15; // 0x6C
 	::Class_1_936F4381B4CBAB18* Field_2_16; // 0x70
 	::RPG::PoolDictionary_2<::System::UInt32, ::Struct_2_5CBC9F852A3C275F>* Field_2_17; // 0x78
-	::RPG::PoolDictionary_2<::System::Int32, ::Class_0_16E4307DCC419505_235*>* Field_2_18; // 0x80
+	::RPG::PoolDictionary_2<::System::Int32, ::Class_0_16E4307DCC419505_255*>* Field_2_18; // 0x80
 	::System::Boolean Field_2_19; // 0x88
 	::Class_1_E2AD61736FBEA606* Field_2_20; // 0x90
 	::RPG::PoolHashSet_1<::System::UInt32>* Field_2_21; // 0x98

@@ -6,7 +6,7 @@ namespace System { class String; }
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int MHYSDKC_Notification_TypeDefinitionIndex = 43623;
+	inline static constexpr unsigned int MHYSDKC_Notification_TypeDefinitionIndex = 44484;
 
 	class MHYSDKC_Notification : public ::System::Object
 	{
@@ -65,5 +65,7 @@ namespace MiHoYo::SDK
 		// static const ::System::String* VOX_ASR_STREAMING_RUNNING; // 0x0
 		// static const ::System::String* VOX_ASR_FINISH; // 0x0
 		// static const ::System::String* VOX_ASR_FAIL; // 0x0
+		// static const ::System::String* BEFORE_OPEN_UNITY_MIC; // 0x0
+		// static const ::System::String* AFTER_CLOSE_UNITY_MIC; // 0x0
 	};
 }

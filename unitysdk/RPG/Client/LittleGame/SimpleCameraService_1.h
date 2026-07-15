@@ -1,6 +1,6 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Struct_2_9BF8902D61AE1796.h"
+#include "unitysdk/Struct_2_F8D9CEC872B937AF.h"
 #include "unitysdk/System/Object.h"
 #include "unitysdk/System/ValueTuple_3.h"
 
@@ -12,7 +12,7 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client::LittleGame
 {
-	inline static constexpr unsigned int SimpleCameraService_1_TypeDefinitionIndex = 71093;
+	inline static constexpr unsigned int SimpleCameraService_1_TypeDefinitionIndex = 72606;
 
 	template <typename TEntity>
 	class SimpleCameraService_1 : public ::System::Object

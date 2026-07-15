@@ -4,7 +4,7 @@
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int SerializePrivateVariables_TypeDefinitionIndex = 4354;
+	inline static constexpr unsigned int SerializePrivateVariables_TypeDefinitionIndex = 4359;
 
 	class SerializePrivateVariables : public ::System::Attribute
 	{

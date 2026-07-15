@@ -7,12 +7,12 @@
 
 namespace UnityEngine::ProBuilder { class ProBuilderMesh; }
 
-#define UNITYENGINE_PROBUILDER_SHAPES_SHAPE_UPDATEBOUNDS_OFFSET UNITYSDK_OFFSET(0x1B135D60)
-#define UNITYENGINE_PROBUILDER_SHAPES_SHAPE__CTOR_OFFSET UNITYSDK_OFFSET(0x1B135DE0)
+#define UNITYENGINE_PROBUILDER_SHAPES_SHAPE_UPDATEBOUNDS_OFFSET UNITYSDK_OFFSET(0x1778C610)
+#define UNITYENGINE_PROBUILDER_SHAPES_SHAPE__CTOR_OFFSET UNITYSDK_OFFSET(0x1778C690)
 
 namespace UnityEngine::ProBuilder::Shapes
 {
-	inline static constexpr unsigned int Shape_TypeDefinitionIndex = 40849;
+	inline static constexpr unsigned int Shape_TypeDefinitionIndex = 41664;
 
 	class Shape : public ::System::Object
 	{

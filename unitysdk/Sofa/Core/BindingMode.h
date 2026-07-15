@@ -3,7 +3,7 @@
 
 namespace Sofa::Core
 {
-	inline static constexpr unsigned int BindingMode_TypeDefinitionIndex = 40597;
+	inline static constexpr unsigned int BindingMode_TypeDefinitionIndex = 41412;
 
 	enum class BindingMode : ::System::Int32
 	{

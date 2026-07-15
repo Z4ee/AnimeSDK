@@ -5,11 +5,11 @@
 namespace System { class Object; }
 namespace System::Xml { class XmlNode; }
 
-#define SYSTEM_XML_SERIALIZATION_XMLNODEEVENTARGS__CTOR_OFFSET UNITYSDK_OFFSET(0x1AE784D0)
+#define SYSTEM_XML_SERIALIZATION_XMLNODEEVENTARGS__CTOR_OFFSET UNITYSDK_OFFSET(0x1627A130)
 
 namespace System::Xml::Serialization
 {
-	inline static constexpr unsigned int XmlNodeEventArgs_TypeDefinitionIndex = 1975;
+	inline static constexpr unsigned int XmlNodeEventArgs_TypeDefinitionIndex = 1979;
 
 	class XmlNodeEventArgs : public ::System::EventArgs
 	{

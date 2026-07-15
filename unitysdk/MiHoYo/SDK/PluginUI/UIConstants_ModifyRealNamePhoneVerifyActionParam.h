@@ -6,7 +6,7 @@ namespace System { class String; }
 
 namespace MiHoYo::SDK::PluginUI
 {
-	inline static constexpr unsigned int UIConstants_ModifyRealNamePhoneVerifyActionParam_TypeDefinitionIndex = 44190;
+	inline static constexpr unsigned int UIConstants_ModifyRealNamePhoneVerifyActionParam_TypeDefinitionIndex = 45060;
 
 	class UIConstants_ModifyRealNamePhoneVerifyActionParam : public ::System::Object
 	{

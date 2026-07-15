@@ -6,12 +6,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_ROGUETOURNDIVISIONROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x19BC64D0)
-#define RPG_GAMECORE_ROGUETOURNDIVISIONROW__CTOR_OFFSET UNITYSDK_OFFSET(0x19BC67D0)
+#define RPG_GAMECORE_ROGUETOURNDIVISIONROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1BB74520)
+#define RPG_GAMECORE_ROGUETOURNDIVISIONROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1BB74820)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RogueTournDivisionRow_TypeDefinitionIndex = 14219;
+	inline static constexpr unsigned int RogueTournDivisionRow_TypeDefinitionIndex = 14367;
 
 	class RogueTournDivisionRow : public ::System::Object
 	{
@@ -19,10 +19,10 @@ namespace RPG::GameCore
 		::System::String* DivisionIconPath; // 0x10
 		::System::String* DivisionIconPrefabPath; // 0x18
 		::System::String* DivisionSmallIconPath; // 0x20
-		::RPG::Client::TextID DivisionHintDesc; // 0x28
-		::System::UInt32 DivisionProgress; // 0x38
-		::System::UInt32 DivisionLevel; // 0x3C
-		::RPG::Client::TextID DivisionName; // 0x40
+		::RPG::Client::TextID DivisionName; // 0x28
+		::RPG::Client::TextID DivisionHintDesc; // 0x38
+		::System::UInt32 DivisionProgress; // 0x48
+		::System::UInt32 DivisionLevel; // 0x4C
 
 		::System::Void _ctor()
 		{

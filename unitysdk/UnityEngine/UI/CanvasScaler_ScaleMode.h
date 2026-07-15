@@ -3,7 +3,7 @@
 
 namespace UnityEngine::UI
 {
-	inline static constexpr unsigned int CanvasScaler_ScaleMode_TypeDefinitionIndex = 5919;
+	inline static constexpr unsigned int CanvasScaler_ScaleMode_TypeDefinitionIndex = 5924;
 
 	enum class CanvasScaler_ScaleMode : ::System::Int32
 	{

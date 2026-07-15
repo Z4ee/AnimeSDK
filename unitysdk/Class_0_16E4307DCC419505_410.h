@@ -1,11 +1,9 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/RPG/Client/TextID.h"
-#include "unitysdk/RPG/GameCore/FixPoint.h"
 
-namespace System { class String; }
+namespace RPG::GameCore { class ServantRowData; }
 
-inline static constexpr unsigned int Class_0_16E4307DCC419505_410_TypeDefinitionIndex = 50073;
+inline static constexpr unsigned int Class_0_16E4307DCC419505_410_TypeDefinitionIndex = 49569;
 
 class Class_0_16E4307DCC419505_410
 {

@@ -4,12 +4,12 @@
 
 namespace System { class String; }
 
-#define UNITYENGINE_NVIDIA_NVUNITYPLUGIN_INITIALIZE_OFFSET UNITYSDK_OFFSET(0x1B317000)
-#define UNITYENGINE_NVIDIA_NVUNITYPLUGIN_ISLOADED_OFFSET UNITYSDK_OFFSET(0x1B316FF0)
+#define UNITYENGINE_NVIDIA_NVUNITYPLUGIN_INITIALIZE_OFFSET UNITYSDK_OFFSET(0x1D2E8C00)
+#define UNITYENGINE_NVIDIA_NVUNITYPLUGIN_ISLOADED_OFFSET UNITYSDK_OFFSET(0x1D2E8BF0)
 
 namespace UnityEngine::NVIDIA
 {
-	inline static constexpr unsigned int NVUnityPlugin_TypeDefinitionIndex = 4996;
+	inline static constexpr unsigned int NVUnityPlugin_TypeDefinitionIndex = 5001;
 
 	class NVUnityPlugin : public ::System::Object
 	{

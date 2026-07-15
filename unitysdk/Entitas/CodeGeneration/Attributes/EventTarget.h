@@ -3,7 +3,7 @@
 
 namespace Entitas::CodeGeneration::Attributes
 {
-	inline static constexpr unsigned int EventTarget_TypeDefinitionIndex = 9732;
+	inline static constexpr unsigned int EventTarget_TypeDefinitionIndex = 9746;
 
 	enum class EventTarget : ::System::Int32
 	{

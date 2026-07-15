@@ -2,27 +2,27 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_0_16E4307DCC419505_484;
+class Class_0_16E4307DCC419505_508;
 class Class_1_D8203AFB32E9259C;
 namespace RPG::GameCore { class GameEntity; }
 namespace System { template <typename T1, typename T2, typename T3> class Func_3; }
 namespace System { template <typename T> class Action_1; }
 
-inline static constexpr unsigned int Class_1_44552D95D5AEB0B8___O_TypeDefinitionIndex = 50684;
+inline static constexpr unsigned int Class_1_44552D95D5AEB0B8___O_TypeDefinitionIndex = 51766;
 
 class Class_1_44552D95D5AEB0B8___O : public ::System::Object
 {
 public:
-	static ::System::Action_1<::Class_0_16E4307DCC419505_484*>** StaticGet__2____OnRemoveRequester()
+	static ::System::Func_3<::Class_0_16E4307DCC419505_508*, ::Class_1_D8203AFB32E9259C*, ::System::Boolean>** StaticGet__0___CheckMatch()
 	{
-		return (::System::Action_1<::Class_0_16E4307DCC419505_484*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_44552D95D5AEB0B8___O_TypeDefinitionIndex)->GetStaticField(0x639C0);
+		return (::System::Func_3<::Class_0_16E4307DCC419505_508*, ::Class_1_D8203AFB32E9259C*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_44552D95D5AEB0B8___O_TypeDefinitionIndex)->GetStaticField(0x56DF0);
 	}
-	static ::System::Func_3<::Class_0_16E4307DCC419505_484*, ::RPG::GameCore::GameEntity*, ::System::Boolean>** StaticGet__1____CheckSkillDataMatchRequester()
+	static ::System::Func_3<::Class_0_16E4307DCC419505_508*, ::RPG::GameCore::GameEntity*, ::System::Boolean>** StaticGet__1____CheckSkillDataMatchRequester()
 	{
-		return (::System::Func_3<::Class_0_16E4307DCC419505_484*, ::RPG::GameCore::GameEntity*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_44552D95D5AEB0B8___O_TypeDefinitionIndex)->GetStaticField(0x639C8);
+		return (::System::Func_3<::Class_0_16E4307DCC419505_508*, ::RPG::GameCore::GameEntity*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_44552D95D5AEB0B8___O_TypeDefinitionIndex)->GetStaticField(0x56DF8);
 	}
-	static ::System::Func_3<::Class_0_16E4307DCC419505_484*, ::Class_1_D8203AFB32E9259C*, ::System::Boolean>** StaticGet__0___CheckMatch()
+	static ::System::Action_1<::Class_0_16E4307DCC419505_508*>** StaticGet__2____OnRemoveRequester()
 	{
-		return (::System::Func_3<::Class_0_16E4307DCC419505_484*, ::Class_1_D8203AFB32E9259C*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_44552D95D5AEB0B8___O_TypeDefinitionIndex)->GetStaticField(0x639D0);
+		return (::System::Action_1<::Class_0_16E4307DCC419505_508*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_44552D95D5AEB0B8___O_TypeDefinitionIndex)->GetStaticField(0x56E00);
 	}
 };

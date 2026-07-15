@@ -3,7 +3,7 @@
 
 namespace RPG::CustomRP
 {
-	inline static constexpr unsigned int VCMask_TypeDefinitionIndex = 35362;
+	inline static constexpr unsigned int VCMask_TypeDefinitionIndex = 36143;
 
 	enum class VCMask : ::System::Int32
 	{

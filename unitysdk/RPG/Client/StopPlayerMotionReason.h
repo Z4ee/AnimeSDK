@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int StopPlayerMotionReason_TypeDefinitionIndex = 56935;
+	inline static constexpr unsigned int StopPlayerMotionReason_TypeDefinitionIndex = 58182;
 
 	enum class StopPlayerMotionReason : ::System::Int32
 	{

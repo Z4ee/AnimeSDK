@@ -6,12 +6,12 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_AVATARPROPERTYVALUE_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x194A2CD0)
-#define RPG_GAMECORE_AVATARPROPERTYVALUE__CTOR_OFFSET UNITYSDK_OFFSET(0x194A2E20)
+#define RPG_GAMECORE_AVATARPROPERTYVALUE_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1A082B30)
+#define RPG_GAMECORE_AVATARPROPERTYVALUE__CTOR_OFFSET UNITYSDK_OFFSET(0x1A082C80)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AvatarPropertyValue_TypeDefinitionIndex = 12096;
+	inline static constexpr unsigned int AvatarPropertyValue_TypeDefinitionIndex = 12228;
 
 	class AvatarPropertyValue : public ::System::Object
 	{

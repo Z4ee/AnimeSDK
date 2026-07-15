@@ -1,5 +1,6 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/RPG/GameCore/FixPoint.h"
 #include "unitysdk/System/MulticastDelegate.h"
 
 class Class_1_EA6B9573C4BF1DD5;
@@ -8,14 +9,14 @@ namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 
-#define XLUA_INTERNALGLOBALS___GEN_DELEGATE52_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x12E8A470)
-#define XLUA_INTERNALGLOBALS___GEN_DELEGATE52_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x12E8A4B0)
-#define XLUA_INTERNALGLOBALS___GEN_DELEGATE52_INVOKE_OFFSET UNITYSDK_OFFSET(0x12E8A460)
-#define XLUA_INTERNALGLOBALS___GEN_DELEGATE52__CTOR_OFFSET UNITYSDK_OFFSET(0x12E8A370)
+#define XLUA_INTERNALGLOBALS___GEN_DELEGATE52_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x10BDDFC0)
+#define XLUA_INTERNALGLOBALS___GEN_DELEGATE52_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x10BDE030)
+#define XLUA_INTERNALGLOBALS___GEN_DELEGATE52_INVOKE_OFFSET UNITYSDK_OFFSET(0x10BDDFA0)
+#define XLUA_INTERNALGLOBALS___GEN_DELEGATE52__CTOR_OFFSET UNITYSDK_OFFSET(0x10BDDEB0)
 
 namespace XLua
 {
-	inline static constexpr unsigned int InternalGlobals___GEN_DELEGATE52_TypeDefinitionIndex = 46968;
+	inline static constexpr unsigned int InternalGlobals___GEN_DELEGATE52_TypeDefinitionIndex = 47933;
 
 	class InternalGlobals___GEN_DELEGATE52 : public ::System::MulticastDelegate
 	{
@@ -25,14 +26,14 @@ namespace XLua
 			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + XLUA_INTERNALGLOBALS___GEN_DELEGATE52__CTOR_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void Invoke(::Class_1_EA6B9573C4BF1DD5* a1, ::RPG::GameCore::TurnBasedAbilityComponent* a2)
+		::System::Void Invoke(::Class_1_EA6B9573C4BF1DD5* a1, ::RPG::GameCore::TurnBasedAbilityComponent* a2, ::RPG::GameCore::FixPoint a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::Class_1_EA6B9573C4BF1DD5*, ::RPG::GameCore::TurnBasedAbilityComponent*))((::PBYTE)hIl2Cpp + XLUA_INTERNALGLOBALS___GEN_DELEGATE52_INVOKE_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::Class_1_EA6B9573C4BF1DD5*, ::RPG::GameCore::TurnBasedAbilityComponent*, ::RPG::GameCore::FixPoint))((::PBYTE)hIl2Cpp + XLUA_INTERNALGLOBALS___GEN_DELEGATE52_INVOKE_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::IAsyncResult* BeginInvoke(::Class_1_EA6B9573C4BF1DD5* a1, ::RPG::GameCore::TurnBasedAbilityComponent* a2, ::System::AsyncCallback* a3, ::System::Object* a4)
+		::System::IAsyncResult* BeginInvoke(::Class_1_EA6B9573C4BF1DD5* a1, ::RPG::GameCore::TurnBasedAbilityComponent* a2, ::RPG::GameCore::FixPoint a3, ::System::AsyncCallback* a4, ::System::Object* a5)
 		{
-			return ((::System::IAsyncResult*(*)(::PVOID, ::Class_1_EA6B9573C4BF1DD5*, ::RPG::GameCore::TurnBasedAbilityComponent*, ::System::AsyncCallback*, ::System::Object*))((::PBYTE)hIl2Cpp + XLUA_INTERNALGLOBALS___GEN_DELEGATE52_BEGININVOKE_OFFSET))(this, a1, a2, a3, a4);
+			return ((::System::IAsyncResult*(*)(::PVOID, ::Class_1_EA6B9573C4BF1DD5*, ::RPG::GameCore::TurnBasedAbilityComponent*, ::RPG::GameCore::FixPoint, ::System::AsyncCallback*, ::System::Object*))((::PBYTE)hIl2Cpp + XLUA_INTERNALGLOBALS___GEN_DELEGATE52_BEGININVOKE_OFFSET))(this, a1, a2, a3, a4, a5);
 		}
 
 		::System::Void EndInvoke(::System::IAsyncResult* a1)

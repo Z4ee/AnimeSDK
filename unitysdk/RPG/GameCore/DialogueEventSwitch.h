@@ -4,13 +4,13 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_DIALOGUEEVENTSWITCH_METHOD_3_B5210F4F038FECE7_OFFSET UNITYSDK_OFFSET(0x1969EDF0)
-#define RPG_GAMECORE_DIALOGUEEVENTSWITCH_METHOD_3_D5453FEA43AA60A6_OFFSET UNITYSDK_OFFSET(0x1969EE70)
-#define RPG_GAMECORE_DIALOGUEEVENTSWITCH__CTOR_OFFSET UNITYSDK_OFFSET(0x1969EE40)
+#define RPG_GAMECORE_DIALOGUEEVENTSWITCH_METHOD_3_D5453FEA43AA60A6_OFFSET UNITYSDK_OFFSET(0x1C107D20)
+#define RPG_GAMECORE_DIALOGUEEVENTSWITCH_METHOD_3_DC9491A12AD9583A_OFFSET UNITYSDK_OFFSET(0x1C107CD0)
+#define RPG_GAMECORE_DIALOGUEEVENTSWITCH__CTOR_OFFSET UNITYSDK_OFFSET(0x1C107D10)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int DialogueEventSwitch_TypeDefinitionIndex = 19739;
+	inline static constexpr unsigned int DialogueEventSwitch_TypeDefinitionIndex = 20098;
 
 	class DialogueEventSwitch : public ::RPG::GameCore::TaskConfig
 	{
@@ -26,9 +26,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_DIALOGUEEVENTSWITCH__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_B5210F4F038FECE7(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::DialogueEventSwitch*& a2)
+		static ::System::Void Method_3_DC9491A12AD9583A(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::DialogueEventSwitch*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::DialogueEventSwitch*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_DIALOGUEEVENTSWITCH_METHOD_3_B5210F4F038FECE7_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::DialogueEventSwitch*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_DIALOGUEEVENTSWITCH_METHOD_3_DC9491A12AD9583A_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_D5453FEA43AA60A6(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::DialogueEventSwitch* a2)

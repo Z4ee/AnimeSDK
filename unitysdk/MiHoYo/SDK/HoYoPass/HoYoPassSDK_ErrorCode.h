@@ -3,7 +3,7 @@
 
 namespace MiHoYo::SDK::HoYoPass
 {
-	inline static constexpr unsigned int HoYoPassSDK_ErrorCode_TypeDefinitionIndex = 8220;
+	inline static constexpr unsigned int HoYoPassSDK_ErrorCode_TypeDefinitionIndex = 8232;
 
 	enum class HoYoPassSDK_ErrorCode : ::System::Int32
 	{

@@ -4,19 +4,19 @@
 #include "unitysdk/RPG/GameCore/ActivityLocalLegendRewardType.h"
 #include "unitysdk/System/Object.h"
 
-class Class_1_D2E90365D99FC7E6_15;
+class Class_1_D2E90365D99FC7E6_16;
 namespace RPG::Client { class ActivityLocalLegendRewardData; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_1_8670EA22CEF1156D_METHOD_1_3AF9724CCFA2419C_OFFSET UNITYSDK_OFFSET(0xC44B020)
-#define CLASS_1_8670EA22CEF1156D_METHOD_1_49F4068DC28049D4_OFFSET UNITYSDK_OFFSET(0xC44B670)
-#define CLASS_1_8670EA22CEF1156D_METHOD_1_749CD0D065D919BF_OFFSET UNITYSDK_OFFSET(0xC44B780)
-#define CLASS_1_8670EA22CEF1156D_METHOD_1_F876D2C6EAA82B81_OFFSET UNITYSDK_OFFSET(0xC44B2E0)
-#define CLASS_1_8670EA22CEF1156D__CTOR_OFFSET UNITYSDK_OFFSET(0xC44B810)
+#define CLASS_1_8670EA22CEF1156D_METHOD_1_3AF9724CCFA2419C_OFFSET UNITYSDK_OFFSET(0x17DC5FA0)
+#define CLASS_1_8670EA22CEF1156D_METHOD_1_49F4068DC28049D4_OFFSET UNITYSDK_OFFSET(0x17DC65F0)
+#define CLASS_1_8670EA22CEF1156D_METHOD_1_749CD0D065D919BF_OFFSET UNITYSDK_OFFSET(0x17DC6700)
+#define CLASS_1_8670EA22CEF1156D_METHOD_1_F876D2C6EAA82B81_OFFSET UNITYSDK_OFFSET(0x17DC6260)
+#define CLASS_1_8670EA22CEF1156D__CTOR_OFFSET UNITYSDK_OFFSET(0x17DC6790)
 
-inline static constexpr unsigned int Class_1_8670EA22CEF1156D_TypeDefinitionIndex = 57569;
+inline static constexpr unsigned int Class_1_8670EA22CEF1156D_TypeDefinitionIndex = 58831;
 
 class Class_1_8670EA22CEF1156D : public ::System::Object
 {
@@ -31,9 +31,9 @@ public:
 		return ((::RPG::Client::ActivityLocalLegendRewardData*(*)())((::PBYTE)hIl2Cpp + CLASS_1_8670EA22CEF1156D_METHOD_1_3AF9724CCFA2419C_OFFSET))();
 	}
 
-	static ::System::Collections::Generic::Dictionary_2<::RPG::GameCore::ActivityLocalLegendRewardType, ::System::Collections::Generic::List_1<::Class_1_D2E90365D99FC7E6_15*>*>* Method_1_F876D2C6EAA82B81()
+	static ::System::Collections::Generic::Dictionary_2<::RPG::GameCore::ActivityLocalLegendRewardType, ::System::Collections::Generic::List_1<::Class_1_D2E90365D99FC7E6_16*>*>* Method_1_F876D2C6EAA82B81()
 	{
-		return ((::System::Collections::Generic::Dictionary_2<::RPG::GameCore::ActivityLocalLegendRewardType, ::System::Collections::Generic::List_1<::Class_1_D2E90365D99FC7E6_15*>*>*(*)())((::PBYTE)hIl2Cpp + CLASS_1_8670EA22CEF1156D_METHOD_1_F876D2C6EAA82B81_OFFSET))();
+		return ((::System::Collections::Generic::Dictionary_2<::RPG::GameCore::ActivityLocalLegendRewardType, ::System::Collections::Generic::List_1<::Class_1_D2E90365D99FC7E6_16*>*>*(*)())((::PBYTE)hIl2Cpp + CLASS_1_8670EA22CEF1156D_METHOD_1_F876D2C6EAA82B81_OFFSET))();
 	}
 
 	static ::RPG::Client::TextID Method_1_49F4068DC28049D4(::RPG::GameCore::ActivityLocalLegendRewardType a1)

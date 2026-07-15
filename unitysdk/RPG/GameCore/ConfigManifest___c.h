@@ -5,29 +5,29 @@
 namespace System { class String; }
 namespace System { template <typename T> class Comparison_1; }
 
-#define RPG_GAMECORE_CONFIGMANIFEST___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xCD90A10)
-#define RPG_GAMECORE_CONFIGMANIFEST___C__CTOR_OFFSET UNITYSDK_OFFSET(0xCD90A50)
-#define RPG_GAMECORE_CONFIGMANIFEST___C__DISCOVERCONFIGLIST_B__11_0_OFFSET UNITYSDK_OFFSET(0xCD90A80)
-#define RPG_GAMECORE_CONFIGMANIFEST___C__LOADMANIFESTITEMBYFILEDISCOVERY_B__10_0_OFFSET UNITYSDK_OFFSET(0xCD90A60)
+#define RPG_GAMECORE_CONFIGMANIFEST___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xFBCEA70)
+#define RPG_GAMECORE_CONFIGMANIFEST___C__CTOR_OFFSET UNITYSDK_OFFSET(0xFBCEAB0)
+#define RPG_GAMECORE_CONFIGMANIFEST___C__DISCOVERCONFIGLIST_B__11_0_OFFSET UNITYSDK_OFFSET(0xFBCEAE0)
+#define RPG_GAMECORE_CONFIGMANIFEST___C__LOADMANIFESTITEMBYFILEDISCOVERY_B__10_0_OFFSET UNITYSDK_OFFSET(0xFBCEAC0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ConfigManifest___c_TypeDefinitionIndex = 52765;
+	inline static constexpr unsigned int ConfigManifest___c_TypeDefinitionIndex = 53976;
 
 	class ConfigManifest___c : public ::System::Object
 	{
 	public:
 		static ::RPG::GameCore::ConfigManifest___c** StaticGet___9()
 		{
-			return (::RPG::GameCore::ConfigManifest___c**)Il2CppClass::FromTypeDefinitionIndex(ConfigManifest___c_TypeDefinitionIndex)->GetStaticField(0x67400);
+			return (::RPG::GameCore::ConfigManifest___c**)Il2CppClass::FromTypeDefinitionIndex(ConfigManifest___c_TypeDefinitionIndex)->GetStaticField(0x60510);
 		}
 		static ::System::Comparison_1<::System::String*>** StaticGet___9__11_0()
 		{
-			return (::System::Comparison_1<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(ConfigManifest___c_TypeDefinitionIndex)->GetStaticField(0x67408);
+			return (::System::Comparison_1<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(ConfigManifest___c_TypeDefinitionIndex)->GetStaticField(0x60518);
 		}
 		static ::System::Comparison_1<::System::String*>** StaticGet___9__10_0()
 		{
-			return (::System::Comparison_1<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(ConfigManifest___c_TypeDefinitionIndex)->GetStaticField(0x67410);
+			return (::System::Comparison_1<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(ConfigManifest___c_TypeDefinitionIndex)->GetStaticField(0x60520);
 		}
 
 		static ::System::Void _cctor()

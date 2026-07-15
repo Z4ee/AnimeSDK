@@ -9,54 +9,54 @@ namespace RPG::Client { class MonsterData; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 namespace System { template <typename T> class Comparison_1; }
 
-#define RPG_CLIENT_EVOLVEBUILDSTAGE___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xB956CC0)
-#define RPG_CLIENT_EVOLVEBUILDSTAGE___C__CTOR_OFFSET UNITYSDK_OFFSET(0xB956CF0)
-#define RPG_CLIENT_EVOLVEBUILDSTAGE___C__GETMONSTERIDS_B__49_0_OFFSET UNITYSDK_OFFSET(0xB956E90)
-#define RPG_CLIENT_EVOLVEBUILDSTAGE___C__GETMONSTERIDS_B__49_1_OFFSET UNITYSDK_OFFSET(0xB956EE0)
-#define RPG_CLIENT_EVOLVEBUILDSTAGE___C__GETMONSTERS_B__50_0_OFFSET UNITYSDK_OFFSET(0xB956F00)
-#define RPG_CLIENT_EVOLVEBUILDSTAGE___C__GETMONSTERS_B__50_1_OFFSET UNITYSDK_OFFSET(0xB956F20)
-#define RPG_CLIENT_EVOLVEBUILDSTAGE___C__GETTRIALAVATARS_B__48_0_OFFSET UNITYSDK_OFFSET(0xB956E80)
-#define RPG_CLIENT_EVOLVEBUILDSTAGE___C__GET_RECOMMENDGEARS_B__41_0_OFFSET UNITYSDK_OFFSET(0xB956D30)
-#define RPG_CLIENT_EVOLVEBUILDSTAGE___C___CTOR_B__0_0_OFFSET UNITYSDK_OFFSET(0xB956D00)
+#define RPG_CLIENT_EVOLVEBUILDSTAGE___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x17D05020)
+#define RPG_CLIENT_EVOLVEBUILDSTAGE___C__CTOR_OFFSET UNITYSDK_OFFSET(0x17D05050)
+#define RPG_CLIENT_EVOLVEBUILDSTAGE___C__GETMONSTERIDS_B__49_0_OFFSET UNITYSDK_OFFSET(0x17D051E0)
+#define RPG_CLIENT_EVOLVEBUILDSTAGE___C__GETMONSTERIDS_B__49_1_OFFSET UNITYSDK_OFFSET(0x17D05230)
+#define RPG_CLIENT_EVOLVEBUILDSTAGE___C__GETMONSTERS_B__50_0_OFFSET UNITYSDK_OFFSET(0x17D05250)
+#define RPG_CLIENT_EVOLVEBUILDSTAGE___C__GETMONSTERS_B__50_1_OFFSET UNITYSDK_OFFSET(0x17D05270)
+#define RPG_CLIENT_EVOLVEBUILDSTAGE___C__GETTRIALAVATARS_B__48_0_OFFSET UNITYSDK_OFFSET(0x17D051D0)
+#define RPG_CLIENT_EVOLVEBUILDSTAGE___C__GET_RECOMMENDGEARS_B__41_0_OFFSET UNITYSDK_OFFSET(0x17D05090)
+#define RPG_CLIENT_EVOLVEBUILDSTAGE___C___CTOR_B__0_0_OFFSET UNITYSDK_OFFSET(0x17D05060)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int EvolveBuildStage___c_TypeDefinitionIndex = 59733;
+	inline static constexpr unsigned int EvolveBuildStage___c_TypeDefinitionIndex = 61018;
 
 	class EvolveBuildStage___c : public ::System::Object
 	{
 	public:
-		static ::System::Comparison_1<::RPG::Client::MonsterData*>** StaticGet___9__50_1()
-		{
-			return (::System::Comparison_1<::RPG::Client::MonsterData*>**)Il2CppClass::FromTypeDefinitionIndex(EvolveBuildStage___c_TypeDefinitionIndex)->GetStaticField(0x15A80);
-		}
 		static ::RPG::Client::EvolveBuildStage___c** StaticGet___9()
 		{
-			return (::RPG::Client::EvolveBuildStage___c**)Il2CppClass::FromTypeDefinitionIndex(EvolveBuildStage___c_TypeDefinitionIndex)->GetStaticField(0x15A88);
+			return (::RPG::Client::EvolveBuildStage___c**)Il2CppClass::FromTypeDefinitionIndex(EvolveBuildStage___c_TypeDefinitionIndex)->GetStaticField(0x6BF00);
 		}
-		static ::System::Func_2<::RPG::Client::MonsterData*, ::System::UInt32>** StaticGet___9__50_0()
+		static ::System::Comparison_1<::RPG::Client::MonsterData*>** StaticGet___9__50_1()
 		{
-			return (::System::Func_2<::RPG::Client::MonsterData*, ::System::UInt32>**)Il2CppClass::FromTypeDefinitionIndex(EvolveBuildStage___c_TypeDefinitionIndex)->GetStaticField(0x15A90);
-		}
-		static ::System::Comparison_1<::RPG::Client::MonsterData*>** StaticGet___9__49_0()
-		{
-			return (::System::Comparison_1<::RPG::Client::MonsterData*>**)Il2CppClass::FromTypeDefinitionIndex(EvolveBuildStage___c_TypeDefinitionIndex)->GetStaticField(0x15A98);
-		}
-		static ::System::Func_2<::RPG::Client::MonsterData*, ::System::UInt32>** StaticGet___9__49_1()
-		{
-			return (::System::Func_2<::RPG::Client::MonsterData*, ::System::UInt32>**)Il2CppClass::FromTypeDefinitionIndex(EvolveBuildStage___c_TypeDefinitionIndex)->GetStaticField(0x15AA0);
-		}
-		static ::System::Comparison_1<::Class_1_942D40AEEDD1812F*>** StaticGet___9__0_0()
-		{
-			return (::System::Comparison_1<::Class_1_942D40AEEDD1812F*>**)Il2CppClass::FromTypeDefinitionIndex(EvolveBuildStage___c_TypeDefinitionIndex)->GetStaticField(0x15AA8);
-		}
-		static ::System::Func_2<::System::UInt32, ::RPG::Client::EvolveBuildCollectionGear*>** StaticGet___9__41_0()
-		{
-			return (::System::Func_2<::System::UInt32, ::RPG::Client::EvolveBuildCollectionGear*>**)Il2CppClass::FromTypeDefinitionIndex(EvolveBuildStage___c_TypeDefinitionIndex)->GetStaticField(0x15AB0);
+			return (::System::Comparison_1<::RPG::Client::MonsterData*>**)Il2CppClass::FromTypeDefinitionIndex(EvolveBuildStage___c_TypeDefinitionIndex)->GetStaticField(0x6BF08);
 		}
 		static ::System::Func_2<::System::UInt32, ::RPG::AvatarSystem::IAvatar*>** StaticGet___9__48_0()
 		{
-			return (::System::Func_2<::System::UInt32, ::RPG::AvatarSystem::IAvatar*>**)Il2CppClass::FromTypeDefinitionIndex(EvolveBuildStage___c_TypeDefinitionIndex)->GetStaticField(0x15AB8);
+			return (::System::Func_2<::System::UInt32, ::RPG::AvatarSystem::IAvatar*>**)Il2CppClass::FromTypeDefinitionIndex(EvolveBuildStage___c_TypeDefinitionIndex)->GetStaticField(0x6BF10);
+		}
+		static ::System::Comparison_1<::RPG::Client::MonsterData*>** StaticGet___9__49_0()
+		{
+			return (::System::Comparison_1<::RPG::Client::MonsterData*>**)Il2CppClass::FromTypeDefinitionIndex(EvolveBuildStage___c_TypeDefinitionIndex)->GetStaticField(0x6BF18);
+		}
+		static ::System::Comparison_1<::Class_1_942D40AEEDD1812F*>** StaticGet___9__0_0()
+		{
+			return (::System::Comparison_1<::Class_1_942D40AEEDD1812F*>**)Il2CppClass::FromTypeDefinitionIndex(EvolveBuildStage___c_TypeDefinitionIndex)->GetStaticField(0x6BF20);
+		}
+		static ::System::Func_2<::System::UInt32, ::RPG::Client::EvolveBuildCollectionGear*>** StaticGet___9__41_0()
+		{
+			return (::System::Func_2<::System::UInt32, ::RPG::Client::EvolveBuildCollectionGear*>**)Il2CppClass::FromTypeDefinitionIndex(EvolveBuildStage___c_TypeDefinitionIndex)->GetStaticField(0x6BF28);
+		}
+		static ::System::Func_2<::RPG::Client::MonsterData*, ::System::UInt32>** StaticGet___9__49_1()
+		{
+			return (::System::Func_2<::RPG::Client::MonsterData*, ::System::UInt32>**)Il2CppClass::FromTypeDefinitionIndex(EvolveBuildStage___c_TypeDefinitionIndex)->GetStaticField(0x6BF30);
+		}
+		static ::System::Func_2<::RPG::Client::MonsterData*, ::System::UInt32>** StaticGet___9__50_0()
+		{
+			return (::System::Func_2<::RPG::Client::MonsterData*, ::System::UInt32>**)Il2CppClass::FromTypeDefinitionIndex(EvolveBuildStage___c_TypeDefinitionIndex)->GetStaticField(0x6BF38);
 		}
 
 		static ::System::Void _cctor()

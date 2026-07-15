@@ -5,11 +5,11 @@
 
 namespace RPG::Client::LittleGame::FourRotateVoxel { class FourRotateVoxelGameStartCurve; }
 
-#define RPG_CLIENT_LITTLEGAME_FOURROTATEVOXEL_FOURROTATEVOXELGAMESTARTCURVE___C__DISPLAYCLASS37_0__CTOR_OFFSET UNITYSDK_OFFSET(0xBE23090)
+#define RPG_CLIENT_LITTLEGAME_FOURROTATEVOXEL_FOURROTATEVOXELGAMESTARTCURVE___C__DISPLAYCLASS37_0__CTOR_OFFSET UNITYSDK_OFFSET(0x18A18B50)
 
 namespace RPG::Client::LittleGame::FourRotateVoxel
 {
-	inline static constexpr unsigned int FourRotateVoxelGameStartCurve___c__DisplayClass37_0_TypeDefinitionIndex = 71369;
+	inline static constexpr unsigned int FourRotateVoxelGameStartCurve___c__DisplayClass37_0_TypeDefinitionIndex = 72894;
 
 	class FourRotateVoxelGameStartCurve___c__DisplayClass37_0 : public ::System::Object
 	{

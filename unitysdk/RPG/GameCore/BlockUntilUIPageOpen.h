@@ -5,13 +5,13 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_BLOCKUNTILUIPAGEOPEN_METHOD_3_91CBCAF1F01CFB90_OFFSET UNITYSDK_OFFSET(0x194E0430)
-#define RPG_GAMECORE_BLOCKUNTILUIPAGEOPEN_METHOD_3_9909464C5AD6FB49_OFFSET UNITYSDK_OFFSET(0x194E03B0)
-#define RPG_GAMECORE_BLOCKUNTILUIPAGEOPEN__CTOR_OFFSET UNITYSDK_OFFSET(0x194E0400)
+#define RPG_GAMECORE_BLOCKUNTILUIPAGEOPEN_METHOD_3_1F33B28703249F53_OFFSET UNITYSDK_OFFSET(0x1A400FB0)
+#define RPG_GAMECORE_BLOCKUNTILUIPAGEOPEN_METHOD_3_91CBCAF1F01CFB90_OFFSET UNITYSDK_OFFSET(0x1A400FF0)
+#define RPG_GAMECORE_BLOCKUNTILUIPAGEOPEN__CTOR_OFFSET UNITYSDK_OFFSET(0x1A400FE0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int BlockUntilUIPageOpen_TypeDefinitionIndex = 22964;
+	inline static constexpr unsigned int BlockUntilUIPageOpen_TypeDefinitionIndex = 23431;
 
 	class BlockUntilUIPageOpen : public ::RPG::GameCore::TaskConfig
 	{
@@ -23,9 +23,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BLOCKUNTILUIPAGEOPEN__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_9909464C5AD6FB49(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::BlockUntilUIPageOpen*& a2)
+		static ::System::Void Method_3_1F33B28703249F53(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::BlockUntilUIPageOpen*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::BlockUntilUIPageOpen*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BLOCKUNTILUIPAGEOPEN_METHOD_3_9909464C5AD6FB49_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::BlockUntilUIPageOpen*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BLOCKUNTILUIPAGEOPEN_METHOD_3_1F33B28703249F53_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_91CBCAF1F01CFB90(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::BlockUntilUIPageOpen* a2)

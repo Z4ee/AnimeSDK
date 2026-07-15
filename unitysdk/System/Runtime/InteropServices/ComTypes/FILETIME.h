@@ -4,7 +4,7 @@
 
 namespace System::Runtime::InteropServices::ComTypes
 {
-	inline static constexpr unsigned int FILETIME_TypeDefinitionIndex = 1444;
+	inline static constexpr unsigned int FILETIME_TypeDefinitionIndex = 1448;
 
 	struct alignas(4) FILETIME
 	{

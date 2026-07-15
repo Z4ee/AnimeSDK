@@ -3,7 +3,7 @@
 
 namespace RPG::Client::ChenLingBattle
 {
-	inline static constexpr unsigned int ChenLingBattleMessage_TypeDefinitionIndex = 70806;
+	inline static constexpr unsigned int ChenLingBattleMessage_TypeDefinitionIndex = 72319;
 
 	enum class ChenLingBattleMessage : ::System::Int32
 	{

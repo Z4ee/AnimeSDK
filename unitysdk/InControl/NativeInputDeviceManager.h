@@ -11,36 +11,36 @@ namespace System::Collections::Generic { template <typename T> class ICollection
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace System::Collections::ObjectModel { template <typename T> class ReadOnlyCollection_1; }
 
-#define INCONTROL_NATIVEINPUTDEVICEMANAGER_ADDSYSTEMDEVICEPROFILES_OFFSET UNITYSDK_OFFSET(0x18030390)
-#define INCONTROL_NATIVEINPUTDEVICEMANAGER_ADDSYSTEMDEVICEPROFILE_OFFSET UNITYSDK_OFFSET(0x18031760)
-#define INCONTROL_NATIVEINPUTDEVICEMANAGER_ATTACHDEVICE_OFFSET UNITYSDK_OFFSET(0x18031430)
-#define INCONTROL_NATIVEINPUTDEVICEMANAGER_CHECKPLATFORMSUPPORT_OFFSET UNITYSDK_OFFSET(0x180317F0)
-#define INCONTROL_NATIVEINPUTDEVICEMANAGER_DESTROY_OFFSET UNITYSDK_OFFSET(0x18030560)
-#define INCONTROL_NATIVEINPUTDEVICEMANAGER_DETACHDEVICE_OFFSET UNITYSDK_OFFSET(0x18031250)
-#define INCONTROL_NATIVEINPUTDEVICEMANAGER_DETECTDEVICE_OFFSET UNITYSDK_OFFSET(0x18030D30)
-#define INCONTROL_NATIVEINPUTDEVICEMANAGER_ENABLE_OFFSET UNITYSDK_OFFSET(0x18031B10)
-#define INCONTROL_NATIVEINPUTDEVICEMANAGER_FINDATTACHEDDEVICE_OFFSET UNITYSDK_OFFSET(0x180311D0)
-#define INCONTROL_NATIVEINPUTDEVICEMANAGER_FINDDETACHEDDEVICE_OFFSET UNITYSDK_OFFSET(0x18031350)
-#define INCONTROL_NATIVEINPUTDEVICEMANAGER_SYSTEMFINDDETACHEDDEVICE_OFFSET UNITYSDK_OFFSET(0x18031520)
-#define INCONTROL_NATIVEINPUTDEVICEMANAGER_UPDATE_OFFSET UNITYSDK_OFFSET(0x180305E0)
-#define INCONTROL_NATIVEINPUTDEVICEMANAGER__CTOR_OFFSET UNITYSDK_OFFSET(0x180300B0)
+#define INCONTROL_NATIVEINPUTDEVICEMANAGER_ADDSYSTEMDEVICEPROFILES_OFFSET UNITYSDK_OFFSET(0x132FC0A0)
+#define INCONTROL_NATIVEINPUTDEVICEMANAGER_ADDSYSTEMDEVICEPROFILE_OFFSET UNITYSDK_OFFSET(0x132FD440)
+#define INCONTROL_NATIVEINPUTDEVICEMANAGER_ATTACHDEVICE_OFFSET UNITYSDK_OFFSET(0x132FD110)
+#define INCONTROL_NATIVEINPUTDEVICEMANAGER_CHECKPLATFORMSUPPORT_OFFSET UNITYSDK_OFFSET(0x132FD4D0)
+#define INCONTROL_NATIVEINPUTDEVICEMANAGER_DESTROY_OFFSET UNITYSDK_OFFSET(0x132FC270)
+#define INCONTROL_NATIVEINPUTDEVICEMANAGER_DETACHDEVICE_OFFSET UNITYSDK_OFFSET(0x132FCF30)
+#define INCONTROL_NATIVEINPUTDEVICEMANAGER_DETECTDEVICE_OFFSET UNITYSDK_OFFSET(0x132FCA40)
+#define INCONTROL_NATIVEINPUTDEVICEMANAGER_ENABLE_OFFSET UNITYSDK_OFFSET(0x132FD7F0)
+#define INCONTROL_NATIVEINPUTDEVICEMANAGER_FINDATTACHEDDEVICE_OFFSET UNITYSDK_OFFSET(0x132FCEB0)
+#define INCONTROL_NATIVEINPUTDEVICEMANAGER_FINDDETACHEDDEVICE_OFFSET UNITYSDK_OFFSET(0x132FD030)
+#define INCONTROL_NATIVEINPUTDEVICEMANAGER_SYSTEMFINDDETACHEDDEVICE_OFFSET UNITYSDK_OFFSET(0x132FD200)
+#define INCONTROL_NATIVEINPUTDEVICEMANAGER_UPDATE_OFFSET UNITYSDK_OFFSET(0x132FC2F0)
+#define INCONTROL_NATIVEINPUTDEVICEMANAGER__CTOR_OFFSET UNITYSDK_OFFSET(0x132FBDC0)
 
 namespace InControl
 {
-	inline static constexpr unsigned int NativeInputDeviceManager_TypeDefinitionIndex = 37903;
+	inline static constexpr unsigned int NativeInputDeviceManager_TypeDefinitionIndex = 38711;
 
 	class NativeInputDeviceManager : public ::InControl::InputDeviceManager
 	{
 	public:
 		static ::System::Func_3<::InControl::InputDeviceInfo, ::System::Collections::ObjectModel::ReadOnlyCollection_1<::InControl::NativeInputDevice*>*, ::InControl::NativeInputDevice*>** StaticGet_CustomFindDetachedDevice()
 		{
-			return (::System::Func_3<::InControl::InputDeviceInfo, ::System::Collections::ObjectModel::ReadOnlyCollection_1<::InControl::NativeInputDevice*>*, ::InControl::NativeInputDevice*>**)Il2CppClass::FromTypeDefinitionIndex(NativeInputDeviceManager_TypeDefinitionIndex)->GetStaticField(0x14FD0);
+			return (::System::Func_3<::InControl::InputDeviceInfo, ::System::Collections::ObjectModel::ReadOnlyCollection_1<::InControl::NativeInputDevice*>*, ::InControl::NativeInputDevice*>**)Il2CppClass::FromTypeDefinitionIndex(NativeInputDeviceManager_TypeDefinitionIndex)->GetStaticField(0x22100);
 		}
 		::System::Collections::Generic::List_1<::InControl::NativeInputDevice*>* attachedDevices; // 0x18
-		::System::Collections::Generic::List_1<::InControl::NativeInputDevice*>* detachedDevices; // 0x20
-		::System::Collections::Generic::List_1<::InControl::InputDeviceProfile*>* systemDeviceProfiles; // 0x28
-		::System::Collections::Generic::List_1<::InControl::InputDeviceProfile*>* customDeviceProfiles; // 0x30
-		::Il2CppArray<::System::UInt32>* deviceEvents; // 0x38
+		::System::Collections::Generic::List_1<::InControl::InputDeviceProfile*>* systemDeviceProfiles; // 0x20
+		::System::Collections::Generic::List_1<::InControl::InputDeviceProfile*>* customDeviceProfiles; // 0x28
+		::Il2CppArray<::System::UInt32>* deviceEvents; // 0x30
+		::System::Collections::Generic::List_1<::InControl::NativeInputDevice*>* detachedDevices; // 0x38
 
 		::System::Void _ctor()
 		{

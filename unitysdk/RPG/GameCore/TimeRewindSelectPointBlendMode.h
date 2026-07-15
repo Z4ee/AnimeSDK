@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TimeRewindSelectPointBlendMode_TypeDefinitionIndex = 16706;
+	inline static constexpr unsigned int TimeRewindSelectPointBlendMode_TypeDefinitionIndex = 16868;
 
 	enum class TimeRewindSelectPointBlendMode : ::System::Int32
 	{

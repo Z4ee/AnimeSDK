@@ -10,13 +10,13 @@ namespace System::Linq::Expressions::Interpreter { class InterpretedFrame; }
 namespace System::Linq::Expressions::Interpreter { class LocalVariables; }
 namespace System::Reflection { class FieldInfo; }
 
-#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_FIELDBYREFUPDATER_UNDEFINETEMPS_OFFSET UNITYSDK_OFFSET(0x1AD79970)
-#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_FIELDBYREFUPDATER_UPDATE_OFFSET UNITYSDK_OFFSET(0x1AD798F0)
-#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_FIELDBYREFUPDATER__CTOR_OFFSET UNITYSDK_OFFSET(0x1AD798D0)
+#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_FIELDBYREFUPDATER_UNDEFINETEMPS_OFFSET UNITYSDK_OFFSET(0x19571760)
+#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_FIELDBYREFUPDATER_UPDATE_OFFSET UNITYSDK_OFFSET(0x19571670)
+#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_FIELDBYREFUPDATER__CTOR_OFFSET UNITYSDK_OFFSET(0x19571650)
 
 namespace System::Linq::Expressions::Interpreter
 {
-	inline static constexpr unsigned int FieldByRefUpdater_TypeDefinitionIndex = 3478;
+	inline static constexpr unsigned int FieldByRefUpdater_TypeDefinitionIndex = 3482;
 
 	class FieldByRefUpdater : public ::System::Linq::Expressions::Interpreter::ByRefUpdater
 	{

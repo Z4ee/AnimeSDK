@@ -3,7 +3,7 @@
 
 namespace RPG::Client::LittleGame::FiveDim
 {
-	inline static constexpr unsigned int ComponentInvisibleReason_TypeDefinitionIndex = 39888;
+	inline static constexpr unsigned int ComponentInvisibleReason_TypeDefinitionIndex = 40700;
 
 	enum class ComponentInvisibleReason : ::System::UInt32
 	{
@@ -34,6 +34,7 @@ namespace RPG::Client::LittleGame::FiveDim
 		MinionInit = 0x800000,
 		SimpleHitBox = 0x1000000,
 		CrystalFreeze = 0x2000000,
+		ConveyorDirection = 0x8000000,
 		Max = 0x80000000,
 	};
 }

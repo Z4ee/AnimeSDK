@@ -6,7 +6,7 @@ namespace MessagePack::Formatters { template <typename T> class IMessagePackForm
 
 namespace MessagePack
 {
-	inline static constexpr unsigned int GeneratedMessagePackResolver_Class_1_1275DFE0B563CFB3_TypeDefinitionIndex = 34174;
+	inline static constexpr unsigned int GeneratedMessagePackResolver_Class_1_1275DFE0B563CFB3_TypeDefinitionIndex = 34546;
 
 	template <typename T>
 	class GeneratedMessagePackResolver_Class_1_1275DFE0B563CFB3 : public ::System::Object

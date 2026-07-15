@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int EFollowFreezeSpace_TypeDefinitionIndex = 64007;
+	inline static constexpr unsigned int EFollowFreezeSpace_TypeDefinitionIndex = 65378;
 
 	enum class EFollowFreezeSpace : ::System::Int32
 	{

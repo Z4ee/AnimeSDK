@@ -6,13 +6,13 @@ namespace HoudiniEngineUnity { class Test_CapsuleCollider; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class CapsuleCollider; }
 
-#define HOUDINIENGINEUNITY_TEST_CAPSULECOLLIDER_EXTENSIONS_TOTESTOBJECT_1_OFFSET UNITYSDK_OFFSET(0x17F7E330)
-#define HOUDINIENGINEUNITY_TEST_CAPSULECOLLIDER_EXTENSIONS_TOTESTOBJECT_2_OFFSET UNITYSDK_OFFSET(0x17F7E450)
-#define HOUDINIENGINEUNITY_TEST_CAPSULECOLLIDER_EXTENSIONS_TOTESTOBJECT_OFFSET UNITYSDK_OFFSET(0x17F7E2F0)
+#define HOUDINIENGINEUNITY_TEST_CAPSULECOLLIDER_EXTENSIONS_TOTESTOBJECT_1_OFFSET UNITYSDK_OFFSET(0x1D20A530)
+#define HOUDINIENGINEUNITY_TEST_CAPSULECOLLIDER_EXTENSIONS_TOTESTOBJECT_2_OFFSET UNITYSDK_OFFSET(0x1D20A650)
+#define HOUDINIENGINEUNITY_TEST_CAPSULECOLLIDER_EXTENSIONS_TOTESTOBJECT_OFFSET UNITYSDK_OFFSET(0x1D20A4F0)
 
 namespace HoudiniEngineUnity
 {
-	inline static constexpr unsigned int Test_CapsuleCollider_Extensions_TypeDefinitionIndex = 37765;
+	inline static constexpr unsigned int Test_CapsuleCollider_Extensions_TypeDefinitionIndex = 38573;
 
 	class Test_CapsuleCollider_Extensions : public ::System::Object
 	{

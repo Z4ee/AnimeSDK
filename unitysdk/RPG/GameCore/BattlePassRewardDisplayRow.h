@@ -5,21 +5,21 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_BATTLEPASSREWARDDISPLAYROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x194D3C50)
-#define RPG_GAMECORE_BATTLEPASSREWARDDISPLAYROW__CTOR_OFFSET UNITYSDK_OFFSET(0x194D42E0)
+#define RPG_GAMECORE_BATTLEPASSREWARDDISPLAYROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1A3F3FC0)
+#define RPG_GAMECORE_BATTLEPASSREWARDDISPLAYROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1A3F4650)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int BattlePassRewardDisplayRow_TypeDefinitionIndex = 12256;
+	inline static constexpr unsigned int BattlePassRewardDisplayRow_TypeDefinitionIndex = 12390;
 
 	class BattlePassRewardDisplayRow : public ::System::Object
 	{
 	public:
 		::System::String* RewardIcon; // 0x10
-		::System::UInt32 RewardItem; // 0x18
-		::System::UInt32 ID; // 0x1C
-		::System::Boolean IsNew; // 0x20
-		::System::Boolean NumShow; // 0x21
+		::System::UInt32 ID; // 0x18
+		::System::Boolean NumShow; // 0x1C
+		::System::Boolean IsNew; // 0x1D
+		::System::UInt32 RewardItem; // 0x20
 
 		::System::Void _ctor()
 		{

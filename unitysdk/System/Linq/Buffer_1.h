@@ -6,7 +6,7 @@ namespace System::Collections::Generic { template <typename T> class IEnumerable
 
 namespace System::Linq
 {
-	inline static constexpr unsigned int Buffer_1_TypeDefinitionIndex = 3169;
+	inline static constexpr unsigned int Buffer_1_TypeDefinitionIndex = 3173;
 
 	template <typename TElement>
 	struct Buffer_1

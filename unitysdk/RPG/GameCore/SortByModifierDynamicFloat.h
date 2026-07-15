@@ -7,13 +7,13 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_SORTBYMODIFIERDYNAMICFLOAT_METHOD_3_4E3CC07A6EA15811_OFFSET UNITYSDK_OFFSET(0x19C8FF90)
-#define RPG_GAMECORE_SORTBYMODIFIERDYNAMICFLOAT_METHOD_3_A4A183812FCEAB30_OFFSET UNITYSDK_OFFSET(0x19C8FFE0)
-#define RPG_GAMECORE_SORTBYMODIFIERDYNAMICFLOAT__CTOR_OFFSET UNITYSDK_OFFSET(0x19C8FFD0)
+#define RPG_GAMECORE_SORTBYMODIFIERDYNAMICFLOAT_METHOD_3_A4A183812FCEAB30_OFFSET UNITYSDK_OFFSET(0x1BE53250)
+#define RPG_GAMECORE_SORTBYMODIFIERDYNAMICFLOAT_METHOD_3_EE157DAECBF6D6A6_OFFSET UNITYSDK_OFFSET(0x1BE531F0)
+#define RPG_GAMECORE_SORTBYMODIFIERDYNAMICFLOAT__CTOR_OFFSET UNITYSDK_OFFSET(0x1BE53240)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SortByModifierDynamicFloat_TypeDefinitionIndex = 17353;
+	inline static constexpr unsigned int SortByModifierDynamicFloat_TypeDefinitionIndex = 17526;
 
 	class SortByModifierDynamicFloat : public ::RPG::GameCore::BaseSortConfig
 	{
@@ -28,9 +28,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SORTBYMODIFIERDYNAMICFLOAT__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_4E3CC07A6EA15811(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SortByModifierDynamicFloat*& a2)
+		static ::System::Void Method_3_EE157DAECBF6D6A6(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SortByModifierDynamicFloat*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SortByModifierDynamicFloat*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SORTBYMODIFIERDYNAMICFLOAT_METHOD_3_4E3CC07A6EA15811_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SortByModifierDynamicFloat*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SORTBYMODIFIERDYNAMICFLOAT_METHOD_3_EE157DAECBF6D6A6_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_A4A183812FCEAB30(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SortByModifierDynamicFloat* a2)

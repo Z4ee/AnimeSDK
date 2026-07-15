@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AISourceRetargetType_TypeDefinitionIndex = 14771;
+	inline static constexpr unsigned int AISourceRetargetType_TypeDefinitionIndex = 14931;
 
 	enum class AISourceRetargetType : ::System::Int32
 	{

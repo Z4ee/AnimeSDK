@@ -5,12 +5,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_FREESTYLETRIGGERTRANSITIONINFO_METHOD_2_85E2EB731A15303F_OFFSET UNITYSDK_OFFSET(0x1976F220)
-#define RPG_GAMECORE_FREESTYLETRIGGERTRANSITIONINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x1976F330)
+#define RPG_GAMECORE_FREESTYLETRIGGERTRANSITIONINFO_METHOD_2_85E2EB731A15303F_OFFSET UNITYSDK_OFFSET(0x1B981660)
+#define RPG_GAMECORE_FREESTYLETRIGGERTRANSITIONINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x1B981770)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FreeStyleTriggerTransitionInfo_TypeDefinitionIndex = 16078;
+	inline static constexpr unsigned int FreeStyleTriggerTransitionInfo_TypeDefinitionIndex = 16262;
 
 	class FreeStyleTriggerTransitionInfo : public ::RPG::GameCore::JsonConfig
 	{

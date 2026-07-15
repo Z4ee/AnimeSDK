@@ -16,29 +16,29 @@
 
 namespace System { class String; }
 
-#define CLASS_1_D9F8312298567B44_METHOD_1_43CCBC2ADB276A81_OFFSET UNITYSDK_OFFSET(0x134CCFE0)
-#define CLASS_1_D9F8312298567B44__CCTOR_OFFSET UNITYSDK_OFFSET(0x134CD040)
+#define CLASS_1_D9F8312298567B44_METHOD_1_43CCBC2ADB276A81_OFFSET UNITYSDK_OFFSET(0x16745560)
+#define CLASS_1_D9F8312298567B44__CCTOR_OFFSET UNITYSDK_OFFSET(0x167455C0)
 
-inline static constexpr unsigned int Class_1_D9F8312298567B44_TypeDefinitionIndex = 46181;
+inline static constexpr unsigned int Class_1_D9F8312298567B44_TypeDefinitionIndex = 47146;
 
 class Class_1_D9F8312298567B44 : public ::System::Object
 {
 public:
-	static ::System::Boolean* StaticGet_Field_1_0()
+	static ::UnityEngine::LayerMask* StaticGet_Field_1_0()
 	{
-		return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(Class_1_D9F8312298567B44_TypeDefinitionIndex)->GetStaticField(0x7AF0);
+		return (::UnityEngine::LayerMask*)Il2CppClass::FromTypeDefinitionIndex(Class_1_D9F8312298567B44_TypeDefinitionIndex)->GetStaticField(0x7E60);
 	}
-	static ::UnityEngine::Color* StaticGet_Field_1_1()
+	static ::UnityEngine::Vector3* StaticGet_Field_1_1()
 	{
-		return (::UnityEngine::Color*)Il2CppClass::FromTypeDefinitionIndex(Class_1_D9F8312298567B44_TypeDefinitionIndex)->GetStaticField(0x7AF4);
+		return (::UnityEngine::Vector3*)Il2CppClass::FromTypeDefinitionIndex(Class_1_D9F8312298567B44_TypeDefinitionIndex)->GetStaticField(0x7E64);
 	}
-	static ::UnityEngine::LayerMask* StaticGet_Field_1_2()
+	static ::UnityEngine::Color* StaticGet_Field_1_2()
 	{
-		return (::UnityEngine::LayerMask*)Il2CppClass::FromTypeDefinitionIndex(Class_1_D9F8312298567B44_TypeDefinitionIndex)->GetStaticField(0x7B04);
+		return (::UnityEngine::Color*)Il2CppClass::FromTypeDefinitionIndex(Class_1_D9F8312298567B44_TypeDefinitionIndex)->GetStaticField(0x7E70);
 	}
-	static ::UnityEngine::Vector3* StaticGet_Field_1_3()
+	static ::System::Boolean* StaticGet_Field_1_3()
 	{
-		return (::UnityEngine::Vector3*)Il2CppClass::FromTypeDefinitionIndex(Class_1_D9F8312298567B44_TypeDefinitionIndex)->GetStaticField(0x7B08);
+		return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(Class_1_D9F8312298567B44_TypeDefinitionIndex)->GetStaticField(0x7E80);
 	}
 	// static const ::System::String* Field_1_4; // 0x0
 	// static const ::System::String* Field_1_5; // 0x0

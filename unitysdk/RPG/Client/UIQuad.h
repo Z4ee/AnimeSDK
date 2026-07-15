@@ -9,29 +9,27 @@ namespace UnityEngine { class Sprite; }
 namespace UnityEngine { class Texture; }
 namespace UnityEngine::UI { class VertexHelper; }
 
-#define RPG_CLIENT_UIQUAD_FORCEMESHUPDATE_OFFSET UNITYSDK_OFFSET(0xCB8ED80)
-#define RPG_CLIENT_UIQUAD_GET_MAINTEXTURE_OFFSET UNITYSDK_OFFSET(0xCB8FB50)
-#define RPG_CLIENT_UIQUAD_ONPOPULATEMESH_OFFSET UNITYSDK_OFFSET(0xCB8EE50)
-#define RPG_CLIENT_UIQUAD_SETPROGRESS_OFFSET UNITYSDK_OFFSET(0xCB8FCE0)
-#define RPG_CLIENT_UIQUAD__CCTOR_OFFSET UNITYSDK_OFFSET(0xCB900C0)
-#define RPG_CLIENT_UIQUAD__CTOR_OFFSET UNITYSDK_OFFSET(0xCB8FE60)
-#define RPG_CLIENT_UIQUAD___IFIXBASEPROXY_GET_MAINTEXTURE_OFFSET UNITYSDK_OFFSET(0xCB90100)
-#define RPG_CLIENT_UIQUAD___IFIXBASEPROXY_ONPOPULATEMESH_OFFSET UNITYSDK_OFFSET(0xCB900F0)
+#define RPG_CLIENT_UIQUAD_FORCEMESHUPDATE_OFFSET UNITYSDK_OFFSET(0x18307C70)
+#define RPG_CLIENT_UIQUAD_GET_MAINTEXTURE_OFFSET UNITYSDK_OFFSET(0x183089A0)
+#define RPG_CLIENT_UIQUAD_ONPOPULATEMESH_OFFSET UNITYSDK_OFFSET(0x18307D40)
+#define RPG_CLIENT_UIQUAD_SETPROGRESS_OFFSET UNITYSDK_OFFSET(0x18308C50)
+#define RPG_CLIENT_UIQUAD__CCTOR_OFFSET UNITYSDK_OFFSET(0x18309010)
+#define RPG_CLIENT_UIQUAD__CTOR_OFFSET UNITYSDK_OFFSET(0x18308DD0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int UIQuad_TypeDefinitionIndex = 67921;
+	inline static constexpr unsigned int UIQuad_TypeDefinitionIndex = 69407;
 
 	class UIQuad : public ::UnityEngine::UI::MaskableGraphic
 	{
 	public:
 		static ::UnityEngine::Vector3* StaticGet_UINormal()
 		{
-			return (::UnityEngine::Vector3*)Il2CppClass::FromTypeDefinitionIndex(UIQuad_TypeDefinitionIndex)->GetStaticField(0x12640);
+			return (::UnityEngine::Vector3*)Il2CppClass::FromTypeDefinitionIndex(UIQuad_TypeDefinitionIndex)->GetStaticField(0xE340);
 		}
 		static ::UnityEngine::Vector4* StaticGet_UITangent()
 		{
-			return (::UnityEngine::Vector4*)Il2CppClass::FromTypeDefinitionIndex(UIQuad_TypeDefinitionIndex)->GetStaticField(0x1264C);
+			return (::UnityEngine::Vector4*)Il2CppClass::FromTypeDefinitionIndex(UIQuad_TypeDefinitionIndex)->GetStaticField(0xE34C);
 		}
 		::UnityEngine::Sprite* sprite; // 0xF0
 		::System::Single StartValue; // 0xF8
@@ -68,16 +66,6 @@ namespace RPG::Client
 		::System::Void SetProgress(::System::Single a1)
 		{
 			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_UIQUAD_SETPROGRESS_OFFSET))(this, a1);
-		}
-
-		::System::Void __iFixBaseProxy_OnPopulateMesh(::UnityEngine::UI::VertexHelper* a1)
-		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::UI::VertexHelper*))((::PBYTE)hIl2Cpp + RPG_CLIENT_UIQUAD___IFIXBASEPROXY_ONPOPULATEMESH_OFFSET))(this, a1);
-		}
-
-		::UnityEngine::Texture* __iFixBaseProxy_get_mainTexture()
-		{
-			return ((::UnityEngine::Texture*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_UIQUAD___IFIXBASEPROXY_GET_MAINTEXTURE_OFFSET))(this);
 		}
 	};
 }

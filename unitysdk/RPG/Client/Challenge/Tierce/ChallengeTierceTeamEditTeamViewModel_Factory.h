@@ -9,20 +9,20 @@ namespace RPG::Client::Challenge::Tierce { class ChallengeTierceStageViewModel_F
 namespace RPG::Client::Challenge::Tierce { class ChallengeTierceTeamEditTeamViewModel; }
 namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
 
-#define RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCETEAMEDITTEAMVIEWMODEL_FACTORY_CREATEALL_OFFSET UNITYSDK_OFFSET(0xB4EB6F0)
-#define RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCETEAMEDITTEAMVIEWMODEL_FACTORY_CREATEONE_OFFSET UNITYSDK_OFFSET(0xB4EB620)
-#define RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCETEAMEDITTEAMVIEWMODEL_FACTORY__CTOR_OFFSET UNITYSDK_OFFSET(0xB4EB610)
+#define RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCETEAMEDITTEAMVIEWMODEL_FACTORY_CREATEALL_OFFSET UNITYSDK_OFFSET(0x1877DBB0)
+#define RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCETEAMEDITTEAMVIEWMODEL_FACTORY_CREATEONE_OFFSET UNITYSDK_OFFSET(0x1877DAE0)
+#define RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCETEAMEDITTEAMVIEWMODEL_FACTORY__CTOR_OFFSET UNITYSDK_OFFSET(0x1877DAD0)
 
 namespace RPG::Client::Challenge::Tierce
 {
-	inline static constexpr unsigned int ChallengeTierceTeamEditTeamViewModel_Factory_TypeDefinitionIndex = 74277;
+	inline static constexpr unsigned int ChallengeTierceTeamEditTeamViewModel_Factory_TypeDefinitionIndex = 76661;
 
 	class ChallengeTierceTeamEditTeamViewModel_Factory : public ::System::Object
 	{
 	public:
-		::Class_1_DDF2C200AE487775* _AvatarQueryService; // 0x10
+		::Class_1_19DB14C0C5CFE108* _TeamConflictCheckService; // 0x10
 		::RPG::Client::Challenge::Tierce::ChallengeTierceStageViewModel_Factory* _StageFactory; // 0x18
-		::Class_1_19DB14C0C5CFE108* _TeamConflictCheckService; // 0x20
+		::Class_1_DDF2C200AE487775* _AvatarQueryService; // 0x20
 
 		::System::Void _ctor(::Class_1_DDF2C200AE487775* a1, ::RPG::Client::Challenge::Tierce::ChallengeTierceStageViewModel_Factory* a2, ::Class_1_19DB14C0C5CFE108* a3)
 		{

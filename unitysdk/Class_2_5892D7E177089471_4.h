@@ -1,15 +1,15 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Class_1_46DD0805BD563560.h"
+#include "unitysdk/Class_1_1049829BF7973998.h"
 #include "unitysdk/RPG/Client/SequentialPanelContainer/EdgeDirection.h"
 #include "unitysdk/System/ValueTuple_2.h"
 
-#define CLASS_2_5892D7E177089471_4_METHOD_2_AE31073233167114_OFFSET UNITYSDK_OFFSET(0x143A6100)
-#define CLASS_2_5892D7E177089471_4__CTOR_OFFSET UNITYSDK_OFFSET(0x143A6160)
+#define CLASS_2_5892D7E177089471_4_METHOD_2_AE31073233167114_OFFSET UNITYSDK_OFFSET(0x14A5B300)
+#define CLASS_2_5892D7E177089471_4__CTOR_OFFSET UNITYSDK_OFFSET(0x14A5B360)
 
-inline static constexpr unsigned int Class_2_5892D7E177089471_4_TypeDefinitionIndex = 69791;
+inline static constexpr unsigned int Class_2_5892D7E177089471_4_TypeDefinitionIndex = 71314;
 
-class Class_2_5892D7E177089471_4 : public ::Class_1_46DD0805BD563560
+class Class_2_5892D7E177089471_4 : public ::Class_1_1049829BF7973998
 {
 public:
 	::System::Void _ctor()

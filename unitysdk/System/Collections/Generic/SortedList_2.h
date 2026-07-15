@@ -17,7 +17,7 @@ namespace System::Collections::Generic { template <typename T> class IList_1; }
 
 namespace System::Collections::Generic
 {
-	inline static constexpr unsigned int SortedList_2_TypeDefinitionIndex = 3023;
+	inline static constexpr unsigned int SortedList_2_TypeDefinitionIndex = 3027;
 
 	template <typename TKey, typename TValue>
 	class SortedList_2 : public ::System::Object

@@ -5,13 +5,13 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_ADVPLAYERCANCELRIDE_METHOD_3_872F4BC88B503F6B_OFFSET UNITYSDK_OFFSET(0x19430F40)
-#define RPG_GAMECORE_ADVPLAYERCANCELRIDE_METHOD_3_F011DA45BECA2B42_OFFSET UNITYSDK_OFFSET(0x19430FC0)
-#define RPG_GAMECORE_ADVPLAYERCANCELRIDE__CTOR_OFFSET UNITYSDK_OFFSET(0x19430F90)
+#define RPG_GAMECORE_ADVPLAYERCANCELRIDE_METHOD_3_E02CB2961AF68F39_OFFSET UNITYSDK_OFFSET(0x1BE27FD0)
+#define RPG_GAMECORE_ADVPLAYERCANCELRIDE_METHOD_3_F011DA45BECA2B42_OFFSET UNITYSDK_OFFSET(0x1BE28010)
+#define RPG_GAMECORE_ADVPLAYERCANCELRIDE__CTOR_OFFSET UNITYSDK_OFFSET(0x1BE28000)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AdvPlayerCancelRide_TypeDefinitionIndex = 19881;
+	inline static constexpr unsigned int AdvPlayerCancelRide_TypeDefinitionIndex = 20245;
 
 	class AdvPlayerCancelRide : public ::RPG::GameCore::TaskConfig
 	{
@@ -23,9 +23,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVPLAYERCANCELRIDE__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_872F4BC88B503F6B(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AdvPlayerCancelRide*& a2)
+		static ::System::Void Method_3_E02CB2961AF68F39(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AdvPlayerCancelRide*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::AdvPlayerCancelRide*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVPLAYERCANCELRIDE_METHOD_3_872F4BC88B503F6B_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::AdvPlayerCancelRide*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVPLAYERCANCELRIDE_METHOD_3_E02CB2961AF68F39_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_F011DA45BECA2B42(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AdvPlayerCancelRide* a2)

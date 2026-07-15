@@ -10,13 +10,13 @@ namespace RPG::GameCore { class TargetEvaluator; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_TRIGGERABILITY_METHOD_3_960902033F5E69E6_OFFSET UNITYSDK_OFFSET(0x19E067D0)
-#define RPG_GAMECORE_TRIGGERABILITY_METHOD_3_DC2AB14032F3953A_OFFSET UNITYSDK_OFFSET(0x19E06750)
-#define RPG_GAMECORE_TRIGGERABILITY__CTOR_OFFSET UNITYSDK_OFFSET(0x19E067A0)
+#define RPG_GAMECORE_TRIGGERABILITY_METHOD_3_911A4AFF3EDF9F58_OFFSET UNITYSDK_OFFSET(0x1B044650)
+#define RPG_GAMECORE_TRIGGERABILITY_METHOD_3_960902033F5E69E6_OFFSET UNITYSDK_OFFSET(0x1B044690)
+#define RPG_GAMECORE_TRIGGERABILITY__CTOR_OFFSET UNITYSDK_OFFSET(0x1B044680)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TriggerAbility_TypeDefinitionIndex = 21448;
+	inline static constexpr unsigned int TriggerAbility_TypeDefinitionIndex = 21868;
 
 	class TriggerAbility : public ::RPG::GameCore::TaskConfig
 	{
@@ -33,9 +33,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TRIGGERABILITY__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_DC2AB14032F3953A(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::TriggerAbility*& a2)
+		static ::System::Void Method_3_911A4AFF3EDF9F58(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::TriggerAbility*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::TriggerAbility*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TRIGGERABILITY_METHOD_3_DC2AB14032F3953A_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::TriggerAbility*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TRIGGERABILITY_METHOD_3_911A4AFF3EDF9F58_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_960902033F5E69E6(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::TriggerAbility* a2)

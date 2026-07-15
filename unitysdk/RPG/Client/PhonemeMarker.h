@@ -6,7 +6,7 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int PhonemeMarker_TypeDefinitionIndex = 44364;
+	inline static constexpr unsigned int PhonemeMarker_TypeDefinitionIndex = 45234;
 
 	struct alignas(8) PhonemeMarker
 	{

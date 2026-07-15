@@ -5,7 +5,7 @@
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int ParticleSystem_PlaybackState_Seed4_TypeDefinitionIndex = 5724;
+	inline static constexpr unsigned int ParticleSystem_PlaybackState_Seed4_TypeDefinitionIndex = 5729;
 
 	struct alignas(4) ParticleSystem_PlaybackState_Seed4
 	{

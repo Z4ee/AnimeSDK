@@ -9,7 +9,7 @@ namespace System { template <typename T1, typename T2, typename T3, typename T4,
 
 namespace MessagePack::Formatters
 {
-	inline static constexpr unsigned int TupleFormatter_6_TypeDefinitionIndex = 7465;
+	inline static constexpr unsigned int TupleFormatter_6_TypeDefinitionIndex = 7471;
 
 	template <typename T1, typename T2, typename T3, typename T4, typename T5, typename T6>
 	class TupleFormatter_6 : public ::System::Object

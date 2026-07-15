@@ -3,7 +3,7 @@
 
 namespace System::Xml
 {
-	inline static constexpr unsigned int ReadState_TypeDefinitionIndex = 1814;
+	inline static constexpr unsigned int ReadState_TypeDefinitionIndex = 1818;
 
 	enum class ReadState : ::System::Int32
 	{

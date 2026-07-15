@@ -5,18 +5,18 @@
 namespace RPG::Client { class AsyncCheckItemBase; }
 namespace RPG::Client::Promises { template <typename T> class Promise_1; }
 
-#define RPG_CLIENT_ASYNCCHECKITEMBASE___C__DISPLAYCLASS13_0__CTOR_OFFSET UNITYSDK_OFFSET(0xB336970)
-#define RPG_CLIENT_ASYNCCHECKITEMBASE___C__DISPLAYCLASS13_0__DOCHECKWITHPROMISE_B__0_OFFSET UNITYSDK_OFFSET(0xB336B00)
+#define RPG_CLIENT_ASYNCCHECKITEMBASE___C__DISPLAYCLASS13_0__CTOR_OFFSET UNITYSDK_OFFSET(0x19B3B9E0)
+#define RPG_CLIENT_ASYNCCHECKITEMBASE___C__DISPLAYCLASS13_0__DOCHECKWITHPROMISE_B__0_OFFSET UNITYSDK_OFFSET(0x19B3BC60)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int AsyncCheckItemBase___c__DisplayClass13_0_TypeDefinitionIndex = 55968;
+	inline static constexpr unsigned int AsyncCheckItemBase___c__DisplayClass13_0_TypeDefinitionIndex = 57207;
 
 	class AsyncCheckItemBase___c__DisplayClass13_0 : public ::System::Object
 	{
 	public:
-		::RPG::Client::Promises::Promise_1<::System::Boolean>* resultPromise; // 0x10
-		::RPG::Client::AsyncCheckItemBase* __4__this; // 0x18
+		::RPG::Client::AsyncCheckItemBase* __4__this; // 0x10
+		::RPG::Client::Promises::Promise_1<::System::Boolean>* resultPromise; // 0x18
 
 		::System::Void _ctor()
 		{

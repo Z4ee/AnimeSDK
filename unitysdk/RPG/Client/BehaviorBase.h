@@ -7,14 +7,14 @@ namespace System { class String; }
 namespace System { template <typename T> class Action_1; }
 namespace UnityEngine { class MonoBehaviour; }
 
-#define RPG_CLIENT_BEHAVIORBASE_DISPOSE_OFFSET UNITYSDK_OFFSET(0xB425790)
-#define RPG_CLIENT_BEHAVIORBASE_METHOD_1_60AA426059997E64_OFFSET UNITYSDK_OFFSET(0xB4257E0)
-#define RPG_CLIENT_BEHAVIORBASE_METHOD_1_BB7A80635436443C_OFFSET UNITYSDK_OFFSET(0xB425740)
-#define RPG_CLIENT_BEHAVIORBASE__CTOR_OFFSET UNITYSDK_OFFSET(0xB4258B0)
+#define RPG_CLIENT_BEHAVIORBASE_DISPOSE_OFFSET UNITYSDK_OFFSET(0x19FCB920)
+#define RPG_CLIENT_BEHAVIORBASE_METHOD_1_8583C5AC29198FC4_OFFSET UNITYSDK_OFFSET(0x19FCB970)
+#define RPG_CLIENT_BEHAVIORBASE_METHOD_1_BB7A80635436443C_OFFSET UNITYSDK_OFFSET(0x19FCB8D0)
+#define RPG_CLIENT_BEHAVIORBASE__CTOR_OFFSET UNITYSDK_OFFSET(0x19FCBA40)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int BehaviorBase_TypeDefinitionIndex = 65787;
+	inline static constexpr unsigned int BehaviorBase_TypeDefinitionIndex = 67204;
 
 	class BehaviorBase : public ::System::Object
 	{
@@ -36,9 +36,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_BEHAVIORBASE_DISPOSE_OFFSET))(this);
 		}
 
-		::System::Void Method_1_60AA426059997E64(::System::String* a1)
+		::System::Void Method_1_8583C5AC29198FC4(::System::String* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_BEHAVIORBASE_METHOD_1_60AA426059997E64_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_BEHAVIORBASE_METHOD_1_8583C5AC29198FC4_OFFSET))(this, a1);
 		}
 	};
 }

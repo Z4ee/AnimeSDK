@@ -5,13 +5,13 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_ADVENTUREPLAYVO_METHOD_3_136F2CFA50D25C17_OFFSET UNITYSDK_OFFSET(0x19451940)
-#define RPG_GAMECORE_ADVENTUREPLAYVO_METHOD_3_301706B1CB7FD866_OFFSET UNITYSDK_OFFSET(0x194518C0)
-#define RPG_GAMECORE_ADVENTUREPLAYVO__CTOR_OFFSET UNITYSDK_OFFSET(0x19451910)
+#define RPG_GAMECORE_ADVENTUREPLAYVO_METHOD_3_136F2CFA50D25C17_OFFSET UNITYSDK_OFFSET(0x1AE60290)
+#define RPG_GAMECORE_ADVENTUREPLAYVO_METHOD_3_879E3AD042A4835C_OFFSET UNITYSDK_OFFSET(0x1AE60250)
+#define RPG_GAMECORE_ADVENTUREPLAYVO__CTOR_OFFSET UNITYSDK_OFFSET(0x1AE60280)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AdventurePlayVO_TypeDefinitionIndex = 19604;
+	inline static constexpr unsigned int AdventurePlayVO_TypeDefinitionIndex = 19963;
 
 	class AdventurePlayVO : public ::RPG::GameCore::TaskConfig
 	{
@@ -23,9 +23,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVENTUREPLAYVO__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_301706B1CB7FD866(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AdventurePlayVO*& a2)
+		static ::System::Void Method_3_879E3AD042A4835C(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AdventurePlayVO*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::AdventurePlayVO*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVENTUREPLAYVO_METHOD_3_301706B1CB7FD866_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::AdventurePlayVO*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVENTUREPLAYVO_METHOD_3_879E3AD042A4835C_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_136F2CFA50D25C17(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AdventurePlayVO* a2)

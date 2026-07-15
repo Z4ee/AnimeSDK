@@ -5,13 +5,13 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_ST_SIDE_COMMITCD_METHOD_4_0252DC9640A9BF89_OFFSET UNITYSDK_OFFSET(0x19C07C50)
-#define RPG_GAMECORE_ST_SIDE_COMMITCD_METHOD_4_51F960D2A82DCCF1_OFFSET UNITYSDK_OFFSET(0x19C19B00)
-#define RPG_GAMECORE_ST_SIDE_COMMITCD__CTOR_OFFSET UNITYSDK_OFFSET(0x19C07C00)
+#define RPG_GAMECORE_ST_SIDE_COMMITCD_METHOD_4_0252DC9640A9BF89_OFFSET UNITYSDK_OFFSET(0x1B787E30)
+#define RPG_GAMECORE_ST_SIDE_COMMITCD_METHOD_4_3CC611E15DD90F1C_OFFSET UNITYSDK_OFFSET(0x1B787DF0)
+#define RPG_GAMECORE_ST_SIDE_COMMITCD__CTOR_OFFSET UNITYSDK_OFFSET(0x1B787E20)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ST_Side_CommitCD_TypeDefinitionIndex = 19006;
+	inline static constexpr unsigned int ST_Side_CommitCD_TypeDefinitionIndex = 19357;
 
 	class ST_Side_CommitCD : public ::RPG::GameCore::STTaskConfig
 	{
@@ -26,9 +26,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ST_SIDE_COMMITCD__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_4_51F960D2A82DCCF1(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ST_Side_CommitCD*& a2)
+		static ::System::Void Method_4_3CC611E15DD90F1C(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ST_Side_CommitCD*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ST_Side_CommitCD*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ST_SIDE_COMMITCD_METHOD_4_51F960D2A82DCCF1_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ST_Side_CommitCD*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ST_SIDE_COMMITCD_METHOD_4_3CC611E15DD90F1C_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_4_0252DC9640A9BF89(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ST_Side_CommitCD* a2)

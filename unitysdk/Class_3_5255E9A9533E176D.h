@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class ClearTalkUI; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_5255E9A9533E176D_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x141A63D0)
-#define CLASS_3_5255E9A9533E176D__CTOR_OFFSET UNITYSDK_OFFSET(0x141A63A0)
+#define CLASS_3_5255E9A9533E176D_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x18B1E320)
+#define CLASS_3_5255E9A9533E176D__CTOR_OFFSET UNITYSDK_OFFSET(0x18B1E2F0)
 
-inline static constexpr unsigned int Class_3_5255E9A9533E176D_TypeDefinitionIndex = 54225;
+inline static constexpr unsigned int Class_3_5255E9A9533E176D_TypeDefinitionIndex = 55448;
 
 class Class_3_5255E9A9533E176D : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::ClearTalkUI*>
 {

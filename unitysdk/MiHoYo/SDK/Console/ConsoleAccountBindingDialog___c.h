@@ -5,24 +5,24 @@
 namespace MiHoYo::SDK::Console { class ConsoleAccountBindingDialog; }
 namespace System { template <typename T> class Action_1; }
 
-#define MIHOYO_SDK_CONSOLE_CONSOLEACCOUNTBINDINGDIALOG___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x182306A0)
-#define MIHOYO_SDK_CONSOLE_CONSOLEACCOUNTBINDINGDIALOG___C__CTOR_OFFSET UNITYSDK_OFFSET(0x182306E0)
-#define MIHOYO_SDK_CONSOLE_CONSOLEACCOUNTBINDINGDIALOG___C__SHOW_B__66_0_OFFSET UNITYSDK_OFFSET(0x182306F0)
+#define MIHOYO_SDK_CONSOLE_CONSOLEACCOUNTBINDINGDIALOG___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x163C4AF0)
+#define MIHOYO_SDK_CONSOLE_CONSOLEACCOUNTBINDINGDIALOG___C__CTOR_OFFSET UNITYSDK_OFFSET(0x163C4B30)
+#define MIHOYO_SDK_CONSOLE_CONSOLEACCOUNTBINDINGDIALOG___C__SHOW_B__66_0_OFFSET UNITYSDK_OFFSET(0x163C4B40)
 
 namespace MiHoYo::SDK::Console
 {
-	inline static constexpr unsigned int ConsoleAccountBindingDialog___c_TypeDefinitionIndex = 8655;
+	inline static constexpr unsigned int ConsoleAccountBindingDialog___c_TypeDefinitionIndex = 8667;
 
 	class ConsoleAccountBindingDialog___c : public ::System::Object
 	{
 	public:
 		static ::MiHoYo::SDK::Console::ConsoleAccountBindingDialog___c** StaticGet___9()
 		{
-			return (::MiHoYo::SDK::Console::ConsoleAccountBindingDialog___c**)Il2CppClass::FromTypeDefinitionIndex(ConsoleAccountBindingDialog___c_TypeDefinitionIndex)->GetStaticField(0xF440);
+			return (::MiHoYo::SDK::Console::ConsoleAccountBindingDialog___c**)Il2CppClass::FromTypeDefinitionIndex(ConsoleAccountBindingDialog___c_TypeDefinitionIndex)->GetStaticField(0x18C60);
 		}
 		static ::System::Action_1<::MiHoYo::SDK::Console::ConsoleAccountBindingDialog*>** StaticGet___9__66_0()
 		{
-			return (::System::Action_1<::MiHoYo::SDK::Console::ConsoleAccountBindingDialog*>**)Il2CppClass::FromTypeDefinitionIndex(ConsoleAccountBindingDialog___c_TypeDefinitionIndex)->GetStaticField(0xF448);
+			return (::System::Action_1<::MiHoYo::SDK::Console::ConsoleAccountBindingDialog*>**)Il2CppClass::FromTypeDefinitionIndex(ConsoleAccountBindingDialog___c_TypeDefinitionIndex)->GetStaticField(0x18C68);
 		}
 
 		static ::System::Void _cctor()

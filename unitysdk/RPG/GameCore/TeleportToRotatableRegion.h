@@ -6,13 +6,13 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class DynamicFloat; }
 namespace RPG::GameCore { class DynamicString; }
 
-#define RPG_GAMECORE_TELEPORTTOROTATABLEREGION_METHOD_3_7ABD475A088DE650_OFFSET UNITYSDK_OFFSET(0x19DDE890)
-#define RPG_GAMECORE_TELEPORTTOROTATABLEREGION_METHOD_3_DF52A9DA33B68B91_OFFSET UNITYSDK_OFFSET(0x19DDE910)
-#define RPG_GAMECORE_TELEPORTTOROTATABLEREGION__CTOR_OFFSET UNITYSDK_OFFSET(0x19DDE8E0)
+#define RPG_GAMECORE_TELEPORTTOROTATABLEREGION_METHOD_3_0CBCA87102F077C4_OFFSET UNITYSDK_OFFSET(0x1C14AD70)
+#define RPG_GAMECORE_TELEPORTTOROTATABLEREGION_METHOD_3_DF52A9DA33B68B91_OFFSET UNITYSDK_OFFSET(0x1C14ADB0)
+#define RPG_GAMECORE_TELEPORTTOROTATABLEREGION__CTOR_OFFSET UNITYSDK_OFFSET(0x1C14ADA0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TeleportToRotatableRegion_TypeDefinitionIndex = 19771;
+	inline static constexpr unsigned int TeleportToRotatableRegion_TypeDefinitionIndex = 20131;
 
 	class TeleportToRotatableRegion : public ::RPG::GameCore::TaskConfig
 	{
@@ -27,9 +27,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TELEPORTTOROTATABLEREGION__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_7ABD475A088DE650(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::TeleportToRotatableRegion*& a2)
+		static ::System::Void Method_3_0CBCA87102F077C4(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::TeleportToRotatableRegion*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::TeleportToRotatableRegion*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TELEPORTTOROTATABLEREGION_METHOD_3_7ABD475A088DE650_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::TeleportToRotatableRegion*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TELEPORTTOROTATABLEREGION_METHOD_3_0CBCA87102F077C4_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_DF52A9DA33B68B91(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::TeleportToRotatableRegion* a2)

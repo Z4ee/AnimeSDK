@@ -4,7 +4,7 @@
 
 namespace ZenFulcrum::VR::OpenVRBinding
 {
-	inline static constexpr unsigned int HmdVector3d_t_TypeDefinitionIndex = 36331;
+	inline static constexpr unsigned int HmdVector3d_t_TypeDefinitionIndex = 37113;
 
 	struct alignas(8) HmdVector3d_t
 	{

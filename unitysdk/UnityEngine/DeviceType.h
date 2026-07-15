@@ -3,7 +3,7 @@
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int DeviceType_TypeDefinitionIndex = 4374;
+	inline static constexpr unsigned int DeviceType_TypeDefinitionIndex = 4379;
 
 	enum class DeviceType : ::System::Int32
 	{

@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int AkMultiPositionType_TypeDefinitionIndex = 41148;
+inline static constexpr unsigned int AkMultiPositionType_TypeDefinitionIndex = 41963;
 
 enum class AkMultiPositionType : ::System::Int32
 {

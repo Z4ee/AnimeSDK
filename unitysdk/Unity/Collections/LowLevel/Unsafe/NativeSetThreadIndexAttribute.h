@@ -4,7 +4,7 @@
 
 namespace Unity::Collections::LowLevel::Unsafe
 {
-	inline static constexpr unsigned int NativeSetThreadIndexAttribute_TypeDefinitionIndex = 3984;
+	inline static constexpr unsigned int NativeSetThreadIndexAttribute_TypeDefinitionIndex = 3989;
 
 	class NativeSetThreadIndexAttribute : public ::System::Attribute
 	{

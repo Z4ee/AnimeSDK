@@ -5,13 +5,13 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class DynamicString; }
 
-#define RPG_GAMECORE_ACHIEVEMENTWAITTIME_METHOD_3_819F2AA6F1D6F72F_OFFSET UNITYSDK_OFFSET(0x193C93C0)
-#define RPG_GAMECORE_ACHIEVEMENTWAITTIME_METHOD_3_8F7DB410C408A8B6_OFFSET UNITYSDK_OFFSET(0x193C9440)
-#define RPG_GAMECORE_ACHIEVEMENTWAITTIME__CTOR_OFFSET UNITYSDK_OFFSET(0x193C9410)
+#define RPG_GAMECORE_ACHIEVEMENTWAITTIME_METHOD_3_7ABF897FB14CEEE7_OFFSET UNITYSDK_OFFSET(0x1B9FCDD0)
+#define RPG_GAMECORE_ACHIEVEMENTWAITTIME_METHOD_3_8F7DB410C408A8B6_OFFSET UNITYSDK_OFFSET(0x1B9FCE10)
+#define RPG_GAMECORE_ACHIEVEMENTWAITTIME__CTOR_OFFSET UNITYSDK_OFFSET(0x1B9FCE00)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AchievementWaitTime_TypeDefinitionIndex = 19885;
+	inline static constexpr unsigned int AchievementWaitTime_TypeDefinitionIndex = 20249;
 
 	class AchievementWaitTime : public ::RPG::GameCore::TaskConfig
 	{
@@ -25,9 +25,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ACHIEVEMENTWAITTIME__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_819F2AA6F1D6F72F(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AchievementWaitTime*& a2)
+		static ::System::Void Method_3_7ABF897FB14CEEE7(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AchievementWaitTime*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::AchievementWaitTime*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ACHIEVEMENTWAITTIME_METHOD_3_819F2AA6F1D6F72F_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::AchievementWaitTime*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ACHIEVEMENTWAITTIME_METHOD_3_7ABF897FB14CEEE7_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_8F7DB410C408A8B6(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AchievementWaitTime* a2)

@@ -12,40 +12,40 @@ namespace Google::Protobuf::Reflection { class MessageDescriptor; }
 namespace Proto { class SwitchHandDataNodeSnapshot; }
 namespace System { class String; }
 
-#define PROTO_SWITCHHANDSNAPSHOT_CALCULATESIZE_OFFSET UNITYSDK_OFFSET(0x1A12DA00)
-#define PROTO_SWITCHHANDSNAPSHOT_CLONE_OFFSET UNITYSDK_OFFSET(0x1A11BD00)
-#define PROTO_SWITCHHANDSNAPSHOT_EQUALS_1_OFFSET UNITYSDK_OFFSET(0x1A12D840)
-#define PROTO_SWITCHHANDSNAPSHOT_EQUALS_OFFSET UNITYSDK_OFFSET(0x1A12D730)
-#define PROTO_SWITCHHANDSNAPSHOT_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x1A11CA90)
-#define PROTO_SWITCHHANDSNAPSHOT_GET_PARSER_OFFSET UNITYSDK_OFFSET(0x1A12D600)
-#define PROTO_SWITCHHANDSNAPSHOT_GET_SWITCHHANDLIST_OFFSET UNITYSDK_OFFSET(0x1A12D720)
-#define PROTO_SWITCHHANDSNAPSHOT_MERGEFROM_1_OFFSET UNITYSDK_OFFSET(0x1A12DAA0)
-#define PROTO_SWITCHHANDSNAPSHOT_MERGEFROM_OFFSET UNITYSDK_OFFSET(0x1A11DF70)
-#define PROTO_SWITCHHANDSNAPSHOT_PB__GOOGLE_PROTOBUF_IMESSAGE_GET_DESCRIPTOR_OFFSET UNITYSDK_OFFSET(0x1A12D660)
-#define PROTO_SWITCHHANDSNAPSHOT_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1A12D8F0)
-#define PROTO_SWITCHHANDSNAPSHOT_WRITETO_OFFSET UNITYSDK_OFFSET(0x1A12D950)
-#define PROTO_SWITCHHANDSNAPSHOT__CCTOR_OFFSET UNITYSDK_OFFSET(0x1A12DC60)
-#define PROTO_SWITCHHANDSNAPSHOT__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1A12D670)
-#define PROTO_SWITCHHANDSNAPSHOT__CTOR_OFFSET UNITYSDK_OFFSET(0x1A11DF20)
+#define PROTO_SWITCHHANDSNAPSHOT_CALCULATESIZE_OFFSET UNITYSDK_OFFSET(0x1BEF7480)
+#define PROTO_SWITCHHANDSNAPSHOT_CLONE_OFFSET UNITYSDK_OFFSET(0x1BEE48D0)
+#define PROTO_SWITCHHANDSNAPSHOT_EQUALS_1_OFFSET UNITYSDK_OFFSET(0x1BEF7250)
+#define PROTO_SWITCHHANDSNAPSHOT_EQUALS_OFFSET UNITYSDK_OFFSET(0x1BEF70D0)
+#define PROTO_SWITCHHANDSNAPSHOT_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x1BEE5230)
+#define PROTO_SWITCHHANDSNAPSHOT_GET_PARSER_OFFSET UNITYSDK_OFFSET(0x1BEF6FA0)
+#define PROTO_SWITCHHANDSNAPSHOT_GET_SWITCHHANDLIST_OFFSET UNITYSDK_OFFSET(0x1BEF70C0)
+#define PROTO_SWITCHHANDSNAPSHOT_MERGEFROM_1_OFFSET UNITYSDK_OFFSET(0x1BEF7520)
+#define PROTO_SWITCHHANDSNAPSHOT_MERGEFROM_OFFSET UNITYSDK_OFFSET(0x1BEE68D0)
+#define PROTO_SWITCHHANDSNAPSHOT_PB__GOOGLE_PROTOBUF_IMESSAGE_GET_DESCRIPTOR_OFFSET UNITYSDK_OFFSET(0x1BEF7000)
+#define PROTO_SWITCHHANDSNAPSHOT_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1BEF7370)
+#define PROTO_SWITCHHANDSNAPSHOT_WRITETO_OFFSET UNITYSDK_OFFSET(0x1BEF73D0)
+#define PROTO_SWITCHHANDSNAPSHOT__CCTOR_OFFSET UNITYSDK_OFFSET(0x1BEF76E0)
+#define PROTO_SWITCHHANDSNAPSHOT__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1BEF7010)
+#define PROTO_SWITCHHANDSNAPSHOT__CTOR_OFFSET UNITYSDK_OFFSET(0x1BEE6880)
 
 namespace Proto
 {
-	inline static constexpr unsigned int SwitchHandSnapshot_TypeDefinitionIndex = 24420;
+	inline static constexpr unsigned int SwitchHandSnapshot_TypeDefinitionIndex = 24922;
 
 	class SwitchHandSnapshot : public ::System::Object
 	{
 	public:
-		static ::Google::Protobuf::FieldCodec_1<::Proto::SwitchHandDataNodeSnapshot*>** StaticGet__repeated_switchHandList_codec()
-		{
-			return (::Google::Protobuf::FieldCodec_1<::Proto::SwitchHandDataNodeSnapshot*>**)Il2CppClass::FromTypeDefinitionIndex(SwitchHandSnapshot_TypeDefinitionIndex)->GetStaticField(0x46430);
-		}
 		static ::Google::Protobuf::MessageParser_1<::Proto::SwitchHandSnapshot*>** StaticGet__parser()
 		{
-			return (::Google::Protobuf::MessageParser_1<::Proto::SwitchHandSnapshot*>**)Il2CppClass::FromTypeDefinitionIndex(SwitchHandSnapshot_TypeDefinitionIndex)->GetStaticField(0x46438);
+			return (::Google::Protobuf::MessageParser_1<::Proto::SwitchHandSnapshot*>**)Il2CppClass::FromTypeDefinitionIndex(SwitchHandSnapshot_TypeDefinitionIndex)->GetStaticField(0x409A0);
+		}
+		static ::Google::Protobuf::FieldCodec_1<::Proto::SwitchHandDataNodeSnapshot*>** StaticGet__repeated_switchHandList_codec()
+		{
+			return (::Google::Protobuf::FieldCodec_1<::Proto::SwitchHandDataNodeSnapshot*>**)Il2CppClass::FromTypeDefinitionIndex(SwitchHandSnapshot_TypeDefinitionIndex)->GetStaticField(0x409A8);
 		}
 		// static const ::System::Int32 SwitchHandListFieldNumber = 0x1; // 0x0
-		::Google::Protobuf::UnknownFieldSet* _unknownFields; // 0x10
-		::Google::Protobuf::Collections::RepeatedField_1<::Proto::SwitchHandDataNodeSnapshot*>* switchHandList_; // 0x18
+		::Google::Protobuf::Collections::RepeatedField_1<::Proto::SwitchHandDataNodeSnapshot*>* switchHandList_; // 0x10
+		::Google::Protobuf::UnknownFieldSet* _unknownFields; // 0x18
 
 		::System::Void _ctor()
 		{

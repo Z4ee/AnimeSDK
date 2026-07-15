@@ -6,13 +6,13 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class DiceCombatDiceSelectorConfig; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_DICECOMBATTASKCONFIG_MARKRECOMMENDDICE_METHOD_3_F9BCBEFFED26F9E2_OFFSET UNITYSDK_OFFSET(0x196B96B0)
-#define RPG_GAMECORE_DICECOMBATTASKCONFIG_MARKRECOMMENDDICE_METHOD_3_FD7C2F4D18F7659D_OFFSET UNITYSDK_OFFSET(0x196B3C70)
-#define RPG_GAMECORE_DICECOMBATTASKCONFIG_MARKRECOMMENDDICE__CTOR_OFFSET UNITYSDK_OFFSET(0x196B3C20)
+#define RPG_GAMECORE_DICECOMBATTASKCONFIG_MARKRECOMMENDDICE_METHOD_3_6126108F28A381DF_OFFSET UNITYSDK_OFFSET(0x1C119410)
+#define RPG_GAMECORE_DICECOMBATTASKCONFIG_MARKRECOMMENDDICE_METHOD_3_FD7C2F4D18F7659D_OFFSET UNITYSDK_OFFSET(0x1C119470)
+#define RPG_GAMECORE_DICECOMBATTASKCONFIG_MARKRECOMMENDDICE__CTOR_OFFSET UNITYSDK_OFFSET(0x1C119460)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int DiceCombatTaskConfig_MarkRecommendDice_TypeDefinitionIndex = 15380;
+	inline static constexpr unsigned int DiceCombatTaskConfig_MarkRecommendDice_TypeDefinitionIndex = 15544;
 
 	class DiceCombatTaskConfig_MarkRecommendDice : public ::RPG::GameCore::DiceCombatTaskConfig
 	{
@@ -25,9 +25,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_DICECOMBATTASKCONFIG_MARKRECOMMENDDICE__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_F9BCBEFFED26F9E2(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::DiceCombatTaskConfig_MarkRecommendDice*& a2)
+		static ::System::Void Method_3_6126108F28A381DF(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::DiceCombatTaskConfig_MarkRecommendDice*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::DiceCombatTaskConfig_MarkRecommendDice*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_DICECOMBATTASKCONFIG_MARKRECOMMENDDICE_METHOD_3_F9BCBEFFED26F9E2_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::DiceCombatTaskConfig_MarkRecommendDice*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_DICECOMBATTASKCONFIG_MARKRECOMMENDDICE_METHOD_3_6126108F28A381DF_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_FD7C2F4D18F7659D(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::DiceCombatTaskConfig_MarkRecommendDice* a2)

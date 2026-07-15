@@ -5,22 +5,22 @@
 namespace System { class String; }
 namespace System::Linq::Expressions::Interpreter { class InterpretedFrame; }
 
-#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_SETARRAYITEMINSTRUCTION_GET_CONSUMEDSTACK_OFFSET UNITYSDK_OFFSET(0x1ADB02C0)
-#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_SETARRAYITEMINSTRUCTION_GET_INSTRUCTIONNAME_OFFSET UNITYSDK_OFFSET(0x1ADB02D0)
-#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_SETARRAYITEMINSTRUCTION_RUN_OFFSET UNITYSDK_OFFSET(0x1ADB0310)
-#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_SETARRAYITEMINSTRUCTION__CCTOR_OFFSET UNITYSDK_OFFSET(0x1ADB0480)
-#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_SETARRAYITEMINSTRUCTION__CTOR_OFFSET UNITYSDK_OFFSET(0x1ADB02B0)
+#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_SETARRAYITEMINSTRUCTION_GET_CONSUMEDSTACK_OFFSET UNITYSDK_OFFSET(0x1C1C2700)
+#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_SETARRAYITEMINSTRUCTION_GET_INSTRUCTIONNAME_OFFSET UNITYSDK_OFFSET(0x1C1C2710)
+#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_SETARRAYITEMINSTRUCTION_RUN_OFFSET UNITYSDK_OFFSET(0x1C1C2750)
+#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_SETARRAYITEMINSTRUCTION__CCTOR_OFFSET UNITYSDK_OFFSET(0x1C1C28C0)
+#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_SETARRAYITEMINSTRUCTION__CTOR_OFFSET UNITYSDK_OFFSET(0x1C1C26F0)
 
 namespace System::Linq::Expressions::Interpreter
 {
-	inline static constexpr unsigned int SetArrayItemInstruction_TypeDefinitionIndex = 3300;
+	inline static constexpr unsigned int SetArrayItemInstruction_TypeDefinitionIndex = 3304;
 
 	class SetArrayItemInstruction : public ::System::Linq::Expressions::Interpreter::Instruction
 	{
 	public:
 		static ::System::Linq::Expressions::Interpreter::SetArrayItemInstruction** StaticGet_Instance()
 		{
-			return (::System::Linq::Expressions::Interpreter::SetArrayItemInstruction**)Il2CppClass::FromTypeDefinitionIndex(SetArrayItemInstruction_TypeDefinitionIndex)->GetStaticField(0x2ABC0);
+			return (::System::Linq::Expressions::Interpreter::SetArrayItemInstruction**)Il2CppClass::FromTypeDefinitionIndex(SetArrayItemInstruction_TypeDefinitionIndex)->GetStaticField(0x336E0);
 		}
 
 		::System::Void _ctor()

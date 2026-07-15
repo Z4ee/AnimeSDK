@@ -3,7 +3,7 @@
 
 namespace ZenFulcrum::VR::OpenVRBinding
 {
-	inline static constexpr unsigned int ETrackedControllerRole_TypeDefinitionIndex = 36281;
+	inline static constexpr unsigned int ETrackedControllerRole_TypeDefinitionIndex = 37063;
 
 	enum class ETrackedControllerRole : ::System::Int32
 	{

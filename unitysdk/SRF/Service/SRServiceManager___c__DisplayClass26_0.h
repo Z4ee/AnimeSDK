@@ -5,12 +5,12 @@
 namespace SRF::Service { class SRServiceManager_ServiceStub; }
 namespace SRF::Service { class ServiceSelectorAttribute; }
 
-#define SRF_SERVICE_SRSERVICEMANAGER___C__DISPLAYCLASS26_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1AD1F860)
-#define SRF_SERVICE_SRSERVICEMANAGER___C__DISPLAYCLASS26_0__SCANTYPEFORSELECTORS_B__0_OFFSET UNITYSDK_OFFSET(0x1AD1FAB0)
+#define SRF_SERVICE_SRSERVICEMANAGER___C__DISPLAYCLASS26_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1CED59C0)
+#define SRF_SERVICE_SRSERVICEMANAGER___C__DISPLAYCLASS26_0__SCANTYPEFORSELECTORS_B__0_OFFSET UNITYSDK_OFFSET(0x1CED5C10)
 
 namespace SRF::Service
 {
-	inline static constexpr unsigned int SRServiceManager___c__DisplayClass26_0_TypeDefinitionIndex = 33613;
+	inline static constexpr unsigned int SRServiceManager___c__DisplayClass26_0_TypeDefinitionIndex = 33984;
 
 	class SRServiceManager___c__DisplayClass26_0 : public ::System::Object
 	{

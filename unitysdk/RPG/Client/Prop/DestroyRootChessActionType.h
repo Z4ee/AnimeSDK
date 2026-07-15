@@ -3,7 +3,7 @@
 
 namespace RPG::Client::Prop
 {
-	inline static constexpr unsigned int DestroyRootChessActionType_TypeDefinitionIndex = 73056;
+	inline static constexpr unsigned int DestroyRootChessActionType_TypeDefinitionIndex = 74581;
 
 	enum class DestroyRootChessActionType : ::System::Int32
 	{

@@ -15,13 +15,13 @@ namespace UnityEngine { class Material; }
 namespace UnityEngine { class Mesh; }
 namespace UnityEngine { class Transform; }
 
-#define RPG_CLIENT_PROPINSTANCEMANAGEMONOPLUGIN_GET_IFUSECUSTOMDATA_OFFSET UNITYSDK_OFFSET(0xC664F60)
-#define RPG_CLIENT_PROPINSTANCEMANAGEMONOPLUGIN_SETINSTANCEMATRIX_OFFSET UNITYSDK_OFFSET(0xC664EF0)
-#define RPG_CLIENT_PROPINSTANCEMANAGEMONOPLUGIN__CTOR_OFFSET UNITYSDK_OFFSET(0xC664F70)
+#define RPG_CLIENT_PROPINSTANCEMANAGEMONOPLUGIN_GET_IFUSECUSTOMDATA_OFFSET UNITYSDK_OFFSET(0x16149580)
+#define RPG_CLIENT_PROPINSTANCEMANAGEMONOPLUGIN_SETINSTANCEMATRIX_OFFSET UNITYSDK_OFFSET(0x16149510)
+#define RPG_CLIENT_PROPINSTANCEMANAGEMONOPLUGIN__CTOR_OFFSET UNITYSDK_OFFSET(0x16149590)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int PropInstanceManageMonoPlugin_TypeDefinitionIndex = 66170;
+	inline static constexpr unsigned int PropInstanceManageMonoPlugin_TypeDefinitionIndex = 67595;
 
 	class PropInstanceManageMonoPlugin : public ::RPG::Client::TAMonoPlugin_1<::RPG::Client::PropInstanceManageBehavior*>
 	{

@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int CustomTeamFormationRefreshReason_TypeDefinitionIndex = 53924;
+	inline static constexpr unsigned int CustomTeamFormationRefreshReason_TypeDefinitionIndex = 55147;
 
 	enum class CustomTeamFormationRefreshReason : ::System::Int32
 	{

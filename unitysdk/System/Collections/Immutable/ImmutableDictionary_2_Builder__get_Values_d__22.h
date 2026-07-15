@@ -9,7 +9,7 @@ namespace System::Collections::Immutable { template <typename T1, typename T2> c
 
 namespace System::Collections::Immutable
 {
-	inline static constexpr unsigned int ImmutableDictionary_2_Builder__get_Values_d__22_TypeDefinitionIndex = 6994;
+	inline static constexpr unsigned int ImmutableDictionary_2_Builder__get_Values_d__22_TypeDefinitionIndex = 7000;
 
 	template <typename TKey, typename TValue>
 	class ImmutableDictionary_2_Builder__get_Values_d__22 : public ::System::Object

@@ -5,13 +5,13 @@
 namespace RPG::Client { class UserPrefs; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_ELFHINTTOASTMANAGER___C__DISPLAYCLASS2_0__CHECKFARMHINTS_B__0_OFFSET UNITYSDK_OFFSET(0xB8C50D0)
-#define RPG_CLIENT_ELFHINTTOASTMANAGER___C__DISPLAYCLASS2_0__CHECKFARMHINTS_B__1_OFFSET UNITYSDK_OFFSET(0xB8C5270)
-#define RPG_CLIENT_ELFHINTTOASTMANAGER___C__DISPLAYCLASS2_0__CTOR_OFFSET UNITYSDK_OFFSET(0xB8C4F00)
+#define RPG_CLIENT_ELFHINTTOASTMANAGER___C__DISPLAYCLASS2_0__CHECKFARMHINTS_B__0_OFFSET UNITYSDK_OFFSET(0x18E3A810)
+#define RPG_CLIENT_ELFHINTTOASTMANAGER___C__DISPLAYCLASS2_0__CHECKFARMHINTS_B__1_OFFSET UNITYSDK_OFFSET(0x18E3A9B0)
+#define RPG_CLIENT_ELFHINTTOASTMANAGER___C__DISPLAYCLASS2_0__CTOR_OFFSET UNITYSDK_OFFSET(0x18E3A600)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ElfHintToastManager___c__DisplayClass2_0_TypeDefinitionIndex = 59623;
+	inline static constexpr unsigned int ElfHintToastManager___c__DisplayClass2_0_TypeDefinitionIndex = 60908;
 
 	class ElfHintToastManager___c__DisplayClass2_0 : public ::System::Object
 	{

@@ -3,12 +3,12 @@
 #include "unitysdk/Struct_2_0814C3CA012BD292.h"
 #include "unitysdk/System/Object.h"
 
-class Class_1_9CD491AD3011CBF9;
+class Class_1_B0665B42245E17DA;
 
-#define CLASS_1_8ACB997D6F688C1F___C__DISPLAYCLASS1_0__CTOR_OFFSET UNITYSDK_OFFSET(0x141FEDD0)
-#define CLASS_1_8ACB997D6F688C1F___C__DISPLAYCLASS1_0___GETCOMPAREGROUP_B__0_OFFSET UNITYSDK_OFFSET(0x141FF080)
+#define CLASS_1_8ACB997D6F688C1F___C__DISPLAYCLASS1_0__CTOR_OFFSET UNITYSDK_OFFSET(0x179F0390)
+#define CLASS_1_8ACB997D6F688C1F___C__DISPLAYCLASS1_0___GETCOMPAREGROUP_B__0_OFFSET UNITYSDK_OFFSET(0x179F0640)
 
-inline static constexpr unsigned int Class_1_8ACB997D6F688C1F___c__DisplayClass1_0_TypeDefinitionIndex = 60709;
+inline static constexpr unsigned int Class_1_8ACB997D6F688C1F___c__DisplayClass1_0_TypeDefinitionIndex = 62001;
 
 class Class_1_8ACB997D6F688C1F___c__DisplayClass1_0 : public ::System::Object
 {
@@ -21,8 +21,8 @@ public:
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_8ACB997D6F688C1F___C__DISPLAYCLASS1_0__CTOR_OFFSET))(this);
 	}
 
-	::System::Boolean __GetCompareGroup_b__0(::Class_1_9CD491AD3011CBF9* a1)
+	::System::Boolean __GetCompareGroup_b__0(::Class_1_B0665B42245E17DA* a1)
 	{
-		return ((::System::Boolean(*)(::PVOID, ::Class_1_9CD491AD3011CBF9*))((::PBYTE)hIl2Cpp + CLASS_1_8ACB997D6F688C1F___C__DISPLAYCLASS1_0___GETCOMPAREGROUP_B__0_OFFSET))(this, a1);
+		return ((::System::Boolean(*)(::PVOID, ::Class_1_B0665B42245E17DA*))((::PBYTE)hIl2Cpp + CLASS_1_8ACB997D6F688C1F___C__DISPLAYCLASS1_0___GETCOMPAREGROUP_B__0_OFFSET))(this, a1);
 	}
 };

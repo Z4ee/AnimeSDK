@@ -18,12 +18,12 @@ namespace RPG::GameCore { class VCameraShowTargetEntity; }
 namespace RPG::GameCore { class VCameraStateAdditiveNormalConfig; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_VCAMERACONFIG_METHOD_2_4FD99FC83881B78A_OFFSET UNITYSDK_OFFSET(0x19E3AC30)
-#define RPG_GAMECORE_VCAMERACONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x19E3B0C0)
+#define RPG_GAMECORE_VCAMERACONFIG_METHOD_2_F5582A0539F76621_OFFSET UNITYSDK_OFFSET(0x1B887870)
+#define RPG_GAMECORE_VCAMERACONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1B887CD0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int VCameraConfig_TypeDefinitionIndex = 15605;
+	inline static constexpr unsigned int VCameraConfig_TypeDefinitionIndex = 15777;
 
 	class VCameraConfig : public ::RPG::GameCore::JsonConfig
 	{
@@ -52,9 +52,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_VCAMERACONFIG__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_4FD99FC83881B78A(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::VCameraConfig*& a2)
+		static ::System::Void Method_2_F5582A0539F76621(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::VCameraConfig*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::VCameraConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_VCAMERACONFIG_METHOD_2_4FD99FC83881B78A_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::VCameraConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_VCAMERACONFIG_METHOD_2_F5582A0539F76621_OFFSET))(a1, a2);
 		}
 	};
 }

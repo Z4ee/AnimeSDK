@@ -3,52 +3,58 @@
 #include "unitysdk/RPG/Client/ItemCostState.h"
 #include "unitysdk/System/Object.h"
 
-class Class_1_0C1F75E6F46BE66A;
 class Class_1_6396E99C6B13C372;
-class Class_1_8BD61E18257A8F70;
+class Class_1_8FFE4FDB75EA3A23;
 class Class_1_9694CD6B4882E9AA;
+class Class_1_AE8EBE1CD14F225E;
 namespace Proto { class ItemCost; }
 namespace RPG::Client { class ComposeItemCost; }
 namespace RPG::Client { class ComposeItemData; }
 namespace RPG::Client { class ItemCostCalculateResult; }
 namespace RPG::GameCore { class ItemConfig; }
+namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_ITEMCOSTCALCULATOR_CHECKTARGET_OFFSET UNITYSDK_OFFSET(0xBD64390)
-#define RPG_CLIENT_ITEMCOSTCALCULATOR_CREATE_OFFSET UNITYSDK_OFFSET(0xBD63ED0)
-#define RPG_CLIENT_ITEMCOSTCALCULATOR_GENERATE_OFFSET UNITYSDK_OFFSET(0xBD64110)
-#define RPG_CLIENT_ITEMCOSTCALCULATOR_GETITEMNEEDCOUNT_OFFSET UNITYSDK_OFFSET(0xBD64180)
-#define RPG_CLIENT_ITEMCOSTCALCULATOR_GET_ISDIRTY_OFFSET UNITYSDK_OFFSET(0xBD63A70)
-#define RPG_CLIENT_ITEMCOSTCALCULATOR_GET_RESULTS_OFFSET UNITYSDK_OFFSET(0xBD63DA0)
-#define RPG_CLIENT_ITEMCOSTCALCULATOR_GET_STATE_OFFSET UNITYSDK_OFFSET(0xBD63A90)
-#define RPG_CLIENT_ITEMCOSTCALCULATOR_MARKDIRTY_OFFSET UNITYSDK_OFFSET(0xBD640D0)
-#define RPG_CLIENT_ITEMCOSTCALCULATOR_SETTARGET_OFFSET UNITYSDK_OFFSET(0xBD63FF0)
-#define RPG_CLIENT_ITEMCOSTCALCULATOR_SET_ISDIRTY_OFFSET UNITYSDK_OFFSET(0xBD63A80)
-#define RPG_CLIENT_ITEMCOSTCALCULATOR__CALCULATECOMPOSE_OFFSET UNITYSDK_OFFSET(0xBD64CA0)
-#define RPG_CLIENT_ITEMCOSTCALCULATOR__CALCULATECONVERT_OFFSET UNITYSDK_OFFSET(0xBD64D60)
-#define RPG_CLIENT_ITEMCOSTCALCULATOR__CALCULATESINGLE_OFFSET UNITYSDK_OFFSET(0xBD649C0)
-#define RPG_CLIENT_ITEMCOSTCALCULATOR__CALCULATE_OFFSET UNITYSDK_OFFSET(0xBD647A0)
-#define RPG_CLIENT_ITEMCOSTCALCULATOR__CHECKSINGLE_OFFSET UNITYSDK_OFFSET(0xBD64490)
-#define RPG_CLIENT_ITEMCOSTCALCULATOR__CLEARRESULTS_OFFSET UNITYSDK_OFFSET(0xBD646B0)
-#define RPG_CLIENT_ITEMCOSTCALCULATOR__CTOR_OFFSET UNITYSDK_OFFSET(0xBD63FE0)
-#define RPG_CLIENT_ITEMCOSTCALCULATOR__GETCOMPOSEDATA_OFFSET UNITYSDK_OFFSET(0xBD64E20)
-#define RPG_CLIENT_ITEMCOSTCALCULATOR__GETSTATE_OFFSET UNITYSDK_OFFSET(0xBD63B80)
-#define RPG_CLIENT_ITEMCOSTCALCULATOR__TRYRECALCULATE_OFFSET UNITYSDK_OFFSET(0xBD63B20)
+#define RPG_CLIENT_ITEMCOSTCALCULATOR_CHECKTARGET_1_OFFSET UNITYSDK_OFFSET(0x16C5E800)
+#define RPG_CLIENT_ITEMCOSTCALCULATOR_CHECKTARGET_OFFSET UNITYSDK_OFFSET(0x16C5E430)
+#define RPG_CLIENT_ITEMCOSTCALCULATOR_CREATE_OFFSET UNITYSDK_OFFSET(0x16C5D1F0)
+#define RPG_CLIENT_ITEMCOSTCALCULATOR_GENERATE_OFFSET UNITYSDK_OFFSET(0x16C5D430)
+#define RPG_CLIENT_ITEMCOSTCALCULATOR_GETFULLREQUIREMENTCOSTS_OFFSET UNITYSDK_OFFSET(0x16C5D4A0)
+#define RPG_CLIENT_ITEMCOSTCALCULATOR_GETITEMNEEDCOUNT_OFFSET UNITYSDK_OFFSET(0x16C5E160)
+#define RPG_CLIENT_ITEMCOSTCALCULATOR_GET_ISDIRTY_OFFSET UNITYSDK_OFFSET(0x16C5CD90)
+#define RPG_CLIENT_ITEMCOSTCALCULATOR_GET_RESULTS_OFFSET UNITYSDK_OFFSET(0x16C5D0C0)
+#define RPG_CLIENT_ITEMCOSTCALCULATOR_GET_STATE_OFFSET UNITYSDK_OFFSET(0x16C5CDB0)
+#define RPG_CLIENT_ITEMCOSTCALCULATOR_MARKDIRTY_OFFSET UNITYSDK_OFFSET(0x16C5D3F0)
+#define RPG_CLIENT_ITEMCOSTCALCULATOR_SETTARGET_OFFSET UNITYSDK_OFFSET(0x16C5D310)
+#define RPG_CLIENT_ITEMCOSTCALCULATOR_SET_ISDIRTY_OFFSET UNITYSDK_OFFSET(0x16C5CDA0)
+#define RPG_CLIENT_ITEMCOSTCALCULATOR__CALCULATECOMPOSE_OFFSET UNITYSDK_OFFSET(0x16C5DF80)
+#define RPG_CLIENT_ITEMCOSTCALCULATOR__CALCULATECONVERT_OFFSET UNITYSDK_OFFSET(0x16C5E070)
+#define RPG_CLIENT_ITEMCOSTCALCULATOR__CALCULATESINGLE_1_OFFSET UNITYSDK_OFFSET(0x16C5EEA0)
+#define RPG_CLIENT_ITEMCOSTCALCULATOR__CALCULATESINGLE_OFFSET UNITYSDK_OFFSET(0x16C5EE40)
+#define RPG_CLIENT_ITEMCOSTCALCULATOR__CALCULATE_OFFSET UNITYSDK_OFFSET(0x16C5EB90)
+#define RPG_CLIENT_ITEMCOSTCALCULATOR__CHECKSINGLE_OFFSET UNITYSDK_OFFSET(0x16C5E5C0)
+#define RPG_CLIENT_ITEMCOSTCALCULATOR__CLEARRESULTS_OFFSET UNITYSDK_OFFSET(0x16C5EAA0)
+#define RPG_CLIENT_ITEMCOSTCALCULATOR__CTOR_OFFSET UNITYSDK_OFFSET(0x16C5D300)
+#define RPG_CLIENT_ITEMCOSTCALCULATOR__GETCOMPOSEDATA_OFFSET UNITYSDK_OFFSET(0x16C5F190)
+#define RPG_CLIENT_ITEMCOSTCALCULATOR__GETSTATE_OFFSET UNITYSDK_OFFSET(0x16C5CEA0)
+#define RPG_CLIENT_ITEMCOSTCALCULATOR__GETTARGETNEEDCOUNT_OFFSET UNITYSDK_OFFSET(0x16C5E320)
+#define RPG_CLIENT_ITEMCOSTCALCULATOR__TRYRECALCULATE_OFFSET UNITYSDK_OFFSET(0x16C5CE40)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ItemCostCalculator_TypeDefinitionIndex = 61430;
+	inline static constexpr unsigned int ItemCostCalculator_TypeDefinitionIndex = 62775;
 
 	class ItemCostCalculator : public ::System::Object
 	{
 	public:
 		::Il2CppArray<::RPG::GameCore::ItemConfig*>* _Targets; // 0x10
-		::Class_1_6396E99C6B13C372* _ItemCostCalculatorContext; // 0x18
-		::System::Collections::Generic::List_1<::RPG::Client::ItemCostCalculateResult*>* _Results; // 0x20
-		::Class_1_0C1F75E6F46BE66A* _ItemConvert; // 0x28
+		::System::Collections::Generic::List_1<::RPG::Client::ItemCostCalculateResult*>* _Results; // 0x18
+		::Class_1_AE8EBE1CD14F225E* _ItemCompose; // 0x20
+		::Class_1_6396E99C6B13C372* _ItemCostCalculatorContext; // 0x28
 		::Class_1_9694CD6B4882E9AA* _ItemExchange; // 0x30
-		::Class_1_8BD61E18257A8F70* _ItemCompose; // 0x38
-		::System::Boolean _IsDirty_k__BackingField; // 0x40
+		::System::Collections::Generic::List_1<::RPG::GameCore::ItemConfig*>* _CurFullItemCosts; // 0x38
+		::Class_1_8FFE4FDB75EA3A23* _ItemConvert; // 0x40
+		::System::Boolean _IsDirty_k__BackingField; // 0x48
 
 		::System::Void _ctor()
 		{
@@ -90,6 +96,11 @@ namespace RPG::Client
 			return ((::System::Collections::Generic::List_1<::Proto::ItemCost*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ITEMCOSTCALCULATOR_GENERATE_OFFSET))(this);
 		}
 
+		::System::Collections::Generic::List_1<::RPG::GameCore::ItemConfig*>* GetFullRequirementCosts()
+		{
+			return ((::System::Collections::Generic::List_1<::RPG::GameCore::ItemConfig*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ITEMCOSTCALCULATOR_GETFULLREQUIREMENTCOSTS_OFFSET))(this);
+		}
+
 		::System::Void MarkDirty()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ITEMCOSTCALCULATOR_MARKDIRTY_OFFSET))(this);
@@ -100,9 +111,19 @@ namespace RPG::Client
 			return ((::System::UInt32(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_ITEMCOSTCALCULATOR_GETITEMNEEDCOUNT_OFFSET))(this, a1);
 		}
 
+		::System::UInt32 _GetTargetNeedCount(::System::UInt32 a1)
+		{
+			return ((::System::UInt32(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_ITEMCOSTCALCULATOR__GETTARGETNEEDCOUNT_OFFSET))(this, a1);
+		}
+
 		::System::Boolean CheckTarget(::Il2CppArray<::RPG::GameCore::ItemConfig*>* a1)
 		{
 			return ((::System::Boolean(*)(::PVOID, ::Il2CppArray<::RPG::GameCore::ItemConfig*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ITEMCOSTCALCULATOR_CHECKTARGET_OFFSET))(this, a1);
+		}
+
+		::System::Boolean CheckTarget_1(::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::UInt32>* a1)
+		{
+			return ((::System::Boolean(*)(::PVOID, ::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::UInt32>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ITEMCOSTCALCULATOR_CHECKTARGET_1_OFFSET))(this, a1);
 		}
 
 		::System::Void _TryRecalculate()
@@ -125,19 +146,19 @@ namespace RPG::Client
 			return ((::RPG::Client::ItemCostCalculateResult*(*)(::PVOID, ::RPG::GameCore::ItemConfig*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ITEMCOSTCALCULATOR__CALCULATESINGLE_OFFSET))(this, a1);
 		}
 
-		::System::Boolean _CheckSingle(::RPG::GameCore::ItemConfig* a1)
+		::RPG::Client::ItemCostCalculateResult* _CalculateSingle_1(::Class_1_6396E99C6B13C372* a1, ::RPG::GameCore::ItemConfig* a2)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::RPG::GameCore::ItemConfig*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ITEMCOSTCALCULATOR__CHECKSINGLE_OFFSET))(this, a1);
+			return ((::RPG::Client::ItemCostCalculateResult*(*)(::PVOID, ::Class_1_6396E99C6B13C372*, ::RPG::GameCore::ItemConfig*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ITEMCOSTCALCULATOR__CALCULATESINGLE_1_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void _CalculateCompose(::RPG::GameCore::ItemConfig* a1, ::System::UInt32 a2, ::System::UInt32& a3, ::RPG::Client::ComposeItemCost*& a4)
+		::System::Void _CalculateCompose(::Class_1_6396E99C6B13C372* a1, ::RPG::GameCore::ItemConfig* a2, ::System::UInt32 a3, ::System::UInt32& a4, ::RPG::Client::ComposeItemCost*& a5, ::System::Boolean a6)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::ItemConfig*, ::System::UInt32, ::System::UInt32&, ::RPG::Client::ComposeItemCost*&))((::PBYTE)hIl2Cpp + RPG_CLIENT_ITEMCOSTCALCULATOR__CALCULATECOMPOSE_OFFSET))(this, a1, a2, a3, a4);
+			return ((::System::Void(*)(::PVOID, ::Class_1_6396E99C6B13C372*, ::RPG::GameCore::ItemConfig*, ::System::UInt32, ::System::UInt32&, ::RPG::Client::ComposeItemCost*&, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_ITEMCOSTCALCULATOR__CALCULATECOMPOSE_OFFSET))(this, a1, a2, a3, a4, a5, a6);
 		}
 
-		::System::Void _CalculateConvert(::RPG::GameCore::ItemConfig* a1, ::System::UInt32 a2, ::System::UInt32& a3, ::System::UInt32& a4, ::System::UInt32& a5)
+		::System::Void _CalculateConvert(::Class_1_6396E99C6B13C372* a1, ::RPG::GameCore::ItemConfig* a2, ::System::UInt32 a3, ::System::UInt32& a4, ::System::UInt32& a5, ::System::UInt32& a6, ::System::Boolean a7)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::ItemConfig*, ::System::UInt32, ::System::UInt32&, ::System::UInt32&, ::System::UInt32&))((::PBYTE)hIl2Cpp + RPG_CLIENT_ITEMCOSTCALCULATOR__CALCULATECONVERT_OFFSET))(this, a1, a2, a3, a4, a5);
+			return ((::System::Void(*)(::PVOID, ::Class_1_6396E99C6B13C372*, ::RPG::GameCore::ItemConfig*, ::System::UInt32, ::System::UInt32&, ::System::UInt32&, ::System::UInt32&, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_ITEMCOSTCALCULATOR__CALCULATECONVERT_OFFSET))(this, a1, a2, a3, a4, a5, a6, a7);
 		}
 
 		::RPG::Client::ItemCostState _GetState()
@@ -145,9 +166,14 @@ namespace RPG::Client
 			return ((::RPG::Client::ItemCostState(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ITEMCOSTCALCULATOR__GETSTATE_OFFSET))(this);
 		}
 
-		::RPG::Client::ComposeItemData* _GetComposeData(::System::UInt32 a1)
+		::System::Boolean _CheckSingle(::Class_1_6396E99C6B13C372*& a1, ::RPG::GameCore::ItemConfig* a2)
 		{
-			return ((::RPG::Client::ComposeItemData*(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_ITEMCOSTCALCULATOR__GETCOMPOSEDATA_OFFSET))(this, a1);
+			return ((::System::Boolean(*)(::PVOID, ::Class_1_6396E99C6B13C372*&, ::RPG::GameCore::ItemConfig*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ITEMCOSTCALCULATOR__CHECKSINGLE_OFFSET))(this, a1, a2);
+		}
+
+		::RPG::Client::ComposeItemData* _GetComposeData(::System::UInt32 a1, ::Class_1_6396E99C6B13C372* a2)
+		{
+			return ((::RPG::Client::ComposeItemData*(*)(::PVOID, ::System::UInt32, ::Class_1_6396E99C6B13C372*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ITEMCOSTCALCULATOR__GETCOMPOSEDATA_OFFSET))(this, a1, a2);
 		}
 	};
 }

@@ -5,13 +5,13 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class TargetEvaluator; }
 
-#define RPG_GAMECORE_REWINDTIMEREWINDTARGET_METHOD_3_2749CF8183B8490E_OFFSET UNITYSDK_OFFSET(0x19AE06C0)
-#define RPG_GAMECORE_REWINDTIMEREWINDTARGET_METHOD_3_4852733CF280FA5F_OFFSET UNITYSDK_OFFSET(0x19AE0640)
-#define RPG_GAMECORE_REWINDTIMEREWINDTARGET__CTOR_OFFSET UNITYSDK_OFFSET(0x19AE0690)
+#define RPG_GAMECORE_REWINDTIMEREWINDTARGET_METHOD_3_21553F2438AA514D_OFFSET UNITYSDK_OFFSET(0x1D02C8C0)
+#define RPG_GAMECORE_REWINDTIMEREWINDTARGET_METHOD_3_2749CF8183B8490E_OFFSET UNITYSDK_OFFSET(0x1D02C900)
+#define RPG_GAMECORE_REWINDTIMEREWINDTARGET__CTOR_OFFSET UNITYSDK_OFFSET(0x1D02C8F0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RewindTimeRewindTarget_TypeDefinitionIndex = 19514;
+	inline static constexpr unsigned int RewindTimeRewindTarget_TypeDefinitionIndex = 19872;
 
 	class RewindTimeRewindTarget : public ::RPG::GameCore::TaskConfig
 	{
@@ -23,9 +23,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_REWINDTIMEREWINDTARGET__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_4852733CF280FA5F(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::RewindTimeRewindTarget*& a2)
+		static ::System::Void Method_3_21553F2438AA514D(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::RewindTimeRewindTarget*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::RewindTimeRewindTarget*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_REWINDTIMEREWINDTARGET_METHOD_3_4852733CF280FA5F_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::RewindTimeRewindTarget*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_REWINDTIMEREWINDTARGET_METHOD_3_21553F2438AA514D_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_2749CF8183B8490E(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::RewindTimeRewindTarget* a2)

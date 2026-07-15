@@ -6,7 +6,7 @@ namespace HoudiniEngineUnity { class HEU_SessionBase; }
 
 namespace HoudiniEngineUnity
 {
-	inline static constexpr unsigned int IHEU_HoudiniAssetSubcomponent_TypeDefinitionIndex = 37597;
+	inline static constexpr unsigned int IHEU_HoudiniAssetSubcomponent_TypeDefinitionIndex = 38405;
 
 	class IHEU_HoudiniAssetSubcomponent
 	{

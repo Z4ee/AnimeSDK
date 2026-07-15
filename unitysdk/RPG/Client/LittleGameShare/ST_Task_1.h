@@ -8,7 +8,7 @@ namespace System { class String; }
 
 namespace RPG::Client::LittleGameShare
 {
-	inline static constexpr unsigned int ST_Task_1_TypeDefinitionIndex = 34753;
+	inline static constexpr unsigned int ST_Task_1_TypeDefinitionIndex = 35423;
 
 	template <typename TConfig>
 	class ST_Task_1 : public ::Class_1_0597192E98B9E538

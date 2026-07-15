@@ -6,18 +6,18 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_PIXAIREFFECTROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x19A10700)
-#define RPG_GAMECORE_PIXAIREFFECTROW__CTOR_OFFSET UNITYSDK_OFFSET(0x19A10930)
+#define RPG_GAMECORE_PIXAIREFFECTROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B4CA850)
+#define RPG_GAMECORE_PIXAIREFFECTROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1B4CAA80)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PixAirEffectRow_TypeDefinitionIndex = 11599;
+	inline static constexpr unsigned int PixAirEffectRow_TypeDefinitionIndex = 11699;
 
 	class PixAirEffectRow : public ::System::Object
 	{
 	public:
-		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::UInt32>* ParamMap; // 0x10
-		::Il2CppArray<::System::UInt32>* ParamList; // 0x18
+		::Il2CppArray<::System::UInt32>* ParamList; // 0x10
+		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::UInt32>* ParamMap; // 0x18
 		::RPG::Client::TextID Desc; // 0x20
 		::System::UInt32 EffectID; // 0x30
 

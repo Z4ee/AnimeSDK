@@ -5,19 +5,19 @@
 namespace MiHoYo::SDK { class SecurityTunnel_Packet; }
 namespace MiHoYo::SDK { class SecurityTunnel_ResponseCallbackAction; }
 
-#define MIHOYO_SDK_SECURITYTUNNEL_DATAWRAPPER__CTOR_1_OFFSET UNITYSDK_OFFSET(0xA20C700)
-#define MIHOYO_SDK_SECURITYTUNNEL_DATAWRAPPER__CTOR_OFFSET UNITYSDK_OFFSET(0xA20CDA0)
+#define MIHOYO_SDK_SECURITYTUNNEL_DATAWRAPPER__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1ABB6F90)
+#define MIHOYO_SDK_SECURITYTUNNEL_DATAWRAPPER__CTOR_OFFSET UNITYSDK_OFFSET(0x1ABB75A0)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int SecurityTunnel_DataWrapper_TypeDefinitionIndex = 43800;
+	inline static constexpr unsigned int SecurityTunnel_DataWrapper_TypeDefinitionIndex = 44662;
 
 	class SecurityTunnel_DataWrapper : public ::System::Object
 	{
 	public:
 		::MiHoYo::SDK::SecurityTunnel_ResponseCallbackAction* Callback; // 0x10
-		::MiHoYo::SDK::SecurityTunnel_Packet* Packet; // 0x18
-		::Il2CppArray<::System::Byte>* Bytes; // 0x20
+		::Il2CppArray<::System::Byte>* Bytes; // 0x18
+		::MiHoYo::SDK::SecurityTunnel_Packet* Packet; // 0x20
 
 		::System::Void _ctor(::Il2CppArray<::System::Byte>* a1)
 		{

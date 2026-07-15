@@ -7,7 +7,7 @@ namespace System::Collections::Generic { template <typename T> class LinkedList_
 
 namespace System::Collections::Generic
 {
-	inline static constexpr unsigned int LinkedListNode_1_TypeDefinitionIndex = 3004;
+	inline static constexpr unsigned int LinkedListNode_1_TypeDefinitionIndex = 3008;
 
 	template <typename T>
 	class LinkedListNode_1 : public ::System::Object

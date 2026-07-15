@@ -6,7 +6,7 @@ namespace UnityEngine::Rendering { template <typename T> class ObjectPool_1; }
 
 namespace UnityEngine::Rendering
 {
-	inline static constexpr unsigned int ObjectPool_1_PooledObject_TypeDefinitionIndex = 33683;
+	inline static constexpr unsigned int ObjectPool_1_PooledObject_TypeDefinitionIndex = 34054;
 
 	template <typename T>
 	struct ObjectPool_1_PooledObject

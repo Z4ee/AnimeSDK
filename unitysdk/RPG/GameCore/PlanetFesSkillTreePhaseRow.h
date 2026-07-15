@@ -5,19 +5,19 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_PLANETFESSKILLTREEPHASEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x19A22070)
-#define RPG_GAMECORE_PLANETFESSKILLTREEPHASEROW__CTOR_OFFSET UNITYSDK_OFFSET(0x19A22220)
+#define RPG_GAMECORE_PLANETFESSKILLTREEPHASEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1BA01160)
+#define RPG_GAMECORE_PLANETFESSKILLTREEPHASEROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1BA01310)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PlanetFesSkillTreePhaseRow_TypeDefinitionIndex = 11635;
+	inline static constexpr unsigned int PlanetFesSkillTreePhaseRow_TypeDefinitionIndex = 11735;
 
 	class PlanetFesSkillTreePhaseRow : public ::System::Object
 	{
 	public:
 		::Il2CppArray<::System::UInt32>* UnlockIDList; // 0x10
-		::RPG::Client::TextID Name; // 0x18
-		::System::UInt32 Phase; // 0x28
+		::System::UInt32 Phase; // 0x18
+		::RPG::Client::TextID Name; // 0x20
 
 		::System::Void _ctor()
 		{

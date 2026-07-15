@@ -3,7 +3,7 @@
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int ApplicationInstallMode_TypeDefinitionIndex = 4020;
+	inline static constexpr unsigned int ApplicationInstallMode_TypeDefinitionIndex = 4025;
 
 	enum class ApplicationInstallMode : ::System::Int32
 	{

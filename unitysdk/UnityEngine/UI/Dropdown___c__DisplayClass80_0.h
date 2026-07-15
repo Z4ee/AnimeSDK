@@ -5,12 +5,12 @@
 namespace UnityEngine::UI { class Dropdown; }
 namespace UnityEngine::UI { class Dropdown_DropdownItem; }
 
-#define UNITYENGINE_UI_DROPDOWN___C__DISPLAYCLASS80_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1B395D60)
-#define UNITYENGINE_UI_DROPDOWN___C__DISPLAYCLASS80_0__SHOW_B__0_OFFSET UNITYSDK_OFFSET(0x1B396BA0)
+#define UNITYENGINE_UI_DROPDOWN___C__DISPLAYCLASS80_0__CTOR_OFFSET UNITYSDK_OFFSET(0x19BFDA80)
+#define UNITYENGINE_UI_DROPDOWN___C__DISPLAYCLASS80_0__SHOW_B__0_OFFSET UNITYSDK_OFFSET(0x19BFEA80)
 
 namespace UnityEngine::UI
 {
-	inline static constexpr unsigned int Dropdown___c__DisplayClass80_0_TypeDefinitionIndex = 5868;
+	inline static constexpr unsigned int Dropdown___c__DisplayClass80_0_TypeDefinitionIndex = 5873;
 
 	class Dropdown___c__DisplayClass80_0 : public ::System::Object
 	{

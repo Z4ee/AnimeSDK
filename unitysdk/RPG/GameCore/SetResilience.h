@@ -5,13 +5,13 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_SETRESILIENCE_METHOD_3_7C916FA663862A5F_OFFSET UNITYSDK_OFFSET(0x19C5CDC0)
-#define RPG_GAMECORE_SETRESILIENCE_METHOD_3_9DC7B721C639EC6B_OFFSET UNITYSDK_OFFSET(0x19C5CE40)
-#define RPG_GAMECORE_SETRESILIENCE__CTOR_OFFSET UNITYSDK_OFFSET(0x19C5CE10)
+#define RPG_GAMECORE_SETRESILIENCE_METHOD_3_4525884BB26B5924_OFFSET UNITYSDK_OFFSET(0x1C606A40)
+#define RPG_GAMECORE_SETRESILIENCE_METHOD_3_9DC7B721C639EC6B_OFFSET UNITYSDK_OFFSET(0x1C606A80)
+#define RPG_GAMECORE_SETRESILIENCE__CTOR_OFFSET UNITYSDK_OFFSET(0x1C606A70)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SetResilience_TypeDefinitionIndex = 22197;
+	inline static constexpr unsigned int SetResilience_TypeDefinitionIndex = 22634;
 
 	class SetResilience : public ::RPG::GameCore::TaskConfig
 	{
@@ -24,9 +24,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETRESILIENCE__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_7C916FA663862A5F(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SetResilience*& a2)
+		static ::System::Void Method_3_4525884BB26B5924(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SetResilience*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SetResilience*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETRESILIENCE_METHOD_3_7C916FA663862A5F_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SetResilience*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETRESILIENCE_METHOD_3_4525884BB26B5924_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_9DC7B721C639EC6B(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SetResilience* a2)

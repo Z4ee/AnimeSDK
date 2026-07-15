@@ -7,12 +7,12 @@ namespace System { class Type; }
 namespace System::Linq::Expressions { class Expression; }
 namespace System::Reflection { class MethodInfo; }
 
-#define SYSTEM_LINQ_EXPRESSIONS_METHODBINARYEXPRESSION_GETMETHOD_OFFSET UNITYSDK_OFFSET(0x1ADB4E80)
-#define SYSTEM_LINQ_EXPRESSIONS_METHODBINARYEXPRESSION__CTOR_OFFSET UNITYSDK_OFFSET(0x1ADB4D80)
+#define SYSTEM_LINQ_EXPRESSIONS_METHODBINARYEXPRESSION_GETMETHOD_OFFSET UNITYSDK_OFFSET(0x1C1C7BA0)
+#define SYSTEM_LINQ_EXPRESSIONS_METHODBINARYEXPRESSION__CTOR_OFFSET UNITYSDK_OFFSET(0x1C1C7AA0)
 
 namespace System::Linq::Expressions
 {
-	inline static constexpr unsigned int MethodBinaryExpression_TypeDefinitionIndex = 3177;
+	inline static constexpr unsigned int MethodBinaryExpression_TypeDefinitionIndex = 3181;
 
 	class MethodBinaryExpression : public ::System::Linq::Expressions::SimpleBinaryExpression
 	{

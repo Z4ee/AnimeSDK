@@ -1,11 +1,10 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Enum_3_ED790DAC948A65A9_10.h"
-#include "unitysdk/RPG/Client/TextID.h"
 
-namespace System { class String; }
+class Class_0_16E4307DCC419505_828;
+namespace System::Collections::Generic { template <typename T> class List_1; }
 
-inline static constexpr unsigned int Class_0_16E4307DCC419505_832_TypeDefinitionIndex = 62584;
+inline static constexpr unsigned int Class_0_16E4307DCC419505_832_TypeDefinitionIndex = 62596;
 
 class Class_0_16E4307DCC419505_832
 {

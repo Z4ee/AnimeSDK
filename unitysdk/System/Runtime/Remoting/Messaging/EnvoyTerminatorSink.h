@@ -6,21 +6,21 @@ namespace System::Runtime::Remoting::Messaging { class IMessage; }
 namespace System::Runtime::Remoting::Messaging { class IMessageCtrl; }
 namespace System::Runtime::Remoting::Messaging { class IMessageSink; }
 
-#define SYSTEM_RUNTIME_REMOTING_MESSAGING_ENVOYTERMINATORSINK_ASYNCPROCESSMESSAGE_OFFSET UNITYSDK_OFFSET(0x1878C380)
-#define SYSTEM_RUNTIME_REMOTING_MESSAGING_ENVOYTERMINATORSINK_SYNCPROCESSMESSAGE_OFFSET UNITYSDK_OFFSET(0x1878C270)
-#define SYSTEM_RUNTIME_REMOTING_MESSAGING_ENVOYTERMINATORSINK__CCTOR_OFFSET UNITYSDK_OFFSET(0x1878C4A0)
-#define SYSTEM_RUNTIME_REMOTING_MESSAGING_ENVOYTERMINATORSINK__CTOR_OFFSET UNITYSDK_OFFSET(0x1878C490)
+#define SYSTEM_RUNTIME_REMOTING_MESSAGING_ENVOYTERMINATORSINK_ASYNCPROCESSMESSAGE_OFFSET UNITYSDK_OFFSET(0x178EEEF0)
+#define SYSTEM_RUNTIME_REMOTING_MESSAGING_ENVOYTERMINATORSINK_SYNCPROCESSMESSAGE_OFFSET UNITYSDK_OFFSET(0x178EED90)
+#define SYSTEM_RUNTIME_REMOTING_MESSAGING_ENVOYTERMINATORSINK__CCTOR_OFFSET UNITYSDK_OFFSET(0x178EF060)
+#define SYSTEM_RUNTIME_REMOTING_MESSAGING_ENVOYTERMINATORSINK__CTOR_OFFSET UNITYSDK_OFFSET(0x178EF050)
 
 namespace System::Runtime::Remoting::Messaging
 {
-	inline static constexpr unsigned int EnvoyTerminatorSink_TypeDefinitionIndex = 1301;
+	inline static constexpr unsigned int EnvoyTerminatorSink_TypeDefinitionIndex = 1303;
 
 	class EnvoyTerminatorSink : public ::System::Object
 	{
 	public:
 		static ::System::Runtime::Remoting::Messaging::EnvoyTerminatorSink** StaticGet_Instance()
 		{
-			return (::System::Runtime::Remoting::Messaging::EnvoyTerminatorSink**)Il2CppClass::FromTypeDefinitionIndex(EnvoyTerminatorSink_TypeDefinitionIndex)->GetStaticField(0xB270);
+			return (::System::Runtime::Remoting::Messaging::EnvoyTerminatorSink**)Il2CppClass::FromTypeDefinitionIndex(EnvoyTerminatorSink_TypeDefinitionIndex)->GetStaticField(0x182B0);
 		}
 
 		::System::Void _ctor()

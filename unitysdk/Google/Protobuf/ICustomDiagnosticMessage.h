@@ -5,7 +5,7 @@ namespace System { class String; }
 
 namespace Google::Protobuf
 {
-	inline static constexpr unsigned int ICustomDiagnosticMessage_TypeDefinitionIndex = 5395;
+	inline static constexpr unsigned int ICustomDiagnosticMessage_TypeDefinitionIndex = 5400;
 
 	class ICustomDiagnosticMessage
 	{

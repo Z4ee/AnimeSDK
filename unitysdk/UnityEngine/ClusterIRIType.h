@@ -7,7 +7,7 @@
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int ClusterIRIType_TypeDefinitionIndex = 4274;
+	inline static constexpr unsigned int ClusterIRIType_TypeDefinitionIndex = 4279;
 
 	struct alignas(8) ClusterIRIType
 	{

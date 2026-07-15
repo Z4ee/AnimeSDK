@@ -6,12 +6,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class DynamicFloat; }
 
-#define RPG_GAMECORE_DICECOMBATATTACKCONFIG_METHOD_2_C4187D6148BB56F8_OFFSET UNITYSDK_OFFSET(0x196A3730)
-#define RPG_GAMECORE_DICECOMBATATTACKCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x196A3890)
+#define RPG_GAMECORE_DICECOMBATATTACKCONFIG_METHOD_2_C4187D6148BB56F8_OFFSET UNITYSDK_OFFSET(0x1C10C5D0)
+#define RPG_GAMECORE_DICECOMBATATTACKCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1C10C730)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int DiceCombatAttackConfig_TypeDefinitionIndex = 15273;
+	inline static constexpr unsigned int DiceCombatAttackConfig_TypeDefinitionIndex = 15437;
 
 	class DiceCombatAttackConfig : public ::RPG::GameCore::JsonConfig
 	{

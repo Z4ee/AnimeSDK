@@ -3,10 +3,10 @@
 #include "unitysdk/RPG/GameCore/AttackType.h"
 #include "unitysdk/System/Object.h"
 
-#define CLASS_1_DF472CB3F2039D5D_CLEAR_OFFSET UNITYSDK_OFFSET(0x142F0740)
-#define CLASS_1_DF472CB3F2039D5D__CTOR_OFFSET UNITYSDK_OFFSET(0x142F0790)
+#define CLASS_1_DF472CB3F2039D5D_CLEAR_OFFSET UNITYSDK_OFFSET(0x1670A510)
+#define CLASS_1_DF472CB3F2039D5D__CTOR_OFFSET UNITYSDK_OFFSET(0x1670A560)
 
-inline static constexpr unsigned int Class_1_DF472CB3F2039D5D_TypeDefinitionIndex = 50182;
+inline static constexpr unsigned int Class_1_DF472CB3F2039D5D_TypeDefinitionIndex = 51264;
 
 class Class_1_DF472CB3F2039D5D : public ::System::Object
 {

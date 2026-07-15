@@ -6,13 +6,13 @@
 
 namespace UnityEngine { class Sprite; }
 
-#define TMPRO_TMP_SPRITEGLYPH__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1B1D7030)
-#define TMPRO_TMP_SPRITEGLYPH__CTOR_2_OFFSET UNITYSDK_OFFSET(0x1B1D7080)
-#define TMPRO_TMP_SPRITEGLYPH__CTOR_OFFSET UNITYSDK_OFFSET(0x1B1D6D00)
+#define TMPRO_TMP_SPRITEGLYPH__CTOR_1_OFFSET UNITYSDK_OFFSET(0x171CEFB0)
+#define TMPRO_TMP_SPRITEGLYPH__CTOR_2_OFFSET UNITYSDK_OFFSET(0x171CF000)
+#define TMPRO_TMP_SPRITEGLYPH__CTOR_OFFSET UNITYSDK_OFFSET(0x171CEC80)
 
 namespace TMPro
 {
-	inline static constexpr unsigned int TMP_SpriteGlyph_TypeDefinitionIndex = 41020;
+	inline static constexpr unsigned int TMP_SpriteGlyph_TypeDefinitionIndex = 41835;
 
 	class TMP_SpriteGlyph : public ::UnityEngine::TextCore::Glyph
 	{

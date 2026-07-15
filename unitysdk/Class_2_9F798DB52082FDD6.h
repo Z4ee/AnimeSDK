@@ -1,16 +1,16 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Class_1_43BD383C98B4C0C5_16.h"
+#include "unitysdk/Class_1_43BD383C98B4C0C5_17.h"
 
 class Class_3_F65294BF89CA0784;
 namespace RPG::GameCore { class DiceCombatAIEffectEvaluatorConfig_DiceRerollCount; }
 
-#define CLASS_2_9F798DB52082FDD6_METHOD_2_861970C5F2C21AB2_OFFSET UNITYSDK_OFFSET(0x189DEB50)
-#define CLASS_2_9F798DB52082FDD6__CTOR_OFFSET UNITYSDK_OFFSET(0x189DEB40)
+#define CLASS_2_9F798DB52082FDD6_METHOD_2_861970C5F2C21AB2_OFFSET UNITYSDK_OFFSET(0x18D3E520)
+#define CLASS_2_9F798DB52082FDD6__CTOR_OFFSET UNITYSDK_OFFSET(0x18D3E510)
 
-inline static constexpr unsigned int Class_2_9F798DB52082FDD6_TypeDefinitionIndex = 34289;
+inline static constexpr unsigned int Class_2_9F798DB52082FDD6_TypeDefinitionIndex = 34671;
 
-class Class_2_9F798DB52082FDD6 : public ::Class_1_43BD383C98B4C0C5_16
+class Class_2_9F798DB52082FDD6 : public ::Class_1_43BD383C98B4C0C5_17
 {
 public:
 	::RPG::GameCore::DiceCombatAIEffectEvaluatorConfig_DiceRerollCount* Field_2_0; // 0x10

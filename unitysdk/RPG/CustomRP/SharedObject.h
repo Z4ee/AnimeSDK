@@ -7,26 +7,26 @@ namespace UnityEngine { class Light; }
 namespace UnityEngine { class Material; }
 namespace UnityEngine { class Renderer; }
 
-#define RPG_CUSTOMRP_SHAREDOBJECT__CCTOR_OFFSET UNITYSDK_OFFSET(0x18F26EF0)
+#define RPG_CUSTOMRP_SHAREDOBJECT__CCTOR_OFFSET UNITYSDK_OFFSET(0x1D134D90)
 
 namespace RPG::CustomRP
 {
-	inline static constexpr unsigned int SharedObject_TypeDefinitionIndex = 35556;
+	inline static constexpr unsigned int SharedObject_TypeDefinitionIndex = 36338;
 
 	class SharedObject : public ::System::Object
 	{
 	public:
-		static ::System::Collections::Generic::List_1<::UnityEngine::Light*>** StaticGet_TmpLights()
-		{
-			return (::System::Collections::Generic::List_1<::UnityEngine::Light*>**)Il2CppClass::FromTypeDefinitionIndex(SharedObject_TypeDefinitionIndex)->GetStaticField(0x60EE0);
-		}
 		static ::System::Collections::Generic::List_1<::UnityEngine::Renderer*>** StaticGet_TmpRenders()
 		{
-			return (::System::Collections::Generic::List_1<::UnityEngine::Renderer*>**)Il2CppClass::FromTypeDefinitionIndex(SharedObject_TypeDefinitionIndex)->GetStaticField(0x60EE8);
+			return (::System::Collections::Generic::List_1<::UnityEngine::Renderer*>**)Il2CppClass::FromTypeDefinitionIndex(SharedObject_TypeDefinitionIndex)->GetStaticField(0x5F740);
 		}
 		static ::System::Collections::Generic::List_1<::UnityEngine::Material*>** StaticGet_TmpMats()
 		{
-			return (::System::Collections::Generic::List_1<::UnityEngine::Material*>**)Il2CppClass::FromTypeDefinitionIndex(SharedObject_TypeDefinitionIndex)->GetStaticField(0x60EF0);
+			return (::System::Collections::Generic::List_1<::UnityEngine::Material*>**)Il2CppClass::FromTypeDefinitionIndex(SharedObject_TypeDefinitionIndex)->GetStaticField(0x5F748);
+		}
+		static ::System::Collections::Generic::List_1<::UnityEngine::Light*>** StaticGet_TmpLights()
+		{
+			return (::System::Collections::Generic::List_1<::UnityEngine::Light*>**)Il2CppClass::FromTypeDefinitionIndex(SharedObject_TypeDefinitionIndex)->GetStaticField(0x5F750);
 		}
 
 		static ::System::Void _cctor()

@@ -6,13 +6,13 @@ namespace SRDebugger::Scripts { class DebuggerTabController; }
 namespace UnityEngine { class Canvas; }
 namespace UnityEngine { class CanvasGroup; }
 
-#define SRDEBUGGER_UI_DEBUGPANELROOT_CLOSEANDDESTROY_OFFSET UNITYSDK_OFFSET(0x1AD07C60)
-#define SRDEBUGGER_UI_DEBUGPANELROOT_CLOSE_OFFSET UNITYSDK_OFFSET(0x1AD07AD0)
-#define SRDEBUGGER_UI_DEBUGPANELROOT__CTOR_OFFSET UNITYSDK_OFFSET(0x1AD07CF0)
+#define SRDEBUGGER_UI_DEBUGPANELROOT_CLOSEANDDESTROY_OFFSET UNITYSDK_OFFSET(0x1A2176A0)
+#define SRDEBUGGER_UI_DEBUGPANELROOT_CLOSE_OFFSET UNITYSDK_OFFSET(0x1A217560)
+#define SRDEBUGGER_UI_DEBUGPANELROOT__CTOR_OFFSET UNITYSDK_OFFSET(0x1A217730)
 
 namespace SRDebugger::UI
 {
-	inline static constexpr unsigned int DebugPanelRoot_TypeDefinitionIndex = 35649;
+	inline static constexpr unsigned int DebugPanelRoot_TypeDefinitionIndex = 36431;
 
 	class DebugPanelRoot : public ::SRF::SRMonoBehaviourEx
 	{

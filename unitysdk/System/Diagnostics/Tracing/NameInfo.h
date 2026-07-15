@@ -6,23 +6,23 @@
 
 namespace System { class String; }
 
-#define SYSTEM_DIAGNOSTICS_TRACING_NAMEINFO_COMPARE_1_OFFSET UNITYSDK_OFFSET(0x186BF230)
-#define SYSTEM_DIAGNOSTICS_TRACING_NAMEINFO_COMPARE_2_OFFSET UNITYSDK_OFFSET(0x186BF1A0)
-#define SYSTEM_DIAGNOSTICS_TRACING_NAMEINFO_COMPARE_OFFSET UNITYSDK_OFFSET(0x186BF100)
-#define SYSTEM_DIAGNOSTICS_TRACING_NAMEINFO_RESERVEEVENTIDSBELOW_OFFSET UNITYSDK_OFFSET(0x186B6C00)
-#define SYSTEM_DIAGNOSTICS_TRACING_NAMEINFO__CCTOR_OFFSET UNITYSDK_OFFSET(0x186BF2C0)
-#define SYSTEM_DIAGNOSTICS_TRACING_NAMEINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x186BEFC0)
+#define SYSTEM_DIAGNOSTICS_TRACING_NAMEINFO_COMPARE_1_OFFSET UNITYSDK_OFFSET(0x191BF830)
+#define SYSTEM_DIAGNOSTICS_TRACING_NAMEINFO_COMPARE_2_OFFSET UNITYSDK_OFFSET(0x191BF730)
+#define SYSTEM_DIAGNOSTICS_TRACING_NAMEINFO_COMPARE_OFFSET UNITYSDK_OFFSET(0x191BF700)
+#define SYSTEM_DIAGNOSTICS_TRACING_NAMEINFO_RESERVEEVENTIDSBELOW_OFFSET UNITYSDK_OFFSET(0x191B68B0)
+#define SYSTEM_DIAGNOSTICS_TRACING_NAMEINFO__CCTOR_OFFSET UNITYSDK_OFFSET(0x191BF850)
+#define SYSTEM_DIAGNOSTICS_TRACING_NAMEINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x191BF5C0)
 
 namespace System::Diagnostics::Tracing
 {
-	inline static constexpr unsigned int NameInfo_TypeDefinitionIndex = 1596;
+	inline static constexpr unsigned int NameInfo_TypeDefinitionIndex = 1600;
 
 	class NameInfo : public ::System::Diagnostics::Tracing::ConcurrentSetItem_2<::System::Collections::Generic::KeyValuePair_2<::System::String*, ::System::Diagnostics::Tracing::EventTags>, ::System::Diagnostics::Tracing::NameInfo*>
 	{
 	public:
 		static ::System::Int32* StaticGet_lastIdentity()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(NameInfo_TypeDefinitionIndex)->GetStaticField(0x2F80);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(NameInfo_TypeDefinitionIndex)->GetStaticField(0x33F0);
 		}
 		::Il2CppArray<::System::Byte>* nameMetadata; // 0x10
 		::System::String* name; // 0x18

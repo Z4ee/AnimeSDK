@@ -5,10 +5,10 @@
 namespace UnityEngine { class Object; }
 namespace UnityEngine { class VolumetricLight; }
 
-#define CLASS_1_765A00EE88349A01___C__DISPLAYCLASS21_0__CTOR_OFFSET UNITYSDK_OFFSET(0xA634AB0)
-#define CLASS_1_765A00EE88349A01___C__DISPLAYCLASS21_0__UNSERIALIZEASYNC_B__4_OFFSET UNITYSDK_OFFSET(0xA6355C0)
+#define CLASS_1_765A00EE88349A01___C__DISPLAYCLASS21_0__CTOR_OFFSET UNITYSDK_OFFSET(0x17A18280)
+#define CLASS_1_765A00EE88349A01___C__DISPLAYCLASS21_0__UNSERIALIZEASYNC_B__4_OFFSET UNITYSDK_OFFSET(0x17A18D90)
 
-inline static constexpr unsigned int Class_1_765A00EE88349A01___c__DisplayClass21_0_TypeDefinitionIndex = 46256;
+inline static constexpr unsigned int Class_1_765A00EE88349A01___c__DisplayClass21_0_TypeDefinitionIndex = 47221;
 
 class Class_1_765A00EE88349A01___c__DisplayClass21_0 : public ::System::Object
 {

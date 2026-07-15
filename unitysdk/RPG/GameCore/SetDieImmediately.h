@@ -5,13 +5,13 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class TargetEvaluator; }
 
-#define RPG_GAMECORE_SETDIEIMMEDIATELY_METHOD_3_6D05A1713E5DE5E5_OFFSET UNITYSDK_OFFSET(0x19C33840)
-#define RPG_GAMECORE_SETDIEIMMEDIATELY_METHOD_3_CC3A7E14007F7170_OFFSET UNITYSDK_OFFSET(0x19C337C0)
-#define RPG_GAMECORE_SETDIEIMMEDIATELY__CTOR_OFFSET UNITYSDK_OFFSET(0x19C33810)
+#define RPG_GAMECORE_SETDIEIMMEDIATELY_METHOD_3_6D05A1713E5DE5E5_OFFSET UNITYSDK_OFFSET(0x1C2DC1D0)
+#define RPG_GAMECORE_SETDIEIMMEDIATELY_METHOD_3_F97150D44763BC60_OFFSET UNITYSDK_OFFSET(0x1C2DC180)
+#define RPG_GAMECORE_SETDIEIMMEDIATELY__CTOR_OFFSET UNITYSDK_OFFSET(0x1C2DC1C0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SetDieImmediately_TypeDefinitionIndex = 21431;
+	inline static constexpr unsigned int SetDieImmediately_TypeDefinitionIndex = 21851;
 
 	class SetDieImmediately : public ::RPG::GameCore::TaskConfig
 	{
@@ -25,9 +25,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETDIEIMMEDIATELY__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_CC3A7E14007F7170(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SetDieImmediately*& a2)
+		static ::System::Void Method_3_F97150D44763BC60(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SetDieImmediately*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SetDieImmediately*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETDIEIMMEDIATELY_METHOD_3_CC3A7E14007F7170_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SetDieImmediately*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETDIEIMMEDIATELY_METHOD_3_F97150D44763BC60_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_6D05A1713E5DE5E5(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SetDieImmediately* a2)

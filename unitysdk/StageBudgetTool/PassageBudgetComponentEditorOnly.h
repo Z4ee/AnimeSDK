@@ -4,11 +4,11 @@
 
 namespace StageBudgetTool { class Passage; }
 
-#define STAGEBUDGETTOOL_PASSAGEBUDGETCOMPONENTEDITORONLY__CTOR_OFFSET UNITYSDK_OFFSET(0xD0944C0)
+#define STAGEBUDGETTOOL_PASSAGEBUDGETCOMPONENTEDITORONLY__CTOR_OFFSET UNITYSDK_OFFSET(0x14EC4E20)
 
 namespace StageBudgetTool
 {
-	inline static constexpr unsigned int PassageBudgetComponentEditorOnly_TypeDefinitionIndex = 45030;
+	inline static constexpr unsigned int PassageBudgetComponentEditorOnly_TypeDefinitionIndex = 45948;
 
 	class PassageBudgetComponentEditorOnly : public ::UnityEngine::MonoBehaviour
 	{

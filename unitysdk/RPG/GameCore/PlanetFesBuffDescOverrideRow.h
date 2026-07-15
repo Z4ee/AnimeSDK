@@ -5,18 +5,18 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_PLANETFESBUFFDESCOVERRIDEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x19A1AC30)
-#define RPG_GAMECORE_PLANETFESBUFFDESCOVERRIDEROW__CTOR_OFFSET UNITYSDK_OFFSET(0x19A1ADB0)
+#define RPG_GAMECORE_PLANETFESBUFFDESCOVERRIDEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B4D4D10)
+#define RPG_GAMECORE_PLANETFESBUFFDESCOVERRIDEROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1B4D4E90)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PlanetFesBuffDescOverrideRow_TypeDefinitionIndex = 11710;
+	inline static constexpr unsigned int PlanetFesBuffDescOverrideRow_TypeDefinitionIndex = 11810;
 
 	class PlanetFesBuffDescOverrideRow : public ::System::Object
 	{
 	public:
-		::RPG::Client::TextID Decription; // 0x10
-		::System::UInt32 ID; // 0x20
+		::System::UInt32 ID; // 0x10
+		::RPG::Client::TextID Decription; // 0x18
 
 		::System::Void _ctor()
 		{

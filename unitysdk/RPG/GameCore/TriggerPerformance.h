@@ -8,13 +8,13 @@ namespace RPG::GameCore { class DynamicString; }
 namespace RPG::GameCore { class LevelGraphValueSource; }
 namespace RPG::GameCore { class TriggerPerformanceMask; }
 
-#define RPG_GAMECORE_TRIGGERPERFORMANCE_METHOD_3_86EC3551A049531F_OFFSET UNITYSDK_OFFSET(0x19E1A210)
-#define RPG_GAMECORE_TRIGGERPERFORMANCE_METHOD_3_A026AB60F99F9F50_OFFSET UNITYSDK_OFFSET(0x19E1A290)
-#define RPG_GAMECORE_TRIGGERPERFORMANCE__CTOR_OFFSET UNITYSDK_OFFSET(0x19E1A260)
+#define RPG_GAMECORE_TRIGGERPERFORMANCE_METHOD_3_2747CB4C075D352D_OFFSET UNITYSDK_OFFSET(0x1B05A870)
+#define RPG_GAMECORE_TRIGGERPERFORMANCE_METHOD_3_A026AB60F99F9F50_OFFSET UNITYSDK_OFFSET(0x1B05A8B0)
+#define RPG_GAMECORE_TRIGGERPERFORMANCE__CTOR_OFFSET UNITYSDK_OFFSET(0x1B05A8A0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TriggerPerformance_TypeDefinitionIndex = 19160;
+	inline static constexpr unsigned int TriggerPerformance_TypeDefinitionIndex = 19516;
 
 	class TriggerPerformance : public ::RPG::GameCore::TaskConfig
 	{
@@ -35,9 +35,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TRIGGERPERFORMANCE__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_86EC3551A049531F(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::TriggerPerformance*& a2)
+		static ::System::Void Method_3_2747CB4C075D352D(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::TriggerPerformance*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::TriggerPerformance*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TRIGGERPERFORMANCE_METHOD_3_86EC3551A049531F_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::TriggerPerformance*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TRIGGERPERFORMANCE_METHOD_3_2747CB4C075D352D_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_A026AB60F99F9F50(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::TriggerPerformance* a2)

@@ -4,12 +4,12 @@
 
 namespace RPG::Client { class PlanetFesGachaResultItemData; }
 
-#define RPG_CLIENT_PLANETFESGACHARESULTDATA___C__DISPLAYCLASS5_0__CTOR_OFFSET UNITYSDK_OFFSET(0xC413DC0)
-#define RPG_CLIENT_PLANETFESGACHARESULTDATA___C__DISPLAYCLASS5_0___SYNCITEMLIST_B__0_OFFSET UNITYSDK_OFFSET(0xC414270)
+#define RPG_CLIENT_PLANETFESGACHARESULTDATA___C__DISPLAYCLASS5_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1A971A30)
+#define RPG_CLIENT_PLANETFESGACHARESULTDATA___C__DISPLAYCLASS5_0___SYNCITEMLIST_B__0_OFFSET UNITYSDK_OFFSET(0x1A971EE0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int PlanetFesGachaResultData___c__DisplayClass5_0_TypeDefinitionIndex = 62279;
+	inline static constexpr unsigned int PlanetFesGachaResultData___c__DisplayClass5_0_TypeDefinitionIndex = 63645;
 
 	class PlanetFesGachaResultData___c__DisplayClass5_0 : public ::System::Object
 	{

@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int CombatPowerSource_TypeDefinitionIndex = 55165;
+	inline static constexpr unsigned int CombatPowerSource_TypeDefinitionIndex = 56398;
 
 	enum class CombatPowerSource : ::System::Int32
 	{

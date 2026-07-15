@@ -8,29 +8,29 @@ namespace System::Net::Security { class RemoteCertificateValidationCallback; }
 namespace System::Security::Cryptography::X509Certificates { class X509Certificate; }
 namespace System::Security::Cryptography::X509Certificates { class X509Chain; }
 
-#define MIHOYO_SDK_THUNDER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xA21E060)
-#define MIHOYO_SDK_THUNDER___C__CTOR_OFFSET UNITYSDK_OFFSET(0xA21E090)
-#define MIHOYO_SDK_THUNDER___C__NOTIFY_B__35_0_OFFSET UNITYSDK_OFFSET(0xA21E0B0)
-#define MIHOYO_SDK_THUNDER___C___CTOR_B__17_0_OFFSET UNITYSDK_OFFSET(0xA21E0A0)
+#define MIHOYO_SDK_THUNDER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1B733AE0)
+#define MIHOYO_SDK_THUNDER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1B733B10)
+#define MIHOYO_SDK_THUNDER___C__NOTIFY_B__35_0_OFFSET UNITYSDK_OFFSET(0x1B733B30)
+#define MIHOYO_SDK_THUNDER___C___CTOR_B__17_0_OFFSET UNITYSDK_OFFSET(0x1B733B20)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int Thunder___c_TypeDefinitionIndex = 43698;
+	inline static constexpr unsigned int Thunder___c_TypeDefinitionIndex = 44560;
 
 	class Thunder___c : public ::System::Object
 	{
 	public:
-		static ::System::Action** StaticGet___9__35_0()
-		{
-			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(Thunder___c_TypeDefinitionIndex)->GetStaticField(0x13EB0);
-		}
 		static ::System::Net::Security::RemoteCertificateValidationCallback** StaticGet___9__17_0()
 		{
-			return (::System::Net::Security::RemoteCertificateValidationCallback**)Il2CppClass::FromTypeDefinitionIndex(Thunder___c_TypeDefinitionIndex)->GetStaticField(0x13EB8);
+			return (::System::Net::Security::RemoteCertificateValidationCallback**)Il2CppClass::FromTypeDefinitionIndex(Thunder___c_TypeDefinitionIndex)->GetStaticField(0x1D060);
 		}
 		static ::MiHoYo::SDK::Thunder___c** StaticGet___9()
 		{
-			return (::MiHoYo::SDK::Thunder___c**)Il2CppClass::FromTypeDefinitionIndex(Thunder___c_TypeDefinitionIndex)->GetStaticField(0x13EC0);
+			return (::MiHoYo::SDK::Thunder___c**)Il2CppClass::FromTypeDefinitionIndex(Thunder___c_TypeDefinitionIndex)->GetStaticField(0x1D068);
+		}
+		static ::System::Action** StaticGet___9__35_0()
+		{
+			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(Thunder___c_TypeDefinitionIndex)->GetStaticField(0x1D070);
 		}
 
 		static ::System::Void _cctor()

@@ -4,12 +4,12 @@
 
 namespace System::Linq::Expressions::Interpreter { class InterpretedFrame; }
 
-#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_NEGATEINSTRUCTION_NEGATEINT16_RUN_OFFSET UNITYSDK_OFFSET(0x1ADA5290)
-#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_NEGATEINSTRUCTION_NEGATEINT16__CTOR_OFFSET UNITYSDK_OFFSET(0x1ADA50D0)
+#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_NEGATEINSTRUCTION_NEGATEINT16_RUN_OFFSET UNITYSDK_OFFSET(0x1C1B6E90)
+#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_NEGATEINSTRUCTION_NEGATEINT16__CTOR_OFFSET UNITYSDK_OFFSET(0x1C1B6CD0)
 
 namespace System::Linq::Expressions::Interpreter
 {
-	inline static constexpr unsigned int NegateInstruction_NegateInt16_TypeDefinitionIndex = 3536;
+	inline static constexpr unsigned int NegateInstruction_NegateInt16_TypeDefinitionIndex = 3540;
 
 	class NegateInstruction_NegateInt16 : public ::System::Linq::Expressions::Interpreter::NegateInstruction
 	{

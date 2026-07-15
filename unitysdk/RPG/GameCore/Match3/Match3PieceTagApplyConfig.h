@@ -7,12 +7,12 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore::Match3 { class Match3TagApplyCondition; }
 namespace RPG::GameCore::Match3 { class Match3TagApplyPostAction; }
 
-#define RPG_GAMECORE_MATCH3_MATCH3PIECETAGAPPLYCONFIG_METHOD_2_1E055779CD030458_OFFSET UNITYSDK_OFFSET(0x198E9970)
-#define RPG_GAMECORE_MATCH3_MATCH3PIECETAGAPPLYCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x198E9C20)
+#define RPG_GAMECORE_MATCH3_MATCH3PIECETAGAPPLYCONFIG_METHOD_2_D79E567182EF4347_OFFSET UNITYSDK_OFFSET(0x1BD29340)
+#define RPG_GAMECORE_MATCH3_MATCH3PIECETAGAPPLYCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1BD294F0)
 
 namespace RPG::GameCore::Match3
 {
-	inline static constexpr unsigned int Match3PieceTagApplyConfig_TypeDefinitionIndex = 23580;
+	inline static constexpr unsigned int Match3PieceTagApplyConfig_TypeDefinitionIndex = 24069;
 
 	class Match3PieceTagApplyConfig : public ::RPG::GameCore::JsonConfig
 	{
@@ -26,9 +26,9 @@ namespace RPG::GameCore::Match3
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MATCH3_MATCH3PIECETAGAPPLYCONFIG__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_1E055779CD030458(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::Match3::Match3PieceTagApplyConfig*& a2)
+		static ::System::Void Method_2_D79E567182EF4347(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::Match3::Match3PieceTagApplyConfig*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::Match3::Match3PieceTagApplyConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MATCH3_MATCH3PIECETAGAPPLYCONFIG_METHOD_2_1E055779CD030458_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::Match3::Match3PieceTagApplyConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MATCH3_MATCH3PIECETAGAPPLYCONFIG_METHOD_2_D79E567182EF4347_OFFSET))(a1, a2);
 		}
 	};
 }

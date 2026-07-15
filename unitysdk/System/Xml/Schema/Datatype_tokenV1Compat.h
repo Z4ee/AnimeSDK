@@ -3,12 +3,12 @@
 #include "unitysdk/System/Xml/Schema/Datatype_normalizedStringV1Compat.h"
 #include "unitysdk/System/Xml/Schema/XmlTypeCode.h"
 
-#define SYSTEM_XML_SCHEMA_DATATYPE_TOKENV1COMPAT_GET_TYPECODE_OFFSET UNITYSDK_OFFSET(0x1AE391E0)
-#define SYSTEM_XML_SCHEMA_DATATYPE_TOKENV1COMPAT__CTOR_OFFSET UNITYSDK_OFFSET(0x1AE2FAA0)
+#define SYSTEM_XML_SCHEMA_DATATYPE_TOKENV1COMPAT_GET_TYPECODE_OFFSET UNITYSDK_OFFSET(0x19FA6990)
+#define SYSTEM_XML_SCHEMA_DATATYPE_TOKENV1COMPAT__CTOR_OFFSET UNITYSDK_OFFSET(0x19F9B400)
 
 namespace System::Xml::Schema
 {
-	inline static constexpr unsigned int Datatype_tokenV1Compat_TypeDefinitionIndex = 2113;
+	inline static constexpr unsigned int Datatype_tokenV1Compat_TypeDefinitionIndex = 2117;
 
 	class Datatype_tokenV1Compat : public ::System::Xml::Schema::Datatype_normalizedStringV1Compat
 	{

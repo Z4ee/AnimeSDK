@@ -5,13 +5,13 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_LENSDISTORTIONCURVEEFFECT_METHOD_3_C08309155974930C_OFFSET UNITYSDK_OFFSET(0x1986B9F0)
-#define RPG_GAMECORE_LENSDISTORTIONCURVEEFFECT_METHOD_3_EC7E856D8A43F95E_OFFSET UNITYSDK_OFFSET(0x1986BA90)
-#define RPG_GAMECORE_LENSDISTORTIONCURVEEFFECT__CTOR_OFFSET UNITYSDK_OFFSET(0x1986BA50)
+#define RPG_GAMECORE_LENSDISTORTIONCURVEEFFECT_METHOD_3_C76B190E930FE197_OFFSET UNITYSDK_OFFSET(0x1B02BA80)
+#define RPG_GAMECORE_LENSDISTORTIONCURVEEFFECT_METHOD_3_EC7E856D8A43F95E_OFFSET UNITYSDK_OFFSET(0x1B02BAF0)
+#define RPG_GAMECORE_LENSDISTORTIONCURVEEFFECT__CTOR_OFFSET UNITYSDK_OFFSET(0x1B02BAD0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LensDistortionCurveEffect_TypeDefinitionIndex = 19121;
+	inline static constexpr unsigned int LensDistortionCurveEffect_TypeDefinitionIndex = 19477;
 
 	class LensDistortionCurveEffect : public ::RPG::GameCore::TaskConfig
 	{
@@ -32,9 +32,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LENSDISTORTIONCURVEEFFECT__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_C08309155974930C(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::LensDistortionCurveEffect*& a2)
+		static ::System::Void Method_3_C76B190E930FE197(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::LensDistortionCurveEffect*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::LensDistortionCurveEffect*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LENSDISTORTIONCURVEEFFECT_METHOD_3_C08309155974930C_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::LensDistortionCurveEffect*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LENSDISTORTIONCURVEEFFECT_METHOD_3_C76B190E930FE197_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_EC7E856D8A43F95E(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::LensDistortionCurveEffect* a2)

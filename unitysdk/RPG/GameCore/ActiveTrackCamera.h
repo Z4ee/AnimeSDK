@@ -8,13 +8,13 @@ namespace RPG::GameCore { class DynamicFloat; }
 namespace RPG::GameCore { class DynamicString; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_ACTIVETRACKCAMERA_METHOD_3_6B07F34D65D545B6_OFFSET UNITYSDK_OFFSET(0x193D2400)
-#define RPG_GAMECORE_ACTIVETRACKCAMERA_METHOD_3_D213521C70FAEE77_OFFSET UNITYSDK_OFFSET(0x193D2340)
-#define RPG_GAMECORE_ACTIVETRACKCAMERA__CTOR_OFFSET UNITYSDK_OFFSET(0x193D23B0)
+#define RPG_GAMECORE_ACTIVETRACKCAMERA_METHOD_3_C5B6DE6D65EEB69F_OFFSET UNITYSDK_OFFSET(0x1AADAFA0)
+#define RPG_GAMECORE_ACTIVETRACKCAMERA_METHOD_3_D213521C70FAEE77_OFFSET UNITYSDK_OFFSET(0x1AADAF10)
+#define RPG_GAMECORE_ACTIVETRACKCAMERA__CTOR_OFFSET UNITYSDK_OFFSET(0x1AADAF70)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ActiveTrackCamera_TypeDefinitionIndex = 19689;
+	inline static constexpr unsigned int ActiveTrackCamera_TypeDefinitionIndex = 20048;
 
 	class ActiveTrackCamera : public ::RPG::GameCore::TaskConfig
 	{
@@ -45,9 +45,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ActiveTrackCamera*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ACTIVETRACKCAMERA_METHOD_3_D213521C70FAEE77_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_6B07F34D65D545B6(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ActiveTrackCamera* a2)
+		static ::System::Void Method_3_C5B6DE6D65EEB69F(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ActiveTrackCamera* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ActiveTrackCamera*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ACTIVETRACKCAMERA_METHOD_3_6B07F34D65D545B6_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ActiveTrackCamera*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ACTIVETRACKCAMERA_METHOD_3_C5B6DE6D65EEB69F_OFFSET))(a1, a2);
 		}
 	};
 }

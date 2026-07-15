@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/PropertyAttribute.h"
 
-#define UNITYENGINE_MINATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1B2AF8E0)
+#define UNITYENGINE_MINATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1D119720)
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int MinAttribute_TypeDefinitionIndex = 4226;
+	inline static constexpr unsigned int MinAttribute_TypeDefinitionIndex = 4231;
 
 	class MinAttribute : public ::UnityEngine::PropertyAttribute
 	{

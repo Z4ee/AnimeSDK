@@ -5,13 +5,13 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_HIPPLENGAMETRIGGEREVENT_METHOD_3_08A1D262F1233F7A_OFFSET UNITYSDK_OFFSET(0x19834930)
-#define RPG_GAMECORE_HIPPLENGAMETRIGGEREVENT_METHOD_3_8B6CA4415683C903_OFFSET UNITYSDK_OFFSET(0x198348B0)
-#define RPG_GAMECORE_HIPPLENGAMETRIGGEREVENT__CTOR_OFFSET UNITYSDK_OFFSET(0x19834900)
+#define RPG_GAMECORE_HIPPLENGAMETRIGGEREVENT_METHOD_3_08A1D262F1233F7A_OFFSET UNITYSDK_OFFSET(0x1B687210)
+#define RPG_GAMECORE_HIPPLENGAMETRIGGEREVENT_METHOD_3_21F7CD227714EE71_OFFSET UNITYSDK_OFFSET(0x1B6871D0)
+#define RPG_GAMECORE_HIPPLENGAMETRIGGEREVENT__CTOR_OFFSET UNITYSDK_OFFSET(0x1B687200)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int HipplenGameTriggerEvent_TypeDefinitionIndex = 20151;
+	inline static constexpr unsigned int HipplenGameTriggerEvent_TypeDefinitionIndex = 20523;
 
 	class HipplenGameTriggerEvent : public ::RPG::GameCore::TaskConfig
 	{
@@ -23,9 +23,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_HIPPLENGAMETRIGGEREVENT__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_8B6CA4415683C903(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::HipplenGameTriggerEvent*& a2)
+		static ::System::Void Method_3_21F7CD227714EE71(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::HipplenGameTriggerEvent*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::HipplenGameTriggerEvent*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_HIPPLENGAMETRIGGEREVENT_METHOD_3_8B6CA4415683C903_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::HipplenGameTriggerEvent*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_HIPPLENGAMETRIGGEREVENT_METHOD_3_21F7CD227714EE71_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_08A1D262F1233F7A(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::HipplenGameTriggerEvent* a2)

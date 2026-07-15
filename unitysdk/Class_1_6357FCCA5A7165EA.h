@@ -7,23 +7,23 @@ namespace RPG::GameCore { class PropDynamicResConfigItem; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define CLASS_1_6357FCCA5A7165EA_METHOD_1_5790A55946AA509D_OFFSET UNITYSDK_OFFSET(0xA5E3DE0)
-#define CLASS_1_6357FCCA5A7165EA_METHOD_1_BC68E9F9EA354BAB_OFFSET UNITYSDK_OFFSET(0xA5E3E30)
-#define CLASS_1_6357FCCA5A7165EA_METHOD_1_D799715F2EF979EA_OFFSET UNITYSDK_OFFSET(0xA5E3BE0)
-#define CLASS_1_6357FCCA5A7165EA_METHOD_1_E9977E6C7A715233_OFFSET UNITYSDK_OFFSET(0xA5E3F10)
+#define CLASS_1_6357FCCA5A7165EA_METHOD_1_5790A55946AA509D_OFFSET UNITYSDK_OFFSET(0x18F01DF0)
+#define CLASS_1_6357FCCA5A7165EA_METHOD_1_BC68E9F9EA354BAB_OFFSET UNITYSDK_OFFSET(0x18F01E40)
+#define CLASS_1_6357FCCA5A7165EA_METHOD_1_D799715F2EF979EA_OFFSET UNITYSDK_OFFSET(0x18F01BF0)
+#define CLASS_1_6357FCCA5A7165EA_METHOD_1_E9977E6C7A715233_OFFSET UNITYSDK_OFFSET(0x18F01F20)
 
-inline static constexpr unsigned int Class_1_6357FCCA5A7165EA_TypeDefinitionIndex = 68456;
+inline static constexpr unsigned int Class_1_6357FCCA5A7165EA_TypeDefinitionIndex = 69950;
 
 class Class_1_6357FCCA5A7165EA : public ::System::Object
 {
 public:
 	static ::System::Collections::Generic::Dictionary_2<::System::String*, ::RPG::GameCore::PropDynamicResConfigItem*>** StaticGet_Field_1_0()
 	{
-		return (::System::Collections::Generic::Dictionary_2<::System::String*, ::RPG::GameCore::PropDynamicResConfigItem*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6357FCCA5A7165EA_TypeDefinitionIndex)->GetStaticField(0x65B70);
+		return (::System::Collections::Generic::Dictionary_2<::System::String*, ::RPG::GameCore::PropDynamicResConfigItem*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6357FCCA5A7165EA_TypeDefinitionIndex)->GetStaticField(0x5D880);
 	}
 	static ::RPG::GameCore::PropDynamicResConfig** StaticGet_Field_1_1()
 	{
-		return (::RPG::GameCore::PropDynamicResConfig**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6357FCCA5A7165EA_TypeDefinitionIndex)->GetStaticField(0x65B78);
+		return (::RPG::GameCore::PropDynamicResConfig**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6357FCCA5A7165EA_TypeDefinitionIndex)->GetStaticField(0x5D888);
 	}
 
 	static ::System::Void Method_1_D799715F2EF979EA()

@@ -11,45 +11,45 @@ namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Concurrent { template <typename T1, typename T2> class ConcurrentDictionary_2; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_TALKSENTENCEMULTIVOICEEXCELTABLE_GETDATA_OFFSET UNITYSDK_OFFSET(0x19CF2250)
-#define RPG_GAMECORE_TALKSENTENCEMULTIVOICEEXCELTABLE_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x19CF20E0)
-#define RPG_GAMECORE_TALKSENTENCEMULTIVOICEEXCELTABLE_GET_DATADICT_OFFSET UNITYSDK_OFFSET(0x19CF2000)
-#define RPG_GAMECORE_TALKSENTENCEMULTIVOICEEXCELTABLE_ISDATAEMPTY_OFFSET UNITYSDK_OFFSET(0x19CF2080)
-#define RPG_GAMECORE_TALKSENTENCEMULTIVOICEEXCELTABLE_ISDATALOADED_OFFSET UNITYSDK_OFFSET(0x19CF16C0)
-#define RPG_GAMECORE_TALKSENTENCEMULTIVOICEEXCELTABLE_LOADDATA_OFFSET UNITYSDK_OFFSET(0x19CF1700)
-#define RPG_GAMECORE_TALKSENTENCEMULTIVOICEEXCELTABLE_UNLOADDATA_OFFSET UNITYSDK_OFFSET(0x19CF1930)
-#define RPG_GAMECORE_TALKSENTENCEMULTIVOICEEXCELTABLE__ADDITEMFROMBINARY_OFFSET UNITYSDK_OFFSET(0x19CF1B00)
-#define RPG_GAMECORE_TALKSENTENCEMULTIVOICEEXCELTABLE__ADDITEM_OFFSET UNITYSDK_OFFSET(0x19CF1C90)
-#define RPG_GAMECORE_TALKSENTENCEMULTIVOICEEXCELTABLE__CCTOR_OFFSET UNITYSDK_OFFSET(0x19CF23E0)
-#define RPG_GAMECORE_TALKSENTENCEMULTIVOICEEXCELTABLE__LOADDATAINCREMENTIAL_OFFSET UNITYSDK_OFFSET(0x19CF1A60)
-#define RPG_GAMECORE_TALKSENTENCEMULTIVOICEEXCELTABLE__LOADDATA_OFFSET UNITYSDK_OFFSET(0x19CF19C0)
+#define RPG_GAMECORE_TALKSENTENCEMULTIVOICEEXCELTABLE_GETDATA_OFFSET UNITYSDK_OFFSET(0x1B44CAB0)
+#define RPG_GAMECORE_TALKSENTENCEMULTIVOICEEXCELTABLE_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x1B44C940)
+#define RPG_GAMECORE_TALKSENTENCEMULTIVOICEEXCELTABLE_GET_DATADICT_OFFSET UNITYSDK_OFFSET(0x1B44C860)
+#define RPG_GAMECORE_TALKSENTENCEMULTIVOICEEXCELTABLE_ISDATAEMPTY_OFFSET UNITYSDK_OFFSET(0x1B44C8E0)
+#define RPG_GAMECORE_TALKSENTENCEMULTIVOICEEXCELTABLE_ISDATALOADED_OFFSET UNITYSDK_OFFSET(0x1B44BF20)
+#define RPG_GAMECORE_TALKSENTENCEMULTIVOICEEXCELTABLE_LOADDATA_OFFSET UNITYSDK_OFFSET(0x1B44BF60)
+#define RPG_GAMECORE_TALKSENTENCEMULTIVOICEEXCELTABLE_UNLOADDATA_OFFSET UNITYSDK_OFFSET(0x1B44C190)
+#define RPG_GAMECORE_TALKSENTENCEMULTIVOICEEXCELTABLE__ADDITEMFROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B44C360)
+#define RPG_GAMECORE_TALKSENTENCEMULTIVOICEEXCELTABLE__ADDITEM_OFFSET UNITYSDK_OFFSET(0x1B44C4F0)
+#define RPG_GAMECORE_TALKSENTENCEMULTIVOICEEXCELTABLE__CCTOR_OFFSET UNITYSDK_OFFSET(0x1B44CC40)
+#define RPG_GAMECORE_TALKSENTENCEMULTIVOICEEXCELTABLE__LOADDATAINCREMENTIAL_OFFSET UNITYSDK_OFFSET(0x1B44C2C0)
+#define RPG_GAMECORE_TALKSENTENCEMULTIVOICEEXCELTABLE__LOADDATA_OFFSET UNITYSDK_OFFSET(0x1B44C220)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TalkSentenceMultiVoiceExcelTable_TypeDefinitionIndex = 14460;
+	inline static constexpr unsigned int TalkSentenceMultiVoiceExcelTable_TypeDefinitionIndex = 14618;
 
 	class TalkSentenceMultiVoiceExcelTable : public ::System::Object
 	{
 	public:
 		static ::System::Action_1<::Class_1_7A22A3DBEEDD1F80*>** StaticGet__AddItemFromBinary_ActionInst()
 		{
-			return (::System::Action_1<::Class_1_7A22A3DBEEDD1F80*>**)Il2CppClass::FromTypeDefinitionIndex(TalkSentenceMultiVoiceExcelTable_TypeDefinitionIndex)->GetStaticField(0x2E600);
+			return (::System::Action_1<::Class_1_7A22A3DBEEDD1F80*>**)Il2CppClass::FromTypeDefinitionIndex(TalkSentenceMultiVoiceExcelTable_TypeDefinitionIndex)->GetStaticField(0x4240);
 		}
 		static ::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::TalkSentenceMultiVoiceRow*>** StaticGet_dataDict_()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::TalkSentenceMultiVoiceRow*>**)Il2CppClass::FromTypeDefinitionIndex(TalkSentenceMultiVoiceExcelTable_TypeDefinitionIndex)->GetStaticField(0x2E608);
+			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::TalkSentenceMultiVoiceRow*>**)Il2CppClass::FromTypeDefinitionIndex(TalkSentenceMultiVoiceExcelTable_TypeDefinitionIndex)->GetStaticField(0x4248);
 		}
 		static ::Il2CppArray<::System::String*>** StaticGet_s_PathList()
 		{
-			return (::Il2CppArray<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(TalkSentenceMultiVoiceExcelTable_TypeDefinitionIndex)->GetStaticField(0x2E610);
-		}
-		static ::System::Byte* StaticGet_HashIndex()
-		{
-			return (::System::Byte*)Il2CppClass::FromTypeDefinitionIndex(TalkSentenceMultiVoiceExcelTable_TypeDefinitionIndex)->GetStaticField(0x9DD0);
+			return (::Il2CppArray<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(TalkSentenceMultiVoiceExcelTable_TypeDefinitionIndex)->GetStaticField(0x4250);
 		}
 		static ::System::Boolean* StaticGet_isDataLoaded()
 		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(TalkSentenceMultiVoiceExcelTable_TypeDefinitionIndex)->GetStaticField(0x9DD1);
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(TalkSentenceMultiVoiceExcelTable_TypeDefinitionIndex)->GetStaticField(0x2BA0);
+		}
+		static ::System::Byte* StaticGet_HashIndex()
+		{
+			return (::System::Byte*)Il2CppClass::FromTypeDefinitionIndex(TalkSentenceMultiVoiceExcelTable_TypeDefinitionIndex)->GetStaticField(0x2BA1);
 		}
 
 		static ::System::Void _cctor()

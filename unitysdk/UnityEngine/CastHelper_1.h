@@ -4,7 +4,7 @@
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int CastHelper_1_TypeDefinitionIndex = 4300;
+	inline static constexpr unsigned int CastHelper_1_TypeDefinitionIndex = 4305;
 
 	template <typename T>
 	struct CastHelper_1

@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class ReduceStanceRatio; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_EF0268BE15B6887E_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x143B1640)
-#define CLASS_3_EF0268BE15B6887E__CTOR_OFFSET UNITYSDK_OFFSET(0x143B1610)
+#define CLASS_3_EF0268BE15B6887E_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1585C6B0)
+#define CLASS_3_EF0268BE15B6887E__CTOR_OFFSET UNITYSDK_OFFSET(0x1585C680)
 
-inline static constexpr unsigned int Class_3_EF0268BE15B6887E_TypeDefinitionIndex = 51644;
+inline static constexpr unsigned int Class_3_EF0268BE15B6887E_TypeDefinitionIndex = 52787;
 
 class Class_3_EF0268BE15B6887E : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::ReduceStanceRatio*>
 {

@@ -7,21 +7,18 @@ namespace RPG::Client { class WalkStyleTranInfo; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace UnityEngine { class Animator; }
 
-#define RPG_CLIENT_STATEWALKSTYLE_METHOD_4_0865E94460F11643_OFFSET UNITYSDK_OFFSET(0xC92AEA0)
-#define RPG_CLIENT_STATEWALKSTYLE_METHOD_4_351EF1ABA5191056_OFFSET UNITYSDK_OFFSET(0xC92B410)
-#define RPG_CLIENT_STATEWALKSTYLE_METHOD_4_B12D175E944C9C0C_OFFSET UNITYSDK_OFFSET(0xC92B170)
-#define RPG_CLIENT_STATEWALKSTYLE_ONENABLE_OFFSET UNITYSDK_OFFSET(0xC92AE50)
-#define RPG_CLIENT_STATEWALKSTYLE_ONSTATEENTER_OFFSET UNITYSDK_OFFSET(0xC92AF60)
-#define RPG_CLIENT_STATEWALKSTYLE_ONSTATEEXIT_OFFSET UNITYSDK_OFFSET(0xC92B500)
-#define RPG_CLIENT_STATEWALKSTYLE_ONSTATEUPDATE_OFFSET UNITYSDK_OFFSET(0xC92B300)
-#define RPG_CLIENT_STATEWALKSTYLE__CTOR_OFFSET UNITYSDK_OFFSET(0xC92B7D0)
-#define RPG_CLIENT_STATEWALKSTYLE___IFIXBASEPROXY_ONSTATEENTER_OFFSET UNITYSDK_OFFSET(0xC92B7E0)
-#define RPG_CLIENT_STATEWALKSTYLE___IFIXBASEPROXY_ONSTATEEXIT_OFFSET UNITYSDK_OFFSET(0xC92B800)
-#define RPG_CLIENT_STATEWALKSTYLE___IFIXBASEPROXY_ONSTATEUPDATE_OFFSET UNITYSDK_OFFSET(0xC92B7F0)
+#define RPG_CLIENT_STATEWALKSTYLE_METHOD_4_0865E94460F11643_OFFSET UNITYSDK_OFFSET(0x17B6B230)
+#define RPG_CLIENT_STATEWALKSTYLE_METHOD_4_351EF1ABA5191056_OFFSET UNITYSDK_OFFSET(0x17B6B7A0)
+#define RPG_CLIENT_STATEWALKSTYLE_METHOD_4_B12D175E944C9C0C_OFFSET UNITYSDK_OFFSET(0x17B6B500)
+#define RPG_CLIENT_STATEWALKSTYLE_ONENABLE_OFFSET UNITYSDK_OFFSET(0x17B6B1E0)
+#define RPG_CLIENT_STATEWALKSTYLE_ONSTATEENTER_OFFSET UNITYSDK_OFFSET(0x17B6B2F0)
+#define RPG_CLIENT_STATEWALKSTYLE_ONSTATEEXIT_OFFSET UNITYSDK_OFFSET(0x17B6B890)
+#define RPG_CLIENT_STATEWALKSTYLE_ONSTATEUPDATE_OFFSET UNITYSDK_OFFSET(0x17B6B690)
+#define RPG_CLIENT_STATEWALKSTYLE__CTOR_OFFSET UNITYSDK_OFFSET(0x17B6BB60)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int StateWalkStyle_TypeDefinitionIndex = 64408;
+	inline static constexpr unsigned int StateWalkStyle_TypeDefinitionIndex = 65779;
 
 	class StateWalkStyle : public ::UnityEngine::StateMachineBehaviour
 	{
@@ -75,21 +72,6 @@ namespace RPG::Client
 		::System::Void Method_4_B12D175E944C9C0C(::UnityEngine::Animator* a1, ::System::Single a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::UnityEngine::Animator*, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_STATEWALKSTYLE_METHOD_4_B12D175E944C9C0C_OFFSET))(this, a1, a2);
-		}
-
-		::System::Void __iFixBaseProxy_OnStateEnter(::UnityEngine::Animator* a1, ::UnityEngine::AnimatorStateInfo a2, ::System::Int32 a3)
-		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Animator*, ::UnityEngine::AnimatorStateInfo, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_STATEWALKSTYLE___IFIXBASEPROXY_ONSTATEENTER_OFFSET))(this, a1, a2, a3);
-		}
-
-		::System::Void __iFixBaseProxy_OnStateUpdate(::UnityEngine::Animator* a1, ::UnityEngine::AnimatorStateInfo a2, ::System::Int32 a3)
-		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Animator*, ::UnityEngine::AnimatorStateInfo, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_STATEWALKSTYLE___IFIXBASEPROXY_ONSTATEUPDATE_OFFSET))(this, a1, a2, a3);
-		}
-
-		::System::Void __iFixBaseProxy_OnStateExit(::UnityEngine::Animator* a1, ::UnityEngine::AnimatorStateInfo a2, ::System::Int32 a3)
-		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Animator*, ::UnityEngine::AnimatorStateInfo, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_STATEWALKSTYLE___IFIXBASEPROXY_ONSTATEEXIT_OFFSET))(this, a1, a2, a3);
 		}
 	};
 }

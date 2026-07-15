@@ -4,12 +4,12 @@
 #include "unitysdk/RPG/Client/Effect_TransformToMaterialBehavior_TransformPropertyRotation_RotationMode.h"
 #include "unitysdk/UnityEngine/Vector4.h"
 
-#define RPG_CLIENT_EFFECT_TRANSFORMTOMATERIALBEHAVIOR_TRANSFORMPROPERTYROTATION_GET_VALUE_OFFSET UNITYSDK_OFFSET(0xB8952E0)
-#define RPG_CLIENT_EFFECT_TRANSFORMTOMATERIALBEHAVIOR_TRANSFORMPROPERTYROTATION__CTOR_OFFSET UNITYSDK_OFFSET(0xB895570)
+#define RPG_CLIENT_EFFECT_TRANSFORMTOMATERIALBEHAVIOR_TRANSFORMPROPERTYROTATION_GET_VALUE_OFFSET UNITYSDK_OFFSET(0x15134960)
+#define RPG_CLIENT_EFFECT_TRANSFORMTOMATERIALBEHAVIOR_TRANSFORMPROPERTYROTATION__CTOR_OFFSET UNITYSDK_OFFSET(0x15134BF0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int Effect_TransformToMaterialBehavior_TransformPropertyRotation_TypeDefinitionIndex = 65992;
+	inline static constexpr unsigned int Effect_TransformToMaterialBehavior_TransformPropertyRotation_TypeDefinitionIndex = 67417;
 
 	class Effect_TransformToMaterialBehavior_TransformPropertyRotation : public ::RPG::Client::Effect_TransformToMaterialBehavior_TransformProperty
 	{

@@ -5,12 +5,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_CAKERACEEMOJIROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x195ECA30)
-#define RPG_GAMECORE_CAKERACEEMOJIROW__CTOR_OFFSET UNITYSDK_OFFSET(0x195ECBA0)
+#define RPG_GAMECORE_CAKERACEEMOJIROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B2D0790)
+#define RPG_GAMECORE_CAKERACEEMOJIROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1B2D0900)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int CakeRaceEmojiRow_TypeDefinitionIndex = 10564;
+	inline static constexpr unsigned int CakeRaceEmojiRow_TypeDefinitionIndex = 10614;
 
 	class CakeRaceEmojiRow : public ::System::Object
 	{

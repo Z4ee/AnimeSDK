@@ -6,13 +6,13 @@ namespace RPG::Client { class GridFightOrbEntityData; }
 namespace RPG::Client { class OrbSpawnConfig; }
 namespace UnityEngine { class GameObject; }
 
-#define RPG_CLIENT_GRIDFIGHTORBMANAGER___C__DISPLAYCLASS29_0__ADDSPHERE_B__0_OFFSET UNITYSDK_OFFSET(0xBBBEEA0)
-#define RPG_CLIENT_GRIDFIGHTORBMANAGER___C__DISPLAYCLASS29_0__ADDSPHERE_B__1_OFFSET UNITYSDK_OFFSET(0xBBBEFC0)
-#define RPG_CLIENT_GRIDFIGHTORBMANAGER___C__DISPLAYCLASS29_0__CTOR_OFFSET UNITYSDK_OFFSET(0xBBBC3C0)
+#define RPG_CLIENT_GRIDFIGHTORBMANAGER___C__DISPLAYCLASS29_0__ADDSPHERE_B__0_OFFSET UNITYSDK_OFFSET(0x1AE8A0D0)
+#define RPG_CLIENT_GRIDFIGHTORBMANAGER___C__DISPLAYCLASS29_0__ADDSPHERE_B__1_OFFSET UNITYSDK_OFFSET(0x1AE8A1F0)
+#define RPG_CLIENT_GRIDFIGHTORBMANAGER___C__DISPLAYCLASS29_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1AE87490)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GridFightOrbManager___c__DisplayClass29_0_TypeDefinitionIndex = 60250;
+	inline static constexpr unsigned int GridFightOrbManager___c__DisplayClass29_0_TypeDefinitionIndex = 61539;
 
 	class GridFightOrbManager___c__DisplayClass29_0 : public ::System::Object
 	{

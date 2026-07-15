@@ -5,12 +5,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class LittleGameNavConnectInfo; }
 
-#define RPG_GAMECORE_LITTLEGAMENAVINFO_METHOD_2_C7028958CB5BB1CE_OFFSET UNITYSDK_OFFSET(0x198A12D0)
-#define RPG_GAMECORE_LITTLEGAMENAVINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x198A1390)
+#define RPG_GAMECORE_LITTLEGAMENAVINFO_METHOD_2_C7028958CB5BB1CE_OFFSET UNITYSDK_OFFSET(0x1BCC3D00)
+#define RPG_GAMECORE_LITTLEGAMENAVINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x1BCC3DC0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LittleGameNavInfo_TypeDefinitionIndex = 16480;
+	inline static constexpr unsigned int LittleGameNavInfo_TypeDefinitionIndex = 16642;
 
 	class LittleGameNavInfo : public ::RPG::GameCore::JsonConfig
 	{

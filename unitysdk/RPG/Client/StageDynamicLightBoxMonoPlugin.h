@@ -7,13 +7,12 @@ namespace RPG::Client { class StageDynamicLightBoxBehavior_DynamicLightBoxTempla
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_STAGEDYNAMICLIGHTBOXMONOPLUGIN_GETTICKLODTEMPLATENAME_OFFSET UNITYSDK_OFFSET(0xC904310)
-#define RPG_CLIENT_STAGEDYNAMICLIGHTBOXMONOPLUGIN__CTOR_OFFSET UNITYSDK_OFFSET(0xC904360)
-#define RPG_CLIENT_STAGEDYNAMICLIGHTBOXMONOPLUGIN___IFIXBASEPROXY_GETTICKLODTEMPLATENAME_OFFSET UNITYSDK_OFFSET(0xC904370)
+#define RPG_CLIENT_STAGEDYNAMICLIGHTBOXMONOPLUGIN_GETTICKLODTEMPLATENAME_OFFSET UNITYSDK_OFFSET(0x17B42740)
+#define RPG_CLIENT_STAGEDYNAMICLIGHTBOXMONOPLUGIN__CTOR_OFFSET UNITYSDK_OFFSET(0x17B42790)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int StageDynamicLightBoxMonoPlugin_TypeDefinitionIndex = 66333;
+	inline static constexpr unsigned int StageDynamicLightBoxMonoPlugin_TypeDefinitionIndex = 67758;
 
 	class StageDynamicLightBoxMonoPlugin : public ::RPG::Client::TAMonoPlugin_1<::RPG::Client::StageDynamicLightBoxBehavior*>
 	{
@@ -28,11 +27,6 @@ namespace RPG::Client
 		::System::String* GetTickLodTemplateName()
 		{
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_STAGEDYNAMICLIGHTBOXMONOPLUGIN_GETTICKLODTEMPLATENAME_OFFSET))(this);
-		}
-
-		::System::String* __iFixBaseProxy_GetTickLodTemplateName()
-		{
-			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_STAGEDYNAMICLIGHTBOXMONOPLUGIN___IFIXBASEPROXY_GETTICKLODTEMPLATENAME_OFFSET))(this);
 		}
 	};
 }

@@ -5,18 +5,18 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_ROGUEDIALOGUEDYNAMICDISPLAYROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x19B37630)
-#define RPG_GAMECORE_ROGUEDIALOGUEDYNAMICDISPLAYROW__CTOR_OFFSET UNITYSDK_OFFSET(0x19B377B0)
+#define RPG_GAMECORE_ROGUEDIALOGUEDYNAMICDISPLAYROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1CFA97E0)
+#define RPG_GAMECORE_ROGUEDIALOGUEDYNAMICDISPLAYROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1CFA9960)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RogueDialogueDynamicDisplayRow_TypeDefinitionIndex = 14089;
+	inline static constexpr unsigned int RogueDialogueDynamicDisplayRow_TypeDefinitionIndex = 14237;
 
 	class RogueDialogueDynamicDisplayRow : public ::System::Object
 	{
 	public:
-		::System::UInt32 DisplayID; // 0x10
-		::RPG::Client::TextID ContentText; // 0x18
+		::RPG::Client::TextID ContentText; // 0x10
+		::System::UInt32 DisplayID; // 0x20
 
 		::System::Void _ctor()
 		{

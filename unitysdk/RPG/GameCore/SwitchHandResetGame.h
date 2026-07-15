@@ -6,13 +6,13 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class DynamicFloat; }
 namespace RPG::GameCore { class DynamicString; }
 
-#define RPG_GAMECORE_SWITCHHANDRESETGAME_METHOD_3_8B6E6B73C860A32D_OFFSET UNITYSDK_OFFSET(0x19CDB660)
-#define RPG_GAMECORE_SWITCHHANDRESETGAME_METHOD_3_A12E072C76515B54_OFFSET UNITYSDK_OFFSET(0x19CDB5E0)
-#define RPG_GAMECORE_SWITCHHANDRESETGAME__CTOR_OFFSET UNITYSDK_OFFSET(0x19CDB630)
+#define RPG_GAMECORE_SWITCHHANDRESETGAME_METHOD_3_38A686BA3E142848_OFFSET UNITYSDK_OFFSET(0x1B436A60)
+#define RPG_GAMECORE_SWITCHHANDRESETGAME_METHOD_3_8B6E6B73C860A32D_OFFSET UNITYSDK_OFFSET(0x1B436AA0)
+#define RPG_GAMECORE_SWITCHHANDRESETGAME__CTOR_OFFSET UNITYSDK_OFFSET(0x1B436A90)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SwitchHandResetGame_TypeDefinitionIndex = 19811;
+	inline static constexpr unsigned int SwitchHandResetGame_TypeDefinitionIndex = 20171;
 
 	class SwitchHandResetGame : public ::RPG::GameCore::TaskConfig
 	{
@@ -25,9 +25,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SWITCHHANDRESETGAME__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_A12E072C76515B54(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SwitchHandResetGame*& a2)
+		static ::System::Void Method_3_38A686BA3E142848(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SwitchHandResetGame*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SwitchHandResetGame*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SWITCHHANDRESETGAME_METHOD_3_A12E072C76515B54_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SwitchHandResetGame*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SWITCHHANDRESETGAME_METHOD_3_38A686BA3E142848_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_8B6E6B73C860A32D(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SwitchHandResetGame* a2)

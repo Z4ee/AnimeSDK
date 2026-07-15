@@ -7,14 +7,14 @@ namespace System { template <typename T> class Comparison_1; }
 
 namespace RPG::Client::DiceCombat
 {
-	inline static constexpr unsigned int DiceCombatShopData___O_TypeDefinitionIndex = 70657;
+	inline static constexpr unsigned int DiceCombatShopData___O_TypeDefinitionIndex = 72170;
 
 	class DiceCombatShopData___O : public ::System::Object
 	{
 	public:
 		static ::System::Comparison_1<::RPG::Client::DiceCombat::DiceCombatShopGoodData*>** StaticGet__0___SortShopDataList()
 		{
-			return (::System::Comparison_1<::RPG::Client::DiceCombat::DiceCombatShopGoodData*>**)Il2CppClass::FromTypeDefinitionIndex(DiceCombatShopData___O_TypeDefinitionIndex)->GetStaticField(0x53D0);
+			return (::System::Comparison_1<::RPG::Client::DiceCombat::DiceCombatShopGoodData*>**)Il2CppClass::FromTypeDefinitionIndex(DiceCombatShopData___O_TypeDefinitionIndex)->GetStaticField(0x6B290);
 		}
 	};
 }

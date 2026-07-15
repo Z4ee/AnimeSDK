@@ -8,13 +8,12 @@ namespace RPG::Client { class Effect_ParticleVelocityControlBehavior_ParticleCon
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_EFFECT_PARTICLEVELOCITYCONTROLMONOPLUGIN_GETTICKLODTEMPLATENAME_OFFSET UNITYSDK_OFFSET(0xB87A550)
-#define RPG_CLIENT_EFFECT_PARTICLEVELOCITYCONTROLMONOPLUGIN__CTOR_OFFSET UNITYSDK_OFFSET(0xB87A5A0)
-#define RPG_CLIENT_EFFECT_PARTICLEVELOCITYCONTROLMONOPLUGIN___IFIXBASEPROXY_GETTICKLODTEMPLATENAME_OFFSET UNITYSDK_OFFSET(0xB87A5C0)
+#define RPG_CLIENT_EFFECT_PARTICLEVELOCITYCONTROLMONOPLUGIN_GETTICKLODTEMPLATENAME_OFFSET UNITYSDK_OFFSET(0x1511B200)
+#define RPG_CLIENT_EFFECT_PARTICLEVELOCITYCONTROLMONOPLUGIN__CTOR_OFFSET UNITYSDK_OFFSET(0x1511B250)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int Effect_ParticleVelocityControlMonoPlugin_TypeDefinitionIndex = 65943;
+	inline static constexpr unsigned int Effect_ParticleVelocityControlMonoPlugin_TypeDefinitionIndex = 67368;
 
 	class Effect_ParticleVelocityControlMonoPlugin : public ::RPG::Client::TAMonoPlugin_1<::RPG::Client::Effect_ParticleVelocityControlBehavior*>
 	{
@@ -30,11 +29,6 @@ namespace RPG::Client
 		::System::String* GetTickLodTemplateName()
 		{
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_EFFECT_PARTICLEVELOCITYCONTROLMONOPLUGIN_GETTICKLODTEMPLATENAME_OFFSET))(this);
-		}
-
-		::System::String* __iFixBaseProxy_GetTickLodTemplateName()
-		{
-			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_EFFECT_PARTICLEVELOCITYCONTROLMONOPLUGIN___IFIXBASEPROXY_GETTICKLODTEMPLATENAME_OFFSET))(this);
 		}
 	};
 }

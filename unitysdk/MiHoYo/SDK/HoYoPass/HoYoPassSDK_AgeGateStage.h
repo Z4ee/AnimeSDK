@@ -3,7 +3,7 @@
 
 namespace MiHoYo::SDK::HoYoPass
 {
-	inline static constexpr unsigned int HoYoPassSDK_AgeGateStage_TypeDefinitionIndex = 8226;
+	inline static constexpr unsigned int HoYoPassSDK_AgeGateStage_TypeDefinitionIndex = 8238;
 
 	enum class HoYoPassSDK_AgeGateStage : ::System::Int32
 	{

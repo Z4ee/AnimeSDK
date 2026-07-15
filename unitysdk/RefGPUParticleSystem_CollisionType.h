@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int RefGPUParticleSystem_CollisionType_TypeDefinitionIndex = 40548;
+inline static constexpr unsigned int RefGPUParticleSystem_CollisionType_TypeDefinitionIndex = 41363;
 
 enum class RefGPUParticleSystem_CollisionType : ::System::Int32
 {

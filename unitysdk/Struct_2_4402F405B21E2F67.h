@@ -4,7 +4,7 @@
 
 namespace RPG::Client::Subway { class AirshipSubway; }
 
-inline static constexpr unsigned int Struct_2_4402F405B21E2F67_TypeDefinitionIndex = 74393;
+inline static constexpr unsigned int Struct_2_4402F405B21E2F67_TypeDefinitionIndex = 76783;
 
 struct alignas(8) Struct_2_4402F405B21E2F67
 {

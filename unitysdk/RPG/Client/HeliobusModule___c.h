@@ -10,34 +10,34 @@ namespace System { template <typename T> class Action_1; }
 namespace System { template <typename T> class Comparison_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_HELIOBUSMODULE___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xBD17880)
-#define RPG_CLIENT_HELIOBUSMODULE___C__CTOR_OFFSET UNITYSDK_OFFSET(0xBD178B0)
-#define RPG_CLIENT_HELIOBUSMODULE___C___INITHELIOBUSSKILLDATA_B__66_0_OFFSET UNITYSDK_OFFSET(0xBD178C0)
-#define RPG_CLIENT_HELIOBUSMODULE___C___PREPAREMAINMISSIONDATA_B__97_0_OFFSET UNITYSDK_OFFSET(0xBD17910)
-#define RPG_CLIENT_HELIOBUSMODULE___C___PREPAREMAINMISSIONDATA_B__97_1_OFFSET UNITYSDK_OFFSET(0xBD17920)
+#define RPG_CLIENT_HELIOBUSMODULE___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x17947860)
+#define RPG_CLIENT_HELIOBUSMODULE___C__CTOR_OFFSET UNITYSDK_OFFSET(0x17947890)
+#define RPG_CLIENT_HELIOBUSMODULE___C___INITHELIOBUSSKILLDATA_B__66_0_OFFSET UNITYSDK_OFFSET(0x179478A0)
+#define RPG_CLIENT_HELIOBUSMODULE___C___PREPAREMAINMISSIONDATA_B__97_0_OFFSET UNITYSDK_OFFSET(0x179478F0)
+#define RPG_CLIENT_HELIOBUSMODULE___C___PREPAREMAINMISSIONDATA_B__97_1_OFFSET UNITYSDK_OFFSET(0x17947900)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int HeliobusModule___c_TypeDefinitionIndex = 61399;
+	inline static constexpr unsigned int HeliobusModule___c_TypeDefinitionIndex = 62744;
 
 	class HeliobusModule___c : public ::System::Object
 	{
 	public:
 		static ::RPG::Client::HeliobusModule___c** StaticGet___9()
 		{
-			return (::RPG::Client::HeliobusModule___c**)Il2CppClass::FromTypeDefinitionIndex(HeliobusModule___c_TypeDefinitionIndex)->GetStaticField(0x43180);
-		}
-		static ::System::Func_2<::RPG::GameCore::DynamicValue*, ::System::UInt32>** StaticGet___9__97_1()
-		{
-			return (::System::Func_2<::RPG::GameCore::DynamicValue*, ::System::UInt32>**)Il2CppClass::FromTypeDefinitionIndex(HeliobusModule___c_TypeDefinitionIndex)->GetStaticField(0x43188);
-		}
-		static ::System::Comparison_1<::RPG::Client::HeliobusSkillData*>** StaticGet___9__66_0()
-		{
-			return (::System::Comparison_1<::RPG::Client::HeliobusSkillData*>**)Il2CppClass::FromTypeDefinitionIndex(HeliobusModule___c_TypeDefinitionIndex)->GetStaticField(0x43190);
+			return (::RPG::Client::HeliobusModule___c**)Il2CppClass::FromTypeDefinitionIndex(HeliobusModule___c_TypeDefinitionIndex)->GetStaticField(0x31520);
 		}
 		static ::System::Action_1<::System::Collections::Generic::List_1<::RPG::Client::MainMissionData*>*>** StaticGet___9__97_0()
 		{
-			return (::System::Action_1<::System::Collections::Generic::List_1<::RPG::Client::MainMissionData*>*>**)Il2CppClass::FromTypeDefinitionIndex(HeliobusModule___c_TypeDefinitionIndex)->GetStaticField(0x43198);
+			return (::System::Action_1<::System::Collections::Generic::List_1<::RPG::Client::MainMissionData*>*>**)Il2CppClass::FromTypeDefinitionIndex(HeliobusModule___c_TypeDefinitionIndex)->GetStaticField(0x31528);
+		}
+		static ::System::Comparison_1<::RPG::Client::HeliobusSkillData*>** StaticGet___9__66_0()
+		{
+			return (::System::Comparison_1<::RPG::Client::HeliobusSkillData*>**)Il2CppClass::FromTypeDefinitionIndex(HeliobusModule___c_TypeDefinitionIndex)->GetStaticField(0x31530);
+		}
+		static ::System::Func_2<::RPG::GameCore::DynamicValue*, ::System::UInt32>** StaticGet___9__97_1()
+		{
+			return (::System::Func_2<::RPG::GameCore::DynamicValue*, ::System::UInt32>**)Il2CppClass::FromTypeDefinitionIndex(HeliobusModule___c_TypeDefinitionIndex)->GetStaticField(0x31538);
 		}
 
 		static ::System::Void _cctor()

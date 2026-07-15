@@ -6,11 +6,10 @@ namespace RPG::Client { class MonoEffect; }
 namespace RPG::GameCore { class TaskContext; }
 namespace RPG::GameCore { class TriggerSDFTextEffect; }
 
-#define CLASS_3_8624305111DDB842_METHOD_3_6121A1BFC19AA4E0_OFFSET UNITYSDK_OFFSET(0x139D1BB0)
-#define CLASS_3_8624305111DDB842_METHOD_3_9DFD52E945D90BE1_OFFSET UNITYSDK_OFFSET(0x139D1A70)
-#define CLASS_3_8624305111DDB842__CTOR_OFFSET UNITYSDK_OFFSET(0x139D19C0)
+#define CLASS_3_8624305111DDB842_METHOD_3_9DFD52E945D90BE1_OFFSET UNITYSDK_OFFSET(0x14ACDC70)
+#define CLASS_3_8624305111DDB842__CTOR_OFFSET UNITYSDK_OFFSET(0x14ACDBC0)
 
-inline static constexpr unsigned int Class_3_8624305111DDB842_TypeDefinitionIndex = 52083;
+inline static constexpr unsigned int Class_3_8624305111DDB842_TypeDefinitionIndex = 53240;
 
 class Class_3_8624305111DDB842 : public ::Class_2_07CB640A20D6F01A
 {
@@ -25,10 +24,5 @@ public:
 	::System::Void Method_3_9DFD52E945D90BE1(::RPG::Client::MonoEffect* a1)
 	{
 		return ((::System::Void(*)(::PVOID, ::RPG::Client::MonoEffect*))((::PBYTE)hIl2Cpp + CLASS_3_8624305111DDB842_METHOD_3_9DFD52E945D90BE1_OFFSET))(this, a1);
-	}
-
-	::System::Void Method_3_6121A1BFC19AA4E0(::RPG::Client::MonoEffect* a1)
-	{
-		return ((::System::Void(*)(::PVOID, ::RPG::Client::MonoEffect*))((::PBYTE)hIl2Cpp + CLASS_3_8624305111DDB842_METHOD_3_6121A1BFC19AA4E0_OFFSET))(this, a1);
 	}
 };

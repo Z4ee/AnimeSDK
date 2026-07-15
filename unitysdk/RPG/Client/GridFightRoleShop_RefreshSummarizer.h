@@ -1,46 +1,50 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Class_1_6D4DDF404C3CCC18.h"
-#include "unitysdk/Enum_3_75A5C8C4100A8E33_1.h"
+#include "unitysdk/Class_1_41E07A9DDAB7FC78.h"
+#include "unitysdk/Enum_3_75A1C8C41006A504.h"
 
+class Class_1_359E211E5CA0A213;
 namespace System::Collections::Generic { template <typename T> class IList_1; }
 
-#define RPG_CLIENT_GRIDFIGHTROLESHOP_REFRESHSUMMARIZER_ISCONCERNEDWITH_OFFSET UNITYSDK_OFFSET(0xBBEA910)
-#define RPG_CLIENT_GRIDFIGHTROLESHOP_REFRESHSUMMARIZER_UPDATEBEFORE_OFFSET UNITYSDK_OFFSET(0xBBEA960)
-#define RPG_CLIENT_GRIDFIGHTROLESHOP_REFRESHSUMMARIZER__CTOR_OFFSET UNITYSDK_OFFSET(0xBBEAAD0)
-#define RPG_CLIENT_GRIDFIGHTROLESHOP_REFRESHSUMMARIZER___IFIXBASEPROXY_ISCONCERNEDWITH_OFFSET UNITYSDK_OFFSET(0xBBEAAE0)
-#define RPG_CLIENT_GRIDFIGHTROLESHOP_REFRESHSUMMARIZER___IFIXBASEPROXY_UPDATEBEFORE_OFFSET UNITYSDK_OFFSET(0xBBEAB40)
+#define RPG_CLIENT_GRIDFIGHTROLESHOP_REFRESHSUMMARIZER_ISCONCERNEDWITH_OFFSET UNITYSDK_OFFSET(0x1AD5E9B0)
+#define RPG_CLIENT_GRIDFIGHTROLESHOP_REFRESHSUMMARIZER_UPDATEBEFORE_OFFSET UNITYSDK_OFFSET(0x1AD5ED00)
+#define RPG_CLIENT_GRIDFIGHTROLESHOP_REFRESHSUMMARIZER_UPDATESHOP_OFFSET UNITYSDK_OFFSET(0x1AD5ED60)
+#define RPG_CLIENT_GRIDFIGHTROLESHOP_REFRESHSUMMARIZER__CHECKAUTOREFRESHMODIFIER_OFFSET UNITYSDK_OFFSET(0x1AD5EA30)
+#define RPG_CLIENT_GRIDFIGHTROLESHOP_REFRESHSUMMARIZER__CTOR_OFFSET UNITYSDK_OFFSET(0x1AD5EF10)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GridFightRoleShop_RefreshSummarizer_TypeDefinitionIndex = 60988;
+	inline static constexpr unsigned int GridFightRoleShop_RefreshSummarizer_TypeDefinitionIndex = 62302;
 
-	class GridFightRoleShop_RefreshSummarizer : public ::Class_1_6D4DDF404C3CCC18
+	class GridFightRoleShop_RefreshSummarizer : public ::Class_1_41E07A9DDAB7FC78
 	{
 	public:
+		::System::Boolean _IsGemi; // 0x10
+		::Enum_3_75A1C8C41006A504 _SrcType; // 0x14
+
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTROLESHOP_REFRESHSUMMARIZER__CTOR_OFFSET))(this);
 		}
 
-		::System::Boolean IsConcernedWith(::Enum_3_75A5C8C4100A8E33_1 a1)
+		::System::Boolean IsConcernedWith(::Enum_3_75A1C8C41006A504 a1, ::System::Collections::Generic::IList_1<::System::UInt32>* a2)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::Enum_3_75A5C8C4100A8E33_1))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTROLESHOP_REFRESHSUMMARIZER_ISCONCERNEDWITH_OFFSET))(this, a1);
+			return ((::System::Boolean(*)(::PVOID, ::Enum_3_75A1C8C41006A504, ::System::Collections::Generic::IList_1<::System::UInt32>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTROLESHOP_REFRESHSUMMARIZER_ISCONCERNEDWITH_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void UpdateBefore(::Enum_3_75A5C8C4100A8E33_1 a1, ::System::Collections::Generic::IList_1<::System::UInt32>* a2)
+		::System::Void UpdateBefore(::Enum_3_75A1C8C41006A504 a1, ::System::Collections::Generic::IList_1<::System::UInt32>* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::Enum_3_75A5C8C4100A8E33_1, ::System::Collections::Generic::IList_1<::System::UInt32>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTROLESHOP_REFRESHSUMMARIZER_UPDATEBEFORE_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::Enum_3_75A1C8C41006A504, ::System::Collections::Generic::IList_1<::System::UInt32>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTROLESHOP_REFRESHSUMMARIZER_UPDATEBEFORE_OFFSET))(this, a1, a2);
 		}
 
-		::System::Boolean __iFixBaseProxy_IsConcernedWith(::Enum_3_75A5C8C4100A8E33_1 a1)
+		::System::Void UpdateShop(::Class_1_359E211E5CA0A213* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::Enum_3_75A5C8C4100A8E33_1))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTROLESHOP_REFRESHSUMMARIZER___IFIXBASEPROXY_ISCONCERNEDWITH_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::Class_1_359E211E5CA0A213*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTROLESHOP_REFRESHSUMMARIZER_UPDATESHOP_OFFSET))(this, a1);
 		}
 
-		::System::Void __iFixBaseProxy_UpdateBefore(::Enum_3_75A5C8C4100A8E33_1 a1, ::System::Collections::Generic::IList_1<::System::UInt32>* a2)
+		::System::Boolean _CheckAutoRefreshModifier(::System::Collections::Generic::IList_1<::System::UInt32>* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Enum_3_75A5C8C4100A8E33_1, ::System::Collections::Generic::IList_1<::System::UInt32>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTROLESHOP_REFRESHSUMMARIZER___IFIXBASEPROXY_UPDATEBEFORE_OFFSET))(this, a1, a2);
+			return ((::System::Boolean(*)(::PVOID, ::System::Collections::Generic::IList_1<::System::UInt32>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTROLESHOP_REFRESHSUMMARIZER__CHECKAUTOREFRESHMODIFIER_OFFSET))(this, a1);
 		}
 	};
 }

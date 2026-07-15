@@ -6,13 +6,13 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class OverrideCameraModuleConfig; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_ADVOVERRIDECAMERAMODULECONFIG_METHOD_3_2050AF67F982B98C_OFFSET UNITYSDK_OFFSET(0x1942FD00)
-#define RPG_GAMECORE_ADVOVERRIDECAMERAMODULECONFIG_METHOD_3_C59DB69C0F6F0BDB_OFFSET UNITYSDK_OFFSET(0x1942FD80)
-#define RPG_GAMECORE_ADVOVERRIDECAMERAMODULECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1942FD50)
+#define RPG_GAMECORE_ADVOVERRIDECAMERAMODULECONFIG_METHOD_3_C59DB69C0F6F0BDB_OFFSET UNITYSDK_OFFSET(0x1BE26F80)
+#define RPG_GAMECORE_ADVOVERRIDECAMERAMODULECONFIG_METHOD_3_FA7920B91F921C55_OFFSET UNITYSDK_OFFSET(0x1BE26F40)
+#define RPG_GAMECORE_ADVOVERRIDECAMERAMODULECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1BE26F70)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AdvOverrideCameraModuleConfig_TypeDefinitionIndex = 20970;
+	inline static constexpr unsigned int AdvOverrideCameraModuleConfig_TypeDefinitionIndex = 21385;
 
 	class AdvOverrideCameraModuleConfig : public ::RPG::GameCore::TaskConfig
 	{
@@ -29,9 +29,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVOVERRIDECAMERAMODULECONFIG__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_2050AF67F982B98C(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AdvOverrideCameraModuleConfig*& a2)
+		static ::System::Void Method_3_FA7920B91F921C55(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AdvOverrideCameraModuleConfig*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::AdvOverrideCameraModuleConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVOVERRIDECAMERAMODULECONFIG_METHOD_3_2050AF67F982B98C_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::AdvOverrideCameraModuleConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVOVERRIDECAMERAMODULECONFIG_METHOD_3_FA7920B91F921C55_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_C59DB69C0F6F0BDB(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AdvOverrideCameraModuleConfig* a2)

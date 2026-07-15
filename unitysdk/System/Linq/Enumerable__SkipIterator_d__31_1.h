@@ -8,7 +8,7 @@ namespace System::Collections::Generic { template <typename T> class IEnumerator
 
 namespace System::Linq
 {
-	inline static constexpr unsigned int Enumerable__SkipIterator_d__31_1_TypeDefinitionIndex = 3136;
+	inline static constexpr unsigned int Enumerable__SkipIterator_d__31_1_TypeDefinitionIndex = 3140;
 
 	template <typename TSource>
 	class Enumerable__SkipIterator_d__31_1 : public ::System::Object

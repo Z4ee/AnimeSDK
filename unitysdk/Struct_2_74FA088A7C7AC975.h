@@ -3,7 +3,7 @@
 #include "unitysdk/RPG/Client/GameObjectPoolUsage.h"
 #include "unitysdk/System/ValueType.h"
 
-inline static constexpr unsigned int Struct_2_74FA088A7C7AC975_TypeDefinitionIndex = 55510;
+inline static constexpr unsigned int Struct_2_74FA088A7C7AC975_TypeDefinitionIndex = 56747;
 
 struct alignas(4) Struct_2_74FA088A7C7AC975
 {

@@ -4,7 +4,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int Effect_LineRendererSkinning_Struct_2_F7C243F317D8E44A_1_TypeDefinitionIndex = 65924;
+	inline static constexpr unsigned int Effect_LineRendererSkinning_Struct_2_F7C243F317D8E44A_1_TypeDefinitionIndex = 67349;
 
 	struct alignas(4) Effect_LineRendererSkinning_Struct_2_F7C243F317D8E44A_1
 	{

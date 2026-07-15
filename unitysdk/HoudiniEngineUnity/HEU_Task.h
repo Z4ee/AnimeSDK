@@ -7,21 +7,21 @@
 
 namespace HoudiniEngineUnity { class HEU_Task_TaskCallback; }
 
-#define HOUDINIENGINEUNITY_HEU_TASK_GET_TASKGUID_OFFSET UNITYSDK_OFFSET(0x17F5CC80)
-#define HOUDINIENGINEUNITY_HEU_TASK_UPDATETASK_OFFSET UNITYSDK_OFFSET(0x17F5CCC0)
-#define HOUDINIENGINEUNITY_HEU_TASK__CTOR_OFFSET UNITYSDK_OFFSET(0x17F5CC90)
+#define HOUDINIENGINEUNITY_HEU_TASK_GET_TASKGUID_OFFSET UNITYSDK_OFFSET(0x197CCE00)
+#define HOUDINIENGINEUNITY_HEU_TASK_UPDATETASK_OFFSET UNITYSDK_OFFSET(0x197CCE40)
+#define HOUDINIENGINEUNITY_HEU_TASK__CTOR_OFFSET UNITYSDK_OFFSET(0x197CCE10)
 
 namespace HoudiniEngineUnity
 {
-	inline static constexpr unsigned int HEU_Task_TypeDefinitionIndex = 37635;
+	inline static constexpr unsigned int HEU_Task_TypeDefinitionIndex = 38443;
 
 	class HEU_Task : public ::System::Object
 	{
 	public:
 		::HoudiniEngineUnity::HEU_Task_TaskCallback* _taskCompletedDelegate; // 0x10
-		::System::Guid _guid; // 0x18
-		::HoudiniEngineUnity::HEU_Task_TaskStatus _status; // 0x28
-		::HoudiniEngineUnity::HEU_Task_TaskResult _result; // 0x2C
+		::HoudiniEngineUnity::HEU_Task_TaskStatus _status; // 0x18
+		::HoudiniEngineUnity::HEU_Task_TaskResult _result; // 0x1C
+		::System::Guid _guid; // 0x20
 
 		::System::Void _ctor()
 		{

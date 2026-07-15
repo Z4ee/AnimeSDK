@@ -5,7 +5,7 @@ namespace RPG::Client { class RogueKeywordInfo; }
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int IRogueKeywordInfoProvider_TypeDefinitionIndex = 62941;
+	inline static constexpr unsigned int IRogueKeywordInfoProvider_TypeDefinitionIndex = 64308;
 
 	class IRogueKeywordInfoProvider
 	{

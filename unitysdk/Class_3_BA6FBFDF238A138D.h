@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class SetAutoBlinkMaskRenderer; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_BA6FBFDF238A138D_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xAD3FEB0)
-#define CLASS_3_BA6FBFDF238A138D__CTOR_OFFSET UNITYSDK_OFFSET(0xAD3FE80)
+#define CLASS_3_BA6FBFDF238A138D_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x177CEB50)
+#define CLASS_3_BA6FBFDF238A138D__CTOR_OFFSET UNITYSDK_OFFSET(0x177CEB20)
 
-inline static constexpr unsigned int Class_3_BA6FBFDF238A138D_TypeDefinitionIndex = 52211;
+inline static constexpr unsigned int Class_3_BA6FBFDF238A138D_TypeDefinitionIndex = 53363;
 
 class Class_3_BA6FBFDF238A138D : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::SetAutoBlinkMaskRenderer*>
 {

@@ -8,18 +8,18 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define XLUA_LUAMEMORYLEAKCHECKER___C__DISPLAYCLASS11_0__CTOR_OFFSET UNITYSDK_OFFSET(0x12E99150)
-#define XLUA_LUAMEMORYLEAKCHECKER___C__DISPLAYCLASS11_0__MEMORYLEAKREPORT_B__5_OFFSET UNITYSDK_OFFSET(0x12E99230)
+#define XLUA_LUAMEMORYLEAKCHECKER___C__DISPLAYCLASS11_0__CTOR_OFFSET UNITYSDK_OFFSET(0x10BED090)
+#define XLUA_LUAMEMORYLEAKCHECKER___C__DISPLAYCLASS11_0__MEMORYLEAKREPORT_B__5_OFFSET UNITYSDK_OFFSET(0x10BED170)
 
 namespace XLua
 {
-	inline static constexpr unsigned int LuaMemoryLeakChecker___c__DisplayClass11_0_TypeDefinitionIndex = 46884;
+	inline static constexpr unsigned int LuaMemoryLeakChecker___c__DisplayClass11_0_TypeDefinitionIndex = 47849;
 
 	class LuaMemoryLeakChecker___c__DisplayClass11_0 : public ::System::Object
 	{
 	public:
-		::System::Collections::Generic::Dictionary_2<::System::IntPtr, ::System::Collections::Generic::List_1<::XLua::LuaMemoryLeakChecker_RefInfo>*>* relationshipInfo; // 0x10
-		::System::Func_2<::XLua::LuaMemoryLeakChecker_RefInfo, ::System::Collections::Generic::IEnumerable_1<::XLua::LuaMemoryLeakChecker_RefInfo>*>* __9__5; // 0x18
+		::System::Func_2<::XLua::LuaMemoryLeakChecker_RefInfo, ::System::Collections::Generic::IEnumerable_1<::XLua::LuaMemoryLeakChecker_RefInfo>*>* __9__5; // 0x10
+		::System::Collections::Generic::Dictionary_2<::System::IntPtr, ::System::Collections::Generic::List_1<::XLua::LuaMemoryLeakChecker_RefInfo>*>* relationshipInfo; // 0x18
 
 		::System::Void _ctor()
 		{

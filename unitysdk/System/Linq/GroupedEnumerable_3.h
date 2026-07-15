@@ -11,7 +11,7 @@ namespace System::Linq { template <typename T1, typename T2> class IGrouping_2; 
 
 namespace System::Linq
 {
-	inline static constexpr unsigned int GroupedEnumerable_3_TypeDefinitionIndex = 3163;
+	inline static constexpr unsigned int GroupedEnumerable_3_TypeDefinitionIndex = 3167;
 
 	template <typename TSource, typename TKey, typename TElement>
 	class GroupedEnumerable_3 : public ::System::Object

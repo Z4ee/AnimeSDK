@@ -11,12 +11,12 @@ namespace System::Threading::Tasks { class Task; }
 namespace System::Threading::Tasks { class TaskScheduler; }
 namespace System::Threading::Tasks { template <typename T> class Task_1; }
 
-#define SYSTEM_THREADING_TASKS_TASKFACTORY_CHECKCREATIONOPTIONS_OFFSET UNITYSDK_OFFSET(0x1862FD20)
-#define SYSTEM_THREADING_TASKS_TASKFACTORY_CHECKFROMASYNCOPTIONS_OFFSET UNITYSDK_OFFSET(0x1862FD70)
-#define SYSTEM_THREADING_TASKS_TASKFACTORY_CHECKMULTITASKCONTINUATIONOPTIONS_OFFSET UNITYSDK_OFFSET(0x1862FC50)
-#define SYSTEM_THREADING_TASKS_TASKFACTORY_COMMONCWANYLOGIC_OFFSET UNITYSDK_OFFSET(0x1862D390)
-#define SYSTEM_THREADING_TASKS_TASKFACTORY__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1862FBE0)
-#define SYSTEM_THREADING_TASKS_TASKFACTORY__CTOR_OFFSET UNITYSDK_OFFSET(0x1862D960)
+#define SYSTEM_THREADING_TASKS_TASKFACTORY_CHECKCREATIONOPTIONS_OFFSET UNITYSDK_OFFSET(0x1A735330)
+#define SYSTEM_THREADING_TASKS_TASKFACTORY_CHECKFROMASYNCOPTIONS_OFFSET UNITYSDK_OFFSET(0x1A735380)
+#define SYSTEM_THREADING_TASKS_TASKFACTORY_CHECKMULTITASKCONTINUATIONOPTIONS_OFFSET UNITYSDK_OFFSET(0x1A735260)
+#define SYSTEM_THREADING_TASKS_TASKFACTORY_COMMONCWANYLOGIC_OFFSET UNITYSDK_OFFSET(0x1A732370)
+#define SYSTEM_THREADING_TASKS_TASKFACTORY__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1A7351F0)
+#define SYSTEM_THREADING_TASKS_TASKFACTORY__CTOR_OFFSET UNITYSDK_OFFSET(0x1A732990)
 
 namespace System::Threading::Tasks
 {
@@ -25,10 +25,10 @@ namespace System::Threading::Tasks
 	class TaskFactory : public ::System::Object
 	{
 	public:
-		::System::Threading::Tasks::TaskScheduler* m_defaultScheduler; // 0x10
-		::System::Threading::CancellationToken m_defaultCancellationToken; // 0x18
-		::System::Threading::Tasks::TaskContinuationOptions m_defaultContinuationOptions; // 0x20
-		::System::Threading::Tasks::TaskCreationOptions m_defaultCreationOptions; // 0x24
+		::System::Threading::CancellationToken m_defaultCancellationToken; // 0x10
+		::System::Threading::Tasks::TaskScheduler* m_defaultScheduler; // 0x18
+		::System::Threading::Tasks::TaskCreationOptions m_defaultCreationOptions; // 0x20
+		::System::Threading::Tasks::TaskContinuationOptions m_defaultContinuationOptions; // 0x24
 
 		::System::Void _ctor()
 		{

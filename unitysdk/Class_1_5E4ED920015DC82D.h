@@ -10,17 +10,17 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 namespace System::Collections::Generic { template <typename T> class List_1; }
 template <typename T> class Class_1_5E4ED920015DC82D_Class_3_B6136C2F127116DF;
 
-#define CLASS_1_5E4ED920015DC82D_DISPOSE_OFFSET UNITYSDK_OFFSET(0xA403AF0)
-#define CLASS_1_5E4ED920015DC82D_METHOD_1_F33FA80583E449C6_OFFSET UNITYSDK_OFFSET(0xA4039E0)
-#define CLASS_1_5E4ED920015DC82D__CTOR_OFFSET UNITYSDK_OFFSET(0xA403C40)
+#define CLASS_1_5E4ED920015DC82D_DISPOSE_OFFSET UNITYSDK_OFFSET(0x18592590)
+#define CLASS_1_5E4ED920015DC82D_METHOD_1_F33FA80583E449C6_OFFSET UNITYSDK_OFFSET(0x18592480)
+#define CLASS_1_5E4ED920015DC82D__CTOR_OFFSET UNITYSDK_OFFSET(0x185926E0)
 
-inline static constexpr unsigned int Class_1_5E4ED920015DC82D_TypeDefinitionIndex = 44987;
+inline static constexpr unsigned int Class_1_5E4ED920015DC82D_TypeDefinitionIndex = 45905;
 
 class Class_1_5E4ED920015DC82D : public ::System::Object
 {
 public:
-	::System::Collections::Generic::Dictionary_2<::System::UInt16, ::RPG::Client::Promises::IPromiseInfo*>* Field_1_0; // 0x10
-	::System::Collections::Generic::Dictionary_2<::System::UInt16, ::System::Collections::Generic::List_1<::System::Action_2<::System::UInt16, ::System::Object*>*>*>* Field_1_1; // 0x18
+	::System::Collections::Generic::Dictionary_2<::System::UInt16, ::System::Collections::Generic::List_1<::System::Action_2<::System::UInt16, ::System::Object*>*>*>* Field_1_0; // 0x10
+	::System::Collections::Generic::Dictionary_2<::System::UInt16, ::RPG::Client::Promises::IPromiseInfo*>* Field_1_1; // 0x18
 
 	::System::Void _ctor()
 	{

@@ -3,18 +3,18 @@
 #include "unitysdk/UnityEngine/Rendering/DebugUI_Field_1.h"
 #include "unitysdk/UnityEngine/Vector4.h"
 
-#define UNITYENGINE_RENDERING_DEBUGUI_VECTOR4FIELD__CTOR_OFFSET UNITYSDK_OFFSET(0x1B178B10)
+#define UNITYENGINE_RENDERING_DEBUGUI_VECTOR4FIELD__CTOR_OFFSET UNITYSDK_OFFSET(0x1B0EFAD0)
 
 namespace UnityEngine::Rendering
 {
-	inline static constexpr unsigned int DebugUI_Vector4Field_TypeDefinitionIndex = 33735;
+	inline static constexpr unsigned int DebugUI_Vector4Field_TypeDefinitionIndex = 34106;
 
 	class DebugUI_Vector4Field : public ::UnityEngine::Rendering::DebugUI_Field_1<::UnityEngine::Vector4>
 	{
 	public:
 		::System::Single incStepMult; // 0x50
-		::System::Int32 decimals; // 0x54
-		::System::Single incStep; // 0x58
+		::System::Single incStep; // 0x54
+		::System::Int32 decimals; // 0x58
 
 		::System::Void _ctor()
 		{

@@ -7,18 +7,18 @@ namespace MiHoYo::SDK::Base::GoodsPlatform { class GoodsPlatformManager; }
 namespace System { class String; }
 namespace System { template <typename T> class Action_1; }
 
-#define MIHOYO_SDK_BASE_GOODSPLATFORM_GOODSPLATFORMMANAGER___C__DISPLAYCLASS9_0__CTOR_OFFSET UNITYSDK_OFFSET(0x181E8060)
-#define MIHOYO_SDK_BASE_GOODSPLATFORM_GOODSPLATFORMMANAGER___C__DISPLAYCLASS9_0__RETRIEVEGOODSLIST_B__0_OFFSET UNITYSDK_OFFSET(0x181E83B0)
+#define MIHOYO_SDK_BASE_GOODSPLATFORM_GOODSPLATFORMMANAGER___C__DISPLAYCLASS9_0__CTOR_OFFSET UNITYSDK_OFFSET(0x18866610)
+#define MIHOYO_SDK_BASE_GOODSPLATFORM_GOODSPLATFORMMANAGER___C__DISPLAYCLASS9_0__RETRIEVEGOODSLIST_B__0_OFFSET UNITYSDK_OFFSET(0x18866960)
 
 namespace MiHoYo::SDK::Base::GoodsPlatform
 {
-	inline static constexpr unsigned int GoodsPlatformManager___c__DisplayClass9_0_TypeDefinitionIndex = 8504;
+	inline static constexpr unsigned int GoodsPlatformManager___c__DisplayClass9_0_TypeDefinitionIndex = 8516;
 
 	class GoodsPlatformManager___c__DisplayClass9_0 : public ::System::Object
 	{
 	public:
-		::System::Action_1<::System::String*>* callback; // 0x10
-		::MiHoYo::SDK::Base::GoodsPlatform::GoodsPlatformManager* __4__this; // 0x18
+		::MiHoYo::SDK::Base::GoodsPlatform::GoodsPlatformManager* __4__this; // 0x10
+		::System::Action_1<::System::String*>* callback; // 0x18
 
 		::System::Void _ctor()
 		{

@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int GridFightTutorialTaskFinishAction_TypeDefinitionIndex = 13004;
+	inline static constexpr unsigned int GridFightTutorialTaskFinishAction_TypeDefinitionIndex = 13152;
 
 	enum class GridFightTutorialTaskFinishAction : ::System::Int32
 	{

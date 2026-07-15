@@ -4,7 +4,7 @@
 
 namespace HoudiniEngineUnity
 {
-	inline static constexpr unsigned int HAPI_TimelineOptions_TypeDefinitionIndex = 37531;
+	inline static constexpr unsigned int HAPI_TimelineOptions_TypeDefinitionIndex = 38339;
 
 	struct alignas(8) HAPI_TimelineOptions
 	{

@@ -7,13 +7,13 @@ namespace RPG::GameCore { class FiveDimDynamicVar; }
 namespace RPG::GameCore { class FiveDimTriggerShape; }
 namespace RPG::GameCore { class LittleGameEvent; }
 
-#define RPG_GAMECORE_FIVEDIMPRESSURESWITCHCONFIG_METHOD_3_B9F7F1E8D15F46AA_OFFSET UNITYSDK_OFFSET(0x1974E340)
-#define RPG_GAMECORE_FIVEDIMPRESSURESWITCHCONFIG_METHOD_3_BFB4E5AD05343378_OFFSET UNITYSDK_OFFSET(0x1974E2D0)
-#define RPG_GAMECORE_FIVEDIMPRESSURESWITCHCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1974E320)
+#define RPG_GAMECORE_FIVEDIMPRESSURESWITCHCONFIG_METHOD_3_9C7EDA87D4D0F8E0_OFFSET UNITYSDK_OFFSET(0x1BEAA6E0)
+#define RPG_GAMECORE_FIVEDIMPRESSURESWITCHCONFIG_METHOD_3_D0156A335922FBAE_OFFSET UNITYSDK_OFFSET(0x1BEAA720)
+#define RPG_GAMECORE_FIVEDIMPRESSURESWITCHCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1BEAA710)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FiveDimPressureSwitchConfig_TypeDefinitionIndex = 17650;
+	inline static constexpr unsigned int FiveDimPressureSwitchConfig_TypeDefinitionIndex = 17824;
 
 	class FiveDimPressureSwitchConfig : public ::RPG::GameCore::LittleGameComponentConfig
 	{
@@ -33,14 +33,14 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMPRESSURESWITCHCONFIG__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_BFB4E5AD05343378(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::FiveDimPressureSwitchConfig*& a2)
+		static ::System::Void Method_3_9C7EDA87D4D0F8E0(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::FiveDimPressureSwitchConfig*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::FiveDimPressureSwitchConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMPRESSURESWITCHCONFIG_METHOD_3_BFB4E5AD05343378_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::FiveDimPressureSwitchConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMPRESSURESWITCHCONFIG_METHOD_3_9C7EDA87D4D0F8E0_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_B9F7F1E8D15F46AA(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::FiveDimPressureSwitchConfig* a2)
+		static ::System::Void Method_3_D0156A335922FBAE(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::FiveDimPressureSwitchConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::FiveDimPressureSwitchConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMPRESSURESWITCHCONFIG_METHOD_3_B9F7F1E8D15F46AA_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::FiveDimPressureSwitchConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMPRESSURESWITCHCONFIG_METHOD_3_D0156A335922FBAE_OFFSET))(a1, a2);
 		}
 	};
 }

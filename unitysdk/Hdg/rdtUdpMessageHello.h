@@ -6,21 +6,21 @@ namespace System { class String; }
 namespace System::IO { class BinaryReader; }
 namespace System::IO { class BinaryWriter; }
 
-#define HDG_RDTUDPMESSAGEHELLO_READ_OFFSET UNITYSDK_OFFSET(0xA132F30)
-#define HDG_RDTUDPMESSAGEHELLO_WRITE_OFFSET UNITYSDK_OFFSET(0xA123E50)
-#define HDG_RDTUDPMESSAGEHELLO__CTOR_OFFSET UNITYSDK_OFFSET(0xA123720)
+#define HDG_RDTUDPMESSAGEHELLO_READ_OFFSET UNITYSDK_OFFSET(0x1535BF50)
+#define HDG_RDTUDPMESSAGEHELLO_WRITE_OFFSET UNITYSDK_OFFSET(0x15346730)
+#define HDG_RDTUDPMESSAGEHELLO__CTOR_OFFSET UNITYSDK_OFFSET(0x15345EB0)
 
 namespace Hdg
 {
-	inline static constexpr unsigned int rdtUdpMessageHello_TypeDefinitionIndex = 44346;
+	inline static constexpr unsigned int rdtUdpMessageHello_TypeDefinitionIndex = 45216;
 
 	class rdtUdpMessageHello : public ::System::Object
 	{
 	public:
-		::System::String* m_deviceName; // 0x10
+		::System::String* m_devicePlatform; // 0x10
 		::System::String* m_serverVersion; // 0x18
-		::System::String* m_devicePlatform; // 0x20
-		::System::String* m_deviceType; // 0x28
+		::System::String* m_deviceType; // 0x20
+		::System::String* m_deviceName; // 0x28
 		::System::Int32 m_serverPort; // 0x30
 
 		::System::Void _ctor()

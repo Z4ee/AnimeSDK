@@ -1,0 +1,109 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/RPG/Client/FateRin/BaseViewModel.h"
+#include "unitysdk/RPG/Client/TextID.h"
+
+class Class_0_16E4307DCC419505_1269;
+class Class_1_150026B6423E5934;
+class Class_1_310250D457C6B8CD;
+class Class_1_5060AE803DAE1512;
+class Class_1_97F9E33E53026E4C;
+class Class_1_EF41A94FBB43C5D7;
+namespace RPG::Client::FateRin::HouguMap { class FateRinHouguMapFight; }
+namespace RPG::Client::FateRin::HouguMap { class HouguMapFightViewModel; }
+namespace RPG::Client::Promises { class IPromise; }
+namespace System { class Object; }
+namespace System::Collections::Generic { template <typename T> class List_1; }
+
+#define RPG_CLIENT_FATERIN_HOUGUMAP_FATERINHOUGUMAPVIEWMODEL_ASYNCINITIALIZE_OFFSET UNITYSDK_OFFSET(0x1A38EF20)
+#define RPG_CLIENT_FATERIN_HOUGUMAP_FATERINHOUGUMAPVIEWMODEL_GET_CURRENTDAY_OFFSET UNITYSDK_OFFSET(0x1A38FA10)
+#define RPG_CLIENT_FATERIN_HOUGUMAP_FATERINHOUGUMAPVIEWMODEL_GET_CURRENTPASSNORMALFIGHTINDEX_OFFSET UNITYSDK_OFFSET(0x1A38FC00)
+#define RPG_CLIENT_FATERIN_HOUGUMAP_FATERINHOUGUMAPVIEWMODEL_GET_GROUPNAME_OFFSET UNITYSDK_OFFSET(0x1A38F9B0)
+#define RPG_CLIENT_FATERIN_HOUGUMAP_FATERINHOUGUMAPVIEWMODEL_GET_ISAFTERFIGHTPASS_OFFSET UNITYSDK_OFFSET(0x1A38FBB0)
+#define RPG_CLIENT_FATERIN_HOUGUMAP_FATERINHOUGUMAPVIEWMODEL_GET_ISALLNORMALFIGHTSFINISHED_OFFSET UNITYSDK_OFFSET(0x1A38FA60)
+#define RPG_CLIENT_FATERIN_HOUGUMAP_FATERINHOUGUMAPVIEWMODEL_GET_PREFABINDEX_OFFSET UNITYSDK_OFFSET(0x1A38F960)
+#define RPG_CLIENT_FATERIN_HOUGUMAP_FATERINHOUGUMAPVIEWMODEL_SET_CURRENTPASSNORMALFIGHTINDEX_OFFSET UNITYSDK_OFFSET(0x1A38FC10)
+#define RPG_CLIENT_FATERIN_HOUGUMAP_FATERINHOUGUMAPVIEWMODEL__BUILDFIGHTVIEWMODELS_OFFSET UNITYSDK_OFFSET(0x1A38F330)
+#define RPG_CLIENT_FATERIN_HOUGUMAP_FATERINHOUGUMAPVIEWMODEL__CTOR_OFFSET UNITYSDK_OFFSET(0x1A38EDA0)
+#define RPG_CLIENT_FATERIN_HOUGUMAP_FATERINHOUGUMAPVIEWMODEL__DOASYNCINITIALIZEAFTERFULLSYNC_OFFSET UNITYSDK_OFFSET(0x1A38F190)
+#define RPG_CLIENT_FATERIN_HOUGUMAP_FATERINHOUGUMAPVIEWMODEL__SETCURRENTPASSFIGHTINDEX_OFFSET UNITYSDK_OFFSET(0x1A38F750)
+
+namespace RPG::Client::FateRin::HouguMap
+{
+	inline static constexpr unsigned int FateRinHouguMapViewModel_TypeDefinitionIndex = 75807;
+
+	class FateRinHouguMapViewModel : public ::RPG::Client::FateRin::BaseViewModel
+	{
+	public:
+		::System::Collections::Generic::List_1<::RPG::Client::FateRin::HouguMap::FateRinHouguMapFight*>* _FightModels; // 0x20
+		::Class_1_97F9E33E53026E4C* _Service; // 0x28
+		::Class_1_5060AE803DAE1512* _MissionProgressService; // 0x30
+		::Class_1_EF41A94FBB43C5D7* _Group; // 0x38
+		::Class_1_150026B6423E5934* _FullSyncService; // 0x40
+		::Class_0_16E4307DCC419505_1269* _RedDotService; // 0x48
+		::Class_1_310250D457C6B8CD* _OverrideService; // 0x50
+		::System::Collections::Generic::List_1<::RPG::Client::FateRin::HouguMap::HouguMapFightViewModel*>* NormalFights; // 0x58
+		::RPG::Client::FateRin::HouguMap::HouguMapFightViewModel* BossFight; // 0x60
+		::System::Int32 _CurrentPassNormalFightIndex_k__BackingField; // 0x68
+
+		::System::Void _ctor(::Class_1_97F9E33E53026E4C* a1, ::Class_1_310250D457C6B8CD* a2, ::Class_1_5060AE803DAE1512* a3, ::Class_0_16E4307DCC419505_1269* a4, ::Class_1_150026B6423E5934* a5)
+		{
+			return ((::System::Void(*)(::PVOID, ::Class_1_97F9E33E53026E4C*, ::Class_1_310250D457C6B8CD*, ::Class_1_5060AE803DAE1512*, ::Class_0_16E4307DCC419505_1269*, ::Class_1_150026B6423E5934*))((::PBYTE)hIl2Cpp + RPG_CLIENT_FATERIN_HOUGUMAP_FATERINHOUGUMAPVIEWMODEL__CTOR_OFFSET))(this, a1, a2, a3, a4, a5);
+		}
+
+		::RPG::Client::Promises::IPromise* AsyncInitialize(::Il2CppArray<::System::Object*>* a1)
+		{
+			return ((::RPG::Client::Promises::IPromise*(*)(::PVOID, ::Il2CppArray<::System::Object*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_FATERIN_HOUGUMAP_FATERINHOUGUMAPVIEWMODEL_ASYNCINITIALIZE_OFFSET))(this, a1);
+		}
+
+		::RPG::Client::Promises::IPromise* _DoAsyncInitializeAfterFullSync(::System::UInt32 a1)
+		{
+			return ((::RPG::Client::Promises::IPromise*(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_FATERIN_HOUGUMAP_FATERINHOUGUMAPVIEWMODEL__DOASYNCINITIALIZEAFTERFULLSYNC_OFFSET))(this, a1);
+		}
+
+		::System::Void _BuildFightViewModels(::Class_1_310250D457C6B8CD* a1, ::Class_1_5060AE803DAE1512* a2, ::Class_0_16E4307DCC419505_1269* a3)
+		{
+			return ((::System::Void(*)(::PVOID, ::Class_1_310250D457C6B8CD*, ::Class_1_5060AE803DAE1512*, ::Class_0_16E4307DCC419505_1269*))((::PBYTE)hIl2Cpp + RPG_CLIENT_FATERIN_HOUGUMAP_FATERINHOUGUMAPVIEWMODEL__BUILDFIGHTVIEWMODELS_OFFSET))(this, a1, a2, a3);
+		}
+
+		::System::Void _SetCurrentPassFightIndex(::System::UInt32 a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_FATERIN_HOUGUMAP_FATERINHOUGUMAPVIEWMODEL__SETCURRENTPASSFIGHTINDEX_OFFSET))(this, a1);
+		}
+
+		::System::UInt32 get_PrefabIndex()
+		{
+			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_FATERIN_HOUGUMAP_FATERINHOUGUMAPVIEWMODEL_GET_PREFABINDEX_OFFSET))(this);
+		}
+
+		::RPG::Client::TextID get_GroupName()
+		{
+			return ((::RPG::Client::TextID(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_FATERIN_HOUGUMAP_FATERINHOUGUMAPVIEWMODEL_GET_GROUPNAME_OFFSET))(this);
+		}
+
+		::System::UInt32 get_CurrentDay()
+		{
+			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_FATERIN_HOUGUMAP_FATERINHOUGUMAPVIEWMODEL_GET_CURRENTDAY_OFFSET))(this);
+		}
+
+		::System::Boolean get_IsAllNormalFightsFinished()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_FATERIN_HOUGUMAP_FATERINHOUGUMAPVIEWMODEL_GET_ISALLNORMALFIGHTSFINISHED_OFFSET))(this);
+		}
+
+		::System::Boolean get_IsAfterFightPass()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_FATERIN_HOUGUMAP_FATERINHOUGUMAPVIEWMODEL_GET_ISAFTERFIGHTPASS_OFFSET))(this);
+		}
+
+		::System::Int32 get_CurrentPassNormalFightIndex()
+		{
+			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_FATERIN_HOUGUMAP_FATERINHOUGUMAPVIEWMODEL_GET_CURRENTPASSNORMALFIGHTINDEX_OFFSET))(this);
+		}
+
+		::System::Void set_CurrentPassNormalFightIndex(::System::Int32 a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_FATERIN_HOUGUMAP_FATERINHOUGUMAPVIEWMODEL_SET_CURRENTPASSNORMALFIGHTINDEX_OFFSET))(this, a1);
+		}
+	};
+}

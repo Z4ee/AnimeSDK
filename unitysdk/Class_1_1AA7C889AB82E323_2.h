@@ -5,20 +5,19 @@
 namespace RPG::Client { class IRogueTournPersonaRoomCardInGame; }
 namespace System { class String; }
 
-#define CLASS_1_1AA7C889AB82E323_2_GET_ROOMCARDBEFORE_OFFSET UNITYSDK_OFFSET(0xDE43800)
-#define CLASS_1_1AA7C889AB82E323_2_GET_ROOMCARD_OFFSET UNITYSDK_OFFSET(0xDE437F0)
-#define CLASS_1_1AA7C889AB82E323_2_TOSTRING_OFFSET UNITYSDK_OFFSET(0xDE43580)
-#define CLASS_1_1AA7C889AB82E323_2_TRIGGERACTION_OFFSET UNITYSDK_OFFSET(0xDE43620)
-#define CLASS_1_1AA7C889AB82E323_2__CTOR_OFFSET UNITYSDK_OFFSET(0xDE43570)
-#define CLASS_1_1AA7C889AB82E323_2___IFIXBASEPROXY_TOSTRING_OFFSET UNITYSDK_OFFSET(0xDE43810)
+#define CLASS_1_1AA7C889AB82E323_2_GET_ROOMCARDBEFORE_OFFSET UNITYSDK_OFFSET(0x169998C0)
+#define CLASS_1_1AA7C889AB82E323_2_GET_ROOMCARD_OFFSET UNITYSDK_OFFSET(0x169998B0)
+#define CLASS_1_1AA7C889AB82E323_2_TOSTRING_OFFSET UNITYSDK_OFFSET(0x16999670)
+#define CLASS_1_1AA7C889AB82E323_2_TRIGGERACTION_OFFSET UNITYSDK_OFFSET(0x16999710)
+#define CLASS_1_1AA7C889AB82E323_2__CTOR_OFFSET UNITYSDK_OFFSET(0x16999660)
 
-inline static constexpr unsigned int Class_1_1AA7C889AB82E323_2_TypeDefinitionIndex = 62693;
+inline static constexpr unsigned int Class_1_1AA7C889AB82E323_2_TypeDefinitionIndex = 64060;
 
 class Class_1_1AA7C889AB82E323_2 : public ::System::Object
 {
 public:
-	::RPG::Client::IRogueTournPersonaRoomCardInGame* _RoomCardBefore_k__BackingField; // 0x10
-	::RPG::Client::IRogueTournPersonaRoomCardInGame* _RoomCard_k__BackingField; // 0x18
+	::RPG::Client::IRogueTournPersonaRoomCardInGame* _RoomCard_k__BackingField; // 0x10
+	::RPG::Client::IRogueTournPersonaRoomCardInGame* _RoomCardBefore_k__BackingField; // 0x18
 
 	::System::Void _ctor(::RPG::Client::IRogueTournPersonaRoomCardInGame* a1, ::RPG::Client::IRogueTournPersonaRoomCardInGame* a2)
 	{
@@ -43,10 +42,5 @@ public:
 	::RPG::Client::IRogueTournPersonaRoomCardInGame* get_RoomCardBefore()
 	{
 		return ((::RPG::Client::IRogueTournPersonaRoomCardInGame*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_1AA7C889AB82E323_2_GET_ROOMCARDBEFORE_OFFSET))(this);
-	}
-
-	::System::String* __iFixBaseProxy_ToString()
-	{
-		return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_1AA7C889AB82E323_2___IFIXBASEPROXY_TOSTRING_OFFSET))(this);
 	}
 };

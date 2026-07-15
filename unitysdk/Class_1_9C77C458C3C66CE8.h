@@ -7,38 +7,38 @@ namespace ScenenLightManager { class SceneLightManagerConfigDataNew; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define CLASS_1_9C77C458C3C66CE8_METHOD_1_221B9BA554DC9DA0_OFFSET UNITYSDK_OFFSET(0x137FE1B0)
-#define CLASS_1_9C77C458C3C66CE8_METHOD_1_24004AE9192CF7E7_OFFSET UNITYSDK_OFFSET(0x137FDE70)
-#define CLASS_1_9C77C458C3C66CE8_METHOD_1_531C9B5445577CF3_OFFSET UNITYSDK_OFFSET(0x137FE010)
-#define CLASS_1_9C77C458C3C66CE8_METHOD_1_76AAE40741F092B2_OFFSET UNITYSDK_OFFSET(0x137FDDB0)
-#define CLASS_1_9C77C458C3C66CE8_METHOD_1_7E0102A7D81125F5_OFFSET UNITYSDK_OFFSET(0x137FE2E0)
-#define CLASS_1_9C77C458C3C66CE8_METHOD_1_AD7F2B248E93305B_OFFSET UNITYSDK_OFFSET(0x137FDCF0)
-#define CLASS_1_9C77C458C3C66CE8_METHOD_1_B1936CE4DA97AA45_OFFSET UNITYSDK_OFFSET(0x137FD2F0)
-#define CLASS_1_9C77C458C3C66CE8_METHOD_1_B29205EE7F7B640C_OFFSET UNITYSDK_OFFSET(0x137FD400)
-#define CLASS_1_9C77C458C3C66CE8_METHOD_1_CE18697B63E52504_OFFSET UNITYSDK_OFFSET(0x137FD270)
-#define CLASS_1_9C77C458C3C66CE8__CCTOR_OFFSET UNITYSDK_OFFSET(0x137FE580)
-#define CLASS_1_9C77C458C3C66CE8__CTOR_OFFSET UNITYSDK_OFFSET(0x137FE570)
+#define CLASS_1_9C77C458C3C66CE8_METHOD_1_221B9BA554DC9DA0_OFFSET UNITYSDK_OFFSET(0x1603A0B0)
+#define CLASS_1_9C77C458C3C66CE8_METHOD_1_24004AE9192CF7E7_OFFSET UNITYSDK_OFFSET(0x16039D70)
+#define CLASS_1_9C77C458C3C66CE8_METHOD_1_531C9B5445577CF3_OFFSET UNITYSDK_OFFSET(0x16039F10)
+#define CLASS_1_9C77C458C3C66CE8_METHOD_1_76AAE40741F092B2_OFFSET UNITYSDK_OFFSET(0x16039CB0)
+#define CLASS_1_9C77C458C3C66CE8_METHOD_1_7E0102A7D81125F5_OFFSET UNITYSDK_OFFSET(0x1603A1E0)
+#define CLASS_1_9C77C458C3C66CE8_METHOD_1_AD7F2B248E93305B_OFFSET UNITYSDK_OFFSET(0x16039BF0)
+#define CLASS_1_9C77C458C3C66CE8_METHOD_1_B1936CE4DA97AA45_OFFSET UNITYSDK_OFFSET(0x160391F0)
+#define CLASS_1_9C77C458C3C66CE8_METHOD_1_B29205EE7F7B640C_OFFSET UNITYSDK_OFFSET(0x16039300)
+#define CLASS_1_9C77C458C3C66CE8_METHOD_1_CE18697B63E52504_OFFSET UNITYSDK_OFFSET(0x16039170)
+#define CLASS_1_9C77C458C3C66CE8__CCTOR_OFFSET UNITYSDK_OFFSET(0x1603A490)
+#define CLASS_1_9C77C458C3C66CE8__CTOR_OFFSET UNITYSDK_OFFSET(0x1603A480)
 
-inline static constexpr unsigned int Class_1_9C77C458C3C66CE8_TypeDefinitionIndex = 46273;
+inline static constexpr unsigned int Class_1_9C77C458C3C66CE8_TypeDefinitionIndex = 47238;
 
 class Class_1_9C77C458C3C66CE8 : public ::System::Object
 {
 public:
 	static ::System::Collections::Generic::Dictionary_2<::System::String*, ::SceneLightManagerConfigData_StageData*>** StaticGet_Field_1_0()
 	{
-		return (::System::Collections::Generic::Dictionary_2<::System::String*, ::SceneLightManagerConfigData_StageData*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_9C77C458C3C66CE8_TypeDefinitionIndex)->GetStaticField(0xFC00);
+		return (::System::Collections::Generic::Dictionary_2<::System::String*, ::SceneLightManagerConfigData_StageData*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_9C77C458C3C66CE8_TypeDefinitionIndex)->GetStaticField(0x12E0);
 	}
 	static ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Int32>** StaticGet_Field_1_1()
 	{
-		return (::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_9C77C458C3C66CE8_TypeDefinitionIndex)->GetStaticField(0xFC08);
+		return (::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_9C77C458C3C66CE8_TypeDefinitionIndex)->GetStaticField(0x12E8);
 	}
 	static ::ScenenLightManager::SceneLightManagerConfigDataNew** StaticGet_Field_1_2()
 	{
-		return (::ScenenLightManager::SceneLightManagerConfigDataNew**)Il2CppClass::FromTypeDefinitionIndex(Class_1_9C77C458C3C66CE8_TypeDefinitionIndex)->GetStaticField(0xFC10);
+		return (::ScenenLightManager::SceneLightManagerConfigDataNew**)Il2CppClass::FromTypeDefinitionIndex(Class_1_9C77C458C3C66CE8_TypeDefinitionIndex)->GetStaticField(0x12F0);
 	}
 	static ::System::Boolean* StaticGet_Field_1_3()
 	{
-		return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(Class_1_9C77C458C3C66CE8_TypeDefinitionIndex)->GetStaticField(0x4F00);
+		return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(Class_1_9C77C458C3C66CE8_TypeDefinitionIndex)->GetStaticField(0x9D0);
 	}
 
 	::System::Void _ctor()

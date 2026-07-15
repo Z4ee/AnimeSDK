@@ -6,13 +6,13 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class DynamicFloat; }
 namespace RPG::GameCore { class TargetEvaluator; }
 
-#define RPG_GAMECORE_ADVSETWAVINGBLOCKCONTROL_METHOD_3_E0E6F386D341518A_OFFSET UNITYSDK_OFFSET(0x19438E60)
-#define RPG_GAMECORE_ADVSETWAVINGBLOCKCONTROL_METHOD_3_FF42F42F7C698ED9_OFFSET UNITYSDK_OFFSET(0x19438EE0)
-#define RPG_GAMECORE_ADVSETWAVINGBLOCKCONTROL__CTOR_OFFSET UNITYSDK_OFFSET(0x19438EB0)
+#define RPG_GAMECORE_ADVSETWAVINGBLOCKCONTROL_METHOD_3_D9040C7C7022E574_OFFSET UNITYSDK_OFFSET(0x1AE46FC0)
+#define RPG_GAMECORE_ADVSETWAVINGBLOCKCONTROL_METHOD_3_FF42F42F7C698ED9_OFFSET UNITYSDK_OFFSET(0x1AE47000)
+#define RPG_GAMECORE_ADVSETWAVINGBLOCKCONTROL__CTOR_OFFSET UNITYSDK_OFFSET(0x1AE46FF0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AdvSetWavingBlockControl_TypeDefinitionIndex = 21009;
+	inline static constexpr unsigned int AdvSetWavingBlockControl_TypeDefinitionIndex = 21424;
 
 	class AdvSetWavingBlockControl : public ::RPG::GameCore::TaskConfig
 	{
@@ -25,9 +25,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVSETWAVINGBLOCKCONTROL__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_E0E6F386D341518A(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AdvSetWavingBlockControl*& a2)
+		static ::System::Void Method_3_D9040C7C7022E574(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AdvSetWavingBlockControl*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::AdvSetWavingBlockControl*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVSETWAVINGBLOCKCONTROL_METHOD_3_E0E6F386D341518A_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::AdvSetWavingBlockControl*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVSETWAVINGBLOCKCONTROL_METHOD_3_D9040C7C7022E574_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_FF42F42F7C698ED9(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AdvSetWavingBlockControl* a2)

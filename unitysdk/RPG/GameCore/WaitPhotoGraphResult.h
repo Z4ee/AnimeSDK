@@ -5,13 +5,13 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_WAITPHOTOGRAPHRESULT_METHOD_3_67DF5275254AD18C_OFFSET UNITYSDK_OFFSET(0x19E5C320)
-#define RPG_GAMECORE_WAITPHOTOGRAPHRESULT_METHOD_3_6F60BFAB2D9886AD_OFFSET UNITYSDK_OFFSET(0x19E5C2A0)
-#define RPG_GAMECORE_WAITPHOTOGRAPHRESULT__CTOR_OFFSET UNITYSDK_OFFSET(0x19E5C2F0)
+#define RPG_GAMECORE_WAITPHOTOGRAPHRESULT_METHOD_3_67DF5275254AD18C_OFFSET UNITYSDK_OFFSET(0x1D1B8490)
+#define RPG_GAMECORE_WAITPHOTOGRAPHRESULT_METHOD_3_B4E5DFBE3E180A54_OFFSET UNITYSDK_OFFSET(0x1D1B8440)
+#define RPG_GAMECORE_WAITPHOTOGRAPHRESULT__CTOR_OFFSET UNITYSDK_OFFSET(0x1D1B8480)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int WaitPhotoGraphResult_TypeDefinitionIndex = 20946;
+	inline static constexpr unsigned int WaitPhotoGraphResult_TypeDefinitionIndex = 21361;
 
 	class WaitPhotoGraphResult : public ::RPG::GameCore::TaskConfig
 	{
@@ -27,9 +27,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_WAITPHOTOGRAPHRESULT__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_6F60BFAB2D9886AD(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::WaitPhotoGraphResult*& a2)
+		static ::System::Void Method_3_B4E5DFBE3E180A54(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::WaitPhotoGraphResult*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::WaitPhotoGraphResult*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_WAITPHOTOGRAPHRESULT_METHOD_3_6F60BFAB2D9886AD_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::WaitPhotoGraphResult*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_WAITPHOTOGRAPHRESULT_METHOD_3_B4E5DFBE3E180A54_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_67DF5275254AD18C(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::WaitPhotoGraphResult* a2)

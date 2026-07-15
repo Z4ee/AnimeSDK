@@ -4,13 +4,13 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_SWITCHBUBBLETALK_METHOD_3_9039C7676C21521A_OFFSET UNITYSDK_OFFSET(0x19CD7EC0)
-#define RPG_GAMECORE_SWITCHBUBBLETALK_METHOD_3_F61AFAEF7A524D23_OFFSET UNITYSDK_OFFSET(0x19CD7E40)
-#define RPG_GAMECORE_SWITCHBUBBLETALK__CTOR_OFFSET UNITYSDK_OFFSET(0x19CD7E90)
+#define RPG_GAMECORE_SWITCHBUBBLETALK_METHOD_3_9039C7676C21521A_OFFSET UNITYSDK_OFFSET(0x1B433900)
+#define RPG_GAMECORE_SWITCHBUBBLETALK_METHOD_3_CB47E451C927CC91_OFFSET UNITYSDK_OFFSET(0x1B4338C0)
+#define RPG_GAMECORE_SWITCHBUBBLETALK__CTOR_OFFSET UNITYSDK_OFFSET(0x1B4338F0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SwitchBubbleTalk_TypeDefinitionIndex = 21069;
+	inline static constexpr unsigned int SwitchBubbleTalk_TypeDefinitionIndex = 21484;
 
 	class SwitchBubbleTalk : public ::RPG::GameCore::TaskConfig
 	{
@@ -22,9 +22,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SWITCHBUBBLETALK__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_F61AFAEF7A524D23(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SwitchBubbleTalk*& a2)
+		static ::System::Void Method_3_CB47E451C927CC91(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SwitchBubbleTalk*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SwitchBubbleTalk*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SWITCHBUBBLETALK_METHOD_3_F61AFAEF7A524D23_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SwitchBubbleTalk*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SWITCHBUBBLETALK_METHOD_3_CB47E451C927CC91_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_9039C7676C21521A(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SwitchBubbleTalk* a2)

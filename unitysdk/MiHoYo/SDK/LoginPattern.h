@@ -3,7 +3,7 @@
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int LoginPattern_TypeDefinitionIndex = 8036;
+	inline static constexpr unsigned int LoginPattern_TypeDefinitionIndex = 8046;
 
 	enum class LoginPattern : ::System::Int32
 	{

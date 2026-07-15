@@ -3,7 +3,7 @@
 
 namespace UnityEngine::AI
 {
-	inline static constexpr unsigned int UpdateFlags_TypeDefinitionIndex = 5664;
+	inline static constexpr unsigned int UpdateFlags_TypeDefinitionIndex = 5669;
 
 	enum class UpdateFlags : ::System::Int32
 	{

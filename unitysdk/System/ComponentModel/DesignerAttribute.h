@@ -6,22 +6,22 @@ namespace System { class Object; }
 namespace System { class String; }
 namespace System { class Type; }
 
-#define SYSTEM_COMPONENTMODEL_DESIGNERATTRIBUTE_EQUALS_OFFSET UNITYSDK_OFFSET(0x1AF29820)
-#define SYSTEM_COMPONENTMODEL_DESIGNERATTRIBUTE_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x1AF298D0)
-#define SYSTEM_COMPONENTMODEL_DESIGNERATTRIBUTE_GET_TYPEID_OFFSET UNITYSDK_OFFSET(0x1AF29790)
-#define SYSTEM_COMPONENTMODEL_DESIGNERATTRIBUTE__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1AF296D0)
-#define SYSTEM_COMPONENTMODEL_DESIGNERATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1AF29600)
+#define SYSTEM_COMPONENTMODEL_DESIGNERATTRIBUTE_EQUALS_OFFSET UNITYSDK_OFFSET(0x1A867DA0)
+#define SYSTEM_COMPONENTMODEL_DESIGNERATTRIBUTE_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x1A867E50)
+#define SYSTEM_COMPONENTMODEL_DESIGNERATTRIBUTE_GET_TYPEID_OFFSET UNITYSDK_OFFSET(0x1A867CB0)
+#define SYSTEM_COMPONENTMODEL_DESIGNERATTRIBUTE__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1A867BF0)
+#define SYSTEM_COMPONENTMODEL_DESIGNERATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1A867B10)
 
 namespace System::ComponentModel
 {
-	inline static constexpr unsigned int DesignerAttribute_TypeDefinitionIndex = 2571;
+	inline static constexpr unsigned int DesignerAttribute_TypeDefinitionIndex = 2575;
 
 	class DesignerAttribute : public ::System::Attribute
 	{
 	public:
 		::System::String* typeId; // 0x10
-		::System::String* designerTypeName; // 0x18
-		::System::String* designerBaseTypeName; // 0x20
+		::System::String* designerBaseTypeName; // 0x18
+		::System::String* designerTypeName; // 0x20
 
 		::System::Void _ctor(::System::String* a1)
 		{

@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class ShowCableUI; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_982E0AC353CBFAE3_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xA6DC690)
-#define CLASS_3_982E0AC353CBFAE3__CTOR_OFFSET UNITYSDK_OFFSET(0xA6DC660)
+#define CLASS_3_982E0AC353CBFAE3_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x15E41C70)
+#define CLASS_3_982E0AC353CBFAE3__CTOR_OFFSET UNITYSDK_OFFSET(0x15E41C40)
 
-inline static constexpr unsigned int Class_3_982E0AC353CBFAE3_TypeDefinitionIndex = 54769;
+inline static constexpr unsigned int Class_3_982E0AC353CBFAE3_TypeDefinitionIndex = 55996;
 
 class Class_3_982E0AC353CBFAE3 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::ShowCableUI*>
 {

@@ -10,26 +10,26 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_SERVANTCONFIG_METHOD_3_B889F2F56102372C_OFFSET UNITYSDK_OFFSET(0x19C21940)
-#define RPG_GAMECORE_SERVANTCONFIG_METHOD_3_FB8141C3AC00DE88_OFFSET UNITYSDK_OFFSET(0x19C214D0)
-#define RPG_GAMECORE_SERVANTCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x19C21830)
+#define RPG_GAMECORE_SERVANTCONFIG_METHOD_3_B889F2F56102372C_OFFSET UNITYSDK_OFFSET(0x1C2CB680)
+#define RPG_GAMECORE_SERVANTCONFIG_METHOD_3_FB8141C3AC00DE88_OFFSET UNITYSDK_OFFSET(0x1C2CB210)
+#define RPG_GAMECORE_SERVANTCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1C2CB570)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ServantConfig_TypeDefinitionIndex = 15705;
+	inline static constexpr unsigned int ServantConfig_TypeDefinitionIndex = 15879;
 
 	class ServantConfig : public ::RPG::GameCore::CharacterConfig
 	{
 	public:
-		::RPG::GameCore::BattleEventLifeBinding LifeBinding; // 0x210
-		::RPG::GameCore::TeamLocationType LocationType; // 0x214
-		::System::Boolean AddToTeamFormation; // 0x218
-		::RPG::GameCore::AttackDamageType DamageType; // 0x21C
-		::RPG::GameCore::AbilityPropertyIneritType PropertyInherit; // 0x220
-		::Il2CppArray<::RPG::GameCore::AbilityProperty>* SyncPropertyExceptList; // 0x228
-		::RPG::MVector3 ViewModeServantFollowOffset; // 0x230
-		::System::Single ViewModeServantFollowYawAngle; // 0x23C
-		::System::Boolean IsPlayerControlled; // 0x240
+		::RPG::GameCore::BattleEventLifeBinding LifeBinding; // 0x220
+		::RPG::GameCore::TeamLocationType LocationType; // 0x224
+		::System::Boolean AddToTeamFormation; // 0x228
+		::RPG::GameCore::AttackDamageType DamageType; // 0x22C
+		::RPG::GameCore::AbilityPropertyIneritType PropertyInherit; // 0x230
+		::Il2CppArray<::RPG::GameCore::AbilityProperty>* SyncPropertyExceptList; // 0x238
+		::RPG::MVector3 ViewModeServantFollowOffset; // 0x240
+		::System::Single ViewModeServantFollowYawAngle; // 0x24C
+		::System::Boolean IsPlayerControlled; // 0x250
 
 		::System::Void _ctor()
 		{

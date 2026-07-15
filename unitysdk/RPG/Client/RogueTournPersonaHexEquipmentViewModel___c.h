@@ -5,29 +5,29 @@
 namespace RPG::Client { class IRogueTournHex; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define RPG_CLIENT_ROGUETOURNPERSONAHEXEQUIPMENTVIEWMODEL___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xC846BA0)
-#define RPG_CLIENT_ROGUETOURNPERSONAHEXEQUIPMENTVIEWMODEL___C__CTOR_OFFSET UNITYSDK_OFFSET(0xC846BE0)
-#define RPG_CLIENT_ROGUETOURNPERSONAHEXEQUIPMENTVIEWMODEL___C__EQUIPHEX_B__29_0_OFFSET UNITYSDK_OFFSET(0xC846BF0)
-#define RPG_CLIENT_ROGUETOURNPERSONAHEXEQUIPMENTVIEWMODEL___C___UNEQUIPHEX_B__32_0_OFFSET UNITYSDK_OFFSET(0xC846C10)
+#define RPG_CLIENT_ROGUETOURNPERSONAHEXEQUIPMENTVIEWMODEL___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1AA67730)
+#define RPG_CLIENT_ROGUETOURNPERSONAHEXEQUIPMENTVIEWMODEL___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1AA67770)
+#define RPG_CLIENT_ROGUETOURNPERSONAHEXEQUIPMENTVIEWMODEL___C__EQUIPHEX_B__29_0_OFFSET UNITYSDK_OFFSET(0x1AA67780)
+#define RPG_CLIENT_ROGUETOURNPERSONAHEXEQUIPMENTVIEWMODEL___C___UNEQUIPHEX_B__32_0_OFFSET UNITYSDK_OFFSET(0x1AA677A0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int RogueTournPersonaHexEquipmentViewModel___c_TypeDefinitionIndex = 68090;
+	inline static constexpr unsigned int RogueTournPersonaHexEquipmentViewModel___c_TypeDefinitionIndex = 69576;
 
 	class RogueTournPersonaHexEquipmentViewModel___c : public ::System::Object
 	{
 	public:
 		static ::System::Func_2<::RPG::Client::IRogueTournHex*, ::System::UInt32>** StaticGet___9__29_0()
 		{
-			return (::System::Func_2<::RPG::Client::IRogueTournHex*, ::System::UInt32>**)Il2CppClass::FromTypeDefinitionIndex(RogueTournPersonaHexEquipmentViewModel___c_TypeDefinitionIndex)->GetStaticField(0x3EEB0);
-		}
-		static ::RPG::Client::RogueTournPersonaHexEquipmentViewModel___c** StaticGet___9()
-		{
-			return (::RPG::Client::RogueTournPersonaHexEquipmentViewModel___c**)Il2CppClass::FromTypeDefinitionIndex(RogueTournPersonaHexEquipmentViewModel___c_TypeDefinitionIndex)->GetStaticField(0x3EEB8);
+			return (::System::Func_2<::RPG::Client::IRogueTournHex*, ::System::UInt32>**)Il2CppClass::FromTypeDefinitionIndex(RogueTournPersonaHexEquipmentViewModel___c_TypeDefinitionIndex)->GetStaticField(0x2C8A0);
 		}
 		static ::System::Func_2<::RPG::Client::IRogueTournHex*, ::System::UInt32>** StaticGet___9__32_0()
 		{
-			return (::System::Func_2<::RPG::Client::IRogueTournHex*, ::System::UInt32>**)Il2CppClass::FromTypeDefinitionIndex(RogueTournPersonaHexEquipmentViewModel___c_TypeDefinitionIndex)->GetStaticField(0x3EEC0);
+			return (::System::Func_2<::RPG::Client::IRogueTournHex*, ::System::UInt32>**)Il2CppClass::FromTypeDefinitionIndex(RogueTournPersonaHexEquipmentViewModel___c_TypeDefinitionIndex)->GetStaticField(0x2C8A8);
+		}
+		static ::RPG::Client::RogueTournPersonaHexEquipmentViewModel___c** StaticGet___9()
+		{
+			return (::RPG::Client::RogueTournPersonaHexEquipmentViewModel___c**)Il2CppClass::FromTypeDefinitionIndex(RogueTournPersonaHexEquipmentViewModel___c_TypeDefinitionIndex)->GetStaticField(0x2C8B0);
 		}
 
 		static ::System::Void _cctor()

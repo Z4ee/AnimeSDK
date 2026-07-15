@@ -9,7 +9,7 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client::LittleGame
 {
-	inline static constexpr unsigned int TimelineControlGameWorld_LevelGroup_TypeDefinitionIndex = 39538;
+	inline static constexpr unsigned int TimelineControlGameWorld_LevelGroup_TypeDefinitionIndex = 40347;
 
 	struct alignas(8) TimelineControlGameWorld_LevelGroup
 	{

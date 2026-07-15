@@ -15,41 +15,41 @@ namespace System::Reflection { class MemberInfo; }
 namespace System::Runtime::Serialization { class DataContractAttribute; }
 namespace System::Runtime::Serialization { class DataMemberAttribute; }
 
-#define NEWTONSOFT_JSON_SERIALIZATION_JSONTYPEREFLECTOR_CREATEJSONCONVERTERINSTANCE_OFFSET UNITYSDK_OFFSET(0x18851C50)
-#define NEWTONSOFT_JSON_SERIALIZATION_JSONTYPEREFLECTOR_GETASSOCIATEDMETADATATYPE_OFFSET UNITYSDK_OFFSET(0x1886D080)
-#define NEWTONSOFT_JSON_SERIALIZATION_JSONTYPEREFLECTOR_GETASSOCIATEMETADATATYPEFROMATTRIBUTE_OFFSET UNITYSDK_OFFSET(0x1886D0E0)
-#define NEWTONSOFT_JSON_SERIALIZATION_JSONTYPEREFLECTOR_GETDATACONTRACTATTRIBUTE_OFFSET UNITYSDK_OFFSET(0x18849320)
-#define NEWTONSOFT_JSON_SERIALIZATION_JSONTYPEREFLECTOR_GETDATAMEMBERATTRIBUTE_OFFSET UNITYSDK_OFFSET(0x18851980)
-#define NEWTONSOFT_JSON_SERIALIZATION_JSONTYPEREFLECTOR_GETJSONCONVERTERCREATOR_OFFSET UNITYSDK_OFFSET(0x1886CE70)
-#define NEWTONSOFT_JSON_SERIALIZATION_JSONTYPEREFLECTOR_GETJSONCONVERTER_OFFSET UNITYSDK_OFFSET(0x1884C850)
-#define NEWTONSOFT_JSON_SERIALIZATION_JSONTYPEREFLECTOR_GETOBJECTMEMBERSERIALIZATION_OFFSET UNITYSDK_OFFSET(0x18849120)
-#define NEWTONSOFT_JSON_SERIALIZATION_JSONTYPEREFLECTOR_GETTYPECONVERTER_OFFSET UNITYSDK_OFFSET(0x1886D050)
-#define NEWTONSOFT_JSON_SERIALIZATION_JSONTYPEREFLECTOR_GET_FULLYTRUSTED_OFFSET UNITYSDK_OFFSET(0x1884A380)
-#define NEWTONSOFT_JSON_SERIALIZATION_JSONTYPEREFLECTOR_GET_REFLECTIONDELEGATEFACTORY_OFFSET UNITYSDK_OFFSET(0x1884B410)
-#define NEWTONSOFT_JSON_SERIALIZATION_JSONTYPEREFLECTOR__CCTOR_OFFSET UNITYSDK_OFFSET(0x1886D310)
+#define NEWTONSOFT_JSON_SERIALIZATION_JSONTYPEREFLECTOR_CREATEJSONCONVERTERINSTANCE_OFFSET UNITYSDK_OFFSET(0x15B974C0)
+#define NEWTONSOFT_JSON_SERIALIZATION_JSONTYPEREFLECTOR_GETASSOCIATEDMETADATATYPE_OFFSET UNITYSDK_OFFSET(0x15BBB7D0)
+#define NEWTONSOFT_JSON_SERIALIZATION_JSONTYPEREFLECTOR_GETASSOCIATEMETADATATYPEFROMATTRIBUTE_OFFSET UNITYSDK_OFFSET(0x15BBB830)
+#define NEWTONSOFT_JSON_SERIALIZATION_JSONTYPEREFLECTOR_GETDATACONTRACTATTRIBUTE_OFFSET UNITYSDK_OFFSET(0x15B8BA90)
+#define NEWTONSOFT_JSON_SERIALIZATION_JSONTYPEREFLECTOR_GETDATAMEMBERATTRIBUTE_OFFSET UNITYSDK_OFFSET(0x15B97110)
+#define NEWTONSOFT_JSON_SERIALIZATION_JSONTYPEREFLECTOR_GETJSONCONVERTERCREATOR_OFFSET UNITYSDK_OFFSET(0x15BBB620)
+#define NEWTONSOFT_JSON_SERIALIZATION_JSONTYPEREFLECTOR_GETJSONCONVERTER_OFFSET UNITYSDK_OFFSET(0x15B900C0)
+#define NEWTONSOFT_JSON_SERIALIZATION_JSONTYPEREFLECTOR_GETOBJECTMEMBERSERIALIZATION_OFFSET UNITYSDK_OFFSET(0x15B8B820)
+#define NEWTONSOFT_JSON_SERIALIZATION_JSONTYPEREFLECTOR_GETTYPECONVERTER_OFFSET UNITYSDK_OFFSET(0x15BBB7A0)
+#define NEWTONSOFT_JSON_SERIALIZATION_JSONTYPEREFLECTOR_GET_FULLYTRUSTED_OFFSET UNITYSDK_OFFSET(0x15B8D2F0)
+#define NEWTONSOFT_JSON_SERIALIZATION_JSONTYPEREFLECTOR_GET_REFLECTIONDELEGATEFACTORY_OFFSET UNITYSDK_OFFSET(0x15B8E770)
+#define NEWTONSOFT_JSON_SERIALIZATION_JSONTYPEREFLECTOR__CCTOR_OFFSET UNITYSDK_OFFSET(0x15BBBAD0)
 
 namespace Newtonsoft::Json::Serialization
 {
-	inline static constexpr unsigned int JsonTypeReflector_TypeDefinitionIndex = 9394;
+	inline static constexpr unsigned int JsonTypeReflector_TypeDefinitionIndex = 9406;
 
 	class JsonTypeReflector : public ::System::Object
 	{
 	public:
 		static ::Newtonsoft::Json::Utilities::ReflectionObject** StaticGet__metadataTypeAttributeReflectionObject()
 		{
-			return (::Newtonsoft::Json::Utilities::ReflectionObject**)Il2CppClass::FromTypeDefinitionIndex(JsonTypeReflector_TypeDefinitionIndex)->GetStaticField(0x301F0);
+			return (::Newtonsoft::Json::Utilities::ReflectionObject**)Il2CppClass::FromTypeDefinitionIndex(JsonTypeReflector_TypeDefinitionIndex)->GetStaticField(0x343B0);
 		}
 		static ::Newtonsoft::Json::Utilities::ThreadSafeStore_2<::System::Type*, ::System::Func_2<::Il2CppArray<::System::Object*>*, ::Newtonsoft::Json::JsonConverter*>*>** StaticGet_JsonConverterCreatorCache()
 		{
-			return (::Newtonsoft::Json::Utilities::ThreadSafeStore_2<::System::Type*, ::System::Func_2<::Il2CppArray<::System::Object*>*, ::Newtonsoft::Json::JsonConverter*>*>**)Il2CppClass::FromTypeDefinitionIndex(JsonTypeReflector_TypeDefinitionIndex)->GetStaticField(0x301F8);
+			return (::Newtonsoft::Json::Utilities::ThreadSafeStore_2<::System::Type*, ::System::Func_2<::Il2CppArray<::System::Object*>*, ::Newtonsoft::Json::JsonConverter*>*>**)Il2CppClass::FromTypeDefinitionIndex(JsonTypeReflector_TypeDefinitionIndex)->GetStaticField(0x343B8);
 		}
 		static ::Newtonsoft::Json::Utilities::ThreadSafeStore_2<::System::Type*, ::System::Type*>** StaticGet_AssociatedMetadataTypesCache()
 		{
-			return (::Newtonsoft::Json::Utilities::ThreadSafeStore_2<::System::Type*, ::System::Type*>**)Il2CppClass::FromTypeDefinitionIndex(JsonTypeReflector_TypeDefinitionIndex)->GetStaticField(0x30200);
+			return (::Newtonsoft::Json::Utilities::ThreadSafeStore_2<::System::Type*, ::System::Type*>**)Il2CppClass::FromTypeDefinitionIndex(JsonTypeReflector_TypeDefinitionIndex)->GetStaticField(0x343C0);
 		}
 		static ::System::Nullable_1<::System::Boolean>* StaticGet__fullyTrusted()
 		{
-			return (::System::Nullable_1<::System::Boolean>*)Il2CppClass::FromTypeDefinitionIndex(JsonTypeReflector_TypeDefinitionIndex)->GetStaticField(0x9FB0);
+			return (::System::Nullable_1<::System::Boolean>*)Il2CppClass::FromTypeDefinitionIndex(JsonTypeReflector_TypeDefinitionIndex)->GetStaticField(0x89B0);
 		}
 
 		static ::System::Void _cctor()

@@ -10,7 +10,7 @@ namespace System { class String; }
 
 namespace System::Net::NetworkInformation
 {
-	inline static constexpr unsigned int Win32_IP_ADAPTER_ADDRESSES_TypeDefinitionIndex = 2955;
+	inline static constexpr unsigned int Win32_IP_ADAPTER_ADDRESSES_TypeDefinitionIndex = 2959;
 
 	struct alignas(8) Win32_IP_ADAPTER_ADDRESSES
 	{

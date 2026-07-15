@@ -6,15 +6,14 @@
 
 namespace RPGTools::Timeline { class Emo2DAtlasClip; }
 
-#define RPGTOOLS_TIMELINE_EMO2DATLASBEHAVIOUR_GET_CLIP_OFFSET UNITYSDK_OFFSET(0xD003B90)
-#define RPGTOOLS_TIMELINE_EMO2DATLASBEHAVIOUR_ONBEHAVIOURPLAY_OFFSET UNITYSDK_OFFSET(0xD003BB0)
-#define RPGTOOLS_TIMELINE_EMO2DATLASBEHAVIOUR_SET_CLIP_OFFSET UNITYSDK_OFFSET(0xD003BA0)
-#define RPGTOOLS_TIMELINE_EMO2DATLASBEHAVIOUR__CTOR_OFFSET UNITYSDK_OFFSET(0xD003CB0)
-#define RPGTOOLS_TIMELINE_EMO2DATLASBEHAVIOUR___IFIXBASEPROXY_ONBEHAVIOURPLAY_OFFSET UNITYSDK_OFFSET(0xD003CC0)
+#define RPGTOOLS_TIMELINE_EMO2DATLASBEHAVIOUR_GET_CLIP_OFFSET UNITYSDK_OFFSET(0x19A3C160)
+#define RPGTOOLS_TIMELINE_EMO2DATLASBEHAVIOUR_ONBEHAVIOURPLAY_OFFSET UNITYSDK_OFFSET(0x19A3C180)
+#define RPGTOOLS_TIMELINE_EMO2DATLASBEHAVIOUR_SET_CLIP_OFFSET UNITYSDK_OFFSET(0x19A3C170)
+#define RPGTOOLS_TIMELINE_EMO2DATLASBEHAVIOUR__CTOR_OFFSET UNITYSDK_OFFSET(0x19A3C280)
 
 namespace RPGTools::Timeline
 {
-	inline static constexpr unsigned int Emo2DAtlasBehaviour_TypeDefinitionIndex = 45384;
+	inline static constexpr unsigned int Emo2DAtlasBehaviour_TypeDefinitionIndex = 46313;
 
 	class Emo2DAtlasBehaviour : public ::UnityEngine::Playables::PlayableBehaviour
 	{
@@ -39,11 +38,6 @@ namespace RPGTools::Timeline
 		::System::Void OnBehaviourPlay(::UnityEngine::Playables::Playable a1, ::UnityEngine::Playables::FrameData a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::UnityEngine::Playables::Playable, ::UnityEngine::Playables::FrameData))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_EMO2DATLASBEHAVIOUR_ONBEHAVIOURPLAY_OFFSET))(this, a1, a2);
-		}
-
-		::System::Void __iFixBaseProxy_OnBehaviourPlay(::UnityEngine::Playables::Playable a1, ::UnityEngine::Playables::FrameData a2)
-		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Playables::Playable, ::UnityEngine::Playables::FrameData))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_EMO2DATLASBEHAVIOUR___IFIXBASEPROXY_ONBEHAVIOURPLAY_OFFSET))(this, a1, a2);
 		}
 	};
 }

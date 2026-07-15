@@ -5,11 +5,11 @@
 namespace UnityEngine::UI { class Button; }
 namespace UnityEngine::UI { class InputField; }
 
-#define SRDEBUGGER_UI_SHELLCOMMANDHELPER__CTOR_OFFSET UNITYSDK_OFFSET(0xD076470)
+#define SRDEBUGGER_UI_SHELLCOMMANDHELPER__CTOR_OFFSET UNITYSDK_OFFSET(0x19F66EB0)
 
 namespace SRDebugger::UI
 {
-	inline static constexpr unsigned int ShellCommandHelper_TypeDefinitionIndex = 45025;
+	inline static constexpr unsigned int ShellCommandHelper_TypeDefinitionIndex = 45943;
 
 	class ShellCommandHelper : public ::UnityEngine::MonoBehaviour
 	{

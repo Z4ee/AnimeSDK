@@ -5,7 +5,7 @@ namespace System::Collections::Generic { template <typename T> class IEnumerable
 
 namespace Entitas
 {
-	inline static constexpr unsigned int ICollector_TypeDefinitionIndex = 9631;
+	inline static constexpr unsigned int ICollector_TypeDefinitionIndex = 9645;
 
 	class ICollector
 	{

@@ -3,7 +3,7 @@
 
 namespace Epic::OnlineServices::KWS
 {
-	inline static constexpr unsigned int KWSPermissionStatus_TypeDefinitionIndex = 42866;
+	inline static constexpr unsigned int KWSPermissionStatus_TypeDefinitionIndex = 43727;
 
 	enum class KWSPermissionStatus : ::System::Int32
 	{

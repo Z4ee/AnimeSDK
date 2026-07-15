@@ -9,7 +9,7 @@ namespace UnityEngine { class Object; }
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int ILogger_TypeDefinitionIndex = 4197;
+	inline static constexpr unsigned int ILogger_TypeDefinitionIndex = 4202;
 
 	class ILogger
 	{

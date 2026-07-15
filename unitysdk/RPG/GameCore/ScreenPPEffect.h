@@ -5,13 +5,13 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_SCREENPPEFFECT_METHOD_3_DA45E579125F8D42_OFFSET UNITYSDK_OFFSET(0x19C1F120)
-#define RPG_GAMECORE_SCREENPPEFFECT_METHOD_3_EDE72BB3FD2A7779_OFFSET UNITYSDK_OFFSET(0x19C1F1A0)
-#define RPG_GAMECORE_SCREENPPEFFECT__CTOR_OFFSET UNITYSDK_OFFSET(0x19C1F170)
+#define RPG_GAMECORE_SCREENPPEFFECT_METHOD_3_EC26F7AFC2B47568_OFFSET UNITYSDK_OFFSET(0x1C2C8FD0)
+#define RPG_GAMECORE_SCREENPPEFFECT_METHOD_3_EDE72BB3FD2A7779_OFFSET UNITYSDK_OFFSET(0x1C2C9020)
+#define RPG_GAMECORE_SCREENPPEFFECT__CTOR_OFFSET UNITYSDK_OFFSET(0x1C2C9010)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ScreenPPEffect_TypeDefinitionIndex = 22458;
+	inline static constexpr unsigned int ScreenPPEffect_TypeDefinitionIndex = 22908;
 
 	class ScreenPPEffect : public ::RPG::GameCore::TaskConfig
 	{
@@ -24,9 +24,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SCREENPPEFFECT__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_DA45E579125F8D42(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ScreenPPEffect*& a2)
+		static ::System::Void Method_3_EC26F7AFC2B47568(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ScreenPPEffect*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ScreenPPEffect*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SCREENPPEFFECT_METHOD_3_DA45E579125F8D42_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ScreenPPEffect*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SCREENPPEFFECT_METHOD_3_EC26F7AFC2B47568_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_EDE72BB3FD2A7779(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ScreenPPEffect* a2)

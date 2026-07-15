@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/Timeline/TrackAsset.h"
 
-#define RPGTOOLS_TIMELINE_LIFECYCLEEVENTTRACK__CTOR_OFFSET UNITYSDK_OFFSET(0xD027510)
+#define RPGTOOLS_TIMELINE_LIFECYCLEEVENTTRACK__CTOR_OFFSET UNITYSDK_OFFSET(0x19A62C30)
 
 namespace RPGTools::Timeline
 {
-	inline static constexpr unsigned int LifeCycleEventTrack_TypeDefinitionIndex = 45446;
+	inline static constexpr unsigned int LifeCycleEventTrack_TypeDefinitionIndex = 46380;
 
 	class LifeCycleEventTrack : public ::UnityEngine::Timeline::TrackAsset
 	{

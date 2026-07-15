@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int EffectItemType_TypeDefinitionIndex = 10656;
+	inline static constexpr unsigned int EffectItemType_TypeDefinitionIndex = 10706;
 
 	enum class EffectItemType : ::System::Int32
 	{

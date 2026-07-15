@@ -3,7 +3,7 @@
 
 namespace ZenFulcrum::VR::OpenVRBinding
 {
-	inline static constexpr unsigned int EVRControllerEventOutputType_TypeDefinitionIndex = 36293;
+	inline static constexpr unsigned int EVRControllerEventOutputType_TypeDefinitionIndex = 37075;
 
 	enum class EVRControllerEventOutputType : ::System::Int32
 	{

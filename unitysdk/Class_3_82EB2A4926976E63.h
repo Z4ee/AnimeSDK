@@ -7,18 +7,18 @@ namespace RPG::GameCore { class CollectHeartDialCameraIndex; }
 namespace RPG::GameCore { class TaskContext; }
 namespace System { class String; }
 
-#define CLASS_3_82EB2A4926976E63_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x13C274A0)
-#define CLASS_3_82EB2A4926976E63__CCTOR_OFFSET UNITYSDK_OFFSET(0x13C27750)
-#define CLASS_3_82EB2A4926976E63__CTOR_OFFSET UNITYSDK_OFFSET(0x13C27470)
+#define CLASS_3_82EB2A4926976E63_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x16BB7A00)
+#define CLASS_3_82EB2A4926976E63__CCTOR_OFFSET UNITYSDK_OFFSET(0x16BB7CB0)
+#define CLASS_3_82EB2A4926976E63__CTOR_OFFSET UNITYSDK_OFFSET(0x16BB79D0)
 
-inline static constexpr unsigned int Class_3_82EB2A4926976E63_TypeDefinitionIndex = 49295;
+inline static constexpr unsigned int Class_3_82EB2A4926976E63_TypeDefinitionIndex = 50310;
 
 class Class_3_82EB2A4926976E63 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::CollectHeartDialCameraIndex*>
 {
 public:
 	static ::RPG::GameCore::StringHash* StaticGet_Field_3_0()
 	{
-		return (::RPG::GameCore::StringHash*)Il2CppClass::FromTypeDefinitionIndex(Class_3_82EB2A4926976E63_TypeDefinitionIndex)->GetStaticField(0xAEE0);
+		return (::RPG::GameCore::StringHash*)Il2CppClass::FromTypeDefinitionIndex(Class_3_82EB2A4926976E63_TypeDefinitionIndex)->GetStaticField(0x96D0);
 	}
 	// static const ::System::String* Field_3_1; // 0x0
 

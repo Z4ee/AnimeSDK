@@ -5,13 +5,13 @@
 
 namespace System { class Action; }
 
-#define RPG_CLIENT_ELFHINTHANDLER_GETCONTENT_OFFSET UNITYSDK_OFFSET(0xB8C1C90)
-#define RPG_CLIENT_ELFHINTHANDLER_SHOW_OFFSET UNITYSDK_OFFSET(0xB8C1C30)
-#define RPG_CLIENT_ELFHINTHANDLER__CTOR_OFFSET UNITYSDK_OFFSET(0xB8C1C20)
+#define RPG_CLIENT_ELFHINTHANDLER_GETCONTENT_OFFSET UNITYSDK_OFFSET(0x18E37710)
+#define RPG_CLIENT_ELFHINTHANDLER_SHOW_OFFSET UNITYSDK_OFFSET(0x18E376B0)
+#define RPG_CLIENT_ELFHINTHANDLER__CTOR_OFFSET UNITYSDK_OFFSET(0x18E376A0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ElfHintHandler_TypeDefinitionIndex = 59621;
+	inline static constexpr unsigned int ElfHintHandler_TypeDefinitionIndex = 60906;
 
 	class ElfHintHandler : public ::System::Object
 	{

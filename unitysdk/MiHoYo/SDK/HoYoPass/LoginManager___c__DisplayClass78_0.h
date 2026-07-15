@@ -6,20 +6,20 @@ namespace MiHoYo::SDK::HoYoPass { class LoginManager; }
 namespace System { class Action; }
 namespace System { class String; }
 
-#define MIHOYO_SDK_HOYOPASS_LOGINMANAGER___C__DISPLAYCLASS78_0__CTOR_OFFSET UNITYSDK_OFFSET(0x183323E0)
-#define MIHOYO_SDK_HOYOPASS_LOGINMANAGER___C__DISPLAYCLASS78_0__GOOGLEPCOAUTH_B__0_OFFSET UNITYSDK_OFFSET(0x1833ABC0)
-#define MIHOYO_SDK_HOYOPASS_LOGINMANAGER___C__DISPLAYCLASS78_0__GOOGLEPCOAUTH_B__1_OFFSET UNITYSDK_OFFSET(0x1833AC80)
-#define MIHOYO_SDK_HOYOPASS_LOGINMANAGER___C__DISPLAYCLASS78_0__GOOGLEPCOAUTH_B__2_OFFSET UNITYSDK_OFFSET(0x1833ADA0)
+#define MIHOYO_SDK_HOYOPASS_LOGINMANAGER___C__DISPLAYCLASS78_0__CTOR_OFFSET UNITYSDK_OFFSET(0x181EEDA0)
+#define MIHOYO_SDK_HOYOPASS_LOGINMANAGER___C__DISPLAYCLASS78_0__GOOGLEPCOAUTH_B__0_OFFSET UNITYSDK_OFFSET(0x181F7340)
+#define MIHOYO_SDK_HOYOPASS_LOGINMANAGER___C__DISPLAYCLASS78_0__GOOGLEPCOAUTH_B__1_OFFSET UNITYSDK_OFFSET(0x181F7400)
+#define MIHOYO_SDK_HOYOPASS_LOGINMANAGER___C__DISPLAYCLASS78_0__GOOGLEPCOAUTH_B__2_OFFSET UNITYSDK_OFFSET(0x181F7520)
 
 namespace MiHoYo::SDK::HoYoPass
 {
-	inline static constexpr unsigned int LoginManager___c__DisplayClass78_0_TypeDefinitionIndex = 8272;
+	inline static constexpr unsigned int LoginManager___c__DisplayClass78_0_TypeDefinitionIndex = 8284;
 
 	class LoginManager___c__DisplayClass78_0 : public ::System::Object
 	{
 	public:
-		::MiHoYo::SDK::HoYoPass::LoginManager* __4__this; // 0x10
-		::System::Action* successCallback; // 0x18
+		::System::Action* successCallback; // 0x10
+		::MiHoYo::SDK::HoYoPass::LoginManager* __4__this; // 0x18
 
 		::System::Void _ctor()
 		{

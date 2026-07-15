@@ -5,13 +5,13 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_WAITTIMELINEFINISH_METHOD_3_CD3F42F356C96246_OFFSET UNITYSDK_OFFSET(0x19E63120)
-#define RPG_GAMECORE_WAITTIMELINEFINISH_METHOD_3_ED1D00621172FAAF_OFFSET UNITYSDK_OFFSET(0x19E630A0)
-#define RPG_GAMECORE_WAITTIMELINEFINISH__CTOR_OFFSET UNITYSDK_OFFSET(0x19E630F0)
+#define RPG_GAMECORE_WAITTIMELINEFINISH_METHOD_3_9A7459F6352622C7_OFFSET UNITYSDK_OFFSET(0x1D1BE190)
+#define RPG_GAMECORE_WAITTIMELINEFINISH_METHOD_3_CD3F42F356C96246_OFFSET UNITYSDK_OFFSET(0x1D1BE1D0)
+#define RPG_GAMECORE_WAITTIMELINEFINISH__CTOR_OFFSET UNITYSDK_OFFSET(0x1D1BE1C0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int WaitTimelineFinish_TypeDefinitionIndex = 22431;
+	inline static constexpr unsigned int WaitTimelineFinish_TypeDefinitionIndex = 22880;
 
 	class WaitTimelineFinish : public ::RPG::GameCore::TaskConfig
 	{
@@ -25,9 +25,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_WAITTIMELINEFINISH__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_ED1D00621172FAAF(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::WaitTimelineFinish*& a2)
+		static ::System::Void Method_3_9A7459F6352622C7(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::WaitTimelineFinish*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::WaitTimelineFinish*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_WAITTIMELINEFINISH_METHOD_3_ED1D00621172FAAF_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::WaitTimelineFinish*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_WAITTIMELINEFINISH_METHOD_3_9A7459F6352622C7_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_CD3F42F356C96246(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::WaitTimelineFinish* a2)

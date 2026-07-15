@@ -8,28 +8,28 @@ namespace System { class String; }
 namespace System::Runtime::Serialization::Formatters::Binary { class __BinaryParser; }
 namespace System::Runtime::Serialization::Formatters::Binary { class __BinaryWriter; }
 
-#define SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_BINARYOBJECTWITHMAPTYPED_READ_OFFSET UNITYSDK_OFFSET(0x187AC890)
-#define SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_BINARYOBJECTWITHMAPTYPED_SET_OFFSET UNITYSDK_OFFSET(0x187AC630)
-#define SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_BINARYOBJECTWITHMAPTYPED_WRITE_OFFSET UNITYSDK_OFFSET(0x187AC670)
-#define SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_BINARYOBJECTWITHMAPTYPED__CTOR_1_OFFSET UNITYSDK_OFFSET(0x187AC620)
-#define SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_BINARYOBJECTWITHMAPTYPED__CTOR_OFFSET UNITYSDK_OFFSET(0x187AC610)
+#define SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_BINARYOBJECTWITHMAPTYPED_READ_OFFSET UNITYSDK_OFFSET(0x1791AAC0)
+#define SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_BINARYOBJECTWITHMAPTYPED_SET_OFFSET UNITYSDK_OFFSET(0x1791A520)
+#define SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_BINARYOBJECTWITHMAPTYPED_WRITE_OFFSET UNITYSDK_OFFSET(0x1791A570)
+#define SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_BINARYOBJECTWITHMAPTYPED__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1791A510)
+#define SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_BINARYOBJECTWITHMAPTYPED__CTOR_OFFSET UNITYSDK_OFFSET(0x1791A500)
 
 namespace System::Runtime::Serialization::Formatters::Binary
 {
-	inline static constexpr unsigned int BinaryObjectWithMapTyped_TypeDefinitionIndex = 1148;
+	inline static constexpr unsigned int BinaryObjectWithMapTyped_TypeDefinitionIndex = 1150;
 
 	class BinaryObjectWithMapTyped : public ::System::Object
 	{
 	public:
-		::Il2CppArray<::System::Int32>* memberAssemIds; // 0x10
-		::Il2CppArray<::System::String*>* memberNames; // 0x18
+		::Il2CppArray<::System::Runtime::Serialization::Formatters::Binary::BinaryTypeEnum>* binaryTypeEnumA; // 0x10
+		::Il2CppArray<::System::Int32>* memberAssemIds; // 0x18
 		::System::String* name; // 0x20
-		::Il2CppArray<::System::Runtime::Serialization::Formatters::Binary::BinaryTypeEnum>* binaryTypeEnumA; // 0x28
+		::Il2CppArray<::System::String*>* memberNames; // 0x28
 		::Il2CppArray<::System::Object*>* typeInformationA; // 0x30
 		::System::Runtime::Serialization::Formatters::Binary::BinaryHeaderEnum binaryHeaderEnum; // 0x38
-		::System::Int32 objectId; // 0x3C
+		::System::Int32 assemId; // 0x3C
 		::System::Int32 numMembers; // 0x40
-		::System::Int32 assemId; // 0x44
+		::System::Int32 objectId; // 0x44
 
 		::System::Void _ctor()
 		{

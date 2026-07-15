@@ -11,13 +11,12 @@ namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class GameObject; }
 
-#define RPG_CLIENT_FIXSTRETCHUV_GETTICKLODTEMPLATENAME_OFFSET UNITYSDK_OFFSET(0xBA5A370)
-#define RPG_CLIENT_FIXSTRETCHUV__CTOR_OFFSET UNITYSDK_OFFSET(0xBA5A3C0)
-#define RPG_CLIENT_FIXSTRETCHUV___IFIXBASEPROXY_GETTICKLODTEMPLATENAME_OFFSET UNITYSDK_OFFSET(0xBA5A490)
+#define RPG_CLIENT_FIXSTRETCHUV_GETTICKLODTEMPLATENAME_OFFSET UNITYSDK_OFFSET(0x184367A0)
+#define RPG_CLIENT_FIXSTRETCHUV__CTOR_OFFSET UNITYSDK_OFFSET(0x184367F0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int FixStretchUV_TypeDefinitionIndex = 66015;
+	inline static constexpr unsigned int FixStretchUV_TypeDefinitionIndex = 67440;
 
 	class FixStretchUV : public ::RPG::Client::TAMonoPlugin_1<::RPG::Client::FixStretchUVBehavior*>
 	{
@@ -40,11 +39,6 @@ namespace RPG::Client
 		::System::String* GetTickLodTemplateName()
 		{
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_FIXSTRETCHUV_GETTICKLODTEMPLATENAME_OFFSET))(this);
-		}
-
-		::System::String* __iFixBaseProxy_GetTickLodTemplateName()
-		{
-			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_FIXSTRETCHUV___IFIXBASEPROXY_GETTICKLODTEMPLATENAME_OFFSET))(this);
 		}
 	};
 }

@@ -5,21 +5,21 @@
 namespace RPG::GameCore { class PlayMissionTalk; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_TALKMODULE_MISSIONTALKCACHE_CACHE_OFFSET UNITYSDK_OFFSET(0xC9C8F90)
-#define RPG_CLIENT_TALKMODULE_MISSIONTALKCACHE_CLEAR_OFFSET UNITYSDK_OFFSET(0xC9C8D70)
-#define RPG_CLIENT_TALKMODULE_MISSIONTALKCACHE_CREATEPLAYMISSIONTALKCONFIG_OFFSET UNITYSDK_OFFSET(0xC9D3620)
-#define RPG_CLIENT_TALKMODULE_MISSIONTALKCACHE__CTOR_OFFSET UNITYSDK_OFFSET(0xC9C8F30)
+#define RPG_CLIENT_TALKMODULE_MISSIONTALKCACHE_CACHE_OFFSET UNITYSDK_OFFSET(0x19763170)
+#define RPG_CLIENT_TALKMODULE_MISSIONTALKCACHE_CLEAR_OFFSET UNITYSDK_OFFSET(0x19762F50)
+#define RPG_CLIENT_TALKMODULE_MISSIONTALKCACHE_CREATEPLAYMISSIONTALKCONFIG_OFFSET UNITYSDK_OFFSET(0x1976EB70)
+#define RPG_CLIENT_TALKMODULE_MISSIONTALKCACHE__CTOR_OFFSET UNITYSDK_OFFSET(0x19763110)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int TalkModule_MissionTalkCache_TypeDefinitionIndex = 63653;
+	inline static constexpr unsigned int TalkModule_MissionTalkCache_TypeDefinitionIndex = 65021;
 
 	class TalkModule_MissionTalkCache : public ::System::Object
 	{
 	public:
 		::System::Collections::Generic::List_1<::System::UInt32>* TalkSentenceIDs; // 0x10
-		::System::UInt32 CurFloorID; // 0x18
-		::System::UInt32 CurIndex; // 0x1C
+		::System::UInt32 CurIndex; // 0x18
+		::System::UInt32 CurFloorID; // 0x1C
 		::System::UInt32 SubMissionID; // 0x20
 
 		::System::Void _ctor()

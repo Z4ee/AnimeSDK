@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LevelAnchorUsage_TypeDefinitionIndex = 16333;
+	inline static constexpr unsigned int LevelAnchorUsage_TypeDefinitionIndex = 16495;
 
 	enum class LevelAnchorUsage : ::System::Int32
 	{

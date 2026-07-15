@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LevelMinimapSectionType_TypeDefinitionIndex = 16327;
+	inline static constexpr unsigned int LevelMinimapSectionType_TypeDefinitionIndex = 16489;
 
 	enum class LevelMinimapSectionType : ::System::Int32
 	{

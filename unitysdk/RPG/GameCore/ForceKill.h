@@ -6,13 +6,13 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class TargetEvaluator; }
 
-#define RPG_GAMECORE_FORCEKILL_METHOD_3_65C4CA872D920D08_OFFSET UNITYSDK_OFFSET(0x19764020)
-#define RPG_GAMECORE_FORCEKILL_METHOD_3_91F7456C7AD92702_OFFSET UNITYSDK_OFFSET(0x197640C0)
-#define RPG_GAMECORE_FORCEKILL__CTOR_OFFSET UNITYSDK_OFFSET(0x19764080)
+#define RPG_GAMECORE_FORCEKILL_METHOD_3_91F7456C7AD92702_OFFSET UNITYSDK_OFFSET(0x1BEBEF30)
+#define RPG_GAMECORE_FORCEKILL_METHOD_3_ABFEC6364D0D62E3_OFFSET UNITYSDK_OFFSET(0x1BEBEEE0)
+#define RPG_GAMECORE_FORCEKILL__CTOR_OFFSET UNITYSDK_OFFSET(0x1BEBEF20)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ForceKill_TypeDefinitionIndex = 21442;
+	inline static constexpr unsigned int ForceKill_TypeDefinitionIndex = 21862;
 
 	class ForceKill : public ::RPG::GameCore::TaskConfig
 	{
@@ -32,9 +32,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FORCEKILL__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_65C4CA872D920D08(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ForceKill*& a2)
+		static ::System::Void Method_3_ABFEC6364D0D62E3(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ForceKill*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ForceKill*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FORCEKILL_METHOD_3_65C4CA872D920D08_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ForceKill*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FORCEKILL_METHOD_3_ABFEC6364D0D62E3_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_91F7456C7AD92702(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ForceKill* a2)

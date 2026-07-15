@@ -5,13 +5,13 @@
 namespace RPG::Client::Prop { class ChimeraBattlePuzzleBoard; }
 namespace System { class Action; }
 
-#define CLASS_1_26FC96B4784846EC_GET_ISFINISHED_OFFSET UNITYSDK_OFFSET(0x13976B50)
-#define CLASS_1_26FC96B4784846EC_METHOD_1_1C74751C0412CC90_OFFSET UNITYSDK_OFFSET(0x13975E50)
-#define CLASS_1_26FC96B4784846EC_METHOD_1_B1936CE4DA97AA45_OFFSET UNITYSDK_OFFSET(0x13976AE0)
-#define CLASS_1_26FC96B4784846EC_SET_ISFINISHED_OFFSET UNITYSDK_OFFSET(0x13976B60)
-#define CLASS_1_26FC96B4784846EC__CTOR_OFFSET UNITYSDK_OFFSET(0x13975E30)
+#define CLASS_1_26FC96B4784846EC_GET_ISFINISHED_OFFSET UNITYSDK_OFFSET(0x158CF820)
+#define CLASS_1_26FC96B4784846EC_METHOD_1_1C74751C0412CC90_OFFSET UNITYSDK_OFFSET(0x158CEB20)
+#define CLASS_1_26FC96B4784846EC_METHOD_1_B1936CE4DA97AA45_OFFSET UNITYSDK_OFFSET(0x158CF7B0)
+#define CLASS_1_26FC96B4784846EC_SET_ISFINISHED_OFFSET UNITYSDK_OFFSET(0x158CF830)
+#define CLASS_1_26FC96B4784846EC__CTOR_OFFSET UNITYSDK_OFFSET(0x158CEB00)
 
-inline static constexpr unsigned int Class_1_26FC96B4784846EC_TypeDefinitionIndex = 72958;
+inline static constexpr unsigned int Class_1_26FC96B4784846EC_TypeDefinitionIndex = 74483;
 
 class Class_1_26FC96B4784846EC : public ::System::Object
 {
@@ -21,8 +21,8 @@ public:
 	::System::Single Field_1_2; // 0x20
 	::System::Int32 Field_1_3; // 0x24
 	::System::Boolean _IsFinished_k__BackingField; // 0x28
-	::System::Single Field_1_5; // 0x2C
-	::System::Int32 Field_1_6; // 0x30
+	::System::Int32 Field_1_5; // 0x2C
+	::System::Single Field_1_6; // 0x30
 
 	::System::Void _ctor(::System::Single a1, ::System::Int32 a2, ::System::Int32 a3, ::RPG::Client::Prop::ChimeraBattlePuzzleBoard* a4, ::System::Action* a5)
 	{

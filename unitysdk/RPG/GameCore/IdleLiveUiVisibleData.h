@@ -3,18 +3,18 @@
 #include "unitysdk/RPG/Client/IdleLiveUIType.h"
 #include "unitysdk/System/Object.h"
 
-#define RPG_GAMECORE_IDLELIVEUIVISIBLEDATA_CONTAINSFLAG_OFFSET UNITYSDK_OFFSET(0xCE2DE70)
-#define RPG_GAMECORE_IDLELIVEUIVISIBLEDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xCE2DEC0)
+#define RPG_GAMECORE_IDLELIVEUIVISIBLEDATA_CONTAINSFLAG_OFFSET UNITYSDK_OFFSET(0x1551FCA0)
+#define RPG_GAMECORE_IDLELIVEUIVISIBLEDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1551FCF0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int IdleLiveUiVisibleData_TypeDefinitionIndex = 54365;
+	inline static constexpr unsigned int IdleLiveUiVisibleData_TypeDefinitionIndex = 55588;
 
 	class IdleLiveUiVisibleData : public ::System::Object
 	{
 	public:
-		::RPG::Client::IdleLiveUIType UiTypesToSet; // 0x10
-		::System::Boolean IsVisible; // 0x14
+		::System::Boolean IsVisible; // 0x10
+		::RPG::Client::IdleLiveUIType UiTypesToSet; // 0x14
 
 		::System::Void _ctor()
 		{

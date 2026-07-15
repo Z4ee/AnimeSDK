@@ -1,0 +1,52 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+
+class Class_0_16E4307DCC419505_1194;
+namespace RPG::GameCore { class IdleLiveGiftRow; }
+
+#define CLASS_1_A881FEB16F08FF3B_DISPOSE_OFFSET UNITYSDK_OFFSET(0x16880C10)
+#define CLASS_1_A881FEB16F08FF3B_METHOD_1_414A80345819E940_OFFSET UNITYSDK_OFFSET(0x168807F0)
+#define CLASS_1_A881FEB16F08FF3B_METHOD_1_A1781348F0A89177_OFFSET UNITYSDK_OFFSET(0x16880A10)
+#define CLASS_1_A881FEB16F08FF3B_METHOD_1_B732DC7FA82BA621_OFFSET UNITYSDK_OFFSET(0x16880530)
+#define CLASS_1_A881FEB16F08FF3B_METHOD_1_FDB878EE730B6AA4_OFFSET UNITYSDK_OFFSET(0x168803D0)
+#define CLASS_1_A881FEB16F08FF3B__CTOR_OFFSET UNITYSDK_OFFSET(0x168804F0)
+
+inline static constexpr unsigned int Class_1_A881FEB16F08FF3B_TypeDefinitionIndex = 71733;
+
+class Class_1_A881FEB16F08FF3B : public ::System::Object
+{
+public:
+	::Class_0_16E4307DCC419505_1194* Field_1_0; // 0x10
+	::System::UInt32 Field_1_1; // 0x18
+
+	::System::Void _ctor(::RPG::GameCore::IdleLiveGiftRow* a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::RPG::GameCore::IdleLiveGiftRow*))((::PBYTE)hIl2Cpp + CLASS_1_A881FEB16F08FF3B__CTOR_OFFSET))(this, a1);
+	}
+
+	static ::Class_1_A881FEB16F08FF3B* Method_1_FDB878EE730B6AA4(::System::UInt32 a1)
+	{
+		return ((::Class_1_A881FEB16F08FF3B*(*)(::System::UInt32))((::PBYTE)hIl2Cpp + CLASS_1_A881FEB16F08FF3B_METHOD_1_FDB878EE730B6AA4_OFFSET))(a1);
+	}
+
+	::System::Void Method_1_B732DC7FA82BA621()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_A881FEB16F08FF3B_METHOD_1_B732DC7FA82BA621_OFFSET))(this);
+	}
+
+	::System::Void Method_1_414A80345819E940()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_A881FEB16F08FF3B_METHOD_1_414A80345819E940_OFFSET))(this);
+	}
+
+	::System::Void Method_1_A1781348F0A89177()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_A881FEB16F08FF3B_METHOD_1_A1781348F0A89177_OFFSET))(this);
+	}
+
+	::System::Void Dispose()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_A881FEB16F08FF3B_DISPOSE_OFFSET))(this);
+	}
+};

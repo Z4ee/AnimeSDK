@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ChallengeTargetState_TypeDefinitionIndex = 59053;
+	inline static constexpr unsigned int ChallengeTargetState_TypeDefinitionIndex = 60324;
 
 	enum class ChallengeTargetState : ::System::Int32
 	{

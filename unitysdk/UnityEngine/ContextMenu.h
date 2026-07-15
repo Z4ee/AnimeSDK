@@ -4,13 +4,13 @@
 
 namespace System { class String; }
 
-#define UNITYENGINE_CONTEXTMENU__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1B286B40)
-#define UNITYENGINE_CONTEXTMENU__CTOR_2_OFFSET UNITYSDK_OFFSET(0x1B286B50)
-#define UNITYENGINE_CONTEXTMENU__CTOR_OFFSET UNITYSDK_OFFSET(0x1B286B30)
+#define UNITYENGINE_CONTEXTMENU__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1C16AA40)
+#define UNITYENGINE_CONTEXTMENU__CTOR_2_OFFSET UNITYSDK_OFFSET(0x1C16AA50)
+#define UNITYENGINE_CONTEXTMENU__CTOR_OFFSET UNITYSDK_OFFSET(0x1C16AA30)
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int ContextMenu_TypeDefinitionIndex = 4288;
+	inline static constexpr unsigned int ContextMenu_TypeDefinitionIndex = 4293;
 
 	class ContextMenu : public ::System::Attribute
 	{

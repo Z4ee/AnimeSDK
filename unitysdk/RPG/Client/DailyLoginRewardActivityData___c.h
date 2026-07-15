@@ -5,24 +5,24 @@
 
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define RPG_CLIENT_DAILYLOGINREWARDACTIVITYDATA___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xB732A90)
-#define RPG_CLIENT_DAILYLOGINREWARDACTIVITYDATA___C__CTOR_OFFSET UNITYSDK_OFFSET(0xB732AD0)
-#define RPG_CLIENT_DAILYLOGINREWARDACTIVITYDATA___C__ISSHOWNORMALREDDOT_B__2_0_OFFSET UNITYSDK_OFFSET(0xB732AE0)
+#define RPG_CLIENT_DAILYLOGINREWARDACTIVITYDATA___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1808CCF0)
+#define RPG_CLIENT_DAILYLOGINREWARDACTIVITYDATA___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1808CD30)
+#define RPG_CLIENT_DAILYLOGINREWARDACTIVITYDATA___C__ISSHOWNORMALREDDOT_B__2_0_OFFSET UNITYSDK_OFFSET(0x1808CD40)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int DailyLoginRewardActivityData___c_TypeDefinitionIndex = 57608;
+	inline static constexpr unsigned int DailyLoginRewardActivityData___c_TypeDefinitionIndex = 58870;
 
 	class DailyLoginRewardActivityData___c : public ::System::Object
 	{
 	public:
 		static ::System::Func_2<::RPG::Client::ActivityLoginData_RewardStatus, ::System::Boolean>** StaticGet___9__2_0()
 		{
-			return (::System::Func_2<::RPG::Client::ActivityLoginData_RewardStatus, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(DailyLoginRewardActivityData___c_TypeDefinitionIndex)->GetStaticField(0x3000);
+			return (::System::Func_2<::RPG::Client::ActivityLoginData_RewardStatus, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(DailyLoginRewardActivityData___c_TypeDefinitionIndex)->GetStaticField(0x6AEB0);
 		}
 		static ::RPG::Client::DailyLoginRewardActivityData___c** StaticGet___9()
 		{
-			return (::RPG::Client::DailyLoginRewardActivityData___c**)Il2CppClass::FromTypeDefinitionIndex(DailyLoginRewardActivityData___c_TypeDefinitionIndex)->GetStaticField(0x3008);
+			return (::RPG::Client::DailyLoginRewardActivityData___c**)Il2CppClass::FromTypeDefinitionIndex(DailyLoginRewardActivityData___c_TypeDefinitionIndex)->GetStaticField(0x6AEB8);
 		}
 
 		static ::System::Void _cctor()

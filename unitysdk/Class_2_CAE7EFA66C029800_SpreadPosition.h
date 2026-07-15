@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int Class_2_CAE7EFA66C029800_SpreadPosition_TypeDefinitionIndex = 67654;
+inline static constexpr unsigned int Class_2_CAE7EFA66C029800_SpreadPosition_TypeDefinitionIndex = 69138;
 
 enum class Class_2_CAE7EFA66C029800_SpreadPosition : ::System::Int32
 {

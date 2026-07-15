@@ -3,7 +3,7 @@
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int AvatarIKHint_TypeDefinitionIndex = 5120;
+	inline static constexpr unsigned int AvatarIKHint_TypeDefinitionIndex = 5125;
 
 	enum class AvatarIKHint : ::System::Int32
 	{

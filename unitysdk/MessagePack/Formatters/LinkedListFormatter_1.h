@@ -8,7 +8,7 @@ namespace System::Collections::Generic { template <typename T> class LinkedList_
 
 namespace MessagePack::Formatters
 {
-	inline static constexpr unsigned int LinkedListFormatter_1_TypeDefinitionIndex = 7342;
+	inline static constexpr unsigned int LinkedListFormatter_1_TypeDefinitionIndex = 7348;
 
 	template <typename T>
 	class LinkedListFormatter_1 : public ::MessagePack::Formatters::CollectionFormatterBase_4<T, ::System::Collections::Generic::LinkedList_1<T>*, ::System::Collections::Generic::LinkedList_1_Enumerator<T>, ::System::Collections::Generic::LinkedList_1<T>*>

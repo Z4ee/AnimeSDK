@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int DisableMazeLockReason_TypeDefinitionIndex = 53861;
+	inline static constexpr unsigned int DisableMazeLockReason_TypeDefinitionIndex = 55083;
 
 	enum class DisableMazeLockReason : ::System::Int32
 	{

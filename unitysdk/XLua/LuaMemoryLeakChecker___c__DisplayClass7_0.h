@@ -8,12 +8,12 @@ namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define XLUA_LUAMEMORYLEAKCHECKER___C__DISPLAYCLASS7_0__CTOR_OFFSET UNITYSDK_OFFSET(0x12E97F80)
-#define XLUA_LUAMEMORYLEAKCHECKER___C__DISPLAYCLASS7_0__GETRELATIONSHIP_B__0_OFFSET UNITYSDK_OFFSET(0x12E99490)
+#define XLUA_LUAMEMORYLEAKCHECKER___C__DISPLAYCLASS7_0__CTOR_OFFSET UNITYSDK_OFFSET(0x10BEBEC0)
+#define XLUA_LUAMEMORYLEAKCHECKER___C__DISPLAYCLASS7_0__GETRELATIONSHIP_B__0_OFFSET UNITYSDK_OFFSET(0x10BED3E0)
 
 namespace XLua
 {
-	inline static constexpr unsigned int LuaMemoryLeakChecker___c__DisplayClass7_0_TypeDefinitionIndex = 46887;
+	inline static constexpr unsigned int LuaMemoryLeakChecker___c__DisplayClass7_0_TypeDefinitionIndex = 47852;
 
 	class LuaMemoryLeakChecker___c__DisplayClass7_0 : public ::System::Object
 	{

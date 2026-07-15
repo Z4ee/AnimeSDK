@@ -5,13 +5,13 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_REMOVEBPFEATURE_METHOD_3_64E9329FA7DA5E9B_OFFSET UNITYSDK_OFFSET(0x19AC79C0)
-#define RPG_GAMECORE_REMOVEBPFEATURE_METHOD_3_F5363556402178F2_OFFSET UNITYSDK_OFFSET(0x19AC7A40)
-#define RPG_GAMECORE_REMOVEBPFEATURE__CTOR_OFFSET UNITYSDK_OFFSET(0x19AC7A10)
+#define RPG_GAMECORE_REMOVEBPFEATURE_METHOD_3_88531024E6186969_OFFSET UNITYSDK_OFFSET(0x1B9CE8F0)
+#define RPG_GAMECORE_REMOVEBPFEATURE_METHOD_3_F5363556402178F2_OFFSET UNITYSDK_OFFSET(0x1B9CE930)
+#define RPG_GAMECORE_REMOVEBPFEATURE__CTOR_OFFSET UNITYSDK_OFFSET(0x1B9CE920)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RemoveBpFeature_TypeDefinitionIndex = 21958;
+	inline static constexpr unsigned int RemoveBpFeature_TypeDefinitionIndex = 22392;
 
 	class RemoveBpFeature : public ::RPG::GameCore::TaskConfig
 	{
@@ -23,9 +23,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_REMOVEBPFEATURE__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_64E9329FA7DA5E9B(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::RemoveBpFeature*& a2)
+		static ::System::Void Method_3_88531024E6186969(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::RemoveBpFeature*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::RemoveBpFeature*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_REMOVEBPFEATURE_METHOD_3_64E9329FA7DA5E9B_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::RemoveBpFeature*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_REMOVEBPFEATURE_METHOD_3_88531024E6186969_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_F5363556402178F2(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::RemoveBpFeature* a2)

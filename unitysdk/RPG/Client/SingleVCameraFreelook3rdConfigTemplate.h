@@ -5,11 +5,11 @@
 
 namespace RPG::GameCore { class VCameraFreelook3rdConfig; }
 
-#define RPG_CLIENT_SINGLEVCAMERAFREELOOK3RDCONFIGTEMPLATE__CTOR_OFFSET UNITYSDK_OFFSET(0xC8E0C00)
+#define RPG_CLIENT_SINGLEVCAMERAFREELOOK3RDCONFIGTEMPLATE__CTOR_OFFSET UNITYSDK_OFFSET(0x188FE2E0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int SingleVCameraFreelook3rdConfigTemplate_TypeDefinitionIndex = 65210;
+	inline static constexpr unsigned int SingleVCameraFreelook3rdConfigTemplate_TypeDefinitionIndex = 66620;
 
 	class SingleVCameraFreelook3rdConfigTemplate : public ::System::Object
 	{

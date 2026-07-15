@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class ShowChallegeStoryWavePanel; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_0B935DC80FFD0E59_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x13CCF4B0)
-#define CLASS_3_0B935DC80FFD0E59__CTOR_OFFSET UNITYSDK_OFFSET(0x13CCF480)
+#define CLASS_3_0B935DC80FFD0E59_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x145394C0)
+#define CLASS_3_0B935DC80FFD0E59__CTOR_OFFSET UNITYSDK_OFFSET(0x14539490)
 
-inline static constexpr unsigned int Class_3_0B935DC80FFD0E59_TypeDefinitionIndex = 54770;
+inline static constexpr unsigned int Class_3_0B935DC80FFD0E59_TypeDefinitionIndex = 55997;
 
 class Class_3_0B935DC80FFD0E59 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::ShowChallegeStoryWavePanel*>
 {

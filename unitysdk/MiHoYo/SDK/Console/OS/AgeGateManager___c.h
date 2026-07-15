@@ -5,24 +5,24 @@
 namespace MiHoYo::SDK::UI::OS { class IAgeGateGeneralErrorDialog; }
 namespace System { template <typename T> class Action_1; }
 
-#define MIHOYO_SDK_CONSOLE_OS_AGEGATEMANAGER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x18256080)
-#define MIHOYO_SDK_CONSOLE_OS_AGEGATEMANAGER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x182560C0)
-#define MIHOYO_SDK_CONSOLE_OS_AGEGATEMANAGER___C__HANDLEAGEGATEFROMERRORCODE_B__7_0_OFFSET UNITYSDK_OFFSET(0x182560D0)
+#define MIHOYO_SDK_CONSOLE_OS_AGEGATEMANAGER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x163ED9D0)
+#define MIHOYO_SDK_CONSOLE_OS_AGEGATEMANAGER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x163EDA10)
+#define MIHOYO_SDK_CONSOLE_OS_AGEGATEMANAGER___C__HANDLEAGEGATEFROMERRORCODE_B__7_0_OFFSET UNITYSDK_OFFSET(0x163EDA20)
 
 namespace MiHoYo::SDK::Console::OS
 {
-	inline static constexpr unsigned int AgeGateManager___c_TypeDefinitionIndex = 8716;
+	inline static constexpr unsigned int AgeGateManager___c_TypeDefinitionIndex = 8728;
 
 	class AgeGateManager___c : public ::System::Object
 	{
 	public:
-		static ::System::Action_1<::MiHoYo::SDK::UI::OS::IAgeGateGeneralErrorDialog*>** StaticGet___9__7_0()
-		{
-			return (::System::Action_1<::MiHoYo::SDK::UI::OS::IAgeGateGeneralErrorDialog*>**)Il2CppClass::FromTypeDefinitionIndex(AgeGateManager___c_TypeDefinitionIndex)->GetStaticField(0x10670);
-		}
 		static ::MiHoYo::SDK::Console::OS::AgeGateManager___c** StaticGet___9()
 		{
-			return (::MiHoYo::SDK::Console::OS::AgeGateManager___c**)Il2CppClass::FromTypeDefinitionIndex(AgeGateManager___c_TypeDefinitionIndex)->GetStaticField(0x10678);
+			return (::MiHoYo::SDK::Console::OS::AgeGateManager___c**)Il2CppClass::FromTypeDefinitionIndex(AgeGateManager___c_TypeDefinitionIndex)->GetStaticField(0x19A80);
+		}
+		static ::System::Action_1<::MiHoYo::SDK::UI::OS::IAgeGateGeneralErrorDialog*>** StaticGet___9__7_0()
+		{
+			return (::System::Action_1<::MiHoYo::SDK::UI::OS::IAgeGateGeneralErrorDialog*>**)Il2CppClass::FromTypeDefinitionIndex(AgeGateManager___c_TypeDefinitionIndex)->GetStaticField(0x19A88);
 		}
 
 		static ::System::Void _cctor()

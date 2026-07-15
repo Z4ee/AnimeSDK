@@ -6,7 +6,7 @@ namespace UnityEngine { class RectTransform; }
 
 namespace UnityEngine::UI
 {
-	inline static constexpr unsigned int LayoutUtility___c__DisplayClass16_0_TypeDefinitionIndex = 5945;
+	inline static constexpr unsigned int LayoutUtility___c__DisplayClass16_0_TypeDefinitionIndex = 5950;
 
 	struct alignas(8) LayoutUtility___c__DisplayClass16_0
 	{

@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define EPIC_ONLINESERVICES_ACHIEVEMENTS_GETACHIEVEMENTDEFINITIONCOUNTOPTIONS__CTOR_OFFSET UNITYSDK_OFFSET(0xA0B7660)
+#define EPIC_ONLINESERVICES_ACHIEVEMENTS_GETACHIEVEMENTDEFINITIONCOUNTOPTIONS__CTOR_OFFSET UNITYSDK_OFFSET(0x1BDB1B00)
 
 namespace Epic::OnlineServices::Achievements
 {
-	inline static constexpr unsigned int GetAchievementDefinitionCountOptions_TypeDefinitionIndex = 43410;
+	inline static constexpr unsigned int GetAchievementDefinitionCountOptions_TypeDefinitionIndex = 44271;
 
 	class GetAchievementDefinitionCountOptions : public ::System::Object
 	{

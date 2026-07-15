@@ -4,7 +4,7 @@
 #include "unitysdk/RPG/GameCore/PamPlaceType.h"
 #include "unitysdk/System/ValueType.h"
 
-inline static constexpr unsigned int Struct_2_F21FE543B512096C_TypeDefinitionIndex = 62109;
+inline static constexpr unsigned int Struct_2_F21FE543B512096C_TypeDefinitionIndex = 63474;
 
 struct alignas(4) Struct_2_F21FE543B512096C
 {

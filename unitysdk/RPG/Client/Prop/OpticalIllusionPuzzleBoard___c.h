@@ -4,24 +4,24 @@
 
 namespace System { class Action; }
 
-#define RPG_CLIENT_PROP_OPTICALILLUSIONPUZZLEBOARD___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xC5BA090)
-#define RPG_CLIENT_PROP_OPTICALILLUSIONPUZZLEBOARD___C__CTOR_OFFSET UNITYSDK_OFFSET(0xC5BA0D0)
-#define RPG_CLIENT_PROP_OPTICALILLUSIONPUZZLEBOARD___C__DISPOSE_B__2_0_OFFSET UNITYSDK_OFFSET(0xC5BA0E0)
+#define RPG_CLIENT_PROP_OPTICALILLUSIONPUZZLEBOARD___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1486EE30)
+#define RPG_CLIENT_PROP_OPTICALILLUSIONPUZZLEBOARD___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1486EE70)
+#define RPG_CLIENT_PROP_OPTICALILLUSIONPUZZLEBOARD___C__DISPOSE_B__2_0_OFFSET UNITYSDK_OFFSET(0x1486EE80)
 
 namespace RPG::Client::Prop
 {
-	inline static constexpr unsigned int OpticalIllusionPuzzleBoard___c_TypeDefinitionIndex = 73223;
+	inline static constexpr unsigned int OpticalIllusionPuzzleBoard___c_TypeDefinitionIndex = 74748;
 
 	class OpticalIllusionPuzzleBoard___c : public ::System::Object
 	{
 	public:
 		static ::System::Action** StaticGet___9__2_0()
 		{
-			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(OpticalIllusionPuzzleBoard___c_TypeDefinitionIndex)->GetStaticField(0x18180);
+			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(OpticalIllusionPuzzleBoard___c_TypeDefinitionIndex)->GetStaticField(0x5860);
 		}
 		static ::RPG::Client::Prop::OpticalIllusionPuzzleBoard___c** StaticGet___9()
 		{
-			return (::RPG::Client::Prop::OpticalIllusionPuzzleBoard___c**)Il2CppClass::FromTypeDefinitionIndex(OpticalIllusionPuzzleBoard___c_TypeDefinitionIndex)->GetStaticField(0x18188);
+			return (::RPG::Client::Prop::OpticalIllusionPuzzleBoard___c**)Il2CppClass::FromTypeDefinitionIndex(OpticalIllusionPuzzleBoard___c_TypeDefinitionIndex)->GetStaticField(0x5868);
 		}
 
 		static ::System::Void _cctor()

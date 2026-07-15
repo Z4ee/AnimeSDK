@@ -5,12 +5,12 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_AIPATHWAYINFO_METHOD_2_9D81FD9B90C64BA3_OFFSET UNITYSDK_OFFSET(0x193C2840)
-#define RPG_GAMECORE_AIPATHWAYINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x193C2A50)
+#define RPG_GAMECORE_AIPATHWAYINFO_METHOD_2_C21C846FDF7E66F0_OFFSET UNITYSDK_OFFSET(0x1B9F5580)
+#define RPG_GAMECORE_AIPATHWAYINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x1B9F5770)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AIPathwayInfo_TypeDefinitionIndex = 16381;
+	inline static constexpr unsigned int AIPathwayInfo_TypeDefinitionIndex = 16543;
 
 	class AIPathwayInfo : public ::RPG::GameCore::JsonConfig
 	{
@@ -26,9 +26,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_AIPATHWAYINFO__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_9D81FD9B90C64BA3(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AIPathwayInfo*& a2)
+		static ::System::Void Method_2_C21C846FDF7E66F0(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AIPathwayInfo*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::AIPathwayInfo*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_AIPATHWAYINFO_METHOD_2_9D81FD9B90C64BA3_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::AIPathwayInfo*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_AIPATHWAYINFO_METHOD_2_C21C846FDF7E66F0_OFFSET))(a1, a2);
 		}
 	};
 }

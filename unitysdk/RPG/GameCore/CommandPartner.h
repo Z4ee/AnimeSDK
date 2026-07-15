@@ -5,13 +5,13 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_COMMANDPARTNER_METHOD_3_3BAB360B61A771DF_OFFSET UNITYSDK_OFFSET(0x196671F0)
-#define RPG_GAMECORE_COMMANDPARTNER_METHOD_3_C70F11EC73D4C6EB_OFFSET UNITYSDK_OFFSET(0x19667270)
-#define RPG_GAMECORE_COMMANDPARTNER__CTOR_OFFSET UNITYSDK_OFFSET(0x19667240)
+#define RPG_GAMECORE_COMMANDPARTNER_METHOD_3_6E6CE316600633A4_OFFSET UNITYSDK_OFFSET(0x1BC21AB0)
+#define RPG_GAMECORE_COMMANDPARTNER_METHOD_3_C70F11EC73D4C6EB_OFFSET UNITYSDK_OFFSET(0x1BC21AF0)
+#define RPG_GAMECORE_COMMANDPARTNER__CTOR_OFFSET UNITYSDK_OFFSET(0x1BC21AE0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int CommandPartner_TypeDefinitionIndex = 21457;
+	inline static constexpr unsigned int CommandPartner_TypeDefinitionIndex = 21877;
 
 	class CommandPartner : public ::RPG::GameCore::TaskConfig
 	{
@@ -24,9 +24,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_COMMANDPARTNER__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_3BAB360B61A771DF(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::CommandPartner*& a2)
+		static ::System::Void Method_3_6E6CE316600633A4(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::CommandPartner*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::CommandPartner*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_COMMANDPARTNER_METHOD_3_3BAB360B61A771DF_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::CommandPartner*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_COMMANDPARTNER_METHOD_3_6E6CE316600633A4_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_C70F11EC73D4C6EB(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::CommandPartner* a2)

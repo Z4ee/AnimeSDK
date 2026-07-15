@@ -8,23 +8,23 @@ namespace UnityEngine { class TerrainData; }
 namespace UnityEngine::Experimental::TerrainAPI { class TerrainCallbacks_HeightmapChangedCallback; }
 namespace UnityEngine::Experimental::TerrainAPI { class TerrainCallbacks_TextureChangedCallback; }
 
-#define UNITYENGINE_EXPERIMENTAL_TERRAINAPI_TERRAINCALLBACKS_INVOKEHEIGHTMAPCHANGEDCALLBACK_OFFSET UNITYSDK_OFFSET(0x1B341E00)
-#define UNITYENGINE_EXPERIMENTAL_TERRAINAPI_TERRAINCALLBACKS_INVOKETEXTURECHANGEDCALLBACK_OFFSET UNITYSDK_OFFSET(0x1B341F20)
+#define UNITYENGINE_EXPERIMENTAL_TERRAINAPI_TERRAINCALLBACKS_INVOKEHEIGHTMAPCHANGEDCALLBACK_OFFSET UNITYSDK_OFFSET(0x1D2B5E10)
+#define UNITYENGINE_EXPERIMENTAL_TERRAINAPI_TERRAINCALLBACKS_INVOKETEXTURECHANGEDCALLBACK_OFFSET UNITYSDK_OFFSET(0x1D2B5F30)
 
 namespace UnityEngine::Experimental::TerrainAPI
 {
-	inline static constexpr unsigned int TerrainCallbacks_TypeDefinitionIndex = 5325;
+	inline static constexpr unsigned int TerrainCallbacks_TypeDefinitionIndex = 5330;
 
 	class TerrainCallbacks : public ::System::Object
 	{
 	public:
-		static ::UnityEngine::Experimental::TerrainAPI::TerrainCallbacks_HeightmapChangedCallback** StaticGet_heightmapChanged()
-		{
-			return (::UnityEngine::Experimental::TerrainAPI::TerrainCallbacks_HeightmapChangedCallback**)Il2CppClass::FromTypeDefinitionIndex(TerrainCallbacks_TypeDefinitionIndex)->GetStaticField(0x330);
-		}
 		static ::UnityEngine::Experimental::TerrainAPI::TerrainCallbacks_TextureChangedCallback** StaticGet_textureChanged()
 		{
-			return (::UnityEngine::Experimental::TerrainAPI::TerrainCallbacks_TextureChangedCallback**)Il2CppClass::FromTypeDefinitionIndex(TerrainCallbacks_TypeDefinitionIndex)->GetStaticField(0x338);
+			return (::UnityEngine::Experimental::TerrainAPI::TerrainCallbacks_TextureChangedCallback**)Il2CppClass::FromTypeDefinitionIndex(TerrainCallbacks_TypeDefinitionIndex)->GetStaticField(0x330);
+		}
+		static ::UnityEngine::Experimental::TerrainAPI::TerrainCallbacks_HeightmapChangedCallback** StaticGet_heightmapChanged()
+		{
+			return (::UnityEngine::Experimental::TerrainAPI::TerrainCallbacks_HeightmapChangedCallback**)Il2CppClass::FromTypeDefinitionIndex(TerrainCallbacks_TypeDefinitionIndex)->GetStaticField(0x338);
 		}
 
 		static ::System::Void InvokeHeightmapChangedCallback(::UnityEngine::TerrainData* a1, ::UnityEngine::RectInt a2, ::System::Boolean a3)

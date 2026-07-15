@@ -1,6 +1,6 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Class_1_76ED9B246ED58A54.h"
+#include "unitysdk/Class_1_CD4EC20BEBA8A2DA.h"
 
 class Class_1_0E117AC86D8E5BCA;
 class Class_1_D8BECDCE48063EC7;
@@ -8,12 +8,12 @@ class Class_2_AEE59ED8DADEC1A1;
 namespace RPG::GameCore { class DiceCombatDiceSelectorConfig_SamePointCount; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_2_EAD95E789B53C4AB_METHOD_2_92DD19A25D47D2B3_OFFSET UNITYSDK_OFFSET(0x18AB65B0)
-#define CLASS_2_EAD95E789B53C4AB__CTOR_OFFSET UNITYSDK_OFFSET(0x18AB65A0)
+#define CLASS_2_EAD95E789B53C4AB_METHOD_2_92DD19A25D47D2B3_OFFSET UNITYSDK_OFFSET(0x190FE330)
+#define CLASS_2_EAD95E789B53C4AB__CTOR_OFFSET UNITYSDK_OFFSET(0x190FE320)
 
-inline static constexpr unsigned int Class_2_EAD95E789B53C4AB_TypeDefinitionIndex = 34447;
+inline static constexpr unsigned int Class_2_EAD95E789B53C4AB_TypeDefinitionIndex = 34829;
 
-class Class_2_EAD95E789B53C4AB : public ::Class_1_76ED9B246ED58A54
+class Class_2_EAD95E789B53C4AB : public ::Class_1_CD4EC20BEBA8A2DA
 {
 public:
 	::RPG::GameCore::DiceCombatDiceSelectorConfig_SamePointCount* Field_2_0; // 0x18

@@ -6,13 +6,13 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class FiveDimDanmuTrack; }
 namespace RPG::GameCore { class FiveDimDanmuTrackGroup; }
 
-#define RPG_GAMECORE_FIVEDIMDANMUMANAGERCONFIG_METHOD_3_1978C87427F8AD46_OFFSET UNITYSDK_OFFSET(0x19737B40)
-#define RPG_GAMECORE_FIVEDIMDANMUMANAGERCONFIG_METHOD_3_1B736D62506980A4_OFFSET UNITYSDK_OFFSET(0x19737BD0)
-#define RPG_GAMECORE_FIVEDIMDANMUMANAGERCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x19737BB0)
+#define RPG_GAMECORE_FIVEDIMDANMUMANAGERCONFIG_METHOD_3_1B736D62506980A4_OFFSET UNITYSDK_OFFSET(0x1BA8FCB0)
+#define RPG_GAMECORE_FIVEDIMDANMUMANAGERCONFIG_METHOD_3_6FE20CC523EE30C2_OFFSET UNITYSDK_OFFSET(0x1BA8FC50)
+#define RPG_GAMECORE_FIVEDIMDANMUMANAGERCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1BA8FCA0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FiveDimDanmuManagerConfig_TypeDefinitionIndex = 17914;
+	inline static constexpr unsigned int FiveDimDanmuManagerConfig_TypeDefinitionIndex = 18092;
 
 	class FiveDimDanmuManagerConfig : public ::RPG::GameCore::LittleGameComponentConfig
 	{
@@ -25,9 +25,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMDANMUMANAGERCONFIG__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_1978C87427F8AD46(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::FiveDimDanmuManagerConfig*& a2)
+		static ::System::Void Method_3_6FE20CC523EE30C2(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::FiveDimDanmuManagerConfig*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::FiveDimDanmuManagerConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMDANMUMANAGERCONFIG_METHOD_3_1978C87427F8AD46_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::FiveDimDanmuManagerConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMDANMUMANAGERCONFIG_METHOD_3_6FE20CC523EE30C2_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_1B736D62506980A4(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::FiveDimDanmuManagerConfig* a2)

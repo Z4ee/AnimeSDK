@@ -6,13 +6,13 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class DynamicFloat; }
 
-#define RPG_GAMECORE_SETBATTLECONDITIONPROGRESS_METHOD_3_1FA5437C87D12A6F_OFFSET UNITYSDK_OFFSET(0x19C2AC60)
-#define RPG_GAMECORE_SETBATTLECONDITIONPROGRESS_METHOD_3_9386764161BEC05E_OFFSET UNITYSDK_OFFSET(0x19C2ABD0)
-#define RPG_GAMECORE_SETBATTLECONDITIONPROGRESS__CTOR_OFFSET UNITYSDK_OFFSET(0x19C2AC30)
+#define RPG_GAMECORE_SETBATTLECONDITIONPROGRESS_METHOD_3_1F398742B254CFD6_OFFSET UNITYSDK_OFFSET(0x1C2D42B0)
+#define RPG_GAMECORE_SETBATTLECONDITIONPROGRESS_METHOD_3_1FA5437C87D12A6F_OFFSET UNITYSDK_OFFSET(0x1C2D4300)
+#define RPG_GAMECORE_SETBATTLECONDITIONPROGRESS__CTOR_OFFSET UNITYSDK_OFFSET(0x1C2D42F0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SetBattleConditionProgress_TypeDefinitionIndex = 21924;
+	inline static constexpr unsigned int SetBattleConditionProgress_TypeDefinitionIndex = 22353;
 
 	class SetBattleConditionProgress : public ::RPG::GameCore::TaskConfig
 	{
@@ -26,9 +26,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETBATTLECONDITIONPROGRESS__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_9386764161BEC05E(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SetBattleConditionProgress*& a2)
+		static ::System::Void Method_3_1F398742B254CFD6(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SetBattleConditionProgress*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SetBattleConditionProgress*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETBATTLECONDITIONPROGRESS_METHOD_3_9386764161BEC05E_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SetBattleConditionProgress*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETBATTLECONDITIONPROGRESS_METHOD_3_1F398742B254CFD6_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_1FA5437C87D12A6F(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SetBattleConditionProgress* a2)

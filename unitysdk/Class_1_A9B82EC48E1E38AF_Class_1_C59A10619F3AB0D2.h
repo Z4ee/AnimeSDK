@@ -5,9 +5,9 @@
 namespace RPG::GameCore { class DynamicValue; }
 namespace System::Collections::Generic { template <typename T> class HashSet_1; }
 
-#define CLASS_1_A9B82EC48E1E38AF_CLASS_1_C59A10619F3AB0D2__CTOR_OFFSET UNITYSDK_OFFSET(0x19D5B6F0)
+#define CLASS_1_A9B82EC48E1E38AF_CLASS_1_C59A10619F3AB0D2__CTOR_OFFSET UNITYSDK_OFFSET(0x1B3D1BF0)
 
-inline static constexpr unsigned int Class_1_A9B82EC48E1E38AF_Class_1_C59A10619F3AB0D2_TypeDefinitionIndex = 12599;
+inline static constexpr unsigned int Class_1_A9B82EC48E1E38AF_Class_1_C59A10619F3AB0D2_TypeDefinitionIndex = 12736;
 
 class Class_1_A9B82EC48E1E38AF_Class_1_C59A10619F3AB0D2 : public ::System::Object
 {

@@ -7,13 +7,12 @@
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine::Timeline { class TimelineClip; }
 
-#define RPGTOOLS_TIMELINE_POSTPROCESSING_TONEMAPPINGTIMELINETRACK_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0xD047B90)
-#define RPGTOOLS_TIMELINE_POSTPROCESSING_TONEMAPPINGTIMELINETRACK__CTOR_OFFSET UNITYSDK_OFFSET(0xD047C40)
-#define RPGTOOLS_TIMELINE_POSTPROCESSING_TONEMAPPINGTIMELINETRACK___IFIXBASEPROXY_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0xD047D20)
+#define RPGTOOLS_TIMELINE_POSTPROCESSING_TONEMAPPINGTIMELINETRACK_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0x199A8140)
+#define RPGTOOLS_TIMELINE_POSTPROCESSING_TONEMAPPINGTIMELINETRACK__CTOR_OFFSET UNITYSDK_OFFSET(0x199A81F0)
 
 namespace RPGTools::Timeline::PostProcessing
 {
-	inline static constexpr unsigned int ToneMappingTimelineTrack_TypeDefinitionIndex = 45892;
+	inline static constexpr unsigned int ToneMappingTimelineTrack_TypeDefinitionIndex = 46831;
 
 	class ToneMappingTimelineTrack : public ::RPGTools::Timeline::PostProcessing::PostProcessTimelineTrack
 	{
@@ -26,11 +25,6 @@ namespace RPGTools::Timeline::PostProcessing
 		::UnityEngine::Playables::Playable CreatePlayable(::UnityEngine::Playables::PlayableGraph a1, ::UnityEngine::GameObject* a2, ::UnityEngine::Timeline::TimelineClip* a3)
 		{
 			return ((::UnityEngine::Playables::Playable(*)(::PVOID, ::UnityEngine::Playables::PlayableGraph, ::UnityEngine::GameObject*, ::UnityEngine::Timeline::TimelineClip*))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_POSTPROCESSING_TONEMAPPINGTIMELINETRACK_CREATEPLAYABLE_OFFSET))(this, a1, a2, a3);
-		}
-
-		::UnityEngine::Playables::Playable __iFixBaseProxy_CreatePlayable(::UnityEngine::Playables::PlayableGraph a1, ::UnityEngine::GameObject* a2, ::UnityEngine::Timeline::TimelineClip* a3)
-		{
-			return ((::UnityEngine::Playables::Playable(*)(::PVOID, ::UnityEngine::Playables::PlayableGraph, ::UnityEngine::GameObject*, ::UnityEngine::Timeline::TimelineClip*))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_POSTPROCESSING_TONEMAPPINGTIMELINETRACK___IFIXBASEPROXY_CREATEPLAYABLE_OFFSET))(this, a1, a2, a3);
 		}
 	};
 }

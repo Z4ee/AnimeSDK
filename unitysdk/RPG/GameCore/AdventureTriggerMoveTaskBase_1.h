@@ -7,7 +7,7 @@ namespace RPG::GameCore { class TaskContext; }
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AdventureTriggerMoveTaskBase_1_TypeDefinitionIndex = 54134;
+	inline static constexpr unsigned int AdventureTriggerMoveTaskBase_1_TypeDefinitionIndex = 55357;
 
 	template <typename T>
 	class AdventureTriggerMoveTaskBase_1 : public ::RPG::GameCore::ImmediateTaskBase_1<T>

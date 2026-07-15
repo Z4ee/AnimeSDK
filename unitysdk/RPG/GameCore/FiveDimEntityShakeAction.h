@@ -5,13 +5,13 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class FiveDimEntityShakeConfig; }
 
-#define RPG_GAMECORE_FIVEDIMENTITYSHAKEACTION_METHOD_3_DA0E7721DFA39A55_OFFSET UNITYSDK_OFFSET(0x1972E7A0)
-#define RPG_GAMECORE_FIVEDIMENTITYSHAKEACTION_METHOD_3_E060A9277D22AB64_OFFSET UNITYSDK_OFFSET(0x1973AF10)
-#define RPG_GAMECORE_FIVEDIMENTITYSHAKEACTION__CTOR_OFFSET UNITYSDK_OFFSET(0x1972E780)
+#define RPG_GAMECORE_FIVEDIMENTITYSHAKEACTION_METHOD_3_6DA8F166CA496F16_OFFSET UNITYSDK_OFFSET(0x1BA93970)
+#define RPG_GAMECORE_FIVEDIMENTITYSHAKEACTION_METHOD_3_DA0E7721DFA39A55_OFFSET UNITYSDK_OFFSET(0x1BA939B0)
+#define RPG_GAMECORE_FIVEDIMENTITYSHAKEACTION__CTOR_OFFSET UNITYSDK_OFFSET(0x1BA939A0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FiveDimEntityShakeAction_TypeDefinitionIndex = 17838;
+	inline static constexpr unsigned int FiveDimEntityShakeAction_TypeDefinitionIndex = 18015;
 
 	class FiveDimEntityShakeAction : public ::RPG::GameCore::FiveDimBaseEventAction
 	{
@@ -24,9 +24,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMENTITYSHAKEACTION__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_E060A9277D22AB64(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::FiveDimEntityShakeAction*& a2)
+		static ::System::Void Method_3_6DA8F166CA496F16(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::FiveDimEntityShakeAction*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::FiveDimEntityShakeAction*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMENTITYSHAKEACTION_METHOD_3_E060A9277D22AB64_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::FiveDimEntityShakeAction*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMENTITYSHAKEACTION_METHOD_3_6DA8F166CA496F16_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_DA0E7721DFA39A55(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::FiveDimEntityShakeAction* a2)

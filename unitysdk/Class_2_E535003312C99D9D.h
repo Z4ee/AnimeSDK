@@ -8,19 +8,18 @@ namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace UnityEngine { class GameObject; }
 
-#define CLASS_2_E535003312C99D9D_GET_SOURCEOBJECT_OFFSET UNITYSDK_OFFSET(0x1372FD10)
-#define CLASS_2_E535003312C99D9D_ONGRAPHSTART_OFFSET UNITYSDK_OFFSET(0x1372FD30)
-#define CLASS_2_E535003312C99D9D_SET_SOURCEOBJECT_OFFSET UNITYSDK_OFFSET(0x1372FD20)
-#define CLASS_2_E535003312C99D9D__CTOR_OFFSET UNITYSDK_OFFSET(0x1372FEF0)
-#define CLASS_2_E535003312C99D9D___IFIXBASEPROXY_ONGRAPHSTART_OFFSET UNITYSDK_OFFSET(0x1372FF00)
+#define CLASS_2_E535003312C99D9D_GET_SOURCEOBJECT_OFFSET UNITYSDK_OFFSET(0x172FA190)
+#define CLASS_2_E535003312C99D9D_ONGRAPHSTART_OFFSET UNITYSDK_OFFSET(0x172FA1B0)
+#define CLASS_2_E535003312C99D9D_SET_SOURCEOBJECT_OFFSET UNITYSDK_OFFSET(0x172FA1A0)
+#define CLASS_2_E535003312C99D9D__CTOR_OFFSET UNITYSDK_OFFSET(0x172FA370)
 
-inline static constexpr unsigned int Class_2_E535003312C99D9D_TypeDefinitionIndex = 46091;
+inline static constexpr unsigned int Class_2_E535003312C99D9D_TypeDefinitionIndex = 47030;
 
 class Class_2_E535003312C99D9D : public ::UnityEngine::Playables::PlayableBehaviour
 {
 public:
-	::System::Collections::Generic::Dictionary_2<::System::String*, ::Class_2_E535003312C99D9D_Struct_2_5396005F9A53A130>* Field_2_0; // 0x10
-	::UnityEngine::GameObject* _SourceObject_k__BackingField; // 0x18
+	::UnityEngine::GameObject* _SourceObject_k__BackingField; // 0x10
+	::System::Collections::Generic::Dictionary_2<::System::String*, ::Class_2_E535003312C99D9D_Struct_2_5396005F9A53A130>* Field_2_1; // 0x18
 
 	::System::Void _ctor()
 	{
@@ -40,10 +39,5 @@ public:
 	::System::Void OnGraphStart(::UnityEngine::Playables::Playable a1)
 	{
 		return ((::System::Void(*)(::PVOID, ::UnityEngine::Playables::Playable))((::PBYTE)hIl2Cpp + CLASS_2_E535003312C99D9D_ONGRAPHSTART_OFFSET))(this, a1);
-	}
-
-	::System::Void __iFixBaseProxy_OnGraphStart(::UnityEngine::Playables::Playable a1)
-	{
-		return ((::System::Void(*)(::PVOID, ::UnityEngine::Playables::Playable))((::PBYTE)hIl2Cpp + CLASS_2_E535003312C99D9D___IFIXBASEPROXY_ONGRAPHSTART_OFFSET))(this, a1);
 	}
 };

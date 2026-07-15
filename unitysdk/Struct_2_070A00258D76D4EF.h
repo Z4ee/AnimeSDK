@@ -1,32 +1,32 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Struct_2_640507420B9CBB65.h"
-#include "unitysdk/Struct_2_75D6A6CD8F418D47.h"
+#include "unitysdk/Struct_2_2150278D7330DC8D.h"
+#include "unitysdk/Struct_2_61420C2CA4EE5107.h"
 #include "unitysdk/System/ValueType.h"
 
-#define STRUCT_2_070A00258D76D4EF_GET_KEY_OFFSET UNITYSDK_OFFSET(0x1409D0)
-#define STRUCT_2_070A00258D76D4EF_GET_VALUE_OFFSET UNITYSDK_OFFSET(0x2BCB260)
-#define STRUCT_2_070A00258D76D4EF__CTOR_OFFSET UNITYSDK_OFFSET(0x2BCB210)
+#define STRUCT_2_070A00258D76D4EF_GET_KEY_OFFSET UNITYSDK_OFFSET(0x166160)
+#define STRUCT_2_070A00258D76D4EF_GET_VALUE_OFFSET UNITYSDK_OFFSET(0x392C7A0)
+#define STRUCT_2_070A00258D76D4EF__CTOR_OFFSET UNITYSDK_OFFSET(0x7B0780)
 
-inline static constexpr unsigned int Struct_2_070A00258D76D4EF_TypeDefinitionIndex = 58139;
+inline static constexpr unsigned int Struct_2_070A00258D76D4EF_TypeDefinitionIndex = 59406;
 
 struct alignas(8) Struct_2_070A00258D76D4EF
 {
-	::Struct_2_640507420B9CBB65 _Key_k__BackingField; // 0x10
-	::Struct_2_75D6A6CD8F418D47 _Value_k__BackingField; // 0x28
+	::Struct_2_61420C2CA4EE5107 _Key_k__BackingField; // 0x10
+	::Struct_2_2150278D7330DC8D _Value_k__BackingField; // 0x28
 
-	::System::Void _ctor(::Struct_2_640507420B9CBB65 a1, ::Struct_2_75D6A6CD8F418D47 a2)
+	::System::Void _ctor(::Struct_2_61420C2CA4EE5107 a1, ::Struct_2_2150278D7330DC8D a2)
 	{
-		return ((::System::Void(*)(::PVOID, ::Struct_2_640507420B9CBB65, ::Struct_2_75D6A6CD8F418D47))((::PBYTE)hIl2Cpp + STRUCT_2_070A00258D76D4EF__CTOR_OFFSET))(this, a1, a2);
+		return ((::System::Void(*)(::PVOID, ::Struct_2_61420C2CA4EE5107, ::Struct_2_2150278D7330DC8D))((::PBYTE)hIl2Cpp + STRUCT_2_070A00258D76D4EF__CTOR_OFFSET))(this, a1, a2);
 	}
 
-	::Struct_2_640507420B9CBB65 get_Key()
+	::Struct_2_61420C2CA4EE5107 get_Key()
 	{
-		return ((::Struct_2_640507420B9CBB65(*)(::PVOID))((::PBYTE)hIl2Cpp + STRUCT_2_070A00258D76D4EF_GET_KEY_OFFSET))(this);
+		return ((::Struct_2_61420C2CA4EE5107(*)(::PVOID))((::PBYTE)hIl2Cpp + STRUCT_2_070A00258D76D4EF_GET_KEY_OFFSET))(this);
 	}
 
-	::Struct_2_75D6A6CD8F418D47 get_Value()
+	::Struct_2_2150278D7330DC8D get_Value()
 	{
-		return ((::Struct_2_75D6A6CD8F418D47(*)(::PVOID))((::PBYTE)hIl2Cpp + STRUCT_2_070A00258D76D4EF_GET_VALUE_OFFSET))(this);
+		return ((::Struct_2_2150278D7330DC8D(*)(::PVOID))((::PBYTE)hIl2Cpp + STRUCT_2_070A00258D76D4EF_GET_VALUE_OFFSET))(this);
 	}
 };

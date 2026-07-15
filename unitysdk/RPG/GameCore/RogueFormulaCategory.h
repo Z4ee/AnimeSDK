@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RogueFormulaCategory_TypeDefinitionIndex = 10225;
+	inline static constexpr unsigned int RogueFormulaCategory_TypeDefinitionIndex = 10246;
 
 	enum class RogueFormulaCategory : ::System::Int32
 	{

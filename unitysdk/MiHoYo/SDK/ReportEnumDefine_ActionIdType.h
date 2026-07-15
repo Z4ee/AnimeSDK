@@ -3,7 +3,7 @@
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int ReportEnumDefine_ActionIdType_TypeDefinitionIndex = 43896;
+	inline static constexpr unsigned int ReportEnumDefine_ActionIdType_TypeDefinitionIndex = 44758;
 
 	enum class ReportEnumDefine_ActionIdType : ::System::Int32
 	{

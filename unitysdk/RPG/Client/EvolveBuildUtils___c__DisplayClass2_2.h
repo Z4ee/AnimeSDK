@@ -2,19 +2,19 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define RPG_CLIENT_EVOLVEBUILDUTILS___C__DISPLAYCLASS2_2__CTOR_OFFSET UNITYSDK_OFFSET(0xB95C150)
-#define RPG_CLIENT_EVOLVEBUILDUTILS___C__DISPLAYCLASS2_2__SORTWEAPONLIST_B__3_OFFSET UNITYSDK_OFFSET(0xB95C1C0)
-#define RPG_CLIENT_EVOLVEBUILDUTILS___C__DISPLAYCLASS2_2__SORTWEAPONLIST_B__4_OFFSET UNITYSDK_OFFSET(0xB95C1D0)
+#define RPG_CLIENT_EVOLVEBUILDUTILS___C__DISPLAYCLASS2_2__CTOR_OFFSET UNITYSDK_OFFSET(0x196CB3F0)
+#define RPG_CLIENT_EVOLVEBUILDUTILS___C__DISPLAYCLASS2_2__SORTWEAPONLIST_B__3_OFFSET UNITYSDK_OFFSET(0x196CB400)
+#define RPG_CLIENT_EVOLVEBUILDUTILS___C__DISPLAYCLASS2_2__SORTWEAPONLIST_B__4_OFFSET UNITYSDK_OFFSET(0x196CB410)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int EvolveBuildUtils___c__DisplayClass2_2_TypeDefinitionIndex = 59743;
+	inline static constexpr unsigned int EvolveBuildUtils___c__DisplayClass2_2_TypeDefinitionIndex = 61028;
 
 	class EvolveBuildUtils___c__DisplayClass2_2 : public ::System::Object
 	{
 	public:
-		::System::UInt32 toFindB; // 0x10
-		::System::UInt32 toFindA; // 0x14
+		::System::UInt32 toFindA; // 0x10
+		::System::UInt32 toFindB; // 0x14
 
 		::System::Void _ctor()
 		{

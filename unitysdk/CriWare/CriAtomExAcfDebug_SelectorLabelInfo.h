@@ -6,7 +6,7 @@ namespace System { class String; }
 
 namespace CriWare
 {
-	inline static constexpr unsigned int CriAtomExAcfDebug_SelectorLabelInfo_TypeDefinitionIndex = 37222;
+	inline static constexpr unsigned int CriAtomExAcfDebug_SelectorLabelInfo_TypeDefinitionIndex = 38028;
 
 	struct alignas(8) CriAtomExAcfDebug_SelectorLabelInfo
 	{

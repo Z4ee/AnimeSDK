@@ -13,7 +13,7 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ICharacterSkillRowData_TypeDefinitionIndex = 53881;
+	inline static constexpr unsigned int ICharacterSkillRowData_TypeDefinitionIndex = 55103;
 
 	class ICharacterSkillRowData
 	{

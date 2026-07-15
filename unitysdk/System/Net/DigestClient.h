@@ -8,24 +8,24 @@ namespace System::Net { class Authorization; }
 namespace System::Net { class ICredentials; }
 namespace System::Net { class WebRequest; }
 
-#define SYSTEM_NET_DIGESTCLIENT_AUTHENTICATE_OFFSET UNITYSDK_OFFSET(0x1AF666D0)
-#define SYSTEM_NET_DIGESTCLIENT_CHECKEXPIRED_OFFSET UNITYSDK_OFFSET(0x1AF65D20)
-#define SYSTEM_NET_DIGESTCLIENT_GET_AUTHENTICATIONTYPE_OFFSET UNITYSDK_OFFSET(0x1AF673B0)
-#define SYSTEM_NET_DIGESTCLIENT_GET_CACHE_OFFSET UNITYSDK_OFFSET(0x1AF65B80)
-#define SYSTEM_NET_DIGESTCLIENT_PREAUTHENTICATE_OFFSET UNITYSDK_OFFSET(0x1AF67230)
-#define SYSTEM_NET_DIGESTCLIENT__CCTOR_OFFSET UNITYSDK_OFFSET(0x1AF67400)
-#define SYSTEM_NET_DIGESTCLIENT__CTOR_OFFSET UNITYSDK_OFFSET(0x1AF673F0)
+#define SYSTEM_NET_DIGESTCLIENT_AUTHENTICATE_OFFSET UNITYSDK_OFFSET(0x195DD560)
+#define SYSTEM_NET_DIGESTCLIENT_CHECKEXPIRED_OFFSET UNITYSDK_OFFSET(0x195DC6E0)
+#define SYSTEM_NET_DIGESTCLIENT_GET_AUTHENTICATIONTYPE_OFFSET UNITYSDK_OFFSET(0x195DE470)
+#define SYSTEM_NET_DIGESTCLIENT_GET_CACHE_OFFSET UNITYSDK_OFFSET(0x195DC460)
+#define SYSTEM_NET_DIGESTCLIENT_PREAUTHENTICATE_OFFSET UNITYSDK_OFFSET(0x195DE220)
+#define SYSTEM_NET_DIGESTCLIENT__CCTOR_OFFSET UNITYSDK_OFFSET(0x195DE4C0)
+#define SYSTEM_NET_DIGESTCLIENT__CTOR_OFFSET UNITYSDK_OFFSET(0x195DE4B0)
 
 namespace System::Net
 {
-	inline static constexpr unsigned int DigestClient_TypeDefinitionIndex = 2820;
+	inline static constexpr unsigned int DigestClient_TypeDefinitionIndex = 2824;
 
 	class DigestClient : public ::System::Object
 	{
 	public:
 		static ::System::Collections::Hashtable** StaticGet_cache()
 		{
-			return (::System::Collections::Hashtable**)Il2CppClass::FromTypeDefinitionIndex(DigestClient_TypeDefinitionIndex)->GetStaticField(0x24780);
+			return (::System::Collections::Hashtable**)Il2CppClass::FromTypeDefinitionIndex(DigestClient_TypeDefinitionIndex)->GetStaticField(0x2BCF0);
 		}
 
 		::System::Void _ctor()

@@ -7,7 +7,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int LinearModuleRendererBehavior_ItemData_TypeDefinitionIndex = 66289;
+	inline static constexpr unsigned int LinearModuleRendererBehavior_ItemData_TypeDefinitionIndex = 67714;
 
 	struct alignas(4) LinearModuleRendererBehavior_ItemData
 	{

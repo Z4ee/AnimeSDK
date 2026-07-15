@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int DiceCombatDiceRare_TypeDefinitionIndex = 10172;
+	inline static constexpr unsigned int DiceCombatDiceRare_TypeDefinitionIndex = 10187;
 
 	enum class DiceCombatDiceRare : ::System::Int32
 	{

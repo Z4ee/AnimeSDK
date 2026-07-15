@@ -5,13 +5,13 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class TaskConfig; }
 
-#define RPG_GAMECORE_SELECTORCONFIG_METHOD_4_856104C95804CF38_OFFSET UNITYSDK_OFFSET(0x19C20E80)
-#define RPG_GAMECORE_SELECTORCONFIG_METHOD_4_CBCB80CA4B218B91_OFFSET UNITYSDK_OFFSET(0x19C20E00)
-#define RPG_GAMECORE_SELECTORCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x19C20E50)
+#define RPG_GAMECORE_SELECTORCONFIG_METHOD_4_856104C95804CF38_OFFSET UNITYSDK_OFFSET(0x1C2CAC00)
+#define RPG_GAMECORE_SELECTORCONFIG_METHOD_4_EF50D08B70980DDB_OFFSET UNITYSDK_OFFSET(0x1C2CABC0)
+#define RPG_GAMECORE_SELECTORCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1C2CABF0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SelectorConfig_TypeDefinitionIndex = 22480;
+	inline static constexpr unsigned int SelectorConfig_TypeDefinitionIndex = 22930;
 
 	class SelectorConfig : public ::RPG::GameCore::CompositeConfig
 	{
@@ -23,9 +23,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SELECTORCONFIG__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_4_CBCB80CA4B218B91(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SelectorConfig*& a2)
+		static ::System::Void Method_4_EF50D08B70980DDB(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SelectorConfig*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SelectorConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SELECTORCONFIG_METHOD_4_CBCB80CA4B218B91_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SelectorConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SELECTORCONFIG_METHOD_4_EF50D08B70980DDB_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_4_856104C95804CF38(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SelectorConfig* a2)

@@ -5,13 +5,13 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class TargetEvaluator; }
 
-#define RPG_GAMECORE_PRELOADSTAGEBATTLEEVENTEFFECTS_METHOD_3_5B4A07304FD0B2B2_OFFSET UNITYSDK_OFFSET(0x19A82590)
-#define RPG_GAMECORE_PRELOADSTAGEBATTLEEVENTEFFECTS_METHOD_3_FE881C74CD18071B_OFFSET UNITYSDK_OFFSET(0x19A82610)
-#define RPG_GAMECORE_PRELOADSTAGEBATTLEEVENTEFFECTS__CTOR_OFFSET UNITYSDK_OFFSET(0x19A825E0)
+#define RPG_GAMECORE_PRELOADSTAGEBATTLEEVENTEFFECTS_METHOD_3_6FC470CF43E4A148_OFFSET UNITYSDK_OFFSET(0x1BA16280)
+#define RPG_GAMECORE_PRELOADSTAGEBATTLEEVENTEFFECTS_METHOD_3_FE881C74CD18071B_OFFSET UNITYSDK_OFFSET(0x1BA162C0)
+#define RPG_GAMECORE_PRELOADSTAGEBATTLEEVENTEFFECTS__CTOR_OFFSET UNITYSDK_OFFSET(0x1BA162B0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PreloadStageBattleEventEffects_TypeDefinitionIndex = 22152;
+	inline static constexpr unsigned int PreloadStageBattleEventEffects_TypeDefinitionIndex = 22589;
 
 	class PreloadStageBattleEventEffects : public ::RPG::GameCore::TaskConfig
 	{
@@ -23,9 +23,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PRELOADSTAGEBATTLEEVENTEFFECTS__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_5B4A07304FD0B2B2(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::PreloadStageBattleEventEffects*& a2)
+		static ::System::Void Method_3_6FC470CF43E4A148(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::PreloadStageBattleEventEffects*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::PreloadStageBattleEventEffects*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PRELOADSTAGEBATTLEEVENTEFFECTS_METHOD_3_5B4A07304FD0B2B2_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::PreloadStageBattleEventEffects*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PRELOADSTAGEBATTLEEVENTEFFECTS_METHOD_3_6FC470CF43E4A148_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_FE881C74CD18071B(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::PreloadStageBattleEventEffects* a2)

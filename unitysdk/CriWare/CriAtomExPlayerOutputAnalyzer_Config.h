@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/ValueType.h"
 
-#define CRIWARE_CRIATOMEXPLAYEROUTPUTANALYZER_CONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x7BBE0)
+#define CRIWARE_CRIATOMEXPLAYEROUTPUTANALYZER_CONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x6E5720)
 
 namespace CriWare
 {
-	inline static constexpr unsigned int CriAtomExPlayerOutputAnalyzer_Config_TypeDefinitionIndex = 37108;
+	inline static constexpr unsigned int CriAtomExPlayerOutputAnalyzer_Config_TypeDefinitionIndex = 37907;
 
 	struct alignas(4) CriAtomExPlayerOutputAnalyzer_Config
 	{

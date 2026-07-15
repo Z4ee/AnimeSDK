@@ -4,13 +4,13 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_MATCH3_SHOWEMOJIACTION_METHOD_5_90A5AF3A1D5DAF1C_OFFSET UNITYSDK_OFFSET(0x198E4E20)
-#define RPG_GAMECORE_MATCH3_SHOWEMOJIACTION_METHOD_5_FB7E9D84217EA6AB_OFFSET UNITYSDK_OFFSET(0x198EBA50)
-#define RPG_GAMECORE_MATCH3_SHOWEMOJIACTION__CTOR_OFFSET UNITYSDK_OFFSET(0x198E4DB0)
+#define RPG_GAMECORE_MATCH3_SHOWEMOJIACTION_METHOD_5_90A5AF3A1D5DAF1C_OFFSET UNITYSDK_OFFSET(0x1BD2BEC0)
+#define RPG_GAMECORE_MATCH3_SHOWEMOJIACTION_METHOD_5_97AFA019D057F1CE_OFFSET UNITYSDK_OFFSET(0x1BD2BE60)
+#define RPG_GAMECORE_MATCH3_SHOWEMOJIACTION__CTOR_OFFSET UNITYSDK_OFFSET(0x1BD2BEB0)
 
 namespace RPG::GameCore::Match3
 {
-	inline static constexpr unsigned int ShowEmojiAction_TypeDefinitionIndex = 23545;
+	inline static constexpr unsigned int ShowEmojiAction_TypeDefinitionIndex = 24034;
 
 	class ShowEmojiAction : public ::RPG::GameCore::Match3::Match3ActionBase
 	{
@@ -23,9 +23,9 @@ namespace RPG::GameCore::Match3
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MATCH3_SHOWEMOJIACTION__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_5_FB7E9D84217EA6AB(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::Match3::ShowEmojiAction*& a2)
+		static ::System::Void Method_5_97AFA019D057F1CE(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::Match3::ShowEmojiAction*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::Match3::ShowEmojiAction*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MATCH3_SHOWEMOJIACTION_METHOD_5_FB7E9D84217EA6AB_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::Match3::ShowEmojiAction*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MATCH3_SHOWEMOJIACTION_METHOD_5_97AFA019D057F1CE_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_5_90A5AF3A1D5DAF1C(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::Match3::ShowEmojiAction* a2)

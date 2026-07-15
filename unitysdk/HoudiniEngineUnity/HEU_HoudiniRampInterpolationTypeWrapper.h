@@ -3,7 +3,7 @@
 
 namespace HoudiniEngineUnity
 {
-	inline static constexpr unsigned int HEU_HoudiniRampInterpolationTypeWrapper_TypeDefinitionIndex = 37606;
+	inline static constexpr unsigned int HEU_HoudiniRampInterpolationTypeWrapper_TypeDefinitionIndex = 38414;
 
 	enum class HEU_HoudiniRampInterpolationTypeWrapper : ::System::Int32
 	{

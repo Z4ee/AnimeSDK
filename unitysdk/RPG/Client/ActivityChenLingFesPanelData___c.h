@@ -6,29 +6,29 @@
 namespace RPG::Client { class ChenLingFesStageData; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define RPG_CLIENT_ACTIVITYCHENLINGFESPANELDATA___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xB0ABCF0)
-#define RPG_CLIENT_ACTIVITYCHENLINGFESPANELDATA___C__CTOR_OFFSET UNITYSDK_OFFSET(0xB0ABD30)
-#define RPG_CLIENT_ACTIVITYCHENLINGFESPANELDATA___C___HASNEWSTAGE_B__5_0_OFFSET UNITYSDK_OFFSET(0xB0ABD40)
-#define RPG_CLIENT_ACTIVITYCHENLINGFESPANELDATA___C___ISFINISHEDALLSTAGE_B__6_0_OFFSET UNITYSDK_OFFSET(0xB0ABD90)
+#define RPG_CLIENT_ACTIVITYCHENLINGFESPANELDATA___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x194D18D0)
+#define RPG_CLIENT_ACTIVITYCHENLINGFESPANELDATA___C__CTOR_OFFSET UNITYSDK_OFFSET(0x194D1910)
+#define RPG_CLIENT_ACTIVITYCHENLINGFESPANELDATA___C___HASNEWSTAGE_B__5_0_OFFSET UNITYSDK_OFFSET(0x194D1920)
+#define RPG_CLIENT_ACTIVITYCHENLINGFESPANELDATA___C___ISFINISHEDALLSTAGE_B__6_0_OFFSET UNITYSDK_OFFSET(0x194D1970)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ActivityChenLingFesPanelData___c_TypeDefinitionIndex = 57582;
+	inline static constexpr unsigned int ActivityChenLingFesPanelData___c_TypeDefinitionIndex = 58844;
 
 	class ActivityChenLingFesPanelData___c : public ::System::Object
 	{
 	public:
-		static ::RPG::Client::ActivityChenLingFesPanelData___c** StaticGet___9()
-		{
-			return (::RPG::Client::ActivityChenLingFesPanelData___c**)Il2CppClass::FromTypeDefinitionIndex(ActivityChenLingFesPanelData___c_TypeDefinitionIndex)->GetStaticField(0x4DC20);
-		}
 		static ::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::RPG::Client::ChenLingFesStageData*>, ::System::Boolean>** StaticGet___9__6_0()
 		{
-			return (::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::RPG::Client::ChenLingFesStageData*>, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(ActivityChenLingFesPanelData___c_TypeDefinitionIndex)->GetStaticField(0x4DC28);
+			return (::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::RPG::Client::ChenLingFesStageData*>, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(ActivityChenLingFesPanelData___c_TypeDefinitionIndex)->GetStaticField(0x38AB0);
 		}
 		static ::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::RPG::Client::ChenLingFesStageData*>, ::System::Boolean>** StaticGet___9__5_0()
 		{
-			return (::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::RPG::Client::ChenLingFesStageData*>, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(ActivityChenLingFesPanelData___c_TypeDefinitionIndex)->GetStaticField(0x4DC30);
+			return (::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::RPG::Client::ChenLingFesStageData*>, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(ActivityChenLingFesPanelData___c_TypeDefinitionIndex)->GetStaticField(0x38AB8);
+		}
+		static ::RPG::Client::ActivityChenLingFesPanelData___c** StaticGet___9()
+		{
+			return (::RPG::Client::ActivityChenLingFesPanelData___c**)Il2CppClass::FromTypeDefinitionIndex(ActivityChenLingFesPanelData___c_TypeDefinitionIndex)->GetStaticField(0x38AC0);
 		}
 
 		static ::System::Void _cctor()

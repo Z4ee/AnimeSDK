@@ -5,12 +5,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_PROGRESSBARTYPECONFIG_METHOD_2_6A64A33F24836CCB_OFFSET UNITYSDK_OFFSET(0x19A85020)
-#define RPG_GAMECORE_PROGRESSBARTYPECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x19A850F0)
+#define RPG_GAMECORE_PROGRESSBARTYPECONFIG_METHOD_2_6A64A33F24836CCB_OFFSET UNITYSDK_OFFSET(0x1BA18AC0)
+#define RPG_GAMECORE_PROGRESSBARTYPECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1BA18B90)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ProgressBarTypeConfig_TypeDefinitionIndex = 21495;
+	inline static constexpr unsigned int ProgressBarTypeConfig_TypeDefinitionIndex = 21916;
 
 	class ProgressBarTypeConfig : public ::RPG::GameCore::JsonConfig
 	{

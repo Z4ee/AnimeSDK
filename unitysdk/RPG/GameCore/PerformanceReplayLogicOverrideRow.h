@@ -5,42 +5,42 @@
 #include "unitysdk/System/ValueTuple_3.h"
 
 class Class_1_7A22A3DBEEDD1F80;
-class Class_1_927AEEA01B635CB6_1;
+class Class_1_927AEEA01B635CB6_2;
 namespace System { class String; }
 
-#define RPG_GAMECORE_PERFORMANCEREPLAYLOGICOVERRIDEROW_FROMBINARYWITHOUTNEW_OFFSET UNITYSDK_OFFSET(0x199F8F90)
-#define RPG_GAMECORE_PERFORMANCEREPLAYLOGICOVERRIDEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x199F95B0)
-#define RPG_GAMECORE_PERFORMANCEREPLAYLOGICOVERRIDEROW_FROMTABLEOFFSET_OFFSET UNITYSDK_OFFSET(0x199F8F00)
-#define RPG_GAMECORE_PERFORMANCEREPLAYLOGICOVERRIDEROW_RESET_OFFSET UNITYSDK_OFFSET(0x199F8F60)
-#define RPG_GAMECORE_PERFORMANCEREPLAYLOGICOVERRIDEROW__CTOR_OFFSET UNITYSDK_OFFSET(0x199F9C10)
+#define RPG_GAMECORE_PERFORMANCEREPLAYLOGICOVERRIDEROW_FROMBINARYWITHOUTNEW_OFFSET UNITYSDK_OFFSET(0x1B4B3400)
+#define RPG_GAMECORE_PERFORMANCEREPLAYLOGICOVERRIDEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B4B3A20)
+#define RPG_GAMECORE_PERFORMANCEREPLAYLOGICOVERRIDEROW_FROMTABLEOFFSET_OFFSET UNITYSDK_OFFSET(0x1B4B3370)
+#define RPG_GAMECORE_PERFORMANCEREPLAYLOGICOVERRIDEROW_RESET_OFFSET UNITYSDK_OFFSET(0x1B4B33D0)
+#define RPG_GAMECORE_PERFORMANCEREPLAYLOGICOVERRIDEROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1B4B4080)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PerformanceReplayLogicOverrideRow_TypeDefinitionIndex = 13671;
+	inline static constexpr unsigned int PerformanceReplayLogicOverrideRow_TypeDefinitionIndex = 13819;
 
 	class PerformanceReplayLogicOverrideRow : public ::System::Object
 	{
 	public:
-		::Il2CppArray<::System::UInt32>* OverrideActiveGroup; // 0x10
-		::Il2CppArray<::System::UInt32>* OverrideDeactiveGroup; // 0x18
-		::Il2CppArray<::Class_1_927AEEA01B635CB6_1*>* OverridePropState; // 0x20
-		::System::String* OverrideMissionAudioState; // 0x28
-		::System::String* PatchLevelGraph; // 0x30
-		::System::UInt32 IsOverrideActiveGroupFlag; // 0x38
-		::System::Int32 OverridePerformancePriority; // 0x3C
+		::Il2CppArray<::Class_1_927AEEA01B635CB6_2*>* OverridePropState; // 0x10
+		::System::String* OverrideMissionAudioState; // 0x18
+		::Il2CppArray<::System::UInt32>* OverrideActiveGroup; // 0x20
+		::System::String* PatchLevelGraph; // 0x28
+		::Il2CppArray<::System::UInt32>* OverrideDeactiveGroup; // 0x30
+		::RPG::GameCore::ELevelPerformanceType PerformanceType; // 0x38
+		::System::UInt32 IsOverrideDeactiveGroupFlag; // 0x3C
 		::System::UInt32 PerformanceID; // 0x40
-		::System::UInt32 IsOverrideBranchFlag; // 0x44
-		::System::UInt32 IsOverrideMissionLGDisableFlag; // 0x48
-		::System::UInt32 IsOverrideMissionAudioStateFlag; // 0x4C
-		::RPG::GameCore::ELevelPerformanceType PerformanceType; // 0x50
+		::System::Int32 OverridePerformancePriority; // 0x44
+		::System::UInt32 IsOverridePropStateFlag; // 0x48
+		::System::UInt32 IsOverrideActiveGroupFlag; // 0x4C
+		::System::UInt32 IsOverrideMissionAudioStateFlag; // 0x50
 		::System::UInt32 IsOverridePerformancePriorityFlag; // 0x54
-		::System::UInt32 IsOverridePropStateFlag; // 0x58
-		::System::UInt32 IsOverrideDeactiveGroupFlag; // 0x5C
-		::System::UInt32 OverrideIsBranch; // 0x60
-		::System::UInt32 OverrideMissionLGDisable; // 0x64
-		::System::UInt32 IsOverrideEndBlackTypeFlag; // 0x68
+		::System::UInt32 IsOverrideMissionLGDisableFlag; // 0x58
+		::System::UInt32 OverrideMissionLGDisable; // 0x5C
+		::System::UInt32 IsOverrideEndBlackTypeFlag; // 0x60
+		::System::Int32 OverrideEndBlackType; // 0x64
+		::System::UInt32 OverrideIsBranch; // 0x68
 		::System::UInt32 OverrideIntent; // 0x6C
-		::System::Int32 OverrideEndBlackType; // 0x70
+		::System::UInt32 IsOverrideBranchFlag; // 0x70
 
 		::System::Void _ctor()
 		{

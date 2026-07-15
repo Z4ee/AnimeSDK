@@ -4,11 +4,11 @@
 
 namespace HedgehogTeam::EasyTouch { class Gesture; }
 
-#define HEDGEHOGTEAM_EASYTOUCH_QUICKENTEROVEREXIST_ONTOUCHEXIT__CTOR_OFFSET UNITYSDK_OFFSET(0x146FA9C0)
+#define HEDGEHOGTEAM_EASYTOUCH_QUICKENTEROVEREXIST_ONTOUCHEXIT__CTOR_OFFSET UNITYSDK_OFFSET(0x1B4F6D20)
 
 namespace HedgehogTeam::EasyTouch
 {
-	inline static constexpr unsigned int QuickEnterOverExist_OnTouchExit_TypeDefinitionIndex = 37297;
+	inline static constexpr unsigned int QuickEnterOverExist_OnTouchExit_TypeDefinitionIndex = 38105;
 
 	class QuickEnterOverExist_OnTouchExit : public ::UnityEngine::Events::UnityEvent_1<::HedgehogTeam::EasyTouch::Gesture*>
 	{

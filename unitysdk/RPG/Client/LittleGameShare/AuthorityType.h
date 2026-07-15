@@ -3,7 +3,7 @@
 
 namespace RPG::Client::LittleGameShare
 {
-	inline static constexpr unsigned int AuthorityType_TypeDefinitionIndex = 34669;
+	inline static constexpr unsigned int AuthorityType_TypeDefinitionIndex = 35336;
 
 	enum class AuthorityType : ::System::Byte
 	{

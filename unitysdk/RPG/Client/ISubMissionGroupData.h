@@ -8,7 +8,7 @@ namespace RPG::Client { class SubMissionData; }
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ISubMissionGroupData_TypeDefinitionIndex = 61858;
+	inline static constexpr unsigned int ISubMissionGroupData_TypeDefinitionIndex = 63220;
 
 	class ISubMissionGroupData
 	{

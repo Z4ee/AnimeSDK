@@ -3,11 +3,11 @@
 #include "unitysdk/System/ValueType.h"
 #include "unitysdk/UnityEngine/Formats/Alembic/Sdk/aiContext.h"
 
-#define UNITYENGINE_FORMATS_ALEMBIC_IMPORTER_ALEMBICSTREAM_SAFECONTEXT_UPDATESAMPLESJOB_EXECUTE_OFFSET UNITYSDK_OFFSET(0x3872D70)
+#define UNITYENGINE_FORMATS_ALEMBIC_IMPORTER_ALEMBICSTREAM_SAFECONTEXT_UPDATESAMPLESJOB_EXECUTE_OFFSET UNITYSDK_OFFSET(0x3A203F0)
 
 namespace UnityEngine::Formats::Alembic::Importer
 {
-	inline static constexpr unsigned int AlembicStream_SafeContext_UpdateSamplesJob_TypeDefinitionIndex = 41683;
+	inline static constexpr unsigned int AlembicStream_SafeContext_UpdateSamplesJob_TypeDefinitionIndex = 42543;
 
 	struct alignas(8) AlembicStream_SafeContext_UpdateSamplesJob
 	{

@@ -9,7 +9,7 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace MiHoYo::SDK::MTR
 {
-	inline static constexpr unsigned int MiHoYoMTRInterface_TaskResult_1_TypeDefinitionIndex = 44042;
+	inline static constexpr unsigned int MiHoYoMTRInterface_TaskResult_1_TypeDefinitionIndex = 44904;
 
 	template <typename TaskCallback>
 	class MiHoYoMTRInterface_TaskResult_1 : public ::System::Object

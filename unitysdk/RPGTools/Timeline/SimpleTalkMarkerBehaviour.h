@@ -7,15 +7,13 @@
 
 namespace System { class Object; }
 
-#define RPGTOOLS_TIMELINE_SIMPLETALKMARKERBEHAVIOUR_ONBEHAVIOURPLAY_OFFSET UNITYSDK_OFFSET(0xD0565C0)
-#define RPGTOOLS_TIMELINE_SIMPLETALKMARKERBEHAVIOUR_PROCESSFRAME_OFFSET UNITYSDK_OFFSET(0xD0566E0)
-#define RPGTOOLS_TIMELINE_SIMPLETALKMARKERBEHAVIOUR__CTOR_OFFSET UNITYSDK_OFFSET(0xD056910)
-#define RPGTOOLS_TIMELINE_SIMPLETALKMARKERBEHAVIOUR___IFIXBASEPROXY_ONBEHAVIOURPLAY_OFFSET UNITYSDK_OFFSET(0xD056920)
-#define RPGTOOLS_TIMELINE_SIMPLETALKMARKERBEHAVIOUR___IFIXBASEPROXY_PROCESSFRAME_OFFSET UNITYSDK_OFFSET(0xD056930)
+#define RPGTOOLS_TIMELINE_SIMPLETALKMARKERBEHAVIOUR_ONBEHAVIOURPLAY_OFFSET UNITYSDK_OFFSET(0x199B7250)
+#define RPGTOOLS_TIMELINE_SIMPLETALKMARKERBEHAVIOUR_PROCESSFRAME_OFFSET UNITYSDK_OFFSET(0x199B7370)
+#define RPGTOOLS_TIMELINE_SIMPLETALKMARKERBEHAVIOUR__CTOR_OFFSET UNITYSDK_OFFSET(0x199B7600)
 
 namespace RPGTools::Timeline
 {
-	inline static constexpr unsigned int SimpleTalkMarkerBehaviour_TypeDefinitionIndex = 45521;
+	inline static constexpr unsigned int SimpleTalkMarkerBehaviour_TypeDefinitionIndex = 46455;
 
 	class SimpleTalkMarkerBehaviour : public ::UnityEngine::Playables::PlayableBehaviour
 	{
@@ -38,16 +36,6 @@ namespace RPGTools::Timeline
 		::System::Void ProcessFrame(::UnityEngine::Playables::Playable a1, ::UnityEngine::Playables::FrameData a2, ::System::Object* a3)
 		{
 			return ((::System::Void(*)(::PVOID, ::UnityEngine::Playables::Playable, ::UnityEngine::Playables::FrameData, ::System::Object*))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_SIMPLETALKMARKERBEHAVIOUR_PROCESSFRAME_OFFSET))(this, a1, a2, a3);
-		}
-
-		::System::Void __iFixBaseProxy_OnBehaviourPlay(::UnityEngine::Playables::Playable a1, ::UnityEngine::Playables::FrameData a2)
-		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Playables::Playable, ::UnityEngine::Playables::FrameData))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_SIMPLETALKMARKERBEHAVIOUR___IFIXBASEPROXY_ONBEHAVIOURPLAY_OFFSET))(this, a1, a2);
-		}
-
-		::System::Void __iFixBaseProxy_ProcessFrame(::UnityEngine::Playables::Playable a1, ::UnityEngine::Playables::FrameData a2, ::System::Object* a3)
-		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Playables::Playable, ::UnityEngine::Playables::FrameData, ::System::Object*))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_SIMPLETALKMARKERBEHAVIOUR___IFIXBASEPROXY_PROCESSFRAME_OFFSET))(this, a1, a2, a3);
 		}
 	};
 }

@@ -2,25 +2,19 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_1_64B0865F947DD0FB_Class_1_013A96B3D36C22A3;
-namespace System { class String; }
-namespace System::IO { class Stream; }
-namespace System::Text { class Encoding; }
+class Class_1_E20E428AE57D7278;
 
-#define CLASS_1_64B0865F947DD0FB__CCTOR_OFFSET UNITYSDK_OFFSET(0x142448A0)
+#define CLASS_1_64B0865F947DD0FB__CTOR_OFFSET UNITYSDK_OFFSET(0x1A0270D0)
 
-inline static constexpr unsigned int Class_1_64B0865F947DD0FB_TypeDefinitionIndex = 57226;
+inline static constexpr unsigned int Class_1_64B0865F947DD0FB_TypeDefinitionIndex = 40635;
 
 class Class_1_64B0865F947DD0FB : public ::System::Object
 {
 public:
-	static ::Class_1_64B0865F947DD0FB_Class_1_013A96B3D36C22A3** StaticGet_Field_1_0()
-	{
-		return (::Class_1_64B0865F947DD0FB_Class_1_013A96B3D36C22A3**)Il2CppClass::FromTypeDefinitionIndex(Class_1_64B0865F947DD0FB_TypeDefinitionIndex)->GetStaticField(0x1B5D0);
-	}
+	::Class_1_E20E428AE57D7278* Field_1_0; // 0x10
 
-	static ::System::Void _cctor()
+	::System::Void _ctor()
 	{
-		return ((::System::Void(*)())((::PBYTE)hIl2Cpp + CLASS_1_64B0865F947DD0FB__CCTOR_OFFSET))();
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_64B0865F947DD0FB__CTOR_OFFSET))(this);
 	}
 };

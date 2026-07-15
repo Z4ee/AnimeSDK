@@ -4,11 +4,11 @@
 
 namespace System { class String; }
 
-#define RPG_CLIENT_PROP_CHIMERAGALLERYSTATECONTROLLER_ACTCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0xC524030)
+#define RPG_CLIENT_PROP_CHIMERAGALLERYSTATECONTROLLER_ACTCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x18FF58A0)
 
 namespace RPG::Client::Prop
 {
-	inline static constexpr unsigned int ChimeraGalleryStateController_ActConfig_TypeDefinitionIndex = 73013;
+	inline static constexpr unsigned int ChimeraGalleryStateController_ActConfig_TypeDefinitionIndex = 74538;
 
 	class ChimeraGalleryStateController_ActConfig : public ::System::Object
 	{

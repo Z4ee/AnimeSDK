@@ -12,7 +12,7 @@ namespace System::Linq { template <typename T> class IOrderedEnumerable_1; }
 
 namespace System::Linq
 {
-	inline static constexpr unsigned int OrderedEnumerable_1_TypeDefinitionIndex = 3164;
+	inline static constexpr unsigned int OrderedEnumerable_1_TypeDefinitionIndex = 3168;
 
 	template <typename TElement>
 	class OrderedEnumerable_1 : public ::System::Object

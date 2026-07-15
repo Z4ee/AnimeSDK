@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FiveDimEvilSmileState_TypeDefinitionIndex = 15872;
+	inline static constexpr unsigned int FiveDimEvilSmileState_TypeDefinitionIndex = 16046;
 
 	enum class FiveDimEvilSmileState : ::System::Int32
 	{

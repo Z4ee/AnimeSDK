@@ -6,13 +6,13 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class DynamicString; }
 namespace RPG::GameCore { class TargetEvaluator; }
 
-#define RPG_GAMECORE_PLAYERREMOTECONTROLOTHERENTITY_METHOD_3_52D8336334ACC424_OFFSET UNITYSDK_OFFSET(0x19A3DAE0)
-#define RPG_GAMECORE_PLAYERREMOTECONTROLOTHERENTITY_METHOD_3_82620A8445A11AE6_OFFSET UNITYSDK_OFFSET(0x19A3DA60)
-#define RPG_GAMECORE_PLAYERREMOTECONTROLOTHERENTITY__CTOR_OFFSET UNITYSDK_OFFSET(0x19A3DAB0)
+#define RPG_GAMECORE_PLAYERREMOTECONTROLOTHERENTITY_METHOD_3_52D8336334ACC424_OFFSET UNITYSDK_OFFSET(0x1BA0CEB0)
+#define RPG_GAMECORE_PLAYERREMOTECONTROLOTHERENTITY_METHOD_3_BE93F0B5939BBD51_OFFSET UNITYSDK_OFFSET(0x1BA0CE60)
+#define RPG_GAMECORE_PLAYERREMOTECONTROLOTHERENTITY__CTOR_OFFSET UNITYSDK_OFFSET(0x1BA0CEA0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PlayerRemoteControlOtherEntity_TypeDefinitionIndex = 19378;
+	inline static constexpr unsigned int PlayerRemoteControlOtherEntity_TypeDefinitionIndex = 19734;
 
 	class PlayerRemoteControlOtherEntity : public ::RPG::GameCore::TaskConfig
 	{
@@ -37,9 +37,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PLAYERREMOTECONTROLOTHERENTITY__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_82620A8445A11AE6(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::PlayerRemoteControlOtherEntity*& a2)
+		static ::System::Void Method_3_BE93F0B5939BBD51(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::PlayerRemoteControlOtherEntity*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::PlayerRemoteControlOtherEntity*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PLAYERREMOTECONTROLOTHERENTITY_METHOD_3_82620A8445A11AE6_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::PlayerRemoteControlOtherEntity*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PLAYERREMOTECONTROLOTHERENTITY_METHOD_3_BE93F0B5939BBD51_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_52D8336334ACC424(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::PlayerRemoteControlOtherEntity* a2)

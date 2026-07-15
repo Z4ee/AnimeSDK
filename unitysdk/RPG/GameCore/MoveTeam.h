@@ -7,13 +7,13 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class TargetEvaluator; }
 
-#define RPG_GAMECORE_MOVETEAM_METHOD_3_2D95233F60A64029_OFFSET UNITYSDK_OFFSET(0x199B3CC0)
-#define RPG_GAMECORE_MOVETEAM_METHOD_3_723D197141B8C5CF_OFFSET UNITYSDK_OFFSET(0x199B3D40)
-#define RPG_GAMECORE_MOVETEAM__CTOR_OFFSET UNITYSDK_OFFSET(0x199B3D10)
+#define RPG_GAMECORE_MOVETEAM_METHOD_3_4D750B7AA227C72A_OFFSET UNITYSDK_OFFSET(0x1B1CFDE0)
+#define RPG_GAMECORE_MOVETEAM_METHOD_3_723D197141B8C5CF_OFFSET UNITYSDK_OFFSET(0x1B1CFE30)
+#define RPG_GAMECORE_MOVETEAM__CTOR_OFFSET UNITYSDK_OFFSET(0x1B1CFE20)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MoveTeam_TypeDefinitionIndex = 21402;
+	inline static constexpr unsigned int MoveTeam_TypeDefinitionIndex = 21820;
 
 	class MoveTeam : public ::RPG::GameCore::TaskConfig
 	{
@@ -29,9 +29,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MOVETEAM__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_2D95233F60A64029(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::MoveTeam*& a2)
+		static ::System::Void Method_3_4D750B7AA227C72A(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::MoveTeam*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::MoveTeam*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MOVETEAM_METHOD_3_2D95233F60A64029_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::MoveTeam*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MOVETEAM_METHOD_3_4D750B7AA227C72A_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_723D197141B8C5CF(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::MoveTeam* a2)

@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TargetAliasTokenType_TypeDefinitionIndex = 55207;
+	inline static constexpr unsigned int TargetAliasTokenType_TypeDefinitionIndex = 56440;
 
 	enum class TargetAliasTokenType : ::System::Int32
 	{

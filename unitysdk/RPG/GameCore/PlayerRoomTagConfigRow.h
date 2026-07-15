@@ -5,18 +5,18 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_PLAYERROOMTAGCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x19A42B70)
-#define RPG_GAMECORE_PLAYERROOMTAGCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x19A42CF0)
+#define RPG_GAMECORE_PLAYERROOMTAGCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1BA12010)
+#define RPG_GAMECORE_PLAYERROOMTAGCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1BA12190)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PlayerRoomTagConfigRow_TypeDefinitionIndex = 13822;
+	inline static constexpr unsigned int PlayerRoomTagConfigRow_TypeDefinitionIndex = 13970;
 
 	class PlayerRoomTagConfigRow : public ::System::Object
 	{
 	public:
-		::RPG::Client::TextID Name; // 0x10
-		::System::UInt32 ID; // 0x20
+		::System::UInt32 ID; // 0x10
+		::RPG::Client::TextID Name; // 0x18
 
 		::System::Void _ctor()
 		{

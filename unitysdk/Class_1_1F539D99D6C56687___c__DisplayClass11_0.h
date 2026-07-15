@@ -6,16 +6,16 @@ class Class_1_1F539D99D6C56687;
 namespace RPG::Client { class IAssetOperation; }
 namespace System { class String; }
 
-#define CLASS_1_1F539D99D6C56687___C__DISPLAYCLASS11_0__CTOR_OFFSET UNITYSDK_OFFSET(0xDE68C00)
-#define CLASS_1_1F539D99D6C56687___C__DISPLAYCLASS11_0__PRELOADTIMELINEREFASSETS_B__0_OFFSET UNITYSDK_OFFSET(0xDE69300)
+#define CLASS_1_1F539D99D6C56687___C__DISPLAYCLASS11_0__CTOR_OFFSET UNITYSDK_OFFSET(0xE4EA110)
+#define CLASS_1_1F539D99D6C56687___C__DISPLAYCLASS11_0__PRELOADTIMELINEREFASSETS_B__0_OFFSET UNITYSDK_OFFSET(0xE4EA8A0)
 
-inline static constexpr unsigned int Class_1_1F539D99D6C56687___c__DisplayClass11_0_TypeDefinitionIndex = 45768;
+inline static constexpr unsigned int Class_1_1F539D99D6C56687___c__DisplayClass11_0_TypeDefinitionIndex = 46707;
 
 class Class_1_1F539D99D6C56687___c__DisplayClass11_0 : public ::System::Object
 {
 public:
-	::System::String* profilePath; // 0x10
-	::Class_1_1F539D99D6C56687* __4__this; // 0x18
+	::Class_1_1F539D99D6C56687* __4__this; // 0x10
+	::System::String* profilePath; // 0x18
 
 	::System::Void _ctor()
 	{

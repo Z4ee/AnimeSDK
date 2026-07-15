@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int SpecialVisionEntityType_TypeDefinitionIndex = 65971;
+	inline static constexpr unsigned int SpecialVisionEntityType_TypeDefinitionIndex = 67396;
 
 	enum class SpecialVisionEntityType : ::System::Int32
 	{

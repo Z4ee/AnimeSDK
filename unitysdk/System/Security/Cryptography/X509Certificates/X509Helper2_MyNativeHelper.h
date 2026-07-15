@@ -5,12 +5,12 @@
 namespace System::Security::Cryptography::X509Certificates { class X509Certificate; }
 namespace System::Security::Cryptography::X509Certificates { class X509CertificateImpl; }
 
-#define SYSTEM_SECURITY_CRYPTOGRAPHY_X509CERTIFICATES_X509HELPER2_MYNATIVEHELPER_IMPORT_OFFSET UNITYSDK_OFFSET(0x1AFDAA30)
-#define SYSTEM_SECURITY_CRYPTOGRAPHY_X509CERTIFICATES_X509HELPER2_MYNATIVEHELPER__CTOR_OFFSET UNITYSDK_OFFSET(0x1AFDA7D0)
+#define SYSTEM_SECURITY_CRYPTOGRAPHY_X509CERTIFICATES_X509HELPER2_MYNATIVEHELPER_IMPORT_OFFSET UNITYSDK_OFFSET(0x167C8FD0)
+#define SYSTEM_SECURITY_CRYPTOGRAPHY_X509CERTIFICATES_X509HELPER2_MYNATIVEHELPER__CTOR_OFFSET UNITYSDK_OFFSET(0x167C8D00)
 
 namespace System::Security::Cryptography::X509Certificates
 {
-	inline static constexpr unsigned int X509Helper2_MyNativeHelper_TypeDefinitionIndex = 2699;
+	inline static constexpr unsigned int X509Helper2_MyNativeHelper_TypeDefinitionIndex = 2703;
 
 	class X509Helper2_MyNativeHelper : public ::System::Object
 	{

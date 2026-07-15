@@ -6,13 +6,13 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class DamageByAttackProperty; }
 namespace RPG::GameCore { class TargetEvaluator; }
 
-#define RPG_GAMECORE_FIREWAVEPROJECTILEBASE_METHOD_3_10697ABB99BC0654_OFFSET UNITYSDK_OFFSET(0x19725590)
-#define RPG_GAMECORE_FIREWAVEPROJECTILEBASE_METHOD_3_B51E21920262DA05_OFFSET UNITYSDK_OFFSET(0x197257C0)
-#define RPG_GAMECORE_FIREWAVEPROJECTILEBASE__CTOR_OFFSET UNITYSDK_OFFSET(0x19725560)
+#define RPG_GAMECORE_FIREWAVEPROJECTILEBASE_METHOD_3_2CFC0BCAEACB4CA6_OFFSET UNITYSDK_OFFSET(0x1BA855A0)
+#define RPG_GAMECORE_FIREWAVEPROJECTILEBASE_METHOD_3_B51E21920262DA05_OFFSET UNITYSDK_OFFSET(0x1BA85770)
+#define RPG_GAMECORE_FIREWAVEPROJECTILEBASE__CTOR_OFFSET UNITYSDK_OFFSET(0x1BA85590)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FireWaveProjectileBase_TypeDefinitionIndex = 21349;
+	inline static constexpr unsigned int FireWaveProjectileBase_TypeDefinitionIndex = 21767;
 
 	class FireWaveProjectileBase : public ::RPG::GameCore::TaskConfig
 	{
@@ -30,9 +30,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIREWAVEPROJECTILEBASE__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_10697ABB99BC0654(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::FireWaveProjectileBase*& a2)
+		static ::System::Void Method_3_2CFC0BCAEACB4CA6(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::FireWaveProjectileBase*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::FireWaveProjectileBase*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIREWAVEPROJECTILEBASE_METHOD_3_10697ABB99BC0654_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::FireWaveProjectileBase*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIREWAVEPROJECTILEBASE_METHOD_3_2CFC0BCAEACB4CA6_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_B51E21920262DA05(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::FireWaveProjectileBase* a2)

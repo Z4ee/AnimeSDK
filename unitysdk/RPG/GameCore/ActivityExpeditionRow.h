@@ -7,30 +7,30 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_ACTIVITYEXPEDITIONROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x193E2E00)
-#define RPG_GAMECORE_ACTIVITYEXPEDITIONROW__CTOR_OFFSET UNITYSDK_OFFSET(0x193E4110)
+#define RPG_GAMECORE_ACTIVITYEXPEDITIONROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1AAEB8D0)
+#define RPG_GAMECORE_ACTIVITYEXPEDITIONROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1AAECBF0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ActivityExpeditionRow_TypeDefinitionIndex = 11004;
+	inline static constexpr unsigned int ActivityExpeditionRow_TypeDefinitionIndex = 11054;
 
 	class ActivityExpeditionRow : public ::System::Object
 	{
 	public:
 		::Il2CppArray<::RPG::GameCore::AvatarBaseType>* BonusBaseTypeList; // 0x10
-		::System::UInt32 Grade3ExtraRewardID; // 0x18
-		::System::UInt32 Grade1ExtraRewardID; // 0x1C
-		::System::UInt32 RewardID; // 0x20
-		::System::UInt32 AvatarNumMin; // 0x24
-		::RPG::Client::TextID AssignerName; // 0x28
-		::RPG::GameCore::ActivityExpeditionRank ExpeditionRank; // 0x38
-		::System::UInt32 ExpeditionTag; // 0x3C
-		::RPG::Client::TextID AssignDesc; // 0x40
-		::RPG::Client::TextID Name; // 0x50
-		::System::UInt32 Grade2ExtraRewardID; // 0x60
-		::System::UInt32 Duration; // 0x64
-		::System::UInt32 AvatarNumMax; // 0x68
-		::System::UInt32 ExpeditionID; // 0x6C
+		::RPG::Client::TextID AssignerName; // 0x18
+		::System::UInt32 AvatarNumMin; // 0x28
+		::System::UInt32 Grade2ExtraRewardID; // 0x2C
+		::RPG::Client::TextID AssignDesc; // 0x30
+		::System::UInt32 Grade1ExtraRewardID; // 0x40
+		::System::UInt32 Duration; // 0x44
+		::RPG::Client::TextID Name; // 0x48
+		::System::UInt32 RewardID; // 0x58
+		::System::UInt32 AvatarNumMax; // 0x5C
+		::RPG::GameCore::ActivityExpeditionRank ExpeditionRank; // 0x60
+		::System::UInt32 ExpeditionTag; // 0x64
+		::System::UInt32 ExpeditionID; // 0x68
+		::System::UInt32 Grade3ExtraRewardID; // 0x6C
 
 		::System::Void _ctor()
 		{

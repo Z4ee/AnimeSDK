@@ -4,12 +4,12 @@
 
 namespace RPG::Client { class LobbyMemberData; }
 
-#define RPG_CLIENT_MULTIPLAYER_BASEMPGAMESERVICE___C__DISPLAYCLASS6_0__CTOR_OFFSET UNITYSDK_OFFSET(0xC1BCB70)
-#define RPG_CLIENT_MULTIPLAYER_BASEMPGAMESERVICE___C__DISPLAYCLASS6_0__REMINDPREPARE_B__0_OFFSET UNITYSDK_OFFSET(0xC1BE360)
+#define RPG_CLIENT_MULTIPLAYER_BASEMPGAMESERVICE___C__DISPLAYCLASS6_0__CTOR_OFFSET UNITYSDK_OFFSET(0x19089BF0)
+#define RPG_CLIENT_MULTIPLAYER_BASEMPGAMESERVICE___C__DISPLAYCLASS6_0__REMINDPREPARE_B__0_OFFSET UNITYSDK_OFFSET(0x1908C190)
 
 namespace RPG::Client::Multiplayer
 {
-	inline static constexpr unsigned int BaseMPGameService___c__DisplayClass6_0_TypeDefinitionIndex = 73737;
+	inline static constexpr unsigned int BaseMPGameService___c__DisplayClass6_0_TypeDefinitionIndex = 75386;
 
 	class BaseMPGameService___c__DisplayClass6_0 : public ::System::Object
 	{

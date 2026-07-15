@@ -8,23 +8,23 @@ namespace RPG::Client::ActivityHipplen { class ActivityHipplenMiniGameManager; }
 namespace RPG::GameCore { class HipplenGameWaitEvent; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_2_CFE01593AA29BD1C_DISPOSE_OFFSET UNITYSDK_OFFSET(0x13975BA0)
-#define CLASS_2_CFE01593AA29BD1C_METHOD_2_D3314DFA55F6676E_OFFSET UNITYSDK_OFFSET(0x13975D30)
-#define CLASS_2_CFE01593AA29BD1C_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x139758A0)
-#define CLASS_2_CFE01593AA29BD1C_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x13975B50)
-#define CLASS_2_CFE01593AA29BD1C_TICK_OFFSET UNITYSDK_OFFSET(0x13975AA0)
-#define CLASS_2_CFE01593AA29BD1C__CTOR_OFFSET UNITYSDK_OFFSET(0x13975890)
+#define CLASS_2_CFE01593AA29BD1C_DISPOSE_OFFSET UNITYSDK_OFFSET(0x158CE8B0)
+#define CLASS_2_CFE01593AA29BD1C_METHOD_2_D3314DFA55F6676E_OFFSET UNITYSDK_OFFSET(0x158CEA00)
+#define CLASS_2_CFE01593AA29BD1C_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x158CE5B0)
+#define CLASS_2_CFE01593AA29BD1C_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x158CE860)
+#define CLASS_2_CFE01593AA29BD1C_TICK_OFFSET UNITYSDK_OFFSET(0x158CE7B0)
+#define CLASS_2_CFE01593AA29BD1C__CTOR_OFFSET UNITYSDK_OFFSET(0x158CE5A0)
 
-inline static constexpr unsigned int Class_2_CFE01593AA29BD1C_TypeDefinitionIndex = 48885;
+inline static constexpr unsigned int Class_2_CFE01593AA29BD1C_TypeDefinitionIndex = 49898;
 
 class Class_2_CFE01593AA29BD1C : public ::Class_1_5F51D4049EA87B7B
 {
 public:
-	::Class_1_F3391C70DC37088D* Field_2_0; // 0x18
+	::RPG::GameCore::HipplenGameWaitEvent* Field_2_0; // 0x18
 	::Class_2_CFE01593AA29BD1C_Class_1_22046C69D06B0F53* Field_2_1; // 0x20
-	::RPG::GameCore::HipplenGameWaitEvent* Field_2_2; // 0x28
-	::RPG::GameCore::TaskContext* Field_2_3; // 0x30
-	::RPG::Client::ActivityHipplen::ActivityHipplenMiniGameManager* Field_2_4; // 0x38
+	::RPG::GameCore::TaskContext* Field_2_2; // 0x28
+	::RPG::Client::ActivityHipplen::ActivityHipplenMiniGameManager* Field_2_3; // 0x30
+	::Class_1_F3391C70DC37088D* Field_2_4; // 0x38
 
 	::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::HipplenGameWaitEvent* a2)
 	{

@@ -3,11 +3,11 @@
 #include "unitysdk/RPG/Client/IKHitReactionChainEnd.h"
 #include "unitysdk/System/Object.h"
 
-#define RPG_CLIENT_IKHITREACTIONLIMB__CTOR_OFFSET UNITYSDK_OFFSET(0xBD25660)
+#define RPG_CLIENT_IKHITREACTIONLIMB__CTOR_OFFSET UNITYSDK_OFFSET(0x17961DB0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int IKHitReactionLimb_TypeDefinitionIndex = 64039;
+	inline static constexpr unsigned int IKHitReactionLimb_TypeDefinitionIndex = 65410;
 
 	class IKHitReactionLimb : public ::System::Object
 	{

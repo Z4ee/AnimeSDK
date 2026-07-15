@@ -5,13 +5,13 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_SHOWTAROTBOOKPAGE_METHOD_3_8B56382252B76D47_OFFSET UNITYSDK_OFFSET(0x19C84B90)
-#define RPG_GAMECORE_SHOWTAROTBOOKPAGE_METHOD_3_DD85DD0C99BEA7FE_OFFSET UNITYSDK_OFFSET(0x19C84C10)
-#define RPG_GAMECORE_SHOWTAROTBOOKPAGE__CTOR_OFFSET UNITYSDK_OFFSET(0x19C84BE0)
+#define RPG_GAMECORE_SHOWTAROTBOOKPAGE_METHOD_3_CF90E17893922B9F_OFFSET UNITYSDK_OFFSET(0x1BE48540)
+#define RPG_GAMECORE_SHOWTAROTBOOKPAGE_METHOD_3_DD85DD0C99BEA7FE_OFFSET UNITYSDK_OFFSET(0x1BE48580)
+#define RPG_GAMECORE_SHOWTAROTBOOKPAGE__CTOR_OFFSET UNITYSDK_OFFSET(0x1BE48570)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ShowTarotBookPage_TypeDefinitionIndex = 21125;
+	inline static constexpr unsigned int ShowTarotBookPage_TypeDefinitionIndex = 21540;
 
 	class ShowTarotBookPage : public ::RPG::GameCore::TaskConfig
 	{
@@ -25,9 +25,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SHOWTAROTBOOKPAGE__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_8B56382252B76D47(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ShowTarotBookPage*& a2)
+		static ::System::Void Method_3_CF90E17893922B9F(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ShowTarotBookPage*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ShowTarotBookPage*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SHOWTAROTBOOKPAGE_METHOD_3_8B56382252B76D47_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ShowTarotBookPage*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SHOWTAROTBOOKPAGE_METHOD_3_CF90E17893922B9F_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_DD85DD0C99BEA7FE(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ShowTarotBookPage* a2)

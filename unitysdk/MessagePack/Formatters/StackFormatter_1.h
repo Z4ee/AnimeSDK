@@ -9,7 +9,7 @@ namespace System::Collections::Generic { template <typename T> class Stack_1; }
 
 namespace MessagePack::Formatters
 {
-	inline static constexpr unsigned int StackFormatter_1_TypeDefinitionIndex = 7344;
+	inline static constexpr unsigned int StackFormatter_1_TypeDefinitionIndex = 7350;
 
 	template <typename T>
 	class StackFormatter_1 : public ::MessagePack::Formatters::CollectionFormatterBase_4<T, ::Il2CppArray<T>*, ::System::Collections::Generic::Stack_1_Enumerator<T>, ::System::Collections::Generic::Stack_1<T>*>

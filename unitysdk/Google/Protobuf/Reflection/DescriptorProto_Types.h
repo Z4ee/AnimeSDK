@@ -4,7 +4,7 @@
 
 namespace Google::Protobuf::Reflection
 {
-	inline static constexpr unsigned int DescriptorProto_Types_TypeDefinitionIndex = 5461;
+	inline static constexpr unsigned int DescriptorProto_Types_TypeDefinitionIndex = 5466;
 
 	class DescriptorProto_Types : public ::System::Object
 	{

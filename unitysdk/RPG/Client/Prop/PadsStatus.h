@@ -3,7 +3,7 @@
 
 namespace RPG::Client::Prop
 {
-	inline static constexpr unsigned int PadsStatus_TypeDefinitionIndex = 73267;
+	inline static constexpr unsigned int PadsStatus_TypeDefinitionIndex = 74792;
 
 	enum class PadsStatus : ::System::Int32
 	{

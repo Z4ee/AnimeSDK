@@ -11,7 +11,7 @@ namespace System { template <typename T> class Func_1; }
 
 namespace RPG::Client::Promises
 {
-	inline static constexpr unsigned int Promise___c__DisplayClass54_0_1_TypeDefinitionIndex = 9567;
+	inline static constexpr unsigned int Promise___c__DisplayClass54_0_1_TypeDefinitionIndex = 9579;
 
 	template <typename ConvertedT>
 	class Promise___c__DisplayClass54_0_1 : public ::System::Object

@@ -11,20 +11,20 @@ namespace System::IO { class Stream; }
 namespace System::Runtime::CompilerServices { class IAsyncStateMachine; }
 namespace System::Xml { class XmlUrlResolver; }
 
-#define SYSTEM_XML_XMLURLRESOLVER__GETENTITYASYNC_D__15_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x386DCB0)
-#define SYSTEM_XML_XMLURLRESOLVER__GETENTITYASYNC_D__15_SETSTATEMACHINE_OFFSET UNITYSDK_OFFSET(0x38690F0)
+#define SYSTEM_XML_XMLURLRESOLVER__GETENTITYASYNC_D__15_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x3AC7BF0)
+#define SYSTEM_XML_XMLURLRESOLVER__GETENTITYASYNC_D__15_SETSTATEMACHINE_OFFSET UNITYSDK_OFFSET(0x38D1DF0)
 
 namespace System::Xml
 {
-	inline static constexpr unsigned int XmlUrlResolver__GetEntityAsync_d__15_TypeDefinitionIndex = 1960;
+	inline static constexpr unsigned int XmlUrlResolver__GetEntityAsync_d__15_TypeDefinitionIndex = 1964;
 
 	struct alignas(8) XmlUrlResolver__GetEntityAsync_d__15
 	{
-		::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<::System::IO::Stream*> __u__1; // 0x10
-		::System::Type* ofObjectToReturn; // 0x20
-		::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::System::Object*> __t__builder; // 0x28
-		::System::Uri* absoluteUri; // 0x40
-		::System::Xml::XmlUrlResolver* __4__this; // 0x48
+		::System::Type* ofObjectToReturn; // 0x10
+		::System::Xml::XmlUrlResolver* __4__this; // 0x18
+		::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::System::Object*> __t__builder; // 0x20
+		::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<::System::IO::Stream*> __u__1; // 0x38
+		::System::Uri* absoluteUri; // 0x48
 		::System::Int32 __1__state; // 0x50
 
 		::System::Void MoveNext()

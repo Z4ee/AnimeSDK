@@ -4,7 +4,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AdventureCharacterController_StateBeginTimeRecord_TypeDefinitionIndex = 53251;
+	inline static constexpr unsigned int AdventureCharacterController_StateBeginTimeRecord_TypeDefinitionIndex = 54466;
 
 	struct alignas(4) AdventureCharacterController_StateBeginTimeRecord
 	{

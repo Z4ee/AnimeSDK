@@ -3,7 +3,7 @@
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int MotionVectorGenerationMode_TypeDefinitionIndex = 4165;
+	inline static constexpr unsigned int MotionVectorGenerationMode_TypeDefinitionIndex = 4170;
 
 	enum class MotionVectorGenerationMode : ::System::Int32
 	{

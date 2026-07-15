@@ -5,12 +5,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_DIALOGUEEVENTINFO_METHOD_2_829EA1350BF74F1E_OFFSET UNITYSDK_OFFSET(0x1969EC90)
-#define RPG_GAMECORE_DIALOGUEEVENTINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x1969EDE0)
+#define RPG_GAMECORE_DIALOGUEEVENTINFO_METHOD_2_FFCA1C6E4ABE7127_OFFSET UNITYSDK_OFFSET(0x1C107B40)
+#define RPG_GAMECORE_DIALOGUEEVENTINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x1C107CC0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int DialogueEventInfo_TypeDefinitionIndex = 19959;
+	inline static constexpr unsigned int DialogueEventInfo_TypeDefinitionIndex = 20330;
 
 	class DialogueEventInfo : public ::RPG::GameCore::JsonConfig
 	{
@@ -24,9 +24,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_DIALOGUEEVENTINFO__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_829EA1350BF74F1E(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::DialogueEventInfo*& a2)
+		static ::System::Void Method_2_FFCA1C6E4ABE7127(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::DialogueEventInfo*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::DialogueEventInfo*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_DIALOGUEEVENTINFO_METHOD_2_829EA1350BF74F1E_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::DialogueEventInfo*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_DIALOGUEEVENTINFO_METHOD_2_FFCA1C6E4ABE7127_OFFSET))(a1, a2);
 		}
 	};
 }

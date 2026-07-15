@@ -5,13 +5,13 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class DynamicFloat; }
 
-#define RPG_GAMECORE_REMOVEFATEHOUGU_METHOD_3_48C4AAFA75698B14_OFFSET UNITYSDK_OFFSET(0x19AC8BF0)
-#define RPG_GAMECORE_REMOVEFATEHOUGU_METHOD_3_97E876498DF6DD56_OFFSET UNITYSDK_OFFSET(0x19AC8D10)
-#define RPG_GAMECORE_REMOVEFATEHOUGU__CTOR_OFFSET UNITYSDK_OFFSET(0x19AC8C90)
+#define RPG_GAMECORE_REMOVEFATEHOUGU_METHOD_3_1D32BA679475821D_OFFSET UNITYSDK_OFFSET(0x1B9CF930)
+#define RPG_GAMECORE_REMOVEFATEHOUGU_METHOD_3_97E876498DF6DD56_OFFSET UNITYSDK_OFFSET(0x1B9CFA10)
+#define RPG_GAMECORE_REMOVEFATEHOUGU__CTOR_OFFSET UNITYSDK_OFFSET(0x1B9CF9B0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RemoveFateHougu_TypeDefinitionIndex = 22017;
+	inline static constexpr unsigned int RemoveFateHougu_TypeDefinitionIndex = 22451;
 
 	class RemoveFateHougu : public ::RPG::GameCore::TaskConfig
 	{
@@ -24,9 +24,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_REMOVEFATEHOUGU__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_48C4AAFA75698B14(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::RemoveFateHougu*& a2)
+		static ::System::Void Method_3_1D32BA679475821D(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::RemoveFateHougu*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::RemoveFateHougu*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_REMOVEFATEHOUGU_METHOD_3_48C4AAFA75698B14_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::RemoveFateHougu*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_REMOVEFATEHOUGU_METHOD_3_1D32BA679475821D_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_97E876498DF6DD56(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::RemoveFateHougu* a2)

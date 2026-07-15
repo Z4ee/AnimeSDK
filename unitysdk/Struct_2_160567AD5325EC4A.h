@@ -4,7 +4,7 @@
 #include "unitysdk/RPG/GameCore/HashTableKeyType.h"
 #include "unitysdk/System/ValueType.h"
 
-inline static constexpr unsigned int Struct_2_160567AD5325EC4A_TypeDefinitionIndex = 10331;
+inline static constexpr unsigned int Struct_2_160567AD5325EC4A_TypeDefinitionIndex = 10380;
 
 struct alignas(1) Struct_2_160567AD5325EC4A
 {

@@ -3,7 +3,7 @@
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int AgeGateFlowType_TypeDefinitionIndex = 7514;
+	inline static constexpr unsigned int AgeGateFlowType_TypeDefinitionIndex = 7520;
 
 	enum class AgeGateFlowType : ::System::Int32
 	{

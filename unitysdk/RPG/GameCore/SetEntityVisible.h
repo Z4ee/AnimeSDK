@@ -7,13 +7,13 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class TargetEvaluator; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_SETENTITYVISIBLE_METHOD_3_9687334C1C730750_OFFSET UNITYSDK_OFFSET(0x19C4CB90)
-#define RPG_GAMECORE_SETENTITYVISIBLE_METHOD_3_E4E5CD1590F7D5FA_OFFSET UNITYSDK_OFFSET(0x19C4CC10)
-#define RPG_GAMECORE_SETENTITYVISIBLE__CTOR_OFFSET UNITYSDK_OFFSET(0x19C4CBE0)
+#define RPG_GAMECORE_SETENTITYVISIBLE_METHOD_3_2DBE902FF95F5FDB_OFFSET UNITYSDK_OFFSET(0x1C5F82C0)
+#define RPG_GAMECORE_SETENTITYVISIBLE_METHOD_3_E4E5CD1590F7D5FA_OFFSET UNITYSDK_OFFSET(0x1C5F8310)
+#define RPG_GAMECORE_SETENTITYVISIBLE__CTOR_OFFSET UNITYSDK_OFFSET(0x1C5F8300)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SetEntityVisible_TypeDefinitionIndex = 19458;
+	inline static constexpr unsigned int SetEntityVisible_TypeDefinitionIndex = 19816;
 
 	class SetEntityVisible : public ::RPG::GameCore::TaskConfig
 	{
@@ -31,9 +31,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETENTITYVISIBLE__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_9687334C1C730750(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SetEntityVisible*& a2)
+		static ::System::Void Method_3_2DBE902FF95F5FDB(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SetEntityVisible*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SetEntityVisible*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETENTITYVISIBLE_METHOD_3_9687334C1C730750_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SetEntityVisible*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETENTITYVISIBLE_METHOD_3_2DBE902FF95F5FDB_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_E4E5CD1590F7D5FA(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SetEntityVisible* a2)

@@ -4,11 +4,11 @@
 #include "unitysdk/UnityEngine/Experimental/Rendering/RendererList.h"
 #include "unitysdk/UnityEngine/Experimental/Rendering/RendererListDesc.h"
 
-#define UNITYENGINE_EXPERIMENTAL_RENDERING_RENDERGRAPHMODULE_RENDERGRAPHRESOURCEREGISTRY_RENDERERLISTRESOURCE__CTOR_OFFSET UNITYSDK_OFFSET(0x38777C0)
+#define UNITYENGINE_EXPERIMENTAL_RENDERING_RENDERGRAPHMODULE_RENDERGRAPHRESOURCEREGISTRY_RENDERERLISTRESOURCE__CTOR_OFFSET UNITYSDK_OFFSET(0x3A1B7D0)
 
 namespace UnityEngine::Experimental::Rendering::RenderGraphModule
 {
-	inline static constexpr unsigned int RenderGraphResourceRegistry_RendererListResource_TypeDefinitionIndex = 33660;
+	inline static constexpr unsigned int RenderGraphResourceRegistry_RendererListResource_TypeDefinitionIndex = 34031;
 
 	struct alignas(8) RenderGraphResourceRegistry_RendererListResource
 	{

@@ -5,19 +5,19 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class ItemConfig; }
 
-#define RPG_GAMECORE_MONSTERDROPROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x199A7C60)
-#define RPG_GAMECORE_MONSTERDROPROW__CTOR_OFFSET UNITYSDK_OFFSET(0x199A8340)
+#define RPG_GAMECORE_MONSTERDROPROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B1C3F10)
+#define RPG_GAMECORE_MONSTERDROPROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1B1C45E0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MonsterDropRow_TypeDefinitionIndex = 13521;
+	inline static constexpr unsigned int MonsterDropRow_TypeDefinitionIndex = 13669;
 
 	class MonsterDropRow : public ::System::Object
 	{
 	public:
 		::Il2CppArray<::RPG::GameCore::ItemConfig*>* DisplayItemList; // 0x10
-		::System::UInt32 WorldLevel; // 0x18
-		::System::UInt32 MonsterTemplateID; // 0x1C
+		::System::UInt32 MonsterTemplateID; // 0x18
+		::System::UInt32 WorldLevel; // 0x1C
 		::System::UInt32 AvatarExpReward; // 0x20
 
 		::System::Void _ctor()

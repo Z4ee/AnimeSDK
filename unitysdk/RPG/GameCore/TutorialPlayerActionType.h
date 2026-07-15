@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TutorialPlayerActionType_TypeDefinitionIndex = 23463;
+	inline static constexpr unsigned int TutorialPlayerActionType_TypeDefinitionIndex = 23952;
 
 	enum class TutorialPlayerActionType : ::System::Int32
 	{

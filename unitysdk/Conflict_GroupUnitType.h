@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int Conflict_GroupUnitType_TypeDefinitionIndex = 44495;
+inline static constexpr unsigned int Conflict_GroupUnitType_TypeDefinitionIndex = 45367;
 
 enum class Conflict_GroupUnitType : ::System::Int32
 {

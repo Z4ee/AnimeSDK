@@ -16,7 +16,7 @@ namespace System::Collections::Generic { template <typename T> class IEnumerator
 
 namespace Spine
 {
-	inline static constexpr unsigned int ExposedList_1_TypeDefinitionIndex = 36732;
+	inline static constexpr unsigned int ExposedList_1_TypeDefinitionIndex = 37514;
 
 	template <typename T>
 	class ExposedList_1 : public ::System::Object

@@ -5,13 +5,13 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class TargetEvaluator; }
 
-#define RPG_GAMECORE_SKIPBILLBOARDMODELVISIBLECHECK_METHOD_3_BE34713A3E64B56F_OFFSET UNITYSDK_OFFSET(0x19C8F5C0)
-#define RPG_GAMECORE_SKIPBILLBOARDMODELVISIBLECHECK_METHOD_3_CEFBEA75E5C1E4E8_OFFSET UNITYSDK_OFFSET(0x19C8F470)
-#define RPG_GAMECORE_SKIPBILLBOARDMODELVISIBLECHECK__CTOR_OFFSET UNITYSDK_OFFSET(0x19C8F530)
+#define RPG_GAMECORE_SKIPBILLBOARDMODELVISIBLECHECK_METHOD_3_5448887AC0D191A5_OFFSET UNITYSDK_OFFSET(0x1BE52820)
+#define RPG_GAMECORE_SKIPBILLBOARDMODELVISIBLECHECK_METHOD_3_BE34713A3E64B56F_OFFSET UNITYSDK_OFFSET(0x1BE528A0)
+#define RPG_GAMECORE_SKIPBILLBOARDMODELVISIBLECHECK__CTOR_OFFSET UNITYSDK_OFFSET(0x1BE52870)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SkipBillboardModelVisibleCheck_TypeDefinitionIndex = 19323;
+	inline static constexpr unsigned int SkipBillboardModelVisibleCheck_TypeDefinitionIndex = 19679;
 
 	class SkipBillboardModelVisibleCheck : public ::RPG::GameCore::TaskConfig
 	{
@@ -24,9 +24,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SKIPBILLBOARDMODELVISIBLECHECK__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_CEFBEA75E5C1E4E8(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SkipBillboardModelVisibleCheck*& a2)
+		static ::System::Void Method_3_5448887AC0D191A5(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SkipBillboardModelVisibleCheck*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SkipBillboardModelVisibleCheck*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SKIPBILLBOARDMODELVISIBLECHECK_METHOD_3_CEFBEA75E5C1E4E8_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SkipBillboardModelVisibleCheck*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SKIPBILLBOARDMODELVISIBLECHECK_METHOD_3_5448887AC0D191A5_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_BE34713A3E64B56F(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SkipBillboardModelVisibleCheck* a2)

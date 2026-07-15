@@ -5,12 +5,12 @@
 namespace HedgehogTeam::EasyTouch { class ECamera; }
 namespace UnityEngine { class Camera; }
 
-#define HEDGEHOGTEAM_EASYTOUCH_EASYTOUCH___C__DISPLAYCLASS287_0__CTOR_OFFSET UNITYSDK_OFFSET(0x146ECE20)
-#define HEDGEHOGTEAM_EASYTOUCH_EASYTOUCH___C__DISPLAYCLASS287_0__REMOVECAMERA_B__0_OFFSET UNITYSDK_OFFSET(0x146EE4D0)
+#define HEDGEHOGTEAM_EASYTOUCH_EASYTOUCH___C__DISPLAYCLASS287_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1B4E92D0)
+#define HEDGEHOGTEAM_EASYTOUCH_EASYTOUCH___C__DISPLAYCLASS287_0__REMOVECAMERA_B__0_OFFSET UNITYSDK_OFFSET(0x1B4EA840)
 
 namespace HedgehogTeam::EasyTouch
 {
-	inline static constexpr unsigned int EasyTouch___c__DisplayClass287_0_TypeDefinitionIndex = 37371;
+	inline static constexpr unsigned int EasyTouch___c__DisplayClass287_0_TypeDefinitionIndex = 38179;
 
 	class EasyTouch___c__DisplayClass287_0 : public ::System::Object
 	{

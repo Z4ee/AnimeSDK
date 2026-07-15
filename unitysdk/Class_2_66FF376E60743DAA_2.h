@@ -5,13 +5,11 @@
 namespace System { class Object; }
 namespace System::Collections::Generic { template <typename T> class HashSet_1; }
 
-#define CLASS_2_66FF376E60743DAA_2_FILLRSPCMDIDSTO_OFFSET UNITYSDK_OFFSET(0x13C168B0)
-#define CLASS_2_66FF376E60743DAA_2__CTOR_OFFSET UNITYSDK_OFFSET(0x13C16890)
-#define CLASS_2_66FF376E60743DAA_2__DOCHECKIMPL_OFFSET UNITYSDK_OFFSET(0x13C16940)
-#define CLASS_2_66FF376E60743DAA_2___IFIXBASEPROXY_FILLRSPCMDIDSTO_OFFSET UNITYSDK_OFFSET(0x13C16A20)
-#define CLASS_2_66FF376E60743DAA_2___IFIXBASEPROXY__DOCHECKIMPL_OFFSET UNITYSDK_OFFSET(0x13C16A80)
+#define CLASS_2_66FF376E60743DAA_2_FILLRSPCMDIDSTO_OFFSET UNITYSDK_OFFSET(0x16BA3020)
+#define CLASS_2_66FF376E60743DAA_2__CTOR_OFFSET UNITYSDK_OFFSET(0x16BA3000)
+#define CLASS_2_66FF376E60743DAA_2__DOCHECKIMPL_OFFSET UNITYSDK_OFFSET(0x16BA30B0)
 
-inline static constexpr unsigned int Class_2_66FF376E60743DAA_2_TypeDefinitionIndex = 55981;
+inline static constexpr unsigned int Class_2_66FF376E60743DAA_2_TypeDefinitionIndex = 57220;
 
 class Class_2_66FF376E60743DAA_2 : public ::RPG::Client::SyncCheckItemBase
 {
@@ -31,15 +29,5 @@ public:
 	::System::Boolean _DoCheckImpl()
 	{
 		return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_66FF376E60743DAA_2__DOCHECKIMPL_OFFSET))(this);
-	}
-
-	::System::Void __iFixBaseProxy_FillRspCmdIDsTo(::System::Collections::Generic::HashSet_1<::System::UInt16>* a1)
-	{
-		return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::HashSet_1<::System::UInt16>*))((::PBYTE)hIl2Cpp + CLASS_2_66FF376E60743DAA_2___IFIXBASEPROXY_FILLRSPCMDIDSTO_OFFSET))(this, a1);
-	}
-
-	::System::Boolean __iFixBaseProxy__DoCheckImpl()
-	{
-		return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_66FF376E60743DAA_2___IFIXBASEPROXY__DOCHECKIMPL_OFFSET))(this);
 	}
 };

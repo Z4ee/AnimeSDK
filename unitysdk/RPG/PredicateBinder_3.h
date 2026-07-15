@@ -9,7 +9,7 @@ namespace System { template <typename T> class Predicate_1; }
 
 namespace RPG
 {
-	inline static constexpr unsigned int PredicateBinder_3_TypeDefinitionIndex = 6731;
+	inline static constexpr unsigned int PredicateBinder_3_TypeDefinitionIndex = 6736;
 
 	template <typename P, typename T1, typename T2>
 	class PredicateBinder_3 : public ::RPG::DelegateBinder_4<::RPG::PredicateBinder_3<P, T1, T2>*, ::System::Func_4<P, T1, T2, ::System::Boolean>*, ::System::ValueTuple_2<T1, T2>, ::System::Predicate_1<P>*>

@@ -5,19 +5,19 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_MAZECHESTROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x198FDFF0)
-#define RPG_GAMECORE_MAZECHESTROW__CTOR_OFFSET UNITYSDK_OFFSET(0x198FE180)
+#define RPG_GAMECORE_MAZECHESTROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1AF47F60)
+#define RPG_GAMECORE_MAZECHESTROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1AF480F0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MazeChestRow_TypeDefinitionIndex = 13709;
+	inline static constexpr unsigned int MazeChestRow_TypeDefinitionIndex = 13857;
 
 	class MazeChestRow : public ::System::Object
 	{
 	public:
 		::Il2CppArray<::RPG::GameCore::ChestType>* ChestType; // 0x10
-		::System::UInt32 ID; // 0x18
-		::System::UInt32 WorldID; // 0x1C
+		::System::UInt32 WorldID; // 0x18
+		::System::UInt32 ID; // 0x1C
 
 		::System::Void _ctor()
 		{

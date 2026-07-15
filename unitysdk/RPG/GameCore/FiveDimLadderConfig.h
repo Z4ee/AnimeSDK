@@ -5,13 +5,13 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_FIVEDIMLADDERCONFIG_METHOD_3_48CE3C2E278825DE_OFFSET UNITYSDK_OFFSET(0x197446D0)
-#define RPG_GAMECORE_FIVEDIMLADDERCONFIG_METHOD_3_661D4B71F557ABAF_OFFSET UNITYSDK_OFFSET(0x19744660)
-#define RPG_GAMECORE_FIVEDIMLADDERCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x197446B0)
+#define RPG_GAMECORE_FIVEDIMLADDERCONFIG_METHOD_3_48CE3C2E278825DE_OFFSET UNITYSDK_OFFSET(0x1BA9CAD0)
+#define RPG_GAMECORE_FIVEDIMLADDERCONFIG_METHOD_3_E1CEDA0225CB7A9D_OFFSET UNITYSDK_OFFSET(0x1BA9CA80)
+#define RPG_GAMECORE_FIVEDIMLADDERCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1BA9CAC0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FiveDimLadderConfig_TypeDefinitionIndex = 17635;
+	inline static constexpr unsigned int FiveDimLadderConfig_TypeDefinitionIndex = 17809;
 
 	class FiveDimLadderConfig : public ::RPG::GameCore::LittleGameComponentConfig
 	{
@@ -24,9 +24,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMLADDERCONFIG__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_661D4B71F557ABAF(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::FiveDimLadderConfig*& a2)
+		static ::System::Void Method_3_E1CEDA0225CB7A9D(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::FiveDimLadderConfig*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::FiveDimLadderConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMLADDERCONFIG_METHOD_3_661D4B71F557ABAF_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::FiveDimLadderConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMLADDERCONFIG_METHOD_3_E1CEDA0225CB7A9D_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_48CE3C2E278825DE(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::FiveDimLadderConfig* a2)

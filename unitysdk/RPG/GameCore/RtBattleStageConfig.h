@@ -14,12 +14,12 @@ namespace RPG::GameCore { class RtBattleStageUnitInfo; }
 namespace RPG::GameCore { class RtBattleWaveMonsterInfo; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_RTBATTLESTAGECONFIG_METHOD_2_B5C198C7BBF5FD09_OFFSET UNITYSDK_OFFSET(0x19BDC730)
-#define RPG_GAMECORE_RTBATTLESTAGECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x19BDCC40)
+#define RPG_GAMECORE_RTBATTLESTAGECONFIG_METHOD_2_B5C198C7BBF5FD09_OFFSET UNITYSDK_OFFSET(0x1BB89600)
+#define RPG_GAMECORE_RTBATTLESTAGECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1BB89B10)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RtBattleStageConfig_TypeDefinitionIndex = 17165;
+	inline static constexpr unsigned int RtBattleStageConfig_TypeDefinitionIndex = 17327;
 
 	class RtBattleStageConfig : public ::RPG::GameCore::JsonConfig
 	{

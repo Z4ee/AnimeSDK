@@ -6,13 +6,13 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class DynamicFloat; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_CALCELEVATORLOOPTIME_METHOD_3_2E0EDE77FC88A78E_OFFSET UNITYSDK_OFFSET(0x195F2560)
-#define RPG_GAMECORE_CALCELEVATORLOOPTIME_METHOD_3_B5C8DD6BE8C89537_OFFSET UNITYSDK_OFFSET(0x195F25E0)
-#define RPG_GAMECORE_CALCELEVATORLOOPTIME__CTOR_OFFSET UNITYSDK_OFFSET(0x195F25B0)
+#define RPG_GAMECORE_CALCELEVATORLOOPTIME_METHOD_3_3C26800F5DB141A6_OFFSET UNITYSDK_OFFSET(0x1B707CE0)
+#define RPG_GAMECORE_CALCELEVATORLOOPTIME_METHOD_3_B5C8DD6BE8C89537_OFFSET UNITYSDK_OFFSET(0x1B707D20)
+#define RPG_GAMECORE_CALCELEVATORLOOPTIME__CTOR_OFFSET UNITYSDK_OFFSET(0x1B707D10)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int CalcElevatorLoopTime_TypeDefinitionIndex = 19356;
+	inline static constexpr unsigned int CalcElevatorLoopTime_TypeDefinitionIndex = 19712;
 
 	class CalcElevatorLoopTime : public ::RPG::GameCore::TaskConfig
 	{
@@ -27,9 +27,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CALCELEVATORLOOPTIME__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_2E0EDE77FC88A78E(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::CalcElevatorLoopTime*& a2)
+		static ::System::Void Method_3_3C26800F5DB141A6(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::CalcElevatorLoopTime*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::CalcElevatorLoopTime*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CALCELEVATORLOOPTIME_METHOD_3_2E0EDE77FC88A78E_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::CalcElevatorLoopTime*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CALCELEVATORLOOPTIME_METHOD_3_3C26800F5DB141A6_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_B5C8DD6BE8C89537(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::CalcElevatorLoopTime* a2)

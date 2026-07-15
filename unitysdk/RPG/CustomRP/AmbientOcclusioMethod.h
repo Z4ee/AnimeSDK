@@ -3,7 +3,7 @@
 
 namespace RPG::CustomRP
 {
-	inline static constexpr unsigned int AmbientOcclusioMethod_TypeDefinitionIndex = 35457;
+	inline static constexpr unsigned int AmbientOcclusioMethod_TypeDefinitionIndex = 36239;
 
 	enum class AmbientOcclusioMethod : ::System::Int32
 	{

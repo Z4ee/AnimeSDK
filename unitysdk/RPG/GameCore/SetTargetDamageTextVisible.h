@@ -6,13 +6,13 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class TargetEvaluator; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_SETTARGETDAMAGETEXTVISIBLE_METHOD_3_454116F7C855C1DC_OFFSET UNITYSDK_OFFSET(0x19C61F10)
-#define RPG_GAMECORE_SETTARGETDAMAGETEXTVISIBLE_METHOD_3_A0B0C009DFBF9895_OFFSET UNITYSDK_OFFSET(0x19C61E90)
-#define RPG_GAMECORE_SETTARGETDAMAGETEXTVISIBLE__CTOR_OFFSET UNITYSDK_OFFSET(0x19C61EE0)
+#define RPG_GAMECORE_SETTARGETDAMAGETEXTVISIBLE_METHOD_3_454116F7C855C1DC_OFFSET UNITYSDK_OFFSET(0x1C60B570)
+#define RPG_GAMECORE_SETTARGETDAMAGETEXTVISIBLE_METHOD_3_4BE3BC9AB6CE0BB9_OFFSET UNITYSDK_OFFSET(0x1C60B530)
+#define RPG_GAMECORE_SETTARGETDAMAGETEXTVISIBLE__CTOR_OFFSET UNITYSDK_OFFSET(0x1C60B560)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SetTargetDamageTextVisible_TypeDefinitionIndex = 21949;
+	inline static constexpr unsigned int SetTargetDamageTextVisible_TypeDefinitionIndex = 22383;
 
 	class SetTargetDamageTextVisible : public ::RPG::GameCore::TaskConfig
 	{
@@ -26,9 +26,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETTARGETDAMAGETEXTVISIBLE__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_A0B0C009DFBF9895(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SetTargetDamageTextVisible*& a2)
+		static ::System::Void Method_3_4BE3BC9AB6CE0BB9(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SetTargetDamageTextVisible*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SetTargetDamageTextVisible*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETTARGETDAMAGETEXTVISIBLE_METHOD_3_A0B0C009DFBF9895_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SetTargetDamageTextVisible*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETTARGETDAMAGETEXTVISIBLE_METHOD_3_4BE3BC9AB6CE0BB9_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_454116F7C855C1DC(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SetTargetDamageTextVisible* a2)

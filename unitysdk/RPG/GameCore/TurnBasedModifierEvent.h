@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TurnBasedModifierEvent_TypeDefinitionIndex = 17334;
+	inline static constexpr unsigned int TurnBasedModifierEvent_TypeDefinitionIndex = 17507;
 
 	enum class TurnBasedModifierEvent : ::System::Int32
 	{
@@ -216,21 +216,25 @@ namespace RPG::GameCore
 		OnListenAfterMagicScepterTrigger = 206,
 		OnVersusBarFever = 207,
 		OnActivityElationPowerChange = 208,
-		CheckParamFlagCallBack = 209,
-		OnUnselectableStart = 210,
-		OnUnselectableEnd = 211,
-		OnDepartedStart = 212,
-		OnDepartedEnd = 213,
-		OnListenDepartedStart = 214,
-		OnListenDepartedEnd = 215,
-		OnForceActionableStart = 216,
-		OnForceActionableEnd = 217,
-		OnBeforeEnergyPointChange = 218,
-		OnEnergyPointChange = 219,
-		OnForceProcessModifierLifeStep = 220,
-		OnListenForceProcessModifierLifeStep = 221,
-		OnShieldModifierConvert = 222,
-		OnModifierTeamBlockChange = 223,
-		Count = 224,
+		OnFateRinDrawCard = 209,
+		OnFateRinBeforeCardPlay = 210,
+		OnFateRinAfterCardPlay = 211,
+		OnFateRinAfterCardGenerate = 212,
+		CheckParamFlagCallBack = 213,
+		OnUnselectableStart = 214,
+		OnUnselectableEnd = 215,
+		OnDepartedStart = 216,
+		OnDepartedEnd = 217,
+		OnListenDepartedStart = 218,
+		OnListenDepartedEnd = 219,
+		OnForceActionableStart = 220,
+		OnForceActionableEnd = 221,
+		OnBeforeEnergyPointChange = 222,
+		OnEnergyPointChange = 223,
+		OnForceProcessModifierLifeStep = 224,
+		OnListenForceProcessModifierLifeStep = 225,
+		OnShieldModifierConvert = 226,
+		OnModifierTeamBlockChange = 227,
+		Count = 228,
 	};
 }

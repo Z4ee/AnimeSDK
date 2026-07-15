@@ -8,12 +8,12 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class ChenLingFesToastConfig; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_CHENLINGFESPROPERTYMODIFIER_METHOD_2_3432DB050A2EA3B4_OFFSET UNITYSDK_OFFSET(0x1962BC40)
-#define RPG_GAMECORE_CHENLINGFESPROPERTYMODIFIER__CTOR_OFFSET UNITYSDK_OFFSET(0x1962BE40)
+#define RPG_GAMECORE_CHENLINGFESPROPERTYMODIFIER_METHOD_2_3432DB050A2EA3B4_OFFSET UNITYSDK_OFFSET(0x1C386150)
+#define RPG_GAMECORE_CHENLINGFESPROPERTYMODIFIER__CTOR_OFFSET UNITYSDK_OFFSET(0x1C386350)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ChenLingFesPropertyModifier_TypeDefinitionIndex = 17545;
+	inline static constexpr unsigned int ChenLingFesPropertyModifier_TypeDefinitionIndex = 17718;
 
 	class ChenLingFesPropertyModifier : public ::RPG::GameCore::JsonConfig
 	{

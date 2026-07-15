@@ -9,13 +9,13 @@ namespace RPG::GameCore { class DynamicFloat; }
 namespace RPG::GameCore { class TargetEvaluator; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_GLOBALTIMESLOW_METHOD_3_27AB12A21EFC43D4_OFFSET UNITYSDK_OFFSET(0x197D1210)
-#define RPG_GAMECORE_GLOBALTIMESLOW_METHOD_3_58A8158E38EBBAFF_OFFSET UNITYSDK_OFFSET(0x197D13C0)
-#define RPG_GAMECORE_GLOBALTIMESLOW__CTOR_OFFSET UNITYSDK_OFFSET(0x197D1300)
+#define RPG_GAMECORE_GLOBALTIMESLOW_METHOD_3_58A8158E38EBBAFF_OFFSET UNITYSDK_OFFSET(0x1C5BD180)
+#define RPG_GAMECORE_GLOBALTIMESLOW_METHOD_3_A8DC0B35F860A4F4_OFFSET UNITYSDK_OFFSET(0x1C5BD000)
+#define RPG_GAMECORE_GLOBALTIMESLOW__CTOR_OFFSET UNITYSDK_OFFSET(0x1C5BD0D0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int GlobalTimeSlow_TypeDefinitionIndex = 19741;
+	inline static constexpr unsigned int GlobalTimeSlow_TypeDefinitionIndex = 20100;
 
 	class GlobalTimeSlow : public ::RPG::GameCore::TaskConfig
 	{
@@ -39,9 +39,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GLOBALTIMESLOW__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_27AB12A21EFC43D4(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::GlobalTimeSlow*& a2)
+		static ::System::Void Method_3_A8DC0B35F860A4F4(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::GlobalTimeSlow*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::GlobalTimeSlow*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GLOBALTIMESLOW_METHOD_3_27AB12A21EFC43D4_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::GlobalTimeSlow*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GLOBALTIMESLOW_METHOD_3_A8DC0B35F860A4F4_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_58A8158E38EBBAFF(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::GlobalTimeSlow* a2)

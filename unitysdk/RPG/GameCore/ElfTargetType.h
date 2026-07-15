@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ElfTargetType_TypeDefinitionIndex = 10021;
+	inline static constexpr unsigned int ElfTargetType_TypeDefinitionIndex = 10036;
 
 	enum class ElfTargetType : ::System::Int32
 	{

@@ -3,7 +3,7 @@
 #include "unitysdk/System/ValueType.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-inline static constexpr unsigned int SWRTAsset_RTMaterial_TypeDefinitionIndex = 35155;
+inline static constexpr unsigned int SWRTAsset_RTMaterial_TypeDefinitionIndex = 35937;
 
 struct alignas(4) SWRTAsset_RTMaterial
 {

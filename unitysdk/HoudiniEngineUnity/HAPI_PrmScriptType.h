@@ -3,7 +3,7 @@
 
 namespace HoudiniEngineUnity
 {
-	inline static constexpr unsigned int HAPI_PrmScriptType_TypeDefinitionIndex = 37493;
+	inline static constexpr unsigned int HAPI_PrmScriptType_TypeDefinitionIndex = 38301;
 
 	enum class HAPI_PrmScriptType : ::System::Int32
 	{

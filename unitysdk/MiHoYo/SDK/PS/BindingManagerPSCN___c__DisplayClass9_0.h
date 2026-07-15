@@ -7,13 +7,13 @@ namespace MiHoYo::SDK::PS { class BindingManagerPSCN; }
 namespace System { class String; }
 namespace System { template <typename T> class Action_1; }
 
-#define MIHOYO_SDK_PS_BINDINGMANAGERPSCN___C__DISPLAYCLASS9_0__CTOR_OFFSET UNITYSDK_OFFSET(0x183A1A50)
-#define MIHOYO_SDK_PS_BINDINGMANAGERPSCN___C__DISPLAYCLASS9_0__GETCAPTCHACODE_B__0_OFFSET UNITYSDK_OFFSET(0x183A1A60)
-#define MIHOYO_SDK_PS_BINDINGMANAGERPSCN___C__DISPLAYCLASS9_0__GETCAPTCHACODE_B__1_OFFSET UNITYSDK_OFFSET(0x183A1C40)
+#define MIHOYO_SDK_PS_BINDINGMANAGERPSCN___C__DISPLAYCLASS9_0__CTOR_OFFSET UNITYSDK_OFFSET(0x19425B10)
+#define MIHOYO_SDK_PS_BINDINGMANAGERPSCN___C__DISPLAYCLASS9_0__GETCAPTCHACODE_B__0_OFFSET UNITYSDK_OFFSET(0x19428DC0)
+#define MIHOYO_SDK_PS_BINDINGMANAGERPSCN___C__DISPLAYCLASS9_0__GETCAPTCHACODE_B__1_OFFSET UNITYSDK_OFFSET(0x19428F90)
 
 namespace MiHoYo::SDK::PS
 {
-	inline static constexpr unsigned int BindingManagerPSCN___c__DisplayClass9_0_TypeDefinitionIndex = 8557;
+	inline static constexpr unsigned int BindingManagerPSCN___c__DisplayClass9_0_TypeDefinitionIndex = 8569;
 
 	class BindingManagerPSCN___c__DisplayClass9_0 : public ::System::Object
 	{

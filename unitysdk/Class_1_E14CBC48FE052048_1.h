@@ -2,19 +2,22 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_1_FF6C010A7514983E;
+class Class_1_945ACFB1FEBC7A2C_18;
+class Class_1_945ACFB1FEBC7A2C_19;
 namespace System { class String; }
 
-#define CLASS_1_E14CBC48FE052048_1__CTOR_OFFSET UNITYSDK_OFFSET(0xAFD1790)
+#define CLASS_1_E14CBC48FE052048_1__CTOR_OFFSET UNITYSDK_OFFSET(0x185FB820)
 
-inline static constexpr unsigned int Class_1_E14CBC48FE052048_1_TypeDefinitionIndex = 60568;
+inline static constexpr unsigned int Class_1_E14CBC48FE052048_1_TypeDefinitionIndex = 47114;
 
 class Class_1_E14CBC48FE052048_1 : public ::System::Object
 {
 public:
-	::Class_1_FF6C010A7514983E* Base; // 0x10
-	::System::String* OpType; // 0x18
-	::System::String* ID; // 0x20
+	::Class_1_945ACFB1FEBC7A2C_19* Prompts; // 0x10
+	::System::String* CreatedAt; // 0x18
+	::Class_1_945ACFB1FEBC7A2C_18* Model; // 0x20
+	::System::String* TaskId; // 0x28
+	::System::String* GeneratedBy; // 0x30
 
 	::System::Void _ctor()
 	{

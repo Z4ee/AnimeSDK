@@ -3,7 +3,7 @@
 
 namespace System::Xml
 {
-	inline static constexpr unsigned int AttributeProperties_TypeDefinitionIndex = 1812;
+	inline static constexpr unsigned int AttributeProperties_TypeDefinitionIndex = 1816;
 
 	enum class AttributeProperties : ::System::UInt32
 	{

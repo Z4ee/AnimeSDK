@@ -9,12 +9,12 @@ namespace RPG::GameCore { class TargetEvaluator; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_RTSUBMODIFIERDATA_METHOD_2_341A2ECD571EE002_OFFSET UNITYSDK_OFFSET(0x19BF2FB0)
-#define RPG_GAMECORE_RTSUBMODIFIERDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x19BF31E0)
+#define RPG_GAMECORE_RTSUBMODIFIERDATA_METHOD_2_341A2ECD571EE002_OFFSET UNITYSDK_OFFSET(0x1B76BB60)
+#define RPG_GAMECORE_RTSUBMODIFIERDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1B76BD90)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RtSubModifierData_TypeDefinitionIndex = 22866;
+	inline static constexpr unsigned int RtSubModifierData_TypeDefinitionIndex = 23333;
 
 	class RtSubModifierData : public ::RPG::GameCore::JsonConfig
 	{

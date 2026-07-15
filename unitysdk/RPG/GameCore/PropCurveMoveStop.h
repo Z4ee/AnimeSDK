@@ -6,13 +6,13 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class DynamicFloat; }
 namespace RPG::GameCore { class TargetEvaluator; }
 
-#define RPG_GAMECORE_PROPCURVEMOVESTOP_METHOD_3_B5E2F259C77E2863_OFFSET UNITYSDK_OFFSET(0x19A8A2E0)
-#define RPG_GAMECORE_PROPCURVEMOVESTOP_METHOD_3_BFE333FCD81AB79B_OFFSET UNITYSDK_OFFSET(0x19A8A3B0)
-#define RPG_GAMECORE_PROPCURVEMOVESTOP__CTOR_OFFSET UNITYSDK_OFFSET(0x19A8A360)
+#define RPG_GAMECORE_PROPCURVEMOVESTOP_METHOD_3_82A339A8160B4088_OFFSET UNITYSDK_OFFSET(0x1BA1DAE0)
+#define RPG_GAMECORE_PROPCURVEMOVESTOP_METHOD_3_BFE333FCD81AB79B_OFFSET UNITYSDK_OFFSET(0x1BA1DB80)
+#define RPG_GAMECORE_PROPCURVEMOVESTOP__CTOR_OFFSET UNITYSDK_OFFSET(0x1BA1DB40)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PropCurveMoveStop_TypeDefinitionIndex = 19860;
+	inline static constexpr unsigned int PropCurveMoveStop_TypeDefinitionIndex = 20224;
 
 	class PropCurveMoveStop : public ::RPG::GameCore::TaskConfig
 	{
@@ -25,9 +25,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PROPCURVEMOVESTOP__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_B5E2F259C77E2863(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::PropCurveMoveStop*& a2)
+		static ::System::Void Method_3_82A339A8160B4088(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::PropCurveMoveStop*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::PropCurveMoveStop*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PROPCURVEMOVESTOP_METHOD_3_B5E2F259C77E2863_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::PropCurveMoveStop*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PROPCURVEMOVESTOP_METHOD_3_82A339A8160B4088_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_BFE333FCD81AB79B(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::PropCurveMoveStop* a2)

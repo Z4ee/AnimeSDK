@@ -11,7 +11,7 @@ namespace System::Collections::Immutable { template <typename T> class SecurePoo
 
 namespace System::Collections::Immutable
 {
-	inline static constexpr unsigned int ImmutableSortedDictionary_2_Enumerator_TypeDefinitionIndex = 7022;
+	inline static constexpr unsigned int ImmutableSortedDictionary_2_Enumerator_TypeDefinitionIndex = 7028;
 
 	template <typename TKey, typename TValue>
 	struct ImmutableSortedDictionary_2_Enumerator

@@ -6,15 +6,15 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class TargetEvaluator; }
 namespace SimpleJSON { class JSONNode; }
 
-#define RPG_GAMECORE_BYISROTATABLETIMEREWINDTARGET_METHOD_4_384F087E24D33F28_OFFSET UNITYSDK_OFFSET(0x1956CCD0)
-#define RPG_GAMECORE_BYISROTATABLETIMEREWINDTARGET_METHOD_4_49657812382DAA58_OFFSET UNITYSDK_OFFSET(0x1956CAD0)
-#define RPG_GAMECORE_BYISROTATABLETIMEREWINDTARGET_METHOD_4_D9242371071330C5_OFFSET UNITYSDK_OFFSET(0x1956CC50)
-#define RPG_GAMECORE_BYISROTATABLETIMEREWINDTARGET_METHOD_4_F0EA30E74198AA76_OFFSET UNITYSDK_OFFSET(0x1956CA00)
-#define RPG_GAMECORE_BYISROTATABLETIMEREWINDTARGET__CTOR_OFFSET UNITYSDK_OFFSET(0x1956CA80)
+#define RPG_GAMECORE_BYISROTATABLETIMEREWINDTARGET_METHOD_4_4641835E77A1AB8D_OFFSET UNITYSDK_OFFSET(0x1B2A3C10)
+#define RPG_GAMECORE_BYISROTATABLETIMEREWINDTARGET_METHOD_4_49657812382DAA58_OFFSET UNITYSDK_OFFSET(0x1B2A3C50)
+#define RPG_GAMECORE_BYISROTATABLETIMEREWINDTARGET_METHOD_4_80BC7A35F1FD49E6_OFFSET UNITYSDK_OFFSET(0x1B2A3E00)
+#define RPG_GAMECORE_BYISROTATABLETIMEREWINDTARGET_METHOD_4_85BC730EC300FD28_OFFSET UNITYSDK_OFFSET(0x1B2A3DD0)
+#define RPG_GAMECORE_BYISROTATABLETIMEREWINDTARGET__CTOR_OFFSET UNITYSDK_OFFSET(0x1B2A3C40)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ByIsRotatableTimeRewindTarget_TypeDefinitionIndex = 19529;
+	inline static constexpr unsigned int ByIsRotatableTimeRewindTarget_TypeDefinitionIndex = 19887;
 
 	class ByIsRotatableTimeRewindTarget : public ::RPG::GameCore::PredicateConfig
 	{
@@ -26,9 +26,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYISROTATABLETIMEREWINDTARGET__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_4_F0EA30E74198AA76(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ByIsRotatableTimeRewindTarget*& a2)
+		static ::System::Void Method_4_4641835E77A1AB8D(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ByIsRotatableTimeRewindTarget*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ByIsRotatableTimeRewindTarget*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYISROTATABLETIMEREWINDTARGET_METHOD_4_F0EA30E74198AA76_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ByIsRotatableTimeRewindTarget*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYISROTATABLETIMEREWINDTARGET_METHOD_4_4641835E77A1AB8D_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_4_49657812382DAA58(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ByIsRotatableTimeRewindTarget* a2)
@@ -36,14 +36,14 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ByIsRotatableTimeRewindTarget*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYISROTATABLETIMEREWINDTARGET_METHOD_4_49657812382DAA58_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_4_D9242371071330C5(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::ByIsRotatableTimeRewindTarget*& a2)
+		static ::System::Void Method_4_85BC730EC300FD28(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::ByIsRotatableTimeRewindTarget*& a2)
 		{
-			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::ByIsRotatableTimeRewindTarget*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYISROTATABLETIMEREWINDTARGET_METHOD_4_D9242371071330C5_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::ByIsRotatableTimeRewindTarget*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYISROTATABLETIMEREWINDTARGET_METHOD_4_85BC730EC300FD28_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_4_384F087E24D33F28(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::ByIsRotatableTimeRewindTarget* a2)
+		static ::System::Void Method_4_80BC7A35F1FD49E6(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::ByIsRotatableTimeRewindTarget* a2)
 		{
-			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::ByIsRotatableTimeRewindTarget*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYISROTATABLETIMEREWINDTARGET_METHOD_4_384F087E24D33F28_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::ByIsRotatableTimeRewindTarget*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYISROTATABLETIMEREWINDTARGET_METHOD_4_80BC7A35F1FD49E6_OFFSET))(a1, a2);
 		}
 	};
 }

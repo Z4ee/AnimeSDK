@@ -5,13 +5,13 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class TargetEvaluator; }
 
-#define RPG_GAMECORE_ADVENTURETRIGGERFASTRUN_METHOD_3_67F9AC3BB36E754D_OFFSET UNITYSDK_OFFSET(0x19455D40)
-#define RPG_GAMECORE_ADVENTURETRIGGERFASTRUN_METHOD_3_EE177D8ABA369561_OFFSET UNITYSDK_OFFSET(0x19455DC0)
-#define RPG_GAMECORE_ADVENTURETRIGGERFASTRUN__CTOR_OFFSET UNITYSDK_OFFSET(0x19455D90)
+#define RPG_GAMECORE_ADVENTURETRIGGERFASTRUN_METHOD_3_30B290A836819ADE_OFFSET UNITYSDK_OFFSET(0x1AE64560)
+#define RPG_GAMECORE_ADVENTURETRIGGERFASTRUN_METHOD_3_EE177D8ABA369561_OFFSET UNITYSDK_OFFSET(0x1AE645A0)
+#define RPG_GAMECORE_ADVENTURETRIGGERFASTRUN__CTOR_OFFSET UNITYSDK_OFFSET(0x1AE64590)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AdventureTriggerFastRun_TypeDefinitionIndex = 19053;
+	inline static constexpr unsigned int AdventureTriggerFastRun_TypeDefinitionIndex = 19406;
 
 	class AdventureTriggerFastRun : public ::RPG::GameCore::TaskConfig
 	{
@@ -24,9 +24,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVENTURETRIGGERFASTRUN__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_67F9AC3BB36E754D(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AdventureTriggerFastRun*& a2)
+		static ::System::Void Method_3_30B290A836819ADE(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AdventureTriggerFastRun*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::AdventureTriggerFastRun*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVENTURETRIGGERFASTRUN_METHOD_3_67F9AC3BB36E754D_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::AdventureTriggerFastRun*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVENTURETRIGGERFASTRUN_METHOD_3_30B290A836819ADE_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_EE177D8ABA369561(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AdventureTriggerFastRun* a2)

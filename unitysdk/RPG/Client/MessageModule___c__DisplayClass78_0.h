@@ -5,12 +5,12 @@
 namespace RPG::Client { class ItemDisplayData; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_MESSAGEMODULE___C__DISPLAYCLASS78_0__CTOR_OFFSET UNITYSDK_OFFSET(0xBFE5710)
-#define RPG_CLIENT_MESSAGEMODULE___C__DISPLAYCLASS78_0___TRYSHOWREWARD_B__0_OFFSET UNITYSDK_OFFSET(0xBFE66A0)
+#define RPG_CLIENT_MESSAGEMODULE___C__DISPLAYCLASS78_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1580E980)
+#define RPG_CLIENT_MESSAGEMODULE___C__DISPLAYCLASS78_0___TRYSHOWREWARD_B__0_OFFSET UNITYSDK_OFFSET(0x1580F780)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MessageModule___c__DisplayClass78_0_TypeDefinitionIndex = 61774;
+	inline static constexpr unsigned int MessageModule___c__DisplayClass78_0_TypeDefinitionIndex = 63136;
 
 	class MessageModule___c__DisplayClass78_0 : public ::System::Object
 	{

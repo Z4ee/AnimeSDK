@@ -5,11 +5,11 @@
 namespace MiHoYo::SDK { class JSONNode; }
 namespace System { class String; }
 
-#define MIHOYO_SDK_JSON_PARSE_OFFSET UNITYSDK_OFFSET(0x183270C0)
+#define MIHOYO_SDK_JSON_PARSE_OFFSET UNITYSDK_OFFSET(0x181CB3C0)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int JSON_TypeDefinitionIndex = 8084;
+	inline static constexpr unsigned int JSON_TypeDefinitionIndex = 8094;
 
 	class JSON : public ::System::Object
 	{

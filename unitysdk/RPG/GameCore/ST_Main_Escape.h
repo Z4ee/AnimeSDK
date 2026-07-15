@@ -4,13 +4,13 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_ST_MAIN_ESCAPE_METHOD_4_AC2712B06C27E2BE_OFFSET UNITYSDK_OFFSET(0x19C02080)
-#define RPG_GAMECORE_ST_MAIN_ESCAPE_METHOD_4_E0080B1904F87FC9_OFFSET UNITYSDK_OFFSET(0x19C18A40)
-#define RPG_GAMECORE_ST_MAIN_ESCAPE__CTOR_OFFSET UNITYSDK_OFFSET(0x19C02000)
+#define RPG_GAMECORE_ST_MAIN_ESCAPE_METHOD_4_1F616BEB314669CA_OFFSET UNITYSDK_OFFSET(0x1B783710)
+#define RPG_GAMECORE_ST_MAIN_ESCAPE_METHOD_4_AC2712B06C27E2BE_OFFSET UNITYSDK_OFFSET(0x1B7837B0)
+#define RPG_GAMECORE_ST_MAIN_ESCAPE__CTOR_OFFSET UNITYSDK_OFFSET(0x1B783770)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ST_Main_Escape_TypeDefinitionIndex = 18984;
+	inline static constexpr unsigned int ST_Main_Escape_TypeDefinitionIndex = 19335;
 
 	class ST_Main_Escape : public ::RPG::GameCore::STTaskConfig
 	{
@@ -29,9 +29,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ST_MAIN_ESCAPE__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_4_E0080B1904F87FC9(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ST_Main_Escape*& a2)
+		static ::System::Void Method_4_1F616BEB314669CA(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ST_Main_Escape*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ST_Main_Escape*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ST_MAIN_ESCAPE_METHOD_4_E0080B1904F87FC9_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ST_Main_Escape*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ST_MAIN_ESCAPE_METHOD_4_1F616BEB314669CA_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_4_AC2712B06C27E2BE(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ST_Main_Escape* a2)

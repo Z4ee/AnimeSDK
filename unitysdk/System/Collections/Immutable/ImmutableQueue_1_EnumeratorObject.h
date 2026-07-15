@@ -7,7 +7,7 @@ namespace System::Collections::Immutable { template <typename T> class Immutable
 
 namespace System::Collections::Immutable
 {
-	inline static constexpr unsigned int ImmutableQueue_1_EnumeratorObject_TypeDefinitionIndex = 7018;
+	inline static constexpr unsigned int ImmutableQueue_1_EnumeratorObject_TypeDefinitionIndex = 7024;
 
 	template <typename T>
 	class ImmutableQueue_1_EnumeratorObject : public ::System::Object

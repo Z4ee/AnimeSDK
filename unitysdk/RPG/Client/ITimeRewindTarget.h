@@ -5,11 +5,11 @@
 #include "unitysdk/RPG/GameCore/TimeRewindState.h"
 #include "unitysdk/RPG/GameCore/TimeRewindView.h"
 
-class Class_1_43BD383C98B4C0C5_123;
+class Class_1_43BD383C98B4C0C5_128;
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ITimeRewindTarget_TypeDefinitionIndex = 56834;
+	inline static constexpr unsigned int ITimeRewindTarget_TypeDefinitionIndex = 58081;
 
 	class ITimeRewindTarget
 	{

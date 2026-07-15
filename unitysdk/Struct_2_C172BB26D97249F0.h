@@ -8,9 +8,9 @@ class Class_1_5F51D4049EA87B7B;
 namespace RPG::GameCore { class GameEntity; }
 namespace RPG::GameCore { class TurnBasedModifierInstance; }
 
-#define STRUCT_2_C172BB26D97249F0_METHOD_2_A9DEEC46A9EA7B23_OFFSET UNITYSDK_OFFSET(0x2BBF360)
+#define STRUCT_2_C172BB26D97249F0_METHOD_2_A9DEEC46A9EA7B23_OFFSET UNITYSDK_OFFSET(0x38FB7B0)
 
-inline static constexpr unsigned int Struct_2_C172BB26D97249F0_TypeDefinitionIndex = 51970;
+inline static constexpr unsigned int Struct_2_C172BB26D97249F0_TypeDefinitionIndex = 53123;
 
 struct alignas(8) Struct_2_C172BB26D97249F0
 {

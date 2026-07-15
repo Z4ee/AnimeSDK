@@ -4,7 +4,7 @@
 
 namespace UnityEngine::PlayerLoop
 {
-	inline static constexpr unsigned int EarlyUpdate_PhysicsResetInterpolatedTransformPosition_TypeDefinitionIndex = 4559;
+	inline static constexpr unsigned int EarlyUpdate_PhysicsResetInterpolatedTransformPosition_TypeDefinitionIndex = 4564;
 
 	struct alignas(1) EarlyUpdate_PhysicsResetInterpolatedTransformPosition
 	{

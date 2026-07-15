@@ -6,13 +6,13 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class DynamicString; }
 namespace RPG::GameCore { class SetFloorCustomValueExtraInfo; }
 
-#define RPG_GAMECORE_SETFLOORCUSTOMSTRING_METHOD_3_0B7DFC4FD24F8ADA_OFFSET UNITYSDK_OFFSET(0x19C4F330)
-#define RPG_GAMECORE_SETFLOORCUSTOMSTRING_METHOD_3_4B096023EAB64A43_OFFSET UNITYSDK_OFFSET(0x19C4F3B0)
-#define RPG_GAMECORE_SETFLOORCUSTOMSTRING__CTOR_OFFSET UNITYSDK_OFFSET(0x19C4F380)
+#define RPG_GAMECORE_SETFLOORCUSTOMSTRING_METHOD_3_188DBBFBD28A6FC2_OFFSET UNITYSDK_OFFSET(0x1C5FA6E0)
+#define RPG_GAMECORE_SETFLOORCUSTOMSTRING_METHOD_3_4B096023EAB64A43_OFFSET UNITYSDK_OFFSET(0x1C5FA720)
+#define RPG_GAMECORE_SETFLOORCUSTOMSTRING__CTOR_OFFSET UNITYSDK_OFFSET(0x1C5FA710)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SetFloorCustomString_TypeDefinitionIndex = 19548;
+	inline static constexpr unsigned int SetFloorCustomString_TypeDefinitionIndex = 19907;
 
 	class SetFloorCustomString : public ::RPG::GameCore::TaskConfig
 	{
@@ -27,9 +27,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETFLOORCUSTOMSTRING__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_0B7DFC4FD24F8ADA(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SetFloorCustomString*& a2)
+		static ::System::Void Method_3_188DBBFBD28A6FC2(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SetFloorCustomString*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SetFloorCustomString*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETFLOORCUSTOMSTRING_METHOD_3_0B7DFC4FD24F8ADA_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SetFloorCustomString*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETFLOORCUSTOMSTRING_METHOD_3_188DBBFBD28A6FC2_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_4B096023EAB64A43(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SetFloorCustomString* a2)

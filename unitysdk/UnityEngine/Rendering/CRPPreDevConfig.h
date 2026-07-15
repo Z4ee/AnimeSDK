@@ -4,7 +4,7 @@
 
 namespace UnityEngine::Rendering
 {
-	inline static constexpr unsigned int CRPPreDevConfig_TypeDefinitionIndex = 4845;
+	inline static constexpr unsigned int CRPPreDevConfig_TypeDefinitionIndex = 4850;
 
 	struct alignas(4) CRPPreDevConfig
 	{

@@ -5,18 +5,18 @@
 namespace System { class String; }
 namespace System { template <typename T> class Action_1; }
 
-#define MIHOYO_SDK_WIN_MIHOYOSDKDLL___C__DISPLAYCLASS47_0__CTOR_OFFSET UNITYSDK_OFFSET(0x18511E70)
-#define MIHOYO_SDK_WIN_MIHOYOSDKDLL___C__DISPLAYCLASS47_0__LOGIN_WILL_ENTER_GAME_B__0_OFFSET UNITYSDK_OFFSET(0x18517450)
+#define MIHOYO_SDK_WIN_MIHOYOSDKDLL___C__DISPLAYCLASS47_0__CTOR_OFFSET UNITYSDK_OFFSET(0x171323B0)
+#define MIHOYO_SDK_WIN_MIHOYOSDKDLL___C__DISPLAYCLASS47_0__LOGIN_WILL_ENTER_GAME_B__0_OFFSET UNITYSDK_OFFSET(0x171323C0)
 
 namespace MiHoYo::SDK::Win
 {
-	inline static constexpr unsigned int MiHoYoSDKDll___c__DisplayClass47_0_TypeDefinitionIndex = 9089;
+	inline static constexpr unsigned int MiHoYoSDKDll___c__DisplayClass47_0_TypeDefinitionIndex = 9101;
 
 	class MiHoYoSDKDll___c__DisplayClass47_0 : public ::System::Object
 	{
 	public:
-		::System::String* jsonString; // 0x10
-		::System::Action_1<::System::String*>* callback; // 0x18
+		::System::Action_1<::System::String*>* callback; // 0x10
+		::System::String* jsonString; // 0x18
 
 		::System::Void _ctor()
 		{

@@ -5,20 +5,20 @@
 
 namespace InControl { class IInControlGetter; }
 
-#define INCONTROL_INCONTROLGETTERUTILS_NAVIGATIONFAILPROCESS_OFFSET UNITYSDK_OFFSET(0x17FAD730)
-#define INCONTROL_INCONTROLGETTERUTILS_PLAYNAVIGATIONAUDIO_OFFSET UNITYSDK_OFFSET(0x17FAD710)
-#define INCONTROL_INCONTROLGETTERUTILS_SETINCONTROLGETTERIMPL_OFFSET UNITYSDK_OFFSET(0x17FAD700)
+#define INCONTROL_INCONTROLGETTERUTILS_NAVIGATIONFAILPROCESS_OFFSET UNITYSDK_OFFSET(0x17333C10)
+#define INCONTROL_INCONTROLGETTERUTILS_PLAYNAVIGATIONAUDIO_OFFSET UNITYSDK_OFFSET(0x17333BF0)
+#define INCONTROL_INCONTROLGETTERUTILS_SETINCONTROLGETTERIMPL_OFFSET UNITYSDK_OFFSET(0x17333BE0)
 
 namespace InControl
 {
-	inline static constexpr unsigned int InControlGetterUtils_TypeDefinitionIndex = 37886;
+	inline static constexpr unsigned int InControlGetterUtils_TypeDefinitionIndex = 38694;
 
 	class InControlGetterUtils : public ::System::Object
 	{
 	public:
 		static ::InControl::IInControlGetter** StaticGet_mGetter()
 		{
-			return (::InControl::IInControlGetter**)Il2CppClass::FromTypeDefinitionIndex(InControlGetterUtils_TypeDefinitionIndex)->GetStaticField(0x11DA0);
+			return (::InControl::IInControlGetter**)Il2CppClass::FromTypeDefinitionIndex(InControlGetterUtils_TypeDefinitionIndex)->GetStaticField(0x1CC70);
 		}
 
 		static ::System::Void SetInControlGetterImpl(::InControl::IInControlGetter* a1)

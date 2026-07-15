@@ -5,7 +5,7 @@
 #include "unitysdk/RPG/GameCore/FiveDimLevelCameraType.h"
 #include "unitysdk/System/ValueType.h"
 
-inline static constexpr unsigned int Struct_2_5C0B0D7675435A20_TypeDefinitionIndex = 39850;
+inline static constexpr unsigned int Struct_2_5C0B0D7675435A20_TypeDefinitionIndex = 40661;
 
 struct alignas(4) Struct_2_5C0B0D7675435A20
 {

@@ -5,24 +5,24 @@
 namespace System { template <typename T> class Comparison_1; }
 namespace UnityEngine::Timeline { class TimelineClip; }
 
-#define RPGTOOLS_TIMELINE_EMOTION_EMODISCUSSIONBLENDSHAPETRACK___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xD0146D0)
-#define RPGTOOLS_TIMELINE_EMOTION_EMODISCUSSIONBLENDSHAPETRACK___C__CREATETRACKMIXER_B__3_0_OFFSET UNITYSDK_OFFSET(0xD014710)
-#define RPGTOOLS_TIMELINE_EMOTION_EMODISCUSSIONBLENDSHAPETRACK___C__CTOR_OFFSET UNITYSDK_OFFSET(0xD014700)
+#define RPGTOOLS_TIMELINE_EMOTION_EMODISCUSSIONBLENDSHAPETRACK___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x19A4C440)
+#define RPGTOOLS_TIMELINE_EMOTION_EMODISCUSSIONBLENDSHAPETRACK___C__CREATETRACKMIXER_B__3_0_OFFSET UNITYSDK_OFFSET(0x19A4C480)
+#define RPGTOOLS_TIMELINE_EMOTION_EMODISCUSSIONBLENDSHAPETRACK___C__CTOR_OFFSET UNITYSDK_OFFSET(0x19A4C470)
 
 namespace RPGTools::Timeline::Emotion
 {
-	inline static constexpr unsigned int EmoDiscussionBlendShapeTrack___c_TypeDefinitionIndex = 46027;
+	inline static constexpr unsigned int EmoDiscussionBlendShapeTrack___c_TypeDefinitionIndex = 46966;
 
 	class EmoDiscussionBlendShapeTrack___c : public ::System::Object
 	{
 	public:
-		static ::RPGTools::Timeline::Emotion::EmoDiscussionBlendShapeTrack___c** StaticGet___9()
-		{
-			return (::RPGTools::Timeline::Emotion::EmoDiscussionBlendShapeTrack___c**)Il2CppClass::FromTypeDefinitionIndex(EmoDiscussionBlendShapeTrack___c_TypeDefinitionIndex)->GetStaticField(0x8BE0);
-		}
 		static ::System::Comparison_1<::UnityEngine::Timeline::TimelineClip*>** StaticGet___9__3_0()
 		{
-			return (::System::Comparison_1<::UnityEngine::Timeline::TimelineClip*>**)Il2CppClass::FromTypeDefinitionIndex(EmoDiscussionBlendShapeTrack___c_TypeDefinitionIndex)->GetStaticField(0x8BE8);
+			return (::System::Comparison_1<::UnityEngine::Timeline::TimelineClip*>**)Il2CppClass::FromTypeDefinitionIndex(EmoDiscussionBlendShapeTrack___c_TypeDefinitionIndex)->GetStaticField(0x6B4F0);
+		}
+		static ::RPGTools::Timeline::Emotion::EmoDiscussionBlendShapeTrack___c** StaticGet___9()
+		{
+			return (::RPGTools::Timeline::Emotion::EmoDiscussionBlendShapeTrack___c**)Il2CppClass::FromTypeDefinitionIndex(EmoDiscussionBlendShapeTrack___c_TypeDefinitionIndex)->GetStaticField(0x6B4F8);
 		}
 
 		static ::System::Void _cctor()

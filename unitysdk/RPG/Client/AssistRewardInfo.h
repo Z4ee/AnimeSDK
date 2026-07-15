@@ -2,20 +2,20 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_1_FBC6D4A7BD3E337F_1;
+class Class_1_E5C370BBC5B5E897_2;
 namespace RPG::Client { class ItemDisplayData; }
 namespace RPG::Client { class SupportData; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_ASSISTREWARDINFO_GET_SUPPORTDATALIST_OFFSET UNITYSDK_OFFSET(0xB32F8A0)
-#define RPG_CLIENT_ASSISTREWARDINFO_GET_TOTALREWARD_OFFSET UNITYSDK_OFFSET(0xB32F8C0)
-#define RPG_CLIENT_ASSISTREWARDINFO_SET_SUPPORTDATALIST_OFFSET UNITYSDK_OFFSET(0xB32F8B0)
-#define RPG_CLIENT_ASSISTREWARDINFO_SET_TOTALREWARD_OFFSET UNITYSDK_OFFSET(0xB32F8D0)
-#define RPG_CLIENT_ASSISTREWARDINFO__CTOR_OFFSET UNITYSDK_OFFSET(0xB32F670)
+#define RPG_CLIENT_ASSISTREWARDINFO_GET_SUPPORTDATALIST_OFFSET UNITYSDK_OFFSET(0x19B347C0)
+#define RPG_CLIENT_ASSISTREWARDINFO_GET_TOTALREWARD_OFFSET UNITYSDK_OFFSET(0x19B347E0)
+#define RPG_CLIENT_ASSISTREWARDINFO_SET_SUPPORTDATALIST_OFFSET UNITYSDK_OFFSET(0x19B347D0)
+#define RPG_CLIENT_ASSISTREWARDINFO_SET_TOTALREWARD_OFFSET UNITYSDK_OFFSET(0x19B347F0)
+#define RPG_CLIENT_ASSISTREWARDINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x19B34590)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int AssistRewardInfo_TypeDefinitionIndex = 60052;
+	inline static constexpr unsigned int AssistRewardInfo_TypeDefinitionIndex = 61337;
 
 	class AssistRewardInfo : public ::System::Object
 	{
@@ -23,9 +23,9 @@ namespace RPG::Client
 		::System::Collections::Generic::List_1<::RPG::Client::SupportData*>* _SupportDataList_k__BackingField; // 0x10
 		::RPG::Client::ItemDisplayData* _TotalReward_k__BackingField; // 0x18
 
-		::System::Void _ctor(::Class_1_FBC6D4A7BD3E337F_1* a1)
+		::System::Void _ctor(::Class_1_E5C370BBC5B5E897_2* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Class_1_FBC6D4A7BD3E337F_1*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ASSISTREWARDINFO__CTOR_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::Class_1_E5C370BBC5B5E897_2*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ASSISTREWARDINFO__CTOR_OFFSET))(this, a1);
 		}
 
 		::System::Collections::Generic::List_1<::RPG::Client::SupportData*>* get_SupportDataList()

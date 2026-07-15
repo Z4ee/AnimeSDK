@@ -8,13 +8,13 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class DynamicFloat; }
 namespace RPG::GameCore { class TargetEvaluator; }
 
-#define RPG_GAMECORE_MODIFYPROPERTY_METHOD_3_16DA8102E3DEABFC_OFFSET UNITYSDK_OFFSET(0x19957270)
-#define RPG_GAMECORE_MODIFYPROPERTY_METHOD_3_EAD8F99F40B27EB4_OFFSET UNITYSDK_OFFSET(0x199571E0)
-#define RPG_GAMECORE_MODIFYPROPERTY__CTOR_OFFSET UNITYSDK_OFFSET(0x19957240)
+#define RPG_GAMECORE_MODIFYPROPERTY_METHOD_3_16DA8102E3DEABFC_OFFSET UNITYSDK_OFFSET(0x1B1AC1C0)
+#define RPG_GAMECORE_MODIFYPROPERTY_METHOD_3_7270BDA9B96AC5CF_OFFSET UNITYSDK_OFFSET(0x1B1AC170)
+#define RPG_GAMECORE_MODIFYPROPERTY__CTOR_OFFSET UNITYSDK_OFFSET(0x1B1AC1B0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ModifyProperty_TypeDefinitionIndex = 22279;
+	inline static constexpr unsigned int ModifyProperty_TypeDefinitionIndex = 22720;
 
 	class ModifyProperty : public ::RPG::GameCore::TaskConfig
 	{
@@ -30,9 +30,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MODIFYPROPERTY__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_EAD8F99F40B27EB4(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ModifyProperty*& a2)
+		static ::System::Void Method_3_7270BDA9B96AC5CF(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ModifyProperty*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ModifyProperty*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MODIFYPROPERTY_METHOD_3_EAD8F99F40B27EB4_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ModifyProperty*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MODIFYPROPERTY_METHOD_3_7270BDA9B96AC5CF_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_16DA8102E3DEABFC(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ModifyProperty* a2)

@@ -5,12 +5,11 @@
 namespace RPG::GameCore { class ShowBattleVersusBarCountDownEffect; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_97BFDE086287EB57_DISPOSE_OFFSET UNITYSDK_OFFSET(0xE4849F0)
-#define CLASS_3_97BFDE086287EB57_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xE484A30)
-#define CLASS_3_97BFDE086287EB57__CTOR_OFFSET UNITYSDK_OFFSET(0xE4849C0)
-#define CLASS_3_97BFDE086287EB57___IFIXBASEPROXY_DISPOSE_OFFSET UNITYSDK_OFFSET(0xE484B40)
+#define CLASS_3_97BFDE086287EB57_DISPOSE_OFFSET UNITYSDK_OFFSET(0x16FB5D20)
+#define CLASS_3_97BFDE086287EB57_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x16FB5D60)
+#define CLASS_3_97BFDE086287EB57__CTOR_OFFSET UNITYSDK_OFFSET(0x16FB5CF0)
 
-inline static constexpr unsigned int Class_3_97BFDE086287EB57_TypeDefinitionIndex = 52703;
+inline static constexpr unsigned int Class_3_97BFDE086287EB57_TypeDefinitionIndex = 53913;
 
 class Class_3_97BFDE086287EB57 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::ShowBattleVersusBarCountDownEffect*>
 {
@@ -28,10 +27,5 @@ public:
 	::System::Void OnTaskBegin()
 	{
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_3_97BFDE086287EB57_ONTASKBEGIN_OFFSET))(this);
-	}
-
-	::System::Void __iFixBaseProxy_Dispose()
-	{
-		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_3_97BFDE086287EB57___IFIXBASEPROXY_DISPOSE_OFFSET))(this);
 	}
 };

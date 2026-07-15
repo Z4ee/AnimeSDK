@@ -6,7 +6,7 @@ namespace System { class String; }
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int MHYSDKC_ConsentBannerLevels_TypeDefinitionIndex = 43630;
+	inline static constexpr unsigned int MHYSDKC_ConsentBannerLevels_TypeDefinitionIndex = 44491;
 
 	class MHYSDKC_ConsentBannerLevels : public ::System::Object
 	{

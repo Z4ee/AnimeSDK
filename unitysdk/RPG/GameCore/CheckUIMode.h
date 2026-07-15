@@ -4,13 +4,13 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_CHECKUIMODE_METHOD_3_3E4FFFB40AB8F23F_OFFSET UNITYSDK_OFFSET(0x19619C00)
-#define RPG_GAMECORE_CHECKUIMODE_METHOD_3_CF8ABD511F196428_OFFSET UNITYSDK_OFFSET(0x19619B80)
-#define RPG_GAMECORE_CHECKUIMODE__CTOR_OFFSET UNITYSDK_OFFSET(0x19619BD0)
+#define RPG_GAMECORE_CHECKUIMODE_METHOD_3_3E4FFFB40AB8F23F_OFFSET UNITYSDK_OFFSET(0x1B72F5B0)
+#define RPG_GAMECORE_CHECKUIMODE_METHOD_3_5A84BB224437F192_OFFSET UNITYSDK_OFFSET(0x1B72F570)
+#define RPG_GAMECORE_CHECKUIMODE__CTOR_OFFSET UNITYSDK_OFFSET(0x1B72F5A0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int CheckUIMode_TypeDefinitionIndex = 23033;
+	inline static constexpr unsigned int CheckUIMode_TypeDefinitionIndex = 23500;
 
 	class CheckUIMode : public ::RPG::GameCore::TaskConfig
 	{
@@ -25,9 +25,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHECKUIMODE__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_CF8ABD511F196428(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::CheckUIMode*& a2)
+		static ::System::Void Method_3_5A84BB224437F192(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::CheckUIMode*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::CheckUIMode*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHECKUIMODE_METHOD_3_CF8ABD511F196428_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::CheckUIMode*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHECKUIMODE_METHOD_3_5A84BB224437F192_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_3E4FFFB40AB8F23F(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::CheckUIMode* a2)

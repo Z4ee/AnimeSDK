@@ -3,11 +3,11 @@
 #include "unitysdk/RPGTools/Timeline/PerformanceLiveStreamBulletCommentsMode.h"
 #include "unitysdk/System/Object.h"
 
-#define RPGTOOLS_TIMELINE_PERFORMANCELIVESTREAMBULLETCONTROLDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xD034710)
+#define RPGTOOLS_TIMELINE_PERFORMANCELIVESTREAMBULLETCONTROLDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x199907D0)
 
 namespace RPGTools::Timeline
 {
-	inline static constexpr unsigned int PerformanceLiveStreamBulletControlData_TypeDefinitionIndex = 45461;
+	inline static constexpr unsigned int PerformanceLiveStreamBulletControlData_TypeDefinitionIndex = 46395;
 
 	class PerformanceLiveStreamBulletControlData : public ::System::Object
 	{

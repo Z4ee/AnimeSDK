@@ -5,24 +5,24 @@
 namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define SUPERSCROLLVIEW_LOOPFLEXIBLEGRIDVIEW___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xD0A8930)
-#define SUPERSCROLLVIEW_LOOPFLEXIBLEGRIDVIEW___C__CTOR_OFFSET UNITYSDK_OFFSET(0xD0A8970)
-#define SUPERSCROLLVIEW_LOOPFLEXIBLEGRIDVIEW___C__SETGRIDITEMS_B__31_0_OFFSET UNITYSDK_OFFSET(0xD0A8980)
+#define SUPERSCROLLVIEW_LOOPFLEXIBLEGRIDVIEW___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x14EDFF30)
+#define SUPERSCROLLVIEW_LOOPFLEXIBLEGRIDVIEW___C__CTOR_OFFSET UNITYSDK_OFFSET(0x14EDFF70)
+#define SUPERSCROLLVIEW_LOOPFLEXIBLEGRIDVIEW___C__SETGRIDITEMS_B__31_0_OFFSET UNITYSDK_OFFSET(0x14EDFF80)
 
 namespace SuperScrollView
 {
-	inline static constexpr unsigned int LoopFlexibleGridView___c_TypeDefinitionIndex = 44935;
+	inline static constexpr unsigned int LoopFlexibleGridView___c_TypeDefinitionIndex = 45853;
 
 	class LoopFlexibleGridView___c : public ::System::Object
 	{
 	public:
-		static ::System::Action_1<::System::Collections::Generic::List_1<::System::Int32>*>** StaticGet___9__31_0()
-		{
-			return (::System::Action_1<::System::Collections::Generic::List_1<::System::Int32>*>**)Il2CppClass::FromTypeDefinitionIndex(LoopFlexibleGridView___c_TypeDefinitionIndex)->GetStaticField(0x10C30);
-		}
 		static ::SuperScrollView::LoopFlexibleGridView___c** StaticGet___9()
 		{
-			return (::SuperScrollView::LoopFlexibleGridView___c**)Il2CppClass::FromTypeDefinitionIndex(LoopFlexibleGridView___c_TypeDefinitionIndex)->GetStaticField(0x10C38);
+			return (::SuperScrollView::LoopFlexibleGridView___c**)Il2CppClass::FromTypeDefinitionIndex(LoopFlexibleGridView___c_TypeDefinitionIndex)->GetStaticField(0x6BBF0);
+		}
+		static ::System::Action_1<::System::Collections::Generic::List_1<::System::Int32>*>** StaticGet___9__31_0()
+		{
+			return (::System::Action_1<::System::Collections::Generic::List_1<::System::Int32>*>**)Il2CppClass::FromTypeDefinitionIndex(LoopFlexibleGridView___c_TypeDefinitionIndex)->GetStaticField(0x6BBF8);
 		}
 
 		static ::System::Void _cctor()

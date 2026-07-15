@@ -4,12 +4,12 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_MONOPOLYSHOPCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x199A48B0)
-#define RPG_GAMECORE_MONOPOLYSHOPCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x199A49C0)
+#define RPG_GAMECORE_MONOPOLYSHOPCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B1C0DA0)
+#define RPG_GAMECORE_MONOPOLYSHOPCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1B1C0EB0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MonopolyShopConfigRow_TypeDefinitionIndex = 11477;
+	inline static constexpr unsigned int MonopolyShopConfigRow_TypeDefinitionIndex = 11577;
 
 	class MonopolyShopConfigRow : public ::System::Object
 	{

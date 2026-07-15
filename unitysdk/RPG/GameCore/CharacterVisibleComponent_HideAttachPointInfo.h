@@ -2,12 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define RPG_GAMECORE_CHARACTERVISIBLECOMPONENT_HIDEATTACHPOINTINFO_CLEAR_OFFSET UNITYSDK_OFFSET(0xCD81C10)
-#define RPG_GAMECORE_CHARACTERVISIBLECOMPONENT_HIDEATTACHPOINTINFO__CTOR_OFFSET UNITYSDK_OFFSET(0xCD81C60)
+#define RPG_GAMECORE_CHARACTERVISIBLECOMPONENT_HIDEATTACHPOINTINFO_CLEAR_OFFSET UNITYSDK_OFFSET(0xFBBEBB0)
+#define RPG_GAMECORE_CHARACTERVISIBLECOMPONENT_HIDEATTACHPOINTINFO__CTOR_OFFSET UNITYSDK_OFFSET(0xFBBEC00)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int CharacterVisibleComponent_HideAttachPointInfo_TypeDefinitionIndex = 53443;
+	inline static constexpr unsigned int CharacterVisibleComponent_HideAttachPointInfo_TypeDefinitionIndex = 54659;
 
 	class CharacterVisibleComponent_HideAttachPointInfo : public ::System::Object
 	{

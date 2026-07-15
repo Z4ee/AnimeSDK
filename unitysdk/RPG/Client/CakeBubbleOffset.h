@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/ValueType.h"
 
-#define RPG_CLIENT_CAKEBUBBLEOFFSET__CTOR_OFFSET UNITYSDK_OFFSET(0x137290)
+#define RPG_CLIENT_CAKEBUBBLEOFFSET__CTOR_OFFSET UNITYSDK_OFFSET(0x39C72C0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int CakeBubbleOffset_TypeDefinitionIndex = 58910;
+	inline static constexpr unsigned int CakeBubbleOffset_TypeDefinitionIndex = 60181;
 
 	struct alignas(4) CakeBubbleOffset
 	{

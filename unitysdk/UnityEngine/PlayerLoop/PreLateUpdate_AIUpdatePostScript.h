@@ -4,7 +4,7 @@
 
 namespace UnityEngine::PlayerLoop
 {
-	inline static constexpr unsigned int PreLateUpdate_AIUpdatePostScript_TypeDefinitionIndex = 4595;
+	inline static constexpr unsigned int PreLateUpdate_AIUpdatePostScript_TypeDefinitionIndex = 4600;
 
 	struct alignas(1) PreLateUpdate_AIUpdatePostScript
 	{

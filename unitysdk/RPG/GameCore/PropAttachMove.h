@@ -8,13 +8,13 @@ namespace RPG::GameCore { class DynamicString; }
 namespace RPG::GameCore { class TargetEvaluator; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_PROPATTACHMOVE_METHOD_3_43F6DDF52C7C3FE6_OFFSET UNITYSDK_OFFSET(0x19A86FA0)
-#define RPG_GAMECORE_PROPATTACHMOVE_METHOD_3_4DA5C41852A726D0_OFFSET UNITYSDK_OFFSET(0x19A870E0)
-#define RPG_GAMECORE_PROPATTACHMOVE__CTOR_OFFSET UNITYSDK_OFFSET(0x19A87050)
+#define RPG_GAMECORE_PROPATTACHMOVE_METHOD_3_4DA5C41852A726D0_OFFSET UNITYSDK_OFFSET(0x1BA1A9F0)
+#define RPG_GAMECORE_PROPATTACHMOVE_METHOD_3_529C23DC0A67CD02_OFFSET UNITYSDK_OFFSET(0x1BA1A970)
+#define RPG_GAMECORE_PROPATTACHMOVE__CTOR_OFFSET UNITYSDK_OFFSET(0x1BA1A9C0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PropAttachMove_TypeDefinitionIndex = 20744;
+	inline static constexpr unsigned int PropAttachMove_TypeDefinitionIndex = 21159;
 
 	class PropAttachMove : public ::RPG::GameCore::TaskConfig
 	{
@@ -31,9 +31,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PROPATTACHMOVE__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_43F6DDF52C7C3FE6(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::PropAttachMove*& a2)
+		static ::System::Void Method_3_529C23DC0A67CD02(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::PropAttachMove*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::PropAttachMove*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PROPATTACHMOVE_METHOD_3_43F6DDF52C7C3FE6_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::PropAttachMove*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PROPATTACHMOVE_METHOD_3_529C23DC0A67CD02_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_4DA5C41852A726D0(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::PropAttachMove* a2)

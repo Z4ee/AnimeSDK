@@ -3,7 +3,7 @@
 
 namespace RPG::Client::LittleGame::FiveDim
 {
-	inline static constexpr unsigned int RIStateSetReason_TypeDefinitionIndex = 39900;
+	inline static constexpr unsigned int RIStateSetReason_TypeDefinitionIndex = 40712;
 
 	enum class RIStateSetReason : ::System::Int32
 	{

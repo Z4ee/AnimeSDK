@@ -5,11 +5,11 @@
 namespace System { class String; }
 namespace UnityEngine { class Renderer; }
 
-#define RPG_CLIENT_MONOEFFECTFRAMECAPTURETEXPLUGIN_MATTEXITEM__CTOR_OFFSET UNITYSDK_OFFSET(0xC08B070)
+#define RPG_CLIENT_MONOEFFECTFRAMECAPTURETEXPLUGIN_MATTEXITEM__CTOR_OFFSET UNITYSDK_OFFSET(0x10CE4D10)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MonoEffectFrameCaptureTexPlugin_MatTexItem_TypeDefinitionIndex = 65476;
+	inline static constexpr unsigned int MonoEffectFrameCaptureTexPlugin_MatTexItem_TypeDefinitionIndex = 66891;
 
 	class MonoEffectFrameCaptureTexPlugin_MatTexItem : public ::System::Object
 	{

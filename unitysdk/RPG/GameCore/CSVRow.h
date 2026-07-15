@@ -12,59 +12,59 @@
 namespace System { class String; }
 namespace System::IO { class TextWriter; }
 
-#define RPG_GAMECORE_CSVROW_CLEAR_OFFSET UNITYSDK_OFFSET(0x195E2760)
-#define RPG_GAMECORE_CSVROW_COL_10_OFFSET UNITYSDK_OFFSET(0x195E1F20)
-#define RPG_GAMECORE_CSVROW_COL_11_OFFSET UNITYSDK_OFFSET(0x195E2060)
-#define RPG_GAMECORE_CSVROW_COL_12_OFFSET UNITYSDK_OFFSET(0x195E21A0)
-#define RPG_GAMECORE_CSVROW_COL_13_OFFSET UNITYSDK_OFFSET(0x195E22E0)
-#define RPG_GAMECORE_CSVROW_COL_1_OFFSET UNITYSDK_OFFSET(0x195E18D0)
-#define RPG_GAMECORE_CSVROW_COL_2_OFFSET UNITYSDK_OFFSET(0x195E1940)
-#define RPG_GAMECORE_CSVROW_COL_3_OFFSET UNITYSDK_OFFSET(0x195E19C0)
-#define RPG_GAMECORE_CSVROW_COL_4_OFFSET UNITYSDK_OFFSET(0x195E1A80)
-#define RPG_GAMECORE_CSVROW_COL_5_OFFSET UNITYSDK_OFFSET(0x195E1B10)
-#define RPG_GAMECORE_CSVROW_COL_6_OFFSET UNITYSDK_OFFSET(0x195E1B90)
-#define RPG_GAMECORE_CSVROW_COL_7_OFFSET UNITYSDK_OFFSET(0x195E1C10)
-#define RPG_GAMECORE_CSVROW_COL_8_OFFSET UNITYSDK_OFFSET(0x195E1CA0)
-#define RPG_GAMECORE_CSVROW_COL_9_OFFSET UNITYSDK_OFFSET(0x195E1DE0)
-#define RPG_GAMECORE_CSVROW_COL_OFFSET UNITYSDK_OFFSET(0x195E1830)
-#define RPG_GAMECORE_CSVROW_TOSTREAMWRITER_OFFSET UNITYSDK_OFFSET(0x195E2630)
-#define RPG_GAMECORE_CSVROW_TOSTRING_OFFSET UNITYSDK_OFFSET(0x195E25D0)
-#define RPG_GAMECORE_CSVROW__CTOR_OFFSET UNITYSDK_OFFSET(0x195E1800)
+#define RPG_GAMECORE_CSVROW_CLEAR_OFFSET UNITYSDK_OFFSET(0x1B2C87B0)
+#define RPG_GAMECORE_CSVROW_COL_10_OFFSET UNITYSDK_OFFSET(0x1B2C7FA0)
+#define RPG_GAMECORE_CSVROW_COL_11_OFFSET UNITYSDK_OFFSET(0x1B2C80B0)
+#define RPG_GAMECORE_CSVROW_COL_12_OFFSET UNITYSDK_OFFSET(0x1B2C81C0)
+#define RPG_GAMECORE_CSVROW_COL_13_OFFSET UNITYSDK_OFFSET(0x1B2C82D0)
+#define RPG_GAMECORE_CSVROW_COL_1_OFFSET UNITYSDK_OFFSET(0x1B2C77C0)
+#define RPG_GAMECORE_CSVROW_COL_2_OFFSET UNITYSDK_OFFSET(0x1B2C7870)
+#define RPG_GAMECORE_CSVROW_COL_3_OFFSET UNITYSDK_OFFSET(0x1B2C7940)
+#define RPG_GAMECORE_CSVROW_COL_4_OFFSET UNITYSDK_OFFSET(0x1B2C7A60)
+#define RPG_GAMECORE_CSVROW_COL_5_OFFSET UNITYSDK_OFFSET(0x1B2C7B30)
+#define RPG_GAMECORE_CSVROW_COL_6_OFFSET UNITYSDK_OFFSET(0x1B2C7BF0)
+#define RPG_GAMECORE_CSVROW_COL_7_OFFSET UNITYSDK_OFFSET(0x1B2C7CB0)
+#define RPG_GAMECORE_CSVROW_COL_8_OFFSET UNITYSDK_OFFSET(0x1B2C7D80)
+#define RPG_GAMECORE_CSVROW_COL_9_OFFSET UNITYSDK_OFFSET(0x1B2C7E90)
+#define RPG_GAMECORE_CSVROW_COL_OFFSET UNITYSDK_OFFSET(0x1B2C7650)
+#define RPG_GAMECORE_CSVROW_TOSTREAMWRITER_OFFSET UNITYSDK_OFFSET(0x1B2C8550)
+#define RPG_GAMECORE_CSVROW_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1B2C84F0)
+#define RPG_GAMECORE_CSVROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1B2C7620)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int CSVRow_TypeDefinitionIndex = 10417;
+	inline static constexpr unsigned int CSVRow_TypeDefinitionIndex = 10467;
 
 	class CSVRow : public ::System::Object
 	{
 	public:
-		static ::Il2CppArray<::System::String*>** StaticGet__attackDamageTypeNames()
+		static ::Il2CppArray<::System::String*>** StaticGet__healFormulaTypeNames()
 		{
-			return (::Il2CppArray<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(CSVRow_TypeDefinitionIndex)->GetStaticField(0xA270);
+			return (::Il2CppArray<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(CSVRow_TypeDefinitionIndex)->GetStaticField(0x28740);
 		}
 		static ::Il2CppArray<::System::String*>** StaticGet__attackTypeNames()
 		{
-			return (::Il2CppArray<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(CSVRow_TypeDefinitionIndex)->GetStaticField(0xA278);
-		}
-		static ::Il2CppArray<::System::String*>** StaticGet__teamTypeNames()
-		{
-			return (::Il2CppArray<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(CSVRow_TypeDefinitionIndex)->GetStaticField(0xA280);
-		}
-		static ::Il2CppArray<::System::Int32>** StaticGet__attackDamageTypeValues()
-		{
-			return (::Il2CppArray<::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(CSVRow_TypeDefinitionIndex)->GetStaticField(0xA288);
+			return (::Il2CppArray<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(CSVRow_TypeDefinitionIndex)->GetStaticField(0x28748);
 		}
 		static ::Il2CppArray<::System::String*>** StaticGet__skillTypeNames()
 		{
-			return (::Il2CppArray<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(CSVRow_TypeDefinitionIndex)->GetStaticField(0xA290);
+			return (::Il2CppArray<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(CSVRow_TypeDefinitionIndex)->GetStaticField(0x28750);
 		}
 		static ::Il2CppArray<::System::String*>** StaticGet__attackFormulaTypeNames()
 		{
-			return (::Il2CppArray<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(CSVRow_TypeDefinitionIndex)->GetStaticField(0xA298);
+			return (::Il2CppArray<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(CSVRow_TypeDefinitionIndex)->GetStaticField(0x28758);
 		}
-		static ::Il2CppArray<::System::String*>** StaticGet__healFormulaTypeNames()
+		static ::Il2CppArray<::System::Int32>** StaticGet__attackDamageTypeValues()
 		{
-			return (::Il2CppArray<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(CSVRow_TypeDefinitionIndex)->GetStaticField(0xA2A0);
+			return (::Il2CppArray<::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(CSVRow_TypeDefinitionIndex)->GetStaticField(0x28760);
+		}
+		static ::Il2CppArray<::System::String*>** StaticGet__attackDamageTypeNames()
+		{
+			return (::Il2CppArray<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(CSVRow_TypeDefinitionIndex)->GetStaticField(0x28768);
+		}
+		static ::Il2CppArray<::System::String*>** StaticGet__teamTypeNames()
+		{
+			return (::Il2CppArray<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(CSVRow_TypeDefinitionIndex)->GetStaticField(0x28770);
 		}
 		::Il2CppArray<::System::String*>* _Headers; // 0x10
 		::Il2CppArray<::System::String*>* _Values; // 0x18

@@ -6,15 +6,14 @@
 
 namespace RPGTools::Timeline { class FloorCustomStringClip; }
 
-#define RPGTOOLS_TIMELINE_FLOORCUSTOMSTRINGBEHAVIOUR_GET_CLIP_OFFSET UNITYSDK_OFFSET(0xD01FE40)
-#define RPGTOOLS_TIMELINE_FLOORCUSTOMSTRINGBEHAVIOUR_ONBEHAVIOURPLAY_OFFSET UNITYSDK_OFFSET(0xD01FE60)
-#define RPGTOOLS_TIMELINE_FLOORCUSTOMSTRINGBEHAVIOUR_SET_CLIP_OFFSET UNITYSDK_OFFSET(0xD01FE50)
-#define RPGTOOLS_TIMELINE_FLOORCUSTOMSTRINGBEHAVIOUR__CTOR_OFFSET UNITYSDK_OFFSET(0xD0200E0)
-#define RPGTOOLS_TIMELINE_FLOORCUSTOMSTRINGBEHAVIOUR___IFIXBASEPROXY_ONBEHAVIOURPLAY_OFFSET UNITYSDK_OFFSET(0xD0200F0)
+#define RPGTOOLS_TIMELINE_FLOORCUSTOMSTRINGBEHAVIOUR_GET_CLIP_OFFSET UNITYSDK_OFFSET(0x19A59A50)
+#define RPGTOOLS_TIMELINE_FLOORCUSTOMSTRINGBEHAVIOUR_ONBEHAVIOURPLAY_OFFSET UNITYSDK_OFFSET(0x19A59A70)
+#define RPGTOOLS_TIMELINE_FLOORCUSTOMSTRINGBEHAVIOUR_SET_CLIP_OFFSET UNITYSDK_OFFSET(0x19A59A60)
+#define RPGTOOLS_TIMELINE_FLOORCUSTOMSTRINGBEHAVIOUR__CTOR_OFFSET UNITYSDK_OFFSET(0x19A59CF0)
 
 namespace RPGTools::Timeline
 {
-	inline static constexpr unsigned int FloorCustomStringBehaviour_TypeDefinitionIndex = 45425;
+	inline static constexpr unsigned int FloorCustomStringBehaviour_TypeDefinitionIndex = 46354;
 
 	class FloorCustomStringBehaviour : public ::UnityEngine::Playables::PlayableBehaviour
 	{
@@ -39,11 +38,6 @@ namespace RPGTools::Timeline
 		::System::Void OnBehaviourPlay(::UnityEngine::Playables::Playable a1, ::UnityEngine::Playables::FrameData a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::UnityEngine::Playables::Playable, ::UnityEngine::Playables::FrameData))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_FLOORCUSTOMSTRINGBEHAVIOUR_ONBEHAVIOURPLAY_OFFSET))(this, a1, a2);
-		}
-
-		::System::Void __iFixBaseProxy_OnBehaviourPlay(::UnityEngine::Playables::Playable a1, ::UnityEngine::Playables::FrameData a2)
-		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Playables::Playable, ::UnityEngine::Playables::FrameData))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_FLOORCUSTOMSTRINGBEHAVIOUR___IFIXBASEPROXY_ONBEHAVIOURPLAY_OFFSET))(this, a1, a2);
 		}
 	};
 }

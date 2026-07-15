@@ -6,7 +6,7 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int IRogueMiracle_TypeDefinitionIndex = 62904;
+	inline static constexpr unsigned int IRogueMiracle_TypeDefinitionIndex = 64271;
 
 	class IRogueMiracle
 	{

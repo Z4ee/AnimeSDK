@@ -4,13 +4,13 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_CLIENT_PLANETFESAVATARMOVETO_METHOD_3_5B19D22B475C30C1_OFFSET UNITYSDK_OFFSET(0x193BBA00)
-#define RPG_CLIENT_PLANETFESAVATARMOVETO_METHOD_3_C6A7ED31A42B57FD_OFFSET UNITYSDK_OFFSET(0x193BBA80)
-#define RPG_CLIENT_PLANETFESAVATARMOVETO__CTOR_OFFSET UNITYSDK_OFFSET(0x193BBA50)
+#define RPG_CLIENT_PLANETFESAVATARMOVETO_METHOD_3_139032C3E1ED3D8A_OFFSET UNITYSDK_OFFSET(0x1B9EE0D0)
+#define RPG_CLIENT_PLANETFESAVATARMOVETO_METHOD_3_C6A7ED31A42B57FD_OFFSET UNITYSDK_OFFSET(0x1B9EE110)
+#define RPG_CLIENT_PLANETFESAVATARMOVETO__CTOR_OFFSET UNITYSDK_OFFSET(0x1B9EE100)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int PlanetFesAvatarMoveTo_TypeDefinitionIndex = 9953;
+	inline static constexpr unsigned int PlanetFesAvatarMoveTo_TypeDefinitionIndex = 9968;
 
 	class PlanetFesAvatarMoveTo : public ::RPG::GameCore::TaskConfig
 	{
@@ -23,9 +23,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PLANETFESAVATARMOVETO__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_5B19D22B475C30C1(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::Client::PlanetFesAvatarMoveTo*& a2)
+		static ::System::Void Method_3_139032C3E1ED3D8A(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::Client::PlanetFesAvatarMoveTo*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::Client::PlanetFesAvatarMoveTo*&))((::PBYTE)hIl2Cpp + RPG_CLIENT_PLANETFESAVATARMOVETO_METHOD_3_5B19D22B475C30C1_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::Client::PlanetFesAvatarMoveTo*&))((::PBYTE)hIl2Cpp + RPG_CLIENT_PLANETFESAVATARMOVETO_METHOD_3_139032C3E1ED3D8A_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_C6A7ED31A42B57FD(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::Client::PlanetFesAvatarMoveTo* a2)

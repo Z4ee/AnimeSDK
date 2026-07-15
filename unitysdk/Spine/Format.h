@@ -3,7 +3,7 @@
 
 namespace Spine
 {
-	inline static constexpr unsigned int Format_TypeDefinitionIndex = 36705;
+	inline static constexpr unsigned int Format_TypeDefinitionIndex = 37487;
 
 	enum class Format : ::System::Int32
 	{

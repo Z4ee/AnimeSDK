@@ -4,21 +4,21 @@
 
 namespace System { class String; }
 
-#define MIHOYO_SDK_LANGUAGEMODEL_LOADFROMJSON_OFFSET UNITYSDK_OFFSET(0x183552B0)
-#define MIHOYO_SDK_LANGUAGEMODEL_REPLACECHAR_OFFSET UNITYSDK_OFFSET(0x1835A5C0)
-#define MIHOYO_SDK_LANGUAGEMODEL__CCTOR_OFFSET UNITYSDK_OFFSET(0x1835A720)
-#define MIHOYO_SDK_LANGUAGEMODEL__CTOR_OFFSET UNITYSDK_OFFSET(0x18356860)
+#define MIHOYO_SDK_LANGUAGEMODEL_LOADFROMJSON_OFFSET UNITYSDK_OFFSET(0x18212000)
+#define MIHOYO_SDK_LANGUAGEMODEL_REPLACECHAR_OFFSET UNITYSDK_OFFSET(0x18217500)
+#define MIHOYO_SDK_LANGUAGEMODEL__CCTOR_OFFSET UNITYSDK_OFFSET(0x18217800)
+#define MIHOYO_SDK_LANGUAGEMODEL__CTOR_OFFSET UNITYSDK_OFFSET(0x18213720)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int LanguageModel_TypeDefinitionIndex = 7832;
+	inline static constexpr unsigned int LanguageModel_TypeDefinitionIndex = 7838;
 
 	class LanguageModel : public ::System::Object
 	{
 	public:
 		static ::MiHoYo::SDK::LanguageModel** StaticGet_Instance()
 		{
-			return (::MiHoYo::SDK::LanguageModel**)Il2CppClass::FromTypeDefinitionIndex(LanguageModel_TypeDefinitionIndex)->GetStaticField(0x5E0);
+			return (::MiHoYo::SDK::LanguageModel**)Il2CppClass::FromTypeDefinitionIndex(LanguageModel_TypeDefinitionIndex)->GetStaticField(0xD730);
 		}
 		::System::String* account_login; // 0x10
 		::System::String* agree; // 0x18
@@ -686,6 +686,15 @@ namespace MiHoYo::SDK
 		::System::String* channel_bind_success_title; // 0x14C8
 		::System::String* channel_bind_binded; // 0x14D0
 		::System::String* channel_bind_success_subtitle_tips; // 0x14D8
+		::System::String* bind_device_title; // 0x14E0
+		::System::String* bind_device_content_first; // 0x14E8
+		::System::String* bind_device_content_second; // 0x14F0
+		::System::String* bind_device_warn_pc; // 0x14F8
+		::System::String* bind_device_confirm_title; // 0x1500
+		::System::String* bind_device_confirm; // 0x1508
+		::System::String* bind_device_limit; // 0x1510
+		::System::String* client_name_pc; // 0x1518
+		::System::String* client_name_cloud_pc; // 0x1520
 
 		::System::Void _ctor()
 		{

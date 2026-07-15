@@ -12,62 +12,62 @@ namespace Google::Protobuf::Reflection { class MessageDescriptor; }
 namespace Proto { class ClientMail; }
 namespace System { class String; }
 
-#define PROTO_GETMAILSCRSP_CALCULATESIZE_OFFSET UNITYSDK_OFFSET(0x1A0EE910)
-#define PROTO_GETMAILSCRSP_CLONE_OFFSET UNITYSDK_OFFSET(0x1A0EE330)
-#define PROTO_GETMAILSCRSP_EQUALS_1_OFFSET UNITYSDK_OFFSET(0x1A0EE430)
-#define PROTO_GETMAILSCRSP_EQUALS_OFFSET UNITYSDK_OFFSET(0x1A0EE400)
-#define PROTO_GETMAILSCRSP_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x1A0EE550)
-#define PROTO_GETMAILSCRSP_GET_ISEND_OFFSET UNITYSDK_OFFSET(0x1A0EE390)
-#define PROTO_GETMAILSCRSP_GET_MAILLIST_OFFSET UNITYSDK_OFFSET(0x1A0EE3D0)
-#define PROTO_GETMAILSCRSP_GET_NOTICEMAILLIST_OFFSET UNITYSDK_OFFSET(0x1A0EE360)
-#define PROTO_GETMAILSCRSP_GET_PARSER_OFFSET UNITYSDK_OFFSET(0x1A0EE1A0)
-#define PROTO_GETMAILSCRSP_GET_RETCODE_OFFSET UNITYSDK_OFFSET(0x1A0EE370)
-#define PROTO_GETMAILSCRSP_GET_START_OFFSET UNITYSDK_OFFSET(0x1A0EE3E0)
-#define PROTO_GETMAILSCRSP_GET_TOTALNUM_OFFSET UNITYSDK_OFFSET(0x1A0EE3B0)
-#define PROTO_GETMAILSCRSP_MERGEFROM_1_OFFSET UNITYSDK_OFFSET(0x1A0EECB0)
-#define PROTO_GETMAILSCRSP_MERGEFROM_OFFSET UNITYSDK_OFFSET(0x1A0EEB90)
-#define PROTO_GETMAILSCRSP_PB__GOOGLE_PROTOBUF_IMESSAGE_GET_DESCRIPTOR_OFFSET UNITYSDK_OFFSET(0x1A0EE1D0)
-#define PROTO_GETMAILSCRSP_SET_ISEND_OFFSET UNITYSDK_OFFSET(0x1A0EE3A0)
-#define PROTO_GETMAILSCRSP_SET_RETCODE_OFFSET UNITYSDK_OFFSET(0x1A0EE380)
-#define PROTO_GETMAILSCRSP_SET_START_OFFSET UNITYSDK_OFFSET(0x1A0EE3F0)
-#define PROTO_GETMAILSCRSP_SET_TOTALNUM_OFFSET UNITYSDK_OFFSET(0x1A0EE3C0)
-#define PROTO_GETMAILSCRSP_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1A0EE6F0)
-#define PROTO_GETMAILSCRSP_WRITETO_OFFSET UNITYSDK_OFFSET(0x1A0EE750)
-#define PROTO_GETMAILSCRSP__CCTOR_OFFSET UNITYSDK_OFFSET(0x1A0EEE00)
-#define PROTO_GETMAILSCRSP__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1A0EE240)
-#define PROTO_GETMAILSCRSP__CTOR_OFFSET UNITYSDK_OFFSET(0x1A0EE1E0)
+#define PROTO_GETMAILSCRSP_CALCULATESIZE_OFFSET UNITYSDK_OFFSET(0x1BF82020)
+#define PROTO_GETMAILSCRSP_CLONE_OFFSET UNITYSDK_OFFSET(0x1BF81AB0)
+#define PROTO_GETMAILSCRSP_EQUALS_1_OFFSET UNITYSDK_OFFSET(0x1BF81BB0)
+#define PROTO_GETMAILSCRSP_EQUALS_OFFSET UNITYSDK_OFFSET(0x1BF81B80)
+#define PROTO_GETMAILSCRSP_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x1BF81C80)
+#define PROTO_GETMAILSCRSP_GET_ISEND_OFFSET UNITYSDK_OFFSET(0x1BF81B60)
+#define PROTO_GETMAILSCRSP_GET_MAILLIST_OFFSET UNITYSDK_OFFSET(0x1BF81B40)
+#define PROTO_GETMAILSCRSP_GET_NOTICEMAILLIST_OFFSET UNITYSDK_OFFSET(0x1BF81B50)
+#define PROTO_GETMAILSCRSP_GET_PARSER_OFFSET UNITYSDK_OFFSET(0x1BF81920)
+#define PROTO_GETMAILSCRSP_GET_RETCODE_OFFSET UNITYSDK_OFFSET(0x1BF81AE0)
+#define PROTO_GETMAILSCRSP_GET_START_OFFSET UNITYSDK_OFFSET(0x1BF81B20)
+#define PROTO_GETMAILSCRSP_GET_TOTALNUM_OFFSET UNITYSDK_OFFSET(0x1BF81B00)
+#define PROTO_GETMAILSCRSP_MERGEFROM_1_OFFSET UNITYSDK_OFFSET(0x1BF82370)
+#define PROTO_GETMAILSCRSP_MERGEFROM_OFFSET UNITYSDK_OFFSET(0x1BF82250)
+#define PROTO_GETMAILSCRSP_PB__GOOGLE_PROTOBUF_IMESSAGE_GET_DESCRIPTOR_OFFSET UNITYSDK_OFFSET(0x1BF81950)
+#define PROTO_GETMAILSCRSP_SET_ISEND_OFFSET UNITYSDK_OFFSET(0x1BF81B70)
+#define PROTO_GETMAILSCRSP_SET_RETCODE_OFFSET UNITYSDK_OFFSET(0x1BF81AF0)
+#define PROTO_GETMAILSCRSP_SET_START_OFFSET UNITYSDK_OFFSET(0x1BF81B30)
+#define PROTO_GETMAILSCRSP_SET_TOTALNUM_OFFSET UNITYSDK_OFFSET(0x1BF81B10)
+#define PROTO_GETMAILSCRSP_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1BF81D20)
+#define PROTO_GETMAILSCRSP_WRITETO_OFFSET UNITYSDK_OFFSET(0x1BF81D80)
+#define PROTO_GETMAILSCRSP__CCTOR_OFFSET UNITYSDK_OFFSET(0x1BF824C0)
+#define PROTO_GETMAILSCRSP__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1BF819C0)
+#define PROTO_GETMAILSCRSP__CTOR_OFFSET UNITYSDK_OFFSET(0x1BF81960)
 
 namespace Proto
 {
-	inline static constexpr unsigned int GetMailScRsp_TypeDefinitionIndex = 28690;
+	inline static constexpr unsigned int GetMailScRsp_TypeDefinitionIndex = 29224;
 
 	class GetMailScRsp : public ::System::Object
 	{
 	public:
-		static ::Google::Protobuf::MessageParser_1<::Proto::GetMailScRsp*>** StaticGet__parser()
-		{
-			return (::Google::Protobuf::MessageParser_1<::Proto::GetMailScRsp*>**)Il2CppClass::FromTypeDefinitionIndex(GetMailScRsp_TypeDefinitionIndex)->GetStaticField(0x43360);
-		}
 		static ::Google::Protobuf::FieldCodec_1<::Proto::ClientMail*>** StaticGet__repeated_noticeMailList_codec()
 		{
-			return (::Google::Protobuf::FieldCodec_1<::Proto::ClientMail*>**)Il2CppClass::FromTypeDefinitionIndex(GetMailScRsp_TypeDefinitionIndex)->GetStaticField(0x43368);
+			return (::Google::Protobuf::FieldCodec_1<::Proto::ClientMail*>**)Il2CppClass::FromTypeDefinitionIndex(GetMailScRsp_TypeDefinitionIndex)->GetStaticField(0x3C800);
+		}
+		static ::Google::Protobuf::MessageParser_1<::Proto::GetMailScRsp*>** StaticGet__parser()
+		{
+			return (::Google::Protobuf::MessageParser_1<::Proto::GetMailScRsp*>**)Il2CppClass::FromTypeDefinitionIndex(GetMailScRsp_TypeDefinitionIndex)->GetStaticField(0x3C808);
 		}
 		static ::Google::Protobuf::FieldCodec_1<::Proto::ClientMail*>** StaticGet__repeated_mailList_codec()
 		{
-			return (::Google::Protobuf::FieldCodec_1<::Proto::ClientMail*>**)Il2CppClass::FromTypeDefinitionIndex(GetMailScRsp_TypeDefinitionIndex)->GetStaticField(0x43370);
+			return (::Google::Protobuf::FieldCodec_1<::Proto::ClientMail*>**)Il2CppClass::FromTypeDefinitionIndex(GetMailScRsp_TypeDefinitionIndex)->GetStaticField(0x3C810);
 		}
-		// static const ::System::Int32 NoticeMailListFieldNumber = 0x9; // 0x0
-		// static const ::System::Int32 RetcodeFieldNumber = 0xB; // 0x0
+		// static const ::System::Int32 RetcodeFieldNumber = 0xA; // 0x0
+		// static const ::System::Int32 TotalNumFieldNumber = 0x3; // 0x0
+		// static const ::System::Int32 StartFieldNumber = 0xB; // 0x0
+		// static const ::System::Int32 MailListFieldNumber = 0x8; // 0x0
+		// static const ::System::Int32 NoticeMailListFieldNumber = 0xC; // 0x0
 		// static const ::System::Int32 IsEndFieldNumber = 0xE; // 0x0
-		// static const ::System::Int32 TotalNumFieldNumber = 0xC; // 0x0
-		// static const ::System::Int32 MailListFieldNumber = 0x3; // 0x0
-		// static const ::System::Int32 StartFieldNumber = 0x8; // 0x0
 		::Google::Protobuf::Collections::RepeatedField_1<::Proto::ClientMail*>* mailList_; // 0x10
-		::Google::Protobuf::UnknownFieldSet* _unknownFields; // 0x18
-		::Google::Protobuf::Collections::RepeatedField_1<::Proto::ClientMail*>* noticeMailList_; // 0x20
-		::System::UInt32 retcode_; // 0x28
-		::System::UInt32 totalNum_; // 0x2C
-		::System::Boolean isEnd_; // 0x30
+		::Google::Protobuf::Collections::RepeatedField_1<::Proto::ClientMail*>* noticeMailList_; // 0x18
+		::Google::Protobuf::UnknownFieldSet* _unknownFields; // 0x20
+		::System::UInt32 totalNum_; // 0x28
+		::System::Boolean isEnd_; // 0x2C
+		::System::UInt32 retcode_; // 0x30
 		::System::UInt32 start_; // 0x34
 
 		::System::Void _ctor()
@@ -100,11 +100,6 @@ namespace Proto
 			return ((::Proto::GetMailScRsp*(*)(::PVOID))((::PBYTE)hIl2Cpp + PROTO_GETMAILSCRSP_CLONE_OFFSET))(this);
 		}
 
-		::Google::Protobuf::Collections::RepeatedField_1<::Proto::ClientMail*>* get_NoticeMailList()
-		{
-			return ((::Google::Protobuf::Collections::RepeatedField_1<::Proto::ClientMail*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + PROTO_GETMAILSCRSP_GET_NOTICEMAILLIST_OFFSET))(this);
-		}
-
 		::System::UInt32 get_Retcode()
 		{
 			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + PROTO_GETMAILSCRSP_GET_RETCODE_OFFSET))(this);
@@ -113,16 +108,6 @@ namespace Proto
 		::System::Void set_Retcode(::System::UInt32 a1)
 		{
 			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + PROTO_GETMAILSCRSP_SET_RETCODE_OFFSET))(this, a1);
-		}
-
-		::System::Boolean get_IsEnd()
-		{
-			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + PROTO_GETMAILSCRSP_GET_ISEND_OFFSET))(this);
-		}
-
-		::System::Void set_IsEnd(::System::Boolean a1)
-		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + PROTO_GETMAILSCRSP_SET_ISEND_OFFSET))(this, a1);
 		}
 
 		::System::UInt32 get_TotalNum()
@@ -135,11 +120,6 @@ namespace Proto
 			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + PROTO_GETMAILSCRSP_SET_TOTALNUM_OFFSET))(this, a1);
 		}
 
-		::Google::Protobuf::Collections::RepeatedField_1<::Proto::ClientMail*>* get_MailList()
-		{
-			return ((::Google::Protobuf::Collections::RepeatedField_1<::Proto::ClientMail*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + PROTO_GETMAILSCRSP_GET_MAILLIST_OFFSET))(this);
-		}
-
 		::System::UInt32 get_Start()
 		{
 			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + PROTO_GETMAILSCRSP_GET_START_OFFSET))(this);
@@ -148,6 +128,26 @@ namespace Proto
 		::System::Void set_Start(::System::UInt32 a1)
 		{
 			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + PROTO_GETMAILSCRSP_SET_START_OFFSET))(this, a1);
+		}
+
+		::Google::Protobuf::Collections::RepeatedField_1<::Proto::ClientMail*>* get_MailList()
+		{
+			return ((::Google::Protobuf::Collections::RepeatedField_1<::Proto::ClientMail*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + PROTO_GETMAILSCRSP_GET_MAILLIST_OFFSET))(this);
+		}
+
+		::Google::Protobuf::Collections::RepeatedField_1<::Proto::ClientMail*>* get_NoticeMailList()
+		{
+			return ((::Google::Protobuf::Collections::RepeatedField_1<::Proto::ClientMail*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + PROTO_GETMAILSCRSP_GET_NOTICEMAILLIST_OFFSET))(this);
+		}
+
+		::System::Boolean get_IsEnd()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + PROTO_GETMAILSCRSP_GET_ISEND_OFFSET))(this);
+		}
+
+		::System::Void set_IsEnd(::System::Boolean a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + PROTO_GETMAILSCRSP_SET_ISEND_OFFSET))(this, a1);
 		}
 
 		::System::Boolean Equals(::System::Object* a1)

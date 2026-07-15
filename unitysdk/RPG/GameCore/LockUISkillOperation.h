@@ -7,13 +7,13 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class TargetEvaluator; }
 
-#define RPG_GAMECORE_LOCKUISKILLOPERATION_METHOD_3_549B19F2B07C5344_OFFSET UNITYSDK_OFFSET(0x198ADB10)
-#define RPG_GAMECORE_LOCKUISKILLOPERATION_METHOD_3_B07B663D17C7BFDD_OFFSET UNITYSDK_OFFSET(0x198ADA90)
-#define RPG_GAMECORE_LOCKUISKILLOPERATION__CTOR_OFFSET UNITYSDK_OFFSET(0x198ADAE0)
+#define RPG_GAMECORE_LOCKUISKILLOPERATION_METHOD_3_549B19F2B07C5344_OFFSET UNITYSDK_OFFSET(0x1BCD09B0)
+#define RPG_GAMECORE_LOCKUISKILLOPERATION_METHOD_3_ED0D36B8003D9A2D_OFFSET UNITYSDK_OFFSET(0x1BCD0960)
+#define RPG_GAMECORE_LOCKUISKILLOPERATION__CTOR_OFFSET UNITYSDK_OFFSET(0x1BCD09A0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LockUISkillOperation_TypeDefinitionIndex = 22326;
+	inline static constexpr unsigned int LockUISkillOperation_TypeDefinitionIndex = 22768;
 
 	class LockUISkillOperation : public ::RPG::GameCore::TaskConfig
 	{
@@ -28,9 +28,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LOCKUISKILLOPERATION__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_B07B663D17C7BFDD(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::LockUISkillOperation*& a2)
+		static ::System::Void Method_3_ED0D36B8003D9A2D(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::LockUISkillOperation*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::LockUISkillOperation*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LOCKUISKILLOPERATION_METHOD_3_B07B663D17C7BFDD_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::LockUISkillOperation*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LOCKUISKILLOPERATION_METHOD_3_ED0D36B8003D9A2D_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_549B19F2B07C5344(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::LockUISkillOperation* a2)

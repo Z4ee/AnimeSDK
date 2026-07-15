@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int CommonEffectMatBlockType_TypeDefinitionIndex = 66071;
+	inline static constexpr unsigned int CommonEffectMatBlockType_TypeDefinitionIndex = 67496;
 
 	enum class CommonEffectMatBlockType : ::System::Int32
 	{

@@ -3,14 +3,14 @@
 #include "unitysdk/RPG/Client/BaseConditionExprTokenParser_1.h"
 #include "unitysdk/RPG/GameCore/PamChatConditionType.h"
 
-class Class_1_47EB23CB5C4B2615_34_Class_1_9A90CD018E72DF20_5;
+class Class_1_47EB23CB5C4B2615_33_Class_1_9A90CD018E72DF20_8;
 namespace System { class String; }
 
-#define CLASS_2_F71231D877170194_METHOD_2_6E57D3559C10FFA9_OFFSET UNITYSDK_OFFSET(0x13560130)
-#define CLASS_2_F71231D877170194__CREATECONDITION_OFFSET UNITYSDK_OFFSET(0x1355FF90)
-#define CLASS_2_F71231D877170194__CTOR_OFFSET UNITYSDK_OFFSET(0x13560180)
+#define CLASS_2_F71231D877170194_METHOD_2_6E57D3559C10FFA9_OFFSET UNITYSDK_OFFSET(0x17E9B590)
+#define CLASS_2_F71231D877170194__CREATECONDITION_OFFSET UNITYSDK_OFFSET(0x17E9B3F0)
+#define CLASS_2_F71231D877170194__CTOR_OFFSET UNITYSDK_OFFSET(0x17E9B5E0)
 
-inline static constexpr unsigned int Class_2_F71231D877170194_TypeDefinitionIndex = 59215;
+inline static constexpr unsigned int Class_2_F71231D877170194_TypeDefinitionIndex = 60486;
 
 class Class_2_F71231D877170194 : public ::RPG::Client::BaseConditionExprTokenParser_1<::RPG::GameCore::PamChatConditionType>
 {
@@ -22,9 +22,9 @@ public:
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_F71231D877170194__CTOR_OFFSET))(this);
 	}
 
-	::Class_1_47EB23CB5C4B2615_34_Class_1_9A90CD018E72DF20_5* _CreateCondition(::RPG::GameCore::PamChatConditionType a1, ::System::String* a2)
+	::Class_1_47EB23CB5C4B2615_33_Class_1_9A90CD018E72DF20_8* _CreateCondition(::RPG::GameCore::PamChatConditionType a1, ::System::String* a2)
 	{
-		return ((::Class_1_47EB23CB5C4B2615_34_Class_1_9A90CD018E72DF20_5*(*)(::PVOID, ::RPG::GameCore::PamChatConditionType, ::System::String*))((::PBYTE)hIl2Cpp + CLASS_2_F71231D877170194__CREATECONDITION_OFFSET))(this, a1, a2);
+		return ((::Class_1_47EB23CB5C4B2615_33_Class_1_9A90CD018E72DF20_8*(*)(::PVOID, ::RPG::GameCore::PamChatConditionType, ::System::String*))((::PBYTE)hIl2Cpp + CLASS_2_F71231D877170194__CREATECONDITION_OFFSET))(this, a1, a2);
 	}
 
 	::System::Void Method_2_6E57D3559C10FFA9(::System::UInt32 a1)

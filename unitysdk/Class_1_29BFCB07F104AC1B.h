@@ -1,0 +1,98 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/RPG/GameCore/FixPoint.h"
+#include "unitysdk/RPG/GameCore/RtAIBehaviorState.h"
+#include "unitysdk/RPG/GameCore/RtAIBehaviorStopReason.h"
+#include "unitysdk/System/Object.h"
+
+class Class_0_16E4307DCC419505_446;
+namespace System { template <typename T> class Action_1; }
+
+#define CLASS_1_29BFCB07F104AC1B_CLEAR_OFFSET UNITYSDK_OFFSET(0x14CFC160)
+#define CLASS_1_29BFCB07F104AC1B_METHOD_1_2450CFC043E97F54_OFFSET UNITYSDK_OFFSET(0x14CFBD80)
+#define CLASS_1_29BFCB07F104AC1B_METHOD_1_31635A45AAD8902B_OFFSET UNITYSDK_OFFSET(0x14CFBEE0)
+#define CLASS_1_29BFCB07F104AC1B_METHOD_1_4343F372F34C05BF_OFFSET UNITYSDK_OFFSET(0x14CFBE80)
+#define CLASS_1_29BFCB07F104AC1B_METHOD_1_6E495183C7C72114_OFFSET UNITYSDK_OFFSET(0x14CFC1B0)
+#define CLASS_1_29BFCB07F104AC1B_METHOD_1_7635645D1D0C7FA2_OFFSET UNITYSDK_OFFSET(0x14CFC390)
+#define CLASS_1_29BFCB07F104AC1B_METHOD_1_97889423B3D78768_OFFSET UNITYSDK_OFFSET(0x14CFC000)
+#define CLASS_1_29BFCB07F104AC1B_METHOD_1_ADB4FBA6E01921AF_OFFSET UNITYSDK_OFFSET(0x14CFC3A0)
+#define CLASS_1_29BFCB07F104AC1B_METHOD_1_CA373AA1C7054598_1_OFFSET UNITYSDK_OFFSET(0x14CFC2C0)
+#define CLASS_1_29BFCB07F104AC1B_METHOD_1_CA373AA1C7054598_2_OFFSET UNITYSDK_OFFSET(0x14CFC300)
+#define CLASS_1_29BFCB07F104AC1B_METHOD_1_CA373AA1C7054598_OFFSET UNITYSDK_OFFSET(0x14CFC280)
+#define CLASS_1_29BFCB07F104AC1B_METHOD_1_EA672F77F1086A27_OFFSET UNITYSDK_OFFSET(0x14CFC340)
+#define CLASS_1_29BFCB07F104AC1B__CTOR_OFFSET UNITYSDK_OFFSET(0x14CFC3B0)
+
+inline static constexpr unsigned int Class_1_29BFCB07F104AC1B_TypeDefinitionIndex = 51622;
+
+class Class_1_29BFCB07F104AC1B : public ::System::Object
+{
+public:
+	::System::Action_1<::Class_0_16E4307DCC419505_446*>* Field_1_0; // 0x10
+	::RPG::GameCore::RtAIBehaviorStopReason Field_1_1; // 0x18
+	::RPG::GameCore::RtAIBehaviorState Field_1_2; // 0x1C
+
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_29BFCB07F104AC1B__CTOR_OFFSET))(this);
+	}
+
+	::System::Void Method_1_2450CFC043E97F54()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_29BFCB07F104AC1B_METHOD_1_2450CFC043E97F54_OFFSET))(this);
+	}
+
+	::System::Void Method_1_31635A45AAD8902B(::RPG::GameCore::RtAIBehaviorStopReason a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::RPG::GameCore::RtAIBehaviorStopReason))((::PBYTE)hIl2Cpp + CLASS_1_29BFCB07F104AC1B_METHOD_1_31635A45AAD8902B_OFFSET))(this, a1);
+	}
+
+	::System::Void Method_1_97889423B3D78768()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_29BFCB07F104AC1B_METHOD_1_97889423B3D78768_OFFSET))(this);
+	}
+
+	::System::Void Clear()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_29BFCB07F104AC1B_CLEAR_OFFSET))(this);
+	}
+
+	::System::Void Method_1_6E495183C7C72114(::RPG::GameCore::FixPoint a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::RPG::GameCore::FixPoint))((::PBYTE)hIl2Cpp + CLASS_1_29BFCB07F104AC1B_METHOD_1_6E495183C7C72114_OFFSET))(this, a1);
+	}
+
+	::System::Void Method_1_CA373AA1C7054598()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_29BFCB07F104AC1B_METHOD_1_CA373AA1C7054598_OFFSET))(this);
+	}
+
+	::System::Void Method_1_CA373AA1C7054598_1()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_29BFCB07F104AC1B_METHOD_1_CA373AA1C7054598_1_OFFSET))(this);
+	}
+
+	::System::Void Method_1_CA373AA1C7054598_2()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_29BFCB07F104AC1B_METHOD_1_CA373AA1C7054598_2_OFFSET))(this);
+	}
+
+	::System::Void Method_1_EA672F77F1086A27(::RPG::GameCore::FixPoint a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::RPG::GameCore::FixPoint))((::PBYTE)hIl2Cpp + CLASS_1_29BFCB07F104AC1B_METHOD_1_EA672F77F1086A27_OFFSET))(this, a1);
+	}
+
+	::System::Void Method_1_4343F372F34C05BF()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_29BFCB07F104AC1B_METHOD_1_4343F372F34C05BF_OFFSET))(this);
+	}
+
+	::RPG::GameCore::RtAIBehaviorState Method_1_7635645D1D0C7FA2()
+	{
+		return ((::RPG::GameCore::RtAIBehaviorState(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_29BFCB07F104AC1B_METHOD_1_7635645D1D0C7FA2_OFFSET))(this);
+	}
+
+	::RPG::GameCore::RtAIBehaviorStopReason Method_1_ADB4FBA6E01921AF()
+	{
+		return ((::RPG::GameCore::RtAIBehaviorStopReason(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_29BFCB07F104AC1B_METHOD_1_ADB4FBA6E01921AF_OFFSET))(this);
+	}
+};

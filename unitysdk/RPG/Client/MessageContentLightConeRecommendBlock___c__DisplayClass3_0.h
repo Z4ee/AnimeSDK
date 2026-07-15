@@ -5,12 +5,12 @@
 namespace RPG::Client { class MessageContentLightConeRecommendBlock; }
 namespace System { template <typename T> class Action_1; }
 
-#define RPG_CLIENT_MESSAGECONTENTLIGHTCONERECOMMENDBLOCK___C__DISPLAYCLASS3_0__CTOR_OFFSET UNITYSDK_OFFSET(0xBFD7700)
-#define RPG_CLIENT_MESSAGECONTENTLIGHTCONERECOMMENDBLOCK___C__DISPLAYCLASS3_0__REQUESTLIGHTCONERECOMMENDDATA_B__0_OFFSET UNITYSDK_OFFSET(0xBFD78A0)
+#define RPG_CLIENT_MESSAGECONTENTLIGHTCONERECOMMENDBLOCK___C__DISPLAYCLASS3_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1AA1ECF0)
+#define RPG_CLIENT_MESSAGECONTENTLIGHTCONERECOMMENDBLOCK___C__DISPLAYCLASS3_0__REQUESTLIGHTCONERECOMMENDDATA_B__0_OFFSET UNITYSDK_OFFSET(0x1AA1EF10)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MessageContentLightConeRecommendBlock___c__DisplayClass3_0_TypeDefinitionIndex = 59197;
+	inline static constexpr unsigned int MessageContentLightConeRecommendBlock___c__DisplayClass3_0_TypeDefinitionIndex = 60468;
 
 	class MessageContentLightConeRecommendBlock___c__DisplayClass3_0 : public ::System::Object
 	{

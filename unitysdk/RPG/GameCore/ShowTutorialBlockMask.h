@@ -5,13 +5,13 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_SHOWTUTORIALBLOCKMASK_METHOD_3_34A1AEF043DDEE76_OFFSET UNITYSDK_OFFSET(0x19C85030)
-#define RPG_GAMECORE_SHOWTUTORIALBLOCKMASK_METHOD_3_D4D541A930AD6525_OFFSET UNITYSDK_OFFSET(0x19C84FA0)
-#define RPG_GAMECORE_SHOWTUTORIALBLOCKMASK__CTOR_OFFSET UNITYSDK_OFFSET(0x19C85000)
+#define RPG_GAMECORE_SHOWTUTORIALBLOCKMASK_METHOD_3_34A1AEF043DDEE76_OFFSET UNITYSDK_OFFSET(0x1BE48920)
+#define RPG_GAMECORE_SHOWTUTORIALBLOCKMASK_METHOD_3_40948BD1837F08F7_OFFSET UNITYSDK_OFFSET(0x1BE488D0)
+#define RPG_GAMECORE_SHOWTUTORIALBLOCKMASK__CTOR_OFFSET UNITYSDK_OFFSET(0x1BE48910)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ShowTutorialBlockMask_TypeDefinitionIndex = 23016;
+	inline static constexpr unsigned int ShowTutorialBlockMask_TypeDefinitionIndex = 23483;
 
 	class ShowTutorialBlockMask : public ::RPG::GameCore::TaskConfig
 	{
@@ -25,9 +25,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SHOWTUTORIALBLOCKMASK__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_D4D541A930AD6525(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ShowTutorialBlockMask*& a2)
+		static ::System::Void Method_3_40948BD1837F08F7(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ShowTutorialBlockMask*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ShowTutorialBlockMask*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SHOWTUTORIALBLOCKMASK_METHOD_3_D4D541A930AD6525_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ShowTutorialBlockMask*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SHOWTUTORIALBLOCKMASK_METHOD_3_40948BD1837F08F7_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_34A1AEF043DDEE76(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ShowTutorialBlockMask* a2)

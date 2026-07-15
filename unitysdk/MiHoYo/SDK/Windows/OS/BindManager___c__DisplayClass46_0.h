@@ -6,20 +6,20 @@ namespace MiHoYo::SDK { class NetworkResponseModelEx; }
 namespace MiHoYo::SDK::Windows::OS { class BindManager; }
 namespace System { template <typename T> class Action_1; }
 
-#define MIHOYO_SDK_WINDOWS_OS_BINDMANAGER___C__DISPLAYCLASS46_0__BINDEMAIL_B__0_OFFSET UNITYSDK_OFFSET(0x182E6A10)
-#define MIHOYO_SDK_WINDOWS_OS_BINDMANAGER___C__DISPLAYCLASS46_0__BINDEMAIL_B__1_OFFSET UNITYSDK_OFFSET(0x182E6CC0)
-#define MIHOYO_SDK_WINDOWS_OS_BINDMANAGER___C__DISPLAYCLASS46_0__CTOR_OFFSET UNITYSDK_OFFSET(0x182E2400)
+#define MIHOYO_SDK_WINDOWS_OS_BINDMANAGER___C__DISPLAYCLASS46_0__BINDEMAIL_B__0_OFFSET UNITYSDK_OFFSET(0x1D1105C0)
+#define MIHOYO_SDK_WINDOWS_OS_BINDMANAGER___C__DISPLAYCLASS46_0__BINDEMAIL_B__1_OFFSET UNITYSDK_OFFSET(0x1D1108D0)
+#define MIHOYO_SDK_WINDOWS_OS_BINDMANAGER___C__DISPLAYCLASS46_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1D10BC30)
 
 namespace MiHoYo::SDK::Windows::OS
 {
-	inline static constexpr unsigned int BindManager___c__DisplayClass46_0_TypeDefinitionIndex = 8296;
+	inline static constexpr unsigned int BindManager___c__DisplayClass46_0_TypeDefinitionIndex = 8308;
 
 	class BindManager___c__DisplayClass46_0 : public ::System::Object
 	{
 	public:
-		::System::Action_1<::MiHoYo::SDK::NetworkResponseModelEx*>* onBindThirdparty; // 0x10
-		::MiHoYo::SDK::Windows::OS::BindManager* __4__this; // 0x18
-		::System::Action_1<::MiHoYo::SDK::NetworkResponseModelEx*>* onCreateActionTicket; // 0x20
+		::MiHoYo::SDK::Windows::OS::BindManager* __4__this; // 0x10
+		::System::Action_1<::MiHoYo::SDK::NetworkResponseModelEx*>* onCreateActionTicket; // 0x18
+		::System::Action_1<::MiHoYo::SDK::NetworkResponseModelEx*>* onBindThirdparty; // 0x20
 		::System::Boolean forceTokenRefresh; // 0x28
 
 		::System::Void _ctor()

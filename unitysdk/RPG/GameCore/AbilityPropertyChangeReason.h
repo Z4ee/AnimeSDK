@@ -4,34 +4,38 @@
 
 namespace System { class String; }
 
-#define RPG_GAMECORE_ABILITYPROPERTYCHANGEREASON__CCTOR_OFFSET UNITYSDK_OFFSET(0xCC7BAE0)
+#define RPG_GAMECORE_ABILITYPROPERTYCHANGEREASON__CCTOR_OFFSET UNITYSDK_OFFSET(0x106CE810)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AbilityPropertyChangeReason_TypeDefinitionIndex = 53949;
+	inline static constexpr unsigned int AbilityPropertyChangeReason_TypeDefinitionIndex = 55157;
 
 	class AbilityPropertyChangeReason : public ::System::Object
 	{
 	public:
+		static ::System::String** StaticGet_SummonInit()
+		{
+			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(AbilityPropertyChangeReason_TypeDefinitionIndex)->GetStaticField(0x29150);
+		}
+		static ::System::String** StaticGet_ByUseSkill()
+		{
+			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(AbilityPropertyChangeReason_TypeDefinitionIndex)->GetStaticField(0x29158);
+		}
 		static ::System::String** StaticGet_SyncProperty()
 		{
-			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(AbilityPropertyChangeReason_TypeDefinitionIndex)->GetStaticField(0x1EB0);
+			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(AbilityPropertyChangeReason_TypeDefinitionIndex)->GetStaticField(0x29160);
 		}
 		static ::System::String** StaticGet_Damage()
 		{
-			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(AbilityPropertyChangeReason_TypeDefinitionIndex)->GetStaticField(0x1EB8);
-		}
-		static ::System::String** StaticGet_SummonInit()
-		{
-			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(AbilityPropertyChangeReason_TypeDefinitionIndex)->GetStaticField(0x1EC0);
-		}
-		static ::System::String** StaticGet_LoseHP()
-		{
-			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(AbilityPropertyChangeReason_TypeDefinitionIndex)->GetStaticField(0x1EC8);
+			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(AbilityPropertyChangeReason_TypeDefinitionIndex)->GetStaticField(0x29168);
 		}
 		static ::System::String** StaticGet_LoseHPByRatio()
 		{
-			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(AbilityPropertyChangeReason_TypeDefinitionIndex)->GetStaticField(0x1ED0);
+			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(AbilityPropertyChangeReason_TypeDefinitionIndex)->GetStaticField(0x29170);
+		}
+		static ::System::String** StaticGet_LoseHP()
+		{
+			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(AbilityPropertyChangeReason_TypeDefinitionIndex)->GetStaticField(0x29178);
 		}
 
 		static ::System::Void _cctor()

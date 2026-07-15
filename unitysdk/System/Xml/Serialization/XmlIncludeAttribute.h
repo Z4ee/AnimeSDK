@@ -4,11 +4,11 @@
 
 namespace System { class Type; }
 
-#define SYSTEM_XML_SERIALIZATION_XMLINCLUDEATTRIBUTE_GET_TYPE_OFFSET UNITYSDK_OFFSET(0x1AE783F0)
+#define SYSTEM_XML_SERIALIZATION_XMLINCLUDEATTRIBUTE_GET_TYPE_OFFSET UNITYSDK_OFFSET(0x19694FC0)
 
 namespace System::Xml::Serialization
 {
-	inline static constexpr unsigned int XmlIncludeAttribute_TypeDefinitionIndex = 2000;
+	inline static constexpr unsigned int XmlIncludeAttribute_TypeDefinitionIndex = 2004;
 
 	class XmlIncludeAttribute : public ::System::Attribute
 	{

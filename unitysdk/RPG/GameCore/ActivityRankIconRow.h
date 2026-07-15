@@ -7,19 +7,19 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_ACTIVITYRANKICONROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x19402550)
-#define RPG_GAMECORE_ACTIVITYRANKICONROW__CTOR_OFFSET UNITYSDK_OFFSET(0x19402BF0)
+#define RPG_GAMECORE_ACTIVITYRANKICONROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1AB0B010)
+#define RPG_GAMECORE_ACTIVITYRANKICONROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1AB0B6B0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ActivityRankIconRow_TypeDefinitionIndex = 10770;
+	inline static constexpr unsigned int ActivityRankIconRow_TypeDefinitionIndex = 10820;
 
 	class ActivityRankIconRow : public ::System::Object
 	{
 	public:
 		::System::String* CommonRankIconPath; // 0x10
-		::RPG::Client::TextID Text; // 0x18
-		::RPG::GameCore::ActivityRank ID; // 0x28
+		::RPG::GameCore::ActivityRank ID; // 0x18
+		::RPG::Client::TextID Text; // 0x20
 
 		::System::Void _ctor()
 		{

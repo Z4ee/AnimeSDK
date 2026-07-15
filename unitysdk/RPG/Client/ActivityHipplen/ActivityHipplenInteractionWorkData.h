@@ -2,13 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/Client/ActivityHipplen/ActivityHipplenWorkData.h"
 
-#define RPG_CLIENT_ACTIVITYHIPPLEN_ACTIVITYHIPPLENINTERACTIONWORKDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xB0D5FC0)
-#define RPG_CLIENT_ACTIVITYHIPPLEN_ACTIVITYHIPPLENINTERACTIONWORKDATA__INITWORKEFFECTS_OFFSET UNITYSDK_OFFSET(0xB0D6040)
-#define RPG_CLIENT_ACTIVITYHIPPLEN_ACTIVITYHIPPLENINTERACTIONWORKDATA___IFIXBASEPROXY__INITWORKEFFECTS_OFFSET UNITYSDK_OFFSET(0xB0D6210)
+#define RPG_CLIENT_ACTIVITYHIPPLEN_ACTIVITYHIPPLENINTERACTIONWORKDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x19BBD530)
+#define RPG_CLIENT_ACTIVITYHIPPLEN_ACTIVITYHIPPLENINTERACTIONWORKDATA__INITWORKEFFECTS_OFFSET UNITYSDK_OFFSET(0x19BBD540)
 
 namespace RPG::Client::ActivityHipplen
 {
-	inline static constexpr unsigned int ActivityHipplenInteractionWorkData_TypeDefinitionIndex = 70484;
+	inline static constexpr unsigned int ActivityHipplenInteractionWorkData_TypeDefinitionIndex = 72007;
 
 	class ActivityHipplenInteractionWorkData : public ::RPG::Client::ActivityHipplen::ActivityHipplenWorkData
 	{
@@ -21,11 +20,6 @@ namespace RPG::Client::ActivityHipplen
 		::System::Void _InitWorkEffects()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYHIPPLEN_ACTIVITYHIPPLENINTERACTIONWORKDATA__INITWORKEFFECTS_OFFSET))(this);
-		}
-
-		::System::Void __iFixBaseProxy__InitWorkEffects()
-		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYHIPPLEN_ACTIVITYHIPPLENINTERACTIONWORKDATA___IFIXBASEPROXY__INITWORKEFFECTS_OFFSET))(this);
 		}
 	};
 }

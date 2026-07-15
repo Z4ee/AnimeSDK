@@ -1,11 +1,10 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/UnityEngine/Vector3.h"
+#include "unitysdk/RPG/Client/LittleGame/FiveDim/PhantomPlayerAssetLoadState.h"
 
-namespace System { class String; }
-namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
+namespace RPG::Client::LittleGame::FiveDim { class PhantomPlayerFrameAsset; }
 
-inline static constexpr unsigned int Class_0_16E4307DCC419505_257_TypeDefinitionIndex = 40217;
+inline static constexpr unsigned int Class_0_16E4307DCC419505_257_TypeDefinitionIndex = 40818;
 
 class Class_0_16E4307DCC419505_257
 {

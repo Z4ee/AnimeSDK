@@ -7,15 +7,13 @@
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine::Timeline { class TimelineClip; }
 
-#define RPGTOOLS_TIMELINE_CHANGESTAGEITEMLOCATIONTRACK_CREATETRACKMIXER_OFFSET UNITYSDK_OFFSET(0xCFEA4F0)
-#define RPGTOOLS_TIMELINE_CHANGESTAGEITEMLOCATIONTRACK_ONCREATECLIP_OFFSET UNITYSDK_OFFSET(0xCFEA5F0)
-#define RPGTOOLS_TIMELINE_CHANGESTAGEITEMLOCATIONTRACK__CTOR_OFFSET UNITYSDK_OFFSET(0xCFEA660)
-#define RPGTOOLS_TIMELINE_CHANGESTAGEITEMLOCATIONTRACK___IFIXBASEPROXY_CREATETRACKMIXER_OFFSET UNITYSDK_OFFSET(0xCFEA740)
-#define RPGTOOLS_TIMELINE_CHANGESTAGEITEMLOCATIONTRACK___IFIXBASEPROXY_ONCREATECLIP_OFFSET UNITYSDK_OFFSET(0xCFEA7E0)
+#define RPGTOOLS_TIMELINE_CHANGESTAGEITEMLOCATIONTRACK_CREATETRACKMIXER_OFFSET UNITYSDK_OFFSET(0x1B3531A0)
+#define RPGTOOLS_TIMELINE_CHANGESTAGEITEMLOCATIONTRACK_ONCREATECLIP_OFFSET UNITYSDK_OFFSET(0x1B3532A0)
+#define RPGTOOLS_TIMELINE_CHANGESTAGEITEMLOCATIONTRACK__CTOR_OFFSET UNITYSDK_OFFSET(0x1B353310)
 
 namespace RPGTools::Timeline
 {
-	inline static constexpr unsigned int ChangeStageItemLocationTrack_TypeDefinitionIndex = 45227;
+	inline static constexpr unsigned int ChangeStageItemLocationTrack_TypeDefinitionIndex = 46151;
 
 	class ChangeStageItemLocationTrack : public ::UnityEngine::Timeline::TrackAsset
 	{
@@ -33,16 +31,6 @@ namespace RPGTools::Timeline
 		::System::Void OnCreateClip(::UnityEngine::Timeline::TimelineClip* a1)
 		{
 			return ((::System::Void(*)(::PVOID, ::UnityEngine::Timeline::TimelineClip*))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_CHANGESTAGEITEMLOCATIONTRACK_ONCREATECLIP_OFFSET))(this, a1);
-		}
-
-		::UnityEngine::Playables::Playable __iFixBaseProxy_CreateTrackMixer(::UnityEngine::Playables::PlayableGraph a1, ::UnityEngine::GameObject* a2, ::System::Int32 a3)
-		{
-			return ((::UnityEngine::Playables::Playable(*)(::PVOID, ::UnityEngine::Playables::PlayableGraph, ::UnityEngine::GameObject*, ::System::Int32))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_CHANGESTAGEITEMLOCATIONTRACK___IFIXBASEPROXY_CREATETRACKMIXER_OFFSET))(this, a1, a2, a3);
-		}
-
-		::System::Void __iFixBaseProxy_OnCreateClip(::UnityEngine::Timeline::TimelineClip* a1)
-		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Timeline::TimelineClip*))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_CHANGESTAGEITEMLOCATIONTRACK___IFIXBASEPROXY_ONCREATECLIP_OFFSET))(this, a1);
 		}
 	};
 }

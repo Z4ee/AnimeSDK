@@ -9,15 +9,15 @@ namespace RPG::GameCore { class DynamicFloat; }
 namespace RPG::GameCore { class TargetEvaluator; }
 namespace SimpleJSON { class JSONNode; }
 
-#define RPG_GAMECORE_BYCOMPAREGRIDFIGHTPROPERTY_METHOD_4_2FFEEE113E10183B_OFFSET UNITYSDK_OFFSET(0x19515EA0)
-#define RPG_GAMECORE_BYCOMPAREGRIDFIGHTPROPERTY_METHOD_4_3F788ABC1C80F9FF_OFFSET UNITYSDK_OFFSET(0x19515AF0)
-#define RPG_GAMECORE_BYCOMPAREGRIDFIGHTPROPERTY_METHOD_4_C3E4BF4EB62431A0_OFFSET UNITYSDK_OFFSET(0x19515F20)
-#define RPG_GAMECORE_BYCOMPAREGRIDFIGHTPROPERTY_METHOD_4_D3508E30CFCFD6C2_OFFSET UNITYSDK_OFFSET(0x19515BC0)
-#define RPG_GAMECORE_BYCOMPAREGRIDFIGHTPROPERTY__CTOR_OFFSET UNITYSDK_OFFSET(0x19515B70)
+#define RPG_GAMECORE_BYCOMPAREGRIDFIGHTPROPERTY_METHOD_4_4228814965FA9B91_OFFSET UNITYSDK_OFFSET(0x19CE7F40)
+#define RPG_GAMECORE_BYCOMPAREGRIDFIGHTPROPERTY_METHOD_4_A388CBC2080234EF_OFFSET UNITYSDK_OFFSET(0x19CE7F10)
+#define RPG_GAMECORE_BYCOMPAREGRIDFIGHTPROPERTY_METHOD_4_D3508E30CFCFD6C2_OFFSET UNITYSDK_OFFSET(0x19CE7C30)
+#define RPG_GAMECORE_BYCOMPAREGRIDFIGHTPROPERTY_METHOD_4_DB9DA606FA821004_OFFSET UNITYSDK_OFFSET(0x19CE7BF0)
+#define RPG_GAMECORE_BYCOMPAREGRIDFIGHTPROPERTY__CTOR_OFFSET UNITYSDK_OFFSET(0x19CE7C20)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ByCompareGridFightProperty_TypeDefinitionIndex = 21301;
+	inline static constexpr unsigned int ByCompareGridFightProperty_TypeDefinitionIndex = 21716;
 
 	class ByCompareGridFightProperty : public ::RPG::GameCore::PredicateConfig
 	{
@@ -33,9 +33,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYCOMPAREGRIDFIGHTPROPERTY__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_4_3F788ABC1C80F9FF(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ByCompareGridFightProperty*& a2)
+		static ::System::Void Method_4_DB9DA606FA821004(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ByCompareGridFightProperty*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ByCompareGridFightProperty*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYCOMPAREGRIDFIGHTPROPERTY_METHOD_4_3F788ABC1C80F9FF_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ByCompareGridFightProperty*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYCOMPAREGRIDFIGHTPROPERTY_METHOD_4_DB9DA606FA821004_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_4_D3508E30CFCFD6C2(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ByCompareGridFightProperty* a2)
@@ -43,14 +43,14 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ByCompareGridFightProperty*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYCOMPAREGRIDFIGHTPROPERTY_METHOD_4_D3508E30CFCFD6C2_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_4_2FFEEE113E10183B(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::ByCompareGridFightProperty*& a2)
+		static ::System::Void Method_4_A388CBC2080234EF(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::ByCompareGridFightProperty*& a2)
 		{
-			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::ByCompareGridFightProperty*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYCOMPAREGRIDFIGHTPROPERTY_METHOD_4_2FFEEE113E10183B_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::ByCompareGridFightProperty*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYCOMPAREGRIDFIGHTPROPERTY_METHOD_4_A388CBC2080234EF_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_4_C3E4BF4EB62431A0(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::ByCompareGridFightProperty* a2)
+		static ::System::Void Method_4_4228814965FA9B91(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::ByCompareGridFightProperty* a2)
 		{
-			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::ByCompareGridFightProperty*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYCOMPAREGRIDFIGHTPROPERTY_METHOD_4_C3E4BF4EB62431A0_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::ByCompareGridFightProperty*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYCOMPAREGRIDFIGHTPROPERTY_METHOD_4_4228814965FA9B91_OFFSET))(a1, a2);
 		}
 	};
 }

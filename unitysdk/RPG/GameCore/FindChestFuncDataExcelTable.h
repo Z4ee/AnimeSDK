@@ -11,45 +11,45 @@ namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Concurrent { template <typename T1, typename T2> class ConcurrentDictionary_2; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_FINDCHESTFUNCDATAEXCELTABLE_GETDATA_OFFSET UNITYSDK_OFFSET(0x197201D0)
-#define RPG_GAMECORE_FINDCHESTFUNCDATAEXCELTABLE_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x19720060)
-#define RPG_GAMECORE_FINDCHESTFUNCDATAEXCELTABLE_GET_DATADICT_OFFSET UNITYSDK_OFFSET(0x1971FD50)
-#define RPG_GAMECORE_FINDCHESTFUNCDATAEXCELTABLE_ISDATAEMPTY_OFFSET UNITYSDK_OFFSET(0x19720000)
-#define RPG_GAMECORE_FINDCHESTFUNCDATAEXCELTABLE_ISDATALOADED_OFFSET UNITYSDK_OFFSET(0x19720360)
-#define RPG_GAMECORE_FINDCHESTFUNCDATAEXCELTABLE_LOADDATA_OFFSET UNITYSDK_OFFSET(0x1971FDD0)
-#define RPG_GAMECORE_FINDCHESTFUNCDATAEXCELTABLE_UNLOADDATA_OFFSET UNITYSDK_OFFSET(0x197203A0)
-#define RPG_GAMECORE_FINDCHESTFUNCDATAEXCELTABLE__ADDITEMFROMBINARY_OFFSET UNITYSDK_OFFSET(0x19720570)
-#define RPG_GAMECORE_FINDCHESTFUNCDATAEXCELTABLE__ADDITEM_OFFSET UNITYSDK_OFFSET(0x19720980)
-#define RPG_GAMECORE_FINDCHESTFUNCDATAEXCELTABLE__CCTOR_OFFSET UNITYSDK_OFFSET(0x19720CF0)
-#define RPG_GAMECORE_FINDCHESTFUNCDATAEXCELTABLE__LOADDATAINCREMENTIAL_OFFSET UNITYSDK_OFFSET(0x197204D0)
-#define RPG_GAMECORE_FINDCHESTFUNCDATAEXCELTABLE__LOADDATA_OFFSET UNITYSDK_OFFSET(0x19720430)
+#define RPG_GAMECORE_FINDCHESTFUNCDATAEXCELTABLE_GETDATA_OFFSET UNITYSDK_OFFSET(0x1BA804B0)
+#define RPG_GAMECORE_FINDCHESTFUNCDATAEXCELTABLE_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x1BA80340)
+#define RPG_GAMECORE_FINDCHESTFUNCDATAEXCELTABLE_GET_DATADICT_OFFSET UNITYSDK_OFFSET(0x1BA80030)
+#define RPG_GAMECORE_FINDCHESTFUNCDATAEXCELTABLE_ISDATAEMPTY_OFFSET UNITYSDK_OFFSET(0x1BA802E0)
+#define RPG_GAMECORE_FINDCHESTFUNCDATAEXCELTABLE_ISDATALOADED_OFFSET UNITYSDK_OFFSET(0x1BA80640)
+#define RPG_GAMECORE_FINDCHESTFUNCDATAEXCELTABLE_LOADDATA_OFFSET UNITYSDK_OFFSET(0x1BA800B0)
+#define RPG_GAMECORE_FINDCHESTFUNCDATAEXCELTABLE_UNLOADDATA_OFFSET UNITYSDK_OFFSET(0x1BA80680)
+#define RPG_GAMECORE_FINDCHESTFUNCDATAEXCELTABLE__ADDITEMFROMBINARY_OFFSET UNITYSDK_OFFSET(0x1BA80850)
+#define RPG_GAMECORE_FINDCHESTFUNCDATAEXCELTABLE__ADDITEM_OFFSET UNITYSDK_OFFSET(0x1BA80C60)
+#define RPG_GAMECORE_FINDCHESTFUNCDATAEXCELTABLE__CCTOR_OFFSET UNITYSDK_OFFSET(0x1BA80FD0)
+#define RPG_GAMECORE_FINDCHESTFUNCDATAEXCELTABLE__LOADDATAINCREMENTIAL_OFFSET UNITYSDK_OFFSET(0x1BA807B0)
+#define RPG_GAMECORE_FINDCHESTFUNCDATAEXCELTABLE__LOADDATA_OFFSET UNITYSDK_OFFSET(0x1BA80710)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FindChestFuncDataExcelTable_TypeDefinitionIndex = 12660;
+	inline static constexpr unsigned int FindChestFuncDataExcelTable_TypeDefinitionIndex = 12797;
 
 	class FindChestFuncDataExcelTable : public ::System::Object
 	{
 	public:
 		static ::System::Action_1<::Class_1_7A22A3DBEEDD1F80*>** StaticGet__AddItemFromBinary_ActionInst()
 		{
-			return (::System::Action_1<::Class_1_7A22A3DBEEDD1F80*>**)Il2CppClass::FromTypeDefinitionIndex(FindChestFuncDataExcelTable_TypeDefinitionIndex)->GetStaticField(0x16FC0);
+			return (::System::Action_1<::Class_1_7A22A3DBEEDD1F80*>**)Il2CppClass::FromTypeDefinitionIndex(FindChestFuncDataExcelTable_TypeDefinitionIndex)->GetStaticField(0x1AD00);
 		}
 		static ::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::FindChestFuncDataRow*>** StaticGet_dataDict_()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::FindChestFuncDataRow*>**)Il2CppClass::FromTypeDefinitionIndex(FindChestFuncDataExcelTable_TypeDefinitionIndex)->GetStaticField(0x16FC8);
+			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::FindChestFuncDataRow*>**)Il2CppClass::FromTypeDefinitionIndex(FindChestFuncDataExcelTable_TypeDefinitionIndex)->GetStaticField(0x1AD08);
 		}
 		static ::Il2CppArray<::System::String*>** StaticGet_s_PathList()
 		{
-			return (::Il2CppArray<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(FindChestFuncDataExcelTable_TypeDefinitionIndex)->GetStaticField(0x16FD0);
+			return (::Il2CppArray<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(FindChestFuncDataExcelTable_TypeDefinitionIndex)->GetStaticField(0x1AD10);
 		}
 		static ::System::Boolean* StaticGet_isDataLoaded()
 		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(FindChestFuncDataExcelTable_TypeDefinitionIndex)->GetStaticField(0x8100);
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(FindChestFuncDataExcelTable_TypeDefinitionIndex)->GetStaticField(0x6300);
 		}
 		static ::System::Byte* StaticGet_HashIndex()
 		{
-			return (::System::Byte*)Il2CppClass::FromTypeDefinitionIndex(FindChestFuncDataExcelTable_TypeDefinitionIndex)->GetStaticField(0x8101);
+			return (::System::Byte*)Il2CppClass::FromTypeDefinitionIndex(FindChestFuncDataExcelTable_TypeDefinitionIndex)->GetStaticField(0x6301);
 		}
 
 		static ::System::Void _cctor()

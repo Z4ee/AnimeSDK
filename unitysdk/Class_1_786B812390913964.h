@@ -9,28 +9,28 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace System::Collections::Generic { template <typename T> class Stack_1; }
 namespace System::Diagnostics { class Stopwatch; }
 
-#define CLASS_1_786B812390913964_METHOD_1_2C95AFAD0256302F_OFFSET UNITYSDK_OFFSET(0x12AC19D0)
-#define CLASS_1_786B812390913964_METHOD_1_652E996B985F5ACB_OFFSET UNITYSDK_OFFSET(0x12AC16E0)
-#define CLASS_1_786B812390913964_METHOD_1_7E0102A7D81125F5_OFFSET UNITYSDK_OFFSET(0x12AC17A0)
-#define CLASS_1_786B812390913964_METHOD_1_AA169839CB93802A_OFFSET UNITYSDK_OFFSET(0x12AC15A0)
-#define CLASS_1_786B812390913964__CCTOR_OFFSET UNITYSDK_OFFSET(0x12AC1B70)
+#define CLASS_1_786B812390913964_METHOD_1_2C95AFAD0256302F_OFFSET UNITYSDK_OFFSET(0x185EB210)
+#define CLASS_1_786B812390913964_METHOD_1_652E996B985F5ACB_OFFSET UNITYSDK_OFFSET(0x185EAF20)
+#define CLASS_1_786B812390913964_METHOD_1_7E0102A7D81125F5_OFFSET UNITYSDK_OFFSET(0x185EAFE0)
+#define CLASS_1_786B812390913964_METHOD_1_AA169839CB93802A_OFFSET UNITYSDK_OFFSET(0x185EADE0)
+#define CLASS_1_786B812390913964__CCTOR_OFFSET UNITYSDK_OFFSET(0x185EB3B0)
 
-inline static constexpr unsigned int Class_1_786B812390913964_TypeDefinitionIndex = 46868;
+inline static constexpr unsigned int Class_1_786B812390913964_TypeDefinitionIndex = 47833;
 
 class Class_1_786B812390913964 : public ::System::Object
 {
 public:
-	static ::System::Collections::Generic::Stack_1<::System::Diagnostics::Stopwatch*>** StaticGet_Field_1_0()
+	static ::System::Collections::Generic::List_1<::System::ValueTuple_2<::System::String*, ::System::Int64>>** StaticGet_Field_1_0()
 	{
-		return (::System::Collections::Generic::Stack_1<::System::Diagnostics::Stopwatch*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_786B812390913964_TypeDefinitionIndex)->GetStaticField(0x2B640);
+		return (::System::Collections::Generic::List_1<::System::ValueTuple_2<::System::String*, ::System::Int64>>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_786B812390913964_TypeDefinitionIndex)->GetStaticField(0x2FF30);
 	}
-	static ::System::Collections::Generic::List_1<::System::ValueTuple_2<::System::String*, ::System::Int64>>** StaticGet_Field_1_1()
+	static ::System::Collections::Generic::Stack_1<::System::Diagnostics::Stopwatch*>** StaticGet_Field_1_1()
 	{
-		return (::System::Collections::Generic::List_1<::System::ValueTuple_2<::System::String*, ::System::Int64>>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_786B812390913964_TypeDefinitionIndex)->GetStaticField(0x2B648);
+		return (::System::Collections::Generic::Stack_1<::System::Diagnostics::Stopwatch*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_786B812390913964_TypeDefinitionIndex)->GetStaticField(0x2FF38);
 	}
 	static ::System::Collections::Generic::Stack_1<::System::String*>** StaticGet_Field_1_2()
 	{
-		return (::System::Collections::Generic::Stack_1<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_786B812390913964_TypeDefinitionIndex)->GetStaticField(0x2B650);
+		return (::System::Collections::Generic::Stack_1<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_786B812390913964_TypeDefinitionIndex)->GetStaticField(0x2FF40);
 	}
 
 	static ::System::Void _cctor()

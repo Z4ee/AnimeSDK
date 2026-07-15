@@ -8,7 +8,7 @@ namespace MessagePack { class MessagePackSerializerOptions; }
 
 namespace MessagePack::Formatters
 {
-	inline static constexpr unsigned int NonGenericDictionaryFormatter_1_TypeDefinitionIndex = 7358;
+	inline static constexpr unsigned int NonGenericDictionaryFormatter_1_TypeDefinitionIndex = 7364;
 
 	template <typename T>
 	class NonGenericDictionaryFormatter_1 : public ::System::Object

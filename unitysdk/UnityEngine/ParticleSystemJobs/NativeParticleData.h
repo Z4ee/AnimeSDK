@@ -6,7 +6,7 @@
 
 namespace UnityEngine::ParticleSystemJobs
 {
-	inline static constexpr unsigned int NativeParticleData_TypeDefinitionIndex = 5796;
+	inline static constexpr unsigned int NativeParticleData_TypeDefinitionIndex = 5801;
 
 	struct alignas(8) NativeParticleData
 	{

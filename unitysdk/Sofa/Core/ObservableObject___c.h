@@ -6,24 +6,24 @@ namespace System { class String; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 namespace System::ComponentModel { class PropertyChangedEventArgs; }
 
-#define SOFA_CORE_OBSERVABLEOBJECT___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1AC43BD0)
-#define SOFA_CORE_OBSERVABLEOBJECT___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1AC43C10)
-#define SOFA_CORE_OBSERVABLEOBJECT___C___GETPROPERTYCHANGEDEVENTARGS_B__5_0_OFFSET UNITYSDK_OFFSET(0x1AC43C20)
+#define SOFA_CORE_OBSERVABLEOBJECT___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1D0F7440)
+#define SOFA_CORE_OBSERVABLEOBJECT___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1D0F7480)
+#define SOFA_CORE_OBSERVABLEOBJECT___C___GETPROPERTYCHANGEDEVENTARGS_B__5_0_OFFSET UNITYSDK_OFFSET(0x1D0F7490)
 
 namespace Sofa::Core
 {
-	inline static constexpr unsigned int ObservableObject___c_TypeDefinitionIndex = 40642;
+	inline static constexpr unsigned int ObservableObject___c_TypeDefinitionIndex = 41457;
 
 	class ObservableObject___c : public ::System::Object
 	{
 	public:
-		static ::System::Func_2<::System::String*, ::System::ComponentModel::PropertyChangedEventArgs*>** StaticGet___9__5_0()
-		{
-			return (::System::Func_2<::System::String*, ::System::ComponentModel::PropertyChangedEventArgs*>**)Il2CppClass::FromTypeDefinitionIndex(ObservableObject___c_TypeDefinitionIndex)->GetStaticField(0x50E50);
-		}
 		static ::Sofa::Core::ObservableObject___c** StaticGet___9()
 		{
-			return (::Sofa::Core::ObservableObject___c**)Il2CppClass::FromTypeDefinitionIndex(ObservableObject___c_TypeDefinitionIndex)->GetStaticField(0x50E58);
+			return (::Sofa::Core::ObservableObject___c**)Il2CppClass::FromTypeDefinitionIndex(ObservableObject___c_TypeDefinitionIndex)->GetStaticField(0x4E770);
+		}
+		static ::System::Func_2<::System::String*, ::System::ComponentModel::PropertyChangedEventArgs*>** StaticGet___9__5_0()
+		{
+			return (::System::Func_2<::System::String*, ::System::ComponentModel::PropertyChangedEventArgs*>**)Il2CppClass::FromTypeDefinitionIndex(ObservableObject___c_TypeDefinitionIndex)->GetStaticField(0x4E778);
 		}
 
 		static ::System::Void _cctor()

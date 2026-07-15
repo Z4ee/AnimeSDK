@@ -5,16 +5,17 @@
 
 class Class_1_201314D6C7A93CDF;
 class Class_1_78B03B04E15725BC;
+class Class_1_C77BD78243DB7402;
 class Class_1_EB885E2A2E8CAF8E;
 namespace RPG::GameCore { class VCameraFreelook3rdConfig; }
 
-#define RPG_CLIENT_CAMERAFREELOOK3RDCONFIGDATA_DISPOSE_OFFSET UNITYSDK_OFFSET(0xB4BACC0)
-#define RPG_CLIENT_CAMERAFREELOOK3RDCONFIGDATA_METHOD_1_950F1A2A17A751A2_OFFSET UNITYSDK_OFFSET(0xB4BAE70)
-#define RPG_CLIENT_CAMERAFREELOOK3RDCONFIGDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xB4B6B80)
+#define RPG_CLIENT_CAMERAFREELOOK3RDCONFIGDATA_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1AC59F50)
+#define RPG_CLIENT_CAMERAFREELOOK3RDCONFIGDATA_METHOD_1_950F1A2A17A751A2_OFFSET UNITYSDK_OFFSET(0x1AC5A110)
+#define RPG_CLIENT_CAMERAFREELOOK3RDCONFIGDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1AC55AC0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int CameraFreelook3rdConfigData_TypeDefinitionIndex = 65035;
+	inline static constexpr unsigned int CameraFreelook3rdConfigData_TypeDefinitionIndex = 66440;
 
 	class CameraFreelook3rdConfigData : public ::System::Object
 	{
@@ -23,11 +24,12 @@ namespace RPG::Client
 		::Class_1_EB885E2A2E8CAF8E* FOVChangeData; // 0x18
 		::Class_1_EB885E2A2E8CAF8E* ZoomChangeData; // 0x20
 		::Class_1_EB885E2A2E8CAF8E* AxisYChangeData; // 0x28
-		::Class_1_201314D6C7A93CDF* LookAtOffsetChangeData; // 0x30
-		::Class_1_201314D6C7A93CDF* FollowDampChangeData; // 0x38
-		::Class_1_201314D6C7A93CDF* LookAtDampChangeData; // 0x40
-		::System::UInt32 DampPriority; // 0x48
-		::RPG::GameCore::VCameraFreelook3rdConfig* Config; // 0x50
+		::Class_1_C77BD78243DB7402* ExtraParamsChangeData; // 0x30
+		::Class_1_201314D6C7A93CDF* LookAtOffsetChangeData; // 0x38
+		::Class_1_201314D6C7A93CDF* FollowDampChangeData; // 0x40
+		::Class_1_201314D6C7A93CDF* LookAtDampChangeData; // 0x48
+		::System::UInt32 DampPriority; // 0x50
+		::RPG::GameCore::VCameraFreelook3rdConfig* Config; // 0x58
 
 		::System::Void _ctor(::RPG::GameCore::VCameraFreelook3rdConfig* a1, ::UnityEngine::Vector3 a2)
 		{

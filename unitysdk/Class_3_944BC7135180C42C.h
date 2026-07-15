@@ -1,0 +1,33 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/RPG/GameCore/TaskConfig.h"
+
+class Class_1_7A22A3DBEEDD1F80;
+namespace RPG::GameCore { class FateRinCaseBoardMoveBaseInfo; }
+
+#define CLASS_3_944BC7135180C42C_METHOD_3_79D2339C9987D6C4_OFFSET UNITYSDK_OFFSET(0x1B81D930)
+#define CLASS_3_944BC7135180C42C_METHOD_3_9EA7A67A8BC52A5F_OFFSET UNITYSDK_OFFSET(0x1B81D970)
+#define CLASS_3_944BC7135180C42C__CTOR_OFFSET UNITYSDK_OFFSET(0x1B81D960)
+
+inline static constexpr unsigned int Class_3_944BC7135180C42C_TypeDefinitionIndex = 19152;
+
+class Class_3_944BC7135180C42C : public ::RPG::GameCore::TaskConfig
+{
+public:
+	::RPG::GameCore::FateRinCaseBoardMoveBaseInfo* Field_3_0; // 0x18
+
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_3_944BC7135180C42C__CTOR_OFFSET))(this);
+	}
+
+	static ::System::Void Method_3_79D2339C9987D6C4(::Class_1_7A22A3DBEEDD1F80* a1, ::Class_3_944BC7135180C42C*& a2)
+	{
+		return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::Class_3_944BC7135180C42C*&))((::PBYTE)hIl2Cpp + CLASS_3_944BC7135180C42C_METHOD_3_79D2339C9987D6C4_OFFSET))(a1, a2);
+	}
+
+	static ::System::Void Method_3_9EA7A67A8BC52A5F(::Class_1_7A22A3DBEEDD1F80* a1, ::Class_3_944BC7135180C42C* a2)
+	{
+		return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::Class_3_944BC7135180C42C*))((::PBYTE)hIl2Cpp + CLASS_3_944BC7135180C42C_METHOD_3_9EA7A67A8BC52A5F_OFFSET))(a1, a2);
+	}
+};

@@ -3,11 +3,11 @@
 #include "unitysdk/RPG/CustomRP/ScreenColorCopySettingsData_CopyTypes.h"
 #include "unitysdk/System/Object.h"
 
-#define RPG_CUSTOMRP_SCREENCOLORCOPYSETTINGSDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x18F23920)
+#define RPG_CUSTOMRP_SCREENCOLORCOPYSETTINGSDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1D131720)
 
 namespace RPG::CustomRP
 {
-	inline static constexpr unsigned int ScreenColorCopySettingsData_TypeDefinitionIndex = 35529;
+	inline static constexpr unsigned int ScreenColorCopySettingsData_TypeDefinitionIndex = 36311;
 
 	class ScreenColorCopySettingsData : public ::System::Object
 	{

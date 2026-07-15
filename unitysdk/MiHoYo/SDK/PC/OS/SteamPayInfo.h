@@ -5,11 +5,11 @@
 namespace MiHoYo::SDK { class JSONNode; }
 namespace System { class String; }
 
-#define MIHOYO_SDK_PC_OS_STEAMPAYINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x18395E50)
+#define MIHOYO_SDK_PC_OS_STEAMPAYINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x199498A0)
 
 namespace MiHoYo::SDK::PC::OS
 {
-	inline static constexpr unsigned int SteamPayInfo_TypeDefinitionIndex = 8474;
+	inline static constexpr unsigned int SteamPayInfo_TypeDefinitionIndex = 8486;
 
 	class SteamPayInfo : public ::System::Object
 	{

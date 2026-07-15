@@ -7,7 +7,7 @@ namespace SRDebugger::Services { class BugReportProgressCallback; }
 
 namespace SRDebugger::Services
 {
-	inline static constexpr unsigned int IBugReportService_TypeDefinitionIndex = 35719;
+	inline static constexpr unsigned int IBugReportService_TypeDefinitionIndex = 36501;
 
 	class IBugReportService
 	{

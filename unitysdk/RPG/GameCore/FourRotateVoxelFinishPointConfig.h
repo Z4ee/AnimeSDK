@@ -6,13 +6,13 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class LittleGameEvent; }
 namespace RPG::GameCore { class PropButtonConfig; }
 
-#define RPG_GAMECORE_FOURROTATEVOXELFINISHPOINTCONFIG_METHOD_3_A0677714A1F91588_OFFSET UNITYSDK_OFFSET(0x19768E90)
-#define RPG_GAMECORE_FOURROTATEVOXELFINISHPOINTCONFIG_METHOD_3_B792DCD4C8ADDA5F_OFFSET UNITYSDK_OFFSET(0x19768E20)
-#define RPG_GAMECORE_FOURROTATEVOXELFINISHPOINTCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x19768E70)
+#define RPG_GAMECORE_FOURROTATEVOXELFINISHPOINTCONFIG_METHOD_3_B08BB32E76A302BD_OFFSET UNITYSDK_OFFSET(0x1B97A6C0)
+#define RPG_GAMECORE_FOURROTATEVOXELFINISHPOINTCONFIG_METHOD_3_FD8F777C61D70BB1_OFFSET UNITYSDK_OFFSET(0x1B97A670)
+#define RPG_GAMECORE_FOURROTATEVOXELFINISHPOINTCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1B97A6B0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FourRotateVoxelFinishPointConfig_TypeDefinitionIndex = 15931;
+	inline static constexpr unsigned int FourRotateVoxelFinishPointConfig_TypeDefinitionIndex = 16105;
 
 	class FourRotateVoxelFinishPointConfig : public ::RPG::GameCore::LittleGameComponentConfig
 	{
@@ -20,23 +20,25 @@ namespace RPG::GameCore
 		::System::Boolean IsFinishPoint; // 0x10
 		::RPG::GameCore::PropButtonConfig* BeforeFinishInteractButtonConfig; // 0x18
 		::RPG::GameCore::PropButtonConfig* InteractButtonConfig; // 0x20
-		::System::Int32 AnimMatIndex; // 0x28
+		::System::Boolean IsFinishGameAfterReward; // 0x28
+		::System::Int32 AnimMatIndex; // 0x2C
 		::RPG::GameCore::LittleGameEvent* OnGameStart; // 0x30
 		::RPG::GameCore::LittleGameEvent* OnAll2DBrickUpgrade; // 0x38
+		::RPG::GameCore::LittleGameEvent* OnGameStartOnlyStateOne; // 0x40
 
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FOURROTATEVOXELFINISHPOINTCONFIG__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_B792DCD4C8ADDA5F(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::FourRotateVoxelFinishPointConfig*& a2)
+		static ::System::Void Method_3_FD8F777C61D70BB1(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::FourRotateVoxelFinishPointConfig*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::FourRotateVoxelFinishPointConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FOURROTATEVOXELFINISHPOINTCONFIG_METHOD_3_B792DCD4C8ADDA5F_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::FourRotateVoxelFinishPointConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FOURROTATEVOXELFINISHPOINTCONFIG_METHOD_3_FD8F777C61D70BB1_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_A0677714A1F91588(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::FourRotateVoxelFinishPointConfig* a2)
+		static ::System::Void Method_3_B08BB32E76A302BD(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::FourRotateVoxelFinishPointConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::FourRotateVoxelFinishPointConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FOURROTATEVOXELFINISHPOINTCONFIG_METHOD_3_A0677714A1F91588_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::FourRotateVoxelFinishPointConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FOURROTATEVOXELFINISHPOINTCONFIG_METHOD_3_B08BB32E76A302BD_OFFSET))(a1, a2);
 		}
 	};
 }

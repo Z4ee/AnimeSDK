@@ -4,18 +4,18 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_AETHERDIVIDEMAXSPIRITLEVELROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1945C110)
-#define RPG_GAMECORE_AETHERDIVIDEMAXSPIRITLEVELROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1945C200)
+#define RPG_GAMECORE_AETHERDIVIDEMAXSPIRITLEVELROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1AE6A7B0)
+#define RPG_GAMECORE_AETHERDIVIDEMAXSPIRITLEVELROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1AE6A8A0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AetherDivideMaxSpiritLevelRow_TypeDefinitionIndex = 10533;
+	inline static constexpr unsigned int AetherDivideMaxSpiritLevelRow_TypeDefinitionIndex = 10581;
 
 	class AetherDivideMaxSpiritLevelRow : public ::System::Object
 	{
 	public:
-		::System::UInt32 UnlockID; // 0x10
-		::System::UInt32 MaxSpiritLevel; // 0x14
+		::System::UInt32 MaxSpiritLevel; // 0x10
+		::System::UInt32 UnlockID; // 0x14
 
 		::System::Void _ctor()
 		{

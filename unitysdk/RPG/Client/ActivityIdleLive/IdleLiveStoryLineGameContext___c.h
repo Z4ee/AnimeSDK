@@ -4,24 +4,24 @@
 
 namespace System { class Action; }
 
-#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVESTORYLINEGAMECONTEXT___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xB1613C0)
-#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVESTORYLINEGAMECONTEXT___C__CTOR_OFFSET UNITYSDK_OFFSET(0xB161400)
-#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVESTORYLINEGAMECONTEXT___C___ONLEAVEBATTLE_B__32_0_OFFSET UNITYSDK_OFFSET(0xB161410)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVESTORYLINEGAMECONTEXT___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1A170CB0)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVESTORYLINEGAMECONTEXT___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1A170CF0)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVESTORYLINEGAMECONTEXT___C___ONLEAVEBATTLE_B__32_0_OFFSET UNITYSDK_OFFSET(0x1A170D00)
 
 namespace RPG::Client::ActivityIdleLive
 {
-	inline static constexpr unsigned int IdleLiveStoryLineGameContext___c_TypeDefinitionIndex = 70194;
+	inline static constexpr unsigned int IdleLiveStoryLineGameContext___c_TypeDefinitionIndex = 71717;
 
 	class IdleLiveStoryLineGameContext___c : public ::System::Object
 	{
 	public:
 		static ::System::Action** StaticGet___9__32_0()
 		{
-			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(IdleLiveStoryLineGameContext___c_TypeDefinitionIndex)->GetStaticField(0x54530);
+			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(IdleLiveStoryLineGameContext___c_TypeDefinitionIndex)->GetStaticField(0x40F10);
 		}
 		static ::RPG::Client::ActivityIdleLive::IdleLiveStoryLineGameContext___c** StaticGet___9()
 		{
-			return (::RPG::Client::ActivityIdleLive::IdleLiveStoryLineGameContext___c**)Il2CppClass::FromTypeDefinitionIndex(IdleLiveStoryLineGameContext___c_TypeDefinitionIndex)->GetStaticField(0x54538);
+			return (::RPG::Client::ActivityIdleLive::IdleLiveStoryLineGameContext___c**)Il2CppClass::FromTypeDefinitionIndex(IdleLiveStoryLineGameContext___c_TypeDefinitionIndex)->GetStaticField(0x40F18);
 		}
 
 		static ::System::Void _cctor()

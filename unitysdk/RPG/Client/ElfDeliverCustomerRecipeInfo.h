@@ -4,11 +4,11 @@
 
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_ELFDELIVERCUSTOMERRECIPEINFO__CTOR_OFFSET UNITYSDK_OFFSET(0xB8A6020)
+#define RPG_CLIENT_ELFDELIVERCUSTOMERRECIPEINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x18E1B350)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ElfDeliverCustomerRecipeInfo_TypeDefinitionIndex = 59666;
+	inline static constexpr unsigned int ElfDeliverCustomerRecipeInfo_TypeDefinitionIndex = 60951;
 
 	class ElfDeliverCustomerRecipeInfo : public ::System::Object
 	{

@@ -2,23 +2,21 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/ImmediateTaskBase_1.h"
 
-class Class_0_16E4307DCC419505_404;
+class Class_0_16E4307DCC419505_428;
 namespace RPG::GameCore { class CreateFMChannelSource; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_B9321AFB2F8A6685_DISPOSE_OFFSET UNITYSDK_OFFSET(0x13636F60)
-#define CLASS_3_B9321AFB2F8A6685_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x13636C30)
-#define CLASS_3_B9321AFB2F8A6685_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x13636E60)
-#define CLASS_3_B9321AFB2F8A6685__CTOR_OFFSET UNITYSDK_OFFSET(0x13636C00)
-#define CLASS_3_B9321AFB2F8A6685___IFIXBASEPROXY_DISPOSE_OFFSET UNITYSDK_OFFSET(0x136370E0)
-#define CLASS_3_B9321AFB2F8A6685___IFIXBASEPROXY_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x136370D0)
+#define CLASS_3_B9321AFB2F8A6685_DISPOSE_OFFSET UNITYSDK_OFFSET(0x17EFB0E0)
+#define CLASS_3_B9321AFB2F8A6685_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x17EFAD80)
+#define CLASS_3_B9321AFB2F8A6685_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x17EFAFE0)
+#define CLASS_3_B9321AFB2F8A6685__CTOR_OFFSET UNITYSDK_OFFSET(0x17EFAD50)
 
-inline static constexpr unsigned int Class_3_B9321AFB2F8A6685_TypeDefinitionIndex = 49316;
+inline static constexpr unsigned int Class_3_B9321AFB2F8A6685_TypeDefinitionIndex = 50331;
 
 class Class_3_B9321AFB2F8A6685 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::CreateFMChannelSource*>
 {
 public:
-	::Class_0_16E4307DCC419505_404* Field_3_0; // 0x28
+	::Class_0_16E4307DCC419505_428* Field_3_0; // 0x28
 
 	::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::CreateFMChannelSource* a2)
 	{
@@ -38,15 +36,5 @@ public:
 	::System::Void Dispose()
 	{
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_3_B9321AFB2F8A6685_DISPOSE_OFFSET))(this);
-	}
-
-	::System::Void __iFixBaseProxy_OnTaskReset()
-	{
-		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_3_B9321AFB2F8A6685___IFIXBASEPROXY_ONTASKRESET_OFFSET))(this);
-	}
-
-	::System::Void __iFixBaseProxy_Dispose()
-	{
-		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_3_B9321AFB2F8A6685___IFIXBASEPROXY_DISPOSE_OFFSET))(this);
 	}
 };

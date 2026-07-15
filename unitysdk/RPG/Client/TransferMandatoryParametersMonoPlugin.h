@@ -5,13 +5,12 @@
 namespace RPG::Client { class TransferMandatoryParametersBehavior; }
 namespace System { class String; }
 
-#define RPG_CLIENT_TRANSFERMANDATORYPARAMETERSMONOPLUGIN_GETTICKLODTEMPLATENAME_OFFSET UNITYSDK_OFFSET(0xCAC9830)
-#define RPG_CLIENT_TRANSFERMANDATORYPARAMETERSMONOPLUGIN__CTOR_OFFSET UNITYSDK_OFFSET(0xCAC9880)
-#define RPG_CLIENT_TRANSFERMANDATORYPARAMETERSMONOPLUGIN___IFIXBASEPROXY_GETTICKLODTEMPLATENAME_OFFSET UNITYSDK_OFFSET(0xCAC9890)
+#define RPG_CLIENT_TRANSFERMANDATORYPARAMETERSMONOPLUGIN_GETTICKLODTEMPLATENAME_OFFSET UNITYSDK_OFFSET(0x1989A400)
+#define RPG_CLIENT_TRANSFERMANDATORYPARAMETERSMONOPLUGIN__CTOR_OFFSET UNITYSDK_OFFSET(0x1989A450)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int TransferMandatoryParametersMonoPlugin_TypeDefinitionIndex = 65742;
+	inline static constexpr unsigned int TransferMandatoryParametersMonoPlugin_TypeDefinitionIndex = 67159;
 
 	class TransferMandatoryParametersMonoPlugin : public ::RPG::Client::TAMonoPlugin_1<::RPG::Client::TransferMandatoryParametersBehavior*>
 	{
@@ -24,11 +23,6 @@ namespace RPG::Client
 		::System::String* GetTickLodTemplateName()
 		{
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_TRANSFERMANDATORYPARAMETERSMONOPLUGIN_GETTICKLODTEMPLATENAME_OFFSET))(this);
-		}
-
-		::System::String* __iFixBaseProxy_GetTickLodTemplateName()
-		{
-			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_TRANSFERMANDATORYPARAMETERSMONOPLUGIN___IFIXBASEPROXY_GETTICKLODTEMPLATENAME_OFFSET))(this);
 		}
 	};
 }

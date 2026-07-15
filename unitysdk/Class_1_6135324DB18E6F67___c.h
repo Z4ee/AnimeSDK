@@ -6,22 +6,22 @@
 namespace System { template <typename T1, typename T2> class Func_2; }
 namespace UnityEngine { class GameObject; }
 
-#define CLASS_1_6135324DB18E6F67___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x13691240)
-#define CLASS_1_6135324DB18E6F67___C__CTOR_OFFSET UNITYSDK_OFFSET(0x13691280)
-#define CLASS_1_6135324DB18E6F67___C___CTOR_B__5_0_OFFSET UNITYSDK_OFFSET(0x13691290)
+#define CLASS_1_6135324DB18E6F67___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x171DEF20)
+#define CLASS_1_6135324DB18E6F67___C__CTOR_OFFSET UNITYSDK_OFFSET(0x171DEF60)
+#define CLASS_1_6135324DB18E6F67___C___CTOR_B__5_0_OFFSET UNITYSDK_OFFSET(0x171DEF70)
 
-inline static constexpr unsigned int Class_1_6135324DB18E6F67___c_TypeDefinitionIndex = 72990;
+inline static constexpr unsigned int Class_1_6135324DB18E6F67___c_TypeDefinitionIndex = 74515;
 
 class Class_1_6135324DB18E6F67___c : public ::System::Object
 {
 public:
 	static ::System::Func_2<::UnityEngine::GameObject*, ::RPG::Client::Prop::ChimeraPreparationState>** StaticGet___9__5_0()
 	{
-		return (::System::Func_2<::UnityEngine::GameObject*, ::RPG::Client::Prop::ChimeraPreparationState>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6135324DB18E6F67___c_TypeDefinitionIndex)->GetStaticField(0x2D6F0);
+		return (::System::Func_2<::UnityEngine::GameObject*, ::RPG::Client::Prop::ChimeraPreparationState>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6135324DB18E6F67___c_TypeDefinitionIndex)->GetStaticField(0x31700);
 	}
 	static ::Class_1_6135324DB18E6F67___c** StaticGet___9()
 	{
-		return (::Class_1_6135324DB18E6F67___c**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6135324DB18E6F67___c_TypeDefinitionIndex)->GetStaticField(0x2D6F8);
+		return (::Class_1_6135324DB18E6F67___c**)Il2CppClass::FromTypeDefinitionIndex(Class_1_6135324DB18E6F67___c_TypeDefinitionIndex)->GetStaticField(0x31708);
 	}
 
 	static ::System::Void _cctor()

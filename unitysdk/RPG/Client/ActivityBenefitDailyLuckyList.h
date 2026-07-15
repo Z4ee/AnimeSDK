@@ -7,7 +7,7 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ActivityBenefitDailyLuckyList_TypeDefinitionIndex = 57393;
+	inline static constexpr unsigned int ActivityBenefitDailyLuckyList_TypeDefinitionIndex = 58655;
 
 	struct alignas(8) ActivityBenefitDailyLuckyList
 	{

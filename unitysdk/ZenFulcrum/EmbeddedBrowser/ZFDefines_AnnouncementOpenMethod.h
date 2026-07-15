@@ -3,7 +3,7 @@
 
 namespace ZenFulcrum::EmbeddedBrowser
 {
-	inline static constexpr unsigned int ZFDefines_AnnouncementOpenMethod_TypeDefinitionIndex = 36644;
+	inline static constexpr unsigned int ZFDefines_AnnouncementOpenMethod_TypeDefinitionIndex = 37426;
 
 	enum class ZFDefines_AnnouncementOpenMethod : ::System::Int32
 	{

@@ -7,13 +7,13 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class TargetEvaluator; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_SETSUMMONUNITATTACH_METHOD_3_9B602724071F6F7D_OFFSET UNITYSDK_OFFSET(0x19C5FF80)
-#define RPG_GAMECORE_SETSUMMONUNITATTACH_METHOD_3_C3B9A446E906BF59_OFFSET UNITYSDK_OFFSET(0x19C5FEE0)
-#define RPG_GAMECORE_SETSUMMONUNITATTACH__CTOR_OFFSET UNITYSDK_OFFSET(0x19C5FF40)
+#define RPG_GAMECORE_SETSUMMONUNITATTACH_METHOD_3_9B602724071F6F7D_OFFSET UNITYSDK_OFFSET(0x1C609760)
+#define RPG_GAMECORE_SETSUMMONUNITATTACH_METHOD_3_EC47FBCF11C53EDE_OFFSET UNITYSDK_OFFSET(0x1C609700)
+#define RPG_GAMECORE_SETSUMMONUNITATTACH__CTOR_OFFSET UNITYSDK_OFFSET(0x1C609740)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SetSummonUnitAttach_TypeDefinitionIndex = 19031;
+	inline static constexpr unsigned int SetSummonUnitAttach_TypeDefinitionIndex = 19384;
 
 	class SetSummonUnitAttach : public ::RPG::GameCore::TaskConfig
 	{
@@ -30,9 +30,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETSUMMONUNITATTACH__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_C3B9A446E906BF59(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SetSummonUnitAttach*& a2)
+		static ::System::Void Method_3_EC47FBCF11C53EDE(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SetSummonUnitAttach*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SetSummonUnitAttach*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETSUMMONUNITATTACH_METHOD_3_C3B9A446E906BF59_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SetSummonUnitAttach*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETSUMMONUNITATTACH_METHOD_3_EC47FBCF11C53EDE_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_9B602724071F6F7D(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SetSummonUnitAttach* a2)

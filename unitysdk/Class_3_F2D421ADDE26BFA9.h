@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class TargetUnMuteModifierEventSource; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_F2D421ADDE26BFA9_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBF3A300)
-#define CLASS_3_F2D421ADDE26BFA9__CTOR_OFFSET UNITYSDK_OFFSET(0xBF3A2D0)
+#define CLASS_3_F2D421ADDE26BFA9_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x16093C90)
+#define CLASS_3_F2D421ADDE26BFA9__CTOR_OFFSET UNITYSDK_OFFSET(0x16093C60)
 
-inline static constexpr unsigned int Class_3_F2D421ADDE26BFA9_TypeDefinitionIndex = 51543;
+inline static constexpr unsigned int Class_3_F2D421ADDE26BFA9_TypeDefinitionIndex = 52685;
 
 class Class_3_F2D421ADDE26BFA9 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::TargetUnMuteModifierEventSource*>
 {

@@ -3,7 +3,7 @@
 
 namespace System::Runtime::CompilerServices
 {
-	inline static constexpr unsigned int CompilationRelaxations_TypeDefinitionIndex = 1368;
+	inline static constexpr unsigned int CompilationRelaxations_TypeDefinitionIndex = 1372;
 
 	enum class CompilationRelaxations : ::System::Int32
 	{

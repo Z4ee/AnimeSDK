@@ -6,12 +6,12 @@
 class Class_1_F1F83A16E5B8B459_3;
 namespace RPG::Client { class GridFightSeasonRole; }
 
-#define RPG_CLIENT_GRIDFIGHTROLEDAMAGESTATISTICINFO_GET_ROLE_OFFSET UNITYSDK_OFFSET(0xBBE18C0)
-#define RPG_CLIENT_GRIDFIGHTROLEDAMAGESTATISTICINFO__CTOR_OFFSET UNITYSDK_OFFSET(0xBBE1350)
+#define RPG_CLIENT_GRIDFIGHTROLEDAMAGESTATISTICINFO_GET_ROLE_OFFSET UNITYSDK_OFFSET(0x1AD54BA0)
+#define RPG_CLIENT_GRIDFIGHTROLEDAMAGESTATISTICINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x1AD54560)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GridFightRoleDamageStatisticInfo_TypeDefinitionIndex = 60203;
+	inline static constexpr unsigned int GridFightRoleDamageStatisticInfo_TypeDefinitionIndex = 61491;
 
 	class GridFightRoleDamageStatisticInfo : public ::RPG::Client::GridFightDamageStatisticInfo
 	{

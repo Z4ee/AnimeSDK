@@ -4,20 +4,20 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_ROGUETOURNEXPREWARDROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x19BC6F60)
-#define RPG_GAMECORE_ROGUETOURNEXPREWARDROW__CTOR_OFFSET UNITYSDK_OFFSET(0x19BC70E0)
+#define RPG_GAMECORE_ROGUETOURNEXPREWARDROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1BB74EF0)
+#define RPG_GAMECORE_ROGUETOURNEXPREWARDROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1BB75070)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RogueTournExpRewardRow_TypeDefinitionIndex = 14244;
+	inline static constexpr unsigned int RogueTournExpRewardRow_TypeDefinitionIndex = 14392;
 
 	class RogueTournExpRewardRow : public ::System::Object
 	{
 	public:
-		::System::UInt32 Exp; // 0x10
-		::System::UInt32 RewardID; // 0x14
-		::System::UInt32 Level; // 0x18
-		::System::UInt32 MainTournID; // 0x1C
+		::System::UInt32 Level; // 0x10
+		::System::UInt32 Exp; // 0x14
+		::System::UInt32 MainTournID; // 0x18
+		::System::UInt32 RewardID; // 0x1C
 
 		::System::Void _ctor()
 		{

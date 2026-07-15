@@ -6,15 +6,13 @@
 namespace RPG::GameCore { class AdventureCharacterController; }
 namespace UnityEngine { class Animator; }
 
-#define RPG_CLIENT_STATERUNBSSTEP_ONSTATEENTER_OFFSET UNITYSDK_OFFSET(0xC9263A0)
-#define RPG_CLIENT_STATERUNBSSTEP_ONSTATEEXIT_OFFSET UNITYSDK_OFFSET(0xC9264A0)
-#define RPG_CLIENT_STATERUNBSSTEP__CTOR_OFFSET UNITYSDK_OFFSET(0xC9267E0)
-#define RPG_CLIENT_STATERUNBSSTEP___IFIXBASEPROXY_ONSTATEENTER_OFFSET UNITYSDK_OFFSET(0xC9267F0)
-#define RPG_CLIENT_STATERUNBSSTEP___IFIXBASEPROXY_ONSTATEEXIT_OFFSET UNITYSDK_OFFSET(0xC926800)
+#define RPG_CLIENT_STATERUNBSSTEP_ONSTATEENTER_OFFSET UNITYSDK_OFFSET(0x17B66870)
+#define RPG_CLIENT_STATERUNBSSTEP_ONSTATEEXIT_OFFSET UNITYSDK_OFFSET(0x17B66970)
+#define RPG_CLIENT_STATERUNBSSTEP__CTOR_OFFSET UNITYSDK_OFFSET(0x17B66CB0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int StateRunBSStep_TypeDefinitionIndex = 64398;
+	inline static constexpr unsigned int StateRunBSStep_TypeDefinitionIndex = 65769;
 
 	class StateRunBSStep : public ::UnityEngine::StateMachineBehaviour
 	{
@@ -38,16 +36,6 @@ namespace RPG::Client
 		::System::Void OnStateExit(::UnityEngine::Animator* a1, ::UnityEngine::AnimatorStateInfo a2, ::System::Int32 a3)
 		{
 			return ((::System::Void(*)(::PVOID, ::UnityEngine::Animator*, ::UnityEngine::AnimatorStateInfo, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_STATERUNBSSTEP_ONSTATEEXIT_OFFSET))(this, a1, a2, a3);
-		}
-
-		::System::Void __iFixBaseProxy_OnStateEnter(::UnityEngine::Animator* a1, ::UnityEngine::AnimatorStateInfo a2, ::System::Int32 a3)
-		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Animator*, ::UnityEngine::AnimatorStateInfo, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_STATERUNBSSTEP___IFIXBASEPROXY_ONSTATEENTER_OFFSET))(this, a1, a2, a3);
-		}
-
-		::System::Void __iFixBaseProxy_OnStateExit(::UnityEngine::Animator* a1, ::UnityEngine::AnimatorStateInfo a2, ::System::Int32 a3)
-		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Animator*, ::UnityEngine::AnimatorStateInfo, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_STATERUNBSSTEP___IFIXBASEPROXY_ONSTATEEXIT_OFFSET))(this, a1, a2, a3);
 		}
 	};
 }

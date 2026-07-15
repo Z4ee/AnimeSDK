@@ -5,12 +5,12 @@
 
 namespace UnityEngine { class Transform; }
 
-#define RPG_CLIENT_SLICEPLANE_GET_INNORMAL_OFFSET UNITYSDK_OFFSET(0x143950)
-#define RPG_CLIENT_SLICEPLANE_GET_INPOINT_OFFSET UNITYSDK_OFFSET(0x1438B0)
+#define RPG_CLIENT_SLICEPLANE_GET_INNORMAL_OFFSET UNITYSDK_OFFSET(0x3997E20)
+#define RPG_CLIENT_SLICEPLANE_GET_INPOINT_OFFSET UNITYSDK_OFFSET(0x3997D80)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int SlicePlane_TypeDefinitionIndex = 66113;
+	inline static constexpr unsigned int SlicePlane_TypeDefinitionIndex = 67538;
 
 	struct alignas(8) SlicePlane
 	{

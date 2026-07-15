@@ -4,13 +4,13 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_SHOWENVBUFFDIALOG_METHOD_3_14794C09B2AB4673_OFFSET UNITYSDK_OFFSET(0x19C791D0)
-#define RPG_GAMECORE_SHOWENVBUFFDIALOG_METHOD_3_7997A23D7DE1D38A_OFFSET UNITYSDK_OFFSET(0x19C79250)
-#define RPG_GAMECORE_SHOWENVBUFFDIALOG__CTOR_OFFSET UNITYSDK_OFFSET(0x19C79220)
+#define RPG_GAMECORE_SHOWENVBUFFDIALOG_METHOD_3_7997A23D7DE1D38A_OFFSET UNITYSDK_OFFSET(0x1BE3DD00)
+#define RPG_GAMECORE_SHOWENVBUFFDIALOG_METHOD_3_8D1A15CFD11C5F07_OFFSET UNITYSDK_OFFSET(0x1BE3DCC0)
+#define RPG_GAMECORE_SHOWENVBUFFDIALOG__CTOR_OFFSET UNITYSDK_OFFSET(0x1BE3DCF0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ShowEnvBuffDialog_TypeDefinitionIndex = 19333;
+	inline static constexpr unsigned int ShowEnvBuffDialog_TypeDefinitionIndex = 19689;
 
 	class ShowEnvBuffDialog : public ::RPG::GameCore::TaskConfig
 	{
@@ -25,9 +25,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SHOWENVBUFFDIALOG__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_14794C09B2AB4673(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ShowEnvBuffDialog*& a2)
+		static ::System::Void Method_3_8D1A15CFD11C5F07(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ShowEnvBuffDialog*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ShowEnvBuffDialog*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SHOWENVBUFFDIALOG_METHOD_3_14794C09B2AB4673_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ShowEnvBuffDialog*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SHOWENVBUFFDIALOG_METHOD_3_8D1A15CFD11C5F07_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_7997A23D7DE1D38A(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ShowEnvBuffDialog* a2)

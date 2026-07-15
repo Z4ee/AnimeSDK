@@ -3,7 +3,7 @@
 
 namespace RPG::Client::SwordTraining
 {
-	inline static constexpr unsigned int SwordTrainingEffectSource_TypeDefinitionIndex = 69868;
+	inline static constexpr unsigned int SwordTrainingEffectSource_TypeDefinitionIndex = 71391;
 
 	enum class SwordTrainingEffectSource : ::System::Int32
 	{

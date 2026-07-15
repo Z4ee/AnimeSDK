@@ -2,18 +2,18 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define RPG_GAMECORE_BATTLETARGETCHANGEPARAMS__CTOR_OFFSET UNITYSDK_OFFSET(0xCD387D0)
+#define RPG_GAMECORE_BATTLETARGETCHANGEPARAMS__CTOR_OFFSET UNITYSDK_OFFSET(0x121736B0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int BattleTargetChangeParams_TypeDefinitionIndex = 54678;
+	inline static constexpr unsigned int BattleTargetChangeParams_TypeDefinitionIndex = 55903;
 
 	class BattleTargetChangeParams : public ::System::Object
 	{
 	public:
-		::System::UInt32 BattleTargetID; // 0x10
-		::System::Int32 PreviousProgress; // 0x14
-		::System::Int32 CurrentProgress; // 0x18
+		::System::Int32 PreviousProgress; // 0x10
+		::System::Int32 CurrentProgress; // 0x14
+		::System::UInt32 BattleTargetID; // 0x18
 
 		::System::Void _ctor()
 		{

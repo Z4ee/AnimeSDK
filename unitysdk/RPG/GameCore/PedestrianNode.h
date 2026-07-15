@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PedestrianNode_TypeDefinitionIndex = 16334;
+	inline static constexpr unsigned int PedestrianNode_TypeDefinitionIndex = 16496;
 
 	enum class PedestrianNode : ::System::Int32
 	{

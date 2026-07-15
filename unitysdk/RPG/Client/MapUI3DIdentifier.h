@@ -2,13 +2,13 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 
-#define RPG_CLIENT_MAPUI3DIDENTIFIER_GET_ID_OFFSET UNITYSDK_OFFSET(0xBEF1330)
-#define RPG_CLIENT_MAPUI3DIDENTIFIER_SETID_OFFSET UNITYSDK_OFFSET(0xBEF1340)
-#define RPG_CLIENT_MAPUI3DIDENTIFIER__CTOR_OFFSET UNITYSDK_OFFSET(0xBEF1390)
+#define RPG_CLIENT_MAPUI3DIDENTIFIER_GET_ID_OFFSET UNITYSDK_OFFSET(0x1A8732E0)
+#define RPG_CLIENT_MAPUI3DIDENTIFIER_SETID_OFFSET UNITYSDK_OFFSET(0x1A873320)
+#define RPG_CLIENT_MAPUI3DIDENTIFIER__CTOR_OFFSET UNITYSDK_OFFSET(0x1A873370)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MapUI3DIdentifier_TypeDefinitionIndex = 58875;
+	inline static constexpr unsigned int MapUI3DIdentifier_TypeDefinitionIndex = 60146;
 
 	class MapUI3DIdentifier : public ::UnityEngine::MonoBehaviour
 	{

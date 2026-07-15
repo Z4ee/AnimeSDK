@@ -6,13 +6,13 @@
 
 namespace UnityEngine { class Animator; }
 
-#define RPG_CLIENT_MONOANIMATORSTATESIMPLEEVENT_ENTRYEVENT_METHOD_2_183DCE814B2CC19A_OFFSET UNITYSDK_OFFSET(0xC0586A0)
-#define RPG_CLIENT_MONOANIMATORSTATESIMPLEEVENT_ENTRYEVENT_METHOD_2_23F4864AF47CFD90_OFFSET UNITYSDK_OFFSET(0xC058580)
-#define RPG_CLIENT_MONOANIMATORSTATESIMPLEEVENT_ENTRYEVENT__CTOR_OFFSET UNITYSDK_OFFSET(0xC0587A0)
+#define RPG_CLIENT_MONOANIMATORSTATESIMPLEEVENT_ENTRYEVENT_METHOD_2_23F4864AF47CFD90_OFFSET UNITYSDK_OFFSET(0x18074FE0)
+#define RPG_CLIENT_MONOANIMATORSTATESIMPLEEVENT_ENTRYEVENT_METHOD_2_3CAD769FC088779C_OFFSET UNITYSDK_OFFSET(0x18075100)
+#define RPG_CLIENT_MONOANIMATORSTATESIMPLEEVENT_ENTRYEVENT__CTOR_OFFSET UNITYSDK_OFFSET(0x18075280)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MonoAnimatorStateSimpleEvent_EntryEvent_TypeDefinitionIndex = 64100;
+	inline static constexpr unsigned int MonoAnimatorStateSimpleEvent_EntryEvent_TypeDefinitionIndex = 65471;
 
 	class MonoAnimatorStateSimpleEvent_EntryEvent : public ::RPG::Client::MonoAnimatorStateSimpleEvent_StateEvent
 	{
@@ -29,9 +29,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID, ::UnityEngine::Animator*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOANIMATORSTATESIMPLEEVENT_ENTRYEVENT_METHOD_2_23F4864AF47CFD90_OFFSET))(this, a1);
 		}
 
-		::System::Void Method_2_183DCE814B2CC19A(::System::Int32 a1, ::UnityEngine::AnimatorStateInfo a2, ::UnityEngine::AnimatorTransitionInfo a3)
+		::System::Void Method_2_3CAD769FC088779C(::System::Int32 a1, ::UnityEngine::AnimatorStateInfo a2, ::UnityEngine::AnimatorTransitionInfo a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Int32, ::UnityEngine::AnimatorStateInfo, ::UnityEngine::AnimatorTransitionInfo))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOANIMATORSTATESIMPLEEVENT_ENTRYEVENT_METHOD_2_183DCE814B2CC19A_OFFSET))(this, a1, a2, a3);
+			return ((::System::Void(*)(::PVOID, ::System::Int32, ::UnityEngine::AnimatorStateInfo, ::UnityEngine::AnimatorTransitionInfo))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOANIMATORSTATESIMPLEEVENT_ENTRYEVENT_METHOD_2_3CAD769FC088779C_OFFSET))(this, a1, a2, a3);
 		}
 	};
 }

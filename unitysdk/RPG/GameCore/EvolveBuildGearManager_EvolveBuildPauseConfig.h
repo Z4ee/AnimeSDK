@@ -6,7 +6,7 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int EvolveBuildGearManager_EvolveBuildPauseConfig_TypeDefinitionIndex = 52339;
+	inline static constexpr unsigned int EvolveBuildGearManager_EvolveBuildPauseConfig_TypeDefinitionIndex = 53543;
 
 	struct alignas(8) EvolveBuildGearManager_EvolveBuildPauseConfig
 	{

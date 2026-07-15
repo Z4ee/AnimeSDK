@@ -6,15 +6,15 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace SimpleJSON { class JSONNode; }
 
-#define RPG_GAMECORE_BYCOMPARESELECTSKILLEFFECT_METHOD_4_17D7D2F4D8389415_OFFSET UNITYSDK_OFFSET(0x1952FCE0)
-#define RPG_GAMECORE_BYCOMPARESELECTSKILLEFFECT_METHOD_4_1FC9FA85237BB708_OFFSET UNITYSDK_OFFSET(0x1952FB50)
-#define RPG_GAMECORE_BYCOMPARESELECTSKILLEFFECT_METHOD_4_89E79654E2D29266_OFFSET UNITYSDK_OFFSET(0x1952FA80)
-#define RPG_GAMECORE_BYCOMPARESELECTSKILLEFFECT_METHOD_4_F17581E87B5B5141_OFFSET UNITYSDK_OFFSET(0x1952FD60)
-#define RPG_GAMECORE_BYCOMPARESELECTSKILLEFFECT__CTOR_OFFSET UNITYSDK_OFFSET(0x1952FB00)
+#define RPG_GAMECORE_BYCOMPARESELECTSKILLEFFECT_METHOD_4_1FC9FA85237BB708_OFFSET UNITYSDK_OFFSET(0x1A8A1920)
+#define RPG_GAMECORE_BYCOMPARESELECTSKILLEFFECT_METHOD_4_650ADE9FE6828B3D_OFFSET UNITYSDK_OFFSET(0x1A8A18E0)
+#define RPG_GAMECORE_BYCOMPARESELECTSKILLEFFECT_METHOD_4_A2D80E6173A07338_OFFSET UNITYSDK_OFFSET(0x1A8A1AB0)
+#define RPG_GAMECORE_BYCOMPARESELECTSKILLEFFECT_METHOD_4_B9E395ED2834AC5F_OFFSET UNITYSDK_OFFSET(0x1A8A1AE0)
+#define RPG_GAMECORE_BYCOMPARESELECTSKILLEFFECT__CTOR_OFFSET UNITYSDK_OFFSET(0x1A8A1910)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ByCompareSelectSkillEffect_TypeDefinitionIndex = 21768;
+	inline static constexpr unsigned int ByCompareSelectSkillEffect_TypeDefinitionIndex = 22194;
 
 	class ByCompareSelectSkillEffect : public ::RPG::GameCore::PredicateConfig
 	{
@@ -26,9 +26,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYCOMPARESELECTSKILLEFFECT__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_4_89E79654E2D29266(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ByCompareSelectSkillEffect*& a2)
+		static ::System::Void Method_4_650ADE9FE6828B3D(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ByCompareSelectSkillEffect*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ByCompareSelectSkillEffect*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYCOMPARESELECTSKILLEFFECT_METHOD_4_89E79654E2D29266_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ByCompareSelectSkillEffect*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYCOMPARESELECTSKILLEFFECT_METHOD_4_650ADE9FE6828B3D_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_4_1FC9FA85237BB708(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ByCompareSelectSkillEffect* a2)
@@ -36,14 +36,14 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ByCompareSelectSkillEffect*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYCOMPARESELECTSKILLEFFECT_METHOD_4_1FC9FA85237BB708_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_4_17D7D2F4D8389415(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::ByCompareSelectSkillEffect*& a2)
+		static ::System::Void Method_4_A2D80E6173A07338(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::ByCompareSelectSkillEffect*& a2)
 		{
-			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::ByCompareSelectSkillEffect*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYCOMPARESELECTSKILLEFFECT_METHOD_4_17D7D2F4D8389415_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::ByCompareSelectSkillEffect*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYCOMPARESELECTSKILLEFFECT_METHOD_4_A2D80E6173A07338_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_4_F17581E87B5B5141(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::ByCompareSelectSkillEffect* a2)
+		static ::System::Void Method_4_B9E395ED2834AC5F(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::ByCompareSelectSkillEffect* a2)
 		{
-			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::ByCompareSelectSkillEffect*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYCOMPARESELECTSKILLEFFECT_METHOD_4_F17581E87B5B5141_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::ByCompareSelectSkillEffect*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYCOMPARESELECTSKILLEFFECT_METHOD_4_B9E395ED2834AC5F_OFFSET))(a1, a2);
 		}
 	};
 }

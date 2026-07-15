@@ -22,7 +22,7 @@ namespace System::Runtime::Serialization { class SerializationInfo; }
 
 namespace System::Collections::Generic
 {
-	inline static constexpr unsigned int Dictionary_2_TypeDefinitionIndex = 1524;
+	inline static constexpr unsigned int Dictionary_2_TypeDefinitionIndex = 1528;
 
 	template <typename TKey, typename TValue>
 	class Dictionary_2 : public ::System::Object

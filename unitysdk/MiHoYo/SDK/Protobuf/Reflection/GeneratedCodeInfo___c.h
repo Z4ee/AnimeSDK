@@ -4,20 +4,20 @@
 
 namespace MiHoYo::SDK::Protobuf::Reflection { class GeneratedCodeInfo; }
 
-#define MIHOYO_SDK_PROTOBUF_REFLECTION_GENERATEDCODEINFO___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x181BDF60)
-#define MIHOYO_SDK_PROTOBUF_REFLECTION_GENERATEDCODEINFO___C__CTOR_OFFSET UNITYSDK_OFFSET(0x181BDFA0)
-#define MIHOYO_SDK_PROTOBUF_REFLECTION_GENERATEDCODEINFO___C___CCTOR_B__25_0_OFFSET UNITYSDK_OFFSET(0x181BDFB0)
+#define MIHOYO_SDK_PROTOBUF_REFLECTION_GENERATEDCODEINFO___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x196BE150)
+#define MIHOYO_SDK_PROTOBUF_REFLECTION_GENERATEDCODEINFO___C__CTOR_OFFSET UNITYSDK_OFFSET(0x196BE190)
+#define MIHOYO_SDK_PROTOBUF_REFLECTION_GENERATEDCODEINFO___C___CCTOR_B__25_0_OFFSET UNITYSDK_OFFSET(0x196BE1A0)
 
 namespace MiHoYo::SDK::Protobuf::Reflection
 {
-	inline static constexpr unsigned int GeneratedCodeInfo___c_TypeDefinitionIndex = 34012;
+	inline static constexpr unsigned int GeneratedCodeInfo___c_TypeDefinitionIndex = 34383;
 
 	class GeneratedCodeInfo___c : public ::System::Object
 	{
 	public:
 		static ::MiHoYo::SDK::Protobuf::Reflection::GeneratedCodeInfo___c** StaticGet___9()
 		{
-			return (::MiHoYo::SDK::Protobuf::Reflection::GeneratedCodeInfo___c**)Il2CppClass::FromTypeDefinitionIndex(GeneratedCodeInfo___c_TypeDefinitionIndex)->GetStaticField(0x4DA70);
+			return (::MiHoYo::SDK::Protobuf::Reflection::GeneratedCodeInfo___c**)Il2CppClass::FromTypeDefinitionIndex(GeneratedCodeInfo___c_TypeDefinitionIndex)->GetStaticField(0x49F90);
 		}
 
 		static ::System::Void _cctor()

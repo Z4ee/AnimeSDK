@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class StackCrazyAIBehavior; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_478B280ACE899F3D_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x144FCAB0)
-#define CLASS_3_478B280ACE899F3D__CTOR_OFFSET UNITYSDK_OFFSET(0x144FCA80)
+#define CLASS_3_478B280ACE899F3D_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x16F15140)
+#define CLASS_3_478B280ACE899F3D__CTOR_OFFSET UNITYSDK_OFFSET(0x16F15110)
 
-inline static constexpr unsigned int Class_3_478B280ACE899F3D_TypeDefinitionIndex = 51966;
+inline static constexpr unsigned int Class_3_478B280ACE899F3D_TypeDefinitionIndex = 53119;
 
 class Class_3_478B280ACE899F3D : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::StackCrazyAIBehavior*>
 {

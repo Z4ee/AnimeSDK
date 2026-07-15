@@ -10,7 +10,7 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int IEvolveBuildCollectionGear_TypeDefinitionIndex = 59714;
+	inline static constexpr unsigned int IEvolveBuildCollectionGear_TypeDefinitionIndex = 60999;
 
 	class IEvolveBuildCollectionGear
 	{

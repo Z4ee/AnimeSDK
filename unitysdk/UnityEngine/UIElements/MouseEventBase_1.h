@@ -12,7 +12,7 @@ namespace UnityEngine::UIElements { class IPointerEvent; }
 
 namespace UnityEngine::UIElements
 {
-	inline static constexpr unsigned int MouseEventBase_1_TypeDefinitionIndex = 6213;
+	inline static constexpr unsigned int MouseEventBase_1_TypeDefinitionIndex = 6218;
 
 	template <typename T>
 	class MouseEventBase_1 : public ::UnityEngine::UIElements::EventBase_1<T>

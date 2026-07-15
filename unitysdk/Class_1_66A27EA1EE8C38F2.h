@@ -3,9 +3,9 @@
 #include "unitysdk/RPG/Client/LittleGame/ChenLing/ChenLingGameState.h"
 #include "unitysdk/System/Object.h"
 
-#define CLASS_1_66A27EA1EE8C38F2__CTOR_OFFSET UNITYSDK_OFFSET(0x18C229D0)
+#define CLASS_1_66A27EA1EE8C38F2__CTOR_OFFSET UNITYSDK_OFFSET(0x180EB1A0)
 
-inline static constexpr unsigned int Class_1_66A27EA1EE8C38F2_TypeDefinitionIndex = 40328;
+inline static constexpr unsigned int Class_1_66A27EA1EE8C38F2_TypeDefinitionIndex = 41143;
 
 class Class_1_66A27EA1EE8C38F2 : public ::System::Object
 {

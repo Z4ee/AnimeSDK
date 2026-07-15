@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int InsertAbilityState_TypeDefinitionIndex = 52491;
+	inline static constexpr unsigned int InsertAbilityState_TypeDefinitionIndex = 53695;
 
 	enum class InsertAbilityState : ::System::Byte
 	{

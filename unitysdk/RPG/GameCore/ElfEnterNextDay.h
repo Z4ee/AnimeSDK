@@ -4,13 +4,13 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_ELFENTERNEXTDAY_METHOD_3_88DA98DBFB01D335_OFFSET UNITYSDK_OFFSET(0x196D9EB0)
-#define RPG_GAMECORE_ELFENTERNEXTDAY_METHOD_3_9DFEFBBA653AB8A1_OFFSET UNITYSDK_OFFSET(0x196D9DA0)
-#define RPG_GAMECORE_ELFENTERNEXTDAY__CTOR_OFFSET UNITYSDK_OFFSET(0x196D9E80)
+#define RPG_GAMECORE_ELFENTERNEXTDAY_METHOD_3_708C5A2EF2FC3EF8_OFFSET UNITYSDK_OFFSET(0x1BB36470)
+#define RPG_GAMECORE_ELFENTERNEXTDAY_METHOD_3_88DA98DBFB01D335_OFFSET UNITYSDK_OFFSET(0x1BB36540)
+#define RPG_GAMECORE_ELFENTERNEXTDAY__CTOR_OFFSET UNITYSDK_OFFSET(0x1BB36530)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ElfEnterNextDay_TypeDefinitionIndex = 20516;
+	inline static constexpr unsigned int ElfEnterNextDay_TypeDefinitionIndex = 20931;
 
 	class ElfEnterNextDay : public ::RPG::GameCore::TaskConfig
 	{
@@ -20,9 +20,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ELFENTERNEXTDAY__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_9DFEFBBA653AB8A1(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ElfEnterNextDay*& a2)
+		static ::System::Void Method_3_708C5A2EF2FC3EF8(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ElfEnterNextDay*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ElfEnterNextDay*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ELFENTERNEXTDAY_METHOD_3_9DFEFBBA653AB8A1_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ElfEnterNextDay*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ELFENTERNEXTDAY_METHOD_3_708C5A2EF2FC3EF8_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_88DA98DBFB01D335(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ElfEnterNextDay* a2)

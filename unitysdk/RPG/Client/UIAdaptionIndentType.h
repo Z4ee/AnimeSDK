@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int UIAdaptionIndentType_TypeDefinitionIndex = 56170;
+	inline static constexpr unsigned int UIAdaptionIndentType_TypeDefinitionIndex = 57410;
 
 	enum class UIAdaptionIndentType : ::System::Int32
 	{

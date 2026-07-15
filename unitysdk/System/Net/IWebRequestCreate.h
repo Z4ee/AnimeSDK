@@ -6,7 +6,7 @@ namespace System::Net { class WebRequest; }
 
 namespace System::Net
 {
-	inline static constexpr unsigned int IWebRequestCreate_TypeDefinitionIndex = 2735;
+	inline static constexpr unsigned int IWebRequestCreate_TypeDefinitionIndex = 2739;
 
 	class IWebRequestCreate
 	{

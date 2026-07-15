@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class AdventurePauseTeamDataRefresh; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_74FA00805CB4AFC2_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x13B27540)
-#define CLASS_3_74FA00805CB4AFC2__CTOR_OFFSET UNITYSDK_OFFSET(0x13B27510)
+#define CLASS_3_74FA00805CB4AFC2_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x179A5350)
+#define CLASS_3_74FA00805CB4AFC2__CTOR_OFFSET UNITYSDK_OFFSET(0x179A5320)
 
-inline static constexpr unsigned int Class_3_74FA00805CB4AFC2_TypeDefinitionIndex = 54114;
+inline static constexpr unsigned int Class_3_74FA00805CB4AFC2_TypeDefinitionIndex = 55337;
 
 class Class_3_74FA00805CB4AFC2 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::AdventurePauseTeamDataRefresh*>
 {

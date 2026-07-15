@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define RPG_CLIENT_LITTLEGAME_WEIGHTCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x18CCCDC0)
+#define RPG_CLIENT_LITTLEGAME_WEIGHTCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1C583D50)
 
 namespace RPG::Client::LittleGame
 {
-	inline static constexpr unsigned int WeightConfig_TypeDefinitionIndex = 39339;
+	inline static constexpr unsigned int WeightConfig_TypeDefinitionIndex = 40148;
 
 	class WeightConfig : public ::System::Object
 	{

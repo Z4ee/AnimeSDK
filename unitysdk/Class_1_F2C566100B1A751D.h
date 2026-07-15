@@ -1,0 +1,175 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/RPG/Client/NavMap/NavSpaceType.h"
+#include "unitysdk/RPG/GameCore/LevelNavNodeInfo.h"
+#include "unitysdk/RPG/GameCore/LevelNavNodeTransitInfo.h"
+#include "unitysdk/System/Object.h"
+#include "unitysdk/System/ValueTuple_2.h"
+
+class Class_0_16E4307DCC419505_1153;
+class Class_0_16E4307DCC419505_1156;
+class Class_1_4BC03BAAC61C4531;
+class Class_1_688DEC7029634CD2;
+class Class_1_879FB201627808AE;
+class Class_1_F77CABFB14F6C520;
+namespace RPG::Client::NavMap { class IMapDataSource; }
+namespace System { class String; }
+namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
+namespace System::Collections::Generic { template <typename T> class List_1; }
+
+#define CLASS_1_F2C566100B1A751D_METHOD_1_0D3455A2B8A3E6D4_1_OFFSET UNITYSDK_OFFSET(0x14BA2050)
+#define CLASS_1_F2C566100B1A751D_METHOD_1_0D3455A2B8A3E6D4_OFFSET UNITYSDK_OFFSET(0x14B9FE90)
+#define CLASS_1_F2C566100B1A751D_METHOD_1_146E6E50FAF07D8F_OFFSET UNITYSDK_OFFSET(0x14BA0570)
+#define CLASS_1_F2C566100B1A751D_METHOD_1_174651310EF7E12A_OFFSET UNITYSDK_OFFSET(0x14BA2C90)
+#define CLASS_1_F2C566100B1A751D_METHOD_1_229CEF33F0AF9039_OFFSET UNITYSDK_OFFSET(0x14BA17E0)
+#define CLASS_1_F2C566100B1A751D_METHOD_1_36F46336ADA62D13_OFFSET UNITYSDK_OFFSET(0x14B9F880)
+#define CLASS_1_F2C566100B1A751D_METHOD_1_5C657BA1CACD564A_OFFSET UNITYSDK_OFFSET(0x14BA31D0)
+#define CLASS_1_F2C566100B1A751D_METHOD_1_7FE080DFC233F15E_OFFSET UNITYSDK_OFFSET(0x14BA2690)
+#define CLASS_1_F2C566100B1A751D_METHOD_1_81FEFD1B22CE37A2_OFFSET UNITYSDK_OFFSET(0x14B9FF80)
+#define CLASS_1_F2C566100B1A751D_METHOD_1_8714CF4AE9195CA2_OFFSET UNITYSDK_OFFSET(0x14B9F8D0)
+#define CLASS_1_F2C566100B1A751D_METHOD_1_907E24F785836BA0_OFFSET UNITYSDK_OFFSET(0x14BA2140)
+#define CLASS_1_F2C566100B1A751D_METHOD_1_98F5AAA93BF786AA_OFFSET UNITYSDK_OFFSET(0x14B9FB70)
+#define CLASS_1_F2C566100B1A751D_METHOD_1_9E38127F40B34F1F_OFFSET UNITYSDK_OFFSET(0x14B9FBC0)
+#define CLASS_1_F2C566100B1A751D_METHOD_1_AB4853A97D6A92FF_OFFSET UNITYSDK_OFFSET(0x14B9F500)
+#define CLASS_1_F2C566100B1A751D_METHOD_1_BCF7FE25A1E72D26_OFFSET UNITYSDK_OFFSET(0x14BA1FD0)
+#define CLASS_1_F2C566100B1A751D_METHOD_1_CD8EB704BDED69B6_OFFSET UNITYSDK_OFFSET(0x14BA0D30)
+#define CLASS_1_F2C566100B1A751D_METHOD_1_D8BC0B2F4852D674_OFFSET UNITYSDK_OFFSET(0x14BA2400)
+#define CLASS_1_F2C566100B1A751D_METHOD_1_DBED8666AB9FC09B_OFFSET UNITYSDK_OFFSET(0x14BA3330)
+#define CLASS_1_F2C566100B1A751D_METHOD_1_E20BC96B50A592B5_OFFSET UNITYSDK_OFFSET(0x14B9F460)
+#define CLASS_1_F2C566100B1A751D_METHOD_1_EB3D6DD45E11B1E1_OFFSET UNITYSDK_OFFSET(0x14B9F4B0)
+#define CLASS_1_F2C566100B1A751D_METHOD_1_EDBF8BF43FE9D56B_OFFSET UNITYSDK_OFFSET(0x14B9FC10)
+#define CLASS_1_F2C566100B1A751D_METHOD_1_F6CC195446FF6C25_OFFSET UNITYSDK_OFFSET(0x14BA1EE0)
+#define CLASS_1_F2C566100B1A751D__CTOR_OFFSET UNITYSDK_OFFSET(0x14B9F660)
+#define CLASS_1_F2C566100B1A751D___ISHASSAMECONNECTPOINTKEYINREVERSETRANSINFOS_B__26_0_OFFSET UNITYSDK_OFFSET(0x14BA39A0)
+
+inline static constexpr unsigned int Class_1_F2C566100B1A751D_TypeDefinitionIndex = 71135;
+
+class Class_1_F2C566100B1A751D : public ::System::Object
+{
+public:
+	::Class_1_F77CABFB14F6C520* Field_1_0; // 0x10
+	::System::Collections::Generic::List_1<::Class_1_879FB201627808AE*>* Field_1_1; // 0x18
+	::System::Collections::Generic::Dictionary_2<::System::ValueTuple_2<::System::UInt32, ::System::UInt32>, ::System::Collections::Generic::List_1<::RPG::GameCore::LevelNavNodeTransitInfo>*>* Field_1_2; // 0x20
+	::Class_1_4BC03BAAC61C4531* Field_1_3; // 0x28
+	::System::Collections::Generic::Dictionary_2<::System::UInt32, ::RPG::GameCore::LevelNavNodeInfo>* Field_1_4; // 0x30
+
+	::System::Void _ctor(::Class_1_4BC03BAAC61C4531* a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::Class_1_4BC03BAAC61C4531*))((::PBYTE)hIl2Cpp + CLASS_1_F2C566100B1A751D__CTOR_OFFSET))(this, a1);
+	}
+
+	::RPG::Client::NavMap::IMapDataSource* Method_1_E20BC96B50A592B5()
+	{
+		return ((::RPG::Client::NavMap::IMapDataSource*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_F2C566100B1A751D_METHOD_1_E20BC96B50A592B5_OFFSET))(this);
+	}
+
+	::RPG::Client::NavMap::NavSpaceType Method_1_EB3D6DD45E11B1E1()
+	{
+		return ((::RPG::Client::NavMap::NavSpaceType(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_F2C566100B1A751D_METHOD_1_EB3D6DD45E11B1E1_OFFSET))(this);
+	}
+
+	static ::Class_1_F2C566100B1A751D* Method_1_AB4853A97D6A92FF(::Class_1_4BC03BAAC61C4531* a1)
+	{
+		return ((::Class_1_F2C566100B1A751D*(*)(::Class_1_4BC03BAAC61C4531*))((::PBYTE)hIl2Cpp + CLASS_1_F2C566100B1A751D_METHOD_1_AB4853A97D6A92FF_OFFSET))(a1);
+	}
+
+	::System::Boolean Method_1_EDBF8BF43FE9D56B(::Class_0_16E4307DCC419505_1156* a1, ::Class_0_16E4307DCC419505_1153*& a2)
+	{
+		return ((::System::Boolean(*)(::PVOID, ::Class_0_16E4307DCC419505_1156*, ::Class_0_16E4307DCC419505_1153*&))((::PBYTE)hIl2Cpp + CLASS_1_F2C566100B1A751D_METHOD_1_EDBF8BF43FE9D56B_OFFSET))(this, a1, a2);
+	}
+
+	::System::Void Method_1_0D3455A2B8A3E6D4()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_F2C566100B1A751D_METHOD_1_0D3455A2B8A3E6D4_OFFSET))(this);
+	}
+
+	::System::Void Method_1_36F46336ADA62D13()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_F2C566100B1A751D_METHOD_1_36F46336ADA62D13_OFFSET))(this);
+	}
+
+	::System::Void Method_1_81FEFD1B22CE37A2()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_F2C566100B1A751D_METHOD_1_81FEFD1B22CE37A2_OFFSET))(this);
+	}
+
+	::System::Void Method_1_146E6E50FAF07D8F()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_F2C566100B1A751D_METHOD_1_146E6E50FAF07D8F_OFFSET))(this);
+	}
+
+	::System::Void Method_1_8714CF4AE9195CA2()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_F2C566100B1A751D_METHOD_1_8714CF4AE9195CA2_OFFSET))(this);
+	}
+
+	::System::Void Method_1_98F5AAA93BF786AA()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_F2C566100B1A751D_METHOD_1_98F5AAA93BF786AA_OFFSET))(this);
+	}
+
+	::System::Void Method_1_CD8EB704BDED69B6()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_F2C566100B1A751D_METHOD_1_CD8EB704BDED69B6_OFFSET))(this);
+	}
+
+	::System::Void Method_1_F6CC195446FF6C25(::System::String* a1, ::System::UInt32 a2)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::String*, ::System::UInt32))((::PBYTE)hIl2Cpp + CLASS_1_F2C566100B1A751D_METHOD_1_F6CC195446FF6C25_OFFSET))(this, a1, a2);
+	}
+
+	::System::Void Method_1_BCF7FE25A1E72D26(::System::UInt32 a1, ::System::UInt32 a2)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::UInt32, ::System::UInt32))((::PBYTE)hIl2Cpp + CLASS_1_F2C566100B1A751D_METHOD_1_BCF7FE25A1E72D26_OFFSET))(this, a1, a2);
+	}
+
+	::System::Void Method_1_229CEF33F0AF9039()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_F2C566100B1A751D_METHOD_1_229CEF33F0AF9039_OFFSET))(this);
+	}
+
+	::System::Void Method_1_9E38127F40B34F1F()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_F2C566100B1A751D_METHOD_1_9E38127F40B34F1F_OFFSET))(this);
+	}
+
+	::System::Void Method_1_0D3455A2B8A3E6D4_1()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_F2C566100B1A751D_METHOD_1_0D3455A2B8A3E6D4_1_OFFSET))(this);
+	}
+
+	::System::Void Method_1_907E24F785836BA0()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_F2C566100B1A751D_METHOD_1_907E24F785836BA0_OFFSET))(this);
+	}
+
+	::System::Boolean Method_1_D8BC0B2F4852D674(::RPG::GameCore::LevelNavNodeTransitInfo a1)
+	{
+		return ((::System::Boolean(*)(::PVOID, ::RPG::GameCore::LevelNavNodeTransitInfo))((::PBYTE)hIl2Cpp + CLASS_1_F2C566100B1A751D_METHOD_1_D8BC0B2F4852D674_OFFSET))(this, a1);
+	}
+
+	::System::Boolean Method_1_7FE080DFC233F15E(::RPG::GameCore::LevelNavNodeTransitInfo a1, ::Class_1_688DEC7029634CD2* a2)
+	{
+		return ((::System::Boolean(*)(::PVOID, ::RPG::GameCore::LevelNavNodeTransitInfo, ::Class_1_688DEC7029634CD2*))((::PBYTE)hIl2Cpp + CLASS_1_F2C566100B1A751D_METHOD_1_7FE080DFC233F15E_OFFSET))(this, a1, a2);
+	}
+
+	::System::Boolean Method_1_5C657BA1CACD564A(::System::Collections::Generic::List_1<::RPG::GameCore::LevelNavNodeTransitInfo>* a1, ::System::String* a2)
+	{
+		return ((::System::Boolean(*)(::PVOID, ::System::Collections::Generic::List_1<::RPG::GameCore::LevelNavNodeTransitInfo>*, ::System::String*))((::PBYTE)hIl2Cpp + CLASS_1_F2C566100B1A751D_METHOD_1_5C657BA1CACD564A_OFFSET))(this, a1, a2);
+	}
+
+	::System::Void Method_1_DBED8666AB9FC09B(::RPG::GameCore::LevelNavNodeTransitInfo a1, ::Class_1_688DEC7029634CD2* a2)
+	{
+		return ((::System::Void(*)(::PVOID, ::RPG::GameCore::LevelNavNodeTransitInfo, ::Class_1_688DEC7029634CD2*))((::PBYTE)hIl2Cpp + CLASS_1_F2C566100B1A751D_METHOD_1_DBED8666AB9FC09B_OFFSET))(this, a1, a2);
+	}
+
+	::System::Boolean Method_1_174651310EF7E12A(::RPG::GameCore::LevelNavNodeTransitInfo a1, ::Class_1_688DEC7029634CD2* a2)
+	{
+		return ((::System::Boolean(*)(::PVOID, ::RPG::GameCore::LevelNavNodeTransitInfo, ::Class_1_688DEC7029634CD2*))((::PBYTE)hIl2Cpp + CLASS_1_F2C566100B1A751D_METHOD_1_174651310EF7E12A_OFFSET))(this, a1, a2);
+	}
+
+	::System::Boolean __IsHasSameConnectPointKeyInReverseTransInfos_b__26_0()
+	{
+		return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_F2C566100B1A751D___ISHASSAMECONNECTPOINTKEYINREVERSETRANSINFOS_B__26_0_OFFSET))(this);
+	}
+};

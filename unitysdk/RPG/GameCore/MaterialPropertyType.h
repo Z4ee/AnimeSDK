@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MaterialPropertyType_TypeDefinitionIndex = 10101;
+	inline static constexpr unsigned int MaterialPropertyType_TypeDefinitionIndex = 10116;
 
 	enum class MaterialPropertyType : ::System::Int32
 	{

@@ -8,12 +8,12 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace System::IO { class BinaryReader; }
 namespace System::IO { class BinaryWriter; }
 
-#define HDG_RDTTCPMESSAGESETARRAYSIZE_READ_OFFSET UNITYSDK_OFFSET(0x26FF0)
-#define HDG_RDTTCPMESSAGESETARRAYSIZE_WRITE_OFFSET UNITYSDK_OFFSET(0x26F70)
+#define HDG_RDTTCPMESSAGESETARRAYSIZE_READ_OFFSET UNITYSDK_OFFSET(0x38E54F0)
+#define HDG_RDTTCPMESSAGESETARRAYSIZE_WRITE_OFFSET UNITYSDK_OFFSET(0x38E54E0)
 
 namespace Hdg
 {
-	inline static constexpr unsigned int rdtTcpMessageSetArraySize_TypeDefinitionIndex = 44341;
+	inline static constexpr unsigned int rdtTcpMessageSetArraySize_TypeDefinitionIndex = 45211;
 
 	struct alignas(8) rdtTcpMessageSetArraySize
 	{

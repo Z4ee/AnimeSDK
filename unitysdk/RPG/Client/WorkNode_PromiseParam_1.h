@@ -6,7 +6,7 @@ namespace RPG::Client::Promises { template <typename T> class IPromise_1; }
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int WorkNode_PromiseParam_1_TypeDefinitionIndex = 57081;
+	inline static constexpr unsigned int WorkNode_PromiseParam_1_TypeDefinitionIndex = 58339;
 
 	template <typename PromisedT>
 	class WorkNode_PromiseParam_1 : public ::System::Object

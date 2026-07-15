@@ -7,7 +7,7 @@ namespace System::Collections::Generic { template <typename T> class IList_1; }
 
 namespace SRDebugger::Services
 {
-	inline static constexpr unsigned int IPinEntryService_TypeDefinitionIndex = 35732;
+	inline static constexpr unsigned int IPinEntryService_TypeDefinitionIndex = 36514;
 
 	class IPinEntryService
 	{

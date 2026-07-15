@@ -6,9 +6,9 @@ class ShaderPropertyData;
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class Shader; }
 
-#define SHADERGROUP__CTOR_OFFSET UNITYSDK_OFFSET(0xD07FE20)
+#define SHADERGROUP__CTOR_OFFSET UNITYSDK_OFFSET(0x19F70B50)
 
-inline static constexpr unsigned int ShaderGroup_TypeDefinitionIndex = 44841;
+inline static constexpr unsigned int ShaderGroup_TypeDefinitionIndex = 45758;
 
 class ShaderGroup : public ::System::Object
 {

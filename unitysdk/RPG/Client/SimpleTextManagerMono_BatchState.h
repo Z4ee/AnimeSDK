@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int SimpleTextManagerMono_BatchState_TypeDefinitionIndex = 67882;
+	inline static constexpr unsigned int SimpleTextManagerMono_BatchState_TypeDefinitionIndex = 69366;
 
 	enum class SimpleTextManagerMono_BatchState : ::System::Int32
 	{

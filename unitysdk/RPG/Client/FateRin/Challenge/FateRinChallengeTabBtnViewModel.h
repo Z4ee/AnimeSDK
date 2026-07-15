@@ -1,0 +1,64 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/RPG/Client/FateRin/BaseViewModel.h"
+#include "unitysdk/RPG/Client/TextID.h"
+
+class Class_1_F681AD6B57DC77A7;
+namespace System { class String; }
+
+#define RPG_CLIENT_FATERIN_CHALLENGE_FATERINCHALLENGETABBTNVIEWMODEL_GET_BOSSICONPATH_OFFSET UNITYSDK_OFFSET(0x1A385F60)
+#define RPG_CLIENT_FATERIN_CHALLENGE_FATERINCHALLENGETABBTNVIEWMODEL_GET_FIGHTNAME_OFFSET UNITYSDK_OFFSET(0x1A385F50)
+#define RPG_CLIENT_FATERIN_CHALLENGE_FATERINCHALLENGETABBTNVIEWMODEL_GET_HAVEPASSED_OFFSET UNITYSDK_OFFSET(0x1A385F80)
+#define RPG_CLIENT_FATERIN_CHALLENGE_FATERINCHALLENGETABBTNVIEWMODEL_GET_INDEX_OFFSET UNITYSDK_OFFSET(0x1A385F30)
+#define RPG_CLIENT_FATERIN_CHALLENGE_FATERINCHALLENGETABBTNVIEWMODEL_GET_PASSEDLEVEL_OFFSET UNITYSDK_OFFSET(0x1A385F70)
+#define RPG_CLIENT_FATERIN_CHALLENGE_FATERINCHALLENGETABBTNVIEWMODEL_SET_INDEX_OFFSET UNITYSDK_OFFSET(0x1A385F40)
+#define RPG_CLIENT_FATERIN_CHALLENGE_FATERINCHALLENGETABBTNVIEWMODEL__CTOR_OFFSET UNITYSDK_OFFSET(0x1A3834A0)
+
+namespace RPG::Client::FateRin::Challenge
+{
+	inline static constexpr unsigned int FateRinChallengeTabBtnViewModel_TypeDefinitionIndex = 76075;
+
+	class FateRinChallengeTabBtnViewModel : public ::RPG::Client::FateRin::BaseViewModel
+	{
+	public:
+		::System::String* _BossIconPath_k__BackingField; // 0x20
+		::RPG::Client::TextID _FightName_k__BackingField; // 0x28
+		::System::Int32 _Index_k__BackingField; // 0x38
+		::System::UInt32 _PassedLevel_k__BackingField; // 0x3C
+
+		::System::Void _ctor(::Class_1_F681AD6B57DC77A7* a1, ::System::Int32 a2)
+		{
+			return ((::System::Void(*)(::PVOID, ::Class_1_F681AD6B57DC77A7*, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_FATERIN_CHALLENGE_FATERINCHALLENGETABBTNVIEWMODEL__CTOR_OFFSET))(this, a1, a2);
+		}
+
+		::System::Int32 get_Index()
+		{
+			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_FATERIN_CHALLENGE_FATERINCHALLENGETABBTNVIEWMODEL_GET_INDEX_OFFSET))(this);
+		}
+
+		::System::Void set_Index(::System::Int32 a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_FATERIN_CHALLENGE_FATERINCHALLENGETABBTNVIEWMODEL_SET_INDEX_OFFSET))(this, a1);
+		}
+
+		::RPG::Client::TextID get_FightName()
+		{
+			return ((::RPG::Client::TextID(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_FATERIN_CHALLENGE_FATERINCHALLENGETABBTNVIEWMODEL_GET_FIGHTNAME_OFFSET))(this);
+		}
+
+		::System::String* get_BossIconPath()
+		{
+			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_FATERIN_CHALLENGE_FATERINCHALLENGETABBTNVIEWMODEL_GET_BOSSICONPATH_OFFSET))(this);
+		}
+
+		::System::UInt32 get_PassedLevel()
+		{
+			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_FATERIN_CHALLENGE_FATERINCHALLENGETABBTNVIEWMODEL_GET_PASSEDLEVEL_OFFSET))(this);
+		}
+
+		::System::Boolean get_HavePassed()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_FATERIN_CHALLENGE_FATERINCHALLENGETABBTNVIEWMODEL_GET_HAVEPASSED_OFFSET))(this);
+		}
+	};
+}

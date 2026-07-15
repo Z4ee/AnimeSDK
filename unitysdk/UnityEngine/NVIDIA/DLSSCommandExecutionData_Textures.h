@@ -3,7 +3,7 @@
 
 namespace UnityEngine::NVIDIA
 {
-	inline static constexpr unsigned int DLSSCommandExecutionData_Textures_TypeDefinitionIndex = 5003;
+	inline static constexpr unsigned int DLSSCommandExecutionData_Textures_TypeDefinitionIndex = 5008;
 
 	enum class DLSSCommandExecutionData_Textures : ::System::Int32
 	{

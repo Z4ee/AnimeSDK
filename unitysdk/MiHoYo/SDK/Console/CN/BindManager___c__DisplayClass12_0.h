@@ -6,13 +6,13 @@ namespace MiHoYo::SDK { class NetworkResponseModel; }
 namespace MiHoYo::SDK::Console::CN { class BindManager; }
 namespace System { template <typename T> class Action_1; }
 
-#define MIHOYO_SDK_CONSOLE_CN_BINDMANAGER___C__DISPLAYCLASS12_0__CTOR_OFFSET UNITYSDK_OFFSET(0x182112F0)
-#define MIHOYO_SDK_CONSOLE_CN_BINDMANAGER___C__DISPLAYCLASS12_0__PERFORMBINDINGFLOW_B__0_OFFSET UNITYSDK_OFFSET(0x18213E00)
-#define MIHOYO_SDK_CONSOLE_CN_BINDMANAGER___C__DISPLAYCLASS12_0__PERFORMBINDINGFLOW_B__1_OFFSET UNITYSDK_OFFSET(0x18214210)
+#define MIHOYO_SDK_CONSOLE_CN_BINDMANAGER___C__DISPLAYCLASS12_0__CTOR_OFFSET UNITYSDK_OFFSET(0x18894820)
+#define MIHOYO_SDK_CONSOLE_CN_BINDMANAGER___C__DISPLAYCLASS12_0__PERFORMBINDINGFLOW_B__0_OFFSET UNITYSDK_OFFSET(0x18897470)
+#define MIHOYO_SDK_CONSOLE_CN_BINDMANAGER___C__DISPLAYCLASS12_0__PERFORMBINDINGFLOW_B__1_OFFSET UNITYSDK_OFFSET(0x18897900)
 
 namespace MiHoYo::SDK::Console::CN
 {
-	inline static constexpr unsigned int BindManager___c__DisplayClass12_0_TypeDefinitionIndex = 8767;
+	inline static constexpr unsigned int BindManager___c__DisplayClass12_0_TypeDefinitionIndex = 8779;
 
 	class BindManager___c__DisplayClass12_0 : public ::System::Object
 	{

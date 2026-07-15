@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int IdleLiveFuncUnlockType_TypeDefinitionIndex = 11227;
+	inline static constexpr unsigned int IdleLiveFuncUnlockType_TypeDefinitionIndex = 11327;
 
 	enum class IdleLiveFuncUnlockType : ::System::Int32
 	{

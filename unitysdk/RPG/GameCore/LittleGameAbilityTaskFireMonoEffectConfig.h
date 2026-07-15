@@ -7,13 +7,13 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class BaseLittleGameAbilityTargetSelectorConfig; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_LITTLEGAMEABILITYTASKFIREMONOEFFECTCONFIG_METHOD_4_1B0BE13CD0C425D4_OFFSET UNITYSDK_OFFSET(0x19896990)
-#define RPG_GAMECORE_LITTLEGAMEABILITYTASKFIREMONOEFFECTCONFIG_METHOD_4_8153A5890C4822B3_OFFSET UNITYSDK_OFFSET(0x19896A90)
-#define RPG_GAMECORE_LITTLEGAMEABILITYTASKFIREMONOEFFECTCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x19896A20)
+#define RPG_GAMECORE_LITTLEGAMEABILITYTASKFIREMONOEFFECTCONFIG_METHOD_4_8153A5890C4822B3_OFFSET UNITYSDK_OFFSET(0x1B0963C0)
+#define RPG_GAMECORE_LITTLEGAMEABILITYTASKFIREMONOEFFECTCONFIG_METHOD_4_F58D9F9F6EDAE77C_OFFSET UNITYSDK_OFFSET(0x1B096300)
+#define RPG_GAMECORE_LITTLEGAMEABILITYTASKFIREMONOEFFECTCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1B096370)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LittleGameAbilityTaskFireMonoEffectConfig_TypeDefinitionIndex = 20223;
+	inline static constexpr unsigned int LittleGameAbilityTaskFireMonoEffectConfig_TypeDefinitionIndex = 20597;
 
 	class LittleGameAbilityTaskFireMonoEffectConfig : public ::RPG::GameCore::BaseLittleGameAbilityTaskConfig
 	{
@@ -31,9 +31,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LITTLEGAMEABILITYTASKFIREMONOEFFECTCONFIG__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_4_1B0BE13CD0C425D4(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::LittleGameAbilityTaskFireMonoEffectConfig*& a2)
+		static ::System::Void Method_4_F58D9F9F6EDAE77C(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::LittleGameAbilityTaskFireMonoEffectConfig*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::LittleGameAbilityTaskFireMonoEffectConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LITTLEGAMEABILITYTASKFIREMONOEFFECTCONFIG_METHOD_4_1B0BE13CD0C425D4_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::LittleGameAbilityTaskFireMonoEffectConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LITTLEGAMEABILITYTASKFIREMONOEFFECTCONFIG_METHOD_4_F58D9F9F6EDAE77C_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_4_8153A5890C4822B3(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::LittleGameAbilityTaskFireMonoEffectConfig* a2)

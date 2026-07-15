@@ -7,9 +7,9 @@
 
 namespace UnityEngine { class AnimationCurve; }
 
-#define AIRSHIPENGINEBEHAVIORMODE__CTOR_OFFSET UNITYSDK_OFFSET(0x13BFE450)
+#define AIRSHIPENGINEBEHAVIORMODE__CTOR_OFFSET UNITYSDK_OFFSET(0x158D3AD0)
 
-inline static constexpr unsigned int AirshipEngineBehaviorMode_TypeDefinitionIndex = 44436;
+inline static constexpr unsigned int AirshipEngineBehaviorMode_TypeDefinitionIndex = 45306;
 
 class AirshipEngineBehaviorMode : public ::System::Object
 {

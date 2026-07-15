@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MailType_TypeDefinitionIndex = 14674;
+	inline static constexpr unsigned int MailType_TypeDefinitionIndex = 14833;
 
 	enum class MailType : ::System::Int32
 	{

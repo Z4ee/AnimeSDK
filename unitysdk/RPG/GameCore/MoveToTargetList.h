@@ -9,13 +9,13 @@ namespace RPG::GameCore { class DynamicFloat; }
 namespace RPG::GameCore { class TargetEvaluator; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_MOVETOTARGETLIST_METHOD_3_439FB2BC651E184E_OFFSET UNITYSDK_OFFSET(0x199B4250)
-#define RPG_GAMECORE_MOVETOTARGETLIST_METHOD_3_513BE0D63C05C07A_OFFSET UNITYSDK_OFFSET(0x199B4400)
-#define RPG_GAMECORE_MOVETOTARGETLIST__CTOR_OFFSET UNITYSDK_OFFSET(0x199B4290)
+#define RPG_GAMECORE_MOVETOTARGETLIST_METHOD_3_513BE0D63C05C07A_OFFSET UNITYSDK_OFFSET(0x1B1D05C0)
+#define RPG_GAMECORE_MOVETOTARGETLIST_METHOD_3_9F563A4666989320_OFFSET UNITYSDK_OFFSET(0x1B1D0300)
+#define RPG_GAMECORE_MOVETOTARGETLIST__CTOR_OFFSET UNITYSDK_OFFSET(0x1B1D0470)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MoveToTargetList_TypeDefinitionIndex = 21236;
+	inline static constexpr unsigned int MoveToTargetList_TypeDefinitionIndex = 21651;
 
 	class MoveToTargetList : public ::RPG::GameCore::TaskConfig
 	{
@@ -34,9 +34,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MOVETOTARGETLIST__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_439FB2BC651E184E(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::MoveToTargetList*& a2)
+		static ::System::Void Method_3_9F563A4666989320(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::MoveToTargetList*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::MoveToTargetList*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MOVETOTARGETLIST_METHOD_3_439FB2BC651E184E_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::MoveToTargetList*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MOVETOTARGETLIST_METHOD_3_9F563A4666989320_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_513BE0D63C05C07A(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::MoveToTargetList* a2)

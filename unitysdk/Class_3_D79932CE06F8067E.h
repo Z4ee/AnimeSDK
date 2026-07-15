@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class AdvStartTickFloatValue; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_D79932CE06F8067E_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x12388AC0)
-#define CLASS_3_D79932CE06F8067E__CTOR_OFFSET UNITYSDK_OFFSET(0x12388A90)
+#define CLASS_3_D79932CE06F8067E_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x140EBF20)
+#define CLASS_3_D79932CE06F8067E__CTOR_OFFSET UNITYSDK_OFFSET(0x140EBEF0)
 
-inline static constexpr unsigned int Class_3_D79932CE06F8067E_TypeDefinitionIndex = 54098;
+inline static constexpr unsigned int Class_3_D79932CE06F8067E_TypeDefinitionIndex = 55321;
 
 class Class_3_D79932CE06F8067E : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::AdvStartTickFloatValue*>
 {

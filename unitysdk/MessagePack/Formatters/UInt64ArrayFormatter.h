@@ -6,21 +6,21 @@
 
 namespace MessagePack { class MessagePackSerializerOptions; }
 
-#define MESSAGEPACK_FORMATTERS_UINT64ARRAYFORMATTER_DESERIALIZE_OFFSET UNITYSDK_OFFSET(0x181492F0)
-#define MESSAGEPACK_FORMATTERS_UINT64ARRAYFORMATTER_SERIALIZE_OFFSET UNITYSDK_OFFSET(0x18149130)
-#define MESSAGEPACK_FORMATTERS_UINT64ARRAYFORMATTER__CCTOR_OFFSET UNITYSDK_OFFSET(0x181494E0)
-#define MESSAGEPACK_FORMATTERS_UINT64ARRAYFORMATTER__CTOR_OFFSET UNITYSDK_OFFSET(0x18149120)
+#define MESSAGEPACK_FORMATTERS_UINT64ARRAYFORMATTER_DESERIALIZE_OFFSET UNITYSDK_OFFSET(0x14F78090)
+#define MESSAGEPACK_FORMATTERS_UINT64ARRAYFORMATTER_SERIALIZE_OFFSET UNITYSDK_OFFSET(0x14F77ED0)
+#define MESSAGEPACK_FORMATTERS_UINT64ARRAYFORMATTER__CCTOR_OFFSET UNITYSDK_OFFSET(0x14F78280)
+#define MESSAGEPACK_FORMATTERS_UINT64ARRAYFORMATTER__CTOR_OFFSET UNITYSDK_OFFSET(0x14F77EC0)
 
 namespace MessagePack::Formatters
 {
-	inline static constexpr unsigned int UInt64ArrayFormatter_TypeDefinitionIndex = 7415;
+	inline static constexpr unsigned int UInt64ArrayFormatter_TypeDefinitionIndex = 7421;
 
 	class UInt64ArrayFormatter : public ::System::Object
 	{
 	public:
 		static ::MessagePack::Formatters::UInt64ArrayFormatter** StaticGet_Instance()
 		{
-			return (::MessagePack::Formatters::UInt64ArrayFormatter**)Il2CppClass::FromTypeDefinitionIndex(UInt64ArrayFormatter_TypeDefinitionIndex)->GetStaticField(0x8E90);
+			return (::MessagePack::Formatters::UInt64ArrayFormatter**)Il2CppClass::FromTypeDefinitionIndex(UInt64ArrayFormatter_TypeDefinitionIndex)->GetStaticField(0x9640);
 		}
 
 		::System::Void _ctor()

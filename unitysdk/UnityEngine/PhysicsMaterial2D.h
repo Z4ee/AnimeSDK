@@ -4,12 +4,12 @@
 
 namespace System { class String; }
 
-#define UNITYENGINE_PHYSICSMATERIAL2D_CREATE_INTERNAL_OFFSET UNITYSDK_OFFSET(0x1B3246D0)
-#define UNITYENGINE_PHYSICSMATERIAL2D__CTOR_OFFSET UNITYSDK_OFFSET(0x1B3246C0)
+#define UNITYENGINE_PHYSICSMATERIAL2D_CREATE_INTERNAL_OFFSET UNITYSDK_OFFSET(0x1D2AB510)
+#define UNITYENGINE_PHYSICSMATERIAL2D__CTOR_OFFSET UNITYSDK_OFFSET(0x1D2AB500)
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int PhysicsMaterial2D_TypeDefinitionIndex = 5286;
+	inline static constexpr unsigned int PhysicsMaterial2D_TypeDefinitionIndex = 5291;
 
 	class PhysicsMaterial2D : public ::UnityEngine::Object
 	{

@@ -6,15 +6,15 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace SimpleJSON { class JSONNode; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_BYCURRENTAUDIOLANGUAGE_METHOD_4_5A7567C237C44263_OFFSET UNITYSDK_OFFSET(0x195420B0)
-#define RPG_GAMECORE_BYCURRENTAUDIOLANGUAGE_METHOD_4_950B873C87AB3580_OFFSET UNITYSDK_OFFSET(0x19541E60)
-#define RPG_GAMECORE_BYCURRENTAUDIOLANGUAGE_METHOD_4_E648914BB4840DAE_OFFSET UNITYSDK_OFFSET(0x19541F30)
-#define RPG_GAMECORE_BYCURRENTAUDIOLANGUAGE_METHOD_4_E6EE6D5838547002_OFFSET UNITYSDK_OFFSET(0x19542130)
-#define RPG_GAMECORE_BYCURRENTAUDIOLANGUAGE__CTOR_OFFSET UNITYSDK_OFFSET(0x19541EE0)
+#define RPG_GAMECORE_BYCURRENTAUDIOLANGUAGE_METHOD_4_37CE5D358D59233F_OFFSET UNITYSDK_OFFSET(0x1A8B7F40)
+#define RPG_GAMECORE_BYCURRENTAUDIOLANGUAGE_METHOD_4_45B7EF9E7631941D_OFFSET UNITYSDK_OFFSET(0x1A8B8130)
+#define RPG_GAMECORE_BYCURRENTAUDIOLANGUAGE_METHOD_4_E648914BB4840DAE_OFFSET UNITYSDK_OFFSET(0x1A8B7F80)
+#define RPG_GAMECORE_BYCURRENTAUDIOLANGUAGE_METHOD_4_F13E99E5FDE56B3A_OFFSET UNITYSDK_OFFSET(0x1A8B8100)
+#define RPG_GAMECORE_BYCURRENTAUDIOLANGUAGE__CTOR_OFFSET UNITYSDK_OFFSET(0x1A8B7F70)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ByCurrentAudioLanguage_TypeDefinitionIndex = 22510;
+	inline static constexpr unsigned int ByCurrentAudioLanguage_TypeDefinitionIndex = 22960;
 
 	class ByCurrentAudioLanguage : public ::RPG::GameCore::PredicateConfig
 	{
@@ -26,9 +26,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYCURRENTAUDIOLANGUAGE__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_4_950B873C87AB3580(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ByCurrentAudioLanguage*& a2)
+		static ::System::Void Method_4_37CE5D358D59233F(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ByCurrentAudioLanguage*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ByCurrentAudioLanguage*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYCURRENTAUDIOLANGUAGE_METHOD_4_950B873C87AB3580_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ByCurrentAudioLanguage*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYCURRENTAUDIOLANGUAGE_METHOD_4_37CE5D358D59233F_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_4_E648914BB4840DAE(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ByCurrentAudioLanguage* a2)
@@ -36,14 +36,14 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ByCurrentAudioLanguage*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYCURRENTAUDIOLANGUAGE_METHOD_4_E648914BB4840DAE_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_4_5A7567C237C44263(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::ByCurrentAudioLanguage*& a2)
+		static ::System::Void Method_4_F13E99E5FDE56B3A(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::ByCurrentAudioLanguage*& a2)
 		{
-			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::ByCurrentAudioLanguage*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYCURRENTAUDIOLANGUAGE_METHOD_4_5A7567C237C44263_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::ByCurrentAudioLanguage*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYCURRENTAUDIOLANGUAGE_METHOD_4_F13E99E5FDE56B3A_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_4_E6EE6D5838547002(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::ByCurrentAudioLanguage* a2)
+		static ::System::Void Method_4_45B7EF9E7631941D(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::ByCurrentAudioLanguage* a2)
 		{
-			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::ByCurrentAudioLanguage*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYCURRENTAUDIOLANGUAGE_METHOD_4_E6EE6D5838547002_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::ByCurrentAudioLanguage*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYCURRENTAUDIOLANGUAGE_METHOD_4_45B7EF9E7631941D_OFFSET))(a1, a2);
 		}
 	};
 }

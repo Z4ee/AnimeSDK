@@ -7,12 +7,12 @@ namespace System { template <typename T1, typename T2> class Func_2; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class IComparer_1; }
 
-#define RPG_CLIENT_TRAINPARTY_TRAINPARTYBUILDDISPLAYWALLCONTEXT_SLOTCOMPARERSELECTOR_GETCOMPARER_OFFSET UNITYSDK_OFFSET(0xCA96A50)
-#define RPG_CLIENT_TRAINPARTY_TRAINPARTYBUILDDISPLAYWALLCONTEXT_SLOTCOMPARERSELECTOR__CTOR_OFFSET UNITYSDK_OFFSET(0xCA96CC0)
+#define RPG_CLIENT_TRAINPARTY_TRAINPARTYBUILDDISPLAYWALLCONTEXT_SLOTCOMPARERSELECTOR_GETCOMPARER_OFFSET UNITYSDK_OFFSET(0x1A2A93B0)
+#define RPG_CLIENT_TRAINPARTY_TRAINPARTYBUILDDISPLAYWALLCONTEXT_SLOTCOMPARERSELECTOR__CTOR_OFFSET UNITYSDK_OFFSET(0x1A2A9620)
 
 namespace RPG::Client::TrainParty
 {
-	inline static constexpr unsigned int TrainPartyBuildDisplayWallContext_SlotComparerSelector_TypeDefinitionIndex = 69371;
+	inline static constexpr unsigned int TrainPartyBuildDisplayWallContext_SlotComparerSelector_TypeDefinitionIndex = 70892;
 
 	class TrainPartyBuildDisplayWallContext_SlotComparerSelector : public ::System::Object
 	{

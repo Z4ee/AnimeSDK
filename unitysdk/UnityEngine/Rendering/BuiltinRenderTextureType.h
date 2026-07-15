@@ -3,7 +3,7 @@
 
 namespace UnityEngine::Rendering
 {
-	inline static constexpr unsigned int BuiltinRenderTextureType_TypeDefinitionIndex = 4686;
+	inline static constexpr unsigned int BuiltinRenderTextureType_TypeDefinitionIndex = 4691;
 
 	enum class BuiltinRenderTextureType : ::System::Int32
 	{

@@ -6,7 +6,7 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int AtomicObject_1_TypeDefinitionIndex = 55735;
+	inline static constexpr unsigned int AtomicObject_1_TypeDefinitionIndex = 56972;
 
 	template <typename T>
 	class AtomicObject_1 : public ::System::Object

@@ -4,24 +4,24 @@
 
 namespace System { class Action; }
 
-#define RPG_CLIENT_CHENLINGBATTLE_CHENLINGBATTLEEFFECTCONTROLLER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xB5A8690)
-#define RPG_CLIENT_CHENLINGBATTLE_CHENLINGBATTLEEFFECTCONTROLLER___C__CTOR_OFFSET UNITYSDK_OFFSET(0xB5A86D0)
-#define RPG_CLIENT_CHENLINGBATTLE_CHENLINGBATTLEEFFECTCONTROLLER___C__PLAYLOOPPARTICLEEFFECTBYPATH_B__8_0_OFFSET UNITYSDK_OFFSET(0xB5A86E0)
+#define RPG_CLIENT_CHENLINGBATTLE_CHENLINGBATTLEEFFECTCONTROLLER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1963B740)
+#define RPG_CLIENT_CHENLINGBATTLE_CHENLINGBATTLEEFFECTCONTROLLER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1963B780)
+#define RPG_CLIENT_CHENLINGBATTLE_CHENLINGBATTLEEFFECTCONTROLLER___C__PLAYLOOPPARTICLEEFFECTBYPATH_B__8_0_OFFSET UNITYSDK_OFFSET(0x1963B790)
 
 namespace RPG::Client::ChenLingBattle
 {
-	inline static constexpr unsigned int ChenLingBattleEffectController___c_TypeDefinitionIndex = 70976;
+	inline static constexpr unsigned int ChenLingBattleEffectController___c_TypeDefinitionIndex = 72489;
 
 	class ChenLingBattleEffectController___c : public ::System::Object
 	{
 	public:
-		static ::System::Action** StaticGet___9__8_0()
-		{
-			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(ChenLingBattleEffectController___c_TypeDefinitionIndex)->GetStaticField(0x5CC50);
-		}
 		static ::RPG::Client::ChenLingBattle::ChenLingBattleEffectController___c** StaticGet___9()
 		{
-			return (::RPG::Client::ChenLingBattle::ChenLingBattleEffectController___c**)Il2CppClass::FromTypeDefinitionIndex(ChenLingBattleEffectController___c_TypeDefinitionIndex)->GetStaticField(0x5CC58);
+			return (::RPG::Client::ChenLingBattle::ChenLingBattleEffectController___c**)Il2CppClass::FromTypeDefinitionIndex(ChenLingBattleEffectController___c_TypeDefinitionIndex)->GetStaticField(0x64380);
+		}
+		static ::System::Action** StaticGet___9__8_0()
+		{
+			return (::System::Action**)Il2CppClass::FromTypeDefinitionIndex(ChenLingBattleEffectController___c_TypeDefinitionIndex)->GetStaticField(0x64388);
 		}
 
 		static ::System::Void _cctor()

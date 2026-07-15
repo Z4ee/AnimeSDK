@@ -3,7 +3,7 @@
 
 namespace ZenFulcrum::VR::OpenVRBinding
 {
-	inline static constexpr unsigned int ECollisionBoundsStyle_TypeDefinitionIndex = 36294;
+	inline static constexpr unsigned int ECollisionBoundsStyle_TypeDefinitionIndex = 37076;
 
 	enum class ECollisionBoundsStyle : ::System::Int32
 	{

@@ -5,13 +5,13 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_LENSGLITCHEFFECT_METHOD_3_2DCC22DAE115DD8B_OFFSET UNITYSDK_OFFSET(0x1986BE20)
-#define RPG_GAMECORE_LENSGLITCHEFFECT_METHOD_3_DD2DCA8FDC6DCFFF_OFFSET UNITYSDK_OFFSET(0x1986BEE0)
-#define RPG_GAMECORE_LENSGLITCHEFFECT__CTOR_OFFSET UNITYSDK_OFFSET(0x1986BE90)
+#define RPG_GAMECORE_LENSGLITCHEFFECT_METHOD_3_1D87B081ACB017BB_OFFSET UNITYSDK_OFFSET(0x1B02BE80)
+#define RPG_GAMECORE_LENSGLITCHEFFECT_METHOD_3_DD2DCA8FDC6DCFFF_OFFSET UNITYSDK_OFFSET(0x1B02BF10)
+#define RPG_GAMECORE_LENSGLITCHEFFECT__CTOR_OFFSET UNITYSDK_OFFSET(0x1B02BEE0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LensGlitchEffect_TypeDefinitionIndex = 21167;
+	inline static constexpr unsigned int LensGlitchEffect_TypeDefinitionIndex = 21582;
 
 	class LensGlitchEffect : public ::RPG::GameCore::TaskConfig
 	{
@@ -34,9 +34,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LENSGLITCHEFFECT__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_2DCC22DAE115DD8B(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::LensGlitchEffect*& a2)
+		static ::System::Void Method_3_1D87B081ACB017BB(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::LensGlitchEffect*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::LensGlitchEffect*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LENSGLITCHEFFECT_METHOD_3_2DCC22DAE115DD8B_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::LensGlitchEffect*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LENSGLITCHEFFECT_METHOD_3_1D87B081ACB017BB_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_DD2DCA8FDC6DCFFF(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::LensGlitchEffect* a2)

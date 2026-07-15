@@ -5,21 +5,21 @@
 namespace System { class String; }
 namespace System::Xml::Serialization { class XmlSerializationFixupCallback; }
 
-#define SYSTEM_XML_SERIALIZATION_XMLSERIALIZATIONREADER_FIXUP_GET_CALLBACK_OFFSET UNITYSDK_OFFSET(0x1AE88BA0)
-#define SYSTEM_XML_SERIALIZATION_XMLSERIALIZATIONREADER_FIXUP_GET_IDS_OFFSET UNITYSDK_OFFSET(0x1AE88BB0)
-#define SYSTEM_XML_SERIALIZATION_XMLSERIALIZATIONREADER_FIXUP_GET_SOURCE_OFFSET UNITYSDK_OFFSET(0x1AE88BC0)
-#define SYSTEM_XML_SERIALIZATION_XMLSERIALIZATIONREADER_FIXUP__CTOR_OFFSET UNITYSDK_OFFSET(0x1AE88B70)
+#define SYSTEM_XML_SERIALIZATION_XMLSERIALIZATIONREADER_FIXUP_GET_CALLBACK_OFFSET UNITYSDK_OFFSET(0x162912C0)
+#define SYSTEM_XML_SERIALIZATION_XMLSERIALIZATIONREADER_FIXUP_GET_IDS_OFFSET UNITYSDK_OFFSET(0x162912D0)
+#define SYSTEM_XML_SERIALIZATION_XMLSERIALIZATIONREADER_FIXUP_GET_SOURCE_OFFSET UNITYSDK_OFFSET(0x162912E0)
+#define SYSTEM_XML_SERIALIZATION_XMLSERIALIZATIONREADER_FIXUP__CTOR_OFFSET UNITYSDK_OFFSET(0x16291290)
 
 namespace System::Xml::Serialization
 {
-	inline static constexpr unsigned int XmlSerializationReader_Fixup_TypeDefinitionIndex = 2019;
+	inline static constexpr unsigned int XmlSerializationReader_Fixup_TypeDefinitionIndex = 2023;
 
 	class XmlSerializationReader_Fixup : public ::System::Object
 	{
 	public:
-		::System::Object* source; // 0x10
-		::Il2CppArray<::System::String*>* ids; // 0x18
-		::System::Xml::Serialization::XmlSerializationFixupCallback* callback; // 0x20
+		::Il2CppArray<::System::String*>* ids; // 0x10
+		::System::Xml::Serialization::XmlSerializationFixupCallback* callback; // 0x18
+		::System::Object* source; // 0x20
 
 		::System::Void _ctor(::System::Object* a1, ::System::Xml::Serialization::XmlSerializationFixupCallback* a2, ::System::Int32 a3)
 		{

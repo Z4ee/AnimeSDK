@@ -1,35 +1,37 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-#include "unitysdk/UnityEngine/Rect.h"
 
-#define CLASS_1_43BD383C98B4C0C5_129_METHOD_1_A1D8CD775DEC3C21_1_OFFSET UNITYSDK_OFFSET(0x14202210)
-#define CLASS_1_43BD383C98B4C0C5_129_METHOD_1_A1D8CD775DEC3C21_OFFSET UNITYSDK_OFFSET(0x142021C0)
-#define CLASS_1_43BD383C98B4C0C5_129_METHOD_1_B66F3196172D9FA5_OFFSET UNITYSDK_OFFSET(0x14202140)
-#define CLASS_1_43BD383C98B4C0C5_129__CTOR_OFFSET UNITYSDK_OFFSET(0x14202260)
+namespace System { class String; }
 
-inline static constexpr unsigned int Class_1_43BD383C98B4C0C5_129_TypeDefinitionIndex = 56162;
+#define CLASS_1_43BD383C98B4C0C5_129__CTOR_OFFSET UNITYSDK_OFFSET(0x18601620)
+
+inline static constexpr unsigned int Class_1_43BD383C98B4C0C5_129_TypeDefinitionIndex = 57022;
 
 class Class_1_43BD383C98B4C0C5_129 : public ::System::Object
 {
 public:
+	// static const ::System::String* Field_1_0; // 0x0
+	// static const ::System::String* Field_1_1; // 0x0
+	// static const ::System::String* Field_1_2; // 0x0
+	// static const ::System::String* Field_1_3; // 0x0
+	// static const ::System::String* Field_1_4; // 0x0
+	// static const ::System::String* Field_1_5; // 0x0
+	// static const ::System::String* Field_1_6; // 0x0
+	// static const ::System::String* Field_1_7; // 0x0
+	// static const ::System::String* Field_1_8; // 0x0
+	// static const ::System::String* Field_1_9; // 0x0
+	// static const ::System::String* Field_1_10; // 0x0
+	// static const ::System::String* Field_1_11; // 0x0
+	// static const ::System::String* Field_1_12; // 0x0
+	// static const ::System::String* Field_1_13; // 0x0
+	// static const ::System::String* Field_1_14; // 0x0
+	// static const ::System::String* Field_1_15; // 0x0
+	// static const ::System::String* Field_1_16; // 0x0
+	// static const ::System::String* Field_1_17; // 0x0
+
 	::System::Void _ctor()
 	{
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_43BD383C98B4C0C5_129__CTOR_OFFSET))(this);
-	}
-
-	::UnityEngine::Rect Method_1_B66F3196172D9FA5()
-	{
-		return ((::UnityEngine::Rect(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_43BD383C98B4C0C5_129_METHOD_1_B66F3196172D9FA5_OFFSET))(this);
-	}
-
-	::System::Int32 Method_1_A1D8CD775DEC3C21()
-	{
-		return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_43BD383C98B4C0C5_129_METHOD_1_A1D8CD775DEC3C21_OFFSET))(this);
-	}
-
-	::System::Int32 Method_1_A1D8CD775DEC3C21_1()
-	{
-		return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_43BD383C98B4C0C5_129_METHOD_1_A1D8CD775DEC3C21_1_OFFSET))(this);
 	}
 };

@@ -5,12 +5,12 @@
 
 namespace UnityEngine { class Animator; }
 
-#define RPG_CLIENT_MONOANIMATORDEFAULTVALUECONFIGURE_AWAKE_OFFSET UNITYSDK_OFFSET(0xC057960)
-#define RPG_CLIENT_MONOANIMATORDEFAULTVALUECONFIGURE__CTOR_OFFSET UNITYSDK_OFFSET(0xC057B20)
+#define RPG_CLIENT_MONOANIMATORDEFAULTVALUECONFIGURE_AWAKE_OFFSET UNITYSDK_OFFSET(0x18074330)
+#define RPG_CLIENT_MONOANIMATORDEFAULTVALUECONFIGURE__CTOR_OFFSET UNITYSDK_OFFSET(0x180744F0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MonoAnimatorDefaultValueConfigure_TypeDefinitionIndex = 64093;
+	inline static constexpr unsigned int MonoAnimatorDefaultValueConfigure_TypeDefinitionIndex = 65464;
 
 	class MonoAnimatorDefaultValueConfigure : public ::UnityEngine::MonoBehaviour
 	{

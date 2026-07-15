@@ -7,13 +7,13 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class TargetEvaluator; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_ADVCHASEBAILU_METHOD_3_3A445E2F7AC24116_OFFSET UNITYSDK_OFFSET(0x1941EB00)
-#define RPG_GAMECORE_ADVCHASEBAILU_METHOD_3_51A49F37820B5931_OFFSET UNITYSDK_OFFSET(0x1941EA60)
-#define RPG_GAMECORE_ADVCHASEBAILU__CTOR_OFFSET UNITYSDK_OFFSET(0x1941EAC0)
+#define RPG_GAMECORE_ADVCHASEBAILU_METHOD_3_3A445E2F7AC24116_OFFSET UNITYSDK_OFFSET(0x1BE17990)
+#define RPG_GAMECORE_ADVCHASEBAILU_METHOD_3_8CE824B40E095E66_OFFSET UNITYSDK_OFFSET(0x1BE17920)
+#define RPG_GAMECORE_ADVCHASEBAILU__CTOR_OFFSET UNITYSDK_OFFSET(0x1BE17970)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AdvChaseBailu_TypeDefinitionIndex = 21004;
+	inline static constexpr unsigned int AdvChaseBailu_TypeDefinitionIndex = 21419;
 
 	class AdvChaseBailu : public ::RPG::GameCore::TaskConfig
 	{
@@ -40,9 +40,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVCHASEBAILU__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_51A49F37820B5931(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AdvChaseBailu*& a2)
+		static ::System::Void Method_3_8CE824B40E095E66(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AdvChaseBailu*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::AdvChaseBailu*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVCHASEBAILU_METHOD_3_51A49F37820B5931_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::AdvChaseBailu*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVCHASEBAILU_METHOD_3_8CE824B40E095E66_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_3A445E2F7AC24116(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AdvChaseBailu* a2)

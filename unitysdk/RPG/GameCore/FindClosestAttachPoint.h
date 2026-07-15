@@ -6,13 +6,13 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class TargetEvaluator; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_FINDCLOSESTATTACHPOINT_METHOD_3_5193A101489C550A_OFFSET UNITYSDK_OFFSET(0x19720E90)
-#define RPG_GAMECORE_FINDCLOSESTATTACHPOINT_METHOD_3_6821718A82485C7D_OFFSET UNITYSDK_OFFSET(0x19720F10)
-#define RPG_GAMECORE_FINDCLOSESTATTACHPOINT__CTOR_OFFSET UNITYSDK_OFFSET(0x19720EE0)
+#define RPG_GAMECORE_FINDCLOSESTATTACHPOINT_METHOD_3_24915EF80F611194_OFFSET UNITYSDK_OFFSET(0x1BA81170)
+#define RPG_GAMECORE_FINDCLOSESTATTACHPOINT_METHOD_3_6821718A82485C7D_OFFSET UNITYSDK_OFFSET(0x1BA811B0)
+#define RPG_GAMECORE_FINDCLOSESTATTACHPOINT__CTOR_OFFSET UNITYSDK_OFFSET(0x1BA811A0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FindClosestAttachPoint_TypeDefinitionIndex = 21230;
+	inline static constexpr unsigned int FindClosestAttachPoint_TypeDefinitionIndex = 21645;
 
 	class FindClosestAttachPoint : public ::RPG::GameCore::TaskConfig
 	{
@@ -27,9 +27,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FINDCLOSESTATTACHPOINT__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_5193A101489C550A(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::FindClosestAttachPoint*& a2)
+		static ::System::Void Method_3_24915EF80F611194(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::FindClosestAttachPoint*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::FindClosestAttachPoint*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FINDCLOSESTATTACHPOINT_METHOD_3_5193A101489C550A_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::FindClosestAttachPoint*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FINDCLOSESTATTACHPOINT_METHOD_3_24915EF80F611194_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_6821718A82485C7D(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::FindClosestAttachPoint* a2)

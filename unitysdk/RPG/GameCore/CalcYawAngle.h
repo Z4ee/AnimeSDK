@@ -7,13 +7,13 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class TargetEvaluator; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_CALCYAWANGLE_METHOD_3_5262ADC707A26CAC_OFFSET UNITYSDK_OFFSET(0x195F2B70)
-#define RPG_GAMECORE_CALCYAWANGLE_METHOD_3_5943AA44D46F100E_OFFSET UNITYSDK_OFFSET(0x195F2BF0)
-#define RPG_GAMECORE_CALCYAWANGLE__CTOR_OFFSET UNITYSDK_OFFSET(0x195F2BC0)
+#define RPG_GAMECORE_CALCYAWANGLE_METHOD_3_5943AA44D46F100E_OFFSET UNITYSDK_OFFSET(0x1B7082B0)
+#define RPG_GAMECORE_CALCYAWANGLE_METHOD_3_B7C73D7C6C5B4047_OFFSET UNITYSDK_OFFSET(0x1B708270)
+#define RPG_GAMECORE_CALCYAWANGLE__CTOR_OFFSET UNITYSDK_OFFSET(0x1B7082A0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int CalcYawAngle_TypeDefinitionIndex = 19108;
+	inline static constexpr unsigned int CalcYawAngle_TypeDefinitionIndex = 19463;
 
 	class CalcYawAngle : public ::RPG::GameCore::TaskConfig
 	{
@@ -31,9 +31,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CALCYAWANGLE__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_5262ADC707A26CAC(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::CalcYawAngle*& a2)
+		static ::System::Void Method_3_B7C73D7C6C5B4047(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::CalcYawAngle*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::CalcYawAngle*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CALCYAWANGLE_METHOD_3_5262ADC707A26CAC_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::CalcYawAngle*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CALCYAWANGLE_METHOD_3_B7C73D7C6C5B4047_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_5943AA44D46F100E(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::CalcYawAngle* a2)

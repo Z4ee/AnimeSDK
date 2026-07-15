@@ -6,12 +6,12 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_RESTAURANTFARMCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x19AD59E0)
-#define RPG_GAMECORE_RESTAURANTFARMCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x19AD5C60)
+#define RPG_GAMECORE_RESTAURANTFARMCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D021FD0)
+#define RPG_GAMECORE_RESTAURANTFARMCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D022250)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RestaurantFarmConfigRow_TypeDefinitionIndex = 10931;
+	inline static constexpr unsigned int RestaurantFarmConfigRow_TypeDefinitionIndex = 10981;
 
 	class RestaurantFarmConfigRow : public ::System::Object
 	{
@@ -19,9 +19,9 @@ namespace RPG::GameCore
 		::Il2CppArray<::System::UInt32>* FieldIDList; // 0x10
 		::Il2CppArray<::System::UInt32>* UnlockIDList; // 0x18
 		::RPG::GameCore::RestaurantFarmType Type; // 0x20
-		::System::UInt32 ManagerEmployeeID; // 0x24
+		::System::UInt32 FarmID; // 0x24
 		::RPG::Client::TextID Name; // 0x28
-		::System::UInt32 FarmID; // 0x38
+		::System::UInt32 ManagerEmployeeID; // 0x38
 
 		::System::Void _ctor()
 		{

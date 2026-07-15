@@ -3,10 +3,10 @@
 #include "unitysdk/System/ValueType.h"
 #include "unitysdk/UnityEngine/Vector2.h"
 
-#define CLASS_1_2BC1F0DE405AE0D4_SEGMENT_GET_CENTER_OFFSET UNITYSDK_OFFSET(0x2BC61B0)
-#define CLASS_1_2BC1F0DE405AE0D4_SEGMENT__CTOR_OFFSET UNITYSDK_OFFSET(0x80F20)
+#define CLASS_1_2BC1F0DE405AE0D4_SEGMENT_GET_CENTER_OFFSET UNITYSDK_OFFSET(0x38CC4E0)
+#define CLASS_1_2BC1F0DE405AE0D4_SEGMENT__CTOR_OFFSET UNITYSDK_OFFSET(0x676D90)
 
-inline static constexpr unsigned int Class_1_2BC1F0DE405AE0D4_Segment_TypeDefinitionIndex = 64827;
+inline static constexpr unsigned int Class_1_2BC1F0DE405AE0D4_Segment_TypeDefinitionIndex = 66228;
 
 struct alignas(4) Class_1_2BC1F0DE405AE0D4_Segment
 {

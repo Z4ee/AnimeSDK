@@ -5,12 +5,12 @@
 
 namespace System { class String; }
 
-#define RPGTOOLS_TIMELINE_VFX_PAGETEARCONFIG_METHOD_1_79A0DD953C362A58_OFFSET UNITYSDK_OFFSET(0xD06A0E0)
-#define RPGTOOLS_TIMELINE_VFX_PAGETEARCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0xD06A160)
+#define RPGTOOLS_TIMELINE_VFX_PAGETEARCONFIG_METHOD_1_79A0DD953C362A58_OFFSET UNITYSDK_OFFSET(0x19F5B0C0)
+#define RPGTOOLS_TIMELINE_VFX_PAGETEARCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x19F5B140)
 
 namespace RPGTools::Timeline::VFX
 {
-	inline static constexpr unsigned int PageTearConfig_TypeDefinitionIndex = 45946;
+	inline static constexpr unsigned int PageTearConfig_TypeDefinitionIndex = 46885;
 
 	class PageTearConfig : public ::System::Object
 	{

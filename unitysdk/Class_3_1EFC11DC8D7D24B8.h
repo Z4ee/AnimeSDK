@@ -5,12 +5,11 @@
 namespace RPG::GameCore { class SetEffectProgress; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_1EFC11DC8D7D24B8_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1363E570)
-#define CLASS_3_1EFC11DC8D7D24B8_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1363E5B0)
-#define CLASS_3_1EFC11DC8D7D24B8__CTOR_OFFSET UNITYSDK_OFFSET(0x1363E540)
-#define CLASS_3_1EFC11DC8D7D24B8___IFIXBASEPROXY_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1363E890)
+#define CLASS_3_1EFC11DC8D7D24B8_DISPOSE_OFFSET UNITYSDK_OFFSET(0x17F030F0)
+#define CLASS_3_1EFC11DC8D7D24B8_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x17F03130)
+#define CLASS_3_1EFC11DC8D7D24B8__CTOR_OFFSET UNITYSDK_OFFSET(0x17F030C0)
 
-inline static constexpr unsigned int Class_3_1EFC11DC8D7D24B8_TypeDefinitionIndex = 51834;
+inline static constexpr unsigned int Class_3_1EFC11DC8D7D24B8_TypeDefinitionIndex = 52982;
 
 class Class_3_1EFC11DC8D7D24B8 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::SetEffectProgress*>
 {
@@ -28,10 +27,5 @@ public:
 	::System::Void OnTaskBegin()
 	{
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_3_1EFC11DC8D7D24B8_ONTASKBEGIN_OFFSET))(this);
-	}
-
-	::System::Void __iFixBaseProxy_Dispose()
-	{
-		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_3_1EFC11DC8D7D24B8___IFIXBASEPROXY_DISPOSE_OFFSET))(this);
 	}
 };

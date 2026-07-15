@@ -9,24 +9,24 @@ namespace RPG::Client { class PhotoGraphResultCondition; }
 namespace RPG::GameCore { class PhotoGraphShotResultCondition; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define RPG_CLIENT_PHOTOGRAPHRESULTCONDITIONPACK_CHECKRESULT_OFFSET UNITYSDK_OFFSET(0xC3829A0)
-#define RPG_CLIENT_PHOTOGRAPHRESULTCONDITIONPACK_DISPOSE_OFFSET UNITYSDK_OFFSET(0xC382A30)
-#define RPG_CLIENT_PHOTOGRAPHRESULTCONDITIONPACK_TICK_OFFSET UNITYSDK_OFFSET(0xC382870)
-#define RPG_CLIENT_PHOTOGRAPHRESULTCONDITIONPACK__CTOR_OFFSET UNITYSDK_OFFSET(0xC3826E0)
+#define RPG_CLIENT_PHOTOGRAPHRESULTCONDITIONPACK_CHECKRESULT_OFFSET UNITYSDK_OFFSET(0x17F616E0)
+#define RPG_CLIENT_PHOTOGRAPHRESULTCONDITIONPACK_DISPOSE_OFFSET UNITYSDK_OFFSET(0x17F61770)
+#define RPG_CLIENT_PHOTOGRAPHRESULTCONDITIONPACK_TICK_OFFSET UNITYSDK_OFFSET(0x17F615B0)
+#define RPG_CLIENT_PHOTOGRAPHRESULTCONDITIONPACK__CTOR_OFFSET UNITYSDK_OFFSET(0x17F61420)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int PhotoGraphResultConditionPack_TypeDefinitionIndex = 64926;
+	inline static constexpr unsigned int PhotoGraphResultConditionPack_TypeDefinitionIndex = 66328;
 
 	class PhotoGraphResultConditionPack : public ::System::Object
 	{
 	public:
-		::Il2CppArray<::RPG::Client::PhotoGraphResultCondition*>* PhotoGraphResultSingleConditions; // 0x10
-		::Class_3_B8A086DB341E9298* _ResultChange; // 0x18
-		::RPG::Client::TextID ConditionName; // 0x20
-		::RPG::GameCore::PhotoGraphFovLevel TargetFovLevel; // 0x30
-		::System::Boolean _LastResult; // 0x34
-		::System::Boolean AutoSnapFovLevel; // 0x35
+		::Class_3_B8A086DB341E9298* _ResultChange; // 0x10
+		::Il2CppArray<::RPG::Client::PhotoGraphResultCondition*>* PhotoGraphResultSingleConditions; // 0x18
+		::System::Boolean _LastResult; // 0x20
+		::System::Boolean AutoSnapFovLevel; // 0x21
+		::RPG::GameCore::PhotoGraphFovLevel TargetFovLevel; // 0x24
+		::RPG::Client::TextID ConditionName; // 0x28
 
 		::System::Void _ctor(::RPG::GameCore::PhotoGraphShotResultCondition* a1, ::RPG::GameCore::TaskContext* a2, ::Class_3_B8A086DB341E9298* a3)
 		{

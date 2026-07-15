@@ -6,13 +6,13 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class DynamicFloat; }
 namespace RPG::GameCore { class DynamicString; }
 
-#define RPG_GAMECORE_TRIGGERENTITYEVENT_METHOD_3_219BE872DA3B94A6_OFFSET UNITYSDK_OFFSET(0x19E149E0)
-#define RPG_GAMECORE_TRIGGERENTITYEVENT_METHOD_3_71FDD92D94D8B471_OFFSET UNITYSDK_OFFSET(0x19E14A60)
-#define RPG_GAMECORE_TRIGGERENTITYEVENT__CTOR_OFFSET UNITYSDK_OFFSET(0x19E14A30)
+#define RPG_GAMECORE_TRIGGERENTITYEVENT_METHOD_3_71FDD92D94D8B471_OFFSET UNITYSDK_OFFSET(0x1B055AB0)
+#define RPG_GAMECORE_TRIGGERENTITYEVENT_METHOD_3_8D6410A492148874_OFFSET UNITYSDK_OFFSET(0x1B055A70)
+#define RPG_GAMECORE_TRIGGERENTITYEVENT__CTOR_OFFSET UNITYSDK_OFFSET(0x1B055AA0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TriggerEntityEvent_TypeDefinitionIndex = 19577;
+	inline static constexpr unsigned int TriggerEntityEvent_TypeDefinitionIndex = 19936;
 
 	class TriggerEntityEvent : public ::RPG::GameCore::TaskConfig
 	{
@@ -25,9 +25,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TRIGGERENTITYEVENT__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_219BE872DA3B94A6(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::TriggerEntityEvent*& a2)
+		static ::System::Void Method_3_8D6410A492148874(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::TriggerEntityEvent*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::TriggerEntityEvent*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TRIGGERENTITYEVENT_METHOD_3_219BE872DA3B94A6_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::TriggerEntityEvent*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TRIGGERENTITYEVENT_METHOD_3_8D6410A492148874_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_71FDD92D94D8B471(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::TriggerEntityEvent* a2)

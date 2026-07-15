@@ -3,7 +3,7 @@
 
 namespace System::Diagnostics
 {
-	inline static constexpr unsigned int Process_State_TypeDefinitionIndex = 2537;
+	inline static constexpr unsigned int Process_State_TypeDefinitionIndex = 2541;
 
 	enum class Process_State : ::System::Int32
 	{

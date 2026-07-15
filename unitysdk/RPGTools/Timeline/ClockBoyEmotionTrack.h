@@ -7,15 +7,13 @@
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine::Timeline { class TimelineClip; }
 
-#define RPGTOOLS_TIMELINE_CLOCKBOYEMOTIONTRACK_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0xCFF9890)
-#define RPGTOOLS_TIMELINE_CLOCKBOYEMOTIONTRACK_ONCREATECLIP_OFFSET UNITYSDK_OFFSET(0xCFF99D0)
-#define RPGTOOLS_TIMELINE_CLOCKBOYEMOTIONTRACK__CTOR_OFFSET UNITYSDK_OFFSET(0xCFF9C30)
-#define RPGTOOLS_TIMELINE_CLOCKBOYEMOTIONTRACK___IFIXBASEPROXY_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0xCFF9D10)
-#define RPGTOOLS_TIMELINE_CLOCKBOYEMOTIONTRACK___IFIXBASEPROXY_ONCREATECLIP_OFFSET UNITYSDK_OFFSET(0xCFF9D50)
+#define RPGTOOLS_TIMELINE_CLOCKBOYEMOTIONTRACK_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0x1B361880)
+#define RPGTOOLS_TIMELINE_CLOCKBOYEMOTIONTRACK_ONCREATECLIP_OFFSET UNITYSDK_OFFSET(0x1B3619C0)
+#define RPGTOOLS_TIMELINE_CLOCKBOYEMOTIONTRACK__CTOR_OFFSET UNITYSDK_OFFSET(0x1B361C00)
 
 namespace RPGTools::Timeline
 {
-	inline static constexpr unsigned int ClockBoyEmotionTrack_TypeDefinitionIndex = 45335;
+	inline static constexpr unsigned int ClockBoyEmotionTrack_TypeDefinitionIndex = 46259;
 
 	class ClockBoyEmotionTrack : public ::RPGTools::Timeline::CharacterTrack
 	{
@@ -33,16 +31,6 @@ namespace RPGTools::Timeline
 		::System::Void OnCreateClip(::UnityEngine::Timeline::TimelineClip* a1)
 		{
 			return ((::System::Void(*)(::PVOID, ::UnityEngine::Timeline::TimelineClip*))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_CLOCKBOYEMOTIONTRACK_ONCREATECLIP_OFFSET))(this, a1);
-		}
-
-		::UnityEngine::Playables::Playable __iFixBaseProxy_CreatePlayable(::UnityEngine::Playables::PlayableGraph a1, ::UnityEngine::GameObject* a2, ::UnityEngine::Timeline::TimelineClip* a3)
-		{
-			return ((::UnityEngine::Playables::Playable(*)(::PVOID, ::UnityEngine::Playables::PlayableGraph, ::UnityEngine::GameObject*, ::UnityEngine::Timeline::TimelineClip*))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_CLOCKBOYEMOTIONTRACK___IFIXBASEPROXY_CREATEPLAYABLE_OFFSET))(this, a1, a2, a3);
-		}
-
-		::System::Void __iFixBaseProxy_OnCreateClip(::UnityEngine::Timeline::TimelineClip* a1)
-		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Timeline::TimelineClip*))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_CLOCKBOYEMOTIONTRACK___IFIXBASEPROXY_ONCREATECLIP_OFFSET))(this, a1);
 		}
 	};
 }

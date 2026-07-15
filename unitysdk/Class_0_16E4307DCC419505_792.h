@@ -1,10 +1,9 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-namespace RPG::Client { class GridFightTraitComponent; }
-namespace System { class Action; }
+namespace RPG::Client { class FatePhaseInfoItem; }
 
-inline static constexpr unsigned int Class_0_16E4307DCC419505_792_TypeDefinitionIndex = 61164;
+inline static constexpr unsigned int Class_0_16E4307DCC419505_792_TypeDefinitionIndex = 61197;
 
 class Class_0_16E4307DCC419505_792
 {

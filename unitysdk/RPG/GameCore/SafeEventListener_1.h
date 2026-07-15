@@ -6,7 +6,7 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SafeEventListener_1_TypeDefinitionIndex = 50155;
+	inline static constexpr unsigned int SafeEventListener_1_TypeDefinitionIndex = 51237;
 
 	template <typename T>
 	class SafeEventListener_1 : public ::System::Object

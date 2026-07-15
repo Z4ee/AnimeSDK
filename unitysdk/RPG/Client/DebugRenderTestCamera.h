@@ -5,11 +5,11 @@
 namespace RPG::GameCore { class RenderTestCameraConfig; }
 namespace UnityEngine::Rendering { class VolumeProfile; }
 
-#define RPG_CLIENT_DEBUGRENDERTESTCAMERA__CTOR_OFFSET UNITYSDK_OFFSET(0xB736E40)
+#define RPG_CLIENT_DEBUGRENDERTESTCAMERA__CTOR_OFFSET UNITYSDK_OFFSET(0x18091170)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int DebugRenderTestCamera_TypeDefinitionIndex = 63926;
+	inline static constexpr unsigned int DebugRenderTestCamera_TypeDefinitionIndex = 65297;
 
 	class DebugRenderTestCamera : public ::UnityEngine::MonoBehaviour
 	{

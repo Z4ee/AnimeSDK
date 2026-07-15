@@ -3,7 +3,7 @@
 
 namespace RPG::Client::LittleGame::Marble
 {
-	inline static constexpr unsigned int ItemType_TypeDefinitionIndex = 39716;
+	inline static constexpr unsigned int ItemType_TypeDefinitionIndex = 40525;
 
 	enum class ItemType : ::System::Int32
 	{

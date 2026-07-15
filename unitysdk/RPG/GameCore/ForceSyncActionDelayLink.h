@@ -5,13 +5,13 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class TargetEvaluator; }
 
-#define RPG_GAMECORE_FORCESYNCACTIONDELAYLINK_METHOD_3_1D80F065011EF6C7_OFFSET UNITYSDK_OFFSET(0x19765000)
-#define RPG_GAMECORE_FORCESYNCACTIONDELAYLINK_METHOD_3_F6DBF6FDA5913293_OFFSET UNITYSDK_OFFSET(0x19765080)
-#define RPG_GAMECORE_FORCESYNCACTIONDELAYLINK__CTOR_OFFSET UNITYSDK_OFFSET(0x19765050)
+#define RPG_GAMECORE_FORCESYNCACTIONDELAYLINK_METHOD_3_4E7A364C32B087EC_OFFSET UNITYSDK_OFFSET(0x1BEBFCF0)
+#define RPG_GAMECORE_FORCESYNCACTIONDELAYLINK_METHOD_3_F6DBF6FDA5913293_OFFSET UNITYSDK_OFFSET(0x1BEBFD30)
+#define RPG_GAMECORE_FORCESYNCACTIONDELAYLINK__CTOR_OFFSET UNITYSDK_OFFSET(0x1BEBFD20)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ForceSyncActionDelayLink_TypeDefinitionIndex = 22004;
+	inline static constexpr unsigned int ForceSyncActionDelayLink_TypeDefinitionIndex = 22438;
 
 	class ForceSyncActionDelayLink : public ::RPG::GameCore::TaskConfig
 	{
@@ -24,9 +24,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FORCESYNCACTIONDELAYLINK__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_1D80F065011EF6C7(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ForceSyncActionDelayLink*& a2)
+		static ::System::Void Method_3_4E7A364C32B087EC(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ForceSyncActionDelayLink*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ForceSyncActionDelayLink*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FORCESYNCACTIONDELAYLINK_METHOD_3_1D80F065011EF6C7_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ForceSyncActionDelayLink*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FORCESYNCACTIONDELAYLINK_METHOD_3_4E7A364C32B087EC_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_F6DBF6FDA5913293(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ForceSyncActionDelayLink* a2)

@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int IceEffectMode_TypeDefinitionIndex = 15320;
+	inline static constexpr unsigned int IceEffectMode_TypeDefinitionIndex = 15484;
 
 	enum class IceEffectMode : ::System::Int32
 	{

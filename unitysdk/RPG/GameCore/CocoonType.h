@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int CocoonType_TypeDefinitionIndex = 11951;
+	inline static constexpr unsigned int CocoonType_TypeDefinitionIndex = 12083;
 
 	enum class CocoonType : ::System::Int32
 	{

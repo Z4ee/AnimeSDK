@@ -3,7 +3,7 @@
 
 namespace HoudiniEngineUnity
 {
-	inline static constexpr unsigned int HAPI_GeoType_TypeDefinitionIndex = 37507;
+	inline static constexpr unsigned int HAPI_GeoType_TypeDefinitionIndex = 38315;
 
 	enum class HAPI_GeoType : ::System::Int32
 	{

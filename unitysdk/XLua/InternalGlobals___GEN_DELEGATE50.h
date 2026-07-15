@@ -1,22 +1,20 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/RPG/GameCore/AttackDamageType.h"
+#include "unitysdk/RPG/GameCore/TurnBasedModifierEvent.h"
 #include "unitysdk/System/MulticastDelegate.h"
 
-namespace RPG::GameCore { class AttackDamageTypeConfig; }
-namespace RPG::GameCore { class TaskContext; }
 namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 
-#define XLUA_INTERNALGLOBALS___GEN_DELEGATE50_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x12E8A170)
-#define XLUA_INTERNALGLOBALS___GEN_DELEGATE50_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x12E8A1B0)
-#define XLUA_INTERNALGLOBALS___GEN_DELEGATE50_INVOKE_OFFSET UNITYSDK_OFFSET(0x12E8A160)
-#define XLUA_INTERNALGLOBALS___GEN_DELEGATE50__CTOR_OFFSET UNITYSDK_OFFSET(0x12E8A070)
+#define XLUA_INTERNALGLOBALS___GEN_DELEGATE50_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x10BDDCC0)
+#define XLUA_INTERNALGLOBALS___GEN_DELEGATE50_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x10BDDD10)
+#define XLUA_INTERNALGLOBALS___GEN_DELEGATE50_INVOKE_OFFSET UNITYSDK_OFFSET(0x10BDDCB0)
+#define XLUA_INTERNALGLOBALS___GEN_DELEGATE50__CTOR_OFFSET UNITYSDK_OFFSET(0x10BDDC40)
 
 namespace XLua
 {
-	inline static constexpr unsigned int InternalGlobals___GEN_DELEGATE50_TypeDefinitionIndex = 46966;
+	inline static constexpr unsigned int InternalGlobals___GEN_DELEGATE50_TypeDefinitionIndex = 47931;
 
 	class InternalGlobals___GEN_DELEGATE50 : public ::System::MulticastDelegate
 	{
@@ -26,19 +24,19 @@ namespace XLua
 			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + XLUA_INTERNALGLOBALS___GEN_DELEGATE50__CTOR_OFFSET))(this, a1, a2);
 		}
 
-		::RPG::GameCore::AttackDamageType Invoke(::RPG::GameCore::AttackDamageTypeConfig* a1, ::RPG::GameCore::TaskContext* a2)
+		::System::Boolean Invoke(::RPG::GameCore::TurnBasedModifierEvent a1)
 		{
-			return ((::RPG::GameCore::AttackDamageType(*)(::PVOID, ::RPG::GameCore::AttackDamageTypeConfig*, ::RPG::GameCore::TaskContext*))((::PBYTE)hIl2Cpp + XLUA_INTERNALGLOBALS___GEN_DELEGATE50_INVOKE_OFFSET))(this, a1, a2);
+			return ((::System::Boolean(*)(::PVOID, ::RPG::GameCore::TurnBasedModifierEvent))((::PBYTE)hIl2Cpp + XLUA_INTERNALGLOBALS___GEN_DELEGATE50_INVOKE_OFFSET))(this, a1);
 		}
 
-		::System::IAsyncResult* BeginInvoke(::RPG::GameCore::AttackDamageTypeConfig* a1, ::RPG::GameCore::TaskContext* a2, ::System::AsyncCallback* a3, ::System::Object* a4)
+		::System::IAsyncResult* BeginInvoke(::RPG::GameCore::TurnBasedModifierEvent a1, ::System::AsyncCallback* a2, ::System::Object* a3)
 		{
-			return ((::System::IAsyncResult*(*)(::PVOID, ::RPG::GameCore::AttackDamageTypeConfig*, ::RPG::GameCore::TaskContext*, ::System::AsyncCallback*, ::System::Object*))((::PBYTE)hIl2Cpp + XLUA_INTERNALGLOBALS___GEN_DELEGATE50_BEGININVOKE_OFFSET))(this, a1, a2, a3, a4);
+			return ((::System::IAsyncResult*(*)(::PVOID, ::RPG::GameCore::TurnBasedModifierEvent, ::System::AsyncCallback*, ::System::Object*))((::PBYTE)hIl2Cpp + XLUA_INTERNALGLOBALS___GEN_DELEGATE50_BEGININVOKE_OFFSET))(this, a1, a2, a3);
 		}
 
-		::RPG::GameCore::AttackDamageType EndInvoke(::System::IAsyncResult* a1)
+		::System::Boolean EndInvoke(::System::IAsyncResult* a1)
 		{
-			return ((::RPG::GameCore::AttackDamageType(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + XLUA_INTERNALGLOBALS___GEN_DELEGATE50_ENDINVOKE_OFFSET))(this, a1);
+			return ((::System::Boolean(*)(::PVOID, ::System::IAsyncResult*))((::PBYTE)hIl2Cpp + XLUA_INTERNALGLOBALS___GEN_DELEGATE50_ENDINVOKE_OFFSET))(this, a1);
 		}
 	};
 }

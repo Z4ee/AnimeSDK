@@ -2,7 +2,7 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Attribute.h"
 
-#define SYSTEM_SECURITY_UNVERIFIABLECODEATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x185D5310)
+#define SYSTEM_SECURITY_UNVERIFIABLECODEATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x150BD3C0)
 
 namespace System::Security
 {

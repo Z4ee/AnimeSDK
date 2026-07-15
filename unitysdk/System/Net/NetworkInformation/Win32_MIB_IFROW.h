@@ -5,7 +5,7 @@
 
 namespace System::Net::NetworkInformation
 {
-	inline static constexpr unsigned int Win32_MIB_IFROW_TypeDefinitionIndex = 2956;
+	inline static constexpr unsigned int Win32_MIB_IFROW_TypeDefinitionIndex = 2960;
 
 	struct alignas(8) Win32_MIB_IFROW
 	{

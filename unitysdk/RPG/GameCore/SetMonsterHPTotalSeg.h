@@ -6,13 +6,13 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class DynamicFloat; }
 namespace RPG::GameCore { class TargetEvaluator; }
 
-#define RPG_GAMECORE_SETMONSTERHPTOTALSEG_METHOD_3_8B459EC1EC5A0CDF_OFFSET UNITYSDK_OFFSET(0x19C578C0)
-#define RPG_GAMECORE_SETMONSTERHPTOTALSEG_METHOD_3_BA2C3602F97BFBDF_OFFSET UNITYSDK_OFFSET(0x19C57990)
-#define RPG_GAMECORE_SETMONSTERHPTOTALSEG__CTOR_OFFSET UNITYSDK_OFFSET(0x19C57940)
+#define RPG_GAMECORE_SETMONSTERHPTOTALSEG_METHOD_3_BA2C3602F97BFBDF_OFFSET UNITYSDK_OFFSET(0x1C602150)
+#define RPG_GAMECORE_SETMONSTERHPTOTALSEG_METHOD_3_D2EEDCF5ACE0519C_OFFSET UNITYSDK_OFFSET(0x1C6020B0)
+#define RPG_GAMECORE_SETMONSTERHPTOTALSEG__CTOR_OFFSET UNITYSDK_OFFSET(0x1C602110)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SetMonsterHPTotalSeg_TypeDefinitionIndex = 21888;
+	inline static constexpr unsigned int SetMonsterHPTotalSeg_TypeDefinitionIndex = 22315;
 
 	class SetMonsterHPTotalSeg : public ::RPG::GameCore::TaskConfig
 	{
@@ -25,9 +25,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETMONSTERHPTOTALSEG__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_8B459EC1EC5A0CDF(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SetMonsterHPTotalSeg*& a2)
+		static ::System::Void Method_3_D2EEDCF5ACE0519C(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SetMonsterHPTotalSeg*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SetMonsterHPTotalSeg*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETMONSTERHPTOTALSEG_METHOD_3_8B459EC1EC5A0CDF_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SetMonsterHPTotalSeg*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETMONSTERHPTOTALSEG_METHOD_3_D2EEDCF5ACE0519C_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_BA2C3602F97BFBDF(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SetMonsterHPTotalSeg* a2)

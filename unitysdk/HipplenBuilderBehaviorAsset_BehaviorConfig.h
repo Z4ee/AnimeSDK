@@ -7,9 +7,9 @@
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define HIPPLENBUILDERBEHAVIORASSET_BEHAVIORCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x13C611F0)
+#define HIPPLENBUILDERBEHAVIORASSET_BEHAVIORCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x17A5BEB0)
 
-inline static constexpr unsigned int HipplenBuilderBehaviorAsset_BehaviorConfig_TypeDefinitionIndex = 44562;
+inline static constexpr unsigned int HipplenBuilderBehaviorAsset_BehaviorConfig_TypeDefinitionIndex = 45434;
 
 class HipplenBuilderBehaviorAsset_BehaviorConfig : public ::System::Object
 {

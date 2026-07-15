@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class ModifyTeamBoostPointMax; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_705AC48C9E14A961_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x13B027C0)
-#define CLASS_3_705AC48C9E14A961__CTOR_OFFSET UNITYSDK_OFFSET(0x13B02790)
+#define CLASS_3_705AC48C9E14A961_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1797FA10)
+#define CLASS_3_705AC48C9E14A961__CTOR_OFFSET UNITYSDK_OFFSET(0x1797F9E0)
 
-inline static constexpr unsigned int Class_3_705AC48C9E14A961_TypeDefinitionIndex = 51579;
+inline static constexpr unsigned int Class_3_705AC48C9E14A961_TypeDefinitionIndex = 52721;
 
 class Class_3_705AC48C9E14A961 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::ModifyTeamBoostPointMax*>
 {

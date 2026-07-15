@@ -9,22 +9,22 @@ namespace RPG::Client { class WolfBroGunProjectile; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class Transform; }
 
-#define CLASS_1_80CDE4F598102C46_DISPOSE_OFFSET UNITYSDK_OFFSET(0x13ADE740)
-#define CLASS_1_80CDE4F598102C46_METHOD_1_24748FC20F375725_OFFSET UNITYSDK_OFFSET(0x13ADEE40)
-#define CLASS_1_80CDE4F598102C46_METHOD_1_6C78BE0F58E59620_OFFSET UNITYSDK_OFFSET(0x13ADE6E0)
-#define CLASS_1_80CDE4F598102C46_METHOD_1_9B0996571456B3C9_OFFSET UNITYSDK_OFFSET(0x13ADEB50)
-#define CLASS_1_80CDE4F598102C46_METHOD_1_B8A8E07261478334_OFFSET UNITYSDK_OFFSET(0x13ADEDB0)
-#define CLASS_1_80CDE4F598102C46_METHOD_1_C39609EC9DE1C7BF_OFFSET UNITYSDK_OFFSET(0x13ADE8C0)
-#define CLASS_1_80CDE4F598102C46__CTOR_OFFSET UNITYSDK_OFFSET(0x13ADEE50)
+#define CLASS_1_80CDE4F598102C46_DISPOSE_OFFSET UNITYSDK_OFFSET(0x16F6CAA0)
+#define CLASS_1_80CDE4F598102C46_METHOD_1_24748FC20F375725_OFFSET UNITYSDK_OFFSET(0x16F6D2B0)
+#define CLASS_1_80CDE4F598102C46_METHOD_1_698889FB0CF6CFAD_OFFSET UNITYSDK_OFFSET(0x16F6CC20)
+#define CLASS_1_80CDE4F598102C46_METHOD_1_6C78BE0F58E59620_OFFSET UNITYSDK_OFFSET(0x16F6CA40)
+#define CLASS_1_80CDE4F598102C46_METHOD_1_9B0996571456B3C9_OFFSET UNITYSDK_OFFSET(0x16F6CFA0)
+#define CLASS_1_80CDE4F598102C46_METHOD_1_B8A8E07261478334_OFFSET UNITYSDK_OFFSET(0x16F6D220)
+#define CLASS_1_80CDE4F598102C46__CTOR_OFFSET UNITYSDK_OFFSET(0x16F6D2C0)
 
-inline static constexpr unsigned int Class_1_80CDE4F598102C46_TypeDefinitionIndex = 64323;
+inline static constexpr unsigned int Class_1_80CDE4F598102C46_TypeDefinitionIndex = 65694;
 
 class Class_1_80CDE4F598102C46 : public ::System::Object
 {
 public:
-	::Class_1_2BF31F3092BDFD9E* Field_1_0; // 0x10
+	::System::Collections::Generic::List_1<::RPG::Client::WolfBroGunProjectile*>* Field_1_0; // 0x10
 	::UnityEngine::Transform* Field_1_1; // 0x18
-	::System::Collections::Generic::List_1<::RPG::Client::WolfBroGunProjectile*>* Field_1_2; // 0x20
+	::Class_1_2BF31F3092BDFD9E* Field_1_2; // 0x20
 
 	::System::Void _ctor()
 	{
@@ -41,9 +41,9 @@ public:
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_80CDE4F598102C46_DISPOSE_OFFSET))(this);
 	}
 
-	::System::Void Method_1_C39609EC9DE1C7BF(::System::Single a1, ::System::Single a2, ::System::Single a3)
+	::System::Void Method_1_698889FB0CF6CFAD(::System::Single a1, ::System::Single a2, ::System::Single a3)
 	{
-		return ((::System::Void(*)(::PVOID, ::System::Single, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + CLASS_1_80CDE4F598102C46_METHOD_1_C39609EC9DE1C7BF_OFFSET))(this, a1, a2, a3);
+		return ((::System::Void(*)(::PVOID, ::System::Single, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + CLASS_1_80CDE4F598102C46_METHOD_1_698889FB0CF6CFAD_OFFSET))(this, a1, a2, a3);
 	}
 
 	::System::Void Method_1_9B0996571456B3C9(::UnityEngine::Vector3 a1, ::UnityEngine::Vector3 a2, ::RPG::Client::WolfBroGunProjectile* a3, ::Class_3_07C3C4D2990C49EE* a4)

@@ -7,13 +7,13 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class DynamicFloat; }
 
-#define RPG_GAMECORE_SETBATTLESCORINGITEM_METHOD_3_86E0A7CF65552535_OFFSET UNITYSDK_OFFSET(0x19C2BC40)
-#define RPG_GAMECORE_SETBATTLESCORINGITEM_METHOD_3_B19BA63EE6BF60C1_OFFSET UNITYSDK_OFFSET(0x19C2BBB0)
-#define RPG_GAMECORE_SETBATTLESCORINGITEM__CTOR_OFFSET UNITYSDK_OFFSET(0x19C2BC10)
+#define RPG_GAMECORE_SETBATTLESCORINGITEM_METHOD_3_07CA2814C4000F3F_OFFSET UNITYSDK_OFFSET(0x1C2D50E0)
+#define RPG_GAMECORE_SETBATTLESCORINGITEM_METHOD_3_86E0A7CF65552535_OFFSET UNITYSDK_OFFSET(0x1C2D5130)
+#define RPG_GAMECORE_SETBATTLESCORINGITEM__CTOR_OFFSET UNITYSDK_OFFSET(0x1C2D5120)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SetBattleScoringItem_TypeDefinitionIndex = 21916;
+	inline static constexpr unsigned int SetBattleScoringItem_TypeDefinitionIndex = 22345;
 
 	class SetBattleScoringItem : public ::RPG::GameCore::TaskConfig
 	{
@@ -29,9 +29,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETBATTLESCORINGITEM__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_B19BA63EE6BF60C1(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SetBattleScoringItem*& a2)
+		static ::System::Void Method_3_07CA2814C4000F3F(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SetBattleScoringItem*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SetBattleScoringItem*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETBATTLESCORINGITEM_METHOD_3_B19BA63EE6BF60C1_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SetBattleScoringItem*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETBATTLESCORINGITEM_METHOD_3_07CA2814C4000F3F_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_86E0A7CF65552535(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SetBattleScoringItem* a2)

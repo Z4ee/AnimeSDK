@@ -6,15 +6,15 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace SimpleJSON { class JSONNode; }
 
-#define RPG_GAMECORE_BYHAVEINSERTULTRAWAIT_METHOD_4_7016A51C6654DFF0_OFFSET UNITYSDK_OFFSET(0x19553530)
-#define RPG_GAMECORE_BYHAVEINSERTULTRAWAIT_METHOD_4_B181ADC07A25977D_OFFSET UNITYSDK_OFFSET(0x19553840)
-#define RPG_GAMECORE_BYHAVEINSERTULTRAWAIT_METHOD_4_D90FFB197462FFEE_OFFSET UNITYSDK_OFFSET(0x19553610)
-#define RPG_GAMECORE_BYHAVEINSERTULTRAWAIT_METHOD_4_FA06B9E1F3B2CF4C_OFFSET UNITYSDK_OFFSET(0x195537C0)
-#define RPG_GAMECORE_BYHAVEINSERTULTRAWAIT__CTOR_OFFSET UNITYSDK_OFFSET(0x195535B0)
+#define RPG_GAMECORE_BYHAVEINSERTULTRAWAIT_METHOD_4_2591E11D69B0C63F_OFFSET UNITYSDK_OFFSET(0x1A8CE2B0)
+#define RPG_GAMECORE_BYHAVEINSERTULTRAWAIT_METHOD_4_4173196C0984BCFA_OFFSET UNITYSDK_OFFSET(0x1A8CE4F0)
+#define RPG_GAMECORE_BYHAVEINSERTULTRAWAIT_METHOD_4_ABEFB9B88F35F8ED_OFFSET UNITYSDK_OFFSET(0x1A8CE4B0)
+#define RPG_GAMECORE_BYHAVEINSERTULTRAWAIT_METHOD_4_D90FFB197462FFEE_OFFSET UNITYSDK_OFFSET(0x1A8CE300)
+#define RPG_GAMECORE_BYHAVEINSERTULTRAWAIT__CTOR_OFFSET UNITYSDK_OFFSET(0x1A8CE2F0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ByHaveInsertUltraWait_TypeDefinitionIndex = 22265;
+	inline static constexpr unsigned int ByHaveInsertUltraWait_TypeDefinitionIndex = 22706;
 
 	class ByHaveInsertUltraWait : public ::RPG::GameCore::PredicateConfig
 	{
@@ -26,9 +26,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYHAVEINSERTULTRAWAIT__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_4_7016A51C6654DFF0(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ByHaveInsertUltraWait*& a2)
+		static ::System::Void Method_4_2591E11D69B0C63F(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ByHaveInsertUltraWait*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ByHaveInsertUltraWait*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYHAVEINSERTULTRAWAIT_METHOD_4_7016A51C6654DFF0_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ByHaveInsertUltraWait*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYHAVEINSERTULTRAWAIT_METHOD_4_2591E11D69B0C63F_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_4_D90FFB197462FFEE(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ByHaveInsertUltraWait* a2)
@@ -36,14 +36,14 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ByHaveInsertUltraWait*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYHAVEINSERTULTRAWAIT_METHOD_4_D90FFB197462FFEE_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_4_FA06B9E1F3B2CF4C(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::ByHaveInsertUltraWait*& a2)
+		static ::System::Void Method_4_ABEFB9B88F35F8ED(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::ByHaveInsertUltraWait*& a2)
 		{
-			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::ByHaveInsertUltraWait*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYHAVEINSERTULTRAWAIT_METHOD_4_FA06B9E1F3B2CF4C_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::ByHaveInsertUltraWait*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYHAVEINSERTULTRAWAIT_METHOD_4_ABEFB9B88F35F8ED_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_4_B181ADC07A25977D(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::ByHaveInsertUltraWait* a2)
+		static ::System::Void Method_4_4173196C0984BCFA(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::ByHaveInsertUltraWait* a2)
 		{
-			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::ByHaveInsertUltraWait*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYHAVEINSERTULTRAWAIT_METHOD_4_B181ADC07A25977D_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::ByHaveInsertUltraWait*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYHAVEINSERTULTRAWAIT_METHOD_4_4173196C0984BCFA_OFFSET))(a1, a2);
 		}
 	};
 }

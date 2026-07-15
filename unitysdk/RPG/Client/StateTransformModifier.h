@@ -7,15 +7,13 @@
 
 namespace UnityEngine { class Animator; }
 
-#define RPG_CLIENT_STATETRANSFORMMODIFIER_ONSTATEENTER_OFFSET UNITYSDK_OFFSET(0xC92A100)
-#define RPG_CLIENT_STATETRANSFORMMODIFIER_ONSTATEUPDATE_OFFSET UNITYSDK_OFFSET(0xC92A240)
-#define RPG_CLIENT_STATETRANSFORMMODIFIER__CTOR_OFFSET UNITYSDK_OFFSET(0xC92A380)
-#define RPG_CLIENT_STATETRANSFORMMODIFIER___IFIXBASEPROXY_ONSTATEENTER_OFFSET UNITYSDK_OFFSET(0xC92A3A0)
-#define RPG_CLIENT_STATETRANSFORMMODIFIER___IFIXBASEPROXY_ONSTATEUPDATE_OFFSET UNITYSDK_OFFSET(0xC92A3B0)
+#define RPG_CLIENT_STATETRANSFORMMODIFIER_ONSTATEENTER_OFFSET UNITYSDK_OFFSET(0x17B6A4D0)
+#define RPG_CLIENT_STATETRANSFORMMODIFIER_ONSTATEUPDATE_OFFSET UNITYSDK_OFFSET(0x17B6A610)
+#define RPG_CLIENT_STATETRANSFORMMODIFIER__CTOR_OFFSET UNITYSDK_OFFSET(0x17B6A750)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int StateTransformModifier_TypeDefinitionIndex = 64404;
+	inline static constexpr unsigned int StateTransformModifier_TypeDefinitionIndex = 65775;
 
 	class StateTransformModifier : public ::UnityEngine::StateMachineBehaviour
 	{
@@ -37,16 +35,6 @@ namespace RPG::Client
 		::System::Void OnStateUpdate(::UnityEngine::Animator* a1, ::UnityEngine::AnimatorStateInfo a2, ::System::Int32 a3)
 		{
 			return ((::System::Void(*)(::PVOID, ::UnityEngine::Animator*, ::UnityEngine::AnimatorStateInfo, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_STATETRANSFORMMODIFIER_ONSTATEUPDATE_OFFSET))(this, a1, a2, a3);
-		}
-
-		::System::Void __iFixBaseProxy_OnStateEnter(::UnityEngine::Animator* a1, ::UnityEngine::AnimatorStateInfo a2, ::System::Int32 a3)
-		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Animator*, ::UnityEngine::AnimatorStateInfo, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_STATETRANSFORMMODIFIER___IFIXBASEPROXY_ONSTATEENTER_OFFSET))(this, a1, a2, a3);
-		}
-
-		::System::Void __iFixBaseProxy_OnStateUpdate(::UnityEngine::Animator* a1, ::UnityEngine::AnimatorStateInfo a2, ::System::Int32 a3)
-		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Animator*, ::UnityEngine::AnimatorStateInfo, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_STATETRANSFORMMODIFIER___IFIXBASEPROXY_ONSTATEUPDATE_OFFSET))(this, a1, a2, a3);
 		}
 	};
 }

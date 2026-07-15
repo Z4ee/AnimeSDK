@@ -3,9 +3,9 @@
 #include "unitysdk/RPG/GameCore/PingPongSPSkillType.h"
 #include "unitysdk/System/Object.h"
 
-#define CLASS_1_66BB90F28B15A900__CTOR_OFFSET UNITYSDK_OFFSET(0x18BF1C70)
+#define CLASS_1_66BB90F28B15A900__CTOR_OFFSET UNITYSDK_OFFSET(0x1A045BB0)
 
-inline static constexpr unsigned int Class_1_66BB90F28B15A900_TypeDefinitionIndex = 39627;
+inline static constexpr unsigned int Class_1_66BB90F28B15A900_TypeDefinitionIndex = 40436;
 
 class Class_1_66BB90F28B15A900 : public ::System::Object
 {

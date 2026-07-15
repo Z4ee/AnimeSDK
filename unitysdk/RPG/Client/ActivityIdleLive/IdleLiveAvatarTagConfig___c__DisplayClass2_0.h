@@ -2,12 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEAVATARTAGCONFIG___C__DISPLAYCLASS2_0__CTOR_OFFSET UNITYSDK_OFFSET(0xB116530)
-#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEAVATARTAGCONFIG___C__DISPLAYCLASS2_0__GETTAGRANK_B__0_OFFSET UNITYSDK_OFFSET(0xB1165A0)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEAVATARTAGCONFIG___C__DISPLAYCLASS2_0__CTOR_OFFSET UNITYSDK_OFFSET(0x19D2B5C0)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEAVATARTAGCONFIG___C__DISPLAYCLASS2_0__GETTAGRANK_B__0_OFFSET UNITYSDK_OFFSET(0x19D2B630)
 
 namespace RPG::Client::ActivityIdleLive
 {
-	inline static constexpr unsigned int IdleLiveAvatarTagConfig___c__DisplayClass2_0_TypeDefinitionIndex = 69953;
+	inline static constexpr unsigned int IdleLiveAvatarTagConfig___c__DisplayClass2_0_TypeDefinitionIndex = 71476;
 
 	class IdleLiveAvatarTagConfig___c__DisplayClass2_0 : public ::System::Object
 	{

@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PhotoGraphAimIdentifyType_TypeDefinitionIndex = 18101;
+	inline static constexpr unsigned int PhotoGraphAimIdentifyType_TypeDefinitionIndex = 18305;
 
 	enum class PhotoGraphAimIdentifyType : ::System::Int32
 	{

@@ -6,12 +6,12 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class MiActionConfigBase; }
 namespace RPG::GameCore { class MiParameterConfigBase; }
 
-#define RPG_GAMECORE_ACTIONSWITCHCASEITEMCONFIG_METHOD_2_F6C1338D6D38D129_OFFSET UNITYSDK_OFFSET(0x193CF690)
-#define RPG_GAMECORE_ACTIONSWITCHCASEITEMCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x193CF7C0)
+#define RPG_GAMECORE_ACTIONSWITCHCASEITEMCONFIG_METHOD_2_CD95E41DDA2DF160_OFFSET UNITYSDK_OFFSET(0x1AAD8680)
+#define RPG_GAMECORE_ACTIONSWITCHCASEITEMCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1AAD8830)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ActionSwitchCaseItemConfig_TypeDefinitionIndex = 16189;
+	inline static constexpr unsigned int ActionSwitchCaseItemConfig_TypeDefinitionIndex = 16373;
 
 	class ActionSwitchCaseItemConfig : public ::RPG::GameCore::JsonConfig
 	{
@@ -24,9 +24,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ACTIONSWITCHCASEITEMCONFIG__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_F6C1338D6D38D129(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ActionSwitchCaseItemConfig*& a2)
+		static ::System::Void Method_2_CD95E41DDA2DF160(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ActionSwitchCaseItemConfig*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ActionSwitchCaseItemConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ACTIONSWITCHCASEITEMCONFIG_METHOD_2_F6C1338D6D38D129_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ActionSwitchCaseItemConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ACTIONSWITCHCASEITEMCONFIG_METHOD_2_CD95E41DDA2DF160_OFFSET))(a1, a2);
 		}
 	};
 }

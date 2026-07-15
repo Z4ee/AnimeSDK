@@ -7,13 +7,13 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class DynamicFloat; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_INITBATTLEITEMPROGRESSINFO_METHOD_3_3822E24E97DAAF75_OFFSET UNITYSDK_OFFSET(0x1984F850)
-#define RPG_GAMECORE_INITBATTLEITEMPROGRESSINFO_METHOD_3_5275D65F0270A31E_OFFSET UNITYSDK_OFFSET(0x1984F8D0)
-#define RPG_GAMECORE_INITBATTLEITEMPROGRESSINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x1984F8A0)
+#define RPG_GAMECORE_INITBATTLEITEMPROGRESSINFO_METHOD_3_3E22D4F9E6C0DF9F_OFFSET UNITYSDK_OFFSET(0x1B00FAA0)
+#define RPG_GAMECORE_INITBATTLEITEMPROGRESSINFO_METHOD_3_5275D65F0270A31E_OFFSET UNITYSDK_OFFSET(0x1B00FAE0)
+#define RPG_GAMECORE_INITBATTLEITEMPROGRESSINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x1B00FAD0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int InitBattleItemProgressInfo_TypeDefinitionIndex = 21978;
+	inline static constexpr unsigned int InitBattleItemProgressInfo_TypeDefinitionIndex = 22412;
 
 	class InitBattleItemProgressInfo : public ::RPG::GameCore::TaskConfig
 	{
@@ -31,9 +31,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_INITBATTLEITEMPROGRESSINFO__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_3822E24E97DAAF75(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::InitBattleItemProgressInfo*& a2)
+		static ::System::Void Method_3_3E22D4F9E6C0DF9F(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::InitBattleItemProgressInfo*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::InitBattleItemProgressInfo*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_INITBATTLEITEMPROGRESSINFO_METHOD_3_3822E24E97DAAF75_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::InitBattleItemProgressInfo*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_INITBATTLEITEMPROGRESSINFO_METHOD_3_3E22D4F9E6C0DF9F_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_5275D65F0270A31E(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::InitBattleItemProgressInfo* a2)

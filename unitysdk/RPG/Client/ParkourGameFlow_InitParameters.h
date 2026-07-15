@@ -4,7 +4,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ParkourGameFlow_InitParameters_TypeDefinitionIndex = 57828;
+	inline static constexpr unsigned int ParkourGameFlow_InitParameters_TypeDefinitionIndex = 59094;
 
 	struct alignas(4) ParkourGameFlow_InitParameters
 	{

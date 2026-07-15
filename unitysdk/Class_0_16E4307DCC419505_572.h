@@ -1,9 +1,9 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-namespace RPG::Client { class IAssetOperation; }
+namespace RPG::GameCore { class GameEntity; }
 
-inline static constexpr unsigned int Class_0_16E4307DCC419505_572_TypeDefinitionIndex = 55392;
+inline static constexpr unsigned int Class_0_16E4307DCC419505_572_TypeDefinitionIndex = 54640;
 
 class Class_0_16E4307DCC419505_572
 {

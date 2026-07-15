@@ -5,12 +5,12 @@
 namespace RPG::Client { class ActivityStrongChallengeStageData; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define RPG_CLIENT_ACTIVITYSTRONGCHALLENGEMODULE___C__DISPLAYCLASS14_0__CTOR_OFFSET UNITYSDK_OFFSET(0xB1FF040)
-#define RPG_CLIENT_ACTIVITYSTRONGCHALLENGEMODULE___C__DISPLAYCLASS14_0___HANDLEBATTLEENDSCNOTIFY_B__0_OFFSET UNITYSDK_OFFSET(0xB2000F0)
+#define RPG_CLIENT_ACTIVITYSTRONGCHALLENGEMODULE___C__DISPLAYCLASS14_0__CTOR_OFFSET UNITYSDK_OFFSET(0x18A8AFF0)
+#define RPG_CLIENT_ACTIVITYSTRONGCHALLENGEMODULE___C__DISPLAYCLASS14_0___HANDLEBATTLEENDSCNOTIFY_B__0_OFFSET UNITYSDK_OFFSET(0x18A8B000)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ActivityStrongChallengeModule___c__DisplayClass14_0_TypeDefinitionIndex = 57895;
+	inline static constexpr unsigned int ActivityStrongChallengeModule___c__DisplayClass14_0_TypeDefinitionIndex = 59161;
 
 	class ActivityStrongChallengeModule___c__DisplayClass14_0 : public ::System::Object
 	{

@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int AssetsStaticFlag_TypeDefinitionIndex = 38506;
+	inline static constexpr unsigned int AssetsStaticFlag_TypeDefinitionIndex = 39314;
 
 	enum class AssetsStaticFlag : ::System::UInt16
 	{

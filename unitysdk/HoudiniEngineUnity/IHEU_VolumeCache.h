@@ -11,7 +11,7 @@ namespace UnityEngine { class TerrainData; }
 
 namespace HoudiniEngineUnity
 {
-	inline static constexpr unsigned int IHEU_VolumeCache_TypeDefinitionIndex = 37613;
+	inline static constexpr unsigned int IHEU_VolumeCache_TypeDefinitionIndex = 38421;
 
 	class IHEU_VolumeCache
 	{

@@ -8,7 +8,7 @@ namespace System::Collections::Generic { template <typename T> class LinkedList_
 namespace System::Runtime::CompilerServices { template <typename T1, typename T2> class ConditionalWeakTable_2; }
 namespace System::Runtime::CompilerServices { template <typename T1, typename T2> class ConditionalWeakTable_2_CreateValueCallback; }
 
-inline static constexpr unsigned int Class_1_7A66407CD5C66F37_TypeDefinitionIndex = 40587;
+inline static constexpr unsigned int Class_1_7A66407CD5C66F37_TypeDefinitionIndex = 41402;
 
 template <typename TKey, typename TValue>
 class Class_1_7A66407CD5C66F37 : public ::System::Object

@@ -3,9 +3,9 @@
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-#define CLASS_1_35AF32FA9765700C__CTOR_OFFSET UNITYSDK_OFFSET(0x18E59E80)
+#define CLASS_1_35AF32FA9765700C__CTOR_OFFSET UNITYSDK_OFFSET(0x19C7A180)
 
-inline static constexpr unsigned int Class_1_35AF32FA9765700C_TypeDefinitionIndex = 39618;
+inline static constexpr unsigned int Class_1_35AF32FA9765700C_TypeDefinitionIndex = 40427;
 
 class Class_1_35AF32FA9765700C : public ::System::Object
 {

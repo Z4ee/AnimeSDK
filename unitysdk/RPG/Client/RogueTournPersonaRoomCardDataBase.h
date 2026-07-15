@@ -10,25 +10,24 @@ namespace System::Collections::Generic { template <typename T> class IEnumerable
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace System::Collections::ObjectModel { template <typename T> class ReadOnlyCollection_1; }
 
-#define RPG_CLIENT_ROGUETOURNPERSONAROOMCARDDATABASE_ATTRIBUTESETEQUALS_OFFSET UNITYSDK_OFFSET(0xC84C620)
-#define RPG_CLIENT_ROGUETOURNPERSONAROOMCARDDATABASE_DISPOSE_OFFSET UNITYSDK_OFFSET(0xC84C5B0)
-#define RPG_CLIENT_ROGUETOURNPERSONAROOMCARDDATABASE_GET_ATTRIBUTES_OFFSET UNITYSDK_OFFSET(0xC84CD80)
-#define RPG_CLIENT_ROGUETOURNPERSONAROOMCARDDATABASE_GET_COMPOSITIONTYPE_OFFSET UNITYSDK_OFFSET(0xC84CD60)
-#define RPG_CLIENT_ROGUETOURNPERSONAROOMCARDDATABASE_GET_LEVEL_OFFSET UNITYSDK_OFFSET(0xC84CD70)
-#define RPG_CLIENT_ROGUETOURNPERSONAROOMCARDDATABASE_TOSTRING_OFFSET UNITYSDK_OFFSET(0xC84C4A0)
-#define RPG_CLIENT_ROGUETOURNPERSONAROOMCARDDATABASE__CTOR_OFFSET UNITYSDK_OFFSET(0xC84A640)
-#define RPG_CLIENT_ROGUETOURNPERSONAROOMCARDDATABASE___IFIXBASEPROXY_TOSTRING_OFFSET UNITYSDK_OFFSET(0xC84CD90)
+#define RPG_CLIENT_ROGUETOURNPERSONAROOMCARDDATABASE_ATTRIBUTESETEQUALS_OFFSET UNITYSDK_OFFSET(0x1AA6D4F0)
+#define RPG_CLIENT_ROGUETOURNPERSONAROOMCARDDATABASE_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1AA6D480)
+#define RPG_CLIENT_ROGUETOURNPERSONAROOMCARDDATABASE_GET_ATTRIBUTES_OFFSET UNITYSDK_OFFSET(0x1AA6DC30)
+#define RPG_CLIENT_ROGUETOURNPERSONAROOMCARDDATABASE_GET_COMPOSITIONTYPE_OFFSET UNITYSDK_OFFSET(0x1AA6D400)
+#define RPG_CLIENT_ROGUETOURNPERSONAROOMCARDDATABASE_GET_LEVEL_OFFSET UNITYSDK_OFFSET(0x1AA6D440)
+#define RPG_CLIENT_ROGUETOURNPERSONAROOMCARDDATABASE_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1AA6D280)
+#define RPG_CLIENT_ROGUETOURNPERSONAROOMCARDDATABASE__CTOR_OFFSET UNITYSDK_OFFSET(0x1AA60F50)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int RogueTournPersonaRoomCardDataBase_TypeDefinitionIndex = 63366;
+	inline static constexpr unsigned int RogueTournPersonaRoomCardDataBase_TypeDefinitionIndex = 64733;
 
 	class RogueTournPersonaRoomCardDataBase : public ::System::Object
 	{
 	public:
-		::RPG::Client::RogueTournPersonaRoomCompositionTypeData* _CompositionType; // 0x10
-		::System::Collections::ObjectModel::ReadOnlyCollection_1<::RPG::Client::RogueTournPersonaRoomAttributeData*>* _Attributes_ReadOnly; // 0x18
-		::System::Collections::Generic::List_1<::RPG::Client::RogueTournPersonaRoomAttributeData*>* _Attributes; // 0x20
+		::System::Collections::Generic::List_1<::RPG::Client::RogueTournPersonaRoomAttributeData*>* _Attributes; // 0x10
+		::RPG::Client::RogueTournPersonaRoomCompositionTypeData* _CompositionType; // 0x18
+		::System::Collections::ObjectModel::ReadOnlyCollection_1<::RPG::Client::RogueTournPersonaRoomAttributeData*>* _Attributes_ReadOnly; // 0x20
 		::System::UInt32 _Level; // 0x28
 
 		::System::Void _ctor()
@@ -64,11 +63,6 @@ namespace RPG::Client
 		::System::Collections::Generic::IEnumerable_1<::RPG::Client::IRogueTournPersonaRoomAttribute*>* get_Attributes()
 		{
 			return ((::System::Collections::Generic::IEnumerable_1<::RPG::Client::IRogueTournPersonaRoomAttribute*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUETOURNPERSONAROOMCARDDATABASE_GET_ATTRIBUTES_OFFSET))(this);
-		}
-
-		::System::String* __iFixBaseProxy_ToString()
-		{
-			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUETOURNPERSONAROOMCARDDATABASE___IFIXBASEPROXY_TOSTRING_OFFSET))(this);
 		}
 	};
 }

@@ -1,18 +1,17 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Class_1_F9FBCC956DFCF137_5.h"
+#include "unitysdk/Class_1_F9FBCC956DFCF137_4.h"
 #include "unitysdk/RPG/GameCore/FixPoint.h"
 
 class Class_1_AC66714FF5876767;
 namespace RPG::GameCore { class CheckVisionAxis; }
 
-#define CLASS_2_3DECAB416F6B1081_METHOD_2_512073A5E70F4E39_OFFSET UNITYSDK_OFFSET(0xA7C2980)
-#define CLASS_2_3DECAB416F6B1081_METHOD_2_E2C273CA106EBD0B_OFFSET UNITYSDK_OFFSET(0xA7C2940)
-#define CLASS_2_3DECAB416F6B1081__CTOR_OFFSET UNITYSDK_OFFSET(0xA7C2930)
+#define CLASS_2_3DECAB416F6B1081_METHOD_2_E2C273CA106EBD0B_OFFSET UNITYSDK_OFFSET(0x16E732F0)
+#define CLASS_2_3DECAB416F6B1081__CTOR_OFFSET UNITYSDK_OFFSET(0x16E732E0)
 
-inline static constexpr unsigned int Class_2_3DECAB416F6B1081_TypeDefinitionIndex = 50822;
+inline static constexpr unsigned int Class_2_3DECAB416F6B1081_TypeDefinitionIndex = 51907;
 
-class Class_2_3DECAB416F6B1081 : public ::Class_1_F9FBCC956DFCF137_5
+class Class_2_3DECAB416F6B1081 : public ::Class_1_F9FBCC956DFCF137_4
 {
 public:
 	::RPG::GameCore::CheckVisionAxis* Field_2_0; // 0x18
@@ -25,10 +24,5 @@ public:
 	::RPG::GameCore::FixPoint Method_2_E2C273CA106EBD0B()
 	{
 		return ((::RPG::GameCore::FixPoint(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_3DECAB416F6B1081_METHOD_2_E2C273CA106EBD0B_OFFSET))(this);
-	}
-
-	::RPG::GameCore::FixPoint Method_2_512073A5E70F4E39()
-	{
-		return ((::RPG::GameCore::FixPoint(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_3DECAB416F6B1081_METHOD_2_512073A5E70F4E39_OFFSET))(this);
 	}
 };

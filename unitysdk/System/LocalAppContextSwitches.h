@@ -4,14 +4,14 @@
 
 namespace System
 {
-	inline static constexpr unsigned int LocalAppContextSwitches_TypeDefinitionIndex = 2474;
+	inline static constexpr unsigned int LocalAppContextSwitches_TypeDefinitionIndex = 2478;
 
 	class LocalAppContextSwitches : public ::System::Object
 	{
 	public:
 		static ::System::Boolean* StaticGet_MemberDescriptorEqualsReturnsFalseIfEquivalent()
 		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(LocalAppContextSwitches_TypeDefinitionIndex)->GetStaticField(0x8EE0);
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(LocalAppContextSwitches_TypeDefinitionIndex)->GetStaticField(0x7AC0);
 		}
 	};
 }

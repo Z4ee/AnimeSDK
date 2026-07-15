@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SkillUISpecialButtonType_TypeDefinitionIndex = 17290;
+	inline static constexpr unsigned int SkillUISpecialButtonType_TypeDefinitionIndex = 17461;
 
 	enum class SkillUISpecialButtonType : ::System::Int32
 	{

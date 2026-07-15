@@ -10,20 +10,20 @@ namespace System { template <typename T1, typename T2> class Func_2; }
 namespace System { template <typename T> class Action_1; }
 namespace System::Reflection { class PropertyInfo; }
 
-#define GOOGLE_PROTOBUF_REFLECTION_SINGLEFIELDACCESSOR_HASVALUE_OFFSET UNITYSDK_OFFSET(0x17E7E3C0)
-#define GOOGLE_PROTOBUF_REFLECTION_SINGLEFIELDACCESSOR_SETVALUE_OFFSET UNITYSDK_OFFSET(0x17E7E3F0)
-#define GOOGLE_PROTOBUF_REFLECTION_SINGLEFIELDACCESSOR__CTOR_OFFSET UNITYSDK_OFFSET(0x17E7DE10)
+#define GOOGLE_PROTOBUF_REFLECTION_SINGLEFIELDACCESSOR_HASVALUE_OFFSET UNITYSDK_OFFSET(0x1BDCB330)
+#define GOOGLE_PROTOBUF_REFLECTION_SINGLEFIELDACCESSOR_SETVALUE_OFFSET UNITYSDK_OFFSET(0x1BDCB360)
+#define GOOGLE_PROTOBUF_REFLECTION_SINGLEFIELDACCESSOR__CTOR_OFFSET UNITYSDK_OFFSET(0x1BDCAA80)
 
 namespace Google::Protobuf::Reflection
 {
-	inline static constexpr unsigned int SingleFieldAccessor_TypeDefinitionIndex = 5573;
+	inline static constexpr unsigned int SingleFieldAccessor_TypeDefinitionIndex = 5578;
 
 	class SingleFieldAccessor : public ::Google::Protobuf::Reflection::FieldAccessorBase
 	{
 	public:
-		::System::Func_2<::Google::Protobuf::IMessage*, ::System::Boolean>* hasDelegate; // 0x20
+		::System::Action_2<::Google::Protobuf::IMessage*, ::System::Object*>* setValueDelegate; // 0x20
 		::System::Action_1<::Google::Protobuf::IMessage*>* clearDelegate; // 0x28
-		::System::Action_2<::Google::Protobuf::IMessage*, ::System::Object*>* setValueDelegate; // 0x30
+		::System::Func_2<::Google::Protobuf::IMessage*, ::System::Boolean>* hasDelegate; // 0x30
 
 		::System::Void _ctor(::System::Reflection::PropertyInfo* a1, ::Google::Protobuf::Reflection::FieldDescriptor* a2)
 		{

@@ -4,12 +4,12 @@
 
 namespace RPG::Client::ActivityHipplen { class ActivityHipplenTraitData; }
 
-#define RPG_CLIENT_ACTIVITYHIPPLEN_ACTIVITYHIPPLENGAMECYCLEDATA___C__DISPLAYCLASS5_0__CHECKTRAITISINCURTRAITLIST_B__0_OFFSET UNITYSDK_OFFSET(0xB0CD960)
-#define RPG_CLIENT_ACTIVITYHIPPLEN_ACTIVITYHIPPLENGAMECYCLEDATA___C__DISPLAYCLASS5_0__CTOR_OFFSET UNITYSDK_OFFSET(0xB0CD6A0)
+#define RPG_CLIENT_ACTIVITYHIPPLEN_ACTIVITYHIPPLENGAMECYCLEDATA___C__DISPLAYCLASS5_0__CHECKTRAITISINCURTRAITLIST_B__0_OFFSET UNITYSDK_OFFSET(0x19BB4450)
+#define RPG_CLIENT_ACTIVITYHIPPLEN_ACTIVITYHIPPLENGAMECYCLEDATA___C__DISPLAYCLASS5_0__CTOR_OFFSET UNITYSDK_OFFSET(0x19BB4070)
 
 namespace RPG::Client::ActivityHipplen
 {
-	inline static constexpr unsigned int ActivityHipplenGameCycleData___c__DisplayClass5_0_TypeDefinitionIndex = 70374;
+	inline static constexpr unsigned int ActivityHipplenGameCycleData___c__DisplayClass5_0_TypeDefinitionIndex = 71897;
 
 	class ActivityHipplenGameCycleData___c__DisplayClass5_0 : public ::System::Object
 	{

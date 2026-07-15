@@ -5,22 +5,22 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_PLANETFESEVENTROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x19A1C970)
-#define RPG_GAMECORE_PLANETFESEVENTROW__CTOR_OFFSET UNITYSDK_OFFSET(0x19A1CBF0)
+#define RPG_GAMECORE_PLANETFESEVENTROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B4D6A10)
+#define RPG_GAMECORE_PLANETFESEVENTROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1B4D6C90)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PlanetFesEventRow_TypeDefinitionIndex = 11664;
+	inline static constexpr unsigned int PlanetFesEventRow_TypeDefinitionIndex = 11764;
 
 	class PlanetFesEventRow : public ::System::Object
 	{
 	public:
 		::Il2CppArray<::System::UInt32>* UnlockIDList; // 0x10
-		::System::UInt32 RecurCD; // 0x18
+		::System::UInt32 FailRecurCD; // 0x18
 		::System::UInt32 InitialAppearCD; // 0x1C
-		::System::UInt32 ReenterAppearCD; // 0x20
-		::System::UInt32 FailRecurCD; // 0x24
-		::System::UInt32 StayInterval; // 0x28
+		::System::UInt32 StayInterval; // 0x20
+		::System::UInt32 RecurCD; // 0x24
+		::System::UInt32 ReenterAppearCD; // 0x28
 		::RPG::GameCore::PlanetFesEventType ID; // 0x2C
 
 		::System::Void _ctor()

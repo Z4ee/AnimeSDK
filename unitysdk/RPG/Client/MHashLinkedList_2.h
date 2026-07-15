@@ -8,7 +8,7 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MHashLinkedList_2_TypeDefinitionIndex = 33443;
+	inline static constexpr unsigned int MHashLinkedList_2_TypeDefinitionIndex = 33813;
 
 	template <typename TKey, typename TValue>
 	class MHashLinkedList_2 : public ::System::Object

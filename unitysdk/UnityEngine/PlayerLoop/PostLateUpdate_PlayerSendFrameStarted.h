@@ -4,7 +4,7 @@
 
 namespace UnityEngine::PlayerLoop
 {
-	inline static constexpr unsigned int PostLateUpdate_PlayerSendFrameStarted_TypeDefinitionIndex = 4609;
+	inline static constexpr unsigned int PostLateUpdate_PlayerSendFrameStarted_TypeDefinitionIndex = 4614;
 
 	struct alignas(1) PostLateUpdate_PlayerSendFrameStarted
 	{

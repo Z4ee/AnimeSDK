@@ -7,20 +7,20 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 namespace System::Linq::Expressions::Interpreter { class InterpretedFrame; }
 namespace System::Runtime::CompilerServices { template <typename T> class StrongBox_1; }
 
-#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_STRINGSWITCHINSTRUCTION_GET_CONSUMEDSTACK_OFFSET UNITYSDK_OFFSET(0x1ADB0A30)
-#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_STRINGSWITCHINSTRUCTION_GET_INSTRUCTIONNAME_OFFSET UNITYSDK_OFFSET(0x1ADB09F0)
-#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_STRINGSWITCHINSTRUCTION_RUN_OFFSET UNITYSDK_OFFSET(0x1ADB0A40)
-#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_STRINGSWITCHINSTRUCTION__CTOR_OFFSET UNITYSDK_OFFSET(0x1ADB09E0)
+#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_STRINGSWITCHINSTRUCTION_GET_CONSUMEDSTACK_OFFSET UNITYSDK_OFFSET(0x1C1C2FB0)
+#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_STRINGSWITCHINSTRUCTION_GET_INSTRUCTIONNAME_OFFSET UNITYSDK_OFFSET(0x1C1C2F70)
+#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_STRINGSWITCHINSTRUCTION_RUN_OFFSET UNITYSDK_OFFSET(0x1C1C2FC0)
+#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_STRINGSWITCHINSTRUCTION__CTOR_OFFSET UNITYSDK_OFFSET(0x1C1C2F60)
 
 namespace System::Linq::Expressions::Interpreter
 {
-	inline static constexpr unsigned int StringSwitchInstruction_TypeDefinitionIndex = 3327;
+	inline static constexpr unsigned int StringSwitchInstruction_TypeDefinitionIndex = 3331;
 
 	class StringSwitchInstruction : public ::System::Linq::Expressions::Interpreter::Instruction
 	{
 	public:
-		::System::Runtime::CompilerServices::StrongBox_1<::System::Int32>* _nullCase; // 0x10
-		::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Int32>* _cases; // 0x18
+		::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Int32>* _cases; // 0x10
+		::System::Runtime::CompilerServices::StrongBox_1<::System::Int32>* _nullCase; // 0x18
 
 		::System::Void _ctor(::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Int32>* a1, ::System::Runtime::CompilerServices::StrongBox_1<::System::Int32>* a2)
 		{

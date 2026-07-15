@@ -9,13 +9,13 @@ namespace RPG::GameCore { class TaskConfig; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_ADVENTUREABILITYCONFIG_METHOD_3_39BB5FCEDDCD9230_OFFSET UNITYSDK_OFFSET(0x1943EFF0)
-#define RPG_GAMECORE_ADVENTUREABILITYCONFIG_METHOD_3_AA735394EC67A1ED_OFFSET UNITYSDK_OFFSET(0x1943EFB0)
-#define RPG_GAMECORE_ADVENTUREABILITYCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1943EFE0)
+#define RPG_GAMECORE_ADVENTUREABILITYCONFIG_METHOD_3_39BB5FCEDDCD9230_OFFSET UNITYSDK_OFFSET(0x1AE4B380)
+#define RPG_GAMECORE_ADVENTUREABILITYCONFIG_METHOD_3_AA735394EC67A1ED_OFFSET UNITYSDK_OFFSET(0x1AE4B340)
+#define RPG_GAMECORE_ADVENTUREABILITYCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1AE4B370)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AdventureAbilityConfig_TypeDefinitionIndex = 16565;
+	inline static constexpr unsigned int AdventureAbilityConfig_TypeDefinitionIndex = 16727;
 
 	class AdventureAbilityConfig : public ::RPG::GameCore::AbilityConfig
 	{

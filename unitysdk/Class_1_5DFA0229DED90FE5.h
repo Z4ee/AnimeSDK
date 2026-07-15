@@ -5,23 +5,23 @@
 
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_1_5DFA0229DED90FE5__CTOR_OFFSET UNITYSDK_OFFSET(0x13CED980)
+#define CLASS_1_5DFA0229DED90FE5__CTOR_OFFSET UNITYSDK_OFFSET(0x145591E0)
 
-inline static constexpr unsigned int Class_1_5DFA0229DED90FE5_TypeDefinitionIndex = 53838;
+inline static constexpr unsigned int Class_1_5DFA0229DED90FE5_TypeDefinitionIndex = 55059;
 
 class Class_1_5DFA0229DED90FE5 : public ::System::Object
 {
 public:
 	::System::Collections::Generic::List_1<::System::UInt32>* Field_1_0; // 0x10
 	::System::Collections::Generic::List_1<::System::UInt32>* Field_1_1; // 0x18
-	::RPG::GameCore::FixPoint Field_1_2; // 0x20
+	::System::UInt32 Field_1_2; // 0x20
 	::RPG::GameCore::FixPoint Field_1_3; // 0x28
-	::RPG::GameCore::FixPoint Field_1_4; // 0x30
-	::System::UInt32 Field_1_5; // 0x38
-	::System::UInt32 Field_1_6; // 0x3C
-	::System::UInt32 Field_1_7; // 0x40
-	::System::UInt32 Field_1_8; // 0x44
-	::System::UInt32 Field_1_9; // 0x48
+	::System::UInt32 Field_1_4; // 0x30
+	::System::UInt32 Field_1_5; // 0x34
+	::System::UInt32 Field_1_6; // 0x38
+	::System::UInt32 Field_1_7; // 0x3C
+	::RPG::GameCore::FixPoint Field_1_8; // 0x40
+	::RPG::GameCore::FixPoint Field_1_9; // 0x48
 
 	::System::Void _ctor()
 	{

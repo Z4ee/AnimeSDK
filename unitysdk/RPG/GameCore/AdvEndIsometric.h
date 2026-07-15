@@ -4,13 +4,13 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_ADVENDISOMETRIC_METHOD_3_8FE5649592E2167C_OFFSET UNITYSDK_OFFSET(0x194223A0)
-#define RPG_GAMECORE_ADVENDISOMETRIC_METHOD_3_902AE7AF0D5FA7B0_OFFSET UNITYSDK_OFFSET(0x19422290)
-#define RPG_GAMECORE_ADVENDISOMETRIC__CTOR_OFFSET UNITYSDK_OFFSET(0x19422370)
+#define RPG_GAMECORE_ADVENDISOMETRIC_METHOD_3_8D9DAC7F4C905B79_OFFSET UNITYSDK_OFFSET(0x1BE1ABE0)
+#define RPG_GAMECORE_ADVENDISOMETRIC_METHOD_3_8FE5649592E2167C_OFFSET UNITYSDK_OFFSET(0x1BE1ACB0)
+#define RPG_GAMECORE_ADVENDISOMETRIC__CTOR_OFFSET UNITYSDK_OFFSET(0x1BE1ACA0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AdvEndIsometric_TypeDefinitionIndex = 20985;
+	inline static constexpr unsigned int AdvEndIsometric_TypeDefinitionIndex = 21400;
 
 	class AdvEndIsometric : public ::RPG::GameCore::TaskConfig
 	{
@@ -20,9 +20,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVENDISOMETRIC__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_902AE7AF0D5FA7B0(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AdvEndIsometric*& a2)
+		static ::System::Void Method_3_8D9DAC7F4C905B79(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AdvEndIsometric*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::AdvEndIsometric*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVENDISOMETRIC_METHOD_3_902AE7AF0D5FA7B0_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::AdvEndIsometric*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVENDISOMETRIC_METHOD_3_8D9DAC7F4C905B79_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_8FE5649592E2167C(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AdvEndIsometric* a2)

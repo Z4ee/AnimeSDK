@@ -8,10 +8,10 @@
 namespace System { class String; }
 namespace System::Globalization { class HebrewNumber_HebrewValue; }
 
-#define SYSTEM_GLOBALIZATION_HEBREWNUMBER_ISDIGIT_OFFSET UNITYSDK_OFFSET(0x186E2BA0)
-#define SYSTEM_GLOBALIZATION_HEBREWNUMBER_PARSEBYCHAR_OFFSET UNITYSDK_OFFSET(0x186E2CA0)
-#define SYSTEM_GLOBALIZATION_HEBREWNUMBER_TOSTRING_OFFSET UNITYSDK_OFFSET(0x186EDC20)
-#define SYSTEM_GLOBALIZATION_HEBREWNUMBER__CCTOR_OFFSET UNITYSDK_OFFSET(0x186EE1C0)
+#define SYSTEM_GLOBALIZATION_HEBREWNUMBER_ISDIGIT_OFFSET UNITYSDK_OFFSET(0x172BE290)
+#define SYSTEM_GLOBALIZATION_HEBREWNUMBER_PARSEBYCHAR_OFFSET UNITYSDK_OFFSET(0x172BE390)
+#define SYSTEM_GLOBALIZATION_HEBREWNUMBER_TOSTRING_OFFSET UNITYSDK_OFFSET(0x172C9650)
+#define SYSTEM_GLOBALIZATION_HEBREWNUMBER__CCTOR_OFFSET UNITYSDK_OFFSET(0x172C9BF0)
 
 namespace System::Globalization
 {
@@ -20,17 +20,17 @@ namespace System::Globalization
 	class HebrewNumber : public ::System::Object
 	{
 	public:
-		static ::Il2CppArray<::System::Globalization::HebrewNumber_HebrewValue*>** StaticGet_HebrewValues()
-		{
-			return (::Il2CppArray<::System::Globalization::HebrewNumber_HebrewValue*>**)Il2CppClass::FromTypeDefinitionIndex(HebrewNumber_TypeDefinitionIndex)->GetStaticField(0x6E70);
-		}
 		static ::Il2CppArray<::Il2CppArray<::System::Globalization::HebrewNumber_HS>*>** StaticGet_NumberPasingState()
 		{
-			return (::Il2CppArray<::Il2CppArray<::System::Globalization::HebrewNumber_HS>*>**)Il2CppClass::FromTypeDefinitionIndex(HebrewNumber_TypeDefinitionIndex)->GetStaticField(0x6E78);
+			return (::Il2CppArray<::Il2CppArray<::System::Globalization::HebrewNumber_HS>*>**)Il2CppClass::FromTypeDefinitionIndex(HebrewNumber_TypeDefinitionIndex)->GetStaticField(0xA5A0);
+		}
+		static ::Il2CppArray<::System::Globalization::HebrewNumber_HebrewValue*>** StaticGet_HebrewValues()
+		{
+			return (::Il2CppArray<::System::Globalization::HebrewNumber_HebrewValue*>**)Il2CppClass::FromTypeDefinitionIndex(HebrewNumber_TypeDefinitionIndex)->GetStaticField(0xA5A8);
 		}
 		static ::System::Char* StaticGet_maxHebrewNumberCh()
 		{
-			return (::System::Char*)Il2CppClass::FromTypeDefinitionIndex(HebrewNumber_TypeDefinitionIndex)->GetStaticField(0x3490);
+			return (::System::Char*)Il2CppClass::FromTypeDefinitionIndex(HebrewNumber_TypeDefinitionIndex)->GetStaticField(0x4370);
 		}
 
 		static ::System::Void _cctor()

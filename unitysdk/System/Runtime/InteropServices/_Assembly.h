@@ -3,7 +3,7 @@
 
 namespace System::Runtime::InteropServices
 {
-	inline static constexpr unsigned int _Assembly_TypeDefinitionIndex = 1430;
+	inline static constexpr unsigned int _Assembly_TypeDefinitionIndex = 1434;
 
 	class _Assembly
 	{

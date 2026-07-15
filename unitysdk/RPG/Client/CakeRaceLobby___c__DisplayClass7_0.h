@@ -5,12 +5,12 @@
 namespace RPG::Client { class CakeRaceParticipantData; }
 namespace RPG::Client { class LobbyMemberData; }
 
-#define RPG_CLIENT_CAKERACELOBBY___C__DISPLAYCLASS7_0__CTOR_OFFSET UNITYSDK_OFFSET(0xB4A5360)
-#define RPG_CLIENT_CAKERACELOBBY___C__DISPLAYCLASS7_0___SYNCPARTICIPANTS_B__0_OFFSET UNITYSDK_OFFSET(0xB4A59C0)
+#define RPG_CLIENT_CAKERACELOBBY___C__DISPLAYCLASS7_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1AAD3F00)
+#define RPG_CLIENT_CAKERACELOBBY___C__DISPLAYCLASS7_0___SYNCPARTICIPANTS_B__0_OFFSET UNITYSDK_OFFSET(0x1AAD4280)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int CakeRaceLobby___c__DisplayClass7_0_TypeDefinitionIndex = 59001;
+	inline static constexpr unsigned int CakeRaceLobby___c__DisplayClass7_0_TypeDefinitionIndex = 60272;
 
 	class CakeRaceLobby___c__DisplayClass7_0 : public ::System::Object
 	{

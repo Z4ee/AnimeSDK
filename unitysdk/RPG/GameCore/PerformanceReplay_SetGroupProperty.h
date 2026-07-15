@@ -5,13 +5,13 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class DynamicString; }
 
-#define RPG_GAMECORE_PERFORMANCEREPLAY_SETGROUPPROPERTY_METHOD_3_13900B039E692EA7_OFFSET UNITYSDK_OFFSET(0x199FA1C0)
-#define RPG_GAMECORE_PERFORMANCEREPLAY_SETGROUPPROPERTY_METHOD_3_BFB7600C2BD496AC_OFFSET UNITYSDK_OFFSET(0x199FA240)
-#define RPG_GAMECORE_PERFORMANCEREPLAY_SETGROUPPROPERTY__CTOR_OFFSET UNITYSDK_OFFSET(0x199FA210)
+#define RPG_GAMECORE_PERFORMANCEREPLAY_SETGROUPPROPERTY_METHOD_3_BE00358E9C112485_OFFSET UNITYSDK_OFFSET(0x1B4B45F0)
+#define RPG_GAMECORE_PERFORMANCEREPLAY_SETGROUPPROPERTY_METHOD_3_BFB7600C2BD496AC_OFFSET UNITYSDK_OFFSET(0x1B4B4630)
+#define RPG_GAMECORE_PERFORMANCEREPLAY_SETGROUPPROPERTY__CTOR_OFFSET UNITYSDK_OFFSET(0x1B4B4620)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PerformanceReplay_SetGroupProperty_TypeDefinitionIndex = 20629;
+	inline static constexpr unsigned int PerformanceReplay_SetGroupProperty_TypeDefinitionIndex = 21044;
 
 	class PerformanceReplay_SetGroupProperty : public ::RPG::GameCore::TaskConfig
 	{
@@ -25,9 +25,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PERFORMANCEREPLAY_SETGROUPPROPERTY__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_13900B039E692EA7(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::PerformanceReplay_SetGroupProperty*& a2)
+		static ::System::Void Method_3_BE00358E9C112485(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::PerformanceReplay_SetGroupProperty*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::PerformanceReplay_SetGroupProperty*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PERFORMANCEREPLAY_SETGROUPPROPERTY_METHOD_3_13900B039E692EA7_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::PerformanceReplay_SetGroupProperty*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PERFORMANCEREPLAY_SETGROUPPROPERTY_METHOD_3_BE00358E9C112485_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_BFB7600C2BD496AC(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::PerformanceReplay_SetGroupProperty* a2)

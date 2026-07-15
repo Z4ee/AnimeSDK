@@ -5,20 +5,20 @@
 
 namespace System { class String; }
 
-#define CLASS_1_1DEC440759A40898_2__CCTOR_OFFSET UNITYSDK_OFFSET(0x18CFA4A0)
+#define CLASS_1_1DEC440759A40898_2__CCTOR_OFFSET UNITYSDK_OFFSET(0x1B17DDB0)
 
-inline static constexpr unsigned int Class_1_1DEC440759A40898_2_TypeDefinitionIndex = 39135;
+inline static constexpr unsigned int Class_1_1DEC440759A40898_2_TypeDefinitionIndex = 39684;
 
 class Class_1_1DEC440759A40898_2 : public ::System::Object
 {
 public:
 	static ::Il2CppArray<::System::RuntimeTypeHandle>** StaticGet_Field_1_0()
 	{
-		return (::Il2CppArray<::System::RuntimeTypeHandle>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_1DEC440759A40898_2_TypeDefinitionIndex)->GetStaticField(0x2A8F0);
+		return (::Il2CppArray<::System::RuntimeTypeHandle>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_1DEC440759A40898_2_TypeDefinitionIndex)->GetStaticField(0x30A40);
 	}
 	static ::Il2CppArray<::System::String*>** StaticGet_Field_1_1()
 	{
-		return (::Il2CppArray<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_1DEC440759A40898_2_TypeDefinitionIndex)->GetStaticField(0x2A8F8);
+		return (::Il2CppArray<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_1DEC440759A40898_2_TypeDefinitionIndex)->GetStaticField(0x30A48);
 	}
 	// static const ::System::Int32 Field_1_2 = 0x0; // 0x0
 	// static const ::System::Int32 Field_1_3 = 0x1; // 0x0
@@ -38,7 +38,6 @@ public:
 	// static const ::System::Int32 Field_1_17 = 0xF; // 0x0
 	// static const ::System::Int32 Field_1_18 = 0x10; // 0x0
 	// static const ::System::Int32 Field_1_19 = 0x11; // 0x0
-	// static const ::System::Int32 Field_1_20 = 0x12; // 0x0
 
 	static ::System::Void _cctor()
 	{

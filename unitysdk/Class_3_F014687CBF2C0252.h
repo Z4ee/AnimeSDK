@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class ByContainResistBehaviorFlag; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_F014687CBF2C0252_EVALUATE_OFFSET UNITYSDK_OFFSET(0xA9388A0)
-#define CLASS_3_F014687CBF2C0252__CTOR_OFFSET UNITYSDK_OFFSET(0xA938870)
+#define CLASS_3_F014687CBF2C0252_EVALUATE_OFFSET UNITYSDK_OFFSET(0x13A46680)
+#define CLASS_3_F014687CBF2C0252__CTOR_OFFSET UNITYSDK_OFFSET(0x13A46650)
 
-inline static constexpr unsigned int Class_3_F014687CBF2C0252_TypeDefinitionIndex = 51299;
+inline static constexpr unsigned int Class_3_F014687CBF2C0252_TypeDefinitionIndex = 52405;
 
 class Class_3_F014687CBF2C0252 : public ::RPG::GameCore::PredicateTaskBase_1<::RPG::GameCore::ByContainResistBehaviorFlag*>
 {

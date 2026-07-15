@@ -4,13 +4,13 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_CLIENT_ST_PARKOUR_USESPRINT_METHOD_4_A1E03D6FBE224B76_OFFSET UNITYSDK_OFFSET(0x193BED40)
-#define RPG_CLIENT_ST_PARKOUR_USESPRINT_METHOD_4_D0C6D4B0CB443A76_OFFSET UNITYSDK_OFFSET(0x193BEE10)
-#define RPG_CLIENT_ST_PARKOUR_USESPRINT__CTOR_OFFSET UNITYSDK_OFFSET(0x193BEDC0)
+#define RPG_CLIENT_ST_PARKOUR_USESPRINT_METHOD_4_D0C6D4B0CB443A76_OFFSET UNITYSDK_OFFSET(0x1B9F1CE0)
+#define RPG_CLIENT_ST_PARKOUR_USESPRINT_METHOD_4_DCB9B1920AE554F7_OFFSET UNITYSDK_OFFSET(0x1B9F1CA0)
+#define RPG_CLIENT_ST_PARKOUR_USESPRINT__CTOR_OFFSET UNITYSDK_OFFSET(0x1B9F1CD0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ST_Parkour_UseSprint_TypeDefinitionIndex = 9939;
+	inline static constexpr unsigned int ST_Parkour_UseSprint_TypeDefinitionIndex = 9954;
 
 	class ST_Parkour_UseSprint : public ::RPG::GameCore::STTaskConfig
 	{
@@ -24,9 +24,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ST_PARKOUR_USESPRINT__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_4_A1E03D6FBE224B76(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::Client::ST_Parkour_UseSprint*& a2)
+		static ::System::Void Method_4_DCB9B1920AE554F7(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::Client::ST_Parkour_UseSprint*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::Client::ST_Parkour_UseSprint*&))((::PBYTE)hIl2Cpp + RPG_CLIENT_ST_PARKOUR_USESPRINT_METHOD_4_A1E03D6FBE224B76_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::Client::ST_Parkour_UseSprint*&))((::PBYTE)hIl2Cpp + RPG_CLIENT_ST_PARKOUR_USESPRINT_METHOD_4_DCB9B1920AE554F7_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_4_D0C6D4B0CB443A76(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::Client::ST_Parkour_UseSprint* a2)

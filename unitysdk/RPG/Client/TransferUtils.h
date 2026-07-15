@@ -4,11 +4,11 @@
 
 namespace System { class Action; }
 
-#define RPG_CLIENT_TRANSFERUTILS_TRANSFERCHECK_OFFSET UNITYSDK_OFFSET(0xCAC7800)
+#define RPG_CLIENT_TRANSFERUTILS_TRANSFERCHECK_OFFSET UNITYSDK_OFFSET(0x19898420)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int TransferUtils_TypeDefinitionIndex = 63793;
+	inline static constexpr unsigned int TransferUtils_TypeDefinitionIndex = 65161;
 
 	class TransferUtils : public ::System::Object
 	{

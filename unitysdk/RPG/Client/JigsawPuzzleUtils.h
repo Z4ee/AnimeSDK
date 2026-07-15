@@ -7,13 +7,13 @@ namespace RPG::Client::Prop { class JigsawPuzzleBoard; }
 namespace RPG::Client::Prop { class JigsawPuzzleItem; }
 namespace UnityEngine { class RectTransform; }
 
-#define RPG_CLIENT_JIGSAWPUZZLEUTILS_ISMOUSEPOSINRECTBYCLAMP_OFFSET UNITYSDK_OFFSET(0xBD6AE90)
-#define RPG_CLIENT_JIGSAWPUZZLEUTILS_ISPOSINRECT_OFFSET UNITYSDK_OFFSET(0xBD6B560)
-#define RPG_CLIENT_JIGSAWPUZZLEUTILS_SETUPJIGSAWPUZZLEITEM_OFFSET UNITYSDK_OFFSET(0xBD6B4B0)
+#define RPG_CLIENT_JIGSAWPUZZLEUTILS_ISMOUSEPOSINRECTBYCLAMP_OFFSET UNITYSDK_OFFSET(0x16C65670)
+#define RPG_CLIENT_JIGSAWPUZZLEUTILS_ISPOSINRECT_OFFSET UNITYSDK_OFFSET(0x16C65A70)
+#define RPG_CLIENT_JIGSAWPUZZLEUTILS_SETUPJIGSAWPUZZLEITEM_OFFSET UNITYSDK_OFFSET(0x16C659C0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int JigsawPuzzleUtils_TypeDefinitionIndex = 61477;
+	inline static constexpr unsigned int JigsawPuzzleUtils_TypeDefinitionIndex = 62839;
 
 	class JigsawPuzzleUtils : public ::System::Object
 	{

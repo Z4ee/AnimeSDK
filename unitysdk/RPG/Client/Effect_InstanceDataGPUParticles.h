@@ -8,13 +8,12 @@ namespace RPG::Client { class Effect_InstanceDataGPUParticlesBehavior; }
 namespace System { class String; }
 namespace UnityEngine { class GPUParticlesRenderer; }
 
-#define RPG_CLIENT_EFFECT_INSTANCEDATAGPUPARTICLES_GETTICKLODTEMPLATENAME_OFFSET UNITYSDK_OFFSET(0xB859F10)
-#define RPG_CLIENT_EFFECT_INSTANCEDATAGPUPARTICLES__CTOR_OFFSET UNITYSDK_OFFSET(0xB859F60)
-#define RPG_CLIENT_EFFECT_INSTANCEDATAGPUPARTICLES___IFIXBASEPROXY_GETTICKLODTEMPLATENAME_OFFSET UNITYSDK_OFFSET(0xB859F70)
+#define RPG_CLIENT_EFFECT_INSTANCEDATAGPUPARTICLES_GETTICKLODTEMPLATENAME_OFFSET UNITYSDK_OFFSET(0x150FC0D0)
+#define RPG_CLIENT_EFFECT_INSTANCEDATAGPUPARTICLES__CTOR_OFFSET UNITYSDK_OFFSET(0x150FC120)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int Effect_InstanceDataGPUParticles_TypeDefinitionIndex = 66055;
+	inline static constexpr unsigned int Effect_InstanceDataGPUParticles_TypeDefinitionIndex = 67480;
 
 	class Effect_InstanceDataGPUParticles : public ::RPG::Client::TAMonoPlugin_1<::RPG::Client::Effect_InstanceDataGPUParticlesBehavior*>
 	{
@@ -32,11 +31,6 @@ namespace RPG::Client
 		::System::String* GetTickLodTemplateName()
 		{
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_EFFECT_INSTANCEDATAGPUPARTICLES_GETTICKLODTEMPLATENAME_OFFSET))(this);
-		}
-
-		::System::String* __iFixBaseProxy_GetTickLodTemplateName()
-		{
-			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_EFFECT_INSTANCEDATAGPUPARTICLES___IFIXBASEPROXY_GETTICKLODTEMPLATENAME_OFFSET))(this);
 		}
 	};
 }

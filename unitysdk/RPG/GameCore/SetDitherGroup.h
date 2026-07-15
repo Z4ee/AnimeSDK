@@ -6,13 +6,13 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class TargetEvaluator; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_SETDITHERGROUP_METHOD_3_A6B25F25C67E701F_OFFSET UNITYSDK_OFFSET(0x19C33AA0)
-#define RPG_GAMECORE_SETDITHERGROUP_METHOD_3_B75B7931A16809D4_OFFSET UNITYSDK_OFFSET(0x19C33A20)
-#define RPG_GAMECORE_SETDITHERGROUP__CTOR_OFFSET UNITYSDK_OFFSET(0x19C33A70)
+#define RPG_GAMECORE_SETDITHERGROUP_METHOD_3_2639B0D9B79BE1CA_OFFSET UNITYSDK_OFFSET(0x1C2DC3B0)
+#define RPG_GAMECORE_SETDITHERGROUP_METHOD_3_A6B25F25C67E701F_OFFSET UNITYSDK_OFFSET(0x1C2DC3F0)
+#define RPG_GAMECORE_SETDITHERGROUP__CTOR_OFFSET UNITYSDK_OFFSET(0x1C2DC3E0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SetDitherGroup_TypeDefinitionIndex = 21661;
+	inline static constexpr unsigned int SetDitherGroup_TypeDefinitionIndex = 22087;
 
 	class SetDitherGroup : public ::RPG::GameCore::TaskConfig
 	{
@@ -28,9 +28,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETDITHERGROUP__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_B75B7931A16809D4(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SetDitherGroup*& a2)
+		static ::System::Void Method_3_2639B0D9B79BE1CA(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SetDitherGroup*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SetDitherGroup*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETDITHERGROUP_METHOD_3_B75B7931A16809D4_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SetDitherGroup*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETDITHERGROUP_METHOD_3_2639B0D9B79BE1CA_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_A6B25F25C67E701F(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SetDitherGroup* a2)

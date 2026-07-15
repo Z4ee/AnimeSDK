@@ -4,7 +4,7 @@
 
 namespace ZenFulcrum::VR::OpenVRBinding
 {
-	inline static constexpr unsigned int VREvent_SeatedZeroPoseReset_t_TypeDefinitionIndex = 36357;
+	inline static constexpr unsigned int VREvent_SeatedZeroPoseReset_t_TypeDefinitionIndex = 37139;
 
 	struct alignas(1) VREvent_SeatedZeroPoseReset_t
 	{

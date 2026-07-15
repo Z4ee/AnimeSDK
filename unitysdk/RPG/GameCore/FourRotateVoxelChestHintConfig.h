@@ -6,13 +6,13 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class FiveDimDynamicVar; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_FOURROTATEVOXELCHESTHINTCONFIG_METHOD_3_6BC684C0B9337775_OFFSET UNITYSDK_OFFSET(0x197684D0)
-#define RPG_GAMECORE_FOURROTATEVOXELCHESTHINTCONFIG_METHOD_3_AE691D0393D3BF8C_OFFSET UNITYSDK_OFFSET(0x19768540)
-#define RPG_GAMECORE_FOURROTATEVOXELCHESTHINTCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x19768520)
+#define RPG_GAMECORE_FOURROTATEVOXELCHESTHINTCONFIG_METHOD_3_98E1691212CA4139_OFFSET UNITYSDK_OFFSET(0x1B979C10)
+#define RPG_GAMECORE_FOURROTATEVOXELCHESTHINTCONFIG_METHOD_3_AE691D0393D3BF8C_OFFSET UNITYSDK_OFFSET(0x1B979C50)
+#define RPG_GAMECORE_FOURROTATEVOXELCHESTHINTCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1B979C40)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FourRotateVoxelChestHintConfig_TypeDefinitionIndex = 15939;
+	inline static constexpr unsigned int FourRotateVoxelChestHintConfig_TypeDefinitionIndex = 16121;
 
 	class FourRotateVoxelChestHintConfig : public ::RPG::GameCore::LittleGameComponentConfig
 	{
@@ -27,9 +27,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FOURROTATEVOXELCHESTHINTCONFIG__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_6BC684C0B9337775(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::FourRotateVoxelChestHintConfig*& a2)
+		static ::System::Void Method_3_98E1691212CA4139(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::FourRotateVoxelChestHintConfig*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::FourRotateVoxelChestHintConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FOURROTATEVOXELCHESTHINTCONFIG_METHOD_3_6BC684C0B9337775_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::FourRotateVoxelChestHintConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FOURROTATEVOXELCHESTHINTCONFIG_METHOD_3_98E1691212CA4139_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_AE691D0393D3BF8C(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::FourRotateVoxelChestHintConfig* a2)

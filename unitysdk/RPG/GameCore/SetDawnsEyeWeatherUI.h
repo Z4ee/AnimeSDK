@@ -5,13 +5,13 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class DawnsEyeWeatherUIBaseConfig; }
 
-#define RPG_GAMECORE_SETDAWNSEYEWEATHERUI_METHOD_3_0744C6A968A6CF90_OFFSET UNITYSDK_OFFSET(0x19C33220)
-#define RPG_GAMECORE_SETDAWNSEYEWEATHERUI_METHOD_3_0E824203D360CF49_OFFSET UNITYSDK_OFFSET(0x19C331A0)
-#define RPG_GAMECORE_SETDAWNSEYEWEATHERUI__CTOR_OFFSET UNITYSDK_OFFSET(0x19C331F0)
+#define RPG_GAMECORE_SETDAWNSEYEWEATHERUI_METHOD_3_0744C6A968A6CF90_OFFSET UNITYSDK_OFFSET(0x1C2DBC50)
+#define RPG_GAMECORE_SETDAWNSEYEWEATHERUI_METHOD_3_94ACAE3E7BAE7353_OFFSET UNITYSDK_OFFSET(0x1C2DBC10)
+#define RPG_GAMECORE_SETDAWNSEYEWEATHERUI__CTOR_OFFSET UNITYSDK_OFFSET(0x1C2DBC40)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SetDawnsEyeWeatherUI_TypeDefinitionIndex = 21551;
+	inline static constexpr unsigned int SetDawnsEyeWeatherUI_TypeDefinitionIndex = 21973;
 
 	class SetDawnsEyeWeatherUI : public ::RPG::GameCore::TaskConfig
 	{
@@ -23,9 +23,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETDAWNSEYEWEATHERUI__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_0E824203D360CF49(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SetDawnsEyeWeatherUI*& a2)
+		static ::System::Void Method_3_94ACAE3E7BAE7353(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SetDawnsEyeWeatherUI*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SetDawnsEyeWeatherUI*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETDAWNSEYEWEATHERUI_METHOD_3_0E824203D360CF49_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SetDawnsEyeWeatherUI*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETDAWNSEYEWEATHERUI_METHOD_3_94ACAE3E7BAE7353_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_0744C6A968A6CF90(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SetDawnsEyeWeatherUI* a2)

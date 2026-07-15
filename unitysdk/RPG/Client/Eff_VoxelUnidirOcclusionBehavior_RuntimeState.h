@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int Eff_VoxelUnidirOcclusionBehavior_RuntimeState_TypeDefinitionIndex = 65830;
+	inline static constexpr unsigned int Eff_VoxelUnidirOcclusionBehavior_RuntimeState_TypeDefinitionIndex = 67247;
 
 	enum class Eff_VoxelUnidirOcclusionBehavior_RuntimeState : ::System::Int32
 	{

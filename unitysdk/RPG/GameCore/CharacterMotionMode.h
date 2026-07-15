@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int CharacterMotionMode_TypeDefinitionIndex = 10076;
+	inline static constexpr unsigned int CharacterMotionMode_TypeDefinitionIndex = 10091;
 
 	enum class CharacterMotionMode : ::System::Int32
 	{

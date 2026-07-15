@@ -4,7 +4,7 @@
 
 namespace SRF::Components
 {
-	inline static constexpr unsigned int SRSingleton_1_TypeDefinitionIndex = 33626;
+	inline static constexpr unsigned int SRSingleton_1_TypeDefinitionIndex = 33997;
 
 	template <typename T>
 	class SRSingleton_1 : public ::SRF::SRMonoBehaviour

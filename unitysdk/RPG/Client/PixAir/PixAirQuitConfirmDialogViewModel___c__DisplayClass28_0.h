@@ -4,12 +4,12 @@
 
 namespace RPG::Client::PixAir { class PixAirModule; }
 
-#define RPG_CLIENT_PIXAIR_PIXAIRQUITCONFIRMDIALOGVIEWMODEL___C__DISPLAYCLASS28_0__CREATE_B__0_OFFSET UNITYSDK_OFFSET(0xC3E7AC0)
-#define RPG_CLIENT_PIXAIR_PIXAIRQUITCONFIRMDIALOGVIEWMODEL___C__DISPLAYCLASS28_0__CTOR_OFFSET UNITYSDK_OFFSET(0xC3E6E70)
+#define RPG_CLIENT_PIXAIR_PIXAIRQUITCONFIRMDIALOGVIEWMODEL___C__DISPLAYCLASS28_0__CREATE_B__0_OFFSET UNITYSDK_OFFSET(0x1A0DD450)
+#define RPG_CLIENT_PIXAIR_PIXAIRQUITCONFIRMDIALOGVIEWMODEL___C__DISPLAYCLASS28_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1A0DC930)
 
 namespace RPG::Client::PixAir
 {
-	inline static constexpr unsigned int PixAirQuitConfirmDialogViewModel___c__DisplayClass28_0_TypeDefinitionIndex = 73708;
+	inline static constexpr unsigned int PixAirQuitConfirmDialogViewModel___c__DisplayClass28_0_TypeDefinitionIndex = 75357;
 
 	class PixAirQuitConfirmDialogViewModel___c__DisplayClass28_0 : public ::System::Object
 	{

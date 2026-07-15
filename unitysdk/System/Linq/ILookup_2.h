@@ -5,7 +5,7 @@ namespace System::Collections::Generic { template <typename T> class IEnumerable
 
 namespace System::Linq
 {
-	inline static constexpr unsigned int ILookup_2_TypeDefinitionIndex = 3156;
+	inline static constexpr unsigned int ILookup_2_TypeDefinitionIndex = 3160;
 
 	template <typename TKey, typename TElement>
 	class ILookup_2

@@ -2,12 +2,30 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
+#define CRIWARE_CRIATOMOUTPUTDEVICEOBSERVER_UNSAFENATIVEMETHODS_CRIATOMUNITY_ISOUTPUTDEVICECONNECTED_WASAPI_OFFSET UNITYSDK_OFFSET(0x1B7A0170)
+#define CRIWARE_CRIATOMOUTPUTDEVICEOBSERVER_UNSAFENATIVEMETHODS_CRIATOMUNITY_STARTOUTPUTDEVICEOBSERVER_WASAPI_OFFSET UNITYSDK_OFFSET(0x1B7A04F0)
+#define CRIWARE_CRIATOMOUTPUTDEVICEOBSERVER_UNSAFENATIVEMETHODS_CRIATOMUNITY_STOPOUTPUTDEVICEOBSERVER_WASAPI_OFFSET UNITYSDK_OFFSET(0x1B7A0640)
+
 namespace CriWare
 {
-	inline static constexpr unsigned int CriAtomOutputDeviceObserver_UnsafeNativeMethods_TypeDefinitionIndex = 36987;
+	inline static constexpr unsigned int CriAtomOutputDeviceObserver_UnsafeNativeMethods_TypeDefinitionIndex = 37782;
 
 	class CriAtomOutputDeviceObserver_UnsafeNativeMethods : public ::System::Object
 	{
 	public:
+		static ::System::Void criAtomUnity_StartOutputDeviceObserver_WASAPI()
+		{
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + CRIWARE_CRIATOMOUTPUTDEVICEOBSERVER_UNSAFENATIVEMETHODS_CRIATOMUNITY_STARTOUTPUTDEVICEOBSERVER_WASAPI_OFFSET))();
+		}
+
+		static ::System::Void criAtomUnity_StopOutputDeviceObserver_WASAPI()
+		{
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + CRIWARE_CRIATOMOUTPUTDEVICEOBSERVER_UNSAFENATIVEMETHODS_CRIATOMUNITY_STOPOUTPUTDEVICEOBSERVER_WASAPI_OFFSET))();
+		}
+
+		static ::System::Boolean criAtomUnity_IsOutputDeviceConnected_WASAPI()
+		{
+			return ((::System::Boolean(*)())((::PBYTE)hIl2Cpp + CRIWARE_CRIATOMOUTPUTDEVICEOBSERVER_UNSAFENATIVEMETHODS_CRIATOMUNITY_ISOUTPUTDEVICECONNECTED_WASAPI_OFFSET))();
+		}
 	};
 }

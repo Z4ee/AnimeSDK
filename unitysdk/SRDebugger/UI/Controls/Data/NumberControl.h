@@ -13,37 +13,37 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine::UI { class Text; }
 
-#define SRDEBUGGER_UI_CONTROLS_DATA_NUMBERCONTROL_CANBIND_OFFSET UNITYSDK_OFFSET(0x1AD00BC0)
-#define SRDEBUGGER_UI_CONTROLS_DATA_NUMBERCONTROL_GETMAXVALUE_OFFSET UNITYSDK_OFFSET(0x1AD006F0)
-#define SRDEBUGGER_UI_CONTROLS_DATA_NUMBERCONTROL_GETMINVALUE_OFFSET UNITYSDK_OFFSET(0x1AD00900)
-#define SRDEBUGGER_UI_CONTROLS_DATA_NUMBERCONTROL_ISDECIMALTYPE_OFFSET UNITYSDK_OFFSET(0x1AD00600)
-#define SRDEBUGGER_UI_CONTROLS_DATA_NUMBERCONTROL_ISINTEGERTYPE_OFFSET UNITYSDK_OFFSET(0x1AD00510)
-#define SRDEBUGGER_UI_CONTROLS_DATA_NUMBERCONTROL_ONBIND_OFFSET UNITYSDK_OFFSET(0x1AD001F0)
-#define SRDEBUGGER_UI_CONTROLS_DATA_NUMBERCONTROL_ONVALUECHANGED_OFFSET UNITYSDK_OFFSET(0x1AD00150)
-#define SRDEBUGGER_UI_CONTROLS_DATA_NUMBERCONTROL_ONVALUEUPDATED_OFFSET UNITYSDK_OFFSET(0x1AD00B10)
-#define SRDEBUGGER_UI_CONTROLS_DATA_NUMBERCONTROL_OPTIONCONTROL_OFFSET UNITYSDK_OFFSET(0x1AD00C50)
-#define SRDEBUGGER_UI_CONTROLS_DATA_NUMBERCONTROL_START_OFFSET UNITYSDK_OFFSET(0x1AD00070)
-#define SRDEBUGGER_UI_CONTROLS_DATA_NUMBERCONTROL__CCTOR_OFFSET UNITYSDK_OFFSET(0x1AD00C90)
-#define SRDEBUGGER_UI_CONTROLS_DATA_NUMBERCONTROL__CTOR_OFFSET UNITYSDK_OFFSET(0x1AD00C80)
+#define SRDEBUGGER_UI_CONTROLS_DATA_NUMBERCONTROL_CANBIND_OFFSET UNITYSDK_OFFSET(0x1A20F6C0)
+#define SRDEBUGGER_UI_CONTROLS_DATA_NUMBERCONTROL_GETMAXVALUE_OFFSET UNITYSDK_OFFSET(0x1A20F1F0)
+#define SRDEBUGGER_UI_CONTROLS_DATA_NUMBERCONTROL_GETMINVALUE_OFFSET UNITYSDK_OFFSET(0x1A20F400)
+#define SRDEBUGGER_UI_CONTROLS_DATA_NUMBERCONTROL_ISDECIMALTYPE_OFFSET UNITYSDK_OFFSET(0x1A20F100)
+#define SRDEBUGGER_UI_CONTROLS_DATA_NUMBERCONTROL_ISINTEGERTYPE_OFFSET UNITYSDK_OFFSET(0x1A20F010)
+#define SRDEBUGGER_UI_CONTROLS_DATA_NUMBERCONTROL_ONBIND_OFFSET UNITYSDK_OFFSET(0x1A20EC90)
+#define SRDEBUGGER_UI_CONTROLS_DATA_NUMBERCONTROL_ONVALUECHANGED_OFFSET UNITYSDK_OFFSET(0x1A20EBF0)
+#define SRDEBUGGER_UI_CONTROLS_DATA_NUMBERCONTROL_ONVALUEUPDATED_OFFSET UNITYSDK_OFFSET(0x1A20F610)
+#define SRDEBUGGER_UI_CONTROLS_DATA_NUMBERCONTROL_OPTIONCONTROL_OFFSET UNITYSDK_OFFSET(0x1A20F750)
+#define SRDEBUGGER_UI_CONTROLS_DATA_NUMBERCONTROL_START_OFFSET UNITYSDK_OFFSET(0x1A20EB10)
+#define SRDEBUGGER_UI_CONTROLS_DATA_NUMBERCONTROL__CCTOR_OFFSET UNITYSDK_OFFSET(0x1A20F790)
+#define SRDEBUGGER_UI_CONTROLS_DATA_NUMBERCONTROL__CTOR_OFFSET UNITYSDK_OFFSET(0x1A20F780)
 
 namespace SRDebugger::UI::Controls::Data
 {
-	inline static constexpr unsigned int NumberControl_TypeDefinitionIndex = 35710;
+	inline static constexpr unsigned int NumberControl_TypeDefinitionIndex = 36492;
 
 	class NumberControl : public ::SRDebugger::UI::Controls::DataBoundControl
 	{
 	public:
 		static ::Il2CppArray<::System::Type*>** StaticGet_DecimalTypes()
 		{
-			return (::Il2CppArray<::System::Type*>**)Il2CppClass::FromTypeDefinitionIndex(NumberControl_TypeDefinitionIndex)->GetStaticField(0x63D60);
+			return (::Il2CppArray<::System::Type*>**)Il2CppClass::FromTypeDefinitionIndex(NumberControl_TypeDefinitionIndex)->GetStaticField(0x62840);
 		}
 		static ::Il2CppArray<::System::Type*>** StaticGet_IntegerTypes()
 		{
-			return (::Il2CppArray<::System::Type*>**)Il2CppClass::FromTypeDefinitionIndex(NumberControl_TypeDefinitionIndex)->GetStaticField(0x63D68);
+			return (::Il2CppArray<::System::Type*>**)Il2CppClass::FromTypeDefinitionIndex(NumberControl_TypeDefinitionIndex)->GetStaticField(0x62848);
 		}
 		static ::System::Collections::Generic::Dictionary_2<::System::Type*, ::SRDebugger::UI::Controls::Data::NumberControl_ValueRange>** StaticGet_ValueRanges()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::System::Type*, ::SRDebugger::UI::Controls::Data::NumberControl_ValueRange>**)Il2CppClass::FromTypeDefinitionIndex(NumberControl_TypeDefinitionIndex)->GetStaticField(0x63D70);
+			return (::System::Collections::Generic::Dictionary_2<::System::Type*, ::SRDebugger::UI::Controls::Data::NumberControl_ValueRange>**)Il2CppClass::FromTypeDefinitionIndex(NumberControl_TypeDefinitionIndex)->GetStaticField(0x62850);
 		}
 		::System::String* _lastValue; // 0x98
 		::System::Type* _type; // 0xA0

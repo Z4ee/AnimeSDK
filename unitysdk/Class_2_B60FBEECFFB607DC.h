@@ -1,18 +1,18 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Class_1_43BD383C98B4C0C5_191.h"
+#include "unitysdk/Class_1_43BD383C98B4C0C5_199.h"
 #include "unitysdk/System/Nullable_1.h"
 
 class Class_1_F9FBCC956DFCF137_25;
 class Class_1_FD611945730E269E;
 namespace System::Collections::Generic { template <typename T> class Queue_1; }
 
-#define CLASS_2_B60FBEECFFB607DC_METHOD_2_98FE8344617B99D4_OFFSET UNITYSDK_OFFSET(0xA5A6000)
-#define CLASS_2_B60FBEECFFB607DC__CTOR_OFFSET UNITYSDK_OFFSET(0xA5A60A0)
+#define CLASS_2_B60FBEECFFB607DC_METHOD_2_98FE8344617B99D4_OFFSET UNITYSDK_OFFSET(0x152A1920)
+#define CLASS_2_B60FBEECFFB607DC__CTOR_OFFSET UNITYSDK_OFFSET(0x152A19C0)
 
-inline static constexpr unsigned int Class_2_B60FBEECFFB607DC_TypeDefinitionIndex = 72193;
+inline static constexpr unsigned int Class_2_B60FBEECFFB607DC_TypeDefinitionIndex = 73718;
 
-class Class_2_B60FBEECFFB607DC : public ::Class_1_43BD383C98B4C0C5_191
+class Class_2_B60FBEECFFB607DC : public ::Class_1_43BD383C98B4C0C5_199
 {
 public:
 	::System::Collections::Generic::Queue_1<::System::Int32>* Field_2_0; // 0x10

@@ -9,7 +9,7 @@ namespace System { template <typename T1, typename T2, typename T3> class Func_3
 
 namespace Entitas
 {
-	inline static constexpr unsigned int AbstractEntityIndex_2_TypeDefinitionIndex = 9667;
+	inline static constexpr unsigned int AbstractEntityIndex_2_TypeDefinitionIndex = 9681;
 
 	template <typename TEntity, typename TKey>
 	class AbstractEntityIndex_2 : public ::System::Object

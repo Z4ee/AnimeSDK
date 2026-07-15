@@ -11,22 +11,22 @@ namespace System { class Type; }
 namespace System::Collections::Generic { template <typename T> class IList_1; }
 namespace System::Collections::Generic { template <typename T> class IReadOnlyList_1; }
 
-#define GOOGLE_PROTOBUF_REFLECTION_ENUMDESCRIPTOR_GETNESTEDDESCRIPTORLISTFORFIELD_OFFSET UNITYSDK_OFFSET(0x17E52F90)
-#define GOOGLE_PROTOBUF_REFLECTION_ENUMDESCRIPTOR_GET_NAME_OFFSET UNITYSDK_OFFSET(0x17E52F20)
-#define GOOGLE_PROTOBUF_REFLECTION_ENUMDESCRIPTOR_GET_VALUES_OFFSET UNITYSDK_OFFSET(0x17E53000)
-#define GOOGLE_PROTOBUF_REFLECTION_ENUMDESCRIPTOR__CTOR_OFFSET UNITYSDK_OFFSET(0x17E52B50)
+#define GOOGLE_PROTOBUF_REFLECTION_ENUMDESCRIPTOR_GETNESTEDDESCRIPTORLISTFORFIELD_OFFSET UNITYSDK_OFFSET(0x190533B0)
+#define GOOGLE_PROTOBUF_REFLECTION_ENUMDESCRIPTOR_GET_NAME_OFFSET UNITYSDK_OFFSET(0x19053340)
+#define GOOGLE_PROTOBUF_REFLECTION_ENUMDESCRIPTOR_GET_VALUES_OFFSET UNITYSDK_OFFSET(0x19053420)
+#define GOOGLE_PROTOBUF_REFLECTION_ENUMDESCRIPTOR__CTOR_OFFSET UNITYSDK_OFFSET(0x19052F70)
 
 namespace Google::Protobuf::Reflection
 {
-	inline static constexpr unsigned int EnumDescriptor_TypeDefinitionIndex = 5531;
+	inline static constexpr unsigned int EnumDescriptor_TypeDefinitionIndex = 5536;
 
 	class EnumDescriptor : public ::Google::Protobuf::Reflection::DescriptorBase
 	{
 	public:
-		::Google::Protobuf::Reflection::EnumDescriptorProto* proto; // 0x28
-		::System::Collections::Generic::IList_1<::Google::Protobuf::Reflection::EnumValueDescriptor*>* values; // 0x30
+		::System::Type* clrType; // 0x28
+		::Google::Protobuf::Reflection::EnumDescriptorProto* proto; // 0x30
 		::Google::Protobuf::Reflection::MessageDescriptor* containingType; // 0x38
-		::System::Type* clrType; // 0x40
+		::System::Collections::Generic::IList_1<::Google::Protobuf::Reflection::EnumValueDescriptor*>* values; // 0x40
 
 		::System::Void _ctor(::Google::Protobuf::Reflection::EnumDescriptorProto* a1, ::Google::Protobuf::Reflection::FileDescriptor* a2, ::Google::Protobuf::Reflection::MessageDescriptor* a3, ::System::Int32 a4, ::System::Type* a5)
 		{

@@ -4,30 +4,32 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_REMOVESELFMODIFIER_METHOD_3_28C656195331A15C_OFFSET UNITYSDK_OFFSET(0x19ACA300)
-#define RPG_GAMECORE_REMOVESELFMODIFIER_METHOD_3_E5B1454E9F2BCF10_OFFSET UNITYSDK_OFFSET(0x19ACA1F0)
-#define RPG_GAMECORE_REMOVESELFMODIFIER__CTOR_OFFSET UNITYSDK_OFFSET(0x19ACA2D0)
+#define RPG_GAMECORE_REMOVESELFMODIFIER_METHOD_3_50A1375733FE71BE_OFFSET UNITYSDK_OFFSET(0x1D0172C0)
+#define RPG_GAMECORE_REMOVESELFMODIFIER_METHOD_3_7AD50BC0AB045E3D_OFFSET UNITYSDK_OFFSET(0x1D017300)
+#define RPG_GAMECORE_REMOVESELFMODIFIER__CTOR_OFFSET UNITYSDK_OFFSET(0x1D0172F0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RemoveSelfModifier_TypeDefinitionIndex = 22200;
+	inline static constexpr unsigned int RemoveSelfModifier_TypeDefinitionIndex = 22637;
 
 	class RemoveSelfModifier : public ::RPG::GameCore::TaskConfig
 	{
 	public:
+		::System::Boolean MuteVisualStateRecover; // 0x18
+
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_REMOVESELFMODIFIER__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_E5B1454E9F2BCF10(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::RemoveSelfModifier*& a2)
+		static ::System::Void Method_3_50A1375733FE71BE(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::RemoveSelfModifier*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::RemoveSelfModifier*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_REMOVESELFMODIFIER_METHOD_3_E5B1454E9F2BCF10_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::RemoveSelfModifier*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_REMOVESELFMODIFIER_METHOD_3_50A1375733FE71BE_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_28C656195331A15C(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::RemoveSelfModifier* a2)
+		static ::System::Void Method_3_7AD50BC0AB045E3D(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::RemoveSelfModifier* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::RemoveSelfModifier*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_REMOVESELFMODIFIER_METHOD_3_28C656195331A15C_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::RemoveSelfModifier*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_REMOVESELFMODIFIER_METHOD_3_7AD50BC0AB045E3D_OFFSET))(a1, a2);
 		}
 	};
 }

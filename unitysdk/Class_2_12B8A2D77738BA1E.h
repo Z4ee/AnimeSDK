@@ -1,18 +1,18 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Class_1_43BD383C98B4C0C5_191.h"
+#include "unitysdk/Class_1_43BD383C98B4C0C5_199.h"
 
 class Class_1_F9FBCC956DFCF137_25;
 class Class_1_FD611945730E269E;
 class Class_2_12B8A2D77738BA1E_Class_1_EC8B1819CA2B1A6D;
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_2_12B8A2D77738BA1E_METHOD_2_98FE8344617B99D4_OFFSET UNITYSDK_OFFSET(0xAACAD70)
-#define CLASS_2_12B8A2D77738BA1E__CTOR_OFFSET UNITYSDK_OFFSET(0xAACAE10)
+#define CLASS_2_12B8A2D77738BA1E_METHOD_2_98FE8344617B99D4_OFFSET UNITYSDK_OFFSET(0x18372E40)
+#define CLASS_2_12B8A2D77738BA1E__CTOR_OFFSET UNITYSDK_OFFSET(0x18372EE0)
 
-inline static constexpr unsigned int Class_2_12B8A2D77738BA1E_TypeDefinitionIndex = 72203;
+inline static constexpr unsigned int Class_2_12B8A2D77738BA1E_TypeDefinitionIndex = 73728;
 
-class Class_2_12B8A2D77738BA1E : public ::Class_1_43BD383C98B4C0C5_191
+class Class_2_12B8A2D77738BA1E : public ::Class_1_43BD383C98B4C0C5_199
 {
 public:
 	::System::Collections::Generic::List_1<::Class_2_12B8A2D77738BA1E_Class_1_EC8B1819CA2B1A6D*>* Field_2_0; // 0x10

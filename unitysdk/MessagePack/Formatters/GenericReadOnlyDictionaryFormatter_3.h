@@ -7,7 +7,7 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 
 namespace MessagePack::Formatters
 {
-	inline static constexpr unsigned int GenericReadOnlyDictionaryFormatter_3_TypeDefinitionIndex = 7374;
+	inline static constexpr unsigned int GenericReadOnlyDictionaryFormatter_3_TypeDefinitionIndex = 7380;
 
 	template <typename TKey, typename TValue, typename TDictionary>
 	class GenericReadOnlyDictionaryFormatter_3 : public ::MessagePack::Formatters::DictionaryFormatterBase_4<TKey, TValue, ::System::Collections::Generic::Dictionary_2<TKey, TValue>*, TDictionary>

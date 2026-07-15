@@ -3,7 +3,7 @@
 
 namespace UnityEngine::Rendering
 {
-	inline static constexpr unsigned int SSGIApplyMode_TypeDefinitionIndex = 4827;
+	inline static constexpr unsigned int SSGIApplyMode_TypeDefinitionIndex = 4832;
 
 	enum class SSGIApplyMode : ::System::Int32
 	{

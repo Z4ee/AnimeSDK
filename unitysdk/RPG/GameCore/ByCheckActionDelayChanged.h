@@ -6,15 +6,15 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class TargetEvaluator; }
 namespace SimpleJSON { class JSONNode; }
 
-#define RPG_GAMECORE_BYCHECKACTIONDELAYCHANGED_METHOD_4_4E5FF9291EBC422A_OFFSET UNITYSDK_OFFSET(0x194F7400)
-#define RPG_GAMECORE_BYCHECKACTIONDELAYCHANGED_METHOD_4_8086A183F161BF34_OFFSET UNITYSDK_OFFSET(0x194F74D0)
-#define RPG_GAMECORE_BYCHECKACTIONDELAYCHANGED_METHOD_4_8506EA7F25D2E9E9_OFFSET UNITYSDK_OFFSET(0x194F7650)
-#define RPG_GAMECORE_BYCHECKACTIONDELAYCHANGED_METHOD_4_D110126A18AD38C4_OFFSET UNITYSDK_OFFSET(0x194F76D0)
-#define RPG_GAMECORE_BYCHECKACTIONDELAYCHANGED__CTOR_OFFSET UNITYSDK_OFFSET(0x194F7480)
+#define RPG_GAMECORE_BYCHECKACTIONDELAYCHANGED_METHOD_4_8086A183F161BF34_OFFSET UNITYSDK_OFFSET(0x19CC0830)
+#define RPG_GAMECORE_BYCHECKACTIONDELAYCHANGED_METHOD_4_AE908FC85CFBE831_OFFSET UNITYSDK_OFFSET(0x19CC07F0)
+#define RPG_GAMECORE_BYCHECKACTIONDELAYCHANGED_METHOD_4_C82976AAB2833114_OFFSET UNITYSDK_OFFSET(0x19CC09B0)
+#define RPG_GAMECORE_BYCHECKACTIONDELAYCHANGED_METHOD_4_EE86B8FD2EFD4732_OFFSET UNITYSDK_OFFSET(0x19CC09E0)
+#define RPG_GAMECORE_BYCHECKACTIONDELAYCHANGED__CTOR_OFFSET UNITYSDK_OFFSET(0x19CC0820)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ByCheckActionDelayChanged_TypeDefinitionIndex = 21787;
+	inline static constexpr unsigned int ByCheckActionDelayChanged_TypeDefinitionIndex = 22213;
 
 	class ByCheckActionDelayChanged : public ::RPG::GameCore::PredicateConfig
 	{
@@ -26,9 +26,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYCHECKACTIONDELAYCHANGED__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_4_4E5FF9291EBC422A(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ByCheckActionDelayChanged*& a2)
+		static ::System::Void Method_4_AE908FC85CFBE831(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ByCheckActionDelayChanged*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ByCheckActionDelayChanged*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYCHECKACTIONDELAYCHANGED_METHOD_4_4E5FF9291EBC422A_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ByCheckActionDelayChanged*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYCHECKACTIONDELAYCHANGED_METHOD_4_AE908FC85CFBE831_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_4_8086A183F161BF34(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ByCheckActionDelayChanged* a2)
@@ -36,14 +36,14 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ByCheckActionDelayChanged*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYCHECKACTIONDELAYCHANGED_METHOD_4_8086A183F161BF34_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_4_8506EA7F25D2E9E9(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::ByCheckActionDelayChanged*& a2)
+		static ::System::Void Method_4_C82976AAB2833114(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::ByCheckActionDelayChanged*& a2)
 		{
-			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::ByCheckActionDelayChanged*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYCHECKACTIONDELAYCHANGED_METHOD_4_8506EA7F25D2E9E9_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::ByCheckActionDelayChanged*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYCHECKACTIONDELAYCHANGED_METHOD_4_C82976AAB2833114_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_4_D110126A18AD38C4(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::ByCheckActionDelayChanged* a2)
+		static ::System::Void Method_4_EE86B8FD2EFD4732(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::ByCheckActionDelayChanged* a2)
 		{
-			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::ByCheckActionDelayChanged*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYCHECKACTIONDELAYCHANGED_METHOD_4_D110126A18AD38C4_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::ByCheckActionDelayChanged*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYCHECKACTIONDELAYCHANGED_METHOD_4_EE86B8FD2EFD4732_OFFSET))(a1, a2);
 		}
 	};
 }

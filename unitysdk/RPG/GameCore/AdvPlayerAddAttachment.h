@@ -7,13 +7,13 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class DynamicString; }
 namespace RPG::GameCore { class TargetEvaluator; }
 
-#define RPG_GAMECORE_ADVPLAYERADDATTACHMENT_METHOD_3_3AB8C8D3118DE658_OFFSET UNITYSDK_OFFSET(0x19430D00)
-#define RPG_GAMECORE_ADVPLAYERADDATTACHMENT_METHOD_3_49B5809DBB3C10C9_OFFSET UNITYSDK_OFFSET(0x19430D80)
-#define RPG_GAMECORE_ADVPLAYERADDATTACHMENT__CTOR_OFFSET UNITYSDK_OFFSET(0x19430D50)
+#define RPG_GAMECORE_ADVPLAYERADDATTACHMENT_METHOD_3_25B7DA42DAD05BC0_OFFSET UNITYSDK_OFFSET(0x1BE27DD0)
+#define RPG_GAMECORE_ADVPLAYERADDATTACHMENT_METHOD_3_49B5809DBB3C10C9_OFFSET UNITYSDK_OFFSET(0x1BE27E10)
+#define RPG_GAMECORE_ADVPLAYERADDATTACHMENT__CTOR_OFFSET UNITYSDK_OFFSET(0x1BE27E00)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AdvPlayerAddAttachment_TypeDefinitionIndex = 19897;
+	inline static constexpr unsigned int AdvPlayerAddAttachment_TypeDefinitionIndex = 20261;
 
 	class AdvPlayerAddAttachment : public ::RPG::GameCore::TaskConfig
 	{
@@ -29,9 +29,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVPLAYERADDATTACHMENT__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_3AB8C8D3118DE658(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AdvPlayerAddAttachment*& a2)
+		static ::System::Void Method_3_25B7DA42DAD05BC0(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AdvPlayerAddAttachment*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::AdvPlayerAddAttachment*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVPLAYERADDATTACHMENT_METHOD_3_3AB8C8D3118DE658_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::AdvPlayerAddAttachment*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVPLAYERADDATTACHMENT_METHOD_3_25B7DA42DAD05BC0_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_49B5809DBB3C10C9(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AdvPlayerAddAttachment* a2)

@@ -9,7 +9,7 @@
 namespace RPG::GameCore { class GameEntity; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-inline static constexpr unsigned int Struct_2_8792219C039E2D7A_TypeDefinitionIndex = 52158;
+inline static constexpr unsigned int Struct_2_8792219C039E2D7A_TypeDefinitionIndex = 53310;
 
 struct alignas(8) Struct_2_8792219C039E2D7A
 {

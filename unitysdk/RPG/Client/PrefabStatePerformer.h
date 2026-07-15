@@ -6,11 +6,11 @@ namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class GameObject; }
 
-#define RPG_CLIENT_PREFABSTATEPERFORMER__CTOR_OFFSET UNITYSDK_OFFSET(0xC4B6620)
+#define RPG_CLIENT_PREFABSTATEPERFORMER__CTOR_OFFSET UNITYSDK_OFFSET(0x1939DDE0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int PrefabStatePerformer_TypeDefinitionIndex = 64490;
+	inline static constexpr unsigned int PrefabStatePerformer_TypeDefinitionIndex = 65890;
 
 	class PrefabStatePerformer : public ::System::Object
 	{

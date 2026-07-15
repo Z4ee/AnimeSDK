@@ -3,7 +3,7 @@
 
 namespace RPG::Client::LittleGame
 {
-	inline static constexpr unsigned int ISwitchPlatformContext_1_TypeDefinitionIndex = 39012;
+	inline static constexpr unsigned int ISwitchPlatformContext_1_TypeDefinitionIndex = 39821;
 
 	template <typename TEntity>
 	class ISwitchPlatformContext_1

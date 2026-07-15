@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int GridFightSpecialGoodsUnlockType_TypeDefinitionIndex = 12952;
+	inline static constexpr unsigned int GridFightSpecialGoodsUnlockType_TypeDefinitionIndex = 13100;
 
 	enum class GridFightSpecialGoodsUnlockType : ::System::Int32
 	{

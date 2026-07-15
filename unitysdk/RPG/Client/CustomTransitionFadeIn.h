@@ -5,11 +5,11 @@
 namespace System { class String; }
 namespace UnityEngine { class AnimationClip; }
 
-#define RPG_CLIENT_CUSTOMTRANSITIONFADEIN__CTOR_OFFSET UNITYSDK_OFFSET(0xB72F2F0)
+#define RPG_CLIENT_CUSTOMTRANSITIONFADEIN__CTOR_OFFSET UNITYSDK_OFFSET(0x18088E80)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int CustomTransitionFadeIn_TypeDefinitionIndex = 68032;
+	inline static constexpr unsigned int CustomTransitionFadeIn_TypeDefinitionIndex = 69518;
 
 	class CustomTransitionFadeIn : public ::System::Object
 	{

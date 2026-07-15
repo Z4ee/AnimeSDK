@@ -7,12 +7,12 @@
 
 namespace UnityEngine { class AnimationCurve; }
 
-#define RPG_CLIENT_ROAMINGMODULECONFIG_METHOD_4_2BF4648671111A7E_OFFSET UNITYSDK_OFFSET(0xC765890)
-#define RPG_CLIENT_ROAMINGMODULECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0xC7658E0)
+#define RPG_CLIENT_ROAMINGMODULECONFIG_METHOD_4_2BF4648671111A7E_OFFSET UNITYSDK_OFFSET(0x173A8560)
+#define RPG_CLIENT_ROAMINGMODULECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x173A85B0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int RoamingModuleConfig_TypeDefinitionIndex = 65148;
+	inline static constexpr unsigned int RoamingModuleConfig_TypeDefinitionIndex = 66556;
 
 	class RoamingModuleConfig : public ::RPG::Client::CameraModuleConfigBase
 	{

@@ -1,10 +1,9 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-namespace System { class String; }
-namespace UnityEngine { class GameObject; }
+namespace RPG::Client { class LevelDirector; }
 
-inline static constexpr unsigned int Class_0_16E4307DCC419505_667_TypeDefinitionIndex = 58312;
+inline static constexpr unsigned int Class_0_16E4307DCC419505_667_TypeDefinitionIndex = 58398;
 
 class Class_0_16E4307DCC419505_667
 {

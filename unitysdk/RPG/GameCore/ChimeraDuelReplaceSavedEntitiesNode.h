@@ -5,13 +5,13 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class BaseChimeraDuelSaveEntitySelectionConfig; }
 
-#define RPG_GAMECORE_CHIMERADUELREPLACESAVEDENTITIESNODE_METHOD_3_08ED987880D80073_OFFSET UNITYSDK_OFFSET(0x19645D30)
-#define RPG_GAMECORE_CHIMERADUELREPLACESAVEDENTITIESNODE_METHOD_3_4B8F1DD33775FA94_OFFSET UNITYSDK_OFFSET(0x19645C50)
-#define RPG_GAMECORE_CHIMERADUELREPLACESAVEDENTITIESNODE__CTOR_OFFSET UNITYSDK_OFFSET(0x19645CE0)
+#define RPG_GAMECORE_CHIMERADUELREPLACESAVEDENTITIESNODE_METHOD_3_08ED987880D80073_OFFSET UNITYSDK_OFFSET(0x1C247190)
+#define RPG_GAMECORE_CHIMERADUELREPLACESAVEDENTITIESNODE_METHOD_3_3155789FFEBE2331_OFFSET UNITYSDK_OFFSET(0x1C247130)
+#define RPG_GAMECORE_CHIMERADUELREPLACESAVEDENTITIESNODE__CTOR_OFFSET UNITYSDK_OFFSET(0x1C247180)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ChimeraDuelReplaceSavedEntitiesNode_TypeDefinitionIndex = 15197;
+	inline static constexpr unsigned int ChimeraDuelReplaceSavedEntitiesNode_TypeDefinitionIndex = 15361;
 
 	class ChimeraDuelReplaceSavedEntitiesNode : public ::RPG::GameCore::BaseChimeraDuelNode
 	{
@@ -24,9 +24,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHIMERADUELREPLACESAVEDENTITIESNODE__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_4B8F1DD33775FA94(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ChimeraDuelReplaceSavedEntitiesNode*& a2)
+		static ::System::Void Method_3_3155789FFEBE2331(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ChimeraDuelReplaceSavedEntitiesNode*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ChimeraDuelReplaceSavedEntitiesNode*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHIMERADUELREPLACESAVEDENTITIESNODE_METHOD_3_4B8F1DD33775FA94_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ChimeraDuelReplaceSavedEntitiesNode*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHIMERADUELREPLACESAVEDENTITIESNODE_METHOD_3_3155789FFEBE2331_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_08ED987880D80073(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ChimeraDuelReplaceSavedEntitiesNode* a2)

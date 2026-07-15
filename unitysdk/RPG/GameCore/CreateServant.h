@@ -9,13 +9,13 @@ namespace RPG::GameCore { class TargetEvaluator; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_CREATESERVANT_METHOD_3_72F755C00FC88400_OFFSET UNITYSDK_OFFSET(0x19684990)
-#define RPG_GAMECORE_CREATESERVANT_METHOD_3_9D62F6B41E64E92C_OFFSET UNITYSDK_OFFSET(0x19684910)
-#define RPG_GAMECORE_CREATESERVANT__CTOR_OFFSET UNITYSDK_OFFSET(0x19684960)
+#define RPG_GAMECORE_CREATESERVANT_METHOD_3_72F755C00FC88400_OFFSET UNITYSDK_OFFSET(0x1BC3C950)
+#define RPG_GAMECORE_CREATESERVANT_METHOD_3_D644100AEC0D4FC2_OFFSET UNITYSDK_OFFSET(0x1BC3C910)
+#define RPG_GAMECORE_CREATESERVANT__CTOR_OFFSET UNITYSDK_OFFSET(0x1BC3C940)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int CreateServant_TypeDefinitionIndex = 21728;
+	inline static constexpr unsigned int CreateServant_TypeDefinitionIndex = 22155;
 
 	class CreateServant : public ::RPG::GameCore::TaskConfig
 	{
@@ -32,9 +32,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CREATESERVANT__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_9D62F6B41E64E92C(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::CreateServant*& a2)
+		static ::System::Void Method_3_D644100AEC0D4FC2(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::CreateServant*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::CreateServant*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CREATESERVANT_METHOD_3_9D62F6B41E64E92C_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::CreateServant*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CREATESERVANT_METHOD_3_D644100AEC0D4FC2_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_72F755C00FC88400(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::CreateServant* a2)

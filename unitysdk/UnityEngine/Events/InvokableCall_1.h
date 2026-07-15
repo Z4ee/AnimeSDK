@@ -8,7 +8,7 @@ namespace UnityEngine::Events { template <typename T> class UnityAction_1; }
 
 namespace UnityEngine::Events
 {
-	inline static constexpr unsigned int InvokableCall_1_TypeDefinitionIndex = 4462;
+	inline static constexpr unsigned int InvokableCall_1_TypeDefinitionIndex = 4467;
 
 	template <typename T1>
 	class InvokableCall_1 : public ::UnityEngine::Events::BaseInvokableCall

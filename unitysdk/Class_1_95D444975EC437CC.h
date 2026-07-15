@@ -7,7 +7,7 @@ namespace System::Collections::Generic { template <typename T> class Stack_1; }
 namespace UnityEngine::Events { template <typename T1, typename T2> class UnityAction_2; }
 namespace UnityEngine::Events { template <typename T> class UnityAction_1; }
 
-inline static constexpr unsigned int Class_1_95D444975EC437CC_TypeDefinitionIndex = 46351;
+inline static constexpr unsigned int Class_1_95D444975EC437CC_TypeDefinitionIndex = 47316;
 
 template <typename T>
 class Class_1_95D444975EC437CC : public ::System::Object

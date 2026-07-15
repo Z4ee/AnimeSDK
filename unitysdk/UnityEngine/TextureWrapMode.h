@@ -3,7 +3,7 @@
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int TextureWrapMode_TypeDefinitionIndex = 4154;
+	inline static constexpr unsigned int TextureWrapMode_TypeDefinitionIndex = 4159;
 
 	enum class TextureWrapMode : ::System::Int32
 	{

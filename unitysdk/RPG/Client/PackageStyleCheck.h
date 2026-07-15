@@ -4,11 +4,11 @@
 
 namespace System { class String; }
 
-#define RPG_CLIENT_PACKAGESTYLECHECK_CHECKISVIETNAMPACKAGE_OFFSET UNITYSDK_OFFSET(0xC32B490)
+#define RPG_CLIENT_PACKAGESTYLECHECK_CHECKISVIETNAMPACKAGE_OFFSET UNITYSDK_OFFSET(0x1A2DC630)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int PackageStyleCheck_TypeDefinitionIndex = 57093;
+	inline static constexpr unsigned int PackageStyleCheck_TypeDefinitionIndex = 58351;
 
 	class PackageStyleCheck : public ::System::Object
 	{

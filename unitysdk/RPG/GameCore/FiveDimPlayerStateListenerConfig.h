@@ -5,13 +5,13 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class LittleGameEvent; }
 
-#define RPG_GAMECORE_FIVEDIMPLAYERSTATELISTENERCONFIG_METHOD_3_A79DEDA27655D41A_OFFSET UNITYSDK_OFFSET(0x1974D6B0)
-#define RPG_GAMECORE_FIVEDIMPLAYERSTATELISTENERCONFIG_METHOD_3_BDFC6AB78B2657E9_OFFSET UNITYSDK_OFFSET(0x1974D640)
-#define RPG_GAMECORE_FIVEDIMPLAYERSTATELISTENERCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1974D690)
+#define RPG_GAMECORE_FIVEDIMPLAYERSTATELISTENERCONFIG_METHOD_3_11B047E05E86FDBB_OFFSET UNITYSDK_OFFSET(0x1BEA9D60)
+#define RPG_GAMECORE_FIVEDIMPLAYERSTATELISTENERCONFIG_METHOD_3_A79DEDA27655D41A_OFFSET UNITYSDK_OFFSET(0x1BEA9DA0)
+#define RPG_GAMECORE_FIVEDIMPLAYERSTATELISTENERCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1BEA9D90)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FiveDimPlayerStateListenerConfig_TypeDefinitionIndex = 17705;
+	inline static constexpr unsigned int FiveDimPlayerStateListenerConfig_TypeDefinitionIndex = 17879;
 
 	class FiveDimPlayerStateListenerConfig : public ::RPG::GameCore::LittleGameComponentConfig
 	{
@@ -37,9 +37,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMPLAYERSTATELISTENERCONFIG__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_BDFC6AB78B2657E9(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::FiveDimPlayerStateListenerConfig*& a2)
+		static ::System::Void Method_3_11B047E05E86FDBB(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::FiveDimPlayerStateListenerConfig*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::FiveDimPlayerStateListenerConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMPLAYERSTATELISTENERCONFIG_METHOD_3_BDFC6AB78B2657E9_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::FiveDimPlayerStateListenerConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMPLAYERSTATELISTENERCONFIG_METHOD_3_11B047E05E86FDBB_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_A79DEDA27655D41A(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::FiveDimPlayerStateListenerConfig* a2)

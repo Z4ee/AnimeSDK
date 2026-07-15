@@ -7,13 +7,13 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class ChimeraDuelNpcSelectorConfig; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_CHIMERADUELNPCFIREEFFECTNODE_METHOD_3_797014C79AA3D703_OFFSET UNITYSDK_OFFSET(0x19642BB0)
-#define RPG_GAMECORE_CHIMERADUELNPCFIREEFFECTNODE_METHOD_3_8E91CB792C443B16_OFFSET UNITYSDK_OFFSET(0x19642AB0)
-#define RPG_GAMECORE_CHIMERADUELNPCFIREEFFECTNODE__CTOR_OFFSET UNITYSDK_OFFSET(0x19642B50)
+#define RPG_GAMECORE_CHIMERADUELNPCFIREEFFECTNODE_METHOD_3_1B815B110FC5D5E7_OFFSET UNITYSDK_OFFSET(0x1C2441F0)
+#define RPG_GAMECORE_CHIMERADUELNPCFIREEFFECTNODE_METHOD_3_797014C79AA3D703_OFFSET UNITYSDK_OFFSET(0x1C244270)
+#define RPG_GAMECORE_CHIMERADUELNPCFIREEFFECTNODE__CTOR_OFFSET UNITYSDK_OFFSET(0x1C244250)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ChimeraDuelNpcFireEffectNode_TypeDefinitionIndex = 15176;
+	inline static constexpr unsigned int ChimeraDuelNpcFireEffectNode_TypeDefinitionIndex = 15340;
 
 	class ChimeraDuelNpcFireEffectNode : public ::RPG::GameCore::BaseChimeraDuelNode
 	{
@@ -28,9 +28,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHIMERADUELNPCFIREEFFECTNODE__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_8E91CB792C443B16(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ChimeraDuelNpcFireEffectNode*& a2)
+		static ::System::Void Method_3_1B815B110FC5D5E7(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ChimeraDuelNpcFireEffectNode*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ChimeraDuelNpcFireEffectNode*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHIMERADUELNPCFIREEFFECTNODE_METHOD_3_8E91CB792C443B16_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ChimeraDuelNpcFireEffectNode*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHIMERADUELNPCFIREEFFECTNODE_METHOD_3_1B815B110FC5D5E7_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_797014C79AA3D703(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ChimeraDuelNpcFireEffectNode* a2)

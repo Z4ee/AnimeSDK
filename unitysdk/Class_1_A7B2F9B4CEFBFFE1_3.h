@@ -2,13 +2,13 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_1_44E98D8B63E395F0;
+class Class_1_39155512A8777971;
 namespace UnityEngine::Rendering { class CommandBuffer; }
 
-#define CLASS_1_A7B2F9B4CEFBFFE1_3_METHOD_1_5073FF3B8D1722B3_OFFSET UNITYSDK_OFFSET(0xA707830)
-#define CLASS_1_A7B2F9B4CEFBFFE1_3__CTOR_OFFSET UNITYSDK_OFFSET(0xA707890)
+#define CLASS_1_A7B2F9B4CEFBFFE1_3_METHOD_1_5073FF3B8D1722B3_OFFSET UNITYSDK_OFFSET(0x151FB4D0)
+#define CLASS_1_A7B2F9B4CEFBFFE1_3__CTOR_OFFSET UNITYSDK_OFFSET(0x151FB530)
 
-inline static constexpr unsigned int Class_1_A7B2F9B4CEFBFFE1_3_TypeDefinitionIndex = 46728;
+inline static constexpr unsigned int Class_1_A7B2F9B4CEFBFFE1_3_TypeDefinitionIndex = 47693;
 
 class Class_1_A7B2F9B4CEFBFFE1_3 : public ::System::Object
 {
@@ -18,8 +18,8 @@ public:
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_A7B2F9B4CEFBFFE1_3__CTOR_OFFSET))(this);
 	}
 
-	::System::Void Method_1_5073FF3B8D1722B3(::UnityEngine::Rendering::CommandBuffer* a1, ::Class_1_44E98D8B63E395F0* a2, ::System::Object* a3)
+	::System::Void Method_1_5073FF3B8D1722B3(::UnityEngine::Rendering::CommandBuffer* a1, ::Class_1_39155512A8777971* a2, ::System::Object* a3)
 	{
-		return ((::System::Void(*)(::PVOID, ::UnityEngine::Rendering::CommandBuffer*, ::Class_1_44E98D8B63E395F0*, ::System::Object*))((::PBYTE)hIl2Cpp + CLASS_1_A7B2F9B4CEFBFFE1_3_METHOD_1_5073FF3B8D1722B3_OFFSET))(this, a1, a2, a3);
+		return ((::System::Void(*)(::PVOID, ::UnityEngine::Rendering::CommandBuffer*, ::Class_1_39155512A8777971*, ::System::Object*))((::PBYTE)hIl2Cpp + CLASS_1_A7B2F9B4CEFBFFE1_3_METHOD_1_5073FF3B8D1722B3_OFFSET))(this, a1, a2, a3);
 	}
 };

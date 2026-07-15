@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/UIElements/DragAndDropEventBase_1.h"
 
-#define UNITYENGINE_UIELEMENTS_DRAGPERFORMEVENT__CTOR_OFFSET UNITYSDK_OFFSET(0x1B352FB0)
+#define UNITYENGINE_UIELEMENTS_DRAGPERFORMEVENT__CTOR_OFFSET UNITYSDK_OFFSET(0x1BA31160)
 
 namespace UnityEngine::UIElements
 {
-	inline static constexpr unsigned int DragPerformEvent_TypeDefinitionIndex = 6181;
+	inline static constexpr unsigned int DragPerformEvent_TypeDefinitionIndex = 6186;
 
 	class DragPerformEvent : public ::UnityEngine::UIElements::DragAndDropEventBase_1<::UnityEngine::UIElements::DragPerformEvent*>
 	{

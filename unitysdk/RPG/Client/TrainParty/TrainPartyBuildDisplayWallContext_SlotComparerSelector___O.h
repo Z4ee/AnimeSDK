@@ -6,26 +6,26 @@ namespace System { template <typename T1, typename T2> class Func_2; }
 
 namespace RPG::Client::TrainParty
 {
-	inline static constexpr unsigned int TrainPartyBuildDisplayWallContext_SlotComparerSelector___O_TypeDefinitionIndex = 69372;
+	inline static constexpr unsigned int TrainPartyBuildDisplayWallContext_SlotComparerSelector___O_TypeDefinitionIndex = 70893;
 
 	class TrainPartyBuildDisplayWallContext_SlotComparerSelector___O : public ::System::Object
 	{
 	public:
-		static ::System::Func_2<::System::Int32, ::System::Boolean>** StaticGet__0___HasBadgeTag()
+		static ::System::Func_2<::System::Int32, ::System::Boolean>** StaticGet__1___HasPhotoAvatarTag()
 		{
-			return (::System::Func_2<::System::Int32, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(TrainPartyBuildDisplayWallContext_SlotComparerSelector___O_TypeDefinitionIndex)->GetStaticField(0x56370);
-		}
-		static ::System::Func_2<::System::Int32, ::System::Boolean>** StaticGet__3___HasPhotoMissionTag()
-		{
-			return (::System::Func_2<::System::Int32, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(TrainPartyBuildDisplayWallContext_SlotComparerSelector___O_TypeDefinitionIndex)->GetStaticField(0x56378);
+			return (::System::Func_2<::System::Int32, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(TrainPartyBuildDisplayWallContext_SlotComparerSelector___O_TypeDefinitionIndex)->GetStaticField(0x45240);
 		}
 		static ::System::Func_2<::System::Int32, ::System::Boolean>** StaticGet__2___HasPhotoLightConeTag()
 		{
-			return (::System::Func_2<::System::Int32, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(TrainPartyBuildDisplayWallContext_SlotComparerSelector___O_TypeDefinitionIndex)->GetStaticField(0x56380);
+			return (::System::Func_2<::System::Int32, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(TrainPartyBuildDisplayWallContext_SlotComparerSelector___O_TypeDefinitionIndex)->GetStaticField(0x45248);
 		}
-		static ::System::Func_2<::System::Int32, ::System::Boolean>** StaticGet__1___HasPhotoAvatarTag()
+		static ::System::Func_2<::System::Int32, ::System::Boolean>** StaticGet__3___HasPhotoMissionTag()
 		{
-			return (::System::Func_2<::System::Int32, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(TrainPartyBuildDisplayWallContext_SlotComparerSelector___O_TypeDefinitionIndex)->GetStaticField(0x56388);
+			return (::System::Func_2<::System::Int32, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(TrainPartyBuildDisplayWallContext_SlotComparerSelector___O_TypeDefinitionIndex)->GetStaticField(0x45250);
+		}
+		static ::System::Func_2<::System::Int32, ::System::Boolean>** StaticGet__0___HasBadgeTag()
+		{
+			return (::System::Func_2<::System::Int32, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(TrainPartyBuildDisplayWallContext_SlotComparerSelector___O_TypeDefinitionIndex)->GetStaticField(0x45258);
 		}
 	};
 }

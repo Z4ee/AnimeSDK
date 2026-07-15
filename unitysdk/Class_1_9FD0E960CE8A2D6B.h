@@ -7,21 +7,21 @@ namespace RPG::Client::Prop { class ChimeraDuelBubbleEvent; }
 namespace System { class Action; }
 namespace System { template <typename T> class Func_1; }
 
-#define CLASS_1_9FD0E960CE8A2D6B_EXECUTE_OFFSET UNITYSDK_OFFSET(0x134E4210)
-#define CLASS_1_9FD0E960CE8A2D6B_TICK_OFFSET UNITYSDK_OFFSET(0x134E42F0)
-#define CLASS_1_9FD0E960CE8A2D6B__CTOR_OFFSET UNITYSDK_OFFSET(0x134E4200)
+#define CLASS_1_9FD0E960CE8A2D6B_EXECUTE_OFFSET UNITYSDK_OFFSET(0x1675CD70)
+#define CLASS_1_9FD0E960CE8A2D6B_TICK_OFFSET UNITYSDK_OFFSET(0x1675CE50)
+#define CLASS_1_9FD0E960CE8A2D6B__CTOR_OFFSET UNITYSDK_OFFSET(0x1675CD60)
 
-inline static constexpr unsigned int Class_1_9FD0E960CE8A2D6B_TypeDefinitionIndex = 72187;
+inline static constexpr unsigned int Class_1_9FD0E960CE8A2D6B_TypeDefinitionIndex = 73712;
 
 class Class_1_9FD0E960CE8A2D6B : public ::System::Object
 {
 public:
-	::System::Action* Field_1_0; // 0x10
-	::System::Func_1<::RPG::Client::Prop::ChimeraDuelBubbleEvent*>* Field_1_1; // 0x18
+	::System::Func_1<::RPG::Client::Prop::ChimeraDuelBubbleEvent*>* Field_1_0; // 0x10
+	::System::Action* Field_1_1; // 0x18
 	::RPG::Client::Prop::ChimeraDuelBubbleEvent* Field_1_2; // 0x20
-	::System::Boolean Field_1_3; // 0x28
-	::System::Boolean Field_1_4; // 0x29
-	::System::Single Field_1_5; // 0x2C
+	::System::Single Field_1_3; // 0x28
+	::System::Boolean Field_1_4; // 0x2C
+	::System::Boolean Field_1_5; // 0x2D
 
 	::System::Void _ctor(::System::Func_1<::RPG::Client::Prop::ChimeraDuelBubbleEvent*>* a1, ::System::Boolean a2)
 	{

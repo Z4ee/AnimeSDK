@@ -8,7 +8,7 @@ namespace System::Runtime::InteropServices { template <typename T> class Collect
 
 namespace System::Runtime::InteropServices
 {
-	inline static constexpr unsigned int CollectionsMarshal_FillCollection_1_TypeDefinitionIndex = 6325;
+	inline static constexpr unsigned int CollectionsMarshal_FillCollection_1_TypeDefinitionIndex = 6330;
 
 	template <typename T>
 	class CollectionsMarshal_FillCollection_1 : public ::System::Object

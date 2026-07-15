@@ -1,23 +1,23 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Class_1_43BD383C98B4C0C5_195.h"
+#include "unitysdk/Class_1_43BD383C98B4C0C5_203.h"
 #include "unitysdk/RPG/Client/LittleGameShare/MsgRetcode.h"
 
-class Class_1_9AD828BA811E7C7A_2;
+class Class_1_CE89E018B1132F67_1;
 
-#define CLASS_2_637AE238D4A35C0D_GET_RETCODE_OFFSET UNITYSDK_OFFSET(0xA3F5A10)
-#define CLASS_2_637AE238D4A35C0D__CTOR_OFFSET UNITYSDK_OFFSET(0xA3F5A20)
+#define CLASS_2_637AE238D4A35C0D_GET_RETCODE_OFFSET UNITYSDK_OFFSET(0x181CA2D0)
+#define CLASS_2_637AE238D4A35C0D__CTOR_OFFSET UNITYSDK_OFFSET(0x181CA2E0)
 
-inline static constexpr unsigned int Class_2_637AE238D4A35C0D_TypeDefinitionIndex = 72572;
+inline static constexpr unsigned int Class_2_637AE238D4A35C0D_TypeDefinitionIndex = 74097;
 
-class Class_2_637AE238D4A35C0D : public ::Class_1_43BD383C98B4C0C5_195
+class Class_2_637AE238D4A35C0D : public ::Class_1_43BD383C98B4C0C5_203
 {
 public:
 	::RPG::Client::LittleGameShare::MsgRetcode _Retcode_k__BackingField; // 0x10
 
-	::System::Void _ctor(::Class_1_9AD828BA811E7C7A_2* a1)
+	::System::Void _ctor(::Class_1_CE89E018B1132F67_1* a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::Class_1_9AD828BA811E7C7A_2*))((::PBYTE)hIl2Cpp + CLASS_2_637AE238D4A35C0D__CTOR_OFFSET))(this, a1);
+		return ((::System::Void(*)(::PVOID, ::Class_1_CE89E018B1132F67_1*))((::PBYTE)hIl2Cpp + CLASS_2_637AE238D4A35C0D__CTOR_OFFSET))(this, a1);
 	}
 
 	::RPG::Client::LittleGameShare::MsgRetcode get_Retcode()

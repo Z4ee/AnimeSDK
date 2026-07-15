@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int BatchAnimPlayState_TypeDefinitionIndex = 35141;
+inline static constexpr unsigned int BatchAnimPlayState_TypeDefinitionIndex = 35923;
 
 enum class BatchAnimPlayState : ::System::Int32
 {

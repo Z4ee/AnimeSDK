@@ -7,12 +7,12 @@ namespace RPG::GameCore { class ShaderTestPreloadItem; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_SHADERTESTPRELOADCONFIG_METHOD_2_2DD464DF39BF9C90_OFFSET UNITYSDK_OFFSET(0x19C6BF00)
-#define RPG_GAMECORE_SHADERTESTPRELOADCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x19C6C0E0)
+#define RPG_GAMECORE_SHADERTESTPRELOADCONFIG_METHOD_2_2DD464DF39BF9C90_OFFSET UNITYSDK_OFFSET(0x1BE311E0)
+#define RPG_GAMECORE_SHADERTESTPRELOADCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1BE313C0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ShaderTestPreloadConfig_TypeDefinitionIndex = 15536;
+	inline static constexpr unsigned int ShaderTestPreloadConfig_TypeDefinitionIndex = 15707;
 
 	class ShaderTestPreloadConfig : public ::RPG::GameCore::JsonConfig
 	{

@@ -5,12 +5,12 @@
 
 namespace System { template <typename T> class Predicate_1; }
 
-#define HOUDINIENGINEUNITY_HEU_PARAMETERS___C__DISPLAYCLASS82_0__CTOR_OFFSET UNITYSDK_OFFSET(0x17F3D130)
-#define HOUDINIENGINEUNITY_HEU_PARAMETERS___C__DISPLAYCLASS82_0__INITIALIZE_B__0_OFFSET UNITYSDK_OFFSET(0x17F3DED0)
+#define HOUDINIENGINEUNITY_HEU_PARAMETERS___C__DISPLAYCLASS82_0__CTOR_OFFSET UNITYSDK_OFFSET(0x108A6790)
+#define HOUDINIENGINEUNITY_HEU_PARAMETERS___C__DISPLAYCLASS82_0__INITIALIZE_B__0_OFFSET UNITYSDK_OFFSET(0x108A7470)
 
 namespace HoudiniEngineUnity
 {
-	inline static constexpr unsigned int HEU_Parameters___c__DisplayClass82_0_TypeDefinitionIndex = 37589;
+	inline static constexpr unsigned int HEU_Parameters___c__DisplayClass82_0_TypeDefinitionIndex = 38397;
 
 	class HEU_Parameters___c__DisplayClass82_0 : public ::System::Object
 	{

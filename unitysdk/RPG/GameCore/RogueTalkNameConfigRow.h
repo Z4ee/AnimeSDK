@@ -6,12 +6,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_ROGUETALKNAMECONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x19BBECA0)
-#define RPG_GAMECORE_ROGUETALKNAMECONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x19BBF380)
+#define RPG_GAMECORE_ROGUETALKNAMECONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1BB6CD30)
+#define RPG_GAMECORE_ROGUETALKNAMECONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1BB6D410)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RogueTalkNameConfigRow_TypeDefinitionIndex = 14076;
+	inline static constexpr unsigned int RogueTalkNameConfigRow_TypeDefinitionIndex = 14224;
 
 	class RogueTalkNameConfigRow : public ::System::Object
 	{

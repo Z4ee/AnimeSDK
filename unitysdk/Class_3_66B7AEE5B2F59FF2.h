@@ -12,14 +12,13 @@ namespace RPG::GameCore { class TaskContext; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_3_66B7AEE5B2F59FF2_DISPOSE_OFFSET UNITYSDK_OFFSET(0xA4AE450)
-#define CLASS_3_66B7AEE5B2F59FF2_METHOD_3_35F1558C0CF0108B_OFFSET UNITYSDK_OFFSET(0xA4AE350)
-#define CLASS_3_66B7AEE5B2F59FF2_METHOD_3_F830AF27BC3CDB70_OFFSET UNITYSDK_OFFSET(0xA4ADD00)
-#define CLASS_3_66B7AEE5B2F59FF2_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xA4ADAE0)
-#define CLASS_3_66B7AEE5B2F59FF2__CTOR_OFFSET UNITYSDK_OFFSET(0xA4ADAB0)
-#define CLASS_3_66B7AEE5B2F59FF2___IFIXBASEPROXY_DISPOSE_OFFSET UNITYSDK_OFFSET(0xA4AE4B0)
+#define CLASS_3_66B7AEE5B2F59FF2_DISPOSE_OFFSET UNITYSDK_OFFSET(0x18AEFAF0)
+#define CLASS_3_66B7AEE5B2F59FF2_METHOD_3_35F1558C0CF0108B_OFFSET UNITYSDK_OFFSET(0x18AEF9F0)
+#define CLASS_3_66B7AEE5B2F59FF2_METHOD_3_A4869E754AD7F239_OFFSET UNITYSDK_OFFSET(0x18AEF310)
+#define CLASS_3_66B7AEE5B2F59FF2_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x18AEF0F0)
+#define CLASS_3_66B7AEE5B2F59FF2__CTOR_OFFSET UNITYSDK_OFFSET(0x18AEF0C0)
 
-inline static constexpr unsigned int Class_3_66B7AEE5B2F59FF2_TypeDefinitionIndex = 49053;
+inline static constexpr unsigned int Class_3_66B7AEE5B2F59FF2_TypeDefinitionIndex = 50066;
 
 class Class_3_66B7AEE5B2F59FF2 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::AdvNpcMonsterSetupTrigger*>
 {
@@ -43,18 +42,13 @@ public:
 		return ((::RPG::GameCore::PropButtonConfig*(*)(::PVOID, ::System::String*, ::Il2CppArray<::RPG::GameCore::PropButtonConfig*>*))((::PBYTE)hIl2Cpp + CLASS_3_66B7AEE5B2F59FF2_METHOD_3_35F1558C0CF0108B_OFFSET))(this, a1, a2);
 	}
 
-	::System::Collections::Generic::List_1<::Class_1_3E7CB4EB71D78E39*>* Method_3_F830AF27BC3CDB70(::RPG::GameCore::GameEntity* a1)
+	::System::Collections::Generic::List_1<::Class_1_3E7CB4EB71D78E39*>* Method_3_A4869E754AD7F239(::RPG::GameCore::GameEntity* a1)
 	{
-		return ((::System::Collections::Generic::List_1<::Class_1_3E7CB4EB71D78E39*>*(*)(::PVOID, ::RPG::GameCore::GameEntity*))((::PBYTE)hIl2Cpp + CLASS_3_66B7AEE5B2F59FF2_METHOD_3_F830AF27BC3CDB70_OFFSET))(this, a1);
+		return ((::System::Collections::Generic::List_1<::Class_1_3E7CB4EB71D78E39*>*(*)(::PVOID, ::RPG::GameCore::GameEntity*))((::PBYTE)hIl2Cpp + CLASS_3_66B7AEE5B2F59FF2_METHOD_3_A4869E754AD7F239_OFFSET))(this, a1);
 	}
 
 	::System::Void Dispose()
 	{
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_3_66B7AEE5B2F59FF2_DISPOSE_OFFSET))(this);
-	}
-
-	::System::Void __iFixBaseProxy_Dispose()
-	{
-		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_3_66B7AEE5B2F59FF2___IFIXBASEPROXY_DISPOSE_OFFSET))(this);
 	}
 };

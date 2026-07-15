@@ -12,13 +12,13 @@ namespace RPG::GameCore { class PingPongProjectileGroup; }
 namespace RPG::GameCore { class PingPongRacketConfig; }
 namespace RPG::GameCore { class PingPongSkillConfig; }
 
-#define RPG_GAMECORE_PINGPONGGAMECONFIG_METHOD_3_0E877F96CED10BF7_OFFSET UNITYSDK_OFFSET(0x19A0E400)
-#define RPG_GAMECORE_PINGPONGGAMECONFIG_METHOD_3_A2EF257BB135E722_OFFSET UNITYSDK_OFFSET(0x19A0E3C0)
-#define RPG_GAMECORE_PINGPONGGAMECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x19A0E3F0)
+#define RPG_GAMECORE_PINGPONGGAMECONFIG_METHOD_3_0E877F96CED10BF7_OFFSET UNITYSDK_OFFSET(0x1B4C85E0)
+#define RPG_GAMECORE_PINGPONGGAMECONFIG_METHOD_3_A2EF257BB135E722_OFFSET UNITYSDK_OFFSET(0x1B4C85A0)
+#define RPG_GAMECORE_PINGPONGGAMECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1B4C85D0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PingPongGameConfig_TypeDefinitionIndex = 16113;
+	inline static constexpr unsigned int PingPongGameConfig_TypeDefinitionIndex = 16297;
 
 	class PingPongGameConfig : public ::RPG::GameCore::LittleGameConstConfig
 	{

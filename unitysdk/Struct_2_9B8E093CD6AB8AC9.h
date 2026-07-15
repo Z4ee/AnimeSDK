@@ -1,0 +1,53 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/RPG/Client/LittleGame/FiveDim/SplineMoveStopMode.h"
+#include "unitysdk/Struct_2_27857638BF482647.h"
+#include "unitysdk/Struct_2_9321AE14385DF74D.h"
+#include "unitysdk/System/ValueType.h"
+
+namespace RPG { template <typename T> class PoolList_1; }
+namespace System { class String; }
+
+#define STRUCT_2_9B8E093CD6AB8AC9_METHOD_2_1F8314262457963A_1_OFFSET UNITYSDK_OFFSET(0x3A2C6A0)
+#define STRUCT_2_9B8E093CD6AB8AC9_METHOD_2_1F8314262457963A_2_OFFSET UNITYSDK_OFFSET(0x3A2C6C0)
+#define STRUCT_2_9B8E093CD6AB8AC9_METHOD_2_1F8314262457963A_3_OFFSET UNITYSDK_OFFSET(0x3A2C6E0)
+#define STRUCT_2_9B8E093CD6AB8AC9_METHOD_2_1F8314262457963A_4_OFFSET UNITYSDK_OFFSET(0x3A2C700)
+#define STRUCT_2_9B8E093CD6AB8AC9_METHOD_2_1F8314262457963A_OFFSET UNITYSDK_OFFSET(0x3A2C680)
+
+inline static constexpr unsigned int Struct_2_9B8E093CD6AB8AC9_TypeDefinitionIndex = 40952;
+
+struct alignas(8) Struct_2_9B8E093CD6AB8AC9
+{
+	::RPG::PoolList_1<::Struct_2_9321AE14385DF74D>* Field_2_0; // 0x10
+	::RPG::PoolList_1<::Struct_2_27857638BF482647>* Field_2_1; // 0x18
+	::System::Boolean Field_2_2; // 0x20
+	::System::UInt32 Field_2_3; // 0x24
+	::System::Single Field_2_4; // 0x28
+	::RPG::Client::LittleGame::FiveDim::SplineMoveStopMode Field_2_5; // 0x2C
+	::System::String* Field_2_6; // 0x30
+
+	::Struct_2_9321AE14385DF74D Method_2_1F8314262457963A()
+	{
+		return ((::Struct_2_9321AE14385DF74D(*)(::PVOID))((::PBYTE)hIl2Cpp + STRUCT_2_9B8E093CD6AB8AC9_METHOD_2_1F8314262457963A_OFFSET))(this);
+	}
+
+	::Struct_2_9321AE14385DF74D Method_2_1F8314262457963A_1()
+	{
+		return ((::Struct_2_9321AE14385DF74D(*)(::PVOID))((::PBYTE)hIl2Cpp + STRUCT_2_9B8E093CD6AB8AC9_METHOD_2_1F8314262457963A_1_OFFSET))(this);
+	}
+
+	::Struct_2_27857638BF482647 Method_2_1F8314262457963A_2()
+	{
+		return ((::Struct_2_27857638BF482647(*)(::PVOID))((::PBYTE)hIl2Cpp + STRUCT_2_9B8E093CD6AB8AC9_METHOD_2_1F8314262457963A_2_OFFSET))(this);
+	}
+
+	::Struct_2_27857638BF482647 Method_2_1F8314262457963A_3()
+	{
+		return ((::Struct_2_27857638BF482647(*)(::PVOID))((::PBYTE)hIl2Cpp + STRUCT_2_9B8E093CD6AB8AC9_METHOD_2_1F8314262457963A_3_OFFSET))(this);
+	}
+
+	::Struct_2_27857638BF482647 Method_2_1F8314262457963A_4()
+	{
+		return ((::Struct_2_27857638BF482647(*)(::PVOID))((::PBYTE)hIl2Cpp + STRUCT_2_9B8E093CD6AB8AC9_METHOD_2_1F8314262457963A_4_OFFSET))(this);
+	}
+};

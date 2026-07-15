@@ -4,16 +4,16 @@
 
 namespace RPG::GameCore { class AlleyBuffGridItemData; }
 
-#define CLASS_1_544F425D4D7FE2EE___C__DISPLAYCLASS1_0__CTOR_OFFSET UNITYSDK_OFFSET(0xAAD1730)
-#define CLASS_1_544F425D4D7FE2EE___C__DISPLAYCLASS1_0__GETATTACHMENTDATA_B__0_OFFSET UNITYSDK_OFFSET(0xAAD1740)
+#define CLASS_1_544F425D4D7FE2EE___C__DISPLAYCLASS1_0__CTOR_OFFSET UNITYSDK_OFFSET(0x18378EE0)
+#define CLASS_1_544F425D4D7FE2EE___C__DISPLAYCLASS1_0__GETATTACHMENTDATA_B__0_OFFSET UNITYSDK_OFFSET(0x18379AA0)
 
-inline static constexpr unsigned int Class_1_544F425D4D7FE2EE___c__DisplayClass1_0_TypeDefinitionIndex = 58334;
+inline static constexpr unsigned int Class_1_544F425D4D7FE2EE___c__DisplayClass1_0_TypeDefinitionIndex = 59596;
 
 class Class_1_544F425D4D7FE2EE___c__DisplayClass1_0 : public ::System::Object
 {
 public:
-	::System::UInt32 y; // 0x10
-	::System::UInt32 x; // 0x14
+	::System::UInt32 x; // 0x10
+	::System::UInt32 y; // 0x14
 
 	::System::Void _ctor()
 	{

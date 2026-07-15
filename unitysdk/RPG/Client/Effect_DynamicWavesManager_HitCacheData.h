@@ -5,7 +5,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int Effect_DynamicWavesManager_HitCacheData_TypeDefinitionIndex = 65875;
+	inline static constexpr unsigned int Effect_DynamicWavesManager_HitCacheData_TypeDefinitionIndex = 67292;
 
 	struct alignas(8) Effect_DynamicWavesManager_HitCacheData
 	{

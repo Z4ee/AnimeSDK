@@ -2,15 +2,15 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/ImmediateTaskBase_1.h"
 
-class Class_2_1DBE0E1023AFDBC5;
+class Class_2_2461A19B320A03F9;
 namespace RPG::GameCore { class AnimTriggerRandomPlay; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_BA4613B05C7BB629_METHOD_3_C87A2530700F1868_OFFSET UNITYSDK_OFFSET(0xAF27760)
-#define CLASS_3_BA4613B05C7BB629_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xAF27380)
-#define CLASS_3_BA4613B05C7BB629__CTOR_OFFSET UNITYSDK_OFFSET(0xAF27350)
+#define CLASS_3_BA4613B05C7BB629_METHOD_3_C87A2530700F1868_OFFSET UNITYSDK_OFFSET(0x15EACAF0)
+#define CLASS_3_BA4613B05C7BB629_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x15EAC6A0)
+#define CLASS_3_BA4613B05C7BB629__CTOR_OFFSET UNITYSDK_OFFSET(0x15EAC670)
 
-inline static constexpr unsigned int Class_3_BA4613B05C7BB629_TypeDefinitionIndex = 52193;
+inline static constexpr unsigned int Class_3_BA4613B05C7BB629_TypeDefinitionIndex = 53345;
 
 class Class_3_BA4613B05C7BB629 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::AnimTriggerRandomPlay*>
 {
@@ -25,8 +25,8 @@ public:
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_3_BA4613B05C7BB629_ONTASKBEGIN_OFFSET))(this);
 	}
 
-	::System::Boolean Method_3_C87A2530700F1868(::Class_2_1DBE0E1023AFDBC5* a1)
+	::System::Boolean Method_3_C87A2530700F1868(::Class_2_2461A19B320A03F9* a1)
 	{
-		return ((::System::Boolean(*)(::PVOID, ::Class_2_1DBE0E1023AFDBC5*))((::PBYTE)hIl2Cpp + CLASS_3_BA4613B05C7BB629_METHOD_3_C87A2530700F1868_OFFSET))(this, a1);
+		return ((::System::Boolean(*)(::PVOID, ::Class_2_2461A19B320A03F9*))((::PBYTE)hIl2Cpp + CLASS_3_BA4613B05C7BB629_METHOD_3_C87A2530700F1868_OFFSET))(this, a1);
 	}
 };

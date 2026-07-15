@@ -5,12 +5,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_ROGUENPCROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x19B9F890)
-#define RPG_GAMECORE_ROGUENPCROW__CTOR_OFFSET UNITYSDK_OFFSET(0x19B9F990)
+#define RPG_GAMECORE_ROGUENPCROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D168A70)
+#define RPG_GAMECORE_ROGUENPCROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D168B70)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RogueNPCRow_TypeDefinitionIndex = 14074;
+	inline static constexpr unsigned int RogueNPCRow_TypeDefinitionIndex = 14222;
 
 	class RogueNPCRow : public ::System::Object
 	{

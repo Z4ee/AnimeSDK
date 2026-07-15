@@ -9,12 +9,12 @@ namespace RPG::GameCore { class ActionDelayPreshowConfig; }
 namespace RPG::GameCore { class DynamicFloat; }
 namespace RPG::GameCore { class PredicateConfig; }
 
-#define RPG_GAMECORE_MODIFIERCREATEENTITYPRESHOWCONFIG_METHOD_2_B5637AD2D9E71BB2_OFFSET UNITYSDK_OFFSET(0x1994C1F0)
-#define RPG_GAMECORE_MODIFIERCREATEENTITYPRESHOWCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1994C3F0)
+#define RPG_GAMECORE_MODIFIERCREATEENTITYPRESHOWCONFIG_METHOD_2_B5637AD2D9E71BB2_OFFSET UNITYSDK_OFFSET(0x1AF71210)
+#define RPG_GAMECORE_MODIFIERCREATEENTITYPRESHOWCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1AF71410)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ModifierCreateEntityPreshowConfig_TypeDefinitionIndex = 17280;
+	inline static constexpr unsigned int ModifierCreateEntityPreshowConfig_TypeDefinitionIndex = 17451;
 
 	class ModifierCreateEntityPreshowConfig : public ::RPG::GameCore::JsonConfig
 	{

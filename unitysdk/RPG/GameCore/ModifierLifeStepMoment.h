@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ModifierLifeStepMoment_TypeDefinitionIndex = 17321;
+	inline static constexpr unsigned int ModifierLifeStepMoment_TypeDefinitionIndex = 17494;
 
 	enum class ModifierLifeStepMoment : ::System::Int32
 	{

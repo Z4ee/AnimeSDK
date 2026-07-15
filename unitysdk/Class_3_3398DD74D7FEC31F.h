@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class RemoveEffectOnCharacter; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_3398DD74D7FEC31F_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB517FF0)
-#define CLASS_3_3398DD74D7FEC31F__CTOR_OFFSET UNITYSDK_OFFSET(0xB517FC0)
+#define CLASS_3_3398DD74D7FEC31F_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1557CE40)
+#define CLASS_3_3398DD74D7FEC31F__CTOR_OFFSET UNITYSDK_OFFSET(0x1557CE10)
 
-inline static constexpr unsigned int Class_3_3398DD74D7FEC31F_TypeDefinitionIndex = 54580;
+inline static constexpr unsigned int Class_3_3398DD74D7FEC31F_TypeDefinitionIndex = 55804;
 
 class Class_3_3398DD74D7FEC31F : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::RemoveEffectOnCharacter*>
 {

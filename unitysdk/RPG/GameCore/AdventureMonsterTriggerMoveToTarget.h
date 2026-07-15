@@ -7,13 +7,13 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class DynamicFloat; }
 namespace RPG::GameCore { class TargetEvaluator; }
 
-#define RPG_GAMECORE_ADVENTUREMONSTERTRIGGERMOVETOTARGET_METHOD_3_16151E6F8F395145_OFFSET UNITYSDK_OFFSET(0x194512F0)
-#define RPG_GAMECORE_ADVENTUREMONSTERTRIGGERMOVETOTARGET_METHOD_3_AB4771B3D5306720_OFFSET UNITYSDK_OFFSET(0x19451370)
-#define RPG_GAMECORE_ADVENTUREMONSTERTRIGGERMOVETOTARGET__CTOR_OFFSET UNITYSDK_OFFSET(0x19451340)
+#define RPG_GAMECORE_ADVENTUREMONSTERTRIGGERMOVETOTARGET_METHOD_3_AB4771B3D5306720_OFFSET UNITYSDK_OFFSET(0x1AE5FD40)
+#define RPG_GAMECORE_ADVENTUREMONSTERTRIGGERMOVETOTARGET_METHOD_3_D9D5AF08FAD6FF19_OFFSET UNITYSDK_OFFSET(0x1AE5FD00)
+#define RPG_GAMECORE_ADVENTUREMONSTERTRIGGERMOVETOTARGET__CTOR_OFFSET UNITYSDK_OFFSET(0x1AE5FD30)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AdventureMonsterTriggerMoveToTarget_TypeDefinitionIndex = 19056;
+	inline static constexpr unsigned int AdventureMonsterTriggerMoveToTarget_TypeDefinitionIndex = 19409;
 
 	class AdventureMonsterTriggerMoveToTarget : public ::RPG::GameCore::TaskConfig
 	{
@@ -32,9 +32,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVENTUREMONSTERTRIGGERMOVETOTARGET__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_16151E6F8F395145(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AdventureMonsterTriggerMoveToTarget*& a2)
+		static ::System::Void Method_3_D9D5AF08FAD6FF19(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AdventureMonsterTriggerMoveToTarget*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::AdventureMonsterTriggerMoveToTarget*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVENTUREMONSTERTRIGGERMOVETOTARGET_METHOD_3_16151E6F8F395145_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::AdventureMonsterTriggerMoveToTarget*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVENTUREMONSTERTRIGGERMOVETOTARGET_METHOD_3_D9D5AF08FAD6FF19_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_AB4771B3D5306720(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AdventureMonsterTriggerMoveToTarget* a2)

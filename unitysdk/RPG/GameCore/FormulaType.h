@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FormulaType_TypeDefinitionIndex = 13189;
+	inline static constexpr unsigned int FormulaType_TypeDefinitionIndex = 13337;
 
 	enum class FormulaType : ::System::Int32
 	{

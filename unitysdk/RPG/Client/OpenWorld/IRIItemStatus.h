@@ -3,7 +3,7 @@
 
 namespace RPG::Client::OpenWorld
 {
-	inline static constexpr unsigned int IRIItemStatus_TypeDefinitionIndex = 68981;
+	inline static constexpr unsigned int IRIItemStatus_TypeDefinitionIndex = 70509;
 
 	enum class IRIItemStatus : ::System::Int32
 	{

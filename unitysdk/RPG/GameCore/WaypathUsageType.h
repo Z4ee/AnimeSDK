@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int WaypathUsageType_TypeDefinitionIndex = 10091;
+	inline static constexpr unsigned int WaypathUsageType_TypeDefinitionIndex = 10106;
 
 	enum class WaypathUsageType : ::System::Int32
 	{

@@ -5,12 +5,12 @@
 namespace System { class String; }
 namespace System::Reflection { class FieldInfo; }
 
-#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_FIELDINSTRUCTION_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1AD79A00)
-#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_FIELDINSTRUCTION__CTOR_OFFSET UNITYSDK_OFFSET(0x1AD799F0)
+#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_FIELDINSTRUCTION_TOSTRING_OFFSET UNITYSDK_OFFSET(0x195717F0)
+#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_FIELDINSTRUCTION__CTOR_OFFSET UNITYSDK_OFFSET(0x195717E0)
 
 namespace System::Linq::Expressions::Interpreter
 {
-	inline static constexpr unsigned int FieldInstruction_TypeDefinitionIndex = 3383;
+	inline static constexpr unsigned int FieldInstruction_TypeDefinitionIndex = 3387;
 
 	class FieldInstruction : public ::System::Linq::Expressions::Interpreter::Instruction
 	{

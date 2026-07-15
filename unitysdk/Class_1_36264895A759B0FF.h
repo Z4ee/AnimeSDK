@@ -12,38 +12,38 @@ namespace UnityEngine { class GameObject; }
 namespace UnityEngine::Events { class UnityAction; }
 namespace UnityEngine::Playables { class PlayableDirector; }
 
-#define CLASS_1_36264895A759B0FF_METHOD_1_08DCF72FBE01FF99_OFFSET UNITYSDK_OFFSET(0x10C9D580)
-#define CLASS_1_36264895A759B0FF_METHOD_1_1C7049F264ECA2D2_OFFSET UNITYSDK_OFFSET(0x10C9D800)
-#define CLASS_1_36264895A759B0FF_METHOD_1_30D1209326FA87FC_OFFSET UNITYSDK_OFFSET(0x10C9DAA0)
-#define CLASS_1_36264895A759B0FF_METHOD_1_4343F372F34C05BF_OFFSET UNITYSDK_OFFSET(0x10C9D7A0)
-#define CLASS_1_36264895A759B0FF_METHOD_1_85C746F74910D9C1_OFFSET UNITYSDK_OFFSET(0x10C9DC70)
-#define CLASS_1_36264895A759B0FF_METHOD_1_BA05915D19667892_OFFSET UNITYSDK_OFFSET(0x10C9DB90)
-#define CLASS_1_36264895A759B0FF_METHOD_1_CA373AA1C7054598_OFFSET UNITYSDK_OFFSET(0x10C9DB40)
-#define CLASS_1_36264895A759B0FF_METHOD_1_D94FD23FDC64EBE6_OFFSET UNITYSDK_OFFSET(0x10C9DC10)
-#define CLASS_1_36264895A759B0FF__CTOR_OFFSET UNITYSDK_OFFSET(0x10C9D560)
+#define CLASS_1_36264895A759B0FF_METHOD_1_08DCF72FBE01FF99_OFFSET UNITYSDK_OFFSET(0x18F83940)
+#define CLASS_1_36264895A759B0FF_METHOD_1_30D1209326FA87FC_OFFSET UNITYSDK_OFFSET(0x18F83ED0)
+#define CLASS_1_36264895A759B0FF_METHOD_1_4343F372F34C05BF_OFFSET UNITYSDK_OFFSET(0x18F83B60)
+#define CLASS_1_36264895A759B0FF_METHOD_1_85C746F74910D9C1_OFFSET UNITYSDK_OFFSET(0x18F840A0)
+#define CLASS_1_36264895A759B0FF_METHOD_1_BA05915D19667892_OFFSET UNITYSDK_OFFSET(0x18F83FC0)
+#define CLASS_1_36264895A759B0FF_METHOD_1_CA373AA1C7054598_OFFSET UNITYSDK_OFFSET(0x18F83F70)
+#define CLASS_1_36264895A759B0FF_METHOD_1_CB707514D8A9DDDB_OFFSET UNITYSDK_OFFSET(0x18F83BC0)
+#define CLASS_1_36264895A759B0FF_METHOD_1_D94FD23FDC64EBE6_OFFSET UNITYSDK_OFFSET(0x18F84040)
+#define CLASS_1_36264895A759B0FF__CTOR_OFFSET UNITYSDK_OFFSET(0x18F83920)
 
-inline static constexpr unsigned int Class_1_36264895A759B0FF_TypeDefinitionIndex = 45761;
+inline static constexpr unsigned int Class_1_36264895A759B0FF_TypeDefinitionIndex = 46700;
 
 class Class_1_36264895A759B0FF : public ::System::Object
 {
 public:
-	::UnityEngine::Events::UnityAction* Field_1_0; // 0x10
-	::System::Collections::Generic::List_1<::UnityEngine::GameObject*>* Field_1_1; // 0x18
-	::UnityEngine::Playables::PlayableDirector* Field_1_2; // 0x20
-	::System::Collections::Generic::List_1<::UnityEngine::GameObject*>* Field_1_3; // 0x28
-	::System::Collections::Generic::Dictionary_2<::UnityEngine::GameObject*, ::UnityEngine::GameObject*>* Field_1_4; // 0x30
-	::UnityEngine::GameObject* Field_1_5; // 0x38
-	::System::String* Field_1_6; // 0x40
+	::System::Collections::Generic::List_1<::UnityEngine::GameObject*>* Field_1_0; // 0x10
+	::UnityEngine::Playables::PlayableDirector* Field_1_1; // 0x18
+	::UnityEngine::GameObject* Field_1_2; // 0x20
+	::UnityEngine::Events::UnityAction* Field_1_3; // 0x28
+	::System::String* Field_1_4; // 0x30
+	::System::Collections::Generic::List_1<::UnityEngine::GameObject*>* Field_1_5; // 0x38
+	::System::Collections::Generic::Dictionary_2<::UnityEngine::GameObject*, ::UnityEngine::GameObject*>* Field_1_6; // 0x40
 	::System::Action_1<::UnityEngine::Playables::PlayableDirector*>* Field_1_7; // 0x48
 	::System::String* Field_1_8; // 0x50
 	::System::Double Field_1_9; // 0x58
-	::System::Int32 Field_1_10; // 0x60
-	::Class_1_36264895A759B0FF_DirectorState Field_1_11; // 0x64
-	::System::UInt32 Field_1_12; // 0x68
-	::System::UInt32 Field_1_13; // 0x6C
-	::System::Double Field_1_14; // 0x70
-	::System::Double Field_1_15; // 0x78
-	::System::Single Field_1_16; // 0x80
+	::System::UInt32 Field_1_10; // 0x60
+	::System::Double Field_1_11; // 0x68
+	::Class_1_36264895A759B0FF_DirectorState Field_1_12; // 0x70
+	::System::UInt32 Field_1_13; // 0x74
+	::System::Single Field_1_14; // 0x78
+	::System::Int32 Field_1_15; // 0x7C
+	::System::Double Field_1_16; // 0x80
 
 	::System::Void _ctor(::UnityEngine::Playables::PlayableDirector* a1)
 	{
@@ -85,8 +85,8 @@ public:
 		return ((::System::Double(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_36264895A759B0FF_METHOD_1_85C746F74910D9C1_OFFSET))(this);
 	}
 
-	::System::Single Method_1_1C7049F264ECA2D2()
+	::System::Single Method_1_CB707514D8A9DDDB()
 	{
-		return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_36264895A759B0FF_METHOD_1_1C7049F264ECA2D2_OFFSET))(this);
+		return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_36264895A759B0FF_METHOD_1_CB707514D8A9DDDB_OFFSET))(this);
 	}
 };

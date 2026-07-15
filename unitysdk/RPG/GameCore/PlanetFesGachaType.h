@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PlanetFesGachaType_TypeDefinitionIndex = 11643;
+	inline static constexpr unsigned int PlanetFesGachaType_TypeDefinitionIndex = 11743;
 
 	enum class PlanetFesGachaType : ::System::Int32
 	{

@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class TaskContext; }
 namespace RPG::GameCore { class TriggerEffectListOnCharacter; }
 
-#define CLASS_3_6ABC49A1D5E036CD_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x13FFDEC0)
-#define CLASS_3_6ABC49A1D5E036CD__CTOR_OFFSET UNITYSDK_OFFSET(0x13FFDE90)
+#define CLASS_3_6ABC49A1D5E036CD_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x15F14DD0)
+#define CLASS_3_6ABC49A1D5E036CD__CTOR_OFFSET UNITYSDK_OFFSET(0x15F14DA0)
 
-inline static constexpr unsigned int Class_3_6ABC49A1D5E036CD_TypeDefinitionIndex = 54920;
+inline static constexpr unsigned int Class_3_6ABC49A1D5E036CD_TypeDefinitionIndex = 56152;
 
 class Class_3_6ABC49A1D5E036CD : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::TriggerEffectListOnCharacter*>
 {

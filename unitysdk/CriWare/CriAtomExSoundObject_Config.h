@@ -4,7 +4,7 @@
 
 namespace CriWare
 {
-	inline static constexpr unsigned int CriAtomExSoundObject_Config_TypeDefinitionIndex = 37110;
+	inline static constexpr unsigned int CriAtomExSoundObject_Config_TypeDefinitionIndex = 37909;
 
 	struct alignas(1) CriAtomExSoundObject_Config
 	{

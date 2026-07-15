@@ -5,19 +5,20 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class TargetEvaluator; }
 
-#define RPG_GAMECORE_ADDGRIDFIGHTTARGETEQUIP_METHOD_3_6BECA9AFE0F9C18C_OFFSET UNITYSDK_OFFSET(0x1940E860)
-#define RPG_GAMECORE_ADDGRIDFIGHTTARGETEQUIP_METHOD_3_EE829B4A30965EED_OFFSET UNITYSDK_OFFSET(0x1940E8E0)
-#define RPG_GAMECORE_ADDGRIDFIGHTTARGETEQUIP__CTOR_OFFSET UNITYSDK_OFFSET(0x1940E8B0)
+#define RPG_GAMECORE_ADDGRIDFIGHTTARGETEQUIP_METHOD_3_18436486CF063478_OFFSET UNITYSDK_OFFSET(0x1BE06C30)
+#define RPG_GAMECORE_ADDGRIDFIGHTTARGETEQUIP_METHOD_3_80134C6047659D81_OFFSET UNITYSDK_OFFSET(0x1BE06C70)
+#define RPG_GAMECORE_ADDGRIDFIGHTTARGETEQUIP__CTOR_OFFSET UNITYSDK_OFFSET(0x1BE06C60)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AddGridFightTargetEquip_TypeDefinitionIndex = 21308;
+	inline static constexpr unsigned int AddGridFightTargetEquip_TypeDefinitionIndex = 21723;
 
 	class AddGridFightTargetEquip : public ::RPG::GameCore::TaskConfig
 	{
 	public:
 		::RPG::GameCore::TargetEvaluator* TargetType; // 0x18
 		::System::Boolean isUpgradeEquip; // 0x20
+		::System::Boolean isAllEquipCraftable; // 0x21
 		::System::UInt32 EquipID; // 0x24
 
 		::System::Void _ctor()
@@ -25,14 +26,14 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADDGRIDFIGHTTARGETEQUIP__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_6BECA9AFE0F9C18C(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AddGridFightTargetEquip*& a2)
+		static ::System::Void Method_3_18436486CF063478(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AddGridFightTargetEquip*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::AddGridFightTargetEquip*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADDGRIDFIGHTTARGETEQUIP_METHOD_3_6BECA9AFE0F9C18C_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::AddGridFightTargetEquip*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADDGRIDFIGHTTARGETEQUIP_METHOD_3_18436486CF063478_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_EE829B4A30965EED(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AddGridFightTargetEquip* a2)
+		static ::System::Void Method_3_80134C6047659D81(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AddGridFightTargetEquip* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::AddGridFightTargetEquip*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADDGRIDFIGHTTARGETEQUIP_METHOD_3_EE829B4A30965EED_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::AddGridFightTargetEquip*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADDGRIDFIGHTTARGETEQUIP_METHOD_3_80134C6047659D81_OFFSET))(a1, a2);
 		}
 	};
 }

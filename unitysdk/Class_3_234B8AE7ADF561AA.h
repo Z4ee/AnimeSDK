@@ -6,10 +6,10 @@
 namespace RPG::GameCore { class SetDynamicValueByCopying; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_234B8AE7ADF561AA_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1191C7A0)
-#define CLASS_3_234B8AE7ADF561AA__CTOR_OFFSET UNITYSDK_OFFSET(0x1191C770)
+#define CLASS_3_234B8AE7ADF561AA_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x140CDAB0)
+#define CLASS_3_234B8AE7ADF561AA__CTOR_OFFSET UNITYSDK_OFFSET(0x140CDA80)
 
-inline static constexpr unsigned int Class_3_234B8AE7ADF561AA_TypeDefinitionIndex = 51765;
+inline static constexpr unsigned int Class_3_234B8AE7ADF561AA_TypeDefinitionIndex = 52912;
 
 class Class_3_234B8AE7ADF561AA : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::SetDynamicValueByCopying*>
 {

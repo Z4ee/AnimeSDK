@@ -7,10 +7,10 @@ class BatchAnimationClipGroup;
 class BatchAnimationPlayable;
 namespace UnityEngine::Rendering { class BatchAnimation; }
 
-#define BATCHANIMATIONPLAYABLEGROUP_SETUPANIMGROUP_OFFSET UNITYSDK_OFFSET(0x18E9CCA0)
-#define BATCHANIMATIONPLAYABLEGROUP__CTOR_OFFSET UNITYSDK_OFFSET(0x18E9CD50)
+#define BATCHANIMATIONPLAYABLEGROUP_SETUPANIMGROUP_OFFSET UNITYSDK_OFFSET(0x177F39F0)
+#define BATCHANIMATIONPLAYABLEGROUP__CTOR_OFFSET UNITYSDK_OFFSET(0x177F3AA0)
 
-inline static constexpr unsigned int BatchAnimationPlayableGroup_TypeDefinitionIndex = 35140;
+inline static constexpr unsigned int BatchAnimationPlayableGroup_TypeDefinitionIndex = 35922;
 
 class BatchAnimationPlayableGroup : public ::System::Object
 {

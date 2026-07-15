@@ -3,7 +3,7 @@
 
 namespace BansheeGz::BGSpline::Components
 {
-	inline static constexpr unsigned int BGCcCursorChangeLinear_OverflowControlEnum_TypeDefinitionIndex = 34115;
+	inline static constexpr unsigned int BGCcCursorChangeLinear_OverflowControlEnum_TypeDefinitionIndex = 34486;
 
 	enum class BGCcCursorChangeLinear_OverflowControlEnum : ::System::Int32
 	{

@@ -5,12 +5,12 @@
 namespace RPG::GameCore { class BattleRogueMagicData; }
 namespace RPG::GameCore { class BattleRogueTournData; }
 
-#define RPG_GAMECORE_BATTLEROGUEDATA_DEEPCLONE_OFFSET UNITYSDK_OFFSET(0xCD37CF0)
-#define RPG_GAMECORE_BATTLEROGUEDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xCD37DD0)
+#define RPG_GAMECORE_BATTLEROGUEDATA_DEEPCLONE_OFFSET UNITYSDK_OFFSET(0x12172B80)
+#define RPG_GAMECORE_BATTLEROGUEDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x12172C60)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int BattleRogueData_TypeDefinitionIndex = 52576;
+	inline static constexpr unsigned int BattleRogueData_TypeDefinitionIndex = 53780;
 
 	class BattleRogueData : public ::System::Object
 	{

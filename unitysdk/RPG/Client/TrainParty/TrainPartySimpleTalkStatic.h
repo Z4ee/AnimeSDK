@@ -4,19 +4,19 @@
 
 namespace UnityEngine { class Transform; }
 
-#define RPG_CLIENT_TRAINPARTY_TRAINPARTYSIMPLETALKSTATIC_GET_ENTITYROOT_OFFSET UNITYSDK_OFFSET(0xCABE290)
-#define RPG_CLIENT_TRAINPARTY_TRAINPARTYSIMPLETALKSTATIC_SET_ENTITYROOT_OFFSET UNITYSDK_OFFSET(0xCABE320)
+#define RPG_CLIENT_TRAINPARTY_TRAINPARTYSIMPLETALKSTATIC_GET_ENTITYROOT_OFFSET UNITYSDK_OFFSET(0x1988EB70)
+#define RPG_CLIENT_TRAINPARTY_TRAINPARTYSIMPLETALKSTATIC_SET_ENTITYROOT_OFFSET UNITYSDK_OFFSET(0x1988EC00)
 
 namespace RPG::Client::TrainParty
 {
-	inline static constexpr unsigned int TrainPartySimpleTalkStatic_TypeDefinitionIndex = 69405;
+	inline static constexpr unsigned int TrainPartySimpleTalkStatic_TypeDefinitionIndex = 70926;
 
 	class TrainPartySimpleTalkStatic : public ::System::Object
 	{
 	public:
 		static ::UnityEngine::Transform** StaticGet__EntityRoot()
 		{
-			return (::UnityEngine::Transform**)Il2CppClass::FromTypeDefinitionIndex(TrainPartySimpleTalkStatic_TypeDefinitionIndex)->GetStaticField(0x58C30);
+			return (::UnityEngine::Transform**)Il2CppClass::FromTypeDefinitionIndex(TrainPartySimpleTalkStatic_TypeDefinitionIndex)->GetStaticField(0x47690);
 		}
 
 		static ::UnityEngine::Transform* get_EntityRoot()

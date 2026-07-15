@@ -3,13 +3,12 @@
 #include "unitysdk/RPG/Client/MonoEffectPluginCharaReplaceMatBase.h"
 #include "unitysdk/UnityEngine/Color.h"
 
-#define RPG_CLIENT_MONOEFFECTPLUGINHOLOGRAM_METHOD_8_52607DE4C357D269_OFFSET UNITYSDK_OFFSET(0xC0E2080)
-#define RPG_CLIENT_MONOEFFECTPLUGINHOLOGRAM_METHOD_8_F0D9B6AAFF504D87_OFFSET UNITYSDK_OFFSET(0xC0E2380)
-#define RPG_CLIENT_MONOEFFECTPLUGINHOLOGRAM__CTOR_OFFSET UNITYSDK_OFFSET(0xC0E2360)
+#define RPG_CLIENT_MONOEFFECTPLUGINHOLOGRAM_METHOD_8_52607DE4C357D269_OFFSET UNITYSDK_OFFSET(0x1912F9B0)
+#define RPG_CLIENT_MONOEFFECTPLUGINHOLOGRAM__CTOR_OFFSET UNITYSDK_OFFSET(0x1912FC90)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MonoEffectPluginHologram_TypeDefinitionIndex = 65458;
+	inline static constexpr unsigned int MonoEffectPluginHologram_TypeDefinitionIndex = 66872;
 
 	class MonoEffectPluginHologram : public ::RPG::Client::MonoEffectPluginCharaReplaceMatBase
 	{
@@ -34,11 +33,6 @@ namespace RPG::Client
 		::System::Void Method_8_52607DE4C357D269()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOEFFECTPLUGINHOLOGRAM_METHOD_8_52607DE4C357D269_OFFSET))(this);
-		}
-
-		::System::Void Method_8_F0D9B6AAFF504D87()
-		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOEFFECTPLUGINHOLOGRAM_METHOD_8_F0D9B6AAFF504D87_OFFSET))(this);
 		}
 	};
 }

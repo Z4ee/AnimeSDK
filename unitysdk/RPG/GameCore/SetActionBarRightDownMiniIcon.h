@@ -6,13 +6,13 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class TargetEvaluator; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_SETACTIONBARRIGHTDOWNMINIICON_METHOD_3_507BCBDF113F1038_OFFSET UNITYSDK_OFFSET(0x19C260D0)
-#define RPG_GAMECORE_SETACTIONBARRIGHTDOWNMINIICON_METHOD_3_FEE0C2FED21AB30B_OFFSET UNITYSDK_OFFSET(0x19C26150)
-#define RPG_GAMECORE_SETACTIONBARRIGHTDOWNMINIICON__CTOR_OFFSET UNITYSDK_OFFSET(0x19C26120)
+#define RPG_GAMECORE_SETACTIONBARRIGHTDOWNMINIICON_METHOD_3_7DB8AC1A728905BA_OFFSET UNITYSDK_OFFSET(0x1C2CFEE0)
+#define RPG_GAMECORE_SETACTIONBARRIGHTDOWNMINIICON_METHOD_3_FEE0C2FED21AB30B_OFFSET UNITYSDK_OFFSET(0x1C2CFF30)
+#define RPG_GAMECORE_SETACTIONBARRIGHTDOWNMINIICON__CTOR_OFFSET UNITYSDK_OFFSET(0x1C2CFF20)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SetActionBarRightDownMiniIcon_TypeDefinitionIndex = 22010;
+	inline static constexpr unsigned int SetActionBarRightDownMiniIcon_TypeDefinitionIndex = 22444;
 
 	class SetActionBarRightDownMiniIcon : public ::RPG::GameCore::TaskConfig
 	{
@@ -26,9 +26,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETACTIONBARRIGHTDOWNMINIICON__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_507BCBDF113F1038(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SetActionBarRightDownMiniIcon*& a2)
+		static ::System::Void Method_3_7DB8AC1A728905BA(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SetActionBarRightDownMiniIcon*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SetActionBarRightDownMiniIcon*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETACTIONBARRIGHTDOWNMINIICON_METHOD_3_507BCBDF113F1038_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SetActionBarRightDownMiniIcon*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETACTIONBARRIGHTDOWNMINIICON_METHOD_3_7DB8AC1A728905BA_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_FEE0C2FED21AB30B(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SetActionBarRightDownMiniIcon* a2)

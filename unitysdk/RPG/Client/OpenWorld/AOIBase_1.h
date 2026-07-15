@@ -2,12 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/Rect.h"
 
-class Class_0_16E4307DCC419505_1083;
+class Class_0_16E4307DCC419505_1129;
 class Class_1_3F28033F34305C46;
 
 namespace RPG::Client::OpenWorld
 {
-	inline static constexpr unsigned int AOIBase_1_TypeDefinitionIndex = 68965;
+	inline static constexpr unsigned int AOIBase_1_TypeDefinitionIndex = 70492;
 
 	template <typename T>
 	class AOIBase_1

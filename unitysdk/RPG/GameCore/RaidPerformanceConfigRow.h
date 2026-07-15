@@ -5,20 +5,20 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_RAIDPERFORMANCECONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x19AACF40)
-#define RPG_GAMECORE_RAIDPERFORMANCECONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x19AAD0E0)
+#define RPG_GAMECORE_RAIDPERFORMANCECONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B9B4CD0)
+#define RPG_GAMECORE_RAIDPERFORMANCECONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1B9B4E70)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RaidPerformanceConfigRow_TypeDefinitionIndex = 13870;
+	inline static constexpr unsigned int RaidPerformanceConfigRow_TypeDefinitionIndex = 14018;
 
 	class RaidPerformanceConfigRow : public ::System::Object
 	{
 	public:
-		::System::UInt32 PerformanceID; // 0x10
-		::RPG::GameCore::ELevelPerformanceType PerformanceType; // 0x14
-		::System::UInt32 RaidID; // 0x18
-		::System::UInt32 HardLevel; // 0x1C
+		::System::UInt32 RaidID; // 0x10
+		::System::UInt32 HardLevel; // 0x14
+		::System::UInt32 PerformanceID; // 0x18
+		::RPG::GameCore::ELevelPerformanceType PerformanceType; // 0x1C
 
 		::System::Void _ctor()
 		{

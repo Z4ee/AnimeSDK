@@ -4,11 +4,11 @@
 
 namespace MiHoYo::SDK { class ThirdLoginConfig; }
 
-#define MIHOYO_SDK_THIRDLOGINCONFIGS__CTOR_OFFSET UNITYSDK_OFFSET(0x1842ECC0)
+#define MIHOYO_SDK_THIRDLOGINCONFIGS__CTOR_OFFSET UNITYSDK_OFFSET(0x1712E2F0)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int ThirdLoginConfigs_TypeDefinitionIndex = 7855;
+	inline static constexpr unsigned int ThirdLoginConfigs_TypeDefinitionIndex = 7861;
 
 	class ThirdLoginConfigs : public ::System::Object
 	{

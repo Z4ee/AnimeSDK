@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LittleGameEntityType_TypeDefinitionIndex = 17924;
+	inline static constexpr unsigned int LittleGameEntityType_TypeDefinitionIndex = 18103;
 
 	enum class LittleGameEntityType : ::System::Int32
 	{
@@ -80,5 +80,7 @@ namespace RPG::GameCore
 		ChenLingFesItem = 43103,
 		ChenLingFesLevel = 43104,
 		ChenLingFesCell = 43105,
+		TeamTowersField = 44101,
+		TeamTowersBrick = 44102,
 	};
 }

@@ -4,12 +4,12 @@
 
 namespace RPG::CustomRP { class CRPGraphicsSettingsData; }
 
-#define RPG_CLIENT_CRPSSGIQUALITYSETTINGS_METHOD_1_96234233D311D19C_OFFSET UNITYSDK_OFFSET(0xB4578E0)
-#define RPG_CLIENT_CRPSSGIQUALITYSETTINGS__CTOR_OFFSET UNITYSDK_OFFSET(0xB457980)
+#define RPG_CLIENT_CRPSSGIQUALITYSETTINGS_METHOD_1_96234233D311D19C_OFFSET UNITYSDK_OFFSET(0x18CBD780)
+#define RPG_CLIENT_CRPSSGIQUALITYSETTINGS__CTOR_OFFSET UNITYSDK_OFFSET(0x18CBD820)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int CRPSSGIQualitySettings_TypeDefinitionIndex = 63558;
+	inline static constexpr unsigned int CRPSSGIQualitySettings_TypeDefinitionIndex = 64925;
 
 	class CRPSSGIQualitySettings : public ::System::Object
 	{

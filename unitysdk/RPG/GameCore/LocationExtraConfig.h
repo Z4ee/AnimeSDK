@@ -4,12 +4,12 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_LOCATIONEXTRACONFIG_METHOD_2_2BD72B376B7006C1_OFFSET UNITYSDK_OFFSET(0x198AA920)
-#define RPG_GAMECORE_LOCATIONEXTRACONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x198AAA70)
+#define RPG_GAMECORE_LOCATIONEXTRACONFIG_METHOD_2_2BD72B376B7006C1_OFFSET UNITYSDK_OFFSET(0x1BCCDCD0)
+#define RPG_GAMECORE_LOCATIONEXTRACONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1BCCDE20)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LocationExtraConfig_TypeDefinitionIndex = 21261;
+	inline static constexpr unsigned int LocationExtraConfig_TypeDefinitionIndex = 21676;
 
 	class LocationExtraConfig : public ::RPG::GameCore::JsonConfig
 	{

@@ -1,11 +1,10 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/RPG/Client/ActivityIdleLive/EquipSelectUiData.h"
-#include "unitysdk/RPG/Client/ActivityIdleLive/IdleLiveDecimal.h"
 
-class Class_0_16E4307DCC419505_640;
+namespace RPG::Client { class IMapIcon; }
+namespace System::Collections::Generic { template <typename T> class IReadOnlyList_1; }
 
-inline static constexpr unsigned int Class_0_16E4307DCC419505_1144_TypeDefinitionIndex = 70098;
+inline static constexpr unsigned int Class_0_16E4307DCC419505_1144_TypeDefinitionIndex = 71092;
 
 class Class_0_16E4307DCC419505_1144
 {

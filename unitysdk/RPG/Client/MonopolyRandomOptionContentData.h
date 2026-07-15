@@ -4,20 +4,20 @@
 
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_MONOPOLYRANDOMOPTIONCONTENTDATA_CREATE_OFFSET UNITYSDK_OFFSET(0xC18B8D0)
-#define RPG_CLIENT_MONOPOLYRANDOMOPTIONCONTENTDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xC18B970)
+#define RPG_CLIENT_MONOPOLYRANDOMOPTIONCONTENTDATA_CREATE_OFFSET UNITYSDK_OFFSET(0x1954AAE0)
+#define RPG_CLIENT_MONOPOLYRANDOMOPTIONCONTENTDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1954AB80)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MonopolyRandomOptionContentData_TypeDefinitionIndex = 61978;
+	inline static constexpr unsigned int MonopolyRandomOptionContentData_TypeDefinitionIndex = 63343;
 
 	class MonopolyRandomOptionContentData : public ::System::Object
 	{
 	public:
 		::System::Collections::Generic::List_1<::System::UInt32>* RollResultList; // 0x10
-		::System::UInt32 RandomOptionID; // 0x18
+		::System::UInt32 SelectOptionID; // 0x18
 		::System::UInt32 ExtraRollResult; // 0x1C
-		::System::UInt32 SelectOptionID; // 0x20
+		::System::UInt32 RandomOptionID; // 0x20
 
 		::System::Void _ctor()
 		{

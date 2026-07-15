@@ -4,7 +4,7 @@
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int MHYSDKC_VOXLogLevel_TypeDefinitionIndex = 43649;
+	inline static constexpr unsigned int MHYSDKC_VOXLogLevel_TypeDefinitionIndex = 44510;
 
 	class MHYSDKC_VOXLogLevel : public ::System::Object
 	{

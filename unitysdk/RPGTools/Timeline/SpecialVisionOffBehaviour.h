@@ -6,15 +6,14 @@
 
 namespace RPGTools::Timeline { class SpecialVisionOffClip; }
 
-#define RPGTOOLS_TIMELINE_SPECIALVISIONOFFBEHAVIOUR_GET_CLIP_OFFSET UNITYSDK_OFFSET(0xD056B10)
-#define RPGTOOLS_TIMELINE_SPECIALVISIONOFFBEHAVIOUR_ONBEHAVIOURPLAY_OFFSET UNITYSDK_OFFSET(0xD056B30)
-#define RPGTOOLS_TIMELINE_SPECIALVISIONOFFBEHAVIOUR_SET_CLIP_OFFSET UNITYSDK_OFFSET(0xD056B20)
-#define RPGTOOLS_TIMELINE_SPECIALVISIONOFFBEHAVIOUR__CTOR_OFFSET UNITYSDK_OFFSET(0xD056CE0)
-#define RPGTOOLS_TIMELINE_SPECIALVISIONOFFBEHAVIOUR___IFIXBASEPROXY_ONBEHAVIOURPLAY_OFFSET UNITYSDK_OFFSET(0xD056CF0)
+#define RPGTOOLS_TIMELINE_SPECIALVISIONOFFBEHAVIOUR_GET_CLIP_OFFSET UNITYSDK_OFFSET(0x199B77E0)
+#define RPGTOOLS_TIMELINE_SPECIALVISIONOFFBEHAVIOUR_ONBEHAVIOURPLAY_OFFSET UNITYSDK_OFFSET(0x199B7800)
+#define RPGTOOLS_TIMELINE_SPECIALVISIONOFFBEHAVIOUR_SET_CLIP_OFFSET UNITYSDK_OFFSET(0x199B77F0)
+#define RPGTOOLS_TIMELINE_SPECIALVISIONOFFBEHAVIOUR__CTOR_OFFSET UNITYSDK_OFFSET(0x199B79B0)
 
 namespace RPGTools::Timeline
 {
-	inline static constexpr unsigned int SpecialVisionOffBehaviour_TypeDefinitionIndex = 45593;
+	inline static constexpr unsigned int SpecialVisionOffBehaviour_TypeDefinitionIndex = 46527;
 
 	class SpecialVisionOffBehaviour : public ::UnityEngine::Playables::PlayableBehaviour
 	{
@@ -39,11 +38,6 @@ namespace RPGTools::Timeline
 		::System::Void OnBehaviourPlay(::UnityEngine::Playables::Playable a1, ::UnityEngine::Playables::FrameData a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::UnityEngine::Playables::Playable, ::UnityEngine::Playables::FrameData))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_SPECIALVISIONOFFBEHAVIOUR_ONBEHAVIOURPLAY_OFFSET))(this, a1, a2);
-		}
-
-		::System::Void __iFixBaseProxy_OnBehaviourPlay(::UnityEngine::Playables::Playable a1, ::UnityEngine::Playables::FrameData a2)
-		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Playables::Playable, ::UnityEngine::Playables::FrameData))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_SPECIALVISIONOFFBEHAVIOUR___IFIXBASEPROXY_ONBEHAVIOURPLAY_OFFSET))(this, a1, a2);
 		}
 	};
 }

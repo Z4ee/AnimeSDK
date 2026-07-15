@@ -4,15 +4,15 @@
 #include "unitysdk/RPG/Client/UIFloatingTextType.h"
 #include "unitysdk/System/Object.h"
 
-#define CLASS_1_FE6DD620A0017964__CTOR_OFFSET UNITYSDK_OFFSET(0xAFAC6E0)
+#define CLASS_1_FE6DD620A0017964__CTOR_OFFSET UNITYSDK_OFFSET(0x14276220)
 
-inline static constexpr unsigned int Class_1_FE6DD620A0017964_TypeDefinitionIndex = 68435;
+inline static constexpr unsigned int Class_1_FE6DD620A0017964_TypeDefinitionIndex = 69929;
 
 class Class_1_FE6DD620A0017964 : public ::System::Object
 {
 public:
-	::RPG::Client::TextID Field_1_0; // 0x10
-	::RPG::Client::UIFloatingTextType Field_1_1; // 0x20
+	::RPG::Client::UIFloatingTextType Field_1_0; // 0x10
+	::RPG::Client::TextID Field_1_1; // 0x18
 
 	::System::Void _ctor()
 	{

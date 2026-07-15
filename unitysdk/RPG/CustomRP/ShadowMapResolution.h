@@ -3,7 +3,7 @@
 
 namespace RPG::CustomRP
 {
-	inline static constexpr unsigned int ShadowMapResolution_TypeDefinitionIndex = 35211;
+	inline static constexpr unsigned int ShadowMapResolution_TypeDefinitionIndex = 35993;
 
 	enum class ShadowMapResolution : ::System::Int32
 	{

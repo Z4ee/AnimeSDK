@@ -6,19 +6,19 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_IDLELIVEGACHAAVATARTEXTROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x19843AC0)
-#define RPG_GAMECORE_IDLELIVEGACHAAVATARTEXTROW__CTOR_OFFSET UNITYSDK_OFFSET(0x19843C90)
+#define RPG_GAMECORE_IDLELIVEGACHAAVATARTEXTROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B6962D0)
+#define RPG_GAMECORE_IDLELIVEGACHAAVATARTEXTROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1B6964A0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int IdleLiveGachaAvatarTextRow_TypeDefinitionIndex = 11264;
+	inline static constexpr unsigned int IdleLiveGachaAvatarTextRow_TypeDefinitionIndex = 11364;
 
 	class IdleLiveGachaAvatarTextRow : public ::System::Object
 	{
 	public:
 		::System::String* VoiceID; // 0x10
-		::RPG::Client::TextID AvatarText; // 0x18
-		::System::UInt32 AvatarID; // 0x28
+		::System::UInt32 AvatarID; // 0x18
+		::RPG::Client::TextID AvatarText; // 0x20
 
 		::System::Void _ctor()
 		{

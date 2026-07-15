@@ -5,13 +5,13 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_ST_SIDE_REMOVEMODIFIERWHENRESET_METHOD_4_49C770D06E227EAD_OFFSET UNITYSDK_OFFSET(0x19C1B050)
-#define RPG_GAMECORE_ST_SIDE_REMOVEMODIFIERWHENRESET_METHOD_4_7800D811468E9107_OFFSET UNITYSDK_OFFSET(0x19C0D2F0)
-#define RPG_GAMECORE_ST_SIDE_REMOVEMODIFIERWHENRESET__CTOR_OFFSET UNITYSDK_OFFSET(0x19C0D2A0)
+#define RPG_GAMECORE_ST_SIDE_REMOVEMODIFIERWHENRESET_METHOD_4_25311FA9716BC34C_OFFSET UNITYSDK_OFFSET(0x1C2C4EF0)
+#define RPG_GAMECORE_ST_SIDE_REMOVEMODIFIERWHENRESET_METHOD_4_7800D811468E9107_OFFSET UNITYSDK_OFFSET(0x1C2C4F30)
+#define RPG_GAMECORE_ST_SIDE_REMOVEMODIFIERWHENRESET__CTOR_OFFSET UNITYSDK_OFFSET(0x1C2C4F20)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ST_Side_RemoveModifierWhenReset_TypeDefinitionIndex = 19021;
+	inline static constexpr unsigned int ST_Side_RemoveModifierWhenReset_TypeDefinitionIndex = 19372;
 
 	class ST_Side_RemoveModifierWhenReset : public ::RPG::GameCore::STTaskConfig
 	{
@@ -23,9 +23,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ST_SIDE_REMOVEMODIFIERWHENRESET__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_4_49C770D06E227EAD(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ST_Side_RemoveModifierWhenReset*& a2)
+		static ::System::Void Method_4_25311FA9716BC34C(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ST_Side_RemoveModifierWhenReset*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ST_Side_RemoveModifierWhenReset*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ST_SIDE_REMOVEMODIFIERWHENRESET_METHOD_4_49C770D06E227EAD_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ST_Side_RemoveModifierWhenReset*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ST_SIDE_REMOVEMODIFIERWHENRESET_METHOD_4_25311FA9716BC34C_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_4_7800D811468E9107(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ST_Side_RemoveModifierWhenReset* a2)

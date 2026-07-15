@@ -5,13 +5,13 @@
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace TMPro { class TMP_Dropdown_OptionData; }
 
-#define TMPRO_TMP_DROPDOWN_OPTIONDATALIST_GET_OPTIONS_OFFSET UNITYSDK_OFFSET(0x1B1A5050)
-#define TMPRO_TMP_DROPDOWN_OPTIONDATALIST_SET_OPTIONS_OFFSET UNITYSDK_OFFSET(0x1B1A5060)
-#define TMPRO_TMP_DROPDOWN_OPTIONDATALIST__CTOR_OFFSET UNITYSDK_OFFSET(0x1B1A1AF0)
+#define TMPRO_TMP_DROPDOWN_OPTIONDATALIST_GET_OPTIONS_OFFSET UNITYSDK_OFFSET(0x1719E630)
+#define TMPRO_TMP_DROPDOWN_OPTIONDATALIST_SET_OPTIONS_OFFSET UNITYSDK_OFFSET(0x1719E640)
+#define TMPRO_TMP_DROPDOWN_OPTIONDATALIST__CTOR_OFFSET UNITYSDK_OFFSET(0x1719AC80)
 
 namespace TMPro
 {
-	inline static constexpr unsigned int TMP_Dropdown_OptionDataList_TypeDefinitionIndex = 40945;
+	inline static constexpr unsigned int TMP_Dropdown_OptionDataList_TypeDefinitionIndex = 41760;
 
 	class TMP_Dropdown_OptionDataList : public ::System::Object
 	{

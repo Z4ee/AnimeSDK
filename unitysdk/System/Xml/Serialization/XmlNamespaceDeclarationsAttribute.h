@@ -4,7 +4,7 @@
 
 namespace System::Xml::Serialization
 {
-	inline static constexpr unsigned int XmlNamespaceDeclarationsAttribute_TypeDefinitionIndex = 2006;
+	inline static constexpr unsigned int XmlNamespaceDeclarationsAttribute_TypeDefinitionIndex = 2010;
 
 	class XmlNamespaceDeclarationsAttribute : public ::System::Attribute
 	{

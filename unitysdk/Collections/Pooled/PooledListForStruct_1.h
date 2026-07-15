@@ -22,7 +22,7 @@ namespace System::Collections::ObjectModel { template <typename T> class ReadOnl
 
 namespace Collections::Pooled
 {
-	inline static constexpr unsigned int PooledListForStruct_1_TypeDefinitionIndex = 5091;
+	inline static constexpr unsigned int PooledListForStruct_1_TypeDefinitionIndex = 5096;
 
 	template <typename T>
 	class PooledListForStruct_1 : public ::System::Object

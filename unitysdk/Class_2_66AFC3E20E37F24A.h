@@ -1,16 +1,16 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Class_1_43BD383C98B4C0C5_16.h"
+#include "unitysdk/Class_1_43BD383C98B4C0C5_17.h"
 
 class Class_3_F65294BF89CA0784;
 namespace RPG::GameCore { class DiceCombatAIEffectEvaluatorConfig_DicePointInSpecificRange; }
 
-#define CLASS_2_66AFC3E20E37F24A_METHOD_2_861970C5F2C21AB2_OFFSET UNITYSDK_OFFSET(0x18A39E80)
-#define CLASS_2_66AFC3E20E37F24A__CTOR_OFFSET UNITYSDK_OFFSET(0x18A39E70)
+#define CLASS_2_66AFC3E20E37F24A_METHOD_2_861970C5F2C21AB2_OFFSET UNITYSDK_OFFSET(0x198C3A70)
+#define CLASS_2_66AFC3E20E37F24A__CTOR_OFFSET UNITYSDK_OFFSET(0x198C3A60)
 
-inline static constexpr unsigned int Class_2_66AFC3E20E37F24A_TypeDefinitionIndex = 34288;
+inline static constexpr unsigned int Class_2_66AFC3E20E37F24A_TypeDefinitionIndex = 34670;
 
-class Class_2_66AFC3E20E37F24A : public ::Class_1_43BD383C98B4C0C5_16
+class Class_2_66AFC3E20E37F24A : public ::Class_1_43BD383C98B4C0C5_17
 {
 public:
 	::RPG::GameCore::DiceCombatAIEffectEvaluatorConfig_DicePointInSpecificRange* Field_2_0; // 0x10

@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SkillDamageRange_TypeDefinitionIndex = 10043;
+	inline static constexpr unsigned int SkillDamageRange_TypeDefinitionIndex = 10058;
 
 	enum class SkillDamageRange : ::System::Int32
 	{

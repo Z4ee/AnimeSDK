@@ -8,12 +8,12 @@ namespace System { class Action; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_CLIENT_GRIDFIGHTGAMEREF___C__DISPLAYCLASS108_0__CTOR_OFFSET UNITYSDK_OFFSET(0xBB68BB0)
-#define RPG_CLIENT_GRIDFIGHTGAMEREF___C__DISPLAYCLASS108_0__REQINTERECTDATA_B__0_OFFSET UNITYSDK_OFFSET(0xBB69B50)
+#define RPG_CLIENT_GRIDFIGHTGAMEREF___C__DISPLAYCLASS108_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1ABE90C0)
+#define RPG_CLIENT_GRIDFIGHTGAMEREF___C__DISPLAYCLASS108_0__REQINTERECTDATA_B__0_OFFSET UNITYSDK_OFFSET(0x1ABEA060)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GridFightGameRef___c__DisplayClass108_0_TypeDefinitionIndex = 60490;
+	inline static constexpr unsigned int GridFightGameRef___c__DisplayClass108_0_TypeDefinitionIndex = 61781;
 
 	class GridFightGameRef___c__DisplayClass108_0 : public ::System::Object
 	{

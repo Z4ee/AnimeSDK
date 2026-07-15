@@ -10,13 +10,13 @@ namespace RPG::GameCore { class DynamicString; }
 namespace RPG::GameCore { class TargetEvaluator; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_ADVENTURECAMERALOOKATSIMPLE_METHOD_3_0C1DB8355CB0B338_OFFSET UNITYSDK_OFFSET(0x1944A540)
-#define RPG_GAMECORE_ADVENTURECAMERALOOKATSIMPLE_METHOD_3_14C1AF16396BD9B4_OFFSET UNITYSDK_OFFSET(0x1944A4B0)
-#define RPG_GAMECORE_ADVENTURECAMERALOOKATSIMPLE__CTOR_OFFSET UNITYSDK_OFFSET(0x1944A510)
+#define RPG_GAMECORE_ADVENTURECAMERALOOKATSIMPLE_METHOD_3_0C1DB8355CB0B338_OFFSET UNITYSDK_OFFSET(0x1AE58F30)
+#define RPG_GAMECORE_ADVENTURECAMERALOOKATSIMPLE_METHOD_3_48A3D98A81601FEF_OFFSET UNITYSDK_OFFSET(0x1AE58EE0)
+#define RPG_GAMECORE_ADVENTURECAMERALOOKATSIMPLE__CTOR_OFFSET UNITYSDK_OFFSET(0x1AE58F20)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AdventureCameraLookAtSimple_TypeDefinitionIndex = 19368;
+	inline static constexpr unsigned int AdventureCameraLookAtSimple_TypeDefinitionIndex = 19724;
 
 	class AdventureCameraLookAtSimple : public ::RPG::GameCore::TaskConfig
 	{
@@ -49,9 +49,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVENTURECAMERALOOKATSIMPLE__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_14C1AF16396BD9B4(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AdventureCameraLookAtSimple*& a2)
+		static ::System::Void Method_3_48A3D98A81601FEF(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AdventureCameraLookAtSimple*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::AdventureCameraLookAtSimple*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVENTURECAMERALOOKATSIMPLE_METHOD_3_14C1AF16396BD9B4_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::AdventureCameraLookAtSimple*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVENTURECAMERALOOKATSIMPLE_METHOD_3_48A3D98A81601FEF_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_0C1DB8355CB0B338(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AdventureCameraLookAtSimple* a2)

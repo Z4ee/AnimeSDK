@@ -7,7 +7,7 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int IGridFightStageNode_TypeDefinitionIndex = 61011;
+	inline static constexpr unsigned int IGridFightStageNode_TypeDefinitionIndex = 62328;
 
 	class IGridFightStageNode
 	{

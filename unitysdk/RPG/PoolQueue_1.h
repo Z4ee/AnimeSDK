@@ -4,7 +4,7 @@
 
 namespace RPG
 {
-	inline static constexpr unsigned int PoolQueue_1_TypeDefinitionIndex = 5633;
+	inline static constexpr unsigned int PoolQueue_1_TypeDefinitionIndex = 5638;
 
 	template <typename T>
 	class PoolQueue_1 : public ::System::Collections::Generic::Queue_1<T>

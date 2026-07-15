@@ -7,29 +7,29 @@ namespace RPG::Client { class MatchThreePropItemPanel; }
 namespace System { template <typename T1, typename T2, typename T3> class Func_3; }
 namespace System { template <typename T> class Comparison_1; }
 
-#define RPG_CLIENT_MATCHTHREEPROPPANEL___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xBF90680)
-#define RPG_CLIENT_MATCHTHREEPROPPANEL___C__CTOR_OFFSET UNITYSDK_OFFSET(0xBF906C0)
-#define RPG_CLIENT_MATCHTHREEPROPPANEL___C__SETUPVIEW_B__24_0_OFFSET UNITYSDK_OFFSET(0xBF906F0)
-#define RPG_CLIENT_MATCHTHREEPROPPANEL___C__SETUPVIEW_B__24_1_OFFSET UNITYSDK_OFFSET(0xBF906D0)
+#define RPG_CLIENT_MATCHTHREEPROPPANEL___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1AB76210)
+#define RPG_CLIENT_MATCHTHREEPROPPANEL___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1AB76250)
+#define RPG_CLIENT_MATCHTHREEPROPPANEL___C__SETUPVIEW_B__24_0_OFFSET UNITYSDK_OFFSET(0x1AB76280)
+#define RPG_CLIENT_MATCHTHREEPROPPANEL___C__SETUPVIEW_B__24_1_OFFSET UNITYSDK_OFFSET(0x1AB76260)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MatchThreePropPanel___c_TypeDefinitionIndex = 61669;
+	inline static constexpr unsigned int MatchThreePropPanel___c_TypeDefinitionIndex = 63031;
 
 	class MatchThreePropPanel___c : public ::System::Object
 	{
 	public:
-		static ::System::Func_3<::RPG::Client::MatchThreePropItemPanel*, ::RPG::Client::MatchThreeGameProp*, ::System::Boolean>** StaticGet___9__24_1()
-		{
-			return (::System::Func_3<::RPG::Client::MatchThreePropItemPanel*, ::RPG::Client::MatchThreeGameProp*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(MatchThreePropPanel___c_TypeDefinitionIndex)->GetStaticField(0x559D0);
-		}
 		static ::RPG::Client::MatchThreePropPanel___c** StaticGet___9()
 		{
-			return (::RPG::Client::MatchThreePropPanel___c**)Il2CppClass::FromTypeDefinitionIndex(MatchThreePropPanel___c_TypeDefinitionIndex)->GetStaticField(0x559D8);
+			return (::RPG::Client::MatchThreePropPanel___c**)Il2CppClass::FromTypeDefinitionIndex(MatchThreePropPanel___c_TypeDefinitionIndex)->GetStaticField(0x47470);
+		}
+		static ::System::Func_3<::RPG::Client::MatchThreePropItemPanel*, ::RPG::Client::MatchThreeGameProp*, ::System::Boolean>** StaticGet___9__24_1()
+		{
+			return (::System::Func_3<::RPG::Client::MatchThreePropItemPanel*, ::RPG::Client::MatchThreeGameProp*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(MatchThreePropPanel___c_TypeDefinitionIndex)->GetStaticField(0x47478);
 		}
 		static ::System::Comparison_1<::RPG::Client::MatchThreePropItemPanel*>** StaticGet___9__24_0()
 		{
-			return (::System::Comparison_1<::RPG::Client::MatchThreePropItemPanel*>**)Il2CppClass::FromTypeDefinitionIndex(MatchThreePropPanel___c_TypeDefinitionIndex)->GetStaticField(0x559E0);
+			return (::System::Comparison_1<::RPG::Client::MatchThreePropItemPanel*>**)Il2CppClass::FromTypeDefinitionIndex(MatchThreePropPanel___c_TypeDefinitionIndex)->GetStaticField(0x47480);
 		}
 
 		static ::System::Void _cctor()

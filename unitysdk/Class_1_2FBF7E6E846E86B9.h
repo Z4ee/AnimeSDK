@@ -1,0 +1,108 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Nullable_1.h"
+#include "unitysdk/System/Object.h"
+
+namespace RPG::Client { class SimulateSpeedController; }
+namespace RPG::Client { class SystemOpenModule; }
+namespace RPG::Client::Promises { class IPromise; }
+
+#define CLASS_1_2FBF7E6E846E86B9_METHOD_1_2FA7ECBD0BED6B0E_OFFSET UNITYSDK_OFFSET(0x174DBC80)
+#define CLASS_1_2FBF7E6E846E86B9_METHOD_1_413821FBC79AEB38_OFFSET UNITYSDK_OFFSET(0x174DBD50)
+#define CLASS_1_2FBF7E6E846E86B9_METHOD_1_4D2A473556700CDC_OFFSET UNITYSDK_OFFSET(0x174DB8B0)
+#define CLASS_1_2FBF7E6E846E86B9_METHOD_1_7623AF24CA6043B1_OFFSET UNITYSDK_OFFSET(0x174DBC20)
+#define CLASS_1_2FBF7E6E846E86B9_METHOD_1_9F397E1047C0EF24_OFFSET UNITYSDK_OFFSET(0x174DB820)
+#define CLASS_1_2FBF7E6E846E86B9_METHOD_1_A699D7D2117E3BD9_OFFSET UNITYSDK_OFFSET(0x174DB7A0)
+#define CLASS_1_2FBF7E6E846E86B9_METHOD_1_B128C90853E23A16_OFFSET UNITYSDK_OFFSET(0x174DBDE0)
+#define CLASS_1_2FBF7E6E846E86B9_METHOD_1_BDDBE2FD9A9FFA54_OFFSET UNITYSDK_OFFSET(0x174DC350)
+#define CLASS_1_2FBF7E6E846E86B9_METHOD_1_C8E2469222842786_OFFSET UNITYSDK_OFFSET(0x174DC170)
+#define CLASS_1_2FBF7E6E846E86B9_METHOD_1_D64FD9A228A1C4E0_OFFSET UNITYSDK_OFFSET(0x174DC060)
+#define CLASS_1_2FBF7E6E846E86B9_METHOD_1_EA6588379A7E097B_OFFSET UNITYSDK_OFFSET(0x174DBA60)
+#define CLASS_1_2FBF7E6E846E86B9_METHOD_1_EF9EFC721D955BF4_OFFSET UNITYSDK_OFFSET(0x174DC0F0)
+#define CLASS_1_2FBF7E6E846E86B9_METHOD_1_F162BDE3B419CFCF_OFFSET UNITYSDK_OFFSET(0x174DB9D0)
+#define CLASS_1_2FBF7E6E846E86B9_METHOD_1_FDC65909F2EF6A6A_OFFSET UNITYSDK_OFFSET(0x174DBE80)
+#define CLASS_1_2FBF7E6E846E86B9__CTOR_OFFSET UNITYSDK_OFFSET(0x174DB810)
+
+inline static constexpr unsigned int Class_1_2FBF7E6E846E86B9_TypeDefinitionIndex = 68761;
+
+class Class_1_2FBF7E6E846E86B9 : public ::System::Object
+{
+public:
+	// static const ::System::Int32 Field_1_0 = 0x4A39; // 0x0
+	// static const ::System::Single Field_1_1; // 0x0
+
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_2FBF7E6E846E86B9__CTOR_OFFSET))(this);
+	}
+
+	static ::Class_1_2FBF7E6E846E86B9* Method_1_A699D7D2117E3BD9(::System::Boolean a1)
+	{
+		return ((::Class_1_2FBF7E6E846E86B9*(*)(::System::Boolean))((::PBYTE)hIl2Cpp + CLASS_1_2FBF7E6E846E86B9_METHOD_1_A699D7D2117E3BD9_OFFSET))(a1);
+	}
+
+	::System::Void Method_1_4D2A473556700CDC()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_2FBF7E6E846E86B9_METHOD_1_4D2A473556700CDC_OFFSET))(this);
+	}
+
+	::RPG::Client::Promises::IPromise* Method_1_2FA7ECBD0BED6B0E()
+	{
+		return ((::RPG::Client::Promises::IPromise*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_2FBF7E6E846E86B9_METHOD_1_2FA7ECBD0BED6B0E_OFFSET))(this);
+	}
+
+	::System::Boolean Method_1_EA6588379A7E097B(::System::Nullable_1<::System::Boolean> a1)
+	{
+		return ((::System::Boolean(*)(::PVOID, ::System::Nullable_1<::System::Boolean>))((::PBYTE)hIl2Cpp + CLASS_1_2FBF7E6E846E86B9_METHOD_1_EA6588379A7E097B_OFFSET))(this, a1);
+	}
+
+	::System::Boolean Method_1_F162BDE3B419CFCF()
+	{
+		return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_2FBF7E6E846E86B9_METHOD_1_F162BDE3B419CFCF_OFFSET))(this);
+	}
+
+	::System::Void Method_1_9F397E1047C0EF24(::System::Boolean a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + CLASS_1_2FBF7E6E846E86B9_METHOD_1_9F397E1047C0EF24_OFFSET))(this, a1);
+	}
+
+	::System::Void Method_1_7623AF24CA6043B1(::System::Boolean a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + CLASS_1_2FBF7E6E846E86B9_METHOD_1_7623AF24CA6043B1_OFFSET))(this, a1);
+	}
+
+	::System::Void Method_1_FDC65909F2EF6A6A(::System::Nullable_1<::System::Boolean> a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::Nullable_1<::System::Boolean>))((::PBYTE)hIl2Cpp + CLASS_1_2FBF7E6E846E86B9_METHOD_1_FDC65909F2EF6A6A_OFFSET))(this, a1);
+	}
+
+	::System::Void Method_1_C8E2469222842786()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_2FBF7E6E846E86B9_METHOD_1_C8E2469222842786_OFFSET))(this);
+	}
+
+	::System::Boolean Method_1_B128C90853E23A16()
+	{
+		return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_2FBF7E6E846E86B9_METHOD_1_B128C90853E23A16_OFFSET))(this);
+	}
+
+	::System::Void Method_1_BDDBE2FD9A9FFA54(::System::Boolean a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + CLASS_1_2FBF7E6E846E86B9_METHOD_1_BDDBE2FD9A9FFA54_OFFSET))(this, a1);
+	}
+
+	::System::Single Method_1_D64FD9A228A1C4E0()
+	{
+		return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_2FBF7E6E846E86B9_METHOD_1_D64FD9A228A1C4E0_OFFSET))(this);
+	}
+
+	::RPG::Client::SystemOpenModule* Method_1_413821FBC79AEB38()
+	{
+		return ((::RPG::Client::SystemOpenModule*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_2FBF7E6E846E86B9_METHOD_1_413821FBC79AEB38_OFFSET))(this);
+	}
+
+	::RPG::Client::SimulateSpeedController* Method_1_EF9EFC721D955BF4()
+	{
+		return ((::RPG::Client::SimulateSpeedController*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_2FBF7E6E846E86B9_METHOD_1_EF9EFC721D955BF4_OFFSET))(this);
+	}
+};

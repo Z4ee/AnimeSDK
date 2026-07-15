@@ -4,13 +4,13 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_STOPSERIALBELLS_METHOD_3_07CFE74849AB282D_OFFSET UNITYSDK_OFFSET(0x19CC0E50)
-#define RPG_GAMECORE_STOPSERIALBELLS_METHOD_3_89C0CBDC9EBF8AB9_OFFSET UNITYSDK_OFFSET(0x19CC0D40)
-#define RPG_GAMECORE_STOPSERIALBELLS__CTOR_OFFSET UNITYSDK_OFFSET(0x19CC0E20)
+#define RPG_GAMECORE_STOPSERIALBELLS_METHOD_3_07CFE74849AB282D_OFFSET UNITYSDK_OFFSET(0x1B0C6470)
+#define RPG_GAMECORE_STOPSERIALBELLS_METHOD_3_DD6ADC8F102473F0_OFFSET UNITYSDK_OFFSET(0x1B0C63A0)
+#define RPG_GAMECORE_STOPSERIALBELLS__CTOR_OFFSET UNITYSDK_OFFSET(0x1B0C6460)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int StopSerialBells_TypeDefinitionIndex = 19409;
+	inline static constexpr unsigned int StopSerialBells_TypeDefinitionIndex = 19767;
 
 	class StopSerialBells : public ::RPG::GameCore::TaskConfig
 	{
@@ -20,9 +20,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_STOPSERIALBELLS__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_89C0CBDC9EBF8AB9(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::StopSerialBells*& a2)
+		static ::System::Void Method_3_DD6ADC8F102473F0(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::StopSerialBells*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::StopSerialBells*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_STOPSERIALBELLS_METHOD_3_89C0CBDC9EBF8AB9_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::StopSerialBells*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_STOPSERIALBELLS_METHOD_3_DD6ADC8F102473F0_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_07CFE74849AB282D(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::StopSerialBells* a2)

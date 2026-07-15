@@ -4,7 +4,7 @@
 
 namespace System::Xml::Schema
 {
-	inline static constexpr unsigned int XmlSchemaGroupRef_TypeDefinitionIndex = 2191;
+	inline static constexpr unsigned int XmlSchemaGroupRef_TypeDefinitionIndex = 2195;
 
 	class XmlSchemaGroupRef : public ::System::Xml::Schema::XmlSchemaParticle
 	{

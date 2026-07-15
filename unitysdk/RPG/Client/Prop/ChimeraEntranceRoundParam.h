@@ -4,11 +4,11 @@
 
 namespace RPG::Client::Prop { class ChimeraEntranceRoundConfig; }
 
-#define RPG_CLIENT_PROP_CHIMERAENTRANCEROUNDPARAM__CTOR_OFFSET UNITYSDK_OFFSET(0xC51FF70)
+#define RPG_CLIENT_PROP_CHIMERAENTRANCEROUNDPARAM__CTOR_OFFSET UNITYSDK_OFFSET(0x18FF1A60)
 
 namespace RPG::Client::Prop
 {
-	inline static constexpr unsigned int ChimeraEntranceRoundParam_TypeDefinitionIndex = 73003;
+	inline static constexpr unsigned int ChimeraEntranceRoundParam_TypeDefinitionIndex = 74528;
 
 	class ChimeraEntranceRoundParam : public ::System::Object
 	{

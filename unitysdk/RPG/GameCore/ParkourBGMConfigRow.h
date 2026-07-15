@@ -5,12 +5,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_PARKOURBGMCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x199E64F0)
-#define RPG_GAMECORE_PARKOURBGMCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x199E6670)
+#define RPG_GAMECORE_PARKOURBGMCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1BB0E5B0)
+#define RPG_GAMECORE_PARKOURBGMCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1BB0E730)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ParkourBGMConfigRow_TypeDefinitionIndex = 11544;
+	inline static constexpr unsigned int ParkourBGMConfigRow_TypeDefinitionIndex = 11644;
 
 	class ParkourBGMConfigRow : public ::System::Object
 	{

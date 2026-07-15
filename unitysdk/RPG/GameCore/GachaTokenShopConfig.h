@@ -4,12 +4,12 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_GACHATOKENSHOPCONFIG_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x197B0B50)
-#define RPG_GAMECORE_GACHATOKENSHOPCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x197B0C40)
+#define RPG_GAMECORE_GACHATOKENSHOPCONFIG_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B989660)
+#define RPG_GAMECORE_GACHATOKENSHOPCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1B989750)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int GachaTokenShopConfig_TypeDefinitionIndex = 12716;
+	inline static constexpr unsigned int GachaTokenShopConfig_TypeDefinitionIndex = 12853;
 
 	class GachaTokenShopConfig : public ::System::Object
 	{

@@ -5,7 +5,7 @@ namespace Entitas { template <typename T> class IMatcher_1; }
 
 namespace RPG::Client::LittleGame
 {
-	inline static constexpr unsigned int ICurveBridgeContext_1_TypeDefinitionIndex = 38974;
+	inline static constexpr unsigned int ICurveBridgeContext_1_TypeDefinitionIndex = 39783;
 
 	template <typename TEntity>
 	class ICurveBridgeContext_1

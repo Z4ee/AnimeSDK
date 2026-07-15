@@ -6,20 +6,20 @@ namespace System { class Action; }
 namespace UnityEngine { class RenderTexture; }
 namespace UnityEngine::UI { class Image; }
 
-#define RPG_CLIENT_PHOTOGRAPHUTILS___C__DISPLAYCLASS120_0__ASYNCADDIMAGEWATERMARK_B__0_OFFSET UNITYSDK_OFFSET(0xC3A3320)
-#define RPG_CLIENT_PHOTOGRAPHUTILS___C__DISPLAYCLASS120_0__ASYNCADDIMAGEWATERMARK_B__1_OFFSET UNITYSDK_OFFSET(0xC3A3380)
-#define RPG_CLIENT_PHOTOGRAPHUTILS___C__DISPLAYCLASS120_0__CTOR_OFFSET UNITYSDK_OFFSET(0xC39EFC0)
+#define RPG_CLIENT_PHOTOGRAPHUTILS___C__DISPLAYCLASS120_0__ASYNCADDIMAGEWATERMARK_B__0_OFFSET UNITYSDK_OFFSET(0x19EB25B0)
+#define RPG_CLIENT_PHOTOGRAPHUTILS___C__DISPLAYCLASS120_0__ASYNCADDIMAGEWATERMARK_B__1_OFFSET UNITYSDK_OFFSET(0x19EB2610)
+#define RPG_CLIENT_PHOTOGRAPHUTILS___C__DISPLAYCLASS120_0__CTOR_OFFSET UNITYSDK_OFFSET(0x19EADF10)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int PhotoGraphUtils___c__DisplayClass120_0_TypeDefinitionIndex = 64935;
+	inline static constexpr unsigned int PhotoGraphUtils___c__DisplayClass120_0_TypeDefinitionIndex = 66337;
 
 	class PhotoGraphUtils___c__DisplayClass120_0 : public ::System::Object
 	{
 	public:
-		::UnityEngine::RenderTexture* rt; // 0x10
+		::System::Action* finishCallback; // 0x10
 		::UnityEngine::UI::Image* img; // 0x18
-		::System::Action* finishCallback; // 0x20
+		::UnityEngine::RenderTexture* rt; // 0x20
 
 		::System::Void _ctor()
 		{

@@ -3,7 +3,7 @@
 
 namespace RPG::Client::LittleGame::FiveDim
 {
-	inline static constexpr unsigned int PlayerMuteInputReason_TypeDefinitionIndex = 40012;
+	inline static constexpr unsigned int PlayerMuteInputReason_TypeDefinitionIndex = 40825;
 
 	enum class PlayerMuteInputReason : ::System::Int32
 	{

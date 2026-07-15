@@ -9,13 +9,12 @@
 namespace RPG::Client { class EnvWindReceiverBehavior; }
 namespace System { class String; }
 
-#define RPG_CLIENT_ENVWINDRECEIVERMONOPLUGIN_GETTICKLODTEMPLATENAME_OFFSET UNITYSDK_OFFSET(0xB917F90)
-#define RPG_CLIENT_ENVWINDRECEIVERMONOPLUGIN__CTOR_OFFSET UNITYSDK_OFFSET(0xB917FE0)
-#define RPG_CLIENT_ENVWINDRECEIVERMONOPLUGIN___IFIXBASEPROXY_GETTICKLODTEMPLATENAME_OFFSET UNITYSDK_OFFSET(0xB918010)
+#define RPG_CLIENT_ENVWINDRECEIVERMONOPLUGIN_GETTICKLODTEMPLATENAME_OFFSET UNITYSDK_OFFSET(0x18D998E0)
+#define RPG_CLIENT_ENVWINDRECEIVERMONOPLUGIN__CTOR_OFFSET UNITYSDK_OFFSET(0x18D99930)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int EnvWindReceiverMonoPlugin_TypeDefinitionIndex = 66422;
+	inline static constexpr unsigned int EnvWindReceiverMonoPlugin_TypeDefinitionIndex = 67858;
 
 	class EnvWindReceiverMonoPlugin : public ::RPG::Client::TAMonoPlugin_1<::RPG::Client::EnvWindReceiverBehavior*>
 	{
@@ -35,11 +34,6 @@ namespace RPG::Client
 		::System::String* GetTickLodTemplateName()
 		{
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ENVWINDRECEIVERMONOPLUGIN_GETTICKLODTEMPLATENAME_OFFSET))(this);
-		}
-
-		::System::String* __iFixBaseProxy_GetTickLodTemplateName()
-		{
-			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ENVWINDRECEIVERMONOPLUGIN___IFIXBASEPROXY_GETTICKLODTEMPLATENAME_OFFSET))(this);
 		}
 	};
 }

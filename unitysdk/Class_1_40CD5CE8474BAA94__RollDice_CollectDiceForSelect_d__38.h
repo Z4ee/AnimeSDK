@@ -8,28 +8,28 @@ class Class_1_40CD5CE8474BAA94;
 class Class_1_9C8BB23B0435A836;
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_1_40CD5CE8474BAA94__ROLLDICE_COLLECTDICEFORSELECT_D__38_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x13A3BF00)
-#define CLASS_1_40CD5CE8474BAA94__ROLLDICE_COLLECTDICEFORSELECT_D__38_SYSTEM_COLLECTIONS_GENERIC_IENUMERATOR_SYSTEM_OBJECT__GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x13A3CC50)
-#define CLASS_1_40CD5CE8474BAA94__ROLLDICE_COLLECTDICEFORSELECT_D__38_SYSTEM_COLLECTIONS_IENUMERATOR_GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x13A3CCB0)
-#define CLASS_1_40CD5CE8474BAA94__ROLLDICE_COLLECTDICEFORSELECT_D__38_SYSTEM_COLLECTIONS_IENUMERATOR_RESET_OFFSET UNITYSDK_OFFSET(0x13A3CC60)
-#define CLASS_1_40CD5CE8474BAA94__ROLLDICE_COLLECTDICEFORSELECT_D__38_SYSTEM_IDISPOSABLE_DISPOSE_OFFSET UNITYSDK_OFFSET(0x13A3BEE0)
-#define CLASS_1_40CD5CE8474BAA94__ROLLDICE_COLLECTDICEFORSELECT_D__38__CTOR_OFFSET UNITYSDK_OFFSET(0x13A33BE0)
+#define CLASS_1_40CD5CE8474BAA94__ROLLDICE_COLLECTDICEFORSELECT_D__38_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x16523740)
+#define CLASS_1_40CD5CE8474BAA94__ROLLDICE_COLLECTDICEFORSELECT_D__38_SYSTEM_COLLECTIONS_GENERIC_IENUMERATOR_SYSTEM_OBJECT__GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x16524490)
+#define CLASS_1_40CD5CE8474BAA94__ROLLDICE_COLLECTDICEFORSELECT_D__38_SYSTEM_COLLECTIONS_IENUMERATOR_GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x165244F0)
+#define CLASS_1_40CD5CE8474BAA94__ROLLDICE_COLLECTDICEFORSELECT_D__38_SYSTEM_COLLECTIONS_IENUMERATOR_RESET_OFFSET UNITYSDK_OFFSET(0x165244A0)
+#define CLASS_1_40CD5CE8474BAA94__ROLLDICE_COLLECTDICEFORSELECT_D__38_SYSTEM_IDISPOSABLE_DISPOSE_OFFSET UNITYSDK_OFFSET(0x16523720)
+#define CLASS_1_40CD5CE8474BAA94__ROLLDICE_COLLECTDICEFORSELECT_D__38__CTOR_OFFSET UNITYSDK_OFFSET(0x1651B480)
 
-inline static constexpr unsigned int Class_1_40CD5CE8474BAA94__RollDice_CollectDiceForSelect_d__38_TypeDefinitionIndex = 56382;
+inline static constexpr unsigned int Class_1_40CD5CE8474BAA94__RollDice_CollectDiceForSelect_d__38_TypeDefinitionIndex = 57621;
 
 class Class_1_40CD5CE8474BAA94__RollDice_CollectDiceForSelect_d__38 : public ::System::Object
 {
 public:
-	::System::Collections::Generic::List_1<::UnityEngine::Vector3>* _targetPositions_5__5; // 0x10
-	::System::Collections::Generic::List_1<::UnityEngine::Vector3>* _originPositions_5__3; // 0x18
-	::Class_1_40CD5CE8474BAA94* __4__this; // 0x20
-	::System::Collections::Generic::List_1<::UnityEngine::Quaternion>* _originRotations_5__4; // 0x28
-	::System::Collections::Generic::List_1<::UnityEngine::Quaternion>* _targetRotations_5__6; // 0x30
-	::System::Collections::Generic::List_1<::Class_1_9C8BB23B0435A836*>* _diceToCollect_5__2; // 0x38
-	::System::Object* __2__current; // 0x40
+	::System::Object* __2__current; // 0x10
+	::System::Collections::Generic::List_1<::UnityEngine::Quaternion>* _originRotations_5__4; // 0x18
+	::System::Collections::Generic::List_1<::UnityEngine::Vector3>* _originPositions_5__3; // 0x20
+	::System::Collections::Generic::List_1<::UnityEngine::Vector3>* _targetPositions_5__5; // 0x28
+	::System::Collections::Generic::List_1<::Class_1_9C8BB23B0435A836*>* _diceToCollect_5__2; // 0x30
+	::Class_1_40CD5CE8474BAA94* __4__this; // 0x38
+	::System::Collections::Generic::List_1<::UnityEngine::Quaternion>* _targetRotations_5__6; // 0x40
 	::System::Single _ratio_5__7; // 0x48
-	::System::Int32 __1__state; // 0x4C
-	::System::Boolean forceRefresh; // 0x50
+	::System::Boolean forceRefresh; // 0x4C
+	::System::Int32 __1__state; // 0x50
 
 	::System::Void _ctor(::System::Int32 a1)
 	{

@@ -5,12 +5,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class ChenLingFesPosition; }
 
-#define RPG_GAMECORE_CHENLINGFESREGIONITEMCONFIG_METHOD_2_010010416D285032_OFFSET UNITYSDK_OFFSET(0x1962C590)
-#define RPG_GAMECORE_CHENLINGFESREGIONITEMCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1962C6E0)
+#define RPG_GAMECORE_CHENLINGFESREGIONITEMCONFIG_METHOD_2_010010416D285032_OFFSET UNITYSDK_OFFSET(0x1C386A70)
+#define RPG_GAMECORE_CHENLINGFESREGIONITEMCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1C386BC0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ChenLingFesRegionItemConfig_TypeDefinitionIndex = 17537;
+	inline static constexpr unsigned int ChenLingFesRegionItemConfig_TypeDefinitionIndex = 17710;
 
 	class ChenLingFesRegionItemConfig : public ::RPG::GameCore::JsonConfig
 	{

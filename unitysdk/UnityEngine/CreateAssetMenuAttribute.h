@@ -4,20 +4,20 @@
 
 namespace System { class String; }
 
-#define UNITYENGINE_CREATEASSETMENUATTRIBUTE_SET_FILENAME_OFFSET UNITYSDK_OFFSET(0x1B286C00)
-#define UNITYENGINE_CREATEASSETMENUATTRIBUTE_SET_MENUNAME_OFFSET UNITYSDK_OFFSET(0x1B286BF0)
-#define UNITYENGINE_CREATEASSETMENUATTRIBUTE_SET_ORDER_OFFSET UNITYSDK_OFFSET(0x1B286C10)
-#define UNITYENGINE_CREATEASSETMENUATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1B286C20)
+#define UNITYENGINE_CREATEASSETMENUATTRIBUTE_SET_FILENAME_OFFSET UNITYSDK_OFFSET(0x1C16AB00)
+#define UNITYENGINE_CREATEASSETMENUATTRIBUTE_SET_MENUNAME_OFFSET UNITYSDK_OFFSET(0x1C16AAF0)
+#define UNITYENGINE_CREATEASSETMENUATTRIBUTE_SET_ORDER_OFFSET UNITYSDK_OFFSET(0x1C16AB10)
+#define UNITYENGINE_CREATEASSETMENUATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1C16AB20)
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int CreateAssetMenuAttribute_TypeDefinitionIndex = 4287;
+	inline static constexpr unsigned int CreateAssetMenuAttribute_TypeDefinitionIndex = 4292;
 
 	class CreateAssetMenuAttribute : public ::System::Attribute
 	{
 	public:
-		::System::String* _fileName_k__BackingField; // 0x10
-		::System::String* _menuName_k__BackingField; // 0x18
+		::System::String* _menuName_k__BackingField; // 0x10
+		::System::String* _fileName_k__BackingField; // 0x18
 		::System::Int32 _order_k__BackingField; // 0x20
 
 		::System::Void _ctor()

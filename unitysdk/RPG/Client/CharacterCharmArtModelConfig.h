@@ -5,11 +5,11 @@
 namespace RPG::Client::TAUtils { class RendererSlots; }
 namespace UnityEngine { class Renderer; }
 
-#define RPG_CLIENT_CHARACTERCHARMARTMODELCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0xB580EA0)
+#define RPG_CLIENT_CHARACTERCHARMARTMODELCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x192016D0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int CharacterCharmArtModelConfig_TypeDefinitionIndex = 65213;
+	inline static constexpr unsigned int CharacterCharmArtModelConfig_TypeDefinitionIndex = 66623;
 
 	class CharacterCharmArtModelConfig : public ::UnityEngine::MonoBehaviour
 	{

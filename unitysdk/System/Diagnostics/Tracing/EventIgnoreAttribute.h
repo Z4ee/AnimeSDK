@@ -4,7 +4,7 @@
 
 namespace System::Diagnostics::Tracing
 {
-	inline static constexpr unsigned int EventIgnoreAttribute_TypeDefinitionIndex = 1590;
+	inline static constexpr unsigned int EventIgnoreAttribute_TypeDefinitionIndex = 1594;
 
 	class EventIgnoreAttribute : public ::System::Attribute
 	{

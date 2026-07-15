@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int CumulativeConsumptionType_TypeDefinitionIndex = 13879;
+	inline static constexpr unsigned int CumulativeConsumptionType_TypeDefinitionIndex = 14027;
 
 	enum class CumulativeConsumptionType : ::System::Int32
 	{

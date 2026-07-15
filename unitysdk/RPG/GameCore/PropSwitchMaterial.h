@@ -6,13 +6,13 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class DynamicFloat; }
 namespace RPG::GameCore { class TargetEvaluator; }
 
-#define RPG_GAMECORE_PROPSWITCHMATERIAL_METHOD_3_30CCBD148FDAD1F4_OFFSET UNITYSDK_OFFSET(0x19A9D070)
-#define RPG_GAMECORE_PROPSWITCHMATERIAL_METHOD_3_BD03B23894186EDF_OFFSET UNITYSDK_OFFSET(0x19A9CE80)
-#define RPG_GAMECORE_PROPSWITCHMATERIAL__CTOR_OFFSET UNITYSDK_OFFSET(0x19A9CF90)
+#define RPG_GAMECORE_PROPSWITCHMATERIAL_METHOD_3_30CCBD148FDAD1F4_OFFSET UNITYSDK_OFFSET(0x1B9A4AE0)
+#define RPG_GAMECORE_PROPSWITCHMATERIAL_METHOD_3_C8368B7181C1AC03_OFFSET UNITYSDK_OFFSET(0x1B9A49E0)
+#define RPG_GAMECORE_PROPSWITCHMATERIAL__CTOR_OFFSET UNITYSDK_OFFSET(0x1B9A4A70)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PropSwitchMaterial_TypeDefinitionIndex = 20940;
+	inline static constexpr unsigned int PropSwitchMaterial_TypeDefinitionIndex = 21355;
 
 	class PropSwitchMaterial : public ::RPG::GameCore::TaskConfig
 	{
@@ -25,9 +25,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PROPSWITCHMATERIAL__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_BD03B23894186EDF(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::PropSwitchMaterial*& a2)
+		static ::System::Void Method_3_C8368B7181C1AC03(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::PropSwitchMaterial*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::PropSwitchMaterial*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PROPSWITCHMATERIAL_METHOD_3_BD03B23894186EDF_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::PropSwitchMaterial*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PROPSWITCHMATERIAL_METHOD_3_C8368B7181C1AC03_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_30CCBD148FDAD1F4(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::PropSwitchMaterial* a2)

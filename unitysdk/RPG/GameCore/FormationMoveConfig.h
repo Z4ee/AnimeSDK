@@ -5,12 +5,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class FormationPatternConfig; }
 
-#define RPG_GAMECORE_FORMATIONMOVECONFIG_METHOD_2_7E93705B39B384E4_OFFSET UNITYSDK_OFFSET(0x19766050)
-#define RPG_GAMECORE_FORMATIONMOVECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x19766140)
+#define RPG_GAMECORE_FORMATIONMOVECONFIG_METHOD_2_7E93705B39B384E4_OFFSET UNITYSDK_OFFSET(0x1BEC0C80)
+#define RPG_GAMECORE_FORMATIONMOVECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1BEC0D70)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FormationMoveConfig_TypeDefinitionIndex = 14850;
+	inline static constexpr unsigned int FormationMoveConfig_TypeDefinitionIndex = 15012;
 
 	class FormationMoveConfig : public ::RPG::GameCore::JsonConfig
 	{

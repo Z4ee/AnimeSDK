@@ -4,11 +4,11 @@
 
 namespace UnityEngine { class Transform; }
 
-#define RPG_CLIENT_LITTLEGAME_MOVIEGAMELAYER__CTOR_OFFSET UNITYSDK_OFFSET(0xBE34470)
+#define RPG_CLIENT_LITTLEGAME_MOVIEGAMELAYER__CTOR_OFFSET UNITYSDK_OFFSET(0x19AB04D0)
 
 namespace RPG::Client::LittleGame
 {
-	inline static constexpr unsigned int MovieGameLayer_TypeDefinitionIndex = 71184;
+	inline static constexpr unsigned int MovieGameLayer_TypeDefinitionIndex = 72697;
 
 	class MovieGameLayer : public ::UnityEngine::MonoBehaviour
 	{

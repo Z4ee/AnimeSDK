@@ -9,7 +9,7 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ITeamBuildCalculator_TypeDefinitionIndex = 63699;
+	inline static constexpr unsigned int ITeamBuildCalculator_TypeDefinitionIndex = 65068;
 
 	class ITeamBuildCalculator
 	{

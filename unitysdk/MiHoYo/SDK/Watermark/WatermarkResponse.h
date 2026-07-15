@@ -5,11 +5,11 @@
 namespace MiHoYo::SDK::Watermark { class WatermarkResponseData; }
 namespace System { class String; }
 
-#define MIHOYO_SDK_WATERMARK_WATERMARKRESPONSE__CTOR_OFFSET UNITYSDK_OFFSET(0x184607D0)
+#define MIHOYO_SDK_WATERMARK_WATERMARKRESPONSE__CTOR_OFFSET UNITYSDK_OFFSET(0x15C20D70)
 
 namespace MiHoYo::SDK::Watermark
 {
-	inline static constexpr unsigned int WatermarkResponse_TypeDefinitionIndex = 8538;
+	inline static constexpr unsigned int WatermarkResponse_TypeDefinitionIndex = 8550;
 
 	class WatermarkResponse : public ::System::Object
 	{

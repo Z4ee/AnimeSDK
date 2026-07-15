@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SwordTrainingMoodState_TypeDefinitionIndex = 11842;
+	inline static constexpr unsigned int SwordTrainingMoodState_TypeDefinitionIndex = 11942;
 
 	enum class SwordTrainingMoodState : ::System::Int32
 	{

@@ -6,19 +6,19 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_RELICSETBONUSVALUEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x19AC3350)
-#define RPG_GAMECORE_RELICSETBONUSVALUEROW__CTOR_OFFSET UNITYSDK_OFFSET(0x19AC3550)
+#define RPG_GAMECORE_RELICSETBONUSVALUEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B9CA420)
+#define RPG_GAMECORE_RELICSETBONUSVALUEROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1B9CA620)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RelicSetBonusValueRow_TypeDefinitionIndex = 10480;
+	inline static constexpr unsigned int RelicSetBonusValueRow_TypeDefinitionIndex = 10528;
 
 	class RelicSetBonusValueRow : public ::System::Object
 	{
 	public:
 		::RPG::GameCore::FixPoint Threshold; // 0x10
-		::System::UInt32 SetID; // 0x18
-		::RPG::GameCore::AvatarPropertyType Property; // 0x1C
+		::RPG::GameCore::AvatarPropertyType Property; // 0x18
+		::System::UInt32 SetID; // 0x1C
 		::System::Single BonusValue; // 0x20
 
 		::System::Void _ctor()

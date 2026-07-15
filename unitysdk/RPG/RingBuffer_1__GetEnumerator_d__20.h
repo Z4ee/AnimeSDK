@@ -6,7 +6,7 @@ namespace RPG { template <typename T> class RingBuffer_1; }
 
 namespace RPG
 {
-	inline static constexpr unsigned int RingBuffer_1__GetEnumerator_d__20_TypeDefinitionIndex = 6774;
+	inline static constexpr unsigned int RingBuffer_1__GetEnumerator_d__20_TypeDefinitionIndex = 6779;
 
 	template <typename T>
 	class RingBuffer_1__GetEnumerator_d__20 : public ::System::Object

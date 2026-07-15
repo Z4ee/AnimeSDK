@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int BattlePreloadPhase_TypeDefinitionIndex = 55784;
+	inline static constexpr unsigned int BattlePreloadPhase_TypeDefinitionIndex = 57021;
 
 	enum class BattlePreloadPhase : ::System::Int32
 	{

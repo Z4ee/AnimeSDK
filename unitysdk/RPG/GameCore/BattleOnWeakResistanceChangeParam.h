@@ -6,19 +6,19 @@
 
 namespace RPG::GameCore { class GameEntity; }
 
-#define RPG_GAMECORE_BATTLEONWEAKRESISTANCECHANGEPARAM__CTOR_OFFSET UNITYSDK_OFFSET(0xCD37A30)
+#define RPG_GAMECORE_BATTLEONWEAKRESISTANCECHANGEPARAM__CTOR_OFFSET UNITYSDK_OFFSET(0x121728C0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int BattleOnWeakResistanceChangeParam_TypeDefinitionIndex = 53952;
+	inline static constexpr unsigned int BattleOnWeakResistanceChangeParam_TypeDefinitionIndex = 55171;
 
 	class BattleOnWeakResistanceChangeParam : public ::System::Object
 	{
 	public:
 		::RPG::GameCore::GameEntity* Entity; // 0x10
-		::RPG::GameCore::AbilityProperty Property; // 0x18
-		::RPG::GameCore::FixPoint fNewValue; // 0x20
-		::RPG::GameCore::FixPoint fOldValue; // 0x28
+		::RPG::GameCore::FixPoint fNewValue; // 0x18
+		::RPG::GameCore::FixPoint fOldValue; // 0x20
+		::RPG::GameCore::AbilityProperty Property; // 0x28
 
 		::System::Void _ctor()
 		{

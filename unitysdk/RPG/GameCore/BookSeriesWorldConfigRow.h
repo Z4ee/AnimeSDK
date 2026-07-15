@@ -6,18 +6,18 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_BOOKSERIESWORLDCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x194E1810)
-#define RPG_GAMECORE_BOOKSERIESWORLDCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x194E1A00)
+#define RPG_GAMECORE_BOOKSERIESWORLDCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1A402390)
+#define RPG_GAMECORE_BOOKSERIESWORLDCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1A402580)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int BookSeriesWorldConfigRow_TypeDefinitionIndex = 12272;
+	inline static constexpr unsigned int BookSeriesWorldConfigRow_TypeDefinitionIndex = 12406;
 
 	class BookSeriesWorldConfigRow : public ::System::Object
 	{
 	public:
-		::System::String* BookSeriesWorldBackgroundPath; // 0x10
-		::System::String* BookSeriesWorldIconPath; // 0x18
+		::System::String* BookSeriesWorldIconPath; // 0x10
+		::System::String* BookSeriesWorldBackgroundPath; // 0x18
 		::System::UInt32 BookSeriesWorld; // 0x20
 		::RPG::Client::TextID BookSeriesWorldTextmapID; // 0x28
 

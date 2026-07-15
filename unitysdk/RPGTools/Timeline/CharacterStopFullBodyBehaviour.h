@@ -5,13 +5,12 @@
 namespace RPGTools::Timeline { class CharacterStopFullBodyChainData; }
 namespace RPGTools::Timeline { class CharacterStopFullBodyData; }
 
-#define RPGTOOLS_TIMELINE_CHARACTERSTOPFULLBODYBEHAVIOUR_METHOD_3_1B3D8773D1869301_OFFSET UNITYSDK_OFFSET(0xCFF3160)
-#define RPGTOOLS_TIMELINE_CHARACTERSTOPFULLBODYBEHAVIOUR_METHOD_3_CA373AA1C7054598_OFFSET UNITYSDK_OFFSET(0xCFF3330)
-#define RPGTOOLS_TIMELINE_CHARACTERSTOPFULLBODYBEHAVIOUR__CTOR_OFFSET UNITYSDK_OFFSET(0xCFF3310)
+#define RPGTOOLS_TIMELINE_CHARACTERSTOPFULLBODYBEHAVIOUR_METHOD_3_1B3D8773D1869301_OFFSET UNITYSDK_OFFSET(0x1B35BA30)
+#define RPGTOOLS_TIMELINE_CHARACTERSTOPFULLBODYBEHAVIOUR__CTOR_OFFSET UNITYSDK_OFFSET(0x1B35BBE0)
 
 namespace RPGTools::Timeline
 {
-	inline static constexpr unsigned int CharacterStopFullBodyBehaviour_TypeDefinitionIndex = 45267;
+	inline static constexpr unsigned int CharacterStopFullBodyBehaviour_TypeDefinitionIndex = 46191;
 
 	class CharacterStopFullBodyBehaviour : public ::RPGTools::Timeline::CustomEventBehaviour
 	{
@@ -27,11 +26,6 @@ namespace RPGTools::Timeline
 		::System::Void Method_3_1B3D8773D1869301()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_CHARACTERSTOPFULLBODYBEHAVIOUR_METHOD_3_1B3D8773D1869301_OFFSET))(this);
-		}
-
-		::System::Void Method_3_CA373AA1C7054598()
-		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_CHARACTERSTOPFULLBODYBEHAVIOUR_METHOD_3_CA373AA1C7054598_OFFSET))(this);
 		}
 	};
 }

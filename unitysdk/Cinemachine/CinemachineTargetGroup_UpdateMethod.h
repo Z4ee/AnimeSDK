@@ -3,7 +3,7 @@
 
 namespace Cinemachine
 {
-	inline static constexpr unsigned int CinemachineTargetGroup_UpdateMethod_TypeDefinitionIndex = 36825;
+	inline static constexpr unsigned int CinemachineTargetGroup_UpdateMethod_TypeDefinitionIndex = 37607;
 
 	enum class CinemachineTargetGroup_UpdateMethod : ::System::Int32
 	{

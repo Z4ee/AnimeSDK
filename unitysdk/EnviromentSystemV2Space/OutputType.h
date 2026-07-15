@@ -3,7 +3,7 @@
 
 namespace EnviromentSystemV2Space
 {
-	inline static constexpr unsigned int OutputType_TypeDefinitionIndex = 46639;
+	inline static constexpr unsigned int OutputType_TypeDefinitionIndex = 47604;
 
 	enum class OutputType : ::System::Int32
 	{

@@ -8,7 +8,7 @@ namespace System::Collections::Concurrent { template <typename T1, typename T2> 
 
 namespace System::Collections::Concurrent
 {
-	inline static constexpr unsigned int ConcurrentDictionary_2__GetEnumerator_d__32_TypeDefinitionIndex = 1507;
+	inline static constexpr unsigned int ConcurrentDictionary_2__GetEnumerator_d__32_TypeDefinitionIndex = 1511;
 
 	template <typename TKey, typename TValue>
 	class ConcurrentDictionary_2__GetEnumerator_d__32 : public ::System::Object

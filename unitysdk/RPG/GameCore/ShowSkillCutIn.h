@@ -7,13 +7,13 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class TargetEvaluator; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_SHOWSKILLCUTIN_METHOD_3_60847421BF38722E_OFFSET UNITYSDK_OFFSET(0x19C83430)
-#define RPG_GAMECORE_SHOWSKILLCUTIN_METHOD_3_EB89798D293D6F73_OFFSET UNITYSDK_OFFSET(0x19C833B0)
-#define RPG_GAMECORE_SHOWSKILLCUTIN__CTOR_OFFSET UNITYSDK_OFFSET(0x19C83400)
+#define RPG_GAMECORE_SHOWSKILLCUTIN_METHOD_3_60847421BF38722E_OFFSET UNITYSDK_OFFSET(0x1BE47000)
+#define RPG_GAMECORE_SHOWSKILLCUTIN_METHOD_3_F97C91D7D70E6187_OFFSET UNITYSDK_OFFSET(0x1BE46FC0)
+#define RPG_GAMECORE_SHOWSKILLCUTIN__CTOR_OFFSET UNITYSDK_OFFSET(0x1BE46FF0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ShowSkillCutIn_TypeDefinitionIndex = 21698;
+	inline static constexpr unsigned int ShowSkillCutIn_TypeDefinitionIndex = 22125;
 
 	class ShowSkillCutIn : public ::RPG::GameCore::TaskConfig
 	{
@@ -31,9 +31,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SHOWSKILLCUTIN__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_EB89798D293D6F73(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ShowSkillCutIn*& a2)
+		static ::System::Void Method_3_F97C91D7D70E6187(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ShowSkillCutIn*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ShowSkillCutIn*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SHOWSKILLCUTIN_METHOD_3_EB89798D293D6F73_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ShowSkillCutIn*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SHOWSKILLCUTIN_METHOD_3_F97C91D7D70E6187_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_60847421BF38722E(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ShowSkillCutIn* a2)

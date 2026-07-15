@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ThreadTaskType_TypeDefinitionIndex = 10397;
+	inline static constexpr unsigned int ThreadTaskType_TypeDefinitionIndex = 10447;
 
 	enum class ThreadTaskType : ::System::Int32
 	{

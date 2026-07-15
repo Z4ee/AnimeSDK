@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int WorldShiftingReason_TypeDefinitionIndex = 56973;
+	inline static constexpr unsigned int WorldShiftingReason_TypeDefinitionIndex = 58220;
 
 	enum class WorldShiftingReason : ::System::Int32
 	{

@@ -19,11 +19,11 @@ namespace UnityEngine { class AnimationClip; }
 namespace UnityEngine { class RectTransform; }
 namespace UnityEngine::UI { class ScrollRect; }
 
-#define RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCERESULTWINDOWBINDER__CTOR_OFFSET UNITYSDK_OFFSET(0xB4D4930)
+#define RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCERESULTWINDOWBINDER__CTOR_OFFSET UNITYSDK_OFFSET(0x18764860)
 
 namespace RPG::Client::Challenge::Tierce
 {
-	inline static constexpr unsigned int ChallengeTierceResultWindowBinder_TypeDefinitionIndex = 74198;
+	inline static constexpr unsigned int ChallengeTierceResultWindowBinder_TypeDefinitionIndex = 76582;
 
 	class ChallengeTierceResultWindowBinder : public ::UnityEngine::MonoBehaviour
 	{

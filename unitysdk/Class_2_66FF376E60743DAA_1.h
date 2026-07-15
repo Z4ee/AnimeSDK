@@ -7,15 +7,12 @@ namespace System { class Object; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class HashSet_1; }
 
-#define CLASS_2_66FF376E60743DAA_1_FILLNOTIFYTYPESTO_OFFSET UNITYSDK_OFFSET(0x138C72C0)
-#define CLASS_2_66FF376E60743DAA_1_TOSTRING_OFFSET UNITYSDK_OFFSET(0x138C7440)
-#define CLASS_2_66FF376E60743DAA_1__CTOR_OFFSET UNITYSDK_OFFSET(0x138C72A0)
-#define CLASS_2_66FF376E60743DAA_1__DOCHECKIMPL_OFFSET UNITYSDK_OFFSET(0x138C7350)
-#define CLASS_2_66FF376E60743DAA_1___IFIXBASEPROXY_FILLNOTIFYTYPESTO_OFFSET UNITYSDK_OFFSET(0x138C74F0)
-#define CLASS_2_66FF376E60743DAA_1___IFIXBASEPROXY_TOSTRING_OFFSET UNITYSDK_OFFSET(0x138C75B0)
-#define CLASS_2_66FF376E60743DAA_1___IFIXBASEPROXY__DOCHECKIMPL_OFFSET UNITYSDK_OFFSET(0x138C7550)
+#define CLASS_2_66FF376E60743DAA_1_FILLNOTIFYTYPESTO_OFFSET UNITYSDK_OFFSET(0x18B70480)
+#define CLASS_2_66FF376E60743DAA_1_TOSTRING_OFFSET UNITYSDK_OFFSET(0x18B70600)
+#define CLASS_2_66FF376E60743DAA_1__CTOR_OFFSET UNITYSDK_OFFSET(0x18B70460)
+#define CLASS_2_66FF376E60743DAA_1__DOCHECKIMPL_OFFSET UNITYSDK_OFFSET(0x18B70510)
 
-inline static constexpr unsigned int Class_2_66FF376E60743DAA_1_TypeDefinitionIndex = 55976;
+inline static constexpr unsigned int Class_2_66FF376E60743DAA_1_TypeDefinitionIndex = 57215;
 
 class Class_2_66FF376E60743DAA_1 : public ::RPG::Client::SyncCheckItemBase
 {
@@ -40,20 +37,5 @@ public:
 	::System::String* ToString()
 	{
 		return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_66FF376E60743DAA_1_TOSTRING_OFFSET))(this);
-	}
-
-	::System::Void __iFixBaseProxy_FillNotifyTypesTo(::System::Collections::Generic::HashSet_1<::RPG::Client::NotifyType>* a1)
-	{
-		return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::HashSet_1<::RPG::Client::NotifyType>*))((::PBYTE)hIl2Cpp + CLASS_2_66FF376E60743DAA_1___IFIXBASEPROXY_FILLNOTIFYTYPESTO_OFFSET))(this, a1);
-	}
-
-	::System::Boolean __iFixBaseProxy__DoCheckImpl()
-	{
-		return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_66FF376E60743DAA_1___IFIXBASEPROXY__DOCHECKIMPL_OFFSET))(this);
-	}
-
-	::System::String* __iFixBaseProxy_ToString()
-	{
-		return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_66FF376E60743DAA_1___IFIXBASEPROXY_TOSTRING_OFFSET))(this);
 	}
 };

@@ -5,18 +5,18 @@
 namespace MiHoYo::SDK::Win { class OverseaPayManager; }
 namespace System { class String; }
 
-#define MIHOYO_SDK_WIN_OVERSEAPAYMANAGER___C__DISPLAYCLASS30_0__CTOR_OFFSET UNITYSDK_OFFSET(0x18293EF0)
-#define MIHOYO_SDK_WIN_OVERSEAPAYMANAGER___C__DISPLAYCLASS30_0__PAY_B__0_OFFSET UNITYSDK_OFFSET(0x1829D040)
+#define MIHOYO_SDK_WIN_OVERSEAPAYMANAGER___C__DISPLAYCLASS30_0__CTOR_OFFSET UNITYSDK_OFFSET(0x17152880)
+#define MIHOYO_SDK_WIN_OVERSEAPAYMANAGER___C__DISPLAYCLASS30_0__PAY_B__0_OFFSET UNITYSDK_OFFSET(0x1715D090)
 
 namespace MiHoYo::SDK::Win
 {
-	inline static constexpr unsigned int OverseaPayManager___c__DisplayClass30_0_TypeDefinitionIndex = 9000;
+	inline static constexpr unsigned int OverseaPayManager___c__DisplayClass30_0_TypeDefinitionIndex = 9012;
 
 	class OverseaPayManager___c__DisplayClass30_0 : public ::System::Object
 	{
 	public:
-		::System::String* tips; // 0x10
-		::MiHoYo::SDK::Win::OverseaPayManager* __4__this; // 0x18
+		::MiHoYo::SDK::Win::OverseaPayManager* __4__this; // 0x10
+		::System::String* tips; // 0x18
 
 		::System::Void _ctor()
 		{

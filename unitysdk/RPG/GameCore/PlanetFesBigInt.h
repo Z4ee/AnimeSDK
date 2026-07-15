@@ -5,18 +5,18 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_PLANETFESBIGINT_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x19A18360)
-#define RPG_GAMECORE_PLANETFESBIGINT__CTOR_OFFSET UNITYSDK_OFFSET(0x19A1A9D0)
+#define RPG_GAMECORE_PLANETFESBIGINT_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B4D2450)
+#define RPG_GAMECORE_PLANETFESBIGINT__CTOR_OFFSET UNITYSDK_OFFSET(0x1B4D4AB0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PlanetFesBigInt_TypeDefinitionIndex = 11609;
+	inline static constexpr unsigned int PlanetFesBigInt_TypeDefinitionIndex = 11709;
 
 	class PlanetFesBigInt : public ::System::Object
 	{
 	public:
-		::RPG::GameCore::PlanetFesUnitType unit; // 0x10
-		::System::UInt32 base_value; // 0x14
+		::System::UInt32 base_value; // 0x10
+		::RPG::GameCore::PlanetFesUnitType unit; // 0x14
 
 		::System::Void _ctor()
 		{

@@ -8,21 +8,21 @@ namespace RPG::GameCore { class PropCurveMoveStart; }
 namespace RPG::GameCore { class TaskContext; }
 namespace System { class String; }
 
-#define CLASS_2_2C3A33FA5415278F_DISPOSE_OFFSET UNITYSDK_OFFSET(0x141CA330)
-#define CLASS_2_2C3A33FA5415278F_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x141CA3D0)
-#define CLASS_2_2C3A33FA5415278F_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x141CA380)
-#define CLASS_2_2C3A33FA5415278F_TICK_OFFSET UNITYSDK_OFFSET(0x141CAFD0)
-#define CLASS_2_2C3A33FA5415278F__CTOR_OFFSET UNITYSDK_OFFSET(0x141CA320)
+#define CLASS_2_2C3A33FA5415278F_DISPOSE_OFFSET UNITYSDK_OFFSET(0x179B86E0)
+#define CLASS_2_2C3A33FA5415278F_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x179B8780)
+#define CLASS_2_2C3A33FA5415278F_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x179B8730)
+#define CLASS_2_2C3A33FA5415278F_TICK_OFFSET UNITYSDK_OFFSET(0x179B9600)
+#define CLASS_2_2C3A33FA5415278F__CTOR_OFFSET UNITYSDK_OFFSET(0x179B86D0)
 
-inline static constexpr unsigned int Class_2_2C3A33FA5415278F_TypeDefinitionIndex = 54503;
+inline static constexpr unsigned int Class_2_2C3A33FA5415278F_TypeDefinitionIndex = 55727;
 
 class Class_2_2C3A33FA5415278F : public ::Class_1_5F51D4049EA87B7B
 {
 public:
-	::RPG::GameCore::PropCurveMoveStart* Field_2_0; // 0x18
+	::System::String* Field_2_0; // 0x18
 	::RPG::GameCore::GameEntity* Field_2_1; // 0x20
-	::System::String* Field_2_2; // 0x28
-	::RPG::GameCore::TaskContext* Field_2_3; // 0x30
+	::RPG::GameCore::TaskContext* Field_2_2; // 0x28
+	::RPG::GameCore::PropCurveMoveStart* Field_2_3; // 0x30
 
 	::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::PropCurveMoveStart* a2)
 	{

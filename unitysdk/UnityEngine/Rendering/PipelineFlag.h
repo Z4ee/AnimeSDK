@@ -3,7 +3,7 @@
 
 namespace UnityEngine::Rendering
 {
-	inline static constexpr unsigned int PipelineFlag_TypeDefinitionIndex = 35189;
+	inline static constexpr unsigned int PipelineFlag_TypeDefinitionIndex = 35971;
 
 	enum class PipelineFlag : ::System::Int64
 	{
@@ -66,6 +66,6 @@ namespace UnityEngine::Rendering
 		kHasBuggyNewComputeSkinning_NotUse = 72057594037927936,
 		kEnableRemoveEmptyIndirectDrawUseOC_NotUse = 144115188075855872,
 		kEnableIRIPPtrCheck_NotUse = 288230376151711744,
-		kReflectionCameraCmdBufferOnly = 576460752303423488,
+		kReflectionCameraCmdBufferOnly_NotUse = 576460752303423488,
 	};
 }

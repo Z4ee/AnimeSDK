@@ -6,13 +6,13 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class MissionCustomValueTuple; }
 namespace SimpleJSON { class JSONNode; }
 
-#define RPG_GAMECORE_MISSIONCUSTOMVALUEGROUPCONFIG_METHOD_2_1F984FEBA7C03857_OFFSET UNITYSDK_OFFSET(0x199444C0)
-#define RPG_GAMECORE_MISSIONCUSTOMVALUEGROUPCONFIG_METHOD_2_902ABD68419940E8_OFFSET UNITYSDK_OFFSET(0x19944250)
-#define RPG_GAMECORE_MISSIONCUSTOMVALUEGROUPCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x199443B0)
+#define RPG_GAMECORE_MISSIONCUSTOMVALUEGROUPCONFIG_METHOD_2_902ABD68419940E8_OFFSET UNITYSDK_OFFSET(0x1AF68930)
+#define RPG_GAMECORE_MISSIONCUSTOMVALUEGROUPCONFIG_METHOD_2_B97B2F98E75BBCA9_OFFSET UNITYSDK_OFFSET(0x1AF68BA0)
+#define RPG_GAMECORE_MISSIONCUSTOMVALUEGROUPCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1AF68A90)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MissionCustomValueGroupConfig_TypeDefinitionIndex = 18041;
+	inline static constexpr unsigned int MissionCustomValueGroupConfig_TypeDefinitionIndex = 18245;
 
 	class MissionCustomValueGroupConfig : public ::RPG::GameCore::JsonConfig
 	{
@@ -32,9 +32,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::MissionCustomValueGroupConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MISSIONCUSTOMVALUEGROUPCONFIG_METHOD_2_902ABD68419940E8_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_2_1F984FEBA7C03857(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::MissionCustomValueGroupConfig*& a2)
+		static ::System::Void Method_2_B97B2F98E75BBCA9(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::MissionCustomValueGroupConfig*& a2)
 		{
-			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::MissionCustomValueGroupConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MISSIONCUSTOMVALUEGROUPCONFIG_METHOD_2_1F984FEBA7C03857_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::MissionCustomValueGroupConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MISSIONCUSTOMVALUEGROUPCONFIG_METHOD_2_B97B2F98E75BBCA9_OFFSET))(a1, a2);
 		}
 	};
 }

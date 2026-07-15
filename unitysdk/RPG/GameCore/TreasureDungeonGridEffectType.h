@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TreasureDungeonGridEffectType_TypeDefinitionIndex = 11909;
+	inline static constexpr unsigned int TreasureDungeonGridEffectType_TypeDefinitionIndex = 12041;
 
 	enum class TreasureDungeonGridEffectType : ::System::Int32
 	{

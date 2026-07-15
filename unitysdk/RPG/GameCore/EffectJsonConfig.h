@@ -7,6 +7,7 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class EffectMutexConfigData; }
 namespace RPG::GameCore { class EffectSurfaceTypeConfig; }
+namespace RPG::GameCore { class FieldEffectAdaptionConfigList; }
 namespace RPG::GameCore { class FieldEffectBudgetConfig; }
 namespace RPG::GameCore { class FilterSystemConflictTypes; }
 namespace RPG::GameCore { class ModifierAttachEffect; }
@@ -14,12 +15,12 @@ namespace RPG::GameCore { class ModifierBindEffectConfig; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_EFFECTJSONCONFIG_METHOD_2_EE07C13025A521B8_OFFSET UNITYSDK_OFFSET(0x196D4D90)
-#define RPG_GAMECORE_EFFECTJSONCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x196D54C0)
+#define RPG_GAMECORE_EFFECTJSONCONFIG_METHOD_2_EE07C13025A521B8_OFFSET UNITYSDK_OFFSET(0x1BB314E0)
+#define RPG_GAMECORE_EFFECTJSONCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1BB31C60)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int EffectJsonConfig_TypeDefinitionIndex = 15667;
+	inline static constexpr unsigned int EffectJsonConfig_TypeDefinitionIndex = 15840;
 
 	class EffectJsonConfig : public ::RPG::GameCore::JsonConfig
 	{
@@ -40,9 +41,10 @@ namespace RPG::GameCore
 		::System::Int32 FadeOutMutextMaxCount; // 0x78
 		::System::Single FieldEffectSoftZOffset; // 0x7C
 		::RPG::GameCore::FieldEffectBudgetConfig* FieldEffectBudgetConfig; // 0x80
-		::System::Int32 HighQualityHitEffectMaxCountPerHit; // 0x88
-		::System::Int32 LowQualityHitEffectMaxCountPerHit; // 0x8C
-		::Il2CppArray<::RPG::GameCore::StageType>* EnableLodLowStageTypes; // 0x90
+		::System::Collections::Generic::Dictionary_2<::System::String*, ::RPG::GameCore::FieldEffectAdaptionConfigList*>* FieldEffectAdaptionTemplateConfig; // 0x88
+		::System::Int32 HighQualityHitEffectMaxCountPerHit; // 0x90
+		::System::Int32 LowQualityHitEffectMaxCountPerHit; // 0x94
+		::Il2CppArray<::RPG::GameCore::StageType>* EnableLodLowStageTypes; // 0x98
 
 		::System::Void _ctor()
 		{

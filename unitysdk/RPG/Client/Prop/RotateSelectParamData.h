@@ -5,11 +5,11 @@
 namespace RPG::GameCore { class OptionTriggerInfo; }
 namespace System { class String; }
 
-#define RPG_CLIENT_PROP_ROTATESELECTPARAMDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xC60A170)
+#define RPG_CLIENT_PROP_ROTATESELECTPARAMDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x14F4CA10)
 
 namespace RPG::Client::Prop
 {
-	inline static constexpr unsigned int RotateSelectParamData_TypeDefinitionIndex = 73330;
+	inline static constexpr unsigned int RotateSelectParamData_TypeDefinitionIndex = 74855;
 
 	class RotateSelectParamData : public ::System::Object
 	{

@@ -6,15 +6,14 @@
 
 namespace RPGTools::Timeline { class NPCRideClip; }
 
-#define RPGTOOLS_TIMELINE_NPCRIDEBEHAVIOUR_GET_CLIP_OFFSET UNITYSDK_OFFSET(0xD030F50)
-#define RPGTOOLS_TIMELINE_NPCRIDEBEHAVIOUR_ONBEHAVIOURPLAY_OFFSET UNITYSDK_OFFSET(0xD030F70)
-#define RPGTOOLS_TIMELINE_NPCRIDEBEHAVIOUR_SET_CLIP_OFFSET UNITYSDK_OFFSET(0xD030F60)
-#define RPGTOOLS_TIMELINE_NPCRIDEBEHAVIOUR__CTOR_OFFSET UNITYSDK_OFFSET(0xD031120)
-#define RPGTOOLS_TIMELINE_NPCRIDEBEHAVIOUR___IFIXBASEPROXY_ONBEHAVIOURPLAY_OFFSET UNITYSDK_OFFSET(0xD031130)
+#define RPGTOOLS_TIMELINE_NPCRIDEBEHAVIOUR_GET_CLIP_OFFSET UNITYSDK_OFFSET(0x1998D140)
+#define RPGTOOLS_TIMELINE_NPCRIDEBEHAVIOUR_ONBEHAVIOURPLAY_OFFSET UNITYSDK_OFFSET(0x1998D160)
+#define RPGTOOLS_TIMELINE_NPCRIDEBEHAVIOUR_SET_CLIP_OFFSET UNITYSDK_OFFSET(0x1998D150)
+#define RPGTOOLS_TIMELINE_NPCRIDEBEHAVIOUR__CTOR_OFFSET UNITYSDK_OFFSET(0x1998D310)
 
 namespace RPGTools::Timeline
 {
-	inline static constexpr unsigned int NPCRideBehaviour_TypeDefinitionIndex = 45495;
+	inline static constexpr unsigned int NPCRideBehaviour_TypeDefinitionIndex = 46429;
 
 	class NPCRideBehaviour : public ::UnityEngine::Playables::PlayableBehaviour
 	{
@@ -39,11 +38,6 @@ namespace RPGTools::Timeline
 		::System::Void OnBehaviourPlay(::UnityEngine::Playables::Playable a1, ::UnityEngine::Playables::FrameData a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::UnityEngine::Playables::Playable, ::UnityEngine::Playables::FrameData))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_NPCRIDEBEHAVIOUR_ONBEHAVIOURPLAY_OFFSET))(this, a1, a2);
-		}
-
-		::System::Void __iFixBaseProxy_OnBehaviourPlay(::UnityEngine::Playables::Playable a1, ::UnityEngine::Playables::FrameData a2)
-		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Playables::Playable, ::UnityEngine::Playables::FrameData))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_NPCRIDEBEHAVIOUR___IFIXBASEPROXY_ONBEHAVIOURPLAY_OFFSET))(this, a1, a2);
 		}
 	};
 }

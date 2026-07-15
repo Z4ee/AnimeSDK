@@ -11,15 +11,13 @@ namespace System { class Object; }
 namespace System { class String; }
 namespace UnityEngine { class GameObject; }
 
-#define RPGTOOLS_TIMELINE_RECORDEFFECTTIMELINEBEHAVIOUR_ONBEHAVIOURPAUSE_OFFSET UNITYSDK_OFFSET(0xD04DDD0)
-#define RPGTOOLS_TIMELINE_RECORDEFFECTTIMELINEBEHAVIOUR_PROCESSFRAME_OFFSET UNITYSDK_OFFSET(0xD04DD40)
-#define RPGTOOLS_TIMELINE_RECORDEFFECTTIMELINEBEHAVIOUR__CTOR_OFFSET UNITYSDK_OFFSET(0xD04DE50)
-#define RPGTOOLS_TIMELINE_RECORDEFFECTTIMELINEBEHAVIOUR___IFIXBASEPROXY_ONBEHAVIOURPAUSE_OFFSET UNITYSDK_OFFSET(0xD04DE70)
-#define RPGTOOLS_TIMELINE_RECORDEFFECTTIMELINEBEHAVIOUR___IFIXBASEPROXY_PROCESSFRAME_OFFSET UNITYSDK_OFFSET(0xD04DE60)
+#define RPGTOOLS_TIMELINE_RECORDEFFECTTIMELINEBEHAVIOUR_ONBEHAVIOURPAUSE_OFFSET UNITYSDK_OFFSET(0x199AE4D0)
+#define RPGTOOLS_TIMELINE_RECORDEFFECTTIMELINEBEHAVIOUR_PROCESSFRAME_OFFSET UNITYSDK_OFFSET(0x199AE440)
+#define RPGTOOLS_TIMELINE_RECORDEFFECTTIMELINEBEHAVIOUR__CTOR_OFFSET UNITYSDK_OFFSET(0x199AE550)
 
 namespace RPGTools::Timeline
 {
-	inline static constexpr unsigned int RecordEffectTimelineBehaviour_TypeDefinitionIndex = 45744;
+	inline static constexpr unsigned int RecordEffectTimelineBehaviour_TypeDefinitionIndex = 46683;
 
 	class RecordEffectTimelineBehaviour : public ::UnityEngine::Playables::PlayableBehaviour
 	{
@@ -45,16 +43,6 @@ namespace RPGTools::Timeline
 		::System::Void OnBehaviourPause(::UnityEngine::Playables::Playable a1, ::UnityEngine::Playables::FrameData a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::UnityEngine::Playables::Playable, ::UnityEngine::Playables::FrameData))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_RECORDEFFECTTIMELINEBEHAVIOUR_ONBEHAVIOURPAUSE_OFFSET))(this, a1, a2);
-		}
-
-		::System::Void __iFixBaseProxy_ProcessFrame(::UnityEngine::Playables::Playable a1, ::UnityEngine::Playables::FrameData a2, ::System::Object* a3)
-		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Playables::Playable, ::UnityEngine::Playables::FrameData, ::System::Object*))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_RECORDEFFECTTIMELINEBEHAVIOUR___IFIXBASEPROXY_PROCESSFRAME_OFFSET))(this, a1, a2, a3);
-		}
-
-		::System::Void __iFixBaseProxy_OnBehaviourPause(::UnityEngine::Playables::Playable a1, ::UnityEngine::Playables::FrameData a2)
-		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Playables::Playable, ::UnityEngine::Playables::FrameData))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_RECORDEFFECTTIMELINEBEHAVIOUR___IFIXBASEPROXY_ONBEHAVIOURPAUSE_OFFSET))(this, a1, a2);
 		}
 	};
 }

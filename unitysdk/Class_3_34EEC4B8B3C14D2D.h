@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class CompleteMove; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_34EEC4B8B3C14D2D_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x13B37990)
-#define CLASS_3_34EEC4B8B3C14D2D__CTOR_OFFSET UNITYSDK_OFFSET(0x13B37960)
+#define CLASS_3_34EEC4B8B3C14D2D_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x161EA880)
+#define CLASS_3_34EEC4B8B3C14D2D__CTOR_OFFSET UNITYSDK_OFFSET(0x161EA850)
 
-inline static constexpr unsigned int Class_3_34EEC4B8B3C14D2D_TypeDefinitionIndex = 51372;
+inline static constexpr unsigned int Class_3_34EEC4B8B3C14D2D_TypeDefinitionIndex = 52482;
 
 class Class_3_34EEC4B8B3C14D2D : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::CompleteMove*>
 {

@@ -7,12 +7,12 @@ namespace RPG::GameCore { class WaypointMaterial; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_MAINSTORYCONFIG_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x198B8BF0)
-#define RPG_GAMECORE_MAINSTORYCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x198B8E70)
+#define RPG_GAMECORE_MAINSTORYCONFIG_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1BCDBCE0)
+#define RPG_GAMECORE_MAINSTORYCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1BCDBF60)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MainStoryConfig_TypeDefinitionIndex = 18013;
+	inline static constexpr unsigned int MainStoryConfig_TypeDefinitionIndex = 18217;
 
 	class MainStoryConfig : public ::RPG::GameCore::JsonConfig
 	{

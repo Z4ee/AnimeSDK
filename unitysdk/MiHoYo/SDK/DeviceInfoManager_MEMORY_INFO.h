@@ -4,7 +4,7 @@
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int DeviceInfoManager_MEMORY_INFO_TypeDefinitionIndex = 43883;
+	inline static constexpr unsigned int DeviceInfoManager_MEMORY_INFO_TypeDefinitionIndex = 44745;
 
 	struct alignas(8) DeviceInfoManager_MEMORY_INFO
 	{

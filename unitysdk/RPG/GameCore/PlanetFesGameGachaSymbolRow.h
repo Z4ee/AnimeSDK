@@ -5,12 +5,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_PLANETFESGAMEGACHASYMBOLROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x19A1D670)
-#define RPG_GAMECORE_PLANETFESGAMEGACHASYMBOLROW__CTOR_OFFSET UNITYSDK_OFFSET(0x19A1D7A0)
+#define RPG_GAMECORE_PLANETFESGAMEGACHASYMBOLROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B4D7710)
+#define RPG_GAMECORE_PLANETFESGAMEGACHASYMBOLROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1B4D7840)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PlanetFesGameGachaSymbolRow_TypeDefinitionIndex = 11687;
+	inline static constexpr unsigned int PlanetFesGameGachaSymbolRow_TypeDefinitionIndex = 11787;
 
 	class PlanetFesGameGachaSymbolRow : public ::System::Object
 	{

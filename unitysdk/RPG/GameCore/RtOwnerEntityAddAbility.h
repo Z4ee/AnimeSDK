@@ -8,13 +8,13 @@ namespace RPG::GameCore { class DynamicString; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_RTOWNERENTITYADDABILITY_METHOD_3_3E77564EECBEF652_OFFSET UNITYSDK_OFFSET(0x19BEEFB0)
-#define RPG_GAMECORE_RTOWNERENTITYADDABILITY_METHOD_3_D79532EBC8E4BF89_OFFSET UNITYSDK_OFFSET(0x19BEF030)
-#define RPG_GAMECORE_RTOWNERENTITYADDABILITY__CTOR_OFFSET UNITYSDK_OFFSET(0x19BEF000)
+#define RPG_GAMECORE_RTOWNERENTITYADDABILITY_METHOD_3_9FB20CD0F4F9A5F8_OFFSET UNITYSDK_OFFSET(0x1B767EF0)
+#define RPG_GAMECORE_RTOWNERENTITYADDABILITY_METHOD_3_D79532EBC8E4BF89_OFFSET UNITYSDK_OFFSET(0x1B767F30)
+#define RPG_GAMECORE_RTOWNERENTITYADDABILITY__CTOR_OFFSET UNITYSDK_OFFSET(0x1B767F20)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RtOwnerEntityAddAbility_TypeDefinitionIndex = 22760;
+	inline static constexpr unsigned int RtOwnerEntityAddAbility_TypeDefinitionIndex = 23227;
 
 	class RtOwnerEntityAddAbility : public ::RPG::GameCore::TaskConfig
 	{
@@ -27,9 +27,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_RTOWNERENTITYADDABILITY__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_3E77564EECBEF652(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::RtOwnerEntityAddAbility*& a2)
+		static ::System::Void Method_3_9FB20CD0F4F9A5F8(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::RtOwnerEntityAddAbility*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::RtOwnerEntityAddAbility*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_RTOWNERENTITYADDABILITY_METHOD_3_3E77564EECBEF652_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::RtOwnerEntityAddAbility*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_RTOWNERENTITYADDABILITY_METHOD_3_9FB20CD0F4F9A5F8_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_D79532EBC8E4BF89(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::RtOwnerEntityAddAbility* a2)

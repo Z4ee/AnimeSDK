@@ -6,12 +6,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_ANIMATIONNOTIFYCONFIG_METHOD_2_8B54E6C1CF65A389_OFFSET UNITYSDK_OFFSET(0x1947A970)
-#define RPG_GAMECORE_ANIMATIONNOTIFYCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1947ABC0)
+#define RPG_GAMECORE_ANIMATIONNOTIFYCONFIG_METHOD_2_8B54E6C1CF65A389_OFFSET UNITYSDK_OFFSET(0x1A057B10)
+#define RPG_GAMECORE_ANIMATIONNOTIFYCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1A057D60)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AnimationNotifyConfig_TypeDefinitionIndex = 16095;
+	inline static constexpr unsigned int AnimationNotifyConfig_TypeDefinitionIndex = 16279;
 
 	class AnimationNotifyConfig : public ::RPG::GameCore::JsonConfig
 	{

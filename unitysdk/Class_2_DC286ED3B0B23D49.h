@@ -1,0 +1,141 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/Class_1_CA217ABF4E3B4F3F.h"
+
+class Class_1_2FBF7E6E846E86B9;
+namespace System { class Object; }
+namespace System { class String; }
+namespace UnityEngine { class Animation; }
+namespace UnityEngine { class Transform; }
+namespace UnityEngine::UI { class Button; }
+
+#define CLASS_2_DC286ED3B0B23D49_AUTOBINDCALLBACK_OFFSET UNITYSDK_OFFSET(0x169B6C30)
+#define CLASS_2_DC286ED3B0B23D49_AUTOREMOVECALLBACK_OFFSET UNITYSDK_OFFSET(0x169B6DD0)
+#define CLASS_2_DC286ED3B0B23D49_METHOD_2_19B91D58E02869BC_OFFSET UNITYSDK_OFFSET(0x169B6660)
+#define CLASS_2_DC286ED3B0B23D49_METHOD_2_19CCC07C980409E4_OFFSET UNITYSDK_OFFSET(0x169B6710)
+#define CLASS_2_DC286ED3B0B23D49_METHOD_2_3C98CA656474384D_OFFSET UNITYSDK_OFFSET(0x169B6470)
+#define CLASS_2_DC286ED3B0B23D49_METHOD_2_4307B2A4B4A12C1A_OFFSET UNITYSDK_OFFSET(0x169B6120)
+#define CLASS_2_DC286ED3B0B23D49_METHOD_2_46D78B8894C3D058_OFFSET UNITYSDK_OFFSET(0x169B6290)
+#define CLASS_2_DC286ED3B0B23D49_METHOD_2_46F7B17180F18369_OFFSET UNITYSDK_OFFSET(0x169B6420)
+#define CLASS_2_DC286ED3B0B23D49_METHOD_2_558C6AE12602A241_1_OFFSET UNITYSDK_OFFSET(0x169B6790)
+#define CLASS_2_DC286ED3B0B23D49_METHOD_2_558C6AE12602A241_2_OFFSET UNITYSDK_OFFSET(0x169B6880)
+#define CLASS_2_DC286ED3B0B23D49_METHOD_2_558C6AE12602A241_OFFSET UNITYSDK_OFFSET(0x169B6610)
+#define CLASS_2_DC286ED3B0B23D49_METHOD_2_B6430A9CA64DFF87_OFFSET UNITYSDK_OFFSET(0x169B6230)
+#define CLASS_2_DC286ED3B0B23D49_METHOD_2_C450A961450309C9_OFFSET UNITYSDK_OFFSET(0x169B67E0)
+#define CLASS_2_DC286ED3B0B23D49_METHOD_2_F37CDBD6D46274D2_1_OFFSET UNITYSDK_OFFSET(0x169B6990)
+#define CLASS_2_DC286ED3B0B23D49_METHOD_2_F37CDBD6D46274D2_2_OFFSET UNITYSDK_OFFSET(0x169B6A50)
+#define CLASS_2_DC286ED3B0B23D49_METHOD_2_F37CDBD6D46274D2_3_OFFSET UNITYSDK_OFFSET(0x169B6B70)
+#define CLASS_2_DC286ED3B0B23D49_METHOD_2_F37CDBD6D46274D2_OFFSET UNITYSDK_OFFSET(0x169B68D0)
+#define CLASS_2_DC286ED3B0B23D49__CTOR_OFFSET UNITYSDK_OFFSET(0x169B6F40)
+#define CLASS_2_DC286ED3B0B23D49__ONBIND_OFFSET UNITYSDK_OFFSET(0x169B6000)
+
+inline static constexpr unsigned int Class_2_DC286ED3B0B23D49_TypeDefinitionIndex = 68418;
+
+class Class_2_DC286ED3B0B23D49 : public ::Class_1_CA217ABF4E3B4F3F
+{
+public:
+	// static const ::System::String* Field_2_0; // 0x0
+	// static const ::System::String* Field_2_1; // 0x0
+	// static const ::System::String* Field_2_2; // 0x0
+	::Class_1_2FBF7E6E846E86B9* Field_2_3; // 0x60
+	::UnityEngine::UI::Button* Field_2_4; // 0x68
+	::UnityEngine::Transform* Field_2_5; // 0x70
+	::UnityEngine::Animation* Field_2_6; // 0x78
+	::UnityEngine::Transform* Field_2_7; // 0x80
+	::System::Boolean Field_2_8; // 0x88
+
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_DC286ED3B0B23D49__CTOR_OFFSET))(this);
+	}
+
+	::System::Void _OnBind()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_DC286ED3B0B23D49__ONBIND_OFFSET))(this);
+	}
+
+	::System::Void Method_2_4307B2A4B4A12C1A()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_DC286ED3B0B23D49_METHOD_2_4307B2A4B4A12C1A_OFFSET))(this);
+	}
+
+	::System::Void Method_2_B6430A9CA64DFF87(::System::Boolean a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + CLASS_2_DC286ED3B0B23D49_METHOD_2_B6430A9CA64DFF87_OFFSET))(this, a1);
+	}
+
+	::System::Void Method_2_46F7B17180F18369()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_DC286ED3B0B23D49_METHOD_2_46F7B17180F18369_OFFSET))(this);
+	}
+
+	::System::Void Method_2_558C6AE12602A241()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_DC286ED3B0B23D49_METHOD_2_558C6AE12602A241_OFFSET))(this);
+	}
+
+	::System::Void Method_2_19B91D58E02869BC()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_DC286ED3B0B23D49_METHOD_2_19B91D58E02869BC_OFFSET))(this);
+	}
+
+	::System::Void Method_2_3C98CA656474384D()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_DC286ED3B0B23D49_METHOD_2_3C98CA656474384D_OFFSET))(this);
+	}
+
+	::System::Void Method_2_558C6AE12602A241_1()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_DC286ED3B0B23D49_METHOD_2_558C6AE12602A241_1_OFFSET))(this);
+	}
+
+	::System::Void Method_2_46D78B8894C3D058(::System::Boolean a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + CLASS_2_DC286ED3B0B23D49_METHOD_2_46D78B8894C3D058_OFFSET))(this, a1);
+	}
+
+	::System::Void Method_2_C450A961450309C9(::System::Object* a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + CLASS_2_DC286ED3B0B23D49_METHOD_2_C450A961450309C9_OFFSET))(this, a1);
+	}
+
+	::System::Void Method_2_19CCC07C980409E4(::System::Boolean a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + CLASS_2_DC286ED3B0B23D49_METHOD_2_19CCC07C980409E4_OFFSET))(this, a1);
+	}
+
+	::System::Void Method_2_558C6AE12602A241_2()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_DC286ED3B0B23D49_METHOD_2_558C6AE12602A241_2_OFFSET))(this);
+	}
+
+	::System::Void Method_2_F37CDBD6D46274D2(::System::Object* a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + CLASS_2_DC286ED3B0B23D49_METHOD_2_F37CDBD6D46274D2_OFFSET))(this, a1);
+	}
+
+	::System::Void Method_2_F37CDBD6D46274D2_1(::System::Object* a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + CLASS_2_DC286ED3B0B23D49_METHOD_2_F37CDBD6D46274D2_1_OFFSET))(this, a1);
+	}
+
+	::System::Void Method_2_F37CDBD6D46274D2_2(::System::Object* a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + CLASS_2_DC286ED3B0B23D49_METHOD_2_F37CDBD6D46274D2_2_OFFSET))(this, a1);
+	}
+
+	::System::Void Method_2_F37CDBD6D46274D2_3(::System::Object* a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + CLASS_2_DC286ED3B0B23D49_METHOD_2_F37CDBD6D46274D2_3_OFFSET))(this, a1);
+	}
+
+	::System::Void AutoBindCallback()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_DC286ED3B0B23D49_AUTOBINDCALLBACK_OFFSET))(this);
+	}
+
+	::System::Void AutoRemoveCallback()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_DC286ED3B0B23D49_AUTOREMOVECALLBACK_OFFSET))(this);
+	}
+};

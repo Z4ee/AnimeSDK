@@ -5,11 +5,10 @@
 namespace RPG::GameCore { class TaskContext; }
 namespace RPG::GameCore { class UniversalHotFixPredicateA; }
 
-#define CLASS_4_0ED3E774484252E6_EVALUATE_OFFSET UNITYSDK_OFFSET(0x142F1B00)
-#define CLASS_4_0ED3E774484252E6__CTOR_OFFSET UNITYSDK_OFFSET(0x142F1A80)
-#define CLASS_4_0ED3E774484252E6___IFIXBASEPROXY_EVALUATE_OFFSET UNITYSDK_OFFSET(0x142F1B40)
+#define CLASS_4_0ED3E774484252E6_EVALUATE_OFFSET UNITYSDK_OFFSET(0x1670B970)
+#define CLASS_4_0ED3E774484252E6__CTOR_OFFSET UNITYSDK_OFFSET(0x1670B8F0)
 
-inline static constexpr unsigned int Class_4_0ED3E774484252E6_TypeDefinitionIndex = 52107;
+inline static constexpr unsigned int Class_4_0ED3E774484252E6_TypeDefinitionIndex = 53264;
 
 class Class_4_0ED3E774484252E6 : public ::Class_3_75DBBBC880985ABC
 {
@@ -22,10 +21,5 @@ public:
 	::System::Boolean Evaluate()
 	{
 		return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_4_0ED3E774484252E6_EVALUATE_OFFSET))(this);
-	}
-
-	::System::Boolean __iFixBaseProxy_Evaluate()
-	{
-		return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_4_0ED3E774484252E6___IFIXBASEPROXY_EVALUATE_OFFSET))(this);
 	}
 };

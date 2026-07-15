@@ -1,11 +1,10 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/GameFramework/FileSystem/FileSystemAccess.h"
 
-class Class_1_6C719BA8F85845D8;
-namespace System { class String; }
+class Class_2_B9E8C2EEAA5C96EC;
+namespace UnityEngine { class Collider; }
 
-inline static constexpr unsigned int Class_0_16E4307DCC419505_272_TypeDefinitionIndex = 40446;
+inline static constexpr unsigned int Class_0_16E4307DCC419505_272_TypeDefinitionIndex = 41026;
 
 class Class_0_16E4307DCC419505_272
 {

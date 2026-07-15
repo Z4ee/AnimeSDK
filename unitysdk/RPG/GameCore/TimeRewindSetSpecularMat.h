@@ -6,13 +6,13 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class DynamicFloat; }
 namespace RPG::GameCore { class TargetEvaluator; }
 
-#define RPG_GAMECORE_TIMEREWINDSETSPECULARMAT_METHOD_3_1578C07DD4CC866E_OFFSET UNITYSDK_OFFSET(0x19DE7D10)
-#define RPG_GAMECORE_TIMEREWINDSETSPECULARMAT_METHOD_3_C19CA4B012FF8815_OFFSET UNITYSDK_OFFSET(0x19DE7D90)
-#define RPG_GAMECORE_TIMEREWINDSETSPECULARMAT__CTOR_OFFSET UNITYSDK_OFFSET(0x19DE7D60)
+#define RPG_GAMECORE_TIMEREWINDSETSPECULARMAT_METHOD_3_01C92C03315DB188_OFFSET UNITYSDK_OFFSET(0x1C1544A0)
+#define RPG_GAMECORE_TIMEREWINDSETSPECULARMAT_METHOD_3_C19CA4B012FF8815_OFFSET UNITYSDK_OFFSET(0x1C1544E0)
+#define RPG_GAMECORE_TIMEREWINDSETSPECULARMAT__CTOR_OFFSET UNITYSDK_OFFSET(0x1C1544D0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TimeRewindSetSpecularMat_TypeDefinitionIndex = 19503;
+	inline static constexpr unsigned int TimeRewindSetSpecularMat_TypeDefinitionIndex = 19861;
 
 	class TimeRewindSetSpecularMat : public ::RPG::GameCore::TaskConfig
 	{
@@ -26,9 +26,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TIMEREWINDSETSPECULARMAT__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_1578C07DD4CC866E(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::TimeRewindSetSpecularMat*& a2)
+		static ::System::Void Method_3_01C92C03315DB188(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::TimeRewindSetSpecularMat*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::TimeRewindSetSpecularMat*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TIMEREWINDSETSPECULARMAT_METHOD_3_1578C07DD4CC866E_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::TimeRewindSetSpecularMat*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TIMEREWINDSETSPECULARMAT_METHOD_3_01C92C03315DB188_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_C19CA4B012FF8815(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::TimeRewindSetSpecularMat* a2)

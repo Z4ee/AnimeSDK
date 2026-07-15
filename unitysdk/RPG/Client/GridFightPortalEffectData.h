@@ -5,17 +5,17 @@
 namespace RPG::Client { class GridFightBonusResultData; }
 namespace RPG::Client { class GridFightBonusSrcInfo; }
 
-#define RPG_CLIENT_GRIDFIGHTPORTALEFFECTDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xBBCF390)
+#define RPG_CLIENT_GRIDFIGHTPORTALEFFECTDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1AE9F970)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GridFightPortalEffectData_TypeDefinitionIndex = 60181;
+	inline static constexpr unsigned int GridFightPortalEffectData_TypeDefinitionIndex = 61467;
 
 	class GridFightPortalEffectData : public ::System::Object
 	{
 	public:
-		::RPG::Client::GridFightBonusResultData* Bonus; // 0x10
-		::RPG::Client::GridFightBonusSrcInfo* SrcInfo; // 0x18
+		::RPG::Client::GridFightBonusSrcInfo* SrcInfo; // 0x10
+		::RPG::Client::GridFightBonusResultData* Bonus; // 0x18
 
 		::System::Void _ctor(::System::UInt32 a1)
 		{

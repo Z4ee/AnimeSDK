@@ -11,45 +11,45 @@ namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Concurrent { template <typename T1, typename T2> class ConcurrentDictionary_2; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_ACHIEVEMENTLEVELEXCELTABLE_GETDATA_OFFSET UNITYSDK_OFFSET(0x193C78E0)
-#define RPG_GAMECORE_ACHIEVEMENTLEVELEXCELTABLE_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x193C7770)
-#define RPG_GAMECORE_ACHIEVEMENTLEVELEXCELTABLE_GET_DATADICT_OFFSET UNITYSDK_OFFSET(0x193C7460)
-#define RPG_GAMECORE_ACHIEVEMENTLEVELEXCELTABLE_ISDATAEMPTY_OFFSET UNITYSDK_OFFSET(0x193C7710)
-#define RPG_GAMECORE_ACHIEVEMENTLEVELEXCELTABLE_ISDATALOADED_OFFSET UNITYSDK_OFFSET(0x193C7A70)
-#define RPG_GAMECORE_ACHIEVEMENTLEVELEXCELTABLE_LOADDATA_OFFSET UNITYSDK_OFFSET(0x193C74E0)
-#define RPG_GAMECORE_ACHIEVEMENTLEVELEXCELTABLE_UNLOADDATA_OFFSET UNITYSDK_OFFSET(0x193C7AB0)
-#define RPG_GAMECORE_ACHIEVEMENTLEVELEXCELTABLE__ADDITEMFROMBINARY_OFFSET UNITYSDK_OFFSET(0x193C7C80)
-#define RPG_GAMECORE_ACHIEVEMENTLEVELEXCELTABLE__ADDITEM_OFFSET UNITYSDK_OFFSET(0x193C7E80)
-#define RPG_GAMECORE_ACHIEVEMENTLEVELEXCELTABLE__CCTOR_OFFSET UNITYSDK_OFFSET(0x193C81F0)
-#define RPG_GAMECORE_ACHIEVEMENTLEVELEXCELTABLE__LOADDATAINCREMENTIAL_OFFSET UNITYSDK_OFFSET(0x193C7BE0)
-#define RPG_GAMECORE_ACHIEVEMENTLEVELEXCELTABLE__LOADDATA_OFFSET UNITYSDK_OFFSET(0x193C7B40)
+#define RPG_GAMECORE_ACHIEVEMENTLEVELEXCELTABLE_GETDATA_OFFSET UNITYSDK_OFFSET(0x1B9FB330)
+#define RPG_GAMECORE_ACHIEVEMENTLEVELEXCELTABLE_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x1B9FB1C0)
+#define RPG_GAMECORE_ACHIEVEMENTLEVELEXCELTABLE_GET_DATADICT_OFFSET UNITYSDK_OFFSET(0x1B9FAEB0)
+#define RPG_GAMECORE_ACHIEVEMENTLEVELEXCELTABLE_ISDATAEMPTY_OFFSET UNITYSDK_OFFSET(0x1B9FB160)
+#define RPG_GAMECORE_ACHIEVEMENTLEVELEXCELTABLE_ISDATALOADED_OFFSET UNITYSDK_OFFSET(0x1B9FB4C0)
+#define RPG_GAMECORE_ACHIEVEMENTLEVELEXCELTABLE_LOADDATA_OFFSET UNITYSDK_OFFSET(0x1B9FAF30)
+#define RPG_GAMECORE_ACHIEVEMENTLEVELEXCELTABLE_UNLOADDATA_OFFSET UNITYSDK_OFFSET(0x1B9FB500)
+#define RPG_GAMECORE_ACHIEVEMENTLEVELEXCELTABLE__ADDITEMFROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B9FB6D0)
+#define RPG_GAMECORE_ACHIEVEMENTLEVELEXCELTABLE__ADDITEM_OFFSET UNITYSDK_OFFSET(0x1B9FB8D0)
+#define RPG_GAMECORE_ACHIEVEMENTLEVELEXCELTABLE__CCTOR_OFFSET UNITYSDK_OFFSET(0x1B9FBC40)
+#define RPG_GAMECORE_ACHIEVEMENTLEVELEXCELTABLE__LOADDATAINCREMENTIAL_OFFSET UNITYSDK_OFFSET(0x1B9FB630)
+#define RPG_GAMECORE_ACHIEVEMENTLEVELEXCELTABLE__LOADDATA_OFFSET UNITYSDK_OFFSET(0x1B9FB590)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AchievementLevelExcelTable_TypeDefinitionIndex = 10489;
+	inline static constexpr unsigned int AchievementLevelExcelTable_TypeDefinitionIndex = 10537;
 
 	class AchievementLevelExcelTable : public ::System::Object
 	{
 	public:
-		static ::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::AchievementLevelRow*>** StaticGet_dataDict_()
+		static ::System::Action_1<::Class_1_7A22A3DBEEDD1F80*>** StaticGet__AddItemFromBinary_ActionInst()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::AchievementLevelRow*>**)Il2CppClass::FromTypeDefinitionIndex(AchievementLevelExcelTable_TypeDefinitionIndex)->GetStaticField(0x591F0);
+			return (::System::Action_1<::Class_1_7A22A3DBEEDD1F80*>**)Il2CppClass::FromTypeDefinitionIndex(AchievementLevelExcelTable_TypeDefinitionIndex)->GetStaticField(0x19250);
 		}
 		static ::Il2CppArray<::System::String*>** StaticGet_s_PathList()
 		{
-			return (::Il2CppArray<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(AchievementLevelExcelTable_TypeDefinitionIndex)->GetStaticField(0x591F8);
+			return (::Il2CppArray<::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(AchievementLevelExcelTable_TypeDefinitionIndex)->GetStaticField(0x19258);
 		}
-		static ::System::Action_1<::Class_1_7A22A3DBEEDD1F80*>** StaticGet__AddItemFromBinary_ActionInst()
+		static ::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::AchievementLevelRow*>** StaticGet_dataDict_()
 		{
-			return (::System::Action_1<::Class_1_7A22A3DBEEDD1F80*>**)Il2CppClass::FromTypeDefinitionIndex(AchievementLevelExcelTable_TypeDefinitionIndex)->GetStaticField(0x59200);
+			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::AchievementLevelRow*>**)Il2CppClass::FromTypeDefinitionIndex(AchievementLevelExcelTable_TypeDefinitionIndex)->GetStaticField(0x19260);
 		}
 		static ::System::Byte* StaticGet_HashIndex()
 		{
-			return (::System::Byte*)Il2CppClass::FromTypeDefinitionIndex(AchievementLevelExcelTable_TypeDefinitionIndex)->GetStaticField(0x11B40);
+			return (::System::Byte*)Il2CppClass::FromTypeDefinitionIndex(AchievementLevelExcelTable_TypeDefinitionIndex)->GetStaticField(0x5E40);
 		}
 		static ::System::Boolean* StaticGet_isDataLoaded()
 		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(AchievementLevelExcelTable_TypeDefinitionIndex)->GetStaticField(0x11B41);
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(AchievementLevelExcelTable_TypeDefinitionIndex)->GetStaticField(0x5E41);
 		}
 
 		static ::System::Void _cctor()

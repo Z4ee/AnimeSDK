@@ -1,10 +1,8 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/RPG/Client/AssetsStaticFlag.h"
+#include "unitysdk/Struct_2_2EDCA7D63D6FF2D7.h"
 
-namespace System { class String; }
-
-inline static constexpr unsigned int Class_0_16E4307DCC419505_72_TypeDefinitionIndex = 38475;
+inline static constexpr unsigned int Class_0_16E4307DCC419505_72_TypeDefinitionIndex = 35588;
 
 class Class_0_16E4307DCC419505_72
 {

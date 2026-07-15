@@ -6,12 +6,12 @@ namespace System::Net { class HttpWebRequest; }
 namespace System::Net { class SimpleAsyncResult; }
 namespace System::Net { class WebAsyncResult; }
 
-#define SYSTEM_NET_HTTPWEBREQUEST___C__DISPLAYCLASS238_0__BEGINGETRESPONSE_B__0_OFFSET UNITYSDK_OFFSET(0x1AF933C0)
-#define SYSTEM_NET_HTTPWEBREQUEST___C__DISPLAYCLASS238_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1AF8D8E0)
+#define SYSTEM_NET_HTTPWEBREQUEST___C__DISPLAYCLASS238_0__BEGINGETRESPONSE_B__0_OFFSET UNITYSDK_OFFSET(0x1960F970)
+#define SYSTEM_NET_HTTPWEBREQUEST___C__DISPLAYCLASS238_0__CTOR_OFFSET UNITYSDK_OFFSET(0x19609370)
 
 namespace System::Net
 {
-	inline static constexpr unsigned int HttpWebRequest___c__DisplayClass238_0_TypeDefinitionIndex = 2849;
+	inline static constexpr unsigned int HttpWebRequest___c__DisplayClass238_0_TypeDefinitionIndex = 2853;
 
 	class HttpWebRequest___c__DisplayClass238_0 : public ::System::Object
 	{

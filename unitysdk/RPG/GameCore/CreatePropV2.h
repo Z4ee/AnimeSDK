@@ -6,13 +6,13 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class DynamicFloat; }
 namespace RPG::GameCore { class GroupEntityInfo; }
 
-#define RPG_GAMECORE_CREATEPROPV2_METHOD_3_A18E1F54A9336EDD_OFFSET UNITYSDK_OFFSET(0x19684690)
-#define RPG_GAMECORE_CREATEPROPV2_METHOD_3_E8A539822E4C0B14_OFFSET UNITYSDK_OFFSET(0x19684710)
-#define RPG_GAMECORE_CREATEPROPV2__CTOR_OFFSET UNITYSDK_OFFSET(0x196846E0)
+#define RPG_GAMECORE_CREATEPROPV2_METHOD_3_53D616E486108181_OFFSET UNITYSDK_OFFSET(0x1BC3C6D0)
+#define RPG_GAMECORE_CREATEPROPV2_METHOD_3_E8A539822E4C0B14_OFFSET UNITYSDK_OFFSET(0x1BC3C710)
+#define RPG_GAMECORE_CREATEPROPV2__CTOR_OFFSET UNITYSDK_OFFSET(0x1BC3C700)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int CreatePropV2_TypeDefinitionIndex = 20726;
+	inline static constexpr unsigned int CreatePropV2_TypeDefinitionIndex = 21141;
 
 	class CreatePropV2 : public ::RPG::GameCore::TaskConfig
 	{
@@ -26,9 +26,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CREATEPROPV2__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_A18E1F54A9336EDD(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::CreatePropV2*& a2)
+		static ::System::Void Method_3_53D616E486108181(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::CreatePropV2*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::CreatePropV2*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CREATEPROPV2_METHOD_3_A18E1F54A9336EDD_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::CreatePropV2*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CREATEPROPV2_METHOD_3_53D616E486108181_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_E8A539822E4C0B14(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::CreatePropV2* a2)

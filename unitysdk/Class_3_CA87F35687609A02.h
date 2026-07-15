@@ -6,13 +6,12 @@ namespace RPG::GameCore { class SetEffectAnimatorState; }
 namespace RPG::GameCore { class TaskContext; }
 namespace UnityEngine { class Animator; }
 
-#define CLASS_3_CA87F35687609A02_DISPOSE_OFFSET UNITYSDK_OFFSET(0x13D26C90)
-#define CLASS_3_CA87F35687609A02_METHOD_3_0724EFB1A18E7075_OFFSET UNITYSDK_OFFSET(0x13D26E50)
-#define CLASS_3_CA87F35687609A02_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x13D26CD0)
-#define CLASS_3_CA87F35687609A02__CTOR_OFFSET UNITYSDK_OFFSET(0x13D26C60)
-#define CLASS_3_CA87F35687609A02___IFIXBASEPROXY_DISPOSE_OFFSET UNITYSDK_OFFSET(0x13D26F80)
+#define CLASS_3_CA87F35687609A02_DISPOSE_OFFSET UNITYSDK_OFFSET(0x186CB480)
+#define CLASS_3_CA87F35687609A02_METHOD_3_28ACD069B2AF029A_OFFSET UNITYSDK_OFFSET(0x186CB610)
+#define CLASS_3_CA87F35687609A02_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x186CB4C0)
+#define CLASS_3_CA87F35687609A02__CTOR_OFFSET UNITYSDK_OFFSET(0x186CB450)
 
-inline static constexpr unsigned int Class_3_CA87F35687609A02_TypeDefinitionIndex = 51827;
+inline static constexpr unsigned int Class_3_CA87F35687609A02_TypeDefinitionIndex = 52975;
 
 class Class_3_CA87F35687609A02 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::SetEffectAnimatorState*>
 {
@@ -32,13 +31,8 @@ public:
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_3_CA87F35687609A02_ONTASKBEGIN_OFFSET))(this);
 	}
 
-	::System::Void Method_3_0724EFB1A18E7075(::UnityEngine::Animator* a1)
+	::System::Void Method_3_28ACD069B2AF029A(::UnityEngine::Animator* a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::UnityEngine::Animator*))((::PBYTE)hIl2Cpp + CLASS_3_CA87F35687609A02_METHOD_3_0724EFB1A18E7075_OFFSET))(this, a1);
-	}
-
-	::System::Void __iFixBaseProxy_Dispose()
-	{
-		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_3_CA87F35687609A02___IFIXBASEPROXY_DISPOSE_OFFSET))(this);
+		return ((::System::Void(*)(::PVOID, ::UnityEngine::Animator*))((::PBYTE)hIl2Cpp + CLASS_3_CA87F35687609A02_METHOD_3_28ACD069B2AF029A_OFFSET))(this, a1);
 	}
 };

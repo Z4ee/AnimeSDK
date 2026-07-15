@@ -6,28 +6,28 @@
 namespace UnityEngine { class LineRenderer; }
 namespace UnityEngine { class Material; }
 
-#define CLASS_1_DD6E273E77666B37_GET_FINISH_OFFSET UNITYSDK_OFFSET(0xB05EFC0)
-#define CLASS_1_DD6E273E77666B37_METHOD_1_CDFCB4F1AB271783_OFFSET UNITYSDK_OFFSET(0xB05ED90)
-#define CLASS_1_DD6E273E77666B37_SET_FINISH_OFFSET UNITYSDK_OFFSET(0xB05EFD0)
-#define CLASS_1_DD6E273E77666B37__CCTOR_OFFSET UNITYSDK_OFFSET(0xB05EFE0)
-#define CLASS_1_DD6E273E77666B37__CTOR_OFFSET UNITYSDK_OFFSET(0xB05EC20)
+#define CLASS_1_DD6E273E77666B37_GET_FINISH_OFFSET UNITYSDK_OFFSET(0x1745AC30)
+#define CLASS_1_DD6E273E77666B37_METHOD_1_CDFCB4F1AB271783_OFFSET UNITYSDK_OFFSET(0x1745AA00)
+#define CLASS_1_DD6E273E77666B37_SET_FINISH_OFFSET UNITYSDK_OFFSET(0x1745AC40)
+#define CLASS_1_DD6E273E77666B37__CCTOR_OFFSET UNITYSDK_OFFSET(0x1745AC50)
+#define CLASS_1_DD6E273E77666B37__CTOR_OFFSET UNITYSDK_OFFSET(0x1745A890)
 
-inline static constexpr unsigned int Class_1_DD6E273E77666B37_TypeDefinitionIndex = 73046;
+inline static constexpr unsigned int Class_1_DD6E273E77666B37_TypeDefinitionIndex = 74571;
 
 class Class_1_DD6E273E77666B37 : public ::System::Object
 {
 public:
 	static ::System::Int32* StaticGet_Field_1_0()
 	{
-		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Class_1_DD6E273E77666B37_TypeDefinitionIndex)->GetStaticField(0xE010);
+		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(Class_1_DD6E273E77666B37_TypeDefinitionIndex)->GetStaticField(0x8E30);
 	}
-	::Il2CppArray<::UnityEngine::Material*>* Field_1_1; // 0x10
-	::UnityEngine::LineRenderer* Field_1_2; // 0x18
-	::Il2CppArray<::UnityEngine::Color>* Field_1_3; // 0x20
-	::System::Single Field_1_4; // 0x28
+	::UnityEngine::LineRenderer* Field_1_1; // 0x10
+	::Il2CppArray<::UnityEngine::Color>* Field_1_2; // 0x18
+	::Il2CppArray<::UnityEngine::Material*>* Field_1_3; // 0x20
+	::System::Boolean _Finish_k__BackingField; // 0x28
 	::System::Single Field_1_5; // 0x2C
 	::System::Single Field_1_6; // 0x30
-	::System::Boolean _Finish_k__BackingField; // 0x34
+	::System::Single Field_1_7; // 0x34
 
 	::System::Void _ctor(::UnityEngine::LineRenderer* a1, ::System::Single a2, ::System::Single a3)
 	{

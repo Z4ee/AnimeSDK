@@ -6,7 +6,7 @@
 
 namespace System { class String; }
 
-inline static constexpr unsigned int Struct_2_65D7BE12F72F5758_TypeDefinitionIndex = 51836;
+inline static constexpr unsigned int Struct_2_65D7BE12F72F5758_TypeDefinitionIndex = 52984;
 
 struct alignas(8) Struct_2_65D7BE12F72F5758
 {
@@ -20,4 +20,5 @@ struct alignas(8) Struct_2_65D7BE12F72F5758
 	::System::Nullable_1<::System::Int32> Field_2_7; // 0x40
 	::System::String* Field_2_8; // 0x48
 	::Il2CppArray<::System::String*>* Field_2_9; // 0x50
+	::System::Nullable_1<::System::Boolean> Field_2_10; // 0x58
 };

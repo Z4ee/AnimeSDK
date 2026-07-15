@@ -4,12 +4,12 @@
 
 namespace System::Xml { class XmlNode; }
 
-#define SYSTEM_DIAGNOSTICS_DIAGNOSTICSCONFIGURATIONHANDLER_CREATE_OFFSET UNITYSDK_OFFSET(0x1AF44630)
-#define SYSTEM_DIAGNOSTICS_DIAGNOSTICSCONFIGURATIONHANDLER__CTOR_OFFSET UNITYSDK_OFFSET(0x1AF445F0)
+#define SYSTEM_DIAGNOSTICS_DIAGNOSTICSCONFIGURATIONHANDLER_CREATE_OFFSET UNITYSDK_OFFSET(0x1916CB20)
+#define SYSTEM_DIAGNOSTICS_DIAGNOSTICSCONFIGURATIONHANDLER__CTOR_OFFSET UNITYSDK_OFFSET(0x1916CAE0)
 
 namespace System::Diagnostics
 {
-	inline static constexpr unsigned int DiagnosticsConfigurationHandler_TypeDefinitionIndex = 3079;
+	inline static constexpr unsigned int DiagnosticsConfigurationHandler_TypeDefinitionIndex = 3083;
 
 	class DiagnosticsConfigurationHandler : public ::System::Object
 	{

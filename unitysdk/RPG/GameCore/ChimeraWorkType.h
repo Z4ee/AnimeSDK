@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ChimeraWorkType_TypeDefinitionIndex = 12384;
+	inline static constexpr unsigned int ChimeraWorkType_TypeDefinitionIndex = 12517;
 
 	enum class ChimeraWorkType : ::System::Int32
 	{

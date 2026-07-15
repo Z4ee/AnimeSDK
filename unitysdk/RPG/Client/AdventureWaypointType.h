@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int AdventureWaypointType_TypeDefinitionIndex = 64600;
+	inline static constexpr unsigned int AdventureWaypointType_TypeDefinitionIndex = 66001;
 
 	enum class AdventureWaypointType : ::System::Int32
 	{

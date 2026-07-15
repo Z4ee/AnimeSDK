@@ -6,10 +6,10 @@
 
 namespace UnityEngine { class AnimationCurve; }
 
-#define TRAINPARTYSUBAREACAMERABLEND_GETCONFIG_OFFSET UNITYSDK_OFFSET(0xD0E6080)
-#define TRAINPARTYSUBAREACAMERABLEND__CTOR_OFFSET UNITYSDK_OFFSET(0xD0E6100)
+#define TRAINPARTYSUBAREACAMERABLEND_GETCONFIG_OFFSET UNITYSDK_OFFSET(0x10528D30)
+#define TRAINPARTYSUBAREACAMERABLEND__CTOR_OFFSET UNITYSDK_OFFSET(0x10528DB0)
 
-inline static constexpr unsigned int TrainPartySubAreaCameraBlend_TypeDefinitionIndex = 44456;
+inline static constexpr unsigned int TrainPartySubAreaCameraBlend_TypeDefinitionIndex = 45328;
 
 class TrainPartySubAreaCameraBlend : public ::UnityEngine::MonoBehaviour
 {

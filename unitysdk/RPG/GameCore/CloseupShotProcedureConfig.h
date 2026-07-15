@@ -6,12 +6,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_CLOSEUPSHOTPROCEDURECONFIG_METHOD_2_DFD37354171A66F7_OFFSET UNITYSDK_OFFSET(0x19664860)
-#define RPG_GAMECORE_CLOSEUPSHOTPROCEDURECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x19664FF0)
+#define RPG_GAMECORE_CLOSEUPSHOTPROCEDURECONFIG_METHOD_2_35F8BED0A63117EE_OFFSET UNITYSDK_OFFSET(0x1BC1F1F0)
+#define RPG_GAMECORE_CLOSEUPSHOTPROCEDURECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1BC1F9D0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int CloseupShotProcedureConfig_TypeDefinitionIndex = 15592;
+	inline static constexpr unsigned int CloseupShotProcedureConfig_TypeDefinitionIndex = 15764;
 
 	class CloseupShotProcedureConfig : public ::RPG::GameCore::JsonConfig
 	{
@@ -37,16 +37,17 @@ namespace RPG::GameCore
 		::System::String* AnchorOffsetIntensityBlendCurvePath; // 0x60
 		::System::Boolean UseLightTeamOffsetByTeamWidth; // 0x68
 		::System::Boolean UseDarkTeamOffsetByTeamWidth; // 0x69
-		::System::Boolean ApplyMonsterDynamicOffset; // 0x6A
+		::System::Boolean InspectAimVisibleForDynamicOffset; // 0x6A
+		::System::Boolean ApplyMonsterDynamicOffset; // 0x6B
 
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CLOSEUPSHOTPROCEDURECONFIG__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_2_DFD37354171A66F7(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::CloseupShotProcedureConfig*& a2)
+		static ::System::Void Method_2_35F8BED0A63117EE(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::CloseupShotProcedureConfig*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::CloseupShotProcedureConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CLOSEUPSHOTPROCEDURECONFIG_METHOD_2_DFD37354171A66F7_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::CloseupShotProcedureConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CLOSEUPSHOTPROCEDURECONFIG_METHOD_2_35F8BED0A63117EE_OFFSET))(a1, a2);
 		}
 	};
 }

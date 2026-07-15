@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PPEffectFilterPriorityGroup_TypeDefinitionIndex = 23145;
+	inline static constexpr unsigned int PPEffectFilterPriorityGroup_TypeDefinitionIndex = 23625;
 
 	enum class PPEffectFilterPriorityGroup : ::System::Int32
 	{

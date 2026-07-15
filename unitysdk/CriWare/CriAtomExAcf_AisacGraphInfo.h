@@ -3,11 +3,11 @@
 #include "unitysdk/CriWare/CriAtomExAcf_AisacGraphType.h"
 #include "unitysdk/System/ValueType.h"
 
-#define CRIWARE_CRIATOMEXACF_AISACGRAPHINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x2BD46B0)
+#define CRIWARE_CRIATOMEXACF_AISACGRAPHINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x3A17EF0)
 
 namespace CriWare
 {
-	inline static constexpr unsigned int CriAtomExAcf_AisacGraphInfo_TypeDefinitionIndex = 37078;
+	inline static constexpr unsigned int CriAtomExAcf_AisacGraphInfo_TypeDefinitionIndex = 37878;
 
 	struct alignas(4) CriAtomExAcf_AisacGraphInfo
 	{

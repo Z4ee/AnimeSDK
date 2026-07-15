@@ -6,12 +6,11 @@ namespace System { class String; }
 namespace UnityEngine { class MaterialPropertyBlock; }
 namespace UnityEngine { class Renderer; }
 
-#define CLASS_1_D3ACE0DDA55D6A06_METHOD_1_8FAD57395F26ACC4_OFFSET UNITYSDK_OFFSET(0x141F7050)
-#define CLASS_1_D3ACE0DDA55D6A06_TOSTRING_OFFSET UNITYSDK_OFFSET(0x141F7110)
-#define CLASS_1_D3ACE0DDA55D6A06__CTOR_OFFSET UNITYSDK_OFFSET(0x141F6FD0)
-#define CLASS_1_D3ACE0DDA55D6A06___IFIXBASEPROXY_TOSTRING_OFFSET UNITYSDK_OFFSET(0x141F7420)
+#define CLASS_1_D3ACE0DDA55D6A06_METHOD_1_8FAD57395F26ACC4_OFFSET UNITYSDK_OFFSET(0x179E8730)
+#define CLASS_1_D3ACE0DDA55D6A06_TOSTRING_OFFSET UNITYSDK_OFFSET(0x179E87F0)
+#define CLASS_1_D3ACE0DDA55D6A06__CTOR_OFFSET UNITYSDK_OFFSET(0x179E86B0)
 
-inline static constexpr unsigned int Class_1_D3ACE0DDA55D6A06_TypeDefinitionIndex = 65619;
+inline static constexpr unsigned int Class_1_D3ACE0DDA55D6A06_TypeDefinitionIndex = 67036;
 
 class Class_1_D3ACE0DDA55D6A06 : public ::System::Object
 {
@@ -35,10 +34,5 @@ public:
 	::System::String* ToString()
 	{
 		return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_D3ACE0DDA55D6A06_TOSTRING_OFFSET))(this);
-	}
-
-	::System::String* __iFixBaseProxy_ToString()
-	{
-		return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_D3ACE0DDA55D6A06___IFIXBASEPROXY_TOSTRING_OFFSET))(this);
 	}
 };

@@ -7,17 +7,14 @@
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine::Timeline { class TimelineClip; }
 
-#define RPGTOOLS_TIMELINE_AUDIO_WWISEEXTERNALAUDIOTRACK_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0xCFDB550)
-#define RPGTOOLS_TIMELINE_AUDIO_WWISEEXTERNALAUDIOTRACK_CREATETRACKMIXER_OFFSET UNITYSDK_OFFSET(0xCFDB650)
-#define RPGTOOLS_TIMELINE_AUDIO_WWISEEXTERNALAUDIOTRACK_ONCREATECLIP_OFFSET UNITYSDK_OFFSET(0xCFDB720)
-#define RPGTOOLS_TIMELINE_AUDIO_WWISEEXTERNALAUDIOTRACK__CTOR_OFFSET UNITYSDK_OFFSET(0xCFDB860)
-#define RPGTOOLS_TIMELINE_AUDIO_WWISEEXTERNALAUDIOTRACK___IFIXBASEPROXY_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0xCFDB940)
-#define RPGTOOLS_TIMELINE_AUDIO_WWISEEXTERNALAUDIOTRACK___IFIXBASEPROXY_CREATETRACKMIXER_OFFSET UNITYSDK_OFFSET(0xCFDB980)
-#define RPGTOOLS_TIMELINE_AUDIO_WWISEEXTERNALAUDIOTRACK___IFIXBASEPROXY_ONCREATECLIP_OFFSET UNITYSDK_OFFSET(0xCFDBA20)
+#define RPGTOOLS_TIMELINE_AUDIO_WWISEEXTERNALAUDIOTRACK_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0x1B345080)
+#define RPGTOOLS_TIMELINE_AUDIO_WWISEEXTERNALAUDIOTRACK_CREATETRACKMIXER_OFFSET UNITYSDK_OFFSET(0x1B345180)
+#define RPGTOOLS_TIMELINE_AUDIO_WWISEEXTERNALAUDIOTRACK_ONCREATECLIP_OFFSET UNITYSDK_OFFSET(0x1B345250)
+#define RPGTOOLS_TIMELINE_AUDIO_WWISEEXTERNALAUDIOTRACK__CTOR_OFFSET UNITYSDK_OFFSET(0x1B345390)
 
 namespace RPGTools::Timeline::Audio
 {
-	inline static constexpr unsigned int WwiseExternalAudioTrack_TypeDefinitionIndex = 46101;
+	inline static constexpr unsigned int WwiseExternalAudioTrack_TypeDefinitionIndex = 47040;
 
 	class WwiseExternalAudioTrack : public ::UnityEngine::Timeline::TrackAsset
 	{
@@ -40,21 +37,6 @@ namespace RPGTools::Timeline::Audio
 		::System::Void OnCreateClip(::UnityEngine::Timeline::TimelineClip* a1)
 		{
 			return ((::System::Void(*)(::PVOID, ::UnityEngine::Timeline::TimelineClip*))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_AUDIO_WWISEEXTERNALAUDIOTRACK_ONCREATECLIP_OFFSET))(this, a1);
-		}
-
-		::UnityEngine::Playables::Playable __iFixBaseProxy_CreatePlayable(::UnityEngine::Playables::PlayableGraph a1, ::UnityEngine::GameObject* a2, ::UnityEngine::Timeline::TimelineClip* a3)
-		{
-			return ((::UnityEngine::Playables::Playable(*)(::PVOID, ::UnityEngine::Playables::PlayableGraph, ::UnityEngine::GameObject*, ::UnityEngine::Timeline::TimelineClip*))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_AUDIO_WWISEEXTERNALAUDIOTRACK___IFIXBASEPROXY_CREATEPLAYABLE_OFFSET))(this, a1, a2, a3);
-		}
-
-		::UnityEngine::Playables::Playable __iFixBaseProxy_CreateTrackMixer(::UnityEngine::Playables::PlayableGraph a1, ::UnityEngine::GameObject* a2, ::System::Int32 a3)
-		{
-			return ((::UnityEngine::Playables::Playable(*)(::PVOID, ::UnityEngine::Playables::PlayableGraph, ::UnityEngine::GameObject*, ::System::Int32))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_AUDIO_WWISEEXTERNALAUDIOTRACK___IFIXBASEPROXY_CREATETRACKMIXER_OFFSET))(this, a1, a2, a3);
-		}
-
-		::System::Void __iFixBaseProxy_OnCreateClip(::UnityEngine::Timeline::TimelineClip* a1)
-		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Timeline::TimelineClip*))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_AUDIO_WWISEEXTERNALAUDIOTRACK___IFIXBASEPROXY_ONCREATECLIP_OFFSET))(this, a1);
 		}
 	};
 }

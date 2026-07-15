@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AetherSpiritType_TypeDefinitionIndex = 10496;
+	inline static constexpr unsigned int AetherSpiritType_TypeDefinitionIndex = 10544;
 
 	enum class AetherSpiritType : ::System::Int32
 	{

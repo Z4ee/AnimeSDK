@@ -5,24 +5,24 @@
 namespace MiHoYo::SDK { class AccountPlatformPlugin_MessageHandler; }
 namespace System { class String; }
 
-#define MIHOYO_SDK_WIN_NOTICEMANAGER_NATIVENOTICE___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x182829B0)
-#define MIHOYO_SDK_WIN_NOTICEMANAGER_NATIVENOTICE___C__CTOR_OFFSET UNITYSDK_OFFSET(0x182829E0)
-#define MIHOYO_SDK_WIN_NOTICEMANAGER_NATIVENOTICE___C__TRYONSETSERVERID_B__9_0_OFFSET UNITYSDK_OFFSET(0x182829F0)
+#define MIHOYO_SDK_WIN_NOTICEMANAGER_NATIVENOTICE___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1713F2D0)
+#define MIHOYO_SDK_WIN_NOTICEMANAGER_NATIVENOTICE___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1713F300)
+#define MIHOYO_SDK_WIN_NOTICEMANAGER_NATIVENOTICE___C__TRYONSETSERVERID_B__9_0_OFFSET UNITYSDK_OFFSET(0x1713F310)
 
 namespace MiHoYo::SDK::Win
 {
-	inline static constexpr unsigned int NoticeManager_NativeNotice___c_TypeDefinitionIndex = 9054;
+	inline static constexpr unsigned int NoticeManager_NativeNotice___c_TypeDefinitionIndex = 9066;
 
 	class NoticeManager_NativeNotice___c : public ::System::Object
 	{
 	public:
-		static ::MiHoYo::SDK::AccountPlatformPlugin_MessageHandler** StaticGet___9__9_0()
-		{
-			return (::MiHoYo::SDK::AccountPlatformPlugin_MessageHandler**)Il2CppClass::FromTypeDefinitionIndex(NoticeManager_NativeNotice___c_TypeDefinitionIndex)->GetStaticField(0x2B000);
-		}
 		static ::MiHoYo::SDK::Win::NoticeManager_NativeNotice___c** StaticGet___9()
 		{
-			return (::MiHoYo::SDK::Win::NoticeManager_NativeNotice___c**)Il2CppClass::FromTypeDefinitionIndex(NoticeManager_NativeNotice___c_TypeDefinitionIndex)->GetStaticField(0x2B008);
+			return (::MiHoYo::SDK::Win::NoticeManager_NativeNotice___c**)Il2CppClass::FromTypeDefinitionIndex(NoticeManager_NativeNotice___c_TypeDefinitionIndex)->GetStaticField(0x2E600);
+		}
+		static ::MiHoYo::SDK::AccountPlatformPlugin_MessageHandler** StaticGet___9__9_0()
+		{
+			return (::MiHoYo::SDK::AccountPlatformPlugin_MessageHandler**)Il2CppClass::FromTypeDefinitionIndex(NoticeManager_NativeNotice___c_TypeDefinitionIndex)->GetStaticField(0x2E608);
 		}
 
 		static ::System::Void _cctor()

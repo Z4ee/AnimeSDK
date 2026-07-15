@@ -3,7 +3,7 @@
 
 namespace HoudiniEngineUnity
 {
-	inline static constexpr unsigned int HAPI_RampType_TypeDefinitionIndex = 37491;
+	inline static constexpr unsigned int HAPI_RampType_TypeDefinitionIndex = 38299;
 
 	enum class HAPI_RampType : ::System::Int32
 	{

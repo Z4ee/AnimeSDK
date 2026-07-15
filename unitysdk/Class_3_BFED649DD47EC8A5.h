@@ -5,23 +5,23 @@
 #include "unitysdk/RPG/GameCore/TurnBasedModifierEvent.h"
 #include "unitysdk/Struct_2_5909FD7779934CCA.h"
 
-class Class_1_43BD383C98B4C0C5_119;
+class Class_1_43BD383C98B4C0C5_122;
 class Class_1_5469D397DAE62876;
 namespace RPG::GameCore { class GameEntity; }
 namespace RPG::GameCore { class HealHP; }
 namespace RPG::GameCore { class TaskContext; }
 namespace RPG::GameCore { class TurnBasedAbilityComponent; }
 
-#define CLASS_3_BFED649DD47EC8A5_METHOD_3_74197A0337864066_1_OFFSET UNITYSDK_OFFSET(0xA372160)
-#define CLASS_3_BFED649DD47EC8A5_METHOD_3_74197A0337864066_OFFSET UNITYSDK_OFFSET(0xA3717B0)
-#define CLASS_3_BFED649DD47EC8A5_METHOD_3_92CF59120A28AA50_OFFSET UNITYSDK_OFFSET(0xA3722C0)
-#define CLASS_3_BFED649DD47EC8A5_METHOD_3_B4F2463760064D0D_OFFSET UNITYSDK_OFFSET(0xA371E20)
-#define CLASS_3_BFED649DD47EC8A5_METHOD_3_EAA63686BD45042F_OFFSET UNITYSDK_OFFSET(0xA371910)
-#define CLASS_3_BFED649DD47EC8A5_METHOD_3_FCAF8B36BAF79EDC_OFFSET UNITYSDK_OFFSET(0xA371630)
-#define CLASS_3_BFED649DD47EC8A5_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xA370C90)
-#define CLASS_3_BFED649DD47EC8A5__CTOR_OFFSET UNITYSDK_OFFSET(0xA370C60)
+#define CLASS_3_BFED649DD47EC8A5_METHOD_3_74197A0337864066_1_OFFSET UNITYSDK_OFFSET(0x1562F9C0)
+#define CLASS_3_BFED649DD47EC8A5_METHOD_3_74197A0337864066_OFFSET UNITYSDK_OFFSET(0x1562F050)
+#define CLASS_3_BFED649DD47EC8A5_METHOD_3_92CF59120A28AA50_OFFSET UNITYSDK_OFFSET(0x1562FB20)
+#define CLASS_3_BFED649DD47EC8A5_METHOD_3_B4F2463760064D0D_OFFSET UNITYSDK_OFFSET(0x1562F680)
+#define CLASS_3_BFED649DD47EC8A5_METHOD_3_EAA63686BD45042F_OFFSET UNITYSDK_OFFSET(0x1562F1B0)
+#define CLASS_3_BFED649DD47EC8A5_METHOD_3_FCAF8B36BAF79EDC_OFFSET UNITYSDK_OFFSET(0x1562EED0)
+#define CLASS_3_BFED649DD47EC8A5_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1562E4A0)
+#define CLASS_3_BFED649DD47EC8A5__CTOR_OFFSET UNITYSDK_OFFSET(0x1562E470)
 
-inline static constexpr unsigned int Class_3_BFED649DD47EC8A5_TypeDefinitionIndex = 51454;
+inline static constexpr unsigned int Class_3_BFED649DD47EC8A5_TypeDefinitionIndex = 52596;
 
 class Class_3_BFED649DD47EC8A5 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::HealHP*>
 {
@@ -41,24 +41,24 @@ public:
 		return ((::RPG::GameCore::FixPoint(*)(::PVOID, ::RPG::GameCore::GameEntity*, ::RPG::GameCore::FixPoint, ::Struct_2_5909FD7779934CCA&))((::PBYTE)hIl2Cpp + CLASS_3_BFED649DD47EC8A5_METHOD_3_EAA63686BD45042F_OFFSET))(this, a1, a2, a3);
 	}
 
-	::System::Void Method_3_FCAF8B36BAF79EDC(::RPG::GameCore::TurnBasedAbilityComponent* a1, ::RPG::GameCore::TurnBasedAbilityComponent* a2, ::Class_1_43BD383C98B4C0C5_119* a3)
+	::System::Void Method_3_FCAF8B36BAF79EDC(::RPG::GameCore::TurnBasedAbilityComponent* a1, ::RPG::GameCore::TurnBasedAbilityComponent* a2, ::Class_1_43BD383C98B4C0C5_122* a3)
 	{
-		return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TurnBasedAbilityComponent*, ::RPG::GameCore::TurnBasedAbilityComponent*, ::Class_1_43BD383C98B4C0C5_119*))((::PBYTE)hIl2Cpp + CLASS_3_BFED649DD47EC8A5_METHOD_3_FCAF8B36BAF79EDC_OFFSET))(this, a1, a2, a3);
+		return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TurnBasedAbilityComponent*, ::RPG::GameCore::TurnBasedAbilityComponent*, ::Class_1_43BD383C98B4C0C5_122*))((::PBYTE)hIl2Cpp + CLASS_3_BFED649DD47EC8A5_METHOD_3_FCAF8B36BAF79EDC_OFFSET))(this, a1, a2, a3);
 	}
 
-	::System::Void Method_3_74197A0337864066(::RPG::GameCore::TurnBasedAbilityComponent* a1, ::RPG::GameCore::TurnBasedAbilityComponent* a2, ::Class_1_43BD383C98B4C0C5_119* a3)
+	::System::Void Method_3_74197A0337864066(::RPG::GameCore::TurnBasedAbilityComponent* a1, ::RPG::GameCore::TurnBasedAbilityComponent* a2, ::Class_1_43BD383C98B4C0C5_122* a3)
 	{
-		return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TurnBasedAbilityComponent*, ::RPG::GameCore::TurnBasedAbilityComponent*, ::Class_1_43BD383C98B4C0C5_119*))((::PBYTE)hIl2Cpp + CLASS_3_BFED649DD47EC8A5_METHOD_3_74197A0337864066_OFFSET))(this, a1, a2, a3);
+		return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TurnBasedAbilityComponent*, ::RPG::GameCore::TurnBasedAbilityComponent*, ::Class_1_43BD383C98B4C0C5_122*))((::PBYTE)hIl2Cpp + CLASS_3_BFED649DD47EC8A5_METHOD_3_74197A0337864066_OFFSET))(this, a1, a2, a3);
 	}
 
-	::System::Void Method_3_B4F2463760064D0D(::RPG::GameCore::TurnBasedAbilityComponent* a1, ::RPG::GameCore::TurnBasedAbilityComponent* a2, ::Class_1_43BD383C98B4C0C5_119* a3)
+	::System::Void Method_3_B4F2463760064D0D(::RPG::GameCore::TurnBasedAbilityComponent* a1, ::RPG::GameCore::TurnBasedAbilityComponent* a2, ::Class_1_43BD383C98B4C0C5_122* a3)
 	{
-		return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TurnBasedAbilityComponent*, ::RPG::GameCore::TurnBasedAbilityComponent*, ::Class_1_43BD383C98B4C0C5_119*))((::PBYTE)hIl2Cpp + CLASS_3_BFED649DD47EC8A5_METHOD_3_B4F2463760064D0D_OFFSET))(this, a1, a2, a3);
+		return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TurnBasedAbilityComponent*, ::RPG::GameCore::TurnBasedAbilityComponent*, ::Class_1_43BD383C98B4C0C5_122*))((::PBYTE)hIl2Cpp + CLASS_3_BFED649DD47EC8A5_METHOD_3_B4F2463760064D0D_OFFSET))(this, a1, a2, a3);
 	}
 
-	::System::Void Method_3_74197A0337864066_1(::RPG::GameCore::TurnBasedAbilityComponent* a1, ::RPG::GameCore::TurnBasedAbilityComponent* a2, ::Class_1_43BD383C98B4C0C5_119* a3)
+	::System::Void Method_3_74197A0337864066_1(::RPG::GameCore::TurnBasedAbilityComponent* a1, ::RPG::GameCore::TurnBasedAbilityComponent* a2, ::Class_1_43BD383C98B4C0C5_122* a3)
 	{
-		return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TurnBasedAbilityComponent*, ::RPG::GameCore::TurnBasedAbilityComponent*, ::Class_1_43BD383C98B4C0C5_119*))((::PBYTE)hIl2Cpp + CLASS_3_BFED649DD47EC8A5_METHOD_3_74197A0337864066_1_OFFSET))(this, a1, a2, a3);
+		return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TurnBasedAbilityComponent*, ::RPG::GameCore::TurnBasedAbilityComponent*, ::Class_1_43BD383C98B4C0C5_122*))((::PBYTE)hIl2Cpp + CLASS_3_BFED649DD47EC8A5_METHOD_3_74197A0337864066_1_OFFSET))(this, a1, a2, a3);
 	}
 
 	::System::Void Method_3_92CF59120A28AA50(::RPG::GameCore::TurnBasedAbilityComponent* a1, ::RPG::GameCore::TurnBasedModifierEvent a2, ::Class_1_5469D397DAE62876* a3)

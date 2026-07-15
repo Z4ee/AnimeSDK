@@ -5,13 +5,13 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class DynamicString; }
 
-#define RPG_GAMECORE_OWNERENTITYREMOVEABILITY_METHOD_3_0B6390D2B3CEB331_OFFSET UNITYSDK_OFFSET(0x199E0350)
-#define RPG_GAMECORE_OWNERENTITYREMOVEABILITY_METHOD_3_515E62B7E98E4758_OFFSET UNITYSDK_OFFSET(0x199E03D0)
-#define RPG_GAMECORE_OWNERENTITYREMOVEABILITY__CTOR_OFFSET UNITYSDK_OFFSET(0x199E03A0)
+#define RPG_GAMECORE_OWNERENTITYREMOVEABILITY_METHOD_3_515E62B7E98E4758_OFFSET UNITYSDK_OFFSET(0x1BB09B30)
+#define RPG_GAMECORE_OWNERENTITYREMOVEABILITY_METHOD_3_A2DFFED624F1D7FB_OFFSET UNITYSDK_OFFSET(0x1BB09AF0)
+#define RPG_GAMECORE_OWNERENTITYREMOVEABILITY__CTOR_OFFSET UNITYSDK_OFFSET(0x1BB09B20)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int OwnerEntityRemoveAbility_TypeDefinitionIndex = 22192;
+	inline static constexpr unsigned int OwnerEntityRemoveAbility_TypeDefinitionIndex = 22629;
 
 	class OwnerEntityRemoveAbility : public ::RPG::GameCore::TaskConfig
 	{
@@ -23,9 +23,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_OWNERENTITYREMOVEABILITY__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_0B6390D2B3CEB331(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::OwnerEntityRemoveAbility*& a2)
+		static ::System::Void Method_3_A2DFFED624F1D7FB(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::OwnerEntityRemoveAbility*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::OwnerEntityRemoveAbility*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_OWNERENTITYREMOVEABILITY_METHOD_3_0B6390D2B3CEB331_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::OwnerEntityRemoveAbility*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_OWNERENTITYREMOVEABILITY_METHOD_3_A2DFFED624F1D7FB_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_515E62B7E98E4758(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::OwnerEntityRemoveAbility* a2)

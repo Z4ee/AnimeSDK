@@ -3,7 +3,7 @@
 
 namespace Hdg
 {
-	inline static constexpr unsigned int SerialisationHelpers_PrimitiveType_TypeDefinitionIndex = 44298;
+	inline static constexpr unsigned int SerialisationHelpers_PrimitiveType_TypeDefinitionIndex = 45168;
 
 	enum class SerialisationHelpers_PrimitiveType : ::System::Int32
 	{

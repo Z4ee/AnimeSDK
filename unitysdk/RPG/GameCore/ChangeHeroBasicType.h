@@ -5,13 +5,13 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_CHANGEHEROBASICTYPE_METHOD_3_647648FD1F2CA112_OFFSET UNITYSDK_OFFSET(0x19604380)
-#define RPG_GAMECORE_CHANGEHEROBASICTYPE_METHOD_3_FF7D736561D83CD1_OFFSET UNITYSDK_OFFSET(0x19604400)
-#define RPG_GAMECORE_CHANGEHEROBASICTYPE__CTOR_OFFSET UNITYSDK_OFFSET(0x196043D0)
+#define RPG_GAMECORE_CHANGEHEROBASICTYPE_METHOD_3_0C83FECEEF7B5242_OFFSET UNITYSDK_OFFSET(0x1B71A460)
+#define RPG_GAMECORE_CHANGEHEROBASICTYPE_METHOD_3_FF7D736561D83CD1_OFFSET UNITYSDK_OFFSET(0x1B71A4A0)
+#define RPG_GAMECORE_CHANGEHEROBASICTYPE__CTOR_OFFSET UNITYSDK_OFFSET(0x1B71A490)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ChangeHeroBasicType_TypeDefinitionIndex = 19734;
+	inline static constexpr unsigned int ChangeHeroBasicType_TypeDefinitionIndex = 20093;
 
 	class ChangeHeroBasicType : public ::RPG::GameCore::TaskConfig
 	{
@@ -23,9 +23,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHANGEHEROBASICTYPE__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_647648FD1F2CA112(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ChangeHeroBasicType*& a2)
+		static ::System::Void Method_3_0C83FECEEF7B5242(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ChangeHeroBasicType*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ChangeHeroBasicType*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHANGEHEROBASICTYPE_METHOD_3_647648FD1F2CA112_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ChangeHeroBasicType*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHANGEHEROBASICTYPE_METHOD_3_0C83FECEEF7B5242_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_FF7D736561D83CD1(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ChangeHeroBasicType* a2)

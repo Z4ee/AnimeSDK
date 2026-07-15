@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ChimeraMotionType_TypeDefinitionIndex = 12383;
+	inline static constexpr unsigned int ChimeraMotionType_TypeDefinitionIndex = 12516;
 
 	enum class ChimeraMotionType : ::System::Int32
 	{

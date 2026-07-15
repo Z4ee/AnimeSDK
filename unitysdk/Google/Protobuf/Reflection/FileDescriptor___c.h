@@ -9,39 +9,39 @@ namespace Google::Protobuf::Reflection { class GeneratedClrTypeInfo; }
 namespace System { class String; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define GOOGLE_PROTOBUF_REFLECTION_FILEDESCRIPTOR___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x17E64170)
-#define GOOGLE_PROTOBUF_REFLECTION_FILEDESCRIPTOR___C__CTOR_OFFSET UNITYSDK_OFFSET(0x17E641B0)
-#define GOOGLE_PROTOBUF_REFLECTION_FILEDESCRIPTOR___C__DETERMINEPUBLICDEPENDENCIES_B__9_0_OFFSET UNITYSDK_OFFSET(0x17E641C0)
-#define GOOGLE_PROTOBUF_REFLECTION_FILEDESCRIPTOR___C__GETALLDEPENDEDEXTENSIONSFROMMESSAGE_B__52_0_OFFSET UNITYSDK_OFFSET(0x17E64270)
-#define GOOGLE_PROTOBUF_REFLECTION_FILEDESCRIPTOR___C__GETALLDEPENDEDEXTENSIONS_B__51_0_OFFSET UNITYSDK_OFFSET(0x17E64250)
-#define GOOGLE_PROTOBUF_REFLECTION_FILEDESCRIPTOR___C__GETALLGENERATEDEXTENSIONS_B__50_0_OFFSET UNITYSDK_OFFSET(0x17E64240)
+#define GOOGLE_PROTOBUF_REFLECTION_FILEDESCRIPTOR___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x19065D00)
+#define GOOGLE_PROTOBUF_REFLECTION_FILEDESCRIPTOR___C__CTOR_OFFSET UNITYSDK_OFFSET(0x19065D40)
+#define GOOGLE_PROTOBUF_REFLECTION_FILEDESCRIPTOR___C__DETERMINEPUBLICDEPENDENCIES_B__9_0_OFFSET UNITYSDK_OFFSET(0x19065D50)
+#define GOOGLE_PROTOBUF_REFLECTION_FILEDESCRIPTOR___C__GETALLDEPENDEDEXTENSIONSFROMMESSAGE_B__52_0_OFFSET UNITYSDK_OFFSET(0x19065E00)
+#define GOOGLE_PROTOBUF_REFLECTION_FILEDESCRIPTOR___C__GETALLDEPENDEDEXTENSIONS_B__51_0_OFFSET UNITYSDK_OFFSET(0x19065DE0)
+#define GOOGLE_PROTOBUF_REFLECTION_FILEDESCRIPTOR___C__GETALLGENERATEDEXTENSIONS_B__50_0_OFFSET UNITYSDK_OFFSET(0x19065DD0)
 
 namespace Google::Protobuf::Reflection
 {
-	inline static constexpr unsigned int FileDescriptor___c_TypeDefinitionIndex = 5543;
+	inline static constexpr unsigned int FileDescriptor___c_TypeDefinitionIndex = 5548;
 
 	class FileDescriptor___c : public ::System::Object
 	{
 	public:
 		static ::Google::Protobuf::Reflection::FileDescriptor___c** StaticGet___9()
 		{
-			return (::Google::Protobuf::Reflection::FileDescriptor___c**)Il2CppClass::FromTypeDefinitionIndex(FileDescriptor___c_TypeDefinitionIndex)->GetStaticField(0x3DF00);
-		}
-		static ::System::Func_2<::Google::Protobuf::Reflection::FieldDescriptor*, ::Google::Protobuf::Extension*>** StaticGet___9__52_0()
-		{
-			return (::System::Func_2<::Google::Protobuf::Reflection::FieldDescriptor*, ::Google::Protobuf::Extension*>**)Il2CppClass::FromTypeDefinitionIndex(FileDescriptor___c_TypeDefinitionIndex)->GetStaticField(0x3DF08);
-		}
-		static ::System::Func_2<::Google::Protobuf::Reflection::FileDescriptor*, ::System::String*>** StaticGet___9__9_0()
-		{
-			return (::System::Func_2<::Google::Protobuf::Reflection::FileDescriptor*, ::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(FileDescriptor___c_TypeDefinitionIndex)->GetStaticField(0x3DF10);
-		}
-		static ::System::Func_2<::Google::Protobuf::Reflection::FieldDescriptor*, ::Google::Protobuf::Extension*>** StaticGet___9__51_0()
-		{
-			return (::System::Func_2<::Google::Protobuf::Reflection::FieldDescriptor*, ::Google::Protobuf::Extension*>**)Il2CppClass::FromTypeDefinitionIndex(FileDescriptor___c_TypeDefinitionIndex)->GetStaticField(0x3DF18);
+			return (::Google::Protobuf::Reflection::FileDescriptor___c**)Il2CppClass::FromTypeDefinitionIndex(FileDescriptor___c_TypeDefinitionIndex)->GetStaticField(0x3DBF0);
 		}
 		static ::System::Func_2<::Google::Protobuf::Reflection::GeneratedClrTypeInfo*, ::System::Boolean>** StaticGet___9__50_0()
 		{
-			return (::System::Func_2<::Google::Protobuf::Reflection::GeneratedClrTypeInfo*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(FileDescriptor___c_TypeDefinitionIndex)->GetStaticField(0x3DF20);
+			return (::System::Func_2<::Google::Protobuf::Reflection::GeneratedClrTypeInfo*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(FileDescriptor___c_TypeDefinitionIndex)->GetStaticField(0x3DBF8);
+		}
+		static ::System::Func_2<::Google::Protobuf::Reflection::FieldDescriptor*, ::Google::Protobuf::Extension*>** StaticGet___9__52_0()
+		{
+			return (::System::Func_2<::Google::Protobuf::Reflection::FieldDescriptor*, ::Google::Protobuf::Extension*>**)Il2CppClass::FromTypeDefinitionIndex(FileDescriptor___c_TypeDefinitionIndex)->GetStaticField(0x3DC00);
+		}
+		static ::System::Func_2<::Google::Protobuf::Reflection::FieldDescriptor*, ::Google::Protobuf::Extension*>** StaticGet___9__51_0()
+		{
+			return (::System::Func_2<::Google::Protobuf::Reflection::FieldDescriptor*, ::Google::Protobuf::Extension*>**)Il2CppClass::FromTypeDefinitionIndex(FileDescriptor___c_TypeDefinitionIndex)->GetStaticField(0x3DC08);
+		}
+		static ::System::Func_2<::Google::Protobuf::Reflection::FileDescriptor*, ::System::String*>** StaticGet___9__9_0()
+		{
+			return (::System::Func_2<::Google::Protobuf::Reflection::FileDescriptor*, ::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(FileDescriptor___c_TypeDefinitionIndex)->GetStaticField(0x3DC10);
 		}
 
 		static ::System::Void _cctor()

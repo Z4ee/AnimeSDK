@@ -9,14 +9,15 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class FourRotateVoxelLevelCustomCameraParameterConfig; }
 namespace RPG::GameCore { class FourRotateVoxelLevelTargetProgressConfig; }
 namespace RPG::GameCore { class HoyoTagContainer; }
+namespace System { class String; }
 
-#define RPG_GAMECORE_FOURROTATEVOXELLEVELSETTINGS_METHOD_3_5E2F96AF3F8F3BC1_OFFSET UNITYSDK_OFFSET(0x1976A6F0)
-#define RPG_GAMECORE_FOURROTATEVOXELLEVELSETTINGS_METHOD_3_6822A70B3066EC50_OFFSET UNITYSDK_OFFSET(0x1976A730)
-#define RPG_GAMECORE_FOURROTATEVOXELLEVELSETTINGS__CTOR_OFFSET UNITYSDK_OFFSET(0x1976A720)
+#define RPG_GAMECORE_FOURROTATEVOXELLEVELSETTINGS_METHOD_3_5E2F96AF3F8F3BC1_OFFSET UNITYSDK_OFFSET(0x1B97C0F0)
+#define RPG_GAMECORE_FOURROTATEVOXELLEVELSETTINGS_METHOD_3_83FD12F3EA58A697_OFFSET UNITYSDK_OFFSET(0x1B97C130)
+#define RPG_GAMECORE_FOURROTATEVOXELLEVELSETTINGS__CTOR_OFFSET UNITYSDK_OFFSET(0x1B97C120)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FourRotateVoxelLevelSettings_TypeDefinitionIndex = 15922;
+	inline static constexpr unsigned int FourRotateVoxelLevelSettings_TypeDefinitionIndex = 16096;
 
 	class FourRotateVoxelLevelSettings : public ::RPG::GameCore::LittleGameLevelSettings
 	{
@@ -28,6 +29,11 @@ namespace RPG::GameCore
 		::System::Boolean IsNeedPedestal; // 0x24
 		::Il2CppArray<::RPG::GameCore::FourRotateVoxelLevelTargetProgressConfig*>* TargetProgressConfigs; // 0x28
 		::RPG::GameCore::FourRotateVoxelLevelCustomCameraParameterConfig* CustomCameraParameterConfig; // 0x30
+		::System::UInt32 SubMissionID; // 0x38
+		::System::Boolean SaveDimensionUpgradState; // 0x3C
+		::System::Boolean SkipOpeningPerformance; // 0x3D
+		::System::Boolean LockSceneRotation; // 0x3E
+		::System::String* LockedRotateWarningTextID; // 0x40
 
 		::System::Void _ctor()
 		{
@@ -39,9 +45,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::FourRotateVoxelLevelSettings*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FOURROTATEVOXELLEVELSETTINGS_METHOD_3_5E2F96AF3F8F3BC1_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_6822A70B3066EC50(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::FourRotateVoxelLevelSettings* a2)
+		static ::System::Void Method_3_83FD12F3EA58A697(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::FourRotateVoxelLevelSettings* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::FourRotateVoxelLevelSettings*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FOURROTATEVOXELLEVELSETTINGS_METHOD_3_6822A70B3066EC50_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::FourRotateVoxelLevelSettings*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FOURROTATEVOXELLEVELSETTINGS_METHOD_3_83FD12F3EA58A697_OFFSET))(a1, a2);
 		}
 	};
 }

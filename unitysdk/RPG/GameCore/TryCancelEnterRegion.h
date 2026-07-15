@@ -4,13 +4,13 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_TRYCANCELENTERREGION_METHOD_3_6CB2664263ABAAAC_OFFSET UNITYSDK_OFFSET(0x19E20D00)
-#define RPG_GAMECORE_TRYCANCELENTERREGION_METHOD_3_F6D874473C25E338_OFFSET UNITYSDK_OFFSET(0x19E20E10)
-#define RPG_GAMECORE_TRYCANCELENTERREGION__CTOR_OFFSET UNITYSDK_OFFSET(0x19E20DE0)
+#define RPG_GAMECORE_TRYCANCELENTERREGION_METHOD_3_6CFE27F24F6E7275_OFFSET UNITYSDK_OFFSET(0x1B062840)
+#define RPG_GAMECORE_TRYCANCELENTERREGION_METHOD_3_F6D874473C25E338_OFFSET UNITYSDK_OFFSET(0x1B062910)
+#define RPG_GAMECORE_TRYCANCELENTERREGION__CTOR_OFFSET UNITYSDK_OFFSET(0x1B062900)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TryCancelEnterRegion_TypeDefinitionIndex = 19614;
+	inline static constexpr unsigned int TryCancelEnterRegion_TypeDefinitionIndex = 19973;
 
 	class TryCancelEnterRegion : public ::RPG::GameCore::TaskConfig
 	{
@@ -20,9 +20,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TRYCANCELENTERREGION__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_6CB2664263ABAAAC(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::TryCancelEnterRegion*& a2)
+		static ::System::Void Method_3_6CFE27F24F6E7275(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::TryCancelEnterRegion*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::TryCancelEnterRegion*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TRYCANCELENTERREGION_METHOD_3_6CB2664263ABAAAC_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::TryCancelEnterRegion*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TRYCANCELENTERREGION_METHOD_3_6CFE27F24F6E7275_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_F6D874473C25E338(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::TryCancelEnterRegion* a2)

@@ -7,10 +7,10 @@ namespace RPG::GameCore { class TargetMapDamageChunkTargetList; }
 namespace RPG::GameCore { class TaskContext; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_2_8C5B35EE2B611EFB_TRANSFORM_OFFSET UNITYSDK_OFFSET(0x145B4920)
-#define CLASS_2_8C5B35EE2B611EFB__CTOR_OFFSET UNITYSDK_OFFSET(0x145B4900)
+#define CLASS_2_8C5B35EE2B611EFB_TRANSFORM_OFFSET UNITYSDK_OFFSET(0x116193B0)
+#define CLASS_2_8C5B35EE2B611EFB__CTOR_OFFSET UNITYSDK_OFFSET(0x11619390)
 
-inline static constexpr unsigned int Class_2_8C5B35EE2B611EFB_TypeDefinitionIndex = 55265;
+inline static constexpr unsigned int Class_2_8C5B35EE2B611EFB_TypeDefinitionIndex = 56502;
 
 class Class_2_8C5B35EE2B611EFB : public ::RPG::GameCore::TargetSeqOperationImpl_1<::RPG::GameCore::TargetMapDamageChunkTargetList*>
 {

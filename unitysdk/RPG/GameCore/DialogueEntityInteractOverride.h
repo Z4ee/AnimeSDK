@@ -5,12 +5,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class VCameraBlend; }
 
-#define RPG_GAMECORE_DIALOGUEENTITYINTERACTOVERRIDE_METHOD_2_11C05085C39B8404_OFFSET UNITYSDK_OFFSET(0x1969EB50)
-#define RPG_GAMECORE_DIALOGUEENTITYINTERACTOVERRIDE__CTOR_OFFSET UNITYSDK_OFFSET(0x1969EC80)
+#define RPG_GAMECORE_DIALOGUEENTITYINTERACTOVERRIDE_METHOD_2_11C05085C39B8404_OFFSET UNITYSDK_OFFSET(0x1C107A00)
+#define RPG_GAMECORE_DIALOGUEENTITYINTERACTOVERRIDE__CTOR_OFFSET UNITYSDK_OFFSET(0x1C107B30)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int DialogueEntityInteractOverride_TypeDefinitionIndex = 19254;
+	inline static constexpr unsigned int DialogueEntityInteractOverride_TypeDefinitionIndex = 19610;
 
 	class DialogueEntityInteractOverride : public ::RPG::GameCore::JsonConfig
 	{

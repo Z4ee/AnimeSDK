@@ -4,13 +4,12 @@
 
 namespace System { class String; }
 
-#define RPG_CLIENT_ROGUEMIRACLEIDENTIFIER_TOSTRING_OFFSET UNITYSDK_OFFSET(0x143390)
-#define RPG_CLIENT_ROGUEMIRACLEIDENTIFIER__CTOR_OFFSET UNITYSDK_OFFSET(0x2C4C0)
-#define RPG_CLIENT_ROGUEMIRACLEIDENTIFIER___IFIXBASEPROXY_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1433F0)
+#define RPG_CLIENT_ROGUEMIRACLEIDENTIFIER_TOSTRING_OFFSET UNITYSDK_OFFSET(0x39E6930)
+#define RPG_CLIENT_ROGUEMIRACLEIDENTIFIER__CTOR_OFFSET UNITYSDK_OFFSET(0x167520)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int RogueMiracleIdentifier_TypeDefinitionIndex = 62917;
+	inline static constexpr unsigned int RogueMiracleIdentifier_TypeDefinitionIndex = 64284;
 
 	struct alignas(4) RogueMiracleIdentifier
 	{
@@ -24,11 +23,6 @@ namespace RPG::Client
 		::System::String* ToString()
 		{
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUEMIRACLEIDENTIFIER_TOSTRING_OFFSET))(this);
-		}
-
-		::System::String* __iFixBaseProxy_ToString()
-		{
-			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ROGUEMIRACLEIDENTIFIER___IFIXBASEPROXY_TOSTRING_OFFSET))(this);
 		}
 	};
 }

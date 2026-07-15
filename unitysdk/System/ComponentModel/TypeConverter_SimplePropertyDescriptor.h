@@ -6,12 +6,12 @@ namespace System { class Attribute; }
 namespace System { class String; }
 namespace System { class Type; }
 
-#define SYSTEM_COMPONENTMODEL_TYPECONVERTER_SIMPLEPROPERTYDESCRIPTOR_GET_PROPERTYTYPE_OFFSET UNITYSDK_OFFSET(0x1AF36E80)
-#define SYSTEM_COMPONENTMODEL_TYPECONVERTER_SIMPLEPROPERTYDESCRIPTOR__CTOR_OFFSET UNITYSDK_OFFSET(0x1AF36E40)
+#define SYSTEM_COMPONENTMODEL_TYPECONVERTER_SIMPLEPROPERTYDESCRIPTOR_GET_PROPERTYTYPE_OFFSET UNITYSDK_OFFSET(0x1915B5A0)
+#define SYSTEM_COMPONENTMODEL_TYPECONVERTER_SIMPLEPROPERTYDESCRIPTOR__CTOR_OFFSET UNITYSDK_OFFSET(0x1915B560)
 
 namespace System::ComponentModel
 {
-	inline static constexpr unsigned int TypeConverter_SimplePropertyDescriptor_TypeDefinitionIndex = 2620;
+	inline static constexpr unsigned int TypeConverter_SimplePropertyDescriptor_TypeDefinitionIndex = 2624;
 
 	class TypeConverter_SimplePropertyDescriptor : public ::System::ComponentModel::PropertyDescriptor
 	{

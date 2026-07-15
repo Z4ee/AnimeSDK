@@ -6,20 +6,19 @@ namespace RPG::GameCore { class SetCharLightToEntityDir; }
 namespace RPG::GameCore { class TaskContext; }
 namespace System { class String; }
 
-#define CLASS_3_AED991C1285CF42D_DISPOSE_OFFSET UNITYSDK_OFFSET(0xAED5A00)
-#define CLASS_3_AED991C1285CF42D_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xAED5A40)
-#define CLASS_3_AED991C1285CF42D__CCTOR_OFFSET UNITYSDK_OFFSET(0xAED63A0)
-#define CLASS_3_AED991C1285CF42D__CTOR_OFFSET UNITYSDK_OFFSET(0xAED59D0)
-#define CLASS_3_AED991C1285CF42D___IFIXBASEPROXY_DISPOSE_OFFSET UNITYSDK_OFFSET(0xAED63E0)
+#define CLASS_3_AED991C1285CF42D_DISPOSE_OFFSET UNITYSDK_OFFSET(0x14D75EB0)
+#define CLASS_3_AED991C1285CF42D_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x14D75EF0)
+#define CLASS_3_AED991C1285CF42D__CCTOR_OFFSET UNITYSDK_OFFSET(0x14D76BC0)
+#define CLASS_3_AED991C1285CF42D__CTOR_OFFSET UNITYSDK_OFFSET(0x14D75E80)
 
-inline static constexpr unsigned int Class_3_AED991C1285CF42D_TypeDefinitionIndex = 49742;
+inline static constexpr unsigned int Class_3_AED991C1285CF42D_TypeDefinitionIndex = 50796;
 
 class Class_3_AED991C1285CF42D : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::SetCharLightToEntityDir*>
 {
 public:
 	static ::System::String** StaticGet_Field_3_0()
 	{
-		return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(Class_3_AED991C1285CF42D_TypeDefinitionIndex)->GetStaticField(0x33870);
+		return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(Class_3_AED991C1285CF42D_TypeDefinitionIndex)->GetStaticField(0x273C0);
 	}
 
 	::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::SetCharLightToEntityDir* a2)
@@ -40,10 +39,5 @@ public:
 	::System::Void OnTaskBegin()
 	{
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_3_AED991C1285CF42D_ONTASKBEGIN_OFFSET))(this);
-	}
-
-	::System::Void __iFixBaseProxy_Dispose()
-	{
-		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_3_AED991C1285CF42D___IFIXBASEPROXY_DISPOSE_OFFSET))(this);
 	}
 };

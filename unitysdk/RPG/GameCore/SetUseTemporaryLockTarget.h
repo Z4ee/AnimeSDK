@@ -5,13 +5,13 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class TargetEvaluator; }
 
-#define RPG_GAMECORE_SETUSETEMPORARYLOCKTARGET_METHOD_3_A43CE4B8DC109410_OFFSET UNITYSDK_OFFSET(0x19C66810)
-#define RPG_GAMECORE_SETUSETEMPORARYLOCKTARGET_METHOD_3_CA244DB90EE693B2_OFFSET UNITYSDK_OFFSET(0x19C66890)
-#define RPG_GAMECORE_SETUSETEMPORARYLOCKTARGET__CTOR_OFFSET UNITYSDK_OFFSET(0x19C66860)
+#define RPG_GAMECORE_SETUSETEMPORARYLOCKTARGET_METHOD_3_34FF86BEB3875E2D_OFFSET UNITYSDK_OFFSET(0x1C60F8B0)
+#define RPG_GAMECORE_SETUSETEMPORARYLOCKTARGET_METHOD_3_CA244DB90EE693B2_OFFSET UNITYSDK_OFFSET(0x1C60F8F0)
+#define RPG_GAMECORE_SETUSETEMPORARYLOCKTARGET__CTOR_OFFSET UNITYSDK_OFFSET(0x1C60F8E0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SetUseTemporaryLockTarget_TypeDefinitionIndex = 21254;
+	inline static constexpr unsigned int SetUseTemporaryLockTarget_TypeDefinitionIndex = 21669;
 
 	class SetUseTemporaryLockTarget : public ::RPG::GameCore::TaskConfig
 	{
@@ -24,9 +24,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETUSETEMPORARYLOCKTARGET__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_A43CE4B8DC109410(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SetUseTemporaryLockTarget*& a2)
+		static ::System::Void Method_3_34FF86BEB3875E2D(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SetUseTemporaryLockTarget*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SetUseTemporaryLockTarget*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETUSETEMPORARYLOCKTARGET_METHOD_3_A43CE4B8DC109410_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SetUseTemporaryLockTarget*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETUSETEMPORARYLOCKTARGET_METHOD_3_34FF86BEB3875E2D_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_CA244DB90EE693B2(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SetUseTemporaryLockTarget* a2)

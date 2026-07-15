@@ -8,14 +8,14 @@ namespace System { class Object; }
 namespace UnityEngine::Events { template <typename T> class UnityAction_1; }
 namespace UnityEngine::Events { template <typename T> class UnityEvent_1; }
 
-#define XLUA_INTERNALGLOBALS___GEN_DELEGATE36_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x12E88DB0)
-#define XLUA_INTERNALGLOBALS___GEN_DELEGATE36_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x12E88DF0)
-#define XLUA_INTERNALGLOBALS___GEN_DELEGATE36_INVOKE_OFFSET UNITYSDK_OFFSET(0x12E88DA0)
-#define XLUA_INTERNALGLOBALS___GEN_DELEGATE36__CTOR_OFFSET UNITYSDK_OFFSET(0x12E88CB0)
+#define XLUA_INTERNALGLOBALS___GEN_DELEGATE36_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x11CEA5E0)
+#define XLUA_INTERNALGLOBALS___GEN_DELEGATE36_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x11CEA620)
+#define XLUA_INTERNALGLOBALS___GEN_DELEGATE36_INVOKE_OFFSET UNITYSDK_OFFSET(0x11CEA5D0)
+#define XLUA_INTERNALGLOBALS___GEN_DELEGATE36__CTOR_OFFSET UNITYSDK_OFFSET(0x11CEA4E0)
 
 namespace XLua
 {
-	inline static constexpr unsigned int InternalGlobals___GEN_DELEGATE36_TypeDefinitionIndex = 46952;
+	inline static constexpr unsigned int InternalGlobals___GEN_DELEGATE36_TypeDefinitionIndex = 47917;
 
 	class InternalGlobals___GEN_DELEGATE36 : public ::System::MulticastDelegate
 	{
@@ -25,14 +25,14 @@ namespace XLua
 			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + XLUA_INTERNALGLOBALS___GEN_DELEGATE36__CTOR_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void Invoke(::UnityEngine::Events::UnityEvent_1<::System::Single>* a1, ::UnityEngine::Events::UnityAction_1<::System::Single>* a2)
+		::System::Void Invoke(::UnityEngine::Events::UnityEvent_1<::System::Int32>* a1, ::UnityEngine::Events::UnityAction_1<::System::Int32>* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Events::UnityEvent_1<::System::Single>*, ::UnityEngine::Events::UnityAction_1<::System::Single>*))((::PBYTE)hIl2Cpp + XLUA_INTERNALGLOBALS___GEN_DELEGATE36_INVOKE_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Events::UnityEvent_1<::System::Int32>*, ::UnityEngine::Events::UnityAction_1<::System::Int32>*))((::PBYTE)hIl2Cpp + XLUA_INTERNALGLOBALS___GEN_DELEGATE36_INVOKE_OFFSET))(this, a1, a2);
 		}
 
-		::System::IAsyncResult* BeginInvoke(::UnityEngine::Events::UnityEvent_1<::System::Single>* a1, ::UnityEngine::Events::UnityAction_1<::System::Single>* a2, ::System::AsyncCallback* a3, ::System::Object* a4)
+		::System::IAsyncResult* BeginInvoke(::UnityEngine::Events::UnityEvent_1<::System::Int32>* a1, ::UnityEngine::Events::UnityAction_1<::System::Int32>* a2, ::System::AsyncCallback* a3, ::System::Object* a4)
 		{
-			return ((::System::IAsyncResult*(*)(::PVOID, ::UnityEngine::Events::UnityEvent_1<::System::Single>*, ::UnityEngine::Events::UnityAction_1<::System::Single>*, ::System::AsyncCallback*, ::System::Object*))((::PBYTE)hIl2Cpp + XLUA_INTERNALGLOBALS___GEN_DELEGATE36_BEGININVOKE_OFFSET))(this, a1, a2, a3, a4);
+			return ((::System::IAsyncResult*(*)(::PVOID, ::UnityEngine::Events::UnityEvent_1<::System::Int32>*, ::UnityEngine::Events::UnityAction_1<::System::Int32>*, ::System::AsyncCallback*, ::System::Object*))((::PBYTE)hIl2Cpp + XLUA_INTERNALGLOBALS___GEN_DELEGATE36_BEGININVOKE_OFFSET))(this, a1, a2, a3, a4);
 		}
 
 		::System::Void EndInvoke(::System::IAsyncResult* a1)

@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int AkSpeakerPanningType_TypeDefinitionIndex = 41172;
+inline static constexpr unsigned int AkSpeakerPanningType_TypeDefinitionIndex = 41987;
 
 enum class AkSpeakerPanningType : ::System::Int32
 {

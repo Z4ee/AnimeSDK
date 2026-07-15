@@ -5,7 +5,7 @@
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int DeformationSetting_TypeDefinitionIndex = 4262;
+	inline static constexpr unsigned int DeformationSetting_TypeDefinitionIndex = 4267;
 
 	struct alignas(4) DeformationSetting
 	{

@@ -1,21 +1,21 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Struct_2_019938BC9C50B169_1.h"
+#include "unitysdk/Struct_2_D645B4E0B73852B6.h"
 #include "unitysdk/System/Object.h"
 
 namespace RPG::AvatarSystem { class IAvatar; }
 namespace System { template <typename T> class Predicate_1; }
 
-#define CLASS_1_7D46F1066EF90FA6_3___C__DISPLAYCLASS19_0__CTOR_OFFSET UNITYSDK_OFFSET(0xA4479E0)
-#define CLASS_1_7D46F1066EF90FA6_3___C__DISPLAYCLASS19_0__FILLSPECIFICPATHAVATARSBYROLETO_B__0_OFFSET UNITYSDK_OFFSET(0xA447B20)
+#define CLASS_1_7D46F1066EF90FA6_3___C__DISPLAYCLASS19_0__CTOR_OFFSET UNITYSDK_OFFSET(0x188D42C0)
+#define CLASS_1_7D46F1066EF90FA6_3___C__DISPLAYCLASS19_0__FILLSPECIFICPATHAVATARSBYROLETO_B__0_OFFSET UNITYSDK_OFFSET(0x188D43E0)
 
-inline static constexpr unsigned int Class_1_7D46F1066EF90FA6_3___c__DisplayClass19_0_TypeDefinitionIndex = 58639;
+inline static constexpr unsigned int Class_1_7D46F1066EF90FA6_3___c__DisplayClass19_0_TypeDefinitionIndex = 59910;
 
 class Class_1_7D46F1066EF90FA6_3___c__DisplayClass19_0 : public ::System::Object
 {
 public:
 	::System::Predicate_1<::RPG::AvatarSystem::IAvatar*>* __9__0; // 0x10
-	::Struct_2_019938BC9C50B169_1 roleIdentifier; // 0x18
+	::Struct_2_D645B4E0B73852B6 roleIdentifier; // 0x18
 
 	::System::Void _ctor()
 	{

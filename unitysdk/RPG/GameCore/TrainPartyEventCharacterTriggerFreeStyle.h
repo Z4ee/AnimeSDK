@@ -6,13 +6,13 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class TargetEvaluator; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_TRAINPARTYEVENTCHARACTERTRIGGERFREESTYLE_METHOD_3_7BAAA3EA3C6F0ECA_OFFSET UNITYSDK_OFFSET(0x19DF5160)
-#define RPG_GAMECORE_TRAINPARTYEVENTCHARACTERTRIGGERFREESTYLE_METHOD_3_FA59B346496D8B1D_OFFSET UNITYSDK_OFFSET(0x19DF50E0)
-#define RPG_GAMECORE_TRAINPARTYEVENTCHARACTERTRIGGERFREESTYLE__CTOR_OFFSET UNITYSDK_OFFSET(0x19DF5130)
+#define RPG_GAMECORE_TRAINPARTYEVENTCHARACTERTRIGGERFREESTYLE_METHOD_3_7BAAA3EA3C6F0ECA_OFFSET UNITYSDK_OFFSET(0x1C160240)
+#define RPG_GAMECORE_TRAINPARTYEVENTCHARACTERTRIGGERFREESTYLE_METHOD_3_E5DF21DECC10AA33_OFFSET UNITYSDK_OFFSET(0x1C160200)
+#define RPG_GAMECORE_TRAINPARTYEVENTCHARACTERTRIGGERFREESTYLE__CTOR_OFFSET UNITYSDK_OFFSET(0x1C160230)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TrainPartyEventCharacterTriggerFreeStyle_TypeDefinitionIndex = 21141;
+	inline static constexpr unsigned int TrainPartyEventCharacterTriggerFreeStyle_TypeDefinitionIndex = 21556;
 
 	class TrainPartyEventCharacterTriggerFreeStyle : public ::RPG::GameCore::TaskConfig
 	{
@@ -26,9 +26,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TRAINPARTYEVENTCHARACTERTRIGGERFREESTYLE__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_FA59B346496D8B1D(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::TrainPartyEventCharacterTriggerFreeStyle*& a2)
+		static ::System::Void Method_3_E5DF21DECC10AA33(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::TrainPartyEventCharacterTriggerFreeStyle*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::TrainPartyEventCharacterTriggerFreeStyle*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TRAINPARTYEVENTCHARACTERTRIGGERFREESTYLE_METHOD_3_FA59B346496D8B1D_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::TrainPartyEventCharacterTriggerFreeStyle*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TRAINPARTYEVENTCHARACTERTRIGGERFREESTYLE_METHOD_3_E5DF21DECC10AA33_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_7BAAA3EA3C6F0ECA(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::TrainPartyEventCharacterTriggerFreeStyle* a2)

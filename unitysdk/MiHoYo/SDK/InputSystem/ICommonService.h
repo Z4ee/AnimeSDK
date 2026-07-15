@@ -7,7 +7,7 @@ namespace System { class String; }
 
 namespace MiHoYo::SDK::InputSystem
 {
-	inline static constexpr unsigned int ICommonService_TypeDefinitionIndex = 9797;
+	inline static constexpr unsigned int ICommonService_TypeDefinitionIndex = 9812;
 
 	class ICommonService
 	{

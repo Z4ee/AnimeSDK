@@ -5,17 +5,17 @@
 namespace System { class Object; }
 namespace System { class String; }
 
-#define CLASS_2_FCB420C2A1570809__CTOR_1_OFFSET UNITYSDK_OFFSET(0x19165F90)
-#define CLASS_2_FCB420C2A1570809__CTOR_2_OFFSET UNITYSDK_OFFSET(0x19165FA0)
-#define CLASS_2_FCB420C2A1570809__CTOR_OFFSET UNITYSDK_OFFSET(0x19165F80)
+#define CLASS_2_FCB420C2A1570809__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1B8219E0)
+#define CLASS_2_FCB420C2A1570809__CTOR_2_OFFSET UNITYSDK_OFFSET(0x1B8219F0)
+#define CLASS_2_FCB420C2A1570809__CTOR_OFFSET UNITYSDK_OFFSET(0x1B8219D0)
 
-inline static constexpr unsigned int Class_2_FCB420C2A1570809_TypeDefinitionIndex = 23634;
+inline static constexpr unsigned int Class_2_FCB420C2A1570809_TypeDefinitionIndex = 24125;
 
 class Class_2_FCB420C2A1570809 : public ::System::Attribute
 {
 public:
-	::System::Object* Field_2_0; // 0x10
-	::System::String* Field_2_1; // 0x18
+	::System::String* Field_2_0; // 0x10
+	::System::Object* Field_2_1; // 0x18
 	::System::Boolean Field_2_2; // 0x20
 
 	::System::Void _ctor()

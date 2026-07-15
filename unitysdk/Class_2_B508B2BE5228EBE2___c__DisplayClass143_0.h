@@ -2,24 +2,24 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_0_16E4307DCC419505_331;
-class Class_0_16E4307DCC419505_336;
+class Class_0_16E4307DCC419505_355;
+class Class_0_16E4307DCC419505_360;
 class Class_2_B508B2BE5228EBE2;
 namespace System { class Action; }
 
-#define CLASS_2_B508B2BE5228EBE2___C__DISPLAYCLASS143_0__ACTIVEPROFILEASYNC_B__0_OFFSET UNITYSDK_OFFSET(0x13B01550)
-#define CLASS_2_B508B2BE5228EBE2___C__DISPLAYCLASS143_0__ACTIVEPROFILEASYNC_B__1_OFFSET UNITYSDK_OFFSET(0x13B01590)
-#define CLASS_2_B508B2BE5228EBE2___C__DISPLAYCLASS143_0__CTOR_OFFSET UNITYSDK_OFFSET(0x13AFE290)
+#define CLASS_2_B508B2BE5228EBE2___C__DISPLAYCLASS143_0__ACTIVEPROFILEASYNC_B__0_OFFSET UNITYSDK_OFFSET(0x1797E870)
+#define CLASS_2_B508B2BE5228EBE2___C__DISPLAYCLASS143_0__ACTIVEPROFILEASYNC_B__1_OFFSET UNITYSDK_OFFSET(0x1797E8B0)
+#define CLASS_2_B508B2BE5228EBE2___C__DISPLAYCLASS143_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1797B370)
 
-inline static constexpr unsigned int Class_2_B508B2BE5228EBE2___c__DisplayClass143_0_TypeDefinitionIndex = 46462;
+inline static constexpr unsigned int Class_2_B508B2BE5228EBE2___c__DisplayClass143_0_TypeDefinitionIndex = 47427;
 
 class Class_2_B508B2BE5228EBE2___c__DisplayClass143_0 : public ::System::Object
 {
 public:
 	::Class_2_B508B2BE5228EBE2* __4__this; // 0x10
-	::Class_0_16E4307DCC419505_336* source; // 0x18
-	::Class_0_16E4307DCC419505_331* profileChangeAsyncHandle; // 0x20
-	::System::Action* onChangeFinish; // 0x28
+	::Class_0_16E4307DCC419505_360* source; // 0x18
+	::System::Action* onChangeFinish; // 0x20
+	::Class_0_16E4307DCC419505_355* profileChangeAsyncHandle; // 0x28
 
 	::System::Void _ctor()
 	{

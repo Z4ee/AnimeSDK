@@ -3,13 +3,13 @@
 #include "unitysdk/Google/Protobuf/WireFormat_WireType.h"
 #include "unitysdk/System/Object.h"
 
-#define GOOGLE_PROTOBUF_WIREFORMAT_GETTAGFIELDNUMBER_OFFSET UNITYSDK_OFFSET(0x17E86960)
-#define GOOGLE_PROTOBUF_WIREFORMAT_GETTAGWIRETYPE_OFFSET UNITYSDK_OFFSET(0x17E86970)
-#define GOOGLE_PROTOBUF_WIREFORMAT_MAKETAG_OFFSET UNITYSDK_OFFSET(0x17E86980)
+#define GOOGLE_PROTOBUF_WIREFORMAT_GETTAGFIELDNUMBER_OFFSET UNITYSDK_OFFSET(0x1BDD3D60)
+#define GOOGLE_PROTOBUF_WIREFORMAT_GETTAGWIRETYPE_OFFSET UNITYSDK_OFFSET(0x1BDD3D70)
+#define GOOGLE_PROTOBUF_WIREFORMAT_MAKETAG_OFFSET UNITYSDK_OFFSET(0x1BDD3D80)
 
 namespace Google::Protobuf
 {
-	inline static constexpr unsigned int WireFormat_TypeDefinitionIndex = 5414;
+	inline static constexpr unsigned int WireFormat_TypeDefinitionIndex = 5419;
 
 	class WireFormat : public ::System::Object
 	{

@@ -5,16 +5,16 @@
 class Class_2_2F6354F2F5DDBF64;
 namespace RPG::Client { class MapNpcDef; }
 
-#define CLASS_1_833B4344F34177E7_METHOD_1_D7B7C909A67BD350_OFFSET UNITYSDK_OFFSET(0x1356FAA0)
-#define CLASS_1_833B4344F34177E7__CTOR_OFFSET UNITYSDK_OFFSET(0x1356FA90)
+#define CLASS_1_833B4344F34177E7_METHOD_1_D7B7C909A67BD350_OFFSET UNITYSDK_OFFSET(0xF17D660)
+#define CLASS_1_833B4344F34177E7__CTOR_OFFSET UNITYSDK_OFFSET(0xF17D650)
 
-inline static constexpr unsigned int Class_1_833B4344F34177E7_TypeDefinitionIndex = 56664;
+inline static constexpr unsigned int Class_1_833B4344F34177E7_TypeDefinitionIndex = 57910;
 
 class Class_1_833B4344F34177E7 : public ::System::Object
 {
 public:
-	::Class_2_2F6354F2F5DDBF64* Field_1_0; // 0x10
-	::RPG::Client::MapNpcDef* Field_1_1; // 0x18
+	::RPG::Client::MapNpcDef* Field_1_0; // 0x10
+	::Class_2_2F6354F2F5DDBF64* Field_1_1; // 0x18
 
 	::System::Void _ctor(::RPG::Client::MapNpcDef* a1, ::Class_2_2F6354F2F5DDBF64* a2)
 	{

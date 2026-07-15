@@ -4,9 +4,9 @@
 #include "unitysdk/RPG/GameCore/LittleGameTargetMemoryType.h"
 #include "unitysdk/System/Object.h"
 
-class Class_0_16E4307DCC419505_260;
-class Class_0_16E4307DCC419505_261;
-class Class_1_17EE39DF0930C1B5;
+class Class_0_16E4307DCC419505_280;
+class Class_0_16E4307DCC419505_281;
+class Class_1_C93B67AB1D1BC17A;
 class Class_1_E59130C10EDDE9BC;
 namespace Entitas { class IContext; }
 namespace Entitas { class IEntity; }
@@ -23,7 +23,7 @@ namespace System::Text { class StringBuilder; }
 
 namespace RPG::Client::LittleGame::Ability
 {
-	inline static constexpr unsigned int LittleGameAbilityContext_1_TypeDefinitionIndex = 71887;
+	inline static constexpr unsigned int LittleGameAbilityContext_1_TypeDefinitionIndex = 73412;
 
 	template <typename TEntity>
 	class LittleGameAbilityContext_1 : public ::System::Object
@@ -33,8 +33,8 @@ namespace RPG::Client::LittleGame::Ability
 		::Entitas::IEntity* _AbilitySelf_k__BackingField; // 0x0
 		::Entitas::IContext* _Context_k__BackingField; // 0x0
 		::RPG::Client::LittleGame::IAbilityAttributeService_1<TEntity>* _AttributeService_k__BackingField; // 0x0
-		::Class_0_16E4307DCC419505_261* _EffectService_k__BackingField; // 0x0
-		::Class_1_17EE39DF0930C1B5* _TargetSelectorService; // 0x0
+		::Class_0_16E4307DCC419505_281* _EffectService_k__BackingField; // 0x0
+		::Class_1_C93B67AB1D1BC17A* _TargetSelectorService; // 0x0
 		::Class_1_E59130C10EDDE9BC* _ValueGetterService; // 0x0
 		::System::Text::StringBuilder* _DebugInfo; // 0x0
 		::System::Collections::Generic::Dictionary_2<::RPG::GameCore::LittleGameTargetMemoryType, ::System::Collections::Generic::HashSet_1<::System::Int32>*>* _TargetMemory; // 0x0

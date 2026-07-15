@@ -5,24 +5,24 @@
 class Class_1_3F916053B9BB8D97;
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define RPG_GAMECORE_LINEUPCONTEXT___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xCE59930)
-#define RPG_GAMECORE_LINEUPCONTEXT___C__CTOR_OFFSET UNITYSDK_OFFSET(0xCE59970)
-#define RPG_GAMECORE_LINEUPCONTEXT___C__GETMONSTERWAVESTAGECOUNT_B__2_0_OFFSET UNITYSDK_OFFSET(0xCE59980)
+#define RPG_GAMECORE_LINEUPCONTEXT___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1978CF70)
+#define RPG_GAMECORE_LINEUPCONTEXT___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1978CFB0)
+#define RPG_GAMECORE_LINEUPCONTEXT___C__GETMONSTERWAVESTAGECOUNT_B__2_0_OFFSET UNITYSDK_OFFSET(0x1978CFC0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LineUpContext___c_TypeDefinitionIndex = 52561;
+	inline static constexpr unsigned int LineUpContext___c_TypeDefinitionIndex = 53765;
 
 	class LineUpContext___c : public ::System::Object
 	{
 	public:
 		static ::System::Func_2<::Class_1_3F916053B9BB8D97*, ::System::Boolean>** StaticGet___9__2_0()
 		{
-			return (::System::Func_2<::Class_1_3F916053B9BB8D97*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(LineUpContext___c_TypeDefinitionIndex)->GetStaticField(0x68840);
+			return (::System::Func_2<::Class_1_3F916053B9BB8D97*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(LineUpContext___c_TypeDefinitionIndex)->GetStaticField(0x65C10);
 		}
 		static ::RPG::GameCore::LineUpContext___c** StaticGet___9()
 		{
-			return (::RPG::GameCore::LineUpContext___c**)Il2CppClass::FromTypeDefinitionIndex(LineUpContext___c_TypeDefinitionIndex)->GetStaticField(0x68848);
+			return (::RPG::GameCore::LineUpContext___c**)Il2CppClass::FromTypeDefinitionIndex(LineUpContext___c_TypeDefinitionIndex)->GetStaticField(0x65C18);
 		}
 
 		static ::System::Void _cctor()

@@ -5,13 +5,13 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_HIDEEFFECTAUTOLAYOUT_METHOD_3_864141A7762A4045_OFFSET UNITYSDK_OFFSET(0x198301D0)
-#define RPG_GAMECORE_HIDEEFFECTAUTOLAYOUT_METHOD_3_E5DB7C9101835450_OFFSET UNITYSDK_OFFSET(0x19830150)
-#define RPG_GAMECORE_HIDEEFFECTAUTOLAYOUT__CTOR_OFFSET UNITYSDK_OFFSET(0x198301A0)
+#define RPG_GAMECORE_HIDEEFFECTAUTOLAYOUT_METHOD_3_289874D3BE88EC40_OFFSET UNITYSDK_OFFSET(0x1B682EF0)
+#define RPG_GAMECORE_HIDEEFFECTAUTOLAYOUT_METHOD_3_864141A7762A4045_OFFSET UNITYSDK_OFFSET(0x1B682F40)
+#define RPG_GAMECORE_HIDEEFFECTAUTOLAYOUT__CTOR_OFFSET UNITYSDK_OFFSET(0x1B682F30)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int HideEffectAutoLayout_TypeDefinitionIndex = 21206;
+	inline static constexpr unsigned int HideEffectAutoLayout_TypeDefinitionIndex = 21621;
 
 	class HideEffectAutoLayout : public ::RPG::GameCore::TaskConfig
 	{
@@ -25,9 +25,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_HIDEEFFECTAUTOLAYOUT__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_E5DB7C9101835450(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::HideEffectAutoLayout*& a2)
+		static ::System::Void Method_3_289874D3BE88EC40(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::HideEffectAutoLayout*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::HideEffectAutoLayout*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_HIDEEFFECTAUTOLAYOUT_METHOD_3_E5DB7C9101835450_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::HideEffectAutoLayout*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_HIDEEFFECTAUTOLAYOUT_METHOD_3_289874D3BE88EC40_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_864141A7762A4045(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::HideEffectAutoLayout* a2)

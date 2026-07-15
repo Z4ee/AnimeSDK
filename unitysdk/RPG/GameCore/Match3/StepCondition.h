@@ -4,13 +4,13 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_MATCH3_STEPCONDITION_METHOD_5_CA34EB9B8321EA41_OFFSET UNITYSDK_OFFSET(0x198E8440)
-#define RPG_GAMECORE_MATCH3_STEPCONDITION_METHOD_5_F28F1BF3362017E6_OFFSET UNITYSDK_OFFSET(0x198EBF50)
-#define RPG_GAMECORE_MATCH3_STEPCONDITION__CTOR_OFFSET UNITYSDK_OFFSET(0x198E83C0)
+#define RPG_GAMECORE_MATCH3_STEPCONDITION_METHOD_5_001A2879B22ED8CB_OFFSET UNITYSDK_OFFSET(0x1BD2C690)
+#define RPG_GAMECORE_MATCH3_STEPCONDITION_METHOD_5_CA34EB9B8321EA41_OFFSET UNITYSDK_OFFSET(0x1BD28050)
+#define RPG_GAMECORE_MATCH3_STEPCONDITION__CTOR_OFFSET UNITYSDK_OFFSET(0x1BD28040)
 
 namespace RPG::GameCore::Match3
 {
-	inline static constexpr unsigned int StepCondition_TypeDefinitionIndex = 23525;
+	inline static constexpr unsigned int StepCondition_TypeDefinitionIndex = 24014;
 
 	class StepCondition : public ::RPG::GameCore::Match3::Match3ConditionBase
 	{
@@ -22,9 +22,9 @@ namespace RPG::GameCore::Match3
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MATCH3_STEPCONDITION__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_5_F28F1BF3362017E6(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::Match3::StepCondition*& a2)
+		static ::System::Void Method_5_001A2879B22ED8CB(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::Match3::StepCondition*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::Match3::StepCondition*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MATCH3_STEPCONDITION_METHOD_5_F28F1BF3362017E6_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::Match3::StepCondition*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MATCH3_STEPCONDITION_METHOD_5_001A2879B22ED8CB_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_5_CA34EB9B8321EA41(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::Match3::StepCondition* a2)

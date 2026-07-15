@@ -5,13 +5,13 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_LOCKCURRENTTELEPORTACTION_METHOD_3_1B997A84F0FF4996_OFFSET UNITYSDK_OFFSET(0x198ABB10)
-#define RPG_GAMECORE_LOCKCURRENTTELEPORTACTION_METHOD_3_21815537AB8BF9A7_OFFSET UNITYSDK_OFFSET(0x198ABA90)
-#define RPG_GAMECORE_LOCKCURRENTTELEPORTACTION__CTOR_OFFSET UNITYSDK_OFFSET(0x198ABAE0)
+#define RPG_GAMECORE_LOCKCURRENTTELEPORTACTION_METHOD_3_1B997A84F0FF4996_OFFSET UNITYSDK_OFFSET(0x1BCCED20)
+#define RPG_GAMECORE_LOCKCURRENTTELEPORTACTION_METHOD_3_EDE4EE10DAAD0DCB_OFFSET UNITYSDK_OFFSET(0x1BCCECE0)
+#define RPG_GAMECORE_LOCKCURRENTTELEPORTACTION__CTOR_OFFSET UNITYSDK_OFFSET(0x1BCCED10)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LockCurrentTeleportAction_TypeDefinitionIndex = 20446;
+	inline static constexpr unsigned int LockCurrentTeleportAction_TypeDefinitionIndex = 20861;
 
 	class LockCurrentTeleportAction : public ::RPG::GameCore::TaskConfig
 	{
@@ -26,9 +26,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LOCKCURRENTTELEPORTACTION__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_21815537AB8BF9A7(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::LockCurrentTeleportAction*& a2)
+		static ::System::Void Method_3_EDE4EE10DAAD0DCB(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::LockCurrentTeleportAction*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::LockCurrentTeleportAction*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LOCKCURRENTTELEPORTACTION_METHOD_3_21815537AB8BF9A7_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::LockCurrentTeleportAction*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LOCKCURRENTTELEPORTACTION_METHOD_3_EDE4EE10DAAD0DCB_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_1B997A84F0FF4996(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::LockCurrentTeleportAction* a2)

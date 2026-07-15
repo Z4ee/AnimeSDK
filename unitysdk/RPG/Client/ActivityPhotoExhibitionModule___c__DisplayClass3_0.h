@@ -4,12 +4,12 @@
 
 namespace RPG::Client { class ActivityPhotoExhibitionGroupData; }
 
-#define RPG_CLIENT_ACTIVITYPHOTOEXHIBITIONMODULE___C__DISPLAYCLASS3_0__CTOR_OFFSET UNITYSDK_OFFSET(0xB1DE720)
-#define RPG_CLIENT_ACTIVITYPHOTOEXHIBITIONMODULE___C__DISPLAYCLASS3_0__GETGROUPDATA_B__0_OFFSET UNITYSDK_OFFSET(0xB1DF5E0)
+#define RPG_CLIENT_ACTIVITYPHOTOEXHIBITIONMODULE___C__DISPLAYCLASS3_0__CTOR_OFFSET UNITYSDK_OFFSET(0x19327240)
+#define RPG_CLIENT_ACTIVITYPHOTOEXHIBITIONMODULE___C__DISPLAYCLASS3_0__GETGROUPDATA_B__0_OFFSET UNITYSDK_OFFSET(0x193281D0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ActivityPhotoExhibitionModule___c__DisplayClass3_0_TypeDefinitionIndex = 57720;
+	inline static constexpr unsigned int ActivityPhotoExhibitionModule___c__DisplayClass3_0_TypeDefinitionIndex = 58986;
 
 	class ActivityPhotoExhibitionModule___c__DisplayClass3_0 : public ::System::Object
 	{

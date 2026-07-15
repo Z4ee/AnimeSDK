@@ -4,13 +4,13 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_CONVINCEMOVETURN_METHOD_3_9A972AE33E6794EF_OFFSET UNITYSDK_OFFSET(0x1967DDE0)
-#define RPG_GAMECORE_CONVINCEMOVETURN_METHOD_3_C834424611D0DA4E_OFFSET UNITYSDK_OFFSET(0x1967DD60)
-#define RPG_GAMECORE_CONVINCEMOVETURN__CTOR_OFFSET UNITYSDK_OFFSET(0x1967DDB0)
+#define RPG_GAMECORE_CONVINCEMOVETURN_METHOD_3_0DCA672C0727989C_OFFSET UNITYSDK_OFFSET(0x1BC36580)
+#define RPG_GAMECORE_CONVINCEMOVETURN_METHOD_3_9A972AE33E6794EF_OFFSET UNITYSDK_OFFSET(0x1BC365C0)
+#define RPG_GAMECORE_CONVINCEMOVETURN__CTOR_OFFSET UNITYSDK_OFFSET(0x1BC365B0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ConvinceMoveTurn_TypeDefinitionIndex = 20617;
+	inline static constexpr unsigned int ConvinceMoveTurn_TypeDefinitionIndex = 21032;
 
 	class ConvinceMoveTurn : public ::RPG::GameCore::TaskConfig
 	{
@@ -22,9 +22,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CONVINCEMOVETURN__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_C834424611D0DA4E(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ConvinceMoveTurn*& a2)
+		static ::System::Void Method_3_0DCA672C0727989C(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ConvinceMoveTurn*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ConvinceMoveTurn*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CONVINCEMOVETURN_METHOD_3_C834424611D0DA4E_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ConvinceMoveTurn*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CONVINCEMOVETURN_METHOD_3_0DCA672C0727989C_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_9A972AE33E6794EF(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ConvinceMoveTurn* a2)

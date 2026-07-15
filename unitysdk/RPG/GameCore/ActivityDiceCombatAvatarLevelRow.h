@@ -5,25 +5,25 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_ACTIVITYDICECOMBATAVATARLEVELROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x193D7C30)
-#define RPG_GAMECORE_ACTIVITYDICECOMBATAVATARLEVELROW__CTOR_OFFSET UNITYSDK_OFFSET(0x193D7FD0)
+#define RPG_GAMECORE_ACTIVITYDICECOMBATAVATARLEVELROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1AAE0730)
+#define RPG_GAMECORE_ACTIVITYDICECOMBATAVATARLEVELROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1AAE0AD0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ActivityDiceCombatAvatarLevelRow_TypeDefinitionIndex = 10824;
+	inline static constexpr unsigned int ActivityDiceCombatAvatarLevelRow_TypeDefinitionIndex = 10874;
 
 	class ActivityDiceCombatAvatarLevelRow : public ::System::Object
 	{
 	public:
-		::System::String* Dice3FramePath; // 0x10
-		::System::String* FrontAndBackUI3DMatPath; // 0x18
-		::System::String* Dice3FramePathUI3D; // 0x20
-		::System::String* Dice4FramePath; // 0x28
-		::System::String* Dice4FramePathUI3D; // 0x30
-		::System::String* SideUI3DMatPath; // 0x38
-		::System::String* Dice2FramePathUI3D; // 0x40
-		::System::String* Dice2FramePath; // 0x48
-		::System::String* Dice1FramePathUI3D; // 0x50
+		::System::String* Dice1FramePathUI3D; // 0x10
+		::System::String* Dice2FramePath; // 0x18
+		::System::String* FrontAndBackUI3DMatPath; // 0x20
+		::System::String* Dice3FramePath; // 0x28
+		::System::String* Dice4FramePath; // 0x30
+		::System::String* Dice4FramePathUI3D; // 0x38
+		::System::String* SideUI3DMatPath; // 0x40
+		::System::String* Dice3FramePathUI3D; // 0x48
+		::System::String* Dice2FramePathUI3D; // 0x50
 		::System::String* Dice1FramePath; // 0x58
 		::System::UInt32 ID; // 0x60
 

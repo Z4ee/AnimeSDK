@@ -1,0 +1,50 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/Class_2_9C4F8205C3DCBA57_1.h"
+
+class Class_1_737BB9F4D259F880;
+namespace System { class Exception; }
+namespace System { class String; }
+
+#define CLASS_3_38C152545CDCE97B_METHOD_3_33C1DB4C8E5800FD_1_OFFSET UNITYSDK_OFFSET(0x169DBBE0)
+#define CLASS_3_38C152545CDCE97B_METHOD_3_33C1DB4C8E5800FD_OFFSET UNITYSDK_OFFSET(0x169DBA20)
+#define CLASS_3_38C152545CDCE97B_METHOD_3_669256140B61F98F_OFFSET UNITYSDK_OFFSET(0x169DBA90)
+#define CLASS_3_38C152545CDCE97B_METHOD_3_88B60F3B95FAA4F1_OFFSET UNITYSDK_OFFSET(0x169DB9B0)
+#define CLASS_3_38C152545CDCE97B_METHOD_3_D7529F8CF3BD9076_OFFSET UNITYSDK_OFFSET(0x169DBC50)
+#define CLASS_3_38C152545CDCE97B__CTOR_OFFSET UNITYSDK_OFFSET(0x169DBD50)
+
+inline static constexpr unsigned int Class_3_38C152545CDCE97B_TypeDefinitionIndex = 73611;
+
+class Class_3_38C152545CDCE97B : public ::Class_2_9C4F8205C3DCBA57_1
+{
+public:
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_3_38C152545CDCE97B__CTOR_OFFSET))(this);
+	}
+
+	::System::String* Method_3_88B60F3B95FAA4F1()
+	{
+		return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_3_38C152545CDCE97B_METHOD_3_88B60F3B95FAA4F1_OFFSET))(this);
+	}
+
+	::System::Void Method_3_33C1DB4C8E5800FD()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_3_38C152545CDCE97B_METHOD_3_33C1DB4C8E5800FD_OFFSET))(this);
+	}
+
+	::System::Void Method_3_669256140B61F98F(::Class_1_737BB9F4D259F880* a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::Class_1_737BB9F4D259F880*))((::PBYTE)hIl2Cpp + CLASS_3_38C152545CDCE97B_METHOD_3_669256140B61F98F_OFFSET))(this, a1);
+	}
+
+	::System::Void Method_3_33C1DB4C8E5800FD_1()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_3_38C152545CDCE97B_METHOD_3_33C1DB4C8E5800FD_1_OFFSET))(this);
+	}
+
+	::System::Void Method_3_D7529F8CF3BD9076(::System::Exception* a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::Exception*))((::PBYTE)hIl2Cpp + CLASS_3_38C152545CDCE97B_METHOD_3_D7529F8CF3BD9076_OFFSET))(this, a1);
+	}
+};

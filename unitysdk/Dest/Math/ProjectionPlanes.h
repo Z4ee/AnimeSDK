@@ -3,7 +3,7 @@
 
 namespace Dest::Math
 {
-	inline static constexpr unsigned int ProjectionPlanes_TypeDefinitionIndex = 6636;
+	inline static constexpr unsigned int ProjectionPlanes_TypeDefinitionIndex = 6641;
 
 	enum class ProjectionPlanes : ::System::Int32
 	{

@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int SDFTextType_TypeDefinitionIndex = 66127;
+	inline static constexpr unsigned int SDFTextType_TypeDefinitionIndex = 67552;
 
 	enum class SDFTextType : ::System::Int32
 	{

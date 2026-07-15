@@ -6,26 +6,26 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_HELIOBUSPHASEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x198280B0)
-#define RPG_GAMECORE_HELIOBUSPHASEROW__CTOR_OFFSET UNITYSDK_OFFSET(0x19828980)
+#define RPG_GAMECORE_HELIOBUSPHASEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B67AE10)
+#define RPG_GAMECORE_HELIOBUSPHASEROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1B67B720)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int HeliobusPhaseRow_TypeDefinitionIndex = 13093;
+	inline static constexpr unsigned int HeliobusPhaseRow_TypeDefinitionIndex = 13241;
 
 	class HeliobusPhaseRow : public ::System::Object
 	{
 	public:
 		::System::String* PhaseSmallIconPath; // 0x10
 		::System::String* PhaseBigIconPath; // 0x18
-		::System::UInt32 UnlockMissionID; // 0x20
-		::System::UInt32 HeliobusPhaseID; // 0x24
-		::RPG::Client::TextID Heliobus_ToDoListTitle_Before; // 0x28
-		::System::UInt32 PhaseFans; // 0x38
-		::System::UInt32 ReceiveMissionID; // 0x3C
-		::RPG::Client::TextID Heliobus_UpMissionDesc; // 0x40
-		::RPG::Client::TextID Heliobus_ToDoListTitle_After; // 0x50
-		::RPG::Client::TextID PhaseTextID; // 0x60
+		::RPG::Client::TextID PhaseTextID; // 0x20
+		::System::UInt32 ReceiveMissionID; // 0x30
+		::System::UInt32 HeliobusPhaseID; // 0x34
+		::RPG::Client::TextID Heliobus_ToDoListTitle_Before; // 0x38
+		::RPG::Client::TextID Heliobus_UpMissionDesc; // 0x48
+		::System::UInt32 PhaseFans; // 0x58
+		::System::UInt32 UnlockMissionID; // 0x5C
+		::RPG::Client::TextID Heliobus_ToDoListTitle_After; // 0x60
 
 		::System::Void _ctor()
 		{

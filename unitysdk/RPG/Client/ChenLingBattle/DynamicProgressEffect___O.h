@@ -7,14 +7,14 @@ namespace System { template <typename T1, typename T2> class Func_2; }
 
 namespace RPG::Client::ChenLingBattle
 {
-	inline static constexpr unsigned int DynamicProgressEffect___O_TypeDefinitionIndex = 70931;
+	inline static constexpr unsigned int DynamicProgressEffect___O_TypeDefinitionIndex = 72444;
 
 	class DynamicProgressEffect___O : public ::System::Object
 	{
 	public:
 		static ::System::Func_2<::System::UInt32, ::RPG::Client::ChenLingBattle::EffectProgressConfig*>** StaticGet__0___Create()
 		{
-			return (::System::Func_2<::System::UInt32, ::RPG::Client::ChenLingBattle::EffectProgressConfig*>**)Il2CppClass::FromTypeDefinitionIndex(DynamicProgressEffect___O_TypeDefinitionIndex)->GetStaticField(0x602A0);
+			return (::System::Func_2<::System::UInt32, ::RPG::Client::ChenLingBattle::EffectProgressConfig*>**)Il2CppClass::FromTypeDefinitionIndex(DynamicProgressEffect___O_TypeDefinitionIndex)->GetStaticField(0x648E0);
 		}
 	};
 }

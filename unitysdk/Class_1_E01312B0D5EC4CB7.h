@@ -6,24 +6,24 @@
 class Class_3_BE1CF038D8D0B656;
 namespace System { class String; }
 
-#define CLASS_1_E01312B0D5EC4CB7_GET_NAME_OFFSET UNITYSDK_OFFSET(0xAFEB6D0)
-#define CLASS_1_E01312B0D5EC4CB7_METHOD_1_0E023B688E2A5CBD_OFFSET UNITYSDK_OFFSET(0xAFEB6E0)
-#define CLASS_1_E01312B0D5EC4CB7_METHOD_1_86959C1CB3D7A743_OFFSET UNITYSDK_OFFSET(0xAFEB6F0)
-#define CLASS_1_E01312B0D5EC4CB7_METHOD_1_FA838E3EC151041E_OFFSET UNITYSDK_OFFSET(0xAFEB670)
-#define CLASS_1_E01312B0D5EC4CB7__CTOR_OFFSET UNITYSDK_OFFSET(0xAFEB640)
+#define CLASS_1_E01312B0D5EC4CB7_GET_NAME_OFFSET UNITYSDK_OFFSET(0x16176B30)
+#define CLASS_1_E01312B0D5EC4CB7_METHOD_1_86959C1CB3D7A743_OFFSET UNITYSDK_OFFSET(0x16176B80)
+#define CLASS_1_E01312B0D5EC4CB7_METHOD_1_BDACA5F9F4002279_OFFSET UNITYSDK_OFFSET(0x16176B40)
+#define CLASS_1_E01312B0D5EC4CB7_METHOD_1_FA838E3EC151041E_OFFSET UNITYSDK_OFFSET(0x16176AD0)
+#define CLASS_1_E01312B0D5EC4CB7__CTOR_OFFSET UNITYSDK_OFFSET(0x16176AA0)
 
-inline static constexpr unsigned int Class_1_E01312B0D5EC4CB7_TypeDefinitionIndex = 58110;
+inline static constexpr unsigned int Class_1_E01312B0D5EC4CB7_TypeDefinitionIndex = 59376;
 
 class Class_1_E01312B0D5EC4CB7 : public ::System::Object
 {
 public:
-	::Class_3_BE1CF038D8D0B656* Field_1_0; // 0x10
-	::System::String* _Name_k__BackingField; // 0x18
-	::System::UInt32 Field_1_2; // 0x20
-	::System::Int16 Field_1_3; // 0x24
-	::System::Int16 Field_1_4; // 0x26
-	::System::Int16 Field_1_5; // 0x28
-	::RPG::GameCore::GroupPropertySide Field_1_6; // 0x2C
+	::System::String* _Name_k__BackingField; // 0x10
+	::Class_3_BE1CF038D8D0B656* Field_1_1; // 0x18
+	::System::Int16 Field_1_2; // 0x20
+	::System::Int16 Field_1_3; // 0x22
+	::RPG::GameCore::GroupPropertySide Field_1_4; // 0x24
+	::System::UInt32 Field_1_5; // 0x28
+	::System::Int16 Field_1_6; // 0x2C
 
 	::System::Void _ctor(::System::UInt32 a1, ::System::String* a2, ::System::Int16 a3, ::System::Int16 a4, ::System::Int16 a5, ::RPG::GameCore::GroupPropertySide a6)
 	{
@@ -40,9 +40,9 @@ public:
 		return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_E01312B0D5EC4CB7_GET_NAME_OFFSET))(this);
 	}
 
-	::System::Int16 Method_1_0E023B688E2A5CBD()
+	::System::Int16 Method_1_BDACA5F9F4002279()
 	{
-		return ((::System::Int16(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_E01312B0D5EC4CB7_METHOD_1_0E023B688E2A5CBD_OFFSET))(this);
+		return ((::System::Int16(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_E01312B0D5EC4CB7_METHOD_1_BDACA5F9F4002279_OFFSET))(this);
 	}
 
 	::System::Void Method_1_86959C1CB3D7A743(::System::Int16 a1)

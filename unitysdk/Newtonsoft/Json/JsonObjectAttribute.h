@@ -5,12 +5,12 @@
 #include "unitysdk/Newtonsoft/Json/Required.h"
 #include "unitysdk/System/Nullable_1.h"
 
-#define NEWTONSOFT_JSON_JSONOBJECTATTRIBUTE_GET_MEMBERSERIALIZATION_OFFSET UNITYSDK_OFFSET(0x1881AD40)
-#define NEWTONSOFT_JSON_JSONOBJECTATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1881AD50)
+#define NEWTONSOFT_JSON_JSONOBJECTATTRIBUTE_GET_MEMBERSERIALIZATION_OFFSET UNITYSDK_OFFSET(0x165EAF90)
+#define NEWTONSOFT_JSON_JSONOBJECTATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x165EAFA0)
 
 namespace Newtonsoft::Json
 {
-	inline static constexpr unsigned int JsonObjectAttribute_TypeDefinitionIndex = 9253;
+	inline static constexpr unsigned int JsonObjectAttribute_TypeDefinitionIndex = 9265;
 
 	class JsonObjectAttribute : public ::Newtonsoft::Json::JsonContainerAttribute
 	{

@@ -2,36 +2,36 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_1_D1E0AD3915BCCF29_73;
-class Class_1_D40936EF3BF54118_58;
+class Class_1_D17272E82AE804C2_703;
+class Class_1_D40936EF3BF54118_59;
 namespace Proto { class MonopolyActionResult; }
 namespace RPG::Client { class MonopolyBuffDataItem; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_MONOPOLYBUFFINFO_DISPOSE_OFFSET UNITYSDK_OFFSET(0xC165E70)
-#define RPG_CLIENT_MONOPOLYBUFFINFO_GET_BUFFMULTIPLIER_OFFSET UNITYSDK_OFFSET(0xC1669C0)
-#define RPG_CLIENT_MONOPOLYBUFFINFO_GET_EMPTYPERMANENTBUFF_OFFSET UNITYSDK_OFFSET(0xC166B20)
-#define RPG_CLIENT_MONOPOLYBUFFINFO_INIT_OFFSET UNITYSDK_OFFSET(0xC165B30)
-#define RPG_CLIENT_MONOPOLYBUFFINFO_MODIFY_OFFSET UNITYSDK_OFFSET(0xC166420)
-#define RPG_CLIENT_MONOPOLYBUFFINFO_SYNC_OFFSET UNITYSDK_OFFSET(0xC165FB0)
-#define RPG_CLIENT_MONOPOLYBUFFINFO_UNINIT_OFFSET UNITYSDK_OFFSET(0xC165E30)
-#define RPG_CLIENT_MONOPOLYBUFFINFO__ADDBUFF_OFFSET UNITYSDK_OFFSET(0xC1662A0)
-#define RPG_CLIENT_MONOPOLYBUFFINFO__CTOR_OFFSET UNITYSDK_OFFSET(0xC166BA0)
-#define RPG_CLIENT_MONOPOLYBUFFINFO__REFRESHBUFFTURN_OFFSET UNITYSDK_OFFSET(0xC1667F0)
-#define RPG_CLIENT_MONOPOLYBUFFINFO__REMOVEBUFF_OFFSET UNITYSDK_OFFSET(0xC166660)
+#define RPG_CLIENT_MONOPOLYBUFFINFO_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1A36D040)
+#define RPG_CLIENT_MONOPOLYBUFFINFO_GET_BUFFMULTIPLIER_OFFSET UNITYSDK_OFFSET(0x1A36DCE0)
+#define RPG_CLIENT_MONOPOLYBUFFINFO_GET_EMPTYPERMANENTBUFF_OFFSET UNITYSDK_OFFSET(0x1A36DE40)
+#define RPG_CLIENT_MONOPOLYBUFFINFO_INIT_OFFSET UNITYSDK_OFFSET(0x1A36CD00)
+#define RPG_CLIENT_MONOPOLYBUFFINFO_MODIFY_OFFSET UNITYSDK_OFFSET(0x1A36D740)
+#define RPG_CLIENT_MONOPOLYBUFFINFO_SYNC_OFFSET UNITYSDK_OFFSET(0x1A36D180)
+#define RPG_CLIENT_MONOPOLYBUFFINFO_UNINIT_OFFSET UNITYSDK_OFFSET(0x1A36D000)
+#define RPG_CLIENT_MONOPOLYBUFFINFO__ADDBUFF_OFFSET UNITYSDK_OFFSET(0x1A36D5C0)
+#define RPG_CLIENT_MONOPOLYBUFFINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x1A36DEC0)
+#define RPG_CLIENT_MONOPOLYBUFFINFO__REFRESHBUFFTURN_OFFSET UNITYSDK_OFFSET(0x1A36DB10)
+#define RPG_CLIENT_MONOPOLYBUFFINFO__REMOVEBUFF_OFFSET UNITYSDK_OFFSET(0x1A36D980)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MonopolyBuffInfo_TypeDefinitionIndex = 61907;
+	inline static constexpr unsigned int MonopolyBuffInfo_TypeDefinitionIndex = 63272;
 
 	class MonopolyBuffInfo : public ::System::Object
 	{
 	public:
-		::System::Collections::Generic::List_1<::RPG::Client::MonopolyBuffDataItem*>* BuffList; // 0x10
-		::RPG::Client::MonopolyBuffDataItem* _EmptyPermanentBuff; // 0x18
+		::System::Collections::Generic::List_1<::RPG::Client::MonopolyBuffDataItem*>* ActivatedBuff; // 0x10
+		::System::Collections::Generic::List_1<::RPG::Client::MonopolyBuffDataItem*>* BuffList; // 0x18
 		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::RPG::Client::MonopolyBuffDataItem*>* BuffDict; // 0x20
-		::System::Collections::Generic::List_1<::RPG::Client::MonopolyBuffDataItem*>* ActivatedBuff; // 0x28
+		::RPG::Client::MonopolyBuffDataItem* _EmptyPermanentBuff; // 0x28
 
 		::System::Void _ctor()
 		{
@@ -53,9 +53,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOPOLYBUFFINFO_DISPOSE_OFFSET))(this);
 		}
 
-		::System::Void Sync(::Class_1_D40936EF3BF54118_58* a1)
+		::System::Void Sync(::Class_1_D40936EF3BF54118_59* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Class_1_D40936EF3BF54118_58*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOPOLYBUFFINFO_SYNC_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::Class_1_D40936EF3BF54118_59*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOPOLYBUFFINFO_SYNC_OFFSET))(this, a1);
 		}
 
 		::System::Void Modify(::Proto::MonopolyActionResult* a1)
@@ -63,19 +63,19 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID, ::Proto::MonopolyActionResult*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOPOLYBUFFINFO_MODIFY_OFFSET))(this, a1);
 		}
 
-		::System::Void _AddBuff(::Class_1_D1E0AD3915BCCF29_73* a1)
+		::System::Void _AddBuff(::Class_1_D17272E82AE804C2_703* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Class_1_D1E0AD3915BCCF29_73*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOPOLYBUFFINFO__ADDBUFF_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::Class_1_D17272E82AE804C2_703*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOPOLYBUFFINFO__ADDBUFF_OFFSET))(this, a1);
 		}
 
-		::System::Void _RemoveBuff(::Class_1_D1E0AD3915BCCF29_73* a1)
+		::System::Void _RemoveBuff(::Class_1_D17272E82AE804C2_703* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Class_1_D1E0AD3915BCCF29_73*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOPOLYBUFFINFO__REMOVEBUFF_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::Class_1_D17272E82AE804C2_703*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOPOLYBUFFINFO__REMOVEBUFF_OFFSET))(this, a1);
 		}
 
-		::System::Void _RefreshBuffTurn(::Class_1_D1E0AD3915BCCF29_73* a1)
+		::System::Void _RefreshBuffTurn(::Class_1_D17272E82AE804C2_703* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::Class_1_D1E0AD3915BCCF29_73*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOPOLYBUFFINFO__REFRESHBUFFTURN_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::Class_1_D17272E82AE804C2_703*))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOPOLYBUFFINFO__REFRESHBUFFTURN_OFFSET))(this, a1);
 		}
 
 		::System::UInt32 get_BuffMultiplier()

@@ -6,7 +6,7 @@ namespace UnityEngine::UIElements { template <typename T> class ObjectPool_1; }
 
 namespace UnityEngine::UIElements
 {
-	inline static constexpr unsigned int EventBase_1_TypeDefinitionIndex = 6186;
+	inline static constexpr unsigned int EventBase_1_TypeDefinitionIndex = 6191;
 
 	template <typename T>
 	class EventBase_1 : public ::UnityEngine::UIElements::EventBase

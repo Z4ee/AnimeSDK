@@ -6,7 +6,7 @@ namespace System { class String; }
 
 namespace RPGTools::Timeline
 {
-	inline static constexpr unsigned int ColorGradingMaskWhitelist_StageItem_TypeDefinitionIndex = 45735;
+	inline static constexpr unsigned int ColorGradingMaskWhitelist_StageItem_TypeDefinitionIndex = 46674;
 
 	struct alignas(8) ColorGradingMaskWhitelist_StageItem
 	{

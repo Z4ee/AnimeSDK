@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int LookAtDisableCause_TypeDefinitionIndex = 64055;
+	inline static constexpr unsigned int LookAtDisableCause_TypeDefinitionIndex = 65426;
 
 	enum class LookAtDisableCause : ::System::Int32
 	{

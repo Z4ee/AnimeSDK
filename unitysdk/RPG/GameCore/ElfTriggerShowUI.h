@@ -5,13 +5,13 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_ELFTRIGGERSHOWUI_METHOD_3_957CF080C32C8412_OFFSET UNITYSDK_OFFSET(0x196DE4A0)
-#define RPG_GAMECORE_ELFTRIGGERSHOWUI_METHOD_3_9871D9225D0BE6A3_OFFSET UNITYSDK_OFFSET(0x196DE520)
-#define RPG_GAMECORE_ELFTRIGGERSHOWUI__CTOR_OFFSET UNITYSDK_OFFSET(0x196DE4F0)
+#define RPG_GAMECORE_ELFTRIGGERSHOWUI_METHOD_3_9871D9225D0BE6A3_OFFSET UNITYSDK_OFFSET(0x1BB3A9A0)
+#define RPG_GAMECORE_ELFTRIGGERSHOWUI_METHOD_3_A39FD4E3B4A7CB2E_OFFSET UNITYSDK_OFFSET(0x1BB3A960)
+#define RPG_GAMECORE_ELFTRIGGERSHOWUI__CTOR_OFFSET UNITYSDK_OFFSET(0x1BB3A990)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ElfTriggerShowUI_TypeDefinitionIndex = 20521;
+	inline static constexpr unsigned int ElfTriggerShowUI_TypeDefinitionIndex = 20936;
 
 	class ElfTriggerShowUI : public ::RPG::GameCore::TaskConfig
 	{
@@ -24,9 +24,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ELFTRIGGERSHOWUI__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_957CF080C32C8412(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ElfTriggerShowUI*& a2)
+		static ::System::Void Method_3_A39FD4E3B4A7CB2E(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ElfTriggerShowUI*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ElfTriggerShowUI*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ELFTRIGGERSHOWUI_METHOD_3_957CF080C32C8412_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ElfTriggerShowUI*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ELFTRIGGERSHOWUI_METHOD_3_A39FD4E3B4A7CB2E_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_9871D9225D0BE6A3(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ElfTriggerShowUI* a2)

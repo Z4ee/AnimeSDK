@@ -8,13 +8,13 @@ namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define HOUDINIENGINEUNITY_HEU_GEOGROUP_COMPARETO_OFFSET UNITYSDK_OFFSET(0x17ED4580)
-#define HOUDINIENGINEUNITY_HEU_GEOGROUP_SETUPNORMALINDICES_OFFSET UNITYSDK_OFFSET(0x17ED0F10)
-#define HOUDINIENGINEUNITY_HEU_GEOGROUP__CTOR_OFFSET UNITYSDK_OFFSET(0x17ED0E80)
+#define HOUDINIENGINEUNITY_HEU_GEOGROUP_COMPARETO_OFFSET UNITYSDK_OFFSET(0x1503C3E0)
+#define HOUDINIENGINEUNITY_HEU_GEOGROUP_SETUPNORMALINDICES_OFFSET UNITYSDK_OFFSET(0x15038C30)
+#define HOUDINIENGINEUNITY_HEU_GEOGROUP__CTOR_OFFSET UNITYSDK_OFFSET(0x15038BA0)
 
 namespace HoudiniEngineUnity
 {
-	inline static constexpr unsigned int HEU_GeoGroup_TypeDefinitionIndex = 37675;
+	inline static constexpr unsigned int HEU_GeoGroup_TypeDefinitionIndex = 38483;
 
 	class HEU_GeoGroup : public ::System::Object
 	{

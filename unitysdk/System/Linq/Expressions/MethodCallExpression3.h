@@ -7,21 +7,21 @@ namespace System::Collections::Generic { template <typename T> class IReadOnlyLi
 namespace System::Linq::Expressions { class Expression; }
 namespace System::Reflection { class MethodInfo; }
 
-#define SYSTEM_LINQ_EXPRESSIONS_METHODCALLEXPRESSION3_GETARGUMENT_OFFSET UNITYSDK_OFFSET(0x1ADB5740)
-#define SYSTEM_LINQ_EXPRESSIONS_METHODCALLEXPRESSION3_GET_ARGUMENTCOUNT_OFFSET UNITYSDK_OFFSET(0x1ADB57D0)
-#define SYSTEM_LINQ_EXPRESSIONS_METHODCALLEXPRESSION3_REWRITE_OFFSET UNITYSDK_OFFSET(0x1ADB57E0)
-#define SYSTEM_LINQ_EXPRESSIONS_METHODCALLEXPRESSION3__CTOR_OFFSET UNITYSDK_OFFSET(0x1ADB56C0)
+#define SYSTEM_LINQ_EXPRESSIONS_METHODCALLEXPRESSION3_GETARGUMENT_OFFSET UNITYSDK_OFFSET(0x1C1C86A0)
+#define SYSTEM_LINQ_EXPRESSIONS_METHODCALLEXPRESSION3_GET_ARGUMENTCOUNT_OFFSET UNITYSDK_OFFSET(0x1C1C8730)
+#define SYSTEM_LINQ_EXPRESSIONS_METHODCALLEXPRESSION3_REWRITE_OFFSET UNITYSDK_OFFSET(0x1C1C8740)
+#define SYSTEM_LINQ_EXPRESSIONS_METHODCALLEXPRESSION3__CTOR_OFFSET UNITYSDK_OFFSET(0x1C1C8620)
 
 namespace System::Linq::Expressions
 {
-	inline static constexpr unsigned int MethodCallExpression3_TypeDefinitionIndex = 3244;
+	inline static constexpr unsigned int MethodCallExpression3_TypeDefinitionIndex = 3248;
 
 	class MethodCallExpression3 : public ::System::Linq::Expressions::MethodCallExpression
 	{
 	public:
-		::System::Linq::Expressions::Expression* _arg1; // 0x18
+		::System::Linq::Expressions::Expression* _arg2; // 0x18
 		::System::Object* _arg0; // 0x20
-		::System::Linq::Expressions::Expression* _arg2; // 0x28
+		::System::Linq::Expressions::Expression* _arg1; // 0x28
 
 		::System::Void _ctor(::System::Reflection::MethodInfo* a1, ::System::Linq::Expressions::Expression* a2, ::System::Linq::Expressions::Expression* a3, ::System::Linq::Expressions::Expression* a4)
 		{

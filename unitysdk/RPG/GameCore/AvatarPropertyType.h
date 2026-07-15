@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AvatarPropertyType_TypeDefinitionIndex = 10086;
+	inline static constexpr unsigned int AvatarPropertyType_TypeDefinitionIndex = 10101;
 
 	enum class AvatarPropertyType : ::System::Int32
 	{
@@ -141,5 +141,6 @@ namespace RPG::GameCore
 		ExtraAllDamageReduceConvert = 1059,
 		ExtraTotalAllDamageReduce = 1060,
 		ExtraAllDamageTypeAddedRatio5 = 1061,
+		ExtraElationDamageAddedRatio1 = 1062,
 	};
 }

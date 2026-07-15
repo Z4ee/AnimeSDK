@@ -1,6 +1,6 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Class_1_76ED9B246ED58A54.h"
+#include "unitysdk/Class_1_CD4EC20BEBA8A2DA.h"
 
 class Class_1_0E117AC86D8E5BCA;
 class Class_1_D8BECDCE48063EC7;
@@ -8,12 +8,12 @@ class Class_2_AEE59ED8DADEC1A1;
 namespace RPG::GameCore { class DiceCombatDiceSelectorConfig_Seq; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_2_A1105ADFD7C94258_METHOD_2_1FAC2C3CCBA6A879_OFFSET UNITYSDK_OFFSET(0x18B69FC0)
-#define CLASS_2_A1105ADFD7C94258__CTOR_OFFSET UNITYSDK_OFFSET(0x18B69FB0)
+#define CLASS_2_A1105ADFD7C94258_METHOD_2_1FAC2C3CCBA6A879_OFFSET UNITYSDK_OFFSET(0x18163B70)
+#define CLASS_2_A1105ADFD7C94258__CTOR_OFFSET UNITYSDK_OFFSET(0x18163B60)
 
-inline static constexpr unsigned int Class_2_A1105ADFD7C94258_TypeDefinitionIndex = 34449;
+inline static constexpr unsigned int Class_2_A1105ADFD7C94258_TypeDefinitionIndex = 34831;
 
-class Class_2_A1105ADFD7C94258 : public ::Class_1_76ED9B246ED58A54
+class Class_2_A1105ADFD7C94258 : public ::Class_1_CD4EC20BEBA8A2DA
 {
 public:
 	::RPG::GameCore::DiceCombatDiceSelectorConfig_Seq* Field_2_0; // 0x18

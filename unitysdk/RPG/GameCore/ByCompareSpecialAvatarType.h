@@ -7,15 +7,15 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class TargetEvaluator; }
 namespace SimpleJSON { class JSONNode; }
 
-#define RPG_GAMECORE_BYCOMPARESPECIALAVATARTYPE_METHOD_4_037AD04D4C04468E_OFFSET UNITYSDK_OFFSET(0x19532DA0)
-#define RPG_GAMECORE_BYCOMPARESPECIALAVATARTYPE_METHOD_4_4859B7814DC3AC38_OFFSET UNITYSDK_OFFSET(0x19532B00)
-#define RPG_GAMECORE_BYCOMPARESPECIALAVATARTYPE_METHOD_4_810BE6FA90AF7850_OFFSET UNITYSDK_OFFSET(0x19532BD0)
-#define RPG_GAMECORE_BYCOMPARESPECIALAVATARTYPE_METHOD_4_C6D43F40020606AD_OFFSET UNITYSDK_OFFSET(0x19532E20)
-#define RPG_GAMECORE_BYCOMPARESPECIALAVATARTYPE__CTOR_OFFSET UNITYSDK_OFFSET(0x19532B80)
+#define RPG_GAMECORE_BYCOMPARESPECIALAVATARTYPE_METHOD_4_810BE6FA90AF7850_OFFSET UNITYSDK_OFFSET(0x1A8A54B0)
+#define RPG_GAMECORE_BYCOMPARESPECIALAVATARTYPE_METHOD_4_982D4AF570171AD6_OFFSET UNITYSDK_OFFSET(0x1A8A5680)
+#define RPG_GAMECORE_BYCOMPARESPECIALAVATARTYPE_METHOD_4_A7C81A0410E89300_OFFSET UNITYSDK_OFFSET(0x1A8A56B0)
+#define RPG_GAMECORE_BYCOMPARESPECIALAVATARTYPE_METHOD_4_B49F858041B8063D_OFFSET UNITYSDK_OFFSET(0x1A8A5470)
+#define RPG_GAMECORE_BYCOMPARESPECIALAVATARTYPE__CTOR_OFFSET UNITYSDK_OFFSET(0x1A8A54A0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ByCompareSpecialAvatarType_TypeDefinitionIndex = 22095;
+	inline static constexpr unsigned int ByCompareSpecialAvatarType_TypeDefinitionIndex = 22531;
 
 	class ByCompareSpecialAvatarType : public ::RPG::GameCore::PredicateConfig
 	{
@@ -28,9 +28,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYCOMPARESPECIALAVATARTYPE__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_4_4859B7814DC3AC38(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ByCompareSpecialAvatarType*& a2)
+		static ::System::Void Method_4_B49F858041B8063D(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ByCompareSpecialAvatarType*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ByCompareSpecialAvatarType*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYCOMPARESPECIALAVATARTYPE_METHOD_4_4859B7814DC3AC38_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ByCompareSpecialAvatarType*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYCOMPARESPECIALAVATARTYPE_METHOD_4_B49F858041B8063D_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_4_810BE6FA90AF7850(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ByCompareSpecialAvatarType* a2)
@@ -38,14 +38,14 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ByCompareSpecialAvatarType*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYCOMPARESPECIALAVATARTYPE_METHOD_4_810BE6FA90AF7850_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_4_037AD04D4C04468E(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::ByCompareSpecialAvatarType*& a2)
+		static ::System::Void Method_4_982D4AF570171AD6(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::ByCompareSpecialAvatarType*& a2)
 		{
-			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::ByCompareSpecialAvatarType*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYCOMPARESPECIALAVATARTYPE_METHOD_4_037AD04D4C04468E_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::ByCompareSpecialAvatarType*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYCOMPARESPECIALAVATARTYPE_METHOD_4_982D4AF570171AD6_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_4_C6D43F40020606AD(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::ByCompareSpecialAvatarType* a2)
+		static ::System::Void Method_4_A7C81A0410E89300(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::ByCompareSpecialAvatarType* a2)
 		{
-			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::ByCompareSpecialAvatarType*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYCOMPARESPECIALAVATARTYPE_METHOD_4_C6D43F40020606AD_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::ByCompareSpecialAvatarType*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYCOMPARESPECIALAVATARTYPE_METHOD_4_A7C81A0410E89300_OFFSET))(a1, a2);
 		}
 	};
 }

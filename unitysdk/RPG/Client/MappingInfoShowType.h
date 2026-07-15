@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MappingInfoShowType_TypeDefinitionIndex = 58867;
+	inline static constexpr unsigned int MappingInfoShowType_TypeDefinitionIndex = 60138;
 
 	enum class MappingInfoShowType : ::System::Int32
 	{

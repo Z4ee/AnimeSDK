@@ -5,12 +5,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class TrackNpcPerceiveValueConfig; }
 
-#define RPG_GAMECORE_TRACKNPCPERCEIVECONFIG_METHOD_2_A620285B11B74D1D_OFFSET UNITYSDK_OFFSET(0x19DED5E0)
-#define RPG_GAMECORE_TRACKNPCPERCEIVECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x19DED6C0)
+#define RPG_GAMECORE_TRACKNPCPERCEIVECONFIG_METHOD_2_A620285B11B74D1D_OFFSET UNITYSDK_OFFSET(0x1C159A00)
+#define RPG_GAMECORE_TRACKNPCPERCEIVECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1C159AE0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TrackNpcPerceiveConfig_TypeDefinitionIndex = 20954;
+	inline static constexpr unsigned int TrackNpcPerceiveConfig_TypeDefinitionIndex = 21369;
 
 	class TrackNpcPerceiveConfig : public ::RPG::GameCore::JsonConfig
 	{

@@ -6,13 +6,13 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class DynamicFloat; }
 
-#define RPG_GAMECORE_DICECOMBATTASKCONFIG_HEAL_METHOD_3_52D9612A5B56A95D_OFFSET UNITYSDK_OFFSET(0x196B2FA0)
-#define RPG_GAMECORE_DICECOMBATTASKCONFIG_HEAL_METHOD_3_606A11C807EBCF9F_OFFSET UNITYSDK_OFFSET(0x196B90A0)
-#define RPG_GAMECORE_DICECOMBATTASKCONFIG_HEAL__CTOR_OFFSET UNITYSDK_OFFSET(0x196B2F50)
+#define RPG_GAMECORE_DICECOMBATTASKCONFIG_HEAL_METHOD_3_52D9612A5B56A95D_OFFSET UNITYSDK_OFFSET(0x1C118B30)
+#define RPG_GAMECORE_DICECOMBATTASKCONFIG_HEAL_METHOD_3_BB1E4A3EA7CB8BFE_OFFSET UNITYSDK_OFFSET(0x1C118AD0)
+#define RPG_GAMECORE_DICECOMBATTASKCONFIG_HEAL__CTOR_OFFSET UNITYSDK_OFFSET(0x1C118B20)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int DiceCombatTaskConfig_Heal_TypeDefinitionIndex = 15278;
+	inline static constexpr unsigned int DiceCombatTaskConfig_Heal_TypeDefinitionIndex = 15442;
 
 	class DiceCombatTaskConfig_Heal : public ::RPG::GameCore::DiceCombatTaskConfig
 	{
@@ -25,9 +25,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_DICECOMBATTASKCONFIG_HEAL__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_606A11C807EBCF9F(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::DiceCombatTaskConfig_Heal*& a2)
+		static ::System::Void Method_3_BB1E4A3EA7CB8BFE(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::DiceCombatTaskConfig_Heal*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::DiceCombatTaskConfig_Heal*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_DICECOMBATTASKCONFIG_HEAL_METHOD_3_606A11C807EBCF9F_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::DiceCombatTaskConfig_Heal*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_DICECOMBATTASKCONFIG_HEAL_METHOD_3_BB1E4A3EA7CB8BFE_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_52D9612A5B56A95D(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::DiceCombatTaskConfig_Heal* a2)

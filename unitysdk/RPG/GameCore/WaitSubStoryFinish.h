@@ -4,13 +4,13 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_WAITSUBSTORYFINISH_METHOD_3_0F754857E3F4123E_OFFSET UNITYSDK_OFFSET(0x19E62690)
-#define RPG_GAMECORE_WAITSUBSTORYFINISH_METHOD_3_AA2C66E054F0EA1E_OFFSET UNITYSDK_OFFSET(0x19E62600)
-#define RPG_GAMECORE_WAITSUBSTORYFINISH__CTOR_OFFSET UNITYSDK_OFFSET(0x19E62660)
+#define RPG_GAMECORE_WAITSUBSTORYFINISH_METHOD_3_0F754857E3F4123E_OFFSET UNITYSDK_OFFSET(0x1D1BD8C0)
+#define RPG_GAMECORE_WAITSUBSTORYFINISH_METHOD_3_8C2C1787B2AFDB22_OFFSET UNITYSDK_OFFSET(0x1D1BD870)
+#define RPG_GAMECORE_WAITSUBSTORYFINISH__CTOR_OFFSET UNITYSDK_OFFSET(0x1D1BD8B0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int WaitSubStoryFinish_TypeDefinitionIndex = 19351;
+	inline static constexpr unsigned int WaitSubStoryFinish_TypeDefinitionIndex = 19707;
 
 	class WaitSubStoryFinish : public ::RPG::GameCore::TaskConfig
 	{
@@ -20,9 +20,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_WAITSUBSTORYFINISH__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_AA2C66E054F0EA1E(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::WaitSubStoryFinish*& a2)
+		static ::System::Void Method_3_8C2C1787B2AFDB22(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::WaitSubStoryFinish*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::WaitSubStoryFinish*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_WAITSUBSTORYFINISH_METHOD_3_AA2C66E054F0EA1E_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::WaitSubStoryFinish*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_WAITSUBSTORYFINISH_METHOD_3_8C2C1787B2AFDB22_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_0F754857E3F4123E(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::WaitSubStoryFinish* a2)

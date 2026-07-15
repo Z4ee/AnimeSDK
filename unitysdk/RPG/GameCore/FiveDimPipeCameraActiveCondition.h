@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FiveDimPipeCameraActiveCondition_TypeDefinitionIndex = 17665;
+	inline static constexpr unsigned int FiveDimPipeCameraActiveCondition_TypeDefinitionIndex = 17839;
 
 	enum class FiveDimPipeCameraActiveCondition : ::System::Int32
 	{

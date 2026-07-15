@@ -6,20 +6,20 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class Material; }
 namespace UnityEngine { class Renderer; }
 
-#define UNITYENGINE_PROBUILDER_MATERIALUTILITY_GETMATERIALCOUNT_OFFSET UNITYSDK_OFFSET(0x1B0AEFB0)
-#define UNITYENGINE_PROBUILDER_MATERIALUTILITY_GETSHAREDMATERIAL_OFFSET UNITYSDK_OFFSET(0x1B0AF0A0)
-#define UNITYENGINE_PROBUILDER_MATERIALUTILITY__CCTOR_OFFSET UNITYSDK_OFFSET(0x1B0AF240)
+#define UNITYENGINE_PROBUILDER_MATERIALUTILITY_GETMATERIALCOUNT_OFFSET UNITYSDK_OFFSET(0xC095C30)
+#define UNITYENGINE_PROBUILDER_MATERIALUTILITY_GETSHAREDMATERIAL_OFFSET UNITYSDK_OFFSET(0xC095D20)
+#define UNITYENGINE_PROBUILDER_MATERIALUTILITY__CCTOR_OFFSET UNITYSDK_OFFSET(0xC095EC0)
 
 namespace UnityEngine::ProBuilder
 {
-	inline static constexpr unsigned int MaterialUtility_TypeDefinitionIndex = 40754;
+	inline static constexpr unsigned int MaterialUtility_TypeDefinitionIndex = 41569;
 
 	class MaterialUtility : public ::System::Object
 	{
 	public:
 		static ::System::Collections::Generic::List_1<::UnityEngine::Material*>** StaticGet_s_MaterialArray()
 		{
-			return (::System::Collections::Generic::List_1<::UnityEngine::Material*>**)Il2CppClass::FromTypeDefinitionIndex(MaterialUtility_TypeDefinitionIndex)->GetStaticField(0x52140);
+			return (::System::Collections::Generic::List_1<::UnityEngine::Material*>**)Il2CppClass::FromTypeDefinitionIndex(MaterialUtility_TypeDefinitionIndex)->GetStaticField(0x4F7C0);
 		}
 
 		static ::System::Void _cctor()

@@ -6,13 +6,13 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_LOCKSTEPSTATUS_METHOD_3_061A55C95EE417B9_OFFSET UNITYSDK_OFFSET(0x198AD030)
-#define RPG_GAMECORE_LOCKSTEPSTATUS_METHOD_3_A8ECF30799F4AB85_OFFSET UNITYSDK_OFFSET(0x198ACFA0)
-#define RPG_GAMECORE_LOCKSTEPSTATUS__CTOR_OFFSET UNITYSDK_OFFSET(0x198AD000)
+#define RPG_GAMECORE_LOCKSTEPSTATUS_METHOD_3_061A55C95EE417B9_OFFSET UNITYSDK_OFFSET(0x1BCD0030)
+#define RPG_GAMECORE_LOCKSTEPSTATUS_METHOD_3_6E9819B3D2C962F6_OFFSET UNITYSDK_OFFSET(0x1BCCFFE0)
+#define RPG_GAMECORE_LOCKSTEPSTATUS__CTOR_OFFSET UNITYSDK_OFFSET(0x1BCD0020)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LockStepStatus_TypeDefinitionIndex = 22312;
+	inline static constexpr unsigned int LockStepStatus_TypeDefinitionIndex = 22753;
 
 	class LockStepStatus : public ::RPG::GameCore::TaskConfig
 	{
@@ -25,9 +25,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LOCKSTEPSTATUS__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_A8ECF30799F4AB85(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::LockStepStatus*& a2)
+		static ::System::Void Method_3_6E9819B3D2C962F6(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::LockStepStatus*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::LockStepStatus*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LOCKSTEPSTATUS_METHOD_3_A8ECF30799F4AB85_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::LockStepStatus*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LOCKSTEPSTATUS_METHOD_3_6E9819B3D2C962F6_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_061A55C95EE417B9(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::LockStepStatus* a2)

@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PropInteractMode_TypeDefinitionIndex = 10192;
+	inline static constexpr unsigned int PropInteractMode_TypeDefinitionIndex = 10213;
 
 	enum class PropInteractMode : ::System::Int32
 	{

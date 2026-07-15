@@ -3,7 +3,7 @@
 
 namespace System::Threading
 {
-	inline static constexpr unsigned int LockRecursionPolicy_TypeDefinitionIndex = 3103;
+	inline static constexpr unsigned int LockRecursionPolicy_TypeDefinitionIndex = 3107;
 
 	enum class LockRecursionPolicy : ::System::Int32
 	{

@@ -9,13 +9,13 @@ namespace RPG::GameCore { class JsonEnum; }
 namespace RPG::GameCore { class TargetEvaluator; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_ADDMISSIONMENUITEM_METHOD_3_6EBA08D46D0F51D2_OFFSET UNITYSDK_OFFSET(0x194100A0)
-#define RPG_GAMECORE_ADDMISSIONMENUITEM_METHOD_3_D6691F3D56C5DFED_OFFSET UNITYSDK_OFFSET(0x19410010)
-#define RPG_GAMECORE_ADDMISSIONMENUITEM__CTOR_OFFSET UNITYSDK_OFFSET(0x19410070)
+#define RPG_GAMECORE_ADDMISSIONMENUITEM_METHOD_3_6EBA08D46D0F51D2_OFFSET UNITYSDK_OFFSET(0x1BE08230)
+#define RPG_GAMECORE_ADDMISSIONMENUITEM_METHOD_3_7E9AB0F529C023BD_OFFSET UNITYSDK_OFFSET(0x1BE081E0)
+#define RPG_GAMECORE_ADDMISSIONMENUITEM__CTOR_OFFSET UNITYSDK_OFFSET(0x1BE08220)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AddMissionMenuItem_TypeDefinitionIndex = 19963;
+	inline static constexpr unsigned int AddMissionMenuItem_TypeDefinitionIndex = 20334;
 
 	class AddMissionMenuItem : public ::RPG::GameCore::TaskConfig
 	{
@@ -35,9 +35,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADDMISSIONMENUITEM__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_D6691F3D56C5DFED(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AddMissionMenuItem*& a2)
+		static ::System::Void Method_3_7E9AB0F529C023BD(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AddMissionMenuItem*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::AddMissionMenuItem*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADDMISSIONMENUITEM_METHOD_3_D6691F3D56C5DFED_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::AddMissionMenuItem*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADDMISSIONMENUITEM_METHOD_3_7E9AB0F529C023BD_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_6EBA08D46D0F51D2(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AddMissionMenuItem* a2)

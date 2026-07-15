@@ -5,19 +5,19 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_ACTIVITYHIPPLENINTERACTIONROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x193EE4C0)
-#define RPG_GAMECORE_ACTIVITYHIPPLENINTERACTIONROW__CTOR_OFFSET UNITYSDK_OFFSET(0x193EE650)
+#define RPG_GAMECORE_ACTIVITYHIPPLENINTERACTIONROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1AAF6FC0)
+#define RPG_GAMECORE_ACTIVITYHIPPLENINTERACTIONROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1AAF7150)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ActivityHipplenInteractionRow_TypeDefinitionIndex = 11143;
+	inline static constexpr unsigned int ActivityHipplenInteractionRow_TypeDefinitionIndex = 11243;
 
 	class ActivityHipplenInteractionRow : public ::System::Object
 	{
 	public:
 		::Il2CppArray<::System::UInt32>* Effects; // 0x10
-		::RPG::GameCore::HipplenInteractType InteractType; // 0x18
-		::System::UInt32 ID; // 0x1C
+		::System::UInt32 ID; // 0x18
+		::RPG::GameCore::HipplenInteractType InteractType; // 0x1C
 
 		::System::Void _ctor()
 		{

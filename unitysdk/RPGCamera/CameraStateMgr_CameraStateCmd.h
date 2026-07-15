@@ -5,7 +5,7 @@
 
 namespace RPGCamera
 {
-	inline static constexpr unsigned int CameraStateMgr_CameraStateCmd_TypeDefinitionIndex = 41767;
+	inline static constexpr unsigned int CameraStateMgr_CameraStateCmd_TypeDefinitionIndex = 42628;
 
 	struct alignas(4) CameraStateMgr_CameraStateCmd
 	{

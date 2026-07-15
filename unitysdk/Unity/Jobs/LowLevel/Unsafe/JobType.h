@@ -3,7 +3,7 @@
 
 namespace Unity::Jobs::LowLevel::Unsafe
 {
-	inline static constexpr unsigned int JobType_TypeDefinitionIndex = 3953;
+	inline static constexpr unsigned int JobType_TypeDefinitionIndex = 3957;
 
 	enum class JobType : ::System::Int32
 	{

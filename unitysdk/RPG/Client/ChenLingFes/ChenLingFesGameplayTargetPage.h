@@ -3,7 +3,7 @@
 
 namespace RPG::Client::ChenLingFes
 {
-	inline static constexpr unsigned int ChenLingFesGameplayTargetPage_TypeDefinitionIndex = 74045;
+	inline static constexpr unsigned int ChenLingFesGameplayTargetPage_TypeDefinitionIndex = 76427;
 
 	enum class ChenLingFesGameplayTargetPage : ::System::Int32
 	{

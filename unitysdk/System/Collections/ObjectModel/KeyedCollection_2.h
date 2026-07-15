@@ -8,7 +8,7 @@ namespace System::Collections::Generic { template <typename T> class IEqualityCo
 
 namespace System::Collections::ObjectModel
 {
-	inline static constexpr unsigned int KeyedCollection_2_TypeDefinitionIndex = 1495;
+	inline static constexpr unsigned int KeyedCollection_2_TypeDefinitionIndex = 1499;
 
 	template <typename TKey, typename TItem>
 	class KeyedCollection_2 : public ::System::Collections::ObjectModel::Collection_1<TItem>

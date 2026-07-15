@@ -5,9 +5,9 @@
 namespace RPG::GameCore { class PropComponent; }
 namespace UnityEngine { class GameObject; }
 
-#define CLASS_1_E5F3FA10EC56B9A0_1__CTOR_OFFSET UNITYSDK_OFFSET(0x13AB7400)
+#define CLASS_1_E5F3FA10EC56B9A0_1__CTOR_OFFSET UNITYSDK_OFFSET(0x174F1720)
 
-inline static constexpr unsigned int Class_1_E5F3FA10EC56B9A0_1_TypeDefinitionIndex = 53597;
+inline static constexpr unsigned int Class_1_E5F3FA10EC56B9A0_1_TypeDefinitionIndex = 54815;
 
 class Class_1_E5F3FA10EC56B9A0_1 : public ::System::Object
 {

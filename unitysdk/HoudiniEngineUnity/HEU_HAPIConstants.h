@@ -6,7 +6,7 @@ namespace System { class String; }
 
 namespace HoudiniEngineUnity
 {
-	inline static constexpr unsigned int HEU_HAPIConstants_TypeDefinitionIndex = 37480;
+	inline static constexpr unsigned int HEU_HAPIConstants_TypeDefinitionIndex = 38288;
 
 	class HEU_HAPIConstants : public ::System::Object
 	{

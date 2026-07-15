@@ -7,13 +7,13 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class DynamicFloat; }
 
-#define RPG_GAMECORE_PROPATTRACTENEMY_METHOD_3_5AC94833163FC34B_OFFSET UNITYSDK_OFFSET(0x19A87670)
-#define RPG_GAMECORE_PROPATTRACTENEMY_METHOD_3_F6684869A268CB91_OFFSET UNITYSDK_OFFSET(0x19A87700)
-#define RPG_GAMECORE_PROPATTRACTENEMY__CTOR_OFFSET UNITYSDK_OFFSET(0x19A876D0)
+#define RPG_GAMECORE_PROPATTRACTENEMY_METHOD_3_F6684869A268CB91_OFFSET UNITYSDK_OFFSET(0x1BA1AF00)
+#define RPG_GAMECORE_PROPATTRACTENEMY_METHOD_3_FE9C26D637C5E225_OFFSET UNITYSDK_OFFSET(0x1BA1AEB0)
+#define RPG_GAMECORE_PROPATTRACTENEMY__CTOR_OFFSET UNITYSDK_OFFSET(0x1BA1AEF0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PropAttractEnemy_TypeDefinitionIndex = 19045;
+	inline static constexpr unsigned int PropAttractEnemy_TypeDefinitionIndex = 19398;
 
 	class PropAttractEnemy : public ::RPG::GameCore::TaskConfig
 	{
@@ -33,9 +33,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PROPATTRACTENEMY__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_5AC94833163FC34B(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::PropAttractEnemy*& a2)
+		static ::System::Void Method_3_FE9C26D637C5E225(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::PropAttractEnemy*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::PropAttractEnemy*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PROPATTRACTENEMY_METHOD_3_5AC94833163FC34B_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::PropAttractEnemy*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PROPATTRACTENEMY_METHOD_3_FE9C26D637C5E225_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_F6684869A268CB91(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::PropAttractEnemy* a2)

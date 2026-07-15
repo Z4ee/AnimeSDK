@@ -6,19 +6,19 @@ namespace RPG::GameCore { class CharacterReplaceMaterialVariant; }
 namespace RPG::GameCore { class CharacterReplaceMaterialVariantConfig; }
 namespace System { class String; }
 
-#define CLASS_1_32C8E2E1DBBD4ECF_METHOD_1_5790A55946AA509D_OFFSET UNITYSDK_OFFSET(0xAF317D0)
-#define CLASS_1_32C8E2E1DBBD4ECF_METHOD_1_8666A05ADEEC4B71_OFFSET UNITYSDK_OFFSET(0xAF31900)
-#define CLASS_1_32C8E2E1DBBD4ECF_METHOD_1_F8C7231308CD2C82_1_OFFSET UNITYSDK_OFFSET(0xAF31820)
-#define CLASS_1_32C8E2E1DBBD4ECF_METHOD_1_F8C7231308CD2C82_OFFSET UNITYSDK_OFFSET(0xAF31730)
+#define CLASS_1_32C8E2E1DBBD4ECF_METHOD_1_5790A55946AA509D_OFFSET UNITYSDK_OFFSET(0x15EB71A0)
+#define CLASS_1_32C8E2E1DBBD4ECF_METHOD_1_8666A05ADEEC4B71_OFFSET UNITYSDK_OFFSET(0x15EB72D0)
+#define CLASS_1_32C8E2E1DBBD4ECF_METHOD_1_F8C7231308CD2C82_1_OFFSET UNITYSDK_OFFSET(0x15EB71F0)
+#define CLASS_1_32C8E2E1DBBD4ECF_METHOD_1_F8C7231308CD2C82_OFFSET UNITYSDK_OFFSET(0x15EB7100)
 
-inline static constexpr unsigned int Class_1_32C8E2E1DBBD4ECF_TypeDefinitionIndex = 68450;
+inline static constexpr unsigned int Class_1_32C8E2E1DBBD4ECF_TypeDefinitionIndex = 69944;
 
 class Class_1_32C8E2E1DBBD4ECF : public ::System::Object
 {
 public:
 	static ::RPG::GameCore::CharacterReplaceMaterialVariantConfig** StaticGet_Field_1_0()
 	{
-		return (::RPG::GameCore::CharacterReplaceMaterialVariantConfig**)Il2CppClass::FromTypeDefinitionIndex(Class_1_32C8E2E1DBBD4ECF_TypeDefinitionIndex)->GetStaticField(0x38F60);
+		return (::RPG::GameCore::CharacterReplaceMaterialVariantConfig**)Il2CppClass::FromTypeDefinitionIndex(Class_1_32C8E2E1DBBD4ECF_TypeDefinitionIndex)->GetStaticField(0x2A430);
 	}
 
 	static ::System::Void Method_1_F8C7231308CD2C82()

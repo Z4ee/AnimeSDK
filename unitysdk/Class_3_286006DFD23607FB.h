@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class ByCompareScreenRatio; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_286006DFD23607FB_EVALUATE_OFFSET UNITYSDK_OFFSET(0x11909ED0)
-#define CLASS_3_286006DFD23607FB__CTOR_OFFSET UNITYSDK_OFFSET(0x11909EA0)
+#define CLASS_3_286006DFD23607FB_EVALUATE_OFFSET UNITYSDK_OFFSET(0x140B9EB0)
+#define CLASS_3_286006DFD23607FB__CTOR_OFFSET UNITYSDK_OFFSET(0x140B9E80)
 
-inline static constexpr unsigned int Class_3_286006DFD23607FB_TypeDefinitionIndex = 51004;
+inline static constexpr unsigned int Class_3_286006DFD23607FB_TypeDefinitionIndex = 52090;
 
 class Class_3_286006DFD23607FB : public ::RPG::GameCore::PredicateTaskBase_1<::RPG::GameCore::ByCompareScreenRatio*>
 {

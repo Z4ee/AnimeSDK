@@ -1,12 +1,12 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Struct_2_9BF8902D61AE1796.h"
+#include "unitysdk/Struct_2_F8D9CEC872B937AF.h"
 #include "unitysdk/System/Object.h"
 
-class Class_0_16E4307DCC419505_91;
-class Class_0_16E4307DCC419505_92;
-class Class_0_16E4307DCC419505_96;
-class Class_0_16E4307DCC419505_97;
+class Class_0_16E4307DCC419505_110;
+class Class_0_16E4307DCC419505_111;
+class Class_0_16E4307DCC419505_115;
+class Class_0_16E4307DCC419505_116;
 namespace Entitas { class IContext; }
 namespace Entitas { class IEntity; }
 namespace Entitas { template <typename T> class IContext_1; }
@@ -19,7 +19,7 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client::LittleGame
 {
-	inline static constexpr unsigned int SimpleViewService_1_TypeDefinitionIndex = 71100;
+	inline static constexpr unsigned int SimpleViewService_1_TypeDefinitionIndex = 72613;
 
 	template <typename TEntity>
 	class SimpleViewService_1 : public ::System::Object

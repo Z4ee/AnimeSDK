@@ -5,18 +5,18 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_TEXTSPRITECONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x19DE0920)
-#define RPG_GAMECORE_TEXTSPRITECONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x19DE0A50)
+#define RPG_GAMECORE_TEXTSPRITECONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1C14D1D0)
+#define RPG_GAMECORE_TEXTSPRITECONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1C14D300)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TextSpriteConfigRow_TypeDefinitionIndex = 14524;
+	inline static constexpr unsigned int TextSpriteConfigRow_TypeDefinitionIndex = 14682;
 
 	class TextSpriteConfigRow : public ::System::Object
 	{
 	public:
-		::System::String* SpritePath; // 0x10
-		::System::String* SpriteName; // 0x18
+		::System::String* SpriteName; // 0x10
+		::System::String* SpritePath; // 0x18
 
 		::System::Void _ctor()
 		{

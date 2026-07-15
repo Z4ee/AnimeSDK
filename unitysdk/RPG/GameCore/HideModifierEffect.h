@@ -7,13 +7,13 @@ namespace RPG::GameCore { class JsonEnum; }
 namespace RPG::GameCore { class TargetEvaluator; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_HIDEMODIFIEREFFECT_METHOD_3_42EFA32977E5E624_OFFSET UNITYSDK_OFFSET(0x198316B0)
-#define RPG_GAMECORE_HIDEMODIFIEREFFECT_METHOD_3_A9DD9D6D0E821409_OFFSET UNITYSDK_OFFSET(0x19831730)
-#define RPG_GAMECORE_HIDEMODIFIEREFFECT__CTOR_OFFSET UNITYSDK_OFFSET(0x19831700)
+#define RPG_GAMECORE_HIDEMODIFIEREFFECT_METHOD_3_0DD433F4E8F8720C_OFFSET UNITYSDK_OFFSET(0x1B6841D0)
+#define RPG_GAMECORE_HIDEMODIFIEREFFECT_METHOD_3_A9DD9D6D0E821409_OFFSET UNITYSDK_OFFSET(0x1B684220)
+#define RPG_GAMECORE_HIDEMODIFIEREFFECT__CTOR_OFFSET UNITYSDK_OFFSET(0x1B684210)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int HideModifierEffect_TypeDefinitionIndex = 22341;
+	inline static constexpr unsigned int HideModifierEffect_TypeDefinitionIndex = 22783;
 
 	class HideModifierEffect : public ::RPG::GameCore::TaskConfig
 	{
@@ -28,9 +28,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_HIDEMODIFIEREFFECT__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_42EFA32977E5E624(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::HideModifierEffect*& a2)
+		static ::System::Void Method_3_0DD433F4E8F8720C(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::HideModifierEffect*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::HideModifierEffect*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_HIDEMODIFIEREFFECT_METHOD_3_42EFA32977E5E624_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::HideModifierEffect*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_HIDEMODIFIEREFFECT_METHOD_3_0DD433F4E8F8720C_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_A9DD9D6D0E821409(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::HideModifierEffect* a2)

@@ -7,13 +7,13 @@ namespace System { class Exception; }
 namespace System { class String; }
 namespace System::Runtime::Serialization { class SerializationInfo; }
 
-#define SYSTEM_SECURITY_AUTHENTICATION_AUTHENTICATIONEXCEPTION__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1AFCF470)
-#define SYSTEM_SECURITY_AUTHENTICATION_AUTHENTICATIONEXCEPTION__CTOR_2_OFFSET UNITYSDK_OFFSET(0x1AFCF4E0)
-#define SYSTEM_SECURITY_AUTHENTICATION_AUTHENTICATIONEXCEPTION__CTOR_OFFSET UNITYSDK_OFFSET(0x1AFCF3D0)
+#define SYSTEM_SECURITY_AUTHENTICATION_AUTHENTICATIONEXCEPTION__CTOR_1_OFFSET UNITYSDK_OFFSET(0x19F0DB20)
+#define SYSTEM_SECURITY_AUTHENTICATION_AUTHENTICATIONEXCEPTION__CTOR_2_OFFSET UNITYSDK_OFFSET(0x19F0DB90)
+#define SYSTEM_SECURITY_AUTHENTICATION_AUTHENTICATIONEXCEPTION__CTOR_OFFSET UNITYSDK_OFFSET(0x19F0DA80)
 
 namespace System::Security::Authentication
 {
-	inline static constexpr unsigned int AuthenticationException_TypeDefinitionIndex = 2657;
+	inline static constexpr unsigned int AuthenticationException_TypeDefinitionIndex = 2661;
 
 	class AuthenticationException : public ::System::SystemException
 	{

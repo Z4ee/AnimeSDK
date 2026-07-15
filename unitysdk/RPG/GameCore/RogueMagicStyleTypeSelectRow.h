@@ -7,21 +7,21 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_ROGUEMAGICSTYLETYPESELECTROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x19B478E0)
-#define RPG_GAMECORE_ROGUEMAGICSTYLETYPESELECTROW__CTOR_OFFSET UNITYSDK_OFFSET(0x19B47FF0)
+#define RPG_GAMECORE_ROGUEMAGICSTYLETYPESELECTROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1CFB8AA0)
+#define RPG_GAMECORE_ROGUEMAGICSTYLETYPESELECTROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1CFB91F0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RogueMagicStyleTypeSelectRow_TypeDefinitionIndex = 14163;
+	inline static constexpr unsigned int RogueMagicStyleTypeSelectRow_TypeDefinitionIndex = 14311;
 
 	class RogueMagicStyleTypeSelectRow : public ::System::Object
 	{
 	public:
 		::System::String* IconPath; // 0x10
-		::System::UInt32 DisplayID; // 0x18
-		::RPG::GameCore::RogueMagicStyleType EnumType; // 0x1C
-		::System::UInt32 UnlockID; // 0x20
-		::RPG::Client::TextID EnumDesc; // 0x28
+		::System::UInt32 UnlockID; // 0x18
+		::System::UInt32 DisplayID; // 0x1C
+		::RPG::Client::TextID EnumDesc; // 0x20
+		::RPG::GameCore::RogueMagicStyleType EnumType; // 0x30
 
 		::System::Void _ctor()
 		{

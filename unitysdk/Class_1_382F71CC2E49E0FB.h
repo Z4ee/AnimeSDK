@@ -5,10 +5,10 @@
 namespace Google::Protobuf { class IMessage; }
 namespace System { class Action; }
 
-#define CLASS_1_382F71CC2E49E0FB_METHOD_1_BBA49FAB086F388D_OFFSET UNITYSDK_OFFSET(0x13C54CC0)
-#define CLASS_1_382F71CC2E49E0FB__CTOR_OFFSET UNITYSDK_OFFSET(0x13C54DA0)
+#define CLASS_1_382F71CC2E49E0FB_METHOD_1_BBA49FAB086F388D_OFFSET UNITYSDK_OFFSET(0x17A4E530)
+#define CLASS_1_382F71CC2E49E0FB__CTOR_OFFSET UNITYSDK_OFFSET(0x17A4E610)
 
-inline static constexpr unsigned int Class_1_382F71CC2E49E0FB_TypeDefinitionIndex = 64879;
+inline static constexpr unsigned int Class_1_382F71CC2E49E0FB_TypeDefinitionIndex = 66281;
 
 class Class_1_382F71CC2E49E0FB : public ::System::Object
 {

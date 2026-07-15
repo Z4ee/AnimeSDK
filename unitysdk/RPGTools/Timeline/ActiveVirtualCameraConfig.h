@@ -6,12 +6,12 @@ namespace RPG::GameCore { class ActiveVirtualCamera; }
 namespace RPGTools::Timeline { class CameraBlendConfig; }
 namespace System { class String; }
 
-#define RPGTOOLS_TIMELINE_ACTIVEVIRTUALCAMERACONFIG_METHOD_1_01D7A2526CAC6B2C_OFFSET UNITYSDK_OFFSET(0xCFD4210)
-#define RPGTOOLS_TIMELINE_ACTIVEVIRTUALCAMERACONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0xCFD4370)
+#define RPGTOOLS_TIMELINE_ACTIVEVIRTUALCAMERACONFIG_METHOD_1_BA2EA41EAC26932F_OFFSET UNITYSDK_OFFSET(0x19D6BD50)
+#define RPGTOOLS_TIMELINE_ACTIVEVIRTUALCAMERACONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x19D6BE90)
 
 namespace RPGTools::Timeline
 {
-	inline static constexpr unsigned int ActiveVirtualCameraConfig_TypeDefinitionIndex = 45131;
+	inline static constexpr unsigned int ActiveVirtualCameraConfig_TypeDefinitionIndex = 46049;
 
 	class ActiveVirtualCameraConfig : public ::System::Object
 	{
@@ -32,9 +32,9 @@ namespace RPGTools::Timeline
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_ACTIVEVIRTUALCAMERACONFIG__CTOR_OFFSET))(this);
 		}
 
-		::RPG::GameCore::ActiveVirtualCamera* Method_1_01D7A2526CAC6B2C()
+		::RPG::GameCore::ActiveVirtualCamera* Method_1_BA2EA41EAC26932F()
 		{
-			return ((::RPG::GameCore::ActiveVirtualCamera*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_ACTIVEVIRTUALCAMERACONFIG_METHOD_1_01D7A2526CAC6B2C_OFFSET))(this);
+			return ((::RPG::GameCore::ActiveVirtualCamera*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_ACTIVEVIRTUALCAMERACONFIG_METHOD_1_BA2EA41EAC26932F_OFFSET))(this);
 		}
 	};
 }

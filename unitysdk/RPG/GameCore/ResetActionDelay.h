@@ -5,13 +5,13 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class TargetEvaluator; }
 
-#define RPG_GAMECORE_RESETACTIONDELAY_METHOD_3_0E77CF49700CCEA8_OFFSET UNITYSDK_OFFSET(0x19ACDCF0)
-#define RPG_GAMECORE_RESETACTIONDELAY_METHOD_3_9DED3DFE360A0D2A_OFFSET UNITYSDK_OFFSET(0x19ACDD70)
-#define RPG_GAMECORE_RESETACTIONDELAY__CTOR_OFFSET UNITYSDK_OFFSET(0x19ACDD40)
+#define RPG_GAMECORE_RESETACTIONDELAY_METHOD_3_8BB4305E42D0E8A5_OFFSET UNITYSDK_OFFSET(0x1D01A930)
+#define RPG_GAMECORE_RESETACTIONDELAY_METHOD_3_9DED3DFE360A0D2A_OFFSET UNITYSDK_OFFSET(0x1D01A970)
+#define RPG_GAMECORE_RESETACTIONDELAY__CTOR_OFFSET UNITYSDK_OFFSET(0x1D01A960)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ResetActionDelay_TypeDefinitionIndex = 22011;
+	inline static constexpr unsigned int ResetActionDelay_TypeDefinitionIndex = 22445;
 
 	class ResetActionDelay : public ::RPG::GameCore::TaskConfig
 	{
@@ -24,9 +24,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_RESETACTIONDELAY__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_0E77CF49700CCEA8(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ResetActionDelay*& a2)
+		static ::System::Void Method_3_8BB4305E42D0E8A5(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ResetActionDelay*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ResetActionDelay*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_RESETACTIONDELAY_METHOD_3_0E77CF49700CCEA8_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ResetActionDelay*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_RESETACTIONDELAY_METHOD_3_8BB4305E42D0E8A5_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_9DED3DFE360A0D2A(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ResetActionDelay* a2)

@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int OfflineMessageSenderType_TypeDefinitionIndex = 11267;
+	inline static constexpr unsigned int OfflineMessageSenderType_TypeDefinitionIndex = 11367;
 
 	enum class OfflineMessageSenderType : ::System::Int32
 	{

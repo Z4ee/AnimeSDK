@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AdventureFeatureMuteLevel_TypeDefinitionIndex = 53267;
+	inline static constexpr unsigned int AdventureFeatureMuteLevel_TypeDefinitionIndex = 54482;
 
 	enum class AdventureFeatureMuteLevel : ::System::Int32
 	{

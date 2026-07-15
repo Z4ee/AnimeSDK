@@ -5,12 +5,12 @@
 namespace EnviromentSystem { class EnviroProperty; }
 namespace EnviromentSystem { class EnviromentProfile___c__DisplayClass31_0; }
 
-#define ENVIROMENTSYSTEM_ENVIROMENTPROFILE___C__DISPLAYCLASS31_1__CTOR_OFFSET UNITYSDK_OFFSET(0x135C9D60)
-#define ENVIROMENTSYSTEM_ENVIROMENTPROFILE___C__DISPLAYCLASS31_1__REGISTERTRANSITIONTARGETFROM_B__0_OFFSET UNITYSDK_OFFSET(0x135CEC50)
+#define ENVIROMENTSYSTEM_ENVIROMENTPROFILE___C__DISPLAYCLASS31_1__CTOR_OFFSET UNITYSDK_OFFSET(0xF1D56D0)
+#define ENVIROMENTSYSTEM_ENVIROMENTPROFILE___C__DISPLAYCLASS31_1__REGISTERTRANSITIONTARGETFROM_B__0_OFFSET UNITYSDK_OFFSET(0xF1DA0E0)
 
 namespace EnviromentSystem
 {
-	inline static constexpr unsigned int EnviromentProfile___c__DisplayClass31_1_TypeDefinitionIndex = 46768;
+	inline static constexpr unsigned int EnviromentProfile___c__DisplayClass31_1_TypeDefinitionIndex = 47733;
 
 	class EnviromentProfile___c__DisplayClass31_1 : public ::System::Object
 	{

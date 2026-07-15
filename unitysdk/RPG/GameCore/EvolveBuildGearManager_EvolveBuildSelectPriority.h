@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int EvolveBuildGearManager_EvolveBuildSelectPriority_TypeDefinitionIndex = 52332;
+	inline static constexpr unsigned int EvolveBuildGearManager_EvolveBuildSelectPriority_TypeDefinitionIndex = 53536;
 
 	enum class EvolveBuildGearManager_EvolveBuildSelectPriority : ::System::Byte
 	{

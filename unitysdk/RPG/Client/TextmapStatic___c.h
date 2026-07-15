@@ -6,24 +6,24 @@ namespace System { template <typename T1, typename T2> class Tuple_2; }
 namespace System { template <typename T> class Comparison_1; }
 namespace UnityEngine { class Sprite; }
 
-#define RPG_CLIENT_TEXTMAPSTATIC___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xCA30A60)
-#define RPG_CLIENT_TEXTMAPSTATIC___C__CTOR_OFFSET UNITYSDK_OFFSET(0xCA30A90)
-#define RPG_CLIENT_TEXTMAPSTATIC___C___COMPILETEXTICONSPATTERN_B__38_0_OFFSET UNITYSDK_OFFSET(0xCA30AA0)
+#define RPG_CLIENT_TEXTMAPSTATIC___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x19493C30)
+#define RPG_CLIENT_TEXTMAPSTATIC___C__CTOR_OFFSET UNITYSDK_OFFSET(0x19493C60)
+#define RPG_CLIENT_TEXTMAPSTATIC___C___COMPILETEXTICONSPATTERN_B__38_0_OFFSET UNITYSDK_OFFSET(0x19493C70)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int TextmapStatic___c_TypeDefinitionIndex = 68139;
+	inline static constexpr unsigned int TextmapStatic___c_TypeDefinitionIndex = 69625;
 
 	class TextmapStatic___c : public ::System::Object
 	{
 	public:
-		static ::System::Comparison_1<::System::Tuple_2<::System::UInt32, ::UnityEngine::Sprite*>*>** StaticGet___9__38_0()
-		{
-			return (::System::Comparison_1<::System::Tuple_2<::System::UInt32, ::UnityEngine::Sprite*>*>**)Il2CppClass::FromTypeDefinitionIndex(TextmapStatic___c_TypeDefinitionIndex)->GetStaticField(0x52010);
-		}
 		static ::RPG::Client::TextmapStatic___c** StaticGet___9()
 		{
-			return (::RPG::Client::TextmapStatic___c**)Il2CppClass::FromTypeDefinitionIndex(TextmapStatic___c_TypeDefinitionIndex)->GetStaticField(0x52018);
+			return (::RPG::Client::TextmapStatic___c**)Il2CppClass::FromTypeDefinitionIndex(TextmapStatic___c_TypeDefinitionIndex)->GetStaticField(0x404C0);
+		}
+		static ::System::Comparison_1<::System::Tuple_2<::System::UInt32, ::UnityEngine::Sprite*>*>** StaticGet___9__38_0()
+		{
+			return (::System::Comparison_1<::System::Tuple_2<::System::UInt32, ::UnityEngine::Sprite*>*>**)Il2CppClass::FromTypeDefinitionIndex(TextmapStatic___c_TypeDefinitionIndex)->GetStaticField(0x404C8);
 		}
 
 		static ::System::Void _cctor()

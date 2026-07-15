@@ -5,12 +5,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_GRIDFIGHTTUTORIALTASKROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x19811AE0)
-#define RPG_GAMECORE_GRIDFIGHTTUTORIALTASKROW__CTOR_OFFSET UNITYSDK_OFFSET(0x19811C10)
+#define RPG_GAMECORE_GRIDFIGHTTUTORIALTASKROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D07E7D0)
+#define RPG_GAMECORE_GRIDFIGHTTUTORIALTASKROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D07E900)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int GridFightTutorialTaskRow_TypeDefinitionIndex = 13005;
+	inline static constexpr unsigned int GridFightTutorialTaskRow_TypeDefinitionIndex = 13153;
 
 	class GridFightTutorialTaskRow : public ::System::Object
 	{

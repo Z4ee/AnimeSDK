@@ -6,12 +6,12 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class Animator; }
 namespace UnityEngine::Playables { class PlayableDirector; }
 
-#define RPG_CLIENT_CHENLINGBATTLE_CHENLINGBATTLEVIEWUTILS_BINDPLAYABLEDIRECTOR_OFFSET UNITYSDK_OFFSET(0xB5BB550)
-#define RPG_CLIENT_CHENLINGBATTLE_CHENLINGBATTLEVIEWUTILS__CTOR_OFFSET UNITYSDK_OFFSET(0xB5BB9D0)
+#define RPG_CLIENT_CHENLINGBATTLE_CHENLINGBATTLEVIEWUTILS_BINDPLAYABLEDIRECTOR_OFFSET UNITYSDK_OFFSET(0x1964F8F0)
+#define RPG_CLIENT_CHENLINGBATTLE_CHENLINGBATTLEVIEWUTILS__CTOR_OFFSET UNITYSDK_OFFSET(0x1964FF70)
 
 namespace RPG::Client::ChenLingBattle
 {
-	inline static constexpr unsigned int ChenLingBattleViewUtils_TypeDefinitionIndex = 70972;
+	inline static constexpr unsigned int ChenLingBattleViewUtils_TypeDefinitionIndex = 72485;
 
 	class ChenLingBattleViewUtils : public ::System::Object
 	{

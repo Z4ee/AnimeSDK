@@ -6,29 +6,29 @@
 namespace RPG::GameCore { class DynamicValue; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define RPG_CLIENT_CHIMERADUELCHIMERALEVELINFO_SELLRULE___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xB680340)
-#define RPG_CLIENT_CHIMERADUELCHIMERALEVELINFO_SELLRULE___C__CREATEWITHCONSTVALUES_B__1_0_OFFSET UNITYSDK_OFFSET(0xB680380)
-#define RPG_CLIENT_CHIMERADUELCHIMERALEVELINFO_SELLRULE___C__CREATEWITHCONSTVALUES_B__1_1_OFFSET UNITYSDK_OFFSET(0xB6803E0)
-#define RPG_CLIENT_CHIMERADUELCHIMERALEVELINFO_SELLRULE___C__CTOR_OFFSET UNITYSDK_OFFSET(0xB680370)
+#define RPG_CLIENT_CHIMERADUELCHIMERALEVELINFO_SELLRULE___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1A50DFC0)
+#define RPG_CLIENT_CHIMERADUELCHIMERALEVELINFO_SELLRULE___C__CREATEWITHCONSTVALUES_B__1_0_OFFSET UNITYSDK_OFFSET(0x1A50E000)
+#define RPG_CLIENT_CHIMERADUELCHIMERALEVELINFO_SELLRULE___C__CREATEWITHCONSTVALUES_B__1_1_OFFSET UNITYSDK_OFFSET(0x1A50E060)
+#define RPG_CLIENT_CHIMERADUELCHIMERALEVELINFO_SELLRULE___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1A50DFF0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ChimeraDuelChimeraLevelInfo_SellRule___c_TypeDefinitionIndex = 59292;
+	inline static constexpr unsigned int ChimeraDuelChimeraLevelInfo_SellRule___c_TypeDefinitionIndex = 60563;
 
 	class ChimeraDuelChimeraLevelInfo_SellRule___c : public ::System::Object
 	{
 	public:
 		static ::RPG::Client::ChimeraDuelChimeraLevelInfo_SellRule___c** StaticGet___9()
 		{
-			return (::RPG::Client::ChimeraDuelChimeraLevelInfo_SellRule___c**)Il2CppClass::FromTypeDefinitionIndex(ChimeraDuelChimeraLevelInfo_SellRule___c_TypeDefinitionIndex)->GetStaticField(0x63F50);
+			return (::RPG::Client::ChimeraDuelChimeraLevelInfo_SellRule___c**)Il2CppClass::FromTypeDefinitionIndex(ChimeraDuelChimeraLevelInfo_SellRule___c_TypeDefinitionIndex)->GetStaticField(0x681F0);
 		}
 		static ::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::RPG::GameCore::DynamicValue*, ::RPG::GameCore::DynamicValue*>, ::System::Int32>** StaticGet___9__1_0()
 		{
-			return (::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::RPG::GameCore::DynamicValue*, ::RPG::GameCore::DynamicValue*>, ::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(ChimeraDuelChimeraLevelInfo_SellRule___c_TypeDefinitionIndex)->GetStaticField(0x63F58);
+			return (::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::RPG::GameCore::DynamicValue*, ::RPG::GameCore::DynamicValue*>, ::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(ChimeraDuelChimeraLevelInfo_SellRule___c_TypeDefinitionIndex)->GetStaticField(0x681F8);
 		}
 		static ::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::RPG::GameCore::DynamicValue*, ::RPG::GameCore::DynamicValue*>, ::System::Int32>** StaticGet___9__1_1()
 		{
-			return (::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::RPG::GameCore::DynamicValue*, ::RPG::GameCore::DynamicValue*>, ::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(ChimeraDuelChimeraLevelInfo_SellRule___c_TypeDefinitionIndex)->GetStaticField(0x63F60);
+			return (::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::RPG::GameCore::DynamicValue*, ::RPG::GameCore::DynamicValue*>, ::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(ChimeraDuelChimeraLevelInfo_SellRule___c_TypeDefinitionIndex)->GetStaticField(0x68200);
 		}
 
 		static ::System::Void _cctor()

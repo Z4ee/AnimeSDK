@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int AdvEffectParamSource_TypeDefinitionIndex = 65367;
+	inline static constexpr unsigned int AdvEffectParamSource_TypeDefinitionIndex = 66779;
 
 	enum class AdvEffectParamSource : ::System::Int32
 	{

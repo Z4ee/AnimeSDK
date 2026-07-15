@@ -6,18 +6,18 @@
 namespace MiHoYo::SDK { class JSONArray; }
 namespace MiHoYo::SDK::Console::OS { class PayManagerCX; }
 
-#define MIHOYO_SDK_CONSOLE_OS_PAYMANAGERCX___C__DISPLAYCLASS18_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1826DA90)
-#define MIHOYO_SDK_CONSOLE_OS_PAYMANAGERCX___C__DISPLAYCLASS18_0__TRYGETPRODUCTS_B__0_OFFSET UNITYSDK_OFFSET(0x1826F240)
+#define MIHOYO_SDK_CONSOLE_OS_PAYMANAGERCX___C__DISPLAYCLASS18_0__CTOR_OFFSET UNITYSDK_OFFSET(0x16406760)
+#define MIHOYO_SDK_CONSOLE_OS_PAYMANAGERCX___C__DISPLAYCLASS18_0__TRYGETPRODUCTS_B__0_OFFSET UNITYSDK_OFFSET(0x16407F30)
 
 namespace MiHoYo::SDK::Console::OS
 {
-	inline static constexpr unsigned int PayManagerCX___c__DisplayClass18_0_TypeDefinitionIndex = 8760;
+	inline static constexpr unsigned int PayManagerCX___c__DisplayClass18_0_TypeDefinitionIndex = 8772;
 
 	class PayManagerCX___c__DisplayClass18_0 : public ::System::Object
 	{
 	public:
-		::MiHoYo::SDK::Console::OS::PayManagerCX* __4__this; // 0x10
-		::MiHoYo::SDK::JSONArray* productArray; // 0x18
+		::MiHoYo::SDK::JSONArray* productArray; // 0x10
+		::MiHoYo::SDK::Console::OS::PayManagerCX* __4__this; // 0x18
 
 		::System::Void _ctor()
 		{

@@ -4,11 +4,11 @@
 
 namespace UnityEngine { class AnimationCurve; }
 
-#define RPG_CLIENT_DRINKMAKERGLOBALCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0xB8186E0)
+#define RPG_CLIENT_DRINKMAKERGLOBALCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1770B560)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int DrinkMakerGlobalConfig_TypeDefinitionIndex = 59560;
+	inline static constexpr unsigned int DrinkMakerGlobalConfig_TypeDefinitionIndex = 60844;
 
 	class DrinkMakerGlobalConfig : public ::UnityEngine::MonoBehaviour
 	{

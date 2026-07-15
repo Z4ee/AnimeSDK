@@ -1,0 +1,81 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/Class_2_EDC795915B40E3E3.h"
+
+class Class_1_B4357A1C72BABC6B;
+class Class_2_B9E8C2EEAA5C96EC;
+class Class_3_1E4F9B0ED3BF21DE;
+namespace RPG::GameCore { class MiniGameFlappyBirdBlockConfig; }
+
+#define CLASS_3_F6ECAF46998FAA78_EXECUTE_OFFSET UNITYSDK_OFFSET(0x17049530)
+#define CLASS_3_F6ECAF46998FAA78_INITIALIZE_OFFSET UNITYSDK_OFFSET(0x170494E0)
+#define CLASS_3_F6ECAF46998FAA78_METHOD_3_2D3A0BB705C747E5_OFFSET UNITYSDK_OFFSET(0x170497C0)
+#define CLASS_3_F6ECAF46998FAA78_METHOD_3_30B62F5CDB9079BD_OFFSET UNITYSDK_OFFSET(0x170495C0)
+#define CLASS_3_F6ECAF46998FAA78_METHOD_3_33ACA6CB2ABC73F7_OFFSET UNITYSDK_OFFSET(0x170496C0)
+#define CLASS_3_F6ECAF46998FAA78_METHOD_3_7854AA0B7A17DA18_OFFSET UNITYSDK_OFFSET(0x17049C50)
+#define CLASS_3_F6ECAF46998FAA78_METHOD_3_AC0E55B0D144A986_OFFSET UNITYSDK_OFFSET(0x1704A5F0)
+#define CLASS_3_F6ECAF46998FAA78_METHOD_3_CA373AA1C7054598_OFFSET UNITYSDK_OFFSET(0x17049580)
+#define CLASS_3_F6ECAF46998FAA78_METHOD_3_D51B57322AA430CA_OFFSET UNITYSDK_OFFSET(0x17049CB0)
+#define CLASS_3_F6ECAF46998FAA78_METHOD_3_DF425E7ADEF7D402_OFFSET UNITYSDK_OFFSET(0x17049D10)
+#define CLASS_3_F6ECAF46998FAA78__CTOR_OFFSET UNITYSDK_OFFSET(0x170494D0)
+
+inline static constexpr unsigned int Class_3_F6ECAF46998FAA78_TypeDefinitionIndex = 72983;
+
+class Class_3_F6ECAF46998FAA78 : public ::Class_2_EDC795915B40E3E3
+{
+public:
+	::System::Void _ctor(::Class_1_B4357A1C72BABC6B* a1, ::Class_3_1E4F9B0ED3BF21DE* a2)
+	{
+		return ((::System::Void(*)(::PVOID, ::Class_1_B4357A1C72BABC6B*, ::Class_3_1E4F9B0ED3BF21DE*))((::PBYTE)hIl2Cpp + CLASS_3_F6ECAF46998FAA78__CTOR_OFFSET))(this, a1, a2);
+	}
+
+	::System::Void Initialize()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_3_F6ECAF46998FAA78_INITIALIZE_OFFSET))(this);
+	}
+
+	::System::Void Execute()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_3_F6ECAF46998FAA78_EXECUTE_OFFSET))(this);
+	}
+
+	::System::Void Method_3_CA373AA1C7054598()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_3_F6ECAF46998FAA78_METHOD_3_CA373AA1C7054598_OFFSET))(this);
+	}
+
+	::System::Void Method_3_30B62F5CDB9079BD()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_3_F6ECAF46998FAA78_METHOD_3_30B62F5CDB9079BD_OFFSET))(this);
+	}
+
+	::System::Void Method_3_33ACA6CB2ABC73F7()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_3_F6ECAF46998FAA78_METHOD_3_33ACA6CB2ABC73F7_OFFSET))(this);
+	}
+
+	::System::Void Method_3_2D3A0BB705C747E5(::System::Single a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + CLASS_3_F6ECAF46998FAA78_METHOD_3_2D3A0BB705C747E5_OFFSET))(this, a1);
+	}
+
+	::System::Void Method_3_7854AA0B7A17DA18(::System::Single a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + CLASS_3_F6ECAF46998FAA78_METHOD_3_7854AA0B7A17DA18_OFFSET))(this, a1);
+	}
+
+	::System::Void Method_3_D51B57322AA430CA(::System::Single a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + CLASS_3_F6ECAF46998FAA78_METHOD_3_D51B57322AA430CA_OFFSET))(this, a1);
+	}
+
+	::System::Boolean Method_3_DF425E7ADEF7D402(::System::Int32 a1, ::System::Single& a2, ::System::Single a3, ::System::Single a4)
+	{
+		return ((::System::Boolean(*)(::PVOID, ::System::Int32, ::System::Single&, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + CLASS_3_F6ECAF46998FAA78_METHOD_3_DF425E7ADEF7D402_OFFSET))(this, a1, a2, a3, a4);
+	}
+
+	::Class_2_B9E8C2EEAA5C96EC* Method_3_AC0E55B0D144A986(::System::Int32 a1, ::RPG::GameCore::MiniGameFlappyBirdBlockConfig* a2, ::Class_2_B9E8C2EEAA5C96EC* a3, ::System::Single& a4)
+	{
+		return ((::Class_2_B9E8C2EEAA5C96EC*(*)(::PVOID, ::System::Int32, ::RPG::GameCore::MiniGameFlappyBirdBlockConfig*, ::Class_2_B9E8C2EEAA5C96EC*, ::System::Single&))((::PBYTE)hIl2Cpp + CLASS_3_F6ECAF46998FAA78_METHOD_3_AC0E55B0D144A986_OFFSET))(this, a1, a2, a3, a4);
+	}
+};

@@ -4,11 +4,11 @@
 
 namespace System { class String; }
 
-#define RPGTOOLS_STORY_CAPTUREANCHORCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0xCFD24E0)
+#define RPGTOOLS_STORY_CAPTUREANCHORCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x19D6A140)
 
 namespace RPGTools::Story
 {
-	inline static constexpr unsigned int CaptureAnchorConfig_TypeDefinitionIndex = 46162;
+	inline static constexpr unsigned int CaptureAnchorConfig_TypeDefinitionIndex = 47127;
 
 	class CaptureAnchorConfig : public ::System::Object
 	{

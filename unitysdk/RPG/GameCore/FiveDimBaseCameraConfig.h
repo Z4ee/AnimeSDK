@@ -13,13 +13,13 @@ namespace RPG::GameCore { class FiveDimCameraObserveConfig; }
 namespace RPG::GameCore { class FiveDimCameraSimpleOverrideFollow; }
 namespace RPG::GameCore { class FiveDimVCameraBlendConfig; }
 
-#define RPG_GAMECORE_FIVEDIMBASECAMERACONFIG_METHOD_3_2D514F79D5F42B7D_OFFSET UNITYSDK_OFFSET(0x197290E0)
-#define RPG_GAMECORE_FIVEDIMBASECAMERACONFIG_METHOD_3_ED9C06CF4EA81F79_OFFSET UNITYSDK_OFFSET(0x197294E0)
-#define RPG_GAMECORE_FIVEDIMBASECAMERACONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x197294A0)
+#define RPG_GAMECORE_FIVEDIMBASECAMERACONFIG_METHOD_3_81D2B07201F30288_OFFSET UNITYSDK_OFFSET(0x1BA88E90)
+#define RPG_GAMECORE_FIVEDIMBASECAMERACONFIG_METHOD_3_ED9C06CF4EA81F79_OFFSET UNITYSDK_OFFSET(0x1BA891D0)
+#define RPG_GAMECORE_FIVEDIMBASECAMERACONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1BA891A0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FiveDimBaseCameraConfig_TypeDefinitionIndex = 17719;
+	inline static constexpr unsigned int FiveDimBaseCameraConfig_TypeDefinitionIndex = 17893;
 
 	class FiveDimBaseCameraConfig : public ::RPG::GameCore::LittleGameComponentConfig
 	{
@@ -50,9 +50,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMBASECAMERACONFIG__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_2D514F79D5F42B7D(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::FiveDimBaseCameraConfig*& a2)
+		static ::System::Void Method_3_81D2B07201F30288(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::FiveDimBaseCameraConfig*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::FiveDimBaseCameraConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMBASECAMERACONFIG_METHOD_3_2D514F79D5F42B7D_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::FiveDimBaseCameraConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMBASECAMERACONFIG_METHOD_3_81D2B07201F30288_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_ED9C06CF4EA81F79(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::FiveDimBaseCameraConfig* a2)

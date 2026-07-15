@@ -8,13 +8,12 @@ namespace RPG::Client { class MonoEmoBlendShapesController; }
 namespace RPGTools::Timeline::Emotion { class EmoBlendShapeParam; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPGTOOLS_TIMELINE_EMOTION_EMOBLENDSHAPEAUTOBLINKBEHAVIOUR_ONBEHAVIOURPLAY_OFFSET UNITYSDK_OFFSET(0xD00FB70)
-#define RPGTOOLS_TIMELINE_EMOTION_EMOBLENDSHAPEAUTOBLINKBEHAVIOUR__CTOR_OFFSET UNITYSDK_OFFSET(0xD00FC60)
-#define RPGTOOLS_TIMELINE_EMOTION_EMOBLENDSHAPEAUTOBLINKBEHAVIOUR___IFIXBASEPROXY_ONBEHAVIOURPLAY_OFFSET UNITYSDK_OFFSET(0xD00FC70)
+#define RPGTOOLS_TIMELINE_EMOTION_EMOBLENDSHAPEAUTOBLINKBEHAVIOUR_ONBEHAVIOURPLAY_OFFSET UNITYSDK_OFFSET(0x19A47FA0)
+#define RPGTOOLS_TIMELINE_EMOTION_EMOBLENDSHAPEAUTOBLINKBEHAVIOUR__CTOR_OFFSET UNITYSDK_OFFSET(0x19A48090)
 
 namespace RPGTools::Timeline::Emotion
 {
-	inline static constexpr unsigned int EmoBlendShapeAutoBlinkBehaviour_TypeDefinitionIndex = 45999;
+	inline static constexpr unsigned int EmoBlendShapeAutoBlinkBehaviour_TypeDefinitionIndex = 46938;
 
 	class EmoBlendShapeAutoBlinkBehaviour : public ::UnityEngine::Playables::PlayableBehaviour
 	{
@@ -33,11 +32,6 @@ namespace RPGTools::Timeline::Emotion
 		::System::Void OnBehaviourPlay(::UnityEngine::Playables::Playable a1, ::UnityEngine::Playables::FrameData a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::UnityEngine::Playables::Playable, ::UnityEngine::Playables::FrameData))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_EMOTION_EMOBLENDSHAPEAUTOBLINKBEHAVIOUR_ONBEHAVIOURPLAY_OFFSET))(this, a1, a2);
-		}
-
-		::System::Void __iFixBaseProxy_OnBehaviourPlay(::UnityEngine::Playables::Playable a1, ::UnityEngine::Playables::FrameData a2)
-		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Playables::Playable, ::UnityEngine::Playables::FrameData))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_EMOTION_EMOBLENDSHAPEAUTOBLINKBEHAVIOUR___IFIXBASEPROXY_ONBEHAVIOURPLAY_OFFSET))(this, a1, a2);
 		}
 	};
 }

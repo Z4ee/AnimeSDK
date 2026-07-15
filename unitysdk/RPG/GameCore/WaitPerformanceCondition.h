@@ -8,13 +8,13 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class TargetEvaluator; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_WAITPERFORMANCECONDITION_METHOD_3_79E857B25E445446_OFFSET UNITYSDK_OFFSET(0x19E5B830)
-#define RPG_GAMECORE_WAITPERFORMANCECONDITION_METHOD_3_9205531DA4CE0C8E_OFFSET UNITYSDK_OFFSET(0x19E5B910)
-#define RPG_GAMECORE_WAITPERFORMANCECONDITION__CTOR_OFFSET UNITYSDK_OFFSET(0x19E5B8B0)
+#define RPG_GAMECORE_WAITPERFORMANCECONDITION_METHOD_3_4FAFBC630D608D2F_OFFSET UNITYSDK_OFFSET(0x1D1B7AB0)
+#define RPG_GAMECORE_WAITPERFORMANCECONDITION_METHOD_3_9205531DA4CE0C8E_OFFSET UNITYSDK_OFFSET(0x1D1B7B60)
+#define RPG_GAMECORE_WAITPERFORMANCECONDITION__CTOR_OFFSET UNITYSDK_OFFSET(0x1D1B7B20)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int WaitPerformanceCondition_TypeDefinitionIndex = 22099;
+	inline static constexpr unsigned int WaitPerformanceCondition_TypeDefinitionIndex = 22535;
 
 	class WaitPerformanceCondition : public ::RPG::GameCore::TaskConfig
 	{
@@ -34,9 +34,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_WAITPERFORMANCECONDITION__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_79E857B25E445446(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::WaitPerformanceCondition*& a2)
+		static ::System::Void Method_3_4FAFBC630D608D2F(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::WaitPerformanceCondition*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::WaitPerformanceCondition*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_WAITPERFORMANCECONDITION_METHOD_3_79E857B25E445446_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::WaitPerformanceCondition*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_WAITPERFORMANCECONDITION_METHOD_3_4FAFBC630D608D2F_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_9205531DA4CE0C8E(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::WaitPerformanceCondition* a2)

@@ -4,20 +4,20 @@
 
 namespace Google::Protobuf::WellKnownTypes { class Duration; }
 
-#define GOOGLE_PROTOBUF_WELLKNOWNTYPES_DURATION___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x17E892F0)
-#define GOOGLE_PROTOBUF_WELLKNOWNTYPES_DURATION___C__CTOR_OFFSET UNITYSDK_OFFSET(0x17E89330)
-#define GOOGLE_PROTOBUF_WELLKNOWNTYPES_DURATION___C___CCTOR_B__46_0_OFFSET UNITYSDK_OFFSET(0x17E89340)
+#define GOOGLE_PROTOBUF_WELLKNOWNTYPES_DURATION___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1BDD6B00)
+#define GOOGLE_PROTOBUF_WELLKNOWNTYPES_DURATION___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1BDD6B40)
+#define GOOGLE_PROTOBUF_WELLKNOWNTYPES_DURATION___C___CCTOR_B__46_0_OFFSET UNITYSDK_OFFSET(0x1BDD6B50)
 
 namespace Google::Protobuf::WellKnownTypes
 {
-	inline static constexpr unsigned int Duration___c_TypeDefinitionIndex = 5421;
+	inline static constexpr unsigned int Duration___c_TypeDefinitionIndex = 5426;
 
 	class Duration___c : public ::System::Object
 	{
 	public:
 		static ::Google::Protobuf::WellKnownTypes::Duration___c** StaticGet___9()
 		{
-			return (::Google::Protobuf::WellKnownTypes::Duration___c**)Il2CppClass::FromTypeDefinitionIndex(Duration___c_TypeDefinitionIndex)->GetStaticField(0x429F0);
+			return (::Google::Protobuf::WellKnownTypes::Duration___c**)Il2CppClass::FromTypeDefinitionIndex(Duration___c_TypeDefinitionIndex)->GetStaticField(0x39D70);
 		}
 
 		static ::System::Void _cctor()

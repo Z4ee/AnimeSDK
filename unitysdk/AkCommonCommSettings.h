@@ -6,19 +6,19 @@
 class AkCommunicationSettings;
 namespace System { class String; }
 
-#define AKCOMMONCOMMSETTINGS_COPYTO_OFFSET UNITYSDK_OFFSET(0x1B425FE0)
-#define AKCOMMONCOMMSETTINGS_VALIDATE_OFFSET UNITYSDK_OFFSET(0x1B426AD0)
-#define AKCOMMONCOMMSETTINGS__CCTOR_OFFSET UNITYSDK_OFFSET(0x1B426B50)
-#define AKCOMMONCOMMSETTINGS__CTOR_OFFSET UNITYSDK_OFFSET(0x1B426B10)
+#define AKCOMMONCOMMSETTINGS_COPYTO_OFFSET UNITYSDK_OFFSET(0x1B95FD30)
+#define AKCOMMONCOMMSETTINGS_VALIDATE_OFFSET UNITYSDK_OFFSET(0x1B960820)
+#define AKCOMMONCOMMSETTINGS__CCTOR_OFFSET UNITYSDK_OFFSET(0x1B9608A0)
+#define AKCOMMONCOMMSETTINGS__CTOR_OFFSET UNITYSDK_OFFSET(0x1B960860)
 
-inline static constexpr unsigned int AkCommonCommSettings_TypeDefinitionIndex = 41224;
+inline static constexpr unsigned int AkCommonCommSettings_TypeDefinitionIndex = 42039;
 
 class AkCommonCommSettings : public ::System::Object
 {
 public:
 	static ::System::UInt16* StaticGet_DefaultDiscoveryBroadcastPort()
 	{
-		return (::System::UInt16*)Il2CppClass::FromTypeDefinitionIndex(AkCommonCommSettings_TypeDefinitionIndex)->GetStaticField(0x122E0);
+		return (::System::UInt16*)Il2CppClass::FromTypeDefinitionIndex(AkCommonCommSettings_TypeDefinitionIndex)->GetStaticField(0xF680);
 	}
 	::System::UInt32 m_PoolSize; // 0x10
 	::System::UInt16 m_DiscoveryBroadcastPort; // 0x14

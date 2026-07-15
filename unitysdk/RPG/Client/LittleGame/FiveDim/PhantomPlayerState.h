@@ -3,7 +3,7 @@
 
 namespace RPG::Client::LittleGame::FiveDim
 {
-	inline static constexpr unsigned int PhantomPlayerState_TypeDefinitionIndex = 40007;
+	inline static constexpr unsigned int PhantomPlayerState_TypeDefinitionIndex = 40820;
 
 	enum class PhantomPlayerState : ::System::Int32
 	{

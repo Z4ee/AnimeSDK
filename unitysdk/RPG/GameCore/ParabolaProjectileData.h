@@ -4,13 +4,13 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_PARABOLAPROJECTILEDATA_METHOD_3_36EE5E8D949764CA_OFFSET UNITYSDK_OFFSET(0x199E2EB0)
-#define RPG_GAMECORE_PARABOLAPROJECTILEDATA_METHOD_3_5462F205E5EBE9E9_OFFSET UNITYSDK_OFFSET(0x199E2F00)
-#define RPG_GAMECORE_PARABOLAPROJECTILEDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x199E2EF0)
+#define RPG_GAMECORE_PARABOLAPROJECTILEDATA_METHOD_3_5462F205E5EBE9E9_OFFSET UNITYSDK_OFFSET(0x1BAF8620)
+#define RPG_GAMECORE_PARABOLAPROJECTILEDATA_METHOD_3_D2F1D5F01920A436_OFFSET UNITYSDK_OFFSET(0x1BB0C590)
+#define RPG_GAMECORE_PARABOLAPROJECTILEDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1BAF8570)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ParabolaProjectileData_TypeDefinitionIndex = 14895;
+	inline static constexpr unsigned int ParabolaProjectileData_TypeDefinitionIndex = 15057;
 
 	class ParabolaProjectileData : public ::RPG::GameCore::NewProjectileConfig
 	{
@@ -24,9 +24,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PARABOLAPROJECTILEDATA__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_36EE5E8D949764CA(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ParabolaProjectileData*& a2)
+		static ::System::Void Method_3_D2F1D5F01920A436(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ParabolaProjectileData*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ParabolaProjectileData*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PARABOLAPROJECTILEDATA_METHOD_3_36EE5E8D949764CA_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ParabolaProjectileData*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PARABOLAPROJECTILEDATA_METHOD_3_D2F1D5F01920A436_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_5462F205E5EBE9E9(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ParabolaProjectileData* a2)

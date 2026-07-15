@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MessageStateType_TypeDefinitionIndex = 13722;
+	inline static constexpr unsigned int MessageStateType_TypeDefinitionIndex = 13870;
 
 	enum class MessageStateType : ::System::Int32
 	{

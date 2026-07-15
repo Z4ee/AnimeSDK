@@ -6,18 +6,18 @@
 namespace RPG::GameCore { class SetTraceOrigamiFlag; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_003BD4FA93574049_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x13C54DE0)
-#define CLASS_3_003BD4FA93574049__CCTOR_OFFSET UNITYSDK_OFFSET(0x13C54EF0)
-#define CLASS_3_003BD4FA93574049__CTOR_OFFSET UNITYSDK_OFFSET(0x13C54DB0)
+#define CLASS_3_003BD4FA93574049_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x17A4E650)
+#define CLASS_3_003BD4FA93574049__CCTOR_OFFSET UNITYSDK_OFFSET(0x17A4E760)
+#define CLASS_3_003BD4FA93574049__CTOR_OFFSET UNITYSDK_OFFSET(0x17A4E620)
 
-inline static constexpr unsigned int Class_3_003BD4FA93574049_TypeDefinitionIndex = 49776;
+inline static constexpr unsigned int Class_3_003BD4FA93574049_TypeDefinitionIndex = 50831;
 
 class Class_3_003BD4FA93574049 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::SetTraceOrigamiFlag*>
 {
 public:
 	static ::RPG::GameCore::StringHash* StaticGet_Field_3_0()
 	{
-		return (::RPG::GameCore::StringHash*)Il2CppClass::FromTypeDefinitionIndex(Class_3_003BD4FA93574049_TypeDefinitionIndex)->GetStaticField(0x11370);
+		return (::RPG::GameCore::StringHash*)Il2CppClass::FromTypeDefinitionIndex(Class_3_003BD4FA93574049_TypeDefinitionIndex)->GetStaticField(0xD4B0);
 	}
 
 	::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::SetTraceOrigamiFlag* a2)

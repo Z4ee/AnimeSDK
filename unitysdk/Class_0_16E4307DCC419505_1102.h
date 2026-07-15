@@ -1,10 +1,8 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/RPG/GameCore/EventType.h"
 
-namespace RPG::Client { class MapMappingInfoData; }
-namespace System::Collections::Generic { template <typename T> class IReadOnlyList_1; }
-
-inline static constexpr unsigned int Class_0_16E4307DCC419505_1102_TypeDefinitionIndex = 69573;
+inline static constexpr unsigned int Class_0_16E4307DCC419505_1102_TypeDefinitionIndex = 69789;
 
 class Class_0_16E4307DCC419505_1102
 {

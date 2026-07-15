@@ -10,13 +10,13 @@ namespace SimpleJSON { class JSONNode; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_UNIVERSALHOTFIXTASKCONFIG_METHOD_2_B6949E9BC3625392_OFFSET UNITYSDK_OFFSET(0x19E35BD0)
-#define RPG_GAMECORE_UNIVERSALHOTFIXTASKCONFIG_METHOD_2_C219FA2796262EB7_OFFSET UNITYSDK_OFFSET(0x19E35080)
-#define RPG_GAMECORE_UNIVERSALHOTFIXTASKCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x19E37830)
+#define RPG_GAMECORE_UNIVERSALHOTFIXTASKCONFIG_METHOD_2_B15DA7971D71BC9B_OFFSET UNITYSDK_OFFSET(0x1B882370)
+#define RPG_GAMECORE_UNIVERSALHOTFIXTASKCONFIG_METHOD_2_C219FA2796262EB7_OFFSET UNITYSDK_OFFSET(0x1B881620)
+#define RPG_GAMECORE_UNIVERSALHOTFIXTASKCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1B884960)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int UniversalHotFixTaskConfig_TypeDefinitionIndex = 22081;
+	inline static constexpr unsigned int UniversalHotFixTaskConfig_TypeDefinitionIndex = 22517;
 
 	class UniversalHotFixTaskConfig : public ::RPG::GameCore::JsonConfig
 	{
@@ -39,9 +39,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::UniversalHotFixTaskConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_UNIVERSALHOTFIXTASKCONFIG_METHOD_2_C219FA2796262EB7_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_2_B6949E9BC3625392(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::UniversalHotFixTaskConfig*& a2)
+		static ::System::Void Method_2_B15DA7971D71BC9B(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::UniversalHotFixTaskConfig*& a2)
 		{
-			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::UniversalHotFixTaskConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_UNIVERSALHOTFIXTASKCONFIG_METHOD_2_B6949E9BC3625392_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::UniversalHotFixTaskConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_UNIVERSALHOTFIXTASKCONFIG_METHOD_2_B15DA7971D71BC9B_OFFSET))(a1, a2);
 		}
 	};
 }

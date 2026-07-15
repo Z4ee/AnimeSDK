@@ -6,15 +6,15 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class TargetEvaluator; }
 namespace SimpleJSON { class JSONNode; }
 
-#define RPG_GAMECORE_BYCOMPAREPROPPUZZLECREATED_METHOD_4_2005E7468CCD1E77_OFFSET UNITYSDK_OFFSET(0x19529B90)
-#define RPG_GAMECORE_BYCOMPAREPROPPUZZLECREATED_METHOD_4_650A37DEDD589C20_OFFSET UNITYSDK_OFFSET(0x19529AB0)
-#define RPG_GAMECORE_BYCOMPAREPROPPUZZLECREATED_METHOD_4_E17451B8364A12A6_OFFSET UNITYSDK_OFFSET(0x19529790)
-#define RPG_GAMECORE_BYCOMPAREPROPPUZZLECREATED_METHOD_4_FAC6159B44E3BB0D_OFFSET UNITYSDK_OFFSET(0x19529930)
-#define RPG_GAMECORE_BYCOMPAREPROPPUZZLECREATED__CTOR_OFFSET UNITYSDK_OFFSET(0x19529870)
+#define RPG_GAMECORE_BYCOMPAREPROPPUZZLECREATED_METHOD_4_E80A62C5F129A2BD_OFFSET UNITYSDK_OFFSET(0x19D00C70)
+#define RPG_GAMECORE_BYCOMPAREPROPPUZZLECREATED_METHOD_4_F4F4F8BA71A999F1_OFFSET UNITYSDK_OFFSET(0x19D00E70)
+#define RPG_GAMECORE_BYCOMPAREPROPPUZZLECREATED_METHOD_4_FAC6159B44E3BB0D_OFFSET UNITYSDK_OFFSET(0x19D00CF0)
+#define RPG_GAMECORE_BYCOMPAREPROPPUZZLECREATED_METHOD_4_FEEA2AF1DE563BF9_OFFSET UNITYSDK_OFFSET(0x19D00EC0)
+#define RPG_GAMECORE_BYCOMPAREPROPPUZZLECREATED__CTOR_OFFSET UNITYSDK_OFFSET(0x19D00CC0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ByComparePropPuzzleCreated_TypeDefinitionIndex = 19431;
+	inline static constexpr unsigned int ByComparePropPuzzleCreated_TypeDefinitionIndex = 19789;
 
 	class ByComparePropPuzzleCreated : public ::RPG::GameCore::PredicateConfig
 	{
@@ -26,9 +26,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYCOMPAREPROPPUZZLECREATED__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_4_E17451B8364A12A6(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ByComparePropPuzzleCreated*& a2)
+		static ::System::Void Method_4_E80A62C5F129A2BD(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ByComparePropPuzzleCreated*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ByComparePropPuzzleCreated*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYCOMPAREPROPPUZZLECREATED_METHOD_4_E17451B8364A12A6_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ByComparePropPuzzleCreated*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYCOMPAREPROPPUZZLECREATED_METHOD_4_E80A62C5F129A2BD_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_4_FAC6159B44E3BB0D(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ByComparePropPuzzleCreated* a2)
@@ -36,14 +36,14 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ByComparePropPuzzleCreated*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYCOMPAREPROPPUZZLECREATED_METHOD_4_FAC6159B44E3BB0D_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_4_650A37DEDD589C20(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::ByComparePropPuzzleCreated*& a2)
+		static ::System::Void Method_4_F4F4F8BA71A999F1(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::ByComparePropPuzzleCreated*& a2)
 		{
-			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::ByComparePropPuzzleCreated*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYCOMPAREPROPPUZZLECREATED_METHOD_4_650A37DEDD589C20_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::ByComparePropPuzzleCreated*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYCOMPAREPROPPUZZLECREATED_METHOD_4_F4F4F8BA71A999F1_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_4_2005E7468CCD1E77(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::ByComparePropPuzzleCreated* a2)
+		static ::System::Void Method_4_FEEA2AF1DE563BF9(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::ByComparePropPuzzleCreated* a2)
 		{
-			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::ByComparePropPuzzleCreated*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYCOMPAREPROPPUZZLECREATED_METHOD_4_2005E7468CCD1E77_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::ByComparePropPuzzleCreated*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYCOMPAREPROPPUZZLECREATED_METHOD_4_FEEA2AF1DE563BF9_OFFSET))(a1, a2);
 		}
 	};
 }

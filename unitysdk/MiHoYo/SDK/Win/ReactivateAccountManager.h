@@ -6,21 +6,21 @@ namespace System { class String; }
 namespace System { template <typename T1, typename T2> class Action_2; }
 namespace System { template <typename T> class Action_1; }
 
-#define MIHOYO_SDK_WIN_REACTIVATEACCOUNTMANAGER_HIDE_OFFSET UNITYSDK_OFFSET(0x182B32B0)
-#define MIHOYO_SDK_WIN_REACTIVATEACCOUNTMANAGER_SHOW_OFFSET UNITYSDK_OFFSET(0x182B2E90)
-#define MIHOYO_SDK_WIN_REACTIVATEACCOUNTMANAGER__CCTOR_OFFSET UNITYSDK_OFFSET(0x182B3440)
-#define MIHOYO_SDK_WIN_REACTIVATEACCOUNTMANAGER__CTOR_OFFSET UNITYSDK_OFFSET(0x182B3430)
+#define MIHOYO_SDK_WIN_REACTIVATEACCOUNTMANAGER_HIDE_OFFSET UNITYSDK_OFFSET(0x17174400)
+#define MIHOYO_SDK_WIN_REACTIVATEACCOUNTMANAGER_SHOW_OFFSET UNITYSDK_OFFSET(0x17173FE0)
+#define MIHOYO_SDK_WIN_REACTIVATEACCOUNTMANAGER__CCTOR_OFFSET UNITYSDK_OFFSET(0x17174590)
+#define MIHOYO_SDK_WIN_REACTIVATEACCOUNTMANAGER__CTOR_OFFSET UNITYSDK_OFFSET(0x17174580)
 
 namespace MiHoYo::SDK::Win
 {
-	inline static constexpr unsigned int ReactivateAccountManager_TypeDefinitionIndex = 8940;
+	inline static constexpr unsigned int ReactivateAccountManager_TypeDefinitionIndex = 8952;
 
 	class ReactivateAccountManager : public ::System::Object
 	{
 	public:
 		static ::MiHoYo::SDK::Win::ReactivateAccountManager** StaticGet_Instance()
 		{
-			return (::MiHoYo::SDK::Win::ReactivateAccountManager**)Il2CppClass::FromTypeDefinitionIndex(ReactivateAccountManager_TypeDefinitionIndex)->GetStaticField(0x260A0);
+			return (::MiHoYo::SDK::Win::ReactivateAccountManager**)Il2CppClass::FromTypeDefinitionIndex(ReactivateAccountManager_TypeDefinitionIndex)->GetStaticField(0x297F0);
 		}
 
 		::System::Void _ctor()

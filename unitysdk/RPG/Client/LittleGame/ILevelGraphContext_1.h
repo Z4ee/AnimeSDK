@@ -5,7 +5,7 @@ namespace Entitas { template <typename T> class IMatcher_1; }
 
 namespace RPG::Client::LittleGame
 {
-	inline static constexpr unsigned int ILevelGraphContext_1_TypeDefinitionIndex = 38996;
+	inline static constexpr unsigned int ILevelGraphContext_1_TypeDefinitionIndex = 39805;
 
 	template <typename TEntity>
 	class ILevelGraphContext_1

@@ -5,12 +5,11 @@
 namespace RPG::GameCore { class AdvAddGlobalWeakness; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_15584052327357A9_DISPOSE_OFFSET UNITYSDK_OFFSET(0x13675E00)
-#define CLASS_3_15584052327357A9_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x13675E40)
-#define CLASS_3_15584052327357A9__CTOR_OFFSET UNITYSDK_OFFSET(0x13675DD0)
-#define CLASS_3_15584052327357A9___IFIXBASEPROXY_DISPOSE_OFFSET UNITYSDK_OFFSET(0x13675EF0)
+#define CLASS_3_15584052327357A9_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1701E190)
+#define CLASS_3_15584052327357A9_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1701E1D0)
+#define CLASS_3_15584052327357A9__CTOR_OFFSET UNITYSDK_OFFSET(0x1701E160)
 
-inline static constexpr unsigned int Class_3_15584052327357A9_TypeDefinitionIndex = 48935;
+inline static constexpr unsigned int Class_3_15584052327357A9_TypeDefinitionIndex = 49948;
 
 class Class_3_15584052327357A9 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::AdvAddGlobalWeakness*>
 {
@@ -28,10 +27,5 @@ public:
 	::System::Void OnTaskBegin()
 	{
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_3_15584052327357A9_ONTASKBEGIN_OFFSET))(this);
-	}
-
-	::System::Void __iFixBaseProxy_Dispose()
-	{
-		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_3_15584052327357A9___IFIXBASEPROXY_DISPOSE_OFFSET))(this);
 	}
 };

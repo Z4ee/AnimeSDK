@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AdventureAbilityManualTriggerType_TypeDefinitionIndex = 16564;
+	inline static constexpr unsigned int AdventureAbilityManualTriggerType_TypeDefinitionIndex = 16726;
 
 	enum class AdventureAbilityManualTriggerType : ::System::Int32
 	{

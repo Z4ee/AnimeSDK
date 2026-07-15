@@ -6,14 +6,14 @@ namespace UnityEngine::Rendering { class PerformDynamicRes; }
 
 namespace UnityEngine::Rendering
 {
-	inline static constexpr unsigned int DynamicResolutionHandler___O_TypeDefinitionIndex = 33677;
+	inline static constexpr unsigned int DynamicResolutionHandler___O_TypeDefinitionIndex = 34048;
 
 	class DynamicResolutionHandler___O : public ::System::Object
 	{
 	public:
 		static ::UnityEngine::Rendering::PerformDynamicRes** StaticGet__0___DefaultDynamicResMethod()
 		{
-			return (::UnityEngine::Rendering::PerformDynamicRes**)Il2CppClass::FromTypeDefinitionIndex(DynamicResolutionHandler___O_TypeDefinitionIndex)->GetStaticField(0x4A200);
+			return (::UnityEngine::Rendering::PerformDynamicRes**)Il2CppClass::FromTypeDefinitionIndex(DynamicResolutionHandler___O_TypeDefinitionIndex)->GetStaticField(0x462F0);
 		}
 	};
 }

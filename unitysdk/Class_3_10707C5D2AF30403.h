@@ -1,17 +1,17 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Class_2_BCD6FC733B25F13E.h"
+#include "unitysdk/Class_2_2AFA6D08323477B5.h"
 #include "unitysdk/RPG/GameCore/ChimeraDuelAttributeSelectorType.h"
 
 class Class_2_B66C1067C0468FBB;
 namespace RPG::GameCore { class ChimeraDuelEntityAttributeComparer; }
 
-#define CLASS_3_10707C5D2AF30403_METHOD_3_5AB49F58CBD35442_OFFSET UNITYSDK_OFFSET(0xAFBEDA0)
-#define CLASS_3_10707C5D2AF30403__CTOR_OFFSET UNITYSDK_OFFSET(0xAFBED70)
+#define CLASS_3_10707C5D2AF30403_METHOD_3_5AB49F58CBD35442_OFFSET UNITYSDK_OFFSET(0x14289D50)
+#define CLASS_3_10707C5D2AF30403__CTOR_OFFSET UNITYSDK_OFFSET(0x14289D20)
 
-inline static constexpr unsigned int Class_3_10707C5D2AF30403_TypeDefinitionIndex = 71961;
+inline static constexpr unsigned int Class_3_10707C5D2AF30403_TypeDefinitionIndex = 73486;
 
-class Class_3_10707C5D2AF30403 : public ::Class_2_BCD6FC733B25F13E
+class Class_3_10707C5D2AF30403 : public ::Class_2_2AFA6D08323477B5
 {
 public:
 	::RPG::GameCore::ChimeraDuelAttributeSelectorType Field_3_0; // 0x18

@@ -12,7 +12,7 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::CustomRP
 {
-	inline static constexpr unsigned int IPlaneReflection_TypeDefinitionIndex = 35309;
+	inline static constexpr unsigned int IPlaneReflection_TypeDefinitionIndex = 36091;
 
 	class IPlaneReflection
 	{

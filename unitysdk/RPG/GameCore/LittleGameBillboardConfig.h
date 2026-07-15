@@ -5,21 +5,21 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_LITTLEGAMEBILLBOARDCONFIG_METHOD_3_3E192A0159270300_OFFSET UNITYSDK_OFFSET(0x19898170)
-#define RPG_GAMECORE_LITTLEGAMEBILLBOARDCONFIG_METHOD_3_C80F1CBFD56A2798_OFFSET UNITYSDK_OFFSET(0x19898210)
-#define RPG_GAMECORE_LITTLEGAMEBILLBOARDCONFIG__CCTOR_OFFSET UNITYSDK_OFFSET(0x19898580)
-#define RPG_GAMECORE_LITTLEGAMEBILLBOARDCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x198981F0)
+#define RPG_GAMECORE_LITTLEGAMEBILLBOARDCONFIG_METHOD_3_6BAC0EAD215A2CC9_OFFSET UNITYSDK_OFFSET(0x1BCBE300)
+#define RPG_GAMECORE_LITTLEGAMEBILLBOARDCONFIG_METHOD_3_C80F1CBFD56A2798_OFFSET UNITYSDK_OFFSET(0x1BCBE370)
+#define RPG_GAMECORE_LITTLEGAMEBILLBOARDCONFIG__CCTOR_OFFSET UNITYSDK_OFFSET(0x1BCBE6E0)
+#define RPG_GAMECORE_LITTLEGAMEBILLBOARDCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1BCBE360)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LittleGameBillboardConfig_TypeDefinitionIndex = 17921;
+	inline static constexpr unsigned int LittleGameBillboardConfig_TypeDefinitionIndex = 18100;
 
 	class LittleGameBillboardConfig : public ::RPG::GameCore::LittleGameComponentConfig
 	{
 	public:
 		static ::RPG::GameCore::LittleGameBillboardConfig** StaticGet_DefaultBillboardConfig()
 		{
-			return (::RPG::GameCore::LittleGameBillboardConfig**)Il2CppClass::FromTypeDefinitionIndex(LittleGameBillboardConfig_TypeDefinitionIndex)->GetStaticField(0x281F0);
+			return (::RPG::GameCore::LittleGameBillboardConfig**)Il2CppClass::FromTypeDefinitionIndex(LittleGameBillboardConfig_TypeDefinitionIndex)->GetStaticField(0x3CE90);
 		}
 		::System::Boolean IsBillboard; // 0x10
 		::System::Boolean ShowName; // 0x11
@@ -40,9 +40,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + RPG_GAMECORE_LITTLEGAMEBILLBOARDCONFIG__CCTOR_OFFSET))();
 		}
 
-		static ::System::Void Method_3_3E192A0159270300(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::LittleGameBillboardConfig*& a2)
+		static ::System::Void Method_3_6BAC0EAD215A2CC9(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::LittleGameBillboardConfig*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::LittleGameBillboardConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LITTLEGAMEBILLBOARDCONFIG_METHOD_3_3E192A0159270300_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::LittleGameBillboardConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LITTLEGAMEBILLBOARDCONFIG_METHOD_3_6BAC0EAD215A2CC9_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_C80F1CBFD56A2798(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::LittleGameBillboardConfig* a2)

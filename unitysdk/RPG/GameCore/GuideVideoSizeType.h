@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int GuideVideoSizeType_TypeDefinitionIndex = 14690;
+	inline static constexpr unsigned int GuideVideoSizeType_TypeDefinitionIndex = 14849;
 
 	enum class GuideVideoSizeType : ::System::Int32
 	{

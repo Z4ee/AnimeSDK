@@ -5,13 +5,13 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class TargetEvaluator; }
 
-#define RPG_GAMECORE_ADVENTITYENABLEROOTDAMPER_METHOD_3_E86425E7B74CD1B1_OFFSET UNITYSDK_OFFSET(0x19422460)
-#define RPG_GAMECORE_ADVENTITYENABLEROOTDAMPER_METHOD_3_FFBBBBDCCD06F60A_OFFSET UNITYSDK_OFFSET(0x19422530)
-#define RPG_GAMECORE_ADVENTITYENABLEROOTDAMPER__CTOR_OFFSET UNITYSDK_OFFSET(0x194224E0)
+#define RPG_GAMECORE_ADVENTITYENABLEROOTDAMPER_METHOD_3_902FF591D4E44E88_OFFSET UNITYSDK_OFFSET(0x1BE1AD70)
+#define RPG_GAMECORE_ADVENTITYENABLEROOTDAMPER_METHOD_3_FFBBBBDCCD06F60A_OFFSET UNITYSDK_OFFSET(0x1BE1AE10)
+#define RPG_GAMECORE_ADVENTITYENABLEROOTDAMPER__CTOR_OFFSET UNITYSDK_OFFSET(0x1BE1ADD0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AdvEntityEnableRootDamper_TypeDefinitionIndex = 19900;
+	inline static constexpr unsigned int AdvEntityEnableRootDamper_TypeDefinitionIndex = 20264;
 
 	class AdvEntityEnableRootDamper : public ::RPG::GameCore::TaskConfig
 	{
@@ -24,9 +24,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVENTITYENABLEROOTDAMPER__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_E86425E7B74CD1B1(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AdvEntityEnableRootDamper*& a2)
+		static ::System::Void Method_3_902FF591D4E44E88(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AdvEntityEnableRootDamper*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::AdvEntityEnableRootDamper*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVENTITYENABLEROOTDAMPER_METHOD_3_E86425E7B74CD1B1_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::AdvEntityEnableRootDamper*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVENTITYENABLEROOTDAMPER_METHOD_3_902FF591D4E44E88_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_FFBBBBDCCD06F60A(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AdvEntityEnableRootDamper* a2)

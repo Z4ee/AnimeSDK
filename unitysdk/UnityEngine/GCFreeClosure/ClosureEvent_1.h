@@ -8,7 +8,7 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace UnityEngine::GCFreeClosure
 {
-	inline static constexpr unsigned int ClosureEvent_1_TypeDefinitionIndex = 4438;
+	inline static constexpr unsigned int ClosureEvent_1_TypeDefinitionIndex = 4443;
 
 	template <typename T>
 	struct ClosureEvent_1

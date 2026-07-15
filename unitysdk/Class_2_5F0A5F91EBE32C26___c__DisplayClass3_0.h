@@ -2,17 +2,17 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_2_9BF942986572420B;
+class Class_2_C33B4E1136A08D50;
 
-#define CLASS_2_5F0A5F91EBE32C26___C__DISPLAYCLASS3_0__CTOR_OFFSET UNITYSDK_OFFSET(0xA6D88C0)
-#define CLASS_2_5F0A5F91EBE32C26___C__DISPLAYCLASS3_0__ENTER_B__0_OFFSET UNITYSDK_OFFSET(0xA6D9110)
+#define CLASS_2_5F0A5F91EBE32C26___C__DISPLAYCLASS3_0__CTOR_OFFSET UNITYSDK_OFFSET(0x15E3DB50)
+#define CLASS_2_5F0A5F91EBE32C26___C__DISPLAYCLASS3_0__ENTER_B__0_OFFSET UNITYSDK_OFFSET(0x15E3E340)
 
-inline static constexpr unsigned int Class_2_5F0A5F91EBE32C26___c__DisplayClass3_0_TypeDefinitionIndex = 52257;
+inline static constexpr unsigned int Class_2_5F0A5F91EBE32C26___c__DisplayClass3_0_TypeDefinitionIndex = 53409;
 
 class Class_2_5F0A5F91EBE32C26___c__DisplayClass3_0 : public ::System::Object
 {
 public:
-	::Class_2_9BF942986572420B* pSoundComponent; // 0x10
+	::Class_2_C33B4E1136A08D50* pSoundComponent; // 0x10
 
 	::System::Void _ctor()
 	{

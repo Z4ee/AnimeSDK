@@ -6,44 +6,44 @@ namespace RPG::Client::ActivityIdleLive { class SpEquipSlotData; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 namespace System { template <typename T> class Predicate_1; }
 
-#define RPG_CLIENT_ACTIVITYIDLELIVE_SPEQUIPSLOTINFO___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xB17F020)
-#define RPG_CLIENT_ACTIVITYIDLELIVE_SPEQUIPSLOTINFO___C__CTOR_OFFSET UNITYSDK_OFFSET(0xB17F060)
-#define RPG_CLIENT_ACTIVITYIDLELIVE_SPEQUIPSLOTINFO___C__GETALLEQUIPPEDSLOTS_B__12_0_OFFSET UNITYSDK_OFFSET(0xB17F110)
-#define RPG_CLIENT_ACTIVITYIDLELIVE_SPEQUIPSLOTINFO___C__HASUNLOCKEDSLOT_B__11_0_OFFSET UNITYSDK_OFFSET(0xB17F070)
-#define RPG_CLIENT_ACTIVITYIDLELIVE_SPEQUIPSLOTINFO___C__ISSLOTALLEQUIPPED_B__25_0_OFFSET UNITYSDK_OFFSET(0xB17F130)
-#define RPG_CLIENT_ACTIVITYIDLELIVE_SPEQUIPSLOTINFO___C__ISSLOTALLEQUIPPED_B__25_1_OFFSET UNITYSDK_OFFSET(0xB17F1D0)
-#define RPG_CLIENT_ACTIVITYIDLELIVE_SPEQUIPSLOTINFO___C___GETFIRSTEMPTYSLOT_B__26_0_OFFSET UNITYSDK_OFFSET(0xB17F1F0)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_SPEQUIPSLOTINFO___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1A190850)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_SPEQUIPSLOTINFO___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1A190890)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_SPEQUIPSLOTINFO___C__GETALLEQUIPPEDSLOTS_B__12_0_OFFSET UNITYSDK_OFFSET(0x1A1908C0)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_SPEQUIPSLOTINFO___C__HASUNLOCKEDSLOT_B__11_0_OFFSET UNITYSDK_OFFSET(0x1A1908A0)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_SPEQUIPSLOTINFO___C__ISSLOTALLEQUIPPED_B__25_0_OFFSET UNITYSDK_OFFSET(0x1A1908E0)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_SPEQUIPSLOTINFO___C__ISSLOTALLEQUIPPED_B__25_1_OFFSET UNITYSDK_OFFSET(0x1A190900)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_SPEQUIPSLOTINFO___C___GETFIRSTEMPTYSLOT_B__26_0_OFFSET UNITYSDK_OFFSET(0x1A190920)
 
 namespace RPG::Client::ActivityIdleLive
 {
-	inline static constexpr unsigned int SpEquipSlotInfo___c_TypeDefinitionIndex = 70108;
+	inline static constexpr unsigned int SpEquipSlotInfo___c_TypeDefinitionIndex = 71631;
 
 	class SpEquipSlotInfo___c : public ::System::Object
 	{
 	public:
-		static ::System::Predicate_1<::RPG::Client::ActivityIdleLive::SpEquipSlotData*>** StaticGet___9__26_0()
-		{
-			return (::System::Predicate_1<::RPG::Client::ActivityIdleLive::SpEquipSlotData*>**)Il2CppClass::FromTypeDefinitionIndex(SpEquipSlotInfo___c_TypeDefinitionIndex)->GetStaticField(0x55370);
-		}
 		static ::System::Func_2<::RPG::Client::ActivityIdleLive::SpEquipSlotData*, ::System::Boolean>** StaticGet___9__11_0()
 		{
-			return (::System::Func_2<::RPG::Client::ActivityIdleLive::SpEquipSlotData*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(SpEquipSlotInfo___c_TypeDefinitionIndex)->GetStaticField(0x55378);
+			return (::System::Func_2<::RPG::Client::ActivityIdleLive::SpEquipSlotData*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(SpEquipSlotInfo___c_TypeDefinitionIndex)->GetStaticField(0x42030);
 		}
 		static ::RPG::Client::ActivityIdleLive::SpEquipSlotInfo___c** StaticGet___9()
 		{
-			return (::RPG::Client::ActivityIdleLive::SpEquipSlotInfo___c**)Il2CppClass::FromTypeDefinitionIndex(SpEquipSlotInfo___c_TypeDefinitionIndex)->GetStaticField(0x55380);
-		}
-		static ::System::Predicate_1<::RPG::Client::ActivityIdleLive::SpEquipSlotData*>** StaticGet___9__25_1()
-		{
-			return (::System::Predicate_1<::RPG::Client::ActivityIdleLive::SpEquipSlotData*>**)Il2CppClass::FromTypeDefinitionIndex(SpEquipSlotInfo___c_TypeDefinitionIndex)->GetStaticField(0x55388);
+			return (::RPG::Client::ActivityIdleLive::SpEquipSlotInfo___c**)Il2CppClass::FromTypeDefinitionIndex(SpEquipSlotInfo___c_TypeDefinitionIndex)->GetStaticField(0x42038);
 		}
 		static ::System::Predicate_1<::RPG::Client::ActivityIdleLive::SpEquipSlotData*>** StaticGet___9__25_0()
 		{
-			return (::System::Predicate_1<::RPG::Client::ActivityIdleLive::SpEquipSlotData*>**)Il2CppClass::FromTypeDefinitionIndex(SpEquipSlotInfo___c_TypeDefinitionIndex)->GetStaticField(0x55390);
+			return (::System::Predicate_1<::RPG::Client::ActivityIdleLive::SpEquipSlotData*>**)Il2CppClass::FromTypeDefinitionIndex(SpEquipSlotInfo___c_TypeDefinitionIndex)->GetStaticField(0x42040);
+		}
+		static ::System::Predicate_1<::RPG::Client::ActivityIdleLive::SpEquipSlotData*>** StaticGet___9__26_0()
+		{
+			return (::System::Predicate_1<::RPG::Client::ActivityIdleLive::SpEquipSlotData*>**)Il2CppClass::FromTypeDefinitionIndex(SpEquipSlotInfo___c_TypeDefinitionIndex)->GetStaticField(0x42048);
 		}
 		static ::System::Predicate_1<::RPG::Client::ActivityIdleLive::SpEquipSlotData*>** StaticGet___9__12_0()
 		{
-			return (::System::Predicate_1<::RPG::Client::ActivityIdleLive::SpEquipSlotData*>**)Il2CppClass::FromTypeDefinitionIndex(SpEquipSlotInfo___c_TypeDefinitionIndex)->GetStaticField(0x55398);
+			return (::System::Predicate_1<::RPG::Client::ActivityIdleLive::SpEquipSlotData*>**)Il2CppClass::FromTypeDefinitionIndex(SpEquipSlotInfo___c_TypeDefinitionIndex)->GetStaticField(0x42050);
+		}
+		static ::System::Predicate_1<::RPG::Client::ActivityIdleLive::SpEquipSlotData*>** StaticGet___9__25_1()
+		{
+			return (::System::Predicate_1<::RPG::Client::ActivityIdleLive::SpEquipSlotData*>**)Il2CppClass::FromTypeDefinitionIndex(SpEquipSlotInfo___c_TypeDefinitionIndex)->GetStaticField(0x42058);
 		}
 
 		static ::System::Void _cctor()

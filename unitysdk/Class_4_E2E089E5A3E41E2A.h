@@ -12,24 +12,24 @@ namespace RPG::GameCore { class TargetEvaluator; }
 namespace System { class Object; }
 namespace System { class String; }
 
-#define CLASS_4_E2E089E5A3E41E2A_GETDYNAMICKEY_OFFSET UNITYSDK_OFFSET(0x195A5610)
-#define CLASS_4_E2E089E5A3E41E2A_METHOD_4_8A8F5F95C1040BAA_OFFSET UNITYSDK_OFFSET(0x195A51F0)
-#define CLASS_4_E2E089E5A3E41E2A_METHOD_4_9CD365AE07B8A27E_OFFSET UNITYSDK_OFFSET(0x195A52F0)
-#define CLASS_4_E2E089E5A3E41E2A__CTOR_OFFSET UNITYSDK_OFFSET(0x195A5230)
+#define CLASS_4_E2E089E5A3E41E2A_GETDYNAMICKEY_OFFSET UNITYSDK_OFFSET(0x1B5D7560)
+#define CLASS_4_E2E089E5A3E41E2A_METHOD_4_8A8F5F95C1040BAA_OFFSET UNITYSDK_OFFSET(0x1B5D7100)
+#define CLASS_4_E2E089E5A3E41E2A_METHOD_4_9CD365AE07B8A27E_OFFSET UNITYSDK_OFFSET(0x1B5D7240)
+#define CLASS_4_E2E089E5A3E41E2A__CTOR_OFFSET UNITYSDK_OFFSET(0x1B5D71B0)
 
-inline static constexpr unsigned int Class_4_E2E089E5A3E41E2A_TypeDefinitionIndex = 22878;
+inline static constexpr unsigned int Class_4_E2E089E5A3E41E2A_TypeDefinitionIndex = 23345;
 
 class Class_4_E2E089E5A3E41E2A : public ::RPG::GameCore::SetDynamicValueBase
 {
 public:
-	::RPG::GameCore::TargetEvaluator* Field_4_0; // 0x18
-	::RPG::GameCore::DynamicString* Field_4_1; // 0x20
-	::Il2CppArray<::RPG::GameCore::DynamicFloat*>* Field_4_2; // 0x28
-	::RPG::GameCore::DynamicFloat* Field_4_3; // 0x30
-	::System::String* Field_4_4; // 0x38
-	::RPG::GameCore::RtModifierPropertyType Field_4_5; // 0x40
+	::System::String* Field_4_0; // 0x18
+	::Il2CppArray<::RPG::GameCore::DynamicFloat*>* Field_4_1; // 0x20
+	::RPG::GameCore::DynamicString* Field_4_2; // 0x28
+	::RPG::GameCore::TargetEvaluator* Field_4_3; // 0x30
+	::RPG::GameCore::DynamicFloat* Field_4_4; // 0x38
+	::RPG::GameCore::DynamicValueContextScope Field_4_5; // 0x40
 	::RPG::GameCore::NumOperationType Field_4_6; // 0x44
-	::RPG::GameCore::DynamicValueContextScope Field_4_7; // 0x48
+	::RPG::GameCore::RtModifierPropertyType Field_4_7; // 0x48
 
 	::System::Void _ctor()
 	{

@@ -5,12 +5,12 @@
 namespace MiHoYo::SDK { class ProtocolConfirm; }
 namespace System { class String; }
 
-#define MIHOYO_SDK_PROTOCOLCONFIRM___C__DISPLAYCLASS20_0__CTOR_OFFSET UNITYSDK_OFFSET(0x183FDD30)
-#define MIHOYO_SDK_PROTOCOLCONFIRM___C__DISPLAYCLASS20_0__SHOW_B__0_OFFSET UNITYSDK_OFFSET(0x183FE8A0)
+#define MIHOYO_SDK_PROTOCOLCONFIRM___C__DISPLAYCLASS20_0__CTOR_OFFSET UNITYSDK_OFFSET(0x170FB520)
+#define MIHOYO_SDK_PROTOCOLCONFIRM___C__DISPLAYCLASS20_0__SHOW_B__0_OFFSET UNITYSDK_OFFSET(0x170FC0E0)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int ProtocolConfirm___c__DisplayClass20_0_TypeDefinitionIndex = 7969;
+	inline static constexpr unsigned int ProtocolConfirm___c__DisplayClass20_0_TypeDefinitionIndex = 7979;
 
 	class ProtocolConfirm___c__DisplayClass20_0 : public ::System::Object
 	{

@@ -5,24 +5,24 @@
 
 namespace System { template <typename T> class Comparison_1; }
 
-#define EZYSLICE_TRIANGULATOR___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xA117FC0)
-#define EZYSLICE_TRIANGULATOR___C__CTOR_OFFSET UNITYSDK_OFFSET(0xA118000)
-#define EZYSLICE_TRIANGULATOR___C__MONOTONECHAIN_B__2_0_OFFSET UNITYSDK_OFFSET(0xA118010)
+#define EZYSLICE_TRIANGULATOR___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1B7FA580)
+#define EZYSLICE_TRIANGULATOR___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1B7FA5C0)
+#define EZYSLICE_TRIANGULATOR___C__MONOTONECHAIN_B__2_0_OFFSET UNITYSDK_OFFSET(0x1B7FA5D0)
 
 namespace EzySlice
 {
-	inline static constexpr unsigned int Triangulator___c_TypeDefinitionIndex = 44358;
+	inline static constexpr unsigned int Triangulator___c_TypeDefinitionIndex = 45228;
 
 	class Triangulator___c : public ::System::Object
 	{
 	public:
 		static ::System::Comparison_1<::EzySlice::Triangulator_Mapped2D>** StaticGet___9__2_0()
 		{
-			return (::System::Comparison_1<::EzySlice::Triangulator_Mapped2D>**)Il2CppClass::FromTypeDefinitionIndex(Triangulator___c_TypeDefinitionIndex)->GetStaticField(0x8D90);
+			return (::System::Comparison_1<::EzySlice::Triangulator_Mapped2D>**)Il2CppClass::FromTypeDefinitionIndex(Triangulator___c_TypeDefinitionIndex)->GetStaticField(0x90C0);
 		}
 		static ::EzySlice::Triangulator___c** StaticGet___9()
 		{
-			return (::EzySlice::Triangulator___c**)Il2CppClass::FromTypeDefinitionIndex(Triangulator___c_TypeDefinitionIndex)->GetStaticField(0x8D98);
+			return (::EzySlice::Triangulator___c**)Il2CppClass::FromTypeDefinitionIndex(Triangulator___c_TypeDefinitionIndex)->GetStaticField(0x90C8);
 		}
 
 		static ::System::Void _cctor()

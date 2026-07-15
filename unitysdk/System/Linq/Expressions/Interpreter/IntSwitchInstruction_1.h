@@ -8,7 +8,7 @@ namespace System::Linq::Expressions::Interpreter { class InterpretedFrame; }
 
 namespace System::Linq::Expressions::Interpreter
 {
-	inline static constexpr unsigned int IntSwitchInstruction_1_TypeDefinitionIndex = 3326;
+	inline static constexpr unsigned int IntSwitchInstruction_1_TypeDefinitionIndex = 3330;
 
 	template <typename T>
 	class IntSwitchInstruction_1 : public ::System::Linq::Expressions::Interpreter::Instruction

@@ -2,12 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define MIHOYOEMOTION_RDPHONEMEMARKER_CREATECOPY_OFFSET UNITYSDK_OFFSET(0xA27CAD0)
-#define MIHOYOEMOTION_RDPHONEMEMARKER__CTOR_OFFSET UNITYSDK_OFFSET(0xA27CAB0)
+#define MIHOYOEMOTION_RDPHONEMEMARKER_CREATECOPY_OFFSET UNITYSDK_OFFSET(0x19282ED0)
+#define MIHOYOEMOTION_RDPHONEMEMARKER__CTOR_OFFSET UNITYSDK_OFFSET(0x19282EB0)
 
 namespace miHoYoEmotion
 {
-	inline static constexpr unsigned int RDPhonemeMarker_TypeDefinitionIndex = 41787;
+	inline static constexpr unsigned int RDPhonemeMarker_TypeDefinitionIndex = 42648;
 
 	class RDPhonemeMarker : public ::System::Object
 	{

@@ -7,12 +7,12 @@ namespace RPG::GameCore { class TaskContext; }
 namespace RPG::GameCore { class TriggerAnimStateOnModifierCustomEvent; }
 namespace RPG::GameCore { class TurnBasedModifierInstance; }
 
-#define CLASS_3_6592CC03D95C5FF7_1_METHOD_3_02A7FCEDE09AD0D7_OFFSET UNITYSDK_OFFSET(0xACD7490)
-#define CLASS_3_6592CC03D95C5FF7_1_METHOD_3_DFF98536D8B4074F_OFFSET UNITYSDK_OFFSET(0xACD7380)
-#define CLASS_3_6592CC03D95C5FF7_1_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xACD6E50)
-#define CLASS_3_6592CC03D95C5FF7_1__CTOR_OFFSET UNITYSDK_OFFSET(0xACD6E20)
+#define CLASS_3_6592CC03D95C5FF7_1_METHOD_3_02A7FCEDE09AD0D7_OFFSET UNITYSDK_OFFSET(0x173F87C0)
+#define CLASS_3_6592CC03D95C5FF7_1_METHOD_3_4DA6D4A624E42CAB_OFFSET UNITYSDK_OFFSET(0x173F8740)
+#define CLASS_3_6592CC03D95C5FF7_1_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x173F81B0)
+#define CLASS_3_6592CC03D95C5FF7_1__CTOR_OFFSET UNITYSDK_OFFSET(0x173F8180)
 
-inline static constexpr unsigned int Class_3_6592CC03D95C5FF7_1_TypeDefinitionIndex = 52036;
+inline static constexpr unsigned int Class_3_6592CC03D95C5FF7_1_TypeDefinitionIndex = 53192;
 
 class Class_3_6592CC03D95C5FF7_1 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::TriggerAnimStateOnModifierCustomEvent*>
 {
@@ -32,8 +32,8 @@ public:
 		return ((::System::Boolean(*)(::PVOID, ::Il2CppArray<::RPG::GameCore::ModifierBehaviorFlag>*, ::RPG::GameCore::TurnBasedModifierInstance*))((::PBYTE)hIl2Cpp + CLASS_3_6592CC03D95C5FF7_1_METHOD_3_02A7FCEDE09AD0D7_OFFSET))(this, a1, a2);
 	}
 
-	::System::Boolean Method_3_DFF98536D8B4074F()
+	::System::Boolean Method_3_4DA6D4A624E42CAB()
 	{
-		return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_3_6592CC03D95C5FF7_1_METHOD_3_DFF98536D8B4074F_OFFSET))(this);
+		return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_3_6592CC03D95C5FF7_1_METHOD_3_4DA6D4A624E42CAB_OFFSET))(this);
 	}
 };

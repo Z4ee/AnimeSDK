@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int AetherMonsterAvatarDisplayDataStatus_TypeDefinitionIndex = 58206;
+	inline static constexpr unsigned int AetherMonsterAvatarDisplayDataStatus_TypeDefinitionIndex = 59468;
 
 	enum class AetherMonsterAvatarDisplayDataStatus : ::System::Int32
 	{

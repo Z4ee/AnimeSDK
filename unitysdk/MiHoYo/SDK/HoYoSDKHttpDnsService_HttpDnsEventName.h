@@ -6,7 +6,7 @@ namespace System { class String; }
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int HoYoSDKHttpDnsService_HttpDnsEventName_TypeDefinitionIndex = 43509;
+	inline static constexpr unsigned int HoYoSDKHttpDnsService_HttpDnsEventName_TypeDefinitionIndex = 44370;
 
 	class HoYoSDKHttpDnsService_HttpDnsEventName : public ::System::Object
 	{

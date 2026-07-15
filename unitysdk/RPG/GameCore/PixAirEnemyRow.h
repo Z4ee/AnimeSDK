@@ -5,12 +5,12 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_PIXAIRENEMYROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x19A10DA0)
-#define RPG_GAMECORE_PIXAIRENEMYROW__CTOR_OFFSET UNITYSDK_OFFSET(0x19A11030)
+#define RPG_GAMECORE_PIXAIRENEMYROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B4CAEF0)
+#define RPG_GAMECORE_PIXAIRENEMYROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1B4CB180)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PixAirEnemyRow_TypeDefinitionIndex = 11575;
+	inline static constexpr unsigned int PixAirEnemyRow_TypeDefinitionIndex = 11675;
 
 	class PixAirEnemyRow : public ::System::Object
 	{
@@ -18,9 +18,9 @@ namespace RPG::GameCore
 		::Il2CppArray<::System::UInt32>* EquipsID; // 0x10
 		::Il2CppArray<::System::UInt32>* EquipsLevel; // 0x18
 		::RPG::GameCore::FixPoint HP; // 0x20
-		::System::UInt32 EnemyID; // 0x28
+		::System::UInt32 CoinLoot; // 0x28
 		::System::UInt32 DisplayID; // 0x2C
-		::System::UInt32 CoinLoot; // 0x30
+		::System::UInt32 EnemyID; // 0x30
 
 		::System::Void _ctor()
 		{

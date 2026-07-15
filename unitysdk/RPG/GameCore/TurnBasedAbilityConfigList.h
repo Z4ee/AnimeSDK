@@ -12,12 +12,12 @@ namespace RPG::GameCore { class VCameraConfig; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_TURNBASEDABILITYCONFIGLIST_METHOD_2_75B90BAB1ED990B8_OFFSET UNITYSDK_OFFSET(0x19E22180)
-#define RPG_GAMECORE_TURNBASEDABILITYCONFIGLIST__CTOR_OFFSET UNITYSDK_OFFSET(0x19E22460)
+#define RPG_GAMECORE_TURNBASEDABILITYCONFIGLIST_METHOD_2_75B90BAB1ED990B8_OFFSET UNITYSDK_OFFSET(0x1B063C10)
+#define RPG_GAMECORE_TURNBASEDABILITYCONFIGLIST__CTOR_OFFSET UNITYSDK_OFFSET(0x1B063EF0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TurnBasedAbilityConfigList_TypeDefinitionIndex = 17294;
+	inline static constexpr unsigned int TurnBasedAbilityConfigList_TypeDefinitionIndex = 17467;
 
 	class TurnBasedAbilityConfigList : public ::RPG::GameCore::JsonConfig
 	{

@@ -3,20 +3,24 @@
 #include "unitysdk/System/Object.h"
 
 class StageHarmonyDemodulator;
+namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class Object; }
 
-#define STAGEHARMONYBASELINKSLOT_METHOD_1_BD8CC0653430F458_OFFSET UNITYSDK_OFFSET(0xD096410)
-#define STAGEHARMONYBASELINKSLOT__CTOR_OFFSET UNITYSDK_OFFSET(0xD095390)
+#define STAGEHARMONYBASELINKSLOT_METHOD_1_BD8CC0653430F458_OFFSET UNITYSDK_OFFSET(0x14EC7000)
+#define STAGEHARMONYBASELINKSLOT__CTOR_OFFSET UNITYSDK_OFFSET(0x14EC5F30)
 
-inline static constexpr unsigned int StageHarmonyBaseLinkSlot_TypeDefinitionIndex = 44829;
+inline static constexpr unsigned int StageHarmonyBaseLinkSlot_TypeDefinitionIndex = 45746;
 
 class StageHarmonyBaseLinkSlot : public ::System::Object
 {
 public:
 	::System::Collections::Generic::List_1<::StageHarmonyDemodulator*>* Demodulators; // 0x10
 	::StageHarmonyDemodulator* Demodulator; // 0x18
-	::UnityEngine::Object* hostObject; // 0x20
+	::System::String* SlotId; // 0x20
+	::System::String* SingleDemodulatorId; // 0x28
+	::System::Collections::Generic::List_1<::System::String*>* DemodulatorIds; // 0x30
+	::UnityEngine::Object* hostObject; // 0x38
 
 	::System::Void _ctor()
 	{

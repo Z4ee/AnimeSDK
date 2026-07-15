@@ -8,7 +8,7 @@ namespace System::Collections::Generic { template <typename T> class IEnumerator
 
 namespace Newtonsoft::Json::Utilities
 {
-	inline static constexpr unsigned int DictionaryWrapper_2_DictionaryEnumerator_2_TypeDefinitionIndex = 9317;
+	inline static constexpr unsigned int DictionaryWrapper_2_DictionaryEnumerator_2_TypeDefinitionIndex = 9329;
 
 	template <typename TKey, typename TValue, typename TEnumeratorKey, typename TEnumeratorValue>
 	struct DictionaryWrapper_2_DictionaryEnumerator_2

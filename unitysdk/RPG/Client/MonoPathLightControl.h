@@ -4,19 +4,19 @@
 #include "unitysdk/UnityEngine/Vector2Int.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-class Class_2_8422DE19D9B5F248;
+class Class_2_20CD753D282DC6DE;
 namespace UnityEngine { class AnimationCurve; }
 namespace UnityEngine { class GameObject; }
 
-#define RPG_CLIENT_MONOPATHLIGHTCONTROL_AWAKE_OFFSET UNITYSDK_OFFSET(0xC138060)
-#define RPG_CLIENT_MONOPATHLIGHTCONTROL_ONDESTROY_OFFSET UNITYSDK_OFFSET(0xC1381A0)
-#define RPG_CLIENT_MONOPATHLIGHTCONTROL_ONENABLE_OFFSET UNITYSDK_OFFSET(0xC1380E0)
-#define RPG_CLIENT_MONOPATHLIGHTCONTROL_UPDATE_OFFSET UNITYSDK_OFFSET(0xC138140)
-#define RPG_CLIENT_MONOPATHLIGHTCONTROL__CTOR_OFFSET UNITYSDK_OFFSET(0xC138230)
+#define RPG_CLIENT_MONOPATHLIGHTCONTROL_AWAKE_OFFSET UNITYSDK_OFFSET(0x18C6A1A0)
+#define RPG_CLIENT_MONOPATHLIGHTCONTROL_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x18C6A2E0)
+#define RPG_CLIENT_MONOPATHLIGHTCONTROL_ONENABLE_OFFSET UNITYSDK_OFFSET(0x18C6A220)
+#define RPG_CLIENT_MONOPATHLIGHTCONTROL_UPDATE_OFFSET UNITYSDK_OFFSET(0x18C6A280)
+#define RPG_CLIENT_MONOPATHLIGHTCONTROL__CTOR_OFFSET UNITYSDK_OFFSET(0x18C6A370)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MonoPathLightControl_TypeDefinitionIndex = 64194;
+	inline static constexpr unsigned int MonoPathLightControl_TypeDefinitionIndex = 65565;
 
 	class MonoPathLightControl : public ::UnityEngine::MonoBehaviour
 	{
@@ -52,7 +52,7 @@ namespace RPG::Client
 		::System::Boolean isEditorDebug; // 0xEC
 		::UnityEngine::GameObject* ReferencePos; // 0xF0
 		::System::Single DirectionalTest; // 0xF8
-		::Class_2_8422DE19D9B5F248* _Behavior; // 0x100
+		::Class_2_20CD753D282DC6DE* _Behavior; // 0x100
 
 		::System::Void _ctor()
 		{

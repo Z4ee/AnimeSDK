@@ -5,12 +5,12 @@
 namespace ZenFulcrum::EmbeddedBrowser { class Browser_JSCallback; }
 namespace ZenFulcrum::EmbeddedBrowser { class JSONNode; }
 
-#define ZENFULCRUM_EMBEDDEDBROWSER_BROWSER___C__DISPLAYCLASS223_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1B4E1BC0)
-#define ZENFULCRUM_EMBEDDEDBROWSER_BROWSER___C__DISPLAYCLASS223_0__REGISTERFUNCTION_B__0_OFFSET UNITYSDK_OFFSET(0x1B4E6180)
+#define ZENFULCRUM_EMBEDDEDBROWSER_BROWSER___C__DISPLAYCLASS223_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1AB3FD30)
+#define ZENFULCRUM_EMBEDDEDBROWSER_BROWSER___C__DISPLAYCLASS223_0__REGISTERFUNCTION_B__0_OFFSET UNITYSDK_OFFSET(0x1AB446A0)
 
 namespace ZenFulcrum::EmbeddedBrowser
 {
-	inline static constexpr unsigned int Browser___c__DisplayClass223_0_TypeDefinitionIndex = 36416;
+	inline static constexpr unsigned int Browser___c__DisplayClass223_0_TypeDefinitionIndex = 37198;
 
 	class Browser___c__DisplayClass223_0 : public ::System::Object
 	{

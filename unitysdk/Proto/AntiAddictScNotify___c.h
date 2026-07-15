@@ -4,20 +4,20 @@
 
 namespace Proto { class AntiAddictScNotify; }
 
-#define PROTO_ANTIADDICTSCNOTIFY___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1A0DF010)
-#define PROTO_ANTIADDICTSCNOTIFY___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1A0DF050)
-#define PROTO_ANTIADDICTSCNOTIFY___C___CCTOR_B__33_0_OFFSET UNITYSDK_OFFSET(0x1A0DF060)
+#define PROTO_ANTIADDICTSCNOTIFY___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1BF71C50)
+#define PROTO_ANTIADDICTSCNOTIFY___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1BF71C90)
+#define PROTO_ANTIADDICTSCNOTIFY___C___CCTOR_B__33_0_OFFSET UNITYSDK_OFFSET(0x1BF71CA0)
 
 namespace Proto
 {
-	inline static constexpr unsigned int AntiAddictScNotify___c_TypeDefinitionIndex = 30138;
+	inline static constexpr unsigned int AntiAddictScNotify___c_TypeDefinitionIndex = 30670;
 
 	class AntiAddictScNotify___c : public ::System::Object
 	{
 	public:
 		static ::Proto::AntiAddictScNotify___c** StaticGet___9()
 		{
-			return (::Proto::AntiAddictScNotify___c**)Il2CppClass::FromTypeDefinitionIndex(AntiAddictScNotify___c_TypeDefinitionIndex)->GetStaticField(0x42300);
+			return (::Proto::AntiAddictScNotify___c**)Il2CppClass::FromTypeDefinitionIndex(AntiAddictScNotify___c_TypeDefinitionIndex)->GetStaticField(0x3BA90);
 		}
 
 		static ::System::Void _cctor()

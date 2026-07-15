@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int IAdventurePlayerCommonRowWrap_TypeDefinitionIndex = 52785;
+	inline static constexpr unsigned int IAdventurePlayerCommonRowWrap_TypeDefinitionIndex = 53996;
 
 	class IAdventurePlayerCommonRowWrap
 	{

@@ -1,15 +1,17 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/Class_1_DD82D6A2390AAA97.h"
+#include "unitysdk/RPG/Client/LogicStateType.h"
 
 namespace RPG::Client { class PlayerModule; }
 namespace System { class Object; }
 
-#define CLASS_2_3F7856F016517AC0_1_METHOD_2_B99DB029ED55CCE6_OFFSET UNITYSDK_OFFSET(0x137A8480)
-#define CLASS_2_3F7856F016517AC0_1_METHOD_2_FE60265F2E236E58_OFFSET UNITYSDK_OFFSET(0x137A8430)
-#define CLASS_2_3F7856F016517AC0_1__CTOR_OFFSET UNITYSDK_OFFSET(0x137A8420)
+#define CLASS_2_3F7856F016517AC0_1_METHOD_2_8B48A20015332116_OFFSET UNITYSDK_OFFSET(0x1708A260)
+#define CLASS_2_3F7856F016517AC0_1_METHOD_2_95780ED94B90ED36_OFFSET UNITYSDK_OFFSET(0x1708A300)
+#define CLASS_2_3F7856F016517AC0_1_METHOD_2_FE60265F2E236E58_OFFSET UNITYSDK_OFFSET(0x1708A2B0)
+#define CLASS_2_3F7856F016517AC0_1__CTOR_OFFSET UNITYSDK_OFFSET(0x1708A250)
 
-inline static constexpr unsigned int Class_2_3F7856F016517AC0_1_TypeDefinitionIndex = 62364;
+inline static constexpr unsigned int Class_2_3F7856F016517AC0_1_TypeDefinitionIndex = 63731;
 
 class Class_2_3F7856F016517AC0_1 : public ::Class_1_DD82D6A2390AAA97
 {
@@ -19,13 +21,18 @@ public:
 		return ((::System::Void(*)(::PVOID, ::RPG::Client::PlayerModule*))((::PBYTE)hIl2Cpp + CLASS_2_3F7856F016517AC0_1__CTOR_OFFSET))(this, a1);
 	}
 
+	::RPG::Client::LogicStateType Method_2_8B48A20015332116()
+	{
+		return ((::RPG::Client::LogicStateType(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_3F7856F016517AC0_1_METHOD_2_8B48A20015332116_OFFSET))(this);
+	}
+
 	::System::Boolean Method_2_FE60265F2E236E58(::Il2CppArray<::System::Object*>* a1)
 	{
 		return ((::System::Boolean(*)(::PVOID, ::Il2CppArray<::System::Object*>*))((::PBYTE)hIl2Cpp + CLASS_2_3F7856F016517AC0_1_METHOD_2_FE60265F2E236E58_OFFSET))(this, a1);
 	}
 
-	::System::Boolean Method_2_B99DB029ED55CCE6(::Il2CppArray<::System::Object*>* a1)
+	::System::Int32 Method_2_95780ED94B90ED36()
 	{
-		return ((::System::Boolean(*)(::PVOID, ::Il2CppArray<::System::Object*>*))((::PBYTE)hIl2Cpp + CLASS_2_3F7856F016517AC0_1_METHOD_2_B99DB029ED55CCE6_OFFSET))(this, a1);
+		return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_3F7856F016517AC0_1_METHOD_2_95780ED94B90ED36_OFFSET))(this);
 	}
 };

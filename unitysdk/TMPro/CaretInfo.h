@@ -3,11 +3,11 @@
 #include "unitysdk/System/ValueType.h"
 #include "unitysdk/TMPro/CaretPosition.h"
 
-#define TMPRO_CARETINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x7BBE0)
+#define TMPRO_CARETINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x6E5720)
 
 namespace TMPro
 {
-	inline static constexpr unsigned int CaretInfo_TypeDefinitionIndex = 41052;
+	inline static constexpr unsigned int CaretInfo_TypeDefinitionIndex = 41867;
 
 	struct alignas(4) CaretInfo
 	{

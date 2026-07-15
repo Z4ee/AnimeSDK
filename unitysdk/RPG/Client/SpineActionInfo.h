@@ -4,12 +4,12 @@
 
 namespace System { class String; }
 
-#define RPG_CLIENT_SPINEACTIONINFO_METHOD_1_241E980AA407A7FB_OFFSET UNITYSDK_OFFSET(0xC8FB070)
-#define RPG_CLIENT_SPINEACTIONINFO__CTOR_OFFSET UNITYSDK_OFFSET(0xC8FB140)
+#define RPG_CLIENT_SPINEACTIONINFO_METHOD_1_241E980AA407A7FB_OFFSET UNITYSDK_OFFSET(0x18919810)
+#define RPG_CLIENT_SPINEACTIONINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x189198E0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int SpineActionInfo_TypeDefinitionIndex = 64546;
+	inline static constexpr unsigned int SpineActionInfo_TypeDefinitionIndex = 65946;
 
 	class SpineActionInfo : public ::System::Object
 	{

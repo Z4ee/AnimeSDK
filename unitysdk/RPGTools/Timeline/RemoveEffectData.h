@@ -6,12 +6,12 @@ namespace RPG::GameCore { class RemoveEffect; }
 namespace RPG::GameCore { class TargetEvaluator; }
 namespace System { class String; }
 
-#define RPGTOOLS_TIMELINE_REMOVEEFFECTDATA_METHOD_1_2C9EFEEEFD9DB7D7_OFFSET UNITYSDK_OFFSET(0xD04E850)
-#define RPGTOOLS_TIMELINE_REMOVEEFFECTDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xD04E940)
+#define RPGTOOLS_TIMELINE_REMOVEEFFECTDATA_METHOD_1_7D8D9CDFAEF2C143_OFFSET UNITYSDK_OFFSET(0x199AEF30)
+#define RPGTOOLS_TIMELINE_REMOVEEFFECTDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x199AF000)
 
 namespace RPGTools::Timeline
 {
-	inline static constexpr unsigned int RemoveEffectData_TypeDefinitionIndex = 45609;
+	inline static constexpr unsigned int RemoveEffectData_TypeDefinitionIndex = 46543;
 
 	class RemoveEffectData : public ::System::Object
 	{
@@ -25,9 +25,9 @@ namespace RPGTools::Timeline
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_REMOVEEFFECTDATA__CTOR_OFFSET))(this);
 		}
 
-		::RPG::GameCore::RemoveEffect* Method_1_2C9EFEEEFD9DB7D7()
+		::RPG::GameCore::RemoveEffect* Method_1_7D8D9CDFAEF2C143()
 		{
-			return ((::RPG::GameCore::RemoveEffect*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_REMOVEEFFECTDATA_METHOD_1_2C9EFEEEFD9DB7D7_OFFSET))(this);
+			return ((::RPG::GameCore::RemoveEffect*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_REMOVEEFFECTDATA_METHOD_1_7D8D9CDFAEF2C143_OFFSET))(this);
 		}
 	};
 }

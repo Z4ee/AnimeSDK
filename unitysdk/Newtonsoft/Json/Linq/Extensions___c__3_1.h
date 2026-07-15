@@ -6,7 +6,7 @@ namespace Newtonsoft::Json::Linq { template <typename T> class Extensions___c__3
 
 namespace Newtonsoft::Json::Linq
 {
-	inline static constexpr unsigned int Extensions___c__3_1_TypeDefinitionIndex = 9416;
+	inline static constexpr unsigned int Extensions___c__3_1_TypeDefinitionIndex = 9428;
 
 	template <typename T>
 	class Extensions___c__3_1 : public ::System::Object

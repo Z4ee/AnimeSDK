@@ -3,7 +3,7 @@
 
 namespace RPG::Client::LittleGameShare
 {
-	inline static constexpr unsigned int FightServerLogLevel_TypeDefinitionIndex = 34726;
+	inline static constexpr unsigned int FightServerLogLevel_TypeDefinitionIndex = 35396;
 
 	enum class FightServerLogLevel : ::System::Int32
 	{

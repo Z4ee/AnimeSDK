@@ -12,29 +12,29 @@ namespace System::IO { class BinaryReader; }
 namespace System::IO { class Stream; }
 namespace System::Threading { class Thread; }
 
-#define HDG_READMESSAGETHREAD_GET_ISCONNECTED_OFFSET UNITYSDK_OFFSET(0xA118190)
-#define HDG_READMESSAGETHREAD_ONLOSTCONNECTION_OFFSET UNITYSDK_OFFSET(0xA118F40)
-#define HDG_READMESSAGETHREAD_ONREADING_OFFSET UNITYSDK_OFFSET(0xA118500)
-#define HDG_READMESSAGETHREAD_STOP_OFFSET UNITYSDK_OFFSET(0xA1183F0)
-#define HDG_READMESSAGETHREAD_THREADFUNC_OFFSET UNITYSDK_OFFSET(0xA118420)
-#define HDG_READMESSAGETHREAD__CTOR_OFFSET UNITYSDK_OFFSET(0xA1181A0)
+#define HDG_READMESSAGETHREAD_GET_ISCONNECTED_OFFSET UNITYSDK_OFFSET(0x1B7FA750)
+#define HDG_READMESSAGETHREAD_ONLOSTCONNECTION_OFFSET UNITYSDK_OFFSET(0x1B7FB6C0)
+#define HDG_READMESSAGETHREAD_ONREADING_OFFSET UNITYSDK_OFFSET(0x1B7FAA60)
+#define HDG_READMESSAGETHREAD_STOP_OFFSET UNITYSDK_OFFSET(0x1B7FA950)
+#define HDG_READMESSAGETHREAD_THREADFUNC_OFFSET UNITYSDK_OFFSET(0x1B7FA980)
+#define HDG_READMESSAGETHREAD__CTOR_OFFSET UNITYSDK_OFFSET(0x1B7FA760)
 
 namespace Hdg
 {
-	inline static constexpr unsigned int ReadMessageThread_TypeDefinitionIndex = 44291;
+	inline static constexpr unsigned int ReadMessageThread_TypeDefinitionIndex = 45161;
 
 	class ReadMessageThread : public ::System::Object
 	{
 	public:
-		::System::IO::Stream* m_stream; // 0x10
-		::System::Threading::Thread* m_thread; // 0x18
-		::Il2CppArray<::System::Action*>* m_stateDelegates; // 0x20
-		::System::IO::BinaryReader* m_reader; // 0x28
+		::System::Action_1<::Hdg::rdtTcpMessage*>* m_callback; // 0x10
+		::System::IO::BinaryReader* m_reader; // 0x18
+		::Hdg::rdtDispatcher* m_dispatcher; // 0x20
+		::System::IO::Stream* m_stream; // 0x28
 		::System::String* m_name; // 0x30
-		::Hdg::rdtDispatcher* m_dispatcher; // 0x38
-		::System::Action_1<::Hdg::rdtTcpMessage*>* m_callback; // 0x40
-		::System::Boolean m_run; // 0x48
-		::Hdg::ReadMessageThread_State m_state; // 0x4C
+		::Il2CppArray<::System::Action*>* m_stateDelegates; // 0x38
+		::System::Threading::Thread* m_thread; // 0x40
+		::Hdg::ReadMessageThread_State m_state; // 0x48
+		::System::Boolean m_run; // 0x4C
 
 		::System::Void _ctor(::System::IO::Stream* a1, ::Hdg::rdtDispatcher* a2, ::System::Action_1<::Hdg::rdtTcpMessage*>* a3, ::System::String* a4)
 		{

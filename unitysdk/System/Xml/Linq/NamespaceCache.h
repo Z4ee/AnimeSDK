@@ -5,11 +5,11 @@
 namespace System { class String; }
 namespace System::Xml::Linq { class XNamespace; }
 
-#define SYSTEM_XML_LINQ_NAMESPACECACHE_GET_OFFSET UNITYSDK_OFFSET(0x386BA30)
+#define SYSTEM_XML_LINQ_NAMESPACECACHE_GET_OFFSET UNITYSDK_OFFSET(0x3AF1A30)
 
 namespace System::Xml::Linq
 {
-	inline static constexpr unsigned int NamespaceCache_TypeDefinitionIndex = 3882;
+	inline static constexpr unsigned int NamespaceCache_TypeDefinitionIndex = 3886;
 
 	struct alignas(8) NamespaceCache
 	{

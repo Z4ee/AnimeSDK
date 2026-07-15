@@ -4,11 +4,11 @@
 
 namespace UnityEngine { class Transform; }
 
-#define RPG_CLIENT_GRIDFIGHTMEMBERTRANSFORMINFO__CTOR_OFFSET UNITYSDK_OFFSET(0xBB9B020)
+#define RPG_CLIENT_GRIDFIGHTMEMBERTRANSFORMINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x195097A0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GridFightMemberTransformInfo_TypeDefinitionIndex = 60641;
+	inline static constexpr unsigned int GridFightMemberTransformInfo_TypeDefinitionIndex = 61932;
 
 	class GridFightMemberTransformInfo : public ::System::Object
 	{

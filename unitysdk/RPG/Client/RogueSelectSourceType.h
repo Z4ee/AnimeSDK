@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int RogueSelectSourceType_TypeDefinitionIndex = 62669;
+	inline static constexpr unsigned int RogueSelectSourceType_TypeDefinitionIndex = 64036;
 
 	enum class RogueSelectSourceType : ::System::Int32
 	{

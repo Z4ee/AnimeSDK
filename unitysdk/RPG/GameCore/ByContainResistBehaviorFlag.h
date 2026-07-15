@@ -7,15 +7,15 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class TargetEvaluator; }
 namespace SimpleJSON { class JSONNode; }
 
-#define RPG_GAMECORE_BYCONTAINRESISTBEHAVIORFLAG_METHOD_4_48D0A4EF99555FD2_OFFSET UNITYSDK_OFFSET(0x19540AE0)
-#define RPG_GAMECORE_BYCONTAINRESISTBEHAVIORFLAG_METHOD_4_739EC0FBEE81E649_OFFSET UNITYSDK_OFFSET(0x19540890)
-#define RPG_GAMECORE_BYCONTAINRESISTBEHAVIORFLAG_METHOD_4_76E43ACA1CD6F195_OFFSET UNITYSDK_OFFSET(0x195407C0)
-#define RPG_GAMECORE_BYCONTAINRESISTBEHAVIORFLAG_METHOD_4_A567E380460033C5_OFFSET UNITYSDK_OFFSET(0x19540A60)
-#define RPG_GAMECORE_BYCONTAINRESISTBEHAVIORFLAG__CTOR_OFFSET UNITYSDK_OFFSET(0x19540840)
+#define RPG_GAMECORE_BYCONTAINRESISTBEHAVIORFLAG_METHOD_4_0FC91D9075C28F94_OFFSET UNITYSDK_OFFSET(0x1A8B6480)
+#define RPG_GAMECORE_BYCONTAINRESISTBEHAVIORFLAG_METHOD_4_739EC0FBEE81E649_OFFSET UNITYSDK_OFFSET(0x1A8B64C0)
+#define RPG_GAMECORE_BYCONTAINRESISTBEHAVIORFLAG_METHOD_4_7AC0990C466B02CF_OFFSET UNITYSDK_OFFSET(0x1A8B66C0)
+#define RPG_GAMECORE_BYCONTAINRESISTBEHAVIORFLAG_METHOD_4_EB20EC421B56BE49_OFFSET UNITYSDK_OFFSET(0x1A8B6690)
+#define RPG_GAMECORE_BYCONTAINRESISTBEHAVIORFLAG__CTOR_OFFSET UNITYSDK_OFFSET(0x1A8B64B0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ByContainResistBehaviorFlag_TypeDefinitionIndex = 22357;
+	inline static constexpr unsigned int ByContainResistBehaviorFlag_TypeDefinitionIndex = 22799;
 
 	class ByContainResistBehaviorFlag : public ::RPG::GameCore::PredicateConfig
 	{
@@ -28,9 +28,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYCONTAINRESISTBEHAVIORFLAG__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_4_76E43ACA1CD6F195(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ByContainResistBehaviorFlag*& a2)
+		static ::System::Void Method_4_0FC91D9075C28F94(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ByContainResistBehaviorFlag*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ByContainResistBehaviorFlag*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYCONTAINRESISTBEHAVIORFLAG_METHOD_4_76E43ACA1CD6F195_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ByContainResistBehaviorFlag*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYCONTAINRESISTBEHAVIORFLAG_METHOD_4_0FC91D9075C28F94_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_4_739EC0FBEE81E649(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ByContainResistBehaviorFlag* a2)
@@ -38,14 +38,14 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ByContainResistBehaviorFlag*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYCONTAINRESISTBEHAVIORFLAG_METHOD_4_739EC0FBEE81E649_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_4_A567E380460033C5(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::ByContainResistBehaviorFlag*& a2)
+		static ::System::Void Method_4_EB20EC421B56BE49(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::ByContainResistBehaviorFlag*& a2)
 		{
-			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::ByContainResistBehaviorFlag*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYCONTAINRESISTBEHAVIORFLAG_METHOD_4_A567E380460033C5_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::ByContainResistBehaviorFlag*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYCONTAINRESISTBEHAVIORFLAG_METHOD_4_EB20EC421B56BE49_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_4_48D0A4EF99555FD2(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::ByContainResistBehaviorFlag* a2)
+		static ::System::Void Method_4_7AC0990C466B02CF(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::ByContainResistBehaviorFlag* a2)
 		{
-			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::ByContainResistBehaviorFlag*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYCONTAINRESISTBEHAVIORFLAG_METHOD_4_48D0A4EF99555FD2_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::ByContainResistBehaviorFlag*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BYCONTAINRESISTBEHAVIORFLAG_METHOD_4_7AC0990C466B02CF_OFFSET))(a1, a2);
 		}
 	};
 }

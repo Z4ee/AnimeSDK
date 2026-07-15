@@ -5,13 +5,13 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class TaskConfig; }
 
-#define RPG_GAMECORE_SEQUENCECONFIG_METHOD_4_05479A80423B2C4C_OFFSET UNITYSDK_OFFSET(0x19C21020)
-#define RPG_GAMECORE_SEQUENCECONFIG_METHOD_4_60F22371C24186DD_OFFSET UNITYSDK_OFFSET(0x19C20FA0)
-#define RPG_GAMECORE_SEQUENCECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x19C20FF0)
+#define RPG_GAMECORE_SEQUENCECONFIG_METHOD_4_05479A80423B2C4C_OFFSET UNITYSDK_OFFSET(0x1C2CAD60)
+#define RPG_GAMECORE_SEQUENCECONFIG_METHOD_4_EEA258EC5A51BD07_OFFSET UNITYSDK_OFFSET(0x1C2CAD20)
+#define RPG_GAMECORE_SEQUENCECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1C2CAD50)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SequenceConfig_TypeDefinitionIndex = 22475;
+	inline static constexpr unsigned int SequenceConfig_TypeDefinitionIndex = 22925;
 
 	class SequenceConfig : public ::RPG::GameCore::CompositeConfig
 	{
@@ -23,9 +23,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SEQUENCECONFIG__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_4_60F22371C24186DD(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SequenceConfig*& a2)
+		static ::System::Void Method_4_EEA258EC5A51BD07(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SequenceConfig*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SequenceConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SEQUENCECONFIG_METHOD_4_60F22371C24186DD_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SequenceConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SEQUENCECONFIG_METHOD_4_EEA258EC5A51BD07_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_4_05479A80423B2C4C(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SequenceConfig* a2)

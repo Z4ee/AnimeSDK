@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int STDetectMoneyType_TypeDefinitionIndex = 23137;
+	inline static constexpr unsigned int STDetectMoneyType_TypeDefinitionIndex = 23615;
 
 	enum class STDetectMoneyType : ::System::Int32
 	{

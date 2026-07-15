@@ -6,13 +6,13 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class TargetEvaluator; }
 
-#define RPG_GAMECORE_SETDAMAGESHAREDTARGET_METHOD_3_027287D6B01442BF_OFFSET UNITYSDK_OFFSET(0x19C32A80)
-#define RPG_GAMECORE_SETDAMAGESHAREDTARGET_METHOD_3_A6FA110420B7C612_OFFSET UNITYSDK_OFFSET(0x19C32B30)
-#define RPG_GAMECORE_SETDAMAGESHAREDTARGET__CTOR_OFFSET UNITYSDK_OFFSET(0x19C32AF0)
+#define RPG_GAMECORE_SETDAMAGESHAREDTARGET_METHOD_3_11CF17702899D917_OFFSET UNITYSDK_OFFSET(0x1C2DB570)
+#define RPG_GAMECORE_SETDAMAGESHAREDTARGET_METHOD_3_A6FA110420B7C612_OFFSET UNITYSDK_OFFSET(0x1C2DB5E0)
+#define RPG_GAMECORE_SETDAMAGESHAREDTARGET__CTOR_OFFSET UNITYSDK_OFFSET(0x1C2DB5C0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SetDamageSharedTarget_TypeDefinitionIndex = 21579;
+	inline static constexpr unsigned int SetDamageSharedTarget_TypeDefinitionIndex = 22001;
 
 	class SetDamageSharedTarget : public ::RPG::GameCore::TaskConfig
 	{
@@ -31,9 +31,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETDAMAGESHAREDTARGET__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_027287D6B01442BF(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SetDamageSharedTarget*& a2)
+		static ::System::Void Method_3_11CF17702899D917(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SetDamageSharedTarget*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SetDamageSharedTarget*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETDAMAGESHAREDTARGET_METHOD_3_027287D6B01442BF_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SetDamageSharedTarget*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETDAMAGESHAREDTARGET_METHOD_3_11CF17702899D917_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_A6FA110420B7C612(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SetDamageSharedTarget* a2)

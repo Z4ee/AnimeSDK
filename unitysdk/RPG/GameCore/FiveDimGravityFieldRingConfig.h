@@ -6,13 +6,13 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class FiveDimDynamicVar; }
 namespace RPG::GameCore { class LittleGameEvent; }
 
-#define RPG_GAMECORE_FIVEDIMGRAVITYFIELDRINGCONFIG_METHOD_3_36FB39A85C085DEA_OFFSET UNITYSDK_OFFSET(0x19740E90)
-#define RPG_GAMECORE_FIVEDIMGRAVITYFIELDRINGCONFIG_METHOD_3_F703F6160242FD6D_OFFSET UNITYSDK_OFFSET(0x19740E20)
-#define RPG_GAMECORE_FIVEDIMGRAVITYFIELDRINGCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x19740E70)
+#define RPG_GAMECORE_FIVEDIMGRAVITYFIELDRINGCONFIG_METHOD_3_36FB39A85C085DEA_OFFSET UNITYSDK_OFFSET(0x1BA99170)
+#define RPG_GAMECORE_FIVEDIMGRAVITYFIELDRINGCONFIG_METHOD_3_A1A70DC34BC51EAD_OFFSET UNITYSDK_OFFSET(0x1BA99130)
+#define RPG_GAMECORE_FIVEDIMGRAVITYFIELDRINGCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1BA99160)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FiveDimGravityFieldRingConfig_TypeDefinitionIndex = 17687;
+	inline static constexpr unsigned int FiveDimGravityFieldRingConfig_TypeDefinitionIndex = 17861;
 
 	class FiveDimGravityFieldRingConfig : public ::RPG::GameCore::LittleGameComponentConfig
 	{
@@ -31,9 +31,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMGRAVITYFIELDRINGCONFIG__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_F703F6160242FD6D(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::FiveDimGravityFieldRingConfig*& a2)
+		static ::System::Void Method_3_A1A70DC34BC51EAD(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::FiveDimGravityFieldRingConfig*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::FiveDimGravityFieldRingConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMGRAVITYFIELDRINGCONFIG_METHOD_3_F703F6160242FD6D_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::FiveDimGravityFieldRingConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMGRAVITYFIELDRINGCONFIG_METHOD_3_A1A70DC34BC51EAD_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_36FB39A85C085DEA(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::FiveDimGravityFieldRingConfig* a2)

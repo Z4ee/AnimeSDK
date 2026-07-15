@@ -3,7 +3,7 @@
 
 namespace EzySlice
 {
-	inline static constexpr unsigned int SideOfPlane_TypeDefinitionIndex = 44351;
+	inline static constexpr unsigned int SideOfPlane_TypeDefinitionIndex = 45221;
 
 	enum class SideOfPlane : ::System::Int32
 	{

@@ -6,13 +6,13 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class TargetEvaluator; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_TRIGGERCABLEPROCEDURALEFFECT_METHOD_3_1D211165B4BC8610_OFFSET UNITYSDK_OFFSET(0x19E09630)
-#define RPG_GAMECORE_TRIGGERCABLEPROCEDURALEFFECT_METHOD_3_C845E7175ED4E2DA_OFFSET UNITYSDK_OFFSET(0x19E096B0)
-#define RPG_GAMECORE_TRIGGERCABLEPROCEDURALEFFECT__CTOR_OFFSET UNITYSDK_OFFSET(0x19E09680)
+#define RPG_GAMECORE_TRIGGERCABLEPROCEDURALEFFECT_METHOD_3_616D40E82BE4E7BB_OFFSET UNITYSDK_OFFSET(0x1B047220)
+#define RPG_GAMECORE_TRIGGERCABLEPROCEDURALEFFECT_METHOD_3_C845E7175ED4E2DA_OFFSET UNITYSDK_OFFSET(0x1B047260)
+#define RPG_GAMECORE_TRIGGERCABLEPROCEDURALEFFECT__CTOR_OFFSET UNITYSDK_OFFSET(0x1B047250)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TriggerCableProceduralEffect_TypeDefinitionIndex = 22344;
+	inline static constexpr unsigned int TriggerCableProceduralEffect_TypeDefinitionIndex = 22786;
 
 	class TriggerCableProceduralEffect : public ::RPG::GameCore::TaskConfig
 	{
@@ -30,9 +30,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TRIGGERCABLEPROCEDURALEFFECT__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_1D211165B4BC8610(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::TriggerCableProceduralEffect*& a2)
+		static ::System::Void Method_3_616D40E82BE4E7BB(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::TriggerCableProceduralEffect*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::TriggerCableProceduralEffect*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TRIGGERCABLEPROCEDURALEFFECT_METHOD_3_1D211165B4BC8610_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::TriggerCableProceduralEffect*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TRIGGERCABLEPROCEDURALEFFECT_METHOD_3_616D40E82BE4E7BB_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_C845E7175ED4E2DA(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::TriggerCableProceduralEffect* a2)

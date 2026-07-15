@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TickLodTemplateName_TypeDefinitionIndex = 10126;
+	inline static constexpr unsigned int TickLodTemplateName_TypeDefinitionIndex = 10141;
 
 	enum class TickLodTemplateName : ::System::Int32
 	{

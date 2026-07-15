@@ -3,7 +3,7 @@
 
 namespace Newtonsoft::Json
 {
-	inline static constexpr unsigned int ReferenceLoopHandling_TypeDefinitionIndex = 9274;
+	inline static constexpr unsigned int ReferenceLoopHandling_TypeDefinitionIndex = 9286;
 
 	enum class ReferenceLoopHandling : ::System::Int32
 	{

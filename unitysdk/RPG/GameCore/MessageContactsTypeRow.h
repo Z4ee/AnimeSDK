@@ -5,19 +5,19 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_MESSAGECONTACTSTYPEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1990FCE0)
-#define RPG_GAMECORE_MESSAGECONTACTSTYPEROW__CTOR_OFFSET UNITYSDK_OFFSET(0x19910360)
+#define RPG_GAMECORE_MESSAGECONTACTSTYPEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1AF59F70)
+#define RPG_GAMECORE_MESSAGECONTACTSTYPEROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1AF5A5F0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MessageContactsTypeRow_TypeDefinitionIndex = 13740;
+	inline static constexpr unsigned int MessageContactsTypeRow_TypeDefinitionIndex = 13888;
 
 	class MessageContactsTypeRow : public ::System::Object
 	{
 	public:
-		::RPG::Client::TextID Name; // 0x10
-		::System::UInt32 ContactsType; // 0x20
-		::System::UInt32 SortID; // 0x24
+		::System::UInt32 ContactsType; // 0x10
+		::System::UInt32 SortID; // 0x14
+		::RPG::Client::TextID Name; // 0x18
 
 		::System::Void _ctor()
 		{

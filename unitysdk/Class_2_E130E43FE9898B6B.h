@@ -1,17 +1,17 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Class_1_9DFEED9E47A49175.h"
+#include "unitysdk/Class_1_3207B23A0433048D.h"
 #include "unitysdk/RPG/GameCore/AntiLockHPStrength.h"
 #include "unitysdk/RPG/GameCore/FixPoint.h"
 #include "unitysdk/Struct_2_87C8F594A107C13B.h"
 #include "unitysdk/System/Nullable_1.h"
 
-#define CLASS_2_E130E43FE9898B6B_METHOD_2_6AA84D66C8619AE3_OFFSET UNITYSDK_OFFSET(0x14530000)
-#define CLASS_2_E130E43FE9898B6B__CTOR_OFFSET UNITYSDK_OFFSET(0x14530180)
+#define CLASS_2_E130E43FE9898B6B_METHOD_2_6AA84D66C8619AE3_OFFSET UNITYSDK_OFFSET(0x15FA0EC0)
+#define CLASS_2_E130E43FE9898B6B__CTOR_OFFSET UNITYSDK_OFFSET(0x15FA1040)
 
-inline static constexpr unsigned int Class_2_E130E43FE9898B6B_TypeDefinitionIndex = 50736;
+inline static constexpr unsigned int Class_2_E130E43FE9898B6B_TypeDefinitionIndex = 51818;
 
-class Class_2_E130E43FE9898B6B : public ::Class_1_9DFEED9E47A49175
+class Class_2_E130E43FE9898B6B : public ::Class_1_3207B23A0433048D
 {
 public:
 	::System::Void _ctor()

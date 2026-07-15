@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RogueClientAdventureRoomStatus_TypeDefinitionIndex = 54607;
+	inline static constexpr unsigned int RogueClientAdventureRoomStatus_TypeDefinitionIndex = 55832;
 
 	enum class RogueClientAdventureRoomStatus : ::System::Int32
 	{

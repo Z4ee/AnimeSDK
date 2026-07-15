@@ -8,7 +8,7 @@ namespace System { class Object; }
 
 namespace MessagePack::Internal
 {
-	inline static constexpr unsigned int ObjectSerializationInfo_EmittableMember_PropertySetterHelperForStructs_2_TypeDefinitionIndex = 7288;
+	inline static constexpr unsigned int ObjectSerializationInfo_EmittableMember_PropertySetterHelperForStructs_2_TypeDefinitionIndex = 7294;
 
 	template <typename T, typename TValue>
 	class ObjectSerializationInfo_EmittableMember_PropertySetterHelperForStructs_2 : public ::System::MulticastDelegate

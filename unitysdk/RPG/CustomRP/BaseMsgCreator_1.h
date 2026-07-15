@@ -7,7 +7,7 @@ namespace System { class String; }
 
 namespace RPG::CustomRP
 {
-	inline static constexpr unsigned int BaseMsgCreator_1_TypeDefinitionIndex = 35414;
+	inline static constexpr unsigned int BaseMsgCreator_1_TypeDefinitionIndex = 36196;
 
 	template <typename T>
 	class BaseMsgCreator_1 : public ::System::Object

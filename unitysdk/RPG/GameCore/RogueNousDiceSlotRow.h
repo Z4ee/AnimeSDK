@@ -5,22 +5,22 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_ROGUENOUSDICESLOTROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x19BA29F0)
-#define RPG_GAMECORE_ROGUENOUSDICESLOTROW__CTOR_OFFSET UNITYSDK_OFFSET(0x19BA2CA0)
+#define RPG_GAMECORE_ROGUENOUSDICESLOTROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D16BBC0)
+#define RPG_GAMECORE_ROGUENOUSDICESLOTROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D16BE70)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RogueNousDiceSlotRow_TypeDefinitionIndex = 14172;
+	inline static constexpr unsigned int RogueNousDiceSlotRow_TypeDefinitionIndex = 14320;
 
 	class RogueNousDiceSlotRow : public ::System::Object
 	{
 	public:
-		::System::UInt32 SlotID; // 0x10
-		::System::UInt32 ExtraMaxRarity; // 0x14
-		::RPG::Client::TextID UpgradedSlotName; // 0x18
-		::RPG::Client::TextID SlotName; // 0x28
+		::RPG::Client::TextID SlotName; // 0x10
+		::RPG::Client::TextID UpgradedSlotName; // 0x20
+		::System::UInt32 SlotID; // 0x30
+		::System::UInt32 SlotUnlockID; // 0x34
 		::System::UInt32 MaxRarity; // 0x38
-		::System::UInt32 SlotUnlockID; // 0x3C
+		::System::UInt32 ExtraMaxRarity; // 0x3C
 
 		::System::Void _ctor()
 		{

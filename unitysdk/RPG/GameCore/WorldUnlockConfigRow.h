@@ -5,22 +5,22 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_WORLDUNLOCKCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x19E6CE20)
-#define RPG_GAMECORE_WORLDUNLOCKCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x19E6D060)
+#define RPG_GAMECORE_WORLDUNLOCKCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D1C7670)
+#define RPG_GAMECORE_WORLDUNLOCKCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1D1C78B0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int WorldUnlockConfigRow_TypeDefinitionIndex = 13346;
+	inline static constexpr unsigned int WorldUnlockConfigRow_TypeDefinitionIndex = 13494;
 
 	class WorldUnlockConfigRow : public ::System::Object
 	{
 	public:
-		::Il2CppArray<::System::UInt32>* MainMissionIDList; // 0x10
+		::Il2CppArray<::System::UInt32>* InitMainMissionList; // 0x10
 		::System::String* NewWorldHintDialogPrefab; // 0x18
-		::Il2CppArray<::System::UInt32>* InitMainMissionList; // 0x20
+		::Il2CppArray<::System::UInt32>* MainMissionIDList; // 0x20
 		::System::String* DirectUnlockCondition; // 0x28
-		::System::UInt32 ID; // 0x30
-		::System::UInt32 NewWorldHintDialogActivityID; // 0x34
+		::System::UInt32 NewWorldHintDialogActivityID; // 0x30
+		::System::UInt32 ID; // 0x34
 
 		::System::Void _ctor()
 		{

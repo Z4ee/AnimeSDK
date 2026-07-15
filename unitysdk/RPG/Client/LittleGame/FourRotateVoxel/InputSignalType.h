@@ -3,7 +3,7 @@
 
 namespace RPG::Client::LittleGame::FourRotateVoxel
 {
-	inline static constexpr unsigned int InputSignalType_TypeDefinitionIndex = 39811;
+	inline static constexpr unsigned int InputSignalType_TypeDefinitionIndex = 40620;
 
 	enum class InputSignalType : ::System::Int32
 	{

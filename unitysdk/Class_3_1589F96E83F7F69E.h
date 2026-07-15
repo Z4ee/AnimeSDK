@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class CaptureEntity; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_1589F96E83F7F69E_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x142B5180)
-#define CLASS_3_1589F96E83F7F69E__CTOR_OFFSET UNITYSDK_OFFSET(0x142B5150)
+#define CLASS_3_1589F96E83F7F69E_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x146F19D0)
+#define CLASS_3_1589F96E83F7F69E__CTOR_OFFSET UNITYSDK_OFFSET(0x146F19A0)
 
-inline static constexpr unsigned int Class_3_1589F96E83F7F69E_TypeDefinitionIndex = 49230;
+inline static constexpr unsigned int Class_3_1589F96E83F7F69E_TypeDefinitionIndex = 50245;
 
 class Class_3_1589F96E83F7F69E : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::CaptureEntity*>
 {

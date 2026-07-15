@@ -6,10 +6,10 @@
 namespace RPG::GameCore { class SetDynamicValueByBossTotalHP; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_4BE4C531B2B97D54_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1061B230)
-#define CLASS_3_4BE4C531B2B97D54__CTOR_OFFSET UNITYSDK_OFFSET(0x1061B150)
+#define CLASS_3_4BE4C531B2B97D54_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x146A9330)
+#define CLASS_3_4BE4C531B2B97D54__CTOR_OFFSET UNITYSDK_OFFSET(0x146A9250)
 
-inline static constexpr unsigned int Class_3_4BE4C531B2B97D54_TypeDefinitionIndex = 51760;
+inline static constexpr unsigned int Class_3_4BE4C531B2B97D54_TypeDefinitionIndex = 52906;
 
 class Class_3_4BE4C531B2B97D54 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::SetDynamicValueByBossTotalHP*>
 {

@@ -11,33 +11,33 @@ namespace TMPro { class TMP_FontAsset; }
 namespace TMPro { class TMP_SpriteAsset; }
 namespace TMPro { class TMP_SpriteCharacter; }
 
-#define TMPRO_TMP_FONTASSETUTILITIES_GETCHARACTERFROMFONTASSETS_OFFSET UNITYSDK_OFFSET(0x1B1B4530)
-#define TMPRO_TMP_FONTASSETUTILITIES_GETCHARACTERFROMFONTASSET_INTERNAL_OFFSET UNITYSDK_OFFSET(0x1B1B4070)
-#define TMPRO_TMP_FONTASSETUTILITIES_GETCHARACTERFROMFONTASSET_OFFSET UNITYSDK_OFFSET(0x1B1B3F10)
-#define TMPRO_TMP_FONTASSETUTILITIES_GETSPRITECHARACTERFROMSPRITEASSET_INTERNAL_OFFSET UNITYSDK_OFFSET(0x1B1B4BA0)
-#define TMPRO_TMP_FONTASSETUTILITIES_GETSPRITECHARACTERFROMSPRITEASSET_OFFSET UNITYSDK_OFFSET(0x1B1B47D0)
-#define TMPRO_TMP_FONTASSETUTILITIES_GET_INSTANCE_OFFSET UNITYSDK_OFFSET(0x1B1B3EE0)
-#define TMPRO_TMP_FONTASSETUTILITIES__CCTOR_OFFSET UNITYSDK_OFFSET(0x1B1B3EA0)
-#define TMPRO_TMP_FONTASSETUTILITIES__CTOR_OFFSET UNITYSDK_OFFSET(0x1B1B3ED0)
+#define TMPRO_TMP_FONTASSETUTILITIES_GETCHARACTERFROMFONTASSETS_OFFSET UNITYSDK_OFFSET(0x171ADC00)
+#define TMPRO_TMP_FONTASSETUTILITIES_GETCHARACTERFROMFONTASSET_INTERNAL_OFFSET UNITYSDK_OFFSET(0x171AD740)
+#define TMPRO_TMP_FONTASSETUTILITIES_GETCHARACTERFROMFONTASSET_OFFSET UNITYSDK_OFFSET(0x171AD5E0)
+#define TMPRO_TMP_FONTASSETUTILITIES_GETSPRITECHARACTERFROMSPRITEASSET_INTERNAL_OFFSET UNITYSDK_OFFSET(0x171AE270)
+#define TMPRO_TMP_FONTASSETUTILITIES_GETSPRITECHARACTERFROMSPRITEASSET_OFFSET UNITYSDK_OFFSET(0x171ADEA0)
+#define TMPRO_TMP_FONTASSETUTILITIES_GET_INSTANCE_OFFSET UNITYSDK_OFFSET(0x171AD5B0)
+#define TMPRO_TMP_FONTASSETUTILITIES__CCTOR_OFFSET UNITYSDK_OFFSET(0x171AD570)
+#define TMPRO_TMP_FONTASSETUTILITIES__CTOR_OFFSET UNITYSDK_OFFSET(0x171AD5A0)
 
 namespace TMPro
 {
-	inline static constexpr unsigned int TMP_FontAssetUtilities_TypeDefinitionIndex = 40967;
+	inline static constexpr unsigned int TMP_FontAssetUtilities_TypeDefinitionIndex = 41782;
 
 	class TMP_FontAssetUtilities : public ::System::Object
 	{
 	public:
 		static ::TMPro::TMP_FontAssetUtilities** StaticGet_s_Instance()
 		{
-			return (::TMPro::TMP_FontAssetUtilities**)Il2CppClass::FromTypeDefinitionIndex(TMP_FontAssetUtilities_TypeDefinitionIndex)->GetStaticField(0x58A50);
+			return (::TMPro::TMP_FontAssetUtilities**)Il2CppClass::FromTypeDefinitionIndex(TMP_FontAssetUtilities_TypeDefinitionIndex)->GetStaticField(0x56AE0);
 		}
 		static ::System::Collections::Generic::HashSet_1<::System::Int32>** StaticGet_k_SearchedAssets()
 		{
-			return (::System::Collections::Generic::HashSet_1<::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(TMP_FontAssetUtilities_TypeDefinitionIndex)->GetStaticField(0x58A58);
+			return (::System::Collections::Generic::HashSet_1<::System::Int32>**)Il2CppClass::FromTypeDefinitionIndex(TMP_FontAssetUtilities_TypeDefinitionIndex)->GetStaticField(0x56AE8);
 		}
 		static ::System::Boolean* StaticGet_k_IsFontEngineInitialized()
 		{
-			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(TMP_FontAssetUtilities_TypeDefinitionIndex)->GetStaticField(0x11A20);
+			return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(TMP_FontAssetUtilities_TypeDefinitionIndex)->GetStaticField(0xED10);
 		}
 
 		static ::System::Void _cctor()

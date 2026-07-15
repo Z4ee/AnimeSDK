@@ -5,12 +5,12 @@
 namespace MiHoYo::SDK { class RegionTranslationManager; }
 namespace System { class String; }
 
-#define MIHOYO_SDK_REGIONTRANSLATIONMANAGER___C__DISPLAYCLASS13_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1840FE60)
-#define MIHOYO_SDK_REGIONTRANSLATIONMANAGER___C__DISPLAYCLASS13_0__LOADREMOTETRANSLATION_B__0_OFFSET UNITYSDK_OFFSET(0x18410620)
+#define MIHOYO_SDK_REGIONTRANSLATIONMANAGER___C__DISPLAYCLASS13_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1710E590)
+#define MIHOYO_SDK_REGIONTRANSLATIONMANAGER___C__DISPLAYCLASS13_0__LOADREMOTETRANSLATION_B__0_OFFSET UNITYSDK_OFFSET(0x1710EE90)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int RegionTranslationManager___c__DisplayClass13_0_TypeDefinitionIndex = 7904;
+	inline static constexpr unsigned int RegionTranslationManager___c__DisplayClass13_0_TypeDefinitionIndex = 7910;
 
 	class RegionTranslationManager___c__DisplayClass13_0 : public ::System::Object
 	{

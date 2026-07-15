@@ -6,12 +6,11 @@ class Class_3_07C3C4D2990C49EE;
 namespace RPG::GameCore { class InterruptSkillExecution; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_9F7C94B9267792BE_DISPOSE_OFFSET UNITYSDK_OFFSET(0x13B57710)
-#define CLASS_3_9F7C94B9267792BE_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x13B577A0)
-#define CLASS_3_9F7C94B9267792BE__CTOR_OFFSET UNITYSDK_OFFSET(0x13B57600)
-#define CLASS_3_9F7C94B9267792BE___IFIXBASEPROXY_DISPOSE_OFFSET UNITYSDK_OFFSET(0x13B57850)
+#define CLASS_3_9F7C94B9267792BE_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1620ABB0)
+#define CLASS_3_9F7C94B9267792BE_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1620AD10)
+#define CLASS_3_9F7C94B9267792BE__CTOR_OFFSET UNITYSDK_OFFSET(0x1620AAA0)
 
-inline static constexpr unsigned int Class_3_9F7C94B9267792BE_TypeDefinitionIndex = 51496;
+inline static constexpr unsigned int Class_3_9F7C94B9267792BE_TypeDefinitionIndex = 52638;
 
 class Class_3_9F7C94B9267792BE : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::InterruptSkillExecution*>
 {
@@ -32,10 +31,5 @@ public:
 	::System::Void OnTaskBegin()
 	{
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_3_9F7C94B9267792BE_ONTASKBEGIN_OFFSET))(this);
-	}
-
-	::System::Void __iFixBaseProxy_Dispose()
-	{
-		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_3_9F7C94B9267792BE___IFIXBASEPROXY_DISPOSE_OFFSET))(this);
 	}
 };

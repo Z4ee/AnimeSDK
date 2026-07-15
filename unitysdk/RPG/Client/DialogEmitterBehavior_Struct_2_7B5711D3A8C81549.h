@@ -7,7 +7,7 @@ namespace RPG::Client { class DialogEmitterBehavior_DialogData; }
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int DialogEmitterBehavior_Struct_2_7B5711D3A8C81549_TypeDefinitionIndex = 66279;
+	inline static constexpr unsigned int DialogEmitterBehavior_Struct_2_7B5711D3A8C81549_TypeDefinitionIndex = 67704;
 
 	struct alignas(8) DialogEmitterBehavior_Struct_2_7B5711D3A8C81549
 	{

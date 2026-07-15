@@ -5,13 +5,13 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_SO_TRIGGERGROUPEVENT_METHOD_4_C186FBC84337057E_OFFSET UNITYSDK_OFFSET(0x19BFE210)
-#define RPG_GAMECORE_SO_TRIGGERGROUPEVENT_METHOD_4_FDD3189D3DD447EF_OFFSET UNITYSDK_OFFSET(0x19BFDC60)
-#define RPG_GAMECORE_SO_TRIGGERGROUPEVENT__CTOR_OFFSET UNITYSDK_OFFSET(0x19BFDC30)
+#define RPG_GAMECORE_SO_TRIGGERGROUPEVENT_METHOD_4_DAEB4B81180489D4_OFFSET UNITYSDK_OFFSET(0x1B7768E0)
+#define RPG_GAMECORE_SO_TRIGGERGROUPEVENT_METHOD_4_FDD3189D3DD447EF_OFFSET UNITYSDK_OFFSET(0x1B776440)
+#define RPG_GAMECORE_SO_TRIGGERGROUPEVENT__CTOR_OFFSET UNITYSDK_OFFSET(0x1B776430)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SO_TriggerGroupEvent_TypeDefinitionIndex = 18940;
+	inline static constexpr unsigned int SO_TriggerGroupEvent_TypeDefinitionIndex = 19290;
 
 	class SO_TriggerGroupEvent : public ::RPG::GameCore::SOTaskConfig
 	{
@@ -23,9 +23,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SO_TRIGGERGROUPEVENT__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_4_C186FBC84337057E(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SO_TriggerGroupEvent*& a2)
+		static ::System::Void Method_4_DAEB4B81180489D4(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SO_TriggerGroupEvent*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SO_TriggerGroupEvent*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SO_TRIGGERGROUPEVENT_METHOD_4_C186FBC84337057E_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SO_TriggerGroupEvent*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SO_TRIGGERGROUPEVENT_METHOD_4_DAEB4B81180489D4_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_4_FDD3189D3DD447EF(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SO_TriggerGroupEvent* a2)

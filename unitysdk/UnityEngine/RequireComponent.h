@@ -4,19 +4,19 @@
 
 namespace System { class Type; }
 
-#define UNITYENGINE_REQUIRECOMPONENT__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1B2D3B80)
-#define UNITYENGINE_REQUIRECOMPONENT__CTOR_OFFSET UNITYSDK_OFFSET(0x1B2D3B70)
+#define UNITYENGINE_REQUIRECOMPONENT__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1BFADC10)
+#define UNITYENGINE_REQUIRECOMPONENT__CTOR_OFFSET UNITYSDK_OFFSET(0x1BFADC00)
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int RequireComponent_TypeDefinitionIndex = 4285;
+	inline static constexpr unsigned int RequireComponent_TypeDefinitionIndex = 4290;
 
 	class RequireComponent : public ::System::Attribute
 	{
 	public:
-		::System::Type* m_Type2; // 0x10
-		::System::Type* m_Type1; // 0x18
-		::System::Type* m_Type0; // 0x20
+		::System::Type* m_Type1; // 0x10
+		::System::Type* m_Type0; // 0x18
+		::System::Type* m_Type2; // 0x20
 
 		::System::Void _ctor(::System::Type* a1)
 		{

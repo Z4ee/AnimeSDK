@@ -5,10 +5,10 @@
 #include "unitysdk/RPG/GameCore/RtPropertyCategory.h"
 #include "unitysdk/System/ValueType.h"
 
-class Class_0_16E4307DCC419505_448;
+class Class_0_16E4307DCC419505_472;
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-inline static constexpr unsigned int Struct_2_CDDA80E42119714A_TypeDefinitionIndex = 50459;
+inline static constexpr unsigned int Struct_2_CDDA80E42119714A_TypeDefinitionIndex = 51541;
 
 struct alignas(8) Struct_2_CDDA80E42119714A
 {
@@ -21,5 +21,5 @@ struct alignas(8) Struct_2_CDDA80E42119714A
 	::System::Int32 Field_2_6; // 0x30
 	::System::Int32 Field_2_7; // 0x34
 	::System::Int32 Field_2_8; // 0x38
-	::System::Collections::Generic::List_1<::Class_0_16E4307DCC419505_448*>* Field_2_9; // 0x40
+	::System::Collections::Generic::List_1<::Class_0_16E4307DCC419505_472*>* Field_2_9; // 0x40
 };

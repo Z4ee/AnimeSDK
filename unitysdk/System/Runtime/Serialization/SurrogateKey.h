@@ -5,18 +5,18 @@
 
 namespace System { class Type; }
 
-#define SYSTEM_RUNTIME_SERIALIZATION_SURROGATEKEY_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x187D09D0)
-#define SYSTEM_RUNTIME_SERIALIZATION_SURROGATEKEY__CTOR_OFFSET UNITYSDK_OFFSET(0x187D09C0)
+#define SYSTEM_RUNTIME_SERIALIZATION_SURROGATEKEY_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x18343670)
+#define SYSTEM_RUNTIME_SERIALIZATION_SURROGATEKEY__CTOR_OFFSET UNITYSDK_OFFSET(0x18343660)
 
 namespace System::Runtime::Serialization
 {
-	inline static constexpr unsigned int SurrogateKey_TypeDefinitionIndex = 1128;
+	inline static constexpr unsigned int SurrogateKey_TypeDefinitionIndex = 1130;
 
 	class SurrogateKey : public ::System::Object
 	{
 	public:
-		::System::Type* m_type; // 0x10
-		::System::Runtime::Serialization::StreamingContext m_context; // 0x18
+		::System::Runtime::Serialization::StreamingContext m_context; // 0x10
+		::System::Type* m_type; // 0x20
 
 		::System::Void _ctor(::System::Type* a1, ::System::Runtime::Serialization::StreamingContext a2)
 		{

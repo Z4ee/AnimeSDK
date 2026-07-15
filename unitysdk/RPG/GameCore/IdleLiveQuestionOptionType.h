@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int IdleLiveQuestionOptionType_TypeDefinitionIndex = 11314;
+	inline static constexpr unsigned int IdleLiveQuestionOptionType_TypeDefinitionIndex = 11414;
 
 	enum class IdleLiveQuestionOptionType : ::System::Int32
 	{

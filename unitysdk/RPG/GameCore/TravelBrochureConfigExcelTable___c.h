@@ -5,24 +5,24 @@
 namespace RPG::GameCore { class TravelBrochureConfigRow; }
 namespace System { template <typename T> class Comparison_1; }
 
-#define RPG_GAMECORE_TRAVELBROCHURECONFIGEXCELTABLE___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x19DFECA0)
-#define RPG_GAMECORE_TRAVELBROCHURECONFIGEXCELTABLE___C__CTOR_OFFSET UNITYSDK_OFFSET(0x19DFECD0)
-#define RPG_GAMECORE_TRAVELBROCHURECONFIGEXCELTABLE___C___SAFEINITIALIZE_B__20_0_OFFSET UNITYSDK_OFFSET(0x19DFECE0)
+#define RPG_GAMECORE_TRAVELBROCHURECONFIGEXCELTABLE___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1B03CF40)
+#define RPG_GAMECORE_TRAVELBROCHURECONFIGEXCELTABLE___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1B03CF70)
+#define RPG_GAMECORE_TRAVELBROCHURECONFIGEXCELTABLE___C___SAFEINITIALIZE_B__20_0_OFFSET UNITYSDK_OFFSET(0x1B03CF80)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TravelBrochureConfigExcelTable___c_TypeDefinitionIndex = 14610;
+	inline static constexpr unsigned int TravelBrochureConfigExcelTable___c_TypeDefinitionIndex = 14768;
 
 	class TravelBrochureConfigExcelTable___c : public ::System::Object
 	{
 	public:
 		static ::RPG::GameCore::TravelBrochureConfigExcelTable___c** StaticGet___9()
 		{
-			return (::RPG::GameCore::TravelBrochureConfigExcelTable___c**)Il2CppClass::FromTypeDefinitionIndex(TravelBrochureConfigExcelTable___c_TypeDefinitionIndex)->GetStaticField(0x71B0);
+			return (::RPG::GameCore::TravelBrochureConfigExcelTable___c**)Il2CppClass::FromTypeDefinitionIndex(TravelBrochureConfigExcelTable___c_TypeDefinitionIndex)->GetStaticField(0xD980);
 		}
 		static ::System::Comparison_1<::RPG::GameCore::TravelBrochureConfigRow*>** StaticGet___9__20_0()
 		{
-			return (::System::Comparison_1<::RPG::GameCore::TravelBrochureConfigRow*>**)Il2CppClass::FromTypeDefinitionIndex(TravelBrochureConfigExcelTable___c_TypeDefinitionIndex)->GetStaticField(0x71B8);
+			return (::System::Comparison_1<::RPG::GameCore::TravelBrochureConfigRow*>**)Il2CppClass::FromTypeDefinitionIndex(TravelBrochureConfigExcelTable___c_TypeDefinitionIndex)->GetStaticField(0xD988);
 		}
 
 		static ::System::Void _cctor()

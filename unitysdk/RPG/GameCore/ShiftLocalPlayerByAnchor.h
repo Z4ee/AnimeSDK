@@ -5,13 +5,13 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class DynamicString; }
 
-#define RPG_GAMECORE_SHIFTLOCALPLAYERBYANCHOR_METHOD_3_3331416DF5C4EDBB_OFFSET UNITYSDK_OFFSET(0x19C6F270)
-#define RPG_GAMECORE_SHIFTLOCALPLAYERBYANCHOR_METHOD_3_74B49DC8D6FCD00A_OFFSET UNITYSDK_OFFSET(0x19C6F1F0)
-#define RPG_GAMECORE_SHIFTLOCALPLAYERBYANCHOR__CTOR_OFFSET UNITYSDK_OFFSET(0x19C6F240)
+#define RPG_GAMECORE_SHIFTLOCALPLAYERBYANCHOR_METHOD_3_3331416DF5C4EDBB_OFFSET UNITYSDK_OFFSET(0x1BE34570)
+#define RPG_GAMECORE_SHIFTLOCALPLAYERBYANCHOR_METHOD_3_F4BAD15EC78F8B06_OFFSET UNITYSDK_OFFSET(0x1BE34530)
+#define RPG_GAMECORE_SHIFTLOCALPLAYERBYANCHOR__CTOR_OFFSET UNITYSDK_OFFSET(0x1BE34560)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ShiftLocalPlayerByAnchor_TypeDefinitionIndex = 20041;
+	inline static constexpr unsigned int ShiftLocalPlayerByAnchor_TypeDefinitionIndex = 20413;
 
 	class ShiftLocalPlayerByAnchor : public ::RPG::GameCore::TaskConfig
 	{
@@ -28,9 +28,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SHIFTLOCALPLAYERBYANCHOR__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_74B49DC8D6FCD00A(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ShiftLocalPlayerByAnchor*& a2)
+		static ::System::Void Method_3_F4BAD15EC78F8B06(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ShiftLocalPlayerByAnchor*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ShiftLocalPlayerByAnchor*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SHIFTLOCALPLAYERBYANCHOR_METHOD_3_74B49DC8D6FCD00A_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ShiftLocalPlayerByAnchor*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SHIFTLOCALPLAYERBYANCHOR_METHOD_3_F4BAD15EC78F8B06_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_3331416DF5C4EDBB(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ShiftLocalPlayerByAnchor* a2)

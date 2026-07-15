@@ -13,33 +13,33 @@ namespace System::Runtime::Remoting::Messaging { class IMessage; }
 namespace System::Runtime::Remoting::Messaging { class IMessageSink; }
 namespace System::Runtime::Remoting::Messaging { class IMethodMessage; }
 
-#define SYSTEM_RUNTIME_REMOTING_PROXIES_REMOTINGPROXY_ACTIVATEREMOTEOBJECT_OFFSET UNITYSDK_OFFSET(0x1879A8A0)
-#define SYSTEM_RUNTIME_REMOTING_PROXIES_REMOTINGPROXY_ATTACHIDENTITY_OFFSET UNITYSDK_OFFSET(0x1879B740)
-#define SYSTEM_RUNTIME_REMOTING_PROXIES_REMOTINGPROXY_CANCASTTO_OFFSET UNITYSDK_OFFSET(0x1879BBB0)
-#define SYSTEM_RUNTIME_REMOTING_PROXIES_REMOTINGPROXY_FINALIZE_OFFSET UNITYSDK_OFFSET(0x1879BFB0)
-#define SYSTEM_RUNTIME_REMOTING_PROXIES_REMOTINGPROXY_GET_TYPENAME_OFFSET UNITYSDK_OFFSET(0x1879B9A0)
-#define SYSTEM_RUNTIME_REMOTING_PROXIES_REMOTINGPROXY_INVOKE_OFFSET UNITYSDK_OFFSET(0x18795D70)
-#define SYSTEM_RUNTIME_REMOTING_PROXIES_REMOTINGPROXY__CCTOR_OFFSET UNITYSDK_OFFSET(0x1879C2D0)
-#define SYSTEM_RUNTIME_REMOTING_PROXIES_REMOTINGPROXY__CTOR_1_OFFSET UNITYSDK_OFFSET(0x18799490)
-#define SYSTEM_RUNTIME_REMOTING_PROXIES_REMOTINGPROXY__CTOR_OFFSET UNITYSDK_OFFSET(0x1879B6E0)
+#define SYSTEM_RUNTIME_REMOTING_PROXIES_REMOTINGPROXY_ACTIVATEREMOTEOBJECT_OFFSET UNITYSDK_OFFSET(0x17901E70)
+#define SYSTEM_RUNTIME_REMOTING_PROXIES_REMOTINGPROXY_ATTACHIDENTITY_OFFSET UNITYSDK_OFFSET(0x17903870)
+#define SYSTEM_RUNTIME_REMOTING_PROXIES_REMOTINGPROXY_CANCASTTO_OFFSET UNITYSDK_OFFSET(0x17903EE0)
+#define SYSTEM_RUNTIME_REMOTING_PROXIES_REMOTINGPROXY_FINALIZE_OFFSET UNITYSDK_OFFSET(0x179043C0)
+#define SYSTEM_RUNTIME_REMOTING_PROXIES_REMOTINGPROXY_GET_TYPENAME_OFFSET UNITYSDK_OFFSET(0x17903B30)
+#define SYSTEM_RUNTIME_REMOTING_PROXIES_REMOTINGPROXY_INVOKE_OFFSET UNITYSDK_OFFSET(0x178FB7F0)
+#define SYSTEM_RUNTIME_REMOTING_PROXIES_REMOTINGPROXY__CCTOR_OFFSET UNITYSDK_OFFSET(0x17904850)
+#define SYSTEM_RUNTIME_REMOTING_PROXIES_REMOTINGPROXY__CTOR_1_OFFSET UNITYSDK_OFFSET(0x179003F0)
+#define SYSTEM_RUNTIME_REMOTING_PROXIES_REMOTINGPROXY__CTOR_OFFSET UNITYSDK_OFFSET(0x179037C0)
 
 namespace System::Runtime::Remoting::Proxies
 {
-	inline static constexpr unsigned int RemotingProxy_TypeDefinitionIndex = 1228;
+	inline static constexpr unsigned int RemotingProxy_TypeDefinitionIndex = 1230;
 
 	class RemotingProxy : public ::System::Runtime::Remoting::Proxies::RealProxy
 	{
 	public:
-		static ::System::Reflection::MethodInfo** StaticGet__cache_GetHashCodeMethod()
-		{
-			return (::System::Reflection::MethodInfo**)Il2CppClass::FromTypeDefinitionIndex(RemotingProxy_TypeDefinitionIndex)->GetStaticField(0xC1D0);
-		}
 		static ::System::Reflection::MethodInfo** StaticGet__cache_GetTypeMethod()
 		{
-			return (::System::Reflection::MethodInfo**)Il2CppClass::FromTypeDefinitionIndex(RemotingProxy_TypeDefinitionIndex)->GetStaticField(0xC1D8);
+			return (::System::Reflection::MethodInfo**)Il2CppClass::FromTypeDefinitionIndex(RemotingProxy_TypeDefinitionIndex)->GetStaticField(0x19090);
 		}
-		::System::Runtime::Remoting::Messaging::ConstructionCall* _ctorCall; // 0x50
-		::System::Runtime::Remoting::Messaging::IMessageSink* _sink; // 0x58
+		static ::System::Reflection::MethodInfo** StaticGet__cache_GetHashCodeMethod()
+		{
+			return (::System::Reflection::MethodInfo**)Il2CppClass::FromTypeDefinitionIndex(RemotingProxy_TypeDefinitionIndex)->GetStaticField(0x19098);
+		}
+		::System::Runtime::Remoting::Messaging::IMessageSink* _sink; // 0x50
+		::System::Runtime::Remoting::Messaging::ConstructionCall* _ctorCall; // 0x58
 		::System::Boolean _hasEnvoySink; // 0x60
 
 		::System::Void _ctor(::System::Type* a1, ::System::Runtime::Remoting::ClientIdentity* a2)

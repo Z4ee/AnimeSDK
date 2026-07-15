@@ -1,8 +1,10 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/RPG/Client/BookletFadeInState.h"
+#include "unitysdk/UnityEngine/Color.h"
 
-inline static constexpr unsigned int Class_0_16E4307DCC419505_1044_TypeDefinitionIndex = 67685;
+namespace RPG::Client { class HPBar; }
+
+inline static constexpr unsigned int Class_0_16E4307DCC419505_1044_TypeDefinitionIndex = 68431;
 
 class Class_0_16E4307DCC419505_1044
 {

@@ -7,13 +7,13 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class FiveDimDynamicVar; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_FIVEDIMWINDOWCONTROLLERCOMPONENTCONFIG_METHOD_3_04C7843B99E70E80_OFFSET UNITYSDK_OFFSET(0x1975E700)
-#define RPG_GAMECORE_FIVEDIMWINDOWCONTROLLERCOMPONENTCONFIG_METHOD_3_6E9CD4921AB86DAA_OFFSET UNITYSDK_OFFSET(0x1975E7B0)
-#define RPG_GAMECORE_FIVEDIMWINDOWCONTROLLERCOMPONENTCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1975E770)
+#define RPG_GAMECORE_FIVEDIMWINDOWCONTROLLERCOMPONENTCONFIG_METHOD_3_40A0ACA4C9708D0B_OFFSET UNITYSDK_OFFSET(0x1BEB9090)
+#define RPG_GAMECORE_FIVEDIMWINDOWCONTROLLERCOMPONENTCONFIG_METHOD_3_6E9CD4921AB86DAA_OFFSET UNITYSDK_OFFSET(0x1BEB9110)
+#define RPG_GAMECORE_FIVEDIMWINDOWCONTROLLERCOMPONENTCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1BEB90E0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FiveDimWindowControllerComponentConfig_TypeDefinitionIndex = 17917;
+	inline static constexpr unsigned int FiveDimWindowControllerComponentConfig_TypeDefinitionIndex = 18096;
 
 	class FiveDimWindowControllerComponentConfig : public ::RPG::GameCore::LittleGameComponentConfig
 	{
@@ -38,9 +38,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMWINDOWCONTROLLERCOMPONENTCONFIG__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_04C7843B99E70E80(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::FiveDimWindowControllerComponentConfig*& a2)
+		static ::System::Void Method_3_40A0ACA4C9708D0B(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::FiveDimWindowControllerComponentConfig*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::FiveDimWindowControllerComponentConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMWINDOWCONTROLLERCOMPONENTCONFIG_METHOD_3_04C7843B99E70E80_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::FiveDimWindowControllerComponentConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMWINDOWCONTROLLERCOMPONENTCONFIG_METHOD_3_40A0ACA4C9708D0B_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_6E9CD4921AB86DAA(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::FiveDimWindowControllerComponentConfig* a2)

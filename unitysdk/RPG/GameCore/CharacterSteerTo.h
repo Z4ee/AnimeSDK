@@ -5,13 +5,13 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_CHARACTERSTEERTO_METHOD_3_0E31B757DD6200F1_OFFSET UNITYSDK_OFFSET(0x19615B10)
-#define RPG_GAMECORE_CHARACTERSTEERTO_METHOD_3_D0E703C6B254C72E_OFFSET UNITYSDK_OFFSET(0x19615A80)
-#define RPG_GAMECORE_CHARACTERSTEERTO__CTOR_OFFSET UNITYSDK_OFFSET(0x19615AE0)
+#define RPG_GAMECORE_CHARACTERSTEERTO_METHOD_3_0E31B757DD6200F1_OFFSET UNITYSDK_OFFSET(0x1B72B680)
+#define RPG_GAMECORE_CHARACTERSTEERTO_METHOD_3_58C6EB550C6ACD39_OFFSET UNITYSDK_OFFSET(0x1B72B630)
+#define RPG_GAMECORE_CHARACTERSTEERTO__CTOR_OFFSET UNITYSDK_OFFSET(0x1B72B670)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int CharacterSteerTo_TypeDefinitionIndex = 19724;
+	inline static constexpr unsigned int CharacterSteerTo_TypeDefinitionIndex = 20083;
 
 	class CharacterSteerTo : public ::RPG::GameCore::TaskConfig
 	{
@@ -28,9 +28,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHARACTERSTEERTO__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_D0E703C6B254C72E(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::CharacterSteerTo*& a2)
+		static ::System::Void Method_3_58C6EB550C6ACD39(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::CharacterSteerTo*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::CharacterSteerTo*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHARACTERSTEERTO_METHOD_3_D0E703C6B254C72E_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::CharacterSteerTo*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHARACTERSTEERTO_METHOD_3_58C6EB550C6ACD39_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_0E31B757DD6200F1(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::CharacterSteerTo* a2)

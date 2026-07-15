@@ -6,23 +6,23 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_TALKBEHAVIORROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x19CEE050)
-#define RPG_GAMECORE_TALKBEHAVIORROW__CTOR_OFFSET UNITYSDK_OFFSET(0x19CEE2E0)
+#define RPG_GAMECORE_TALKBEHAVIORROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B4488B0)
+#define RPG_GAMECORE_TALKBEHAVIORROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1B448B40)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TalkBehaviorRow_TypeDefinitionIndex = 14448;
+	inline static constexpr unsigned int TalkBehaviorRow_TypeDefinitionIndex = 14606;
 
 	class TalkBehaviorRow : public ::System::Object
 	{
 	public:
-		::Il2CppArray<::System::UInt32>* ParaList; // 0x10
-		::System::String* CustomString; // 0x18
-		::System::UInt32 ID; // 0x20
-		::System::UInt32 CurrencyItem; // 0x24
-		::System::UInt32 ParaInt; // 0x28
-		::RPG::GameCore::ParaType ParaType; // 0x2C
-		::System::UInt32 BehaviorType; // 0x30
+		::System::String* CustomString; // 0x10
+		::Il2CppArray<::System::UInt32>* ParaList; // 0x18
+		::System::UInt32 ParaInt; // 0x20
+		::RPG::GameCore::ParaType ParaType; // 0x24
+		::System::UInt32 BehaviorType; // 0x28
+		::System::UInt32 ID; // 0x2C
+		::System::UInt32 CurrencyItem; // 0x30
 
 		::System::Void _ctor()
 		{

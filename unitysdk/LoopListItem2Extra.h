@@ -5,10 +5,10 @@
 namespace UnityEngine { class CanvasGroup; }
 namespace UnityEngine { class GameObject; }
 
-#define LOOPLISTITEM2EXTRA_AWAKE_OFFSET UNITYSDK_OFFSET(0xA65D270)
-#define LOOPLISTITEM2EXTRA__CTOR_OFFSET UNITYSDK_OFFSET(0xA65D350)
+#define LOOPLISTITEM2EXTRA_AWAKE_OFFSET UNITYSDK_OFFSET(0x18DAC950)
+#define LOOPLISTITEM2EXTRA__CTOR_OFFSET UNITYSDK_OFFSET(0x18DACA30)
 
-inline static constexpr unsigned int LoopListItem2Extra_TypeDefinitionIndex = 44916;
+inline static constexpr unsigned int LoopListItem2Extra_TypeDefinitionIndex = 45834;
 
 class LoopListItem2Extra : public ::UnityEngine::MonoBehaviour
 {

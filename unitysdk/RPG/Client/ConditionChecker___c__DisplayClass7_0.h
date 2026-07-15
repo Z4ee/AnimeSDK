@@ -5,18 +5,18 @@
 namespace RPG::Client { class ConditionChecker; }
 namespace RPG::Client::Promises { template <typename T> class Promise_1; }
 
-#define RPG_CLIENT_CONDITIONCHECKER___C__DISPLAYCLASS7_0__CTOR_OFFSET UNITYSDK_OFFSET(0xB7064E0)
-#define RPG_CLIENT_CONDITIONCHECKER___C__DISPLAYCLASS7_0__DOASYNCCHECK_B__0_OFFSET UNITYSDK_OFFSET(0xB707870)
+#define RPG_CLIENT_CONDITIONCHECKER___C__DISPLAYCLASS7_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1801CA00)
+#define RPG_CLIENT_CONDITIONCHECKER___C__DISPLAYCLASS7_0__DOASYNCCHECK_B__0_OFFSET UNITYSDK_OFFSET(0x1801DE20)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ConditionChecker___c__DisplayClass7_0_TypeDefinitionIndex = 56000;
+	inline static constexpr unsigned int ConditionChecker___c__DisplayClass7_0_TypeDefinitionIndex = 57239;
 
 	class ConditionChecker___c__DisplayClass7_0 : public ::System::Object
 	{
 	public:
-		::RPG::Client::Promises::Promise_1<::System::Boolean>* asyncCheckResultPromise; // 0x10
-		::RPG::Client::ConditionChecker* __4__this; // 0x18
+		::RPG::Client::ConditionChecker* __4__this; // 0x10
+		::RPG::Client::Promises::Promise_1<::System::Boolean>* asyncCheckResultPromise; // 0x18
 
 		::System::Void _ctor()
 		{

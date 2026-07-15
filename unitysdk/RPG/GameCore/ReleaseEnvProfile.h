@@ -4,13 +4,13 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_RELEASEENVPROFILE_METHOD_3_221667BC84F93AAA_OFFSET UNITYSDK_OFFSET(0x19ABB0D0)
-#define RPG_GAMECORE_RELEASEENVPROFILE_METHOD_3_47201BD3789D6FF3_OFFSET UNITYSDK_OFFSET(0x19ABB150)
-#define RPG_GAMECORE_RELEASEENVPROFILE__CTOR_OFFSET UNITYSDK_OFFSET(0x19ABB120)
+#define RPG_GAMECORE_RELEASEENVPROFILE_METHOD_3_47201BD3789D6FF3_OFFSET UNITYSDK_OFFSET(0x1B9C22F0)
+#define RPG_GAMECORE_RELEASEENVPROFILE_METHOD_3_FD2A01FD46F48E60_OFFSET UNITYSDK_OFFSET(0x1B9C22B0)
+#define RPG_GAMECORE_RELEASEENVPROFILE__CTOR_OFFSET UNITYSDK_OFFSET(0x1B9C22E0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ReleaseEnvProfile_TypeDefinitionIndex = 19609;
+	inline static constexpr unsigned int ReleaseEnvProfile_TypeDefinitionIndex = 19968;
 
 	class ReleaseEnvProfile : public ::RPG::GameCore::TaskConfig
 	{
@@ -22,9 +22,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_RELEASEENVPROFILE__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_221667BC84F93AAA(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ReleaseEnvProfile*& a2)
+		static ::System::Void Method_3_FD2A01FD46F48E60(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ReleaseEnvProfile*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ReleaseEnvProfile*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_RELEASEENVPROFILE_METHOD_3_221667BC84F93AAA_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ReleaseEnvProfile*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_RELEASEENVPROFILE_METHOD_3_FD2A01FD46F48E60_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_47201BD3789D6FF3(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ReleaseEnvProfile* a2)

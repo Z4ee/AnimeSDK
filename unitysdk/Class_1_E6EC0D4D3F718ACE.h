@@ -5,7 +5,7 @@
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace System::Diagnostics { class StackTrace; }
 
-inline static constexpr unsigned int Class_1_E6EC0D4D3F718ACE_TypeDefinitionIndex = 46468;
+inline static constexpr unsigned int Class_1_E6EC0D4D3F718ACE_TypeDefinitionIndex = 47433;
 
 template <typename TDelegate>
 class Class_1_E6EC0D4D3F718ACE : public ::System::Object

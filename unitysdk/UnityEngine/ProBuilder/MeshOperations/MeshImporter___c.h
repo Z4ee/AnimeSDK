@@ -6,24 +6,24 @@
 namespace System { template <typename T1, typename T2> class Func_2; }
 namespace UnityEngine::ProBuilder { class Vertex; }
 
-#define UNITYENGINE_PROBUILDER_MESHOPERATIONS_MESHIMPORTER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1B0F5500)
-#define UNITYENGINE_PROBUILDER_MESHOPERATIONS_MESHIMPORTER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1B0F5540)
-#define UNITYENGINE_PROBUILDER_MESHOPERATIONS_MESHIMPORTER___C__IMPORT_B__9_0_OFFSET UNITYSDK_OFFSET(0x1B0F5550)
+#define UNITYENGINE_PROBUILDER_MESHOPERATIONS_MESHIMPORTER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xC0E0840)
+#define UNITYENGINE_PROBUILDER_MESHOPERATIONS_MESHIMPORTER___C__CTOR_OFFSET UNITYSDK_OFFSET(0xC0E0880)
+#define UNITYENGINE_PROBUILDER_MESHOPERATIONS_MESHIMPORTER___C__IMPORT_B__9_0_OFFSET UNITYSDK_OFFSET(0xC0E0890)
 
 namespace UnityEngine::ProBuilder::MeshOperations
 {
-	inline static constexpr unsigned int MeshImporter___c_TypeDefinitionIndex = 40888;
+	inline static constexpr unsigned int MeshImporter___c_TypeDefinitionIndex = 41703;
 
 	class MeshImporter___c : public ::System::Object
 	{
 	public:
-		static ::System::Func_2<::UnityEngine::ProBuilder::Vertex*, ::UnityEngine::Vector3>** StaticGet___9__9_0()
-		{
-			return (::System::Func_2<::UnityEngine::ProBuilder::Vertex*, ::UnityEngine::Vector3>**)Il2CppClass::FromTypeDefinitionIndex(MeshImporter___c_TypeDefinitionIndex)->GetStaticField(0x53DE0);
-		}
 		static ::UnityEngine::ProBuilder::MeshOperations::MeshImporter___c** StaticGet___9()
 		{
-			return (::UnityEngine::ProBuilder::MeshOperations::MeshImporter___c**)Il2CppClass::FromTypeDefinitionIndex(MeshImporter___c_TypeDefinitionIndex)->GetStaticField(0x53DE8);
+			return (::UnityEngine::ProBuilder::MeshOperations::MeshImporter___c**)Il2CppClass::FromTypeDefinitionIndex(MeshImporter___c_TypeDefinitionIndex)->GetStaticField(0x53C60);
+		}
+		static ::System::Func_2<::UnityEngine::ProBuilder::Vertex*, ::UnityEngine::Vector3>** StaticGet___9__9_0()
+		{
+			return (::System::Func_2<::UnityEngine::ProBuilder::Vertex*, ::UnityEngine::Vector3>**)Il2CppClass::FromTypeDefinitionIndex(MeshImporter___c_TypeDefinitionIndex)->GetStaticField(0x53C68);
 		}
 
 		static ::System::Void _cctor()

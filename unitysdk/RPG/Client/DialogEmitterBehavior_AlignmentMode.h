@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int DialogEmitterBehavior_AlignmentMode_TypeDefinitionIndex = 66276;
+	inline static constexpr unsigned int DialogEmitterBehavior_AlignmentMode_TypeDefinitionIndex = 67701;
 
 	enum class DialogEmitterBehavior_AlignmentMode : ::System::Int32
 	{

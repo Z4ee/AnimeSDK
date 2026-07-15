@@ -3,7 +3,7 @@
 
 namespace RPGTools::Timeline::VFX
 {
-	inline static constexpr unsigned int VFXOverlayCharacterBackgroundClip_BackgroundImageMode_TypeDefinitionIndex = 45941;
+	inline static constexpr unsigned int VFXOverlayCharacterBackgroundClip_BackgroundImageMode_TypeDefinitionIndex = 46880;
 
 	enum class VFXOverlayCharacterBackgroundClip_BackgroundImageMode : ::System::Int32
 	{

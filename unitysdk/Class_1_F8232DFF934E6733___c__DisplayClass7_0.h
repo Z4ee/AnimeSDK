@@ -2,18 +2,18 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_1_A2967FAA88DD8F73;
+class Class_1_A2967FAA88DD8F73_1;
 namespace RPG::Client { class PlanetFesTradingCardApplyItem; }
 
-#define CLASS_1_F8232DFF934E6733___C__DISPLAYCLASS7_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1439FDC0)
-#define CLASS_1_F8232DFF934E6733___C__DISPLAYCLASS7_0__SYNC_B__0_OFFSET UNITYSDK_OFFSET(0x143A60D0)
+#define CLASS_1_F8232DFF934E6733___C__DISPLAYCLASS7_0__CTOR_OFFSET UNITYSDK_OFFSET(0x14A546D0)
+#define CLASS_1_F8232DFF934E6733___C__DISPLAYCLASS7_0__SYNC_B__0_OFFSET UNITYSDK_OFFSET(0x14A5B2D0)
 
-inline static constexpr unsigned int Class_1_F8232DFF934E6733___c__DisplayClass7_0_TypeDefinitionIndex = 62272;
+inline static constexpr unsigned int Class_1_F8232DFF934E6733___c__DisplayClass7_0_TypeDefinitionIndex = 63638;
 
 class Class_1_F8232DFF934E6733___c__DisplayClass7_0 : public ::System::Object
 {
 public:
-	::Class_1_A2967FAA88DD8F73* history; // 0x10
+	::Class_1_A2967FAA88DD8F73_1* history; // 0x10
 
 	::System::Void _ctor()
 	{

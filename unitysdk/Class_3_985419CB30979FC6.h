@@ -1,17 +1,17 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Class_2_D151FD175CE5B583.h"
+#include "unitysdk/Class_2_06F295EA640EE8E8.h"
 #include "unitysdk/RPG/Client/WorkGroupType.h"
 
 namespace System { class Object; }
 namespace System { class String; }
 
-#define CLASS_3_985419CB30979FC6_METHOD_3_B8A15C4E76F9B694_OFFSET UNITYSDK_OFFSET(0xAC79A00)
-#define CLASS_3_985419CB30979FC6__CTOR_OFFSET UNITYSDK_OFFSET(0xAC79B30)
+#define CLASS_3_985419CB30979FC6_METHOD_3_B8A15C4E76F9B694_OFFSET UNITYSDK_OFFSET(0x16DDCFB0)
+#define CLASS_3_985419CB30979FC6__CTOR_OFFSET UNITYSDK_OFFSET(0x16DDD0E0)
 
-inline static constexpr unsigned int Class_3_985419CB30979FC6_TypeDefinitionIndex = 57065;
+inline static constexpr unsigned int Class_3_985419CB30979FC6_TypeDefinitionIndex = 58323;
 
-class Class_3_985419CB30979FC6 : public ::Class_2_D151FD175CE5B583
+class Class_3_985419CB30979FC6 : public ::Class_2_06F295EA640EE8E8
 {
 public:
 	::System::Void _ctor()

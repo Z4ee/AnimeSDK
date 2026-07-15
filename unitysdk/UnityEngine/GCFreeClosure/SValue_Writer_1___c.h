@@ -7,7 +7,7 @@ namespace UnityEngine::GCFreeClosure { template <typename T> class SValue_Writer
 
 namespace UnityEngine::GCFreeClosure
 {
-	inline static constexpr unsigned int SValue_Writer_1___c_TypeDefinitionIndex = 4457;
+	inline static constexpr unsigned int SValue_Writer_1___c_TypeDefinitionIndex = 4462;
 
 	template <typename T>
 	class SValue_Writer_1___c : public ::System::Object

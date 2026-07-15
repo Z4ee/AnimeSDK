@@ -3,7 +3,7 @@
 
 namespace RPG::Client::Prop
 {
-	inline static constexpr unsigned int LogisticsRobotState_TypeDefinitionIndex = 73459;
+	inline static constexpr unsigned int LogisticsRobotState_TypeDefinitionIndex = 74984;
 
 	enum class LogisticsRobotState : ::System::Int32
 	{

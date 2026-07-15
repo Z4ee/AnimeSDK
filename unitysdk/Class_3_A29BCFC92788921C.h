@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class ResetWolfBroAchievementData; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_A29BCFC92788921C_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xAC1A2F0)
-#define CLASS_3_A29BCFC92788921C__CTOR_OFFSET UNITYSDK_OFFSET(0xAC1A2C0)
+#define CLASS_3_A29BCFC92788921C_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x14D22400)
+#define CLASS_3_A29BCFC92788921C__CTOR_OFFSET UNITYSDK_OFFSET(0x14D223D0)
 
-inline static constexpr unsigned int Class_3_A29BCFC92788921C_TypeDefinitionIndex = 54593;
+inline static constexpr unsigned int Class_3_A29BCFC92788921C_TypeDefinitionIndex = 55818;
 
 class Class_3_A29BCFC92788921C : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::ResetWolfBroAchievementData*>
 {

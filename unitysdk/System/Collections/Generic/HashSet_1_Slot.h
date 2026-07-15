@@ -4,7 +4,7 @@
 
 namespace System::Collections::Generic
 {
-	inline static constexpr unsigned int HashSet_1_Slot_TypeDefinitionIndex = 3685;
+	inline static constexpr unsigned int HashSet_1_Slot_TypeDefinitionIndex = 3689;
 
 	template <typename T>
 	struct HashSet_1_Slot

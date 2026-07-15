@@ -1,10 +1,12 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/RPG/Client/AssetState.h"
+#include "unitysdk/RPG/Client/LoaderState.h"
+#include "unitysdk/RPG/Client/OpType.h"
 
-class Class_1_21DCD4640D389503_46;
-class Class_1_942D03E5A029CB94;
+namespace System { class String; }
 
-inline static constexpr unsigned int Class_0_16E4307DCC419505_80_TypeDefinitionIndex = 38549;
+inline static constexpr unsigned int Class_0_16E4307DCC419505_80_TypeDefinitionIndex = 39399;
 
 class Class_0_16E4307DCC419505_80
 {

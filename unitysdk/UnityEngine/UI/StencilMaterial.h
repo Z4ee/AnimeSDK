@@ -9,23 +9,23 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class Material; }
 namespace UnityEngine::UI { class StencilMaterial_MatEntry; }
 
-#define UNITYENGINE_UI_STENCILMATERIAL_ADD_1_OFFSET UNITYSDK_OFFSET(0x1B3F6B70)
-#define UNITYENGINE_UI_STENCILMATERIAL_ADD_2_OFFSET UNITYSDK_OFFSET(0x1B3F6BE0)
-#define UNITYENGINE_UI_STENCILMATERIAL_ADD_OFFSET UNITYSDK_OFFSET(0x1B3F6B60)
-#define UNITYENGINE_UI_STENCILMATERIAL_CLEARALL_OFFSET UNITYSDK_OFFSET(0x1B3F7670)
-#define UNITYENGINE_UI_STENCILMATERIAL_REMOVE_OFFSET UNITYSDK_OFFSET(0x1B3F7450)
-#define UNITYENGINE_UI_STENCILMATERIAL__CCTOR_OFFSET UNITYSDK_OFFSET(0x1B3F7830)
+#define UNITYENGINE_UI_STENCILMATERIAL_ADD_1_OFFSET UNITYSDK_OFFSET(0x1D0899A0)
+#define UNITYENGINE_UI_STENCILMATERIAL_ADD_2_OFFSET UNITYSDK_OFFSET(0x1D089A10)
+#define UNITYENGINE_UI_STENCILMATERIAL_ADD_OFFSET UNITYSDK_OFFSET(0x1D089990)
+#define UNITYENGINE_UI_STENCILMATERIAL_CLEARALL_OFFSET UNITYSDK_OFFSET(0x1D08A4A0)
+#define UNITYENGINE_UI_STENCILMATERIAL_REMOVE_OFFSET UNITYSDK_OFFSET(0x1D08A280)
+#define UNITYENGINE_UI_STENCILMATERIAL__CCTOR_OFFSET UNITYSDK_OFFSET(0x1D08A660)
 
 namespace UnityEngine::UI
 {
-	inline static constexpr unsigned int StencilMaterial_TypeDefinitionIndex = 6017;
+	inline static constexpr unsigned int StencilMaterial_TypeDefinitionIndex = 6022;
 
 	class StencilMaterial : public ::System::Object
 	{
 	public:
 		static ::System::Collections::Generic::List_1<::UnityEngine::UI::StencilMaterial_MatEntry*>** StaticGet_m_List()
 		{
-			return (::System::Collections::Generic::List_1<::UnityEngine::UI::StencilMaterial_MatEntry*>**)Il2CppClass::FromTypeDefinitionIndex(StencilMaterial_TypeDefinitionIndex)->GetStaticField(0x48450);
+			return (::System::Collections::Generic::List_1<::UnityEngine::UI::StencilMaterial_MatEntry*>**)Il2CppClass::FromTypeDefinitionIndex(StencilMaterial_TypeDefinitionIndex)->GetStaticField(0x40C50);
 		}
 
 		static ::System::Void _cctor()

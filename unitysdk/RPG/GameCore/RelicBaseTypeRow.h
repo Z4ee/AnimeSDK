@@ -8,12 +8,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_RELICBASETYPEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x19ABBE30)
-#define RPG_GAMECORE_RELICBASETYPEROW__CTOR_OFFSET UNITYSDK_OFFSET(0x19ABC520)
+#define RPG_GAMECORE_RELICBASETYPEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B9C2F50)
+#define RPG_GAMECORE_RELICBASETYPEROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1B9C3640)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RelicBaseTypeRow_TypeDefinitionIndex = 13911;
+	inline static constexpr unsigned int RelicBaseTypeRow_TypeDefinitionIndex = 14059;
 
 	class RelicBaseTypeRow : public ::System::Object
 	{

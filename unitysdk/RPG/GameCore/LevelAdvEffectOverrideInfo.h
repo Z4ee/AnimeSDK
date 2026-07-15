@@ -6,12 +6,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_LEVELADVEFFECTOVERRIDEINFO_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1986C410)
-#define RPG_GAMECORE_LEVELADVEFFECTOVERRIDEINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x1986C990)
+#define RPG_GAMECORE_LEVELADVEFFECTOVERRIDEINFO_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B02C340)
+#define RPG_GAMECORE_LEVELADVEFFECTOVERRIDEINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x1B02C8C0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LevelAdvEffectOverrideInfo_TypeDefinitionIndex = 16380;
+	inline static constexpr unsigned int LevelAdvEffectOverrideInfo_TypeDefinitionIndex = 16542;
 
 	class LevelAdvEffectOverrideInfo : public ::RPG::GameCore::JsonConfig
 	{

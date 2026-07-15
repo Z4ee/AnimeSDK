@@ -3,7 +3,7 @@
 
 namespace UnityEngine::Rendering
 {
-	inline static constexpr unsigned int StripTarget_TypeDefinitionIndex = 33799;
+	inline static constexpr unsigned int StripTarget_TypeDefinitionIndex = 34170;
 
 	enum class StripTarget : ::System::Int32
 	{

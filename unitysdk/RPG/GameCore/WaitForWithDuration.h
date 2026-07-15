@@ -6,13 +6,13 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class DynamicFloat; }
 namespace RPG::GameCore { class PredicateConfig; }
 
-#define RPG_GAMECORE_WAITFORWITHDURATION_METHOD_3_3AA556121B268660_OFFSET UNITYSDK_OFFSET(0x19E56E00)
-#define RPG_GAMECORE_WAITFORWITHDURATION_METHOD_3_99A7552C98D72D8C_OFFSET UNITYSDK_OFFSET(0x19E56F20)
-#define RPG_GAMECORE_WAITFORWITHDURATION__CTOR_OFFSET UNITYSDK_OFFSET(0x19E56EA0)
+#define RPG_GAMECORE_WAITFORWITHDURATION_METHOD_3_98779C8375531ABB_OFFSET UNITYSDK_OFFSET(0x1B8A5680)
+#define RPG_GAMECORE_WAITFORWITHDURATION_METHOD_3_99A7552C98D72D8C_OFFSET UNITYSDK_OFFSET(0x1B8A5760)
+#define RPG_GAMECORE_WAITFORWITHDURATION__CTOR_OFFSET UNITYSDK_OFFSET(0x1B8A5700)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int WaitForWithDuration_TypeDefinitionIndex = 22489;
+	inline static constexpr unsigned int WaitForWithDuration_TypeDefinitionIndex = 22939;
 
 	class WaitForWithDuration : public ::RPG::GameCore::TaskConfig
 	{
@@ -25,9 +25,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_WAITFORWITHDURATION__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_3AA556121B268660(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::WaitForWithDuration*& a2)
+		static ::System::Void Method_3_98779C8375531ABB(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::WaitForWithDuration*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::WaitForWithDuration*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_WAITFORWITHDURATION_METHOD_3_3AA556121B268660_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::WaitForWithDuration*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_WAITFORWITHDURATION_METHOD_3_98779C8375531ABB_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_99A7552C98D72D8C(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::WaitForWithDuration* a2)

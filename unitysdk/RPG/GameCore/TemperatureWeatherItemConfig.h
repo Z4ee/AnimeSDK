@@ -5,12 +5,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class DynamicFloat; }
 
-#define RPG_GAMECORE_TEMPERATUREWEATHERITEMCONFIG_METHOD_2_093033C413DF242E_OFFSET UNITYSDK_OFFSET(0x19DDEC20)
-#define RPG_GAMECORE_TEMPERATUREWEATHERITEMCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x19DDEE10)
+#define RPG_GAMECORE_TEMPERATUREWEATHERITEMCONFIG_METHOD_2_093033C413DF242E_OFFSET UNITYSDK_OFFSET(0x1C14B0C0)
+#define RPG_GAMECORE_TEMPERATUREWEATHERITEMCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1C14B2B0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TemperatureWeatherItemConfig_TypeDefinitionIndex = 21549;
+	inline static constexpr unsigned int TemperatureWeatherItemConfig_TypeDefinitionIndex = 21971;
 
 	class TemperatureWeatherItemConfig : public ::RPG::GameCore::JsonConfig
 	{

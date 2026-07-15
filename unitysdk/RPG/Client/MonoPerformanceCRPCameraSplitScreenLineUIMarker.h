@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 
-#define RPG_CLIENT_MONOPERFORMANCECRPCAMERASPLITSCREENLINEUIMARKER__CTOR_OFFSET UNITYSDK_OFFSET(0xC138260)
+#define RPG_CLIENT_MONOPERFORMANCECRPCAMERASPLITSCREENLINEUIMARKER__CTOR_OFFSET UNITYSDK_OFFSET(0x18C6A3A0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MonoPerformanceCRPCameraSplitScreenLineUIMarker_TypeDefinitionIndex = 56698;
+	inline static constexpr unsigned int MonoPerformanceCRPCameraSplitScreenLineUIMarker_TypeDefinitionIndex = 57944;
 
 	class MonoPerformanceCRPCameraSplitScreenLineUIMarker : public ::UnityEngine::MonoBehaviour
 	{

@@ -2,23 +2,23 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_1_E05E7A6D9DE9138B;
+class Class_1_4A90D78D94DB1347;
 namespace System { class String; }
 namespace UnityEngine { class GameObject; }
 
-#define RPG_CLIENT_CAKERACEUI3DUTILS_CHANGECATMATERIAL_OFFSET UNITYSDK_OFFSET(0xB4AF110)
-#define RPG_CLIENT_CAKERACEUI3DUTILS_CREATE_OFFSET UNITYSDK_OFFSET(0xB4A7A60)
-#define RPG_CLIENT_CAKERACEUI3DUTILS_DISPOSE_OFFSET UNITYSDK_OFFSET(0xB4A8010)
-#define RPG_CLIENT_CAKERACEUI3DUTILS__CTOR_OFFSET UNITYSDK_OFFSET(0xB4AF0E0)
+#define RPG_CLIENT_CAKERACEUI3DUTILS_CHANGECATMATERIAL_OFFSET UNITYSDK_OFFSET(0x1AC4DBE0)
+#define RPG_CLIENT_CAKERACEUI3DUTILS_CREATE_OFFSET UNITYSDK_OFFSET(0x1AC45880)
+#define RPG_CLIENT_CAKERACEUI3DUTILS_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1AC45D70)
+#define RPG_CLIENT_CAKERACEUI3DUTILS__CTOR_OFFSET UNITYSDK_OFFSET(0x1AC4DBB0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int CakeRaceUI3DUtils_TypeDefinitionIndex = 58962;
+	inline static constexpr unsigned int CakeRaceUI3DUtils_TypeDefinitionIndex = 60233;
 
 	class CakeRaceUI3DUtils : public ::System::Object
 	{
 	public:
-		::Class_1_E05E7A6D9DE9138B* _AssetLoader; // 0x10
+		::Class_1_4A90D78D94DB1347* _AssetLoader; // 0x10
 
 		::System::Void _ctor()
 		{

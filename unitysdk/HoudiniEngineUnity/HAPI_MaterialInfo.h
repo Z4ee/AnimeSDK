@@ -4,7 +4,7 @@
 
 namespace HoudiniEngineUnity
 {
-	inline static constexpr unsigned int HAPI_MaterialInfo_TypeDefinitionIndex = 37543;
+	inline static constexpr unsigned int HAPI_MaterialInfo_TypeDefinitionIndex = 38351;
 
 	struct alignas(4) HAPI_MaterialInfo
 	{

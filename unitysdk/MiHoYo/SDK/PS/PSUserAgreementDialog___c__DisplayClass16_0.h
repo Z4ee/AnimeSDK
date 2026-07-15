@@ -5,12 +5,12 @@
 
 namespace MiHoYo::SDK::PS { class PSUserAgreementDialog; }
 
-#define MIHOYO_SDK_PS_PSUSERAGREEMENTDIALOG___C__DISPLAYCLASS16_0__CTOR_OFFSET UNITYSDK_OFFSET(0x183C2ED0)
-#define MIHOYO_SDK_PS_PSUSERAGREEMENTDIALOG___C__DISPLAYCLASS16_0__SHOW_B__0_OFFSET UNITYSDK_OFFSET(0x183C44C0)
+#define MIHOYO_SDK_PS_PSUSERAGREEMENTDIALOG___C__DISPLAYCLASS16_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1944CB00)
+#define MIHOYO_SDK_PS_PSUSERAGREEMENTDIALOG___C__DISPLAYCLASS16_0__SHOW_B__0_OFFSET UNITYSDK_OFFSET(0x1944E200)
 
 namespace MiHoYo::SDK::PS
 {
-	inline static constexpr unsigned int PSUserAgreementDialog___c__DisplayClass16_0_TypeDefinitionIndex = 8609;
+	inline static constexpr unsigned int PSUserAgreementDialog___c__DisplayClass16_0_TypeDefinitionIndex = 8621;
 
 	class PSUserAgreementDialog___c__DisplayClass16_0 : public ::System::Object
 	{

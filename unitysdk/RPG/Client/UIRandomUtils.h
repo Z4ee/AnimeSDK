@@ -2,13 +2,15 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define RPG_CLIENT_UIRANDOMUTILS_RANGEFLOAT_OFFSET UNITYSDK_OFFSET(0xCB90130)
-#define RPG_CLIENT_UIRANDOMUTILS_RANGEINT_OFFSET UNITYSDK_OFFSET(0xCB901A0)
-#define RPG_CLIENT_UIRANDOMUTILS__CTOR_OFFSET UNITYSDK_OFFSET(0xCB901F0)
+namespace System::Collections::Generic { template <typename T> class IList_1; }
+
+#define RPG_CLIENT_UIRANDOMUTILS_RANGEFLOAT_OFFSET UNITYSDK_OFFSET(0x18309040)
+#define RPG_CLIENT_UIRANDOMUTILS_RANGEINT_OFFSET UNITYSDK_OFFSET(0x183090B0)
+#define RPG_CLIENT_UIRANDOMUTILS__CTOR_OFFSET UNITYSDK_OFFSET(0x18309100)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int UIRandomUtils_TypeDefinitionIndex = 68339;
+	inline static constexpr unsigned int UIRandomUtils_TypeDefinitionIndex = 69828;
 
 	class UIRandomUtils : public ::System::Object
 	{

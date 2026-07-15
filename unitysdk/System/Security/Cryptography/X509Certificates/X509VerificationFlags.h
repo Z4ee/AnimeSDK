@@ -3,7 +3,7 @@
 
 namespace System::Security::Cryptography::X509Certificates
 {
-	inline static constexpr unsigned int X509VerificationFlags_TypeDefinitionIndex = 2676;
+	inline static constexpr unsigned int X509VerificationFlags_TypeDefinitionIndex = 2680;
 
 	enum class X509VerificationFlags : ::System::Int32
 	{

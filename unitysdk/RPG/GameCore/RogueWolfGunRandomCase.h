@@ -5,13 +5,13 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_ROGUEWOLFGUNRANDOMCASE_METHOD_3_4233021C414BD2D9_OFFSET UNITYSDK_OFFSET(0x19BD3B80)
-#define RPG_GAMECORE_ROGUEWOLFGUNRANDOMCASE_METHOD_3_B44B1EB81C16ADE0_OFFSET UNITYSDK_OFFSET(0x19BD3B00)
-#define RPG_GAMECORE_ROGUEWOLFGUNRANDOMCASE__CTOR_OFFSET UNITYSDK_OFFSET(0x19BD3B50)
+#define RPG_GAMECORE_ROGUEWOLFGUNRANDOMCASE_METHOD_3_4233021C414BD2D9_OFFSET UNITYSDK_OFFSET(0x1BB81990)
+#define RPG_GAMECORE_ROGUEWOLFGUNRANDOMCASE_METHOD_3_43AC646C4EFB20D2_OFFSET UNITYSDK_OFFSET(0x1BB81950)
+#define RPG_GAMECORE_ROGUEWOLFGUNRANDOMCASE__CTOR_OFFSET UNITYSDK_OFFSET(0x1BB81980)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RogueWolfGunRandomCase_TypeDefinitionIndex = 21088;
+	inline static constexpr unsigned int RogueWolfGunRandomCase_TypeDefinitionIndex = 21503;
 
 	class RogueWolfGunRandomCase : public ::RPG::GameCore::TaskConfig
 	{
@@ -23,9 +23,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUEWOLFGUNRANDOMCASE__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_B44B1EB81C16ADE0(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::RogueWolfGunRandomCase*& a2)
+		static ::System::Void Method_3_43AC646C4EFB20D2(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::RogueWolfGunRandomCase*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::RogueWolfGunRandomCase*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUEWOLFGUNRANDOMCASE_METHOD_3_B44B1EB81C16ADE0_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::RogueWolfGunRandomCase*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUEWOLFGUNRANDOMCASE_METHOD_3_43AC646C4EFB20D2_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_4233021C414BD2D9(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::RogueWolfGunRandomCase* a2)

@@ -3,7 +3,7 @@
 
 namespace UnityEngine::Formats::Alembic::Sdk
 {
-	inline static constexpr unsigned int TangentsMode_TypeDefinitionIndex = 41621;
+	inline static constexpr unsigned int TangentsMode_TypeDefinitionIndex = 42481;
 
 	enum class TangentsMode : ::System::Int32
 	{

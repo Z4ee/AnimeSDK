@@ -3,14 +3,14 @@
 #include "unitysdk/RPG/Client/StringCase.h"
 #include "unitysdk/System/Object.h"
 
-class Class_0_16E4307DCC419505_20;
+class Class_0_16E4307DCC419505_22;
 namespace System { class String; }
 
-#define CLASS_1_B2AE9E9B19823FE6_METHOD_1_1DCE247AC73BC93D_OFFSET UNITYSDK_OFFSET(0x1AC048B0)
-#define CLASS_1_B2AE9E9B19823FE6_SET_OFFSET UNITYSDK_OFFSET(0x1AC04860)
-#define CLASS_1_B2AE9E9B19823FE6__CTOR_OFFSET UNITYSDK_OFFSET(0x1AC04850)
+#define CLASS_1_B2AE9E9B19823FE6_METHOD_1_1DCE247AC73BC93D_OFFSET UNITYSDK_OFFSET(0x1AC93A00)
+#define CLASS_1_B2AE9E9B19823FE6_SET_OFFSET UNITYSDK_OFFSET(0x1AC939B0)
+#define CLASS_1_B2AE9E9B19823FE6__CTOR_OFFSET UNITYSDK_OFFSET(0x1AC939A0)
 
-inline static constexpr unsigned int Class_1_B2AE9E9B19823FE6_TypeDefinitionIndex = 33418;
+inline static constexpr unsigned int Class_1_B2AE9E9B19823FE6_TypeDefinitionIndex = 33788;
 
 class Class_1_B2AE9E9B19823FE6 : public ::System::Object
 {
@@ -28,8 +28,8 @@ public:
 		return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + CLASS_1_B2AE9E9B19823FE6_SET_OFFSET))(this, a1);
 	}
 
-	static ::System::String* Method_1_1DCE247AC73BC93D(::Class_0_16E4307DCC419505_20* a1)
+	static ::System::String* Method_1_1DCE247AC73BC93D(::Class_0_16E4307DCC419505_22* a1)
 	{
-		return ((::System::String*(*)(::Class_0_16E4307DCC419505_20*))((::PBYTE)hIl2Cpp + CLASS_1_B2AE9E9B19823FE6_METHOD_1_1DCE247AC73BC93D_OFFSET))(a1);
+		return ((::System::String*(*)(::Class_0_16E4307DCC419505_22*))((::PBYTE)hIl2Cpp + CLASS_1_B2AE9E9B19823FE6_METHOD_1_1DCE247AC73BC93D_OFFSET))(a1);
 	}
 };

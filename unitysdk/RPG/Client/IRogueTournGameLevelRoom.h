@@ -4,12 +4,12 @@
 #include "unitysdk/RPG/Client/TextID.h"
 #include "unitysdk/RPG/GameCore/RogueTournRoomType.h"
 
-class Class_1_02098A44CBBFEEE1_2;
+class Class_1_C9DFE5EE7107C629_16;
 namespace System { class String; }
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int IRogueTournGameLevelRoom_TypeDefinitionIndex = 63255;
+	inline static constexpr unsigned int IRogueTournGameLevelRoom_TypeDefinitionIndex = 64622;
 
 	class IRogueTournGameLevelRoom
 	{

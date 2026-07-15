@@ -9,13 +9,13 @@ namespace RPG::GameCore { class PredicateConfig; }
 namespace RPG::GameCore { class TargetEvaluator; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_TRIGGERPARAMMODIFIERCUSTOMEVENT_METHOD_3_AD558FD3033603F8_OFFSET UNITYSDK_OFFSET(0x19E19DE0)
-#define RPG_GAMECORE_TRIGGERPARAMMODIFIERCUSTOMEVENT_METHOD_3_EB976C1C80FA0427_OFFSET UNITYSDK_OFFSET(0x19E19D60)
-#define RPG_GAMECORE_TRIGGERPARAMMODIFIERCUSTOMEVENT__CTOR_OFFSET UNITYSDK_OFFSET(0x19E19DB0)
+#define RPG_GAMECORE_TRIGGERPARAMMODIFIERCUSTOMEVENT_METHOD_3_AD558FD3033603F8_OFFSET UNITYSDK_OFFSET(0x1B05A480)
+#define RPG_GAMECORE_TRIGGERPARAMMODIFIERCUSTOMEVENT_METHOD_3_C47B4AAA008C68E9_OFFSET UNITYSDK_OFFSET(0x1B05A440)
+#define RPG_GAMECORE_TRIGGERPARAMMODIFIERCUSTOMEVENT__CTOR_OFFSET UNITYSDK_OFFSET(0x1B05A470)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TriggerParamModifierCustomEvent_TypeDefinitionIndex = 22340;
+	inline static constexpr unsigned int TriggerParamModifierCustomEvent_TypeDefinitionIndex = 22782;
 
 	class TriggerParamModifierCustomEvent : public ::RPG::GameCore::TaskConfig
 	{
@@ -31,9 +31,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TRIGGERPARAMMODIFIERCUSTOMEVENT__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_EB976C1C80FA0427(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::TriggerParamModifierCustomEvent*& a2)
+		static ::System::Void Method_3_C47B4AAA008C68E9(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::TriggerParamModifierCustomEvent*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::TriggerParamModifierCustomEvent*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TRIGGERPARAMMODIFIERCUSTOMEVENT_METHOD_3_EB976C1C80FA0427_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::TriggerParamModifierCustomEvent*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TRIGGERPARAMMODIFIERCUSTOMEVENT_METHOD_3_C47B4AAA008C68E9_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_AD558FD3033603F8(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::TriggerParamModifierCustomEvent* a2)

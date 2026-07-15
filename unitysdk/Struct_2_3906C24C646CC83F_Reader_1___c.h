@@ -5,7 +5,7 @@
 
 template <typename T> class Struct_2_3906C24C646CC83F_Reader_1___c;
 
-inline static constexpr unsigned int Struct_2_3906C24C646CC83F_Reader_1___c_TypeDefinitionIndex = 6917;
+inline static constexpr unsigned int Struct_2_3906C24C646CC83F_Reader_1___c_TypeDefinitionIndex = 6922;
 
 template <typename T>
 class Struct_2_3906C24C646CC83F_Reader_1___c : public ::System::Object

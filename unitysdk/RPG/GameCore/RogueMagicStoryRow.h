@@ -7,23 +7,23 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_ROGUEMAGICSTORYROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x19B46D90)
-#define RPG_GAMECORE_ROGUEMAGICSTORYROW__CTOR_OFFSET UNITYSDK_OFFSET(0x19B47060)
+#define RPG_GAMECORE_ROGUEMAGICSTORYROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1CFB7F50)
+#define RPG_GAMECORE_ROGUEMAGICSTORYROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1CFB8220)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RogueMagicStoryRow_TypeDefinitionIndex = 14159;
+	inline static constexpr unsigned int RogueMagicStoryRow_TypeDefinitionIndex = 14307;
 
 	class RogueMagicStoryRow : public ::System::Object
 	{
 	public:
 		::System::String* StoryImage; // 0x10
 		::System::String* LevelGraphPath; // 0x18
-		::System::UInt32 StoryID; // 0x20
-		::System::UInt32 UnLockDisplay; // 0x24
+		::RPG::GameCore::RogueMagicStoryCategory StoryCategory; // 0x20
+		::System::UInt32 StoryID; // 0x24
 		::RPG::Client::TextID StoryName; // 0x28
 		::System::Boolean IsHide; // 0x38
-		::RPG::GameCore::RogueMagicStoryCategory StoryCategory; // 0x3C
+		::System::UInt32 UnLockDisplay; // 0x3C
 
 		::System::Void _ctor()
 		{

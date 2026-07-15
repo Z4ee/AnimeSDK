@@ -8,7 +8,7 @@ namespace System { class Object; }
 
 namespace System::Runtime::CompilerServices
 {
-	inline static constexpr unsigned int ConditionalWeakTable_2_CreateValueCallback_TypeDefinitionIndex = 1389;
+	inline static constexpr unsigned int ConditionalWeakTable_2_CreateValueCallback_TypeDefinitionIndex = 1393;
 
 	template <typename TKey, typename TValue>
 	class ConditionalWeakTable_2_CreateValueCallback : public ::System::MulticastDelegate

@@ -5,11 +5,11 @@
 
 namespace HoudiniEngineUnity { class Test_HAPI_GeoInfo; }
 
-#define HOUDINIENGINEUNITY_TEST_HAPI_GEOINFO_EXTENSIONS_TOTESTOBJECT_OFFSET UNITYSDK_OFFSET(0x17F7FC60)
+#define HOUDINIENGINEUNITY_TEST_HAPI_GEOINFO_EXTENSIONS_TOTESTOBJECT_OFFSET UNITYSDK_OFFSET(0x1D20BF40)
 
 namespace HoudiniEngineUnity
 {
-	inline static constexpr unsigned int Test_HAPI_GeoInfo_Extensions_TypeDefinitionIndex = 37739;
+	inline static constexpr unsigned int Test_HAPI_GeoInfo_Extensions_TypeDefinitionIndex = 38547;
 
 	class Test_HAPI_GeoInfo_Extensions : public ::System::Object
 	{

@@ -3,11 +3,11 @@
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/Vector2.h"
 
-#define RPG_CLIENT_ELECTRICCHAINV2_SAMPLER__CTOR_OFFSET UNITYSDK_OFFSET(0xB8A2180)
+#define RPG_CLIENT_ELECTRICCHAINV2_SAMPLER__CTOR_OFFSET UNITYSDK_OFFSET(0x18E16BC0)
 
 namespace RPG::Client::ElectricChainV2
 {
-	inline static constexpr unsigned int Sampler_TypeDefinitionIndex = 68686;
+	inline static constexpr unsigned int Sampler_TypeDefinitionIndex = 70184;
 
 	class Sampler : public ::System::Object
 	{

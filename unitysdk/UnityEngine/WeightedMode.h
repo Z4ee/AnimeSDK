@@ -3,7 +3,7 @@
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int WeightedMode_TypeDefinitionIndex = 4009;
+	inline static constexpr unsigned int WeightedMode_TypeDefinitionIndex = 4014;
 
 	enum class WeightedMode : ::System::Int32
 	{

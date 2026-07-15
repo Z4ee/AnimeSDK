@@ -3,18 +3,18 @@
 #include "unitysdk/RPG/GameCore/ModifierBehaviorFlag.h"
 #include "unitysdk/System/Object.h"
 
-template <typename T> class Class_1_9EB2CB86795DEEF1_DelegateParseJson_1;
+template <typename T> class Class_1_D837DED66799FBE3_DelegateParseJson_1;
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ByDamageSourceContainBehaviorFlag___O_TypeDefinitionIndex = 22038;
+	inline static constexpr unsigned int ByDamageSourceContainBehaviorFlag___O_TypeDefinitionIndex = 22474;
 
 	class ByDamageSourceContainBehaviorFlag___O : public ::System::Object
 	{
 	public:
-		static ::Class_1_9EB2CB86795DEEF1_DelegateParseJson_1<::RPG::GameCore::ModifierBehaviorFlag>** StaticGet__0___FromJson()
+		static ::Class_1_D837DED66799FBE3_DelegateParseJson_1<::RPG::GameCore::ModifierBehaviorFlag>** StaticGet__0___FromJson()
 		{
-			return (::Class_1_9EB2CB86795DEEF1_DelegateParseJson_1<::RPG::GameCore::ModifierBehaviorFlag>**)Il2CppClass::FromTypeDefinitionIndex(ByDamageSourceContainBehaviorFlag___O_TypeDefinitionIndex)->GetStaticField(0x8DB0);
+			return (::Class_1_D837DED66799FBE3_DelegateParseJson_1<::RPG::GameCore::ModifierBehaviorFlag>**)Il2CppClass::FromTypeDefinitionIndex(ByDamageSourceContainBehaviorFlag___O_TypeDefinitionIndex)->GetStaticField(0x27690);
 		}
 	};
 }

@@ -5,13 +5,13 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class PredicateConfig; }
 
-#define RPG_GAMECORE_WAITFORWITHTASKLIST_METHOD_3_B5EB0EE7547A56D7_OFFSET UNITYSDK_OFFSET(0x19E57120)
-#define RPG_GAMECORE_WAITFORWITHTASKLIST_METHOD_3_E747C0AE5FB70033_OFFSET UNITYSDK_OFFSET(0x19E570A0)
-#define RPG_GAMECORE_WAITFORWITHTASKLIST__CTOR_OFFSET UNITYSDK_OFFSET(0x19E570F0)
+#define RPG_GAMECORE_WAITFORWITHTASKLIST_METHOD_3_2BB7368F11A27240_OFFSET UNITYSDK_OFFSET(0x1B8A58E0)
+#define RPG_GAMECORE_WAITFORWITHTASKLIST_METHOD_3_B5EB0EE7547A56D7_OFFSET UNITYSDK_OFFSET(0x1B8A5920)
+#define RPG_GAMECORE_WAITFORWITHTASKLIST__CTOR_OFFSET UNITYSDK_OFFSET(0x1B8A5910)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int WaitForWithTaskList_TypeDefinitionIndex = 22490;
+	inline static constexpr unsigned int WaitForWithTaskList_TypeDefinitionIndex = 22940;
 
 	class WaitForWithTaskList : public ::RPG::GameCore::TaskConfig
 	{
@@ -24,9 +24,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_WAITFORWITHTASKLIST__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_E747C0AE5FB70033(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::WaitForWithTaskList*& a2)
+		static ::System::Void Method_3_2BB7368F11A27240(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::WaitForWithTaskList*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::WaitForWithTaskList*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_WAITFORWITHTASKLIST_METHOD_3_E747C0AE5FB70033_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::WaitForWithTaskList*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_WAITFORWITHTASKLIST_METHOD_3_2BB7368F11A27240_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_B5EB0EE7547A56D7(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::WaitForWithTaskList* a2)

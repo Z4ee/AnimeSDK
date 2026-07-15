@@ -7,15 +7,13 @@
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine::Timeline { class TimelineClip; }
 
-#define RPGTOOLS_TIMELINE_PROPATTACHTOADVPROPTRACK_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0xD04A690)
-#define RPGTOOLS_TIMELINE_PROPATTACHTOADVPROPTRACK_ONCREATECLIP_OFFSET UNITYSDK_OFFSET(0xD04A7D0)
-#define RPGTOOLS_TIMELINE_PROPATTACHTOADVPROPTRACK__CTOR_OFFSET UNITYSDK_OFFSET(0xD04A840)
-#define RPGTOOLS_TIMELINE_PROPATTACHTOADVPROPTRACK___IFIXBASEPROXY_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0xD04A850)
-#define RPGTOOLS_TIMELINE_PROPATTACHTOADVPROPTRACK___IFIXBASEPROXY_ONCREATECLIP_OFFSET UNITYSDK_OFFSET(0xD04A890)
+#define RPGTOOLS_TIMELINE_PROPATTACHTOADVPROPTRACK_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0x199AAF80)
+#define RPGTOOLS_TIMELINE_PROPATTACHTOADVPROPTRACK_ONCREATECLIP_OFFSET UNITYSDK_OFFSET(0x199AB0C0)
+#define RPGTOOLS_TIMELINE_PROPATTACHTOADVPROPTRACK__CTOR_OFFSET UNITYSDK_OFFSET(0x199AB130)
 
 namespace RPGTools::Timeline
 {
-	inline static constexpr unsigned int PropAttachToAdvPropTrack_TypeDefinitionIndex = 45530;
+	inline static constexpr unsigned int PropAttachToAdvPropTrack_TypeDefinitionIndex = 46464;
 
 	class PropAttachToAdvPropTrack : public ::RPGTools::Timeline::CharacterTrack
 	{
@@ -33,16 +31,6 @@ namespace RPGTools::Timeline
 		::System::Void OnCreateClip(::UnityEngine::Timeline::TimelineClip* a1)
 		{
 			return ((::System::Void(*)(::PVOID, ::UnityEngine::Timeline::TimelineClip*))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_PROPATTACHTOADVPROPTRACK_ONCREATECLIP_OFFSET))(this, a1);
-		}
-
-		::UnityEngine::Playables::Playable __iFixBaseProxy_CreatePlayable(::UnityEngine::Playables::PlayableGraph a1, ::UnityEngine::GameObject* a2, ::UnityEngine::Timeline::TimelineClip* a3)
-		{
-			return ((::UnityEngine::Playables::Playable(*)(::PVOID, ::UnityEngine::Playables::PlayableGraph, ::UnityEngine::GameObject*, ::UnityEngine::Timeline::TimelineClip*))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_PROPATTACHTOADVPROPTRACK___IFIXBASEPROXY_CREATEPLAYABLE_OFFSET))(this, a1, a2, a3);
-		}
-
-		::System::Void __iFixBaseProxy_OnCreateClip(::UnityEngine::Timeline::TimelineClip* a1)
-		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Timeline::TimelineClip*))((::PBYTE)hIl2Cpp + RPGTOOLS_TIMELINE_PROPATTACHTOADVPROPTRACK___IFIXBASEPROXY_ONCREATECLIP_OFFSET))(this, a1);
 		}
 	};
 }

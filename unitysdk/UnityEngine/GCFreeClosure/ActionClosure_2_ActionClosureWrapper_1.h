@@ -7,7 +7,7 @@ namespace UnityEngine::GCFreeClosure { template <typename T1, typename T2, typen
 
 namespace UnityEngine::GCFreeClosure
 {
-	inline static constexpr unsigned int ActionClosure_2_ActionClosureWrapper_1_TypeDefinitionIndex = 4434;
+	inline static constexpr unsigned int ActionClosure_2_ActionClosureWrapper_1_TypeDefinitionIndex = 4439;
 
 	template <typename TInput0, typename TInput1, typename T>
 	class ActionClosure_2_ActionClosureWrapper_1 : public ::System::Object

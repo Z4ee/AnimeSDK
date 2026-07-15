@@ -7,32 +7,32 @@ namespace RPG::Client { class TimeSpaceCrisscrossGroupBehavior; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 namespace System { template <typename T> class Predicate_1; }
 
-#define CLASS_1_B4A29038FEECBAF0___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xABC6630)
-#define CLASS_1_B4A29038FEECBAF0___C__CTOR_OFFSET UNITYSDK_OFFSET(0xABC6660)
-#define CLASS_1_B4A29038FEECBAF0___C__GET_ISINASYNCINITIALIZE_B__36_0_OFFSET UNITYSDK_OFFSET(0xABC6670)
-#define CLASS_1_B4A29038FEECBAF0___C__UNREGISTERTSCIRIRENDERERS_B__155_0_OFFSET UNITYSDK_OFFSET(0xABC6690)
-#define CLASS_1_B4A29038FEECBAF0___C__UNREGISTERTSCIRIRENDERERS_B__155_1_OFFSET UNITYSDK_OFFSET(0xABC66C0)
+#define CLASS_1_B4A29038FEECBAF0___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x16446BA0)
+#define CLASS_1_B4A29038FEECBAF0___C__CTOR_OFFSET UNITYSDK_OFFSET(0x16446BD0)
+#define CLASS_1_B4A29038FEECBAF0___C__GET_ISINASYNCINITIALIZE_B__36_0_OFFSET UNITYSDK_OFFSET(0x16446BE0)
+#define CLASS_1_B4A29038FEECBAF0___C__UNREGISTERTSCIRIRENDERERS_B__155_0_OFFSET UNITYSDK_OFFSET(0x16446C00)
+#define CLASS_1_B4A29038FEECBAF0___C__UNREGISTERTSCIRIRENDERERS_B__155_1_OFFSET UNITYSDK_OFFSET(0x16446C90)
 
-inline static constexpr unsigned int Class_1_B4A29038FEECBAF0___c_TypeDefinitionIndex = 65662;
+inline static constexpr unsigned int Class_1_B4A29038FEECBAF0___c_TypeDefinitionIndex = 67079;
 
 class Class_1_B4A29038FEECBAF0___c : public ::System::Object
 {
 public:
 	static ::System::Func_2<::RPG::Client::TimeSpaceCrisscrossGroupBehavior*, ::System::Boolean>** StaticGet___9__36_0()
 	{
-		return (::System::Func_2<::RPG::Client::TimeSpaceCrisscrossGroupBehavior*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_B4A29038FEECBAF0___c_TypeDefinitionIndex)->GetStaticField(0xF0E0);
-	}
-	static ::System::Predicate_1<::Class_1_5F96B92B05C740DB*>** StaticGet___9__155_0()
-	{
-		return (::System::Predicate_1<::Class_1_5F96B92B05C740DB*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_B4A29038FEECBAF0___c_TypeDefinitionIndex)->GetStaticField(0xF0E8);
+		return (::System::Func_2<::RPG::Client::TimeSpaceCrisscrossGroupBehavior*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_B4A29038FEECBAF0___c_TypeDefinitionIndex)->GetStaticField(0x6B6C0);
 	}
 	static ::Class_1_B4A29038FEECBAF0___c** StaticGet___9()
 	{
-		return (::Class_1_B4A29038FEECBAF0___c**)Il2CppClass::FromTypeDefinitionIndex(Class_1_B4A29038FEECBAF0___c_TypeDefinitionIndex)->GetStaticField(0xF0F0);
+		return (::Class_1_B4A29038FEECBAF0___c**)Il2CppClass::FromTypeDefinitionIndex(Class_1_B4A29038FEECBAF0___c_TypeDefinitionIndex)->GetStaticField(0x6B6C8);
+	}
+	static ::System::Predicate_1<::Class_1_5F96B92B05C740DB*>** StaticGet___9__155_0()
+	{
+		return (::System::Predicate_1<::Class_1_5F96B92B05C740DB*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_B4A29038FEECBAF0___c_TypeDefinitionIndex)->GetStaticField(0x6B6D0);
 	}
 	static ::System::Predicate_1<::Class_1_5F96B92B05C740DB*>** StaticGet___9__155_1()
 	{
-		return (::System::Predicate_1<::Class_1_5F96B92B05C740DB*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_B4A29038FEECBAF0___c_TypeDefinitionIndex)->GetStaticField(0xF0F8);
+		return (::System::Predicate_1<::Class_1_5F96B92B05C740DB*>**)Il2CppClass::FromTypeDefinitionIndex(Class_1_B4A29038FEECBAF0___c_TypeDefinitionIndex)->GetStaticField(0x6B6D8);
 	}
 
 	static ::System::Void _cctor()

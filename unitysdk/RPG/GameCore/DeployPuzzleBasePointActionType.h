@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int DeployPuzzleBasePointActionType_TypeDefinitionIndex = 23243;
+	inline static constexpr unsigned int DeployPuzzleBasePointActionType_TypeDefinitionIndex = 23728;
 
 	enum class DeployPuzzleBasePointActionType : ::System::Int32
 	{

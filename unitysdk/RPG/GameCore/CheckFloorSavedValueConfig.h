@@ -6,13 +6,13 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace SimpleJSON { class JSONNode; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_CHECKFLOORSAVEDVALUECONFIG_METHOD_2_473CABA5F12368AC_OFFSET UNITYSDK_OFFSET(0x19617E90)
-#define RPG_GAMECORE_CHECKFLOORSAVEDVALUECONFIG_METHOD_2_5D88991ABD5F2D20_OFFSET UNITYSDK_OFFSET(0x19617D30)
-#define RPG_GAMECORE_CHECKFLOORSAVEDVALUECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x19617E80)
+#define RPG_GAMECORE_CHECKFLOORSAVEDVALUECONFIG_METHOD_2_5B5A761B9F049B45_OFFSET UNITYSDK_OFFSET(0x1B72D870)
+#define RPG_GAMECORE_CHECKFLOORSAVEDVALUECONFIG_METHOD_2_5D88991ABD5F2D20_OFFSET UNITYSDK_OFFSET(0x1B72D710)
+#define RPG_GAMECORE_CHECKFLOORSAVEDVALUECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1B72D860)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int CheckFloorSavedValueConfig_TypeDefinitionIndex = 18059;
+	inline static constexpr unsigned int CheckFloorSavedValueConfig_TypeDefinitionIndex = 18263;
 
 	class CheckFloorSavedValueConfig : public ::RPG::GameCore::JsonConfig
 	{
@@ -30,9 +30,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::CheckFloorSavedValueConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHECKFLOORSAVEDVALUECONFIG_METHOD_2_5D88991ABD5F2D20_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_2_473CABA5F12368AC(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::CheckFloorSavedValueConfig*& a2)
+		static ::System::Void Method_2_5B5A761B9F049B45(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::CheckFloorSavedValueConfig*& a2)
 		{
-			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::CheckFloorSavedValueConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHECKFLOORSAVEDVALUECONFIG_METHOD_2_473CABA5F12368AC_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::CheckFloorSavedValueConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHECKFLOORSAVEDVALUECONFIG_METHOD_2_5B5A761B9F049B45_OFFSET))(a1, a2);
 		}
 	};
 }

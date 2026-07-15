@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int LittleGameState_TypeDefinitionIndex = 56598;
+	inline static constexpr unsigned int LittleGameState_TypeDefinitionIndex = 57844;
 
 	enum class LittleGameState : ::System::Int32
 	{

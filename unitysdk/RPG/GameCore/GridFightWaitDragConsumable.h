@@ -7,13 +7,13 @@ namespace RPG::GameCore { class GridFightDragOpEquipSelector; }
 namespace RPG::GameCore { class GridFightDragOpRoleSelector; }
 namespace RPG::GameCore { class GridFightDragOpgConsumableSelector; }
 
-#define RPG_GAMECORE_GRIDFIGHTWAITDRAGCONSUMABLE_METHOD_3_AE0D6320120CA57B_OFFSET UNITYSDK_OFFSET(0x19811F70)
-#define RPG_GAMECORE_GRIDFIGHTWAITDRAGCONSUMABLE_METHOD_3_DAB03EB361ACDF14_OFFSET UNITYSDK_OFFSET(0x19811FF0)
-#define RPG_GAMECORE_GRIDFIGHTWAITDRAGCONSUMABLE__CTOR_OFFSET UNITYSDK_OFFSET(0x19811FC0)
+#define RPG_GAMECORE_GRIDFIGHTWAITDRAGCONSUMABLE_METHOD_3_38870ABCBFCC71E1_OFFSET UNITYSDK_OFFSET(0x1D07EC60)
+#define RPG_GAMECORE_GRIDFIGHTWAITDRAGCONSUMABLE_METHOD_3_DAB03EB361ACDF14_OFFSET UNITYSDK_OFFSET(0x1D07ECA0)
+#define RPG_GAMECORE_GRIDFIGHTWAITDRAGCONSUMABLE__CTOR_OFFSET UNITYSDK_OFFSET(0x1D07EC90)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int GridFightWaitDragConsumable_TypeDefinitionIndex = 18841;
+	inline static constexpr unsigned int GridFightWaitDragConsumable_TypeDefinitionIndex = 19191;
 
 	class GridFightWaitDragConsumable : public ::RPG::GameCore::TaskConfig
 	{
@@ -27,9 +27,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GRIDFIGHTWAITDRAGCONSUMABLE__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_AE0D6320120CA57B(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::GridFightWaitDragConsumable*& a2)
+		static ::System::Void Method_3_38870ABCBFCC71E1(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::GridFightWaitDragConsumable*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::GridFightWaitDragConsumable*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GRIDFIGHTWAITDRAGCONSUMABLE_METHOD_3_AE0D6320120CA57B_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::GridFightWaitDragConsumable*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GRIDFIGHTWAITDRAGCONSUMABLE_METHOD_3_38870ABCBFCC71E1_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_DAB03EB361ACDF14(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::GridFightWaitDragConsumable* a2)

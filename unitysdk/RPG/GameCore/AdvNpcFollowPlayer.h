@@ -7,13 +7,13 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_ADVNPCFOLLOWPLAYER_METHOD_3_8A63BAB2BE5507B3_OFFSET UNITYSDK_OFFSET(0x1942CF50)
-#define RPG_GAMECORE_ADVNPCFOLLOWPLAYER_METHOD_3_CC9AEFF5AD4DE287_OFFSET UNITYSDK_OFFSET(0x1942D050)
-#define RPG_GAMECORE_ADVNPCFOLLOWPLAYER__CTOR_OFFSET UNITYSDK_OFFSET(0x1942CFE0)
+#define RPG_GAMECORE_ADVNPCFOLLOWPLAYER_METHOD_3_CC9AEFF5AD4DE287_OFFSET UNITYSDK_OFFSET(0x1BE24750)
+#define RPG_GAMECORE_ADVNPCFOLLOWPLAYER_METHOD_3_E8CFB935859B4E13_OFFSET UNITYSDK_OFFSET(0x1BE24690)
+#define RPG_GAMECORE_ADVNPCFOLLOWPLAYER__CTOR_OFFSET UNITYSDK_OFFSET(0x1BE24700)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AdvNpcFollowPlayer_TypeDefinitionIndex = 18862;
+	inline static constexpr unsigned int AdvNpcFollowPlayer_TypeDefinitionIndex = 19212;
 
 	class AdvNpcFollowPlayer : public ::RPG::GameCore::TaskConfig
 	{
@@ -48,9 +48,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVNPCFOLLOWPLAYER__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_8A63BAB2BE5507B3(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AdvNpcFollowPlayer*& a2)
+		static ::System::Void Method_3_E8CFB935859B4E13(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AdvNpcFollowPlayer*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::AdvNpcFollowPlayer*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVNPCFOLLOWPLAYER_METHOD_3_8A63BAB2BE5507B3_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::AdvNpcFollowPlayer*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVNPCFOLLOWPLAYER_METHOD_3_E8CFB935859B4E13_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_CC9AEFF5AD4DE287(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AdvNpcFollowPlayer* a2)

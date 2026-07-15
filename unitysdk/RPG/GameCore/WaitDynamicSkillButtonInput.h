@@ -8,13 +8,13 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class DynamicFloat; }
 namespace RPG::GameCore { class PredicateConfig; }
 
-#define RPG_GAMECORE_WAITDYNAMICSKILLBUTTONINPUT_METHOD_3_7055AEF32CDA9B26_OFFSET UNITYSDK_OFFSET(0x19E540C0)
-#define RPG_GAMECORE_WAITDYNAMICSKILLBUTTONINPUT_METHOD_3_A18E7F8B96040AAA_OFFSET UNITYSDK_OFFSET(0x19E53FA0)
-#define RPG_GAMECORE_WAITDYNAMICSKILLBUTTONINPUT__CTOR_OFFSET UNITYSDK_OFFSET(0x19E54040)
+#define RPG_GAMECORE_WAITDYNAMICSKILLBUTTONINPUT_METHOD_3_7055AEF32CDA9B26_OFFSET UNITYSDK_OFFSET(0x1B8A2FC0)
+#define RPG_GAMECORE_WAITDYNAMICSKILLBUTTONINPUT_METHOD_3_9925B0EB9A1D7609_OFFSET UNITYSDK_OFFSET(0x1B8A2EC0)
+#define RPG_GAMECORE_WAITDYNAMICSKILLBUTTONINPUT__CTOR_OFFSET UNITYSDK_OFFSET(0x1B8A2F50)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int WaitDynamicSkillButtonInput_TypeDefinitionIndex = 21600;
+	inline static constexpr unsigned int WaitDynamicSkillButtonInput_TypeDefinitionIndex = 22022;
 
 	class WaitDynamicSkillButtonInput : public ::RPG::GameCore::TaskConfig
 	{
@@ -29,9 +29,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_WAITDYNAMICSKILLBUTTONINPUT__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_A18E7F8B96040AAA(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::WaitDynamicSkillButtonInput*& a2)
+		static ::System::Void Method_3_9925B0EB9A1D7609(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::WaitDynamicSkillButtonInput*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::WaitDynamicSkillButtonInput*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_WAITDYNAMICSKILLBUTTONINPUT_METHOD_3_A18E7F8B96040AAA_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::WaitDynamicSkillButtonInput*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_WAITDYNAMICSKILLBUTTONINPUT_METHOD_3_9925B0EB9A1D7609_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_7055AEF32CDA9B26(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::WaitDynamicSkillButtonInput* a2)

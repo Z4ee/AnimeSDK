@@ -1,7 +1,10 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int Class_0_16E4307DCC419505_944_TypeDefinitionIndex = 64610;
+namespace RPG::Client { class TalkOptionData; }
+namespace RPG::GameCore { class OptionTalkInfo; }
+
+inline static constexpr unsigned int Class_0_16E4307DCC419505_944_TypeDefinitionIndex = 65012;
 
 class Class_0_16E4307DCC419505_944
 {

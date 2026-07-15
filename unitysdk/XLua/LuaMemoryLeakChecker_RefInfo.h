@@ -6,7 +6,7 @@ namespace System { class String; }
 
 namespace XLua
 {
-	inline static constexpr unsigned int LuaMemoryLeakChecker_RefInfo_TypeDefinitionIndex = 46882;
+	inline static constexpr unsigned int LuaMemoryLeakChecker_RefInfo_TypeDefinitionIndex = 47847;
 
 	struct alignas(8) LuaMemoryLeakChecker_RefInfo
 	{

@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int EPropCurveMoveType_TypeDefinitionIndex = 23202;
+	inline static constexpr unsigned int EPropCurveMoveType_TypeDefinitionIndex = 23682;
 
 	enum class EPropCurveMoveType : ::System::Int32
 	{

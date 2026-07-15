@@ -4,13 +4,13 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_ENABLEPERFORMANCEMODE_METHOD_3_6B37B84D069D392E_OFFSET UNITYSDK_OFFSET(0x196E5260)
-#define RPG_GAMECORE_ENABLEPERFORMANCEMODE_METHOD_3_FD4068388DE3E3FF_OFFSET UNITYSDK_OFFSET(0x196E51E0)
-#define RPG_GAMECORE_ENABLEPERFORMANCEMODE__CTOR_OFFSET UNITYSDK_OFFSET(0x196E5230)
+#define RPG_GAMECORE_ENABLEPERFORMANCEMODE_METHOD_3_6B37B84D069D392E_OFFSET UNITYSDK_OFFSET(0x1BB41150)
+#define RPG_GAMECORE_ENABLEPERFORMANCEMODE_METHOD_3_73E85BCE26F406ED_OFFSET UNITYSDK_OFFSET(0x1BB41110)
+#define RPG_GAMECORE_ENABLEPERFORMANCEMODE__CTOR_OFFSET UNITYSDK_OFFSET(0x1BB41140)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int EnablePerformanceMode_TypeDefinitionIndex = 20363;
+	inline static constexpr unsigned int EnablePerformanceMode_TypeDefinitionIndex = 20778;
 
 	class EnablePerformanceMode : public ::RPG::GameCore::TaskConfig
 	{
@@ -22,9 +22,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ENABLEPERFORMANCEMODE__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_FD4068388DE3E3FF(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::EnablePerformanceMode*& a2)
+		static ::System::Void Method_3_73E85BCE26F406ED(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::EnablePerformanceMode*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::EnablePerformanceMode*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ENABLEPERFORMANCEMODE_METHOD_3_FD4068388DE3E3FF_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::EnablePerformanceMode*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ENABLEPERFORMANCEMODE_METHOD_3_73E85BCE26F406ED_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_6B37B84D069D392E(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::EnablePerformanceMode* a2)

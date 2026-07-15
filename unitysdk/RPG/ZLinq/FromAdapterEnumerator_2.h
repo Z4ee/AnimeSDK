@@ -5,7 +5,7 @@
 
 namespace RPG::ZLinq
 {
-	inline static constexpr unsigned int FromAdapterEnumerator_2_TypeDefinitionIndex = 9992;
+	inline static constexpr unsigned int FromAdapterEnumerator_2_TypeDefinitionIndex = 10007;
 
 	template <typename TIndexKey, typename TRow>
 	struct FromAdapterEnumerator_2

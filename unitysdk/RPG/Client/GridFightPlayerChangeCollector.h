@@ -9,22 +9,22 @@ namespace System::Collections::Generic { template <typename T> class HashSet_1; 
 namespace System::Collections::Specialized { class NotifyCollectionChangedEventArgs; }
 namespace System::ComponentModel { class PropertyChangedEventArgs; }
 
-#define RPG_CLIENT_GRIDFIGHTPLAYERCHANGECOLLECTOR_GET_ISDIRTY_OFFSET UNITYSDK_OFFSET(0xBBCD000)
-#define RPG_CLIENT_GRIDFIGHTPLAYERCHANGECOLLECTOR_ISCHANGED_OFFSET UNITYSDK_OFFSET(0xBBCD820)
-#define RPG_CLIENT_GRIDFIGHTPLAYERCHANGECOLLECTOR_ONCOLLECTIONCHANGEDEVENTHANDLER_OFFSET UNITYSDK_OFFSET(0xBBCD7D0)
-#define RPG_CLIENT_GRIDFIGHTPLAYERCHANGECOLLECTOR_ONPROPERTYCHANGEDEVENTHANDLER_OFFSET UNITYSDK_OFFSET(0xBBCD0F0)
-#define RPG_CLIENT_GRIDFIGHTPLAYERCHANGECOLLECTOR_RESET_OFFSET UNITYSDK_OFFSET(0xBBCD060)
-#define RPG_CLIENT_GRIDFIGHTPLAYERCHANGECOLLECTOR__CTOR_OFFSET UNITYSDK_OFFSET(0xBBCD8B0)
+#define RPG_CLIENT_GRIDFIGHTPLAYERCHANGECOLLECTOR_GET_ISDIRTY_OFFSET UNITYSDK_OFFSET(0x1AE9D270)
+#define RPG_CLIENT_GRIDFIGHTPLAYERCHANGECOLLECTOR_ISCHANGED_OFFSET UNITYSDK_OFFSET(0x1AE9DB60)
+#define RPG_CLIENT_GRIDFIGHTPLAYERCHANGECOLLECTOR_ONCOLLECTIONCHANGEDEVENTHANDLER_OFFSET UNITYSDK_OFFSET(0x1AE9DB10)
+#define RPG_CLIENT_GRIDFIGHTPLAYERCHANGECOLLECTOR_ONPROPERTYCHANGEDEVENTHANDLER_OFFSET UNITYSDK_OFFSET(0x1AE9D360)
+#define RPG_CLIENT_GRIDFIGHTPLAYERCHANGECOLLECTOR_RESET_OFFSET UNITYSDK_OFFSET(0x1AE9D2D0)
+#define RPG_CLIENT_GRIDFIGHTPLAYERCHANGECOLLECTOR__CTOR_OFFSET UNITYSDK_OFFSET(0x1AE9DBF0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GridFightPlayerChangeCollector_TypeDefinitionIndex = 60347;
+	inline static constexpr unsigned int GridFightPlayerChangeCollector_TypeDefinitionIndex = 61637;
 
 	class GridFightPlayerChangeCollector : public ::System::Object
 	{
 	public:
-		::System::Collections::Generic::HashSet_1<::RPG::Client::GridFightPlayerPropertyType>* ChangedProperties; // 0x10
-		::System::Collections::Generic::Dictionary_2<::System::String*, ::RPG::Client::GridFightPlayerPropertyType>* _PropertyNameToProperyType; // 0x18
+		::System::Collections::Generic::Dictionary_2<::System::String*, ::RPG::Client::GridFightPlayerPropertyType>* _PropertyNameToProperyType; // 0x10
+		::System::Collections::Generic::HashSet_1<::RPG::Client::GridFightPlayerPropertyType>* ChangedProperties; // 0x18
 
 		::System::Void _ctor()
 		{

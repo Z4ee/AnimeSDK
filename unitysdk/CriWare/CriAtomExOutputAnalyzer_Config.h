@@ -4,7 +4,7 @@
 
 namespace CriWare
 {
-	inline static constexpr unsigned int CriAtomExOutputAnalyzer_Config_TypeDefinitionIndex = 37096;
+	inline static constexpr unsigned int CriAtomExOutputAnalyzer_Config_TypeDefinitionIndex = 37891;
 
 	struct alignas(4) CriAtomExOutputAnalyzer_Config
 	{

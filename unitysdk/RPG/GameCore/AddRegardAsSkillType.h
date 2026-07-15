@@ -6,13 +6,13 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class TargetEvaluator; }
 
-#define RPG_GAMECORE_ADDREGARDASSKILLTYPE_METHOD_3_008167DC10171BE7_OFFSET UNITYSDK_OFFSET(0x19412150)
-#define RPG_GAMECORE_ADDREGARDASSKILLTYPE_METHOD_3_A8C5EDB31D7742C4_OFFSET UNITYSDK_OFFSET(0x194120D0)
-#define RPG_GAMECORE_ADDREGARDASSKILLTYPE__CTOR_OFFSET UNITYSDK_OFFSET(0x19412120)
+#define RPG_GAMECORE_ADDREGARDASSKILLTYPE_METHOD_3_008167DC10171BE7_OFFSET UNITYSDK_OFFSET(0x1BE09F40)
+#define RPG_GAMECORE_ADDREGARDASSKILLTYPE_METHOD_3_9EF3E80A4AF71696_OFFSET UNITYSDK_OFFSET(0x1BE09F00)
+#define RPG_GAMECORE_ADDREGARDASSKILLTYPE__CTOR_OFFSET UNITYSDK_OFFSET(0x1BE09F30)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AddRegardAsSkillType_TypeDefinitionIndex = 22376;
+	inline static constexpr unsigned int AddRegardAsSkillType_TypeDefinitionIndex = 22818;
 
 	class AddRegardAsSkillType : public ::RPG::GameCore::TaskConfig
 	{
@@ -26,9 +26,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADDREGARDASSKILLTYPE__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_A8C5EDB31D7742C4(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AddRegardAsSkillType*& a2)
+		static ::System::Void Method_3_9EF3E80A4AF71696(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AddRegardAsSkillType*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::AddRegardAsSkillType*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADDREGARDASSKILLTYPE_METHOD_3_A8C5EDB31D7742C4_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::AddRegardAsSkillType*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADDREGARDASSKILLTYPE_METHOD_3_9EF3E80A4AF71696_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_008167DC10171BE7(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AddRegardAsSkillType* a2)

@@ -8,21 +8,21 @@ namespace MessagePack { class MessagePackSerializerOptions; }
 namespace MessagePack::Formatters { template <typename T> class IMessagePackFormatter_1; }
 namespace System::Text { class StringBuilder; }
 
-#define MESSAGEPACK_FORMATTERS_STRINGBUILDERFORMATTER_DESERIALIZE_OFFSET UNITYSDK_OFFSET(0x181484E0)
-#define MESSAGEPACK_FORMATTERS_STRINGBUILDERFORMATTER_SERIALIZE_OFFSET UNITYSDK_OFFSET(0x181484A0)
-#define MESSAGEPACK_FORMATTERS_STRINGBUILDERFORMATTER__CCTOR_OFFSET UNITYSDK_OFFSET(0x181485E0)
-#define MESSAGEPACK_FORMATTERS_STRINGBUILDERFORMATTER__CTOR_OFFSET UNITYSDK_OFFSET(0x18148490)
+#define MESSAGEPACK_FORMATTERS_STRINGBUILDERFORMATTER_DESERIALIZE_OFFSET UNITYSDK_OFFSET(0x14F77280)
+#define MESSAGEPACK_FORMATTERS_STRINGBUILDERFORMATTER_SERIALIZE_OFFSET UNITYSDK_OFFSET(0x14F77240)
+#define MESSAGEPACK_FORMATTERS_STRINGBUILDERFORMATTER__CCTOR_OFFSET UNITYSDK_OFFSET(0x14F77380)
+#define MESSAGEPACK_FORMATTERS_STRINGBUILDERFORMATTER__CTOR_OFFSET UNITYSDK_OFFSET(0x14F77230)
 
 namespace MessagePack::Formatters
 {
-	inline static constexpr unsigned int StringBuilderFormatter_TypeDefinitionIndex = 7447;
+	inline static constexpr unsigned int StringBuilderFormatter_TypeDefinitionIndex = 7453;
 
 	class StringBuilderFormatter : public ::System::Object
 	{
 	public:
 		static ::MessagePack::Formatters::IMessagePackFormatter_1<::System::Text::StringBuilder*>** StaticGet_Instance()
 		{
-			return (::MessagePack::Formatters::IMessagePackFormatter_1<::System::Text::StringBuilder*>**)Il2CppClass::FromTypeDefinitionIndex(StringBuilderFormatter_TypeDefinitionIndex)->GetStaticField(0x8D40);
+			return (::MessagePack::Formatters::IMessagePackFormatter_1<::System::Text::StringBuilder*>**)Il2CppClass::FromTypeDefinitionIndex(StringBuilderFormatter_TypeDefinitionIndex)->GetStaticField(0x9590);
 		}
 
 		::System::Void _ctor()

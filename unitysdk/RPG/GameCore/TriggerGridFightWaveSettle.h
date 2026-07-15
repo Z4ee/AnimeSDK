@@ -6,13 +6,13 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class DynamicFloat; }
 
-#define RPG_GAMECORE_TRIGGERGRIDFIGHTWAVESETTLE_METHOD_3_6E3C815BD0F1BA2D_OFFSET UNITYSDK_OFFSET(0x19E15A40)
-#define RPG_GAMECORE_TRIGGERGRIDFIGHTWAVESETTLE_METHOD_3_837E9B3AC0AF6EC1_OFFSET UNITYSDK_OFFSET(0x19E15920)
-#define RPG_GAMECORE_TRIGGERGRIDFIGHTWAVESETTLE__CTOR_OFFSET UNITYSDK_OFFSET(0x19E159C0)
+#define RPG_GAMECORE_TRIGGERGRIDFIGHTWAVESETTLE_METHOD_3_59B78AC065D7CD98_OFFSET UNITYSDK_OFFSET(0x1B0567F0)
+#define RPG_GAMECORE_TRIGGERGRIDFIGHTWAVESETTLE_METHOD_3_6E3C815BD0F1BA2D_OFFSET UNITYSDK_OFFSET(0x1B0568F0)
+#define RPG_GAMECORE_TRIGGERGRIDFIGHTWAVESETTLE__CTOR_OFFSET UNITYSDK_OFFSET(0x1B056880)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TriggerGridFightWaveSettle_TypeDefinitionIndex = 21305;
+	inline static constexpr unsigned int TriggerGridFightWaveSettle_TypeDefinitionIndex = 21720;
 
 	class TriggerGridFightWaveSettle : public ::RPG::GameCore::TaskConfig
 	{
@@ -25,9 +25,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TRIGGERGRIDFIGHTWAVESETTLE__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_837E9B3AC0AF6EC1(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::TriggerGridFightWaveSettle*& a2)
+		static ::System::Void Method_3_59B78AC065D7CD98(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::TriggerGridFightWaveSettle*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::TriggerGridFightWaveSettle*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TRIGGERGRIDFIGHTWAVESETTLE_METHOD_3_837E9B3AC0AF6EC1_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::TriggerGridFightWaveSettle*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TRIGGERGRIDFIGHTWAVESETTLE_METHOD_3_59B78AC065D7CD98_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_6E3C815BD0F1BA2D(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::TriggerGridFightWaveSettle* a2)

@@ -5,24 +5,24 @@
 namespace RPG::Client { class ChenLingBattleDeckData; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define RPG_CLIENT_CHENLINGBATTLEDECKINFO___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xB5D61A0)
-#define RPG_CLIENT_CHENLINGBATTLEDECKINFO___C__CTOR_OFFSET UNITYSDK_OFFSET(0xB5D61E0)
-#define RPG_CLIENT_CHENLINGBATTLEDECKINFO___C__GETUNLOCKEDDECKS_B__9_0_OFFSET UNITYSDK_OFFSET(0xB5D61F0)
+#define RPG_CLIENT_CHENLINGBATTLEDECKINFO___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1AFEFE60)
+#define RPG_CLIENT_CHENLINGBATTLEDECKINFO___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1AFEFEA0)
+#define RPG_CLIENT_CHENLINGBATTLEDECKINFO___C__GETUNLOCKEDDECKS_B__9_0_OFFSET UNITYSDK_OFFSET(0x1AFEFEB0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ChenLingBattleDeckInfo___c_TypeDefinitionIndex = 57430;
+	inline static constexpr unsigned int ChenLingBattleDeckInfo___c_TypeDefinitionIndex = 58692;
 
 	class ChenLingBattleDeckInfo___c : public ::System::Object
 	{
 	public:
 		static ::RPG::Client::ChenLingBattleDeckInfo___c** StaticGet___9()
 		{
-			return (::RPG::Client::ChenLingBattleDeckInfo___c**)Il2CppClass::FromTypeDefinitionIndex(ChenLingBattleDeckInfo___c_TypeDefinitionIndex)->GetStaticField(0x60910);
+			return (::RPG::Client::ChenLingBattleDeckInfo___c**)Il2CppClass::FromTypeDefinitionIndex(ChenLingBattleDeckInfo___c_TypeDefinitionIndex)->GetStaticField(0x655F0);
 		}
 		static ::System::Func_2<::RPG::Client::ChenLingBattleDeckData*, ::System::Boolean>** StaticGet___9__9_0()
 		{
-			return (::System::Func_2<::RPG::Client::ChenLingBattleDeckData*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(ChenLingBattleDeckInfo___c_TypeDefinitionIndex)->GetStaticField(0x60918);
+			return (::System::Func_2<::RPG::Client::ChenLingBattleDeckData*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(ChenLingBattleDeckInfo___c_TypeDefinitionIndex)->GetStaticField(0x655F8);
 		}
 
 		static ::System::Void _cctor()

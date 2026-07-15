@@ -7,13 +7,13 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace SimpleJSON { class JSONNode; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_GROUPPROPERTYCONFIG_METHOD_2_6E26656A9824F8DA_OFFSET UNITYSDK_OFFSET(0x19814590)
-#define RPG_GAMECORE_GROUPPROPERTYCONFIG_METHOD_2_724DD9EDC6AB92CC_OFFSET UNITYSDK_OFFSET(0x19814820)
-#define RPG_GAMECORE_GROUPPROPERTYCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x19814810)
+#define RPG_GAMECORE_GROUPPROPERTYCONFIG_METHOD_2_6BFF9490B892613C_OFFSET UNITYSDK_OFFSET(0x1D081330)
+#define RPG_GAMECORE_GROUPPROPERTYCONFIG_METHOD_2_6E26656A9824F8DA_OFFSET UNITYSDK_OFFSET(0x1D0810A0)
+#define RPG_GAMECORE_GROUPPROPERTYCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1D081320)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int GroupPropertyConfig_TypeDefinitionIndex = 17383;
+	inline static constexpr unsigned int GroupPropertyConfig_TypeDefinitionIndex = 17556;
 
 	class GroupPropertyConfig : public ::RPG::GameCore::JsonConfig
 	{
@@ -35,9 +35,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::GroupPropertyConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GROUPPROPERTYCONFIG_METHOD_2_6E26656A9824F8DA_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_2_724DD9EDC6AB92CC(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::GroupPropertyConfig*& a2)
+		static ::System::Void Method_2_6BFF9490B892613C(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::GroupPropertyConfig*& a2)
 		{
-			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::GroupPropertyConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GROUPPROPERTYCONFIG_METHOD_2_724DD9EDC6AB92CC_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::GroupPropertyConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GROUPPROPERTYCONFIG_METHOD_2_6BFF9490B892613C_OFFSET))(a1, a2);
 		}
 	};
 }

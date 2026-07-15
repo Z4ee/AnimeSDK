@@ -6,17 +6,17 @@
 namespace System { class String; }
 namespace System::Globalization { class SortKey; }
 
-#define MONO_GLOBALIZATION_UNICODE_SORTKEYBUFFER_APPENDBUFFERPRIMITIVE_OFFSET UNITYSDK_OFFSET(0x18558360)
-#define MONO_GLOBALIZATION_UNICODE_SORTKEYBUFFER_APPENDCJKEXTENSION_OFFSET UNITYSDK_OFFSET(0x18550D40)
-#define MONO_GLOBALIZATION_UNICODE_SORTKEYBUFFER_APPENDKANA_OFFSET UNITYSDK_OFFSET(0x18550E80)
-#define MONO_GLOBALIZATION_UNICODE_SORTKEYBUFFER_APPENDLEVEL5_OFFSET UNITYSDK_OFFSET(0x185583E0)
-#define MONO_GLOBALIZATION_UNICODE_SORTKEYBUFFER_APPENDNORMAL_OFFSET UNITYSDK_OFFSET(0x18550BB0)
-#define MONO_GLOBALIZATION_UNICODE_SORTKEYBUFFER_GETOPTIMIZEDLENGTH_OFFSET UNITYSDK_OFFSET(0x18558D00)
-#define MONO_GLOBALIZATION_UNICODE_SORTKEYBUFFER_GETRESULTANDRESET_OFFSET UNITYSDK_OFFSET(0x18550500)
-#define MONO_GLOBALIZATION_UNICODE_SORTKEYBUFFER_GETRESULT_OFFSET UNITYSDK_OFFSET(0x18558480)
-#define MONO_GLOBALIZATION_UNICODE_SORTKEYBUFFER_INITIALIZE_OFFSET UNITYSDK_OFFSET(0x1854FAF0)
-#define MONO_GLOBALIZATION_UNICODE_SORTKEYBUFFER_RESET_OFFSET UNITYSDK_OFFSET(0x18558330)
-#define MONO_GLOBALIZATION_UNICODE_SORTKEYBUFFER__CTOR_OFFSET UNITYSDK_OFFSET(0x1854FAE0)
+#define MONO_GLOBALIZATION_UNICODE_SORTKEYBUFFER_APPENDBUFFERPRIMITIVE_OFFSET UNITYSDK_OFFSET(0x155DB9A0)
+#define MONO_GLOBALIZATION_UNICODE_SORTKEYBUFFER_APPENDCJKEXTENSION_OFFSET UNITYSDK_OFFSET(0x155D48E0)
+#define MONO_GLOBALIZATION_UNICODE_SORTKEYBUFFER_APPENDKANA_OFFSET UNITYSDK_OFFSET(0x155D4A20)
+#define MONO_GLOBALIZATION_UNICODE_SORTKEYBUFFER_APPENDLEVEL5_OFFSET UNITYSDK_OFFSET(0x155DBA20)
+#define MONO_GLOBALIZATION_UNICODE_SORTKEYBUFFER_APPENDNORMAL_OFFSET UNITYSDK_OFFSET(0x155D4750)
+#define MONO_GLOBALIZATION_UNICODE_SORTKEYBUFFER_GETOPTIMIZEDLENGTH_OFFSET UNITYSDK_OFFSET(0x155DC340)
+#define MONO_GLOBALIZATION_UNICODE_SORTKEYBUFFER_GETRESULTANDRESET_OFFSET UNITYSDK_OFFSET(0x155D40A0)
+#define MONO_GLOBALIZATION_UNICODE_SORTKEYBUFFER_GETRESULT_OFFSET UNITYSDK_OFFSET(0x155DBAB0)
+#define MONO_GLOBALIZATION_UNICODE_SORTKEYBUFFER_INITIALIZE_OFFSET UNITYSDK_OFFSET(0x155D3740)
+#define MONO_GLOBALIZATION_UNICODE_SORTKEYBUFFER_RESET_OFFSET UNITYSDK_OFFSET(0x155DB980)
+#define MONO_GLOBALIZATION_UNICODE_SORTKEYBUFFER__CTOR_OFFSET UNITYSDK_OFFSET(0x155D3730)
 
 namespace Mono::Globalization::Unicode
 {
@@ -25,28 +25,28 @@ namespace Mono::Globalization::Unicode
 	class SortKeyBuffer : public ::System::Object
 	{
 	public:
-		::Il2CppArray<::System::Byte>* l2b; // 0x10
-		::Il2CppArray<::System::Byte>* l4tb; // 0x18
-		::Il2CppArray<::System::Byte>* l1b; // 0x20
-		::System::String* source; // 0x28
-		::Il2CppArray<::System::Byte>* l4sb; // 0x30
-		::Il2CppArray<::System::Byte>* l3b; // 0x38
-		::Il2CppArray<::System::Byte>* l4kb; // 0x40
-		::Il2CppArray<::System::Byte>* l5b; // 0x48
-		::Il2CppArray<::System::Byte>* l4wb; // 0x50
-		::System::Int32 l4s; // 0x58
-		::System::Int32 l2; // 0x5C
-		::System::Int32 l4t; // 0x60
-		::System::Int32 l3; // 0x64
-		::System::Globalization::CompareOptions options; // 0x68
-		::System::Int32 l4w; // 0x6C
-		::System::Boolean frenchSort; // 0x70
-		::System::Boolean frenchSorted; // 0x71
-		::System::Boolean processLevel2; // 0x72
-		::System::Int32 lcid; // 0x74
-		::System::Int32 l4k; // 0x78
-		::System::Int32 l1; // 0x7C
-		::System::Int32 l5; // 0x80
+		::Il2CppArray<::System::Byte>* l4tb; // 0x10
+		::Il2CppArray<::System::Byte>* l4kb; // 0x18
+		::Il2CppArray<::System::Byte>* l5b; // 0x20
+		::Il2CppArray<::System::Byte>* l2b; // 0x28
+		::System::String* source; // 0x30
+		::Il2CppArray<::System::Byte>* l1b; // 0x38
+		::Il2CppArray<::System::Byte>* l4wb; // 0x40
+		::Il2CppArray<::System::Byte>* l4sb; // 0x48
+		::Il2CppArray<::System::Byte>* l3b; // 0x50
+		::System::Int32 l2; // 0x58
+		::System::Int32 l3; // 0x5C
+		::System::Int32 lcid; // 0x60
+		::System::Boolean frenchSort; // 0x64
+		::System::Boolean frenchSorted; // 0x65
+		::System::Boolean processLevel2; // 0x66
+		::System::Int32 l4t; // 0x68
+		::System::Int32 l5; // 0x6C
+		::System::Int32 l4w; // 0x70
+		::System::Int32 l1; // 0x74
+		::System::Globalization::CompareOptions options; // 0x78
+		::System::Int32 l4k; // 0x7C
+		::System::Int32 l4s; // 0x80
 
 		::System::Void _ctor(::System::Int32 a1)
 		{

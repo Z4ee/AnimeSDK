@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define CRIWARE_CRIATOMCONFIG_HCAMXVOICEPOOLCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x14684E70)
+#define CRIWARE_CRIATOMCONFIG_HCAMXVOICEPOOLCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1AEE5C60)
 
 namespace CriWare
 {
-	inline static constexpr unsigned int CriAtomConfig_HcaMxVoicePoolConfig_TypeDefinitionIndex = 37193;
+	inline static constexpr unsigned int CriAtomConfig_HcaMxVoicePoolConfig_TypeDefinitionIndex = 37998;
 
 	class CriAtomConfig_HcaMxVoicePoolConfig : public ::System::Object
 	{

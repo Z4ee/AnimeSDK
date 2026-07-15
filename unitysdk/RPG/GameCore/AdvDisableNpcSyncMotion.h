@@ -5,13 +5,13 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class TargetEvaluator; }
 
-#define RPG_GAMECORE_ADVDISABLENPCSYNCMOTION_METHOD_3_26D66354F298E2E1_OFFSET UNITYSDK_OFFSET(0x19420270)
-#define RPG_GAMECORE_ADVDISABLENPCSYNCMOTION_METHOD_3_36A7A2D9827825CD_OFFSET UNITYSDK_OFFSET(0x194201F0)
-#define RPG_GAMECORE_ADVDISABLENPCSYNCMOTION__CTOR_OFFSET UNITYSDK_OFFSET(0x19420240)
+#define RPG_GAMECORE_ADVDISABLENPCSYNCMOTION_METHOD_3_26D66354F298E2E1_OFFSET UNITYSDK_OFFSET(0x1BE18E80)
+#define RPG_GAMECORE_ADVDISABLENPCSYNCMOTION_METHOD_3_697176726EE3E85E_OFFSET UNITYSDK_OFFSET(0x1BE18E30)
+#define RPG_GAMECORE_ADVDISABLENPCSYNCMOTION__CTOR_OFFSET UNITYSDK_OFFSET(0x1BE18E70)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AdvDisableNpcSyncMotion_TypeDefinitionIndex = 21172;
+	inline static constexpr unsigned int AdvDisableNpcSyncMotion_TypeDefinitionIndex = 21587;
 
 	class AdvDisableNpcSyncMotion : public ::RPG::GameCore::TaskConfig
 	{
@@ -24,9 +24,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVDISABLENPCSYNCMOTION__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_36A7A2D9827825CD(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AdvDisableNpcSyncMotion*& a2)
+		static ::System::Void Method_3_697176726EE3E85E(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AdvDisableNpcSyncMotion*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::AdvDisableNpcSyncMotion*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVDISABLENPCSYNCMOTION_METHOD_3_36A7A2D9827825CD_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::AdvDisableNpcSyncMotion*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVDISABLENPCSYNCMOTION_METHOD_3_697176726EE3E85E_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_26D66354F298E2E1(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AdvDisableNpcSyncMotion* a2)

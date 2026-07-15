@@ -6,24 +6,24 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_AMPHOREUSCURIOUICONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x19478230)
-#define RPG_GAMECORE_AMPHOREUSCURIOUICONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x19478AC0)
+#define RPG_GAMECORE_AMPHOREUSCURIOUICONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1A0553C0)
+#define RPG_GAMECORE_AMPHOREUSCURIOUICONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1A055C50)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AmphoreusCurioUIConfigRow_TypeDefinitionIndex = 11455;
+	inline static constexpr unsigned int AmphoreusCurioUIConfigRow_TypeDefinitionIndex = 11555;
 
 	class AmphoreusCurioUIConfigRow : public ::System::Object
 	{
 	public:
-		::Il2CppArray<::RPG::Client::TextID>* TextmapIDList; // 0x10
+		::Il2CppArray<::System::UInt32>* ReplyIDList; // 0x10
 		::System::String* IconPath; // 0x18
-		::Il2CppArray<::System::UInt32>* ReplyIDList; // 0x20
-		::RPG::Client::TextID Name; // 0x28
-		::RPG::Client::TextID NameAfter; // 0x38
-		::RPG::Client::TextID Desc; // 0x48
-		::System::UInt32 Tag; // 0x58
-		::System::UInt32 ID; // 0x5C
+		::Il2CppArray<::RPG::Client::TextID>* TextmapIDList; // 0x20
+		::RPG::Client::TextID NameAfter; // 0x28
+		::RPG::Client::TextID Name; // 0x38
+		::System::UInt32 ID; // 0x48
+		::System::UInt32 Tag; // 0x4C
+		::RPG::Client::TextID Desc; // 0x50
 
 		::System::Void _ctor()
 		{

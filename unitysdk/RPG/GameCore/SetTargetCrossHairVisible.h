@@ -5,13 +5,13 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class TargetEvaluator; }
 
-#define RPG_GAMECORE_SETTARGETCROSSHAIRVISIBLE_METHOD_3_0EE3FE06A221A7C5_OFFSET UNITYSDK_OFFSET(0x19C618D0)
-#define RPG_GAMECORE_SETTARGETCROSSHAIRVISIBLE_METHOD_3_292232884F995C79_OFFSET UNITYSDK_OFFSET(0x19C61950)
-#define RPG_GAMECORE_SETTARGETCROSSHAIRVISIBLE__CTOR_OFFSET UNITYSDK_OFFSET(0x19C61920)
+#define RPG_GAMECORE_SETTARGETCROSSHAIRVISIBLE_METHOD_3_292232884F995C79_OFFSET UNITYSDK_OFFSET(0x1C60B010)
+#define RPG_GAMECORE_SETTARGETCROSSHAIRVISIBLE_METHOD_3_7D5414D1F3A10EB6_OFFSET UNITYSDK_OFFSET(0x1C60AFD0)
+#define RPG_GAMECORE_SETTARGETCROSSHAIRVISIBLE__CTOR_OFFSET UNITYSDK_OFFSET(0x1C60B000)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SetTargetCrossHairVisible_TypeDefinitionIndex = 21692;
+	inline static constexpr unsigned int SetTargetCrossHairVisible_TypeDefinitionIndex = 22119;
 
 	class SetTargetCrossHairVisible : public ::RPG::GameCore::TaskConfig
 	{
@@ -24,9 +24,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETTARGETCROSSHAIRVISIBLE__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_0EE3FE06A221A7C5(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SetTargetCrossHairVisible*& a2)
+		static ::System::Void Method_3_7D5414D1F3A10EB6(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SetTargetCrossHairVisible*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SetTargetCrossHairVisible*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETTARGETCROSSHAIRVISIBLE_METHOD_3_0EE3FE06A221A7C5_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SetTargetCrossHairVisible*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETTARGETCROSSHAIRVISIBLE_METHOD_3_7D5414D1F3A10EB6_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_292232884F995C79(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SetTargetCrossHairVisible* a2)

@@ -7,13 +7,13 @@ namespace RPG::GameCore { class SetComponentAssetAnimStateConfig; }
 namespace RPG::GameCore { class SetComponentAssetLoadState; }
 namespace RPG::GameCore { class TargetEvaluator; }
 
-#define RPG_GAMECORE_SETCOMPONENTASSETLOADSTATEWITHANIMSTATE_METHOD_3_C48AE12E2992017A_OFFSET UNITYSDK_OFFSET(0x19C31F20)
-#define RPG_GAMECORE_SETCOMPONENTASSETLOADSTATEWITHANIMSTATE_METHOD_3_D08E844EE78C29D0_OFFSET UNITYSDK_OFFSET(0x19C31FF0)
-#define RPG_GAMECORE_SETCOMPONENTASSETLOADSTATEWITHANIMSTATE__CTOR_OFFSET UNITYSDK_OFFSET(0x19C31FA0)
+#define RPG_GAMECORE_SETCOMPONENTASSETLOADSTATEWITHANIMSTATE_METHOD_3_1C5251840B9E1EC3_OFFSET UNITYSDK_OFFSET(0x1C2DAB00)
+#define RPG_GAMECORE_SETCOMPONENTASSETLOADSTATEWITHANIMSTATE_METHOD_3_CB574D4A419B2619_OFFSET UNITYSDK_OFFSET(0x1C2DABA0)
+#define RPG_GAMECORE_SETCOMPONENTASSETLOADSTATEWITHANIMSTATE__CTOR_OFFSET UNITYSDK_OFFSET(0x1C2DAB60)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SetComponentAssetLoadStateWithAnimState_TypeDefinitionIndex = 21569;
+	inline static constexpr unsigned int SetComponentAssetLoadStateWithAnimState_TypeDefinitionIndex = 21991;
 
 	class SetComponentAssetLoadStateWithAnimState : public ::RPG::GameCore::TaskConfig
 	{
@@ -29,14 +29,14 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETCOMPONENTASSETLOADSTATEWITHANIMSTATE__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_C48AE12E2992017A(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SetComponentAssetLoadStateWithAnimState*& a2)
+		static ::System::Void Method_3_1C5251840B9E1EC3(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SetComponentAssetLoadStateWithAnimState*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SetComponentAssetLoadStateWithAnimState*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETCOMPONENTASSETLOADSTATEWITHANIMSTATE_METHOD_3_C48AE12E2992017A_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SetComponentAssetLoadStateWithAnimState*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETCOMPONENTASSETLOADSTATEWITHANIMSTATE_METHOD_3_1C5251840B9E1EC3_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_D08E844EE78C29D0(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SetComponentAssetLoadStateWithAnimState* a2)
+		static ::System::Void Method_3_CB574D4A419B2619(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SetComponentAssetLoadStateWithAnimState* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SetComponentAssetLoadStateWithAnimState*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETCOMPONENTASSETLOADSTATEWITHANIMSTATE_METHOD_3_D08E844EE78C29D0_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SetComponentAssetLoadStateWithAnimState*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETCOMPONENTASSETLOADSTATEWITHANIMSTATE_METHOD_3_CB574D4A419B2619_OFFSET))(a1, a2);
 		}
 	};
 }

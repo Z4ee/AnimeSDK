@@ -3,7 +3,7 @@
 
 namespace MiHoYo::SDK::HoYoPass
 {
-	inline static constexpr unsigned int WebPageManager_WebPageResult_TypeDefinitionIndex = 8277;
+	inline static constexpr unsigned int WebPageManager_WebPageResult_TypeDefinitionIndex = 8289;
 
 	enum class WebPageManager_WebPageResult : ::System::Int32
 	{

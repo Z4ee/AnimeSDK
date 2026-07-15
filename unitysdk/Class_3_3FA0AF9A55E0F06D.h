@@ -1,6 +1,6 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Class_2_6CCF0FA73FEFDF0F.h"
+#include "unitysdk/Class_2_D27C6C1969655A0D.h"
 #include "unitysdk/RPG/GameCore/AdvPauseMovementFloatingAndRotationReason.h"
 #include "unitysdk/RPG/GameCore/AdventureModifierBehaviorFlag.h"
 #include "unitysdk/RPG/GameCore/AnimatorSpeedMultiplyReason.h"
@@ -9,23 +9,20 @@
 
 namespace RPG::GameCore { class GameEntity; }
 
-#define CLASS_3_3FA0AF9A55E0F06D_GET_FLAG_OFFSET UNITYSDK_OFFSET(0xAA06FA0)
-#define CLASS_3_3FA0AF9A55E0F06D_GET__PAUSEMOVEMENTREASON_OFFSET UNITYSDK_OFFSET(0xAA06FB0)
-#define CLASS_3_3FA0AF9A55E0F06D_METHOD_3_65A8C1B579AAAE11_OFFSET UNITYSDK_OFFSET(0xAA06F00)
-#define CLASS_3_3FA0AF9A55E0F06D_METHOD_3_A957C08C2E904AE3_OFFSET UNITYSDK_OFFSET(0xAA06EB0)
-#define CLASS_3_3FA0AF9A55E0F06D_METHOD_3_C059A8AD92ECC6C2_OFFSET UNITYSDK_OFFSET(0xAA06FD0)
-#define CLASS_3_3FA0AF9A55E0F06D_METHOD_3_F6EA0C48C8320224_OFFSET UNITYSDK_OFFSET(0xAA06FE0)
-#define CLASS_3_3FA0AF9A55E0F06D_METHOD_3_F8582760D7ADEF4C_OFFSET UNITYSDK_OFFSET(0xAA06FC0)
-#define CLASS_3_3FA0AF9A55E0F06D_METHOD_3_FAF19B947CCA348B_OFFSET UNITYSDK_OFFSET(0xAA06F50)
-#define CLASS_3_3FA0AF9A55E0F06D__CTOR_OFFSET UNITYSDK_OFFSET(0xAA06E40)
+#define CLASS_3_3FA0AF9A55E0F06D_GET_FLAG_OFFSET UNITYSDK_OFFSET(0x18222CE0)
+#define CLASS_3_3FA0AF9A55E0F06D_GET__PAUSEMOVEMENTREASON_OFFSET UNITYSDK_OFFSET(0x18222CF0)
+#define CLASS_3_3FA0AF9A55E0F06D_METHOD_3_65A8C1B579AAAE11_OFFSET UNITYSDK_OFFSET(0x18222C40)
+#define CLASS_3_3FA0AF9A55E0F06D_METHOD_3_A957C08C2E904AE3_OFFSET UNITYSDK_OFFSET(0x18222BF0)
+#define CLASS_3_3FA0AF9A55E0F06D_METHOD_3_FAF19B947CCA348B_OFFSET UNITYSDK_OFFSET(0x18222C90)
+#define CLASS_3_3FA0AF9A55E0F06D__CTOR_OFFSET UNITYSDK_OFFSET(0x18222B80)
 
-inline static constexpr unsigned int Class_3_3FA0AF9A55E0F06D_TypeDefinitionIndex = 53263;
+inline static constexpr unsigned int Class_3_3FA0AF9A55E0F06D_TypeDefinitionIndex = 54478;
 
-class Class_3_3FA0AF9A55E0F06D : public ::Class_2_6CCF0FA73FEFDF0F
+class Class_3_3FA0AF9A55E0F06D : public ::Class_2_D27C6C1969655A0D
 {
 public:
-	::RPG::GameCore::AdventureModifierBehaviorFlag _Flag_k__BackingField; // 0x80
-	::RPG::GameCore::AdvPauseMovementFloatingAndRotationReason __PauseMovementReason_k__BackingField; // 0x84
+	::RPG::GameCore::AdvPauseMovementFloatingAndRotationReason __PauseMovementReason_k__BackingField; // 0x80
+	::RPG::GameCore::AdventureModifierBehaviorFlag _Flag_k__BackingField; // 0x84
 
 	::System::Void _ctor(::RPG::GameCore::GameEntity* a1)
 	{
@@ -55,20 +52,5 @@ public:
 	::RPG::GameCore::AdvPauseMovementFloatingAndRotationReason get__PauseMovementReason()
 	{
 		return ((::RPG::GameCore::AdvPauseMovementFloatingAndRotationReason(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_3_3FA0AF9A55E0F06D_GET__PAUSEMOVEMENTREASON_OFFSET))(this);
-	}
-
-	::RPG::GameCore::AnimatorSpeedMultiplyReason Method_3_F8582760D7ADEF4C()
-	{
-		return ((::RPG::GameCore::AnimatorSpeedMultiplyReason(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_3_3FA0AF9A55E0F06D_METHOD_3_F8582760D7ADEF4C_OFFSET))(this);
-	}
-
-	::RPG::GameCore::PauseAbilityReason Method_3_C059A8AD92ECC6C2()
-	{
-		return ((::RPG::GameCore::PauseAbilityReason(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_3_3FA0AF9A55E0F06D_METHOD_3_C059A8AD92ECC6C2_OFFSET))(this);
-	}
-
-	::RPG::GameCore::FreezeMovementReason Method_3_F6EA0C48C8320224()
-	{
-		return ((::RPG::GameCore::FreezeMovementReason(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_3_3FA0AF9A55E0F06D_METHOD_3_F6EA0C48C8320224_OFFSET))(this);
 	}
 };

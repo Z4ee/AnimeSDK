@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class LittleGameRadialBlurEffect; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_4561CC3C37643D74_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xA6A33A0)
-#define CLASS_3_4561CC3C37643D74__CTOR_OFFSET UNITYSDK_OFFSET(0xA6A3370)
+#define CLASS_3_4561CC3C37643D74_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x17F7B300)
+#define CLASS_3_4561CC3C37643D74__CTOR_OFFSET UNITYSDK_OFFSET(0x17F7B2D0)
 
-inline static constexpr unsigned int Class_3_4561CC3C37643D74_TypeDefinitionIndex = 49515;
+inline static constexpr unsigned int Class_3_4561CC3C37643D74_TypeDefinitionIndex = 50569;
 
 class Class_3_4561CC3C37643D74 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::LittleGameRadialBlurEffect*>
 {

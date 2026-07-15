@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FiveDimLightningStateType_TypeDefinitionIndex = 17693;
+	inline static constexpr unsigned int FiveDimLightningStateType_TypeDefinitionIndex = 17867;
 
 	enum class FiveDimLightningStateType : ::System::Int32
 	{

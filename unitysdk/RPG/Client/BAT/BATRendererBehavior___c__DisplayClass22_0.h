@@ -7,7 +7,7 @@ namespace UnityEngine { class MaterialPropertyBlock; }
 
 namespace RPG::Client::BAT
 {
-	inline static constexpr unsigned int BATRendererBehavior___c__DisplayClass22_0_TypeDefinitionIndex = 68769;
+	inline static constexpr unsigned int BATRendererBehavior___c__DisplayClass22_0_TypeDefinitionIndex = 70269;
 
 	struct alignas(8) BATRendererBehavior___c__DisplayClass22_0
 	{

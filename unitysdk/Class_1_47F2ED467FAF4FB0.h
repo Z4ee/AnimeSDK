@@ -4,9 +4,9 @@
 
 namespace RPG::GameCore { class AIMonsterIDSelector; }
 
-#define CLASS_1_47F2ED467FAF4FB0_METHOD_1_3BBFFDD866CB73F0_OFFSET UNITYSDK_OFFSET(0x136F7FF0)
+#define CLASS_1_47F2ED467FAF4FB0_METHOD_1_3BBFFDD866CB73F0_OFFSET UNITYSDK_OFFSET(0x16ECFFC0)
 
-inline static constexpr unsigned int Class_1_47F2ED467FAF4FB0_TypeDefinitionIndex = 50790;
+inline static constexpr unsigned int Class_1_47F2ED467FAF4FB0_TypeDefinitionIndex = 51872;
 
 class Class_1_47F2ED467FAF4FB0 : public ::System::Object
 {

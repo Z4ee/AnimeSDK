@@ -3,7 +3,7 @@
 #include "unitysdk/RPG/GameCore/BattleUIPanelType.h"
 #include "unitysdk/System/ValueType.h"
 
-inline static constexpr unsigned int Struct_2_6E6428D512391F71_TypeDefinitionIndex = 54760;
+inline static constexpr unsigned int Struct_2_6E6428D512391F71_TypeDefinitionIndex = 55987;
 
 struct alignas(8) Struct_2_6E6428D512391F71
 {

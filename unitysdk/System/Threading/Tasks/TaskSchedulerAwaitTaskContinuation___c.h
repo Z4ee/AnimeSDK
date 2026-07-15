@@ -4,9 +4,9 @@
 
 namespace System { template <typename T> class Action_1; }
 
-#define SYSTEM_THREADING_TASKS_TASKSCHEDULERAWAITTASKCONTINUATION___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x18630C70)
-#define SYSTEM_THREADING_TASKS_TASKSCHEDULERAWAITTASKCONTINUATION___C__CTOR_OFFSET UNITYSDK_OFFSET(0x18630CB0)
-#define SYSTEM_THREADING_TASKS_TASKSCHEDULERAWAITTASKCONTINUATION___C__RUN_B__2_0_OFFSET UNITYSDK_OFFSET(0x18630CC0)
+#define SYSTEM_THREADING_TASKS_TASKSCHEDULERAWAITTASKCONTINUATION___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1A736350)
+#define SYSTEM_THREADING_TASKS_TASKSCHEDULERAWAITTASKCONTINUATION___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1A736390)
+#define SYSTEM_THREADING_TASKS_TASKSCHEDULERAWAITTASKCONTINUATION___C__RUN_B__2_0_OFFSET UNITYSDK_OFFSET(0x1A7363A0)
 
 namespace System::Threading::Tasks
 {
@@ -17,11 +17,11 @@ namespace System::Threading::Tasks
 	public:
 		static ::System::Action_1<::System::Object*>** StaticGet___9__2_0()
 		{
-			return (::System::Action_1<::System::Object*>**)Il2CppClass::FromTypeDefinitionIndex(TaskSchedulerAwaitTaskContinuation___c_TypeDefinitionIndex)->GetStaticField(0x12650);
+			return (::System::Action_1<::System::Object*>**)Il2CppClass::FromTypeDefinitionIndex(TaskSchedulerAwaitTaskContinuation___c_TypeDefinitionIndex)->GetStaticField(0x21920);
 		}
 		static ::System::Threading::Tasks::TaskSchedulerAwaitTaskContinuation___c** StaticGet___9()
 		{
-			return (::System::Threading::Tasks::TaskSchedulerAwaitTaskContinuation___c**)Il2CppClass::FromTypeDefinitionIndex(TaskSchedulerAwaitTaskContinuation___c_TypeDefinitionIndex)->GetStaticField(0x12658);
+			return (::System::Threading::Tasks::TaskSchedulerAwaitTaskContinuation___c**)Il2CppClass::FromTypeDefinitionIndex(TaskSchedulerAwaitTaskContinuation___c_TypeDefinitionIndex)->GetStaticField(0x21928);
 		}
 
 		static ::System::Void _cctor()

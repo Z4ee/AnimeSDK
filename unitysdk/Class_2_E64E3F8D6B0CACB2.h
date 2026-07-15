@@ -2,17 +2,17 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/TargetSeqOperationImpl_1.h"
 
-class Class_1_EF79F96DD047B849;
+class Class_1_DA32E543F3E152DD;
 namespace RPG::GameCore { class GameEntity; }
 namespace RPG::GameCore { class RtTargetMapEmptyGridNearby; }
 namespace RPG::GameCore { class TaskContext; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_2_E64E3F8D6B0CACB2_METHOD_2_2A6B87C525933554_OFFSET UNITYSDK_OFFSET(0xC4512E0)
-#define CLASS_2_E64E3F8D6B0CACB2_TRANSFORM_OFFSET UNITYSDK_OFFSET(0xC450870)
-#define CLASS_2_E64E3F8D6B0CACB2__CTOR_OFFSET UNITYSDK_OFFSET(0xC450850)
+#define CLASS_2_E64E3F8D6B0CACB2_METHOD_2_2A6B87C525933554_OFFSET UNITYSDK_OFFSET(0x17DCBAD0)
+#define CLASS_2_E64E3F8D6B0CACB2_TRANSFORM_OFFSET UNITYSDK_OFFSET(0x17DCB040)
+#define CLASS_2_E64E3F8D6B0CACB2__CTOR_OFFSET UNITYSDK_OFFSET(0x17DCB020)
 
-inline static constexpr unsigned int Class_2_E64E3F8D6B0CACB2_TypeDefinitionIndex = 50259;
+inline static constexpr unsigned int Class_2_E64E3F8D6B0CACB2_TypeDefinitionIndex = 51341;
 
 class Class_2_E64E3F8D6B0CACB2 : public ::RPG::GameCore::TargetSeqOperationImpl_1<::RPG::GameCore::RtTargetMapEmptyGridNearby*>
 {
@@ -29,8 +29,8 @@ public:
 		return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::System::Collections::Generic::List_1<::RPG::GameCore::GameEntity*>*))((::PBYTE)hIl2Cpp + CLASS_2_E64E3F8D6B0CACB2_TRANSFORM_OFFSET))(this, a1, a2);
 	}
 
-	::System::Boolean Method_2_2A6B87C525933554(::Class_1_EF79F96DD047B849* a1)
+	::System::Boolean Method_2_2A6B87C525933554(::Class_1_DA32E543F3E152DD* a1)
 	{
-		return ((::System::Boolean(*)(::PVOID, ::Class_1_EF79F96DD047B849*))((::PBYTE)hIl2Cpp + CLASS_2_E64E3F8D6B0CACB2_METHOD_2_2A6B87C525933554_OFFSET))(this, a1);
+		return ((::System::Boolean(*)(::PVOID, ::Class_1_DA32E543F3E152DD*))((::PBYTE)hIl2Cpp + CLASS_2_E64E3F8D6B0CACB2_METHOD_2_2A6B87C525933554_OFFSET))(this, a1);
 	}
 };

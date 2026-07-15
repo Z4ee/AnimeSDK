@@ -5,13 +5,13 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_TRIGGERTUTORIAL_METHOD_3_4E94DFFDF6163AAE_OFFSET UNITYSDK_OFFSET(0x19E1F3B0)
-#define RPG_GAMECORE_TRIGGERTUTORIAL_METHOD_3_FBE2B30AD3C9E1F6_OFFSET UNITYSDK_OFFSET(0x19E1F440)
-#define RPG_GAMECORE_TRIGGERTUTORIAL__CTOR_OFFSET UNITYSDK_OFFSET(0x19E1F410)
+#define RPG_GAMECORE_TRIGGERTUTORIAL_METHOD_3_1756F172989623EF_OFFSET UNITYSDK_OFFSET(0x1B060F50)
+#define RPG_GAMECORE_TRIGGERTUTORIAL_METHOD_3_FBE2B30AD3C9E1F6_OFFSET UNITYSDK_OFFSET(0x1B060FA0)
+#define RPG_GAMECORE_TRIGGERTUTORIAL__CTOR_OFFSET UNITYSDK_OFFSET(0x1B060F90)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TriggerTutorial_TypeDefinitionIndex = 23045;
+	inline static constexpr unsigned int TriggerTutorial_TypeDefinitionIndex = 23512;
 
 	class TriggerTutorial : public ::RPG::GameCore::TaskConfig
 	{
@@ -29,9 +29,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TRIGGERTUTORIAL__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_4E94DFFDF6163AAE(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::TriggerTutorial*& a2)
+		static ::System::Void Method_3_1756F172989623EF(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::TriggerTutorial*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::TriggerTutorial*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TRIGGERTUTORIAL_METHOD_3_4E94DFFDF6163AAE_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::TriggerTutorial*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TRIGGERTUTORIAL_METHOD_3_1756F172989623EF_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_FBE2B30AD3C9E1F6(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::TriggerTutorial* a2)

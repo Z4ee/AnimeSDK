@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int SmoothFollowType_TypeDefinitionIndex = 65510;
+	inline static constexpr unsigned int SmoothFollowType_TypeDefinitionIndex = 66925;
 
 	enum class SmoothFollowType : ::System::Int32
 	{

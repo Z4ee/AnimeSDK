@@ -3,7 +3,7 @@
 
 namespace UnityEngine::UI
 {
-	inline static constexpr unsigned int GraphicRaycaster_BlockingObjects_TypeDefinitionIndex = 5876;
+	inline static constexpr unsigned int GraphicRaycaster_BlockingObjects_TypeDefinitionIndex = 5881;
 
 	enum class GraphicRaycaster_BlockingObjects : ::System::Int32
 	{

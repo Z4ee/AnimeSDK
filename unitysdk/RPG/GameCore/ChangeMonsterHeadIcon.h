@@ -6,13 +6,13 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class TargetEvaluator; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_CHANGEMONSTERHEADICON_METHOD_3_3025E06ECA4C97CD_OFFSET UNITYSDK_OFFSET(0x196049A0)
-#define RPG_GAMECORE_CHANGEMONSTERHEADICON_METHOD_3_E2F513FECD3F3858_OFFSET UNITYSDK_OFFSET(0x19604A20)
-#define RPG_GAMECORE_CHANGEMONSTERHEADICON__CTOR_OFFSET UNITYSDK_OFFSET(0x196049F0)
+#define RPG_GAMECORE_CHANGEMONSTERHEADICON_METHOD_3_734658F2B4BA29B9_OFFSET UNITYSDK_OFFSET(0x1B71A980)
+#define RPG_GAMECORE_CHANGEMONSTERHEADICON_METHOD_3_E2F513FECD3F3858_OFFSET UNITYSDK_OFFSET(0x1B71A9C0)
+#define RPG_GAMECORE_CHANGEMONSTERHEADICON__CTOR_OFFSET UNITYSDK_OFFSET(0x1B71A9B0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ChangeMonsterHeadIcon_TypeDefinitionIndex = 22380;
+	inline static constexpr unsigned int ChangeMonsterHeadIcon_TypeDefinitionIndex = 22822;
 
 	class ChangeMonsterHeadIcon : public ::RPG::GameCore::TaskConfig
 	{
@@ -27,9 +27,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHANGEMONSTERHEADICON__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_3025E06ECA4C97CD(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ChangeMonsterHeadIcon*& a2)
+		static ::System::Void Method_3_734658F2B4BA29B9(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ChangeMonsterHeadIcon*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ChangeMonsterHeadIcon*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHANGEMONSTERHEADICON_METHOD_3_3025E06ECA4C97CD_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ChangeMonsterHeadIcon*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHANGEMONSTERHEADICON_METHOD_3_734658F2B4BA29B9_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_E2F513FECD3F3858(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ChangeMonsterHeadIcon* a2)

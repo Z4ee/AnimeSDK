@@ -5,13 +5,13 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_TRIGGERCUSTOMPHOTOGRAPHCONDITION_METHOD_3_75232C7FF086FA78_OFFSET UNITYSDK_OFFSET(0x19E0A1A0)
-#define RPG_GAMECORE_TRIGGERCUSTOMPHOTOGRAPHCONDITION_METHOD_3_FF6D4305DE2D4827_OFFSET UNITYSDK_OFFSET(0x19E0A120)
-#define RPG_GAMECORE_TRIGGERCUSTOMPHOTOGRAPHCONDITION__CTOR_OFFSET UNITYSDK_OFFSET(0x19E0A170)
+#define RPG_GAMECORE_TRIGGERCUSTOMPHOTOGRAPHCONDITION_METHOD_3_2091F1A9B473AE55_OFFSET UNITYSDK_OFFSET(0x1B047C10)
+#define RPG_GAMECORE_TRIGGERCUSTOMPHOTOGRAPHCONDITION_METHOD_3_75232C7FF086FA78_OFFSET UNITYSDK_OFFSET(0x1B047C50)
+#define RPG_GAMECORE_TRIGGERCUSTOMPHOTOGRAPHCONDITION__CTOR_OFFSET UNITYSDK_OFFSET(0x1B047C40)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TriggerCustomPhotoGraphCondition_TypeDefinitionIndex = 20416;
+	inline static constexpr unsigned int TriggerCustomPhotoGraphCondition_TypeDefinitionIndex = 20831;
 
 	class TriggerCustomPhotoGraphCondition : public ::RPG::GameCore::TaskConfig
 	{
@@ -25,9 +25,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TRIGGERCUSTOMPHOTOGRAPHCONDITION__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_FF6D4305DE2D4827(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::TriggerCustomPhotoGraphCondition*& a2)
+		static ::System::Void Method_3_2091F1A9B473AE55(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::TriggerCustomPhotoGraphCondition*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::TriggerCustomPhotoGraphCondition*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TRIGGERCUSTOMPHOTOGRAPHCONDITION_METHOD_3_FF6D4305DE2D4827_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::TriggerCustomPhotoGraphCondition*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TRIGGERCUSTOMPHOTOGRAPHCONDITION_METHOD_3_2091F1A9B473AE55_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_75232C7FF086FA78(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::TriggerCustomPhotoGraphCondition* a2)

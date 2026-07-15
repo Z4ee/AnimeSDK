@@ -6,13 +6,13 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class DynamicFloat; }
 namespace RPG::GameCore { class TaskConfig; }
 
-#define RPG_GAMECORE_WAITMATCHTHREEBIRDLOCATIONCHANGE_METHOD_4_79C23954B52C2212_OFFSET UNITYSDK_OFFSET(0x19E5A240)
-#define RPG_GAMECORE_WAITMATCHTHREEBIRDLOCATIONCHANGE_METHOD_4_C3F06E99892F8AB4_OFFSET UNITYSDK_OFFSET(0x19E5A160)
-#define RPG_GAMECORE_WAITMATCHTHREEBIRDLOCATIONCHANGE__CTOR_OFFSET UNITYSDK_OFFSET(0x19E5A1E0)
+#define RPG_GAMECORE_WAITMATCHTHREEBIRDLOCATIONCHANGE_METHOD_4_79C23954B52C2212_OFFSET UNITYSDK_OFFSET(0x1B8A8160)
+#define RPG_GAMECORE_WAITMATCHTHREEBIRDLOCATIONCHANGE_METHOD_4_F85C79CEA2C06003_OFFSET UNITYSDK_OFFSET(0x1B8A8110)
+#define RPG_GAMECORE_WAITMATCHTHREEBIRDLOCATIONCHANGE__CTOR_OFFSET UNITYSDK_OFFSET(0x1B8A8150)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int WaitMatchThreeBirdLocationChange_TypeDefinitionIndex = 19834;
+	inline static constexpr unsigned int WaitMatchThreeBirdLocationChange_TypeDefinitionIndex = 20194;
 
 	class WaitMatchThreeBirdLocationChange : public ::RPG::GameCore::AdvWaitingEventBase
 	{
@@ -25,9 +25,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_WAITMATCHTHREEBIRDLOCATIONCHANGE__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_4_C3F06E99892F8AB4(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::WaitMatchThreeBirdLocationChange*& a2)
+		static ::System::Void Method_4_F85C79CEA2C06003(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::WaitMatchThreeBirdLocationChange*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::WaitMatchThreeBirdLocationChange*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_WAITMATCHTHREEBIRDLOCATIONCHANGE_METHOD_4_C3F06E99892F8AB4_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::WaitMatchThreeBirdLocationChange*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_WAITMATCHTHREEBIRDLOCATIONCHANGE_METHOD_4_F85C79CEA2C06003_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_4_79C23954B52C2212(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::WaitMatchThreeBirdLocationChange* a2)

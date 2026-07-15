@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class ByCheckColonyTrace; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_B92795458E7A5C15_EVALUATE_OFFSET UNITYSDK_OFFSET(0xCBD25C0)
-#define CLASS_3_B92795458E7A5C15__CTOR_OFFSET UNITYSDK_OFFSET(0xCBD2590)
+#define CLASS_3_B92795458E7A5C15_EVALUATE_OFFSET UNITYSDK_OFFSET(0x17603910)
+#define CLASS_3_B92795458E7A5C15__CTOR_OFFSET UNITYSDK_OFFSET(0x176038E0)
 
-inline static constexpr unsigned int Class_3_B92795458E7A5C15_TypeDefinitionIndex = 49650;
+inline static constexpr unsigned int Class_3_B92795458E7A5C15_TypeDefinitionIndex = 50704;
 
 class Class_3_B92795458E7A5C15 : public ::RPG::GameCore::PredicateTaskBase_1<::RPG::GameCore::ByCheckColonyTrace*>
 {

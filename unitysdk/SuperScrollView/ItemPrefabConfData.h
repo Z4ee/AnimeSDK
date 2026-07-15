@@ -4,11 +4,11 @@
 
 namespace UnityEngine { class GameObject; }
 
-#define SUPERSCROLLVIEW_ITEMPREFABCONFDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xD0A36B0)
+#define SUPERSCROLLVIEW_ITEMPREFABCONFDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x14EDAE60)
 
 namespace SuperScrollView
 {
-	inline static constexpr unsigned int ItemPrefabConfData_TypeDefinitionIndex = 44950;
+	inline static constexpr unsigned int ItemPrefabConfData_TypeDefinitionIndex = 45868;
 
 	class ItemPrefabConfData : public ::System::Object
 	{

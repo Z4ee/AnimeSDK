@@ -1,14 +1,14 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Class_1_43BD383C98B4C0C5_120.h"
+#include "unitysdk/Class_1_43BD383C98B4C0C5_123.h"
 
 namespace RPG::GameCore { class AdventureHitConfig; }
 
-#define CLASS_2_EDD0929F76C2AE5B__CTOR_OFFSET UNITYSDK_OFFSET(0xD7E9AF0)
+#define CLASS_2_EDD0929F76C2AE5B__CTOR_OFFSET UNITYSDK_OFFSET(0x176F1110)
 
-inline static constexpr unsigned int Class_2_EDD0929F76C2AE5B_TypeDefinitionIndex = 53270;
+inline static constexpr unsigned int Class_2_EDD0929F76C2AE5B_TypeDefinitionIndex = 54485;
 
-class Class_2_EDD0929F76C2AE5B : public ::Class_1_43BD383C98B4C0C5_120
+class Class_2_EDD0929F76C2AE5B : public ::Class_1_43BD383C98B4C0C5_123
 {
 public:
 	::RPG::GameCore::AdventureHitConfig* Field_2_0; // 0x10

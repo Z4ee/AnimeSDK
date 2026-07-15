@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class ConvinceSplitLine; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_FDBFE81003A60FC9_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xA557160)
-#define CLASS_3_FDBFE81003A60FC9__CTOR_OFFSET UNITYSDK_OFFSET(0xA557130)
+#define CLASS_3_FDBFE81003A60FC9_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x152F0FC0)
+#define CLASS_3_FDBFE81003A60FC9__CTOR_OFFSET UNITYSDK_OFFSET(0x152F0F90)
 
-inline static constexpr unsigned int Class_3_FDBFE81003A60FC9_TypeDefinitionIndex = 49310;
+inline static constexpr unsigned int Class_3_FDBFE81003A60FC9_TypeDefinitionIndex = 50325;
 
 class Class_3_FDBFE81003A60FC9 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::ConvinceSplitLine*>
 {

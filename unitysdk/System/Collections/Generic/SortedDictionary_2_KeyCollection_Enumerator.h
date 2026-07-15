@@ -8,7 +8,7 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 
 namespace System::Collections::Generic
 {
-	inline static constexpr unsigned int SortedDictionary_2_KeyCollection_Enumerator_TypeDefinitionIndex = 3010;
+	inline static constexpr unsigned int SortedDictionary_2_KeyCollection_Enumerator_TypeDefinitionIndex = 3014;
 
 	template <typename TKey, typename TValue>
 	struct SortedDictionary_2_KeyCollection_Enumerator

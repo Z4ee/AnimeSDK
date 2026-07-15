@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MessageLinkType_TypeDefinitionIndex = 13737;
+	inline static constexpr unsigned int MessageLinkType_TypeDefinitionIndex = 13885;
 
 	enum class MessageLinkType : ::System::Int32
 	{

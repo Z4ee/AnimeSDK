@@ -5,12 +5,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_STAGEVOXELDATAINDEX_METHOD_2_A9A3C46B019714E0_OFFSET UNITYSDK_OFFSET(0x19CB1E20)
-#define RPG_GAMECORE_STAGEVOXELDATAINDEX__CTOR_OFFSET UNITYSDK_OFFSET(0x19CB2330)
+#define RPG_GAMECORE_STAGEVOXELDATAINDEX_METHOD_2_A9A3C46B019714E0_OFFSET UNITYSDK_OFFSET(0x1B0B7EA0)
+#define RPG_GAMECORE_STAGEVOXELDATAINDEX__CTOR_OFFSET UNITYSDK_OFFSET(0x1B0B83B0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int StageVoxelDataIndex_TypeDefinitionIndex = 18169;
+	inline static constexpr unsigned int StageVoxelDataIndex_TypeDefinitionIndex = 18402;
 
 	class StageVoxelDataIndex : public ::RPG::GameCore::JsonConfig
 	{

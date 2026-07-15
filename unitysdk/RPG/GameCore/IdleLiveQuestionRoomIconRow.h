@@ -4,18 +4,18 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_IDLELIVEQUESTIONROOMICONROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x19846530)
-#define RPG_GAMECORE_IDLELIVEQUESTIONROOMICONROW__CTOR_OFFSET UNITYSDK_OFFSET(0x19846650)
+#define RPG_GAMECORE_IDLELIVEQUESTIONROOMICONROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B698D40)
+#define RPG_GAMECORE_IDLELIVEQUESTIONROOMICONROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1B698E60)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int IdleLiveQuestionRoomIconRow_TypeDefinitionIndex = 11325;
+	inline static constexpr unsigned int IdleLiveQuestionRoomIconRow_TypeDefinitionIndex = 11425;
 
 	class IdleLiveQuestionRoomIconRow : public ::System::Object
 	{
 	public:
-		::System::UInt32 SpecialRoomIconID; // 0x10
-		::System::UInt32 ID; // 0x14
+		::System::UInt32 ID; // 0x10
+		::System::UInt32 SpecialRoomIconID; // 0x14
 
 		::System::Void _ctor()
 		{

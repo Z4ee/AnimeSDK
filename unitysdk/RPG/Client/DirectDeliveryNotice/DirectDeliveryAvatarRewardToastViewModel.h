@@ -2,21 +2,21 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/Sofa/Core/ObservableObject.h"
 
-class Class_1_2FDE33CCAE591AA8;
 namespace RPG::Client { class DirectDeliveryNoticeToastData; }
 namespace RPG::Client::DirectDeliveryNotice { class ActivityAvatarInfoViewModel; }
+namespace Sofa::Core { class SimpleCommand; }
 
-#define RPG_CLIENT_DIRECTDELIVERYNOTICE_DIRECTDELIVERYAVATARREWARDTOASTVIEWMODEL__CTOR_OFFSET UNITYSDK_OFFSET(0xB7F2EE0)
+#define RPG_CLIENT_DIRECTDELIVERYNOTICE_DIRECTDELIVERYAVATARREWARDTOASTVIEWMODEL__CTOR_OFFSET UNITYSDK_OFFSET(0x1A004B80)
 
 namespace RPG::Client::DirectDeliveryNotice
 {
-	inline static constexpr unsigned int DirectDeliveryAvatarRewardToastViewModel_TypeDefinitionIndex = 73902;
+	inline static constexpr unsigned int DirectDeliveryAvatarRewardToastViewModel_TypeDefinitionIndex = 76284;
 
 	class DirectDeliveryAvatarRewardToastViewModel : public ::Sofa::Core::ObservableObject
 	{
 	public:
-		::RPG::Client::DirectDeliveryNotice::ActivityAvatarInfoViewModel* AvatarInfo; // 0x18
-		::Class_1_2FDE33CCAE591AA8* OnBtnCollectClick; // 0x20
+		::Sofa::Core::SimpleCommand* OnBtnCollectClick; // 0x18
+		::RPG::Client::DirectDeliveryNotice::ActivityAvatarInfoViewModel* AvatarInfo; // 0x20
 
 		::System::Void _ctor(::RPG::Client::DirectDeliveryNoticeToastData* a1)
 		{

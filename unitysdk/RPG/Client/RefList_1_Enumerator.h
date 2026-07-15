@@ -7,7 +7,7 @@ namespace System { class Object; }
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int RefList_1_Enumerator_TypeDefinitionIndex = 33452;
+	inline static constexpr unsigned int RefList_1_Enumerator_TypeDefinitionIndex = 33822;
 
 	template <typename T>
 	struct RefList_1_Enumerator

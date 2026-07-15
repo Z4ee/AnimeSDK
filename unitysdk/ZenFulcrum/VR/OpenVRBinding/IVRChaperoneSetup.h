@@ -25,7 +25,7 @@ namespace ZenFulcrum::VR::OpenVRBinding { class IVRChaperoneSetup__SetWorkingSta
 
 namespace ZenFulcrum::VR::OpenVRBinding
 {
-	inline static constexpr unsigned int IVRChaperoneSetup_TypeDefinitionIndex = 36055;
+	inline static constexpr unsigned int IVRChaperoneSetup_TypeDefinitionIndex = 36837;
 
 	struct alignas(8) IVRChaperoneSetup
 	{

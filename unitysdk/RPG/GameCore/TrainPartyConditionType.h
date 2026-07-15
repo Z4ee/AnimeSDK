@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TrainPartyConditionType_TypeDefinitionIndex = 14678;
+	inline static constexpr unsigned int TrainPartyConditionType_TypeDefinitionIndex = 14837;
 
 	enum class TrainPartyConditionType : ::System::Int32
 	{

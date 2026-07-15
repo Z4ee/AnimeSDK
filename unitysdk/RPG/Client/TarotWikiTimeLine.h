@@ -6,22 +6,22 @@
 namespace RPG::Client { class TarotWikiSubTitle; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_TAROTWIKITIMELINE_ISNEW_OFFSET UNITYSDK_OFFSET(0xC9EBD90)
-#define RPG_CLIENT_TAROTWIKITIMELINE_MARKALLSEEN_OFFSET UNITYSDK_OFFSET(0xC9EAC30)
-#define RPG_CLIENT_TAROTWIKITIMELINE__CTOR_OFFSET UNITYSDK_OFFSET(0xC9EA7D0)
+#define RPG_CLIENT_TAROTWIKITIMELINE_ISNEW_OFFSET UNITYSDK_OFFSET(0x1854DAC0)
+#define RPG_CLIENT_TAROTWIKITIMELINE_MARKALLSEEN_OFFSET UNITYSDK_OFFSET(0x1854C810)
+#define RPG_CLIENT_TAROTWIKITIMELINE__CTOR_OFFSET UNITYSDK_OFFSET(0x1854C3B0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int TarotWikiTimeLine_TypeDefinitionIndex = 63695;
+	inline static constexpr unsigned int TarotWikiTimeLine_TypeDefinitionIndex = 65064;
 
 	class TarotWikiTimeLine : public ::System::Object
 	{
 	public:
 		::System::Collections::Generic::List_1<::RPG::Client::TarotWikiSubTitle*>* SubTitleList; // 0x10
-		::System::Single Progress; // 0x18
-		::System::UInt32 SpecialType; // 0x1C
-		::System::UInt32 ID; // 0x20
-		::RPG::Client::TextID TitleTextID; // 0x28
+		::System::UInt32 SpecialType; // 0x18
+		::RPG::Client::TextID TitleTextID; // 0x20
+		::System::UInt32 ID; // 0x30
+		::System::Single Progress; // 0x34
 
 		::System::Void _ctor(::System::UInt32 a1)
 		{

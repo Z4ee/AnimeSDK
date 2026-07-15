@@ -3,7 +3,7 @@
 
 namespace UnityEngine::Timeline
 {
-	inline static constexpr unsigned int TimeFieldAttribute_UseEditMode_TypeDefinitionIndex = 35926;
+	inline static constexpr unsigned int TimeFieldAttribute_UseEditMode_TypeDefinitionIndex = 36708;
 
 	enum class TimeFieldAttribute_UseEditMode : ::System::Int32
 	{

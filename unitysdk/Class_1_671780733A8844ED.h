@@ -10,32 +10,32 @@ namespace RPG::GameCore { class IdleLiveEquipPropertyRow; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_1_671780733A8844ED_GET_IDLELIVEPROPERTYTYPE_OFFSET UNITYSDK_OFFSET(0x13B49800)
-#define CLASS_1_671780733A8844ED_METHOD_1_1187FD85F8BDC1D1_OFFSET UNITYSDK_OFFSET(0x13B4AAC0)
-#define CLASS_1_671780733A8844ED_METHOD_1_126AB3935214AA22_OFFSET UNITYSDK_OFFSET(0x13B497E0)
-#define CLASS_1_671780733A8844ED_METHOD_1_59CF809F3C3FAAF4_OFFSET UNITYSDK_OFFSET(0x13B4B000)
-#define CLASS_1_671780733A8844ED_METHOD_1_5D65BD003B831CB6_OFFSET UNITYSDK_OFFSET(0x13B497F0)
-#define CLASS_1_671780733A8844ED_METHOD_1_D3A860C94F2DA104_OFFSET UNITYSDK_OFFSET(0x13B4A090)
-#define CLASS_1_671780733A8844ED_METHOD_1_DD1F80BD94ED96B3_OFFSET UNITYSDK_OFFSET(0x13B49820)
-#define CLASS_1_671780733A8844ED_SET_IDLELIVEPROPERTYTYPE_OFFSET UNITYSDK_OFFSET(0x13B49810)
-#define CLASS_1_671780733A8844ED__CTOR_1_OFFSET UNITYSDK_OFFSET(0x13B49D40)
-#define CLASS_1_671780733A8844ED__CTOR_OFFSET UNITYSDK_OFFSET(0x13B49940)
+#define CLASS_1_671780733A8844ED_GET_IDLELIVEPROPERTYTYPE_OFFSET UNITYSDK_OFFSET(0x161FB3D0)
+#define CLASS_1_671780733A8844ED_METHOD_1_1187FD85F8BDC1D1_OFFSET UNITYSDK_OFFSET(0x161FC680)
+#define CLASS_1_671780733A8844ED_METHOD_1_59CF809F3C3FAAF4_OFFSET UNITYSDK_OFFSET(0x161FCB90)
+#define CLASS_1_671780733A8844ED_METHOD_1_A939D99766724EBC_OFFSET UNITYSDK_OFFSET(0x161FB370)
+#define CLASS_1_671780733A8844ED_METHOD_1_B6585442ABC3B61F_OFFSET UNITYSDK_OFFSET(0x161FBC60)
+#define CLASS_1_671780733A8844ED_METHOD_1_DA1BF2C227DC3D86_OFFSET UNITYSDK_OFFSET(0x161FB330)
+#define CLASS_1_671780733A8844ED_METHOD_1_DD1F80BD94ED96B3_OFFSET UNITYSDK_OFFSET(0x161FB3F0)
+#define CLASS_1_671780733A8844ED_SET_IDLELIVEPROPERTYTYPE_OFFSET UNITYSDK_OFFSET(0x161FB3E0)
+#define CLASS_1_671780733A8844ED__CTOR_1_OFFSET UNITYSDK_OFFSET(0x161FB910)
+#define CLASS_1_671780733A8844ED__CTOR_OFFSET UNITYSDK_OFFSET(0x161FB510)
 
-inline static constexpr unsigned int Class_1_671780733A8844ED_TypeDefinitionIndex = 70200;
+inline static constexpr unsigned int Class_1_671780733A8844ED_TypeDefinitionIndex = 71723;
 
 class Class_1_671780733A8844ED : public ::System::Object
 {
 public:
-	::RPG::Client::ActivityIdleLive::IdleLiveDecimal Field_1_0; // 0x10
-	::System::Collections::Generic::List_1<::RPG::Client::ActivityIdleLive::IdleLiveDecimal>* Field_1_1; // 0x28
+	::System::String* Field_1_0; // 0x10
+	::RPG::Client::ActivityIdleLive::IdleLiveDecimal Field_1_1; // 0x18
 	::RPG::Client::ActivityIdleLive::IdleLiveDecimal Field_1_2; // 0x30
 	::RPG::Client::ActivityIdleLive::IdleLiveDecimal Field_1_3; // 0x48
-	::System::String* Field_1_4; // 0x60
-	::RPG::Client::ActivityIdleLive::IdleLiveDecimal Field_1_5; // 0x68
-	::RPG::Client::TextID Field_1_6; // 0x80
-	::RPG::GameCore::FixPoint Field_1_7; // 0x90
-	::RPG::GameCore::IdleLiveAvatarPropertyType _IdleLivePropertyType_k__BackingField; // 0x98
-	::System::Boolean Field_1_9; // 0x9C
+	::RPG::Client::ActivityIdleLive::IdleLiveDecimal Field_1_4; // 0x60
+	::System::Collections::Generic::List_1<::RPG::Client::ActivityIdleLive::IdleLiveDecimal>* Field_1_5; // 0x78
+	::RPG::GameCore::FixPoint Field_1_6; // 0x80
+	::RPG::Client::TextID Field_1_7; // 0x88
+	::System::Boolean Field_1_8; // 0x98
+	::RPG::GameCore::IdleLiveAvatarPropertyType _IdleLivePropertyType_k__BackingField; // 0x9C
 
 	::System::Void _ctor(::RPG::GameCore::IdleLiveEquipPropertyRow* a1, ::System::UInt32 a2)
 	{
@@ -47,14 +47,14 @@ public:
 		return ((::System::Void(*)(::PVOID, ::RPG::GameCore::IdleLiveAvatarPropertyType, ::RPG::GameCore::FixPoint, ::RPG::GameCore::FixPoint, ::RPG::GameCore::FixPoint, ::RPG::GameCore::FixPoint))((::PBYTE)hIl2Cpp + CLASS_1_671780733A8844ED__CTOR_1_OFFSET))(this, a1, a2, a3, a4, a5);
 	}
 
-	::System::String* Method_1_126AB3935214AA22()
+	::System::String* Method_1_DA1BF2C227DC3D86()
 	{
-		return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_671780733A8844ED_METHOD_1_126AB3935214AA22_OFFSET))(this);
+		return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_671780733A8844ED_METHOD_1_DA1BF2C227DC3D86_OFFSET))(this);
 	}
 
-	::RPG::Client::TextID Method_1_5D65BD003B831CB6()
+	::RPG::Client::TextID Method_1_A939D99766724EBC()
 	{
-		return ((::RPG::Client::TextID(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_671780733A8844ED_METHOD_1_5D65BD003B831CB6_OFFSET))(this);
+		return ((::RPG::Client::TextID(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_671780733A8844ED_METHOD_1_A939D99766724EBC_OFFSET))(this);
 	}
 
 	::RPG::GameCore::IdleLiveAvatarPropertyType get_IdleLivePropertyType()
@@ -72,9 +72,9 @@ public:
 		return ((::Class_1_671780733A8844ED*(*)(::System::UInt32, ::System::UInt32))((::PBYTE)hIl2Cpp + CLASS_1_671780733A8844ED_METHOD_1_DD1F80BD94ED96B3_OFFSET))(a1, a2);
 	}
 
-	::RPG::Client::ActivityIdleLive::IdleLiveDecimal Method_1_D3A860C94F2DA104(::RPG::Client::ActivityIdleLive::IdleLiveDecimal a1, ::RPG::Client::ActivityIdleLive::IdleLiveDecimal a2)
+	::RPG::Client::ActivityIdleLive::IdleLiveDecimal Method_1_B6585442ABC3B61F(::RPG::Client::ActivityIdleLive::IdleLiveDecimal a1, ::RPG::Client::ActivityIdleLive::IdleLiveDecimal a2)
 	{
-		return ((::RPG::Client::ActivityIdleLive::IdleLiveDecimal(*)(::PVOID, ::RPG::Client::ActivityIdleLive::IdleLiveDecimal, ::RPG::Client::ActivityIdleLive::IdleLiveDecimal))((::PBYTE)hIl2Cpp + CLASS_1_671780733A8844ED_METHOD_1_D3A860C94F2DA104_OFFSET))(this, a1, a2);
+		return ((::RPG::Client::ActivityIdleLive::IdleLiveDecimal(*)(::PVOID, ::RPG::Client::ActivityIdleLive::IdleLiveDecimal, ::RPG::Client::ActivityIdleLive::IdleLiveDecimal))((::PBYTE)hIl2Cpp + CLASS_1_671780733A8844ED_METHOD_1_B6585442ABC3B61F_OFFSET))(this, a1, a2);
 	}
 
 	::RPG::Client::ActivityIdleLive::IdleLiveDecimal Method_1_1187FD85F8BDC1D1(::RPG::Client::ActivityIdleLive::IdleLiveDecimal a1)

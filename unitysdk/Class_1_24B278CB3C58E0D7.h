@@ -5,9 +5,9 @@
 namespace RPG::Client { class GeneralAudioItem; }
 namespace UnityEngine { class GameObject; }
 
-#define CLASS_1_24B278CB3C58E0D7_METHOD_1_1D05975EBE70EF4B_OFFSET UNITYSDK_OFFSET(0x13674D90)
+#define CLASS_1_24B278CB3C58E0D7_METHOD_1_1D05975EBE70EF4B_OFFSET UNITYSDK_OFFSET(0x1701D110)
 
-inline static constexpr unsigned int Class_1_24B278CB3C58E0D7_TypeDefinitionIndex = 64014;
+inline static constexpr unsigned int Class_1_24B278CB3C58E0D7_TypeDefinitionIndex = 65385;
 
 class Class_1_24B278CB3C58E0D7 : public ::System::Object
 {

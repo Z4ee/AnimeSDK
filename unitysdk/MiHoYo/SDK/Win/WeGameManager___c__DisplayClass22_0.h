@@ -8,19 +8,19 @@ namespace MiHoYo::SDK { template <typename T> class CallbackModel_1; }
 namespace MiHoYo::SDK::Win { class WeGameManager; }
 namespace System { class String; }
 
-#define MIHOYO_SDK_WIN_WEGAMEMANAGER___C__DISPLAYCLASS22_0__CTOR_OFFSET UNITYSDK_OFFSET(0x182DAE30)
-#define MIHOYO_SDK_WIN_WEGAMEMANAGER___C__DISPLAYCLASS22_0__ONCREATEORDER_B__0_OFFSET UNITYSDK_OFFSET(0x182DB410)
-#define MIHOYO_SDK_WIN_WEGAMEMANAGER___C__DISPLAYCLASS22_0__ONCREATEORDER_B__1_OFFSET UNITYSDK_OFFSET(0x182DB370)
+#define MIHOYO_SDK_WIN_WEGAMEMANAGER___C__DISPLAYCLASS22_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1D1042E0)
+#define MIHOYO_SDK_WIN_WEGAMEMANAGER___C__DISPLAYCLASS22_0__ONCREATEORDER_B__0_OFFSET UNITYSDK_OFFSET(0x1D1048B0)
+#define MIHOYO_SDK_WIN_WEGAMEMANAGER___C__DISPLAYCLASS22_0__ONCREATEORDER_B__1_OFFSET UNITYSDK_OFFSET(0x1D104810)
 
 namespace MiHoYo::SDK::Win
 {
-	inline static constexpr unsigned int WeGameManager___c__DisplayClass22_0_TypeDefinitionIndex = 9136;
+	inline static constexpr unsigned int WeGameManager___c__DisplayClass22_0_TypeDefinitionIndex = 9148;
 
 	class WeGameManager___c__DisplayClass22_0 : public ::System::Object
 	{
 	public:
-		::MiHoYo::SDK::NetworkResponseModel* response; // 0x10
-		::MiHoYo::SDK::Win::WeGameManager* __4__this; // 0x18
+		::MiHoYo::SDK::Win::WeGameManager* __4__this; // 0x10
+		::MiHoYo::SDK::NetworkResponseModel* response; // 0x18
 
 		::System::Void _ctor()
 		{

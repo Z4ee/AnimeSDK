@@ -4,11 +4,11 @@
 
 namespace RPG::Client::ParkourGame { class MonoParkourProjectile; }
 
-#define RPG_CLIENT_PARKOURGAME_PARKOURSKILLCONFIG_FIRE__CTOR_OFFSET UNITYSDK_OFFSET(0xC33C270)
+#define RPG_CLIENT_PARKOURGAME_PARKOURSKILLCONFIG_FIRE__CTOR_OFFSET UNITYSDK_OFFSET(0x1A2EDD90)
 
 namespace RPG::Client::ParkourGame
 {
-	inline static constexpr unsigned int ParkourSkillConfig_Fire_TypeDefinitionIndex = 69206;
+	inline static constexpr unsigned int ParkourSkillConfig_Fire_TypeDefinitionIndex = 70727;
 
 	class ParkourSkillConfig_Fire : public ::RPG::Client::ParkourGame::ParkourSkillConfig
 	{

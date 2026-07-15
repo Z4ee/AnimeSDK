@@ -7,13 +7,13 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class BaseChimeraDuelEntitiesSelectorConfig; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_CHIMERADUELFIREEFFECTNODE_METHOD_3_4E4D5F853B075B6A_OFFSET UNITYSDK_OFFSET(0x1963DBA0)
-#define RPG_GAMECORE_CHIMERADUELFIREEFFECTNODE_METHOD_3_BBAFAECA530117CF_OFFSET UNITYSDK_OFFSET(0x1963DAA0)
-#define RPG_GAMECORE_CHIMERADUELFIREEFFECTNODE__CTOR_OFFSET UNITYSDK_OFFSET(0x1963DB40)
+#define RPG_GAMECORE_CHIMERADUELFIREEFFECTNODE_METHOD_3_3A6EB8D91BEAAB38_OFFSET UNITYSDK_OFFSET(0x1C23F400)
+#define RPG_GAMECORE_CHIMERADUELFIREEFFECTNODE_METHOD_3_4E4D5F853B075B6A_OFFSET UNITYSDK_OFFSET(0x1C23F480)
+#define RPG_GAMECORE_CHIMERADUELFIREEFFECTNODE__CTOR_OFFSET UNITYSDK_OFFSET(0x1C23F460)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ChimeraDuelFireEffectNode_TypeDefinitionIndex = 15180;
+	inline static constexpr unsigned int ChimeraDuelFireEffectNode_TypeDefinitionIndex = 15344;
 
 	class ChimeraDuelFireEffectNode : public ::RPG::GameCore::BaseChimeraDuelNode
 	{
@@ -29,9 +29,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHIMERADUELFIREEFFECTNODE__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_BBAFAECA530117CF(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ChimeraDuelFireEffectNode*& a2)
+		static ::System::Void Method_3_3A6EB8D91BEAAB38(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ChimeraDuelFireEffectNode*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ChimeraDuelFireEffectNode*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHIMERADUELFIREEFFECTNODE_METHOD_3_BBAFAECA530117CF_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ChimeraDuelFireEffectNode*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHIMERADUELFIREEFFECTNODE_METHOD_3_3A6EB8D91BEAAB38_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_4E4D5F853B075B6A(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ChimeraDuelFireEffectNode* a2)

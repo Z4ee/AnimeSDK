@@ -12,19 +12,19 @@ namespace UnityEngine { class Material; }
 namespace UnityEngine { class MaterialPropertyBlock; }
 namespace UnityEngine::Rendering { class CommandBuffer; }
 
-#define RPG_CUSTOMRP_RPGBLOOMRENDERER_FRAMECLEANUP_OFFSET UNITYSDK_OFFSET(0x18EF1650)
-#define RPG_CUSTOMRP_RPGBLOOMRENDERER_INITPYRAMIDS_OFFSET UNITYSDK_OFFSET(0x18EF18E0)
-#define RPG_CUSTOMRP_RPGBLOOMRENDERER_INITUVTRANSANDCLAMP_OFFSET UNITYSDK_OFFSET(0x18EF4380)
-#define RPG_CUSTOMRP_RPGBLOOMRENDERER_INNEREXECUTE_OFFSET UNITYSDK_OFFSET(0x18EF1800)
-#define RPG_CUSTOMRP_RPGBLOOMRENDERER_RENDER_ATLASMODE_OFFSET UNITYSDK_OFFSET(0x18EF2170)
-#define RPG_CUSTOMRP_RPGBLOOMRENDERER_RENDER_EXTRACTBRIGHTNESS_OFFSET UNITYSDK_OFFSET(0x18EF44A0)
-#define RPG_CUSTOMRP_RPGBLOOMRENDERER_RENDER_TEXTUREMODE_OFFSET UNITYSDK_OFFSET(0x18EF4EB0)
-#define RPG_CUSTOMRP_RPGBLOOMRENDERER_SETUPBLOOMTEX_OFFSET UNITYSDK_OFFSET(0x18EF16D0)
-#define RPG_CUSTOMRP_RPGBLOOMRENDERER__CTOR_OFFSET UNITYSDK_OFFSET(0x18EF0F70)
+#define RPG_CUSTOMRP_RPGBLOOMRENDERER_FRAMECLEANUP_OFFSET UNITYSDK_OFFSET(0x16BF7270)
+#define RPG_CUSTOMRP_RPGBLOOMRENDERER_INITPYRAMIDS_OFFSET UNITYSDK_OFFSET(0x16BF7500)
+#define RPG_CUSTOMRP_RPGBLOOMRENDERER_INITUVTRANSANDCLAMP_OFFSET UNITYSDK_OFFSET(0x16BF9FA0)
+#define RPG_CUSTOMRP_RPGBLOOMRENDERER_INNEREXECUTE_OFFSET UNITYSDK_OFFSET(0x16BF7420)
+#define RPG_CUSTOMRP_RPGBLOOMRENDERER_RENDER_ATLASMODE_OFFSET UNITYSDK_OFFSET(0x16BF7D90)
+#define RPG_CUSTOMRP_RPGBLOOMRENDERER_RENDER_EXTRACTBRIGHTNESS_OFFSET UNITYSDK_OFFSET(0x16BFA0C0)
+#define RPG_CUSTOMRP_RPGBLOOMRENDERER_RENDER_TEXTUREMODE_OFFSET UNITYSDK_OFFSET(0x16BFACB0)
+#define RPG_CUSTOMRP_RPGBLOOMRENDERER_SETUPBLOOMTEX_OFFSET UNITYSDK_OFFSET(0x16BF72F0)
+#define RPG_CUSTOMRP_RPGBLOOMRENDERER__CTOR_OFFSET UNITYSDK_OFFSET(0x16BF6B90)
 
 namespace RPG::CustomRP
 {
-	inline static constexpr unsigned int RPGBloomRenderer_TypeDefinitionIndex = 35465;
+	inline static constexpr unsigned int RPGBloomRenderer_TypeDefinitionIndex = 36247;
 
 	class RPGBloomRenderer : public ::RPG::CustomRP::CRPPostprocessSubPass2
 	{
@@ -32,14 +32,14 @@ namespace RPG::CustomRP
 		// static const ::System::Int32 PyramidSize = 0x4; // 0x0
 		// static const ::System::Int32 GaussArraySize = 0x20; // 0x0
 		::Il2CppArray<::UnityEngine::Vector4>* m_UVClamp; // 0x28
-		::Il2CppArray<::RPG::CustomRP::RPGBloomRenderer_Pyramid*>* m_Pyramids; // 0x30
-		::Il2CppArray<::RPG::CustomRP::RTIDHandle>* _BrightnessTex; // 0x38
-		::UnityEngine::Material* m_UberMat; // 0x40
-		::UnityEngine::MaterialPropertyBlock* m_UberSheet; // 0x48
-		::RPG::CustomRP::GaussianFilterKernel* m_GaussianFilterKernel; // 0x50
+		::UnityEngine::MaterialPropertyBlock* m_UberSheet; // 0x30
+		::UnityEngine::Material* m_UberMat; // 0x38
+		::Il2CppArray<::RPG::CustomRP::RPGBloomRenderer_Pyramid*>* m_Pyramids; // 0x40
+		::RPG::CustomRP::GaussianFilterKernel* m_GaussianFilterKernel; // 0x48
+		::Il2CppArray<::RPG::CustomRP::RTIDHandle>* _BrightnessTex; // 0x50
 		::Il2CppArray<::UnityEngine::Vector4>* m_UVTrans; // 0x58
-		::System::Int32 m_BrightIndex; // 0x60
-		::RPG::CustomRP::RTIDHandle _BloomAtlasTex; // 0x68
+		::RPG::CustomRP::RTIDHandle _BloomAtlasTex; // 0x60
+		::System::Int32 m_BrightIndex; // 0x98
 		::RPG::CustomRP::RTIDHandle _BloomAtlasTexTmp; // 0xA0
 
 		::System::Void _ctor(::RPG::CustomRP::MaterialLibrary* a1, ::UnityEngine::MaterialPropertyBlock* a2)

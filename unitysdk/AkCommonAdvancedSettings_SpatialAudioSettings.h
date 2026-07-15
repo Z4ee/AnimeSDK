@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define AKCOMMONADVANCEDSETTINGS_SPATIALAUDIOSETTINGS__CTOR_OFFSET UNITYSDK_OFFSET(0x1B425FD0)
+#define AKCOMMONADVANCEDSETTINGS_SPATIALAUDIOSETTINGS__CTOR_OFFSET UNITYSDK_OFFSET(0x1B95FD20)
 
-inline static constexpr unsigned int AkCommonAdvancedSettings_SpatialAudioSettings_TypeDefinitionIndex = 41223;
+inline static constexpr unsigned int AkCommonAdvancedSettings_SpatialAudioSettings_TypeDefinitionIndex = 42038;
 
 class AkCommonAdvancedSettings_SpatialAudioSettings : public ::System::Object
 {

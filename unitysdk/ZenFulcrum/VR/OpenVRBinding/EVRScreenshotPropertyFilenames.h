@@ -3,7 +3,7 @@
 
 namespace ZenFulcrum::VR::OpenVRBinding
 {
-	inline static constexpr unsigned int EVRScreenshotPropertyFilenames_TypeDefinitionIndex = 36301;
+	inline static constexpr unsigned int EVRScreenshotPropertyFilenames_TypeDefinitionIndex = 37083;
 
 	enum class EVRScreenshotPropertyFilenames : ::System::Int32
 	{

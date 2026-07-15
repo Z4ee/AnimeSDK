@@ -10,7 +10,7 @@ namespace System::Collections::Generic { template <typename T> class IEnumerator
 
 namespace RPGTools::Octree::Common
 {
-	inline static constexpr unsigned int PriorityQueue_1_UnorderedItemsCollection_TypeDefinitionIndex = 46145;
+	inline static constexpr unsigned int PriorityQueue_1_UnorderedItemsCollection_TypeDefinitionIndex = 47084;
 
 	template <typename TElement>
 	class PriorityQueue_1_UnorderedItemsCollection : public ::System::Object

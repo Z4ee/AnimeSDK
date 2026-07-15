@@ -4,22 +4,22 @@
 
 namespace RPG::Client { template <typename T1, typename T2> class RogueInstanceCacheManager_2; }
 
-#define RPG_CLIENT_ROGUETOURNPERSONAPRESETROOMCARDDATA_GETDATA_OFFSET UNITYSDK_OFFSET(0xC84A700)
-#define RPG_CLIENT_ROGUETOURNPERSONAPRESETROOMCARDDATA_GET_PRESETID_OFFSET UNITYSDK_OFFSET(0xC84AB70)
-#define RPG_CLIENT_ROGUETOURNPERSONAPRESETROOMCARDDATA__CCTOR_OFFSET UNITYSDK_OFFSET(0xC84AB80)
-#define RPG_CLIENT_ROGUETOURNPERSONAPRESETROOMCARDDATA__CREATE_OFFSET UNITYSDK_OFFSET(0xC84A790)
-#define RPG_CLIENT_ROGUETOURNPERSONAPRESETROOMCARDDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xC84A580)
+#define RPG_CLIENT_ROGUETOURNPERSONAPRESETROOMCARDDATA_GETDATA_OFFSET UNITYSDK_OFFSET(0x1AA6B580)
+#define RPG_CLIENT_ROGUETOURNPERSONAPRESETROOMCARDDATA_GET_PRESETID_OFFSET UNITYSDK_OFFSET(0x1AA6B910)
+#define RPG_CLIENT_ROGUETOURNPERSONAPRESETROOMCARDDATA__CCTOR_OFFSET UNITYSDK_OFFSET(0x1AA6B950)
+#define RPG_CLIENT_ROGUETOURNPERSONAPRESETROOMCARDDATA__CREATE_OFFSET UNITYSDK_OFFSET(0x1AA6B610)
+#define RPG_CLIENT_ROGUETOURNPERSONAPRESETROOMCARDDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x1AA6B4C0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int RogueTournPersonaPresetRoomCardData_TypeDefinitionIndex = 63359;
+	inline static constexpr unsigned int RogueTournPersonaPresetRoomCardData_TypeDefinitionIndex = 64726;
 
 	class RogueTournPersonaPresetRoomCardData : public ::RPG::Client::RogueTournPersonaRoomCardDataBase
 	{
 	public:
 		static ::RPG::Client::RogueInstanceCacheManager_2<::System::UInt32, ::RPG::Client::RogueTournPersonaPresetRoomCardData*>** StaticGet__CacheManager()
 		{
-			return (::RPG::Client::RogueInstanceCacheManager_2<::System::UInt32, ::RPG::Client::RogueTournPersonaPresetRoomCardData*>**)Il2CppClass::FromTypeDefinitionIndex(RogueTournPersonaPresetRoomCardData_TypeDefinitionIndex)->GetStaticField(0x42570);
+			return (::RPG::Client::RogueInstanceCacheManager_2<::System::UInt32, ::RPG::Client::RogueTournPersonaPresetRoomCardData*>**)Il2CppClass::FromTypeDefinitionIndex(RogueTournPersonaPresetRoomCardData_TypeDefinitionIndex)->GetStaticField(0x2CB20);
 		}
 		::System::UInt32 _PresetID; // 0x30
 

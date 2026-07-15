@@ -5,12 +5,11 @@
 namespace RPG::GameCore { class DistrictSetupGeometryTrigger; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_E008AEAC0533D08F_DISPOSE_OFFSET UNITYSDK_OFFSET(0xB05F030)
-#define CLASS_3_E008AEAC0533D08F_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB05F070)
-#define CLASS_3_E008AEAC0533D08F__CTOR_OFFSET UNITYSDK_OFFSET(0xB05F000)
-#define CLASS_3_E008AEAC0533D08F___IFIXBASEPROXY_DISPOSE_OFFSET UNITYSDK_OFFSET(0xB05F270)
+#define CLASS_3_E008AEAC0533D08F_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1745AFC0)
+#define CLASS_3_E008AEAC0533D08F_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1745B000)
+#define CLASS_3_E008AEAC0533D08F__CTOR_OFFSET UNITYSDK_OFFSET(0x1745AF90)
 
-inline static constexpr unsigned int Class_3_E008AEAC0533D08F_TypeDefinitionIndex = 54285;
+inline static constexpr unsigned int Class_3_E008AEAC0533D08F_TypeDefinitionIndex = 55508;
 
 class Class_3_E008AEAC0533D08F : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::DistrictSetupGeometryTrigger*>
 {
@@ -28,10 +27,5 @@ public:
 	::System::Void OnTaskBegin()
 	{
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_3_E008AEAC0533D08F_ONTASKBEGIN_OFFSET))(this);
-	}
-
-	::System::Void __iFixBaseProxy_Dispose()
-	{
-		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_3_E008AEAC0533D08F___IFIXBASEPROXY_DISPOSE_OFFSET))(this);
 	}
 };

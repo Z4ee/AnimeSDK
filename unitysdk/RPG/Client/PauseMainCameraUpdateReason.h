@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int PauseMainCameraUpdateReason_TypeDefinitionIndex = 65176;
+	inline static constexpr unsigned int PauseMainCameraUpdateReason_TypeDefinitionIndex = 66585;
 
 	enum class PauseMainCameraUpdateReason : ::System::Int32
 	{

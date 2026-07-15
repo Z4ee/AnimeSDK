@@ -1,0 +1,103 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/RPG/Client/LittleGameShare/Services_1.h"
+
+class Class_1_0AE74383D8A43588;
+class Class_1_3659AE0E8250857A;
+class Class_1_BD10A3BCF7C68615;
+class Class_2_3616FDE8A71D0590_4;
+class Class_2_465A9E6CC2B0EF21;
+class Class_4_2281AFAA5CEEDF24;
+namespace RPG::Client::LittleGameShare::HoyoPhysics { template <typename T> class Physics2DService_1; }
+
+#define CLASS_2_35962C2B7535512E_DISPOSE_OFFSET UNITYSDK_OFFSET(0x18189FE0)
+#define CLASS_2_35962C2B7535512E_GET_AISERVICE_OFFSET UNITYSDK_OFFSET(0x1818A160)
+#define CLASS_2_35962C2B7535512E_GET_INPUTSERVICE_OFFSET UNITYSDK_OFFSET(0x1818A140)
+#define CLASS_2_35962C2B7535512E_GET_INSTANCECLIENT_OFFSET UNITYSDK_OFFSET(0x1818A190)
+#define CLASS_2_35962C2B7535512E_GET_PHYSICS2DSERVICE_OFFSET UNITYSDK_OFFSET(0x1818A120)
+#define CLASS_2_35962C2B7535512E_GET_RANDSERVICE_OFFSET UNITYSDK_OFFSET(0x1818A100)
+#define CLASS_2_35962C2B7535512E_METHOD_2_43A46E5F9FAC62B8_OFFSET UNITYSDK_OFFSET(0x1818A180)
+#define CLASS_2_35962C2B7535512E_SET_AISERVICE_OFFSET UNITYSDK_OFFSET(0x1818A170)
+#define CLASS_2_35962C2B7535512E_SET_INPUTSERVICE_OFFSET UNITYSDK_OFFSET(0x1818A150)
+#define CLASS_2_35962C2B7535512E_SET_INSTANCECLIENT_OFFSET UNITYSDK_OFFSET(0x1818A1A0)
+#define CLASS_2_35962C2B7535512E_SET_PHYSICS2DSERVICE_OFFSET UNITYSDK_OFFSET(0x1818A130)
+#define CLASS_2_35962C2B7535512E_SET_RANDSERVICE_OFFSET UNITYSDK_OFFSET(0x1818A110)
+#define CLASS_2_35962C2B7535512E__CTOR_OFFSET UNITYSDK_OFFSET(0x18189E70)
+
+inline static constexpr unsigned int Class_2_35962C2B7535512E_TypeDefinitionIndex = 35571;
+
+class Class_2_35962C2B7535512E : public ::RPG::Client::LittleGameShare::Services_1<::Class_2_465A9E6CC2B0EF21*>
+{
+public:
+	::Class_1_3659AE0E8250857A* _RandService_k__BackingField; // 0x10
+	::Class_1_BD10A3BCF7C68615* _AIService_k__BackingField; // 0x18
+	::RPG::Client::LittleGameShare::HoyoPhysics::Physics2DService_1<::Class_2_465A9E6CC2B0EF21*>* _Physics2DService_k__BackingField; // 0x20
+	::Class_2_3616FDE8A71D0590_4* Field_2_3; // 0x28
+	::Class_1_0AE74383D8A43588* _InputService_k__BackingField; // 0x30
+	::Class_4_2281AFAA5CEEDF24* _InstanceClient_k__BackingField; // 0x38
+
+	::System::Void _ctor(::Class_4_2281AFAA5CEEDF24* a1, ::Class_2_3616FDE8A71D0590_4* a2)
+	{
+		return ((::System::Void(*)(::PVOID, ::Class_4_2281AFAA5CEEDF24*, ::Class_2_3616FDE8A71D0590_4*))((::PBYTE)hIl2Cpp + CLASS_2_35962C2B7535512E__CTOR_OFFSET))(this, a1, a2);
+	}
+
+	::System::Void Dispose()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_35962C2B7535512E_DISPOSE_OFFSET))(this);
+	}
+
+	::Class_1_3659AE0E8250857A* get_RandService()
+	{
+		return ((::Class_1_3659AE0E8250857A*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_35962C2B7535512E_GET_RANDSERVICE_OFFSET))(this);
+	}
+
+	::System::Void set_RandService(::Class_1_3659AE0E8250857A* a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::Class_1_3659AE0E8250857A*))((::PBYTE)hIl2Cpp + CLASS_2_35962C2B7535512E_SET_RANDSERVICE_OFFSET))(this, a1);
+	}
+
+	::RPG::Client::LittleGameShare::HoyoPhysics::Physics2DService_1<::Class_2_465A9E6CC2B0EF21*>* get_Physics2DService()
+	{
+		return ((::RPG::Client::LittleGameShare::HoyoPhysics::Physics2DService_1<::Class_2_465A9E6CC2B0EF21*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_35962C2B7535512E_GET_PHYSICS2DSERVICE_OFFSET))(this);
+	}
+
+	::System::Void set_Physics2DService(::RPG::Client::LittleGameShare::HoyoPhysics::Physics2DService_1<::Class_2_465A9E6CC2B0EF21*>* a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::RPG::Client::LittleGameShare::HoyoPhysics::Physics2DService_1<::Class_2_465A9E6CC2B0EF21*>*))((::PBYTE)hIl2Cpp + CLASS_2_35962C2B7535512E_SET_PHYSICS2DSERVICE_OFFSET))(this, a1);
+	}
+
+	::Class_1_0AE74383D8A43588* get_InputService()
+	{
+		return ((::Class_1_0AE74383D8A43588*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_35962C2B7535512E_GET_INPUTSERVICE_OFFSET))(this);
+	}
+
+	::System::Void set_InputService(::Class_1_0AE74383D8A43588* a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::Class_1_0AE74383D8A43588*))((::PBYTE)hIl2Cpp + CLASS_2_35962C2B7535512E_SET_INPUTSERVICE_OFFSET))(this, a1);
+	}
+
+	::Class_1_BD10A3BCF7C68615* get_AIService()
+	{
+		return ((::Class_1_BD10A3BCF7C68615*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_35962C2B7535512E_GET_AISERVICE_OFFSET))(this);
+	}
+
+	::System::Void set_AIService(::Class_1_BD10A3BCF7C68615* a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::Class_1_BD10A3BCF7C68615*))((::PBYTE)hIl2Cpp + CLASS_2_35962C2B7535512E_SET_AISERVICE_OFFSET))(this, a1);
+	}
+
+	::Class_2_3616FDE8A71D0590_4* Method_2_43A46E5F9FAC62B8()
+	{
+		return ((::Class_2_3616FDE8A71D0590_4*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_35962C2B7535512E_METHOD_2_43A46E5F9FAC62B8_OFFSET))(this);
+	}
+
+	::Class_4_2281AFAA5CEEDF24* get_InstanceClient()
+	{
+		return ((::Class_4_2281AFAA5CEEDF24*(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_35962C2B7535512E_GET_INSTANCECLIENT_OFFSET))(this);
+	}
+
+	::System::Void set_InstanceClient(::Class_4_2281AFAA5CEEDF24* a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::Class_4_2281AFAA5CEEDF24*))((::PBYTE)hIl2Cpp + CLASS_2_35962C2B7535512E_SET_INSTANCECLIENT_OFFSET))(this, a1);
+	}
+};

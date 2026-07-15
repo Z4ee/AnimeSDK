@@ -6,13 +6,13 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_SO_MOVETO_METHOD_4_DF7E136865B9FAD6_OFFSET UNITYSDK_OFFSET(0x19BFD120)
-#define RPG_GAMECORE_SO_MOVETO_METHOD_4_E479E51F9D0612B3_OFFSET UNITYSDK_OFFSET(0x19BFE020)
-#define RPG_GAMECORE_SO_MOVETO__CTOR_OFFSET UNITYSDK_OFFSET(0x19BFD0F0)
+#define RPG_GAMECORE_SO_MOVETO_METHOD_4_9BD141907EDF4FC8_OFFSET UNITYSDK_OFFSET(0x1B7767B0)
+#define RPG_GAMECORE_SO_MOVETO_METHOD_4_FA907C27DBFD8845_OFFSET UNITYSDK_OFFSET(0x1B775980)
+#define RPG_GAMECORE_SO_MOVETO__CTOR_OFFSET UNITYSDK_OFFSET(0x1B775970)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SO_MoveTo_TypeDefinitionIndex = 18933;
+	inline static constexpr unsigned int SO_MoveTo_TypeDefinitionIndex = 19283;
 
 	class SO_MoveTo : public ::RPG::GameCore::SOTaskConfig
 	{
@@ -29,14 +29,14 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SO_MOVETO__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_4_E479E51F9D0612B3(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SO_MoveTo*& a2)
+		static ::System::Void Method_4_9BD141907EDF4FC8(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SO_MoveTo*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SO_MoveTo*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SO_MOVETO_METHOD_4_E479E51F9D0612B3_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SO_MoveTo*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SO_MOVETO_METHOD_4_9BD141907EDF4FC8_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_4_DF7E136865B9FAD6(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SO_MoveTo* a2)
+		static ::System::Void Method_4_FA907C27DBFD8845(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SO_MoveTo* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SO_MoveTo*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SO_MOVETO_METHOD_4_DF7E136865B9FAD6_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SO_MoveTo*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SO_MOVETO_METHOD_4_FA907C27DBFD8845_OFFSET))(a1, a2);
 		}
 	};
 }

@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int VoiceType_TypeDefinitionIndex = 57376;
+	inline static constexpr unsigned int VoiceType_TypeDefinitionIndex = 58638;
 
 	enum class VoiceType : ::System::Int32
 	{

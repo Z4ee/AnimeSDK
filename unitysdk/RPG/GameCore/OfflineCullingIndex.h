@@ -6,12 +6,12 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_OFFLINECULLINGINDEX_METHOD_2_46684A9A889FD5C4_OFFSET UNITYSDK_OFFSET(0x199D5930)
-#define RPG_GAMECORE_OFFLINECULLINGINDEX__CTOR_OFFSET UNITYSDK_OFFSET(0x199D5D80)
+#define RPG_GAMECORE_OFFLINECULLINGINDEX_METHOD_2_46684A9A889FD5C4_OFFSET UNITYSDK_OFFSET(0x1BAFFDC0)
+#define RPG_GAMECORE_OFFLINECULLINGINDEX__CTOR_OFFSET UNITYSDK_OFFSET(0x1BB00210)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int OfflineCullingIndex_TypeDefinitionIndex = 18186;
+	inline static constexpr unsigned int OfflineCullingIndex_TypeDefinitionIndex = 18419;
 
 	class OfflineCullingIndex : public ::RPG::GameCore::JsonConfig
 	{

@@ -1,12 +1,12 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-class Class_0_16E4307DCC419505_1218;
-class Class_1_70D2E0F3216AAE0C_4;
-class Class_1_F963C9FA5FC80637;
-namespace RPG::Client::Promises { template <typename T> class IPromise_1; }
+class Class_1_AF312BD3F30375EA;
+class Class_1_F337A9F92447BC21;
+class Class_2_9C6E272E2C8F4E2F;
+class Class_2_B66C1067C0468FBB;
 
-inline static constexpr unsigned int Class_0_16E4307DCC419505_1214_TypeDefinitionIndex = 74113;
+inline static constexpr unsigned int Class_0_16E4307DCC419505_1214_TypeDefinitionIndex = 73597;
 
 class Class_0_16E4307DCC419505_1214
 {

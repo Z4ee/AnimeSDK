@@ -5,12 +5,12 @@
 namespace ScenenLightManager { class BaseComponentExportData; }
 namespace ScenenLightManager { class CharacterLineLightGroup_ExportData; }
 
-#define SCENENLIGHTMANAGER_CHARACTERLINELIGHTGROUP_SCENELIGHTEXPORTDATA_METHOD_3_5E6C930E38E03A19_OFFSET UNITYSDK_OFFSET(0xD07B040)
-#define SCENENLIGHTMANAGER_CHARACTERLINELIGHTGROUP_SCENELIGHTEXPORTDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xD07B050)
+#define SCENENLIGHTMANAGER_CHARACTERLINELIGHTGROUP_SCENELIGHTEXPORTDATA_METHOD_3_5E6C930E38E03A19_OFFSET UNITYSDK_OFFSET(0x19F6BD70)
+#define SCENENLIGHTMANAGER_CHARACTERLINELIGHTGROUP_SCENELIGHTEXPORTDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x19F6BD80)
 
 namespace ScenenLightManager
 {
-	inline static constexpr unsigned int CharacterLineLightGroup_SceneLightExportData_TypeDefinitionIndex = 46239;
+	inline static constexpr unsigned int CharacterLineLightGroup_SceneLightExportData_TypeDefinitionIndex = 47204;
 
 	class CharacterLineLightGroup_SceneLightExportData : public ::ScenenLightManager::BaseSceneLightExportData
 	{

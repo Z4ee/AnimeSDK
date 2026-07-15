@@ -3,7 +3,7 @@
 
 namespace RPG::Client::LimaoNews
 {
-	inline static constexpr unsigned int LimaoNewsCommentAnimationFlag_TypeDefinitionIndex = 73859;
+	inline static constexpr unsigned int LimaoNewsCommentAnimationFlag_TypeDefinitionIndex = 75510;
 
 	enum class LimaoNewsCommentAnimationFlag : ::System::Int32
 	{

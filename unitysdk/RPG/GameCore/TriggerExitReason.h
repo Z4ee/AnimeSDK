@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TriggerExitReason_TypeDefinitionIndex = 53722;
+	inline static constexpr unsigned int TriggerExitReason_TypeDefinitionIndex = 54941;
 
 	enum class TriggerExitReason : ::System::Int32
 	{

@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ServerEffectSourceType_TypeDefinitionIndex = 16650;
+	inline static constexpr unsigned int ServerEffectSourceType_TypeDefinitionIndex = 16812;
 
 	enum class ServerEffectSourceType : ::System::Int32
 	{

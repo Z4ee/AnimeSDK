@@ -6,24 +6,24 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_FIGHTFESTPAPERINTERVIEWROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1971BF20)
-#define RPG_GAMECORE_FIGHTFESTPAPERINTERVIEWROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1971C2F0)
+#define RPG_GAMECORE_FIGHTFESTPAPERINTERVIEWROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1BA7C230)
+#define RPG_GAMECORE_FIGHTFESTPAPERINTERVIEWROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1BA7C600)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FightFestPaperInterviewRow_TypeDefinitionIndex = 12656;
+	inline static constexpr unsigned int FightFestPaperInterviewRow_TypeDefinitionIndex = 12793;
 
 	class FightFestPaperInterviewRow : public ::System::Object
 	{
 	public:
 		::System::String* IconPath; // 0x10
-		::RPG::Client::TextID Comment; // 0x18
-		::System::UInt32 SortWeight; // 0x28
-		::System::UInt32 TextJoinItemID; // 0x2C
+		::System::UInt32 SortWeight; // 0x18
+		::System::UInt32 TextJoinItemID; // 0x1C
+		::RPG::Client::TextID Name; // 0x20
 		::RPG::Client::TextID Detail; // 0x30
 		::RPG::Client::TextID Info; // 0x40
-		::System::UInt32 PaperID; // 0x50
-		::RPG::Client::TextID Name; // 0x58
+		::RPG::Client::TextID Comment; // 0x50
+		::System::UInt32 PaperID; // 0x60
 
 		::System::Void _ctor()
 		{

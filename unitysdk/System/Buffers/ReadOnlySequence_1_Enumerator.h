@@ -7,7 +7,7 @@
 
 namespace System::Buffers
 {
-	inline static constexpr unsigned int ReadOnlySequence_1_Enumerator_TypeDefinitionIndex = 4975;
+	inline static constexpr unsigned int ReadOnlySequence_1_Enumerator_TypeDefinitionIndex = 4980;
 
 	template <typename T>
 	struct ReadOnlySequence_1_Enumerator

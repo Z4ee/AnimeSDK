@@ -8,7 +8,7 @@ namespace System { template <typename T> class Action_1; }
 
 namespace RPG
 {
-	inline static constexpr unsigned int ActionBinderNoArg_1_TypeDefinitionIndex = 6717;
+	inline static constexpr unsigned int ActionBinderNoArg_1_TypeDefinitionIndex = 6722;
 
 	template <typename T1>
 	class ActionBinderNoArg_1 : public ::RPG::DelegateBinder_4<::RPG::ActionBinderNoArg_1<T1>*, ::System::Action_1<T1>*, T1, ::System::Action*>

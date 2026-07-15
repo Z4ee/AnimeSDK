@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define RPG_CLIENT_GRIDFIGHTEQUIPCRAFTRECIPE___C__DISPLAYCLASS4_0__CTOR_OFFSET UNITYSDK_OFFSET(0xBB1CEC0)
+#define RPG_CLIENT_GRIDFIGHTEQUIPCRAFTRECIPE___C__DISPLAYCLASS4_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1A682EB0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GridFightEquipCraftRecipe___c__DisplayClass4_0_TypeDefinitionIndex = 60300;
+	inline static constexpr unsigned int GridFightEquipCraftRecipe___c__DisplayClass4_0_TypeDefinitionIndex = 61590;
 
 	class GridFightEquipCraftRecipe___c__DisplayClass4_0 : public ::System::Object
 	{

@@ -8,7 +8,7 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int CharacterOverrideConfig_OverrideSkillConfigContext_TypeDefinitionIndex = 15696;
+	inline static constexpr unsigned int CharacterOverrideConfig_OverrideSkillConfigContext_TypeDefinitionIndex = 15870;
 
 	struct alignas(8) CharacterOverrideConfig_OverrideSkillConfigContext
 	{

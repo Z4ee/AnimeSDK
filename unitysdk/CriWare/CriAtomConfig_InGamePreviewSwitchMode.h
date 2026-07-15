@@ -3,7 +3,7 @@
 
 namespace CriWare
 {
-	inline static constexpr unsigned int CriAtomConfig_InGamePreviewSwitchMode_TypeDefinitionIndex = 37194;
+	inline static constexpr unsigned int CriAtomConfig_InGamePreviewSwitchMode_TypeDefinitionIndex = 37999;
 
 	enum class CriAtomConfig_InGamePreviewSwitchMode : ::System::Int32
 	{

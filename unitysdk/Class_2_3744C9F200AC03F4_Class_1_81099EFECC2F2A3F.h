@@ -6,9 +6,9 @@ class Class_2_3744C9F200AC03F4;
 namespace System { template <typename T> class Action_1; }
 namespace System { template <typename T> class Func_1; }
 
-#define CLASS_2_3744C9F200AC03F4_CLASS_1_81099EFECC2F2A3F__CTOR_OFFSET UNITYSDK_OFFSET(0xA46BF30)
+#define CLASS_2_3744C9F200AC03F4_CLASS_1_81099EFECC2F2A3F__CTOR_OFFSET UNITYSDK_OFFSET(0x178526E0)
 
-inline static constexpr unsigned int Class_2_3744C9F200AC03F4_Class_1_81099EFECC2F2A3F_TypeDefinitionIndex = 67311;
+inline static constexpr unsigned int Class_2_3744C9F200AC03F4_Class_1_81099EFECC2F2A3F_TypeDefinitionIndex = 68779;
 
 class Class_2_3744C9F200AC03F4_Class_1_81099EFECC2F2A3F : public ::System::Object
 {

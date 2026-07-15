@@ -4,7 +4,7 @@
 
 namespace System::ComponentModel
 {
-	inline static constexpr unsigned int GuidConverter_TypeDefinitionIndex = 2587;
+	inline static constexpr unsigned int GuidConverter_TypeDefinitionIndex = 2591;
 
 	class GuidConverter : public ::System::ComponentModel::TypeConverter
 	{

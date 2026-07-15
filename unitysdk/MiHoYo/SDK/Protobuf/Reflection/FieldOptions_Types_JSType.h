@@ -3,7 +3,7 @@
 
 namespace MiHoYo::SDK::Protobuf::Reflection
 {
-	inline static constexpr unsigned int FieldOptions_Types_JSType_TypeDefinitionIndex = 33986;
+	inline static constexpr unsigned int FieldOptions_Types_JSType_TypeDefinitionIndex = 34357;
 
 	enum class FieldOptions_Types_JSType : ::System::Int32
 	{

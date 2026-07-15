@@ -3,9 +3,9 @@
 #include "unitysdk/RPG/GameCore/AnimZoneType.h"
 #include "unitysdk/System/Object.h"
 
-#define CLASS_1_9CC9BA8044EDE678_CLASS_1_61A89E2AE773A3FD__CTOR_OFFSET UNITYSDK_OFFSET(0x145551E0)
+#define CLASS_1_9CC9BA8044EDE678_CLASS_1_61A89E2AE773A3FD__CTOR_OFFSET UNITYSDK_OFFSET(0x15FC8710)
 
-inline static constexpr unsigned int Class_1_9CC9BA8044EDE678_Class_1_61A89E2AE773A3FD_TypeDefinitionIndex = 52239;
+inline static constexpr unsigned int Class_1_9CC9BA8044EDE678_Class_1_61A89E2AE773A3FD_TypeDefinitionIndex = 53391;
 
 class Class_1_9CC9BA8044EDE678_Class_1_61A89E2AE773A3FD : public ::System::Object
 {

@@ -9,13 +9,13 @@ namespace RPG::GameCore { class SetClockBoyEmotion; }
 namespace System { class String; }
 namespace UnityEngine { class GameObject; }
 
-#define RPGTOOLS_TIMELINE_CLOCKBOYEMOTIONCLIP_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0xCFF96F0)
-#define RPGTOOLS_TIMELINE_CLOCKBOYEMOTIONCLIP_GET_CLIPCAPS_OFFSET UNITYSDK_OFFSET(0xCFF96E0)
-#define RPGTOOLS_TIMELINE_CLOCKBOYEMOTIONCLIP__CTOR_OFFSET UNITYSDK_OFFSET(0xCFF9880)
+#define RPGTOOLS_TIMELINE_CLOCKBOYEMOTIONCLIP_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0x1B3616E0)
+#define RPGTOOLS_TIMELINE_CLOCKBOYEMOTIONCLIP_GET_CLIPCAPS_OFFSET UNITYSDK_OFFSET(0x1B3616D0)
+#define RPGTOOLS_TIMELINE_CLOCKBOYEMOTIONCLIP__CTOR_OFFSET UNITYSDK_OFFSET(0x1B361870)
 
 namespace RPGTools::Timeline
 {
-	inline static constexpr unsigned int ClockBoyEmotionClip_TypeDefinitionIndex = 45333;
+	inline static constexpr unsigned int ClockBoyEmotionClip_TypeDefinitionIndex = 46257;
 
 	class ClockBoyEmotionClip : public ::UnityEngine::Playables::PlayableAsset
 	{

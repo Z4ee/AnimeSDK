@@ -7,7 +7,7 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int Pref_1_TypeDefinitionIndex = 33517;
+	inline static constexpr unsigned int Pref_1_TypeDefinitionIndex = 33887;
 
 	template <typename T>
 	class Pref_1 : public ::RPG::Client::Pref

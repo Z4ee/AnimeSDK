@@ -5,13 +5,13 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class FiveDimAnimatorListenConfig; }
 
-#define RPG_GAMECORE_FIVEDIMANIMATORSTATELISTENERCONFIG_METHOD_3_A167659DAB2888AE_OFFSET UNITYSDK_OFFSET(0x197273F0)
-#define RPG_GAMECORE_FIVEDIMANIMATORSTATELISTENERCONFIG_METHOD_3_F445F653D695AC0D_OFFSET UNITYSDK_OFFSET(0x19727460)
-#define RPG_GAMECORE_FIVEDIMANIMATORSTATELISTENERCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x19727440)
+#define RPG_GAMECORE_FIVEDIMANIMATORSTATELISTENERCONFIG_METHOD_3_51221D810D30EE76_OFFSET UNITYSDK_OFFSET(0x1BA87270)
+#define RPG_GAMECORE_FIVEDIMANIMATORSTATELISTENERCONFIG_METHOD_3_F445F653D695AC0D_OFFSET UNITYSDK_OFFSET(0x1BA872B0)
+#define RPG_GAMECORE_FIVEDIMANIMATORSTATELISTENERCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1BA872A0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FiveDimAnimatorStateListenerConfig_TypeDefinitionIndex = 17738;
+	inline static constexpr unsigned int FiveDimAnimatorStateListenerConfig_TypeDefinitionIndex = 17912;
 
 	class FiveDimAnimatorStateListenerConfig : public ::RPG::GameCore::LittleGameComponentConfig
 	{
@@ -24,9 +24,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMANIMATORSTATELISTENERCONFIG__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_A167659DAB2888AE(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::FiveDimAnimatorStateListenerConfig*& a2)
+		static ::System::Void Method_3_51221D810D30EE76(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::FiveDimAnimatorStateListenerConfig*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::FiveDimAnimatorStateListenerConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMANIMATORSTATELISTENERCONFIG_METHOD_3_A167659DAB2888AE_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::FiveDimAnimatorStateListenerConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMANIMATORSTATELISTENERCONFIG_METHOD_3_51221D810D30EE76_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_F445F653D695AC0D(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::FiveDimAnimatorStateListenerConfig* a2)

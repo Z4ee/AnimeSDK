@@ -3,7 +3,7 @@
 
 namespace RPGTools::Timeline
 {
-	inline static constexpr unsigned int CRPCameraSmallWindowControlBehaviour_EControlType_TypeDefinitionIndex = 45198;
+	inline static constexpr unsigned int CRPCameraSmallWindowControlBehaviour_EControlType_TypeDefinitionIndex = 46122;
 
 	enum class CRPCameraSmallWindowControlBehaviour_EControlType : ::System::Int32
 	{

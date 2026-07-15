@@ -9,25 +9,25 @@ namespace RPG::GameCore { class GameEntity; }
 namespace RPG::GameCore { class RtDefenceBatchMonsterInfo; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_1_4FEB778EBE677EAC_METHOD_1_1808E1CF7A125519_OFFSET UNITYSDK_OFFSET(0xA631710)
-#define CLASS_1_4FEB778EBE677EAC_METHOD_1_276F406B5CF6DD47_OFFSET UNITYSDK_OFFSET(0xA631980)
-#define CLASS_1_4FEB778EBE677EAC_METHOD_1_2E57F1ED86AFF2C9_OFFSET UNITYSDK_OFFSET(0xA630FF0)
-#define CLASS_1_4FEB778EBE677EAC_METHOD_1_C672A24954E5C183_OFFSET UNITYSDK_OFFSET(0xA631180)
-#define CLASS_1_4FEB778EBE677EAC_METHOD_1_F0788BE412B69697_OFFSET UNITYSDK_OFFSET(0xA631990)
-#define CLASS_1_4FEB778EBE677EAC__CTOR_OFFSET UNITYSDK_OFFSET(0xA6319A0)
+#define CLASS_1_4FEB778EBE677EAC_METHOD_1_1808E1CF7A125519_OFFSET UNITYSDK_OFFSET(0x17A14CE0)
+#define CLASS_1_4FEB778EBE677EAC_METHOD_1_276F406B5CF6DD47_OFFSET UNITYSDK_OFFSET(0x17A14F50)
+#define CLASS_1_4FEB778EBE677EAC_METHOD_1_2E57F1ED86AFF2C9_OFFSET UNITYSDK_OFFSET(0x17A145C0)
+#define CLASS_1_4FEB778EBE677EAC_METHOD_1_C672A24954E5C183_OFFSET UNITYSDK_OFFSET(0x17A14750)
+#define CLASS_1_4FEB778EBE677EAC_METHOD_1_F0788BE412B69697_OFFSET UNITYSDK_OFFSET(0x17A14F60)
+#define CLASS_1_4FEB778EBE677EAC__CTOR_OFFSET UNITYSDK_OFFSET(0x17A14F70)
 
-inline static constexpr unsigned int Class_1_4FEB778EBE677EAC_TypeDefinitionIndex = 50763;
+inline static constexpr unsigned int Class_1_4FEB778EBE677EAC_TypeDefinitionIndex = 51845;
 
 class Class_1_4FEB778EBE677EAC : public ::System::Object
 {
 public:
-	::RPG::GameCore::RtDefenceBatchMonsterInfo* Field_1_0; // 0x10
-	::System::Collections::Generic::List_1<::Class_1_4FEB778EBE677EAC*>* Field_1_1; // 0x18
-	::Class_2_718A51E22CB71EC4* Field_1_2; // 0x20
-	::System::Collections::Generic::List_1<::RPG::GameCore::GameEntity*>* Field_1_3; // 0x28
-	::RPG::GameCore::FixPoint Field_1_4; // 0x30
-	::System::Int32 Field_1_5; // 0x38
-	::RPG::GameCore::RtDefenceBatchSpawnState Field_1_6; // 0x3C
+	::System::Collections::Generic::List_1<::Class_1_4FEB778EBE677EAC*>* Field_1_0; // 0x10
+	::System::Collections::Generic::List_1<::RPG::GameCore::GameEntity*>* Field_1_1; // 0x18
+	::RPG::GameCore::RtDefenceBatchMonsterInfo* Field_1_2; // 0x20
+	::Class_2_718A51E22CB71EC4* Field_1_3; // 0x28
+	::RPG::GameCore::RtDefenceBatchSpawnState Field_1_4; // 0x30
+	::System::Int32 Field_1_5; // 0x34
+	::RPG::GameCore::FixPoint Field_1_6; // 0x38
 	::System::Int32 Field_1_7; // 0x40
 	::System::Int32 Field_1_8; // 0x44
 	::System::Int32 Field_1_9; // 0x48

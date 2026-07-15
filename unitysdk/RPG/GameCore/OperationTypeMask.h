@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int OperationTypeMask_TypeDefinitionIndex = 10163;
+	inline static constexpr unsigned int OperationTypeMask_TypeDefinitionIndex = 10178;
 
 	enum class OperationTypeMask : ::System::UInt16
 	{
@@ -18,7 +18,8 @@ namespace RPG::GameCore
 		Mask_EvolveBuild = 0x40,
 		Mask_Fate = 0x80,
 		Mask_LevelGraph = 0x100,
-		Mask_UIOperate = 0x11E,
+		Mask_CustomUIOperate = 0x200,
+		Mask_UIOperate = 0x31E,
 		Mask_AutoCallNoGM = 0xFF1F,
 		Mask_AutoCall = 0xFF3F,
 		Mask_ExternalCall = 0xC0,

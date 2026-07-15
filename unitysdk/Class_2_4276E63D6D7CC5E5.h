@@ -1,24 +1,24 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Class_1_89D8044AB73F8F6D.h"
+#include "unitysdk/Class_1_A167209E71412818.h"
 
 namespace System { class String; }
 namespace UnityEngine::UI { class Button; }
 namespace UnityEngine::UI { class Dropdown; }
 
-#define CLASS_2_4276E63D6D7CC5E5_METHOD_2_4343F372F34C05BF_OFFSET UNITYSDK_OFFSET(0xCECF560)
-#define CLASS_2_4276E63D6D7CC5E5_METHOD_2_88B60F3B95FAA4F1_OFFSET UNITYSDK_OFFSET(0xCECF4F0)
-#define CLASS_2_4276E63D6D7CC5E5__CTOR_OFFSET UNITYSDK_OFFSET(0xCECF650)
+#define CLASS_2_4276E63D6D7CC5E5_METHOD_2_4343F372F34C05BF_OFFSET UNITYSDK_OFFSET(0x16A9D680)
+#define CLASS_2_4276E63D6D7CC5E5_METHOD_2_88B60F3B95FAA4F1_OFFSET UNITYSDK_OFFSET(0x16A9D610)
+#define CLASS_2_4276E63D6D7CC5E5__CTOR_OFFSET UNITYSDK_OFFSET(0x16A9D770)
 
-inline static constexpr unsigned int Class_2_4276E63D6D7CC5E5_TypeDefinitionIndex = 67962;
+inline static constexpr unsigned int Class_2_4276E63D6D7CC5E5_TypeDefinitionIndex = 69448;
 
-class Class_2_4276E63D6D7CC5E5 : public ::Class_1_89D8044AB73F8F6D
+class Class_2_4276E63D6D7CC5E5 : public ::Class_1_A167209E71412818
 {
 public:
-	::UnityEngine::UI::Dropdown* Field_2_0; // 0x18
-	::UnityEngine::UI::Button* Field_2_1; // 0x20
-	::UnityEngine::UI::Dropdown* Field_2_2; // 0x28
-	::UnityEngine::UI::Button* Field_2_3; // 0x30
+	::UnityEngine::UI::Button* Field_2_0; // 0x18
+	::UnityEngine::UI::Dropdown* Field_2_1; // 0x20
+	::UnityEngine::UI::Button* Field_2_2; // 0x28
+	::UnityEngine::UI::Dropdown* Field_2_3; // 0x30
 
 	::System::Void _ctor()
 	{

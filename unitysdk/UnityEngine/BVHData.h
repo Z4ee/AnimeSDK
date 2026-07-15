@@ -6,7 +6,7 @@
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int BVHData_TypeDefinitionIndex = 4085;
+	inline static constexpr unsigned int BVHData_TypeDefinitionIndex = 4090;
 
 	struct alignas(8) BVHData
 	{

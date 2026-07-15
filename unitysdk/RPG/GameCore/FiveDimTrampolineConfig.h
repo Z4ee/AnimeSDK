@@ -6,13 +6,13 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class FiveDimTriggerShape; }
 namespace RPG::GameCore { class LittleGameEvent; }
 
-#define RPG_GAMECORE_FIVEDIMTRAMPOLINECONFIG_METHOD_3_420B248E8F3C789A_OFFSET UNITYSDK_OFFSET(0x1975C570)
-#define RPG_GAMECORE_FIVEDIMTRAMPOLINECONFIG_METHOD_3_72704E4310E0CF38_OFFSET UNITYSDK_OFFSET(0x1975C500)
-#define RPG_GAMECORE_FIVEDIMTRAMPOLINECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1975C550)
+#define RPG_GAMECORE_FIVEDIMTRAMPOLINECONFIG_METHOD_3_40A3E63E798DABE3_OFFSET UNITYSDK_OFFSET(0x1BEB78A0)
+#define RPG_GAMECORE_FIVEDIMTRAMPOLINECONFIG_METHOD_3_F8463761901A030E_OFFSET UNITYSDK_OFFSET(0x1BEA1D70)
+#define RPG_GAMECORE_FIVEDIMTRAMPOLINECONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1BEB7890)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FiveDimTrampolineConfig_TypeDefinitionIndex = 17636;
+	inline static constexpr unsigned int FiveDimTrampolineConfig_TypeDefinitionIndex = 17810;
 
 	class FiveDimTrampolineConfig : public ::RPG::GameCore::LittleGameComponentConfig
 	{
@@ -29,14 +29,14 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMTRAMPOLINECONFIG__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_72704E4310E0CF38(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::FiveDimTrampolineConfig*& a2)
+		static ::System::Void Method_3_F8463761901A030E(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::FiveDimTrampolineConfig*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::FiveDimTrampolineConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMTRAMPOLINECONFIG_METHOD_3_72704E4310E0CF38_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::FiveDimTrampolineConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMTRAMPOLINECONFIG_METHOD_3_F8463761901A030E_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_420B248E8F3C789A(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::FiveDimTrampolineConfig* a2)
+		static ::System::Void Method_3_40A3E63E798DABE3(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::FiveDimTrampolineConfig* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::FiveDimTrampolineConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMTRAMPOLINECONFIG_METHOD_3_420B248E8F3C789A_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::FiveDimTrampolineConfig*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMTRAMPOLINECONFIG_METHOD_3_40A3E63E798DABE3_OFFSET))(a1, a2);
 		}
 	};
 }

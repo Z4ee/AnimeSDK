@@ -4,24 +4,24 @@
 
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define RPG_CLIENT_ELFPROFILEQUESTGROUPDATA___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xB8C81D0)
-#define RPG_CLIENT_ELFPROFILEQUESTGROUPDATA___C__CTOR_OFFSET UNITYSDK_OFFSET(0xB8C8210)
-#define RPG_CLIENT_ELFPROFILEQUESTGROUPDATA___C___ISGROUPCLOSED_B__5_0_OFFSET UNITYSDK_OFFSET(0xB8C8220)
+#define RPG_CLIENT_ELFPROFILEQUESTGROUPDATA___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x18E3D7A0)
+#define RPG_CLIENT_ELFPROFILEQUESTGROUPDATA___C__CTOR_OFFSET UNITYSDK_OFFSET(0x18E3D7E0)
+#define RPG_CLIENT_ELFPROFILEQUESTGROUPDATA___C___ISGROUPCLOSED_B__5_0_OFFSET UNITYSDK_OFFSET(0x18E3D7F0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ElfProfileQuestGroupData___c_TypeDefinitionIndex = 59637;
+	inline static constexpr unsigned int ElfProfileQuestGroupData___c_TypeDefinitionIndex = 60922;
 
 	class ElfProfileQuestGroupData___c : public ::System::Object
 	{
 	public:
-		static ::System::Func_2<::System::UInt32, ::System::Boolean>** StaticGet___9__5_0()
-		{
-			return (::System::Func_2<::System::UInt32, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(ElfProfileQuestGroupData___c_TypeDefinitionIndex)->GetStaticField(0x10170);
-		}
 		static ::RPG::Client::ElfProfileQuestGroupData___c** StaticGet___9()
 		{
-			return (::RPG::Client::ElfProfileQuestGroupData___c**)Il2CppClass::FromTypeDefinitionIndex(ElfProfileQuestGroupData___c_TypeDefinitionIndex)->GetStaticField(0x10178);
+			return (::RPG::Client::ElfProfileQuestGroupData___c**)Il2CppClass::FromTypeDefinitionIndex(ElfProfileQuestGroupData___c_TypeDefinitionIndex)->GetStaticField(0x6BC70);
+		}
+		static ::System::Func_2<::System::UInt32, ::System::Boolean>** StaticGet___9__5_0()
+		{
+			return (::System::Func_2<::System::UInt32, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(ElfProfileQuestGroupData___c_TypeDefinitionIndex)->GetStaticField(0x6BC78);
 		}
 
 		static ::System::Void _cctor()

@@ -5,11 +5,11 @@
 namespace RPG::Client::ChenLingFes { class ChenLingFesItemPlaceGridViewModel; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_CHENLINGFES_CHENLINGFESITEMPLACEGRIDROWVIEWMODEL__CTOR_OFFSET UNITYSDK_OFFSET(0xB622FD0)
+#define RPG_CLIENT_CHENLINGFES_CHENLINGFESITEMPLACEGRIDROWVIEWMODEL__CTOR_OFFSET UNITYSDK_OFFSET(0x1A4DAB60)
 
 namespace RPG::Client::ChenLingFes
 {
-	inline static constexpr unsigned int ChenLingFesItemPlaceGridRowViewModel_TypeDefinitionIndex = 74051;
+	inline static constexpr unsigned int ChenLingFesItemPlaceGridRowViewModel_TypeDefinitionIndex = 76433;
 
 	class ChenLingFesItemPlaceGridRowViewModel : public ::Sofa::BaseViewModel
 	{

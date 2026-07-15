@@ -3,7 +3,7 @@
 
 namespace System::Xml
 {
-	inline static constexpr unsigned int XmlTextWriter_State_TypeDefinitionIndex = 1856;
+	inline static constexpr unsigned int XmlTextWriter_State_TypeDefinitionIndex = 1860;
 
 	enum class XmlTextWriter_State : ::System::Int32
 	{

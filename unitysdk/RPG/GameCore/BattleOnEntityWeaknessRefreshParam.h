@@ -4,11 +4,11 @@
 
 namespace RPG::GameCore { class GameEntity; }
 
-#define RPG_GAMECORE_BATTLEONENTITYWEAKNESSREFRESHPARAM__CTOR_OFFSET UNITYSDK_OFFSET(0xCD37A20)
+#define RPG_GAMECORE_BATTLEONENTITYWEAKNESSREFRESHPARAM__CTOR_OFFSET UNITYSDK_OFFSET(0x121728B0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int BattleOnEntityWeaknessRefreshParam_TypeDefinitionIndex = 53953;
+	inline static constexpr unsigned int BattleOnEntityWeaknessRefreshParam_TypeDefinitionIndex = 55172;
 
 	class BattleOnEntityWeaknessRefreshParam : public ::System::Object
 	{

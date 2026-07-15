@@ -4,13 +4,13 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_CAKERACEPAUSEGAME_METHOD_3_0BD95B2329BED12C_OFFSET UNITYSDK_OFFSET(0x195EFC60)
-#define RPG_GAMECORE_CAKERACEPAUSEGAME_METHOD_3_B9D688A87F80A3BD_OFFSET UNITYSDK_OFFSET(0x195EFCE0)
-#define RPG_GAMECORE_CAKERACEPAUSEGAME__CTOR_OFFSET UNITYSDK_OFFSET(0x195EFCB0)
+#define RPG_GAMECORE_CAKERACEPAUSEGAME_METHOD_3_8FA2B43F087AB73E_OFFSET UNITYSDK_OFFSET(0x1B704E20)
+#define RPG_GAMECORE_CAKERACEPAUSEGAME_METHOD_3_B9D688A87F80A3BD_OFFSET UNITYSDK_OFFSET(0x1B704E60)
+#define RPG_GAMECORE_CAKERACEPAUSEGAME__CTOR_OFFSET UNITYSDK_OFFSET(0x1B704E50)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int CakeRacePauseGame_TypeDefinitionIndex = 22974;
+	inline static constexpr unsigned int CakeRacePauseGame_TypeDefinitionIndex = 23441;
 
 	class CakeRacePauseGame : public ::RPG::GameCore::TaskConfig
 	{
@@ -22,9 +22,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CAKERACEPAUSEGAME__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_0BD95B2329BED12C(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::CakeRacePauseGame*& a2)
+		static ::System::Void Method_3_8FA2B43F087AB73E(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::CakeRacePauseGame*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::CakeRacePauseGame*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CAKERACEPAUSEGAME_METHOD_3_0BD95B2329BED12C_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::CakeRacePauseGame*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CAKERACEPAUSEGAME_METHOD_3_8FA2B43F087AB73E_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_B9D688A87F80A3BD(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::CakeRacePauseGame* a2)

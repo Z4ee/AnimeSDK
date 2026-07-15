@@ -4,13 +4,13 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_MONSTERBEHAVIOUR_METHOD_3_0739ADF5CE49F1F4_OFFSET UNITYSDK_OFFSET(0x199A5CB0)
-#define RPG_GAMECORE_MONSTERBEHAVIOUR_METHOD_3_D91E736D0D7C40E4_OFFSET UNITYSDK_OFFSET(0x199A5C30)
-#define RPG_GAMECORE_MONSTERBEHAVIOUR__CTOR_OFFSET UNITYSDK_OFFSET(0x199A5C80)
+#define RPG_GAMECORE_MONSTERBEHAVIOUR_METHOD_3_0739ADF5CE49F1F4_OFFSET UNITYSDK_OFFSET(0x1B1C1FA0)
+#define RPG_GAMECORE_MONSTERBEHAVIOUR_METHOD_3_5B2A2A25EFBE868F_OFFSET UNITYSDK_OFFSET(0x1B1C1F60)
+#define RPG_GAMECORE_MONSTERBEHAVIOUR__CTOR_OFFSET UNITYSDK_OFFSET(0x1B1C1F90)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MonsterBehaviour_TypeDefinitionIndex = 22744;
+	inline static constexpr unsigned int MonsterBehaviour_TypeDefinitionIndex = 23211;
 
 	class MonsterBehaviour : public ::RPG::GameCore::TaskConfig
 	{
@@ -23,9 +23,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MONSTERBEHAVIOUR__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_D91E736D0D7C40E4(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::MonsterBehaviour*& a2)
+		static ::System::Void Method_3_5B2A2A25EFBE868F(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::MonsterBehaviour*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::MonsterBehaviour*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MONSTERBEHAVIOUR_METHOD_3_D91E736D0D7C40E4_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::MonsterBehaviour*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MONSTERBEHAVIOUR_METHOD_3_5B2A2A25EFBE868F_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_0739ADF5CE49F1F4(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::MonsterBehaviour* a2)

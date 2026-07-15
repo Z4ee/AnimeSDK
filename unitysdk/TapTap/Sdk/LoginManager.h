@@ -5,26 +5,26 @@
 namespace System { class String; }
 namespace TapTap::Sdk { class LoginManager_OnLoginResult; }
 
-#define TAPTAP_SDK_LOGINMANAGER_GET_INSTANCE_OFFSET UNITYSDK_OFFSET(0x1B01E460)
-#define TAPTAP_SDK_LOGINMANAGER_LOGINWITHREADPERMISSIONS_OFFSET UNITYSDK_OFFSET(0x1B01E650)
-#define TAPTAP_SDK_LOGINMANAGER_LOGOUT_OFFSET UNITYSDK_OFFSET(0x1B01E9C0)
-#define TAPTAP_SDK_LOGINMANAGER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1B01EC30)
-#define TAPTAP_SDK_LOGINMANAGER__CTOR_OFFSET UNITYSDK_OFFSET(0x1B01E640)
+#define TAPTAP_SDK_LOGINMANAGER_GET_INSTANCE_OFFSET UNITYSDK_OFFSET(0x1D1D3BA0)
+#define TAPTAP_SDK_LOGINMANAGER_LOGINWITHREADPERMISSIONS_OFFSET UNITYSDK_OFFSET(0x1D1D3D90)
+#define TAPTAP_SDK_LOGINMANAGER_LOGOUT_OFFSET UNITYSDK_OFFSET(0x1D1D4100)
+#define TAPTAP_SDK_LOGINMANAGER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1D1D4370)
+#define TAPTAP_SDK_LOGINMANAGER__CTOR_OFFSET UNITYSDK_OFFSET(0x1D1D3D80)
 
 namespace TapTap::Sdk
 {
-	inline static constexpr unsigned int LoginManager_TypeDefinitionIndex = 7077;
+	inline static constexpr unsigned int LoginManager_TypeDefinitionIndex = 7083;
 
 	class LoginManager : public ::System::Object
 	{
 	public:
-		static ::TapTap::Sdk::LoginManager** StaticGet__instance()
-		{
-			return (::TapTap::Sdk::LoginManager**)Il2CppClass::FromTypeDefinitionIndex(LoginManager_TypeDefinitionIndex)->GetStaticField(0x530);
-		}
 		static ::System::Object** StaticGet_objlock()
 		{
-			return (::System::Object**)Il2CppClass::FromTypeDefinitionIndex(LoginManager_TypeDefinitionIndex)->GetStaticField(0x538);
+			return (::System::Object**)Il2CppClass::FromTypeDefinitionIndex(LoginManager_TypeDefinitionIndex)->GetStaticField(0x530);
+		}
+		static ::TapTap::Sdk::LoginManager** StaticGet__instance()
+		{
+			return (::TapTap::Sdk::LoginManager**)Il2CppClass::FromTypeDefinitionIndex(LoginManager_TypeDefinitionIndex)->GetStaticField(0x538);
 		}
 
 		::System::Void _ctor()

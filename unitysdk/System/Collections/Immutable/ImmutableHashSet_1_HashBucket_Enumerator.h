@@ -9,7 +9,7 @@ namespace System { class Object; }
 
 namespace System::Collections::Immutable
 {
-	inline static constexpr unsigned int ImmutableHashSet_1_HashBucket_Enumerator_TypeDefinitionIndex = 6977;
+	inline static constexpr unsigned int ImmutableHashSet_1_HashBucket_Enumerator_TypeDefinitionIndex = 6983;
 
 	template <typename T>
 	struct ImmutableHashSet_1_HashBucket_Enumerator

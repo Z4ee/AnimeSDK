@@ -2,9 +2,13 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/ValueType.h"
 
+namespace System { class String; }
+
+#define CRIWARE_CRIATOMEXBEATSYNC_INFO_GET_LABEL_OFFSET UNITYSDK_OFFSET(0x3A19350)
+
 namespace CriWare
 {
-	inline static constexpr unsigned int CriAtomExBeatSync_Info_TypeDefinitionIndex = 37046;
+	inline static constexpr unsigned int CriAtomExBeatSync_Info_TypeDefinitionIndex = 37845;
 
 	struct alignas(8) CriAtomExBeatSync_Info
 	{
@@ -16,5 +20,11 @@ namespace CriWare
 		::System::Single bpm; // 0x28
 		::System::Int32 offset; // 0x2C
 		::System::UInt32 numBeats; // 0x30
+		::System::IntPtr labelPtr; // 0x38
+
+		::System::String* get_label()
+		{
+			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + CRIWARE_CRIATOMEXBEATSYNC_INFO_GET_LABEL_OFFSET))(this);
+		}
 	};
 }

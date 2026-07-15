@@ -7,13 +7,13 @@ namespace RPG::GameCore { class DynamicFloat; }
 namespace RPG::GameCore { class DynamicString; }
 namespace RPG::GameCore { class TaskConfig; }
 
-#define RPG_GAMECORE_WAITENTITYEVENT_METHOD_4_25F4188644BDA07C_OFFSET UNITYSDK_OFFSET(0x19E54820)
-#define RPG_GAMECORE_WAITENTITYEVENT_METHOD_4_9940CF3834C4E805_OFFSET UNITYSDK_OFFSET(0x19E54740)
-#define RPG_GAMECORE_WAITENTITYEVENT__CTOR_OFFSET UNITYSDK_OFFSET(0x19E547C0)
+#define RPG_GAMECORE_WAITENTITYEVENT_METHOD_4_25F4188644BDA07C_OFFSET UNITYSDK_OFFSET(0x1B8A3620)
+#define RPG_GAMECORE_WAITENTITYEVENT_METHOD_4_5F92BE3098B54285_OFFSET UNITYSDK_OFFSET(0x1B8A35D0)
+#define RPG_GAMECORE_WAITENTITYEVENT__CTOR_OFFSET UNITYSDK_OFFSET(0x1B8A3610)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int WaitEntityEvent_TypeDefinitionIndex = 19576;
+	inline static constexpr unsigned int WaitEntityEvent_TypeDefinitionIndex = 19935;
 
 	class WaitEntityEvent : public ::RPG::GameCore::AdvWaitingEventBase
 	{
@@ -27,9 +27,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_WAITENTITYEVENT__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_4_9940CF3834C4E805(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::WaitEntityEvent*& a2)
+		static ::System::Void Method_4_5F92BE3098B54285(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::WaitEntityEvent*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::WaitEntityEvent*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_WAITENTITYEVENT_METHOD_4_9940CF3834C4E805_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::WaitEntityEvent*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_WAITENTITYEVENT_METHOD_4_5F92BE3098B54285_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_4_25F4188644BDA07C(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::WaitEntityEvent* a2)

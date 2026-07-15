@@ -5,13 +5,13 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class AnimWeighted; }
 
-#define RPG_GAMECORE_ANIMTRIGGERRANDOMPLAY_METHOD_3_19C96B0FD48843F2_OFFSET UNITYSDK_OFFSET(0x19479870)
-#define RPG_GAMECORE_ANIMTRIGGERRANDOMPLAY_METHOD_3_976247451ABAB8A5_OFFSET UNITYSDK_OFFSET(0x194797F0)
-#define RPG_GAMECORE_ANIMTRIGGERRANDOMPLAY__CTOR_OFFSET UNITYSDK_OFFSET(0x19479840)
+#define RPG_GAMECORE_ANIMTRIGGERRANDOMPLAY_METHOD_3_19C96B0FD48843F2_OFFSET UNITYSDK_OFFSET(0x1A056A10)
+#define RPG_GAMECORE_ANIMTRIGGERRANDOMPLAY_METHOD_3_5865EB87721EC13B_OFFSET UNITYSDK_OFFSET(0x1A0569D0)
+#define RPG_GAMECORE_ANIMTRIGGERRANDOMPLAY__CTOR_OFFSET UNITYSDK_OFFSET(0x1A056A00)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AnimTriggerRandomPlay_TypeDefinitionIndex = 21176;
+	inline static constexpr unsigned int AnimTriggerRandomPlay_TypeDefinitionIndex = 21591;
 
 	class AnimTriggerRandomPlay : public ::RPG::GameCore::TaskConfig
 	{
@@ -25,9 +25,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ANIMTRIGGERRANDOMPLAY__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_976247451ABAB8A5(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AnimTriggerRandomPlay*& a2)
+		static ::System::Void Method_3_5865EB87721EC13B(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AnimTriggerRandomPlay*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::AnimTriggerRandomPlay*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ANIMTRIGGERRANDOMPLAY_METHOD_3_976247451ABAB8A5_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::AnimTriggerRandomPlay*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ANIMTRIGGERRANDOMPLAY_METHOD_3_5865EB87721EC13B_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_19C96B0FD48843F2(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AnimTriggerRandomPlay* a2)

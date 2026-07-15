@@ -4,11 +4,11 @@
 
 namespace System { class String; }
 
-#define RPG_CLIENT_SPINEANIMEKEYWORDTOTRACKINDEX__CTOR_OFFSET UNITYSDK_OFFSET(0xC8FB150)
+#define RPG_CLIENT_SPINEANIMEKEYWORDTOTRACKINDEX__CTOR_OFFSET UNITYSDK_OFFSET(0x189198F0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int SpineAnimeKeywordToTrackIndex_TypeDefinitionIndex = 64547;
+	inline static constexpr unsigned int SpineAnimeKeywordToTrackIndex_TypeDefinitionIndex = 65947;
 
 	class SpineAnimeKeywordToTrackIndex : public ::System::Object
 	{

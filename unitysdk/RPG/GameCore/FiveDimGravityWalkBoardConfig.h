@@ -10,13 +10,13 @@ namespace RPG::GameCore { class FiveDimGravityBoardCameraConfig; }
 namespace RPG::GameCore { class LittleGameEvent; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_FIVEDIMGRAVITYWALKBOARDCONFIG_METHOD_3_186B1C452A0F5895_OFFSET UNITYSDK_OFFSET(0x197417A0)
-#define RPG_GAMECORE_FIVEDIMGRAVITYWALKBOARDCONFIG_METHOD_3_28BE7B2AD74B2CCA_OFFSET UNITYSDK_OFFSET(0x19741730)
-#define RPG_GAMECORE_FIVEDIMGRAVITYWALKBOARDCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x19741780)
+#define RPG_GAMECORE_FIVEDIMGRAVITYWALKBOARDCONFIG_METHOD_3_186B1C452A0F5895_OFFSET UNITYSDK_OFFSET(0x1BA99A30)
+#define RPG_GAMECORE_FIVEDIMGRAVITYWALKBOARDCONFIG_METHOD_3_6BCCAE829A5D1719_OFFSET UNITYSDK_OFFSET(0x1BA999E0)
+#define RPG_GAMECORE_FIVEDIMGRAVITYWALKBOARDCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1BA99A20)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FiveDimGravityWalkBoardConfig_TypeDefinitionIndex = 17663;
+	inline static constexpr unsigned int FiveDimGravityWalkBoardConfig_TypeDefinitionIndex = 17837;
 
 	class FiveDimGravityWalkBoardConfig : public ::RPG::GameCore::LittleGameComponentConfig
 	{
@@ -42,9 +42,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMGRAVITYWALKBOARDCONFIG__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_28BE7B2AD74B2CCA(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::FiveDimGravityWalkBoardConfig*& a2)
+		static ::System::Void Method_3_6BCCAE829A5D1719(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::FiveDimGravityWalkBoardConfig*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::FiveDimGravityWalkBoardConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMGRAVITYWALKBOARDCONFIG_METHOD_3_28BE7B2AD74B2CCA_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::FiveDimGravityWalkBoardConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMGRAVITYWALKBOARDCONFIG_METHOD_3_6BCCAE829A5D1719_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_186B1C452A0F5895(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::FiveDimGravityWalkBoardConfig* a2)

@@ -3,7 +3,7 @@
 
 namespace RPG::Client::ActivityAlley
 {
-	inline static constexpr unsigned int AlleyPackController_AlleyJoyStickState_TypeDefinitionIndex = 69159;
+	inline static constexpr unsigned int AlleyPackController_AlleyJoyStickState_TypeDefinitionIndex = 70680;
 
 	enum class AlleyPackController_AlleyJoyStickState : ::System::Int32
 	{

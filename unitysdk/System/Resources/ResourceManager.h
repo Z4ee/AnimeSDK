@@ -18,28 +18,28 @@ namespace System::Resources { class IResourceGroveler; }
 namespace System::Resources { class ResourceManager_CultureNameResourceSetPair; }
 namespace System::Resources { class ResourceSet; }
 
-#define SYSTEM_RESOURCES_RESOURCEMANAGER_ADDRESOURCESET_OFFSET UNITYSDK_OFFSET(0x187656A0)
-#define SYSTEM_RESOURCES_RESOURCEMANAGER_COMMONASSEMBLYINIT_OFFSET UNITYSDK_OFFSET(0x187644D0)
-#define SYSTEM_RESOURCES_RESOURCEMANAGER_COMPARENAMES_OFFSET UNITYSDK_OFFSET(0x187636D0)
-#define SYSTEM_RESOURCES_RESOURCEMANAGER_GETFIRSTRESOURCESET_OFFSET UNITYSDK_OFFSET(0x18764CD0)
-#define SYSTEM_RESOURCES_RESOURCEMANAGER_GETRESOURCEFILENAME_OFFSET UNITYSDK_OFFSET(0x18764AE0)
-#define SYSTEM_RESOURCES_RESOURCEMANAGER_GETRESOURCESET_OFFSET UNITYSDK_OFFSET(0x18765200)
-#define SYSTEM_RESOURCES_RESOURCEMANAGER_GETSATELLITECONTRACTVERSION_OFFSET UNITYSDK_OFFSET(0x187665E0)
-#define SYSTEM_RESOURCES_RESOURCEMANAGER_GETSTRING_1_OFFSET UNITYSDK_OFFSET(0x18766D30)
-#define SYSTEM_RESOURCES_RESOURCEMANAGER_GETSTRING_OFFSET UNITYSDK_OFFSET(0x18766D10)
-#define SYSTEM_RESOURCES_RESOURCEMANAGER_GET_BASENAME_OFFSET UNITYSDK_OFFSET(0x18764AC0)
-#define SYSTEM_RESOURCES_RESOURCEMANAGER_GET_FALLBACKLOCATION_OFFSET UNITYSDK_OFFSET(0x18764AD0)
-#define SYSTEM_RESOURCES_RESOURCEMANAGER_INIT_OFFSET UNITYSDK_OFFSET(0x187640D0)
-#define SYSTEM_RESOURCES_RESOURCEMANAGER_INTERNALGETRESOURCESET_1_OFFSET UNITYSDK_OFFSET(0x187658B0)
-#define SYSTEM_RESOURCES_RESOURCEMANAGER_INTERNALGETRESOURCESET_OFFSET UNITYSDK_OFFSET(0x18765880)
-#define SYSTEM_RESOURCES_RESOURCEMANAGER_ONDESERIALIZED_OFFSET UNITYSDK_OFFSET(0x187648E0)
-#define SYSTEM_RESOURCES_RESOURCEMANAGER_ONDESERIALIZING_OFFSET UNITYSDK_OFFSET(0x187648C0)
-#define SYSTEM_RESOURCES_RESOURCEMANAGER_ONSERIALIZING_OFFSET UNITYSDK_OFFSET(0x18764A50)
-#define SYSTEM_RESOURCES_RESOURCEMANAGER_SETAPPXCONFIGURATION_OFFSET UNITYSDK_OFFSET(0x187644C0)
-#define SYSTEM_RESOURCES_RESOURCEMANAGER__CCTOR_OFFSET UNITYSDK_OFFSET(0x187673B0)
-#define SYSTEM_RESOURCES_RESOURCEMANAGER__CTOR_1_OFFSET UNITYSDK_OFFSET(0x18764260)
-#define SYSTEM_RESOURCES_RESOURCEMANAGER__CTOR_2_OFFSET UNITYSDK_OFFSET(0x18764640)
-#define SYSTEM_RESOURCES_RESOURCEMANAGER__CTOR_OFFSET UNITYSDK_OFFSET(0x18764150)
+#define SYSTEM_RESOURCES_RESOURCEMANAGER_ADDRESOURCESET_OFFSET UNITYSDK_OFFSET(0x1A8166B0)
+#define SYSTEM_RESOURCES_RESOURCEMANAGER_COMMONASSEMBLYINIT_OFFSET UNITYSDK_OFFSET(0x1A814FB0)
+#define SYSTEM_RESOURCES_RESOURCEMANAGER_COMPARENAMES_OFFSET UNITYSDK_OFFSET(0x1A813FB0)
+#define SYSTEM_RESOURCES_RESOURCEMANAGER_GETFIRSTRESOURCESET_OFFSET UNITYSDK_OFFSET(0x1A815950)
+#define SYSTEM_RESOURCES_RESOURCEMANAGER_GETRESOURCEFILENAME_OFFSET UNITYSDK_OFFSET(0x1A8156F0)
+#define SYSTEM_RESOURCES_RESOURCEMANAGER_GETRESOURCESET_OFFSET UNITYSDK_OFFSET(0x1A8160B0)
+#define SYSTEM_RESOURCES_RESOURCEMANAGER_GETSATELLITECONTRACTVERSION_OFFSET UNITYSDK_OFFSET(0x1A817BF0)
+#define SYSTEM_RESOURCES_RESOURCEMANAGER_GETSTRING_1_OFFSET UNITYSDK_OFFSET(0x1A8187B0)
+#define SYSTEM_RESOURCES_RESOURCEMANAGER_GETSTRING_OFFSET UNITYSDK_OFFSET(0x1A818720)
+#define SYSTEM_RESOURCES_RESOURCEMANAGER_GET_BASENAME_OFFSET UNITYSDK_OFFSET(0x1A8156D0)
+#define SYSTEM_RESOURCES_RESOURCEMANAGER_GET_FALLBACKLOCATION_OFFSET UNITYSDK_OFFSET(0x1A8156E0)
+#define SYSTEM_RESOURCES_RESOURCEMANAGER_INIT_OFFSET UNITYSDK_OFFSET(0x1A814B50)
+#define SYSTEM_RESOURCES_RESOURCEMANAGER_INTERNALGETRESOURCESET_1_OFFSET UNITYSDK_OFFSET(0x1A816930)
+#define SYSTEM_RESOURCES_RESOURCEMANAGER_INTERNALGETRESOURCESET_OFFSET UNITYSDK_OFFSET(0x1A816900)
+#define SYSTEM_RESOURCES_RESOURCEMANAGER_ONDESERIALIZED_OFFSET UNITYSDK_OFFSET(0x1A8154F0)
+#define SYSTEM_RESOURCES_RESOURCEMANAGER_ONDESERIALIZING_OFFSET UNITYSDK_OFFSET(0x1A8154D0)
+#define SYSTEM_RESOURCES_RESOURCEMANAGER_ONSERIALIZING_OFFSET UNITYSDK_OFFSET(0x1A815660)
+#define SYSTEM_RESOURCES_RESOURCEMANAGER_SETAPPXCONFIGURATION_OFFSET UNITYSDK_OFFSET(0x1A814FA0)
+#define SYSTEM_RESOURCES_RESOURCEMANAGER__CCTOR_OFFSET UNITYSDK_OFFSET(0x1A819140)
+#define SYSTEM_RESOURCES_RESOURCEMANAGER__CTOR_1_OFFSET UNITYSDK_OFFSET(0x1A814CE0)
+#define SYSTEM_RESOURCES_RESOURCEMANAGER__CTOR_2_OFFSET UNITYSDK_OFFSET(0x1A815120)
+#define SYSTEM_RESOURCES_RESOURCEMANAGER__CTOR_OFFSET UNITYSDK_OFFSET(0x1A814BD0)
 
 namespace System::Resources
 {
@@ -48,52 +48,52 @@ namespace System::Resources
 	class ResourceManager : public ::System::Object
 	{
 	public:
+		static ::System::Type** StaticGet__minResourceSet()
+		{
+			return (::System::Type**)Il2CppClass::FromTypeDefinitionIndex(ResourceManager_TypeDefinitionIndex)->GetStaticField(0x10030);
+		}
 		static ::System::String** StaticGet_ResSetTypeName()
 		{
-			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(ResourceManager_TypeDefinitionIndex)->GetStaticField(0xA060);
+			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(ResourceManager_TypeDefinitionIndex)->GetStaticField(0x10038);
 		}
 		static ::System::String** StaticGet_ResReaderTypeName()
 		{
-			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(ResourceManager_TypeDefinitionIndex)->GetStaticField(0xA068);
-		}
-		static ::System::Type** StaticGet__minResourceSet()
-		{
-			return (::System::Type**)Il2CppClass::FromTypeDefinitionIndex(ResourceManager_TypeDefinitionIndex)->GetStaticField(0xA070);
+			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(ResourceManager_TypeDefinitionIndex)->GetStaticField(0x10040);
 		}
 		static ::System::String** StaticGet_MscorlibName()
 		{
-			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(ResourceManager_TypeDefinitionIndex)->GetStaticField(0xA078);
-		}
-		static ::System::Int32* StaticGet_HeaderVersionNumber()
-		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(ResourceManager_TypeDefinitionIndex)->GetStaticField(0x43C0);
+			return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(ResourceManager_TypeDefinitionIndex)->GetStaticField(0x10048);
 		}
 		static ::System::Int32* StaticGet_MagicNumber()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(ResourceManager_TypeDefinitionIndex)->GetStaticField(0x43C4);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(ResourceManager_TypeDefinitionIndex)->GetStaticField(0x56C0);
 		}
 		static ::System::Int32* StaticGet_DEBUG()
 		{
-			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(ResourceManager_TypeDefinitionIndex)->GetStaticField(0x43C8);
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(ResourceManager_TypeDefinitionIndex)->GetStaticField(0x56C4);
 		}
-		::System::Reflection::Assembly* MainAssembly; // 0x10
-		::System::Version* _satelliteContractVersion; // 0x18
-		::System::Reflection::Assembly* _callingAssembly; // 0x20
-		::System::String* moduleDir; // 0x28
-		::System::Type* _locationInfo; // 0x30
-		::System::Resources::IResourceGroveler* resourceGroveler; // 0x38
-		::System::Reflection::RuntimeAssembly* m_callingAssembly; // 0x40
-		::System::Resources::ResourceManager_CultureNameResourceSetPair* _lastUsedResourceCache; // 0x48
-		::System::Globalization::CultureInfo* _neutralResourcesCulture; // 0x50
-		::System::Type* _userResourceSet; // 0x58
-		::System::String* BaseNameField; // 0x60
-		::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Resources::ResourceSet*>* _resourceSets; // 0x68
-		::System::Collections::Hashtable* ResourceSets; // 0x70
+		static ::System::Int32* StaticGet_HeaderVersionNumber()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(ResourceManager_TypeDefinitionIndex)->GetStaticField(0x56C8);
+		}
+		::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Resources::ResourceSet*>* _resourceSets; // 0x10
+		::System::Type* _locationInfo; // 0x18
+		::System::Reflection::RuntimeAssembly* m_callingAssembly; // 0x20
+		::System::String* BaseNameField; // 0x28
+		::System::Resources::IResourceGroveler* resourceGroveler; // 0x30
+		::System::String* moduleDir; // 0x38
+		::System::Reflection::Assembly* _callingAssembly; // 0x40
+		::System::Globalization::CultureInfo* _neutralResourcesCulture; // 0x48
+		::System::Version* _satelliteContractVersion; // 0x50
+		::System::Collections::Hashtable* ResourceSets; // 0x58
+		::System::Reflection::Assembly* MainAssembly; // 0x60
+		::System::Type* _userResourceSet; // 0x68
+		::System::Resources::ResourceManager_CultureNameResourceSetPair* _lastUsedResourceCache; // 0x70
 		::System::Resources::UltimateResourceFallbackLocation _fallbackLoc; // 0x78
 		::System::Boolean _ignoreCase; // 0x7C
 		::System::Boolean UseManifest; // 0x7D
-		::System::Boolean _lookedForSatelliteContractVersion; // 0x7E
-		::System::Boolean UseSatelliteAssem; // 0x7F
+		::System::Boolean UseSatelliteAssem; // 0x7E
+		::System::Boolean _lookedForSatelliteContractVersion; // 0x7F
 
 		::System::Void _ctor()
 		{

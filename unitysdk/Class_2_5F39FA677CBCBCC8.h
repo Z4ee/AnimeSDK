@@ -1,0 +1,53 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/Class_1_EB12C59D9F121FDC.h"
+#include "unitysdk/RPG/GameCore/TimeRewindState.h"
+
+#define CLASS_2_5F39FA677CBCBCC8_METHOD_2_1658AEB47C0FCD39_OFFSET UNITYSDK_OFFSET(0x16EEA270)
+#define CLASS_2_5F39FA677CBCBCC8_METHOD_2_1B9CC121BDC8766D_OFFSET UNITYSDK_OFFSET(0x16EEA1E0)
+#define CLASS_2_5F39FA677CBCBCC8_METHOD_2_3E7178C5ECF017DB_OFFSET UNITYSDK_OFFSET(0x16EEA190)
+#define CLASS_2_5F39FA677CBCBCC8_METHOD_2_5BCE9210F4ACDD0B_OFFSET UNITYSDK_OFFSET(0x16EE9FF0)
+#define CLASS_2_5F39FA677CBCBCC8_METHOD_2_B06F516E4459C742_OFFSET UNITYSDK_OFFSET(0x16EEA0B0)
+#define CLASS_2_5F39FA677CBCBCC8_METHOD_2_B1936CE4DA97AA45_OFFSET UNITYSDK_OFFSET(0x16EE9F60)
+#define CLASS_2_5F39FA677CBCBCC8__CTOR_OFFSET UNITYSDK_OFFSET(0x16EEA2F0)
+
+inline static constexpr unsigned int Class_2_5F39FA677CBCBCC8_TypeDefinitionIndex = 58070;
+
+class Class_2_5F39FA677CBCBCC8 : public ::Class_1_EB12C59D9F121FDC
+{
+public:
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_5F39FA677CBCBCC8__CTOR_OFFSET))(this);
+	}
+
+	::System::Void Method_2_B1936CE4DA97AA45()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_5F39FA677CBCBCC8_METHOD_2_B1936CE4DA97AA45_OFFSET))(this);
+	}
+
+	::System::Void Method_2_B06F516E4459C742()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_5F39FA677CBCBCC8_METHOD_2_B06F516E4459C742_OFFSET))(this);
+	}
+
+	::System::Void Method_2_3E7178C5ECF017DB(::System::Boolean a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + CLASS_2_5F39FA677CBCBCC8_METHOD_2_3E7178C5ECF017DB_OFFSET))(this, a1);
+	}
+
+	::System::Void Method_2_1B9CC121BDC8766D(::System::Boolean a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + CLASS_2_5F39FA677CBCBCC8_METHOD_2_1B9CC121BDC8766D_OFFSET))(this, a1);
+	}
+
+	::System::Void Method_2_1658AEB47C0FCD39(::RPG::GameCore::TimeRewindState a1, ::System::Boolean a2)
+	{
+		return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TimeRewindState, ::System::Boolean))((::PBYTE)hIl2Cpp + CLASS_2_5F39FA677CBCBCC8_METHOD_2_1658AEB47C0FCD39_OFFSET))(this, a1, a2);
+	}
+
+	::System::Void Method_2_5BCE9210F4ACDD0B()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_2_5F39FA677CBCBCC8_METHOD_2_5BCE9210F4ACDD0B_OFFSET))(this);
+	}
+};

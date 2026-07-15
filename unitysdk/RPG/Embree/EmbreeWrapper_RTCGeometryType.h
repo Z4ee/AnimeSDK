@@ -3,7 +3,7 @@
 
 namespace RPG::Embree
 {
-	inline static constexpr unsigned int EmbreeWrapper_RTCGeometryType_TypeDefinitionIndex = 44371;
+	inline static constexpr unsigned int EmbreeWrapper_RTCGeometryType_TypeDefinitionIndex = 45241;
 
 	enum class EmbreeWrapper_RTCGeometryType : ::System::Int32
 	{

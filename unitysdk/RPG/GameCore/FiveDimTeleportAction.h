@@ -5,33 +5,34 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class FiveDimPortalTarget; }
 
-#define RPG_GAMECORE_FIVEDIMTELEPORTACTION_METHOD_3_0EA890DB81AD620E_OFFSET UNITYSDK_OFFSET(0x1975BED0)
-#define RPG_GAMECORE_FIVEDIMTELEPORTACTION_METHOD_3_1BA6B0EED99DB807_OFFSET UNITYSDK_OFFSET(0x1975BF40)
-#define RPG_GAMECORE_FIVEDIMTELEPORTACTION__CTOR_OFFSET UNITYSDK_OFFSET(0x1975BF20)
+#define RPG_GAMECORE_FIVEDIMTELEPORTACTION_METHOD_3_2D8E1775A12540C8_OFFSET UNITYSDK_OFFSET(0x1BEB7410)
+#define RPG_GAMECORE_FIVEDIMTELEPORTACTION_METHOD_3_D3E5C2A0F623BEB3_OFFSET UNITYSDK_OFFSET(0x1BEB7450)
+#define RPG_GAMECORE_FIVEDIMTELEPORTACTION__CTOR_OFFSET UNITYSDK_OFFSET(0x1BEB7440)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FiveDimTeleportAction_TypeDefinitionIndex = 17751;
+	inline static constexpr unsigned int FiveDimTeleportAction_TypeDefinitionIndex = 17925;
 
 	class FiveDimTeleportAction : public ::RPG::GameCore::FiveDimBaseEventAction
 	{
 	public:
 		::RPG::GameCore::FiveDimPortalTarget* Target; // 0x10
-		::System::Boolean TriggerFiveDimLoadingView; // 0x18
+		::System::Boolean NoCameraBlend; // 0x18
+		::System::Boolean WaitFullStreaming; // 0x19
 
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMTELEPORTACTION__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_0EA890DB81AD620E(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::FiveDimTeleportAction*& a2)
+		static ::System::Void Method_3_2D8E1775A12540C8(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::FiveDimTeleportAction*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::FiveDimTeleportAction*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMTELEPORTACTION_METHOD_3_0EA890DB81AD620E_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::FiveDimTeleportAction*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMTELEPORTACTION_METHOD_3_2D8E1775A12540C8_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_3_1BA6B0EED99DB807(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::FiveDimTeleportAction* a2)
+		static ::System::Void Method_3_D3E5C2A0F623BEB3(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::FiveDimTeleportAction* a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::FiveDimTeleportAction*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMTELEPORTACTION_METHOD_3_1BA6B0EED99DB807_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::FiveDimTeleportAction*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMTELEPORTACTION_METHOD_3_D3E5C2A0F623BEB3_OFFSET))(a1, a2);
 		}
 	};
 }

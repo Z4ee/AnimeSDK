@@ -7,7 +7,7 @@ namespace System::Text { class StringBuilder; }
 
 namespace RPG::GCFreeClosure
 {
-	inline static constexpr unsigned int STuple_7_TypeDefinitionIndex = 6907;
+	inline static constexpr unsigned int STuple_7_TypeDefinitionIndex = 6912;
 
 	template <typename T1, typename T2, typename T3, typename T4, typename T5, typename T6, typename T7>
 	struct STuple_7

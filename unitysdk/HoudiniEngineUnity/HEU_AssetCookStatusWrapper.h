@@ -3,7 +3,7 @@
 
 namespace HoudiniEngineUnity
 {
-	inline static constexpr unsigned int HEU_AssetCookStatusWrapper_TypeDefinitionIndex = 37592;
+	inline static constexpr unsigned int HEU_AssetCookStatusWrapper_TypeDefinitionIndex = 38400;
 
 	enum class HEU_AssetCookStatusWrapper : ::System::Int32
 	{

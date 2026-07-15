@@ -8,13 +8,13 @@ namespace RPG::GameCore { class SimpleTalkBackground; }
 namespace RPG::GameCore { class SimpleTalkStyle; }
 namespace RPG::GameCore { class SimpleTalkTargetBehavior; }
 
-#define RPG_GAMECORE_PLAYSIMPLETALK_FROMBINARYIMPL_OFFSET UNITYSDK_OFFSET(0x19A29370)
-#define RPG_GAMECORE_PLAYSIMPLETALK_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x19A292D0)
-#define RPG_GAMECORE_PLAYSIMPLETALK__CTOR_OFFSET UNITYSDK_OFFSET(0x19A29330)
+#define RPG_GAMECORE_PLAYSIMPLETALK_FROMBINARYIMPL_OFFSET UNITYSDK_OFFSET(0x1BA07A60)
+#define RPG_GAMECORE_PLAYSIMPLETALK_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1BA07A10)
+#define RPG_GAMECORE_PLAYSIMPLETALK__CTOR_OFFSET UNITYSDK_OFFSET(0x1BA07A50)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PlaySimpleTalk_TypeDefinitionIndex = 19699;
+	inline static constexpr unsigned int PlaySimpleTalk_TypeDefinitionIndex = 20058;
 
 	class PlaySimpleTalk : public ::RPG::GameCore::SimpleTalkListConfig
 	{

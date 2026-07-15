@@ -1,34 +1,32 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Class_2_7134DCF9ECF7587A.h"
+#include "unitysdk/Class_2_BB5C2228DBF7AE1F.h"
 
 namespace RPG::GameCore { class GridFightWaitDragEquip; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_9E57E9F7EA24A828_METHOD_3_5790A55946AA509D_OFFSET UNITYSDK_OFFSET(0x13B14D70)
-#define CLASS_3_9E57E9F7EA24A828_METHOD_3_7C2C2820B36B9508_OFFSET UNITYSDK_OFFSET(0x13B14410)
-#define CLASS_3_9E57E9F7EA24A828_METHOD_3_CE962969F77540FC_OFFSET UNITYSDK_OFFSET(0x13B14D00)
-#define CLASS_3_9E57E9F7EA24A828_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x13B14500)
-#define CLASS_3_9E57E9F7EA24A828_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x13B14C60)
-#define CLASS_3_9E57E9F7EA24A828__CTOR_OFFSET UNITYSDK_OFFSET(0x13B14400)
-#define CLASS_3_9E57E9F7EA24A828___IFIXBASEPROXY_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x13B14DD0)
+#define CLASS_3_9E57E9F7EA24A828_METHOD_3_BD6A3C745D127D79_OFFSET UNITYSDK_OFFSET(0x17992520)
+#define CLASS_3_9E57E9F7EA24A828_METHOD_3_DF3C54A5ADEABAF1_OFFSET UNITYSDK_OFFSET(0x17991BA0)
+#define CLASS_3_9E57E9F7EA24A828_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x17991CC0)
+#define CLASS_3_9E57E9F7EA24A828_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x17992480)
+#define CLASS_3_9E57E9F7EA24A828__CTOR_OFFSET UNITYSDK_OFFSET(0x17991B90)
 
-inline static constexpr unsigned int Class_3_9E57E9F7EA24A828_TypeDefinitionIndex = 50041;
+inline static constexpr unsigned int Class_3_9E57E9F7EA24A828_TypeDefinitionIndex = 51123;
 
-class Class_3_9E57E9F7EA24A828 : public ::Class_2_7134DCF9ECF7587A
+class Class_3_9E57E9F7EA24A828 : public ::Class_2_BB5C2228DBF7AE1F
 {
 public:
-	::RPG::GameCore::TaskContext* Field_3_0; // 0x28
-	::RPG::GameCore::GridFightWaitDragEquip* Field_3_1; // 0x30
+	::RPG::GameCore::GridFightWaitDragEquip* Field_3_0; // 0x28
+	::RPG::GameCore::TaskContext* Field_3_1; // 0x30
 
 	::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::GridFightWaitDragEquip* a2)
 	{
 		return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::RPG::GameCore::GridFightWaitDragEquip*))((::PBYTE)hIl2Cpp + CLASS_3_9E57E9F7EA24A828__CTOR_OFFSET))(this, a1, a2);
 	}
 
-	::System::Void Method_3_7C2C2820B36B9508()
+	::System::Void Method_3_DF3C54A5ADEABAF1()
 	{
-		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_3_9E57E9F7EA24A828_METHOD_3_7C2C2820B36B9508_OFFSET))(this);
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_3_9E57E9F7EA24A828_METHOD_3_DF3C54A5ADEABAF1_OFFSET))(this);
 	}
 
 	::System::Void OnTaskBegin()
@@ -41,18 +39,8 @@ public:
 		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_3_9E57E9F7EA24A828_ONTASKRESET_OFFSET))(this);
 	}
 
-	::System::Void Method_3_CE962969F77540FC(::System::Boolean a1)
+	::System::Void Method_3_BD6A3C745D127D79(::System::Boolean a1)
 	{
-		return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + CLASS_3_9E57E9F7EA24A828_METHOD_3_CE962969F77540FC_OFFSET))(this, a1);
-	}
-
-	::System::Void Method_3_5790A55946AA509D()
-	{
-		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_3_9E57E9F7EA24A828_METHOD_3_5790A55946AA509D_OFFSET))(this);
-	}
-
-	::System::Void __iFixBaseProxy_OnTaskReset()
-	{
-		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_3_9E57E9F7EA24A828___IFIXBASEPROXY_ONTASKRESET_OFFSET))(this);
+		return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + CLASS_3_9E57E9F7EA24A828_METHOD_3_BD6A3C745D127D79_OFFSET))(this, a1);
 	}
 };

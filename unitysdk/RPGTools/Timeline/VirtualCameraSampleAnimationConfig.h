@@ -5,11 +5,11 @@
 namespace System { class String; }
 namespace UnityEngine { class AnimationClip; }
 
-#define RPGTOOLS_TIMELINE_VIRTUALCAMERASAMPLEANIMATIONCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0xD073880)
+#define RPGTOOLS_TIMELINE_VIRTUALCAMERASAMPLEANIMATIONCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x19F64390)
 
 namespace RPGTools::Timeline
 {
-	inline static constexpr unsigned int VirtualCameraSampleAnimationConfig_TypeDefinitionIndex = 45148;
+	inline static constexpr unsigned int VirtualCameraSampleAnimationConfig_TypeDefinitionIndex = 46066;
 
 	class VirtualCameraSampleAnimationConfig : public ::System::Object
 	{

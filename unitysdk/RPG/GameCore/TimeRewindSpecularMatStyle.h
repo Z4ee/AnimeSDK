@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TimeRewindSpecularMatStyle_TypeDefinitionIndex = 23182;
+	inline static constexpr unsigned int TimeRewindSpecularMatStyle_TypeDefinitionIndex = 23662;
 
 	enum class TimeRewindSpecularMatStyle : ::System::Int32
 	{

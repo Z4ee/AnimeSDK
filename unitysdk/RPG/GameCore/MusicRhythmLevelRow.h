@@ -4,26 +4,26 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_MUSICRHYTHMLEVELROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x199C3EE0)
-#define RPG_GAMECORE_MUSICRHYTHMLEVELROW__CTOR_OFFSET UNITYSDK_OFFSET(0x199C4690)
+#define RPG_GAMECORE_MUSICRHYTHMLEVELROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1BAED970)
+#define RPG_GAMECORE_MUSICRHYTHMLEVELROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1BAEE160)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MusicRhythmLevelRow_TypeDefinitionIndex = 13589;
+	inline static constexpr unsigned int MusicRhythmLevelRow_TypeDefinitionIndex = 13737;
 
 	class MusicRhythmLevelRow : public ::System::Object
 	{
 	public:
-		::Il2CppArray<::System::UInt32>* StarRewardIDList; // 0x10
+		::Il2CppArray<::System::UInt32>* StarScoreList; // 0x10
 		::Il2CppArray<::System::UInt32>* InputScore; // 0x18
-		::Il2CppArray<::System::UInt32>* StarScoreList; // 0x20
+		::Il2CppArray<::System::UInt32>* StarRewardIDList; // 0x20
 		::System::UInt32 ID; // 0x28
-		::System::UInt32 EnterTypeParam; // 0x2C
-		::System::UInt32 EnterType; // 0x30
-		::System::UInt32 Group; // 0x34
-		::System::UInt32 FeverComboCount; // 0x38
-		::System::UInt32 Difficulty; // 0x3C
-		::System::UInt32 LevelSecCount; // 0x40
+		::System::UInt32 LevelSecCount; // 0x2C
+		::System::UInt32 Difficulty; // 0x30
+		::System::UInt32 EnterTypeParam; // 0x34
+		::System::UInt32 Group; // 0x38
+		::System::UInt32 EnterType; // 0x3C
+		::System::UInt32 FeverComboCount; // 0x40
 
 		::System::Void _ctor()
 		{

@@ -8,7 +8,7 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 
 namespace MessagePack::Formatters
 {
-	inline static constexpr unsigned int DictionaryFormatter_2_TypeDefinitionIndex = 7372;
+	inline static constexpr unsigned int DictionaryFormatter_2_TypeDefinitionIndex = 7378;
 
 	template <typename TKey, typename TValue>
 	class DictionaryFormatter_2 : public ::MessagePack::Formatters::DictionaryFormatterBase_5<TKey, TValue, ::System::Collections::Generic::Dictionary_2<TKey, TValue>*, ::System::Collections::Generic::Dictionary_2_Enumerator<TKey, TValue>, ::System::Collections::Generic::Dictionary_2<TKey, TValue>*>

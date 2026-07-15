@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int Class_1_36264895A759B0FF_DirectorState_TypeDefinitionIndex = 45762;
+inline static constexpr unsigned int Class_1_36264895A759B0FF_DirectorState_TypeDefinitionIndex = 46701;
 
 enum class Class_1_36264895A759B0FF_DirectorState : ::System::Int32
 {

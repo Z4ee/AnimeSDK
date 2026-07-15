@@ -9,7 +9,7 @@ namespace System::Collections::Generic { template <typename T> class IList_1; }
 
 namespace System::Collections::Immutable
 {
-	inline static constexpr unsigned int ImmutableExtensions_FallbackWrapper_1_TypeDefinitionIndex = 7009;
+	inline static constexpr unsigned int ImmutableExtensions_FallbackWrapper_1_TypeDefinitionIndex = 7015;
 
 	template <typename T>
 	class ImmutableExtensions_FallbackWrapper_1 : public ::System::Object

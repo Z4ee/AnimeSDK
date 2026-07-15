@@ -5,13 +5,13 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class TargetEvaluator; }
 
-#define RPG_GAMECORE_UNLOADLITTLEGAMEAREA_METHOD_3_94FC5B64EBD94EF0_OFFSET UNITYSDK_OFFSET(0x19E37D30)
-#define RPG_GAMECORE_UNLOADLITTLEGAMEAREA_METHOD_3_B624C2FE75A1A29E_OFFSET UNITYSDK_OFFSET(0x19E37E80)
-#define RPG_GAMECORE_UNLOADLITTLEGAMEAREA__CTOR_OFFSET UNITYSDK_OFFSET(0x19E37DF0)
+#define RPG_GAMECORE_UNLOADLITTLEGAMEAREA_METHOD_3_00C6D5159BDA3386_OFFSET UNITYSDK_OFFSET(0x1B884DA0)
+#define RPG_GAMECORE_UNLOADLITTLEGAMEAREA_METHOD_3_B624C2FE75A1A29E_OFFSET UNITYSDK_OFFSET(0x1B884E20)
+#define RPG_GAMECORE_UNLOADLITTLEGAMEAREA__CTOR_OFFSET UNITYSDK_OFFSET(0x1B884DF0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int UnloadLittleGameArea_TypeDefinitionIndex = 19844;
+	inline static constexpr unsigned int UnloadLittleGameArea_TypeDefinitionIndex = 20208;
 
 	class UnloadLittleGameArea : public ::RPG::GameCore::TaskConfig
 	{
@@ -23,9 +23,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_UNLOADLITTLEGAMEAREA__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_94FC5B64EBD94EF0(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::UnloadLittleGameArea*& a2)
+		static ::System::Void Method_3_00C6D5159BDA3386(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::UnloadLittleGameArea*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::UnloadLittleGameArea*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_UNLOADLITTLEGAMEAREA_METHOD_3_94FC5B64EBD94EF0_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::UnloadLittleGameArea*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_UNLOADLITTLEGAMEAREA_METHOD_3_00C6D5159BDA3386_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_B624C2FE75A1A29E(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::UnloadLittleGameArea* a2)

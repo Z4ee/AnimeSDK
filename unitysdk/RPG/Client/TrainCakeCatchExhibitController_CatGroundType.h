@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int TrainCakeCatchExhibitController_CatGroundType_TypeDefinitionIndex = 56273;
+	inline static constexpr unsigned int TrainCakeCatchExhibitController_CatGroundType_TypeDefinitionIndex = 57512;
 
 	enum class TrainCakeCatchExhibitController_CatGroundType : ::System::Int32
 	{

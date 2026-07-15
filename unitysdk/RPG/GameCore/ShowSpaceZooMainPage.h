@@ -6,13 +6,13 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_SHOWSPACEZOOMAINPAGE_METHOD_3_826A7F8EA210C052_OFFSET UNITYSDK_OFFSET(0x19C83BA0)
-#define RPG_GAMECORE_SHOWSPACEZOOMAINPAGE_METHOD_3_D0960E2CF7C7FDF1_OFFSET UNITYSDK_OFFSET(0x19C83C20)
-#define RPG_GAMECORE_SHOWSPACEZOOMAINPAGE__CTOR_OFFSET UNITYSDK_OFFSET(0x19C83BF0)
+#define RPG_GAMECORE_SHOWSPACEZOOMAINPAGE_METHOD_3_5C0A91E4DA33C894_OFFSET UNITYSDK_OFFSET(0x1BE476F0)
+#define RPG_GAMECORE_SHOWSPACEZOOMAINPAGE_METHOD_3_D0960E2CF7C7FDF1_OFFSET UNITYSDK_OFFSET(0x1BE47730)
+#define RPG_GAMECORE_SHOWSPACEZOOMAINPAGE__CTOR_OFFSET UNITYSDK_OFFSET(0x1BE47720)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ShowSpaceZooMainPage_TypeDefinitionIndex = 19761;
+	inline static constexpr unsigned int ShowSpaceZooMainPage_TypeDefinitionIndex = 20121;
 
 	class ShowSpaceZooMainPage : public ::RPG::GameCore::TaskConfig
 	{
@@ -27,9 +27,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SHOWSPACEZOOMAINPAGE__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_826A7F8EA210C052(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ShowSpaceZooMainPage*& a2)
+		static ::System::Void Method_3_5C0A91E4DA33C894(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ShowSpaceZooMainPage*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ShowSpaceZooMainPage*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SHOWSPACEZOOMAINPAGE_METHOD_3_826A7F8EA210C052_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ShowSpaceZooMainPage*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SHOWSPACEZOOMAINPAGE_METHOD_3_5C0A91E4DA33C894_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_D0960E2CF7C7FDF1(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ShowSpaceZooMainPage* a2)

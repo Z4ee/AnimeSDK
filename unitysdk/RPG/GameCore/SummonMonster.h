@@ -9,13 +9,13 @@ namespace RPG::GameCore { class DynamicFloat; }
 namespace RPG::GameCore { class SummonMonsterData; }
 namespace RPG::GameCore { class VCameraConfig; }
 
-#define RPG_GAMECORE_SUMMONMONSTER_METHOD_3_1D932944641139F6_OFFSET UNITYSDK_OFFSET(0x19CD27D0)
-#define RPG_GAMECORE_SUMMONMONSTER_METHOD_3_F6F974CAAF44DC43_OFFSET UNITYSDK_OFFSET(0x19CD26B0)
-#define RPG_GAMECORE_SUMMONMONSTER__CTOR_OFFSET UNITYSDK_OFFSET(0x19CD2750)
+#define RPG_GAMECORE_SUMMONMONSTER_METHOD_3_1D932944641139F6_OFFSET UNITYSDK_OFFSET(0x1B42E3F0)
+#define RPG_GAMECORE_SUMMONMONSTER_METHOD_3_7051FBA171FD2690_OFFSET UNITYSDK_OFFSET(0x1B42E300)
+#define RPG_GAMECORE_SUMMONMONSTER__CTOR_OFFSET UNITYSDK_OFFSET(0x1B42E390)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SummonMonster_TypeDefinitionIndex = 21418;
+	inline static constexpr unsigned int SummonMonster_TypeDefinitionIndex = 21837;
 
 	class SummonMonster : public ::RPG::GameCore::TaskConfig
 	{
@@ -39,9 +39,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SUMMONMONSTER__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_F6F974CAAF44DC43(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SummonMonster*& a2)
+		static ::System::Void Method_3_7051FBA171FD2690(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SummonMonster*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SummonMonster*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SUMMONMONSTER_METHOD_3_F6F974CAAF44DC43_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SummonMonster*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SUMMONMONSTER_METHOD_3_7051FBA171FD2690_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_1D932944641139F6(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SummonMonster* a2)

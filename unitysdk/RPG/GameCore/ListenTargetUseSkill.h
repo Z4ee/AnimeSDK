@@ -6,13 +6,13 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class TargetEvaluator; }
 
-#define RPG_GAMECORE_LISTENTARGETUSESKILL_METHOD_3_4105F1F8F60D1E7B_OFFSET UNITYSDK_OFFSET(0x198924D0)
-#define RPG_GAMECORE_LISTENTARGETUSESKILL_METHOD_3_DB00492B197088A2_OFFSET UNITYSDK_OFFSET(0x19892450)
-#define RPG_GAMECORE_LISTENTARGETUSESKILL__CTOR_OFFSET UNITYSDK_OFFSET(0x198924A0)
+#define RPG_GAMECORE_LISTENTARGETUSESKILL_METHOD_3_4105F1F8F60D1E7B_OFFSET UNITYSDK_OFFSET(0x1B091F40)
+#define RPG_GAMECORE_LISTENTARGETUSESKILL_METHOD_3_F01360CC5E84B306_OFFSET UNITYSDK_OFFSET(0x1B091F00)
+#define RPG_GAMECORE_LISTENTARGETUSESKILL__CTOR_OFFSET UNITYSDK_OFFSET(0x1B091F30)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ListenTargetUseSkill_TypeDefinitionIndex = 20525;
+	inline static constexpr unsigned int ListenTargetUseSkill_TypeDefinitionIndex = 20940;
 
 	class ListenTargetUseSkill : public ::RPG::GameCore::TaskConfig
 	{
@@ -28,9 +28,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LISTENTARGETUSESKILL__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_DB00492B197088A2(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ListenTargetUseSkill*& a2)
+		static ::System::Void Method_3_F01360CC5E84B306(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ListenTargetUseSkill*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ListenTargetUseSkill*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LISTENTARGETUSESKILL_METHOD_3_DB00492B197088A2_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::ListenTargetUseSkill*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LISTENTARGETUSESKILL_METHOD_3_F01360CC5E84B306_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_4105F1F8F60D1E7B(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::ListenTargetUseSkill* a2)

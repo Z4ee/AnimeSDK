@@ -3,7 +3,7 @@
 
 namespace System::Collections::Generic
 {
-	inline static constexpr unsigned int InsertionBehavior_TypeDefinitionIndex = 1523;
+	inline static constexpr unsigned int InsertionBehavior_TypeDefinitionIndex = 1527;
 
 	enum class InsertionBehavior : ::System::Byte
 	{

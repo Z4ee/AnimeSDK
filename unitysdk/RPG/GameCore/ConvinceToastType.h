@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ConvinceToastType_TypeDefinitionIndex = 23237;
+	inline static constexpr unsigned int ConvinceToastType_TypeDefinitionIndex = 23722;
 
 	enum class ConvinceToastType : ::System::Int32
 	{

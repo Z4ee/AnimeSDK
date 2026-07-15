@@ -6,22 +6,22 @@
 
 namespace RPG::Client { class ChimeraDuelTalkData; }
 
-#define RPG_CLIENT_PROP_CHIMERADUELBUBBLEDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xC501370)
+#define RPG_CLIENT_PROP_CHIMERADUELBUBBLEDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x16E17C40)
 
 namespace RPG::Client::Prop
 {
-	inline static constexpr unsigned int ChimeraDuelBubbleData_TypeDefinitionIndex = 72797;
+	inline static constexpr unsigned int ChimeraDuelBubbleData_TypeDefinitionIndex = 74322;
 
 	class ChimeraDuelBubbleData : public ::System::Object
 	{
 	public:
 		::RPG::Client::ChimeraDuelTalkData* TalkData; // 0x10
-		::System::UInt32 ConfigID; // 0x18
+		::System::Single Duration; // 0x18
 		::System::Int32 UniqueID; // 0x1C
 		::System::Boolean IsEvilTalk; // 0x20
 		::System::Boolean IsFollowTimeScale; // 0x21
-		::RPG::GameCore::ChimeraDuelTalkType TalkType; // 0x24
-		::System::Single Duration; // 0x28
+		::System::UInt32 ConfigID; // 0x24
+		::RPG::GameCore::ChimeraDuelTalkType TalkType; // 0x28
 		::RPG::GameCore::ChimeraDuelTeamType TeamType; // 0x2C
 
 		::System::Void _ctor(::RPG::Client::ChimeraDuelTalkData* a1, ::System::UInt32 a2, ::System::Int32 a3, ::System::Single a4, ::RPG::GameCore::ChimeraDuelTeamType a5, ::System::Boolean a6, ::System::Boolean a7)

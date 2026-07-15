@@ -10,29 +10,29 @@ namespace System { template <typename T> class Action_1; }
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine::UI { class Button; }
 
-#define MIHOYO_SDK_PROTOCOLCONFIRM_AWAKE_OFFSET UNITYSDK_OFFSET(0x183FDD70)
-#define MIHOYO_SDK_PROTOCOLCONFIRM_CLICKACCEPTBUTTON_OFFSET UNITYSDK_OFFSET(0x183FE840)
-#define MIHOYO_SDK_PROTOCOLCONFIRM_CLICKREFUSEBUTTON_OFFSET UNITYSDK_OFFSET(0x183FE820)
-#define MIHOYO_SDK_PROTOCOLCONFIRM_HIDE_OFFSET UNITYSDK_OFFSET(0x183FDD40)
-#define MIHOYO_SDK_PROTOCOLCONFIRM_ONHREFCLICK_OFFSET UNITYSDK_OFFSET(0x183FE800)
-#define MIHOYO_SDK_PROTOCOLCONFIRM_SHOW_OFFSET UNITYSDK_OFFSET(0x183FDBE0)
-#define MIHOYO_SDK_PROTOCOLCONFIRM_UPDATETEXT_OFFSET UNITYSDK_OFFSET(0x183FE200)
-#define MIHOYO_SDK_PROTOCOLCONFIRM__CTOR_OFFSET UNITYSDK_OFFSET(0x183FE860)
+#define MIHOYO_SDK_PROTOCOLCONFIRM_AWAKE_OFFSET UNITYSDK_OFFSET(0x170FB560)
+#define MIHOYO_SDK_PROTOCOLCONFIRM_CLICKACCEPTBUTTON_OFFSET UNITYSDK_OFFSET(0x170FC080)
+#define MIHOYO_SDK_PROTOCOLCONFIRM_CLICKREFUSEBUTTON_OFFSET UNITYSDK_OFFSET(0x170FC060)
+#define MIHOYO_SDK_PROTOCOLCONFIRM_HIDE_OFFSET UNITYSDK_OFFSET(0x170FB530)
+#define MIHOYO_SDK_PROTOCOLCONFIRM_ONHREFCLICK_OFFSET UNITYSDK_OFFSET(0x170FC040)
+#define MIHOYO_SDK_PROTOCOLCONFIRM_SHOW_OFFSET UNITYSDK_OFFSET(0x170FB3D0)
+#define MIHOYO_SDK_PROTOCOLCONFIRM_UPDATETEXT_OFFSET UNITYSDK_OFFSET(0x170FB9F0)
+#define MIHOYO_SDK_PROTOCOLCONFIRM__CTOR_OFFSET UNITYSDK_OFFSET(0x170FC0A0)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int ProtocolConfirm_TypeDefinitionIndex = 7968;
+	inline static constexpr unsigned int ProtocolConfirm_TypeDefinitionIndex = 7978;
 
 	class ProtocolConfirm : public ::MiHoYo::SDK::UIElement
 	{
 	public:
-		static ::MiHoYo::SDK::UIManager** StaticGet_manager()
-		{
-			return (::MiHoYo::SDK::UIManager**)Il2CppClass::FromTypeDefinitionIndex(ProtocolConfirm_TypeDefinitionIndex)->GetStaticField(0x12420);
-		}
 		static ::MiHoYo::SDK::ProtocolConfirm** StaticGet_Instance()
 		{
-			return (::MiHoYo::SDK::ProtocolConfirm**)Il2CppClass::FromTypeDefinitionIndex(ProtocolConfirm_TypeDefinitionIndex)->GetStaticField(0x12428);
+			return (::MiHoYo::SDK::ProtocolConfirm**)Il2CppClass::FromTypeDefinitionIndex(ProtocolConfirm_TypeDefinitionIndex)->GetStaticField(0x1ADB0);
+		}
+		static ::MiHoYo::SDK::UIManager** StaticGet_manager()
+		{
+			return (::MiHoYo::SDK::UIManager**)Il2CppClass::FromTypeDefinitionIndex(ProtocolConfirm_TypeDefinitionIndex)->GetStaticField(0x1ADB8);
 		}
 		// static const ::System::String* PrefabName; // 0x0
 		// static const ::System::String* UserAgreementBtnPath; // 0x0

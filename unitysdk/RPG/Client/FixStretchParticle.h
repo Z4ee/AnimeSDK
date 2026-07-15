@@ -8,13 +8,12 @@
 namespace RPG::Client { class FixStretchParticleBehavior; }
 namespace System { class String; }
 
-#define RPG_CLIENT_FIXSTRETCHPARTICLE_GETTICKLODTEMPLATENAME_OFFSET UNITYSDK_OFFSET(0xBA59370)
-#define RPG_CLIENT_FIXSTRETCHPARTICLE__CTOR_OFFSET UNITYSDK_OFFSET(0xBA593C0)
-#define RPG_CLIENT_FIXSTRETCHPARTICLE___IFIXBASEPROXY_GETTICKLODTEMPLATENAME_OFFSET UNITYSDK_OFFSET(0xBA593E0)
+#define RPG_CLIENT_FIXSTRETCHPARTICLE_GETTICKLODTEMPLATENAME_OFFSET UNITYSDK_OFFSET(0x18435A90)
+#define RPG_CLIENT_FIXSTRETCHPARTICLE__CTOR_OFFSET UNITYSDK_OFFSET(0x18435AE0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int FixStretchParticle_TypeDefinitionIndex = 66010;
+	inline static constexpr unsigned int FixStretchParticle_TypeDefinitionIndex = 67435;
 
 	class FixStretchParticle : public ::RPG::Client::TAMonoPlugin_1<::RPG::Client::FixStretchParticleBehavior*>
 	{
@@ -34,11 +33,6 @@ namespace RPG::Client
 		::System::String* GetTickLodTemplateName()
 		{
 			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_FIXSTRETCHPARTICLE_GETTICKLODTEMPLATENAME_OFFSET))(this);
-		}
-
-		::System::String* __iFixBaseProxy_GetTickLodTemplateName()
-		{
-			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_FIXSTRETCHPARTICLE___IFIXBASEPROXY_GETTICKLODTEMPLATENAME_OFFSET))(this);
 		}
 	};
 }

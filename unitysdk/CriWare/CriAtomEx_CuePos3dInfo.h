@@ -3,21 +3,22 @@
 #include "unitysdk/CriWare/CriAtomEx_Randomize3dConfig.h"
 #include "unitysdk/System/ValueType.h"
 
-#define CRIWARE_CRIATOMEX_CUEPOS3DINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x2BD23B0)
+#define CRIWARE_CRIATOMEX_CUEPOS3DINFO__CTOR_OFFSET UNITYSDK_OFFSET(0x3A15A60)
 
 namespace CriWare
 {
-	inline static constexpr unsigned int CriAtomEx_CuePos3dInfo_TypeDefinitionIndex = 37016;
+	inline static constexpr unsigned int CriAtomEx_CuePos3dInfo_TypeDefinitionIndex = 37814;
 
 	struct alignas(8) CriAtomEx_CuePos3dInfo
 	{
 		::System::Single coneInsideAngle; // 0x10
 		::System::Single coneOutsideAngle; // 0x14
-		::System::Single minAttenuationDistance; // 0x18
-		::System::Single maxAttenuationDistance; // 0x1C
-		::System::Single sourceRadius; // 0x20
-		::System::Single interiorDistance; // 0x24
-		::System::Single dopplerFactor; // 0x28
+		::System::Single coneOutsideVolume; // 0x18
+		::System::Single minAttenuationDistance; // 0x1C
+		::System::Single maxAttenuationDistance; // 0x20
+		::System::Single sourceRadius; // 0x24
+		::System::Single interiorDistance; // 0x28
+		::System::Single dopplerFactor; // 0x2C
 		::CriWare::CriAtomEx_Randomize3dConfig randomPos; // 0x30
 		::System::UInt32 distanceAisacControl; // 0x40
 		::System::UInt32 listenerBaseAngleAisacControl; // 0x44

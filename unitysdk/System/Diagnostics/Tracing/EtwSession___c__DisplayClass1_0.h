@@ -5,12 +5,12 @@
 namespace System { template <typename T> class WeakReference_1; }
 namespace System::Diagnostics::Tracing { class EtwSession; }
 
-#define SYSTEM_DIAGNOSTICS_TRACING_ETWSESSION___C__DISPLAYCLASS1_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1869EFF0)
-#define SYSTEM_DIAGNOSTICS_TRACING_ETWSESSION___C__DISPLAYCLASS1_0__REMOVEETWSESSION_B__0_OFFSET UNITYSDK_OFFSET(0x1869F170)
+#define SYSTEM_DIAGNOSTICS_TRACING_ETWSESSION___C__DISPLAYCLASS1_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1919B8E0)
+#define SYSTEM_DIAGNOSTICS_TRACING_ETWSESSION___C__DISPLAYCLASS1_0__REMOVEETWSESSION_B__0_OFFSET UNITYSDK_OFFSET(0x1919BA60)
 
 namespace System::Diagnostics::Tracing
 {
-	inline static constexpr unsigned int EtwSession___c__DisplayClass1_0_TypeDefinitionIndex = 1690;
+	inline static constexpr unsigned int EtwSession___c__DisplayClass1_0_TypeDefinitionIndex = 1694;
 
 	class EtwSession___c__DisplayClass1_0 : public ::System::Object
 	{

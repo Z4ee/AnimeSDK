@@ -9,28 +9,28 @@ namespace System { class Type; }
 namespace System::Xml { class IXmlNamespaceResolver; }
 namespace System::Xml { class XmlNameTable; }
 
-#define SYSTEM_XML_SCHEMA_DATATYPE_UUID_COMPARE_OFFSET UNITYSDK_OFFSET(0x1AE3A5E0)
-#define SYSTEM_XML_SCHEMA_DATATYPE_UUID_GET_LISTVALUETYPE_OFFSET UNITYSDK_OFFSET(0x1AE3A580)
-#define SYSTEM_XML_SCHEMA_DATATYPE_UUID_GET_VALUETYPE_OFFSET UNITYSDK_OFFSET(0x1AE3A520)
-#define SYSTEM_XML_SCHEMA_DATATYPE_UUID_PARSEVALUE_OFFSET UNITYSDK_OFFSET(0x1AE3A6D0)
-#define SYSTEM_XML_SCHEMA_DATATYPE_UUID_TRYPARSEVALUE_OFFSET UNITYSDK_OFFSET(0x1AE3A840)
-#define SYSTEM_XML_SCHEMA_DATATYPE_UUID__CCTOR_OFFSET UNITYSDK_OFFSET(0x1AE3A8D0)
-#define SYSTEM_XML_SCHEMA_DATATYPE_UUID__CTOR_OFFSET UNITYSDK_OFFSET(0x1AE2F760)
+#define SYSTEM_XML_SCHEMA_DATATYPE_UUID_COMPARE_OFFSET UNITYSDK_OFFSET(0x19FA80E0)
+#define SYSTEM_XML_SCHEMA_DATATYPE_UUID_GET_LISTVALUETYPE_OFFSET UNITYSDK_OFFSET(0x19FA8080)
+#define SYSTEM_XML_SCHEMA_DATATYPE_UUID_GET_VALUETYPE_OFFSET UNITYSDK_OFFSET(0x19FA8020)
+#define SYSTEM_XML_SCHEMA_DATATYPE_UUID_PARSEVALUE_OFFSET UNITYSDK_OFFSET(0x19FA81D0)
+#define SYSTEM_XML_SCHEMA_DATATYPE_UUID_TRYPARSEVALUE_OFFSET UNITYSDK_OFFSET(0x19FA8340)
+#define SYSTEM_XML_SCHEMA_DATATYPE_UUID__CCTOR_OFFSET UNITYSDK_OFFSET(0x19FA83D0)
+#define SYSTEM_XML_SCHEMA_DATATYPE_UUID__CTOR_OFFSET UNITYSDK_OFFSET(0x19F9B0C0)
 
 namespace System::Xml::Schema
 {
-	inline static constexpr unsigned int Datatype_uuid_TypeDefinitionIndex = 2141;
+	inline static constexpr unsigned int Datatype_uuid_TypeDefinitionIndex = 2145;
 
 	class Datatype_uuid : public ::System::Xml::Schema::Datatype_anySimpleType
 	{
 	public:
-		static ::System::Type** StaticGet_listValueType()
-		{
-			return (::System::Type**)Il2CppClass::FromTypeDefinitionIndex(Datatype_uuid_TypeDefinitionIndex)->GetStaticField(0x14CA0);
-		}
 		static ::System::Type** StaticGet_atomicValueType()
 		{
-			return (::System::Type**)Il2CppClass::FromTypeDefinitionIndex(Datatype_uuid_TypeDefinitionIndex)->GetStaticField(0x14CA8);
+			return (::System::Type**)Il2CppClass::FromTypeDefinitionIndex(Datatype_uuid_TypeDefinitionIndex)->GetStaticField(0x23790);
+		}
+		static ::System::Type** StaticGet_listValueType()
+		{
+			return (::System::Type**)Il2CppClass::FromTypeDefinitionIndex(Datatype_uuid_TypeDefinitionIndex)->GetStaticField(0x23798);
 		}
 
 		::System::Void _ctor()

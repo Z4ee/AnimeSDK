@@ -1,10 +1,10 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/Struct_2_68841D2E219E78DE.h"
+#include "unitysdk/RPG/GameCore/FixPoint.h"
 
-namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
+class Class_0_16E4307DCC419505_719;
 
-inline static constexpr unsigned int Class_0_16E4307DCC419505_720_TypeDefinitionIndex = 58742;
+inline static constexpr unsigned int Class_0_16E4307DCC419505_720_TypeDefinitionIndex = 59765;
 
 class Class_0_16E4307DCC419505_720
 {

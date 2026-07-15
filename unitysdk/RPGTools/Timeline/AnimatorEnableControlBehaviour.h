@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/Playables/PlayableBehaviour.h"
 
-#define RPGTOOLS_TIMELINE_ANIMATORENABLECONTROLBEHAVIOUR__CTOR_OFFSET UNITYSDK_OFFSET(0xCFD7290)
+#define RPGTOOLS_TIMELINE_ANIMATORENABLECONTROLBEHAVIOUR__CTOR_OFFSET UNITYSDK_OFFSET(0x1B340F60)
 
 namespace RPGTools::Timeline
 {
-	inline static constexpr unsigned int AnimatorEnableControlBehaviour_TypeDefinitionIndex = 45488;
+	inline static constexpr unsigned int AnimatorEnableControlBehaviour_TypeDefinitionIndex = 46422;
 
 	class AnimatorEnableControlBehaviour : public ::UnityEngine::Playables::PlayableBehaviour
 	{

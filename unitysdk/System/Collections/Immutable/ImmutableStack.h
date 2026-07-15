@@ -7,7 +7,7 @@ namespace System::Collections::Immutable { template <typename T> class Immutable
 
 namespace System::Collections::Immutable
 {
-	inline static constexpr unsigned int ImmutableStack_TypeDefinitionIndex = 7030;
+	inline static constexpr unsigned int ImmutableStack_TypeDefinitionIndex = 7036;
 
 	class ImmutableStack : public ::System::Object
 	{

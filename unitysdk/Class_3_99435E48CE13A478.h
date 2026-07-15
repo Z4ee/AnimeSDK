@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class AttachNishastagaItemToScene; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_99435E48CE13A478_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xA6F8F90)
-#define CLASS_3_99435E48CE13A478__CTOR_OFFSET UNITYSDK_OFFSET(0xA6F8F60)
+#define CLASS_3_99435E48CE13A478_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x15E60A10)
+#define CLASS_3_99435E48CE13A478__CTOR_OFFSET UNITYSDK_OFFSET(0x15E609E0)
 
-inline static constexpr unsigned int Class_3_99435E48CE13A478_TypeDefinitionIndex = 54142;
+inline static constexpr unsigned int Class_3_99435E48CE13A478_TypeDefinitionIndex = 55365;
 
 class Class_3_99435E48CE13A478 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::AttachNishastagaItemToScene*>
 {

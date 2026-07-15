@@ -5,17 +5,17 @@
 namespace System { template <typename T> class Action_1; }
 namespace UnityEngine::UI { class Button; }
 
-#define CLASS_1_F8CCE338A0EBE567___C__DISPLAYCLASS0_0__BIND_B__0_OFFSET UNITYSDK_OFFSET(0x143C9760)
-#define CLASS_1_F8CCE338A0EBE567___C__DISPLAYCLASS0_0__CTOR_OFFSET UNITYSDK_OFFSET(0x143C8F30)
+#define CLASS_1_F8CCE338A0EBE567___C__DISPLAYCLASS0_0__BIND_B__0_OFFSET UNITYSDK_OFFSET(0x15877830)
+#define CLASS_1_F8CCE338A0EBE567___C__DISPLAYCLASS0_0__CTOR_OFFSET UNITYSDK_OFFSET(0x15877000)
 
-inline static constexpr unsigned int Class_1_F8CCE338A0EBE567___c__DisplayClass0_0_TypeDefinitionIndex = 68201;
+inline static constexpr unsigned int Class_1_F8CCE338A0EBE567___c__DisplayClass0_0_TypeDefinitionIndex = 69690;
 
 class Class_1_F8CCE338A0EBE567___c__DisplayClass0_0 : public ::System::Object
 {
 public:
-	::System::Action_1<::System::Object*>* cb; // 0x10
-	::System::Object* cbp; // 0x18
-	::UnityEngine::UI::Button* button; // 0x20
+	::UnityEngine::UI::Button* button; // 0x10
+	::System::Action_1<::System::Object*>* cb; // 0x18
+	::System::Object* cbp; // 0x20
 
 	::System::Void _ctor()
 	{

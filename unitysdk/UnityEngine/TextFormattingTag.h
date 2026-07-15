@@ -3,7 +3,7 @@
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int TextFormattingTag_TypeDefinitionIndex = 5015;
+	inline static constexpr unsigned int TextFormattingTag_TypeDefinitionIndex = 5020;
 
 	enum class TextFormattingTag : ::System::Int32
 	{

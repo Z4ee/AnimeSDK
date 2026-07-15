@@ -4,13 +4,13 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_ROGUEACTEMPTYCONFIG_METHOD_6_1DFB121E8DE1137D_OFFSET UNITYSDK_OFFSET(0x19AE4DE0)
-#define RPG_GAMECORE_ROGUEACTEMPTYCONFIG_METHOD_6_48BDF3326DE652A0_OFFSET UNITYSDK_OFFSET(0x19AE4BC0)
-#define RPG_GAMECORE_ROGUEACTEMPTYCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x19AE4D00)
+#define RPG_GAMECORE_ROGUEACTEMPTYCONFIG_METHOD_6_02E41AA9BF9F9839_OFFSET UNITYSDK_OFFSET(0x1D02DB00)
+#define RPG_GAMECORE_ROGUEACTEMPTYCONFIG_METHOD_6_1DFB121E8DE1137D_OFFSET UNITYSDK_OFFSET(0x1D02DB50)
+#define RPG_GAMECORE_ROGUEACTEMPTYCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1D02DB40)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RogueActEmptyConfig_TypeDefinitionIndex = 18670;
+	inline static constexpr unsigned int RogueActEmptyConfig_TypeDefinitionIndex = 18946;
 
 	class RogueActEmptyConfig : public ::RPG::GameCore::RogueActionConfigBase
 	{
@@ -20,9 +20,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUEACTEMPTYCONFIG__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_6_48BDF3326DE652A0(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::RogueActEmptyConfig*& a2)
+		static ::System::Void Method_6_02E41AA9BF9F9839(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::RogueActEmptyConfig*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::RogueActEmptyConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUEACTEMPTYCONFIG_METHOD_6_48BDF3326DE652A0_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::RogueActEmptyConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUEACTEMPTYCONFIG_METHOD_6_02E41AA9BF9F9839_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_6_1DFB121E8DE1137D(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::RogueActEmptyConfig* a2)

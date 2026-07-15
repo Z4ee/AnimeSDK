@@ -3,7 +3,7 @@
 
 namespace HoudiniEngineUnity
 {
-	inline static constexpr unsigned int HAPI_License_TypeDefinitionIndex = 37481;
+	inline static constexpr unsigned int HAPI_License_TypeDefinitionIndex = 38289;
 
 	enum class HAPI_License : ::System::Int32
 	{

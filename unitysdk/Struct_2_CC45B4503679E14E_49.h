@@ -1,0 +1,116 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/ValueType.h"
+
+class Class_1_43BD383C98B4C0C5_3;
+namespace RPG::GameCore { class LevelSpatialIntVec2; }
+namespace System { class Object; }
+
+#define STRUCT_2_CC45B4503679E14E_49_DISPOSE_OFFSET UNITYSDK_OFFSET(0x7B0860)
+#define STRUCT_2_CC45B4503679E14E_49_EQUALS_OFFSET UNITYSDK_OFFSET(0x3A31730)
+#define STRUCT_2_CC45B4503679E14E_49_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x8817F0)
+#define STRUCT_2_CC45B4503679E14E_49_GET_ISVALID_OFFSET UNITYSDK_OFFSET(0x881730)
+#define STRUCT_2_CC45B4503679E14E_49_GET_OFFSET_OFFSET UNITYSDK_OFFSET(0x676EB0)
+#define STRUCT_2_CC45B4503679E14E_49_GET_POOL_OFFSET UNITYSDK_OFFSET(0x1651A0)
+#define STRUCT_2_CC45B4503679E14E_49_INIT_OFFSET UNITYSDK_OFFSET(0x6E35A0)
+#define STRUCT_2_CC45B4503679E14E_49_METHOD_2_0CDD398333B11962_OFFSET UNITYSDK_OFFSET(0x3A31740)
+#define STRUCT_2_CC45B4503679E14E_49_METHOD_2_1B157F499C5BB09A_OFFSET UNITYSDK_OFFSET(0x3A317B0)
+#define STRUCT_2_CC45B4503679E14E_49_METHOD_2_20F4806358A3520A_OFFSET UNITYSDK_OFFSET(0x1B57CC70)
+#define STRUCT_2_CC45B4503679E14E_49_METHOD_2_222F2A35DCC6F511_OFFSET UNITYSDK_OFFSET(0x1B57CA10)
+#define STRUCT_2_CC45B4503679E14E_49_METHOD_2_53FADCED337E5C9E_OFFSET UNITYSDK_OFFSET(0x7C5660)
+#define STRUCT_2_CC45B4503679E14E_49_METHOD_2_6990777B4805B2B6_OFFSET UNITYSDK_OFFSET(0x1B57C920)
+#define STRUCT_2_CC45B4503679E14E_49_METHOD_2_C333FA8B621BEEE5_OFFSET UNITYSDK_OFFSET(0x3A31760)
+#define STRUCT_2_CC45B4503679E14E_49_METHOD_2_D9A51F0C086CDF14_OFFSET UNITYSDK_OFFSET(0x1B57CD20)
+#define STRUCT_2_CC45B4503679E14E_49_METHOD_2_E2A1DD6CA70C93FA_OFFSET UNITYSDK_OFFSET(0x3A317C0)
+
+inline static constexpr unsigned int Struct_2_CC45B4503679E14E_49_TypeDefinitionIndex = 10357;
+
+struct alignas(8) Struct_2_CC45B4503679E14E_49
+{
+	::Class_1_43BD383C98B4C0C5_3* Field_2_0; // 0x10
+	::System::UInt32 Field_2_1; // 0x18
+
+	::System::Void Init(::Class_1_43BD383C98B4C0C5_3* a1, ::System::UInt32 a2)
+	{
+		return ((::System::Void(*)(::PVOID, ::Class_1_43BD383C98B4C0C5_3*, ::System::UInt32))((::PBYTE)hIl2Cpp + STRUCT_2_CC45B4503679E14E_49_INIT_OFFSET))(this, a1, a2);
+	}
+
+	::System::Boolean get_IsValid()
+	{
+		return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + STRUCT_2_CC45B4503679E14E_49_GET_ISVALID_OFFSET))(this);
+	}
+
+	::System::UInt32 get_Offset()
+	{
+		return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + STRUCT_2_CC45B4503679E14E_49_GET_OFFSET_OFFSET))(this);
+	}
+
+	::Class_1_43BD383C98B4C0C5_3* get_Pool()
+	{
+		return ((::Class_1_43BD383C98B4C0C5_3*(*)(::PVOID))((::PBYTE)hIl2Cpp + STRUCT_2_CC45B4503679E14E_49_GET_POOL_OFFSET))(this);
+	}
+
+	::System::Void Dispose()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + STRUCT_2_CC45B4503679E14E_49_DISPOSE_OFFSET))(this);
+	}
+
+	static ::System::Boolean Method_2_6990777B4805B2B6(::Struct_2_CC45B4503679E14E_49 a1, ::System::Object* a2)
+	{
+		return ((::System::Boolean(*)(::Struct_2_CC45B4503679E14E_49, ::System::Object*))((::PBYTE)hIl2Cpp + STRUCT_2_CC45B4503679E14E_49_METHOD_2_6990777B4805B2B6_OFFSET))(a1, a2);
+	}
+
+	static ::System::Boolean Method_2_222F2A35DCC6F511(::Struct_2_CC45B4503679E14E_49 a1, ::System::Object* a2)
+	{
+		return ((::System::Boolean(*)(::Struct_2_CC45B4503679E14E_49, ::System::Object*))((::PBYTE)hIl2Cpp + STRUCT_2_CC45B4503679E14E_49_METHOD_2_222F2A35DCC6F511_OFFSET))(a1, a2);
+	}
+
+	::System::Boolean Method_2_53FADCED337E5C9E(::Struct_2_CC45B4503679E14E_49 a1)
+	{
+		return ((::System::Boolean(*)(::PVOID, ::Struct_2_CC45B4503679E14E_49))((::PBYTE)hIl2Cpp + STRUCT_2_CC45B4503679E14E_49_METHOD_2_53FADCED337E5C9E_OFFSET))(this, a1);
+	}
+
+	::System::Boolean Equals(::System::Object* a1)
+	{
+		return ((::System::Boolean(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + STRUCT_2_CC45B4503679E14E_49_EQUALS_OFFSET))(this, a1);
+	}
+
+	::System::Int32 GetHashCode()
+	{
+		return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + STRUCT_2_CC45B4503679E14E_49_GETHASHCODE_OFFSET))(this);
+	}
+
+	static ::System::Boolean Method_2_20F4806358A3520A(::Struct_2_CC45B4503679E14E_49 a1)
+	{
+		return ((::System::Boolean(*)(::Struct_2_CC45B4503679E14E_49))((::PBYTE)hIl2Cpp + STRUCT_2_CC45B4503679E14E_49_METHOD_2_20F4806358A3520A_OFFSET))(a1);
+	}
+
+	static ::System::Boolean Method_2_D9A51F0C086CDF14(::Struct_2_CC45B4503679E14E_49 a1)
+	{
+		return ((::System::Boolean(*)(::Struct_2_CC45B4503679E14E_49))((::PBYTE)hIl2Cpp + STRUCT_2_CC45B4503679E14E_49_METHOD_2_D9A51F0C086CDF14_OFFSET))(a1);
+	}
+
+	/*
+	::RPG::GameCore::ConfigDataPoolListUnmanaged_1<::System::Int16> Method_2_0CDD398333B11962()
+	{
+		return ((::RPG::GameCore::ConfigDataPoolListUnmanaged_1<::System::Int16>(*)(::PVOID))((::PBYTE)hIl2Cpp + STRUCT_2_CC45B4503679E14E_49_METHOD_2_0CDD398333B11962_OFFSET))(this);
+	}
+	*/
+
+	/*
+	::System::Void Method_2_C333FA8B621BEEE5(::RPG::GameCore::ConfigDataPoolListUnmanaged_1<::System::Int16> a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::RPG::GameCore::ConfigDataPoolListUnmanaged_1<::System::Int16>))((::PBYTE)hIl2Cpp + STRUCT_2_CC45B4503679E14E_49_METHOD_2_C333FA8B621BEEE5_OFFSET))(this, a1);
+	}
+	*/
+
+	::RPG::GameCore::LevelSpatialIntVec2* Method_2_1B157F499C5BB09A()
+	{
+		return ((::RPG::GameCore::LevelSpatialIntVec2*(*)(::PVOID))((::PBYTE)hIl2Cpp + STRUCT_2_CC45B4503679E14E_49_METHOD_2_1B157F499C5BB09A_OFFSET))(this);
+	}
+
+	::System::Void Method_2_E2A1DD6CA70C93FA(::RPG::GameCore::LevelSpatialIntVec2* a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::RPG::GameCore::LevelSpatialIntVec2*))((::PBYTE)hIl2Cpp + STRUCT_2_CC45B4503679E14E_49_METHOD_2_E2A1DD6CA70C93FA_OFFSET))(this, a1);
+	}
+};

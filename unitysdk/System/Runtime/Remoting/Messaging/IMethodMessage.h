@@ -8,7 +8,7 @@ namespace System::Runtime::Remoting::Messaging { class LogicalCallContext; }
 
 namespace System::Runtime::Remoting::Messaging
 {
-	inline static constexpr unsigned int IMethodMessage_TypeDefinitionIndex = 1310;
+	inline static constexpr unsigned int IMethodMessage_TypeDefinitionIndex = 1312;
 
 	class IMethodMessage
 	{

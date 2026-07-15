@@ -3,7 +3,7 @@
 
 namespace InControl
 {
-	inline static constexpr unsigned int UnknownDeviceBindingSourceListener_DetectPhase_TypeDefinitionIndex = 37848;
+	inline static constexpr unsigned int UnknownDeviceBindingSourceListener_DetectPhase_TypeDefinitionIndex = 38656;
 
 	enum class UnknownDeviceBindingSourceListener_DetectPhase : ::System::Int32
 	{

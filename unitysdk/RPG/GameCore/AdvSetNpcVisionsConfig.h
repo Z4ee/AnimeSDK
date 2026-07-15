@@ -6,13 +6,13 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class VisionBaseConfig; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_ADVSETNPCVISIONSCONFIG_METHOD_3_8A07A59B8B3EAABE_OFFSET UNITYSDK_OFFSET(0x19437EA0)
-#define RPG_GAMECORE_ADVSETNPCVISIONSCONFIG_METHOD_3_F8B7911C5DDE4CFA_OFFSET UNITYSDK_OFFSET(0x19437E20)
-#define RPG_GAMECORE_ADVSETNPCVISIONSCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x19437E70)
+#define RPG_GAMECORE_ADVSETNPCVISIONSCONFIG_METHOD_3_6840311B5A35FD89_OFFSET UNITYSDK_OFFSET(0x1BE2E180)
+#define RPG_GAMECORE_ADVSETNPCVISIONSCONFIG_METHOD_3_8A07A59B8B3EAABE_OFFSET UNITYSDK_OFFSET(0x1BE2E1C0)
+#define RPG_GAMECORE_ADVSETNPCVISIONSCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1BE2E1B0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AdvSetNpcVisionsConfig_TypeDefinitionIndex = 18873;
+	inline static constexpr unsigned int AdvSetNpcVisionsConfig_TypeDefinitionIndex = 19223;
 
 	class AdvSetNpcVisionsConfig : public ::RPG::GameCore::TaskConfig
 	{
@@ -25,9 +25,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVSETNPCVISIONSCONFIG__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_F8B7911C5DDE4CFA(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AdvSetNpcVisionsConfig*& a2)
+		static ::System::Void Method_3_6840311B5A35FD89(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AdvSetNpcVisionsConfig*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::AdvSetNpcVisionsConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVSETNPCVISIONSCONFIG_METHOD_3_F8B7911C5DDE4CFA_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::AdvSetNpcVisionsConfig*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVSETNPCVISIONSCONFIG_METHOD_3_6840311B5A35FD89_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_8A07A59B8B3EAABE(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AdvSetNpcVisionsConfig* a2)

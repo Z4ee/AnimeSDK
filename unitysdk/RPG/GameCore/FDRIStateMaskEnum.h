@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FDRIStateMaskEnum_TypeDefinitionIndex = 15895;
+	inline static constexpr unsigned int FDRIStateMaskEnum_TypeDefinitionIndex = 16069;
 
 	enum class FDRIStateMaskEnum : ::System::Int32
 	{

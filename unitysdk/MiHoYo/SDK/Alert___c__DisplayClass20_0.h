@@ -6,13 +6,13 @@ namespace MiHoYo::SDK { class Alert_OnAlertDelegate; }
 namespace System { class String; }
 namespace System { template <typename T> class Action_1; }
 
-#define MIHOYO_SDK_ALERT___C__DISPLAYCLASS20_0__CTOR_OFFSET UNITYSDK_OFFSET(0x181E0160)
-#define MIHOYO_SDK_ALERT___C__DISPLAYCLASS20_0__SHOWPLUGINUI_B__0_OFFSET UNITYSDK_OFFSET(0x181E0CD0)
-#define MIHOYO_SDK_ALERT___C__DISPLAYCLASS20_0__SHOWPLUGINUI_B__1_OFFSET UNITYSDK_OFFSET(0x181E0D40)
+#define MIHOYO_SDK_ALERT___C__DISPLAYCLASS20_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1885D280)
+#define MIHOYO_SDK_ALERT___C__DISPLAYCLASS20_0__SHOWPLUGINUI_B__0_OFFSET UNITYSDK_OFFSET(0x1885DDF0)
+#define MIHOYO_SDK_ALERT___C__DISPLAYCLASS20_0__SHOWPLUGINUI_B__1_OFFSET UNITYSDK_OFFSET(0x1885DE60)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int Alert___c__DisplayClass20_0_TypeDefinitionIndex = 8182;
+	inline static constexpr unsigned int Alert___c__DisplayClass20_0_TypeDefinitionIndex = 8193;
 
 	class Alert___c__DisplayClass20_0 : public ::System::Object
 	{

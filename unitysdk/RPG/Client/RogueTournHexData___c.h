@@ -6,24 +6,24 @@ namespace RPG::Client { class RogueTournHexData; }
 namespace RPG::GameCore { class RogueTournHexRow; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define RPG_CLIENT_ROGUETOURNHEXDATA___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xC821B90)
-#define RPG_CLIENT_ROGUETOURNHEXDATA___C__CTOR_OFFSET UNITYSDK_OFFSET(0xC821BD0)
-#define RPG_CLIENT_ROGUETOURNHEXDATA___C__GETALLDATAS_B__41_0_OFFSET UNITYSDK_OFFSET(0xC821BE0)
+#define RPG_CLIENT_ROGUETOURNHEXDATA___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x19C34FD0)
+#define RPG_CLIENT_ROGUETOURNHEXDATA___C__CTOR_OFFSET UNITYSDK_OFFSET(0x19C35010)
+#define RPG_CLIENT_ROGUETOURNHEXDATA___C__GETALLDATAS_B__41_0_OFFSET UNITYSDK_OFFSET(0x19C35020)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int RogueTournHexData___c_TypeDefinitionIndex = 63307;
+	inline static constexpr unsigned int RogueTournHexData___c_TypeDefinitionIndex = 64674;
 
 	class RogueTournHexData___c : public ::System::Object
 	{
 	public:
-		static ::System::Func_2<::RPG::GameCore::RogueTournHexRow*, ::RPG::Client::RogueTournHexData*>** StaticGet___9__41_0()
-		{
-			return (::System::Func_2<::RPG::GameCore::RogueTournHexRow*, ::RPG::Client::RogueTournHexData*>**)Il2CppClass::FromTypeDefinitionIndex(RogueTournHexData___c_TypeDefinitionIndex)->GetStaticField(0x3D940);
-		}
 		static ::RPG::Client::RogueTournHexData___c** StaticGet___9()
 		{
-			return (::RPG::Client::RogueTournHexData___c**)Il2CppClass::FromTypeDefinitionIndex(RogueTournHexData___c_TypeDefinitionIndex)->GetStaticField(0x3D948);
+			return (::RPG::Client::RogueTournHexData___c**)Il2CppClass::FromTypeDefinitionIndex(RogueTournHexData___c_TypeDefinitionIndex)->GetStaticField(0x2B030);
+		}
+		static ::System::Func_2<::RPG::GameCore::RogueTournHexRow*, ::RPG::Client::RogueTournHexData*>** StaticGet___9__41_0()
+		{
+			return (::System::Func_2<::RPG::GameCore::RogueTournHexRow*, ::RPG::Client::RogueTournHexData*>**)Il2CppClass::FromTypeDefinitionIndex(RogueTournHexData___c_TypeDefinitionIndex)->GetStaticField(0x2B038);
 		}
 
 		static ::System::Void _cctor()

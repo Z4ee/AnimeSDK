@@ -6,24 +6,24 @@ namespace SRF::Service { class SRServiceManager_ServiceStub; }
 namespace System { class String; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define SRF_SERVICE_SRSERVICEMANAGER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1AD1F940)
-#define SRF_SERVICE_SRSERVICEMANAGER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1AD1F980)
-#define SRF_SERVICE_SRSERVICEMANAGER___C__UPDATESTUBS_B__21_0_OFFSET UNITYSDK_OFFSET(0x1AD1F990)
+#define SRF_SERVICE_SRSERVICEMANAGER___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1CED5AA0)
+#define SRF_SERVICE_SRSERVICEMANAGER___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1CED5AE0)
+#define SRF_SERVICE_SRSERVICEMANAGER___C__UPDATESTUBS_B__21_0_OFFSET UNITYSDK_OFFSET(0x1CED5AF0)
 
 namespace SRF::Service
 {
-	inline static constexpr unsigned int SRServiceManager___c_TypeDefinitionIndex = 33612;
+	inline static constexpr unsigned int SRServiceManager___c_TypeDefinitionIndex = 33983;
 
 	class SRServiceManager___c : public ::System::Object
 	{
 	public:
-		static ::SRF::Service::SRServiceManager___c** StaticGet___9()
-		{
-			return (::SRF::Service::SRServiceManager___c**)Il2CppClass::FromTypeDefinitionIndex(SRServiceManager___c_TypeDefinitionIndex)->GetStaticField(0x485E0);
-		}
 		static ::System::Func_2<::SRF::Service::SRServiceManager_ServiceStub*, ::System::String*>** StaticGet___9__21_0()
 		{
-			return (::System::Func_2<::SRF::Service::SRServiceManager_ServiceStub*, ::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(SRServiceManager___c_TypeDefinitionIndex)->GetStaticField(0x485E8);
+			return (::System::Func_2<::SRF::Service::SRServiceManager_ServiceStub*, ::System::String*>**)Il2CppClass::FromTypeDefinitionIndex(SRServiceManager___c_TypeDefinitionIndex)->GetStaticField(0x43E10);
+		}
+		static ::SRF::Service::SRServiceManager___c** StaticGet___9()
+		{
+			return (::SRF::Service::SRServiceManager___c**)Il2CppClass::FromTypeDefinitionIndex(SRServiceManager___c_TypeDefinitionIndex)->GetStaticField(0x43E18);
 		}
 
 		static ::System::Void _cctor()

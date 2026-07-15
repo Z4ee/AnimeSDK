@@ -7,7 +7,7 @@ namespace ZenFulcrum::VR::OpenVRBinding { class IVRDriverManager__GetDriverName;
 
 namespace ZenFulcrum::VR::OpenVRBinding
 {
-	inline static constexpr unsigned int IVRDriverManager_TypeDefinitionIndex = 36248;
+	inline static constexpr unsigned int IVRDriverManager_TypeDefinitionIndex = 37030;
 
 	struct alignas(8) IVRDriverManager
 	{

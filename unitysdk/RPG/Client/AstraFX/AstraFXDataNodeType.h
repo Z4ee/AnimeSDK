@@ -3,7 +3,7 @@
 
 namespace RPG::Client::AstraFX
 {
-	inline static constexpr unsigned int AstraFXDataNodeType_TypeDefinitionIndex = 68773;
+	inline static constexpr unsigned int AstraFXDataNodeType_TypeDefinitionIndex = 70273;
 
 	enum class AstraFXDataNodeType : ::System::Int32
 	{

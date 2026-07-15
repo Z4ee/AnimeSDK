@@ -6,12 +6,12 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class AvatarColliderCameraConfig; }
 namespace RPG::GameCore { class EntityColliderCameraConfig; }
 
-#define RPG_GAMECORE_CHARACTERENTITYCOLLIDERCONFIG_METHOD_2_B5B22BF0C4BB9585_OFFSET UNITYSDK_OFFSET(0x1960BD50)
-#define RPG_GAMECORE_CHARACTERENTITYCOLLIDERCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1960CFB0)
+#define RPG_GAMECORE_CHARACTERENTITYCOLLIDERCONFIG_METHOD_2_B5B22BF0C4BB9585_OFFSET UNITYSDK_OFFSET(0x1B721C80)
+#define RPG_GAMECORE_CHARACTERENTITYCOLLIDERCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1B722E40)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int CharacterEntityColliderConfig_TypeDefinitionIndex = 15733;
+	inline static constexpr unsigned int CharacterEntityColliderConfig_TypeDefinitionIndex = 15907;
 
 	class CharacterEntityColliderConfig : public ::RPG::GameCore::JsonConfig
 	{

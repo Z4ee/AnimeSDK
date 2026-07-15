@@ -8,13 +8,13 @@ namespace SimpleJSON { class JSONNode; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_PCKPATCHPLATFORM_METHOD_2_2BC2E50C084A5B05_OFFSET UNITYSDK_OFFSET(0x199EC240)
-#define RPG_GAMECORE_PCKPATCHPLATFORM_METHOD_2_8EF9B783B4B43DA6_OFFSET UNITYSDK_OFFSET(0x199EBFD0)
-#define RPG_GAMECORE_PCKPATCHPLATFORM__CTOR_OFFSET UNITYSDK_OFFSET(0x199EC230)
+#define RPG_GAMECORE_PCKPATCHPLATFORM_METHOD_2_1F2012A705C089EC_OFFSET UNITYSDK_OFFSET(0x1BB14020)
+#define RPG_GAMECORE_PCKPATCHPLATFORM_METHOD_2_8EF9B783B4B43DA6_OFFSET UNITYSDK_OFFSET(0x1BB13DB0)
+#define RPG_GAMECORE_PCKPATCHPLATFORM__CTOR_OFFSET UNITYSDK_OFFSET(0x1BB14010)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PckPatchPlatform_TypeDefinitionIndex = 15572;
+	inline static constexpr unsigned int PckPatchPlatform_TypeDefinitionIndex = 15743;
 
 	class PckPatchPlatform : public ::RPG::GameCore::JsonConfig
 	{
@@ -35,9 +35,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::PckPatchPlatform*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PCKPATCHPLATFORM_METHOD_2_8EF9B783B4B43DA6_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void Method_2_2BC2E50C084A5B05(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::PckPatchPlatform*& a2)
+		static ::System::Void Method_2_1F2012A705C089EC(::SimpleJSON::JSONNode* a1, ::RPG::GameCore::PckPatchPlatform*& a2)
 		{
-			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::PckPatchPlatform*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PCKPATCHPLATFORM_METHOD_2_2BC2E50C084A5B05_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::RPG::GameCore::PckPatchPlatform*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PCKPATCHPLATFORM_METHOD_2_1F2012A705C089EC_OFFSET))(a1, a2);
 		}
 	};
 }

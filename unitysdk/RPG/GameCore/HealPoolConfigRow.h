@@ -4,19 +4,19 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_HEALPOOLCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1981E5B0)
-#define RPG_GAMECORE_HEALPOOLCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1981E720)
+#define RPG_GAMECORE_HEALPOOLCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B671400)
+#define RPG_GAMECORE_HEALPOOLCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1B671570)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int HealPoolConfigRow_TypeDefinitionIndex = 13067;
+	inline static constexpr unsigned int HealPoolConfigRow_TypeDefinitionIndex = 13217;
 
 	class HealPoolConfigRow : public ::System::Object
 	{
 	public:
-		::System::UInt32 MaxHealPool; // 0x10
-		::System::UInt32 RecoverTime; // 0x14
-		::System::UInt32 PlayerLevel; // 0x18
+		::System::UInt32 RecoverTime; // 0x10
+		::System::UInt32 PlayerLevel; // 0x14
+		::System::UInt32 MaxHealPool; // 0x18
 
 		::System::Void _ctor()
 		{

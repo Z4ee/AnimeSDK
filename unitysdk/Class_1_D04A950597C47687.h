@@ -1,0 +1,55 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/RPG/GameCore/FixPoint.h"
+#include "unitysdk/System/Object.h"
+
+namespace RPG::GameCore { class GameEntity; }
+
+#define CLASS_1_D04A950597C47687_METHOD_1_1E4484707DDE3490_OFFSET UNITYSDK_OFFSET(0x18AF55F0)
+#define CLASS_1_D04A950597C47687_METHOD_1_57D80B372834C5D1_OFFSET UNITYSDK_OFFSET(0x18AF5690)
+#define CLASS_1_D04A950597C47687_METHOD_1_E2C273CA106EBD0B_1_OFFSET UNITYSDK_OFFSET(0x18AF5730)
+#define CLASS_1_D04A950597C47687_METHOD_1_E2C273CA106EBD0B_2_OFFSET UNITYSDK_OFFSET(0x18AF5780)
+#define CLASS_1_D04A950597C47687_METHOD_1_E2C273CA106EBD0B_3_OFFSET UNITYSDK_OFFSET(0x18AF57D0)
+#define CLASS_1_D04A950597C47687_METHOD_1_E2C273CA106EBD0B_OFFSET UNITYSDK_OFFSET(0x18AF56E0)
+#define CLASS_1_D04A950597C47687__CTOR_OFFSET UNITYSDK_OFFSET(0x18AF5680)
+
+inline static constexpr unsigned int Class_1_D04A950597C47687_TypeDefinitionIndex = 68604;
+
+class Class_1_D04A950597C47687 : public ::System::Object
+{
+public:
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_D04A950597C47687__CTOR_OFFSET))(this);
+	}
+
+	static ::Class_1_D04A950597C47687* Method_1_1E4484707DDE3490(::RPG::GameCore::GameEntity* a1)
+	{
+		return ((::Class_1_D04A950597C47687*(*)(::RPG::GameCore::GameEntity*))((::PBYTE)hIl2Cpp + CLASS_1_D04A950597C47687_METHOD_1_1E4484707DDE3490_OFFSET))(a1);
+	}
+
+	::System::Void Method_1_57D80B372834C5D1(::RPG::GameCore::GameEntity* a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::RPG::GameCore::GameEntity*))((::PBYTE)hIl2Cpp + CLASS_1_D04A950597C47687_METHOD_1_57D80B372834C5D1_OFFSET))(this, a1);
+	}
+
+	::RPG::GameCore::FixPoint Method_1_E2C273CA106EBD0B()
+	{
+		return ((::RPG::GameCore::FixPoint(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_D04A950597C47687_METHOD_1_E2C273CA106EBD0B_OFFSET))(this);
+	}
+
+	::RPG::GameCore::FixPoint Method_1_E2C273CA106EBD0B_1()
+	{
+		return ((::RPG::GameCore::FixPoint(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_D04A950597C47687_METHOD_1_E2C273CA106EBD0B_1_OFFSET))(this);
+	}
+
+	::RPG::GameCore::FixPoint Method_1_E2C273CA106EBD0B_2()
+	{
+		return ((::RPG::GameCore::FixPoint(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_D04A950597C47687_METHOD_1_E2C273CA106EBD0B_2_OFFSET))(this);
+	}
+
+	::RPG::GameCore::FixPoint Method_1_E2C273CA106EBD0B_3()
+	{
+		return ((::RPG::GameCore::FixPoint(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_D04A950597C47687_METHOD_1_E2C273CA106EBD0B_3_OFFSET))(this);
+	}
+};

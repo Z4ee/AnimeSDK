@@ -7,10 +7,10 @@ namespace RPG::GameCore { class AddAdventureModifier; }
 namespace RPG::GameCore { class TaskContext; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_3_D661F65514A258E2_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB2A5250)
-#define CLASS_3_D661F65514A258E2__CTOR_OFFSET UNITYSDK_OFFSET(0xB2A5220)
+#define CLASS_3_D661F65514A258E2_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x14FBC350)
+#define CLASS_3_D661F65514A258E2__CTOR_OFFSET UNITYSDK_OFFSET(0x14FBC320)
 
-inline static constexpr unsigned int Class_3_D661F65514A258E2_TypeDefinitionIndex = 54063;
+inline static constexpr unsigned int Class_3_D661F65514A258E2_TypeDefinitionIndex = 55286;
 
 class Class_3_D661F65514A258E2 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::AddAdventureModifier*>
 {

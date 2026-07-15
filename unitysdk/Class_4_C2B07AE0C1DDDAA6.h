@@ -1,0 +1,46 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/RPG/GameCore/PredicateConfig.h"
+
+class Class_1_7A22A3DBEEDD1F80;
+namespace RPG::GameCore { class TargetEvaluator; }
+namespace SimpleJSON { class JSONNode; }
+
+#define CLASS_4_C2B07AE0C1DDDAA6_METHOD_4_659A18F107B0F4EB_OFFSET UNITYSDK_OFFSET(0x1BB9CE30)
+#define CLASS_4_C2B07AE0C1DDDAA6_METHOD_4_E8248A0562730A66_OFFSET UNITYSDK_OFFSET(0x1BB9CBB0)
+#define CLASS_4_C2B07AE0C1DDDAA6_METHOD_4_F1593D4CC137136F_OFFSET UNITYSDK_OFFSET(0x1BB9CC50)
+#define CLASS_4_C2B07AE0C1DDDAA6_METHOD_4_F33253E40A4719A6_OFFSET UNITYSDK_OFFSET(0x1BB9CDD0)
+#define CLASS_4_C2B07AE0C1DDDAA6__CTOR_OFFSET UNITYSDK_OFFSET(0x1BB9CC10)
+
+inline static constexpr unsigned int Class_4_C2B07AE0C1DDDAA6_TypeDefinitionIndex = 19134;
+
+class Class_4_C2B07AE0C1DDDAA6 : public ::RPG::GameCore::PredicateConfig
+{
+public:
+	::RPG::GameCore::TargetEvaluator* Field_4_0; // 0x20
+
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_4_C2B07AE0C1DDDAA6__CTOR_OFFSET))(this);
+	}
+
+	static ::System::Void Method_4_E8248A0562730A66(::Class_1_7A22A3DBEEDD1F80* a1, ::Class_4_C2B07AE0C1DDDAA6*& a2)
+	{
+		return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::Class_4_C2B07AE0C1DDDAA6*&))((::PBYTE)hIl2Cpp + CLASS_4_C2B07AE0C1DDDAA6_METHOD_4_E8248A0562730A66_OFFSET))(a1, a2);
+	}
+
+	static ::System::Void Method_4_F1593D4CC137136F(::Class_1_7A22A3DBEEDD1F80* a1, ::Class_4_C2B07AE0C1DDDAA6* a2)
+	{
+		return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::Class_4_C2B07AE0C1DDDAA6*))((::PBYTE)hIl2Cpp + CLASS_4_C2B07AE0C1DDDAA6_METHOD_4_F1593D4CC137136F_OFFSET))(a1, a2);
+	}
+
+	static ::System::Void Method_4_F33253E40A4719A6(::SimpleJSON::JSONNode* a1, ::Class_4_C2B07AE0C1DDDAA6*& a2)
+	{
+		return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::Class_4_C2B07AE0C1DDDAA6*&))((::PBYTE)hIl2Cpp + CLASS_4_C2B07AE0C1DDDAA6_METHOD_4_F33253E40A4719A6_OFFSET))(a1, a2);
+	}
+
+	static ::System::Void Method_4_659A18F107B0F4EB(::SimpleJSON::JSONNode* a1, ::Class_4_C2B07AE0C1DDDAA6* a2)
+	{
+		return ((::System::Void(*)(::SimpleJSON::JSONNode*, ::Class_4_C2B07AE0C1DDDAA6*))((::PBYTE)hIl2Cpp + CLASS_4_C2B07AE0C1DDDAA6_METHOD_4_659A18F107B0F4EB_OFFSET))(a1, a2);
+	}
+};

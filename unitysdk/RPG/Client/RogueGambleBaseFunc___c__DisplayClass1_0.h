@@ -4,12 +4,12 @@
 
 namespace RPG::Client { class RogueGambleGroupData; }
 
-#define RPG_CLIENT_ROGUEGAMBLEBASEFUNC___C__DISPLAYCLASS1_0__CTOR_OFFSET UNITYSDK_OFFSET(0xC7879A0)
-#define RPG_CLIENT_ROGUEGAMBLEBASEFUNC___C__DISPLAYCLASS1_0__SETBINGODATA_B__0_OFFSET UNITYSDK_OFFSET(0xC7883F0)
+#define RPG_CLIENT_ROGUEGAMBLEBASEFUNC___C__DISPLAYCLASS1_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1A45A700)
+#define RPG_CLIENT_ROGUEGAMBLEBASEFUNC___C__DISPLAYCLASS1_0__SETBINGODATA_B__0_OFFSET UNITYSDK_OFFSET(0x1A45B2A0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int RogueGambleBaseFunc___c__DisplayClass1_0_TypeDefinitionIndex = 62869;
+	inline static constexpr unsigned int RogueGambleBaseFunc___c__DisplayClass1_0_TypeDefinitionIndex = 64236;
 
 	class RogueGambleBaseFunc___c__DisplayClass1_0 : public ::System::Object
 	{

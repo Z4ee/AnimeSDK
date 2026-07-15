@@ -9,7 +9,7 @@ namespace System::Collections::Generic { template <typename T> class IEnumerator
 
 namespace System::Collections::Concurrent
 {
-	inline static constexpr unsigned int ConcurrentQueue_1_TypeDefinitionIndex = 1508;
+	inline static constexpr unsigned int ConcurrentQueue_1_TypeDefinitionIndex = 1512;
 
 	template <typename T>
 	class ConcurrentQueue_1 : public ::System::Object

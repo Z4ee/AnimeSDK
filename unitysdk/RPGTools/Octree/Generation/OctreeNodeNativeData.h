@@ -8,13 +8,13 @@ namespace RPGTools::Octree::Generation { class OctreeNodeData; }
 namespace System::IO { class BinaryReader; }
 namespace System::IO { class BinaryWriter; }
 
-#define RPGTOOLS_OCTREE_GENERATION_OCTREENODENATIVEDATA_METHOD_2_C8288CA38627F3DC_OFFSET UNITYSDK_OFFSET(0x1488A0)
-#define RPGTOOLS_OCTREE_GENERATION_OCTREENODENATIVEDATA_METHOD_2_E613829602ABB720_OFFSET UNITYSDK_OFFSET(0x1488B0)
-#define RPGTOOLS_OCTREE_GENERATION_OCTREENODENATIVEDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x148830)
+#define RPGTOOLS_OCTREE_GENERATION_OCTREENODENATIVEDATA_METHOD_2_4F98D710DEC1E009_OFFSET UNITYSDK_OFFSET(0x39E9200)
+#define RPGTOOLS_OCTREE_GENERATION_OCTREENODENATIVEDATA_METHOD_2_9FAD2B943055017C_OFFSET UNITYSDK_OFFSET(0x39E9210)
+#define RPGTOOLS_OCTREE_GENERATION_OCTREENODENATIVEDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x39E9190)
 
 namespace RPGTools::Octree::Generation
 {
-	inline static constexpr unsigned int OctreeNodeNativeData_TypeDefinitionIndex = 46124;
+	inline static constexpr unsigned int OctreeNodeNativeData_TypeDefinitionIndex = 47063;
 
 	struct alignas(4) OctreeNodeNativeData
 	{
@@ -31,14 +31,14 @@ namespace RPGTools::Octree::Generation
 			return ((::System::Void(*)(::PVOID, ::RPGTools::Octree::Generation::OctreeNodeData*))((::PBYTE)hIl2Cpp + RPGTOOLS_OCTREE_GENERATION_OCTREENODENATIVEDATA__CTOR_OFFSET))(this, a1);
 		}
 
-		::System::Void Method_2_C8288CA38627F3DC(::System::IO::BinaryWriter* a1)
+		::System::Void Method_2_4F98D710DEC1E009(::System::IO::BinaryWriter* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::IO::BinaryWriter*))((::PBYTE)hIl2Cpp + RPGTOOLS_OCTREE_GENERATION_OCTREENODENATIVEDATA_METHOD_2_C8288CA38627F3DC_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::IO::BinaryWriter*))((::PBYTE)hIl2Cpp + RPGTOOLS_OCTREE_GENERATION_OCTREENODENATIVEDATA_METHOD_2_4F98D710DEC1E009_OFFSET))(this, a1);
 		}
 
-		::System::Void Method_2_E613829602ABB720(::System::IO::BinaryReader* a1)
+		::System::Void Method_2_9FAD2B943055017C(::System::IO::BinaryReader* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::IO::BinaryReader*))((::PBYTE)hIl2Cpp + RPGTOOLS_OCTREE_GENERATION_OCTREENODENATIVEDATA_METHOD_2_E613829602ABB720_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::IO::BinaryReader*))((::PBYTE)hIl2Cpp + RPGTOOLS_OCTREE_GENERATION_OCTREENODENATIVEDATA_METHOD_2_9FAD2B943055017C_OFFSET))(this, a1);
 		}
 	};
 }

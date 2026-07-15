@@ -1,0 +1,56 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/Class_1_C16080C084A20369_MeasureAction.h"
+#include "unitysdk/System/Object.h"
+
+class Class_0_16E4307DCC419505_697;
+class Class_0_16E4307DCC419505_700;
+class Class_1_43BD383C98B4C0C5_143;
+class Class_1_C16080C084A20369;
+class Class_1_C16080C084A20369_Class_1_224DD8979D84AC51;
+class Class_1_FCB6C6625A75BB51;
+namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
+
+#define CLASS_1_FCB6C6625A75BB51_CLASS_1_F029CA2A3B716680_ENTER_OFFSET UNITYSDK_OFFSET(0x1624C100)
+#define CLASS_1_FCB6C6625A75BB51_CLASS_1_F029CA2A3B716680_EXIT_OFFSET UNITYSDK_OFFSET(0x1624C910)
+#define CLASS_1_FCB6C6625A75BB51_CLASS_1_F029CA2A3B716680_METHOD_1_85E657E328490B3B_OFFSET UNITYSDK_OFFSET(0x1624C880)
+#define CLASS_1_FCB6C6625A75BB51_CLASS_1_F029CA2A3B716680_TICK_OFFSET UNITYSDK_OFFSET(0x1624C460)
+#define CLASS_1_FCB6C6625A75BB51_CLASS_1_F029CA2A3B716680__CTOR_OFFSET UNITYSDK_OFFSET(0x16248590)
+
+inline static constexpr unsigned int Class_1_FCB6C6625A75BB51_Class_1_F029CA2A3B716680_TypeDefinitionIndex = 59532;
+
+class Class_1_FCB6C6625A75BB51_Class_1_F029CA2A3B716680 : public ::System::Object
+{
+public:
+	::Class_0_16E4307DCC419505_697* Field_1_0; // 0x10
+	::System::Collections::Generic::Dictionary_2<::Class_1_C16080C084A20369_MeasureAction, ::Class_1_43BD383C98B4C0C5_143*>* Field_1_1; // 0x18
+	::Class_1_FCB6C6625A75BB51* Field_1_2; // 0x20
+	::Class_1_C16080C084A20369_Class_1_224DD8979D84AC51* Field_1_3; // 0x28
+	::Class_0_16E4307DCC419505_700* Field_1_4; // 0x30
+	::Class_1_C16080C084A20369* Field_1_5; // 0x38
+
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_FCB6C6625A75BB51_CLASS_1_F029CA2A3B716680__CTOR_OFFSET))(this);
+	}
+
+	::System::Void Enter(::Class_1_FCB6C6625A75BB51* a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::Class_1_FCB6C6625A75BB51*))((::PBYTE)hIl2Cpp + CLASS_1_FCB6C6625A75BB51_CLASS_1_F029CA2A3B716680_ENTER_OFFSET))(this, a1);
+	}
+
+	::System::Void Tick(::Class_1_FCB6C6625A75BB51* a1)
+	{
+		return ((::System::Void(*)(::PVOID, ::Class_1_FCB6C6625A75BB51*))((::PBYTE)hIl2Cpp + CLASS_1_FCB6C6625A75BB51_CLASS_1_F029CA2A3B716680_TICK_OFFSET))(this, a1);
+	}
+
+	::System::Void Exit()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_1_FCB6C6625A75BB51_CLASS_1_F029CA2A3B716680_EXIT_OFFSET))(this);
+	}
+
+	::System::Boolean Method_1_85E657E328490B3B(::System::Int32 a1)
+	{
+		return ((::System::Boolean(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + CLASS_1_FCB6C6625A75BB51_CLASS_1_F029CA2A3B716680_METHOD_1_85E657E328490B3B_OFFSET))(this, a1);
+	}
+};

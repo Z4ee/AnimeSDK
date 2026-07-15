@@ -4,12 +4,12 @@
 
 namespace UnityEngine::UI { class RawImage; }
 
-#define RPG_CLIENT_LEVELDIRECTOR_LEVELFRAMECAPTUREENDOP_ONFRAMECAPTUREEND_OFFSET UNITYSDK_OFFSET(0xBD6DD70)
-#define RPG_CLIENT_LEVELDIRECTOR_LEVELFRAMECAPTUREENDOP__CTOR_OFFSET UNITYSDK_OFFSET(0xBD6DD00)
+#define RPG_CLIENT_LEVELDIRECTOR_LEVELFRAMECAPTUREENDOP_ONFRAMECAPTUREEND_OFFSET UNITYSDK_OFFSET(0x16C683C0)
+#define RPG_CLIENT_LEVELDIRECTOR_LEVELFRAMECAPTUREENDOP__CTOR_OFFSET UNITYSDK_OFFSET(0x16C68350)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int LevelDirector_LevelFrameCaptureEndOP_TypeDefinitionIndex = 55428;
+	inline static constexpr unsigned int LevelDirector_LevelFrameCaptureEndOP_TypeDefinitionIndex = 56665;
 
 	class LevelDirector_LevelFrameCaptureEndOP : public ::System::Object
 	{

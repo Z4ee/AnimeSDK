@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/PropertyAttribute.h"
 
-#define RPG_CLIENT_PROP_ISOMETRICVIEWPUZZLEITEM_CLASS_3_536A7E08E79B11D5__CTOR_OFFSET UNITYSDK_OFFSET(0xC575430)
+#define RPG_CLIENT_PROP_ISOMETRICVIEWPUZZLEITEM_CLASS_3_536A7E08E79B11D5__CTOR_OFFSET UNITYSDK_OFFSET(0x1482AEC0)
 
 namespace RPG::Client::Prop
 {
-	inline static constexpr unsigned int IsometricViewPuzzleItem_Class_3_536A7E08E79B11D5_TypeDefinitionIndex = 73164;
+	inline static constexpr unsigned int IsometricViewPuzzleItem_Class_3_536A7E08E79B11D5_TypeDefinitionIndex = 74689;
 
 	class IsometricViewPuzzleItem_Class_3_536A7E08E79B11D5 : public ::UnityEngine::PropertyAttribute
 	{

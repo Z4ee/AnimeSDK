@@ -6,13 +6,13 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class TargetEvaluator; }
 
-#define RPG_GAMECORE_ADVISOMETRICNOTIFY_METHOD_3_1D9AF81D2B2FBE6C_OFFSET UNITYSDK_OFFSET(0x194278F0)
-#define RPG_GAMECORE_ADVISOMETRICNOTIFY_METHOD_3_DCE0DBD4AFF1D888_OFFSET UNITYSDK_OFFSET(0x19427710)
-#define RPG_GAMECORE_ADVISOMETRICNOTIFY__CTOR_OFFSET UNITYSDK_OFFSET(0x19427810)
+#define RPG_GAMECORE_ADVISOMETRICNOTIFY_METHOD_3_1D9AF81D2B2FBE6C_OFFSET UNITYSDK_OFFSET(0x1BE1F810)
+#define RPG_GAMECORE_ADVISOMETRICNOTIFY_METHOD_3_222C984526F770B6_OFFSET UNITYSDK_OFFSET(0x1BE1F770)
+#define RPG_GAMECORE_ADVISOMETRICNOTIFY__CTOR_OFFSET UNITYSDK_OFFSET(0x1BE1F7D0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AdvIsometricNotify_TypeDefinitionIndex = 20987;
+	inline static constexpr unsigned int AdvIsometricNotify_TypeDefinitionIndex = 21402;
 
 	class AdvIsometricNotify : public ::RPG::GameCore::TaskConfig
 	{
@@ -26,9 +26,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVISOMETRICNOTIFY__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_DCE0DBD4AFF1D888(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AdvIsometricNotify*& a2)
+		static ::System::Void Method_3_222C984526F770B6(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AdvIsometricNotify*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::AdvIsometricNotify*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVISOMETRICNOTIFY_METHOD_3_DCE0DBD4AFF1D888_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::AdvIsometricNotify*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVISOMETRICNOTIFY_METHOD_3_222C984526F770B6_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_1D9AF81D2B2FBE6C(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::AdvIsometricNotify* a2)

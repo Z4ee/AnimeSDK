@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 
-#define MONORAILTRACKGENERATOR__CTOR_OFFSET UNITYSDK_OFFSET(0xA84FD10)
+#define MONORAILTRACKGENERATOR__CTOR_OFFSET UNITYSDK_OFFSET(0x186F6280)
 
-inline static constexpr unsigned int MonoRailTrackGenerator_TypeDefinitionIndex = 44794;
+inline static constexpr unsigned int MonoRailTrackGenerator_TypeDefinitionIndex = 45711;
 
 class MonoRailTrackGenerator : public ::UnityEngine::MonoBehaviour
 {

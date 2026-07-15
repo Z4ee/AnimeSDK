@@ -4,7 +4,7 @@
 
 namespace Google::Protobuf { class IMessage; }
 
-inline static constexpr unsigned int Struct_2_09BA741879A02AC6_TypeDefinitionIndex = 39193;
+inline static constexpr unsigned int Struct_2_09BA741879A02AC6_TypeDefinitionIndex = 40002;
 
 struct alignas(8) Struct_2_09BA741879A02AC6
 {

@@ -6,10 +6,10 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define CLASS_1_FF6D62D5D7B9A27D_METHOD_1_70FC9BA3400F387E_OFFSET UNITYSDK_OFFSET(0x19963540)
-#define CLASS_1_FF6D62D5D7B9A27D__CTOR_OFFSET UNITYSDK_OFFSET(0x199639C0)
+#define CLASS_1_FF6D62D5D7B9A27D_METHOD_1_70FC9BA3400F387E_OFFSET UNITYSDK_OFFSET(0x1B47C1E0)
+#define CLASS_1_FF6D62D5D7B9A27D__CTOR_OFFSET UNITYSDK_OFFSET(0x1B47C660)
 
-inline static constexpr unsigned int Class_1_FF6D62D5D7B9A27D_TypeDefinitionIndex = 11050;
+inline static constexpr unsigned int Class_1_FF6D62D5D7B9A27D_TypeDefinitionIndex = 11100;
 
 class Class_1_FF6D62D5D7B9A27D : public ::System::Object
 {
@@ -21,8 +21,8 @@ public:
 	::System::String* Field_1_4; // 0x30
 	::System::String* Field_1_5; // 0x38
 	::System::String* Field_1_6; // 0x40
-	::System::UInt32 Field_1_7; // 0x48
-	::RPG::Client::TextID Field_1_8; // 0x50
+	::RPG::Client::TextID Field_1_7; // 0x48
+	::System::UInt32 Field_1_8; // 0x58
 	::RPG::Client::TextID Field_1_9; // 0x60
 	::RPG::Client::TextID Field_1_10; // 0x70
 

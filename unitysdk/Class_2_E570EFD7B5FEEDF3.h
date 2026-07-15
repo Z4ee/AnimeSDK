@@ -7,17 +7,17 @@ namespace RPG::GameCore { class TargetMapAllTeamMember; }
 namespace RPG::GameCore { class TaskContext; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CLASS_2_E570EFD7B5FEEDF3_TRANSFORM_OFFSET UNITYSDK_OFFSET(0x14586ED0)
-#define CLASS_2_E570EFD7B5FEEDF3__CTOR_OFFSET UNITYSDK_OFFSET(0x14586EB0)
+#define CLASS_2_E570EFD7B5FEEDF3_TRANSFORM_OFFSET UNITYSDK_OFFSET(0x162EC070)
+#define CLASS_2_E570EFD7B5FEEDF3__CTOR_OFFSET UNITYSDK_OFFSET(0x162EC050)
 
-inline static constexpr unsigned int Class_2_E570EFD7B5FEEDF3_TypeDefinitionIndex = 55364;
+inline static constexpr unsigned int Class_2_E570EFD7B5FEEDF3_TypeDefinitionIndex = 56601;
 
 class Class_2_E570EFD7B5FEEDF3 : public ::RPG::GameCore::TargetSeqOperationImpl_1<::RPG::GameCore::TargetMapAllTeamMember*>
 {
 public:
 	static ::System::Boolean* StaticGet_Field_2_0()
 	{
-		return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(Class_2_E570EFD7B5FEEDF3_TypeDefinitionIndex)->GetStaticField(0xABE0);
+		return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(Class_2_E570EFD7B5FEEDF3_TypeDefinitionIndex)->GetStaticField(0x78F0);
 	}
 
 	::System::Void _ctor(::RPG::GameCore::TargetMapAllTeamMember* a1)

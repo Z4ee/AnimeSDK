@@ -1,9 +1,10 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-namespace RPG::Client { class LevelDirector; }
+class Class_0_16E4307DCC419505_633;
+namespace System { class String; }
 
-inline static constexpr unsigned int Class_0_16E4307DCC419505_632_TypeDefinitionIndex = 57140;
+inline static constexpr unsigned int Class_0_16E4307DCC419505_632_TypeDefinitionIndex = 57273;
 
 class Class_0_16E4307DCC419505_632
 {

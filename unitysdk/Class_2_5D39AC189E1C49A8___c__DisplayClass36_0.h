@@ -6,10 +6,10 @@
 namespace RPG::Client { class MonoEffect; }
 namespace RPG::GameCore { class AdvEffectConfig; }
 
-#define CLASS_2_5D39AC189E1C49A8___C__DISPLAYCLASS36_0__CTOR_OFFSET UNITYSDK_OFFSET(0x14163780)
-#define CLASS_2_5D39AC189E1C49A8___C__DISPLAYCLASS36_0__TRIGGERADVEFFECT_B__0_OFFSET UNITYSDK_OFFSET(0x14163790)
+#define CLASS_2_5D39AC189E1C49A8___C__DISPLAYCLASS36_0__CTOR_OFFSET UNITYSDK_OFFSET(0x16C86BA0)
+#define CLASS_2_5D39AC189E1C49A8___C__DISPLAYCLASS36_0__TRIGGERADVEFFECT_B__0_OFFSET UNITYSDK_OFFSET(0x16C879C0)
 
-inline static constexpr unsigned int Class_2_5D39AC189E1C49A8___c__DisplayClass36_0_TypeDefinitionIndex = 53548;
+inline static constexpr unsigned int Class_2_5D39AC189E1C49A8___c__DisplayClass36_0_TypeDefinitionIndex = 54764;
 
 class Class_2_5D39AC189E1C49A8___c__DisplayClass36_0 : public ::System::Object
 {

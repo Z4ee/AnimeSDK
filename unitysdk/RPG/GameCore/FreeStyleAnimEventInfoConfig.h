@@ -6,12 +6,12 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class FreeStyleAnimEventConfig; }
 namespace RPG::GameCore { class FreeStyleAnimGroupEventConfig; }
 
-#define RPG_GAMECORE_FREESTYLEANIMEVENTINFOCONFIG_METHOD_2_A87AE9F6978CFC88_OFFSET UNITYSDK_OFFSET(0x1976CBD0)
-#define RPG_GAMECORE_FREESTYLEANIMEVENTINFOCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1976CD00)
+#define RPG_GAMECORE_FREESTYLEANIMEVENTINFOCONFIG_METHOD_2_A87AE9F6978CFC88_OFFSET UNITYSDK_OFFSET(0x1B97F010)
+#define RPG_GAMECORE_FREESTYLEANIMEVENTINFOCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x1B97F140)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FreeStyleAnimEventInfoConfig_TypeDefinitionIndex = 15490;
+	inline static constexpr unsigned int FreeStyleAnimEventInfoConfig_TypeDefinitionIndex = 15661;
 
 	class FreeStyleAnimEventInfoConfig : public ::RPG::GameCore::JsonConfig
 	{

@@ -5,13 +5,13 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class TargetEvaluator; }
 
-#define RPG_GAMECORE_PINBALLPUZZLEENABLECONTROLMODE_METHOD_3_0AF29308CE27F19B_OFFSET UNITYSDK_OFFSET(0x19A0B660)
-#define RPG_GAMECORE_PINBALLPUZZLEENABLECONTROLMODE_METHOD_3_56ACA4D59591EF8F_OFFSET UNITYSDK_OFFSET(0x19A0B5E0)
-#define RPG_GAMECORE_PINBALLPUZZLEENABLECONTROLMODE__CTOR_OFFSET UNITYSDK_OFFSET(0x19A0B630)
+#define RPG_GAMECORE_PINBALLPUZZLEENABLECONTROLMODE_METHOD_3_0AF29308CE27F19B_OFFSET UNITYSDK_OFFSET(0x1B4C59F0)
+#define RPG_GAMECORE_PINBALLPUZZLEENABLECONTROLMODE_METHOD_3_F30F36662BE0BA94_OFFSET UNITYSDK_OFFSET(0x1B4C59B0)
+#define RPG_GAMECORE_PINBALLPUZZLEENABLECONTROLMODE__CTOR_OFFSET UNITYSDK_OFFSET(0x1B4C59E0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PinballPuzzleEnableControlMode_TypeDefinitionIndex = 20783;
+	inline static constexpr unsigned int PinballPuzzleEnableControlMode_TypeDefinitionIndex = 21198;
 
 	class PinballPuzzleEnableControlMode : public ::RPG::GameCore::TaskConfig
 	{
@@ -24,9 +24,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PINBALLPUZZLEENABLECONTROLMODE__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_56ACA4D59591EF8F(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::PinballPuzzleEnableControlMode*& a2)
+		static ::System::Void Method_3_F30F36662BE0BA94(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::PinballPuzzleEnableControlMode*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::PinballPuzzleEnableControlMode*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PINBALLPUZZLEENABLECONTROLMODE_METHOD_3_56ACA4D59591EF8F_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::PinballPuzzleEnableControlMode*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PINBALLPUZZLEENABLECONTROLMODE_METHOD_3_F30F36662BE0BA94_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_0AF29308CE27F19B(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::PinballPuzzleEnableControlMode* a2)

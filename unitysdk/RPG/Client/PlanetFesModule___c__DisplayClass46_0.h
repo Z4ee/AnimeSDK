@@ -2,20 +2,20 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-class Class_1_6BAFE11FCE160FB2;
+class Class_1_EAA93C4FF12A6990_2;
 namespace RPG::Client { class PlanetFesActiveBuff; }
 
-#define RPG_CLIENT_PLANETFESMODULE___C__DISPLAYCLASS46_0__CTOR_OFFSET UNITYSDK_OFFSET(0xC474150)
-#define RPG_CLIENT_PLANETFESMODULE___C__DISPLAYCLASS46_0___SYNCUPDATEBUFF_B__0_OFFSET UNITYSDK_OFFSET(0xC474160)
+#define RPG_CLIENT_PLANETFESMODULE___C__DISPLAYCLASS46_0__CTOR_OFFSET UNITYSDK_OFFSET(0x1A1C9B90)
+#define RPG_CLIENT_PLANETFESMODULE___C__DISPLAYCLASS46_0___SYNCUPDATEBUFF_B__0_OFFSET UNITYSDK_OFFSET(0x1A1C9BA0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int PlanetFesModule___c__DisplayClass46_0_TypeDefinitionIndex = 62336;
+	inline static constexpr unsigned int PlanetFesModule___c__DisplayClass46_0_TypeDefinitionIndex = 63702;
 
 	class PlanetFesModule___c__DisplayClass46_0 : public ::System::Object
 	{
 	public:
-		::Class_1_6BAFE11FCE160FB2* effect; // 0x10
+		::Class_1_EAA93C4FF12A6990_2* effect; // 0x10
 
 		::System::Void _ctor()
 		{

@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class ShowBattleTalkBGUI; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLASS_3_9B50334217DB8940_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xE48DB80)
-#define CLASS_3_9B50334217DB8940__CTOR_OFFSET UNITYSDK_OFFSET(0xE48DB50)
+#define CLASS_3_9B50334217DB8940_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x16FBF460)
+#define CLASS_3_9B50334217DB8940__CTOR_OFFSET UNITYSDK_OFFSET(0x16FBF430)
 
-inline static constexpr unsigned int Class_3_9B50334217DB8940_TypeDefinitionIndex = 54758;
+inline static constexpr unsigned int Class_3_9B50334217DB8940_TypeDefinitionIndex = 55985;
 
 class Class_3_9B50334217DB8940 : public ::RPG::GameCore::ImmediateTaskBase_1<::RPG::GameCore::ShowBattleTalkBGUI*>
 {

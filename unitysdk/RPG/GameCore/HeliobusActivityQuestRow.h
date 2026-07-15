@@ -5,21 +5,21 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_HELIOBUSACTIVITYQUESTROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x198224B0)
-#define RPG_GAMECORE_HELIOBUSACTIVITYQUESTROW__CTOR_OFFSET UNITYSDK_OFFSET(0x19822700)
+#define RPG_GAMECORE_HELIOBUSACTIVITYQUESTROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B674C10)
+#define RPG_GAMECORE_HELIOBUSACTIVITYQUESTROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1B675360)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int HeliobusActivityQuestRow_TypeDefinitionIndex = 13113;
+	inline static constexpr unsigned int HeliobusActivityQuestRow_TypeDefinitionIndex = 13261;
 
 	class HeliobusActivityQuestRow : public ::System::Object
 	{
 	public:
 		::Il2CppArray<::System::UInt32>* QuestList; // 0x10
-		::System::UInt32 QuestTabID; // 0x18
-		::System::UInt32 ActivityModuleID; // 0x1C
+		::System::UInt32 TypeGroupID; // 0x18
+		::System::UInt32 QuestTabID; // 0x1C
 		::RPG::Client::TextID QuestTabName; // 0x20
-		::System::UInt32 TypeGroupID; // 0x30
+		::System::UInt32 ActivityModuleID; // 0x30
 
 		::System::Void _ctor()
 		{

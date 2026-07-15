@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RtStackSkillTargetRedirectPhase_TypeDefinitionIndex = 23452;
+	inline static constexpr unsigned int RtStackSkillTargetRedirectPhase_TypeDefinitionIndex = 23941;
 
 	enum class RtStackSkillTargetRedirectPhase : ::System::Int32
 	{

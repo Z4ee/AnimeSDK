@@ -4,11 +4,11 @@
 
 namespace UnityEngine { class AnimationCurve; }
 
-#define RPG_CLIENT_NPCPEDESTRIANGPUASSETCONFIG_WALKBAKEDDATA__CTOR_OFFSET UNITYSDK_OFFSET(0xC247470)
+#define RPG_CLIENT_NPCPEDESTRIANGPUASSETCONFIG_WALKBAKEDDATA__CTOR_OFFSET UNITYSDK_OFFSET(0x18EAF580)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int NPCPedestrianGPUAssetConfig_WalkBakedData_TypeDefinitionIndex = 64762;
+	inline static constexpr unsigned int NPCPedestrianGPUAssetConfig_WalkBakedData_TypeDefinitionIndex = 66163;
 
 	class NPCPedestrianGPUAssetConfig_WalkBakedData : public ::System::Object
 	{

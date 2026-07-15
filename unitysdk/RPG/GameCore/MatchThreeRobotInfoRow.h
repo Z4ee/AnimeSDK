@@ -6,20 +6,20 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_MATCHTHREEROBOTINFOROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x198F3680)
-#define RPG_GAMECORE_MATCHTHREEROBOTINFOROW__CTOR_OFFSET UNITYSDK_OFFSET(0x198F3890)
+#define RPG_GAMECORE_MATCHTHREEROBOTINFOROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1BD33D00)
+#define RPG_GAMECORE_MATCHTHREEROBOTINFOROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1BD33F10)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MatchThreeRobotInfoRow_TypeDefinitionIndex = 11407;
+	inline static constexpr unsigned int MatchThreeRobotInfoRow_TypeDefinitionIndex = 11507;
 
 	class MatchThreeRobotInfoRow : public ::System::Object
 	{
 	public:
 		::System::String* HeadIcon; // 0x10
-		::System::UInt32 Level; // 0x18
-		::System::UInt32 RobotID; // 0x1C
-		::RPG::Client::TextID Name; // 0x20
+		::RPG::Client::TextID Name; // 0x18
+		::System::UInt32 Level; // 0x28
+		::System::UInt32 RobotID; // 0x2C
 
 		::System::Void _ctor()
 		{

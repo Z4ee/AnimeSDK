@@ -7,27 +7,27 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_RELICCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x19ABCFB0)
-#define RPG_GAMECORE_RELICCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x19ABE100)
+#define RPG_GAMECORE_RELICCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1B9C40D0)
+#define RPG_GAMECORE_RELICCONFIGROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1B9C51F0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RelicConfigRow_TypeDefinitionIndex = 13898;
+	inline static constexpr unsigned int RelicConfigRow_TypeDefinitionIndex = 14046;
 
 	class RelicConfigRow : public ::System::Object
 	{
 	public:
-		::System::UInt32 SubAffixGroup; // 0x10
-		::RPG::GameCore::CombatPowerRelicRarityType Rarity; // 0x14
-		::System::UInt32 ID; // 0x18
-		::System::UInt32 MainAffixGroup; // 0x1C
-		::System::UInt32 ExpProvide; // 0x20
-		::RPG::GameCore::RelicMode Mode; // 0x24
-		::System::UInt32 ExpType; // 0x28
-		::System::UInt32 SetID; // 0x2C
-		::RPG::GameCore::RelicType Type; // 0x30
-		::System::UInt32 CoinCost; // 0x34
-		::System::UInt32 MaxLevel; // 0x38
+		::System::UInt32 ExpProvide; // 0x10
+		::System::UInt32 ID; // 0x14
+		::System::UInt32 ExpType; // 0x18
+		::System::UInt32 SubAffixGroup; // 0x1C
+		::RPG::GameCore::RelicType Type; // 0x20
+		::System::UInt32 MaxLevel; // 0x24
+		::System::UInt32 SetID; // 0x28
+		::RPG::GameCore::RelicMode Mode; // 0x2C
+		::RPG::GameCore::CombatPowerRelicRarityType Rarity; // 0x30
+		::System::UInt32 MainAffixGroup; // 0x34
+		::System::UInt32 CoinCost; // 0x38
 
 		::System::Void _ctor()
 		{

@@ -3,10 +3,10 @@
 #include "unitysdk/RPG/GameCore/GenderType.h"
 #include "unitysdk/System/Object.h"
 
-#define CLASS_1_D40D0068F1C59DD9_METHOD_1_14E1525B04DB30D5_OFFSET UNITYSDK_OFFSET(0xB021940)
-#define CLASS_1_D40D0068F1C59DD9__CTOR_OFFSET UNITYSDK_OFFSET(0xB021A00)
+#define CLASS_1_D40D0068F1C59DD9_METHOD_1_14E1525B04DB30D5_OFFSET UNITYSDK_OFFSET(0x17455DB0)
+#define CLASS_1_D40D0068F1C59DD9__CTOR_OFFSET UNITYSDK_OFFSET(0x17455E70)
 
-inline static constexpr unsigned int Class_1_D40D0068F1C59DD9_TypeDefinitionIndex = 58620;
+inline static constexpr unsigned int Class_1_D40D0068F1C59DD9_TypeDefinitionIndex = 59891;
 
 class Class_1_D40D0068F1C59DD9 : public ::System::Object
 {

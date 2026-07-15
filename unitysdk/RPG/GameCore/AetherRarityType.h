@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AetherRarityType_TypeDefinitionIndex = 10495;
+	inline static constexpr unsigned int AetherRarityType_TypeDefinitionIndex = 10543;
 
 	enum class AetherRarityType : ::System::Int32
 	{

@@ -4,18 +4,18 @@
 
 class Class_1_7A22A3DBEEDD1F80;
 
-#define RPG_GAMECORE_ROGUEDLCENDGAMEREWARDROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x19B30430)
-#define RPG_GAMECORE_ROGUEDLCENDGAMEREWARDROW__CTOR_OFFSET UNITYSDK_OFFSET(0x19B30570)
+#define RPG_GAMECORE_ROGUEDLCENDGAMEREWARDROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1C4BD370)
+#define RPG_GAMECORE_ROGUEDLCENDGAMEREWARDROW__CTOR_OFFSET UNITYSDK_OFFSET(0x1C4BD4B0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RogueDLCEndGameRewardRow_TypeDefinitionIndex = 14068;
+	inline static constexpr unsigned int RogueDLCEndGameRewardRow_TypeDefinitionIndex = 14216;
 
 	class RogueDLCEndGameRewardRow : public ::System::Object
 	{
 	public:
-		::System::UInt32 QuestID; // 0x10
-		::System::UInt32 Sort; // 0x14
+		::System::UInt32 Sort; // 0x10
+		::System::UInt32 QuestID; // 0x14
 		::System::UInt32 EndGameRewardID; // 0x18
 
 		::System::Void _ctor()

@@ -5,7 +5,7 @@ namespace System { class String; }
 
 namespace UnityEngine::Networking
 {
-	inline static constexpr unsigned int IMultipartFormSection_TypeDefinitionIndex = 5352;
+	inline static constexpr unsigned int IMultipartFormSection_TypeDefinitionIndex = 5357;
 
 	class IMultipartFormSection
 	{

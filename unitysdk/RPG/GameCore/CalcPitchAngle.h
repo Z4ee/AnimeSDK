@@ -7,13 +7,13 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class TargetEvaluator; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_CALCPITCHANGLE_METHOD_3_A5F3D5A683C9F115_OFFSET UNITYSDK_OFFSET(0x195F2850)
-#define RPG_GAMECORE_CALCPITCHANGLE_METHOD_3_D18007096DDFE63B_OFFSET UNITYSDK_OFFSET(0x195F28D0)
-#define RPG_GAMECORE_CALCPITCHANGLE__CTOR_OFFSET UNITYSDK_OFFSET(0x195F28A0)
+#define RPG_GAMECORE_CALCPITCHANGLE_METHOD_3_35B9D3D4278759CA_OFFSET UNITYSDK_OFFSET(0x1B707F90)
+#define RPG_GAMECORE_CALCPITCHANGLE_METHOD_3_D18007096DDFE63B_OFFSET UNITYSDK_OFFSET(0x1B707FD0)
+#define RPG_GAMECORE_CALCPITCHANGLE__CTOR_OFFSET UNITYSDK_OFFSET(0x1B707FC0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int CalcPitchAngle_TypeDefinitionIndex = 19107;
+	inline static constexpr unsigned int CalcPitchAngle_TypeDefinitionIndex = 19462;
 
 	class CalcPitchAngle : public ::RPG::GameCore::TaskConfig
 	{
@@ -31,9 +31,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CALCPITCHANGLE__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_A5F3D5A683C9F115(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::CalcPitchAngle*& a2)
+		static ::System::Void Method_3_35B9D3D4278759CA(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::CalcPitchAngle*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::CalcPitchAngle*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CALCPITCHANGLE_METHOD_3_A5F3D5A683C9F115_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::CalcPitchAngle*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CALCPITCHANGLE_METHOD_3_35B9D3D4278759CA_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_D18007096DDFE63B(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::CalcPitchAngle* a2)

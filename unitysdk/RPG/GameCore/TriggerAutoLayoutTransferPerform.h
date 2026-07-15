@@ -6,13 +6,13 @@
 class Class_1_7A22A3DBEEDD1F80;
 namespace System { class String; }
 
-#define RPG_GAMECORE_TRIGGERAUTOLAYOUTTRANSFERPERFORM_METHOD_3_8DC045631A921799_OFFSET UNITYSDK_OFFSET(0x19E08740)
-#define RPG_GAMECORE_TRIGGERAUTOLAYOUTTRANSFERPERFORM_METHOD_3_C66B14ABFC3E31E5_OFFSET UNITYSDK_OFFSET(0x19E086C0)
-#define RPG_GAMECORE_TRIGGERAUTOLAYOUTTRANSFERPERFORM__CTOR_OFFSET UNITYSDK_OFFSET(0x19E08710)
+#define RPG_GAMECORE_TRIGGERAUTOLAYOUTTRANSFERPERFORM_METHOD_3_18CB4844A8DD2FD6_OFFSET UNITYSDK_OFFSET(0x1B046470)
+#define RPG_GAMECORE_TRIGGERAUTOLAYOUTTRANSFERPERFORM_METHOD_3_8DC045631A921799_OFFSET UNITYSDK_OFFSET(0x1B0464B0)
+#define RPG_GAMECORE_TRIGGERAUTOLAYOUTTRANSFERPERFORM__CTOR_OFFSET UNITYSDK_OFFSET(0x1B0464A0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TriggerAutoLayoutTransferPerform_TypeDefinitionIndex = 21872;
+	inline static constexpr unsigned int TriggerAutoLayoutTransferPerform_TypeDefinitionIndex = 22299;
 
 	class TriggerAutoLayoutTransferPerform : public ::RPG::GameCore::TaskConfig
 	{
@@ -25,9 +25,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TRIGGERAUTOLAYOUTTRANSFERPERFORM__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_C66B14ABFC3E31E5(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::TriggerAutoLayoutTransferPerform*& a2)
+		static ::System::Void Method_3_18CB4844A8DD2FD6(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::TriggerAutoLayoutTransferPerform*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::TriggerAutoLayoutTransferPerform*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TRIGGERAUTOLAYOUTTRANSFERPERFORM_METHOD_3_C66B14ABFC3E31E5_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::TriggerAutoLayoutTransferPerform*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TRIGGERAUTOLAYOUTTRANSFERPERFORM_METHOD_3_18CB4844A8DD2FD6_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_8DC045631A921799(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::TriggerAutoLayoutTransferPerform* a2)

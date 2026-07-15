@@ -5,39 +5,39 @@
 namespace RPG::Client::ActivityIdleLive { class IdleLiveDungeonRankData; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEDUNGEONRANKINFO___C__CCTOR_OFFSET UNITYSDK_OFFSET(0xB136510)
-#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEDUNGEONRANKINFO___C__CTOR_OFFSET UNITYSDK_OFFSET(0xB136550)
-#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEDUNGEONRANKINFO___C__GETRANKDATASSORTED_B__2_0_OFFSET UNITYSDK_OFFSET(0xB136560)
-#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEDUNGEONRANKINFO___C__GETRANKDATASSORTED_B__2_1_OFFSET UNITYSDK_OFFSET(0xB1365F0)
-#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEDUNGEONRANKINFO___C__GETRANKDATASSORTED_B__2_2_OFFSET UNITYSDK_OFFSET(0xB136680)
-#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEDUNGEONRANKINFO___C__GETRANKDATASSORTED_B__2_3_OFFSET UNITYSDK_OFFSET(0xB1366A0)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEDUNGEONRANKINFO___C__CCTOR_OFFSET UNITYSDK_OFFSET(0x1A6581C0)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEDUNGEONRANKINFO___C__CTOR_OFFSET UNITYSDK_OFFSET(0x1A658200)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEDUNGEONRANKINFO___C__GETRANKDATASSORTED_B__2_0_OFFSET UNITYSDK_OFFSET(0x1A658210)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEDUNGEONRANKINFO___C__GETRANKDATASSORTED_B__2_1_OFFSET UNITYSDK_OFFSET(0x1A6582A0)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEDUNGEONRANKINFO___C__GETRANKDATASSORTED_B__2_2_OFFSET UNITYSDK_OFFSET(0x1A658330)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEDUNGEONRANKINFO___C__GETRANKDATASSORTED_B__2_3_OFFSET UNITYSDK_OFFSET(0x1A658350)
 
 namespace RPG::Client::ActivityIdleLive
 {
-	inline static constexpr unsigned int IdleLiveDungeonRankInfo___c_TypeDefinitionIndex = 70089;
+	inline static constexpr unsigned int IdleLiveDungeonRankInfo___c_TypeDefinitionIndex = 71612;
 
 	class IdleLiveDungeonRankInfo___c : public ::System::Object
 	{
 	public:
-		static ::System::Func_2<::RPG::Client::ActivityIdleLive::IdleLiveDungeonRankData*, ::System::Boolean>** StaticGet___9__2_0()
-		{
-			return (::System::Func_2<::RPG::Client::ActivityIdleLive::IdleLiveDungeonRankData*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(IdleLiveDungeonRankInfo___c_TypeDefinitionIndex)->GetStaticField(0x52700);
-		}
-		static ::System::Func_2<::RPG::Client::ActivityIdleLive::IdleLiveDungeonRankData*, ::System::Boolean>** StaticGet___9__2_1()
-		{
-			return (::System::Func_2<::RPG::Client::ActivityIdleLive::IdleLiveDungeonRankData*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(IdleLiveDungeonRankInfo___c_TypeDefinitionIndex)->GetStaticField(0x52708);
-		}
 		static ::System::Func_2<::RPG::Client::ActivityIdleLive::IdleLiveDungeonRankData*, ::System::UInt32>** StaticGet___9__2_2()
 		{
-			return (::System::Func_2<::RPG::Client::ActivityIdleLive::IdleLiveDungeonRankData*, ::System::UInt32>**)Il2CppClass::FromTypeDefinitionIndex(IdleLiveDungeonRankInfo___c_TypeDefinitionIndex)->GetStaticField(0x52710);
-		}
-		static ::System::Func_2<::RPG::Client::ActivityIdleLive::IdleLiveDungeonRankData*, ::System::UInt32>** StaticGet___9__2_3()
-		{
-			return (::System::Func_2<::RPG::Client::ActivityIdleLive::IdleLiveDungeonRankData*, ::System::UInt32>**)Il2CppClass::FromTypeDefinitionIndex(IdleLiveDungeonRankInfo___c_TypeDefinitionIndex)->GetStaticField(0x52718);
+			return (::System::Func_2<::RPG::Client::ActivityIdleLive::IdleLiveDungeonRankData*, ::System::UInt32>**)Il2CppClass::FromTypeDefinitionIndex(IdleLiveDungeonRankInfo___c_TypeDefinitionIndex)->GetStaticField(0x3E840);
 		}
 		static ::RPG::Client::ActivityIdleLive::IdleLiveDungeonRankInfo___c** StaticGet___9()
 		{
-			return (::RPG::Client::ActivityIdleLive::IdleLiveDungeonRankInfo___c**)Il2CppClass::FromTypeDefinitionIndex(IdleLiveDungeonRankInfo___c_TypeDefinitionIndex)->GetStaticField(0x52720);
+			return (::RPG::Client::ActivityIdleLive::IdleLiveDungeonRankInfo___c**)Il2CppClass::FromTypeDefinitionIndex(IdleLiveDungeonRankInfo___c_TypeDefinitionIndex)->GetStaticField(0x3E848);
+		}
+		static ::System::Func_2<::RPG::Client::ActivityIdleLive::IdleLiveDungeonRankData*, ::System::UInt32>** StaticGet___9__2_3()
+		{
+			return (::System::Func_2<::RPG::Client::ActivityIdleLive::IdleLiveDungeonRankData*, ::System::UInt32>**)Il2CppClass::FromTypeDefinitionIndex(IdleLiveDungeonRankInfo___c_TypeDefinitionIndex)->GetStaticField(0x3E850);
+		}
+		static ::System::Func_2<::RPG::Client::ActivityIdleLive::IdleLiveDungeonRankData*, ::System::Boolean>** StaticGet___9__2_1()
+		{
+			return (::System::Func_2<::RPG::Client::ActivityIdleLive::IdleLiveDungeonRankData*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(IdleLiveDungeonRankInfo___c_TypeDefinitionIndex)->GetStaticField(0x3E858);
+		}
+		static ::System::Func_2<::RPG::Client::ActivityIdleLive::IdleLiveDungeonRankData*, ::System::Boolean>** StaticGet___9__2_0()
+		{
+			return (::System::Func_2<::RPG::Client::ActivityIdleLive::IdleLiveDungeonRankData*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(IdleLiveDungeonRankInfo___c_TypeDefinitionIndex)->GetStaticField(0x3E860);
 		}
 
 		static ::System::Void _cctor()

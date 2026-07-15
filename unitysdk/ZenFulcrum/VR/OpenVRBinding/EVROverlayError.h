@@ -3,7 +3,7 @@
 
 namespace ZenFulcrum::VR::OpenVRBinding
 {
-	inline static constexpr unsigned int EVROverlayError_TypeDefinitionIndex = 36295;
+	inline static constexpr unsigned int EVROverlayError_TypeDefinitionIndex = 37077;
 
 	enum class EVROverlayError : ::System::Int32
 	{

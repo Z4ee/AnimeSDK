@@ -3,7 +3,7 @@
 
 namespace HoudiniEngineUnity
 {
-	inline static constexpr unsigned int HAPI_CurveOrders_TypeDefinitionIndex = 37510;
+	inline static constexpr unsigned int HAPI_CurveOrders_TypeDefinitionIndex = 38318;
 
 	enum class HAPI_CurveOrders : ::System::Int32
 	{

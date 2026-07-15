@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Attribute.h"
 
-#define UNITY_COLLECTIONS_READONLYATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1B276BF0)
+#define UNITY_COLLECTIONS_READONLYATTRIBUTE__CTOR_OFFSET UNITYSDK_OFFSET(0x1C4C91E0)
 
 namespace Unity::Collections
 {
-	inline static constexpr unsigned int ReadOnlyAttribute_TypeDefinitionIndex = 3965;
+	inline static constexpr unsigned int ReadOnlyAttribute_TypeDefinitionIndex = 3970;
 
 	class ReadOnlyAttribute : public ::System::Attribute
 	{

@@ -6,13 +6,13 @@ class Class_1_7A22A3DBEEDD1F80;
 namespace RPG::GameCore { class TargetEvaluator; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_SETHEADBUTTONEFF_METHOD_3_3FC2025C12863CA8_OFFSET UNITYSDK_OFFSET(0x19C514C0)
-#define RPG_GAMECORE_SETHEADBUTTONEFF_METHOD_3_92FC4603BC3C9554_OFFSET UNITYSDK_OFFSET(0x19C513F0)
-#define RPG_GAMECORE_SETHEADBUTTONEFF__CTOR_OFFSET UNITYSDK_OFFSET(0x19C51470)
+#define RPG_GAMECORE_SETHEADBUTTONEFF_METHOD_3_10E55575C347375D_OFFSET UNITYSDK_OFFSET(0x1C5FC4D0)
+#define RPG_GAMECORE_SETHEADBUTTONEFF_METHOD_3_3FC2025C12863CA8_OFFSET UNITYSDK_OFFSET(0x1C5FC570)
+#define RPG_GAMECORE_SETHEADBUTTONEFF__CTOR_OFFSET UNITYSDK_OFFSET(0x1C5FC530)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SetHeadButtonEff_TypeDefinitionIndex = 21503;
+	inline static constexpr unsigned int SetHeadButtonEff_TypeDefinitionIndex = 21924;
 
 	class SetHeadButtonEff : public ::RPG::GameCore::TaskConfig
 	{
@@ -27,9 +27,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETHEADBUTTONEFF__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_92FC4603BC3C9554(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SetHeadButtonEff*& a2)
+		static ::System::Void Method_3_10E55575C347375D(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SetHeadButtonEff*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SetHeadButtonEff*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETHEADBUTTONEFF_METHOD_3_92FC4603BC3C9554_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SetHeadButtonEff*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETHEADBUTTONEFF_METHOD_3_10E55575C347375D_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_3FC2025C12863CA8(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SetHeadButtonEff* a2)

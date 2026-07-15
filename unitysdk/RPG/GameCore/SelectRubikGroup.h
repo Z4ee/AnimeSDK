@@ -8,13 +8,13 @@ namespace RPG::GameCore { class DynamicString; }
 namespace RPG::GameCore { class TargetEvaluator; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_SELECTRUBIKGROUP_METHOD_3_11C7A81FDC567CB5_OFFSET UNITYSDK_OFFSET(0x19C20AC0)
-#define RPG_GAMECORE_SELECTRUBIKGROUP_METHOD_3_1BE59FE3D4E30449_OFFSET UNITYSDK_OFFSET(0x19C20B40)
-#define RPG_GAMECORE_SELECTRUBIKGROUP__CTOR_OFFSET UNITYSDK_OFFSET(0x19C20B10)
+#define RPG_GAMECORE_SELECTRUBIKGROUP_METHOD_3_17479EAD79D609F3_OFFSET UNITYSDK_OFFSET(0x1C2CA8C0)
+#define RPG_GAMECORE_SELECTRUBIKGROUP_METHOD_3_1BE59FE3D4E30449_OFFSET UNITYSDK_OFFSET(0x1C2CA900)
+#define RPG_GAMECORE_SELECTRUBIKGROUP__CTOR_OFFSET UNITYSDK_OFFSET(0x1C2CA8F0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SelectRubikGroup_TypeDefinitionIndex = 20920;
+	inline static constexpr unsigned int SelectRubikGroup_TypeDefinitionIndex = 21335;
 
 	class SelectRubikGroup : public ::RPG::GameCore::TaskConfig
 	{
@@ -31,9 +31,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SELECTRUBIKGROUP__CTOR_OFFSET))(this);
 		}
 
-		static ::System::Void Method_3_11C7A81FDC567CB5(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SelectRubikGroup*& a2)
+		static ::System::Void Method_3_17479EAD79D609F3(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SelectRubikGroup*& a2)
 		{
-			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SelectRubikGroup*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SELECTRUBIKGROUP_METHOD_3_11C7A81FDC567CB5_OFFSET))(a1, a2);
+			return ((::System::Void(*)(::Class_1_7A22A3DBEEDD1F80*, ::RPG::GameCore::SelectRubikGroup*&))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SELECTRUBIKGROUP_METHOD_3_17479EAD79D609F3_OFFSET))(a1, a2);
 		}
 
 		static ::System::Void Method_3_1BE59FE3D4E30449(::Class_1_7A22A3DBEEDD1F80* a1, ::RPG::GameCore::SelectRubikGroup* a2)

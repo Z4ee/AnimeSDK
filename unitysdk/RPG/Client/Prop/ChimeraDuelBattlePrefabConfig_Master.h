@@ -3,11 +3,11 @@
 #include "unitysdk/RPG/Client/WeakAssetReference.h"
 #include "unitysdk/System/Object.h"
 
-#define RPG_CLIENT_PROP_CHIMERADUELBATTLEPREFABCONFIG_MASTER__CTOR_OFFSET UNITYSDK_OFFSET(0xC501360)
+#define RPG_CLIENT_PROP_CHIMERADUELBATTLEPREFABCONFIG_MASTER__CTOR_OFFSET UNITYSDK_OFFSET(0x16E17C30)
 
 namespace RPG::Client::Prop
 {
-	inline static constexpr unsigned int ChimeraDuelBattlePrefabConfig_Master_TypeDefinitionIndex = 72830;
+	inline static constexpr unsigned int ChimeraDuelBattlePrefabConfig_Master_TypeDefinitionIndex = 74355;
 
 	class ChimeraDuelBattlePrefabConfig_Master : public ::System::Object
 	{

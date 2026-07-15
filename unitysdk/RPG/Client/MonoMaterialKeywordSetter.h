@@ -6,13 +6,13 @@ namespace System { class String; }
 namespace UnityEngine { class Material; }
 namespace UnityEngine { class Renderer; }
 
-#define RPG_CLIENT_MONOMATERIALKEYWORDSETTER_LATEUPDATE_OFFSET UNITYSDK_OFFSET(0xC12ECD0)
-#define RPG_CLIENT_MONOMATERIALKEYWORDSETTER_ONENABLE_OFFSET UNITYSDK_OFFSET(0xC12EC30)
-#define RPG_CLIENT_MONOMATERIALKEYWORDSETTER__CTOR_OFFSET UNITYSDK_OFFSET(0xC12EEB0)
+#define RPG_CLIENT_MONOMATERIALKEYWORDSETTER_LATEUPDATE_OFFSET UNITYSDK_OFFSET(0x18C608D0)
+#define RPG_CLIENT_MONOMATERIALKEYWORDSETTER_ONENABLE_OFFSET UNITYSDK_OFFSET(0x18C60830)
+#define RPG_CLIENT_MONOMATERIALKEYWORDSETTER__CTOR_OFFSET UNITYSDK_OFFSET(0x18C60AB0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MonoMaterialKeywordSetter_TypeDefinitionIndex = 66409;
+	inline static constexpr unsigned int MonoMaterialKeywordSetter_TypeDefinitionIndex = 67845;
 
 	class MonoMaterialKeywordSetter : public ::UnityEngine::MonoBehaviour
 	{

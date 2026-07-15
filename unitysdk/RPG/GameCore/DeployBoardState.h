@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int DeployBoardState_TypeDefinitionIndex = 23155;
+	inline static constexpr unsigned int DeployBoardState_TypeDefinitionIndex = 23635;
 
 	enum class DeployBoardState : ::System::Int32
 	{

@@ -4,12 +4,12 @@
 
 namespace RPG::Client { class ActiveActivityData; }
 
-#define RPG_CLIENT_ACTIVITYACTIVEMODULE___C__DISPLAYCLASS5_0__CTOR_OFFSET UNITYSDK_OFFSET(0xB0827B0)
-#define RPG_CLIENT_ACTIVITYACTIVEMODULE___C__DISPLAYCLASS5_0__GETACTIVEACTIVITYDATABYACTIVITYID_B__0_OFFSET UNITYSDK_OFFSET(0xB083390)
+#define RPG_CLIENT_ACTIVITYACTIVEMODULE___C__DISPLAYCLASS5_0__CTOR_OFFSET UNITYSDK_OFFSET(0x194A70A0)
+#define RPG_CLIENT_ACTIVITYACTIVEMODULE___C__DISPLAYCLASS5_0__GETACTIVEACTIVITYDATABYACTIVITYID_B__0_OFFSET UNITYSDK_OFFSET(0x194A7D40)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ActivityActiveModule___c__DisplayClass5_0_TypeDefinitionIndex = 57383;
+	inline static constexpr unsigned int ActivityActiveModule___c__DisplayClass5_0_TypeDefinitionIndex = 58645;
 
 	class ActivityActiveModule___c__DisplayClass5_0 : public ::System::Object
 	{
